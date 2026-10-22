@@ -1565,7 +1565,6 @@ YÊU CẦU TRẢ VỀ ĐÚNG CẤU TRÚC JSON SAU:
         // 4. Chấm Phần IV (3 câu Tự luận * 1.0đ = 3.0đ) qua Gemini Vision
         let scorePart4 = 0;
         let essayFeedbacks = {};
-        const cleanKey = apiKey.trim();
 
         for (const q of examData.part4) {
           const imgDataUrl = essayImages[q.id] || sharedEssayImage;
