@@ -17,6 +17,7 @@ import time
 import signal
 import random
 import argparse
+import requests
 import urllib.request
 import urllib.error
 from datetime import datetime
@@ -294,20 +295,28 @@ def safe_extract_json(raw_text):
 
 def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
     """
-    Gọi Gemini API sử dụng model chuẩn gemini-1.5-pro:
-    - Đảm bảo gọi model tồn tại chuẩn xác
-    - 429 Rate Limit: Tự động sleep và exponential backoff
-    - 503 High Demand: Tự động chờ hoặc chuyển model dự phòng
+    Gọi Gemini API sử dụng model chuẩn gemini-1.5-pro bằng thư viện requests:
+    - URL Endpoint chuẩn xác: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent
+    - Truyền đồng thời query parameter ?key= và header x-goog-api-key để đảm bảo xác thực 100%
+    - 429 Rate Limit: Tự động sleep và exponential backoff có thanh đếm lùi
+    - 503 High Demand: Tự động chờ và chuyển model dự phòng
     - Network timeout: Tự động thử lại
     """
-    headers = {"Content-Type": "application/json"}
-    body_data = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
+    clean_key = api_key.strip().strip('"').strip("'").strip()
+
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt}
+                ]
+            }
+        ],
         "generationConfig": {
             "responseMimeType": "application/json",
             "temperature": 0.35
         }
-    }).encode("utf-8")
+    }
 
     # Thứ tự ưu tiên: model_name chỉ định (gemini-1.5-pro), sau đó là các model hợp lệ khác
     models_to_try = [model_name]
@@ -324,53 +333,61 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
 
         attempt += 1
         model = models_to_try[model_idx % len(models_to_try)]
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        
+        # Endpoint chính thức theo chuẩn Google Generative Language API
+        endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+        headers = {
+            "Content-Type": "application/json",
+            "x-goog-api-key": clean_key
+        }
+        params = {
+            "key": clean_key
+        }
 
         try:
-            req = urllib.request.Request(url, data=body_data, headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=50) as response:
-                status_code = response.getcode()
-                response_text = response.read().decode("utf-8")
+            response = requests.post(
+                endpoint,
+                headers=headers,
+                params=params,
+                json=payload,
+                timeout=60
+            )
+            status_code = response.status_code
 
-                if status_code == 200:
-                    res_json = json.loads(response_text)
-                    raw_text = (
-                        res_json.get("candidates", [{}])[0]
-                        .get("content", {})
-                        .get("parts", [{}])[0]
-                        .get("text", "")
-                    )
-                    exam_data = safe_extract_json(raw_text)
+            if status_code == 200:
+                res_json = response.json()
+                raw_text = (
+                    res_json.get("candidates", [{}])[0]
+                    .get("content", {})
+                    .get("parts", [{}])[0]
+                    .get("text", "")
+                )
+                exam_data = safe_extract_json(raw_text)
 
-                    if (
-                        exam_data
-                        and len(exam_data.get("part1", [])) == 12
-                        and len(exam_data.get("part2", [])) == 2
-                        and len(exam_data.get("part3", [])) == 4
-                        and len(exam_data.get("part4", [])) == 3
-                    ):
-                        return exam_data
-                    else:
-                        print(f"    ⚠️ Phản hồi từ {model} chưa đủ cấu trúc 4 phần, đang thử lại lần {attempt}...")
-                        time.sleep(3)
-                        continue
+                if (
+                    exam_data
+                    and len(exam_data.get("part1", [])) == 12
+                    and len(exam_data.get("part2", [])) == 2
+                    and len(exam_data.get("part3", [])) == 4
+                    and len(exam_data.get("part4", [])) == 3
+                ):
+                    return exam_data
+                else:
+                    print(f"    ⚠️ Phản hồi từ {model} chưa đủ cấu trúc 4 phần, đang thử lại lần {attempt}...")
+                    time.sleep(3)
+                    continue
 
-        except urllib.error.HTTPError as e:
-            err_body = ""
-            try:
-                err_body = e.read().decode("utf-8")
-            except Exception:
-                pass
-
-            if e.code == 404:
-                print(f"\n    ❌ [HTTP 404] Mô hình '{model}' không tìm thấy trên API v1beta.")
+            elif status_code == 404:
+                print(f"\n    ❌ [HTTP 404 NOT FOUND] URL: {endpoint}")
+                print(f"       Chi tiết lỗi: {response.text[:200]}")
                 model_idx += 1
                 next_model = models_to_try[model_idx % len(models_to_try)]
-                print(f"       Tự động đổi sang mô hình chuẩn: {next_model}...")
+                print(f"       Tự động đổi sang mô hình: {next_model}...")
                 time.sleep(3)
                 continue
 
-            elif e.code == 429:
+            elif status_code == 429:
                 backoff_time = min(120, int(20 * (1.6 ** min(attempt, 4)) + random.uniform(2, 6)))
                 print(f"\n    ⏳ [RATE LIMIT 429] Đạt ngưỡng giới hạn gọi API ({model}).")
                 print(f"       Tự động tạm dừng {backoff_time}s trước khi tiếp tục...")
@@ -383,24 +400,24 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
                 print()
                 continue
 
-            elif e.code in (500, 502, 503, 504):
-                print(f"\n    ⚠️ [SERVER BUSY {e.code}] Mô hình {model} đang quá tải.")
+            elif status_code in (500, 502, 503, 504):
+                print(f"\n    ⚠️ [SERVER BUSY {status_code}] Mô hình {model} đang quá tải.")
                 model_idx += 1
                 next_model = models_to_try[model_idx % len(models_to_try)]
                 print(f"       Tự động chuyển sang model: {next_model} (chờ 10s)...")
                 time.sleep(10)
                 continue
 
-            elif e.code == 400 and ("API_KEY_INVALID" in err_body or "API key not valid" in err_body):
+            elif status_code == 400 and ("API_KEY_INVALID" in response.text or "API key not valid" in response.text):
                 print("\n    ❌ [LỖI API KEY] Mã Gemini API Key không hợp lệ. Vui lòng kiểm tra lại key!")
                 return None
 
             else:
-                print(f"\n    ⚠️ [HTTP {e.code}] Lỗi yêu cầu: {e.reason}. Thử lại sau 15s...")
+                print(f"\n    ⚠️ [HTTP {status_code}] Lỗi yêu cầu: {response.text[:150]}. Thử lại sau 15s...")
                 time.sleep(15)
 
-        except (urllib.error.URLError, TimeoutError, ConnectionResetError) as e:
-            print(f"\n    🌐 [NETWORK ERROR] Mất kết nối mạng ({e}). Tự động thử lại sau 15s...")
+        except requests.exceptions.RequestException as e:
+            print(f"\n    🌐 [NETWORK ERROR] Lỗi kết nối mạng hoặc timeout ({e}). Tự động thử lại sau 15s...")
             time.sleep(15)
 
         except Exception as e:
