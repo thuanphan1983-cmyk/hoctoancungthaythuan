@@ -3,7 +3,7 @@
 ==============================================================================
 AUTO EXAM GENERATOR - HỆ THỐNG TỰ ĐỘNG SINH KHO ĐỀ KIỂM TRA TOÁN THCS (KNTT)
 Tự động duyệt 190 bài học Toán 6, 7, 8, 9 x 3 đề phân hóa = 570 đề thi chuẩn ma trận 2025.
-Sử dụng mô hình chuẩn gemini-1.5-pro hỗ trợ logic Toán học tốt nhất.
+Sử dụng mô hình thế hệ mới gemini-2.5-pro hỗ trợ logic Toán học tốt nhất.
 Tích hợp cơ chế tự phục hồi, chống lỗi (try-catch), tự động chờ (sleep/delay/backoff)
 cho phép chạy miệt mài qua đêm mà không bị dừng đột ngột.
 ==============================================================================
@@ -25,11 +25,11 @@ from datetime import datetime
 # Đảm bảo hiển thị Unicode tiếng Việt trên Terminal Windows
 sys.stdout.reconfigure(encoding='utf-8')
 
-# Mô hình chuẩn cho logic Toán học (gemini-1.5-pro) và mô hình dự phòng (gemini-1.5-flash)
-DEFAULT_MODEL = "gemini-1.5-pro"
+# Mô hình thế hệ mới chuẩn cho logic Toán học (gemini-2.5-pro làm mặc định)
+DEFAULT_MODEL = "gemini-2.5-pro"
 CANDIDATE_MODELS = [
-    "gemini-1.5-pro",
-    "gemini-1.5-flash"
+    "gemini-2.5-pro",
+    "gemini-2.5-flash"
 ]
 
 # Thư mục gốc của dự án
@@ -295,8 +295,8 @@ def safe_extract_json(raw_text):
 
 def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
     """
-    Gọi Gemini API sử dụng model chuẩn gemini-1.5-pro bằng thư viện requests:
-    - URL Endpoint chuẩn xác: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent
+    Gọi Gemini API sử dụng model thế hệ mới gemini-2.5-pro bằng thư viện requests:
+    - URL Endpoint chuẩn xác: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent
     - Truyền đồng thời query parameter ?key= và header x-goog-api-key để đảm bảo xác thực 100%
     - 429 Rate Limit: Tự động sleep và exponential backoff có thanh đếm lùi
     - 503 High Demand: Tự động chờ và chuyển model dự phòng
@@ -318,7 +318,7 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
         }
     }
 
-    # Thứ tự ưu tiên: model_name chỉ định (gemini-1.5-pro), sau đó là các model hợp lệ khác
+    # Thứ tự ưu tiên: model_name chỉ định (gemini-2.5-pro), sau đó là các model hợp lệ khác
     models_to_try = [model_name]
     for m in CANDIDATE_MODELS:
         if m not in models_to_try:
@@ -460,7 +460,7 @@ def save_chapter_exams(grade, chapter_id, chapter_title, exams_dict):
     js_var_name = f"EXAMS_{grade.upper()}_{chapter_id.upper()}"
     js_content = f"""// ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA {chapter_title.upper()} - TOÁN {grade} (KNTT)
-// Tự động sinh bởi Antigravity Auto Exam Generator (Mô hình: gemini-1.5-pro)
+// Tự động sinh bởi Antigravity Auto Exam Generator (Mô hình: gemini-2.5-pro)
 // Cập nhật lúc: {payload['updatedAt']}
 // ==============================================================================
 
