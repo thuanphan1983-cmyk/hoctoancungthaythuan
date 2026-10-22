@@ -293,11 +293,12 @@ def safe_extract_json(raw_text):
             return None
 
 
-def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
+def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, timeout=150, max_retries=10):
     """
     Gọi Gemini API sử dụng model gemini-3.8-flash bằng thư viện requests:
     - URL Endpoint chuẩn xác: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent
     - Truyền đồng thời query parameter ?key= và header x-goog-api-key để đảm bảo xác thực 100%
+    - Timeout: Tăng lên 150 giây để thoải mái sinh đề thi dài đầy đủ 4 phần
     - 429 Rate Limit: Tự động sleep và exponential backoff có thanh đếm lùi
     - 503 High Demand: Tự động chờ và chuyển model dự phòng
     - Network timeout: Tự động thử lại
@@ -351,7 +352,7 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
                 headers=headers,
                 params=params,
                 json=payload,
-                timeout=60
+                timeout=timeout
             )
             status_code = response.status_code
 
@@ -416,8 +417,12 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
                 print(f"\n    ⚠️ [HTTP {status_code}] Lỗi yêu cầu: {response.text[:150]}. Thử lại sau 15s...")
                 time.sleep(15)
 
+        except requests.exceptions.Timeout as e:
+            print(f"\n    ⏳ [READ TIMEOUT > {timeout}s] Đề thi dài đang được Gemini tạo nhưng phản hồi vượt quá {timeout}s. Tự động thử lại sau 10s...")
+            time.sleep(10)
+
         except requests.exceptions.RequestException as e:
-            print(f"\n    🌐 [NETWORK ERROR] Lỗi kết nối mạng hoặc timeout ({e}). Tự động thử lại sau 15s...")
+            print(f"\n    🌐 [NETWORK ERROR] Lỗi kết nối mạng ({e}). Tự động thử lại sau 15s...")
             time.sleep(15)
 
         except Exception as e:
@@ -514,7 +519,7 @@ def load_existing_chapter_exams(grade, chapter_id):
 # ==============================================================================
 # 6. HÀM ĐIỀU PHỐI CHÍNH (MAIN ORCHESTRATOR)
 # ==============================================================================
-def run_generator(api_key, target_grade="all", target_chapter="all", model_name=DEFAULT_MODEL, delay=4, force=False):
+def run_generator(api_key, target_grade="all", target_chapter="all", model_name=DEFAULT_MODEL, delay=4, timeout=150, force=False):
     """Vòng lặp chính duyệt qua khung chương trình và sinh đề thi"""
     curriculum = load_curriculum()
     progress = load_progress()
@@ -557,6 +562,7 @@ def run_generator(api_key, target_grade="all", target_chapter="all", model_name=
     print(f"✅ Đã có sẵn / hoàn thành trước đó: {len(all_tasks) - len(remaining_tasks)} đề")
     print(f"⏳ Cần sinh mới tiếp tục: {len(remaining_tasks)} đề")
     print(f"⏱️ Thời gian trễ giữa các lượt: {delay}s (chống nghẽn rate limit)")
+    print(f"⏳ Thời gian chờ timeout tối đa: {timeout}s (cho phép tạo đủ 4 phần chuẩn ma trận)")
     print("=" * 80 + "\n")
 
     if not remaining_tasks:
@@ -590,7 +596,7 @@ def run_generator(api_key, target_grade="all", target_chapter="all", model_name=
         print(f"    🔑 Key: {exam_key} | Bắt đầu gọi {model_name}...")
 
         prompt = build_prompt(grade, ch, lesson, test_num)
-        exam_data = call_gemini_api(api_key, prompt, model_name=model_name)
+        exam_data = call_gemini_api(api_key, prompt, model_name=model_name, timeout=timeout)
 
         if exam_data:
             chapter_exams[exam_key] = exam_data
@@ -640,6 +646,7 @@ def main():
     parser.add_argument("--grade", "-g", type=str, default="all", choices=["6", "7", "8", "9", "all"], help="Khối lớp (6, 7, 8, 9 hoặc all)")
     parser.add_argument("--chapter", "-c", type=str, default="all", help="ID chương cụ thể (ví dụ: c1_8, c2_8, c1_9...)")
     parser.add_argument("--delay", "-d", type=int, default=4, help="Thời gian nghỉ (giây) giữa các lần gọi API (mặc định 4s)")
+    parser.add_argument("--timeout", "-t", type=int, default=150, help="Thời gian chờ timeout tối đa cho mỗi yêu cầu API (giây, mặc định: 150s)")
     parser.add_argument("--force", "-f", action="store_true", help="Sinh lại cả các đề đã có sẵn")
 
     args = parser.parse_args()
@@ -671,6 +678,7 @@ def main():
         target_chapter=args.chapter,
         model_name=args.model,
         delay=args.delay,
+        timeout=args.timeout,
         force=args.force
     )
 
