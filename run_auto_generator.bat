@@ -57,7 +57,7 @@ if "%USER_KEY%"=="" (
     echo [OK] Đã nạp Gemini API Key từ cấu hình file .env.
 )
 
-echo [OK] Mô hình AI: gemini-3.1-pro-preview (Thế hệ mới hỗ trợ logic Toán học tốt nhất)
+echo [OK] Mô hình AI: gemini-3.8-flash (Tốc độ cao, hạn mức API lớn, phù hợp sinh số lượng lớn)
 echo.
 echo ===============================================================================
 echo CHỌN CHẾ ĐỘ SINH ĐỀ:
@@ -70,20 +70,20 @@ set /p "MODE=Nhập lựa chọn của bạn (1, 2, 3 hoặc 4) [Mặc định: 
 
 if "%MODE%"=="1" (
     echo.
-    echo Bắt đầu sinh toàn bộ đề THCS bằng mô hình gemini-3.1-pro-preview...
+    echo Bắt đầu sinh toàn bộ đề THCS bằng mô hình gemini-3.8-flash...
     "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade all
 ) else if "%MODE%"=="3" (
     echo.
-    echo Bắt đầu sinh kho đề Toán 9 bằng mô hình gemini-3.1-pro-preview...
+    echo Bắt đầu sinh kho đề Toán 9 bằng mô hình gemini-3.8-flash...
     "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 9
 ) else if "%MODE%"=="4" (
     set /p "CUSTOM_GRADE=Nhập khối lớp muốn sinh (6, 7, 8 hoặc 9): "
     echo.
-    echo Bắt đầu sinh kho đề Toán %CUSTOM_GRADE% bằng mô hình gemini-3.1-pro-preview...
+    echo Bắt đầu sinh kho đề Toán %CUSTOM_GRADE% bằng mô hình gemini-3.8-flash...
     "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade %CUSTOM_GRADE%
 ) else (
     echo.
-    echo Bắt đầu sinh kho đề Toán 8 bằng mô hình gemini-3.1-pro-preview...
+    echo Bắt đầu sinh kho đề Toán 8 bằng mô hình gemini-3.8-flash...
     "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 8
 )
 
