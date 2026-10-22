@@ -1028,6 +1028,19 @@ if (typeof window !== "undefined") {
     // HÀM LẤY ĐỀ CHUẨN TỪ NGÂN HÀNG ĐỀ THI
     // ==========================================
     function getExamFromBank(grade, chapterId, lessonName, testNum = 1) {
+      // 1. Kiểm tra ngân hàng đề động theo chương (nếu được nạp từ src/data/generated)
+      const dynamicVar = `EXAMS_${grade}_${(chapterId || "").toUpperCase()}`;
+      const dynExams = typeof window !== 'undefined' ? window[dynamicVar] : null;
+      if (dynExams) {
+        const curChap = (window.CURRICULUM_KNTT || {})[grade]?.chapters.find(c => c.id === chapterId);
+        const lessonIdx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
+        const dynKey = `${chapterId}_bai${lessonIdx > 0 ? lessonIdx : 1}_test${testNum}`;
+        if (dynExams[dynKey]) {
+          return dynExams[dynKey];
+        }
+      }
+
+      // 2. Kiểm tra bộ đề Chương 1 Toán 8
       const c1Exams = window.CHAPTER1_TOAN8_EXAMS || (typeof CHAPTER1_TOAN8_EXAMS !== 'undefined' ? CHAPTER1_TOAN8_EXAMS : null);
       if (grade === "8" && c1Exams) {
         const les = (lessonName || "").toLowerCase();

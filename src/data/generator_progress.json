@@ -1,0 +1,117 @@
+{
+  "completed_exams": {
+    "c1_8_bai1_test1": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai1_test2": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai1_test3": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai2_test1": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai2_test2": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai2_test3": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai3_test1": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai3_test2": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai3_test3": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai4_test1": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai4_test2": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai4_test3": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai5_test1": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai5_test2": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai5_test3": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai6_test1": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai6_test2": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    },
+    "c1_8_bai6_test3": {
+      "grade": "8",
+      "chapterId": "c1_8",
+      "source": "prebuilt_chapter1Toan8Exams.js",
+      "completed_at": "pre-existing"
+    }
+  },
+  "last_updated": "2026-10-23 04:57:48",
+  "stats": {
+    "total_completed": 18,
+    "failed_attempts": 0
+  }
+}
