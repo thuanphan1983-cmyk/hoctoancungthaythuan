@@ -36,6 +36,14 @@ if (fs.existsSync(c1Path)) {
   console.log('✅ Đã xuất bản chapter1Toan8Exams.js sang dist/chapter1Toan8Exams.js');
 }
 
+// 2c. Sao chép thư mục dữ liệu đã sinh src/data/generated sang dist/generated (nếu có)
+const genDir = path.join(__dirname, 'src', 'data', 'generated');
+if (fs.existsSync(genDir)) {
+  const distGenDir = path.join(distDir, 'generated');
+  fs.cpSync(genDir, distGenDir, { recursive: true });
+  console.log('✅ Đã xuất bản toàn bộ đề sinh tự động sang dist/generated/');
+}
+
 // 3. Sao chép thư mục public/ (nếu có)
 const publicDir = path.join(__dirname, 'public');
 if (fs.existsSync(publicDir)) {
