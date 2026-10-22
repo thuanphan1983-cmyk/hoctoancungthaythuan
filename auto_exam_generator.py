@@ -3,6 +3,7 @@
 ==============================================================================
 AUTO EXAM GENERATOR - HỆ THỐNG TỰ ĐỘNG SINH KHO ĐỀ KIỂM TRA TOÁN THCS (KNTT)
 Tự động duyệt 190 bài học Toán 6, 7, 8, 9 x 3 đề phân hóa = 570 đề thi chuẩn ma trận 2025.
+Sử dụng mô hình chuẩn gemini-1.5-pro hỗ trợ logic Toán học tốt nhất.
 Tích hợp cơ chế tự phục hồi, chống lỗi (try-catch), tự động chờ (sleep/delay/backoff)
 cho phép chạy miệt mài qua đêm mà không bị dừng đột ngột.
 ==============================================================================
@@ -23,10 +24,10 @@ from datetime import datetime
 # Đảm bảo hiển thị Unicode tiếng Việt trên Terminal Windows
 sys.stdout.reconfigure(encoding='utf-8')
 
-# Danh sách các mô hình Gemini theo thứ tự ưu tiên
+# Mô hình chuẩn cho logic Toán học (gemini-1.5-pro) và mô hình dự phòng (gemini-1.5-flash)
+DEFAULT_MODEL = "gemini-1.5-pro"
 CANDIDATE_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
+    "gemini-1.5-pro",
     "gemini-1.5-flash"
 ]
 
@@ -119,7 +120,6 @@ def load_progress():
         except Exception as e:
             print(f"⚠️ Không đọc được file tiến độ cũ ({e}), tạo mới.")
 
-    # Khởi tạo mặc định
     return {
         "completed_exams": {},
         "last_updated": None,
@@ -271,13 +271,11 @@ def safe_extract_json(raw_text):
         return None
     
     text = raw_text.strip()
-    # Loại bỏ code fence markdown nếu có
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
         text = re.sub(r"\s*```$", "", text)
         text = text.strip()
 
-    # Tìm cặp ngoặc nhọn ngoài cùng
     start = text.find("{")
     end = text.rfind("}")
     if start != -1 and end != -1 and end > start:
@@ -287,21 +285,19 @@ def safe_extract_json(raw_text):
         data = json.loads(text)
         return data
     except json.JSONDecodeError:
-        # Thử sửa một số lỗi ký tự escape thường gặp trong LaTeX
         try:
-            # Thay thế các escape không hợp lệ
             sanitized = re.sub(r'\\(?![/"\\bfnrtu])', r'\\\\', text)
             return json.loads(sanitized)
         except Exception:
             return None
 
 
-def call_gemini_api(api_key, prompt, max_retries=10):
+def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, max_retries=10):
     """
-    Gọi Gemini API với cơ chế tự phục hồi:
-    - Candidate models rotation (2.5-flash -> 2.0-flash -> 1.5-flash)
+    Gọi Gemini API sử dụng model chuẩn gemini-1.5-pro:
+    - Đảm bảo gọi model tồn tại chuẩn xác
     - 429 Rate Limit: Tự động sleep và exponential backoff
-    - 503 High Demand: Tự động chuyển model kế tiếp hoặc chờ 25s
+    - 503 High Demand: Tự động chờ hoặc chuyển model dự phòng
     - Network timeout: Tự động thử lại
     """
     headers = {"Content-Type": "application/json"}
@@ -313,6 +309,12 @@ def call_gemini_api(api_key, prompt, max_retries=10):
         }
     }).encode("utf-8")
 
+    # Thứ tự ưu tiên: model_name chỉ định (gemini-1.5-pro), sau đó là các model hợp lệ khác
+    models_to_try = [model_name]
+    for m in CANDIDATE_MODELS:
+        if m not in models_to_try:
+            models_to_try.append(m)
+
     attempt = 0
     model_idx = 0
 
@@ -321,12 +323,12 @@ def call_gemini_api(api_key, prompt, max_retries=10):
             return None
 
         attempt += 1
-        model = CANDIDATE_MODELS[model_idx % len(CANDIDATE_MODELS)]
+        model = models_to_try[model_idx % len(models_to_try)]
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
 
         try:
             req = urllib.request.Request(url, data=body_data, headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=45) as response:
+            with urllib.request.urlopen(req, timeout=50) as response:
                 status_code = response.getcode()
                 response_text = response.read().decode("utf-8")
 
@@ -340,7 +342,6 @@ def call_gemini_api(api_key, prompt, max_retries=10):
                     )
                     exam_data = safe_extract_json(raw_text)
 
-                    # Kiểm tra tính toàn vẹn của đề thi
                     if (
                         exam_data
                         and len(exam_data.get("part1", [])) == 12
@@ -361,10 +362,17 @@ def call_gemini_api(api_key, prompt, max_retries=10):
             except Exception:
                 pass
 
-            if e.code == 429:
-                # RATE LIMIT / QUOTA EXCEEDED
+            if e.code == 404:
+                print(f"\n    ❌ [HTTP 404] Mô hình '{model}' không tìm thấy trên API v1beta.")
+                model_idx += 1
+                next_model = models_to_try[model_idx % len(models_to_try)]
+                print(f"       Tự động đổi sang mô hình chuẩn: {next_model}...")
+                time.sleep(3)
+                continue
+
+            elif e.code == 429:
                 backoff_time = min(120, int(20 * (1.6 ** min(attempt, 4)) + random.uniform(2, 6)))
-                print(f"\n    ⏳ [RATE LIMIT 429] Đạt ngưỡng giới hạn gọi API.")
+                print(f"\n    ⏳ [RATE LIMIT 429] Đạt ngưỡng giới hạn gọi API ({model}).")
                 print(f"       Tự động tạm dừng {backoff_time}s trước khi tiếp tục...")
                 for s in range(backoff_time, 0, -1):
                     if STOP_REQUESTED:
@@ -373,20 +381,17 @@ def call_gemini_api(api_key, prompt, max_retries=10):
                     sys.stdout.flush()
                     time.sleep(1)
                 print()
-                # Thử đổi sang model khác sau khi chờ
-                model_idx += 1
                 continue
 
             elif e.code in (500, 502, 503, 504):
-                # HIGH DEMAND / SERVER OVERLOAD
                 print(f"\n    ⚠️ [SERVER BUSY {e.code}] Mô hình {model} đang quá tải.")
                 model_idx += 1
-                next_model = CANDIDATE_MODELS[model_idx % len(CANDIDATE_MODELS)]
-                print(f"       Tự động chuyển sang model dự phòng: {next_model} (chờ 10s)...")
+                next_model = models_to_try[model_idx % len(models_to_try)]
+                print(f"       Tự động chuyển sang model: {next_model} (chờ 10s)...")
                 time.sleep(10)
                 continue
 
-            elif e.code == 400 and "API_KEY_INVALID" in err_body:
+            elif e.code == 400 and ("API_KEY_INVALID" in err_body or "API key not valid" in err_body):
                 print("\n    ❌ [LỖI API KEY] Mã Gemini API Key không hợp lệ. Vui lòng kiểm tra lại key!")
                 return None
 
@@ -438,7 +443,7 @@ def save_chapter_exams(grade, chapter_id, chapter_title, exams_dict):
     js_var_name = f"EXAMS_{grade.upper()}_{chapter_id.upper()}"
     js_content = f"""// ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA {chapter_title.upper()} - TOÁN {grade} (KNTT)
-// Tự động sinh bởi Antigravity Auto Exam Generator
+// Tự động sinh bởi Antigravity Auto Exam Generator (Mô hình: gemini-1.5-pro)
 // Cập nhật lúc: {payload['updatedAt']}
 // ==============================================================================
 
@@ -492,13 +497,12 @@ def load_existing_chapter_exams(grade, chapter_id):
 # ==============================================================================
 # 6. HÀM ĐIỀU PHỐI CHÍNH (MAIN ORCHESTRATOR)
 # ==============================================================================
-def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, force=False):
+def run_generator(api_key, target_grade="all", target_chapter="all", model_name=DEFAULT_MODEL, delay=4, force=False):
     """Vòng lặp chính duyệt qua khung chương trình và sinh đề thi"""
     curriculum = load_curriculum()
     progress = load_progress()
     sync_existing_c1_8_exams(progress)
 
-    # Tính toán tổng số đề cần xử lý
     total_lessons = 0
     all_tasks = []
 
@@ -530,6 +534,7 @@ def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, fo
     print("\n" + "=" * 80)
     print("🚀 ANTIGRAVITY AUTO EXAM GENERATOR - KHỞI CHẠY HỆ THỐNG")
     print("=" * 80)
+    print(f"🤖 Mô hình AI chuẩn: {model_name} (Hỗ trợ logic Toán học tốt nhất)")
     print(f"📌 Tổng số bài học trong phạm vi chọn: {total_lessons} bài")
     print(f"📌 Tổng số đề cần sinh (3 đề/bài): {total_tasks} đề")
     print(f"✅ Đã có sẵn / hoàn thành trước đó: {len(all_tasks) - len(remaining_tasks)} đề")
@@ -541,7 +546,6 @@ def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, fo
         print("🎉 TẤT CẢ CÁC ĐỀ TRONG PHẠM VI CHỌN ĐÃ ĐƯỢC SINH HOÀN TẤT 100%!")
         return
 
-    # Gom nhóm theo chương để tiện lưu file
     current_chapter_id = None
     chapter_exams = {}
 
@@ -556,9 +560,7 @@ def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, fo
         test_num = task["test_num"]
         exam_key = task["exam_key"]
 
-        # Nếu chuyển sang chương mới, tải dữ liệu cũ của chương đó lên
         if ch["id"] != current_chapter_id:
-            # Lưu chương cũ nếu có
             if current_chapter_id and chapter_exams:
                 save_chapter_exams(prev_grade, current_chapter_id, prev_ch_title, chapter_exams)
             current_chapter_id = ch["id"]
@@ -568,10 +570,10 @@ def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, fo
 
         diff_label = ["", "Cơ bản", "Khá", "Nâng cao"][test_num]
         print(f"\n[{idx}/{len(remaining_tasks)}] Đang xử lý: Khối {grade} • {ch['title'][:30]}... • {lesson} • Đề {test_num} ({diff_label})")
-        print(f"    🔑 Key: {exam_key} | Bắt đầu gọi Gemini AI...")
+        print(f"    🔑 Key: {exam_key} | Bắt đầu gọi {model_name}...")
 
         prompt = build_prompt(grade, ch, lesson, test_num)
-        exam_data = call_gemini_api(api_key, prompt)
+        exam_data = call_gemini_api(api_key, prompt, model_name=model_name)
 
         if exam_data:
             chapter_exams[exam_key] = exam_data
@@ -584,14 +586,12 @@ def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, fo
                 "completed_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
 
-            # Lưu lại file chương & tiến độ ngay sau mỗi đề để đảm bảo an toàn tuyệt đối
             save_chapter_exams(grade, ch["id"], ch["title"], chapter_exams)
             save_progress(progress)
 
             print(f"    ✅ [THÀNH CÔNG] Đã lưu đề vào {OUTPUT_DIR}/grade{grade}_{ch['id']}_exams.json")
             print(f"    📊 Tổng hoàn thành: {len(progress['completed_exams'])}/{total_tasks} đề ({(len(progress['completed_exams'])/total_tasks)*100:.1f}%)")
 
-            # Nghỉ ngắn giữa các request để đảm bảo không chạm trần rate limit
             if idx < len(remaining_tasks):
                 time.sleep(delay)
         else:
@@ -600,7 +600,6 @@ def run_generator(api_key, target_grade="all", target_chapter="all", delay=4, fo
             save_progress(progress)
             time.sleep(5)
 
-    # Lưu lại chương cuối cùng
     if current_chapter_id and chapter_exams:
         save_chapter_exams(prev_grade, current_chapter_id, prev_ch_title, chapter_exams)
         save_progress(progress)
@@ -620,6 +619,7 @@ def main():
         description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI"
     )
     parser.add_argument("--api-key", "-k", type=str, help="Google Gemini API Key")
+    parser.add_argument("--model", "-m", type=str, default=DEFAULT_MODEL, help=f"Mô hình Gemini (mặc định: {DEFAULT_MODEL})")
     parser.add_argument("--grade", "-g", type=str, default="all", choices=["6", "7", "8", "9", "all"], help="Khối lớp (6, 7, 8, 9 hoặc all)")
     parser.add_argument("--chapter", "-c", type=str, default="all", help="ID chương cụ thể (ví dụ: c1_8, c2_8, c1_9...)")
     parser.add_argument("--delay", "-d", type=int, default=4, help="Thời gian nghỉ (giây) giữa các lần gọi API (mặc định 4s)")
@@ -627,11 +627,9 @@ def main():
 
     args = parser.parse_args()
 
-    # Lấy API Key từ tham số, biến môi trường hoặc nhập trực tiếp
     api_key = args.api_key or os.environ.get("GEMINI_API_KEY")
 
     if not api_key:
-        # Thử đọc từ .env nếu có
         env_file = os.path.join(PROJECT_ROOT, ".env")
         if os.path.exists(env_file):
             with open(env_file, "r", encoding="utf-8") as f:
@@ -654,6 +652,7 @@ def main():
         api_key=api_key,
         target_grade=args.grade,
         target_chapter=args.chapter,
+        model_name=args.model,
         delay=args.delay,
         force=args.force
     )

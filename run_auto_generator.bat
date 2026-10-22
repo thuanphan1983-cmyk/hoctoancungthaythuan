@@ -57,6 +57,7 @@ if "%USER_KEY%"=="" (
     echo [OK] Đã nạp Gemini API Key từ cấu hình file .env.
 )
 
+echo [OK] Mô hình AI: gemini-1.5-pro (Chuẩn logic Toán học tốt nhất)
 echo.
 echo ===============================================================================
 echo CHỌN CHẾ ĐỘ SINH ĐỀ:
