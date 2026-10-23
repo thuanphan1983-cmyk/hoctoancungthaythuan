@@ -1,10 +1,10 @@
 // ==============================================================================
-// NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG I: TẬP HỢP CÁC SỐ TỰ NHIÊN - TOÁN 6 (KNTT)
-// Tự động sinh bởi Antigravity Auto Exam Generator (Mô hình: gemini-3.8-flash)
-// Cập nhật lúc: 2026-10-23 10:21:24
+// NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG I: TẬP HỢP CÁC SỐ TỰ NHIÊN - TOÁN 6 (KẾT NỐI TRI THỨC)
+// Đầy đủ 7 bài học/chuyên đề x 3 đề kiểm tra = 21 đề kiểm tra chuẩn ma trận 10 điểm Bộ GD&ĐT
+// Phân hóa độ khó rõ rệt: Đề 1 (Cơ bản) < Đề 2 (Khá) < Đề 3 (Nâng cao)
 // ==============================================================================
 
-const EXAMS_6_C1_6 = {
+const CHAPTER1_TOAN6_EXAMS = {
   "c1_6_bai1_test1": {
     "title": "Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 1",
     "part1": [
@@ -5404,9 +5404,12 @@ const EXAMS_6_C1_6 = {
   }
 };
 
+const EXAMS_6_C1_6 = CHAPTER1_TOAN6_EXAMS;
+
 if (typeof window !== 'undefined') {
-  window.EXAMS_6_C1_6 = EXAMS_6_C1_6;
+  window.CHAPTER1_TOAN6_EXAMS = CHAPTER1_TOAN6_EXAMS;
+  window.EXAMS_6_C1_6 = CHAPTER1_TOAN6_EXAMS;
 }
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { EXAMS_6_C1_6 };
+  module.exports = { CHAPTER1_TOAN6_EXAMS, EXAMS_6_C1_6 };
 }

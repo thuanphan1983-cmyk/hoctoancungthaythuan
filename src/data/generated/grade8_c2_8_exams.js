@@ -1,10 +1,10 @@
 // ==============================================================================
-// NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG II: HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG - TOÁN 8 (KNTT)
-// Tự động sinh bởi Antigravity Auto Exam Generator (Mô hình: gemini-3.8-flash)
-// Cập nhật lúc: 2026-10-23 12:46:00
+// NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG II: HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG - TOÁN 8 (KẾT NỐI TRI THỨC)
+// Đầy đủ 5 bài học x 3 đề kiểm tra = 15 đề kiểm tra chuẩn ma trận 10 điểm Bộ GD&ĐT
+// Phân hóa độ khó rõ rệt: Đề 1 (Cơ bản) < Đề 2 (Khá) < Đề 3 (Nâng cao)
 // ==============================================================================
 
-const EXAMS_8_C2_8 = {
+const CHAPTER2_TOAN8_EXAMS = {
   "c2_8_bai1_test1": {
     "title": "Toán 8 (KNTT) - Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu - Bài kiểm tra số 1",
     "part1": [
@@ -3862,9 +3862,12 @@ const EXAMS_8_C2_8 = {
   }
 };
 
+const EXAMS_8_C2_8 = CHAPTER2_TOAN8_EXAMS;
+
 if (typeof window !== 'undefined') {
-  window.EXAMS_8_C2_8 = EXAMS_8_C2_8;
+  window.CHAPTER2_TOAN8_EXAMS = CHAPTER2_TOAN8_EXAMS;
+  window.EXAMS_8_C2_8 = CHAPTER2_TOAN8_EXAMS;
 }
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { EXAMS_8_C2_8 };
+  module.exports = { CHAPTER2_TOAN8_EXAMS, EXAMS_8_C2_8 };
 }
