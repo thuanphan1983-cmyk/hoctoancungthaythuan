@@ -47,6 +47,44 @@ Mỗi bài học và mỗi chương đều có 3 đề kiểm tra với độ kh
 
 ---
 
+## 🤖 HỆ THỐNG AUTO EXAM GENERATOR (TỰ ĐỘNG SINH KHO ĐỀ OFFLINE)
+* **Kịch bản:** [auto_exam_generator.py](file:///C:/Users/May%20Tinh%20Chau%20A/.gemini/antigravity/scratch/toan-thcs-kntt/auto_exam_generator.py)
+* **Chạy nhanh bằng 1 click:** Nháy đúp chuột vào file **`run_auto_generator.bat`**.
+* **Đặc điểm:**
+  - Tự động duyệt qua toàn bộ khung chương trình Toán THCS (Lớp 6, 7, 8, 9).
+  - Tự động gọi API Google Gemini (`gemini-3.8-flash` tốc độ cao và hạn mức lớn) để sinh 3 đề phân hóa cho từng bài học.
+  - Tích hợp cơ chế tự phục hồi, chống lỗi (try-catch), tự động chờ (sleep/delay/backoff) khi gặp rate limit hoặc server bận, cho phép chạy miệt mài qua đêm.
+  - Kết quả được xuất tự động vào thư mục `src/data/generated/`.
+
+---
+
+## 📄 HỆ THỐNG XUẤT ĐỀ THI SANG LATEX VÀ PDF (EXPORT TO PDF)
+* **Kịch bản:** [export_to_pdf.py](file:///C:/Users/May%20Tinh%20Chau%20A/.gemini/antigravity/scratch/toan-thcs-kntt/export_to_pdf.py)
+* **Chạy nhanh bằng 1 click:** Nháy đúp chuột vào file **`export_pdf.bat`**.
+* **Tính năng chính:**
+  - Quét thư mục `src/data/generated/`, tự động bóc tách tất cả các đề thi JSON.
+  - Tự động lắp ráp vào template LaTeX chuẩn Bộ GD&ĐT 2025: tiêu đề hành chính, bảng điểm, Phần I (12 câu trắc nghiệm), Phần II (2 câu Đúng/Sai), Phần III (4 câu trả lời ngắn), Phần IV (3 câu tự luận).
+  - Kèm theo trang **Hướng dẫn chấm và Đáp án chi tiết** (bảng đáp án Phần I, II, III và barem điểm từng bước cho Phần IV).
+  - Hỗ trợ đa dạng trình biên dịch: **XeLaTeX** (Unicode tiếng Việt tối ưu) và **pdfLaTeX** (amsmath, amssymb, babel vietnamese).
+  - Tự động dùng thư viện `subprocess` để biên dịch sang file `.pdf` lưu tại `src/data/pdf/` và file mã nguồn tại `src/data/pdf/tex/`.
+  - Tích hợp cơ chế **try-except** vững chắc: nếu một đề bị lỗi cú pháp hoặc lỗi biên dịch, hệ thống sẽ ghi nhận và tự động bỏ qua để biên dịch tiếp các đề khác mà không dừng lại.
+* **Các tùy chọn dòng lệnh:**
+  ```bash
+  # Xuất toàn bộ đề thi sang LaTeX và PDF
+  python export_to_pdf.py
+
+  # Chỉ xuất mã nguồn .tex (không cần cài MiKTeX / TeX Live)
+  python export_to_pdf.py --tex-only
+
+  # Chỉ xuất một mã đề cụ thể
+  python export_to_pdf.py --exam-id c1_6_bai1_test1
+
+  # Chỉ định trình biên dịch ưu tiên
+  python export_to_pdf.py --engine xelatex
+  ```
+
+---
+
 ## 🌐 HƯỚNG DẪN ĐẨY LÊN GITHUB & DEPLOY VERCEL
 
 1. **Khởi tạo và đẩy lên GitHub**:
