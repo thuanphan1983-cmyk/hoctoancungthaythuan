@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-10-23 08:19:28",
+  "total_exams": 14,
+  "tex_generated": 14,
+  "pdf_compiled": 0,
+  "compile_failed": 0,
+  "details": [
+    {
+      "exam_key": "c1_6_bai1_test1",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai1_test1.tex"
+    },
+    {
+      "exam_key": "c1_6_bai1_test2",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai1_test2.tex"
+    },
+    {
+      "exam_key": "c1_6_bai1_test3",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai1_test3.tex"
+    },
+    {
+      "exam_key": "c1_6_bai2_test1",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai2_test1.tex"
+    },
+    {
+      "exam_key": "c1_6_bai2_test2",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai2_test2.tex"
+    },
+    {
+      "exam_key": "c1_6_bai2_test3",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai2_test3.tex"
+    },
+    {
+      "exam_key": "c1_6_bai3_test1",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai3_test1.tex"
+    },
+    {
+      "exam_key": "c1_6_bai3_test2",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai3_test2.tex"
+    },
+    {
+      "exam_key": "c1_6_bai3_test3",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai3_test3.tex"
+    },
+    {
+      "exam_key": "c1_6_bai4_test1",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai4_test1.tex"
+    },
+    {
+      "exam_key": "c1_6_bai4_test2",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai4_test2.tex"
+    },
+    {
+      "exam_key": "c1_6_bai4_test3",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai4_test3.tex"
+    },
+    {
+      "exam_key": "c1_6_bai5_test1",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai5_test1.tex"
+    },
+    {
+      "exam_key": "c1_6_bai5_test2",
+      "status": "TEX_GENERATED",
+      "tex_path": "C:\\Users\\May Tinh Chau A\\.gemini\\antigravity\\scratch\\toan-thcs-kntt\\src\\data\\pdf\\tex\\c1_6_bai5_test2.tex"
+    }
+  ]
+}

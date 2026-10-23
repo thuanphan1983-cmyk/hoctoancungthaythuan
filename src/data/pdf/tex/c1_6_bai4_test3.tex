@@ -1,0 +1,281 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai4\_test3}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 3}\\[4pt]
+{\bfseries [ MỨC ĐỘ 3: NÂNG CAO - Mã đề: \texttt{c1\_6\_bai4\_test3} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Cho ba số tự nhiên$a, b, c$. Trong tập hợp số tự nhiên$\mathbb{N}$, phép trừ$a - b = c$thực hiện được khi và chỉ khi điều kiện nào sau đây thỏa mãn?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a > b$ & \textbf{B.} $a \ge b$ & \textbf{C.} $a < b$ & \textbf{D.} $a + b \ge c$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Biểu thức biểu diễn tính chất kết hợp của phép cộng các số tự nhiên là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $a + b = b + a$ & \textbf{B.} $(a + b) + c = a + (b + c)$ \\
+\textbf{C.} $a + 0 = 0 + a = a$ & \textbf{D.} $a(b + c) = ab + ac$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Thông hiểu] Tính tổng dãy số cách đều$S = 12 + 15 + 18 + \dots + 99$. Giá trị của$S$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $1665$ & \textbf{B.} $1650$ & \textbf{C.} $1554$ & \textbf{D.} $1725$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Thông hiểu] Cho số tự nhiên$A = \overline{ab} + \overline{ba}$. Khẳng định nào sau đây luôn đúng với mọi chữ số$a, b \in \mathbb{N}^*$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $A$là số lẻ & \textbf{B.} $A$luôn chia hết cho$9$ \\
+\textbf{C.} $A$luôn chia hết cho$11$ & \textbf{D.} $A$luôn là số chính phương
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Thông hiểu] Tìm số tự nhiên$x$, biết rằng:$(x - 35) - 120 = 0$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $x = 85$ & \textbf{B.} $x = 155$ & \textbf{C.} $x = 145$ & \textbf{D.} $x = 165$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Thông hiểu] Khi thực hiện phép trừ một số tự nhiên có 3 chữ số cho một số tự nhiên có 2 chữ số, hiệu lớn nhất có thể nhận được là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $989$ & \textbf{B.} $999$ & \textbf{C.} $988$ & \textbf{D.} $900$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Thông hiểu] Tổng của số tự nhiên lớn nhất có 4 chữ số khác nhau và số tự nhiên nhỏ nhất có 4 chữ số khác nhau là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $10899$ & \textbf{B.} $10875$ & \textbf{C.} $11110$ & \textbf{D.} $10899$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Thông hiểu] Cho tổng$S = 1 + 2 + 3 + \dots + n = 210$với$n \in \mathbb{N}^*$. Giá trị của$n$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $19$ & \textbf{B.} $20$ & \textbf{C.} $21$ & \textbf{D.} $22$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Vận dụng thấp] Có bao nhiêu số tự nhiên$x$thỏa mãn biểu thức$15 < 125 - x \le 30$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $14$ & \textbf{B.} $15$ & \textbf{C.} $16$ & \textbf{D.} $17$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Vận dụng thấp] Khi cộng thêm vào cả số bị trừ và số trừ cùng một số tự nhiên$m > 0$thì hiệu của chúng thay đổi như thế nào?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Tăng thêm$m$đơn vị & \textbf{B.} Giảm đi$m$đơn vị \\
+\textbf{C.} Không thay đổi & \textbf{D.} Tăng thêm$2m$đơn vị
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Vận dụng cao] Biết tổng các chữ số của số tự nhiên$N$được ký hiệu là$S(N)$. Nếu$N + S(N) = 74$, giá trị của$N$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $64$ & \textbf{B.} $65$ & \textbf{C.} $59$ & \textbf{D.} $61$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Vận dụng cao] Một học sinh viết liên tiếp các số tự nhiên từ$1$đến$100$để tạo thành dãy:$12345\dots 99100$. Sau đó bạn xóa đi hai số bất kỳ$a$và$b$rồi viết vào dãy số hiệu$|a - b|$. Bạn thực hiện lặp lại thao tác này cho đến khi trên bảng chỉ còn lại đúng một số duy nhất. Số cuối cùng còn lại là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Một số chẵn & \textbf{B.} Một số lẻ \\
+\textbf{C.} Luôn luôn bằng 0 & \textbf{D.} Không thể xác định được tính chẵn lẻ
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho biểu thức$A = 2024 - (x + y)$và biểu thức$B = (2024 - x) - y$với$x, y \in \mathbb{N}$và$x + y \le 2024$. Xét tính đúng/sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Với mọi$x, y \in \mathbb{N}$thỏa mãn điều kiện, ta luôn có$A = B$.
+  \item \textnormal{[Thông hiểu]} Nếu thay$x = 1000, y = 1024$thì giá trị của$A$bằng$0$nhưng$B$không xác định trong tập$\mathbb{N}$.
+  \item \textnormal{[Vận dụng thấp]} Giá trị lớn nhất của biểu thức$A$đạt được khi$x = 0$và$y = 0$, khi đó$A = 2024$.
+  \item \textnormal{[Vận dụng cao]} Số cặp số tự nhiên$(x; y)$thỏa mãn$A = 2000$là$24$cặp.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Cho dãy số$S_n = 1 - 2 + 3 - 4 + 5 - 6 + \dots + (-1)^{n-1} \cdot n$với$n$là số tự nhiên khác$0$. Xét tính đúng/sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Với$n = 100$, tổng có$50$cặp số có dạng$(2k - 1) - 2k$với$k = 1, 2, \dots, 50$.
+  \item \textnormal{[Thông hiểu]} Giá trị của$S_{100}$là số tự nhiên.
+  \item \textnormal{[Vận dụng thấp]} Nếu xét tổng biến thể$T = 100 - 99 + 98 - 97 + \dots + 2 - 1$thì giá trị của$T$bằng$50$.
+  \item \textnormal{[Vận dụng cao]} Số cách chọn các dấu cộng hoặc trừ trong biểu thức$1 \pm 2 \pm 3 \pm 4 \dots \pm 10$để kết quả thu được là một số lẻ là lớn hơn$0$.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tính giá trị của biểu thức$M = (1000 - 1) + (999 - 2) + (998 - 3) + \dots + (501 - 500)$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Vận dụng thấp] Tìm số tự nhiên có hai chữ số$\overline{ab}$biết rằng nếu viết thêm chữ số$2$vào bên trái số đó thì ta được số mới gấp$9$lần số ban đầu.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Vận dụng cao] Có bao nhiêu số tự nhiên$n$có hai chữ số sao cho hiệu giữa số đó và tổng các chữ số của nó là một số chia hết cho$9$?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Vận dụng cao] Cho$9$số tự nhiên liên tiếp từ$1$đến$9$. Xếp$9$số này vào một hàng ngang. Người ta tính hiệu của mỗi số với số thứ tự vị trí đứng của nó rồi cộng tất cả các hiệu đó lại (theo giá trị tuyệt đối). Tổng nhỏ nhất của các độ lệch tuyệt đối này nếu không có số nào đứng đúng vị trí ban đầu (tức là không số nào đứng ở vị trí bằng chính nó) là bao nhiêu?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Vận dụng thấp] Tìm số tự nhiên$x$, biết rằng:$(x + 1) + (x + 4) + (x + 7) + \dots + (x + 28) = 175$.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Vận dụng cao] Một đội tình nguyện viên gồm$45$học sinh tham gia dọn dẹp vệ sinh môi trường. Đội được chia thành các nhóm nhỏ, mỗi nhóm có từ$2$đến$6$học sinh. Chứng minh rằng trong đội tình nguyện đó luôn tìm được ít nhất hai nhóm có số lượng học sinh bằng nhau.\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Vận dụng cao] Tìm các chữ số$a, b, c$khác nhau đôi một sao cho:$\overline{abc} - \overline{cba} = 495$và$a + c = 11$.\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 3}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai4\_test3}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{B} & \textbf{B} & \textbf{A} & \textbf{C} & \textbf{B} & \textbf{A} & \textbf{B} & \textbf{B} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tính giá trị của biểu thức $M = (1000 - 1) + (999 - 2) + (998 - 3) + \dots + (50... & \textbf{250000} \\
+\hline
+\textbf{Câu 2} & Tìm số tự nhiên có hai chữ số$\overline{ab}$biết rằng nếu viết thêm chữ số$2$... & \textbf{25} \\
+\hline
+\textbf{Câu 3} & Có bao nhiêu số tự nhiên$n$có hai chữ số sao cho hiệu giữa số đó và tổng các c... & \textbf{90} \\
+\hline
+\textbf{Câu 4} & Cho$9$số tự nhiên liên tiếp từ$1$đến$9$. Xếp$9$số này vào một hàng ngang.... & \textbf{10} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Xác định số số hạng của vế trái là$(28 - 1) : 3 + 1 = 10$số hạng. Viết lại vế trái thành$10x + (1 + 4 + 7 + \dots + 28)$. Tính tổng$1 + 4 + \dots + 28 = (1 + 28) \cdot 10 : 2 = 145$.\par\noindent Bước 2 (0.5đ): Lập phương trình$10x + 145 = 175 \implies 10x = 30 \implies x = 3$. Kết luận$x = 3$thỏa mãn.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Giả sử phản chứng tất cả các nhóm đều có số lượng học sinh đôi một khác nhau. Vì mỗi nhóm có số học sinh từ$2$đến$6$nên số lượng học sinh của mỗi nhóm chỉ có thể nhận một trong các giá trị thuộc tập$\{2; 3; 4; 5; 6\}$. Như vậy có tối đa$5$nhóm có số học sinh khác nhau.\par\noindent Bước 2 (0.5đ): Tổng số học sinh tối đa của$5$nhóm này là$2 + 3 + 4 + 5 + 6 = 20$học sinh. Vì$20 < 45$, nên số nhóm bắt buộc phải nhiều hơn$5$nhóm. Theo nguyên lý Dirichlet, vì có nhiều hơn$5$nhóm mà số lượng học sinh trong mỗi nhóm chỉ có$5$khả năng ($2, 3, 4, 5, 6$), nên chắc chắn phải có ít nhất hai nhóm có cùng số lượng học sinh.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Phân tích cấu tạo số:$\overline{abc} - \overline{cba} = (100a + 10b + c) - (100c + 10b + a) = 99a - 99c = 99(a - c)$.\par\noindent Theo đề bài:$99(a - c) = 495 \implies a - c = 5$.\par\noindent Bước 2 (0.5đ): Kết hợp với điều kiện$a + c = 11$:$a = (11 + 5) : 2 = 8$.$c = 11 - 8 = 3$.\par\noindent Vì$a, b, c$là các chữ số đôi một khác nhau nên$b \in \{0; 1; 2; 4; 5; 6; 7; 9\}$($b \notin \{3; 8\}$). Vậy$a = 8, c = 3$và$b$là chữ số bất kỳ khác$3$và$8$.\par\vspace{8pt}
+
+\end{document}

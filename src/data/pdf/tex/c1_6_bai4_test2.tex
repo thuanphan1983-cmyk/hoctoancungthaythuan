@@ -1,0 +1,278 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai4\_test2}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 2}\\[4pt]
+{\bfseries [ MỨC ĐỘ 2: KHÁ - Mã đề: \texttt{c1\_6\_bai4\_test2} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Cho biểu thức$a + (b + c) = (a + b) + c$. Biểu thức trên thể hiện tính chất nào của phép cộng các số tự nhiên?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Tính chất giao hoán & \textbf{B.} Tính chất kết hợp \\
+\textbf{C.} Tính chất cộng với số$0$ & \textbf{D.} Tính chất phân phối
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Điều kiện để thực hiện được phép trừ$a - b$trong tập hợp số tự nhiên$\mathbb{N}$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a > b$ & \textbf{B.} $a < b$ & \textbf{C.} $a \ge b$ & \textbf{D.} $a \le b$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Hiệu của số tự nhiên lớn nhất có bốn chữ số và số tự nhiên nhỏ nhất có bốn chữ số là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $8999$ & \textbf{B.} $9000$ & \textbf{C.} $8888$ & \textbf{D.} $9998$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Kết quả của phép tính$2024 - (1024 + 400)$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $1400$ & \textbf{B.} $600$ & \textbf{C.} $500$ & \textbf{D.} $1600$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Thông hiểu] Tính hợp lí giá trị của tổng$S = 48 + 275 + 52 + 125$, ta được kết quả là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $400$ & \textbf{B.} $490$ & \textbf{C.} $500$ & \textbf{D.} $510$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Thông hiểu] Tìm số tự nhiên$x$, biết:$145 - (x + 25) = 40$. Giá trị của$x$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $x = 80$ & \textbf{B.} $x = 120$ & \textbf{C.} $x = 160$ & \textbf{D.} $x = 60$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Thông hiểu] Cho tổng$A = 12 + 14 + 16 + \dots + 98 + 100$. Số số hạng của tổng$A$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $44$ & \textbf{B.} $45$ & \textbf{C.} $88$ & \textbf{D.} $89$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Thông hiểu] Một ô tô đi từ tỉnh A đến tỉnh C qua tỉnh B. Quãng đường AB dài$135\text{ km}$, quãng đường BC dài hơn quãng đường AB là$28\text{ km}$. Quãng đường ô tô đi từ A đến C là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $163\text{ km}$ & \textbf{B.} $270\text{ km}$ & \textbf{C.} $298\text{ km}$ & \textbf{D.} $312\text{ km}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Tìm số tự nhiên$x$, biết:$(2x - 10) + 15 = 45$. Giá trị của$x$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $x = 20$ & \textbf{B.} $x = 15$ & \textbf{C.} $x = 25$ & \textbf{D.} $x = 10$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Tính giá trị của biểu thức$M = (2354 - 478) - (1354 - 478)$:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $1478$ & \textbf{B.} $1000$ & \textbf{C.} $956$ & \textbf{D.} $522$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Tổng của hai số tự nhiên là$284$. Nếu thêm vào số thứ nhất$16$đơn vị và bớt ở số thứ hai đi$16$đơn vị thì tổng mới là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $284$ & \textbf{B.} $300$ & \textbf{C.} $268$ & \textbf{D.} $316$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Giá trị của biểu thức$T = 100 - 99 + 98 - 97 + \dots + 2 - 1$bằng:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $0$ & \textbf{B.} $1$ & \textbf{C.} $50$ & \textbf{D.} $100$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho hai biểu thức$A = 356 + (x - 156)$và$B = 789 - (x + 89)$với$x$là số tự nhiên.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Với mọi số tự nhiên$x \ge 156$, ta luôn có$A = x + 200$.
+  \item \textnormal{[Thông hiểu]} Điều kiện để biểu thức$B$xác định trong tập hợp số tự nhiên là$x \le 700$.
+  \item \textnormal{[Vận dụng thấp]} Khi$x = 200$, giá trị của biểu thức$A$bằng giá trị của biểu thức$B$.
+  \item \textnormal{[Vận dụng thấp]} Có tất cả$701$giá trị tự nhiên của$x$để cả hai biểu thức$A$và$B$cùng xác định được trong tập hợp số tự nhiên.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Bác An đi siêu thị mua hàng gồm:$1$bao gạo giá$245\,000$đồng,$2$chai dầu ăn cùng loại giá$55\,000$đồng/chai và một số gói gia vị giá$15\,000$đồng/gói. Bác An đưa cho thu ngân tờ tiền mệnh giá$500\,000$đồng và được trả lại$85\,000$đồng.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Tổng số tiền bác An đã thanh toán cho các món hàng là$415\,000$đồng.
+  \item \textnormal{[Thông hiểu]} Tổng số tiền mua gạo và dầu ăn của bác An là$300\,000$đồng.
+  \item \textnormal{[Vận dụng thấp]} Số tiền bác An dùng để mua các gói gia vị là$60\,000$đồng.
+  \item \textnormal{[Vận dụng thấp]} Số gói gia vị mà bác An đã mua là$5$gói.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tìm số tự nhiên$x$thỏa mãn:$156 - (x - 24) = 82$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Tính tổng của dãy số cách đều sau:$S = 1 + 4 + 7 + 10 + \dots + 61$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Vận dụng thấp] Hiệu của hai số tự nhiên bằng$84$. Nếu tăng số bị trừ thêm$15$đơn vị và giảm số trừ đi$9$đơn vị thì hiệu mới bằng bao nhiêu?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Vận dụng thấp] Một phòng học có$3$dãy bàn ghế với tổng cộng$76$chỗ ngồi. Dãy thứ nhất có nhiều hơn dãy thứ hai$5$chỗ ngồi, dãy thứ hai có nhiều hơn dãy thứ ba$4$chỗ ngồi. Hỏi dãy thứ nhất có bao nhiêu chỗ ngồi?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Tính bằng cách hợp lí nhất:\par\noindent a)$A = 248 + 1073 + 752 + 927$b)$B = (2024 + 815) - (1024 - 185)$\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Vận dụng thấp] Tìm số tự nhiên$x$, biết:\par\noindent a)$(x - 45) + 128 = 215$b)$532 - (x + 132) = 154 - 54$\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Vận dụng cao] Thư viện một trường học trong ba ngày nhận về tổng cộng$1250$cuốn sách. Ngày thứ nhất nhận được$380$cuốn. Ngày thứ hai nhận được nhiều hơn ngày thứ nhất$75$cuốn.\par\noindent a) Hỏi ngày thứ ba thư viện nhận được bao nhiêu cuốn sách?\par\noindent b) Nhà trường dự kiến nhận thêm một số cuốn sách vào ngày thứ tư sao cho tổng số sách của cả ngày thứ ba và ngày thứ tư bằng đúng tổng số sách của hai ngày đầu. Hỏi ngày thứ tư cần nhận bao nhiêu cuốn sách?\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 2}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai4\_test2}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} & \textbf{C} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Sai} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tìm số tự nhiên$x$thỏa mãn:$156 - (x - 24) = 82$. & \textbf{98} \\
+\hline
+\textbf{Câu 2} & Tính tổng của dãy số cách đều sau:$S = 1 + 4 + 7 + 10 + \dots + 61$. & \textbf{651} \\
+\hline
+\textbf{Câu 3} & Hiệu của hai số tự nhiên bằng$84$. Nếu tăng số bị trừ thêm$15$đơn vị và giảm... & \textbf{108} \\
+\hline
+\textbf{Câu 4} & Một phòng học có$3$dãy bàn ghế với tổng cộng$76$chỗ ngồi. Dãy thứ nhất có nh... & \textbf{30} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+a) Nhóm hợp lí:$A = (248 + 752) + (1073 + 927)$(0.25đ)$= 1000 + 2000 = 3000$(0.25đ)\par\noindent b) Bỏ dấu ngoặc đúng quy tắc:$B = 2024 + 815 - 1024 + 185$(0.25đ)\par\noindent Nhóm hợp lí:$B = (2024 - 1024) + (815 + 185) = 1000 + 1000 = 2000$(0.25đ)\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+a)$x - 45 = 215 - 128 = 87$(0.25đ)$x = 87 + 45 = 132$(0.25đ)\par\noindent b) Rút gọn vế phải:$154 - 54 = 100$, nên$532 - (x + 132) = 100$(0.25đ)$x + 132 = 532 - 100 = 432 \Rightarrow x = 432 - 132 = 300$(0.25đ)\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+a) Số sách ngày thứ hai nhận được là:$380 + 75 = 455$(cuốn) (0.25đ)\par\noindent Số sách cả hai ngày đầu nhận được là:$380 + 455 = 835$(cuốn) (0.25đ)\par\noindent Số sách ngày thứ ba nhận được là:$1250 - 835 = 415$(cuốn) (0.25đ)\par\noindent b) Để tổng số sách ngày thứ ba và ngày thứ tư bằng$835$cuốn, số sách ngày thứ tư cần nhận là:$835 - 415 = 420$(cuốn) (0.25đ)\par\vspace{8pt}
+
+\end{document}

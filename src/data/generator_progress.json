@@ -107,11 +107,299 @@
       "chapterId": "c1_8",
       "source": "prebuilt_chapter1Toan8Exams.js",
       "completed_at": "pre-existing"
+    },
+    "c1_6_bai1_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 1: Tập hợp",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 06:19:48"
+    },
+    "c1_6_bai1_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 1: Tập hợp",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 06:20:29"
+    },
+    "c1_6_bai1_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 1: Tập hợp",
+      "testNum": 3,
+      "title": "Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 06:27:09"
+    },
+    "c1_6_bai2_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 2: Cách ghi số tự nhiên",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 2: Cách ghi số tự nhiên - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 06:29:59"
+    },
+    "c1_6_bai2_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 2: Cách ghi số tự nhiên",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 2: Cách ghi số tự nhiên - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 06:32:49"
+    },
+    "c1_6_bai2_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 2: Cách ghi số tự nhiên",
+      "testNum": 3,
+      "title": "Toán 6 (KNTT) - Bài 2: Cách ghi số tự nhiên - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 07:48:34"
+    },
+    "c1_6_bai3_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 07:51:10"
+    },
+    "c1_6_bai3_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 07:54:08"
+    },
+    "c1_6_bai3_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+      "testNum": 3,
+      "title": "Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 07:55:46"
+    },
+    "c1_6_bai4_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 4: Phép cộng và phép trừ số tự nhiên",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 07:57:34"
+    },
+    "c1_6_bai4_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 4: Phép cộng và phép trừ số tự nhiên",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 07:59:50"
+    },
+    "c1_6_bai4_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 4: Phép cộng và phép trừ số tự nhiên",
+      "testNum": 3,
+      "title": "Toán 6 (KNTT) - Bài 4: Phép cộng và phép trừ số tự nhiên - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 08:02:15"
+    },
+    "c1_6_bai5_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 5: Phép nhân và phép chia số tự nhiên",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 5: Phép nhân và phép chia số tự nhiên - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 08:07:40"
+    },
+    "c1_6_bai5_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 5: Phép nhân và phép chia số tự nhiên",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 5: Phép nhân và phép chia số tự nhiên - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 08:12:07"
+    },
+    "c1_6_bai5_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 5: Phép nhân và phép chia số tự nhiên",
+      "testNum": 3,
+      "title": "Toán 6 (KNTT) - Bài 5: Phép nhân và phép chia số tự nhiên - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 08:42:34"
+    },
+    "c1_6_bai6_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 6: Lũy thừa với số mũ tự nhiên",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 6: Lũy thừa với số mũ tự nhiên - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 08:44:44"
+    },
+    "c1_6_bai6_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 6: Lũy thừa với số mũ tự nhiên",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 6: Lũy thừa với số mũ tự nhiên - Đề kiểm tra số 2",
+      "completed_at": "2026-10-23 09:21:16"
+    },
+    "c1_6_bai6_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 6: Lũy thừa với số mũ tự nhiên",
+      "testNum": 3,
+      "title": "ĐỀ KIỂM TRA ĐÁNH GIÁ NĂNG LỰC TOÁN 6 - BÀI 6: LŨY THỪA VỚI SỐ MŨ TỰ NHIÊN (ĐỀ NÂNG CAO SỐ 3)",
+      "completed_at": "2026-10-23 10:09:37"
+    },
+    "c1_6_bai7_test1": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 7: Thứ tự thực hiện các phép tính",
+      "testNum": 1,
+      "title": "Toán 6 (KNTT) - Bài 7: Thứ tự thực hiện các phép tính - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 10:11:53"
+    },
+    "c1_6_bai7_test2": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 7: Thứ tự thực hiện các phép tính",
+      "testNum": 2,
+      "title": "Toán 6 (KNTT) - Bài 7: Thứ tự thực hiện các phép tính - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 10:17:38"
+    },
+    "c1_6_bai7_test3": {
+      "grade": "6",
+      "chapterId": "c1_6",
+      "lesson": "Bài 7: Thứ tự thực hiện các phép tính",
+      "testNum": 3,
+      "title": "Toán 6 (KNTT) - Bài 7: Thứ tự thực hiện các phép tính - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 10:21:17"
+    },
+    "c2_8_bai1_test1": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 11:55:10"
+    },
+    "c2_8_bai1_test2": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu - Đề số 2",
+      "completed_at": "2026-10-23 11:57:29"
+    },
+    "c2_8_bai1_test3": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu",
+      "testNum": 3,
+      "title": "Toán 8 (KNTT) - Bài 6: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 11:59:53"
+    },
+    "c2_8_bai2_test1": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 7: Lập phương của một tổng. Lập phương của một hiệu",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 7: Lập phương của một tổng. Lập phương của một hiệu - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 12:02:08"
+    },
+    "c2_8_bai2_test2": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 7: Lập phương của một tổng. Lập phương của một hiệu",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài 7: Lập phương của một tổng. Lập phương của một hiệu - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 12:05:37"
+    },
+    "c2_8_bai2_test3": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 7: Lập phương của một tổng. Lập phương của một hiệu",
+      "testNum": 3,
+      "title": "Toán 8 (KNTT) - Bài 7: Lập phương của một tổng. Lập phương của một hiệu - Bài kiểm tra số 3",
+      "completed_at": "2026-10-23 12:08:32"
+    },
+    "c2_8_bai3_test1": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 8: Tổng và hiệu hai lập phương",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 8: Tổng và hiệu hai lập phương - Đề số 1 (Cơ bản)",
+      "completed_at": "2026-10-23 12:11:17"
+    },
+    "c2_8_bai3_test2": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 8: Tổng và hiệu hai lập phương",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài 8: Tổng và hiệu hai lập phương - Đề kiểm tra số 2",
+      "completed_at": "2026-10-23 12:13:40"
+    },
+    "c2_8_bai3_test3": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 8: Tổng và hiệu hai lập phương",
+      "testNum": 3,
+      "title": "Toán 8 (KNTT) - Bài 8: Tổng và hiệu hai lập phương - Bài kiểm tra số 3 (Nâng cao & Phân hóa sâu)",
+      "completed_at": "2026-10-23 12:16:04"
+    },
+    "c2_8_bai4_test1": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 9: Phân tích đa thức thành nhân tử",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 9: Phân tích đa thức thành nhân tử - Đề kiểm tra số 1",
+      "completed_at": "2026-10-23 12:18:37"
+    },
+    "c2_8_bai4_test3": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 9: Phân tích đa thức thành nhân tử",
+      "testNum": 3,
+      "title": "Toán 8 (KNTT) - Bài 9: Phân tích đa thức thành nhân tử - Đề kiểm tra nâng cao số 3 (Seed: VAR-8-c2_8-T3-89911)",
+      "completed_at": "2026-10-23 12:22:28"
+    },
+    "c2_8_bai5_test2": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Bài kiểm tra số 2",
+      "completed_at": "2026-10-23 12:27:09"
+    },
+    "c2_8_bai5_test3": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+      "testNum": 3,
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 3 (Nâng cao & Phân hóa sâu)",
+      "completed_at": "2026-10-23 12:30:08"
+    },
+    "c2_8_bai4_test2": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài 9: Phân tích đa thức thành nhân tử",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài 9: Phân tích đa thức thành nhân tử - Đề kiểm tra số 2 (Mức độ Khá)",
+      "completed_at": "2026-10-23 12:41:37"
+    },
+    "c2_8_bai5_test1": {
+      "grade": "8",
+      "chapterId": "c2_8",
+      "lesson": "Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Bài kiểm tra số 1",
+      "completed_at": "2026-10-23 12:44:45"
     }
   },
-  "last_updated": "2026-10-23 06:00:23",
+  "last_updated": "2026-10-23 14:17:32",
   "stats": {
-    "total_completed": 18,
-    "failed_attempts": 9
+    "total_completed": 54,
+    "failed_attempts": 32
   }
 }

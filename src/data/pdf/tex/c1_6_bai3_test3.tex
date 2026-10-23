@@ -1,0 +1,278 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai3\_test3}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 3}\\[4pt]
+{\bfseries [ MỨC ĐỘ 3: NÂNG CAO - Mã đề: \texttt{c1\_6\_bai3\_test3} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Cho ba số tự nhiên$a, b, c$thỏa mãn$a < b$và$b \le c$. Khẳng định nào sau đây luôn đúng?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a < c$ & \textbf{B.} $a = c$ & \textbf{C.} $a > c$ & \textbf{D.} $a \ge c$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Số liền trước của số tự nhiên$2k + 1$(với$k \in \mathbb{N}^*$) là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $2k$ & \textbf{B.} $2k + 2$ & \textbf{C.} $2k - 1$ & \textbf{D.} $2k - 2$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Thông hiểu] Cho tập hợp$M = \{x \in \mathbb{N} \mid 15 < x \le 27\}$. Số phần tử của tập hợp$M$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $11$ & \textbf{B.} $12$ & \textbf{C.} $13$ & \textbf{D.} $14$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Thông hiểu] Có bao nhiêu số tự nhiên$x$có hai chữ số thỏa mãn$x \le 35$và chữ số hàng chục nhỏ hơn chữ số hàng đơn vị?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $15$ & \textbf{B.} $18$ & \textbf{C.} $19$ & \textbf{D.} $20$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Thông hiểu] Cho số tự nhiên$n$thỏa mãn$1999 < n < 2024$. Số các số tự nhiên lẻ thỏa mãn điều kiện của$n$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $11$ & \textbf{B.} $12$ & \textbf{C.} $13$ & \textbf{D.} $24$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Thông hiểu] Cho$A = \{x \in \mathbb{N}^* \mid x < 6\}$và$B = \{x \in \mathbb{N} \mid 2 \le x \le 5\}$. Chọn khẳng định đúng nhất:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $A = B$ & \textbf{B.} $B \subset A$ \\
+\textbf{C.} $A \subset B$ & \textbf{D.} $A$và$B$không có phần tử chung
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Thông hiểu] Biết$x$là số tự nhiên thỏa mãn$x + 15 < 28$. Số giá trị khả dĩ của$x$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $12$ & \textbf{B.} $13$ & \textbf{C.} $14$ & \textbf{D.} $15$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Thông hiểu] Trên tia số gốc$O$, điểm$A$biểu diễn số$12$, điểm$B$biểu diễn số$28$. Trung điểm$M$của đoạn thẳng$AB$biểu diễn số tự nhiên nào?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $18$ & \textbf{B.} $20$ & \textbf{C.} $22$ & \textbf{D.} $24$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Vận dụng] Cho$m$là số tự nhiên. Có bao nhiêu giá trị của$m$để tập hợp$S = \{x \in \mathbb{N} \mid 2m \le x \le 5m + 1\}$có đúng$16$phần tử?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $0$ & \textbf{B.} $1$ & \textbf{C.} $2$ & \textbf{D.} Vô số
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Vận dụng] Cho bốn số tự nhiên$a, b, c, d$thỏa mãn$a < b < c < d$và$a + d = b + c = 21$. Giá trị lớn nhất của tích$a \cdot d$có thể đạt được là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $98$ & \textbf{B.} $108$ & \textbf{C.} $110$ & \textbf{D.} $90$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Vận dụng] Có bao nhiêu số tự nhiên$n$có ba chữ số sao cho khi viết thêm chữ số$2$vào bên trái số đó thì được một số mới gấp$9$lần số ban đầu?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $0$ & \textbf{B.} $1$ & \textbf{C.} $2$ & \textbf{D.} $3$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Vận dụng] Cho tập hợp$X = \{x \in \mathbb{N}^* \mid x(x - 3) \le 0\}$. Số tập hợp con của$X$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $4$ & \textbf{B.} $7$ & \textbf{C.} $8$ & \textbf{D.} $16$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho tập hợp$A = \{x \in \mathbb{N} \mid 3m - 2 \le x \le 5m + 4\}$với$m$là tham số tự nhiên.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Với$m = 1$, tập hợp$A$có đúng$8$phần tử.
+  \item \textnormal{[Thông hiểu]} Với mọi$m \in \mathbb{N}$, phần tử nhỏ nhất của tập hợp$A$luôn lớn hơn hoặc bằng$0$.
+  \item \textnormal{[Vận dụng]} Số phần tử của tập hợp$A$luôn biểu diễn được dưới dạng$2m + 7$với mọi$m \in \mathbb{N}^*$.
+  \item \textnormal{[Vận dụng]} Có đúng một giá trị$m \in \mathbb{N}^*$để tập hợp$A$chứa đúng$21$số tự nhiên lẻ.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Cho ba số tự nhiên$a, b, c$đôi một khác nhau thỏa mãn:$10 \le a < b < c \le 99$và$a + c = 2b$.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Ba số$a, b, c$không thể đồng thời là ba số lẻ.
+  \item \textnormal{[Thông hiểu]} Hai số$a$và$c$luôn cùng tính chẵn lẻ.
+  \item \textnormal{[Vận dụng]} Giá trị nhỏ nhất của tổng$a + b + c$là$33$.
+  \item \textnormal{[Vận dụng]} Nếu tích$a \cdot c$đạt giá trị lớn nhất thì$b = 98$.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tìm số phần tử của tập hợp các số tự nhiên có ba chữ số mà chữ số hàng trăm nhỏ hơn chữ số hàng chục và chữ số hàng chục nhỏ hơn chữ số hàng đơn vị.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Vận dụng] Tìm số tự nhiên$n$nhỏ nhất có bốn chữ số sao cho khi chia$n$cho$131$thì dư$112$, còn chia$n$cho$132$thì dư$98$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Vận dụng] Cho dãy các số tự nhiên liên tiếp:$1, 2, 3, \dots, 2024$. Người ta xóa đi hai số bất kì rồi viết vào đó số bằng hiệu của số lớn trừ số bé, lặp lại cho đến khi còn lại một số duy nhất. Hỏi số cuối cùng còn lại có thể là số$0$hay không? Điền số$1$nếu có thể, điền số$0$nếu không thể.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Vận dụng] Cho$x, y$là các số tự nhiên thỏa mãn$1 \le x < y \le 10$. Tìm giá trị lớn nhất của phân số$P = \frac{x + y}{y - x}$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Vận dụng] Cho tập hợp$E = \{x \in \mathbb{N} \mid 2n + 1 \le x \le 5n - 3\}$với$n$là số tự nhiên. Tìm tất cả các giá trị của$n$để tập hợp$E$có đúng$17$phần tử.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Vận dụng] Một cuốn sách có các trang được đánh số tự nhiên liên tiếp từ$1$. Để đánh số trang cuốn sách đó, người ta đã phải dùng tất cả$282$chữ số. Hỏi chữ số thứ$200$được dùng để viết cuốn sách đó là chữ số nào và thuộc trang bao nhiêu?\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Vận dụng cao] Cho$a, b, c$là ba số tự nhiên khác$0$thỏa mãn$a < b < c$và$\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = 1$. Tìm tất cả các bộ số$(a; b; c)$thỏa mãn đẳng thức trên.\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 3}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai3\_test3}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{A} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{B} & \textbf{B} & \textbf{B} & \textbf{B} & \textbf{B} & \textbf{A} & \textbf{B} & \textbf{C} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Sai} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Đúng} \\
+\hline
+\textbf{Câu 2} & \textbf{Sai} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Đúng} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tìm số phần tử của tập hợp các số tự nhiên có ba chữ số mà chữ số hàng trăm nhỏ... & \textbf{84} \\
+\hline
+\textbf{Câu 2} & Tìm số tự nhiên$n$nhỏ nhất có bốn chữ số sao cho khi chia$n$cho$131$thì dư... & \textbf{1950} \\
+\hline
+\textbf{Câu 3} & Cho dãy các số tự nhiên liên tiếp:$1, 2, 3, \dots, 2024$. Người ta xóa đi hai s... & \textbf{1} \\
+\hline
+\textbf{Câu 4} & Cho$x, y$là các số tự nhiên thỏa mãn$1 \le x < y \le 10$. Tìm giá trị lớn nhấ... & \textbf{19} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Điều kiện để tập hợp$E$xác định là$2n + 1 \le 5n - 3 \Leftrightarrow 3n \ge 4 \Leftrightarrow n \ge 2$(do$n \in \mathbb{N}$).\nBước 2 (0.5đ): Số phần tử của tập hợp$E$là:$(5n - 3) - (2n + 1) + 1 = 3n - 3$. Theo bài ra ta có:$3n - 3 = 17 \Leftrightarrow 3n = 20$. Vì$20$không chia hết cho$3$nên không có số tự nhiên$n$thỏa mãn yêu cầu đề bài. Kết luận: Không tồn tại$n$.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Từ trang 1 đến trang 9 cần$9$chữ số. Từ trang 10 đến trang 99 có 90 trang, cần$90 \times 2 = 180$chữ số. Tổng số chữ số từ trang 1 đến 99 là$9 + 180 = 189$chữ số.\nBước 2 (0.5đ): Ta thấy$189 < 200 < 282$, vậy chữ số thứ$200$nằm ở trang có$3$chữ số. Số chữ số còn lại tính từ trang 100 đến chữ số thứ$200$là:$200 - 189 = 11$chữ số. Ta có$11 = 3 \times 3 + 2$, do đó chữ số thứ 200 là chữ số thứ 2 của trang thứ tư có 3 chữ số (tức là trang$100 + 4 - 1 = 103$). Chữ số thứ 2 của số 103 là chữ số$0$. Kết luận: Thuộc trang 103 và là chữ số 0.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.25đ): Vì$1 \le a < b < c$nên$\frac{1}{a} > \frac{1}{b} > \frac{1}{c} > 0$.\nBước 2 (0.25đ): Ta có$1 = \frac{1}{a} + \frac{1}{b} + \frac{1}{c} < \frac{1}{a} + \frac{1}{a} + \frac{1}{a} = \frac{3}{a} \Rightarrow a < 3$. Vì$a \in \mathbb{N}^*$và nếu$a = 1$thì$\frac{1}{b} + \frac{1}{c} = 0$(vô lí), do đó suy ra$a = 2$.\nBước 3 (0.25đ): Thay$a = 2$vào ta có:$\frac{1}{b} + \frac{1}{c} = 1 - \frac{1}{2} = \frac{1}{2}$. Vì$b < c$nên$\frac{1}{2} = \frac{1}{b} + \frac{1}{c} < \frac{2}{b} \Rightarrow b < 4$. Mà$b > a = 2$nên$b = 3$.\nBước 4 (0.25đ): Thay$b = 3$vào ta được:$\frac{1}{c} = \frac{1}{2} - \frac{1}{3} = \frac{1}{6} \Rightarrow c = 6$(thỏa mãn$c > b$). Vậy bộ số duy nhất thỏa mãn là$(a; b; c) = (2; 3; 6)$.\par\vspace{8pt}
+
+\end{document}

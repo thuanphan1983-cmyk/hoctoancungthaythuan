@@ -1,0 +1,284 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai1\_test1}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 1}\\[4pt]
+{\bfseries [ MỨC ĐỘ 1: CƠ BẢN - Mã đề: \texttt{c1\_6\_bai1\_test1} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Kí hiệu nào sau đây được dùng để chỉ phần tử$a$thuộc tập hợp$M$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a \in M$ & \textbf{B.} $a \notin M$ & \textbf{C.} $a \subset M$ & \textbf{D.} $M \in a$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Cho tập hợp$A = \{2; 3; 5; 7\}$. Khẳng định nào sau đây là đúng?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $2 \notin A$ & \textbf{B.} $5 \in A$ & \textbf{C.} $7 \notin A$ & \textbf{D.} $4 \in A$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Các phần tử của một tập hợp được viết trong dấu ngoặc nào sau đây?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Dấu ngoặc tròn$( )$ & \textbf{B.} Dấu ngoặc vuông$[ ]$ \\
+\textbf{C.} Dấu ngoặc nhọn$\{ \}$ & \textbf{D.} Dấu gạch đứng$| |$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Trong cách viết tập hợp bằng cách liệt kê các phần tử, các phần tử là số được phân cách nhau bởi dấu nào?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Dấu phẩy ($,$) & \textbf{B.} Dấu chấm phẩy ($;$) \\
+\textbf{C.} Dấu hai chấm ($:$) & \textbf{D.} Dấu gạch nối ($-$)
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Nhận biết] Cho tập hợp$B = \{a; b; c\}$. Phần tử nào sau đây không thuộc tập hợp$B$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a$ & \textbf{B.} $b$ & \textbf{C.} $c$ & \textbf{D.} $d$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Nhận biết] Khẳng định$6 \notin X$có nghĩa là gì?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Số$6$là phần tử của tập hợp$X$ & \textbf{B.} Số$6$không thuộc tập hợp$X$ \\
+\textbf{C.} Tập hợp$X$chỉ chứa số$6$ & \textbf{D.} Tập hợp$X$có$6$phần tử
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Nhận biết] Tập hợp các chữ cái xuất hiện trong từ "TOAN" là:\par\vspace{2pt}
+\noindent\textbf{A.} $\{\text{T}; \text{O}; \text{A}; \text{N}\}$\par\vspace{1pt}
+\noindent\textbf{B.} $(\text{T}, \text{O}, \text{A}, \text{N})$\par\vspace{1pt}
+\noindent\textbf{C.} $\{\text{T-O-A-N}\}$\par\vspace{1pt}
+\noindent\textbf{D.} $[\text{T}; \text{O}; \text{A}; \text{N}]$\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Nhận biết] Khi viết một tập hợp bằng cách liệt kê, mỗi phần tử được liệt kê bao nhiêu lần?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} Ít nhất$2$lần & \textbf{B.} Đúng$1$lần & \textbf{C.} Tùy ý & \textbf{D.} Vô số lần
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Cho tập hợp$M = \{x \in \mathbb{N} \mid x < 4\}$. Viết tập hợp$M$bằng cách liệt kê các phần tử ta được:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $M = \{1; 2; 3; 4\}$ & \textbf{B.} $M = \{0; 1; 2; 3; 4\}$ \\
+\textbf{C.} $M = \{0; 1; 2; 3\}$ & \textbf{D.} $M = \{1; 2; 3\}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Viết tập hợp các chữ cái trong từ "HOC SINH" bằng cách liệt kê các phần tử:\par\vspace{2pt}
+\noindent\textbf{A.} $\{\text{H}; \text{O}; \text{C}; \text{S}; \text{I}; \text{N}; \text{H}\}$\par\vspace{1pt}
+\noindent\textbf{B.} $\{\text{H}; \text{O}; \text{C}; \text{S}; \text{I}; \text{N}\}$\par\vspace{1pt}
+\noindent\textbf{C.} $\{\text{H}; \text{O}; \text{C}; \text{I}; \text{N}\}$\par\vspace{1pt}
+\noindent\textbf{D.} $\{\text{O}; \text{C}; \text{S}; \text{I}; \text{N}\}$\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Tập hợp$P = \{2; 4; 6; 8\}$gồm các phần tử là:\par\vspace{2pt}
+\noindent\textbf{A.} Các số tự nhiên nhỏ hơn$10$\par\vspace{1pt}
+\noindent\textbf{B.} Các số tự nhiên chẵn\par\vspace{1pt}
+\noindent\textbf{C.} Các số tự nhiên chẵn khác$0$và nhỏ hơn$10$\par\vspace{1pt}
+\noindent\textbf{D.} Các số tự nhiên lớn hơn$0$\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Cho$E$là tập hợp các số tự nhiên lớn hơn$7$và nhỏ hơn$12$. Số phần tử của tập hợp$E$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $3$ & \textbf{B.} $4$ & \textbf{C.} $5$ & \textbf{D.} $6$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho tập hợp$A = \{x \in \mathbb{N} \mid 3 \le x < 8\}$. Xét tính Đúng/Sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Phần tử$3$thuộc tập hợp$A$, viết là$3 \in A$.
+  \item \textnormal{[Thông hiểu]} Phần tử$8$thuộc tập hợp$A$, viết là$8 \in A$.
+  \item \textnormal{[Thông hiểu]} Viết theo cách liệt kê các phần tử thì$A = \{3; 4; 5; 6; 7\}$.
+  \item \textnormal{[Thông hiểu]} Tập hợp$A$có tổng cộng$6$phần tử.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Cho tập hợp$K$các chữ cái tiếng Việt có mặt trong từ "NHA TRANG". Xét tính Đúng/Sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Chữ cái$\text{N}$thuộc tập hợp$K$.
+  \item \textnormal{[Thông hiểu]} Chữ cái$\text{M}$thuộc tập hợp$K$.
+  \item \textnormal{[Thông hiểu]} Tập hợp$K = \{\text{N}; \text{H}; \text{A}; \text{T}; \text{R}; \text{G}\}$.
+  \item \textnormal{[Thông hiểu]} Số phần tử của tập hợp$K$bằng$8$.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Cho tập hợp$X = \{10; 11; 12; 13; 14; 15\}$. Hỏi tập hợp$X$có bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Tập hợp các số tự nhiên có một chữ số có bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Thông hiểu] Cho tập hợp$B = \{x \in \mathbb{N} \mid 5 < x \le 9\}$. Hãy tính tổng các phần tử của tập hợp$B$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Thông hiểu] Cho tập hợp các số tự nhiên chẵn nhỏ hơn$8$. Tập hợp này có tất cả bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Cho tập hợp$A$các số tự nhiên lớn hơn$4$và không vượt quá$9$.\par\noindent a) Hãy viết tập hợp$A$bằng cách liệt kê các phần tử.\par\noindent b) Điền kí hiệu$\in$hoặc$\notin$thích hợp vào chỗ trống:$4 \dots A$;$7 \dots A$.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Thông hiểu] a) Viết tập hợp$C$gồm các chữ cái xuất hiện trong cụm từ "VIET NAM".\par\noindent b) Tập hợp$C$có bao nhiêu phần tử?\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Thông hiểu] Cho tập hợp$M = \{0; 1; 2; 3; 4; 5\}$.\par\noindent a) Hãy viết tập hợp$M$bằng cách chỉ ra tính chất đặc trưng cho các phần tử của nó.\par\noindent b) Viết tập hợp$P$gồm các phần tử thuộc$M$và là số lẻ.\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 1}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai1\_test1}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{A} & \textbf{B} & \textbf{C} & \textbf{B} & \textbf{D} & \textbf{B} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{B} & \textbf{C} & \textbf{B} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Cho tập hợp$X = \{10; 11; 12; 13; 14; 15\}$. Hỏi tập hợp$X$có bao nhiêu phần... & \textbf{6} \\
+\hline
+\textbf{Câu 2} & Tập hợp các số tự nhiên có một chữ số có bao nhiêu phần tử? & \textbf{10} \\
+\hline
+\textbf{Câu 3} & Cho tập hợp$B = \{x \in \mathbb{N} \mid 5 < x \le 9\}$. Hãy tính tổng các phần... & \textbf{30} \\
+\hline
+\textbf{Câu 4} & Cho tập hợp các số tự nhiên chẵn nhỏ hơn$8$. Tập hợp này có tất cả bao nhiêu ph... & \textbf{4} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Viết đúng tập hợp$A$bằng cách liệt kê:$A = \{5; 6; 7; 8; 9\}$.\par\noindent Bước 2 (0.5đ): Điền đúng hai kí hiệu:$4 \notin A$(0.25đ) và$7 \in A$(0.25đ).\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Liệt kê đúng các chữ cái không lặp lại:$C = \{\text{V}; \text{I}; \text{E}; \text{T}; \text{N}; \text{A}; \text{M}\}$.\par\noindent Bước 2 (0.5đ): Đếm và kết luận đúng số phần tử: Tập hợp$C$có$7$phần tử.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Viết đúng dạng tính chất đặc trưng:$M = \{x \in \mathbb{N} \mid x \le 5\}$(hoặc$M = \{x \in \mathbb{N} \mid x < 6\}$).\par\noindent Bước 2 (0.5đ): Xác định và viết đúng tập hợp các phần tử lẻ:$P = \{1; 3; 5\}$.\par\vspace{8pt}
+
+\end{document}

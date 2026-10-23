@@ -1,0 +1,20 @@
+{
+  "grade6_c1_6": {
+    "grade": "6",
+    "chapterId": "c1_6",
+    "chapterTitle": "Chương I: Tập hợp các số tự nhiên",
+    "totalExams": 21,
+    "updatedAt": "2026-10-23 10:21:24",
+    "jsFile": "grade6_c1_6_exams.js",
+    "jsonFile": "grade6_c1_6_exams.json"
+  },
+  "grade8_c2_8": {
+    "grade": "8",
+    "chapterId": "c2_8",
+    "chapterTitle": "Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+    "totalExams": 15,
+    "updatedAt": "2026-10-23 12:46:00",
+    "jsFile": "grade8_c2_8_exams.js",
+    "jsonFile": "grade8_c2_8_exams.json"
+  }
+}

@@ -1,0 +1,281 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai2\_test2}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 2: Cách ghi số tự nhiên - Bài kiểm tra số 2}\\[4pt]
+{\bfseries [ MỨC ĐỘ 2: KHÁ - Mã đề: \texttt{c1\_6\_bai2\_test2} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Trong hệ La Mã, chữ số$\mathrm{X}$có giá trị bằng bao nhiêu trong hệ thập phân?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $1$ & \textbf{B.} $5$ & \textbf{C.} $10$ & \textbf{D.} $50$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Số tự nhiên lớn nhất có bốn chữ số khác nhau được viết trong hệ thập phân là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $9999$ & \textbf{B.} $9876$ & \textbf{C.} $9867$ & \textbf{D.} $9786$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Cho số tự nhiên$M = 34\,578$. Chữ số hàng trăm và giá trị của chữ số hàng trăm lần lượt là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Chữ số hàng trăm là$4$, giá trị là$400$ & \textbf{B.} Chữ số hàng trăm là$5$, giá trị là$500$ \\
+\textbf{C.} Chữ số hàng trăm là$5$, giá trị là$5$ & \textbf{D.} Chữ số hàng trăm là$7$, giá trị là$70$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Trong các số La Mã sau, số nào biểu diễn số$24$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $\mathrm{XXVI}$ & \textbf{B.} ${\mathrm{XXIV}}$ \\
+\textbf{C.} ${\mathrm{XIV}}$ & \textbf{D.} ${\mathrm{XXIIII}}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Thông hiểu] Số tự nhiên$\overline{ab}$biểu diễn dưới dạng tổng giá trị các chữ số là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a + b$ & \textbf{B.} $10 \cdot b + a$ & \textbf{C.} $10 \cdot a + b$ & \textbf{D.} $100 \cdot a + b$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Thông hiểu] Cho số tự nhiên có ba chữ số$\overline{a8b}$. Biết rằng khi đổi chỗ chữ số hàng trăm và hàng đơn vị cho nhau thì số đó không đổi. Khẳng định nào sau đây luôn đúng?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $a = b$với$a \in \{1; 2; \dots; 9\}$ & \textbf{B.} $a = b = 8$ \\
+\textbf{C.} $a = 0$và$b = 8$ & \textbf{D.} $a + b = 8$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Thông hiểu] Khi viết thêm chữ số$5$vào bên phải của một số tự nhiên có hai chữ số, số đó thay đổi như thế nào?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Tăng thêm$5$đơn vị & \textbf{B.} Tăng gấp$10$lần \\
+\textbf{C.} Tăng gấp$10$lần và thêm$5$đơn vị & \textbf{D.} Tăng thêm$50$đơn vị
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Thông hiểu] Số La Mã biểu diễn kết quả của phép tính$13 + 16$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $\mathrm{XXVII}$ & \textbf{B.} $\mathrm{XXVIII}$ & \textbf{C.} $\mathrm{XXIX}$ & \textbf{D.} $\mathrm{XXXI}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Có bao nhiêu số tự nhiên có hai chữ số mà tổng các chữ số của nó bằng$9$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $8$ & \textbf{B.} $9$ & \textbf{C.} $10$ & \textbf{D.} $7$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Dùng ba chữ số$0; 3; 7$, lập được tất cả bao nhiêu số tự nhiên có ba chữ số khác nhau?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $6$ & \textbf{B.} $4$ & \textbf{C.} $3$ & \textbf{D.} $2$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Hiệu giữa giá trị của chữ số$7$ở hàng nghìn và giá trị của chữ số$7$ở hàng chục trong số$47\,275$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $6930$ & \textbf{B.} $7070$ & \textbf{C.} $6300$ & \textbf{D.} $6970$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Một số tự nhiên có dạng$\overline{2a3b}$. Biết số này có chữ số hàng chục gấp$3$lần chữ số hàng đơn vị và chữ số hàng trăm lớn hơn chữ số hàng đơn vị$4$đơn vị. Số đó là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $2531$ & \textbf{B.} $2431$ & \textbf{C.} $2530$ & \textbf{D.} $2135$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho số tự nhiên có ba chữ số$A = \overline{abc}$thỏa mãn$a \ne 0$và$a + b + c = 12$.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Số$A$được viết dưới dạng khai triển là$A = 100a + 10b + c$.
+  \item \textnormal{[Thông hiểu]} Số$A$lớn nhất thỏa mãn điều kiện đã cho là$930$.
+  \item \textnormal{[Vận dụng thấp]} Số$A$nhỏ nhất thỏa mãn các chữ số đôi một khác nhau là$129$.
+  \item \textnormal{[Vận dụng thấp]} Nếu viết thêm chữ số$1$vào bên trái số$A$, ta được số mới gấp$10$lần số$A$.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Xét việc biểu diễn các số tự nhiên bằng chữ số La Mã từ$1$đến$30$.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Số La Mã biểu diễn số$19$là$\mathrm{XVIIII}$.
+  \item \textnormal{[Thông hiểu]} Chữ số$\mathrm{X}$không được viết liền nhau quá ba lần liên tiếp.
+  \item \textnormal{[Vận dụng thấp]} Tổng của hai số La Mã$\mathrm{XIV}$và$\mathrm{XVI}$bằng số La Mã$\mathrm{XXX}$.
+  \item \textnormal{[Vận dụng thấp]} Có đúng$3$số La Mã trong khoảng từ$1$đến$30$có sử dụng chữ số$\mathrm{V}$đứng trước chữ số$\mathrm{X}$.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tìm số tự nhiên có hai chữ số$\overline{xy}$sao cho khi viết thêm chữ số$0$vào giữa hai chữ số đó thì được số mới hơn số ban đầu$180$đơn vị.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Để đánh số trang của một cuốn sách dày$120$trang (từ trang$1$đến trang$120$), người ta cần dùng tất cả bao nhiêu chữ số?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Vận dụng thấp] Tìm một số tự nhiên có hai chữ số, biết rằng nếu viết thêm chữ số$3$vào bên trái số đó ta được số mới gấp$7$lần số đã cho.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Vận dụng thấp] Dùng$4$que tính giống nhau để xếp thành các số La Mã hợp lệ. Hỏi xếp được bao nhiêu số La Mã khác nhau biểu diễn các số tự nhiên nhỏ hơn$30$?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Cho số tự nhiên có ba chữ số$\overline{abc}$. Biết rằng khi xóa đi chữ số hàng trăm$a$của số đó thì ta được số$\overline{bc}$bằng$\frac{1}{9}$số ban đầu. Tìm số$\overline{abc}$đã cho.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Vận dụng thấp] Bác An đánh số các ngăn tủ tài liệu từ số$1$đến số$n$bằng các số tự nhiên liên tiếp. Để hoàn thành việc đánh số tất cả các ngăn tủ đó, bác An đã phải dùng đúng$195$lượt chữ số. Hỏi tủ tài liệu của bác An có tất cả bao nhiêu ngăn tủ?\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Vận dụng cao] Tìm tất cả các số tự nhiên có hai chữ số$\overline{ab}$sao cho số đó chia hết cho tích các chữ số của nó, tức là$\overline{ab} \,\vdots\, (a \cdot b)$.\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 2: Cách ghi số tự nhiên - Bài kiểm tra số 2}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai2\_test2}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{C} & \textbf{B} & \textbf{B} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{C} & \textbf{C} & \textbf{B} & \textbf{B} & \textbf{A} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Sai} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tìm số tự nhiên có hai chữ số$\overline{xy}$sao cho khi viết thêm chữ số$0$v... & \textbf{20} \\
+\hline
+\textbf{Câu 2} & Để đánh số trang của một cuốn sách dày$120$trang (từ trang$1$đến trang$120$... & \textbf{252} \\
+\hline
+\textbf{Câu 3} & Tìm một số tự nhiên có hai chữ số, biết rằng nếu viết thêm chữ số$3$vào bên tr... & \textbf{50} \\
+\hline
+\textbf{Câu 4} & Dùng$4$que tính giống nhau để xếp thành các số La Mã hợp lệ. Hỏi xếp được bao... & \textbf{4} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Biểu diễn số ban đầu theo cấu tạo thập phân:$\overline{abc} = 100a + \overline{bc}$. Theo đề bài ta có:$100a + \overline{bc} = 9 \cdot \overline{bc}$, suy ra$100a = 8 \cdot \overline{bc}$, hay$25a = 2 \cdot \overline{bc}$. Bước 2 (0.5đ): Do$a$là chữ số khác$0$($1 \le a \le 9$) và$\overline{bc}$là số có hai chữ số ($10 \le \overline{bc} \le 99$). Vì$25a$chia hết cho$25$nên$2 \cdot \overline{bc}$chia hết cho$25$, suy ra$\overline{bc}$chia hết cho$25$. Do$2 \cdot \overline{bc} = 25a \le 25 \cdot 9 = 225$nên$\overline{bc} \le 112,5$. Thử$\overline{bc} = 25 \Rightarrow a = 2$(chọn);$\overline{bc} = 50 \Rightarrow a = 4$(chọn);$\overline{bc} = 75 \Rightarrow a = 6$(chọn). Kết luận các số thỏa mãn là$225, 450, 675$(học sinh tìm đúng ít nhất một số được 0.25đ, tìm đủ cả ba số được 0.5đ).\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Phân tích số chữ số cần dùng: Từ số$1$đến số$9$có$9$số có 1 chữ số, cần dùng:$9 \times 1 = 9$chữ số. Từ số$10$đến số$99$có$90$số có 2 chữ số, cần dùng:$90 \times 2 = 180$chữ số. Tổng số chữ số để đánh từ số$1$đến số$99$là$9 + 180 = 189$chữ số. Bước 2 (0.5đ): Vì$189 < 195$nên số trang cuối cùng phải có 3 chữ số. Số chữ số còn lại để đánh các số có 3 chữ số là:$195 - 189 = 6$chữ số. Số các số có 3 chữ số là:$6 : 3 = 2$số. Vậy ngăn tủ cuối cùng được đánh số là:$99 + 2 = 101$. Kết luận: Tủ tài liệu có$101$ngăn.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Điều kiện:$a, b \in \{1; 2; \dots; 9\}$($b \ne 0$vì tích$a \cdot b$khác$0$). Ta có$\overline{ab} = 10a + b \,\vdots\, a \Rightarrow b \,\vdots\, a$. Đặt$b = ka$với$k \in \{1; 2; \dots; 9\}$. Khi đó$\overline{ab} = 10a + ka = a(10 + k)$. Theo đề bài:$a(10 + k) \,\vdots\, (a \cdot ka) \Rightarrow 10 + k \,\vdots\, (k \cdot a)$. Do đó$10 + k \,\vdots\, k \Rightarrow 10 \,\vdots\, k$, suy ra$k \in \{1; 2; 5\}$. Bước 2 (0.5đ): Xét từng trường hợp: - Nếu$k = 1$:$b = a$. Khi đó$10 + 1 = 11 \,\vdots\, a \Rightarrow a = 1$. Ta được số$11$($11$chia cho$1 \times 1 = 1$hết, thỏa mãn). - Nếu$k = 2$:$b = 2a$. Khi đó$10 + 2 = 12 \,\vdots\, 2a \Rightarrow 6 \,\vdots\, a$. Vì$b = 2a \le 9$nên$a \in \{1; 2; 3; 4\}$. Kết hợp$6 \,\vdots\, a \Rightarrow a \in \{1; 2; 3\}$. Ta có các số:$12$($12 \,\vdots\, 2$),$24$($24 \,\vdots\, 8$),$36$($36 \,\vdots\, 18$). Cả ba số đều thỏa mãn. - Nếu$k = 5$:$b = 5a$. Vì$b \le 9$nên$a = 1 \Rightarrow b = 5$. Ta được số$15$. Kiểm tra:$15$chia cho$1 \times 5 = 5$(thỏa mãn). Vậy các số tự nhiên cần tìm là:$11, 12, 15, 24, 36$.\par\vspace{8pt}
+
+\end{document}

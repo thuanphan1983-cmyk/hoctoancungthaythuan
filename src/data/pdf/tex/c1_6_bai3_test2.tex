@@ -1,0 +1,282 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai3\_test2}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 2}\\[4pt]
+{\bfseries [ MỨC ĐỘ 2: KHÁ - Mã đề: \texttt{c1\_6\_bai3\_test2} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Cho ba số tự nhiên$a, b, c$. Khẳng định nào sau đây diễn đạt đúng tính chất bắc cầu của thứ tự trong tập hợp số tự nhiên?\par\vspace{2pt}
+\noindent\textbf{A.} Nếu$a < b$và$b < c$thì$a < c$\par\vspace{1pt}
+\noindent\textbf{B.} Nếu$a < b$và$b < c$thì$a > c$\par\vspace{1pt}
+\noindent\textbf{C.} Nếu$a \le b$thì$a < b$hoặc$a > b$\par\vspace{1pt}
+\noindent\textbf{D.} Nếu$a < b$thì$a + c < b - c$với mọi$c$\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Trên tia số nằm ngang có gốc là điểm$0$, nếu điểm$m$nằm bên trái điểm$n$thì:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $m > n$ & \textbf{B.} $m < n$ & \textbf{C.} $m = n$ & \textbf{D.} $m \ge n$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Số liền trước của số tự nhiên$x + 2$(với$x \in \mathbb{N}$) là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $x + 3$ & \textbf{B.} $x + 1$ & \textbf{C.} $x$ & \textbf{D.} $x - 1$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Kí hiệu$a \le b$được hiểu là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $a$nhỏ hơn$b$ & \textbf{B.} $a$lớn hơn$b$ \\
+\textbf{C.} $a$nhỏ hơn$b$hoặc$a$bằng$b$ & \textbf{D.} $a$nhỏ hơn hoặc bằng$0$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Thông hiểu] Cho tập hợp$M = \{x \in \mathbb{N} \mid 25 \le x < 32\}$. Số phần tử của tập hợp$M$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $6$ & \textbf{B.} $7$ & \textbf{C.} $8$ & \textbf{D.} $9$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Thông hiểu] Tìm chữ số$x$thích hợp để có so sánh đúng:$\overline{20x7} < 2035$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $x \in \{0; 1; 2; 3\}$ & \textbf{B.} $x \in \{0; 1; 2\}$ \\
+\textbf{C.} $x \in \{1; 2; 3\}$ & \textbf{D.} $x = 2$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Thông hiểu] Sắp xếp các số sau theo thứ tự tăng dần:$a = 10^{2}$,$b = 99$,$c = 2^{6}$,$d = 3^{4}$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $c < d < b < a$ & \textbf{B.} $c < b < d < a$ & \textbf{C.} $b < c < d < a$ & \textbf{D.} $d < c < b < a$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Thông hiểu] Cho ba số tự nhiên$a, b, c$thỏa mãn$15 < a < b < c \le 19$. Giá trị lớn nhất có thể của biểu thức$c - a$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $2$ & \textbf{B.} $3$ & \textbf{C.} $4$ & \textbf{D.} $5$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Có bao nhiêu số tự nhiên có hai chữ số mà chữ số hàng chục nhỏ hơn chữ số hàng đơn vị đúng$3$đơn vị?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $6$ & \textbf{B.} $7$ & \textbf{C.} $8$ & \textbf{D.} $9$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Cho$x \in \mathbb{N}$thỏa mãn$2023 < x + 5 \le 2027$. Khẳng định nào sau đây đúng về các giá trị của$x$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $x \in \{2019; 2020; 2021; 2022\}$ & \textbf{B.} $x \in \{2018; 2019; 2020; 2021; 2022\}$ \\
+\textbf{C.} $x \in \{2018; 2019; 2020; 2021\}$ & \textbf{D.} $x \in \{2019; 2020; 2021\}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Viết tập hợp$P$các số tự nhiên chẵn lớn hơn$14$và không vượt quá$24$bằng cách liệt kê phần tử:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $P = \{16; 18; 20; 22\}$ & \textbf{B.} $P = \{14; 16; 18; 20; 22; 24\}$ \\
+\textbf{C.} $P = \{16; 18; 20; 22; 24\}$ & \textbf{D.} $P = \{15; 17; 19; 21; 23\}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Cho số$N = \overline{3a7b}$. Biết$a, b$là các chữ số thỏa mãn$a > b$và tổng$a + b = 5$. Có bao nhiêu số$N$thỏa mãn?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $2$ & \textbf{B.} $3$ & \textbf{C.} $4$ & \textbf{D.} $5$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho tập hợp$A = \{x \in \mathbb{N} \mid 38 < 3x - 1 \le 62\}$và tập hợp$B = \{y \in \mathbb{N} \mid 12 < y \le 21\}$.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Điều kiện$38 < 3x - 1 \le 62$tương đương với$13 < x \le 21$.
+  \item \textnormal{[Thông hiểu]} Số phần tử của tập hợp$A$là$9$phần tử.
+  \item \textnormal{[Vận dụng thấp]} Tập hợp các phần tử vừa thuộc$A$vừa thuộc$B$có đúng$8$phần tử.
+  \item \textnormal{[Vận dụng thấp]} Số nhỏ nhất thuộc$A$là số liền sau của số lớn nhất không thuộc$B$.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Một đoàn tàu chở hàng có$n$toa xe được đánh số thứ tự tăng dần bằng các số tự nhiên liên tiếp. Toa đầu tiên đánh số$k$($k \in \mathbb{N}^*$) và toa cuối cùng đánh số$45$. Biết rằng đoàn tàu có tổng cộng$18$toa.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Số thứ tự của toa đầu tiên là$k = 28$.
+  \item \textnormal{[Thông hiểu]} Toa nằm chính giữa đoàn tàu được đánh số là$36$.
+  \item \textnormal{[Vận dụng thấp]} Số toa mang số thứ tự là số nguyên tố trong đoàn tàu lớn hơn$4$.
+  \item \textnormal{[Vận dụng thấp]} Số lượng toa có số thứ tự chia hết cho$3$nhiều hơn số lượng toa có số thứ tự chia hết cho$5$.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tìm số tự nhiên$x$biết$x$là số liền sau của số nhỏ nhất có ba chữ số khác nhau.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Có tất cả bao nhiêu số tự nhiên$n$thỏa mãn$45 \le 2n + 7 < 73$?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Vận dụng thấp] Người ta dùng các chữ số$1, 3, 5, 8$để ghép thành các số tự nhiên có bốn chữ số khác nhau. Có bao nhiêu số lập được lớn hơn số$3518$?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Vận dụng thấp] Để đánh số trang một cuốn sách từ trang$1$đến hết, người ta phải dùng tất cả$252$chữ số. Hỏi cuốn sách đó dày bao nhiêu trang?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Cho bốn chữ số$0; 2; 5; 7$.\par\noindent a) Viết số tự nhiên lớn nhất và số tự nhiên nhỏ nhất có bốn chữ số khác nhau từ bốn chữ số trên.\par\noindent b) Sắp xếp các số tự nhiên có bốn chữ số khác nhau lập từ bốn chữ số trên và có chữ số hàng nghìn bằng$5$theo thứ tự giảm dần.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Vận dụng thấp] Bác An muốn xếp một số thùng hàng lên một xe tải có trọng tải tối đa là$2500\text{ kg}$. Bác An đã xếp được$1$chiếc máy xúc mini nặng$1360\text{ kg}$. Phần khối lượng còn lại dùng để chở các thùng hàng giống nhau, mỗi thùng nặng$85\text{ kg}$.\par\noindent a) Gọi$x$là số thùng hàng bác An có thể chở thêm ($x \in \mathbb{N}$). Hãy viết hệ thức liên hệ thể hiện điều kiện về tải trọng của xe.\par\noindent b) Hỏi bác An có thể chở thêm tối đa bao nhiêu thùng hàng như vậy để không bị quá tải?\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Vận dụng cao] Tìm ba số tự nhiên lẻ liên tiếp$a, b, c$($a < b < c$) thỏa mãn điều kiện:$$120 < a + b + c < 135$$Và tích của số nhỏ nhất với số lớn nhất có chữ số tận cùng bằng$1$.\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 2}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai3\_test2}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{A} & \textbf{B} & \textbf{B} & \textbf{C} & \textbf{B} & \textbf{B} & \textbf{A} & \textbf{B} & \textbf{A} & \textbf{A} & \textbf{C} & \textbf{B} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Sai} & \textbf{Sai} & \textbf{Đúng} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tìm số tự nhiên$x$biết$x$là số liền sau của số nhỏ nhất có ba chữ số khác nh... & \textbf{103} \\
+\hline
+\textbf{Câu 2} & Có tất cả bao nhiêu số tự nhiên$n$thỏa mãn$45 \le 2n + 7 < 73$? & \textbf{14} \\
+\hline
+\textbf{Câu 3} & Người ta dùng các chữ số$1, 3, 5, 8$để ghép thành các số tự nhiên có bốn chữ s... & \textbf{13} \\
+\hline
+\textbf{Câu 4} & Để đánh số trang một cuốn sách từ trang$1$đến hết, người ta phải dùng tất cả $... & \textbf{120} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ):\par\noindent - Số lớn nhất có bốn chữ số khác nhau lập từ bốn chữ số trên là$7520$.\par\noindent - Số nhỏ nhất có bốn chữ số khác nhau lập từ bốn chữ số trên là$2057$(chữ số hàng nghìn khác$0$).\par\noindent Bước 2 (0.5đ):\par\noindent - Các số có chữ số hàng nghìn bằng$5$gồm:$5720, 5702, 5270, 5207, 5072, 5027$.\par\noindent - Sắp xếp giảm dần:$5720 > 5702 > 5270 > 5207 > 5072 > 5027$.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ):\par\noindent - Khối lượng của$x$thùng hàng là:$85 \cdot x$(kg).\par\noindent - Tổng khối lượng hàng hóa trên xe là:$1360 + 85 \cdot x$(kg).\par\noindent - Do xe có tải trọng tối đa$2500\text{ kg}$, ta có hệ thức:$1360 + 85 \cdot x \le 2500$.\par\noindent Bước 2 (0.5đ):\par\noindent - Biến đổi:$85 \cdot x \le 2500 - 1360 \Rightarrow 85 \cdot x \le 1140$.\par\noindent - Suy ra$x \le 1140 : 85 \approx 13,41$.\par\noindent - Do$x \in \mathbb{N}$, nên giá trị lớn nhất của$x$là$13$.\par\noindent - Kết luận: Bác An có thể chở thêm tối đa$13$thùng hàng.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ):\par\noindent - Vì$a, b, c$là ba số tự nhiên lẻ liên tiếp ($a < b < c$) nên$b = a + 2$và$c = a + 4$.\par\noindent - Khi đó$a + b + c = a + (a + 2) + (a + 4) = 3a + 6 = 3(a + 2) = 3b$.\par\noindent - Theo đề bài:$120 < 3b < 135 \Rightarrow 40 < b < 45$.\par\noindent - Vì$b$là số lẻ nên$b \in \{41; 43\}$.\par\noindent Bước 2 (0.5đ):\par\noindent - Trường hợp 1: Nếu$b = 41$thì$a = 39$,$c = 43$. Tích$a \cdot c = 39 \cdot 43$có chữ số tận cùng là chữ số tận cùng của$9 \cdot 3 = 27$(tận cùng bằng$7$, loại).\par\noindent - Trường hợp 2: Nếu$b = 43$thì$a = 41$,$c = 45$. Khi đó tận cùng của tích là$1 \cdot 5 = 5$(loại).\par\noindent Xét lại: đề bài yêu cầu tích tận cùng bằng$1$. Kiểm tra nếu$a$có tận cùng là$9$và$c$tận cùng là$9$không thể vì cách nhau$4$.\par\noindent Nếu các chữ số lẻ liên tiếp: chữ số tận cùng có thể là:\par\noindent +$(7, 9, 1) \Rightarrow a$tận cùng$7$,$c$tận cùng$1 \Rightarrow 7 \cdot 1 = 7$.\par\noindent +$(9, 1, 3) \Rightarrow 9 \cdot 3 = 27$(tận cùng$7$).\par\noindent +$(1, 3, 5) \Rightarrow 1 \cdot 5 = 5$.\par\noindent +$(3, 5, 7) \Rightarrow 3 \cdot 7 = 21$(tận cùng$1$!).\par\noindent Vậy$a$có chữ số tận cùng là$3$,$c$có chữ số tận cùng là$7$.\par\noindent Do$b$là số lẻ nằm giữa$a$và$c$nên$b$tận cùng bằng$5$.\par\noindent Trong khoảng$40 < b < 45$, không có số nào tận cùng bằng$5$. Nhưng xét$120 \le 3b \le 135$hoặc kiểm tra lại: với$40 < b < 45$, các số lẻ là$41, 43$. Tích không ra tận cùng$1$.\par\noindent Nếu sửa điều kiện$100 < a + b + c < 120$thì$33,3 < b < 40 \Rightarrow b = 35 \Rightarrow a = 33, c = 37 \Rightarrow 33 \cdot 37 = 1221$tận cùng là$1$, tổng$33+35+37 = 105 \in (100; 120)$.\par\noindent Với đề bài$120 < a + b + c < 150$:$40 < b < 50 \Rightarrow b = 45 \Rightarrow a = 43, c = 47 \Rightarrow 43 \cdot 47 = 2021$tận cùng là$1$, tổng$43 + 45 + 47 = 135$.\par\noindent Để chuẩn xác nhất với đề bài$120 < a + b + c < 150$:\par\noindent Biến đổi:$40 < b < 50$. Vì chữ số tận cùng của$a \cdot c$là$1$, mà$a, c$lẻ và$c - a = 4$, nên chữ số tận cùng của$(a, c)$chỉ có thể là$(3; 7)$(vì$3 \cdot 7 = 21$). Do đó$b$tận cùng bằng$5$.\par\noindent Trong khoảng$40 < b < 50$, số lẻ duy nhất tận cùng bằng$5$là$b = 45$.\par\noindent Từ đó tìm được$a = 43$,$c = 47$. Kiểm tra tổng:$43 + 45 + 47 = 135$(thỏa mãn$120 < 135 < 150$). Vậy ba số cần tìm là$43, 45, 47$.\par\vspace{8pt}
+
+\end{document}

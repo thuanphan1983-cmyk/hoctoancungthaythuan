@@ -1,0 +1,281 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai5\_test1}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 5: Phép nhân và phép chia số tự nhiên - Bài kiểm tra số 1}\\[4pt]
+{\bfseries [ MỨC ĐỘ 1: CƠ BẢN - Mã đề: \texttt{c1\_6\_bai5\_test1} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Trong phép nhân$a \cdot b = c$, các số$a$và$b$được gọi là gì?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Số bị chia và số chia & \textbf{B.} Thừa số \\
+\textbf{C.} Số hạng & \textbf{D.} Tích
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Kết quả của phép nhân$15 \cdot 1$bằng bao nhiêu?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $1$ & \textbf{B.} $0$ & \textbf{C.} $15$ & \textbf{D.} $16$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Kết quả của phép nhân một số tự nhiên bất kì với số$0$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} Chính số đó & \textbf{B.} $0$ & \textbf{C.} $1$ & \textbf{D.} Không xác định
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Trong phép chia có dư$a = b \cdot q + r$($b \neq 0$), số dư$r$phải thoả mãn điều kiện nào sau đây?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $0 \le r < b$ & \textbf{B.} $0 < r \le b$ & \textbf{C.} $r > b$ & \textbf{D.} $r = b$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Nhận biết] Phép chia$a : b$là phép chia hết khi nào?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Số dư lớn hơn số chia & \textbf{B.} Số dư bằng số chia \\
+\textbf{C.} Số dư bằng$0$ & \textbf{D.} Số dư bằng$1$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Nhận biết] Tính chất phân phối của phép nhân đối với phép cộng được viết dưới dạng công thức là:\par\vspace{2pt}
+\noindent\textbf{A.} $a \cdot (b + c) = a \cdot b + a \cdot c$\par\vspace{1pt}
+\noindent\textbf{B.} $a + (b \cdot c) = (a + b) \cdot c$\par\vspace{1pt}
+\noindent\textbf{C.} $a \cdot (b + c) = a + b + c$\par\vspace{1pt}
+\noindent\textbf{D.} $a \cdot (b \cdot c) = (a \cdot b) \cdot c$\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Nhận biết] Tính chất giao hoán của phép nhân là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $a \cdot b = b \cdot a$ & \textbf{B.} $a + b = b + a$ \\
+\textbf{C.} $a \cdot b = a + b$ & \textbf{D.} $a \cdot 1 = 1 \cdot a = a$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Nhận biết] Trong phép chia$48 : 6 = 8$, số$48$được gọi là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} Thương & \textbf{B.} Số chia & \textbf{C.} Số bị chia & \textbf{D.} Số dư
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Kết quả của phép tính$25 \cdot 4$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $10$ & \textbf{B.} $50$ & \textbf{C.} $100$ & \textbf{D.} $1000$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Tìm số tự nhiên$x$, biết:$x \cdot 7 = 56$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $x = 7$ & \textbf{B.} $x = 8$ & \textbf{C.} $x = 9$ & \textbf{D.} $x = 49$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Tìm số dư trong phép chia$29$cho$4$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $1$ & \textbf{B.} $2$ & \textbf{C.} $3$ & \textbf{D.} $4$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Kết quả của phép tính$(12 + 8) \cdot 5$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $100$ & \textbf{B.} $52$ & \textbf{C.} $60$ & \textbf{D.} $40$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho các phép tính số học đối với các số tự nhiên. Xét tính đúng hoặc sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Tích của$125$và$8$có giá trị bằng$1000$.
+  \item \textnormal{[Thông hiểu]} Phép chia$0 : 5$có kết quả bằng$5$.
+  \item \textnormal{[Thông hiểu]} Phép chia$35 : 4$có thương là$8$và số dư là$3$.
+  \item \textnormal{[Thông hiểu]} Số dư trong phép chia một số tự nhiên cho$6$có thể bằng$6$.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Một lớp học có$45$học sinh được xếp đều vào$9$bàn học. Xét tính đúng hoặc sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Mỗi bàn học có đúng$5$học sinh.
+  \item \textnormal{[Thông hiểu]} Nếu có thêm$3$học sinh nữa thì tổng số học sinh của lớp là$48$.
+  \item \textnormal{[Thông hiểu]} Số học sinh của$4$bàn học là$25$học sinh.
+  \item \textnormal{[Thông hiểu]} Để xếp$48$học sinh vào các bàn, mỗi bàn$5$học sinh thì cần ít nhất$10$bàn.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tính giá trị của biểu thức:$36 \cdot 25 + 36 \cdot 75$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Tìm số tự nhiên$x$, biết:$x : 12 = 15$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Thông hiểu] Một người thợ đóng gói được$120$chiếc bánh vào các hộp, mỗi hộp$8$chiếc bánh. Hỏi người đó đóng gói được tất cả bao nhiêu hộp bánh?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Thông hiểu] Tìm thương trong phép chia có dư khi chia$87$cho$7$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Tính bằng cách hợp lí (nếu có thể):\par\noindent a)$25 \cdot 17 \cdot 4$b)$43 \cdot 27 + 43 \cdot 73$\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Thông hiểu] Tìm số tự nhiên$x$, biết:\par\noindent a)$3 \cdot x - 15 = 45$b)$120 : (x + 2) = 12$\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Thông hiểu] Một đoàn khách gồm$98$người muốn đi tham quan bằng xe buýt. Biết mỗi chuyến xe buýt chở được nhiều nhất$30$hành khách. Hỏi cần ít nhất bao nhiêu chuyến xe để chở hết số hành khách đó?\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 5: Phép nhân và phép chia số tự nhiên - Bài kiểm tra số 1}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai5\_test1}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{B} & \textbf{C} & \textbf{B} & \textbf{A} & \textbf{C} & \textbf{A} & \textbf{A} & \textbf{C} & \textbf{C} & \textbf{B} & \textbf{A} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tính giá trị của biểu thức:$36 \cdot 25 + 36 \cdot 75$. & \textbf{3600} \\
+\hline
+\textbf{Câu 2} & Tìm số tự nhiên$x$, biết:$x : 12 = 15$. & \textbf{180} \\
+\hline
+\textbf{Câu 3} & Một người thợ đóng gói được$120$chiếc bánh vào các hộp, mỗi hộp$8$chiếc bánh... & \textbf{15} \\
+\hline
+\textbf{Câu 4} & Tìm thương trong phép chia có dư khi chia$87$cho$7$. & \textbf{12} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+a) Nhóm thừa số thích hợp:$25 \cdot 17 \cdot 4 = (25 \cdot 4) \cdot 17 = 100 \cdot 17 = 1700$(0.5 điểm).\par\noindent b) Áp dụng tính chất phân phối:$43 \cdot 27 + 43 \cdot 73 = 43 \cdot (27 + 73) = 43 \cdot 100 = 4300$(0.5 điểm).\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+a) Ta có$3 \cdot x = 45 + 15 = 60$, suy ra$x = 60 : 3 = 20$(0.5 điểm).\par\noindent b) Ta có$x + 2 = 120 : 12 = 10$, suy ra$x = 10 - 2 = 8$(0.5 điểm).\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Thực hiện phép chia có dư:$98 : 30 = 3$(dư$8$) (0.5 điểm).\par\noindent Vì còn dư$8$người nên cần thêm ít nhất$1$chuyến xe nữa. Vậy số chuyến xe buýt ít nhất cần dùng là:$3 + 1 = 4$chuyến xe (0.5 điểm).\par\vspace{8pt}
+
+\end{document}

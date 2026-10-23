@@ -1,0 +1,281 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai1\_test2}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 2}\\[4pt]
+{\bfseries [ MỨC ĐỘ 2: KHÁ - Mã đề: \texttt{c1\_6\_bai1\_test2} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Cho tập hợp$M = \{x \in \mathbb{N} \mid 5 \le x < 10\}$. Khẳng định nào sau đây là đúng?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $5 \notin M$ & \textbf{B.} $10 \in M$ & \textbf{C.} $5 \in M$ & \textbf{D.} $4 \in M$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Cho tập hợp$P$gồm các chữ cái xuất hiện trong từ "HỌC SINH". Số phần tử của tập hợp$P$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $6$ & \textbf{B.} $7$ & \textbf{C.} $5$ & \textbf{D.} $8$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Cách viết nào dưới đây biểu diễn tập hợp$A$các số tự nhiên lớn hơn$3$và không vượt quá$7$bằng cách liệt kê các phần tử?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $A = \{4; 5; 6; 7\}$ & \textbf{B.} $A = \{3; 4; 5; 6; 7\}$ \\
+\textbf{C.} $A = \{4; 5; 6\}$ & \textbf{D.} $A = \{3; 4; 5; 6\}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Kí hiệu nào sau đây dùng để chỉ mối quan hệ giữa một phần tử$a$và một tập hợp$S$mà phần tử đó không thuộc tập hợp$S$?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a \subset S$ & \textbf{B.} $a \in S$ & \textbf{C.} $a \notin S$ & \textbf{D.} $S \notin a$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Thông hiểu] Cho tập hợp$B = \{x \in \mathbb{N} \mid 2x + 1 \le 11\}$. Số phần tử của tập hợp$B$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $5$ & \textbf{B.} $6$ & \textbf{C.} $11$ & \textbf{D.} $10$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Thông hiểu] Cho tập hợp$C = \{x \in \mathbb{N}^* \mid x \text{ chia hết cho } 3 \text{ và } x \le 30\}$. Tập hợp$C$có bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $9$ & \textbf{B.} $10$ & \textbf{C.} $11$ & \textbf{D.} $8$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Thông hiểu] Biểu diễn tập hợp$E = \{1; 4; 9; 16; 25\}$bằng cách chỉ ra tính chất đặc trưng của các phần tử là:\par\vspace{2pt}
+\noindent\textbf{A.} $E = \{x \in \mathbb{N} \mid x = n^2, n \in \mathbb{N}, 1 \le n \le 5\}$\par\vspace{1pt}
+\noindent\textbf{B.} $E = \{x \in \mathbb{N}^* \mid x < 26\}$\par\vspace{1pt}
+\noindent\textbf{C.} $E = \{x \in \mathbb{N} \mid x = 2n + 1, n \in \mathbb{N}\}$\par\vspace{1pt}
+\noindent\textbf{D.} $E = \{x \in \mathbb{N} \mid x = n^2, n \in \mathbb{N}, n \le 25\}$\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Thông hiểu] Cho tập hợp$A = \{x \in \mathbb{N} \mid 12 < x < 45 \text{ và } x \text{ chia hết cho } 5\}$. Số phần tử của tập hợp$A$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $6$ & \textbf{B.} $7$ & \textbf{C.} $8$ & \textbf{D.} $5$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Cho hai tập hợp$X = \{2; 4; 6; 8\}$và$Y = \{x \in \mathbb{N} \mid x < 10, x \text{ là số chẵn}\}$. Khẳng định nào sau đây là đúng?\par\vspace{2pt}
+\noindent\textbf{A.} Hai tập hợp$X$và$Y$bằng nhau.\par\vspace{1pt}
+\noindent\textbf{B.} Mọi phần tử của$Y$đều thuộc$X$.\par\vspace{1pt}
+\noindent\textbf{C.} Số phần tử của$Y$nhiều hơn số phần tử của$X$đúng$1$phần tử.\par\vspace{1pt}
+\noindent\textbf{D.} Số phần tử của$X$nhiều hơn số phần tử của$Y$.\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Cho tập hợp$M = \{x \in \mathbb{N} \mid (x - 2)(x - 5)(2x - 7) = 0\}$. Số phần tử của tập hợp$M$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $3$ & \textbf{B.} $1$ & \textbf{C.} $2$ & \textbf{D.} $0$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Tập hợp các chữ số của số tự nhiên$N = 20242025$có số phần tử là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $8$ & \textbf{B.} $5$ & \textbf{C.} $4$ & \textbf{D.} $3$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Cho tập hợp$D = \{n \in \mathbb{N} \mid \frac{12}{n} \in \mathbb{N}\text{ và } n > 2\}$. Tập hợp$D$được viết dưới dạng liệt kê là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $D = \{3; 4; 6; 12\}$ & \textbf{B.} $D = \{1; 2; 3; 4; 6; 12\}$ \\
+\textbf{C.} $D = \{3; 4; 6\}$ & \textbf{D.} $D = \{4; 6; 12\}$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Cho hai tập hợp:$A = \{x \in \mathbb{N} \mid 3x - 1 \le 14\}$và$B = \{y \in \mathbb{N}^* \mid y \text{ là ước chung của } 18 \text{ và } 24\}$.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Tập hợp$A$khi viết dưới dạng liệt kê các phần tử là$A = \{0; 1; 2; 3; 4; 5\}$.
+  \item \textnormal{[Thông hiểu]} Số phần tử của tập hợp$B$là$6$.
+  \item \textnormal{[Vận dụng thấp]} Tập hợp gồm các phần tử vừa thuộc$A$vừa thuộc$B$là$\{1; 2; 3; 6\}$.
+  \item \textnormal{[Vận dụng thấp]} Tổng tất cả các phần tử của tập hợp$A$lớn hơn tổng tất cả các phần tử của tập hợp$B$là$3$đơn vị.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Một câu lạc bộ thể thao của trường có$45$học sinh. Trong đó có tập hợp$B$gồm$28$học sinh chơi bóng rổ, tập hợp$C$gồm$23$học sinh chơi cầu lông. Biết rằng có$3$học sinh không tham gia môn nào trong hai môn này.\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Số học sinh tham gia ít nhất một trong hai môn thể thao trên là$42$học sinh.
+  \item \textnormal{[Thông hiểu]} Số học sinh tham gia cả hai môn thể thao là$11$học sinh.
+  \item \textnormal{[Vận dụng thấp]} Tập hợp các học sinh chỉ chơi môn bóng rổ (không chơi cầu lông) có$19$học sinh.
+  \item \textnormal{[Vận dụng thấp]} Số học sinh chỉ chơi đúng một trong hai môn thể thao là$35$học sinh.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Cho tập hợp$S = \{x \in \mathbb{N} \mid 10 \le x \le 99 \text{ và } x \text{ có chữ số tận cùng là } 7\}$. Hỏi tập hợp$S$có bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Cho tập hợp$K = \{x \in \mathbb{N}^* \mid \frac{20}{x} \in \mathbb{N}\text{ và } x > 3\}$. Tính tổng tất cả các phần tử của tập hợp$K$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Vận dụng thấp] Cho tập hợp$A$gồm các số tự nhiên có hai chữ số mà chữ số hàng chục gấp$3$lần chữ số hàng đơn vị. Hỏi tập hợp$A$có bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Vận dụng thấp] Một lớp có$40$học sinh đăng ký tham gia các câu lạc bộ. Tập hợp$T$gồm$25$học sinh thích Toán, tập hợp$V$gồm$20$học sinh thích Văn. Biết cả$40$học sinh đều thích ít nhất một trong hai môn. Hỏi có bao nhiêu học sinh thích cả hai môn Toán và Văn?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Cho hai tập hợp:$M = \{x \in \mathbb{N} \mid x = 3k + 1, k \in \mathbb{N}, k \le 4\}$và$P = \{x \in \mathbb{N} \mid 4 < x \le 13\}$.\par\noindent a) Hãy viết tập hợp$M$bằng cách liệt kê các phần tử.\par\noindent b) Viết tập hợp$Q$gồm các phần tử vừa thuộc$M$vừa thuộc$P$.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Vận dụng thấp] Một đội tình nguyện gồm có$48$học sinh đăng ký tham gia hoạt động hè. Trong đó, tập hợp$A$gồm$30$bạn đăng ký dọn dẹp vệ sinh môi trường, tập hợp$B$gồm$25$bạn đăng ký hoạt động tiếp sức mùa thi. Biết rằng mỗi học sinh trong đội đều tham gia ít nhất một trong hai hoạt động nói trên.\par\noindent a) Tính số học sinh đăng ký tham gia cả hai hoạt động.\par\noindent b) Tính số học sinh chỉ đăng ký tham gia đúng một hoạt động.\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Vận dụng cao] Cho tập hợp$S = \{x \in \mathbb{N}^* \mid x \le 100\}$.\par\noindent a) Có bao nhiêu phần tử của$S$chia hết cho$3$?\par\noindent b) Có bao nhiêu phần tử của$S$không chia hết cho cả$2$và$3$?\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 1: Tập hợp - Bài kiểm tra số 2}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai1\_test2}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{C} & \textbf{A} & \textbf{A} & \textbf{C} & \textbf{B} & \textbf{B} & \textbf{A} & \textbf{A} & \textbf{C} & \textbf{C} & \textbf{C} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Sai} & \textbf{Sai} & \textbf{Đúng} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Cho tập hợp $S = \{x \in \mathbb{N} \mid 10 \le x \le 99 \text{ và } x \text{ có... & \textbf{9} \\
+\hline
+\textbf{Câu 2} & Cho tập hợp $K = \{x \in \mathbb{N}^* \mid \frac{20}{x} \in \mathbb{N}\text{ và... & \textbf{39} \\
+\hline
+\textbf{Câu 3} & Cho tập hợp$A$gồm các số tự nhiên có hai chữ số mà chữ số hàng chục gấp$3$lầ... & \textbf{3} \\
+\hline
+\textbf{Câu 4} & Một lớp có$40$học sinh đăng ký tham gia các câu lạc bộ. Tập hợp$T$gồm$25$h... & \textbf{5} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Xác định các giá trị$k \in \{0; 1; 2; 3; 4\}$, từ đó suy ra các phần tử của$M$tương ứng là$3 \cdot 0 + 1 = 1$;$3 \cdot 1 + 1 = 4$;$3 \cdot 2 + 1 = 7$;$3 \cdot 3 + 1 = 10$;$3 \cdot 4 + 1 = 13$. Kết luận:$M = \{1; 4; 7; 10; 13\}$. Bước 2 (0.5đ): Liệt kê$P = \{5; 6; 7; 8; 9; 10; 11; 12; 13\}$. So sánh và tìm các phần tử chung của cả hai tập hợp để suy ra$Q = \{7; 10; 13\}$.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Vì tất cả$48$học sinh đều tham gia ít nhất một hoạt động nên số học sinh tham gia cả hai hoạt động là:$(30 + 25) - 48 = 7$(học sinh). Bước 2 (0.5đ): Số học sinh chỉ tham gia dọn vệ sinh là:$30 - 7 = 23$(học sinh). Số học sinh chỉ tham gia tiếp sức mùa thi là:$25 - 7 = 18$(học sinh). Do đó số học sinh chỉ tham gia đúng một hoạt động là:$23 + 18 = 41$(học sinh) (hoặc lấy$48 - 7 = 41$học sinh).\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Các phần tử của$S$chia hết cho$3$có dạng$3k$($k \in \mathbb{N}^*$). Do$3 \le 3k \le 100 \Rightarrow 1 \le k \le 33$. Vậy có$33$phần tử của$S$chia hết cho$3$. Bước 2 (0.5đ): Số phần tử chia hết cho$2$là$100 : 2 = 50$phần tử. Số phần tử chia hết cho cả$2$và$3$(tức chia hết cho$6$) là$100 : 6 = 16$(dư$4$), tức có$16$phần tử. Số phần tử chia hết cho$2$hoặc$3$là:$50 + 33 - 16 = 67$phần tử. Vậy số phần tử không chia hết cho cả$2$và$3$là:$100 - 67 = 33$phần tử.\par\vspace{8pt}
+
+\end{document}

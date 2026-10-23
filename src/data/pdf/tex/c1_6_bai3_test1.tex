@@ -1,0 +1,279 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- THIẾT LẬP LỀ TRANG & KHỔ GIẤY ---
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+
+% --- HỖ TRỢ ĐA DẠNG TRÌNH BIÊN DỊCH (XeLaTeX / pdfLaTeX / LuaLaTeX) ---
+\usepackage{iftex}
+\ifXeTeX
+  \usepackage{fontspec}
+  \usepackage[vietnamese]{babel}
+  \defaultfontfeatures{Ligatures=TeX}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5,T1]{fontenc}
+  \usepackage[vietnamese]{babel}
+  \usepackage{mathptmx}
+\fi
+
+% --- CÁC GÓI TOÁN HỌC CHUẨN AMS ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% --- BẢNG BIỂU, DANH SÁCH & TRANG TRÍ ---
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% --- THIẾT LẬP HEADER & FOOTER ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\textit{\small Bộ đề kiểm tra Toán THCS KNTT - Mã: c1\_6\_bai3\_test1}}
+\rfoot{\textit{\small Trang \thepage}}
+
+\begin{document}
+
+% ==============================================================================
+% PHẦN ĐẦU ĐỀ THI (HEADER TIÊU CHUẨN BỘ GD&ĐT)
+% ==============================================================================
+\noindent
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr@{}}
+\textbf{SỞ GD\&ĐT ........................} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026} \\
+\textbf{TRƯỜNG THCS ........................} & \textbf{Môn: TOÁN - LỚP 6} \\
+\textit{(Đề thi chuẩn ma trận 2025)} & \textit{Thời gian làm bài: 45 phút (không kể giao đề)}
+\end{tabular*}
+
+\vspace{6pt}
+\begin{center}
+{\Large\bfseries Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 1}\\[4pt]
+{\bfseries [ MỨC ĐỘ 1: CƠ BẢN - Mã đề: \texttt{c1\_6\_bai3\_test1} ]}
+\end{center}
+
+\vspace{4pt}
+\noindent
+\rule{\textwidth}{0.8pt}\\[3pt]
+Họ và tên thí sinh: \dotfill\ Lớp: \dots\dots\ SBD: \dots\dots\\[-6pt]
+\rule{\textwidth}{0.8pt}
+
+\vspace{10pt}
+
+% ==============================================================================
+% PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 ĐIỂM)
+% ==============================================================================
+\noindent
+\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án đúng nhất.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Nhận biết] Kí hiệu "$a$nhỏ hơn hoặc bằng$b$" được viết là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a < b$ & \textbf{B.} $a > b$ & \textbf{C.} $a \le b$ & \textbf{D.} $a \ge b$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 2.} [Nhận biết] Trên tia số nằm ngang có gốc là điểm$0$, điểm biểu diễn số$0$được gọi là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} Gốc của tia số & \textbf{B.} Điểm đơn vị & \textbf{C.} Điểm liền trước & \textbf{D.} Điểm liền sau
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 3.} [Nhận biết] Số liền sau của số tự nhiên$2023$là số:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $2022$ & \textbf{B.} $2024$ & \textbf{C.} $2025$ & \textbf{D.} $2021$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 4.} [Nhận biết] Số liền trước của số tự nhiên$100$là số:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $99$ & \textbf{B.} $101$ & \textbf{C.} $98$ & \textbf{D.} $102$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 5.} [Nhận biết] Trên tia số nằm ngang theo chiều từ trái sang phải, nếu điểm$a$nằm bên trái điểm$b$thì:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $a > b$ & \textbf{B.} $a < b$ & \textbf{C.} $a = b$ & \textbf{D.} $a \ge b$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 6.} [Nhận biết] Trong các số tự nhiên sau, số nào nhỏ nhất?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $12$ & \textbf{B.} $0$ & \textbf{C.} $5$ & \textbf{D.} $8$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 7.} [Nhận biết] Tính chất bắc cầu của thứ tự trong tập hợp số tự nhiên được phát biểu là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} Nếu$a < b$và$b < c$thì$a < c$ & \textbf{B.} Nếu$a < b$thì$a + 1 = b$ \\
+\textbf{C.} Nếu$a > b$thì$b > a$ & \textbf{D.} Nếu$a = b$thì$a < b$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 8.} [Nhận biết] Cách viết nào dưới đây diễn đạt "$x$lớn hơn hoặc bằng$7$"?\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $x \ge 7$ & \textbf{B.} $x > 7$ & \textbf{C.} $x \le 7$ & \textbf{D.} $x < 7$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 9.} [Thông hiểu] Điền dấu thích hợp vào chỗ trống:$2024 \dots 2042$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $<$ & \textbf{B.} $>$ & \textbf{C.} $=$ & \textbf{D.} $\ge$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 10.} [Thông hiểu] Cho số tự nhiên$x$thỏa mãn$15 < x < 18$. Các giá trị của$x$là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $16; 17$ & \textbf{B.} $15; 16; 17$ & \textbf{C.} $16; 17; 18$ & \textbf{D.} $17; 18$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 11.} [Thông hiểu] Tập hợp$M = \{x \in \mathbb{N} \mid x \le 4\}$viết bằng cách liệt kê các phần tử là:\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.48\textwidth}p{0.48\textwidth}@{}}
+\textbf{A.} $\{0; 1; 2; 3; 4\}$ & \textbf{B.} $\{1; 2; 3; 4\}$ \\
+\textbf{C.} $\{0; 1; 2; 3\}$ & \textbf{D.} $\{4\}$
+\end{tabular*}\par\vspace{5pt}
+
+\noindent\textbf{Câu 12.} [Thông hiểu] Sắp xếp các số sau theo thứ tự tăng dần:$15, 7, 28, 12$.\par\vspace{2pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll@{}}
+\textbf{A.} $7; 12; 15; 28$ & \textbf{B.} $28; 15; 12; 7$ & \textbf{C.} $7; 15; 12; 28$ & \textbf{D.} $12; 7; 15; 28$
+\end{tabular*}\par\vspace{5pt}
+
+
+% ==============================================================================
+% PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}\\
+\textit{\small (Quy tắc tính điểm: Đúng 1 ý được 0,1đ; đúng 2 ý được 0,25đ; đúng 3 ý được 0,5đ; đúng 4 ý được 1,0đ).}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} Xét tính đúng hoặc sai của các khẳng định sau về thứ tự trong tập hợp các số tự nhiên:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Số liền sau của số$999$là$1000$.
+  \item \textnormal{[Thông hiểu]} Số$0$có số liền trước trong tập hợp số tự nhiên$\mathbb{N}$.
+  \item \textnormal{[Thông hiểu]} Nếu số tự nhiên$a < b$và$b < 50$thì chắc chắn$a < 50$.
+  \item \textnormal{[Thông hiểu]} Tập hợp các số tự nhiên$x$thỏa mãn$10 \le x < 12$có đúng$3$phần tử.
+\end{enumerate}
+\vspace{6pt}
+
+\noindent\textbf{Câu 2.} Cho tập hợp$A = \{x \in \mathbb{N} \mid 5 \le x \le 9\}$. Xét tính đúng hoặc sai của các khẳng định sau:\par\vspace{2pt}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=1.2cm, itemsep=2pt, topsep=2pt]
+  \item \textnormal{[Thông hiểu]} Tập hợp$A$có tất cả$5$phần tử.
+  \item \textnormal{[Thông hiểu]} Phần tử$4$thuộc tập hợp$A$($4 \in A$).
+  \item \textnormal{[Thông hiểu]} Phần tử$9$thuộc tập hợp$A$($9 \in A$).
+  \item \textnormal{[Thông hiểu]} Các phần tử của$A$viết theo thứ tự giảm dần là$9; 8; 7; 6; 5$.
+\end{enumerate}
+\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm)}\\
+\textit{\small Thí sinh trả lời từ câu 1 đến câu 4. Mỗi câu trả lời đúng thí sinh được 0,5 điểm.}
+\vspace{6pt}
+\noindent\textbf{Câu 1.} [Thông hiểu] Tìm số tự nhiên liền trước của số$2025$.\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 2.} [Thông hiểu] Tập hợp$B = \{x \in \mathbb{N} \mid 12 < x < 17\}$có bao nhiêu phần tử?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 3.} [Thông hiểu] Trong các số:$84, 96, 78, 102, 65$, số lớn nhất là số nào?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+\noindent\textbf{Câu 4.} [Thông hiểu] Có bao nhiêu số tự nhiên$x$thỏa mãn$x \le 8$?\par\vspace{2pt}
+\noindent\textit{Đáp số:} \dotfill\par\vspace{6pt}
+
+
+% ==============================================================================
+% PHẦN IV: TỰ LUẬN (3,0 ĐIỂM)
+% ==============================================================================
+\vspace{6pt}
+\noindent
+\textbf{\large PHẦN IV. Tự luận (3,0 điểm)}\\
+\textit{\small Thí sinh trình bày chi tiết các bước giải từ câu 1 đến câu 3 vào giấy làm bài.}
+\vspace{6pt}
+\noindent\textbf{Bài 1 (1,0 điểm).} [Thông hiểu] Thực hiện các yêu cầu sau:\par\noindent a) Viết số liền trước và số liền sau của số tự nhiên$35$.\par\noindent b) Viết ba số tự nhiên liên tiếp tăng dần, trong đó số nhỏ nhất là$19$.\par\vspace{8pt}
+
+\noindent\textbf{Bài 2 (1,0 điểm).} [Thông hiểu] Cho tập hợp$M = \{x \in \mathbb{N} \mid 6 \le x < 11\}$.\par\noindent a) Hãy viết tập hợp$M$bằng cách liệt kê các phần tử của nó.\par\noindent b) Sắp xếp các phần tử của tập hợp$M$theo thứ tự giảm dần.\par\vspace{8pt}
+
+\noindent\textbf{Bài 3 (1,0 điểm).} [Thông hiểu] So sánh hai số tự nhiên sau và giải thích ngắn gọn:$A = 325\,714$và$B = 325\,801$.\par\vspace{8pt}
+
+
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{\small Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\newpage
+% ==============================================================================
+% HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT
+% ==============================================================================
+\begin{center}
+{\Large\bfseries HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN CHI TIẾT}\\[4pt]
+{\large\bfseries Toán 6 (KNTT) - Bài 3: Thứ tự trong tập hợp các số tự nhiên - Bài kiểm tra số 1}\\[2pt]
+{\bfseries Mã đề: \texttt{c1\_6\_bai3\_test1}}
+\end{center}
+
+\vspace{10pt}
+\noindent\textbf{\large 1. ĐÁP ÁN PHẦN I: TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN (3,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} & \textbf{B} & \textbf{B} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 2. ĐÁP ÁN PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Câu hỏi} & \textbf{Ý a)} & \textbf{Ý b)} & \textbf{Ý c)} & \textbf{Ý d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+\textbf{Câu 2} & \textbf{Đúng} & \textbf{Sai} & \textbf{Đúng} & \textbf{Đúng} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 3. ĐÁP ÁN PHẦN III: TRẢ LỜI NGẮN (2,0 điểm)}
+\vspace{4pt}
+\begin{center}
+\begin{tabular}{|c|m{11cm}|c|}
+\hline
+\textbf{Câu} & \textbf{Tóm tắt yêu cầu} & \textbf{Đáp số chính xác} \\
+\hline
+\textbf{Câu 1} & Tìm số tự nhiên liền trước của số$2025$. & \textbf{2024} \\
+\hline
+\textbf{Câu 2} & Tập hợp$B = \{x \in \mathbb{N} \mid 12 < x < 17\}$có bao nhiêu phần tử? & \textbf{4} \\
+\hline
+\textbf{Câu 3} & Trong các số:$84, 96, 78, 102, 65$, số lớn nhất là số nào? & \textbf{102} \\
+\hline
+\textbf{Câu 4} & Có bao nhiêu số tự nhiên$x$thỏa mãn$x \le 8$? & \textbf{9} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{6pt}
+
+
+\noindent\textbf{\large 4. LỜI GIẢI CHI TIẾT VÀ BIỂU ĐIỂM TỰ LUẬN (3,0 điểm)}
+\vspace{4pt}
+\noindent\textbf{\underline{Bài 1 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Số liền trước của$35$là$34$; số liền sau của$35$là$36$.\par\noindent Bước 2 (0.5đ): Ba số tự nhiên liên tiếp tăng dần bắt đầu từ số nhỏ nhất$19$là:$19; 20; 21$.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 2 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Liệt kê đúng các phần tử:$M = \{6; 7; 8; 9; 10\}$.\par\noindent Bước 2 (0.5đ): Sắp xếp các phần tử theo thứ tự giảm dần:$10; 9; 8; 7; 6$.\par\vspace{8pt}
+
+\noindent\textbf{\underline{Bài 3 (1,0 điểm):}}\par\vspace{3pt}
+Bước 1 (0.5đ): Nhận xét hai số$A$và$B$đều có$6$chữ số, các chữ số ở hàng trăm nghìn, hàng chục nghìn, hàng nghìn đều giống nhau (đều là$3, 2, 5$).\par\noindent Bước 2 (0.5đ): So sánh chữ số ở hàng trăm: vì$7 < 8$nên$325\,714 < 325\,801$(hay$A < B$).\par\vspace{8pt}
+
+\end{document}
