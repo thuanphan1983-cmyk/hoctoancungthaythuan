@@ -1060,40 +1060,10 @@ if (typeof window !== "undefined") {
 
 
 
-  <!-- Ngân hàng đề thi chuẩn hoá các chương Toán THCS (KNTT) -->
-
-  <script src="chapter1Toan8Exams.js"></script>
-
-  <script src="chapter2Toan8Exams.js"></script>
-
-  <script src="chapter3Toan8Exams.js"></script>
-
-  <!-- De thi chi tiet tung bai hoc Chuong III Toan 8 (Bai 10, 11, 12, 13, 14 va On tap Chuong III) -->
-  <script src="chapter3_bai10_toan8.js"></script>
-
-  <script src="chapter3_bai11_toan8.js"></script>
-
-  <script src="chapter3_bai12_toan8.js"></script>
-
-  <script src="chapter3_bai13_toan8.js"></script>
-
-  <script src="chapter3_bai14_toan8.js"></script>
-
-  <script src="chapter3_ontap_toan8.js"></script>
-
-  <script src="chapter1Toan6Exams.js"></script>
-
-  <script src="src/data/generated/grade8_c2_8_exams.js"></script>
-
-  <script src="src/data/generated/grade8_c3_8_exams.js"></script>
-
-  <script src="src/data/generated/grade6_c1_6_exams.js"></script>
-
-  <script src="generated/grade8_c2_8_exams.js"></script>
-
-  <script src="generated/grade8_c3_8_exams.js"></script>
-
-  <script src="generated/grade6_c1_6_exams.js"></script>
+  <!-- ============================================================================== -->
+  <!-- DỮ LIỆU ĐỀ THI ĐƯỢC TẢI ĐỘNG (DYNAMIC FETCH / IMPORT) THÔNG QUA MANIFEST.JSON -->
+  <!-- Cơ chế tự động fetch() đúng file JSON khi chọn Bài học, không nhúng script thủ công -->
+  <!-- ============================================================================== -->
 
 
 
@@ -2213,252 +2183,202 @@ if (typeof window !== "undefined") {
 
     // ==========================================
 
-    // HÀM LẤY ĐỀ CHUẨN TỪ NGÂN HÀNG ĐỀ THI
+    // ==============================================================================
+    // HỆ THỐNG TẢI DỮ LIỆU ĐỀ THI ĐỘNG (DYNAMIC FETCH / IMPORT) TỪ MANIFEST.JSON
+    // 1. Tự động fetch() file JSON của đúng chương khi người dùng chọn bài học
+    // 2. Tra cứu qua manifest.json để nắm toàn bộ kho đề
+    // 3. BỎ HOÀN TOÀN FALLBACK: Nếu không tìm thấy đề, trả về null để báo lỗi rõ ràng,
+    //    tuyệt đối KHÔNG bù đề của chương khác (đơn thức/đa thức).
+    // ==============================================================================
 
-    // ==========================================
+    const DYNAMIC_EXAM_CACHE = {}; // Cache theo chapterKey: `grade{grade}_{chapterId}`
+    let DYNAMIC_MANIFEST_CACHE = null;
 
+    // 1. Hàm tải manifest.json
+    async function loadExamManifest() {
+      if (DYNAMIC_MANIFEST_CACHE) return DYNAMIC_MANIFEST_CACHE;
+      const candidateUrls = [
+        "manifest.json",
+        "generated/manifest.json",
+        "src/data/generated/manifest.json",
+        "./manifest.json",
+        "./generated/manifest.json",
+        "./src/data/generated/manifest.json"
+      ];
+      for (const url of candidateUrls) {
+        try {
+          const resp = await fetch(url, { cache: "no-cache" });
+          if (resp.ok) {
+            const data = await resp.json();
+            DYNAMIC_MANIFEST_CACHE = data;
+            console.log("SUCCESS: Loaded manifest.json from:", url, Object.keys(data));
+            return DYNAMIC_MANIFEST_CACHE;
+          }
+        } catch (e) {
+          // Thu duong dan tiep theo
+        }
+      }
+      return null;
+    }
+
+    // 2. Hàm tải động dữ liệu của một chương
+    async function fetchChapterExams(grade, chapterId) {
+      const gStr = String(grade);
+      const chKey = `grade${gStr}_${chapterId}`;
+      if (DYNAMIC_EXAM_CACHE[chKey]) {
+        return DYNAMIC_EXAM_CACHE[chKey];
+      }
+
+      const manifest = await loadExamManifest();
+      let jsonFileName = `grade${gStr}_${chapterId}_exams.json`;
+      let jsFileName = `grade${gStr}_${chapterId}_exams.js`;
+
+      if (manifest && manifest[chKey]) {
+        jsonFileName = manifest[chKey].jsonFile || jsonFileName;
+        jsFileName = manifest[chKey].jsFile || jsFileName;
+      }
+
+      const jsonCandidateUrls = [
+        `generated/${jsonFileName}`,
+        `src/data/generated/${jsonFileName}`,
+        `${jsonFileName}`,
+        `./generated/${jsonFileName}`,
+        `./src/data/generated/${jsonFileName}`,
+        `./${jsonFileName}`
+      ];
+
+      // Phương pháp 1: Dynamic fetch() file JSON
+      for (const url of jsonCandidateUrls) {
+        try {
+          const resp = await fetch(url, { cache: "no-cache" });
+          if (resp.ok) {
+            const data = await resp.json();
+            const examsDict = data.exams || data;
+            if (examsDict && typeof examsDict === "object" && Object.keys(examsDict).length > 0) {
+              DYNAMIC_EXAM_CACHE[chKey] = examsDict;
+              console.log(`SUCCESS [Dynamic Fetch]: Loaded data for ${chKey} from: ${url} (${Object.keys(examsDict).length} exams)`);
+              return examsDict;
+            }
+          }
+        } catch (e) {
+          // Thu tiep
+        }
+      }
+
+      // Phương pháp 2: Fallback qua window global (nếu đã có sẵn trong trang)
+      const globalVarNames = [
+        `CHAPTER${chapterId.replace(/[^0-9]/g, '')}_TOAN${gStr}_EXAMS`,
+        `EXAMS_${gStr.toUpperCase()}_${chapterId.toUpperCase()}`,
+        `CHAPTER${chapterId.replace(/[^0-9]/g, '')}_TOAN8_EXAMS`
+      ];
+      for (const gv of globalVarNames) {
+        if (typeof window !== "undefined" && window[gv]) {
+          const examsDict = window[gv].exams || window[gv];
+          DYNAMIC_EXAM_CACHE[chKey] = examsDict;
+          return examsDict;
+        }
+      }
+
+      // Phương pháp 3: Dynamic Script Injection (cho môi trường file:/// khi fetch bị CORS chặn)
+      const jsCandidateUrls = [
+        `generated/${jsFileName}`,
+        `src/data/generated/${jsFileName}`,
+        `${jsFileName}`,
+        `chapter${chapterId.replace(/[^0-9]/g, '')}Toan${gStr}Exams.js`
+      ];
+      for (const jsUrl of jsCandidateUrls) {
+        try {
+          await new Promise((resolve, reject) => {
+            const script = document.createElement("script");
+            script.src = jsUrl;
+            script.onload = () => resolve();
+            script.onerror = () => reject();
+            document.head.appendChild(script);
+          });
+          for (const gv of globalVarNames) {
+            if (typeof window !== "undefined" && window[gv]) {
+              const examsDict = window[gv].exams || window[gv];
+              DYNAMIC_EXAM_CACHE[chKey] = examsDict;
+              return examsDict;
+            }
+          }
+        } catch (e) {
+          // Thu tiep
+        }
+      }
+
+      console.warn(`WARNING [Dynamic Fetch]: Not found exam data for ${chKey}`);
+      return null;
+    }
+
+    // 3. Hàm lấy đề thi cho bài học cụ thể
+    // QUY TẮC RÀNG BUỘC: Nếu không tìm thấy, trả về NULL. Tuyệt đối KHÔNG fallback sang chương khác!
+    async function getExamForLesson(grade, chapterId, lessonName, testNum = 1) {
+      const examsDict = await fetchChapterExams(grade, chapterId);
+      if (!examsDict) {
+        // Chưa có dữ liệu: trả về null để giao diện hiển thị thông báo "Đề thi đang được cập nhật"
+        return null;
+      }
+
+      const curChap = (window.CURRICULUM_KNTT || {})[grade]?.chapters.find(c => c.id === chapterId);
+      const lessonIdx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 0;
+
+      // Ưu tiên 1: Khớp theo index chuẩn {chapterId}_bai{idx}_test{testNum}
+      if (lessonIdx > 0) {
+        const standardKey = `${chapterId}_bai${lessonIdx}_test${testNum}`;
+        if (examsDict[standardKey]) {
+          return examsDict[standardKey];
+        }
+      }
+
+      // Ưu tiên 2: Khớp theo từ khóa bài học
+      const les = (lessonName || "").toLowerCase();
+      for (const [key, exam] of Object.entries(examsDict)) {
+        if (key.endsWith(`_test${testNum}`)) {
+          const title = (exam.title || "").toLowerCase();
+          const matchBai = les.match(/bài\s*(\d+)/i);
+          if (matchBai) {
+            const num = matchBai[1];
+            if (title.includes(`bài ${num}`) || title.includes(`bai ${num}`) || key.includes(`bai${num}`)) {
+              return exam;
+            }
+          }
+          if (les.includes("cuối chương") && (title.includes("cuối chương") || key.includes("bai6") || key.includes("bai8") || key.includes("bai5"))) {
+            return exam;
+          }
+          if (les.includes("ôn tập") && (title.includes("ôn tập") || key.includes("bai6") || key.includes("bai8"))) {
+            return exam;
+          }
+        }
+      }
+
+      // Ưu tiên 3: Nếu là bài trong chương nhưng key đặt theo thứ tự danh sách đề
+      const candidateKeys = Object.keys(examsDict).filter(k => k.endsWith(`_test${testNum}`));
+      if (lessonIdx > 0 && candidateKeys[lessonIdx - 1]) {
+        return examsDict[candidateKeys[lessonIdx - 1]];
+      }
+
+      // NẾU VẪN KHÔNG TÌM THẤY: BỎ TOÀN BỘ CƠ CHẾ LẤY ĐỀ CŨ BÙ VÀO, TRẢ VỀ NULL!
+      return null;
+    }
+
+    // Giữ hàm getExamFromBank đồng bộ cho các ngữ cảnh kiểm tra nhanh từ cache
     function getExamFromBank(grade, chapterId, lessonName, testNum = 1) {
-
-            // 1b. Kiểm tra ngân hàng đề Chương 3 Toán 8 (Tứ giác)
-      const c3Exams = (typeof window !== 'undefined' && window.CHAPTER3_TOAN8_EXAMS) ||
-                      (typeof CHAPTER3_TOAN8_EXAMS !== 'undefined' ? CHAPTER3_TOAN8_EXAMS : null) ||
-                      (typeof window !== 'undefined' && window.EXAMS_8_C3_8) ||
-                      (typeof EXAMS_8_C3_8 !== 'undefined' ? EXAMS_8_C3_8 : null);
-      if (grade === "8" && (chapterId === "c3_8" || (chapterId || "").toLowerCase().includes("c3")) && c3Exams) {
-        const les = (lessonName || "").toLowerCase();
-        let key = "";
-        if (les.includes("cuối chương") || les.includes("ôn tập") || les.includes("bài 6")) {
-          key = `c3_8_bai6_test${testNum}`;
-        } else if (les.includes("bài 10") || (les.includes("tứ giác") && !les.includes("cuối chương"))) {
-          key = `c3_8_bai1_test${testNum}`;
-        } else if (les.includes("bài 11") || les.includes("hình thang cân") || les.includes("hình thang")) {
-          key = `c3_8_bai2_test${testNum}`;
-        } else if (les.includes("bài 12") || les.includes("hình bình hành")) {
-          key = `c3_8_bai3_test${testNum}`;
-        } else if (les.includes("bài 13") || les.includes("hình chữ nhật")) {
-          key = `c3_8_bai4_test${testNum}`;
-        } else if (les.includes("bài 14") || les.includes("hình thoi") || les.includes("hình vuông")) {
-          key = `c3_8_bai5_test${testNum}`;
-        } else {
-          const curChap = (window.CURRICULUM_KNTT || {})["8"]?.chapters.find(c => c.id === "c3_8");
-          const idx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
-          key = `c3_8_bai${idx > 0 ? idx : 1}_test${testNum}`;
-        }
-        const examsDict = c3Exams.exams || c3Exams;
-        if (key && examsDict[key]) {
-          return examsDict[key];
-        }
-        if (examsDict[`c3_8_bai1_test${testNum}`]) {
-          return examsDict[`c3_8_bai1_test${testNum}`];
-        }
-        const firstKey = Object.keys(examsDict)[0];
-        if (firstKey) return examsDict[firstKey];
+      const gStr = String(grade);
+      const chKey = `grade${gStr}_${chapterId}`;
+      const cached = DYNAMIC_EXAM_CACHE[chKey];
+      if (!cached) return null; // Tuyệt đối KHÔNG fallback sang chương khác!
+      const curChap = (window.CURRICULUM_KNTT || {})[grade]?.chapters.find(c => c.id === chapterId);
+      const lessonIdx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 0;
+      if (lessonIdx > 0 && cached[`${chapterId}_bai${lessonIdx}_test${testNum}`]) {
+        return cached[`${chapterId}_bai${lessonIdx}_test${testNum}`];
       }
-
-// 1. Kiểm tra ngân hàng đề Chương 2 Toán 8 (Hằng đẳng thức đáng nhớ và ứng dụng)
-
-      const c2Exams = (typeof window !== 'undefined' && window.CHAPTER2_TOAN8_EXAMS) ||
-
-                      (typeof CHAPTER2_TOAN8_EXAMS !== 'undefined' ? CHAPTER2_TOAN8_EXAMS : null) ||
-
-                      (typeof window !== 'undefined' && window.EXAMS_8_C2_8) ||
-
-                      (typeof EXAMS_8_C2_8 !== 'undefined' ? EXAMS_8_C2_8 : null);
-
-      if (grade === "8" && (chapterId === "c2_8" || (chapterId || "").toLowerCase().includes("c2")) && c2Exams) {
-
-        const les = (lessonName || "").toLowerCase();
-
-        let key = "";
-
-        if (les.includes("cuối chương") || les.includes("ôn tập")) {
-
-          key = `c2_8_bai5_test${testNum}`;
-
-        } else if (les.includes("bài 6") || les.includes("hiệu hai bình phương") || les.includes("bình phương")) {
-
-          key = `c2_8_bai1_test${testNum}`;
-
-        } else if (les.includes("bài 7") || les.includes("lập phương của một tổng") || les.includes("lập phương của một hiệu")) {
-
-          key = `c2_8_bai2_test${testNum}`;
-
-        } else if (les.includes("bài 8") || les.includes("tổng và hiệu hai lập phương")) {
-
-          key = `c2_8_bai3_test${testNum}`;
-
-        } else if (les.includes("bài 9") || les.includes("phân tích đa thức")) {
-
-          key = `c2_8_bai4_test${testNum}`;
-
-        } else {
-
-          const curChap = (window.CURRICULUM_KNTT || {})["8"]?.chapters.find(c => c.id === "c2_8");
-
-          const idx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
-
-          key = `c2_8_bai${idx > 0 ? idx : 1}_test${testNum}`;
-
-        }
-
-        const examsDict = c2Exams.exams || c2Exams;
-
-        if (key && examsDict[key]) {
-
-          return examsDict[key];
-
-        }
-
-      }
-
-
-
-      // 2. Kiểm tra bộ đề Chương 1 Toán 8 (Đa thức)
-
-      const c1Exams = (typeof window !== 'undefined' && window.CHAPTER1_TOAN8_EXAMS) || 
-
-                      (typeof CHAPTER1_TOAN8_EXAMS !== 'undefined' ? CHAPTER1_TOAN8_EXAMS : null) ||
-
-                      (typeof window !== 'undefined' && window.EXAMS_8_C1_8) ||
-
-                      (typeof EXAMS_8_C1_8 !== 'undefined' ? EXAMS_8_C1_8 : null);
-
-      if (grade === "8" && (chapterId === "c1_8" || !chapterId || (chapterId || "").toLowerCase().includes("c1")) && c1Exams) {
-
-        const les = (lessonName || "").toLowerCase();
-
-        let key = "";
-
-        if (les.includes("cuối chương") || les.includes("ôn tập")) {
-
-          key = `c1_8_bai6_test${testNum}`;
-
-        } else if (les.includes("bài 1") || les.includes("đơn thức")) {
-
-          key = `c1_8_bai1_test${testNum}`;
-
-        } else if (les.includes("bài 2") || (les.includes("đa thức") && !les.includes("phép"))) {
-
-          key = `c1_8_bai2_test${testNum}`;
-
-        } else if (les.includes("bài 3") || les.includes("cộng")) {
-
-          key = `c1_8_bai3_test${testNum}`;
-
-        } else if (les.includes("bài 4") || les.includes("nhân")) {
-
-          key = `c1_8_bai4_test${testNum}`;
-
-        } else if (les.includes("bài 5") || les.includes("chia")) {
-
-          key = `c1_8_bai5_test${testNum}`;
-
-        } else {
-
-          const curChap = (window.CURRICULUM_KNTT || {})["8"]?.chapters.find(c => c.id === "c1_8");
-
-          const idx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
-
-          key = `c1_8_bai${idx > 0 ? idx : 1}_test${testNum}`;
-
-        }
-
-        const examsDict = c1Exams.exams || c1Exams;
-
-        if (key && examsDict[key]) {
-
-          return examsDict[key];
-
-        }
-
-      }
-
-
-
-      // 3. Kiểm tra bộ đề Chương 1 Toán 6 (Tập hợp các số tự nhiên - 8 bài x 3 đề = 24 đề)
-      const c1_6Exams = (typeof window !== 'undefined' && window.CHAPTER1_TOAN6_EXAMS) ||
-                        (typeof CHAPTER1_TOAN6_EXAMS !== 'undefined' ? CHAPTER1_TOAN6_EXAMS : null) ||
-                        (typeof window !== 'undefined' && window.EXAMS_6_C1_6) ||
-                        (typeof EXAMS_6_C1_6 !== 'undefined' ? EXAMS_6_C1_6 : null);
-      if (grade === "6" && (chapterId === "c1_6" || (chapterId || "").toLowerCase().includes("c1")) && c1_6Exams) {
-        const les = (lessonName || "").toLowerCase();
-        let key = "";
-        if (les.includes("cuối chương") || les.includes("ôn tập") || les.includes("bài 8")) {
-          key = `c1_6_bai8_test${testNum}`;
-        } else if (les.includes("bài 1") || (les.includes("tập hợp") && !les.includes("thứ tự"))) {
-          key = `c1_6_bai1_test${testNum}`;
-        } else if (les.includes("bài 2") || les.includes("cách ghi")) {
-          key = `c1_6_bai2_test${testNum}`;
-        } else if (les.includes("bài 3") || les.includes("thứ tự trong tập")) {
-          key = `c1_6_bai3_test${testNum}`;
-        } else if (les.includes("bài 4") || les.includes("phép cộng") || les.includes("phép trừ")) {
-          key = `c1_6_bai4_test${testNum}`;
-        } else if (les.includes("bài 5") || les.includes("phép nhân") || les.includes("phép chia")) {
-          key = `c1_6_bai5_test${testNum}`;
-        } else if (les.includes("bài 6") || les.includes("lũy thừa")) {
-          key = `c1_6_bai6_test${testNum}`;
-        } else if (les.includes("bài 7") || les.includes("thực hiện các phép tính")) {
-          key = `c1_6_bai7_test${testNum}`;
-        } else {
-          const curChap = (window.CURRICULUM_KNTT || {})["6"]?.chapters.find(c => c.id === "c1_6");
-          const idx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
-          key = `c1_6_bai${idx > 0 ? idx : 1}_test${testNum}`;
-        }
-        const examsDict = c1_6Exams.exams || c1_6Exams;
-        if (key && examsDict[key]) {
-          return examsDict[key];
-        }
-      }
-
-      // 4. Kiểm tra ngân hàng đề động theo chương bất kỳ
-
-      const dynamicVar = `EXAMS_${grade}_${(chapterId || "").toUpperCase()}`;
-
-      const dynExams = (typeof window !== 'undefined') ? window[dynamicVar] : null;
-
-      if (dynExams) {
-
-        const curChap = (window.CURRICULUM_KNTT || {})[grade]?.chapters.find(c => c.id === chapterId);
-
-        const lessonIdx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
-
-        const dynKey = `${chapterId}_bai${lessonIdx > 0 ? lessonIdx : 1}_test${testNum}`;
-
-        const examsDict = dynExams.exams || dynExams;
-
-        if (examsDict[dynKey]) {
-
-          return examsDict[dynKey];
-
-        }
-
-      }
-
-
-
-      // 5. Fallback mặc định
-
-      const isChapterExam = (lessonName || "").toLowerCase().includes("cuối chương");
-
-      const baseKey = isChapterExam ? `${grade}_chapter` : grade;
-
-      const base = DEFAULT_EXAMS[baseKey] || DEFAULT_EXAMS[grade] || DEFAULT_EXAMS["8_chapter"] || DEFAULT_EXAMS["9"];
-
-      return {
-
-        ...base,
-
-        title: `Toán ${grade} (KNTT) - ${lessonName} - Bài kiểm tra số ${testNum}`
-
-      };
-
+      return null;
     }
 
 
 
-    // ==========================================
-
-    // ỨNG DỤNG CHÍNH
+        // ỨNG DỤNG CHÍNH
 
     // ==========================================
 
@@ -2530,7 +2450,14 @@ if (typeof window !== "undefined") {
 
       const [loadingAI, setLoadingAI] = useState(false);
 
-      const [examData, setExamData] = useState(() => getExamFromBank("8", "c1_8", "Bài 1: Đơn thức", 1));
+      const [loadingExam, setLoadingExam] = useState(false);
+      const [notFoundNotice, setNotFoundNotice] = useState(null);
+      const [examData, setExamData] = useState(null);
+
+      // Tải danh mục manifest.json ngay khi khởi động
+      useEffect(() => {
+        loadExamManifest();
+      }, []);
 
 
 
@@ -2830,58 +2757,62 @@ if (typeof window !== "undefined") {
 
       // ==========================================
 
-      const handleStartStandardExam = (isFallback = false) => {
-
+      const handleStartStandardExam = async (isFallback = false) => {
         if (!studentName.trim() || !className.trim()) {
-
           alert("Vui lòng nhập đầy đủ Họ và tên học sinh cùng Lớp học!");
-
           return;
-
         }
 
+        setLoadingExam(true);
+        setNotFoundNotice(null);
 
+        try {
+          // Tải động đề thi cho bài học hiện tại (BỎ HOÀN TOÀN FALLBACK SANG CHƯƠNG KHÁC)
+          const bankExam = await getExamForLesson(selectedGrade, selectedChapter, selectedLesson, selectedTestNum);
+          if (!bankExam) {
+            // Hiển thị thông báo lỗi rõ ràng nếu không tìm thấy dữ liệu bài học
+            setNotFoundNotice({
+              grade: selectedGrade,
+              chapter: selectedChapter,
+              lesson: selectedLesson,
+              testNum: selectedTestNum,
+              message: "Đề thi đang được cập nhật, vui lòng quay lại sau"
+            });
+            showToast("error", "Đề thi đang được cập nhật, vui lòng quay lại sau!");
+            setLoadingExam(false);
+            return;
+          }
 
-        // Reset trạng thái bài làm
+          // Reset trạng thái bài làm và nạp đề chuẩn xác của đúng bài học
+          setMcAnswers({});
+          setMcLockedIndex(0);
+          setTfAnswers({ 1: {}, 2: {} });
+          setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
+          setEssayImages({ 1: null, 2: null, 3: null });
+          setSharedEssayImage(null);
+          setLoadingAI(false);
+          setExamData(bankExam);
+          setView("exam");
 
-        setMcAnswers({});
-
-        setMcLockedIndex(0);
-
-        setTfAnswers({ 1: {}, 2: {} });
-
-        setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
-
-        setEssayImages({ 1: null, 2: null, 3: null });
-
-        setSharedEssayImage(null);
-
-        setLoadingAI(false);
-
-
-
-        // Bốc thẳng đề từ kho dữ liệu tĩnh src/data (tương ứng Lớp > Chương > Bài > Độ khó 1,2,3)
-
-        const bankExam = getExamFromBank(selectedGrade, selectedChapter, selectedLesson, selectedTestNum);
-
-        setExamData(bankExam);
-
-        setView("exam");
-
-
-
-        if (isFallback) {
-
-          showToast(
-
-            "warning",
-
-            "Mô hình AI đang bận, hệ thống tự động kích hoạt Đề thi chuẩn để bạn tiếp tục làm bài!"
-
-          );
-
+          if (isFallback) {
+            showToast(
+              "warning",
+              "Mô hình AI đang bận, hệ thống chuyển sang Đề thi chuẩn của bài học này!"
+            );
+          }
+        } catch (err) {
+          console.error("Lỗi khi nạp đề thi:", err);
+          setNotFoundNotice({
+            grade: selectedGrade,
+            chapter: selectedChapter,
+            lesson: selectedLesson,
+            testNum: selectedTestNum,
+            message: "Đề thi đang được cập nhật, vui lòng quay lại sau"
+          });
+          showToast("error", "Đề thi đang được cập nhật, vui lòng quay lại sau!");
+        } finally {
+          setLoadingExam(false);
         }
-
       };
 
 
@@ -4770,15 +4701,23 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                     onClick={() => handleStartStandardExam(false)}
 
-                    disabled={loadingAI}
+                    disabled={loadingAI || loadingExam}
 
-                    className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-indigo-500/25 flex items-center justify-center gap-2.5 transition transform active:scale-95 text-sm sm:text-base border border-indigo-400/30"
+                    className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-indigo-500/25 flex items-center justify-center gap-2.5 transition transform active:scale-95 text-sm sm:text-base border border-indigo-400/30 disabled:opacity-60 disabled:cursor-not-allowed"
 
                   >
 
-                    <Icons.BookOpen />
-
-                    <span>Làm bài ngay (Đề Chuẩn)</span>
+                    {loadingExam ? (
+                      <>
+                        <Icons.RefreshCw />
+                        <span>Đang tải đề thi...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Icons.BookOpen />
+                        <span>Làm bài ngay (Đề Chuẩn)</span>
+                      </>
+                    )}
 
                   </button>
 

@@ -111,6 +111,13 @@ if (fs.existsSync(genDir)) {
 
 }
 
+// 2d. Sao chép manifest.json sang dist/manifest.json
+const mfSrc = path.join(__dirname, 'src', 'data', 'generated', 'manifest.json');
+if (fs.existsSync(mfSrc)) {
+  fs.copyFileSync(mfSrc, path.join(distDir, 'manifest.json'));
+  console.log('✅ Đã xuất bản manifest.json sang dist/manifest.json');
+}
+
 
 
 // 3. Sao chép thư mục public/ (nếu có)

@@ -30,6 +30,7 @@ import requests
 import urllib.request
 import urllib.error
 from datetime import datetime
+import glob
 
 # Đảm bảo hiển thị Unicode tiếng Việt trên Terminal Windows
 sys.stdout.reconfigure(encoding='utf-8')
@@ -587,6 +588,55 @@ def call_gemini_api(key_rotator, prompt, model_name=DEFAULT_MODEL, timeout=150, 
 # ==============================================================================
 # 5. HÀM LƯU ĐỀ THI RA FILE JS & JSON TRONG SRC/DATA/GENERATED/
 # ==============================================================================
+def sync_all_manifests():
+    """
+    Tự động quét toàn bộ kho đề trong src/data/generated/ và đồng bộ ra manifest.json duy nhất.
+    Ghi đồng thời vào:
+    1. src/data/generated/manifest.json
+    2. manifest.json (ở thư mục gốc)
+    3. dist/manifest.json và dist/generated/manifest.json (nếu có dist)
+    """
+    manifest_paths = [
+        os.path.join(OUTPUT_DIR, "manifest.json"),
+        os.path.join(PROJECT_ROOT, "manifest.json"),
+        os.path.join(PROJECT_ROOT, "dist", "manifest.json"),
+        os.path.join(PROJECT_ROOT, "dist", "generated", "manifest.json")
+    ]
+    manifest = {}
+    json_files = glob.glob(os.path.join(OUTPUT_DIR, "grade*_exams.json"))
+    for jf in json_files:
+        try:
+            fname = os.path.basename(jf)
+            with open(jf, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            grade = data.get("grade", "")
+            chapter_id = data.get("chapterId", "")
+            chapter_title = data.get("chapterTitle", "")
+            exams = data.get("exams", {})
+            key = f"grade{grade}_{chapter_id}"
+            manifest[key] = {
+                "grade": str(grade),
+                "chapterId": chapter_id,
+                "chapterTitle": chapter_title,
+                "totalExams": len(exams),
+                "updatedAt": data.get("updatedAt", ""),
+                "jsonFile": fname,
+                "jsFile": fname.replace(".json", ".js"),
+                "examKeys": list(exams.keys())
+            }
+        except Exception:
+            pass
+
+    for mp in manifest_paths:
+        try:
+            os.makedirs(os.path.dirname(mp), exist_ok=True)
+            with open(mp, "w", encoding="utf-8") as mf:
+                json.dump(manifest, mf, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+    return manifest
+
+
 def save_chapter_exams(grade, chapter_id, chapter_title, exams_dict):
     """
     Lưu toàn bộ đề của một chương ra file riêng:
@@ -632,26 +682,8 @@ if (typeof module !== 'undefined' && module.exports) {{
     with open(js_path, "w", encoding="utf-8") as f:
         f.write(js_content)
 
-    # Cập nhật manifest danh mục các chương đã sinh
-    manifest_path = os.path.join(OUTPUT_DIR, "manifest.json")
-    try:
-        manifest = {}
-        if os.path.exists(manifest_path):
-            with open(manifest_path, "r", encoding="utf-8") as mf:
-                manifest = json.load(mf)
-        manifest[f"grade{grade}_{chapter_id}"] = {
-            "grade": grade,
-            "chapterId": chapter_id,
-            "chapterTitle": chapter_title,
-            "totalExams": len(exams_dict),
-            "updatedAt": payload["updatedAt"],
-            "jsFile": f"{base_name}.js",
-            "jsonFile": f"{base_name}.json"
-        }
-        with open(manifest_path, "w", encoding="utf-8") as mf:
-            json.dump(manifest, mf, ensure_ascii=False, indent=2)
-    except Exception:
-        pass
+    # Tự động hóa cập nhật: Đồng bộ toàn bộ kho đề vào manifest.json duy nhất
+    sync_all_manifests()
 
 
 def matches_chapter(ch, target_chuong):
