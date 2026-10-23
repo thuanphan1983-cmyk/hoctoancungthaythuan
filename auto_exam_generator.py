@@ -654,6 +654,58 @@ if (typeof module !== 'undefined' && module.exports) {{
         pass
 
 
+def matches_chapter(ch, target_chuong):
+    """
+    Kiểm tra xem chapter `ch` có khớp với tham số `--chuong` hay không.
+    Hỗ trợ chuẩn xác:
+    - Số Ả Rập: "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+    - Số La Mã: "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"
+    - ID chương: "c1_8", "c2_8", "c1_6", "c3_9"...
+    - Chuỗi tìm kiếm trong tiêu đề: "Chương 1", "Chương I", "Đa thức", "Hằng đẳng thức"...
+    """
+    if not target_chuong or str(target_chuong).strip().lower() in ["all", "tatca", "tat_ca", "toan_bo"]:
+        return True
+
+    target = str(target_chuong).strip().lower()
+    ch_id = ch["id"].lower()
+    ch_title = ch["title"].lower()
+
+    if target == ch_id:
+        return True
+
+    roman_map = {
+        "1": "i", "2": "ii", "3": "iii", "4": "iv", "5": "v",
+        "6": "vi", "7": "vii", "8": "viii", "9": "ix", "10": "x"
+    }
+    inv_roman = {v: k for k, v in roman_map.items()}
+
+    # Nếu target là số "1", "2"...
+    if target in roman_map:
+        num = target
+        roman = roman_map[target]
+        # Khớp chính xác ID: c1_\d+ nhưng KHÔNG khớp c10_\d+
+        if re.search(r"^c" + num + r"_\d+", ch_id):
+            return True
+        if re.search(r"chương\s+" + roman + r"[\s:]", ch_title):
+            return True
+        if re.search(r"chương\s+" + num + r"[\s:]", ch_title):
+            return True
+        return False
+
+    # Nếu target là số La Mã "i", "ii"...
+    if target in inv_roman:
+        num = inv_roman[target]
+        roman = target
+        if re.search(r"^c" + num + r"_\d+", ch_id):
+            return True
+        if re.search(r"chương\s+" + roman + r"[\s:]", ch_title):
+            return True
+        return False
+
+    # 3. Khớp chuỗi trong ID hoặc Tiêu đề
+    return target in ch_id or target in ch_title
+
+
 def load_existing_chapter_exams(grade, chapter_id):
     """Tải các đề đã có của chương nếu file đã tồn tại"""
     json_path = os.path.join(OUTPUT_DIR, f"grade{grade}_{chapter_id}_exams.json")
@@ -673,7 +725,10 @@ def load_existing_chapter_exams(grade, chapter_id):
 def run_generator(key_rotator, target_grade="all", target_chapter="all", model_name=DEFAULT_MODEL, delay=75, timeout=150, force=False):
     """
     Vòng lặp chính duyệt qua khung chương trình và sinh đề thi.
-    Tích hợp kiểm soát nhịp độ Rate Limiter: Bắt buộc time.sleep(75) sau mỗi đề thi.
+    Tích hợp:
+    - Lọc dữ liệu theo từng chương cụ thể (--chuong) để giảm tải cho hệ thống.
+    - Thanh tiến trình (progress bar) và bộ đếm tổng số đề chuẩn xác cho chương đang chạy.
+    - Kiểm soát nhịp độ Rate Limiter: Bắt buộc time.sleep(75) sau mỗi đề thi.
     """
     curriculum = load_curriculum()
     progress = load_progress()
@@ -681,15 +736,17 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
 
     total_lessons = 0
     all_tasks = []
+    selected_chapters_info = []
 
     for grade, chapters in curriculum.items():
         if target_grade != "all" and str(grade) != str(target_grade):
             continue
 
         for ch in chapters:
-            if target_chapter != "all" and ch["id"] != target_chapter:
+            if not matches_chapter(ch, target_chapter):
                 continue
 
+            selected_chapters_info.append(f"Toán {grade} - {ch['title']}")
             for l_idx, lesson in enumerate(ch["lessons"], 1):
                 total_lessons += 1
                 for test_num in [1, 2, 3]:
@@ -704,7 +761,16 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
                     })
 
     total_tasks = len(all_tasks)
+    if total_tasks == 0:
+        print("\n" + "=" * 80)
+        print("⚠️ [KHÔNG TÌM THẤY DỮ LIỆU PHÙ HỢP]")
+        print(f"Không tìm thấy bài học nào phù hợp với Khối lớp '{target_grade}' và Chương '{target_chapter}'.")
+        print("Vui lòng kiểm tra lại tham số --grade và --chuong!")
+        print("=" * 80)
+        return
+
     completed_keys = set(progress["completed_exams"].keys())
+    already_done_in_scope = len([t for t in all_tasks if t["exam_key"] in completed_keys])
     remaining_tasks = [t for t in all_tasks if force or t["exam_key"] not in completed_keys]
 
     print("\n" + "=" * 80)
@@ -712,16 +778,23 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
     print("=" * 80)
     print(f"🤖 Mô hình AI chuẩn     : {model_name} (Hỗ trợ logic Toán học tốt nhất)")
     print(f"🔑 Tổng số API Keys nạp : {key_rotator.count()} Key (Cơ chế Luân phiên Key Rotation)")
+    if target_grade != "all":
+        print(f"📚 Khối lớp chỉ định    : Lớp {target_grade}")
+    if target_chapter != "all":
+        chap_display = "; ".join(selected_chapters_info) if len(selected_chapters_info) <= 3 else f"{len(selected_chapters_info)} chương khớp"
+        print(f"📖 CHƯƠNG ĐANG CHỌN     : Chương {target_chapter} ({chap_display})")
+    else:
+        print(f"📖 Phạm vi chương       : Toàn bộ các chương")
     print(f"📌 Tổng số bài học chọn : {total_lessons} bài")
-    print(f"📌 Tổng số đề cần sinh  : {total_tasks} đề (3 đề phân hóa / bài)")
-    print(f"✅ Đã có sẵn / hoàn thành: {len(all_tasks) - len(remaining_tasks)} đề")
+    print(f"📌 Tổng số đề của phạm vi: {total_tasks} đề (3 đề phân hóa / bài)")
+    print(f"✅ Đã có sẵn trước đó   : {already_done_in_scope}/{total_tasks} đề ({already_done_in_scope/total_tasks*100:.1f}%)")
     print(f"⏳ Cần sinh mới tiếp tục: {len(remaining_tasks)} đề")
     print(f"⏱️ KIỂM SOÁT NHỊP ĐỘ     : Nghỉ đủ {delay}s sau MỖI đề thi (Bảo vệ hạn mức 15 RPM Free Tier)")
     print(f"⏳ Thời gian chờ timeout : {timeout}s (cho phép tạo đủ 4 phần chuẩn ma trận)")
     print("=" * 80 + "\n")
 
     if not remaining_tasks:
-        print("🎉 TẤT CẢ CÁC ĐỀ TRONG PHẠM VI CHỌN ĐÃ ĐƯỢC SINH HOÀN TẤT 100%!")
+        print("🎉 TẤT CẢ CÁC ĐỀ TRONG CHƯƠNG ĐANG CHỌN ĐÃ ĐƯỢC SINH HOÀN TẤT 100%!")
         return
 
     current_chapter_id = None
@@ -747,7 +820,7 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
             chapter_exams = load_existing_chapter_exams(grade, ch["id"])
 
         diff_label = ["", "Cơ bản", "Khá", "Nâng cao"][test_num]
-        print(f"\n[{idx}/{len(remaining_tasks)}] Đang xử lý: Khối {grade} • {ch['title'][:30]}... • {lesson} • Đề {test_num} ({diff_label})")
+        print(f"\n[{idx}/{len(remaining_tasks)}] Đang xử lý: Khối {grade} • {ch['title'][:32]}... • {lesson} • Đề {test_num} ({diff_label})")
         print(f"    🔑 Key hiện tại: {key_rotator.get_masked_key()} | Mã đề: {exam_key}")
 
         prompt = build_prompt(grade, ch, lesson, test_num)
@@ -767,8 +840,17 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
             save_chapter_exams(grade, ch["id"], ch["title"], chapter_exams)
             save_progress(progress)
 
+            # Cập nhật tiến độ chuẩn xác cho phạm vi chương đang chạy
+            completed_in_scope = len([t for t in all_tasks if t["exam_key"] in progress["completed_exams"]])
+            pct = (completed_in_scope / total_tasks * 100) if total_tasks > 0 else 100
+            
+            # Thanh tiến trình đồ họa (20 ký tự)
+            bar_len = 20
+            filled = int(bar_len * (completed_in_scope / total_tasks)) if total_tasks > 0 else bar_len
+            bar_str = "█" * filled + "░" * (bar_len - filled)
+
             print(f"    ✅ [THÀNH CÔNG] Đã lưu đề vào {OUTPUT_DIR}/grade{grade}_{ch['id']}_exams.json")
-            print(f"    📊 Tổng hoàn thành: {len(progress['completed_exams'])}/{total_tasks} đề ({(len(progress['completed_exams'])/total_tasks)*100:.1f}%)")
+            print(f"    📊 Tiến độ chương [{bar_str}] {pct:.1f}% ({completed_in_scope}/{total_tasks} đề)")
 
             # ==================================================================
             # KIỂM SOÁT NHỊP ĐỘ (RATE LIMITER): BẮT BUỘC NGHỈ ĐỦ 75 GIÂY SAU MỖI ĐỀ
@@ -795,7 +877,8 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
 
     print("\n" + "=" * 80)
     print("🏁 KẾT THÚC PHIÊN LÀM VIỆC CỦA AUTO EXAM GENERATOR")
-    print(f"Tổng số đề đã sinh thành công: {len(progress['completed_exams'])} đề.")
+    final_completed_in_scope = len([t for t in all_tasks if t["exam_key"] in progress["completed_exams"]])
+    print(f"Tiến độ hoàn thành trong phạm vi: {final_completed_in_scope}/{total_tasks} đề ({(final_completed_in_scope/total_tasks)*100:.1f}%).")
     print(f"Dữ liệu được lưu trữ tại: {OUTPUT_DIR}")
     print("=" * 80)
 
@@ -805,12 +888,18 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
 # ==============================================================================
 def main():
     parser = argparse.ArgumentParser(
-        description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI với Key Rotation & Rate Limiter"
+        description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI với Key Rotation, Rate Limiter & Lọc theo chương"
     )
     parser.add_argument("--api-key", "--api-keys", "-k", type=str, help="Một hoặc nhiều Google Gemini API Key (cách nhau bởi dấu phẩy)")
     parser.add_argument("--model", "-m", type=str, default=DEFAULT_MODEL, help=f"Mô hình Gemini (mặc định: {DEFAULT_MODEL})")
     parser.add_argument("--grade", "-g", type=str, default="all", choices=["6", "7", "8", "9", "all"], help="Khối lớp (6, 7, 8, 9 hoặc all)")
-    parser.add_argument("--chapter", "-c", type=str, default="all", help="ID chương cụ thể (ví dụ: c1_8, c2_8, c1_9...)")
+    parser.add_argument(
+        "--chuong", "--chapter", "-c",
+        dest="chapter",
+        type=str,
+        default="all",
+        help="Chỉ định số chương hoặc ID chương cụ thể để giảm tải (ví dụ: --chuong 1 hoặc --chuong 2 hoặc --chuong c2_8). Mặc định: all (chạy toàn bộ)"
+    )
     parser.add_argument("--delay", "-d", type=int, default=75, help="Thời gian nghỉ (giây) giữa các lần tạo đề (mặc định 75s - Kiểm soát nhịp độ Rate Limiter)")
     parser.add_argument("--timeout", "-t", type=int, default=150, help="Thời gian chờ timeout tối đa cho mỗi yêu cầu API (giây, mặc định: 150s)")
     parser.add_argument("--force", "-f", action="store_true", help="Sinh lại cả các đề đã có sẵn")
