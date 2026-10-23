@@ -1,6 +1,6 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG I: TẬP HỢP CÁC SỐ TỰ NHIÊN - TOÁN 6 (KẾT NỐI TRI THỨC)
-// Đầy đủ 7 bài học/chuyên đề x 3 đề kiểm tra = 21 đề kiểm tra chuẩn ma trận 10 điểm Bộ GD&ĐT
+// Đầy đủ 8 bài học/chuyên đề x 3 đề kiểm tra = 24 đề kiểm tra chuẩn ma trận 10 điểm Bộ GD&ĐT
 // Phân hóa độ khó rõ rệt: Đề 1 (Cơ bản) < Đề 2 (Khá) < Đề 3 (Nâng cao)
 // ==============================================================================
 
@@ -5399,6 +5399,777 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các số tự nhiên $n$ sao cho giá trị của biểu thức $P = \\frac{4n + 23}{2n + 3}$ nhận giá trị là một số tự nhiên lớn nhất. Khi đó hãy tính giá trị lớn nhất đó.",
         "rubric": "Bước 1 (0.5đ): Tách phần nguyên của phân số:\nTa biến đổi biểu thức $P$ theo quy tắc chia đa thức:\n$P = \\frac{4n + 23}{2n + 3} = \\frac{2(2n + 3) + 17}{2n + 3} = \\frac{2(2n + 3)}{2n + 3} + \\frac{17}{2n + 3} = 2 + \\frac{17}{2n + 3}$.\n\nBước 2 (0.5đ): Biện luận tìm giá trị lớn nhất và kết luận:\nĐể $P$ nhận giá trị là số tự nhiên thì $\\frac{17}{2n + 3}$ phải là số tự nhiên, tức là $2n + 3$ phải là ước của $17$.\nCác ước tự nhiên của $17$ là $1$ và $17$.\nVì $n \\in \\mathbb{N}$ nên $2n + 3 \\ge 3$.\nDo đó ta chỉ có: $2n + 3 = 17 \\Rightarrow 2n = 14 \\Rightarrow n = 7$.\nKhi $n = 7$, giá trị của $P$ là $P = 2 + \\frac{17}{17} = 3$.\nVì đây là giá trị tự nhiên duy nhất mà biểu thức $P$ đạt được với $n \\in \\mathbb{N}$, nên giá trị lớn nhất của $P$ chính là $3$ khi $n = 7$."
+      }
+    ]
+  },
+  "c1_6_bai8_test1": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Cho tập hợp $A = \\{2; 3; 5; 7\\}$. Khẳng định nào sau đây là đúng?",
+        "options": [
+          "$3 \\in A$",
+          "$4 \\in A$",
+          "$7 \\notin A$",
+          "$2 \\subset A$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số La Mã $\\text{XIX}$ biểu diễn số tự nhiên nào trong hệ thập phân?",
+        "options": [
+          "$19$",
+          "$21$",
+          "$18$",
+          "$29$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số tự nhiên $\\mathbb{N}^*$ là:",
+        "options": [
+          "$\\{1; 2; 3; 4; \\dots\\}$",
+          "$\\{0; 1; 2; 3; 4; \\dots\\}$",
+          "$\\{0; 2; 4; 6; \\dots\\}$",
+          "$\\{1; 3; 5; 7; \\dots\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép tính $2^3 \\cdot 2^2$ bằng:",
+        "options": [
+          "$2^5$",
+          "$2^6$",
+          "$4^5$",
+          "$4^6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép chia $5^6 : 5^2$ bằng:",
+        "options": [
+          "$5^4$",
+          "$5^3$",
+          "$1^4$",
+          "$5^8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Giá trị của $2026^0$ bằng:",
+        "options": [
+          "$1$",
+          "$0$",
+          "$2026$",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Thứ tự thực hiện đúng các dấu ngoặc trong một biểu thức là:",
+        "options": [
+          "$( ) \\to [ ] \\to \\{ \\}$",
+          "$[ ] \\to ( ) \\to \\{ \\}$",
+          "$\\{ \\} \\to [ ] \\to ( )$",
+          "$( ) \\to \\{ \\} \\to [ ]$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Số tự nhiên $x$ thỏa mãn $x + 15 = 40$ là:",
+        "options": [
+          "$25$",
+          "$55$",
+          "$35$",
+          "$15$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Tính nhanh $25 \\cdot 37 \\cdot 4$ ta được kết quả là:",
+        "options": [
+          "$3700$",
+          "$370$",
+          "$37000$",
+          "$7400$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Trong phép chia có dư với số chia bằng $7$, số dư lớn nhất có thể có là:",
+        "options": [
+          "$6$",
+          "$7$",
+          "$5$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 5 < x \\le 9\\}$ gồm các phần tử là:",
+        "options": [
+          "$\\{6; 7; 8; 9\\}$",
+          "$\\{5; 6; 7; 8; 9\\}$",
+          "$\\{6; 7; 8\\}$",
+          "$\\{5; 6; 7; 8\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $100 - (30 - 20 : 2)$ bằng:",
+        "options": [
+          "$80$",
+          "$70$",
+          "$90$",
+          "$60$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho tập hợp $M = \\{x \\in \\mathbb{N}^* \\mid x < 6\\}$ và biểu thức $A = 2^3 + 3 \\cdot 4$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tập hợp $M$ có đúng 5 phần tử: $1; 2; 3; 4; 5$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phần tử $0$ thuộc tập hợp $M$ ($0 \\in M$).",
+            "correct": false
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức $A$ bằng $20$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức $A$ là một phần tử thuộc tập hợp $M$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một đoàn tàu chở hàng gồm 12 toa xe, mỗi toa xe chở 35 tấn hàng. Biết rằng một xe tải loại lớn có thể chở tối đa 15 tấn hàng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tổng khối lượng hàng trên đoàn tàu là 420 tấn.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phép tính tìm tổng khối lượng hàng là $12 \\times 35$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Cần ít nhất 28 xe tải loại lớn để chở hết số hàng đó.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Nếu mỗi toa xe chở thêm 5 tấn hàng thì tổng khối lượng hàng tăng thêm 50 tấn.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức: $A = 3^4 : 3^2 + 2 \\cdot 5$.",
+        "answer": "19"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$ thỏa mãn: $3x - 17 = 28$.",
+        "answer": "15"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng của tất cả các số tự nhiên $x$ thỏa mãn: $12 \\le x < 16$.",
+        "answer": "54"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên $x$, biết: $2^{x+1} - 2^x = 32$.",
+        "answer": "5"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính hợp lý:\na) $48 \\cdot 63 + 48 \\cdot 37$\nb) $120 : [54 - (50 - 2^3)]$",
+        "rubric": "a) = 48 . (63 + 37) = 48 . 100 = 4800 (0.5đ)\nb) 50 - 2^3 = 50 - 8 = 42 (0.25đ)\n54 - 42 = 12 => 120 : 12 = 10 (0.25đ)"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$, biết:\na) $2x + 15 = 47$\nb) $(x - 3)^2 = 25$",
+        "rubric": "a) 2x = 47 - 15 = 32 => x = 16 (0.5đ)\nb) Do x là số tự nhiên nên x - 3 >= 0. Vì 25 = 5^2 nên x - 3 = 5 => x = 8 (0.5đ)"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "(Câu điểm 10)\nCho biểu thức $S = 1 + 2 + 2^2 + 2^3 + \\dots + 2^{2025}$.\na) Thu gọn biểu thức $S$.\nb) Chứng minh rằng $S + 1$ là một lũy thừa của $2$.",
+        "rubric": "a) 2S = 2 + 2^2 + 2^3 + ... + 2^2026 (0.25đ)\n2S - S = (2 + 2^2 + ... + 2^2026) - (1 + 2 + ... + 2^2025) (0.25đ)\n=> S = 2^2026 - 1 (0.25đ)\nb) S + 1 = 2^2026 - 1 + 1 = 2^2026, là một lũy thừa của 2 với cơ số 2 và số mũ 2026 (0.25đ)"
+      }
+    ]
+  },
+  "c1_6_bai8_test2": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 2 (⚡ Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp $A = \\{x \\in \\mathbb{N}^* \\mid x \\le 5\\}$ có bao nhiêu phần tử?",
+        "options": [
+          "$5$",
+          "$6$",
+          "$4$",
+          "Vô số"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số La Mã biểu diễn số tự nhiên $26$ là:",
+        "options": [
+          "$\\text{XXVI}$",
+          "$\\text{XXIV}$",
+          "$\\text{XXVII}$",
+          "$\\text{XVI}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tích $a^m \\cdot a^n$ với $a \\ne 0$ bằng:",
+        "options": [
+          "$a^{m+n}$",
+          "$a^{m-n}$",
+          "$a^{m \\cdot n}$",
+          "$(2a)^{m+n}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Thương $x^9 : x^3$ ($x \\ne 0$) bằng:",
+        "options": [
+          "$x^6$",
+          "$x^3$",
+          "$x^{12}$",
+          "$1^6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Thứ tự thực hiện các phép tính trong biểu thức không có dấu ngoặc là:",
+        "options": [
+          "Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ",
+          "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ",
+          "Cộng và trừ $\\to$ Nhân và chia $\\to$ Lũy thừa",
+          "Từ trái sang phải không phân biệt phép tính"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Cho phép chia $a : b = q$ (dư $r$). Điều kiện của số dư $r$ là:",
+        "options": [
+          "$0 \\le r < b$",
+          "$0 < r \\le b$",
+          "$r < b$",
+          "$r > 0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Số tự nhiên $x$ thỏa mãn $5(x - 2) = 35$ là:",
+        "options": [
+          "$9$",
+          "$7$",
+          "$5$",
+          "$11$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $2^3 \\cdot 5 - 3^2$ bằng:",
+        "options": [
+          "$31$",
+          "$37$",
+          "$29$",
+          "$41$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Tính nhanh tổng $135 + 360 + 65 + 40$ ta được kết quả là:",
+        "options": [
+          "$600$",
+          "$500$",
+          "$610$",
+          "$590$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Biết $x^3 = 64$. Giá trị của số tự nhiên $x$ là:",
+        "options": [
+          "$4$",
+          "$8$",
+          "$2$",
+          "$16$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Viết tích $8^3 \\cdot 4^2$ dưới dạng một lũy thừa cơ số $2$ ta được:",
+        "options": [
+          "$2^{13}$",
+          "$2^{10}$",
+          "$2^{12}$",
+          "$2^{18}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $A = 2026 - [150 - (12 - 7)^2]$ là:",
+        "options": [
+          "$1901$",
+          "$1910$",
+          "$1900$",
+          "$2001$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $P = 125 \\cdot 18 - 125 \\cdot 8$ và tập hợp các ước của $10$ là $U$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biểu thức $P$ được rút gọn thành $125 \\cdot (18 - 8) = 1250$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tập hợp các ước tự nhiên của $10$ là $U = \\{1; 2; 5; 10\\}$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của $P$ chia hết cho tất cả các phần tử của tập hợp $U$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Số $P$ khi viết dưới dạng lũy thừa cơ số $5$ là $5^5$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một trường THCS có 480 học sinh khối 6 đi tham quan dã ngoại. Ban tổ chức dự định thuê xe ô tô loại 45 chỗ ngồi hoặc loại 30 chỗ ngồi.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nếu chỉ dùng xe 45 chỗ thì 10 xe là không đủ để chở hết học sinh.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Cần ít nhất 11 xe loại 45 chỗ để chở hết 480 học sinh.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Nếu dùng hoàn toàn xe 30 chỗ thì cần đúng 16 xe (không có ghế trống).",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Thuê 9 xe loại 45 chỗ và 3 xe loại 30 chỗ chở được tối đa 480 học sinh.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị biểu thức: $B = 2^4 \\cdot 3 - [131 - (13 - 4)^2]$.",
+        "answer": "-2"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$ thỏa mãn: $120 - 5(x + 2) = 45$.",
+        "answer": "13"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Số lượng các số tự nhiên có hai chữ số chia hết cho cả $2$ và $5$ là bao nhiêu?",
+        "answer": "9"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm chữ số tận cùng của lũy thừa $2^{2024}$.",
+        "answer": "6"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của các biểu thức sau một cách hợp lý:\na) $27 \\cdot 75 + 25 \\cdot 27 - 150$\nb) $3^3 \\cdot 18 - 3^3 \\cdot 12 + 2026^0$",
+        "rubric": "a) = 27.(75 + 25) - 150 = 27.100 - 150 = 2700 - 150 = 2550 (0.5đ)\nb) = 27.(18 - 12) + 1 = 27.6 + 1 = 162 + 1 = 163 (0.5đ)"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$, biết:\na) $4(x - 3) - 18 = 38$\nb) $3^{x+2} - 3^x = 216$",
+        "rubric": "a) 4(x - 3) = 56 => x - 3 = 14 => x = 17 (0.5đ)\nb) 3^x . (3^2 - 1) = 216 <=> 3^x . 8 = 216 <=> 3^x = 27 = 3^3 => x = 3 (0.5đ)"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "(Câu điểm 10)\na) Cho tổng $A = 1 + 3 + 3^2 + 3^3 + \\dots + 3^{100}$. Chứng minh rằng $2A + 1$ là một số chính phương.\nb) So sánh hai số: $2^{300}$ và $3^{200}$.",
+        "rubric": "a) 3A = 3 + 3^2 + ... + 3^101 => 3A - A = 3^101 - 1 => 2A = 3^101 - 1 => 2A + 1 = 3^101. (Nếu đề 3^100 chẵn thì (3^50)^2 chính phương, với A từ 1 đến 3^99 thì 2A+1 = 3^100 = (3^50)^2 là số chính phương) (0.5đ)\nb) 2^300 = (2^3)^100 = 8^100 (0.25đ)\n3^200 = (3^2)^100 = 9^100 (0.25đ)\nVì 8 < 9 nên 8^100 < 9^100 => 2^300 < 3^200. (0.25đ)"
+      }
+    ]
+  },
+  "c1_6_bai8_test3": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 3 (🔥 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Cho tập hợp $X = \\{x \\in \\mathbb{N} \\mid 10 \\le x < 100\\}$. Số phần tử của tập hợp $X$ là:",
+        "options": [
+          "$90$",
+          "$89$",
+          "$91$",
+          "$100$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Chữ số La Mã $\\text{L}$ và $\\text{C}$ lần lượt có giá trị trong hệ thập phân là:",
+        "options": [
+          "$50$ và $100$",
+          "$100$ và $50$",
+          "$50$ và $500$",
+          "$10$ và $100$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Biểu thức $(a^m)^n$ viết gọn lại là:",
+        "options": [
+          "$a^{m \\cdot n}$",
+          "$a^{m + n}$",
+          "$a^{m - n}$",
+          "$a^{m^n}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Số tự nhiên liền trước của số $n + 1$ ($n \\in \\mathbb{N}^*$) là:",
+        "options": [
+          "$n$",
+          "$n + 2$",
+          "$n - 1$",
+          "$2n$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Nếu tích $a \\cdot b = 0$ thì khẳng định nào sau đây luôn đúng?",
+        "options": [
+          "$a = 0$ hoặc $b = 0$",
+          "Cả $a$ và $b$ đều phải bằng $0$",
+          "$a = 0$ và $b \\ne 0$",
+          "$a > 0$ và $b < 0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Trong phép chia số tự nhiên $a$ cho $b$ ($b \\ne 0$) có thương là $q$ và số dư là $r$. Công thức biểu diễn $a$ là:",
+        "options": [
+          "$a = b \\cdot q + r$ ($0 \\le r < b$)",
+          "$a = b \\cdot q - r$",
+          "$a = b \\cdot r + q$",
+          "$a = (b + q) \\cdot r$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Số tự nhiên $x$ thỏa mãn $2^{x+3} = 128$ là:",
+        "options": [
+          "$4$",
+          "$7$",
+          "$5$",
+          "$3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Để đánh số trang của một cuốn sách dày 120 trang bằng các số tự nhiên từ 1 đến 120, người ta phải dùng tất cả bao nhiêu chữ số?",
+        "options": [
+          "$252$",
+          "$240$",
+          "$250$",
+          "$260$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Tìm số tự nhiên có hai chữ số giống nhau, biết số đó chia hết cho 2 và khi chia cho 5 thì dư 3:",
+        "options": [
+          "$88$",
+          "$22$",
+          "$44$",
+          "$66$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Tổng $S = 1 + 2 + 3 + 4 + \\dots + 99 + 100$ có giá trị bằng:",
+        "options": [
+          "$5050$",
+          "$5000$",
+          "$5100$",
+          "$5025$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Rút gọn biểu thức $M = \\frac{4^5 \\cdot 9^4 - 2 \\cdot 6^9}{2^{10} \\cdot 3^8 + 6^8 \\cdot 20}$ ta được kết quả là:",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$-1$",
+          "$1$",
+          "$\\frac{2}{3}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Chữ số tận cùng của tích $1 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot \\dots \\cdot 2025$ là:",
+        "options": [
+          "$5$",
+          "$0$",
+          "$1$",
+          "$9$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho dãy số tự nhiên cách đều: $3; 7; 11; 15; 19; \\dots; 403$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khoảng cách giữa hai số liên tiếp trong dãy là 4 đơn vị.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Dãy số trên có tất cả 101 số hạng.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Tổng của tất cả các số hạng trong dãy bằng 20503.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Số hạng thứ 50 của dãy số là số 199.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tổng $B = 1 + 4 + 4^2 + 4^3 + \\dots + 4^{2024}$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biểu thức $4B = 4 + 4^2 + 4^3 + \\dots + 4^{2025}$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Rút gọn ta được $3B = 4^{2025} - 1$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của $3B + 1$ là một lũy thừa của $2$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Chữ số tận cùng của $4^{2025}$ là chữ số $6$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính tổng của tất cả các số có 3 chữ số nhỏ hơn 200: $S = 100 + 101 + \\dots + 199$.",
+        "answer": "14950"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$, biết: $(2x - 1)^3 = 125$.",
+        "answer": "3"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên $n$ nhỏ nhất sao cho $2^n > 1000$.",
+        "answer": "10"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Cho $A = 1 + 2 + 2^2 + \\dots + 2^{2023}$. Tìm số dư khi chia $A$ cho $7$.",
+        "answer": "0"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lý giá trị biểu thức:\n$$P = \\frac{2^{12} \\cdot 3^5 - 4^6 \\cdot 9^2}{(2^2 \\cdot 3)^6 + 8^4 \\cdot 3^5}$$",
+        "rubric": "Biến đổi: 4^6 = (2^2)^6 = 2^12; 9^2 = (3^2)^2 = 3^4.\nTử số = 2^12 . 3^5 - 2^12 . 3^4 = 2^12 . 3^4 . (3 - 1) = 2^13 . 3^4. (0.5đ)\nMẫu số = 2^12 . 3^6 + 2^12 . 3^5 = 2^12 . 3^5 . (3 + 1) = 2^14 . 3^5. (0.25đ)\n=> P = (2^13 . 3^4) / (2^14 . 3^5) = 1 / (2 . 3) = 1/6 (0.25đ)"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$, biết:\na) $5^{x} + 5^{x+2} = 650$\nb) $(x - 1) + (x - 2) + (x - 3) + \\dots + (x - 20) = 190$",
+        "rubric": "a) 5^x . (1 + 5^2) = 650 <=> 5^x . 26 = 650 <=> 5^x = 25 = 5^2 => x = 2 (0.5đ)\nb) (x + x + ... + x) - (1 + 2 + ... + 20) = 190\n<=> 20x - (20 . 21 / 2) = 190 <=> 20x - 210 = 190 <=> 20x = 400 => x = 20 (0.5đ)"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "(Câu điểm 10)\na) Chứng minh rằng tổng $S = 2 + 2^2 + 2^3 + 2^4 + \\dots + 2^{60}$ chia hết cho cả $3$, $7$ và $15$.\nb) Cho $A = 1 + 2025 + 2025^2 + \\dots + 2025^{2024}$ và $B = 2025^{2025}$. So sánh $2024 \\cdot A$ và $B$.",
+        "rubric": "a) Nhóm 2 số: S = (2 + 2^2) + ... = 2.(1 + 2) + ... = 6 + ... chia hết cho 3 (0.25đ)\nNhóm 3 số: S = (2 + 2^2 + 2^3) + ... = 2.(1 + 2 + 4) + ... = 2.7 + ... chia hết cho 7 (0.25đ)\nNhóm 4 số: S = (2 + 2^2 + 2^3 + 2^4) + ... = 2.(1 + 2 + 4 + 8) + ... = 2.15 + ... chia hết cho 15 (0.25đ)\nb) 2025.A = 2025 + 2025^2 + ... + 2025^2025\n=> 2025.A - A = 2025^2025 - 1 <=> 2024.A = B - 1\nVì B - 1 < B nên 2024.A < B (0.25đ)"
       }
     ]
   }
