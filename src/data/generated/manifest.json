@@ -117,5 +117,28 @@
       "c3_8_bai6_test2",
       "c3_8_bai6_test3"
     ]
+  },
+  "grade8_c4_8": {
+    "grade": "8",
+    "chapterId": "c4_8",
+    "chapterTitle": "Chương IV: Định lí Thalès",
+    "totalExams": 12,
+    "updatedAt": "2026-10-23 19:45:00",
+    "jsonFile": "grade8_c4_8_exams.json",
+    "jsFile": "grade8_c4_8_exams.js",
+    "examKeys": [
+      "c4_8_bai1_test1",
+      "c4_8_bai1_test2",
+      "c4_8_bai1_test3",
+      "c4_8_bai2_test1",
+      "c4_8_bai2_test2",
+      "c4_8_bai2_test3",
+      "c4_8_bai3_test1",
+      "c4_8_bai3_test2",
+      "c4_8_bai3_test3",
+      "c4_8_bai4_test1",
+      "c4_8_bai4_test2",
+      "c4_8_bai4_test3"
+    ]
   }
 }

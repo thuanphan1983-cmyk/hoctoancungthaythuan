@@ -66,6 +66,7 @@ const examFiles = [
   'chapter1Toan8Exams.js',
   'chapter2Toan8Exams.js',
   'chapter3Toan8Exams.js',
+  'chapter4Toan8Exams.js',
   'chapter1Toan6Exams.js',
   'chapter3_bai10_toan8.js',
   'chapter3_bai11_toan8.js',
