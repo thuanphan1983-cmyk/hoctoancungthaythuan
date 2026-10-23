@@ -1066,13 +1066,32 @@ if (typeof window !== "undefined") {
 
   <script src="chapter2Toan8Exams.js"></script>
 
+  <script src="chapter3Toan8Exams.js"></script>
+
+  <!-- De thi chi tiet tung bai hoc Chuong III Toan 8 (Bai 10, 11, 12, 13, 14 va On tap Chuong III) -->
+  <script src="chapter3_bai10_toan8.js"></script>
+
+  <script src="chapter3_bai11_toan8.js"></script>
+
+  <script src="chapter3_bai12_toan8.js"></script>
+
+  <script src="chapter3_bai13_toan8.js"></script>
+
+  <script src="chapter3_bai14_toan8.js"></script>
+
+  <script src="chapter3_ontap_toan8.js"></script>
+
   <script src="chapter1Toan6Exams.js"></script>
 
   <script src="src/data/generated/grade8_c2_8_exams.js"></script>
 
+  <script src="src/data/generated/grade8_c3_8_exams.js"></script>
+
   <script src="src/data/generated/grade6_c1_6_exams.js"></script>
 
   <script src="generated/grade8_c2_8_exams.js"></script>
+
+  <script src="generated/grade8_c3_8_exams.js"></script>
 
   <script src="generated/grade6_c1_6_exams.js"></script>
 
@@ -2229,6 +2248,11 @@ if (typeof window !== "undefined") {
         if (key && examsDict[key]) {
           return examsDict[key];
         }
+        if (examsDict[`c3_8_bai1_test${testNum}`]) {
+          return examsDict[`c3_8_bai1_test${testNum}`];
+        }
+        const firstKey = Object.keys(examsDict)[0];
+        if (firstKey) return examsDict[firstKey];
       }
 
 // 1. Kiểm tra ngân hàng đề Chương 2 Toán 8 (Hằng đẳng thức đáng nhớ và ứng dụng)

@@ -62,7 +62,18 @@ if (fs.existsSync(currPath)) {
 
 // 2b. Sao chép các ngân hàng đề thi tĩnh vào dist/
 
-const examFiles = ['chapter1Toan8Exams.js', 'chapter2Toan8Exams.js', 'chapter3Toan8Exams.js', 'chapter1Toan6Exams.js'];
+const examFiles = [
+  'chapter1Toan8Exams.js',
+  'chapter2Toan8Exams.js',
+  'chapter3Toan8Exams.js',
+  'chapter1Toan6Exams.js',
+  'chapter3_bai10_toan8.js',
+  'chapter3_bai11_toan8.js',
+  'chapter3_bai12_toan8.js',
+  'chapter3_bai13_toan8.js',
+  'chapter3_bai14_toan8.js',
+  'chapter3_ontap_toan8.js'
+];
 
 examFiles.forEach(fileName => {
 
