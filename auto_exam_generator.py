@@ -4,8 +4,17 @@
 AUTO EXAM GENERATOR - HỆ THỐNG TỰ ĐỘNG SINH KHO ĐỀ KIỂM TRA TOÁN THCS (KNTT)
 Tự động duyệt 190 bài học Toán 6, 7, 8, 9 x 3 đề phân hóa = 570 đề thi chuẩn ma trận 2025.
 Sử dụng mô hình gemini-3.8-flash tốc độ cao và hạn mức API lớn, phù hợp sinh số lượng lớn.
-Tích hợp cơ chế tự phục hồi, chống lỗi (try-catch), tự động chờ (sleep/delay/backoff)
-cho phép chạy miệt mài qua đêm mà không bị dừng đột ngột.
+
+TÍNH NĂNG MỚI NÂNG CẤP:
+1. LUÂN PHIÊN API KEY (Key Rotation):
+   - Cho phép khai báo mảng API_KEYS = ['key1', 'key2', 'key3', ...]
+   - Tự động bắt lỗi 429 (Rate Limit) hoặc ResourceExhausted để lập tức đổi sang
+     Key tiếp theo trong mảng và thử lại lệnh vừa thất bại mà không bị ngắt chương trình.
+2. KIỂM SOÁT NHỊP ĐỘ (Rate Limiter):
+   - Nghỉ đủ 75 giây (time.sleep(75)) sau khi sinh xong MỖI đề thi.
+   - Đảm bảo an toàn tuyệt đối, không bao giờ chạm ngưỡng 15 requests/phút của bản Gemini Free Tier.
+3. TỰ ĐỘNG PHỤC HỒI & CHẠY XUYÊN ĐÊM:
+   - Checkpoint tiến độ sau từng đề thi, tự động khôi phục khi chạy lại.
 ==============================================================================
 """
 
@@ -25,6 +34,18 @@ from datetime import datetime
 # Đảm bảo hiển thị Unicode tiếng Việt trên Terminal Windows
 sys.stdout.reconfigure(encoding='utf-8')
 
+# ==============================================================================
+# 0. KHAI BÁO MẢNG API KEYS CHO CƠ CHẾ LUÂN PHIÊN (KEY ROTATION)
+# ==============================================================================
+# Quý thầy cô/người dùng có thể dán trực tiếp danh sách Key vào mảng dưới đây,
+# hoặc khai báo trong file .env (GEMINI_API_KEYS=key1,key2,key3),
+# hoặc truyền qua tham số dòng lệnh: --api-key "key1,key2,key3"
+API_KEYS = [
+    # "AIzaSyD-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_1",
+    # "AIzaSyD-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_2",
+    # "AIzaSyD-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx_3",
+]
+
 # Mô hình mặc định: gemini-3.8-flash (hạn mức API cao, tốc độ nhanh, phù hợp sinh số lượng lớn)
 DEFAULT_MODEL = "gemini-3.8-flash"
 CANDIDATE_MODELS = [
@@ -40,7 +61,7 @@ PROGRESS_FILE = os.path.join(DATA_DIR, "generator_progress.json")
 CURRICULUM_FILE = os.path.join(PROJECT_ROOT, "curriculum.js")
 EXISTING_C1_8_FILE = os.path.join(PROJECT_ROOT, "chapter1Toan8Exams.js")
 
-# Biến cờ dừng an toàn khi nhấn Ctrl+C
+# Biến cờ dừng an toàn khi người dùng nhấn Ctrl+C
 STOP_REQUESTED = False
 
 def handle_sigint(sig, frame):
@@ -49,6 +70,62 @@ def handle_sigint(sig, frame):
     STOP_REQUESTED = True
 
 signal.signal(signal.SIGINT, handle_sigint)
+
+
+# ==============================================================================
+# LỚP QUẢN LÝ VÀ LUÂN PHIÊN API KEYS (KEY ROTATOR)
+# ==============================================================================
+class KeyRotator:
+    """
+    Quản lý mảng API Keys và điều phối luân phiên vòng tròn:
+    - Lưu danh sách keys hợp lệ
+    - Tự động chuyển key tiếp theo khi gặp 429 / ResourceExhausted
+    - In thông báo đổi key rõ ràng kèm mã key che bớt bảo mật
+    """
+    def __init__(self, key_list):
+        self.keys = []
+        for k in key_list:
+            if k:
+                # Làm sạch chuỗi key
+                clean = str(k).strip().strip('"').strip("'").strip()
+                if clean and clean not in self.keys:
+                    self.keys.append(clean)
+        self.current_idx = 0
+
+    def count(self):
+        return len(self.keys)
+
+    def get_current_key(self):
+        if not self.keys:
+            return ""
+        return self.keys[self.current_idx % len(self.keys)]
+
+    def get_masked_key(self, idx=None):
+        if not self.keys:
+            return "Chưa có Key"
+        target_idx = self.current_idx if idx is None else idx
+        k = self.keys[target_idx % len(self.keys)]
+        if len(k) > 10:
+            masked = f"{k[:6]}...{k[-4:]}"
+        else:
+            masked = "******"
+        return f"Key #{target_idx + 1}/{len(self.keys)} [{masked}]"
+
+    def rotate_next(self, reason="Rate Limit 429"):
+        if not self.keys:
+            return ""
+        prev_idx = self.current_idx
+        self.current_idx = (self.current_idx + 1) % len(self.keys)
+        new_masked = self.get_masked_key()
+        prev_masked = self.get_masked_key(prev_idx)
+
+        print("\n" + "!" * 75)
+        print(f"🔄 [LUÂN PHIÊN API KEY - {reason.upper()}]")
+        print(f"   ⚠️ Key vừa bị lỗi : {prev_masked}")
+        print(f"   🚀 Chuyển sang    : {new_masked}")
+        print(f"   👉 Tiếp tục thử lại ngay lệnh vừa thất bại mà KHÔNG dừng chương trình!")
+        print("!" * 75 + "\n")
+        return self.get_current_key()
 
 
 # ==============================================================================
@@ -198,49 +275,59 @@ YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (ĐỘ KHÓ CAO NHẤT, PHÂN HÓA MẠNH M�
 - Đòi hỏi tư duy logic trừu tượng, biến đổi đại số khéo léo, xử lý tham số m, bài toán cực trị, bất đẳng thức hoặc bài toán hình học phân tích sâu.
 - Phần I (Trắc nghiệm): 2 câu Nhận biết tinh tế, 6 câu Thông hiểu nâng cao, 4 câu có bẫy logic sâu (dễ mất nghiệm hoặc nhầm lẫn miền xác định).
 - Phần II (Đúng/Sai): 2 câu phân tích đa chiều (chứa tham số m, biện luận số nghiệm, tính chất hình học nâng cao).
-- Phần III (Trả lời ngắn): 4 câu ở mức Vận dụng cao (tìm giá trị tham số, bài toán cực trị hình học, biểu thức đối xứng Viète nâng cao, bài toán đếm hoặc xác suất phức tạp).
-- Phần IV (Tự luận): 
-  * Câu 1: Bài toán biến đổi / rút gọn nâng cao có chứa tham số hoặc điều kiện nghiệm (1.0đ).
-  * Câu 2: Bài toán thực tế phức tạp đa bước lập phương trình/hệ phương trình hoặc hình học phân tích nâng cao (1.0đ).
-  * Câu 3: Câu chốt phân hóa điểm 10 (1.0đ) - Bất đẳng thức, tìm GTLN/GTNN, bài toán cực trị hình học, hoặc phương trình nghiệm nguyên nâng cao."""
+- Phần III (Trả lời ngắn): 4 câu hỏi phức tạp (tìm giá trị cực trị min/max, số nghiệm nguyên, bài toán tổ hợp logic hoặc tỉ số diện tích nâng cao).
+- Phần IV (Tự luận):
+  + Câu 1 (1.0đ): Vận dụng nâng cao về rút gọn biểu thức có điều kiện, biến đổi đẳng thức phức tạp.
+  + Câu 2 (1.0đ): Bài toán hình học chứng minh nhiều bước hoặc bài toán thực tế giải bằng lập phương trình/hệ phương trình nâng cao.
+  + Câu 3 (1.0đ): CÂU ĐIỂM 10 PHÂN HÓA HSG (Bất đẳng thức Cauchy/Schwarz, cực trị đại số, phương trình nghiệm nguyên, hoặc tìm m để biểu thức đạt giá trị nguyên/lớn nhất/nhỏ nhất)."""
         }
     }
 
-    diff = difficulty_specs[test_num]
+    spec = difficulty_specs[test_num]
 
-    chapter_context = ""
-    if is_chapter_exam:
-        other_lessons = [l for l in chapter["lessons"] if l != lesson]
-        chapter_context = f"""
-LƯU Ý ĐẶC BIỆT (ĐỀ KIỂM TRA TỔNG HỢP TOÀN BỘ CHƯƠNG):
-- Đây là bài kiểm tra TỔNG HỢP KIẾN THỨC TOÀN BỘ CHƯƠNG: "{chapter['title']}".
-- Đề thi PHẢI tổng hợp toàn diện, bao quát và phân bổ đều kiến thức trọng tâm của TẤT CẢ các bài học trong chương: {', '.join(other_lessons)}.
-"""
+    prompt = f"""Bạn là Chuyên gia Khảo thí và Giáo viên giỏi môn Toán THCS (Chương trình GDPT 2018 - SGK Kết nối tri thức với cuộc sống).
+Hãy soạn 01 đề kiểm tra môn TOÁN LỚP {grade} theo đúng chuẩn ma trận đề thi 2025 của Bộ Giáo dục & Đào tạo.
 
-    prompt = f"""
-Bạn là chuyên gia khảo thí và biên soạn đề thi môn Toán THCS bộ sách "Kết nối tri thức với cuộc sống".
-Hãy tạo trọn vẹn bộ đề kiểm tra định kỳ cho:
-- Khối: Toán {grade} (Bộ sách Kết nối tri thức với cuộc sống)
-- Chương: "{chapter['title']}"
-- Bài học / Chuyên đề: "{lesson}"
-- Bộ đề số: "Bài kiểm tra số {test_num}"
+THÔNG TIN BÀI HỌC VÀ CHUYÊN ĐỀ:
+- Khối lớp: Toán {grade}
+- Chương: {chapter['title']} (Mã: {chapter['id']})
+- Bài học / Chuyên đề: {lesson}
+- Mức độ biên soạn: {spec['name']}
 
-{diff['name']}
-{diff['rules']}
-{chapter_context}
+{spec['rules']}
 
-QUY ĐỊNH CÔNG THỨC TOÁN & ĐỊNH DẠNG JSON:
-1. Mọi công thức toán học, biểu thức đại số, phân thức, căn thức, hệ phương trình PHẢI được bọc chuẩn LaTeX giữa hai dấu $ (ví dụ: $2x + 3y = 5$, $\\sqrt{{x^2 - 1}}$, $\\frac{{a}}{{b}}$).
-2. Hãy thoát hợp lệ ký tự gạch chéo ngược LaTeX trong chuỗi JSON (ví dụ viết \\\\frac thay vì \\frac).
-3. ĐẦU RA PHẢI LÀ MỘT ĐỐI TƯỢNG JSON DUY NHẤT HỢP LỆ, KHÔNG KÈM LỜI GIẢI THÍCH NGOÀI LỀ.
+QUY ĐỊNH CẤU TRÚC ĐỀ THI BẮT BUỘC (TỔNG 10.0 ĐIỂM - ĐẦY ĐỦ 4 PHẦN):
+1. PHẦN I: Câu trắc nghiệm nhiều phương án lựa chọn (3.0 điểm)
+   - Gồm ĐÚNG 12 câu hỏi (mỗi câu 0.25 điểm).
+   - Mỗi câu có 4 phương án A, B, C, D (options là mảng 4 chuỗi, trong đó đúng 1 đáp án chính xác).
+   - correct: chỉ số từ 0 đến 3 (0=A, 1=B, 2=C, 3=D).
 
-CẤU TRÚC JSON BẮT BUỘC (ĐỦ 4 PHẦN TỔNG 10.0 ĐIỂM):
+2. PHẦN II: Câu trắc nghiệm đúng/sai (2.0 điểm)
+   - Gồm ĐÚNG 2 câu hỏi (mỗi câu 1.0 điểm).
+   - Mỗi câu gồm 1 phần dẫn (stem) và 4 lệnh hỏi con a, b, c, d (statements).
+   - Mỗi lệnh con có: key ("a", "b", "c", "d"), level, text, correct (true hoặc false).
+
+3. PHẦN III: Câu trắc nghiệm trả lời ngắn (2.0 điểm)
+   - Gồm ĐÚNG 4 câu hỏi (mỗi câu 0.5 điểm).
+   - Học sinh chỉ điền kết quả số (số nguyên hoặc số thập phân gọn gàng, hoặc phân số tối giản).
+   - answer: chuỗi kết quả số chính xác (ví dụ "15", "-3.5", "2024").
+
+4. PHẦN IV: Tự luận (3.0 điểm)
+   - Gồm ĐÚNG 3 bài toán (mỗi bài 1.0 điểm).
+   - Mỗi bài có: question và rubric (hướng dẫn chấm chi tiết, barem điểm từng bước giải).
+
+ĐẶC BIỆT LƯU Ý VỀ ĐỊNH DẠNG TOÁN HỌC:
+- Mọi công thức toán học PHẢI được bọc trong cặp dấu $...$ (ví dụ: $x^2 - 4x + 4$, $\\frac{{a}}{{b}}$, $\\sqrt{{x}}$).
+- Sử dụng dấu gạch chéo ngược hợp lệ trong JSON (ví dụ: \\\\frac, \\\\sqrt, \\\\le, \\\\ge, \\\\in).
+- Toàn bộ nội dung trả về là MỘT ĐỐI TƯỢNG JSON DUY NHẤT, KHÔNG kèm lời dẫn, KHÔNG bọc mã ngoài ```json ```.
+
+CẤU TRÚC JSON CHUẨN MẪU:
 {{
   "title": "Toán {grade} (KNTT) - {lesson} - Bài kiểm tra số {test_num}",
-  "part1": [ // Đúng 12 câu trắc nghiệm 4 lựa chọn (0.25đ/câu = 3.0đ). "correct" là chỉ số 0, 1, 2, hoặc 3
-    {{ "id": 1, "level": "Nhận biết", "question": "...", "options": ["$A...$", "$B...$", "$C...$", "$D...$"], "correct": 0 }}
+  "part1": [
+    {{ "id": 1, "level": "Nhận biết", "question": "...", "options": ["...", "...", "...", "..."], "correct": 0 }}
   ],
-  "part2": [ // Đúng 2 câu Đúng/Sai (1.0đ/câu = 2.0đ). Mỗi câu có phần dẫn chung (stem) và 4 ý a, b, c, d
+  "part2": [
     {{
       "id": 1,
       "stem": "...",
@@ -248,15 +335,15 @@ CẤU TRÚC JSON BẮT BUỘC (ĐỦ 4 PHẦN TỔNG 10.0 ĐIỂM):
         {{ "key": "a", "level": "Thông hiểu", "text": "...", "correct": true }},
         {{ "key": "b", "level": "Thông hiểu", "text": "...", "correct": false }},
         {{ "key": "c", "level": "Vận dụng thấp", "text": "...", "correct": true }},
-        {{ "key": "d", "level": "Vận dụng thấp", "text": "...", "correct": false }}
+        {{ "key": "d", "level": "Vận dụng cao", "text": "...", "correct": false }}
       ]
     }}
   ],
-  "part3": [ // Đúng 4 câu Trả lời ngắn (0.5đ/câu = 2.0đ). "answer" là một số nguyên, phân số hoặc số thập phân
-    {{ "id": 1, "level": "Thông hiểu", "question": "...", "answer": "5" }}
+  "part3": [
+    {{ "id": 1, "level": "Thông hiểu", "question": "...", "answer": "12" }}
   ],
-  "part4": [ // Đúng 3 câu Tự luận (1.0đ/câu = 3.0đ). "rubric" là biểu điểm hướng dẫn chấm từng bước chi tiết
-    {{ "id": 1, "level": "Thông hiểu", "question": "...", "rubric": "Bước 1 (0.5đ): ... Bước 2 (0.5đ): ..." }}
+  "part4": [
+    {{ "id": 1, "level": "Vận dụng thấp", "question": "...", "rubric": "Bước 1 (0.5đ): ...\\nBước 2 (0.5đ): ..." }}
   ]
 }}
 """
@@ -264,18 +351,18 @@ CẤU TRÚC JSON BẮT BUỘC (ĐỦ 4 PHẦN TỔNG 10.0 ĐIỂM):
 
 
 # ==============================================================================
-# 4. HÀM GỌI API GEMINI VỚI CƠ CHẾ CHỐNG LỖI & EXPONENTIAL BACKOFF
+# 4. HÀM GỌI API GEMINI VỚI CƠ CHẾ LUÂN PHIÊN KEY & CHỐNG RATE LIMIT
 # ==============================================================================
-def safe_extract_json(raw_text):
-    """Trích xuất và làm sạch chuỗi JSON từ phản hồi của Gemini"""
-    if not raw_text:
+def safe_extract_json(text):
+    """Trích xuất và làm sạch chuỗi JSON từ phản hồi của LLM"""
+    if not text:
         return None
-    
-    text = raw_text.strip()
-    if text.startswith("```"):
-        text = re.sub(r"^```(?:json)?\s*", "", text)
-        text = re.sub(r"\s*```$", "", text)
-        text = text.strip()
+    text = text.strip()
+
+    # Bóc tách code block ```json ... ```
+    m = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+    if m:
+        text = m.group(1).strip()
 
     start = text.find("{")
     end = text.rfind("}")
@@ -293,18 +380,16 @@ def safe_extract_json(raw_text):
             return None
 
 
-def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, timeout=150, max_retries=10):
+def call_gemini_api(key_rotator, prompt, model_name=DEFAULT_MODEL, timeout=150, max_retries=12):
     """
-    Gọi Gemini API sử dụng model gemini-3.8-flash bằng thư viện requests:
-    - URL Endpoint chuẩn xác: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent
-    - Truyền đồng thời query parameter ?key= và header x-goog-api-key để đảm bảo xác thực 100%
-    - Timeout: Tăng lên 150 giây để thoải mái sinh đề thi dài đầy đủ 4 phần
-    - 429 Rate Limit: Tự động sleep và exponential backoff có thanh đếm lùi
-    - 503 High Demand: Tự động chờ và chuyển model dự phòng
-    - Network timeout: Tự động thử lại
+    Gọi Gemini API tích hợp 2 tính năng cốt lõi:
+    1. LUÂN PHIÊN KEY (Key Rotation):
+       - Tự động bắt lỗi 429 (Rate Limit) hoặc ResourceExhausted.
+       - Tự động in thông báo đổi Key và lấy Key tiếp theo trong mảng để thử lại ngay mà không ngắt chương trình.
+    2. CHỐNG TREO & SERVER BUSY:
+       - Tự động chuyển model dự phòng nếu server bận (503/500).
+       - Timeout 150s cho đề thi dài.
     """
-    clean_key = api_key.strip().strip('"').strip("'").strip()
-
     payload = {
         "contents": [
             {
@@ -319,7 +404,6 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, timeout=150, max_
         }
     }
 
-    # Thứ tự ưu tiên: model_name chỉ định (gemini-3.8-flash), sau đó là các model hợp lệ khác
     models_to_try = [model_name]
     for m in CANDIDATE_MODELS:
         if m not in models_to_try:
@@ -334,16 +418,17 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, timeout=150, max_
 
         attempt += 1
         model = models_to_try[model_idx % len(models_to_try)]
-        
-        # Endpoint chính thức theo chuẩn Google Generative Language API
+        current_key = key_rotator.get_current_key()
+        masked_key = key_rotator.get_masked_key()
+
         endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
         headers = {
             "Content-Type": "application/json",
-            "x-goog-api-key": clean_key
+            "x-goog-api-key": current_key
         }
         params = {
-            "key": clean_key
+            "key": current_key
         }
 
         try:
@@ -355,7 +440,11 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, timeout=150, max_
                 timeout=timeout
             )
             status_code = response.status_code
+            resp_text = response.text
 
+            # ------------------------------------------------------------------
+            # THÀNH CÔNG: HTTP 200
+            # ------------------------------------------------------------------
             if status_code == 200:
                 res_json = response.json()
                 raw_text = (
@@ -379,53 +468,92 @@ def call_gemini_api(api_key, prompt, model_name=DEFAULT_MODEL, timeout=150, max_
                     time.sleep(3)
                     continue
 
+            # ------------------------------------------------------------------
+            # BẮT LỖI 429 RATE LIMIT HOẶC RESOURCE EXHAUSTED -> TỰ ĐỘNG ĐỔI KEY
+            # ------------------------------------------------------------------
+            elif status_code == 429 or "RESOURCE_EXHAUSTED" in resp_text or "ResourceExhausted" in resp_text:
+                if key_rotator.count() > 1:
+                    # Có nhiều key -> Luân phiên ngay sang key tiếp theo và thử lại lập tức!
+                    key_rotator.rotate_next(reason="Rate Limit 429 / ResourceExhausted")
+                    time.sleep(2)
+                    continue
+                else:
+                    # Chỉ có 1 key duy nhất -> Bắt buộc chờ hồi quota
+                    backoff_time = min(120, int(25 * (1.5 ** min(attempt, 4)) + random.uniform(2, 6)))
+                    print(f"\n    ⏳ [RATE LIMIT 429] Đạt ngưỡng giới hạn với {masked_key}.")
+                    print(f"       Tự động tạm dừng {backoff_time}s trước khi tiếp tục...")
+                    for s in range(backoff_time, 0, -1):
+                        if STOP_REQUESTED:
+                            return None
+                        sys.stdout.write(f"\r       Đang chờ hồi quota: {s}s còn lại...   ")
+                        sys.stdout.flush()
+                        time.sleep(1)
+                    print()
+                    continue
+
+            # ------------------------------------------------------------------
+            # BẮT LỖI KEY KHÔNG HỢP LỆ (HTTP 400) -> TỰ ĐỘNG ĐỔI KEY
+            # ------------------------------------------------------------------
+            elif status_code == 400 and ("API_KEY_INVALID" in resp_text or "API key not valid" in resp_text):
+                print(f"\n    ❌ [LỖI API KEY] {masked_key} không hợp lệ!")
+                if key_rotator.count() > 1:
+                    key_rotator.rotate_next(reason="API Key Invalid (400)")
+                    time.sleep(2)
+                    continue
+                else:
+                    print("    ❌ Không còn Key hợp lệ nào khác. Vui lòng kiểm tra lại API Key!")
+                    return None
+
+            # ------------------------------------------------------------------
+            # BẮT LỖI MODEL 404 NOT FOUND
+            # ------------------------------------------------------------------
             elif status_code == 404:
                 print(f"\n    ❌ [HTTP 404 NOT FOUND] URL: {endpoint}")
-                print(f"       Chi tiết lỗi: {response.text[:200]}")
                 model_idx += 1
                 next_model = models_to_try[model_idx % len(models_to_try)]
                 print(f"       Tự động đổi sang mô hình: {next_model}...")
                 time.sleep(3)
                 continue
 
-            elif status_code == 429:
-                backoff_time = min(120, int(20 * (1.6 ** min(attempt, 4)) + random.uniform(2, 6)))
-                print(f"\n    ⏳ [RATE LIMIT 429] Đạt ngưỡng giới hạn gọi API ({model}).")
-                print(f"       Tự động tạm dừng {backoff_time}s trước khi tiếp tục...")
-                for s in range(backoff_time, 0, -1):
-                    if STOP_REQUESTED:
-                        return None
-                    sys.stdout.write(f"\r       Đang chờ hồi quota: {s}s còn lại...   ")
-                    sys.stdout.flush()
-                    time.sleep(1)
-                print()
-                continue
-
+            # ------------------------------------------------------------------
+            # BẮT LỖI MÁY CHỦ BẬN (500, 502, 503, 504)
+            # ------------------------------------------------------------------
             elif status_code in (500, 502, 503, 504):
                 print(f"\n    ⚠️ [SERVER BUSY {status_code}] Mô hình {model} đang quá tải.")
                 model_idx += 1
                 next_model = models_to_try[model_idx % len(models_to_try)]
-                print(f"       Tự động chuyển sang model: {next_model} (chờ 10s)...")
-                time.sleep(10)
+                print(f"       Tự động chuyển sang model: {next_model} (chờ 8s)...")
+                time.sleep(8)
                 continue
 
-            elif status_code == 400 and ("API_KEY_INVALID" in response.text or "API key not valid" in response.text):
-                print("\n    ❌ [LỖI API KEY] Mã Gemini API Key không hợp lệ. Vui lòng kiểm tra lại key!")
-                return None
-
             else:
-                print(f"\n    ⚠️ [HTTP {status_code}] Lỗi yêu cầu: {response.text[:150]}. Thử lại sau 15s...")
-                time.sleep(15)
+                print(f"\n    ⚠️ [HTTP {status_code}] Lỗi yêu cầu: {resp_text[:150]}. Thử lại sau 10s...")
+                time.sleep(10)
 
-        except requests.exceptions.Timeout as e:
-            print(f"\n    ⏳ [READ TIMEOUT > {timeout}s] Đề thi dài đang được Gemini tạo nhưng phản hồi vượt quá {timeout}s. Tự động thử lại sau 10s...")
-            time.sleep(10)
+        # ----------------------------------------------------------------------
+        # CÁC NGOẠI LỆ KHI GỌI MẠNG / THƯ VIỆN SUBPROCESS HOẶC REQUESTS
+        # ----------------------------------------------------------------------
+        except requests.exceptions.Timeout:
+            print(f"\n    ⏳ [READ TIMEOUT > {timeout}s] Gemini đang xử lý đề thi dài. Tự động thử lại sau 8s...")
+            time.sleep(8)
 
         except requests.exceptions.RequestException as e:
-            print(f"\n    🌐 [NETWORK ERROR] Lỗi kết nối mạng ({e}). Tự động thử lại sau 15s...")
-            time.sleep(15)
+            err_str = str(e)
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "ResourceExhausted" in err_str:
+                if key_rotator.count() > 1:
+                    key_rotator.rotate_next(reason="Exception RateLimit 429")
+                    time.sleep(2)
+                    continue
+            print(f"\n    🌐 [NETWORK ERROR] Lỗi kết nối mạng ({e}). Tự động thử lại sau 12s...")
+            time.sleep(12)
 
         except Exception as e:
+            err_str = str(e)
+            if "429" in err_str or "ResourceExhausted" in err_str:
+                if key_rotator.count() > 1:
+                    key_rotator.rotate_next(reason="General Exception 429")
+                    time.sleep(2)
+                    continue
             print(f"\n    ⚠️ [ERROR] Lỗi không mong muốn: {e}. Thử lại sau 10s...")
             time.sleep(10)
 
@@ -519,8 +647,11 @@ def load_existing_chapter_exams(grade, chapter_id):
 # ==============================================================================
 # 6. HÀM ĐIỀU PHỐI CHÍNH (MAIN ORCHESTRATOR)
 # ==============================================================================
-def run_generator(api_key, target_grade="all", target_chapter="all", model_name=DEFAULT_MODEL, delay=4, timeout=150, force=False):
-    """Vòng lặp chính duyệt qua khung chương trình và sinh đề thi"""
+def run_generator(key_rotator, target_grade="all", target_chapter="all", model_name=DEFAULT_MODEL, delay=75, timeout=150, force=False):
+    """
+    Vòng lặp chính duyệt qua khung chương trình và sinh đề thi.
+    Tích hợp kiểm soát nhịp độ Rate Limiter: Bắt buộc time.sleep(75) sau mỗi đề thi.
+    """
     curriculum = load_curriculum()
     progress = load_progress()
     sync_existing_c1_8_exams(progress)
@@ -556,13 +687,14 @@ def run_generator(api_key, target_grade="all", target_chapter="all", model_name=
     print("\n" + "=" * 80)
     print("🚀 ANTIGRAVITY AUTO EXAM GENERATOR - KHỞI CHẠY HỆ THỐNG")
     print("=" * 80)
-    print(f"🤖 Mô hình AI chuẩn: {model_name} (Hỗ trợ logic Toán học tốt nhất)")
-    print(f"📌 Tổng số bài học trong phạm vi chọn: {total_lessons} bài")
-    print(f"📌 Tổng số đề cần sinh (3 đề/bài): {total_tasks} đề")
-    print(f"✅ Đã có sẵn / hoàn thành trước đó: {len(all_tasks) - len(remaining_tasks)} đề")
+    print(f"🤖 Mô hình AI chuẩn     : {model_name} (Hỗ trợ logic Toán học tốt nhất)")
+    print(f"🔑 Tổng số API Keys nạp : {key_rotator.count()} Key (Cơ chế Luân phiên Key Rotation)")
+    print(f"📌 Tổng số bài học chọn : {total_lessons} bài")
+    print(f"📌 Tổng số đề cần sinh  : {total_tasks} đề (3 đề phân hóa / bài)")
+    print(f"✅ Đã có sẵn / hoàn thành: {len(all_tasks) - len(remaining_tasks)} đề")
     print(f"⏳ Cần sinh mới tiếp tục: {len(remaining_tasks)} đề")
-    print(f"⏱️ Thời gian trễ giữa các lượt: {delay}s (chống nghẽn rate limit)")
-    print(f"⏳ Thời gian chờ timeout tối đa: {timeout}s (cho phép tạo đủ 4 phần chuẩn ma trận)")
+    print(f"⏱️ KIỂM SOÁT NHỊP ĐỘ     : Nghỉ đủ {delay}s sau MỖI đề thi (Bảo vệ hạn mức 15 RPM Free Tier)")
+    print(f"⏳ Thời gian chờ timeout : {timeout}s (cho phép tạo đủ 4 phần chuẩn ma trận)")
     print("=" * 80 + "\n")
 
     if not remaining_tasks:
@@ -593,10 +725,10 @@ def run_generator(api_key, target_grade="all", target_chapter="all", model_name=
 
         diff_label = ["", "Cơ bản", "Khá", "Nâng cao"][test_num]
         print(f"\n[{idx}/{len(remaining_tasks)}] Đang xử lý: Khối {grade} • {ch['title'][:30]}... • {lesson} • Đề {test_num} ({diff_label})")
-        print(f"    🔑 Key: {exam_key} | Bắt đầu gọi {model_name}...")
+        print(f"    🔑 Key hiện tại: {key_rotator.get_masked_key()} | Mã đề: {exam_key}")
 
         prompt = build_prompt(grade, ch, lesson, test_num)
-        exam_data = call_gemini_api(api_key, prompt, model_name=model_name, timeout=timeout)
+        exam_data = call_gemini_api(key_rotator, prompt, model_name=model_name, timeout=timeout)
 
         if exam_data:
             chapter_exams[exam_key] = exam_data
@@ -615,8 +747,19 @@ def run_generator(api_key, target_grade="all", target_chapter="all", model_name=
             print(f"    ✅ [THÀNH CÔNG] Đã lưu đề vào {OUTPUT_DIR}/grade{grade}_{ch['id']}_exams.json")
             print(f"    📊 Tổng hoàn thành: {len(progress['completed_exams'])}/{total_tasks} đề ({(len(progress['completed_exams'])/total_tasks)*100:.1f}%)")
 
-            if idx < len(remaining_tasks):
-                time.sleep(delay)
+            # ==================================================================
+            # KIỂM SOÁT NHỊP ĐỘ (RATE LIMITER): BẮT BUỘC NGHỈ ĐỦ 75 GIÂY SAU MỖI ĐỀ
+            # ==================================================================
+            sleep_time = max(delay, 75)
+            print(f"    ⏳ [RATE LIMITER] Nghỉ đủ {sleep_time}s sau khi sinh xong đề thi...")
+            print(f"       (Đảm bảo không bao giờ vượt ngưỡng 15 requests/phút của bản Gemini Free Tier)")
+            for s in range(sleep_time, 0, -1):
+                if STOP_REQUESTED:
+                    break
+                sys.stdout.write(f"\r       Đang đếm lùi nhịp độ an toàn: {s:02d}s còn lại...   ")
+                sys.stdout.flush()
+                time.sleep(1)
+            print()
         else:
             print(f"    ⚠️ [BỎ QUA TẠM THỜI] Không thể sinh đề cho {exam_key}. Sẽ tiếp tục đề kế tiếp...")
             progress["stats"]["failed_attempts"] += 1
@@ -639,41 +782,74 @@ def run_generator(api_key, target_grade="all", target_chapter="all", model_name=
 # ==============================================================================
 def main():
     parser = argparse.ArgumentParser(
-        description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI"
+        description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI với Key Rotation & Rate Limiter"
     )
-    parser.add_argument("--api-key", "-k", type=str, help="Google Gemini API Key")
+    parser.add_argument("--api-key", "--api-keys", "-k", type=str, help="Một hoặc nhiều Google Gemini API Key (cách nhau bởi dấu phẩy)")
     parser.add_argument("--model", "-m", type=str, default=DEFAULT_MODEL, help=f"Mô hình Gemini (mặc định: {DEFAULT_MODEL})")
     parser.add_argument("--grade", "-g", type=str, default="all", choices=["6", "7", "8", "9", "all"], help="Khối lớp (6, 7, 8, 9 hoặc all)")
     parser.add_argument("--chapter", "-c", type=str, default="all", help="ID chương cụ thể (ví dụ: c1_8, c2_8, c1_9...)")
-    parser.add_argument("--delay", "-d", type=int, default=4, help="Thời gian nghỉ (giây) giữa các lần gọi API (mặc định 4s)")
+    parser.add_argument("--delay", "-d", type=int, default=75, help="Thời gian nghỉ (giây) giữa các lần tạo đề (mặc định 75s - Kiểm soát nhịp độ Rate Limiter)")
     parser.add_argument("--timeout", "-t", type=int, default=150, help="Thời gian chờ timeout tối đa cho mỗi yêu cầu API (giây, mặc định: 150s)")
     parser.add_argument("--force", "-f", action="store_true", help="Sinh lại cả các đề đã có sẵn")
 
     args = parser.parse_args()
 
-    api_key = args.api_key or os.environ.get("GEMINI_API_KEY")
+    collected_keys = []
 
-    if not api_key:
-        env_file = os.path.join(PROJECT_ROOT, ".env")
-        if os.path.exists(env_file):
+    # 1. Lấy từ mảng API_KEYS khai báo sẵn ở đầu file (nếu có)
+    for k in API_KEYS:
+        if k and isinstance(k, str) and k.strip():
+            collected_keys.append(k.strip())
+
+    # 2. Lấy từ tham số CLI
+    if args.api_key:
+        for k in args.api_key.split(","):
+            if k.strip():
+                collected_keys.append(k.strip())
+
+    # 3. Lấy từ biến môi trường
+    env_keys = os.environ.get("GEMINI_API_KEYS") or os.environ.get("GEMINI_API_KEY")
+    if env_keys:
+        for k in env_keys.split(","):
+            if k.strip():
+                collected_keys.append(k.strip())
+
+    # 4. Lấy từ file .env
+    env_file = os.path.join(PROJECT_ROOT, ".env")
+    if os.path.exists(env_file):
+        try:
             with open(env_file, "r", encoding="utf-8") as f:
                 for line in f:
-                    if line.strip().startswith("GEMINI_API_KEY="):
-                        api_key = line.strip().split("=", 1)[1].strip().strip('"').strip("'")
-                        break
+                    line_s = line.strip()
+                    if line_s.startswith("GEMINI_API_KEYS=") or line_s.startswith("GEMINI_API_KEY="):
+                        val = line_s.split("=", 1)[1].strip().strip('"').strip("'")
+                        for k in val.split(","):
+                            if k.strip():
+                                collected_keys.append(k.strip())
+        except Exception:
+            pass
 
-    if not api_key:
-        print("=" * 70)
-        print("🔑 GOOGLE GEMINI API KEY CHƯA ĐƯỢC THIẾT LẬP")
-        print("=" * 70)
-        api_key = input("Vui lòng dán mã Gemini API Key của bạn vào đây: ").strip()
+    # 5. Nếu chưa có Key nào, cho phép người dùng nhập trực tiếp
+    if not collected_keys:
+        print("=" * 75)
+        print("🔑 THIẾT LẬP GOOGLE GEMINI API KEYS (HỖ TRỢ NHIỀU KEYS)")
+        print("=" * 75)
+        print("Mẹo: Bạn có thể nhập nhiều Key cách nhau bởi dấu phẩy để bật tính năng luân phiên:")
+        print("Ví dụ: AIzaSyD-xxx1, AIzaSyD-xxx2, AIzaSyD-xxx3")
+        raw_input = input(">> Dán mã Gemini API Key vào đây: ").strip()
+        if raw_input:
+            for k in raw_input.split(","):
+                if k.strip():
+                    collected_keys.append(k.strip())
 
-    if not api_key:
-        print("❌ Lỗi: Không thể chạy nếu không có API Key. Chương trình kết thúc.")
+    if not collected_keys:
+        print("❌ Lỗi: Không thể chạy nếu không có ít nhất một API Key hợp lệ. Chương trình kết thúc.")
         sys.exit(1)
 
+    key_rotator = KeyRotator(collected_keys)
+
     run_generator(
-        api_key=api_key,
+        key_rotator=key_rotator,
         target_grade=args.grade,
         target_chapter=args.chapter,
         model_name=args.model,

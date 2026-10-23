@@ -6,7 +6,8 @@ color 0B
 echo ===============================================================================
 echo        HỆ THỐNG TỰ ĐỘNG SINH KHO ĐỀ DỰ PHÒNG TOÁN THCS (KẾT NỐI TRI THỨC)
 echo        Chuẩn Ma trận 2025 Bộ GD^&ĐT - 3 Mức độ phân hóa (Cơ bản - Khá - Nâng cao)
-echo        Tự động chờ khi nghẽn mạng / Rate limit - Chạy miệt mài qua đêm
+echo        ✨ TÍNH NĂNG MỚI: Luân phiên API Key (Key Rotation) khi gặp lỗi 429
+echo        ⏳ KIỂM SOÁT NHỊP ĐỘ: Tự động nghỉ 75s sau mỗi đề (Rate Limiter Free Tier)
 echo ===============================================================================
 echo.
 
@@ -42,15 +43,19 @@ echo.
 set USER_KEY=
 if exist ".env" (
     for /f "tokens=1,2 delims==" %%A in (.env) do (
-        if "%%A"=="GEMINI_API_KEY" set "USER_KEY=%%B"
+        if "%%A"=="GEMINI_API_KEYS" set "USER_KEY=%%B"
+        if "%%A"=="GEMINI_API_KEY" (
+            if "%USER_KEY%"=="" set "USER_KEY=%%B"
+        )
     )
 )
 
 if "%USER_KEY%"=="" (
     echo [THIẾT LẬP KEY] Chưa cấu hình Google Gemini API Key.
+    echo Mẹo: Bạn có thể dán nhiều key cách nhau bằng dấu phẩy để hệ thống tự luân phiên!
     set /p "USER_KEY=>> Vui lòng dán mã Gemini API Key của bạn vào đây: "
     if not "%USER_KEY%"=="" (
-        echo GEMINI_API_KEY=%USER_KEY% > .env
+        echo GEMINI_API_KEYS=%USER_KEY% > .env
         echo [OK] Đã lưu mã Key vào file .env để dùng tự động cho các lần sau.
     )
 ) else (
@@ -71,20 +76,20 @@ set /p "MODE=Nhập lựa chọn của bạn (1, 2, 3 hoặc 4) [Mặc định: 
 if "%MODE%"=="1" (
     echo.
     echo Bắt đầu sinh toàn bộ đề THCS bằng mô hình gemini-3.8-flash...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade all --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade all --delay 75 --timeout 150
 ) else if "%MODE%"=="3" (
     echo.
     echo Bắt đầu sinh kho đề Toán 9 bằng mô hình gemini-3.8-flash...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 9 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 9 --delay 75 --timeout 150
 ) else if "%MODE%"=="4" (
     set /p "CUSTOM_GRADE=Nhập khối lớp muốn sinh (6, 7, 8 hoặc 9): "
     echo.
     echo Bắt đầu sinh kho đề Toán %CUSTOM_GRADE% bằng mô hình gemini-3.8-flash...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade %CUSTOM_GRADE% --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade %CUSTOM_GRADE% --delay 75 --timeout 150
 ) else (
     echo.
     echo Bắt đầu sinh kho đề Toán 8 bằng mô hình gemini-3.8-flash...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 8 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 8 --delay 75 --timeout 150
 )
 
 echo.
