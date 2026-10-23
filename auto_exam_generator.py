@@ -726,8 +726,9 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
     """
     Vòng lặp chính duyệt qua khung chương trình và sinh đề thi.
     Tích hợp:
-    - Lọc dữ liệu theo từng chương cụ thể (--chuong) để giảm tải cho hệ thống.
-    - Thanh tiến trình (progress bar) và bộ đếm tổng số đề chuẩn xác cho chương đang chạy.
+    - Lọc dữ liệu linh hoạt theo cả Khối lớp (--khoi) và Chương (--chuong).
+    - Nếu không truyền tham số, mặc định chạy toàn bộ dữ liệu.
+    - Thanh tiến trình (progress bar) và bộ đếm tổng số đề chuẩn xác theo phạm vi lọc.
     - Kiểm soát nhịp độ Rate Limiter: Bắt buộc time.sleep(75) sau mỗi đề thi.
     """
     curriculum = load_curriculum()
@@ -738,12 +739,18 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
     all_tasks = []
     selected_chapters_info = []
 
+    # Chuẩn hóa tham số lọc
+    target_grade_str = str(target_grade).strip().lower() if target_grade else "all"
+    target_chapter_str = str(target_chapter).strip().lower() if target_chapter else "all"
+
     for grade, chapters in curriculum.items():
-        if target_grade != "all" and str(grade) != str(target_grade):
+        # 1. Lọc theo Khối lớp (--khoi)
+        if target_grade_str not in ["all", "tatca", "tat_ca", "toan_bo"] and str(grade) != target_grade_str:
             continue
 
         for ch in chapters:
-            if not matches_chapter(ch, target_chapter):
+            # 2. Lọc theo Chương (--chuong)
+            if not matches_chapter(ch, target_chapter_str):
                 continue
 
             selected_chapters_info.append(f"Toán {grade} - {ch['title']}")
@@ -763,10 +770,13 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
     total_tasks = len(all_tasks)
     if total_tasks == 0:
         print("\n" + "=" * 80)
-        print("⚠️ [KHÔNG TÌM THẤY DỮ LIỆU PHÙ HỢP]")
-        print(f"Không tìm thấy bài học nào phù hợp với Khối lớp '{target_grade}' và Chương '{target_chapter}'.")
-        print("Vui lòng kiểm tra lại tham số --grade và --chuong!")
-        print("=" * 80)
+        print("⚠️ [KHÔNG TÌM THẤY DỮ LIỆU PHÙ HỢP VỚI BỘ LỌC]")
+        print(f"Không tìm thấy bài học nào phù hợp với --khoi '{target_grade}' và --chuong '{target_chapter}'.")
+        print("Gợi ý cấu hình:")
+        print("  - Khối lớp (--khoi): 6, 7, 8, 9 hoặc để trống / all")
+        print("  - Số chương (--chuong): 1, 2, 3... hoặc để trống / all")
+        print("Ví dụ: python auto_exam_generator.py --khoi 8 --chuong 2")
+        print("=" * 80 + "\n")
         return
 
     completed_keys = set(progress["completed_exams"].keys())
@@ -778,16 +788,23 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
     print("=" * 80)
     print(f"🤖 Mô hình AI chuẩn     : {model_name} (Hỗ trợ logic Toán học tốt nhất)")
     print(f"🔑 Tổng số API Keys nạp : {key_rotator.count()} Key (Cơ chế Luân phiên Key Rotation)")
-    if target_grade != "all":
-        print(f"📚 Khối lớp chỉ định    : Lớp {target_grade}")
-    if target_chapter != "all":
-        chap_display = "; ".join(selected_chapters_info) if len(selected_chapters_info) <= 3 else f"{len(selected_chapters_info)} chương khớp"
-        print(f"📖 CHƯƠNG ĐANG CHỌN     : Chương {target_chapter} ({chap_display})")
+    
+    # Hiển thị phạm vi Khối lớp đang lọc
+    if target_grade_str not in ["all", "tatca", "tat_ca", "toan_bo"]:
+        print(f"📚 KHỐI LỚP CHỌN (--khoi): Lớp {target_grade}")
     else:
-        print(f"📖 Phạm vi chương       : Toàn bộ các chương")
+        print(f"📚 PHẠM VI KHỐI LỚP     : Toàn bộ Khối THCS (Lớp 6, 7, 8, 9)")
+
+    # Hiển thị phạm vi Chương đang lọc
+    if target_chapter_str not in ["all", "tatca", "tat_ca", "toan_bo"]:
+        chap_display = "; ".join(selected_chapters_info) if len(selected_chapters_info) <= 3 else f"{len(selected_chapters_info)} chương khớp"
+        print(f"📖 CHƯƠNG CHỌN (--chuong): Chương {target_chapter} ({chap_display})")
+    else:
+        print(f"📖 PHẠM VI CHƯƠNG       : Toàn bộ các chương")
+
     print(f"📌 Tổng số bài học chọn : {total_lessons} bài")
     print(f"📌 Tổng số đề của phạm vi: {total_tasks} đề (3 đề phân hóa / bài)")
-    print(f"✅ Đã có sẵn trước đó   : {already_done_in_scope}/{total_tasks} đề ({already_done_in_scope/total_tasks*100:.1f}%)")
+    print(f"✅ Đã có sẵn trước đó   : {already_done_in_scope}/{total_tasks} đề ({(already_done_in_scope/total_tasks*100) if total_tasks > 0 else 0:.1f}%)")
     print(f"⏳ Cần sinh mới tiếp tục: {len(remaining_tasks)} đề")
     print(f"⏱️ KIỂM SOÁT NHỊP ĐỘ     : Nghỉ đủ {delay}s sau MỖI đề thi (Bảo vệ hạn mức 15 RPM Free Tier)")
     print(f"⏳ Thời gian chờ timeout : {timeout}s (cho phép tạo đủ 4 phần chuẩn ma trận)")
@@ -888,17 +905,24 @@ def run_generator(key_rotator, target_grade="all", target_chapter="all", model_n
 # ==============================================================================
 def main():
     parser = argparse.ArgumentParser(
-        description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI với Key Rotation, Rate Limiter & Lọc theo chương"
+        description="Auto Exam Generator - Tự động biên soạn kho đề kiểm tra Toán THCS qua Gemini AI với Key Rotation, Rate Limiter & Bộ lọc --khoi, --chuong"
     )
     parser.add_argument("--api-key", "--api-keys", "-k", type=str, help="Một hoặc nhiều Google Gemini API Key (cách nhau bởi dấu phẩy)")
     parser.add_argument("--model", "-m", type=str, default=DEFAULT_MODEL, help=f"Mô hình Gemini (mặc định: {DEFAULT_MODEL})")
-    parser.add_argument("--grade", "-g", type=str, default="all", choices=["6", "7", "8", "9", "all"], help="Khối lớp (6, 7, 8, 9 hoặc all)")
+    parser.add_argument(
+        "--khoi", "--grade", "-g",
+        dest="grade",
+        type=str,
+        default="all",
+        choices=["6", "7", "8", "9", "all"],
+        help="Chỉ định khối lớp cần sinh đề (ví dụ: --khoi 6, --khoi 7, --khoi 8, --khoi 9). Mặc định: all (chạy toàn bộ các khối)"
+    )
     parser.add_argument(
         "--chuong", "--chapter", "-c",
         dest="chapter",
         type=str,
         default="all",
-        help="Chỉ định số chương hoặc ID chương cụ thể để giảm tải (ví dụ: --chuong 1 hoặc --chuong 2 hoặc --chuong c2_8). Mặc định: all (chạy toàn bộ)"
+        help="Chỉ định số chương hoặc ID chương cụ thể (ví dụ: --chuong 1, --chuong 2, --chuong 3... hoặc c2_8). Mặc định: all (chạy toàn bộ các chương)"
     )
     parser.add_argument("--delay", "-d", type=int, default=75, help="Thời gian nghỉ (giây) giữa các lần tạo đề (mặc định 75s - Kiểm soát nhịp độ Rate Limiter)")
     parser.add_argument("--timeout", "-t", type=int, default=150, help="Thời gian chờ timeout tối đa cho mỗi yêu cầu API (giây, mặc định: 150s)")

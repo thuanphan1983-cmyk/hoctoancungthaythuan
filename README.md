@@ -53,8 +53,20 @@ Mỗi bài học và mỗi chương đều có 3 đề kiểm tra với độ kh
 * **Đặc điểm:**
   - Tự động duyệt qua toàn bộ khung chương trình Toán THCS (Lớp 6, 7, 8, 9).
   - Tự động gọi API Google Gemini (`gemini-3.8-flash` tốc độ cao và hạn mức lớn) để sinh 3 đề phân hóa cho từng bài học.
-  - Tích hợp cơ chế tự phục hồi, chống lỗi (try-catch), tự động chờ (sleep/delay/backoff) khi gặp rate limit hoặc server bận, cho phép chạy miệt mài qua đêm.
+  - Tích hợp cơ chế tự phục hồi, chống lỗi (try-catch), luân phiên API Key (Key Rotation) khi gặp lỗi 429 và kiểm soát nhịp độ (Rate Limiter nghỉ 75s/đề).
+  - **Hỗ trợ bộ lọc `--khoi` và `--chuong`** để chạy riêng từng chương giúp giảm tải hệ thống.
   - Kết quả được xuất tự động vào thư mục `src/data/generated/`.
+* **Cú pháp dòng lệnh:**
+  ```bash
+  # Sinh riêng Chương 2 của Toán 8 (Hằng đẳng thức - 15 đề)
+  python auto_exam_generator.py --khoi 8 --chuong 2
+
+  # Sinh toàn bộ các chương của Khối 8
+  python auto_exam_generator.py --khoi 8
+
+  # Chạy toàn bộ dữ liệu (mặc định all)
+  python auto_exam_generator.py
+  ```
 
 ---
 

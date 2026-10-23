@@ -70,33 +70,33 @@ echo [1] Sinh TOÀN BỘ kho đề THCS (Toán 6, 7, 8, 9 - 190 bài x 3 = 570 �
 echo [2] Toán 8 - Chương 2: Hằng đẳng thức đáng nhớ (5 bài x 3 = 15 đề - Giảm tải)
 echo [3] Toán 8 - Toàn bộ 10 chương (49 bài x 3 = 147 đề)
 echo [4] Toán 9 - Toàn bộ 10 chương (42 bài x 3 = 126 đề)
-echo [5] Tự chọn Khối lớp và Số chương bất kỳ (--grade và --chuong)
+echo [5] Tự chọn Khối lớp và Số chương bất kỳ (--khoi và --chuong)
 echo ===============================================================================
 set /p "MODE=Nhập lựa chọn của bạn (1, 2, 3, 4 hoặc 5) [Mặc định: 2]: "
 
 if "%MODE%"=="1" (
     echo.
     echo Bắt đầu sinh toàn bộ đề THCS bằng mô hình gemini-3.8-flash...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade all --delay 75 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --khoi all --chuong all --delay 75 --timeout 150
 ) else if "%MODE%"=="3" (
     echo.
     echo Bắt đầu sinh toàn bộ 10 chương Toán 8...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 8 --delay 75 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --khoi 8 --chuong all --delay 75 --timeout 150
 ) else if "%MODE%"=="4" (
     echo.
     echo Bắt đầu sinh kho đề Toán 9...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 9 --delay 75 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --khoi 9 --chuong all --delay 75 --timeout 150
 ) else if "%MODE%"=="5" (
     set /p "CUSTOM_GRADE=Nhập khối lớp muốn sinh (6, 7, 8 hoặc 9): "
     set /p "CUSTOM_CHUONG=Nhập số chương cụ thể (1, 2, 3... hoặc ấn Enter để chạy hết): "
     if "%CUSTOM_CHUONG%"=="" set "CUSTOM_CHUONG=all"
     echo.
     echo Bắt đầu sinh kho đề Toán %CUSTOM_GRADE% - Chương %CUSTOM_CHUONG%...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade %CUSTOM_GRADE% --chuong %CUSTOM_CHUONG% --delay 75 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --khoi %CUSTOM_GRADE% --chuong %CUSTOM_CHUONG% --delay 75 --timeout 150
 ) else (
     echo.
     echo Bắt đầu sinh kho đề Toán 8 - Chương 2: Hằng đẳng thức đáng nhớ và ứng dụng...
-    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --grade 8 --chuong 2 --delay 75 --timeout 150
+    "%PYTHON_CMD%" auto_exam_generator.py --api-key "%USER_KEY%" --khoi 8 --chuong 2 --delay 75 --timeout 150
 )
 
 echo.
