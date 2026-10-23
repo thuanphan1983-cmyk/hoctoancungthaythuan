@@ -244,42 +244,52 @@ def sync_existing_c1_8_exams(progress):
 # 3. HÀM XÂY DỰNG PROMPT CHUẨN MA TRẬN BỘ GD&ĐT PHÂN HÓA 3 ĐỀ
 # ==============================================================================
 def build_prompt(grade, chapter, lesson, test_num):
-    """Xây dựng prompt chi tiết chuẩn sư phạm bám sát phân hóa Bloom 3 cấp độ"""
+    """
+    Xây dựng prompt chi tiết chuẩn sư phạm bám sát phân hóa Bloom 3 cấp độ.
+    Tích hợp các ràng buộc nghiêm ngặt:
+    - Bắt buộc sinh 3 đề ĐỘC LẬP HOÀN TOÀN (thay đổi toàn bộ số liệu, hàm số, ngữ cảnh).
+    - Ép buộc phân hóa độ khó rõ rệt: Đề 1 (Cơ bản) < Đề 2 (Khá) < Đề 3 (Nâng cao).
+    - Chống sao chép rập khuôn đề mẫu SGK.
+    """
     is_chapter_exam = "cuối chương" in lesson.lower() or "ôn tập" in lesson.lower()
+    variation_seed = random.randint(10000, 99999)
 
     difficulty_specs = {
         1: {
             "name": "ĐỀ SỐ 1 - MỨC ĐỘ CƠ BẢN & CỦNG CỐ NỀN TẢNG (Mục tiêu 5.0 - 7.0 điểm)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 1 (MỨC ĐỘ DỄ NHẤT):
-- Bám sát chuẩn kiến thức kỹ năng cơ bản SGK Kết nối tri thức. Các câu hỏi hỏi trực tiếp, rõ ràng, không gài bẫy.
-- Phần I (Trắc nghiệm): 8 câu Nhận biết (khái niệm trực tiếp, hệ số, nghiệm có sẵn), 4 câu Thông hiểu đơn giản (thay số 1 bước).
-- Phần II (Đúng/Sai): 2 câu ở mức Thông hiểu cơ bản, các mệnh đề dễ phân biệt đúng/sai, lập luận ngắn gọn.
-- Phần III (Trả lời ngắn): 4 câu tính toán số học / đại số 1-2 bước cơ bản.
-- Phần IV (Tự luận): 3 câu mẫu mực như ví dụ cơ bản trong SGK, lời giải rõ ràng, dễ đạt điểm."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 1 (MỨC ĐỘ DỄ NHẤT - CƠ BẢN):
+- Bám sát chuẩn kiến thức kỹ năng nền tảng SGK Kết nối tri thức. Hỏi trực diện, tường minh, không đánh đố.
+- Số liệu: Dùng số nguyên nhỏ, gọn gàng ($1, 2, 3, 4, 5, -1, -2$), không dùng phân số cồng kềnh hay căn thức khó.
+- Phần I (Trắc nghiệm): 8 câu Nhận biết (khái niệm trực tiếp, hệ số, biến số, bậc, nghiệm có sẵn), 4 câu Thông hiểu đơn giản (thay số 1 bước tính ra ngay).
+- Phần II (Đúng/Sai): 2 câu Thông hiểu cơ bản, mệnh đề rõ ràng, kiểm tra định nghĩa hoặc tính toán 1 bước ngắn gọn.
+- Phần III (Trả lời ngắn): 4 câu tính toán số học / đại số 1 bước cơ bản, kết quả là số nguyên đẹp.
+- Phần IV (Tự luận): 3 bài tập mẫu mực cơ bản như ví dụ SGK, các bước suy luận rõ ràng, học sinh trung bình dễ đạt điểm."""
         },
         2: {
             "name": "ĐỀ SỐ 2 - MỨC ĐỘ KHÁ & VẬN DỤNG LINH HOẠT (Mục tiêu 7.0 - 8.5 điểm - KHÓ HƠN ĐỀ 1 RÕ RỆT)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 2 (ĐỘ KHÓ TRUNG BÌNH KHÁ - KHÓ HƠN ĐỀ 1):
-- Đòi hỏi học sinh phải biết kết hợp từ 2 kiến thức trở lên, thực hiện biến đổi đại số nhiều bước, phân tích bài toán thực tế mức độ khá.
-- Phần I (Trắc nghiệm): 4 câu Nhận biết (hỏi sâu hơn), 8 câu Thông hiểu (có phương án nhiễu dễ nhầm lẫn, yêu cầu biến đổi rút gọn trước khi chọn).
-- Phần II (Đúng/Sai): 2 câu phân tích đa bước (chứa biểu thức quy đồng, tìm điều kiện tham số cơ bản, đối chiếu ĐKXĐ).
-- Phần III (Trả lời ngắn): 4 câu hỏi yêu cầu giải phương trình, rút gọn có điều kiện, tính toán thực tế hoặc tỉ số hình học.
-- Phần IV (Tự luận): Bài toán thực tế rõ ràng (toán chuyển động, toán năng suất, tỉ số lượng giác thực tế) và bài toán biến đổi có ràng buộc điều kiện."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 2 (ĐỘ KHÓ TRUNG BÌNH KHÁ - KHÓ HƠN ĐỀ 1 RÕ RỆT):
+- BẮT BUỘC THAY ĐỔI HOÀN TOÀN SỐ LIỆU, BIỂU THỨC SO VỚI ĐỀ 1. Không dùng lại bất kỳ đa thức hay con số nào của Đề 1.
+- Đòi hỏi học sinh phải biết kết hợp từ 2 đến 3 kiến thức, thực hiện các bước biến đổi trung gian (rút gọn biểu thức trước khi tính giá trị, quy đồng mẫu thức, đổi dấu, xử lý biểu thức nhiều biến $x, y, z$, phân số, số âm).
+- Phần I (Trắc nghiệm): 4 câu Nhận biết (hỏi sâu hơn về tính chất), 8 câu Thông hiểu (có phương án nhiễu dễ nhầm dấu hoặc nhầm bậc, bắt buộc phải tính toán qua 2 bước mới chọn đúng).
+- Phần II (Đúng/Sai): 2 câu phân tích đa bước (chứa biểu thức quy đồng, đối chiếu điều kiện xác định, kiểm tra tính chất chia hết hoặc dấu của đa thức).
+- Phần III (Trả lời ngắn): 4 câu hỏi yêu cầu giải phương trình, rút gọn có điều kiện, tính toán thực tế hoặc tỉ số hình học qua 2 bước.
+- Phần IV (Tự luận): Bài toán thực tế sinh động (toán chuyển động $s = vt$, toán năng suất, bài toán diện tích / thể tích hình học thực tiễn) và bài toán biến đổi đại số có ràng buộc điều kiện."""
         },
         3: {
             "name": "ĐỀ SỐ 3 - MỨC ĐỘ NÂNG CAO & PHÂN HÓA SÂU (Mục tiêu 8.5 - 10.0 điểm - KHÓ NHẤT, KHÓ HƠN ĐỀ 2 VÀ ĐỀ 1)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (ĐỘ KHÓ CAO NHẤT, PHÂN HÓA MẠNH MẼ CHO HSG VÀ THI VÀO LỚP 10):
-- Đòi hỏi tư duy logic trừu tượng, biến đổi đại số khéo léo, xử lý tham số m, bài toán cực trị, bất đẳng thức hoặc bài toán hình học phân tích sâu.
-- Phần I (Trắc nghiệm): 2 câu Nhận biết tinh tế, 6 câu Thông hiểu nâng cao, 4 câu có bẫy logic sâu (dễ mất nghiệm hoặc nhầm lẫn miền xác định).
-- Phần II (Đúng/Sai): 2 câu phân tích đa chiều (chứa tham số m, biện luận số nghiệm, tính chất hình học nâng cao).
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (ĐỘ KHÓ CAO NHẤT, PHÂN HÓA MẠNH MẼ CHO HSG VÀ THI VÀO LỚP 10 CHUYÊN):
+- BẮT BUỘC SÁNG TẠO BỘ SỐ VÀ CÁCH ĐẶT VẤN ĐỀ MỚI HOÀN TOÀN SO VỚI ĐỀ 1 VÀ ĐỀ 2.
+- Đòi hỏi tư duy logic trừu tượng cao, kỹ năng biến đổi đại số khéo léo, xử lý tham số $m, k$, tìm cực trị (giá trị lớn nhất / nhỏ nhất), phương trình nghiệm nguyên, hoặc bất đẳng thức.
+- Phần I (Trắc nghiệm): 2 câu Nhận biết tinh tế, 6 câu Thông hiểu nâng cao, 4 câu có bẫy logic sâu (dễ mất nghiệm, nhầm lẫn tập xác định hoặc bỏ quên trường hợp đặc biệt).
+- Phần II (Đúng/Sai): 2 câu phân tích đa chiều (chứa tham số $m$, biện luận số nghiệm, tính chất hình học nâng cao hoặc biểu thức đối xứng).
 - Phần III (Trả lời ngắn): 4 câu hỏi phức tạp (tìm giá trị cực trị min/max, số nghiệm nguyên, bài toán tổ hợp logic hoặc tỉ số diện tích nâng cao).
 - Phần IV (Tự luận):
-  + Câu 1 (1.0đ): Vận dụng nâng cao về rút gọn biểu thức có điều kiện, biến đổi đẳng thức phức tạp.
+  + Câu 1 (1.0đ): Vận dụng nâng cao về rút gọn biểu thức có điều kiện, biến đổi đẳng thức phức tạp nhiều biến.
   + Câu 2 (1.0đ): Bài toán hình học chứng minh nhiều bước hoặc bài toán thực tế giải bằng lập phương trình/hệ phương trình nâng cao.
-  + Câu 3 (1.0đ): CÂU ĐIỂM 10 PHÂN HÓA HSG (Bất đẳng thức Cauchy/Schwarz, cực trị đại số, phương trình nghiệm nguyên, hoặc tìm m để biểu thức đạt giá trị nguyên/lớn nhất/nhỏ nhất)."""
+  + Câu 3 (1.0đ): CÂU ĐIỂM 10 PHÂN HÓA HỌC SINH GIỎI (Bất đẳng thức Cauchy/Schwarz, cực trị đại số, phương trình nghiệm nguyên, hoặc tìm tham số để biểu thức nhận giá trị nguyên)."""
         }
     }
 
@@ -292,7 +302,17 @@ THÔNG TIN BÀI HỌC VÀ CHUYÊN ĐỀ:
 - Khối lớp: Toán {grade}
 - Chương: {chapter['title']} (Mã: {chapter['id']})
 - Bài học / Chuyên đề: {lesson}
-- Mức độ biên soạn: {spec['name']}
+- Cấp độ đề: {spec['name']}
+- Mã phiên bản độc lập (Seed): VAR-{grade}-{chapter['id']}-T{test_num}-{variation_seed}
+
+RÀNG BUỘC ĐỘC LẬP & CHỐNG SAO CHÉP TUYỆT ĐỐI GIỮA CÁC ĐỀ:
+1. ĐÂY LÀ ĐỀ SỐ {test_num} TRONG BỘ 3 ĐỀ PHÂN HÓA CỦA BÀI HỌC NÀY.
+2. BẮT BUỘC: Toàn bộ số liệu, hàm số, phương trình, biến số, hệ số, ngữ cảnh và cách đặt câu hỏi phải ĐỘC LẬP HOÀN TOÀN. KHÔNG ĐƯỢC lặp lại đề mẫu mặc định hay sao chép từ đề khác của cùng bài học.
+3. KHÔNG ĐƯỢC dùng lại cùng một ví dụ rập khuôn trong SGK. Hãy sáng tạo số liệu mới, các biểu thức toán học mới lạ, ngữ cảnh thực tế phong phú.
+4. Tuân thủ chuẩn mực phân hóa:
+   * Nếu là Đề 1 (Cơ bản): Hỏi trực tiếp, số nguyên nhỏ, tính toán 1 bước.
+   * Nếu là Đề 2 (Khá): Bắt buộc dùng số liệu khác hẳn Đề 1, yêu cầu các bước biến đổi trung gian (rút gọn, quy đồng, đa biến).
+   * Nếu là Đề 3 (Nâng cao): Khác biệt hoàn toàn Đề 1 và Đề 2, chứa tham số, cực trị, bài toán điểm 10 phân hóa sâu sắc.
 
 {spec['rules']}
 
@@ -382,11 +402,13 @@ def safe_extract_json(text):
 
 def call_gemini_api(key_rotator, prompt, model_name=DEFAULT_MODEL, timeout=150, max_retries=12):
     """
-    Gọi Gemini API tích hợp 2 tính năng cốt lõi:
+    Gọi Gemini API tích hợp:
     1. LUÂN PHIÊN KEY (Key Rotation):
        - Tự động bắt lỗi 429 (Rate Limit) hoặc ResourceExhausted.
        - Tự động in thông báo đổi Key và lấy Key tiếp theo trong mảng để thử lại ngay mà không ngắt chương trình.
-    2. CHỐNG TREO & SERVER BUSY:
+    2. TEMPERATURE 0.7:
+       - Tăng temperature lên mức 0.7 để kích thích sự sáng tạo số liệu, biểu thức mới lạ giữa các đề.
+    3. CHỐNG TREO & SERVER BUSY:
        - Tự động chuyển model dự phòng nếu server bận (503/500).
        - Timeout 150s cho đề thi dài.
     """
@@ -400,7 +422,8 @@ def call_gemini_api(key_rotator, prompt, model_name=DEFAULT_MODEL, timeout=150, 
         ],
         "generationConfig": {
             "responseMimeType": "application/json",
-            "temperature": 0.35
+            "temperature": 0.7,
+            "topP": 0.95
         }
     }
 
