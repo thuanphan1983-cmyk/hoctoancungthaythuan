@@ -2200,7 +2200,38 @@ if (typeof window !== "undefined") {
 
     function getExamFromBank(grade, chapterId, lessonName, testNum = 1) {
 
-      // 1. Kiểm tra ngân hàng đề Chương 2 Toán 8 (Hằng đẳng thức đáng nhớ và ứng dụng)
+            // 1b. Kiểm tra ngân hàng đề Chương 3 Toán 8 (Tứ giác)
+      const c3Exams = (typeof window !== 'undefined' && window.CHAPTER3_TOAN8_EXAMS) ||
+                      (typeof CHAPTER3_TOAN8_EXAMS !== 'undefined' ? CHAPTER3_TOAN8_EXAMS : null) ||
+                      (typeof window !== 'undefined' && window.EXAMS_8_C3_8) ||
+                      (typeof EXAMS_8_C3_8 !== 'undefined' ? EXAMS_8_C3_8 : null);
+      if (grade === "8" && (chapterId === "c3_8" || (chapterId || "").toLowerCase().includes("c3")) && c3Exams) {
+        const les = (lessonName || "").toLowerCase();
+        let key = "";
+        if (les.includes("cuối chương") || les.includes("ôn tập") || les.includes("bài 6")) {
+          key = `c3_8_bai6_test${testNum}`;
+        } else if (les.includes("bài 10") || (les.includes("tứ giác") && !les.includes("cuối chương"))) {
+          key = `c3_8_bai1_test${testNum}`;
+        } else if (les.includes("bài 11") || les.includes("hình thang cân") || les.includes("hình thang")) {
+          key = `c3_8_bai2_test${testNum}`;
+        } else if (les.includes("bài 12") || les.includes("hình bình hành")) {
+          key = `c3_8_bai3_test${testNum}`;
+        } else if (les.includes("bài 13") || les.includes("hình chữ nhật")) {
+          key = `c3_8_bai4_test${testNum}`;
+        } else if (les.includes("bài 14") || les.includes("hình thoi") || les.includes("hình vuông")) {
+          key = `c3_8_bai5_test${testNum}`;
+        } else {
+          const curChap = (window.CURRICULUM_KNTT || {})["8"]?.chapters.find(c => c.id === "c3_8");
+          const idx = curChap && curChap.lessons ? (curChap.lessons.indexOf(lessonName) + 1) : 1;
+          key = `c3_8_bai${idx > 0 ? idx : 1}_test${testNum}`;
+        }
+        const examsDict = c3Exams.exams || c3Exams;
+        if (key && examsDict[key]) {
+          return examsDict[key];
+        }
+      }
+
+// 1. Kiểm tra ngân hàng đề Chương 2 Toán 8 (Hằng đẳng thức đáng nhớ và ứng dụng)
 
       const c2Exams = (typeof window !== 'undefined' && window.CHAPTER2_TOAN8_EXAMS) ||
 
