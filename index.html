@@ -70,12 +70,6 @@
 
 
 
-  <!-- html2pdf.js for A4 PDF Export -->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-
-
-
   <!-- React 18 & Babel Standalone -->
 
   <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
@@ -1042,42 +1036,79 @@ if (typeof window !== "undefined") {
     @media print {
       @page {
         size: A4;
-        margin: 15mm 20mm 15mm 20mm;
+        margin: 15mm;
       }
-      .katex-display, .math-block, .equation {
-        page-break-inside: avoid;
-        break-inside: avoid;
+      *, *::before, *::after {
+        box-shadow: none !important;
+        text-shadow: none !important;
       }
-      .mock-exam-print-target {
+      body, html {
+        font-family: 'Times New Roman', Times, 'Liberation Serif', serif !important;
+        font-size: 12pt !important;
+        line-height: 1.45 !important;
+        color: #000000 !important;
+        background: #ffffff !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+      /* Ẩn hoàn toàn tất cả nút bấm, header, footer, thanh điều hướng và phần tử no-print */
+      header,
+      footer,
+      nav,
+      aside,
+      button,
+      input,
+      select,
+      .no-print,
+      .toast-container {
+        display: none !important;
+      }
+      /* Khung đề thi chuẩn Times New Roman 12pt, viền nét, không bị cắt chữ */
+      .pdf-exam-container {
         display: block !important;
         width: 100% !important;
+        max-width: 100% !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        background: transparent !important;
+        color: #000000 !important;
+        font-family: 'Times New Roman', Times, 'Liberation Serif', serif !important;
+        font-size: 12pt !important;
+        line-height: 1.45 !important;
+        white-space: pre-wrap !important;
       }
-      body {
-        font-family: 'Times New Roman', Times, serif !important;
-      }
-
-      body {
-
-        background: white !important;
-
-        color: black !important;
-
-      }
-
-      .no-print, header, footer, button:not(.print-include) {
-
-        display: none !important;
-
-      }
-
-      .print-shadow-none {
-
+      /* Gỡ bỏ nền xám và bóng của các container cha */
+      .bg-slate-200\/70,
+      .bg-slate-50,
+      .bg-slate-100 {
+        background: transparent !important;
+        border: none !important;
         box-shadow: none !important;
-
-        border: 1px solid #cbd5e1 !important;
-
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: visible !important;
       }
-
+      /* Chống cắt đôi công thức khi sang trang */
+      .katex-display, .math-block, .equation {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+      }
+      .katex {
+        font-size: 1.05em !important;
+        color: #000000 !important;
+      }
+      table {
+        border-collapse: collapse !important;
+        width: 100% !important;
+      }
+      th, td {
+        border: 1px solid #000000 !important;
+        color: #000000 !important;
+      }
     }
 
     .katex-display {
@@ -2496,7 +2527,6 @@ if (typeof window !== "undefined") {
       const [showMockSolution, setShowMockSolution] = useState(false);
       const [mockMcUserAnswers, setMockMcUserAnswers] = useState({});
       const [mockMcSubmitted, setMockMcSubmitted] = useState(false);
-      const [isExportingMockPdf, setIsExportingMockPdf] = useState(false);
 
       useEffect(() => {
         if (!mockExamsData) {
@@ -2522,144 +2552,18 @@ if (typeof window !== "undefined") {
           loadMock();
         }
       }, [mockExamsData]);
-
-      // HÀM XUẤT FILE PDF TRỰC TIẾP CHUẨN TIMES NEW ROMAN 12PT (KHẮC PHỤC LỖI DÍNH CHỮ VÀ GÃY CÔNG THỨC)
-      const handleExportMockExamPDF = async (includeSolution = false) => {
-        await document.fonts.ready;
-        const curExam = mockExamsData?.exams?.[selectedMockExamKey];
-        if (!curExam) {
-          showToast("warning", "Không tìm thấy dữ liệu đề thi được chọn!");
-          return;
-        }
-
-        // Tự động chuyển tab sang bản in tương ứng để element được render 100% trong DOM
-        setMockViewTab(includeSolution ? "full" : "paper");
-        setIsExportingMockPdf(true);
-        showToast("info", "Đang xử lý kết xuất đề thi sang file PDF chuẩn Times New Roman 12pt...");
-
-        // Chờ 400ms để React cập nhật DOM và hiển thị phần tử bản in
-        await new Promise(r => setTimeout(r, 450));
-
-        const targetId = includeSolution ? "mock-exam-printable-full" : "mock-exam-printable-paper";
-        const element = document.getElementById(targetId);
-        if (!element) {
-          setIsExportingMockPdf(false);
-          showToast("warning", "Không tìm thấy nội dung đề thi để xuất PDF!");
-          return;
-        }
-
-        // Kích hoạt KaTeX auto-render toàn bộ công thức toán trong element
-        if (window.renderMathInElement) {
-          try {
-            window.renderMathInElement(element, {
-              delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\[", right: "\\]", display: true },
-                { left: "\\(", right: "\\)", display: false }
-              ],
-              throwOnError: false
-            });
-          } catch (err) {
-            console.warn("KaTeX render error:", err);
-          }
-        }
-
-        // Chờ thêm 350ms cho KaTeX và phông chữ Times New Roman vẽ hoàn tất
-        await new Promise(r => setTimeout(r, 350));
-
-        const cleanCode = (curExam.code || "DE_01").replace(/[^a-zA-Z0-9]/g, "_");
-        const suffix = includeSolution ? "De_Va_Loi_Giai" : "De_Thi";
-        const fileName = `De_Thi_Thu_Vao_10_GV_Phan_Dinh_Thuan_${cleanCode}_${suffix}.pdf`;
-
-        if (window.html2pdf) {
-          const opt = {
-            margin: [12, 15, 12, 15],
-            filename: fileName,
-            image: { type: "jpeg", quality: 0.98 },
-            html2canvas: { scale: 2, useCORS: true, letterRendering: true },
-            jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-            pagebreak: { mode: ["avoid-all", "css", "legacy"] }
-          };
-
-          // Bọc lệnh html2pdf().set(opt).from(element).save() bên trong setTimeout 1000ms để trình duyệt đợi KaTeX tải xong 100% font chữ
-          setTimeout(async () => {
-            try {
-              await window.html2pdf().set(opt).from(element).save();
-              showToast("success", "Đã xuất file PDF thành công chuẩn phông Times New Roman 12pt!");
-            } catch (err) {
-              console.error("html2pdf error:", err);
-              showToast("warning", "Lỗi tải tự động. Đang mở hộp thoại In để lưu PDF...");
-              handlePrintMockExam(includeSolution);
-            } finally {
-              setIsExportingMockPdf(false);
-            }
-          }, 1000);
-        } else {
-          handlePrintMockExam(includeSolution);
-          setIsExportingMockPdf(false);
-        }
-      };
-
-      // HÀM MỞ HỘP THOẠI IN CHUYÊN NGHIỆP HOẶC LƯU DƯỚI DẠNG PDF CỦA TRÌNH DUYỆT (VECTOR NÉT 100%)
-      const handlePrintMockExam = async (includeSolution = false) => {
-        const curExam = mockExamsData?.exams?.[selectedMockExamKey];
-        if (!curExam) return;
-
-        setMockViewTab(includeSolution ? "full" : "paper");
-        await new Promise(r => setTimeout(r, 350));
-
-        const targetId = includeSolution ? "mock-exam-printable-full" : "mock-exam-printable-paper";
-        const element = document.getElementById(targetId);
-        if (!element) {
-          window.print();
-          return;
-        }
-
-        const printWindow = window.open('', '_blank', 'width=920,height=1150');
-        if (printWindow) {
-          const docTitle = curExam.title || 'De_Thi_Vao_10';
-          const innerHtmlContent = element.innerHTML;
-          printWindow.document.open();
-          printWindow.document.write(
-            '<!DOCTYPE html>' +
-            '<html lang="vi">' +
-            '<head>' +
-            '<meta charset="utf-8">' +
-            '<title>' + docTitle + '</title>' +
-            '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">' +
-            '<style>' +
-            '@page { size: A4; margin: 15mm 20mm 15mm 20mm; }' +
-            'body { font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; margin: 0; padding: 8mm; }' +
-            '.katex { font-size: 1.05em; }' +
-            '.katex-display, .math-block, .equation { page-break-inside: avoid; break-inside: avoid; }' +
-            'table { border-collapse: collapse; width: 100%; margin: 8px 0; }' +
-            'th, td { border: 1px solid #000; padding: 6px; text-align: center; }' +
-            '.grid-cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 4px; }' +
-            '.grid-cols-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 4px; }' +
-            '@media print { body { padding: 0; } .no-print { display: none !important; } }' +
-            '</style>' +
-            '</head>' +
-            '<body>' +
-            innerHtmlContent +
-            '</body>' +
-            '</html>'
-          );
-          printWindow.document.close();
-          printWindow.focus();
+      // HÀM IN / XUẤT PDF QUA HỘP THOẠI IN CỦA TRÌNH DUYỆT (CHỌN 'SAVE AS PDF')
+      const handlePrintExam = (tab = "paper") => {
+        if (mockViewTab !== tab) {
+          setMockViewTab(tab);
           setTimeout(() => {
-            try {
-              printWindow.print();
-            } catch (e) {
-              console.warn(e);
-            }
-          }, 500);
+            window.print();
+          }, 150);
         } else {
           window.print();
         }
       };
-
-      const [loadingAI, setLoadingAI] = useState(false);
+const [loadingAI, setLoadingAI] = useState(false);
 
       const [loadingExam, setLoadingExam] = useState(false);
       const [notFoundNotice, setNotFoundNotice] = useState(null);
@@ -4067,58 +3971,9 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
         setView("result");
 
       };
-
-
-
-      // Xuất file PDF bằng html2pdf.js
-
-      const handleExportPDF = async () => {
-        await document.fonts.ready;
-
-        const element = document.getElementById("report-card-pdf");
-
-        if (!element) {
-
-          window.print();
-
-          return;
-
-        }
-
-
-
-        const cleanName = (resultData.studentName || "Hoc_Sinh").replace(/[^a-zA-Z0-9à-ỹÀ-Ỹ]/g, "_");
-
-        const fileName = `Phieu_Ket_Qua_${cleanName}_${Date.now()}.pdf`;
-
-
-
-        if (window.html2pdf) {
-
-          const opt = {
-
-            margin: [10, 10, 10, 10],
-
-            filename: fileName,
-
-            image: { type: "jpeg", quality: 0.98 },
-
-            html2canvas: { scale: 2, useCORS: true, logging: false },
-
-            jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-
-            pagebreak: { mode: ["avoid-all", "css", "legacy"] }
-
-          };
-
-          window.html2pdf().from(element).set(opt).save();
-
-        } else {
-
-          window.print();
-
-        }
-
+      // In hoặc Lưu PDF Phiếu kết quả qua hộp thoại in của trình duyệt
+      const handleExportPDF = () => {
+        window.print();
       };
 
 
@@ -6509,30 +6364,28 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                         </p>
                       </div>
 
-                      {/* CÁC NÚT HÀNH ĐỘNG XUẤT FILE PDF & IN */}
+                      {/* CÁC NÚT HÀNH ĐỘNG IN & XUẤT PDF (GỌI DUY NHẤT LỆNH WINDOW.PRINT) */}
                       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
                         <button
-                          onClick={() => handleExportMockExamPDF(false)}
-                          disabled={isExportingMockPdf}
+                          onClick={() => handlePrintExam("paper")}
                           className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center justify-center gap-2 transition"
-                          title="Tải về file PDF đề thi để in phát cho học sinh"
+                          title="Mở hộp thoại in trình duyệt (người dùng có thể chọn 'Save as PDF')"
                         >
-                          <span>📄</span> {isExportingMockPdf ? "Đang xuất PDF..." : "Tải PDF Đề thi"}
+                          <span>📄</span> Xuất PDF Đề thi
                         </button>
                         <button
-                          onClick={() => handleExportMockExamPDF(true)}
-                          disabled={isExportingMockPdf}
+                          onClick={() => handlePrintExam("full")}
                           className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center justify-center gap-2 transition"
-                          title="Tải về file PDF gồm cả Đề thi và Hướng dẫn chấm chi tiết"
+                          title="Mở hộp thoại in trình duyệt (người dùng có thể chọn 'Save as PDF')"
                         >
-                          <span>📘</span> Tải PDF Đề & Lời giải
+                          <span>📘</span> Xuất PDF Đề & Lời giải
                         </button>
                         <button
-                          onClick={() => handlePrintMockExam(mockViewTab === "full")}
-                          className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-3.5 py-2.5 rounded-xl text-xs md:text-sm flex items-center justify-center gap-1.5 transition shadow"
-                          title="Mở hộp thoại In ấn A4 trực tiếp / Lưu PDF qua trình duyệt"
+                          onClick={() => handlePrintExam(mockViewTab === "full" ? "full" : "paper")}
+                          className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-4 py-2.5 rounded-xl text-xs md:text-sm flex items-center justify-center gap-1.5 transition shadow"
+                          title="Mở hộp thoại in của trình duyệt (người dùng có thể chọn 'Save as PDF')"
                         >
-                          <span>🖨️</span> In A4 / Lưu PDF
+                          <span>🖨️</span> In ngay
                         </button>
                       </div>
                     </div>
