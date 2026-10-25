@@ -1,0 +1,4642 @@
+// Auto-generated Chapter 3 Toán 6 Exams (UMD Module)
+const CHAPTER3_TOAN6_EXAMS = {
+  "c3_6_bai1_test1": {
+    "title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số nguyên gồm:",
+        "options": [
+          "Các số nguyên âm, số 0 và các số nguyên dương",
+          "Các số nguyên âm và số nguyên dương",
+          "Các số nguyên âm và số 0",
+          "Các số nguyên dương và số 0"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Kí hiệu tập hợp các số nguyên là:",
+        "options": [
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{R}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Số đối của số nguyên $-5$ là:",
+        "options": [
+          "$5$",
+          "$-5$",
+          "$\\frac{1}{5}$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Số 0 là:",
+        "options": [
+          "Số nguyên không âm và không dương",
+          "Số nguyên dương",
+          "Số nguyên âm",
+          "Không phải là số nguyên"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Trên trục số nằm ngang, điểm biểu diễn số $-3$ nằm ở vị trí nào so với điểm gốc 0?",
+        "options": [
+          "Nằm về bên trái điểm 0 và cách điểm 0 ba đơn vị",
+          "Nằm về bên phải điểm 0 và cách điểm 0 ba đơn vị",
+          "Trùng với điểm 0",
+          "Nằm về bên phải điểm 3"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Trong các số sau, số nào là số nguyên âm?",
+        "options": [
+          "$-7$",
+          "$0$",
+          "$7$",
+          "$12$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "So sánh hai số nguyên $-6$ và $-2$:",
+        "options": [
+          "$-6 < -2$",
+          "$-6 > -2$",
+          "$-6 = -2$",
+          "Không so sánh được"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Nhiệt độ $-3^\\circ\\text{C}$ ấm hơn hay lạnh hơn nhiệt độ $-5^\\circ\\text{C}$?",
+        "options": [
+          "Ấm hơn",
+          "Lạnh hơn",
+          "Bằng nhau",
+          "Không xác định được"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $3; -5; 0; -2; 4$:",
+        "options": [
+          "$-5; -2; 0; 3; 4$",
+          "$-2; -5; 0; 3; 4$",
+          "$4; 3; 0; -2; -5$",
+          "$0; -2; -5; 3; 4$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Tập hợp các số nguyên $x$ thỏa mãn $-3 < x \\leq 2$ là:",
+        "options": [
+          "$\\{-2; -1; 0; 1; 2\\}$",
+          "$\\{-3; -2; -1; 0; 1; 2\\}$",
+          "$\\{-2; -1; 0; 1\\}$",
+          "$\\{-3; -2; -1; 0; 1\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Độ cao của mực nước biển được quy ước là $0\\text{ m}$. Một chiếc tàu ngầm đang lặn ở độ sâu $35\\text{ m}$ dưới mực nước biển thì độ cao của tàu ngầm được biểu diễn bằng số nguyên nào?",
+        "options": [
+          "$-35\\text{ m}$",
+          "$35\\text{ m}$",
+          "$0\\text{ m}$",
+          "$-70\\text{ m}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Số nguyên liền sau của số nguyên $-1$ là:",
+        "options": [
+          "$0$",
+          "$-2$",
+          "$1$",
+          "$-3$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho tập hợp $M = \\{-4; -1; 0; 2; 5\\}$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Trong tập hợp $M$ có đúng hai số nguyên âm là $-4$ và $-1$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số nhỏ nhất trong tập hợp $M$ là số $-4$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Số đối của các phần tử trong $M$ lần lượt là $4; 1; 0; -2; -5$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Số 0 là số nguyên dương nhỏ nhất trong tập hợp $M$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Nhiệt độ đo được lúc 6 giờ sáng tại 4 địa điểm lần lượt là: Sapa ($-2^\\circ\\text{C}$), Mẫu Sơn ($-4^\\circ\\text{C}$), Hà Nội ($15^\\circ\\text{C}$), Đà Lạt ($10^\\circ\\text{C}$).",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Mẫu Sơn là nơi có nhiệt độ thấp nhất trong 4 địa điểm.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Hà Nội là nơi có nhiệt độ cao nhất trong 4 địa điểm.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Nhiệt độ ở Sapa ấm hơn nhiệt độ ở Mẫu Sơn $2^\\circ\\text{C}$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Sắp xếp nhiệt độ từ thấp đến cao: $-2^\\circ\\text{C}; -4^\\circ\\text{C}; 10^\\circ\\text{C}; 15^\\circ\\text{C}$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Số nguyên âm lớn nhất có hai chữ số là bao nhiêu?",
+        "answer": "-10"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-4 \\leq x < 3$?",
+        "answer": "7"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng của số nguyên âm nhỏ nhất có một chữ số và số nguyên dương lớn nhất có một chữ số.",
+        "answer": "0"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Trên trục số, khoảng cách giữa điểm biểu diễn số $-7$ và điểm biểu diễn số $3$ bằng bao nhiêu đơn vị?",
+        "answer": "10"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "a) Viết số đối của mỗi số nguyên sau: $-8; 0; 12; -2025$.\nb) Biểu diễn các số nguyên sau trên trục số: $-3; -1; 0; 2; 4$.",
+        "rubric": "a) Số đối của -8 là 8; số đối của 0 là 0; số đối của 12 là -12; số đối của -2025 là 2025 (0.5đ).\nb) Vẽ đúng trục số nằm ngang có gốc 0, chiều dương từ trái sang phải, chia đều các vạch đơn vị và biểu diễn chính xác 5 điểm (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "a) Sắp xếp các số nguyên sau theo thứ tự giảm dần: $-15; 0; 8; -3; 12; -9$.\nb) Liệt kê các phần tử của tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -5 \\leq x < 4\\}$.",
+        "rubric": "a) Thứ tự giảm dần (từ lớn đến bé): 12; 8; 0; -3; -9; -15 (0.5đ).\nb) Tập hợp A = {-5; -4; -3; -2; -1; 0; 1; 2; 3} (0.5đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Bảng dưới đây ghi độ cao so với mực nước biển của một số đỉnh núi và rãnh đại dương:\n- Đỉnh Fansipan: $+3143\\text{ m}$\n- Rãnh Mariana: $-10994\\text{ m}$\n- Đỉnh Everest: $+8848\\text{ m}$\n- Biển Chết: $-430\\text{ m}$\na) Nơi nào cao nhất và nơi nào sâu nhất?\nb) Sắp xếp các độ cao trên theo thứ tự từ thấp đến cao.",
+        "rubric": "a) Nơi cao nhất là Đỉnh Everest (+8848 m) (0.25đ). Nơi sâu nhất là Rãnh Mariana (-10994 m) (0.25đ).\nb) Sắp xếp từ thấp đến cao: -10994 m; -430 m; +3143 m; +8848 m (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai1_test2": {
+    "title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho số nguyên $a < 0$. Khẳng định nào sau đây là SAI?",
+        "options": [
+          "$-a < 0$",
+          "$-a > 0$",
+          "$a$ nằm bên trái điểm 0 trên trục số",
+          "Số đối của $a$ là số nguyên dương"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-10 \\leq x \\leq 10$?",
+        "options": [
+          "$21$",
+          "$20$",
+          "$19$",
+          "$22$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Cho $a, b \\in \\mathbb{Z}$ sao cho $a$ nằm bên trái điểm $b$ trên trục số. Khi đó:",
+        "options": [
+          "$a < b$",
+          "$a > b$",
+          "$a = b$",
+          "$a \\geq b$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Khẳng định nào sau đây là ĐÚNG với mọi số nguyên $x$?",
+        "options": [
+          "Nếu $x > 0$ thì số đối của $x$ nhỏ hơn 0",
+          "Nếu $x \\in \\mathbb{Z}$ thì $-x$ luôn là số nguyên âm",
+          "Khoảng cách từ $x$ đến gốc 0 có thể là số âm",
+          "$-(-x) = -x$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Số nguyên liền trước của số nguyên âm lớn nhất là:",
+        "options": [
+          "$-2$",
+          "$0$",
+          "$-1$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết số đối của $x$ là $-(-7)$:",
+        "options": [
+          "$-7$",
+          "$7$",
+          "$0$",
+          "$14$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng thấp",
+        "question": "Cho ba số nguyên $a, b, c$ thỏa mãn $a < b < 0 < c$. Sắp xếp các số $a, b, c$ và các số đối của chúng theo thứ tự tăng dần:",
+        "options": [
+          "$-c < a < b < -b < -a < c$",
+          "$a < b < -c < -b < -a < c$",
+          "$-c < -a < -b < a < b < c$",
+          "$a < b < c < -c < -b < -a$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-5 < x \\leq 5$?",
+        "options": [
+          "$10$",
+          "$11$",
+          "$9$",
+          "$8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng thấp",
+        "question": "Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -2024 \\leq x \\leq 2024\\}$. Tổng của tất cả các phần tử của $A$ bằng:",
+        "options": [
+          "$0$",
+          "$2024$",
+          "$-2024$",
+          "$4048$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng thấp",
+        "question": "Một tàu ngầm đang ở độ sâu $40\\text{ m}$. Tàu lặn thêm $15\\text{ m}$ nữa rồi nổi lên $20\\text{ m}$. Vị trí mới của tàu ngầm biểu diễn bằng số nguyên nào?",
+        "options": [
+          "$-35\\text{ m}$",
+          "$-75\\text{ m}$",
+          "$-45\\text{ m}$",
+          "$35\\text{ m}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng thấp",
+        "question": "Biết $x$ là số nguyên âm và $-8 < x < -4$. Tích các giá trị của $x$ thỏa mãn bằng:",
+        "options": [
+          "$-210$",
+          "$210$",
+          "$-35$",
+          "$35$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng thấp",
+        "question": "Điểm $A$ cách gốc 0 năm đơn vị về bên trái. Điểm $B$ cách điểm $A$ tám đơn vị về bên phải. Tọa độ của điểm $B$ là:",
+        "options": [
+          "$3$",
+          "$-13$",
+          "$-3$",
+          "$13$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho tập hợp $X = \\{x \\in \\mathbb{Z} \\mid -6 < x \\leq 4\\}$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Số phần tử nguyên âm trong tập hợp $X$ là 5 phần tử ($\\{-5; -4; -3; -2; -1\\}$).",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số phần tử nguyên dương trong tập hợp $X$ là 4 phần tử ($\\{1; 2; 3; 4\\}$).",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Tập hợp $X$ có tổng cộng 10 phần tử kể cả số 0.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Tổng của tất cả các phần tử thuộc tập hợp $X$ bằng $-5$.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một nhà lạnh có nhiệt độ ban đầu là $6^\\circ\\text{C}$. Người quản lí giảm nhiệt độ $2^\\circ\\text{C}$ mỗi giờ liên tục trong 5 giờ.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Sau 3 giờ đầu tiên, nhiệt độ của nhà lạnh hạ xuống còn $0^\\circ\\text{C}$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "Sau 5 giờ, nhiệt độ trong nhà lạnh giảm tổng cộng $10^\\circ\\text{C}$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Nhiệt độ cuối cùng trong nhà lạnh là $-4^\\circ\\text{C}$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Nhiệt độ $-4^\\circ\\text{C}$ ấm hơn nhiệt độ $-2^\\circ\\text{C}$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính tổng của tất cả các số nguyên $x$ thỏa mãn $-8 < x < 9$.",
+        "answer": "8"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-15 \\leq x < 20$?",
+        "answer": "35"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số đối của số nguyên $a$ biết rằng $-a = -(-12)$.",
+        "answer": "-12"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ nhỏ nhất sao cho $x > -25$ và $x$ chia hết cho 5.",
+        "answer": "-20"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho các số nguyên sau: $-12; 7; -3; 0; -18; 15; -1$.\na) Tìm số đối của từng số nguyên trên.\nb) Sắp xếp các số nguyên đã cho theo thứ tự tăng dần.\nc) Viết tập hợp các số nguyên $x$ thỏa mãn: $-12 \\leq x < -3$.",
+        "rubric": "a) Số đối lần lượt là: 12; -7; 3; 0; 18; -15; 1 (0.35đ).\nb) Thứ tự tăng dần: -18 < -12 < -3 < -1 < 0 < 7 < 15 (0.35đ).\nc) Tập hợp: {-12; -11; -10; -9; -8; -7; -6; -5; -4} (0.3đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Cho trục số nằm ngang. Điểm $A$ biểu diễn số $-4$, điểm $B$ biểu diễn số $6$.\na) Tính khoảng cách từ điểm $A$ đến điểm $B$ trên trục số.\nb) Tìm tọa độ trung điểm $M$ của đoạn thẳng $AB$.",
+        "rubric": "a) Khoảng cách AB = 6 - (-4) = 6 + 4 = 10 đơn vị (0.5đ).\nb) Trung điểm M nằm cách A và B một khoảng bằng 10 : 2 = 5 đơn vị (0.25đ). Tọa độ của điểm M là: -4 + 5 = 1 (hoặc 6 - 5 = 1) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Bác Bình kinh doanh một cửa hàng hoa tươi. Trong 5 ngày liên tiếp, tình hình lợi nhuận (đơn vị: triệu đồng) được ghi lại như sau:\n- Ngày 1: $+2$\n- Ngày 2: $-1$\n- Ngày 3: $+3$\n- Ngày 4: $-2$\n- Ngày 5: $+4$\na) Giải thích ý nghĩa của các số nguyên âm trong bảng số liệu trên.\nb) Tính tổng lợi nhuận của bác Bình sau cả 5 ngày kinh doanh.",
+        "rubric": "a) Số nguyên âm biểu thị ngày kinh doanh bị lỗ: Ngày 2 cửa hàng bị lỗ 1 triệu đồng; Ngày 4 cửa hàng bị lỗ 2 triệu đồng (0.5đ).\nb) Tổng lợi nhuận sau 5 ngày là: (+2) + (-1) + (+3) + (-2) + (+4) = (2 + 3 + 4) - (1 + 2) = 9 - 3 = +6 (triệu đồng) (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai1_test3": {
+    "title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a > b$ thì khẳng định nào sau đây luôn đúng?",
+        "options": [
+          "$-a < -b$",
+          "$-a > -b$",
+          "$-a = -b$",
+          "$|a| > |b|$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm tất cả các số nguyên $x$ thỏa mãn $-2 \\leq -x < 3$:",
+        "options": [
+          "$-2; -1; 0; 1; 2$",
+          "$-3; -2; -1; 0; 1$",
+          "$-2; -1; 0$",
+          "$1; 2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Cho $A = \\{x \\in \\mathbb{Z} \\mid |x| \\leq 5\\}$. Số phần tử của tập hợp $A$ là:",
+        "options": [
+          "$11$",
+          "$10$",
+          "$5$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $|x| + |y| = 1$?",
+        "options": [
+          "$4$ cặp",
+          "$2$ cặp",
+          "$8$ cặp",
+          "$6$ cặp"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Cho 5 số nguyên $a_1, a_2, a_3, a_4, a_5$ đều khác 0 thỏa mãn tích của 2 số bất kì trong chúng là số dương. Khẳng định nào đúng?",
+        "options": [
+          "Cả 5 số đều cùng dấu",
+          "Có 3 số âm và 2 số dương",
+          "Có 4 số âm và 1 số dương",
+          "Chỉ có 1 số âm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng cao",
+        "question": "Cho $x$ là số nguyên. Giá trị nhỏ nhất của biểu thức $P = |x - 3| + 5$ là:",
+        "options": [
+          "$5$",
+          "$3$",
+          "$0$",
+          "$8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ sao cho khoảng cách từ điểm $x$ đến điểm $-3$ trên trục số bằng 7:",
+        "options": [
+          "$x = 4$ hoặc $x = -10$",
+          "$x = 4$",
+          "$x = -10$",
+          "$x = 10$ hoặc $x = -4$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Cho $a$ là số nguyên âm lớn nhất có 3 chữ số khác nhau, $b$ là số nguyên dương nhỏ nhất có 3 chữ số khác nhau. Hiệu $b - a$ bằng:",
+        "options": [
+          "$204$",
+          "$2024$",
+          "$0$",
+          "$200$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $|x - 2| < 4$?",
+        "options": [
+          "$7$",
+          "$8$",
+          "$9$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Cho $S = \\{x \\in \\mathbb{Z} \\mid -100 \\leq x \\leq 102\\}$. Tổng của các số nguyên trong tập hợp $S$ bằng:",
+        "options": [
+          "$203$",
+          "$101$",
+          "$102$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Trên trục số, điểm $M$ biểu diễn số $-15$, điểm $N$ biểu diễn số $25$. Điểm $P$ nằm giữa $M$ và $N$ sao cho $MP = 3PN$. Tọa độ của điểm $P$ là:",
+        "options": [
+          "$15$",
+          "$5$",
+          "$10$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 1| + |x - 5|$ với $x \\in \\mathbb{Z}$:",
+        "options": [
+          "$4$",
+          "$0$",
+          "$2$",
+          "$6$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho hai số nguyên $a$ và $b$ thỏa mãn $a < 0 < b$ và $|a| > |b|$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Trên trục số, điểm $a$ nằm về bên trái điểm 0, điểm $b$ nằm về bên phải điểm 0.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "Khoảng cách từ điểm $a$ đến gốc 0 lớn hơn khoảng cách từ điểm $b$ đến gốc 0.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Tổng $a + b$ là một số nguyên âm.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Số đối của $a$ nhỏ hơn số đối của $b$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Xét biểu thức $E = |x + 2| + |x - 4|$ với $x$ là số nguyên.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khoảng cách giữa hai điểm biểu diễn số $-2$ và số $4$ trên trục số là 6 đơn vị.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng cao",
+            "text": "Với mọi số nguyên $x$, ta luôn có $|x + 2| + |x - 4| = |x + 2| + |4 - x| \\geq |x + 2 + 4 - x| = 6$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Giá trị nhỏ nhất của biểu thức $E$ bằng 6.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Biểu thức $E$ đạt giá trị nhỏ nhất khi và chỉ khi $x = 0$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số các số nguyên $x$ thỏa mãn $|x| < 20$.",
+        "answer": "39"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức $B = |x + 5| - 12$.",
+        "answer": "-12"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| \\leq 2$?",
+        "answer": "13"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ thỏa mãn $|x - 1| + |x - 3| = 2$. Có bao nhiêu giá trị nguyên của $x$?",
+        "answer": "3"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -2024 < x \\leq 2025\\}$.\na) Tập hợp $A$ có bao nhiêu phần tử?\nb) Tính tổng của tất cả các phần tử thuộc tập hợp $A$.",
+        "rubric": "a) Các phần tử của A từ -2023 đến 2025 (0.25đ). Số phần tử là: 2025 - (-2023) + 1 = 2025 + 2023 + 1 = 4049 phần tử (0.25đ).\nb) Tổng S = (-2023) + (-2022) + ... + 2023 + 2024 + 2025 (0.2đ). Các cặp số đối nhau từ -2023 đến 2023 có tổng bằng 0 (0.15đ). Vậy S = 2024 + 2025 = 4049 (0.15đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm tất cả các số nguyên $x$ thỏa mãn:\na) $|x - 2| = 5$.\nb) $|x + 1| \\leq 3$.",
+        "rubric": "a) x - 2 = 5 => x = 7; hoặc x - 2 = -5 => x = -3. Vậy x ∈ {7; -3} (0.5đ).\nb) |x + 1| ≤ 3 <=> -3 ≤ x + 1 ≤ 3 <=> -4 ≤ x ≤ 2 (0.3đ). Vì x ∈ Z nên x ∈ {-4; -3; -2; -1; 0; 1; 2} (0.2đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho 2025 số nguyên trong đó tích của 3 số bất kì luôn là một số âm. Chứng minh rằng:\na) Cả 2025 số nguyên đó đều là số âm.\nb) Tích của cả 2025 số nguyên đó là một số âm.",
+        "rubric": "a) Giả sử trong 2025 số có ít nhất 1 số không âm hoặc bằng 0:\n- Nếu có số 0 thì tích 3 số chứa số 0 sẽ bằng 0 (mâu thuẫn vì tích luôn âm) (0.2đ).\n- Nếu có số dương a > 0, lấy 2 số bất kì b, c thì tích a * b * c < 0 => b * c < 0 (luôn có 1 âm 1 dương). Mâu thuẫn nếu chọn cặp số cùng dương (0.3đ).\nVậy tất cả 2025 số đều phải là số âm (0.25đ).\nb) Tích của 2025 số âm (số lẻ các số âm) luôn là một số âm (0.25đ)."
+      }
+    ]
+  },
+  "c3_6_bai2_test1": {
+    "title": "Toán 6 (KNTT) - Bài 14: Phép cộng và phép trừ số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tổng của hai số nguyên âm luôn là:",
+        "options": [
+          "Một số nguyên âm",
+          "Một số nguyên dương",
+          "Số 0",
+          "Không xác định được dấu"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép tính $(-3) + (-5)$ là:",
+        "options": [
+          "$-8$",
+          "$8$",
+          "$-2$",
+          "$2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tổng của hai số nguyên đối nhau luôn bằng:",
+        "options": [
+          "$0$",
+          "$1$",
+          "$-1$",
+          "Hai lần số đó"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Muốn trừ số nguyên $a$ cho số nguyên $b$, ta làm như sau:",
+        "options": [
+          "Cộng $a$ với số đối của $b$",
+          "Lấy $b$ trừ đi $a$",
+          "Cộng $a$ với $b$",
+          "Lấy số đối của $a$ trừ đi $b$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép tính $5 - 9$ là:",
+        "options": [
+          "$-4$",
+          "$4$",
+          "$-14$",
+          "$14$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Tính chất nào sau đây là tính chất của phép cộng các số nguyên?",
+        "options": [
+          "Cả giao hoán, kết hợp và cộng với số 0",
+          "Chỉ có tính chất giao hoán",
+          "Chỉ có tính chất kết hợp",
+          "Không có tính chất kết hợp"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $(-12) + 7$ là:",
+        "options": [
+          "$-5$",
+          "$5$",
+          "$-19$",
+          "$19$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $15 + (-8)$ là:",
+        "options": [
+          "$7$",
+          "$-7$",
+          "$23$",
+          "$-23$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $(-6) - (-4)$ là:",
+        "options": [
+          "$-2$",
+          "$-10$",
+          "$2$",
+          "$10$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Nhiệt độ lúc 12 giờ trưa là $5^\\circ\\text{C}$, đến 20 giờ cùng ngày nhiệt độ giảm $8^\\circ\\text{C}$. Nhiệt độ lúc 20 giờ là:",
+        "options": [
+          "$-3^\\circ\\text{C}$",
+          "$3^\\circ\\text{C}$",
+          "$-13^\\circ\\text{C}$",
+          "$13^\\circ\\text{C}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên $x$ biết $x - 5 = -8$:",
+        "options": [
+          "$x = -3$",
+          "$x = 3$",
+          "$x = -13$",
+          "$x = 13$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Tính tổng $S = (-20) + 15 + 20$:",
+        "options": [
+          "$15$",
+          "$55$",
+          "$-15$",
+          "$0$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho các phép tính: $A = (-15) + (-25)$, $B = (-40) + 60$, $C = 20 - 35$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Giá trị của biểu thức $A$ là $-40$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị của biểu thức $B$ là $20$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Giá trị của biểu thức $C$ là $-15$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Tổng $A + B + C$ bằng $-5$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một tàu ngầm đang ở độ sâu $30\\text{ m}$ dưới mực nước biển (biểu diễn là $-30\\text{ m}$). Sau đó tàu nổi lên $12\\text{ m}$, rồi lại lặn sâu thêm $15\\text{ m}$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khi nổi lên 12m, độ cao mới của tàu là $(-30) + 12 = -18\\text{ m}$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "Khi lặn sâu thêm 15m, độ cao cuối cùng của tàu là $(-18) - 15 = -33\\text{ m}$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Sau hai lần di chuyển, vị trí của tàu sâu hơn vị trí ban đầu 3m.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Độ sâu cuối cùng của tàu là $45\\text{ m}$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính: $(-135) + (-65)$.",
+        "answer": "-200"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính: $250 - 320$.",
+        "answer": "-70"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ thỏa mãn: $x + 15 = -5$.",
+        "answer": "-20"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng các số nguyên $x$ thỏa mãn $-4 \\leq x \\leq 5$.",
+        "answer": "5"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính:\na) $(-28) + (-42)$.\nb) $(-35) + 15$.\nc) $18 - (-12)$.\nd) $(-25) - 15$.",
+        "rubric": "a) -(28 + 42) = -70 (0.25đ).\nb) -(35 - 15) = -20 (0.25đ).\nc) 18 + 12 = 30 (0.25đ).\nd) (-25) + (-15) = -40 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính một cách hợp lí:\na) $A = (-125) + 48 + 125$.\nb) $B = 37 + (-15) + (-37) + 65$.",
+        "rubric": "a) A = [(-125) + 125] + 48 = 0 + 48 = 48 (0.5đ).\nb) B = [37 + (-37)] + [(-15) + 65] = 0 + 50 = 50 (0.5đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tài khoản ngân hàng của cô Lan có số dư ban đầu là $5\\,000\\,000$ đồng. Trong tuần, cô thực hiện các giao dịch:\n- Ngày thứ Hai: Nộp thêm $2\\,000\\,000$ đồng.\n- Ngày thứ Tư: Rút ra $3\\,500\\,000$ đồng để chi tiêu.\n- Ngày thứ Sáu: Thanh toán hóa đơn tiền điện $800\\,000$ đồng.\nHỏi số dư trong tài khoản của cô Lan vào cuối tuần là bao nhiêu đồng?",
+        "rubric": "Số tiền sau ngày thứ Hai: 5 000 000 + 2 000 000 = 7 000 000 đồng (0.3đ).\nSố tiền sau ngày thứ Tư: 7 000 000 - 3 500 000 = 3 500 000 đồng (0.3đ).\nSố dư cuối tuần: 3 500 000 - 800 000 = 2 700 000 đồng (0.4đ)."
+      }
+    ]
+  },
+  "c3_6_bai2_test2": {
+    "title": "Toán 6 (KNTT) - Bài 14: Phép cộng và phép trừ số nguyên - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức $P = (-120) + 45 - (-120) + (-55)$:",
+        "options": [
+          "$-10$",
+          "$10$",
+          "$-250$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ biết $15 - (x + 2) = -3$:",
+        "options": [
+          "$x = 16$",
+          "$x = 10$",
+          "$x = -16$",
+          "$x = 14$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Cho $a = -15, b = -8$. Giá trị của $a - b$ là:",
+        "options": [
+          "$-7$",
+          "$7$",
+          "$-23$",
+          "$23$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Tổng của số nguyên âm nhỏ nhất có hai chữ số và số nguyên dương lớn nhất có hai chữ số là:",
+        "options": [
+          "$0$",
+          "$-1$",
+          "$1$",
+          "$-198$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Cho $x \\in \\mathbb{Z}$ thỏa mãn $-7 < x < 5$. Tổng tất cả các giá trị của $x$ là:",
+        "options": [
+          "$-11$",
+          "$-6$",
+          "$-18$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng $S = 1 - 2 + 3 - 4 + 5 - 6 + \\dots + 99 - 100$:",
+        "options": [
+          "$-50$",
+          "$50$",
+          "$-100$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng thấp",
+        "question": "Tìm $x$ thỏa mãn $|x| - 5 = -2$:",
+        "options": [
+          "$x = 3$ hoặc $x = -3$",
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 7$ hoặc $x = -7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng thấp",
+        "question": "Một người bán hàng bị lỗ $300\\,000$ đồng trong đợt 1, đợt 2 lãi $500\\,000$ đồng, đợt 3 bị lỗ $150\\,000$ đồng. Tổng kết cả 3 đợt người đó:",
+        "options": [
+          "Lãi $50\\,000$ đồng",
+          "Lỗ $50\\,000$ đồng",
+          "Lãi $650\\,000$ đồng",
+          "Hòa vốn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng thấp",
+        "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a - b = 5$ thì $b - a$ bằng:",
+        "options": [
+          "$-5$",
+          "$5$",
+          "$0$",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng $A = (-1) + 2 + (-3) + 4 + \\dots + (-19) + 20$:",
+        "options": [
+          "$10$",
+          "$-10$",
+          "$20$",
+          "$-20$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng thấp",
+        "question": "Tìm $x$ nguyên biết $(x - 3) + (-12) = -8$:",
+        "options": [
+          "$x = 7$",
+          "$x = -17$",
+          "$x = 1$",
+          "$x = -1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng thấp",
+        "question": "Nhiệt độ phòng đông lạnh lúc đầu là $-6^\\circ\\text{C}$. Nếu tăng thêm $4^\\circ\\text{C}$ rồi sau đó lại giảm đi $7^\\circ\\text{C}$ thì nhiệt độ mới là:",
+        "options": [
+          "$-9^\\circ\\text{C}$",
+          "$-5^\\circ\\text{C}$",
+          "$-17^\\circ\\text{C}$",
+          "$5^\\circ\\text{C}$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $A = 125 + (-48) - 125 + 48 - (-20)$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Áp dụng tính chất giao hoán và kết hợp: $[125 + (-125)] + [(-48) + 48] = 0 + 0 = 0$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phép trừ số nguyên âm: $- (-20) = + 20$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức $A$ là 20.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Biểu thức $A$ nhận giá trị âm.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho dãy số: $S = 2 - 4 + 6 - 8 + 10 - 12 + \\dots + 98 - 100$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Dãy số có tất cả $(100 - 2) : 2 + 1 = 50$ số hạng.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Ghép thành 25 cặp, mỗi cặp có giá trị bằng $-2$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của tổng $S$ là $25 \\cdot (-2) = -50$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Nếu cộng thêm số 102 vào cuối dãy thì giá trị mới là $52$.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức: $M = (-250) + 180 + (-50) + 120$.",
+        "answer": "0"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm $x$ biết: $x - (-18) = 10 + (-15)$.",
+        "answer": "-23"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng: $S = 1 - 3 + 5 - 7 + 9 - 11 + 13 - 15$.",
+        "answer": "-8"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ sao cho $x + (-12) = -(-25)$.",
+        "answer": "37"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lí giá trị các biểu thức sau:\na) $A = (-312) + 198 + (-188) + 302$.\nb) $B = 45 - (-15) + (-20) - 40$.",
+        "rubric": "a) A = [(-312) + (-188)] + (198 + 302) = -500 + 500 = 0 (0.5đ).\nb) B = 45 + 15 + (-20) - 40 = 60 - 60 = 0 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết:\na) $x + 12 = -8$.\nb) $25 - (x - 3) = -10$.\nc) $|x - 1| = 4$.",
+        "rubric": "a) x = -8 - 12 = -20 (0.3đ).\nb) x - 3 = 25 - (-10) = 35 => x = 35 + 3 = 38 (0.35đ).\nc) x - 1 = 4 => x = 5 hoặc x - 1 = -4 => x = -3. Vậy x ∈ {5; -3} (0.35đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng của tất cả các số nguyên $x$ thỏa mãn:\na) $-10 < x \\leq 10$.\nb) $-15 \\leq x < 12$.",
+        "rubric": "a) x ∈ {-9; -8; ...; 8; 9; 10}. Tổng S = [(-9) + 9] + ... + [(-1) + 1] + 0 + 10 = 10 (0.5đ).\nb) x ∈ {-15; -14; ...; 10; 11}. Các số từ -11 đến 11 có tổng bằng 0. Còn lại: (-15) + (-14) + (-13) + (-12) = -54 (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai2_test3": {
+    "title": "Toán 6 (KNTT) - Bài 14: Phép cộng và phép trừ số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a + b < a$ thì:",
+        "options": [
+          "$b < 0$",
+          "$b > 0$",
+          "$b = 0$",
+          "$a < 0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a - b > a$ thì:",
+        "options": [
+          "$b < 0$",
+          "$b > 0$",
+          "$b = 0$",
+          "$a > 0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x + 2| + 10$:",
+        "options": [
+          "$10$",
+          "$2$",
+          "$0$",
+          "$12$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng $S = 1 - 4 + 7 - 10 + 13 - 16 + \\dots + 97 - 100$:",
+        "options": [
+          "$-51$",
+          "$-50$",
+          "$51$",
+          "$-48$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ thỏa mãn $|x + 3| + |y - 2| = 0$:",
+        "options": [
+          "$x = -3, y = 2$",
+          "$x = 3, y = -2$",
+          "$x = 0, y = 0$",
+          "Vô số cặp"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng cao",
+        "question": "Cho $a, b, c \\in \\mathbb{Z}$ thỏa mãn $a + b = 5, b + c = 12, c + a = 7$. Giá trị của $a + b + c$ bằng:",
+        "options": [
+          "$12$",
+          "$24$",
+          "$6$",
+          "$14$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị lớn nhất của biểu thức $M = 20 - |x - 4|$:",
+        "options": [
+          "$20$",
+          "$16$",
+          "$24$",
+          "$4$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| = 3$?",
+        "options": [
+          "$12$",
+          "$8$",
+          "$16$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Cho dãy số: $x_1, x_2, \\dots, x_{2025}$ sao cho tổng của 3 số bất kì liên tiếp luôn bằng $4$. Biết $x_1 = 5, x_2 = -3$. Giá trị của $x_{2025}$ là:",
+        "options": [
+          "$2$",
+          "$5$",
+          "$-3$",
+          "$4$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Cho $a$ và $b$ là hai số nguyên khác 0 thỏa mãn $a + b = 0$. Giá trị của biểu thức $\\frac{a}{|b|} + \\frac{b}{|a|}$ bằng:",
+        "options": [
+          "$-2$",
+          "$0$",
+          "$2$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng $S = 100 - 99 + 98 - 97 + \\dots + 2 - 1$:",
+        "options": [
+          "$50$",
+          "$100$",
+          "$-50$",
+          "$25$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Cho $x, y \\in \\mathbb{Z}$ thỏa mãn $|x - y| = 1$. Giá trị của biểu thức $(x - y)^2$ bằng:",
+        "options": [
+          "$1$",
+          "$-1$",
+          "$0$",
+          "$2$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho ba số nguyên $a, b, c$ thỏa mãn $a - b = 7$ và $b - c = -11$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Cộng hai vế ta được: $(a - b) + (b - c) = a - c$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị của $a - c = 7 + (-11) = -4$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Do $a - c = -4$ nên $a < c$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Thứ tự tăng dần của ba số là $a < b < c$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Xét biểu thức $S = |x - 2| + |x + 5|$ với $x \\in \\mathbb{Z}$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khoảng cách giữa hai điểm $-5$ và $2$ trên trục số bằng $2 - (-5) = 7$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng cao",
+            "text": "Áp dụng bất đẳng thức trị tuyệt đối: $|x - 2| + |x + 5| = |2 - x| + |x + 5| \\geq |2 - x + x + 5| = 7$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Giá trị nhỏ nhất của $S$ bằng $7$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Giá trị nhỏ nhất đạt được với mọi số nguyên $x$ thỏa mãn $-5 \\leq x \\leq 2$ (có 8 giá trị nguyên).",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng $S = 1 - 2 - 3 + 4 + 5 - 6 - 7 + 8 + \\dots + 97 - 98 - 99 + 100$.",
+        "answer": "0"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ sao cho biểu thức $P = 15 - |x + 4|$ đạt giá trị lớn nhất.",
+        "answer": "-4"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho $a + b = -2$ và $b + c = 5$ và $c + a = 1$. Tính giá trị của $a + b + c$.",
+        "answer": "2"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| = 2$?",
+        "answer": "8"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng một cách hợp lí:\n$S = 1 + (-2) + 3 + (-4) + 5 + (-6) + \\dots + 2023 + (-2024) + 2025$.",
+        "rubric": "Dãy có 2025 số hạng. Ta nhóm các cặp số từ đầu:\nS = [1 + (-2)] + [3 + (-4)] + ... + [2023 + (-2024)] + 2025 (0.35đ).\nTừ 1 đến 2024 có 2024 : 2 = 1012 cặp, mỗi cặp có giá trị bằng -1 (0.35đ).\nS = 1012 * (-1) + 2025 = -1012 + 2025 = 1013 (0.3đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm các số nguyên $x, y$ thỏa mãn:\na) $|x - 3| + |y + 1| = 0$.\nb) $|x| + |y| = 1$.",
+        "rubric": "a) Vì |x - 3| ≥ 0 và |y + 1| ≥ 0 với mọi x, y nên để tổng bằng 0 thì:\n|x - 3| = 0 => x = 3; và |y + 1| = 0 => y = -1. Vậy (x; y) = (3; -1) (0.5đ).\nb) Vì |x|, |y| ≥ 0 và x, y ∈ Z nên:\nTH1: |x| = 0, |y| = 1 => x = 0, y = ±1 (0.25đ).\nTH2: |x| = 1, |y| = 0 => x = ±1, y = 0 (0.25đ).\nVậy có 4 cặp (x; y): (0; 1), (0; -1), (1; 0), (-1; 0)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho $x_1 + x_2 + x_3 + \\dots + x_{50} + x_{51} = 0$.\nBiết rằng $x_1 + x_2 = x_3 + x_4 = \\dots = x_{49} + x_{50} = 1$.\nTính giá trị của số nguyên $x_{51}$.",
+        "rubric": "Từ x_1 đến x_50 có 50 số, chia thành 25 cặp liên tiếp dạng (x_{2k-1} + x_{2k}) (0.35đ).\nTổng của 50 số đầu là: (x_1 + x_2) + (x_3 + x_4) + ... + (x_{49} + x_{50}) = 25 * 1 = 25 (0.35đ).\nTheo đề bài: (x_1 + x_2 + ... + x_{50}) + x_{51} = 0 => 25 + x_{51} = 0 => x_{51} = -25 (0.3đ)."
+      }
+    ]
+  },
+  "c3_6_bai3_test1": {
+    "title": "Toán 6 (KNTT) - Bài 15: Quy tắc dấu ngoặc - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Khi bỏ dấu ngoặc có dấu \"+\" đằng trước, ta làm như sau:",
+        "options": [
+          "Giữ nguyên dấu của các số hạng trong ngoặc",
+          "Đổi dấu tất cả các số hạng trong ngoặc",
+          "Đổi dấu số hạng đầu tiên",
+          "Đổi dấu số hạng cuối cùng"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Khi bỏ dấu ngoặc có dấu \"-\" đằng trước, ta làm như sau:",
+        "options": [
+          "Đổi dấu tất cả các số hạng trong ngoặc",
+          "Giữ nguyên dấu của các số hạng trong ngoặc",
+          "Chỉ đổi dấu số hạng mang dấu trừ",
+          "Chỉ đổi dấu số hạng đầu tiên"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Bỏ dấu ngoặc biểu thức $-(a - b + c)$ ta được:",
+        "options": [
+          "$-a + b - c$",
+          "$-a - b + c$",
+          "$-a - b - c$",
+          "$a - b + c$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Bỏ dấu ngoặc biểu thức $+(x - y + z)$ ta được:",
+        "options": [
+          "$x - y + z$",
+          "$-x + y - z$",
+          "$x + y + z$",
+          "$-x - y + z$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Biểu thức $a - (b + c)$ bằng biểu thức nào sau đây?",
+        "options": [
+          "$a - b - c$",
+          "$a - b + c$",
+          "$a + b - c$",
+          "$a + b + c$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Đặt dấu ngoặc có dấu \"-\" đằng trước cho biểu thức $-x + y - z$ ta được:",
+        "options": [
+          "$-(x - y + z)$",
+          "$-(x + y - z)$",
+          "$-(-x - y + z)$",
+          "$-(x + y + z)$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lí: $A = 215 - (115 + 40)$:",
+        "options": [
+          "$60$",
+          "$140$",
+          "$160$",
+          "$50$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Rút gọn biểu thức $M = (a + b) - (a - b)$:",
+        "options": [
+          "$2b$",
+          "$2a$",
+          "$0$",
+          "$a + 2b$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $(-35) - (20 - 35)$ là:",
+        "options": [
+          "$-20$",
+          "$20$",
+          "$-50$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Tính $B = (123 - 45) - (123 + 55)$:",
+        "options": [
+          "$-100$",
+          "$100$",
+          "$10$",
+          "$-10$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ biết $x - (12 - 5) = -10$:",
+        "options": [
+          "$x = -3$",
+          "$x = 3$",
+          "$x = -17$",
+          "$x = 17$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $P = -(15 - 28) - 28$ bằng:",
+        "options": [
+          "$-15$",
+          "$15$",
+          "$41$",
+          "$-41$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $A = (27 + 65) + (346 - 27 - 65)$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Bỏ dấu ngoặc ta được $A = 27 + 65 + 346 - 27 - 65$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nhóm các số hạng đối nhau: $(27 - 27) + (65 - 65) = 0$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức $A$ là $346$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Nếu thay $346$ bằng $-100$ thì giá trị của $A$ bằng $100$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho biểu thức $B = (a - b) - (c - d) + (b + c)$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Bỏ dấu ngoặc đúng: $B = a - b - c + d + b + c$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Các số hạng đối nhau triệt tiêu: $(-b + b) = 0$ và $(-c + c) = 0$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Biểu thức rút gọn là $B = a + d$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Khi $a = 15, d = -5$ thì giá trị của $B$ bằng $20$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức: $S = (123 - 45) - 123$.",
+        "answer": "-45"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Rút gọn biểu thức $P = x - (x - y) + (y - z) + z$. Kết quả bằng mấy $y$?",
+        "answer": "2"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính: $A = (15 - 28) - (15 - 28 + 42)$.",
+        "answer": "-42"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết $25 - (x + 5) = -10$.",
+        "answer": "30"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Bỏ dấu ngoặc rồi tính giá trị của các biểu thức sau:\na) $A = (135 - 47) - (135 - 47 + 50)$.\nb) $B = -(24 - 115) + (35 - 115)$.",
+        "rubric": "a) A = 135 - 47 - 135 + 47 - 50 = (135 - 135) + (-47 + 47) - 50 = -50 (0.5đ).\nb) B = -24 + 115 + 35 - 115 = (115 - 115) + (35 - 24) = 11 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Rút gọn các biểu thức sau:\na) $M = (a + b - c) - (b - c + d)$.\nb) $N = -(x - y + z) + (x + y - z) - (y - z)$.",
+        "rubric": "a) M = a + b - c - b + c - d = a + (b - b) + (-c + c) - d = a - d (0.5đ).\nb) N = -x + y - z + x + y - z - y + z = (-x + x) + (y + y - y) + (-z - z + z) = y - z (0.5đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết:\na) $15 - (x - 7) = -8$.\nb) $(x - 3) - (2x + 5) = 10$.",
+        "rubric": "a) 15 - x + 7 = -8 => 22 - x = -8 => x = 22 - (-8) = 30 (0.5đ).\nb) x - 3 - 2x - 5 = 10 => -x - 8 = 10 => -x = 18 => x = -18 (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai3_test2": {
+    "title": "Toán 6 (KNTT) - Bài 15: Quy tắc dấu ngoặc - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của $P = (12 - 34 + 56) - (56 + 12 - 34)$:",
+        "options": [
+          "$0$",
+          "$24$",
+          "$-68$",
+          "$112$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho $M = a - (b - c)$ và $N = (a - b) + c$. Khẳng định nào sau đây là đúng?",
+        "options": [
+          "$M = N$",
+          "$M = -N$",
+          "$M = N - 2c$",
+          "$M = N + 2b$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Rút gọn biểu thức $A = -(a - b - c) - (-a + b + c)$:",
+        "options": [
+          "$0$",
+          "$-2a + 2b + 2c$",
+          "$2b + 2c$",
+          "$-2a$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Tính $S = (2024 - 15) - (2024 - 35)$:",
+        "options": [
+          "$20$",
+          "$-20$",
+          "$50$",
+          "$-50$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ biết $(x - 4) - (12 - 4) = -20$:",
+        "options": [
+          "$x = -8$",
+          "$x = 8$",
+          "$x = -12$",
+          "$x = 12$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Cho $a - b = 5$. Giá trị của biểu thức $P = (a + c) - (b + c)$ là:",
+        "options": [
+          "$5$",
+          "$5 + 2c$",
+          "$-5$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng $A = (1 - 2) + (3 - 4) + (5 - 6) + \\dots + (99 - 100)$:",
+        "options": [
+          "$-50$",
+          "$50$",
+          "$-100$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng thấp",
+        "question": "Rút gọn $K = (x + y - z) - (x - y + z) - (y + z)$:",
+        "options": [
+          "$y - 3z$",
+          "$y + z$",
+          "$3y - z$",
+          "$-3z$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng thấp",
+        "question": "Cho $x - y = -3$. Giá trị của $Q = (x + 2) - (y - 5)$ là:",
+        "options": [
+          "$4$",
+          "$-4$",
+          "$-6$",
+          "$10$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng thấp",
+        "question": "Tính $M = [12 - (-15 + 4)] - (12 + 15 - 4)$:",
+        "options": [
+          "$0$",
+          "$22$",
+          "$-22$",
+          "$30$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết $10 - [x - (5 - 2)] = 15$:",
+        "options": [
+          "$-2$",
+          "$2$",
+          "$8$",
+          "$-8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng thấp",
+        "question": "Biểu thức $-(x - y - z) + (x - y - z)$ rút gọn được:",
+        "options": [
+          "$0$",
+          "$-2x + 2y + 2z$",
+          "$2y + 2z$",
+          "$-2x$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $P = (a - b + c) - (a + c - b) + (b - c)$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Bỏ ngoặc hai nhóm đầu: $(a - b + c) - (a + c - b) = a - b + c - a - c + b = 0$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Biểu thức $P$ rút gọn thành $P = b - c$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Khi $b = 12, c = 20$ thì giá trị của $P$ bằng $-8$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức $P$ phụ thuộc vào giá trị của biến $a$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho ba số nguyên $x, y, z$ thỏa mãn $x - y = 8$ và $y - z = -5$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Xét hiệu $(x - y) + (y - z) = x - z$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị của $x - z = 8 + (-5) = 3$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Biểu thức $K = (x - z) + (z - y)$ có giá trị bằng $8$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Ta có $x < y < z$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính $S = (45 - 3750) - (29 - 3750)$.",
+        "answer": "16"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm $x$ biết: $(x + 12) - (15 - 20) = -8$.",
+        "answer": "-25"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Cho $a - b = 10$. Tính giá trị của biểu thức $(a + 5) - (b - 5)$.",
+        "answer": "20"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Rút gọn $A = -(x - y) - (y - z) - (z - x)$. Kết quả bằng bao nhiêu?",
+        "answer": "0"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính một cách hợp lí:\na) $A = (27 + 65) + (346 - 27 - 65)$.\nb) $B = (42 - 69 + 17) - (42 + 17)$.",
+        "rubric": "a) A = 27 + 65 + 346 - 27 - 65 = (27 - 27) + (65 - 65) + 346 = 346 (0.5đ).\nb) B = 42 - 69 + 17 - 42 - 17 = (42 - 42) + (17 - 17) - 69 = -69 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Chứng minh rằng giá trị của biểu thức sau không phụ thuộc vào giá trị của biến:\n$P = (a + b - c) - (b - c + d) + (c + d - a) - c$.",
+        "rubric": "Bỏ dấu ngoặc:\nP = a + b - c - b + c - d + c + d - a - c (0.4đ).\nNhóm các số hạng đồng dạng:\nP = (a - a) + (b - b) + (-c + c + c - c) + (-d + d) (0.4đ)\nP = 0 + 0 + 0 + 0 = 0 (0.2đ).\nVậy biểu thức P luôn bằng 0, không phụ thuộc vào các biến a, b, c, d."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết:\na) $(x - 5) - (2x + 3) = -12$.\nb) $18 - [x - (3 - 7)] = -5$.",
+        "rubric": "a) x - 5 - 2x - 3 = -12 => -x - 8 = -12 => -x = -4 => x = 4 (0.5đ).\nb) 18 - [x - (-4)] = -5 => 18 - (x + 4) = -5 => 18 - x - 4 = -5 => 14 - x = -5 => x = 19 (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai3_test3": {
+    "title": "Toán 6 (KNTT) - Bài 15: Quy tắc dấu ngoặc - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho $S_n = (1 - 2) + (3 - 4) + \\dots + [(2n - 1) - 2n]$. Biểu thức rút gọn của $S_n$ theo $n$ là:",
+        "options": [
+          "$-n$",
+          "$n$",
+          "$-2n$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Rút gọn biểu thức $A = -[-(-a + b) - (c - d)] - (a + d)$:",
+        "options": [
+          "$-b + c$",
+          "$b - c$",
+          "$2a - b + c$",
+          "$-2a + b - c$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Cho $a + b - c = 20$. Giá trị của biểu thức $M = (a + 5) - (c - 8) + (b - 3)$ là:",
+        "options": [
+          "$30$",
+          "$10$",
+          "$25$",
+          "$14$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm $x$ biết $x - \\{x - [x - (x - 1)]\\} = 0$:",
+        "options": [
+          "$x = 1$",
+          "$x = 0$",
+          "$x = -1$",
+          "Vô số $x$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Cho các số nguyên $a, b, c, d$ thỏa mãn $a + b = c + d$. Khi đó $(a - c) - (d - b)$ bằng:",
+        "options": [
+          "$0$",
+          "$2a$",
+          "$2d$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng cao",
+        "question": "Cho $A = 1 - 2 + 3 - 4 + \\dots + 2023 - 2024$. Giá trị của $2024 - A$ bằng:",
+        "options": [
+          "$3036$",
+          "$1012$",
+          "$2024$",
+          "$-1012$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng cao",
+        "question": "Biết $(x - y + z) - (x + y - z) = 10$. Hiệu $z - y$ bằng:",
+        "options": [
+          "$5$",
+          "$10$",
+          "$-5$",
+          "$-10$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị nhỏ nhất của $A = |x - 1| - (x - 1)$ khi $x \\leq 1$:",
+        "options": [
+          "$2(1 - x)$",
+          "$0$",
+          "$1$",
+          "$-2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Cho $S = a_1 - a_2 + a_3 - a_4 + \\dots + a_{99} - a_{100}$. Nếu đổi dấu tất cả các số hạng của $S$ thì tổng mới bằng:",
+        "options": [
+          "$-S$",
+          "$S$",
+          "$0$",
+          "$2S$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Cho 4 số nguyên $a, b, c, d$. Nếu $(a - b) + (c - d) = (a + c) - (b + d)$ thì đẳng thức này:",
+        "options": [
+          "Luôn đúng với mọi $a, b, c, d$",
+          "Chỉ đúng khi $a = b = c = d$",
+          "Chỉ đúng khi $a = b$",
+          "Chỉ đúng khi $c = d$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Tìm $x$ biết: $(x - 1) - (x - 2) + (x - 3) - (x - 4) + \\dots + (x - 99) - (x - 100) = x$:",
+        "options": [
+          "$x = 50$",
+          "$x = -50$",
+          "$x = 100$",
+          "$x = 0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Cho biểu thức $P = -(a - b - c) - [(-a + b) - (c - d)] - d$. Giá trị của $P$ là:",
+        "options": [
+          "$0$",
+          "$2a$",
+          "$2b$",
+          "$2c$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho dãy biểu thức $T = (a_1 - a_2) + (a_2 - a_3) + (a_3 - a_4) + \\dots + (a_{2024} - a_{2025})$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khi bỏ dấu ngoặc, các số hạng trung gian $a_2, a_3, \\dots, a_{2024}$ đều xuất hiện một lần mang dấu trừ và một lần mang dấu cộng.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "Tất cả các số hạng trung gian bị triệt tiêu từng đôi một.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Biểu thức thu gọn cuối cùng là $T = a_1 - a_{2025}$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Nếu $a_1 = a_{2025}$ thì giá trị của $T$ luôn bằng $1$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho ba số nguyên $a, b, c$. Xét biểu thức $M = a(b - c) - a(b + d) + ad$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Áp dụng tính chất phân phối: $a(b - c) = ab - ac$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Ta có $a(b + d) = ab + ad$, khi có dấu trừ đằng trước đổi thành $-ab - ad$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Khai triển và rút gọn: $M = ab - ac - ab - ad + ad = -ac$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Khi $a = 5, c = -4$ thì giá trị của $M$ bằng $-20$.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng thấp",
+        "question": "Tính giá trị của biểu thức $A = (1 - 2) + (3 - 4) + \\dots + (2023 - 2024)$.",
+        "answer": "-1012"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Cho $a - b = -5$ và $c - d = 12$. Tính giá trị của $(a - d) - (b - c)$.",
+        "answer": "7"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ thỏa mãn: $1 - (2 - (3 - (4 - x))) = 10$.",
+        "answer": "12"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Rút gọn biểu thức $S = (a + b) - (b - c) + (c - d) - (d - a)$. Kết quả bằng mấy lần của $(a + c - d)$?",
+        "answer": "2"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Cho biểu thức $A = (a - b + c) - (a + c - b) + (b - c) - (b + c)$.\na) Rút gọn biểu thức $A$.\nb) Tính giá trị của $A$ biết $c = -15$.",
+        "rubric": "a) Bỏ dấu ngoặc:\nA = a - b + c - a - c + b + b - c - b - c (0.3đ)\n= (a - a) + (-b + b + b - b) + (c - c - c - c) (0.3đ)\n= 0 + 0 - 2c = -2c (0.2đ).\nb) Với c = -15: A = -2 * (-15) = 30 (0.2đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng sau một cách khoa học:\n$S = (1 - 2 - 3 + 4) + (5 - 6 - 7 + 8) + \\dots + (2021 - 2022 - 2023 + 2024)$.",
+        "rubric": "Xét nhóm tổng quát 4 số liên tiếp:\nk - (k + 1) - (k + 2) + (k + 3) = k - k - 1 - k - 2 + k + 3 = (k - k - k + k) + (-1 - 2 + 3) = 0 (0.4đ).\nTổng S gồm các nhóm 4 số hạng có giá trị đều bằng 0 (0.3đ).\nTừ 1 đến 2024 có 2024 số, chia thành 2024 : 4 = 506 nhóm (0.15đ).\nVậy S = 506 * 0 = 0 (0.15đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ thỏa mãn:\n$(x - 1) + (x - 2) + (x - 3) + \\dots + (x - 20) = -110$.",
+        "rubric": "Phá dấu ngoặc: có 20 số x và tổng các số từ 1 đến 20 (0.3đ).\n(x + x + ... + x) - (1 + 2 + 3 + ... + 20) = -110 (0.25đ).\n20x - (20 * 21 : 2) = -110 => 20x - 210 = -110 (0.25đ).\n20x = 210 - 110 = 100 => x = 100 : 20 = 5 (0.2đ)."
+      }
+    ]
+  },
+  "c3_6_bai4_test1": {
+    "title": "Toán 6 (KNTT) - Bài 16: Phép nhân số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tích của hai số nguyên cùng dấu luôn là:",
+        "options": [
+          "Một số nguyên dương",
+          "Một số nguyên âm",
+          "Số 0",
+          "Tùy thuộc vào độ lớn của hai số"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Tích của hai số nguyên khác dấu luôn là:",
+        "options": [
+          "Một số nguyên âm",
+          "Một số nguyên dương",
+          "Số 0",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép nhân $(-4) \\cdot (-5)$ là:",
+        "options": [
+          "$20$",
+          "$-20$",
+          "$-9$",
+          "$9$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép nhân $(-6) \\cdot 7$ là:",
+        "options": [
+          "$-42$",
+          "$42$",
+          "$-13$",
+          "$13$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Tích của bất kì số nguyên $a$ nào với số 0 đều bằng:",
+        "options": [
+          "$0$",
+          "$a$",
+          "$-a$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Khi nhân một số nguyên $a$ với $-1$, ta được:",
+        "options": [
+          "Số đối của $a$ (tức là $-a$)",
+          "$a$",
+          "$1$",
+          "$-1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tính: $(-2) \\cdot (-3) \\cdot (-4)$:",
+        "options": [
+          "$-24$",
+          "$24$",
+          "$-9$",
+          "$9$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tích của ba số nguyên âm và hai số nguyên dương là:",
+        "options": [
+          "Một số nguyên âm",
+          "Một số nguyên dương",
+          "Số 0",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $(-5)^2$ là:",
+        "options": [
+          "$25$",
+          "$-25$",
+          "$-10$",
+          "$10$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $(-2)^3$ là:",
+        "options": [
+          "$-8$",
+          "$8$",
+          "$-6$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Tính nhanh: $(-25) \\cdot 12 \\cdot (-4)$:",
+        "options": [
+          "$1200$",
+          "$-1200$",
+          "$300$",
+          "$-300$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên $x$ biết $3 \\cdot x = -15$:",
+        "options": [
+          "$x = -5$",
+          "$x = 5$",
+          "$x = -18$",
+          "$x = -12$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho các biểu thức: $A = (-4) \\cdot (-25) \\cdot 7$, $B = (-12) \\cdot 5 \\cdot (-2)$, $C = (-8) \\cdot 125$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biểu thức $A = 100 \\cdot 7 = 700$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Biểu thức $B = (-60) \\cdot (-2) = 120$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Biểu thức $C = -1000$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Trong ba biểu thức trên, chỉ có duy nhất biểu thức $C$ mang giá trị âm.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một xí nghiệp may mỗi ngày sản xuất được $250$ bộ quần áo. Do gặp sự cố mất điện, trong 4 ngày liên tiếp mỗi ngày sản xuất giảm đi $30$ bộ (biểu diễn là $-30$).",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Số lượng quần áo bị giảm trong 4 ngày được tính bằng phép nhân $4 \\cdot (-30)$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Kết quả của phép tính $4 \\cdot (-30) = -120$ bộ quần áo.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Trong 4 ngày gặp sự cố, tổng số bộ quần áo thực tế may được là $880$ bộ.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Năng suất mỗi ngày gặp sự cố là $280$ bộ.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính: $(-15) \\cdot (-4) \\cdot 2$.",
+        "answer": "120"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của lũy thừa $(-3)^4$.",
+        "answer": "81"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết: $(-5) \\cdot x = 45$.",
+        "answer": "-9"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tính nhanh: $47 \\cdot (-25) + 53 \\cdot (-25)$.",
+        "answer": "-2500"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính:\na) $(-12) \\cdot (-5)$.\nb) $18 \\cdot (-4)$.\nc) $(-2)^2 \\cdot (-3)^2$.\nd) $(-1)^{2024} + (-1)^{2025}$.",
+        "rubric": "a) 60 (0.25đ).\nb) -72 (0.25đ).\nc) 4 * 9 = 36 (0.25đ).\nd) 1 + (-1) = 0 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính một cách hợp lí:\na) $A = (-8) \\cdot 25 \\cdot (-125) \\cdot 4$.\nb) $B = 35 \\cdot (-18) + 35 \\cdot (-82)$.",
+        "rubric": "a) A = [(-8) * (-125)] * (25 * 4) = 1000 * 100 = 100000 (0.5đ).\nb) B = 35 * [(-18) + (-82)] = 35 * (-100) = -3500 (0.5đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết:\na) $4 \\cdot (x - 3) = -20$.\nb) $(-2) \\cdot x + 15 = -5$.",
+        "rubric": "a) x - 3 = -20 : 4 = -5 => x = -5 + 3 = -2 (0.5đ).\nb) (-2) * x = -5 - 15 = -20 => x = -20 : (-2) = 10 (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai4_test2": {
+    "title": "Toán 6 (KNTT) - Bài 16: Phép nhân số nguyên - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tích của 2025 số nguyên âm là:",
+        "options": [
+          "Một số nguyên âm",
+          "Một số nguyên dương",
+          "Số 0",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính $P = 125 \\cdot (-8) \\cdot (-4) \\cdot 25$:",
+        "options": [
+          "$100000$",
+          "$-100000$",
+          "$10000$",
+          "$-10000$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Cho $a \\cdot b > 0$ và $a + b < 0$. Khi đó:",
+        "options": [
+          "Cả $a$ và $b$ đều là số nguyên âm",
+          "Cả $a$ và $b$ đều là số nguyên dương",
+          "$a$ âm và $b$ dương",
+          "$a$ dương và $b$ âm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $A = (-2) \\cdot (-3)^2 \\cdot (-5)$ là:",
+        "options": [
+          "$90$",
+          "$-90$",
+          "$180$",
+          "$-180$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ biết $(x + 2)(x - 3) = 0$:",
+        "options": [
+          "$x = -2$ hoặc $x = 3$",
+          "$x = 2$ hoặc $x = -3$",
+          "$x = -2$",
+          "$x = 3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Tính nhanh: $B = 29 \\cdot (-13) + 27 \\cdot (-13) + (-13) \\cdot 44$:",
+        "options": [
+          "$-1300$",
+          "$1300$",
+          "$-130$",
+          "$2600$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng thấp",
+        "question": "Cho $x$ là số nguyên thỏa mãn $x^2 = 49$. Khi đó $x$ bằng:",
+        "options": [
+          "$7$ hoặc $-7$",
+          "Chỉ $7$",
+          "Chỉ $-7$",
+          "Không có giá trị nào"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ sao cho $(x - 1)^3 = -27$:",
+        "options": [
+          "$x = -2$",
+          "$x = 4$",
+          "$x = -4$",
+          "$x = 2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng thấp",
+        "question": "Một kho lạnh đang ở nhiệt độ $2^\\circ\\text{C}$. Người ta cài đặt để nhiệt độ giảm đều $3^\\circ\\text{C}$ mỗi giờ. Sau 5 giờ, nhiệt độ của kho lạnh là:",
+        "options": [
+          "$-13^\\circ\\text{C}$",
+          "$-15^\\circ\\text{C}$",
+          "$-17^\\circ\\text{C}$",
+          "$-10^\\circ\\text{C}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng thấp",
+        "question": "Biết $a \\cdot b = -24$ và $a < b < 0$. Điều này có thể xảy ra không?",
+        "options": [
+          "Không thể xảy ra vì tích hai số âm luôn dương",
+          "Có thể xảy ra",
+          "Chỉ xảy ra khi $a = -24$",
+          "Chỉ xảy ra khi $b = -1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng thấp",
+        "question": "Cho biểu thức $M = a(b - c) - b(a - c)$. Rút gọn $M$ ta được:",
+        "options": [
+          "$c(b - a)$",
+          "$c(a - b)$",
+          "$ab - c$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y = 5$?",
+        "options": [
+          "$4$ cặp",
+          "$2$ cặp",
+          "$1$ cặp",
+          "Vô số"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $A = (-4) \\cdot (x - 3) + 2 \\cdot (x - 3)$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Đặt nhân tử chung $(x - 3)$: $A = (x - 3)[(-4) + 2] = -2(x - 3)$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khai triển ra ta được $A = -2x + 6$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Khi $x = 5$, giá trị của $A$ bằng $-4$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Để $A = 0$ thì $x = -3$.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một nhà đầu tư mua $100$ cổ phiếu với giá $50\\,000$ đồng/cổ phiếu. Trong tuần, giá cổ phiếu biến động như sau:\n- 3 ngày đầu: mỗi ngày tăng $2\\,000$ đồng (+2 000)\n- 2 ngày sau: mỗi ngày giảm $4\\,000$ đồng (-4 000).",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tổng mức tăng trong 3 ngày đầu là $3 \\cdot 2000 = +6000$ đồng mỗi cổ phiếu.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng mức giảm trong 2 ngày sau là $2 \\cdot (-4000) = -8000$ đồng mỗi cổ phiếu.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Sau 5 ngày, mỗi cổ phiếu bị giảm $2\\,000$ đồng so với giá ban đầu.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Tổng số tiền nhà đầu tư bị lỗ sau tuần đó là $200\\,000$ đồng.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính: $P = (-4) \\cdot (-5) \\cdot (-6) \\cdot (-7)$.",
+        "answer": "840"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tính hợp lí: $17 \\cdot (-85) + 17 \\cdot (-15)$.",
+        "answer": "-1700"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết: $(x + 5)^2 = 36$ và $x < 0$.",
+        "answer": "-11"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y = -7$?",
+        "answer": "4"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức một cách hợp lí:\na) $A = (-8) \\cdot 25 \\cdot (-2) \\cdot 4 \\cdot (-5) \\cdot 125$.\nb) $B = 48 \\cdot (-24) + (-24) \\cdot 52$.",
+        "rubric": "a) A = [(-8) * 125] * (25 * 4) * [(-2) * (-5)] = (-1000) * 100 * 10 = -1000000 (0.5đ).\nb) B = (-24) * (48 + 52) = (-24) * 100 = -2400 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết:\na) $(x - 2)(x + 4) = 0$.\nb) $(-3) \\cdot (x - 5) + 12 = -6$.\nc) $x^2 - 16 = 0$.",
+        "rubric": "a) x - 2 = 0 => x = 2; hoặc x + 4 = 0 => x = -4. Vậy x ∈ {2; -4} (0.35đ).\nb) -3(x - 5) = -18 => x - 5 = 6 => x = 11 (0.35đ).\nc) x^2 = 16 => x = 4 hoặc x = -4 (0.3đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Một công ty lâm nghiệp trồng rừng có kế hoạch trồng $150\\text{ ha}$ rừng trong 5 tháng. Do thời tiết xấu, mỗi tháng diện tích trồng thực tế bị giảm $4\\text{ ha}$ so với kế hoạch (nghĩa là giảm $-4\\text{ ha/tháng}$).\na) Hỏi sau 5 tháng, diện tích rừng trồng thực tế giảm bao nhiêu héc-ta so với kế hoạch?\nb) Thực tế công ty đã trồng được bao nhiêu héc-ta rừng?",
+        "rubric": "a) Diện tích rừng bị giảm sau 5 tháng là: 5 * (-4) = -20 (ha), nghĩa là giảm 20 ha (0.5đ).\nb) Diện tích thực tế công ty trồng được là: 150 - 20 = 130 (ha) (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai4_test3": {
+    "title": "Toán 6 (KNTT) - Bài 16: Phép nhân số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho $a < b < 0$. So sánh $a^2$ và $b^2$:",
+        "options": [
+          "$a^2 > b^2$",
+          "$a^2 < b^2$",
+          "$a^2 = b^2$",
+          "Không so sánh được"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho $x, y \\in \\mathbb{Z}$ thỏa mãn $x \\cdot y < 0$ và $|x| = y$. Khi đó:",
+        "options": [
+          "$x < 0$ và $y > 0$",
+          "$x > 0$ và $y < 0$",
+          "Cả $x, y$ đều âm",
+          "Cả $x, y$ đều dương"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn $(x - 1)(y + 2) = 5$:",
+        "options": [
+          "$4$ cặp",
+          "$2$ cặp",
+          "$1$ cặp",
+          "$6$ cặp"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Cho $P = (-1) \\cdot (-1)^2 \\cdot (-1)^3 \\dots (-1)^{2024}$. Giá trị của $P$ là:",
+        "options": [
+          "$1$",
+          "$-1$",
+          "$0$",
+          "$2024$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ sao cho $(x^2 - 1)(x^2 - 4) < 0$:",
+        "options": [
+          "$x \\in \\{-1; 1\\}$",
+          "$x \\in \\{-2; 2\\}$",
+          "Không có số nguyên $x$ nào",
+          "Vô số $x$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y + 2x - 3y = 11$?",
+        "options": [
+          "$4$ cặp",
+          "$2$ cặp",
+          "$6$ cặp",
+          "$8$ cặp"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng cao",
+        "question": "Cho $a, b, c \\in \\mathbb{Z}$ thỏa mãn $ab - ac + bc - c^2 = -1$. Khẳng định nào sau đây đúng?",
+        "options": [
+          "$a + c$ và $b - c$ là hai số đối nhau",
+          "$a = b = c$",
+          "$a + b = c$",
+          "$a - b = c$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = (x - 2)^2 - 15$ với $x \\in \\mathbb{Z}$:",
+        "options": [
+          "$-15$",
+          "$0$",
+          "$-11$",
+          "$-19$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ để $(x - 3)(x + 5) < 0$:",
+        "options": [
+          "$-5 < x < 3$",
+          "$x > 3$",
+          "$x < -5$",
+          "$x \\leq -5$ hoặc $x \\geq 3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Cho 2025 số nguyên $a_1, a_2, \\dots, a_{2025}$ thỏa mãn tích của 4 số bất kì luôn là một số dương. Khẳng định nào đúng?",
+        "options": [
+          "Cả 2025 số đều là số nguyên dương hoặc cả 2025 số đều là số nguyên âm",
+          "Có đúng 1 số âm",
+          "Có đúng 2 số âm",
+          "Có đúng 3 số âm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Tích của tất cả các ước nguyên của số $10$ bằng:",
+        "options": [
+          "$100$",
+          "$-100$",
+          "$1000$",
+          "$-1000$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị lớn nhất của biểu thức $B = 12 - (x + 1)^2$:",
+        "options": [
+          "$12$",
+          "$11$",
+          "$13$",
+          "$0$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho phương trình nghiệm nguyên: $(x - 2)(y + 3) = 7$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Vì $x, y \\in \\mathbb{Z}$ nên $x - 2$ và $y + 3$ là các ước của 7.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tập hợp các ước nguyên của 7 là $\\Ư(7) = \\{1; -1; 7; -7\\}$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Có đúng 4 cặp số nguyên $(x; y)$ thỏa mãn phương trình.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Cặp $(x; y) = (3; 4)$ là một nghiệm của phương trình.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho ba số nguyên $a, b, c$ đôi một khác nhau thỏa mãn $a \\cdot b \\cdot c = 1$.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Vì $a, b, c \\in \\mathbb{Z}$ và $abc = 1$ nên mỗi số chỉ có thể nhận giá trị $1$ hoặc $-1$.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng cao",
+            "text": "Vì cả ba số đôi một khác nhau nên không thể tồn tại đồng thời 3 số nguyên khác nhau nhận giá trị trong $\\{1; -1\\}$.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Không tồn tại bộ ba số nguyên $a, b, c$ đôi một khác nhau thỏa mãn $abc = 1$.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Nếu cho phép hai số bằng nhau thì có thể chọn bộ $(1; -1; -1)$.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $(x - 2)(x + 3) < 0$?",
+        "answer": "4"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm số cặp số nguyên $(x, y)$ thỏa mãn $xy - 2x + y = 5$.",
+        "answer": "4"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức $P = (x + 3)^2 + (y - 1)^2 - 7$.",
+        "answer": "-7"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tính tích của tất cả các số nguyên $x$ thỏa mãn $-3 < x < 4$.",
+        "answer": "0"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn:\na) $(x - 3)(y + 1) = 5$.\nb) $xy + 3x - 2y = 11$.",
+        "rubric": "a) Ư(5) = {1; -1; 5; -5} (0.15đ).\nCác cặp (x - 3; y + 1):\n- (1; 5) => (x; y) = (4; 4) (0.1đ)\n- (5; 1) => (x; y) = (8; 0) (0.1đ)\n- (-1; -5) => (x; y) = (2; -6) (0.1đ)\n- (-5; -1) => (x; y) = (-2; -2) (0.05đ).\nb) x(y + 3) - 2(y + 3) - 6 = 11 => (x - 2)(y + 3) = 5 (0.25đ).\nTương tự giải ra 4 cặp nghiệm (x; y) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ sao cho:\na) $(x - 1)(x + 3) < 0$.\nb) $(x + 2)(x - 4) > 0$.",
+        "rubric": "a) Tích hai thừa số âm khi hai thừa số trái dấu. Vì x - 1 < x + 3 nên x - 1 < 0 và x + 3 > 0 => -3 < x < 1 (0.25đ). Do x ∈ Z => x ∈ {-2; -1; 0} (0.25đ).\nb) Tích hai thừa số dương khi hai thừa số cùng dấu:\nTH1: x - 4 > 0 => x > 4 (0.25đ).\nTH2: x + 2 < 0 => x < -2 (0.25đ).\nVậy x > 4 hoặc x < -2."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho $a$ và $b$ là các số nguyên. Chứng minh rằng:\na) Nếu $a^2 + b^2$ chia hết cho $3$ thì cả $a$ và $b$ đều chia hết cho $3$.\nb) Biểu thức $A = n(n + 1)(n + 2)(n + 3) + 1$ là bình phương của một số nguyên với mọi $n \\in \\mathbb{Z}$.",
+        "rubric": "a) Số chính phương chia cho 3 chỉ có số dư là 0 hoặc 1 (0.25đ). Để a^2 + b^2 chia hết cho 3 thì cả a^2 và b^2 phải cùng chia hết cho 3 => a chia hết cho 3 và b chia hết cho 3 (0.25đ).\nb) Nhóm: A = [n(n + 3)] * [(n + 1)(n + 2)] + 1 = (n^2 + 3n)(n^2 + 3n + 2) + 1 (0.2đ).\nĐặt t = n^2 + 3n => A = t(t + 2) + 1 = t^2 + 2t + 1 = (t + 1)^2 (0.2đ).\nThay lại: A = (n^2 + 3n + 1)^2 là bình phương của một số nguyên (0.1đ)."
+      }
+    ]
+  },
+  "c3_6_bai5_test1": {
+    "title": "Toán 6 (KNTT) - Bài 17: Phép chia hết. Ước và bội của một số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép chia $(-18) : 3$ là:",
+        "options": [
+          "$-6$",
+          "$6$",
+          "$-15$",
+          "$21$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép chia $(-24) : (-4)$ là:",
+        "options": [
+          "$6$",
+          "$-6$",
+          "$-28$",
+          "$20$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Với số nguyên $a \\neq 0$, kết quả của phép chia $0 : a$ bằng:",
+        "options": [
+          "$0$",
+          "$1$",
+          "$a$",
+          "$-a$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Tập hợp tất cả các ước nguyên của số $4$ là:",
+        "options": [
+          "$\\{-4; -2; -1; 1; 2; 4\\}$",
+          "$\\{1; 2; 4\\}$",
+          "$\\{-4; -1; 1; 4\\}$",
+          "$\\{-2; -1; 0; 1; 2\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Số nào sau đây là một bội của $(-5)$?",
+        "options": [
+          "$-15$",
+          "$12$",
+          "$-18$",
+          "$22$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Trong các khẳng định sau, khẳng định nào đúng?",
+        "options": [
+          "Số $1$ và $-1$ là ước của mọi số nguyên",
+          "Số $0$ là ước của mọi số nguyên",
+          "Số nguyên dương luôn chia hết cho số nguyên âm",
+          "Số $-1$ không phải là ước của số nào"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên $x$ thỏa mãn: $(-3) \\cdot x = 21$.",
+        "options": [
+          "$x = -7$",
+          "$x = 7$",
+          "$x = 18$",
+          "$x = -24$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Thương của hai số nguyên khác dấu luôn mang dấu:",
+        "options": [
+          "Dấu âm $(-)$",
+          "Dấu dương $(+)$",
+          "Không mang dấu",
+          "Tùy thuộc độ lớn của hai số"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Có bao nhiêu số nguyên $x$ là ước của số $6$?",
+        "options": [
+          "$8$",
+          "$4$",
+          "$6$",
+          "$2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Nếu số nguyên $a$ chia hết cho $b$ ($b \\neq 0$) thì:",
+        "options": [
+          "$-a$ cũng chia hết cho $b$",
+          "$a$ không chia hết cho $-b$",
+          "$b$ luôn chia hết cho $a$",
+          "$a + b = 0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $[(-36) : 4] : (-3)$ là:",
+        "options": [
+          "$3$",
+          "$-3$",
+          "$-9$",
+          "$9$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Số nào sau đây KHÔNG PHẢI là ước của $(-12)$?",
+        "options": [
+          "$5$",
+          "$-3$",
+          "$4$",
+          "$-6$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng/sai của các phát biểu về ước và bội của số nguyên sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 0 là bội của mọi số nguyên khác 0.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tập hợp các ước của -7 gồm đúng 4 số: 1; -1; 7; -7.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Nhận biết",
+            "text": "Số 0 là ước của số 5.",
+            "correct": false
+          },
+          {
+            "key": "d",
+            "level": "Thông hiểu",
+            "text": "Nếu a chia hết cho b thì -a chia hết cho -b.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho x là một số nguyên. Xét tính đúng/sai của các mệnh đề sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nếu x chia hết cho 6 thì x chia hết cho 3.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu 2x = -10 thì x = 5.",
+            "correct": false
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Tập hợp các ước tự nhiên của 6 bằng tập hợp các ước nguyên của 6.",
+            "correct": false
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Số nguyên âm nhỏ nhất có 1 chữ số chia hết cho 3 là -9.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên x thỏa mãn: (-5) . x = -45.",
+        "answer": "9"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức: A = (-48) : (-6) + (-15) : 3.",
+        "answer": "3"
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Có bao nhiêu ước nguyên dương của số 18?",
+        "answer": "6"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên x dương nhỏ nhất sao cho x chia hết cho cả -4 và 6.",
+        "answer": "12"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "a) Viết tập hợp tất cả các ước nguyên của số -10.\nb) Tìm tất cả các bội của 4 nằm trong khoảng từ -15 đến 15.",
+        "rubric": "a) Ư(-10) = {-10; -5; -2; -1; 1; 2; 5; 10} (0.5đ).\nb) Các bội của 4 trong khoảng (-15; 15) là: -12; -8; -4; 0; 4; 8; 12 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên x biết:\na) (-4) . x = 32\nb) (x - 2) là ước của 6.",
+        "rubric": "a) x = 32 : (-4) = -8 (0.4đ).\nb) (x - 2) ∈ {±1; ±2; ±3; ±6} => x ∈ {-4; -1; 0; 1; 3; 4; 5; 8} (0.6đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Một công ty kinh doanh có kết quả lợi nhuận trong 4 quý lần lượt là: -40 triệu đồng, 60 triệu đồng, -25 triệu đồng và 85 triệu đồng.\na) Tính tổng lợi nhuận cả năm của công ty.\nb) Tính bình quân lợi nhuận mỗi quý của công ty đó trong năm.",
+        "rubric": "a) Tổng lợi nhuận cả năm: (-40) + 60 + (-25) + 85 = 80 (triệu đồng) (0.6đ).\nb) Bình quân mỗi quý: 80 : 4 = 20 (triệu đồng) (0.4đ)."
+      }
+    ]
+  },
+  "c3_6_bai5_test2": {
+    "title": "Toán 6 (KNTT) - Bài 17: Phép chia hết. Ước và bội của một số nguyên - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Số nguyên $x$ thỏa mãn $(-72) : x = -8$ là:",
+        "options": [
+          "$9$",
+          "$-9$",
+          "$8$",
+          "$-8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $15$ chia hết cho $(x + 1)$?",
+        "options": [
+          "$8$",
+          "$4$",
+          "$6$",
+          "$2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Tập hợp các số nguyên $x$ vừa là ước của $20$, vừa là bội của $-4$ là:",
+        "options": [
+          "$\\{\\pm 4; \\pm 20\\}$",
+          "$\\{4; 20\\}$",
+          "$\\{-20; -4; 0; 4; 20\\}$",
+          "$\\{\\pm 1; \\pm 2; \\pm 4\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $[(-100) : (-5)] : [(-8) + 6]$ là:",
+        "options": [
+          "$-10$",
+          "$10$",
+          "$-20$",
+          "$20$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Số tự nhiên $a$ lớn nhất thỏa mãn $(-36)$ chia hết cho $a$ và $48$ chia hết cho $a$ là:",
+        "options": [
+          "$12$",
+          "$6$",
+          "$24$",
+          "$4$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Nếu số nguyên $x$ chia hết cho $8$ và $x$ chia hết cho $(-12)$ thì $x$ là bội của:",
+        "options": [
+          "$24$",
+          "$4$",
+          "$48$",
+          "$96$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng thấp",
+        "question": "Tổng của tất cả các ước nguyên của số $25$ bằng:",
+        "options": [
+          "$0$",
+          "$31$",
+          "$25$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng thấp",
+        "question": "Để $(n + 5)$ chia hết cho $(n + 1)$ với $n$ là số tự nhiên, giá trị lớn nhất của $n$ là:",
+        "options": [
+          "$3$",
+          "$4$",
+          "$2$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng thấp",
+        "question": "Cho hai số nguyên $a, b \\neq 0$. Biết $a$ chia hết cho $b$ và $b$ chia hết cho $a$. Khi đó:",
+        "options": [
+          "$a = b$ hoặc $a = -b$",
+          "$a = b$",
+          "$a = -b$",
+          "$a > b$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $x$ biết: $3x - (-5) = -16$.",
+        "options": [
+          "$x = -7$",
+          "$x = 7$",
+          "$x = -3$",
+          "$x = 3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Số các cặp số nguyên $(x; y)$ thỏa mãn $(x - 1)(y + 2) = 5$ là:",
+        "options": [
+          "$4$",
+          "$2$",
+          "$8$",
+          "$1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Nhiệt độ phòng lạnh giảm đều đặn mỗi giờ. Sau 6 giờ nhiệt độ giảm tổng cộng 18°C. Trung bình mỗi giờ nhiệt độ thay đổi bao nhiêu độ C?",
+        "options": [
+          "$-3^\\circ\\text{C}$",
+          "$3^\\circ\\text{C}$",
+          "$-2^\\circ\\text{C}$",
+          "$-4^\\circ\\text{C}$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho a và b là các số nguyên. Xét tính đúng/sai của các khẳng định sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nếu tổng (a + b) chia hết cho 7 và a chia hết cho 7 thì b chia hết cho 7.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu tích a . b chia hết cho 6 thì chắc chắn a chia hết cho 6 hoặc b chia hết cho 6.",
+            "correct": false
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Tổng tất cả các ước nguyên của số 12 bằng 0.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Số đối của một bội của 5 cũng là một bội của 5.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Xét bài toán tìm x nguyên để phân số 7/(x - 3) nhận giá trị nguyên:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Để phân số nhận giá trị nguyên thì (x - 3) phải là ước của 7.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Có đúng 4 giá trị nguyên của x thỏa mãn bài toán.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị nguyên lớn nhất của x để phân số nhận giá trị nguyên dương là x = 10.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Khi x = -4 thì giá trị của phân số bằng 1.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên âm x lớn nhất thỏa mãn x chia hết cho 7.",
+        "answer": "-7"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên x biết: (2x + 1) là ước của 10 và x > 0.",
+        "answer": "2"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính giá trị biểu thức: A = [(-45) : (-9)] . (-4) + (-32) : (-8).",
+        "answer": "-16"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên n để (2n + 7) chia hết cho (n + 1). Tính tổng tất cả các giá trị nguyên của n tìm được.",
+        "answer": "-8"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên x biết:\na) 48 : (x + 2) = -6\nb) (2x - 3) . (y + 1) = 7 (với x, y là các số nguyên).",
+        "rubric": "a) x + 2 = -8 => x = -10 (0.4đ).\nb) (2x - 3)(y + 1) = 7 => tìm được 4 cặp (x; y): (2; 6), (1; -8), (5; 0), (-2; -2) (0.6đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Cho biểu thức A = (3n + 8) / (n + 2) với n là số nguyên.\na) Viết A dưới dạng tổng của một số nguyên và một phân số.\nb) Tìm tất cả các số nguyên n để biểu thức A nhận giá trị nguyên.",
+        "rubric": "a) A = 3 + 2/(n + 2) (0.4đ).\nb) n + 2 ∈ Ư(2) = {±1; ±2} => n ∈ {-4; -3; -1; 0} (0.6đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một tàu lặn khảo sát đáy biển đang ở độ sâu 180 m dưới mực nước biển (độ cao -180 m). Tàu bắt đầu nổi lên đều đặn với tốc độ 15 mét mỗi phút.\na) Viết biểu thức số biểu thị độ cao của tàu sau t phút nổi lên.\nb) Sau bao nhiêu phút thì tàu nổi lên đến vị trí cách mực nước biển 30 m?",
+        "rubric": "a) Biểu thức độ cao: h = -180 + 15t (m) với t ≥ 0 (0.5đ).\nb) Vị trí -30 m: -180 + 15t = -30 => 15t = 150 => t = 10 (phút) (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai5_test3": {
+    "title": "Toán 6 (KNTT) - Bài 17: Phép chia hết. Ước và bội của một số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $x \\cdot y = -12$ và $x < y$?",
+        "options": [
+          "$6$",
+          "$4$",
+          "$8$",
+          "$3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên $n$ để biểu thức $P = (n^2 + 3n + 5)$ chia hết cho $(n + 3)$:",
+        "options": [
+          "$n \\in \\{-8; -4; -2; 2\\}$",
+          "$n \\in \\{-4; -2; 1; 3\\}$",
+          "$n \\in \\{\\pm 1; \\pm 5\\}$",
+          "$n \\in \\{-2; 2\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Cho $a, b$ là các số nguyên sao cho $(3a + 2b)$ chia hết cho $17$. Khi đó $(10a + b)$ chia hết cho:",
+        "options": [
+          "$17$",
+          "$34$",
+          "$3$",
+          "$7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm giá trị nguyên của $x$ để phân số $(2x + 3) / (x - 2)$ đạt giá trị nguyên nhỏ nhất:",
+        "options": [
+          "$x = 1$",
+          "$x = 3$",
+          "$x = -5$",
+          "$x = 9$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng cao",
+        "question": "Số dư khi chia tổng $S = 2 + 2^2 + 2^3 + \\dots + 2^{60}$ cho $7$ là:",
+        "options": [
+          "$0$",
+          "$1$",
+          "$2$",
+          "$3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng cao",
+        "question": "Tích của hai số nguyên chẵn liên tiếp luôn chia hết cho:",
+        "options": [
+          "$8$",
+          "$6$",
+          "$12$",
+          "$16$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ để $(x + 1)(x - 3) < 0$:",
+        "options": [
+          "$x \\in \\{0; 1; 2\\}$",
+          "$x \\in \\{-1; 0; 1; 2; 3\\}$",
+          "$x > 3$ hoặc $x < -1$",
+          "$x \\in \\{-2; -1; 0\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Cho $A = 1 - 3 + 3^2 - 3^3 + \\dots + 3^{100}$. Khi đó $4A - 1$ chia hết cho:",
+        "options": [
+          "$3^{101}$",
+          "$3^{100}$",
+          "$9$",
+          "$27$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu số nguyên $n$ để $(n^2 - 2)$ chia hết cho $(n - 1)$?",
+        "options": [
+          "$2$",
+          "$4$",
+          "$6$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Số nghiệm nguyên $(x; y)$ của phương trình $xy + 2x - 3y = 11$ là:",
+        "options": [
+          "$4$",
+          "$2$",
+          "$8$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Biểu thức $n^3 - n$ luôn chia hết cho số nào sau đây với mọi số nguyên $n$?",
+        "options": [
+          "$6$",
+          "$8$",
+          "$9$",
+          "$12$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Cho $B = 5 + 5^2 + 5^3 + \\dots + 5^{96}$. Chữ số tận cùng của biểu thức $B$ là:",
+        "options": [
+          "$0$",
+          "$5$",
+          "$2$",
+          "$8$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho a, b, c là các số nguyên. Xét tính đúng/sai của các mệnh đề số học sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nếu a chia hết cho b thì a^2 chia hết cho b^2.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu a^2 chia hết cho b thì chắc chắn a chia hết cho b.",
+            "correct": false
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Tích của ba số nguyên liên tiếp luôn chia hết cho 6.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Nếu a + b chia hết cho c thì cả a và b đều phải chia hết cho c.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Xét bài toán tìm cặp số nguyên (x; y) thỏa mãn 2xy - x + 4y = 10:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Vận dụng thấp",
+            "text": "Đưa phương trình về dạng tích ta được (2y - 1)(x + 2) = 8.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "2y - 1 là số lẻ nên 2y - 1 chỉ có thể nhận các giá trị là ước lẻ của 8.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Có tất cả 4 cặp số nguyên (x; y) thỏa mãn phương trình.",
+            "correct": false
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Cặp (x; y) = (6; 1) là một nghiệm của phương trình.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên n lớn nhất sao cho (n + 13) chia hết cho (n - 2).",
+        "answer": "17"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số tự nhiên n thỏa mãn: 3^(n+2) - 3^n = 216.",
+        "answer": "3"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu cặp số nguyên dương (x; y) thỏa mãn 1/x + 1/y = 1/3?",
+        "answer": "3"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số dư khi chia A = 1 + 4 + 4^2 + ... + 4^2024 cho 5.",
+        "answer": "1"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng thấp",
+        "question": "a) Tìm tất cả các số nguyên n sao cho A = (2n + 5) / (n - 1) có giá trị là số nguyên.\nb) Tìm n nguyên để A đạt giá trị lớn nhất.",
+        "rubric": "a) A = 2 + 7/(n - 1) => n - 1 ∈ Ư(7) => n ∈ {-6; 0; 2; 8} (0.5đ).\nb) A lớn nhất khi n - 1 = 1 => n = 2. Giá trị max = 9 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm các cặp số nguyên (x; y) thỏa mãn:\nxy - 2x + 5y = 17.",
+        "rubric": "(x + 5)(y - 2) = 7 (0.4đ). Xét các ước của 7 => 4 cặp nghiệm: (-4; 9), (-6; -5), (2; 3), (-12; 1) (0.6đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho biểu thức S = 3 + 3^2 + 3^3 + ... + 3^100.\na) Chứng minh rằng S chia hết cho 4.\nb) Tìm số dư khi chia S cho 13.",
+        "rubric": "a) Ghép từng cặp 2 số: S = 4 . (3 + 3^3 + ... + 3^99) => S chia hết cho 4 (0.5đ).\nb) S = 3 + (3^2 + 3^3 + 3^4) + ... Mỗi nhóm 3 số chia hết cho 13, dư 3 ở đầu => S chia 13 dư 3 (0.5đ)."
+      }
+    ]
+  },
+  "c3_6_bai6_test1": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số nguyên $\\mathbb{Z}$ bao gồm:",
+        "options": [
+          "Các số nguyên âm, số 0 và các số nguyên dương",
+          "Số tự nhiên và phân số",
+          "Chỉ gồm số nguyên âm và số nguyên dương",
+          "Số 0 và các số nguyên âm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số đối của số $-15$ là:",
+        "options": [
+          "$15$",
+          "$-15$",
+          "$0$",
+          "$1/15$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Sắp xếp các số sau theo thứ tự tăng dần: $-7; 0; 5; -2$:",
+        "options": [
+          "$-7 < -2 < 0 < 5$",
+          "$-2 < -7 < 0 < 5$",
+          "$5 < 0 < -2 < -7$",
+          "$-7 < 0 < -2 < 5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép tính $(-14) + (-6)$ là:",
+        "options": [
+          "$-20$",
+          "$20$",
+          "$-8$",
+          "$8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép tính $15 - 23$ là:",
+        "options": [
+          "$-8$",
+          "$8$",
+          "$-38$",
+          "$38$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Nhận biết",
+        "question": "Tích $(-4) \\cdot (-7)$ bằng:",
+        "options": [
+          "$28$",
+          "$-28$",
+          "$11$",
+          "$-11$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Thương $(-45) : 9$ bằng:",
+        "options": [
+          "$-5$",
+          "$5$",
+          "$-6$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Quy tắc phá ngoặc nào sau đây là đúng?",
+        "options": [
+          "$-(a - b + c) = -a + b - c$",
+          "$-(a - b + c) = -a - b + c$",
+          "$+(a - b + c) = a + b + c$",
+          "$-(a - b + c) = -a - b - c$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ biết: $x + 8 = 3$.",
+        "options": [
+          "$x = -5$",
+          "$x = 5$",
+          "$x = 11$",
+          "$x = -11$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Tập hợp tất cả các ước của số $6$ trong $\\mathbb{Z}$ là:",
+        "options": [
+          "$\\{-6; -3; -2; -1; 1; 2; 3; 6\\}$",
+          "$\\{1; 2; 3; 6\\}$",
+          "$\\{\\pm 1; \\pm 2; \\pm 3\\}$",
+          "$\\{0; 1; 2; 3; 6\\}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Thông hiểu",
+        "question": "Nhiệt độ buổi sáng là $-3^\\circ\\text{C}$, đến trưa tăng thêm $5^\\circ\\text{C}$. Nhiệt độ buổi trưa là:",
+        "options": [
+          "$2^\\circ\\text{C}$",
+          "$-8^\\circ\\text{C}$",
+          "$8^\\circ\\text{C}$",
+          "$-2^\\circ\\text{C}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $(-2)^3$ bằng:",
+        "options": [
+          "$-8$",
+          "$8$",
+          "$-6$",
+          "$6$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng/sai của các phát biểu tổng quát sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên âm đều nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Nhận biết",
+            "text": "Tích của hai số nguyên âm là một số nguyên âm.",
+            "correct": false
+          },
+          {
+            "key": "c",
+            "level": "Nhận biết",
+            "text": "Số 0 không phải là số nguyên âm, cũng không phải là số nguyên dương.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Thông hiểu",
+            "text": "Hiệu của hai số nguyên âm luôn luôn là một số nguyên âm.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho phép tính M = 15 - (8 - 12) + (-6). Xét tính đúng/sai của các bước:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Giá trị trong ngoặc (8 - 12) bằng -4.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Bỏ dấu ngoặc đúng: M = 15 - 8 + 12 - 6.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức M bằng 13.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "M chia hết cho 5.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức: A = (-25) . 4 + (-18) : (-2).",
+        "answer": "-91"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên x thỏa mãn: 2x - 7 = -19.",
+        "answer": "-6"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng của tất cả các số nguyên x thỏa mãn: -4 < x ≤ 4.",
+        "answer": "4"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Một tàu ngầm lặn từ vị trí -40 m xuống thêm 35 m nữa. Hỏi vị trí mới của tàu ngầm ở độ cao bao nhiêu mét?",
+        "answer": "-75"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính hợp lý nếu có thể:\na) 37 . (-45) + (-45) . 63\nb) 125 - [48 + (125 - 48)].",
+        "rubric": "a) (-45) . (37 + 63) = (-45) . 100 = -4500 (0.5đ).\nb) 125 - [48 + 125 - 48] = 125 - 125 = 0 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên x biết:\na) 15 - 3x = 36\nb) (x + 3) . (x - 2) = 0.",
+        "rubric": "a) 3x = -21 => x = -7 (0.5đ).\nb) x + 3 = 0 hoặc x - 2 = 0 => x ∈ {-3; 2} (0.5đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Bác An kinh doanh trong 5 tháng đầu năm ghi nhận lợi nhuận như sau: tháng 1 lãi 12 triệu, tháng 2 lỗ 5 triệu, tháng 3 lãi 18 triệu, tháng 4 lỗ 8 triệu, tháng 5 hòa vốn.\na) Tính tổng lợi nhuận của bác An trong 5 tháng.\nb) Bình quân mỗi tháng bác An lãi hay lỗ bao nhiêu tiền?",
+        "rubric": "a) Tổng lợi nhuận: 12 + (-5) + 18 + (-8) + 0 = 17 (triệu đồng) (0.6đ).\nb) Trung bình mỗi tháng: 17 : 5 = 3,4 (triệu đồng). Kết luận bác An lãi bình quân 3,4 triệu đồng/tháng (0.4đ)."
+      }
+    ]
+  },
+  "c3_6_bai6_test2": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $(-3)^2 - (-2)^3$ là:",
+        "options": [
+          "$17$",
+          "$1$",
+          "$-17$",
+          "$-1$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Số nguyên $x$ thỏa mãn: $(-15) - x = 8$ là:",
+        "options": [
+          "$-23$",
+          "$23$",
+          "$-7$",
+          "$7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Tổng tất cả các số nguyên $x$ thỏa mãn $-8 \\leq x < 7$ là:",
+        "options": [
+          "$-15$",
+          "$-8$",
+          "$-7$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Tích của 5 số nguyên âm và 4 số nguyên dương là một số mang dấu:",
+        "options": [
+          "Dấu âm $(-)$",
+          "Dấu dương $(+)$",
+          "Không xác định",
+          "Bằng 0"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $12$ chia hết cho $(2x - 1)$?",
+        "options": [
+          "$4$",
+          "$6$",
+          "$8$",
+          "$12$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Giá trị của biểu thức $180 : [(-12) + 2 \\cdot (-3)]$ là:",
+        "options": [
+          "$-10$",
+          "$10$",
+          "$-15$",
+          "$15$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng thấp",
+        "question": "Để tích $(x - 2)(x + 5) = 0$ thì $x$ nhận các giá trị là:",
+        "options": [
+          "$x = 2$ hoặc $x = -5$",
+          "$x = -2$ hoặc $x = 5$",
+          "$x = 2$ hoặc $x = 5$",
+          "$x = -2$ hoặc $x = -5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng thấp",
+        "question": "Tập hợp các ước chung của $18$ và $-30$ trong $\\mathbb{Z}$ có bao nhiêu phần tử?",
+        "options": [
+          "$8$",
+          "$4$",
+          "$6$",
+          "$12$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Tìm số nguyên $x$ biết: $(x - 4)^2 = 25$.",
+        "options": [
+          "$x = 9$ hoặc $x = -1$",
+          "$x = 9$",
+          "$x = -1$",
+          "$x = 1$ hoặc $x = -9$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Nhiệt độ lúc 6h sáng ở Sa Pa là $-2^\\circ\\text{C}$, trưa tăng $7^\\circ\\text{C}$, đêm giảm $9^\\circ\\text{C}$ so với buổi trưa. Nhiệt độ đêm là:",
+        "options": [
+          "$-4^\\circ\\text{C}$",
+          "$4^\\circ\\text{C}$",
+          "$0^\\circ\\text{C}$",
+          "$-14^\\circ\\text{C}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Cho $a$ là số nguyên âm, $b$ là số nguyên dương. Khẳng định nào sau đây đúng?",
+        "options": [
+          "$a - b < 0$",
+          "$a - b > 0$",
+          "$a - b = 0$",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Rút gọn biểu thức $P = -(x - y + z) - (y - x - z)$ ta được:",
+        "options": [
+          "$0$",
+          "$-2z$",
+          "$2x - 2y$",
+          "$-2y$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho x, y là các số nguyên. Xét tính đúng/sai của các phát biểu sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nếu x . y > 0 thì x và y cùng dấu.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu x + y = 0 thì x và y là hai số đối nhau.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng thấp",
+            "text": "Với mọi số nguyên x thì x^2 > 0.",
+            "correct": false
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Nếu x chia hết cho 4 và chia hết cho 6 thì x chắc chắn chia hết cho 24.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Xét biểu thức Q = (-2)^4 - 3 . (-5) + (-48) : (-6):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "(-2)^4 = 16.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "(-3) . (-5) = 15.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "(-48) : (-6) = -8.",
+            "correct": false
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng thấp",
+            "text": "Giá trị của biểu thức Q bằng 39.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính nhanh giá trị của: A = 27 . 39 + 27 . 63 - 27 . 2.",
+        "answer": "2700"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên x thỏa mãn: 3x - (-12) = -18.",
+        "answer": "-10"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên dương n nhỏ nhất sao cho (n + 4) chia hết cho (n - 1).",
+        "answer": "2"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng các số nguyên x thỏa mãn: -15 ≤ x < 16.",
+        "answer": "0"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính một cách hợp lý:\na) 45 - 5 . (-12) + (-24) : 4\nb) (-125) . 37 . (-8) . (-1)^2024.",
+        "rubric": "a) 45 + 60 - 6 = 99 (0.5đ).\nb) [(-125) . (-8)] . 37 . 1 = 1000 . 37 = 37000 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số nguyên x biết:\na) 2(x - 5) - 3(x + 1) = -14\nb) (2x - 1) là ước của 18 và x là số nguyên âm.",
+        "rubric": "a) -x - 13 = -14 => x = 1 (0.4đ).\nb) 2x - 1 ∈ {±1; ±3; ±9} và x âm => x ∈ {-4; -1} (0.6đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một công ty nhập 100 chiếc máy tính bảng giá 6 triệu đồng/chiếc. Tháng 1 bán được 70 chiếc giá 7,5 triệu/chiếc. Tháng 2 bán 30 chiếc còn lại giá 5 triệu/chiếc. Chi phí vận chuyển bảo quản là 20 triệu. Hỏi công ty lãi hay lỗ bao nhiêu tiền?",
+        "rubric": "Tổng chi phí: 100 . 6 + 20 = 620 (triệu). Doanh thu: 70 . 7,5 + 30 . 5 = 675 (triệu). Lợi nhuận: 675 - 620 = 55 (triệu). Kết luận công ty lãi 55 triệu đồng (1.0đ)."
+      }
+    ]
+  },
+  "c3_6_bai6_test3": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Cho tổng $S = 1 - 2 + 3 - 4 + 5 - 6 + \\dots + 2023 - 2024$. Giá trị của $S$ là:",
+        "options": [
+          "$-1012$",
+          "$1012$",
+          "$-2024$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Số nghiệm nguyên $(x; y)$ của phương trình $(x + 1)(y - 3) = 6$ là:",
+        "options": [
+          "$8$",
+          "$4$",
+          "$12$",
+          "$6$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Có bao nhiêu số nguyên $n$ để phân số $(3n + 2) / (n - 1)$ nhận giá trị nguyên?",
+        "options": [
+          "$4$",
+          "$2$",
+          "$6$",
+          "$8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng thấp",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = (x - 3)^2 + |y + 2| - 7$ với $x, y \\in \\mathbb{Z}$:",
+        "options": [
+          "$-7$",
+          "$0$",
+          "$7$",
+          "$-5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng thấp",
+        "question": "Nếu số nguyên $a$ chia $5$ dư $3$ và $b$ chia $5$ dư $2$ thì tích $a \\cdot b$ chia $5$ dư bao nhiêu?",
+        "options": [
+          "$1$",
+          "$0$",
+          "$6$",
+          "$4$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng thấp",
+        "question": "Tìm số tự nhiên $x$ thỏa mãn: $2^x + 2^{x+3} = 144$.",
+        "options": [
+          "$x = 4$",
+          "$x = 3$",
+          "$x = 5$",
+          "$x = 2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng cao",
+        "question": "Cho các số nguyên $a, b, c$ thỏa mãn $a + b + c = 0$. Biểu thức $M = (a + b)(b + c)(c + a)$ bằng:",
+        "options": [
+          "$-abc$",
+          "$abc$",
+          "$0$",
+          "$a^3 + b^3 + c^3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Tìm các số nguyên $x$ để $(x^2 - 1)(x^2 - 10) < 0$:",
+        "options": [
+          "$x \\in \\{\\pm 2; \\pm 3\\}$",
+          "$x \\in \\{-3; -2; 2; 3\\}$",
+          "$1 < x^2 < 10$",
+          "Cả ba đáp án đều đúng"
+        ],
+        "correct": 3
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Số dư khi chia $2^{100}$ cho $3$ là:",
+        "options": [
+          "$1$",
+          "$2$",
+          "$0$",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Tích của 4 số nguyên liên tiếp cộng thêm 1 luôn là:",
+        "options": [
+          "Một số chính phương lẻ",
+          "Một số chính phương chẵn",
+          "Một số chia hết cho 5",
+          "Một số nguyên tố"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Cho $x \\in \\mathbb{Z}$ sao cho $(x^2 + 1)$ chia hết cho $(x - 1)$. Giá trị nguyên lớn nhất của $x$ là:",
+        "options": [
+          "$3$",
+          "$2$",
+          "$1$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Biết tổng $1 + 2 + 3 + \\dots + n = 120$. Giá trị của số tự nhiên $n$ là:",
+        "options": [
+          "$15$",
+          "$16$",
+          "$14$",
+          "$20$"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho n là số nguyên. Xét tính đúng/sai của các mệnh đề số học sau:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Vận dụng thấp",
+            "text": "Biểu thức n(n + 1)(2n + 1) luôn chia hết cho 6 với mọi số nguyên n.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "Nếu n^2 là số chẵn thì n chắc chắn là số chẵn.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Biểu thức n^2 + n + 1 luôn là số nguyên tố với mọi số tự nhiên n.",
+            "correct": false
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Tồn tại số nguyên n để n^2 + 1 chia hết cho 3.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Xét bài toán tìm cặp số nguyên (x; y) thỏa mãn xy - 3x + y = 7:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Vận dụng thấp",
+            "text": "Biến đổi tương đương đưa về dạng (x + 1)(y - 3) = 4.",
+            "correct": true
+          },
+          {
+            "key": "b",
+            "level": "Vận dụng thấp",
+            "text": "Số 4 có đúng 6 ước nguyên.",
+            "correct": true
+          },
+          {
+            "key": "c",
+            "level": "Vận dụng cao",
+            "text": "Có đúng 6 cặp số nguyên (x; y) thỏa mãn phương trình.",
+            "correct": true
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng cao",
+            "text": "Không có cặp nghiệm nào có cả x và y cùng là số nguyên dương.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tìm số nguyên âm x thỏa mãn: |2x - 3| = 7.",
+        "answer": "-2"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng thấp",
+        "question": "Tính tổng S = 2 - 4 + 6 - 8 + ... + 98 - 100.",
+        "answer": "-50"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng thấp",
+        "question": "Tìm giá trị lớn nhất của biểu thức: P = 2024 - (x + 1)^2 - |y - 2|.",
+        "answer": "2024"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Có bao nhiêu số nguyên n thỏa mãn (n^2 + 2) chia hết cho (n + 1)?",
+        "answer": "4"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng thấp",
+        "question": "a) Cho biểu thức A = 1 - 2 + 2^2 - 2^3 + ... + 2^100. Tính giá trị của 3A - 2^101.\nb) Chứng minh rằng với mọi số tự nhiên n thì phân số (12n + 1) / (30n + 2) là phân số tối giản.",
+        "rubric": "a) 2A = 2 - 2^2 + ... + 2^101 => 3A = 1 + 2^101 => 3A - 2^101 = 1 (0.5đ).\nb) Gọi d = ƯCLN(12n + 1, 30n + 2) => 5(12n + 1) - 2(30n + 2) = 1 chia hết cho d => d = 1 (0.5đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Tìm tất cả các cặp số nguyên (x; y) thỏa mãn phương trình:\n2xy - 3x + y = 4.",
+        "rubric": "Nhân 2: (2x + 1)(2y - 3) = 5 (0.4đ). Ước của 5 => 4 cặp: (0; 4), (-1; -1), (2; 2), (-3; 1) (0.6đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho 2024 số nguyên, trong đó tích của 3 số bất kì luôn là một số âm.\na) Chứng minh rằng trong 2024 số đó có ít nhất một số âm.\nb) Hỏi tích của cả 2024 số đó mang dấu gì? Giải thích chi tiết.",
+        "rubric": "a) Phản chứng: nếu không có số âm nào thì tích 3 số bất kì ≥ 0 (mâu thuẫn), vậy có ít nhất 1 số âm a (0.4đ).\nb) Với a < 0, 2 số bất kì b, c có a.b.c < 0 => b.c > 0. Vậy 2023 số còn lại cùng dấu. Nếu cùng dương thì tích 3 số dương là dương (vô lý). Vậy cả 2024 số đều âm. Tích của 2024 số âm (chẵn số âm) là số DƯƠNG (0.6đ)."
+      }
+    ]
+  }
+};
+const EXAMS_6_C3_6 = CHAPTER3_TOAN6_EXAMS;
+
+if (typeof window !== 'undefined') {
+  window.CHAPTER3_TOAN6_EXAMS = CHAPTER3_TOAN6_EXAMS;
+  window.GRADE6_C3_6_EXAMS = CHAPTER3_TOAN6_EXAMS;
+  window.EXAMS_6_C3_6 = CHAPTER3_TOAN6_EXAMS;
+  if (!window.DYNAMIC_EXAM_CACHE) window.DYNAMIC_EXAM_CACHE = {};
+  window.DYNAMIC_EXAM_CACHE["grade6_c3_6"] = {"grade": "6", "chapterId": "c3_6", "chapterTitle": "Chương III: Số nguyên", "totalExams": 18, "updatedAt": "2026-10-25 14:15:00", "exams": {"c3_6_bai1_test1": {"title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Tập hợp các số nguyên gồm:", "options": ["Các số nguyên âm, số 0 và các số nguyên dương", "Các số nguyên âm và số nguyên dương", "Các số nguyên âm và số 0", "Các số nguyên dương và số 0"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Kí hiệu tập hợp các số nguyên là:", "options": ["$\\mathbb{Z}$", "$\\mathbb{N}$", "$\\mathbb{Q}$", "$\\mathbb{R}$"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Số đối của số nguyên $-5$ là:", "options": ["$5$", "$-5$", "$\\frac{1}{5}$", "$0$"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Số 0 là:", "options": ["Số nguyên không âm và không dương", "Số nguyên dương", "Số nguyên âm", "Không phải là số nguyên"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Trên trục số nằm ngang, điểm biểu diễn số $-3$ nằm ở vị trí nào so với điểm gốc 0?", "options": ["Nằm về bên trái điểm 0 và cách điểm 0 ba đơn vị", "Nằm về bên phải điểm 0 và cách điểm 0 ba đơn vị", "Trùng với điểm 0", "Nằm về bên phải điểm 3"], "correct": 0}, {"id": 6, "level": "Nhận biết", "question": "Trong các số sau, số nào là số nguyên âm?", "options": ["$-7$", "$0$", "$7$", "$12$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "So sánh hai số nguyên $-6$ và $-2$:", "options": ["$-6 < -2$", "$-6 > -2$", "$-6 = -2$", "Không so sánh được"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Nhiệt độ $-3^\\circ\\text{C}$ ấm hơn hay lạnh hơn nhiệt độ $-5^\\circ\\text{C}$?", "options": ["Ấm hơn", "Lạnh hơn", "Bằng nhau", "Không xác định được"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $3; -5; 0; -2; 4$:", "options": ["$-5; -2; 0; 3; 4$", "$-2; -5; 0; 3; 4$", "$4; 3; 0; -2; -5$", "$0; -2; -5; 3; 4$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Tập hợp các số nguyên $x$ thỏa mãn $-3 < x \\leq 2$ là:", "options": ["$\\{-2; -1; 0; 1; 2\\}$", "$\\{-3; -2; -1; 0; 1; 2\\}$", "$\\{-2; -1; 0; 1\\}$", "$\\{-3; -2; -1; 0; 1\\}$"], "correct": 0}, {"id": 11, "level": "Thông hiểu", "question": "Độ cao của mực nước biển được quy ước là $0\\text{ m}$. Một chiếc tàu ngầm đang lặn ở độ sâu $35\\text{ m}$ dưới mực nước biển thì độ cao của tàu ngầm được biểu diễn bằng số nguyên nào?", "options": ["$-35\\text{ m}$", "$35\\text{ m}$", "$0\\text{ m}$", "$-70\\text{ m}$"], "correct": 0}, {"id": 12, "level": "Thông hiểu", "question": "Số nguyên liền sau của số nguyên $-1$ là:", "options": ["$0$", "$-2$", "$1$", "$-3$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho tập hợp $M = \\{-4; -1; 0; 2; 5\\}$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Trong tập hợp $M$ có đúng hai số nguyên âm là $-4$ và $-1$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Số nhỏ nhất trong tập hợp $M$ là số $-4$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Số đối của các phần tử trong $M$ lần lượt là $4; 1; 0; -2; -5$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Số 0 là số nguyên dương nhỏ nhất trong tập hợp $M$.", "correct": false}]}, {"id": 2, "stem": "Nhiệt độ đo được lúc 6 giờ sáng tại 4 địa điểm lần lượt là: Sapa ($-2^\\circ\\text{C}$), Mẫu Sơn ($-4^\\circ\\text{C}$), Hà Nội ($15^\\circ\\text{C}$), Đà Lạt ($10^\\circ\\text{C}$).", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Mẫu Sơn là nơi có nhiệt độ thấp nhất trong 4 địa điểm.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Hà Nội là nơi có nhiệt độ cao nhất trong 4 địa điểm.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Nhiệt độ ở Sapa ấm hơn nhiệt độ ở Mẫu Sơn $2^\\circ\\text{C}$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Sắp xếp nhiệt độ từ thấp đến cao: $-2^\\circ\\text{C}; -4^\\circ\\text{C}; 10^\\circ\\text{C}; 15^\\circ\\text{C}$.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Số nguyên âm lớn nhất có hai chữ số là bao nhiêu?", "answer": "-10"}, {"id": 2, "level": "Thông hiểu", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-4 \\leq x < 3$?", "answer": "7"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tính tổng của số nguyên âm nhỏ nhất có một chữ số và số nguyên dương lớn nhất có một chữ số.", "answer": "0"}, {"id": 4, "level": "Vận dụng thấp", "question": "Trên trục số, khoảng cách giữa điểm biểu diễn số $-7$ và điểm biểu diễn số $3$ bằng bao nhiêu đơn vị?", "answer": "10"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "a) Viết số đối của mỗi số nguyên sau: $-8; 0; 12; -2025$.\nb) Biểu diễn các số nguyên sau trên trục số: $-3; -1; 0; 2; 4$.", "rubric": "a) Số đối của -8 là 8; số đối của 0 là 0; số đối của 12 là -12; số đối của -2025 là 2025 (0.5đ).\nb) Vẽ đúng trục số nằm ngang có gốc 0, chiều dương từ trái sang phải, chia đều các vạch đơn vị và biểu diễn chính xác 5 điểm (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "a) Sắp xếp các số nguyên sau theo thứ tự giảm dần: $-15; 0; 8; -3; 12; -9$.\nb) Liệt kê các phần tử của tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -5 \\leq x < 4\\}$.", "rubric": "a) Thứ tự giảm dần (từ lớn đến bé): 12; 8; 0; -3; -9; -15 (0.5đ).\nb) Tập hợp A = {-5; -4; -3; -2; -1; 0; 1; 2; 3} (0.5đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Bảng dưới đây ghi độ cao so với mực nước biển của một số đỉnh núi và rãnh đại dương:\n- Đỉnh Fansipan: $+3143\\text{ m}$\n- Rãnh Mariana: $-10994\\text{ m}$\n- Đỉnh Everest: $+8848\\text{ m}$\n- Biển Chết: $-430\\text{ m}$\na) Nơi nào cao nhất và nơi nào sâu nhất?\nb) Sắp xếp các độ cao trên theo thứ tự từ thấp đến cao.", "rubric": "a) Nơi cao nhất là Đỉnh Everest (+8848 m) (0.25đ). Nơi sâu nhất là Rãnh Mariana (-10994 m) (0.25đ).\nb) Sắp xếp từ thấp đến cao: -10994 m; -430 m; +3143 m; +8848 m (0.5đ)."}]}, "c3_6_bai1_test2": {"title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Cho số nguyên $a < 0$. Khẳng định nào sau đây là SAI?", "options": ["$-a < 0$", "$-a > 0$", "$a$ nằm bên trái điểm 0 trên trục số", "Số đối của $a$ là số nguyên dương"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-10 \\leq x \\leq 10$?", "options": ["$21$", "$20$", "$19$", "$22$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Cho $a, b \\in \\mathbb{Z}$ sao cho $a$ nằm bên trái điểm $b$ trên trục số. Khi đó:", "options": ["$a < b$", "$a > b$", "$a = b$", "$a \\geq b$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Khẳng định nào sau đây là ĐÚNG với mọi số nguyên $x$?", "options": ["Nếu $x > 0$ thì số đối của $x$ nhỏ hơn 0", "Nếu $x \\in \\mathbb{Z}$ thì $-x$ luôn là số nguyên âm", "Khoảng cách từ $x$ đến gốc 0 có thể là số âm", "$-(-x) = -x$"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Số nguyên liền trước của số nguyên âm lớn nhất là:", "options": ["$-2$", "$0$", "$-1$", "$1$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết số đối của $x$ là $-(-7)$:", "options": ["$-7$", "$7$", "$0$", "$14$"], "correct": 0}, {"id": 7, "level": "Vận dụng thấp", "question": "Cho ba số nguyên $a, b, c$ thỏa mãn $a < b < 0 < c$. Sắp xếp các số $a, b, c$ và các số đối của chúng theo thứ tự tăng dần:", "options": ["$-c < a < b < -b < -a < c$", "$a < b < -c < -b < -a < c$", "$-c < -a < -b < a < b < c$", "$a < b < c < -c < -b < -a$"], "correct": 0}, {"id": 8, "level": "Vận dụng thấp", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-5 < x \\leq 5$?", "options": ["$10$", "$11$", "$9$", "$8$"], "correct": 0}, {"id": 9, "level": "Vận dụng thấp", "question": "Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -2024 \\leq x \\leq 2024\\}$. Tổng của tất cả các phần tử của $A$ bằng:", "options": ["$0$", "$2024$", "$-2024$", "$4048$"], "correct": 0}, {"id": 10, "level": "Vận dụng thấp", "question": "Một tàu ngầm đang ở độ sâu $40\\text{ m}$. Tàu lặn thêm $15\\text{ m}$ nữa rồi nổi lên $20\\text{ m}$. Vị trí mới của tàu ngầm biểu diễn bằng số nguyên nào?", "options": ["$-35\\text{ m}$", "$-75\\text{ m}$", "$-45\\text{ m}$", "$35\\text{ m}$"], "correct": 0}, {"id": 11, "level": "Vận dụng thấp", "question": "Biết $x$ là số nguyên âm và $-8 < x < -4$. Tích các giá trị của $x$ thỏa mãn bằng:", "options": ["$-210$", "$210$", "$-35$", "$35$"], "correct": 0}, {"id": 12, "level": "Vận dụng thấp", "question": "Điểm $A$ cách gốc 0 năm đơn vị về bên trái. Điểm $B$ cách điểm $A$ tám đơn vị về bên phải. Tọa độ của điểm $B$ là:", "options": ["$3$", "$-13$", "$-3$", "$13$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho tập hợp $X = \\{x \\in \\mathbb{Z} \\mid -6 < x \\leq 4\\}$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Số phần tử nguyên âm trong tập hợp $X$ là 5 phần tử ($\\{-5; -4; -3; -2; -1\\}$).", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Số phần tử nguyên dương trong tập hợp $X$ là 4 phần tử ($\\{1; 2; 3; 4\\}$).", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Tập hợp $X$ có tổng cộng 10 phần tử kể cả số 0.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Tổng của tất cả các phần tử thuộc tập hợp $X$ bằng $-5$.", "correct": true}]}, {"id": 2, "stem": "Một nhà lạnh có nhiệt độ ban đầu là $6^\\circ\\text{C}$. Người quản lí giảm nhiệt độ $2^\\circ\\text{C}$ mỗi giờ liên tục trong 5 giờ.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Sau 3 giờ đầu tiên, nhiệt độ của nhà lạnh hạ xuống còn $0^\\circ\\text{C}$.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "Sau 5 giờ, nhiệt độ trong nhà lạnh giảm tổng cộng $10^\\circ\\text{C}$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Nhiệt độ cuối cùng trong nhà lạnh là $-4^\\circ\\text{C}$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Nhiệt độ $-4^\\circ\\text{C}$ ấm hơn nhiệt độ $-2^\\circ\\text{C}$.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính tổng của tất cả các số nguyên $x$ thỏa mãn $-8 < x < 9$.", "answer": "8"}, {"id": 2, "level": "Vận dụng thấp", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-15 \\leq x < 20$?", "answer": "35"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số đối của số nguyên $a$ biết rằng $-a = -(-12)$.", "answer": "-12"}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ nhỏ nhất sao cho $x > -25$ và $x$ chia hết cho 5.", "answer": "-20"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Cho các số nguyên sau: $-12; 7; -3; 0; -18; 15; -1$.\na) Tìm số đối của từng số nguyên trên.\nb) Sắp xếp các số nguyên đã cho theo thứ tự tăng dần.\nc) Viết tập hợp các số nguyên $x$ thỏa mãn: $-12 \\leq x < -3$.", "rubric": "a) Số đối lần lượt là: 12; -7; 3; 0; 18; -15; 1 (0.35đ).\nb) Thứ tự tăng dần: -18 < -12 < -3 < -1 < 0 < 7 < 15 (0.35đ).\nc) Tập hợp: {-12; -11; -10; -9; -8; -7; -6; -5; -4} (0.3đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Cho trục số nằm ngang. Điểm $A$ biểu diễn số $-4$, điểm $B$ biểu diễn số $6$.\na) Tính khoảng cách từ điểm $A$ đến điểm $B$ trên trục số.\nb) Tìm tọa độ trung điểm $M$ của đoạn thẳng $AB$.", "rubric": "a) Khoảng cách AB = 6 - (-4) = 6 + 4 = 10 đơn vị (0.5đ).\nb) Trung điểm M nằm cách A và B một khoảng bằng 10 : 2 = 5 đơn vị (0.25đ). Tọa độ của điểm M là: -4 + 5 = 1 (hoặc 6 - 5 = 1) (0.25đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Bác Bình kinh doanh một cửa hàng hoa tươi. Trong 5 ngày liên tiếp, tình hình lợi nhuận (đơn vị: triệu đồng) được ghi lại như sau:\n- Ngày 1: $+2$\n- Ngày 2: $-1$\n- Ngày 3: $+3$\n- Ngày 4: $-2$\n- Ngày 5: $+4$\na) Giải thích ý nghĩa của các số nguyên âm trong bảng số liệu trên.\nb) Tính tổng lợi nhuận của bác Bình sau cả 5 ngày kinh doanh.", "rubric": "a) Số nguyên âm biểu thị ngày kinh doanh bị lỗ: Ngày 2 cửa hàng bị lỗ 1 triệu đồng; Ngày 4 cửa hàng bị lỗ 2 triệu đồng (0.5đ).\nb) Tổng lợi nhuận sau 5 ngày là: (+2) + (-1) + (+3) + (-2) + (+4) = (2 + 3 + 4) - (1 + 2) = 9 - 3 = +6 (triệu đồng) (0.5đ)."}]}, "c3_6_bai1_test3": {"title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a > b$ thì khẳng định nào sau đây luôn đúng?", "options": ["$-a < -b$", "$-a > -b$", "$-a = -b$", "$|a| > |b|$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Tìm tất cả các số nguyên $x$ thỏa mãn $-2 \\leq -x < 3$:", "options": ["$-2; -1; 0; 1; 2$", "$-3; -2; -1; 0; 1$", "$-2; -1; 0$", "$1; 2$"], "correct": 0}, {"id": 3, "level": "Vận dụng thấp", "question": "Cho $A = \\{x \\in \\mathbb{Z} \\mid |x| \\leq 5\\}$. Số phần tử của tập hợp $A$ là:", "options": ["$11$", "$10$", "$5$", "$6$"], "correct": 0}, {"id": 4, "level": "Vận dụng thấp", "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $|x| + |y| = 1$?", "options": ["$4$ cặp", "$2$ cặp", "$8$ cặp", "$6$ cặp"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Cho 5 số nguyên $a_1, a_2, a_3, a_4, a_5$ đều khác 0 thỏa mãn tích của 2 số bất kì trong chúng là số dương. Khẳng định nào đúng?", "options": ["Cả 5 số đều cùng dấu", "Có 3 số âm và 2 số dương", "Có 4 số âm và 1 số dương", "Chỉ có 1 số âm"], "correct": 0}, {"id": 6, "level": "Vận dụng cao", "question": "Cho $x$ là số nguyên. Giá trị nhỏ nhất của biểu thức $P = |x - 3| + 5$ là:", "options": ["$5$", "$3$", "$0$", "$8$"], "correct": 0}, {"id": 7, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ sao cho khoảng cách từ điểm $x$ đến điểm $-3$ trên trục số bằng 7:", "options": ["$x = 4$ hoặc $x = -10$", "$x = 4$", "$x = -10$", "$x = 10$ hoặc $x = -4$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Cho $a$ là số nguyên âm lớn nhất có 3 chữ số khác nhau, $b$ là số nguyên dương nhỏ nhất có 3 chữ số khác nhau. Hiệu $b - a$ bằng:", "options": ["$204$", "$2024$", "$0$", "$200$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $|x - 2| < 4$?", "options": ["$7$", "$8$", "$9$", "$6$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Cho $S = \\{x \\in \\mathbb{Z} \\mid -100 \\leq x \\leq 102\\}$. Tổng của các số nguyên trong tập hợp $S$ bằng:", "options": ["$203$", "$101$", "$102$", "$0$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Trên trục số, điểm $M$ biểu diễn số $-15$, điểm $N$ biểu diễn số $25$. Điểm $P$ nằm giữa $M$ và $N$ sao cho $MP = 3PN$. Tọa độ của điểm $P$ là:", "options": ["$15$", "$5$", "$10$", "$0$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 1| + |x - 5|$ với $x \\in \\mathbb{Z}$:", "options": ["$4$", "$0$", "$2$", "$6$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho hai số nguyên $a$ và $b$ thỏa mãn $a < 0 < b$ và $|a| > |b|$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Trên trục số, điểm $a$ nằm về bên trái điểm 0, điểm $b$ nằm về bên phải điểm 0.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "Khoảng cách từ điểm $a$ đến gốc 0 lớn hơn khoảng cách từ điểm $b$ đến gốc 0.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Tổng $a + b$ là một số nguyên âm.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Số đối của $a$ nhỏ hơn số đối của $b$.", "correct": false}]}, {"id": 2, "stem": "Xét biểu thức $E = |x + 2| + |x - 4|$ với $x$ là số nguyên.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Khoảng cách giữa hai điểm biểu diễn số $-2$ và số $4$ trên trục số là 6 đơn vị.", "correct": true}, {"key": "b", "level": "Vận dụng cao", "text": "Với mọi số nguyên $x$, ta luôn có $|x + 2| + |x - 4| = |x + 2| + |4 - x| \\geq |x + 2 + 4 - x| = 6$.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Giá trị nhỏ nhất của biểu thức $E$ bằng 6.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Biểu thức $E$ đạt giá trị nhỏ nhất khi và chỉ khi $x = 0$.", "correct": false}]}], "part3": [{"id": 1, "level": "Vận dụng thấp", "question": "Tìm số các số nguyên $x$ thỏa mãn $|x| < 20$.", "answer": "39"}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm giá trị nhỏ nhất của biểu thức $B = |x + 5| - 12$.", "answer": "-12"}, {"id": 3, "level": "Vận dụng cao", "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| \\leq 2$?", "answer": "13"}, {"id": 4, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ thỏa mãn $|x - 1| + |x - 3| = 2$. Có bao nhiêu giá trị nguyên của $x$?", "answer": "3"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -2024 < x \\leq 2025\\}$.\na) Tập hợp $A$ có bao nhiêu phần tử?\nb) Tính tổng của tất cả các phần tử thuộc tập hợp $A$.", "rubric": "a) Các phần tử của A từ -2023 đến 2025 (0.25đ). Số phần tử là: 2025 - (-2023) + 1 = 2025 + 2023 + 1 = 4049 phần tử (0.25đ).\nb) Tổng S = (-2023) + (-2022) + ... + 2023 + 2024 + 2025 (0.2đ). Các cặp số đối nhau từ -2023 đến 2023 có tổng bằng 0 (0.15đ). Vậy S = 2024 + 2025 = 4049 (0.15đ)."}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm tất cả các số nguyên $x$ thỏa mãn:\na) $|x - 2| = 5$.\nb) $|x + 1| \\leq 3$.", "rubric": "a) x - 2 = 5 => x = 7; hoặc x - 2 = -5 => x = -3. Vậy x ∈ {7; -3} (0.5đ).\nb) |x + 1| ≤ 3 <=> -3 ≤ x + 1 ≤ 3 <=> -4 ≤ x ≤ 2 (0.3đ). Vì x ∈ Z nên x ∈ {-4; -3; -2; -1; 0; 1; 2} (0.2đ)."}, {"id": 3, "level": "Vận dụng cao", "question": "Cho 2025 số nguyên trong đó tích của 3 số bất kì luôn là một số âm. Chứng minh rằng:\na) Cả 2025 số nguyên đó đều là số âm.\nb) Tích của cả 2025 số nguyên đó là một số âm.", "rubric": "a) Giả sử trong 2025 số có ít nhất 1 số không âm hoặc bằng 0:\n- Nếu có số 0 thì tích 3 số chứa số 0 sẽ bằng 0 (mâu thuẫn vì tích luôn âm) (0.2đ).\n- Nếu có số dương a > 0, lấy 2 số bất kì b, c thì tích a * b * c < 0 => b * c < 0 (luôn có 1 âm 1 dương). Mâu thuẫn nếu chọn cặp số cùng dương (0.3đ).\nVậy tất cả 2025 số đều phải là số âm (0.25đ).\nb) Tích của 2025 số âm (số lẻ các số âm) luôn là một số âm (0.25đ)."}]}, "c3_6_bai2_test1": {"title": "Toán 6 (KNTT) - Bài 14: Phép cộng và phép trừ số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Tổng của hai số nguyên âm luôn là:", "options": ["Một số nguyên âm", "Một số nguyên dương", "Số 0", "Không xác định được dấu"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Kết quả của phép tính $(-3) + (-5)$ là:", "options": ["$-8$", "$8$", "$-2$", "$2$"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Tổng của hai số nguyên đối nhau luôn bằng:", "options": ["$0$", "$1$", "$-1$", "Hai lần số đó"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Muốn trừ số nguyên $a$ cho số nguyên $b$, ta làm như sau:", "options": ["Cộng $a$ với số đối của $b$", "Lấy $b$ trừ đi $a$", "Cộng $a$ với $b$", "Lấy số đối của $a$ trừ đi $b$"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Kết quả của phép tính $5 - 9$ là:", "options": ["$-4$", "$4$", "$-14$", "$14$"], "correct": 0}, {"id": 6, "level": "Nhận biết", "question": "Tính chất nào sau đây là tính chất của phép cộng các số nguyên?", "options": ["Cả giao hoán, kết hợp và cộng với số 0", "Chỉ có tính chất giao hoán", "Chỉ có tính chất kết hợp", "Không có tính chất kết hợp"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Kết quả của phép tính $(-12) + 7$ là:", "options": ["$-5$", "$5$", "$-19$", "$19$"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Kết quả của phép tính $15 + (-8)$ là:", "options": ["$7$", "$-7$", "$23$", "$-23$"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Kết quả của phép tính $(-6) - (-4)$ là:", "options": ["$-2$", "$-10$", "$2$", "$10$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Nhiệt độ lúc 12 giờ trưa là $5^\\circ\\text{C}$, đến 20 giờ cùng ngày nhiệt độ giảm $8^\\circ\\text{C}$. Nhiệt độ lúc 20 giờ là:", "options": ["$-3^\\circ\\text{C}$", "$3^\\circ\\text{C}$", "$-13^\\circ\\text{C}$", "$13^\\circ\\text{C}$"], "correct": 0}, {"id": 11, "level": "Thông hiểu", "question": "Tìm số nguyên $x$ biết $x - 5 = -8$:", "options": ["$x = -3$", "$x = 3$", "$x = -13$", "$x = 13$"], "correct": 0}, {"id": 12, "level": "Thông hiểu", "question": "Tính tổng $S = (-20) + 15 + 20$:", "options": ["$15$", "$55$", "$-15$", "$0$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho các phép tính: $A = (-15) + (-25)$, $B = (-40) + 60$, $C = 20 - 35$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Giá trị của biểu thức $A$ là $-40$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Giá trị của biểu thức $B$ là $20$.", "correct": true}, {"key": "c", "level": "Thông hiểu", "text": "Giá trị của biểu thức $C$ là $-15$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Tổng $A + B + C$ bằng $-5$.", "correct": false}]}, {"id": 2, "stem": "Một tàu ngầm đang ở độ sâu $30\\text{ m}$ dưới mực nước biển (biểu diễn là $-30\\text{ m}$). Sau đó tàu nổi lên $12\\text{ m}$, rồi lại lặn sâu thêm $15\\text{ m}$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Khi nổi lên 12m, độ cao mới của tàu là $(-30) + 12 = -18\\text{ m}$.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "Khi lặn sâu thêm 15m, độ cao cuối cùng của tàu là $(-18) - 15 = -33\\text{ m}$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Sau hai lần di chuyển, vị trí của tàu sâu hơn vị trí ban đầu 3m.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Độ sâu cuối cùng của tàu là $45\\text{ m}$.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính: $(-135) + (-65)$.", "answer": "-200"}, {"id": 2, "level": "Thông hiểu", "question": "Tính: $250 - 320$.", "answer": "-70"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ thỏa mãn: $x + 15 = -5$.", "answer": "-20"}, {"id": 4, "level": "Vận dụng thấp", "question": "Tính tổng các số nguyên $x$ thỏa mãn $-4 \\leq x \\leq 5$.", "answer": "5"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Thực hiện phép tính:\na) $(-28) + (-42)$.\nb) $(-35) + 15$.\nc) $18 - (-12)$.\nd) $(-25) - 15$.", "rubric": "a) -(28 + 42) = -70 (0.25đ).\nb) -(35 - 15) = -20 (0.25đ).\nc) 18 + 12 = 30 (0.25đ).\nd) (-25) + (-15) = -40 (0.25đ)."}, {"id": 2, "level": "Thông hiểu", "question": "Tính một cách hợp lí:\na) $A = (-125) + 48 + 125$.\nb) $B = 37 + (-15) + (-37) + 65$.", "rubric": "a) A = [(-125) + 125] + 48 = 0 + 48 = 48 (0.5đ).\nb) B = [37 + (-37)] + [(-15) + 65] = 0 + 50 = 50 (0.5đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Tài khoản ngân hàng của cô Lan có số dư ban đầu là $5\\,000\\,000$ đồng. Trong tuần, cô thực hiện các giao dịch:\n- Ngày thứ Hai: Nộp thêm $2\\,000\\,000$ đồng.\n- Ngày thứ Tư: Rút ra $3\\,500\\,000$ đồng để chi tiêu.\n- Ngày thứ Sáu: Thanh toán hóa đơn tiền điện $800\\,000$ đồng.\nHỏi số dư trong tài khoản của cô Lan vào cuối tuần là bao nhiêu đồng?", "rubric": "Số tiền sau ngày thứ Hai: 5 000 000 + 2 000 000 = 7 000 000 đồng (0.3đ).\nSố tiền sau ngày thứ Tư: 7 000 000 - 3 500 000 = 3 500 000 đồng (0.3đ).\nSố dư cuối tuần: 3 500 000 - 800 000 = 2 700 000 đồng (0.4đ)."}]}, "c3_6_bai2_test2": {"title": "Toán 6 (KNTT) - Bài 14: Phép cộng và phép trừ số nguyên - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Tính giá trị của biểu thức $P = (-120) + 45 - (-120) + (-55)$:", "options": ["$-10$", "$10$", "$-250$", "$0$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Tìm $x$ biết $15 - (x + 2) = -3$:", "options": ["$x = 16$", "$x = 10$", "$x = -16$", "$x = 14$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Cho $a = -15, b = -8$. Giá trị của $a - b$ là:", "options": ["$-7$", "$7$", "$-23$", "$23$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Tổng của số nguyên âm nhỏ nhất có hai chữ số và số nguyên dương lớn nhất có hai chữ số là:", "options": ["$0$", "$-1$", "$1$", "$-198$"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Cho $x \\in \\mathbb{Z}$ thỏa mãn $-7 < x < 5$. Tổng tất cả các giá trị của $x$ là:", "options": ["$-11$", "$-6$", "$-18$", "$0$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Tính tổng $S = 1 - 2 + 3 - 4 + 5 - 6 + \\dots + 99 - 100$:", "options": ["$-50$", "$50$", "$-100$", "$0$"], "correct": 0}, {"id": 7, "level": "Vận dụng thấp", "question": "Tìm $x$ thỏa mãn $|x| - 5 = -2$:", "options": ["$x = 3$ hoặc $x = -3$", "$x = 3$", "$x = -3$", "$x = 7$ hoặc $x = -7$"], "correct": 0}, {"id": 8, "level": "Vận dụng thấp", "question": "Một người bán hàng bị lỗ $300\\,000$ đồng trong đợt 1, đợt 2 lãi $500\\,000$ đồng, đợt 3 bị lỗ $150\\,000$ đồng. Tổng kết cả 3 đợt người đó:", "options": ["Lãi $50\\,000$ đồng", "Lỗ $50\\,000$ đồng", "Lãi $650\\,000$ đồng", "Hòa vốn"], "correct": 0}, {"id": 9, "level": "Vận dụng thấp", "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a - b = 5$ thì $b - a$ bằng:", "options": ["$-5$", "$5$", "$0$", "Không xác định"], "correct": 0}, {"id": 10, "level": "Vận dụng thấp", "question": "Tính tổng $A = (-1) + 2 + (-3) + 4 + \\dots + (-19) + 20$:", "options": ["$10$", "$-10$", "$20$", "$-20$"], "correct": 0}, {"id": 11, "level": "Vận dụng thấp", "question": "Tìm $x$ nguyên biết $(x - 3) + (-12) = -8$:", "options": ["$x = 7$", "$x = -17$", "$x = 1$", "$x = -1$"], "correct": 0}, {"id": 12, "level": "Vận dụng thấp", "question": "Nhiệt độ phòng đông lạnh lúc đầu là $-6^\\circ\\text{C}$. Nếu tăng thêm $4^\\circ\\text{C}$ rồi sau đó lại giảm đi $7^\\circ\\text{C}$ thì nhiệt độ mới là:", "options": ["$-9^\\circ\\text{C}$", "$-5^\\circ\\text{C}$", "$-17^\\circ\\text{C}$", "$5^\\circ\\text{C}$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho biểu thức $A = 125 + (-48) - 125 + 48 - (-20)$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Áp dụng tính chất giao hoán và kết hợp: $[125 + (-125)] + [(-48) + 48] = 0 + 0 = 0$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Phép trừ số nguyên âm: $- (-20) = + 20$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Giá trị của biểu thức $A$ là 20.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Biểu thức $A$ nhận giá trị âm.", "correct": false}]}, {"id": 2, "stem": "Cho dãy số: $S = 2 - 4 + 6 - 8 + 10 - 12 + \\dots + 98 - 100$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Dãy số có tất cả $(100 - 2) : 2 + 1 = 50$ số hạng.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Ghép thành 25 cặp, mỗi cặp có giá trị bằng $-2$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Giá trị của tổng $S$ là $25 \\cdot (-2) = -50$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Nếu cộng thêm số 102 vào cuối dãy thì giá trị mới là $52$.", "correct": true}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính giá trị của biểu thức: $M = (-250) + 180 + (-50) + 120$.", "answer": "0"}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm $x$ biết: $x - (-18) = 10 + (-15)$.", "answer": "-23"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tính tổng: $S = 1 - 3 + 5 - 7 + 9 - 11 + 13 - 15$.", "answer": "-8"}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ sao cho $x + (-12) = -(-25)$.", "answer": "37"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Tính hợp lí giá trị các biểu thức sau:\na) $A = (-312) + 198 + (-188) + 302$.\nb) $B = 45 - (-15) + (-20) - 40$.", "rubric": "a) A = [(-312) + (-188)] + (198 + 302) = -500 + 500 = 0 (0.5đ).\nb) B = 45 + 15 + (-20) - 40 = 60 - 60 = 0 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết:\na) $x + 12 = -8$.\nb) $25 - (x - 3) = -10$.\nc) $|x - 1| = 4$.", "rubric": "a) x = -8 - 12 = -20 (0.3đ).\nb) x - 3 = 25 - (-10) = 35 => x = 35 + 3 = 38 (0.35đ).\nc) x - 1 = 4 => x = 5 hoặc x - 1 = -4 => x = -3. Vậy x ∈ {5; -3} (0.35đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Tính tổng của tất cả các số nguyên $x$ thỏa mãn:\na) $-10 < x \\leq 10$.\nb) $-15 \\leq x < 12$.", "rubric": "a) x ∈ {-9; -8; ...; 8; 9; 10}. Tổng S = [(-9) + 9] + ... + [(-1) + 1] + 0 + 10 = 10 (0.5đ).\nb) x ∈ {-15; -14; ...; 10; 11}. Các số từ -11 đến 11 có tổng bằng 0. Còn lại: (-15) + (-14) + (-13) + (-12) = -54 (0.5đ)."}]}, "c3_6_bai2_test3": {"title": "Toán 6 (KNTT) - Bài 14: Phép cộng và phép trừ số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a + b < a$ thì:", "options": ["$b < 0$", "$b > 0$", "$b = 0$", "$a < 0$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a - b > a$ thì:", "options": ["$b < 0$", "$b > 0$", "$b = 0$", "$a > 0$"], "correct": 0}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x + 2| + 10$:", "options": ["$10$", "$2$", "$0$", "$12$"], "correct": 0}, {"id": 4, "level": "Vận dụng thấp", "question": "Tính tổng $S = 1 - 4 + 7 - 10 + 13 - 16 + \\dots + 97 - 100$:", "options": ["$-51$", "$-50$", "$51$", "$-48$"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ thỏa mãn $|x + 3| + |y - 2| = 0$:", "options": ["$x = -3, y = 2$", "$x = 3, y = -2$", "$x = 0, y = 0$", "Vô số cặp"], "correct": 0}, {"id": 6, "level": "Vận dụng cao", "question": "Cho $a, b, c \\in \\mathbb{Z}$ thỏa mãn $a + b = 5, b + c = 12, c + a = 7$. Giá trị của $a + b + c$ bằng:", "options": ["$12$", "$24$", "$6$", "$14$"], "correct": 0}, {"id": 7, "level": "Vận dụng cao", "question": "Tìm giá trị lớn nhất của biểu thức $M = 20 - |x - 4|$:", "options": ["$20$", "$16$", "$24$", "$4$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| = 3$?", "options": ["$12$", "$8$", "$16$", "$6$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Cho dãy số: $x_1, x_2, \\dots, x_{2025}$ sao cho tổng của 3 số bất kì liên tiếp luôn bằng $4$. Biết $x_1 = 5, x_2 = -3$. Giá trị của $x_{2025}$ là:", "options": ["$2$", "$5$", "$-3$", "$4$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Cho $a$ và $b$ là hai số nguyên khác 0 thỏa mãn $a + b = 0$. Giá trị của biểu thức $\\frac{a}{|b|} + \\frac{b}{|a|}$ bằng:", "options": ["$-2$", "$0$", "$2$", "$1$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Tính tổng $S = 100 - 99 + 98 - 97 + \\dots + 2 - 1$:", "options": ["$50$", "$100$", "$-50$", "$25$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Cho $x, y \\in \\mathbb{Z}$ thỏa mãn $|x - y| = 1$. Giá trị của biểu thức $(x - y)^2$ bằng:", "options": ["$1$", "$-1$", "$0$", "$2$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho ba số nguyên $a, b, c$ thỏa mãn $a - b = 7$ và $b - c = -11$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Cộng hai vế ta được: $(a - b) + (b - c) = a - c$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Giá trị của $a - c = 7 + (-11) = -4$.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Do $a - c = -4$ nên $a < c$.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Thứ tự tăng dần của ba số là $a < b < c$.", "correct": false}]}, {"id": 2, "stem": "Xét biểu thức $S = |x - 2| + |x + 5|$ với $x \\in \\mathbb{Z}$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Khoảng cách giữa hai điểm $-5$ và $2$ trên trục số bằng $2 - (-5) = 7$.", "correct": true}, {"key": "b", "level": "Vận dụng cao", "text": "Áp dụng bất đẳng thức trị tuyệt đối: $|x - 2| + |x + 5| = |2 - x| + |x + 5| \\geq |2 - x + x + 5| = 7$.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Giá trị nhỏ nhất của $S$ bằng $7$.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Giá trị nhỏ nhất đạt được với mọi số nguyên $x$ thỏa mãn $-5 \\leq x \\leq 2$ (có 8 giá trị nguyên).", "correct": true}]}], "part3": [{"id": 1, "level": "Vận dụng thấp", "question": "Tính tổng $S = 1 - 2 - 3 + 4 + 5 - 6 - 7 + 8 + \\dots + 97 - 98 - 99 + 100$.", "answer": "0"}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ sao cho biểu thức $P = 15 - |x + 4|$ đạt giá trị lớn nhất.", "answer": "-4"}, {"id": 3, "level": "Vận dụng cao", "question": "Cho $a + b = -2$ và $b + c = 5$ và $c + a = 1$. Tính giá trị của $a + b + c$.", "answer": "2"}, {"id": 4, "level": "Vận dụng cao", "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| = 2$?", "answer": "8"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Tính tổng một cách hợp lí:\n$S = 1 + (-2) + 3 + (-4) + 5 + (-6) + \\dots + 2023 + (-2024) + 2025$.", "rubric": "Dãy có 2025 số hạng. Ta nhóm các cặp số từ đầu:\nS = [1 + (-2)] + [3 + (-4)] + ... + [2023 + (-2024)] + 2025 (0.35đ).\nTừ 1 đến 2024 có 2024 : 2 = 1012 cặp, mỗi cặp có giá trị bằng -1 (0.35đ).\nS = 1012 * (-1) + 2025 = -1012 + 2025 = 1013 (0.3đ)."}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm các số nguyên $x, y$ thỏa mãn:\na) $|x - 3| + |y + 1| = 0$.\nb) $|x| + |y| = 1$.", "rubric": "a) Vì |x - 3| ≥ 0 và |y + 1| ≥ 0 với mọi x, y nên để tổng bằng 0 thì:\n|x - 3| = 0 => x = 3; và |y + 1| = 0 => y = -1. Vậy (x; y) = (3; -1) (0.5đ).\nb) Vì |x|, |y| ≥ 0 và x, y ∈ Z nên:\nTH1: |x| = 0, |y| = 1 => x = 0, y = ±1 (0.25đ).\nTH2: |x| = 1, |y| = 0 => x = ±1, y = 0 (0.25đ).\nVậy có 4 cặp (x; y): (0; 1), (0; -1), (1; 0), (-1; 0)."}, {"id": 3, "level": "Vận dụng cao", "question": "Cho $x_1 + x_2 + x_3 + \\dots + x_{50} + x_{51} = 0$.\nBiết rằng $x_1 + x_2 = x_3 + x_4 = \\dots = x_{49} + x_{50} = 1$.\nTính giá trị của số nguyên $x_{51}$.", "rubric": "Từ x_1 đến x_50 có 50 số, chia thành 25 cặp liên tiếp dạng (x_{2k-1} + x_{2k}) (0.35đ).\nTổng của 50 số đầu là: (x_1 + x_2) + (x_3 + x_4) + ... + (x_{49} + x_{50}) = 25 * 1 = 25 (0.35đ).\nTheo đề bài: (x_1 + x_2 + ... + x_{50}) + x_{51} = 0 => 25 + x_{51} = 0 => x_{51} = -25 (0.3đ)."}]}, "c3_6_bai3_test1": {"title": "Toán 6 (KNTT) - Bài 15: Quy tắc dấu ngoặc - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Khi bỏ dấu ngoặc có dấu \"+\" đằng trước, ta làm như sau:", "options": ["Giữ nguyên dấu của các số hạng trong ngoặc", "Đổi dấu tất cả các số hạng trong ngoặc", "Đổi dấu số hạng đầu tiên", "Đổi dấu số hạng cuối cùng"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Khi bỏ dấu ngoặc có dấu \"-\" đằng trước, ta làm như sau:", "options": ["Đổi dấu tất cả các số hạng trong ngoặc", "Giữ nguyên dấu của các số hạng trong ngoặc", "Chỉ đổi dấu số hạng mang dấu trừ", "Chỉ đổi dấu số hạng đầu tiên"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Bỏ dấu ngoặc biểu thức $-(a - b + c)$ ta được:", "options": ["$-a + b - c$", "$-a - b + c$", "$-a - b - c$", "$a - b + c$"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Bỏ dấu ngoặc biểu thức $+(x - y + z)$ ta được:", "options": ["$x - y + z$", "$-x + y - z$", "$x + y + z$", "$-x - y + z$"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Biểu thức $a - (b + c)$ bằng biểu thức nào sau đây?", "options": ["$a - b - c$", "$a - b + c$", "$a + b - c$", "$a + b + c$"], "correct": 0}, {"id": 6, "level": "Nhận biết", "question": "Đặt dấu ngoặc có dấu \"-\" đằng trước cho biểu thức $-x + y - z$ ta được:", "options": ["$-(x - y + z)$", "$-(x + y - z)$", "$-(-x - y + z)$", "$-(x + y + z)$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Tính hợp lí: $A = 215 - (115 + 40)$:", "options": ["$60$", "$140$", "$160$", "$50$"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Rút gọn biểu thức $M = (a + b) - (a - b)$:", "options": ["$2b$", "$2a$", "$0$", "$a + 2b$"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Kết quả của phép tính $(-35) - (20 - 35)$ là:", "options": ["$-20$", "$20$", "$-50$", "$0$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Tính $B = (123 - 45) - (123 + 55)$:", "options": ["$-100$", "$100$", "$10$", "$-10$"], "correct": 0}, {"id": 11, "level": "Thông hiểu", "question": "Tìm $x$ biết $x - (12 - 5) = -10$:", "options": ["$x = -3$", "$x = 3$", "$x = -17$", "$x = 17$"], "correct": 0}, {"id": 12, "level": "Thông hiểu", "question": "Giá trị của biểu thức $P = -(15 - 28) - 28$ bằng:", "options": ["$-15$", "$15$", "$41$", "$-41$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho biểu thức $A = (27 + 65) + (346 - 27 - 65)$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Bỏ dấu ngoặc ta được $A = 27 + 65 + 346 - 27 - 65$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Nhóm các số hạng đối nhau: $(27 - 27) + (65 - 65) = 0$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Giá trị của biểu thức $A$ là $346$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Nếu thay $346$ bằng $-100$ thì giá trị của $A$ bằng $100$.", "correct": false}]}, {"id": 2, "stem": "Cho biểu thức $B = (a - b) - (c - d) + (b + c)$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Bỏ dấu ngoặc đúng: $B = a - b - c + d + b + c$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Các số hạng đối nhau triệt tiêu: $(-b + b) = 0$ và $(-c + c) = 0$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Biểu thức rút gọn là $B = a + d$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Khi $a = 15, d = -5$ thì giá trị của $B$ bằng $20$.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính giá trị của biểu thức: $S = (123 - 45) - 123$.", "answer": "-45"}, {"id": 2, "level": "Thông hiểu", "question": "Rút gọn biểu thức $P = x - (x - y) + (y - z) + z$. Kết quả bằng mấy $y$?", "answer": "2"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tính: $A = (15 - 28) - (15 - 28 + 42)$.", "answer": "-42"}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết $25 - (x + 5) = -10$.", "answer": "30"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Bỏ dấu ngoặc rồi tính giá trị của các biểu thức sau:\na) $A = (135 - 47) - (135 - 47 + 50)$.\nb) $B = -(24 - 115) + (35 - 115)$.", "rubric": "a) A = 135 - 47 - 135 + 47 - 50 = (135 - 135) + (-47 + 47) - 50 = -50 (0.5đ).\nb) B = -24 + 115 + 35 - 115 = (115 - 115) + (35 - 24) = 11 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Rút gọn các biểu thức sau:\na) $M = (a + b - c) - (b - c + d)$.\nb) $N = -(x - y + z) + (x + y - z) - (y - z)$.", "rubric": "a) M = a + b - c - b + c - d = a + (b - b) + (-c + c) - d = a - d (0.5đ).\nb) N = -x + y - z + x + y - z - y + z = (-x + x) + (y + y - y) + (-z - z + z) = y - z (0.5đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết:\na) $15 - (x - 7) = -8$.\nb) $(x - 3) - (2x + 5) = 10$.", "rubric": "a) 15 - x + 7 = -8 => 22 - x = -8 => x = 22 - (-8) = 30 (0.5đ).\nb) x - 3 - 2x - 5 = 10 => -x - 8 = 10 => -x = 18 => x = -18 (0.5đ)."}]}, "c3_6_bai3_test2": {"title": "Toán 6 (KNTT) - Bài 15: Quy tắc dấu ngoặc - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Tính giá trị của $P = (12 - 34 + 56) - (56 + 12 - 34)$:", "options": ["$0$", "$24$", "$-68$", "$112$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Cho $M = a - (b - c)$ và $N = (a - b) + c$. Khẳng định nào sau đây là đúng?", "options": ["$M = N$", "$M = -N$", "$M = N - 2c$", "$M = N + 2b$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Rút gọn biểu thức $A = -(a - b - c) - (-a + b + c)$:", "options": ["$0$", "$-2a + 2b + 2c$", "$2b + 2c$", "$-2a$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Tính $S = (2024 - 15) - (2024 - 35)$:", "options": ["$20$", "$-20$", "$50$", "$-50$"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Tìm $x$ biết $(x - 4) - (12 - 4) = -20$:", "options": ["$x = -8$", "$x = 8$", "$x = -12$", "$x = 12$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Cho $a - b = 5$. Giá trị của biểu thức $P = (a + c) - (b + c)$ là:", "options": ["$5$", "$5 + 2c$", "$-5$", "$0$"], "correct": 0}, {"id": 7, "level": "Vận dụng thấp", "question": "Tính tổng $A = (1 - 2) + (3 - 4) + (5 - 6) + \\dots + (99 - 100)$:", "options": ["$-50$", "$50$", "$-100$", "$0$"], "correct": 0}, {"id": 8, "level": "Vận dụng thấp", "question": "Rút gọn $K = (x + y - z) - (x - y + z) - (y + z)$:", "options": ["$y - 3z$", "$y + z$", "$3y - z$", "$-3z$"], "correct": 0}, {"id": 9, "level": "Vận dụng thấp", "question": "Cho $x - y = -3$. Giá trị của $Q = (x + 2) - (y - 5)$ là:", "options": ["$4$", "$-4$", "$-6$", "$10$"], "correct": 0}, {"id": 10, "level": "Vận dụng thấp", "question": "Tính $M = [12 - (-15 + 4)] - (12 + 15 - 4)$:", "options": ["$0$", "$22$", "$-22$", "$30$"], "correct": 0}, {"id": 11, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết $10 - [x - (5 - 2)] = 15$:", "options": ["$-2$", "$2$", "$8$", "$-8$"], "correct": 0}, {"id": 12, "level": "Vận dụng thấp", "question": "Biểu thức $-(x - y - z) + (x - y - z)$ rút gọn được:", "options": ["$0$", "$-2x + 2y + 2z$", "$2y + 2z$", "$-2x$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho biểu thức $P = (a - b + c) - (a + c - b) + (b - c)$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Bỏ ngoặc hai nhóm đầu: $(a - b + c) - (a + c - b) = a - b + c - a - c + b = 0$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Biểu thức $P$ rút gọn thành $P = b - c$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Khi $b = 12, c = 20$ thì giá trị của $P$ bằng $-8$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Giá trị của biểu thức $P$ phụ thuộc vào giá trị của biến $a$.", "correct": false}]}, {"id": 2, "stem": "Cho ba số nguyên $x, y, z$ thỏa mãn $x - y = 8$ và $y - z = -5$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Xét hiệu $(x - y) + (y - z) = x - z$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Giá trị của $x - z = 8 + (-5) = 3$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Biểu thức $K = (x - z) + (z - y)$ có giá trị bằng $8$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Ta có $x < y < z$.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính $S = (45 - 3750) - (29 - 3750)$.", "answer": "16"}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm $x$ biết: $(x + 12) - (15 - 20) = -8$.", "answer": "-25"}, {"id": 3, "level": "Vận dụng thấp", "question": "Cho $a - b = 10$. Tính giá trị của biểu thức $(a + 5) - (b - 5)$.", "answer": "20"}, {"id": 4, "level": "Vận dụng thấp", "question": "Rút gọn $A = -(x - y) - (y - z) - (z - x)$. Kết quả bằng bao nhiêu?", "answer": "0"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Tính một cách hợp lí:\na) $A = (27 + 65) + (346 - 27 - 65)$.\nb) $B = (42 - 69 + 17) - (42 + 17)$.", "rubric": "a) A = 27 + 65 + 346 - 27 - 65 = (27 - 27) + (65 - 65) + 346 = 346 (0.5đ).\nb) B = 42 - 69 + 17 - 42 - 17 = (42 - 42) + (17 - 17) - 69 = -69 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Chứng minh rằng giá trị của biểu thức sau không phụ thuộc vào giá trị của biến:\n$P = (a + b - c) - (b - c + d) + (c + d - a) - c$.", "rubric": "Bỏ dấu ngoặc:\nP = a + b - c - b + c - d + c + d - a - c (0.4đ).\nNhóm các số hạng đồng dạng:\nP = (a - a) + (b - b) + (-c + c + c - c) + (-d + d) (0.4đ)\nP = 0 + 0 + 0 + 0 = 0 (0.2đ).\nVậy biểu thức P luôn bằng 0, không phụ thuộc vào các biến a, b, c, d."}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết:\na) $(x - 5) - (2x + 3) = -12$.\nb) $18 - [x - (3 - 7)] = -5$.", "rubric": "a) x - 5 - 2x - 3 = -12 => -x - 8 = -12 => -x = -4 => x = 4 (0.5đ).\nb) 18 - [x - (-4)] = -5 => 18 - (x + 4) = -5 => 18 - x - 4 = -5 => 14 - x = -5 => x = 19 (0.5đ)."}]}, "c3_6_bai3_test3": {"title": "Toán 6 (KNTT) - Bài 15: Quy tắc dấu ngoặc - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Cho $S_n = (1 - 2) + (3 - 4) + \\dots + [(2n - 1) - 2n]$. Biểu thức rút gọn của $S_n$ theo $n$ là:", "options": ["$-n$", "$n$", "$-2n$", "$0$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Rút gọn biểu thức $A = -[-(-a + b) - (c - d)] - (a + d)$:", "options": ["$-b + c$", "$b - c$", "$2a - b + c$", "$-2a + b - c$"], "correct": 0}, {"id": 3, "level": "Vận dụng thấp", "question": "Cho $a + b - c = 20$. Giá trị của biểu thức $M = (a + 5) - (c - 8) + (b - 3)$ là:", "options": ["$30$", "$10$", "$25$", "$14$"], "correct": 0}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm $x$ biết $x - \\{x - [x - (x - 1)]\\} = 0$:", "options": ["$x = 1$", "$x = 0$", "$x = -1$", "Vô số $x$"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Cho các số nguyên $a, b, c, d$ thỏa mãn $a + b = c + d$. Khi đó $(a - c) - (d - b)$ bằng:", "options": ["$0$", "$2a$", "$2d$", "$1$"], "correct": 0}, {"id": 6, "level": "Vận dụng cao", "question": "Cho $A = 1 - 2 + 3 - 4 + \\dots + 2023 - 2024$. Giá trị của $2024 - A$ bằng:", "options": ["$3036$", "$1012$", "$2024$", "$-1012$"], "correct": 0}, {"id": 7, "level": "Vận dụng cao", "question": "Biết $(x - y + z) - (x + y - z) = 10$. Hiệu $z - y$ bằng:", "options": ["$5$", "$10$", "$-5$", "$-10$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Tìm giá trị nhỏ nhất của $A = |x - 1| - (x - 1)$ khi $x \\leq 1$:", "options": ["$2(1 - x)$", "$0$", "$1$", "$-2$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Cho $S = a_1 - a_2 + a_3 - a_4 + \\dots + a_{99} - a_{100}$. Nếu đổi dấu tất cả các số hạng của $S$ thì tổng mới bằng:", "options": ["$-S$", "$S$", "$0$", "$2S$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Cho 4 số nguyên $a, b, c, d$. Nếu $(a - b) + (c - d) = (a + c) - (b + d)$ thì đẳng thức này:", "options": ["Luôn đúng với mọi $a, b, c, d$", "Chỉ đúng khi $a = b = c = d$", "Chỉ đúng khi $a = b$", "Chỉ đúng khi $c = d$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Tìm $x$ biết: $(x - 1) - (x - 2) + (x - 3) - (x - 4) + \\dots + (x - 99) - (x - 100) = x$:", "options": ["$x = 50$", "$x = -50$", "$x = 100$", "$x = 0$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Cho biểu thức $P = -(a - b - c) - [(-a + b) - (c - d)] - d$. Giá trị của $P$ là:", "options": ["$0$", "$2a$", "$2b$", "$2c$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho dãy biểu thức $T = (a_1 - a_2) + (a_2 - a_3) + (a_3 - a_4) + \\dots + (a_{2024} - a_{2025})$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Khi bỏ dấu ngoặc, các số hạng trung gian $a_2, a_3, \\dots, a_{2024}$ đều xuất hiện một lần mang dấu trừ và một lần mang dấu cộng.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "Tất cả các số hạng trung gian bị triệt tiêu từng đôi một.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Biểu thức thu gọn cuối cùng là $T = a_1 - a_{2025}$.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Nếu $a_1 = a_{2025}$ thì giá trị của $T$ luôn bằng $1$.", "correct": false}]}, {"id": 2, "stem": "Cho ba số nguyên $a, b, c$. Xét biểu thức $M = a(b - c) - a(b + d) + ad$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Áp dụng tính chất phân phối: $a(b - c) = ab - ac$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Ta có $a(b + d) = ab + ad$, khi có dấu trừ đằng trước đổi thành $-ab - ad$.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Khai triển và rút gọn: $M = ab - ac - ab - ad + ad = -ac$.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Khi $a = 5, c = -4$ thì giá trị của $M$ bằng $-20$.", "correct": false}]}], "part3": [{"id": 1, "level": "Vận dụng thấp", "question": "Tính giá trị của biểu thức $A = (1 - 2) + (3 - 4) + \\dots + (2023 - 2024)$.", "answer": "-1012"}, {"id": 2, "level": "Vận dụng cao", "question": "Cho $a - b = -5$ và $c - d = 12$. Tính giá trị của $(a - d) - (b - c)$.", "answer": "7"}, {"id": 3, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ thỏa mãn: $1 - (2 - (3 - (4 - x))) = 10$.", "answer": "12"}, {"id": 4, "level": "Vận dụng cao", "question": "Rút gọn biểu thức $S = (a + b) - (b - c) + (c - d) - (d - a)$. Kết quả bằng mấy lần của $(a + c - d)$?", "answer": "2"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Cho biểu thức $A = (a - b + c) - (a + c - b) + (b - c) - (b + c)$.\na) Rút gọn biểu thức $A$.\nb) Tính giá trị của $A$ biết $c = -15$.", "rubric": "a) Bỏ dấu ngoặc:\nA = a - b + c - a - c + b + b - c - b - c (0.3đ)\n= (a - a) + (-b + b + b - b) + (c - c - c - c) (0.3đ)\n= 0 + 0 - 2c = -2c (0.2đ).\nb) Với c = -15: A = -2 * (-15) = 30 (0.2đ)."}, {"id": 2, "level": "Vận dụng cao", "question": "Tính tổng sau một cách khoa học:\n$S = (1 - 2 - 3 + 4) + (5 - 6 - 7 + 8) + \\dots + (2021 - 2022 - 2023 + 2024)$.", "rubric": "Xét nhóm tổng quát 4 số liên tiếp:\nk - (k + 1) - (k + 2) + (k + 3) = k - k - 1 - k - 2 + k + 3 = (k - k - k + k) + (-1 - 2 + 3) = 0 (0.4đ).\nTổng S gồm các nhóm 4 số hạng có giá trị đều bằng 0 (0.3đ).\nTừ 1 đến 2024 có 2024 số, chia thành 2024 : 4 = 506 nhóm (0.15đ).\nVậy S = 506 * 0 = 0 (0.15đ)."}, {"id": 3, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ thỏa mãn:\n$(x - 1) + (x - 2) + (x - 3) + \\dots + (x - 20) = -110$.", "rubric": "Phá dấu ngoặc: có 20 số x và tổng các số từ 1 đến 20 (0.3đ).\n(x + x + ... + x) - (1 + 2 + 3 + ... + 20) = -110 (0.25đ).\n20x - (20 * 21 : 2) = -110 => 20x - 210 = -110 (0.25đ).\n20x = 210 - 110 = 100 => x = 100 : 20 = 5 (0.2đ)."}]}, "c3_6_bai4_test1": {"title": "Toán 6 (KNTT) - Bài 16: Phép nhân số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Tích của hai số nguyên cùng dấu luôn là:", "options": ["Một số nguyên dương", "Một số nguyên âm", "Số 0", "Tùy thuộc vào độ lớn của hai số"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Tích của hai số nguyên khác dấu luôn là:", "options": ["Một số nguyên âm", "Một số nguyên dương", "Số 0", "Không xác định"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Kết quả của phép nhân $(-4) \\cdot (-5)$ là:", "options": ["$20$", "$-20$", "$-9$", "$9$"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Kết quả của phép nhân $(-6) \\cdot 7$ là:", "options": ["$-42$", "$42$", "$-13$", "$13$"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Tích của bất kì số nguyên $a$ nào với số 0 đều bằng:", "options": ["$0$", "$a$", "$-a$", "$1$"], "correct": 0}, {"id": 6, "level": "Nhận biết", "question": "Khi nhân một số nguyên $a$ với $-1$, ta được:", "options": ["Số đối của $a$ (tức là $-a$)", "$a$", "$1$", "$-1$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Tính: $(-2) \\cdot (-3) \\cdot (-4)$:", "options": ["$-24$", "$24$", "$-9$", "$9$"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Tích của ba số nguyên âm và hai số nguyên dương là:", "options": ["Một số nguyên âm", "Một số nguyên dương", "Số 0", "Không xác định"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Kết quả của phép tính $(-5)^2$ là:", "options": ["$25$", "$-25$", "$-10$", "$10$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Kết quả của phép tính $(-2)^3$ là:", "options": ["$-8$", "$8$", "$-6$", "$6$"], "correct": 0}, {"id": 11, "level": "Thông hiểu", "question": "Tính nhanh: $(-25) \\cdot 12 \\cdot (-4)$:", "options": ["$1200$", "$-1200$", "$300$", "$-300$"], "correct": 0}, {"id": 12, "level": "Thông hiểu", "question": "Tìm số nguyên $x$ biết $3 \\cdot x = -15$:", "options": ["$x = -5$", "$x = 5$", "$x = -18$", "$x = -12$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho các biểu thức: $A = (-4) \\cdot (-25) \\cdot 7$, $B = (-12) \\cdot 5 \\cdot (-2)$, $C = (-8) \\cdot 125$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Biểu thức $A = 100 \\cdot 7 = 700$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Biểu thức $B = (-60) \\cdot (-2) = 120$.", "correct": true}, {"key": "c", "level": "Thông hiểu", "text": "Biểu thức $C = -1000$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Trong ba biểu thức trên, chỉ có duy nhất biểu thức $C$ mang giá trị âm.", "correct": true}]}, {"id": 2, "stem": "Một xí nghiệp may mỗi ngày sản xuất được $250$ bộ quần áo. Do gặp sự cố mất điện, trong 4 ngày liên tiếp mỗi ngày sản xuất giảm đi $30$ bộ (biểu diễn là $-30$).", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Số lượng quần áo bị giảm trong 4 ngày được tính bằng phép nhân $4 \\cdot (-30)$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Kết quả của phép tính $4 \\cdot (-30) = -120$ bộ quần áo.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Trong 4 ngày gặp sự cố, tổng số bộ quần áo thực tế may được là $880$ bộ.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Năng suất mỗi ngày gặp sự cố là $280$ bộ.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính: $(-15) \\cdot (-4) \\cdot 2$.", "answer": "120"}, {"id": 2, "level": "Thông hiểu", "question": "Tính giá trị của lũy thừa $(-3)^4$.", "answer": "81"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết: $(-5) \\cdot x = 45$.", "answer": "-9"}, {"id": 4, "level": "Vận dụng thấp", "question": "Tính nhanh: $47 \\cdot (-25) + 53 \\cdot (-25)$.", "answer": "-2500"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Thực hiện phép tính:\na) $(-12) \\cdot (-5)$.\nb) $18 \\cdot (-4)$.\nc) $(-2)^2 \\cdot (-3)^2$.\nd) $(-1)^{2024} + (-1)^{2025}$.", "rubric": "a) 60 (0.25đ).\nb) -72 (0.25đ).\nc) 4 * 9 = 36 (0.25đ).\nd) 1 + (-1) = 0 (0.25đ)."}, {"id": 2, "level": "Thông hiểu", "question": "Tính một cách hợp lí:\na) $A = (-8) \\cdot 25 \\cdot (-125) \\cdot 4$.\nb) $B = 35 \\cdot (-18) + 35 \\cdot (-82)$.", "rubric": "a) A = [(-8) * (-125)] * (25 * 4) = 1000 * 100 = 100000 (0.5đ).\nb) B = 35 * [(-18) + (-82)] = 35 * (-100) = -3500 (0.5đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết:\na) $4 \\cdot (x - 3) = -20$.\nb) $(-2) \\cdot x + 15 = -5$.", "rubric": "a) x - 3 = -20 : 4 = -5 => x = -5 + 3 = -2 (0.5đ).\nb) (-2) * x = -5 - 15 = -20 => x = -20 : (-2) = 10 (0.5đ)."}]}, "c3_6_bai4_test2": {"title": "Toán 6 (KNTT) - Bài 16: Phép nhân số nguyên - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Tích của 2025 số nguyên âm là:", "options": ["Một số nguyên âm", "Một số nguyên dương", "Số 0", "Không xác định"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Tính $P = 125 \\cdot (-8) \\cdot (-4) \\cdot 25$:", "options": ["$100000$", "$-100000$", "$10000$", "$-10000$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Cho $a \\cdot b > 0$ và $a + b < 0$. Khi đó:", "options": ["Cả $a$ và $b$ đều là số nguyên âm", "Cả $a$ và $b$ đều là số nguyên dương", "$a$ âm và $b$ dương", "$a$ dương và $b$ âm"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Giá trị của biểu thức $A = (-2) \\cdot (-3)^2 \\cdot (-5)$ là:", "options": ["$90$", "$-90$", "$180$", "$-180$"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Tìm $x$ biết $(x + 2)(x - 3) = 0$:", "options": ["$x = -2$ hoặc $x = 3$", "$x = 2$ hoặc $x = -3$", "$x = -2$", "$x = 3$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Tính nhanh: $B = 29 \\cdot (-13) + 27 \\cdot (-13) + (-13) \\cdot 44$:", "options": ["$-1300$", "$1300$", "$-130$", "$2600$"], "correct": 0}, {"id": 7, "level": "Vận dụng thấp", "question": "Cho $x$ là số nguyên thỏa mãn $x^2 = 49$. Khi đó $x$ bằng:", "options": ["$7$ hoặc $-7$", "Chỉ $7$", "Chỉ $-7$", "Không có giá trị nào"], "correct": 0}, {"id": 8, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ sao cho $(x - 1)^3 = -27$:", "options": ["$x = -2$", "$x = 4$", "$x = -4$", "$x = 2$"], "correct": 0}, {"id": 9, "level": "Vận dụng thấp", "question": "Một kho lạnh đang ở nhiệt độ $2^\\circ\\text{C}$. Người ta cài đặt để nhiệt độ giảm đều $3^\\circ\\text{C}$ mỗi giờ. Sau 5 giờ, nhiệt độ của kho lạnh là:", "options": ["$-13^\\circ\\text{C}$", "$-15^\\circ\\text{C}$", "$-17^\\circ\\text{C}$", "$-10^\\circ\\text{C}$"], "correct": 0}, {"id": 10, "level": "Vận dụng thấp", "question": "Biết $a \\cdot b = -24$ và $a < b < 0$. Điều này có thể xảy ra không?", "options": ["Không thể xảy ra vì tích hai số âm luôn dương", "Có thể xảy ra", "Chỉ xảy ra khi $a = -24$", "Chỉ xảy ra khi $b = -1$"], "correct": 0}, {"id": 11, "level": "Vận dụng thấp", "question": "Cho biểu thức $M = a(b - c) - b(a - c)$. Rút gọn $M$ ta được:", "options": ["$c(b - a)$", "$c(a - b)$", "$ab - c$", "$0$"], "correct": 0}, {"id": 12, "level": "Vận dụng thấp", "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y = 5$?", "options": ["$4$ cặp", "$2$ cặp", "$1$ cặp", "Vô số"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho biểu thức $A = (-4) \\cdot (x - 3) + 2 \\cdot (x - 3)$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Đặt nhân tử chung $(x - 3)$: $A = (x - 3)[(-4) + 2] = -2(x - 3)$.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Khai triển ra ta được $A = -2x + 6$.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Khi $x = 5$, giá trị của $A$ bằng $-4$.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Để $A = 0$ thì $x = -3$.", "correct": false}]}, {"id": 2, "stem": "Một nhà đầu tư mua $100$ cổ phiếu với giá $50\\,000$ đồng/cổ phiếu. Trong tuần, giá cổ phiếu biến động như sau:\n- 3 ngày đầu: mỗi ngày tăng $2\\,000$ đồng (+2 000)\n- 2 ngày sau: mỗi ngày giảm $4\\,000$ đồng (-4 000).", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Tổng mức tăng trong 3 ngày đầu là $3 \\cdot 2000 = +6000$ đồng mỗi cổ phiếu.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Tổng mức giảm trong 2 ngày sau là $2 \\cdot (-4000) = -8000$ đồng mỗi cổ phiếu.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Sau 5 ngày, mỗi cổ phiếu bị giảm $2\\,000$ đồng so với giá ban đầu.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Tổng số tiền nhà đầu tư bị lỗ sau tuần đó là $200\\,000$ đồng.", "correct": true}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính: $P = (-4) \\cdot (-5) \\cdot (-6) \\cdot (-7)$.", "answer": "840"}, {"id": 2, "level": "Vận dụng thấp", "question": "Tính hợp lí: $17 \\cdot (-85) + 17 \\cdot (-15)$.", "answer": "-1700"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết: $(x + 5)^2 = 36$ và $x < 0$.", "answer": "-11"}, {"id": 4, "level": "Vận dụng thấp", "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y = -7$?", "answer": "4"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Tính giá trị của biểu thức một cách hợp lí:\na) $A = (-8) \\cdot 25 \\cdot (-2) \\cdot 4 \\cdot (-5) \\cdot 125$.\nb) $B = 48 \\cdot (-24) + (-24) \\cdot 52$.", "rubric": "a) A = [(-8) * 125] * (25 * 4) * [(-2) * (-5)] = (-1000) * 100 * 10 = -1000000 (0.5đ).\nb) B = (-24) * (48 + 52) = (-24) * 100 = -2400 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết:\na) $(x - 2)(x + 4) = 0$.\nb) $(-3) \\cdot (x - 5) + 12 = -6$.\nc) $x^2 - 16 = 0$.", "rubric": "a) x - 2 = 0 => x = 2; hoặc x + 4 = 0 => x = -4. Vậy x ∈ {2; -4} (0.35đ).\nb) -3(x - 5) = -18 => x - 5 = 6 => x = 11 (0.35đ).\nc) x^2 = 16 => x = 4 hoặc x = -4 (0.3đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Một công ty lâm nghiệp trồng rừng có kế hoạch trồng $150\\text{ ha}$ rừng trong 5 tháng. Do thời tiết xấu, mỗi tháng diện tích trồng thực tế bị giảm $4\\text{ ha}$ so với kế hoạch (nghĩa là giảm $-4\\text{ ha/tháng}$).\na) Hỏi sau 5 tháng, diện tích rừng trồng thực tế giảm bao nhiêu héc-ta so với kế hoạch?\nb) Thực tế công ty đã trồng được bao nhiêu héc-ta rừng?", "rubric": "a) Diện tích rừng bị giảm sau 5 tháng là: 5 * (-4) = -20 (ha), nghĩa là giảm 20 ha (0.5đ).\nb) Diện tích thực tế công ty trồng được là: 150 - 20 = 130 (ha) (0.5đ)."}]}, "c3_6_bai4_test3": {"title": "Toán 6 (KNTT) - Bài 16: Phép nhân số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Cho $a < b < 0$. So sánh $a^2$ và $b^2$:", "options": ["$a^2 > b^2$", "$a^2 < b^2$", "$a^2 = b^2$", "Không so sánh được"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Cho $x, y \\in \\mathbb{Z}$ thỏa mãn $x \\cdot y < 0$ và $|x| = y$. Khi đó:", "options": ["$x < 0$ và $y > 0$", "$x > 0$ và $y < 0$", "Cả $x, y$ đều âm", "Cả $x, y$ đều dương"], "correct": 0}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn $(x - 1)(y + 2) = 5$:", "options": ["$4$ cặp", "$2$ cặp", "$1$ cặp", "$6$ cặp"], "correct": 0}, {"id": 4, "level": "Vận dụng thấp", "question": "Cho $P = (-1) \\cdot (-1)^2 \\cdot (-1)^3 \\dots (-1)^{2024}$. Giá trị của $P$ là:", "options": ["$1$", "$-1$", "$0$", "$2024$"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ sao cho $(x^2 - 1)(x^2 - 4) < 0$:", "options": ["$x \\in \\{-1; 1\\}$", "$x \\in \\{-2; 2\\}$", "Không có số nguyên $x$ nào", "Vô số $x$"], "correct": 0}, {"id": 6, "level": "Vận dụng cao", "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y + 2x - 3y = 11$?", "options": ["$4$ cặp", "$2$ cặp", "$6$ cặp", "$8$ cặp"], "correct": 0}, {"id": 7, "level": "Vận dụng cao", "question": "Cho $a, b, c \\in \\mathbb{Z}$ thỏa mãn $ab - ac + bc - c^2 = -1$. Khẳng định nào sau đây đúng?", "options": ["$a + c$ và $b - c$ là hai số đối nhau", "$a = b = c$", "$a + b = c$", "$a - b = c$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Tìm giá trị nhỏ nhất của biểu thức $A = (x - 2)^2 - 15$ với $x \\in \\mathbb{Z}$:", "options": ["$-15$", "$0$", "$-11$", "$-19$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ để $(x - 3)(x + 5) < 0$:", "options": ["$-5 < x < 3$", "$x > 3$", "$x < -5$", "$x \\leq -5$ hoặc $x \\geq 3$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Cho 2025 số nguyên $a_1, a_2, \\dots, a_{2025}$ thỏa mãn tích của 4 số bất kì luôn là một số dương. Khẳng định nào đúng?", "options": ["Cả 2025 số đều là số nguyên dương hoặc cả 2025 số đều là số nguyên âm", "Có đúng 1 số âm", "Có đúng 2 số âm", "Có đúng 3 số âm"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Tích của tất cả các ước nguyên của số $10$ bằng:", "options": ["$100$", "$-100$", "$1000$", "$-1000$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Tìm giá trị lớn nhất của biểu thức $B = 12 - (x + 1)^2$:", "options": ["$12$", "$11$", "$13$", "$0$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho phương trình nghiệm nguyên: $(x - 2)(y + 3) = 7$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Vì $x, y \\in \\mathbb{Z}$ nên $x - 2$ và $y + 3$ là các ước của 7.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Tập hợp các ước nguyên của 7 là $\\Ư(7) = \\{1; -1; 7; -7\\}$.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Có đúng 4 cặp số nguyên $(x; y)$ thỏa mãn phương trình.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Cặp $(x; y) = (3; 4)$ là một nghiệm của phương trình.", "correct": true}]}, {"id": 2, "stem": "Cho ba số nguyên $a, b, c$ đôi một khác nhau thỏa mãn $a \\cdot b \\cdot c = 1$.", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Vì $a, b, c \\in \\mathbb{Z}$ và $abc = 1$ nên mỗi số chỉ có thể nhận giá trị $1$ hoặc $-1$.", "correct": true}, {"key": "b", "level": "Vận dụng cao", "text": "Vì cả ba số đôi một khác nhau nên không thể tồn tại đồng thời 3 số nguyên khác nhau nhận giá trị trong $\\{1; -1\\}$.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Không tồn tại bộ ba số nguyên $a, b, c$ đôi một khác nhau thỏa mãn $abc = 1$.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Nếu cho phép hai số bằng nhau thì có thể chọn bộ $(1; -1; -1)$.", "correct": true}]}], "part3": [{"id": 1, "level": "Vận dụng thấp", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $(x - 2)(x + 3) < 0$?", "answer": "4"}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm số cặp số nguyên $(x, y)$ thỏa mãn $xy - 2x + y = 5$.", "answer": "4"}, {"id": 3, "level": "Vận dụng cao", "question": "Tìm giá trị nhỏ nhất của biểu thức $P = (x + 3)^2 + (y - 1)^2 - 7$.", "answer": "-7"}, {"id": 4, "level": "Vận dụng cao", "question": "Tính tích của tất cả các số nguyên $x$ thỏa mãn $-3 < x < 4$.", "answer": "0"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn:\na) $(x - 3)(y + 1) = 5$.\nb) $xy + 3x - 2y = 11$.", "rubric": "a) Ư(5) = {1; -1; 5; -5} (0.15đ).\nCác cặp (x - 3; y + 1):\n- (1; 5) => (x; y) = (4; 4) (0.1đ)\n- (5; 1) => (x; y) = (8; 0) (0.1đ)\n- (-1; -5) => (x; y) = (2; -6) (0.1đ)\n- (-5; -1) => (x; y) = (-2; -2) (0.05đ).\nb) x(y + 3) - 2(y + 3) - 6 = 11 => (x - 2)(y + 3) = 5 (0.25đ).\nTương tự giải ra 4 cặp nghiệm (x; y) (0.25đ)."}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ sao cho:\na) $(x - 1)(x + 3) < 0$.\nb) $(x + 2)(x - 4) > 0$.", "rubric": "a) Tích hai thừa số âm khi hai thừa số trái dấu. Vì x - 1 < x + 3 nên x - 1 < 0 và x + 3 > 0 => -3 < x < 1 (0.25đ). Do x ∈ Z => x ∈ {-2; -1; 0} (0.25đ).\nb) Tích hai thừa số dương khi hai thừa số cùng dấu:\nTH1: x - 4 > 0 => x > 4 (0.25đ).\nTH2: x + 2 < 0 => x < -2 (0.25đ).\nVậy x > 4 hoặc x < -2."}, {"id": 3, "level": "Vận dụng cao", "question": "Cho $a$ và $b$ là các số nguyên. Chứng minh rằng:\na) Nếu $a^2 + b^2$ chia hết cho $3$ thì cả $a$ và $b$ đều chia hết cho $3$.\nb) Biểu thức $A = n(n + 1)(n + 2)(n + 3) + 1$ là bình phương của một số nguyên với mọi $n \\in \\mathbb{Z}$.", "rubric": "a) Số chính phương chia cho 3 chỉ có số dư là 0 hoặc 1 (0.25đ). Để a^2 + b^2 chia hết cho 3 thì cả a^2 và b^2 phải cùng chia hết cho 3 => a chia hết cho 3 và b chia hết cho 3 (0.25đ).\nb) Nhóm: A = [n(n + 3)] * [(n + 1)(n + 2)] + 1 = (n^2 + 3n)(n^2 + 3n + 2) + 1 (0.2đ).\nĐặt t = n^2 + 3n => A = t(t + 2) + 1 = t^2 + 2t + 1 = (t + 1)^2 (0.2đ).\nThay lại: A = (n^2 + 3n + 1)^2 là bình phương của một số nguyên (0.1đ)."}]}, "c3_6_bai5_test1": {"title": "Toán 6 (KNTT) - Bài 17: Phép chia hết. Ước và bội của một số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Kết quả của phép chia $(-18) : 3$ là:", "options": ["$-6$", "$6$", "$-15$", "$21$"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Kết quả của phép chia $(-24) : (-4)$ là:", "options": ["$6$", "$-6$", "$-28$", "$20$"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Với số nguyên $a \\neq 0$, kết quả của phép chia $0 : a$ bằng:", "options": ["$0$", "$1$", "$a$", "$-a$"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Tập hợp tất cả các ước nguyên của số $4$ là:", "options": ["$\\{-4; -2; -1; 1; 2; 4\\}$", "$\\{1; 2; 4\\}$", "$\\{-4; -1; 1; 4\\}$", "$\\{-2; -1; 0; 1; 2\\}$"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Số nào sau đây là một bội của $(-5)$?", "options": ["$-15$", "$12$", "$-18$", "$22$"], "correct": 0}, {"id": 6, "level": "Nhận biết", "question": "Trong các khẳng định sau, khẳng định nào đúng?", "options": ["Số $1$ và $-1$ là ước của mọi số nguyên", "Số $0$ là ước của mọi số nguyên", "Số nguyên dương luôn chia hết cho số nguyên âm", "Số $-1$ không phải là ước của số nào"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Tìm số nguyên $x$ thỏa mãn: $(-3) \\cdot x = 21$.", "options": ["$x = -7$", "$x = 7$", "$x = 18$", "$x = -24$"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Thương của hai số nguyên khác dấu luôn mang dấu:", "options": ["Dấu âm $(-)$", "Dấu dương $(+)$", "Không mang dấu", "Tùy thuộc độ lớn của hai số"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Có bao nhiêu số nguyên $x$ là ước của số $6$?", "options": ["$8$", "$4$", "$6$", "$2$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Nếu số nguyên $a$ chia hết cho $b$ ($b \\neq 0$) thì:", "options": ["$-a$ cũng chia hết cho $b$", "$a$ không chia hết cho $-b$", "$b$ luôn chia hết cho $a$", "$a + b = 0$"], "correct": 0}, {"id": 11, "level": "Thông hiểu", "question": "Giá trị của biểu thức $[(-36) : 4] : (-3)$ là:", "options": ["$3$", "$-3$", "$-9$", "$9$"], "correct": 0}, {"id": 12, "level": "Thông hiểu", "question": "Số nào sau đây KHÔNG PHẢI là ước của $(-12)$?", "options": ["$5$", "$-3$", "$4$", "$-6$"], "correct": 0}], "part2": [{"id": 1, "stem": "Xét tính đúng/sai của các phát biểu về ước và bội của số nguyên sau:", "statements": [{"key": "a", "level": "Nhận biết", "text": "Số 0 là bội của mọi số nguyên khác 0.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Tập hợp các ước của -7 gồm đúng 4 số: 1; -1; 7; -7.", "correct": true}, {"key": "c", "level": "Nhận biết", "text": "Số 0 là ước của số 5.", "correct": false}, {"key": "d", "level": "Thông hiểu", "text": "Nếu a chia hết cho b thì -a chia hết cho -b.", "correct": true}]}, {"id": 2, "stem": "Cho x là một số nguyên. Xét tính đúng/sai của các mệnh đề sau:", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Nếu x chia hết cho 6 thì x chia hết cho 3.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Nếu 2x = -10 thì x = 5.", "correct": false}, {"key": "c", "level": "Vận dụng thấp", "text": "Tập hợp các ước tự nhiên của 6 bằng tập hợp các ước nguyên của 6.", "correct": false}, {"key": "d", "level": "Vận dụng thấp", "text": "Số nguyên âm nhỏ nhất có 1 chữ số chia hết cho 3 là -9.", "correct": true}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tìm số nguyên x thỏa mãn: (-5) . x = -45.", "answer": "9"}, {"id": 2, "level": "Thông hiểu", "question": "Tính giá trị của biểu thức: A = (-48) : (-6) + (-15) : 3.", "answer": "3"}, {"id": 3, "level": "Thông hiểu", "question": "Có bao nhiêu ước nguyên dương của số 18?", "answer": "6"}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm số nguyên x dương nhỏ nhất sao cho x chia hết cho cả -4 và 6.", "answer": "12"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "a) Viết tập hợp tất cả các ước nguyên của số -10.\nb) Tìm tất cả các bội của 4 nằm trong khoảng từ -15 đến 15.", "rubric": "a) Ư(-10) = {-10; -5; -2; -1; 1; 2; 5; 10} (0.5đ).\nb) Các bội của 4 trong khoảng (-15; 15) là: -12; -8; -4; 0; 4; 8; 12 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm số nguyên x biết:\na) (-4) . x = 32\nb) (x - 2) là ước của 6.", "rubric": "a) x = 32 : (-4) = -8 (0.4đ).\nb) (x - 2) ∈ {±1; ±2; ±3; ±6} => x ∈ {-4; -1; 0; 1; 3; 4; 5; 8} (0.6đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Một công ty kinh doanh có kết quả lợi nhuận trong 4 quý lần lượt là: -40 triệu đồng, 60 triệu đồng, -25 triệu đồng và 85 triệu đồng.\na) Tính tổng lợi nhuận cả năm của công ty.\nb) Tính bình quân lợi nhuận mỗi quý của công ty đó trong năm.", "rubric": "a) Tổng lợi nhuận cả năm: (-40) + 60 + (-25) + 85 = 80 (triệu đồng) (0.6đ).\nb) Bình quân mỗi quý: 80 : 4 = 20 (triệu đồng) (0.4đ)."}]}, "c3_6_bai5_test2": {"title": "Toán 6 (KNTT) - Bài 17: Phép chia hết. Ước và bội của một số nguyên - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Số nguyên $x$ thỏa mãn $(-72) : x = -8$ là:", "options": ["$9$", "$-9$", "$8$", "$-8$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $15$ chia hết cho $(x + 1)$?", "options": ["$8$", "$4$", "$6$", "$2$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Tập hợp các số nguyên $x$ vừa là ước của $20$, vừa là bội của $-4$ là:", "options": ["$\\{\\pm 4; \\pm 20\\}$", "$\\{4; 20\\}$", "$\\{-20; -4; 0; 4; 20\\}$", "$\\{\\pm 1; \\pm 2; \\pm 4\\}$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Giá trị của biểu thức $[(-100) : (-5)] : [(-8) + 6]$ là:", "options": ["$-10$", "$10$", "$-20$", "$20$"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Số tự nhiên $a$ lớn nhất thỏa mãn $(-36)$ chia hết cho $a$ và $48$ chia hết cho $a$ là:", "options": ["$12$", "$6$", "$24$", "$4$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Nếu số nguyên $x$ chia hết cho $8$ và $x$ chia hết cho $(-12)$ thì $x$ là bội của:", "options": ["$24$", "$4$", "$48$", "$96$"], "correct": 0}, {"id": 7, "level": "Vận dụng thấp", "question": "Tổng của tất cả các ước nguyên của số $25$ bằng:", "options": ["$0$", "$31$", "$25$", "$1$"], "correct": 0}, {"id": 8, "level": "Vận dụng thấp", "question": "Để $(n + 5)$ chia hết cho $(n + 1)$ với $n$ là số tự nhiên, giá trị lớn nhất của $n$ là:", "options": ["$3$", "$4$", "$2$", "$1$"], "correct": 0}, {"id": 9, "level": "Vận dụng thấp", "question": "Cho hai số nguyên $a, b \\neq 0$. Biết $a$ chia hết cho $b$ và $b$ chia hết cho $a$. Khi đó:", "options": ["$a = b$ hoặc $a = -b$", "$a = b$", "$a = -b$", "$a > b$"], "correct": 0}, {"id": 10, "level": "Vận dụng thấp", "question": "Tìm số nguyên $x$ biết: $3x - (-5) = -16$.", "options": ["$x = -7$", "$x = 7$", "$x = -3$", "$x = 3$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Số các cặp số nguyên $(x; y)$ thỏa mãn $(x - 1)(y + 2) = 5$ là:", "options": ["$4$", "$2$", "$8$", "$1$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Nhiệt độ phòng lạnh giảm đều đặn mỗi giờ. Sau 6 giờ nhiệt độ giảm tổng cộng 18°C. Trung bình mỗi giờ nhiệt độ thay đổi bao nhiêu độ C?", "options": ["$-3^\\circ\\text{C}$", "$3^\\circ\\text{C}$", "$-2^\\circ\\text{C}$", "$-4^\\circ\\text{C}$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho a và b là các số nguyên. Xét tính đúng/sai của các khẳng định sau:", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Nếu tổng (a + b) chia hết cho 7 và a chia hết cho 7 thì b chia hết cho 7.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Nếu tích a . b chia hết cho 6 thì chắc chắn a chia hết cho 6 hoặc b chia hết cho 6.", "correct": false}, {"key": "c", "level": "Vận dụng thấp", "text": "Tổng tất cả các ước nguyên của số 12 bằng 0.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Số đối của một bội của 5 cũng là một bội của 5.", "correct": true}]}, {"id": 2, "stem": "Xét bài toán tìm x nguyên để phân số 7/(x - 3) nhận giá trị nguyên:", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Để phân số nhận giá trị nguyên thì (x - 3) phải là ước của 7.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Có đúng 4 giá trị nguyên của x thỏa mãn bài toán.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Giá trị nguyên lớn nhất của x để phân số nhận giá trị nguyên dương là x = 10.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Khi x = -4 thì giá trị của phân số bằng 1.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tìm số nguyên âm x lớn nhất thỏa mãn x chia hết cho 7.", "answer": "-7"}, {"id": 2, "level": "Thông hiểu", "question": "Tìm số nguyên x biết: (2x + 1) là ước của 10 và x > 0.", "answer": "2"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tính giá trị biểu thức: A = [(-45) : (-9)] . (-4) + (-32) : (-8).", "answer": "-16"}, {"id": 4, "level": "Vận dụng cao", "question": "Tìm số nguyên n để (2n + 7) chia hết cho (n + 1). Tính tổng tất cả các giá trị nguyên của n tìm được.", "answer": "-8"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Tìm số nguyên x biết:\na) 48 : (x + 2) = -6\nb) (2x - 3) . (y + 1) = 7 (với x, y là các số nguyên).", "rubric": "a) x + 2 = -8 => x = -10 (0.4đ).\nb) (2x - 3)(y + 1) = 7 => tìm được 4 cặp (x; y): (2; 6), (1; -8), (5; 0), (-2; -2) (0.6đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Cho biểu thức A = (3n + 8) / (n + 2) với n là số nguyên.\na) Viết A dưới dạng tổng của một số nguyên và một phân số.\nb) Tìm tất cả các số nguyên n để biểu thức A nhận giá trị nguyên.", "rubric": "a) A = 3 + 2/(n + 2) (0.4đ).\nb) n + 2 ∈ Ư(2) = {±1; ±2} => n ∈ {-4; -3; -1; 0} (0.6đ)."}, {"id": 3, "level": "Vận dụng cao", "question": "Một tàu lặn khảo sát đáy biển đang ở độ sâu 180 m dưới mực nước biển (độ cao -180 m). Tàu bắt đầu nổi lên đều đặn với tốc độ 15 mét mỗi phút.\na) Viết biểu thức số biểu thị độ cao của tàu sau t phút nổi lên.\nb) Sau bao nhiêu phút thì tàu nổi lên đến vị trí cách mực nước biển 30 m?", "rubric": "a) Biểu thức độ cao: h = -180 + 15t (m) với t ≥ 0 (0.5đ).\nb) Vị trí -30 m: -180 + 15t = -30 => 15t = 150 => t = 10 (phút) (0.5đ)."}]}, "c3_6_bai5_test3": {"title": "Toán 6 (KNTT) - Bài 17: Phép chia hết. Ước và bội của một số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $x \\cdot y = -12$ và $x < y$?", "options": ["$6$", "$4$", "$8$", "$3$"], "correct": 0}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm số nguyên $n$ để biểu thức $P = (n^2 + 3n + 5)$ chia hết cho $(n + 3)$:", "options": ["$n \\in \\{-8; -4; -2; 2\\}$", "$n \\in \\{-4; -2; 1; 3\\}$", "$n \\in \\{\\pm 1; \\pm 5\\}$", "$n \\in \\{-2; 2\\}$"], "correct": 0}, {"id": 3, "level": "Vận dụng thấp", "question": "Cho $a, b$ là các số nguyên sao cho $(3a + 2b)$ chia hết cho $17$. Khi đó $(10a + b)$ chia hết cho:", "options": ["$17$", "$34$", "$3$", "$7$"], "correct": 0}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm giá trị nguyên của $x$ để phân số $(2x + 3) / (x - 2)$ đạt giá trị nguyên nhỏ nhất:", "options": ["$x = 1$", "$x = 3$", "$x = -5$", "$x = 9$"], "correct": 0}, {"id": 5, "level": "Vận dụng cao", "question": "Số dư khi chia tổng $S = 2 + 2^2 + 2^3 + \\dots + 2^{60}$ cho $7$ là:", "options": ["$0$", "$1$", "$2$", "$3$"], "correct": 0}, {"id": 6, "level": "Vận dụng cao", "question": "Tích của hai số nguyên chẵn liên tiếp luôn chia hết cho:", "options": ["$8$", "$6$", "$12$", "$16$"], "correct": 0}, {"id": 7, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ để $(x + 1)(x - 3) < 0$:", "options": ["$x \\in \\{0; 1; 2\\}$", "$x \\in \\{-1; 0; 1; 2; 3\\}$", "$x > 3$ hoặc $x < -1$", "$x \\in \\{-2; -1; 0\\}$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Cho $A = 1 - 3 + 3^2 - 3^3 + \\dots + 3^{100}$. Khi đó $4A - 1$ chia hết cho:", "options": ["$3^{101}$", "$3^{100}$", "$9$", "$27$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Có bao nhiêu số nguyên $n$ để $(n^2 - 2)$ chia hết cho $(n - 1)$?", "options": ["$2$", "$4$", "$6$", "$0$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Số nghiệm nguyên $(x; y)$ của phương trình $xy + 2x - 3y = 11$ là:", "options": ["$4$", "$2$", "$8$", "$6$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Biểu thức $n^3 - n$ luôn chia hết cho số nào sau đây với mọi số nguyên $n$?", "options": ["$6$", "$8$", "$9$", "$12$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Cho $B = 5 + 5^2 + 5^3 + \\dots + 5^{96}$. Chữ số tận cùng của biểu thức $B$ là:", "options": ["$0$", "$5$", "$2$", "$8$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho a, b, c là các số nguyên. Xét tính đúng/sai của các mệnh đề số học sau:", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Nếu a chia hết cho b thì a^2 chia hết cho b^2.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Nếu a^2 chia hết cho b thì chắc chắn a chia hết cho b.", "correct": false}, {"key": "c", "level": "Vận dụng thấp", "text": "Tích của ba số nguyên liên tiếp luôn chia hết cho 6.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "Nếu a + b chia hết cho c thì cả a và b đều phải chia hết cho c.", "correct": false}]}, {"id": 2, "stem": "Xét bài toán tìm cặp số nguyên (x; y) thỏa mãn 2xy - x + 4y = 10:", "statements": [{"key": "a", "level": "Vận dụng thấp", "text": "Đưa phương trình về dạng tích ta được (2y - 1)(x + 2) = 8.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "2y - 1 là số lẻ nên 2y - 1 chỉ có thể nhận các giá trị là ước lẻ của 8.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Có tất cả 4 cặp số nguyên (x; y) thỏa mãn phương trình.", "correct": false}, {"key": "d", "level": "Vận dụng cao", "text": "Cặp (x; y) = (6; 1) là một nghiệm của phương trình.", "correct": true}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tìm số nguyên n lớn nhất sao cho (n + 13) chia hết cho (n - 2).", "answer": "17"}, {"id": 2, "level": "Thông hiểu", "question": "Tìm số tự nhiên n thỏa mãn: 3^(n+2) - 3^n = 216.", "answer": "3"}, {"id": 3, "level": "Vận dụng cao", "question": "Có bao nhiêu cặp số nguyên dương (x; y) thỏa mãn 1/x + 1/y = 1/3?", "answer": "3"}, {"id": 4, "level": "Vận dụng cao", "question": "Tìm số dư khi chia A = 1 + 4 + 4^2 + ... + 4^2024 cho 5.", "answer": "1"}], "part4": [{"id": 1, "level": "Vận dụng thấp", "question": "a) Tìm tất cả các số nguyên n sao cho A = (2n + 5) / (n - 1) có giá trị là số nguyên.\nb) Tìm n nguyên để A đạt giá trị lớn nhất.", "rubric": "a) A = 2 + 7/(n - 1) => n - 1 ∈ Ư(7) => n ∈ {-6; 0; 2; 8} (0.5đ).\nb) A lớn nhất khi n - 1 = 1 => n = 2. Giá trị max = 9 (0.5đ)."}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm các cặp số nguyên (x; y) thỏa mãn:\nxy - 2x + 5y = 17.", "rubric": "(x + 5)(y - 2) = 7 (0.4đ). Xét các ước của 7 => 4 cặp nghiệm: (-4; 9), (-6; -5), (2; 3), (-12; 1) (0.6đ)."}, {"id": 3, "level": "Vận dụng cao", "question": "Cho biểu thức S = 3 + 3^2 + 3^3 + ... + 3^100.\na) Chứng minh rằng S chia hết cho 4.\nb) Tìm số dư khi chia S cho 13.", "rubric": "a) Ghép từng cặp 2 số: S = 4 . (3 + 3^3 + ... + 3^99) => S chia hết cho 4 (0.5đ).\nb) S = 3 + (3^2 + 3^3 + 3^4) + ... Mỗi nhóm 3 số chia hết cho 13, dư 3 ở đầu => S chia 13 dư 3 (0.5đ)."}]}, "c3_6_bai6_test1": {"title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Tập hợp các số nguyên $\\mathbb{Z}$ bao gồm:", "options": ["Các số nguyên âm, số 0 và các số nguyên dương", "Số tự nhiên và phân số", "Chỉ gồm số nguyên âm và số nguyên dương", "Số 0 và các số nguyên âm"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Số đối của số $-15$ là:", "options": ["$15$", "$-15$", "$0$", "$1/15$"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Sắp xếp các số sau theo thứ tự tăng dần: $-7; 0; 5; -2$:", "options": ["$-7 < -2 < 0 < 5$", "$-2 < -7 < 0 < 5$", "$5 < 0 < -2 < -7$", "$-7 < 0 < -2 < 5$"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Kết quả của phép tính $(-14) + (-6)$ là:", "options": ["$-20$", "$20$", "$-8$", "$8$"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Kết quả của phép tính $15 - 23$ là:", "options": ["$-8$", "$8$", "$-38$", "$38$"], "correct": 0}, {"id": 6, "level": "Nhận biết", "question": "Tích $(-4) \\cdot (-7)$ bằng:", "options": ["$28$", "$-28$", "$11$", "$-11$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Thương $(-45) : 9$ bằng:", "options": ["$-5$", "$5$", "$-6$", "$6$"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Quy tắc phá ngoặc nào sau đây là đúng?", "options": ["$-(a - b + c) = -a + b - c$", "$-(a - b + c) = -a - b + c$", "$+(a - b + c) = a + b + c$", "$-(a - b + c) = -a - b - c$"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Tìm $x$ biết: $x + 8 = 3$.", "options": ["$x = -5$", "$x = 5$", "$x = 11$", "$x = -11$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Tập hợp tất cả các ước của số $6$ trong $\\mathbb{Z}$ là:", "options": ["$\\{-6; -3; -2; -1; 1; 2; 3; 6\\}$", "$\\{1; 2; 3; 6\\}$", "$\\{\\pm 1; \\pm 2; \\pm 3\\}$", "$\\{0; 1; 2; 3; 6\\}$"], "correct": 0}, {"id": 11, "level": "Thông hiểu", "question": "Nhiệt độ buổi sáng là $-3^\\circ\\text{C}$, đến trưa tăng thêm $5^\\circ\\text{C}$. Nhiệt độ buổi trưa là:", "options": ["$2^\\circ\\text{C}$", "$-8^\\circ\\text{C}$", "$8^\\circ\\text{C}$", "$-2^\\circ\\text{C}$"], "correct": 0}, {"id": 12, "level": "Thông hiểu", "question": "Giá trị của biểu thức $(-2)^3$ bằng:", "options": ["$-8$", "$8$", "$-6$", "$6$"], "correct": 0}], "part2": [{"id": 1, "stem": "Xét tính đúng/sai của các phát biểu tổng quát sau:", "statements": [{"key": "a", "level": "Nhận biết", "text": "Mọi số nguyên âm đều nhỏ hơn 0 và nhỏ hơn mọi số nguyên dương.", "correct": true}, {"key": "b", "level": "Nhận biết", "text": "Tích của hai số nguyên âm là một số nguyên âm.", "correct": false}, {"key": "c", "level": "Nhận biết", "text": "Số 0 không phải là số nguyên âm, cũng không phải là số nguyên dương.", "correct": true}, {"key": "d", "level": "Thông hiểu", "text": "Hiệu của hai số nguyên âm luôn luôn là một số nguyên âm.", "correct": false}]}, {"id": 2, "stem": "Cho phép tính M = 15 - (8 - 12) + (-6). Xét tính đúng/sai của các bước:", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Giá trị trong ngoặc (8 - 12) bằng -4.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Bỏ dấu ngoặc đúng: M = 15 - 8 + 12 - 6.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Giá trị của biểu thức M bằng 13.", "correct": true}, {"key": "d", "level": "Vận dụng thấp", "text": "M chia hết cho 5.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính giá trị của biểu thức: A = (-25) . 4 + (-18) : (-2).", "answer": "-91"}, {"id": 2, "level": "Thông hiểu", "question": "Tìm số nguyên x thỏa mãn: 2x - 7 = -19.", "answer": "-6"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tính tổng của tất cả các số nguyên x thỏa mãn: -4 < x ≤ 4.", "answer": "4"}, {"id": 4, "level": "Vận dụng thấp", "question": "Một tàu ngầm lặn từ vị trí -40 m xuống thêm 35 m nữa. Hỏi vị trí mới của tàu ngầm ở độ cao bao nhiêu mét?", "answer": "-75"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Thực hiện phép tính hợp lý nếu có thể:\na) 37 . (-45) + (-45) . 63\nb) 125 - [48 + (125 - 48)].", "rubric": "a) (-45) . (37 + 63) = (-45) . 100 = -4500 (0.5đ).\nb) 125 - [48 + 125 - 48] = 125 - 125 = 0 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm số nguyên x biết:\na) 15 - 3x = 36\nb) (x + 3) . (x - 2) = 0.", "rubric": "a) 3x = -21 => x = -7 (0.5đ).\nb) x + 3 = 0 hoặc x - 2 = 0 => x ∈ {-3; 2} (0.5đ)."}, {"id": 3, "level": "Vận dụng thấp", "question": "Bác An kinh doanh trong 5 tháng đầu năm ghi nhận lợi nhuận như sau: tháng 1 lãi 12 triệu, tháng 2 lỗ 5 triệu, tháng 3 lãi 18 triệu, tháng 4 lỗ 8 triệu, tháng 5 hòa vốn.\na) Tính tổng lợi nhuận của bác An trong 5 tháng.\nb) Bình quân mỗi tháng bác An lãi hay lỗ bao nhiêu tiền?", "rubric": "a) Tổng lợi nhuận: 12 + (-5) + 18 + (-8) + 0 = 17 (triệu đồng) (0.6đ).\nb) Trung bình mỗi tháng: 17 : 5 = 3,4 (triệu đồng). Kết luận bác An lãi bình quân 3,4 triệu đồng/tháng (0.4đ)."}]}, "c3_6_bai6_test2": {"title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Giá trị của biểu thức $(-3)^2 - (-2)^3$ là:", "options": ["$17$", "$1$", "$-17$", "$-1$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Số nguyên $x$ thỏa mãn: $(-15) - x = 8$ là:", "options": ["$-23$", "$23$", "$-7$", "$7$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Tổng tất cả các số nguyên $x$ thỏa mãn $-8 \\leq x < 7$ là:", "options": ["$-15$", "$-8$", "$-7$", "$0$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Tích của 5 số nguyên âm và 4 số nguyên dương là một số mang dấu:", "options": ["Dấu âm $(-)$", "Dấu dương $(+)$", "Không xác định", "Bằng 0"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $12$ chia hết cho $(2x - 1)$?", "options": ["$4$", "$6$", "$8$", "$12$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Giá trị của biểu thức $180 : [(-12) + 2 \\cdot (-3)]$ là:", "options": ["$-10$", "$10$", "$-15$", "$15$"], "correct": 0}, {"id": 7, "level": "Vận dụng thấp", "question": "Để tích $(x - 2)(x + 5) = 0$ thì $x$ nhận các giá trị là:", "options": ["$x = 2$ hoặc $x = -5$", "$x = -2$ hoặc $x = 5$", "$x = 2$ hoặc $x = 5$", "$x = -2$ hoặc $x = -5$"], "correct": 0}, {"id": 8, "level": "Vận dụng thấp", "question": "Tập hợp các ước chung của $18$ và $-30$ trong $\\mathbb{Z}$ có bao nhiêu phần tử?", "options": ["$8$", "$4$", "$6$", "$12$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Tìm số nguyên $x$ biết: $(x - 4)^2 = 25$.", "options": ["$x = 9$ hoặc $x = -1$", "$x = 9$", "$x = -1$", "$x = 1$ hoặc $x = -9$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Nhiệt độ lúc 6h sáng ở Sa Pa là $-2^\\circ\\text{C}$, trưa tăng $7^\\circ\\text{C}$, đêm giảm $9^\\circ\\text{C}$ so với buổi trưa. Nhiệt độ đêm là:", "options": ["$-4^\\circ\\text{C}$", "$4^\\circ\\text{C}$", "$0^\\circ\\text{C}$", "$-14^\\circ\\text{C}$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Cho $a$ là số nguyên âm, $b$ là số nguyên dương. Khẳng định nào sau đây đúng?", "options": ["$a - b < 0$", "$a - b > 0$", "$a - b = 0$", "Không xác định"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Rút gọn biểu thức $P = -(x - y + z) - (y - x - z)$ ta được:", "options": ["$0$", "$-2z$", "$2x - 2y$", "$-2y$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho x, y là các số nguyên. Xét tính đúng/sai của các phát biểu sau:", "statements": [{"key": "a", "level": "Thông hiểu", "text": "Nếu x . y > 0 thì x và y cùng dấu.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "Nếu x + y = 0 thì x và y là hai số đối nhau.", "correct": true}, {"key": "c", "level": "Vận dụng thấp", "text": "Với mọi số nguyên x thì x^2 > 0.", "correct": false}, {"key": "d", "level": "Vận dụng thấp", "text": "Nếu x chia hết cho 4 và chia hết cho 6 thì x chắc chắn chia hết cho 24.", "correct": false}]}, {"id": 2, "stem": "Xét biểu thức Q = (-2)^4 - 3 . (-5) + (-48) : (-6):", "statements": [{"key": "a", "level": "Thông hiểu", "text": "(-2)^4 = 16.", "correct": true}, {"key": "b", "level": "Thông hiểu", "text": "(-3) . (-5) = 15.", "correct": true}, {"key": "c", "level": "Thông hiểu", "text": "(-48) : (-6) = -8.", "correct": false}, {"key": "d", "level": "Vận dụng thấp", "text": "Giá trị của biểu thức Q bằng 39.", "correct": true}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính nhanh giá trị của: A = 27 . 39 + 27 . 63 - 27 . 2.", "answer": "2700"}, {"id": 2, "level": "Thông hiểu", "question": "Tìm số nguyên x thỏa mãn: 3x - (-12) = -18.", "answer": "-10"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm số nguyên dương n nhỏ nhất sao cho (n + 4) chia hết cho (n - 1).", "answer": "2"}, {"id": 4, "level": "Vận dụng cao", "question": "Tính tổng các số nguyên x thỏa mãn: -15 ≤ x < 16.", "answer": "0"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Thực hiện phép tính một cách hợp lý:\na) 45 - 5 . (-12) + (-24) : 4\nb) (-125) . 37 . (-8) . (-1)^2024.", "rubric": "a) 45 + 60 - 6 = 99 (0.5đ).\nb) [(-125) . (-8)] . 37 . 1 = 1000 . 37 = 37000 (0.5đ)."}, {"id": 2, "level": "Vận dụng thấp", "question": "Tìm số nguyên x biết:\na) 2(x - 5) - 3(x + 1) = -14\nb) (2x - 1) là ước của 18 và x là số nguyên âm.", "rubric": "a) -x - 13 = -14 => x = 1 (0.4đ).\nb) 2x - 1 ∈ {±1; ±3; ±9} và x âm => x ∈ {-4; -1} (0.6đ)."}, {"id": 3, "level": "Vận dụng cao", "question": "Một công ty nhập 100 chiếc máy tính bảng giá 6 triệu đồng/chiếc. Tháng 1 bán được 70 chiếc giá 7,5 triệu/chiếc. Tháng 2 bán 30 chiếc còn lại giá 5 triệu/chiếc. Chi phí vận chuyển bảo quản là 20 triệu. Hỏi công ty lãi hay lỗ bao nhiêu tiền?", "rubric": "Tổng chi phí: 100 . 6 + 20 = 620 (triệu). Doanh thu: 70 . 7,5 + 30 . 5 = 675 (triệu). Lợi nhuận: 675 - 620 = 55 (triệu). Kết luận công ty lãi 55 triệu đồng (1.0đ)."}]}, "c3_6_bai6_test3": {"title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Cho tổng $S = 1 - 2 + 3 - 4 + 5 - 6 + \\dots + 2023 - 2024$. Giá trị của $S$ là:", "options": ["$-1012$", "$1012$", "$-2024$", "$0$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Số nghiệm nguyên $(x; y)$ của phương trình $(x + 1)(y - 3) = 6$ là:", "options": ["$8$", "$4$", "$12$", "$6$"], "correct": 0}, {"id": 3, "level": "Vận dụng thấp", "question": "Có bao nhiêu số nguyên $n$ để phân số $(3n + 2) / (n - 1)$ nhận giá trị nguyên?", "options": ["$4$", "$2$", "$6$", "$8$"], "correct": 0}, {"id": 4, "level": "Vận dụng thấp", "question": "Tìm giá trị nhỏ nhất của biểu thức $A = (x - 3)^2 + |y + 2| - 7$ với $x, y \\in \\mathbb{Z}$:", "options": ["$-7$", "$0$", "$7$", "$-5$"], "correct": 0}, {"id": 5, "level": "Vận dụng thấp", "question": "Nếu số nguyên $a$ chia $5$ dư $3$ và $b$ chia $5$ dư $2$ thì tích $a \\cdot b$ chia $5$ dư bao nhiêu?", "options": ["$1$", "$0$", "$6$", "$4$"], "correct": 0}, {"id": 6, "level": "Vận dụng thấp", "question": "Tìm số tự nhiên $x$ thỏa mãn: $2^x + 2^{x+3} = 144$.", "options": ["$x = 4$", "$x = 3$", "$x = 5$", "$x = 2$"], "correct": 0}, {"id": 7, "level": "Vận dụng cao", "question": "Cho các số nguyên $a, b, c$ thỏa mãn $a + b + c = 0$. Biểu thức $M = (a + b)(b + c)(c + a)$ bằng:", "options": ["$-abc$", "$abc$", "$0$", "$a^3 + b^3 + c^3$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Tìm các số nguyên $x$ để $(x^2 - 1)(x^2 - 10) < 0$:", "options": ["$x \\in \\{\\pm 2; \\pm 3\\}$", "$x \\in \\{-3; -2; 2; 3\\}$", "$1 < x^2 < 10$", "Cả ba đáp án đều đúng"], "correct": 3}, {"id": 9, "level": "Vận dụng cao", "question": "Số dư khi chia $2^{100}$ cho $3$ là:", "options": ["$1$", "$2$", "$0$", "Không xác định"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Tích của 4 số nguyên liên tiếp cộng thêm 1 luôn là:", "options": ["Một số chính phương lẻ", "Một số chính phương chẵn", "Một số chia hết cho 5", "Một số nguyên tố"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Cho $x \\in \\mathbb{Z}$ sao cho $(x^2 + 1)$ chia hết cho $(x - 1)$. Giá trị nguyên lớn nhất của $x$ là:", "options": ["$3$", "$2$", "$1$", "$0$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Biết tổng $1 + 2 + 3 + \\dots + n = 120$. Giá trị của số tự nhiên $n$ là:", "options": ["$15$", "$16$", "$14$", "$20$"], "correct": 0}], "part2": [{"id": 1, "stem": "Cho n là số nguyên. Xét tính đúng/sai của các mệnh đề số học sau:", "statements": [{"key": "a", "level": "Vận dụng thấp", "text": "Biểu thức n(n + 1)(2n + 1) luôn chia hết cho 6 với mọi số nguyên n.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "Nếu n^2 là số chẵn thì n chắc chắn là số chẵn.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Biểu thức n^2 + n + 1 luôn là số nguyên tố với mọi số tự nhiên n.", "correct": false}, {"key": "d", "level": "Vận dụng cao", "text": "Tồn tại số nguyên n để n^2 + 1 chia hết cho 3.", "correct": false}]}, {"id": 2, "stem": "Xét bài toán tìm cặp số nguyên (x; y) thỏa mãn xy - 3x + y = 7:", "statements": [{"key": "a", "level": "Vận dụng thấp", "text": "Biến đổi tương đương đưa về dạng (x + 1)(y - 3) = 4.", "correct": true}, {"key": "b", "level": "Vận dụng thấp", "text": "Số 4 có đúng 6 ước nguyên.", "correct": true}, {"key": "c", "level": "Vận dụng cao", "text": "Có đúng 6 cặp số nguyên (x; y) thỏa mãn phương trình.", "correct": true}, {"key": "d", "level": "Vận dụng cao", "text": "Không có cặp nghiệm nào có cả x và y cùng là số nguyên dương.", "correct": false}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tìm số nguyên âm x thỏa mãn: |2x - 3| = 7.", "answer": "-2"}, {"id": 2, "level": "Vận dụng thấp", "question": "Tính tổng S = 2 - 4 + 6 - 8 + ... + 98 - 100.", "answer": "-50"}, {"id": 3, "level": "Vận dụng thấp", "question": "Tìm giá trị lớn nhất của biểu thức: P = 2024 - (x + 1)^2 - |y - 2|.", "answer": "2024"}, {"id": 4, "level": "Vận dụng cao", "question": "Có bao nhiêu số nguyên n thỏa mãn (n^2 + 2) chia hết cho (n + 1)?", "answer": "4"}], "part4": [{"id": 1, "level": "Vận dụng thấp", "question": "a) Cho biểu thức A = 1 - 2 + 2^2 - 2^3 + ... + 2^100. Tính giá trị của 3A - 2^101.\nb) Chứng minh rằng với mọi số tự nhiên n thì phân số (12n + 1) / (30n + 2) là phân số tối giản.", "rubric": "a) 2A = 2 - 2^2 + ... + 2^101 => 3A = 1 + 2^101 => 3A - 2^101 = 1 (0.5đ).\nb) Gọi d = ƯCLN(12n + 1, 30n + 2) => 5(12n + 1) - 2(30n + 2) = 1 chia hết cho d => d = 1 (0.5đ)."}, {"id": 2, "level": "Vận dụng cao", "question": "Tìm tất cả các cặp số nguyên (x; y) thỏa mãn phương trình:\n2xy - 3x + y = 4.", "rubric": "Nhân 2: (2x + 1)(2y - 3) = 5 (0.4đ). Ước của 5 => 4 cặp: (0; 4), (-1; -1), (2; 2), (-3; 1) (0.6đ)."}, {"id": 3, "level": "Vận dụng cao", "question": "Cho 2024 số nguyên, trong đó tích của 3 số bất kì luôn là một số âm.\na) Chứng minh rằng trong 2024 số đó có ít nhất một số âm.\nb) Hỏi tích của cả 2024 số đó mang dấu gì? Giải thích chi tiết.", "rubric": "a) Phản chứng: nếu không có số âm nào thì tích 3 số bất kì ≥ 0 (mâu thuẫn), vậy có ít nhất 1 số âm a (0.4đ).\nb) Với a < 0, 2 số bất kì b, c có a.b.c < 0 => b.c > 0. Vậy 2023 số còn lại cùng dấu. Nếu cùng dương thì tích 3 số dương là dương (vô lý). Vậy cả 2024 số đều âm. Tích của 2024 số âm (chẵn số âm) là số DƯƠNG (0.6đ)."}]}}};
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CHAPTER3_TOAN6_EXAMS, EXAMS_6_C3_6 };
+}

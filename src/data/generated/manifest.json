@@ -34,6 +34,37 @@
       "c1_6_bai8_test3"
     ]
   },
+  "grade6_c2_6": {
+    "grade": "6",
+    "chapterId": "c2_6",
+    "chapterTitle": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+    "totalExams": 18,
+    "updatedAt": "2026-10-25 14:10:00",
+    "jsonFile": "grade6_c2_6_exams.json",
+    "jsFile": "grade6_c2_6_exams.js",
+    "jsonPath": "src/data/generated/grade6_c2_6_exams.json",
+    "jsPath": "src/data/generated/grade6_c2_6_exams.js",
+    "examKeys": [
+      "c2_6_bai1_test1",
+      "c2_6_bai1_test2",
+      "c2_6_bai1_test3",
+      "c2_6_bai2_test1",
+      "c2_6_bai2_test2",
+      "c2_6_bai2_test3",
+      "c2_6_bai3_test1",
+      "c2_6_bai3_test2",
+      "c2_6_bai3_test3",
+      "c2_6_bai4_test1",
+      "c2_6_bai4_test2",
+      "c2_6_bai4_test3",
+      "c2_6_bai5_test1",
+      "c2_6_bai5_test2",
+      "c2_6_bai5_test3",
+      "c2_6_bai6_test1",
+      "c2_6_bai6_test2",
+      "c2_6_bai6_test3"
+    ]
+  },
   "grade8_c1_8": {
     "grade": "8",
     "chapterId": "c1_8",
@@ -139,6 +170,121 @@
       "c4_8_bai4_test1",
       "c4_8_bai4_test2",
       "c4_8_bai4_test3"
+    ]
+  },
+  "grade8_c5_8": {
+    "grade": "8",
+    "chapterId": "c5_8",
+    "chapterTitle": "Chương V: Dữ liệu và biểu đồ",
+    "totalExams": 5,
+    "updatedAt": "2026-10-24 20:29:49",
+    "jsonFile": "grade8_c5_8_exams.json",
+    "jsFile": "grade8_c5_8_exams.js",
+    "examKeys": [
+      "c5_8_bai1_test1",
+      "c5_8_bai1_test2",
+      "c5_8_bai2_test1",
+      "c5_8_bai3_test1",
+      "c5_8_bai4_test1"
+    ]
+  },
+  "grade8_c6_8": {
+    "grade": "8",
+    "chapterId": "c6_8",
+    "chapterTitle": "Chương VI: Phân thức đại số",
+    "totalExams": 15,
+    "updatedAt": "2026-10-24 20:47:34",
+    "jsonFile": "grade8_c6_8_exams.json",
+    "jsFile": "grade8_c6_8_exams.js",
+    "examKeys": [
+      "c6_8_bai1_test1",
+      "c6_8_bai1_test2",
+      "c6_8_bai1_test3",
+      "c6_8_bai2_test1",
+      "c6_8_bai2_test2",
+      "c6_8_bai2_test3",
+      "c6_8_bai3_test1",
+      "c6_8_bai3_test2",
+      "c6_8_bai3_test3",
+      "c6_8_bai4_test1",
+      "c6_8_bai4_test2",
+      "c6_8_bai4_test3",
+      "c6_8_bai5_test1",
+      "c6_8_bai5_test2",
+      "c6_8_bai5_test3"
+    ]
+  },
+  "grade8_c7_8": {
+    "grade": "8",
+    "chapterId": "c7_8",
+    "chapterTitle": "Chương VII: Phương trình bậc nhất và hàm số bậc nhất",
+    "totalExams": 6,
+    "updatedAt": "2026-10-24 20:49:04",
+    "jsonFile": "grade8_c7_8_exams.json",
+    "jsFile": "grade8_c7_8_exams.js",
+    "examKeys": [
+      "c7_8_bai1_test1",
+      "c7_8_bai1_test2",
+      "c7_8_bai1_test3",
+      "c7_8_bai2_test1",
+      "c7_8_bai3_test1",
+      "c7_8_bai4_test1"
+    ]
+  },
+  "grade6_c3_6": {
+    "grade": "6",
+    "chapterId": "c3_6",
+    "chapterTitle": "Chương III: Số nguyên",
+    "totalExams": 18,
+    "updatedAt": "2026-10-25 14:15:00",
+    "jsonFile": "grade6_c3_6_exams.json",
+    "jsFile": "grade6_c3_6_exams.js",
+    "jsonPath": "src/data/generated/grade6_c3_6_exams.json",
+    "jsPath": "src/data/generated/grade6_c3_6_exams.js",
+    "examKeys": [
+      "c3_6_bai1_test1",
+      "c3_6_bai1_test2",
+      "c3_6_bai1_test3",
+      "c3_6_bai2_test1",
+      "c3_6_bai2_test2",
+      "c3_6_bai2_test3",
+      "c3_6_bai3_test1",
+      "c3_6_bai3_test2",
+      "c3_6_bai3_test3",
+      "c3_6_bai4_test1",
+      "c3_6_bai4_test2",
+      "c3_6_bai4_test3",
+      "c3_6_bai5_test1",
+      "c3_6_bai5_test2",
+      "c3_6_bai5_test3",
+      "c3_6_bai6_test1",
+      "c3_6_bai6_test2",
+      "c3_6_bai6_test3"
+    ]
+  },
+  "grade6_c4_6": {
+    "grade": "6",
+    "chapterId": "c4_6",
+    "chapterTitle": "Chương IV: Một số hình phẳng trong thực tiễn",
+    "totalExams": 12,
+    "updatedAt": "2026-10-25 14:25:00",
+    "jsonFile": "grade6_c4_6_exams.json",
+    "jsFile": "grade6_c4_6_exams.js",
+    "jsonPath": "src/data/generated/grade6_c4_6_exams.json",
+    "jsPath": "src/data/generated/grade6_c4_6_exams.js",
+    "examKeys": [
+      "c4_6_bai1_test1",
+      "c4_6_bai1_test2",
+      "c4_6_bai1_test3",
+      "c4_6_bai2_test1",
+      "c4_6_bai2_test2",
+      "c4_6_bai2_test3",
+      "c4_6_bai3_test1",
+      "c4_6_bai3_test2",
+      "c4_6_bai3_test3",
+      "c4_6_bai4_test1",
+      "c4_6_bai4_test2",
+      "c4_6_bai4_test3"
     ]
   }
 }

@@ -395,11 +395,115 @@
       "testNum": 1,
       "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Bài kiểm tra số 1",
       "completed_at": "2026-10-23 12:44:45"
+    },
+    "c7_8_bai1_test1": {
+      "grade": "8",
+      "chapterId": "c7_8",
+      "lesson": "Bài 25: Phương trình bậc nhất một ẩn",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 25: Phương trình bậc nhất một ẩn - Bài kiểm tra số 1",
+      "completed_at": "2026-10-24 07:45:06"
+    },
+    "c7_8_bai1_test2": {
+      "grade": "8",
+      "chapterId": "c7_8",
+      "lesson": "Bài 25: Phương trình bậc nhất một ẩn",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài 25: Phương trình bậc nhất một ẩn - Bài kiểm tra số 2",
+      "completed_at": "2026-10-24 07:46:49"
+    },
+    "c6_8_bai1_test1": {
+      "grade": "8",
+      "chapterId": "c6_8",
+      "lesson": "Bài 21: Phân thức đại số",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 21: Phân thức đại số - Đề kiểm tra số 1",
+      "completed_at": "2026-10-24 07:48:17"
+    },
+    "c5_8_bai1_test1": {
+      "grade": "8",
+      "chapterId": "c5_8",
+      "lesson": "Bài 18: Thu thập và phân loại dữ liệu",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 18: Thu thập và phân loại dữ liệu - Đề kiểm tra số 1",
+      "completed_at": "2026-10-24 07:50:08"
+    },
+    "c5_8_bai1_test2": {
+      "grade": "8",
+      "chapterId": "c5_8",
+      "lesson": "Bài 18: Thu thập và phân loại dữ liệu",
+      "testNum": 2,
+      "title": "Toán 8 (KNTT) - Bài 18: Thu thập và phân loại dữ liệu - Bài kiểm tra số 2",
+      "completed_at": "2026-10-24 07:53:50"
+    },
+    "c5_8_bai2_test1": {
+      "grade": "8",
+      "chapterId": "c5_8",
+      "lesson": "Bài 19: Biểu diễn dữ liệu bằng bảng, biểu đồ",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 19: Biểu diễn dữ liệu bằng bảng, biểu đồ - Bài kiểm tra số 1",
+      "completed_at": "2026-10-24 20:13:28"
+    },
+    "c5_8_bai3_test1": {
+      "grade": "8",
+      "chapterId": "c5_8",
+      "lesson": "Bài 20: Phân tích số liệu thống kê dựa vào biểu đồ",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 20: Phân tích số liệu thống kê dựa vào biểu đồ - Bài kiểm tra số 1",
+      "completed_at": "2026-10-24 20:25:10"
+    },
+    "c5_8_bai4_test1": {
+      "grade": "8",
+      "chapterId": "c5_8",
+      "lesson": "Bài kiểm tra cuối Chương V: Dữ liệu và biểu đồ",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương V: Dữ liệu và biểu đồ - Đề số 1",
+      "completed_at": "2026-10-24 20:28:33"
+    },
+    "c6_8_bai2_test1": {
+      "grade": "8",
+      "chapterId": "c6_8",
+      "lesson": "Bài 22: Tính chất cơ bản của phân thức đại số",
+      "testNum": 1,
+      "title": "Đề kiểm tra Toán 8 - Bài 22: Tính chất cơ bản của phân thức đại số (Đề số 1)",
+      "completed_at": "2026-10-24 20:33:24"
+    },
+    "c6_8_bai3_test1": {
+      "grade": "8",
+      "chapterId": "c6_8",
+      "lesson": "Bài 23: Phép cộng và phép trừ phân thức đại số",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 23: Phép cộng và phép trừ phân thức đại số - Đề số 1",
+      "completed_at": "2026-10-24 20:36:46"
+    },
+    "c7_8_bai2_test1": {
+      "grade": "8",
+      "chapterId": "c7_8",
+      "lesson": "Bài 26: Giải bài toán bằng cách lập phương trình",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 26: Giải bài toán bằng cách lập phương trình - Bài kiểm tra số 1",
+      "completed_at": "2026-10-24 20:42:48"
+    },
+    "c7_8_bai3_test1": {
+      "grade": "8",
+      "chapterId": "c7_8",
+      "lesson": "Bài 27: Khái niệm hàm số và đồ thị của hàm số",
+      "testNum": 1,
+      "title": "ĐỀ KIỂM TRA ĐỊNH KÌ TOÁN 8 - BÀI 27: KHÁI NIỆM HÀM SỐ VÀ ĐỒ THỊ CỦA HÀM SỐ (ĐỀ SỐ 1)",
+      "completed_at": "2026-10-24 20:46:08"
+    },
+    "c7_8_bai4_test1": {
+      "grade": "8",
+      "chapterId": "c7_8",
+      "lesson": "Bài 28: Hàm số bậc nhất $y = ax + b$ ($a \\\\neq 0$)",
+      "testNum": 1,
+      "title": "Toán 8 (KNTT) - Bài 28: Hàm số bậc nhất $y = ax + b$ ($a \\neq 0$) - Bài kiểm tra số 1",
+      "completed_at": "2026-10-24 20:49:04"
     }
   },
-  "last_updated": "2026-10-23 14:17:32",
+  "last_updated": "2026-10-24 20:49:04",
   "stats": {
-    "total_completed": 54,
-    "failed_attempts": 32
+    "total_completed": 67,
+    "failed_attempts": 35
   }
 }
