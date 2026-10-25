@@ -604,5 +604,24 @@
       "c8_7_bai3_test2",
       "c8_7_bai3_test3"
     ]
+  },
+  "grade10_mock": {
+    "grade": "10",
+    "chapterId": "grade10_mock",
+    "chapterTitle": "THI THỬ VÀO LỚP 10 MÔN TOÁN - GV PHAN ĐÌNH THUẤN",
+    "totalExams": 6,
+    "updatedAt": "2026-10-25 17:40:00",
+    "jsonFile": "grade10_mock_exams.json",
+    "jsFile": "grade10_mock_exams.js",
+    "jsonPath": "./src/data/generated/grade10_mock_exams.json",
+    "jsPath": "./src/data/generated/grade10_mock_exams.js",
+    "examKeys": [
+      "de_01",
+      "de_02",
+      "de_03",
+      "de_04",
+      "de_05",
+      "de_06"
+    ]
   }
 }
