@@ -1,0 +1,3568 @@
+// Auto-generated Chapter 5 Toán 7 Exams (UMD Module)
+const CHAPTER5_TOAN7_EXAMS = {
+  "c5_7_bai1_test1": {
+    "title": "Toán 7 (KNTT) - Bài 17: Thu thập và phân loại dữ liệu - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu trực tiếp?",
+        "options": [
+          "Quan sát hoặc làm thí nghiệm, lập phiếu hỏi",
+          "Tìm kiếm trên mạng Internet",
+          "Đọc trong sách tham khảo",
+          "Tra cứu trên niên giám thống kê"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Dữ liệu nào sau đây là dữ liệu số (số liệu)?",
+        "options": [
+          "Chiều cao của các học sinh trong lớp (cm)",
+          "Tên các loài hoa yêu thích",
+          "Xếp loại học lực (Tốt, Khá, Đạt)",
+          "Nơi sinh của các bạn học sinh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Dữ liệu nào sau đây không phải là số liệu (dữ liệu định tính)?",
+        "options": [
+          "Màu sắc yêu thích của các bạn trong tổ",
+          "Số học sinh giỏi của từng lớp",
+          "Điểm kiểm tra môn Toán",
+          "Nhiệt độ trung bình các ngày trong tuần"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Dữ liệu định tính nào sau đây có thể so sánh được (thứ bậc)?",
+        "options": [
+          "Mức độ hài lòng của khách hàng: Rất hài lòng, Hài lòng, Không hài lòng",
+          "Màu mắt: Đen, Nâu, Xanh",
+          "Môn thể thao yêu thích: Bóng đá, Bơi, Cầu lông",
+          "Tên các quận, huyện của Hà Nội"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Để thu thập dữ liệu về điểm kiểm tra môn Toán học kì I của các bạn học sinh lớp 7A, bạn lớp trưởng nên thu thập từ nguồn nào?",
+        "options": [
+          "Sổ điểm hoặc bảng điểm của giáo viên dạy Toán",
+          "Hỏi các bạn trong tổ của mình",
+          "Tìm kiếm trên mạng Internet",
+          "Hỏi bác bảo vệ của trường"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Dãy dữ liệu nào sau đây gồm các dữ liệu hợp lí về điểm thi môn Toán thang điểm 10?",
+        "options": [
+          "$8; 9; 7{,}5; 10; 6$",
+          "$8; 12; 7; -2; 9$",
+          "$9; 10; A; B; 8$",
+          "$7; 8; 15; 6; 7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Cho dãy dữ liệu về năm sinh của học sinh lớp 7: $2011, 2012, 1995, 2012, 2011$. Giá trị nào là không hợp lí?",
+        "options": [
+          "$1995$",
+          "$2011$",
+          "$2012$",
+          "Không có giá trị nào"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Bảng khảo sát về sở thích đọc sách của học sinh có các mức: Không thích, Bình thường, Thích, Rất thích. Đây là loại dữ liệu:",
+        "options": [
+          "Dữ liệu định tính có thể sắp xếp thứ bậc",
+          "Dữ liệu định tính không thể sắp xếp thứ bậc",
+          "Dữ liệu số liên tục",
+          "Dữ liệu số rời rạc"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Dãy dữ liệu về thân nhiệt của một bệnh nhân (độ C) lúc 8h sáng: $36{,}8; 37{,}0; 37{,}2; 45{,}5$. Giá trị bất thường trong dãy là:",
+        "options": [
+          "$45{,}5$",
+          "$37{,}0$",
+          "$36{,}8$",
+          "$37{,}2$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Để tìm hiểu về số lượng xe máy của mỗi hộ gia đình tại một khu phố, loại dữ liệu thu thập được là:",
+        "options": [
+          "Dữ liệu số",
+          "Dữ liệu định tính",
+          "Dữ liệu hình ảnh",
+          "Dữ liệu âm thanh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một tổ có 8 học sinh có số cuốn sách đọc trong học kì I là: $3, 5, 2, 4, 3, 6, 4, 5$. Tổng số sách tổ đó đọc được là:",
+        "options": [
+          "$32$",
+          "$30$",
+          "$34$",
+          "$28$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng",
+        "question": "Số lượng học sinh vắng mặt trong tuần của một lớp là: Thứ Hai: 1, Thứ Ba: 0, Thứ Tư: 2, Thứ Năm: 0, Thứ Sáu: 1. Số ngày không có học sinh vắng là:",
+        "options": [
+          "$2$ ngày",
+          "$1$ ngày",
+          "$3$ ngày",
+          "$0$ ngày"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Thầy giáo ghi lại điểm kiểm tra giữa kì I môn Toán của 10 bạn trong tổ 1 như sau: $7; 8; 6; 9; 10; 8; 7; 8; 9; 8$. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Dữ liệu thu được là dữ liệu định lượng (số liệu).",
+            "isCorrect": true,
+            "explanation": "Điểm số là các giá trị bằng số."
+          },
+          {
+            "id": "b",
+            "statement": "Điểm số cao nhất của tổ là $10$ điểm.",
+            "isCorrect": true,
+            "explanation": "Trong dãy điểm, điểm 10 là lớn nhất."
+          },
+          {
+            "id": "c",
+            "statement": "Có 4 bạn trong tổ đạt điểm 8.",
+            "isCorrect": true,
+            "explanation": "Có bốn giá trị 8 trong dãy: 8; 8; 8; 8."
+          },
+          {
+            "id": "d",
+            "statement": "Điểm trung bình của 10 bạn trong tổ bằng $7{,}5$.",
+            "isCorrect": false,
+            "explanation": "Tổng điểm $= 7+8+6+9+10+8+7+8+9+8 = 80 \\Rightarrow$ điểm trung bình $= 80/10 = 8{,}0 \\neq 7{,}5$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Trong các thông tin thu thập dưới đây, xét tính đúng/sai về việc phân loại dữ liệu:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Họ và tên học sinh là dữ liệu định tính không thể sắp xếp thứ tự ưu tiên logic.",
+            "isCorrect": true,
+            "explanation": "Họ tên chỉ là danh xưng, không có thứ bậc hơn kém."
+          },
+          {
+            "id": "b",
+            "statement": "Kích cỡ áo sơ mi (S, M, L, XL, XXL) là dữ liệu định tính có thể sắp xếp thứ bậc.",
+            "isCorrect": true,
+            "explanation": "Các size biểu thị kích thước tăng dần từ nhỏ đến lớn."
+          },
+          {
+            "id": "c",
+            "statement": "Khối lượng một quả táo là dữ liệu định tính.",
+            "isCorrect": false,
+            "explanation": "Khối lượng tính bằng gam/kg là dữ liệu số (định lượng)."
+          },
+          {
+            "id": "d",
+            "statement": "Số người trong gia đình là dữ liệu số.",
+            "isCorrect": true,
+            "explanation": "Số người là số nguyên dương, là dữ liệu số."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Một cửa hàng thống kê số lượng áo bán được theo size trong ngày: S: 15, M: 25, L: 20, XL: 10. Tổng số áo bán được trong ngày là bao nhiêu chiếc?",
+        "answer": 70,
+        "unit": "chiếc"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho dãy dữ liệu nhiệt độ các ngày trong tuần: $28^\\circ C, 29^\\circ C, 31^\\circ C, 30^\\circ C, 32^\\circ C, 33^\\circ C, 27^\\circ C$. Chênh lệch giữa nhiệt độ cao nhất và thấp nhất là bao nhiêu độ C?",
+        "answer": 6,
+        "unit": "độ C"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Số lượng huy chương vàng của 5 lớp trong Hội khỏe Phù Đổng là: $3, 5, 2, 4, 6$. Trung bình mỗi lớp đạt được bao nhiêu huy chương vàng?",
+        "answer": 4,
+        "unit": "huy chương"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Trong danh sách số điện thoại của 6 người: $0912..., 0983..., 0905..., 12345, 0977..., 0936...$, có bao nhiêu số điện thoại không hợp lệ?",
+        "answer": 1,
+        "unit": ""
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Để tìm hiểu về loại trái cây yêu thích của 40 học sinh lớp 7B, bạn An lập phiếu hỏi và thu được bảng dữ liệu như sau:\n- Cam: 12 bạn\n- Xoài: 10 bạn\n- Táo: 8 bạn\n- Chuối: 10 bạn\na) Dữ liệu thu thập được thuộc loại dữ liệu nào?\nb) Lập bảng thống kê biểu diễn dữ liệu trên và cho biết loại trái cây nào được yêu thích nhiều nhất.",
+        "maxScore": 1.0,
+        "solution": "a) Dữ liệu \"loại trái cây yêu thích\" là dữ liệu định tính (không phải số liệu, không thể sắp xếp thứ bậc).\nb) Bảng thống kê:\n| Loại trái cây | Cam | Xoài | Táo | Chuối |\n| Số bạn thích | 12 | 10 | 8 | 10 |\nTổng số học sinh là $12 + 10 + 8 + 10 = 40$ học sinh.\nLoại trái cây được yêu thích nhiều nhất là Cam (với 12 bạn lựa chọn).",
+        "rubric": [
+          {
+            "step": "Xác định đúng loại dữ liệu định tính",
+            "subScore": 0.4
+          },
+          {
+            "step": "Lập đúng bảng thống kê và chỉ ra Cam nhiều nhất",
+            "subScore": 0.6
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bạn Minh ghi chép số giờ sử dụng máy tính mỗi ngày trong một tuần của mình như sau: $2; 1{,}5; 2; 3; 2{,}5; 14; 2$. Em hãy cho biết giá trị nào trong dãy trên là bất thường? Hãy giải thích vì sao và đề xuất phương án sửa lại cho hợp lí.",
+        "maxScore": 1.0,
+        "solution": "- Giá trị bất thường trong dãy số liệu là $14$ (giờ).\n- Giải thích: Một học sinh THCS trong ngày nghỉ cuối tuần hoặc ngày học thường chỉ dùng máy tính từ $1$ đến $3$ giờ. Việc sử dụng $14$ giờ một ngày là không hợp lí đối với lứa tuổi học sinh và sinh hoạt bình thường (rất có thể là lỗi ghi chép, bạn ghi nhầm $1{,}4$ hoặc $4$ giờ).\n- Phương án sửa: Bạn Minh cần kiểm tra lại nhật kí sử dụng của ngày hôm đó, nếu là $1{,}4$ giờ hoặc $4$ giờ thì sửa lại theo thực tế.",
+        "rubric": [
+          {
+            "step": "Chỉ ra đúng giá trị bất thường là 14",
+            "subScore": 0.4
+          },
+          {
+            "step": "Giải thích tính bất hợp lí và đề xuất cách xử lí",
+            "subScore": 0.6
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một tổ học sinh gồm 8 bạn có điểm kiểm tra thường xuyên môn Toán như sau: $6; 7; 8; 7; 9; 8; x; 10$. Biết điểm trung bình môn Toán của tổ là $8{,}0$. Hãy tìm điểm $x$ của bạn còn lại.",
+        "maxScore": 1.0,
+        "solution": "Tổng điểm của cả tổ gồm 8 bạn là:\n$S = 8 \\times 8{,}0 = 64$ (điểm).\nTổng điểm của 7 bạn đã biết là:\n$6 + 7 + 8 + 7 + 9 + 8 + 10 = 55$ (điểm).\nĐiểm số $x$ của bạn còn lại là:\n$x = 64 - 55 = 9$ (điểm).\nGiá trị $x = 9$ là hợp lí trong thang điểm 10.",
+        "rubric": [
+          {
+            "step": "Tính tổng điểm của tổ: 64 điểm",
+            "subScore": 0.4
+          },
+          {
+            "step": "Thiết lập phương trình và giải ra x = 9",
+            "subScore": 0.6
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai1_test2": {
+    "title": "Toán 7 (KNTT) - Bài 17: Thu thập và phân loại dữ liệu - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tiêu chí nào sau đây cần đảm bảo khi thu thập dữ liệu?",
+        "options": [
+          "Tính đầy đủ, chính xác và có tính đại diện",
+          "Càng nhiều càng tốt không cần chính xác",
+          "Chỉ chọn dữ liệu có lợi cho mình",
+          "Thu thập ngẫu nhiên không cần mục đích"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Để đánh giá mức độ hài lòng của phụ huynh học sinh về các hoạt động ngoại khóa của trường, nhà trường nên thu thập dữ liệu bằng cách nào?",
+        "options": [
+          "Gửi phiếu khảo sát trực tuyến hoặc phiếu giấy đến toàn thể phụ huynh",
+          "Hỏi ý kiến của một lớp bất kì",
+          "Chỉ hỏi ban đại diện cha mẹ học sinh của trường",
+          "Hỏi các thầy cô giáo chủ nhiệm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Trong các dãy dữ liệu sau, dãy nào là dữ liệu định tính có thể so sánh thứ bậc?",
+        "options": [
+          "Học lực học kì: Tốt, Khá, Đạt, Chưa đạt",
+          "Màu xe máy: Đỏ, Trắng, Đen, Xanh",
+          "Môn thể thao: Cầu lông, Bóng rổ, Bơi lội",
+          "Tên thủ đô các nước Đông Nam Á"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Khảo sát thời gian tự học ở nhà mỗi ngày của 5 bạn học sinh (đơn vị: giờ): $2; 1{,}5; -0{,}5; 3; 2{,}5$. Giá trị không hợp lí trong dãy dữ liệu là:",
+        "options": [
+          "$-0{,}5$",
+          "$1{,}5$",
+          "$2{,}5$",
+          "$3$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một bảng dữ liệu ghi điểm thi môn Tiếng Anh: $8; 7; 9; 10; 8; \\text{Tốt}; 7$. Thành phần không hợp lí là:",
+        "options": [
+          "$\\text{Tốt}$",
+          "$10$",
+          "$7$",
+          "$8$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Thu thập số lượng học sinh của 4 khối lớp tại một trường THCS được kết quả: Khối 6: 180, Khối 7: 175, Khối 8: 160, Khối 9: 155. Tổng số học sinh toàn trường là:",
+        "options": [
+          "$670$",
+          "$660$",
+          "$680$",
+          "$650$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Kết quả khảo sát món ăn sáng yêu thích của 100 học sinh: Bánh mì 45, Phở 25, Xôi 20, Khác 10. Tỉ lệ học sinh thích Bánh mì là:",
+        "options": [
+          "$45\\%$",
+          "$25\\%$",
+          "$20\\%$",
+          "$55\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng",
+        "question": "Một bạn ghi chép số cuốn vở dùng trong một năm của 5 bạn: $15, 18, 12, 16, 14$. Trung vị của dãy số liệu trên là:",
+        "options": [
+          "$15$",
+          "$16$",
+          "$18$",
+          "$14$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Số lượng cây trồng của 4 tổ trong đợt phát động Tết trồng cây: Tổ 1: 24, Tổ 2: 28, Tổ 3: 22, Tổ 4: 26. Tổ nào trồng được nhiều cây nhất?",
+        "options": [
+          "Tổ 2",
+          "Tổ 1",
+          "Tổ 4",
+          "Tổ 3"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Cho dãy dữ liệu xếp loại thể lực: Rất khỏe (30%), Khỏe (50%), Trung bình (15%), Yếu (x%). Giá trị của $x$ để tổng phần trăm bằng 100% là:",
+        "options": [
+          "$5$",
+          "$10$",
+          "$15$",
+          "$0$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Để chọn mẫu khảo sát đại diện cho ý kiến của 1000 học sinh toàn trường, phương pháp chọn mẫu nào sau đây là hợp lí nhất?",
+        "options": [
+          "Chọn ngẫu nhiên 10 học sinh từ mỗi lớp trong 25 lớp của trường",
+          "Chọn toàn bộ học sinh khối 9",
+          "Chọn 50 bạn hay đến thư viện",
+          "Chọn các bạn tham gia đội tuyển học sinh giỏi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Dữ liệu liên tục là dữ liệu nhận các giá trị trong một khoảng số thực. Ví dụ nào sau đây là dữ liệu liên tục?",
+        "options": [
+          "Cân nặng của các bạn học sinh (kg)",
+          "Số lượng học sinh trong lớp",
+          "Số bàn thắng trong trận đấu",
+          "Số quyển sách trên giá"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Bảng khảo sát mức độ hài lòng về căn tin trường học của 200 học sinh:\n- Rất hài lòng: 60 bạn\n- Hài lòng: 100 bạn\n- Bình thường: 30 bạn\n- Không hài lòng: 10 bạn.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Dữ liệu khảo sát là dữ liệu định tính có thứ bậc.",
+            "isCorrect": true,
+            "explanation": "Các mức độ hài lòng sắp xếp được từ cao xuống thấp."
+          },
+          {
+            "id": "b",
+            "statement": "Tỉ lệ học sinh \"Hài lòng\" chiếm đúng $50\\%$ số học sinh được khảo sát.",
+            "isCorrect": true,
+            "explanation": "$100 / 200 = 50\\%$."
+          },
+          {
+            "id": "c",
+            "statement": "Tổng số học sinh có ý kiến tích cực (Rất hài lòng và Hài lòng) là $160$ bạn ($80\\%$).",
+            "isCorrect": true,
+            "explanation": "$60 + 100 = 160$ bạn, tức $160/200 = 80\\%$."
+          },
+          {
+            "id": "d",
+            "statement": "Số học sinh không hài lòng chiếm $10\\%$ tổng số học sinh.",
+            "isCorrect": false,
+            "explanation": "$10 / 200 = 5\\%$ chứ không phải $10\\%$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bạn Hà ghi lại điểm thi 5 môn của mình: Toán 9, Ngữ văn 8, Tiếng Anh 9, KHTN 9, Lịch sử & Địa lí $x$. Biết điểm trung bình 5 môn là $8{,}8$. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Dữ liệu điểm số là dữ liệu số liệu.",
+            "isCorrect": true,
+            "explanation": "Điểm là các con số cụ thể."
+          },
+          {
+            "id": "b",
+            "statement": "Tổng điểm 4 môn đã biết bằng $35$ điểm.",
+            "isCorrect": true,
+            "explanation": "$9 + 8 + 9 + 9 = 35$ điểm."
+          },
+          {
+            "id": "c",
+            "statement": "Tổng điểm của 5 môn là $44$ điểm.",
+            "isCorrect": true,
+            "explanation": "$8{,}8 \\times 5 = 44$ điểm."
+          },
+          {
+            "id": "d",
+            "statement": "Điểm số $x$ của môn Lịch sử & Địa lí là $8{,}5$.",
+            "isCorrect": false,
+            "explanation": "$x = 44 - 35 = 9$ điểm, không phải $8{,}5$."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Khảo sát sĩ số 4 lớp khối 7: lớp 7A có 42 bạn, 7B có 40 bạn, 7C có 45 bạn, 7D có 41 bạn. Tìm sĩ số trung bình của mỗi lớp (điền số thập phân).",
+        "answer": 42,
+        "unit": "học sinh"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một nhóm gồm 10 học sinh làm một bài trắc nghiệm có 10 câu hỏi. Số câu đúng của các bạn là: $8, 9, 7, 10, 8, 9, 6, 8, 9, 6$. Có bao nhiêu bạn đạt từ 8 câu đúng trở lên?",
+        "answer": 8,
+        "unit": "bạn"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Trong một giải bóng đá có 4 đội thi đấu vòng tròn 1 lượt (mỗi đội gặp nhau 1 lần). Tổng số trận đấu trong giải là bao nhiêu?",
+        "answer": 6,
+        "unit": "trận"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Cho một dãy số liệu gồm 5 số nguyên dương có số trung bình cộng là 12, số nhỏ nhất là 8, số lớn nhất là 20. Tổng của 3 số còn lại là bao nhiêu?",
+        "answer": 32,
+        "unit": ""
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Để khảo sát về phương tiện đến trường của học sinh một trường THCS, bạn Lan đề xuất: \"Chỉ phỏng vấn các bạn đi xe đạp điện ở cổng trường vào lúc 6h45 sáng\".\na) Em có đồng ý với phương pháp thu thập dữ liệu của bạn Lan không? Vì sao?\nb) Hãy đề xuất một phương án thu thập dữ liệu đại diện và khách quan hơn.",
+        "maxScore": 1.0,
+        "solution": "a) Em không đồng ý với phương pháp của bạn Lan.\nVì mẫu thu thập không mang tính đại diện cho toàn thể học sinh trong trường: chỉ phỏng vấn các bạn đi xe đạp điện sẽ bỏ sót các phương tiện khác (đi bộ, xe buýt, xe đạp thường, phụ huynh chở bằng ô tô/xe máy).\nb) Phương án đề xuất khách quan hơn:\n- Lập phiếu khảo sát (trên giấy hoặc trực tuyến) gửi tới tất cả các lớp trong trường.\n- Hoặc tại mỗi lớp trong toàn trường, chọn ngẫu nhiên 5 đến 10 học sinh để phỏng vấn, đảm bảo đại diện đủ các khối lớp và phương tiện.",
+        "rubric": [
+          {
+            "step": "Nhận xét đúng và giải thích tính thiếu đại diện của mẫu",
+            "subScore": 0.5
+          },
+          {
+            "step": "Đề xuất phương án thu thập đại diện và khoa học",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một trạm khí tượng thủy văn đo lượng mưa (đơn vị: mm) trong 7 ngày liên tiếp của tuần đầu tháng 8 như sau: $12; 25; 0; 45; 18; 150; 30$.\na) Phân tích xem trong dãy số liệu trên có giá trị nào bất thường không?\nb) Nếu giá trị 150 mm xuất hiện trong ngày có bão lớn đổ bộ, thì giá trị đó có hợp lí không?",
+        "maxScore": 1.0,
+        "solution": "a) Giá trị $150$ mm cao đột biến so với các ngày còn lại (dao động từ $0$ đến $45$ mm). Nếu trong điều kiện thời tiết ngày thường thì giá trị $150$ là một giá trị bất thường.\nb) Nếu ngày đó có bão lớn đổ bộ thì lượng mưa $150$ mm là hoàn toàn hợp lí về mặt thực tế khí tượng, phản ánh đúng hiện tượng thời tiết cực đoan và cần được giữ nguyên trong báo cáo thống kê kèm chú thích về cơn bão.",
+        "rubric": [
+          {
+            "step": "Chỉ ra giá trị 150 mm cao đột biến và giải thích",
+            "subScore": 0.5
+          },
+          {
+            "step": "Lập luận tính hợp lí trong hoàn cảnh có bão lớn",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một tổ có 10 học sinh gồm 6 nam và 4 nữ. Điểm trung bình môn Toán của 6 bạn nam là $7{,}5$ và điểm trung bình môn Toán của 4 bạn nữ là $8{,}5$. Hãy tính điểm trung bình môn Toán của cả tổ 10 bạn.",
+        "maxScore": 1.0,
+        "solution": "Tổng điểm môn Toán của 6 bạn nam là:\n$S_{\\text{nam}} = 6 \\times 7{,}5 = 45$ (điểm).\nTổng điểm môn Toán của 4 bạn nữ là:\n$S_{\\text{nữ}} = 4 \\times 8{,}5 = 34$ (điểm).\nTổng điểm môn Toán của cả tổ 10 bạn là:\n$S = S_{\\text{nam}} + S_{\\text{nữ}} = 45 + 34 = 79$ (điểm).\nĐiểm trung bình môn Toán của cả tổ là:\n$\\bar{X} = \\frac{79}{10} = 7{,}9$ (điểm).\nVậy điểm trung bình của cả tổ là $7{,}9$.",
+        "rubric": [
+          {
+            "step": "Tính đúng tổng điểm nam (45) và tổng điểm nữ (34)",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng điểm trung bình cả tổ là 7,9",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai1_test3": {
+    "title": "Toán 7 (KNTT) - Bài 17: Thu thập và phân loại dữ liệu - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Khi nghiên cứu tỉ lệ ủng hộ của công chúng đối với dự án mở rộng công viên, cơ quan khảo sát phỏng vấn 100 người đi bộ trong công viên đó vào sáng Chủ nhật. Kết luận nào sau đây đúng về mẫu khảo sát?",
+        "options": [
+          "Mẫu bị thiên lệch (chệch) vì người có mặt ở công viên có xu hướng ủng hộ cao hơn mặt bằng chung",
+          "Mẫu có tính đại diện cao cho toàn bộ dân cư thành phố",
+          "Mẫu hoàn toàn ngẫu nhiên và khách quan",
+          "Mẫu không đủ số lượng người để khảo sát"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Dữ liệu nào sau đây là dữ liệu rời rạc (chỉ nhận giá trị nguyên hoặc đếm được)?",
+        "options": [
+          "Số lượng xe ôtô đi qua trạm thu phí mỗi giờ",
+          "Khối lượng bao gạo cân được",
+          "Khoảng cách giữa hai thành phố",
+          "Thời gian chạy 100 m của vận động viên"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một bảng thống kê thu nhập của 10 hộ gia đình (triệu đồng/tháng): $12, 15, 10, 14, 13, 11, 16, 12, 14, 500$. Để phản ánh đúng mức thu nhập phổ biến của đa số người dân, số đặc trưng nào thích hợp hơn?",
+        "options": [
+          "Số trung vị",
+          "Số trung bình cộng",
+          "Số lớn nhất",
+          "Tổng thu nhập"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Cho dãy số liệu điểm thi: $5, 7, 8, 9, x, 6, 8, 10$. Biết trung bình cộng của dãy là $7{,}5$. Giá trị của $x$ là:",
+        "options": [
+          "$7$",
+          "$8$",
+          "$6$",
+          "$9$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng",
+        "question": "Một trường học có tỉ lệ học sinh các khối 6, 7, 8, 9 lần lượt là $28\\%, 26\\%, 24\\%, 22\\%$. Nếu cần chọn 200 học sinh theo đúng tỉ lệ trên, số học sinh khối 7 cần chọn là:",
+        "options": [
+          "$52$ bạn",
+          "$56$ bạn",
+          "$48$ bạn",
+          "$44$ bạn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Khảo sát cân nặng của 5 em bé sơ sinh: $3{,}1; 3{,}3; 3{,}2; 3{,}5; 2{,}9$ (kg). Độ lệch giữa bé nặng nhất và bé nhẹ nhất là:",
+        "options": [
+          "$0{,}6$ kg",
+          "$0{,}4$ kg",
+          "$0{,}5$ kg",
+          "$0{,}3$ kg"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Một cuộc thăm dò ý kiến gồm 500 phiếu có 3 phương án lựa chọn A, B, C. Tỉ lệ chọn A là 42%, chọn B là 38%. Số người chọn phương án C là:",
+        "options": [
+          "$100$ người",
+          "$80$ người",
+          "$120$ người",
+          "$150$ người"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Có 4 số tự nhiên có trung bình cộng là 15. Nếu thêm số thứ năm là 25 thì trung bình cộng của cả 5 số là:",
+        "options": [
+          "$17$",
+          "$18$",
+          "$16$",
+          "$20$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Một lớp có 40 học sinh gồm hai nhóm A và B. Nhóm A có 25 học sinh có điểm trung bình là 8,0. Nhóm B có điểm trung bình là 7,0. Điểm trung bình của cả lớp là:",
+        "options": [
+          "$7{,}625$",
+          "$7{,}5$",
+          "$7{,}6$",
+          "$7{,}7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Để tìm hiểu thời lượng sử dụng Internet của học sinh khối 7, người ta phân tầng chọn ngẫu nhiên mỗi lớp 10 học sinh. Phương pháp này gọi là:",
+        "options": [
+          "Chọn mẫu ngẫu nhiên phân tầng",
+          "Chọn mẫu thuận tiện",
+          "Chọn mẫu hệ thống",
+          "Chọn mẫu tự nguyện"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Một dãy số liệu có 7 giá trị nguyên dương tăng dần: $3, 5, 7, x, 11, 14, 18$. Biết số trung vị bằng 9. Giá trị của $x$ là:",
+        "options": [
+          "$9$",
+          "$8$",
+          "$10$",
+          "$7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Sai số trong thu thập dữ liệu có thể phát sinh từ:",
+        "options": [
+          "Dụng cụ đo không chuẩn, người trả lời khai báo sai hoặc người nhập dữ liệu nhầm lẫn",
+          "Chỉ do dụng cụ đo",
+          "Chỉ do người khảo sát cố ý làm sai",
+          "Không bao giờ có sai số nếu khảo sát nhiều"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Một giáo viên theo dõi thời gian làm một bài toán (tính theo phút) của 12 học sinh: $5, 6, 7, 6, 8, 5, 9, 7, 6, 8, 7, 6$. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Thời gian làm bài nhanh nhất là $5$ phút và chậm nhất là $9$ phút.",
+            "isCorrect": true,
+            "explanation": "Giá trị nhỏ nhất là 5, lớn nhất là 9."
+          },
+          {
+            "id": "b",
+            "statement": "Giá trị xuất hiện nhiều nhất (mốt) của dãy số liệu là $6$ phút (xuất hiện 4 lần).",
+            "isCorrect": true,
+            "explanation": "Số 6 xuất hiện 4 lần, nhiều nhất."
+          },
+          {
+            "id": "c",
+            "statement": "Tổng thời gian làm bài của 12 học sinh là $80$ phút.",
+            "isCorrect": true,
+            "explanation": "$5+6+7+6+8+5+9+7+6+8+7+6 = 80$ phút."
+          },
+          {
+            "id": "d",
+            "statement": "Thời gian trung bình làm bài của một học sinh là đúng $7$ phút.",
+            "isCorrect": false,
+            "explanation": "Trung bình $= 80 / 12 \\approx 6{,}67$ phút, không phải 7 phút."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Cho bảng phân bố tần số về số lỗi chính tả trong bài kiểm tra Ngữ văn của 30 học sinh:\n- 0 lỗi: 12 học sinh\n- 1 lỗi: 8 học sinh\n- 2 lỗi: 6 học sinh\n- 3 lỗi: 4 học sinh.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Tổng số lỗi chính tả của cả 30 học sinh là $32$ lỗi.",
+            "isCorrect": true,
+            "explanation": "$0 \\times 12 + 1 \\times 8 + 2 \\times 6 + 3 \\times 4 = 0 + 8 + 12 + 12 = 32$ lỗi."
+          },
+          {
+            "id": "b",
+            "statement": "Tỉ lệ học sinh không mắc lỗi chính tả chiếm $40\\%$.",
+            "isCorrect": true,
+            "explanation": "$12 / 30 = 40\\%$."
+          },
+          {
+            "id": "c",
+            "statement": "Số lỗi chính tả trung bình của mỗi học sinh là hơn $1{,}5$ lỗi.",
+            "isCorrect": false,
+            "explanation": "Trung bình $= 32 / 30 \\approx 1{,}07$ lỗi, nhỏ hơn 1,5."
+          },
+          {
+            "id": "d",
+            "statement": "Tỉ lệ học sinh mắc từ 2 lỗi trở lên là $\\frac{1}{3}$.",
+            "isCorrect": true,
+            "explanation": "Có $6 + 4 = 10$ học sinh mắc $\\ge 2$ lỗi $\\Rightarrow 10/30 = 1/3$."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Một tổ có 5 bạn có tuổi trung bình là 13 tuổi. Khi thầy giáo chủ nhiệm 31 tuổi tham gia vào nhóm thì tuổi trung bình của cả 6 người là bao nhiêu tuổi?",
+        "answer": 16,
+        "unit": "tuổi"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Cho 6 số có trung bình cộng bằng 20. Nếu bỏ đi một số thì trung bình cộng của 5 số còn lại là 18. Số bị bỏ đi là bao nhiêu?",
+        "answer": 30,
+        "unit": ""
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Khảo sát điểm kiểm tra của 20 học sinh ta tính được điểm trung bình là 7,5. Khi kiểm tra lại phát hiện ghi nhầm 1 bạn từ điểm 3 thành điểm 8. Điểm trung bình chính xác của 20 bạn là bao nhiêu (điền số thập phân)?",
+        "answer": 7.25,
+        "unit": ""
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Trong đợt quyên góp sách, lớp 7A có 3 tổ: Tổ 1 quyên góp 30 quyển, Tổ 2 quyên góp 45 quyển, Tổ 3 quyên góp số sách bằng trung bình cộng của cả 3 tổ. Tổ 3 quyên góp được bao nhiêu quyển sách?",
+        "answer": 37.5,
+        "unit": "quyển"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Một công ty dự định ra mắt một hương vị kem mới dành cho lứa tuổi thanh thiếu niên (từ 12 đến 18 tuổi). Giám đốc yêu cầu bộ phận nghiên cứu thị trường thu thập ý kiến khách hàng.\na) Nêu 2 sai lầm có thể xảy ra nếu nhóm nghiên cứu chỉ khảo sát khách hàng tại các quán cà phê cao cấp vào buổi sáng ngày làm việc.\nb) Thiết kế một kế hoạch khảo sát hợp lí (đối tượng, địa điểm, thời gian, phương pháp) để dữ liệu thu được đảm bảo tính đại diện và khách quan.",
+        "maxScore": 1.0,
+        "solution": "a) Hai sai lầm có thể xảy ra:\n1. Sai lầm về đối tượng khách hàng: Khách hàng tại quán cà phê cao cấp vào sáng ngày làm việc chủ yếu là người đi làm, người lớn tuổi, không thuộc nhóm thanh thiếu niên (12 - 18 tuổi) là đối tượng mục tiêu của sản phẩm.\n2. Sai lầm về thời gian: Buổi sáng ngày làm việc, thanh thiếu niên đang đi học ở trường nên mẫu khảo sát bị lệch hoàn toàn.\nb) Kế hoạch khảo sát đề xuất hợp lí:\n- Đối tượng: Học sinh THCS và THPT từ 12 đến 18 tuổi.\n- Địa điểm: Cổng trường học, khu vui chơi giải trí, nhà sách, trung tâm thương mại hoặc các lớp học thêm.\n- Thời gian: Chiều tan học, ngày thứ Bảy và Chủ nhật.\n- Phương pháp: Cho thử mẫu kem miễn phí giấu nhãn hiệu (mù đôi) và phát phiếu đánh giá trực tiếp về hương vị, độ ngọt, mức giá sẵn sàng chi trả.",
+        "rubric": [
+          {
+            "step": "Phân tích rõ 2 sai lầm về đối tượng và thời gian khảo sát",
+            "subScore": 0.5
+          },
+          {
+            "step": "Thiết kế kế hoạch khảo sát chuẩn chỉnh đầy đủ 4 yếu tố",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Cho bảng phân bố điểm kiểm tra cuối kì môn Toán của lớp 7A (sĩ số 40 bạn):\n| Điểm | 5 | 6 | 7 | 8 | 9 | 10 |\n| Số bạn | 3 | 7 | 12 | 10 | 6 | 2 |\na) Tính điểm trung bình môn Toán của lớp 7A.\nb) Nhà trường quy định lớp đạt chuẩn tiên tiến nếu có từ $70\\%$ số học sinh đạt điểm từ 7 trở lên. Lớp 7A có đạt tiêu chuẩn này không?",
+        "maxScore": 1.0,
+        "solution": "a) Tổng điểm của cả lớp là:\n$S = 5 \\times 3 + 6 \\times 7 + 7 \\times 12 + 8 \\times 10 + 9 \\times 6 + 10 \\times 2$\n$= 15 + 42 + 84 + 80 + 54 + 20 = 295$ (điểm).\nĐiểm trung bình của lớp 7A là:\n$\\bar{X} = \\frac{295}{40} = 7{,}375$ (điểm).\nb) Số học sinh đạt điểm từ 7 trở lên là:\n$12 + 10 + 6 + 2 = 30$ (học sinh).\nTỉ lệ học sinh đạt điểm từ 7 trở lên là:\n$P = \\frac{30}{40} \\times 100\\% = 75\\%$.\nVì $75\\% > 70\\%$, nên lớp 7A hoàn toàn đạt tiêu chuẩn lớp tiên tiến theo quy định của nhà trường.",
+        "rubric": [
+          {
+            "step": "Tính đúng tổng điểm 295 và điểm trung bình 7,375",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng tỉ lệ 75% và đưa ra kết luận đạt chuẩn",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một nhóm gồm $n$ người có độ tuổi trung bình là 24 tuổi. Sau khi có một người 36 tuổi rời nhóm và một người 18 tuổi gia nhập nhóm thì độ tuổi trung bình của nhóm giảm đi 1 tuổi (số lượng người trong nhóm không đổi). Hãy tìm số người $n$ trong nhóm.",
+        "maxScore": 1.0,
+        "solution": "Tổng số tuổi ban đầu của $n$ người là:\n$T_1 = 24n$ (tuổi).\nSau khi người 36 tuổi rời đi và người 18 tuổi gia nhập, tổng số tuổi mới của nhóm là:\n$T_2 = 24n - 36 + 18 = 24n - 18$ (tuổi).\nĐộ tuổi trung bình mới của nhóm là $24 - 1 = 23$ tuổi.\nVì số người trong nhóm vẫn là $n$, ta có phương trình:\n$\\frac{24n - 18}{n} = 23$\n$\\Leftrightarrow 24n - 18 = 23n$\n$\\Leftrightarrow 24n - 23n = 18$\n$\\Leftrightarrow n = 18$.\nVậy trong nhóm có 18 người.",
+        "rubric": [
+          {
+            "step": "Biểu diễn tổng số tuổi ban đầu và tổng số tuổi mới",
+            "subScore": 0.5
+          },
+          {
+            "step": "Thiết lập phương trình và giải ra n = 18",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai2_test1": {
+    "title": "Toán 7 (KNTT) - Bài 18: Biểu đồ hình quạt tròn - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Biểu đồ hình quạt tròn thường được dùng để:",
+        "options": [
+          "So sánh các phần trong toàn bộ dữ liệu (tỉ lệ phần trăm)",
+          "Biểu diễn sự thay đổi của dữ liệu theo thời gian",
+          "So sánh các giá trị tuyệt đối giữa các đối tượng",
+          "Biểu diễn vị trí không gian"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Trong biểu đồ hình quạt tròn, toàn bộ hình tròn biểu diễn:",
+        "options": [
+          "$100\\%$",
+          "$50\\%$",
+          "$360\\%$",
+          "$180\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Trong hình tròn có tổng số đo góc ở tâm là:",
+        "options": [
+          "$360^\\circ$",
+          "$180^\\circ$",
+          "$90^\\circ$",
+          "$100^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Một hình quạt tròn biểu diễn $25\\%$ của tổng thể thì góc ở tâm tương ứng là:",
+        "options": [
+          "$90^\\circ$",
+          "$45^\\circ$",
+          "$180^\\circ$",
+          "$60^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình quạt tròn có góc ở tâm là $180^\\circ$ thì biểu diễn bao nhiêu phần trăm tổng thể?",
+        "options": [
+          "$50\\%$",
+          "$25\\%$",
+          "$75\\%$",
+          "$100\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ hình quạt tròn thể hiện cơ cấu chi tiêu của một gia đình gồm: Ăn uống (40%), Tiết kiệm (20%), Giáo dục (25%), Chi khác (x%). Giá trị của $x$ là:",
+        "options": [
+          "$15$",
+          "$20$",
+          "$10$",
+          "$5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Lớp 7A có 40 học sinh. Biểu đồ quạt tròn cho biết học sinh Khá chiếm $40\\%$. Số học sinh Khá của lớp 7A là:",
+        "options": [
+          "$16$ học sinh",
+          "$10$ học sinh",
+          "$20$ học sinh",
+          "$24$ học sinh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Góc ở tâm biểu diễn tỉ lệ $10\\%$ trong biểu đồ quạt tròn là:",
+        "options": [
+          "$36^\\circ$",
+          "$10^\\circ$",
+          "$18^\\circ$",
+          "$72^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Một trường học có 800 học sinh. Biểu đồ quạt tròn cho thấy $50\\%$ học sinh đi bộ đến trường. Số học sinh đi bộ đến trường là:",
+        "options": [
+          "$400$ học sinh",
+          "$300$ học sinh",
+          "$500$ học sinh",
+          "$200$ học sinh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Trong biểu đồ hình quạt tròn biểu diễn các phương tiện đến trường, hình quạt biểu diễn \"Đi xe buýt\" chiếm góc $72^\\circ$. Tỉ lệ phần trăm học sinh đi xe buýt là:",
+        "options": [
+          "$20\\%$",
+          "$15\\%$",
+          "$25\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Khảo sát loại hình giải trí yêu thích của 200 bạn: Đọc sách $25\\%$, Chơi thể thao $45\\%$, Xem phim $20\\%$, Khác $10\\%$. Số bạn thích chơi thể thao là:",
+        "options": [
+          "$90$ bạn",
+          "$50$ bạn",
+          "$40$ bạn",
+          "$70$ bạn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng",
+        "question": "Một thư viện trường có 1200 cuốn sách gồm 3 loại: Sách giáo khoa (50%), Sách tham khảo (30%), Truyện tranh (20%). Số sách tham khảo là:",
+        "options": [
+          "$360$ cuốn",
+          "$600$ cuốn",
+          "$240$ cuốn",
+          "$400$ cuốn"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ phần trăm xếp loại học lực của khối 7 (gồm 300 học sinh): Xuất sắc 15%, Tốt 35%, Khá 40%, Đạt 10%. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Tổng các tỉ lệ phần trăm trên biểu đồ bằng $100\\%$.",
+            "isCorrect": true,
+            "explanation": "$15\\% + 35\\% + 40\\% + 10\\% = 100\\%$."
+          },
+          {
+            "id": "b",
+            "statement": "Số học sinh đạt loại Xuất sắc là $45$ học sinh.",
+            "isCorrect": true,
+            "explanation": "$300 \\times 15\\% = 45$ học sinh."
+          },
+          {
+            "id": "c",
+            "statement": "Số học sinh Khá nhiều hơn số học sinh Tốt là $15$ học sinh.",
+            "isCorrect": true,
+            "explanation": "Học sinh Khá $= 300 \\times 40\\% = 120$; Tốt $= 300 \\times 35\\% = 105 \\Rightarrow 120 - 105 = 15$ bạn."
+          },
+          {
+            "id": "d",
+            "statement": "Góc ở tâm của hình quạt biểu diễn học sinh loại Đạt là $18^\\circ$.",
+            "isCorrect": false,
+            "explanation": "Góc ở tâm $= 360^\\circ \\times 10\\% = 36^\\circ$, không phải $18^\\circ$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho các nhận định về góc ở tâm trong biểu đồ hình quạt tròn, xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Tỉ lệ $50\\%$ ứng với góc ở tâm là $180^\\circ$ (nửa hình tròn).",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 50\\% = 180^\\circ$."
+          },
+          {
+            "id": "b",
+            "statement": "Tỉ lệ $25\\%$ ứng với góc ở tâm là $90^\\circ$ (góc vuông).",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 25\\% = 90^\\circ$."
+          },
+          {
+            "id": "c",
+            "statement": "Tỉ lệ $75\\%$ ứng với góc ở tâm là $270^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 75\\% = 270^\\circ$."
+          },
+          {
+            "id": "d",
+            "statement": "Hình quạt có góc ở tâm $60^\\circ$ biểu diễn tỉ lệ $20\\%$.",
+            "isCorrect": false,
+            "explanation": "$60^\\circ / 360^\\circ = 1/6 \\approx 16{,}67\\% \\neq 20\\%$."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính số đo góc ở tâm (độ) tương ứng với hình quạt tròn biểu diễn $30\\%$ tổng thể.",
+        "answer": 108,
+        "unit": "độ"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Một tổ có 10 bạn quyên góp được 50 quyển sách. Trong đó sách tham khảo chiếm $40\\%$. Hỏi có bao nhiêu quyển sách tham khảo?",
+        "answer": 20,
+        "unit": "quyển"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một gia đình có thu nhập 20 triệu đồng mỗi tháng. Biểu đồ quạt tròn cho biết tiền ăn uống chiếm $45\\%$. Hỏi mỗi tháng gia đình đó chi bao nhiêu triệu đồng cho tiền ăn uống?",
+        "answer": 9,
+        "unit": "triệu đồng"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Biểu đồ quạt tròn thể hiện diện tích trồng trọt: Lúa 60%, Ngô 25%, Khoai 15%. Biết diện tích trồng khoai là 30 ha. Tổng diện tích trồng trọt là bao nhiêu ha?",
+        "answer": 200,
+        "unit": "ha"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Bảng sau đây cho biết kết quả xếp loại thi đua học kì I của 40 học sinh lớp 7C:\n- Tốt: 16 bạn\n- Khá: 14 bạn\n- Đạt: 8 bạn\n- Chưa đạt: 2 bạn\na) Tính tỉ lệ phần trăm của mỗi loại xếp loại thi đua so với cả lớp.\nb) Tính góc ở tâm tương ứng của từng hình quạt biểu diễn các loại trên trong biểu đồ hình quạt tròn.",
+        "maxScore": 1.0,
+        "solution": "a) Tỉ lệ phần trăm của từng loại:\n- Tốt: $\\frac{16}{40} \\times 100\\% = 40\\%$.\n- Khá: $\\frac{14}{40} \\times 100\\% = 35\\%$.\n- Đạt: $\\frac{8}{40} \\times 100\\% = 20\\%$.\n- Chưa đạt: $\\frac{2}{40} \\times 100\\% = 5\\%$.\nTổng tỉ lệ $= 40\\% + 35\\% + 20\\% + 5\\% = 100\\%$.\nb) Góc ở tâm tương ứng:\n- Tốt: $360^\\circ \\times 40\\% = 144^\\circ$.\n- Khá: $360^\\circ \\times 35\\% = 126^\\circ$.\n- Đạt: $360^\\circ \\times 20\\% = 72^\\circ$.\n- Chưa đạt: $360^\\circ \\times 5\\% = 18^\\circ$.\nTổng các góc ở tâm $= 144^\\circ + 126^\\circ + 72^\\circ + 18^\\circ = 360^\\circ$.",
+        "rubric": [
+          {
+            "step": "Tính đúng 4 tỉ lệ phần trăm",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng 4 số đo góc ở tâm tương ứng",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Biểu đồ hình quạt tròn biểu diễn cơ cấu các loại cây ăn quả trong một vườn cây gồm 500 cây:\n- Cây xoài: 30%\n- Cây ổi: 25%\n- Cây cam: 35%\n- Cây bưởi: 10%\na) Tính số lượng cây mỗi loại trong vườn.\nb) Loại cây nào được trồng nhiều nhất và nhiều hơn loại cây ít nhất bao nhiêu cây?",
+        "maxScore": 1.0,
+        "solution": "a) Số lượng cây mỗi loại trong vườn:\n- Cây xoài: $500 \\times 30\\% = 150$ cây.\n- Cây ổi: $500 \\times 25\\% = 125$ cây.\n- Cây cam: $500 \\times 35\\% = 175$ cây.\n- Cây bưởi: $500 \\times 10\\% = 50$ cây.\nb) Cây cam được trồng nhiều nhất (175 cây), cây bưởi được trồng ít nhất (50 cây).\nChênh lệch số lượng là: $175 - 50 = 125$ cây.",
+        "rubric": [
+          {
+            "step": "Tính đúng số lượng cả 4 loại cây",
+            "subScore": 0.6
+          },
+          {
+            "step": "Xác định cây cam nhiều nhất và độ chênh lệch là 125 cây",
+            "subScore": 0.4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người bán hàng thống kê doanh thu bán 3 mặt hàng trong một ngày:\n- Mặt hàng A đạt doanh thu 4 triệu đồng (chiếm 50% tổng doanh thu).\n- Mặt hàng B chiếm 30% tổng doanh thu.\n- Mặt hàng C chiếm phần còn lại.\na) Tính tổng doanh thu trong ngày của người đó.\nb) Tính doanh thu của mặt hàng B và mặt hàng C.",
+        "maxScore": 1.0,
+        "solution": "a) Vì mặt hàng A đạt doanh thu 4 triệu đồng và chiếm 50% tổng doanh thu nên tổng doanh thu trong ngày là:\n$4 : 50\\% = 4 : 0{,}5 = 8$ (triệu đồng).\nb) Doanh thu của mặt hàng B là:\n$8 \\times 30\\% = 2{,}4$ (triệu đồng).\nTỉ lệ doanh thu của mặt hàng C là:\n$100\\% - 50\\% - 30\\% = 20\\%$.\nDoanh thu của mặt hàng C là:\n$8 \\times 20\\% = 1{,}6$ (triệu đồng) (hoặc $8 - 4 - 2{,}4 = 1{,}6$ triệu đồng).",
+        "rubric": [
+          {
+            "step": "Tính đúng tổng doanh thu 8 triệu đồng",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng doanh thu mặt hàng B (2,4 tr) và C (1,6 tr)",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai2_test2": {
+    "title": "Toán 7 (KNTT) - Bài 18: Biểu đồ hình quạt tròn - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Góc ở tâm $54^\\circ$ trong biểu đồ hình quạt tròn tương ứng với tỉ lệ phần trăm là:",
+        "options": [
+          "$15\\%$",
+          "$12\\%$",
+          "$18\\%$",
+          "$20\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ quạt tròn biểu diễn thành phần các loại rác thải: Rác hữu cơ 55%, Nhựa tái chế 20%, Giấy 15%, Rác khác 10%. Góc ở tâm biểu diễn Rác hữu cơ là:",
+        "options": [
+          "$198^\\circ$",
+          "$180^\\circ$",
+          "$200^\\circ$",
+          "$190^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Một người dành 8 giờ để ngủ mỗi ngày. Trên biểu đồ quạt tròn biểu diễn 24 giờ trong ngày, hình quạt biểu diễn thời gian ngủ có góc ở tâm là:",
+        "options": [
+          "$120^\\circ$",
+          "$90^\\circ$",
+          "$100^\\circ$",
+          "$150^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ hình quạt biểu diễn thể loại phim yêu thích của 400 học sinh: Hoạt hình 45%, Hành động 30%, Hài 15%, Trinh thám 10%. Số học sinh thích phim Hoạt hình nhiều hơn phim Hài là:",
+        "options": [
+          "$120$ bạn",
+          "$100$ bạn",
+          "$80$ bạn",
+          "$60$ bạn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ quạt tròn có 3 hình quạt với các góc ở tâm lần lượt là $90^\\circ, 120^\\circ$ và góc thứ ba. Số đo góc thứ ba là:",
+        "options": [
+          "$150^\\circ$",
+          "$160^\\circ$",
+          "$140^\\circ$",
+          "$130^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Một giải chạy việt dã có 500 vận động viên tham gia. Tỉ lệ hoàn thành cự ly là 84%, bỏ cuộc là 16%. Số vận động viên hoàn thành cự ly là:",
+        "options": [
+          "$420$ người",
+          "$400$ người",
+          "$430$ người",
+          "$450$ người"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Một hợp kim gồm Đồng, Kẽm và Chì. Biểu đồ quạt tròn cho biết Đồng chiếm $60\\%$, Kẽm chiếm $35\\%$, còn lại là Chì. Khối lượng Chì trong $200$ g hợp kim là:",
+        "options": [
+          "$10$ g",
+          "$20$ g",
+          "$15$ g",
+          "$5$ g"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng",
+        "question": "Biểu đồ hình quạt thể hiện kết quả học tập của học sinh khối 7. Biết góc ở tâm của nhóm học sinh Giỏi là $72^\\circ$. Tỉ số giữa số học sinh Giỏi và tổng số học sinh khối 7 là:",
+        "options": [
+          "$\\frac{1}{5}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{6}$",
+          "$\\frac{2}{5}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn biểu diễn doanh thu 4 quý của một công ty, Quý I chiếm 20%, Quý II chiếm 25%, Quý III chiếm 30%. Nếu doanh thu Quý IV là 50 tỷ đồng thì tổng doanh thu cả năm là:",
+        "options": [
+          "$200$ tỷ đồng",
+          "$150$ tỷ đồng",
+          "$250$ tỷ đồng",
+          "$180$ tỷ đồng"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một lớp có số học sinh giỏi chiếm 30%, khá chiếm 50%, còn lại là 8 học sinh trung bình. Số học sinh của cả lớp là:",
+        "options": [
+          "$40$ học sinh",
+          "$45$ học sinh",
+          "$50$ học sinh",
+          "$35$ học sinh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Để vẽ biểu đồ hình quạt tròn cho bảng số liệu gồm 5 đối tượng có các tỉ lệ: 30%, 25%, 20%, 15%, 10%, số đo góc lớn nhất gấp mấy lần số đo góc nhỏ nhất?",
+        "options": [
+          "$3$ lần",
+          "$2$ lần",
+          "$2{,}5$ lần",
+          "$4$ lần"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Hai biểu đồ hình quạt tròn A và B cùng biểu diễn tỉ lệ học sinh thích môn Toán là $25\\%$. Biết tổng số học sinh ở biểu đồ A là 400 em, ở biểu đồ B là 600 em. Khẳng định nào sau đây đúng?",
+        "options": [
+          "Số học sinh thích môn Toán ở trường B nhiều hơn trường A",
+          "Số học sinh thích môn Toán ở hai trường bằng nhau",
+          "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường B lớn hơn trường A",
+          "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường A lớn hơn trường B"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ hình quạt tròn biểu diễn các khoản chi tiêu hàng tháng của một gia đình có tổng thu nhập 25 triệu đồng:\n- Tiền ăn: 40%\n- Tiền nhà: 24%\n- Giáo dục: 20%\n- Tiết kiệm: 16%.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Số tiền chi tiêu cho tiền ăn là $10$ triệu đồng.",
+            "isCorrect": true,
+            "explanation": "$25 \\times 40\\% = 10$ triệu đồng."
+          },
+          {
+            "id": "b",
+            "statement": "Số tiền tiết kiệm mỗi tháng là $4$ triệu đồng.",
+            "isCorrect": true,
+            "explanation": "$25 \\times 16\\% = 4$ triệu đồng."
+          },
+          {
+            "id": "c",
+            "statement": "Góc ở tâm của hình quạt biểu diễn tiền nhà là $86{,}4^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 24\\% = 86{,}4^\\circ$."
+          },
+          {
+            "id": "d",
+            "statement": "Tổng số tiền chi cho giáo dục và tiền nhà chiếm hơn $50\\%$ thu nhập.",
+            "isCorrect": false,
+            "explanation": "$24\\% + 20\\% = 44\\% < 50\\%$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một khu rừng có 3 loại cây gỗ: Cây Keo chiếm góc ở tâm $144^\\circ$, Cây Bạch đàn chiếm $108^\\circ$, còn lại là Cây Thông. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Góc ở tâm biểu diễn Cây Thông là $108^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ - 144^\\circ - 108^\\circ = 108^\\circ$."
+          },
+          {
+            "id": "b",
+            "statement": "Tỉ lệ phần trăm của Cây Keo trong khu rừng là $40\\%$.",
+            "isCorrect": true,
+            "explanation": "$144^\\circ / 360^\\circ = 40\\%$."
+          },
+          {
+            "id": "c",
+            "statement": "Số lượng Cây Bạch đàn và Cây Thông trong rừng là bằng nhau.",
+            "isCorrect": true,
+            "explanation": "Vì cùng có góc ở tâm là $108^\\circ$ (chiếm $30\\%$)."
+          },
+          {
+            "id": "d",
+            "statement": "Nếu rừng có tổng cộng 2000 cây thì số Cây Keo là 600 cây.",
+            "isCorrect": false,
+            "explanation": "Số Cây Keo $= 2000 \\times 40\\% = 800$ cây, không phải $600$ cây."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Góc ở tâm của hình quạt biểu diễn tỉ lệ $35\\%$ là bao nhiêu độ (điền số thập phân)?",
+        "answer": 126,
+        "unit": "độ"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một thư viện có 600 bạn đọc đăng kí: Học sinh THCS chiếm 45%, Học sinh THPT chiếm 35%, còn lại là Giáo viên. Có bao nhiêu giáo viên đăng kí bạn đọc?",
+        "answer": 120,
+        "unit": "người"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn, phần thể hiện quả Cam có góc ở tâm là $72^\\circ$. Biết số quả Cam trong rổ là 24 quả. Tổng số quả trong rổ là bao nhiêu quả?",
+        "answer": 120,
+        "unit": "quả"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Biểu đồ quạt tròn gồm 3 phần A, B, C. Tỉ lệ của phần A gấp đôi phần B, phần B gấp đôi phần C. Tìm tỉ lệ phần trăm của phần A (làm tròn đến hàng phần mười, ví dụ 57.1).",
+        "answer": 57.1,
+        "unit": "%"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Một trường học phát động phong trào đọc sách. Số sách học sinh quyên góp được phân loại thành 4 nhóm:\n- Sách giáo khoa: 240 cuốn (chiếm 40%)\n- Truyện tranh: 180 cuốn\n- Sách khoa học: 120 cuốn\n- Báo, tạp chí: phần còn lại.\na) Tính tổng số sách quyên góp được của toàn trường.\nb) Tính tỉ lệ phần trăm của từng nhóm sách và tính góc ở tâm của nhóm Báo, tạp chí khi vẽ trên biểu đồ quạt tròn.",
+        "maxScore": 1.0,
+        "solution": "a) Tổng số sách quyên góp được là:\n$240 : 40\\% = 600$ (cuốn).\nb) Số lượng Báo, tạp chí là:\n$600 - (240 + 180 + 120) = 600 - 540 = 60$ (cuốn).\nTỉ lệ phần trăm của từng nhóm:\n- Sách giáo khoa: $40\\%$.\n- Truyện tranh: $\\frac{180}{600} \\times 100\\% = 30\\%$.\n- Sách khoa học: $\\frac{120}{600} \\times 100\\% = 20\\%$.\n- Báo, tạp chí: $\\frac{60}{600} \\times 100\\% = 10\\%$.\nGóc ở tâm của hình quạt biểu diễn Báo, tạp chí là:\n$360^\\circ \\times 10\\% = 36^\\circ$.",
+        "rubric": [
+          {
+            "step": "Tính đúng tổng số sách 600 cuốn",
+            "subScore": 0.4
+          },
+          {
+            "step": "Tính đúng tỉ lệ các nhóm sách và góc ở tâm 36 độ",
+            "subScore": 0.6
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Biểu đồ quạt tròn biểu diễn tỉ lệ học sinh tham gia 3 câu lạc bộ của trường:\n- CLB Thể thao: góc ở tâm $162^\\circ$\n- CLB Âm nhạc: góc ở tâm $126^\\circ$\n- CLB Mĩ thuật: phần còn lại.\nBiết CLB Mĩ thuật có 80 học sinh tham gia.\na) Tính tỉ lệ phần trăm học sinh tham gia từng câu lạc bộ.\nb) Tính tổng số học sinh tham gia cả 3 câu lạc bộ.",
+        "maxScore": 1.0,
+        "solution": "a) Góc ở tâm của CLB Mĩ thuật là:\n$360^\\circ - (162^\\circ + 126^\\circ) = 360^\\circ - 288^\\circ = 72^\\circ$.\nTỉ lệ phần trăm của từng CLB:\n- CLB Thể thao: $\\frac{162^\\circ}{360^\\circ} \\times 100\\% = 45\\%$.\n- CLB Âm nhạc: $\\frac{126^\\circ}{360^\\circ} \\times 100\\% = 35\\%$.\n- CLB Mĩ thuật: $\\frac{72^\\circ}{360^\\circ} \\times 100\\% = 20\\%$.\nb) Tổng số học sinh tham gia 3 CLB là:\n$80 : 20\\% = 80 : 0{,}2 = 400$ (học sinh).",
+        "rubric": [
+          {
+            "step": "Tính đúng góc 72 độ và các tỉ lệ 45%, 35%, 20%",
+            "subScore": 0.6
+          },
+          {
+            "step": "Tính đúng tổng số 400 học sinh",
+            "subScore": 0.4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Năm 2023, doanh thu của một cửa hàng máy tính gồm 3 mảng: Laptop (50%), Điện thoại (30%), Phụ kiện (20%). Năm 2024, doanh thu Laptop tăng 20%, doanh thu Điện thoại tăng 10%, doanh thu Phụ kiện không đổi.\na) Hỏi tổng doanh thu năm 2024 tăng bao nhiêu phần trăm so với năm 2023?\nb) Tính tỉ lệ phần trăm của mảng Laptop trong cơ cấu doanh thu năm 2024.",
+        "maxScore": 1.0,
+        "solution": "a) Giả sử tổng doanh thu năm 2023 là 100 (đơn vị):\n- Doanh thu Laptop 2023: $50$.\n- Doanh thu Điện thoại 2023: $30$.\n- Doanh thu Phụ kiện 2023: $20$.\nDoanh thu từng mảng năm 2024:\n- Laptop 2024: $50 \\times (1 + 0{,}2) = 60$.\n- Điện thoại 2024: $30 \\times (1 + 0{,}1) = 33$.\n- Phụ kiện 2024: $20$.\nTổng doanh thu năm 2024 là: $60 + 33 + 20 = 113$.\nVậy tổng doanh thu năm 2024 tăng: $\\frac{113 - 100}{100} \\times 100\\% = 13\\%$ so với năm 2023.\nb) Tỉ lệ phần trăm của mảng Laptop trong cơ cấu doanh thu năm 2024 là:\n$P = \\frac{60}{113} \\times 100\\% \\approx 53{,}1\\%$.",
+        "rubric": [
+          {
+            "step": "Thiết lập mô hình doanh thu và tính đúng mức tăng 13%",
+            "subScore": 0.6
+          },
+          {
+            "step": "Tính đúng tỉ lệ mới của Laptop xấp xỉ 53,1%",
+            "subScore": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai2_test3": {
+    "title": "Toán 7 (KNTT) - Bài 18: Biểu đồ hình quạt tròn - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ quạt tròn biểu diễn cơ cấu nông nghiệp gồm: Trồng trọt, Chăn nuôi và Thủy sản. Biết góc ở tâm của Trồng trọt là $216^\\circ$, Chăn nuôi là $90^\\circ$. Tỉ lệ phần trăm của ngành Thủy sản là:",
+        "options": [
+          "$15\\%$",
+          "$20\\%$",
+          "$12\\%$",
+          "$25\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Để vẽ biểu đồ hình quạt tròn từ bảng số liệu có tỉ số $\\frac{3}{8}$, góc ở tâm tương ứng là:",
+        "options": [
+          "$135^\\circ$",
+          "$120^\\circ$",
+          "$150^\\circ$",
+          "$145^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người nông dân thu hoạch 12 tấn nông sản gồm 3 loại: Thóc 60%, Bắp 25%, Khoai 15%. Khối lượng thóc thu được nhiều hơn tổng khối lượng bắp và khoai là:",
+        "options": [
+          "$2{,}4$ tấn",
+          "$1{,}2$ tấn",
+          "$3{,}6$ tấn",
+          "$4{,}8$ tấn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Cơ cấu dân số theo độ tuổi của một địa phương: Dưới 15 tuổi (20%), Từ 15 đến 64 tuổi (65%), Từ 65 tuổi trở lên (15%). Góc ở tâm của nhóm tuổi lao động (15 đến 64 tuổi) là:",
+        "options": [
+          "$234^\\circ$",
+          "$240^\\circ$",
+          "$220^\\circ$",
+          "$216^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng",
+        "question": "Một hình quạt tròn có diện tích $15\\pi$ cm$^2$ trong một hình tròn có diện tích $60\\pi$ cm$^2$. Hình quạt đó biểu diễn tỉ lệ bao nhiêu phần trăm?",
+        "options": [
+          "$25\\%$",
+          "$20\\%$",
+          "$30\\%$",
+          "$15\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Một xí nghiệp có 3 phân xưởng A, B, C. Tỉ lệ sản phẩm của xưởng A gấp 1,5 lần xưởng B; xưởng B gấp 2 lần xưởng C. Góc ở tâm biểu diễn phân xưởng A là:",
+        "options": [
+          "$180^\\circ$",
+          "$150^\\circ$",
+          "$200^\\circ$",
+          "$120^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Một trường học có tỉ lệ đỗ tốt nghiệp qua các mức Giỏi (30%), Khá (50%), Trung bình (20%). Nếu số học sinh Khá là 250 em thì số học sinh Giỏi là:",
+        "options": [
+          "$150$ em",
+          "$100$ em",
+          "$200$ em",
+          "$125$ em"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Cho biểu đồ hình quạt tròn biểu diễn 4 thành phần A, B, C, D với tỉ số diện tích quạt tương ứng là $1 : 2 : 3 : 4$. Góc ở tâm của phần D là:",
+        "options": [
+          "$144^\\circ$",
+          "$108^\\circ$",
+          "$72^\\circ$",
+          "$36^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Một bể cá có 3 loại cá: Cá vàng, Cá chép và Cá bảy màu. Số cá vàng bằng $40\\%$ tổng số cá, số cá chép bằng $\\frac{2}{3}$ số cá còn lại. Tỉ lệ phần trăm của cá bảy màu là:",
+        "options": [
+          "$20\\%$",
+          "$25\\%$",
+          "$15\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Hai hình quạt kề nhau trên biểu đồ tròn có góc ở tâm lần lượt là $\\alpha$ và $\\beta$ thỏa mãn $\\alpha + \\beta = 180^\\circ$ và $\\alpha - \\beta = 36^\\circ$. Tỉ lệ phần trăm tương ứng của hình quạt lớn là:",
+        "options": [
+          "$30\\%$",
+          "$25\\%$",
+          "$35\\%$",
+          "$20\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Số lượng vé bán ra của một rạp chiếu phim trong tuần gồm 3 mức giá: Vé VIP, Vé Thường, Vé Khuyến mãi. Biết số vé Thường gấp đôi vé VIP, số vé Khuyến mãi bằng $\\frac{1}{2}$ vé VIP. Tỉ lệ doanh số về số lượng vé VIP là:",
+        "options": [
+          "$\\frac{2}{7}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{1}{4}$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Sai lầm nào sau đây thường gặp nhất khi vẽ hoặc đọc biểu đồ hình quạt tròn?",
+        "options": [
+          "Tổng các tỉ lệ phần trăm ghi trên các quạt không bằng 100% hoặc vẽ sai tỉ lệ góc ở tâm",
+          "Dùng màu sắc khác nhau cho các quạt",
+          "Ghi tên chú giải rõ ràng",
+          "Vẽ hình tròn bằng compa"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Biểu đồ hình quạt tròn biểu diễn thị phần của 4 hãng điện thoại thông minh: Hãng A (40%), Hãng B (25%), Hãng C (20%), Hãng D (15%). Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Góc ở tâm của hình quạt Hãng A là $144^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 40\\% = 144^\\circ$."
+          },
+          {
+            "id": "b",
+            "statement": "Hiệu giữa góc ở tâm của Hãng B và Hãng D là $36^\\circ$.",
+            "isCorrect": true,
+            "explanation": "Chênh lệch tỉ lệ $= 25\\% - 15\\% = 10\\% \\Rightarrow 360^\\circ \\times 10\\% = 36^\\circ$."
+          },
+          {
+            "id": "c",
+            "statement": "Thị phần của Hãng A bằng tổng thị phần của Hãng B và Hãng D.",
+            "isCorrect": true,
+            "explanation": "$40\\% = 25\\% + 15\\%$."
+          },
+          {
+            "id": "d",
+            "statement": "Nếu Hãng C bán được 10 triệu chiếc thì Hãng A bán được 25 triệu chiếc.",
+            "isCorrect": false,
+            "explanation": "Hãng C chiếm 20% ứng với 10 triệu chiếc $\\Rightarrow$ tổng thị trường $= 50$ triệu. Hãng A chiếm 40% $\\Rightarrow 50 \\times 40\\% = 20$ triệu chiếc, không phải 25 triệu."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Cho biểu đồ hình quạt tròn có 3 quạt với tỉ lệ phần trăm lần lượt là $x\\%, y\\%, z\\%$ ($x, y, z > 0$) thỏa mãn $x : y : z = 3 : 5 : 4$. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Tổng số phần bằng nhau là $3 + 5 + 4 = 12$ phần.",
+            "isCorrect": true,
+            "explanation": "Tổng số phần tỉ lệ là 12."
+          },
+          {
+            "id": "b",
+            "statement": "Giá trị của $x$ là $25\\%$.",
+            "isCorrect": true,
+            "explanation": "$x = \\frac{3}{12} \\times 100\\% = 25\\%$."
+          },
+          {
+            "id": "c",
+            "statement": "Góc ở tâm lớn nhất là của hình quạt biểu diễn $y$, có số đo là $150^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$y$ chiếm $\\frac{5}{12} \\times 360^\\circ = 150^\\circ$."
+          },
+          {
+            "id": "d",
+            "statement": "Góc ở tâm của hình quạt biểu diễn $z$ là $100^\\circ$.",
+            "isCorrect": false,
+            "explanation": "$z$ chiếm $\\frac{4}{12} \\times 360^\\circ = 120^\\circ$, không phải $100^\\circ$."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Một người chia số tiền 120 triệu đồng vào 3 quỹ: Đầu tư, Tiết kiệm, Tiêu dùng theo tỉ lệ $5 : 3 : 2$. Số tiền dành cho quỹ Đầu tư là bao nhiêu triệu đồng?",
+        "answer": 60,
+        "unit": "triệu đồng"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Góc ở tâm của hình quạt thứ nhất là $120^\\circ$, của hình quạt thứ hai là $90^\\circ$, phần còn lại là của hình quạt thứ ba. Hỏi hình quạt thứ ba chiếm bao nhiêu phần trăm tổng thể (điền số thập phân, ví dụ 41.7)?",
+        "answer": 41.7,
+        "unit": "%"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một công ty có doanh thu từ nội địa và xuất khẩu. Doanh thu xuất khẩu gấp 3 lần nội địa. Hỏi trên biểu đồ hình quạt tròn, góc ở tâm biểu diễn doanh thu xuất khẩu là bao nhiêu độ?",
+        "answer": 270,
+        "unit": "độ"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần A, B, C. Biết diện tích hình quạt A hơn hình quạt B là $10\\%$, diện tích hình quạt B hơn hình quạt C là $10\\%$. Tính số đo góc ở tâm (độ) của hình quạt A.",
+        "answer": 156,
+        "unit": "độ"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Một công ty công nghệ có 3 nhóm nghiên cứu: Nhóm Trí tuệ nhân tạo (AI), Nhóm An ninh mạng (Cyber), Nhóm Ứng dụng di động (Mobile).\nBiết số nhân sự nhóm AI gấp đôi nhóm Mobile, nhóm Cyber nhiều hơn nhóm Mobile là 10 người. Tổng số nhân sự của công ty là 130 người.\na) Tính số nhân sự của mỗi nhóm.\nb) Tính góc ở tâm của từng nhóm khi biểu diễn trên biểu đồ hình quạt tròn (làm tròn đến hàng đơn vị độ).",
+        "maxScore": 1.0,
+        "solution": "a) Gọi số nhân sự nhóm Mobile là $x$ ($x \\in \\mathbb{N}^*$).\nKhi đó số nhân sự nhóm AI là $2x$, nhóm Cyber là $x + 10$.\nTổng số nhân sự là 130 người nên:\n$x + 2x + (x + 10) = 130 \\Leftrightarrow 4x + 10 = 130 \\Leftrightarrow 4x = 120 \\Leftrightarrow x = 30$.\nSố nhân sự của từng nhóm:\n- Nhóm Mobile: 30 người.\n- Nhóm AI: $2 \\times 30 = 60$ người.\n- Nhóm Cyber: $30 + 10 = 40$ người.\nb) Tỉ lệ và góc ở tâm tương ứng:\n- Nhóm AI: chiếm $\\frac{60}{130} \\approx 46{,}15\\% \\Rightarrow$ Góc ở tâm: $360^\\circ \\times \\frac{60}{130} \\approx 166^\\circ$.\n- Nhóm Cyber: chiếm $\\frac{40}{130} \\approx 30{,}77\\% \\Rightarrow$ Góc ở tâm: $360^\\circ \\times \\frac{40}{130} \\approx 111^\\circ$.\n- Nhóm Mobile: chiếm $\\frac{30}{130} \\approx 23{,}08\\% \\Rightarrow$ Góc ở tâm: $360^\\circ \\times \\frac{30}{130} \\approx 83^\\circ$.\nKiểm tra tổng góc: $166^\\circ + 111^\\circ + 83^\\circ = 360^\\circ$.",
+        "rubric": [
+          {
+            "step": "Thiết lập phương trình tìm đúng số người: Mobile 30, AI 60, Cyber 40",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng các góc ở tâm xấp xỉ 166 độ, 111 độ, 83 độ",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Năm trước, tỉ lệ học sinh Giỏi, Khá, Trung bình của một trường THCS lần lượt là 20%, 50%, 30%. Năm nay, nhà trường đổi mới phương pháp giảng dạy nên số học sinh Giỏi tăng 50%, số học sinh Khá tăng 20%, số học sinh Trung bình giảm 40% (tổng số học sinh toàn trường không đổi).\na) Hỏi nhận định \"tổng số học sinh không đổi\" có phù hợp với số liệu trên không? Hãy chứng minh.\nb) Tính cơ cấu tỉ lệ phần trăm mới của 3 nhóm học sinh năm nay.",
+        "maxScore": 1.0,
+        "solution": "a) Giả sử tổng số học sinh năm trước là $100$ em:\n- Giỏi: 20 em; Khá: 50 em; Trung bình: 30 em.\nNăm nay:\n- Số học sinh Giỏi mới: $20 \\times (1 + 0{,}5) = 30$ em.\n- Số học sinh Khá mới: $50 \\times (1 + 0{,}2) = 60$ em.\n- Số học sinh Trung bình mới: $30 \\times (1 - 0{,}4) = 18$ em.\nTổng số học sinh năm nay là: $30 + 60 + 18 = 108$ em.\nNhư vậy tổng số học sinh đã tăng từ 100 lên 108 em (tăng 8%), do đó nhận định \"tổng số học sinh toàn trường không đổi\" là mâu thuẫn với tỉ lệ thay đổi của các nhóm trên thực tế.\nb) Để tính cơ cấu phần trăm mới trên tổng số học sinh mới (108 em):\n- Tỉ lệ Giỏi mới: $\\frac{30}{108} \\times 100\\% \\approx 27{,}8\\%$.\n- Tỉ lệ Khá mới: $\\frac{60}{108} \\times 100\\% \\approx 55{,}6\\%$.\n- Tỉ lệ Trung bình mới: $\\frac{18}{108} \\times 100\\% \\approx 16{,}7\\%$.\nTổng tỉ lệ mới $= 27{,}8\\% + 55{,}6\\% + 16{,}7\\% \\approx 100\\%$.",
+        "rubric": [
+          {
+            "step": "Chứng minh số liệu dẫn tới tổng số học sinh tăng từ 100 lên 108",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng cơ cấu phần trăm mới: Giỏi 27,8%, Khá 55,6%, TB 16,7%",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho biểu đồ hình quạt tròn biểu diễn phân bổ ngân sách 3 dự án A, B, C. Góc ở tâm của dự án A là $\\alpha$, dự án B là $\\beta$, dự án C là $\\gamma$. Biết $\\alpha, \\beta, \\gamma$ lập thành một cấp số cộng thỏa mãn $\\alpha < \\beta < \\gamma$ và góc lớn nhất gấp 3 lần góc nhỏ nhất ($\\gamma = 3\\alpha$).\na) Tìm số đo các góc $\\alpha, \\beta, \\gamma$.\nb) Dự án A được cấp 15 tỷ đồng. Tính tổng ngân sách cấp cho cả 3 dự án.",
+        "maxScore": 1.0,
+        "solution": "a) Vì $\\alpha, \\beta, \\gamma$ tạo thành cấp số cộng nên $\\alpha + \\gamma = 2\\beta$.\nTổng 3 góc ở tâm của biểu đồ tròn là: $\\alpha + \\beta + \\gamma = 360^\\circ$.\nThay $\\alpha + \\gamma = 2\\beta$ vào: $2\\beta + \\beta = 360^\\circ \\Leftrightarrow 3\\beta = 360^\\circ \\Rightarrow \\beta = 120^\\circ$.\nSuy ra: $\\alpha + \\gamma = 240^\\circ$.\nMặt khác, $\\gamma = 3\\alpha$, do đó: $\\alpha + 3\\alpha = 240^\\circ \\Leftrightarrow 4\\alpha = 240^\\circ \\Rightarrow \\alpha = 60^\\circ$.\nSuy ra: $\\gamma = 3 \\times 60^\\circ = 180^\\circ$.\nVậy ba góc ở tâm là $\\alpha = 60^\\circ, \\beta = 120^\\circ, \\gamma = 180^\\circ$.\nb) Tỉ lệ ngân sách của dự án A là:\n$P_A = \\frac{60^\\circ}{360^\\circ} = \\frac{1}{6}$.\nTổng ngân sách của cả 3 dự án là:\n$15 : \\frac{1}{6} = 15 \\times 6 = 90$ (tỷ đồng).",
+        "rubric": [
+          {
+            "step": "Tìm đúng beta = 120 độ, alpha = 60 độ, gamma = 180 độ",
+            "subScore": 0.6
+          },
+          {
+            "step": "Tính đúng tổng ngân sách là 90 tỷ đồng",
+            "subScore": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai3_test1": {
+    "title": "Toán 7 (KNTT) - Bài 19: Biểu đồ đoạn thẳng - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Biểu đồ đoạn thẳng thường được dùng để biểu diễn:",
+        "options": [
+          "Sự thay đổi của một đại lượng theo thời gian",
+          "Cơ cấu tỉ lệ các phần trong toàn bộ",
+          "Sự phân bố không gian",
+          "Mức độ hài lòng của khách hàng"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Trên biểu đồ đoạn thẳng, trục nằm ngang (trục hoành) thường biểu diễn:",
+        "options": [
+          "Thời gian (ngày, tháng, năm, giờ,...)",
+          "Số lượng hoặc giá trị đo được",
+          "Tên các địa danh",
+          "Tỉ lệ phần trăm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Trên biểu đồ đoạn thẳng, trục thẳng đứng (trục tung) biểu diễn:",
+        "options": [
+          "Đại lượng cần theo dõi (nhiệt độ, doanh thu, sản lượng,...)",
+          "Thời gian theo dõi",
+          "Tên đơn vị đo",
+          "Tiêu đề biểu đồ"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Khi đoạn thẳng đi lên từ trái sang phải, đại lượng có xu hướng:",
+        "options": [
+          "Tăng lên",
+          "Giảm đi",
+          "Không đổi",
+          "Bằng không"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Khi đoạn thẳng nằm ngang song song với trục thời gian, đại lượng có xu hướng:",
+        "options": [
+          "Không thay đổi (giữ nguyên)",
+          "Tăng nhanh",
+          "Giảm mạnh",
+          "Biến động mạnh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Một biểu đồ đoạn thẳng biểu diễn nhiệt độ trong tuần: Thứ Hai: $25^\\circ$C, Thứ Ba: $27^\\circ$C, Thứ Tư: $26^\\circ$C. Nhiệt độ ngày Thứ Ba tăng bao nhiêu độ C so với ngày Thứ Hai?",
+        "options": [
+          "$2^\\circ$C",
+          "$1^\\circ$C",
+          "$3^\\circ$C",
+          "$0^\\circ$C"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ đoạn thẳng biểu diễn số học sinh giỏi của một trường qua 4 năm: Năm 1: 120 em, Năm 2: 135 em, Năm 3: 150 em, Năm 4: 165 em. Xu thế chung của số học sinh giỏi là:",
+        "options": [
+          "Tăng đều qua các năm",
+          "Giảm dần qua các năm",
+          "Dao động thất thường",
+          "Không đổi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Quan sát biểu đồ chiều cao của bạn Nam từ 11 đến 14 tuổi: 11 tuổi: 140 cm, 12 tuổi: 146 cm, 13 tuổi: 153 cm, 14 tuổi: 161 cm. Trong độ tuổi nào bạn Nam tăng chiều cao nhiều nhất?",
+        "options": [
+          "Từ 13 đến 14 tuổi (tăng 8 cm)",
+          "Từ 11 đến 12 tuổi",
+          "Từ 12 đến 13 tuổi",
+          "Tăng đều nhau"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Nếu một biểu đồ đoạn thẳng biểu diễn doanh số bán hàng từ tháng 1 đến tháng 6 có đoạn nối giữa tháng 3 và tháng 4 dốc xuống, điều đó chứng tỏ:",
+        "options": [
+          "Doanh số tháng 4 giảm so với tháng 3",
+          "Doanh số tháng 4 tăng so với tháng 3",
+          "Doanh số tháng 4 bằng tháng 3",
+          "Doanh số tháng 4 bằng 0"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Số lượng xe đạp bán ra trong 3 tháng đầu năm: Tháng 1: 50 chiếc, Tháng 2: 40 chiếc, Tháng 3: 60 chiếc. Chênh lệch số xe bán được giữa tháng cao nhất và thấp nhất là:",
+        "options": [
+          "$20$ chiếc",
+          "$10$ chiếc",
+          "$30$ chiếc",
+          "$15$ chiếc"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Biểu đồ đoạn thẳng biểu diễn điểm kiểm tra của An qua 4 lần: $7, 8, 8, 9$. Điểm trung bình của An qua 4 lần kiểm tra là:",
+        "options": [
+          "$8{,}0$",
+          "$8{,}25$",
+          "$7{,}75$",
+          "$8{,}5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ đo được lúc 6h, 12h, 18h trong ngày lần lượt là $20^\\circ$C, $32^\\circ$C, $26^\\circ$C. Độ chênh lệch nhiệt độ lớn nhất trong ngày là:",
+        "options": [
+          "$12^\\circ$C",
+          "$6^\\circ$C",
+          "$8^\\circ$C",
+          "$10^\\circ$C"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ đoạn thẳng theo dõi số lượng sách mượn tại thư viện trong 5 ngày của một tuần:\n- Thứ Hai: 45 cuốn\n- Thứ Ba: 60 cuốn\n- Thứ Tư: 50 cuốn\n- Thứ Năm: 70 cuốn\n- Thứ Sáu: 55 cuốn.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Ngày có số sách mượn nhiều nhất là Thứ Năm (70 cuốn).",
+            "isCorrect": true,
+            "explanation": "Giá trị 70 là cao nhất trong tuần."
+          },
+          {
+            "id": "b",
+            "statement": "Ngày có số sách mượn ít nhất là Thứ Hai (45 cuốn).",
+            "isCorrect": true,
+            "explanation": "Giá trị 45 là thấp nhất trong tuần."
+          },
+          {
+            "id": "c",
+            "statement": "Từ Thứ Ba đến Thứ Tư, số lượng sách mượn có xu hướng tăng.",
+            "isCorrect": false,
+            "explanation": "Thứ Ba (60) đến Thứ Tư (50) là giảm 10 cuốn, đoạn thẳng dốc xuống."
+          },
+          {
+            "id": "d",
+            "statement": "Tổng số sách mượn trong cả tuần là $280$ cuốn.",
+            "isCorrect": true,
+            "explanation": "$45 + 60 + 50 + 70 + 55 = 280$ cuốn."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho các nhận định về cách vẽ biểu đồ đoạn thẳng, xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Khoảng cách giữa các mốc thời gian trên trục ngang cần được chia đều nhau tương ứng với khoảng thời gian bằng nhau.",
+            "isCorrect": true,
+            "explanation": "Đảm bảo tính chính xác và trực quan của tỉ lệ thời gian."
+          },
+          {
+            "id": "b",
+            "statement": "Trục thẳng đứng bắt buộc phải bắt đầu từ số 0 hoặc có dấu ngắt trục rõ ràng.",
+            "isCorrect": true,
+            "explanation": "Tránh gây hiểu lầm về độ lớn tương đối."
+          },
+          {
+            "id": "c",
+            "statement": "Mỗi điểm trên biểu đồ được xác định bởi một cặp giá trị (thời gian, số liệu tương ứng).",
+            "isCorrect": true,
+            "explanation": "Đúng theo nguyên tắc biểu diễn đồ thị tọa độ."
+          },
+          {
+            "id": "d",
+            "statement": "Sau khi xác định các điểm, ta dùng các đường cong tròn để nối chúng lại.",
+            "isCorrect": false,
+            "explanation": "Biểu đồ đoạn thẳng dùng các đoạn thẳng gấp khúc nối liên tiếp các điểm kề nhau."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Số lượng học sinh giỏi của lớp 7A trong 4 kì học liên tiếp là: 12, 15, 14, 19. Số học sinh giỏi tăng bao nhiêu em từ kì 1 đến kì 4?",
+        "answer": 7,
+        "unit": "học sinh"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Nhiệt độ đo được lúc 6h sáng là $22^\\circ$C, đến 14h chiều tăng thêm $8^\\circ$C. Hỏi nhiệt độ lúc 14h chiều là bao nhiêu độ C?",
+        "answer": 30,
+        "unit": "độ C"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Doanh thu bán hàng của một cửa hàng trong 3 ngày: Ngày 1: 5 triệu, Ngày 2: 7 triệu, Ngày 3: 9 triệu. Doanh thu trung bình mỗi ngày là bao nhiêu triệu đồng?",
+        "answer": 7,
+        "unit": "triệu đồng"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Một người chạy bộ ghi lại quãng đường chạy (km) trong 4 tuần: Tuần 1: 15 km, Tuần 2: 18 km, Tuần 3: 20 km, Tuần 4: 27 km. Tổng quãng đường người đó đã chạy trong 4 tuần là bao nhiêu km?",
+        "answer": 80,
+        "unit": "km"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Bảng sau đây ghi lại số lượng xe đạp điện bán được của một cửa hàng trong 6 tháng đầu năm:\n| Tháng | 1 | 2 | 3 | 4 | 5 | 6 |\n| Số xe | 20 | 25 | 18 | 30 | 35 | 40 |\na) Hãy cho biết tháng nào cửa hàng bán được nhiều xe nhất? Tháng nào bán được ít xe nhất?\nb) Số lượng xe bán ra có xu hướng thay đổi như thế nào trong khoảng từ tháng 3 đến tháng 6?",
+        "maxScore": 1.0,
+        "solution": "a) - Tháng cửa hàng bán được nhiều xe nhất là Tháng 6 (với 40 chiếc xe).\n- Tháng bán được ít xe nhất là Tháng 3 (với 18 chiếc xe).\nb) Từ tháng 3 đến tháng 6, số lượng xe bán ra tăng liên tục:\n- Tháng 3: 18 xe\n- Tháng 4: 30 xe (tăng 12 xe)\n- Tháng 5: 35 xe (tăng 5 xe)\n- Tháng 6: 40 xe (tăng 5 xe)\nĐoạn thẳng biểu diễn trên biểu đồ liên tục đi lên từ trái sang phải, thể hiện xu hướng tăng trưởng ổn định và mạnh mẽ.",
+        "rubric": [
+          {
+            "step": "Chỉ ra đúng tháng cao nhất (tháng 6) và thấp nhất (tháng 3)",
+            "subScore": 0.5
+          },
+          {
+            "step": "Nhận xét đúng xu hướng tăng trưởng liên tục từ tháng 3 đến tháng 6",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ không khí trung bình các tháng mùa đông (tháng 11, 12, 1, 2) tại Hà Nội được ghi lại: Tháng 11: $22^\\circ$C, Tháng 12: $18^\\circ$C, Tháng 1: $16^\\circ$C, Tháng 2: $17^\\circ$C.\na) Tính nhiệt độ trung bình của cả mùa đông (4 tháng trên).\nb) Tháng nào có nhiệt độ thấp nhất? Độ chênh lệch nhiệt độ giữa tháng 11 và tháng 1 là bao nhiêu?",
+        "maxScore": 1.0,
+        "solution": "a) Nhiệt độ trung bình cả mùa đông là:\n$\\bar{T} = \\frac{22 + 18 + 16 + 17}{4} = \\frac{73}{4} = 18{,}25^\\circ$C.\nb) - Tháng có nhiệt độ thấp nhất là Tháng 1 ($16^\\circ$C).\n- Chênh lệch nhiệt độ giữa tháng 11 và tháng 1 là: $22^\\circ\\text{C} - 16^\\circ\\text{C} = 6^\\circ$C.",
+        "rubric": [
+          {
+            "step": "Tính đúng nhiệt độ trung bình mùa đông là 18,25 độ C",
+            "subScore": 0.5
+          },
+          {
+            "step": "Chỉ ra đúng tháng 1 lạnh nhất và độ chênh lệch là 6 độ C",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Số lượng người dùng một ứng dụng học tập trực tuyến trong 4 quý năm 2024 như sau: Quý I: 1000 người, Quý II: 1200 người, Quý III: 1500 người, Quý IV: 1800 người.\na) Tính tốc độ tăng trưởng người dùng (tỉ lệ phần trăm tăng) từ Quý I đến Quý II.\nb) Tính tốc độ tăng trưởng người dùng từ Quý I đến Quý IV của cả năm.",
+        "maxScore": 1.0,
+        "solution": "a) Số người dùng tăng từ Quý I đến Quý II là:\n$1200 - 1000 = 200$ (người).\nTốc độ tăng trưởng từ Quý I đến Quý II là:\n$\\frac{200}{1000} \\times 100\\% = 20\\%$.\nb) Số người dùng tăng từ Quý I đến Quý IV là:\n$1800 - 1000 = 800$ (người).\nTốc độ tăng trưởng người dùng cả năm là:\n$\\frac{800}{1000} \\times 100\\% = 80\\%$.",
+        "rubric": [
+          {
+            "step": "Tính đúng mức tăng trưởng Quý I -> Quý II là 20%",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng mức tăng trưởng cả năm Quý I -> Quý IV là 80%",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai3_test2": {
+    "title": "Toán 7 (KNTT) - Bài 19: Biểu đồ đoạn thẳng - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ đoạn thẳng kép thường được dùng để:",
+        "options": [
+          "So sánh xu hướng phát triển của hai đối tượng theo cùng một mốc thời gian",
+          "Biểu diễn cơ cấu các phần trăm",
+          "Tính diện tích hình tròn",
+          "Thay thế hoàn toàn bảng tần số"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ doanh thu của một cửa hàng 4 quý: Quý I: 80 triệu, Quý II: 100 triệu, Quý III: 90 triệu, Quý IV: 130 triệu. Quý nào có doanh thu tăng mạnh nhất so với quý trước đó?",
+        "options": [
+          "Quý IV (tăng 40 triệu)",
+          "Quý II (tăng 20 triệu)",
+          "Quý III",
+          "Quý I"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Sản lượng lúa của một tỉnh trong 3 năm liên tiếp: Năm 2021: 1,2 triệu tấn; Năm 2022: 1,35 triệu tấn; Năm 2023: 1,5 triệu tấn. Sản lượng năm 2023 tăng bao nhiêu phần trăm so với năm 2021?",
+        "options": [
+          "$25\\%$",
+          "$20\\%$",
+          "$15\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Nhiệt độ tại Sa Pa đo được lúc 0h là $6^\\circ$C, lúc 6h là $4^\\circ$C, lúc 12h là $14^\\circ$C, lúc 18h là $10^\\circ$C. Khoảng thời gian nào nhiệt độ tăng nhanh nhất?",
+        "options": [
+          "Từ 6h đến 12h (tăng $10^\\circ$C trong 6 giờ)",
+          "Từ 0h đến 6h",
+          "Từ 12h đến 18h",
+          "Không có khoảng nào"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một người gửi tiết kiệm với số dư tài khoản qua 3 năm: Năm 1: 50 triệu; Năm 2: 55 triệu; Năm 3: 60,5 triệu. Lãi suất mỗi năm người đó nhận được là:",
+        "options": [
+          "$10\\%$/năm",
+          "$8\\%$/năm",
+          "$5\\%$/năm",
+          "$12\\%$/năm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Khối lượng một con bê sơ sinh sau 4 tháng: Tháng 1: 25 kg, Tháng 2: 32 kg, Tháng 3: 40 kg, Tháng 4: 50 kg. Khối lượng trung bình mỗi tháng con bê tăng được là:",
+        "options": [
+          "$8{,}33$ kg",
+          "$7{,}5$ kg",
+          "$6{,}25$ kg",
+          "$9$ kg"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Tỉ lệ thất nghiệp của một thành phố trong 4 năm: 2020: 3,5%, 2021: 4,2%, 2022: 3,8%, 2023: 3,0%. Năm nào có tỉ lệ thất nghiệp cao nhất?",
+        "options": [
+          "Năm 2021",
+          "Năm 2020",
+          "Năm 2022",
+          "Năm 2023"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng",
+        "question": "Số lượng người truy cập một trang web từ thứ Hai đến thứ Bảy: 200, 250, 300, 280, 350, 420. Trung vị của dãy số liệu trên là:",
+        "options": [
+          "$290$",
+          "$300$",
+          "$280$",
+          "$275$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một bạn học sinh theo dõi số trang sách đọc mỗi ngày trong 5 ngày: 15, 20, 25, 30, x. Biết trung bình mỗi ngày bạn đọc 24 trang. Giá trị của x là:",
+        "options": [
+          "$30$",
+          "$25$",
+          "$35$",
+          "$20$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ đoạn thẳng kép theo dõi xuất khẩu và nhập khẩu của một quốc gia, khi đường xuất khẩu nằm phía trên đường nhập khẩu thì cán cân thương mại:",
+        "options": [
+          "Xuất siêu (thặng dư thương mại)",
+          "Nhập siêu (thâm hụt thương mại)",
+          "Cân bằng thương mại",
+          "Bị lỗ"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Một người chạy bộ ghi lại thời gian hoàn thành cự ly 5 km qua 5 tuần: 30 phút, 28 phút, 27 phút, 25 phút, 24 phút. Nhận xét nào sau đây đúng về thành tích chạy của người đó?",
+        "options": [
+          "Thành tích ngày càng tiến bộ vì thời gian chạy ngày càng rút ngắn",
+          "Thành tích ngày càng kém đi vì số phút giảm",
+          "Không thể nhận xét được",
+          "Thành tích không đổi"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Độ dốc của đoạn thẳng nối hai điểm $(t_1, y_1)$ và $(t_2, y_2)$ trên biểu đồ đoạn thẳng thể hiện:",
+        "options": [
+          "Tốc độ thay đổi trung bình của đại lượng trong khoảng thời gian đó",
+          "Giá trị tuyệt đối của đại lượng",
+          "Sai số của phép đo",
+          "Thời gian bắt đầu thí nghiệm"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ đoạn thẳng kép biểu diễn số học sinh nam và nữ đạt điểm Giỏi môn Toán của lớp 7A trong 4 bài kiểm tra định kì:\n- Bài 1: Nam 8, Nữ 10\n- Bài 2: Nam 10, Nữ 12\n- Bài 3: Nam 12, Nữ 11\n- Bài 4: Nam 14, Nữ 15.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Số học sinh nữ đạt điểm Giỏi ở Bài 1 nhiều hơn số học sinh nam.",
+            "isCorrect": true,
+            "explanation": "Nữ 10 > Nam 8."
+          },
+          {
+            "id": "b",
+            "statement": "Ở Bài 3, số học sinh nam đạt điểm Giỏi nhiều hơn số học sinh nữ.",
+            "isCorrect": true,
+            "explanation": "Nam 12 > Nữ 11."
+          },
+          {
+            "id": "c",
+            "statement": "Số học sinh nam đạt điểm Giỏi tăng liên tục qua cả 4 bài kiểm tra.",
+            "isCorrect": true,
+            "explanation": "Dãy số nam: 8 -> 10 -> 12 -> 14 tăng đều liên tục."
+          },
+          {
+            "id": "d",
+            "statement": "Tổng số lượt học sinh nữ đạt điểm Giỏi qua 4 bài là 45 lượt.",
+            "isCorrect": false,
+            "explanation": "Tổng lượt nữ $= 10 + 12 + 11 + 15 = 48$ lượt, không phải 45."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bảng số liệu ghi lại dân số của một thị trấn qua 4 cuộc tổng điều tra:\n- Năm 1990: 10 000 người\n- Năm 2000: 12 000 người\n- Năm 2010: 15 000 người\n- Năm 2020: 18 000 người.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Từ năm 1990 đến năm 2020, dân số thị trấn luôn có xu hướng tăng.",
+            "isCorrect": true,
+            "explanation": "Các giá trị tăng liên tục từ 10 000 lên 18 000."
+          },
+          {
+            "id": "b",
+            "statement": "Trong giai đoạn 1990 - 2000, dân số tăng $20\\%$.",
+            "isCorrect": true,
+            "explanation": "$(12 000 - 10 000) / 10 000 = 20\\%$."
+          },
+          {
+            "id": "c",
+            "statement": "Trong giai đoạn 2000 - 2010, dân số tăng $25\\%$.",
+            "isCorrect": true,
+            "explanation": "$(15 000 - 12 000) / 12 000 = 3 000 / 12 000 = 25\\%$."
+          },
+          {
+            "id": "d",
+            "statement": "Giai đoạn có tốc độ tăng trưởng phần trăm cao nhất là 2010 - 2020.",
+            "isCorrect": false,
+            "explanation": "Giai đoạn 2010 - 2020 tăng $(18000 - 15000) / 15000 = 20\\%$, thấp hơn mức 25% của giai đoạn 2000 - 2010."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Số lượng xe máy bán ra của cửa hàng trong 3 tháng quý I: Tháng 1: 45 xe, Tháng 2: 52 xe, Tháng 3: 65 xe. Tìm số xe bán ra trung bình mỗi tháng trong quý I.",
+        "answer": 54,
+        "unit": "xe"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ lúc 8h sáng là $24^\\circ$C, lúc 12h trưa là $32^\\circ$C. Tính tốc độ tăng nhiệt độ trung bình mỗi giờ trong khoảng thời gian đó theo độ C/giờ.",
+        "answer": 2,
+        "unit": "độ C/giờ"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Doanh số của một công ty năm 2022 là 50 tỷ đồng, năm 2023 đạt 65 tỷ đồng. Hỏi doanh số năm 2023 tăng bao nhiêu phần trăm so với năm 2022?",
+        "answer": 30,
+        "unit": "%"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Chiều cao của một cái cây qua các năm đo được: Năm 1: 1,2 m; Năm 2: 1,8 m; Năm 3: 2,5 m; Năm 4: 3,3 m. Trong năm nào chiều cao của cây tăng nhiều nhất (điền 1, 2, 3 hoặc 4 ứng với năm thứ n)?",
+        "answer": 4,
+        "unit": ""
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Biểu đồ đoạn thẳng kép ghi lại nhiệt độ cao nhất ($T_1$) và nhiệt độ thấp nhất ($T_2$) trong 5 ngày của một tuần tại Đà Lạt:\n| Ngày | T2 | T3 | T4 | T5 | T6 |\n| $T_1$ ($^\\circ$C) | 22 | 24 | 21 | 25 | 23 |\n| $T_2$ ($^\\circ$C) | 14 | 15 | 13 | 16 | 15 |\na) Ngày nào có biên độ nhiệt (chênh lệch giữa nhiệt độ cao nhất và thấp nhất) lớn nhất? Biên độ đó là bao nhiêu độ C?\nb) Tính nhiệt độ cao nhất trung bình trong 5 ngày trên.",
+        "maxScore": 1.0,
+        "solution": "a) Biên độ nhiệt của từng ngày:\n- T2: $22 - 14 = 8^\\circ$C.\n- T3: $24 - 15 = 9^\\circ$C.\n- T4: $21 - 13 = 8^\\circ$C.\n- T5: $25 - 16 = 9^\\circ$C.\n- T6: $23 - 15 = 8^\\circ$C.\nBiên độ nhiệt lớn nhất là $9^\\circ$C (xảy ra vào các ngày Thứ Ba và Thứ Năm).\nb) Nhiệt độ cao nhất trung bình trong 5 ngày là:\n$\\bar{T}_1 = \\frac{22 + 24 + 21 + 25 + 23}{5} = \\frac{115}{5} = 23^\\circ$C.",
+        "rubric": [
+          {
+            "step": "Tính đúng biên độ các ngày và chỉ ra lớn nhất là 9 độ C (T3, T5)",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng nhiệt độ cao nhất trung bình là 23 độ C",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bảng sau ghi số lượng học sinh tham gia phong trào \"Kế hoạch nhỏ\" thu gom giấy vụn của 4 lớp khối 7:\n| Lớp | 7A | 7B | 7C | 7D |\n| Số kg gom được | 120 | 150 | 135 | 195 |\na) Lớp nào thu gom được nhiều giấy vụn nhất? Chiếm bao nhiêu phần trăm tổng số giấy gom được của cả khối?\nb) Trung bình mỗi lớp thu gom được bao nhiêu kg giấy vụn?",
+        "maxScore": 1.0,
+        "solution": "a) Tổng số giấy vụn gom được của cả khối là:\n$120 + 150 + 135 + 195 = 600$ (kg).\nLớp thu gom được nhiều nhất là lớp 7D với $195$ kg.\nTỉ lệ phần trăm lớp 7D đóng góp là:\n$\\frac{195}{600} \\times 100\\% = 32{,}5\\%$.\nb) Trung bình mỗi lớp thu gom được số kg giấy vụn là:\n$\\frac{600}{4} = 150$ (kg).",
+        "rubric": [
+          {
+            "step": "Tính tổng 600 kg, xác định 7D nhiều nhất và tỉ lệ 32,5%",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng trung bình mỗi lớp 150 kg",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một xí nghiệp có kế hoạch sản xuất trong 4 quý năm 2024. Bảng số liệu so sánh sản lượng kế hoạch và sản lượng thực tế:\n| Quý | I | II | III | IV |\n| Kế hoạch (sản phẩm) | 1000 | 1200 | 1200 | 1500 |\n| Thực tế (sản phẩm) | 1050 | 1140 | 1320 | 1650 |\na) Tính tỉ lệ phần trăm hoàn thành kế hoạch của từng quý (làm tròn đến hàng phần mười).\nb) Cả năm xí nghiệp có hoàn thành vượt mức kế hoạch không? Vượt mức bao nhiêu phần trăm?",
+        "maxScore": 1.0,
+        "solution": "a) Tỉ lệ hoàn thành kế hoạch từng quý:\n- Quý I: $\\frac{1050}{1000} \\times 100\\% = 105\\%$ (vượt 5%).\n- Quý II: $\\frac{1140}{1200} \\times 100\\% = 95\\%$ (chưa đạt, thiếu 5%).\n- Quý III: $\\frac{1320}{1200} \\times 100\\% = 110\\%$ (vượt 10%).\n- Quý IV: $\\frac{1650}{1500} \\times 100\\% = 110\\%$ (vượt 10%).\nb) Tổng kế hoạch cả năm: $1000 + 1200 + 1200 + 1500 = 4900$ (sản phẩm).\nTổng thực tế cả năm: $1050 + 1140 + 1320 + 1650 = 5160$ (sản phẩm).\nTỉ lệ hoàn thành cả năm là:\n$\\frac{5160}{4900} \\times 100\\% \\approx 105{,}3\\%$.\nVậy cả năm xí nghiệp hoàn thành vượt mức kế hoạch khoảng $5{,}3\\%$.",
+        "rubric": [
+          {
+            "step": "Tính đúng tỉ lệ hoàn thành từng quý",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng tổng cả năm và kết luận vượt mức xấp xỉ 5,3%",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai3_test3": {
+    "title": "Toán 7 (KNTT) - Bài 19: Biểu đồ đoạn thẳng - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Khi muốn biểu diễn đồng thời số lượng sản phẩm xuất khẩu và giá trị kim ngạch thu về (hai đơn vị đo khác nhau) theo thời gian trên cùng một biểu đồ, người ta thường dùng:",
+        "options": [
+          "Biểu đồ đoạn thẳng hai trục tung (hai trục tỉ lệ khác nhau)",
+          "Biểu đồ hình quạt tròn đơn",
+          "Biểu đồ cột chồng",
+          "Biểu đồ tranh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Để làm nổi bật sự chênh lệch nhỏ giữa các giá trị lớn (ví dụ nhiệt độ cơ thể từ $36{,}5$ đến $39^\\circ$C), người ta nên làm gì trên trục tung?",
+        "options": [
+          "Cắt gãy trục tung (bắt đầu từ giá trị gần 36 thay vì từ 0) kèm kí hiệu ngắt trục rõ ràng",
+          "Kéo dài trục hoành gấp đôi",
+          "Đổi đơn vị đo sang độ F",
+          "Bỏ qua các giá trị thập phân"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một cổ phiếu có giá đóng cửa qua 5 phiên liên tiếp: 50, 52, 48, 54, 60 (nghìn đồng). Mức thay đổi giá lớn nhất giữa hai phiên liền kề là:",
+        "options": [
+          "Tăng $6$ nghìn đồng (từ 54 lên 60)",
+          "Giảm $4$ nghìn đồng",
+          "Tăng $2$ nghìn đồng",
+          "Tăng $10$ nghìn đồng"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Dân số một thành phố qua 3 năm: 2021: 2,0 triệu; 2022: 2,04 triệu; 2023: 2,0808 triệu. Tốc độ gia tăng dân số hằng năm của thành phố là:",
+        "options": [
+          "$2\\%$/năm",
+          "$4\\%$/năm",
+          "$1\\%$/năm",
+          "$2{,}5\\%$/năm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng",
+        "question": "Quãng đường một vật chuyển động theo thời gian: 1s: 2m, 2s: 8m, 3s: 18m, 4s: 32m. Vận tốc trung bình trong giây thứ 4 (từ giây thứ 3 đến giây thứ 4) là:",
+        "options": [
+          "$14$ m/s",
+          "$8$ m/s",
+          "$10$ m/s",
+          "$16$ m/s"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Nồng độ bụi mịn PM2.5 tại một trạm quan trắc trong 6 giờ: 45, 55, 75, 80, 60, 45 (mcg/m$^3$). Số giờ nồng độ vượt ngưỡng an toàn (50 mcg/m$^3$) là:",
+        "options": [
+          "$4$ giờ",
+          "$3$ giờ",
+          "$5$ giờ",
+          "$2$ giờ"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Biểu đồ đoạn thẳng ghi nhận lượng nước tiêu thụ của gia đình trong 4 tháng: 18, 22, 25, 20 ($m^3$). Giá nước là 10 000 đồng/$m^3$. Tổng số tiền nước 4 tháng là:",
+        "options": [
+          "$850$ nghìn đồng",
+          "$800$ nghìn đồng",
+          "$900$ nghìn đồng",
+          "$750$ nghìn đồng"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Nếu dữ liệu có tính chu kì (ví dụ doanh thu bán kem cao vào mùa hè và thấp vào mùa đông lặp lại hằng năm), biểu đồ đoạn thẳng nhiều năm sẽ có hình dạng:",
+        "options": [
+          "Hình sóng lượn dao động tuần hoàn",
+          "Đường thẳng dốc đứng liên tục",
+          "Đường nằm ngang tuyệt đối",
+          "Đường xoắn ốc"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Chỉ số CPI (chỉ số giá tiêu dùng) của một quốc gia qua 4 quý: 101,2; 101,8; 102,5; 103,1. Xu thế lạm phát qua 4 quý là:",
+        "options": [
+          "Mặt bằng giá tiếp tục tăng đều",
+          "Mặt bằng giá giảm dần",
+          "Giá cả đóng băng không đổi",
+          "Không thể xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Một người đầu tư 100 triệu. Năm đầu lãi 20%, năm thứ hai lỗ 20%. Sau hai năm số tiền còn lại là:",
+        "options": [
+          "$96$ triệu đồng",
+          "$100$ triệu đồng",
+          "$104$ triệu đồng",
+          "$90$ triệu đồng"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Để dự báo xu thế giá vàng trong tương lai gần dựa vào biểu đồ đoạn thẳng lịch sử 30 ngày qua, người ta sử dụng đường nào?",
+        "options": [
+          "Đường xu thế (Trendline) hoặc trung bình động (Moving Average)",
+          "Đường bao ngoài",
+          "Đường tiệm cận ngang",
+          "Đường phân giác"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Hiện tượng \"gây nhiễu thị giác\" trong biểu đồ đoạn thẳng thường xảy ra khi:",
+        "options": [
+          "Trục tung bị bóp méo tỉ lệ khiến độ dốc trông quá lớn hoặc quá phẳng so với thực tế",
+          "Ghi chú quá nhiều chữ",
+          "Dùng màu đen trắng",
+          "Vẽ trên giấy kẻ ô vuông"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Biểu đồ đoạn thẳng kép biểu diễn doanh số bán điện thoại (triệu chiếc) của hai hãng X và Y qua 4 năm:\n- 2020: X = 15, Y = 10\n- 2021: X = 18, Y = 14\n- 2022: X = 20, Y = 18\n- 2023: X = 21, Y = 22.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Năm 2020, doanh số của hãng X gấp 1,5 lần hãng Y.",
+            "isCorrect": true,
+            "explanation": "$15 / 10 = 1{,}5$ lần."
+          },
+          {
+            "id": "b",
+            "statement": "Hãng Y có tốc độ tăng trưởng doanh số nhanh hơn hãng X qua các năm.",
+            "isCorrect": true,
+            "explanation": "Y tăng từ 10 lên 22 (tăng 120%), X tăng từ 15 lên 21 (tăng 40%)."
+          },
+          {
+            "id": "c",
+            "statement": "Năm 2023 là năm đầu tiên hãng Y vượt qua doanh số của hãng X.",
+            "isCorrect": true,
+            "explanation": "Năm 2023: Y = 22 > X = 21."
+          },
+          {
+            "id": "d",
+            "statement": "Tổng doanh số của hai hãng năm 2022 bằng năm 2023.",
+            "isCorrect": false,
+            "explanation": "Tổng 2022 = $20 + 18 = 38$; Tổng 2023 = $21 + 22 = 43 \\neq 38$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Cho bảng số liệu ghi nhận độ sâu (m) của mực nước trong hồ thủy điện qua các tháng mùa khô (tháng 1 đến tháng 5):\n- Tháng 1: 85 m\n- Tháng 2: 82 m\n- Tháng 3: 78 m\n- Tháng 4: 73 m\n- Tháng 5: 68 m.\nBiết mực nước chết của hồ là 65 m. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Mực nước hồ giảm liên tục qua các tháng mùa khô.",
+            "isCorrect": true,
+            "explanation": "Các giá trị giảm dần từ 85 xuống 68 m."
+          },
+          {
+            "id": "b",
+            "statement": "Độ giảm mực nước trung bình mỗi tháng là $4{,}25$ m.",
+            "isCorrect": true,
+            "explanation": "$(85 - 68) / 4 = 17 / 4 = 4{,}25$ m/tháng."
+          },
+          {
+            "id": "c",
+            "statement": "Tháng 4 có tốc độ sụt giảm mực nước mạnh nhất (giảm 5 m so với tháng trước).",
+            "isCorrect": true,
+            "explanation": "T3 -> T4 giảm $78 - 73 = 5$ m; T4 -> T5 cũng giảm 5 m (cùng giảm mạnh nhất)."
+          },
+          {
+            "id": "d",
+            "statement": "Đến tháng 5, mực nước hồ đã chạm mực nước chết.",
+            "isCorrect": false,
+            "explanation": "Mực nước tháng 5 là 68 m, vẫn cao hơn mực nước chết 65 m (cách 3 m)."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Doanh thu của một cửa hàng sách trong 4 tháng cuối năm lần lượt là: 40, 50, 60, 70 (triệu đồng). Dự báo theo đà tăng đều này thì doanh thu tháng 1 đầu năm sau là bao nhiêu triệu đồng?",
+        "answer": 80,
+        "unit": "triệu đồng"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Số ca mắc cúm mùa tại một trạm y tế trong 4 tuần: Tuần 1: 12 ca, Tuần 2: 24 ca, Tuần 3: 48 ca, Tuần 4: 36 ca. Tuần nào có số ca mắc tăng gấp đôi tuần trước đó (điền 1, 2, 3 hoặc 4)?",
+        "answer": 2,
+        "unit": ""
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một người tiết kiệm gửi ngân hàng 100 triệu với lãi suất kép 6%/năm. Sau 2 năm số tiền cả gốc và lãi người đó nhận được là bao nhiêu triệu đồng (làm tròn đến hàng phần trăm, ví dụ 112.36)?",
+        "answer": 112.36,
+        "unit": "triệu đồng"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Khối lượng một bao ngũ cốc giảm dần do hao hụt: Ngày 0: 50 kg; Ngày 10: 48,5 kg; Ngày 20: 47 kg; Ngày 30: 45,5 kg. Hỏi sau bao nhiêu ngày kể từ ngày 0 thì khối lượng bao ngũ cốc còn đúng 35 kg (nếu tốc độ hao hụt không đổi)?",
+        "answer": 100,
+        "unit": "ngày"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Biểu đồ đoạn thẳng kép ghi lại sản lượng xuất khẩu gạo (triệu tấn) và kim ngạch (tỷ USD) của Việt Nam trong 3 năm:\n- 2021: Sản lượng 6,2 triệu tấn; Kim ngạch 3,28 tỷ USD.\n- 2022: Sản lượng 7,1 triệu tấn; Kim ngạch 3,45 tỷ USD.\n- 2023: Sản lượng 8,1 triệu tấn; Kim ngạch 4,68 tỷ USD.\na) Tính giá xuất khẩu bình quân mỗi tấn gạo (USD/tấn) của từng năm (làm tròn đến hàng đơn vị).\nb) Nhận xét về xu hướng giá trị xuất khẩu gạo năm 2023 so với hai năm trước đó.",
+        "maxScore": 1.0,
+        "solution": "a) Giá xuất khẩu bình quân mỗi tấn gạo = $\\frac{\\text{Kim ngạch (tỷ USD)} \\times 10^9}{\\text{Sản lượng (triệu tấn)} \\times 10^6} = \\frac{\\text{Kim ngạch}}{\\text{Sản lượng}} \\times 1000$ (USD/tấn).\n- Năm 2021: $\\frac{3{,}28}{6{,}2} \\times 1000 \\approx 529$ USD/tấn.\n- Năm 2022: $\\frac{3{,}45}{7{,}1} \\times 1000 \\approx 486$ USD/tấn.\n- Năm 2023: $\\frac{4{,}68}{8{,}1} \\times 1000 \\approx 578$ USD/tấn.\nb) Nhận xét: Năm 2023, giá xuất khẩu gạo bình quân tăng vọt lên 578 USD/tấn (tăng gần 19% so với năm 2022). Cả sản lượng và giá bán đều tăng mạnh, giúp kim ngạch xuất khẩu gạo năm 2023 đạt mức kỉ lục 4,68 tỷ USD.",
+        "rubric": [
+          {
+            "step": "Tính đúng giá bình quân cả 3 năm: 529, 486, 578 USD/tấn",
+            "subScore": 0.6
+          },
+          {
+            "step": "Phân tích và nhận xét sâu sắc xu hướng tăng trưởng năm 2023",
+            "subScore": 0.4
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Bảng số liệu ghi lại tốc độ tăng trưởng GDP (%) của một quốc gia qua 5 năm:\n- Năm 1: 6,5%\n- Năm 2: 7,0%\n- Năm 3: 2,5% (năm dịch bệnh)\n- Năm 4: 8,0%\n- Năm 5: 6,8%.\na) Vẽ phác biểu đồ đoạn thẳng mô tả sự biến động của tốc độ tăng trưởng GDP.\nb) Hãy chỉ ra điểm gãy (biến động đột ngột) trên biểu đồ và giải thích nguyên nhân tác động thực tế của điểm gãy đó.",
+        "maxScore": 1.0,
+        "solution": "a) Mô tả biểu đồ đoạn thẳng:\n- Trục hoành: Năm 1, Năm 2, Năm 3, Năm 4, Năm 5.\n- Trục tung: Tốc độ tăng trưởng GDP (%).\n- Nối các điểm: $(1; 6{,}5) \\to (2; 7{,}0) \\to (3; 2{,}5) \\to (4; 8{,}0) \\to (5; 6{,}8)$.\nb) Điểm gãy trên biểu đồ:\n- Điểm gãy xuất hiện tại Năm 3 khi tốc độ tăng trưởng sụt giảm nghiêm trọng từ $7{,}0\\%$ xuống chỉ còn $2{,}5\\%$ (giảm 4,5 điểm phần trăm).\n- Giải thích thực tế: Năm 3 là năm xảy ra dịch bệnh bùng phát, các hoạt động sản xuất kinh doanh bị đình trệ, giãn cách xã hội khiến nền kinh tế bị ảnh hưởng nặng nề.\n- Ngay sau đó vào Năm 4, kinh tế phục hồi mạnh mẽ đạt đỉnh $8{,}0\\%$ (tăng trưởng chữ V) nhờ các chính sách kích cầu và mở cửa trở lại.",
+        "rubric": [
+          {
+            "step": "Mô tả đầy đủ các mốc tọa độ và xu hướng đồ thị đoạn thẳng",
+            "subScore": 0.5
+          },
+          {
+            "step": "Chỉ ra điểm gãy năm 3 và phân tích nguyên nhân dịch bệnh cùng đà phục hồi năm 4",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một người bắt đầu tập thể dục giảm cân. Cân nặng của người đó được ghi lại vào ngày đầu tiên mỗi tháng như sau:\n- Tháng 1: 76 kg\n- Tháng 2: 74 kg\n- Tháng 3: 72,5 kg\n- Tháng 4: 71 kg\n- Tháng 5: 70 kg.\nMục tiêu của người đó là đạt cân nặng 65 kg.\na) Tính tốc độ giảm cân trung bình mỗi tháng của người đó từ tháng 1 đến tháng 5.\nb) Nếu tiếp tục duy trì tốc độ giảm cân trung bình trên, sau bao nhiêu tháng nữa kể từ tháng 5 người đó sẽ đạt được cân nặng mục tiêu?",
+        "maxScore": 1.0,
+        "solution": "a) Tổng số cân nặng đã giảm từ tháng 1 đến tháng 5 là:\n$76 - 70 = 6$ (kg).\nThời gian giảm là: $5 - 1 = 4$ (tháng).\nTốc độ giảm cân trung bình mỗi tháng là:\n$v = \\frac{6}{4} = 1{,}5$ (kg/tháng).\nb) Số cân nặng người đó cần giảm tiếp từ 70 kg về 65 kg là:\n$70 - 65 = 5$ (kg).\nThời gian cần thêm để đạt mục tiêu là:\n$t = \\frac{5}{1{,}5} = \\frac{10}{3} \\approx 3{,}33$ (tháng) (tức khoảng 3 tháng 10 ngày).\nVậy sau khoảng gần 3,5 tháng nữa (vào khoảng giữa tháng 8), người đó sẽ đạt được cân nặng mục tiêu 65 kg.",
+        "rubric": [
+          {
+            "step": "Tính đúng tốc độ giảm cân trung bình là 1,5 kg/tháng",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng thời gian cần thêm khoảng 3,33 tháng để đạt 65 kg",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai4_test1": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương V: Thu thập và biểu diễn dữ liệu - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?",
+        "options": [
+          "Chiều cao của các học sinh trong lớp",
+          "Tên các môn học yêu thích",
+          "Xếp loại rèn luyện (Tốt, Khá, Đạt)",
+          "Màu sắc áo đồng phục"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Biểu đồ nào thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần trong một tổng thể?",
+        "options": [
+          "Biểu đồ hình quạt tròn",
+          "Biểu đồ đoạn thẳng",
+          "Biểu đồ tranh",
+          "Biểu đồ cột đơn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Biểu đồ nào thích hợp nhất để theo dõi sự biến đổi nhiệt độ trong một ngày theo thời gian?",
+        "options": [
+          "Biểu đồ đoạn thẳng",
+          "Biểu đồ hình quạt tròn",
+          "Biểu đồ tranh",
+          "Bảng dữ liệu chữ"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Trong biểu đồ hình quạt tròn, góc ở tâm $90^\\circ$ biểu diễn bao nhiêu phần trăm tổng thể?",
+        "options": [
+          "$25\\%$",
+          "$50\\%$",
+          "$75\\%$",
+          "$10\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Nhận biết",
+        "question": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu gián tiếp?",
+        "options": [
+          "Tra cứu niên giám thống kê trên cổng thông tin điện tử",
+          "Phát phiếu hỏi trực tiếp",
+          "Quan sát và ghi chép thí nghiệm",
+          "Phỏng vấn từng người"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Dãy dữ liệu nào sau đây về điểm thi môn Toán (thang điểm 10) là hợp lí?",
+        "options": [
+          "$6; 7; 8{,}5; 9; 10$",
+          "$5; 11; 8; -1; 7$",
+          "$8; 9; A; 7; 6$",
+          "$10; 8; 15; 9; 7$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Lớp 7A có 40 học sinh. Biểu đồ quạt tròn cho biết tỉ lệ học sinh thích chơi bóng đá là $45\\%$. Số học sinh thích chơi bóng đá của lớp 7A là:",
+        "options": [
+          "$18$ học sinh",
+          "$20$ học sinh",
+          "$16$ học sinh",
+          "$22$ học sinh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Góc ở tâm biểu diễn tỉ lệ $40\\%$ trong biểu đồ hình quạt tròn là:",
+        "options": [
+          "$144^\\circ$",
+          "$120^\\circ$",
+          "$100^\\circ$",
+          "$160^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Thông hiểu",
+        "question": "Nhiệt độ các ngày trong tuần: Thứ Hai: $28^\\circ$C, Thứ Ba: $30^\\circ$C, Thứ Tư: $29^\\circ$C, Thứ Năm: $32^\\circ$C. Ngày nào có nhiệt độ cao nhất?",
+        "options": [
+          "Thứ Năm",
+          "Thứ Ba",
+          "Thứ Hai",
+          "Thứ Tư"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Thông hiểu",
+        "question": "Khảo sát ý kiến của 50 học sinh về món ăn sáng: Bánh mì 25, Phở 15, Xôi 10. Tỉ lệ học sinh thích Bánh mì là:",
+        "options": [
+          "$50\\%$",
+          "$30\\%$",
+          "$20\\%$",
+          "$40\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một tổ có 6 bạn có số điểm kiểm tra: $7; 8; 9; 8; 8; 8$. Điểm trung bình của tổ là:",
+        "options": [
+          "$8{,}0$",
+          "$7{,}5$",
+          "$8{,}2$",
+          "$8{,}5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng",
+        "question": "Một gia đình có tổng thu nhập 15 triệu đồng/tháng. Biểu đồ quạt tròn cho biết tiền tiết kiệm chiếm 20%. Số tiền tiết kiệm mỗi tháng là:",
+        "options": [
+          "$3$ triệu đồng",
+          "$2$ triệu đồng",
+          "$4$ triệu đồng",
+          "$2{,}5$ triệu đồng"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ quạt tròn biểu diễn tỉ lệ phân loại rác thải của một trường học: Giấy 35%, Nhựa 40%, Kim loại 15%, Rác khác 10%. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Rác thải nhựa chiếm tỉ lệ lớn nhất ($40\\%$).",
+            "isCorrect": true,
+            "explanation": "$40\\%$ là tỉ lệ cao nhất."
+          },
+          {
+            "id": "b",
+            "statement": "Góc ở tâm của hình quạt biểu diễn rác thải giấy là $126^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 35\\% = 126^\\circ$."
+          },
+          {
+            "id": "c",
+            "statement": "Góc ở tâm biểu diễn rác kim loại là $54^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 15\\% = 54^\\circ$."
+          },
+          {
+            "id": "d",
+            "statement": "Nếu tổng khối lượng rác là 200 kg thì rác hữu cơ/khác là 30 kg.",
+            "isCorrect": false,
+            "explanation": "Khối lượng rác khác $= 200 \\times 10\\% = 20$ kg, không phải 30 kg."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho các khẳng định về lựa chọn biểu đồ thích hợp để biểu diễn dữ liệu, xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Để so sánh dân số giữa 5 thành phố lớn tại một thời điểm, ta nên dùng biểu đồ cột.",
+            "isCorrect": true,
+            "explanation": "Biểu đồ cột trực quan nhất để so sánh các số lượng tuyệt đối."
+          },
+          {
+            "id": "b",
+            "statement": "Để biểu diễn sự thay đổi giá vàng trong 30 ngày vừa qua, ta nên dùng biểu đồ đoạn thẳng.",
+            "isCorrect": true,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp nhất cho sự biến thiên theo thời gian."
+          },
+          {
+            "id": "c",
+            "statement": "Để biểu diễn tỉ lệ phần trăm các loại chi phí sinh hoạt của gia đình, ta nên dùng biểu đồ hình quạt tròn.",
+            "isCorrect": true,
+            "explanation": "Biểu đồ quạt tròn tối ưu cho tỉ lệ cơ cấu phần trăm của một tổng thể."
+          },
+          {
+            "id": "d",
+            "statement": "Biểu đồ hình quạt tròn có thể dùng để biểu diễn đại lượng có giá trị âm.",
+            "isCorrect": false,
+            "explanation": "Các phần trăm và góc ở tâm trong biểu đồ quạt tròn luôn là các giá trị dương."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính góc ở tâm (độ) của hình quạt biểu diễn tỉ lệ $20\\%$ trong biểu đồ hình quạt tròn.",
+        "answer": 72,
+        "unit": "độ"
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Điểm kiểm tra của An qua 3 lần là: 7, 8, 9. Tính điểm trung bình của An qua 3 lần đó.",
+        "answer": 8,
+        "unit": ""
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một trường học có 600 học sinh. Biểu đồ quạt cho biết có 15% học sinh đi xe buýt. Có bao nhiêu học sinh đi xe buýt đến trường?",
+        "answer": 90,
+        "unit": "học sinh"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ lúc 7h sáng là $21^\\circ$C, lúc 13h trưa là $29^\\circ$C. Độ chênh lệch nhiệt độ giữa hai thời điểm là bao nhiêu độ C?",
+        "answer": 8,
+        "unit": "độ C"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Khảo sát ý thích về 4 môn thể thao của 120 học sinh khối 7 thu được kết quả:\n- Bóng đá: 48 bạn\n- Cầu lông: 36 bạn\n- Bơi lội: 24 bạn\n- Bóng rổ: 12 bạn\na) Lập bảng tỉ lệ phần trăm của từng môn thể thao.\nb) Tính góc ở tâm tương ứng của mỗi môn thể thao khi biểu diễn trên biểu đồ hình quạt tròn.",
+        "maxScore": 1.0,
+        "solution": "a) Tỉ lệ phần trăm của từng môn:\n- Bóng đá: $\\frac{48}{120} \\times 100\\% = 40\\%$.\n- Cầu lông: $\\frac{36}{120} \\times 100\\% = 30\\%$.\n- Bơi lội: $\\frac{24}{120} \\times 100\\% = 20\\%$.\n- Bóng rổ: $\\frac{12}{120} \\times 100\\% = 10\\%$.\nb) Góc ở tâm tương ứng:\n- Bóng đá: $360^\\circ \\times 40\\% = 144^\\circ$.\n- Cầu lông: $360^\\circ \\times 30\\% = 108^\\circ$.\n- Bơi lội: $360^\\circ \\times 20\\% = 72^\\circ$.\n- Bóng rổ: $360^\\circ \\times 10\\% = 36^\\circ$.",
+        "rubric": [
+          {
+            "step": "Tính đúng các tỉ lệ: 40%, 30%, 20%, 10%",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng các góc ở tâm: 144 độ, 108 độ, 72 độ, 36 độ",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Biểu đồ đoạn thẳng theo dõi lượng điện tiêu thụ (kWh) của một hộ gia đình trong 6 tháng đầu năm:\n- Tháng 1: 180 kWh\n- Tháng 2: 160 kWh\n- Tháng 3: 170 kWh\n- Tháng 4: 210 kWh\n- Tháng 5: 260 kWh\n- Tháng 6: 300 kWh\na) Tháng nào gia đình tiêu thụ nhiều điện nhất? Tháng nào tiêu thụ ít điện nhất?\nb) Giải thích vì sao lượng điện tiêu thụ lại tăng mạnh trong tháng 5 và tháng 6.",
+        "maxScore": 1.0,
+        "solution": "a) - Tháng tiêu thụ nhiều điện nhất là Tháng 6 (300 kWh).\n- Tháng tiêu thụ ít điện nhất là Tháng 2 (160 kWh).\nb) Giải thích thực tế: Tháng 5 và tháng 6 là thời điểm bắt đầu vào mùa hè nắng nóng đỉnh điểm ở nước ta. Gia đình sử dụng nhiều thiết bị làm mát công suất lớn như quạt điện, máy điều hòa nhiệt độ hoạt động liên tục cả ngày lẫn đêm, dẫn đến sản lượng điện tiêu thụ tăng vọt.",
+        "rubric": [
+          {
+            "step": "Chỉ ra đúng tháng nhiều nhất (T6) và ít nhất (T2)",
+            "subScore": 0.5
+          },
+          {
+            "step": "Giải thích hợp lí nguyên nhân thời tiết mùa hè nắng nóng dùng máy lạnh",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một tổ có 10 học sinh làm một bài kiểm tra Toán. Điểm của 9 bạn là: $6, 7, 8, 8, 9, 7, 8, 9, 10$. Biết điểm trung bình của cả tổ 10 bạn là $8{,}0$. Hãy tìm điểm của bạn thứ 10.",
+        "maxScore": 1.0,
+        "solution": "Tổng điểm của cả 10 bạn là:\n$S = 10 \\times 8{,}0 = 80$ (điểm).\nTổng điểm của 9 bạn đã biết là:\n$6 + 7 + 8 + 8 + 9 + 7 + 8 + 9 + 10 = 72$ (điểm).\nĐiểm số của bạn thứ 10 là:\n$x = 80 - 72 = 8$ (điểm).\nVậy bạn thứ 10 đạt 8 điểm.",
+        "rubric": [
+          {
+            "step": "Tính tổng điểm cả tổ: 80 điểm",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính tổng 9 bạn là 72 và suy ra bạn thứ 10 được 8 điểm",
+            "subScore": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai4_test2": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương V: Thu thập và biểu diễn dữ liệu - Bài kiểm tra số 2 (🌿 Khá)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Để biểu diễn số lượng học sinh giỏi các lớp 7A, 7B, 7C, 7D, loại biểu đồ nào sau đây là phù hợp nhất?",
+        "options": [
+          "Biểu đồ cột",
+          "Biểu đồ đoạn thẳng",
+          "Biểu đồ hình quạt tròn",
+          "Biểu đồ đám mây"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ quạt tròn biểu diễn xếp loại thi đua có góc ở tâm của khối Tốt là $162^\\circ$. Tỉ lệ học sinh đạt loại Tốt là:",
+        "options": [
+          "$45\\%$",
+          "$40\\%$",
+          "$50\\%$",
+          "$35\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Thông hiểu",
+        "question": "Một giải bóng đá có 8 đội thi đấu vòng tròn 1 lượt. Mỗi trận thắng được 3 điểm, hòa 1 điểm, thua 0 điểm. Dữ liệu \"số điểm của các đội sau giải\" thuộc loại:",
+        "options": [
+          "Dữ liệu số rời rạc",
+          "Dữ liệu định tính",
+          "Dữ liệu liên tục",
+          "Dữ liệu không so sánh được"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ đoạn thẳng ghi lại số ca khỏi bệnh Covid-19 trong một tuần có đoạn dốc đứng nhất vào ngày nào? Điều đó có ý nghĩa gì?",
+        "options": [
+          "Ngày có số ca khỏi bệnh tăng nhanh nhất so với ngày trước",
+          "Ngày có số ca khỏi bệnh thấp nhất",
+          "Ngày không có ca khỏi bệnh nào",
+          "Ngày trạm y tế đóng cửa"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Cơ cấu chi phí sản xuất một sản phẩm gồm: Nguyên liệu 50%, Nhân công 30%, Khấu hao 15%, Chi khác 5%. Góc ở tâm biểu diễn chi phí Nguyên liệu là:",
+        "options": [
+          "$180^\\circ$",
+          "$150^\\circ$",
+          "$120^\\circ$",
+          "$90^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Một cửa hàng thống kê doanh thu 4 tuần của tháng 12: 50, 65, 80, 105 (triệu đồng). Doanh thu tuần 4 tăng bao nhiêu phần trăm so với tuần 1?",
+        "options": [
+          "$110\\%$",
+          "$100\\%$",
+          "$120\\%$",
+          "$90\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Khảo sát thời gian xem tivi mỗi ngày của 5 học sinh: 1h, 1,5h, 2h, 2,5h, 3h. Thời gian xem trung bình của nhóm là:",
+        "options": [
+          "$2$ giờ",
+          "$1{,}8$ giờ",
+          "$2{,}2$ giờ",
+          "$2{,}5$ giờ"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn, phần dành cho thể thao chiếm góc $108^\\circ$. Nếu có tổng cộng 500 bạn được khảo sát thì có bao nhiêu bạn chọn thể thao?",
+        "options": [
+          "$150$ bạn",
+          "$120$ bạn",
+          "$180$ bạn",
+          "$100$ bạn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Cho dãy dữ liệu nhiệt độ: $25, 27, 26, 31, 28, 29$. Trung vị của dãy số liệu là:",
+        "options": [
+          "$27{,}5$",
+          "$27$",
+          "$28$",
+          "$26{,}5$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một người bán hàng lãi 15% trong tháng 1, lãi 25% trong tháng 2 so với vốn ban đầu không đổi. Mức tăng trưởng lợi nhuận của tháng 2 so với tháng 1 là:",
+        "options": [
+          "$66{,}7\\%$",
+          "$10\\%$",
+          "$50\\%$",
+          "$40\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Khi đọc biểu đồ đoạn thẳng, việc trục tung không xuất phát từ 0 mà không có kí hiệu ngắt trục có thể gây ra ảo giác gì?",
+        "options": [
+          "Làm người đọc cảm thấy sự khác biệt giữa các số liệu bị phóng đại quá mức",
+          "Làm cho số liệu trông nhỏ hơn thực tế",
+          "Làm mất tính thời gian của số liệu",
+          "Làm đổi chiều tăng giảm"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một trường học có 1200 học sinh. Để chọn mẫu 60 học sinh khảo sát, người ta chọn ngẫu nhiên mỗi lớp 2 học sinh. Cách chọn mẫu này gọi là:",
+        "options": [
+          "Chọn mẫu phân tầng ngẫu nhiên",
+          "Chọn mẫu thuận tiện",
+          "Chọn mẫu tự nguyện",
+          "Chọn mẫu cụm"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia 3 môn năng khiếu: Vẽ 30%, Hát 45%, Nhảy hiện đại 25%. Tổng số học sinh là 200 bạn. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Số bạn thích Hát là $90$ bạn.",
+            "isCorrect": true,
+            "explanation": "$200 \\times 45\\% = 90$ bạn."
+          },
+          {
+            "id": "b",
+            "statement": "Góc ở tâm biểu diễn môn Nhảy hiện đại là $90^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 25\\% = 90^\\circ$."
+          },
+          {
+            "id": "c",
+            "statement": "Số bạn thích Vẽ nhiều hơn số bạn thích Nhảy là 10 bạn.",
+            "isCorrect": true,
+            "explanation": "Vẽ: 60 bạn; Nhảy: 50 bạn $\\Rightarrow 60 - 50 = 10$ bạn."
+          },
+          {
+            "id": "d",
+            "statement": "Góc ở tâm biểu diễn môn Hát là $180^\\circ$.",
+            "isCorrect": false,
+            "explanation": "$360^\\circ \\times 45\\% = 162^\\circ \\neq 180^\\circ$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một biểu đồ đoạn thẳng biểu diễn số sản phẩm lỗi của một nhà máy trong 5 tuần: Tuần 1: 50, Tuần 2: 42, Tuần 3: 35, Tuần 4: 25, Tuần 5: 18. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Số sản phẩm lỗi có xu hướng giảm liên tục qua các tuần.",
+            "isCorrect": true,
+            "explanation": "Các giá trị giảm đều: 50 -> 42 -> 35 -> 25 -> 18."
+          },
+          {
+            "id": "b",
+            "statement": "Tổng số sản phẩm lỗi trong 5 tuần là $170$ sản phẩm.",
+            "isCorrect": true,
+            "explanation": "$50 + 42 + 35 + 25 + 18 = 170$ sản phẩm."
+          },
+          {
+            "id": "c",
+            "statement": "Tuần 4 có số lỗi giảm nhiều nhất so với tuần liền trước (giảm 10 lỗi).",
+            "isCorrect": true,
+            "explanation": "$35 - 25 = 10$ lỗi (các tuần khác giảm 8, 7, 7)."
+          },
+          {
+            "id": "d",
+            "statement": "Số sản phẩm lỗi ở Tuần 5 giảm hơn $70\\%$ so với Tuần 1.",
+            "isCorrect": false,
+            "explanation": "Tỉ lệ giảm $= (50 - 18) / 50 = 32 / 50 = 64\\% < 70\\%$."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Góc ở tâm của hình quạt biểu diễn tỉ lệ $45\\%$ là bao nhiêu độ?",
+        "answer": 162,
+        "unit": "độ"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Điểm trung bình của 4 bài kiểm tra môn Toán là 7,5. Sau bài kiểm tra thứ năm, điểm trung bình tăng lên thành 7,8. Hỏi bài kiểm tra thứ năm bạn đó đạt mấy điểm?",
+        "answer": 9,
+        "unit": "điểm"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một công ty có doanh thu quý I là 40 tỷ đồng, quý II là 52 tỷ đồng. Doanh thu quý II tăng bao nhiêu phần trăm so với quý I?",
+        "answer": 30,
+        "unit": "%"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Biểu đồ quạt tròn có 3 hình quạt. Góc ở tâm của hình quạt 1 là $144^\\circ$, hình quạt 2 là $108^\\circ$. Hỏi hình quạt 3 chiếm bao nhiêu phần trăm tổng thể?",
+        "answer": 30,
+        "unit": "%"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Bảng số liệu sau ghi nhận kim ngạch xuất khẩu thủy sản của Việt Nam trong 4 quý năm 2023:\n- Quý I: 1,8 tỷ USD\n- Quý II: 2,3 tỷ USD\n- Quý III: 2,5 tỷ USD\n- Quý IV: 2,4 tỷ USD\na) Vẽ bảng phân bố tỉ lệ phần trăm kim ngạch xuất khẩu từng quý so với cả năm (tổng cả năm là 9,0 tỷ USD).\nb) Tính số đo góc ở tâm tương ứng của từng quý trên biểu đồ hình quạt tròn.",
+        "maxScore": 1.0,
+        "solution": "a) Tổng kim ngạch cả năm $= 1{,}8 + 2{,}3 + 2{,}5 + 2{,}4 = 9{,}0$ (tỷ USD).\nTỉ lệ phần trăm từng quý:\n- Quý I: $\\frac{1{,}8}{9{,}0} \\times 100\\% = 20\\%$.\n- Quý II: $\\frac{2{,}3}{9{,}0} \\times 100\\% \\approx 25{,}56\\%$.\n- Quý III: $\\frac{2{,}5}{9{,}0} \\times 100\\% \\approx 27{,}78\\%$.\n- Quý IV: $\\frac{2{,}4}{9{,}0} \\times 100\\% \\approx 26{,}66\\%$.\nb) Góc ở tâm tương ứng:\n- Quý I: $360^\\circ \\times 20\\% = 72^\\circ$.\n- Quý II: $360^\\circ \\times \\frac{2{,}3}{9{,}0} = 92^\\circ$.\n- Quý III: $360^\\circ \\times \\frac{2{,}5}{9{,}0} = 100^\\circ$.\n- Quý IV: $360^\\circ \\times \\frac{2{,}4}{9{,}0} = 96^\\circ$.\nKiểm tra: $72^\\circ + 92^\\circ + 100^\\circ + 96^\\circ = 360^\\circ$.",
+        "rubric": [
+          {
+            "step": "Tính đúng các tỉ lệ phần trăm từng quý",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng các góc ở tâm: 72, 92, 100, 96 độ",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một người ghi chép thời gian chạy bộ mỗi ngày trong 1 tuần (phút): $30; 35; 40; 0; 45; 50; 45$.\na) Xác định giá trị bất thường trong dãy số liệu trên và giải thích lí do.\nb) Tính thời gian chạy bộ trung bình mỗi ngày trong những ngày người đó có tập luyện.",
+        "maxScore": 1.0,
+        "solution": "a) Giá trị bất thường là $0$ (phút).\nGiải thích: Giá trị này tương ứng với ngày người đó nghỉ tập (hoặc bận việc đột xuất/ốm), khác biệt hoàn toàn với thói quen tập từ 30 đến 50 phút của các ngày còn lại.\nb) Số ngày có tập luyện là 6 ngày. Tổng thời gian tập của 6 ngày là:\n$30 + 35 + 40 + 45 + 50 + 45 = 245$ (phút).\nThời gian chạy bộ trung bình mỗi ngày tập là:\n$\\bar{t} = \\frac{245}{6} \\approx 40{,}83$ phút (khoảng 40 phút 50 giây).",
+        "rubric": [
+          {
+            "step": "Chỉ ra giá trị bất thường 0 phút và giải thích hợp lí",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng thời gian trung bình của 6 ngày tập là 40,83 phút",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một lớp học có 40 học sinh gồm 3 tổ. Tổ 1 có 12 bạn có điểm trung bình môn Văn là 7,5. Tổ 2 có 14 bạn có điểm trung bình là 8,0. Cả lớp có điểm trung bình là 7,8.\na) Tính điểm trung bình môn Văn của Tổ 3.\nb) Nhận xét về chất lượng học tập môn Văn giữa 3 tổ.",
+        "maxScore": 1.0,
+        "solution": "a) Số học sinh của Tổ 3 là:\n$40 - (12 + 14) = 40 - 26 = 14$ (học sinh).\nTổng điểm môn Văn của cả lớp là:\n$S = 40 \\times 7{,}8 = 312$ (điểm).\nTổng điểm của Tổ 1 là:\n$S_1 = 12 \\times 7{,}5 = 90$ (điểm).\nTổng điểm của Tổ 2 là:\n$S_2 = 14 \\times 8{,}0 = 112$ (điểm).\nTổng điểm của Tổ 3 là:\n$S_3 = 312 - (90 + 112) = 312 - 202 = 110$ (điểm).\nĐiểm trung bình môn Văn của Tổ 3 là:\n$\\bar{X}_3 = \\frac{110}{14} \\approx 7{,}86$ (điểm).\nb) Nhận xét: Tổ 2 có điểm trung bình cao nhất ($8{,}0$), tiếp theo là Tổ 3 ($7{,}86$) và Tổ 1 thấp nhất ($7{,}5$). Cả 3 tổ đều đạt mức điểm Khá giỏi đồng đều.",
+        "rubric": [
+          {
+            "step": "Tính đúng số học sinh Tổ 3 là 14 và điểm trung bình xấp xỉ 7,86",
+            "subScore": 0.6
+          },
+          {
+            "step": "So sánh và đưa ra nhận xét chính xác giữa 3 tổ",
+            "subScore": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  "c5_7_bai4_test3": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương V: Thu thập và biểu diễn dữ liệu - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "part1": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Khi muốn khảo sát ý kiến học sinh về việc đổi mới đồng phục, phương pháp chọn mẫu nào sau đây tránh được thiên vị giới tính và khối lớp nhất?",
+        "options": [
+          "Chọn mẫu ngẫu nhiên phân tầng theo khối lớp và theo giới tính nam/nữ",
+          "Phỏng vấn các bạn ở câu lạc bộ thời trang",
+          "Hỏi các bạn nữ trong trường",
+          "Lấy ý kiến đại diện của các bạn trong ban cán sự lớp"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Trong biểu đồ quạt tròn có 4 hình quạt A, B, C, D tỉ lệ thuận với các số $2, 3, 4, 6$. Số đo góc ở tâm của hình quạt lớn nhất là:",
+        "options": [
+          "$144^\\circ$",
+          "$120^\\circ$",
+          "$96^\\circ$",
+          "$160^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người đầu tư cổ phiếu: ngày 1 tăng 10%, ngày 2 giảm 10% so với ngày 1. So với giá ban đầu, giá cổ phiếu sau 2 ngày:",
+        "options": [
+          "Giảm $1\\%$",
+          "Không thay đổi",
+          "Tăng $1\\%$",
+          "Giảm $2\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Một dãy gồm 9 số nguyên dương xếp theo thứ tự tăng dần có số trung vị là 15. Nếu tăng số lớn nhất lên 10 đơn vị thì số trung vị mới là:",
+        "options": [
+          "$15$",
+          "$25$",
+          "$16$",
+          "Không xác định"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 5,
+        "level": "Vận dụng",
+        "question": "Biểu đồ đoạn thẳng kép ghi nhận doanh thu và chi phí của công ty qua 4 quý. Lợi nhuận đạt mức cao nhất khi:",
+        "options": [
+          "Khoảng cách thẳng đứng từ điểm doanh thu xuống điểm chi phí là lớn nhất (doanh thu > chi phí)",
+          "Doanh thu cao nhất",
+          "Chi phí thấp nhất",
+          "Doanh thu bằng chi phí"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 6,
+        "level": "Vận dụng",
+        "question": "Một bể bơi ghi nhận lượng khách trong 4 ngày nghỉ lễ: 500, 650, 800, 950 người. Lượng khách trung bình mỗi ngày là:",
+        "options": [
+          "$725$ người",
+          "$700$ người",
+          "$750$ người",
+          "$800$ người"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 7,
+        "level": "Vận dụng",
+        "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần X, Y, Z. Biết diện tích hình quạt X bằng $\\frac{1}{3}$ hình quạt Y, hình quạt Y bằng $\\frac{1}{2}$ hình quạt Z. Góc ở tâm của hình quạt X là:",
+        "options": [
+          "$36^\\circ$",
+          "$72^\\circ$",
+          "$108^\\circ$",
+          "$144^\\circ$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 8,
+        "level": "Vận dụng cao",
+        "question": "Cho bảng phân bố điểm thi môn Toán của 50 học sinh có trung bình là 7,2. Khi phát hiện một bài 4 điểm bị chấm nhầm thành 9 điểm và được sửa lại, điểm trung bình thực tế của lớp là:",
+        "options": [
+          "$7{,}1$",
+          "$7{,}0$",
+          "$7{,}15$",
+          "$7{,}05$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng cao",
+        "question": "Một tam giác số liệu hình quạt tròn có 3 góc ở tâm tỉ lệ với $1 : 2 : 3$. Tỉ lệ phần trăm của hình quạt lớn nhất là:",
+        "options": [
+          "$50\\%$",
+          "$60\\%$",
+          "$33{,}3\\%$",
+          "$45\\%$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng cao",
+        "question": "Khi nghiên cứu mối quan hệ giữa chiều cao và cân nặng của học sinh, loại biểu đồ thích hợp nhất để nhận biết tương quan hai đại lượng là:",
+        "options": [
+          "Biểu đồ phân tán (Scatter plot)",
+          "Biểu đồ hình quạt tròn",
+          "Biểu đồ cột đơn",
+          "Biểu đồ tranh"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng cao",
+        "question": "Cho dãy số: $2, 4, 6, 8, \\dots, 2n$ có trung bình cộng bằng 21. Giá trị của $n$ là:",
+        "options": [
+          "$20$",
+          "$21$",
+          "$19$",
+          "$22$"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một người quan sát thấy biểu đồ doanh thu một công ty có trục tung bắt đầu từ 90 đến 100 với bước nhảy 1 đơn vị. Đoạn thẳng dốc vọt lên trên biểu đồ thực tế thể hiện mức tăng trưởng:",
+        "options": [
+          "Rất nhỏ (chỉ vài phần trăm) nhưng bị phóng đại trực quan do ngắt trục",
+          "Tăng trưởng đột biến hàng trăm phần trăm",
+          "Doanh thu bị giảm",
+          "Không có doanh thu"
+        ],
+        "correct": 0
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Một gia đình phân bổ ngân sách 30 triệu đồng/tháng thành 4 khoản: Sinh hoạt phí 45%, Học phí cho con 25%, Tiết kiệm 20%, Quỹ dự phòng 10%. Xét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Số tiền chi cho sinh hoạt phí là $13{,}5$ triệu đồng.",
+            "isCorrect": true,
+            "explanation": "$30 \\times 45\\% = 13{,}5$ triệu đồng."
+          },
+          {
+            "id": "b",
+            "statement": "Góc ở tâm của hình quạt biểu diễn quỹ dự phòng là $36^\\circ$.",
+            "isCorrect": true,
+            "explanation": "$360^\\circ \\times 10\\% = 36^\\circ$."
+          },
+          {
+            "id": "c",
+            "statement": "Số tiền dành cho học phí và tiết kiệm tổng cộng là $13{,}5$ triệu đồng.",
+            "isCorrect": true,
+            "explanation": "$25\\% + 20\\% = 45\\% \\Rightarrow 30 \\times 45\\% = 13{,}5$ triệu đồng."
+          },
+          {
+            "id": "d",
+            "statement": "Góc ở tâm của hình quạt biểu diễn học phí gấp đôi quỹ dự phòng.",
+            "isCorrect": false,
+            "explanation": "Học phí là 25%, dự phòng là 10% $\\Rightarrow 25/10 = 2{,}5$ lần, không phải gấp đôi."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Cho bảng số liệu ghi nhận sự tăng trưởng chiều cao (cm) của một cây tre giống mới qua 5 ngày:\n- Ngày 1: 10 cm\n- Ngày 2: 25 cm\n- Ngày 3: 50 cm\n- Ngày 4: 90 cm\n- Ngày 5: 150 cm.\nXét tính đúng/sai:",
+        "statements": [
+          {
+            "id": "a",
+            "statement": "Tốc độ tăng chiều cao của cây tre ngày sau luôn lớn hơn ngày trước.",
+            "isCorrect": true,
+            "explanation": "Mức tăng mỗi ngày: $15, 25, 40, 60$ cm (tăng dần)."
+          },
+          {
+            "id": "b",
+            "statement": "Trong ngày thứ 5 (từ ngày 4 đến ngày 5), cây tre cao thêm $60$ cm.",
+            "isCorrect": true,
+            "explanation": "$150 - 90 = 60$ cm."
+          },
+          {
+            "id": "c",
+            "statement": "Chiều cao trung bình mỗi ngày cây tre tăng được trong 4 khoảng ngày là $35$ cm/ngày.",
+            "isCorrect": true,
+            "explanation": "$(150 - 10) / 4 = 140 / 4 = 35$ cm/ngày."
+          },
+          {
+            "id": "d",
+            "statement": "Biểu đồ đoạn thẳng mô tả chiều cao cây tre có độ dốc giảm dần.",
+            "isCorrect": false,
+            "explanation": "Tốc độ tăng ngày càng nhanh nên biểu đồ có độ dốc ngày càng lớn (cong vồng lên), không phải giảm dần."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Vận dụng",
+        "question": "Một tổ gồm 5 học sinh có cân nặng trung bình là 42 kg. Sau khi một bạn nặng 50 kg chuyển sang tổ khác, cân nặng trung bình của 4 bạn còn lại là bao nhiêu kg?",
+        "answer": 40,
+        "unit": "kg"
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Góc ở tâm của hình quạt thứ nhất là $150^\\circ$, hình quạt thứ hai là $120^\\circ$, hình quạt thứ ba chiếm phần còn lại. Hỏi hình quạt thứ ba chiếm bao nhiêu phần trăm tổng thể?",
+        "answer": 25,
+        "unit": "%"
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một người chạy bộ tuần 1 chạy 20 km. Mỗi tuần sau người đó tăng quãng đường chạy thêm 10% so với tuần trước đó. Hỏi trong tuần thứ 3 người đó chạy được bao nhiêu km (điền số thập phân)?",
+        "answer": 24.2,
+        "unit": "km"
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần A, B, C. Tỉ số diện tích giữa A và B là 2:3, giữa B và C là 3:5. Tính số đo góc ở tâm (độ) của thành phần C.",
+        "answer": 180,
+        "unit": "độ"
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Vận dụng cao",
+        "question": "Một công ty dự định đầu tư vào 3 mảng kinh doanh: Nông nghiệp công nghệ cao, Năng lượng tái tạo và Dịch vụ số với tỉ lệ vốn góp ban đầu theo thứ tự là $2 : 3 : 5$. Tổng số vốn là 200 tỷ đồng.\na) Tính số vốn đầu tư vào từng mảng.\nb) Sau 1 năm, vốn ở mảng Nông nghiệp tăng $20\\%$, Năng lượng tăng $10\\%$, Dịch vụ số tăng $30\\%$. Tính cơ cấu tỉ lệ phần trăm mới của 3 mảng sau 1 năm (làm tròn đến hàng phần mười).",
+        "maxScore": 1.0,
+        "solution": "a) Tổng số phần bằng nhau là: $2 + 3 + 5 = 10$ phần.\nGiá trị 1 phần là: $200 : 10 = 20$ (tỷ đồng).\nSố vốn ban đầu của từng mảng:\n- Nông nghiệp: $20 \\times 2 = 40$ tỷ đồng.\n- Năng lượng: $20 \\times 3 = 60$ tỷ đồng.\n- Dịch vụ số: $20 \\times 5 = 100$ tỷ đồng.\nb) Số vốn của từng mảng sau 1 năm:\n- Nông nghiệp: $40 \\times (1 + 0{,}2) = 48$ tỷ đồng.\n- Năng lượng: $60 \\times (1 + 0{,}1) = 66$ tỷ đồng.\n- Dịch vụ số: $100 \\times (1 + 0{,}3) = 130$ tỷ đồng.\nTổng số vốn sau 1 năm là: $48 + 66 + 130 = 244$ tỷ đồng.\nCơ cấu tỉ lệ phần trăm mới:\n- Nông nghiệp: $\\frac{48}{244} \\times 100\\% \\approx 19{,}7\\%$.\n- Năng lượng: $\\frac{66}{244} \\times 100\\% \\approx 27{,}0\\%$.\n- Dịch vụ số: $\\frac{130}{244} \\times 100\\% \\approx 53{,}3\\%$.\nTổng tỉ lệ mới $= 19{,}7\\% + 27{,}0\\% + 53{,}3\\% = 100\\%$.",
+        "rubric": [
+          {
+            "step": "Tính đúng vốn ban đầu: Nông nghiệp 40, Năng lượng 60, Dịch vụ số 100 tỷ",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng vốn mới và cơ cấu phần trăm mới: 19,7%, 27,0%, 53,3%",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng cao",
+        "question": "Biểu đồ đoạn thẳng kép ghi nhận doanh thu (D) và chi phí (C) của một chuỗi nhà hàng qua 4 quý năm 2024 (đơn vị: tỷ đồng):\n| Quý | I | II | III | IV |\n| Doanh thu (D) | 12 | 15 | 18 | 22 |\n| Chi phí (C) | 10 | 11 | 13 | 15 |\na) Tính lợi nhuận (Lợi nhuận = Doanh thu - Chi phí) của chuỗi nhà hàng ở từng quý.\nb) Tính tỉ suất lợi nhuận trên doanh thu (Lợi nhuận / Doanh thu) của cả năm 2024.",
+        "maxScore": 1.0,
+        "solution": "a) Lợi nhuận của chuỗi nhà hàng từng quý:\n- Quý I: $12 - 10 = 2$ tỷ đồng.\n- Quý II: $15 - 11 = 4$ tỷ đồng.\n- Quý III: $18 - 13 = 5$ tỷ đồng.\n- Quý IV: $22 - 15 = 7$ tỷ đồng.\nb) Tổng doanh thu cả năm 2024:\n$D_{\\text{năm}} = 12 + 15 + 18 + 22 = 67$ tỷ đồng.\nTổng chi phí cả năm 2024:\n$C_{\\text{năm}} = 10 + 11 + 13 + 15 = 49$ tỷ đồng.\nTổng lợi nhuận cả năm 2024:\n$L_{\\text{năm}} = 67 - 49 = 18$ tỷ đồng (hoặc $2 + 4 + 5 + 7 = 18$ tỷ đồng).\nTỉ suất lợi nhuận trên doanh thu cả năm là:\n$P = \\frac{18}{67} \\times 100\\% \\approx 26{,}87\\%$.",
+        "rubric": [
+          {
+            "step": "Tính đúng lợi nhuận từng quý: 2, 4, 5, 7 tỷ đồng",
+            "subScore": 0.5
+          },
+          {
+            "step": "Tính đúng tổng cả năm và tỉ suất lợi nhuận xấp xỉ 26,87%",
+            "subScore": 0.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho dãy số nguyên dương gồm $n$ số: $x_1, x_2, \\dots, x_n$ có trung bình cộng bằng 10. Nếu thêm số 26 vào dãy thì trung bình cộng của dãy mới là 12.\na) Tìm số phần tử $n$ ban đầu.\nb) Nếu tiếp tục bỏ đi số nhỏ nhất trong dãy ban đầu là số 2 thì trung bình cộng của các số còn lại là bao nhiêu?",
+        "maxScore": 1.0,
+        "solution": "a) Tổng của $n$ số ban đầu là:\n$S = 10n$.\nKhi thêm số 26 vào dãy, tổng mới là $10n + 26$ và số lượng phần tử mới là $n + 1$.\nTheo đề bài, trung bình cộng mới là 12, nên ta có phương trình:\n$\\frac{10n + 26}{n + 1} = 12$\n$\\Leftrightarrow 10n + 26 = 12(n + 1)$\n$\\Leftrightarrow 10n + 26 = 12n + 12$\n$\\Leftrightarrow 2n = 14 \\Rightarrow n = 7$.\nVậy số phần tử ban đầu là $n = 7$.\nb) Tổng của 7 số ban đầu là $S = 10 \\times 7 = 70$.\nKhi bỏ đi số 2, tổng của 6 số còn lại là:\n$S' = 70 - 2 = 68$.\nTrung bình cộng của 6 số còn lại là:\n$\\bar{X}' = \\frac{68}{6} = \\frac{34}{3} \\approx 11{,}33$.",
+        "rubric": [
+          {
+            "step": "Thiết lập phương trình và giải ra n = 7",
+            "subScore": 0.6
+          },
+          {
+            "step": "Tính đúng trung bình cộng còn lại là 34/3 xấp xỉ 11,33",
+            "subScore": 0.4
+          }
+        ]
+      }
+    ]
+  }
+};
+const EXAMS_7_C5_7 = CHAPTER5_TOAN7_EXAMS;
+
+if (typeof window !== 'undefined') {
+  window.CHAPTER5_TOAN7_EXAMS = CHAPTER5_TOAN7_EXAMS;
+  window.GRADE7_C5_7_EXAMS = CHAPTER5_TOAN7_EXAMS;
+  window.EXAMS_7_C5_7 = CHAPTER5_TOAN7_EXAMS;
+  if (!window.DYNAMIC_EXAM_CACHE) window.DYNAMIC_EXAM_CACHE = {};
+  window.DYNAMIC_EXAM_CACHE["grade7_c5_7"] = {"grade": "7", "chapterId": "c5_7", "chapterTitle": "Chương V: Thu thập và biểu diễn dữ liệu", "totalExams": 12, "updatedAt": "2026-10-25 15:55:00", "exams": {"c5_7_bai1_test1": {"title": "Toán 7 (KNTT) - Bài 17: Thu thập và phân loại dữ liệu - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu trực tiếp?", "options": ["Quan sát hoặc làm thí nghiệm, lập phiếu hỏi", "Tìm kiếm trên mạng Internet", "Đọc trong sách tham khảo", "Tra cứu trên niên giám thống kê"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Dữ liệu nào sau đây là dữ liệu số (số liệu)?", "options": ["Chiều cao của các học sinh trong lớp (cm)", "Tên các loài hoa yêu thích", "Xếp loại học lực (Tốt, Khá, Đạt)", "Nơi sinh của các bạn học sinh"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Dữ liệu nào sau đây không phải là số liệu (dữ liệu định tính)?", "options": ["Màu sắc yêu thích của các bạn trong tổ", "Số học sinh giỏi của từng lớp", "Điểm kiểm tra môn Toán", "Nhiệt độ trung bình các ngày trong tuần"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Dữ liệu định tính nào sau đây có thể so sánh được (thứ bậc)?", "options": ["Mức độ hài lòng của khách hàng: Rất hài lòng, Hài lòng, Không hài lòng", "Màu mắt: Đen, Nâu, Xanh", "Môn thể thao yêu thích: Bóng đá, Bơi, Cầu lông", "Tên các quận, huyện của Hà Nội"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Để thu thập dữ liệu về điểm kiểm tra môn Toán học kì I của các bạn học sinh lớp 7A, bạn lớp trưởng nên thu thập từ nguồn nào?", "options": ["Sổ điểm hoặc bảng điểm của giáo viên dạy Toán", "Hỏi các bạn trong tổ của mình", "Tìm kiếm trên mạng Internet", "Hỏi bác bảo vệ của trường"], "correct": 0}, {"id": 6, "level": "Thông hiểu", "question": "Dãy dữ liệu nào sau đây gồm các dữ liệu hợp lí về điểm thi môn Toán thang điểm 10?", "options": ["$8; 9; 7{,}5; 10; 6$", "$8; 12; 7; -2; 9$", "$9; 10; A; B; 8$", "$7; 8; 15; 6; 7$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Cho dãy dữ liệu về năm sinh của học sinh lớp 7: $2011, 2012, 1995, 2012, 2011$. Giá trị nào là không hợp lí?", "options": ["$1995$", "$2011$", "$2012$", "Không có giá trị nào"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Bảng khảo sát về sở thích đọc sách của học sinh có các mức: Không thích, Bình thường, Thích, Rất thích. Đây là loại dữ liệu:", "options": ["Dữ liệu định tính có thể sắp xếp thứ bậc", "Dữ liệu định tính không thể sắp xếp thứ bậc", "Dữ liệu số liên tục", "Dữ liệu số rời rạc"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Dãy dữ liệu về thân nhiệt của một bệnh nhân (độ C) lúc 8h sáng: $36{,}8; 37{,}0; 37{,}2; 45{,}5$. Giá trị bất thường trong dãy là:", "options": ["$45{,}5$", "$37{,}0$", "$36{,}8$", "$37{,}2$"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Để tìm hiểu về số lượng xe máy của mỗi hộ gia đình tại một khu phố, loại dữ liệu thu thập được là:", "options": ["Dữ liệu số", "Dữ liệu định tính", "Dữ liệu hình ảnh", "Dữ liệu âm thanh"], "correct": 0}, {"id": 11, "level": "Vận dụng", "question": "Một tổ có 8 học sinh có số cuốn sách đọc trong học kì I là: $3, 5, 2, 4, 3, 6, 4, 5$. Tổng số sách tổ đó đọc được là:", "options": ["$32$", "$30$", "$34$", "$28$"], "correct": 0}, {"id": 12, "level": "Vận dụng", "question": "Số lượng học sinh vắng mặt trong tuần của một lớp là: Thứ Hai: 1, Thứ Ba: 0, Thứ Tư: 2, Thứ Năm: 0, Thứ Sáu: 1. Số ngày không có học sinh vắng là:", "options": ["$2$ ngày", "$1$ ngày", "$3$ ngày", "$0$ ngày"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Thầy giáo ghi lại điểm kiểm tra giữa kì I môn Toán của 10 bạn trong tổ 1 như sau: $7; 8; 6; 9; 10; 8; 7; 8; 9; 8$. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Dữ liệu thu được là dữ liệu định lượng (số liệu).", "isCorrect": true, "explanation": "Điểm số là các giá trị bằng số."}, {"id": "b", "statement": "Điểm số cao nhất của tổ là $10$ điểm.", "isCorrect": true, "explanation": "Trong dãy điểm, điểm 10 là lớn nhất."}, {"id": "c", "statement": "Có 4 bạn trong tổ đạt điểm 8.", "isCorrect": true, "explanation": "Có bốn giá trị 8 trong dãy: 8; 8; 8; 8."}, {"id": "d", "statement": "Điểm trung bình của 10 bạn trong tổ bằng $7{,}5$.", "isCorrect": false, "explanation": "Tổng điểm $= 7+8+6+9+10+8+7+8+9+8 = 80 \\Rightarrow$ điểm trung bình $= 80/10 = 8{,}0 \\neq 7{,}5$."}]}, {"id": 2, "level": "Thông hiểu", "question": "Trong các thông tin thu thập dưới đây, xét tính đúng/sai về việc phân loại dữ liệu:", "statements": [{"id": "a", "statement": "Họ và tên học sinh là dữ liệu định tính không thể sắp xếp thứ tự ưu tiên logic.", "isCorrect": true, "explanation": "Họ tên chỉ là danh xưng, không có thứ bậc hơn kém."}, {"id": "b", "statement": "Kích cỡ áo sơ mi (S, M, L, XL, XXL) là dữ liệu định tính có thể sắp xếp thứ bậc.", "isCorrect": true, "explanation": "Các size biểu thị kích thước tăng dần từ nhỏ đến lớn."}, {"id": "c", "statement": "Khối lượng một quả táo là dữ liệu định tính.", "isCorrect": false, "explanation": "Khối lượng tính bằng gam/kg là dữ liệu số (định lượng)."}, {"id": "d", "statement": "Số người trong gia đình là dữ liệu số.", "isCorrect": true, "explanation": "Số người là số nguyên dương, là dữ liệu số."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Một cửa hàng thống kê số lượng áo bán được theo size trong ngày: S: 15, M: 25, L: 20, XL: 10. Tổng số áo bán được trong ngày là bao nhiêu chiếc?", "answer": 70, "unit": "chiếc"}, {"id": 2, "level": "Thông hiểu", "question": "Cho dãy dữ liệu nhiệt độ các ngày trong tuần: $28^\\circ C, 29^\\circ C, 31^\\circ C, 30^\\circ C, 32^\\circ C, 33^\\circ C, 27^\\circ C$. Chênh lệch giữa nhiệt độ cao nhất và thấp nhất là bao nhiêu độ C?", "answer": 6, "unit": "độ C"}, {"id": 3, "level": "Vận dụng", "question": "Số lượng huy chương vàng của 5 lớp trong Hội khỏe Phù Đổng là: $3, 5, 2, 4, 6$. Trung bình mỗi lớp đạt được bao nhiêu huy chương vàng?", "answer": 4, "unit": "huy chương"}, {"id": 4, "level": "Vận dụng", "question": "Trong danh sách số điện thoại của 6 người: $0912..., 0983..., 0905..., 12345, 0977..., 0936...$, có bao nhiêu số điện thoại không hợp lệ?", "answer": 1, "unit": ""}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Để tìm hiểu về loại trái cây yêu thích của 40 học sinh lớp 7B, bạn An lập phiếu hỏi và thu được bảng dữ liệu như sau:\n- Cam: 12 bạn\n- Xoài: 10 bạn\n- Táo: 8 bạn\n- Chuối: 10 bạn\na) Dữ liệu thu thập được thuộc loại dữ liệu nào?\nb) Lập bảng thống kê biểu diễn dữ liệu trên và cho biết loại trái cây nào được yêu thích nhiều nhất.", "maxScore": 1.0, "solution": "a) Dữ liệu \"loại trái cây yêu thích\" là dữ liệu định tính (không phải số liệu, không thể sắp xếp thứ bậc).\nb) Bảng thống kê:\n| Loại trái cây | Cam | Xoài | Táo | Chuối |\n| Số bạn thích | 12 | 10 | 8 | 10 |\nTổng số học sinh là $12 + 10 + 8 + 10 = 40$ học sinh.\nLoại trái cây được yêu thích nhiều nhất là Cam (với 12 bạn lựa chọn).", "rubric": [{"step": "Xác định đúng loại dữ liệu định tính", "subScore": 0.4}, {"step": "Lập đúng bảng thống kê và chỉ ra Cam nhiều nhất", "subScore": 0.6}]}, {"id": 2, "level": "Vận dụng", "question": "Bạn Minh ghi chép số giờ sử dụng máy tính mỗi ngày trong một tuần của mình như sau: $2; 1{,}5; 2; 3; 2{,}5; 14; 2$. Em hãy cho biết giá trị nào trong dãy trên là bất thường? Hãy giải thích vì sao và đề xuất phương án sửa lại cho hợp lí.", "maxScore": 1.0, "solution": "- Giá trị bất thường trong dãy số liệu là $14$ (giờ).\n- Giải thích: Một học sinh THCS trong ngày nghỉ cuối tuần hoặc ngày học thường chỉ dùng máy tính từ $1$ đến $3$ giờ. Việc sử dụng $14$ giờ một ngày là không hợp lí đối với lứa tuổi học sinh và sinh hoạt bình thường (rất có thể là lỗi ghi chép, bạn ghi nhầm $1{,}4$ hoặc $4$ giờ).\n- Phương án sửa: Bạn Minh cần kiểm tra lại nhật kí sử dụng của ngày hôm đó, nếu là $1{,}4$ giờ hoặc $4$ giờ thì sửa lại theo thực tế.", "rubric": [{"step": "Chỉ ra đúng giá trị bất thường là 14", "subScore": 0.4}, {"step": "Giải thích tính bất hợp lí và đề xuất cách xử lí", "subScore": 0.6}]}, {"id": 3, "level": "Vận dụng", "question": "Một tổ học sinh gồm 8 bạn có điểm kiểm tra thường xuyên môn Toán như sau: $6; 7; 8; 7; 9; 8; x; 10$. Biết điểm trung bình môn Toán của tổ là $8{,}0$. Hãy tìm điểm $x$ của bạn còn lại.", "maxScore": 1.0, "solution": "Tổng điểm của cả tổ gồm 8 bạn là:\n$S = 8 \\times 8{,}0 = 64$ (điểm).\nTổng điểm của 7 bạn đã biết là:\n$6 + 7 + 8 + 7 + 9 + 8 + 10 = 55$ (điểm).\nĐiểm số $x$ của bạn còn lại là:\n$x = 64 - 55 = 9$ (điểm).\nGiá trị $x = 9$ là hợp lí trong thang điểm 10.", "rubric": [{"step": "Tính tổng điểm của tổ: 64 điểm", "subScore": 0.4}, {"step": "Thiết lập phương trình và giải ra x = 9", "subScore": 0.6}]}]}, "c5_7_bai1_test2": {"title": "Toán 7 (KNTT) - Bài 17: Thu thập và phân loại dữ liệu - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Tiêu chí nào sau đây cần đảm bảo khi thu thập dữ liệu?", "options": ["Tính đầy đủ, chính xác và có tính đại diện", "Càng nhiều càng tốt không cần chính xác", "Chỉ chọn dữ liệu có lợi cho mình", "Thu thập ngẫu nhiên không cần mục đích"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Để đánh giá mức độ hài lòng của phụ huynh học sinh về các hoạt động ngoại khóa của trường, nhà trường nên thu thập dữ liệu bằng cách nào?", "options": ["Gửi phiếu khảo sát trực tuyến hoặc phiếu giấy đến toàn thể phụ huynh", "Hỏi ý kiến của một lớp bất kì", "Chỉ hỏi ban đại diện cha mẹ học sinh của trường", "Hỏi các thầy cô giáo chủ nhiệm"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Trong các dãy dữ liệu sau, dãy nào là dữ liệu định tính có thể so sánh thứ bậc?", "options": ["Học lực học kì: Tốt, Khá, Đạt, Chưa đạt", "Màu xe máy: Đỏ, Trắng, Đen, Xanh", "Môn thể thao: Cầu lông, Bóng rổ, Bơi lội", "Tên thủ đô các nước Đông Nam Á"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Khảo sát thời gian tự học ở nhà mỗi ngày của 5 bạn học sinh (đơn vị: giờ): $2; 1{,}5; -0{,}5; 3; 2{,}5$. Giá trị không hợp lí trong dãy dữ liệu là:", "options": ["$-0{,}5$", "$1{,}5$", "$2{,}5$", "$3$"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Một bảng dữ liệu ghi điểm thi môn Tiếng Anh: $8; 7; 9; 10; 8; \\text{Tốt}; 7$. Thành phần không hợp lí là:", "options": ["$\\text{Tốt}$", "$10$", "$7$", "$8$"], "correct": 0}, {"id": 6, "level": "Thông hiểu", "question": "Thu thập số lượng học sinh của 4 khối lớp tại một trường THCS được kết quả: Khối 6: 180, Khối 7: 175, Khối 8: 160, Khối 9: 155. Tổng số học sinh toàn trường là:", "options": ["$670$", "$660$", "$680$", "$650$"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Kết quả khảo sát món ăn sáng yêu thích của 100 học sinh: Bánh mì 45, Phở 25, Xôi 20, Khác 10. Tỉ lệ học sinh thích Bánh mì là:", "options": ["$45\\%$", "$25\\%$", "$20\\%$", "$55\\%$"], "correct": 0}, {"id": 8, "level": "Vận dụng", "question": "Một bạn ghi chép số cuốn vở dùng trong một năm của 5 bạn: $15, 18, 12, 16, 14$. Trung vị của dãy số liệu trên là:", "options": ["$15$", "$16$", "$18$", "$14$"], "correct": 0}, {"id": 9, "level": "Vận dụng", "question": "Số lượng cây trồng của 4 tổ trong đợt phát động Tết trồng cây: Tổ 1: 24, Tổ 2: 28, Tổ 3: 22, Tổ 4: 26. Tổ nào trồng được nhiều cây nhất?", "options": ["Tổ 2", "Tổ 1", "Tổ 4", "Tổ 3"], "correct": 0}, {"id": 10, "level": "Vận dụng", "question": "Cho dãy dữ liệu xếp loại thể lực: Rất khỏe (30%), Khỏe (50%), Trung bình (15%), Yếu (x%). Giá trị của $x$ để tổng phần trăm bằng 100% là:", "options": ["$5$", "$10$", "$15$", "$0$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Để chọn mẫu khảo sát đại diện cho ý kiến của 1000 học sinh toàn trường, phương pháp chọn mẫu nào sau đây là hợp lí nhất?", "options": ["Chọn ngẫu nhiên 10 học sinh từ mỗi lớp trong 25 lớp của trường", "Chọn toàn bộ học sinh khối 9", "Chọn 50 bạn hay đến thư viện", "Chọn các bạn tham gia đội tuyển học sinh giỏi"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Dữ liệu liên tục là dữ liệu nhận các giá trị trong một khoảng số thực. Ví dụ nào sau đây là dữ liệu liên tục?", "options": ["Cân nặng của các bạn học sinh (kg)", "Số lượng học sinh trong lớp", "Số bàn thắng trong trận đấu", "Số quyển sách trên giá"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Bảng khảo sát mức độ hài lòng về căn tin trường học của 200 học sinh:\n- Rất hài lòng: 60 bạn\n- Hài lòng: 100 bạn\n- Bình thường: 30 bạn\n- Không hài lòng: 10 bạn.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Dữ liệu khảo sát là dữ liệu định tính có thứ bậc.", "isCorrect": true, "explanation": "Các mức độ hài lòng sắp xếp được từ cao xuống thấp."}, {"id": "b", "statement": "Tỉ lệ học sinh \"Hài lòng\" chiếm đúng $50\\%$ số học sinh được khảo sát.", "isCorrect": true, "explanation": "$100 / 200 = 50\\%$."}, {"id": "c", "statement": "Tổng số học sinh có ý kiến tích cực (Rất hài lòng và Hài lòng) là $160$ bạn ($80\\%$).", "isCorrect": true, "explanation": "$60 + 100 = 160$ bạn, tức $160/200 = 80\\%$."}, {"id": "d", "statement": "Số học sinh không hài lòng chiếm $10\\%$ tổng số học sinh.", "isCorrect": false, "explanation": "$10 / 200 = 5\\%$ chứ không phải $10\\%$."}]}, {"id": 2, "level": "Vận dụng", "question": "Bạn Hà ghi lại điểm thi 5 môn của mình: Toán 9, Ngữ văn 8, Tiếng Anh 9, KHTN 9, Lịch sử & Địa lí $x$. Biết điểm trung bình 5 môn là $8{,}8$. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Dữ liệu điểm số là dữ liệu số liệu.", "isCorrect": true, "explanation": "Điểm là các con số cụ thể."}, {"id": "b", "statement": "Tổng điểm 4 môn đã biết bằng $35$ điểm.", "isCorrect": true, "explanation": "$9 + 8 + 9 + 9 = 35$ điểm."}, {"id": "c", "statement": "Tổng điểm của 5 môn là $44$ điểm.", "isCorrect": true, "explanation": "$8{,}8 \\times 5 = 44$ điểm."}, {"id": "d", "statement": "Điểm số $x$ của môn Lịch sử & Địa lí là $8{,}5$.", "isCorrect": false, "explanation": "$x = 44 - 35 = 9$ điểm, không phải $8{,}5$."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Khảo sát sĩ số 4 lớp khối 7: lớp 7A có 42 bạn, 7B có 40 bạn, 7C có 45 bạn, 7D có 41 bạn. Tìm sĩ số trung bình của mỗi lớp (điền số thập phân).", "answer": 42, "unit": "học sinh"}, {"id": 2, "level": "Vận dụng", "question": "Một nhóm gồm 10 học sinh làm một bài trắc nghiệm có 10 câu hỏi. Số câu đúng của các bạn là: $8, 9, 7, 10, 8, 9, 6, 8, 9, 6$. Có bao nhiêu bạn đạt từ 8 câu đúng trở lên?", "answer": 8, "unit": "bạn"}, {"id": 3, "level": "Vận dụng", "question": "Trong một giải bóng đá có 4 đội thi đấu vòng tròn 1 lượt (mỗi đội gặp nhau 1 lần). Tổng số trận đấu trong giải là bao nhiêu?", "answer": 6, "unit": "trận"}, {"id": 4, "level": "Vận dụng cao", "question": "Cho một dãy số liệu gồm 5 số nguyên dương có số trung bình cộng là 12, số nhỏ nhất là 8, số lớn nhất là 20. Tổng của 3 số còn lại là bao nhiêu?", "answer": 32, "unit": ""}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Để khảo sát về phương tiện đến trường của học sinh một trường THCS, bạn Lan đề xuất: \"Chỉ phỏng vấn các bạn đi xe đạp điện ở cổng trường vào lúc 6h45 sáng\".\na) Em có đồng ý với phương pháp thu thập dữ liệu của bạn Lan không? Vì sao?\nb) Hãy đề xuất một phương án thu thập dữ liệu đại diện và khách quan hơn.", "maxScore": 1.0, "solution": "a) Em không đồng ý với phương pháp của bạn Lan.\nVì mẫu thu thập không mang tính đại diện cho toàn thể học sinh trong trường: chỉ phỏng vấn các bạn đi xe đạp điện sẽ bỏ sót các phương tiện khác (đi bộ, xe buýt, xe đạp thường, phụ huynh chở bằng ô tô/xe máy).\nb) Phương án đề xuất khách quan hơn:\n- Lập phiếu khảo sát (trên giấy hoặc trực tuyến) gửi tới tất cả các lớp trong trường.\n- Hoặc tại mỗi lớp trong toàn trường, chọn ngẫu nhiên 5 đến 10 học sinh để phỏng vấn, đảm bảo đại diện đủ các khối lớp và phương tiện.", "rubric": [{"step": "Nhận xét đúng và giải thích tính thiếu đại diện của mẫu", "subScore": 0.5}, {"step": "Đề xuất phương án thu thập đại diện và khoa học", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng", "question": "Một trạm khí tượng thủy văn đo lượng mưa (đơn vị: mm) trong 7 ngày liên tiếp của tuần đầu tháng 8 như sau: $12; 25; 0; 45; 18; 150; 30$.\na) Phân tích xem trong dãy số liệu trên có giá trị nào bất thường không?\nb) Nếu giá trị 150 mm xuất hiện trong ngày có bão lớn đổ bộ, thì giá trị đó có hợp lí không?", "maxScore": 1.0, "solution": "a) Giá trị $150$ mm cao đột biến so với các ngày còn lại (dao động từ $0$ đến $45$ mm). Nếu trong điều kiện thời tiết ngày thường thì giá trị $150$ là một giá trị bất thường.\nb) Nếu ngày đó có bão lớn đổ bộ thì lượng mưa $150$ mm là hoàn toàn hợp lí về mặt thực tế khí tượng, phản ánh đúng hiện tượng thời tiết cực đoan và cần được giữ nguyên trong báo cáo thống kê kèm chú thích về cơn bão.", "rubric": [{"step": "Chỉ ra giá trị 150 mm cao đột biến và giải thích", "subScore": 0.5}, {"step": "Lập luận tính hợp lí trong hoàn cảnh có bão lớn", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Một tổ có 10 học sinh gồm 6 nam và 4 nữ. Điểm trung bình môn Toán của 6 bạn nam là $7{,}5$ và điểm trung bình môn Toán của 4 bạn nữ là $8{,}5$. Hãy tính điểm trung bình môn Toán của cả tổ 10 bạn.", "maxScore": 1.0, "solution": "Tổng điểm môn Toán của 6 bạn nam là:\n$S_{\\text{nam}} = 6 \\times 7{,}5 = 45$ (điểm).\nTổng điểm môn Toán của 4 bạn nữ là:\n$S_{\\text{nữ}} = 4 \\times 8{,}5 = 34$ (điểm).\nTổng điểm môn Toán của cả tổ 10 bạn là:\n$S = S_{\\text{nam}} + S_{\\text{nữ}} = 45 + 34 = 79$ (điểm).\nĐiểm trung bình môn Toán của cả tổ là:\n$\\bar{X} = \\frac{79}{10} = 7{,}9$ (điểm).\nVậy điểm trung bình của cả tổ là $7{,}9$.", "rubric": [{"step": "Tính đúng tổng điểm nam (45) và tổng điểm nữ (34)", "subScore": 0.5}, {"step": "Tính đúng điểm trung bình cả tổ là 7,9", "subScore": 0.5}]}]}, "c5_7_bai1_test3": {"title": "Toán 7 (KNTT) - Bài 17: Thu thập và phân loại dữ liệu - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Khi nghiên cứu tỉ lệ ủng hộ của công chúng đối với dự án mở rộng công viên, cơ quan khảo sát phỏng vấn 100 người đi bộ trong công viên đó vào sáng Chủ nhật. Kết luận nào sau đây đúng về mẫu khảo sát?", "options": ["Mẫu bị thiên lệch (chệch) vì người có mặt ở công viên có xu hướng ủng hộ cao hơn mặt bằng chung", "Mẫu có tính đại diện cao cho toàn bộ dân cư thành phố", "Mẫu hoàn toàn ngẫu nhiên và khách quan", "Mẫu không đủ số lượng người để khảo sát"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Dữ liệu nào sau đây là dữ liệu rời rạc (chỉ nhận giá trị nguyên hoặc đếm được)?", "options": ["Số lượng xe ôtô đi qua trạm thu phí mỗi giờ", "Khối lượng bao gạo cân được", "Khoảng cách giữa hai thành phố", "Thời gian chạy 100 m của vận động viên"], "correct": 0}, {"id": 3, "level": "Vận dụng", "question": "Một bảng thống kê thu nhập của 10 hộ gia đình (triệu đồng/tháng): $12, 15, 10, 14, 13, 11, 16, 12, 14, 500$. Để phản ánh đúng mức thu nhập phổ biến của đa số người dân, số đặc trưng nào thích hợp hơn?", "options": ["Số trung vị", "Số trung bình cộng", "Số lớn nhất", "Tổng thu nhập"], "correct": 0}, {"id": 4, "level": "Vận dụng", "question": "Cho dãy số liệu điểm thi: $5, 7, 8, 9, x, 6, 8, 10$. Biết trung bình cộng của dãy là $7{,}5$. Giá trị của $x$ là:", "options": ["$7$", "$8$", "$6$", "$9$"], "correct": 0}, {"id": 5, "level": "Vận dụng", "question": "Một trường học có tỉ lệ học sinh các khối 6, 7, 8, 9 lần lượt là $28\\%, 26\\%, 24\\%, 22\\%$. Nếu cần chọn 200 học sinh theo đúng tỉ lệ trên, số học sinh khối 7 cần chọn là:", "options": ["$52$ bạn", "$56$ bạn", "$48$ bạn", "$44$ bạn"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Khảo sát cân nặng của 5 em bé sơ sinh: $3{,}1; 3{,}3; 3{,}2; 3{,}5; 2{,}9$ (kg). Độ lệch giữa bé nặng nhất và bé nhẹ nhất là:", "options": ["$0{,}6$ kg", "$0{,}4$ kg", "$0{,}5$ kg", "$0{,}3$ kg"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Một cuộc thăm dò ý kiến gồm 500 phiếu có 3 phương án lựa chọn A, B, C. Tỉ lệ chọn A là 42%, chọn B là 38%. Số người chọn phương án C là:", "options": ["$100$ người", "$80$ người", "$120$ người", "$150$ người"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Có 4 số tự nhiên có trung bình cộng là 15. Nếu thêm số thứ năm là 25 thì trung bình cộng của cả 5 số là:", "options": ["$17$", "$18$", "$16$", "$20$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Một lớp có 40 học sinh gồm hai nhóm A và B. Nhóm A có 25 học sinh có điểm trung bình là 8,0. Nhóm B có điểm trung bình là 7,0. Điểm trung bình của cả lớp là:", "options": ["$7{,}625$", "$7{,}5$", "$7{,}6$", "$7{,}7$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Để tìm hiểu thời lượng sử dụng Internet của học sinh khối 7, người ta phân tầng chọn ngẫu nhiên mỗi lớp 10 học sinh. Phương pháp này gọi là:", "options": ["Chọn mẫu ngẫu nhiên phân tầng", "Chọn mẫu thuận tiện", "Chọn mẫu hệ thống", "Chọn mẫu tự nguyện"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Một dãy số liệu có 7 giá trị nguyên dương tăng dần: $3, 5, 7, x, 11, 14, 18$. Biết số trung vị bằng 9. Giá trị của $x$ là:", "options": ["$9$", "$8$", "$10$", "$7$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Sai số trong thu thập dữ liệu có thể phát sinh từ:", "options": ["Dụng cụ đo không chuẩn, người trả lời khai báo sai hoặc người nhập dữ liệu nhầm lẫn", "Chỉ do dụng cụ đo", "Chỉ do người khảo sát cố ý làm sai", "Không bao giờ có sai số nếu khảo sát nhiều"], "correct": 0}], "part2": [{"id": 1, "level": "Vận dụng", "question": "Một giáo viên theo dõi thời gian làm một bài toán (tính theo phút) của 12 học sinh: $5, 6, 7, 6, 8, 5, 9, 7, 6, 8, 7, 6$. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Thời gian làm bài nhanh nhất là $5$ phút và chậm nhất là $9$ phút.", "isCorrect": true, "explanation": "Giá trị nhỏ nhất là 5, lớn nhất là 9."}, {"id": "b", "statement": "Giá trị xuất hiện nhiều nhất (mốt) của dãy số liệu là $6$ phút (xuất hiện 4 lần).", "isCorrect": true, "explanation": "Số 6 xuất hiện 4 lần, nhiều nhất."}, {"id": "c", "statement": "Tổng thời gian làm bài của 12 học sinh là $80$ phút.", "isCorrect": true, "explanation": "$5+6+7+6+8+5+9+7+6+8+7+6 = 80$ phút."}, {"id": "d", "statement": "Thời gian trung bình làm bài của một học sinh là đúng $7$ phút.", "isCorrect": false, "explanation": "Trung bình $= 80 / 12 \\approx 6{,}67$ phút, không phải 7 phút."}]}, {"id": 2, "level": "Vận dụng cao", "question": "Cho bảng phân bố tần số về số lỗi chính tả trong bài kiểm tra Ngữ văn của 30 học sinh:\n- 0 lỗi: 12 học sinh\n- 1 lỗi: 8 học sinh\n- 2 lỗi: 6 học sinh\n- 3 lỗi: 4 học sinh.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Tổng số lỗi chính tả của cả 30 học sinh là $32$ lỗi.", "isCorrect": true, "explanation": "$0 \\times 12 + 1 \\times 8 + 2 \\times 6 + 3 \\times 4 = 0 + 8 + 12 + 12 = 32$ lỗi."}, {"id": "b", "statement": "Tỉ lệ học sinh không mắc lỗi chính tả chiếm $40\\%$.", "isCorrect": true, "explanation": "$12 / 30 = 40\\%$."}, {"id": "c", "statement": "Số lỗi chính tả trung bình của mỗi học sinh là hơn $1{,}5$ lỗi.", "isCorrect": false, "explanation": "Trung bình $= 32 / 30 \\approx 1{,}07$ lỗi, nhỏ hơn 1,5."}, {"id": "d", "statement": "Tỉ lệ học sinh mắc từ 2 lỗi trở lên là $\\frac{1}{3}$.", "isCorrect": true, "explanation": "Có $6 + 4 = 10$ học sinh mắc $\\ge 2$ lỗi $\\Rightarrow 10/30 = 1/3$."}]}], "part3": [{"id": 1, "level": "Vận dụng", "question": "Một tổ có 5 bạn có tuổi trung bình là 13 tuổi. Khi thầy giáo chủ nhiệm 31 tuổi tham gia vào nhóm thì tuổi trung bình của cả 6 người là bao nhiêu tuổi?", "answer": 16, "unit": "tuổi"}, {"id": 2, "level": "Vận dụng", "question": "Cho 6 số có trung bình cộng bằng 20. Nếu bỏ đi một số thì trung bình cộng của 5 số còn lại là 18. Số bị bỏ đi là bao nhiêu?", "answer": 30, "unit": ""}, {"id": 3, "level": "Vận dụng cao", "question": "Khảo sát điểm kiểm tra của 20 học sinh ta tính được điểm trung bình là 7,5. Khi kiểm tra lại phát hiện ghi nhầm 1 bạn từ điểm 3 thành điểm 8. Điểm trung bình chính xác của 20 bạn là bao nhiêu (điền số thập phân)?", "answer": 7.25, "unit": ""}, {"id": 4, "level": "Vận dụng cao", "question": "Trong đợt quyên góp sách, lớp 7A có 3 tổ: Tổ 1 quyên góp 30 quyển, Tổ 2 quyên góp 45 quyển, Tổ 3 quyên góp số sách bằng trung bình cộng của cả 3 tổ. Tổ 3 quyên góp được bao nhiêu quyển sách?", "answer": 37.5, "unit": "quyển"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Một công ty dự định ra mắt một hương vị kem mới dành cho lứa tuổi thanh thiếu niên (từ 12 đến 18 tuổi). Giám đốc yêu cầu bộ phận nghiên cứu thị trường thu thập ý kiến khách hàng.\na) Nêu 2 sai lầm có thể xảy ra nếu nhóm nghiên cứu chỉ khảo sát khách hàng tại các quán cà phê cao cấp vào buổi sáng ngày làm việc.\nb) Thiết kế một kế hoạch khảo sát hợp lí (đối tượng, địa điểm, thời gian, phương pháp) để dữ liệu thu được đảm bảo tính đại diện và khách quan.", "maxScore": 1.0, "solution": "a) Hai sai lầm có thể xảy ra:\n1. Sai lầm về đối tượng khách hàng: Khách hàng tại quán cà phê cao cấp vào sáng ngày làm việc chủ yếu là người đi làm, người lớn tuổi, không thuộc nhóm thanh thiếu niên (12 - 18 tuổi) là đối tượng mục tiêu của sản phẩm.\n2. Sai lầm về thời gian: Buổi sáng ngày làm việc, thanh thiếu niên đang đi học ở trường nên mẫu khảo sát bị lệch hoàn toàn.\nb) Kế hoạch khảo sát đề xuất hợp lí:\n- Đối tượng: Học sinh THCS và THPT từ 12 đến 18 tuổi.\n- Địa điểm: Cổng trường học, khu vui chơi giải trí, nhà sách, trung tâm thương mại hoặc các lớp học thêm.\n- Thời gian: Chiều tan học, ngày thứ Bảy và Chủ nhật.\n- Phương pháp: Cho thử mẫu kem miễn phí giấu nhãn hiệu (mù đôi) và phát phiếu đánh giá trực tiếp về hương vị, độ ngọt, mức giá sẵn sàng chi trả.", "rubric": [{"step": "Phân tích rõ 2 sai lầm về đối tượng và thời gian khảo sát", "subScore": 0.5}, {"step": "Thiết kế kế hoạch khảo sát chuẩn chỉnh đầy đủ 4 yếu tố", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng cao", "question": "Cho bảng phân bố điểm kiểm tra cuối kì môn Toán của lớp 7A (sĩ số 40 bạn):\n| Điểm | 5 | 6 | 7 | 8 | 9 | 10 |\n| Số bạn | 3 | 7 | 12 | 10 | 6 | 2 |\na) Tính điểm trung bình môn Toán của lớp 7A.\nb) Nhà trường quy định lớp đạt chuẩn tiên tiến nếu có từ $70\\%$ số học sinh đạt điểm từ 7 trở lên. Lớp 7A có đạt tiêu chuẩn này không?", "maxScore": 1.0, "solution": "a) Tổng điểm của cả lớp là:\n$S = 5 \\times 3 + 6 \\times 7 + 7 \\times 12 + 8 \\times 10 + 9 \\times 6 + 10 \\times 2$\n$= 15 + 42 + 84 + 80 + 54 + 20 = 295$ (điểm).\nĐiểm trung bình của lớp 7A là:\n$\\bar{X} = \\frac{295}{40} = 7{,}375$ (điểm).\nb) Số học sinh đạt điểm từ 7 trở lên là:\n$12 + 10 + 6 + 2 = 30$ (học sinh).\nTỉ lệ học sinh đạt điểm từ 7 trở lên là:\n$P = \\frac{30}{40} \\times 100\\% = 75\\%$.\nVì $75\\% > 70\\%$, nên lớp 7A hoàn toàn đạt tiêu chuẩn lớp tiên tiến theo quy định của nhà trường.", "rubric": [{"step": "Tính đúng tổng điểm 295 và điểm trung bình 7,375", "subScore": 0.5}, {"step": "Tính đúng tỉ lệ 75% và đưa ra kết luận đạt chuẩn", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Một nhóm gồm $n$ người có độ tuổi trung bình là 24 tuổi. Sau khi có một người 36 tuổi rời nhóm và một người 18 tuổi gia nhập nhóm thì độ tuổi trung bình của nhóm giảm đi 1 tuổi (số lượng người trong nhóm không đổi). Hãy tìm số người $n$ trong nhóm.", "maxScore": 1.0, "solution": "Tổng số tuổi ban đầu của $n$ người là:\n$T_1 = 24n$ (tuổi).\nSau khi người 36 tuổi rời đi và người 18 tuổi gia nhập, tổng số tuổi mới của nhóm là:\n$T_2 = 24n - 36 + 18 = 24n - 18$ (tuổi).\nĐộ tuổi trung bình mới của nhóm là $24 - 1 = 23$ tuổi.\nVì số người trong nhóm vẫn là $n$, ta có phương trình:\n$\\frac{24n - 18}{n} = 23$\n$\\Leftrightarrow 24n - 18 = 23n$\n$\\Leftrightarrow 24n - 23n = 18$\n$\\Leftrightarrow n = 18$.\nVậy trong nhóm có 18 người.", "rubric": [{"step": "Biểu diễn tổng số tuổi ban đầu và tổng số tuổi mới", "subScore": 0.5}, {"step": "Thiết lập phương trình và giải ra n = 18", "subScore": 0.5}]}]}, "c5_7_bai2_test1": {"title": "Toán 7 (KNTT) - Bài 18: Biểu đồ hình quạt tròn - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Biểu đồ hình quạt tròn thường được dùng để:", "options": ["So sánh các phần trong toàn bộ dữ liệu (tỉ lệ phần trăm)", "Biểu diễn sự thay đổi của dữ liệu theo thời gian", "So sánh các giá trị tuyệt đối giữa các đối tượng", "Biểu diễn vị trí không gian"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Trong biểu đồ hình quạt tròn, toàn bộ hình tròn biểu diễn:", "options": ["$100\\%$", "$50\\%$", "$360\\%$", "$180\\%$"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Trong hình tròn có tổng số đo góc ở tâm là:", "options": ["$360^\\circ$", "$180^\\circ$", "$90^\\circ$", "$100^\\circ$"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Một hình quạt tròn biểu diễn $25\\%$ của tổng thể thì góc ở tâm tương ứng là:", "options": ["$90^\\circ$", "$45^\\circ$", "$180^\\circ$", "$60^\\circ$"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Một hình quạt tròn có góc ở tâm là $180^\\circ$ thì biểu diễn bao nhiêu phần trăm tổng thể?", "options": ["$50\\%$", "$25\\%$", "$75\\%$", "$100\\%$"], "correct": 0}, {"id": 6, "level": "Thông hiểu", "question": "Biểu đồ hình quạt tròn thể hiện cơ cấu chi tiêu của một gia đình gồm: Ăn uống (40%), Tiết kiệm (20%), Giáo dục (25%), Chi khác (x%). Giá trị của $x$ là:", "options": ["$15$", "$20$", "$10$", "$5$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Lớp 7A có 40 học sinh. Biểu đồ quạt tròn cho biết học sinh Khá chiếm $40\\%$. Số học sinh Khá của lớp 7A là:", "options": ["$16$ học sinh", "$10$ học sinh", "$20$ học sinh", "$24$ học sinh"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Góc ở tâm biểu diễn tỉ lệ $10\\%$ trong biểu đồ quạt tròn là:", "options": ["$36^\\circ$", "$10^\\circ$", "$18^\\circ$", "$72^\\circ$"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Một trường học có 800 học sinh. Biểu đồ quạt tròn cho thấy $50\\%$ học sinh đi bộ đến trường. Số học sinh đi bộ đến trường là:", "options": ["$400$ học sinh", "$300$ học sinh", "$500$ học sinh", "$200$ học sinh"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Trong biểu đồ hình quạt tròn biểu diễn các phương tiện đến trường, hình quạt biểu diễn \"Đi xe buýt\" chiếm góc $72^\\circ$. Tỉ lệ phần trăm học sinh đi xe buýt là:", "options": ["$20\\%$", "$15\\%$", "$25\\%$", "$30\\%$"], "correct": 0}, {"id": 11, "level": "Vận dụng", "question": "Khảo sát loại hình giải trí yêu thích của 200 bạn: Đọc sách $25\\%$, Chơi thể thao $45\\%$, Xem phim $20\\%$, Khác $10\\%$. Số bạn thích chơi thể thao là:", "options": ["$90$ bạn", "$50$ bạn", "$40$ bạn", "$70$ bạn"], "correct": 0}, {"id": 12, "level": "Vận dụng", "question": "Một thư viện trường có 1200 cuốn sách gồm 3 loại: Sách giáo khoa (50%), Sách tham khảo (30%), Truyện tranh (20%). Số sách tham khảo là:", "options": ["$360$ cuốn", "$600$ cuốn", "$240$ cuốn", "$400$ cuốn"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ phần trăm xếp loại học lực của khối 7 (gồm 300 học sinh): Xuất sắc 15%, Tốt 35%, Khá 40%, Đạt 10%. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Tổng các tỉ lệ phần trăm trên biểu đồ bằng $100\\%$.", "isCorrect": true, "explanation": "$15\\% + 35\\% + 40\\% + 10\\% = 100\\%$."}, {"id": "b", "statement": "Số học sinh đạt loại Xuất sắc là $45$ học sinh.", "isCorrect": true, "explanation": "$300 \\times 15\\% = 45$ học sinh."}, {"id": "c", "statement": "Số học sinh Khá nhiều hơn số học sinh Tốt là $15$ học sinh.", "isCorrect": true, "explanation": "Học sinh Khá $= 300 \\times 40\\% = 120$; Tốt $= 300 \\times 35\\% = 105 \\Rightarrow 120 - 105 = 15$ bạn."}, {"id": "d", "statement": "Góc ở tâm của hình quạt biểu diễn học sinh loại Đạt là $18^\\circ$.", "isCorrect": false, "explanation": "Góc ở tâm $= 360^\\circ \\times 10\\% = 36^\\circ$, không phải $18^\\circ$."}]}, {"id": 2, "level": "Thông hiểu", "question": "Cho các nhận định về góc ở tâm trong biểu đồ hình quạt tròn, xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Tỉ lệ $50\\%$ ứng với góc ở tâm là $180^\\circ$ (nửa hình tròn).", "isCorrect": true, "explanation": "$360^\\circ \\times 50\\% = 180^\\circ$."}, {"id": "b", "statement": "Tỉ lệ $25\\%$ ứng với góc ở tâm là $90^\\circ$ (góc vuông).", "isCorrect": true, "explanation": "$360^\\circ \\times 25\\% = 90^\\circ$."}, {"id": "c", "statement": "Tỉ lệ $75\\%$ ứng với góc ở tâm là $270^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 75\\% = 270^\\circ$."}, {"id": "d", "statement": "Hình quạt có góc ở tâm $60^\\circ$ biểu diễn tỉ lệ $20\\%$.", "isCorrect": false, "explanation": "$60^\\circ / 360^\\circ = 1/6 \\approx 16{,}67\\% \\neq 20\\%$."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính số đo góc ở tâm (độ) tương ứng với hình quạt tròn biểu diễn $30\\%$ tổng thể.", "answer": 108, "unit": "độ"}, {"id": 2, "level": "Thông hiểu", "question": "Một tổ có 10 bạn quyên góp được 50 quyển sách. Trong đó sách tham khảo chiếm $40\\%$. Hỏi có bao nhiêu quyển sách tham khảo?", "answer": 20, "unit": "quyển"}, {"id": 3, "level": "Vận dụng", "question": "Một gia đình có thu nhập 20 triệu đồng mỗi tháng. Biểu đồ quạt tròn cho biết tiền ăn uống chiếm $45\\%$. Hỏi mỗi tháng gia đình đó chi bao nhiêu triệu đồng cho tiền ăn uống?", "answer": 9, "unit": "triệu đồng"}, {"id": 4, "level": "Vận dụng", "question": "Biểu đồ quạt tròn thể hiện diện tích trồng trọt: Lúa 60%, Ngô 25%, Khoai 15%. Biết diện tích trồng khoai là 30 ha. Tổng diện tích trồng trọt là bao nhiêu ha?", "answer": 200, "unit": "ha"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Bảng sau đây cho biết kết quả xếp loại thi đua học kì I của 40 học sinh lớp 7C:\n- Tốt: 16 bạn\n- Khá: 14 bạn\n- Đạt: 8 bạn\n- Chưa đạt: 2 bạn\na) Tính tỉ lệ phần trăm của mỗi loại xếp loại thi đua so với cả lớp.\nb) Tính góc ở tâm tương ứng của từng hình quạt biểu diễn các loại trên trong biểu đồ hình quạt tròn.", "maxScore": 1.0, "solution": "a) Tỉ lệ phần trăm của từng loại:\n- Tốt: $\\frac{16}{40} \\times 100\\% = 40\\%$.\n- Khá: $\\frac{14}{40} \\times 100\\% = 35\\%$.\n- Đạt: $\\frac{8}{40} \\times 100\\% = 20\\%$.\n- Chưa đạt: $\\frac{2}{40} \\times 100\\% = 5\\%$.\nTổng tỉ lệ $= 40\\% + 35\\% + 20\\% + 5\\% = 100\\%$.\nb) Góc ở tâm tương ứng:\n- Tốt: $360^\\circ \\times 40\\% = 144^\\circ$.\n- Khá: $360^\\circ \\times 35\\% = 126^\\circ$.\n- Đạt: $360^\\circ \\times 20\\% = 72^\\circ$.\n- Chưa đạt: $360^\\circ \\times 5\\% = 18^\\circ$.\nTổng các góc ở tâm $= 144^\\circ + 126^\\circ + 72^\\circ + 18^\\circ = 360^\\circ$.", "rubric": [{"step": "Tính đúng 4 tỉ lệ phần trăm", "subScore": 0.5}, {"step": "Tính đúng 4 số đo góc ở tâm tương ứng", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng", "question": "Biểu đồ hình quạt tròn biểu diễn cơ cấu các loại cây ăn quả trong một vườn cây gồm 500 cây:\n- Cây xoài: 30%\n- Cây ổi: 25%\n- Cây cam: 35%\n- Cây bưởi: 10%\na) Tính số lượng cây mỗi loại trong vườn.\nb) Loại cây nào được trồng nhiều nhất và nhiều hơn loại cây ít nhất bao nhiêu cây?", "maxScore": 1.0, "solution": "a) Số lượng cây mỗi loại trong vườn:\n- Cây xoài: $500 \\times 30\\% = 150$ cây.\n- Cây ổi: $500 \\times 25\\% = 125$ cây.\n- Cây cam: $500 \\times 35\\% = 175$ cây.\n- Cây bưởi: $500 \\times 10\\% = 50$ cây.\nb) Cây cam được trồng nhiều nhất (175 cây), cây bưởi được trồng ít nhất (50 cây).\nChênh lệch số lượng là: $175 - 50 = 125$ cây.", "rubric": [{"step": "Tính đúng số lượng cả 4 loại cây", "subScore": 0.6}, {"step": "Xác định cây cam nhiều nhất và độ chênh lệch là 125 cây", "subScore": 0.4}]}, {"id": 3, "level": "Vận dụng", "question": "Một người bán hàng thống kê doanh thu bán 3 mặt hàng trong một ngày:\n- Mặt hàng A đạt doanh thu 4 triệu đồng (chiếm 50% tổng doanh thu).\n- Mặt hàng B chiếm 30% tổng doanh thu.\n- Mặt hàng C chiếm phần còn lại.\na) Tính tổng doanh thu trong ngày của người đó.\nb) Tính doanh thu của mặt hàng B và mặt hàng C.", "maxScore": 1.0, "solution": "a) Vì mặt hàng A đạt doanh thu 4 triệu đồng và chiếm 50% tổng doanh thu nên tổng doanh thu trong ngày là:\n$4 : 50\\% = 4 : 0{,}5 = 8$ (triệu đồng).\nb) Doanh thu của mặt hàng B là:\n$8 \\times 30\\% = 2{,}4$ (triệu đồng).\nTỉ lệ doanh thu của mặt hàng C là:\n$100\\% - 50\\% - 30\\% = 20\\%$.\nDoanh thu của mặt hàng C là:\n$8 \\times 20\\% = 1{,}6$ (triệu đồng) (hoặc $8 - 4 - 2{,}4 = 1{,}6$ triệu đồng).", "rubric": [{"step": "Tính đúng tổng doanh thu 8 triệu đồng", "subScore": 0.5}, {"step": "Tính đúng doanh thu mặt hàng B (2,4 tr) và C (1,6 tr)", "subScore": 0.5}]}]}, "c5_7_bai2_test2": {"title": "Toán 7 (KNTT) - Bài 18: Biểu đồ hình quạt tròn - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Góc ở tâm $54^\\circ$ trong biểu đồ hình quạt tròn tương ứng với tỉ lệ phần trăm là:", "options": ["$15\\%$", "$12\\%$", "$18\\%$", "$20\\%$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Biểu đồ quạt tròn biểu diễn thành phần các loại rác thải: Rác hữu cơ 55%, Nhựa tái chế 20%, Giấy 15%, Rác khác 10%. Góc ở tâm biểu diễn Rác hữu cơ là:", "options": ["$198^\\circ$", "$180^\\circ$", "$200^\\circ$", "$190^\\circ$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Một người dành 8 giờ để ngủ mỗi ngày. Trên biểu đồ quạt tròn biểu diễn 24 giờ trong ngày, hình quạt biểu diễn thời gian ngủ có góc ở tâm là:", "options": ["$120^\\circ$", "$90^\\circ$", "$100^\\circ$", "$150^\\circ$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Biểu đồ hình quạt biểu diễn thể loại phim yêu thích của 400 học sinh: Hoạt hình 45%, Hành động 30%, Hài 15%, Trinh thám 10%. Số học sinh thích phim Hoạt hình nhiều hơn phim Hài là:", "options": ["$120$ bạn", "$100$ bạn", "$80$ bạn", "$60$ bạn"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Biểu đồ quạt tròn có 3 hình quạt với các góc ở tâm lần lượt là $90^\\circ, 120^\\circ$ và góc thứ ba. Số đo góc thứ ba là:", "options": ["$150^\\circ$", "$160^\\circ$", "$140^\\circ$", "$130^\\circ$"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Một giải chạy việt dã có 500 vận động viên tham gia. Tỉ lệ hoàn thành cự ly là 84%, bỏ cuộc là 16%. Số vận động viên hoàn thành cự ly là:", "options": ["$420$ người", "$400$ người", "$430$ người", "$450$ người"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Một hợp kim gồm Đồng, Kẽm và Chì. Biểu đồ quạt tròn cho biết Đồng chiếm $60\\%$, Kẽm chiếm $35\\%$, còn lại là Chì. Khối lượng Chì trong $200$ g hợp kim là:", "options": ["$10$ g", "$20$ g", "$15$ g", "$5$ g"], "correct": 0}, {"id": 8, "level": "Vận dụng", "question": "Biểu đồ hình quạt thể hiện kết quả học tập của học sinh khối 7. Biết góc ở tâm của nhóm học sinh Giỏi là $72^\\circ$. Tỉ số giữa số học sinh Giỏi và tổng số học sinh khối 7 là:", "options": ["$\\frac{1}{5}$", "$\\frac{1}{4}$", "$\\frac{1}{6}$", "$\\frac{2}{5}$"], "correct": 0}, {"id": 9, "level": "Vận dụng", "question": "Trong biểu đồ quạt tròn biểu diễn doanh thu 4 quý của một công ty, Quý I chiếm 20%, Quý II chiếm 25%, Quý III chiếm 30%. Nếu doanh thu Quý IV là 50 tỷ đồng thì tổng doanh thu cả năm là:", "options": ["$200$ tỷ đồng", "$150$ tỷ đồng", "$250$ tỷ đồng", "$180$ tỷ đồng"], "correct": 0}, {"id": 10, "level": "Vận dụng", "question": "Một lớp có số học sinh giỏi chiếm 30%, khá chiếm 50%, còn lại là 8 học sinh trung bình. Số học sinh của cả lớp là:", "options": ["$40$ học sinh", "$45$ học sinh", "$50$ học sinh", "$35$ học sinh"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Để vẽ biểu đồ hình quạt tròn cho bảng số liệu gồm 5 đối tượng có các tỉ lệ: 30%, 25%, 20%, 15%, 10%, số đo góc lớn nhất gấp mấy lần số đo góc nhỏ nhất?", "options": ["$3$ lần", "$2$ lần", "$2{,}5$ lần", "$4$ lần"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Hai biểu đồ hình quạt tròn A và B cùng biểu diễn tỉ lệ học sinh thích môn Toán là $25\\%$. Biết tổng số học sinh ở biểu đồ A là 400 em, ở biểu đồ B là 600 em. Khẳng định nào sau đây đúng?", "options": ["Số học sinh thích môn Toán ở trường B nhiều hơn trường A", "Số học sinh thích môn Toán ở hai trường bằng nhau", "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường B lớn hơn trường A", "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường A lớn hơn trường B"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ hình quạt tròn biểu diễn các khoản chi tiêu hàng tháng của một gia đình có tổng thu nhập 25 triệu đồng:\n- Tiền ăn: 40%\n- Tiền nhà: 24%\n- Giáo dục: 20%\n- Tiết kiệm: 16%.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Số tiền chi tiêu cho tiền ăn là $10$ triệu đồng.", "isCorrect": true, "explanation": "$25 \\times 40\\% = 10$ triệu đồng."}, {"id": "b", "statement": "Số tiền tiết kiệm mỗi tháng là $4$ triệu đồng.", "isCorrect": true, "explanation": "$25 \\times 16\\% = 4$ triệu đồng."}, {"id": "c", "statement": "Góc ở tâm của hình quạt biểu diễn tiền nhà là $86{,}4^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 24\\% = 86{,}4^\\circ$."}, {"id": "d", "statement": "Tổng số tiền chi cho giáo dục và tiền nhà chiếm hơn $50\\%$ thu nhập.", "isCorrect": false, "explanation": "$24\\% + 20\\% = 44\\% < 50\\%$."}]}, {"id": 2, "level": "Vận dụng", "question": "Một khu rừng có 3 loại cây gỗ: Cây Keo chiếm góc ở tâm $144^\\circ$, Cây Bạch đàn chiếm $108^\\circ$, còn lại là Cây Thông. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Góc ở tâm biểu diễn Cây Thông là $108^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ - 144^\\circ - 108^\\circ = 108^\\circ$."}, {"id": "b", "statement": "Tỉ lệ phần trăm của Cây Keo trong khu rừng là $40\\%$.", "isCorrect": true, "explanation": "$144^\\circ / 360^\\circ = 40\\%$."}, {"id": "c", "statement": "Số lượng Cây Bạch đàn và Cây Thông trong rừng là bằng nhau.", "isCorrect": true, "explanation": "Vì cùng có góc ở tâm là $108^\\circ$ (chiếm $30\\%$)."}, {"id": "d", "statement": "Nếu rừng có tổng cộng 2000 cây thì số Cây Keo là 600 cây.", "isCorrect": false, "explanation": "Số Cây Keo $= 2000 \\times 40\\% = 800$ cây, không phải $600$ cây."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Góc ở tâm của hình quạt biểu diễn tỉ lệ $35\\%$ là bao nhiêu độ (điền số thập phân)?", "answer": 126, "unit": "độ"}, {"id": 2, "level": "Vận dụng", "question": "Một thư viện có 600 bạn đọc đăng kí: Học sinh THCS chiếm 45%, Học sinh THPT chiếm 35%, còn lại là Giáo viên. Có bao nhiêu giáo viên đăng kí bạn đọc?", "answer": 120, "unit": "người"}, {"id": 3, "level": "Vận dụng", "question": "Trong biểu đồ quạt tròn, phần thể hiện quả Cam có góc ở tâm là $72^\\circ$. Biết số quả Cam trong rổ là 24 quả. Tổng số quả trong rổ là bao nhiêu quả?", "answer": 120, "unit": "quả"}, {"id": 4, "level": "Vận dụng cao", "question": "Biểu đồ quạt tròn gồm 3 phần A, B, C. Tỉ lệ của phần A gấp đôi phần B, phần B gấp đôi phần C. Tìm tỉ lệ phần trăm của phần A (làm tròn đến hàng phần mười, ví dụ 57.1).", "answer": 57.1, "unit": "%"}], "part4": [{"id": 1, "level": "Vận dụng", "question": "Một trường học phát động phong trào đọc sách. Số sách học sinh quyên góp được phân loại thành 4 nhóm:\n- Sách giáo khoa: 240 cuốn (chiếm 40%)\n- Truyện tranh: 180 cuốn\n- Sách khoa học: 120 cuốn\n- Báo, tạp chí: phần còn lại.\na) Tính tổng số sách quyên góp được của toàn trường.\nb) Tính tỉ lệ phần trăm của từng nhóm sách và tính góc ở tâm của nhóm Báo, tạp chí khi vẽ trên biểu đồ quạt tròn.", "maxScore": 1.0, "solution": "a) Tổng số sách quyên góp được là:\n$240 : 40\\% = 600$ (cuốn).\nb) Số lượng Báo, tạp chí là:\n$600 - (240 + 180 + 120) = 600 - 540 = 60$ (cuốn).\nTỉ lệ phần trăm của từng nhóm:\n- Sách giáo khoa: $40\\%$.\n- Truyện tranh: $\\frac{180}{600} \\times 100\\% = 30\\%$.\n- Sách khoa học: $\\frac{120}{600} \\times 100\\% = 20\\%$.\n- Báo, tạp chí: $\\frac{60}{600} \\times 100\\% = 10\\%$.\nGóc ở tâm của hình quạt biểu diễn Báo, tạp chí là:\n$360^\\circ \\times 10\\% = 36^\\circ$.", "rubric": [{"step": "Tính đúng tổng số sách 600 cuốn", "subScore": 0.4}, {"step": "Tính đúng tỉ lệ các nhóm sách và góc ở tâm 36 độ", "subScore": 0.6}]}, {"id": 2, "level": "Vận dụng", "question": "Biểu đồ quạt tròn biểu diễn tỉ lệ học sinh tham gia 3 câu lạc bộ của trường:\n- CLB Thể thao: góc ở tâm $162^\\circ$\n- CLB Âm nhạc: góc ở tâm $126^\\circ$\n- CLB Mĩ thuật: phần còn lại.\nBiết CLB Mĩ thuật có 80 học sinh tham gia.\na) Tính tỉ lệ phần trăm học sinh tham gia từng câu lạc bộ.\nb) Tính tổng số học sinh tham gia cả 3 câu lạc bộ.", "maxScore": 1.0, "solution": "a) Góc ở tâm của CLB Mĩ thuật là:\n$360^\\circ - (162^\\circ + 126^\\circ) = 360^\\circ - 288^\\circ = 72^\\circ$.\nTỉ lệ phần trăm của từng CLB:\n- CLB Thể thao: $\\frac{162^\\circ}{360^\\circ} \\times 100\\% = 45\\%$.\n- CLB Âm nhạc: $\\frac{126^\\circ}{360^\\circ} \\times 100\\% = 35\\%$.\n- CLB Mĩ thuật: $\\frac{72^\\circ}{360^\\circ} \\times 100\\% = 20\\%$.\nb) Tổng số học sinh tham gia 3 CLB là:\n$80 : 20\\% = 80 : 0{,}2 = 400$ (học sinh).", "rubric": [{"step": "Tính đúng góc 72 độ và các tỉ lệ 45%, 35%, 20%", "subScore": 0.6}, {"step": "Tính đúng tổng số 400 học sinh", "subScore": 0.4}]}, {"id": 3, "level": "Vận dụng cao", "question": "Năm 2023, doanh thu của một cửa hàng máy tính gồm 3 mảng: Laptop (50%), Điện thoại (30%), Phụ kiện (20%). Năm 2024, doanh thu Laptop tăng 20%, doanh thu Điện thoại tăng 10%, doanh thu Phụ kiện không đổi.\na) Hỏi tổng doanh thu năm 2024 tăng bao nhiêu phần trăm so với năm 2023?\nb) Tính tỉ lệ phần trăm của mảng Laptop trong cơ cấu doanh thu năm 2024.", "maxScore": 1.0, "solution": "a) Giả sử tổng doanh thu năm 2023 là 100 (đơn vị):\n- Doanh thu Laptop 2023: $50$.\n- Doanh thu Điện thoại 2023: $30$.\n- Doanh thu Phụ kiện 2023: $20$.\nDoanh thu từng mảng năm 2024:\n- Laptop 2024: $50 \\times (1 + 0{,}2) = 60$.\n- Điện thoại 2024: $30 \\times (1 + 0{,}1) = 33$.\n- Phụ kiện 2024: $20$.\nTổng doanh thu năm 2024 là: $60 + 33 + 20 = 113$.\nVậy tổng doanh thu năm 2024 tăng: $\\frac{113 - 100}{100} \\times 100\\% = 13\\%$ so với năm 2023.\nb) Tỉ lệ phần trăm của mảng Laptop trong cơ cấu doanh thu năm 2024 là:\n$P = \\frac{60}{113} \\times 100\\% \\approx 53{,}1\\%$.", "rubric": [{"step": "Thiết lập mô hình doanh thu và tính đúng mức tăng 13%", "subScore": 0.6}, {"step": "Tính đúng tỉ lệ mới của Laptop xấp xỉ 53,1%", "subScore": 0.4}]}]}, "c5_7_bai2_test3": {"title": "Toán 7 (KNTT) - Bài 18: Biểu đồ hình quạt tròn - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ quạt tròn biểu diễn cơ cấu nông nghiệp gồm: Trồng trọt, Chăn nuôi và Thủy sản. Biết góc ở tâm của Trồng trọt là $216^\\circ$, Chăn nuôi là $90^\\circ$. Tỉ lệ phần trăm của ngành Thủy sản là:", "options": ["$15\\%$", "$20\\%$", "$12\\%$", "$25\\%$"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Để vẽ biểu đồ hình quạt tròn từ bảng số liệu có tỉ số $\\frac{3}{8}$, góc ở tâm tương ứng là:", "options": ["$135^\\circ$", "$120^\\circ$", "$150^\\circ$", "$145^\\circ$"], "correct": 0}, {"id": 3, "level": "Vận dụng", "question": "Một người nông dân thu hoạch 12 tấn nông sản gồm 3 loại: Thóc 60%, Bắp 25%, Khoai 15%. Khối lượng thóc thu được nhiều hơn tổng khối lượng bắp và khoai là:", "options": ["$2{,}4$ tấn", "$1{,}2$ tấn", "$3{,}6$ tấn", "$4{,}8$ tấn"], "correct": 0}, {"id": 4, "level": "Vận dụng", "question": "Cơ cấu dân số theo độ tuổi của một địa phương: Dưới 15 tuổi (20%), Từ 15 đến 64 tuổi (65%), Từ 65 tuổi trở lên (15%). Góc ở tâm của nhóm tuổi lao động (15 đến 64 tuổi) là:", "options": ["$234^\\circ$", "$240^\\circ$", "$220^\\circ$", "$216^\\circ$"], "correct": 0}, {"id": 5, "level": "Vận dụng", "question": "Một hình quạt tròn có diện tích $15\\pi$ cm$^2$ trong một hình tròn có diện tích $60\\pi$ cm$^2$. Hình quạt đó biểu diễn tỉ lệ bao nhiêu phần trăm?", "options": ["$25\\%$", "$20\\%$", "$30\\%$", "$15\\%$"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Một xí nghiệp có 3 phân xưởng A, B, C. Tỉ lệ sản phẩm của xưởng A gấp 1,5 lần xưởng B; xưởng B gấp 2 lần xưởng C. Góc ở tâm biểu diễn phân xưởng A là:", "options": ["$180^\\circ$", "$150^\\circ$", "$200^\\circ$", "$120^\\circ$"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Một trường học có tỉ lệ đỗ tốt nghiệp qua các mức Giỏi (30%), Khá (50%), Trung bình (20%). Nếu số học sinh Khá là 250 em thì số học sinh Giỏi là:", "options": ["$150$ em", "$100$ em", "$200$ em", "$125$ em"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Cho biểu đồ hình quạt tròn biểu diễn 4 thành phần A, B, C, D với tỉ số diện tích quạt tương ứng là $1 : 2 : 3 : 4$. Góc ở tâm của phần D là:", "options": ["$144^\\circ$", "$108^\\circ$", "$72^\\circ$", "$36^\\circ$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Một bể cá có 3 loại cá: Cá vàng, Cá chép và Cá bảy màu. Số cá vàng bằng $40\\%$ tổng số cá, số cá chép bằng $\\frac{2}{3}$ số cá còn lại. Tỉ lệ phần trăm của cá bảy màu là:", "options": ["$20\\%$", "$25\\%$", "$15\\%$", "$30\\%$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Hai hình quạt kề nhau trên biểu đồ tròn có góc ở tâm lần lượt là $\\alpha$ và $\\beta$ thỏa mãn $\\alpha + \\beta = 180^\\circ$ và $\\alpha - \\beta = 36^\\circ$. Tỉ lệ phần trăm tương ứng của hình quạt lớn là:", "options": ["$30\\%$", "$25\\%$", "$35\\%$", "$20\\%$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Số lượng vé bán ra của một rạp chiếu phim trong tuần gồm 3 mức giá: Vé VIP, Vé Thường, Vé Khuyến mãi. Biết số vé Thường gấp đôi vé VIP, số vé Khuyến mãi bằng $\\frac{1}{2}$ vé VIP. Tỉ lệ doanh số về số lượng vé VIP là:", "options": ["$\\frac{2}{7}$", "$\\frac{1}{3}$", "$\\frac{2}{5}$", "$\\frac{1}{4}$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Sai lầm nào sau đây thường gặp nhất khi vẽ hoặc đọc biểu đồ hình quạt tròn?", "options": ["Tổng các tỉ lệ phần trăm ghi trên các quạt không bằng 100% hoặc vẽ sai tỉ lệ góc ở tâm", "Dùng màu sắc khác nhau cho các quạt", "Ghi tên chú giải rõ ràng", "Vẽ hình tròn bằng compa"], "correct": 0}], "part2": [{"id": 1, "level": "Vận dụng", "question": "Biểu đồ hình quạt tròn biểu diễn thị phần của 4 hãng điện thoại thông minh: Hãng A (40%), Hãng B (25%), Hãng C (20%), Hãng D (15%). Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Góc ở tâm của hình quạt Hãng A là $144^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 40\\% = 144^\\circ$."}, {"id": "b", "statement": "Hiệu giữa góc ở tâm của Hãng B và Hãng D là $36^\\circ$.", "isCorrect": true, "explanation": "Chênh lệch tỉ lệ $= 25\\% - 15\\% = 10\\% \\Rightarrow 360^\\circ \\times 10\\% = 36^\\circ$."}, {"id": "c", "statement": "Thị phần của Hãng A bằng tổng thị phần của Hãng B và Hãng D.", "isCorrect": true, "explanation": "$40\\% = 25\\% + 15\\%$."}, {"id": "d", "statement": "Nếu Hãng C bán được 10 triệu chiếc thì Hãng A bán được 25 triệu chiếc.", "isCorrect": false, "explanation": "Hãng C chiếm 20% ứng với 10 triệu chiếc $\\Rightarrow$ tổng thị trường $= 50$ triệu. Hãng A chiếm 40% $\\Rightarrow 50 \\times 40\\% = 20$ triệu chiếc, không phải 25 triệu."}]}, {"id": 2, "level": "Vận dụng cao", "question": "Cho biểu đồ hình quạt tròn có 3 quạt với tỉ lệ phần trăm lần lượt là $x\\%, y\\%, z\\%$ ($x, y, z > 0$) thỏa mãn $x : y : z = 3 : 5 : 4$. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Tổng số phần bằng nhau là $3 + 5 + 4 = 12$ phần.", "isCorrect": true, "explanation": "Tổng số phần tỉ lệ là 12."}, {"id": "b", "statement": "Giá trị của $x$ là $25\\%$.", "isCorrect": true, "explanation": "$x = \\frac{3}{12} \\times 100\\% = 25\\%$."}, {"id": "c", "statement": "Góc ở tâm lớn nhất là của hình quạt biểu diễn $y$, có số đo là $150^\\circ$.", "isCorrect": true, "explanation": "$y$ chiếm $\\frac{5}{12} \\times 360^\\circ = 150^\\circ$."}, {"id": "d", "statement": "Góc ở tâm của hình quạt biểu diễn $z$ là $100^\\circ$.", "isCorrect": false, "explanation": "$z$ chiếm $\\frac{4}{12} \\times 360^\\circ = 120^\\circ$, không phải $100^\\circ$."}]}], "part3": [{"id": 1, "level": "Vận dụng", "question": "Một người chia số tiền 120 triệu đồng vào 3 quỹ: Đầu tư, Tiết kiệm, Tiêu dùng theo tỉ lệ $5 : 3 : 2$. Số tiền dành cho quỹ Đầu tư là bao nhiêu triệu đồng?", "answer": 60, "unit": "triệu đồng"}, {"id": 2, "level": "Vận dụng", "question": "Góc ở tâm của hình quạt thứ nhất là $120^\\circ$, của hình quạt thứ hai là $90^\\circ$, phần còn lại là của hình quạt thứ ba. Hỏi hình quạt thứ ba chiếm bao nhiêu phần trăm tổng thể (điền số thập phân, ví dụ 41.7)?", "answer": 41.7, "unit": "%"}, {"id": 3, "level": "Vận dụng cao", "question": "Một công ty có doanh thu từ nội địa và xuất khẩu. Doanh thu xuất khẩu gấp 3 lần nội địa. Hỏi trên biểu đồ hình quạt tròn, góc ở tâm biểu diễn doanh thu xuất khẩu là bao nhiêu độ?", "answer": 270, "unit": "độ"}, {"id": 4, "level": "Vận dụng cao", "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần A, B, C. Biết diện tích hình quạt A hơn hình quạt B là $10\\%$, diện tích hình quạt B hơn hình quạt C là $10\\%$. Tính số đo góc ở tâm (độ) của hình quạt A.", "answer": 156, "unit": "độ"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Một công ty công nghệ có 3 nhóm nghiên cứu: Nhóm Trí tuệ nhân tạo (AI), Nhóm An ninh mạng (Cyber), Nhóm Ứng dụng di động (Mobile).\nBiết số nhân sự nhóm AI gấp đôi nhóm Mobile, nhóm Cyber nhiều hơn nhóm Mobile là 10 người. Tổng số nhân sự của công ty là 130 người.\na) Tính số nhân sự của mỗi nhóm.\nb) Tính góc ở tâm của từng nhóm khi biểu diễn trên biểu đồ hình quạt tròn (làm tròn đến hàng đơn vị độ).", "maxScore": 1.0, "solution": "a) Gọi số nhân sự nhóm Mobile là $x$ ($x \\in \\mathbb{N}^*$).\nKhi đó số nhân sự nhóm AI là $2x$, nhóm Cyber là $x + 10$.\nTổng số nhân sự là 130 người nên:\n$x + 2x + (x + 10) = 130 \\Leftrightarrow 4x + 10 = 130 \\Leftrightarrow 4x = 120 \\Leftrightarrow x = 30$.\nSố nhân sự của từng nhóm:\n- Nhóm Mobile: 30 người.\n- Nhóm AI: $2 \\times 30 = 60$ người.\n- Nhóm Cyber: $30 + 10 = 40$ người.\nb) Tỉ lệ và góc ở tâm tương ứng:\n- Nhóm AI: chiếm $\\frac{60}{130} \\approx 46{,}15\\% \\Rightarrow$ Góc ở tâm: $360^\\circ \\times \\frac{60}{130} \\approx 166^\\circ$.\n- Nhóm Cyber: chiếm $\\frac{40}{130} \\approx 30{,}77\\% \\Rightarrow$ Góc ở tâm: $360^\\circ \\times \\frac{40}{130} \\approx 111^\\circ$.\n- Nhóm Mobile: chiếm $\\frac{30}{130} \\approx 23{,}08\\% \\Rightarrow$ Góc ở tâm: $360^\\circ \\times \\frac{30}{130} \\approx 83^\\circ$.\nKiểm tra tổng góc: $166^\\circ + 111^\\circ + 83^\\circ = 360^\\circ$.", "rubric": [{"step": "Thiết lập phương trình tìm đúng số người: Mobile 30, AI 60, Cyber 40", "subScore": 0.5}, {"step": "Tính đúng các góc ở tâm xấp xỉ 166 độ, 111 độ, 83 độ", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng cao", "question": "Năm trước, tỉ lệ học sinh Giỏi, Khá, Trung bình của một trường THCS lần lượt là 20%, 50%, 30%. Năm nay, nhà trường đổi mới phương pháp giảng dạy nên số học sinh Giỏi tăng 50%, số học sinh Khá tăng 20%, số học sinh Trung bình giảm 40% (tổng số học sinh toàn trường không đổi).\na) Hỏi nhận định \"tổng số học sinh không đổi\" có phù hợp với số liệu trên không? Hãy chứng minh.\nb) Tính cơ cấu tỉ lệ phần trăm mới của 3 nhóm học sinh năm nay.", "maxScore": 1.0, "solution": "a) Giả sử tổng số học sinh năm trước là $100$ em:\n- Giỏi: 20 em; Khá: 50 em; Trung bình: 30 em.\nNăm nay:\n- Số học sinh Giỏi mới: $20 \\times (1 + 0{,}5) = 30$ em.\n- Số học sinh Khá mới: $50 \\times (1 + 0{,}2) = 60$ em.\n- Số học sinh Trung bình mới: $30 \\times (1 - 0{,}4) = 18$ em.\nTổng số học sinh năm nay là: $30 + 60 + 18 = 108$ em.\nNhư vậy tổng số học sinh đã tăng từ 100 lên 108 em (tăng 8%), do đó nhận định \"tổng số học sinh toàn trường không đổi\" là mâu thuẫn với tỉ lệ thay đổi của các nhóm trên thực tế.\nb) Để tính cơ cấu phần trăm mới trên tổng số học sinh mới (108 em):\n- Tỉ lệ Giỏi mới: $\\frac{30}{108} \\times 100\\% \\approx 27{,}8\\%$.\n- Tỉ lệ Khá mới: $\\frac{60}{108} \\times 100\\% \\approx 55{,}6\\%$.\n- Tỉ lệ Trung bình mới: $\\frac{18}{108} \\times 100\\% \\approx 16{,}7\\%$.\nTổng tỉ lệ mới $= 27{,}8\\% + 55{,}6\\% + 16{,}7\\% \\approx 100\\%$.", "rubric": [{"step": "Chứng minh số liệu dẫn tới tổng số học sinh tăng từ 100 lên 108", "subScore": 0.5}, {"step": "Tính đúng cơ cấu phần trăm mới: Giỏi 27,8%, Khá 55,6%, TB 16,7%", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Cho biểu đồ hình quạt tròn biểu diễn phân bổ ngân sách 3 dự án A, B, C. Góc ở tâm của dự án A là $\\alpha$, dự án B là $\\beta$, dự án C là $\\gamma$. Biết $\\alpha, \\beta, \\gamma$ lập thành một cấp số cộng thỏa mãn $\\alpha < \\beta < \\gamma$ và góc lớn nhất gấp 3 lần góc nhỏ nhất ($\\gamma = 3\\alpha$).\na) Tìm số đo các góc $\\alpha, \\beta, \\gamma$.\nb) Dự án A được cấp 15 tỷ đồng. Tính tổng ngân sách cấp cho cả 3 dự án.", "maxScore": 1.0, "solution": "a) Vì $\\alpha, \\beta, \\gamma$ tạo thành cấp số cộng nên $\\alpha + \\gamma = 2\\beta$.\nTổng 3 góc ở tâm của biểu đồ tròn là: $\\alpha + \\beta + \\gamma = 360^\\circ$.\nThay $\\alpha + \\gamma = 2\\beta$ vào: $2\\beta + \\beta = 360^\\circ \\Leftrightarrow 3\\beta = 360^\\circ \\Rightarrow \\beta = 120^\\circ$.\nSuy ra: $\\alpha + \\gamma = 240^\\circ$.\nMặt khác, $\\gamma = 3\\alpha$, do đó: $\\alpha + 3\\alpha = 240^\\circ \\Leftrightarrow 4\\alpha = 240^\\circ \\Rightarrow \\alpha = 60^\\circ$.\nSuy ra: $\\gamma = 3 \\times 60^\\circ = 180^\\circ$.\nVậy ba góc ở tâm là $\\alpha = 60^\\circ, \\beta = 120^\\circ, \\gamma = 180^\\circ$.\nb) Tỉ lệ ngân sách của dự án A là:\n$P_A = \\frac{60^\\circ}{360^\\circ} = \\frac{1}{6}$.\nTổng ngân sách của cả 3 dự án là:\n$15 : \\frac{1}{6} = 15 \\times 6 = 90$ (tỷ đồng).", "rubric": [{"step": "Tìm đúng beta = 120 độ, alpha = 60 độ, gamma = 180 độ", "subScore": 0.6}, {"step": "Tính đúng tổng ngân sách là 90 tỷ đồng", "subScore": 0.4}]}]}, "c5_7_bai3_test1": {"title": "Toán 7 (KNTT) - Bài 19: Biểu đồ đoạn thẳng - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Biểu đồ đoạn thẳng thường được dùng để biểu diễn:", "options": ["Sự thay đổi của một đại lượng theo thời gian", "Cơ cấu tỉ lệ các phần trong toàn bộ", "Sự phân bố không gian", "Mức độ hài lòng của khách hàng"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Trên biểu đồ đoạn thẳng, trục nằm ngang (trục hoành) thường biểu diễn:", "options": ["Thời gian (ngày, tháng, năm, giờ,...)", "Số lượng hoặc giá trị đo được", "Tên các địa danh", "Tỉ lệ phần trăm"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Trên biểu đồ đoạn thẳng, trục thẳng đứng (trục tung) biểu diễn:", "options": ["Đại lượng cần theo dõi (nhiệt độ, doanh thu, sản lượng,...)", "Thời gian theo dõi", "Tên đơn vị đo", "Tiêu đề biểu đồ"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Khi đoạn thẳng đi lên từ trái sang phải, đại lượng có xu hướng:", "options": ["Tăng lên", "Giảm đi", "Không đổi", "Bằng không"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Khi đoạn thẳng nằm ngang song song với trục thời gian, đại lượng có xu hướng:", "options": ["Không thay đổi (giữ nguyên)", "Tăng nhanh", "Giảm mạnh", "Biến động mạnh"], "correct": 0}, {"id": 6, "level": "Thông hiểu", "question": "Một biểu đồ đoạn thẳng biểu diễn nhiệt độ trong tuần: Thứ Hai: $25^\\circ$C, Thứ Ba: $27^\\circ$C, Thứ Tư: $26^\\circ$C. Nhiệt độ ngày Thứ Ba tăng bao nhiêu độ C so với ngày Thứ Hai?", "options": ["$2^\\circ$C", "$1^\\circ$C", "$3^\\circ$C", "$0^\\circ$C"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Biểu đồ đoạn thẳng biểu diễn số học sinh giỏi của một trường qua 4 năm: Năm 1: 120 em, Năm 2: 135 em, Năm 3: 150 em, Năm 4: 165 em. Xu thế chung của số học sinh giỏi là:", "options": ["Tăng đều qua các năm", "Giảm dần qua các năm", "Dao động thất thường", "Không đổi"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Quan sát biểu đồ chiều cao của bạn Nam từ 11 đến 14 tuổi: 11 tuổi: 140 cm, 12 tuổi: 146 cm, 13 tuổi: 153 cm, 14 tuổi: 161 cm. Trong độ tuổi nào bạn Nam tăng chiều cao nhiều nhất?", "options": ["Từ 13 đến 14 tuổi (tăng 8 cm)", "Từ 11 đến 12 tuổi", "Từ 12 đến 13 tuổi", "Tăng đều nhau"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Nếu một biểu đồ đoạn thẳng biểu diễn doanh số bán hàng từ tháng 1 đến tháng 6 có đoạn nối giữa tháng 3 và tháng 4 dốc xuống, điều đó chứng tỏ:", "options": ["Doanh số tháng 4 giảm so với tháng 3", "Doanh số tháng 4 tăng so với tháng 3", "Doanh số tháng 4 bằng tháng 3", "Doanh số tháng 4 bằng 0"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Số lượng xe đạp bán ra trong 3 tháng đầu năm: Tháng 1: 50 chiếc, Tháng 2: 40 chiếc, Tháng 3: 60 chiếc. Chênh lệch số xe bán được giữa tháng cao nhất và thấp nhất là:", "options": ["$20$ chiếc", "$10$ chiếc", "$30$ chiếc", "$15$ chiếc"], "correct": 0}, {"id": 11, "level": "Vận dụng", "question": "Biểu đồ đoạn thẳng biểu diễn điểm kiểm tra của An qua 4 lần: $7, 8, 8, 9$. Điểm trung bình của An qua 4 lần kiểm tra là:", "options": ["$8{,}0$", "$8{,}25$", "$7{,}75$", "$8{,}5$"], "correct": 0}, {"id": 12, "level": "Vận dụng", "question": "Nhiệt độ đo được lúc 6h, 12h, 18h trong ngày lần lượt là $20^\\circ$C, $32^\\circ$C, $26^\\circ$C. Độ chênh lệch nhiệt độ lớn nhất trong ngày là:", "options": ["$12^\\circ$C", "$6^\\circ$C", "$8^\\circ$C", "$10^\\circ$C"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ đoạn thẳng theo dõi số lượng sách mượn tại thư viện trong 5 ngày của một tuần:\n- Thứ Hai: 45 cuốn\n- Thứ Ba: 60 cuốn\n- Thứ Tư: 50 cuốn\n- Thứ Năm: 70 cuốn\n- Thứ Sáu: 55 cuốn.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Ngày có số sách mượn nhiều nhất là Thứ Năm (70 cuốn).", "isCorrect": true, "explanation": "Giá trị 70 là cao nhất trong tuần."}, {"id": "b", "statement": "Ngày có số sách mượn ít nhất là Thứ Hai (45 cuốn).", "isCorrect": true, "explanation": "Giá trị 45 là thấp nhất trong tuần."}, {"id": "c", "statement": "Từ Thứ Ba đến Thứ Tư, số lượng sách mượn có xu hướng tăng.", "isCorrect": false, "explanation": "Thứ Ba (60) đến Thứ Tư (50) là giảm 10 cuốn, đoạn thẳng dốc xuống."}, {"id": "d", "statement": "Tổng số sách mượn trong cả tuần là $280$ cuốn.", "isCorrect": true, "explanation": "$45 + 60 + 50 + 70 + 55 = 280$ cuốn."}]}, {"id": 2, "level": "Thông hiểu", "question": "Cho các nhận định về cách vẽ biểu đồ đoạn thẳng, xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Khoảng cách giữa các mốc thời gian trên trục ngang cần được chia đều nhau tương ứng với khoảng thời gian bằng nhau.", "isCorrect": true, "explanation": "Đảm bảo tính chính xác và trực quan của tỉ lệ thời gian."}, {"id": "b", "statement": "Trục thẳng đứng bắt buộc phải bắt đầu từ số 0 hoặc có dấu ngắt trục rõ ràng.", "isCorrect": true, "explanation": "Tránh gây hiểu lầm về độ lớn tương đối."}, {"id": "c", "statement": "Mỗi điểm trên biểu đồ được xác định bởi một cặp giá trị (thời gian, số liệu tương ứng).", "isCorrect": true, "explanation": "Đúng theo nguyên tắc biểu diễn đồ thị tọa độ."}, {"id": "d", "statement": "Sau khi xác định các điểm, ta dùng các đường cong tròn để nối chúng lại.", "isCorrect": false, "explanation": "Biểu đồ đoạn thẳng dùng các đoạn thẳng gấp khúc nối liên tiếp các điểm kề nhau."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Số lượng học sinh giỏi của lớp 7A trong 4 kì học liên tiếp là: 12, 15, 14, 19. Số học sinh giỏi tăng bao nhiêu em từ kì 1 đến kì 4?", "answer": 7, "unit": "học sinh"}, {"id": 2, "level": "Thông hiểu", "question": "Nhiệt độ đo được lúc 6h sáng là $22^\\circ$C, đến 14h chiều tăng thêm $8^\\circ$C. Hỏi nhiệt độ lúc 14h chiều là bao nhiêu độ C?", "answer": 30, "unit": "độ C"}, {"id": 3, "level": "Vận dụng", "question": "Doanh thu bán hàng của một cửa hàng trong 3 ngày: Ngày 1: 5 triệu, Ngày 2: 7 triệu, Ngày 3: 9 triệu. Doanh thu trung bình mỗi ngày là bao nhiêu triệu đồng?", "answer": 7, "unit": "triệu đồng"}, {"id": 4, "level": "Vận dụng", "question": "Một người chạy bộ ghi lại quãng đường chạy (km) trong 4 tuần: Tuần 1: 15 km, Tuần 2: 18 km, Tuần 3: 20 km, Tuần 4: 27 km. Tổng quãng đường người đó đã chạy trong 4 tuần là bao nhiêu km?", "answer": 80, "unit": "km"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Bảng sau đây ghi lại số lượng xe đạp điện bán được của một cửa hàng trong 6 tháng đầu năm:\n| Tháng | 1 | 2 | 3 | 4 | 5 | 6 |\n| Số xe | 20 | 25 | 18 | 30 | 35 | 40 |\na) Hãy cho biết tháng nào cửa hàng bán được nhiều xe nhất? Tháng nào bán được ít xe nhất?\nb) Số lượng xe bán ra có xu hướng thay đổi như thế nào trong khoảng từ tháng 3 đến tháng 6?", "maxScore": 1.0, "solution": "a) - Tháng cửa hàng bán được nhiều xe nhất là Tháng 6 (với 40 chiếc xe).\n- Tháng bán được ít xe nhất là Tháng 3 (với 18 chiếc xe).\nb) Từ tháng 3 đến tháng 6, số lượng xe bán ra tăng liên tục:\n- Tháng 3: 18 xe\n- Tháng 4: 30 xe (tăng 12 xe)\n- Tháng 5: 35 xe (tăng 5 xe)\n- Tháng 6: 40 xe (tăng 5 xe)\nĐoạn thẳng biểu diễn trên biểu đồ liên tục đi lên từ trái sang phải, thể hiện xu hướng tăng trưởng ổn định và mạnh mẽ.", "rubric": [{"step": "Chỉ ra đúng tháng cao nhất (tháng 6) và thấp nhất (tháng 3)", "subScore": 0.5}, {"step": "Nhận xét đúng xu hướng tăng trưởng liên tục từ tháng 3 đến tháng 6", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng", "question": "Nhiệt độ không khí trung bình các tháng mùa đông (tháng 11, 12, 1, 2) tại Hà Nội được ghi lại: Tháng 11: $22^\\circ$C, Tháng 12: $18^\\circ$C, Tháng 1: $16^\\circ$C, Tháng 2: $17^\\circ$C.\na) Tính nhiệt độ trung bình của cả mùa đông (4 tháng trên).\nb) Tháng nào có nhiệt độ thấp nhất? Độ chênh lệch nhiệt độ giữa tháng 11 và tháng 1 là bao nhiêu?", "maxScore": 1.0, "solution": "a) Nhiệt độ trung bình cả mùa đông là:\n$\\bar{T} = \\frac{22 + 18 + 16 + 17}{4} = \\frac{73}{4} = 18{,}25^\\circ$C.\nb) - Tháng có nhiệt độ thấp nhất là Tháng 1 ($16^\\circ$C).\n- Chênh lệch nhiệt độ giữa tháng 11 và tháng 1 là: $22^\\circ\\text{C} - 16^\\circ\\text{C} = 6^\\circ$C.", "rubric": [{"step": "Tính đúng nhiệt độ trung bình mùa đông là 18,25 độ C", "subScore": 0.5}, {"step": "Chỉ ra đúng tháng 1 lạnh nhất và độ chênh lệch là 6 độ C", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng", "question": "Số lượng người dùng một ứng dụng học tập trực tuyến trong 4 quý năm 2024 như sau: Quý I: 1000 người, Quý II: 1200 người, Quý III: 1500 người, Quý IV: 1800 người.\na) Tính tốc độ tăng trưởng người dùng (tỉ lệ phần trăm tăng) từ Quý I đến Quý II.\nb) Tính tốc độ tăng trưởng người dùng từ Quý I đến Quý IV của cả năm.", "maxScore": 1.0, "solution": "a) Số người dùng tăng từ Quý I đến Quý II là:\n$1200 - 1000 = 200$ (người).\nTốc độ tăng trưởng từ Quý I đến Quý II là:\n$\\frac{200}{1000} \\times 100\\% = 20\\%$.\nb) Số người dùng tăng từ Quý I đến Quý IV là:\n$1800 - 1000 = 800$ (người).\nTốc độ tăng trưởng người dùng cả năm là:\n$\\frac{800}{1000} \\times 100\\% = 80\\%$.", "rubric": [{"step": "Tính đúng mức tăng trưởng Quý I -> Quý II là 20%", "subScore": 0.5}, {"step": "Tính đúng mức tăng trưởng cả năm Quý I -> Quý IV là 80%", "subScore": 0.5}]}]}, "c5_7_bai3_test2": {"title": "Toán 7 (KNTT) - Bài 19: Biểu đồ đoạn thẳng - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ đoạn thẳng kép thường được dùng để:", "options": ["So sánh xu hướng phát triển của hai đối tượng theo cùng một mốc thời gian", "Biểu diễn cơ cấu các phần trăm", "Tính diện tích hình tròn", "Thay thế hoàn toàn bảng tần số"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Biểu đồ doanh thu của một cửa hàng 4 quý: Quý I: 80 triệu, Quý II: 100 triệu, Quý III: 90 triệu, Quý IV: 130 triệu. Quý nào có doanh thu tăng mạnh nhất so với quý trước đó?", "options": ["Quý IV (tăng 40 triệu)", "Quý II (tăng 20 triệu)", "Quý III", "Quý I"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Sản lượng lúa của một tỉnh trong 3 năm liên tiếp: Năm 2021: 1,2 triệu tấn; Năm 2022: 1,35 triệu tấn; Năm 2023: 1,5 triệu tấn. Sản lượng năm 2023 tăng bao nhiêu phần trăm so với năm 2021?", "options": ["$25\\%$", "$20\\%$", "$15\\%$", "$30\\%$"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Nhiệt độ tại Sa Pa đo được lúc 0h là $6^\\circ$C, lúc 6h là $4^\\circ$C, lúc 12h là $14^\\circ$C, lúc 18h là $10^\\circ$C. Khoảng thời gian nào nhiệt độ tăng nhanh nhất?", "options": ["Từ 6h đến 12h (tăng $10^\\circ$C trong 6 giờ)", "Từ 0h đến 6h", "Từ 12h đến 18h", "Không có khoảng nào"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Một người gửi tiết kiệm với số dư tài khoản qua 3 năm: Năm 1: 50 triệu; Năm 2: 55 triệu; Năm 3: 60,5 triệu. Lãi suất mỗi năm người đó nhận được là:", "options": ["$10\\%$/năm", "$8\\%$/năm", "$5\\%$/năm", "$12\\%$/năm"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Khối lượng một con bê sơ sinh sau 4 tháng: Tháng 1: 25 kg, Tháng 2: 32 kg, Tháng 3: 40 kg, Tháng 4: 50 kg. Khối lượng trung bình mỗi tháng con bê tăng được là:", "options": ["$8{,}33$ kg", "$7{,}5$ kg", "$6{,}25$ kg", "$9$ kg"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Tỉ lệ thất nghiệp của một thành phố trong 4 năm: 2020: 3,5%, 2021: 4,2%, 2022: 3,8%, 2023: 3,0%. Năm nào có tỉ lệ thất nghiệp cao nhất?", "options": ["Năm 2021", "Năm 2020", "Năm 2022", "Năm 2023"], "correct": 0}, {"id": 8, "level": "Vận dụng", "question": "Số lượng người truy cập một trang web từ thứ Hai đến thứ Bảy: 200, 250, 300, 280, 350, 420. Trung vị của dãy số liệu trên là:", "options": ["$290$", "$300$", "$280$", "$275$"], "correct": 0}, {"id": 9, "level": "Vận dụng", "question": "Một bạn học sinh theo dõi số trang sách đọc mỗi ngày trong 5 ngày: 15, 20, 25, 30, x. Biết trung bình mỗi ngày bạn đọc 24 trang. Giá trị của x là:", "options": ["$30$", "$25$", "$35$", "$20$"], "correct": 0}, {"id": 10, "level": "Vận dụng", "question": "Trong biểu đồ đoạn thẳng kép theo dõi xuất khẩu và nhập khẩu của một quốc gia, khi đường xuất khẩu nằm phía trên đường nhập khẩu thì cán cân thương mại:", "options": ["Xuất siêu (thặng dư thương mại)", "Nhập siêu (thâm hụt thương mại)", "Cân bằng thương mại", "Bị lỗ"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Một người chạy bộ ghi lại thời gian hoàn thành cự ly 5 km qua 5 tuần: 30 phút, 28 phút, 27 phút, 25 phút, 24 phút. Nhận xét nào sau đây đúng về thành tích chạy của người đó?", "options": ["Thành tích ngày càng tiến bộ vì thời gian chạy ngày càng rút ngắn", "Thành tích ngày càng kém đi vì số phút giảm", "Không thể nhận xét được", "Thành tích không đổi"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Độ dốc của đoạn thẳng nối hai điểm $(t_1, y_1)$ và $(t_2, y_2)$ trên biểu đồ đoạn thẳng thể hiện:", "options": ["Tốc độ thay đổi trung bình của đại lượng trong khoảng thời gian đó", "Giá trị tuyệt đối của đại lượng", "Sai số của phép đo", "Thời gian bắt đầu thí nghiệm"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ đoạn thẳng kép biểu diễn số học sinh nam và nữ đạt điểm Giỏi môn Toán của lớp 7A trong 4 bài kiểm tra định kì:\n- Bài 1: Nam 8, Nữ 10\n- Bài 2: Nam 10, Nữ 12\n- Bài 3: Nam 12, Nữ 11\n- Bài 4: Nam 14, Nữ 15.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Số học sinh nữ đạt điểm Giỏi ở Bài 1 nhiều hơn số học sinh nam.", "isCorrect": true, "explanation": "Nữ 10 > Nam 8."}, {"id": "b", "statement": "Ở Bài 3, số học sinh nam đạt điểm Giỏi nhiều hơn số học sinh nữ.", "isCorrect": true, "explanation": "Nam 12 > Nữ 11."}, {"id": "c", "statement": "Số học sinh nam đạt điểm Giỏi tăng liên tục qua cả 4 bài kiểm tra.", "isCorrect": true, "explanation": "Dãy số nam: 8 -> 10 -> 12 -> 14 tăng đều liên tục."}, {"id": "d", "statement": "Tổng số lượt học sinh nữ đạt điểm Giỏi qua 4 bài là 45 lượt.", "isCorrect": false, "explanation": "Tổng lượt nữ $= 10 + 12 + 11 + 15 = 48$ lượt, không phải 45."}]}, {"id": 2, "level": "Vận dụng", "question": "Bảng số liệu ghi lại dân số của một thị trấn qua 4 cuộc tổng điều tra:\n- Năm 1990: 10 000 người\n- Năm 2000: 12 000 người\n- Năm 2010: 15 000 người\n- Năm 2020: 18 000 người.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Từ năm 1990 đến năm 2020, dân số thị trấn luôn có xu hướng tăng.", "isCorrect": true, "explanation": "Các giá trị tăng liên tục từ 10 000 lên 18 000."}, {"id": "b", "statement": "Trong giai đoạn 1990 - 2000, dân số tăng $20\\%$.", "isCorrect": true, "explanation": "$(12 000 - 10 000) / 10 000 = 20\\%$."}, {"id": "c", "statement": "Trong giai đoạn 2000 - 2010, dân số tăng $25\\%$.", "isCorrect": true, "explanation": "$(15 000 - 12 000) / 12 000 = 3 000 / 12 000 = 25\\%$."}, {"id": "d", "statement": "Giai đoạn có tốc độ tăng trưởng phần trăm cao nhất là 2010 - 2020.", "isCorrect": false, "explanation": "Giai đoạn 2010 - 2020 tăng $(18000 - 15000) / 15000 = 20\\%$, thấp hơn mức 25% của giai đoạn 2000 - 2010."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Số lượng xe máy bán ra của cửa hàng trong 3 tháng quý I: Tháng 1: 45 xe, Tháng 2: 52 xe, Tháng 3: 65 xe. Tìm số xe bán ra trung bình mỗi tháng trong quý I.", "answer": 54, "unit": "xe"}, {"id": 2, "level": "Vận dụng", "question": "Nhiệt độ lúc 8h sáng là $24^\\circ$C, lúc 12h trưa là $32^\\circ$C. Tính tốc độ tăng nhiệt độ trung bình mỗi giờ trong khoảng thời gian đó theo độ C/giờ.", "answer": 2, "unit": "độ C/giờ"}, {"id": 3, "level": "Vận dụng", "question": "Doanh số của một công ty năm 2022 là 50 tỷ đồng, năm 2023 đạt 65 tỷ đồng. Hỏi doanh số năm 2023 tăng bao nhiêu phần trăm so với năm 2022?", "answer": 30, "unit": "%"}, {"id": 4, "level": "Vận dụng cao", "question": "Chiều cao của một cái cây qua các năm đo được: Năm 1: 1,2 m; Năm 2: 1,8 m; Năm 3: 2,5 m; Năm 4: 3,3 m. Trong năm nào chiều cao của cây tăng nhiều nhất (điền 1, 2, 3 hoặc 4 ứng với năm thứ n)?", "answer": 4, "unit": ""}], "part4": [{"id": 1, "level": "Vận dụng", "question": "Biểu đồ đoạn thẳng kép ghi lại nhiệt độ cao nhất ($T_1$) và nhiệt độ thấp nhất ($T_2$) trong 5 ngày của một tuần tại Đà Lạt:\n| Ngày | T2 | T3 | T4 | T5 | T6 |\n| $T_1$ ($^\\circ$C) | 22 | 24 | 21 | 25 | 23 |\n| $T_2$ ($^\\circ$C) | 14 | 15 | 13 | 16 | 15 |\na) Ngày nào có biên độ nhiệt (chênh lệch giữa nhiệt độ cao nhất và thấp nhất) lớn nhất? Biên độ đó là bao nhiêu độ C?\nb) Tính nhiệt độ cao nhất trung bình trong 5 ngày trên.", "maxScore": 1.0, "solution": "a) Biên độ nhiệt của từng ngày:\n- T2: $22 - 14 = 8^\\circ$C.\n- T3: $24 - 15 = 9^\\circ$C.\n- T4: $21 - 13 = 8^\\circ$C.\n- T5: $25 - 16 = 9^\\circ$C.\n- T6: $23 - 15 = 8^\\circ$C.\nBiên độ nhiệt lớn nhất là $9^\\circ$C (xảy ra vào các ngày Thứ Ba và Thứ Năm).\nb) Nhiệt độ cao nhất trung bình trong 5 ngày là:\n$\\bar{T}_1 = \\frac{22 + 24 + 21 + 25 + 23}{5} = \\frac{115}{5} = 23^\\circ$C.", "rubric": [{"step": "Tính đúng biên độ các ngày và chỉ ra lớn nhất là 9 độ C (T3, T5)", "subScore": 0.5}, {"step": "Tính đúng nhiệt độ cao nhất trung bình là 23 độ C", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng", "question": "Bảng sau ghi số lượng học sinh tham gia phong trào \"Kế hoạch nhỏ\" thu gom giấy vụn của 4 lớp khối 7:\n| Lớp | 7A | 7B | 7C | 7D |\n| Số kg gom được | 120 | 150 | 135 | 195 |\na) Lớp nào thu gom được nhiều giấy vụn nhất? Chiếm bao nhiêu phần trăm tổng số giấy gom được của cả khối?\nb) Trung bình mỗi lớp thu gom được bao nhiêu kg giấy vụn?", "maxScore": 1.0, "solution": "a) Tổng số giấy vụn gom được của cả khối là:\n$120 + 150 + 135 + 195 = 600$ (kg).\nLớp thu gom được nhiều nhất là lớp 7D với $195$ kg.\nTỉ lệ phần trăm lớp 7D đóng góp là:\n$\\frac{195}{600} \\times 100\\% = 32{,}5\\%$.\nb) Trung bình mỗi lớp thu gom được số kg giấy vụn là:\n$\\frac{600}{4} = 150$ (kg).", "rubric": [{"step": "Tính tổng 600 kg, xác định 7D nhiều nhất và tỉ lệ 32,5%", "subScore": 0.5}, {"step": "Tính đúng trung bình mỗi lớp 150 kg", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Một xí nghiệp có kế hoạch sản xuất trong 4 quý năm 2024. Bảng số liệu so sánh sản lượng kế hoạch và sản lượng thực tế:\n| Quý | I | II | III | IV |\n| Kế hoạch (sản phẩm) | 1000 | 1200 | 1200 | 1500 |\n| Thực tế (sản phẩm) | 1050 | 1140 | 1320 | 1650 |\na) Tính tỉ lệ phần trăm hoàn thành kế hoạch của từng quý (làm tròn đến hàng phần mười).\nb) Cả năm xí nghiệp có hoàn thành vượt mức kế hoạch không? Vượt mức bao nhiêu phần trăm?", "maxScore": 1.0, "solution": "a) Tỉ lệ hoàn thành kế hoạch từng quý:\n- Quý I: $\\frac{1050}{1000} \\times 100\\% = 105\\%$ (vượt 5%).\n- Quý II: $\\frac{1140}{1200} \\times 100\\% = 95\\%$ (chưa đạt, thiếu 5%).\n- Quý III: $\\frac{1320}{1200} \\times 100\\% = 110\\%$ (vượt 10%).\n- Quý IV: $\\frac{1650}{1500} \\times 100\\% = 110\\%$ (vượt 10%).\nb) Tổng kế hoạch cả năm: $1000 + 1200 + 1200 + 1500 = 4900$ (sản phẩm).\nTổng thực tế cả năm: $1050 + 1140 + 1320 + 1650 = 5160$ (sản phẩm).\nTỉ lệ hoàn thành cả năm là:\n$\\frac{5160}{4900} \\times 100\\% \\approx 105{,}3\\%$.\nVậy cả năm xí nghiệp hoàn thành vượt mức kế hoạch khoảng $5{,}3\\%$.", "rubric": [{"step": "Tính đúng tỉ lệ hoàn thành từng quý", "subScore": 0.5}, {"step": "Tính đúng tổng cả năm và kết luận vượt mức xấp xỉ 5,3%", "subScore": 0.5}]}]}, "c5_7_bai3_test3": {"title": "Toán 7 (KNTT) - Bài 19: Biểu đồ đoạn thẳng - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Khi muốn biểu diễn đồng thời số lượng sản phẩm xuất khẩu và giá trị kim ngạch thu về (hai đơn vị đo khác nhau) theo thời gian trên cùng một biểu đồ, người ta thường dùng:", "options": ["Biểu đồ đoạn thẳng hai trục tung (hai trục tỉ lệ khác nhau)", "Biểu đồ hình quạt tròn đơn", "Biểu đồ cột chồng", "Biểu đồ tranh"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Để làm nổi bật sự chênh lệch nhỏ giữa các giá trị lớn (ví dụ nhiệt độ cơ thể từ $36{,}5$ đến $39^\\circ$C), người ta nên làm gì trên trục tung?", "options": ["Cắt gãy trục tung (bắt đầu từ giá trị gần 36 thay vì từ 0) kèm kí hiệu ngắt trục rõ ràng", "Kéo dài trục hoành gấp đôi", "Đổi đơn vị đo sang độ F", "Bỏ qua các giá trị thập phân"], "correct": 0}, {"id": 3, "level": "Vận dụng", "question": "Một cổ phiếu có giá đóng cửa qua 5 phiên liên tiếp: 50, 52, 48, 54, 60 (nghìn đồng). Mức thay đổi giá lớn nhất giữa hai phiên liền kề là:", "options": ["Tăng $6$ nghìn đồng (từ 54 lên 60)", "Giảm $4$ nghìn đồng", "Tăng $2$ nghìn đồng", "Tăng $10$ nghìn đồng"], "correct": 0}, {"id": 4, "level": "Vận dụng", "question": "Dân số một thành phố qua 3 năm: 2021: 2,0 triệu; 2022: 2,04 triệu; 2023: 2,0808 triệu. Tốc độ gia tăng dân số hằng năm của thành phố là:", "options": ["$2\\%$/năm", "$4\\%$/năm", "$1\\%$/năm", "$2{,}5\\%$/năm"], "correct": 0}, {"id": 5, "level": "Vận dụng", "question": "Quãng đường một vật chuyển động theo thời gian: 1s: 2m, 2s: 8m, 3s: 18m, 4s: 32m. Vận tốc trung bình trong giây thứ 4 (từ giây thứ 3 đến giây thứ 4) là:", "options": ["$14$ m/s", "$8$ m/s", "$10$ m/s", "$16$ m/s"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Nồng độ bụi mịn PM2.5 tại một trạm quan trắc trong 6 giờ: 45, 55, 75, 80, 60, 45 (mcg/m$^3$). Số giờ nồng độ vượt ngưỡng an toàn (50 mcg/m$^3$) là:", "options": ["$4$ giờ", "$3$ giờ", "$5$ giờ", "$2$ giờ"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Biểu đồ đoạn thẳng ghi nhận lượng nước tiêu thụ của gia đình trong 4 tháng: 18, 22, 25, 20 ($m^3$). Giá nước là 10 000 đồng/$m^3$. Tổng số tiền nước 4 tháng là:", "options": ["$850$ nghìn đồng", "$800$ nghìn đồng", "$900$ nghìn đồng", "$750$ nghìn đồng"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Nếu dữ liệu có tính chu kì (ví dụ doanh thu bán kem cao vào mùa hè và thấp vào mùa đông lặp lại hằng năm), biểu đồ đoạn thẳng nhiều năm sẽ có hình dạng:", "options": ["Hình sóng lượn dao động tuần hoàn", "Đường thẳng dốc đứng liên tục", "Đường nằm ngang tuyệt đối", "Đường xoắn ốc"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Chỉ số CPI (chỉ số giá tiêu dùng) của một quốc gia qua 4 quý: 101,2; 101,8; 102,5; 103,1. Xu thế lạm phát qua 4 quý là:", "options": ["Mặt bằng giá tiếp tục tăng đều", "Mặt bằng giá giảm dần", "Giá cả đóng băng không đổi", "Không thể xác định"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Một người đầu tư 100 triệu. Năm đầu lãi 20%, năm thứ hai lỗ 20%. Sau hai năm số tiền còn lại là:", "options": ["$96$ triệu đồng", "$100$ triệu đồng", "$104$ triệu đồng", "$90$ triệu đồng"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Để dự báo xu thế giá vàng trong tương lai gần dựa vào biểu đồ đoạn thẳng lịch sử 30 ngày qua, người ta sử dụng đường nào?", "options": ["Đường xu thế (Trendline) hoặc trung bình động (Moving Average)", "Đường bao ngoài", "Đường tiệm cận ngang", "Đường phân giác"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Hiện tượng \"gây nhiễu thị giác\" trong biểu đồ đoạn thẳng thường xảy ra khi:", "options": ["Trục tung bị bóp méo tỉ lệ khiến độ dốc trông quá lớn hoặc quá phẳng so với thực tế", "Ghi chú quá nhiều chữ", "Dùng màu đen trắng", "Vẽ trên giấy kẻ ô vuông"], "correct": 0}], "part2": [{"id": 1, "level": "Vận dụng", "question": "Biểu đồ đoạn thẳng kép biểu diễn doanh số bán điện thoại (triệu chiếc) của hai hãng X và Y qua 4 năm:\n- 2020: X = 15, Y = 10\n- 2021: X = 18, Y = 14\n- 2022: X = 20, Y = 18\n- 2023: X = 21, Y = 22.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Năm 2020, doanh số của hãng X gấp 1,5 lần hãng Y.", "isCorrect": true, "explanation": "$15 / 10 = 1{,}5$ lần."}, {"id": "b", "statement": "Hãng Y có tốc độ tăng trưởng doanh số nhanh hơn hãng X qua các năm.", "isCorrect": true, "explanation": "Y tăng từ 10 lên 22 (tăng 120%), X tăng từ 15 lên 21 (tăng 40%)."}, {"id": "c", "statement": "Năm 2023 là năm đầu tiên hãng Y vượt qua doanh số của hãng X.", "isCorrect": true, "explanation": "Năm 2023: Y = 22 > X = 21."}, {"id": "d", "statement": "Tổng doanh số của hai hãng năm 2022 bằng năm 2023.", "isCorrect": false, "explanation": "Tổng 2022 = $20 + 18 = 38$; Tổng 2023 = $21 + 22 = 43 \\neq 38$."}]}, {"id": 2, "level": "Vận dụng cao", "question": "Cho bảng số liệu ghi nhận độ sâu (m) của mực nước trong hồ thủy điện qua các tháng mùa khô (tháng 1 đến tháng 5):\n- Tháng 1: 85 m\n- Tháng 2: 82 m\n- Tháng 3: 78 m\n- Tháng 4: 73 m\n- Tháng 5: 68 m.\nBiết mực nước chết của hồ là 65 m. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Mực nước hồ giảm liên tục qua các tháng mùa khô.", "isCorrect": true, "explanation": "Các giá trị giảm dần từ 85 xuống 68 m."}, {"id": "b", "statement": "Độ giảm mực nước trung bình mỗi tháng là $4{,}25$ m.", "isCorrect": true, "explanation": "$(85 - 68) / 4 = 17 / 4 = 4{,}25$ m/tháng."}, {"id": "c", "statement": "Tháng 4 có tốc độ sụt giảm mực nước mạnh nhất (giảm 5 m so với tháng trước).", "isCorrect": true, "explanation": "T3 -> T4 giảm $78 - 73 = 5$ m; T4 -> T5 cũng giảm 5 m (cùng giảm mạnh nhất)."}, {"id": "d", "statement": "Đến tháng 5, mực nước hồ đã chạm mực nước chết.", "isCorrect": false, "explanation": "Mực nước tháng 5 là 68 m, vẫn cao hơn mực nước chết 65 m (cách 3 m)."}]}], "part3": [{"id": 1, "level": "Vận dụng", "question": "Doanh thu của một cửa hàng sách trong 4 tháng cuối năm lần lượt là: 40, 50, 60, 70 (triệu đồng). Dự báo theo đà tăng đều này thì doanh thu tháng 1 đầu năm sau là bao nhiêu triệu đồng?", "answer": 80, "unit": "triệu đồng"}, {"id": 2, "level": "Vận dụng", "question": "Số ca mắc cúm mùa tại một trạm y tế trong 4 tuần: Tuần 1: 12 ca, Tuần 2: 24 ca, Tuần 3: 48 ca, Tuần 4: 36 ca. Tuần nào có số ca mắc tăng gấp đôi tuần trước đó (điền 1, 2, 3 hoặc 4)?", "answer": 2, "unit": ""}, {"id": 3, "level": "Vận dụng cao", "question": "Một người tiết kiệm gửi ngân hàng 100 triệu với lãi suất kép 6%/năm. Sau 2 năm số tiền cả gốc và lãi người đó nhận được là bao nhiêu triệu đồng (làm tròn đến hàng phần trăm, ví dụ 112.36)?", "answer": 112.36, "unit": "triệu đồng"}, {"id": 4, "level": "Vận dụng cao", "question": "Khối lượng một bao ngũ cốc giảm dần do hao hụt: Ngày 0: 50 kg; Ngày 10: 48,5 kg; Ngày 20: 47 kg; Ngày 30: 45,5 kg. Hỏi sau bao nhiêu ngày kể từ ngày 0 thì khối lượng bao ngũ cốc còn đúng 35 kg (nếu tốc độ hao hụt không đổi)?", "answer": 100, "unit": "ngày"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Biểu đồ đoạn thẳng kép ghi lại sản lượng xuất khẩu gạo (triệu tấn) và kim ngạch (tỷ USD) của Việt Nam trong 3 năm:\n- 2021: Sản lượng 6,2 triệu tấn; Kim ngạch 3,28 tỷ USD.\n- 2022: Sản lượng 7,1 triệu tấn; Kim ngạch 3,45 tỷ USD.\n- 2023: Sản lượng 8,1 triệu tấn; Kim ngạch 4,68 tỷ USD.\na) Tính giá xuất khẩu bình quân mỗi tấn gạo (USD/tấn) của từng năm (làm tròn đến hàng đơn vị).\nb) Nhận xét về xu hướng giá trị xuất khẩu gạo năm 2023 so với hai năm trước đó.", "maxScore": 1.0, "solution": "a) Giá xuất khẩu bình quân mỗi tấn gạo = $\\frac{\\text{Kim ngạch (tỷ USD)} \\times 10^9}{\\text{Sản lượng (triệu tấn)} \\times 10^6} = \\frac{\\text{Kim ngạch}}{\\text{Sản lượng}} \\times 1000$ (USD/tấn).\n- Năm 2021: $\\frac{3{,}28}{6{,}2} \\times 1000 \\approx 529$ USD/tấn.\n- Năm 2022: $\\frac{3{,}45}{7{,}1} \\times 1000 \\approx 486$ USD/tấn.\n- Năm 2023: $\\frac{4{,}68}{8{,}1} \\times 1000 \\approx 578$ USD/tấn.\nb) Nhận xét: Năm 2023, giá xuất khẩu gạo bình quân tăng vọt lên 578 USD/tấn (tăng gần 19% so với năm 2022). Cả sản lượng và giá bán đều tăng mạnh, giúp kim ngạch xuất khẩu gạo năm 2023 đạt mức kỉ lục 4,68 tỷ USD.", "rubric": [{"step": "Tính đúng giá bình quân cả 3 năm: 529, 486, 578 USD/tấn", "subScore": 0.6}, {"step": "Phân tích và nhận xét sâu sắc xu hướng tăng trưởng năm 2023", "subScore": 0.4}]}, {"id": 2, "level": "Vận dụng cao", "question": "Bảng số liệu ghi lại tốc độ tăng trưởng GDP (%) của một quốc gia qua 5 năm:\n- Năm 1: 6,5%\n- Năm 2: 7,0%\n- Năm 3: 2,5% (năm dịch bệnh)\n- Năm 4: 8,0%\n- Năm 5: 6,8%.\na) Vẽ phác biểu đồ đoạn thẳng mô tả sự biến động của tốc độ tăng trưởng GDP.\nb) Hãy chỉ ra điểm gãy (biến động đột ngột) trên biểu đồ và giải thích nguyên nhân tác động thực tế của điểm gãy đó.", "maxScore": 1.0, "solution": "a) Mô tả biểu đồ đoạn thẳng:\n- Trục hoành: Năm 1, Năm 2, Năm 3, Năm 4, Năm 5.\n- Trục tung: Tốc độ tăng trưởng GDP (%).\n- Nối các điểm: $(1; 6{,}5) \\to (2; 7{,}0) \\to (3; 2{,}5) \\to (4; 8{,}0) \\to (5; 6{,}8)$.\nb) Điểm gãy trên biểu đồ:\n- Điểm gãy xuất hiện tại Năm 3 khi tốc độ tăng trưởng sụt giảm nghiêm trọng từ $7{,}0\\%$ xuống chỉ còn $2{,}5\\%$ (giảm 4,5 điểm phần trăm).\n- Giải thích thực tế: Năm 3 là năm xảy ra dịch bệnh bùng phát, các hoạt động sản xuất kinh doanh bị đình trệ, giãn cách xã hội khiến nền kinh tế bị ảnh hưởng nặng nề.\n- Ngay sau đó vào Năm 4, kinh tế phục hồi mạnh mẽ đạt đỉnh $8{,}0\\%$ (tăng trưởng chữ V) nhờ các chính sách kích cầu và mở cửa trở lại.", "rubric": [{"step": "Mô tả đầy đủ các mốc tọa độ và xu hướng đồ thị đoạn thẳng", "subScore": 0.5}, {"step": "Chỉ ra điểm gãy năm 3 và phân tích nguyên nhân dịch bệnh cùng đà phục hồi năm 4", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Một người bắt đầu tập thể dục giảm cân. Cân nặng của người đó được ghi lại vào ngày đầu tiên mỗi tháng như sau:\n- Tháng 1: 76 kg\n- Tháng 2: 74 kg\n- Tháng 3: 72,5 kg\n- Tháng 4: 71 kg\n- Tháng 5: 70 kg.\nMục tiêu của người đó là đạt cân nặng 65 kg.\na) Tính tốc độ giảm cân trung bình mỗi tháng của người đó từ tháng 1 đến tháng 5.\nb) Nếu tiếp tục duy trì tốc độ giảm cân trung bình trên, sau bao nhiêu tháng nữa kể từ tháng 5 người đó sẽ đạt được cân nặng mục tiêu?", "maxScore": 1.0, "solution": "a) Tổng số cân nặng đã giảm từ tháng 1 đến tháng 5 là:\n$76 - 70 = 6$ (kg).\nThời gian giảm là: $5 - 1 = 4$ (tháng).\nTốc độ giảm cân trung bình mỗi tháng là:\n$v = \\frac{6}{4} = 1{,}5$ (kg/tháng).\nb) Số cân nặng người đó cần giảm tiếp từ 70 kg về 65 kg là:\n$70 - 65 = 5$ (kg).\nThời gian cần thêm để đạt mục tiêu là:\n$t = \\frac{5}{1{,}5} = \\frac{10}{3} \\approx 3{,}33$ (tháng) (tức khoảng 3 tháng 10 ngày).\nVậy sau khoảng gần 3,5 tháng nữa (vào khoảng giữa tháng 8), người đó sẽ đạt được cân nặng mục tiêu 65 kg.", "rubric": [{"step": "Tính đúng tốc độ giảm cân trung bình là 1,5 kg/tháng", "subScore": 0.5}, {"step": "Tính đúng thời gian cần thêm khoảng 3,33 tháng để đạt 65 kg", "subScore": 0.5}]}]}, "c5_7_bai4_test1": {"title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương V: Thu thập và biểu diễn dữ liệu - Bài kiểm tra số 1 (🌱 Cơ bản)", "part1": [{"id": 1, "level": "Nhận biết", "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?", "options": ["Chiều cao của các học sinh trong lớp", "Tên các môn học yêu thích", "Xếp loại rèn luyện (Tốt, Khá, Đạt)", "Màu sắc áo đồng phục"], "correct": 0}, {"id": 2, "level": "Nhận biết", "question": "Biểu đồ nào thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần trong một tổng thể?", "options": ["Biểu đồ hình quạt tròn", "Biểu đồ đoạn thẳng", "Biểu đồ tranh", "Biểu đồ cột đơn"], "correct": 0}, {"id": 3, "level": "Nhận biết", "question": "Biểu đồ nào thích hợp nhất để theo dõi sự biến đổi nhiệt độ trong một ngày theo thời gian?", "options": ["Biểu đồ đoạn thẳng", "Biểu đồ hình quạt tròn", "Biểu đồ tranh", "Bảng dữ liệu chữ"], "correct": 0}, {"id": 4, "level": "Nhận biết", "question": "Trong biểu đồ hình quạt tròn, góc ở tâm $90^\\circ$ biểu diễn bao nhiêu phần trăm tổng thể?", "options": ["$25\\%$", "$50\\%$", "$75\\%$", "$10\\%$"], "correct": 0}, {"id": 5, "level": "Nhận biết", "question": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu gián tiếp?", "options": ["Tra cứu niên giám thống kê trên cổng thông tin điện tử", "Phát phiếu hỏi trực tiếp", "Quan sát và ghi chép thí nghiệm", "Phỏng vấn từng người"], "correct": 0}, {"id": 6, "level": "Thông hiểu", "question": "Dãy dữ liệu nào sau đây về điểm thi môn Toán (thang điểm 10) là hợp lí?", "options": ["$6; 7; 8{,}5; 9; 10$", "$5; 11; 8; -1; 7$", "$8; 9; A; 7; 6$", "$10; 8; 15; 9; 7$"], "correct": 0}, {"id": 7, "level": "Thông hiểu", "question": "Lớp 7A có 40 học sinh. Biểu đồ quạt tròn cho biết tỉ lệ học sinh thích chơi bóng đá là $45\\%$. Số học sinh thích chơi bóng đá của lớp 7A là:", "options": ["$18$ học sinh", "$20$ học sinh", "$16$ học sinh", "$22$ học sinh"], "correct": 0}, {"id": 8, "level": "Thông hiểu", "question": "Góc ở tâm biểu diễn tỉ lệ $40\\%$ trong biểu đồ hình quạt tròn là:", "options": ["$144^\\circ$", "$120^\\circ$", "$100^\\circ$", "$160^\\circ$"], "correct": 0}, {"id": 9, "level": "Thông hiểu", "question": "Nhiệt độ các ngày trong tuần: Thứ Hai: $28^\\circ$C, Thứ Ba: $30^\\circ$C, Thứ Tư: $29^\\circ$C, Thứ Năm: $32^\\circ$C. Ngày nào có nhiệt độ cao nhất?", "options": ["Thứ Năm", "Thứ Ba", "Thứ Hai", "Thứ Tư"], "correct": 0}, {"id": 10, "level": "Thông hiểu", "question": "Khảo sát ý kiến của 50 học sinh về món ăn sáng: Bánh mì 25, Phở 15, Xôi 10. Tỉ lệ học sinh thích Bánh mì là:", "options": ["$50\\%$", "$30\\%$", "$20\\%$", "$40\\%$"], "correct": 0}, {"id": 11, "level": "Vận dụng", "question": "Một tổ có 6 bạn có số điểm kiểm tra: $7; 8; 9; 8; 8; 8$. Điểm trung bình của tổ là:", "options": ["$8{,}0$", "$7{,}5$", "$8{,}2$", "$8{,}5$"], "correct": 0}, {"id": 12, "level": "Vận dụng", "question": "Một gia đình có tổng thu nhập 15 triệu đồng/tháng. Biểu đồ quạt tròn cho biết tiền tiết kiệm chiếm 20%. Số tiền tiết kiệm mỗi tháng là:", "options": ["$3$ triệu đồng", "$2$ triệu đồng", "$4$ triệu đồng", "$2{,}5$ triệu đồng"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ quạt tròn biểu diễn tỉ lệ phân loại rác thải của một trường học: Giấy 35%, Nhựa 40%, Kim loại 15%, Rác khác 10%. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Rác thải nhựa chiếm tỉ lệ lớn nhất ($40\\%$).", "isCorrect": true, "explanation": "$40\\%$ là tỉ lệ cao nhất."}, {"id": "b", "statement": "Góc ở tâm của hình quạt biểu diễn rác thải giấy là $126^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 35\\% = 126^\\circ$."}, {"id": "c", "statement": "Góc ở tâm biểu diễn rác kim loại là $54^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 15\\% = 54^\\circ$."}, {"id": "d", "statement": "Nếu tổng khối lượng rác là 200 kg thì rác hữu cơ/khác là 30 kg.", "isCorrect": false, "explanation": "Khối lượng rác khác $= 200 \\times 10\\% = 20$ kg, không phải 30 kg."}]}, {"id": 2, "level": "Thông hiểu", "question": "Cho các khẳng định về lựa chọn biểu đồ thích hợp để biểu diễn dữ liệu, xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Để so sánh dân số giữa 5 thành phố lớn tại một thời điểm, ta nên dùng biểu đồ cột.", "isCorrect": true, "explanation": "Biểu đồ cột trực quan nhất để so sánh các số lượng tuyệt đối."}, {"id": "b", "statement": "Để biểu diễn sự thay đổi giá vàng trong 30 ngày vừa qua, ta nên dùng biểu đồ đoạn thẳng.", "isCorrect": true, "explanation": "Biểu đồ đoạn thẳng thích hợp nhất cho sự biến thiên theo thời gian."}, {"id": "c", "statement": "Để biểu diễn tỉ lệ phần trăm các loại chi phí sinh hoạt của gia đình, ta nên dùng biểu đồ hình quạt tròn.", "isCorrect": true, "explanation": "Biểu đồ quạt tròn tối ưu cho tỉ lệ cơ cấu phần trăm của một tổng thể."}, {"id": "d", "statement": "Biểu đồ hình quạt tròn có thể dùng để biểu diễn đại lượng có giá trị âm.", "isCorrect": false, "explanation": "Các phần trăm và góc ở tâm trong biểu đồ quạt tròn luôn là các giá trị dương."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Tính góc ở tâm (độ) của hình quạt biểu diễn tỉ lệ $20\\%$ trong biểu đồ hình quạt tròn.", "answer": 72, "unit": "độ"}, {"id": 2, "level": "Thông hiểu", "question": "Điểm kiểm tra của An qua 3 lần là: 7, 8, 9. Tính điểm trung bình của An qua 3 lần đó.", "answer": 8, "unit": ""}, {"id": 3, "level": "Vận dụng", "question": "Một trường học có 600 học sinh. Biểu đồ quạt cho biết có 15% học sinh đi xe buýt. Có bao nhiêu học sinh đi xe buýt đến trường?", "answer": 90, "unit": "học sinh"}, {"id": 4, "level": "Vận dụng", "question": "Nhiệt độ lúc 7h sáng là $21^\\circ$C, lúc 13h trưa là $29^\\circ$C. Độ chênh lệch nhiệt độ giữa hai thời điểm là bao nhiêu độ C?", "answer": 8, "unit": "độ C"}], "part4": [{"id": 1, "level": "Thông hiểu", "question": "Khảo sát ý thích về 4 môn thể thao của 120 học sinh khối 7 thu được kết quả:\n- Bóng đá: 48 bạn\n- Cầu lông: 36 bạn\n- Bơi lội: 24 bạn\n- Bóng rổ: 12 bạn\na) Lập bảng tỉ lệ phần trăm của từng môn thể thao.\nb) Tính góc ở tâm tương ứng của mỗi môn thể thao khi biểu diễn trên biểu đồ hình quạt tròn.", "maxScore": 1.0, "solution": "a) Tỉ lệ phần trăm của từng môn:\n- Bóng đá: $\\frac{48}{120} \\times 100\\% = 40\\%$.\n- Cầu lông: $\\frac{36}{120} \\times 100\\% = 30\\%$.\n- Bơi lội: $\\frac{24}{120} \\times 100\\% = 20\\%$.\n- Bóng rổ: $\\frac{12}{120} \\times 100\\% = 10\\%$.\nb) Góc ở tâm tương ứng:\n- Bóng đá: $360^\\circ \\times 40\\% = 144^\\circ$.\n- Cầu lông: $360^\\circ \\times 30\\% = 108^\\circ$.\n- Bơi lội: $360^\\circ \\times 20\\% = 72^\\circ$.\n- Bóng rổ: $360^\\circ \\times 10\\% = 36^\\circ$.", "rubric": [{"step": "Tính đúng các tỉ lệ: 40%, 30%, 20%, 10%", "subScore": 0.5}, {"step": "Tính đúng các góc ở tâm: 144 độ, 108 độ, 72 độ, 36 độ", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng", "question": "Biểu đồ đoạn thẳng theo dõi lượng điện tiêu thụ (kWh) của một hộ gia đình trong 6 tháng đầu năm:\n- Tháng 1: 180 kWh\n- Tháng 2: 160 kWh\n- Tháng 3: 170 kWh\n- Tháng 4: 210 kWh\n- Tháng 5: 260 kWh\n- Tháng 6: 300 kWh\na) Tháng nào gia đình tiêu thụ nhiều điện nhất? Tháng nào tiêu thụ ít điện nhất?\nb) Giải thích vì sao lượng điện tiêu thụ lại tăng mạnh trong tháng 5 và tháng 6.", "maxScore": 1.0, "solution": "a) - Tháng tiêu thụ nhiều điện nhất là Tháng 6 (300 kWh).\n- Tháng tiêu thụ ít điện nhất là Tháng 2 (160 kWh).\nb) Giải thích thực tế: Tháng 5 và tháng 6 là thời điểm bắt đầu vào mùa hè nắng nóng đỉnh điểm ở nước ta. Gia đình sử dụng nhiều thiết bị làm mát công suất lớn như quạt điện, máy điều hòa nhiệt độ hoạt động liên tục cả ngày lẫn đêm, dẫn đến sản lượng điện tiêu thụ tăng vọt.", "rubric": [{"step": "Chỉ ra đúng tháng nhiều nhất (T6) và ít nhất (T2)", "subScore": 0.5}, {"step": "Giải thích hợp lí nguyên nhân thời tiết mùa hè nắng nóng dùng máy lạnh", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng", "question": "Một tổ có 10 học sinh làm một bài kiểm tra Toán. Điểm của 9 bạn là: $6, 7, 8, 8, 9, 7, 8, 9, 10$. Biết điểm trung bình của cả tổ 10 bạn là $8{,}0$. Hãy tìm điểm của bạn thứ 10.", "maxScore": 1.0, "solution": "Tổng điểm của cả 10 bạn là:\n$S = 10 \\times 8{,}0 = 80$ (điểm).\nTổng điểm của 9 bạn đã biết là:\n$6 + 7 + 8 + 8 + 9 + 7 + 8 + 9 + 10 = 72$ (điểm).\nĐiểm số của bạn thứ 10 là:\n$x = 80 - 72 = 8$ (điểm).\nVậy bạn thứ 10 đạt 8 điểm.", "rubric": [{"step": "Tính tổng điểm cả tổ: 80 điểm", "subScore": 0.5}, {"step": "Tính tổng 9 bạn là 72 và suy ra bạn thứ 10 được 8 điểm", "subScore": 0.5}]}]}, "c5_7_bai4_test2": {"title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương V: Thu thập và biểu diễn dữ liệu - Bài kiểm tra số 2 (🌿 Khá)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Để biểu diễn số lượng học sinh giỏi các lớp 7A, 7B, 7C, 7D, loại biểu đồ nào sau đây là phù hợp nhất?", "options": ["Biểu đồ cột", "Biểu đồ đoạn thẳng", "Biểu đồ hình quạt tròn", "Biểu đồ đám mây"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Biểu đồ quạt tròn biểu diễn xếp loại thi đua có góc ở tâm của khối Tốt là $162^\\circ$. Tỉ lệ học sinh đạt loại Tốt là:", "options": ["$45\\%$", "$40\\%$", "$50\\%$", "$35\\%$"], "correct": 0}, {"id": 3, "level": "Thông hiểu", "question": "Một giải bóng đá có 8 đội thi đấu vòng tròn 1 lượt. Mỗi trận thắng được 3 điểm, hòa 1 điểm, thua 0 điểm. Dữ liệu \"số điểm của các đội sau giải\" thuộc loại:", "options": ["Dữ liệu số rời rạc", "Dữ liệu định tính", "Dữ liệu liên tục", "Dữ liệu không so sánh được"], "correct": 0}, {"id": 4, "level": "Thông hiểu", "question": "Biểu đồ đoạn thẳng ghi lại số ca khỏi bệnh Covid-19 trong một tuần có đoạn dốc đứng nhất vào ngày nào? Điều đó có ý nghĩa gì?", "options": ["Ngày có số ca khỏi bệnh tăng nhanh nhất so với ngày trước", "Ngày có số ca khỏi bệnh thấp nhất", "Ngày không có ca khỏi bệnh nào", "Ngày trạm y tế đóng cửa"], "correct": 0}, {"id": 5, "level": "Thông hiểu", "question": "Cơ cấu chi phí sản xuất một sản phẩm gồm: Nguyên liệu 50%, Nhân công 30%, Khấu hao 15%, Chi khác 5%. Góc ở tâm biểu diễn chi phí Nguyên liệu là:", "options": ["$180^\\circ$", "$150^\\circ$", "$120^\\circ$", "$90^\\circ$"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Một cửa hàng thống kê doanh thu 4 tuần của tháng 12: 50, 65, 80, 105 (triệu đồng). Doanh thu tuần 4 tăng bao nhiêu phần trăm so với tuần 1?", "options": ["$110\\%$", "$100\\%$", "$120\\%$", "$90\\%$"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Khảo sát thời gian xem tivi mỗi ngày của 5 học sinh: 1h, 1,5h, 2h, 2,5h, 3h. Thời gian xem trung bình của nhóm là:", "options": ["$2$ giờ", "$1{,}8$ giờ", "$2{,}2$ giờ", "$2{,}5$ giờ"], "correct": 0}, {"id": 8, "level": "Vận dụng", "question": "Trong biểu đồ quạt tròn, phần dành cho thể thao chiếm góc $108^\\circ$. Nếu có tổng cộng 500 bạn được khảo sát thì có bao nhiêu bạn chọn thể thao?", "options": ["$150$ bạn", "$120$ bạn", "$180$ bạn", "$100$ bạn"], "correct": 0}, {"id": 9, "level": "Vận dụng", "question": "Cho dãy dữ liệu nhiệt độ: $25, 27, 26, 31, 28, 29$. Trung vị của dãy số liệu là:", "options": ["$27{,}5$", "$27$", "$28$", "$26{,}5$"], "correct": 0}, {"id": 10, "level": "Vận dụng", "question": "Một người bán hàng lãi 15% trong tháng 1, lãi 25% trong tháng 2 so với vốn ban đầu không đổi. Mức tăng trưởng lợi nhuận của tháng 2 so với tháng 1 là:", "options": ["$66{,}7\\%$", "$10\\%$", "$50\\%$", "$40\\%$"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Khi đọc biểu đồ đoạn thẳng, việc trục tung không xuất phát từ 0 mà không có kí hiệu ngắt trục có thể gây ra ảo giác gì?", "options": ["Làm người đọc cảm thấy sự khác biệt giữa các số liệu bị phóng đại quá mức", "Làm cho số liệu trông nhỏ hơn thực tế", "Làm mất tính thời gian của số liệu", "Làm đổi chiều tăng giảm"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Một trường học có 1200 học sinh. Để chọn mẫu 60 học sinh khảo sát, người ta chọn ngẫu nhiên mỗi lớp 2 học sinh. Cách chọn mẫu này gọi là:", "options": ["Chọn mẫu phân tầng ngẫu nhiên", "Chọn mẫu thuận tiện", "Chọn mẫu tự nguyện", "Chọn mẫu cụm"], "correct": 0}], "part2": [{"id": 1, "level": "Thông hiểu", "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia 3 môn năng khiếu: Vẽ 30%, Hát 45%, Nhảy hiện đại 25%. Tổng số học sinh là 200 bạn. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Số bạn thích Hát là $90$ bạn.", "isCorrect": true, "explanation": "$200 \\times 45\\% = 90$ bạn."}, {"id": "b", "statement": "Góc ở tâm biểu diễn môn Nhảy hiện đại là $90^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 25\\% = 90^\\circ$."}, {"id": "c", "statement": "Số bạn thích Vẽ nhiều hơn số bạn thích Nhảy là 10 bạn.", "isCorrect": true, "explanation": "Vẽ: 60 bạn; Nhảy: 50 bạn $\\Rightarrow 60 - 50 = 10$ bạn."}, {"id": "d", "statement": "Góc ở tâm biểu diễn môn Hát là $180^\\circ$.", "isCorrect": false, "explanation": "$360^\\circ \\times 45\\% = 162^\\circ \\neq 180^\\circ$."}]}, {"id": 2, "level": "Vận dụng", "question": "Một biểu đồ đoạn thẳng biểu diễn số sản phẩm lỗi của một nhà máy trong 5 tuần: Tuần 1: 50, Tuần 2: 42, Tuần 3: 35, Tuần 4: 25, Tuần 5: 18. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Số sản phẩm lỗi có xu hướng giảm liên tục qua các tuần.", "isCorrect": true, "explanation": "Các giá trị giảm đều: 50 -> 42 -> 35 -> 25 -> 18."}, {"id": "b", "statement": "Tổng số sản phẩm lỗi trong 5 tuần là $170$ sản phẩm.", "isCorrect": true, "explanation": "$50 + 42 + 35 + 25 + 18 = 170$ sản phẩm."}, {"id": "c", "statement": "Tuần 4 có số lỗi giảm nhiều nhất so với tuần liền trước (giảm 10 lỗi).", "isCorrect": true, "explanation": "$35 - 25 = 10$ lỗi (các tuần khác giảm 8, 7, 7)."}, {"id": "d", "statement": "Số sản phẩm lỗi ở Tuần 5 giảm hơn $70\\%$ so với Tuần 1.", "isCorrect": false, "explanation": "Tỉ lệ giảm $= (50 - 18) / 50 = 32 / 50 = 64\\% < 70\\%$."}]}], "part3": [{"id": 1, "level": "Thông hiểu", "question": "Góc ở tâm của hình quạt biểu diễn tỉ lệ $45\\%$ là bao nhiêu độ?", "answer": 162, "unit": "độ"}, {"id": 2, "level": "Vận dụng", "question": "Điểm trung bình của 4 bài kiểm tra môn Toán là 7,5. Sau bài kiểm tra thứ năm, điểm trung bình tăng lên thành 7,8. Hỏi bài kiểm tra thứ năm bạn đó đạt mấy điểm?", "answer": 9, "unit": "điểm"}, {"id": 3, "level": "Vận dụng", "question": "Một công ty có doanh thu quý I là 40 tỷ đồng, quý II là 52 tỷ đồng. Doanh thu quý II tăng bao nhiêu phần trăm so với quý I?", "answer": 30, "unit": "%"}, {"id": 4, "level": "Vận dụng cao", "question": "Biểu đồ quạt tròn có 3 hình quạt. Góc ở tâm của hình quạt 1 là $144^\\circ$, hình quạt 2 là $108^\\circ$. Hỏi hình quạt 3 chiếm bao nhiêu phần trăm tổng thể?", "answer": 30, "unit": "%"}], "part4": [{"id": 1, "level": "Vận dụng", "question": "Bảng số liệu sau ghi nhận kim ngạch xuất khẩu thủy sản của Việt Nam trong 4 quý năm 2023:\n- Quý I: 1,8 tỷ USD\n- Quý II: 2,3 tỷ USD\n- Quý III: 2,5 tỷ USD\n- Quý IV: 2,4 tỷ USD\na) Vẽ bảng phân bố tỉ lệ phần trăm kim ngạch xuất khẩu từng quý so với cả năm (tổng cả năm là 9,0 tỷ USD).\nb) Tính số đo góc ở tâm tương ứng của từng quý trên biểu đồ hình quạt tròn.", "maxScore": 1.0, "solution": "a) Tổng kim ngạch cả năm $= 1{,}8 + 2{,}3 + 2{,}5 + 2{,}4 = 9{,}0$ (tỷ USD).\nTỉ lệ phần trăm từng quý:\n- Quý I: $\\frac{1{,}8}{9{,}0} \\times 100\\% = 20\\%$.\n- Quý II: $\\frac{2{,}3}{9{,}0} \\times 100\\% \\approx 25{,}56\\%$.\n- Quý III: $\\frac{2{,}5}{9{,}0} \\times 100\\% \\approx 27{,}78\\%$.\n- Quý IV: $\\frac{2{,}4}{9{,}0} \\times 100\\% \\approx 26{,}66\\%$.\nb) Góc ở tâm tương ứng:\n- Quý I: $360^\\circ \\times 20\\% = 72^\\circ$.\n- Quý II: $360^\\circ \\times \\frac{2{,}3}{9{,}0} = 92^\\circ$.\n- Quý III: $360^\\circ \\times \\frac{2{,}5}{9{,}0} = 100^\\circ$.\n- Quý IV: $360^\\circ \\times \\frac{2{,}4}{9{,}0} = 96^\\circ$.\nKiểm tra: $72^\\circ + 92^\\circ + 100^\\circ + 96^\\circ = 360^\\circ$.", "rubric": [{"step": "Tính đúng các tỉ lệ phần trăm từng quý", "subScore": 0.5}, {"step": "Tính đúng các góc ở tâm: 72, 92, 100, 96 độ", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng", "question": "Một người ghi chép thời gian chạy bộ mỗi ngày trong 1 tuần (phút): $30; 35; 40; 0; 45; 50; 45$.\na) Xác định giá trị bất thường trong dãy số liệu trên và giải thích lí do.\nb) Tính thời gian chạy bộ trung bình mỗi ngày trong những ngày người đó có tập luyện.", "maxScore": 1.0, "solution": "a) Giá trị bất thường là $0$ (phút).\nGiải thích: Giá trị này tương ứng với ngày người đó nghỉ tập (hoặc bận việc đột xuất/ốm), khác biệt hoàn toàn với thói quen tập từ 30 đến 50 phút của các ngày còn lại.\nb) Số ngày có tập luyện là 6 ngày. Tổng thời gian tập của 6 ngày là:\n$30 + 35 + 40 + 45 + 50 + 45 = 245$ (phút).\nThời gian chạy bộ trung bình mỗi ngày tập là:\n$\\bar{t} = \\frac{245}{6} \\approx 40{,}83$ phút (khoảng 40 phút 50 giây).", "rubric": [{"step": "Chỉ ra giá trị bất thường 0 phút và giải thích hợp lí", "subScore": 0.5}, {"step": "Tính đúng thời gian trung bình của 6 ngày tập là 40,83 phút", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Một lớp học có 40 học sinh gồm 3 tổ. Tổ 1 có 12 bạn có điểm trung bình môn Văn là 7,5. Tổ 2 có 14 bạn có điểm trung bình là 8,0. Cả lớp có điểm trung bình là 7,8.\na) Tính điểm trung bình môn Văn của Tổ 3.\nb) Nhận xét về chất lượng học tập môn Văn giữa 3 tổ.", "maxScore": 1.0, "solution": "a) Số học sinh của Tổ 3 là:\n$40 - (12 + 14) = 40 - 26 = 14$ (học sinh).\nTổng điểm môn Văn của cả lớp là:\n$S = 40 \\times 7{,}8 = 312$ (điểm).\nTổng điểm của Tổ 1 là:\n$S_1 = 12 \\times 7{,}5 = 90$ (điểm).\nTổng điểm của Tổ 2 là:\n$S_2 = 14 \\times 8{,}0 = 112$ (điểm).\nTổng điểm của Tổ 3 là:\n$S_3 = 312 - (90 + 112) = 312 - 202 = 110$ (điểm).\nĐiểm trung bình môn Văn của Tổ 3 là:\n$\\bar{X}_3 = \\frac{110}{14} \\approx 7{,}86$ (điểm).\nb) Nhận xét: Tổ 2 có điểm trung bình cao nhất ($8{,}0$), tiếp theo là Tổ 3 ($7{,}86$) và Tổ 1 thấp nhất ($7{,}5$). Cả 3 tổ đều đạt mức điểm Khá giỏi đồng đều.", "rubric": [{"step": "Tính đúng số học sinh Tổ 3 là 14 và điểm trung bình xấp xỉ 7,86", "subScore": 0.6}, {"step": "So sánh và đưa ra nhận xét chính xác giữa 3 tổ", "subScore": 0.4}]}]}, "c5_7_bai4_test3": {"title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương V: Thu thập và biểu diễn dữ liệu - Bài kiểm tra số 3 (🚀 Nâng cao)", "part1": [{"id": 1, "level": "Thông hiểu", "question": "Khi muốn khảo sát ý kiến học sinh về việc đổi mới đồng phục, phương pháp chọn mẫu nào sau đây tránh được thiên vị giới tính và khối lớp nhất?", "options": ["Chọn mẫu ngẫu nhiên phân tầng theo khối lớp và theo giới tính nam/nữ", "Phỏng vấn các bạn ở câu lạc bộ thời trang", "Hỏi các bạn nữ trong trường", "Lấy ý kiến đại diện của các bạn trong ban cán sự lớp"], "correct": 0}, {"id": 2, "level": "Thông hiểu", "question": "Trong biểu đồ quạt tròn có 4 hình quạt A, B, C, D tỉ lệ thuận với các số $2, 3, 4, 6$. Số đo góc ở tâm của hình quạt lớn nhất là:", "options": ["$144^\\circ$", "$120^\\circ$", "$96^\\circ$", "$160^\\circ$"], "correct": 0}, {"id": 3, "level": "Vận dụng", "question": "Một người đầu tư cổ phiếu: ngày 1 tăng 10%, ngày 2 giảm 10% so với ngày 1. So với giá ban đầu, giá cổ phiếu sau 2 ngày:", "options": ["Giảm $1\\%$", "Không thay đổi", "Tăng $1\\%$", "Giảm $2\\%$"], "correct": 0}, {"id": 4, "level": "Vận dụng", "question": "Một dãy gồm 9 số nguyên dương xếp theo thứ tự tăng dần có số trung vị là 15. Nếu tăng số lớn nhất lên 10 đơn vị thì số trung vị mới là:", "options": ["$15$", "$25$", "$16$", "Không xác định"], "correct": 0}, {"id": 5, "level": "Vận dụng", "question": "Biểu đồ đoạn thẳng kép ghi nhận doanh thu và chi phí của công ty qua 4 quý. Lợi nhuận đạt mức cao nhất khi:", "options": ["Khoảng cách thẳng đứng từ điểm doanh thu xuống điểm chi phí là lớn nhất (doanh thu > chi phí)", "Doanh thu cao nhất", "Chi phí thấp nhất", "Doanh thu bằng chi phí"], "correct": 0}, {"id": 6, "level": "Vận dụng", "question": "Một bể bơi ghi nhận lượng khách trong 4 ngày nghỉ lễ: 500, 650, 800, 950 người. Lượng khách trung bình mỗi ngày là:", "options": ["$725$ người", "$700$ người", "$750$ người", "$800$ người"], "correct": 0}, {"id": 7, "level": "Vận dụng", "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần X, Y, Z. Biết diện tích hình quạt X bằng $\\frac{1}{3}$ hình quạt Y, hình quạt Y bằng $\\frac{1}{2}$ hình quạt Z. Góc ở tâm của hình quạt X là:", "options": ["$36^\\circ$", "$72^\\circ$", "$108^\\circ$", "$144^\\circ$"], "correct": 0}, {"id": 8, "level": "Vận dụng cao", "question": "Cho bảng phân bố điểm thi môn Toán của 50 học sinh có trung bình là 7,2. Khi phát hiện một bài 4 điểm bị chấm nhầm thành 9 điểm và được sửa lại, điểm trung bình thực tế của lớp là:", "options": ["$7{,}1$", "$7{,}0$", "$7{,}15$", "$7{,}05$"], "correct": 0}, {"id": 9, "level": "Vận dụng cao", "question": "Một tam giác số liệu hình quạt tròn có 3 góc ở tâm tỉ lệ với $1 : 2 : 3$. Tỉ lệ phần trăm của hình quạt lớn nhất là:", "options": ["$50\\%$", "$60\\%$", "$33{,}3\\%$", "$45\\%$"], "correct": 0}, {"id": 10, "level": "Vận dụng cao", "question": "Khi nghiên cứu mối quan hệ giữa chiều cao và cân nặng của học sinh, loại biểu đồ thích hợp nhất để nhận biết tương quan hai đại lượng là:", "options": ["Biểu đồ phân tán (Scatter plot)", "Biểu đồ hình quạt tròn", "Biểu đồ cột đơn", "Biểu đồ tranh"], "correct": 0}, {"id": 11, "level": "Vận dụng cao", "question": "Cho dãy số: $2, 4, 6, 8, \\dots, 2n$ có trung bình cộng bằng 21. Giá trị của $n$ là:", "options": ["$20$", "$21$", "$19$", "$22$"], "correct": 0}, {"id": 12, "level": "Vận dụng cao", "question": "Một người quan sát thấy biểu đồ doanh thu một công ty có trục tung bắt đầu từ 90 đến 100 với bước nhảy 1 đơn vị. Đoạn thẳng dốc vọt lên trên biểu đồ thực tế thể hiện mức tăng trưởng:", "options": ["Rất nhỏ (chỉ vài phần trăm) nhưng bị phóng đại trực quan do ngắt trục", "Tăng trưởng đột biến hàng trăm phần trăm", "Doanh thu bị giảm", "Không có doanh thu"], "correct": 0}], "part2": [{"id": 1, "level": "Vận dụng", "question": "Một gia đình phân bổ ngân sách 30 triệu đồng/tháng thành 4 khoản: Sinh hoạt phí 45%, Học phí cho con 25%, Tiết kiệm 20%, Quỹ dự phòng 10%. Xét tính đúng/sai:", "statements": [{"id": "a", "statement": "Số tiền chi cho sinh hoạt phí là $13{,}5$ triệu đồng.", "isCorrect": true, "explanation": "$30 \\times 45\\% = 13{,}5$ triệu đồng."}, {"id": "b", "statement": "Góc ở tâm của hình quạt biểu diễn quỹ dự phòng là $36^\\circ$.", "isCorrect": true, "explanation": "$360^\\circ \\times 10\\% = 36^\\circ$."}, {"id": "c", "statement": "Số tiền dành cho học phí và tiết kiệm tổng cộng là $13{,}5$ triệu đồng.", "isCorrect": true, "explanation": "$25\\% + 20\\% = 45\\% \\Rightarrow 30 \\times 45\\% = 13{,}5$ triệu đồng."}, {"id": "d", "statement": "Góc ở tâm của hình quạt biểu diễn học phí gấp đôi quỹ dự phòng.", "isCorrect": false, "explanation": "Học phí là 25%, dự phòng là 10% $\\Rightarrow 25/10 = 2{,}5$ lần, không phải gấp đôi."}]}, {"id": 2, "level": "Vận dụng cao", "question": "Cho bảng số liệu ghi nhận sự tăng trưởng chiều cao (cm) của một cây tre giống mới qua 5 ngày:\n- Ngày 1: 10 cm\n- Ngày 2: 25 cm\n- Ngày 3: 50 cm\n- Ngày 4: 90 cm\n- Ngày 5: 150 cm.\nXét tính đúng/sai:", "statements": [{"id": "a", "statement": "Tốc độ tăng chiều cao của cây tre ngày sau luôn lớn hơn ngày trước.", "isCorrect": true, "explanation": "Mức tăng mỗi ngày: $15, 25, 40, 60$ cm (tăng dần)."}, {"id": "b", "statement": "Trong ngày thứ 5 (từ ngày 4 đến ngày 5), cây tre cao thêm $60$ cm.", "isCorrect": true, "explanation": "$150 - 90 = 60$ cm."}, {"id": "c", "statement": "Chiều cao trung bình mỗi ngày cây tre tăng được trong 4 khoảng ngày là $35$ cm/ngày.", "isCorrect": true, "explanation": "$(150 - 10) / 4 = 140 / 4 = 35$ cm/ngày."}, {"id": "d", "statement": "Biểu đồ đoạn thẳng mô tả chiều cao cây tre có độ dốc giảm dần.", "isCorrect": false, "explanation": "Tốc độ tăng ngày càng nhanh nên biểu đồ có độ dốc ngày càng lớn (cong vồng lên), không phải giảm dần."}]}], "part3": [{"id": 1, "level": "Vận dụng", "question": "Một tổ gồm 5 học sinh có cân nặng trung bình là 42 kg. Sau khi một bạn nặng 50 kg chuyển sang tổ khác, cân nặng trung bình của 4 bạn còn lại là bao nhiêu kg?", "answer": 40, "unit": "kg"}, {"id": 2, "level": "Vận dụng", "question": "Góc ở tâm của hình quạt thứ nhất là $150^\\circ$, hình quạt thứ hai là $120^\\circ$, hình quạt thứ ba chiếm phần còn lại. Hỏi hình quạt thứ ba chiếm bao nhiêu phần trăm tổng thể?", "answer": 25, "unit": "%"}, {"id": 3, "level": "Vận dụng cao", "question": "Một người chạy bộ tuần 1 chạy 20 km. Mỗi tuần sau người đó tăng quãng đường chạy thêm 10% so với tuần trước đó. Hỏi trong tuần thứ 3 người đó chạy được bao nhiêu km (điền số thập phân)?", "answer": 24.2, "unit": "km"}, {"id": 4, "level": "Vận dụng cao", "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần A, B, C. Tỉ số diện tích giữa A và B là 2:3, giữa B và C là 3:5. Tính số đo góc ở tâm (độ) của thành phần C.", "answer": 180, "unit": "độ"}], "part4": [{"id": 1, "level": "Vận dụng cao", "question": "Một công ty dự định đầu tư vào 3 mảng kinh doanh: Nông nghiệp công nghệ cao, Năng lượng tái tạo và Dịch vụ số với tỉ lệ vốn góp ban đầu theo thứ tự là $2 : 3 : 5$. Tổng số vốn là 200 tỷ đồng.\na) Tính số vốn đầu tư vào từng mảng.\nb) Sau 1 năm, vốn ở mảng Nông nghiệp tăng $20\\%$, Năng lượng tăng $10\\%$, Dịch vụ số tăng $30\\%$. Tính cơ cấu tỉ lệ phần trăm mới của 3 mảng sau 1 năm (làm tròn đến hàng phần mười).", "maxScore": 1.0, "solution": "a) Tổng số phần bằng nhau là: $2 + 3 + 5 = 10$ phần.\nGiá trị 1 phần là: $200 : 10 = 20$ (tỷ đồng).\nSố vốn ban đầu của từng mảng:\n- Nông nghiệp: $20 \\times 2 = 40$ tỷ đồng.\n- Năng lượng: $20 \\times 3 = 60$ tỷ đồng.\n- Dịch vụ số: $20 \\times 5 = 100$ tỷ đồng.\nb) Số vốn của từng mảng sau 1 năm:\n- Nông nghiệp: $40 \\times (1 + 0{,}2) = 48$ tỷ đồng.\n- Năng lượng: $60 \\times (1 + 0{,}1) = 66$ tỷ đồng.\n- Dịch vụ số: $100 \\times (1 + 0{,}3) = 130$ tỷ đồng.\nTổng số vốn sau 1 năm là: $48 + 66 + 130 = 244$ tỷ đồng.\nCơ cấu tỉ lệ phần trăm mới:\n- Nông nghiệp: $\\frac{48}{244} \\times 100\\% \\approx 19{,}7\\%$.\n- Năng lượng: $\\frac{66}{244} \\times 100\\% \\approx 27{,}0\\%$.\n- Dịch vụ số: $\\frac{130}{244} \\times 100\\% \\approx 53{,}3\\%$.\nTổng tỉ lệ mới $= 19{,}7\\% + 27{,}0\\% + 53{,}3\\% = 100\\%$.", "rubric": [{"step": "Tính đúng vốn ban đầu: Nông nghiệp 40, Năng lượng 60, Dịch vụ số 100 tỷ", "subScore": 0.5}, {"step": "Tính đúng vốn mới và cơ cấu phần trăm mới: 19,7%, 27,0%, 53,3%", "subScore": 0.5}]}, {"id": 2, "level": "Vận dụng cao", "question": "Biểu đồ đoạn thẳng kép ghi nhận doanh thu (D) và chi phí (C) của một chuỗi nhà hàng qua 4 quý năm 2024 (đơn vị: tỷ đồng):\n| Quý | I | II | III | IV |\n| Doanh thu (D) | 12 | 15 | 18 | 22 |\n| Chi phí (C) | 10 | 11 | 13 | 15 |\na) Tính lợi nhuận (Lợi nhuận = Doanh thu - Chi phí) của chuỗi nhà hàng ở từng quý.\nb) Tính tỉ suất lợi nhuận trên doanh thu (Lợi nhuận / Doanh thu) của cả năm 2024.", "maxScore": 1.0, "solution": "a) Lợi nhuận của chuỗi nhà hàng từng quý:\n- Quý I: $12 - 10 = 2$ tỷ đồng.\n- Quý II: $15 - 11 = 4$ tỷ đồng.\n- Quý III: $18 - 13 = 5$ tỷ đồng.\n- Quý IV: $22 - 15 = 7$ tỷ đồng.\nb) Tổng doanh thu cả năm 2024:\n$D_{\\text{năm}} = 12 + 15 + 18 + 22 = 67$ tỷ đồng.\nTổng chi phí cả năm 2024:\n$C_{\\text{năm}} = 10 + 11 + 13 + 15 = 49$ tỷ đồng.\nTổng lợi nhuận cả năm 2024:\n$L_{\\text{năm}} = 67 - 49 = 18$ tỷ đồng (hoặc $2 + 4 + 5 + 7 = 18$ tỷ đồng).\nTỉ suất lợi nhuận trên doanh thu cả năm là:\n$P = \\frac{18}{67} \\times 100\\% \\approx 26{,}87\\%$.", "rubric": [{"step": "Tính đúng lợi nhuận từng quý: 2, 4, 5, 7 tỷ đồng", "subScore": 0.5}, {"step": "Tính đúng tổng cả năm và tỉ suất lợi nhuận xấp xỉ 26,87%", "subScore": 0.5}]}, {"id": 3, "level": "Vận dụng cao", "question": "Cho dãy số nguyên dương gồm $n$ số: $x_1, x_2, \\dots, x_n$ có trung bình cộng bằng 10. Nếu thêm số 26 vào dãy thì trung bình cộng của dãy mới là 12.\na) Tìm số phần tử $n$ ban đầu.\nb) Nếu tiếp tục bỏ đi số nhỏ nhất trong dãy ban đầu là số 2 thì trung bình cộng của các số còn lại là bao nhiêu?", "maxScore": 1.0, "solution": "a) Tổng của $n$ số ban đầu là:\n$S = 10n$.\nKhi thêm số 26 vào dãy, tổng mới là $10n + 26$ và số lượng phần tử mới là $n + 1$.\nTheo đề bài, trung bình cộng mới là 12, nên ta có phương trình:\n$\\frac{10n + 26}{n + 1} = 12$\n$\\Leftrightarrow 10n + 26 = 12(n + 1)$\n$\\Leftrightarrow 10n + 26 = 12n + 12$\n$\\Leftrightarrow 2n = 14 \\Rightarrow n = 7$.\nVậy số phần tử ban đầu là $n = 7$.\nb) Tổng của 7 số ban đầu là $S = 10 \\times 7 = 70$.\nKhi bỏ đi số 2, tổng của 6 số còn lại là:\n$S' = 70 - 2 = 68$.\nTrung bình cộng của 6 số còn lại là:\n$\\bar{X}' = \\frac{68}{6} = \\frac{34}{3} \\approx 11{,}33$.", "rubric": [{"step": "Thiết lập phương trình và giải ra n = 7", "subScore": 0.6}, {"step": "Tính đúng trung bình cộng còn lại là 34/3 xấp xỉ 11,33", "subScore": 0.4}]}]}}};
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { CHAPTER5_TOAN7_EXAMS, EXAMS_7_C5_7 };
+}
