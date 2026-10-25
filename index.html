@@ -2601,7 +2601,7 @@ if (typeof window !== "undefined") {
         if (!curExam) return;
 
         setMockViewTab(includeSolution ? "full" : "paper");
-        await new Promise(r => setTimeout(r, 300));
+        await new Promise(r => setTimeout(r, 350));
 
         const targetId = includeSolution ? "mock-exam-printable-full" : "mock-exam-printable-paper";
         const element = document.getElementById(targetId);
@@ -2610,62 +2610,43 @@ if (typeof window !== "undefined") {
           return;
         }
 
-        const printWindow = window.open('', '_blank', 'width=900,height=1150');
+        const printWindow = window.open('', '_blank', 'width=920,height=1150');
         if (printWindow) {
-          printWindow.document.write(`
-            <!DOCTYPE html>
-            <html lang="vi">
-            <head>
-              <meta charset="utf-8">
-              <title>${curExam.title}</title>
-              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-              <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-              <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
-              <style>
-                @page { size: A4; margin: 15mm 20mm 15mm 20mm; }
-                body {
-                  font-family: 'Times New Roman', Times, serif;
-                  font-size: 12pt;
-                  line-height: 1.45;
-                  color: #000;
-                  background: #fff;
-                  margin: 0;
-                  padding: 10mm;
-                }
-                .katex { font-size: 1.05em; }
-                table { border-collapse: collapse; width: 100%; margin: 8px 0; }
-                th, td { border: 1px solid #000; padding: 6px; text-align: center; }
-                .grid-cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 4px; }
-                @media print {
-                  body { padding: 0; }
-                  .no-print { display: none !important; }
-                }
-              </style>
-            </head>
-            <body>
-              ${element.innerHTML}
-              <script>
-                window.onload = function() {
-                  if (window.renderMathInElement) {
-                    window.renderMathInElement(document.body, {
-                      delimiters: [
-                        { left: "$$", right: "$$", display: true },
-                        { left: "$", right: "$", display: false },
-                        { left: "\\[", right: "\\]", display: true },
-                        { left: "\\(", right: "\\)", display: false }
-                      ],
-                      throwOnError: false
-                    });
-                  }
-                  setTimeout(function() {
-                    window.print();
-                  }, 600);
-                };
-              </script>
-            </body>
-            </html>
-          `);
+          const docTitle = curExam.title || 'De_Thi_Vao_10';
+          const innerHtmlContent = element.innerHTML;
+          printWindow.document.open();
+          printWindow.document.write(
+            '<!DOCTYPE html>' +
+            '<html lang="vi">' +
+            '<head>' +
+            '<meta charset="utf-8">' +
+            '<title>' + docTitle + '</title>' +
+            '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">' +
+            '<style>' +
+            '@page { size: A4; margin: 15mm 20mm 15mm 20mm; }' +
+            'body { font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; margin: 0; padding: 8mm; }' +
+            '.katex { font-size: 1.05em; }' +
+            'table { border-collapse: collapse; width: 100%; margin: 8px 0; }' +
+            'th, td { border: 1px solid #000; padding: 6px; text-align: center; }' +
+            '.grid-cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 4px; }' +
+            '.grid-cols-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 4px; }' +
+            '@media print { body { padding: 0; } .no-print { display: none !important; } }' +
+            '</style>' +
+            '</head>' +
+            '<body>' +
+            innerHtmlContent +
+            '</body>' +
+            '</html>'
+          );
           printWindow.document.close();
+          printWindow.focus();
+          setTimeout(() => {
+            try {
+              printWindow.print();
+            } catch (e) {
+              console.warn(e);
+            }
+          }, 500);
         } else {
           window.print();
         }
