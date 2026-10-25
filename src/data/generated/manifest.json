@@ -398,5 +398,105 @@
       "c4_7_bai6_test2",
       "c4_7_bai6_test3"
     ]
+  },
+  "grade9_c1_9": {
+    "grade": "9",
+    "chapterId": "c1_9",
+    "chapterTitle": "Chương I: Phương trình và hệ hai phương trình bậc nhất hai ẩn",
+    "totalExams": 12,
+    "updatedAt": "2026-10-25 15:25:00",
+    "jsonFile": "grade9_c1_9_exams.json",
+    "jsFile": "grade9_c1_9_exams.js",
+    "jsonPath": "src/data/generated/grade9_c1_9_exams.json",
+    "jsPath": "src/data/generated/grade9_c1_9_exams.js",
+    "examKeys": [
+      "c1_9_bai1_test1",
+      "c1_9_bai1_test2",
+      "c1_9_bai1_test3",
+      "c1_9_bai2_test1",
+      "c1_9_bai2_test2",
+      "c1_9_bai2_test3",
+      "c1_9_bai3_test1",
+      "c1_9_bai3_test2",
+      "c1_9_bai3_test3",
+      "c1_9_bai4_test1",
+      "c1_9_bai4_test2",
+      "c1_9_bai4_test3"
+    ]
+  },
+  "grade9_c2_9": {
+    "grade": "9",
+    "chapterId": "c2_9",
+    "chapterTitle": "Chương II: Phương trình và bất phương trình bậc nhất một ẩn",
+    "totalExams": 12,
+    "updatedAt": "2026-10-25 15:30:00",
+    "jsonFile": "grade9_c2_9_exams.json",
+    "jsFile": "grade9_c2_9_exams.js",
+    "jsonPath": "src/data/generated/grade9_c2_9_exams.json",
+    "jsPath": "src/data/generated/grade9_c2_9_exams.js",
+    "examKeys": [
+      "c2_9_bai1_test1",
+      "c2_9_bai1_test2",
+      "c2_9_bai1_test3",
+      "c2_9_bai2_test1",
+      "c2_9_bai2_test2",
+      "c2_9_bai2_test3",
+      "c2_9_bai3_test1",
+      "c2_9_bai3_test2",
+      "c2_9_bai3_test3",
+      "c2_9_bai4_test1",
+      "c2_9_bai4_test2",
+      "c2_9_bai4_test3"
+    ]
+  },
+  "grade9_c3_9": {
+    "grade": "9",
+    "chapterId": "c3_9",
+    "chapterTitle": "Chương III: Căn bậc hai và căn bậc ba",
+    "totalExams": 15,
+    "updatedAt": "2026-10-25 15:35:00",
+    "jsonFile": "grade9_c3_9_exams.json",
+    "jsFile": "grade9_c3_9_exams.js",
+    "jsonPath": "./src/data/generated/grade9_c3_9_exams.json",
+    "jsPath": "./src/data/generated/grade9_c3_9_exams.js",
+    "examKeys": [
+      "c3_9_bai1_test1",
+      "c3_9_bai1_test2",
+      "c3_9_bai1_test3",
+      "c3_9_bai2_test1",
+      "c3_9_bai2_test2",
+      "c3_9_bai2_test3",
+      "c3_9_bai3_test1",
+      "c3_9_bai3_test2",
+      "c3_9_bai3_test3",
+      "c3_9_bai4_test1",
+      "c3_9_bai4_test2",
+      "c3_9_bai4_test3",
+      "c3_9_bai5_test1",
+      "c3_9_bai5_test2",
+      "c3_9_bai5_test3"
+    ]
+  },
+  "grade9_c4_9": {
+    "grade": "9",
+    "chapterId": "c4_9",
+    "chapterTitle": "Chương IV: Hệ thức lượng trong tam giác vuông",
+    "totalExams": 9,
+    "updatedAt": "2026-10-25 15:40:00",
+    "jsonFile": "grade9_c4_9_exams.json",
+    "jsFile": "grade9_c4_9_exams.js",
+    "jsonPath": "./src/data/generated/grade9_c4_9_exams.json",
+    "jsPath": "./src/data/generated/grade9_c4_9_exams.js",
+    "examKeys": [
+      "c4_9_bai1_test1",
+      "c4_9_bai1_test2",
+      "c4_9_bai1_test3",
+      "c4_9_bai2_test1",
+      "c4_9_bai2_test2",
+      "c4_9_bai2_test3",
+      "c4_9_bai3_test1",
+      "c4_9_bai3_test2",
+      "c4_9_bai3_test3"
+    ]
   }
 }
