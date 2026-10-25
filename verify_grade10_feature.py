@@ -24,7 +24,7 @@ def verify():
         data = json.load(f)
 
     exams = data.get("exams", {})
-    assert len(exams) == 6, f"Số đề thi {len(exams)} != 6"
+    assert len(exams) == 10, f"Số đề thi {len(exams)} != 10"
 
     for idx, (k, ex) in enumerate(exams.items(), 1):
         print(f"\nKiểm tra Đề {idx} ({k}):")
@@ -47,7 +47,7 @@ def verify():
 
         print(f"  -> Đề số {idx}: 14 câu (8 trắc nghiệm + 6 tự luận) đạt chuẩn 100%.")
 
-    print("\n✅ TẤT CẢ 6 ĐỀ MINH HỌA ĐÃ SẴN SÀNG VÀ HỢP LỆ!")
+    print("\n✅ TẤT CẢ 10 ĐỀ MINH HỌA ĐÃ SẴN SÀNG VÀ HỢP LỆ!")
 
     # 2. Kiểm tra file JS
     assert os.path.exists("grade10EntranceExams.js"), "Thiếu grade10EntranceExams.js tại root"

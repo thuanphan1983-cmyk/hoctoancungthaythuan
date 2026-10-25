@@ -964,6 +964,20 @@ MOCK_EXAMS_GRADE10["exams"]["de_06"] = {
 
 print("Đã nạp xong Đề 06.")
 
+# Nạp bổ sung Đề 07, Đề 08, Đề 09, Đề 10
+try:
+    from generate_exams_7_to_10 import get_exams_7_to_10
+    exams_7_to_10 = get_exams_7_to_10()
+    for k, v in exams_7_to_10.items():
+        MOCK_EXAMS_GRADE10["exams"][k] = v
+        print(f"Đã nạp xong {k.upper()}.")
+except Exception as err:
+    print(f"Lỗi nạp đề 7-10: {err}")
+
+MOCK_EXAMS_GRADE10["metadata"]["totalExams"] = len(MOCK_EXAMS_GRADE10["exams"])
+MOCK_EXAMS_GRADE10["metadata"]["title"] = f"BỘ {len(MOCK_EXAMS_GRADE10['exams'])} ĐỀ THI THỬ VÀO LỚP 10 MÔN TOÁN - GV PHAN ĐÌNH THUẤN"
+
+
 # ==============================================================================
 # XUẤT FILE JSON VÀ MODULE JS CHO APP
 # ==============================================================================
