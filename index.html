@@ -1311,6 +1311,22 @@ if (typeof window !== "undefined") {
     // ==========================================
     // TIỀN XỬ LÝ VÀ CHUẨN HÓA CÔNG THỨC TOÁN (PRE-PROCESSING)
     // ==========================================
+    function hasVietnameseWords(str) {
+      if (!str) return false;
+      // 1. Kiểm tra ký tự tiếng Việt có dấu
+      if (/[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴĐ]/i.test(str)) {
+        return true;
+      }
+      // 2. Kiểm tra từ tiếng Việt không dấu (có từ 2 chữ cái trở lên, loại trừ các lệnh/hàm LaTeX)
+      const mathKeywords = new Set([
+        'sqrt', 'frac', 'cdot', 'times', 'le', 'ge', 'ne', 'pm', 'sin', 'cos', 'tan', 'cot',
+        'log', 'ln', 'lim', 'text', 'in', 'subset', 'cap', 'cup', 'infty', 'alpha', 'beta',
+        'pi', 'left', 'right', 'mod', 'deg', 'over', 'begin', 'end', 'matrix'
+      ]);
+      const words = str.match(/[a-zA-Z]{2,}/g) || [];
+      return words.some(w => !mathKeywords.has(w.toLowerCase()));
+    }
+
     function formatMathText(text) {
       if (!text) return "";
       let s = String(text);
@@ -1345,55 +1361,85 @@ if (typeof window !== "undefined") {
       s = s.replace(/±/g, ' \\pm ');
       s = s.replace(/×/g, ' \\times ');
 
-      // 4. Bọc các biểu thức toán chưa có dấu $ vào $...$
+      // 4. Xử lý từng dòng: TUYỆT ĐỐI KHÔNG BỌC TOÀN BỘ CHỮ TIẾNG VIỆT VÀO $...$
       const lines = s.split('\n');
       const outLines = lines.map(line => {
         const trimmed = line.trim();
-        if (!trimmed || line.includes('$')) return line;
+        if (!trimmed) return line;
 
-        const hasMath = /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\b\d+\/\d+\b)/.test(line);
-        if (!hasMath) return line;
+        // Nếu dòng đã có dấu $, giữ nguyên để tránh phá vỡ khoảng trắng và công thức sẵn có
+        if (line.includes('$')) {
+          return line;
+        }
 
+        // Tách nhãn đầu dòng nếu có: "a) ", "b) ", "1. ", "- ", "* "
         let prefix = "";
         let body = line;
-
-        // Bóc tách nhãn đầu dòng: a) , b) , 1. , - , *
         const labelMatch = body.match(/^(\s*(?:[a-zA-Z]\)|\d+[\.\)]|\-|\*)\s*)(.*)$/);
         if (labelMatch) {
-          prefix += labelMatch[1];
+          prefix = labelMatch[1];
           body = labelMatch[2];
         }
 
-        // Bóc tách tiền tố có dấu hai chấm: "Tìm x biết: ", "Tính giá trị: "
+        // Tách tiền tố có dấu hai chấm: "Tìm x biết: ", "Tính giá trị: "
         const colonMatch = body.match(/^([^:=]+:\s*)(.*)$/);
-        if (colonMatch) {
+        if (colonMatch && hasVietnameseWords(colonMatch[1])) {
           prefix += colonMatch[1];
           body = colonMatch[2];
         }
 
-        // Tách các mệnh đề bằng liên từ tiếng Việt ("và", "với", "hoặc", "khi")
-        const parts = body.split(/(\s+(?:và|với|hoặc|khi)\s+)/);
-        const newParts = parts.map(p => {
-          if (/^\s+(?:và|với|hoặc|khi)\s+$/.test(p)) return p;
-          let pTrim = p.trim();
-          let trailingPunct = "";
-          if (pTrim && /[.;,]$/.test(pTrim)) {
-            trailingPunct = pTrim.slice(-1);
-            pTrim = pTrim.slice(0, -1).trim();
-          }
-          if (pTrim && /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\+|\-|\b\d+\/\d+\b|[a-zA-Z0-9])/.test(pTrim)) {
-            pTrim = pTrim.replace(/(\b\d+)\/(\d+\b)/g, '\\frac{$1}{$2}');
-            return `$${pTrim}$` + trailingPunct;
-          }
-          return p;
-        });
+        const trimmedBody = body.trim();
+        if (!trimmedBody) return line;
 
-        return prefix + newParts.join('');
+        // Trường hợp 1: Biểu thức thuần toán học (KHÔNG chứa từ tiếng Việt nào)
+        // Ví dụ: A = \sqrt{0,04} + ... hoặc 2\sqrt{x} - 5 = 3 hoặc x^2 = 100
+        const hasMathSymbol = /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\+|\-|\/|[0-9])/.test(trimmedBody);
+        if (hasMathSymbol && !hasVietnameseWords(trimmedBody)) {
+          let mathExpr = trimmedBody.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `\\frac{${p1}}{${p2}}`);
+          let trailingPunct = "";
+          if (/[.;,]$/.test(mathExpr)) {
+            trailingPunct = mathExpr.slice(-1);
+            mathExpr = mathExpr.slice(0, -1).trim();
+          }
+          return prefix + `$${mathExpr}$` + trailingPunct;
+        }
+
+        // Trường hợp 2: Dòng chứa các mệnh đề cách nhau bởi "và", "với", "hoặc", "khi"
+        // Ví dụ: "x^2 = 100 và x < 0."
+        const clauseParts = body.split(/(\s+(?:và|với|hoặc|khi)\s+)/);
+        if (clauseParts.length > 1) {
+          const processedClauses = clauseParts.map(cp => {
+            if (/^\s+(?:và|với|hoặc|khi)\s+$/.test(cp)) return cp;
+            let cpTrim = cp.trim();
+            let trailingPunct = "";
+            if (/[.;,]$/.test(cpTrim)) {
+              trailingPunct = cpTrim.slice(-1);
+              cpTrim = cpTrim.slice(0, -1).trim();
+            }
+            if (cpTrim && !hasVietnameseWords(cpTrim) && /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\+|\-|\/|[0-9])/.test(cpTrim)) {
+              cpTrim = cpTrim.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `\\frac{${p1}}{${p2}}`);
+              return `$${cpTrim}$` + trailingPunct;
+            }
+            let res = cp.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `$\\frac{${p1}}{${p2}}$`);
+            res = res.replace(/\\sqrt\{[^}]+\}/g, (m) => `$${m}$`);
+            res = res.replace(/\b([a-zA-Z0-9]+)\^([0-9]+|\{[^}]+\})\b/g, (m) => `$${m}$`);
+            return res;
+          });
+          return prefix + processedClauses.join('');
+        }
+
+        // Trường hợp 3: Dòng văn bản tiếng Việt thông thường
+        // Ví dụ: "Phân số 7/8 viết được dưới dạng số thập phân hữu hạn vì mẫu 8 = 2^3."
+        // Bảo toàn 100% khoảng trắng giữa các chữ cái! Chỉ đóng khung các thành phần toán cô lập
+        let processedLine = body.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `$\\frac{${p1}}{${p2}}$`);
+        processedLine = processedLine.replace(/\\sqrt\{[^}]+\}/g, (m) => `$${m}$`);
+        processedLine = processedLine.replace(/\b([a-zA-Z0-9]+)\^([0-9]+|\{[^}]+\})\b/g, (m) => `$${m}$`);
+
+        return prefix + processedLine;
       });
 
       return outLines.join('\n');
     }
-
     // ==========================================
     // COMPONENT HIỂN THỊ CÔNG THỨC TOÁN KATEX
     // ==========================================
@@ -2216,30 +2262,56 @@ if (typeof window !== "undefined") {
 
     // ==========================================
 
+    // ==========================================
+    // CHUẨN HÓA DỮ LIỆU ĐỀ THI (NORMALIZE EXAM DATA)
+    // ==========================================
+    function normalizeExamData(rawExam) {
+      if (!rawExam) return rawExam;
+      const exam = { ...rawExam };
+      if (Array.isArray(exam.part2)) {
+        exam.part2 = exam.part2.map((q) => {
+          const stem = q.stem || q.question || q.content || q.title || "";
+          const rawStatements = q.statements || q.options || q.items || [];
+          const statements = rawStatements.map((stmt, sIdx) => {
+            const key = stmt.key || stmt.id || String.fromCharCode(97 + sIdx);
+            const text = stmt.text || stmt.statement || stmt.content || stmt.option || "";
+            const correct = (stmt.correct !== undefined) ? stmt.correct : ((stmt.isCorrect !== undefined) ? stmt.isCorrect : stmt.answer);
+            return {
+              ...stmt,
+              key,
+              id: stmt.id || key,
+              text,
+              statement: stmt.statement || text,
+              correct,
+              isCorrect: (stmt.isCorrect !== undefined) ? stmt.isCorrect : correct
+            };
+          });
+          return {
+            ...q,
+            stem,
+            question: q.question || stem,
+            statements
+          };
+        });
+      }
+      return exam;
+    }
+
     const calculateTrueFalseScore = (userAnswers, statements) => {
-
       let correctCount = 0;
-
-      statements.forEach(stmt => {
-
-        if (userAnswers && userAnswers[stmt.key] === stmt.correct) {
-
+      if (!Array.isArray(statements)) return 0;
+      statements.forEach((stmt, sIdx) => {
+        const key = stmt.key || stmt.id || String.fromCharCode(97 + sIdx);
+        const isCorrect = (stmt.correct !== undefined) ? stmt.correct : ((stmt.isCorrect !== undefined) ? stmt.isCorrect : stmt.answer);
+        if (userAnswers && userAnswers[key] === isCorrect) {
           correctCount++;
-
         }
-
       });
-
       if (correctCount === 1) return 0.1;
-
       if (correctCount === 2) return 0.25;
-
       if (correctCount === 3) return 0.5;
-
       if (correctCount === 4) return 1.0;
-
       return 0;
-
     };
 
 
@@ -3032,7 +3104,7 @@ const [loadingAI, setLoadingAI] = useState(false);
           setEssayImages({ 1: null, 2: null, 3: null });
           setSharedEssayImage(null);
           setLoadingAI(false);
-          setExamData(bankExam);
+          setExamData(normalizeExamData(bankExam));
           setView("exam");
 
           if (isFallback) {
@@ -3390,7 +3462,7 @@ YÊU CẦU TRẢ VỀ ĐÚNG CẤU TRÚC JSON SAU:
 
             setLoadingAI(false);
 
-            setExamData(successExam);
+            setExamData(normalizeExamData(successExam));
 
             setView("exam");
 
@@ -3607,13 +3679,10 @@ YÊU CẦU TRẢ VỀ ĐÚNG CẤU TRÚC JSON SAU:
         const tfDetails = {};
 
         examData.part2.forEach(q => {
-
-          const s = calculateTrueFalseScore(tfAnswers[q.id], q.statements);
-
+          const stmts = q.statements || q.options || q.items || [];
+          const s = calculateTrueFalseScore(tfAnswers[q.id], stmts);
           scorePart2 += s;
-
           tfDetails[q.id] = s;
-
         });
 
 
@@ -5253,121 +5322,78 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                   <div className="space-y-5">
 
-                    {examData.part2.map((q) => (
+                    {examData.part2.map((q) => {
+                      const stemText = q.stem || q.question || q.content || q.title || "";
+                      const rawList = q.statements || q.options || q.items || [];
+                      console.log(`[Phần II] Dữ liệu Câu ${q.id}:`, { stem: stemText, rawList });
 
-                      <div key={q.id} className="p-4 rounded-xl border border-slate-200 bg-slate-50/50 space-y-3">
+                      return (
+                        <div key={q.id} className="p-4 rounded-xl border border-slate-200 bg-slate-50/50 space-y-3">
+                          <div className="font-bold text-sm text-slate-900">
+                            Câu {q.id}: <MathView text={stemText} />
+                          </div>
 
-                        <div className="font-bold text-sm text-slate-900">
+                          <div className="space-y-2">
+                            {rawList.map((stmt, sIdx) => {
+                              const stmtKey = stmt.key || stmt.id || String.fromCharCode(97 + sIdx);
+                              const stmtText = stmt.text || stmt.statement || stmt.content || stmt.option || "";
+                              const currentVal = tfAnswers[q.id]?.[stmtKey];
 
-                          Câu {q.id}: <MathView text={q.stem} />
+                              return (
+                                <div
+                                  key={stmtKey}
+                                  className="bg-white p-3 rounded-lg border border-slate-200 flex flex-wrap items-center justify-between gap-3"
+                                >
+                                  <div className="text-sm text-slate-800 flex-1">
+                                    <span className="font-bold text-indigo-700 mr-1.5">{stmtKey})</span>
+                                    <MathView text={stmtText} />
+                                    {stmt.level && (
+                                      <span className="ml-2 text-[11px] px-2 py-0.5 bg-slate-100 text-slate-500 rounded">
+                                        {stmt.level}
+                                      </span>
+                                    )}
+                                  </div>
 
-                        </div>
+                                  <div className="flex items-center gap-2">
+                                    <button
+                                      onClick={() =>
+                                        setTfAnswers((prev) => ({
+                                          ...prev,
+                                          [q.id]: { ...prev[q.id], [stmtKey]: true }
+                                        }))
+                                      }
+                                      className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition ${
+                                        currentVal === true
+                                          ? "bg-emerald-600 text-white border-emerald-600"
+                                          : "bg-white text-slate-600 border-slate-300 hover:bg-slate-100"
+                                      }`}
+                                    >
+                                      Đúng
+                                    </button>
 
-                        <div className="space-y-2">
-
-                          {q.statements.map((stmt) => {
-
-                            const currentVal = tfAnswers[q.id]?.[stmt.key];
-
-                            return (
-
-                              <div
-
-                                key={stmt.key}
-
-                                className="bg-white p-3 rounded-lg border border-slate-200 flex flex-wrap items-center justify-between gap-3"
-
-                              >
-
-                                <div className="text-sm text-slate-800 flex-1">
-
-                                  <span className="font-bold text-indigo-700 mr-1.5">{stmt.key})</span>
-
-                                  <MathView text={stmt.text} />
-
-                                  <span className="ml-2 text-[11px] px-2 py-0.5 bg-slate-100 text-slate-500 rounded">
-
-                                    {stmt.level}
-
-                                  </span>
-
+                                    <button
+                                      onClick={() =>
+                                        setTfAnswers((prev) => ({
+                                          ...prev,
+                                          [q.id]: { ...prev[q.id], [stmtKey]: false }
+                                        }))
+                                      }
+                                      className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition ${
+                                        currentVal === false
+                                          ? "bg-rose-600 text-white border-rose-600"
+                                          : "bg-white text-slate-600 border-slate-300 hover:bg-slate-100"
+                                      }`}
+                                    >
+                                      Sai
+                                    </button>
+                                  </div>
                                 </div>
-
-                                <div className="flex items-center gap-2">
-
-                                  <button
-
-                                    onClick={() =>
-
-                                      setTfAnswers((prev) => ({
-
-                                        ...prev,
-
-                                        [q.id]: { ...prev[q.id], [stmt.key]: true }
-
-                                      }))
-
-                                    }
-
-                                    className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition ${
-
-                                      currentVal === true
-
-                                        ? "bg-emerald-600 text-white border-emerald-600"
-
-                                        : "bg-white text-slate-600 border-slate-300 hover:bg-slate-100"
-
-                                    }`}
-
-                                  >
-
-                                    Đúng
-
-                                  </button>
-
-                                  <button
-
-                                    onClick={() =>
-
-                                      setTfAnswers((prev) => ({
-
-                                        ...prev,
-
-                                        [q.id]: { ...prev[q.id], [stmt.key]: false }
-
-                                      }))
-
-                                    }
-
-                                    className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition ${
-
-                                      currentVal === false
-
-                                        ? "bg-rose-600 text-white border-rose-600"
-
-                                        : "bg-white text-slate-600 border-slate-300 hover:bg-slate-100"
-
-                                    }`}
-
-                                  >
-
-                                    Sai
-
-                                  </button>
-
-                                </div>
-
-                              </div>
-
-                            );
-
-                          })}
-
+                              );
+                            })}
+                          </div>
                         </div>
-
-                      </div>
-
-                    ))}
+                      );
+                    })}
 
                   </div>
 
