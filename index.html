@@ -1308,78 +1308,204 @@ if (typeof window !== "undefined") {
 
 
 
-    // COMPONENT HIỂN THỊ CÔNG THỨC TOÁN KATEX
-
     // ==========================================
+    // TIỀN XỬ LÝ VÀ CHUẨN HÓA CÔNG THỨC TOÁN (PRE-PROCESSING)
+    // ==========================================
+    function formatMathText(text) {
+      if (!text) return "";
+      let s = String(text);
 
-    function MathView({ text, className = "", block = false }) {
+      // 0. Đơn vị đo diện tích, thể tích: 196 m² -> $196\text{ m}^2$
+      s = s.replace(/(\b\d+(?:,\d+)?)\s*(km|dm|cm|mm|m)²/g, (_, p1, p2) => `$${p1}\\text{ ${p2}}^2$`);
+      s = s.replace(/(\b\d+(?:,\d+)?)\s*(km|dm|cm|mm|m)³/g, (_, p1, p2) => `$${p1}\\text{ ${p2}}^3$`);
 
-      const containerRef = useRef(null);
+      // 1. Chuyển đổi số mũ unicode: x² -> x^2, x³ -> x^3...
+      const supMap = {
+        '⁰': '^0', '¹': '^1', '²': '^2', '³': '^3', '⁴': '^4',
+        '⁵': '^5', '⁶': '^6', '⁷': '^7', '⁸': '^8', '⁹': '^9',
+        '⁺': '^+', '⁻': '^-'
+      };
+      for (const [k, v] of Object.entries(supMap)) {
+        s = s.split(k).join(v);
+      }
 
+      // 2. Chuyển đổi căn bậc hai unicode: √(0,04) -> \sqrt{0,04}, √x -> \sqrt{x}
+      s = s.replace(/√\(([^)]+)\)/g, '\\sqrt{$1}');
+      s = s.replace(/√\{([^}]+)\}/g, '\\sqrt{$1}');
+      s = s.replace(/√([0-9]+(?:,[0-9]+)?)/g, '\\sqrt{$1}');
+      s = s.replace(/√([a-zA-Z])/g, '\\sqrt{$1}');
+      s = s.replace(/√/g, '\\sqrt ');
 
+      // 3. Chuyển đổi toán tử: dấu nhân " . " giữa các số/biến
+      s = s.replace(/([0-9a-zA-Z\)])\s+\.\s+([0-9a-zA-Z\\(])/g, '$1 \\cdot $2');
+      s = s.replace(/·/g, ' \\cdot ');
+      s = s.replace(/≤/g, ' \\le ');
+      s = s.replace(/≥/g, ' \\ge ');
+      s = s.replace(/≠/g, ' \\ne ');
+      s = s.replace(/±/g, ' \\pm ');
+      s = s.replace(/×/g, ' \\times ');
 
-      useEffect(() => {
+      // 4. Bọc các biểu thức toán chưa có dấu $ vào $...$
+      const lines = s.split('\n');
+      const outLines = lines.map(line => {
+        const trimmed = line.trim();
+        if (!trimmed || line.includes('$')) return line;
 
-        if (!containerRef.current) return;
+        const hasMath = /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\b\d+\/\d+\b)/.test(line);
+        if (!hasMath) return line;
 
-        try {
+        let prefix = "";
+        let body = line;
 
-          if (window.renderMathInElement) {
-
-            window.renderMathInElement(containerRef.current, {
-
-              delimiters: [
-
-                { left: "$$", right: "$$", display: true },
-
-                { left: "$", right: "$", display: false },
-
-                { left: "\\[", right: "\\]", display: true },
-
-                { left: "\\(", right: "\\)", display: false }
-
-              ],
-
-              throwOnError: false
-
-            });
-
-          }
-
-        } catch (e) {
-
-          console.warn("KaTeX render error:", e);
-
+        // Bóc tách nhãn đầu dòng: a) , b) , 1. , - , *
+        const labelMatch = body.match(/^(\s*(?:[a-zA-Z]\)|\d+[\.\)]|\-|\*)\s*)(.*)$/);
+        if (labelMatch) {
+          prefix += labelMatch[1];
+          body = labelMatch[2];
         }
 
-      }, [text]);
+        // Bóc tách tiền tố có dấu hai chấm: "Tìm x biết: ", "Tính giá trị: "
+        const colonMatch = body.match(/^([^:=]+:\s*)(.*)$/);
+        if (colonMatch) {
+          prefix += colonMatch[1];
+          body = colonMatch[2];
+        }
 
+        // Tách các mệnh đề bằng liên từ tiếng Việt ("và", "với", "hoặc", "khi")
+        const parts = body.split(/(\s+(?:và|với|hoặc|khi)\s+)/);
+        const newParts = parts.map(p => {
+          if (/^\s+(?:và|với|hoặc|khi)\s+$/.test(p)) return p;
+          let pTrim = p.trim();
+          let trailingPunct = "";
+          if (pTrim && /[.;,]$/.test(pTrim)) {
+            trailingPunct = pTrim.slice(-1);
+            pTrim = pTrim.slice(0, -1).trim();
+          }
+          if (pTrim && /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\+|\-|\b\d+\/\d+\b|[a-zA-Z0-9])/.test(pTrim)) {
+            pTrim = pTrim.replace(/(\b\d+)\/(\d+\b)/g, '\\frac{$1}{$2}');
+            return `$${pTrim}$` + trailingPunct;
+          }
+          return p;
+        });
 
+        return prefix + newParts.join('');
+      });
 
-      const formatted = useMemo(() => {
-
-        if (!text) return "";
-
-        return String(text)
-
-          .replace(/&/g, "&amp;")
-
-          .replace(/</g, "&lt;")
-
-          .replace(/>/g, "&gt;");
-
-      }, [text]);
-
-
-
-      const Tag = block ? "div" : "span";
-
-      return <Tag ref={containerRef} className={className} style={{ whiteSpace: "pre-wrap" }} dangerouslySetInnerHTML={{ __html: formatted }} />;
-
+      return outLines.join('\n');
     }
 
+    // ==========================================
+    // COMPONENT HIỂN THỊ CÔNG THỨC TOÁN KATEX
+    // ==========================================
+    function MathView({ text, className = "", block = false }) {
+      const containerRef = useRef(null);
 
+      const processed = useMemo(() => {
+        return formatMathText(text);
+      }, [text]);
 
+      const formatted = useMemo(() => {
+        if (!processed) return "";
+        return String(processed)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }, [processed]);
+
+      useEffect(() => {
+        if (!containerRef.current) return;
+        let timer = null;
+
+        const renderKatex = () => {
+          if (!containerRef.current) return;
+          try {
+            if (window.renderMathInElement) {
+              window.renderMathInElement(containerRef.current, {
+                delimiters: [
+                  { left: "$$", right: "$$", display: true },
+                  { left: "$", right: "$", display: false },
+                  { left: "\\[", right: "\\]", display: true },
+                  { left: "\\(", right: "\\)", display: false }
+                ],
+                throwOnError: false
+              });
+            } else {
+              timer = setTimeout(renderKatex, 100);
+            }
+          } catch (e) {
+            console.warn("KaTeX render error:", e);
+          }
+        };
+
+        renderKatex();
+
+        return () => {
+          if (timer) clearTimeout(timer);
+        };
+      }, [processed]);
+
+      const Tag = block ? "div" : "span";
+      return <Tag ref={containerRef} className={className} style={{ whiteSpace: "pre-wrap" }} dangerouslySetInnerHTML={{ __html: formatted }} />;
+    }
+
+    // ==========================================
+    // COMPONENT HIỂN THỊ CÂU HỎI TỰ LUẬN LẺ VÀ RENDER KATEX (CÁCH 2)
+    // ==========================================
+    function EssayQuestionView({ question, className = "" }) {
+      const containerRef = useRef(null);
+
+      const processed = useMemo(() => {
+        return formatMathText(question);
+      }, [question]);
+
+      const formattedHtml = useMemo(() => {
+        if (!processed) return "";
+        return String(processed)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }, [processed]);
+
+      useEffect(() => {
+        if (!containerRef.current) return;
+        let timer = null;
+
+        const renderKatex = () => {
+          if (!containerRef.current) return;
+          try {
+            if (window.renderMathInElement) {
+              window.renderMathInElement(containerRef.current, {
+                delimiters: [
+                  { left: "$$", right: "$$", display: true },
+                  { left: "$", right: "$", display: false },
+                  { left: "\\[", right: "\\]", display: true },
+                  { left: "\\(", right: "\\)", display: false }
+                ],
+                throwOnError: false
+              });
+            } else {
+              timer = setTimeout(renderKatex, 100);
+            }
+          } catch (e) {
+            console.warn("KaTeX render error in EssayQuestionView:", e);
+          }
+        };
+
+        renderKatex();
+
+        return () => {
+          if (timer) clearTimeout(timer);
+        };
+      }, [processed]);
+
+      return (
+        <div
+          ref={containerRef}
+          className={`text-sm font-medium text-slate-800 whitespace-pre-wrap leading-relaxed ${className}`}
+          dangerouslySetInnerHTML={{ __html: formattedHtml }}
+        />
+      );
+    }
     // ==========================================
 
     // ICON SVG
@@ -5013,7 +5139,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                               <div className="text-sm font-medium text-slate-800 mb-3">
 
-                                <MathView text={q.question} />
+                                <EssayQuestionView question={q.question} />
 
                               </div>
 
@@ -5293,7 +5419,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                           <div className="text-sm text-slate-800">
 
-                            <MathView text={q.question} />
+                            <EssayQuestionView question={q.question} />
 
                           </div>
 
@@ -5527,9 +5653,9 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                           </div>
 
-                          <div className="text-sm font-medium text-slate-800 bg-white p-3 rounded-lg border border-slate-100">
+                          <div className="text-sm font-medium text-slate-800 bg-white p-3.5 rounded-xl border border-slate-200 shadow-sm leading-relaxed">
 
-                            <MathView text={q.question} />
+                            <EssayQuestionView question={q.question} />
 
                           </div>
 
@@ -6596,7 +6722,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                                   <span>Câu {q.id} ({q.points.toFixed(1)} điểm)</span>
                                 </div>
                                 <div className="italic text-slate-700 text-[11pt]">
-                                  <MathView text={q.question} />
+                                  <EssayQuestionView question={q.question} />
                                 </div>
                                 <div className="font-bold text-emerald-900 pt-1">Lời giải chi tiết:</div>
                                 <div className="leading-relaxed space-y-1 font-times">
@@ -6656,7 +6782,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                               <div key={q.id} className="p-4 rounded-xl border border-slate-200 bg-slate-50/50 space-y-2.5">
                                 <div className="font-bold text-xs md:text-sm text-slate-900 leading-relaxed">
                                   <span className="text-indigo-700 font-black">Câu {q.id}:</span>{" "}
-                                  <MathView text={q.question} />
+                                  <EssayQuestionView question={q.question} />
                                 </div>
                                 <div className="grid grid-cols-2 gap-2 text-xs">
                                   {q.options.map((opt, oIdx) => {
@@ -6749,7 +6875,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                                 <span className="text-indigo-700 font-black">Câu {q.id} ({q.points.toFixed(1)} điểm).</span>
                               </h4>
                               <div className="text-xs md:text-sm text-slate-800 leading-relaxed font-serif text-[13pt]">
-                                <MathView text={q.question} />
+                                <EssayQuestionView question={q.question} />
                               </div>
 
                               {showMockSolution && (

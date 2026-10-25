@@ -1011,19 +1011,19 @@ const CHAPTER2_TOAN7_EXAMS = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của các biểu thức sau:\na) A = √(0,04) + √(0,25) - √(0,81)\nb) B = 3 . √(49) - 2 . √(16) + √(121).",
+        "question": "Tính giá trị của các biểu thức sau:\na) $A = \\sqrt{0,04} + \\sqrt{0,25} - \\sqrt{0,81}$\nb) $B = 3 \\cdot \\sqrt{49} - 2 \\cdot \\sqrt{16} + \\sqrt{121}$.",
         "rubric": "a) A = 0,2 + 0,5 - 0,9 = -0,2 (0.5đ).\nb) B = 3 . 7 - 2 . 4 + 11 = 21 - 8 + 11 = 24 (0.5đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
-        "question": "Tìm x biết:\na) √x = 1/3\nb) 2√x - 5 = 3\nc) x² = 100 và x < 0.",
+        "question": "Tìm x biết:\na) $\\sqrt{x} = \\frac{1}{3}$\nb) $2\\sqrt{x} - 5 = 3$\nc) $x^2 = 100$ và $x < 0$.",
         "rubric": "a) x = (1/3)² = 1/9 (0.3đ).\nb) 2√x = 8 => √x = 4 => x = 16 (0.4đ).\nc) x = -√100 = -10 (0.3đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
-        "question": "Một mảnh vườn hình vuông có diện tích 196 m².\na) Tính độ dài cạnh của mảnh vườn đó.\nb) Người ta muốn rào xung quanh mảnh vườn bằng dây thép gai, biết cổng vào rộng 2 m. Tính chiều dài dây thép gai cần dùng để rào kín mảnh vườn (rào 1 hàng dây).",
+        "question": "Một mảnh vườn hình vuông có diện tích $196\\text{ m}^2$.\na) Tính độ dài cạnh của mảnh vườn đó.\nb) Người ta muốn rào xung quanh mảnh vườn bằng dây thép gai, biết cổng vào rộng $2\\text{ m}$. Tính chiều dài dây thép gai cần dùng để rào kín mảnh vườn (rào 1 hàng dây).",
         "rubric": "a) Cạnh vườn: a = √196 = 14 m (0.5đ).\nb) Chu vi vườn: 14 x 4 = 56 m. Chiều dài dây thép gai cần dùng (trừ cổng): 56 - 2 = 54 m (0.5đ)."
       }
     ]
