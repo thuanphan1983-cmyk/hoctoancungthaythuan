@@ -1030,14 +1030,23 @@ if (typeof window !== "undefined") {
       font-size: 12pt !important;
       line-height: 1.45 !important;
       color: #000000 !important;
+      white-space: pre-wrap !important;
     }
     .pdf-exam-container .katex {
       font-size: 1.05em !important;
+    }
+    .katex-display, .math-block, .equation {
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
     @media print {
       @page {
         size: A4;
         margin: 15mm 20mm 15mm 20mm;
+      }
+      .katex-display, .math-block, .equation {
+        page-break-inside: avoid;
+        break-inside: avoid;
       }
       .mock-exam-print-target {
         display: block !important;
@@ -1334,7 +1343,7 @@ if (typeof window !== "undefined") {
 
       const Tag = block ? "div" : "span";
 
-      return <Tag ref={containerRef} className={className} dangerouslySetInnerHTML={{ __html: formatted }} />;
+      return <Tag ref={containerRef} className={className} style={{ whiteSpace: "pre-wrap" }} dangerouslySetInnerHTML={{ __html: formatted }} />;
 
     }
 
@@ -2514,8 +2523,9 @@ if (typeof window !== "undefined") {
         }
       }, [mockExamsData]);
 
-      // HÀM XUẤT FILE PDF TRỰC TIẾP CHUẨN TIMES NEW ROMAN 12PT KHÔNG BAO GIỜ BỊ TRẮNG
+      // HÀM XUẤT FILE PDF TRỰC TIẾP CHUẨN TIMES NEW ROMAN 12PT (KHẮC PHỤC LỖI DÍNH CHỮ VÀ GÃY CÔNG THỨC)
       const handleExportMockExamPDF = async (includeSolution = false) => {
+        await document.fonts.ready;
         const curExam = mockExamsData?.exams?.[selectedMockExamKey];
         if (!curExam) {
           showToast("warning", "Không tìm thấy dữ liệu đề thi được chọn!");
@@ -2567,28 +2577,24 @@ if (typeof window !== "undefined") {
             margin: [12, 15, 12, 15],
             filename: fileName,
             image: { type: "jpeg", quality: 0.98 },
-            html2canvas: {
-              scale: 2,
-              useCORS: true,
-              logging: false,
-              backgroundColor: "#ffffff",
-              scrollY: 0,
-              scrollX: 0
-            },
+            html2canvas: { scale: 2, useCORS: true, letterRendering: true },
             jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
             pagebreak: { mode: ["avoid-all", "css", "legacy"] }
           };
 
-          try {
-            await window.html2pdf().from(element).set(opt).save();
-            showToast("success", "Đã xuất file PDF thành công chuẩn phông Times New Roman 12pt!");
-          } catch (err) {
-            console.error("html2pdf error:", err);
-            showToast("warning", "Lỗi tải tự động. Đang mở hộp thoại In để lưu PDF...");
-            handlePrintMockExam(includeSolution);
-          } finally {
-            setIsExportingMockPdf(false);
-          }
+          // Bọc lệnh html2pdf().set(opt).from(element).save() bên trong setTimeout 1000ms để trình duyệt đợi KaTeX tải xong 100% font chữ
+          setTimeout(async () => {
+            try {
+              await window.html2pdf().set(opt).from(element).save();
+              showToast("success", "Đã xuất file PDF thành công chuẩn phông Times New Roman 12pt!");
+            } catch (err) {
+              console.error("html2pdf error:", err);
+              showToast("warning", "Lỗi tải tự động. Đang mở hộp thoại In để lưu PDF...");
+              handlePrintMockExam(includeSolution);
+            } finally {
+              setIsExportingMockPdf(false);
+            }
+          }, 1000);
         } else {
           handlePrintMockExam(includeSolution);
           setIsExportingMockPdf(false);
@@ -2626,6 +2632,7 @@ if (typeof window !== "undefined") {
             '@page { size: A4; margin: 15mm 20mm 15mm 20mm; }' +
             'body { font-family: "Times New Roman", Times, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; margin: 0; padding: 8mm; }' +
             '.katex { font-size: 1.05em; }' +
+            '.katex-display, .math-block, .equation { page-break-inside: avoid; break-inside: avoid; }' +
             'table { border-collapse: collapse; width: 100%; margin: 8px 0; }' +
             'th, td { border: 1px solid #000; padding: 6px; text-align: center; }' +
             '.grid-cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 4px; }' +
@@ -4065,7 +4072,8 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
       // Xuất file PDF bằng html2pdf.js
 
-      const handleExportPDF = () => {
+      const handleExportPDF = async () => {
+        await document.fonts.ready;
 
         const element = document.getElementById("report-card-pdf");
 
@@ -6612,7 +6620,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                       <div
                         id="mock-exam-printable-paper"
                         className="pdf-exam-container bg-white p-8 md:p-12 shadow-xl border border-slate-300 w-full max-w-[820px] min-h-[1100px] space-y-5 text-black"
-                        style={{ fontFamily: "'Times New Roman', Times, serif", fontSize: "12pt", lineHeight: "1.45" }}
+                        style={{ fontFamily: "'Times New Roman', Times, serif", fontSize: "12pt", lineHeight: "1.45", whiteSpace: "pre-wrap" }}
                       >
                         {/* Header chuẩn Sở GD&ĐT */}
                         <div className="flex justify-between items-start border-b-2 border-black pb-3 text-center">
@@ -6646,7 +6654,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                           </div>
                           <div className="space-y-2.5">
                             {currentExam.part1.map(q => (
-                              <div key={q.id} className="text-[12pt] leading-relaxed">
+                              <div key={q.id} className="text-[12pt] leading-relaxed equation">
                                 <div className="font-bold">
                                   Câu {q.id}. <span className="font-normal font-times"><MathView text={q.question} /></span>
                                 </div>
@@ -6667,7 +6675,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                           </div>
                           <div className="space-y-3">
                             {currentExam.part2.map(q => (
-                              <div key={q.id} className="text-[12pt] leading-relaxed">
+                              <div key={q.id} className="text-[12pt] leading-relaxed equation">
                                 <span className="font-bold">Câu {q.id} ({q.points.toFixed(1)} điểm). </span>
                                 <span className="font-times"><MathView text={q.question} /></span>
                               </div>
@@ -6692,7 +6700,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                       <div
                         id="mock-exam-printable-full"
                         className="pdf-exam-container bg-white p-8 md:p-12 shadow-xl border border-slate-300 w-full max-w-[820px] min-h-[1100px] space-y-6 text-black"
-                        style={{ fontFamily: "'Times New Roman', Times, serif", fontSize: "12pt", lineHeight: "1.45" }}
+                        style={{ fontFamily: "'Times New Roman', Times, serif", fontSize: "12pt", lineHeight: "1.45", whiteSpace: "pre-wrap" }}
                       >
                         {/* Header */}
                         <div className="text-center border-b-2 border-black pb-3 space-y-1">
