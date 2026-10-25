@@ -66,8 +66,8 @@ def verify():
         "pdf-exam-container",
         "mock-exam-printable-paper",
         "mock-exam-printable-full",
-        "handleExportMockExamPDF",
-        "html2pdf"
+        "handlePrintExam",
+        "window.print"
     ]
     for m in required_markers:
         assert m in html, f"Thiếu marker '{m}' trong index.html"

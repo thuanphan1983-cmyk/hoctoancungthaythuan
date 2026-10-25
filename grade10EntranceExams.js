@@ -1469,26 +1469,26 @@ const GRADE10_MOCK_EXAMS = {
         {
           "id": 10,
           "points": 1.0,
-          "question": "Cho phương trình $x^2 - 2(m-1)x + 2m - 5 = 0$ ($m$ là tham số). Tìm các giá trị của $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$.",
+          "question": "Cho phương trình $x^2 - 4x - 3 = 0$ có hai nghiệm phân biệt $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức $P = \\frac{x_1 - 1}{x_2} + \\frac{x_2 - 1}{x_1}$.",
           "rubric": [
             {
-              "step": "Tính $\\Delta' = [-(m-1)]^2 - 1(2m-5) = m^2 - 4m + 6 = (m-2)^2 + 2 > 0$ với mọi $m$.",
-              "points": 0.3
-            },
-            {
-              "step": "Theo định lí Viète: $x_1 + x_2 = 2(m-1)$ và $x_1 x_2 = 2m - 5$.",
+              "step": "Xét phương trình $x^2 - 4x - 3 = 0$ có $a \\cdot c = 1 \\cdot (-3) = -3 < 0$ (hoặc $\\Delta' = (-2)^2 - 1(-3) = 7 > 0$), suy ra phương trình luôn có hai nghiệm phân biệt $x_1, x_2$. Vì $x_1 x_2 = -3 \\ne 0$ nên $x_1 \\ne 0, x_2 \\ne 0$.",
               "points": 0.25
             },
             {
-              "step": "Biến đổi $x_1^2 + x_2^2 = 10 \\Leftrightarrow (x_1+x_2)^2 - 2x_1x_2 = 10 \\Leftrightarrow 4(m-1)^2 - 2(2m-5) = 10$.",
+              "step": "Theo định lí Viète, ta có: $\\begin{cases} x_1 + x_2 = 4 \\\\ x_1 x_2 = -3 \\end{cases}$.",
               "points": 0.25
             },
             {
-              "step": "Thu gọn phương trình $4m^2 - 12m + 4 = 0 \\Leftrightarrow m^2 - 3m + 1 = 0 \\Rightarrow m = \\frac{3 \\pm \\sqrt{5}}{2}$. Kết luận.",
-              "points": 0.2
+              "step": "Biến đổi biểu thức: $P = \\frac{x_1(x_1-1) + x_2(x_2-1)}{x_1 x_2} = \\frac{(x_1^2 + x_2^2) - (x_1 + x_2)}{x_1 x_2} = \\frac{(x_1+x_2)^2 - 2x_1 x_2 - (x_1+x_2)}{x_1 x_2}$.",
+              "points": 0.25
+            },
+            {
+              "step": "Thay số: $P = \\frac{4^2 - 2(-3) - 4}{-3} = \\frac{16 + 6 - 4}{-3} = \\frac{18}{-3} = -6$. Kết luận $P = -6$.",
+              "points": 0.25
             }
           ],
-          "solution": "Xét phương trình $x^2 - 2(m-1)x + 2m - 5 = 0$.\nTa có: $\\Delta' = [-(m-1)]^2 - 1 \\cdot (2m - 5) = m^2 - 2m + 1 - 2m + 5 = m^2 - 4m + 6 = (m-2)^2 + 2$.\nVì $(m-2)^2 \\ge 0$ nên $\\Delta' \\ge 2 > 0$ với mọi $m \\in \\mathbb{R}$.\nDo đó phương trình luôn có hai nghiệm phân biệt $x_1, x_2$ với mọi $m$.\nTheo định lí Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = 2(m-1) \\\\ x_1 x_2 = 2m - 5 \\end{cases}$$\nTheo đề bài, ta có:\n$$x_1^2 + x_2^2 = 10 \\Leftrightarrow (x_1 + x_2)^2 - 2x_1 x_2 = 10$$\n$$\\Leftrightarrow [2(m-1)]^2 - 2(2m - 5) = 10$$\n$$\\Leftrightarrow 4(m^2 - 2m + 1) - 4m + 10 = 10$$\n$$\\Leftrightarrow 4m^2 - 12m + 4 = 0 \\Leftrightarrow m^2 - 3m + 1 = 0.$$\nTa có $\\Delta_m = (-3)^2 - 4 \\cdot 1 \\cdot 1 = 5 > 0$.\nPhương trình có 2 nghiệm: $m_1 = \\frac{3 + \\sqrt{5}}{2}$, $m_2 = \\frac{3 - \\sqrt{5}}{2}$.\nVậy $m = \\frac{3 \\pm \\sqrt{5}}{2}$ là các giá trị cần tìm."
+          "solution": "Xét phương trình $x^2 - 4x - 3 = 0$.\\nVì $a \\cdot c = 1 \\cdot (-3) = -3 < 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$ khác $0$.\\nTheo định lí Viète, ta có:\\n$$\\begin{cases} x_1 + x_2 = 4 \\\\ x_1 x_2 = -3 \\end{cases}$$\\nTa có:\\n$$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 4^2 - 2 \\cdot (-3) = 16 + 6 = 22.$$\\nBiến đổi biểu thức $P$:\\n$$\\begin{aligned}\\nP &= \\frac{x_1 - 1}{x_2} + \\frac{x_2 - 1}{x_1} = \\frac{x_1(x_1 - 1) + x_2(x_2 - 1)}{x_1 x_2} \\\\\\n&= \\frac{x_1^2 - x_1 + x_2^2 - x_2}{x_1 x_2} = \\frac{(x_1^2 + x_2^2) - (x_1 + x_2)}{x_1 x_2} \\\\\\n&= \\frac{22 - 4}{-3} = \\frac{18}{-3} = -6.\\n\\end{aligned}$$\\nVậy $P = -6$."
         },
         {
           "id": 11,
