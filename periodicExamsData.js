@@ -11192,7 +11192,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 01)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -11226,12 +11226,12 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ",
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
               "Số $0$ không phải là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$",
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$"
             ],
             "correct": 3,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -11245,7 +11245,7 @@ window.PERIODIC_EXAM_BANK = {
               "$-4$"
             ],
             "correct": 2,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $16$ là $\\sqrt{16} = 4$ (số dương)."
           },
           {
             "id": 4,
@@ -11259,63 +11259,63 @@ window.PERIODIC_EXAM_BANK = {
               "$0$"
             ],
             "correct": 2,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = 6a^2$",
-              "$V = a^3$",
-              "$V = 4a^2$",
-              "$V = 3a$"
+              "Kề bù nhau",
+              "Bằng nhau",
+              "Phụ nhau",
+              "Có tổng số đo bằng $90^\\circ$"
             ],
             "correct": 1,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 5\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$150\\,\\text{cm}^3$",
-              "$250\\,\\text{cm}^3$",
-              "$101\\,\\text{cm}^3$",
-              "$20\\,\\text{cm}^3$"
+              "$\\widehat{xOy} = \\widehat{yOz}$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$"
             ],
             "correct": 1,
-            "explanation": "$V = a \\cdot b \\cdot c = (5) \\cdot 5 \\cdot 10 = 250\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{4}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$1$",
-              "$-\\frac{1}{16}$",
-              "$\\frac{1}{16}$",
-              "$-1$"
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "Tia $Oz$ vuông góc với tia $Ox$"
             ],
             "correct": 2,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "5 mặt, 6 đỉnh, 9 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh",
-              "4 mặt, 4 đỉnh, 6 cạnh",
-              "6 mặt, 8 đỉnh, 12 cạnh"
+              "Hai góc so le trong bằng nhau",
+              "Hai góc so le trong bù nhau",
+              "Hai góc đồng vị bù nhau",
+              "Hai góc trong cùng phía bằng nhau"
             ],
             "correct": 0,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -11349,29 +11349,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 17\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 90^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$136\\,\\text{cm}^3$",
-              "$68\\,\\text{cm}^3$",
-              "$25\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$"
+              "$45^\\circ$",
+              "$90^\\circ$",
+              "$135^\\circ$",
+              "$90^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$V = S_{đ} \\cdot h = (17) \\cdot 8 = 136\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{90^\\circ}2 = 45^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{11}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 45^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$11$",
-              "$3.32$",
-              "$3$",
-              "$3.3$"
+              "$90^\\circ$",
+              "$45^\\circ$",
+              "$22^\\circ$",
+              "$135^\\circ$"
             ],
             "correct": 3,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 45^\\circ = 135^\\circ$."
           }
         ],
         "part2": [
@@ -11404,20 +11404,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -11425,45 +11425,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $21\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $21\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $21\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $45^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $45^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $45^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $210\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $210\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (21) \\cdot 10 = 210\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $315\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $315\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $45^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $45^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (21) \\cdot 10 \\cdot 1,5 = 315\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $93.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $93.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(31) \\cdot 1,5 = 93\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -11473,33 +11473,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 25$ và $x < 0$.",
-            "answer": "-5",
-            "explanation": "Vì $x < 0$ nên $x = -5$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{16}$.",
+            "answer": "5",
+            "explanation": "$M = \\frac18 \\cdot 8 + 4 = 1 + 4 = 5$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{36}$.",
-            "answer": "7",
-            "explanation": "$\\frac18 \\cdot 8 + (6) = 1 + 6 = 7$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 45^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "135",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 45^\\circ = 135^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $4\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "160",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (4) \\cdot 10 = 160\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 16$.",
+            "answer": "-4",
+            "explanation": "$x^2 = 16 \\implies x = \\pm 4$. Vì $x < 0$ nên $x = -4$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 16$.",
-            "answer": "6",
-            "explanation": "$n - 2 = 4 \\implies n = 6$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 31^\\circ$ và $\\widehat{OBy} = 41^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "72",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 31^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 41^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 31^\\circ + 41^\\circ = 72^\\circ$."
           }
         ],
         "part4": [
@@ -11515,25 +11515,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{3}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{3}{4} - \\frac34 = \\frac{0}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{0}{4} = \\frac1{0}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{3}{4} - \\frac34 = \\frac{0}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{0}{4} = \\frac1{0}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{3}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{3}{4} - \\frac34 = \\frac{0}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{0}{4} = \\frac1{0}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{3}{4} - \\frac34 = \\frac{0}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{0}{4} = \\frac1{0}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $7\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (7) \\cdot 4 = 28\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (7 + 4) \\cdot 3,5 = 7(11) = 77\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(28) + (77) - 8 = 97\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (7) \\cdot 4 = 28\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (7 + 4) \\cdot 3,5 = 7(11) = 77\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(28) + (77) - 8 = 97\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 45^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 45^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 45^\\circ = 135^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 45^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 45^\\circ = 135^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 3| + |x - 11| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 3| + |11 - x| + 5 \\ge |x - 3 + 11 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(3) \\le x \\le (11)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 3| + |11 - x| + 5 \\ge |x - 3 + 11 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(3) \\le x \\le (11)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 3| + |x - 11| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 3| + |11 - x| + 5 \\ge |(x - 3) + (11 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 3)(11 - x) \\ge 0 \\iff 3 \\le x \\le 11$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 3| + |11 - x| + 5 \\ge |(x - 3) + (11 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 3)(11 - x) \\ge 0 \\iff 3 \\le x \\le 11$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -11541,7 +11541,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 02)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -11574,13 +11574,13 @@ window.PERIODIC_EXAM_BANK = {
             "points": 0.25,
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
-              "Số $0$ không phải là số hữu tỉ",
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$",
+              "Số $0$ không phải là số hữu tỉ",
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$"
             ],
             "correct": 3,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -11594,7 +11594,7 @@ window.PERIODIC_EXAM_BANK = {
               "$5$"
             ],
             "correct": 3,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $25$ là $\\sqrt{25} = 5$ (số dương)."
           },
           {
             "id": 4,
@@ -11608,63 +11608,63 @@ window.PERIODIC_EXAM_BANK = {
               "$-4.0$"
             ],
             "correct": 0,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = 3a$",
-              "$V = 6a^2$",
-              "$V = a^3$",
-              "$V = 4a^2$"
+              "Có tổng số đo bằng $90^\\circ$",
+              "Kề bù nhau",
+              "Bằng nhau",
+              "Phụ nhau"
             ],
             "correct": 2,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 6\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$21\\,\\text{cm}^3$",
-              "$160\\,\\text{cm}^3$",
-              "$300\\,\\text{cm}^3$",
-              "$102\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$"
             ],
             "correct": 2,
-            "explanation": "$V = a \\cdot b \\cdot c = (6) \\cdot 5 \\cdot 10 = 300\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{6}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$1$",
-              "$\\frac{1}{64}$",
-              "$-1$",
-              "$-\\frac{1}{64}$"
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "Tia $Oz$ vuông góc với tia $Ox$",
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$"
             ],
             "correct": 1,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "4 mặt, 4 đỉnh, 6 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh",
-              "6 mặt, 8 đỉnh, 12 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh"
+              "Hai góc đồng vị bù nhau",
+              "Hai góc so le trong bằng nhau",
+              "Hai góc trong cùng phía bằng nhau",
+              "Hai góc so le trong bù nhau"
             ],
             "correct": 1,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -11698,29 +11698,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 19\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 100^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$152\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$",
-              "$27\\,\\text{cm}^3$",
-              "$76\\,\\text{cm}^3$"
+              "$50^\\circ$",
+              "$90^\\circ$",
+              "$130^\\circ$",
+              "$100^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$V = S_{đ} \\cdot h = (19) \\cdot 8 = 152\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{100^\\circ}2 = 50^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{12}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 50^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$12$",
-              "$3.5$",
-              "$3.46$",
-              "$3$"
+              "$90^\\circ$",
+              "$130^\\circ$",
+              "$50^\\circ$",
+              "$25^\\circ$"
             ],
             "correct": 1,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 50^\\circ = 130^\\circ$."
           }
         ],
         "part2": [
@@ -11753,20 +11753,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -11774,45 +11774,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $22\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $22\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $22\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $50^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $50^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $50^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $220\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $220\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (22) \\cdot 10 = 220\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $330\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $330\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $50^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $50^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (22) \\cdot 10 \\cdot 1,5 = 330\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $96.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $96.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(32) \\cdot 1,5 = 96\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -11822,33 +11822,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 36$ và $x < 0$.",
-            "answer": "-6",
-            "explanation": "Vì $x < 0$ nên $x = -6$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{25}$.",
+            "answer": "6",
+            "explanation": "$M = \\frac18 \\cdot 8 + 5 = 1 + 5 = 6$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{49}$.",
-            "answer": "8",
-            "explanation": "$\\frac18 \\cdot 8 + (7) = 1 + 7 = 8$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 50^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "130",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 50^\\circ = 130^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $5\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "200",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (5) \\cdot 10 = 200\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 25$.",
+            "answer": "-5",
+            "explanation": "$x^2 = 25 \\implies x = \\pm 5$. Vì $x < 0$ nên $x = -5$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 32$.",
-            "answer": "7",
-            "explanation": "$n - 2 = 5 \\implies n = 7$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 32^\\circ$ và $\\widehat{OBy} = 42^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "74",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 32^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 42^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 32^\\circ + 42^\\circ = 74^\\circ$."
           }
         ],
         "part4": [
@@ -11864,25 +11864,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{4}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{4}{4} - \\frac34 = \\frac{1}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{1}{4} = \\frac1{1}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{4}{4} - \\frac34 = \\frac{1}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{1}{4} = \\frac1{1}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{4}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{4}{4} - \\frac34 = \\frac{1}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{1}{4} = \\frac1{1}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{4}{4} - \\frac34 = \\frac{1}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{1}{4} = \\frac1{1}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $8\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (8) \\cdot 4 = 32\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (8 + 4) \\cdot 3,5 = 7(12) = 84\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(32) + (84) - 8 = 108\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (8) \\cdot 4 = 32\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (8 + 4) \\cdot 3,5 = 7(12) = 84\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(32) + (84) - 8 = 108\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 50^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 50^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 50^\\circ = 130^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 50^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 50^\\circ = 130^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 4| + |x - 12| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 4| + |12 - x| + 5 \\ge |x - 4 + 12 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(4) \\le x \\le (12)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 4| + |12 - x| + 5 \\ge |x - 4 + 12 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(4) \\le x \\le (12)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 4| + |x - 12| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 4| + |12 - x| + 5 \\ge |(x - 4) + (12 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 4)(12 - x) \\ge 0 \\iff 4 \\le x \\le 12$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 4| + |12 - x| + 5 \\ge |(x - 4) + (12 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 4)(12 - x) \\ge 0 \\iff 4 \\le x \\le 12$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -11890,7 +11890,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 03)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -11923,13 +11923,13 @@ window.PERIODIC_EXAM_BANK = {
             "points": 0.25,
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
-              "Số $0$ không phải là số hữu tỉ",
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$",
+              "Số $0$ không phải là số hữu tỉ",
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$"
             ],
             "correct": 3,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -11943,7 +11943,7 @@ window.PERIODIC_EXAM_BANK = {
               "$\\pm 6$"
             ],
             "correct": 1,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $36$ là $\\sqrt{36} = 6$ (số dương)."
           },
           {
             "id": 4,
@@ -11957,63 +11957,63 @@ window.PERIODIC_EXAM_BANK = {
               "$-4.5$"
             ],
             "correct": 0,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = a^3$",
-              "$V = 6a^2$",
-              "$V = 4a^2$",
-              "$V = 3a$"
+              "Bằng nhau",
+              "Kề bù nhau",
+              "Phụ nhau",
+              "Có tổng số đo bằng $90^\\circ$"
             ],
             "correct": 0,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 7\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$103\\,\\text{cm}^3$",
-              "$350\\,\\text{cm}^3$",
-              "$22\\,\\text{cm}^3$",
-              "$170\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$"
             ],
             "correct": 1,
-            "explanation": "$V = a \\cdot b \\cdot c = (7) \\cdot 5 \\cdot 10 = 350\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{2}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$-\\frac{1}{4}$",
-              "$1$",
-              "$\\frac{1}{4}$",
-              "$-1$"
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$",
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "Tia $Oz$ vuông góc với tia $Ox$"
             ],
             "correct": 2,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "4 mặt, 4 đỉnh, 6 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh",
-              "6 mặt, 8 đỉnh, 12 cạnh"
+              "Hai góc đồng vị bù nhau",
+              "Hai góc so le trong bằng nhau",
+              "Hai góc so le trong bù nhau",
+              "Hai góc trong cùng phía bằng nhau"
             ],
             "correct": 1,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -12047,29 +12047,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 21\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 110^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$168\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$",
-              "$29\\,\\text{cm}^3$",
-              "$84\\,\\text{cm}^3$"
+              "$55^\\circ$",
+              "$90^\\circ$",
+              "$125^\\circ$",
+              "$110^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$V = S_{đ} \\cdot h = (21) \\cdot 8 = 168\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{110^\\circ}2 = 55^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{13}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 55^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$3$",
-              "$3.61$",
-              "$3.6$",
-              "$13$"
+              "$27^\\circ$",
+              "$55^\\circ$",
+              "$125^\\circ$",
+              "$90^\\circ$"
             ],
             "correct": 2,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 55^\\circ = 125^\\circ$."
           }
         ],
         "part2": [
@@ -12102,20 +12102,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -12123,45 +12123,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $23\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $23\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $23\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $55^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $55^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $55^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $230\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $230\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (23) \\cdot 10 = 230\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $345\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $345\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $55^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $55^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (23) \\cdot 10 \\cdot 1,5 = 345\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $99.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $99.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(33) \\cdot 1,5 = 99\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -12171,33 +12171,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 49$ và $x < 0$.",
-            "answer": "-7",
-            "explanation": "Vì $x < 0$ nên $x = -7$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{36}$.",
+            "answer": "7",
+            "explanation": "$M = \\frac18 \\cdot 8 + 6 = 1 + 6 = 7$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{64}$.",
-            "answer": "9",
-            "explanation": "$\\frac18 \\cdot 8 + (8) = 1 + 8 = 9$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 55^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "125",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 55^\\circ = 125^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $6\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "240",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (6) \\cdot 10 = 240\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 36$.",
+            "answer": "-6",
+            "explanation": "$x^2 = 36 \\implies x = \\pm 6$. Vì $x < 0$ nên $x = -6$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 64$.",
-            "answer": "8",
-            "explanation": "$n - 2 = 6 \\implies n = 8$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 33^\\circ$ và $\\widehat{OBy} = 43^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "76",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 33^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 43^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 33^\\circ + 43^\\circ = 76^\\circ$."
           }
         ],
         "part4": [
@@ -12213,25 +12213,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{5}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{5}{4} - \\frac34 = \\frac{2}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{2}{4} = \\frac1{2}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{5}{4} - \\frac34 = \\frac{2}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{2}{4} = \\frac1{2}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{5}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{5}{4} - \\frac34 = \\frac{2}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{2}{4} = \\frac1{2}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{5}{4} - \\frac34 = \\frac{2}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{2}{4} = \\frac1{2}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $9\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (9) \\cdot 4 = 36\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (9 + 4) \\cdot 3,5 = 7(13) = 91\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(36) + (91) - 8 = 119\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (9) \\cdot 4 = 36\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (9 + 4) \\cdot 3,5 = 7(13) = 91\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(36) + (91) - 8 = 119\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 55^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 55^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 55^\\circ = 125^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 55^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 55^\\circ = 125^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 5| + |x - 13| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 5| + |13 - x| + 5 \\ge |x - 5 + 13 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(5) \\le x \\le (13)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 5| + |13 - x| + 5 \\ge |x - 5 + 13 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(5) \\le x \\le (13)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 5| + |x - 13| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 5| + |13 - x| + 5 \\ge |(x - 5) + (13 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 5)(13 - x) \\ge 0 \\iff 5 \\le x \\le 13$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 5| + |13 - x| + 5 \\ge |(x - 5) + (13 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 5)(13 - x) \\ge 0 \\iff 5 \\le x \\le 13$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -12239,7 +12239,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 04)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -12272,13 +12272,13 @@ window.PERIODIC_EXAM_BANK = {
             "points": 0.25,
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
               "Số $0$ không phải là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$",
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ",
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$"
             ],
             "correct": 3,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -12292,7 +12292,7 @@ window.PERIODIC_EXAM_BANK = {
               "$49$"
             ],
             "correct": 1,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $49$ là $\\sqrt{49} = 7$ (số dương)."
           },
           {
             "id": 4,
@@ -12306,63 +12306,63 @@ window.PERIODIC_EXAM_BANK = {
               "$-5.0$"
             ],
             "correct": 0,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = 6a^2$",
-              "$V = 4a^2$",
-              "$V = a^3$",
-              "$V = 3a$"
+              "Kề bù nhau",
+              "Phụ nhau",
+              "Bằng nhau",
+              "Có tổng số đo bằng $90^\\circ$"
             ],
             "correct": 2,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 8\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$400\\,\\text{cm}^3$",
-              "$180\\,\\text{cm}^3$",
-              "$104\\,\\text{cm}^3$",
-              "$23\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$V = a \\cdot b \\cdot c = (8) \\cdot 5 \\cdot 10 = 400\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{4}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$1$",
-              "$-\\frac{1}{16}$",
-              "$\\frac{1}{16}$",
-              "$-1$"
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "Tia $Oz$ vuông góc với tia $Ox$"
             ],
             "correct": 2,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "6 mặt, 8 đỉnh, 12 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh",
-              "4 mặt, 4 đỉnh, 6 cạnh"
+              "Hai góc trong cùng phía bằng nhau",
+              "Hai góc so le trong bù nhau",
+              "Hai góc so le trong bằng nhau",
+              "Hai góc đồng vị bù nhau"
             ],
             "correct": 2,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -12396,29 +12396,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 23\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 120^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$100\\,\\text{cm}^3$",
-              "$184\\,\\text{cm}^3$",
-              "$31\\,\\text{cm}^3$",
-              "$92\\,\\text{cm}^3$"
+              "$90^\\circ$",
+              "$60^\\circ$",
+              "$120^\\circ$",
+              "$120^\\circ$"
             ],
             "correct": 1,
-            "explanation": "$V = S_{đ} \\cdot h = (23) \\cdot 8 = 184\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{120^\\circ}2 = 60^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{14}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 60^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$3.7$",
-              "$14$",
-              "$3$",
-              "$3.74$"
+              "$120^\\circ$",
+              "$90^\\circ$",
+              "$30^\\circ$",
+              "$60^\\circ$"
             ],
             "correct": 0,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 60^\\circ = 120^\\circ$."
           }
         ],
         "part2": [
@@ -12451,20 +12451,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -12472,45 +12472,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $24\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $24\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $24\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $60^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $60^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $60^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $240\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $240\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (24) \\cdot 10 = 240\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $360\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $360\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $60^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $60^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (24) \\cdot 10 \\cdot 1,5 = 360\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $102.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $102.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(34) \\cdot 1,5 = 102\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -12520,33 +12520,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 64$ và $x < 0$.",
-            "answer": "-8",
-            "explanation": "Vì $x < 0$ nên $x = -8$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{49}$.",
+            "answer": "8",
+            "explanation": "$M = \\frac18 \\cdot 8 + 7 = 1 + 7 = 8$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{81}$.",
-            "answer": "10",
-            "explanation": "$\\frac18 \\cdot 8 + (9) = 1 + 9 = 10$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 60^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "120",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $7\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "280",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (7) \\cdot 10 = 280\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 49$.",
+            "answer": "-7",
+            "explanation": "$x^2 = 49 \\implies x = \\pm 7$. Vì $x < 0$ nên $x = -7$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 8$.",
-            "answer": "5",
-            "explanation": "$n - 2 = 3 \\implies n = 5$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 34^\\circ$ và $\\widehat{OBy} = 44^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "78",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 34^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 44^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 34^\\circ + 44^\\circ = 78^\\circ$."
           }
         ],
         "part4": [
@@ -12562,25 +12562,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{6}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{6}{4} - \\frac34 = \\frac{3}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{3}{4} = \\frac1{3}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{6}{4} - \\frac34 = \\frac{3}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{3}{4} = \\frac1{3}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{6}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{6}{4} - \\frac34 = \\frac{3}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{3}{4} = \\frac1{3}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{6}{4} - \\frac34 = \\frac{3}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{3}{4} = \\frac1{3}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $10\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (10) \\cdot 4 = 40\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (10 + 4) \\cdot 3,5 = 7(14) = 98\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(40) + (98) - 8 = 130\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (10) \\cdot 4 = 40\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (10 + 4) \\cdot 3,5 = 7(14) = 98\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(40) + (98) - 8 = 130\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 60^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 60^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 60^\\circ = 120^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 60^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 60^\\circ = 120^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 6| + |x - 14| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 6| + |14 - x| + 5 \\ge |x - 6 + 14 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(6) \\le x \\le (14)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 6| + |14 - x| + 5 \\ge |x - 6 + 14 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(6) \\le x \\le (14)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 6| + |x - 14| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 6| + |14 - x| + 5 \\ge |(x - 6) + (14 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 6)(14 - x) \\ge 0 \\iff 6 \\le x \\le 14$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 6| + |14 - x| + 5 \\ge |(x - 6) + (14 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 6)(14 - x) \\ge 0 \\iff 6 \\le x \\le 14$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -12588,7 +12588,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 05)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -12622,12 +12622,12 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$",
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
               "Số $0$ không phải là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$",
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ"
             ],
             "correct": 0,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -12641,7 +12641,7 @@ window.PERIODIC_EXAM_BANK = {
               "$-8$"
             ],
             "correct": 1,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $64$ là $\\sqrt{64} = 8$ (số dương)."
           },
           {
             "id": 4,
@@ -12655,63 +12655,63 @@ window.PERIODIC_EXAM_BANK = {
               "$1$"
             ],
             "correct": 2,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = 4a^2$",
-              "$V = 3a$",
-              "$V = 6a^2$",
-              "$V = a^3$"
+              "Phụ nhau",
+              "Có tổng số đo bằng $90^\\circ$",
+              "Kề bù nhau",
+              "Bằng nhau"
             ],
             "correct": 3,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 9\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$24\\,\\text{cm}^3$",
-              "$105\\,\\text{cm}^3$",
-              "$450\\,\\text{cm}^3$",
-              "$190\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$"
             ],
             "correct": 2,
-            "explanation": "$V = a \\cdot b \\cdot c = (9) \\cdot 5 \\cdot 10 = 450\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{6}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$-\\frac{1}{64}$",
-              "$1$",
-              "$\\frac{1}{64}$",
-              "$-1$"
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$",
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "Tia $Oz$ vuông góc với tia $Ox$"
             ],
             "correct": 2,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "6 mặt, 8 đỉnh, 12 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh",
-              "4 mặt, 4 đỉnh, 6 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh"
+              "Hai góc trong cùng phía bằng nhau",
+              "Hai góc so le trong bù nhau",
+              "Hai góc đồng vị bù nhau",
+              "Hai góc so le trong bằng nhau"
             ],
             "correct": 3,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -12745,29 +12745,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 25\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 130^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$33\\,\\text{cm}^3$",
-              "$200\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$"
+              "$115^\\circ$",
+              "$65^\\circ$",
+              "$90^\\circ$",
+              "$130^\\circ$"
             ],
             "correct": 1,
-            "explanation": "$V = S_{đ} \\cdot h = (25) \\cdot 8 = 200\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{130^\\circ}2 = 65^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{15}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 65^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$15$",
-              "$3$",
-              "$3.87$",
-              "$3.9$"
+              "$90^\\circ$",
+              "$32^\\circ$",
+              "$65^\\circ$",
+              "$115^\\circ$"
             ],
             "correct": 3,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 65^\\circ = 115^\\circ$."
           }
         ],
         "part2": [
@@ -12800,20 +12800,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -12821,45 +12821,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $25\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $25\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $25\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $65^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $65^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $65^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $250\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $250\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (25) \\cdot 10 = 250\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $375\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $375\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $65^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $65^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (25) \\cdot 10 \\cdot 1,5 = 375\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $105.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $105.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(35) \\cdot 1,5 = 105\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -12869,33 +12869,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 81$ và $x < 0$.",
-            "answer": "-9",
-            "explanation": "Vì $x < 0$ nên $x = -9$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{64}$.",
+            "answer": "9",
+            "explanation": "$M = \\frac18 \\cdot 8 + 8 = 1 + 8 = 9$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{100}$.",
-            "answer": "11",
-            "explanation": "$\\frac18 \\cdot 8 + (10) = 1 + 10 = 11$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 65^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "115",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 65^\\circ = 115^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $8\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "320",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (8) \\cdot 10 = 320\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 64$.",
+            "answer": "-8",
+            "explanation": "$x^2 = 64 \\implies x = \\pm 8$. Vì $x < 0$ nên $x = -8$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 16$.",
-            "answer": "6",
-            "explanation": "$n - 2 = 4 \\implies n = 6$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 35^\\circ$ và $\\widehat{OBy} = 45^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "80",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 35^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 45^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 35^\\circ + 45^\\circ = 80^\\circ$."
           }
         ],
         "part4": [
@@ -12911,25 +12911,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{7}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{7}{4} - \\frac34 = \\frac{4}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{4}{4} = \\frac1{4}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{7}{4} - \\frac34 = \\frac{4}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{4}{4} = \\frac1{4}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{7}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{7}{4} - \\frac34 = \\frac{4}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{4}{4} = \\frac1{4}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{7}{4} - \\frac34 = \\frac{4}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{4}{4} = \\frac1{4}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $11\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (11) \\cdot 4 = 44\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (11 + 4) \\cdot 3,5 = 7(15) = 105\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(44) + (105) - 8 = 141\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (11) \\cdot 4 = 44\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (11 + 4) \\cdot 3,5 = 7(15) = 105\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(44) + (105) - 8 = 141\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 65^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 65^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 65^\\circ = 115^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 65^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 65^\\circ = 115^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 7| + |x - 15| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 7| + |15 - x| + 5 \\ge |x - 7 + 15 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(7) \\le x \\le (15)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 7| + |15 - x| + 5 \\ge |x - 7 + 15 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(7) \\le x \\le (15)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 7| + |x - 15| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 7| + |15 - x| + 5 \\ge |(x - 7) + (15 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 7)(15 - x) \\ge 0 \\iff 7 \\le x \\le 15$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 7| + |15 - x| + 5 \\ge |(x - 7) + (15 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 7)(15 - x) \\ge 0 \\iff 7 \\le x \\le 15$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -12937,7 +12937,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 06)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -12970,13 +12970,13 @@ window.PERIODIC_EXAM_BANK = {
             "points": 0.25,
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$",
               "Số $0$ không phải là số hữu tỉ",
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$",
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ"
             ],
             "correct": 2,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -12990,7 +12990,7 @@ window.PERIODIC_EXAM_BANK = {
               "$81$"
             ],
             "correct": 0,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $81$ là $\\sqrt{81} = 9$ (số dương)."
           },
           {
             "id": 4,
@@ -13004,63 +13004,63 @@ window.PERIODIC_EXAM_BANK = {
               "$1$"
             ],
             "correct": 0,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = a^3$",
-              "$V = 6a^2$",
-              "$V = 3a$",
-              "$V = 4a^2$"
+              "Bằng nhau",
+              "Kề bù nhau",
+              "Có tổng số đo bằng $90^\\circ$",
+              "Phụ nhau"
             ],
             "correct": 0,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 10\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$106\\,\\text{cm}^3$",
-              "$500\\,\\text{cm}^3$",
-              "$200\\,\\text{cm}^3$",
-              "$25\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$"
             ],
             "correct": 1,
-            "explanation": "$V = a \\cdot b \\cdot c = (10) \\cdot 5 \\cdot 10 = 500\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{2}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$-\\frac{1}{4}$",
-              "$-1$",
-              "$1$",
-              "$\\frac{1}{4}$"
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$",
+              "Tia $Oz$ vuông góc với tia $Ox$",
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$"
             ],
             "correct": 3,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "6 mặt, 8 đỉnh, 12 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh",
-              "4 mặt, 4 đỉnh, 6 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh"
+              "Hai góc trong cùng phía bằng nhau",
+              "Hai góc so le trong bằng nhau",
+              "Hai góc đồng vị bù nhau",
+              "Hai góc so le trong bù nhau"
             ],
             "correct": 1,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -13094,29 +13094,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 27\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 140^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$108\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$",
-              "$216\\,\\text{cm}^3$",
-              "$35\\,\\text{cm}^3$"
+              "$140^\\circ$",
+              "$90^\\circ$",
+              "$70^\\circ$",
+              "$110^\\circ$"
             ],
             "correct": 2,
-            "explanation": "$V = S_{đ} \\cdot h = (27) \\cdot 8 = 216\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{140^\\circ}2 = 70^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{16}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 70^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$4.0$",
-              "$4.0$",
-              "$4$",
-              "$16$"
+              "$70^\\circ$",
+              "$110^\\circ$",
+              "$35^\\circ$",
+              "$90^\\circ$"
             ],
             "correct": 1,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 70^\\circ = 110^\\circ$."
           }
         ],
         "part2": [
@@ -13149,20 +13149,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -13170,45 +13170,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $26\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $26\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $26\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $70^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $70^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $70^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $260\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $260\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (26) \\cdot 10 = 260\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $390\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $390\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $70^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $70^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (26) \\cdot 10 \\cdot 1,5 = 390\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $108.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $108.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(36) \\cdot 1,5 = 108\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -13218,33 +13218,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 100$ và $x < 0$.",
-            "answer": "-10",
-            "explanation": "Vì $x < 0$ nên $x = -10$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{81}$.",
+            "answer": "10",
+            "explanation": "$M = \\frac18 \\cdot 8 + 9 = 1 + 9 = 10$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{121}$.",
-            "answer": "12",
-            "explanation": "$\\frac18 \\cdot 8 + (11) = 1 + 11 = 12$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 70^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "110",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 70^\\circ = 110^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $9\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "360",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (9) \\cdot 10 = 360\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 81$.",
+            "answer": "-9",
+            "explanation": "$x^2 = 81 \\implies x = \\pm 9$. Vì $x < 0$ nên $x = -9$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 32$.",
-            "answer": "7",
-            "explanation": "$n - 2 = 5 \\implies n = 7$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 36^\\circ$ và $\\widehat{OBy} = 46^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "82",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 36^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 46^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 36^\\circ + 46^\\circ = 82^\\circ$."
           }
         ],
         "part4": [
@@ -13260,25 +13260,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{8}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{8}{4} - \\frac34 = \\frac{5}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{5}{4} = \\frac1{5}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{8}{4} - \\frac34 = \\frac{5}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{5}{4} = \\frac1{5}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{8}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{8}{4} - \\frac34 = \\frac{5}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{5}{4} = \\frac1{5}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{8}{4} - \\frac34 = \\frac{5}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{5}{4} = \\frac1{5}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $12\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (12) \\cdot 4 = 48\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (12 + 4) \\cdot 3,5 = 7(16) = 112\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(48) + (112) - 8 = 152\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (12) \\cdot 4 = 48\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (12 + 4) \\cdot 3,5 = 7(16) = 112\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(48) + (112) - 8 = 152\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 70^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 70^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 70^\\circ = 110^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 70^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 70^\\circ = 110^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 8| + |x - 16| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 8| + |16 - x| + 5 \\ge |x - 8 + 16 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(8) \\le x \\le (16)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 8| + |16 - x| + 5 \\ge |x - 8 + 16 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(8) \\le x \\le (16)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 8| + |x - 16| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 8| + |16 - x| + 5 \\ge |(x - 8) + (16 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 8)(16 - x) \\ge 0 \\iff 8 \\le x \\le 16$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 8| + |16 - x| + 5 \\ge |(x - 8) + (16 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 8)(16 - x) \\ge 0 \\iff 8 \\le x \\le 16$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -13286,7 +13286,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 07)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -13321,11 +13321,11 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$",
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ",
-              "Số $0$ không phải là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$"
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
+              "Số $0$ không phải là số hữu tỉ"
             ],
             "correct": 0,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -13339,7 +13339,7 @@ window.PERIODIC_EXAM_BANK = {
               "$100$"
             ],
             "correct": 2,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $100$ là $\\sqrt{100} = 10$ (số dương)."
           },
           {
             "id": 4,
@@ -13353,63 +13353,63 @@ window.PERIODIC_EXAM_BANK = {
               "$6.5$"
             ],
             "correct": 3,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = 6a^2$",
-              "$V = a^3$",
-              "$V = 3a$",
-              "$V = 4a^2$"
+              "Kề bù nhau",
+              "Bằng nhau",
+              "Có tổng số đo bằng $90^\\circ$",
+              "Phụ nhau"
             ],
             "correct": 1,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 11\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$107\\,\\text{cm}^3$",
-              "$210\\,\\text{cm}^3$",
-              "$550\\,\\text{cm}^3$",
-              "$26\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$"
             ],
             "correct": 2,
-            "explanation": "$V = a \\cdot b \\cdot c = (11) \\cdot 5 \\cdot 10 = 550\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{4}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$1$",
-              "$\\frac{1}{16}$",
-              "$-1$",
-              "$-\\frac{1}{16}$"
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "Tia $Oz$ vuông góc với tia $Ox$",
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$"
             ],
             "correct": 1,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "4 mặt, 4 đỉnh, 6 cạnh",
-              "5 mặt, 5 đỉnh, 8 cạnh",
-              "6 mặt, 8 đỉnh, 12 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh"
+              "Hai góc đồng vị bù nhau",
+              "Hai góc so le trong bù nhau",
+              "Hai góc trong cùng phía bằng nhau",
+              "Hai góc so le trong bằng nhau"
             ],
             "correct": 3,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -13443,29 +13443,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 29\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 150^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$100\\,\\text{cm}^3$",
-              "$37\\,\\text{cm}^3$",
-              "$232\\,\\text{cm}^3$",
-              "$116\\,\\text{cm}^3$"
+              "$90^\\circ$",
+              "$105^\\circ$",
+              "$75^\\circ$",
+              "$150^\\circ$"
             ],
             "correct": 2,
-            "explanation": "$V = S_{đ} \\cdot h = (29) \\cdot 8 = 232\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{150^\\circ}2 = 75^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{17}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 75^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$4.1$",
-              "$17$",
-              "$4.12$",
-              "$4$"
+              "$105^\\circ$",
+              "$90^\\circ$",
+              "$75^\\circ$",
+              "$37^\\circ$"
             ],
             "correct": 0,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 75^\\circ = 105^\\circ$."
           }
         ],
         "part2": [
@@ -13498,20 +13498,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -13519,45 +13519,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $27\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $27\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $27\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $75^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $75^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $75^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $270\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $270\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (27) \\cdot 10 = 270\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $405\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $405\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $75^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $75^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (27) \\cdot 10 \\cdot 1,5 = 405\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $111.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $111.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(37) \\cdot 1,5 = 111\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -13567,33 +13567,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 121$ và $x < 0$.",
-            "answer": "-11",
-            "explanation": "Vì $x < 0$ nên $x = -11$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{100}$.",
+            "answer": "11",
+            "explanation": "$M = \\frac18 \\cdot 8 + 10 = 1 + 10 = 11$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{144}$.",
-            "answer": "13",
-            "explanation": "$\\frac18 \\cdot 8 + (12) = 1 + 12 = 13$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 75^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "105",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 75^\\circ = 105^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $10\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "400",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (10) \\cdot 10 = 400\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 100$.",
+            "answer": "-10",
+            "explanation": "$x^2 = 100 \\implies x = \\pm 10$. Vì $x < 0$ nên $x = -10$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 64$.",
-            "answer": "8",
-            "explanation": "$n - 2 = 6 \\implies n = 8$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 37^\\circ$ và $\\widehat{OBy} = 47^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "84",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 37^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 47^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 37^\\circ + 47^\\circ = 84^\\circ$."
           }
         ],
         "part4": [
@@ -13609,25 +13609,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{9}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{9}{4} - \\frac34 = \\frac{6}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{6}{4} = \\frac1{6}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{9}{4} - \\frac34 = \\frac{6}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{6}{4} = \\frac1{6}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{9}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{9}{4} - \\frac34 = \\frac{6}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{6}{4} = \\frac1{6}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{9}{4} - \\frac34 = \\frac{6}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{6}{4} = \\frac1{6}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $13\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (13) \\cdot 4 = 52\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (13 + 4) \\cdot 3,5 = 7(17) = 119\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(52) + (119) - 8 = 163\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (13) \\cdot 4 = 52\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (13 + 4) \\cdot 3,5 = 7(17) = 119\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(52) + (119) - 8 = 163\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 75^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 75^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 75^\\circ = 105^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 75^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 75^\\circ = 105^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 9| + |x - 17| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 9| + |17 - x| + 5 \\ge |x - 9 + 17 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(9) \\le x \\le (17)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 9| + |17 - x| + 5 \\ge |x - 9 + 17 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(9) \\le x \\le (17)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 9| + |x - 17| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 9| + |17 - x| + 5 \\ge |(x - 9) + (17 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 9)(17 - x) \\ge 0 \\iff 9 \\le x \\le 17$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 9| + |17 - x| + 5 \\ge |(x - 9) + (17 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 9)(17 - x) \\ge 0 \\iff 9 \\le x \\le 17$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       },
@@ -13635,7 +13635,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid1_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 08)",
-        "topic": "Số hữu tỉ, Số thực, Căn bậc hai & Hình khối trực quan",
+        "topic": "Số hữu tỉ, Số thực & Góc - Đường thẳng song song",
         "grade": "7",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -13670,11 +13670,11 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "Mọi số thập phân vô hạn không tuần hoàn đều là số hữu tỉ",
               "Số hữu tỉ là số viết được dưới dạng $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\ne 0$",
-              "Số $0$ không phải là số hữu tỉ",
-              "Tập số tự nhiên không phải là tập con của $\\mathbb{Q}$"
+              "Tập số nguyên $\\mathbb{Z}$ không phải là tập con của $\\mathbb{Q}$",
+              "Số $0$ không phải là số hữu tỉ"
             ],
             "correct": 1,
-            "explanation": "Định nghĩa số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+            "explanation": "Theo định nghĩa, số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
           },
           {
             "id": 3,
@@ -13688,7 +13688,7 @@ window.PERIODIC_EXAM_BANK = {
               "$11$"
             ],
             "correct": 3,
-            "explanation": "Căn bậc hai số học của $a^2$ ($a > 0$) là $a$."
+            "explanation": "Căn bậc hai số học của số $121$ là $\\sqrt{121} = 11$ (số dương)."
           },
           {
             "id": 4,
@@ -13702,63 +13702,63 @@ window.PERIODIC_EXAM_BANK = {
               "$7.0$"
             ],
             "correct": 3,
-            "explanation": "Giá trị tuyệt đối của số âm là số đối của nó."
+            "explanation": "Giá trị tuyệt đối của một số âm là số đối của nó."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
+            "question": "Hai góc đối đỉnh thì:",
             "options": [
-              "$V = 3a$",
-              "$V = 6a^2$",
-              "$V = a^3$",
-              "$V = 4a^2$"
+              "Có tổng số đo bằng $90^\\circ$",
+              "Kề bù nhau",
+              "Bằng nhau",
+              "Phụ nhau"
             ],
             "correct": 2,
-            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
+            "explanation": "Định lí: Hai góc đối đỉnh thì bằng nhau."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 12\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Khẳng định nào sau đây là đúng?",
             "options": [
-              "$600\\,\\text{cm}^3$",
-              "$220\\,\\text{cm}^3$",
-              "$108\\,\\text{cm}^3$",
-              "$27\\,\\text{cm}^3$"
+              "$\\widehat{xOy} + \\widehat{yOz} = 180^\\circ$",
+              "$\\widehat{xOy} = \\widehat{yOz}$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 360^\\circ$",
+              "$\\widehat{xOy} + \\widehat{yOz} = 90^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$V = a \\cdot b \\cdot c = (12) \\cdot 5 \\cdot 10 = 600\\,\\text{cm}^3$."
+            "explanation": "Hai góc kề bù có tổng số đo bằng $180^\\circ$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Lũy thừa $\\left(-\\frac12\\right)^{6}$ có giá trị là:",
+            "question": "Tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ nếu:",
             "options": [
-              "$\\frac{1}{64}$",
-              "$1$",
-              "$-1$",
-              "$-\\frac{1}{64}$"
+              "Tia $Oz$ nằm giữa hai tia $Ox, Oy$ và $\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}$",
+              "$\\widehat{xOz} + \\widehat{zOy} = 180^\\circ$",
+              "Tia $Oz$ vuông góc với tia $Ox$",
+              "Chỉ cần tia $Oz$ nằm giữa hai tia $Ox, Oy$"
             ],
             "correct": 0,
-            "explanation": "Lũy thừa bậc chẵn của số âm là số dương."
+            "explanation": "Tia phân giác nằm giữa hai cạnh của góc và tạo với hai cạnh ấy hai góc bằng nhau."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hình lăng trụ đứng tam giác có bao nhiêu mặt, bao nhiêu đỉnh, bao nhiêu cạnh?",
+            "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì:",
             "options": [
-              "5 mặt, 5 đỉnh, 8 cạnh",
-              "6 mặt, 8 đỉnh, 12 cạnh",
-              "5 mặt, 6 đỉnh, 9 cạnh",
-              "4 mặt, 4 đỉnh, 6 cạnh"
+              "Hai góc so le trong bù nhau",
+              "Hai góc trong cùng phía bằng nhau",
+              "Hai góc so le trong bằng nhau",
+              "Hai góc đồng vị bù nhau"
             ],
             "correct": 2,
-            "explanation": "Lăng trụ đứng tam giác có 2 đáy tam giác và 3 mặt bên hình chữ nhật: 5 mặt, 6 đỉnh, 9 cạnh."
+            "explanation": "Tính chất hai đường thẳng song song: Các cặp góc so le trong bằng nhau."
           },
           {
             "id": 9,
@@ -13792,29 +13792,29 @@ window.PERIODIC_EXAM_BANK = {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 31\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Thể tích của lăng trụ là:",
+            "question": "Cho góc $\\widehat{xOy} = 160^\\circ$. Tia $Ot$ là tia phân giác của góc $\\widehat{xOy}$. Số đo của góc $\\widehat{xOt}$ là:",
             "options": [
-              "$248\\,\\text{cm}^3$",
-              "$39\\,\\text{cm}^3$",
-              "$100\\,\\text{cm}^3$",
-              "$124\\,\\text{cm}^3$"
+              "$80^\\circ$",
+              "$100^\\circ$",
+              "$90^\\circ$",
+              "$160^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$V = S_{đ} \\cdot h = (31) \\cdot 8 = 248\\,\\text{cm}^3$."
+            "explanation": "Vì $Ot$ là tia phân giác nên $\\widehat{xOt} = \\frac{\\widehat{xOy}}2 = \\frac{160^\\circ}2 = 80^\\circ$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Làm tròn số thực $\\sqrt{18}$ với độ chính xác $0,05$ (đến hàng phần mười) ta được:",
+            "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết góc $\\widehat{A_1} = 80^\\circ$. Số đo góc trong cùng phía với $\\widehat{A_1}$ là:",
             "options": [
-              "$4$",
-              "$4.2$",
-              "$18$",
-              "$4.24$"
+              "$40^\\circ$",
+              "$100^\\circ$",
+              "$90^\\circ$",
+              "$80^\\circ$"
             ],
             "correct": 1,
-            "explanation": "Độ chính xác 0.05 yêu cầu làm tròn đến hàng phần mười."
+            "explanation": "Hai góc trong cùng phía của hai đường thẳng song song bù nhau: $180^\\circ - 80^\\circ = 100^\\circ$."
           }
         ],
         "part2": [
@@ -13847,20 +13847,20 @@ window.PERIODIC_EXAM_BANK = {
               {
                 "key": "c",
                 "id": "c",
-                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
-                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k$.",
+                "text": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
+                "statement": "Biểu thức $A$ nhận giá trị hữu tỉ dương với mọi $k \\ge 1$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Tổng của hai số hữu tỉ dương luôn là số hữu tỉ dương."
+                "explanation": "Tổng của hai số hữu tỉ dương là một số hữu tỉ dương."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
-                "statement": "Nếu $k$ là số vô tỉ thì biểu thức $A$ luôn là số nguyên.",
+                "text": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
+                "statement": "Nếu thay căn bậc hai bằng $\\sqrt{2}$ thì biểu thức $A$ vẫn luôn là số hữu tỉ.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Không đúng với mọi k."
+                "explanation": "Vì $\\sqrt{2}$ là số vô tỉ nên tổng với số hữu tỉ sẽ là số vô tỉ."
               }
             ]
           },
@@ -13868,45 +13868,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Thông hiểu",
             "points": 1.0,
-            "intro": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $28\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "stem": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $28\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
-            "question": "Một bể bơi dạng hình hộp chữ nhật có chiều dài $28\\,\\text{m}$, chiều rộng $10\\,\\text{m}$, chiều sâu $1,5\\,\\text{m}$.",
+            "intro": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $80^\\circ$.",
+            "stem": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $80^\\circ$.",
+            "question": "Cho hình vẽ hai đường thẳng $a$ và $b$ cùng bị cắt bởi đường thẳng $c$ tại hai điểm $A$ và $B$. Biết một cặp góc so le trong bằng $80^\\circ$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Diện tích đáy bể bơi là $280\\,\\text{m}^2$.",
-                "statement": "Diện tích đáy bể bơi là $280\\,\\text{m}^2$.",
+                "text": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
+                "statement": "Hai đường thẳng $a$ và $b$ song song với nhau ($a \\parallel b$).",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Diện tích đáy $S = (28) \\cdot 10 = 280\\,\\text{m}^2$."
+                "explanation": "Vì có một cặp góc so le trong bằng nhau."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Thể tích nước tối đa mà bể có thể chứa là $420\\,\\text{m}^3$.",
-                "statement": "Thể tích nước tối đa mà bể có thể chứa là $420\\,\\text{m}^3$.",
+                "text": "Cặp góc đồng vị tương ứng cũng có số đo bằng $80^\\circ$.",
+                "statement": "Cặp góc đồng vị tương ứng cũng có số đo bằng $80^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$V = (28) \\cdot 10 \\cdot 1,5 = 420\\,\\text{m}^3$."
+                "explanation": "Khi hai đường thẳng song song, các góc đồng vị bằng nhau."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Diện tích xung quanh của bể bơi là $114.0\\,\\text{m}^2$.",
-                "statement": "Diện tích xung quanh của bể bơi là $114.0\\,\\text{m}^2$.",
+                "text": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
+                "statement": "Cặp góc trong cùng phía có tổng số đo bằng $180^\\circ$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "$S_{xq} = 2(a+b)h = 2(38) \\cdot 1,5 = 114\\,\\text{m}^2$."
+                "explanation": "Hai góc trong cùng phía tạo bởi hai đường thẳng song song thì bù nhau."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
-                "statement": "Bể bơi hình hộp chữ nhật có tất cả 4 mặt bên và 1 đáy bằng nhau.",
+                "text": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
+                "statement": "Nếu một đường thẳng $d$ vuông góc với $a$ thì $d$ sẽ song song với $b$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Các mặt bên có kích thước khác mặt đáy."
+                "explanation": "Định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó sẽ vuông góc với đường thẳng kia."
               }
             ]
           }
@@ -13916,33 +13916,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tìm giá trị của $x$, biết: $x^2 = 144$ và $x < 0$.",
-            "answer": "-12",
-            "explanation": "Vì $x < 0$ nên $x = -12$."
+            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{121}$.",
+            "answer": "12",
+            "explanation": "$M = \\frac18 \\cdot 8 + 11 = 1 + 11 = 12$."
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "points": 0.5,
-            "question": "Tính giá trị của biểu thức: $M = \\left(\\frac12\\right)^3 \\cdot 8 + \\sqrt{169}$.",
-            "answer": "14",
-            "explanation": "$\\frac18 \\cdot 8 + (13) = 1 + 13 = 14$."
+            "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 80^\\circ$. Tính số đo góc $\\widehat{yOz}$ (theo độ).",
+            "answer": "100",
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 80^\\circ = 100^\\circ$."
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.5,
-            "question": "Một hình lăng trụ đứng tứ giác có đáy là hình vuông cạnh $11\\,\\text{cm}$, chiều cao của lăng trụ là $10\\,\\text{cm}$. Tính diện tích xung quanh của lăng trụ (theo $\\text{cm}^2$).",
-            "answer": "440",
-            "explanation": "$S_{xq} = C_{đáy} \\cdot h = 4 \\cdot (11) \\cdot 10 = 440\\,\\text{cm}^2$."
+            "question": "Tìm giá trị âm của $x$, biết: $x^2 = 121$.",
+            "answer": "-11",
+            "explanation": "$x^2 = 121 \\implies x = \\pm 11$. Vì $x < 0$ nên $x = -11$."
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{2^n}{2^{2}} = 8$.",
-            "answer": "5",
-            "explanation": "$n - 2 = 3 \\implies n = 5$."
+            "question": "Cho hình vẽ hai tia song song $Ax \\parallel By$. Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tia $Ox$ và $Oy$ cùng phía. Biết $\\widehat{xAO} = 38^\\circ$ và $\\widehat{OBy} = 48^\\circ$. Kẻ qua $O$ đường thẳng $Oz \\parallel Ax$. Tính số đo góc $\\widehat{AOB}$ (theo độ).",
+            "answer": "86",
+            "explanation": "Qua O kẻ $Oz \\parallel Ax \\implies Oz \\parallel By$. Ta có: $\\widehat{AOz} = \\widehat{xAO} = 38^\\circ$ (so le trong), $\\widehat{zOB} = \\widehat{OBy} = 48^\\circ$ (so le trong). Vậy $\\widehat{AOB} = \\widehat{AOz} + \\widehat{zOB} = 38^\\circ + 48^\\circ = 86^\\circ$."
           }
         ],
         "part4": [
@@ -13958,25 +13958,25 @@ window.PERIODIC_EXAM_BANK = {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Tìm $x$, biết: $\\frac34 + \\frac14 : x = \\frac{10}{4}$.",
-            "rubric": "$\\frac14 : x = \\frac{10}{4} - \\frac34 = \\frac{7}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{7}{4} = \\frac1{7}$ (với $k \\ne 1$). (0.25đ)",
-            "modelSolution": "$\\frac14 : x = \\frac{10}{4} - \\frac34 = \\frac{7}{4}$ (0.5đ)\n$x = \\frac14 : \\frac{7}{4} = \\frac1{7}$ (với $k \\ne 1$). (0.25đ)"
+            "question": "Tìm số hữu tỉ $x$, biết: $\\frac34 + \\frac14 : x = \\frac{10}{4}$.",
+            "rubric": "$\\frac14 : x = \\frac{10}{4} - \\frac34 = \\frac{7}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{7}{4} = \\frac1{7}$. (0.25đ)",
+            "modelSolution": "$\\frac14 : x = \\frac{10}{4} - \\frac34 = \\frac{7}{4}$ (0.5đ)\nNếu $k = 1$ phương trình vô nghiệm. Với $k \\ne 1$, $x = \\frac14 : \\frac{7}{4} = \\frac1{7}$. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $14\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
-            "rubric": "Diện tích trần nhà: $S_{trần} = (14) \\cdot 4 = 56\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (14 + 4) \\cdot 3,5 = 7(18) = 126\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(56) + (126) - 8 = 174\\,\\text{m}^2$. (0.25đ)",
-            "modelSolution": "Diện tích trần nhà: $S_{trần} = (14) \\cdot 4 = 56\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (14 + 4) \\cdot 3,5 = 7(18) = 126\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(56) + (126) - 8 = 174\\,\\text{m}^2$. (0.25đ)"
+            "question": "Cho hình vẽ biết $a \\parallel b$. Đường thẳng $c$ cắt đường thẳng $a$ tại $A$ và cắt đường thẳng $b$ tại $B$.\n Cho biết góc $\\widehat{A_1} = 80^\\circ$.\n a) Tính số đo góc $\\widehat{B_1}$ so le trong với góc $\\widehat{A_1}$.\n b) Tính số đo góc $\\widehat{B_2}$ kề bù với góc $\\widehat{B_1}$.\n c) Vẽ tia phân giác $At$ của góc $\\widehat{A_1}$ và tia phân giác $Bz$ của góc $\\widehat{B_1}$. Chứng minh rằng $At \\parallel Bz$.",
+            "rubric": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 80^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 80^\\circ = 100^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)",
+            "modelSolution": "a) Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B_1} = \\widehat{A_1} = 80^\\circ$. (0.25đ)\nb) Vì $\\widehat{B_2}$ và $\\widehat{B_1}$ kề bù nên $\\widehat{B_2} = 180^\\circ - 80^\\circ = 100^\\circ$. (0.25đ)\nc) Vì $At, Bz$ là các tia phân giác nên $\\widehat{A_{t1}} = \\frac12\\widehat{A_1}$ và $\\widehat{B_{z1}} = \\frac12\\widehat{B_1}$. Do $\\widehat{A_1} = \\widehat{B_1}$ nên $\\widehat{A_{t1}} = \\widehat{B_{z1}}$. Hai góc này ở vị trí so le trong nên $At \\parallel Bz$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 10| + |x - 18| + 5$.",
-            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 10| + |18 - x| + 5 \\ge |x - 10 + 18 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(10) \\le x \\le (18)$. Vậy $\\min P = 13$. (0.25đ)",
-            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 10| + |18 - x| + 5 \\ge |x - 10 + 18 - x| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu bằng xảy ra khi $(10) \\le x \\le (18)$. Vậy $\\min P = 13$. (0.25đ)"
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = |x - 10| + |x - 18| + 5$.",
+            "rubric": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 10| + |18 - x| + 5 \\ge |(x - 10) + (18 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 10)(18 - x) \\ge 0 \\iff 10 \\le x \\le 18$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)",
+            "modelSolution": "Áp dụng bất đẳng thức $|a| + |b| \\ge |a + b|$:\n$P = |x - 10| + |18 - x| + 5 \\ge |(x - 10) + (18 - x)| + 5 = 8 + 5 = 13$. (0.25đ)\nDấu \"=\" xảy ra khi $(x - 10)(18 - x) \\ge 0 \\iff 10 \\le x \\le 18$. Vậy giá trị nhỏ nhất của $P$ là $13$. (0.25đ)"
           }
         ]
       }
@@ -13986,7 +13986,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 01)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -14335,7 +14335,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 02)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -14684,7 +14684,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 03)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -15033,7 +15033,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 04)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -15382,7 +15382,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 05)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -15731,7 +15731,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 06)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -16080,7 +16080,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 07)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -16429,7 +16429,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final1_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 7 (ĐỀ SỐ 08)",
-        "topic": "Góc & Đường thẳng song song, Tam giác bằng nhau, Thống kê",
+        "topic": "Góc & ĐT song song, Tam giác bằng nhau, Biểu đồ thống kê",
         "grade": "7",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -16780,7 +16780,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 01)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -16951,15 +16951,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 7\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 7\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
               "Hiệu hai cạnh lớn hơn cạnh thứ ba",
-              "Không tạo thành tam giác",
-              "Luôn thỏa mãn bất đẳng thức tam giác",
+              "Ba cạnh luôn bằng nhau",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba"
             ],
             "correct": 2,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -17129,7 +17129,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 02)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -17300,15 +17300,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 8\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 8\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
-              "Luôn thỏa mãn bất đẳng thức tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba",
               "Hiệu hai cạnh lớn hơn cạnh thứ ba",
-              "Không tạo thành tam giác"
+              "Ba cạnh luôn bằng nhau"
             ],
             "correct": 0,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -17478,7 +17478,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 03)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -17649,15 +17649,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 9\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 9\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
-              "Luôn thỏa mãn bất đẳng thức tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba",
-              "Không tạo thành tam giác",
+              "Ba cạnh luôn bằng nhau",
               "Hiệu hai cạnh lớn hơn cạnh thứ ba"
             ],
             "correct": 0,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -17827,7 +17827,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 04)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -17998,15 +17998,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 10\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 10\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
-              "Luôn thỏa mãn bất đẳng thức tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba",
-              "Không tạo thành tam giác",
+              "Ba cạnh luôn bằng nhau",
               "Hiệu hai cạnh lớn hơn cạnh thứ ba"
             ],
             "correct": 0,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -18176,7 +18176,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 05)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -18347,15 +18347,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 11\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 11\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
-              "Luôn thỏa mãn bất đẳng thức tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
               "Hiệu hai cạnh lớn hơn cạnh thứ ba",
-              "Không tạo thành tam giác",
+              "Ba cạnh luôn bằng nhau",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba"
             ],
             "correct": 0,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -18525,7 +18525,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 06)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -18696,15 +18696,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 12\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 12\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
               "Hiệu hai cạnh lớn hơn cạnh thứ ba",
-              "Luôn thỏa mãn bất đẳng thức tam giác",
-              "Không tạo thành tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
+              "Ba cạnh luôn bằng nhau",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba"
             ],
             "correct": 1,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -18874,7 +18874,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 07)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -19045,15 +19045,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 13\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 13\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
-              "Luôn thỏa mãn bất đẳng thức tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba",
-              "Không tạo thành tam giác",
+              "Ba cạnh luôn bằng nhau",
               "Hiệu hai cạnh lớn hơn cạnh thứ ba"
             ],
             "correct": 0,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -19223,7 +19223,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_mid2_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 08)",
-        "topic": "Tỉ lệ thức, Dãy tỉ số bằng nhau, Đa thức & Bất đẳng thức tam giác",
+        "topic": "Tỉ lệ thức, Đa thức một biến & BĐT tam giác",
         "grade": "7",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -19394,15 +19394,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $AB = 4\\,\\text{cm}, BC = 14\\,\\text{cm}, AC = 8\\,\\text{cm}$. Khẳng định nào sau đây có thể là độ dài cạnh của một tam giác?",
+            "question": "Cho tam giác $ABC$ có độ dài ba cạnh là $4\\,\\text{cm}, 14\\,\\text{cm}, 8\\,\\text{cm}$. Khẳng định nào sau đây luôn đúng với độ dài ba cạnh của một tam giác?",
             "options": [
-              "Luôn thỏa mãn bất đẳng thức tam giác",
-              "Không tạo thành tam giác",
+              "Tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại",
+              "Ba cạnh luôn bằng nhau",
               "Tổng hai cạnh nhỏ hơn cạnh thứ ba",
               "Hiệu hai cạnh lớn hơn cạnh thứ ba"
             ],
             "correct": 0,
-            "explanation": "Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
+            "explanation": "Bất đẳng thức tam giác: Trong một tam giác, tổng độ dài hai cạnh bất kì luôn lớn hơn độ dài cạnh còn lại."
           }
         ],
         "part2": [
@@ -19574,7 +19574,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 01)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -19647,15 +19647,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Thẳng hàng nhưng không trùng nhau",
-              "Không tồn tại",
-              "Trùng nhau",
-              "Cách nhau một đoạn"
+              "$V = 4a^2$",
+              "$V = 3a$",
+              "$V = a^3$",
+              "$V = 6a^2$"
             ],
             "correct": 2,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -19717,15 +19717,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 9$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 5\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "2 nghiệm",
-              "1 nghiệm",
-              "3 nghiệm",
-              "Vô nghiệm"
+              "$250\\,\\text{cm}^3$",
+              "$20\\,\\text{cm}^3$",
+              "$101\\,\\text{cm}^3$",
+              "$150\\,\\text{cm}^3$"
             ],
             "correct": 0,
-            "explanation": "$x^2 = (3)^2 \\implies x = \\pm (3)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (5) \\cdot 5 \\cdot 10 = 250\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -19879,9 +19879,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 3x + 1$ tại $x = 3$.",
-            "answer": "1",
-            "explanation": "$(3)^2 - (3)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 17\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "136",
+            "explanation": "$V = S_{đ} \\cdot h = (17) \\cdot 8 = 136\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -19889,7 +19889,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 2$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 2$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -19905,9 +19905,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $7\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (7) \\cdot 4 = 28\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (7 + 4) \\cdot 3,5 = 7(11) = 77\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(28) + (77) - 8 = 97\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (7) \\cdot 4 = 28\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (7 + 4) \\cdot 3,5 = 7(11) = 77\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(28) + (77) - 8 = 97\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -19923,7 +19923,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 02)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -19996,15 +19996,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Không tồn tại",
-              "Trùng nhau",
-              "Thẳng hàng nhưng không trùng nhau",
-              "Cách nhau một đoạn"
+              "$V = 3a$",
+              "$V = a^3$",
+              "$V = 4a^2$",
+              "$V = 6a^2$"
             ],
             "correct": 1,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -20066,15 +20066,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 16$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 6\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "3 nghiệm",
-              "Vô nghiệm",
-              "2 nghiệm",
-              "1 nghiệm"
+              "$102\\,\\text{cm}^3$",
+              "$160\\,\\text{cm}^3$",
+              "$300\\,\\text{cm}^3$",
+              "$21\\,\\text{cm}^3$"
             ],
             "correct": 2,
-            "explanation": "$x^2 = (4)^2 \\implies x = \\pm (4)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (6) \\cdot 5 \\cdot 10 = 300\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -20228,9 +20228,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 4x + 1$ tại $x = 4$.",
-            "answer": "1",
-            "explanation": "$(4)^2 - (4)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 19\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "152",
+            "explanation": "$V = S_{đ} \\cdot h = (19) \\cdot 8 = 152\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -20238,7 +20238,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 3$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 3$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -20254,9 +20254,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $8\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (8) \\cdot 4 = 32\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (8 + 4) \\cdot 3,5 = 7(12) = 84\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(32) + (84) - 8 = 108\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (8) \\cdot 4 = 32\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (8 + 4) \\cdot 3,5 = 7(12) = 84\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(32) + (84) - 8 = 108\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -20272,7 +20272,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 03)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -20345,15 +20345,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Thẳng hàng nhưng không trùng nhau",
-              "Cách nhau một đoạn",
-              "Trùng nhau",
-              "Không tồn tại"
+              "$V = 4a^2$",
+              "$V = 6a^2$",
+              "$V = a^3$",
+              "$V = 3a$"
             ],
             "correct": 2,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -20415,15 +20415,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 25$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 7\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "1 nghiệm",
-              "Vô nghiệm",
-              "3 nghiệm",
-              "2 nghiệm"
+              "$22\\,\\text{cm}^3$",
+              "$170\\,\\text{cm}^3$",
+              "$103\\,\\text{cm}^3$",
+              "$350\\,\\text{cm}^3$"
             ],
             "correct": 3,
-            "explanation": "$x^2 = (5)^2 \\implies x = \\pm (5)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (7) \\cdot 5 \\cdot 10 = 350\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -20577,9 +20577,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 5x + 1$ tại $x = 5$.",
-            "answer": "1",
-            "explanation": "$(5)^2 - (5)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 21\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "168",
+            "explanation": "$V = S_{đ} \\cdot h = (21) \\cdot 8 = 168\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -20587,7 +20587,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 4$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 4$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -20603,9 +20603,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $9\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (9) \\cdot 4 = 36\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (9 + 4) \\cdot 3,5 = 7(13) = 91\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(36) + (91) - 8 = 119\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (9) \\cdot 4 = 36\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (9 + 4) \\cdot 3,5 = 7(13) = 91\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(36) + (91) - 8 = 119\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -20621,7 +20621,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 04)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -20694,15 +20694,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Thẳng hàng nhưng không trùng nhau",
-              "Cách nhau một đoạn",
-              "Trùng nhau",
-              "Không tồn tại"
+              "$V = 4a^2$",
+              "$V = 6a^2$",
+              "$V = a^3$",
+              "$V = 3a$"
             ],
             "correct": 2,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -20764,15 +20764,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 36$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 8\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "Vô nghiệm",
-              "1 nghiệm",
-              "2 nghiệm",
-              "3 nghiệm"
+              "$180\\,\\text{cm}^3$",
+              "$23\\,\\text{cm}^3$",
+              "$400\\,\\text{cm}^3$",
+              "$104\\,\\text{cm}^3$"
             ],
             "correct": 2,
-            "explanation": "$x^2 = (6)^2 \\implies x = \\pm (6)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (8) \\cdot 5 \\cdot 10 = 400\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -20926,9 +20926,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 6x + 1$ tại $x = 6$.",
-            "answer": "1",
-            "explanation": "$(6)^2 - (6)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 23\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "184",
+            "explanation": "$V = S_{đ} \\cdot h = (23) \\cdot 8 = 184\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -20936,7 +20936,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 5$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 5$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -20952,9 +20952,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $10\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (10) \\cdot 4 = 40\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (10 + 4) \\cdot 3,5 = 7(14) = 98\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(40) + (98) - 8 = 130\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (10) \\cdot 4 = 40\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (10 + 4) \\cdot 3,5 = 7(14) = 98\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(40) + (98) - 8 = 130\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -20970,7 +20970,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 05)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -21043,15 +21043,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Cách nhau một đoạn",
-              "Thẳng hàng nhưng không trùng nhau",
-              "Trùng nhau",
-              "Không tồn tại"
+              "$V = 6a^2$",
+              "$V = 4a^2$",
+              "$V = a^3$",
+              "$V = 3a$"
             ],
             "correct": 2,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -21113,15 +21113,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 49$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 9\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "Vô nghiệm",
-              "3 nghiệm",
-              "1 nghiệm",
-              "2 nghiệm"
+              "$190\\,\\text{cm}^3$",
+              "$105\\,\\text{cm}^3$",
+              "$24\\,\\text{cm}^3$",
+              "$450\\,\\text{cm}^3$"
             ],
             "correct": 3,
-            "explanation": "$x^2 = (7)^2 \\implies x = \\pm (7)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (9) \\cdot 5 \\cdot 10 = 450\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -21275,9 +21275,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 7x + 1$ tại $x = 7$.",
-            "answer": "1",
-            "explanation": "$(7)^2 - (7)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 25\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "200",
+            "explanation": "$V = S_{đ} \\cdot h = (25) \\cdot 8 = 200\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -21285,7 +21285,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 6$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 6$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -21301,9 +21301,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $11\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (11) \\cdot 4 = 44\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (11 + 4) \\cdot 3,5 = 7(15) = 105\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(44) + (105) - 8 = 141\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (11) \\cdot 4 = 44\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (11 + 4) \\cdot 3,5 = 7(15) = 105\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(44) + (105) - 8 = 141\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -21319,7 +21319,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 06)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -21392,15 +21392,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Cách nhau một đoạn",
-              "Không tồn tại",
-              "Thẳng hàng nhưng không trùng nhau",
-              "Trùng nhau"
+              "$V = 6a^2$",
+              "$V = 3a$",
+              "$V = 4a^2$",
+              "$V = a^3$"
             ],
             "correct": 3,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -21462,15 +21462,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 64$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 10\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "Vô nghiệm",
-              "1 nghiệm",
-              "2 nghiệm",
-              "3 nghiệm"
+              "$200\\,\\text{cm}^3$",
+              "$25\\,\\text{cm}^3$",
+              "$500\\,\\text{cm}^3$",
+              "$106\\,\\text{cm}^3$"
             ],
             "correct": 2,
-            "explanation": "$x^2 = (8)^2 \\implies x = \\pm (8)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (10) \\cdot 5 \\cdot 10 = 500\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -21624,9 +21624,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 8x + 1$ tại $x = 8$.",
-            "answer": "1",
-            "explanation": "$(8)^2 - (8)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 27\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "216",
+            "explanation": "$V = S_{đ} \\cdot h = (27) \\cdot 8 = 216\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -21634,7 +21634,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 7$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 7$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -21650,9 +21650,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $12\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (12) \\cdot 4 = 48\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (12 + 4) \\cdot 3,5 = 7(16) = 112\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(48) + (112) - 8 = 152\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (12) \\cdot 4 = 48\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (12 + 4) \\cdot 3,5 = 7(16) = 112\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(48) + (112) - 8 = 152\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -21668,7 +21668,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 07)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -21741,15 +21741,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Không tồn tại",
-              "Thẳng hàng nhưng không trùng nhau",
-              "Trùng nhau",
-              "Cách nhau một đoạn"
+              "$V = 3a$",
+              "$V = 4a^2$",
+              "$V = a^3$",
+              "$V = 6a^2$"
             ],
             "correct": 2,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -21811,15 +21811,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 81$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 11\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "3 nghiệm",
-              "2 nghiệm",
-              "1 nghiệm",
-              "Vô nghiệm"
+              "$107\\,\\text{cm}^3$",
+              "$550\\,\\text{cm}^3$",
+              "$26\\,\\text{cm}^3$",
+              "$210\\,\\text{cm}^3$"
             ],
             "correct": 1,
-            "explanation": "$x^2 = (9)^2 \\implies x = \\pm (9)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (11) \\cdot 5 \\cdot 10 = 550\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -21973,9 +21973,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 9x + 1$ tại $x = 9$.",
-            "answer": "1",
-            "explanation": "$(9)^2 - (9)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 29\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "232",
+            "explanation": "$V = S_{đ} \\cdot h = (29) \\cdot 8 = 232\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -21983,7 +21983,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 8$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 8$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -21999,9 +21999,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $13\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (13) \\cdot 4 = 52\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (13 + 4) \\cdot 3,5 = 7(17) = 119\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(52) + (119) - 8 = 163\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (13) \\cdot 4 = 52\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (13 + 4) \\cdot 3,5 = 7(17) = 119\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(52) + (119) - 8 = 163\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -22017,7 +22017,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g7_final2_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 7 (ĐỀ SỐ 08)",
-        "topic": "Nghiệm đa thức, Các đường đồng quy trong tam giác, Xác suất",
+        "topic": "Đa thức, Sự đồng quy tam giác, Xác suất & Hình khối",
         "grade": "7",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -22090,15 +22090,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong tam giác đều, trực tâm, trọng tâm, tâm đường tròn nội tiếp và ngoại tiếp:",
+            "question": "Hình lập phương có cạnh bằng $a$ thì thể tích $V$ là:",
             "options": [
-              "Cách nhau một đoạn",
-              "Trùng nhau",
-              "Thẳng hàng nhưng không trùng nhau",
-              "Không tồn tại"
+              "$V = 6a^2$",
+              "$V = a^3$",
+              "$V = 4a^2$",
+              "$V = 3a$"
             ],
             "correct": 1,
-            "explanation": "Trong tam giác đều, các điểm đặc biệt này trùng nhau."
+            "explanation": "Thể tích hình lập phương là cạnh mũ 3."
           },
           {
             "id": 6,
@@ -22160,15 +22160,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Đa thức $f(x) = x^2 - 100$ có bao nhiêu nghiệm?",
+            "question": "Một hình hộp chữ nhật có kích thước ba cạnh lần lượt là $a = 12\\,\\text{cm}, b = 5\\,\\text{cm}, c = 10\\,\\text{cm}$. Thể tích của hình hộp chữ nhật là:",
             "options": [
-              "2 nghiệm",
-              "Vô nghiệm",
-              "3 nghiệm",
-              "1 nghiệm"
+              "$600\\,\\text{cm}^3$",
+              "$220\\,\\text{cm}^3$",
+              "$108\\,\\text{cm}^3$",
+              "$27\\,\\text{cm}^3$"
             ],
             "correct": 0,
-            "explanation": "$x^2 = (10)^2 \\implies x = \\pm (10)$ (có 2 nghiệm phân biệt)."
+            "explanation": "$V = a \\cdot b \\cdot c = (12) \\cdot 5 \\cdot 10 = 600\\,\\text{cm}^3$."
           },
           {
             "id": 11,
@@ -22322,9 +22322,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Tính giá trị của đa thức $Q(x) = x^2 - 10x + 1$ tại $x = 10$.",
-            "answer": "1",
-            "explanation": "$(10)^2 - (10)^2 + 1 = 1$."
+            "question": "Một hình lăng trụ đứng tam giác có diện tích đáy $S_{đ} = 31\\,\\text{cm}^2$ và chiều cao $h = 8\\,\\text{cm}$. Tính thể tích của hình lăng trụ đứng (theo $\\text{cm}^3$).",
+            "answer": "248",
+            "explanation": "$V = S_{đ} \\cdot h = (31) \\cdot 8 = 248\\,\\text{cm}^3$."
           }
         ],
         "part4": [
@@ -22332,7 +22332,7 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x\n B(x) = 2x^4 + x^3 - x^2 + x + 9$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
+            "question": "Cho hai đa thức:\n $A(x) = x^4 - 3x^2 + \\frac12 - x$\n $B(x) = 2x^4 + x^3 - x^2 + x + 9$\n a) Sắp xếp các đa thức theo lũy thừa giảm dần của biến.\n b) Tính $A(x) + B(x)$ và $B(x) - A(x)$.",
             "rubric": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)",
             "modelSolution": "a) Sắp xếp đúng thứ tự các hạng tử. (0.5đ)\nb) Thực hiện đúng phép cộng và phép trừ đa thức. (0.5đ)"
           },
@@ -22348,9 +22348,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm của $BC$.\n a) Chứng minh $AM \\perp BC$.\n b) Từ $M$ kẻ $ME \\perp AB$ ($E \\in AB$) và $MF \\perp AC$ ($F \\in AC$). Chứng minh $ME = MF$.\n c) Chứng minh $EF \\parallel BC$.",
-            "rubric": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)",
-            "modelSolution": "a) Trong tam giác cân, đường trung tuyến ứng với đáy đồng thời là đường cao nên $AM \\perp BC$. (0.25đ)\nb) $\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn) $\\implies ME = MF$. (0.25đ)\nc) $\\triangle AEF$ cân tại A $\\implies \\widehat{AEF} = \\widehat{B} \\implies EF \\parallel BC$. (0.25đ)"
+            "question": "Một căn phòng hình hộp chữ nhật có chiều dài $14\\,\\text{m}$, chiều rộng $4\\,\\text{m}$, chiều cao $3,5\\,\\text{m}$. Người ta muốn quét vôi trần nhà và bốn bức tường phía trong phòng. Biết tổng diện tích các cửa là $8\\,\\text{m}^2$. Tính diện tích cần quét vôi.",
+            "rubric": "Diện tích trần nhà: $S_{trần} = (14) \\cdot 4 = 56\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (14 + 4) \\cdot 3,5 = 7(18) = 126\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(56) + (126) - 8 = 174\\,\\text{m}^2$. (0.25đ)",
+            "modelSolution": "Diện tích trần nhà: $S_{trần} = (14) \\cdot 4 = 56\\,\\text{m}^2$. (0.25đ)\nDiện tích xung quanh: $S_{xq} = 2 \\cdot (14 + 4) \\cdot 3,5 = 7(18) = 126\\,\\text{m}^2$. (0.25đ)\nDiện tích cần quét: $(56) + (126) - 8 = 174\\,\\text{m}^2$. (0.25đ)"
           },
           {
             "id": 4,
@@ -22370,7 +22370,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 01)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -22719,7 +22719,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 02)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -23068,7 +23068,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 03)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -23417,7 +23417,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 04)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -23766,7 +23766,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 05)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -24115,7 +24115,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 06)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -24464,7 +24464,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 07)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -24813,7 +24813,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid1_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 08)",
-        "topic": "Đa thức nhiều biến, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
+        "topic": "Đa thức, Hằng đẳng thức, Phân tích nhân tử & Tứ giác",
         "grade": "8",
         "term": "mid1",
         "termName": "Giữa Học kỳ I",
@@ -25164,7 +25164,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final1_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 01)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
         "grade": "8",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -25181,71 +25181,71 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 4}$ là:",
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 16$ ta được:",
             "options": [
-              "$x \\ne 4$",
-              "$x = 4$",
-              "$x > 4$",
-              "$x \\ne 0$"
+              "$(x - 4)(x + 4)$",
+              "$(x - 4)^2$",
+              "$x^2 - 8x$",
+              "$(x + 4)^2$"
             ],
             "correct": 0,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 4)(x + 4)$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{3(x - 1)}{6(x - 1)}$ (với $x \\ne 1$) ta được:",
+            "question": "Phân tích đa thức $M = 3x^2 - 3xy$ thành nhân tử:",
             "options": [
-              "$\\frac{3}{2}$",
-              "$2$",
-              "$\\frac{1}{2}$",
-              "$1$"
+              "$3x(x + y)$",
+              "$3(x - y)$",
+              "$3x(x - y)$",
+              "$x(x - y)$"
             ],
             "correct": 2,
-            "explanation": "Chia cả tử và mẫu cho $(3)(x - 1)$ được $\\frac12$."
+            "explanation": "Đặt nhân tử chung $(3)x$ ra ngoài ta được $(3)x(x - y)$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 3} + \\frac{3}{x + 3}$ là:",
+            "question": "Hình bình hành có một góc vuông là hình gì?",
             "options": [
-              "$3$",
-              "$\\frac{1}{2}$",
-              "$1$",
-              "$x$"
+              "Hình thang cân",
+              "Hình vuông",
+              "Hình chữ nhật",
+              "Hình thoi"
             ],
             "correct": 2,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
           },
           {
             "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Đường trung bình luôn lớn hơn cạnh đáy"
+            ],
+            "correct": 1,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Đường trung bình của tam giác thì:",
             "options": [
               "Vuông góc với cạnh thứ ba",
               "Song song với cạnh thứ ba và bằng nửa cạnh đó",
-              "Đi qua trọng tâm",
-              "Bằng cạnh thứ ba"
+              "Bằng cạnh thứ ba",
+              "Đi qua trọng tâm"
             ],
             "correct": 1,
             "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 14\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$14\\,\\text{cm}$",
-              "$7\\,\\text{cm}$",
-              "$28\\,\\text{cm}$",
-              "$6\\,\\text{{cm}}$"
-            ],
-            "correct": 1,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (14) = 7\\,\\text{cm}$."
           },
           {
             "id": 6,
@@ -25265,85 +25265,85 @@ window.PERIODIC_EXAM_BANK = {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
             "options": [
-              "Số lượng học sinh các trường THCS trong quận",
-              "Xếp loại học lực của một lớp",
-              "Cơ cấu các loại cây trồng trong một trang trại",
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội"
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Tên các môn học yêu thích",
+              "Nơi sinh của các học sinh",
+              "Số học sinh giỏi của các lớp khối 8"
             ],
             "correct": 3,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 2}{x + 2}$ (với $x \\ne 2, x \\ne -2$) là:",
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
             "options": [
-              "$\\frac{x + 2}{x - 2}$",
-              "$-\\frac{x + 2}{x - 2}$",
-              "1",
-              "$\\frac{x - 2}{x + 2}$"
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
+              "Xếp loại học lực của một lớp",
+              "Số lượng học sinh các trường THCS trong quận",
+              "Cơ cấu các loại cây trồng trong một trang trại"
             ],
             "correct": 0,
-            "explanation": "Nghịch đảo của A/B là B/A."
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{1}{x - 1} - \\frac{1}{1 - x}$ ta được kết quả là:",
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 14\\,\\text{cm}$ thì độ dài $MN$ là:",
             "options": [
-              "$-\\frac{2}{x - 1}$",
-              "$\\frac{2}{x - 1}$",
-              "$0$",
-              "$\\frac{1}{x - 1}$"
+              "$6\\,\\text{{cm}}$",
+              "$7\\,\\text{cm}$",
+              "$14\\,\\text{cm}$",
+              "$28\\,\\text{cm}$"
             ],
             "correct": 1,
-            "explanation": "Đổi dấu: $-\\frac{1}{1 - x} = +\\frac{1}{x - 1} \\implies \\frac{2}{x - 1}$."
+            "explanation": "$MN = \\frac12 BC = \\frac12 (14) = 7\\,\\text{cm}$."
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 4\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 4\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
             "options": [
-              "$5.33\\,\\text{cm}$",
+              "$8\\,\\text{cm}$",
               "$4\\,\\text{cm}$",
-              "$5\\,\\text{{cm}}$",
-              "$4\\,\\text{{cm}}$"
+              "$12\\,\\text{{cm}}$",
+              "$6\\,\\text{{cm}}$"
             ],
             "correct": 0,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(4) \\cdot 4}3$."
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(4) \\cdot 6}3 = 2(4)\\,\\text{cm}$."
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 9}{x - 3} = 0$:",
+            "question": "Một hình thang có độ dài hai đáy là $9\\,\\text{cm}$ và $15\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
             "options": [
-              "$x = 3$",
-              "$x = \\pm (3)$",
-              "$x = -(3)$",
-              "Không có giá trị nào"
+              "$24\\,\\text{cm}$",
+              "$9\\,\\text{cm}$",
+              "$12\\,\\text{cm}$",
+              "$15\\,\\text{cm}$"
             ],
             "correct": 2,
-            "explanation": "Rút gọn phân thức thành $x + (3)$ với điều kiện $x \\ne 3$. Do đó $x = -(3)$."
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(9) + (15)}2 = 12\\,\\text{cm}$."
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $9\\,\\text{cm}$ và $15\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $22\\%$. Số học sinh tham gia CLB Thể thao là:",
             "options": [
-              "$15\\,\\text{cm}$",
-              "$9\\,\\text{cm}$",
-              "$24\\,\\text{cm}$",
-              "$12\\,\\text{cm}$"
+              "$150$ học sinh",
+              "$100$ học sinh",
+              "$478$ học sinh",
+              "$110$ học sinh"
             ],
             "correct": 3,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(9) + (15)}2 = 12\\,\\text{cm}$."
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{22}{100} = 5(22)$ học sinh."
           }
         ],
         "part2": [
@@ -25351,9 +25351,2803 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 3} - \\frac{3}{x + 3}\\right) : \\frac{x^2 + 9}{x^2 - 9}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 3} - \\frac{3}{x + 3}\\right) : \\frac{x^2 + 9}{x^2 - 9}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 3} - \\frac{3}{x + 3}\\right) : \\frac{x^2 + 9}{x^2 - 9}$.",
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $36\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "18",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(36) : 2 = 18\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 21\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "7",
+            "explanation": "$CA = \\frac13 AB = \\frac{21}3 = 7\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 6x + 17$.",
+            "answer": "8",
+            "explanation": "$P = (x - (3))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 4)^2 - (x - 4)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 4) - (x - 4)][(x + 4) + (x - 4)] = 2(4) \\cdot 2x = 16x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 4) - (x - 4)][(x + 4) + (x - 4)] = 2(4) \\cdot 2x = 16x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 13\\,\\text{cm}, AC = 16\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 3x + 3y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_02",
+        "testNum": 2,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 02)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 25$ ta được:",
+            "options": [
+              "$x^2 - 10x$",
+              "$(x + 5)^2$",
+              "$(x - 5)^2$",
+              "$(x - 5)(x + 5)$"
+            ],
+            "correct": 3,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 5)(x + 5)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 4x^2 - 4xy$ thành nhân tử:",
+            "options": [
+              "$4(x - y)$",
+              "$4x(x - y)$",
+              "$4x(x + y)$",
+              "$x(x - y)$"
+            ],
+            "correct": 1,
+            "explanation": "Đặt nhân tử chung $(4)x$ ra ngoài ta được $(4)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình thoi",
+              "Hình thang cân",
+              "Hình chữ nhật",
+              "Hình vuông"
+            ],
+            "correct": 2,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+              "Đường trung bình luôn lớn hơn cạnh đáy"
+            ],
+            "correct": 2,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Bằng cạnh thứ ba",
+              "Vuông góc với cạnh thứ ba",
+              "Đi qua trọng tâm",
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
+            ],
+            "correct": 3,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
+              "$DB \\cdot DC = AB \\cdot AC$",
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$"
+            ],
+            "correct": 0,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Số học sinh giỏi của các lớp khối 8",
+              "Nơi sinh của các học sinh",
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Tên các môn học yêu thích"
+            ],
+            "correct": 0,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Số lượng học sinh các trường THCS trong quận",
+              "Cơ cấu các loại cây trồng trong một trang trại",
+              "Xếp loại học lực của một lớp",
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội"
+            ],
+            "correct": 3,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 16\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$16\\,\\text{cm}$",
+              "$8\\,\\text{cm}$",
+              "$32\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$"
+            ],
+            "correct": 1,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (16) = 8\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 5\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$6\\,\\text{{cm}}$",
+              "$10\\,\\text{cm}$",
+              "$5\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$"
+            ],
+            "correct": 1,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(5) \\cdot 6}3 = 2(5)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $10\\,\\text{cm}$ và $16\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$13\\,\\text{cm}$",
+              "$26\\,\\text{cm}$",
+              "$10\\,\\text{cm}$",
+              "$16\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(10) + (16)}2 = 13\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $24\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$100$ học sinh",
+              "$150$ học sinh",
+              "$120$ học sinh",
+              "$476$ học sinh"
+            ],
+            "correct": 2,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{24}{100} = 5(24)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $42\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "21",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(42) : 2 = 21\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 24\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "8",
+            "explanation": "$CA = \\frac13 AB = \\frac{24}3 = 8\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 8x + 24$.",
+            "answer": "8",
+            "explanation": "$P = (x - (4))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 5)^2 - (x - 5)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 5) - (x - 5)][(x + 5) + (x - 5)] = 2(5) \\cdot 2x = 20x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 5) - (x - 5)][(x + 5) + (x - 5)] = 2(5) \\cdot 2x = 20x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 14\\,\\text{cm}, AC = 17\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 4x + 4y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_03",
+        "testNum": 3,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 03)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 36$ ta được:",
+            "options": [
+              "$(x - 6)^2$",
+              "$(x + 6)^2$",
+              "$x^2 - 12x$",
+              "$(x - 6)(x + 6)$"
+            ],
+            "correct": 3,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 6)(x + 6)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 5x^2 - 5xy$ thành nhân tử:",
+            "options": [
+              "$x(x - y)$",
+              "$5x(x + y)$",
+              "$5x(x - y)$",
+              "$5(x - y)$"
+            ],
+            "correct": 2,
+            "explanation": "Đặt nhân tử chung $(5)x$ ra ngoài ta được $(5)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình thoi",
+              "Hình vuông",
+              "Hình chữ nhật",
+              "Hình thang cân"
+            ],
+            "correct": 2,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện",
+              "Đường trung bình luôn lớn hơn cạnh đáy",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ"
+            ],
+            "correct": 3,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Bằng cạnh thứ ba",
+              "Vuông góc với cạnh thứ ba",
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
+              "Đi qua trọng tâm"
+            ],
+            "correct": 2,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
+              "$DB \\cdot DC = AB \\cdot AC$",
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$"
+            ],
+            "correct": 3,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Tên các môn học yêu thích",
+              "Số học sinh giỏi của các lớp khối 8",
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Nơi sinh của các học sinh"
+            ],
+            "correct": 1,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
+              "Xếp loại học lực của một lớp",
+              "Số lượng học sinh các trường THCS trong quận",
+              "Cơ cấu các loại cây trồng trong một trang trại"
+            ],
+            "correct": 0,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 18\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$9\\,\\text{cm}$",
+              "$18\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$36\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (18) = 9\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 6\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$6\\,\\text{cm}$",
+              "$12\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$12\\,\\text{{cm}}$"
+            ],
+            "correct": 1,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(6) \\cdot 6}3 = 2(6)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $11\\,\\text{cm}$ và $17\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$17\\,\\text{cm}$",
+              "$14\\,\\text{cm}$",
+              "$28\\,\\text{cm}$",
+              "$11\\,\\text{cm}$"
+            ],
+            "correct": 1,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(11) + (17)}2 = 14\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $26\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$130$ học sinh",
+              "$150$ học sinh",
+              "$100$ học sinh",
+              "$474$ học sinh"
+            ],
+            "correct": 0,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{26}{100} = 5(26)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $48\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "24",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(48) : 2 = 24\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 27\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "9",
+            "explanation": "$CA = \\frac13 AB = \\frac{27}3 = 9\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 10x + 33$.",
+            "answer": "8",
+            "explanation": "$P = (x - (5))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 6)^2 - (x - 6)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 6) - (x - 6)][(x + 6) + (x - 6)] = 2(6) \\cdot 2x = 24x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 6) - (x - 6)][(x + 6) + (x - 6)] = 2(6) \\cdot 2x = 24x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 15\\,\\text{cm}, AC = 18\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 5x + 5y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_04",
+        "testNum": 4,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 04)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 49$ ta được:",
+            "options": [
+              "$x^2 - 14x$",
+              "$(x - 7)(x + 7)$",
+              "$(x - 7)^2$",
+              "$(x + 7)^2$"
+            ],
+            "correct": 1,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 7)(x + 7)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 6x^2 - 6xy$ thành nhân tử:",
+            "options": [
+              "$6x(x + y)$",
+              "$6(x - y)$",
+              "$6x(x - y)$",
+              "$x(x - y)$"
+            ],
+            "correct": 2,
+            "explanation": "Đặt nhân tử chung $(6)x$ ra ngoài ta được $(6)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình vuông",
+              "Hình thang cân",
+              "Hình thoi",
+              "Hình chữ nhật"
+            ],
+            "correct": 3,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Đường trung bình luôn lớn hơn cạnh đáy",
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ"
+            ],
+            "correct": 3,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Đi qua trọng tâm",
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
+              "Vuông góc với cạnh thứ ba",
+              "Bằng cạnh thứ ba"
+            ],
+            "correct": 1,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
+              "$DB \\cdot DC = AB \\cdot AC$",
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$"
+            ],
+            "correct": 0,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Số học sinh giỏi của các lớp khối 8",
+              "Tên các môn học yêu thích",
+              "Nơi sinh của các học sinh"
+            ],
+            "correct": 1,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Cơ cấu các loại cây trồng trong một trang trại",
+              "Số lượng học sinh các trường THCS trong quận",
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
+              "Xếp loại học lực của một lớp"
+            ],
+            "correct": 2,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 20\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$10\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$40\\,\\text{cm}$",
+              "$20\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (20) = 10\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 7\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$6\\,\\text{{cm}}$",
+              "$7\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$14\\,\\text{cm}$"
+            ],
+            "correct": 3,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(7) \\cdot 6}3 = 2(7)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $12\\,\\text{cm}$ và $18\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$18\\,\\text{cm}$",
+              "$12\\,\\text{cm}$",
+              "$15\\,\\text{cm}$",
+              "$30\\,\\text{cm}$"
+            ],
+            "correct": 2,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(12) + (18)}2 = 15\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $28\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$140$ học sinh",
+              "$472$ học sinh",
+              "$150$ học sinh",
+              "$100$ học sinh"
+            ],
+            "correct": 0,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{28}{100} = 5(28)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $54\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "27",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(54) : 2 = 27\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 30\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "10",
+            "explanation": "$CA = \\frac13 AB = \\frac{30}3 = 10\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 12x + 44$.",
+            "answer": "8",
+            "explanation": "$P = (x - (6))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 7)^2 - (x - 7)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 7) - (x - 7)][(x + 7) + (x - 7)] = 2(7) \\cdot 2x = 28x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 7) - (x - 7)][(x + 7) + (x - 7)] = 2(7) \\cdot 2x = 28x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 16\\,\\text{cm}, AC = 19\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 6x + 6y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_05",
+        "testNum": 5,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 05)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 64$ ta được:",
+            "options": [
+              "$(x + 8)^2$",
+              "$(x - 8)(x + 8)$",
+              "$(x - 8)^2$",
+              "$x^2 - 16x$"
+            ],
+            "correct": 1,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 8)(x + 8)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 7x^2 - 7xy$ thành nhân tử:",
+            "options": [
+              "$x(x - y)$",
+              "$7x(x - y)$",
+              "$7(x - y)$",
+              "$7x(x + y)$"
+            ],
+            "correct": 1,
+            "explanation": "Đặt nhân tử chung $(7)x$ ra ngoài ta được $(7)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình chữ nhật",
+              "Hình vuông",
+              "Hình thang cân",
+              "Hình thoi"
+            ],
+            "correct": 0,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Đường trung bình luôn lớn hơn cạnh đáy",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ"
+            ],
+            "correct": 3,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
+              "Vuông góc với cạnh thứ ba",
+              "Bằng cạnh thứ ba",
+              "Đi qua trọng tâm"
+            ],
+            "correct": 0,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$DB \\cdot DC = AB \\cdot AC$",
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$"
+            ],
+            "correct": 2,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Tên các môn học yêu thích",
+              "Nơi sinh của các học sinh",
+              "Số học sinh giỏi của các lớp khối 8",
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)"
+            ],
+            "correct": 2,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
+              "Cơ cấu các loại cây trồng trong một trang trại",
+              "Xếp loại học lực của một lớp",
+              "Số lượng học sinh các trường THCS trong quận"
+            ],
+            "correct": 0,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 22\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$44\\,\\text{cm}$",
+              "$22\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$11\\,\\text{cm}$"
+            ],
+            "correct": 3,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (22) = 11\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 8\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$6\\,\\text{{cm}}$",
+              "$8\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$16\\,\\text{cm}$"
+            ],
+            "correct": 3,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(8) \\cdot 6}3 = 2(8)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $13\\,\\text{cm}$ và $19\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$13\\,\\text{cm}$",
+              "$16\\,\\text{cm}$",
+              "$19\\,\\text{cm}$",
+              "$32\\,\\text{cm}$"
+            ],
+            "correct": 1,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(13) + (19)}2 = 16\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $30\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$470$ học sinh",
+              "$150$ học sinh",
+              "$150$ học sinh",
+              "$100$ học sinh"
+            ],
+            "correct": 2,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{30}{100} = 5(30)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $60\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "30",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(60) : 2 = 30\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 33\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "11",
+            "explanation": "$CA = \\frac13 AB = \\frac{33}3 = 11\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 14x + 57$.",
+            "answer": "8",
+            "explanation": "$P = (x - (7))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 8)^2 - (x - 8)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 8) - (x - 8)][(x + 8) + (x - 8)] = 2(8) \\cdot 2x = 32x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 8) - (x - 8)][(x + 8) + (x - 8)] = 2(8) \\cdot 2x = 32x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 17\\,\\text{cm}, AC = 20\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 7x + 7y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_06",
+        "testNum": 6,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 06)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 81$ ta được:",
+            "options": [
+              "$(x - 9)(x + 9)$",
+              "$(x + 9)^2$",
+              "$(x - 9)^2$",
+              "$x^2 - 18x$"
+            ],
+            "correct": 0,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 9)(x + 9)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 8x^2 - 8xy$ thành nhân tử:",
+            "options": [
+              "$8(x - y)$",
+              "$x(x - y)$",
+              "$8x(x + y)$",
+              "$8x(x - y)$"
+            ],
+            "correct": 3,
+            "explanation": "Đặt nhân tử chung $(8)x$ ra ngoài ta được $(8)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình vuông",
+              "Hình thang cân",
+              "Hình chữ nhật",
+              "Hình thoi"
+            ],
+            "correct": 2,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện",
+              "Đường trung bình luôn lớn hơn cạnh đáy",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ"
+            ],
+            "correct": 3,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Bằng cạnh thứ ba",
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
+              "Đi qua trọng tâm",
+              "Vuông góc với cạnh thứ ba"
+            ],
+            "correct": 1,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
+              "$DB \\cdot DC = AB \\cdot AC$"
+            ],
+            "correct": 0,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Nơi sinh của các học sinh",
+              "Số học sinh giỏi của các lớp khối 8",
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Tên các môn học yêu thích"
+            ],
+            "correct": 1,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Xếp loại học lực của một lớp",
+              "Số lượng học sinh các trường THCS trong quận",
+              "Cơ cấu các loại cây trồng trong một trang trại",
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội"
+            ],
+            "correct": 3,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 24\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$24\\,\\text{cm}$",
+              "$48\\,\\text{cm}$",
+              "$12\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$"
+            ],
+            "correct": 2,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (24) = 12\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 9\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$6\\,\\text{{cm}}$",
+              "$12\\,\\text{{cm}}$",
+              "$18\\,\\text{cm}$",
+              "$9\\,\\text{cm}$"
+            ],
+            "correct": 2,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(9) \\cdot 6}3 = 2(9)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $14\\,\\text{cm}$ và $20\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$17\\,\\text{cm}$",
+              "$34\\,\\text{cm}$",
+              "$14\\,\\text{cm}$",
+              "$20\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(14) + (20)}2 = 17\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $32\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$468$ học sinh",
+              "$160$ học sinh",
+              "$100$ học sinh",
+              "$150$ học sinh"
+            ],
+            "correct": 1,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{32}{100} = 5(32)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $66\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "33",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(66) : 2 = 33\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 36\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "12",
+            "explanation": "$CA = \\frac13 AB = \\frac{36}3 = 12\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 16x + 72$.",
+            "answer": "8",
+            "explanation": "$P = (x - (8))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 9)^2 - (x - 9)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 9) - (x - 9)][(x + 9) + (x - 9)] = 2(9) \\cdot 2x = 36x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 9) - (x - 9)][(x + 9) + (x - 9)] = 2(9) \\cdot 2x = 36x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 18\\,\\text{cm}, AC = 21\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 8x + 8y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_07",
+        "testNum": 7,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 07)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 100$ ta được:",
+            "options": [
+              "$x^2 - 20x$",
+              "$(x - 10)(x + 10)$",
+              "$(x - 10)^2$",
+              "$(x + 10)^2$"
+            ],
+            "correct": 1,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 10)(x + 10)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 9x^2 - 9xy$ thành nhân tử:",
+            "options": [
+              "$9x(x + y)$",
+              "$9(x - y)$",
+              "$x(x - y)$",
+              "$9x(x - y)$"
+            ],
+            "correct": 3,
+            "explanation": "Đặt nhân tử chung $(9)x$ ra ngoài ta được $(9)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình chữ nhật",
+              "Hình vuông",
+              "Hình thang cân",
+              "Hình thoi"
+            ],
+            "correct": 0,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Đường trung bình luôn lớn hơn cạnh đáy",
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện"
+            ],
+            "correct": 0,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Vuông góc với cạnh thứ ba",
+              "Bằng cạnh thứ ba",
+              "Đi qua trọng tâm",
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
+            ],
+            "correct": 3,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
+              "$DB \\cdot DC = AB \\cdot AC$",
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$"
+            ],
+            "correct": 1,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Nơi sinh của các học sinh",
+              "Số học sinh giỏi của các lớp khối 8",
+              "Tên các môn học yêu thích"
+            ],
+            "correct": 2,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Xếp loại học lực của một lớp",
+              "Số lượng học sinh các trường THCS trong quận",
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
+              "Cơ cấu các loại cây trồng trong một trang trại"
+            ],
+            "correct": 2,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 26\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$13\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$26\\,\\text{cm}$",
+              "$52\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (26) = 13\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 10\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$6\\,\\text{{cm}}$",
+              "$20\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$10\\,\\text{cm}$"
+            ],
+            "correct": 1,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(10) \\cdot 6}3 = 2(10)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $15\\,\\text{cm}$ và $21\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$15\\,\\text{cm}$",
+              "$21\\,\\text{cm}$",
+              "$36\\,\\text{cm}$",
+              "$18\\,\\text{cm}$"
+            ],
+            "correct": 3,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(15) + (21)}2 = 18\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $34\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$466$ học sinh",
+              "$150$ học sinh",
+              "$170$ học sinh",
+              "$100$ học sinh"
+            ],
+            "correct": 2,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{34}{100} = 5(34)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $72\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "36",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(72) : 2 = 36\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 39\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "13",
+            "explanation": "$CA = \\frac13 AB = \\frac{39}3 = 13\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 18x + 89$.",
+            "answer": "8",
+            "explanation": "$P = (x - (9))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 10)^2 - (x - 10)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 10) - (x - 10)][(x + 10) + (x - 10)] = 2(10) \\cdot 2x = 40x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 10) - (x - 10)][(x + 10) + (x - 10)] = 2(10) \\cdot 2x = 40x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 19\\,\\text{cm}, AC = 22\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 9x + 9y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      },
+      {
+        "id": "p_g8_final1_08",
+        "testNum": 8,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 08)",
+        "topic": "Đa thức, Tứ giác, Định lí Thalès & Thống kê dữ liệu",
+        "grade": "8",
+        "term": "final1",
+        "termName": "Cuối Học kỳ I",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Khai triển hằng đẳng thức hiệu hai bình phương $x^2 - 121$ ta được:",
+            "options": [
+              "$x^2 - 22x$",
+              "$(x - 11)(x + 11)$",
+              "$(x - 11)^2$",
+              "$(x + 11)^2$"
+            ],
+            "correct": 1,
+            "explanation": "$A^2 - B^2 = (A - B)(A + B) = (x - 11)(x + 11)$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Phân tích đa thức $M = 10x^2 - 10xy$ thành nhân tử:",
+            "options": [
+              "$10x(x - y)$",
+              "$x(x - y)$",
+              "$10(x - y)$",
+              "$10x(x + y)$"
+            ],
+            "correct": 0,
+            "explanation": "Đặt nhân tử chung $(10)x$ ra ngoài ta được $(10)x(x - y)$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hình bình hành có một góc vuông là hình gì?",
+            "options": [
+              "Hình chữ nhật",
+              "Hình thoi",
+              "Hình vuông",
+              "Hình thang cân"
+            ],
+            "correct": 0,
+            "explanation": "Dấu hiệu nhận biết hình chữ nhật: hình bình hành có một góc vuông."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Định lí Thalès trong tam giác khẳng định:",
+            "options": [
+              "Đường trung bình luôn lớn hơn cạnh đáy",
+              "Mọi tam giác đồng dạng đều là tam giác đều",
+              "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+              "Đường thẳng đi qua trung điểm một cạnh thì vuông góc với cạnh đối diện"
+            ],
+            "correct": 2,
+            "explanation": "Nội dung định lí Thalès thuận trong tam giác."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Đường trung bình của tam giác thì:",
+            "options": [
+              "Đi qua trọng tâm",
+              "Bằng cạnh thứ ba",
+              "Vuông góc với cạnh thứ ba",
+              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
+            ],
+            "correct": 3,
+            "explanation": "Định lí tính chất đường trung bình của tam giác."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
+            "options": [
+              "$DB \\cdot DC = AB \\cdot AC$",
+              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
+              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
+              "$\\frac{DB}{DC} = \\frac{AB}{AC}$"
+            ],
+            "correct": 3,
+            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây là dữ liệu định lượng (số liệu liên tục hoặc rời rạc)?",
+            "options": [
+              "Số học sinh giỏi của các lớp khối 8",
+              "Nơi sinh của các học sinh",
+              "Mức độ hài lòng (Rất tốt, Tốt, Trung bình)",
+              "Tên các môn học yêu thích"
+            ],
+            "correct": 0,
+            "explanation": "Số học sinh là đại lượng đếm được bằng con số nên là dữ liệu định lượng."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
+            "options": [
+              "Cơ cấu các loại cây trồng trong một trang trại",
+              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
+              "Số lượng học sinh các trường THCS trong quận",
+              "Xếp loại học lực của một lớp"
+            ],
+            "correct": 1,
+            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 28\\,\\text{cm}$ thì độ dài $MN$ là:",
+            "options": [
+              "$6\\,\\text{{cm}}$",
+              "$56\\,\\text{cm}$",
+              "$28\\,\\text{cm}$",
+              "$14\\,\\text{cm}$"
+            ],
+            "correct": 3,
+            "explanation": "$MN = \\frac12 BC = \\frac12 (28) = 14\\,\\text{cm}$."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 11\\,\\text{cm}, AE = 6\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
+            "options": [
+              "$11\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$22\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$"
+            ],
+            "correct": 2,
+            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(11) \\cdot 6}3 = 2(11)\\,\\text{cm}$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Một hình thang có độ dài hai đáy là $16\\,\\text{cm}$ và $22\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
+            "options": [
+              "$22\\,\\text{cm}$",
+              "$38\\,\\text{cm}$",
+              "$19\\,\\text{cm}$",
+              "$16\\,\\text{cm}$"
+            ],
+            "correct": 2,
+            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(16) + (22)}2 = 19\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Biểu đồ hình quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ của một trường có 500 học sinh. Biết CLB Thể thao chiếm $36\\%$. Số học sinh tham gia CLB Thể thao là:",
+            "options": [
+              "$150$ học sinh",
+              "$180$ học sinh",
+              "$464$ học sinh",
+              "$100$ học sinh"
+            ],
+            "correct": 1,
+            "explanation": "Số học sinh $= 500 \\cdot \\frac{36}{100} = 5(36)$ học sinh."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "stem": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "statement": "Hai đường chéo $AC$ và $BD$ bằng nhau.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Tính chất hình chữ nhật."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "statement": "$O$ là trung điểm của cả hai đường chéo $AC$ và $BD$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "statement": "Tam giác $OAB$ là tam giác cân tại $O$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $OA = OB = \\frac{1}{2}AC$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "statement": "Hai đường chéo $AC$ và $BD$ luôn vuông góc với nhau với mọi hình chữ nhật.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Chỉ vuông góc khi ABCD là hình vuông."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 1.0,
+            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$. Kẻ $MK \\parallel BE$ ($K \\in AC$).",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Theo giả thiết."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "statement": "Trong tam giác $BCE$, điểm $K$ là trung điểm của $EC$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $M$ là trung điểm $BC$ và $MK \\parallel BE$ (định lí đường trung bình)."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "statement": "Trong tam giác $AMK$, điểm $E$ là trung điểm của $AK$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $I$ là trung điểm $AM$ và $IE \\parallel MK$ (định lí đường trung bình)."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
+              }
+            ]
+          }
+        ],
+        "part3": [
+          {
+            "id": 1,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ có chu vi bằng $78\\,\\text{cm}$. Gọi $D, E, F$ lần lượt là trung điểm của các cạnh $AB, BC, CA$. Tính chu vi của tam giác $DEF$ (theo cm).",
+            "answer": "39",
+            "explanation": "Mỗi cạnh của tam giác $DEF$ bằng nửa cạnh của tam giác $ABC$, nên chu vi tam giác $DEF$ bằng nửa chu vi tam giác $ABC$: $(78) : 2 = 39\\,\\text{cm}$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
+            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Độ dài cạnh huyền $BC$ là bao nhiêu cm?",
+            "answer": "10",
+            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.5,
+            "question": "Đoạn thẳng $AB = 42\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
+            "answer": "14",
+            "explanation": "$CA = \\frac13 AB = \\frac{42}3 = 14\\,\\text{cm}$."
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 20x + 108$.",
+            "answer": "8",
+            "explanation": "$P = (x - (10))^2 + 8 \\ge 8$. Giá trị nhỏ nhất là 8."
+          }
+        ],
+        "part4": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "question": "Rút gọn biểu thức:\n a) $(x + 11)^2 - (x - 11)^2$\n b) $(x - 2)(x^2 + 2x + 4) - x(x^2 - 1)$",
+            "rubric": "a) $[(x + 11) - (x - 11)][(x + 11) + (x - 11)] = 2(11) \\cdot 2x = 44x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)",
+            "modelSolution": "a) $[(x + 11) - (x - 11)][(x + 11) + (x - 11)] = 2(11) \\cdot 2x = 44x$. (0.5đ)\nb) $(x^3 - 8) - (x^3 - x) = x - 8$. (0.5đ)"
+          },
+          {
+            "id": 2,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ có $AB = 20\\,\\text{cm}, AC = 23\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Tính các tỉ số $\\frac{AD}{AB}$ và $\\frac{AE}{AC}$ khi $k = 3$.\n b) Chứng minh rằng $DE \\parallel BC$ (khi tỉ số hai đoạn thẳng tương ứng bằng nhau theo định lí Thalès đảo).",
+            "rubric": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)",
+            "modelSolution": "a) Tính đúng tỉ số các đoạn thẳng. (0.5đ)\nb) Vì $\\frac{AD}{AB} = \\frac{AE}{AC}$ nên theo định lí Thalès đảo ta có $DE \\parallel BC$. (0.25đ)"
+          },
+          {
+            "id": 3,
+            "level": "Vận dụng",
+            "points": 0.75,
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.\n c) Gọi $O$ là giao điểm của $AH$ và $DE$. Chứng minh $OA = OD = OH = OE$.",
+            "rubric": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)",
+            "modelSolution": "a) Tứ giác $ADHE$ có ba góc vuông $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên là hình chữ nhật. (0.25đ)\nb) Trong hình chữ nhật, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)\nc) Hai đường chéo hình chữ nhật cắt nhau tại trung điểm của mỗi đường và bằng nhau, suy ra $OA = OD = OH = OE$. (0.25đ)"
+          },
+          {
+            "id": 4,
+            "level": "Vận dụng cao",
+            "points": 0.5,
+            "question": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 + 2y^2 - 2xy - 10x + 10y + 2026$.",
+            "rubric": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)",
+            "modelSolution": "Biến đổi: $A = (x^2 - 2xy + y^2) - (2+k)(x - y) + y^2 + 2026 = (x - y)^2 - (2+k)(x - y) + \\frac{(2+k)^2}{4} + y^2 + 2026 - \\frac{(2+k)^2}{4} = (x - y - \\frac{2+k}{2})^2 + y^2 + 2026 - \\frac{(2+k)^2}{4}$. (0.25đ)\nTìm được GTNN đạt được khi $y = 0$ và $x = \\frac{2+k}{2}$. (0.25đ)"
+          }
+        ]
+      }
+    ],
+    "mid2": [
+      {
+        "id": "p_g8_mid2_01",
+        "testNum": 1,
+        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 01)",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
+        "grade": "8",
+        "term": "mid2",
+        "termName": "Giữa Học kỳ II",
+        "duration": "90 phút",
+        "totalPoints": 10.0,
+        "matrix": {
+          "nhanBiet": "40% (4,0 điểm)",
+          "thongHieu": "30% (3,0 điểm)",
+          "vanDung": "20% (2,0 điểm)",
+          "vanDungCao": "10% (1,0 điểm)"
+        },
+        "part1": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 4}$ là:",
+            "options": [
+              "$x = 4$",
+              "$x \\ne 4$",
+              "$x \\ne 0$",
+              "$x > 4$"
+            ],
+            "correct": 1,
+            "explanation": "Mẫu thức phải khác 0: $x - (4) \\ne 0 \\implies x \\ne 4$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Rút gọn phân thức $\\frac{3(x - 1)}{6(x - 1)}$ (với $x \\ne 1$) ta được:",
+            "options": [
+              "$2$",
+              "$\\frac{3}{2}$",
+              "$\\frac{1}{2}$",
+              "$1$"
+            ],
+            "correct": 2,
+            "explanation": "Chia cả tử và mẫu cho $(3)(x - 1)$ được $\\frac12$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "options": [
+              "$y = (3)x - 5$",
+              "$y = x^2 + 1$",
+              "$y = 0x + 3$",
+              "$y = \\frac{2}{x}$"
+            ],
+            "correct": 0,
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hệ số góc của đường thẳng $y = -4x + 7$ là:",
+            "options": [
+              "$-7$",
+              "$7$",
+              "$4$",
+              "$-4$"
+            ],
+            "correct": 3,
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hàm số bậc nhất $y = (3)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "options": [
+              "Cắt trục tung tại điểm âm",
+              "Hệ số $a = 3 > 0$",
+              "Có chứa biến $x$",
+              "Hệ số $b = -3 < 0$"
+            ],
+            "correct": 1,
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Nghiệm của phương trình $3x - 9 = 0$ là:",
+            "options": [
+              "$3$",
+              "$0$",
+              "$2$",
+              "$-3$"
+            ],
+            "correct": 0,
+            "explanation": "$x = \\frac{9}{3} = 3$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hai đường thẳng $y = 3x + 1$ và $y = 3x - 4$:",
+            "options": [
+              "Cắt nhau",
+              "Trùng nhau",
+              "Song song với nhau",
+              "Vuông góc với nhau"
+            ],
+            "correct": 2,
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
+          },
+          {
+            "id": 8,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
+            "options": [
+              "$\\sqrt{2}$",
+              "$\\frac{1}{2}$",
+              "$4$",
+              "$2$"
+            ],
+            "correct": 3,
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
+          },
+          {
+            "id": 9,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Kết quả của phép tính $\\frac{x}{x + 3} + \\frac{3}{x + 3}$ là:",
+            "options": [
+              "$\\frac{1}{2}$",
+              "$x$",
+              "$3$",
+              "$1$"
+            ],
+            "correct": 3,
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
+          },
+          {
+            "id": 10,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Phương trình $(x - 3)(2x + 6) = 0$ có tập nghiệm là:",
+            "options": [
+              "$S = \\{3; 3\\}$",
+              "$S = \\{3\\}$",
+              "$S = \\{-3; 3\\}$",
+              "$S = \\{-3\\}$"
+            ],
+            "correct": 2,
+            "explanation": "Phương trình tích có hai nghiệm $x = 3$ và $x = -3$."
+          },
+          {
+            "id": 11,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Cho $\\triangle ABC \\backsim \\triangle DEF$ có $AB = 4\\,\\text{cm}, DE = 8\\,\\text{cm}, BC = 6\\,\\text{cm}$. Độ dài cạnh $EF$ là:",
+            "options": [
+              "$12\\,\\text{cm}$",
+              "$3.0\\,\\text{cm}$",
+              "$10\\,\\text{{cm}}$",
+              "$6\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "Tỉ số đồng dạng $\\frac{DE}{AB} = 2 \\implies EF = 2 \\cdot BC = 12\\,\\text{cm}$."
+          },
+          {
+            "id": 12,
+            "level": "Thông hiểu",
+            "points": 0.25,
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "options": [
+              "$(-2; 0)$",
+              "$(2; 0)$",
+              "$(0; -4)$",
+              "$(0; 4)$"
+            ],
+            "correct": 1,
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+          }
+        ],
+        "part2": [
+          {
+            "id": 1,
+            "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 3} - \\frac{3}{x + 3}\\right) : \\frac{x^2 + 9}{x^2 - 9}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 3} - \\frac{3}{x + 3}\\right) : \\frac{x^2 + 9}{x^2 - 9}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 3} - \\frac{3}{x + 3}\\right) : \\frac{x^2 + 9}{x^2 - 9}$.",
             "statements": [
               {
                 "key": "a",
@@ -25390,2800 +28184,6 @@ window.PERIODIC_EXAM_BANK = {
                 "correct": false,
                 "isCorrect": false,
                 "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{7}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 21\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "7",
-            "explanation": "$CA = \\frac13 AB = \\frac{21}3 = 7\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 1}{x - 1}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "1",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 1$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 3} - \\frac1{x + 3}\\right) \\cdot \\frac{x^2 - 9}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (3)$. (0.5đ)\nb) $A = \\frac{(x + 3) - (x - 3)}{x^2 - 9} \\cdot \\frac{x^2 - 9}2 = \\frac{6}2 = 3$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (3)$. (0.5đ)\nb) $A = \\frac{(x + 3) - (x - 3)}{x^2 - 9} \\cdot \\frac{x^2 - 9}2 = \\frac{6}2 = 3$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 13\\,\\text{cm}, AC = 16\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{13}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{13}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 3x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_02",
-        "testNum": 2,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 02)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 5}$ là:",
-            "options": [
-              "$x > 5$",
-              "$x \\ne 0$",
-              "$x = 5$",
-              "$x \\ne 5$"
-            ],
-            "correct": 3,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{4(x - 1)}{8(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$2$",
-              "$\\frac{1}{2}$",
-              "$\\frac{4}{2}$",
-              "$1$"
-            ],
-            "correct": 1,
-            "explanation": "Chia cả tử và mẫu cho $(4)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 4} + \\frac{4}{x + 4}$ là:",
-            "options": [
-              "$x$",
-              "$4$",
-              "$1$",
-              "$\\frac{1}{2}$"
-            ],
-            "correct": 2,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Vuông góc với cạnh thứ ba",
-              "Đi qua trọng tâm",
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
-              "Bằng cạnh thứ ba"
-            ],
-            "correct": 2,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 16\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$32\\,\\text{cm}$",
-              "$16\\,\\text{cm}$",
-              "$6\\,\\text{{cm}}$",
-              "$8\\,\\text{cm}$"
-            ],
-            "correct": 3,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (16) = 8\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
-              "$DB \\cdot DC = AB \\cdot AC$",
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$"
-            ],
-            "correct": 0,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Cơ cấu các loại cây trồng trong một trang trại",
-              "Số lượng học sinh các trường THCS trong quận",
-              "Xếp loại học lực của một lớp"
-            ],
-            "correct": 0,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 3}{x + 2}$ (với $x \\ne 3, x \\ne -2$) là:",
-            "options": [
-              "1",
-              "$\\frac{x - 3}{x + 2}$",
-              "$-\\frac{x + 2}{x - 3}$",
-              "$\\frac{x + 2}{x - 3}$"
-            ],
-            "correct": 3,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{2}{x - 1} - \\frac{2}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$0$",
-              "$\\frac{4}{x - 1}$",
-              "$\\frac{2}{x - 1}$",
-              "$-\\frac{4}{x - 1}$"
-            ],
-            "correct": 1,
-            "explanation": "Đổi dấu: $-\\frac{2}{1 - x} = +\\frac{2}{x - 1} \\implies \\frac{4}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 5\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$4\\,\\text{{cm}}$",
-              "$6.67\\,\\text{cm}$",
-              "$5\\,\\text{cm}$",
-              "$5\\,\\text{{cm}}$"
-            ],
-            "correct": 1,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(5) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 16}{x - 4} = 0$:",
-            "options": [
-              "$x = -(4)$",
-              "$x = 4$",
-              "$x = \\pm (4)$",
-              "Không có giá trị nào"
-            ],
-            "correct": 0,
-            "explanation": "Rút gọn phân thức thành $x + (4)$ với điều kiện $x \\ne 4$. Do đó $x = -(4)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $10\\,\\text{cm}$ và $16\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$10\\,\\text{cm}$",
-              "$16\\,\\text{cm}$",
-              "$13\\,\\text{cm}$",
-              "$26\\,\\text{cm}$"
-            ],
-            "correct": 2,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(10) + (16)}2 = 13\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 4} - \\frac{4}{x + 4}\\right) : \\frac{x^2 + 16}{x^2 - 16}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 4} - \\frac{4}{x + 4}\\right) : \\frac{x^2 + 16}{x^2 - 16}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 4} - \\frac{4}{x + 4}\\right) : \\frac{x^2 + 16}{x^2 - 16}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (4)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (4)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 16}{x^2 - 16}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 16}{x^2 - 16}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 4$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 4$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{8}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 24\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "8",
-            "explanation": "$CA = \\frac13 AB = \\frac{24}3 = 8\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 8}{x - 2}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "4",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 4$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 4} - \\frac1{x + 4}\\right) \\cdot \\frac{x^2 - 16}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (4)$. (0.5đ)\nb) $A = \\frac{(x + 4) - (x - 4)}{x^2 - 16} \\cdot \\frac{x^2 - 16}2 = \\frac{8}2 = 4$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (4)$. (0.5đ)\nb) $A = \\frac{(x + 4) - (x - 4)}{x^2 - 16} \\cdot \\frac{x^2 - 16}2 = \\frac{8}2 = 4$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 14\\,\\text{cm}, AC = 17\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{14}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{14}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 4x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_03",
-        "testNum": 3,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 03)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 6}$ là:",
-            "options": [
-              "$x = 6$",
-              "$x \\ne 0$",
-              "$x > 6$",
-              "$x \\ne 6$"
-            ],
-            "correct": 3,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{5(x - 1)}{10(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$1$",
-              "$\\frac{5}{2}$",
-              "$\\frac{1}{2}$",
-              "$2$"
-            ],
-            "correct": 2,
-            "explanation": "Chia cả tử và mẫu cho $(5)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 5} + \\frac{5}{x + 5}$ là:",
-            "options": [
-              "$x$",
-              "$\\frac{1}{2}$",
-              "$1$",
-              "$5$"
-            ],
-            "correct": 2,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Đi qua trọng tâm",
-              "Vuông góc với cạnh thứ ba",
-              "Bằng cạnh thứ ba",
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
-            ],
-            "correct": 3,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 18\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$36\\,\\text{cm}$",
-              "$18\\,\\text{cm}$",
-              "$9\\,\\text{cm}$",
-              "$6\\,\\text{{cm}}$"
-            ],
-            "correct": 2,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (18) = 9\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
-              "$DB \\cdot DC = AB \\cdot AC$",
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$"
-            ],
-            "correct": 3,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Xếp loại học lực của một lớp",
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Số lượng học sinh các trường THCS trong quận",
-              "Cơ cấu các loại cây trồng trong một trang trại"
-            ],
-            "correct": 1,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 4}{x + 2}$ (với $x \\ne 4, x \\ne -2$) là:",
-            "options": [
-              "$\\frac{x + 2}{x - 4}$",
-              "$-\\frac{x + 2}{x - 4}$",
-              "1",
-              "$\\frac{x - 4}{x + 2}$"
-            ],
-            "correct": 0,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{3}{x - 1} - \\frac{3}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$\\frac{6}{x - 1}$",
-              "$0$",
-              "$-\\frac{6}{x - 1}$",
-              "$\\frac{3}{x - 1}$"
-            ],
-            "correct": 0,
-            "explanation": "Đổi dấu: $-\\frac{3}{1 - x} = +\\frac{3}{x - 1} \\implies \\frac{6}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 6\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$6\\,\\text{cm}$",
-              "$8.0\\,\\text{cm}$",
-              "$4\\,\\text{{cm}}$",
-              "$5\\,\\text{{cm}}$"
-            ],
-            "correct": 1,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(6) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 25}{x - 5} = 0$:",
-            "options": [
-              "Không có giá trị nào",
-              "$x = -(5)$",
-              "$x = 5$",
-              "$x = \\pm (5)$"
-            ],
-            "correct": 1,
-            "explanation": "Rút gọn phân thức thành $x + (5)$ với điều kiện $x \\ne 5$. Do đó $x = -(5)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $11\\,\\text{cm}$ và $17\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$14\\,\\text{cm}$",
-              "$17\\,\\text{cm}$",
-              "$11\\,\\text{cm}$",
-              "$28\\,\\text{cm}$"
-            ],
-            "correct": 0,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(11) + (17)}2 = 14\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 5} - \\frac{5}{x + 5}\\right) : \\frac{x^2 + 25}{x^2 - 25}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 5} - \\frac{5}{x + 5}\\right) : \\frac{x^2 + 25}{x^2 - 25}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 5} - \\frac{5}{x + 5}\\right) : \\frac{x^2 + 25}{x^2 - 25}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (5)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (5)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 25}{x^2 - 25}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 25}{x^2 - 25}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 5$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 5$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{9}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 27\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "9",
-            "explanation": "$CA = \\frac13 AB = \\frac{27}3 = 9\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 27}{x - 3}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "9",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 9$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 5} - \\frac1{x + 5}\\right) \\cdot \\frac{x^2 - 25}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (5)$. (0.5đ)\nb) $A = \\frac{(x + 5) - (x - 5)}{x^2 - 25} \\cdot \\frac{x^2 - 25}2 = \\frac{10}2 = 5$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (5)$. (0.5đ)\nb) $A = \\frac{(x + 5) - (x - 5)}{x^2 - 25} \\cdot \\frac{x^2 - 25}2 = \\frac{10}2 = 5$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 15\\,\\text{cm}, AC = 18\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{15}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{15}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 5x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_04",
-        "testNum": 4,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 04)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 7}$ là:",
-            "options": [
-              "$x > 7$",
-              "$x \\ne 7$",
-              "$x = 7$",
-              "$x \\ne 0$"
-            ],
-            "correct": 1,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{6(x - 1)}{12(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$\\frac{6}{2}$",
-              "$2$",
-              "$\\frac{1}{2}$",
-              "$1$"
-            ],
-            "correct": 2,
-            "explanation": "Chia cả tử và mẫu cho $(6)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 6} + \\frac{6}{x + 6}$ là:",
-            "options": [
-              "$\\frac{1}{2}$",
-              "$6$",
-              "$x$",
-              "$1$"
-            ],
-            "correct": 3,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Bằng cạnh thứ ba",
-              "Vuông góc với cạnh thứ ba",
-              "Đi qua trọng tâm",
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
-            ],
-            "correct": 3,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 20\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$6\\,\\text{{cm}}$",
-              "$10\\,\\text{cm}$",
-              "$20\\,\\text{cm}$",
-              "$40\\,\\text{cm}$"
-            ],
-            "correct": 1,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (20) = 10\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
-              "$DB \\cdot DC = AB \\cdot AC$",
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$"
-            ],
-            "correct": 0,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Số lượng học sinh các trường THCS trong quận",
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Xếp loại học lực của một lớp",
-              "Cơ cấu các loại cây trồng trong một trang trại"
-            ],
-            "correct": 1,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 5}{x + 2}$ (với $x \\ne 5, x \\ne -2$) là:",
-            "options": [
-              "$\\frac{x - 5}{x + 2}$",
-              "1",
-              "$\\frac{x + 2}{x - 5}$",
-              "$-\\frac{x + 2}{x - 5}$"
-            ],
-            "correct": 2,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{4}{x - 1} - \\frac{4}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$\\frac{8}{x - 1}$",
-              "$-\\frac{8}{x - 1}$",
-              "$\\frac{4}{x - 1}$",
-              "$0$"
-            ],
-            "correct": 0,
-            "explanation": "Đổi dấu: $-\\frac{4}{1 - x} = +\\frac{4}{x - 1} \\implies \\frac{8}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 7\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$4\\,\\text{{cm}}$",
-              "$7\\,\\text{cm}$",
-              "$5\\,\\text{{cm}}$",
-              "$9.33\\,\\text{cm}$"
-            ],
-            "correct": 3,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(7) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 36}{x - 6} = 0$:",
-            "options": [
-              "Không có giá trị nào",
-              "$x = \\pm (6)$",
-              "$x = -(6)$",
-              "$x = 6$"
-            ],
-            "correct": 2,
-            "explanation": "Rút gọn phân thức thành $x + (6)$ với điều kiện $x \\ne 6$. Do đó $x = -(6)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $12\\,\\text{cm}$ và $18\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$15\\,\\text{cm}$",
-              "$30\\,\\text{cm}$",
-              "$18\\,\\text{cm}$",
-              "$12\\,\\text{cm}$"
-            ],
-            "correct": 0,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(12) + (18)}2 = 15\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 6} - \\frac{6}{x + 6}\\right) : \\frac{x^2 + 36}{x^2 - 36}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 6} - \\frac{6}{x + 6}\\right) : \\frac{x^2 + 36}{x^2 - 36}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 6} - \\frac{6}{x + 6}\\right) : \\frac{x^2 + 36}{x^2 - 36}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (6)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (6)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 36}{x^2 - 36}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 36}{x^2 - 36}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 6$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 6$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{10}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 30\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "10",
-            "explanation": "$CA = \\frac13 AB = \\frac{30}3 = 10\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 64}{x - 4}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "16",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 16$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 6} - \\frac1{x + 6}\\right) \\cdot \\frac{x^2 - 36}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (6)$. (0.5đ)\nb) $A = \\frac{(x + 6) - (x - 6)}{x^2 - 36} \\cdot \\frac{x^2 - 36}2 = \\frac{12}2 = 6$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (6)$. (0.5đ)\nb) $A = \\frac{(x + 6) - (x - 6)}{x^2 - 36} \\cdot \\frac{x^2 - 36}2 = \\frac{12}2 = 6$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 16\\,\\text{cm}, AC = 19\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{16}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{16}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 6x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_05",
-        "testNum": 5,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 05)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 8}$ là:",
-            "options": [
-              "$x \\ne 0$",
-              "$x \\ne 8$",
-              "$x = 8$",
-              "$x > 8$"
-            ],
-            "correct": 1,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{7(x - 1)}{14(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$1$",
-              "$\\frac{1}{2}$",
-              "$2$",
-              "$\\frac{7}{2}$"
-            ],
-            "correct": 1,
-            "explanation": "Chia cả tử và mẫu cho $(7)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 7} + \\frac{7}{x + 7}$ là:",
-            "options": [
-              "$1$",
-              "$\\frac{1}{2}$",
-              "$7$",
-              "$x$"
-            ],
-            "correct": 0,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Vuông góc với cạnh thứ ba",
-              "Đi qua trọng tâm",
-              "Bằng cạnh thứ ba",
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
-            ],
-            "correct": 3,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 22\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$11\\,\\text{cm}$",
-              "$22\\,\\text{cm}$",
-              "$44\\,\\text{cm}$",
-              "$6\\,\\text{{cm}}$"
-            ],
-            "correct": 0,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (22) = 11\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$DB \\cdot DC = AB \\cdot AC$",
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$"
-            ],
-            "correct": 2,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Xếp loại học lực của một lớp",
-              "Cơ cấu các loại cây trồng trong một trang trại",
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Số lượng học sinh các trường THCS trong quận"
-            ],
-            "correct": 2,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 6}{x + 2}$ (với $x \\ne 6, x \\ne -2$) là:",
-            "options": [
-              "$\\frac{x + 2}{x - 6}$",
-              "$\\frac{x - 6}{x + 2}$",
-              "$-\\frac{x + 2}{x - 6}$",
-              "1"
-            ],
-            "correct": 0,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{5}{x - 1} - \\frac{5}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$\\frac{5}{x - 1}$",
-              "$0$",
-              "$-\\frac{10}{x - 1}$",
-              "$\\frac{10}{x - 1}$"
-            ],
-            "correct": 3,
-            "explanation": "Đổi dấu: $-\\frac{5}{1 - x} = +\\frac{5}{x - 1} \\implies \\frac{10}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 8\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$4\\,\\text{{cm}}$",
-              "$8\\,\\text{cm}$",
-              "$5\\,\\text{{cm}}$",
-              "$10.67\\,\\text{cm}$"
-            ],
-            "correct": 3,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(8) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 49}{x - 7} = 0$:",
-            "options": [
-              "$x = \\pm (7)$",
-              "$x = -(7)$",
-              "Không có giá trị nào",
-              "$x = 7$"
-            ],
-            "correct": 1,
-            "explanation": "Rút gọn phân thức thành $x + (7)$ với điều kiện $x \\ne 7$. Do đó $x = -(7)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $13\\,\\text{cm}$ và $19\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$32\\,\\text{cm}$",
-              "$19\\,\\text{cm}$",
-              "$16\\,\\text{cm}$",
-              "$13\\,\\text{cm}$"
-            ],
-            "correct": 2,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(13) + (19)}2 = 16\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 7} - \\frac{7}{x + 7}\\right) : \\frac{x^2 + 49}{x^2 - 49}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 7} - \\frac{7}{x + 7}\\right) : \\frac{x^2 + 49}{x^2 - 49}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 7} - \\frac{7}{x + 7}\\right) : \\frac{x^2 + 49}{x^2 - 49}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (7)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (7)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 49}{x^2 - 49}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 49}{x^2 - 49}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 7$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 7$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{11}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 33\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "11",
-            "explanation": "$CA = \\frac13 AB = \\frac{33}3 = 11\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 125}{x - 5}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "25",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 25$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 7} - \\frac1{x + 7}\\right) \\cdot \\frac{x^2 - 49}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (7)$. (0.5đ)\nb) $A = \\frac{(x + 7) - (x - 7)}{x^2 - 49} \\cdot \\frac{x^2 - 49}2 = \\frac{14}2 = 7$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (7)$. (0.5đ)\nb) $A = \\frac{(x + 7) - (x - 7)}{x^2 - 49} \\cdot \\frac{x^2 - 49}2 = \\frac{14}2 = 7$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 17\\,\\text{cm}, AC = 20\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{17}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{17}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 7x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_06",
-        "testNum": 6,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 06)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 9}$ là:",
-            "options": [
-              "$x \\ne 9$",
-              "$x \\ne 0$",
-              "$x = 9$",
-              "$x > 9$"
-            ],
-            "correct": 0,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{8(x - 1)}{16(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$2$",
-              "$1$",
-              "$\\frac{8}{2}$",
-              "$\\frac{1}{2}$"
-            ],
-            "correct": 3,
-            "explanation": "Chia cả tử và mẫu cho $(8)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 8} + \\frac{8}{x + 8}$ là:",
-            "options": [
-              "$\\frac{1}{2}$",
-              "$8$",
-              "$1$",
-              "$x$"
-            ],
-            "correct": 2,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Vuông góc với cạnh thứ ba",
-              "Bằng cạnh thứ ba",
-              "Đi qua trọng tâm",
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó"
-            ],
-            "correct": 3,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 24\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$48\\,\\text{cm}$",
-              "$12\\,\\text{cm}$",
-              "$6\\,\\text{{cm}}$",
-              "$24\\,\\text{cm}$"
-            ],
-            "correct": 1,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (24) = 12\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
-              "$DB \\cdot DC = AB \\cdot AC$"
-            ],
-            "correct": 0,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Cơ cấu các loại cây trồng trong một trang trại",
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Số lượng học sinh các trường THCS trong quận",
-              "Xếp loại học lực của một lớp"
-            ],
-            "correct": 1,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 7}{x + 2}$ (với $x \\ne 7, x \\ne -2$) là:",
-            "options": [
-              "$-\\frac{x + 2}{x - 7}$",
-              "1",
-              "$\\frac{x - 7}{x + 2}$",
-              "$\\frac{x + 2}{x - 7}$"
-            ],
-            "correct": 3,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{6}{x - 1} - \\frac{6}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$0$",
-              "$\\frac{6}{x - 1}$",
-              "$\\frac{12}{x - 1}$",
-              "$-\\frac{12}{x - 1}$"
-            ],
-            "correct": 2,
-            "explanation": "Đổi dấu: $-\\frac{6}{1 - x} = +\\frac{6}{x - 1} \\implies \\frac{12}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 9\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$4\\,\\text{{cm}}$",
-              "$5\\,\\text{{cm}}$",
-              "$12.0\\,\\text{cm}$",
-              "$9\\,\\text{cm}$"
-            ],
-            "correct": 2,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(9) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 64}{x - 8} = 0$:",
-            "options": [
-              "$x = -(8)$",
-              "$x = 8$",
-              "$x = \\pm (8)$",
-              "Không có giá trị nào"
-            ],
-            "correct": 0,
-            "explanation": "Rút gọn phân thức thành $x + (8)$ với điều kiện $x \\ne 8$. Do đó $x = -(8)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $14\\,\\text{cm}$ và $20\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$34\\,\\text{cm}$",
-              "$17\\,\\text{cm}$",
-              "$14\\,\\text{cm}$",
-              "$20\\,\\text{cm}$"
-            ],
-            "correct": 1,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(14) + (20)}2 = 17\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 8} - \\frac{8}{x + 8}\\right) : \\frac{x^2 + 64}{x^2 - 64}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 8} - \\frac{8}{x + 8}\\right) : \\frac{x^2 + 64}{x^2 - 64}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 8} - \\frac{8}{x + 8}\\right) : \\frac{x^2 + 64}{x^2 - 64}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (8)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (8)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 64}{x^2 - 64}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 64}{x^2 - 64}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 8$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 8$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{12}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 36\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "12",
-            "explanation": "$CA = \\frac13 AB = \\frac{36}3 = 12\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 216}{x - 6}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "36",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 36$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 8} - \\frac1{x + 8}\\right) \\cdot \\frac{x^2 - 64}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (8)$. (0.5đ)\nb) $A = \\frac{(x + 8) - (x - 8)}{x^2 - 64} \\cdot \\frac{x^2 - 64}2 = \\frac{16}2 = 8$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (8)$. (0.5đ)\nb) $A = \\frac{(x + 8) - (x - 8)}{x^2 - 64} \\cdot \\frac{x^2 - 64}2 = \\frac{16}2 = 8$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 18\\,\\text{cm}, AC = 21\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{18}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{18}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 8x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_07",
-        "testNum": 7,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 07)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 10}$ là:",
-            "options": [
-              "$x > 10$",
-              "$x \\ne 10$",
-              "$x = 10$",
-              "$x \\ne 0$"
-            ],
-            "correct": 1,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{9(x - 1)}{18(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$\\frac{9}{2}$",
-              "$2$",
-              "$1$",
-              "$\\frac{1}{2}$"
-            ],
-            "correct": 3,
-            "explanation": "Chia cả tử và mẫu cho $(9)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 9} + \\frac{9}{x + 9}$ là:",
-            "options": [
-              "$1$",
-              "$\\frac{1}{2}$",
-              "$9$",
-              "$x$"
-            ],
-            "correct": 0,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
-              "Đi qua trọng tâm",
-              "Bằng cạnh thứ ba",
-              "Vuông góc với cạnh thứ ba"
-            ],
-            "correct": 0,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 26\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$26\\,\\text{cm}$",
-              "$52\\,\\text{cm}$",
-              "$6\\,\\text{{cm}}$",
-              "$13\\,\\text{cm}$"
-            ],
-            "correct": 3,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (26) = 13\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$",
-              "$DB \\cdot DC = AB \\cdot AC$",
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$"
-            ],
-            "correct": 1,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Số lượng học sinh các trường THCS trong quận",
-              "Cơ cấu các loại cây trồng trong một trang trại",
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Xếp loại học lực của một lớp"
-            ],
-            "correct": 2,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 8}{x + 2}$ (với $x \\ne 8, x \\ne -2$) là:",
-            "options": [
-              "$-\\frac{x + 2}{x - 8}$",
-              "1",
-              "$\\frac{x + 2}{x - 8}$",
-              "$\\frac{x - 8}{x + 2}$"
-            ],
-            "correct": 2,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{7}{x - 1} - \\frac{7}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$\\frac{14}{x - 1}$",
-              "$-\\frac{14}{x - 1}$",
-              "$0$",
-              "$\\frac{7}{x - 1}$"
-            ],
-            "correct": 0,
-            "explanation": "Đổi dấu: $-\\frac{7}{1 - x} = +\\frac{7}{x - 1} \\implies \\frac{14}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 10\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$4\\,\\text{{cm}}$",
-              "$13.33\\,\\text{cm}$",
-              "$5\\,\\text{{cm}}$",
-              "$10\\,\\text{cm}$"
-            ],
-            "correct": 1,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(10) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 81}{x - 9} = 0$:",
-            "options": [
-              "$x = \\pm (9)$",
-              "Không có giá trị nào",
-              "$x = 9$",
-              "$x = -(9)$"
-            ],
-            "correct": 3,
-            "explanation": "Rút gọn phân thức thành $x + (9)$ với điều kiện $x \\ne 9$. Do đó $x = -(9)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $15\\,\\text{cm}$ và $21\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$36\\,\\text{cm}$",
-              "$21\\,\\text{cm}$",
-              "$18\\,\\text{cm}$",
-              "$15\\,\\text{cm}$"
-            ],
-            "correct": 2,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(15) + (21)}2 = 18\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 9} - \\frac{9}{x + 9}\\right) : \\frac{x^2 + 81}{x^2 - 81}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 9} - \\frac{9}{x + 9}\\right) : \\frac{x^2 + 81}{x^2 - 81}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 9} - \\frac{9}{x + 9}\\right) : \\frac{x^2 + 81}{x^2 - 81}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (9)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (9)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 81}{x^2 - 81}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 81}{x^2 - 81}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 9$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 9$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{13}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 39\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "13",
-            "explanation": "$CA = \\frac13 AB = \\frac{39}3 = 13\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 343}{x - 7}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "49",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 49$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 9} - \\frac1{x + 9}\\right) \\cdot \\frac{x^2 - 81}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (9)$. (0.5đ)\nb) $A = \\frac{(x + 9) - (x - 9)}{x^2 - 81} \\cdot \\frac{x^2 - 81}2 = \\frac{18}2 = 9$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (9)$. (0.5đ)\nb) $A = \\frac{(x + 9) - (x - 9)}{x^2 - 81} \\cdot \\frac{x^2 - 81}2 = \\frac{18}2 = 9$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 19\\,\\text{cm}, AC = 22\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{19}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{19}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 9x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      },
-      {
-        "id": "p_g8_final1_08",
-        "testNum": 8,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 8 (ĐỀ SỐ 08)",
-        "topic": "Phân thức đại số, Định lí Thalès & Thống kê dữ liệu",
-        "grade": "8",
-        "term": "final1",
-        "termName": "Cuối Học kỳ I",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 11}$ là:",
-            "options": [
-              "$x > 11$",
-              "$x \\ne 11$",
-              "$x = 11$",
-              "$x \\ne 0$"
-            ],
-            "correct": 1,
-            "explanation": "Mẫu thức phải khác 0: $x - ({3+k}) \\ne 0 \\implies x \\ne {3+k}$."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Rút gọn phân thức $\\frac{10(x - 1)}{20(x - 1)}$ (với $x \\ne 1$) ta được:",
-            "options": [
-              "$\\frac{1}{2}$",
-              "$1$",
-              "$2$",
-              "$\\frac{10}{2}$"
-            ],
-            "correct": 0,
-            "explanation": "Chia cả tử và mẫu cho $(10)(x - 1)$ được $\\frac12$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Kết quả của phép cộng $\\frac{x}{x + 10} + \\frac{10}{x + 10}$ là:",
-            "options": [
-              "$1$",
-              "$x$",
-              "$\\frac{1}{2}$",
-              "$10$"
-            ],
-            "correct": 0,
-            "explanation": "Cộng hai phân thức cùng mẫu: $\\frac{{x + {2+k}}}{{x + {2+k}}} = 1$."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường trung bình của tam giác thì:",
-            "options": [
-              "Bằng cạnh thứ ba",
-              "Đi qua trọng tâm",
-              "Song song với cạnh thứ ba và bằng nửa cạnh đó",
-              "Vuông góc với cạnh thứ ba"
-            ],
-            "correct": 2,
-            "explanation": "Định lí tính chất đường trung bình của tam giác."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$ có $MN$ là đường trung bình ($M \\in AB, N \\in AC$). Nếu $BC = 28\\,\\text{cm}$ thì độ dài $MN$ là:",
-            "options": [
-              "$6\\,\\text{{cm}}$",
-              "$56\\,\\text{cm}$",
-              "$28\\,\\text{cm}$",
-              "$14\\,\\text{cm}$"
-            ],
-            "correct": 3,
-            "explanation": "$MN = \\frac12 BC = \\frac12 (28) = 14\\,\\text{cm}$."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, đường phân giác trong của góc $A$ cắt $BC$ tại $D$. Tỉ số nào sau đây là đúng?",
-            "options": [
-              "$DB \\cdot DC = AB \\cdot AC$",
-              "$\\frac{DB}{DC} = \\frac{AC}{AB}$",
-              "$\\frac{DB}{AB} = \\frac{DC}{AC}$",
-              "$\\frac{DB}{DC} = \\frac{AB}{AC}$"
-            ],
-            "correct": 3,
-            "explanation": "Tính chất đường phân giác trong tam giác: $\\frac{DB}{DC} = \\frac{AB}{AC}$."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Dữ liệu nào sau đây nên được biểu diễn bằng biểu đồ đoạn thẳng?",
-            "options": [
-              "Nhiệt độ trung bình các tháng trong năm tại Hà Nội",
-              "Cơ cấu các loại cây trồng trong một trang trại",
-              "Số lượng học sinh các trường THCS trong quận",
-              "Xếp loại học lực của một lớp"
-            ],
-            "correct": 0,
-            "explanation": "Biểu đồ đoạn thẳng thích hợp biểu diễn sự biến thiên của đại lượng liên tục theo thời gian."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Phân thức nghịch đảo của $\\frac{x - 9}{x + 2}$ (với $x \\ne 9, x \\ne -2$) là:",
-            "options": [
-              "$\\frac{x - 9}{x + 2}$",
-              "$\\frac{x + 2}{x - 9}$",
-              "1",
-              "$-\\frac{x + 2}{x - 9}$"
-            ],
-            "correct": 1,
-            "explanation": "Nghịch đảo của A/B là B/A."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Thực hiện phép tính $\\frac{8}{x - 1} - \\frac{8}{1 - x}$ ta được kết quả là:",
-            "options": [
-              "$-\\frac{16}{x - 1}$",
-              "$\\frac{8}{x - 1}$",
-              "$0$",
-              "$\\frac{16}{x - 1}$"
-            ],
-            "correct": 3,
-            "explanation": "Đổi dấu: $-\\frac{8}{1 - x} = +\\frac{8}{x - 1} \\implies \\frac{16}{x - 1}$."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho tam giác $ABC$, $d \\parallel BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 3\\,\\text{cm}, DB = 11\\,\\text{cm}, AE = 4\\,\\text{cm}$. Độ dài đoạn thẳng $EC$ là:",
-            "options": [
-              "$11\\,\\text{cm}$",
-              "$5\\,\\text{{cm}}$",
-              "$14.67\\,\\text{cm}$",
-              "$4\\,\\text{{cm}}$"
-            ],
-            "correct": 2,
-            "explanation": "Theo định lí Thalès: $\\frac{AD}{DB} = \\frac{AE}{EC} \\implies EC = \\frac{DB \\cdot AE}{AD} = \\frac{(11) \\cdot 4}3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm giá trị của $x$ để phân thức $\\frac{x^2 - 100}{x - 10} = 0$:",
-            "options": [
-              "Không có giá trị nào",
-              "$x = 10$",
-              "$x = -(10)$",
-              "$x = \\pm (10)$"
-            ],
-            "correct": 2,
-            "explanation": "Rút gọn phân thức thành $x + (10)$ với điều kiện $x \\ne 10$. Do đó $x = -(10)$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một hình thang có độ dài hai đáy là $16\\,\\text{cm}$ và $22\\,\\text{cm}$. Độ dài đường trung bình của hình thang là:",
-            "options": [
-              "$22\\,\\text{cm}$",
-              "$19\\,\\text{cm}$",
-              "$38\\,\\text{cm}$",
-              "$16\\,\\text{cm}$"
-            ],
-            "correct": 1,
-            "explanation": "Độ dài đường trung bình hình thang bằng nửa tổng hai đáy: $\\frac{(16) + (22)}2 = 19\\,\\text{cm}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho biểu thức $P = \\left(\\frac{x}{x - 10} - \\frac{10}{x + 10}\\right) : \\frac{x^2 + 100}{x^2 - 100}$.",
-            "stem": "Cho biểu thức $P = \\left(\\frac{x}{x - 10} - \\frac{10}{x + 10}\\right) : \\frac{x^2 + 100}{x^2 - 100}$.",
-            "question": "Cho biểu thức $P = \\left(\\frac{x}{x - 10} - \\frac{10}{x + 10}\\right) : \\frac{x^2 + 100}{x^2 - 100}$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (10)$.",
-                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (10)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Mẫu thức phải khác 0."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 100}{x^2 - 100}$.",
-                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 100}{x^2 - 100}$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tính toán đúng tử và mẫu."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tại $x = 10$, giá trị của biểu thức $P$ bằng $1$.",
-                "statement": "Tại $x = 10$, giá trị của biểu thức $P$ bằng $1$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tại giá trị này biểu thức không xác định."
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "stem": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$. Tia $BI$ cắt $AC$ tại $E$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "statement": "$AM$ là đường trung tuyến của tam giác $ABC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Theo giả thiết."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "statement": "Kẻ $MK \\parallel BE$ ($K \\in AC$) thì $K$ là trung điểm của $EC$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác BCE."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "$E$ là trung điểm của $AK$.",
-                "statement": "$E$ là trung điểm của $AK$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Áp dụng định lí đường trung bình trong tam giác AMK."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "statement": "Tỉ số $\\frac{AE}{AC} = \\frac12$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Tỉ số đúng phải là 1/3 vì $AE = EK = KC$."
-              }
-            ]
-          }
-        ],
-        "part3": [
-          {
-            "id": 1,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Tìm giá trị nguyên của $x$ để phân thức $\\frac{14}{x - 1}$ nhận giá trị nguyên lớn nhất.",
-            "answer": "2",
-            "explanation": "Để phân thức đạt giá trị nguyên dương lớn nhất thì mẫu $x - 1 = 1 \\implies x = 2$."
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 0.5,
-            "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\,\\text{cm}, AC = 8\\,\\text{cm}$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài $BC$ là bao nhiêu cm?",
-            "answer": "10",
-            "explanation": "Theo định lí Pythagore: $BC = \\sqrt{6^2 + 8^2} = 10\\,\\text{{cm}}$."
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Đoạn thẳng $AB = 42\\,\\text{cm}$, điểm $C$ thuộc đoạn $AB$ sao cho $\\frac{CA}{CB} = \\frac12$. Tính độ dài đoạn thẳng $CA$ (theo cm).",
-            "answer": "14",
-            "explanation": "$CA = \\frac13 AB = \\frac{42}3 = 14\\,\\text{cm}$."
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Rút gọn phân thức $\\frac{x^3 - 512}{x - 8}$ tại $x = 0$ được kết quả là bao nhiêu?",
-            "answer": "64",
-            "explanation": "Rút gọn: $x^2 + kx + k^2$. Tại $x = 0$ giá trị là $k^2 = 64$."
-          }
-        ],
-        "part4": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 10} - \\frac1{x + 10}\\right) \\cdot \\frac{x^2 - 100}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
-            "rubric": "a) ĐKXĐ: $x \\ne \\pm (10)$. (0.5đ)\nb) $A = \\frac{(x + 10) - (x - 10)}{x^2 - 100} \\cdot \\frac{x^2 - 100}2 = \\frac{20}2 = 10$. (0.5đ)",
-            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (10)$. (0.5đ)\nb) $A = \\frac{(x + 10) - (x - 10)}{x^2 - 100} \\cdot \\frac{x^2 - 100}2 = \\frac{20}2 = 10$. (0.5đ)"
-          },
-          {
-            "id": 2,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Kẻ $HD \\perp AB$ ($D \\in AB$) và $HE \\perp AC$ ($E \\in AC$).\n a) Chứng minh tứ giác $ADHE$ là hình chữ nhật.\n b) Chứng minh $AH = DE$.",
-            "rubric": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)",
-            "modelSolution": "a) Tứ giác $ADHE$ có $\\widehat{A} = \\widehat{D} = \\widehat{E} = 90^\\circ$ nên $ADHE$ là hình chữ nhật. (0.5đ)\nb) Trong hình chữ nhật $ADHE$, hai đường chéo bằng nhau nên $AH = DE$. (0.25đ)"
-          },
-          {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.75,
-            "question": "Cho tam giác $ABC$ có $AB = 20\\,\\text{cm}, AC = 23\\,\\text{cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\,\\text{cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\,\\text{cm}$.\n a) Chứng minh $DE \\parallel BC$.\n b) Tính tỉ số diện tích $\\frac{S_{ADE}}{S_{ABC}}$.",
-            "rubric": "a) Ta có $\\frac{AD}{AB} = \\frac4{20}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)",
-            "modelSolution": "a) Ta có $\\frac{AD}{AB} = \\frac4{20}$ và kiểm tra tỉ số tương ứng theo định lí Thalès đảo $\\implies DE \\parallel BC$. (0.5đ)\nb) Hai tam giác đồng dạng theo tỉ số $k$, tỉ số diện tích bằng bình phương tỉ số đồng dạng. (0.25đ)"
-          },
-          {
-            "id": 4,
-            "level": "Vận dụng cao",
-            "points": 0.5,
-            "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = \\frac{x^2 - 10x + 1}{(x - 1)^2}$ với $x \\ne 1$.",
-            "rubric": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)",
-            "modelSolution": "Đặt ẩn phụ $y = x - 1 \\implies x = y + 1$. Biến đổi $M$ về tam thức bậc 2 theo $1/y$, tìm GTNN bằng cách hoàn thành bình phương. (0.5đ)"
-          }
-        ]
-      }
-    ],
-    "mid2": [
-      {
-        "id": "p_g8_mid2_01",
-        "testNum": 1,
-        "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 01)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
-        "grade": "8",
-        "term": "mid2",
-        "termName": "Giữa Học kỳ II",
-        "duration": "90 phút",
-        "totalPoints": 10.0,
-        "matrix": {
-          "nhanBiet": "40% (4,0 điểm)",
-          "thongHieu": "30% (3,0 điểm)",
-          "vanDung": "20% (2,0 điểm)",
-          "vanDungCao": "10% (1,0 điểm)"
-        },
-        "part1": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
-            "options": [
-              "$y = x^2 + 1$",
-              "$y = (3)x - 5$",
-              "$y = \\frac{2}{x}$",
-              "$y = 0x + 3$"
-            ],
-            "correct": 1,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
-          },
-          {
-            "id": 2,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -4x + 7$ là:",
-            "options": [
-              "$4$",
-              "$-7$",
-              "$-4$",
-              "$7$"
-            ],
-            "correct": 2,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hàm số bậc nhất $y = (3)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
-            "options": [
-              "Hệ số $a = 3 > 0$",
-              "Hệ số $b = -3 < 0$",
-              "Cắt trục tung tại điểm âm",
-              "Có chứa biến $x$"
-            ],
-            "correct": 0,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nghiệm của phương trình $3x - 9 = 0$ là:",
-            "options": [
-              "$0$",
-              "$2$",
-              "$-3$",
-              "$3$"
-            ],
-            "correct": 3,
-            "explanation": "$x = \\frac{9}{3} = 3$."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai đường thẳng $y = 3x + 1$ và $y = 3x - 4$:",
-            "options": [
-              "Vuông góc với nhau",
-              "Song song với nhau",
-              "Trùng nhau",
-              "Cắt nhau"
-            ],
-            "correct": 1,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
-            "options": [
-              "$2$",
-              "$\\sqrt{2}$",
-              "$\\frac{1}{2}$",
-              "$4$"
-            ],
-            "correct": 0,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
-            "options": [
-              "Hai tam giác cân",
-              "Hai tam giác vuông",
-              "Hai tam giác đều",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau"
-            ],
-            "correct": 2,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 1$?",
-            "options": [
-              "$(1; 0)$",
-              "$(1; 1)$",
-              "$(0; 1)$",
-              "$(0; -1)$"
-            ],
-            "correct": 3,
-            "explanation": "Thay $x = 0 \\implies y = -1$."
-          },
-          {
-            "id": 9,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
-            "options": [
-              "$(0; 4)$",
-              "$(0; -4)$",
-              "$(-2; 0)$",
-              "$(2; 0)$"
-            ],
-            "correct": 3,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
-          },
-          {
-            "id": 10,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Phương trình $(x - 3)(2x + 6) = 0$ có tập nghiệm là:",
-            "options": [
-              "$S = \\{3; 3\\}$",
-              "$S = \\{3\\}$",
-              "$S = \\{-3; 3\\}$",
-              "$S = \\{-3\\}$"
-            ],
-            "correct": 2,
-            "explanation": "Phương trình tích có hai nghiệm $x = 3$ và $x = -3$."
-          },
-          {
-            "id": 11,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Cho $\\triangle ABC \\backsim \\triangle DEF$ có $AB = 4\\,\\text{cm}, DE = 8\\,\\text{cm}, BC = 6\\,\\text{cm}$. Độ dài cạnh $EF$ là:",
-            "options": [
-              "$12\\,\\text{cm}$",
-              "$3.0\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$",
-              "$6\\,\\text{cm}$"
-            ],
-            "correct": 0,
-            "explanation": "Tỉ số đồng dạng $\\frac{DE}{AB} = 2 \\implies EF = 2 \\cdot BC = 12\\,\\text{cm}$."
-          },
-          {
-            "id": 12,
-            "level": "Thông hiểu",
-            "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $13\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
-            "options": [
-              "$7\\,\\text{km}$",
-              "$26\\,\\text{km}$",
-              "$13\\,\\text{km}$",
-              "$24\\,\\text{{km}}$"
-            ],
-            "correct": 1,
-            "explanation": "$s = v \\cdot t = (13) \\cdot 2 = 26\\,\\text{km}$."
-          }
-        ],
-        "part2": [
-          {
-            "id": 1,
-            "level": "Nhận biết",
-            "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (2)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (2)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (2)x + 2$ và $(d_2): y = 2x - 1$.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $2$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $2$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
               }
             ]
           },
@@ -28273,9 +28273,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 3) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 1$",
-            "rubric": "a) $2x - 6 + 3 = x + 5 \\implies x = 8$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 6 \\implies x - 5 = 6 \\implies x = 11$. (0.5đ)",
-            "modelSolution": "a) $2x - 6 + 3 = x + 5 \\implies x = 8$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 6 \\implies x - 5 = 6 \\implies x = 11$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 3} - \\frac1{x + 3}\\right) \\cdot \\frac{x^2 - 9}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (3)$. (0.5đ)\nb) $A = \\frac{(x + 3) - (x - 3)}{x^2 - 9} \\cdot \\frac{x^2 - 9}2 = \\frac{6}2 = 3$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (3)$. (0.5đ)\nb) $A = \\frac{(x + 3) - (x - 3)}{x^2 - 9} \\cdot \\frac{x^2 - 9}2 = \\frac{6}2 = 3$. (0.5đ)"
           },
           {
             "id": 2,
@@ -28307,7 +28307,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 02)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -28324,127 +28324,127 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 5}$ là:",
             "options": [
-              "$y = x^2 + 1$",
-              "$y = (4)x - 5$",
-              "$y = 0x + 3$",
-              "$y = \\frac{2}{x}$"
+              "$x = 5$",
+              "$x \\ne 5$",
+              "$x > 5$",
+              "$x \\ne 0$"
             ],
             "correct": 1,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (5) \\ne 0 \\implies x \\ne 5$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -5x + 7$ là:",
+            "question": "Rút gọn phân thức $\\frac{4(x - 1)}{8(x - 1)}$ (với $x \\ne 1$) ta được:",
             "options": [
-              "$-7$",
-              "$7$",
-              "$5$",
-              "$-5$"
+              "$\\frac{4}{2}$",
+              "$1$",
+              "$2$",
+              "$\\frac{1}{2}$"
             ],
             "correct": 3,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+            "explanation": "Chia cả tử và mẫu cho $(4)(x - 1)$ được $\\frac12$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "options": [
+              "$y = \\frac{2}{x}$",
+              "$y = (4)x - 5$",
+              "$y = x^2 + 1$",
+              "$y = 0x + 3$"
+            ],
+            "correct": 1,
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hệ số góc của đường thẳng $y = -5x + 7$ là:",
+            "options": [
+              "$-5$",
+              "$-7$",
+              "$7$",
+              "$5$"
+            ],
+            "correct": 0,
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
             "question": "Hàm số bậc nhất $y = (4)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
             "options": [
-              "Có chứa biến $x$",
-              "Hệ số $a = 4 > 0$",
               "Hệ số $b = -3 < 0$",
+              "Hệ số $a = 4 > 0$",
+              "Có chứa biến $x$",
               "Cắt trục tung tại điểm âm"
             ],
             "correct": 1,
             "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
           },
           {
-            "id": 4,
+            "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Nghiệm của phương trình $4x - 12 = 0$ là:",
             "options": [
-              "$3$",
               "$0$",
-              "$2$",
-              "$-3$"
-            ],
-            "correct": 0,
-            "explanation": "$x = \\frac{12}{4} = 3$."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai đường thẳng $y = 4x + 1$ và $y = 4x - 4$:",
-            "options": [
-              "Cắt nhau",
-              "Song song với nhau",
-              "Trùng nhau",
-              "Vuông góc với nhau"
-            ],
-            "correct": 1,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
-            "options": [
-              "$\\sqrt{2}$",
-              "$4$",
-              "$2$",
-              "$\\frac{1}{2}$"
+              "$-3$",
+              "$3$",
+              "$2$"
             ],
             "correct": 2,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
+            "explanation": "$x = \\frac{12}{4} = 3$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
+            "question": "Hai đường thẳng $y = 4x + 1$ và $y = 4x - 4$:",
             "options": [
-              "Hai tam giác đều",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau",
-              "Hai tam giác vuông",
-              "Hai tam giác cân"
+              "Song song với nhau",
+              "Vuông góc với nhau",
+              "Trùng nhau",
+              "Cắt nhau"
             ],
             "correct": 0,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 2$?",
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
-              "$(0; 2)$",
-              "$(1; 2)$",
-              "$(0; -2)$",
-              "$(1; 0)$"
+              "$4$",
+              "$\\frac{1}{2}$",
+              "$2$",
+              "$\\sqrt{2}$"
             ],
             "correct": 2,
-            "explanation": "Thay $x = 0 \\implies y = -2$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 4} + \\frac{4}{x + 4}$ là:",
             "options": [
-              "$(-2; 0)$",
-              "$(0; -4)$",
-              "$(0; 4)$",
-              "$(2; 0)$"
+              "$4$",
+              "$x$",
+              "$\\frac{1}{2}$",
+              "$1$"
             ],
             "correct": 3,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -28478,15 +28478,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $14\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$14\\,\\text{km}$",
-              "$8\\,\\text{km}$",
-              "$28\\,\\text{km}$",
-              "$24\\,\\text{{km}}$"
+              "$(0; -4)$",
+              "$(-2; 0)$",
+              "$(2; 0)$",
+              "$(0; 4)$"
             ],
             "correct": 2,
-            "explanation": "$s = v \\cdot t = (14) \\cdot 2 = 28\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -28494,45 +28494,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (3)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (3)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (3)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 4} - \\frac{4}{x + 4}\\right) : \\frac{x^2 + 16}{x^2 - 16}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 4} - \\frac{4}{x + 4}\\right) : \\frac{x^2 + 16}{x^2 - 16}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 4} - \\frac{4}{x + 4}\\right) : \\frac{x^2 + 16}{x^2 - 16}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $3$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $3$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (4)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (4)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 16}{x^2 - 16}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 16}{x^2 - 16}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 4$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 4$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -28622,9 +28622,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 4) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 2$",
-            "rubric": "a) $2x - 8 + 3 = x + 5 \\implies x = 10$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 12 \\implies x - 5 = 12 \\implies x = 17$. (0.5đ)",
-            "modelSolution": "a) $2x - 8 + 3 = x + 5 \\implies x = 10$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 12 \\implies x - 5 = 12 \\implies x = 17$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 4} - \\frac1{x + 4}\\right) \\cdot \\frac{x^2 - 16}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (4)$. (0.5đ)\nb) $A = \\frac{(x + 4) - (x - 4)}{x^2 - 16} \\cdot \\frac{x^2 - 16}2 = \\frac{8}2 = 4$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (4)$. (0.5đ)\nb) $A = \\frac{(x + 4) - (x - 4)}{x^2 - 16} \\cdot \\frac{x^2 - 16}2 = \\frac{8}2 = 4$. (0.5đ)"
           },
           {
             "id": 2,
@@ -28656,7 +28656,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 03)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -28673,127 +28673,127 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 6}$ là:",
             "options": [
-              "$y = (5)x - 5$",
-              "$y = x^2 + 1$",
-              "$y = 0x + 3$",
-              "$y = \\frac{2}{x}$"
+              "$x \\ne 6$",
+              "$x = 6$",
+              "$x > 6$",
+              "$x \\ne 0$"
             ],
             "correct": 0,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (6) \\ne 0 \\implies x \\ne 6$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -6x + 7$ là:",
+            "question": "Rút gọn phân thức $\\frac{5(x - 1)}{10(x - 1)}$ (với $x \\ne 1$) ta được:",
             "options": [
-              "$6$",
-              "$-6$",
-              "$7$",
-              "$-7$"
+              "$2$",
+              "$\\frac{1}{2}$",
+              "$1$",
+              "$\\frac{5}{2}$"
             ],
             "correct": 1,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+            "explanation": "Chia cả tử và mẫu cho $(5)(x - 1)$ được $\\frac12$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số bậc nhất $y = (5)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
             "options": [
-              "Cắt trục tung tại điểm âm",
-              "Có chứa biến $x$",
-              "Hệ số $b = -3 < 0$",
-              "Hệ số $a = 5 > 0$"
+              "$y = 0x + 3$",
+              "$y = \\frac{2}{x}$",
+              "$y = x^2 + 1$",
+              "$y = (5)x - 5$"
             ],
             "correct": 3,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nghiệm của phương trình $5x - 15 = 0$ là:",
+            "question": "Hệ số góc của đường thẳng $y = -6x + 7$ là:",
             "options": [
-              "$2$",
-              "$-3$",
-              "$3$",
-              "$0$"
+              "$7$",
+              "$6$",
+              "$-6$",
+              "$-7$"
             ],
             "correct": 2,
-            "explanation": "$x = \\frac{15}{5} = 3$."
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai đường thẳng $y = 5x + 1$ và $y = 5x - 4$:",
+            "question": "Hàm số bậc nhất $y = (5)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
             "options": [
-              "Trùng nhau",
-              "Cắt nhau",
-              "Song song với nhau",
-              "Vuông góc với nhau"
+              "Có chứa biến $x$",
+              "Hệ số $b = -3 < 0$",
+              "Hệ số $a = 5 > 0$",
+              "Cắt trục tung tại điểm âm"
             ],
             "correct": 2,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
+            "question": "Nghiệm của phương trình $5x - 15 = 0$ là:",
             "options": [
+              "$3$",
+              "$-3$",
               "$2$",
-              "$4$",
-              "$\\frac{1}{2}$",
-              "$\\sqrt{2}$"
+              "$0$"
             ],
             "correct": 0,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
+            "explanation": "$x = \\frac{15}{5} = 3$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
+            "question": "Hai đường thẳng $y = 5x + 1$ và $y = 5x - 4$:",
             "options": [
-              "Hai tam giác đều",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau",
-              "Hai tam giác cân",
-              "Hai tam giác vuông"
+              "Song song với nhau",
+              "Vuông góc với nhau",
+              "Cắt nhau",
+              "Trùng nhau"
             ],
             "correct": 0,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 3$?",
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
-              "$(1; 3)$",
-              "$(0; -3)$",
-              "$(0; 3)$",
-              "$(1; 0)$"
+              "$\\frac{1}{2}$",
+              "$2$",
+              "$4$",
+              "$\\sqrt{2}$"
             ],
             "correct": 1,
-            "explanation": "Thay $x = 0 \\implies y = -3$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 5} + \\frac{5}{x + 5}$ là:",
             "options": [
-              "$(0; -4)$",
-              "$(0; 4)$",
-              "$(2; 0)$",
-              "$(-2; 0)$"
+              "$x$",
+              "$\\frac{1}{2}$",
+              "$1$",
+              "$5$"
             ],
             "correct": 2,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -28827,15 +28827,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $15\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$24\\,\\text{{km}}$",
-              "$30\\,\\text{km}$",
-              "$15\\,\\text{km}$",
-              "$9\\,\\text{km}$"
+              "$(0; 4)$",
+              "$(2; 0)$",
+              "$(0; -4)$",
+              "$(-2; 0)$"
             ],
             "correct": 1,
-            "explanation": "$s = v \\cdot t = (15) \\cdot 2 = 30\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -28843,45 +28843,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (4)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (4)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (4)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 5} - \\frac{5}{x + 5}\\right) : \\frac{x^2 + 25}{x^2 - 25}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 5} - \\frac{5}{x + 5}\\right) : \\frac{x^2 + 25}{x^2 - 25}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 5} - \\frac{5}{x + 5}\\right) : \\frac{x^2 + 25}{x^2 - 25}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $4$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $4$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (5)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (5)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 25}{x^2 - 25}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 25}{x^2 - 25}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 5$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 5$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -28971,9 +28971,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 5) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 3$",
-            "rubric": "a) $2x - 10 + 3 = x + 5 \\implies x = 12$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 18 \\implies x - 5 = 18 \\implies x = 23$. (0.5đ)",
-            "modelSolution": "a) $2x - 10 + 3 = x + 5 \\implies x = 12$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 18 \\implies x - 5 = 18 \\implies x = 23$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 5} - \\frac1{x + 5}\\right) \\cdot \\frac{x^2 - 25}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (5)$. (0.5đ)\nb) $A = \\frac{(x + 5) - (x - 5)}{x^2 - 25} \\cdot \\frac{x^2 - 25}2 = \\frac{10}2 = 5$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (5)$. (0.5đ)\nb) $A = \\frac{(x + 5) - (x - 5)}{x^2 - 25} \\cdot \\frac{x^2 - 25}2 = \\frac{10}2 = 5$. (0.5đ)"
           },
           {
             "id": 2,
@@ -29005,7 +29005,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 04)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -29022,127 +29022,127 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 7}$ là:",
             "options": [
-              "$y = \\frac{2}{x}$",
-              "$y = (6)x - 5$",
-              "$y = x^2 + 1$",
-              "$y = 0x + 3$"
+              "$x \\ne 0$",
+              "$x \\ne 7$",
+              "$x = 7$",
+              "$x > 7$"
             ],
             "correct": 1,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (7) \\ne 0 \\implies x \\ne 7$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
+            "question": "Rút gọn phân thức $\\frac{6(x - 1)}{12(x - 1)}$ (với $x \\ne 1$) ta được:",
+            "options": [
+              "$\\frac{1}{2}$",
+              "$\\frac{6}{2}$",
+              "$1$",
+              "$2$"
+            ],
+            "correct": 0,
+            "explanation": "Chia cả tử và mẫu cho $(6)(x - 1)$ được $\\frac12$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "options": [
+              "$y = x^2 + 1$",
+              "$y = 0x + 3$",
+              "$y = (6)x - 5$",
+              "$y = \\frac{2}{x}$"
+            ],
+            "correct": 2,
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
             "question": "Hệ số góc của đường thẳng $y = -7x + 7$ là:",
             "options": [
               "$-7$",
-              "$-7$",
               "$7$",
+              "$-7$",
               "$7$"
             ],
             "correct": 0,
             "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
           },
           {
-            "id": 3,
+            "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Hàm số bậc nhất $y = (6)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
             "options": [
-              "Hệ số $b = -3 < 0$",
               "Cắt trục tung tại điểm âm",
-              "Hệ số $a = 6 > 0$",
-              "Có chứa biến $x$"
-            ],
-            "correct": 2,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nghiệm của phương trình $6x - 18 = 0$ là:",
-            "options": [
-              "$3$",
-              "$2$",
-              "$0$",
-              "$-3$"
-            ],
-            "correct": 0,
-            "explanation": "$x = \\frac{18}{6} = 3$."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai đường thẳng $y = 6x + 1$ và $y = 6x - 4$:",
-            "options": [
-              "Vuông góc với nhau",
-              "Cắt nhau",
-              "Trùng nhau",
-              "Song song với nhau"
+              "Hệ số $b = -3 < 0$",
+              "Có chứa biến $x$",
+              "Hệ số $a = 6 > 0$"
             ],
             "correct": 3,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
+            "question": "Nghiệm của phương trình $6x - 18 = 0$ là:",
             "options": [
-              "$4$",
+              "$-3$",
+              "$3$",
               "$2$",
-              "$\\frac{1}{2}$",
-              "$\\sqrt{2}$"
+              "$0$"
             ],
             "correct": 1,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
+            "explanation": "$x = \\frac{18}{6} = 3$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
+            "question": "Hai đường thẳng $y = 6x + 1$ và $y = 6x - 4$:",
             "options": [
-              "Hai tam giác đều",
-              "Hai tam giác cân",
-              "Hai tam giác vuông",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau"
+              "Song song với nhau",
+              "Cắt nhau",
+              "Trùng nhau",
+              "Vuông góc với nhau"
             ],
             "correct": 0,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 4$?",
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
-              "$(1; 0)$",
-              "$(1; 4)$",
-              "$(0; -4)$",
-              "$(0; 4)$"
+              "$\\sqrt{2}$",
+              "$\\frac{1}{2}$",
+              "$2$",
+              "$4$"
             ],
             "correct": 2,
-            "explanation": "Thay $x = 0 \\implies y = -4$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 6} + \\frac{6}{x + 6}$ là:",
             "options": [
-              "$(0; 4)$",
-              "$(-2; 0)$",
-              "$(0; -4)$",
-              "$(2; 0)$"
+              "$\\frac{1}{2}$",
+              "$6$",
+              "$x$",
+              "$1$"
             ],
             "correct": 3,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -29176,15 +29176,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $16\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$16\\,\\text{km}$",
-              "$24\\,\\text{{km}}$",
-              "$32\\,\\text{km}$",
-              "$10\\,\\text{km}$"
+              "$(0; -4)$",
+              "$(0; 4)$",
+              "$(2; 0)$",
+              "$(-2; 0)$"
             ],
             "correct": 2,
-            "explanation": "$s = v \\cdot t = (16) \\cdot 2 = 32\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -29192,45 +29192,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (5)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (5)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (5)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 6} - \\frac{6}{x + 6}\\right) : \\frac{x^2 + 36}{x^2 - 36}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 6} - \\frac{6}{x + 6}\\right) : \\frac{x^2 + 36}{x^2 - 36}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 6} - \\frac{6}{x + 6}\\right) : \\frac{x^2 + 36}{x^2 - 36}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $5$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $5$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (6)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (6)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 36}{x^2 - 36}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 36}{x^2 - 36}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 6$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 6$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -29320,9 +29320,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 6) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 4$",
-            "rubric": "a) $2x - 12 + 3 = x + 5 \\implies x = 14$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 24 \\implies x - 5 = 24 \\implies x = 29$. (0.5đ)",
-            "modelSolution": "a) $2x - 12 + 3 = x + 5 \\implies x = 14$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 24 \\implies x - 5 = 24 \\implies x = 29$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 6} - \\frac1{x + 6}\\right) \\cdot \\frac{x^2 - 36}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (6)$. (0.5đ)\nb) $A = \\frac{(x + 6) - (x - 6)}{x^2 - 36} \\cdot \\frac{x^2 - 36}2 = \\frac{12}2 = 6$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (6)$. (0.5đ)\nb) $A = \\frac{(x + 6) - (x - 6)}{x^2 - 36} \\cdot \\frac{x^2 - 36}2 = \\frac{12}2 = 6$. (0.5đ)"
           },
           {
             "id": 2,
@@ -29354,7 +29354,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 05)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -29371,127 +29371,127 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 8}$ là:",
             "options": [
-              "$y = (7)x - 5$",
-              "$y = \\frac{2}{x}$",
-              "$y = 0x + 3$",
-              "$y = x^2 + 1$"
+              "$x \\ne 8$",
+              "$x \\ne 0$",
+              "$x > 8$",
+              "$x = 8$"
             ],
             "correct": 0,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (8) \\ne 0 \\implies x \\ne 8$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -8x + 7$ là:",
+            "question": "Rút gọn phân thức $\\frac{7(x - 1)}{14(x - 1)}$ (với $x \\ne 1$) ta được:",
             "options": [
-              "$8$",
-              "$7$",
-              "$-7$",
-              "$-8$"
+              "$2$",
+              "$1$",
+              "$\\frac{7}{2}$",
+              "$\\frac{1}{2}$"
             ],
             "correct": 3,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+            "explanation": "Chia cả tử và mẫu cho $(7)(x - 1)$ được $\\frac12$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số bậc nhất $y = (7)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
             "options": [
-              "Có chứa biến $x$",
-              "Cắt trục tung tại điểm âm",
-              "Hệ số $a = 7 > 0$",
-              "Hệ số $b = -3 < 0$"
+              "$y = \\frac{2}{x}$",
+              "$y = 0x + 3$",
+              "$y = (7)x - 5$",
+              "$y = x^2 + 1$"
             ],
             "correct": 2,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nghiệm của phương trình $7x - 21 = 0$ là:",
+            "question": "Hệ số góc của đường thẳng $y = -8x + 7$ là:",
             "options": [
-              "$0$",
-              "$2$",
-              "$3$",
-              "$-3$"
+              "$-7$",
+              "$7$",
+              "$-8$",
+              "$8$"
             ],
             "correct": 2,
-            "explanation": "$x = \\frac{21}{7} = 3$."
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai đường thẳng $y = 7x + 1$ và $y = 7x - 4$:",
+            "question": "Hàm số bậc nhất $y = (7)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
             "options": [
-              "Cắt nhau",
-              "Vuông góc với nhau",
-              "Trùng nhau",
-              "Song song với nhau"
+              "Hệ số $b = -3 < 0$",
+              "Cắt trục tung tại điểm âm",
+              "Có chứa biến $x$",
+              "Hệ số $a = 7 > 0$"
             ],
             "correct": 3,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
+            "question": "Nghiệm của phương trình $7x - 21 = 0$ là:",
             "options": [
+              "$3$",
+              "$0$",
               "$2$",
-              "$\\sqrt{2}$",
-              "$\\frac{1}{2}$",
-              "$4$"
+              "$-3$"
             ],
             "correct": 0,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
+            "explanation": "$x = \\frac{21}{7} = 3$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
+            "question": "Hai đường thẳng $y = 7x + 1$ và $y = 7x - 4$:",
             "options": [
-              "Hai tam giác vuông",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau",
-              "Hai tam giác đều",
-              "Hai tam giác cân"
+              "Trùng nhau",
+              "Vuông góc với nhau",
+              "Song song với nhau",
+              "Cắt nhau"
             ],
             "correct": 2,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 5$?",
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
-              "$(1; 5)$",
-              "$(0; 5)$",
-              "$(1; 0)$",
-              "$(0; -5)$"
+              "$\\frac{1}{2}$",
+              "$4$",
+              "$\\sqrt{2}$",
+              "$2$"
             ],
             "correct": 3,
-            "explanation": "Thay $x = 0 \\implies y = -5$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 7} + \\frac{7}{x + 7}$ là:",
             "options": [
-              "$(2; 0)$",
-              "$(0; 4)$",
-              "$(0; -4)$",
-              "$(-2; 0)$"
+              "$1$",
+              "$\\frac{1}{2}$",
+              "$x$",
+              "$7$"
             ],
             "correct": 0,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -29525,15 +29525,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $17\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$24\\,\\text{{km}}$",
-              "$34\\,\\text{km}$",
-              "$17\\,\\text{km}$",
-              "$11\\,\\text{km}$"
+              "$(0; 4)$",
+              "$(2; 0)$",
+              "$(0; -4)$",
+              "$(-2; 0)$"
             ],
             "correct": 1,
-            "explanation": "$s = v \\cdot t = (17) \\cdot 2 = 34\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -29541,45 +29541,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (6)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (6)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (6)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 7} - \\frac{7}{x + 7}\\right) : \\frac{x^2 + 49}{x^2 - 49}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 7} - \\frac{7}{x + 7}\\right) : \\frac{x^2 + 49}{x^2 - 49}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 7} - \\frac{7}{x + 7}\\right) : \\frac{x^2 + 49}{x^2 - 49}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $6$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $6$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (7)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (7)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 49}{x^2 - 49}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 49}{x^2 - 49}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 7$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 7$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -29669,9 +29669,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 7) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 5$",
-            "rubric": "a) $2x - 14 + 3 = x + 5 \\implies x = 16$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 30 \\implies x - 5 = 30 \\implies x = 35$. (0.5đ)",
-            "modelSolution": "a) $2x - 14 + 3 = x + 5 \\implies x = 16$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 30 \\implies x - 5 = 30 \\implies x = 35$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 7} - \\frac1{x + 7}\\right) \\cdot \\frac{x^2 - 49}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (7)$. (0.5đ)\nb) $A = \\frac{(x + 7) - (x - 7)}{x^2 - 49} \\cdot \\frac{x^2 - 49}2 = \\frac{14}2 = 7$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (7)$. (0.5đ)\nb) $A = \\frac{(x + 7) - (x - 7)}{x^2 - 49} \\cdot \\frac{x^2 - 49}2 = \\frac{14}2 = 7$. (0.5đ)"
           },
           {
             "id": 2,
@@ -29703,7 +29703,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 06)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -29720,46 +29720,74 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 9}$ là:",
             "options": [
-              "$y = x^2 + 1$",
-              "$y = 0x + 3$",
-              "$y = \\frac{2}{x}$",
-              "$y = (8)x - 5$"
+              "$x = 9$",
+              "$x > 9$",
+              "$x \\ne 0$",
+              "$x \\ne 9$"
             ],
             "correct": 3,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (9) \\ne 0 \\implies x \\ne 9$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -9x + 7$ là:",
+            "question": "Rút gọn phân thức $\\frac{8(x - 1)}{16(x - 1)}$ (với $x \\ne 1$) ta được:",
             "options": [
-              "$-9$",
-              "$-7$",
-              "$7$",
-              "$9$"
+              "$\\frac{1}{2}$",
+              "$\\frac{8}{2}$",
+              "$1$",
+              "$2$"
             ],
             "correct": 0,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+            "explanation": "Chia cả tử và mẫu cho $(8)(x - 1)$ được $\\frac12$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số bậc nhất $y = (8)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
             "options": [
-              "Có chứa biến $x$",
-              "Hệ số $a = 8 > 0$",
-              "Cắt trục tung tại điểm âm",
-              "Hệ số $b = -3 < 0$"
+              "$y = \\frac{2}{x}$",
+              "$y = (8)x - 5$",
+              "$y = 0x + 3$",
+              "$y = x^2 + 1$"
             ],
             "correct": 1,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
           },
           {
             "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hệ số góc của đường thẳng $y = -9x + 7$ là:",
+            "options": [
+              "$7$",
+              "$9$",
+              "$-9$",
+              "$-7$"
+            ],
+            "correct": 2,
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hàm số bậc nhất $y = (8)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "options": [
+              "Hệ số $a = 8 > 0$",
+              "Hệ số $b = -3 < 0$",
+              "Cắt trục tung tại điểm âm",
+              "Có chứa biến $x$"
+            ],
+            "correct": 0,
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+          },
+          {
+            "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Nghiệm của phương trình $8x - 24 = 0$ là:",
@@ -29773,74 +29801,46 @@ window.PERIODIC_EXAM_BANK = {
             "explanation": "$x = \\frac{24}{8} = 3$."
           },
           {
-            "id": 5,
+            "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Hai đường thẳng $y = 8x + 1$ và $y = 8x - 4$:",
             "options": [
+              "Trùng nhau",
               "Song song với nhau",
-              "Cắt nhau",
               "Vuông góc với nhau",
-              "Trùng nhau"
-            ],
-            "correct": 0,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
-            "options": [
-              "$\\frac{1}{2}$",
-              "$4$",
-              "$2$",
-              "$\\sqrt{2}$"
-            ],
-            "correct": 2,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
-            "options": [
-              "Hai tam giác vuông",
-              "Hai tam giác đều",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau",
-              "Hai tam giác cân"
+              "Cắt nhau"
             ],
             "correct": 1,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 6$?",
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
-              "$(1; 6)$",
-              "$(1; 0)$",
-              "$(0; -6)$",
-              "$(0; 6)$"
+              "$\\frac{1}{2}$",
+              "$\\sqrt{2}$",
+              "$2$",
+              "$4$"
             ],
             "correct": 2,
-            "explanation": "Thay $x = 0 \\implies y = -6$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 8} + \\frac{8}{x + 8}$ là:",
             "options": [
-              "$(0; -4)$",
-              "$(-2; 0)$",
-              "$(0; 4)$",
-              "$(2; 0)$"
+              "$x$",
+              "$8$",
+              "$\\frac{1}{2}$",
+              "$1$"
             ],
             "correct": 3,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -29874,15 +29874,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $18\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$18\\,\\text{km}$",
-              "$36\\,\\text{km}$",
-              "$24\\,\\text{{km}}$",
-              "$12\\,\\text{km}$"
+              "$(0; -4)$",
+              "$(2; 0)$",
+              "$(0; 4)$",
+              "$(-2; 0)$"
             ],
             "correct": 1,
-            "explanation": "$s = v \\cdot t = (18) \\cdot 2 = 36\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -29890,45 +29890,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (7)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (7)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (7)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 8} - \\frac{8}{x + 8}\\right) : \\frac{x^2 + 64}{x^2 - 64}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 8} - \\frac{8}{x + 8}\\right) : \\frac{x^2 + 64}{x^2 - 64}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 8} - \\frac{8}{x + 8}\\right) : \\frac{x^2 + 64}{x^2 - 64}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $7$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $7$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (8)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (8)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 64}{x^2 - 64}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 64}{x^2 - 64}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 8$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 8$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -30018,9 +30018,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 8) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 6$",
-            "rubric": "a) $2x - 16 + 3 = x + 5 \\implies x = 18$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 36 \\implies x - 5 = 36 \\implies x = 41$. (0.5đ)",
-            "modelSolution": "a) $2x - 16 + 3 = x + 5 \\implies x = 18$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 36 \\implies x - 5 = 36 \\implies x = 41$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 8} - \\frac1{x + 8}\\right) \\cdot \\frac{x^2 - 64}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (8)$. (0.5đ)\nb) $A = \\frac{(x + 8) - (x - 8)}{x^2 - 64} \\cdot \\frac{x^2 - 64}2 = \\frac{16}2 = 8$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (8)$. (0.5đ)\nb) $A = \\frac{(x + 8) - (x - 8)}{x^2 - 64} \\cdot \\frac{x^2 - 64}2 = \\frac{16}2 = 8$. (0.5đ)"
           },
           {
             "id": 2,
@@ -30052,7 +30052,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 07)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -30069,127 +30069,127 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 10}$ là:",
             "options": [
-              "$y = \\frac{2}{x}$",
-              "$y = x^2 + 1$",
-              "$y = 0x + 3$",
-              "$y = (9)x - 5$"
+              "$x \\ne 0$",
+              "$x = 10$",
+              "$x > 10$",
+              "$x \\ne 10$"
             ],
             "correct": 3,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (10) \\ne 0 \\implies x \\ne 10$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -10x + 7$ là:",
+            "question": "Rút gọn phân thức $\\frac{9(x - 1)}{18(x - 1)}$ (với $x \\ne 1$) ta được:",
             "options": [
-              "$10$",
-              "$7$",
-              "$-10$",
-              "$-7$"
+              "$2$",
+              "$1$",
+              "$\\frac{1}{2}$",
+              "$\\frac{9}{2}$"
             ],
             "correct": 2,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+            "explanation": "Chia cả tử và mẫu cho $(9)(x - 1)$ được $\\frac12$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số bậc nhất $y = (9)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
             "options": [
-              "Hệ số $b = -3 < 0$",
-              "Hệ số $a = 9 > 0$",
-              "Có chứa biến $x$",
-              "Cắt trục tung tại điểm âm"
+              "$y = x^2 + 1$",
+              "$y = (9)x - 5$",
+              "$y = \\frac{2}{x}$",
+              "$y = 0x + 3$"
             ],
             "correct": 1,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nghiệm của phương trình $9x - 27 = 0$ là:",
+            "question": "Hệ số góc của đường thẳng $y = -10x + 7$ là:",
             "options": [
-              "$0$",
-              "$2$",
-              "$-3$",
-              "$3$"
+              "$-7$",
+              "$7$",
+              "$10$",
+              "$-10$"
             ],
             "correct": 3,
-            "explanation": "$x = \\frac{27}{9} = 3$."
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai đường thẳng $y = 9x + 1$ và $y = 9x - 4$:",
+            "question": "Hàm số bậc nhất $y = (9)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
             "options": [
-              "Vuông góc với nhau",
-              "Cắt nhau",
-              "Song song với nhau",
-              "Trùng nhau"
+              "Cắt trục tung tại điểm âm",
+              "Hệ số $b = -3 < 0$",
+              "Hệ số $a = 9 > 0$",
+              "Có chứa biến $x$"
             ],
             "correct": 2,
-            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
+            "question": "Nghiệm của phương trình $9x - 27 = 0$ là:",
             "options": [
-              "$\\sqrt{2}$",
-              "$4$",
-              "$2$",
-              "$\\frac{1}{2}$"
+              "$0$",
+              "$-3$",
+              "$3$",
+              "$2$"
             ],
             "correct": 2,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
+            "explanation": "$x = \\frac{27}{9} = 3$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
+            "question": "Hai đường thẳng $y = 9x + 1$ và $y = 9x - 4$:",
             "options": [
-              "Hai tam giác đều",
-              "Hai tam giác vuông",
-              "Hai tam giác cân",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau"
+              "Song song với nhau",
+              "Trùng nhau",
+              "Cắt nhau",
+              "Vuông góc với nhau"
             ],
             "correct": 0,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
+            "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 7$?",
+            "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
-              "$(0; -7)$",
-              "$(0; 7)$",
-              "$(1; 0)$",
-              "$(1; 7)$"
+              "$2$",
+              "$4$",
+              "$\\sqrt{2}$",
+              "$\\frac{1}{2}$"
             ],
             "correct": 0,
-            "explanation": "Thay $x = 0 \\implies y = -7$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 9} + \\frac{9}{x + 9}$ là:",
             "options": [
-              "$(-2; 0)$",
-              "$(0; -4)$",
-              "$(0; 4)$",
-              "$(2; 0)$"
+              "$9$",
+              "$x$",
+              "$\\frac{1}{2}$",
+              "$1$"
             ],
             "correct": 3,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -30223,15 +30223,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $19\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$38\\,\\text{km}$",
-              "$24\\,\\text{{km}}$",
-              "$13\\,\\text{km}$",
-              "$19\\,\\text{km}$"
+              "$(2; 0)$",
+              "$(0; 4)$",
+              "$(-2; 0)$",
+              "$(0; -4)$"
             ],
             "correct": 0,
-            "explanation": "$s = v \\cdot t = (19) \\cdot 2 = 38\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -30239,45 +30239,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (8)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (8)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (8)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 9} - \\frac{9}{x + 9}\\right) : \\frac{x^2 + 81}{x^2 - 81}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 9} - \\frac{9}{x + 9}\\right) : \\frac{x^2 + 81}{x^2 - 81}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 9} - \\frac{9}{x + 9}\\right) : \\frac{x^2 + 81}{x^2 - 81}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $8$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $8$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (9)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (9)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 81}{x^2 - 81}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 81}{x^2 - 81}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 9$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 9$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -30367,9 +30367,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 9) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 7$",
-            "rubric": "a) $2x - 18 + 3 = x + 5 \\implies x = 20$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 42 \\implies x - 5 = 42 \\implies x = 47$. (0.5đ)",
-            "modelSolution": "a) $2x - 18 + 3 = x + 5 \\implies x = 20$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 42 \\implies x - 5 = 42 \\implies x = 47$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 9} - \\frac1{x + 9}\\right) \\cdot \\frac{x^2 - 81}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (9)$. (0.5đ)\nb) $A = \\frac{(x + 9) - (x - 9)}{x^2 - 81} \\cdot \\frac{x^2 - 81}2 = \\frac{18}2 = 9$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (9)$. (0.5đ)\nb) $A = \\frac{(x + 9) - (x - 9)}{x^2 - 81} \\cdot \\frac{x^2 - 81}2 = \\frac{18}2 = 9$. (0.5đ)"
           },
           {
             "id": 2,
@@ -30401,7 +30401,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_mid2_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 08)",
-        "topic": "Hàm số bậc nhất, Phương trình bậc nhất & Tam giác đồng dạng",
+        "topic": "Phân thức đại số, Phương trình & Tam giác đồng dạng",
         "grade": "8",
         "term": "mid2",
         "termName": "Giữa Học kỳ II",
@@ -30418,127 +30418,127 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
+            "question": "Điều kiện xác định của phân thức $\\frac{2x + 1}{x - 11}$ là:",
             "options": [
-              "$y = 0x + 3$",
-              "$y = x^2 + 1$",
-              "$y = \\frac{2}{x}$",
-              "$y = (10)x - 5$"
+              "$x > 11$",
+              "$x = 11$",
+              "$x \\ne 0$",
+              "$x \\ne 11$"
             ],
             "correct": 3,
-            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
+            "explanation": "Mẫu thức phải khác 0: $x - (11) \\ne 0 \\implies x \\ne 11$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hệ số góc của đường thẳng $y = -11x + 7$ là:",
+            "question": "Rút gọn phân thức $\\frac{10(x - 1)}{20(x - 1)}$ (với $x \\ne 1$) ta được:",
             "options": [
-              "$7$",
-              "$11$",
-              "$-11$",
-              "$-7$"
+              "$1$",
+              "$2$",
+              "$\\frac{1}{2}$",
+              "$\\frac{10}{2}$"
             ],
             "correct": 2,
-            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
+            "explanation": "Chia cả tử và mẫu cho $(10)(x - 1)$ được $\\frac12$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hàm số bậc nhất $y = (10)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "question": "Hàm số nào sau đây là hàm số bậc nhất?",
             "options": [
-              "Có chứa biến $x$",
-              "Hệ số $a = 10 > 0$",
-              "Cắt trục tung tại điểm âm",
-              "Hệ số $b = -3 < 0$"
+              "$y = \\frac{2}{x}$",
+              "$y = (10)x - 5$",
+              "$y = 0x + 3$",
+              "$y = x^2 + 1$"
             ],
             "correct": 1,
-            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+            "explanation": "Hàm số bậc nhất có dạng y = ax + b với a khác 0."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nghiệm của phương trình $10x - 30 = 0$ là:",
+            "question": "Hệ số góc của đường thẳng $y = -11x + 7$ là:",
             "options": [
-              "$2$",
-              "$3$",
-              "$-3$",
-              "$0$"
+              "$7$",
+              "$-11$",
+              "$11$",
+              "$-7$"
             ],
             "correct": 1,
-            "explanation": "$x = \\frac{30}{10} = 3$."
+            "explanation": "Đường thẳng y = ax + b có hệ số góc là a."
           },
           {
             "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hàm số bậc nhất $y = (10)x - 3$ là hàm số đồng biến trên $\\mathbb{R}$ vì:",
+            "options": [
+              "Hệ số $a = 10 > 0$",
+              "Có chứa biến $x$",
+              "Hệ số $b = -3 < 0$",
+              "Cắt trục tung tại điểm âm"
+            ],
+            "correct": 0,
+            "explanation": "Hàm số bậc nhất y = ax + b đồng biến khi a > 0."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Nghiệm của phương trình $10x - 30 = 0$ là:",
+            "options": [
+              "$0$",
+              "$2$",
+              "$3$",
+              "$-3$"
+            ],
+            "correct": 2,
+            "explanation": "$x = \\frac{30}{10} = 3$."
+          },
+          {
+            "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Hai đường thẳng $y = 10x + 1$ và $y = 10x - 4$:",
             "options": [
               "Song song với nhau",
               "Trùng nhau",
-              "Cắt nhau",
-              "Vuông góc với nhau"
+              "Vuông góc với nhau",
+              "Cắt nhau"
             ],
             "correct": 0,
             "explanation": "Hai đường thẳng có cùng hệ số góc a và b khác nhau thì song song."
           },
           {
-            "id": 6,
+            "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Nếu $\\triangle ABC \\backsim \\triangle A'B'C'$ theo tỉ số $k_0 = 2$ thì tỉ số chu vi của hai tam giác đó bằng:",
             "options": [
               "$\\sqrt{2}$",
+              "$4$",
               "$\\frac{1}{2}$",
-              "$2$",
-              "$4$"
-            ],
-            "correct": 2,
-            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai tam giác nào sau đây chắc chắn đồng dạng?",
-            "options": [
-              "Hai tam giác đều",
-              "Hai tam giác vuông",
-              "Hai tam giác vuông cân có cạnh huyền khác nhau",
-              "Hai tam giác cân"
-            ],
-            "correct": 0,
-            "explanation": "Mọi tam giác đều đều có ba góc bằng 60 độ nên luôn đồng dạng."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 8$?",
-            "options": [
-              "$(1; 0)$",
-              "$(0; 8)$",
-              "$(1; 8)$",
-              "$(0; -8)$"
+              "$2$"
             ],
             "correct": 3,
-            "explanation": "Thay $x = 0 \\implies y = -8$."
+            "explanation": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng."
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
+            "question": "Kết quả của phép tính $\\frac{x}{x + 10} + \\frac{10}{x + 10}$ là:",
             "options": [
-              "$(-2; 0)$",
-              "$(0; 4)$",
-              "$(0; -4)$",
-              "$(2; 0)$"
+              "$10$",
+              "$\\frac{1}{2}$",
+              "$x$",
+              "$1$"
             ],
             "correct": 3,
-            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
+            "explanation": "Cộng hai phân thức cùng mẫu số: giữ nguyên mẫu, cộng tử."
           },
           {
             "id": 10,
@@ -30572,15 +30572,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Một người đi xe đạp từ A đến B với vận tốc $20\\,\\text{km/h}$ hết 2 giờ. Quãng đường AB dài bao nhiêu km?",
+            "question": "Tìm tọa độ giao điểm của đường thẳng $y = 2x - 4$ với trục hoành $Ox$:",
             "options": [
-              "$40\\,\\text{km}$",
-              "$24\\,\\text{{km}}$",
-              "$20\\,\\text{km}$",
-              "$14\\,\\text{km}$"
+              "$(2; 0)$",
+              "$(0; 4)$",
+              "$(0; -4)$",
+              "$(-2; 0)$"
             ],
             "correct": 0,
-            "explanation": "$s = v \\cdot t = (20) \\cdot 2 = 40\\,\\text{km}$."
+            "explanation": "Giao với trục hoành cho y = 0: 2x - 4 = 0 => x = 2."
           }
         ],
         "part2": [
@@ -30588,45 +30588,45 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "intro": "Cho hai đường thẳng $(d_1): y = (9)x + 2$ và $(d_2): y = 2x - 1$.",
-            "stem": "Cho hai đường thẳng $(d_1): y = (9)x + 2$ và $(d_2): y = 2x - 1$.",
-            "question": "Cho hai đường thẳng $(d_1): y = (9)x + 2$ và $(d_2): y = 2x - 1$.",
+            "intro": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 10} - \\frac{10}{x + 10}\\right) : \\frac{x^2 + 100}{x^2 - 100}$.",
+            "stem": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 10} - \\frac{10}{x + 10}\\right) : \\frac{x^2 + 100}{x^2 - 100}$.",
+            "question": "Cho biểu thức phân thức $P = \\left(\\frac{x}{x - 10} - \\frac{10}{x + 10}\\right) : \\frac{x^2 + 100}{x^2 - 100}$.",
             "statements": [
               {
                 "key": "a",
                 "id": "a",
-                "text": "Hệ số góc của đường thẳng $(d_1)$ là $9$.",
-                "statement": "Hệ số góc của đường thẳng $(d_1)$ là $9$.",
+                "text": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (10)$.",
+                "statement": "Điều kiện xác định của biểu thức $P$ là $x \\ne \\pm (10)$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Hệ số gắn với x."
+                "explanation": "Mẫu thức phải khác 0."
               },
               {
                 "key": "b",
                 "id": "b",
-                "text": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
-                "statement": "Nếu $k = 1$ thì hai đường thẳng $(d_1)$ và $(d_2)$ song song với nhau.",
+                "text": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 100}{x^2 - 100}$.",
+                "statement": "Quy đồng mẫu trong ngoặc ta được $\\frac{x^2 + 100}{x^2 - 100}$.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Vì cùng có hệ số góc a = 2 và b khác nhau (2 != -1)."
+                "explanation": "Tính toán đúng tử và mẫu."
               },
               {
                 "key": "c",
                 "id": "c",
-                "text": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
-                "statement": "Đường thẳng $(d_2)$ luôn đi qua điểm $A(1; 1)$.",
+                "text": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
+                "statement": "Giá trị của biểu thức $P$ sau khi rút gọn luôn bằng $1$ với mọi $x$ thỏa mãn ĐKXĐ.",
                 "correct": true,
                 "isCorrect": true,
-                "explanation": "Thay x = 1 ta được y = 2(1) - 1 = 1."
+                "explanation": "Hai biểu thức giống nhau chia nhau bằng 1."
               },
               {
                 "key": "d",
                 "id": "d",
-                "text": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
-                "statement": "Hai đường thẳng $(d_1)$ và $(d_2)$ luôn cắt nhau với mọi giá trị của $k$.",
+                "text": "Tại $x = 10$, giá trị của biểu thức $P$ bằng $1$.",
+                "statement": "Tại $x = 10$, giá trị của biểu thức $P$ bằng $1$.",
                 "correct": false,
                 "isCorrect": false,
-                "explanation": "Khi k = 1 thì chúng song song."
+                "explanation": "Tại giá trị này biểu thức không xác định."
               }
             ]
           },
@@ -30716,9 +30716,9 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Giải các phương trình sau:\n a) $2(x - 10) + 3 = x + 5$\n b) $\\frac{x - 1}2 - \\frac{x + 1}3 = 8$",
-            "rubric": "a) $2x - 20 + 3 = x + 5 \\implies x = 22$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 48 \\implies x - 5 = 48 \\implies x = 53$. (0.5đ)",
-            "modelSolution": "a) $2x - 20 + 3 = x + 5 \\implies x = 22$. (0.5đ)\nb) $3(x - 1) - 2(x + 1) = 48 \\implies x - 5 = 48 \\implies x = 53$. (0.5đ)"
+            "question": "Cho biểu thức: $A = \\left(\\frac1{x - 10} - \\frac1{x + 10}\\right) \\cdot \\frac{x^2 - 100}{2}$\n a) Tìm điều kiện xác định của biểu thức $A$.\n b) Rút gọn biểu thức $A$.",
+            "rubric": "a) ĐKXĐ: $x \\ne \\pm (10)$. (0.5đ)\nb) $A = \\frac{(x + 10) - (x - 10)}{x^2 - 100} \\cdot \\frac{x^2 - 100}2 = \\frac{20}2 = 10$. (0.5đ)",
+            "modelSolution": "a) ĐKXĐ: $x \\ne \\pm (10)$. (0.5đ)\nb) $A = \\frac{(x + 10) - (x - 10)}{x^2 - 100} \\cdot \\frac{x^2 - 100}2 = \\frac{20}2 = 10$. (0.5đ)"
           },
           {
             "id": 2,
@@ -30752,7 +30752,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 01)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -31101,7 +31101,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 02)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -31450,7 +31450,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 03)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -31799,7 +31799,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 04)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -32148,7 +32148,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 05)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -32497,7 +32497,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 06)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -32846,7 +32846,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 07)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -33195,7 +33195,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g8_final2_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ II - TOÁN 8 (ĐỀ SỐ 08)",
-        "topic": "Hình chóp đều, Xác suất thực nghiệm & Tổng hợp Toán 8",
+        "topic": "Hình chóp đều, Tam giác vuông đồng dạng & Thống kê",
         "grade": "8",
         "term": "final2",
         "termName": "Cuối Học kỳ II",
@@ -36342,7 +36342,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_01",
         "testNum": 1,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 01)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -36359,10 +36359,66 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
+            "question": "Điều kiện để biểu thức $\\sqrt{3 - x}$ có nghĩa là:",
+            "options": [
+              "$x \\ge 3$",
+              "$x < 3$",
+              "$x > 3$",
+              "$x \\le 3$"
+            ],
+            "correct": 3,
+            "explanation": "Biểu thức dưới dấu căn không âm: $3 - x \\ge 0 \\iff x \\le 3$."
+          },
+          {
+            "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Giá trị của biểu thức $\\sqrt{(-6)^2}$ là:",
+            "options": [
+              "$36$",
+              "$6$",
+              "$-6$",
+              "$\\pm 6$"
+            ],
+            "correct": 1,
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 6$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hệ phương trình $\\begin{cases} x + y = 5 \\\\ 2x - y = 7 \\end{cases}$ có nghiệm là:",
+            "options": [
+              "$(5; 0)$",
+              "$(1; 4)$",
+              "$(2; 2)$",
+              "$(4; 1)$"
+            ],
+            "correct": 3,
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
+            "options": [
+              "Tỉ số giữa cạnh kề và cạnh huyền",
+              "Tỉ số giữa cạnh đối và cạnh kề",
+              "Tỉ số giữa cạnh đối và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh đối"
+            ],
+            "correct": 0,
+            "explanation": "Định nghĩa cos = kề / huyền."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
             "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
             "options": [
-              "Đỉnh góc vuông",
               "Trọng tâm tam giác",
+              "Đỉnh góc vuông",
               "Giao điểm ba đường cao",
               "Trung điểm của cạnh huyền"
             ],
@@ -36370,102 +36426,46 @@ window.PERIODIC_EXAM_BANK = {
             "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
           },
           {
-            "id": 2,
+            "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Cho đường tròn $(O; 6\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
             "options": [
+              "$6\\,\\text{cm}$",
               "$10\\,\\text{{cm}}$",
               "$12\\,\\text{cm}$",
-              "$6\\,\\text{cm}$",
               "$3.0\\,\\text{cm}$"
             ],
-            "correct": 1,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
-            "options": [
-              "3 điểm chung",
-              "1 điểm chung",
-              "Vô số điểm chung",
-              "2 điểm chung"
-            ],
-            "correct": 3,
-            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 4\\,\\text{cm}$ và bán kính $R = 6\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
-            "options": [
-              "Cắt nhau tại 2 điểm",
-              "Không giao nhau",
-              "Tiếp xúc nhau",
-              "Trùng nhau"
-            ],
-            "correct": 0,
-            "explanation": "Vì $OH = 4 < R = 6$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
-            "options": [
-              "Là tâm đường tròn",
-              "Nằm trên đường kính",
-              "Trùng với tiếp điểm",
-              "Cách đều hai tiếp điểm"
-            ],
-            "correct": 3,
-            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
-            "options": [
-              "$180^\\circ$",
-              "$45^\\circ$",
-              "$90^\\circ$",
-              "$60^\\circ$"
-            ],
             "correct": 2,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(6)\\,\\text{cm}$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tần số của một giá trị là:",
+            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu",
-              "Giá trị lớn nhất trong mẫu",
-              "Tỉ lệ phần trăm của giá trị đó",
-              "Tổng của tất cả các giá trị"
+              "2 điểm chung",
+              "Vô số điểm chung",
+              "1 điểm chung",
+              "3 điểm chung"
             ],
             "correct": 0,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
+            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 60$. Nếu giá trị $x_1$ có tần số là $12$ thì tần số tương đối của nó là:",
+            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "$20\\%$",
-              "$10\\%$",
-              "$25\\%$",
-              "$15\\%$"
+              "Cách đều hai tiếp điểm",
+              "Trùng với tiếp điểm",
+              "Nằm trên đường kính",
+              "Là tâm đường tròn"
             ],
             "correct": 0,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
+            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
           },
           {
             "id": 9,
@@ -36513,21 +36513,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 10\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "60 học sinh",
-              "70 học sinh",
-              "50 học sinh",
-              "80 học sinh"
+              "$14\\,\\text{cm}$",
+              "$6.32\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$6\\,\\text{{cm}}$"
             ],
             "correct": 1,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(10) \\implies AH = \\sqrt{4(10)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 2} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 2} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 2} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 2$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 2$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 2$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 2$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 18$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 18$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -36570,52 +36616,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -36623,31 +36623,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{36} - \\sqrt16$.",
+            "answer": "2",
+            "explanation": "$M = (6) - 4 = 2$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $10$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "22.2",
-            "explanation": "Tỉ lệ: $(10) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $7\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 7\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "2.33",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{7}3 \\sqrt3$."
           }
@@ -36657,33 +36657,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{12} - \\sqrt{27} + \\sqrt{75}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{3} - 3\\sqrt{3} + 5\\sqrt{3} = 4\\sqrt{3}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{3} - 3\\sqrt{3} + 5\\sqrt{3} = 4\\sqrt{3}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $110\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 55$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 55$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 3$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -36691,7 +36691,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_02",
         "testNum": 2,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 02)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -36708,113 +36708,113 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{4 - x}$ có nghĩa là:",
             "options": [
-              "Giao điểm ba đường cao",
-              "Trung điểm của cạnh huyền",
-              "Trọng tâm tam giác",
-              "Đỉnh góc vuông"
+              "$x > 4$",
+              "$x \\le 4$",
+              "$x < 4$",
+              "$x \\ge 4$"
             ],
             "correct": 1,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $4 - x \\ge 0 \\iff x \\le 4$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Cho đường tròn $(O; 7\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "question": "Giá trị của biểu thức $\\sqrt{(-7)^2}$ là:",
             "options": [
-              "$3.5\\,\\text{cm}$",
-              "$7\\,\\text{cm}$",
-              "$14\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$"
+              "$\\pm 7$",
+              "$-7$",
+              "$7$",
+              "$49$"
             ],
             "correct": 2,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 7$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
+            "question": "Hệ phương trình $\\begin{cases} x + y = 6 \\\\ 2x - y = 9 \\end{cases}$ có nghiệm là:",
             "options": [
-              "1 điểm chung",
-              "Vô số điểm chung",
-              "3 điểm chung",
-              "2 điểm chung"
+              "$(1; 5)$",
+              "$(2; 2)$",
+              "$(6; 0)$",
+              "$(5; 1)$"
             ],
             "correct": 3,
-            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 5\\,\\text{cm}$ và bán kính $R = 7\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
             "options": [
-              "Tiếp xúc nhau",
-              "Không giao nhau",
-              "Trùng nhau",
-              "Cắt nhau tại 2 điểm"
+              "Tỉ số giữa cạnh đối và cạnh huyền",
+              "Tỉ số giữa cạnh đối và cạnh kề",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh kề và cạnh huyền"
             ],
             "correct": 3,
-            "explanation": "Vì $OH = 5 < R = 7$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
+            "explanation": "Định nghĩa cos = kề / huyền."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
             "options": [
-              "Cách đều hai tiếp điểm",
-              "Trùng với tiếp điểm",
-              "Nằm trên đường kính",
-              "Là tâm đường tròn"
+              "Trung điểm của cạnh huyền",
+              "Giao điểm ba đường cao",
+              "Đỉnh góc vuông",
+              "Trọng tâm tam giác"
             ],
             "correct": 0,
-            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
+            "question": "Cho đường tròn $(O; 7\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
             "options": [
-              "$180^\\circ$",
-              "$45^\\circ$",
-              "$90^\\circ$",
-              "$60^\\circ$"
+              "$7\\,\\text{cm}$",
+              "$10\\,\\text{{cm}}$",
+              "$14\\,\\text{cm}$",
+              "$3.5\\,\\text{cm}$"
             ],
             "correct": 2,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(7)\\,\\text{cm}$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tần số của một giá trị là:",
+            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
-              "Giá trị lớn nhất trong mẫu",
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu",
-              "Tổng của tất cả các giá trị",
-              "Tỉ lệ phần trăm của giá trị đó"
+              "Vô số điểm chung",
+              "2 điểm chung",
+              "3 điểm chung",
+              "1 điểm chung"
             ],
             "correct": 1,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
+            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 70$. Nếu giá trị $x_1$ có tần số là $14$ thì tần số tương đối của nó là:",
+            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "$20\\%$",
-              "$15\\%$",
-              "$25\\%$",
-              "$10\\%$"
+              "Cách đều hai tiếp điểm",
+              "Là tâm đường tròn",
+              "Nằm trên đường kính",
+              "Trùng với tiếp điểm"
             ],
             "correct": 0,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
+            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
           },
           {
             "id": 9,
@@ -36862,21 +36862,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 11\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "60 học sinh",
-              "80 học sinh",
-              "70 học sinh",
-              "50 học sinh"
+              "$15\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$6.63\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$"
             ],
             "correct": 2,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(11) \\implies AH = \\sqrt{4(11)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 3} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 3} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 3} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 3$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 3$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 3$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 3$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 19$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 19$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -36919,52 +36965,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -36972,31 +36972,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{49} - \\sqrt16$.",
+            "answer": "3",
+            "explanation": "$M = (7) - 4 = 3$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $11$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "24.4",
-            "explanation": "Tỉ lệ: $(11) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $8\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 8\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "2.67",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{8}3 \\sqrt3$."
           }
@@ -37006,33 +37006,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{16} - \\sqrt{36} + \\sqrt{100}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{4} - 3\\sqrt{4} + 5\\sqrt{4} = 4\\sqrt{4}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{4} - 3\\sqrt{4} + 5\\sqrt{4} = 4\\sqrt{4}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $120\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 60$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 60$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 4$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -37040,7 +37040,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_03",
         "testNum": 3,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 03)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -37057,113 +37057,113 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{5 - x}$ có nghĩa là:",
             "options": [
-              "Giao điểm ba đường cao",
-              "Trung điểm của cạnh huyền",
-              "Đỉnh góc vuông",
-              "Trọng tâm tam giác"
+              "$x > 5$",
+              "$x \\le 5$",
+              "$x \\ge 5$",
+              "$x < 5$"
             ],
             "correct": 1,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $5 - x \\ge 0 \\iff x \\le 5$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Cho đường tròn $(O; 8\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "question": "Giá trị của biểu thức $\\sqrt{(-8)^2}$ là:",
             "options": [
-              "$16\\,\\text{cm}$",
-              "$8\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$",
-              "$4.0\\,\\text{cm}$"
+              "$8$",
+              "$-8$",
+              "$64$",
+              "$\\pm 8$"
             ],
             "correct": 0,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 8$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
+            "question": "Hệ phương trình $\\begin{cases} x + y = 7 \\\\ 2x - y = 11 \\end{cases}$ có nghiệm là:",
             "options": [
-              "2 điểm chung",
-              "3 điểm chung",
-              "Vô số điểm chung",
-              "1 điểm chung"
+              "$(6; 1)$",
+              "$(7; 0)$",
+              "$(2; 2)$",
+              "$(1; 6)$"
             ],
             "correct": 0,
-            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 6\\,\\text{cm}$ và bán kính $R = 8\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
             "options": [
-              "Không giao nhau",
-              "Trùng nhau",
-              "Tiếp xúc nhau",
-              "Cắt nhau tại 2 điểm"
+              "Tỉ số giữa cạnh đối và cạnh kề",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh đối và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh huyền"
             ],
             "correct": 3,
-            "explanation": "Vì $OH = 6 < R = 8$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
+            "explanation": "Định nghĩa cos = kề / huyền."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
             "options": [
-              "Trùng với tiếp điểm",
-              "Là tâm đường tròn",
-              "Nằm trên đường kính",
-              "Cách đều hai tiếp điểm"
+              "Giao điểm ba đường cao",
+              "Trọng tâm tam giác",
+              "Đỉnh góc vuông",
+              "Trung điểm của cạnh huyền"
             ],
             "correct": 3,
-            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
+            "question": "Cho đường tròn $(O; 8\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
             "options": [
-              "$45^\\circ$",
-              "$90^\\circ$",
-              "$60^\\circ$",
-              "$180^\\circ$"
+              "$10\\,\\text{{cm}}$",
+              "$16\\,\\text{cm}$",
+              "$4.0\\,\\text{cm}$",
+              "$8\\,\\text{cm}$"
             ],
             "correct": 1,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(8)\\,\\text{cm}$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tần số của một giá trị là:",
+            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
-              "Giá trị lớn nhất trong mẫu",
-              "Tổng của tất cả các giá trị",
-              "Tỉ lệ phần trăm của giá trị đó",
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu"
+              "Vô số điểm chung",
+              "3 điểm chung",
+              "1 điểm chung",
+              "2 điểm chung"
             ],
             "correct": 3,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
+            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 80$. Nếu giá trị $x_1$ có tần số là $16$ thì tần số tương đối của nó là:",
+            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "$25\\%$",
-              "$10\\%$",
-              "$20\\%$",
-              "$15\\%$"
+              "Nằm trên đường kính",
+              "Trùng với tiếp điểm",
+              "Cách đều hai tiếp điểm",
+              "Là tâm đường tròn"
             ],
             "correct": 2,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
+            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
           },
           {
             "id": 9,
@@ -37211,21 +37211,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 12\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "50 học sinh",
-              "70 học sinh",
-              "60 học sinh",
-              "80 học sinh"
+              "$12\\,\\text{{cm}}$",
+              "$6.93\\,\\text{cm}$",
+              "$16\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$"
             ],
             "correct": 1,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(12) \\implies AH = \\sqrt{4(12)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 4} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 4} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 4} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 4$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 4$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 4$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 4$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 20$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 20$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -37268,52 +37314,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -37321,31 +37321,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{64} - \\sqrt16$.",
+            "answer": "4",
+            "explanation": "$M = (8) - 4 = 4$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $12$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "26.7",
-            "explanation": "Tỉ lệ: $(12) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $9\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 9\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "3.0",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{9}3 \\sqrt3$."
           }
@@ -37355,33 +37355,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{20} - \\sqrt{45} + \\sqrt{125}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{5} - 3\\sqrt{5} + 5\\sqrt{5} = 4\\sqrt{5}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{5} - 3\\sqrt{5} + 5\\sqrt{5} = 4\\sqrt{5}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $130\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 65$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 65$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 5$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -37389,7 +37389,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_04",
         "testNum": 4,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 04)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -37406,113 +37406,113 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{6 - x}$ có nghĩa là:",
             "options": [
-              "Đỉnh góc vuông",
-              "Trung điểm của cạnh huyền",
-              "Giao điểm ba đường cao",
-              "Trọng tâm tam giác"
+              "$x \\ge 6$",
+              "$x \\le 6$",
+              "$x > 6$",
+              "$x < 6$"
             ],
             "correct": 1,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $6 - x \\ge 0 \\iff x \\le 6$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Cho đường tròn $(O; 9\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "question": "Giá trị của biểu thức $\\sqrt{(-9)^2}$ là:",
             "options": [
-              "$18\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$",
-              "$9\\,\\text{cm}$",
-              "$4.5\\,\\text{cm}$"
+              "$9$",
+              "$81$",
+              "$-9$",
+              "$\\pm 9$"
             ],
             "correct": 0,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 9$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
+            "question": "Hệ phương trình $\\begin{cases} x + y = 8 \\\\ 2x - y = 13 \\end{cases}$ có nghiệm là:",
+            "options": [
+              "$(1; 7)$",
+              "$(2; 2)$",
+              "$(8; 0)$",
+              "$(7; 1)$"
+            ],
+            "correct": 3,
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
+            "options": [
+              "Tỉ số giữa cạnh đối và cạnh kề",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh kề và cạnh huyền",
+              "Tỉ số giữa cạnh đối và cạnh huyền"
+            ],
+            "correct": 2,
+            "explanation": "Định nghĩa cos = kề / huyền."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "options": [
+              "Trọng tâm tam giác",
+              "Trung điểm của cạnh huyền",
+              "Đỉnh góc vuông",
+              "Giao điểm ba đường cao"
+            ],
+            "correct": 1,
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho đường tròn $(O; 9\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "options": [
+              "$10\\,\\text{{cm}}$",
+              "$4.5\\,\\text{cm}$",
+              "$18\\,\\text{cm}$",
+              "$9\\,\\text{cm}$"
+            ],
+            "correct": 2,
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(9)\\,\\text{cm}$."
+          },
+          {
+            "id": 7,
+            "level": "Nhận biết",
+            "points": 0.25,
             "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
+              "3 điểm chung",
               "1 điểm chung",
               "Vô số điểm chung",
-              "3 điểm chung",
               "2 điểm chung"
             ],
             "correct": 3,
             "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 7\\,\\text{cm}$ và bán kính $R = 9\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
-            "options": [
-              "Không giao nhau",
-              "Trùng nhau",
-              "Cắt nhau tại 2 điểm",
-              "Tiếp xúc nhau"
-            ],
-            "correct": 2,
-            "explanation": "Vì $OH = 7 < R = 9$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
-          },
-          {
-            "id": 5,
+            "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "Là tâm đường tròn",
-              "Cách đều hai tiếp điểm",
+              "Trùng với tiếp điểm",
               "Nằm trên đường kính",
-              "Trùng với tiếp điểm"
+              "Cách đều hai tiếp điểm",
+              "Là tâm đường tròn"
             ],
-            "correct": 1,
+            "correct": 2,
             "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
-            "options": [
-              "$45^\\circ$",
-              "$60^\\circ$",
-              "$90^\\circ$",
-              "$180^\\circ$"
-            ],
-            "correct": 2,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Tần số của một giá trị là:",
-            "options": [
-              "Tổng của tất cả các giá trị",
-              "Tỉ lệ phần trăm của giá trị đó",
-              "Giá trị lớn nhất trong mẫu",
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu"
-            ],
-            "correct": 3,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 90$. Nếu giá trị $x_1$ có tần số là $18$ thì tần số tương đối của nó là:",
-            "options": [
-              "$10\\%$",
-              "$25\\%$",
-              "$20\\%$",
-              "$15\\%$"
-            ],
-            "correct": 2,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
           },
           {
             "id": 9,
@@ -37560,21 +37560,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 13\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "60 học sinh",
-              "70 học sinh",
-              "80 học sinh",
-              "50 học sinh"
+              "$17\\,\\text{cm}$",
+              "$7.21\\,\\text{cm}$",
+              "$6\\,\\text{{cm}}$",
+              "$12\\,\\text{{cm}}$"
             ],
             "correct": 1,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(13) \\implies AH = \\sqrt{4(13)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 5} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 5} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 5} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 5$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 5$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 5$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 5$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 21$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 21$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -37617,52 +37663,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -37670,31 +37670,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{81} - \\sqrt16$.",
+            "answer": "5",
+            "explanation": "$M = (9) - 4 = 5$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $13$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "28.9",
-            "explanation": "Tỉ lệ: $(13) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $10\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 10\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "3.33",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{10}3 \\sqrt3$."
           }
@@ -37704,33 +37704,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{24} - \\sqrt{54} + \\sqrt{150}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{6} - 3\\sqrt{6} + 5\\sqrt{6} = 4\\sqrt{6}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{6} - 3\\sqrt{6} + 5\\sqrt{6} = 4\\sqrt{6}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $140\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 70$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 70$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 6$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -37738,7 +37738,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_05",
         "testNum": 5,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 05)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -37755,113 +37755,113 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{7 - x}$ có nghĩa là:",
             "options": [
-              "Trọng tâm tam giác",
-              "Giao điểm ba đường cao",
-              "Trung điểm của cạnh huyền",
-              "Đỉnh góc vuông"
+              "$x < 7$",
+              "$x > 7$",
+              "$x \\le 7$",
+              "$x \\ge 7$"
             ],
             "correct": 2,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $7 - x \\ge 0 \\iff x \\le 7$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Cho đường tròn $(O; 10\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "question": "Giá trị của biểu thức $\\sqrt{(-10)^2}$ là:",
             "options": [
-              "$10\\,\\text{cm}$",
-              "$20\\,\\text{cm}$",
-              "$5.0\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$"
+              "$-10$",
+              "$10$",
+              "$\\pm 10$",
+              "$100$"
             ],
             "correct": 1,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 10$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
+            "question": "Hệ phương trình $\\begin{cases} x + y = 9 \\\\ 2x - y = 15 \\end{cases}$ có nghiệm là:",
             "options": [
-              "2 điểm chung",
-              "Vô số điểm chung",
-              "3 điểm chung",
-              "1 điểm chung"
+              "$(8; 1)$",
+              "$(2; 2)$",
+              "$(9; 0)$",
+              "$(1; 8)$"
             ],
             "correct": 0,
-            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 8\\,\\text{cm}$ và bán kính $R = 10\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
             "options": [
-              "Tiếp xúc nhau",
-              "Cắt nhau tại 2 điểm",
-              "Trùng nhau",
-              "Không giao nhau"
+              "Tỉ số giữa cạnh đối và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh đối và cạnh kề"
             ],
             "correct": 1,
-            "explanation": "Vì $OH = 8 < R = 10$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
+            "explanation": "Định nghĩa cos = kề / huyền."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
             "options": [
-              "Là tâm đường tròn",
-              "Trùng với tiếp điểm",
-              "Nằm trên đường kính",
-              "Cách đều hai tiếp điểm"
+              "Trọng tâm tam giác",
+              "Giao điểm ba đường cao",
+              "Đỉnh góc vuông",
+              "Trung điểm của cạnh huyền"
             ],
             "correct": 3,
-            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
+            "question": "Cho đường tròn $(O; 10\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
             "options": [
-              "$60^\\circ$",
-              "$180^\\circ$",
-              "$45^\\circ$",
-              "$90^\\circ$"
+              "$5.0\\,\\text{cm}$",
+              "$10\\,\\text{cm}$",
+              "$10\\,\\text{{cm}}$",
+              "$20\\,\\text{cm}$"
             ],
             "correct": 3,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(10)\\,\\text{cm}$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tần số của một giá trị là:",
+            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
-              "Giá trị lớn nhất trong mẫu",
-              "Tổng của tất cả các giá trị",
-              "Tỉ lệ phần trăm của giá trị đó",
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu"
+              "Vô số điểm chung",
+              "3 điểm chung",
+              "1 điểm chung",
+              "2 điểm chung"
             ],
             "correct": 3,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
+            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 100$. Nếu giá trị $x_1$ có tần số là $20$ thì tần số tương đối của nó là:",
+            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "$20\\%$",
-              "$25\\%$",
-              "$10\\%$",
-              "$15\\%$"
+              "Cách đều hai tiếp điểm",
+              "Nằm trên đường kính",
+              "Trùng với tiếp điểm",
+              "Là tâm đường tròn"
             ],
             "correct": 0,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
+            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
           },
           {
             "id": 9,
@@ -37909,21 +37909,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 14\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "60 học sinh",
-              "70 học sinh",
-              "50 học sinh",
-              "80 học sinh"
+              "$18\\,\\text{cm}$",
+              "$7.48\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$6\\,\\text{{cm}}$"
             ],
             "correct": 1,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(14) \\implies AH = \\sqrt{4(14)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 6} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 6} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 6} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 6$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 6$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 6$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 6$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 22$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 22$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -37966,52 +38012,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -38019,31 +38019,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{100} - \\sqrt16$.",
+            "answer": "6",
+            "explanation": "$M = (10) - 4 = 6$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $14$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "31.1",
-            "explanation": "Tỉ lệ: $(14) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $11\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 11\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "3.67",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{11}3 \\sqrt3$."
           }
@@ -38053,33 +38053,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{28} - \\sqrt{63} + \\sqrt{175}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{7} - 3\\sqrt{7} + 5\\sqrt{7} = 4\\sqrt{7}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{7} - 3\\sqrt{7} + 5\\sqrt{7} = 4\\sqrt{7}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $150\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 75$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 75$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 7$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -38087,7 +38087,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_06",
         "testNum": 6,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 06)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -38104,113 +38104,113 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{8 - x}$ có nghĩa là:",
             "options": [
-              "Đỉnh góc vuông",
-              "Trung điểm của cạnh huyền",
-              "Trọng tâm tam giác",
-              "Giao điểm ba đường cao"
+              "$x \\ge 8$",
+              "$x \\le 8$",
+              "$x < 8$",
+              "$x > 8$"
             ],
             "correct": 1,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $8 - x \\ge 0 \\iff x \\le 8$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Cho đường tròn $(O; 11\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "question": "Giá trị của biểu thức $\\sqrt{(-11)^2}$ là:",
             "options": [
-              "$5.5\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$",
-              "$22\\,\\text{cm}$",
-              "$11\\,\\text{cm}$"
+              "$\\pm 11$",
+              "$121$",
+              "$11$",
+              "$-11$"
             ],
             "correct": 2,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 11$."
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
+            "question": "Hệ phương trình $\\begin{cases} x + y = 10 \\\\ 2x - y = 17 \\end{cases}$ có nghiệm là:",
             "options": [
-              "2 điểm chung",
-              "Vô số điểm chung",
-              "3 điểm chung",
-              "1 điểm chung"
+              "$(9; 1)$",
+              "$(2; 2)$",
+              "$(10; 0)$",
+              "$(1; 9)$"
             ],
             "correct": 0,
-            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 9\\,\\text{cm}$ và bán kính $R = 11\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
             "options": [
-              "Cắt nhau tại 2 điểm",
-              "Không giao nhau",
-              "Trùng nhau",
-              "Tiếp xúc nhau"
+              "Tỉ số giữa cạnh kề và cạnh huyền",
+              "Tỉ số giữa cạnh đối và cạnh kề",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh đối và cạnh huyền"
             ],
             "correct": 0,
-            "explanation": "Vì $OH = 9 < R = 11$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
+            "explanation": "Định nghĩa cos = kề / huyền."
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
             "options": [
-              "Trùng với tiếp điểm",
-              "Nằm trên đường kính",
-              "Là tâm đường tròn",
-              "Cách đều hai tiếp điểm"
+              "Giao điểm ba đường cao",
+              "Đỉnh góc vuông",
+              "Trọng tâm tam giác",
+              "Trung điểm của cạnh huyền"
             ],
             "correct": 3,
-            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
+            "question": "Cho đường tròn $(O; 11\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
             "options": [
-              "$45^\\circ$",
-              "$180^\\circ$",
-              "$90^\\circ$",
-              "$60^\\circ$"
+              "$10\\,\\text{{cm}}$",
+              "$11\\,\\text{cm}$",
+              "$22\\,\\text{cm}$",
+              "$5.5\\,\\text{cm}$"
             ],
             "correct": 2,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(11)\\,\\text{cm}$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tần số của một giá trị là:",
+            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu",
-              "Tỉ lệ phần trăm của giá trị đó",
-              "Giá trị lớn nhất trong mẫu",
-              "Tổng của tất cả các giá trị"
+              "2 điểm chung",
+              "1 điểm chung",
+              "Vô số điểm chung",
+              "3 điểm chung"
             ],
             "correct": 0,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
+            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 110$. Nếu giá trị $x_1$ có tần số là $22$ thì tần số tương đối của nó là:",
+            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "$10\\%$",
-              "$20\\%$",
-              "$15\\%$",
-              "$25\\%$"
+              "Trùng với tiếp điểm",
+              "Cách đều hai tiếp điểm",
+              "Là tâm đường tròn",
+              "Nằm trên đường kính"
             ],
             "correct": 1,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
+            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
           },
           {
             "id": 9,
@@ -38258,21 +38258,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 15\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "60 học sinh",
-              "50 học sinh",
-              "80 học sinh",
-              "70 học sinh"
+              "$19\\,\\text{cm}$",
+              "$12\\,\\text{{cm}}$",
+              "$6\\,\\text{{cm}}$",
+              "$7.75\\,\\text{cm}$"
             ],
             "correct": 3,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(15) \\implies AH = \\sqrt{4(15)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 7} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 7} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 7} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 7$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 7$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 23$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 23$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -38315,52 +38361,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -38368,31 +38368,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{121} - \\sqrt16$.",
+            "answer": "7",
+            "explanation": "$M = (11) - 4 = 7$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $15$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "33.3",
-            "explanation": "Tỉ lệ: $(15) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $12\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 12\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "4.0",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{12}3 \\sqrt3$."
           }
@@ -38402,33 +38402,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{32} - \\sqrt{72} + \\sqrt{200}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{8} - 3\\sqrt{8} + 5\\sqrt{8} = 4\\sqrt{8}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{8} - 3\\sqrt{8} + 5\\sqrt{8} = 4\\sqrt{8}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $160\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 80$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 80$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 8$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -38436,7 +38436,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_07",
         "testNum": 7,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 07)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -38453,32 +38453,88 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{9 - x}$ có nghĩa là:",
             "options": [
-              "Trọng tâm tam giác",
-              "Đỉnh góc vuông",
-              "Giao điểm ba đường cao",
-              "Trung điểm của cạnh huyền"
+              "$x < 9$",
+              "$x \\ge 9$",
+              "$x > 9$",
+              "$x \\le 9$"
             ],
             "correct": 3,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $9 - x \\ge 0 \\iff x \\le 9$."
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Cho đường tròn $(O; 12\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "question": "Giá trị của biểu thức $\\sqrt{(-12)^2}$ là:",
             "options": [
-              "$12\\,\\text{cm}$",
-              "$6.0\\,\\text{cm}$",
-              "$24\\,\\text{cm}$",
-              "$10\\,\\text{{cm}}$"
+              "$-12$",
+              "$\\pm 12$",
+              "$12$",
+              "$144$"
             ],
             "correct": 2,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 12$."
           },
           {
             "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hệ phương trình $\\begin{cases} x + y = 11 \\\\ 2x - y = 19 \\end{cases}$ có nghiệm là:",
+            "options": [
+              "$(2; 2)$",
+              "$(10; 1)$",
+              "$(11; 0)$",
+              "$(1; 10)$"
+            ],
+            "correct": 1,
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
+            "options": [
+              "Tỉ số giữa cạnh đối và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh đối và cạnh kề"
+            ],
+            "correct": 1,
+            "explanation": "Định nghĩa cos = kề / huyền."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "options": [
+              "Trung điểm của cạnh huyền",
+              "Đỉnh góc vuông",
+              "Giao điểm ba đường cao",
+              "Trọng tâm tam giác"
+            ],
+            "correct": 0,
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+          },
+          {
+            "id": 6,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Cho đường tròn $(O; 12\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
+            "options": [
+              "$24\\,\\text{cm}$",
+              "$12\\,\\text{cm}$",
+              "$10\\,\\text{{cm}}$",
+              "$6.0\\,\\text{cm}$"
+            ],
+            "correct": 0,
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(12)\\,\\text{cm}$."
+          },
+          {
+            "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
@@ -38492,74 +38548,18 @@ window.PERIODIC_EXAM_BANK = {
             "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 10\\,\\text{cm}$ và bán kính $R = 12\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
-            "options": [
-              "Tiếp xúc nhau",
-              "Cắt nhau tại 2 điểm",
-              "Trùng nhau",
-              "Không giao nhau"
-            ],
-            "correct": 1,
-            "explanation": "Vì $OH = 10 < R = 12$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
-          },
-          {
-            "id": 5,
+            "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
               "Cách đều hai tiếp điểm",
+              "Là tâm đường tròn",
               "Nằm trên đường kính",
-              "Trùng với tiếp điểm",
-              "Là tâm đường tròn"
+              "Trùng với tiếp điểm"
             ],
             "correct": 0,
             "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
-            "options": [
-              "$90^\\circ$",
-              "$180^\\circ$",
-              "$45^\\circ$",
-              "$60^\\circ$"
-            ],
-            "correct": 0,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
-          },
-          {
-            "id": 7,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Tần số của một giá trị là:",
-            "options": [
-              "Giá trị lớn nhất trong mẫu",
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu",
-              "Tổng của tất cả các giá trị",
-              "Tỉ lệ phần trăm của giá trị đó"
-            ],
-            "correct": 1,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
-          },
-          {
-            "id": 8,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 120$. Nếu giá trị $x_1$ có tần số là $24$ thì tần số tương đối của nó là:",
-            "options": [
-              "$20\\%$",
-              "$15\\%$",
-              "$25\\%$",
-              "$10\\%$"
-            ],
-            "correct": 0,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
           },
           {
             "id": 9,
@@ -38607,21 +38607,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 16\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "50 học sinh",
-              "80 học sinh",
-              "70 học sinh",
-              "60 học sinh"
+              "$12\\,\\text{{cm}}$",
+              "$6\\,\\text{{cm}}$",
+              "$8.0\\,\\text{cm}$",
+              "$20\\,\\text{cm}$"
             ],
             "correct": 2,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(16) \\implies AH = \\sqrt{4(16)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 8} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 8} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 8} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 8$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 8$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 8$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 8$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 24$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 24$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -38664,52 +38710,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -38717,31 +38717,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{144} - \\sqrt16$.",
+            "answer": "8",
+            "explanation": "$M = (12) - 4 = 8$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $16$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "35.6",
-            "explanation": "Tỉ lệ: $(16) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $13\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 13\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "4.33",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{13}3 \\sqrt3$."
           }
@@ -38751,33 +38751,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{36} - \\sqrt{81} + \\sqrt{225}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{9} - 3\\sqrt{9} + 5\\sqrt{9} = 4\\sqrt{9}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{9} - 3\\sqrt{9} + 5\\sqrt{9} = 4\\sqrt{9}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $170\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 85$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 85$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 9$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       },
@@ -38785,7 +38785,7 @@ window.PERIODIC_EXAM_BANK = {
         "id": "p_g9_final1_08",
         "testNum": 8,
         "title": "ĐỀ KIỂM TRA ĐỊNH KỲ CUỐI HỌC KỲ I - TOÁN 9 (ĐỀ SỐ 08)",
-        "topic": "Đường tròn, Tiếp tuyến & Thống kê tần số tương đối",
+        "topic": "Hệ PT, Căn bậc hai & Đường tròn, Tiếp tuyến",
         "grade": "9",
         "term": "final1",
         "termName": "Cuối Học kỳ I",
@@ -38802,18 +38802,74 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "question": "Điều kiện để biểu thức $\\sqrt{10 - x}$ có nghĩa là:",
             "options": [
-              "Đỉnh góc vuông",
-              "Trọng tâm tam giác",
-              "Trung điểm của cạnh huyền",
-              "Giao điểm ba đường cao"
+              "$x \\ge 10$",
+              "$x < 10$",
+              "$x \\le 10$",
+              "$x > 10$"
             ],
             "correct": 2,
-            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+            "explanation": "Biểu thức dưới dấu căn không âm: $10 - x \\ge 0 \\iff x \\le 10$."
           },
           {
             "id": 2,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Giá trị của biểu thức $\\sqrt{(-13)^2}$ là:",
+            "options": [
+              "$169$",
+              "$13$",
+              "$\\pm 13$",
+              "$-13$"
+            ],
+            "correct": 1,
+            "explanation": "$\\sqrt{A^2} = |A| = |-(5+k)| = 13$."
+          },
+          {
+            "id": 3,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Hệ phương trình $\\begin{cases} x + y = 12 \\\\ 2x - y = 21 \\end{cases}$ có nghiệm là:",
+            "options": [
+              "$(12; 0)$",
+              "$(2; 2)$",
+              "$(11; 1)$",
+              "$(1; 11)$"
+            ],
+            "correct": 2,
+            "explanation": "Cộng hai phương trình: $3x = 9 + 3k \\implies x = 3 + k$, suy ra $y = 1$."
+          },
+          {
+            "id": 4,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Trong một tam giác vuông, cosin của một góc nhọn bằng:",
+            "options": [
+              "Tỉ số giữa cạnh đối và cạnh kề",
+              "Tỉ số giữa cạnh kề và cạnh đối",
+              "Tỉ số giữa cạnh đối và cạnh huyền",
+              "Tỉ số giữa cạnh kề và cạnh huyền"
+            ],
+            "correct": 3,
+            "explanation": "Định nghĩa cos = kề / huyền."
+          },
+          {
+            "id": 5,
+            "level": "Nhận biết",
+            "points": 0.25,
+            "question": "Tâm của đường tròn ngoại tiếp tam giác vuông là:",
+            "options": [
+              "Trọng tâm tam giác",
+              "Trung điểm của cạnh huyền",
+              "Đỉnh góc vuông",
+              "Giao điểm ba đường cao"
+            ],
+            "correct": 1,
+            "explanation": "Định lí: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền nên trung điểm cạnh huyền là tâm đường tròn ngoại tiếp."
+          },
+          {
+            "id": 6,
             "level": "Nhận biết",
             "points": 0.25,
             "question": "Cho đường tròn $(O; 13\\,\\text{cm})$. Dây cung lớn nhất của đường tròn có độ dài là:",
@@ -38824,91 +38880,35 @@ window.PERIODIC_EXAM_BANK = {
               "$13\\,\\text{cm}$"
             ],
             "correct": 1,
-            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2({5+k})\\,\\text{cm}$."
-          },
-          {
-            "id": 3,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
-            "options": [
-              "3 điểm chung",
-              "Vô số điểm chung",
-              "2 điểm chung",
-              "1 điểm chung"
-            ],
-            "correct": 2,
-            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
-          },
-          {
-            "id": 4,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Nếu khoảng cách từ tâm $O$ đến đường thẳng $d$ là $OH = 11\\,\\text{cm}$ và bán kính $R = 13\\,\\text{cm}$ thì đường thẳng $d$ và đường tròn $(O)$:",
-            "options": [
-              "Không giao nhau",
-              "Trùng nhau",
-              "Tiếp xúc nhau",
-              "Cắt nhau tại 2 điểm"
-            ],
-            "correct": 3,
-            "explanation": "Vì $OH = 11 < R = 13$ nên đường thẳng cắt đường tròn tại hai điểm phân biệt."
-          },
-          {
-            "id": 5,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
-            "options": [
-              "Là tâm đường tròn",
-              "Cách đều hai tiếp điểm",
-              "Nằm trên đường kính",
-              "Trùng với tiếp điểm"
-            ],
-            "correct": 1,
-            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
-          },
-          {
-            "id": 6,
-            "level": "Nhận biết",
-            "points": 0.25,
-            "question": "Số đo của góc nội tiếp chắn nửa đường tròn luôn bằng:",
-            "options": [
-              "$45^\\circ$",
-              "$90^\\circ$",
-              "$60^\\circ$",
-              "$180^\\circ$"
-            ],
-            "correct": 1,
-            "explanation": "Định lí: Góc nội tiếp chắn nửa đường tròn là góc vuông ($90^\\circ$)."
+            "explanation": "Đường kính là dây lớn nhất của đường tròn: $d = 2R = 2(13)\\,\\text{cm}$."
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Tần số của một giá trị là:",
+            "question": "Đường thẳng và đường tròn có tối đa bao nhiêu điểm chung?",
             "options": [
-              "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu",
-              "Tổng của tất cả các giá trị",
-              "Tỉ lệ phần trăm của giá trị đó",
-              "Giá trị lớn nhất trong mẫu"
+              "2 điểm chung",
+              "3 điểm chung",
+              "1 điểm chung",
+              "Vô số điểm chung"
             ],
             "correct": 0,
-            "explanation": "Định nghĩa tần số là số lần xuất hiện của một giá trị."
+            "explanation": "Vị trí tương đối giữa đường thẳng và đường tròn có tối đa 2 điểm chung (khi cắt nhau)."
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Trong mẫu số liệu có tổng tần số $N = 130$. Nếu giá trị $x_1$ có tần số là $26$ thì tần số tương đối của nó là:",
+            "question": "Hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó:",
             "options": [
-              "$25\\%$",
-              "$15\\%$",
-              "$20\\%$",
-              "$10\\%$"
+              "Nằm trên đường kính",
+              "Là tâm đường tròn",
+              "Cách đều hai tiếp điểm",
+              "Trùng với tiếp điểm"
             ],
             "correct": 2,
-            "explanation": "Tần số tương đối: $f = \\frac{10 + 2k}{50 + 10k} = \\frac{2(5+k)}{10(5+k)} = \\frac15 = 20\\%$."
+            "explanation": "Tính chất của hai tiếp tuyến cắt nhau: điểm đó cách đều hai tiếp điểm."
           },
           {
             "id": 9,
@@ -38956,21 +38956,67 @@ window.PERIODIC_EXAM_BANK = {
             "id": 12,
             "level": "Thông hiểu",
             "points": 0.25,
-            "question": "Biểu đồ hình quạt tròn thể hiện kết quả khảo sát của 200 học sinh. Hình quạt biểu diễn sở thích đọc sách có tần số tương đối là $35\\%$. Tần số của nhóm này là:",
+            "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\,\\text{cm}, CH = 17\\,\\text{cm}$. Độ dài đường cao $AH$ là:",
             "options": [
-              "50 học sinh",
-              "80 học sinh",
-              "60 học sinh",
-              "70 học sinh"
+              "$12\\,\\text{{cm}}$",
+              "$6\\,\\text{{cm}}$",
+              "$21\\,\\text{cm}$",
+              "$8.25\\,\\text{cm}$"
             ],
             "correct": 3,
-            "explanation": "$200 \\cdot 35\\% = 70$ học sinh."
+            "explanation": "$AH^2 = BH \\cdot CH = 4(17) \\implies AH = \\sqrt{4(17)}$."
           }
         ],
         "part2": [
           {
             "id": 1,
             "level": "Nhận biết",
+            "points": 1.0,
+            "intro": "Cho biểu thức chứa căn $A = \\sqrt{x - 9} + 3$.",
+            "stem": "Cho biểu thức chứa căn $A = \\sqrt{x - 9} + 3$.",
+            "question": "Cho biểu thức chứa căn $A = \\sqrt{x - 9} + 3$.",
+            "statements": [
+              {
+                "key": "a",
+                "id": "a",
+                "text": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 9$.",
+                "statement": "Biểu thức $A$ xác định khi và chỉ khi $x \\ge 9$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Biểu thức dưới dấu căn không âm."
+              },
+              {
+                "key": "b",
+                "id": "b",
+                "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 9$.",
+                "statement": "Giá trị nhỏ nhất của biểu thức $A$ bằng $3$, đạt được khi $x = 9$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "Vì $\\sqrt{x-(1+k)} \\ge 0$ nên $A \\ge 3$."
+              },
+              {
+                "key": "c",
+                "id": "c",
+                "text": "Tại $x = 25$, giá trị của $A = 7$.",
+                "statement": "Tại $x = 25$, giá trị của $A = 7$.",
+                "correct": true,
+                "isCorrect": true,
+                "explanation": "$\\sqrt{16} + 3 = 4 + 3 = 7$."
+              },
+              {
+                "key": "d",
+                "id": "d",
+                "text": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "statement": "Biểu thức $A$ có thể nhận giá trị bằng $2$ với một giá trị nào đó của $x$.",
+                "correct": false,
+                "isCorrect": false,
+                "explanation": "Vì $A \\ge 3$ nên không thể bằng 2."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
             "points": 1.0,
             "intro": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
             "stem": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).",
@@ -39013,52 +39059,6 @@ window.PERIODIC_EXAM_BANK = {
                 "explanation": "Bán kính vuông góc với tiếp tuyến nên góc ABO = 90 độ."
               }
             ]
-          },
-          {
-            "id": 2,
-            "level": "Thông hiểu",
-            "points": 1.0,
-            "intro": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "stem": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "question": "Một bảng tần số tương đối ghép nhóm biểu diễn điểm kiểm tra môn Toán của 40 học sinh.",
-            "statements": [
-              {
-                "key": "a",
-                "id": "a",
-                "text": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "statement": "Tổng tần số của tất cả các nhóm luôn bằng $40$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tần số bằng cỡ mẫu N = 40."
-              },
-              {
-                "key": "b",
-                "id": "b",
-                "text": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "statement": "Tổng tần số tương đối của tất cả các nhóm luôn bằng $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Tổng tỉ lệ phần trăm toàn bộ là 100%."
-              },
-              {
-                "key": "c",
-                "id": "c",
-                "text": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "statement": "Tần số tương đối của một nhóm được tính bằng tần số nhóm đó chia cho cỡ mẫu nhân với $100\\%$.",
-                "correct": true,
-                "isCorrect": true,
-                "explanation": "Đúng công thức tính $f_i = \\frac{n_i}{N} \\cdot 100\\%$."
-              },
-              {
-                "key": "d",
-                "id": "d",
-                "text": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "statement": "Biểu đồ cột không thể dùng để biểu diễn bảng tần số.",
-                "correct": false,
-                "isCorrect": false,
-                "explanation": "Biểu đồ cột hoàn toàn phù hợp để biểu diễn tần số."
-              }
-            ]
           }
         ],
         "part3": [
@@ -39066,31 +39066,31 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Thông hiểu",
             "points": 0.5,
+            "question": "Tính giá trị của biểu thức: $M = \\sqrt{169} - \\sqrt16$.",
+            "answer": "9",
+            "explanation": "$M = (13) - 4 = 9$."
+          },
+          {
+            "id": 2,
+            "level": "Thông hiểu",
+            "points": 0.5,
             "question": "Cho đường tròn $(O; 5\\,\\text{cm})$ và dây $AB = 8\\,\\text{cm}$. Tính khoảng cách từ tâm $O$ đến dây $AB$ (theo cm).",
             "answer": "3",
             "explanation": "$d = \\sqrt{5^2 - 4^2} = 3\\,\\text{cm}$."
           },
           {
-            "id": 2,
-            "level": "Thông hiểu",
+            "id": 3,
+            "level": "Vận dụng",
             "points": 0.5,
             "question": "Từ điểm $M$ ngoài đường tròn $(O)$, kẻ hai tiếp tuyến $MA, MB$ tạo với nhau góc $\\widehat{AMB} = 60^\\circ$. Tính số đo của góc ở tâm $\\widehat{AOB}$ (theo độ).",
             "answer": "120",
             "explanation": "$\\widehat{AOB} = 180^\\circ - 60^\\circ = 120^\\circ$."
           },
           {
-            "id": 3,
-            "level": "Vận dụng",
-            "points": 0.5,
-            "question": "Một lớp có 45 học sinh. Kết quả kiểm tra có $17$ bạn đạt điểm 10. Tần số tương đối của các bạn đạt điểm 10 là bao nhiêu phần trăm? (làm tròn đến hàng phần mười)",
-            "answer": "37.8",
-            "explanation": "Tỉ lệ: $(17) / 45 \\cdot 100\\%$."
-          },
-          {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho tam giác đều $ABC$ cạnh $14\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
+            "question": "Cho tam giác đều $ABC$ có cạnh $a = 14\\,\\text{cm}$ nội tiếp đường tròn $(O; R)$. Bán kính $R$ bằng bao nhiêu cm? (lấy hệ số nhân với $\\sqrt{3}$)",
             "answer": "4.67",
             "explanation": "$R = \\frac{a\\sqrt3}3 = \\frac{14}3 \\sqrt3$."
           }
@@ -39100,33 +39100,33 @@ window.PERIODIC_EXAM_BANK = {
             "id": 1,
             "level": "Nhận biết",
             "points": 1.0,
-            "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc $(O)$ sao cho $AC = R$.\n a) Chứng minh tam giác $ABC$ vuông tại $C$.\n b) Tính số đo góc $\\widehat{B}$ và độ dài cạnh $BC$ theo $R$.",
-            "rubric": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)",
-            "modelSolution": "a) Tam giác ABC nội tiếp đường tròn có cạnh AB là đường kính nên $\\triangle ABC$ vuông tại C. (0.5đ)\nb) $\\sin B = \\frac{AC}{AB} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$. Theo Pythagore $BC = \\sqrt{(2R)^2 - R^2} = R\\sqrt{3}$. (0.5đ)"
+            "question": "Rút gọn biểu thức:\n a) $A = \\sqrt{40} - \\sqrt{90} + \\sqrt{250}$\n b) $B = \\left(\\frac1{\\sqrt{x} - 2} + \\frac1{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{\\sqrt{x}}$ (với $x > 0, x \\ne 4$)",
+            "rubric": "a) $A = 2\\sqrt{10} - 3\\sqrt{10} + 5\\sqrt{10} = 4\\sqrt{10}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)",
+            "modelSolution": "a) $A = 2\\sqrt{10} - 3\\sqrt{10} + 5\\sqrt{10} = 4\\sqrt{10}$. (0.5đ)\nb) Quy đồng trong ngoặc: $\\frac{2\\sqrt{x}}{x - 4} \\cdot \\frac{x - 4}{\\sqrt{x}} = 2$. (0.5đ)"
           },
           {
             "id": 2,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh tứ giác $ABOC$ nội tiếp một đường tròn.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo $R$.",
-            "rubric": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
-            "modelSolution": "a) $\\widehat{ABO} = \\widehat{ACO} = 90^\\circ \\implies$ 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO. (0.25đ)\nb) $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
+            "question": "Giải bài toán bằng cách lập hệ phương trình:\n Một thửa ruộng hình chữ nhật có chu vi là $180\\,\\text{m}$. Nếu tăng chiều dài thêm $5\\,\\text{m}$ và giảm chiều rộng đi $3\\,\\text{m}$ thì diện tích của thửa ruộng không đổi. Tính kích thước ban đầu của thửa ruộng.",
+            "rubric": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 90$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)",
+            "modelSolution": "Gọi chiều dài và chiều rộng thửa ruộng ban đầu là $x, y$ ($x > y > 0$, m). (0.25đ)\nNửa chu vi: $x + y = 90$. Diện tích không đổi: $(x + 5)(y - 3) = xy \\implies -3x + 5y = 15$. (0.25đ)\nGiải hệ tìm được chiều dài và chiều rộng thỏa mãn điều kiện. (0.25đ)"
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "points": 0.75,
-            "question": "Điều tra về số giờ tự học mỗi ngày của 50 học sinh lớp 9 thu được mẫu dữ liệu. Có 15 học sinh học dưới 2 giờ, 25 học sinh học từ 2 đến 4 giờ, còn lại học trên 4 giờ.\n a) Lập bảng tần số và tần số tương đối của mẫu số liệu.\n b) Vẽ biểu đồ cột biểu diễn tần số của các nhóm thời gian trên.",
-            "rubric": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)",
-            "modelSolution": "a) Số học sinh học trên 4 giờ: $50 - 15 - 25 = 10$. Tính đúng tần số tương đối: $30\\%, 50\\%, 20\\%$. (0.5đ)\nb) Vẽ biểu đồ cột chính xác, đầy đủ tên trục, chú giải và số liệu. (0.25đ)"
+            "question": "Cho đường tròn $(O; R)$ và một điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm).\n a) Chứng minh $OA$ vuông góc với đoạn thẳng $BC$ tại trung điểm $H$ của $BC$.\n b) Chứng minh tam giác $ABC$ là tam giác đều.\n c) Tính diện tích tam giác $ABC$ theo bán kính $R$.",
+            "rubric": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)",
+            "modelSolution": "a) $AB = AC, OB = OC = R \\implies OA$ là đường trung trực của $BC \\implies OA \\perp BC$ tại H. (0.25đ)\nb) Xét $\\triangle OAB$ vuông tại B: $\\sin \\widehat{OAB} = \\frac{OB}{OA} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\widehat{OAB} = 30^\\circ \\implies \\widehat{BAC} = 60^\\circ$. Mà $AB = AC \\implies \\triangle ABC$ đều. (0.25đ)\nc) $AB = \\sqrt{OA^2 - OB^2} = R\\sqrt{3}$. $S_{\\triangle ABC} = \\frac{(R\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}R^2}{4}$. (0.25đ)"
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "points": 0.5,
-            "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định không đi qua $O$. Điểm $A$ di động trên cung lớn $BC$. Tìm vị trí của điểm $A$ để diện tích tam giác $ABC$ đạt giá trị lớn nhất.",
-            "rubric": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)",
-            "modelSolution": "Diện tích $\\triangle ABC = \\frac{1}{2} BC \\cdot h_a$. Vì BC cố định nên diện tích lớn nhất khi chiều cao $h_a$ lớn nhất. (0.25đ)\nKhoảng cách từ A đến BC lớn nhất khi A là điểm chính giữa của cung lớn BC. (0.25đ)"
+            "question": "Cho các số thực dương $x, y$ thỏa mãn $x + y \\le 10$. Tìm giá trị nhỏ nhất của biểu thức:\n $P = \\sqrt{x^2 + \\frac1{y^2}} + \\sqrt{y^2 + \\frac1{x^2}}$.",
+            "rubric": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)",
+            "modelSolution": "Áp dụng bất đẳng thức Minkowski kết hợp Cauchy hoặc điểm rơi: $P \\ge \\sqrt{(x + y)^2 + (\\frac{1}{y} + \\frac{1}{x})^2} \\ge \\sqrt{(x+y)^2 + \\frac{16}{(x+y)^2}}$. Đạt GTNN khi $x = y = \\frac{2+k}{2}$. (0.5đ)"
           }
         ]
       }
@@ -39251,15 +39251,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $25$ lần là:",
             "options": [
-              "Gấp đôi số đo cung bị chắn",
-              "Nửa số đo của cung bị chắn",
-              "Số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$"
+              "$50\\%$",
+              "$25\\%$",
+              "$12.5\\%$",
+              "$10\\%$"
             ],
             "correct": 1,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{25}{100} \\cdot 100\\% = 25\\%$."
           },
           {
             "id": 9,
@@ -39600,15 +39600,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $30$ lần là:",
             "options": [
-              "Gấp đôi số đo cung bị chắn",
-              "Nửa số đo của cung bị chắn",
-              "Số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$"
+              "$60\\%$",
+              "$30\\%$",
+              "$15.0\\%$",
+              "$10\\%$"
             ],
             "correct": 1,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{30}{100} \\cdot 100\\% = 30\\%$."
           },
           {
             "id": 9,
@@ -39949,15 +39949,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $35$ lần là:",
             "options": [
-              "Gấp đôi số đo cung bị chắn",
-              "Số đo của cung bị chắn",
-              "Nửa số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$"
+              "$70\\%$",
+              "$17.5\\%$",
+              "$35\\%$",
+              "$10\\%$"
             ],
             "correct": 2,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{35}{100} \\cdot 100\\% = 35\\%$."
           },
           {
             "id": 9,
@@ -40298,15 +40298,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $40$ lần là:",
             "options": [
-              "Nửa số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$",
-              "Số đo của cung bị chắn",
-              "Gấp đôi số đo cung bị chắn"
+              "$40\\%$",
+              "$10\\%$",
+              "$20.0\\%$",
+              "$80\\%$"
             ],
             "correct": 0,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{40}{100} \\cdot 100\\% = 40\\%$."
           },
           {
             "id": 9,
@@ -40647,15 +40647,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $45$ lần là:",
             "options": [
-              "Gấp đôi số đo cung bị chắn",
-              "Nửa số đo của cung bị chắn",
-              "Số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$"
+              "$90\\%$",
+              "$45\\%$",
+              "$22.5\\%$",
+              "$10\\%$"
             ],
             "correct": 1,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{45}{100} \\cdot 100\\% = 45\\%$."
           },
           {
             "id": 9,
@@ -40996,15 +40996,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $50$ lần là:",
             "options": [
-              "Nửa số đo của cung bị chắn",
-              "Số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$",
-              "Gấp đôi số đo cung bị chắn"
+              "$50\\%$",
+              "$25.0\\%$",
+              "$10\\%$",
+              "$100\\%$"
             ],
             "correct": 0,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{50}{100} \\cdot 100\\% = 50\\%$."
           },
           {
             "id": 9,
@@ -41345,15 +41345,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $55$ lần là:",
             "options": [
-              "Luôn bằng $90^\\circ$",
-              "Số đo của cung bị chắn",
-              "Gấp đôi số đo cung bị chắn",
-              "Nửa số đo của cung bị chắn"
+              "$10\\%$",
+              "$27.5\\%$",
+              "$110\\%$",
+              "$55\\%$"
             ],
             "correct": 3,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{55}{100} \\cdot 100\\% = 55\\%$."
           },
           {
             "id": 9,
@@ -41694,15 +41694,15 @@ window.PERIODIC_EXAM_BANK = {
             "id": 8,
             "level": "Nhận biết",
             "points": 0.25,
-            "question": "Góc tạo bởi tiếp tuyến và dây cung có số đo bằng:",
+            "question": "Tần số tương đối của một giá trị trong mẫu số liệu có cỡ mẫu $N = 100$ xuất hiện $60$ lần là:",
             "options": [
-              "Nửa số đo của cung bị chắn",
-              "Luôn bằng $90^\\circ$",
-              "Gấp đôi số đo cung bị chắn",
-              "Số đo của cung bị chắn"
+              "$60\\%$",
+              "$10\\%$",
+              "$120\\%$",
+              "$30.0\\%$"
             ],
             "correct": 0,
-            "explanation": "Định lí về góc tạo bởi tia tiếp tuyến và dây cung."
+            "explanation": "Tần số tương đối $= \\frac{60}{100} \\cdot 100\\% = 60\\%$."
           },
           {
             "id": 9,
