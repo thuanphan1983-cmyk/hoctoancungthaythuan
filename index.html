@@ -2272,7 +2272,7 @@ if (typeof window !== "undefined") {
       const exam = { ...rawExam };
       if (Array.isArray(exam.part2)) {
         exam.part2 = exam.part2.map((q) => {
-          const stem = q.stem || q.question || q.content || q.title || "";
+          const stem = q.stem || q.question || q.intro || q.content || q.title || "";
           const rawStatements = q.statements || q.options || q.items || [];
           const statements = rawStatements.map((stmt, sIdx) => {
             const key = stmt.key || stmt.id || String.fromCharCode(97 + sIdx);
@@ -4784,7 +4784,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                       </label>
 
-                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
 
                         {[
 
@@ -5319,7 +5319,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                   <div className="space-y-5">
 
                     {examData.part2.map((q) => {
-                      const stemText = q.stem || q.question || q.content || q.title || "";
+                      const stemText = q.stem || q.question || q.intro || q.content || q.title || "";
                       const rawList = q.statements || q.options || q.items || [];
                       console.log(`[Phần II] Dữ liệu Câu ${q.id}:`, { stem: stemText, rawList });
 
@@ -6608,7 +6608,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                           Kỳ thi này đang được hoàn thiện. Hiện tại hệ thống đã hoàn tất và sẵn sàng ĐỀ SỐ 1 GIỮA KỲ 1 chuẩn cấu trúc ma trận mới (12 TN + 2 Đ/S + 4 TLN + 4 Tự luận) cho cả 4 Khối 6, 7, 8, 9. Vui lòng chọn 'Giữa kỳ 1' để làm bài ngay!
                         </div>
                       ) : (
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
                           {termExams.map((ex, idx) => (
                             <button
                               key={ex.id || idx}
@@ -6622,9 +6622,9 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                               <div className="flex items-center justify-between">
                                 <span className="font-bold text-sm text-indigo-950">Đề số {ex.testNum || (idx + 1)}</span>
                                 <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${
-                                  idx === 0 ? "bg-blue-100 text-blue-800" : idx === 1 ? "bg-amber-100 text-amber-800" : "bg-purple-100 text-purple-800"
+                                  idx === 0 ? "bg-blue-100 text-blue-800" : idx === 1 ? "bg-emerald-100 text-emerald-800" : idx === 2 ? "bg-amber-100 text-amber-800" : "bg-purple-100 text-purple-800"
                                 }`}>
-                                  {idx === 0 ? "Cơ bản" : idx === 1 ? "Phân hóa" : "Trường điểm"}
+                                  {idx === 0 ? "Đề 01 (Cơ bản)" : idx === 1 ? "Đề 02 (Khá)" : idx === 2 ? "Đề 03 (Nâng cao)" : "Đề 04 (Phân hóa sâu)"}
                                 </span>
                               </div>
                               <div className="text-xs font-medium text-slate-600 mt-1 line-clamp-2">
@@ -6728,7 +6728,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                             {currentExam.part2.map((q) => (
                               <div key={q.id} className="p-3.5 rounded-lg border border-slate-200 bg-slate-50/50 space-y-2 text-xs">
                                 <div className="font-bold text-slate-900">
-                                  Câu {q.id}: <MathView text={q.stem || q.question} />
+                                  Câu {q.id}: <MathView text={q.intro || q.stem || q.question} />
                                 </div>
                                 <div className="space-y-1.5 pl-2">
                                   {(q.statements || []).map((st) => (
