@@ -2760,7 +2760,7 @@ if (typeof window !== "undefined") {
         setMcLockedIndex(0);
         setTfAnswers({ 1: {}, 2: {} });
         setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
-        setEssayImages({ 1: null, 2: null, 3: null });
+        setEssayImages({ 1: null, 2: null, 3: null, 4: null });
         setSharedEssayImage(null);
         setExamData(normalized);
         setView("exam");
@@ -3170,7 +3170,7 @@ const [loadingAI, setLoadingAI] = useState(false);
           setMcLockedIndex(0);
           setTfAnswers({ 1: {}, 2: {} });
           setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
-          setEssayImages({ 1: null, 2: null, 3: null });
+          setEssayImages({ 1: null, 2: null, 3: null, 4: null });
           setSharedEssayImage(null);
           setLoadingAI(false);
           setExamData(normalizeExamData(bankExam));
@@ -3255,7 +3255,7 @@ const [loadingAI, setLoadingAI] = useState(false);
 
         setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
 
-        setEssayImages({ 1: null, 2: null, 3: null });
+        setEssayImages({ 1: null, 2: null, 3: null, 4: null });
 
         setSharedEssayImage(null);
 
@@ -6508,7 +6508,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                             HỆ THỐNG ĐỀ KIỂM TRA ĐỊNH KỲ TOÁN THCS
                           </h2>
                           <p className="text-xs md:text-sm text-slate-300 mt-0.5">
-                            Bộ sách Kết nối tri thức với cuộc sống • Chuẩn cấu trúc 4 phần (12 Trắc nghiệm + 2 Đúng/Sai + 4 Trả lời ngắn + 3 Tự luận)
+                            Bộ sách Kết nối tri thức với cuộc sống • Chuẩn cấu trúc 4 phần (12 Trắc nghiệm + 2 Đúng/Sai + 4 Trả lời ngắn + 4 Tự luận) • 40% Nhận biết, 30% Thông hiểu, 20% Vận dụng, 10% Vận dụng cao
                           </p>
                         </div>
                       </div>
@@ -6605,7 +6605,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                       {termExams.length === 0 ? (
                         <div className="p-6 text-center text-slate-500 text-sm bg-slate-50 rounded-xl border">
-                          Đang tải dữ liệu đề thi định kỳ cho Khối {periodicGrade}...
+                          Kỳ thi này đang được hoàn thiện. Hiện tại hệ thống đã hoàn tất và sẵn sàng ĐỀ SỐ 1 GIỮA KỲ 1 chuẩn cấu trúc ma trận mới (12 TN + 2 Đ/S + 4 TLN + 4 Tự luận) cho cả 4 Khối 6, 7, 8, 9. Vui lòng chọn 'Giữa kỳ 1' để làm bài ngay!
                         </div>
                       ) : (
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -6777,7 +6777,7 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                         {/* PHẦN IV: 3 CÂU TỰ LUẬN */}
                         <div className="space-y-3 pt-2">
                           <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
-                            IV. PHẦN TỰ LUẬN (3,0 điểm - 3 câu, mỗi câu 1,0đ)
+                            IV. PHẦN TỰ LUẬN (3,0 điểm - 4 câu)
                           </div>
                           <div className="space-y-4">
                             {currentExam.part4.map((q) => (
