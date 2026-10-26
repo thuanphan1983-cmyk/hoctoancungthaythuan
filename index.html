@@ -82,6 +82,8 @@
 
   <!-- Grade 10 Entrance Exam Database (GV Phan Đình Thuấn) -->
   <script src="grade10EntranceExams.js"></script>
+  <!-- Periodic Exam Database (Khối 6, 7, 8, 9 - Giữa kỳ & Cuối kỳ) -->
+  <script src="periodicExamsData.js"></script>
 
   <!-- Curriculum Database -->
 
@@ -2693,11 +2695,78 @@ if (typeof window !== "undefined") {
 
 
 
-      // Thông tin học sinh & lựa chọn
+      // Thông tin học sinh & lựa chọn (Tự động tải & lưu localStorage)
+      const [studentName, setStudentName] = useState(() => {
+        try { return localStorage.getItem("STUDENT_NAME") || ""; } catch (e) { return ""; }
+      });
+      const [className, setClassName] = useState(() => {
+        try { return localStorage.getItem("STUDENT_CLASS") || ""; } catch (e) { return ""; }
+      });
 
-      const [studentName, setStudentName] = useState("");
+      // State chuyên dụng cho ÔN TẬP ĐỊNH KỲ (Khối 6, 7, 8, 9 - Giữa kỳ & Cuối kỳ)
+      const [periodicGrade, setPeriodicGrade] = useState("9");
+      const [periodicTerm, setPeriodicTerm] = useState("mid1");
+      const [selectedPeriodicTestIdx, setSelectedPeriodicTestIdx] = useState(0);
+      const [showPeriodicSolution, setShowPeriodicSolution] = useState(false);
 
-      const [className, setClassName] = useState("9A1");
+      // Hàm kiểm tra bắt buộc khai báo Họ tên và Lớp trước khi chuyển giao diện / làm bài
+      const validateStudentInfo = () => {
+        const cleanName = (studentName || "").trim();
+        const cleanClass = (className || "").trim();
+
+        if (!cleanName || !cleanClass) {
+          showToast("error", "Vui lòng nhập Họ tên và Lớp trước khi bắt đầu!");
+          const nameInput = document.getElementById("student-name-input");
+          const classInput = document.getElementById("student-class-input");
+          if (!cleanName && nameInput) {
+            nameInput.scrollIntoView({ behavior: "smooth", block: "center" });
+            nameInput.focus();
+          } else if (!cleanClass && classInput) {
+            classInput.scrollIntoView({ behavior: "smooth", block: "center" });
+            classInput.focus();
+          }
+          return false;
+        }
+
+        try {
+          localStorage.setItem("STUDENT_NAME", cleanName);
+          localStorage.setItem("STUDENT_CLASS", cleanClass);
+        } catch (e) {
+          console.warn("Lỗi lưu localStorage:", e);
+        }
+        return true;
+      };
+
+      // Hàm điều hướng chuẩn xác giữa 3 nút chức năng trên thanh điều hướng
+      const handleNavigateTab = (targetTab) => {
+        if (!validateStudentInfo()) {
+          return;
+        }
+        if (targetTab === "grade10_mock") {
+          setView("grade10_mock");
+        } else if (targetTab === "sgk_lesson") {
+          setView("setup");
+        } else if (targetTab === "periodic_exam") {
+          setView("periodic_exam");
+        }
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+
+      // Bắt đầu làm bài thi định kỳ Online
+      const handleStartPeriodicExam = (exam) => {
+        if (!validateStudentInfo()) return;
+        const normalized = normalizeExamData(exam);
+        setMcAnswers({});
+        setMcLockedIndex(0);
+        setTfAnswers({ 1: {}, 2: {} });
+        setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
+        setEssayImages({ 1: null, 2: null, 3: null });
+        setSharedEssayImage(null);
+        setExamData(normalized);
+        setView("exam");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        showToast("info", `Đang làm bài: ${exam.title}`);
+      };
 
       const [selectedGrade, setSelectedGrade] = useState("9");
 
@@ -4358,61 +4427,129 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
 
 
-              <div className="flex items-center gap-2">
-
+              <div className="flex flex-wrap items-center gap-2">
+                {/* NÚT 1: 🎯 ÔN THI VÀO 10 */}
                 <button
-                  onClick={() => setView("grade10_mock")}
-                  className={`px-3.5 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
+                  onClick={() => handleNavigateTab("grade10_mock")}
+                  className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
                     view === "grade10_mock"
-                      ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-300"
-                      : "bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow"
+                      ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-300 font-black"
+                      : "bg-indigo-800 hover:bg-indigo-700 text-white"
                   }`}
                 >
-                  <span>🎯</span> THI THỬ VÀO LỚP 10
-                  <span className="text-[10px] bg-white/20 text-white px-1.5 py-0.5 rounded-full font-black uppercase tracking-wider">Mới</span>
+                  <span>🎯</span> ÔN THI VÀO 10
                 </button>
 
+                {/* NÚT 2: 📖 ÔN TẬP THEO BÀI SGK */}
                 <button
-
-                  onClick={() => setView("setup")}
-
-                  className={`px-3.5 py-2 rounded-xl text-xs md:text-sm font-semibold transition ${
-
-                    view === "setup" ? "bg-white text-indigo-950 shadow" : "bg-indigo-800 hover:bg-indigo-700 text-white"
-
+                  onClick={() => handleNavigateTab("sgk_lesson")}
+                  className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
+                    view === "setup"
+                      ? "bg-white text-indigo-950 shadow-md ring-2 ring-indigo-300 font-black"
+                      : "bg-indigo-800 hover:bg-indigo-700 text-white"
                   }`}
-
                 >
-
-                  Làm bài kiểm tra
-
+                  <span>📖</span> ÔN TẬP THEO BÀI SGK
                 </button>
 
+                {/* NÚT 3: 📝 ÔN TẬP ĐỊNH KỲ */}
                 <button
+                  onClick={() => handleNavigateTab("periodic_exam")}
+                  className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
+                    view === "periodic_exam"
+                      ? "bg-emerald-400 text-slate-950 shadow-md ring-2 ring-emerald-300 font-black"
+                      : "bg-indigo-800 hover:bg-indigo-700 text-white"
+                  }`}
+                >
+                  <span>📝</span> ÔN TẬP ĐỊNH KỲ
+                </button>
 
+                {/* Nút phụ Thống kê lớp */}
+                <button
                   onClick={() => setView("dashboard")}
-
-                  className={`px-3.5 py-2 rounded-xl text-xs md:text-sm font-semibold flex items-center gap-1.5 transition ${
-
-                    view === "dashboard" ? "bg-white text-indigo-950 shadow" : "bg-indigo-800 hover:bg-indigo-700 text-white"
-
+                  title="Xem lịch sử làm bài & thống kê lớp học"
+                  className={`p-2 rounded-xl text-xs font-semibold transition ${
+                    view === "dashboard" ? "bg-white text-indigo-950" : "bg-indigo-900/60 hover:bg-indigo-800 text-white/80"
                   }`}
-
                 >
-
-                  <Icons.BarChart2 /> Thống kê lớp ({submissions.length})
-
+                  <Icons.BarChart2 />
                 </button>
-
               </div>
-
-            </div>
 
           </header>
 
 
 
-          <main className="flex-1 max-w-5xl w-full mx-auto p-4 md:p-6">
+          <main className="flex-1 max-w-5xl w-full mx-auto p-4 md:p-6 space-y-6">
+
+            {/* KHỐI KHAI BÁO THÔNG TIN HỌC SINH (BẮT BUỘC) */}
+            {(view === "setup" || view === "grade10_mock" || view === "periodic_exam") && (
+              <div id="student-info-section" className="bg-white rounded-2xl shadow-sm border border-indigo-100 p-5 space-y-3 no-print">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+                    <h3 className="font-bold text-xs md:text-sm uppercase tracking-wide text-indigo-950">
+                      Thông tin thí sinh / học sinh (Bắt buộc khai báo)
+                    </h3>
+                  </div>
+                  {studentName.trim() && className.trim() ? (
+                    <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                      ✓ Đã lưu thông tin • Sẵn sàng làm bài
+                    </span>
+                  ) : (
+                    <span className="text-[11px] font-bold text-rose-600 bg-rose-50 border border-rose-200 px-2.5 py-0.5 rounded-full flex items-center gap-1 animate-pulse">
+                      ⚠️ Vui lòng nhập Họ tên và Lớp trước khi bắt đầu
+                    </span>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-xs font-bold uppercase text-slate-700 mb-1">
+                      Họ và tên Học sinh <span className="text-rose-500">*</span>
+                    </label>
+                    <input
+                      id="student-name-input"
+                      type="text"
+                      placeholder="Nhập họ và tên (VD: Nguyễn Văn An)..."
+                      value={studentName}
+                      onChange={(e) => {
+                        const val = e.target.value;
+                        setStudentName(val);
+                        try { localStorage.setItem("STUDENT_NAME", val); } catch (err) {}
+                      }}
+                      className={`w-full px-3.5 py-2.5 rounded-xl border text-sm transition outline-none ${
+                        !studentName.trim()
+                          ? "border-amber-400 bg-amber-50/20 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100"
+                          : "border-slate-300 bg-white focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100"
+                      }`}
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold uppercase text-slate-700 mb-1">
+                      Lớp đăng ký (Dùng để thống kê) <span className="text-rose-500">*</span>
+                    </label>
+                    <input
+                      id="student-class-input"
+                      type="text"
+                      placeholder="VD: 9A1, 8B, 7A3, 6C..."
+                      value={className}
+                      onChange={(e) => {
+                        const val = e.target.value;
+                        setClassName(val);
+                        try { localStorage.setItem("STUDENT_CLASS", val); } catch (err) {}
+                      }}
+                      className={`w-full px-3.5 py-2.5 rounded-xl border uppercase text-sm font-semibold transition outline-none ${
+                        !className.trim()
+                          ? "border-amber-400 bg-amber-50/20 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100"
+                          : "border-slate-300 bg-white focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100"
+                      }`}
+                    />
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* ============================================================== */}
 
@@ -4503,87 +4640,6 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                 </div>
 
 
-
-                {/* Thông tin học sinh */}
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-indigo-50/70 p-4 rounded-xl border border-indigo-100">
-
-                  <div>
-
-                    <label className="block text-xs font-bold uppercase text-indigo-900 mb-1">
-
-                      Họ và tên Học sinh *
-
-                    </label>
-
-                    <input
-
-                      type="text"
-
-                      placeholder="VD: Nguyễn Văn An"
-
-                      value={studentName}
-
-                      onChange={(e) => setStudentName(e.target.value)}
-
-                      className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-indigo-600 outline-none bg-white text-sm"
-
-                    />
-
-                  </div>
-
-                  <div>
-
-                    <label className="block text-xs font-bold uppercase text-indigo-900 mb-1">
-
-                      Lớp đăng ký (Dùng để thống kê) *
-
-                    </label>
-
-                    <input
-
-                      type="text"
-
-                      placeholder="VD: 9A1, 8B, 7A3..."
-
-                      value={className}
-
-                      onChange={(e) => setClassName(e.target.value)}
-
-                      className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-indigo-600 outline-none bg-white uppercase text-sm font-semibold"
-
-                    />
-
-                  </div>
-
-                </div>
-
-
-
-                {/* BANNER THI THỬ VÀO LỚP 10 - GV PHAN ĐÌNH THUẤN */}
-                <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-white p-5 rounded-2xl shadow-sm flex flex-wrap items-center justify-between gap-4">
-                  <div className="flex items-center gap-3.5">
-                    <div className="w-12 h-12 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-2xl shrink-0">
-                      🎯
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="font-black text-[11px] uppercase tracking-wider bg-white/20 px-2 py-0.5 rounded text-white">Chuyên mục đặc biệt</span>
-                        <span className="text-xs text-amber-100 font-semibold">GV PHAN ĐÌNH THUẤN</span>
-                      </div>
-                      <h3 className="text-base md:text-lg font-black mt-0.5">ĐỀ THI THỬ VÀO LỚP 10 MÔN TOÁN (10 BỘ ĐỀ MINH HỌA)</h3>
-                      <p className="text-xs text-white/90">
-                        Cấu trúc chuẩn 14 câu (8 trắc nghiệm + 6 tự luận) • Đánh chuẩn LaTeX • Xuất file PDF Times New Roman cỡ chữ 12
-                      </p>
-                    </div>
-                  </div>
-                  <button
-                    onClick={() => setView("grade10_mock")}
-                    className="bg-white hover:bg-amber-50 text-slate-950 font-black text-xs md:text-sm px-5 py-2.5 rounded-xl shadow-md transition flex items-center gap-2 shrink-0"
-                  >
-                    Vào phòng thi thử ngay →
-                  </button>
-                </div>
 
                 {/* Lựa chọn khối, chương, bài */}
 
@@ -6414,6 +6470,343 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
             {/* ============================================================== */}
             {/* MÀN HÌNH CHUYÊN BIỆT: THI THỬ VÀO LỚP 10 - GV PHAN ĐÌNH THUẤN    */}
             {/* ============================================================== */}
+            
+            {/* ============================================================== */}
+            {/* MÀN HÌNH 3: ÔN TẬP ĐỊNH KỲ (GIỮA KỲ / CUỐI KỲ)                  */}
+            {/* ============================================================== */}
+            {view === "periodic_exam" && (() => {
+              const allPeriodicExams = (typeof window !== "undefined" && window.PERIODIC_EXAM_BANK) || {};
+              const gradeExams = allPeriodicExams[periodicGrade] || {};
+              const termExams = gradeExams[periodicTerm] || [];
+              const currentExam = termExams[selectedPeriodicTestIdx] || termExams[0] || null;
+
+              const termNames = {
+                "mid1": "Giữa Học kỳ I",
+                "final1": "Cuối Học kỳ I",
+                "mid2": "Giữa Học kỳ II",
+                "final2": "Cuối Học kỳ II"
+              };
+
+              return (
+                <div className="space-y-6">
+                  {/* BANNER ÔN TẬP ĐỊNH KỲ */}
+                  <div className="bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print">
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                      <div className="flex items-center gap-3.5">
+                        <div className="w-12 h-12 bg-white/10 backdrop-blur rounded-2xl flex items-center justify-center text-2xl shrink-0">
+                          📝
+                        </div>
+                        <div>
+                          <div className="flex items-center gap-2">
+                            <span className="bg-emerald-400 text-slate-950 text-[10px] font-black px-2 py-0.5 rounded uppercase tracking-wider">
+                              ĐỀ THI ĐỊNH KỲ CHUẨN MA TRẬN
+                            </span>
+                            <span className="text-xs text-indigo-300">Khối 6, 7, 8, 9 • Thời gian: 90 phút • 10.0 điểm</span>
+                          </div>
+                          <h2 className="text-xl md:text-2xl font-black text-amber-300 mt-1 uppercase tracking-wide">
+                            HỆ THỐNG ĐỀ KIỂM TRA ĐỊNH KỲ TOÁN THCS
+                          </h2>
+                          <p className="text-xs md:text-sm text-slate-300 mt-0.5">
+                            Bộ sách Kết nối tri thức với cuộc sống • Chuẩn cấu trúc 4 phần (12 Trắc nghiệm + 2 Đúng/Sai + 4 Trả lời ngắn + 3 Tự luận)
+                          </p>
+                        </div>
+                      </div>
+
+                      {currentExam && (
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() => window.print()}
+                            className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition"
+                            title="In hoặc Lưu PDF đề thi"
+                          >
+                            <span>🖨️</span> In / Xuất PDF A4
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* BẢNG CHỌN KHỐI & KỲ THI */}
+                  <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5 no-print">
+                    {/* 1. Chọn Khối */}
+                    <div>
+                      <label className="block text-xs font-bold uppercase text-slate-700 mb-2">
+                        1. Chọn Khối lớp:
+                      </label>
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                        {[
+                          { id: "6", name: "Toán 6" },
+                          { id: "7", name: "Toán 7" },
+                          { id: "8", name: "Toán 8", tag: "Trọng tâm" },
+                          { id: "9", name: "Toán 9", tag: "Trọng tâm" },
+                        ].map((g) => (
+                          <button
+                            key={g.id}
+                            onClick={() => { setPeriodicGrade(g.id); setSelectedPeriodicTestIdx(0); }}
+                            className={`py-3 px-4 rounded-xl font-bold text-sm border transition relative flex items-center justify-center gap-2 ${
+                              periodicGrade === g.id
+                                ? "bg-indigo-600 text-white border-indigo-600 shadow-sm"
+                                : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                            }`}
+                          >
+                            <span>{g.name}</span>
+                            {g.tag && (
+                              <span className="text-[9px] bg-amber-400 text-slate-950 px-1.5 py-0.5 rounded font-black uppercase">
+                                {g.tag}
+                              </span>
+                            )}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* 2. Chọn Kỳ thi */}
+                    <div>
+                      <label className="block text-xs font-bold uppercase text-slate-700 mb-2">
+                        2. Chọn Kỳ thi định kỳ:
+                      </label>
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                        {[
+                          { id: "mid1", name: "Giữa kỳ 1", desc: "Nửa đầu Học kỳ I", icon: "🌱" },
+                          { id: "final1", name: "Cuối kỳ 1", desc: "Tổng hợp Học kỳ I", icon: "🍂" },
+                          { id: "mid2", name: "Giữa kỳ 2", desc: "Nửa đầu Học kỳ II", icon: "🌸" },
+                          { id: "final2", name: "Cuối kỳ 2", desc: "Tổng kết cả năm học", icon: "☀️" },
+                        ].map((t) => (
+                          <button
+                            key={t.id}
+                            onClick={() => { setPeriodicTerm(t.id); setSelectedPeriodicTestIdx(0); }}
+                            className={`p-3 rounded-xl border text-left transition ${
+                              periodicTerm === t.id
+                                ? "bg-indigo-50 border-indigo-600 ring-2 ring-indigo-200 text-indigo-950 shadow-sm"
+                                : "bg-slate-50 border-slate-200 hover:bg-slate-100 text-slate-700"
+                            }`}
+                          >
+                            <div className="flex items-center gap-1.5 font-bold text-sm">
+                              <span>{t.icon}</span>
+                              <span>{t.name}</span>
+                            </div>
+                            <div className="text-[11px] text-slate-500 mt-0.5">{t.desc}</div>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* 3. Danh sách các Đề thi tương ứng */}
+                    <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <label className="block text-xs font-bold uppercase text-slate-700">
+                          3. Danh sách Đề thi định kỳ (Toán {periodicGrade} - {termNames[periodicTerm]}):
+                        </label>
+                        <span className="text-xs text-indigo-600 font-semibold">
+                          {termExams.length} bộ đề sẵn sàng
+                        </span>
+                      </div>
+
+                      {termExams.length === 0 ? (
+                        <div className="p-6 text-center text-slate-500 text-sm bg-slate-50 rounded-xl border">
+                          Đang tải dữ liệu đề thi định kỳ cho Khối {periodicGrade}...
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                          {termExams.map((ex, idx) => (
+                            <button
+                              key={ex.id || idx}
+                              onClick={() => setSelectedPeriodicTestIdx(idx)}
+                              className={`p-4 rounded-xl border text-left transition relative ${
+                                selectedPeriodicTestIdx === idx
+                                  ? "bg-emerald-50 border-emerald-600 ring-2 ring-emerald-200 text-slate-900 shadow-sm"
+                                  : "bg-slate-50 border-slate-200 hover:bg-slate-100 text-slate-800"
+                              }`}
+                            >
+                              <div className="flex items-center justify-between">
+                                <span className="font-bold text-sm text-indigo-950">Đề số {ex.testNum || (idx + 1)}</span>
+                                <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${
+                                  idx === 0 ? "bg-blue-100 text-blue-800" : idx === 1 ? "bg-amber-100 text-amber-800" : "bg-purple-100 text-purple-800"
+                                }`}>
+                                  {idx === 0 ? "Cơ bản" : idx === 1 ? "Phân hóa" : "Trường điểm"}
+                                </span>
+                              </div>
+                              <div className="text-xs font-medium text-slate-600 mt-1 line-clamp-2">
+                                {ex.topic || ex.title}
+                              </div>
+                              <div className="text-[11px] text-slate-500 mt-2 flex items-center justify-between">
+                                <span>⏱️ 90 phút</span>
+                                <span>🎯 10.0 điểm</span>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* CHI TIẾT ĐỀ THI ĐƯỢC CHỌN */}
+                  {currentExam && (
+                    <div className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-6">
+                      {/* Tiêu đề đề thi & Nút hành động */}
+                      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-100 pb-4 no-print">
+                        <div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-[11px] bg-indigo-100 text-indigo-900 font-bold px-2.5 py-0.5 rounded-full">
+                              Toán {currentExam.grade} • {currentExam.termName}
+                            </span>
+                            <span className="text-xs text-slate-500 font-medium">Thời gian: {currentExam.duration} • 10.0 điểm</span>
+                          </div>
+                          <h3 className="text-lg md:text-xl font-black text-slate-900 mt-1">
+                            {currentExam.title}
+                          </h3>
+                        </div>
+
+                        <div className="flex flex-wrap items-center gap-2">
+                          <button
+                            onClick={() => handleStartPeriodicExam(currentExam)}
+                            className="bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs md:text-sm px-5 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5"
+                          >
+                            <span>🚀</span> Làm bài thi Online
+                          </button>
+                          <button
+                            onClick={() => setShowPeriodicSolution(!showPeriodicSolution)}
+                            className="bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs md:text-sm px-4 py-2.5 rounded-xl border border-slate-200 transition"
+                          >
+                            {showPeriodicSolution ? "Ẩn đáp án & Lời giải" : "📘 Xem đáp án & Lời giải"}
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* KHUNG NỘI DUNG ĐỀ THI ĐỊNH KỲ (CHUẨN MA TRẬN 4 PHẦN) */}
+                      <div className="space-y-6 font-times text-slate-900">
+                        {/* Header bài in */}
+                        <div className="text-center space-y-1 border-b pb-4">
+                          <div className="font-bold text-base md:text-lg uppercase">
+                            {currentExam.title}
+                          </div>
+                          <div className="text-xs md:text-sm italic text-slate-600">
+                            Thời gian làm bài: 90 phút (Không kể thời gian phát đề) • Đầy đủ 4 phần chuẩn ma trận
+                          </div>
+                          <div className="text-xs text-indigo-800 font-bold">
+                            Học sinh: {studentName || "(Chưa nhập)"} • Lớp: {className || "(Chưa nhập)"}
+                          </div>
+                        </div>
+
+                        {/* PHẦN I: 12 CÂU TRẮC NGHIỆM */}
+                        <div className="space-y-3">
+                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                            I. PHẦN TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm - 12 câu, mỗi câu 0,25đ)
+                          </div>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            {currentExam.part1.map((q) => (
+                              <div key={q.id} className="p-3 rounded-lg border border-slate-100 bg-slate-50/50 space-y-2 text-xs">
+                                <div className="font-semibold text-slate-900">
+                                  <span className="font-bold text-indigo-700">Câu {q.id}:</span>{" "}
+                                  <MathView text={q.question} />
+                                </div>
+                                <div className="grid grid-cols-2 gap-1.5 pl-2">
+                                  {q.options.map((opt, oIdx) => (
+                                    <div key={oIdx} className="text-slate-700">
+                                      <span className="font-bold mr-1">{String.fromCharCode(65 + oIdx)}.</span>
+                                      <MathView text={opt} />
+                                    </div>
+                                  ))}
+                                </div>
+                                {showPeriodicSolution && (
+                                  <div className="pt-1.5 border-t border-slate-200 text-emerald-800 font-medium">
+                                    <span className="font-bold">Đáp án: {String.fromCharCode(65 + q.correct)}</span> • {q.explanation}
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* PHẦN II: 2 CÂU ĐÚNG / SAI */}
+                        <div className="space-y-3 pt-2">
+                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                            II. PHẦN TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm - 2 câu, mỗi câu 1,0đ)
+                          </div>
+                          <div className="space-y-3">
+                            {currentExam.part2.map((q) => (
+                              <div key={q.id} className="p-3.5 rounded-lg border border-slate-200 bg-slate-50/50 space-y-2 text-xs">
+                                <div className="font-bold text-slate-900">
+                                  Câu {q.id}: <MathView text={q.stem || q.question} />
+                                </div>
+                                <div className="space-y-1.5 pl-2">
+                                  {(q.statements || []).map((st) => (
+                                    <div key={st.key || st.id} className="flex items-start justify-between gap-2 border-b border-slate-100 pb-1">
+                                      <div className="flex-1">
+                                        <span className="font-bold text-indigo-700 mr-1">{st.key || st.id})</span>
+                                        <MathView text={st.text || st.statement} />
+                                      </div>
+                                      {showPeriodicSolution && (
+                                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold shrink-0 ${
+                                          (st.correct !== undefined ? st.correct : st.isCorrect) ? "bg-emerald-100 text-emerald-800" : "bg-rose-100 text-rose-800"
+                                        }`}>
+                                          {(st.correct !== undefined ? st.correct : st.isCorrect) ? "Đúng" : "Sai"}
+                                        </span>
+                                      )}
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* PHẦN III: 4 CÂU TRẢ LỜI NGẮN */}
+                        <div className="space-y-3 pt-2">
+                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                            III. PHẦN TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 điểm - 4 câu, mỗi câu 0,5đ)
+                          </div>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            {currentExam.part3.map((q) => (
+                              <div key={q.id} className="p-3 rounded-lg border border-slate-100 bg-slate-50/50 space-y-1.5 text-xs">
+                                <div className="font-semibold text-slate-900">
+                                  <span className="font-bold text-indigo-700">Câu {q.id}:</span>{" "}
+                                  <MathView text={q.question} />
+                                </div>
+                                {showPeriodicSolution && (
+                                  <div className="pt-1 border-t border-slate-200 text-emerald-800 font-medium">
+                                    <span className="font-bold">Đáp số:</span> {q.answer} • {q.explanation}
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* PHẦN IV: 3 CÂU TỰ LUẬN */}
+                        <div className="space-y-3 pt-2">
+                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                            IV. PHẦN TỰ LUẬN (3,0 điểm - 3 câu, mỗi câu 1,0đ)
+                          </div>
+                          <div className="space-y-4">
+                            {currentExam.part4.map((q) => (
+                              <div key={q.id} className="p-3.5 rounded-lg border border-slate-200 bg-white space-y-2 text-xs">
+                                <div className="font-bold text-slate-900 text-sm">
+                                  Câu {q.id} ({q.points || 1.0} điểm):
+                                </div>
+                                <div className="text-slate-800 leading-relaxed font-serif text-[12pt]">
+                                  <MathView text={q.question} />
+                                </div>
+                                {showPeriodicSolution && (
+                                  <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-200 space-y-1.5">
+                                    <div className="font-bold text-emerald-950">Hướng dẫn giải & Barem điểm chuẩn:</div>
+                                    <div className="text-slate-700 leading-relaxed font-times">
+                                      <MathView text={q.modelSolution || q.rubric} />
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+
+
             {view === "grade10_mock" && (() => {
               const examsObj = mockExamsData?.exams || {};
               const examKeys = Object.keys(examsObj).length > 0
