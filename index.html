@@ -2747,11 +2747,20 @@ if (typeof window !== "undefined") {
         try { return localStorage.getItem("STUDENT_CLASS") || ""; } catch (e) { return ""; }
       });
 
-      // State chuyên dụng cho ÔN TẬP ĐỊNH KỲ (Khối 6, 7, 8, 9 - Giữa kỳ & Cuối kỳ)
+      // State chuyên dụng cho ÔN TẬP ĐỊNH KỲ (Khối 6, 7, 8, 9, 12 - Giữa kỳ & Cuối kỳ)
       const [periodicGrade, setPeriodicGrade] = useState("9");
       const [periodicTerm, setPeriodicTerm] = useState("mid1");
       const [selectedPeriodicTestIdx, setSelectedPeriodicTestIdx] = useState(0);
       const [showPeriodicSolution, setShowPeriodicSolution] = useState(false);
+      // State quản lí mở khóa tuần tự các đề định kỳ (Đề 1 mở sẵn, làm xong Đề 1 mở Đề 2,...)
+      const [periodicUnlocked, setPeriodicUnlocked] = useState(() => {
+        try {
+          const saved = localStorage.getItem("toan_periodic_unlocked");
+          return saved ? JSON.parse(saved) : {};
+        } catch (e) {
+          return {};
+        }
+      });
 
       // Hàm kiểm tra bắt buộc khai báo Họ tên và Lớp trước khi chuyển giao diện / làm bài
       const validateStudentInfo = () => {
@@ -2799,11 +2808,23 @@ if (typeof window !== "undefined") {
       // Bắt đầu làm bài thi định kỳ Online
       const handleStartPeriodicExam = (exam) => {
         if (!validateStudentInfo()) return;
+
+        // Kiểm tra xem đề thi có đang bị khóa hay không
+        if (exam && exam.grade && exam.term) {
+          const currentKey = `${exam.grade}_${exam.term}`;
+          const currentUnlocked = periodicUnlocked[currentKey] || 1;
+          const testNum = Number(exam.testNum) || 1;
+          if (testNum > currentUnlocked) {
+            showToast("warning", `Vui lòng hoàn thành và nộp bài Đề số ${testNum - 1} trước để mở khóa Đề số ${testNum}!`);
+            return;
+          }
+        }
+
         const normalized = normalizeExamData(exam);
         setMcAnswers({});
         setMcLockedIndex(0);
-        setTfAnswers({ 1: {}, 2: {} });
-        setSaAnswers({ 1: "", 2: "", 3: "", 4: "" });
+        setTfAnswers({ 1: {}, 2: {}, 3: {}, 4: {} });
+        setSaAnswers({ 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" });
         setEssayImages({ 1: null, 2: null, 3: null, 4: null });
         setSharedEssayImage(null);
         setExamData(normalized);
@@ -4025,6 +4046,22 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           console.warn("Lưu LocalStorage thất bại:", e);
         }
 
+        // Mở khóa tuần tự đề tiếp theo nếu đang thi định kỳ
+        if (examData && examData.grade && examData.term) {
+          const currentKey = `${examData.grade}_${examData.term}`;
+          const currentTestNum = Number(examData.testNum) || 1;
+          const nextUnlock = Math.min(8, currentTestNum + 1);
+          const currentUnlocked = periodicUnlocked[currentKey] || 1;
+          if (nextUnlock > currentUnlocked) {
+            const newUnlocked = { ...periodicUnlocked, [currentKey]: nextUnlock };
+            setPeriodicUnlocked(newUnlocked);
+            try {
+              localStorage.setItem("toan_periodic_unlocked", JSON.stringify(newUnlocked));
+            } catch (e) {}
+            showToast("success", `Chúc mừng! Em đã mở khóa thành công Đề số ${nextUnlock}!`);
+          }
+        }
+
         // Bước 4 (100%): "Hoàn thành chấm bài!"
         setGradingStep(4);
         setGradingPercent(100);
@@ -5167,7 +5204,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                     <h3 className="text-sm md:text-base font-bold text-indigo-950 uppercase">
 
-                      Phần II. Câu trắc nghiệm Đúng / Sai (2,0 điểm - 1,0 điểm/câu)
+                      Phần II. Câu trắc nghiệm Đúng / Sai ({examData.part2 && examData.part2.length === 4 ? "4,0 điểm - 4 câu" : "2,0 điểm - 2 câu"}, 1,0 điểm/câu)
 
                     </h3>
 
@@ -5270,7 +5307,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                     <h3 className="text-sm md:text-base font-bold text-indigo-950 uppercase">
 
-                      Phần III. Câu trắc nghiệm Trả lời ngắn (2,0 điểm - 0,5 điểm/câu)
+                      Phần III. Câu trắc nghiệm Trả lời ngắn ({examData.part3 && examData.part3.length === 6 ? "3,0 điểm - 6 câu" : "2,0 điểm - 4 câu"}, 0,5 điểm/câu)
 
                     </h3>
 
@@ -5342,6 +5379,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                 {/* PHẦN IV: TỰ LUẬN CHỤP ẢNH / CAMERA */}
 
+                {examData.part4 && examData.part4.length > 0 && (
                 <section className="border border-slate-200 rounded-2xl p-5 space-y-5 bg-white shadow-sm">
 
                   <div className="border-b pb-3">
@@ -5649,6 +5687,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   </div>
 
                 </section>
+                )}
 
 
 
@@ -5852,27 +5891,29 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                     <div className="p-3 rounded-xl border bg-white">
 
-                      <div className="text-xs text-slate-500">Phần II (2 câu Đúng/Sai)</div>
+                      <div className="text-xs text-slate-500">{examData.grade === "12" ? "Phần II (4 câu Đúng/Sai)" : "Phần II (2 câu Đúng/Sai)"}</div>
 
-                      <div className="text-lg font-bold text-slate-900">{resultData.scorePart2} / 2,0đ</div>
-
-                    </div>
-
-                    <div className="p-3 rounded-xl border bg-white">
-
-                      <div className="text-xs text-slate-500">Phần III (4 câu TL ngắn)</div>
-
-                      <div className="text-lg font-bold text-slate-900">{resultData.scorePart3} / 2,0đ</div>
+                      <div className="text-lg font-bold text-slate-900">{resultData.scorePart2} / {examData.grade === "12" ? "4,0" : "2,0"}đ</div>
 
                     </div>
 
                     <div className="p-3 rounded-xl border bg-white">
 
-                      <div className="text-xs text-slate-500">Phần IV (3 câu Tự luận)</div>
+                      <div className="text-xs text-slate-500">{examData.grade === "12" ? "Phần III (6 câu TL ngắn)" : "Phần III (4 câu TL ngắn)"}</div>
+
+                      <div className="text-lg font-bold text-slate-900">{resultData.scorePart3} / {examData.grade === "12" ? "3,0" : "2,0"}đ</div>
+
+                    </div>
+
+                    {examData.part4 && examData.part4.length > 0 && (
+                    <div className="p-3 rounded-xl border bg-white">
+
+                      <div className="text-xs text-slate-500">Phần IV (4 câu Tự luận)</div>
 
                       <div className="text-lg font-bold text-slate-900">{resultData.scorePart4} / 3,0đ</div>
 
                     </div>
+                    )}
 
                   </div>
 
@@ -6054,6 +6095,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                   {/* Chi tiết tự luận chấm AI Vision Chuẩn Bộ GD&ĐT */}
 
+                  {examData.part4 && examData.part4.length > 0 && (
                   <div className="space-y-4 pt-2">
 
                     <div className="flex flex-wrap items-center justify-between gap-2 border-b pb-2">
@@ -6317,6 +6359,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     })}
 
                   </div>
+                  )}
 
                 </div>
 
@@ -6367,7 +6410,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             <span className="bg-emerald-400 text-slate-950 text-[10px] font-black px-2 py-0.5 rounded uppercase tracking-wider">
                               ĐỀ THI ĐỊNH KỲ CHUẨN MA TRẬN
                             </span>
-                            <span className="text-xs text-indigo-300">Khối 6, 7, 8, 9 • Thời gian: 90 phút • 10.0 điểm</span>
+                            <span className="text-xs text-indigo-300">Khối 6, 7, 8, 9, 12 • Thời gian: 90 phút • 10.0 điểm</span>
                           </div>
                           <h2 className="text-xl md:text-2xl font-black text-amber-300 mt-1 uppercase tracking-wide">
                             HỆ THỐNG ĐỀ KIỂM TRA ĐỊNH KỲ TOÁN THCS
@@ -6399,12 +6442,13 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       <label className="block text-xs font-bold uppercase text-slate-700 mb-2">
                         1. Chọn Khối lớp:
                       </label>
-                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                      <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
                         {[
                           { id: "6", name: "Toán 6" },
                           { id: "7", name: "Toán 7" },
                           { id: "8", name: "Toán 8", tag: "Trọng tâm" },
                           { id: "9", name: "Toán 9", tag: "Trọng tâm" },
+                          { id: "12", name: "Toán 12", tag: "Cấu trúc mới" },
                         ].map((g) => (
                           <button
                             key={g.id}
@@ -6474,33 +6518,62 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         </div>
                       ) : (
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-                          {termExams.map((ex, idx) => (
-                            <button
-                              key={ex.id || idx}
-                              onClick={() => setSelectedPeriodicTestIdx(idx)}
-                              className={`p-4 rounded-xl border text-left transition relative ${
-                                selectedPeriodicTestIdx === idx
-                                  ? "bg-emerald-50 border-emerald-600 ring-2 ring-emerald-200 text-slate-900 shadow-sm"
-                                  : "bg-slate-50 border-slate-200 hover:bg-slate-100 text-slate-800"
-                              }`}
-                            >
-                              <div className="flex items-center justify-between">
-                                <span className="font-bold text-sm text-indigo-950">Đề số {ex.testNum || (idx + 1)}</span>
-                                <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${
-                                  idx === 0 ? "bg-blue-100 text-blue-800" : idx === 1 ? "bg-emerald-100 text-emerald-800" : idx === 2 ? "bg-amber-100 text-amber-800" : "bg-purple-100 text-purple-800"
-                                }`}>
-                                  {idx === 0 ? "Đề 01 (Cơ bản)" : idx === 1 ? "Đề 02 (Khá)" : idx === 2 ? "Đề 03 (Nâng cao)" : "Đề 04 (Phân hóa sâu)"}
-                                </span>
-                              </div>
-                              <div className="text-xs font-medium text-slate-600 mt-1 line-clamp-2">
-                                {ex.topic || ex.title}
-                              </div>
-                              <div className="text-[11px] text-slate-500 mt-2 flex items-center justify-between">
-                                <span>⏱️ 90 phút</span>
-                                <span>🎯 10.0 điểm</span>
-                              </div>
-                            </button>
-                          ))}
+                          {termExams.map((ex, idx) => {
+                            const unlockKey = `${periodicGrade}_${periodicTerm}`;
+                            const unlockedUpTo = periodicUnlocked[unlockKey] || 1;
+                            const isUnlocked = (idx + 1) <= unlockedUpTo;
+
+                            return (
+                              <button
+                                key={ex.id || idx}
+                                onClick={() => {
+                                  if (!isUnlocked) {
+                                    showToast("warning", `Vui lòng hoàn thành và nộp bài Đề số ${idx} trước để mở khóa Đề số ${idx + 1}!`);
+                                    return;
+                                  }
+                                  setSelectedPeriodicTestIdx(idx);
+                                }}
+                                className={`p-4 rounded-xl border text-left transition relative ${
+                                  !isUnlocked
+                                    ? "opacity-60 bg-slate-100/80 border-slate-200 cursor-not-allowed select-none"
+                                    : selectedPeriodicTestIdx === idx
+                                    ? "bg-emerald-50 border-emerald-600 ring-2 ring-emerald-200 text-slate-900 shadow-sm"
+                                    : "bg-slate-50 border-slate-200 hover:bg-slate-100 text-slate-800"
+                                }`}
+                              >
+                                <div className="flex items-center justify-between">
+                                  <span className="font-bold text-sm text-indigo-950">
+                                    Đề số {ex.testNum || (idx + 1)}
+                                  </span>
+                                  {isUnlocked ? (
+                                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${
+                                      idx === 0 ? "bg-blue-100 text-blue-800" :
+                                      idx === 1 ? "bg-emerald-100 text-emerald-800" :
+                                      idx === 2 ? "bg-amber-100 text-amber-800" :
+                                      idx === 3 ? "bg-purple-100 text-purple-800" :
+                                      idx === 4 ? "bg-teal-100 text-teal-800" :
+                                      idx === 5 ? "bg-rose-100 text-rose-800" :
+                                      idx === 6 ? "bg-indigo-100 text-indigo-800" :
+                                      "bg-violet-100 text-violet-800"
+                                    }`}>
+                                      {idx === 0 ? "Đề 01 (Cơ bản)" : idx === 1 ? "Đề 02 (Khá)" : idx === 2 ? "Đề 03 (Nâng cao)" : `Đề ${(idx + 1 < 10 ? '0' + (idx+1) : idx+1)}`}
+                                    </span>
+                                  ) : (
+                                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-200 text-slate-600 flex items-center gap-1">
+                                      <span>🔒</span> Chưa mở
+                                    </span>
+                                  )}
+                                </div>
+                                <div className="text-xs font-medium text-slate-600 mt-1 line-clamp-2">
+                                  {ex.topic || ex.title}
+                                </div>
+                                <div className="text-[11px] text-slate-500 mt-2 flex items-center justify-between">
+                                  <span>⏱️ 90 phút</span>
+                                  <span>🎯 10.0 điểm</span>
+                                </div>
+                              </button>
+                            );
+                          })}
                         </div>
                       )}
                     </div>
@@ -6587,7 +6660,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         {/* PHẦN II: 2 CÂU ĐÚNG / SAI */}
                         <div className="space-y-3 pt-2">
                           <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
-                            II. PHẦN TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm - 2 câu, mỗi câu 1,0đ)
+                            II. PHẦN TRẮC NGHIỆM ĐÚNG / SAI ({currentExam.part2 && currentExam.part2.length === 4 ? "4,0 điểm - 4 câu, mỗi câu 1,0đ" : "2,0 điểm - 2 câu, mỗi câu 1,0đ"})
                           </div>
                           <div className="space-y-3">
                             {currentExam.part2.map((q) => (
@@ -6620,7 +6693,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         {/* PHẦN III: 4 CÂU TRẢ LỜI NGẮN */}
                         <div className="space-y-3 pt-2">
                           <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
-                            III. PHẦN TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 điểm - 4 câu, mỗi câu 0,5đ)
+                            III. PHẦN TRẮC NGHIỆM TRẢ LỜI NGẮN ({currentExam.part3 && currentExam.part3.length === 6 ? "3,0 điểm - 6 câu, mỗi câu 0,5đ" : "2,0 điểm - 4 câu, mỗi câu 0,5đ"})
                           </div>
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             {currentExam.part3.map((q) => (
@@ -6639,7 +6712,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           </div>
                         </div>
 
-                        {/* PHẦN IV: 3 CÂU TỰ LUẬN */}
+                        {/* PHẦN IV: 4 CÂU TỰ LUẬN (Dành cho Khối 6, 7, 8, 9) */}
+                        {currentExam.part4 && currentExam.part4.length > 0 && (
                         <div className="space-y-3 pt-2">
                           <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
                             IV. PHẦN TỰ LUẬN (3,0 điểm - 4 câu)
@@ -6665,6 +6739,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             ))}
                           </div>
                         </div>
+                        )}
                       </div>
                     </div>
                   )}
