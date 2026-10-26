@@ -8,72 +8,72 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Căn bậc hai số học của số $a \\ge 0$ là:",
         "options": [
-          "Số không âm $x$ sao cho $x^2 = a$",
           "Số $x$ sao cho $x^2 = a$",
+          "Số không âm $x$ sao cho $x^2 = a$",
           "Số âm $x$ sao cho $x^2 = a$",
           "Số $2a$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Căn bậc hai số học của $49$ là:",
         "options": [
-          "$7$",
-          "$-7$",
           "$\\pm 7$",
+          "$-7$",
+          "$7$",
           "$49$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Số nào sau đây có căn bậc hai số học bằng $9$?",
         "options": [
-          "$81$",
-          "$3$",
           "$-81$",
-          "$\\pm 81$"
+          "$81$",
+          "$\\pm 81$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Căn thức bậc hai $\\sqrt{A}$ có nghĩa khi và chỉ khi:",
         "options": [
-          "$A \\ge 0$",
           "$A > 0$",
           "$A \\le 0$",
+          "$A \\ge 0$",
           "$A \\neq 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Căn thức $\\sqrt{x - 3}$ xác định khi:",
         "options": [
+          "$x < 3$",
           "$x \\ge 3$",
-          "$x > 3$",
           "$x \\le 3$",
-          "$x < 3$"
+          "$x > 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Căn thức $\\sqrt{2 - x}$ có nghĩa khi:",
         "options": [
-          "$x \\le 2$",
           "$x \\ge 2$",
+          "$x > 2$",
           "$x < 2$",
-          "$x > 2$"
+          "$x \\le 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -81,9 +81,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Giá trị của biểu thức $\\sqrt{(-5)^2}$ bằng:",
         "options": [
           "$5$",
-          "$-5$",
+          "$25$",
           "$\\pm 5$",
-          "$25$"
+          "$-5$"
         ],
         "correct": 0
       },
@@ -92,24 +92,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Với $a < 0$, giá trị của $\\sqrt{a^2}$ bằng:",
         "options": [
-          "$-a$",
+          "$a^2$",
           "$a$",
           "$\\pm a$",
-          "$a^2$"
+          "$-a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "So sánh $3$ và $\\sqrt{8}$:",
         "options": [
-          "$3 > \\sqrt{8}$",
+          "$3 \\le \\sqrt{8}$",
           "$3 < \\sqrt{8}$",
           "$3 = \\sqrt{8}$",
-          "$3 \\le \\sqrt{8}$"
+          "$3 > \\sqrt{8}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -117,9 +117,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tìm $x$ biết $\\sqrt{x} = 5$:",
         "options": [
           "$x = 25$",
-          "$x = 5$",
           "$x = \\pm 25$",
-          "$x = \\sqrt{5}$"
+          "$x = \\sqrt{5}$",
+          "$x = 5$"
         ],
         "correct": 0
       },
@@ -128,12 +128,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $\\sqrt{(2 - \\sqrt{5})^2}$ được kết quả là:",
         "options": [
-          "$\\sqrt{5} - 2$",
-          "$2 - \\sqrt{5}$",
           "$\\sqrt{5} + 2$",
+          "$2 - \\sqrt{5}$",
+          "$\\sqrt{5} - 2$",
           "$-2 - \\sqrt{5}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -141,9 +141,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Căn thức $\\sqrt{\\frac{1}{x^2}}$ có nghĩa khi:",
         "options": [
           "$x \\neq 0$",
-          "$x > 0$",
+          "Với mọi $x$",
           "$x \\ge 0$",
-          "Với mọi $x$"
+          "$x > 0$"
         ],
         "correct": 0
       }
@@ -296,72 +296,72 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Đẳng thức $\\sqrt{A^2} = |A|$ đúng với:",
         "options": [
-          "Mọi biểu thức $A$",
-          "Chỉ khi $A \\ge 0$",
           "Chỉ khi $A > 0$",
-          "Chỉ khi $A \\le 0$"
+          "Mọi biểu thức $A$",
+          "Chỉ khi $A \\le 0$",
+          "Chỉ khi $A \\ge 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Căn thức $\\sqrt{\\frac{-2}{x - 1}}$ có nghĩa khi:",
         "options": [
-          "$x < 1$",
-          "$x > 1$",
+          "$x \\ge 1$",
           "$x \\le 1$",
-          "$x \\ge 1$"
+          "$x > 1$",
+          "$x < 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Căn thức $\\sqrt{x^2 + 1}$ xác định với:",
         "options": [
+          "$x > 0$",
           "Mọi số thực $x$",
           "$x \\ge 0$",
-          "$x > 0$",
           "$x \\neq -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $P = \\sqrt{(x - 5)^2}$ với $x < 5$ được kết quả là:",
         "options": [
-          "$5 - x$",
-          "$x - 5$",
+          "$25 - x^2$",
           "$\\pm(x - 5)$",
-          "$25 - x^2$"
+          "$x - 5$",
+          "$5 - x$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Số các giá trị của $x$ thỏa mãn $\\sqrt{x^2} = 7$ là:",
         "options": [
+          "$0$",
           "$2$ ($x = 7$ hoặc $x = -7$)",
           "$1$",
-          "$0$",
           "Vô số"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt{2x - 1} = \\sqrt{5}$. Nghiệm là:",
         "options": [
-          "$x = 3$",
-          "$x = 2$",
+          "$x = \\sqrt{3}$",
           "$x = 13$",
-          "$x = \\sqrt{3}$"
+          "$x = 3$",
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -369,9 +369,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tìm tất cả các giá trị của $x$ để $\\sqrt{x - 2} \\le 3$:",
         "options": [
           "$2 \\le x \\le 11$",
+          "$0 \\le x \\le 11$",
           "$x \\le 11$",
-          "$x \\ge 2$",
-          "$0 \\le x \\le 11$"
+          "$x \\ge 2$"
         ],
         "correct": 0
       },
@@ -380,24 +380,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $M = \\sqrt{9 - 4\\sqrt{5}}$ được kết quả là:",
         "options": [
-          "$\\sqrt{5} - 2$",
           "$2 - \\sqrt{5}$",
           "$3 - 2\\sqrt{5}$",
+          "$\\sqrt{5} - 2$",
           "$\\sqrt{5} + 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\sqrt{(2x - 3)^2} = 5$:",
         "options": [
-          "$x = 4$ hoặc $x = -1$",
           "$x = 4$",
+          "$x = 1$",
           "$x = -1$",
-          "$x = 1$"
+          "$x = 4$ hoặc $x = -1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -405,9 +405,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = \\sqrt{x^2 - 2x + 5}$:",
         "options": [
           "$2$",
-          "$\\sqrt{5}$",
           "$1$",
-          "$4$"
+          "$4$",
+          "$\\sqrt{5}$"
         ],
         "correct": 0
       },
@@ -417,9 +417,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tập nghiệm của phương trình $\\sqrt{x^2 - 6x + 9} = 3 - x$ là:",
         "options": [
           "$x \\le 3$",
-          "$x \\ge 3$",
           "$x = 3$",
-          "Mọi $x$"
+          "Mọi $x$",
+          "$x \\ge 3$"
         ],
         "correct": 0
       },
@@ -428,12 +428,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các giá trị của $x$ để $\\sqrt{\\frac{x - 1}{x + 2}}$ có nghĩa:",
         "options": [
-          "$x < -2$ hoặc $x \\ge 1$",
           "$-2 < x \\le 1$",
-          "$x \\ge 1$",
-          "$x > -2$"
+          "$x > -2$",
+          "$x < -2$ hoặc $x \\ge 1$",
+          "$x \\ge 1$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -584,60 +584,60 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Với biểu thức $A$ bất kì, $\\sqrt{A^2}$ luôn bằng:",
         "options": [
-          "$|A|$",
-          "$A$",
           "$-A$",
-          "$\\pm A$"
+          "$\\pm A$",
+          "$A$",
+          "$|A|$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $\\sqrt{6 + 2\\sqrt{5}} - \\sqrt{5}$ là:",
         "options": [
+          "$\\sqrt{5}$",
           "$1$",
           "$-1$",
-          "$2\\sqrt{5}$",
-          "$\\sqrt{5}$"
+          "$2\\sqrt{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $\\sqrt{x^2} = |-3|$:",
         "options": [
-          "$x = \\pm 3$",
-          "$x = 3$",
           "$x = -3$",
-          "$x = 9$"
+          "$x = \\pm 3$",
+          "$x = 9$",
+          "$x = 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $P = \\sqrt{x + 2\\sqrt{x - 1}}$ với $x \\ge 1$ được kết quả là:",
         "options": [
-          "$\\sqrt{x - 1} + 1$",
           "$\\sqrt{x - 1} - 1$",
-          "$x - 1$",
-          "$x + 1$"
+          "$x + 1$",
+          "$\\sqrt{x - 1} + 1$",
+          "$x - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Số nghiệm của phương trình $\\sqrt{x^2 - 4x + 4} = 3$ là:",
         "options": [
-          "$2$ ($x = 5$ và $x = -1$)",
-          "$1$",
+          "Vô số",
           "$0$",
-          "Vô số"
+          "$2$ ($x = 5$ và $x = -1$)",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -645,9 +645,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Cho $x < 2$. Rút gọn biểu thức $\\sqrt{(x - 2)^2} + \\sqrt{(x - 3)^2}$ được kết quả là:",
         "options": [
           "$5 - 2x$",
+          "$-1$",
           "$1$",
-          "$2x - 5$",
-          "$-1$"
+          "$2x - 5$"
         ],
         "correct": 0
       },
@@ -656,12 +656,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $\\sqrt{4 + 2\\sqrt{3}} - \\sqrt{4 - 2\\sqrt{3}}$ là:",
         "options": [
-          "$2$",
-          "$2\\sqrt{3}$",
           "$0$",
+          "$2\\sqrt{3}$",
+          "$2$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -669,9 +669,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = \\sqrt{x - 2} + \\sqrt{6 - x}$:",
         "options": [
           "$2$",
-          "$\\sqrt{8} = 2\\sqrt{2}$",
           "$\\sqrt{6}$",
-          "$4$"
+          "$4$",
+          "$\\sqrt{8} = 2\\sqrt{2}$"
         ],
         "correct": 0
       },
@@ -680,24 +680,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị lớn nhất của biểu thức $B = \\sqrt{x - 1} + \\sqrt{5 - x}$:",
         "options": [
-          "$\\sqrt{8} = 2\\sqrt{2}$",
           "$2$",
+          "$\\sqrt{8} = 2\\sqrt{2}$",
           "$4$",
           "$\\sqrt{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Giải phương trình $\\sqrt{x^2 + 1} + \\sqrt{x^2 + 4} = 3$. Số nghiệm của phương trình là:",
         "options": [
-          "$1$ ($x = 0$)",
           "$2$",
           "$0$",
-          "Vô số"
+          "Vô số",
+          "$1$ ($x = 0$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -706,8 +706,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$\\sqrt{x + 1} + 1$",
           "$\\sqrt{x + 1} - 1$",
-          "$x + 2$",
-          "$\\sqrt{x + 2}$"
+          "$\\sqrt{x + 2}$",
+          "$x + 2$"
         ],
         "correct": 0
       },
@@ -716,12 +716,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết $\\sqrt{x^2 - 2x + 1} + \\sqrt{x^2 - 4x + 4} = 1$:",
         "options": [
-          "$1 \\le x \\le 2$",
           "$x \\ge 2$",
           "$x \\le 1$",
-          "Vô nghiệm"
+          "Vô nghiệm",
+          "$1 \\le x \\le 2$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -872,24 +872,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Với các số $a \\ge 0, b \\ge 0$, đẳng thức nào sau đây đúng?",
         "options": [
-          "$\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}$",
           "$\\sqrt{a \\cdot b} = \\sqrt{a} + \\sqrt{b}$",
           "$\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}$",
-          "$\\sqrt{a - b} = \\sqrt{a} - \\sqrt{b}$"
+          "$\\sqrt{a - b} = \\sqrt{a} - \\sqrt{b}$",
+          "$\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Với $a \\ge 0, b > 0$, đẳng thức nào sau đây đúng?",
         "options": [
-          "$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$",
-          "$\\sqrt{\\frac{a}{b}} = \\frac{a}{\\sqrt{b}}$",
           "$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{b}$",
-          "$\\sqrt{\\frac{a}{b}} = \\sqrt{a} - \\sqrt{b}$"
+          "$\\sqrt{\\frac{a}{b}} = \\sqrt{a} - \\sqrt{b}$",
+          "$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$",
+          "$\\sqrt{\\frac{a}{b}} = \\frac{a}{\\sqrt{b}}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -897,9 +897,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tính $\\sqrt{4 \\cdot 25}$ được kết quả là:",
         "options": [
           "$10$",
+          "$100$",
           "$20$",
-          "$50$",
-          "$100$"
+          "$50$"
         ],
         "correct": 0
       },
@@ -908,24 +908,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Tính $\\sqrt{\\frac{16}{81}}$ được kết quả là:",
         "options": [
-          "$\\frac{4}{9}$",
+          "$\\frac{16}{9}$",
           "$\\frac{2}{9}$",
           "$\\frac{4}{81}$",
-          "$\\frac{16}{9}$"
+          "$\\frac{4}{9}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $\\sqrt{2} \\cdot \\sqrt{8}$:",
         "options": [
-          "$4$",
-          "$16$",
           "$2$",
-          "$8$"
+          "$8$",
+          "$4$",
+          "$16$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -933,8 +933,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tính giá trị của biểu thức $\\frac{\\sqrt{75}}{\\sqrt{3}}$:",
         "options": [
           "$5$",
-          "$25$",
           "$15$",
+          "$25$",
           "$3$"
         ],
         "correct": 0
@@ -956,60 +956,60 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt{12} \\cdot \\sqrt{3}$:",
         "options": [
-          "$6$",
-          "$36$",
           "$3$",
-          "$12$"
+          "$6$",
+          "$12$",
+          "$36$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Biểu thức $\\sqrt{0{,}09 \\cdot 64}$ có giá trị bằng:",
         "options": [
-          "$2{,}4$",
-          "$0{,}24$",
           "$24$",
-          "$5{,}76$"
+          "$2{,}4$",
+          "$5{,}76$",
+          "$0{,}24$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $\\sqrt{2a} \\cdot \\sqrt{18a}$ với $a \\ge 0$:",
         "options": [
-          "$6a$",
-          "$36a$",
           "$6a^2$",
-          "$36a^2$"
+          "$36a$",
+          "$36a^2$",
+          "$6a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Tính giá trị biểu thức $\\sqrt{13^2 - 12^2}$:",
         "options": [
-          "$5$",
           "$1$",
-          "$25$",
-          "$\\sqrt{5}$"
+          "$5$",
+          "$\\sqrt{5}$",
+          "$25$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Với $x < 0$, biểu thức $\\sqrt{\\frac{x^2}{16}}$ rút gọn thành:",
         "options": [
-          "$-\\frac{x}{4}$",
-          "$\\frac{x}{4}$",
+          "$-\\frac{x^2}{4}$",
           "$\\frac{x^2}{4}$",
-          "$-\\frac{x^2}{4}$"
+          "$-\\frac{x}{4}$",
+          "$\\frac{x}{4}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1160,96 +1160,96 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Tính $\\sqrt{1{,}21 \\cdot 100}$ được kết quả là:",
         "options": [
-          "$11$",
           "$1{,}1$",
           "$110$",
-          "$121$"
+          "$121$",
+          "$11$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $\\sqrt{2{,}5} \\cdot \\sqrt{14{,}4}$ là:",
         "options": [
+          "$0{,}6$",
           "$6$",
           "$36$",
-          "$0{,}6$",
           "$60$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tính $\\frac{\\sqrt{192}}{\\sqrt{12}}$:",
         "options": [
-          "$4$",
           "$16$",
           "$2$",
-          "$8$"
+          "$8$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $\\sqrt{\\frac{9a^2}{b^4}}$ với $a < 0, b \\neq 0$ được kết quả là:",
         "options": [
-          "$-\\frac{3a}{b^2}$",
           "$\\frac{3a}{b^2}$",
           "$\\frac{-3a}{|b|}$",
+          "$-\\frac{3a}{b^2}$",
           "$\\frac{3a}{|b|}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Biểu thức $\\sqrt{27 \\cdot 48}$ có giá trị bằng:",
         "options": [
-          "$36$",
           "$18$",
+          "$48$",
           "$72$",
-          "$48$"
+          "$36$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $A = \\sqrt{3a^3} \\cdot \\sqrt{12a}$ với $a \\ge 0$:",
         "options": [
-          "$6a^2$",
-          "$36a^2$",
           "$6a$",
+          "$36a^2$",
+          "$6a^2$",
           "$36a$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Tính giá trị của biểu thức $\\sqrt{\\frac{52}{117}}$:",
         "options": [
-          "$\\frac{2}{3}$",
+          "$\\frac{13}{9}$",
           "$\\frac{4}{9}$",
-          "$\\frac{\\sqrt{52}}{\\sqrt{117}}$",
-          "$\\frac{13}{9}$"
+          "$\\frac{2}{3}$",
+          "$\\frac{\\sqrt{52}}{\\sqrt{117}}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt{3}x - \\sqrt{12} = 0$. Nghiệm là:",
         "options": [
-          "$x = 2$",
           "$x = 4$",
+          "$x = 2$",
           "$x = \\sqrt{2}$",
           "$x = 6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -1257,8 +1257,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tính giá trị của biểu thức $\\sqrt{21{,}6} \\cdot \\sqrt{810} \\cdot \\sqrt{11}$ không đúng, tính $\\sqrt{21{,}6} \\cdot \\sqrt{60}$ là:",
         "options": [
           "$36$",
-          "$18$",
           "$72$",
+          "$18$",
           "$12$"
         ],
         "correct": 0
@@ -1269,9 +1269,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Cho biểu thức $P = \\frac{\\sqrt{x^3 - 1}}{\\sqrt{x - 1}}$ với $x > 1$. Kết quả rút gọn là:",
         "options": [
           "$\\sqrt{x^2 + x + 1}$",
-          "$x + 1$",
+          "$x - 1$",
           "$\\sqrt{x^2 - x + 1}$",
-          "$x - 1$"
+          "$x + 1$"
         ],
         "correct": 0
       },
@@ -1280,12 +1280,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Rút gọn biểu thức $\\sqrt{\\frac{a + 2\\sqrt{ab} + b}{a - b}}$ với $a > b > 0$:",
         "options": [
-          "$\\frac{\\sqrt{a} + \\sqrt{b}}{\\sqrt{a - b}}$",
           "$1$",
+          "$\\frac{\\sqrt{a} + \\sqrt{b}}{\\sqrt{a - b}}$",
           "$\\frac{\\sqrt{a} - \\sqrt{b}}{\\sqrt{a - b}}$",
           "$\\sqrt{\\frac{a + b}{a - b}}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -1293,8 +1293,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tìm $x$ thỏa mãn $\\sqrt{x + 1} = \\frac{\\sqrt{x^2 - 1}}{\\sqrt{x - 1}}$ với $x > 1$:",
         "options": [
           "Nghiệm đúng với mọi $x > 1$",
-          "Vô nghiệm",
           "$x = 2$",
+          "Vô nghiệm",
           "$x = 3$"
         ],
         "correct": 0
@@ -1448,48 +1448,48 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Tính $\\sqrt{0{,}4} \\cdot \\sqrt{250}$ được kết quả là:",
         "options": [
-          "$10$",
           "$100$",
-          "$1$",
-          "$25$"
+          "$25$",
+          "$10$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Giá trị của $\\sqrt{2 + \\sqrt{3}} \\cdot \\sqrt{2 - \\sqrt{3}}$ là:",
         "options": [
-          "$1$",
           "$2$",
+          "$1$",
           "$\\sqrt{3}$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Biểu thức $\\frac{\\sqrt{a^3}}{\\sqrt{a}}$ với $a > 0$ bằng:",
         "options": [
-          "$a$",
-          "$a^2$",
+          "$1$",
           "$\\sqrt{a}$",
-          "$1$"
+          "$a$",
+          "$a^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Tính giá trị của biểu thức $A = (\\sqrt{5} + \\sqrt{3})(\\sqrt{5} - \\sqrt{3})$:",
         "options": [
-          "$2$",
           "$8$",
+          "$2$",
           "$4$",
           "$\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -1498,8 +1498,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$1$",
           "$x$",
-          "$y$",
-          "$\\frac{x}{y}$"
+          "$\\frac{x}{y}$",
+          "$y$"
         ],
         "correct": 0
       },
@@ -1508,12 +1508,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $(\\sqrt{6} + \\sqrt{2})(\\sqrt{3} - 2)\\sqrt{\\sqrt{3} + 2}$ là:",
         "options": [
-          "$-\\sqrt{2}$",
-          "$\\sqrt{2}$",
           "$2$",
-          "$-2$"
+          "$\\sqrt{2}$",
+          "$-2$",
+          "$-\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -1521,9 +1521,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Giải phương trình $\\sqrt{x - 1} \\cdot \\sqrt{x + 1} = 2\\sqrt{2}$. Nghiệm là:",
         "options": [
           "$x = 3$",
-          "$x = \\pm 3$",
+          "$x = \\sqrt{7}$",
           "$x = 9$",
-          "$x = \\sqrt{7}$"
+          "$x = \\pm 3$"
         ],
         "correct": 0
       },
@@ -1533,9 +1533,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tính giá trị biểu thức $S = \\sqrt{2 + \\sqrt{3}} + \\sqrt{2 - \\sqrt{3}}$:",
         "options": [
           "$\\sqrt{6}$",
+          "$2\\sqrt{3}$",
           "$2$",
-          "$\\sqrt{2}$",
-          "$2\\sqrt{3}$"
+          "$\\sqrt{2}$"
         ],
         "correct": 0
       },
@@ -1544,48 +1544,48 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $a, b > 0$. Biểu thức $\\sqrt{a + b + 2\\sqrt{ab}} - \\sqrt{a}$ bằng:",
         "options": [
+          "$b$",
           "$\\sqrt{b}$",
           "$-\\sqrt{b}$",
-          "$b$",
           "$a + b$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Rút gọn biểu thức $B = \\frac{\\sqrt{10} + \\sqrt{15}}{\\sqrt{8} + \\sqrt{12}}$ được kết quả là:",
         "options": [
-          "$\\frac{\\sqrt{5}}{2}$",
-          "$\\frac{\\sqrt{5}}{\\sqrt{2}}$",
           "$\\frac{5}{2}$",
+          "$\\frac{\\sqrt{5}}{\\sqrt{2}}$",
+          "$\\frac{\\sqrt{5}}{2}$",
           "$\\frac{\\sqrt{3}}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết $\\sqrt{x^2 - 9} = 2\\sqrt{x - 3}$:",
         "options": [
-          "$x = 3$ hoặc $x = 7$",
-          "$x = 3$",
           "$x = 7$",
-          "$x = -3$"
+          "$x = -3$",
+          "$x = 3$",
+          "$x = 3$ hoặc $x = 7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tính giá trị của tích $P = \\left(\\sqrt{4 + \\sqrt{15}} + \\sqrt{4 - \\sqrt{15}}\\right) \\cdot \\sqrt{2}$:",
         "options": [
+          "$\\sqrt{10}$",
           "$2\\sqrt{5} + 2\\sqrt{3}$? Không, $2\\sqrt{5}$ hoặc $\\sqrt{30}$",
-          "$\\sqrt{30}$",
           "$2\\sqrt{5}$",
-          "$\\sqrt{10}$"
+          "$\\sqrt{30}$"
         ],
-        "correct": 1
+        "correct": 3
       }
     ],
     "part2": [
@@ -1736,24 +1736,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Đưa thừa số ra ngoài dấu căn: với $b \\ge 0$, $\\sqrt{a^2 b}$ bằng:",
         "options": [
-          "$|a|\\sqrt{b}$",
           "$a\\sqrt{b}$",
+          "$a^2\\sqrt{b}$",
           "$-a\\sqrt{b}$",
-          "$a^2\\sqrt{b}$"
+          "$|a|\\sqrt{b}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Đưa thừa số vào trong dấu căn: với $a \\ge 0, b \\ge 0$, biểu thức $a\\sqrt{b}$ bằng:",
         "options": [
-          "$\\sqrt{a^2 b}$",
           "$\\sqrt{ab}$",
+          "$\\sqrt{ab^2}$",
           "$-\\sqrt{a^2 b}$",
-          "$\\sqrt{ab^2}$"
+          "$\\sqrt{a^2 b}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -1762,8 +1762,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$\\frac{\\sqrt{ab}}{|b|}$",
           "$\\frac{\\sqrt{a}}{b}$",
-          "$\\frac{a}{\\sqrt{b}}$",
-          "$\\sqrt{ab}$"
+          "$\\sqrt{ab}$",
+          "$\\frac{a}{\\sqrt{b}}$"
         ],
         "correct": 0
       },
@@ -1772,24 +1772,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{3}}$ ta được:",
         "options": [
+          "$\\sqrt{3}$",
           "$\\frac{\\sqrt{3}}{3}$",
           "$\\frac{3}{\\sqrt{3}}$",
-          "$\\sqrt{3}$",
           "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $\\sqrt{12} + \\sqrt{27}$ được kết quả là:",
         "options": [
+          "$\\sqrt{39}$",
           "$5\\sqrt{3}$",
           "$3\\sqrt{5}$",
-          "$\\sqrt{39}$",
           "$6\\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -1798,8 +1798,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$0$",
           "$\\sqrt{2}$",
-          "$2\\sqrt{2}$",
-          "$-\\sqrt{2}$"
+          "$-\\sqrt{2}$",
+          "$2\\sqrt{2}$"
         ],
         "correct": 0
       },
@@ -1809,9 +1809,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Trục căn thức ở mẫu của biểu thức $\\frac{2}{\\sqrt{5} - 1}$ được kết quả là:",
         "options": [
           "$\\frac{\\sqrt{5} + 1}{2}$",
-          "$\\sqrt{5} + 1$",
+          "$2(\\sqrt{5} + 1)$",
           "$\\frac{\\sqrt{5} - 1}{2}$",
-          "$2(\\sqrt{5} + 1)$"
+          "$\\sqrt{5} + 1$"
         ],
         "correct": 0
       },
@@ -1820,60 +1820,60 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Với $x \\ge 0$, biểu thức $3\\sqrt{x} - \\sqrt{4x} + \\sqrt{9x}$ rút gọn thành:",
         "options": [
-          "$4\\sqrt{x}$",
+          "$5\\sqrt{x}$",
           "$2\\sqrt{x}$",
           "$3\\sqrt{x}$",
-          "$5\\sqrt{x}$"
+          "$4\\sqrt{x}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{3} + \\sqrt{2}}$ ta được:",
         "options": [
-          "$\\sqrt{3} - \\sqrt{2}$",
           "$\\sqrt{3} + \\sqrt{2}$",
-          "$\\frac{\\sqrt{3} - \\sqrt{2}}{5}$",
-          "$1$"
+          "$\\sqrt{3} - \\sqrt{2}$",
+          "$1$",
+          "$\\frac{\\sqrt{3} - \\sqrt{2}}{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $P = \\left(\\frac{1}{\\sqrt{x} - 1} + \\frac{1}{\\sqrt{x} + 1}\\right) \\cdot \\frac{x - 1}{2}$ với $x \\ge 0, x \\neq 1$:",
         "options": [
-          "$\\sqrt{x}$",
+          "$1$",
           "$x$",
-          "$2\\sqrt{x}$",
-          "$1$"
+          "$\\sqrt{x}$",
+          "$2\\sqrt{x}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\sqrt{4x} - 2\\sqrt{x} + \\sqrt{9x} = 6$:",
         "options": [
-          "$x = 4$",
           "$x = 2$",
-          "$x = 16$",
-          "$x = 9$"
+          "$x = 9$",
+          "$x = 4$",
+          "$x = 16$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $\\frac{1}{2 + \\sqrt{3}} + \\frac{1}{2 - \\sqrt{3}}$ là:",
         "options": [
-          "$4$",
-          "$2\\sqrt{3}$",
           "$2$",
+          "$2\\sqrt{3}$",
+          "$4$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2025,9 +2025,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Với $a < 0$, biểu thức $a\\sqrt{3}$ đưa thừa số vào trong dấu căn thành:",
         "options": [
           "$-\\sqrt{3a^2}$",
-          "$\\sqrt{3a^2}$",
+          "$-3\\sqrt{a^2}$",
           "$\\sqrt{-3a^2}$",
-          "$-3\\sqrt{a^2}$"
+          "$\\sqrt{3a^2}$"
         ],
         "correct": 0
       },
@@ -2036,60 +2036,60 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Trục căn thức ở mẫu của $\\frac{6}{\\sqrt{7} - 1}$ được kết quả là:",
         "options": [
-          "$\\sqrt{7} + 1$",
           "$6(\\sqrt{7} + 1)$",
+          "$\\sqrt{7} + 1$",
           "$\\frac{\\sqrt{7} + 1}{6}$",
           "$\\sqrt{7} - 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $A = \\sqrt{20} - \\sqrt{45} + 3\\sqrt{80}$:",
         "options": [
-          "$11\\sqrt{5}$",
-          "$9\\sqrt{5}$",
           "$7\\sqrt{5}$",
+          "$9\\sqrt{5}$",
+          "$11\\sqrt{5}$",
           "$13\\sqrt{5}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $(\\sqrt{12} - \\sqrt{75}) \\cdot \\sqrt{3}$:",
         "options": [
+          "$3$",
           "$-9$",
-          "$9$",
           "$-3$",
-          "$3$"
+          "$9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Với $a > 0, b > 0$, rút gọn biểu thức $\\frac{a - b}{\\sqrt{a} - \\sqrt{b}}$ được kết quả là:",
         "options": [
-          "$\\sqrt{a} + \\sqrt{b}$",
-          "$\\sqrt{a} - \\sqrt{b}$",
           "$a + b$",
-          "$1$"
+          "$1$",
+          "$\\sqrt{a} - \\sqrt{b}$",
+          "$\\sqrt{a} + \\sqrt{b}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt{9x - 9} - 1 = 5$. Nghiệm của phương trình là:",
         "options": [
-          "$x = 5$",
           "$x = 4$",
-          "$x = 9$",
-          "$x = 2$"
+          "$x = 5$",
+          "$x = 2$",
+          "$x = 9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -2097,8 +2097,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Cho biểu thức $P = \\frac{\\sqrt{x}}{\\sqrt{x} - 1} - \\frac{1}{x - \\sqrt{x}}$ với $x > 0, x \\neq 1$. Rút gọn $P$ được kết quả là:",
         "options": [
           "$\\frac{\\sqrt{x} + 1}{\\sqrt{x}}$",
-          "$\\frac{\\sqrt{x} - 1}{\\sqrt{x}}$",
           "$1$",
+          "$\\frac{\\sqrt{x} - 1}{\\sqrt{x}}$",
           "$\\sqrt{x}$"
         ],
         "correct": 0
@@ -2108,48 +2108,48 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $\\frac{1}{3 + 2\\sqrt{2}} + \\frac{1}{3 - 2\\sqrt{2}}$ là:",
         "options": [
-          "$6$",
           "$4\\sqrt{2}$",
           "$1$",
+          "$6$",
           "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\sqrt{4x - 20} + \\sqrt{x - 5} - \\frac{1}{3}\\sqrt{9x - 45} = 4$:",
         "options": [
-          "$x = 9$",
           "$x = 4$",
-          "$x = 5$",
-          "$x = 7$"
+          "$x = 7$",
+          "$x = 9$",
+          "$x = 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = \\frac{x - 3\\sqrt{x} + 4}{\\sqrt{x}}$ với $x > 0$:",
         "options": [
-          "$1$",
-          "$2$",
           "$4$",
-          "$-1$"
+          "$-1$",
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $x = 7 - 4\\sqrt{3}$. Giá trị của biểu thức $\\sqrt{x} + \\frac{1}{\\sqrt{x}}$ là:",
         "options": [
-          "$4$",
           "$2\\sqrt{3}$",
+          "$14$",
           "$2$",
-          "$14$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -2158,8 +2158,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$9$",
           "$10$",
-          "$8$",
-          "$\\sqrt{99}$"
+          "$\\sqrt{99}$",
+          "$8$"
         ],
         "correct": 0
       }
@@ -2312,24 +2312,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức liên hợp của $\\sqrt{a} - \\sqrt{b}$ là:",
         "options": [
-          "$\\sqrt{a} + \\sqrt{b}$",
           "$\\sqrt{a} - \\sqrt{b}$",
           "$a + b$",
-          "$a - b$"
+          "$a - b$",
+          "$\\sqrt{a} + \\sqrt{b}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $\\frac{2}{\\sqrt{3} - 1} - \\frac{2}{\\sqrt{3} + 1}$:",
         "options": [
-          "$2$",
-          "$\\sqrt{3}$",
           "$2\\sqrt{3}$",
-          "$4$"
+          "$\\sqrt{3}$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -2337,8 +2337,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Cho $x > 0$. Rút gọn biểu thức $\\frac{x\\sqrt{y} + y\\sqrt{x}}{\\sqrt{xy}}$ với $y > 0$ được kết quả là:",
         "options": [
           "$\\sqrt{x} + \\sqrt{y}$",
-          "$x + y$",
           "$\\sqrt{x} - \\sqrt{y}$",
+          "$x + y$",
           "$\\sqrt{xy}$"
         ],
         "correct": 0
@@ -2348,24 +2348,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $A = \\sqrt{4 + 2\\sqrt{3}} - \\frac{1}{\\sqrt{3} - 1}$ là:",
         "options": [
-          "$\\frac{\\sqrt{3} + 1}{2}$",
-          "$1$",
           "$0$",
-          "$\\sqrt{3}$"
+          "$\\frac{\\sqrt{3} + 1}{2}$",
+          "$\\sqrt{3}$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho $P = \\frac{x - 9}{\\sqrt{x} + 3}$. Giá trị của $P$ khi $x = 4$ là:",
         "options": [
-          "$-1$",
-          "$1$",
+          "$-5$",
           "$5$",
-          "$-5$"
+          "$-1$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -2374,8 +2374,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$\\sqrt{ab}$",
           "$ab$",
-          "$\\sqrt{a} + \\sqrt{b}$",
-          "$a + b$"
+          "$a + b$",
+          "$\\sqrt{a} + \\sqrt{b}$"
         ],
         "correct": 0
       },
@@ -2384,36 +2384,36 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\frac{\\sqrt{x} - 2}{\\sqrt{x} + 1} = \\frac{1}{2}$:",
         "options": [
+          "$x = 16$",
           "$x = 25$",
           "$x = 5$",
-          "$x = 9$",
-          "$x = 16$"
+          "$x = 9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho biểu thức $A = \\frac{\\sqrt{x}}{\\sqrt{x} - 3}$ và $B = \\frac{2\\sqrt{x}}{\\sqrt{x} + 3}$. Có bao nhiêu giá trị nguyên của $x$ để $A \\cdot B < 0$?",
         "options": [
-          "$8$ ($x \\in \\{1, 2, \\dots, 8\\}$)",
           "$9$",
           "$7$",
+          "$8$ ($x \\in \\{1, 2, \\dots, 8\\}$)",
           "Vô số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $P = \\frac{\\sqrt{x} + 1}{\\sqrt{x} - 1}$. Tìm $x$ để $P = \\sqrt{x}$:",
         "options": [
-          "$Vô nghiệm$",
-          "$x = 1$",
+          "$x = 9$",
           "$x = 4$",
-          "$x = 9$"
+          "$Vô nghiệm$",
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -2421,9 +2421,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Rút gọn biểu thức $S = \\frac{1}{1 + \\sqrt{2}} + \\frac{1}{\\sqrt{2} + \\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{n} + \\sqrt{n+1}}$ được kết quả là:",
         "options": [
           "$\\sqrt{n+1} - 1$",
+          "$n$",
           "$\\sqrt{n+1}$",
-          "$\\sqrt{n} - 1$",
-          "$n$"
+          "$\\sqrt{n} - 1$"
         ],
         "correct": 0
       },
@@ -2432,24 +2432,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $P = \\frac{\\sqrt{x} + 3}{\\sqrt{x} + 1}$. Giá trị nhỏ nhất của $P$ khi $x \\ge 0$ là:",
         "options": [
+          "$0$",
           "$1$ (khi $x \\to +\\infty$, infimum là 1; tại $x = 0$ đạt max = 3)",
-          "$3$",
           "$2$",
-          "$0$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho biểu thức $Q = \\frac{x + 2}{\\sqrt{x}}$ với $x > 0$. Giá trị nhỏ nhất của $Q$ là:",
         "options": [
-          "$2\\sqrt{2}$",
           "$2$",
           "$4$",
-          "$\\sqrt{2}$"
+          "$\\sqrt{2}$",
+          "$2\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2600,36 +2600,36 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Căn bậc ba của số thực $a$ là số $x$ sao cho:",
         "options": [
-          "$x^3 = a$",
+          "$x = 3a$",
           "$x^2 = a$",
           "$3x = a$",
-          "$x = 3a$"
+          "$x^3 = a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Mỗi số thực $a$ có bao nhiêu căn bậc ba?",
         "options": [
-          "Duy nhất một căn bậc ba",
-          "Hai căn bậc ba đối nhau",
+          "Không có nếu $a < 0$",
           "Ba căn bậc ba",
-          "Không có nếu $a < 0$"
+          "Duy nhất một căn bậc ba",
+          "Hai căn bậc ba đối nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Căn bậc ba của $-8$ bằng:",
         "options": [
-          "$-2$",
-          "$2$",
+          "Không xác định",
           "$\\pm 2$",
-          "Không xác định"
+          "$-2$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2649,9 +2649,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Tính $\\sqrt[3]{125}$ được kết quả là:",
         "options": [
           "$5$",
+          "$15$",
           "$-5$",
-          "$25$",
-          "$15$"
+          "$25$"
         ],
         "correct": 0
       },
@@ -2660,12 +2660,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt[3]{-64}$:",
         "options": [
-          "$-4$",
           "$4$",
+          "$-4$",
           "$\\pm 4$",
           "$-8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -2674,8 +2674,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$-1$",
           "$5$",
-          "$1$",
-          "$-5$"
+          "$-5$",
+          "$1$"
         ],
         "correct": 0
       },
@@ -2684,60 +2684,60 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Căn thức bậc ba $\\sqrt[3]{x - 5}$ xác định với:",
         "options": [
-          "Mọi số thực $x$",
+          "$x \\le 5$",
           "$x \\ge 5$",
-          "$x > 5$",
-          "$x \\le 5$"
+          "Mọi số thực $x$",
+          "$x > 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt[3]{2} \\cdot \\sqrt[3]{4}$:",
         "options": [
-          "$2$",
-          "$4$",
           "$8$",
-          "$\\sqrt[3]{6}$"
+          "$4$",
+          "$\\sqrt[3]{6}$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\sqrt[3]{x} = -3$:",
         "options": [
-          "$x = -27$",
-          "$x = 27$",
           "$x = -9$",
-          "$x = 9$"
+          "$x = 27$",
+          "$x = 9$",
+          "$x = -27$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Tính giá trị của biểu thức $\\frac{\\sqrt[3]{54}}{\\sqrt[3]{2}}$:",
         "options": [
+          "$\\sqrt[3]{27}$",
           "$3$",
           "$27$",
-          "$9$",
-          "$\\sqrt[3]{27}$"
+          "$9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một khối rubik hình lập phương có thể tích là $216\\text{ cm}^3$. Độ dài cạnh của khối rubik đó là:",
         "options": [
+          "$36\\text{ cm}$",
           "$6\\text{ cm}$",
           "$14\\text{ cm}$",
-          "$36\\text{ cm}$",
           "$8\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2888,72 +2888,72 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Tính chất nào sau đây SAI với căn bậc ba?",
         "options": [
-          "$\\sqrt[3]{a}$ chỉ xác định khi $a \\ge 0$",
           "$a < b \\Leftrightarrow \\sqrt[3]{a} < \\sqrt[3]{b}$",
           "$\\sqrt[3]{ab} = \\sqrt[3]{a} \\cdot \\sqrt[3]{b}$",
+          "$\\sqrt[3]{a}$ chỉ xác định khi $a \\ge 0$",
           "$\\sqrt[3]{\\frac{a}{b}} = \\frac{\\sqrt[3]{a}}{\\sqrt[3]{b}}$ ($b \\neq 0$)"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt[3]{-0{,}027}$:",
         "options": [
+          "$-0{,}03$",
           "$-0{,}3$",
           "$0{,}3$",
-          "$-0{,}03$",
           "$0{,}03$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt[3]{5} \\cdot \\sqrt[3]{25}$:",
         "options": [
+          "$\\sqrt[3]{30}$",
           "$5$",
-          "$25$",
           "$125$",
-          "$\\sqrt[3]{30}$"
+          "$25$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $\\sqrt[3]{8a^3}$:",
         "options": [
-          "$2a$",
-          "$2|a|$",
+          "$8a$",
           "$4a$",
-          "$8a$"
+          "$2|a|$",
+          "$2a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $\\sqrt[3]{-27x^3}$:",
         "options": [
-          "$-3x$",
-          "$3x$",
+          "$-9x$",
           "$3|x|$",
-          "$-9x$"
+          "$-3x$",
+          "$3x$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt[3]{x^3 - 7} = 1$. Nghiệm là:",
         "options": [
-          "$x = 2$",
-          "$x = -2$",
+          "$x = 8$",
           "$x = \\pm 2$",
-          "$x = 8$"
+          "$x = -2$",
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -2961,9 +2961,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "So sánh $2\\sqrt[3]{3}$ và $\\sqrt[3]{25}$:",
         "options": [
           "$2\\sqrt[3]{3} < \\sqrt[3]{25}$",
+          "Không so sánh được",
           "$2\\sqrt[3]{3} > \\sqrt[3]{25}$",
-          "$2\\sqrt[3]{3} = \\sqrt[3]{25}$",
-          "Không so sánh được"
+          "$2\\sqrt[3]{3} = \\sqrt[3]{25}$"
         ],
         "correct": 0
       },
@@ -2972,36 +2972,36 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $(\\sqrt[3]{2} - 1)(\\sqrt[3]{4} + \\sqrt[3]{2} + 1)$ là:",
         "options": [
-          "$1$",
+          "$-1$",
           "$3$",
           "$2$",
-          "$-1$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt[3]{x} + \\sqrt[3]{-x} = 0$. Số nghiệm của phương trình là:",
         "options": [
-          "Vô số nghiệm",
-          "$1$ nghiệm",
+          "$2$ nghiệm",
           "$0$ nghiệm",
-          "$2$ nghiệm"
+          "Vô số nghiệm",
+          "$1$ nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $x = \\sqrt[3]{5\\sqrt{2} + 7} - \\sqrt[3]{5\\sqrt{2} - 7}$. Giá trị của $x$ là:",
         "options": [
+          "$2\\sqrt{2}$",
           "$2$",
           "$\\sqrt{2}$",
-          "$1$",
-          "$2\\sqrt{2}$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -3188,24 +3188,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt[3]{20 + 14\\sqrt{2}} + \\sqrt[3]{20 - 14\\sqrt{2}}$ được kết quả là:",
         "options": [
-          "$4$",
           "$2\\sqrt{2}$",
+          "$4$",
           "$2$",
           "$4\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Nghiệm của phương trình $\\sqrt[3]{x} = -4$ là:",
         "options": [
-          "$x = -64$",
           "$x = 64$",
           "$x = -12$",
-          "$x = -16$"
+          "$x = -16$",
+          "$x = -64$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -3213,9 +3213,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Rút gọn biểu thức $P = \\frac{a - b}{\\sqrt[3]{a} - \\sqrt[3]{b}}$ ($a \\neq b$):",
         "options": [
           "$\\sqrt[3]{a^2} + \\sqrt[3]{ab} + \\sqrt[3]{b^2}$",
-          "$\\sqrt[3]{a^2} - \\sqrt[3]{ab} + \\sqrt[3]{b^2}$",
+          "$a + b$",
           "$\\sqrt[3]{a} + \\sqrt[3]{b}$",
-          "$a + b$"
+          "$\\sqrt[3]{a^2} - \\sqrt[3]{ab} + \\sqrt[3]{b^2}$"
         ],
         "correct": 0
       },
@@ -3224,36 +3224,36 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt[3]{x + 1} + \\sqrt[3]{x + 2} + \\sqrt[3]{x + 3} = 0$. Nghiệm của phương trình là:",
         "options": [
-          "$x = -2$",
           "$x = 0$",
-          "$x = 2$",
-          "$x = -1$"
+          "$x = -1$",
+          "$x = -2$",
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $x = \\sqrt[3]{2 + \\sqrt{5}} + \\sqrt[3]{2 - \\sqrt{5}}$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$x = 4$",
           "$x^3 + 3x - 4 = 0 \\Rightarrow x = 1$",
-          "$x = 2$",
           "$x = 0$",
-          "$x = 4$"
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Tính giá trị của biểu thức $\\sqrt[3]{1 + \\sqrt{2}} \\cdot \\sqrt[3]{1 - \\sqrt{2}}$:",
         "options": [
-          "$-1$",
+          "$-\\sqrt{2}$",
           "$1$",
-          "$\\sqrt{2}$",
-          "$-\\sqrt{2}$"
+          "$-1$",
+          "$\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -3262,8 +3262,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$3$ nghiệm ($x = 1, x = 2, x = 1{,}5$)",
           "$1$ nghiệm",
-          "$2$ nghiệm",
-          "$0$ nghiệm"
+          "$0$ nghiệm",
+          "$2$ nghiệm"
         ],
         "correct": 0
       },
@@ -3272,48 +3272,48 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tính giá trị của biểu thức $P = \\sqrt[3]{9 + 4\\sqrt{5}} + \\sqrt[3]{9 - 4\\sqrt{5}}$:",
         "options": [
-          "$3$",
           "$1$",
-          "$2$",
-          "$4$"
+          "$4$",
+          "$3$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Rút gọn biểu thức $M = \\sqrt[3]{a + 3\\sqrt[3]{a^2 b} + 3\\sqrt[3]{ab^2} + b}$:",
         "options": [
+          "$a + b$",
           "$\\sqrt[3]{a} + \\sqrt[3]{b}$",
           "$\\sqrt[3]{a} - \\sqrt[3]{b}$",
-          "$a + b$",
           "$\\sqrt{a} + \\sqrt{b}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Số nghiệm nguyên của phương trình $\\sqrt[3]{x + 2} + \\sqrt{x - 1} = 3$ là:",
         "options": [
-          "$1$ ($x = 2$)",
-          "$2$",
           "$0$",
-          "$3$"
+          "$3$",
+          "$2$",
+          "$1$ ($x = 2$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c$ thỏa mãn $\\sqrt[3]{a} + \\sqrt[3]{b} + \\sqrt[3]{c} = 0$. Khi đó đẳng thức nào sau đây đúng?",
         "options": [
-          "$(a + b + c)^3 = 27abc$",
           "$a + b + c = 3abc$",
+          "$a + b + c = 0$",
           "$a^3 + b^3 + c^3 = 3abc$",
-          "$a + b + c = 0$"
+          "$(a + b + c)^3 = 27abc$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3464,48 +3464,48 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Căn bậc hai số học của $36$ là:",
         "options": [
-          "$6$",
           "$-6$",
           "$\\pm 6$",
-          "$18$"
+          "$18$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Căn thức $\\sqrt{x - 4}$ có nghĩa khi:",
         "options": [
-          "$x \\ge 4$",
-          "$x > 4$",
+          "$x < 4$",
           "$x \\le 4$",
-          "$x < 4$"
+          "$x \\ge 4$",
+          "$x > 4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây đúng với mọi $a \\ge 0, b \\ge 0$?",
         "options": [
+          "$\\sqrt{a - b} = \\sqrt{a} - \\sqrt{b}$",
           "$\\sqrt{ab} = \\sqrt{a} \\cdot \\sqrt{b}$",
           "$\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}$",
-          "$\\sqrt{a - b} = \\sqrt{a} - \\sqrt{b}$",
           "$\\sqrt{ab} = a\\sqrt{b}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Căn bậc ba của $-125$ là:",
         "options": [
+          "Không xác định",
           "$-5$",
           "$5$",
-          "$\\pm 5$",
-          "Không xác định"
+          "$\\pm 5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -3513,9 +3513,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Giá trị của biểu thức $\\sqrt{(-7)^2}$ là:",
         "options": [
           "$7$",
+          "$49$",
           "$-7$",
-          "$\\pm 7$",
-          "$49$"
+          "$\\pm 7$"
         ],
         "correct": 0
       },
@@ -3524,24 +3524,24 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $\\sqrt{50} - \\sqrt{18}$ được kết quả là:",
         "options": [
-          "$2\\sqrt{2}$",
           "$8\\sqrt{2}$",
-          "$\\sqrt{32}$",
-          "$4\\sqrt{2}$"
+          "$4\\sqrt{2}$",
+          "$2\\sqrt{2}$",
+          "$\\sqrt{32}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Trục căn thức ở mẫu của $\\frac{2}{\\sqrt{2}}$ ta được:",
         "options": [
-          "$\\sqrt{2}$",
-          "$2$",
           "$1$",
-          "$\\frac{1}{\\sqrt{2}}$"
+          "$2$",
+          "$\\frac{1}{\\sqrt{2}}$",
+          "$\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -3549,9 +3549,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Giá trị của $\\sqrt[3]{8} + \\sqrt[3]{27}$ là:",
         "options": [
           "$5$",
-          "$35$",
+          "$6$",
           "$\\sqrt[3]{35}$",
-          "$6$"
+          "$35$"
         ],
         "correct": 0
       },
@@ -3562,8 +3562,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$x = 16$",
           "$x = 2$",
-          "$x = \\pm 16$",
-          "$x = 8$"
+          "$x = 8$",
+          "$x = \\pm 16$"
         ],
         "correct": 0
       },
@@ -3572,36 +3572,36 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $\\sqrt{4 - 2\\sqrt{3}}$ được kết quả là:",
         "options": [
-          "$\\sqrt{3} - 1$",
-          "$1 - \\sqrt{3}$",
           "$\\sqrt{3} + 1$",
-          "$2 - \\sqrt{3}$"
+          "$\\sqrt{3} - 1$",
+          "$2 - \\sqrt{3}$",
+          "$1 - \\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Cho biểu thức $P = \\frac{x - 1}{\\sqrt{x} + 1}$ với $x \\ge 0$. Giá trị của $P$ khi $x = 9$ là:",
         "options": [
-          "$2$",
           "$4$",
           "$3$",
+          "$2$",
           "$8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giải phương trình $\\sqrt[3]{x - 1} = 2$. Nghiệm là:",
         "options": [
-          "$x = 9$",
-          "$x = 7$",
           "$x = 8$",
-          "$x = 5$"
+          "$x = 5$",
+          "$x = 7$",
+          "$x = 9$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3752,12 +3752,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức $\\sqrt{(3 - \\pi)^2}$ có giá trị bằng:",
         "options": [
+          "$\\pm(3 - \\pi)$",
           "$\\pi - 3$",
           "$3 - \\pi$",
-          "$\\pm(3 - \\pi)$",
           "Không xác định"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -3777,8 +3777,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Trục căn thức ở mẫu của $\\frac{4}{3 - \\sqrt{5}}$ được kết quả là:",
         "options": [
           "$3 + \\sqrt{5}$",
-          "$3 - \\sqrt{5}$",
           "$\\frac{3 + \\sqrt{5}}{4}$",
+          "$3 - \\sqrt{5}$",
           "$4(3 + \\sqrt{5})$"
         ],
         "correct": 0
@@ -3788,12 +3788,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $\\sqrt[3]{2} \\cdot \\sqrt[3]{32}$:",
         "options": [
-          "$4$",
           "$8$",
-          "$2$",
-          "$\\sqrt[3]{64}$"
+          "$\\sqrt[3]{64}$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -3802,8 +3802,8 @@ const CHAPTER3_TOAN9_EXAMS = {
         "options": [
           "$x = 5$",
           "$x = 4$",
-          "$x = 10$",
-          "$x = 2$"
+          "$x = 2$",
+          "$x = 10$"
         ],
         "correct": 0
       },
@@ -3812,84 +3812,84 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $M = \\sqrt{14 - 6\\sqrt{5}}$ được kết quả là:",
         "options": [
-          "$3 - \\sqrt{5}$",
-          "$\\sqrt{5} - 3$",
           "$3 + \\sqrt{5}$",
+          "$\\sqrt{5} - 3$",
+          "$3 - \\sqrt{5}$",
           "Không rút gọn được"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt{4x - 8} - 2 = 0$. Nghiệm là:",
         "options": [
-          "$x = 3$",
-          "$x = 2$",
           "$x = 4$",
-          "$x = 6$"
+          "$x = 6$",
+          "$x = 2$",
+          "$x = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $\\frac{1}{2 + \\sqrt{3}} - \\frac{1}{2 - \\sqrt{3}}$ là:",
         "options": [
-          "$-2\\sqrt{3}$",
           "$2\\sqrt{3}$",
-          "$4$",
-          "$-4$"
+          "$-2\\sqrt{3}$",
+          "$-4$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho biểu thức $P = \\frac{x - \\sqrt{x}}{\\sqrt{x} - 1}$ với $x > 0, x \\neq 1$. Giá trị của $P$ khi $x = 16$ là:",
         "options": [
+          "$8$",
           "$4$",
-          "$16$",
           "$2$",
-          "$8$"
+          "$16$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x - 4\\sqrt{x} + 7$ với $x \\ge 0$:",
         "options": [
-          "$3$",
-          "$7$",
+          "$1$",
           "$4$",
-          "$1$"
+          "$7$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tính giá trị biểu thức $S = \\sqrt[3]{10 + 6\\sqrt{3}} + \\sqrt[3]{10 - 6\\sqrt{3}}$:",
         "options": [
-          "$2$",
+          "$4$",
           "$\\sqrt{3}$",
           "$2\\sqrt{3}$",
-          "$4$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giải phương trình $\\sqrt{x - 1} + \\sqrt{4x - 4} = 6$. Nghiệm là:",
         "options": [
-          "$x = 5$",
-          "$x = 4$",
+          "$x = 17$",
           "$x = 9$",
-          "$x = 17$"
+          "$x = 5$",
+          "$x = 4$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -4041,9 +4041,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Cho $a \\ge 0$. Biểu thức $\\sqrt{a^2}$ luôn bằng:",
         "options": [
           "$a$",
-          "$-a$",
           "$|a|$",
-          "$\\pm a$"
+          "$\\pm a$",
+          "$-a$"
         ],
         "correct": 0
       },
@@ -4052,60 +4052,60 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $\\sqrt{17 - 12\\sqrt{2}}$ là:",
         "options": [
+          "$\\sqrt{2} - 1$",
           "$3 - 2\\sqrt{2}$",
           "$2\\sqrt{2} - 3$",
-          "$3 + 2\\sqrt{2}$",
-          "$\\sqrt{2} - 1$"
+          "$3 + 2\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tính $\\sqrt[3]{-0{,}125}$:",
         "options": [
-          "$-0{,}5$",
-          "$0{,}5$",
+          "$0{,}25$",
           "$-0{,}25$",
-          "$0{,}25$"
+          "$0{,}5$",
+          "$-0{,}5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $P = \\frac{x - 4}{\\sqrt{x} - 2} - \\frac{x + 2\\sqrt{x}}{\\sqrt{x}}$ với $x > 0, x \\neq 4$:",
         "options": [
-          "$0$",
-          "$2$",
           "$-2$",
-          "$\\sqrt{x}$"
+          "$\\sqrt{x}$",
+          "$0$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho $x = \\sqrt{2} - 1$. Giá trị của biểu thức $(x + 1)^4$ là:",
         "options": [
+          "$8$",
           "$4$",
           "$2$",
-          "$8$",
           "$16$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\sqrt{x^2 - 6x + 9} = 2x - 1$. Nghiệm là:",
         "options": [
-          "$x = \\frac{4}{3}$",
           "$x = 4$",
+          "$x = -2$",
           "$x = 2$",
-          "$x = -2$"
+          "$x = \\frac{4}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -4113,9 +4113,9 @@ const CHAPTER3_TOAN9_EXAMS = {
         "question": "Giá trị của biểu thức $\\frac{1}{\\sqrt{5} + \\sqrt{3}} + \\frac{1}{\\sqrt{5} - \\sqrt{3}}$ là:",
         "options": [
           "$\\sqrt{5}$",
+          "$2\\sqrt{3}$",
           "$2\\sqrt{5}$",
-          "$\\sqrt{3}$",
-          "$2\\sqrt{3}$"
+          "$\\sqrt{3}$"
         ],
         "correct": 0
       },
@@ -4124,36 +4124,36 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x - 2\\sqrt{x - 1}$ với $x \\ge 1$:",
         "options": [
-          "$1$",
           "$0$",
-          "$2$",
-          "$-1$"
+          "$1$",
+          "$-1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm giá trị lớn nhất của biểu thức $B = \\sqrt{x - 2} + \\sqrt{6 - x}$:",
         "options": [
-          "$2\\sqrt{2}$",
-          "$2$",
           "$4$",
-          "$\\sqrt{8}$"
+          "$\\sqrt{8}$",
+          "$2\\sqrt{2}$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số nghiệm của phương trình $\\sqrt{x - 2} + \\sqrt{y - 3} = \\frac{x + y - 1}{2}$ là:",
         "options": [
-          "$1$ nghiệm ($x = 3, y = 4$)",
           "$2$ nghiệm",
           "$0$ nghiệm",
+          "$1$ nghiệm ($x = 3, y = 4$)",
           "Vô số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -4172,12 +4172,12 @@ const CHAPTER3_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tính giá trị của biểu thức $S = \\sqrt[3]{2 + 10\\sqrt{\\frac{1}{27}}} + \\sqrt[3]{2 - 10\\sqrt{\\frac{1}{27}}}$:",
         "options": [
-          "$2$",
+          "$3$",
           "$1$",
           "$\\sqrt{3}$",
-          "$3$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [

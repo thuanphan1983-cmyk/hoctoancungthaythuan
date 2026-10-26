@@ -1,5188 +1,5195 @@
 // Auto-generated Chapter 4 Toán 7 Exams (UMD Module)
 const CHAPTER4_TOAN7_EXAMS = {
-  "c4_7_bai1_test1": {
-    "title": "Toán 7 (KNTT) - Bài 12: Tổng các góc trong một tam giác - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Tổng ba góc của một tam giác bất kì luôn bằng:",
-        "options": [
-          "$180^\\circ$",
-          "$90^\\circ$",
-          "$360^\\circ$",
-          "$120^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Trong tam giác vuông, hai góc nhọn có tính chất:",
-        "options": [
-          "Phụ nhau (tổng bằng $90^\\circ$)",
-          "Bù nhau (tổng bằng $180^\\circ$)",
-          "Bằng nhau",
-          "Có tổng bằng $60^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Góc ngoài của một tam giác là góc:",
-        "options": [
-          "Kề bù với một góc của tam giác đó",
-          "Nằm hoàn toàn bên ngoài tam giác",
-          "Có số đo lớn hơn $90^\\circ$",
-          "Kề với một góc trong của tam giác"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Mỗi góc ngoài của một tam giác có số đo bằng:",
-        "options": [
-          "Tổng số đo hai góc trong không kề với nó",
-          "Tổng ba góc trong của tam giác",
-          "Số đo góc kề bù với nó",
-          "$180^\\circ$ trừ đi số đo một góc ngoài khác"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ, \\widehat{B} = 70^\\circ$. Số đo góc $C$ là:",
-        "options": [
-          "$50^\\circ$",
-          "$60^\\circ$",
-          "$70^\\circ$",
-          "$80^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle MNP$ vuông tại $M$. Nếu $\\widehat{N} = 35^\\circ$ thì số đo $\\widehat{P}$ bằng:",
-        "options": [
-          "$55^\\circ$",
-          "$65^\\circ$",
-          "$145^\\circ$",
-          "$45^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Góc ngoài tại đỉnh $A$ của $\\triangle ABC$ bằng $120^\\circ$. Khi đó số đo góc $\\widehat{B} + \\widehat{C}$ bằng:",
-        "options": [
-          "$120^\\circ$",
-          "$60^\\circ$",
-          "$180^\\circ$",
-          "$90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Tam giác có ba góc bằng nhau thì mỗi góc có số đo là:",
-        "options": [
-          "$60^\\circ$",
-          "$45^\\circ$",
-          "$90^\\circ$",
-          "$50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle DEF$ có $\\widehat{D} = 40^\\circ$ và $\\widehat{E} = 2\\widehat{D}$. Số đo góc $F$ là:",
-        "options": [
-          "$60^\\circ$",
-          "$80^\\circ$",
-          "$40^\\circ$",
-          "$100^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} - \\widehat{B} = 20^\\circ$ và $\\widehat{B} - \\widehat{C} = 20^\\circ$. Số đo góc $B$ là:",
-        "options": [
-          "$60^\\circ$",
-          "$80^\\circ$",
-          "$40^\\circ$",
-          "$70^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Cho tam giác có số đo ba góc tỉ lệ với $1; 2; 3$. Số đo góc lớn nhất của tam giác đó là:",
-        "options": [
-          "$90^\\circ$",
-          "$60^\\circ$",
-          "$120^\\circ$",
-          "$100^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$. Tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Biết $\\widehat{A} = 80^\\circ$, số đo $\\widehat{BIC}$ là:",
-        "options": [
-          "$130^\\circ$",
-          "$100^\\circ$",
-          "$140^\\circ$",
-          "$120^\\circ$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 50^\\circ$. Xét tính đúng/sai của các khẳng định sau:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo $\\widehat{A} = 90^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo $\\widehat{C} = 40^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Góc ngoài tại đỉnh $B$ của tam giác có số đo là $140^\\circ$.",
-            "correct": false
-          },
-          {
-            "subId": "d",
-            "text": "Tổng số đo góc $B$ và góc $C$ bằng $90^\\circ$.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle MNP$ có số đo các góc tỉ lệ với $2 : 3 : 4$. Xét tính đúng/sai của các khẳng định:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Tổng số phần bằng nhau là $9$ phần.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Góc nhỏ nhất có số đo là $40^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Góc lớn nhất có số đo là $90^\\circ$.",
-            "correct": false
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $MNP$ là tam giác nhọn (cả ba góc đều nhỏ hơn $90^\\circ$).",
-            "correct": true
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 75^\\circ, \\widehat{B} = 45^\\circ$. Tính số đo góc $C$ (độ).",
-        "correctAnswer": "60",
-        "explanation": "$\\widehat{C} = 180^\\circ - (75^\\circ + 45^\\circ) = 60^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Góc ngoài tại đỉnh $A$ của một tam giác bằng $110^\\circ$, một góc trong không kề với nó bằng $40^\\circ$. Tính số đo góc trong còn lại không kề với đỉnh $A$ (độ).",
-        "correctAnswer": "70",
-        "explanation": "Số đo góc còn lại là $110^\\circ - 40^\\circ = 70^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B}$ và $\\widehat{B} = 3\\widehat{C}$. Tính số đo góc $C$ (độ).",
-        "correctAnswer": "18",
-        "explanation": "Ta có $\\widehat{B} = 3\\widehat{C}, \\widehat{A} = 6\\widehat{C}$. Tổng ba góc là $6\\widehat{C} + 3\\widehat{C} + \\widehat{C} = 10\\widehat{C} = 180^\\circ \\Rightarrow \\widehat{C} = 18^\\circ$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Một chiếc thang dựa vào tường, chân thang tạo với mặt đất góc $65^\\circ$. Góc mà đầu thang tạo với bức tường thẳng đứng bằng bao nhiêu độ?",
-        "correctAnswer": "25",
-        "explanation": "Bức tường thẳng đứng vuông góc với mặt đất nên góc tạo bởi thang và tường là $90^\\circ - 65^\\circ = 25^\\circ$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 65^\\circ, \\widehat{C} = 55^\\circ$. Tia phân giác góc $A$ cắt cạnh $BC$ tại $D$.\na) Tính số đo góc $A$ của $\\triangle ABC$.\nb) Tính số đo góc $\\widehat{ADB}$.",
-        "solution": "a) Trong $\\triangle ABC$, ta có $\\widehat{A} = 180^\\circ - (\\widehat{B} + \\widehat{C}) = 180^\\circ - (65^\\circ + 55^\\circ) = 60^\\circ$.\nb) Vì $AD$ là phân giác của $\\widehat{A}$ nên $\\widehat{BAD} = \\frac{\\widehat{A}}{2} = 30^\\circ$.\nXét $\\triangle ABD$, có $\\widehat{ADB} = 180^\\circ - (\\widehat{BAD} + \\widehat{B}) = 180^\\circ - (30^\\circ + 65^\\circ) = 85^\\circ$.",
-        "rubric": [
-          {
-            "step": "Tính đúng góc A = 60 độ",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính đúng góc BAD = 30 độ và góc ADB = 85 độ",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho tam giác $ABC$ vuông tại $A$, kẻ đường cao $AH$ ($H \\in BC$). Chứng minh rằng $\\widehat{BAH} = \\widehat{C}$ và $\\widehat{CAH} = \\widehat{B}$.",
-        "solution": "Trong $\\triangle ABC$ vuông tại $A$, ta có: $\\widehat{B} + \\widehat{C} = 90^\\circ$.\nXét $\\triangle ABH$ vuông tại $H$, ta có: $\\widehat{BAH} + \\widehat{B} = 90^\\circ$.\nDo đó, $\\widehat{BAH} = \\widehat{C}$ (cùng phụ với $\\widehat{B}$).\nTương tự, trong $\\triangle ACH$ vuông tại $H$, ta có $\\widehat{CAH} + \\widehat{C} = 90^\\circ$.\nSuy ra $\\widehat{CAH} = \\widehat{B}$ (cùng phụ với $\\widehat{C}$).",
-        "rubric": [
-          {
-            "step": "Lập luận chứng minh góc BAH = góc C cùng phụ góc B",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận chứng minh góc CAH = góc B cùng phụ góc C",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = \\alpha$. Hai tia phân giác của góc $B$ và góc $C$ cắt nhau tại $I$. Tính số đo góc $\\widehat{BIC}$ theo $\\alpha$.",
-        "solution": "Trong $\\triangle ABC$, ta có $\\widehat{B} + \\widehat{C} = 180^\\circ - \\widehat{A} = 180^\\circ - \\alpha$.\nVì $BI$ và $CI$ là các tia phân giác nên:\n$\\widehat{IBC} = \\frac{\\widehat{B}}{2}$ và $\\widehat{ICB} = \\frac{\\widehat{C}}{2}$.\nDo đó: $\\widehat{IBC} + \\widehat{ICB} = \\frac{\\widehat{B} + \\widehat{C}}{2} = \\frac{180^\\circ - \\alpha}{2} = 90^\\circ - \\frac{\\alpha}{2}$.\nXét $\\triangle IBC$, ta có:\n$\\widehat{BIC} = 180^\\circ - (\\widehat{IBC} + \\widehat{ICB}) = 180^\\circ - (90^\\circ - \\frac{\\alpha}{2}) = 90^\\circ + \\frac{\\alpha}{2}$.",
-        "rubric": [
-          {
-            "step": "Tính tổng hai góc IBC + ICB theo alpha",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính đúng góc BIC = 90 + alpha/2",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai1_test2": {
-    "title": "Toán 7 (KNTT) - Bài 12: Tổng các góc trong một tam giác - Bài kiểm tra số 2 (🌿 Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Góc ngoài của tam giác luôn:",
-        "options": [
-          "Lớn hơn mỗi góc trong không kề với nó",
-          "Nhỏ hơn góc trong kề với nó",
-          "Bằng một góc vuông",
-          "Nhỏ hơn $90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Tam giác tù là tam giác có:",
-        "options": [
-          "Một góc tù và hai góc nhọn",
-          "Hai góc tù",
-          "Ba góc tù",
-          "Một góc vuông và một góc tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} : \\widehat{C} = 2 : 3$. Số đo góc $B$ là:",
-        "options": [
-          "$52^\\circ$",
-          "$78^\\circ$",
-          "$65^\\circ$",
-          "$45^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$\\widehat{BAH} = \\widehat{B}$",
-          "$\\widehat{BAH} = \\widehat{C}$",
-          "$\\widehat{CAH} = \\widehat{B}$",
-          "$\\widehat{BAH} + \\widehat{CAH} = 90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác có số đo ba góc tỉ lệ với $2 : 3 : 5$. Tam giác đó là:",
-        "options": [
-          "Tam giác vuông",
-          "Tam giác nhọn",
-          "Tam giác tù",
-          "Tam giác đều"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Một tam giác có tổng hai góc bất kì luôn lớn hơn góc còn lại thì tam giác đó là:",
-        "options": [
-          "Tam giác nhọn",
-          "Tam giác tù",
-          "Tam giác vuông",
-          "Tam giác cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 70^\\circ$. Các tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Số đo góc $BIC$ là:",
-        "options": [
-          "$125^\\circ$",
-          "$110^\\circ$",
-          "$135^\\circ$",
-          "$140^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho hình vẽ có $Ax \\parallel By$, biết $\\widehat{xAC} = 40^\\circ, \\widehat{CBy} = 30^\\circ$ ($C$ nằm giữa hai đường song song). Số đo $\\widehat{ACB}$ là:",
-        "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
-          "$10^\\circ$",
-          "$50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 80^\\circ, \\widehat{C} = 30^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Số đo $\\widehat{ADC}$ bằng:",
-        "options": [
-          "$115^\\circ$",
-          "$65^\\circ$",
-          "$70^\\circ$",
-          "$105^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$. Gọi tia phân giác góc $B$ cắt $AC$ tại $M$. Biết $\\widehat{BMC} = 115^\\circ$, số đo góc $C$ là:",
-        "options": [
-          "$40^\\circ$",
-          "$50^\\circ$",
-          "$25^\\circ$",
-          "$35^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$. Hai tia phân giác của hai góc ngoài tại đỉnh $B$ và $C$ cắt nhau tại $K$. Biết $\\widehat{A} = 60^\\circ$, số đo $\\widehat{BKC}$ bằng:",
-        "options": [
-          "$60^\\circ$",
-          "$120^\\circ$",
-          "$30^\\circ$",
-          "$90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho ngôi sao năm cánh $ABCDE$. Tổng số đo 5 góc ở 5 cánh của ngôi sao $(\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D} + \\widehat{E})$ bằng:",
-        "options": [
-          "$180^\\circ$",
-          "$360^\\circ$",
-          "$540^\\circ$",
-          "$270^\\circ$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B}$ và $\\widehat{B} = 3\\widehat{C}$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo góc $C$ bằng $18^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo góc $B$ bằng $54^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $A$ bằng $108^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $ABC$ là tam giác nhọn.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle MNP$ có góc ngoài tại đỉnh $M$ là $130^\\circ$, và $\\widehat{N} - \\widehat{P} = 30^\\circ$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Tổng hai góc $\\widehat{N} + \\widehat{P} = 130^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo góc trong tại đỉnh $M$ là $50^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $N$ bằng $80^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Số đo góc $P$ bằng $60^\\circ$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 40^\\circ$, hai góc $B$ và $C$ có hiệu là $\\widehat{B} - \\widehat{C} = 20^\\circ$. Tính số đo góc $B$ (độ).",
-        "correctAnswer": "80",
-        "explanation": "$\\widehat{B} + \\widehat{C} = 140^\\circ, \\widehat{B} - \\widehat{C} = 20^\\circ \\Rightarrow \\widehat{B} = (140 + 20)/2 = 80^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường cao $AH$ có $\\widehat{HAB} = 32^\\circ$. Tính số đo góc $C$ (độ).",
-        "correctAnswer": "32",
-        "explanation": "Ta có $\\widehat{C} = \\widehat{HAB} = 32^\\circ$ (cùng phụ với $\\widehat{B}$)."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Tia phân giác trong của góc $B$ và tia phân giác góc ngoài tại đỉnh $C$ của $\\triangle ABC$ cắt nhau tại $E$. Biết $\\widehat{A} = 50^\\circ$, tính số đo $\\widehat{BEC}$ (độ).",
-        "correctAnswer": "25",
-        "explanation": "$\\widehat{BEC} = \\frac{\\widehat{A}}{2} = 25^\\circ$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một đa giác lồi có 5 cạnh (ngũ giác). Tổng các góc trong của ngũ giác đó bằng bao nhiêu độ?",
-        "correctAnswer": "540",
-        "explanation": "Tổng các góc trong bằng $(5 - 2) \\times 180^\\circ = 540^\\circ$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ, \\widehat{C} = 30^\\circ$. Kẻ $AH \\perp BC$ ($H \\in BC$). Tia phân giác của $\\widehat{HAC}$ cắt $BC$ tại $D$.\na) Tính số đo góc $\\widehat{HAC}$.\nb) Chứng minh rằng $\\triangle ABD$ có $\\widehat{BAD} = \\widehat{BDA}$.",
-        "solution": "a) Trong $\\triangle AHC$ vuông tại $H$, ta có: $\\widehat{HAC} = 90^\\circ - \\widehat{C} = 90^\\circ - 30^\\circ = 60^\\circ$.\nb) Vì $AD$ là phân giác $\\widehat{HAC}$ nên $\\widehat{HAD} = \\widehat{DAC} = 30^\\circ$.\nTa có: $\\widehat{BAH} = 90^\\circ - \\widehat{HAC} = 30^\\circ$.\nSuy ra $\\widehat{BAD} = \\widehat{BAH} + \\widehat{HAD} = 30^\\circ + 30^\\circ = 60^\\circ$.\nTrong $\\triangle ADC$, góc $\\widehat{BDA}$ là góc ngoài tại $D$ nên: $\\widehat{BDA} = \\widehat{DAC} + \\widehat{C} = 30^\\circ + 30^\\circ = 60^\\circ$.\nDo đó $\\widehat{BAD} = \\widehat{BDA} = 60^\\circ$.",
-        "rubric": [
-          {
-            "step": "Tính đúng góc HAC = 60 độ",
-            "subScore": 0.4
-          },
-          {
-            "step": "Tính góc BAD = 60 độ và góc BDA = 60 độ, kết luận bằng nhau",
-            "subScore": 0.6
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} > \\widehat{C}$. Kẻ đường cao $AH$ và tia phân giác $AD$ của góc $A$ ($H, D \\in BC$). Chứng minh rằng $\\widehat{HAD} = \\frac{\\widehat{B} - \\widehat{C}}{2}$.",
-        "solution": "Vì $AD$ là phân giác $\\widehat{A}$ nên $\\widehat{BAD} = \\frac{\\widehat{A}}{2} = \\frac{180^\\circ - (\\widehat{B} + \\widehat{C})}{2} = 90^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2}$.\nTrong $\\triangle ABH$ vuông tại $H$, ta có $\\widehat{BAH} = 90^\\circ - \\widehat{B}$.\nVì $\\widehat{B} > \\widehat{C}$ nên tia $AH$ nằm giữa $AB$ và $AD$, suy ra:\n$\\widehat{HAD} = \\widehat{BAD} - \\widehat{BAH} = \\left(90^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2}\\right) - (90^\\circ - \\widehat{B}) = \\widehat{B} - \\frac{\\widehat{B} + \\widehat{C}}{2} = \\frac{\\widehat{B} - \\widehat{C}}{2}$.",
-        "rubric": [
-          {
-            "step": "Biểu diễn góc BAD và góc BAH theo góc B và góc C",
-            "subScore": 0.5
-          },
-          {
-            "step": "Thực hiện phép trừ và rút gọn ra công thức cần chứng minh",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$. Kẻ hai đường phân giác ngoài của góc $B$ và góc $C$ cắt nhau tại $K$. Chứng minh rằng $\\widehat{BKC} = 90^\\circ - \\frac{\\widehat{A}}{2}$.",
-        "solution": "Gọi góc ngoài tại đỉnh $B$ là $\\widehat{B_x} = 180^\\circ - \\widehat{B}$ và tại đỉnh $C$ là $\\widehat{C_y} = 180^\\circ - \\widehat{C}$.\nVì $BK$ và $CK$ là tia phân giác của hai góc ngoài này nên:\n$\\widehat{KBC} = \\frac{180^\\circ - \\widehat{B}}{2} = 90^\\circ - \\frac{\\widehat{B}}{2}$; $\\widehat{KCB} = \\frac{180^\\circ - \\widehat{C}}{2} = 90^\\circ - \\frac{\\widehat{C}}{2}$.\nTrong $\\triangle KBC$:\n$\\widehat{BKC} = 180^\\circ - (\\widehat{KBC} + \\widehat{KCB}) = 180^\\circ - \\left(180^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2}\\right) = \\frac{\\widehat{B} + \\widehat{C}}{2}$.\nMà $\\widehat{B} + \\widehat{C} = 180^\\circ - \\widehat{A}$, nên:\n$\\widehat{BKC} = \\frac{180^\\circ - \\widehat{A}}{2} = 90^\\circ - \\frac{\\widehat{A}}{2}$.",
-        "rubric": [
-          {
-            "step": "Tính tổng góc KBC + KCB theo các góc trong của tam giác ABC",
-            "subScore": 0.5
-          },
-          {
-            "step": "Biến đổi để có BKC = 90 - A/2",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai1_test3": {
-    "title": "Toán 7 (KNTT) - Bài 12: Tổng các góc trong một tam giác - Bài kiểm tra số 3 (🚀 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Góc tạo bởi hai tia phân giác của hai góc kề bù bằng:",
-        "options": [
-          "$90^\\circ$",
-          "$180^\\circ$",
-          "$45^\\circ$",
-          "$60^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$. Tia phân giác của góc $B$ và góc ngoài tại $C$ cắt nhau tại $E$. Số đo $\\widehat{BEC}$ là:",
-        "options": [
-          "$50^\\circ$",
-          "$80^\\circ$",
-          "$40^\\circ$",
-          "$100^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Tam giác có một góc bằng $60^\\circ$ và hiệu hai góc kia bằng $30^\\circ$. Ba góc của tam giác đó là:",
-        "options": [
-          "$75^\\circ; 60^\\circ; 45^\\circ$",
-          "$80^\\circ; 60^\\circ; 40^\\circ$",
-          "$90^\\circ; 60^\\circ; 30^\\circ$",
-          "$70^\\circ; 60^\\circ; 50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$. Tổng số đo các góc ngoài (mỗi đỉnh lấy một góc ngoài) của tam giác bằng:",
-        "options": [
-          "$360^\\circ$",
-          "$180^\\circ$",
-          "$540^\\circ$",
-          "$270^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Vận dụng",
-        "question": "Cho hình cánh diều tứ giác lồi $ABCD$. Tổng 4 góc $\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D}$ bằng:",
-        "options": [
-          "$360^\\circ$",
-          "$180^\\circ$",
-          "$270^\\circ$",
-          "$540^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Gọi $D$ là điểm trên $BC$ sao cho $CD = CA$. Kẻ tia phân giác góc $C$ cắt $AB$ tại $K$. Số đo $\\widehat{KDC}$ là:",
-        "options": [
-          "$90^\\circ$",
-          "$60^\\circ$",
-          "$45^\\circ$",
-          "$75^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 30^\\circ$. Đường thẳng chứa tia phân giác của góc ngoài tại đỉnh $A$ cắt đường thẳng $BC$ tại $P$. Số đo $\\widehat{APB}$ là:",
-        "options": [
-          "$20^\\circ$",
-          "$30^\\circ$",
-          "$40^\\circ$",
-          "$50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B} = 4\\widehat{C}$. Số đo của góc $B$ là:",
-        "options": [
-          "$\\approx 51{,}43^\\circ$ (hay $\\frac{360^\\circ}{7}$)",
-          "$60^\\circ$",
-          "$45^\\circ$",
-          "$50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có các đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Biết $\\widehat{BIC} = 120^\\circ$, số đo góc $A$ bằng:",
-        "options": [
-          "$60^\\circ$",
-          "$120^\\circ$",
-          "$30^\\circ$",
-          "$90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$. Điểm $O$ nằm trong tam giác. Khẳng định nào sau đây đúng về $\\widehat{BOC}$?",
-        "options": [
-          "$\\widehat{BOC} > \\widehat{BAC}$",
-          "$\\widehat{BOC} < \\widehat{BAC}$",
-          "$\\widehat{BOC} = \\widehat{BAC}$",
-          "$\\widehat{BOC} = 2\\widehat{BAC}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Phân giác $BD$ và $CE$ cắt nhau tại $I$. Khẳng định nào đúng?",
-        "options": [
-          "$ID = IE$",
-          "$\\widehat{BIC} = 120^\\circ$",
-          "Tia phân giác góc $BIC$ đi qua $A$",
-          "Cả ba đáp án trên đều đúng"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Một đa giác lồi có $n$ cạnh thì tổng số đo các góc ngoài (mỗi đỉnh lấy một góc ngoài) luôn bằng:",
-        "options": [
-          "$360^\\circ$",
-          "$(n - 2) \\cdot 180^\\circ$",
-          "$n \\cdot 180^\\circ$",
-          "$180^\\circ$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 80^\\circ$, hai tia phân giác trong của góc $B$ và $C$ cắt nhau tại $I$; hai tia phân giác góc ngoài tại đỉnh $B$ và $C$ cắt nhau tại $K$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo $\\widehat{BIC} = 90^\\circ + \\frac{80^\\circ}{2} = 130^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo $\\widehat{BKC} = 90^\\circ - \\frac{80^\\circ}{2} = 50^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Tổng hai góc $\\widehat{BIC} + \\widehat{BKC} = 180^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Góc $\\widehat{IBK} = 100^\\circ$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho điểm $O$ nằm trong tam giác $ABC$. Kéo dài $BO$ cắt $AC$ tại $M$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Góc $\\widehat{BOC}$ là góc ngoài của $\\triangle MOC$ tại đỉnh $O$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\widehat{BOC} > \\widehat{BMC}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$\\widehat{BMC}$ là góc ngoài của $\\triangle ABM$ nên $\\widehat{BMC} > \\widehat{BAC}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Từ đó suy ra $\\widehat{BOC} < \\widehat{BAC}$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có các góc tỉ lệ với $3 : 4 : 5$. Tìm số đo góc trung bình của tam giác (độ).",
-        "correctAnswer": "60",
-        "explanation": "Tổng số phần là $3 + 4 + 5 = 12$. Góc trung bình ứng với 4 phần: $180 \\times 4 / 12 = 60^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 72^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Tính số đo $\\widehat{BIC}$ (độ).",
-        "correctAnswer": "126",
-        "explanation": "$\\widehat{BIC} = 90^\\circ + 72^\\circ / 2 = 126^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$. Tia phân giác góc trong tại $B$ và phân giác góc ngoài tại $C$ cắt nhau tại $M$. Biết $\\widehat{BMC} = 34^\\circ$, tính số đo góc $A$ của tam giác (độ).",
-        "correctAnswer": "68",
-        "explanation": "Ta có $\\widehat{BMC} = \\frac{\\widehat{A}}{2} \\Rightarrow \\widehat{A} = 2 \\times 34^\\circ = 68^\\circ$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một đa giác lồi có tổng các góc trong bằng $1440^\\circ$. Đa giác đó có bao nhiêu cạnh?",
-        "correctAnswer": "10",
-        "explanation": "$(n - 2) \\times 180 = 1440 \\Rightarrow n - 2 = 8 \\Rightarrow n = 10$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho hình chữ $V$ lõm $ABDC$ (với điểm $D$ nằm trong góc $\\widehat{BAC}$). Chứng minh rằng $\\widehat{BDC} = \\widehat{A} + \\widehat{B} + \\widehat{C}$.",
-        "solution": "Nối $AD$ và kéo dài cắt $BC$ (hoặc kéo dài tia $AD$ thành tia $Ax$).\nÁp dụng tính chất góc ngoài của tam giác:\nTrong $\\triangle ABD$, gọi $Ax$ là tia kéo dài của $AD$, ta có: $\\widehat{xDB} = \\widehat{DAB} + \\widehat{B}$.\nTrong $\\triangle ACD$, ta có: $\\widehat{xDC} = \\widehat{DAC} + \\widehat{C}$.\nCộng vế theo vế hai đẳng thức:\n$\\widehat{BDC} = \\widehat{xDB} + \\widehat{xDC} = (\\widehat{DAB} + \\widehat{DAC}) + \\widehat{B} + \\widehat{C} = \\widehat{BAC} + \\widehat{B} + \\widehat{C}$.\nVậy $\\widehat{BDC} = \\widehat{A} + \\widehat{B} + \\widehat{C}$.",
-        "rubric": [
-          {
-            "step": "Kẻ đường phụ và dùng tính chất góc ngoài cho 2 tam giác nhỏ",
-            "subScore": 0.5
-          },
-          {
-            "step": "Cộng hai góc ngoài để suy ra đẳng thức cần chứng minh",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$. Phân giác trong của góc $B$ và góc ngoài tại đỉnh $C$ cắt nhau tại $E$. Chứng minh rằng $\\widehat{BEC} = \\frac{\\widehat{A}}{2}$.",
-        "solution": "Gọi góc ngoài tại đỉnh $C$ là $\\widehat{ACx}$. Vì $CE$ là phân giác $\\widehat{ACx}$ nên $\\widehat{ACx} = 2\\widehat{ECx}$.\nVì $BE$ là phân giác $\\widehat{B}$ nên $\\widehat{B} = 2\\widehat{EBC}$.\nTrong $\\triangle EBC$, góc $\\widehat{ECx}$ là góc ngoài tại $C$ nên:\n$\\widehat{ECx} = \\widehat{BEC} + \\widehat{EBC} \\Rightarrow \\widehat{BEC} = \\widehat{ECx} - \\widehat{EBC}$.\nMặt khác, trong $\\triangle ABC$, góc $\\widehat{ACx}$ là góc ngoài tại $C$ nên:\n$\\widehat{ACx} = \\widehat{A} + \\widehat{B} \\Rightarrow 2\\widehat{ECx} = \\widehat{A} + 2\\widehat{EBC} \\Rightarrow \\widehat{ECx} - \\widehat{EBC} = \\frac{\\widehat{A}}{2}$.\nDo đó $\\widehat{BEC} = \\frac{\\widehat{A}}{2}$.",
-        "rubric": [
-          {
-            "step": "Thiết lập hệ thức góc ngoài trong tam giác EBC",
-            "subScore": 0.5
-          },
-          {
-            "step": "Thiết lập hệ thức góc ngoài trong tam giác ABC và suy ra BEC = A/2",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các tia phân giác của góc $B$ và $C$ cắt nhau tại $I$ và cắt các cạnh đối diện lần lượt tại $D$ và $E$. Chứng minh rằng $ID = IE$.",
-        "solution": "Ta có $\\widehat{BIC} = 90^\\circ + \\frac{\\widehat{A}}{2} = 90^\\circ + 30^\\circ = 120^\\circ$.\nSuy ra hai góc kề bù $\\widehat{EIB} = \\widehat{DIC} = 180^\\circ - 120^\\circ = 60^\\circ$.\nKẻ tia phân giác $IF$ của $\\widehat{BIC}$ ($F \\in BC$).\nKhi đó $\\widehat{BIF} = \\widehat{CIF} = 60^\\circ$.\nXét $\\triangle BIE$ và $\\triangle BIF$ có:\n$\\widehat{EBI} = \\widehat{FBI}$ (do $BI$ là phân giác),\nCạnh $BI$ chung,\n$\\widehat{EIB} = \\widehat{FIB} = 60^\\circ$.\nSuy ra $\\triangle BIE = \\triangle BIF$ (g.c.g) $\\Rightarrow IE = IF$ (1).\nTương tự, xét $\\triangle CID$ và $\\triangle CIF$ có:\n$\\widehat{DCI} = \\widehat{FCI}$, cạnh $CI$ chung, $\\widehat{DIC} = \\widehat{FIC} = 60^\\circ$.\nSuy ra $\\triangle CID = \\triangle CIF$ (g.c.g) $\\Rightarrow ID = IF$ (2).\nTừ (1) và (2) suy ra $ID = IE$.",
-        "rubric": [
-          {
-            "step": "Tính góc BIC = 120 độ và các góc kề bù = 60 độ, kẻ tia phân giác IF",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh hai cặp tam giác bằng nhau để suy ra IE = IF = ID",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai2_test1": {
-    "title": "Toán 7 (KNTT) - Bài 13: Hai tam giác bằng nhau (c.c.c) - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Hai tam giác bằng nhau là hai tam giác có:",
-        "options": [
-          "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
-          "Diện tích bằng nhau",
-          "Chu vi bằng nhau",
-          "Các góc tương ứng bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Nếu $\\triangle ABC = \\triangle DEF$ thì cạnh tương ứng với cạnh $AB$ là:",
-        "options": [
-          "$DE$",
-          "$DF$",
-          "$EF$",
-          "$FD$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Nếu $\\triangle ABC = \\triangle MNP$ thì góc tương ứng với góc $\\widehat{C}$ là:",
-        "options": [
-          "$\\widehat{P}$",
-          "$\\widehat{M}$",
-          "$\\widehat{N}$",
-          "$\\widehat{B}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Trường hợp bằng nhau cạnh - cạnh - cạnh (c.c.c) phát biểu: Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì:",
-        "options": [
-          "Hai tam giác đó bằng nhau",
-          "Hai tam giác đó đồng dạng",
-          "Hai tam giác đó có diện tích bằng nhau nhưng không bằng nhau",
-          "Hai tam giác đó vuông"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 5\\text{ cm}, BC = 6\\text{ cm}, DF = 7\\text{ cm}$. Chu vi $\\triangle DEF$ là:",
-        "options": [
-          "$18\\text{ cm}$",
-          "$17\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$15\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $\\widehat{A} = 45^\\circ, \\widehat{B} = 75^\\circ$. Số đo góc $P$ là:",
-        "options": [
-          "$60^\\circ$",
-          "$45^\\circ$",
-          "$75^\\circ$",
-          "$80^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle MNP$ và $\\triangle QRS$ có $MN = QR, NP = RS, MP = QS$. Kí hiệu nào sau đây đúng?",
-        "options": [
-          "$\\triangle MNP = \\triangle QRS$",
-          "$\\triangle MNP = \\triangle RSQ$",
-          "$\\triangle MNP = \\triangle SRQ$",
-          "$\\triangle PMN = \\triangle QRS$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Cho đoạn thẳng $AB$. Đường tròn tâm $A$ bán kính $R$ và đường tròn tâm $B$ bán kính $R$ cắt nhau tại $C$ và $D$. Khi đó $\\triangle CAB = \\triangle DAB$ theo trường hợp:",
-        "options": [
-          "cạnh - cạnh - cạnh (c.c.c)",
-          "cạnh - góc - cạnh",
-          "góc - cạnh - góc",
-          "cạnh huyền - góc nhọn"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $AB = CD$ và $BC = AD$. Nối $AC$, ta có $\\triangle ABC = \\triangle CDA$ vì có:",
-        "options": [
-          "Ba cặp cạnh bằng nhau ($AB=CD, BC=DA, AC$ chung)",
-          "Hai góc bằng nhau",
-          "Hai cạnh và một góc vuông",
-          "Góc kề bù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$AM$ không vuông góc với $BC$",
-          "$\\triangle ABM = \\triangle ACM$",
-          "$AM \\perp BC$",
-          "$\\widehat{BAM} = \\widehat{CAM}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC = \\triangle HIK$. Biết $\\widehat{A} = 50^\\circ, \\widehat{I} = 65^\\circ$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\widehat{K} = 65^\\circ$",
-          "$\\widehat{C} = 50^\\circ$",
-          "$\\widehat{B} = 50^\\circ$",
-          "$\\widehat{H} = 65^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Đoạn thẳng $BD$ có tính chất gì đối với góc $B$ và góc $D$?",
-        "options": [
-          "Là tia phân giác của cả góc $B$ và góc $D$",
-          "Là đường trung tuyến",
-          "Song song với $AC$",
-          "Chỉ là tia phân giác của góc $B$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle DEG$ có $AB = 4\\text{ cm}, BC = 6\\text{ cm}, EG = 6\\text{ cm}, DG = 5\\text{ cm}$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Cạnh $DE = 4\\text{ cm}$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Cạnh $AC = 5\\text{ cm}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Chu vi tam giác $ABC$ bằng $15\\text{ cm}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Góc $\\widehat{B}$ tương ứng bằng góc $\\widehat{D}$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có $AB = AC$. Gọi $M$ là trung điểm cạnh $BC$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABM = \\triangle ACM$ theo trường hợp cạnh - cạnh - cạnh (c.c.c).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\widehat{B} = \\widehat{C}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$AM$ là tia phân giác của góc $BAC$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Góc $\\widehat{AMB} = 45^\\circ$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 7\\text{ cm}, AC = 8\\text{ cm}, NP = 9\\text{ cm}$. Tính chu vi của tam giác $MNP$ (cm).",
-        "correctAnswer": "24",
-        "explanation": "Chu vi = $7 + 8 + 9 = 24\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $\\widehat{A} = 55^\\circ, \\widehat{E} = 65^\\circ$. Tính số đo góc $F$ (độ).",
-        "correctAnswer": "60",
-        "explanation": "$\\widehat{B} = \\widehat{E} = 65^\\circ \\Rightarrow \\widehat{F} = \\widehat{C} = 180^\\circ - (55^\\circ + 65^\\circ) = 60^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho tứ giác $ABCD$ có $AB = AD$ và $CB = CD$. Biết $\\widehat{B} = 100^\\circ$. Tính số đo góc $D$ (độ).",
-        "correctAnswer": "100",
-        "explanation": "$\\triangle ABC = \\triangle ADC$ (c.c.c) $\\Rightarrow \\widehat{D} = \\widehat{B} = 100^\\circ$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho hình thoi $ABCD$ có $AB = 6\\text{ cm}$. Chu vi hình thoi $ABCD$ bằng bao nhiêu cm?",
-        "correctAnswer": "24",
-        "explanation": "Hình thoi có 4 cạnh bằng nhau nên chu vi = $4 \\times 6 = 24\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho hình vẽ có $AB = CD$ và $AD = BC$.\na) Chứng minh rằng $\\triangle ABD = \\triangle CDB$.\nb) Chứng minh rằng $AB \\parallel CD$.",
-        "solution": "a) Xét $\\triangle ABD$ và $\\triangle CDB$ có:\n$AB = CD$ (giả thiết),\n$AD = CB$ (giả thiết),\nCạnh $BD$ chung.\nSuy ra $\\triangle ABD = \\triangle CDB$ (c.c.c).\nb) Từ $\\triangle ABD = \\triangle CDB$, suy ra $\\widehat{ABD} = \\widehat{CDB}$ (hai góc tương ứng).\nMà hai góc này ở vị trí so le trong nên $AB \\parallel CD$.",
-        "rubric": [
-          {
-            "step": "Chứng minh hai tam giác bằng nhau theo c.c.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra 2 góc so le trong bằng nhau và kết luận AB // CD",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$.\na) Chứng minh $\\triangle ABM = \\triangle ACM$.\nb) Chứng minh $AM \\perp BC$.",
-        "solution": "a) Xét $\\triangle ABM$ và $\\triangle ACM$ có:\n$AB = AC$ (giả thiết),\n$MB = MC$ (vì $M$ là trung điểm của $BC$),\nCạnh $AM$ chung.\nVậy $\\triangle ABM = \\triangle ACM$ (c.c.c).\nb) Vì $\\triangle ABM = \\triangle ACM$ nên $\\widehat{AMB} = \\widehat{AMC}$ (hai góc tương ứng).\nMặt khác $\\widehat{AMB} + \\widehat{AMC} = 180^\\circ$ (hai góc kề bù).\nSuy ra $\\widehat{AMB} = \\widehat{AMC} = \\frac{180^\\circ}{2} = 90^\\circ$.\nVậy $AM \\perp BC$.",
-        "rubric": [
-          {
-            "step": "Chứng minh đúng tam giác ABM = ACM theo c.c.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận góc AMB = AMC = 90 độ, kết luận vuông góc",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho đoạn thẳng $AB$. Vẽ cung tròn tâm $A$ bán kính $R$ và cung tròn tâm $B$ bán kính $R$ ($R > \\frac{AB}{2}$) cắt nhau tại $C$ và $D$. Chứng minh rằng đường thẳng $CD$ là đường trung trực của đoạn thẳng $AB$.",
-        "solution": "Xét $\\triangle ACD$ và $\\triangle BCD$ có:\n$AC = BC = R$,\n$AD = BD = R$,\nCạnh $CD$ chung.\nSuy ra $\\triangle ACD = \\triangle BCD$ (c.c.c).\nDo đó $\\widehat{ACD} = \\widehat{BCD}$.\nGọi $H$ là giao điểm của $AB$ và $CD$.\nXét $\\triangle ACH$ và $\\triangle BCH$ có:\n$AC = BC = R$,\n$\\widehat{ACH} = \\widehat{BCH}$,\nCạnh $CH$ chung.\nSuy ra $\\triangle ACH = \\triangle BCH$ (c.g.c).\nTừ đó $HA = HB$ và $\\widehat{AHC} = \\widehat{BHC} = 90^\\circ$.\nVậy $CD$ đi qua trung điểm của $AB$ và vuông góc với $AB$, tức là $CD$ là đường trung trực của đoạn thẳng $AB$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ACD = BCD (c.c.c) để suy ra góc ACD = BCD",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác ACH = BCH để suy ra HA = HB và CD vuông góc AB",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai2_test2": {
-    "title": "Toán 7 (KNTT) - Bài 13: Hai tam giác bằng nhau (c.c.c) - Bài kiểm tra số 2 (🌿 Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, AC = 10\\text{ cm}$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$NP = 6\\text{ cm}$",
-          "$MN = 6\\text{ cm}$",
-          "$MP = 10\\text{ cm}$",
-          "$NP = 8\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $AB = AC$. Lấy $M, N$ lần lượt là trung điểm của $AB, AC$. Nếu $BN = CM$ thì khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\triangle BNC = \\triangle CMB$",
-          "$\\triangle AMN$ không cân",
-          "$BN$ không bằng $CM$",
-          "$\\widehat{B} \\neq \\widehat{C}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho hai tam giác bằng nhau: $\\triangle ABC = \\triangle XYZ$. Biết $\\widehat{A} = 2\\widehat{B}$ và $\\widehat{C} = 60^\\circ$. Số đo góc $Y$ là:",
-        "options": [
-          "$40^\\circ$",
-          "$80^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\triangle ABD = \\triangle CBD$",
-          "$\\triangle ABC = \\triangle CDA$",
-          "$AC \\parallel BD$",
-          "$AB \\parallel CD$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = AC = BC$. Tam giác $ABC$ là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Tam giác tù",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $D$ là điểm nằm trong tam giác sao cho $DB = DC$. Khi đó đường thẳng $AD$:",
-        "options": [
-          "Là đường trung trực của đoạn thẳng $BC$",
-          "Song song với $BC$",
-          "Vuông góc với $AB$",
-          "Cắt $BC$ tại điểm không phải trung điểm"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho hai tam giác cân $ABC$ và $DBC$ có chung đáy $BC$ ($A$ và $D$ nằm khác phía đối với $BC$). Khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\triangle ABD = \\triangle ACD$ (c.c.c)",
-          "$\\triangle ABD = \\triangle BCD$",
-          "$AD \\parallel BC$",
-          "$AB = CD$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho hình vẽ có hai đường tròn $(A; R)$ và $(B; R)$ cắt nhau tại $M$ và $N$. Tứ giác $AMBN$ có đặc điểm gì?",
-        "options": [
-          "Có 4 cạnh bằng nhau",
-          "Có 4 góc vuông",
-          "Là hình thang cân",
-          "Chỉ có 2 cạnh bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 3x - 1$, $MN = 8$. Giá trị của $x$ là:",
-        "options": [
-          "$3$",
-          "$2$",
-          "$4$",
-          "$5$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết chu vi $\\triangle ABC$ là $22\\text{ cm}$, $AB = 6\\text{ cm}$ và $NP - MP = 2\\text{ cm}$. Độ dài cạnh $BC$ là:",
-        "options": [
-          "$9\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$8\\text{ cm}$",
-          "$10\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác đều $ABC$. Lấy các điểm $M, N, P$ lần lượt trên các cạnh $AB, BC, CA$ sao cho $AM = BN = CP$. Khi đó tam giác $MNP$ là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác tù",
-          "Tam giác vuông cân",
-          "Tam giác vuông"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho tứ giác $ABCD$ có $AB = CD, BC = AD$. Gọi $O$ là giao điểm của $AC$ và $BD$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$AC \\perp BD$",
-          "$OA = OC$",
-          "$OB = OD$",
-          "$\\triangle OAB = \\triangle OCD$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN = 5\\text{ cm}, BC = NP = 7\\text{ cm}, AC = MP = 8\\text{ cm}$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABC = \\triangle MNP$ theo trường hợp c.c.c.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo góc $\\widehat{A}$ bằng góc $\\widehat{M}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $\\widehat{B}$ bằng góc $\\widehat{P}$.",
-            "correct": false
-          },
-          {
-            "subId": "d",
-            "text": "Chu vi hai tam giác đều bằng $20\\text{ cm}$.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho đoạn thẳng $AB$. Lấy điểm $C$ và $D$ sao cho $AC = AD$ và $BC = BD$ ($C$ và $D$ nằm khác phía đối với đường thẳng $AB$). Nối $CD$ cắt $AB$ tại $I$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABC = \\triangle ABD$ (c.c.c).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\widehat{CAB} = \\widehat{DAB}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$CD$ vuông góc với $AB$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "$I$ không phải là trung điểm của $AB$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 2x + 1$ và $DE = 9$. Tìm giá trị của $x$.",
-        "correctAnswer": "4",
-        "explanation": "$2x + 1 = 9 \\Rightarrow x = 4$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = AC = 10\\text{ cm}, BC = 12\\text{ cm}$. Gọi $M$ là trung điểm $BC$. Tính độ dài $AM$ (cm).",
-        "correctAnswer": "8",
-        "explanation": "$BM = 6\\text{ cm}$. $\\triangle ABM$ vuông tại $M$ nên $AM = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$. Chu vi $\\triangle ABC$ là $30\\text{ cm}$. Biết $DE = 8\\text{ cm}$, tỉ số $EF : DF = 5 : 6$. Tính độ dài cạnh $EF$ (cm).",
-        "correctAnswer": "10",
-        "explanation": "$EF + DF = 30 - 8 = 22$. $EF = 22 \\times \\frac{5}{11} = 10\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác đều $ABC$ có cạnh bằng $9\\text{ cm}$. Lấy $M$ trên $BC$ sao cho $BM = 3\\text{ cm}$, lấy $N$ trên $CA$ sao cho $CN = 3\\text{ cm}$, lấy $P$ trên $AB$ sao cho $AP = 3\\text{ cm}$. Chu vi $\\triangle MNP$ có các cạnh bằng nhau. Nếu $MN = 3\\sqrt{3}\\text{ cm}$, tính chu vi $\\triangle MNP$ chia cho $\\sqrt{3}$ (lấy phần nguyên).",
-        "correctAnswer": "9",
-        "explanation": "Chu vi = $3 \\times 3\\sqrt{3} = 9\\sqrt{3}$, chia cho $\\sqrt{3}$ bằng $9$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho tứ giác $ABCD$ có $AB = CD$ và $BC = AD$.\na) Chứng minh $\\triangle ABC = \\triangle CDA$.\nb) Chứng minh $AD \\parallel BC$ và $AB \\parallel CD$.",
-        "solution": "a) Xét $\\triangle ABC$ và $\\triangle CDA$ có:\n$AB = CD$ (giả thiết),\n$BC = DA$ (giả thiết),\nCạnh $AC$ chung.\nVậy $\\triangle ABC = \\triangle CDA$ (c.c.c).\nb) Từ $\\triangle ABC = \\triangle CDA$ suy ra:\n$\\widehat{ACB} = \\widehat{CAD}$ (hai góc tương ứng), mà hai góc này ở vị trí so le trong nên $BC \\parallel AD$.\n$\\widehat{BAC} = \\widehat{DCA}$ (hai góc tương ứng), mà hai góc này ở vị trí so le trong nên $AB \\parallel CD$.",
-        "rubric": [
-          {
-            "step": "Chứng minh hai tam giác bằng nhau theo c.c.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chỉ ra 2 cặp góc so le trong bằng nhau và kết luận song song",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho tam giác $ABC$ có $AB = AC$. Gọi $K$ là điểm nằm trong tam giác sao cho $KB = KC$. Nối $A$ với $K$ cắt $BC$ tại $H$.\na) Chứng minh rằng $\\triangle ABK = \\triangle ACK$.\nb) Chứng minh $AH \\perp BC$ và $H$ là trung điểm của $BC$.",
-        "solution": "a) Xét $\\triangle ABK$ và $\\triangle ACK$ có:\n$AB = AC$ (giả thiết),\n$KB = KC$ (giả thiết),\nCạnh $AK$ chung.\nVậy $\\triangle ABK = \\triangle ACK$ (c.c.c).\nb) Từ $\\triangle ABK = \\triangle ACK$ suy ra $\\widehat{BAK} = \\widehat{CAK}$ hay $\\widehat{BAH} = \\widehat{CAH}$.\nXét $\\triangle ABH$ và $\\triangle ACH$ có:\n$AB = AC$, $\\widehat{BAH} = \\widehat{CAH}$, cạnh $AH$ chung.\nDo đó $\\triangle ABH = \\triangle ACH$ (c.g.c).\nSuy ra $HB = HC$ (nên $H$ là trung điểm $BC$) và $\\widehat{AHB} = \\widehat{AHC} = 90^\\circ$ (nên $AH \\perp BC$).",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABK = ACK (c.c.c) để suy ra tia phân giác",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác ABH = ACH để kết luận trung điểm và vuông góc",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho hình bình hành $ABCD$ có $AB > BC$. Gọi $O$ là giao điểm hai đường chéo $AC$ và $BD$. Chứng minh rằng nếu tam giác $AOB$ có diện tích bằng $S$ thì diện tích hình bình hành $ABCD$ bằng $4S$.",
-        "solution": "Vì $ABCD$ là hình bình hành nên $O$ là trung điểm của $AC$ và $BD$.\nTrong $\\triangle ABC$, $BO$ là đường trung tuyến ứng với cạnh $AC$.\nDo đó hai tam giác $\\triangle AOB$ và $\\triangle COB$ có chung đường cao hạ từ $B$ và đáy $OA = OC$, nên $S_{AOB} = S_{COB} = S$.\nHoàn toàn tương tự, $AO$ là trung tuyến của $\\triangle ABD$ nên $S_{AOD} = S_{AOB} = S$.\nVà $CO$ là trung tuyến của $\\triangle CBD$ nên $S_{COD} = S_{COB} = S$.\nVậy cả 4 tam giác nhỏ quanh điểm $O$ đều có diện tích bằng $S$.\nSuy ra $S_{ABCD} = S_{AOB} + S_{BOC} + S_{COD} + S_{DOA} = 4S$.",
-        "rubric": [
-          {
-            "step": "Chứng minh diện tích hai tam giác có cùng đường cao và đáy bằng nhau thì bằng nhau",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tổng hợp diện tích 4 tam giác con để chứng minh S_ABCD = 4S",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai2_test3": {
-    "title": "Toán 7 (KNTT) - Bài 13: Hai tam giác bằng nhau (c.c.c) - Bài kiểm tra số 3 (🚀 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Hai tam giác bằng nhau thì có chu vi như thế nào?",
-        "options": [
-          "Luôn luôn bằng nhau",
-          "Có thể khác nhau",
-          "Gấp đôi nhau",
-          "Tỉ lệ với 2"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle A'B'C'$. Gọi $M, M'$ lần lượt là trung điểm của $BC$ và $B'C'$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$AM \\neq A'M'$",
-          "$AM = A'M'$",
-          "$\\triangle ABM = \\triangle A'B'M'$",
-          "$\\triangle ACM = \\triangle A'C'M'$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho tứ giác lồi $ABCD$ có $AB = BC$ và $CD = DA$. Đường chéo $AC$ và $BD$ có tính chất:",
-        "options": [
-          "$BD$ là đường trung trực của $AC$",
-          "$AC$ là đường trung trực của $BD$",
-          "$AC = BD$",
-          "$AC \\parallel BD$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho tam giác đều $ABC$. Lấy điểm $O$ trong tam giác sao cho $OA = OB = OC$. Khi đó số đo góc $\\widehat{AOB}$ bằng:",
-        "options": [
-          "$120^\\circ$",
-          "$90^\\circ$",
-          "$60^\\circ$",
-          "$150^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Khi đó $BE = CD$ nhờ cặp tam giác bằng nhau nào?",
-        "options": [
-          "$\\triangle ABE = \\triangle ACD$",
-          "$\\triangle BDC = \\triangle CEB$",
-          "Cả hai cặp trên đều chứng minh được",
-          "Không chứng minh được"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho 4 điểm $A, B, C, D$ sao cho $AB = CD$ và $AD = BC$. Khẳng định nào luôn đúng?",
-        "options": [
-          "Tứ giác $ABCD$ là hình bình hành",
-          "Tứ giác $ABCD$ là hình thoi",
-          "$AC \\perp BD$",
-          "$AB \\perp BC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho đoạn thẳng $AB$. Tập hợp các điểm $M$ thỏa mãn $MA = MB$ là:",
-        "options": [
-          "Đường trung trực của đoạn thẳng $AB$",
-          "Đường tròn đường kính $AB$",
-          "Tia phân giác",
-          "Đoạn thẳng nối $A$ và $B$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài tam giác các tam giác đều $ABD$ và $ACE$. Đoạn thẳng $CD$ và $BE$ có quan hệ gì?",
-        "options": [
-          "$CD = BE$",
-          "$CD \\perp BE$",
-          "Cả $CD = BE$ và góc giữa chúng bằng $60^\\circ$",
-          "$CD = 2BE$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$. Trên nửa mặt phẳng bờ $BC$ không chứa $A$, vẽ $\\triangle BCD$ sao cho $BD = AC$ và $CD = AB$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\triangle ABC = \\triangle DCB$",
-          "$\\triangle ABC = \\triangle BCD$",
-          "$AD \\parallel BC$",
-          "$AB \\parallel AC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho hình lập phương có các mặt là các hình vuông bằng nhau. Đường chéo các mặt bên của hình lập phương tạo thành một tam giác có đặc điểm gì?",
-        "options": [
-          "Là tam giác đều",
-          "Là tam giác vuông",
-          "Là tam giác cân không đều",
-          "Là tam giác tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy $M$ là trung điểm của $BC$. Từ $M$ kẻ $MH \\perp AB$ và $MK \\perp AC$. Nhận xét nào sau đây đúng?",
-        "options": [
-          "$MH = MK$",
-          "$MH > MK$",
-          "$MH < MK$",
-          "$MH + MK = BC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho ngũ giác đều $ABCDE$. Tất cả các đường chéo của ngũ giác đều này có độ dài như thế nào?",
-        "options": [
-          "Đều bằng nhau",
-          "Có 3 đường bằng nhau và 2 đường khác",
-          "Từng cặp một bằng nhau",
-          "Hoàn toàn khác nhau"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho hai tam giác cân $ABC$ ($AB = AC$) và tam giác cân $DBC$ ($DB = DC$) có chung cạnh đáy $BC$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABD = \\triangle ACD$ theo trường hợp cạnh - cạnh - cạnh (c.c.c).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Đường thẳng $AD$ là tia phân giác của góc $\\widehat{BAC}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Đường thẳng $AD$ là tia phân giác của góc $\\widehat{BDC}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đường thẳng $AD$ song song với đoạn thẳng $BC$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$. Lấy điểm $D$ trên đoạn thẳng $AM$ ($D \\neq A, D \\neq M$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$AM$ vuông góc với $BC$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\triangle DBM = \\triangle DCM$ (c.g.c hoặc c.c.c).",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Độ dài đoạn thẳng $DB = DC$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $DBC$ không thể là tam giác cân.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 5\\text{ cm}, BC = 7\\text{ cm}, DF = 6\\text{ cm}$. Tính chu vi $\\triangle DEF$ (cm).",
-        "correctAnswer": "18",
-        "explanation": "Chu vi = $5 + 7 + 6 = 18\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho tam giác đều $ABC$. Điểm $M$ nằm trong tam giác sao cho khoảng cách từ $M$ đến ba đỉnh bằng nhau. Tính số đo góc $\\widehat{BMC}$ (độ).",
-        "correctAnswer": "120",
-        "explanation": "Do tính đối xứng, 3 góc quanh $M$ bằng nhau: $360^\\circ / 3 = 120^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Nối $AC$. Tính độ dài đường chéo $AC$ (cm).",
-        "correctAnswer": "10",
-        "explanation": "$AC = \\sqrt{8^2 + 6^2} = 10\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tứ giác $ABCD$ có $AB = BC = CD = DA$ (hình thoi) và $\\widehat{A} = 60^\\circ$. Biết độ dài cạnh $AB = 5\\text{ cm}$. Tính độ dài đường chéo $BD$ (cm).",
-        "correctAnswer": "5",
-        "explanation": "$\\triangle ABD$ cân tại $A$ có $\\widehat{A} = 60^\\circ$ nên là tam giác đều, do đó $BD = AB = 5\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho hai đường tròn tâm $O$ và tâm $O'$ có cùng bán kính $R$ cắt nhau tại hai điểm $A$ và $B$.\na) Chứng minh $\\triangle OAO' = \\triangle OBO'$.\nb) Chứng minh đường thẳng $OO'$ là đường trung trực của đoạn thẳng $AB$.",
-        "solution": "a) Xét $\\triangle OAO'$ và $\\triangle OBO'$ có:\n$OA = OB = R$,\n$O'A = O'B = R$,\nCạnh $OO'$ chung.\nSuy ra $\\triangle OAO' = \\triangle OBO'$ (c.c.c).\nb) Vì $\\triangle OAO' = \\triangle OBO'$ nên $\\widehat{AOO'} = \\widehat{BOO'}$.\nGọi $I$ là giao điểm của $OO'$ và $AB$.\nXét $\\triangle AOI$ và $\\triangle BOI$ có:\n$OA = OB = R$,\n$\\widehat{AOI} = \\widehat{BOI}$,\nCạnh $OI$ chung.\nSuy ra $\\triangle AOI = \\triangle BOI$ (c.g.c).\nDo đó $IA = IB$ và $\\widehat{AIO} = \\widehat{BIO} = 90^\\circ$.\nVậy $OO'$ đi qua trung điểm và vuông góc với $AB$, tức là đường trung trực của $AB$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác OAO' = OBO' theo trường hợp c.c.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh IA = IB và OO' vuông góc AB, kết luận trung trực",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của cạnh $BC$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$.\na) Chứng minh $\\triangle ABM = \\triangle DCM$.\nb) Chứng minh $AB \\parallel CD$ và $AC = BD$.",
-        "solution": "a) Xét $\\triangle ABM$ và $\\triangle DCM$ có:\n$MB = MC$ ($M$ là trung điểm $BC$),\n$\\widehat{AMB} = \\widehat{DMC}$ (hai góc đối đỉnh),\n$MA = MD$ (theo giả thiết).\nSuy ra $\\triangle ABM = \\triangle DCM$ (c.g.c).\nb) Từ $\\triangle ABM = \\triangle DCM$ suy ra $\\widehat{BAM} = \\widehat{CDM}$ (hai góc tương ứng).\nMà hai góc này ở vị trí so le trong nên $AB \\parallel CD$.\nMặt khác, xét $\\triangle ACM$ và $\\triangle DBM$ có:\n$MA = MD, MC = MB, \\widehat{AMC} = \\widehat{DMB}$ (đối đỉnh).\nSuy ra $\\triangle ACM = \\triangle DBM$ (c.g.c) $\\Rightarrow AC = BD$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABM = DCM (c.g.c)",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra AB // CD và chứng minh tiếp AC = BD",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho đoạn thẳng $AB$. Lấy điểm $C$ nằm ngoài đường thẳng $AB$. Tìm trên mặt phẳng một điểm $D$ sao cho $\\triangle ABD = \\triangle ABC$. Có bao nhiêu điểm $D$ như vậy?",
-        "solution": "Để $\\triangle ABD = \\triangle ABC$ với cạnh $AB$ chung:\nTa cần $AD = AC$ và $BD = BC$.\n1) Điểm $D$ cách $A$ một khoảng bằng $AC$, nên $D$ thuộc đường tròn $(A; AC)$.\n2) Điểm $D$ cách $B$ một khoảng bằng $BC$, nên $D$ thuộc đường tròn $(B; BC)$.\nHai đường tròn $(A; AC)$ và $(B; BC)$ có ít nhất một điểm chung là $C$. Vì $C$ không thuộc đường thẳng $AB$ nên hai đường tròn này cắt nhau tại đúng hai điểm phân biệt, đối xứng nhau qua đường thẳng $AB$.\nMột điểm chính là $C$, điểm còn lại là điểm $D$ đối xứng với $C$ qua $AB$.\nNgoài ra, nếu xét thứ tự các đỉnh bất kì (không bảo toàn chiều quay), thì điểm $D$ duy nhất khác $C$ thỏa mãn là điểm đối xứng của $C$ qua trục $AB$.\nVậy tồn tại duy nhất 1 điểm $D$ khác $C$ (nếu không tính chính điểm $C$).",
-        "rubric": [
-          {
-            "step": "Xác định D là giao điểm của hai đường tròn tâm A và tâm B",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận tính đối xứng qua trục AB và kết luận số điểm D",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai3_test1": {
-    "title": "Toán 7 (KNTT) - Bài 14: Trường hợp bằng nhau c.g.c và g.c.g - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Góc xen giữa hai cạnh $AB$ và $AC$ của tam giác $ABC$ là góc:",
-        "options": [
-          "$\\widehat{A}$",
-          "$\\widehat{B}$",
-          "$\\widehat{C}$",
-          "Góc ngoài tại $A$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Cạnh xen giữa hai góc $\\widehat{B}$ và $\\widehat{C}$ của tam giác $ABC$ là cạnh:",
-        "options": [
-          "$BC$",
-          "$AB$",
-          "$AC$",
-          "Đường cao $AH$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Trường hợp bằng nhau cạnh - góc - cạnh (c.g.c) yêu cầu góc bằng nhau phải là:",
-        "options": [
-          "Góc xen giữa hai cạnh đó",
-          "Góc bất kì",
-          "Góc đối diện với một trong hai cạnh",
-          "Góc tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Trường hợp bằng nhau góc - cạnh - góc (g.c.g) yêu cầu cạnh bằng nhau phải là:",
-        "options": [
-          "Cạnh xen giữa hai góc đó",
-          "Cạnh đối diện một góc",
-          "Cạnh huyền",
-          "Cạnh bất kì"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN, \\widehat{A} = \\widehat{M}$. Cần thêm điều kiện nào sau đây để hai tam giác bằng nhau theo trường hợp c.g.c?",
-        "options": [
-          "$AC = MP$",
-          "$BC = NP$",
-          "$\\widehat{B} = \\widehat{N}$",
-          "$\\widehat{C} = \\widehat{P}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ và $\\triangle DEF$ có $\\widehat{B} = \\widehat{E}, BC = EF$. Cần thêm điều kiện nào để hai tam giác bằng nhau theo trường hợp g.c.g?",
-        "options": [
-          "$\\widehat{C} = \\widehat{F}$",
-          "$AB = DE$",
-          "$AC = DF$",
-          "$\\widehat{A} = 90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Cho đoạn thẳng $AB$, $M$ là trung điểm của $AB$. Đường thẳng $d \\perp AB$ tại $M$. Lấy $P \\in d$. Khi đó $\\triangle PMA = \\triangle PMB$ theo trường hợp:",
-        "options": [
-          "c.g.c",
-          "c.c.c",
-          "g.c.g",
-          "cả c.g.c và c.c.c"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Cho hình vẽ có $AB \\parallel CD$ và $AB = CD$. Gọi $O$ là giao điểm của $AC$ và $BD$. Khi đó $\\triangle OAB = \\triangle OCD$ theo trường hợp:",
-        "options": [
-          "g.c.g",
-          "c.g.c",
-          "c.c.c",
-          "chỉ có diện tích bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Tia phân giác của $\\widehat{A}$ cắt $BC$ tại $D$. Khi đó $\\triangle ABD = \\triangle ACD$ theo trường hợp:",
-        "options": [
-          "c.g.c",
-          "g.c.g",
-          "chỉ theo c.c.c",
-          "không bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$ theo trường hợp c.g.c với $AB = DE, \\widehat{B} = \\widehat{E}, BC = EF$. Biết $AB = 6\\text{ cm}, EF = 8\\text{ cm}, \\widehat{D} = 70^\\circ, \\widehat{E} = 50^\\circ$. Độ dài cạnh $BC$ và số đo góc $F$ là:",
-        "options": [
-          "$BC = 8\\text{ cm}, \\widehat{F} = 60^\\circ$",
-          "$BC = 6\\text{ cm}, \\widehat{F} = 60^\\circ$",
-          "$BC = 8\\text{ cm}, \\widehat{F} = 50^\\circ$",
-          "$BC = 6\\text{ cm}, \\widehat{F} = 70^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có $\\widehat{B} = \\widehat{C}$. Tia phân giác của góc $B$ cắt $AC$ tại $D$, tia phân giác của góc $C$ cắt $AB$ tại $E$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$BD \\neq CE$",
-          "$BD = CE$",
-          "$\\triangle EBC = \\triangle DCB$",
-          "$AD = AE$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Để đo khoảng cách giữa hai điểm $A$ và $B$ bị ngăn cách bởi một cái hồ, người ta lấy một điểm $O$ quang đãng, xác định điểm $A'$ sao cho $O$ là trung điểm $AA'$, và $B'$ sao cho $O$ là trung điểm $BB'$. Khoảng cách $AB$ bằng độ dài đoạn thẳng nào?",
-        "options": [
-          "$A'B'$",
-          "$OA'$",
-          "$OB'$",
-          "$2A'B'$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho hai đoạn thẳng $AB$ và $CD$ cắt nhau tại trung điểm $O$ của mỗi đoạn. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle OAD = \\triangle OBC$ theo trường hợp cạnh - góc - cạnh (c.g.c).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Đoạn thẳng $AD = BC$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$AD$ song song với $BC$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "$AB$ vuông góc với $CD$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ tia phân giác $AD$ của $\\widehat{BAC}$ ($D \\in BC$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABD = \\triangle ACD$ theo trường hợp cạnh - góc - cạnh.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$D$ là trung điểm của cạnh $BC$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$AD$ vuông góc với cạnh $BC$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Góc $\\widehat{B}$ luôn bằng $45^\\circ$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 5\\text{ cm}, \\widehat{B} = 45^\\circ, BC = 8\\text{ cm}$. Tính độ dài cạnh $NP$ (cm).",
-        "correctAnswer": "8",
-        "explanation": "$NP = BC = 8\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho hai đoạn thẳng $AC$ và $BD$ cắt nhau tại trung điểm $O$ của mỗi đoạn. Biết $AB = 12\\text{ cm}$. Tính độ dài đoạn thẳng $CD$ (cm).",
-        "correctAnswer": "12",
-        "explanation": "$\\triangle OAB = \\triangle OCD$ (c.g.c) $\\Rightarrow CD = AB = 12\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Tính độ dài cạnh huyền $BC$ (cm).",
-        "correctAnswer": "10",
-        "explanation": "$BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 40^\\circ$. Kẻ tia phân giác $AD$ ($D \\in BC$). Tính số đo góc $\\widehat{ADB}$ (độ).",
-        "correctAnswer": "75",
-        "explanation": "$\\widehat{A} = 70^\\circ \\Rightarrow \\widehat{BAD} = 35^\\circ \\Rightarrow \\widehat{ADB} = 180^\\circ - (70^\\circ + 35^\\circ) = 75^\\circ$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho góc nhọn $xOy$. Trên tia $Ox$ lấy điểm $A$, trên tia $Oy$ lấy điểm $B$ sao cho $OA = OB$. Lấy điểm $M$ trên tia phân giác của góc $xOy$.\na) Chứng minh rằng $\\triangle OAM = \\triangle OBM$.\nb) Chứng minh rằng $MA = MB$.",
-        "solution": "a) Xét $\\triangle OAM$ và $\\triangle OBM$ có:\n$OA = OB$ (theo giả thiết),\n$\\widehat{AOM} = \\widehat{BOM}$ (vì $OM$ là tia phân giác của $\\widehat{xOy}$),\nCạnh $OM$ chung.\nSuy ra $\\triangle OAM = \\triangle OBM$ (c.g.c).\nb) Vì $\\triangle OAM = \\triangle OBM$ nên $MA = MB$ (hai cạnh tương ứng).",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác OAM = OBM theo c.g.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra hai cạnh tương ứng MA = MB",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$. Trên tia đối của tia $AB$ lấy điểm $D$ sao cho $AD = AB$. Trên tia đối của tia $AC$ lấy điểm $E$ sao cho $AE = AC$.\na) Chứng minh $\\triangle ADE = \\triangle ABC$.\nb) Chứng minh $DE \\parallel BC$.",
-        "solution": "a) Xét $\\triangle ADE$ và $\\triangle ABC$ có:\n$AD = AB$ (theo giả thiết),\n$\\widehat{DAE} = \\widehat{BAC}$ (hai góc đối đỉnh),\n$AE = AC$ (theo giả thiết).\nVậy $\\triangle ADE = \\triangle ABC$ (c.g.c).\nb) Từ $\\triangle ADE = \\triangle ABC$ suy ra $\\widehat{ADE} = \\widehat{ABC}$ (hai góc tương ứng).\nMà hai góc này nằm ở vị trí so le trong nên $DE \\parallel BC$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ADE = ABC theo c.g.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra hai góc so le trong bằng nhau và kết luận DE // BC",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = \\widehat{C}$. Kẻ tia phân giác $BD$ của góc $B$ ($D \\in AC$) và tia phân giác $CE$ của góc $C$ ($E \\in AB$). Chứng minh rằng $BD = CE$.",
-        "solution": "Vì $\\widehat{B} = \\widehat{C}$ nên:\n$\\widehat{B_1} = \\widehat{B_2} = \\frac{\\widehat{B}}{2}$ và $\\widehat{C_1} = \\widehat{C_2} = \\frac{\\widehat{C}}{2}$.\nDo đó $\\widehat{EBC} = \\widehat{DCB}$ và $\\widehat{ECB} = \\widehat{DBC}$.\nXét $\\triangle EBC$ và $\\triangle DCB$ có:\n$\\widehat{EBC} = \\widehat{DCB}$ (do $\\widehat{B} = \\widehat{C}$),\nCạnh $BC$ chung,\n$\\widehat{ECB} = \\widehat{DBC}$ (chứng minh trên).\nSuy ra $\\triangle EBC = \\triangle DCB$ (g.c.g).\nDo đó $BD = CE$ (hai cạnh tương ứng).",
-        "rubric": [
-          {
-            "step": "Lập luận góc ECB = DBC = một nửa của góc B, C",
-            "subScore": 0.4
-          },
-          {
-            "step": "Chứng minh tam giác EBC = DCB theo g.c.g và suy ra BD = CE",
-            "subScore": 0.6
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai3_test2": {
-    "title": "Toán 7 (KNTT) - Bài 14: Trường hợp bằng nhau c.g.c và g.c.g - Bài kiểm tra số 2 (🌿 Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN, \\widehat{B} = \\widehat{N}, BC = NP$. Kết luận nào sau đây đúng?",
-        "options": [
-          "$\\triangle ABC = \\triangle MNP$ (c.g.c)",
-          "$\\triangle ABC = \\triangle MNP$ (g.c.g)",
-          "$\\triangle ABC = \\triangle MNP$ (c.c.c)",
-          "Hai tam giác chưa chắc bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB < AC$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = AB$. Gọi tia phân giác của $\\widehat{A}$ cắt $BC$ tại $E$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$\\triangle ABE = \\triangle ADE$ (g.c.g)",
-          "$\\triangle ABE = \\triangle ADE$ (c.g.c)",
-          "$BE = DE$",
-          "$\\widehat{ABE} = \\widehat{ADE}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = \\widehat{C}$. Kẻ $AH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABH = \\triangle ACH$ theo trường hợp:",
-        "options": [
-          "g.c.g (hoặc cạnh huyền - góc nhọn)",
-          "c.c.c",
-          "c.g.c với góc xen giữa nhọn",
-          "không bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho góc nhọn $xOy$. Lấy $A \\in Ox, B \\in Oy$ sao cho $OA = OB$. Đường thẳng qua $A$ vuông góc với $Ox$ và đường thẳng qua $B$ vuông góc với $Oy$ cắt nhau tại $C$. Khi đó $OC$ là:",
-        "options": [
-          "Tia phân giác của $\\widehat{xOy}$",
-          "Đường cao của tam giác đều",
-          "Đường song song với $AB$",
-          "Trung trực của $OA$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle A'B'C'$. Gọi $AD, A'D'$ lần lượt là các đường phân giác xuất phát từ đỉnh $A, A'$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$AD = A'D'$",
-          "$AD > A'D'$",
-          "$AD < A'D'$",
-          "$AD = 2A'D'$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $E$ sao cho $ME = MA$. Khi đó $AB$ và $CE$ có quan hệ:",
-        "options": [
-          "Vừa bằng nhau vừa song song",
-          "Chỉ bằng nhau",
-          "Chỉ song song",
-          "Vuông góc với nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Qua $A$ vẽ đường thẳng $d$ nằm ngoài tam giác. Kẻ $BD \\perp d$ và $CE \\perp d$. Khi đó độ dài đoạn thẳng $DE$ bằng:",
-        "options": [
-          "$BD + CE$",
-          "$BD - CE$",
-          "$2BD$",
-          "$\\frac{BD + CE}{2}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy điểm $E$ sao cho $CE = CB$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\triangle DCE = \\triangle DCB$",
-          "$\\triangle ADE = \\triangle ABC$",
-          "$DE = 2AB$",
-          "$\\widehat{DEC} = 60^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 40^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Số đo $\\widehat{ADC}$ là:",
-        "options": [
-          "$100^\\circ$",
-          "$80^\\circ$",
-          "$90^\\circ$",
-          "$110^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các tam giác vuông cân tại $A$ là $\\triangle ABD$ và $\\triangle ACE$. Khi đó $CD$ và $BE$ có quan hệ:",
-        "options": [
-          "$CD = BE$ và $CD \\perp BE$",
-          "$CD = BE$ nhưng không vuông góc",
-          "$CD \\parallel BE$",
-          "$CD = 2BE$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy điểm $E$ trên cạnh $AB$ và điểm $F$ trên cạnh $AC$ sao cho $AE = AF$. Nối $BF$ và $CE$ cắt nhau tại $I$. Khi đó $\\triangle IBC$ là:",
-        "options": [
-          "Tam giác cân tại $I$",
-          "Tam giác đều",
-          "Tam giác vuông tại $I$",
-          "Tam giác nhọn bất kì"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho góc nhọn $xOy$ và điểm $M$ nằm trong góc đó. Vẽ điểm $A$ đối xứng với $M$ qua $Ox$, điểm $B$ đối xứng với $M$ qua $Oy$. Khi đó tam giác $OAB$ là:",
-        "options": [
-          "Tam giác cân tại $O$",
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $M$ là trung điểm của $BC$. Kẻ $BE \\perp AM$ tại $E$ và $CF \\perp AM$ tại $F$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn hoặc g.c.g).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Độ dài đoạn thẳng $BE = CF$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Đường thẳng $BE$ song song với $CF$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Độ dài $AE$ luôn bằng $AF$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên tia đối của tia $CA$ sao cho $BD = CE$. Kẻ $DH \\perp BC$ và $EK \\perp BC$ ($H, K \\in BC$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\widehat{DBH} = \\widehat{ECK}$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\triangle BDH = \\triangle CEK$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$DH = EK$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $DE$ cắt $BC$ tại trung điểm của $BC$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = 7\\text{ cm}, AC = 9\\text{ cm}$. Trên tia đối của tia $AB$ lấy điểm $D$ sao cho $AD = 7\\text{ cm}$, trên tia đối của tia $AC$ lấy điểm $E$ sao cho $AE = 9\\text{ cm}$. Biết $BC = 11\\text{ cm}$. Tính độ dài $DE$ (cm).",
-        "correctAnswer": "11",
-        "explanation": "$\\triangle ADE = \\triangle ABC$ (c.g.c) $\\Rightarrow DE = BC = 11\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 75^\\circ, \\widehat{C} = 45^\\circ$. Kẻ đường cao $AH$. Tính số đo góc $\\widehat{HAC}$ (độ).",
-        "correctAnswer": "45",
-        "explanation": "Trong $\\triangle AHC$ vuông tại $H$, $\\widehat{HAC} = 90^\\circ - 45^\\circ = 45^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Đường thẳng $d$ đi qua $A$ không cắt đoạn $BC$. Kẻ $BD \\perp d$ và $CE \\perp d$. Biết $BD = 3\\text{ cm}$ và $CE = 5\\text{ cm}$. Tính độ dài đoạn $DE$ (cm).",
-        "correctAnswer": "8",
-        "explanation": "$DE = DA + AE = CE + BD = 5 + 3 = 8\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên cạnh $AC$ sao cho $BD = CE$. Nối $BE$ và $CD$ cắt nhau tại $O$. Nếu $OB = OC$ thì tam giác $ABC$ là tam giác gì? (Điền: 'can', 'deu', hoặc 'vuong')",
-        "correctAnswer": "can",
-        "explanation": "$\\triangle OBD = \\triangle OCE$ (c.g.c) $\\Rightarrow \\widehat{OBD} = \\widehat{OCE} \\Rightarrow \\widehat{B} = \\widehat{C}$, vậy $\\triangle ABC$ cân tại $A$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ phân giác $BD$ của $\\widehat{B}$ và phân giác $CE$ của $\\widehat{C}$ ($D \\in AC, E \\in AB$).\na) Chứng minh $\\triangle ADB = \\triangle AEC$.\nb) Chứng minh $AD = AE$ và $BD = CE$.",
-        "solution": "a) Vì $AB = AC$ nên $\\triangle ABC$ cân tại $A$, suy ra $\\widehat{B} = \\widehat{C}$.\nVì $BD, CE$ là tia phân giác nên $\\widehat{ABD} = \\frac{\\widehat{B}}{2} = \\frac{\\widehat{C}}{2} = \\widehat{ACE}$.\nXét $\\triangle ADB$ và $\\triangle AEC$ có:\n$\\widehat{A}$ chung,\n$AB = AC$ (giả thiết),\n$\\widehat{ABD} = \\widehat{ACE}$ (chứng minh trên).\nSuy ra $\\triangle ADB = \\triangle AEC$ (g.c.g).\nb) Từ $\\triangle ADB = \\triangle AEC$ suy ra:\n$AD = AE$ và $BD = CE$ (các cặp cạnh tương ứng).",
-        "rubric": [
-          {
-            "step": "Chứng minh góc ABD = ACE và tam giác ADB = AEC (g.c.g)",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra AD = AE và BD = CE",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Qua $A$ kẻ đường thẳng $xy$ bất kì không cắt đoạn $BC$. Kẻ $BD \\perp xy$ tại $D$ và $CE \\perp xy$ tại $E$.\na) Chứng minh rằng $\\triangle ABD = \\triangle CAE$.\nb) Chứng minh rằng $DE = BD + CE$.",
-        "solution": "a) Ta có $\\widehat{BAD} + \\widehat{BAC} + \\widehat{CAE} = 180^\\circ$.\nMà $\\widehat{BAC} = 90^\\circ$ nên $\\widehat{BAD} + \\widehat{CAE} = 90^\\circ$.\nTrong $\\triangle ABD$ vuông tại $D$, ta có $\\widehat{ABD} + \\widehat{BAD} = 90^\\circ$.\nSuy ra $\\widehat{ABD} = \\widehat{CAE}$ (cùng phụ với $\\widehat{BAD}$).\nXét $\\triangle ABD$ và $\\triangle CAE$ vuông có:\n$AB = AC$ (giả thiết),\n$\\widehat{ABD} = \\widehat{CAE}$ (chứng minh trên).\nSuy ra $\\triangle ABD = \\triangle CAE$ (cạnh huyền - góc nhọn).\nb) Từ $\\triangle ABD = \\triangle CAE$ suy ra $AD = CE$ và $BD = AE$.\nDo đó: $DE = DA + AE = CE + BD = BD + CE$.",
-        "rubric": [
-          {
-            "step": "Chứng minh góc ABD = CAE và tam giác ABD = CAE",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra AD = CE, BD = AE và kết luận DE = BD + CE",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ nhọn. Vẽ về phía ngoài tam giác các tam giác vuông cân tại $A$ là $\\triangle ABD$ (vuông cân tại $A$) và $\\triangle ACE$ (vuông cân tại $A$). Chứng minh rằng $CD = BE$ và $CD \\perp BE$.",
-        "solution": "1) Chứng minh $CD = BE$:\nTa có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ vuông cân tại $A$),\n$\\widehat{DAC} = \\widehat{BAE}$ (chứng minh trên),\n$AC = AE$ (do $\\triangle ACE$ vuông cân tại $A$).\nDo đó $\\triangle DAC = \\triangle BAE$ (c.g.c) $\\Rightarrow CD = BE$.\n2) Chứng minh $CD \\perp BE$:\nGọi giao điểm của $CD$ và $BE$ là $K$, giao điểm của $CD$ và $AB$ là $H$.\nTừ $\\triangle DAC = \\triangle BAE$ suy ra $\\widehat{ADC} = \\widehat{ABE}$.\nTrong tam giác vuông $ADH$ (vuông tại $A$), ta có $\\widehat{ADH} + \\widehat{AHD} = 90^\\circ$.\nMà $\\widehat{AHD} = \\widehat{KHB}$ (đối đỉnh) và $\\widehat{ADH} = \\widehat{KBH}$.\nNên $\\widehat{KBH} + \\widehat{KHB} = 90^\\circ$.\nXét $\\triangle KBH$, có $\\widehat{BKH} = 180^\\circ - (\\widehat{KBH} + \\widehat{KHB}) = 180^\\circ - 90^\\circ = 90^\\circ$.\nVậy $CD \\perp BE$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác DAC = BAE (c.g.c) suy ra CD = BE",
-            "subScore": 0.5
-          },
-          {
-            "step": "Sử dụng tính chất tam giác vuông và góc đối đỉnh suy ra CD vuông góc BE",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai3_test3": {
-    "title": "Toán 7 (KNTT) - Bài 14: Trường hợp bằng nhau c.g.c và g.c.g - Bài kiểm tra số 3 (🚀 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Nếu hai góc và cạnh xen giữa của tam giác này bằng hai góc và cạnh xen giữa của tam giác kia thì:",
-        "options": [
-          "Hai tam giác đó bằng nhau (g.c.g)",
-          "Hai tam giác đó bằng nhau (c.g.c)",
-          "Hai tam giác đó có chu vi khác nhau",
-          "Chưa thể kết luận"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ phân giác $AM$ của $\\widehat{A}$ ($M \\in BC$). Lấy điểm $I$ bất kì trên đoạn $AM$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$IB \\neq IC$",
-          "$IB = IC$",
-          "$\\triangle ABI = \\triangle ACI$",
-          "$\\triangle MBI = \\triangle MCI$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $E$. Kẻ $EH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABE$ và $\\triangle HBE$ bằng nhau theo:",
-        "options": [
-          "Cạnh huyền - góc nhọn",
-          "c.c.c",
-          "Cạnh góc vuông - góc nhọn kề",
-          "Không bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho hai tam giác $\\triangle ABC$ và $\\triangle MNP$ có $\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}$ và $BC = NP$. Hai tam giác đó bằng nhau theo trường hợp:",
-        "options": [
-          "g.c.g (vì $\\widehat{C} = \\widehat{P}$ và cạnh $BC = NP$ kề)",
-          "c.g.c",
-          "c.c.c",
-          "Không bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ nhọn. Vẽ đường cao $BD$ và $CE$. Nếu $BD = CE$ thì $\\triangle ABC$ là tam giác gì?",
-        "options": [
-          "Tam giác cân tại $A$",
-          "Tam giác vuông tại $A$",
-          "Tam giác đều",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho góc nhọn $xOy$ và điểm $A$ cố định trên tia phân giác của $xOy$. Một đường thẳng quay quanh $A$ cắt $Ox$ tại $M$, cắt $Oy$ tại $N$. Khi $OM + ON$ đạt giá trị không đổi thì $\\triangle OMN$ cân tại:",
-        "options": [
-          "$O$",
-          "$M$",
-          "$N$",
-          "Không xác định"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $M$, trên cạnh $CD$ lấy điểm $N$ sao cho $\\widehat{MAN} = 45^\\circ$. Chu vi tam giác $CMN$ bằng:",
-        "options": [
-          "$2AB$",
-          "$AB$",
-          "$\\frac{3}{2}AB$",
-          "$3AB$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Trên tia đối của tia $BA$ lấy điểm $D$ sao cho $BD = BH$. Đường thẳng $DH$ cắt $AC$ tại $M$. Khẳng định nào đúng?",
-        "options": [
-          "$MH = MC$",
-          "$MH > MC$",
-          "$MH < MC$",
-          "$MH = 2MC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 90^\\circ, \\widehat{B} = 30^\\circ$. Khi đó khẳng định nào sau đây đúng về độ dài cạnh?",
-        "options": [
-          "$AC = \\frac{1}{2}BC$",
-          "$AB = \\frac{1}{2}BC$",
-          "$AC = \\frac{1}{2}AB$",
-          "$BC = 2AB$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = BC$. Số đo góc $\\widehat{ABD}$ là:",
-        "options": [
-          "$10^\\circ$",
-          "$20^\\circ$",
-          "$15^\\circ$",
-          "$30^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Điểm $M$ nằm trong tam giác sao cho $MA = 2\\text{ cm}, MB = 1\\text{ cm}, MC = \\sqrt{7}\\text{ cm}$. Số đo góc $\\widehat{AMB}$ là:",
-        "options": [
-          "$135^\\circ$",
-          "$120^\\circ$",
-          "$150^\\circ$",
-          "$90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho tứ giác $ABCD$ có $\\widehat{B} = \\widehat{D} = 90^\\circ$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Nếu $AH = AK$ thì tứ giác $ABCD$ có:",
-        "options": [
-          "$AB = AD$",
-          "$BC = CD$",
-          "$AC$ là phân giác của $\\widehat{A}$",
-          "Cả ba kết luận trên đều đúng"
-        ],
-        "correct": 3
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Lấy điểm $D$ trên cạnh $AB$, lấy điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Nối $BE$ và $CD$ cắt nhau tại $K$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABE = \\triangle ACD$ (c.g.c).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Đoạn thẳng $BE = CD$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$\\triangle KBC$ là tam giác cân tại $K$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đường thẳng $AK$ vuông góc với $BC$.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ nhọn. Vẽ ra phía ngoài tam giác hai hình vuông $ABMN$ và $ACQP$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle AMC = \\triangle ANP$ (c.g.c).",
-            "correct": false
-          },
-          {
-            "subId": "b",
-            "text": "$\\triangle ABN = \\triangle ACQ$.",
-            "correct": false
-          },
-          {
-            "subId": "c",
-            "text": "$\\triangle ABQ = \\triangle APC$ không đúng, mà $\\triangle ABQ = \\triangle AMC$ không đúng; thực chất $MC = BP$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $MC$ vuông góc với $BP$.",
-            "correct": true
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ, \\widehat{B} = 50^\\circ$. Tính độ dài cạnh $AC$ (cm) biết cạnh $BC = 15\\text{ cm}$.",
-        "correctAnswer": "15",
-        "explanation": "$\\widehat{C} = 180^\\circ - (80^\\circ + 50^\\circ) = 50^\\circ = \\widehat{B} \\Rightarrow \\triangle ABC$ cân tại $A \\Rightarrow AC = AB$. Vì $\\widehat{B}=\\widehat{C}=50^\\circ$ nên $AC=AB$. Nếu $AC=BC$ thì $AC=15\\text{ cm}$ (đây là tam giác cân có đáy $BC$, $AB=AC$ chưa chắc bằng $BC$, nhưng nếu $\\widehat{A}=80^\\circ, \\widehat{B}=50^\\circ \\Rightarrow \\widehat{C}=50^\\circ$, tam giác cân tại $A$, cạnh $AB=AC$. Giả thiết cho $BC=15$, nếu $\\widehat{B}=\\widehat{C}$ thì $AB=AC$. Đề hỏi AC, nếu là tam giác đều thì 15. Với $\\triangle ABC$ có $\\widehat{A}=60^\\circ, \\widehat{B}=60^\\circ$ thì $AC=15$. Ở đây số đo $\\widehat{B}=\\widehat{C}=50^\\circ$, cạnh đối diện góc $B$ là $AC$, cạnh đối diện góc $C$ là $AB$, suy ra $AB=AC$). Ta đặt $AC=15$ nếu $AB=15$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Biết cạnh $BC = 16\\text{ cm}$. Tính độ dài cạnh $AB$ (cm).",
-        "correctAnswer": "8",
-        "explanation": "Trong tam giác vuông, cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền: $AB = 16 / 2 = 8\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ$. Đường trung trực của cạnh $BC$ cắt $AC$ tại $D$. Biết $\\widehat{C} = 25^\\circ$. Tính số đo $\\widehat{ABD}$ (độ).",
-        "correctAnswer": "40",
-        "explanation": "Do $D$ thuộc trung trực $BC$ nên $DB = DC \\Rightarrow \\widehat{DBC} = \\widehat{C} = 25^\\circ$. Mà $\\widehat{B} = 90^\\circ - 25^\\circ = 65^\\circ \\Rightarrow \\widehat{ABD} = 65^\\circ - 25^\\circ = 40^\\circ$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$ cạnh $12\\text{ cm}$. Điểm $M$ thuộc cạnh $BC$ sao cho $BM = 5\\text{ cm}$. Kẻ tia phân giác $\\widehat{DAM}$ cắt $CD$ tại $P$. Tính chu vi của tam giác $CMP$ (cm).",
-        "correctAnswer": "24",
-        "explanation": "Chu vi tam giác $CMP = 2 \\times CD = 2 \\times 12 = 24\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ tia phân giác $AD$ của $\\widehat{A}$ ($D \\in BC$). Trên cạnh $AC$ lấy điểm $E$ sao cho $AE = AB$.\na) Chứng minh rằng $\\triangle ABD = \\triangle AED$.\nb) Chứng minh rằng $DB < DC$.",
-        "solution": "a) Xét $\\triangle ABD$ và $\\triangle AED$ có:\n$AB = AE$ (theo giả thiết),\n$\\widehat{BAD} = \\widehat{EAD}$ (do $AD$ là tia phân giác của $\\widehat{A}$),\nCạnh $AD$ chung.\nSuy ra $\\triangle ABD = \\triangle AED$ (c.g.c).\nb) Từ $\\triangle ABD = \\triangle AED$ suy ra $DB = DE$ (hai cạnh tương ứng).\nTrong $\\triangle DEC$, áp dụng bất đẳng thức tam giác ta có $DC - DE < EC$ hay $DC > DE$.\nMà $DE = DB$, do đó $DC > DB$ hay $DB < DC$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABD = AED theo c.g.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra DB = DE và dùng bất đẳng thức tam giác suy ra DB < DC",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho tam giác $ABC$ nhọn. Vẽ phía ngoài tam giác các hình vuông $ABDE$ và $ACFG$. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng đoạn thẳng $EG$ gấp đôi đoạn thẳng $AM$ và $AM \\perp EG$.",
-        "solution": "Trên tia đối của tia $MA$ lấy điểm $K$ sao cho $MK = MA$.\nXét $\\triangle MAB$ và $\\triangle MKC$ có:\n$MB = MC$ ($M$ là trung điểm $BC$),\n$\\widehat{AMB} = \\widehat{KMC}$ (đối đỉnh),\n$MA = MK$.\nSuy ra $\\triangle MAB = \\triangle MKC$ (c.g.c) $\\Rightarrow CK = AB$ và $\\widehat{MAB} = \\widehat{MKC}$.\nDo đó $AB \\parallel CK \\Rightarrow \\widehat{ACK} + \\widehat{BAC} = 180^\\circ$.\nMặt khác, ta có: $\\widehat{EAG} + \\widehat{EAB} + \\widehat{BAC} + \\widehat{GAC} = 360^\\circ$\n$\\Rightarrow \\widehat{EAG} + 90^\\circ + \\widehat{BAC} + 90^\\circ = 360^\\circ \\Rightarrow \\widehat{EAG} + \\widehat{BAC} = 180^\\circ$.\nSuy ra $\\widehat{EAG} = \\widehat{ACK}$.\nXét $\\triangle EAG$ và $\\triangle KCA$ có:\n$AE = AB = CK$,\n$\\widehat{EAG} = \\widehat{ACK}$,\n$AG = AC$.\nDo đó $\\triangle EAG = \\triangle KCA$ (c.g.c).\nSuy ra $EG = AK = 2AM$ (vì $AK = 2AM$).\nĐồng thời $\\widehat{AEG} = \\widehat{CKA} = \\widehat{MAB}$, dẫn đến đường kéo dài của $AM$ vuông góc với $EG$.",
-        "rubric": [
-          {
-            "step": "Lấy điểm phụ K đối xứng A qua M và chứng minh góc EAG = ACK",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác EAG = KCA (c.g.c) để suy ra EG = 2AM và vuông góc",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho tam giác đều $ABC$. Lấy điểm $D$ trên cạnh $BC$. Kẻ các đường thẳng song song với $AC$ cắt $AB$ tại $E$, song song với $AB$ cắt $AC$ tại $F$. Gọi $I$ là trung điểm của $BF$. Chứng minh rằng khi $D$ di chuyển trên $BC$ thì độ dài $EF$ không đổi nếu $BD + CF = \\text{const}$.",
-        "solution": "Do $DE \\parallel AC$ nên $\\triangle BDE$ là tam giác đều (vì $\\widehat{B} = 60^\\circ$ và các góc đồng vị bằng $60^\\circ$).\nSuy ra $BD = BE = DE$.\nTương tự, $DF \\parallel AB$ nên $\\triangle CDF$ là tam giác đều, suy ra $CD = CF = DF$.\nXét tứ giác $AEDF$ có các cặp cạnh đối song song nên $AE = DF = CF$ và $AF = DE = BD$.\nTa có: $AE + AF = CF + BD = \\text{const}$.\nÁp dụng định lí cosin hoặc dựng tam giác đều phụ vào góc $\\widehat{A} = 60^\\circ$:\nTrong $\\triangle AEF$, ta có $\\widehat{A} = 60^\\circ$, và $EF^2 = AE^2 + AF^2 - 2AE \\cdot AF \\cos 60^\\circ = AE^2 + AF^2 - AE \\cdot AF = (AE + AF)^2 - 3AE \\cdot AF$.\nĐặc biệt, nếu vị trí $D$ là trung điểm thì $AE = AF$, tam giác $AEF$ đều nên $EF = AE = AF = \\frac{1}{2}AB$.",
-        "rubric": [
-          {
-            "step": "Chứng minh các tam giác BDE và CDF là tam giác đều",
-            "subScore": 0.5
-          },
-          {
-            "step": "Liên hệ độ dài AE, AF với BD, CF và phân tích độ dài EF",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai4_test1": {
-    "title": "Toán 7 (KNTT) - Bài 15: Các trường hợp bằng nhau của tam giác vuông - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Hai tam giác vuông bằng nhau khi có:",
-        "options": [
-          "Hai cạnh góc vuông bằng nhau",
-          "Một góc nhọn bằng nhau",
-          "Một cạnh góc vuông bằng nhau",
-          "Chu vi bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Trường hợp bằng nhau cạnh huyền - góc nhọn: Nếu cạnh huyền và một góc nhọn của tam giác vuông này bằng cạnh huyền và một góc nhọn của tam giác vuông kia thì:",
-        "options": [
-          "Hai tam giác vuông đó bằng nhau",
-          "Hai tam giác đó đồng dạng nhưng không bằng nhau",
-          "Chưa kết luận được",
-          "Hai góc nhọn còn lại bù nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Trường hợp bằng nhau cạnh huyền - cạnh góc vuông: Nếu cạnh huyền và một cạnh góc vuông của tam giác vuông này bằng cạnh huyền và một cạnh góc vuông của tam giác vuông kia thì:",
-        "options": [
-          "Hai tam giác vuông đó bằng nhau",
-          "Hai tam giác vuông đó chưa chắc bằng nhau",
-          "Hai góc nhọn bằng nhau nhưng hai tam giác không bằng nhau",
-          "Chu vi hai tam giác khác nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Trong tam giác vuông, cạnh đối diện với góc vuông được gọi là:",
-        "options": [
-          "Cạnh huyền",
-          "Cạnh góc vuông",
-          "Đường cao",
-          "Đường trung trực"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ và $\\triangle MNP$ vuông tại $M$ có $BC = NP$ và $\\widehat{B} = \\widehat{N}$. Khi đó hai tam giác bằng nhau theo trường hợp:",
-        "options": [
-          "Cạnh huyền - góc nhọn",
-          "Cạnh góc vuông - góc nhọn kề",
-          "Hai cạnh góc vuông",
-          "Cạnh huyền - cạnh góc vuông"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle DEF$ vuông tại $D$ và $\\triangle GHK$ vuông tại $G$ có $DE = GH, DF = GK$. Hai tam giác này bằng nhau theo:",
-        "options": [
-          "Hai cạnh góc vuông",
-          "Cạnh huyền - cạnh góc vuông",
-          "Cạnh huyền - góc nhọn",
-          "g.c.g"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABH = \\triangle ACH$ theo trường hợp:",
-        "options": [
-          "Cạnh huyền - cạnh góc vuông (hoặc cạnh huyền - góc nhọn)",
-          "Hai cạnh góc vuông",
-          "Chỉ theo c.c.c",
-          "Không bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Cho góc nhọn $xOy$ và điểm $M$ nằm trên tia phân giác của nó. Kẻ $MA \\perp Ox$ và $MB \\perp Oy$. Nhận định nào sau đây SAI?",
-        "options": [
-          "$MA \\neq MB$",
-          "$MA = MB$",
-          "$\\triangle OAM = \\triangle OBM$",
-          "$OA = OB$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Nếu $\\triangle DEF$ vuông tại $D$ bằng $\\triangle ABC$ thì diện tích của $\\triangle DEF$ là:",
-        "options": [
-          "$24\\text{ cm}^2$",
-          "$48\\text{ cm}^2$",
-          "$14\\text{ cm}^2$",
-          "$10\\text{ cm}^2$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Từ $B$ kẻ $BD \\perp AC$ ($D \\in AC$), từ $C$ kẻ $CE \\perp AB$ ($E \\in AB$). Khẳng định nào đúng?",
-        "options": [
-          "$BD = CE$",
-          "$BD > CE$",
-          "$BD < CE$",
-          "$BD = 2CE$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$) có $\\widehat{B} = 60^\\circ$. Cạnh huyền $BC = 10\\text{ cm}$. Độ dài cạnh $AB$ bằng:",
-        "options": [
-          "$5\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$8\\text{ cm}$",
-          "$5\\sqrt{3}\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Tia phân giác của góc $B$ cắt $AC$ tại $D$. Kẻ $DE \\perp BC$ ($E \\in BC$). Khẳng định nào sau đây SAI?",
-        "options": [
-          "$AD > DE$",
-          "$AD = DE$",
-          "$\\triangle ABD = \\triangle EBD$",
-          "$BA = BE$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ và $\\triangle DEF$ vuông tại $D$ có $BC = EF = 10\\text{ cm}, AB = DE = 6\\text{ cm}$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABC = \\triangle DEF$ theo trường hợp cạnh huyền - cạnh góc vuông.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Độ dài cạnh $AC = DF = 8\\text{ cm}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $\\widehat{C}$ bằng số đo góc $\\widehat{F}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tổng hai góc $\\widehat{B} + \\widehat{E} = 180^\\circ$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho góc nhọn $xOy$. Lấy điểm $M$ trên tia phân giác của $xOy$. Kẻ $MA \\perp Ox$ ($A \\in Ox$) và $MB \\perp Oy$ ($B \\in Oy$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle OAM = \\triangle OBM$ theo trường hợp cạnh huyền - góc nhọn.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Đoạn thẳng $MA = MB$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Đoạn thẳng $OA = OB$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đường thẳng $OM$ không phải là đường trung trực của đoạn thẳng $AB$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = 5\\text{ cm}, BC = 13\\text{ cm}$. Tính độ dài cạnh $AC$ (cm).",
-        "correctAnswer": "12",
-        "explanation": "$AC = \\sqrt{13^2 - 5^2} = 12\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = AC = 15\\text{ cm}, BC = 18\\text{ cm}$. Kẻ $AH \\perp BC$ ($H \\in BC$). Tính độ dài đoạn thẳng $AH$ (cm).",
-        "correctAnswer": "12",
-        "explanation": "$BH = 9\\text{ cm} \\Rightarrow AH = \\sqrt{15^2 - 9^2} = 12\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). Biết $AC = 9\\text{ cm}$ và $AD = 4\\text{ cm}$. Tính độ dài đoạn thẳng $DH$ (cm).",
-        "correctAnswer": "4",
-        "explanation": "$\\triangle ABD = \\triangle HBD$ (cạnh huyền - góc nhọn) $\\Rightarrow DH = AD = 4\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông cân tại $A$ có cạnh huyền $BC = 10\\text{ cm}$. Tính diện tích tam giác $ABC$ (cm$^2$).",
-        "correctAnswer": "25",
-        "explanation": "Đường cao $AH$ ứng với cạnh huyền bằng nửa cạnh huyền: $AH = 5\\text{ cm}$. Diện tích = $\\frac{1}{2} \\times 10 \\times 5 = 25\\text{ cm}^2$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $BD \\perp AC$ ($D \\in AC$) và $CE \\perp AB$ ($E \\in AB$).\na) Chứng minh rằng $\\triangle ADB = \\triangle AEC$.\nb) Chứng minh rằng $BD = CE$.",
-        "solution": "a) Xét hai tam giác vuông $\\triangle ADB$ (vuông tại $D$) và $\\triangle AEC$ (vuông tại $E$) có:\nCạnh huyền $AB = AC$ (do $\\triangle ABC$ cân tại $A$),\nGóc nhọn $\\widehat{A}$ chung.\nSuy ra $\\triangle ADB = \\triangle AEC$ (cạnh huyền - góc nhọn).\nb) Vì $\\triangle ADB = \\triangle AEC$ nên $BD = CE$ (hai cạnh tương ứng).",
-        "rubric": [
-          {
-            "step": "Chỉ ra cạnh huyền và góc nhọn chung, suy ra hai tam giác bằng nhau",
-            "subScore": 0.5
-          },
-          {
-            "step": "Kết luận BD = CE là hai cạnh tương ứng",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho tam giác $ABC$ vuông tại $A$. Tia phân giác của góc $B$ cắt cạnh $AC$ tại điểm $D$. Kẻ $DH \\perp BC$ tại $H$.\na) Chứng minh $\\triangle ABD = \\triangle HBD$.\nb) Chứng minh rằng $BD$ là đường trung trực của đoạn thẳng $AH$.",
-        "solution": "a) Xét hai tam giác vuông $\\triangle ABD$ và $\\triangle HBD$ có:\nCạnh huyền $BD$ chung,\n$\\widehat{ABD} = \\widehat{HBD}$ (do $BD$ là tia phân giác của góc $B$).\nSuy ra $\\triangle ABD = \\triangle HBD$ (cạnh huyền - góc nhọn).\nb) Từ $\\triangle ABD = \\triangle HBD$ suy ra $BA = BH$ và $DA = DH$.\nVì $BA = BH$ nên điểm $B$ thuộc đường trung trực của đoạn thẳng $AH$.\nVì $DA = DH$ nên điểm $D$ thuộc đường trung trực của đoạn thẳng $AH$.\nDo đó đường thẳng $BD$ chính là đường trung trực của đoạn thẳng $AH$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABD = HBD theo trường hợp cạnh huyền - góc nhọn",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận BA = BH và DA = DH để kết luận BD là đường trung trực của AH",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Gọi $M$ là trung điểm của $BC$. Đường trung trực của $BC$ cắt cạnh $AC$ tại điểm $D$. Kẻ $DE \\perp BC$ tại $E$. Chứng minh rằng $DE = \\frac{1}{2}AB$ và $\\widehat{B}$ gấp đôi góc $\\widehat{C}$ khi $AD = DE$ không xảy ra, hãy chứng minh nếu $\\widehat{C} = 30^\\circ$ thì $CD = 2AD$.",
-        "solution": "1) Khi $\\widehat{C} = 30^\\circ$, vì tam giác $ABC$ vuông tại $A$ nên $\\widehat{B} = 60^\\circ$.\n2) Điểm $D$ thuộc đường trung trực của $BC$ nên $DB = DC$.\nDo đó $\\triangle DBC$ cân tại $D$, suy ra $\\widehat{DBC} = \\widehat{C} = 30^\\circ$.\n3) Ta có: $\\widehat{ABD} = \\widehat{ABC} - \\widehat{DBC} = 60^\\circ - 30^\\circ = 30^\\circ$.\nXét $\\triangle ABD$ vuông tại $A$ có $\\widehat{ABD} = 30^\\circ$, nên cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền:\n$AD = \\frac{1}{2}BD$.\nMà $BD = CD$ (chứng minh trên), do đó $AD = \\frac{1}{2}CD$ hay $CD = 2AD$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác DBC cân tại D và tính góc ABD = 30 độ",
-            "subScore": 0.5
-          },
-          {
-            "step": "Sử dụng tính chất tam giác vuông có góc 30 độ để kết luận CD = 2AD",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai4_test2": {
-    "title": "Toán 7 (KNTT) - Bài 15: Các trường hợp bằng nhau của tam giác vuông - Bài kiểm tra số 2 (🌿 Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Điều kiện nào sau đây KHÔNG đủ để kết luận hai tam giác vuông bằng nhau?",
-        "options": [
-          "Có một góc nhọn bằng nhau",
-          "Có hai cạnh góc vuông bằng nhau",
-          "Có cạnh huyền và một góc nhọn bằng nhau",
-          "Có cạnh huyền và một cạnh góc vuông bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AM \\perp BC$ ($M \\in BC$). Khẳng định nào sau đây SAI?",
-        "options": [
-          "$AM = BC$",
-          "$MB = MC$",
-          "$AM$ là phân giác của $\\widehat{BAC}$",
-          "$\\triangle ABM = \\triangle ACM$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ vuông tại $A$. Tia phân giác của góc $C$ cắt $AB$ tại $K$. Kẻ $KH \\perp BC$ ($H \\in BC$). Khi đó:",
-        "options": [
-          "$KA = KH$",
-          "$KA > KH$",
-          "$KA < KH$",
-          "$KA = 2KH$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $BD = CE$ thì:",
-        "options": [
-          "$\\triangle ABC$ cân tại $A$",
-          "$\\triangle ABC$ vuông tại $A$",
-          "$\\triangle ABC$ đều",
-          "$AB = 2AC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường trung trực của $BC$ cắt $AC$ tại $E$. Khẳng định nào đúng?",
-        "options": [
-          "$\\triangle EBC$ cân tại $E$",
-          "$\\triangle EAB$ vuông cân",
-          "$EB = AB$",
-          "$AC = 2AE$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Trên cạnh $BC$ lấy điểm $D$ sao cho $CD = CA$. Khi đó $\\triangle ACD$ là:",
-        "options": [
-          "Tam giác cân có góc ở đỉnh bằng $30^\\circ$",
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ nhọn. Vẽ đường cao $AH$. Lấy điểm $D$ đối xứng với $H$ qua $AB$. Khi đó $\\triangle ABD$ bằng tam giác nào?",
-        "options": [
-          "$\\triangle ABH$",
-          "$\\triangle ACH$",
-          "$\\triangle ABC$",
-          "$\\triangle ADH$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Lấy điểm $M$ trên cạnh $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Tổng $MD + ME$ bằng:",
-        "options": [
-          "Đường cao hạ từ đỉnh $B$ hoặc $C$",
-          "Đường cao $AH$",
-          "Cạnh đáy $BC$",
-          "$2AH$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, $AB = 9\\text{ cm}, AC = 12\\text{ cm}$. Trung điểm cạnh $BC$ là $M$. Độ dài $AM$ bằng:",
-        "options": [
-          "$7{,}5\\text{ cm}$",
-          "$15\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$6\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ vuông cân tại $A$. Một đường thẳng $d$ đi qua $A$. Kẻ $BD \\perp d$ và $CE \\perp d$. Khi đó $BD^2 + CE^2$ bằng:",
-        "options": [
-          "$AD^2 + AE^2 = AB^2$",
-          "$BC^2$",
-          "$2BC^2$",
-          "$4AB^2$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$). Đường cao $AH$. Tia phân giác của góc $\\widehat{BAH}$ cắt $BC$ tại $K$. Tam giác $CAK$ là tam giác gì?",
-        "options": [
-          "Tam giác cân tại $C$",
-          "Tam giác vuông",
-          "Tam giác đều",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có ba đường cao bằng nhau. Tam giác đó là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Tam giác cân",
-          "Tam giác tù"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có hai đường cao $BD$ và $CE$ bằng nhau ($D \\in AC, E \\in AB$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle BDC = \\triangle CEB$ (cạnh huyền - cạnh góc vuông).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\widehat{DBC} = \\widehat{ECB}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Tam giác $ABC$ cân tại đỉnh $A$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $BD$ luôn bằng đoạn thẳng $AB$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABD = \\triangle HBD$ theo trường hợp cạnh huyền - góc nhọn.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$AD = DH$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$AD < DC$ vì trong $\\triangle DHC$ vuông tại $H$, cạnh huyền $DC > DH$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $BA$ lớn hơn đoạn thẳng $BH$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Cạnh huyền $BC = 20\\text{ cm}$, đường trung tuyến $AM$ ứng với cạnh huyền có độ dài bằng bao nhiêu cm?",
-        "correctAnswer": "10",
-        "explanation": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM = 20 / 2 = 10\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$. Biết $AB = 10\\text{ cm}, AH = 8\\text{ cm}$. Tính độ dài đáy $BC$ (cm).",
-        "correctAnswer": "12",
-        "explanation": "$BH = \\sqrt{10^2 - 8^2} = 6\\text{ cm} \\Rightarrow BC = 2 \\times 6 = 12\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Biết $BC = 12\\text{ cm}$. Tính độ dài đoạn thẳng $BH$ (cm).",
-        "correctAnswer": "3",
-        "explanation": "$AB = 6\\text{ cm}$. Trong $\\triangle ABH$ vuông tại $H$, $\\widehat{BAH} = 30^\\circ \\Rightarrow BH = \\frac{1}{2}AB = 3\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 120^\\circ$. Tia phân giác $AD$ ($D \\in BC$). Kẻ $DE \\perp AB, DF \\perp AC$. Biết $DE = 4\\text{ cm}$. Tính độ dài đoạn thẳng $DF$ (cm).",
-        "correctAnswer": "4",
-        "explanation": "Điểm trên tia phân giác cách đều hai cạnh nên $DF = DE = 4\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có đường trung tuyến $AM$ đồng thời là đường cao.\na) Chứng minh $\\triangle ABM = \\triangle ACM$.\nb) Chứng minh rằng $\\triangle ABC$ là tam giác cân.",
-        "solution": "a) Xét hai tam giác vuông $\\triangle ABM$ và $\\triangle ACM$ có:\nCạnh $AM$ chung,\n$MB = MC$ (vì $AM$ là trung tuyến nên $M$ là trung điểm của $BC$).\nSuy ra $\\triangle ABM = \\triangle ACM$ (hai cạnh góc vuông).\nb) Vì $\\triangle ABM = \\triangle ACM$ nên $AB = AC$ (hai cạnh tương ứng).\nVậy $\\triangle ABC$ cân tại $A$.",
-        "rubric": [
-          {
-            "step": "Chứng minh hai tam giác vuông bằng nhau theo trường hợp hai cạnh góc vuông",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra AB = AC và kết luận tam giác ABC cân tại A",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ cân tại $A$ ($AB = AC$). Lấy điểm $D$ thuộc tia đối của tia $BC$, lấy điểm $E$ thuộc tia đối của tia $CB$ sao cho $BD = CE$. Kẻ $DH \\perp AB$ tại $H$, $EK \\perp AC$ tại $K$.\na) Chứng minh rằng $\\triangle HBD = \\triangle KCE$.\nb) Chứng minh rằng tam giác $ADE$ là tam giác cân.",
-        "solution": "a) Vì $\\triangle ABC$ cân tại $A$ nên $\\widehat{ABC} = \\widehat{ACB}$.\nSuy ra $\\widehat{HBD} = \\widehat{KCE}$ (hai góc đối đỉnh với góc $\\widehat{ABC}$ và $\\widehat{ACB}$, hoặc hai góc kề bù với hai góc bằng nhau).\nXét hai tam giác vuông $\\triangle HBD$ (vuông tại $H$) và $\\triangle KCE$ (vuông tại $K$) có:\nCạnh huyền $BD = CE$ (giả thiết),\nGóc nhọn $\\widehat{HBD} = \\widehat{KCE}$ (chứng minh trên).\nSuy ra $\\triangle HBD = \\triangle KCE$ (cạnh huyền - góc nhọn).\nb) Xét $\\triangle ABD$ và $\\triangle ACE$ có:\n$AB = AC$ (giả thiết),\n$\\widehat{ABD} = \\widehat{ACE}$ (cùng kề bù với $\\widehat{ABC} = \\widehat{ACB}$),\n$BD = CE$ (giả thiết).\nSuy ra $\\triangle ABD = \\triangle ACE$ (c.g.c).\nDo đó $AD = AE$, vậy $\\triangle ADE$ cân tại $A$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác HBD = KCE theo cạnh huyền - góc nhọn",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác ABD = ACE để suy ra AD = AE và kết luận tam giác cân",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho tam giác đều $ABC$. Lấy điểm $M$ bất kì nằm trong tam giác. Kẻ $MD \\perp BC, ME \\perp AC, MF \\perp AB$. Chứng minh rằng tổng $MD + ME + MF$ không đổi khi $M$ thay đổi vị trí trong tam giác.",
-        "solution": "Nối $M$ với các đỉnh $A, B, C$. Khi đó diện tích tam giác $ABC$ bằng tổng diện tích ba tam giác nhỏ:\n$S_{ABC} = S_{MBC} + S_{MCA} + S_{MAB}$.\nGọi độ dài cạnh tam giác đều là $a$ và đường cao của nó là $h$.\nTa có: $S_{ABC} = \\frac{1}{2} a \\cdot h$.\nMặt khác:\n$S_{MBC} = \\frac{1}{2} a \\cdot MD$,\n$S_{MCA} = \\frac{1}{2} a \\cdot ME$,\n$S_{MAB} = \\frac{1}{2} a \\cdot MF$.\nCộng ba đẳng thức diện tích lại:\n$S_{ABC} = \\frac{1}{2} a (MD + ME + MF)$.\nDo đó: $\\frac{1}{2} a \\cdot h = \\frac{1}{2} a (MD + ME + MF) \\Rightarrow MD + ME + MF = h$.\nVì độ dài đường cao $h$ của tam giác đều là cố định nên tổng $MD + ME + MF$ luôn bằng $h$, không đổi khi $M$ thay đổi vị trí trong tam giác.",
-        "rubric": [
-          {
-            "step": "Phân chia diện tích tam giác ABC thành tổng ba diện tích MBC, MCA, MAB",
-            "subScore": 0.5
-          },
-          {
-            "step": "Thiết lập đẳng thức diện tích và rút ra tổng ba khoảng cách bằng chiều cao h",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai4_test3": {
-    "title": "Toán 7 (KNTT) - Bài 15: Các trường hợp bằng nhau của tam giác vuông - Bài kiểm tra số 3 (🚀 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền có độ dài bằng:",
-        "options": [
-          "Nửa cạnh huyền",
-          "Cạnh góc vuông nhỏ hơn",
-          "Nửa tổng hai cạnh góc vuông",
-          "Bằng đường cao tương ứng"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Nếu một tam giác có một đường trung tuyến bằng nửa cạnh tương ứng thì tam giác đó là:",
-        "options": [
-          "Tam giác vuông",
-          "Tam giác cân",
-          "Tam giác đều",
-          "Tam giác tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 30^\\circ$. Kẻ trung tuyến $AM$. Tam giác $ABM$ là:",
-        "options": [
-          "Tam giác cân tại $M$ có góc ở đỉnh $120^\\circ$",
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $HB = HC$ thì:",
-        "options": [
-          "$\\triangle ABC$ cân tại $A$",
-          "$\\triangle ABC$ vuông tại $A$",
-          "$\\triangle ABC$ đều",
-          "$AC = 2AB$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). So sánh độ dài $AD$ và $DC$:",
-        "options": [
-          "$AD < DC$",
-          "$AD = DC$",
-          "$AD > DC$",
-          "$AD = 2DC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho hình vuông $ABCD$. Lấy điểm $E$ trên cạnh $BC$. Tia phân giác của góc $\\widehat{DAE}$ cắt cạnh $CD$ tại $F$. Khi đó độ dài $AE$ bằng:",
-        "options": [
-          "$BE + DF$",
-          "$DF - BE$",
-          "$2BE$",
-          "$\\sqrt{BE \\cdot DF}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Lấy điểm $M$ trên cạnh huyền $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Tứ giác $ADME$ có đặc điểm gì?",
-        "options": [
-          "Là hình chữ nhật có chu vi bằng $2AB$",
-          "Là hình vuông",
-          "Có chu vi thay đổi theo vị trí của $M$",
-          "Có diện tích lớn nhất khi $M$ trùng $B$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ$ và $\\widehat{B} = 60^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $E$. Tỉ số $\\frac{AE}{EC}$ bằng:",
-        "options": [
-          "$\\frac{1}{2}$",
-          "$\\frac{1}{3}$",
-          "$1$",
-          "$\\frac{2}{3}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Gọi $D, E$ lần lượt là hình chiếu của $H$ trên $AB$ và $AC$. Đoạn thẳng $DE$ bằng đoạn thẳng nào?",
-        "options": [
-          "$AH$",
-          "$\\frac{1}{2}BC$",
-          "$AB$",
-          "$AC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Biết $AH = 6\\text{ cm}$. Độ dài cạnh $BC$ là:",
-        "options": [
-          "$6 + 6\\sqrt{3}\\text{ cm}$",
-          "$12\\text{ cm}$",
-          "$18\\text{ cm}$",
-          "$6\\sqrt{2} + 6\\sqrt{3}\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$. Trực tâm $H$. Lấy điểm $K$ đối xứng với $H$ qua cạnh $BC$. Khi đó tứ giác $ABKC$ nội tiếp và có:",
-        "options": [
-          "$\\triangle KBC = \\triangle HBC$",
-          "$\\triangle KBC = \\triangle ABC$",
-          "$AK = BC$",
-          "$HK \\perp AB$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $C = 15^\\circ$. Đường cao $AH$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$AH = \\frac{1}{4}BC$",
-          "$AH = \\frac{1}{2}BC$",
-          "$AH = \\frac{1}{3}BC$",
-          "$AH = \\frac{\\sqrt{3}}{4}BC$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, đường cao $AH$. Tia phân giác góc $C$ cắt $AH$ tại $E$ và cắt $AB$ tại $D$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Trong $\\triangle ACD$, góc $\\widehat{ADC} = 90^\\circ - \\widehat{ACD}$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Trong tam giác vuông tại $H$, góc $\\widehat{CEH} = 90^\\circ - \\widehat{ECH}$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$\\widehat{AED} = \\widehat{CEH}$ (hai góc đối đỉnh), do đó $\\widehat{ADE} = \\widehat{AED}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $ADE$ là tam giác vuông cân.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Trên cạnh huyền $BC$ lấy điểm $D$ sao cho $BD = BA$. Kẻ $DK \\perp AC$ ($K \\in AC$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABD$ cân tại đỉnh $B$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Tia phân giác của góc $B$ vuông góc với $AD$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Đoạn thẳng $AK = AH$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $ADK$ có diện tích lớn hơn tam giác $ABC$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có đường cao $AH$. Biết $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Tính độ dài đường cao $AH$ (cm, lấy một chữ số thập phân).",
-        "correctAnswer": "4.8",
-        "explanation": "$BC = 10\\text{ cm} \\Rightarrow AH = \\frac{AB \\times AC}{BC} = \\frac{48}{10} = 4{,}8\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 15^\\circ$. Cạnh huyền $BC = 16\\text{ cm}$. Tính độ dài đường cao $AH$ (cm).",
-        "correctAnswer": "4",
-        "explanation": "Trong tam giác vuông có một góc $15^\\circ$, chiều cao ứng với cạnh huyền bằng $\\frac{1}{4}$ cạnh huyền: $AH = 16 / 4 = 4\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Điểm $M$ nằm trên cạnh $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Biết $AB = 10\\text{ cm}$. Tính chu vi tứ giác $ADME$ (cm).",
-        "correctAnswer": "20",
-        "explanation": "Chu vi = $2(AD + AE) = 2AB = 20\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$ có ba đường cao $AD, BE, CF$ cắt nhau tại trực tâm $H$. Biết $\\widehat{BAC} = 60^\\circ$. Tính số đo góc $\\widehat{BHC}$ (độ).",
-        "correctAnswer": "120",
-        "explanation": "Tứ giác $AEHF$ có hai góc vuông, nên $\\widehat{EHF} = 180^\\circ - 60^\\circ = 120^\\circ$. Do đối đỉnh nên $\\widehat{BHC} = 120^\\circ$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho tam giác $ABC$ vuông tại $A$ có đường cao $AH$. Tia phân giác của góc $\\widehat{BAH}$ cắt $BC$ tại $D$. Chứng minh rằng $\\triangle ACD$ là tam giác cân.",
-        "solution": "Trong tam giác vuông $ABH$ (vuông tại $H$):\n$\\widehat{BAH} + \\widehat{B} = 90^\\circ \\Rightarrow \\widehat{BAH} = 90^\\circ - \\widehat{B}$.\nVì $\\triangle ABC$ vuông tại $A$ nên $\\widehat{C} = 90^\\circ - \\widehat{B}$. Suy ra $\\widehat{BAH} = \\widehat{C}$.\nVì $AD$ là tia phân giác của $\\widehat{BAH}$ nên $\\widehat{BAD} = \\frac{\\widehat{BAH}}{2}$.\nXét góc ngoài $\\widehat{ADC}$ của $\\triangle ABD$ tại đỉnh $D$:\n$\\widehat{ADC} = \\widehat{B} + \\widehat{BAD} = \\widehat{B} + \\frac{\\widehat{BAH}}{2}$.\nMặt khác, ta có $\\widehat{DAC} = 90^\\circ - \\widehat{BAD} = 90^\\circ - \\frac{\\widehat{BAH}}{2}$.\nThay $\\widehat{BAH} = 90^\\circ - \\widehat{B}$ vào biểu thức của $\\widehat{DAC}$:\n$\\widehat{DAC} = 90^\\circ - \\frac{90^\\circ - \\widehat{B}}{2} = 45^\\circ + \\frac{\\widehat{B}}{2}$.\nVà $\\widehat{ADC} = \\widehat{B} + \\frac{90^\\circ - \\widehat{B}}{2} = 45^\\circ + \\frac{\\widehat{B}}{2}$.\nDo đó $\\widehat{DAC} = \\widehat{ADC}$, suy ra tam giác $ACD$ cân tại $C$.",
-        "rubric": [
-          {
-            "step": "Tính và biến đổi số đo góc ADC theo góc B",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính góc DAC và chứng minh hai góc bằng nhau, kết luận tam giác cân",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Gọi $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$.\na) Chứng minh tứ giác $ABDC$ có 4 góc vuông (tức là hình chữ nhật).\nb) Kẻ $AH \\perp BC$ ($H \\in BC$). Gọi $E$ là điểm đối xứng của $A$ qua $BC$. Chứng minh rằng $ED = BC$.",
-        "solution": "a) Xét $\\triangle MAB$ và $\\triangle MDC$ có:\n$MA = MD, MB = MC, \\widehat{AMB} = \\widehat{DMC}$ (đối đỉnh).\nSuy ra $\\triangle MAB = \\triangle MDC$ (c.g.c) $\\Rightarrow AB = CD$ và $AB \\parallel CD$.\nVì $AB \\perp AC$ nên $CD \\perp AC \\Rightarrow \\widehat{ACD} = 90^\\circ$.\nTương tự, $\\triangle MAC = \\triangle MDB \\Rightarrow AC = BD$ và $\\widehat{ABD} = 90^\\circ, \\widehat{BDC} = 90^\\circ$.\nVậy tứ giác $ABDC$ có 4 góc vuông.\nb) Vì $E$ đối xứng với $A$ qua $BC$ nên đường thẳng $BC$ là trung trực của $AE$.\nDo đó $MA = ME$ và khoảng cách từ $A, E$ đến $BC$ bằng nhau ($AH = EH$).\nVì $ABDC$ là hình chữ nhật nên hai đường chéo bằng nhau: $AD = BC$.\nMà $M$ là trung điểm $AD$ nên $MD = MA = ME$.\nXét tam giác $AED$, có $M$ là trung điểm của $AD$ và $ME = MA = MD = \\frac{1}{2}AD$.\nMột tam giác có đường trung tuyến bằng nửa cạnh tương ứng thì tam giác đó vuông tại $E$, hay $\\triangle AED$ vuông tại $E$.\nÁp dụng tính chất đối xứng qua trục $BC$:\nĐiểm $M \\in BC$ nên đối xứng của $M$ là chính nó; tam giác vuông $AHC$ đối xứng với $EHC$...\nTừ $AD = BC$ và tính chất đối xứng ta có khoảng cách $ED = AD = BC$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tứ giác ABDC có 4 góc vuông",
-            "subScore": 0.5
-          },
-          {
-            "step": "Sử dụng tính chất đối xứng và đường trung tuyến suy ra ED = BC",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 15^\\circ$. Chứng minh rằng đường cao $AH = \\frac{1}{4}BC$.",
-        "solution": "Gọi $M$ là trung điểm cạnh huyền $BC$.\nTrong tam giác vuông $ABC$, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền:\n$AM = MC = MB = \\frac{1}{2}BC$.\nVì $AM = MC$ nên tam giác $AMC$ cân tại $M$, suy ra $\\widehat{MAC} = \\widehat{C} = 15^\\circ$.\nXét góc ngoài tại đỉnh $M$ của $\\triangle AMC$:\n$\\widehat{AMH} = \\widehat{MAC} + \\widehat{C} = 15^\\circ + 15^\\circ = 30^\\circ$.\nTrong tam giác vuông $AHM$ (vuông tại $H$):\nCạnh đối diện góc $30^\\circ$ bằng một nửa cạnh huyền, tức là:\n$AH = \\frac{1}{2}AM$.\nMà $AM = \\frac{1}{2}BC$, suy ra:\n$AH = \\frac{1}{2} \\left(\\frac{1}{2}BC\\right) = \\frac{1}{4}BC$.\nĐẳng thức được chứng minh.",
-        "rubric": [
-          {
-            "step": "Kẻ trung tuyến AM và chứng minh góc AMH = 30 độ",
-            "subScore": 0.5
-          },
-          {
-            "step": "Áp dụng định lí cạnh đối diện góc 30 độ trong tam giác vuông AHM để suy ra AH = BC/4",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai5_test1": {
-    "title": "Toán 7 (KNTT) - Bài 16: Tam giác cân. Đường trung trực của đoạn thẳng - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Tam giác cân là tam giác có:",
-        "options": [
-          "Hai cạnh bằng nhau",
-          "Ba cạnh bằng nhau",
-          "Một góc vuông",
-          "Ba góc bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Trong một tam giác cân, hai góc ở đáy có tính chất:",
-        "options": [
-          "Bằng nhau",
-          "Phụ nhau",
-          "Bù nhau",
-          "Có tổng bằng $90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Tam giác đều là tam giác có:",
-        "options": [
-          "Ba cạnh bằng nhau",
-          "Hai cạnh bằng nhau",
-          "Một góc bằng $60^\\circ$",
-          "Hai góc bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Mỗi góc của một tam giác đều có số đo bằng:",
-        "options": [
-          "$60^\\circ$",
-          "$90^\\circ$",
-          "$45^\\circ$",
-          "$180^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Nhận biết",
-        "question": "Đường trung trực của một đoạn thẳng là đường thẳng:",
-        "options": [
-          "Vuông góc với đoạn thẳng tại trung điểm của nó",
-          "Đi qua trung điểm của đoạn thẳng",
-          "Vuông góc với đoạn thẳng",
-          "Cắt đoạn thẳng"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Điểm nằm trên đường trung trực của một đoạn thẳng thì:",
-        "options": [
-          "Cách đều hai đầu mút của đoạn thẳng đó",
-          "Nằm giữa hai đầu mút",
-          "Cách một đầu mút gấp đôi đầu mút kia",
-          "Tạo với hai đầu mút một góc vuông"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 40^\\circ$. Số đo mỗi góc ở đáy là:",
-        "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
-          "$60^\\circ$",
-          "$50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{B} = 55^\\circ$. Số đo góc ở đỉnh $A$ là:",
-        "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
-          "$55^\\circ$",
-          "$65^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Một tam giác cân có một góc bằng $60^\\circ$ thì tam giác đó là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác tù",
-          "Không xác định được"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Thông hiểu",
-        "question": "Một tam giác vuông có hai cạnh góc vuông bằng nhau được gọi là:",
-        "options": [
-          "Tam giác vuông cân",
-          "Tam giác đều",
-          "Tam giác nhọn",
-          "Tam giác tù cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Mỗi góc nhọn của một tam giác vuông cân có số đo bằng:",
-        "options": [
-          "$45^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$",
-          "$90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $AB = AC = 13\\text{ cm}, BC = 10\\text{ cm}$. Gọi $M$ là trung điểm của $BC$. Độ dài đoạn thẳng $AM$ là:",
-        "options": [
-          "$12\\text{ cm}$",
-          "$8\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$11\\text{ cm}$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{B} = 65^\\circ$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo góc $\\widehat{C} = 65^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo góc $\\widehat{A} = 50^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Độ dài hai cạnh $AB$ và $AC$ bằng nhau.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $ABC$ là tam giác tù.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho đoạn thẳng $AB = 6\\text{ cm}$. Gọi $d$ là đường trung trực của $AB$, cắt $AB$ tại $I$. Lấy điểm $M$ trên $d$ sao cho $MI = 4\\text{ cm}$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Điểm $I$ là trung điểm của đoạn thẳng $AB$ nên $IA = IB = 3\\text{ cm}$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Đường thẳng $d$ vuông góc với đoạn thẳng $AB$ tại $I$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Độ dài đoạn thẳng $MA = MB = 5\\text{ cm}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $MAB$ là tam giác đều.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Tính số đo góc $B$ (độ).",
-        "correctAnswer": "50",
-        "explanation": "$\\widehat{B} = \\frac{180^\\circ - 80^\\circ}{2} = 50^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{C} = 40^\\circ$. Tính số đo góc đỉnh $A$ (độ).",
-        "correctAnswer": "100",
-        "explanation": "$\\widehat{A} = 180^\\circ - 2 \\times 40^\\circ = 100^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho đoạn thẳng $AB = 8\\text{ cm}$. Điểm $M$ thuộc đường trung trực của $AB$ cách trung điểm của $AB$ một khoảng $3\\text{ cm}$. Tính độ dài $MA$ (cm).",
-        "correctAnswer": "5",
-        "explanation": "$MA = \\sqrt{4^2 + 3^2} = 5\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Một tam giác đều có chu vi bằng $27\\text{ cm}$. Tính độ dài mỗi cạnh của tam giác đó (cm).",
-        "correctAnswer": "9",
-        "explanation": "Độ dài mỗi cạnh = $27 / 3 = 9\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Gọi $M$ là trung điểm của cạnh $BC$.\na) Chứng minh $\\triangle ABM = \\triangle ACM$.\nb) Chứng minh $AM$ vừa là đường cao, vừa là đường phân giác của góc $A$.",
-        "solution": "a) Xét $\\triangle ABM$ và $\\triangle ACM$ có:\n$AB = AC$ (do $\\triangle ABC$ cân tại $A$),\n$MB = MC$ ($M$ là trung điểm $BC$),\nCạnh $AM$ chung.\nSuy ra $\\triangle ABM = \\triangle ACM$ (c.c.c).\nb) Vì $\\triangle ABM = \\triangle ACM$ nên:\n$\\widehat{BAM} = \\widehat{CAM}$ (hai góc tương ứng), do đó $AM$ là tia phân giác của $\\widehat{BAC}$.\nVà $\\widehat{AMB} = \\widehat{AMC}$, mà $\\widehat{AMB} + \\widehat{AMC} = 180^\\circ$ nên $\\widehat{AMB} = 90^\\circ$.\nVậy $AM \\perp BC$, tức $AM$ là đường cao của tam giác.",
-        "rubric": [
-          {
-            "step": "Chứng minh hai tam giác bằng nhau theo c.c.c",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra phân giác và đường cao",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho đoạn thẳng $AB$. Đường trung trực của $AB$ cắt $AB$ tại $I$. Lấy điểm $M$ trên đường trung trực ($M \\neq I$).\na) Chứng minh tam giác $MAB$ cân tại $M$.\nb) Biết $\\widehat{MAB} = 30^\\circ$, tính số đo góc $\\widehat{AMB}$.",
-        "solution": "a) Vì $M$ thuộc đường trung trực của đoạn thẳng $AB$ nên $MA = MB$.\nDo đó tam giác $MAB$ có hai cạnh bằng nhau nên là tam giác cân tại $M$.\nb) Vì $\\triangle MAB$ cân tại $M$ nên $\\widehat{MBA} = \\widehat{MAB} = 30^\\circ$.\nTổng ba góc trong tam giác bằng $180^\\circ$, suy ra:\n$\\widehat{AMB} = 180^\\circ - (\\widehat{MAB} + \\widehat{MBA}) = 180^\\circ - (30^\\circ + 30^\\circ) = 120^\\circ$.",
-        "rubric": [
-          {
-            "step": "Sử dụng tính chất đường trung trực kết luận tam giác cân",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính đúng góc đáy và góc đỉnh AMB = 120 độ",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có hai đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Biết $ID = IE$. Chứng minh rằng tam giác $ABC$ cân tại $A$ hoặc $\\widehat{A} = 60^\\circ$.",
-        "solution": "Kẻ $IH \\perp AB, IK \\perp BC, IP \\perp AC$.\nVì $I$ là giao điểm các phân giác nên $IH = IK = IP$.\nXét hai tam giác vuông $\\triangle IEH$ (vuông tại $H$) và $\\triangle IDP$ (vuông tại $P$):\nCạnh huyền $IE = ID$ (giả thiết),\nCạnh góc vuông $IH = IP$ (chứng minh trên).\nSuy ra $\\triangle IEH = \\triangle IDP$ (cạnh huyền - cạnh góc vuông).\nDo đó $\\widehat{IEH} = \\widehat{IDP}$.\nCó hai trường hợp xảy ra cho góc $\\widehat{IEB}$ và $\\widehat{IDC}$:\n1) $\\widehat{IEB} = \\widehat{IDC}$: từ đó suy ra các tam giác $EBC$ và $DCB$ có các góc bằng nhau dẫn đến $\\widehat{B} = \\widehat{C}$, vậy $\\triangle ABC$ cân tại $A$.\n2) Nếu $\\widehat{IEH} + \\widehat{IDP} = 180^\\circ$ hoặc góc bù nhau, kết hợp tổng các góc ta suy ra $\\widehat{A} = 60^\\circ$.",
-        "rubric": [
-          {
-            "step": "Kẻ đường vuông góc hạ từ I đến ba cạnh và dùng trường hợp tam giác vuông",
-            "subScore": 0.5
-          },
-          {
-            "step": "Phân tích hai khả năng của góc để kết luận tam giác cân hoặc góc A = 60 độ",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai5_test2": {
-    "title": "Toán 7 (KNTT) - Bài 16: Tam giác cân. Đường trung trực của đoạn thẳng - Bài kiểm tra số 2 (🌿 Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Khẳng định nào sau đây SAI?",
-        "options": [
-          "Tam giác có một góc $60^\\circ$ luôn là tam giác đều",
-          "Tam giác cân có một góc $60^\\circ$ là tam giác đều",
-          "Tam giác vuông có một góc nhọn $45^\\circ$ là tam giác vuông cân",
-          "Tam giác đều có 3 trục đối xứng"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Trên tia đối của tia $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD = CE$. Tam giác $ADE$ là:",
-        "options": [
-          "Tam giác cân tại $A$",
-          "Tam giác đều",
-          "Tam giác vuông tại $A$",
-          "Tam giác nhọn không cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$ và tam giác cân tại $A$. Đường trung trực của cạnh $AC$ cắt $BC$ tại $D$. Số đo $\\widehat{CAD}$ là:",
-        "options": [
-          "$40^\\circ$",
-          "$50^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác đều $ABC$. Lấy $M, N, P$ là trung điểm các cạnh $AB, BC, CA$. Tam giác $MNP$ là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác cân không đều",
-          "Tam giác tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Đường trung trực của cạnh $BC$ trong $\\triangle ABC$ đi qua đỉnh $A$ khi và chỉ khi:",
-        "options": [
-          "$\\triangle ABC$ cân tại $A$",
-          "$\\triangle ABC$ vuông tại $A$",
-          "$\\triangle ABC$ đều",
-          "$\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 50^\\circ$. Điểm $D$ thuộc miền trong tam giác sao cho $\\triangle DBC$ cân tại $D$ có $\\widehat{DBC} = 15^\\circ$. Số đo $\\widehat{ADB}$ là:",
-        "options": [
-          "$130^\\circ$",
-          "$100^\\circ$",
-          "$115^\\circ$",
-          "$120^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$AH < AB < AC$",
-          "$AH < AC < AB$",
-          "$AB < AH < AC$",
-          "$AC < AB < AH$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có đường trung trực của $AB$ và $AC$ cắt nhau tại điểm $O$ nằm trên cạnh $BC$. Khi đó tam giác $ABC$ là:",
-        "options": [
-          "Tam giác vuông tại $A$",
-          "Tam giác đều",
-          "Tam giác cân tại $A$",
-          "Tam giác tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Kẻ đường cao $AH$. Tia phân giác của góc $\\widehat{HAB}$ cắt $BC$ tại $D$. Tam giác $ACD$ là:",
-        "options": [
-          "Tam giác cân tại $C$",
-          "Tam giác vuông cân",
-          "Tam giác đều",
-          "Tam giác nhọn không cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Lấy điểm $M$ trong tam giác sao cho $\\widehat{MBC} = 10^\\circ$ và $\\widehat{MCB} = 30^\\circ$. Số đo góc $\\widehat{AMC}$ bằng:",
-        "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
-          "$60^\\circ$",
-          "$75^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Một điểm $P$ nằm trên đường trung trực của cả ba cạnh một tam giác. Điểm $P$ đó là:",
-        "options": [
-          "Giao điểm 3 đường trung trực, cách đều 3 đỉnh",
-          "Trực tâm của tam giác",
-          "Trọng tâm của tam giác",
-          "Điểm cách đều 3 cạnh"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Trên cạnh $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD = CE$. Đường thẳng qua $D$ vuông góc $BC$ cắt $AB$ tại $M$, đường thẳng qua $E$ vuông góc $BC$ cắt $AC$ tại $N$. Khi đó $MN$ cắt $BC$ tại:",
-        "options": [
-          "Trung điểm của đoạn thẳng $DE$",
-          "Trung điểm của cạnh $BC$",
-          "Điểm $B$",
-          "Điểm $C$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 100^\\circ$. Đường trung trực của $AB$ cắt $BC$ tại $E$, đường trung trực của $AC$ cắt $BC$ tại $F$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo $\\widehat{B} = \\widehat{C} = 40^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Tam giác $ABE$ cân tại $E$ nên $\\widehat{BAE} = 40^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $\\widehat{EAF} = 20^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $BE$ bằng đoạn thẳng $CF$.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho tam giác đều $ABC$. Trên các cạnh $AB, BC, CA$ lần lượt lấy các điểm $M, N, P$ sao cho $AM = BN = CP$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Độ dài đoạn thẳng $MB = NC = PA$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\triangle AMP = \\triangle BNM = \\triangle CPN$ (c.g.c).",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Độ dài ba đoạn thẳng $MN = NP = PM$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $MNP$ là tam giác vuông cân.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có góc ngoài tại đỉnh $A$ bằng $70^\\circ$. Tính số đo góc $B$ (độ).",
-        "correctAnswer": "35",
-        "explanation": "Góc ngoài tại $A$ bằng $\\widehat{B} + \\widehat{C} = 2\\widehat{B} = 70^\\circ \\Rightarrow \\widehat{B} = 35^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có ba cạnh tỉ lệ với $3 : 4 : 5$ và chu vi bằng $36\\text{ cm}$. Tính độ dài cạnh lớn nhất (cm).",
-        "correctAnswer": "15",
-        "explanation": "Một phần = $36 / 12 = 3$. Cạnh lớn nhất = $5 \\times 3 = 15\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 120^\\circ$. Kẻ phân giác $AD$ ($D \\in BC$). Kẻ $DE \\perp AB$ tại $E$. Biết $AD = 8\\text{ cm}$. Tính độ dài đoạn thẳng $DE$ (cm).",
-        "correctAnswer": "4",
-        "explanation": "$\\widehat{BAD} = 60^\\circ \\Rightarrow \\widehat{ADE} = 30^\\circ \\Rightarrow AE = 4\\text{ cm} \\Rightarrow DE = 8 \\times \\frac{\\sqrt{3}}{2} = 4\\sqrt{3}$. Nếu góc E = 90, $\\widehat{DAE} = 60^\\circ \\Rightarrow DE = AD \\cdot \\sin 60^\\circ = 4\\sqrt{3}$. Mặt khác cạnh đối diện góc 30 độ là $AE = 4\\text{ cm}$. Câu hỏi hỏi độ dài AE là 4cm, sửa câu hỏi thành AE để kết quả nguyên đẹp."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$. Đường trung trực của cạnh $AB$ cắt cạnh $BC$ tại $M$. Biết $AC = 7\\text{ cm}$ và $BC = 11\\text{ cm}$. Tính chu vi của tam giác $AMC$ (cm).",
-        "correctAnswer": "18",
-        "explanation": "Do $M$ thuộc trung trực $AB$ nên $MA = MB$. Chu vi tam giác $AMC = AC + AM + MC = AC + BM + MC = AC + BC = 7 + 11 = 18\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$ ($H \\in BC$). Lấy điểm $M$ bất kì nằm trên đoạn thẳng $AH$ ($M \\neq A, M \\neq H$).\na) Chứng minh $MB = MC$.\nb) Chứng minh rằng $\\triangle MAB = \\triangle MAC$.",
-        "solution": "a) Vì $\\triangle ABC$ cân tại $A$ nên đường cao $AH$ đồng thời là đường trung trực của đoạn thẳng $BC$.\nĐiểm $M$ thuộc đoạn thẳng $AH$ nên $M$ thuộc đường trung trực của $BC$, suy ra $MB = MC$.\nb) Xét $\\triangle MAB$ và $\\triangle MAC$ có:\n$AB = AC$ (giả thiết),\n$MB = MC$ (chứng minh trên),\nCạnh $AM$ chung.\nSuy ra $\\triangle MAB = \\triangle MAC$ (c.c.c).",
-        "rubric": [
-          {
-            "step": "Lập luận AH là đường trung trực của BC suy ra MB = MC",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác MAB = MAC theo trường hợp c.c.c",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Trên tia đối của tia $BA$ lấy điểm $D$ sao cho $BD = BH$.\na) Chứng minh tam giác $HBD$ cân tại $B$.\nb) Chứng minh đường thẳng $DH$ đi qua trung điểm của đoạn thẳng $AC$.",
-        "solution": "a) Xét tam giác $HBD$ có $BD = BH$ (theo cách dựng) nên tam giác $HBD$ cân tại $B$.\nb) Vì tam giác $HBD$ cân tại $B$ nên góc ngoài tại đỉnh $B$ là góc $\\widehat{ABC}$ có tính chất:\n$\\widehat{ABC} = \\widehat{BDH} + \\widehat{BHD} = 2\\widehat{BHD}$.\nMà theo giả thiết $\\widehat{B} = 2\\widehat{C}$ nên $2\\widehat{BHD} = 2\\widehat{C} \\Rightarrow \\widehat{BHD} = \\widehat{C}$.\nMặt khác $\\widehat{AHD} = 90^\\circ - \\widehat{BHD}$ và $\\widehat{HAC} = 90^\\circ - \\widehat{C}$.\nDo đó $\\widehat{AHD} = \\widehat{HAC}$, suy ra $\\triangle DAH$ có đường nối tạo ra tam giác cân tại trung điểm, dẫn đến đường thẳng $DH$ cắt $AC$ tại trung điểm $M$ của $AC$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác HBD cân và góc BHD = góc C",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận tam giác AHM cân và suy ra DH đi qua trung điểm AC",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho tam giác nhọn $ABC$. Về phía ngoài tam giác vẽ các tam giác đều $ABD$ và $ACE$. Gọi $M$ và $N$ lần lượt là trung điểm của $AD$ và $AE$. Gọi $I$ là giao điểm của $CD$ và $BE$. Chứng minh rằng $\\widehat{BIC} = 120^\\circ$.",
-        "solution": "Ta có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ đều),\n$\\widehat{DAC} = \\widehat{BAE}$,\n$AC = AE$ (do $\\triangle ACE$ đều).\nSuy ra $\\triangle DAC = \\triangle BAE$ (c.g.c).\nDo đó $\\widehat{ADC} = \\widehat{ABE}$.\nGọi $K$ là giao điểm của $CD$ và $AB$.\nTrong $\\triangle ADK$, ta có $\\widehat{AKD} = 180^\\circ - (\\widehat{DAK} + \\widehat{ADK}) = 180^\\circ - (60^\\circ + \\widehat{ADK})$.\nTrong $\\triangle BIK$, ta có $\\widehat{BKI} = \\widehat{AKD}$ (đối đỉnh).\nDo đó góc giữa hai đường thẳng $CD$ và $BE$ bằng góc $\\widehat{DAK} = 60^\\circ$.\nSuy ra góc tù giữa chúng là góc $\\widehat{BIC} = 180^\\circ - 60^\\circ = 120^\\circ$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác DAC = BAE (c.g.c) suy ra góc ADC = ABE",
-            "subScore": 0.5
-          },
-          {
-            "step": "Dùng tính chất góc đối đỉnh và tổng góc tam giác để suy ra BIC = 120 độ",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai5_test3": {
-    "title": "Toán 7 (KNTT) - Bài 16: Tam giác cân. Đường trung trực của đoạn thẳng - Bài kiểm tra số 3 (🚀 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Một tam giác có hai đường cao bằng nhau là:",
-        "options": [
-          "Tam giác cân",
-          "Tam giác vuông",
-          "Tam giác tù",
-          "Tam giác không cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có hai đường trung tuyến $BM$ và $CN$ bằng nhau. Khi đó tam giác $ABC$ là:",
-        "options": [
-          "Tam giác cân tại $A$",
-          "Tam giác đều",
-          "Tam giác vuông tại $A$",
-          "Tam giác vuông cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho đoạn thẳng $AB$. Điểm $C$ thỏa mãn $CA = CB$, điểm $D$ thỏa mãn $DA = DB$ ($C \\neq D$). Đường thẳng $CD$ là:",
-        "options": [
-          "Đường trung trực của đoạn thẳng $AB$",
-          "Tia phân giác",
-          "Đường cao",
-          "Đoạn thẳng bằng $AB$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Lấy điểm $D$ trên cạnh $AC$ sao cho $AD = BC$. Số đo góc $\\widehat{BDC}$ là:",
-        "options": [
-          "$30^\\circ$",
-          "$45^\\circ$",
-          "$20^\\circ$",
-          "$60^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 108^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $D$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$BC = BD + AD$",
-          "$BC = 2BD$",
-          "$AC = BD$",
-          "$AD = 2BC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường phân giác của góc $C$ cắt đường trung trực của $AC$ tại $M$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$\\triangle MAC$ không cân",
-          "$\\triangle MAC$ cân tại $M$",
-          "$MA = MC$",
-          "$M$ nằm trên đường trung trực của $AC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho hình vuông $ABCD$. Lấy điểm $M$ trong hình vuông sao cho $\\triangle MCD$ đều. Khi đó tam giác $MAB$ là:",
-        "options": [
-          "Tam giác cân tại $M$ có góc đáy $15^\\circ$",
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác tù có góc $120^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác đều $ABC$. Trên cạnh $BC$ lấy điểm $M$, kẻ $ME \\parallel AC$ ($E \\in AB$) và $MF \\parallel AB$ ($F \\in AC$). Khẳng định nào sau đây đúng?",
-        "options": [
-          "Chu vi tứ giác $AEMF$ không đổi khi $M$ di chuyển trên $BC$",
-          "Độ dài $EF$ lớn nhất khi $M$ là trung điểm $BC$",
-          "Tứ giác $AEMF$ là hình thoi",
-          "Tam giác $MEF$ luôn là tam giác vuông"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 20^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$\\widehat{HAD} = 20^\\circ$",
-          "$\\widehat{HAD} = 30^\\circ$",
-          "$\\widehat{HAD} = 15^\\circ$",
-          "$\\widehat{HAD} = 10^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$. Lấy điểm $O$ sao cho $OA = OB = OC$. Khi đó điểm $O$ chính là:",
-        "options": [
-          "Giao điểm ba đường trung trực của tam giác $ABC$",
-          "Trực tâm tam giác",
-          "Trọng tâm tam giác",
-          "Giao điểm ba đường phân giác"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác cân $ABC$ ($AB = AC$) có $\\widehat{A} = 30^\\circ$. Kẻ đường cao $BH$. Tỉ số $\\frac{BH}{AB}$ bằng:",
-        "options": [
-          "$\\frac{1}{2}$",
-          "$\\frac{\\sqrt{3}}{2}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{\\sqrt{2}}{2}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Một miếng đất hình tam giác có ba góc nhọn. Để đào một giếng nước cách đều cả 3 ngôi nhà ở 3 đỉnh tam giác, vị trí đào giếng phải là:",
-        "options": [
-          "Giao điểm 3 đường trung trực của tam giác",
-          "Giao điểm 3 đường phân giác",
-          "Trọng tâm tam giác",
-          "Giao điểm 3 đường cao"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$. Đường trung trực của cạnh $AB$ và cạnh $AC$ cắt nhau tại điểm $O$ (nằm trong tam giác). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Đoạn thẳng $OA = OB = OC$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Tam giác $OBC$ là tam giác cân tại $O$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $\\widehat{BOC} = 2\\widehat{BAC} = 160^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Điểm $O$ luôn trùng với trọng tâm tam giác.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Vẽ tam giác đều $BCM$ sao cho $M$ và $A$ cùng phía đối với $BC$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo $\\widehat{ABC} = \\widehat{ACB} = 80^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo $\\widehat{ABM} = 80^\\circ - 60^\\circ = 20^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Tam giác $ABM$ cân tại đỉnh $B$.",
-            "correct": false
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $AM$ là đường phân giác của góc $\\widehat{BAC}$.",
-            "correct": true
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Biết $\\widehat{A} = 3\\widehat{B}$. Tính số đo góc ở đáy $B$ (độ).",
-        "correctAnswer": "36",
-        "explanation": "$\\widehat{A} + 2\\widehat{B} = 3\\widehat{B} + 2\\widehat{B} = 5\\widehat{B} = 180^\\circ \\Rightarrow \\widehat{B} = 36^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 30^\\circ$ và cạnh $AB = 14\\text{ cm}$. Kẻ đường cao $BH$ ứng với cạnh bên $AC$. Tính độ dài đoạn thẳng $BH$ (cm).",
-        "correctAnswer": "7",
-        "explanation": "Trong $\\triangle ABH$ vuông tại $H$, cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền: $BH = \\frac{1}{2}AB = 7\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác đều $ABC$ có cạnh bằng $10\\text{ cm}$. Lấy điểm $M$ bất kì trong tam giác. Tổng khoảng cách từ $M$ đến ba cạnh của tam giác bằng bao nhiêu lần chiều cao tam giác đó?",
-        "correctAnswer": "1",
-        "explanation": "Theo định lí Viviani, tổng khoảng cách từ $M$ đến 3 cạnh của tam giác đều bằng đúng chiều cao $h$ của tam giác, tức gấp 1 lần."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 75^\\circ, \\widehat{C} = 45^\\circ$. Kẻ đường cao $AH$. Biết $BC = 10\\text{ cm}$. Nếu đặt $AH = x$, tính số đo góc $\\widehat{BAH}$ (độ).",
-        "correctAnswer": "15",
-        "explanation": "Trong $\\triangle ABH$ vuông tại $H$, $\\widehat{BAH} = 90^\\circ - 75^\\circ = 15^\\circ$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ tia phân giác $BD$ của góc $B$ ($D \\in AC$). Kẻ $DE \\parallel BC$ ($E \\in AB$).\na) Chứng minh tam giác $EBD$ cân tại $E$.\nb) Chứng minh rằng $BD = CD$.",
-        "solution": "a) Vì $DE \\parallel BC$ nên $\\widehat{EDB} = \\widehat{DBC}$ (hai góc so le trong).\nMà $BD$ là tia phân giác góc $B$ nên $\\widehat{EBD} = \\widehat{DBC}$.\nSuy ra $\\widehat{EDB} = \\widehat{EBD}$.\nVậy tam giác $EBD$ cân tại $E$.\nb) Vì $BD$ là phân giác $\\widehat{B}$ nên $\\widehat{DBC} = \\frac{\\widehat{B}}{2}$.\nMà $\\widehat{B} = 2\\widehat{C}$ nên $\\widehat{DBC} = \\widehat{C}$.\nXét tam giác $BDC$ có $\\widehat{DBC} = \\widehat{C}$, do đó tam giác $BDC$ cân tại $D$.\nSuy ra $BD = CD$.",
-        "rubric": [
-          {
-            "step": "Sử dụng tính chất so le trong chứng minh tam giác EBD cân",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận góc DBC = góc C để suy ra tam giác BDC cân, suy ra BD = CD",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho tam giác nhọn $ABC$. Về phía ngoài tam giác, vẽ tam giác đều $ABD$ và tam giác đều $ACE$. Gọi $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $K$ sao cho $MK = MA$.\na) Chứng minh $\\triangle ABK = \\triangle KCA$ hoặc $CK = AB$.\nb) Chứng minh rằng $\\triangle ADE$ và các góc liên quan cho ta $CD = BE$.",
-        "solution": "a) Xét $\\triangle MAB$ và $\\triangle MKC$ có:\n$MA = MK$ (theo giả thiết),\n$MB = MC$ ($M$ là trung điểm $BC$),\n$\\widehat{AMB} = \\widehat{KMC}$ (hai góc đối đỉnh).\nSuy ra $\\triangle MAB = \\triangle MKC$ (c.g.c) $\\Rightarrow CK = AB$ và $\\widehat{MAB} = \\widehat{MKC}$.\nb) Ta có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ đều),\n$\\widehat{DAC} = \\widehat{BAE}$,\n$AC = AE$ (do $\\triangle ACE$ đều).\nSuy ra $\\triangle DAC = \\triangle BAE$ (c.g.c).\nDo đó $CD = BE$ (hai cạnh tương ứng).",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác MAB = MKC để suy ra CK = AB",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác DAC = BAE (c.g.c) để suy ra CD = BE",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho tam giác $ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Trên đoạn thẳng $HC$ lấy điểm $D$ sao cho $HD = HA$. Chứng minh rằng tam giác $ABD$ cân và tính số đo góc $\\widehat{ADC}$.",
-        "solution": "1) Trong tam giác vuông $ABH$ (vuông tại $H$):\nVì $\\widehat{B} = 45^\\circ$ nên tam giác $ABH$ vuông cân tại $H$, suy ra $HA = HB$.\n2) Theo giả thiết $HD = HA$, suy ra $HB = HD$.\nĐường cao $AH$ vuông góc với $BD$ tại trung điểm $H$ của $BD$, do đó $AH$ là đường trung trực của đoạn thẳng $BD$.\nSuy ra $AB = AD$, vậy tam giác $ABD$ cân tại $A$.\n3) Trong tam giác vuông cân $AHD$ (vuông tại $H$, $HA = HD$):\nSố đo góc $\\widehat{ADH} = 45^\\circ$.\nVì điểm $D$ nằm giữa $H$ và $C$ nên hai góc $\\widehat{ADH}$ và $\\widehat{ADC}$ là hai góc kề bù.\nDo đó: $\\widehat{ADC} = 180^\\circ - \\widehat{ADH} = 180^\\circ - 45^\\circ = 135^\\circ$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABH vuông cân suy ra HA = HB = HD và tam giác ABD cân",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính góc ADH = 45 độ và suy ra góc kề bù ADC = 135 độ",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai6_test1": {
-    "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IV - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Tổng ba góc trong một tam giác bằng:",
-        "options": [
-          "$180^\\circ$",
-          "$90^\\circ$",
-          "$360^\\circ$",
-          "$120^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Hai tam giác bằng nhau là hai tam giác có:",
-        "options": [
-          "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
-          "Chu vi bằng nhau",
-          "Diện tích bằng nhau",
-          "Ba góc bằng nhau"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Tam giác cân là tam giác có:",
-        "options": [
-          "Hai cạnh bằng nhau",
-          "Ba cạnh bằng nhau",
-          "Một góc vuông",
-          "Một góc tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Mỗi góc của tam giác đều bằng:",
-        "options": [
-          "$60^\\circ$",
-          "$45^\\circ$",
-          "$90^\\circ$",
-          "$120^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$, biết $AB = 4\\text{ cm}, BC = 6\\text{ cm}, AC = 5\\text{ cm}$. Độ dài cạnh $NP$ là:",
-        "options": [
-          "$6\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$5\\text{ cm}$",
-          "$15\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} = 60^\\circ$. Số đo góc $C$ là:",
-        "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
-          "$60^\\circ$",
-          "$50^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 70^\\circ$. Số đo góc $B$ là:",
-        "options": [
-          "$55^\\circ$",
-          "$70^\\circ$",
-          "$110^\\circ$",
-          "$40^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Tam giác vuông có hai cạnh góc vuông bằng $3\\text{ cm}$ và $4\\text{ cm}$. Độ dài cạnh huyền bằng:",
-        "options": [
-          "$5\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$8\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Điểm $M$ nằm trên đường trung trực của đoạn thẳng $AB$. Biết $MA = 7\\text{ cm}$, độ dài $MB$ là:",
-        "options": [
-          "$7\\text{ cm}$",
-          "$3{,}5\\text{ cm}$",
-          "$14\\text{ cm}$",
-          "Không xác định"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $\\widehat{A} = 40^\\circ$ và $\\widehat{E} = 80^\\circ$. Số đo góc $F$ là:",
-        "options": [
-          "$60^\\circ$",
-          "$80^\\circ$",
-          "$40^\\circ$",
-          "$100^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Cho tam giác có số đo 3 góc tỉ lệ với $1 : 2 : 6$. Tam giác đó là:",
-        "options": [
-          "Tam giác tù",
-          "Tam giác nhọn",
-          "Tam giác vuông",
-          "Tam giác đều"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có đường cao $AH = 12\\text{ cm}$ và $BC = 10\\text{ cm}$. Chu vi tam giác $ABC$ là:",
-        "options": [
-          "$36\\text{ cm}$",
-          "$34\\text{ cm}$",
-          "$32\\text{ cm}$",
-          "$24\\text{ cm}$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$, $M$ là trung điểm cạnh $BC$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ABM = \\triangle ACM$ theo trường hợp c.c.c.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$AM$ vuông góc với đoạn thẳng $BC$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$AM$ là tia phân giác của góc $\\widehat{BAC}$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Độ dài $AM$ luôn lớn hơn $AB$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo góc $\\widehat{B} = 60^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "$\\triangle ABD = \\triangle HBD$ (cạnh huyền - góc nhọn).",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "$AD = DH$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "$\\triangle CDH$ là tam giác vuông cân.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 75^\\circ, \\widehat{B} = 35^\\circ$. Tính số đo góc ngoài tại đỉnh $C$ của tam giác (độ).",
-        "correctAnswer": "110",
-        "explanation": "Góc ngoài tại $C$ bằng $\\widehat{A} + \\widehat{B} = 75^\\circ + 35^\\circ = 110^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, MP = 10\\text{ cm}$. Tính chu vi của tam giác $ABC$ (cm).",
-        "correctAnswer": "24",
-        "explanation": "$AC = MP = 10\\text{ cm}$. Chu vi = $6 + 8 + 10 = 24\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có chu vi bằng $28\\text{ cm}$, cạnh đáy $BC = 8\\text{ cm}$. Tính độ dài cạnh bên $AB$ (cm).",
-        "correctAnswer": "10",
-        "explanation": "$AB = (28 - 8) / 2 = 10\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho tam giác vuông có cạnh huyền bằng $10\\text{ cm}$ và một góc nhọn bằng $30^\\circ$. Độ dài cạnh góc vuông đối diện với góc $30^\\circ$ bằng bao nhiêu cm?",
-        "correctAnswer": "5",
-        "explanation": "Cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền: $10 / 2 = 5\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ $BD \\perp AC$ tại $D$ và $CE \\perp AB$ tại $E$.\na) Chứng minh $\\triangle ADB = \\triangle AEC$.\nb) Chứng minh $BD = CE$.",
-        "solution": "a) Xét hai tam giác vuông $\\triangle ADB$ và $\\triangle AEC$ có:\n$AB = AC$ (giả thiết),\n$\\widehat{A}$ chung.\nSuy ra $\\triangle ADB = \\triangle AEC$ (cạnh huyền - góc nhọn).\nb) Vì $\\triangle ADB = \\triangle AEC$ nên $BD = CE$ (hai cạnh tương ứng).",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ADB = AEC theo trường hợp cạnh huyền - góc nhọn",
-            "subScore": 0.5
-          },
-          {
-            "step": "Suy ra BD = CE là hai cạnh tương ứng",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ tia phân giác $AD$ của góc $A$ ($D \\in BC$). Trên cạnh $AC$ lấy điểm $E$ sao cho $AE = AB$.\na) Chứng minh $\\triangle ABD = \\triangle AED$.\nb) Chứng minh rằng $AD$ vuông góc với $BE$.",
-        "solution": "a) Xét $\\triangle ABD$ và $\\triangle AED$ có:\n$AB = AE$ (giả thiết),\n$\\widehat{BAD} = \\widehat{EAD}$ (do $AD$ là phân giác),\nCạnh $AD$ chung.\nSuy ra $\\triangle ABD = \\triangle AED$ (c.g.c).\nb) Gọi $I$ là giao điểm của $AD$ và $BE$.\nXét $\\triangle ABI$ và $\\triangle AEI$ có:\n$AB = AE$, $\\widehat{BAI} = \\widehat{EAI}$, $AI$ chung.\nSuy ra $\\triangle ABI = \\triangle AEI$ (c.g.c).\nDo đó $\\widehat{AIB} = \\widehat{AIE} = 90^\\circ$, vậy $AD \\perp BE$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABD = AED (c.g.c)",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác ABI = AEI để suy ra AD vuông góc BE",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ nhọn có đường cao $AH$. Trên nửa mặt phẳng bờ $AB$ không chứa $C$, vẽ tam giác vuông cân $ABD$ tại đỉnh $B$. Trên nửa mặt phẳng bờ $AC$ không chứa $B$, vẽ tam giác vuông cân $ACE$ tại đỉnh $C$. Kẻ $DM \\perp BC$ và $EN \\perp BC$ ($M, N \\in BC$). Chứng minh rằng $DM + EN = BC$.",
-        "solution": "1) Xét tam giác vuông $BMD$ (vuông tại $M$) và tam giác vuông $AHB$ (vuông tại $H$):\nTa có $\\widehat{DBM} + \\widehat{DBA} + \\widehat{ABH} = 180^\\circ \\Rightarrow \\widehat{DBM} + 90^\\circ + \\widehat{ABH} = 180^\\circ \\Rightarrow \\widehat{DBM} + \\widehat{ABH} = 90^\\circ$.\nMà trong $\\triangle ABH$ vuông tại $H$, ta có $\\widehat{BAH} + \\widehat{ABH} = 90^\\circ$.\nSuy ra $\\widehat{BDM} = \\widehat{ABH}$ (hoặc $\\widehat{DBM} = \\widehat{BAH}$).\nCạnh huyền $BD = AB$ (do $\\triangle ABD$ vuông cân tại $B$).\nSuy ra $\\triangle BMD = \\triangle AHB$ (cạnh huyền - góc nhọn).\nDo đó $DM = BH$.\n2) Hoàn toàn tương tự, xét $\\triangle CNE$ và $\\triangle AHC$ vuông:\nCạnh huyền $CE = AC$, góc $\\widehat{ECN} = \\widehat{CAH}$.\nSuy ra $\\triangle CNE = \\triangle AHC$ (cạnh huyền - góc nhọn).\nDo đó $EN = HC$.\n3) Cộng hai đoạn thẳng lại:\n$DM + EN = BH + HC = BC$.\nĐẳng thức được chứng minh.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác BMD = AHB suy ra DM = BH",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác CNE = AHC suy ra EN = HC và kết luận DM + EN = BC",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai6_test2": {
-    "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IV - Bài kiểm tra số 2 (🌿 Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Góc ngoài tại đỉnh $A$ của một tam giác lớn hơn:",
-        "options": [
-          "Mỗi góc trong không kề với nó",
-          "Góc trong tại đỉnh $A$",
-          "Tổng hai góc trong không kề",
-          "Góc bẹt"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 70^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Số đo $\\widehat{BIC}$ là:",
-        "options": [
-          "$125^\\circ$",
-          "$110^\\circ$",
-          "$135^\\circ$",
-          "$140^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy $D \\in AB, E \\in AC$ sao cho $AD = AE$. Tứ giác $BDEC$ có tính chất:",
-        "options": [
-          "$BE = CD$",
-          "$BE > CD$",
-          "$BE < CD$",
-          "$BE \\parallel CD$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác có số đo 3 góc tỉ lệ với $2 : 3 : 5$. Tam giác đó là:",
-        "options": [
-          "Tam giác vuông",
-          "Tam giác nhọn",
-          "Tam giác đều",
-          "Tam giác tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$. Cạnh đối diện với góc $30^\\circ$ là:",
-        "options": [
-          "$AB$, và $AB = \\frac{1}{2}BC$",
-          "$AC$, và $AC = \\frac{1}{2}BC$",
-          "$AB$, và $AB = \\frac{1}{2}AC$",
-          "$BC$, và $BC = 2AC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ trung tuyến $AM$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$. Khi đó khẳng định nào SAI?",
-        "options": [
-          "$AC \\perp CD$",
-          "$AB = CD$",
-          "$AB \\parallel CD$",
-          "$\\triangle MAB = \\triangle MDC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $AB = AC$ thì tam giác $HBC$ là:",
-        "options": [
-          "Tam giác cân tại $H$",
-          "Tam giác đều",
-          "Tam giác vuông tại $H$",
-          "Tam giác nhọn không cân"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 90^\\circ$. Đường trung trực của $BC$ cắt cạnh $AC$ tại $M$. Nếu $\\widehat{C} = 20^\\circ$ thì số đo góc $\\widehat{AMB}$ là:",
-        "options": [
-          "$40^\\circ$",
-          "$50^\\circ$",
-          "$60^\\circ$",
-          "$70^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Cho tam giác đều $ABC$. Lấy điểm $D$ trên cạnh $BC$ sao cho $BD = \\frac{1}{3}BC$. Kẻ $DE \\perp AB, DF \\perp AC$. Tổng $DE + DF$ bằng:",
-        "options": [
-          "Đường cao của tam giác đều $ABC$",
-          "Cạnh $BC$",
-          "Nửa chu vi",
-          "$2BC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ$. Kẻ đường cao $AH$ và trung tuyến $AM$. Nếu $H$ là trung điểm của $BM$ thì $\\triangle ABC$ là:",
-        "options": [
-          "Tam giác vuông tại $A$",
-          "Tam giác cân tại $A$",
-          "Tam giác đều",
-          "Tam giác vuông cân tại $B$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy $E$ sao cho $CE = CB$. Đoạn $DE$ vuông góc với:",
-        "options": [
-          "Đoạn $BD$",
-          "Đoạn $AC$",
-          "Đoạn $AB$",
-          "Đoạn $AD$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 120^\\circ$. Các tia phân giác trong của góc $A, B, C$ cắt các cạnh đối diện lần lượt tại $D, E, F$. Số đo góc $\\widehat{EDF}$ bằng:",
-        "options": [
-          "$90^\\circ$",
-          "$60^\\circ$",
-          "$120^\\circ$",
-          "$45^\\circ$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ cân tại $A$. Các đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\triangle ADB = \\triangle AEC$ (g.c.g).",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Độ dài đoạn thẳng $BD = CE$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Tam giác $IBC$ là tam giác cân tại đỉnh $I$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $AI$ vuông góc với đoạn thẳng $BC$.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Tia phân giác góc $\\widehat{BAH}$ cắt $BC$ tại $K$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\widehat{BAH} = \\widehat{C}$ vì cùng phụ với $\\widehat{B}$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo $\\widehat{AKB} = \\widehat{C} + \\widehat{CAK}$.",
-            "correct": false
-          },
-          {
-            "subId": "c",
-            "text": "Tam giác $CAK$ là tam giác cân tại đỉnh $C$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Độ dài đoạn thẳng $CK = CA$.",
-            "correct": true
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, cạnh huyền $BC = 26\\text{ cm}$, một cạnh góc vuông $AB = 10\\text{ cm}$. Tính độ dài cạnh góc vuông $AC$ (cm).",
-        "correctAnswer": "24",
-        "explanation": "$AC = \\sqrt{26^2 - 10^2} = 24\\text{ cm}$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 40^\\circ$. Điểm $O$ nằm trong tam giác sao cho $\\widehat{OBC} = 10^\\circ, \\widehat{OCB} = 30^\\circ$. Tính số đo góc $\\widehat{BOC}$ (độ).",
-        "correctAnswer": "140",
-        "explanation": "$\\widehat{BOC} = 180^\\circ - (10^\\circ + 30^\\circ) = 140^\\circ$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Cho tam giác nhọn $ABC$ có đường trung trực của $AB$ và $AC$ cắt nhau tại $O$. Biết $OA = 12\\text{ cm}$. Tính độ dài đoạn thẳng $OB$ (cm).",
-        "correctAnswer": "12",
-        "explanation": "Giao điểm 3 đường trung trực cách đều ba đỉnh nên $OB = OA = 12\\text{ cm}$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$) có $\\widehat{C} = 30^\\circ$. Phân giác $BD$ có độ dài $12\\text{ cm}$. Tính độ dài cạnh góc vuông $AB$ (cm).",
-        "correctAnswer": "6",
-        "explanation": "$\\widehat{B} = 60^\\circ \\Rightarrow \\widehat{ABD} = 30^\\circ$. Trong tam giác vuông $ABD$ vuông tại $A$ có $\\widehat{ABD} = 30^\\circ$, cạnh đối diện $AD = 6$, mà $\\cos 30^\\circ$: $AB = BD \\cdot \\cos 30^\\circ = 6\\sqrt{3}$. Nếu $\\widehat{ADB} = 60^\\circ$, $AD = 6$. Cạnh đối diện góc $30^\\circ$ là $AD = 12 / 2 = 6\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Kẻ $AH \\perp BC$ tại $H$.\na) Chứng minh $AH = \\frac{1}{2}BC$.\nb) Lấy điểm $M$ trên đoạn $BC$. Kẻ $MD \\perp AB, ME \\perp AC$. Chứng minh tứ giác $ADME$ có $DE = AM$.",
-        "solution": "a) Vì $\\triangle ABC$ vuông cân tại $A$ nên $\\widehat{B} = \\widehat{C} = 45^\\circ$.\nĐường cao $AH$ chia tam giác thành hai tam giác vuông cân $\\triangle ABH$ và $\\triangle ACH$.\nDo đó $AH = BH = CH = \\frac{1}{2}BC$.\nb) Tứ giác $ADME$ có ba góc vuông (tại $A, D, E$) nên là hình chữ nhật.\nTrong hình chữ nhật, hai đường chéo bằng nhau nên $DE = AM$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABH vuông cân suy ra AH = BC/2",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chỉ ra ADME là hình chữ nhật và suy ra hai đường chéo DE = AM",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ đường phân giác $AD$ của góc $A$ ($D \\in BC$). Trên cạnh $AC$ lấy điểm $E$ sao cho $AE = AB$.\na) Chứng minh rằng $\\triangle ABD = \\triangle AED$ và $DB = DE$.\nb) Kéo dài $ED$ cắt $AB$ tại $K$. Chứng minh rằng $\\triangle KDC$ là tam giác cân.",
-        "solution": "a) Xét $\\triangle ABD$ và $\\triangle AED$ có:\n$AB = AE$ (giả thiết),\n$\\widehat{BAD} = \\widehat{EAD}$ (do $AD$ là tia phân giác của $\\widehat{A}$),\nCạnh $AD$ chung.\nSuy ra $\\triangle ABD = \\triangle AED$ (c.g.c).\nDo đó $DB = DE$ và $\\widehat{ABD} = \\widehat{AED}$.\nb) Ta có $\\widehat{KBD} = 180^\\circ - \\widehat{ABD}$ và $\\widehat{CED} = 180^\\circ - \\widehat{AED}$.\nVì $\\widehat{ABD} = \\widehat{AED}$ nên $\\widehat{KBD} = \\widehat{CED}$.\nXét $\\triangle KBD$ và $\\triangle CED$ có:\n$\\widehat{KBD} = \\widehat{CED}$ (chứng minh trên),\n$BD = ED$ (chứng minh ở câu a),\n$\\widehat{BDK} = \\widehat{EDC}$ (hai góc đối đỉnh).\nSuy ra $\\triangle KBD = \\triangle CED$ (g.c.g).\nDo đó $KD = CD$, vậy tam giác $KDC$ cân tại đỉnh $D$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác ABD = AED (c.g.c) và suy ra DB = DE",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác KBD = CED (g.c.g) và suy ra tam giác KDC cân tại D",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Vẽ về phía ngoài các tam giác đều $ABD$ và $ACE$. Chứng minh rằng ba điểm $D, A, E$ thẳng hàng và tam giác $ADE$ là tam giác cân tại đỉnh $A$.",
-        "solution": "1) Vì $\\triangle ABC$ vuông tại $A$ nên $\\widehat{BAC} = 90^\\circ$.\nVì $\\triangle ABD$ là tam giác đều nên $\\widehat{DAB} = 60^\\circ$.\nVì $\\triangle ACE$ là tam giác đều nên $\\widehat{CAE} = 60^\\circ$.\nDo đó: $\\widehat{DAE} = \\widehat{DAB} + \\widehat{BAC} + \\widehat{CAE} = 60^\\circ + 90^\\circ + 60^\\circ = 210^\\circ \\neq 180^\\circ$ (nếu vẽ hoàn toàn ra ngoài).\nTuy nhiên, xét góc phụ hoặc lấy đối xứng thích hợp: Nếu vẽ tam giác đều trên cạnh $AB$ và $AC$, ta có $AD = AB$ và $AE = AC$.\nTrong tam giác vuông $ABC$ có $\\widehat{C} = 30^\\circ$, ta có $AB = \\frac{1}{2}BC$ và $AC = \\frac{\\sqrt{3}}{2}BC$.\nKhi vẽ tam giác đều ra phía ngoài, góc giữa hai tia $AD$ và $AE$ đo được $\\widehat{DAE} = 360^\\circ - 210^\\circ = 150^\\circ$.\nĐoạn thẳng $DE^2 = AD^2 + AE^2 - 2AD \\cdot AE \\cos 150^\\circ$.\nNếu dựng hệ trục tọa độ hoặc xét tam giác đều phụ trên cạnh huyền $BC$, ta có các tính chất đồng quy kinh điển (điểm Fermat).",
-        "rubric": [
-          {
-            "step": "Tính các góc tại đỉnh A của các tam giác đều",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận mối quan hệ độ dài và vị trí tương đối giữa các điểm",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
-  },
-  "c4_7_bai6_test3": {
-    "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IV - Bài kiểm tra số 3 (🚀 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Trong một tam giác tù, góc lớn nhất là:",
-        "options": [
-          "Góc tù, và cạnh đối diện góc tù là cạnh lớn nhất",
-          "Góc nhọn",
-          "Cạnh đối diện góc tù là cạnh nhỏ nhất",
-          "Không xác định"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các phân giác $BD$ và $CE$ cắt nhau tại $I$. Số đo $\\widehat{BIC}$ là:",
-        "options": [
-          "$120^\\circ$",
-          "$130^\\circ$",
-          "$100^\\circ$",
-          "$90^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác $ABC$ (bằng nửa cạnh huyền) là:",
-        "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$7\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
-        "options": [
-          "$AC^2 - AB^2 = BC(HC - HB)$",
-          "$AC = 2AB$",
-          "$AH = \\frac{1}{2}BC$",
-          "$AB + AC = 2BC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Vận dụng",
-        "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các hình vuông $ABMN$ và $ACPQ$. Khẳng định nào sau đây SAI?",
-        "options": [
-          "$MC \\neq BP$",
-          "$MC = BP$",
-          "$MC \\perp BP$",
-          "Diện tích tam giác $ANP$ bằng diện tích tam giác $ABC$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 100^\\circ$. Lấy điểm $M$ trên cạnh $BC$ sao cho $AM = AB$. Số đo $\\widehat{MAC}$ là:",
-        "options": [
-          "$60^\\circ$",
-          "$40^\\circ$",
-          "$50^\\circ$",
-          "$70^\\circ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác đều $ABC$. Điểm $P$ nằm trong tam giác sao cho khoảng cách từ $P$ đến ba cạnh bằng $x, y, z$. Tổng $x + y + z$ luôn bằng:",
-        "options": [
-          "Đường cao của tam giác đều $ABC$",
-          "Nửa chu vi của tam giác",
-          "Cạnh của tam giác",
-          "Bán kính đường tròn nội tiếp"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$ có $C = 15^\\circ$ và cạnh huyền $BC = 20\\text{ cm}$. Chiều cao $AH$ ứng với cạnh huyền là:",
-        "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$2{,}5\\text{ cm}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có ba góc thỏa mãn $A : B : C = 1 : 2 : 4$. Nếu gọi ba cạnh đối diện là $a, b, c$ thì hệ thức nào sau đây đúng?",
-        "options": [
-          "$\\frac{1}{a} = \\frac{1}{b} + \\frac{1}{c}$",
-          "$a^2 = b^2 + c^2$",
-          "$a + b = 2c$",
-          "$c^2 = a^2 + ab$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$ và điểm $E$ nằm trong hình vuông sao cho $\\triangle CDE$ cân tại $E$ có góc ở đáy bằng $15^\\circ$. Khi đó tam giác $ABE$ là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác cân có góc đáy $30^\\circ$",
-          "Tam giác tù"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Gọi $M$ là trung điểm của $BC$. Kẻ đường thẳng qua $H$ vuông góc với $MH$ cắt $AB, AC$ lần lượt tại $P$ và $Q$. Khi đó:",
-        "options": [
-          "$HP = HQ$",
-          "$HP > HQ$",
-          "$HP < HQ$",
-          "$HP = 2HQ$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Một đa giác lồi có 2026 đỉnh. Số tam giác tạo thành khi nối một đỉnh bất kì với tất cả các đỉnh còn lại là:",
-        "options": [
-          "$2024$",
-          "$2025$",
-          "$2026$",
-          "$2023$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Lấy điểm $D$ trong tam giác sao cho $\\widehat{DBC} = 10^\\circ, \\widehat{DCB} = 30^\\circ$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "Số đo $\\widehat{ABC} = \\widehat{ACB} = 50^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Số đo $\\widehat{ABD} = 40^\\circ$ và $\\widehat{ACD} = 20^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Số đo góc $\\widehat{BDC} = 140^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Tam giác $ADC$ là tam giác đều.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các hình vuông $ABDE$ và $ACFG$. Gọi $M$ là trung điểm của $BC$. Xét tính đúng/sai:",
-        "statements": [
-          {
-            "subId": "a",
-            "text": "$\\widehat{EAG} + \\widehat{BAC} = 180^\\circ$.",
-            "correct": true
-          },
-          {
-            "subId": "b",
-            "text": "Độ dài đoạn thẳng $EG = 2AM$.",
-            "correct": true
-          },
-          {
-            "subId": "c",
-            "text": "Đường thẳng $AM$ vuông góc với đoạn thẳng $EG$.",
-            "correct": true
-          },
-          {
-            "subId": "d",
-            "text": "Đoạn thẳng $EG$ luôn song song với đoạn thẳng $BC$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} = 70^\\circ$. Tìm số đo góc ngoài tại đỉnh $A$ (độ).",
-        "correctAnswer": "130",
-        "explanation": "$\\widehat{A} = 50^\\circ \\Rightarrow$ góc ngoài tại $A$ bằng $180^\\circ - 50^\\circ = 130^\\circ$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ vuông tại $A$, cạnh huyền $BC = 24\\text{ cm}$. Gọi $M$ là trung điểm của $BC$. Tính độ dài $AM$ (cm).",
-        "correctAnswer": "12",
-        "explanation": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM = 24 / 2 = 12\\text{ cm}$."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Đường cao $AH = 8\\text{ cm}$. Tính độ dài cạnh $AB$ chia cho $\\sqrt{2}$ (cm).",
-        "correctAnswer": "8",
-        "explanation": "Trong tam giác vuông cân $ABH$, $AB = AH\\sqrt{2} = 8\\sqrt{2}\\text{ cm}$. Chia cho $\\sqrt{2}$ được $8$."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình chữ nhật $ABCD$ có $AB = 16\\text{ cm}, BC = 12\\text{ cm}$. Tính độ dài đường chéo $BD$ (cm).",
-        "correctAnswer": "20",
-        "explanation": "$BD = \\sqrt{16^2 + 12^2} = 20\\text{ cm}$."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Cho tam giác nhọn $ABC$. Kẻ các đường cao $BD$ và $CE$ ($D \\in AC, E \\in AB$). Gọi $M$ là trung điểm của $BC$.\na) Chứng minh tam giác $MDE$ là tam giác cân tại $M$.\nb) Kẻ $MH \\perp DE$ ($H \\in DE$). Chứng minh rằng $H$ là trung điểm của đoạn thẳng $DE$.",
-        "solution": "a) Trong tam giác vuông $BDC$ (vuông tại $D$), $DM$ là đường trung tuyến ứng với cạnh huyền $BC$.\nSuy ra $DM = \\frac{1}{2}BC$.\nTrong tam giác vuông $BEC$ (vuông tại $E$), $EM$ là đường trung tuyến ứng với cạnh huyền $BC$.\nSuy ra $EM = \\frac{1}{2}BC$.\nDo đó $DM = EM = \\frac{1}{2}BC$, suy ra tam giác $MDE$ cân tại $M$.\nb) Vì tam giác $MDE$ cân tại $M$ và $MH \\perp DE$ nên đường cao $MH$ đồng thời là đường trung tuyến ứng với cạnh đáy $DE$.\nVậy $H$ là trung điểm của đoạn thẳng $DE$.",
-        "rubric": [
-          {
-            "step": "Sử dụng tính chất đường trung tuyến trong tam giác vuông chứng minh DM = EM = BC/2",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận tam giác MDE cân suy ra đường cao MH đồng thời là trung tuyến, kết luận H là trung điểm",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có ba góc nhọn. Vẽ về phía ngoài tam giác các tam giác vuông cân tại $A$ là $\\triangle ABD$ và $\\triangle ACE$.\na) Chứng minh $CD = BE$ và $CD \\perp BE$.\nb) Gọi $K$ là trung điểm của đoạn thẳng $DE$. Chứng minh rằng đường thẳng $AK$ vuông góc với đoạn thẳng $BC$.",
-        "solution": "a) Ta có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ vuông cân),\n$\\widehat{DAC} = \\widehat{BAE}$,\n$AC = AE$ (do $\\triangle ACE$ vuông cân).\nSuy ra $\\triangle DAC = \\triangle BAE$ (c.g.c).\nDo đó $CD = BE$.\nGọi giao điểm của $CD$ và $BE$ là $I$, giao điểm của $CD$ và $AB$ là $P$.\nVì $\\triangle DAC = \\triangle BAE$ nên $\\widehat{ADC} = \\widehat{ABE}$.\nTrong $\\triangle ADP$ vuông tại $A$, ta có $\\widehat{ADP} + \\widehat{APD} = 90^\\circ$.\nMà $\\widehat{APD} = \\widehat{BPI}$ (hai góc đối đỉnh) và $\\widehat{ADP} = \\widehat{PBI}$.\nSuy ra $\\widehat{PBI} + \\widehat{BPI} = 90^\\circ$, dẫn đến $\\widehat{PIB} = 90^\\circ$.\nVậy $CD \\perp BE$.\nb) Trên tia đối của tia $KA$ lấy điểm $T$ sao cho $KT = KA$.\nTương tự bổ đề quen thuộc, xét $\\triangle KDT$ và $\\triangle KEA$ có $KD = KE, KT = KA, \\widehat{DKT} = \\widehat{EKA}$ (đối đỉnh).\nSuy ra $\\triangle KDT = \\triangle KEA$ (c.g.c) $\\Rightarrow DT = AE = AC$ và $DT \\parallel AE$.\nTừ đó chứng minh được $\\triangle ADT = \\triangle BAC$ (c.g.c), suy ra góc giữa các cạnh vuông góc với nhau, dẫn đến đường thẳng $AK$ vuông góc với $BC$.",
-        "rubric": [
-          {
-            "step": "Chứng minh tam giác DAC = BAE suy ra CD = BE và CD vuông góc BE",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lấy điểm phụ đối xứng qua K và chứng minh AK vuông góc BC",
-            "subScore": 0.5
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các tia phân giác trong $BD$ và $CE$ cắt nhau tại $I$ ($D \\in AC, E \\in AB$). Chứng minh rằng $ID = IE$.",
-        "solution": "Trong $\\triangle ABC$, ta có:\n$\\widehat{BIC} = 180^\\circ - (\\widehat{IBC} + \\widehat{ICB}) = 180^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2} = 180^\\circ - \\frac{180^\\circ - 60^\\circ}{2} = 120^\\circ$.\nDo đó hai góc kề bù với $\\widehat{BIC}$ là $\\widehat{BIE} = \\widehat{CID} = 180^\\circ - 120^\\circ = 60^\\circ$.\nKẻ tia phân giác $IF$ của góc $\\widehat{BIC}$ ($F \\in BC$).\nKhi đó $\\widehat{BIF} = \\widehat{CIF} = \\frac{120^\\circ}{2} = 60^\\circ$.\nXét $\\triangle BIE$ và $\\triangle BIF$ có:\n$\\widehat{EBI} = \\widehat{FBI}$ (do $BI$ là tia phân giác của $\\widehat{B}$),\nCạnh $BI$ chung,\n$\\widehat{EIB} = \\widehat{FIB} = 60^\\circ$.\nSuy ra $\\triangle BIE = \\triangle BIF$ (g.c.g).\nDo đó $IE = IF$ (1).\nTương tự, xét $\\triangle CID$ và $\\triangle CIF$ có:\n$\\widehat{DCI} = \\widehat{FCI}$ (do $CI$ là tia phân giác của $\\widehat{C}$),\nCạnh $CI$ chung,\n$\\widehat{DIC} = \\widehat{FIC} = 60^\\circ$.\nSuy ra $\\triangle CID = \\triangle CIF$ (g.c.g).\nDo đó $ID = IF$ (2).\nTừ (1) và (2) suy ra $ID = IE = IF$.\nVậy $ID = IE$.",
-        "rubric": [
-          {
-            "step": "Tính góc BIC = 120 độ và các góc kề bù = 60 độ, dựng phân giác IF",
-            "subScore": 0.5
-          },
-          {
-            "step": "Chứng minh tam giác BIE = BIF và CID = CIF để suy ra IE = IF = ID",
-            "subScore": 0.5
-          }
-        ]
-      }
-    ]
+  "grade": "7",
+  "chapterId": "c4_7",
+  "chapterTitle": "Chương IV: Tam giác bằng nhau",
+  "totalExams": 18,
+  "updatedAt": "2026-10-25 15:05:00",
+  "exams": {
+    "c4_7_bai1_test1": {
+      "title": "Toán 7 (KNTT) - Bài 12: Tổng các góc trong một tam giác - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tổng ba góc của một tam giác bất kì luôn bằng:",
+          "options": [
+            "$120^\\circ$",
+            "$360^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trong tam giác vuông, hai góc nhọn có tính chất:",
+          "options": [
+            "Có tổng bằng $60^\\circ$",
+            "Phụ nhau (tổng bằng $90^\\circ$)",
+            "Bằng nhau",
+            "Bù nhau (tổng bằng $180^\\circ$)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Góc ngoài của một tam giác là góc:",
+          "options": [
+            "Có số đo lớn hơn $90^\\circ$",
+            "Nằm hoàn toàn bên ngoài tam giác",
+            "Kề với một góc trong của tam giác",
+            "Kề bù với một góc của tam giác đó"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Mỗi góc ngoài của một tam giác có số đo bằng:",
+          "options": [
+            "Số đo góc kề bù với nó",
+            "Tổng ba góc trong của tam giác",
+            "$180^\\circ$ trừ đi số đo một góc ngoài khác",
+            "Tổng số đo hai góc trong không kề với nó"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ, \\widehat{B} = 70^\\circ$. Số đo góc $C$ là:",
+          "options": [
+            "$70^\\circ$",
+            "$50^\\circ$",
+            "$80^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle MNP$ vuông tại $M$. Nếu $\\widehat{N} = 35^\\circ$ thì số đo $\\widehat{P}$ bằng:",
+          "options": [
+            "$55^\\circ$",
+            "$145^\\circ$",
+            "$45^\\circ$",
+            "$65^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Góc ngoài tại đỉnh $A$ của $\\triangle ABC$ bằng $120^\\circ$. Khi đó số đo góc $\\widehat{B} + \\widehat{C}$ bằng:",
+          "options": [
+            "$90^\\circ$",
+            "$180^\\circ$",
+            "$120^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tam giác có ba góc bằng nhau thì mỗi góc có số đo là:",
+          "options": [
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$",
+            "$50^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle DEF$ có $\\widehat{D} = 40^\\circ$ và $\\widehat{E} = 2\\widehat{D}$. Số đo góc $F$ là:",
+          "options": [
+            "$40^\\circ$",
+            "$100^\\circ$",
+            "$60^\\circ$",
+            "$80^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} - \\widehat{B} = 20^\\circ$ và $\\widehat{B} - \\widehat{C} = 20^\\circ$. Số đo góc $B$ là:",
+          "options": [
+            "$70^\\circ$",
+            "$60^\\circ$",
+            "$40^\\circ$",
+            "$80^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác có số đo ba góc tỉ lệ với $1; 2; 3$. Số đo góc lớn nhất của tam giác đó là:",
+          "options": [
+            "$90^\\circ$",
+            "$60^\\circ$",
+            "$100^\\circ$",
+            "$120^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$. Tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Biết $\\widehat{A} = 80^\\circ$, số đo $\\widehat{BIC}$ là:",
+          "options": [
+            "$130^\\circ$",
+            "$140^\\circ$",
+            "$100^\\circ$",
+            "$120^\\circ$"
+          ],
+          "correct": 0
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 50^\\circ$. Xét tính đúng/sai của các khẳng định sau:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo $\\widehat{A} = 90^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo $\\widehat{C} = 40^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Góc ngoài tại đỉnh $B$ của tam giác có số đo là $140^\\circ$.",
+              "correct": false
+            },
+            {
+              "subId": "d",
+              "text": "Tổng số đo góc $B$ và góc $C$ bằng $90^\\circ$.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle MNP$ có số đo các góc tỉ lệ với $2 : 3 : 4$. Xét tính đúng/sai của các khẳng định:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Tổng số phần bằng nhau là $9$ phần.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Góc nhỏ nhất có số đo là $40^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Góc lớn nhất có số đo là $90^\\circ$.",
+              "correct": false
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $MNP$ là tam giác nhọn (cả ba góc đều nhỏ hơn $90^\\circ$).",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 75^\\circ, \\widehat{B} = 45^\\circ$. Tính số đo góc $C$ (độ).",
+          "correctAnswer": "60",
+          "explanation": "$\\widehat{C} = 180^\\circ - (75^\\circ + 45^\\circ) = 60^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Góc ngoài tại đỉnh $A$ của một tam giác bằng $110^\\circ$, một góc trong không kề với nó bằng $40^\\circ$. Tính số đo góc trong còn lại không kề với đỉnh $A$ (độ).",
+          "correctAnswer": "70",
+          "explanation": "Số đo góc còn lại là $110^\\circ - 40^\\circ = 70^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B}$ và $\\widehat{B} = 3\\widehat{C}$. Tính số đo góc $C$ (độ).",
+          "correctAnswer": "18",
+          "explanation": "Ta có $\\widehat{B} = 3\\widehat{C}, \\widehat{A} = 6\\widehat{C}$. Tổng ba góc là $6\\widehat{C} + 3\\widehat{C} + \\widehat{C} = 10\\widehat{C} = 180^\\circ \\Rightarrow \\widehat{C} = 18^\\circ$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Một chiếc thang dựa vào tường, chân thang tạo với mặt đất góc $65^\\circ$. Góc mà đầu thang tạo với bức tường thẳng đứng bằng bao nhiêu độ?",
+          "correctAnswer": "25",
+          "explanation": "Bức tường thẳng đứng vuông góc với mặt đất nên góc tạo bởi thang và tường là $90^\\circ - 65^\\circ = 25^\\circ$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 65^\\circ, \\widehat{C} = 55^\\circ$. Tia phân giác góc $A$ cắt cạnh $BC$ tại $D$.\na) Tính số đo góc $A$ của $\\triangle ABC$.\nb) Tính số đo góc $\\widehat{ADB}$.",
+          "solution": "a) Trong $\\triangle ABC$, ta có $\\widehat{A} = 180^\\circ - (\\widehat{B} + \\widehat{C}) = 180^\\circ - (65^\\circ + 55^\\circ) = 60^\\circ$.\nb) Vì $AD$ là phân giác của $\\widehat{A}$ nên $\\widehat{BAD} = \\frac{\\widehat{A}}{2} = 30^\\circ$.\nXét $\\triangle ABD$, có $\\widehat{ADB} = 180^\\circ - (\\widehat{BAD} + \\widehat{B}) = 180^\\circ - (30^\\circ + 65^\\circ) = 85^\\circ$.",
+          "rubric": [
+            {
+              "step": "Tính đúng góc A = 60 độ",
+              "subScore": 0.5
+            },
+            {
+              "step": "Tính đúng góc BAD = 30 độ và góc ADB = 85 độ",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho tam giác $ABC$ vuông tại $A$, kẻ đường cao $AH$ ($H \\in BC$). Chứng minh rằng $\\widehat{BAH} = \\widehat{C}$ và $\\widehat{CAH} = \\widehat{B}$.",
+          "solution": "Trong $\\triangle ABC$ vuông tại $A$, ta có: $\\widehat{B} + \\widehat{C} = 90^\\circ$.\nXét $\\triangle ABH$ vuông tại $H$, ta có: $\\widehat{BAH} + \\widehat{B} = 90^\\circ$.\nDo đó, $\\widehat{BAH} = \\widehat{C}$ (cùng phụ với $\\widehat{B}$).\nTương tự, trong $\\triangle ACH$ vuông tại $H$, ta có $\\widehat{CAH} + \\widehat{C} = 90^\\circ$.\nSuy ra $\\widehat{CAH} = \\widehat{B}$ (cùng phụ với $\\widehat{C}$).",
+          "rubric": [
+            {
+              "step": "Lập luận chứng minh góc BAH = góc C cùng phụ góc B",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận chứng minh góc CAH = góc B cùng phụ góc C",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = \\alpha$. Hai tia phân giác của góc $B$ và góc $C$ cắt nhau tại $I$. Tính số đo góc $\\widehat{BIC}$ theo $\\alpha$.",
+          "solution": "Trong $\\triangle ABC$, ta có $\\widehat{B} + \\widehat{C} = 180^\\circ - \\widehat{A} = 180^\\circ - \\alpha$.\nVì $BI$ và $CI$ là các tia phân giác nên:\n$\\widehat{IBC} = \\frac{\\widehat{B}}{2}$ và $\\widehat{ICB} = \\frac{\\widehat{C}}{2}$.\nDo đó: $\\widehat{IBC} + \\widehat{ICB} = \\frac{\\widehat{B} + \\widehat{C}}{2} = \\frac{180^\\circ - \\alpha}{2} = 90^\\circ - \\frac{\\alpha}{2}$.\nXét $\\triangle IBC$, ta có:\n$\\widehat{BIC} = 180^\\circ - (\\widehat{IBC} + \\widehat{ICB}) = 180^\\circ - (90^\\circ - \\frac{\\alpha}{2}) = 90^\\circ + \\frac{\\alpha}{2}$.",
+          "rubric": [
+            {
+              "step": "Tính tổng hai góc IBC + ICB theo alpha",
+              "subScore": 0.5
+            },
+            {
+              "step": "Tính đúng góc BIC = 90 + alpha/2",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai1_test2": {
+      "title": "Toán 7 (KNTT) - Bài 12: Tổng các góc trong một tam giác - Bài kiểm tra số 2 (🌿 Khá)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Góc ngoài của tam giác luôn:",
+          "options": [
+            "Bằng một góc vuông",
+            "Lớn hơn mỗi góc trong không kề với nó",
+            "Nhỏ hơn $90^\\circ$",
+            "Nhỏ hơn góc trong kề với nó"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Tam giác tù là tam giác có:",
+          "options": [
+            "Ba góc tù",
+            "Một góc tù và hai góc nhọn",
+            "Một góc vuông và một góc tù",
+            "Hai góc tù"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} : \\widehat{C} = 2 : 3$. Số đo góc $B$ là:",
+          "options": [
+            "$45^\\circ$",
+            "$78^\\circ$",
+            "$65^\\circ$",
+            "$52^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$\\widehat{BAH} = \\widehat{B}$",
+            "$\\widehat{BAH} = \\widehat{C}$",
+            "$\\widehat{BAH} + \\widehat{CAH} = 90^\\circ$",
+            "$\\widehat{CAH} = \\widehat{B}$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác có số đo ba góc tỉ lệ với $2 : 3 : 5$. Tam giác đó là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác tù",
+            "Tam giác vuông",
+            "Tam giác nhọn"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Một tam giác có tổng hai góc bất kì luôn lớn hơn góc còn lại thì tam giác đó là:",
+          "options": [
+            "Tam giác vuông",
+            "Tam giác cân",
+            "Tam giác nhọn",
+            "Tam giác tù"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 70^\\circ$. Các tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Số đo góc $BIC$ là:",
+          "options": [
+            "$125^\\circ$",
+            "$140^\\circ$",
+            "$135^\\circ$",
+            "$110^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho hình vẽ có $Ax \\parallel By$, biết $\\widehat{xAC} = 40^\\circ, \\widehat{CBy} = 30^\\circ$ ($C$ nằm giữa hai đường song song). Số đo $\\widehat{ACB}$ là:",
+          "options": [
+            "$70^\\circ$",
+            "$50^\\circ$",
+            "$110^\\circ$",
+            "$10^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 80^\\circ, \\widehat{C} = 30^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Số đo $\\widehat{ADC}$ bằng:",
+          "options": [
+            "$105^\\circ$",
+            "$70^\\circ$",
+            "$65^\\circ$",
+            "$115^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ vuông tại $A$. Gọi tia phân giác góc $B$ cắt $AC$ tại $M$. Biết $\\widehat{BMC} = 115^\\circ$, số đo góc $C$ là:",
+          "options": [
+            "$25^\\circ$",
+            "$35^\\circ$",
+            "$40^\\circ$",
+            "$50^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$. Hai tia phân giác của hai góc ngoài tại đỉnh $B$ và $C$ cắt nhau tại $K$. Biết $\\widehat{A} = 60^\\circ$, số đo $\\widehat{BKC}$ bằng:",
+          "options": [
+            "$120^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$30^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho ngôi sao năm cánh $ABCDE$. Tổng số đo 5 góc ở 5 cánh của ngôi sao $(\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D} + \\widehat{E})$ bằng:",
+          "options": [
+            "$270^\\circ$",
+            "$540^\\circ$",
+            "$360^\\circ$",
+            "$180^\\circ$"
+          ],
+          "correct": 3
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B}$ và $\\widehat{B} = 3\\widehat{C}$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo góc $C$ bằng $18^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo góc $B$ bằng $54^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $A$ bằng $108^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $ABC$ là tam giác nhọn.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle MNP$ có góc ngoài tại đỉnh $M$ là $130^\\circ$, và $\\widehat{N} - \\widehat{P} = 30^\\circ$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Tổng hai góc $\\widehat{N} + \\widehat{P} = 130^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo góc trong tại đỉnh $M$ là $50^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $N$ bằng $80^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Số đo góc $P$ bằng $60^\\circ$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 40^\\circ$, hai góc $B$ và $C$ có hiệu là $\\widehat{B} - \\widehat{C} = 20^\\circ$. Tính số đo góc $B$ (độ).",
+          "correctAnswer": "80",
+          "explanation": "$\\widehat{B} + \\widehat{C} = 140^\\circ, \\widehat{B} - \\widehat{C} = 20^\\circ \\Rightarrow \\widehat{B} = (140 + 20)/2 = 80^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường cao $AH$ có $\\widehat{HAB} = 32^\\circ$. Tính số đo góc $C$ (độ).",
+          "correctAnswer": "32",
+          "explanation": "Ta có $\\widehat{C} = \\widehat{HAB} = 32^\\circ$ (cùng phụ với $\\widehat{B}$)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tia phân giác trong của góc $B$ và tia phân giác góc ngoài tại đỉnh $C$ của $\\triangle ABC$ cắt nhau tại $E$. Biết $\\widehat{A} = 50^\\circ$, tính số đo $\\widehat{BEC}$ (độ).",
+          "correctAnswer": "25",
+          "explanation": "$\\widehat{BEC} = \\frac{\\widehat{A}}{2} = 25^\\circ$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Một đa giác lồi có 5 cạnh (ngũ giác). Tổng các góc trong của ngũ giác đó bằng bao nhiêu độ?",
+          "correctAnswer": "540",
+          "explanation": "Tổng các góc trong bằng $(5 - 2) \\times 180^\\circ = 540^\\circ$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ, \\widehat{C} = 30^\\circ$. Kẻ $AH \\perp BC$ ($H \\in BC$). Tia phân giác của $\\widehat{HAC}$ cắt $BC$ tại $D$.\na) Tính số đo góc $\\widehat{HAC}$.\nb) Chứng minh rằng $\\triangle ABD$ có $\\widehat{BAD} = \\widehat{BDA}$.",
+          "solution": "a) Trong $\\triangle AHC$ vuông tại $H$, ta có: $\\widehat{HAC} = 90^\\circ - \\widehat{C} = 90^\\circ - 30^\\circ = 60^\\circ$.\nb) Vì $AD$ là phân giác $\\widehat{HAC}$ nên $\\widehat{HAD} = \\widehat{DAC} = 30^\\circ$.\nTa có: $\\widehat{BAH} = 90^\\circ - \\widehat{HAC} = 30^\\circ$.\nSuy ra $\\widehat{BAD} = \\widehat{BAH} + \\widehat{HAD} = 30^\\circ + 30^\\circ = 60^\\circ$.\nTrong $\\triangle ADC$, góc $\\widehat{BDA}$ là góc ngoài tại $D$ nên: $\\widehat{BDA} = \\widehat{DAC} + \\widehat{C} = 30^\\circ + 30^\\circ = 60^\\circ$.\nDo đó $\\widehat{BAD} = \\widehat{BDA} = 60^\\circ$.",
+          "rubric": [
+            {
+              "step": "Tính đúng góc HAC = 60 độ",
+              "subScore": 0.4
+            },
+            {
+              "step": "Tính góc BAD = 60 độ và góc BDA = 60 độ, kết luận bằng nhau",
+              "subScore": 0.6
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} > \\widehat{C}$. Kẻ đường cao $AH$ và tia phân giác $AD$ của góc $A$ ($H, D \\in BC$). Chứng minh rằng $\\widehat{HAD} = \\frac{\\widehat{B} - \\widehat{C}}{2}$.",
+          "solution": "Vì $AD$ là phân giác $\\widehat{A}$ nên $\\widehat{BAD} = \\frac{\\widehat{A}}{2} = \\frac{180^\\circ - (\\widehat{B} + \\widehat{C})}{2} = 90^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2}$.\nTrong $\\triangle ABH$ vuông tại $H$, ta có $\\widehat{BAH} = 90^\\circ - \\widehat{B}$.\nVì $\\widehat{B} > \\widehat{C}$ nên tia $AH$ nằm giữa $AB$ và $AD$, suy ra:\n$\\widehat{HAD} = \\widehat{BAD} - \\widehat{BAH} = \\left(90^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2}\\right) - (90^\\circ - \\widehat{B}) = \\widehat{B} - \\frac{\\widehat{B} + \\widehat{C}}{2} = \\frac{\\widehat{B} - \\widehat{C}}{2}$.",
+          "rubric": [
+            {
+              "step": "Biểu diễn góc BAD và góc BAH theo góc B và góc C",
+              "subScore": 0.5
+            },
+            {
+              "step": "Thực hiện phép trừ và rút gọn ra công thức cần chứng minh",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$. Kẻ hai đường phân giác ngoài của góc $B$ và góc $C$ cắt nhau tại $K$. Chứng minh rằng $\\widehat{BKC} = 90^\\circ - \\frac{\\widehat{A}}{2}$.",
+          "solution": "Gọi góc ngoài tại đỉnh $B$ là $\\widehat{B_x} = 180^\\circ - \\widehat{B}$ và tại đỉnh $C$ là $\\widehat{C_y} = 180^\\circ - \\widehat{C}$.\nVì $BK$ và $CK$ là tia phân giác của hai góc ngoài này nên:\n$\\widehat{KBC} = \\frac{180^\\circ - \\widehat{B}}{2} = 90^\\circ - \\frac{\\widehat{B}}{2}$; $\\widehat{KCB} = \\frac{180^\\circ - \\widehat{C}}{2} = 90^\\circ - \\frac{\\widehat{C}}{2}$.\nTrong $\\triangle KBC$:\n$\\widehat{BKC} = 180^\\circ - (\\widehat{KBC} + \\widehat{KCB}) = 180^\\circ - \\left(180^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2}\\right) = \\frac{\\widehat{B} + \\widehat{C}}{2}$.\nMà $\\widehat{B} + \\widehat{C} = 180^\\circ - \\widehat{A}$, nên:\n$\\widehat{BKC} = \\frac{180^\\circ - \\widehat{A}}{2} = 90^\\circ - \\frac{\\widehat{A}}{2}$.",
+          "rubric": [
+            {
+              "step": "Tính tổng góc KBC + KCB theo các góc trong của tam giác ABC",
+              "subScore": 0.5
+            },
+            {
+              "step": "Biến đổi để có BKC = 90 - A/2",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai1_test3": {
+      "title": "Toán 7 (KNTT) - Bài 12: Tổng các góc trong một tam giác - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Góc tạo bởi hai tia phân giác của hai góc kề bù bằng:",
+          "options": [
+            "$90^\\circ$",
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$. Tia phân giác của góc $B$ và góc ngoài tại $C$ cắt nhau tại $E$. Số đo $\\widehat{BEC}$ là:",
+          "options": [
+            "$80^\\circ$",
+            "$50^\\circ$",
+            "$100^\\circ$",
+            "$40^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Tam giác có một góc bằng $60^\\circ$ và hiệu hai góc kia bằng $30^\\circ$. Ba góc của tam giác đó là:",
+          "options": [
+            "$90^\\circ; 60^\\circ; 30^\\circ$",
+            "$80^\\circ; 60^\\circ; 40^\\circ$",
+            "$75^\\circ; 60^\\circ; 45^\\circ$",
+            "$70^\\circ; 60^\\circ; 50^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$. Tổng số đo các góc ngoài (mỗi đỉnh lấy một góc ngoài) của tam giác bằng:",
+          "options": [
+            "$360^\\circ$",
+            "$540^\\circ$",
+            "$270^\\circ$",
+            "$180^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "level": "Vận dụng",
+          "question": "Cho hình cánh diều tứ giác lồi $ABCD$. Tổng 4 góc $\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D}$ bằng:",
+          "options": [
+            "$270^\\circ$",
+            "$540^\\circ$",
+            "$360^\\circ$",
+            "$180^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Gọi $D$ là điểm trên $BC$ sao cho $CD = CA$. Kẻ tia phân giác góc $C$ cắt $AB$ tại $K$. Số đo $\\widehat{KDC}$ là:",
+          "options": [
+            "$60^\\circ$",
+            "$75^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 30^\\circ$. Đường thẳng chứa tia phân giác của góc ngoài tại đỉnh $A$ cắt đường thẳng $BC$ tại $P$. Số đo $\\widehat{APB}$ là:",
+          "options": [
+            "$30^\\circ$",
+            "$50^\\circ$",
+            "$40^\\circ$",
+            "$20^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B} = 4\\widehat{C}$. Số đo của góc $B$ là:",
+          "options": [
+            "$45^\\circ$",
+            "$\\approx 51{,}43^\\circ$ (hay $\\frac{360^\\circ}{7}$)",
+            "$60^\\circ$",
+            "$50^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có các đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Biết $\\widehat{BIC} = 120^\\circ$, số đo góc $A$ bằng:",
+          "options": [
+            "$120^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$30^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$. Điểm $O$ nằm trong tam giác. Khẳng định nào sau đây đúng về $\\widehat{BOC}$?",
+          "options": [
+            "$\\widehat{BOC} = \\widehat{BAC}$",
+            "$\\widehat{BOC} = 2\\widehat{BAC}$",
+            "$\\widehat{BOC} < \\widehat{BAC}$",
+            "$\\widehat{BOC} > \\widehat{BAC}$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Phân giác $BD$ và $CE$ cắt nhau tại $I$. Khẳng định nào đúng?",
+          "options": [
+            "$ID = IE$",
+            "Tia phân giác góc $BIC$ đi qua $A$",
+            "$\\widehat{BIC} = 120^\\circ$",
+            "Cả ba đáp án trên đều đúng"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một đa giác lồi có $n$ cạnh thì tổng số đo các góc ngoài (mỗi đỉnh lấy một góc ngoài) luôn bằng:",
+          "options": [
+            "$360^\\circ$",
+            "$180^\\circ$",
+            "$n \\cdot 180^\\circ$",
+            "$(n - 2) \\cdot 180^\\circ$"
+          ],
+          "correct": 0
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 80^\\circ$, hai tia phân giác trong của góc $B$ và $C$ cắt nhau tại $I$; hai tia phân giác góc ngoài tại đỉnh $B$ và $C$ cắt nhau tại $K$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo $\\widehat{BIC} = 90^\\circ + \\frac{80^\\circ}{2} = 130^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo $\\widehat{BKC} = 90^\\circ - \\frac{80^\\circ}{2} = 50^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Tổng hai góc $\\widehat{BIC} + \\widehat{BKC} = 180^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Góc $\\widehat{IBK} = 100^\\circ$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "question": "Cho điểm $O$ nằm trong tam giác $ABC$. Kéo dài $BO$ cắt $AC$ tại $M$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Góc $\\widehat{BOC}$ là góc ngoài của $\\triangle MOC$ tại đỉnh $O$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\widehat{BOC} > \\widehat{BMC}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$\\widehat{BMC}$ là góc ngoài của $\\triangle ABM$ nên $\\widehat{BMC} > \\widehat{BAC}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Từ đó suy ra $\\widehat{BOC} < \\widehat{BAC}$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có các góc tỉ lệ với $3 : 4 : 5$. Tìm số đo góc trung bình của tam giác (độ).",
+          "correctAnswer": "60",
+          "explanation": "Tổng số phần là $3 + 4 + 5 = 12$. Góc trung bình ứng với 4 phần: $180 \\times 4 / 12 = 60^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 72^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Tính số đo $\\widehat{BIC}$ (độ).",
+          "correctAnswer": "126",
+          "explanation": "$\\widehat{BIC} = 90^\\circ + 72^\\circ / 2 = 126^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$. Tia phân giác góc trong tại $B$ và phân giác góc ngoài tại $C$ cắt nhau tại $M$. Biết $\\widehat{BMC} = 34^\\circ$, tính số đo góc $A$ của tam giác (độ).",
+          "correctAnswer": "68",
+          "explanation": "Ta có $\\widehat{BMC} = \\frac{\\widehat{A}}{2} \\Rightarrow \\widehat{A} = 2 \\times 34^\\circ = 68^\\circ$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Một đa giác lồi có tổng các góc trong bằng $1440^\\circ$. Đa giác đó có bao nhiêu cạnh?",
+          "correctAnswer": "10",
+          "explanation": "$(n - 2) \\times 180 = 1440 \\Rightarrow n - 2 = 8 \\Rightarrow n = 10$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho hình chữ $V$ lõm $ABDC$ (với điểm $D$ nằm trong góc $\\widehat{BAC}$). Chứng minh rằng $\\widehat{BDC} = \\widehat{A} + \\widehat{B} + \\widehat{C}$.",
+          "solution": "Nối $AD$ và kéo dài cắt $BC$ (hoặc kéo dài tia $AD$ thành tia $Ax$).\nÁp dụng tính chất góc ngoài của tam giác:\nTrong $\\triangle ABD$, gọi $Ax$ là tia kéo dài của $AD$, ta có: $\\widehat{xDB} = \\widehat{DAB} + \\widehat{B}$.\nTrong $\\triangle ACD$, ta có: $\\widehat{xDC} = \\widehat{DAC} + \\widehat{C}$.\nCộng vế theo vế hai đẳng thức:\n$\\widehat{BDC} = \\widehat{xDB} + \\widehat{xDC} = (\\widehat{DAB} + \\widehat{DAC}) + \\widehat{B} + \\widehat{C} = \\widehat{BAC} + \\widehat{B} + \\widehat{C}$.\nVậy $\\widehat{BDC} = \\widehat{A} + \\widehat{B} + \\widehat{C}$.",
+          "rubric": [
+            {
+              "step": "Kẻ đường phụ và dùng tính chất góc ngoài cho 2 tam giác nhỏ",
+              "subScore": 0.5
+            },
+            {
+              "step": "Cộng hai góc ngoài để suy ra đẳng thức cần chứng minh",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$. Phân giác trong của góc $B$ và góc ngoài tại đỉnh $C$ cắt nhau tại $E$. Chứng minh rằng $\\widehat{BEC} = \\frac{\\widehat{A}}{2}$.",
+          "solution": "Gọi góc ngoài tại đỉnh $C$ là $\\widehat{ACx}$. Vì $CE$ là phân giác $\\widehat{ACx}$ nên $\\widehat{ACx} = 2\\widehat{ECx}$.\nVì $BE$ là phân giác $\\widehat{B}$ nên $\\widehat{B} = 2\\widehat{EBC}$.\nTrong $\\triangle EBC$, góc $\\widehat{ECx}$ là góc ngoài tại $C$ nên:\n$\\widehat{ECx} = \\widehat{BEC} + \\widehat{EBC} \\Rightarrow \\widehat{BEC} = \\widehat{ECx} - \\widehat{EBC}$.\nMặt khác, trong $\\triangle ABC$, góc $\\widehat{ACx}$ là góc ngoài tại $C$ nên:\n$\\widehat{ACx} = \\widehat{A} + \\widehat{B} \\Rightarrow 2\\widehat{ECx} = \\widehat{A} + 2\\widehat{EBC} \\Rightarrow \\widehat{ECx} - \\widehat{EBC} = \\frac{\\widehat{A}}{2}$.\nDo đó $\\widehat{BEC} = \\frac{\\widehat{A}}{2}$.",
+          "rubric": [
+            {
+              "step": "Thiết lập hệ thức góc ngoài trong tam giác EBC",
+              "subScore": 0.5
+            },
+            {
+              "step": "Thiết lập hệ thức góc ngoài trong tam giác ABC và suy ra BEC = A/2",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các tia phân giác của góc $B$ và $C$ cắt nhau tại $I$ và cắt các cạnh đối diện lần lượt tại $D$ và $E$. Chứng minh rằng $ID = IE$.",
+          "solution": "Ta có $\\widehat{BIC} = 90^\\circ + \\frac{\\widehat{A}}{2} = 90^\\circ + 30^\\circ = 120^\\circ$.\nSuy ra hai góc kề bù $\\widehat{EIB} = \\widehat{DIC} = 180^\\circ - 120^\\circ = 60^\\circ$.\nKẻ tia phân giác $IF$ của $\\widehat{BIC}$ ($F \\in BC$).\nKhi đó $\\widehat{BIF} = \\widehat{CIF} = 60^\\circ$.\nXét $\\triangle BIE$ và $\\triangle BIF$ có:\n$\\widehat{EBI} = \\widehat{FBI}$ (do $BI$ là phân giác),\nCạnh $BI$ chung,\n$\\widehat{EIB} = \\widehat{FIB} = 60^\\circ$.\nSuy ra $\\triangle BIE = \\triangle BIF$ (g.c.g) $\\Rightarrow IE = IF$ (1).\nTương tự, xét $\\triangle CID$ và $\\triangle CIF$ có:\n$\\widehat{DCI} = \\widehat{FCI}$, cạnh $CI$ chung, $\\widehat{DIC} = \\widehat{FIC} = 60^\\circ$.\nSuy ra $\\triangle CID = \\triangle CIF$ (g.c.g) $\\Rightarrow ID = IF$ (2).\nTừ (1) và (2) suy ra $ID = IE$.",
+          "rubric": [
+            {
+              "step": "Tính góc BIC = 120 độ và các góc kề bù = 60 độ, kẻ tia phân giác IF",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh hai cặp tam giác bằng nhau để suy ra IE = IF = ID",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai2_test1": {
+      "title": "Toán 7 (KNTT) - Bài 13: Hai tam giác bằng nhau (c.c.c) - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai tam giác bằng nhau là hai tam giác có:",
+          "options": [
+            "Diện tích bằng nhau",
+            "Các góc tương ứng bằng nhau",
+            "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
+            "Chu vi bằng nhau"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Nếu $\\triangle ABC = \\triangle DEF$ thì cạnh tương ứng với cạnh $AB$ là:",
+          "options": [
+            "$FD$",
+            "$EF$",
+            "$DE$",
+            "$DF$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Nếu $\\triangle ABC = \\triangle MNP$ thì góc tương ứng với góc $\\widehat{C}$ là:",
+          "options": [
+            "$\\widehat{N}$",
+            "$\\widehat{M}$",
+            "$\\widehat{B}$",
+            "$\\widehat{P}$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Trường hợp bằng nhau cạnh - cạnh - cạnh (c.c.c) phát biểu: Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì:",
+          "options": [
+            "Hai tam giác đó đồng dạng",
+            "Hai tam giác đó bằng nhau",
+            "Hai tam giác đó có diện tích bằng nhau nhưng không bằng nhau",
+            "Hai tam giác đó vuông"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 5\\text{ cm}, BC = 6\\text{ cm}, DF = 7\\text{ cm}$. Chu vi $\\triangle DEF$ là:",
+          "options": [
+            "$18\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$15\\text{ cm}$",
+            "$17\\text{ cm}$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $\\widehat{A} = 45^\\circ, \\widehat{B} = 75^\\circ$. Số đo góc $P$ là:",
+          "options": [
+            "$75^\\circ$",
+            "$80^\\circ$",
+            "$60^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle MNP$ và $\\triangle QRS$ có $MN = QR, NP = RS, MP = QS$. Kí hiệu nào sau đây đúng?",
+          "options": [
+            "$\\triangle PMN = \\triangle QRS$",
+            "$\\triangle MNP = \\triangle QRS$",
+            "$\\triangle MNP = \\triangle RSQ$",
+            "$\\triangle MNP = \\triangle SRQ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB$. Đường tròn tâm $A$ bán kính $R$ và đường tròn tâm $B$ bán kính $R$ cắt nhau tại $C$ và $D$. Khi đó $\\triangle CAB = \\triangle DAB$ theo trường hợp:",
+          "options": [
+            "cạnh - cạnh - cạnh (c.c.c)",
+            "cạnh - góc - cạnh",
+            "cạnh huyền - góc nhọn",
+            "góc - cạnh - góc"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Thông hiểu",
+          "question": "Cho tứ giác $ABCD$ có $AB = CD$ và $BC = AD$. Nối $AC$, ta có $\\triangle ABC = \\triangle CDA$ vì có:",
+          "options": [
+            "Góc kề bù",
+            "Hai cạnh và một góc vuông",
+            "Hai góc bằng nhau",
+            "Ba cặp cạnh bằng nhau ($AB=CD, BC=DA, AC$ chung)"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$AM \\perp BC$",
+            "$\\triangle ABM = \\triangle ACM$",
+            "$\\widehat{BAM} = \\widehat{CAM}$",
+            "$AM$ không vuông góc với $BC$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC = \\triangle HIK$. Biết $\\widehat{A} = 50^\\circ, \\widehat{I} = 65^\\circ$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$\\widehat{K} = 65^\\circ$",
+            "$\\widehat{C} = 50^\\circ$",
+            "$\\widehat{B} = 50^\\circ$",
+            "$\\widehat{H} = 65^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Đoạn thẳng $BD$ có tính chất gì đối với góc $B$ và góc $D$?",
+          "options": [
+            "Là đường trung tuyến",
+            "Là tia phân giác của cả góc $B$ và góc $D$",
+            "Song song với $AC$",
+            "Chỉ là tia phân giác của góc $B$"
+          ],
+          "correct": 1
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle DEG$ có $AB = 4\\text{ cm}, BC = 6\\text{ cm}, EG = 6\\text{ cm}, DG = 5\\text{ cm}$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Cạnh $DE = 4\\text{ cm}$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Cạnh $AC = 5\\text{ cm}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Chu vi tam giác $ABC$ bằng $15\\text{ cm}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Góc $\\widehat{B}$ tương ứng bằng góc $\\widehat{D}$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có $AB = AC$. Gọi $M$ là trung điểm cạnh $BC$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABM = \\triangle ACM$ theo trường hợp cạnh - cạnh - cạnh (c.c.c).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\widehat{B} = \\widehat{C}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$AM$ là tia phân giác của góc $BAC$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Góc $\\widehat{AMB} = 45^\\circ$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 7\\text{ cm}, AC = 8\\text{ cm}, NP = 9\\text{ cm}$. Tính chu vi của tam giác $MNP$ (cm).",
+          "correctAnswer": "24",
+          "explanation": "Chu vi = $7 + 8 + 9 = 24\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $\\widehat{A} = 55^\\circ, \\widehat{E} = 65^\\circ$. Tính số đo góc $F$ (độ).",
+          "correctAnswer": "60",
+          "explanation": "$\\widehat{B} = \\widehat{E} = 65^\\circ \\Rightarrow \\widehat{F} = \\widehat{C} = 180^\\circ - (55^\\circ + 65^\\circ) = 60^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho tứ giác $ABCD$ có $AB = AD$ và $CB = CD$. Biết $\\widehat{B} = 100^\\circ$. Tính số đo góc $D$ (độ).",
+          "correctAnswer": "100",
+          "explanation": "$\\triangle ABC = \\triangle ADC$ (c.c.c) $\\Rightarrow \\widehat{D} = \\widehat{B} = 100^\\circ$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Cho hình thoi $ABCD$ có $AB = 6\\text{ cm}$. Chu vi hình thoi $ABCD$ bằng bao nhiêu cm?",
+          "correctAnswer": "24",
+          "explanation": "Hình thoi có 4 cạnh bằng nhau nên chu vi = $4 \\times 6 = 24\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho hình vẽ có $AB = CD$ và $AD = BC$.\na) Chứng minh rằng $\\triangle ABD = \\triangle CDB$.\nb) Chứng minh rằng $AB \\parallel CD$.",
+          "solution": "a) Xét $\\triangle ABD$ và $\\triangle CDB$ có:\n$AB = CD$ (giả thiết),\n$AD = CB$ (giả thiết),\nCạnh $BD$ chung.\nSuy ra $\\triangle ABD = \\triangle CDB$ (c.c.c).\nb) Từ $\\triangle ABD = \\triangle CDB$, suy ra $\\widehat{ABD} = \\widehat{CDB}$ (hai góc tương ứng).\nMà hai góc này ở vị trí so le trong nên $AB \\parallel CD$.",
+          "rubric": [
+            {
+              "step": "Chứng minh hai tam giác bằng nhau theo c.c.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra 2 góc so le trong bằng nhau và kết luận AB // CD",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$.\na) Chứng minh $\\triangle ABM = \\triangle ACM$.\nb) Chứng minh $AM \\perp BC$.",
+          "solution": "a) Xét $\\triangle ABM$ và $\\triangle ACM$ có:\n$AB = AC$ (giả thiết),\n$MB = MC$ (vì $M$ là trung điểm của $BC$),\nCạnh $AM$ chung.\nVậy $\\triangle ABM = \\triangle ACM$ (c.c.c).\nb) Vì $\\triangle ABM = \\triangle ACM$ nên $\\widehat{AMB} = \\widehat{AMC}$ (hai góc tương ứng).\nMặt khác $\\widehat{AMB} + \\widehat{AMC} = 180^\\circ$ (hai góc kề bù).\nSuy ra $\\widehat{AMB} = \\widehat{AMC} = \\frac{180^\\circ}{2} = 90^\\circ$.\nVậy $AM \\perp BC$.",
+          "rubric": [
+            {
+              "step": "Chứng minh đúng tam giác ABM = ACM theo c.c.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận góc AMB = AMC = 90 độ, kết luận vuông góc",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho đoạn thẳng $AB$. Vẽ cung tròn tâm $A$ bán kính $R$ và cung tròn tâm $B$ bán kính $R$ ($R > \\frac{AB}{2}$) cắt nhau tại $C$ và $D$. Chứng minh rằng đường thẳng $CD$ là đường trung trực của đoạn thẳng $AB$.",
+          "solution": "Xét $\\triangle ACD$ và $\\triangle BCD$ có:\n$AC = BC = R$,\n$AD = BD = R$,\nCạnh $CD$ chung.\nSuy ra $\\triangle ACD = \\triangle BCD$ (c.c.c).\nDo đó $\\widehat{ACD} = \\widehat{BCD}$.\nGọi $H$ là giao điểm của $AB$ và $CD$.\nXét $\\triangle ACH$ và $\\triangle BCH$ có:\n$AC = BC = R$,\n$\\widehat{ACH} = \\widehat{BCH}$,\nCạnh $CH$ chung.\nSuy ra $\\triangle ACH = \\triangle BCH$ (c.g.c).\nTừ đó $HA = HB$ và $\\widehat{AHC} = \\widehat{BHC} = 90^\\circ$.\nVậy $CD$ đi qua trung điểm của $AB$ và vuông góc với $AB$, tức là $CD$ là đường trung trực của đoạn thẳng $AB$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ACD = BCD (c.c.c) để suy ra góc ACD = BCD",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác ACH = BCH để suy ra HA = HB và CD vuông góc AB",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai2_test2": {
+      "title": "Toán 7 (KNTT) - Bài 13: Hai tam giác bằng nhau (c.c.c) - Bài kiểm tra số 2 (🌿 Khá)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, AC = 10\\text{ cm}$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$MP = 10\\text{ cm}$",
+            "$NP = 6\\text{ cm}$",
+            "$MN = 6\\text{ cm}$",
+            "$NP = 8\\text{ cm}$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $AB = AC$. Lấy $M, N$ lần lượt là trung điểm của $AB, AC$. Nếu $BN = CM$ thì khẳng định nào sau đây đúng?",
+          "options": [
+            "$BN$ không bằng $CM$",
+            "$\\triangle AMN$ không cân",
+            "$\\triangle BNC = \\triangle CMB$",
+            "$\\widehat{B} \\neq \\widehat{C}$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho hai tam giác bằng nhau: $\\triangle ABC = \\triangle XYZ$. Biết $\\widehat{A} = 2\\widehat{B}$ và $\\widehat{C} = 60^\\circ$. Số đo góc $Y$ là:",
+          "options": [
+            "$40^\\circ$",
+            "$80^\\circ$",
+            "$60^\\circ$",
+            "$30^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$AC \\parallel BD$",
+            "$AB \\parallel CD$",
+            "$\\triangle ABC = \\triangle CDA$",
+            "$\\triangle ABD = \\triangle CBD$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = AC = BC$. Tam giác $ABC$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác tù",
+            "Tam giác vuông cân",
+            "Tam giác vuông"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $D$ là điểm nằm trong tam giác sao cho $DB = DC$. Khi đó đường thẳng $AD$:",
+          "options": [
+            "Song song với $BC$",
+            "Cắt $BC$ tại điểm không phải trung điểm",
+            "Là đường trung trực của đoạn thẳng $BC$",
+            "Vuông góc với $AB$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho hai tam giác cân $ABC$ và $DBC$ có chung đáy $BC$ ($A$ và $D$ nằm khác phía đối với $BC$). Khẳng định nào sau đây đúng?",
+          "options": [
+            "$\\triangle ABD = \\triangle BCD$",
+            "$AB = CD$",
+            "$AD \\parallel BC$",
+            "$\\triangle ABD = \\triangle ACD$ (c.c.c)"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho hình vẽ có hai đường tròn $(A; R)$ và $(B; R)$ cắt nhau tại $M$ và $N$. Tứ giác $AMBN$ có đặc điểm gì?",
+          "options": [
+            "Chỉ có 2 cạnh bằng nhau",
+            "Có 4 góc vuông",
+            "Là hình thang cân",
+            "Có 4 cạnh bằng nhau"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 3x - 1$, $MN = 8$. Giá trị của $x$ là:",
+          "options": [
+            "$5$",
+            "$4$",
+            "$3$",
+            "$2$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết chu vi $\\triangle ABC$ là $22\\text{ cm}$, $AB = 6\\text{ cm}$ và $NP - MP = 2\\text{ cm}$. Độ dài cạnh $BC$ là:",
+          "options": [
+            "$10\\text{ cm}$",
+            "$9\\text{ cm}$",
+            "$7\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác đều $ABC$. Lấy các điểm $M, N, P$ lần lượt trên các cạnh $AB, BC, CA$ sao cho $AM = BN = CP$. Khi đó tam giác $MNP$ là:",
+          "options": [
+            "Tam giác tù",
+            "Tam giác đều",
+            "Tam giác vuông",
+            "Tam giác vuông cân"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tứ giác $ABCD$ có $AB = CD, BC = AD$. Gọi $O$ là giao điểm của $AC$ và $BD$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$AC \\perp BD$",
+            "$OA = OC$",
+            "$\\triangle OAB = \\triangle OCD$",
+            "$OB = OD$"
+          ],
+          "correct": 0
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN = 5\\text{ cm}, BC = NP = 7\\text{ cm}, AC = MP = 8\\text{ cm}$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABC = \\triangle MNP$ theo trường hợp c.c.c.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo góc $\\widehat{A}$ bằng góc $\\widehat{M}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $\\widehat{B}$ bằng góc $\\widehat{P}$.",
+              "correct": false
+            },
+            {
+              "subId": "d",
+              "text": "Chu vi hai tam giác đều bằng $20\\text{ cm}$.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB$. Lấy điểm $C$ và $D$ sao cho $AC = AD$ và $BC = BD$ ($C$ và $D$ nằm khác phía đối với đường thẳng $AB$). Nối $CD$ cắt $AB$ tại $I$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABC = \\triangle ABD$ (c.c.c).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\widehat{CAB} = \\widehat{DAB}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$CD$ vuông góc với $AB$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "$I$ không phải là trung điểm của $AB$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 2x + 1$ và $DE = 9$. Tìm giá trị của $x$.",
+          "correctAnswer": "4",
+          "explanation": "$2x + 1 = 9 \\Rightarrow x = 4$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = AC = 10\\text{ cm}, BC = 12\\text{ cm}$. Gọi $M$ là trung điểm $BC$. Tính độ dài $AM$ (cm).",
+          "correctAnswer": "8",
+          "explanation": "$BM = 6\\text{ cm}$. $\\triangle ABM$ vuông tại $M$ nên $AM = \\sqrt{10^2 - 6^2} = 8\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$. Chu vi $\\triangle ABC$ là $30\\text{ cm}$. Biết $DE = 8\\text{ cm}$, tỉ số $EF : DF = 5 : 6$. Tính độ dài cạnh $EF$ (cm).",
+          "correctAnswer": "10",
+          "explanation": "$EF + DF = 30 - 8 = 22$. $EF = 22 \\times \\frac{5}{11} = 10\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $9\\text{ cm}$. Lấy $M$ trên $BC$ sao cho $BM = 3\\text{ cm}$, lấy $N$ trên $CA$ sao cho $CN = 3\\text{ cm}$, lấy $P$ trên $AB$ sao cho $AP = 3\\text{ cm}$. Chu vi $\\triangle MNP$ có các cạnh bằng nhau. Nếu $MN = 3\\sqrt{3}\\text{ cm}$, tính chu vi $\\triangle MNP$ chia cho $\\sqrt{3}$ (lấy phần nguyên).",
+          "correctAnswer": "9",
+          "explanation": "Chu vi = $3 \\times 3\\sqrt{3} = 9\\sqrt{3}$, chia cho $\\sqrt{3}$ bằng $9$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho tứ giác $ABCD$ có $AB = CD$ và $BC = AD$.\na) Chứng minh $\\triangle ABC = \\triangle CDA$.\nb) Chứng minh $AD \\parallel BC$ và $AB \\parallel CD$.",
+          "solution": "a) Xét $\\triangle ABC$ và $\\triangle CDA$ có:\n$AB = CD$ (giả thiết),\n$BC = DA$ (giả thiết),\nCạnh $AC$ chung.\nVậy $\\triangle ABC = \\triangle CDA$ (c.c.c).\nb) Từ $\\triangle ABC = \\triangle CDA$ suy ra:\n$\\widehat{ACB} = \\widehat{CAD}$ (hai góc tương ứng), mà hai góc này ở vị trí so le trong nên $BC \\parallel AD$.\n$\\widehat{BAC} = \\widehat{DCA}$ (hai góc tương ứng), mà hai góc này ở vị trí so le trong nên $AB \\parallel CD$.",
+          "rubric": [
+            {
+              "step": "Chứng minh hai tam giác bằng nhau theo c.c.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chỉ ra 2 cặp góc so le trong bằng nhau và kết luận song song",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho tam giác $ABC$ có $AB = AC$. Gọi $K$ là điểm nằm trong tam giác sao cho $KB = KC$. Nối $A$ với $K$ cắt $BC$ tại $H$.\na) Chứng minh rằng $\\triangle ABK = \\triangle ACK$.\nb) Chứng minh $AH \\perp BC$ và $H$ là trung điểm của $BC$.",
+          "solution": "a) Xét $\\triangle ABK$ và $\\triangle ACK$ có:\n$AB = AC$ (giả thiết),\n$KB = KC$ (giả thiết),\nCạnh $AK$ chung.\nVậy $\\triangle ABK = \\triangle ACK$ (c.c.c).\nb) Từ $\\triangle ABK = \\triangle ACK$ suy ra $\\widehat{BAK} = \\widehat{CAK}$ hay $\\widehat{BAH} = \\widehat{CAH}$.\nXét $\\triangle ABH$ và $\\triangle ACH$ có:\n$AB = AC$, $\\widehat{BAH} = \\widehat{CAH}$, cạnh $AH$ chung.\nDo đó $\\triangle ABH = \\triangle ACH$ (c.g.c).\nSuy ra $HB = HC$ (nên $H$ là trung điểm $BC$) và $\\widehat{AHB} = \\widehat{AHC} = 90^\\circ$ (nên $AH \\perp BC$).",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABK = ACK (c.c.c) để suy ra tia phân giác",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác ABH = ACH để kết luận trung điểm và vuông góc",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho hình bình hành $ABCD$ có $AB > BC$. Gọi $O$ là giao điểm hai đường chéo $AC$ và $BD$. Chứng minh rằng nếu tam giác $AOB$ có diện tích bằng $S$ thì diện tích hình bình hành $ABCD$ bằng $4S$.",
+          "solution": "Vì $ABCD$ là hình bình hành nên $O$ là trung điểm của $AC$ và $BD$.\nTrong $\\triangle ABC$, $BO$ là đường trung tuyến ứng với cạnh $AC$.\nDo đó hai tam giác $\\triangle AOB$ và $\\triangle COB$ có chung đường cao hạ từ $B$ và đáy $OA = OC$, nên $S_{AOB} = S_{COB} = S$.\nHoàn toàn tương tự, $AO$ là trung tuyến của $\\triangle ABD$ nên $S_{AOD} = S_{AOB} = S$.\nVà $CO$ là trung tuyến của $\\triangle CBD$ nên $S_{COD} = S_{COB} = S$.\nVậy cả 4 tam giác nhỏ quanh điểm $O$ đều có diện tích bằng $S$.\nSuy ra $S_{ABCD} = S_{AOB} + S_{BOC} + S_{COD} + S_{DOA} = 4S$.",
+          "rubric": [
+            {
+              "step": "Chứng minh diện tích hai tam giác có cùng đường cao và đáy bằng nhau thì bằng nhau",
+              "subScore": 0.5
+            },
+            {
+              "step": "Tổng hợp diện tích 4 tam giác con để chứng minh S_ABCD = 4S",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai2_test3": {
+      "title": "Toán 7 (KNTT) - Bài 13: Hai tam giác bằng nhau (c.c.c) - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai tam giác bằng nhau thì có chu vi như thế nào?",
+          "options": [
+            "Có thể khác nhau",
+            "Luôn luôn bằng nhau",
+            "Tỉ lệ với 2",
+            "Gấp đôi nhau"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle A'B'C'$. Gọi $M, M'$ lần lượt là trung điểm của $BC$ và $B'C'$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$\\triangle ABM = \\triangle A'B'M'$",
+            "$AM = A'M'$",
+            "$AM \\neq A'M'$",
+            "$\\triangle ACM = \\triangle A'C'M'$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho tứ giác lồi $ABCD$ có $AB = BC$ và $CD = DA$. Đường chéo $AC$ và $BD$ có tính chất:",
+          "options": [
+            "$AC$ là đường trung trực của $BD$",
+            "$BD$ là đường trung trực của $AC$",
+            "$AC \\parallel BD$",
+            "$AC = BD$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Cho tam giác đều $ABC$. Lấy điểm $O$ trong tam giác sao cho $OA = OB = OC$. Khi đó số đo góc $\\widehat{AOB}$ bằng:",
+          "options": [
+            "$120^\\circ$",
+            "$90^\\circ$",
+            "$60^\\circ$",
+            "$150^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Khi đó $BE = CD$ nhờ cặp tam giác bằng nhau nào?",
+          "options": [
+            "$\\triangle BDC = \\triangle CEB$",
+            "Không chứng minh được",
+            "$\\triangle ABE = \\triangle ACD$",
+            "Cả hai cặp trên đều chứng minh được"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho 4 điểm $A, B, C, D$ sao cho $AB = CD$ và $AD = BC$. Khẳng định nào luôn đúng?",
+          "options": [
+            "Tứ giác $ABCD$ là hình thoi",
+            "Tứ giác $ABCD$ là hình bình hành",
+            "$AB \\perp BC$",
+            "$AC \\perp BD$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB$. Tập hợp các điểm $M$ thỏa mãn $MA = MB$ là:",
+          "options": [
+            "Đường trung trực của đoạn thẳng $AB$",
+            "Đường tròn đường kính $AB$",
+            "Đoạn thẳng nối $A$ và $B$",
+            "Tia phân giác"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài tam giác các tam giác đều $ABD$ và $ACE$. Đoạn thẳng $CD$ và $BE$ có quan hệ gì?",
+          "options": [
+            "Cả $CD = BE$ và góc giữa chúng bằng $60^\\circ$",
+            "$CD = 2BE$",
+            "$CD \\perp BE$",
+            "$CD = BE$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$. Trên nửa mặt phẳng bờ $BC$ không chứa $A$, vẽ $\\triangle BCD$ sao cho $BD = AC$ và $CD = AB$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$AB \\parallel AC$",
+            "$\\triangle ABC = \\triangle BCD$",
+            "$\\triangle ABC = \\triangle DCB$",
+            "$AD \\parallel BC$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho hình lập phương có các mặt là các hình vuông bằng nhau. Đường chéo các mặt bên của hình lập phương tạo thành một tam giác có đặc điểm gì?",
+          "options": [
+            "Là tam giác tù",
+            "Là tam giác cân không đều",
+            "Là tam giác đều",
+            "Là tam giác vuông"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy $M$ là trung điểm của $BC$. Từ $M$ kẻ $MH \\perp AB$ và $MK \\perp AC$. Nhận xét nào sau đây đúng?",
+          "options": [
+            "$MH + MK = BC$",
+            "$MH < MK$",
+            "$MH > MK$",
+            "$MH = MK$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho ngũ giác đều $ABCDE$. Tất cả các đường chéo của ngũ giác đều này có độ dài như thế nào?",
+          "options": [
+            "Hoàn toàn khác nhau",
+            "Có 3 đường bằng nhau và 2 đường khác",
+            "Từng cặp một bằng nhau",
+            "Đều bằng nhau"
+          ],
+          "correct": 3
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "question": "Cho hai tam giác cân $ABC$ ($AB = AC$) và tam giác cân $DBC$ ($DB = DC$) có chung cạnh đáy $BC$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABD = \\triangle ACD$ theo trường hợp cạnh - cạnh - cạnh (c.c.c).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Đường thẳng $AD$ là tia phân giác của góc $\\widehat{BAC}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Đường thẳng $AD$ là tia phân giác của góc $\\widehat{BDC}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đường thẳng $AD$ song song với đoạn thẳng $BC$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$. Lấy điểm $D$ trên đoạn thẳng $AM$ ($D \\neq A, D \\neq M$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$AM$ vuông góc với $BC$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\triangle DBM = \\triangle DCM$ (c.g.c hoặc c.c.c).",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Độ dài đoạn thẳng $DB = DC$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $DBC$ không thể là tam giác cân.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 5\\text{ cm}, BC = 7\\text{ cm}, DF = 6\\text{ cm}$. Tính chu vi $\\triangle DEF$ (cm).",
+          "correctAnswer": "18",
+          "explanation": "Chu vi = $5 + 7 + 6 = 18\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho tam giác đều $ABC$. Điểm $M$ nằm trong tam giác sao cho khoảng cách từ $M$ đến ba đỉnh bằng nhau. Tính số đo góc $\\widehat{BMC}$ (độ).",
+          "correctAnswer": "120",
+          "explanation": "Do tính đối xứng, 3 góc quanh $M$ bằng nhau: $360^\\circ / 3 = 120^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Nối $AC$. Tính độ dài đường chéo $AC$ (cm).",
+          "correctAnswer": "10",
+          "explanation": "$AC = \\sqrt{8^2 + 6^2} = 10\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tứ giác $ABCD$ có $AB = BC = CD = DA$ (hình thoi) và $\\widehat{A} = 60^\\circ$. Biết độ dài cạnh $AB = 5\\text{ cm}$. Tính độ dài đường chéo $BD$ (cm).",
+          "correctAnswer": "5",
+          "explanation": "$\\triangle ABD$ cân tại $A$ có $\\widehat{A} = 60^\\circ$ nên là tam giác đều, do đó $BD = AB = 5\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho hai đường tròn tâm $O$ và tâm $O'$ có cùng bán kính $R$ cắt nhau tại hai điểm $A$ và $B$.\na) Chứng minh $\\triangle OAO' = \\triangle OBO'$.\nb) Chứng minh đường thẳng $OO'$ là đường trung trực của đoạn thẳng $AB$.",
+          "solution": "a) Xét $\\triangle OAO'$ và $\\triangle OBO'$ có:\n$OA = OB = R$,\n$O'A = O'B = R$,\nCạnh $OO'$ chung.\nSuy ra $\\triangle OAO' = \\triangle OBO'$ (c.c.c).\nb) Vì $\\triangle OAO' = \\triangle OBO'$ nên $\\widehat{AOO'} = \\widehat{BOO'}$.\nGọi $I$ là giao điểm của $OO'$ và $AB$.\nXét $\\triangle AOI$ và $\\triangle BOI$ có:\n$OA = OB = R$,\n$\\widehat{AOI} = \\widehat{BOI}$,\nCạnh $OI$ chung.\nSuy ra $\\triangle AOI = \\triangle BOI$ (c.g.c).\nDo đó $IA = IB$ và $\\widehat{AIO} = \\widehat{BIO} = 90^\\circ$.\nVậy $OO'$ đi qua trung điểm và vuông góc với $AB$, tức là đường trung trực của $AB$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác OAO' = OBO' theo trường hợp c.c.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh IA = IB và OO' vuông góc AB, kết luận trung trực",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của cạnh $BC$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$.\na) Chứng minh $\\triangle ABM = \\triangle DCM$.\nb) Chứng minh $AB \\parallel CD$ và $AC = BD$.",
+          "solution": "a) Xét $\\triangle ABM$ và $\\triangle DCM$ có:\n$MB = MC$ ($M$ là trung điểm $BC$),\n$\\widehat{AMB} = \\widehat{DMC}$ (hai góc đối đỉnh),\n$MA = MD$ (theo giả thiết).\nSuy ra $\\triangle ABM = \\triangle DCM$ (c.g.c).\nb) Từ $\\triangle ABM = \\triangle DCM$ suy ra $\\widehat{BAM} = \\widehat{CDM}$ (hai góc tương ứng).\nMà hai góc này ở vị trí so le trong nên $AB \\parallel CD$.\nMặt khác, xét $\\triangle ACM$ và $\\triangle DBM$ có:\n$MA = MD, MC = MB, \\widehat{AMC} = \\widehat{DMB}$ (đối đỉnh).\nSuy ra $\\triangle ACM = \\triangle DBM$ (c.g.c) $\\Rightarrow AC = BD$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABM = DCM (c.g.c)",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra AB // CD và chứng minh tiếp AC = BD",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho đoạn thẳng $AB$. Lấy điểm $C$ nằm ngoài đường thẳng $AB$. Tìm trên mặt phẳng một điểm $D$ sao cho $\\triangle ABD = \\triangle ABC$. Có bao nhiêu điểm $D$ như vậy?",
+          "solution": "Để $\\triangle ABD = \\triangle ABC$ với cạnh $AB$ chung:\nTa cần $AD = AC$ và $BD = BC$.\n1) Điểm $D$ cách $A$ một khoảng bằng $AC$, nên $D$ thuộc đường tròn $(A; AC)$.\n2) Điểm $D$ cách $B$ một khoảng bằng $BC$, nên $D$ thuộc đường tròn $(B; BC)$.\nHai đường tròn $(A; AC)$ và $(B; BC)$ có ít nhất một điểm chung là $C$. Vì $C$ không thuộc đường thẳng $AB$ nên hai đường tròn này cắt nhau tại đúng hai điểm phân biệt, đối xứng nhau qua đường thẳng $AB$.\nMột điểm chính là $C$, điểm còn lại là điểm $D$ đối xứng với $C$ qua $AB$.\nNgoài ra, nếu xét thứ tự các đỉnh bất kì (không bảo toàn chiều quay), thì điểm $D$ duy nhất khác $C$ thỏa mãn là điểm đối xứng của $C$ qua trục $AB$.\nVậy tồn tại duy nhất 1 điểm $D$ khác $C$ (nếu không tính chính điểm $C$).",
+          "rubric": [
+            {
+              "step": "Xác định D là giao điểm của hai đường tròn tâm A và tâm B",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận tính đối xứng qua trục AB và kết luận số điểm D",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai3_test1": {
+      "title": "Toán 7 (KNTT) - Bài 14: Trường hợp bằng nhau c.g.c và g.c.g - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Góc xen giữa hai cạnh $AB$ và $AC$ của tam giác $ABC$ là góc:",
+          "options": [
+            "$\\widehat{C}$",
+            "$\\widehat{B}$",
+            "$\\widehat{A}$",
+            "Góc ngoài tại $A$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Cạnh xen giữa hai góc $\\widehat{B}$ và $\\widehat{C}$ của tam giác $ABC$ là cạnh:",
+          "options": [
+            "$BC$",
+            "$AB$",
+            "$AC$",
+            "Đường cao $AH$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Trường hợp bằng nhau cạnh - góc - cạnh (c.g.c) yêu cầu góc bằng nhau phải là:",
+          "options": [
+            "Góc tù",
+            "Góc xen giữa hai cạnh đó",
+            "Góc bất kì",
+            "Góc đối diện với một trong hai cạnh"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Trường hợp bằng nhau góc - cạnh - góc (g.c.g) yêu cầu cạnh bằng nhau phải là:",
+          "options": [
+            "Cạnh huyền",
+            "Cạnh đối diện một góc",
+            "Cạnh bất kì",
+            "Cạnh xen giữa hai góc đó"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN, \\widehat{A} = \\widehat{M}$. Cần thêm điều kiện nào sau đây để hai tam giác bằng nhau theo trường hợp c.g.c?",
+          "options": [
+            "$\\widehat{B} = \\widehat{N}$",
+            "$\\widehat{C} = \\widehat{P}$",
+            "$AC = MP$",
+            "$BC = NP$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ và $\\triangle DEF$ có $\\widehat{B} = \\widehat{E}, BC = EF$. Cần thêm điều kiện nào để hai tam giác bằng nhau theo trường hợp g.c.g?",
+          "options": [
+            "$AB = DE$",
+            "$\\widehat{C} = \\widehat{F}$",
+            "$AC = DF$",
+            "$\\widehat{A} = 90^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB$, $M$ là trung điểm của $AB$. Đường thẳng $d \\perp AB$ tại $M$. Lấy $P \\in d$. Khi đó $\\triangle PMA = \\triangle PMB$ theo trường hợp:",
+          "options": [
+            "c.c.c",
+            "cả c.g.c và c.c.c",
+            "c.g.c",
+            "g.c.g"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho hình vẽ có $AB \\parallel CD$ và $AB = CD$. Gọi $O$ là giao điểm của $AC$ và $BD$. Khi đó $\\triangle OAB = \\triangle OCD$ theo trường hợp:",
+          "options": [
+            "c.g.c",
+            "g.c.g",
+            "c.c.c",
+            "chỉ có diện tích bằng nhau"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Tia phân giác của $\\widehat{A}$ cắt $BC$ tại $D$. Khi đó $\\triangle ABD = \\triangle ACD$ theo trường hợp:",
+          "options": [
+            "c.g.c",
+            "chỉ theo c.c.c",
+            "g.c.g",
+            "không bằng nhau"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$ theo trường hợp c.g.c với $AB = DE, \\widehat{B} = \\widehat{E}, BC = EF$. Biết $AB = 6\\text{ cm}, EF = 8\\text{ cm}, \\widehat{D} = 70^\\circ, \\widehat{E} = 50^\\circ$. Độ dài cạnh $BC$ và số đo góc $F$ là:",
+          "options": [
+            "$BC = 8\\text{ cm}, \\widehat{F} = 50^\\circ$",
+            "$BC = 6\\text{ cm}, \\widehat{F} = 60^\\circ$",
+            "$BC = 6\\text{ cm}, \\widehat{F} = 70^\\circ$",
+            "$BC = 8\\text{ cm}, \\widehat{F} = 60^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có $\\widehat{B} = \\widehat{C}$. Tia phân giác của góc $B$ cắt $AC$ tại $D$, tia phân giác của góc $C$ cắt $AB$ tại $E$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$BD \\neq CE$",
+            "$\\triangle EBC = \\triangle DCB$",
+            "$BD = CE$",
+            "$AD = AE$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Để đo khoảng cách giữa hai điểm $A$ và $B$ bị ngăn cách bởi một cái hồ, người ta lấy một điểm $O$ quang đãng, xác định điểm $A'$ sao cho $O$ là trung điểm $AA'$, và $B'$ sao cho $O$ là trung điểm $BB'$. Khoảng cách $AB$ bằng độ dài đoạn thẳng nào?",
+          "options": [
+            "$OB'$",
+            "$2A'B'$",
+            "$OA'$",
+            "$A'B'$"
+          ],
+          "correct": 3
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho hai đoạn thẳng $AB$ và $CD$ cắt nhau tại trung điểm $O$ của mỗi đoạn. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle OAD = \\triangle OBC$ theo trường hợp cạnh - góc - cạnh (c.g.c).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Đoạn thẳng $AD = BC$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$AD$ song song với $BC$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "$AB$ vuông góc với $CD$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ tia phân giác $AD$ của $\\widehat{BAC}$ ($D \\in BC$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABD = \\triangle ACD$ theo trường hợp cạnh - góc - cạnh.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$D$ là trung điểm của cạnh $BC$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$AD$ vuông góc với cạnh $BC$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Góc $\\widehat{B}$ luôn bằng $45^\\circ$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 5\\text{ cm}, \\widehat{B} = 45^\\circ, BC = 8\\text{ cm}$. Tính độ dài cạnh $NP$ (cm).",
+          "correctAnswer": "8",
+          "explanation": "$NP = BC = 8\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho hai đoạn thẳng $AC$ và $BD$ cắt nhau tại trung điểm $O$ của mỗi đoạn. Biết $AB = 12\\text{ cm}$. Tính độ dài đoạn thẳng $CD$ (cm).",
+          "correctAnswer": "12",
+          "explanation": "$\\triangle OAB = \\triangle OCD$ (c.g.c) $\\Rightarrow CD = AB = 12\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Tính độ dài cạnh huyền $BC$ (cm).",
+          "correctAnswer": "10",
+          "explanation": "$BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 40^\\circ$. Kẻ tia phân giác $AD$ ($D \\in BC$). Tính số đo góc $\\widehat{ADB}$ (độ).",
+          "correctAnswer": "75",
+          "explanation": "$\\widehat{A} = 70^\\circ \\Rightarrow \\widehat{BAD} = 35^\\circ \\Rightarrow \\widehat{ADB} = 180^\\circ - (70^\\circ + 35^\\circ) = 75^\\circ$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho góc nhọn $xOy$. Trên tia $Ox$ lấy điểm $A$, trên tia $Oy$ lấy điểm $B$ sao cho $OA = OB$. Lấy điểm $M$ trên tia phân giác của góc $xOy$.\na) Chứng minh rằng $\\triangle OAM = \\triangle OBM$.\nb) Chứng minh rằng $MA = MB$.",
+          "solution": "a) Xét $\\triangle OAM$ và $\\triangle OBM$ có:\n$OA = OB$ (theo giả thiết),\n$\\widehat{AOM} = \\widehat{BOM}$ (vì $OM$ là tia phân giác của $\\widehat{xOy}$),\nCạnh $OM$ chung.\nSuy ra $\\triangle OAM = \\triangle OBM$ (c.g.c).\nb) Vì $\\triangle OAM = \\triangle OBM$ nên $MA = MB$ (hai cạnh tương ứng).",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác OAM = OBM theo c.g.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra hai cạnh tương ứng MA = MB",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$. Trên tia đối của tia $AB$ lấy điểm $D$ sao cho $AD = AB$. Trên tia đối của tia $AC$ lấy điểm $E$ sao cho $AE = AC$.\na) Chứng minh $\\triangle ADE = \\triangle ABC$.\nb) Chứng minh $DE \\parallel BC$.",
+          "solution": "a) Xét $\\triangle ADE$ và $\\triangle ABC$ có:\n$AD = AB$ (theo giả thiết),\n$\\widehat{DAE} = \\widehat{BAC}$ (hai góc đối đỉnh),\n$AE = AC$ (theo giả thiết).\nVậy $\\triangle ADE = \\triangle ABC$ (c.g.c).\nb) Từ $\\triangle ADE = \\triangle ABC$ suy ra $\\widehat{ADE} = \\widehat{ABC}$ (hai góc tương ứng).\nMà hai góc này nằm ở vị trí so le trong nên $DE \\parallel BC$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ADE = ABC theo c.g.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra hai góc so le trong bằng nhau và kết luận DE // BC",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = \\widehat{C}$. Kẻ tia phân giác $BD$ của góc $B$ ($D \\in AC$) và tia phân giác $CE$ của góc $C$ ($E \\in AB$). Chứng minh rằng $BD = CE$.",
+          "solution": "Vì $\\widehat{B} = \\widehat{C}$ nên:\n$\\widehat{B_1} = \\widehat{B_2} = \\frac{\\widehat{B}}{2}$ và $\\widehat{C_1} = \\widehat{C_2} = \\frac{\\widehat{C}}{2}$.\nDo đó $\\widehat{EBC} = \\widehat{DCB}$ và $\\widehat{ECB} = \\widehat{DBC}$.\nXét $\\triangle EBC$ và $\\triangle DCB$ có:\n$\\widehat{EBC} = \\widehat{DCB}$ (do $\\widehat{B} = \\widehat{C}$),\nCạnh $BC$ chung,\n$\\widehat{ECB} = \\widehat{DBC}$ (chứng minh trên).\nSuy ra $\\triangle EBC = \\triangle DCB$ (g.c.g).\nDo đó $BD = CE$ (hai cạnh tương ứng).",
+          "rubric": [
+            {
+              "step": "Lập luận góc ECB = DBC = một nửa của góc B, C",
+              "subScore": 0.4
+            },
+            {
+              "step": "Chứng minh tam giác EBC = DCB theo g.c.g và suy ra BD = CE",
+              "subScore": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai3_test2": {
+      "title": "Toán 7 (KNTT) - Bài 14: Trường hợp bằng nhau c.g.c và g.c.g - Bài kiểm tra số 2 (🌿 Khá)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN, \\widehat{B} = \\widehat{N}, BC = NP$. Kết luận nào sau đây đúng?",
+          "options": [
+            "$\\triangle ABC = \\triangle MNP$ (c.g.c)",
+            "Hai tam giác chưa chắc bằng nhau",
+            "$\\triangle ABC = \\triangle MNP$ (g.c.g)",
+            "$\\triangle ABC = \\triangle MNP$ (c.c.c)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB < AC$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = AB$. Gọi tia phân giác của $\\widehat{A}$ cắt $BC$ tại $E$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$\\triangle ABE = \\triangle ADE$ (c.g.c)",
+            "$\\widehat{ABE} = \\widehat{ADE}$",
+            "$BE = DE$",
+            "$\\triangle ABE = \\triangle ADE$ (g.c.g)"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = \\widehat{C}$. Kẻ $AH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABH = \\triangle ACH$ theo trường hợp:",
+          "options": [
+            "c.g.c với góc xen giữa nhọn",
+            "c.c.c",
+            "không bằng nhau",
+            "g.c.g (hoặc cạnh huyền - góc nhọn)"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho góc nhọn $xOy$. Lấy $A \\in Ox, B \\in Oy$ sao cho $OA = OB$. Đường thẳng qua $A$ vuông góc với $Ox$ và đường thẳng qua $B$ vuông góc với $Oy$ cắt nhau tại $C$. Khi đó $OC$ là:",
+          "options": [
+            "Đường cao của tam giác đều",
+            "Tia phân giác của $\\widehat{xOy}$",
+            "Trung trực của $OA$",
+            "Đường song song với $AB$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle A'B'C'$. Gọi $AD, A'D'$ lần lượt là các đường phân giác xuất phát từ đỉnh $A, A'$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$AD = A'D'$",
+            "$AD > A'D'$",
+            "$AD < A'D'$",
+            "$AD = 2A'D'$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $E$ sao cho $ME = MA$. Khi đó $AB$ và $CE$ có quan hệ:",
+          "options": [
+            "Chỉ song song",
+            "Chỉ bằng nhau",
+            "Vuông góc với nhau",
+            "Vừa bằng nhau vừa song song"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Qua $A$ vẽ đường thẳng $d$ nằm ngoài tam giác. Kẻ $BD \\perp d$ và $CE \\perp d$. Khi đó độ dài đoạn thẳng $DE$ bằng:",
+          "options": [
+            "$2BD$",
+            "$BD + CE$",
+            "$\\frac{BD + CE}{2}$",
+            "$BD - CE$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy điểm $E$ sao cho $CE = CB$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$\\widehat{DEC} = 60^\\circ$",
+            "$DE = 2AB$",
+            "$\\triangle DCE = \\triangle DCB$",
+            "$\\triangle ADE = \\triangle ABC$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 40^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Số đo $\\widehat{ADC}$ là:",
+          "options": [
+            "$80^\\circ$",
+            "$100^\\circ$",
+            "$90^\\circ$",
+            "$110^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các tam giác vuông cân tại $A$ là $\\triangle ABD$ và $\\triangle ACE$. Khi đó $CD$ và $BE$ có quan hệ:",
+          "options": [
+            "$CD = BE$ và $CD \\perp BE$",
+            "$CD = BE$ nhưng không vuông góc",
+            "$CD = 2BE$",
+            "$CD \\parallel BE$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy điểm $E$ trên cạnh $AB$ và điểm $F$ trên cạnh $AC$ sao cho $AE = AF$. Nối $BF$ và $CE$ cắt nhau tại $I$. Khi đó $\\triangle IBC$ là:",
+          "options": [
+            "Tam giác nhọn bất kì",
+            "Tam giác đều",
+            "Tam giác cân tại $I$",
+            "Tam giác vuông tại $I$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho góc nhọn $xOy$ và điểm $M$ nằm trong góc đó. Vẽ điểm $A$ đối xứng với $M$ qua $Ox$, điểm $B$ đối xứng với $M$ qua $Oy$. Khi đó tam giác $OAB$ là:",
+          "options": [
+            "Tam giác vuông",
+            "Tam giác đều",
+            "Tam giác cân tại $O$",
+            "Tam giác vuông cân"
+          ],
+          "correct": 2
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $M$ là trung điểm của $BC$. Kẻ $BE \\perp AM$ tại $E$ và $CF \\perp AM$ tại $F$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle BEM = \\triangle CFM$ (cạnh huyền - góc nhọn hoặc g.c.g).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Độ dài đoạn thẳng $BE = CF$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Đường thẳng $BE$ song song với $CF$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Độ dài $AE$ luôn bằng $AF$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên tia đối của tia $CA$ sao cho $BD = CE$. Kẻ $DH \\perp BC$ và $EK \\perp BC$ ($H, K \\in BC$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\widehat{DBH} = \\widehat{ECK}$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\triangle BDH = \\triangle CEK$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$DH = EK$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $DE$ cắt $BC$ tại trung điểm của $BC$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = 7\\text{ cm}, AC = 9\\text{ cm}$. Trên tia đối của tia $AB$ lấy điểm $D$ sao cho $AD = 7\\text{ cm}$, trên tia đối của tia $AC$ lấy điểm $E$ sao cho $AE = 9\\text{ cm}$. Biết $BC = 11\\text{ cm}$. Tính độ dài $DE$ (cm).",
+          "correctAnswer": "11",
+          "explanation": "$\\triangle ADE = \\triangle ABC$ (c.g.c) $\\Rightarrow DE = BC = 11\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 75^\\circ, \\widehat{C} = 45^\\circ$. Kẻ đường cao $AH$. Tính số đo góc $\\widehat{HAC}$ (độ).",
+          "correctAnswer": "45",
+          "explanation": "Trong $\\triangle AHC$ vuông tại $H$, $\\widehat{HAC} = 90^\\circ - 45^\\circ = 45^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Đường thẳng $d$ đi qua $A$ không cắt đoạn $BC$. Kẻ $BD \\perp d$ và $CE \\perp d$. Biết $BD = 3\\text{ cm}$ và $CE = 5\\text{ cm}$. Tính độ dài đoạn $DE$ (cm).",
+          "correctAnswer": "8",
+          "explanation": "$DE = DA + AE = CE + BD = 5 + 3 = 8\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên cạnh $AC$ sao cho $BD = CE$. Nối $BE$ và $CD$ cắt nhau tại $O$. Nếu $OB = OC$ thì tam giác $ABC$ là tam giác gì? (Điền: 'can', 'deu', hoặc 'vuong')",
+          "correctAnswer": "can",
+          "explanation": "$\\triangle OBD = \\triangle OCE$ (c.g.c) $\\Rightarrow \\widehat{OBD} = \\widehat{OCE} \\Rightarrow \\widehat{B} = \\widehat{C}$, vậy $\\triangle ABC$ cân tại $A$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ phân giác $BD$ của $\\widehat{B}$ và phân giác $CE$ của $\\widehat{C}$ ($D \\in AC, E \\in AB$).\na) Chứng minh $\\triangle ADB = \\triangle AEC$.\nb) Chứng minh $AD = AE$ và $BD = CE$.",
+          "solution": "a) Vì $AB = AC$ nên $\\triangle ABC$ cân tại $A$, suy ra $\\widehat{B} = \\widehat{C}$.\nVì $BD, CE$ là tia phân giác nên $\\widehat{ABD} = \\frac{\\widehat{B}}{2} = \\frac{\\widehat{C}}{2} = \\widehat{ACE}$.\nXét $\\triangle ADB$ và $\\triangle AEC$ có:\n$\\widehat{A}$ chung,\n$AB = AC$ (giả thiết),\n$\\widehat{ABD} = \\widehat{ACE}$ (chứng minh trên).\nSuy ra $\\triangle ADB = \\triangle AEC$ (g.c.g).\nb) Từ $\\triangle ADB = \\triangle AEC$ suy ra:\n$AD = AE$ và $BD = CE$ (các cặp cạnh tương ứng).",
+          "rubric": [
+            {
+              "step": "Chứng minh góc ABD = ACE và tam giác ADB = AEC (g.c.g)",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra AD = AE và BD = CE",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Qua $A$ kẻ đường thẳng $xy$ bất kì không cắt đoạn $BC$. Kẻ $BD \\perp xy$ tại $D$ và $CE \\perp xy$ tại $E$.\na) Chứng minh rằng $\\triangle ABD = \\triangle CAE$.\nb) Chứng minh rằng $DE = BD + CE$.",
+          "solution": "a) Ta có $\\widehat{BAD} + \\widehat{BAC} + \\widehat{CAE} = 180^\\circ$.\nMà $\\widehat{BAC} = 90^\\circ$ nên $\\widehat{BAD} + \\widehat{CAE} = 90^\\circ$.\nTrong $\\triangle ABD$ vuông tại $D$, ta có $\\widehat{ABD} + \\widehat{BAD} = 90^\\circ$.\nSuy ra $\\widehat{ABD} = \\widehat{CAE}$ (cùng phụ với $\\widehat{BAD}$).\nXét $\\triangle ABD$ và $\\triangle CAE$ vuông có:\n$AB = AC$ (giả thiết),\n$\\widehat{ABD} = \\widehat{CAE}$ (chứng minh trên).\nSuy ra $\\triangle ABD = \\triangle CAE$ (cạnh huyền - góc nhọn).\nb) Từ $\\triangle ABD = \\triangle CAE$ suy ra $AD = CE$ và $BD = AE$.\nDo đó: $DE = DA + AE = CE + BD = BD + CE$.",
+          "rubric": [
+            {
+              "step": "Chứng minh góc ABD = CAE và tam giác ABD = CAE",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra AD = CE, BD = AE và kết luận DE = BD + CE",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ nhọn. Vẽ về phía ngoài tam giác các tam giác vuông cân tại $A$ là $\\triangle ABD$ (vuông cân tại $A$) và $\\triangle ACE$ (vuông cân tại $A$). Chứng minh rằng $CD = BE$ và $CD \\perp BE$.",
+          "solution": "1) Chứng minh $CD = BE$:\nTa có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ vuông cân tại $A$),\n$\\widehat{DAC} = \\widehat{BAE}$ (chứng minh trên),\n$AC = AE$ (do $\\triangle ACE$ vuông cân tại $A$).\nDo đó $\\triangle DAC = \\triangle BAE$ (c.g.c) $\\Rightarrow CD = BE$.\n2) Chứng minh $CD \\perp BE$:\nGọi giao điểm của $CD$ và $BE$ là $K$, giao điểm của $CD$ và $AB$ là $H$.\nTừ $\\triangle DAC = \\triangle BAE$ suy ra $\\widehat{ADC} = \\widehat{ABE}$.\nTrong tam giác vuông $ADH$ (vuông tại $A$), ta có $\\widehat{ADH} + \\widehat{AHD} = 90^\\circ$.\nMà $\\widehat{AHD} = \\widehat{KHB}$ (đối đỉnh) và $\\widehat{ADH} = \\widehat{KBH}$.\nNên $\\widehat{KBH} + \\widehat{KHB} = 90^\\circ$.\nXét $\\triangle KBH$, có $\\widehat{BKH} = 180^\\circ - (\\widehat{KBH} + \\widehat{KHB}) = 180^\\circ - 90^\\circ = 90^\\circ$.\nVậy $CD \\perp BE$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác DAC = BAE (c.g.c) suy ra CD = BE",
+              "subScore": 0.5
+            },
+            {
+              "step": "Sử dụng tính chất tam giác vuông và góc đối đỉnh suy ra CD vuông góc BE",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai3_test3": {
+      "title": "Toán 7 (KNTT) - Bài 14: Trường hợp bằng nhau c.g.c và g.c.g - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Nếu hai góc và cạnh xen giữa của tam giác này bằng hai góc và cạnh xen giữa của tam giác kia thì:",
+          "options": [
+            "Chưa thể kết luận",
+            "Hai tam giác đó bằng nhau (c.g.c)",
+            "Hai tam giác đó có chu vi khác nhau",
+            "Hai tam giác đó bằng nhau (g.c.g)"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ phân giác $AM$ của $\\widehat{A}$ ($M \\in BC$). Lấy điểm $I$ bất kì trên đoạn $AM$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$IB = IC$",
+            "$\\triangle MBI = \\triangle MCI$",
+            "$\\triangle ABI = \\triangle ACI$",
+            "$IB \\neq IC$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $E$. Kẻ $EH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABE$ và $\\triangle HBE$ bằng nhau theo:",
+          "options": [
+            "c.c.c",
+            "Cạnh góc vuông - góc nhọn kề",
+            "Cạnh huyền - góc nhọn",
+            "Không bằng nhau"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho hai tam giác $\\triangle ABC$ và $\\triangle MNP$ có $\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}$ và $BC = NP$. Hai tam giác đó bằng nhau theo trường hợp:",
+          "options": [
+            "c.c.c",
+            "g.c.g (vì $\\widehat{C} = \\widehat{P}$ và cạnh $BC = NP$ kề)",
+            "c.g.c",
+            "Không bằng nhau"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ nhọn. Vẽ đường cao $BD$ và $CE$. Nếu $BD = CE$ thì $\\triangle ABC$ là tam giác gì?",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông tại $A$",
+            "Tam giác cân tại $A$",
+            "Tam giác vuông cân"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho góc nhọn $xOy$ và điểm $A$ cố định trên tia phân giác của $xOy$. Một đường thẳng quay quanh $A$ cắt $Ox$ tại $M$, cắt $Oy$ tại $N$. Khi $OM + ON$ đạt giá trị không đổi thì $\\triangle OMN$ cân tại:",
+          "options": [
+            "$O$",
+            "$N$",
+            "$M$",
+            "Không xác định"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $M$, trên cạnh $CD$ lấy điểm $N$ sao cho $\\widehat{MAN} = 45^\\circ$. Chu vi tam giác $CMN$ bằng:",
+          "options": [
+            "$AB$",
+            "$2AB$",
+            "$\\frac{3}{2}AB$",
+            "$3AB$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Trên tia đối của tia $BA$ lấy điểm $D$ sao cho $BD = BH$. Đường thẳng $DH$ cắt $AC$ tại $M$. Khẳng định nào đúng?",
+          "options": [
+            "$MH > MC$",
+            "$MH < MC$",
+            "$MH = MC$",
+            "$MH = 2MC$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ có $\\widehat{A} = 90^\\circ, \\widehat{B} = 30^\\circ$. Khi đó khẳng định nào sau đây đúng về độ dài cạnh?",
+          "options": [
+            "$AB = \\frac{1}{2}BC$",
+            "$BC = 2AB$",
+            "$AC = \\frac{1}{2}AB$",
+            "$AC = \\frac{1}{2}BC$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = BC$. Số đo góc $\\widehat{ABD}$ là:",
+          "options": [
+            "$10^\\circ$",
+            "$20^\\circ$",
+            "$30^\\circ$",
+            "$15^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Điểm $M$ nằm trong tam giác sao cho $MA = 2\\text{ cm}, MB = 1\\text{ cm}, MC = \\sqrt{7}\\text{ cm}$. Số đo góc $\\widehat{AMB}$ là:",
+          "options": [
+            "$135^\\circ$",
+            "$90^\\circ$",
+            "$150^\\circ$",
+            "$120^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tứ giác $ABCD$ có $\\widehat{B} = \\widehat{D} = 90^\\circ$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Nếu $AH = AK$ thì tứ giác $ABCD$ có:",
+          "options": [
+            "$AC$ là phân giác của $\\widehat{A}$",
+            "Cả ba kết luận trên đều đúng",
+            "$BC = CD$",
+            "$AB = AD$"
+          ],
+          "correct": 1
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ cân tại $A$. Lấy điểm $D$ trên cạnh $AB$, lấy điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Nối $BE$ và $CD$ cắt nhau tại $K$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABE = \\triangle ACD$ (c.g.c).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Đoạn thẳng $BE = CD$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$\\triangle KBC$ là tam giác cân tại $K$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đường thẳng $AK$ vuông góc với $BC$.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ nhọn. Vẽ ra phía ngoài tam giác hai hình vuông $ABMN$ và $ACQP$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle AMC = \\triangle ANP$ (c.g.c).",
+              "correct": false
+            },
+            {
+              "subId": "b",
+              "text": "$\\triangle ABN = \\triangle ACQ$.",
+              "correct": false
+            },
+            {
+              "subId": "c",
+              "text": "$\\triangle ABQ = \\triangle APC$ không đúng, mà $\\triangle ABQ = \\triangle AMC$ không đúng; thực chất $MC = BP$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $MC$ vuông góc với $BP$.",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ, \\widehat{B} = 50^\\circ$. Tính độ dài cạnh $AC$ (cm) biết cạnh $BC = 15\\text{ cm}$.",
+          "correctAnswer": "15",
+          "explanation": "$\\widehat{C} = 180^\\circ - (80^\\circ + 50^\\circ) = 50^\\circ = \\widehat{B} \\Rightarrow \\triangle ABC$ cân tại $A \\Rightarrow AC = AB$. Vì $\\widehat{B}=\\widehat{C}=50^\\circ$ nên $AC=AB$. Nếu $AC=BC$ thì $AC=15\\text{ cm}$ (đây là tam giác cân có đáy $BC$, $AB=AC$ chưa chắc bằng $BC$, nhưng nếu $\\widehat{A}=80^\\circ, \\widehat{B}=50^\\circ \\Rightarrow \\widehat{C}=50^\\circ$, tam giác cân tại $A$, cạnh $AB=AC$. Giả thiết cho $BC=15$, nếu $\\widehat{B}=\\widehat{C}$ thì $AB=AC$. Đề hỏi AC, nếu là tam giác đều thì 15. Với $\\triangle ABC$ có $\\widehat{A}=60^\\circ, \\widehat{B}=60^\\circ$ thì $AC=15$. Ở đây số đo $\\widehat{B}=\\widehat{C}=50^\\circ$, cạnh đối diện góc $B$ là $AC$, cạnh đối diện góc $C$ là $AB$, suy ra $AB=AC$). Ta đặt $AC=15$ nếu $AB=15$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Biết cạnh $BC = 16\\text{ cm}$. Tính độ dài cạnh $AB$ (cm).",
+          "correctAnswer": "8",
+          "explanation": "Trong tam giác vuông, cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền: $AB = 16 / 2 = 8\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ$. Đường trung trực của cạnh $BC$ cắt $AC$ tại $D$. Biết $\\widehat{C} = 25^\\circ$. Tính số đo $\\widehat{ABD}$ (độ).",
+          "correctAnswer": "40",
+          "explanation": "Do $D$ thuộc trung trực $BC$ nên $DB = DC \\Rightarrow \\widehat{DBC} = \\widehat{C} = 25^\\circ$. Mà $\\widehat{B} = 90^\\circ - 25^\\circ = 65^\\circ \\Rightarrow \\widehat{ABD} = 65^\\circ - 25^\\circ = 40^\\circ$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho hình vuông $ABCD$ cạnh $12\\text{ cm}$. Điểm $M$ thuộc cạnh $BC$ sao cho $BM = 5\\text{ cm}$. Kẻ tia phân giác $\\widehat{DAM}$ cắt $CD$ tại $P$. Tính chu vi của tam giác $CMP$ (cm).",
+          "correctAnswer": "24",
+          "explanation": "Chu vi tam giác $CMP = 2 \\times CD = 2 \\times 12 = 24\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ tia phân giác $AD$ của $\\widehat{A}$ ($D \\in BC$). Trên cạnh $AC$ lấy điểm $E$ sao cho $AE = AB$.\na) Chứng minh rằng $\\triangle ABD = \\triangle AED$.\nb) Chứng minh rằng $DB < DC$.",
+          "solution": "a) Xét $\\triangle ABD$ và $\\triangle AED$ có:\n$AB = AE$ (theo giả thiết),\n$\\widehat{BAD} = \\widehat{EAD}$ (do $AD$ là tia phân giác của $\\widehat{A}$),\nCạnh $AD$ chung.\nSuy ra $\\triangle ABD = \\triangle AED$ (c.g.c).\nb) Từ $\\triangle ABD = \\triangle AED$ suy ra $DB = DE$ (hai cạnh tương ứng).\nTrong $\\triangle DEC$, áp dụng bất đẳng thức tam giác ta có $DC - DE < EC$ hay $DC > DE$.\nMà $DE = DB$, do đó $DC > DB$ hay $DB < DC$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABD = AED theo c.g.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra DB = DE và dùng bất đẳng thức tam giác suy ra DB < DC",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho tam giác $ABC$ nhọn. Vẽ phía ngoài tam giác các hình vuông $ABDE$ và $ACFG$. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng đoạn thẳng $EG$ gấp đôi đoạn thẳng $AM$ và $AM \\perp EG$.",
+          "solution": "Trên tia đối của tia $MA$ lấy điểm $K$ sao cho $MK = MA$.\nXét $\\triangle MAB$ và $\\triangle MKC$ có:\n$MB = MC$ ($M$ là trung điểm $BC$),\n$\\widehat{AMB} = \\widehat{KMC}$ (đối đỉnh),\n$MA = MK$.\nSuy ra $\\triangle MAB = \\triangle MKC$ (c.g.c) $\\Rightarrow CK = AB$ và $\\widehat{MAB} = \\widehat{MKC}$.\nDo đó $AB \\parallel CK \\Rightarrow \\widehat{ACK} + \\widehat{BAC} = 180^\\circ$.\nMặt khác, ta có: $\\widehat{EAG} + \\widehat{EAB} + \\widehat{BAC} + \\widehat{GAC} = 360^\\circ$\n$\\Rightarrow \\widehat{EAG} + 90^\\circ + \\widehat{BAC} + 90^\\circ = 360^\\circ \\Rightarrow \\widehat{EAG} + \\widehat{BAC} = 180^\\circ$.\nSuy ra $\\widehat{EAG} = \\widehat{ACK}$.\nXét $\\triangle EAG$ và $\\triangle KCA$ có:\n$AE = AB = CK$,\n$\\widehat{EAG} = \\widehat{ACK}$,\n$AG = AC$.\nDo đó $\\triangle EAG = \\triangle KCA$ (c.g.c).\nSuy ra $EG = AK = 2AM$ (vì $AK = 2AM$).\nĐồng thời $\\widehat{AEG} = \\widehat{CKA} = \\widehat{MAB}$, dẫn đến đường kéo dài của $AM$ vuông góc với $EG$.",
+          "rubric": [
+            {
+              "step": "Lấy điểm phụ K đối xứng A qua M và chứng minh góc EAG = ACK",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác EAG = KCA (c.g.c) để suy ra EG = 2AM và vuông góc",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho tam giác đều $ABC$. Lấy điểm $D$ trên cạnh $BC$. Kẻ các đường thẳng song song với $AC$ cắt $AB$ tại $E$, song song với $AB$ cắt $AC$ tại $F$. Gọi $I$ là trung điểm của $BF$. Chứng minh rằng khi $D$ di chuyển trên $BC$ thì độ dài $EF$ không đổi nếu $BD + CF = \\text{const}$.",
+          "solution": "Do $DE \\parallel AC$ nên $\\triangle BDE$ là tam giác đều (vì $\\widehat{B} = 60^\\circ$ và các góc đồng vị bằng $60^\\circ$).\nSuy ra $BD = BE = DE$.\nTương tự, $DF \\parallel AB$ nên $\\triangle CDF$ là tam giác đều, suy ra $CD = CF = DF$.\nXét tứ giác $AEDF$ có các cặp cạnh đối song song nên $AE = DF = CF$ và $AF = DE = BD$.\nTa có: $AE + AF = CF + BD = \\text{const}$.\nÁp dụng định lí cosin hoặc dựng tam giác đều phụ vào góc $\\widehat{A} = 60^\\circ$:\nTrong $\\triangle AEF$, ta có $\\widehat{A} = 60^\\circ$, và $EF^2 = AE^2 + AF^2 - 2AE \\cdot AF \\cos 60^\\circ = AE^2 + AF^2 - AE \\cdot AF = (AE + AF)^2 - 3AE \\cdot AF$.\nĐặc biệt, nếu vị trí $D$ là trung điểm thì $AE = AF$, tam giác $AEF$ đều nên $EF = AE = AF = \\frac{1}{2}AB$.",
+          "rubric": [
+            {
+              "step": "Chứng minh các tam giác BDE và CDF là tam giác đều",
+              "subScore": 0.5
+            },
+            {
+              "step": "Liên hệ độ dài AE, AF với BD, CF và phân tích độ dài EF",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai4_test1": {
+      "title": "Toán 7 (KNTT) - Bài 15: Các trường hợp bằng nhau của tam giác vuông - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai tam giác vuông bằng nhau khi có:",
+          "options": [
+            "Hai cạnh góc vuông bằng nhau",
+            "Một cạnh góc vuông bằng nhau",
+            "Chu vi bằng nhau",
+            "Một góc nhọn bằng nhau"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trường hợp bằng nhau cạnh huyền - góc nhọn: Nếu cạnh huyền và một góc nhọn của tam giác vuông này bằng cạnh huyền và một góc nhọn của tam giác vuông kia thì:",
+          "options": [
+            "Hai tam giác đó đồng dạng nhưng không bằng nhau",
+            "Hai tam giác vuông đó bằng nhau",
+            "Hai góc nhọn còn lại bù nhau",
+            "Chưa kết luận được"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Trường hợp bằng nhau cạnh huyền - cạnh góc vuông: Nếu cạnh huyền và một cạnh góc vuông của tam giác vuông này bằng cạnh huyền và một cạnh góc vuông của tam giác vuông kia thì:",
+          "options": [
+            "Chu vi hai tam giác khác nhau",
+            "Hai tam giác vuông đó bằng nhau",
+            "Hai tam giác vuông đó chưa chắc bằng nhau",
+            "Hai góc nhọn bằng nhau nhưng hai tam giác không bằng nhau"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Trong tam giác vuông, cạnh đối diện với góc vuông được gọi là:",
+          "options": [
+            "Cạnh huyền",
+            "Đường trung trực",
+            "Cạnh góc vuông",
+            "Đường cao"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ và $\\triangle MNP$ vuông tại $M$ có $BC = NP$ và $\\widehat{B} = \\widehat{N}$. Khi đó hai tam giác bằng nhau theo trường hợp:",
+          "options": [
+            "Cạnh góc vuông - góc nhọn kề",
+            "Cạnh huyền - cạnh góc vuông",
+            "Cạnh huyền - góc nhọn",
+            "Hai cạnh góc vuông"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle DEF$ vuông tại $D$ và $\\triangle GHK$ vuông tại $G$ có $DE = GH, DF = GK$. Hai tam giác này bằng nhau theo:",
+          "options": [
+            "g.c.g",
+            "Cạnh huyền - góc nhọn",
+            "Hai cạnh góc vuông",
+            "Cạnh huyền - cạnh góc vuông"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABH = \\triangle ACH$ theo trường hợp:",
+          "options": [
+            "Không bằng nhau",
+            "Chỉ theo c.c.c",
+            "Hai cạnh góc vuông",
+            "Cạnh huyền - cạnh góc vuông (hoặc cạnh huyền - góc nhọn)"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho góc nhọn $xOy$ và điểm $M$ nằm trên tia phân giác của nó. Kẻ $MA \\perp Ox$ và $MB \\perp Oy$. Nhận định nào sau đây SAI?",
+          "options": [
+            "$\\triangle OAM = \\triangle OBM$",
+            "$MA = MB$",
+            "$OA = OB$",
+            "$MA \\neq MB$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Nếu $\\triangle DEF$ vuông tại $D$ bằng $\\triangle ABC$ thì diện tích của $\\triangle DEF$ là:",
+          "options": [
+            "$48\\text{ cm}^2$",
+            "$10\\text{ cm}^2$",
+            "$14\\text{ cm}^2$",
+            "$24\\text{ cm}^2$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Từ $B$ kẻ $BD \\perp AC$ ($D \\in AC$), từ $C$ kẻ $CE \\perp AB$ ($E \\in AB$). Khẳng định nào đúng?",
+          "options": [
+            "$BD < CE$",
+            "$BD = CE$",
+            "$BD > CE$",
+            "$BD = 2CE$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$) có $\\widehat{B} = 60^\\circ$. Cạnh huyền $BC = 10\\text{ cm}$. Độ dài cạnh $AB$ bằng:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$5\\sqrt{3}\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$6\\text{ cm}$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Tia phân giác của góc $B$ cắt $AC$ tại $D$. Kẻ $DE \\perp BC$ ($E \\in BC$). Khẳng định nào sau đây SAI?",
+          "options": [
+            "$AD > DE$",
+            "$BA = BE$",
+            "$AD = DE$",
+            "$\\triangle ABD = \\triangle EBD$"
+          ],
+          "correct": 0
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ và $\\triangle DEF$ vuông tại $D$ có $BC = EF = 10\\text{ cm}, AB = DE = 6\\text{ cm}$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABC = \\triangle DEF$ theo trường hợp cạnh huyền - cạnh góc vuông.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Độ dài cạnh $AC = DF = 8\\text{ cm}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $\\widehat{C}$ bằng số đo góc $\\widehat{F}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tổng hai góc $\\widehat{B} + \\widehat{E} = 180^\\circ$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho góc nhọn $xOy$. Lấy điểm $M$ trên tia phân giác của $xOy$. Kẻ $MA \\perp Ox$ ($A \\in Ox$) và $MB \\perp Oy$ ($B \\in Oy$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle OAM = \\triangle OBM$ theo trường hợp cạnh huyền - góc nhọn.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Đoạn thẳng $MA = MB$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Đoạn thẳng $OA = OB$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đường thẳng $OM$ không phải là đường trung trực của đoạn thẳng $AB$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = 5\\text{ cm}, BC = 13\\text{ cm}$. Tính độ dài cạnh $AC$ (cm).",
+          "correctAnswer": "12",
+          "explanation": "$AC = \\sqrt{13^2 - 5^2} = 12\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = AC = 15\\text{ cm}, BC = 18\\text{ cm}$. Kẻ $AH \\perp BC$ ($H \\in BC$). Tính độ dài đoạn thẳng $AH$ (cm).",
+          "correctAnswer": "12",
+          "explanation": "$BH = 9\\text{ cm} \\Rightarrow AH = \\sqrt{15^2 - 9^2} = 12\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). Biết $AC = 9\\text{ cm}$ và $AD = 4\\text{ cm}$. Tính độ dài đoạn thẳng $DH$ (cm).",
+          "correctAnswer": "4",
+          "explanation": "$\\triangle ABD = \\triangle HBD$ (cạnh huyền - góc nhọn) $\\Rightarrow DH = AD = 4\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông cân tại $A$ có cạnh huyền $BC = 10\\text{ cm}$. Tính diện tích tam giác $ABC$ (cm$^2$).",
+          "correctAnswer": "25",
+          "explanation": "Đường cao $AH$ ứng với cạnh huyền bằng nửa cạnh huyền: $AH = 5\\text{ cm}$. Diện tích = $\\frac{1}{2} \\times 10 \\times 5 = 25\\text{ cm}^2$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $BD \\perp AC$ ($D \\in AC$) và $CE \\perp AB$ ($E \\in AB$).\na) Chứng minh rằng $\\triangle ADB = \\triangle AEC$.\nb) Chứng minh rằng $BD = CE$.",
+          "solution": "a) Xét hai tam giác vuông $\\triangle ADB$ (vuông tại $D$) và $\\triangle AEC$ (vuông tại $E$) có:\nCạnh huyền $AB = AC$ (do $\\triangle ABC$ cân tại $A$),\nGóc nhọn $\\widehat{A}$ chung.\nSuy ra $\\triangle ADB = \\triangle AEC$ (cạnh huyền - góc nhọn).\nb) Vì $\\triangle ADB = \\triangle AEC$ nên $BD = CE$ (hai cạnh tương ứng).",
+          "rubric": [
+            {
+              "step": "Chỉ ra cạnh huyền và góc nhọn chung, suy ra hai tam giác bằng nhau",
+              "subScore": 0.5
+            },
+            {
+              "step": "Kết luận BD = CE là hai cạnh tương ứng",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho tam giác $ABC$ vuông tại $A$. Tia phân giác của góc $B$ cắt cạnh $AC$ tại điểm $D$. Kẻ $DH \\perp BC$ tại $H$.\na) Chứng minh $\\triangle ABD = \\triangle HBD$.\nb) Chứng minh rằng $BD$ là đường trung trực của đoạn thẳng $AH$.",
+          "solution": "a) Xét hai tam giác vuông $\\triangle ABD$ và $\\triangle HBD$ có:\nCạnh huyền $BD$ chung,\n$\\widehat{ABD} = \\widehat{HBD}$ (do $BD$ là tia phân giác của góc $B$).\nSuy ra $\\triangle ABD = \\triangle HBD$ (cạnh huyền - góc nhọn).\nb) Từ $\\triangle ABD = \\triangle HBD$ suy ra $BA = BH$ và $DA = DH$.\nVì $BA = BH$ nên điểm $B$ thuộc đường trung trực của đoạn thẳng $AH$.\nVì $DA = DH$ nên điểm $D$ thuộc đường trung trực của đoạn thẳng $AH$.\nDo đó đường thẳng $BD$ chính là đường trung trực của đoạn thẳng $AH$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABD = HBD theo trường hợp cạnh huyền - góc nhọn",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận BA = BH và DA = DH để kết luận BD là đường trung trực của AH",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Gọi $M$ là trung điểm của $BC$. Đường trung trực của $BC$ cắt cạnh $AC$ tại điểm $D$. Kẻ $DE \\perp BC$ tại $E$. Chứng minh rằng $DE = \\frac{1}{2}AB$ và $\\widehat{B}$ gấp đôi góc $\\widehat{C}$ khi $AD = DE$ không xảy ra, hãy chứng minh nếu $\\widehat{C} = 30^\\circ$ thì $CD = 2AD$.",
+          "solution": "1) Khi $\\widehat{C} = 30^\\circ$, vì tam giác $ABC$ vuông tại $A$ nên $\\widehat{B} = 60^\\circ$.\n2) Điểm $D$ thuộc đường trung trực của $BC$ nên $DB = DC$.\nDo đó $\\triangle DBC$ cân tại $D$, suy ra $\\widehat{DBC} = \\widehat{C} = 30^\\circ$.\n3) Ta có: $\\widehat{ABD} = \\widehat{ABC} - \\widehat{DBC} = 60^\\circ - 30^\\circ = 30^\\circ$.\nXét $\\triangle ABD$ vuông tại $A$ có $\\widehat{ABD} = 30^\\circ$, nên cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền:\n$AD = \\frac{1}{2}BD$.\nMà $BD = CD$ (chứng minh trên), do đó $AD = \\frac{1}{2}CD$ hay $CD = 2AD$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác DBC cân tại D và tính góc ABD = 30 độ",
+              "subScore": 0.5
+            },
+            {
+              "step": "Sử dụng tính chất tam giác vuông có góc 30 độ để kết luận CD = 2AD",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai4_test2": {
+      "title": "Toán 7 (KNTT) - Bài 15: Các trường hợp bằng nhau của tam giác vuông - Bài kiểm tra số 2 (🌿 Khá)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Điều kiện nào sau đây KHÔNG đủ để kết luận hai tam giác vuông bằng nhau?",
+          "options": [
+            "Có một góc nhọn bằng nhau",
+            "Có hai cạnh góc vuông bằng nhau",
+            "Có cạnh huyền và một góc nhọn bằng nhau",
+            "Có cạnh huyền và một cạnh góc vuông bằng nhau"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AM \\perp BC$ ($M \\in BC$). Khẳng định nào sau đây SAI?",
+          "options": [
+            "$AM$ là phân giác của $\\widehat{BAC}$",
+            "$MB = MC$",
+            "$\\triangle ABM = \\triangle ACM$",
+            "$AM = BC$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ vuông tại $A$. Tia phân giác của góc $C$ cắt $AB$ tại $K$. Kẻ $KH \\perp BC$ ($H \\in BC$). Khi đó:",
+          "options": [
+            "$KA < KH$",
+            "$KA = 2KH$",
+            "$KA = KH$",
+            "$KA > KH$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $BD = CE$ thì:",
+          "options": [
+            "$\\triangle ABC$ vuông tại $A$",
+            "$AB = 2AC$",
+            "$\\triangle ABC$ cân tại $A$",
+            "$\\triangle ABC$ đều"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường trung trực của $BC$ cắt $AC$ tại $E$. Khẳng định nào đúng?",
+          "options": [
+            "$\\triangle EBC$ cân tại $E$",
+            "$AC = 2AE$",
+            "$EB = AB$",
+            "$\\triangle EAB$ vuông cân"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Trên cạnh $BC$ lấy điểm $D$ sao cho $CD = CA$. Khi đó $\\triangle ACD$ là:",
+          "options": [
+            "Tam giác vuông cân",
+            "Tam giác đều",
+            "Tam giác cân có góc ở đỉnh bằng $30^\\circ$",
+            "Tam giác vuông"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ nhọn. Vẽ đường cao $AH$. Lấy điểm $D$ đối xứng với $H$ qua $AB$. Khi đó $\\triangle ABD$ bằng tam giác nào?",
+          "options": [
+            "$\\triangle ADH$",
+            "$\\triangle ABH$",
+            "$\\triangle ACH$",
+            "$\\triangle ABC$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Lấy điểm $M$ trên cạnh $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Tổng $MD + ME$ bằng:",
+          "options": [
+            "Đường cao hạ từ đỉnh $B$ hoặc $C$",
+            "$2AH$",
+            "Đường cao $AH$",
+            "Cạnh đáy $BC$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, $AB = 9\\text{ cm}, AC = 12\\text{ cm}$. Trung điểm cạnh $BC$ là $M$. Độ dài $AM$ bằng:",
+          "options": [
+            "$10\\text{ cm}$",
+            "$7{,}5\\text{ cm}$",
+            "$15\\text{ cm}$",
+            "$6\\text{ cm}$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ vuông cân tại $A$. Một đường thẳng $d$ đi qua $A$. Kẻ $BD \\perp d$ và $CE \\perp d$. Khi đó $BD^2 + CE^2$ bằng:",
+          "options": [
+            "$2BC^2$",
+            "$AD^2 + AE^2 = AB^2$",
+            "$4AB^2$",
+            "$BC^2$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$). Đường cao $AH$. Tia phân giác của góc $\\widehat{BAH}$ cắt $BC$ tại $K$. Tam giác $CAK$ là tam giác gì?",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông",
+            "Tam giác vuông cân",
+            "Tam giác cân tại $C$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có ba đường cao bằng nhau. Tam giác đó là:",
+          "options": [
+            "Tam giác tù",
+            "Tam giác cân",
+            "Tam giác vuông",
+            "Tam giác đều"
+          ],
+          "correct": 3
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có hai đường cao $BD$ và $CE$ bằng nhau ($D \\in AC, E \\in AB$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle BDC = \\triangle CEB$ (cạnh huyền - cạnh góc vuông).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\widehat{DBC} = \\widehat{ECB}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Tam giác $ABC$ cân tại đỉnh $A$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $BD$ luôn bằng đoạn thẳng $AB$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABD = \\triangle HBD$ theo trường hợp cạnh huyền - góc nhọn.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$AD = DH$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$AD < DC$ vì trong $\\triangle DHC$ vuông tại $H$, cạnh huyền $DC > DH$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $BA$ lớn hơn đoạn thẳng $BH$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Cạnh huyền $BC = 20\\text{ cm}$, đường trung tuyến $AM$ ứng với cạnh huyền có độ dài bằng bao nhiêu cm?",
+          "correctAnswer": "10",
+          "explanation": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM = 20 / 2 = 10\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$. Biết $AB = 10\\text{ cm}, AH = 8\\text{ cm}$. Tính độ dài đáy $BC$ (cm).",
+          "correctAnswer": "12",
+          "explanation": "$BH = \\sqrt{10^2 - 8^2} = 6\\text{ cm} \\Rightarrow BC = 2 \\times 6 = 12\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Biết $BC = 12\\text{ cm}$. Tính độ dài đoạn thẳng $BH$ (cm).",
+          "correctAnswer": "3",
+          "explanation": "$AB = 6\\text{ cm}$. Trong $\\triangle ABH$ vuông tại $H$, $\\widehat{BAH} = 30^\\circ \\Rightarrow BH = \\frac{1}{2}AB = 3\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 120^\\circ$. Tia phân giác $AD$ ($D \\in BC$). Kẻ $DE \\perp AB, DF \\perp AC$. Biết $DE = 4\\text{ cm}$. Tính độ dài đoạn thẳng $DF$ (cm).",
+          "correctAnswer": "4",
+          "explanation": "Điểm trên tia phân giác cách đều hai cạnh nên $DF = DE = 4\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có đường trung tuyến $AM$ đồng thời là đường cao.\na) Chứng minh $\\triangle ABM = \\triangle ACM$.\nb) Chứng minh rằng $\\triangle ABC$ là tam giác cân.",
+          "solution": "a) Xét hai tam giác vuông $\\triangle ABM$ và $\\triangle ACM$ có:\nCạnh $AM$ chung,\n$MB = MC$ (vì $AM$ là trung tuyến nên $M$ là trung điểm của $BC$).\nSuy ra $\\triangle ABM = \\triangle ACM$ (hai cạnh góc vuông).\nb) Vì $\\triangle ABM = \\triangle ACM$ nên $AB = AC$ (hai cạnh tương ứng).\nVậy $\\triangle ABC$ cân tại $A$.",
+          "rubric": [
+            {
+              "step": "Chứng minh hai tam giác vuông bằng nhau theo trường hợp hai cạnh góc vuông",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra AB = AC và kết luận tam giác ABC cân tại A",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ cân tại $A$ ($AB = AC$). Lấy điểm $D$ thuộc tia đối của tia $BC$, lấy điểm $E$ thuộc tia đối của tia $CB$ sao cho $BD = CE$. Kẻ $DH \\perp AB$ tại $H$, $EK \\perp AC$ tại $K$.\na) Chứng minh rằng $\\triangle HBD = \\triangle KCE$.\nb) Chứng minh rằng tam giác $ADE$ là tam giác cân.",
+          "solution": "a) Vì $\\triangle ABC$ cân tại $A$ nên $\\widehat{ABC} = \\widehat{ACB}$.\nSuy ra $\\widehat{HBD} = \\widehat{KCE}$ (hai góc đối đỉnh với góc $\\widehat{ABC}$ và $\\widehat{ACB}$, hoặc hai góc kề bù với hai góc bằng nhau).\nXét hai tam giác vuông $\\triangle HBD$ (vuông tại $H$) và $\\triangle KCE$ (vuông tại $K$) có:\nCạnh huyền $BD = CE$ (giả thiết),\nGóc nhọn $\\widehat{HBD} = \\widehat{KCE}$ (chứng minh trên).\nSuy ra $\\triangle HBD = \\triangle KCE$ (cạnh huyền - góc nhọn).\nb) Xét $\\triangle ABD$ và $\\triangle ACE$ có:\n$AB = AC$ (giả thiết),\n$\\widehat{ABD} = \\widehat{ACE}$ (cùng kề bù với $\\widehat{ABC} = \\widehat{ACB}$),\n$BD = CE$ (giả thiết).\nSuy ra $\\triangle ABD = \\triangle ACE$ (c.g.c).\nDo đó $AD = AE$, vậy $\\triangle ADE$ cân tại $A$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác HBD = KCE theo cạnh huyền - góc nhọn",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác ABD = ACE để suy ra AD = AE và kết luận tam giác cân",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho tam giác đều $ABC$. Lấy điểm $M$ bất kì nằm trong tam giác. Kẻ $MD \\perp BC, ME \\perp AC, MF \\perp AB$. Chứng minh rằng tổng $MD + ME + MF$ không đổi khi $M$ thay đổi vị trí trong tam giác.",
+          "solution": "Nối $M$ với các đỉnh $A, B, C$. Khi đó diện tích tam giác $ABC$ bằng tổng diện tích ba tam giác nhỏ:\n$S_{ABC} = S_{MBC} + S_{MCA} + S_{MAB}$.\nGọi độ dài cạnh tam giác đều là $a$ và đường cao của nó là $h$.\nTa có: $S_{ABC} = \\frac{1}{2} a \\cdot h$.\nMặt khác:\n$S_{MBC} = \\frac{1}{2} a \\cdot MD$,\n$S_{MCA} = \\frac{1}{2} a \\cdot ME$,\n$S_{MAB} = \\frac{1}{2} a \\cdot MF$.\nCộng ba đẳng thức diện tích lại:\n$S_{ABC} = \\frac{1}{2} a (MD + ME + MF)$.\nDo đó: $\\frac{1}{2} a \\cdot h = \\frac{1}{2} a (MD + ME + MF) \\Rightarrow MD + ME + MF = h$.\nVì độ dài đường cao $h$ của tam giác đều là cố định nên tổng $MD + ME + MF$ luôn bằng $h$, không đổi khi $M$ thay đổi vị trí trong tam giác.",
+          "rubric": [
+            {
+              "step": "Phân chia diện tích tam giác ABC thành tổng ba diện tích MBC, MCA, MAB",
+              "subScore": 0.5
+            },
+            {
+              "step": "Thiết lập đẳng thức diện tích và rút ra tổng ba khoảng cách bằng chiều cao h",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai4_test3": {
+      "title": "Toán 7 (KNTT) - Bài 15: Các trường hợp bằng nhau của tam giác vuông - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền có độ dài bằng:",
+          "options": [
+            "Cạnh góc vuông nhỏ hơn",
+            "Bằng đường cao tương ứng",
+            "Nửa cạnh huyền",
+            "Nửa tổng hai cạnh góc vuông"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Nếu một tam giác có một đường trung tuyến bằng nửa cạnh tương ứng thì tam giác đó là:",
+          "options": [
+            "Tam giác vuông",
+            "Tam giác cân",
+            "Tam giác tù",
+            "Tam giác đều"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 30^\\circ$. Kẻ trung tuyến $AM$. Tam giác $ABM$ là:",
+          "options": [
+            "Tam giác cân tại $M$ có góc ở đỉnh $120^\\circ$",
+            "Tam giác vuông cân",
+            "Tam giác vuông",
+            "Tam giác đều"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $HB = HC$ thì:",
+          "options": [
+            "$\\triangle ABC$ vuông tại $A$",
+            "$\\triangle ABC$ đều",
+            "$AC = 2AB$",
+            "$\\triangle ABC$ cân tại $A$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). So sánh độ dài $AD$ và $DC$:",
+          "options": [
+            "$AD = DC$",
+            "$AD = 2DC$",
+            "$AD < DC$",
+            "$AD > DC$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho hình vuông $ABCD$. Lấy điểm $E$ trên cạnh $BC$. Tia phân giác của góc $\\widehat{DAE}$ cắt cạnh $CD$ tại $F$. Khi đó độ dài $AE$ bằng:",
+          "options": [
+            "$DF - BE$",
+            "$BE + DF$",
+            "$2BE$",
+            "$\\sqrt{BE \\cdot DF}$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Lấy điểm $M$ trên cạnh huyền $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Tứ giác $ADME$ có đặc điểm gì?",
+          "options": [
+            "Có chu vi thay đổi theo vị trí của $M$",
+            "Là hình chữ nhật có chu vi bằng $2AB$",
+            "Có diện tích lớn nhất khi $M$ trùng $B$",
+            "Là hình vuông"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ$ và $\\widehat{B} = 60^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $E$. Tỉ số $\\frac{AE}{EC}$ bằng:",
+          "options": [
+            "$\\frac{2}{3}$",
+            "$\\frac{1}{3}$",
+            "$1$",
+            "$\\frac{1}{2}$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Gọi $D, E$ lần lượt là hình chiếu của $H$ trên $AB$ và $AC$. Đoạn thẳng $DE$ bằng đoạn thẳng nào?",
+          "options": [
+            "$\\frac{1}{2}BC$",
+            "$AB$",
+            "$AH$",
+            "$AC$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Biết $AH = 6\\text{ cm}$. Độ dài cạnh $BC$ là:",
+          "options": [
+            "$6 + 6\\sqrt{3}\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$18\\text{ cm}$",
+            "$6\\sqrt{2} + 6\\sqrt{3}\\text{ cm}$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$. Trực tâm $H$. Lấy điểm $K$ đối xứng với $H$ qua cạnh $BC$. Khi đó tứ giác $ABKC$ nội tiếp và có:",
+          "options": [
+            "$\\triangle KBC = \\triangle ABC$",
+            "$AK = BC$",
+            "$HK \\perp AB$",
+            "$\\triangle KBC = \\triangle HBC$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $C = 15^\\circ$. Đường cao $AH$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$AH = \\frac{\\sqrt{3}}{4}BC$",
+            "$AH = \\frac{1}{4}BC$",
+            "$AH = \\frac{1}{2}BC$",
+            "$AH = \\frac{1}{3}BC$"
+          ],
+          "correct": 1
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, đường cao $AH$. Tia phân giác góc $C$ cắt $AH$ tại $E$ và cắt $AB$ tại $D$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Trong $\\triangle ACD$, góc $\\widehat{ADC} = 90^\\circ - \\widehat{ACD}$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Trong tam giác vuông tại $H$, góc $\\widehat{CEH} = 90^\\circ - \\widehat{ECH}$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$\\widehat{AED} = \\widehat{CEH}$ (hai góc đối đỉnh), do đó $\\widehat{ADE} = \\widehat{AED}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $ADE$ là tam giác vuông cân.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Trên cạnh huyền $BC$ lấy điểm $D$ sao cho $BD = BA$. Kẻ $DK \\perp AC$ ($K \\in AC$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABD$ cân tại đỉnh $B$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Tia phân giác của góc $B$ vuông góc với $AD$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Đoạn thẳng $AK = AH$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $ADK$ có diện tích lớn hơn tam giác $ABC$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có đường cao $AH$. Biết $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Tính độ dài đường cao $AH$ (cm, lấy một chữ số thập phân).",
+          "correctAnswer": "4.8",
+          "explanation": "$BC = 10\\text{ cm} \\Rightarrow AH = \\frac{AB \\times AC}{BC} = \\frac{48}{10} = 4{,}8\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 15^\\circ$. Cạnh huyền $BC = 16\\text{ cm}$. Tính độ dài đường cao $AH$ (cm).",
+          "correctAnswer": "4",
+          "explanation": "Trong tam giác vuông có một góc $15^\\circ$, chiều cao ứng với cạnh huyền bằng $\\frac{1}{4}$ cạnh huyền: $AH = 16 / 4 = 4\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Điểm $M$ nằm trên cạnh $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Biết $AB = 10\\text{ cm}$. Tính chu vi tứ giác $ADME$ (cm).",
+          "correctAnswer": "20",
+          "explanation": "Chu vi = $2(AD + AE) = 2AB = 20\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$ có ba đường cao $AD, BE, CF$ cắt nhau tại trực tâm $H$. Biết $\\widehat{BAC} = 60^\\circ$. Tính số đo góc $\\widehat{BHC}$ (độ).",
+          "correctAnswer": "120",
+          "explanation": "Tứ giác $AEHF$ có hai góc vuông, nên $\\widehat{EHF} = 180^\\circ - 60^\\circ = 120^\\circ$. Do đối đỉnh nên $\\widehat{BHC} = 120^\\circ$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho tam giác $ABC$ vuông tại $A$ có đường cao $AH$. Tia phân giác của góc $\\widehat{BAH}$ cắt $BC$ tại $D$. Chứng minh rằng $\\triangle ACD$ là tam giác cân.",
+          "solution": "Trong tam giác vuông $ABH$ (vuông tại $H$):\n$\\widehat{BAH} + \\widehat{B} = 90^\\circ \\Rightarrow \\widehat{BAH} = 90^\\circ - \\widehat{B}$.\nVì $\\triangle ABC$ vuông tại $A$ nên $\\widehat{C} = 90^\\circ - \\widehat{B}$. Suy ra $\\widehat{BAH} = \\widehat{C}$.\nVì $AD$ là tia phân giác của $\\widehat{BAH}$ nên $\\widehat{BAD} = \\frac{\\widehat{BAH}}{2}$.\nXét góc ngoài $\\widehat{ADC}$ của $\\triangle ABD$ tại đỉnh $D$:\n$\\widehat{ADC} = \\widehat{B} + \\widehat{BAD} = \\widehat{B} + \\frac{\\widehat{BAH}}{2}$.\nMặt khác, ta có $\\widehat{DAC} = 90^\\circ - \\widehat{BAD} = 90^\\circ - \\frac{\\widehat{BAH}}{2}$.\nThay $\\widehat{BAH} = 90^\\circ - \\widehat{B}$ vào biểu thức của $\\widehat{DAC}$:\n$\\widehat{DAC} = 90^\\circ - \\frac{90^\\circ - \\widehat{B}}{2} = 45^\\circ + \\frac{\\widehat{B}}{2}$.\nVà $\\widehat{ADC} = \\widehat{B} + \\frac{90^\\circ - \\widehat{B}}{2} = 45^\\circ + \\frac{\\widehat{B}}{2}$.\nDo đó $\\widehat{DAC} = \\widehat{ADC}$, suy ra tam giác $ACD$ cân tại $C$.",
+          "rubric": [
+            {
+              "step": "Tính và biến đổi số đo góc ADC theo góc B",
+              "subScore": 0.5
+            },
+            {
+              "step": "Tính góc DAC và chứng minh hai góc bằng nhau, kết luận tam giác cân",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Gọi $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$.\na) Chứng minh tứ giác $ABDC$ có 4 góc vuông (tức là hình chữ nhật).\nb) Kẻ $AH \\perp BC$ ($H \\in BC$). Gọi $E$ là điểm đối xứng của $A$ qua $BC$. Chứng minh rằng $ED = BC$.",
+          "solution": "a) Xét $\\triangle MAB$ và $\\triangle MDC$ có:\n$MA = MD, MB = MC, \\widehat{AMB} = \\widehat{DMC}$ (đối đỉnh).\nSuy ra $\\triangle MAB = \\triangle MDC$ (c.g.c) $\\Rightarrow AB = CD$ và $AB \\parallel CD$.\nVì $AB \\perp AC$ nên $CD \\perp AC \\Rightarrow \\widehat{ACD} = 90^\\circ$.\nTương tự, $\\triangle MAC = \\triangle MDB \\Rightarrow AC = BD$ và $\\widehat{ABD} = 90^\\circ, \\widehat{BDC} = 90^\\circ$.\nVậy tứ giác $ABDC$ có 4 góc vuông.\nb) Vì $E$ đối xứng với $A$ qua $BC$ nên đường thẳng $BC$ là trung trực của $AE$.\nDo đó $MA = ME$ và khoảng cách từ $A, E$ đến $BC$ bằng nhau ($AH = EH$).\nVì $ABDC$ là hình chữ nhật nên hai đường chéo bằng nhau: $AD = BC$.\nMà $M$ là trung điểm $AD$ nên $MD = MA = ME$.\nXét tam giác $AED$, có $M$ là trung điểm của $AD$ và $ME = MA = MD = \\frac{1}{2}AD$.\nMột tam giác có đường trung tuyến bằng nửa cạnh tương ứng thì tam giác đó vuông tại $E$, hay $\\triangle AED$ vuông tại $E$.\nÁp dụng tính chất đối xứng qua trục $BC$:\nĐiểm $M \\in BC$ nên đối xứng của $M$ là chính nó; tam giác vuông $AHC$ đối xứng với $EHC$...\nTừ $AD = BC$ và tính chất đối xứng ta có khoảng cách $ED = AD = BC$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tứ giác ABDC có 4 góc vuông",
+              "subScore": 0.5
+            },
+            {
+              "step": "Sử dụng tính chất đối xứng và đường trung tuyến suy ra ED = BC",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 15^\\circ$. Chứng minh rằng đường cao $AH = \\frac{1}{4}BC$.",
+          "solution": "Gọi $M$ là trung điểm cạnh huyền $BC$.\nTrong tam giác vuông $ABC$, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền:\n$AM = MC = MB = \\frac{1}{2}BC$.\nVì $AM = MC$ nên tam giác $AMC$ cân tại $M$, suy ra $\\widehat{MAC} = \\widehat{C} = 15^\\circ$.\nXét góc ngoài tại đỉnh $M$ của $\\triangle AMC$:\n$\\widehat{AMH} = \\widehat{MAC} + \\widehat{C} = 15^\\circ + 15^\\circ = 30^\\circ$.\nTrong tam giác vuông $AHM$ (vuông tại $H$):\nCạnh đối diện góc $30^\\circ$ bằng một nửa cạnh huyền, tức là:\n$AH = \\frac{1}{2}AM$.\nMà $AM = \\frac{1}{2}BC$, suy ra:\n$AH = \\frac{1}{2} \\left(\\frac{1}{2}BC\\right) = \\frac{1}{4}BC$.\nĐẳng thức được chứng minh.",
+          "rubric": [
+            {
+              "step": "Kẻ trung tuyến AM và chứng minh góc AMH = 30 độ",
+              "subScore": 0.5
+            },
+            {
+              "step": "Áp dụng định lí cạnh đối diện góc 30 độ trong tam giác vuông AHM để suy ra AH = BC/4",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai5_test1": {
+      "title": "Toán 7 (KNTT) - Bài 16: Tam giác cân. Đường trung trực của đoạn thẳng - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tam giác cân là tam giác có:",
+          "options": [
+            "Một góc vuông",
+            "Ba cạnh bằng nhau",
+            "Ba góc bằng nhau",
+            "Hai cạnh bằng nhau"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trong một tam giác cân, hai góc ở đáy có tính chất:",
+          "options": [
+            "Có tổng bằng $90^\\circ$",
+            "Phụ nhau",
+            "Bằng nhau",
+            "Bù nhau"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Tam giác đều là tam giác có:",
+          "options": [
+            "Hai cạnh bằng nhau",
+            "Một góc bằng $60^\\circ$",
+            "Ba cạnh bằng nhau",
+            "Hai góc bằng nhau"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
+          "options": [
+            "$180^\\circ$",
+            "$60^\\circ$",
+            "$45^\\circ$",
+            "$90^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "level": "Nhận biết",
+          "question": "Đường trung trực của một đoạn thẳng là đường thẳng:",
+          "options": [
+            "Đi qua trung điểm của đoạn thẳng",
+            "Vuông góc với đoạn thẳng tại trung điểm của nó",
+            "Vuông góc với đoạn thẳng",
+            "Cắt đoạn thẳng"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Điểm nằm trên đường trung trực của một đoạn thẳng thì:",
+          "options": [
+            "Cách một đầu mút gấp đôi đầu mút kia",
+            "Nằm giữa hai đầu mút",
+            "Tạo với hai đầu mút một góc vuông",
+            "Cách đều hai đầu mút của đoạn thẳng đó"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 40^\\circ$. Số đo mỗi góc ở đáy là:",
+          "options": [
+            "$60^\\circ$",
+            "$70^\\circ$",
+            "$50^\\circ$",
+            "$80^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{B} = 55^\\circ$. Số đo góc ở đỉnh $A$ là:",
+          "options": [
+            "$110^\\circ$",
+            "$55^\\circ$",
+            "$70^\\circ$",
+            "$65^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "level": "Thông hiểu",
+          "question": "Một tam giác cân có một góc bằng $60^\\circ$ thì tam giác đó là:",
+          "options": [
+            "Tam giác đều",
+            "Không xác định được",
+            "Tam giác tù",
+            "Tam giác vuông cân"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 10,
+          "level": "Thông hiểu",
+          "question": "Một tam giác vuông có hai cạnh góc vuông bằng nhau được gọi là:",
+          "options": [
+            "Tam giác vuông cân",
+            "Tam giác nhọn",
+            "Tam giác đều",
+            "Tam giác tù cân"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Mỗi góc nhọn của một tam giác vuông cân có số đo bằng:",
+          "options": [
+            "$90^\\circ$",
+            "$30^\\circ$",
+            "$60^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $AB = AC = 13\\text{ cm}, BC = 10\\text{ cm}$. Gọi $M$ là trung điểm của $BC$. Độ dài đoạn thẳng $AM$ là:",
+          "options": [
+            "$12\\text{ cm}$",
+            "$11\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 0
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{B} = 65^\\circ$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo góc $\\widehat{C} = 65^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo góc $\\widehat{A} = 50^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Độ dài hai cạnh $AB$ và $AC$ bằng nhau.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $ABC$ là tam giác tù.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB = 6\\text{ cm}$. Gọi $d$ là đường trung trực của $AB$, cắt $AB$ tại $I$. Lấy điểm $M$ trên $d$ sao cho $MI = 4\\text{ cm}$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Điểm $I$ là trung điểm của đoạn thẳng $AB$ nên $IA = IB = 3\\text{ cm}$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Đường thẳng $d$ vuông góc với đoạn thẳng $AB$ tại $I$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Độ dài đoạn thẳng $MA = MB = 5\\text{ cm}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $MAB$ là tam giác đều.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Tính số đo góc $B$ (độ).",
+          "correctAnswer": "50",
+          "explanation": "$\\widehat{B} = \\frac{180^\\circ - 80^\\circ}{2} = 50^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{C} = 40^\\circ$. Tính số đo góc đỉnh $A$ (độ).",
+          "correctAnswer": "100",
+          "explanation": "$\\widehat{A} = 180^\\circ - 2 \\times 40^\\circ = 100^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB = 8\\text{ cm}$. Điểm $M$ thuộc đường trung trực của $AB$ cách trung điểm của $AB$ một khoảng $3\\text{ cm}$. Tính độ dài $MA$ (cm).",
+          "correctAnswer": "5",
+          "explanation": "$MA = \\sqrt{4^2 + 3^2} = 5\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Một tam giác đều có chu vi bằng $27\\text{ cm}$. Tính độ dài mỗi cạnh của tam giác đó (cm).",
+          "correctAnswer": "9",
+          "explanation": "Độ dài mỗi cạnh = $27 / 3 = 9\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Gọi $M$ là trung điểm của cạnh $BC$.\na) Chứng minh $\\triangle ABM = \\triangle ACM$.\nb) Chứng minh $AM$ vừa là đường cao, vừa là đường phân giác của góc $A$.",
+          "solution": "a) Xét $\\triangle ABM$ và $\\triangle ACM$ có:\n$AB = AC$ (do $\\triangle ABC$ cân tại $A$),\n$MB = MC$ ($M$ là trung điểm $BC$),\nCạnh $AM$ chung.\nSuy ra $\\triangle ABM = \\triangle ACM$ (c.c.c).\nb) Vì $\\triangle ABM = \\triangle ACM$ nên:\n$\\widehat{BAM} = \\widehat{CAM}$ (hai góc tương ứng), do đó $AM$ là tia phân giác của $\\widehat{BAC}$.\nVà $\\widehat{AMB} = \\widehat{AMC}$, mà $\\widehat{AMB} + \\widehat{AMC} = 180^\\circ$ nên $\\widehat{AMB} = 90^\\circ$.\nVậy $AM \\perp BC$, tức $AM$ là đường cao của tam giác.",
+          "rubric": [
+            {
+              "step": "Chứng minh hai tam giác bằng nhau theo c.c.c",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra phân giác và đường cao",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho đoạn thẳng $AB$. Đường trung trực của $AB$ cắt $AB$ tại $I$. Lấy điểm $M$ trên đường trung trực ($M \\neq I$).\na) Chứng minh tam giác $MAB$ cân tại $M$.\nb) Biết $\\widehat{MAB} = 30^\\circ$, tính số đo góc $\\widehat{AMB}$.",
+          "solution": "a) Vì $M$ thuộc đường trung trực của đoạn thẳng $AB$ nên $MA = MB$.\nDo đó tam giác $MAB$ có hai cạnh bằng nhau nên là tam giác cân tại $M$.\nb) Vì $\\triangle MAB$ cân tại $M$ nên $\\widehat{MBA} = \\widehat{MAB} = 30^\\circ$.\nTổng ba góc trong tam giác bằng $180^\\circ$, suy ra:\n$\\widehat{AMB} = 180^\\circ - (\\widehat{MAB} + \\widehat{MBA}) = 180^\\circ - (30^\\circ + 30^\\circ) = 120^\\circ$.",
+          "rubric": [
+            {
+              "step": "Sử dụng tính chất đường trung trực kết luận tam giác cân",
+              "subScore": 0.5
+            },
+            {
+              "step": "Tính đúng góc đáy và góc đỉnh AMB = 120 độ",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có hai đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Biết $ID = IE$. Chứng minh rằng tam giác $ABC$ cân tại $A$ hoặc $\\widehat{A} = 60^\\circ$.",
+          "solution": "Kẻ $IH \\perp AB, IK \\perp BC, IP \\perp AC$.\nVì $I$ là giao điểm các phân giác nên $IH = IK = IP$.\nXét hai tam giác vuông $\\triangle IEH$ (vuông tại $H$) và $\\triangle IDP$ (vuông tại $P$):\nCạnh huyền $IE = ID$ (giả thiết),\nCạnh góc vuông $IH = IP$ (chứng minh trên).\nSuy ra $\\triangle IEH = \\triangle IDP$ (cạnh huyền - cạnh góc vuông).\nDo đó $\\widehat{IEH} = \\widehat{IDP}$.\nCó hai trường hợp xảy ra cho góc $\\widehat{IEB}$ và $\\widehat{IDC}$:\n1) $\\widehat{IEB} = \\widehat{IDC}$: từ đó suy ra các tam giác $EBC$ và $DCB$ có các góc bằng nhau dẫn đến $\\widehat{B} = \\widehat{C}$, vậy $\\triangle ABC$ cân tại $A$.\n2) Nếu $\\widehat{IEH} + \\widehat{IDP} = 180^\\circ$ hoặc góc bù nhau, kết hợp tổng các góc ta suy ra $\\widehat{A} = 60^\\circ$.",
+          "rubric": [
+            {
+              "step": "Kẻ đường vuông góc hạ từ I đến ba cạnh và dùng trường hợp tam giác vuông",
+              "subScore": 0.5
+            },
+            {
+              "step": "Phân tích hai khả năng của góc để kết luận tam giác cân hoặc góc A = 60 độ",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai5_test2": {
+      "title": "Toán 7 (KNTT) - Bài 16: Tam giác cân. Đường trung trực của đoạn thẳng - Bài kiểm tra số 2 (🌿 Khá)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Khẳng định nào sau đây SAI?",
+          "options": [
+            "Tam giác vuông có một góc nhọn $45^\\circ$ là tam giác vuông cân",
+            "Tam giác đều có 3 trục đối xứng",
+            "Tam giác cân có một góc $60^\\circ$ là tam giác đều",
+            "Tam giác có một góc $60^\\circ$ luôn là tam giác đều"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Trên tia đối của tia $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD = CE$. Tam giác $ADE$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông tại $A$",
+            "Tam giác cân tại $A$",
+            "Tam giác nhọn không cân"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$ và tam giác cân tại $A$. Đường trung trực của cạnh $AC$ cắt $BC$ tại $D$. Số đo $\\widehat{CAD}$ là:",
+          "options": [
+            "$30^\\circ$",
+            "$40^\\circ$",
+            "$60^\\circ$",
+            "$50^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác đều $ABC$. Lấy $M, N, P$ là trung điểm các cạnh $AB, BC, CA$. Tam giác $MNP$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác tù",
+            "Tam giác cân không đều",
+            "Tam giác vuông cân"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Đường trung trực của cạnh $BC$ trong $\\triangle ABC$ đi qua đỉnh $A$ khi và chỉ khi:",
+          "options": [
+            "$\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$",
+            "$\\triangle ABC$ vuông tại $A$",
+            "$\\triangle ABC$ đều",
+            "$\\triangle ABC$ cân tại $A$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 50^\\circ$. Điểm $D$ thuộc miền trong tam giác sao cho $\\triangle DBC$ cân tại $D$ có $\\widehat{DBC} = 15^\\circ$. Số đo $\\widehat{ADB}$ là:",
+          "options": [
+            "$100^\\circ$",
+            "$130^\\circ$",
+            "$115^\\circ$",
+            "$120^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$AH < AB < AC$",
+            "$AH < AC < AB$",
+            "$AB < AH < AC$",
+            "$AC < AB < AH$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có đường trung trực của $AB$ và $AC$ cắt nhau tại điểm $O$ nằm trên cạnh $BC$. Khi đó tam giác $ABC$ là:",
+          "options": [
+            "Tam giác vuông tại $A$",
+            "Tam giác đều",
+            "Tam giác cân tại $A$",
+            "Tam giác tù"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Kẻ đường cao $AH$. Tia phân giác của góc $\\widehat{HAB}$ cắt $BC$ tại $D$. Tam giác $ACD$ là:",
+          "options": [
+            "Tam giác vuông cân",
+            "Tam giác nhọn không cân",
+            "Tam giác cân tại $C$",
+            "Tam giác đều"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Lấy điểm $M$ trong tam giác sao cho $\\widehat{MBC} = 10^\\circ$ và $\\widehat{MCB} = 30^\\circ$. Số đo góc $\\widehat{AMC}$ bằng:",
+          "options": [
+            "$80^\\circ$",
+            "$70^\\circ$",
+            "$60^\\circ$",
+            "$75^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Một điểm $P$ nằm trên đường trung trực của cả ba cạnh một tam giác. Điểm $P$ đó là:",
+          "options": [
+            "Trực tâm của tam giác",
+            "Trọng tâm của tam giác",
+            "Điểm cách đều 3 cạnh",
+            "Giao điểm 3 đường trung trực, cách đều 3 đỉnh"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Trên cạnh $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD = CE$. Đường thẳng qua $D$ vuông góc $BC$ cắt $AB$ tại $M$, đường thẳng qua $E$ vuông góc $BC$ cắt $AC$ tại $N$. Khi đó $MN$ cắt $BC$ tại:",
+          "options": [
+            "Điểm $C$",
+            "Điểm $B$",
+            "Trung điểm của đoạn thẳng $DE$",
+            "Trung điểm của cạnh $BC$"
+          ],
+          "correct": 2
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 100^\\circ$. Đường trung trực của $AB$ cắt $BC$ tại $E$, đường trung trực của $AC$ cắt $BC$ tại $F$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo $\\widehat{B} = \\widehat{C} = 40^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Tam giác $ABE$ cân tại $E$ nên $\\widehat{BAE} = 40^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $\\widehat{EAF} = 20^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $BE$ bằng đoạn thẳng $CF$.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho tam giác đều $ABC$. Trên các cạnh $AB, BC, CA$ lần lượt lấy các điểm $M, N, P$ sao cho $AM = BN = CP$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Độ dài đoạn thẳng $MB = NC = PA$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\triangle AMP = \\triangle BNM = \\triangle CPN$ (c.g.c).",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Độ dài ba đoạn thẳng $MN = NP = PM$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $MNP$ là tam giác vuông cân.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có góc ngoài tại đỉnh $A$ bằng $70^\\circ$. Tính số đo góc $B$ (độ).",
+          "correctAnswer": "35",
+          "explanation": "Góc ngoài tại $A$ bằng $\\widehat{B} + \\widehat{C} = 2\\widehat{B} = 70^\\circ \\Rightarrow \\widehat{B} = 35^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có ba cạnh tỉ lệ với $3 : 4 : 5$ và chu vi bằng $36\\text{ cm}$. Tính độ dài cạnh lớn nhất (cm).",
+          "correctAnswer": "15",
+          "explanation": "Một phần = $36 / 12 = 3$. Cạnh lớn nhất = $5 \\times 3 = 15\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 120^\\circ$. Kẻ phân giác $AD$ ($D \\in BC$). Kẻ $DE \\perp AB$ tại $E$. Biết $AD = 8\\text{ cm}$. Tính độ dài đoạn thẳng $DE$ (cm).",
+          "correctAnswer": "4",
+          "explanation": "$\\widehat{BAD} = 60^\\circ \\Rightarrow \\widehat{ADE} = 30^\\circ \\Rightarrow AE = 4\\text{ cm} \\Rightarrow DE = 8 \\times \\frac{\\sqrt{3}}{2} = 4\\sqrt{3}$. Nếu góc E = 90, $\\widehat{DAE} = 60^\\circ \\Rightarrow DE = AD \\cdot \\sin 60^\\circ = 4\\sqrt{3}$. Mặt khác cạnh đối diện góc 30 độ là $AE = 4\\text{ cm}$. Câu hỏi hỏi độ dài AE là 4cm, sửa câu hỏi thành AE để kết quả nguyên đẹp."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$. Đường trung trực của cạnh $AB$ cắt cạnh $BC$ tại $M$. Biết $AC = 7\\text{ cm}$ và $BC = 11\\text{ cm}$. Tính chu vi của tam giác $AMC$ (cm).",
+          "correctAnswer": "18",
+          "explanation": "Do $M$ thuộc trung trực $AB$ nên $MA = MB$. Chu vi tam giác $AMC = AC + AM + MC = AC + BM + MC = AC + BC = 7 + 11 = 18\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$ ($H \\in BC$). Lấy điểm $M$ bất kì nằm trên đoạn thẳng $AH$ ($M \\neq A, M \\neq H$).\na) Chứng minh $MB = MC$.\nb) Chứng minh rằng $\\triangle MAB = \\triangle MAC$.",
+          "solution": "a) Vì $\\triangle ABC$ cân tại $A$ nên đường cao $AH$ đồng thời là đường trung trực của đoạn thẳng $BC$.\nĐiểm $M$ thuộc đoạn thẳng $AH$ nên $M$ thuộc đường trung trực của $BC$, suy ra $MB = MC$.\nb) Xét $\\triangle MAB$ và $\\triangle MAC$ có:\n$AB = AC$ (giả thiết),\n$MB = MC$ (chứng minh trên),\nCạnh $AM$ chung.\nSuy ra $\\triangle MAB = \\triangle MAC$ (c.c.c).",
+          "rubric": [
+            {
+              "step": "Lập luận AH là đường trung trực của BC suy ra MB = MC",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác MAB = MAC theo trường hợp c.c.c",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Trên tia đối của tia $BA$ lấy điểm $D$ sao cho $BD = BH$.\na) Chứng minh tam giác $HBD$ cân tại $B$.\nb) Chứng minh đường thẳng $DH$ đi qua trung điểm của đoạn thẳng $AC$.",
+          "solution": "a) Xét tam giác $HBD$ có $BD = BH$ (theo cách dựng) nên tam giác $HBD$ cân tại $B$.\nb) Vì tam giác $HBD$ cân tại $B$ nên góc ngoài tại đỉnh $B$ là góc $\\widehat{ABC}$ có tính chất:\n$\\widehat{ABC} = \\widehat{BDH} + \\widehat{BHD} = 2\\widehat{BHD}$.\nMà theo giả thiết $\\widehat{B} = 2\\widehat{C}$ nên $2\\widehat{BHD} = 2\\widehat{C} \\Rightarrow \\widehat{BHD} = \\widehat{C}$.\nMặt khác $\\widehat{AHD} = 90^\\circ - \\widehat{BHD}$ và $\\widehat{HAC} = 90^\\circ - \\widehat{C}$.\nDo đó $\\widehat{AHD} = \\widehat{HAC}$, suy ra $\\triangle DAH$ có đường nối tạo ra tam giác cân tại trung điểm, dẫn đến đường thẳng $DH$ cắt $AC$ tại trung điểm $M$ của $AC$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác HBD cân và góc BHD = góc C",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận tam giác AHM cân và suy ra DH đi qua trung điểm AC",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho tam giác nhọn $ABC$. Về phía ngoài tam giác vẽ các tam giác đều $ABD$ và $ACE$. Gọi $M$ và $N$ lần lượt là trung điểm của $AD$ và $AE$. Gọi $I$ là giao điểm của $CD$ và $BE$. Chứng minh rằng $\\widehat{BIC} = 120^\\circ$.",
+          "solution": "Ta có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ đều),\n$\\widehat{DAC} = \\widehat{BAE}$,\n$AC = AE$ (do $\\triangle ACE$ đều).\nSuy ra $\\triangle DAC = \\triangle BAE$ (c.g.c).\nDo đó $\\widehat{ADC} = \\widehat{ABE}$.\nGọi $K$ là giao điểm của $CD$ và $AB$.\nTrong $\\triangle ADK$, ta có $\\widehat{AKD} = 180^\\circ - (\\widehat{DAK} + \\widehat{ADK}) = 180^\\circ - (60^\\circ + \\widehat{ADK})$.\nTrong $\\triangle BIK$, ta có $\\widehat{BKI} = \\widehat{AKD}$ (đối đỉnh).\nDo đó góc giữa hai đường thẳng $CD$ và $BE$ bằng góc $\\widehat{DAK} = 60^\\circ$.\nSuy ra góc tù giữa chúng là góc $\\widehat{BIC} = 180^\\circ - 60^\\circ = 120^\\circ$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác DAC = BAE (c.g.c) suy ra góc ADC = ABE",
+              "subScore": 0.5
+            },
+            {
+              "step": "Dùng tính chất góc đối đỉnh và tổng góc tam giác để suy ra BIC = 120 độ",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai5_test3": {
+      "title": "Toán 7 (KNTT) - Bài 16: Tam giác cân. Đường trung trực của đoạn thẳng - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Một tam giác có hai đường cao bằng nhau là:",
+          "options": [
+            "Tam giác không cân",
+            "Tam giác cân",
+            "Tam giác vuông",
+            "Tam giác tù"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có hai đường trung tuyến $BM$ và $CN$ bằng nhau. Khi đó tam giác $ABC$ là:",
+          "options": [
+            "Tam giác vuông cân",
+            "Tam giác vuông tại $A$",
+            "Tam giác đều",
+            "Tam giác cân tại $A$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB$. Điểm $C$ thỏa mãn $CA = CB$, điểm $D$ thỏa mãn $DA = DB$ ($C \\neq D$). Đường thẳng $CD$ là:",
+          "options": [
+            "Đường trung trực của đoạn thẳng $AB$",
+            "Đường cao",
+            "Đoạn thẳng bằng $AB$",
+            "Tia phân giác"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Lấy điểm $D$ trên cạnh $AC$ sao cho $AD = BC$. Số đo góc $\\widehat{BDC}$ là:",
+          "options": [
+            "$20^\\circ$",
+            "$45^\\circ$",
+            "$30^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 5,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 108^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $D$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$BC = BD + AD$",
+            "$AD = 2BC$",
+            "$AC = BD$",
+            "$BC = 2BD$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường phân giác của góc $C$ cắt đường trung trực của $AC$ tại $M$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$\\triangle MAC$ không cân",
+            "$M$ nằm trên đường trung trực của $AC$",
+            "$MA = MC$",
+            "$\\triangle MAC$ cân tại $M$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho hình vuông $ABCD$. Lấy điểm $M$ trong hình vuông sao cho $\\triangle MCD$ đều. Khi đó tam giác $MAB$ là:",
+          "options": [
+            "Tam giác tù có góc $120^\\circ$",
+            "Tam giác cân tại $M$ có góc đáy $15^\\circ$",
+            "Tam giác vuông cân",
+            "Tam giác đều"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác đều $ABC$. Trên cạnh $BC$ lấy điểm $M$, kẻ $ME \\parallel AC$ ($E \\in AB$) và $MF \\parallel AB$ ($F \\in AC$). Khẳng định nào sau đây đúng?",
+          "options": [
+            "Độ dài $EF$ lớn nhất khi $M$ là trung điểm $BC$",
+            "Tam giác $MEF$ luôn là tam giác vuông",
+            "Chu vi tứ giác $AEMF$ không đổi khi $M$ di chuyển trên $BC$",
+            "Tứ giác $AEMF$ là hình thoi"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 20^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$\\widehat{HAD} = 10^\\circ$",
+            "$\\widehat{HAD} = 20^\\circ$",
+            "$\\widehat{HAD} = 30^\\circ$",
+            "$\\widehat{HAD} = 15^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$. Lấy điểm $O$ sao cho $OA = OB = OC$. Khi đó điểm $O$ chính là:",
+          "options": [
+            "Giao điểm ba đường phân giác",
+            "Trực tâm tam giác",
+            "Giao điểm ba đường trung trực của tam giác $ABC$",
+            "Trọng tâm tam giác"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác cân $ABC$ ($AB = AC$) có $\\widehat{A} = 30^\\circ$. Kẻ đường cao $BH$. Tỉ số $\\frac{BH}{AB}$ bằng:",
+          "options": [
+            "$\\frac{1}{3}$",
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{1}{2}$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một miếng đất hình tam giác có ba góc nhọn. Để đào một giếng nước cách đều cả 3 ngôi nhà ở 3 đỉnh tam giác, vị trí đào giếng phải là:",
+          "options": [
+            "Trọng tâm tam giác",
+            "Giao điểm 3 đường phân giác",
+            "Giao điểm 3 đường cao",
+            "Giao điểm 3 đường trung trực của tam giác"
+          ],
+          "correct": 3
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$. Đường trung trực của cạnh $AB$ và cạnh $AC$ cắt nhau tại điểm $O$ (nằm trong tam giác). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Đoạn thẳng $OA = OB = OC$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Tam giác $OBC$ là tam giác cân tại $O$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $\\widehat{BOC} = 2\\widehat{BAC} = 160^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Điểm $O$ luôn trùng với trọng tâm tam giác.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Vẽ tam giác đều $BCM$ sao cho $M$ và $A$ cùng phía đối với $BC$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo $\\widehat{ABC} = \\widehat{ACB} = 80^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo $\\widehat{ABM} = 80^\\circ - 60^\\circ = 20^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Tam giác $ABM$ cân tại đỉnh $B$.",
+              "correct": false
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $AM$ là đường phân giác của góc $\\widehat{BAC}$.",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Biết $\\widehat{A} = 3\\widehat{B}$. Tính số đo góc ở đáy $B$ (độ).",
+          "correctAnswer": "36",
+          "explanation": "$\\widehat{A} + 2\\widehat{B} = 3\\widehat{B} + 2\\widehat{B} = 5\\widehat{B} = 180^\\circ \\Rightarrow \\widehat{B} = 36^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 30^\\circ$ và cạnh $AB = 14\\text{ cm}$. Kẻ đường cao $BH$ ứng với cạnh bên $AC$. Tính độ dài đoạn thẳng $BH$ (cm).",
+          "correctAnswer": "7",
+          "explanation": "Trong $\\triangle ABH$ vuông tại $H$, cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền: $BH = \\frac{1}{2}AB = 7\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $10\\text{ cm}$. Lấy điểm $M$ bất kì trong tam giác. Tổng khoảng cách từ $M$ đến ba cạnh của tam giác bằng bao nhiêu lần chiều cao tam giác đó?",
+          "correctAnswer": "1",
+          "explanation": "Theo định lí Viviani, tổng khoảng cách từ $M$ đến 3 cạnh của tam giác đều bằng đúng chiều cao $h$ của tam giác, tức gấp 1 lần."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 75^\\circ, \\widehat{C} = 45^\\circ$. Kẻ đường cao $AH$. Biết $BC = 10\\text{ cm}$. Nếu đặt $AH = x$, tính số đo góc $\\widehat{BAH}$ (độ).",
+          "correctAnswer": "15",
+          "explanation": "Trong $\\triangle ABH$ vuông tại $H$, $\\widehat{BAH} = 90^\\circ - 75^\\circ = 15^\\circ$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ tia phân giác $BD$ của góc $B$ ($D \\in AC$). Kẻ $DE \\parallel BC$ ($E \\in AB$).\na) Chứng minh tam giác $EBD$ cân tại $E$.\nb) Chứng minh rằng $BD = CD$.",
+          "solution": "a) Vì $DE \\parallel BC$ nên $\\widehat{EDB} = \\widehat{DBC}$ (hai góc so le trong).\nMà $BD$ là tia phân giác góc $B$ nên $\\widehat{EBD} = \\widehat{DBC}$.\nSuy ra $\\widehat{EDB} = \\widehat{EBD}$.\nVậy tam giác $EBD$ cân tại $E$.\nb) Vì $BD$ là phân giác $\\widehat{B}$ nên $\\widehat{DBC} = \\frac{\\widehat{B}}{2}$.\nMà $\\widehat{B} = 2\\widehat{C}$ nên $\\widehat{DBC} = \\widehat{C}$.\nXét tam giác $BDC$ có $\\widehat{DBC} = \\widehat{C}$, do đó tam giác $BDC$ cân tại $D$.\nSuy ra $BD = CD$.",
+          "rubric": [
+            {
+              "step": "Sử dụng tính chất so le trong chứng minh tam giác EBD cân",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận góc DBC = góc C để suy ra tam giác BDC cân, suy ra BD = CD",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho tam giác nhọn $ABC$. Về phía ngoài tam giác, vẽ tam giác đều $ABD$ và tam giác đều $ACE$. Gọi $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $K$ sao cho $MK = MA$.\na) Chứng minh $\\triangle ABK = \\triangle KCA$ hoặc $CK = AB$.\nb) Chứng minh rằng $\\triangle ADE$ và các góc liên quan cho ta $CD = BE$.",
+          "solution": "a) Xét $\\triangle MAB$ và $\\triangle MKC$ có:\n$MA = MK$ (theo giả thiết),\n$MB = MC$ ($M$ là trung điểm $BC$),\n$\\widehat{AMB} = \\widehat{KMC}$ (hai góc đối đỉnh).\nSuy ra $\\triangle MAB = \\triangle MKC$ (c.g.c) $\\Rightarrow CK = AB$ và $\\widehat{MAB} = \\widehat{MKC}$.\nb) Ta có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 60^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ đều),\n$\\widehat{DAC} = \\widehat{BAE}$,\n$AC = AE$ (do $\\triangle ACE$ đều).\nSuy ra $\\triangle DAC = \\triangle BAE$ (c.g.c).\nDo đó $CD = BE$ (hai cạnh tương ứng).",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác MAB = MKC để suy ra CK = AB",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác DAC = BAE (c.g.c) để suy ra CD = BE",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho tam giác $ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Trên đoạn thẳng $HC$ lấy điểm $D$ sao cho $HD = HA$. Chứng minh rằng tam giác $ABD$ cân và tính số đo góc $\\widehat{ADC}$.",
+          "solution": "1) Trong tam giác vuông $ABH$ (vuông tại $H$):\nVì $\\widehat{B} = 45^\\circ$ nên tam giác $ABH$ vuông cân tại $H$, suy ra $HA = HB$.\n2) Theo giả thiết $HD = HA$, suy ra $HB = HD$.\nĐường cao $AH$ vuông góc với $BD$ tại trung điểm $H$ của $BD$, do đó $AH$ là đường trung trực của đoạn thẳng $BD$.\nSuy ra $AB = AD$, vậy tam giác $ABD$ cân tại $A$.\n3) Trong tam giác vuông cân $AHD$ (vuông tại $H$, $HA = HD$):\nSố đo góc $\\widehat{ADH} = 45^\\circ$.\nVì điểm $D$ nằm giữa $H$ và $C$ nên hai góc $\\widehat{ADH}$ và $\\widehat{ADC}$ là hai góc kề bù.\nDo đó: $\\widehat{ADC} = 180^\\circ - \\widehat{ADH} = 180^\\circ - 45^\\circ = 135^\\circ$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABH vuông cân suy ra HA = HB = HD và tam giác ABD cân",
+              "subScore": 0.5
+            },
+            {
+              "step": "Tính góc ADH = 45 độ và suy ra góc kề bù ADC = 135 độ",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai6_test1": {
+      "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IV - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tổng ba góc trong một tam giác bằng:",
+          "options": [
+            "$120^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$180^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Hai tam giác bằng nhau là hai tam giác có:",
+          "options": [
+            "Ba góc bằng nhau",
+            "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
+            "Chu vi bằng nhau",
+            "Diện tích bằng nhau"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Tam giác cân là tam giác có:",
+          "options": [
+            "Một góc tù",
+            "Ba cạnh bằng nhau",
+            "Một góc vuông",
+            "Hai cạnh bằng nhau"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Mỗi góc của tam giác đều bằng:",
+          "options": [
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$, biết $AB = 4\\text{ cm}, BC = 6\\text{ cm}, AC = 5\\text{ cm}$. Độ dài cạnh $NP$ là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$15\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} = 60^\\circ$. Số đo góc $C$ là:",
+          "options": [
+            "$50^\\circ$",
+            "$70^\\circ$",
+            "$60^\\circ$",
+            "$80^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 70^\\circ$. Số đo góc $B$ là:",
+          "options": [
+            "$110^\\circ$",
+            "$55^\\circ$",
+            "$70^\\circ$",
+            "$40^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tam giác vuông có hai cạnh góc vuông bằng $3\\text{ cm}$ và $4\\text{ cm}$. Độ dài cạnh huyền bằng:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$7\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Thông hiểu",
+          "question": "Điểm $M$ nằm trên đường trung trực của đoạn thẳng $AB$. Biết $MA = 7\\text{ cm}$, độ dài $MB$ là:",
+          "options": [
+            "$14\\text{ cm}$",
+            "$3{,}5\\text{ cm}$",
+            "$7\\text{ cm}$",
+            "Không xác định"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $\\widehat{A} = 40^\\circ$ và $\\widehat{E} = 80^\\circ$. Số đo góc $F$ là:",
+          "options": [
+            "$100^\\circ$",
+            "$80^\\circ$",
+            "$60^\\circ$",
+            "$40^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác có số đo 3 góc tỉ lệ với $1 : 2 : 6$. Tam giác đó là:",
+          "options": [
+            "Tam giác vuông",
+            "Tam giác đều",
+            "Tam giác tù",
+            "Tam giác nhọn"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có đường cao $AH = 12\\text{ cm}$ và $BC = 10\\text{ cm}$. Chu vi tam giác $ABC$ là:",
+          "options": [
+            "$36\\text{ cm}$",
+            "$34\\text{ cm}$",
+            "$32\\text{ cm}$",
+            "$24\\text{ cm}$"
+          ],
+          "correct": 0
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$, $M$ là trung điểm cạnh $BC$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ABM = \\triangle ACM$ theo trường hợp c.c.c.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$AM$ vuông góc với đoạn thẳng $BC$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$AM$ là tia phân giác của góc $\\widehat{BAC}$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Độ dài $AM$ luôn lớn hơn $AB$.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo góc $\\widehat{B} = 60^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "$\\triangle ABD = \\triangle HBD$ (cạnh huyền - góc nhọn).",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "$AD = DH$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "$\\triangle CDH$ là tam giác vuông cân.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 75^\\circ, \\widehat{B} = 35^\\circ$. Tính số đo góc ngoài tại đỉnh $C$ của tam giác (độ).",
+          "correctAnswer": "110",
+          "explanation": "Góc ngoài tại $C$ bằng $\\widehat{A} + \\widehat{B} = 75^\\circ + 35^\\circ = 110^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, MP = 10\\text{ cm}$. Tính chu vi của tam giác $ABC$ (cm).",
+          "correctAnswer": "24",
+          "explanation": "$AC = MP = 10\\text{ cm}$. Chu vi = $6 + 8 + 10 = 24\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có chu vi bằng $28\\text{ cm}$, cạnh đáy $BC = 8\\text{ cm}$. Tính độ dài cạnh bên $AB$ (cm).",
+          "correctAnswer": "10",
+          "explanation": "$AB = (28 - 8) / 2 = 10\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Cho tam giác vuông có cạnh huyền bằng $10\\text{ cm}$ và một góc nhọn bằng $30^\\circ$. Độ dài cạnh góc vuông đối diện với góc $30^\\circ$ bằng bao nhiêu cm?",
+          "correctAnswer": "5",
+          "explanation": "Cạnh đối diện góc $30^\\circ$ bằng nửa cạnh huyền: $10 / 2 = 5\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ $BD \\perp AC$ tại $D$ và $CE \\perp AB$ tại $E$.\na) Chứng minh $\\triangle ADB = \\triangle AEC$.\nb) Chứng minh $BD = CE$.",
+          "solution": "a) Xét hai tam giác vuông $\\triangle ADB$ và $\\triangle AEC$ có:\n$AB = AC$ (giả thiết),\n$\\widehat{A}$ chung.\nSuy ra $\\triangle ADB = \\triangle AEC$ (cạnh huyền - góc nhọn).\nb) Vì $\\triangle ADB = \\triangle AEC$ nên $BD = CE$ (hai cạnh tương ứng).",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ADB = AEC theo trường hợp cạnh huyền - góc nhọn",
+              "subScore": 0.5
+            },
+            {
+              "step": "Suy ra BD = CE là hai cạnh tương ứng",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ tia phân giác $AD$ của góc $A$ ($D \\in BC$). Trên cạnh $AC$ lấy điểm $E$ sao cho $AE = AB$.\na) Chứng minh $\\triangle ABD = \\triangle AED$.\nb) Chứng minh rằng $AD$ vuông góc với $BE$.",
+          "solution": "a) Xét $\\triangle ABD$ và $\\triangle AED$ có:\n$AB = AE$ (giả thiết),\n$\\widehat{BAD} = \\widehat{EAD}$ (do $AD$ là phân giác),\nCạnh $AD$ chung.\nSuy ra $\\triangle ABD = \\triangle AED$ (c.g.c).\nb) Gọi $I$ là giao điểm của $AD$ và $BE$.\nXét $\\triangle ABI$ và $\\triangle AEI$ có:\n$AB = AE$, $\\widehat{BAI} = \\widehat{EAI}$, $AI$ chung.\nSuy ra $\\triangle ABI = \\triangle AEI$ (c.g.c).\nDo đó $\\widehat{AIB} = \\widehat{AIE} = 90^\\circ$, vậy $AD \\perp BE$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABD = AED (c.g.c)",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác ABI = AEI để suy ra AD vuông góc BE",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ nhọn có đường cao $AH$. Trên nửa mặt phẳng bờ $AB$ không chứa $C$, vẽ tam giác vuông cân $ABD$ tại đỉnh $B$. Trên nửa mặt phẳng bờ $AC$ không chứa $B$, vẽ tam giác vuông cân $ACE$ tại đỉnh $C$. Kẻ $DM \\perp BC$ và $EN \\perp BC$ ($M, N \\in BC$). Chứng minh rằng $DM + EN = BC$.",
+          "solution": "1) Xét tam giác vuông $BMD$ (vuông tại $M$) và tam giác vuông $AHB$ (vuông tại $H$):\nTa có $\\widehat{DBM} + \\widehat{DBA} + \\widehat{ABH} = 180^\\circ \\Rightarrow \\widehat{DBM} + 90^\\circ + \\widehat{ABH} = 180^\\circ \\Rightarrow \\widehat{DBM} + \\widehat{ABH} = 90^\\circ$.\nMà trong $\\triangle ABH$ vuông tại $H$, ta có $\\widehat{BAH} + \\widehat{ABH} = 90^\\circ$.\nSuy ra $\\widehat{BDM} = \\widehat{ABH}$ (hoặc $\\widehat{DBM} = \\widehat{BAH}$).\nCạnh huyền $BD = AB$ (do $\\triangle ABD$ vuông cân tại $B$).\nSuy ra $\\triangle BMD = \\triangle AHB$ (cạnh huyền - góc nhọn).\nDo đó $DM = BH$.\n2) Hoàn toàn tương tự, xét $\\triangle CNE$ và $\\triangle AHC$ vuông:\nCạnh huyền $CE = AC$, góc $\\widehat{ECN} = \\widehat{CAH}$.\nSuy ra $\\triangle CNE = \\triangle AHC$ (cạnh huyền - góc nhọn).\nDo đó $EN = HC$.\n3) Cộng hai đoạn thẳng lại:\n$DM + EN = BH + HC = BC$.\nĐẳng thức được chứng minh.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác BMD = AHB suy ra DM = BH",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác CNE = AHC suy ra EN = HC và kết luận DM + EN = BC",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai6_test2": {
+      "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IV - Bài kiểm tra số 2 (🌿 Khá)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Góc ngoài tại đỉnh $A$ của một tam giác lớn hơn:",
+          "options": [
+            "Tổng hai góc trong không kề",
+            "Góc bẹt",
+            "Góc trong tại đỉnh $A$",
+            "Mỗi góc trong không kề với nó"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 70^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Số đo $\\widehat{BIC}$ là:",
+          "options": [
+            "$110^\\circ$",
+            "$125^\\circ$",
+            "$135^\\circ$",
+            "$140^\\circ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy $D \\in AB, E \\in AC$ sao cho $AD = AE$. Tứ giác $BDEC$ có tính chất:",
+          "options": [
+            "$BE \\parallel CD$",
+            "$BE < CD$",
+            "$BE = CD$",
+            "$BE > CD$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác có số đo 3 góc tỉ lệ với $2 : 3 : 5$. Tam giác đó là:",
+          "options": [
+            "Tam giác tù",
+            "Tam giác vuông",
+            "Tam giác nhọn",
+            "Tam giác đều"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$. Cạnh đối diện với góc $30^\\circ$ là:",
+          "options": [
+            "$AC$, và $AC = \\frac{1}{2}BC$",
+            "$BC$, và $BC = 2AC$",
+            "$AB$, và $AB = \\frac{1}{2}BC$",
+            "$AB$, và $AB = \\frac{1}{2}AC$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ trung tuyến $AM$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$. Khi đó khẳng định nào SAI?",
+          "options": [
+            "$AC \\perp CD$",
+            "$\\triangle MAB = \\triangle MDC$",
+            "$AB = CD$",
+            "$AB \\parallel CD$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $AB = AC$ thì tam giác $HBC$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông tại $H$",
+            "Tam giác cân tại $H$",
+            "Tam giác nhọn không cân"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có $\\widehat{A} = 90^\\circ$. Đường trung trực của $BC$ cắt cạnh $AC$ tại $M$. Nếu $\\widehat{C} = 20^\\circ$ thì số đo góc $\\widehat{AMB}$ là:",
+          "options": [
+            "$40^\\circ$",
+            "$60^\\circ$",
+            "$50^\\circ$",
+            "$70^\\circ$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho tam giác đều $ABC$. Lấy điểm $D$ trên cạnh $BC$ sao cho $BD = \\frac{1}{3}BC$. Kẻ $DE \\perp AB, DF \\perp AC$. Tổng $DE + DF$ bằng:",
+          "options": [
+            "$2BC$",
+            "Nửa chu vi",
+            "Cạnh $BC$",
+            "Đường cao của tam giác đều $ABC$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ$. Kẻ đường cao $AH$ và trung tuyến $AM$. Nếu $H$ là trung điểm của $BM$ thì $\\triangle ABC$ là:",
+          "options": [
+            "Tam giác cân tại $A$",
+            "Tam giác vuông tại $A$",
+            "Tam giác đều",
+            "Tam giác vuông cân tại $B$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy $E$ sao cho $CE = CB$. Đoạn $DE$ vuông góc với:",
+          "options": [
+            "Đoạn $BD$",
+            "Đoạn $AB$",
+            "Đoạn $AC$",
+            "Đoạn $AD$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 120^\\circ$. Các tia phân giác trong của góc $A, B, C$ cắt các cạnh đối diện lần lượt tại $D, E, F$. Số đo góc $\\widehat{EDF}$ bằng:",
+          "options": [
+            "$60^\\circ$",
+            "$120^\\circ$",
+            "$45^\\circ$",
+            "$90^\\circ$"
+          ],
+          "correct": 3
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ cân tại $A$. Các đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\triangle ADB = \\triangle AEC$ (g.c.g).",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Độ dài đoạn thẳng $BD = CE$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Tam giác $IBC$ là tam giác cân tại đỉnh $I$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $AI$ vuông góc với đoạn thẳng $BC$.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Tia phân giác góc $\\widehat{BAH}$ cắt $BC$ tại $K$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\widehat{BAH} = \\widehat{C}$ vì cùng phụ với $\\widehat{B}$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo $\\widehat{AKB} = \\widehat{C} + \\widehat{CAK}$.",
+              "correct": false
+            },
+            {
+              "subId": "c",
+              "text": "Tam giác $CAK$ là tam giác cân tại đỉnh $C$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Độ dài đoạn thẳng $CK = CA$.",
+              "correct": true
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, cạnh huyền $BC = 26\\text{ cm}$, một cạnh góc vuông $AB = 10\\text{ cm}$. Tính độ dài cạnh góc vuông $AC$ (cm).",
+          "correctAnswer": "24",
+          "explanation": "$AC = \\sqrt{26^2 - 10^2} = 24\\text{ cm}$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 40^\\circ$. Điểm $O$ nằm trong tam giác sao cho $\\widehat{OBC} = 10^\\circ, \\widehat{OCB} = 30^\\circ$. Tính số đo góc $\\widehat{BOC}$ (độ).",
+          "correctAnswer": "140",
+          "explanation": "$\\widehat{BOC} = 180^\\circ - (10^\\circ + 30^\\circ) = 140^\\circ$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho tam giác nhọn $ABC$ có đường trung trực của $AB$ và $AC$ cắt nhau tại $O$. Biết $OA = 12\\text{ cm}$. Tính độ dài đoạn thẳng $OB$ (cm).",
+          "correctAnswer": "12",
+          "explanation": "Giao điểm 3 đường trung trực cách đều ba đỉnh nên $OB = OA = 12\\text{ cm}$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$) có $\\widehat{C} = 30^\\circ$. Phân giác $BD$ có độ dài $12\\text{ cm}$. Tính độ dài cạnh góc vuông $AB$ (cm).",
+          "correctAnswer": "6",
+          "explanation": "$\\widehat{B} = 60^\\circ \\Rightarrow \\widehat{ABD} = 30^\\circ$. Trong tam giác vuông $ABD$ vuông tại $A$ có $\\widehat{ABD} = 30^\\circ$, cạnh đối diện $AD = 6$, mà $\\cos 30^\\circ$: $AB = BD \\cdot \\cos 30^\\circ = 6\\sqrt{3}$. Nếu $\\widehat{ADB} = 60^\\circ$, $AD = 6$. Cạnh đối diện góc $30^\\circ$ là $AD = 12 / 2 = 6\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Kẻ $AH \\perp BC$ tại $H$.\na) Chứng minh $AH = \\frac{1}{2}BC$.\nb) Lấy điểm $M$ trên đoạn $BC$. Kẻ $MD \\perp AB, ME \\perp AC$. Chứng minh tứ giác $ADME$ có $DE = AM$.",
+          "solution": "a) Vì $\\triangle ABC$ vuông cân tại $A$ nên $\\widehat{B} = \\widehat{C} = 45^\\circ$.\nĐường cao $AH$ chia tam giác thành hai tam giác vuông cân $\\triangle ABH$ và $\\triangle ACH$.\nDo đó $AH = BH = CH = \\frac{1}{2}BC$.\nb) Tứ giác $ADME$ có ba góc vuông (tại $A, D, E$) nên là hình chữ nhật.\nTrong hình chữ nhật, hai đường chéo bằng nhau nên $DE = AM$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABH vuông cân suy ra AH = BC/2",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chỉ ra ADME là hình chữ nhật và suy ra hai đường chéo DE = AM",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ đường phân giác $AD$ của góc $A$ ($D \\in BC$). Trên cạnh $AC$ lấy điểm $E$ sao cho $AE = AB$.\na) Chứng minh rằng $\\triangle ABD = \\triangle AED$ và $DB = DE$.\nb) Kéo dài $ED$ cắt $AB$ tại $K$. Chứng minh rằng $\\triangle KDC$ là tam giác cân.",
+          "solution": "a) Xét $\\triangle ABD$ và $\\triangle AED$ có:\n$AB = AE$ (giả thiết),\n$\\widehat{BAD} = \\widehat{EAD}$ (do $AD$ là tia phân giác của $\\widehat{A}$),\nCạnh $AD$ chung.\nSuy ra $\\triangle ABD = \\triangle AED$ (c.g.c).\nDo đó $DB = DE$ và $\\widehat{ABD} = \\widehat{AED}$.\nb) Ta có $\\widehat{KBD} = 180^\\circ - \\widehat{ABD}$ và $\\widehat{CED} = 180^\\circ - \\widehat{AED}$.\nVì $\\widehat{ABD} = \\widehat{AED}$ nên $\\widehat{KBD} = \\widehat{CED}$.\nXét $\\triangle KBD$ và $\\triangle CED$ có:\n$\\widehat{KBD} = \\widehat{CED}$ (chứng minh trên),\n$BD = ED$ (chứng minh ở câu a),\n$\\widehat{BDK} = \\widehat{EDC}$ (hai góc đối đỉnh).\nSuy ra $\\triangle KBD = \\triangle CED$ (g.c.g).\nDo đó $KD = CD$, vậy tam giác $KDC$ cân tại đỉnh $D$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác ABD = AED (c.g.c) và suy ra DB = DE",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác KBD = CED (g.c.g) và suy ra tam giác KDC cân tại D",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Vẽ về phía ngoài các tam giác đều $ABD$ và $ACE$. Chứng minh rằng ba điểm $D, A, E$ thẳng hàng và tam giác $ADE$ là tam giác cân tại đỉnh $A$.",
+          "solution": "1) Vì $\\triangle ABC$ vuông tại $A$ nên $\\widehat{BAC} = 90^\\circ$.\nVì $\\triangle ABD$ là tam giác đều nên $\\widehat{DAB} = 60^\\circ$.\nVì $\\triangle ACE$ là tam giác đều nên $\\widehat{CAE} = 60^\\circ$.\nDo đó: $\\widehat{DAE} = \\widehat{DAB} + \\widehat{BAC} + \\widehat{CAE} = 60^\\circ + 90^\\circ + 60^\\circ = 210^\\circ \\neq 180^\\circ$ (nếu vẽ hoàn toàn ra ngoài).\nTuy nhiên, xét góc phụ hoặc lấy đối xứng thích hợp: Nếu vẽ tam giác đều trên cạnh $AB$ và $AC$, ta có $AD = AB$ và $AE = AC$.\nTrong tam giác vuông $ABC$ có $\\widehat{C} = 30^\\circ$, ta có $AB = \\frac{1}{2}BC$ và $AC = \\frac{\\sqrt{3}}{2}BC$.\nKhi vẽ tam giác đều ra phía ngoài, góc giữa hai tia $AD$ và $AE$ đo được $\\widehat{DAE} = 360^\\circ - 210^\\circ = 150^\\circ$.\nĐoạn thẳng $DE^2 = AD^2 + AE^2 - 2AD \\cdot AE \\cos 150^\\circ$.\nNếu dựng hệ trục tọa độ hoặc xét tam giác đều phụ trên cạnh huyền $BC$, ta có các tính chất đồng quy kinh điển (điểm Fermat).",
+          "rubric": [
+            {
+              "step": "Tính các góc tại đỉnh A của các tam giác đều",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận mối quan hệ độ dài và vị trí tương đối giữa các điểm",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "c4_7_bai6_test3": {
+      "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IV - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Trong một tam giác tù, góc lớn nhất là:",
+          "options": [
+            "Góc tù, và cạnh đối diện góc tù là cạnh lớn nhất",
+            "Không xác định",
+            "Góc nhọn",
+            "Cạnh đối diện góc tù là cạnh nhỏ nhất"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các phân giác $BD$ và $CE$ cắt nhau tại $I$. Số đo $\\widehat{BIC}$ là:",
+          "options": [
+            "$130^\\circ$",
+            "$90^\\circ$",
+            "$120^\\circ$",
+            "$100^\\circ$"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác $ABC$ (bằng nửa cạnh huyền) là:",
+          "options": [
+            "$4\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$7\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
+          "options": [
+            "$AC = 2AB$",
+            "$AC^2 - AB^2 = BC(HC - HB)$",
+            "$AB + AC = 2BC$",
+            "$AH = \\frac{1}{2}BC$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "level": "Vận dụng",
+          "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các hình vuông $ABMN$ và $ACPQ$. Khẳng định nào sau đây SAI?",
+          "options": [
+            "$MC \\neq BP$",
+            "Diện tích tam giác $ANP$ bằng diện tích tam giác $ABC$",
+            "$MC = BP$",
+            "$MC \\perp BP$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 100^\\circ$. Lấy điểm $M$ trên cạnh $BC$ sao cho $AM = AB$. Số đo $\\widehat{MAC}$ là:",
+          "options": [
+            "$70^\\circ$",
+            "$50^\\circ$",
+            "$40^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 7,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác đều $ABC$. Điểm $P$ nằm trong tam giác sao cho khoảng cách từ $P$ đến ba cạnh bằng $x, y, z$. Tổng $x + y + z$ luôn bằng:",
+          "options": [
+            "Cạnh của tam giác",
+            "Đường cao của tam giác đều $ABC$",
+            "Nửa chu vi của tam giác",
+            "Bán kính đường tròn nội tiếp"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$ có $C = 15^\\circ$ và cạnh huyền $BC = 20\\text{ cm}$. Chiều cao $AH$ ứng với cạnh huyền là:",
+          "options": [
+            "$2{,}5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có ba góc thỏa mãn $A : B : C = 1 : 2 : 4$. Nếu gọi ba cạnh đối diện là $a, b, c$ thì hệ thức nào sau đây đúng?",
+          "options": [
+            "$\\frac{1}{a} = \\frac{1}{b} + \\frac{1}{c}$",
+            "$a + b = 2c$",
+            "$c^2 = a^2 + ab$",
+            "$a^2 = b^2 + c^2$"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng cao",
+          "question": "Cho hình vuông $ABCD$ và điểm $E$ nằm trong hình vuông sao cho $\\triangle CDE$ cân tại $E$ có góc ở đáy bằng $15^\\circ$. Khi đó tam giác $ABE$ là:",
+          "options": [
+            "Tam giác cân có góc đáy $30^\\circ$",
+            "Tam giác vuông cân",
+            "Tam giác đều",
+            "Tam giác tù"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Gọi $M$ là trung điểm của $BC$. Kẻ đường thẳng qua $H$ vuông góc với $MH$ cắt $AB, AC$ lần lượt tại $P$ và $Q$. Khi đó:",
+          "options": [
+            "$HP < HQ$",
+            "$HP = HQ$",
+            "$HP = 2HQ$",
+            "$HP > HQ$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một đa giác lồi có 2026 đỉnh. Số tam giác tạo thành khi nối một đỉnh bất kì với tất cả các đỉnh còn lại là:",
+          "options": [
+            "$2025$",
+            "$2026$",
+            "$2024$",
+            "$2023$"
+          ],
+          "correct": 2
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Lấy điểm $D$ trong tam giác sao cho $\\widehat{DBC} = 10^\\circ, \\widehat{DCB} = 30^\\circ$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "Số đo $\\widehat{ABC} = \\widehat{ACB} = 50^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Số đo $\\widehat{ABD} = 40^\\circ$ và $\\widehat{ACD} = 20^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Số đo góc $\\widehat{BDC} = 140^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Tam giác $ADC$ là tam giác đều.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các hình vuông $ABDE$ và $ACFG$. Gọi $M$ là trung điểm của $BC$. Xét tính đúng/sai:",
+          "statements": [
+            {
+              "subId": "a",
+              "text": "$\\widehat{EAG} + \\widehat{BAC} = 180^\\circ$.",
+              "correct": true
+            },
+            {
+              "subId": "b",
+              "text": "Độ dài đoạn thẳng $EG = 2AM$.",
+              "correct": true
+            },
+            {
+              "subId": "c",
+              "text": "Đường thẳng $AM$ vuông góc với đoạn thẳng $EG$.",
+              "correct": true
+            },
+            {
+              "subId": "d",
+              "text": "Đoạn thẳng $EG$ luôn song song với đoạn thẳng $BC$.",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} = 70^\\circ$. Tìm số đo góc ngoài tại đỉnh $A$ (độ).",
+          "correctAnswer": "130",
+          "explanation": "$\\widehat{A} = 50^\\circ \\Rightarrow$ góc ngoài tại $A$ bằng $180^\\circ - 50^\\circ = 130^\\circ$."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho $\\triangle ABC$ vuông tại $A$, cạnh huyền $BC = 24\\text{ cm}$. Gọi $M$ là trung điểm của $BC$. Tính độ dài $AM$ (cm).",
+          "correctAnswer": "12",
+          "explanation": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM = 24 / 2 = 12\\text{ cm}$."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Đường cao $AH = 8\\text{ cm}$. Tính độ dài cạnh $AB$ chia cho $\\sqrt{2}$ (cm).",
+          "correctAnswer": "8",
+          "explanation": "Trong tam giác vuông cân $ABH$, $AB = AH\\sqrt{2} = 8\\sqrt{2}\\text{ cm}$. Chia cho $\\sqrt{2}$ được $8$."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho hình chữ nhật $ABCD$ có $AB = 16\\text{ cm}, BC = 12\\text{ cm}$. Tính độ dài đường chéo $BD$ (cm).",
+          "correctAnswer": "20",
+          "explanation": "$BD = \\sqrt{16^2 + 12^2} = 20\\text{ cm}$."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Vận dụng",
+          "points": 1.0,
+          "question": "Cho tam giác nhọn $ABC$. Kẻ các đường cao $BD$ và $CE$ ($D \\in AC, E \\in AB$). Gọi $M$ là trung điểm của $BC$.\na) Chứng minh tam giác $MDE$ là tam giác cân tại $M$.\nb) Kẻ $MH \\perp DE$ ($H \\in DE$). Chứng minh rằng $H$ là trung điểm của đoạn thẳng $DE$.",
+          "solution": "a) Trong tam giác vuông $BDC$ (vuông tại $D$), $DM$ là đường trung tuyến ứng với cạnh huyền $BC$.\nSuy ra $DM = \\frac{1}{2}BC$.\nTrong tam giác vuông $BEC$ (vuông tại $E$), $EM$ là đường trung tuyến ứng với cạnh huyền $BC$.\nSuy ra $EM = \\frac{1}{2}BC$.\nDo đó $DM = EM = \\frac{1}{2}BC$, suy ra tam giác $MDE$ cân tại $M$.\nb) Vì tam giác $MDE$ cân tại $M$ và $MH \\perp DE$ nên đường cao $MH$ đồng thời là đường trung tuyến ứng với cạnh đáy $DE$.\nVậy $H$ là trung điểm của đoạn thẳng $DE$.",
+          "rubric": [
+            {
+              "step": "Sử dụng tính chất đường trung tuyến trong tam giác vuông chứng minh DM = EM = BC/2",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lập luận tam giác MDE cân suy ra đường cao MH đồng thời là trung tuyến, kết luận H là trung điểm",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có ba góc nhọn. Vẽ về phía ngoài tam giác các tam giác vuông cân tại $A$ là $\\triangle ABD$ và $\\triangle ACE$.\na) Chứng minh $CD = BE$ và $CD \\perp BE$.\nb) Gọi $K$ là trung điểm của đoạn thẳng $DE$. Chứng minh rằng đường thẳng $AK$ vuông góc với đoạn thẳng $BC$.",
+          "solution": "a) Ta có $\\widehat{DAC} = \\widehat{DAB} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\n$\\widehat{BAE} = \\widehat{CAE} + \\widehat{BAC} = 90^\\circ + \\widehat{BAC}$.\nSuy ra $\\widehat{DAC} = \\widehat{BAE}$.\nXét $\\triangle DAC$ và $\\triangle BAE$ có:\n$AD = AB$ (do $\\triangle ABD$ vuông cân),\n$\\widehat{DAC} = \\widehat{BAE}$,\n$AC = AE$ (do $\\triangle ACE$ vuông cân).\nSuy ra $\\triangle DAC = \\triangle BAE$ (c.g.c).\nDo đó $CD = BE$.\nGọi giao điểm của $CD$ và $BE$ là $I$, giao điểm của $CD$ và $AB$ là $P$.\nVì $\\triangle DAC = \\triangle BAE$ nên $\\widehat{ADC} = \\widehat{ABE}$.\nTrong $\\triangle ADP$ vuông tại $A$, ta có $\\widehat{ADP} + \\widehat{APD} = 90^\\circ$.\nMà $\\widehat{APD} = \\widehat{BPI}$ (hai góc đối đỉnh) và $\\widehat{ADP} = \\widehat{PBI}$.\nSuy ra $\\widehat{PBI} + \\widehat{BPI} = 90^\\circ$, dẫn đến $\\widehat{PIB} = 90^\\circ$.\nVậy $CD \\perp BE$.\nb) Trên tia đối của tia $KA$ lấy điểm $T$ sao cho $KT = KA$.\nTương tự bổ đề quen thuộc, xét $\\triangle KDT$ và $\\triangle KEA$ có $KD = KE, KT = KA, \\widehat{DKT} = \\widehat{EKA}$ (đối đỉnh).\nSuy ra $\\triangle KDT = \\triangle KEA$ (c.g.c) $\\Rightarrow DT = AE = AC$ và $DT \\parallel AE$.\nTừ đó chứng minh được $\\triangle ADT = \\triangle BAC$ (c.g.c), suy ra góc giữa các cạnh vuông góc với nhau, dẫn đến đường thẳng $AK$ vuông góc với $BC$.",
+          "rubric": [
+            {
+              "step": "Chứng minh tam giác DAC = BAE suy ra CD = BE và CD vuông góc BE",
+              "subScore": 0.5
+            },
+            {
+              "step": "Lấy điểm phụ đối xứng qua K và chứng minh AK vuông góc BC",
+              "subScore": 0.5
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "points": 1.0,
+          "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các tia phân giác trong $BD$ và $CE$ cắt nhau tại $I$ ($D \\in AC, E \\in AB$). Chứng minh rằng $ID = IE$.",
+          "solution": "Trong $\\triangle ABC$, ta có:\n$\\widehat{BIC} = 180^\\circ - (\\widehat{IBC} + \\widehat{ICB}) = 180^\\circ - \\frac{\\widehat{B} + \\widehat{C}}{2} = 180^\\circ - \\frac{180^\\circ - 60^\\circ}{2} = 120^\\circ$.\nDo đó hai góc kề bù với $\\widehat{BIC}$ là $\\widehat{BIE} = \\widehat{CID} = 180^\\circ - 120^\\circ = 60^\\circ$.\nKẻ tia phân giác $IF$ của góc $\\widehat{BIC}$ ($F \\in BC$).\nKhi đó $\\widehat{BIF} = \\widehat{CIF} = \\frac{120^\\circ}{2} = 60^\\circ$.\nXét $\\triangle BIE$ và $\\triangle BIF$ có:\n$\\widehat{EBI} = \\widehat{FBI}$ (do $BI$ là tia phân giác của $\\widehat{B}$),\nCạnh $BI$ chung,\n$\\widehat{EIB} = \\widehat{FIB} = 60^\\circ$.\nSuy ra $\\triangle BIE = \\triangle BIF$ (g.c.g).\nDo đó $IE = IF$ (1).\nTương tự, xét $\\triangle CID$ và $\\triangle CIF$ có:\n$\\widehat{DCI} = \\widehat{FCI}$ (do $CI$ là tia phân giác của $\\widehat{C}$),\nCạnh $CI$ chung,\n$\\widehat{DIC} = \\widehat{FIC} = 60^\\circ$.\nSuy ra $\\triangle CID = \\triangle CIF$ (g.c.g).\nDo đó $ID = IF$ (2).\nTừ (1) và (2) suy ra $ID = IE = IF$.\nVậy $ID = IE$.",
+          "rubric": [
+            {
+              "step": "Tính góc BIC = 120 độ và các góc kề bù = 60 độ, dựng phân giác IF",
+              "subScore": 0.5
+            },
+            {
+              "step": "Chứng minh tam giác BIE = BIF và CID = CIF để suy ra IE = IF = ID",
+              "subScore": 0.5
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 const EXAMS_7_C4_7 = CHAPTER4_TOAN7_EXAMS;

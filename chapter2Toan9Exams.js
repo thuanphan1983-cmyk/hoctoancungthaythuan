@@ -8,48 +8,48 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Phương trình tích có dạng tổng quát là:",
         "options": [
-          "$A(x) \\cdot B(x) = 0$",
+          "$A(x) - B(x) = 0$",
           "$A(x) + B(x) = 0$",
-          "$\\frac{A(x)}{B(x)} = 0$",
-          "$A(x) - B(x) = 0$"
+          "$A(x) \\cdot B(x) = 0$",
+          "$\\frac{A(x)}{B(x)} = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Phương trình $(x - 2)(x + 3) = 0$ có các nghiệm là:",
         "options": [
-          "$x = 2$ hoặc $x = -3$",
           "$x = -2$ hoặc $x = 3$",
+          "$x = -2$ hoặc $x = -3$",
           "$x = 2$ hoặc $x = 3$",
-          "$x = -2$ hoặc $x = -3$"
+          "$x = 2$ hoặc $x = -3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Điều kiện xác định của phương trình $\\frac{x + 1}{x - 2} = 3$ là:",
         "options": [
+          "$x > 2$",
           "$x \\neq 2$",
           "$x \\neq -1$",
-          "$x \\neq 0$",
-          "$x > 2$"
+          "$x \\neq 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Phương trình chứa ẩn ở mẫu là phương trình có:",
         "options": [
-          "Ẩn số xuất hiện ở mẫu thức của phân thức",
           "Phân số",
+          "Ẩn số xuất hiện ở mẫu thức của phân thức",
           "Dấu căn",
           "Ẩn số ở tử thức"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -57,9 +57,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Tập nghiệm của phương trình $x(x - 5) = 0$ là:",
         "options": [
           "$S = \\{0; 5\\}$",
+          "$S = \\emptyset$",
           "$S = \\{5\\}$",
-          "$S = \\{0; -5\\}$",
-          "$S = \\emptyset$"
+          "$S = \\{0; -5\\}$"
         ],
         "correct": 0
       },
@@ -68,36 +68,36 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giải phương trình $(2x - 4)(3x + 9) = 0$. Các nghiệm là:",
         "options": [
-          "$x = 2$ và $x = -3$",
-          "$x = -2$ và $x = 3$",
           "$x = 4$ và $x = -9$",
+          "$x = -2$ và $x = 3$",
+          "$x = 2$ và $x = -3$",
           "$x = 2$ và $x = 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Điều kiện xác định của phương trình $\\frac{1}{x - 1} + \\frac{2}{x + 2} = 0$ là:",
         "options": [
-          "$x \\neq 1$ và $x \\neq -2$",
           "$x \\neq 1$",
           "$x \\neq -2$",
+          "$x \\neq 1$ và $x \\neq -2$",
           "$x \\neq 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Nghiệm của phương trình $\\frac{x - 3}{x - 1} = 0$ là:",
         "options": [
-          "$x = 3$",
-          "$x = 1$",
           "$x = -3$",
-          "Vô nghiệm"
+          "Vô nghiệm",
+          "$x = 1$",
+          "$x = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -105,8 +105,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Giải phương trình $x^2 - 9 = 0$. Tập nghiệm là:",
         "options": [
           "$\\{-3; 3\\}$",
-          "$\\{3\\}$",
           "$\\{-3\\}$",
+          "$\\{3\\}$",
           "$\\{9\\}$"
         ],
         "correct": 0
@@ -116,12 +116,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giải phương trình $\\frac{x + 2}{x - 2} - \\frac{x - 2}{x + 2} = \\frac{16}{x^2 - 4}$. Nghiệm của phương trình là:",
         "options": [
-          "$x = 2$ (bị loại nên vô nghiệm)",
+          "$x = 0$",
           "$x = 2$",
           "$x = -2$",
-          "$x = 0$"
+          "$x = 2$ (bị loại nên vô nghiệm)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -130,8 +130,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$1$",
           "$2$",
-          "$3$",
-          "$0$"
+          "$0$",
+          "$3$"
         ],
         "correct": 0
       },
@@ -140,12 +140,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Phương trình $(x - 1)(x - 2)(x - 3) = 0$ có tổng các nghiệm là:",
         "options": [
-          "$6$",
-          "$5$",
           "$4$",
-          "$3$"
+          "$6$",
+          "$3$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -296,24 +296,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Phương trình nào sau đây vô nghiệm?",
         "options": [
-          "$\\frac{x}{x - 1} = \\frac{1}{x - 1}$",
           "$x^2 - 1 = 0$",
-          "$(x - 1)(x + 2) = 0$",
-          "$\\frac{x - 1}{2} = 0$"
+          "$\\frac{x}{x - 1} = \\frac{1}{x - 1}$",
+          "$\\frac{x - 1}{2} = 0$",
+          "$(x - 1)(x + 2) = 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Nghiệm của phương trình $\\frac{2}{x + 1} = \\frac{3}{x - 2}$ là:",
         "options": [
-          "$x = -7$",
-          "$x = 7$",
+          "$x = -1$",
           "$x = 1$",
-          "$x = -1$"
+          "$x = 7$",
+          "$x = -7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -321,8 +321,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Phương trình $x^3 - 4x = 0$ có số nghiệm là:",
         "options": [
           "$3$",
-          "$2$",
           "$1$",
+          "$2$",
           "$0$"
         ],
         "correct": 0
@@ -332,12 +332,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm điều kiện xác định của phương trình $\\frac{x}{x^2 - 4} + \\frac{1}{x + 2} = \\frac{2}{x - 2}$:",
         "options": [
-          "$x \\neq \\pm 2$",
+          "$x \\neq 4$",
           "$x \\neq 2$",
           "$x \\neq -2$",
-          "$x \\neq 4$"
+          "$x \\neq \\pm 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -345,9 +345,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Tập nghiệm của phương trình $(2x - 1)^2 - (x + 2)^2 = 0$ là:",
         "options": [
           "$S = \\{3; -\\frac{1}{3}\\}$",
+          "$S = \\{-1; 3\\}$",
           "$S = \\{3; 1\\}$",
-          "$S = \\{-3; \\frac{1}{3}\\}$",
-          "$S = \\{-1; 3\\}$"
+          "$S = \\{-3; \\frac{1}{3}\\}$"
         ],
         "correct": 0
       },
@@ -356,48 +356,48 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giải phương trình $\\frac{1}{x - 1} - \\frac{1}{x + 1} = \\frac{2}{x^2 - 1}$. Số nghiệm của phương trình là:",
         "options": [
+          "$2$ nghiệm",
           "Vô số nghiệm (với $x \\neq \\pm 1$)",
           "$1$ nghiệm",
-          "$2$ nghiệm",
           "Vô nghiệm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho phương trình $\\frac{x + m}{x - 1} = 2$. Tìm $m$ để phương trình nhận $x = 3$ làm nghiệm:",
         "options": [
-          "$m = 1$",
-          "$m = -1$",
           "$m = 2$",
-          "$m = 0$"
+          "$m = 0$",
+          "$m = 1$",
+          "$m = -1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Tập nghiệm của phương trình $x^3 - 3x^2 + 3x - 1 = 0$ là:",
         "options": [
-          "$S = \\{1\\}$",
           "$S = \\{-1\\}$",
           "$S = \\{1; -1\\}$",
-          "$S = \\emptyset$"
+          "$S = \\emptyset$",
+          "$S = \\{1\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\frac{x}{x - 3} - \\frac{1}{x} = \\frac{3}{x(x - 3)}$. Nghiệm của phương trình là:",
         "options": [
-          "$x = -1$",
           "$x = 3$",
-          "$x = 0$",
-          "Vô nghiệm"
+          "Vô nghiệm",
+          "$x = -1$",
+          "$x = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -405,8 +405,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho phương trình $\\frac{x - a}{x - 1} + \\frac{x - b}{x - 2} = 2$. Biết phương trình có nghiệm với mọi $x \\neq 1, 2$. Hệ thức giữa $a$ và $b$ là:",
         "options": [
           "$a + b = 3$",
-          "$a - b = 1$",
           "$ab = 2$",
+          "$a - b = 1$",
           "$a = b$"
         ],
         "correct": 0
@@ -416,24 +416,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số nghiệm của phương trình $(x^2 - 5x + 6)\\sqrt{x - 2} = 0$ là:",
         "options": [
-          "$2$ nghiệm ($x = 2$ và $x = 3$)",
           "$3$ nghiệm",
           "$1$ nghiệm",
+          "$2$ nghiệm ($x = 2$ và $x = 3$)",
           "$0$ nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giải phương trình $(x + 1)(x + 2)(x + 3)(x + 4) = 24$. Một nghiệm nguyên dương của phương trình là:",
         "options": [
+          "$x = 3$",
           "$x = 0$",
-          "$x = 1$",
           "$x = 2$",
-          "$x = 3$"
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -584,12 +584,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi giải phương trình chứa ẩn ở mẫu, việc đối chiếu nghiệm tìm được với điều kiện xác định là:",
         "options": [
-          "Bắt buộc để loại nghiệm ngoại lai",
-          "Không bắt buộc",
+          "Tuỳ ý",
           "Chỉ làm khi phương trình có bậc cao",
-          "Tuỳ ý"
+          "Bắt buộc để loại nghiệm ngoại lai",
+          "Không bắt buộc"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -608,12 +608,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Nghiệm của phương trình $\\frac{x + 1}{x - 2} + \\frac{x - 2}{x + 1} = 2$ là:",
         "options": [
-          "Vô nghiệm",
+          "$x = 2$",
           "$x = 0$",
-          "$x = 1$",
-          "$x = 2$"
+          "Vô nghiệm",
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -621,9 +621,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Phương trình $x^4 - 5x^2 + 4 = 0$ có bao nhiêu nghiệm thực?",
         "options": [
           "$4$",
-          "$2$",
           "$0$",
-          "$3$"
+          "$3$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -632,48 +632,48 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Tập nghiệm của phương trình $\\frac{x + 1}{x - 1} - \\frac{x - 2}{x} = 2$ là:",
         "options": [
-          "$S = \\{2; -1\\}$",
           "$S = \\{1; 0\\}$",
+          "$S = \\{-2; 1\\}$",
           "$S = \\emptyset$",
-          "$S = \\{-2; 1\\}$"
+          "$S = \\{2; -1\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Giải phương trình $(x^2 - 1)(x^2 - 4) = 0$. Tích các nghiệm là:",
         "options": [
-          "$4$",
-          "$-4$",
           "$2$",
-          "$0$"
+          "$0$",
+          "$-4$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Tìm $m$ để phương trình $\\frac{x - 1}{x + 1} = m$ có nghiệm duy nhất:",
         "options": [
+          "Với mọi $m$",
           "$m \\neq 1$",
           "$m = 1$",
-          "Với mọi $m$",
           "$m \\neq -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Giải phương trình $\\frac{1}{x(x + 1)} + \\frac{1}{(x + 1)(x + 2)} = \\frac{2}{3}$. Một nghiệm dương là:",
         "options": [
-          "$x = 1$",
           "$x = 2$",
-          "$x = 3$",
-          "$x = 4$"
+          "$x = 1$",
+          "$x = 4$",
+          "$x = 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -681,9 +681,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Số nghiệm nguyên của phương trình $\\frac{x + 3}{x - 2} = \\frac{k}{x - 2}$ khi $k = 5$ là:",
         "options": [
           "$0$ nghiệm (do $x = 2$ bị loại)",
-          "$1$ nghiệm",
           "$2$ nghiệm",
-          "Vô số nghiệm"
+          "Vô số nghiệm",
+          "$1$ nghiệm"
         ],
         "correct": 0
       },
@@ -692,36 +692,36 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Phương trình $(x^2 - 3x + 1)(x^2 - 3x + 3) = 3$ có tổng các nghiệm thực bằng:",
         "options": [
-          "$3$",
           "$6$",
+          "$3$",
           "$0$",
           "$9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để phương trình $\\frac{x + 2}{x - m} = \\frac{x + 1}{x - 1}$ vô nghiệm:",
         "options": [
-          "$m = 2$ hoặc $m = -1$",
-          "$m = 1$",
           "$m = 0$",
-          "$m = -2$"
+          "$m = 1$",
+          "$m = -2$",
+          "$m = 2$ hoặc $m = -1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giải phương trình $(x + 2)(x + 3)(x + 8)(x + 12) = 4x^2$. Số nghiệm thực của phương trình là:",
         "options": [
-          "$4$",
-          "$2$",
           "$0$",
-          "$1$"
+          "$1$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -872,36 +872,36 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Hệ thức nào sau đây là một bất đẳng thức?",
         "options": [
-          "$a > b$",
           "$a = b$",
+          "$2x - 3$",
           "$a + b$",
-          "$2x - 3$"
+          "$a > b$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Với ba số $a, b, c$, nếu $a < b$ thì:",
         "options": [
-          "$a + c < b + c$",
           "$a + c > b + c$",
-          "$a + c = b + c$",
-          "$ac < bc$"
+          "$ac < bc$",
+          "$a + c < b + c$",
+          "$a + c = b + c$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho $a < b$ và $c > 0$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$ac = bc$",
           "$ac < bc$",
           "$ac > bc$",
-          "$ac = bc$",
           "$\\frac{a}{c} > \\frac{b}{c}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -910,8 +910,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$ac > bc$",
           "$ac < bc$",
-          "$a + c > b + c$",
-          "$\\frac{a}{c} < \\frac{b}{c}$"
+          "$\\frac{a}{c} < \\frac{b}{c}$",
+          "$a + c > b + c$"
         ],
         "correct": 0
       },
@@ -932,60 +932,60 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a > b$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$-2a > -2b$",
-          "$2a > 2b$",
           "$a + 5 > b + 5$",
-          "$a - 1 > b - 1$"
+          "$a - 1 > b - 1$",
+          "$2a > 2b$",
+          "$-2a > -2b$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Nếu $-3x > -3y$ thì:",
         "options": [
-          "$x < y$",
+          "$x \\le y$",
           "$x > y$",
-          "$x = y$",
-          "$x \\le y$"
+          "$x < y$",
+          "$x = y$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $m < n$. So sánh $2m + 1$ và $2n + 1$:",
         "options": [
-          "$2m + 1 < 2n + 1$",
-          "$2m + 1 > 2n + 1$",
           "$2m + 1 = 2n + 1$",
-          "$2m + 1 \\ge 2n + 1$"
+          "$2m + 1 > 2n + 1$",
+          "$2m + 1 \\ge 2n + 1$",
+          "$2m + 1 < 2n + 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Với mọi số thực $a$, khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$a^2 \\ge 0$",
           "$a^2 > 0$",
-          "$a > 0$",
-          "$-a < 0$"
+          "$a^2 \\ge 0$",
+          "$-a < 0$",
+          "$a > 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho $a > b > 0$. So sánh $\\frac{1}{a}$ và $\\frac{1}{b}$:",
         "options": [
-          "$\\frac{1}{a} < \\frac{1}{b}$",
           "$\\frac{1}{a} > \\frac{1}{b}$",
           "$\\frac{1}{a} = \\frac{1}{b}$",
+          "$\\frac{1}{a} < \\frac{1}{b}$",
           "$\\frac{1}{a} \\ge \\frac{1}{b}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -993,9 +993,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho $x > 2$. Giá trị nhỏ nhất của biểu thức $A = x + \\frac{1}{x - 2}$ bằng:",
         "options": [
           "$4$",
+          "$5$",
           "$2$",
-          "$3$",
-          "$5$"
+          "$3$"
         ],
         "correct": 0
       },
@@ -1004,12 +1004,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Bất đẳng thức Cauchy (AM-GM) cho hai số không âm $a, b$ phát biểu rằng:",
         "options": [
+          "$a^2 + b^2 \\le 2ab$",
           "$\\frac{a + b}{2} \\ge \\sqrt{ab}$",
           "$\\frac{a + b}{2} \\le \\sqrt{ab}$",
-          "$a + b \\ge 4ab$",
-          "$a^2 + b^2 \\le 2ab$"
+          "$a + b \\ge 4ab$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1160,24 +1160,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $a > b$ và $c > d$. Khẳng định nào sau đây luôn đúng?",
         "options": [
+          "$ac > bd$",
           "$a + c > b + d$",
           "$a - c > b - d$",
-          "$ac > bd$",
           "$\\frac{a}{c} > \\frac{b}{d}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $x < y$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$-5x < -5y$",
+          "$-x > -y$",
           "$5x < 5y$",
           "$x - 2 < y - 2$",
-          "$-x > -y$"
+          "$-5x < -5y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -1196,24 +1196,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a < b < 0$. So sánh $a^2$ và $b^2$:",
         "options": [
-          "$a^2 > b^2$",
+          "$a^2 \\le b^2$",
           "$a^2 < b^2$",
-          "$a^2 = b^2$",
-          "$a^2 \\le b^2$"
+          "$a^2 > b^2$",
+          "$a^2 = b^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Giá trị nhỏ nhất của biểu thức $A = x^2 - 4x + 7$ là:",
         "options": [
-          "$3$",
-          "$7$",
           "$4$",
-          "$11$"
+          "$7$",
+          "$11$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -1222,8 +1222,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$6$",
           "$9$",
-          "$3$",
-          "$10$"
+          "$10$",
+          "$3$"
         ],
         "correct": 0
       },
@@ -1232,48 +1232,48 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $a, b > 0$. Bất đẳng thức nào sau đây luôn đúng?",
         "options": [
-          "$(a + b)\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\ge 4$",
           "$(a + b)\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\le 4$",
+          "$(a + b)\\left(\\frac{1}{a} + \\frac{1}{b}\\right) \\ge 4$",
           "$(a + b)\\left(\\frac{1}{a} + \\frac{1}{b}\\right) = 2$",
           "$a + b < 2\\sqrt{ab}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Giá trị lớn nhất của biểu thức $M = 5 - (x - 1)^2$ là:",
         "options": [
-          "$5$",
-          "$4$",
+          "$1$",
           "$6$",
-          "$1$"
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $a + b \\ge 2$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$a^2 + b^2 = 4$",
           "$a^2 + b^2 \\ge 2$",
           "$a^2 + b^2 \\le 2$",
-          "$ab \\ge 1$",
-          "$a^2 + b^2 = 4$"
+          "$ab \\ge 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $x, y > 0$ và $x + y = 1$. Giá trị nhỏ nhất của $\\frac{1}{x} + \\frac{1}{y}$ là:",
         "options": [
-          "$4$",
-          "$2$",
           "$1$",
-          "$8$"
+          "$2$",
+          "$8$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -1281,9 +1281,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho ba số thực $a, b, c$. Bất đẳng thức $a^2 + b^2 + c^2 \\ge ab + bc + ca$ có dấu bằng xảy ra khi:",
         "options": [
           "$a = b = c$",
-          "$a = b = 0$",
           "$a + b + c = 0$",
-          "$ab = bc = ca$"
+          "$ab = bc = ca$",
+          "$a = b = 0$"
         ],
         "correct": 0
       },
@@ -1292,12 +1292,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c > 0$. Giá trị nhỏ nhất của biểu thức $P = \\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a}$ là:",
         "options": [
-          "$3$",
           "$1$",
           "$2$",
+          "$3$",
           "$6$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1448,24 +1448,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $a, b, c > 0$. Bất đẳng thức Cauchy-Schwarz dạng Engel (BĐT Schwarz) cho hai phân thức là:",
         "options": [
-          "$\\frac{x_1^2}{a_1} + \\frac{x_2^2}{a_2} \\ge \\frac{(x_1 + x_2)^2}{a_1 + a_2}$",
-          "$\\frac{x_1}{a_1} + \\frac{x_2}{a_2} \\ge \\frac{x_1 + x_2}{a_1 + a_2}$",
           "$\\frac{x_1^2}{a_1} \\cdot \\frac{x_2^2}{a_2} \\ge 1$",
-          "$x_1 a_1 + x_2 a_2 \\ge 0$"
+          "$x_1 a_1 + x_2 a_2 \\ge 0$",
+          "$\\frac{x_1^2}{a_1} + \\frac{x_2^2}{a_2} \\ge \\frac{(x_1 + x_2)^2}{a_1 + a_2}$",
+          "$\\frac{x_1}{a_1} + \\frac{x_2}{a_2} \\ge \\frac{x_1 + x_2}{a_1 + a_2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $a, b > 0$. Giá trị nhỏ nhất của $(a + b)\\left(\\frac{1}{a} + \\frac{1}{b}\\right)$ là:",
         "options": [
-          "$4$",
           "$2$",
           "$1$",
-          "$8$"
+          "$8$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -1474,8 +1474,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$x = 2$",
           "$x = 4$",
-          "$x = 8$",
-          "$x = 1$"
+          "$x = 1$",
+          "$x = 8$"
         ],
         "correct": 0
       },
@@ -1484,12 +1484,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $a, b, c > 0$ và $a + b + c = 3$. Giá trị lớn nhất của tích $a \\cdot b \\cdot c$ là:",
         "options": [
-          "$1$",
           "$3$",
           "$9$",
-          "$27$"
+          "$27$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -1497,9 +1497,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho $x, y > 0$ thỏa mãn $xy = 1$. Giá trị nhỏ nhất của biểu thức $A = (x + 1)(y + 1)$ là:",
         "options": [
           "$4$",
-          "$2$",
           "$3$",
-          "$5$"
+          "$5$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -1508,12 +1508,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $a, b$ là các số thực thỏa mãn $a^2 + b^2 = 2$. Giá trị lớn nhất của biểu thức $a + b$ là:",
         "options": [
-          "$2$",
           "$\\sqrt{2}$",
-          "$4$",
-          "$2\\sqrt{2}$"
+          "$2$",
+          "$2\\sqrt{2}$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1521,9 +1521,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho $x \\ge 2$. Giá trị nhỏ nhất của biểu thức $P = x + \\frac{1}{x}$ là:",
         "options": [
           "$\\frac{5}{2}$",
+          "$\\frac{9}{4}$",
           "$2$",
-          "$3$",
-          "$\\frac{9}{4}$"
+          "$3$"
         ],
         "correct": 0
       },
@@ -1532,60 +1532,60 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c > 0$. Giá trị nhỏ nhất của biểu thức Nesbitt: $S = \\frac{a}{b + c} + \\frac{b}{c + a} + \\frac{c}{a + b}$ là:",
         "options": [
-          "$\\frac{3}{2}$",
-          "$1$",
           "$2$",
+          "$1$",
+          "$\\frac{3}{2}$",
           "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $x, y > 0$ thỏa mãn $x + y \\le 1$. Giá trị nhỏ nhất của biểu thức $P = x + y + \\frac{1}{x} + \\frac{1}{y}$ là:",
         "options": [
-          "$5$",
-          "$4$",
           "$6$",
-          "$3$"
+          "$5$",
+          "$3$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $a, b > 0$ thỏa mãn $a + b = 2$. Giá trị nhỏ nhất của biểu thức $Q = \\frac{1}{a^2 + b^2} + \\frac{1}{2ab}$ là:",
         "options": [
-          "$1$",
           "$2$",
+          "$1$",
           "$\\frac{1}{2}$",
           "$\\frac{3}{2}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho ba số thực dương $a, b, c$ có $abc = 1$. Giá trị nhỏ nhất của $(a + 1)(b + 1)(c + 1)$ là:",
         "options": [
-          "$8$",
-          "$6$",
           "$4$",
+          "$6$",
+          "$8$",
           "$9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $x, y, z > 0$ thỏa mãn $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 1$. Giá trị nhỏ nhất của $x + 2y + 4z$ là:",
         "options": [
-          "$49$",
-          "$36$",
+          "$16$",
           "$25$",
-          "$16$"
+          "$36$",
+          "$49$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1737,9 +1737,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn $x$?",
         "options": [
           "$2x - 3 > 0$",
-          "$x^2 + 1 > 0$",
+          "$\\frac{1}{x} > 2$",
           "$2x - 3y < 5$",
-          "$\\frac{1}{x} > 2$"
+          "$x^2 + 1 > 0$"
         ],
         "correct": 0
       },
@@ -1748,12 +1748,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi nhân (hoặc chia) hai vế của một bất phương trình với một số âm, ta phải:",
         "options": [
-          "Đổi chiều bất phương trình",
           "Giữ nguyên chiều bất phương trình",
-          "Đổi dấu của ẩn số",
-          "Không đổi chiều"
+          "Không đổi chiều",
+          "Đổi chiều bất phương trình",
+          "Đổi dấu của ẩn số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1761,9 +1761,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Nghiệm của bất phương trình $x - 3 > 0$ là:",
         "options": [
           "$x > 3$",
-          "$x < 3$",
           "$x > -3$",
-          "$x < -3$"
+          "$x < -3$",
+          "$x < 3$"
         ],
         "correct": 0
       },
@@ -1773,9 +1773,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Hình vẽ trên trục số với dấu ngoặc tròn quay sang phải tại điểm $2$ biểu diễn tập nghiệm:",
         "options": [
           "$x > 2$",
-          "$x \\ge 2$",
+          "$x \\le 2$",
           "$x < 2$",
-          "$x \\le 2$"
+          "$x \\ge 2$"
         ],
         "correct": 0
       },
@@ -1784,96 +1784,96 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Nghiệm của bất phương trình $2x - 6 \\le 0$ là:",
         "options": [
-          "$x \\le 3$",
-          "$x < 3$",
+          "$x > 3$",
           "$x \\ge 3$",
-          "$x > 3$"
+          "$x < 3$",
+          "$x \\le 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Giải bất phương trình $-3x > 9$. Nghiệm là:",
         "options": [
+          "$x > 3$",
           "$x < -3$",
           "$x > -3$",
-          "$x < 3$",
-          "$x > 3$"
+          "$x < 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Số nguyên dương lớn nhất thỏa mãn bất phương trình $x < 5$ là:",
         "options": [
-          "$4$",
-          "$5$",
+          "$3$",
           "$6$",
-          "$3$"
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Giải bất phương trình $3x - 5 > x + 1$. Tập nghiệm là:",
         "options": [
-          "$x > 3$",
           "$x < 3$",
           "$x > 2$",
+          "$x > 3$",
           "$x < 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Nghiệm nguyên nhỏ nhất thỏa mãn bất phương trình $2x \\ge -5$ là:",
         "options": [
+          "$-1$",
           "$-2$",
           "$-3$",
-          "$-1$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Giải bất phương trình $\\frac{x - 1}{2} - \\frac{x - 2}{3} \\ge 1$. Nghiệm là:",
         "options": [
-          "$x \\ge 5$",
           "$x \\le 5$",
-          "$x \\ge 1$",
-          "$x \\le 1$"
+          "$x \\le 1$",
+          "$x \\ge 5$",
+          "$x \\ge 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Có bao nhiêu số nguyên dương thỏa mãn bất phương trình $5 - 2x > 0$?",
         "options": [
-          "$2$ ($x = 1$ và $x = 2$)",
           "$3$",
+          "$2$ ($x = 1$ và $x = 2$)",
           "$1$",
           "Vô số"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để bất phương trình $(m - 1)x > 2$ có tập nghiệm là $x < \\frac{2}{m - 1}$:",
         "options": [
-          "$m < 1$",
+          "$m \\neq 1$",
           "$m > 1$",
           "$m = 1$",
-          "$m \\neq 1$"
+          "$m < 1$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2024,60 +2024,60 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Bất phương trình $ax + b < 0$ là bất phương trình bậc nhất một ẩn khi:",
         "options": [
-          "$a \\neq 0$",
-          "$a = 0$",
+          "$a > 0$",
           "$b \\neq 0$",
-          "$a > 0$"
+          "$a \\neq 0$",
+          "$a = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tập nghiệm của bất phương trình $-4x + 12 < 0$ là:",
         "options": [
-          "$x > 3$",
-          "$x < 3$",
           "$x > -3$",
-          "$x < -3$"
+          "$x < -3$",
+          "$x > 3$",
+          "$x < 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Nghiệm của bất phương trình $\\frac{x - 3}{4} \\le \\frac{x - 1}{2}$ là:",
         "options": [
-          "$x \\ge -1$",
+          "$x \\le 1$",
           "$x \\le -1$",
-          "$x \\ge 1$",
-          "$x \\le 1$"
+          "$x \\ge -1$",
+          "$x \\ge 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Số nghiệm nguyên âm của bất phương trình $2x + 7 > 0$ là:",
         "options": [
+          "$2$",
           "$3$ (gồm $-3, -2, -1$)",
           "$4$",
-          "$2$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tập hợp các điểm $x$ thỏa mãn $2 < x \\le 5$ có bao nhiêu số nguyên?",
         "options": [
-          "$3$ ($x = 3, 4, 5$)",
-          "$4$",
           "$2$",
-          "Vô số"
+          "Vô số",
+          "$4$",
+          "$3$ ($x = 3, 4, 5$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -2086,8 +2086,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$x \\le 2$",
           "$x \\ge 2$",
-          "$x \\le -2$",
-          "$x \\ge -2$"
+          "$x \\ge -2$",
+          "$x \\le -2$"
         ],
         "correct": 0
       },
@@ -2097,9 +2097,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Tìm $m$ để $x = 2$ là một nghiệm của bất phương trình $mx + 3 > 7$:",
         "options": [
           "$m > 2$",
-          "$m < 2$",
+          "$m = 2$",
           "$m \\ge 2$",
-          "$m = 2$"
+          "$m < 2$"
         ],
         "correct": 0
       },
@@ -2108,36 +2108,36 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho hai bất phương trình $x - 1 > 0$ và $2x - m > 0$. Hai bất phương trình tương đương khi:",
         "options": [
-          "$m = 2$",
           "$m = 1$",
           "$m = 4$",
-          "$m = -2$"
+          "$m = -2$",
+          "$m = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Tập nghiệm của hệ bất phương trình $\\begin{cases} 2x - 1 > 3 \\\\ 3x - 2 \\le 10 \\end{cases}$ là:",
         "options": [
+          "Vô nghiệm",
           "$2 < x \\le 4$",
           "$x > 2$",
-          "$x \\le 4$",
-          "Vô nghiệm"
+          "$x \\le 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm số nghiệm nguyên của bất phương trình $\\frac{x - 1}{2} - \\frac{x + 1}{3} < 1$ thỏa mãn $x \\le 8$:",
         "options": [
-          "Có vô số nghiệm nguyên nhỏ hơn hoặc bằng 8",
-          "$5$",
           "$8$",
-          "$0$"
+          "Có vô số nghiệm nguyên nhỏ hơn hoặc bằng 8",
+          "$0$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -2145,9 +2145,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Tìm $m$ để bất phương trình $(m - 2)x + 1 > 0$ nghiệm đúng với mọi $x > 0$:",
         "options": [
           "$m \\ge 2$",
-          "$m > 2$",
+          "$m < 2$",
           "$m \\le 2$",
-          "$m < 2$"
+          "$m > 2$"
         ],
         "correct": 0
       },
@@ -2156,12 +2156,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giải bất phương trình $\\frac{x - 1}{x + 2} > 0$. Tập nghiệm là:",
         "options": [
-          "$x < -2$ hoặc $x > 1$",
           "$-2 < x < 1$",
+          "$x < -2$",
           "$x > 1$",
-          "$x < -2$"
+          "$x < -2$ hoặc $x > 1$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2312,60 +2312,60 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Giao của hai tập nghiệm $x > 1$ và $x < 4$ là:",
         "options": [
-          "$1 < x < 4$",
+          "Rỗng",
           "$x > 4$",
           "$x < 1$",
-          "Rỗng"
+          "$1 < x < 4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Nghiệm của bất phương trình $(x - 1)(x - 3) < 0$ là:",
         "options": [
-          "$1 < x < 3$",
           "$x < 1$ hoặc $x > 3$",
           "$x > 3$",
-          "$x < 1$"
+          "$x < 1$",
+          "$1 < x < 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Nghiệm của bất phương trình $x^2 - 4 > 0$ là:",
         "options": [
+          "$x < -2$",
           "$x < -2$ hoặc $x > 2$",
-          "$-2 < x < 2$",
           "$x > 2$",
-          "$x < -2$"
+          "$-2 < x < 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Tập nghiệm của bất phương trình $\\frac{x - 2}{x + 3} \\le 0$ là:",
         "options": [
+          "$x \\le 2$",
           "$-3 < x \\le 2$",
           "$-3 \\le x \\le 2$",
-          "$x \\le 2$",
           "$x > -3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Số nghiệm nguyên thỏa mãn bất phương trình $|2x - 1| \\le 5$ là:",
         "options": [
-          "$6$ (từ $-2$ đến $3$)",
           "$5$",
-          "$4$",
-          "Vô số"
+          "Vô số",
+          "$6$ (từ $-2$ đến $3$)",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -2374,8 +2374,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$m = 1$",
           "$m = -1$",
-          "$m = 0$",
-          "$m = 2$"
+          "$m = 2$",
+          "$m = 0$"
         ],
         "correct": 0
       },
@@ -2384,12 +2384,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Bất phương trình $\\frac{1}{x} < 1$ có tập nghiệm là:",
         "options": [
-          "$x < 0$ hoặc $x > 1$",
-          "$x > 1$",
+          "$x < 1$",
           "$0 < x < 1$",
-          "$x < 1$"
+          "$x < 0$ hoặc $x > 1$",
+          "$x > 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -2397,9 +2397,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Tìm $m$ để hệ $\\begin{cases} 2x - 3 > 1 \\\\ mx \\le 4 \\end{cases}$ có nghiệm:",
         "options": [
           "$m < 2$",
+          "Với mọi $m$",
           "$m \\le 2$",
-          "$m > 0$",
-          "Với mọi $m$"
+          "$m > 0$"
         ],
         "correct": 0
       },
@@ -2408,12 +2408,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tập nghiệm của bất phương trình $\\frac{x^2 - 5x + 6}{x - 1} \\ge 0$ là:",
         "options": [
-          "$(1; 2] \\cup [3; +\\infty)$",
           "$[2; 3]$",
-          "$x > 1$",
-          "$[1; 3]$"
+          "$[1; 3]$",
+          "$(1; 2] \\cup [3; +\\infty)$",
+          "$x > 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -2432,24 +2432,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $x, y > 0$ thỏa mãn $x + y \\le 2$. Giá trị nhỏ nhất của biểu thức $P = \\frac{1}{x} + \\frac{1}{y}$ là:",
         "options": [
-          "$2$",
           "$1$",
           "$4$",
-          "$\\frac{1}{2}$"
+          "$\\frac{1}{2}$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một người bán hàng cần thuê xe tải để chở ít nhất $140$ tấn hàng và $9$ tấn hàng đặc biệt. Có hai loại xe: loại A (giá $4$ triệu, chở $20$ tấn hàng, $0{,}6$ tấn đặc biệt), loại B (giá $3$ triệu, chở $10$ tấn hàng, $1{,}5$ tấn đặc biệt). Chi phí thuê xe nhỏ nhất là:",
         "options": [
-          "$32$ triệu đồng",
           "$28$ triệu đồng",
-          "$30$ triệu đồng",
-          "$35$ triệu đồng"
+          "$32$ triệu đồng",
+          "$35$ triệu đồng",
+          "$30$ triệu đồng"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2600,24 +2600,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Phương trình $(x - 1)(x + 2) = 0$ có các nghiệm là:",
         "options": [
-          "$x = 1$ hoặc $x = -2$",
-          "$x = -1$ hoặc $x = 2$",
           "$x = 1$ hoặc $x = 2$",
-          "$x = -1$ hoặc $x = -2$"
+          "$x = -1$ hoặc $x = -2$",
+          "$x = 1$ hoặc $x = -2$",
+          "$x = -1$ hoặc $x = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Điều kiện xác định của phương trình $\\frac{x}{x - 3} = 2$ là:",
         "options": [
-          "$x \\neq 3$",
           "$x \\neq 0$",
           "$x \\neq 2$",
-          "$x > 3$"
+          "$x > 3$",
+          "$x \\neq 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -2625,8 +2625,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho $a < b$. Khẳng định nào sau đây đúng?",
         "options": [
           "$a + 2 < b + 2$",
-          "$a - 2 > b - 2$",
           "$-2a < -2b$",
+          "$a - 2 > b - 2$",
           "$2a > 2b$"
         ],
         "correct": 0
@@ -2636,24 +2636,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Nghiệm của bất phương trình $2x - 4 \\ge 0$ là:",
         "options": [
+          "$x < 2$",
           "$x \\ge 2$",
           "$x \\le 2$",
-          "$x > 2$",
-          "$x < 2$"
+          "$x > 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Giải phương trình $(2x - 1)(3x + 6) = 0$. Các nghiệm là:",
         "options": [
-          "$x = \\frac{1}{2}$ và $x = -2$",
           "$x = -\\frac{1}{2}$ và $x = 2$",
           "$x = 1$ và $x = -6$",
-          "$x = 2$ và $x = -2$"
+          "$x = 2$ và $x = -2$",
+          "$x = \\frac{1}{2}$ và $x = -2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -2661,9 +2661,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Nghiệm của phương trình $\\frac{x - 2}{x + 1} = 0$ là:",
         "options": [
           "$x = 2$",
-          "$x = -1$",
           "$x = 0$",
-          "Vô nghiệm"
+          "Vô nghiệm",
+          "$x = -1$"
         ],
         "correct": 0
       },
@@ -2672,60 +2672,60 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $-3x < 12$. Nghiệm của bất phương trình là:",
         "options": [
-          "$x > -4$",
           "$x < -4$",
+          "$x > -4$",
           "$x > 4$",
           "$x < 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Số nguyên lớn nhất thỏa mãn bất phương trình $x < 3{,}5$ là:",
         "options": [
-          "$3$",
-          "$4$",
           "$2$",
-          "$0$"
+          "$0$",
+          "$3$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho $a > b$. Bất đẳng thức nào sau đây luôn đúng?",
         "options": [
-          "$3a + 1 > 3b + 1$",
+          "$\\frac{1}{a} > \\frac{1}{b}$",
           "$-3a + 1 > -3b + 1$",
-          "$a^2 > b^2$",
-          "$\\frac{1}{a} > \\frac{1}{b}$"
+          "$3a + 1 > 3b + 1$",
+          "$a^2 > b^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Giải phương trình $\\frac{x + 1}{x - 1} - \\frac{x - 1}{x + 1} = \\frac{4}{x^2 - 1}$. Nghiệm là:",
         "options": [
+          "$x = 0$",
           "Vô nghiệm (nghiệm $x = 1$ bị loại)",
           "$x = 1$",
-          "$x = -1$",
-          "$x = 0$"
+          "$x = -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Có bao nhiêu số nguyên dương thỏa mãn bất phương trình $4 - x > 0$?",
         "options": [
-          "$3$ ($x = 1, 2, 3$)",
-          "$4$",
+          "Vô số",
           "$2$",
-          "Vô số"
+          "$4$",
+          "$3$ ($x = 1, 2, 3$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -2733,9 +2733,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Giá trị nhỏ nhất của biểu thức $A = x^2 - 6x + 11$ là:",
         "options": [
           "$2$",
+          "$5$",
           "$11$",
-          "$3$",
-          "$5$"
+          "$3$"
         ],
         "correct": 0
       }
@@ -2888,24 +2888,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Phương trình $x^2 - 4x = 0$ có các nghiệm là:",
         "options": [
-          "$x = 0$ hoặc $x = 4$",
+          "$x = 2$ hoặc $x = -2$",
           "$x = 4$",
-          "$x = 0$ hoặc $x = -4$",
-          "$x = 2$ hoặc $x = -2$"
+          "$x = 0$ hoặc $x = 4$",
+          "$x = 0$ hoặc $x = -4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Nghiệm của bất phương trình $\\frac{x - 1}{3} > \\frac{x + 2}{4}$ là:",
         "options": [
+          "$x < -10$",
           "$x > 10$",
           "$x < 10$",
-          "$x > -10$",
-          "$x < -10$"
+          "$x > -10$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -2914,8 +2914,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "options": [
           "$x = -5$",
           "$x = 5$",
-          "$x = 1$",
-          "$x = -2$"
+          "$x = -2$",
+          "$x = 1$"
         ],
         "correct": 0
       },
@@ -2924,24 +2924,24 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số nghiệm của phương trình $\\frac{x^2 - 9}{x - 3} = 6$ là:",
         "options": [
-          "$0$ (vô nghiệm)",
-          "$1$",
           "$2$",
-          "Vô số"
+          "Vô số",
+          "$0$ (vô nghiệm)",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $a < b$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$-5a < -5b$",
           "$5a < 5b$",
-          "$a - 7 < b - 7$",
-          "$-2a + 3 > -2b + 3$"
+          "$-5a < -5b$",
+          "$-2a + 3 > -2b + 3$",
+          "$a - 7 < b - 7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -2949,8 +2949,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Tập nghiệm của bất phương trình $(x - 2)^2 \\le x^2 - 8$ là:",
         "options": [
           "$x \\ge 3$",
-          "$x \\le 3$",
           "$x \\ge -3$",
+          "$x \\le 3$",
           "$x \\le -3$"
         ],
         "correct": 0
@@ -2960,12 +2960,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giải phương trình $x^3 - 4x = 0$. Tích các nghiệm là:",
         "options": [
-          "$0$",
-          "$4$",
           "$-4$",
-          "$2$"
+          "$0$",
+          "$2$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -2984,48 +2984,48 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $x > 0$. Giá trị nhỏ nhất của biểu thức $P = x + \\frac{25}{x}$ là:",
         "options": [
-          "$10$",
           "$25$",
           "$5$",
+          "$10$",
           "$15$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để phương trình $\\frac{x - m}{x - 1} = 2$ có nghiệm dương:",
         "options": [
-          "$m < 2$ và $m \\neq 1$",
           "$m > 2$",
+          "$m \\neq 1$",
           "$m < 2$",
-          "$m \\neq 1$"
+          "$m < 2$ và $m \\neq 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Nghiệm của bất phương trình $\\frac{x - 3}{x + 1} > 0$ là:",
         "options": [
-          "$x < -1$ hoặc $x > 3$",
-          "$-1 < x < 3$",
           "$x > 3$",
-          "$x < -1$"
+          "$-1 < x < 3$",
+          "$x < -1$",
+          "$x < -1$ hoặc $x > 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 1$. Giá trị nhỏ nhất của $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$ là:",
         "options": [
-          "$9$",
-          "$3$",
           "$6$",
-          "$1$"
+          "$1$",
+          "$3$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3177,9 +3177,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Phương trình $x^4 - 1 = 0$ có bao nhiêu nghiệm thực?",
         "options": [
           "$2$ nghiệm ($x = \\pm 1$)",
-          "$4$ nghiệm",
+          "$0$ nghiệm",
           "$1$ nghiệm",
-          "$0$ nghiệm"
+          "$4$ nghiệm"
         ],
         "correct": 0
       },
@@ -3189,8 +3189,8 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Nghiệm của bất phương trình $(x - 2)^2 > 0$ là:",
         "options": [
           "Mọi $x \\neq 2$",
-          "Mọi $x \\in \\mathbb{R}$",
           "$x > 2$",
+          "Mọi $x \\in \\mathbb{R}$",
           "Vô nghiệm"
         ],
         "correct": 0
@@ -3200,96 +3200,96 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tập nghiệm của phương trình $|x - 1| = x - 1$ là:",
         "options": [
+          "Mọi $x$",
           "$x \\ge 1$",
-          "$x > 1$",
           "$x = 1$",
-          "Mọi $x$"
+          "$x > 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho $x, y > 0$ thỏa mãn $x + y = 2$. Giá trị nhỏ nhất của $\\frac{1}{x} + \\frac{1}{y}$ là:",
         "options": [
-          "$2$",
+          "$\\frac{1}{2}$",
           "$1$",
           "$4$",
-          "$\\frac{1}{2}$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Giải phương trình $(x^2 - x + 1)(x^2 - x - 3) = 5$. Nghiệm thực của phương trình là:",
         "options": [
-          "$x = -1$ và $x = 2$",
           "$x = 1$ và $x = -2$",
+          "Vô nghiệm",
           "$x = 0$ và $x = 1$",
-          "Vô nghiệm"
+          "$x = -1$ và $x = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Tìm số nghiệm nguyên của bất phương trình $\\frac{x + 2}{x - 1} < 0$:",
         "options": [
-          "$2$ ($x = -1$ và $x = 0$)",
           "$3$",
+          "$2$ ($x = -1$ và $x = 0$)",
           "$1$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho $a, b > 0$ và $a + b \\le 1$. Giá trị nhỏ nhất của $A = a + b + \\frac{1}{a} + \\frac{1}{b}$ là:",
         "options": [
-          "$5$",
-          "$4$",
+          "$6$",
           "$\\frac{9}{2}$",
-          "$6$"
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Phương trình $(x - 1)^4 + (x - 3)^4 = 16$ có nghiệm là:",
         "options": [
-          "$x = 1$ và $x = 3$",
-          "$x = 2$",
           "$x = 0$ và $x = 4$",
-          "Vô nghiệm"
+          "Vô nghiệm",
+          "$x = 2$",
+          "$x = 1$ và $x = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho ba số dương $a, b, c$. Bất đẳng thức nào sau đây luôn đúng?",
         "options": [
+          "$a^3 + b^3 + c^3 < 3abc$",
           "$\\frac{a^3}{b} + \\frac{b^3}{c} + \\frac{c^3}{a} \\ge ab + bc + ca$",
           "$\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} < 1$",
-          "$a^3 + b^3 + c^3 < 3abc$",
           "$(a+b+c)^3 \\le 27abc$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để bất phương trình $(m - 1)x + 2 > 0$ đúng với mọi $x \\in [-1; 2]$:",
         "options": [
-          "$0 < m < 3$",
           "$-1 < m < 2$",
           "$m < 3$",
+          "$0 < m < 3$",
           "$m > 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -3297,9 +3297,9 @@ const CHAPTER2_TOAN9_EXAMS = {
         "question": "Cho $x, y$ thỏa mãn $x^2 + y^2 = 4$. Giá trị lớn nhất của biểu thức $P = x + \\sqrt{3}y$ là:",
         "options": [
           "$4$",
-          "$2$",
           "$8$",
-          "$2\\sqrt{3}$"
+          "$2\\sqrt{3}$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -3308,12 +3308,12 @@ const CHAPTER2_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giải phương trình $\\frac{x}{x^2 + 1} + \\frac{x}{x^2 + 2} = \\frac{1}{2}$. Số nghiệm thực của phương trình là:",
         "options": [
-          "$2$",
           "$4$",
-          "$1$",
-          "$0$"
+          "$0$",
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

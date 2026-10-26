@@ -8,36 +8,36 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Tỉ số $\\sin B$ bằng:",
         "options": [
-          "$\\frac{AC}{BC}$",
+          "$\\frac{AB}{AC}$",
           "$\\frac{AB}{BC}$",
           "$\\frac{AC}{AB}$",
-          "$\\frac{AB}{AC}$"
+          "$\\frac{AC}{BC}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Tỉ số $\\cos B$ bằng:",
         "options": [
-          "$\\frac{AB}{BC}$",
           "$\\frac{AC}{BC}$",
           "$\\frac{AC}{AB}$",
+          "$\\frac{AB}{BC}$",
           "$\\frac{BC}{AB}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Tỉ số $\\tan B$ bằng:",
         "options": [
-          "$\\frac{AC}{AB}$",
-          "$\\frac{AB}{AC}$",
           "$\\frac{AC}{BC}$",
-          "$\\frac{AB}{BC}$"
+          "$\\frac{AB}{BC}$",
+          "$\\frac{AC}{AB}$",
+          "$\\frac{AB}{AC}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -45,9 +45,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông tại $A$. Tỉ số $\\cot B$ bằng:",
         "options": [
           "$\\frac{AB}{AC}$",
-          "$\\frac{AC}{AB}$",
+          "$\\frac{BC}{AB}$",
           "$\\frac{BC}{AC}$",
-          "$\\frac{BC}{AB}$"
+          "$\\frac{AC}{AB}$"
         ],
         "correct": 0
       },
@@ -56,12 +56,12 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Giá trị của $\\sin 30^\\circ$ bằng:",
         "options": [
-          "$\\frac{1}{2}$",
           "$\\frac{\\sqrt{2}}{2}$",
           "$\\frac{\\sqrt{3}}{2}$",
+          "$\\frac{1}{2}$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -80,24 +80,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Giá trị của $\\tan 45^\\circ$ bằng:",
         "options": [
-          "$1$",
-          "$\\sqrt{3}$",
           "$\\frac{\\sqrt{3}}{3}$",
-          "$0$"
+          "$1$",
+          "$0$",
+          "$\\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hai góc $\\alpha$ và $\\beta$ phụ nhau ($\\alpha + \\beta = 90^\\circ$). Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\sin \\alpha = \\cos \\beta$",
           "$\\tan \\alpha = \\cot \\beta$",
+          "$\\sin \\alpha = \\tan \\beta$",
           "$\\cos \\alpha = \\sin \\beta$",
-          "$\\sin \\alpha = \\tan \\beta$"
+          "$\\sin \\alpha = \\cos \\beta$"
         ],
-        "correct": 3
+        "correct": 1
       },
       {
         "id": 9,
@@ -105,8 +105,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho góc nhọn $\\alpha$. Hệ thức nào sau đây luôn đúng?",
         "options": [
           "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
-          "$\\sin^2 \\alpha - \\cos^2 \\alpha = 1$",
           "$\\tan \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$",
+          "$\\sin^2 \\alpha - \\cos^2 \\alpha = 1$",
           "$\\tan \\alpha \\cdot \\cot \\alpha = -1$"
         ],
         "correct": 0
@@ -116,36 +116,36 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 3$ cm, $AC = 4$ cm. Độ dài cạnh huyền $BC$ và giá trị $\\sin B$ là:",
         "options": [
-          "$BC = 5$ cm, $\\sin B = \\frac{4}{5}$",
-          "$BC = 5$ cm, $\\sin B = \\frac{3}{5}$",
+          "$BC = 5$ cm, $\\sin B = \\frac{3}{4}$",
           "$BC = 7$ cm, $\\sin B = \\frac{4}{7}$",
-          "$BC = 5$ cm, $\\sin B = \\frac{3}{4}$"
+          "$BC = 5$ cm, $\\sin B = \\frac{3}{5}$",
+          "$BC = 5$ cm, $\\sin B = \\frac{4}{5}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho góc nhọn $\\alpha$ có $\\tan \\alpha = \\frac{3}{4}$. Khi đó $\\cot \\alpha$ bằng:",
         "options": [
-          "$\\frac{4}{3}$",
           "$\\frac{3}{4}$",
+          "$\\frac{4}{5}$",
           "$\\frac{3}{5}$",
-          "$\\frac{4}{5}$"
+          "$\\frac{4}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $P = \\sin^2 25^\\circ + \\sin^2 65^\\circ$ là:",
         "options": [
-          "$1$",
-          "$0$",
           "$2$",
-          "$\\frac{1}{2}$"
+          "$1$",
+          "$\\frac{1}{2}$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -304,72 +304,72 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Hệ thức nào sau đây diễn tả đúng mối liên hệ giữa $\\tan \\alpha$ và $\\cot \\alpha$ ($0^\\circ < \\alpha < 90^\\circ$)?",
         "options": [
-          "$\\tan \\alpha \\cdot \\cot \\alpha = 1$",
           "$\\tan \\alpha + \\cot \\alpha = 1$",
+          "$\\tan \\alpha \\cdot \\cot \\alpha = 1$",
           "$\\tan \\alpha = -\\cot \\alpha$",
           "$\\tan^2 \\alpha + \\cot^2 \\alpha = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hệ thức nào sau đây liên hệ giữa $\\tan \\alpha$ và $\\cos \\alpha$ ($0^\\circ < \\alpha < 90^\\circ$)?",
         "options": [
-          "$1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$",
-          "$1 + \\tan^2 \\alpha = \\cos^2 \\alpha$",
           "$1 - \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$",
-          "$\\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$"
+          "$1 + \\tan^2 \\alpha = \\cos^2 \\alpha$",
+          "$\\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$",
+          "$1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Khi góc nhọn $\\alpha$ tăng từ $0^\\circ$ đến $90^\\circ$ thì:",
         "options": [
-          "$\\sin \\alpha$ tăng, $\\cos \\alpha$ giảm",
           "$\\sin \\alpha$ giảm, $\\cos \\alpha$ tăng",
+          "$\\sin \\alpha$ tăng, $\\cos \\alpha$ giảm",
           "Cả $\\sin \\alpha$ và $\\cos \\alpha$ đều tăng",
           "Cả $\\sin \\alpha$ và $\\cos \\alpha$ đều giảm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Khi góc nhọn $\\alpha$ tăng từ $0^\\circ$ đến $90^\\circ$ thì:",
         "options": [
+          "Cả $\\tan \\alpha$ và $\\cot \\alpha$ đều giảm",
           "$\\tan \\alpha$ tăng, $\\cot \\alpha$ giảm",
           "$\\tan \\alpha$ giảm, $\\cot \\alpha$ tăng",
-          "Cả $\\tan \\alpha$ và $\\cot \\alpha$ đều tăng",
-          "Cả $\\tan \\alpha$ và $\\cot \\alpha$ đều giảm"
+          "Cả $\\tan \\alpha$ và $\\cot \\alpha$ đều tăng"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6$ cm, $BC = 10$ cm. Giá trị của $\\cot C$ là:",
         "options": [
-          "$\\frac{4}{3}$",
+          "$\\frac{4}{5}$",
           "$\\frac{3}{4}$",
-          "$\\frac{3}{5}$",
-          "$\\frac{4}{5}$"
+          "$\\frac{4}{3}$",
+          "$\\frac{3}{5}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho góc nhọn $\\alpha$ có $\\cos \\alpha = \\frac{5}{13}$. Giá trị của $\\sin \\alpha$ là:",
         "options": [
-          "$\\frac{12}{13}$",
+          "$\\frac{11}{13}$",
           "$\\frac{13}{12}$",
-          "$\\frac{8}{13}$",
-          "$\\frac{11}{13}$"
+          "$\\frac{12}{13}$",
+          "$\\frac{8}{13}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -377,9 +377,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Giá trị của biểu thức $H = \\tan 25^\\circ \\cdot \\tan 65^\\circ - \\frac{\\sin 40^\\circ}{\\cos 50^\\circ}$ bằng:",
         "options": [
           "$0$",
-          "$1$",
           "$-1$",
-          "$2$"
+          "$2$",
+          "$1$"
         ],
         "correct": 0
       },
@@ -388,36 +388,36 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 45^\\circ$, kẻ đường cao $AH = 6$ cm. Độ dài cạnh $AB$ bằng:",
         "options": [
-          "$4\\sqrt{3}$ cm",
-          "$6\\sqrt{3}$ cm",
+          "$3\\sqrt{3}$ cm",
           "$12$ cm",
-          "$3\\sqrt{3}$ cm"
+          "$6\\sqrt{3}$ cm",
+          "$4\\sqrt{3}$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $\\tan \\alpha = 3$. Giá trị của biểu thức $\\sin^2 \\alpha$ là:",
         "options": [
-          "$\\frac{9}{10}$",
-          "$\\frac{1}{10}$",
+          "$\\frac{3}{\\sqrt{10}}$",
           "$\\frac{3}{10}$",
-          "$\\frac{3}{\\sqrt{10}}$"
+          "$\\frac{9}{10}$",
+          "$\\frac{1}{10}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho góc nhọn $\\alpha$ thỏa mãn $\\sin \\alpha + \\cos \\alpha = \\frac{7}{5}$. Giá trị của tích $\\sin \\alpha \\cdot \\cos \\alpha$ là:",
         "options": [
-          "$\\frac{12}{25}$",
-          "$\\frac{24}{25}$",
           "$\\frac{6}{25}$",
-          "$\\frac{49}{25}$"
+          "$\\frac{24}{25}$",
+          "$\\frac{49}{25}$",
+          "$\\frac{12}{25}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -425,9 +425,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4$ cm, $CH = 9$ cm. Tỉ số $\\tan B$ bằng:",
         "options": [
           "$\\frac{3}{2}$",
-          "$\\frac{2}{3}$",
           "$\\frac{4}{9}$",
-          "$\\frac{9}{4}$"
+          "$\\frac{9}{4}$",
+          "$\\frac{2}{3}$"
         ],
         "correct": 0
       },
@@ -437,9 +437,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ nhọn. Khẳng định nào sau đây là đúng về diện tích tam giác $ABC$?",
         "options": [
           "$S = \\frac{1}{2} AB \\cdot AC \\cdot \\sin A$",
+          "$S = \\frac{1}{2} AB \\cdot AC \\cdot \\tan A$",
           "$S = \\frac{1}{2} AB \\cdot AC \\cdot \\cos A$",
-          "$S = AB \\cdot AC \\cdot \\sin A$",
-          "$S = \\frac{1}{2} AB \\cdot AC \\cdot \\tan A$"
+          "$S = AB \\cdot AC \\cdot \\sin A$"
         ],
         "correct": 0
       }
@@ -600,12 +600,12 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu thức $P = \\sin^6 \\alpha + \\cos^6 \\alpha + 3\\sin^2 \\alpha \\cos^2 \\alpha$ có giá trị bằng:",
         "options": [
+          "$0$",
           "$1$",
           "$2$",
-          "$3$",
-          "$0$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -613,9 +613,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Biểu thức $Q = (\\sin \\alpha + \\cos \\alpha)^2 + (\\sin \\alpha - \\cos \\alpha)^2$ rút gọn được:",
         "options": [
           "$2$",
-          "$1$",
+          "$0$",
           "$4\\sin \\alpha \\cos \\alpha$",
-          "$0$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -624,84 +624,84 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho góc nhọn $\\alpha$ thỏa mãn $\\tan \\alpha + \\cot \\alpha = 3$. Giá trị của $\\tan^2 \\alpha + \\cot^2 \\alpha$ là:",
         "options": [
-          "$7$",
-          "$9$",
+          "$5$",
           "$11$",
-          "$5$"
+          "$9$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $K = \\sin 10^\\circ - \\cos 80^\\circ + \\tan 25^\\circ - \\cot 65^\\circ$ là:",
         "options": [
-          "$0$",
-          "$1$",
           "$2$",
+          "$1$",
+          "$0$",
           "$-1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ nhọn có đường cao $AH$. Biết $AB = c, AC = b$ và góc $\\widehat{A} = 60^\\circ$. Diện tích tam giác $ABC$ là:",
         "options": [
-          "$\\frac{\\sqrt{3}}{4} bc$",
-          "$\\frac{1}{4} bc$",
           "$\\frac{\\sqrt{3}}{2} bc$",
-          "$\\frac{1}{2} bc$"
+          "$\\frac{\\sqrt{3}}{4} bc$",
+          "$\\frac{1}{2} bc$",
+          "$\\frac{1}{4} bc$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho góc nhọn $\\alpha$ thỏa mãn $\\sin \\alpha \\cdot \\cos \\alpha = \\frac{12}{25}$ và $\\sin \\alpha > \\cos \\alpha$. Hiệu $\\sin \\alpha - \\cos \\alpha$ bằng:",
         "options": [
-          "$\\frac{1}{5}$",
           "$\\frac{2}{5}$",
+          "$\\frac{1}{25}$",
           "$\\frac{7}{25}$",
-          "$\\frac{1}{25}$"
+          "$\\frac{1}{5}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $A = \\sqrt{\\sin^4 \\alpha + 4\\cos^2 \\alpha} + \\sqrt{\\cos^4 \\alpha + 4\\sin^2 \\alpha}$ được:",
         "options": [
-          "$3$",
-          "$1$",
           "$2$",
-          "$4$"
+          "$4$",
+          "$3$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho $\\tan \\alpha = 2$. Giá trị của biểu thức $M = \\frac{\\sin^3 \\alpha + \\cos^3 \\alpha}{\\sin \\alpha + 3\\cos \\alpha}$ là:",
         "options": [
-          "$\\frac{9}{25}$",
           "$\\frac{7}{25}$",
+          "$\\frac{1}{5}$",
           "$\\frac{11}{25}$",
-          "$\\frac{1}{5}$"
+          "$\\frac{9}{25}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $\\widehat{B} = 15^\\circ$ và $BC = 4$ cm. Diện tích của tam giác $ABC$ bằng:",
         "options": [
-          "$2$ cm$^2$",
           "$4$ cm$^2$",
+          "$2$ cm$^2$",
           "$1$ cm$^2$",
           "$2\\sqrt{3}$ cm$^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -709,8 +709,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ cân tại $A$ có $\\widehat{A} = 120^\\circ$ và cạnh bên $AB = 6$ cm. Độ dài cạnh đáy $BC$ là:",
         "options": [
           "$6\\sqrt{3}$ cm",
-          "$6$ cm",
           "$12$ cm",
+          "$6$ cm",
           "$3\\sqrt{3}$ cm"
         ],
         "correct": 0
@@ -720,12 +720,12 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $P = \\tan^2 \\alpha + \\cot^2 \\alpha$ ($0^\\circ < \\alpha < 90^\\circ$) là:",
         "options": [
-          "$2$",
-          "$1$",
+          "$\\sqrt{2}$",
           "$4$",
-          "$\\sqrt{2}$"
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -896,24 +896,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Hệ thức nào sau đây diễn tả cạnh góc vuông theo cạnh huyền và góc nhọn?",
         "options": [
-          "$b = a \\cdot \\sin B$",
           "$b = a \\cdot \\tan B$",
           "$b = a \\cdot \\cot B$",
-          "$b = c \\cdot \\sin B$"
+          "$b = c \\cdot \\sin B$",
+          "$b = a \\cdot \\sin B$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Hệ thức nào sau đây diễn tả cạnh góc vuông $b$ theo cạnh góc vuông $c$?",
         "options": [
-          "$b = c \\cdot \\tan B$",
           "$b = c \\cdot \\sin B$",
           "$b = c \\cdot \\cos B$",
+          "$b = c \\cdot \\tan B$",
           "$b = c / \\tan B$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -921,9 +921,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh huyền nhân với:",
         "options": [
           "Sin góc đối hoặc côsin góc kề",
-          "Tang góc đối",
+          "Côsin góc đối",
           "Côtang góc kề",
-          "Côsin góc đối"
+          "Tang góc đối"
         ],
         "correct": 0
       },
@@ -932,36 +932,36 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với:",
         "options": [
-          "Tang góc đối hoặc côtang góc kề",
-          "Sin góc đối",
+          "Tang góc kề",
           "Côsin góc kề",
-          "Tang góc kề"
+          "Tang góc đối hoặc côtang góc kề",
+          "Sin góc đối"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $BC = 10$ cm và $\\widehat{B} = 30^\\circ$. Độ dài cạnh $AC$ là:",
         "options": [
-          "$5$ cm",
           "$5\\sqrt{3}$ cm",
+          "$5$ cm",
           "$10\\sqrt{3}$ cm",
           "$2{,}5$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6$ cm và $\\widehat{B} = 60^\\circ$. Độ dài cạnh $AC$ là:",
         "options": [
-          "$6\\sqrt{3}$ cm",
           "$2\\sqrt{3}$ cm",
+          "$12$ cm",
           "$3$ cm",
-          "$12$ cm"
+          "$6\\sqrt{3}$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -969,9 +969,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AC = 8$ cm và $\\widehat{C} = 45^\\circ$. Độ dài cạnh $AB$ là:",
         "options": [
           "$8$ cm",
-          "$8\\sqrt{2}$ cm",
+          "$4$ cm",
           "$4\\sqrt{2}$ cm",
-          "$4$ cm"
+          "$8\\sqrt{2}$ cm"
         ],
         "correct": 0
       },
@@ -980,24 +980,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một cột cờ cao $3{,}5$ m có bóng trên mặt đất dài $4{,}8$ m. Góc tạo bởi tia nắng mặt trời với mặt đất (làm tròn đến độ) xấp xỉ:",
         "options": [
-          "$36^\\circ$",
           "$54^\\circ$",
-          "$43^\\circ$",
-          "$45^\\circ$"
+          "$36^\\circ$",
+          "$45^\\circ$",
+          "$43^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Một thang dài $4$ m dựa vào tường tạo với mặt đất một góc $65^\\circ$. Chiều cao thang chạm tường (làm tròn đến hàng phần mười) là:",
         "options": [
+          "$4{,}4$ m",
           "$3{,}6$ m",
           "$1{,}7$ m",
-          "$4{,}4$ m",
           "$3{,}2$ m"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -1005,9 +1005,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Giải tam giác vuông là bài toán:",
         "options": [
           "Tìm tất cả các cạnh và các góc còn lại của tam giác vuông khi biết trước hai yếu tố (trong đó có ít nhất một cạnh)",
-          "Tính chu vi tam giác vuông",
           "Tính diện tích tam giác vuông",
-          "Vẽ hình tam giác vuông chính xác"
+          "Vẽ hình tam giác vuông chính xác",
+          "Tính chu vi tam giác vuông"
         ],
         "correct": 0
       },
@@ -1016,24 +1016,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $BC = 12$ cm và $\\widehat{B} = 35^\\circ$. Độ dài cạnh $AB$ (làm tròn đến 1 chữ số thập phân) là:",
         "options": [
-          "$9{,}8$ cm",
-          "$6{,}9$ cm",
           "$8{,}4$ cm",
-          "$7{,}2$ cm"
+          "$6{,}9$ cm",
+          "$7{,}2$ cm",
+          "$9{,}8$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Một máy bay bay lên với vận tốc $500$ km/h theo phương tạo với mặt đất góc $25^\\circ$. Sau $1{,}2$ phút máy bay đạt độ cao bao nhiêu km (làm tròn đến hàng phần mười)?",
         "options": [
-          "$4{,}2$ km",
           "$9{,}1$ km",
           "$5{,}0$ km",
+          "$4{,}2$ km",
           "$3{,}8$ km"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1196,24 +1196,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $b = 10$ cm, $\\widehat{C} = 40^\\circ$. Cạnh $c$ bằng:",
         "options": [
-          "$10 \\cdot \\cot 40^\\circ$",
           "$10 \\cdot \\tan 40^\\circ$",
           "$10 / \\tan 40^\\circ$",
-          "$10 \\cdot \\sin 40^\\circ$"
+          "$10 \\cdot \\sin 40^\\circ$",
+          "$10 \\cdot \\cot 40^\\circ$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 8$ cm, $AC = 6$ cm. Số đo góc $B$ (làm tròn đến độ) xấp xỉ:",
         "options": [
-          "$37^\\circ$",
-          "$53^\\circ$",
+          "$30^\\circ$",
           "$45^\\circ$",
-          "$30^\\circ$"
+          "$53^\\circ$",
+          "$37^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -1221,9 +1221,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Một người leo núi từ chân dốc lên đỉnh dốc dài $1200$ m, góc dốc nghiêng $18^\\circ$ so với phương ngang. Độ cao mà người đó đạt được là bao nhiêu mét (làm tròn đến hàng đơn vị, biết $\\sin 18^\\circ \\approx 0{,}3090$)?",
         "options": [
           "$371$ m",
-          "$1141$ m",
           "$390$ m",
-          "$400$ m"
+          "$400$ m",
+          "$1141$ m"
         ],
         "correct": 0
       },
@@ -1232,12 +1232,12 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác nhọn $ABC$ có $AB = 10$ cm, $\\widehat{B} = 45^\\circ$. Chiều cao $AH$ hạ từ đỉnh $A$ xuống $BC$ có độ dài:",
         "options": [
+          "$5\\sqrt{3}$ cm",
           "$5\\sqrt{2}$ cm",
           "$10\\sqrt{2}$ cm",
-          "$5$ cm",
-          "$5\\sqrt{3}$ cm"
+          "$5$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -1245,9 +1245,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Tam giác $ABC$ cân tại $A$ có cạnh đáy $BC = 16$ cm và $\\widehat{B} = 50^\\circ$. Chiều cao $AH$ ứng với đáy xấp xỉ:",
         "options": [
           "$9{,}5$ cm",
-          "$6{,}7$ cm",
           "$13{,}4$ cm",
-          "$10{,}5$ cm"
+          "$10{,}5$ cm",
+          "$6{,}7$ cm"
         ],
         "correct": 0
       },
@@ -1256,84 +1256,84 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 45^\\circ$ và $BC = 10$ cm. Kẻ đường cao $AH$. Chiều cao $AH$ có giá trị bằng:",
         "options": [
+          "$10(\\sqrt{3}-1)$ cm",
           "$\\frac{10}{\\frac{\\sqrt{3}}{3} + 1}$ cm",
-          "$5\\sqrt{3}$ cm",
           "$5$ cm",
-          "$10(\\sqrt{3}-1)$ cm"
+          "$5\\sqrt{3}$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Một con tàu ở ngoài biển quan sát thấy ngọn hải đăng có độ cao $75$ m dưới góc nâng $12^\\circ$. Khoảng cách từ tàu đến chân ngọn hải đăng xấp xỉ (lấy $\\tan 12^\\circ \\approx 0{,}2126$):",
         "options": [
-          "$353$ m",
           "$360$ m",
           "$312$ m",
+          "$353$ m",
           "$405$ m"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho hình thang vuông $ABCD$ vuông tại $A$ và $D$ có đáy nhỏ $AB = 4$ cm, đáy lớn $CD = 10$ cm, góc $\\widehat{C} = 30^\\circ$. Chiều cao $AD$ của hình thang là:",
         "options": [
-          "$2\\sqrt{3}$ cm",
           "$6\\sqrt{3}$ cm",
+          "$2\\sqrt{3}$ cm",
           "$3\\sqrt{3}$ cm",
           "$6$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Một bức tường cao $3$ m. Muốn kê một chiếc thang sao cho góc tạo bởi thang với mặt đất là $65^\\circ$ để đảm bảo an toàn thì độ dài chiếc thang cần chọn ít nhất là:",
         "options": [
-          "$3{,}31$ m",
-          "$3{,}50$ m",
+          "$4{,}00$ m",
           "$2{,}72$ m",
-          "$4{,}00$ m"
+          "$3{,}31$ m",
+          "$3{,}50$ m"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có $AB = 5$ cm, $AC = 8$ cm và góc $\\widehat{A} = 30^\\circ$. Diện tích của tam giác $ABC$ là:",
         "options": [
-          "$10$ cm$^2$",
           "$20$ cm$^2$",
           "$10\\sqrt{3}$ cm$^2$",
-          "$20\\sqrt{3}$ cm$^2$"
+          "$20\\sqrt{3}$ cm$^2$",
+          "$10$ cm$^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Một ca nô qua sông với vận tốc riêng $15$ km/h, hướng thẳng góc với bờ sông. Vận tốc dòng nước là $5$ km/h. Góc lệch của đường đi thực tế của ca nô so với hướng vuông góc với bờ sông (làm tròn đến độ) là:",
         "options": [
-          "$18^\\circ$",
-          "$72^\\circ$",
           "$15^\\circ$",
+          "$72^\\circ$",
+          "$18^\\circ$",
           "$20^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ vuông tại $A$, phân giác $AD$. Biết $AB = c, AC = b$. Khi đó độ dài đoạn phân giác $AD$ tính theo $b, c$ là:",
         "options": [
-          "$\\frac{\\sqrt{2}bc}{b + c}$",
           "$\\frac{2bc}{b + c}$",
+          "$\\frac{bc}{\\sqrt{2}(b + c)}$",
           "$\\frac{\\sqrt{2}(b+c)}{bc}$",
-          "$\\frac{bc}{\\sqrt{2}(b + c)}$"
+          "$\\frac{\\sqrt{2}bc}{b + c}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1493,9 +1493,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$ và cạnh $c = AB = 8$ cm. Chiều cao $AH$ có độ dài:",
         "options": [
           "$4\\sqrt{2}$ cm",
+          "$4\\sqrt{3}$ cm",
           "$4$ cm",
-          "$8\\sqrt{2}$ cm",
-          "$4\\sqrt{3}$ cm"
+          "$8\\sqrt{2}$ cm"
         ],
         "correct": 0
       },
@@ -1505,9 +1505,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ nhọn. Định lí sin phát biểu rằng trong tam giác $ABC$ với $R$ là bán kính đường tròn ngoại tiếp:",
         "options": [
           "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$",
-          "$\\frac{a}{\\sin A} = R$",
+          "$\\frac{\\sin A}{a} = 2R$",
           "$\\frac{a}{\\cos A} = 2R$",
-          "$\\frac{\\sin A}{a} = 2R$"
+          "$\\frac{a}{\\sin A} = R$"
         ],
         "correct": 0
       },
@@ -1516,84 +1516,84 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có $\\widehat{A} = 105^\\circ, \\widehat{B} = 45^\\circ$ và $BC = 12$ cm. Độ dài cạnh $AC$ bằng:",
         "options": [
+          "$6$ cm",
           "$6\\sqrt{2}$ cm",
-          "$6\\sqrt{6}$ cm",
           "$4\\sqrt{6}$ cm",
-          "$6$ cm"
+          "$6\\sqrt{6}$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho hình bình hành $ABCD$ có $AB = 6$ cm, $AD = 8$ cm và $\\widehat{A} = 60^\\circ$. Diện tích của hình bình hành $ABCD$ là:",
         "options": [
-          "$24\\sqrt{3}$ cm$^2$",
-          "$48$ cm$^2$",
           "$12\\sqrt{3}$ cm$^2$",
-          "$48\\sqrt{3}$ cm$^2$"
+          "$24\\sqrt{3}$ cm$^2$",
+          "$48\\sqrt{3}$ cm$^2$",
+          "$48$ cm$^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có chu vi $72$ cm và $\\tan B = \\frac{3}{4}$. Độ dài cạnh huyền $BC$ là:",
         "options": [
-          "$30$ cm",
-          "$24$ cm",
+          "$25$ cm",
           "$18$ cm",
-          "$25$ cm"
+          "$24$ cm",
+          "$30$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Một người đứng tại bờ biển quan sát một ngọn hải đăng cao $50$ m. Ban đầu người đó thấy ngọn đèn với góc nâng $20^\\circ$, sau khi đi thẳng lại gần thêm $40$ m thấy ngọn đèn với góc nâng $x$. Góc $x$ (làm tròn đến độ) xấp xỉ:",
         "options": [
-          "$27^\\circ$",
           "$35^\\circ$",
+          "$27^\\circ$",
           "$22^\\circ$",
           "$30^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có trung tuyến $AM = 5$ cm và $AB = 6$ cm, $AC = 8$ cm. Tam giác $ABC$ là tam giác gì?",
         "options": [
-          "Tam giác vuông tại $A$",
-          "Tam giác đều",
+          "Tam giác tù",
           "Tam giác nhọn không đều",
-          "Tam giác tù"
+          "Tam giác vuông tại $A$",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ nhọn có đường cao $AH$. Đẳng thức nào sau đây luôn đúng?",
         "options": [
-          "$BC = AH(\\cot B + \\cot C)$",
           "$BC = AH(\\tan B + \\tan C)$",
+          "$BC = \\frac{AH}{\\cot B + \\cot C}$",
           "$BC = AH(\\sin B + \\sin C)$",
-          "$BC = \\frac{AH}{\\cot B + \\cot C}$"
+          "$BC = AH(\\cot B + \\cot C)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Một cột truyền hình cao $80$ m được giữ bằng 3 sợi dây cáp thép nối từ đỉnh cột xuống các vị trí cố định trên mặt đất. Các sợi dây cáp đều tạo với mặt đất góc $60^\\circ$. Tổng chiều dài của 3 sợi dây cáp (bỏ qua đoạn nối buộc) xấp xỉ:",
         "options": [
-          "$277$ m",
           "$240$ m",
-          "$160$ m",
-          "$300$ m"
+          "$300$ m",
+          "$277$ m",
+          "$160$ m"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -1601,8 +1601,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho hình chữ nhật $ABCD$ có $AB = 24$ cm, $AD = 10$ cm. Gọi $O$ là giao điểm hai đường chéo. Số đo góc nhọn giữa hai đường chéo (làm tròn đến phút) là:",
         "options": [
           "$45^\\circ 14'$",
-          "$44^\\circ 46'$",
           "$22^\\circ 37'$",
+          "$44^\\circ 46'$",
           "$67^\\circ 23'$"
         ],
         "correct": 0
@@ -1612,24 +1612,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ có diện tích $S = 24$ cm$^2$, nửa chu vi $p = 12$ cm. Bán kính đường tròn nội tiếp $r$ của tam giác là:",
         "options": [
-          "$2$ cm",
+          "$1$ cm",
           "$3$ cm",
           "$4$ cm",
-          "$1$ cm"
+          "$2$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tam giác vuông $ABC$ tại $A$ có $b, c$ là hai cạnh góc vuông và $h$ là chiều cao ứng với cạnh huyền. Khi đó $\\frac{1}{b^2} + \\frac{1}{c^2}$ bằng:",
         "options": [
-          "$\\frac{1}{h^2}$",
+          "$\\frac{2}{h^2}$",
           "$h^2$",
-          "$\\frac{1}{2h^2}$",
-          "$\\frac{2}{h^2}$"
+          "$\\frac{1}{h^2}$",
+          "$\\frac{1}{2h^2}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1801,9 +1801,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Hệ thức nào sau đây diễn tả định lí Pythagore?",
         "options": [
           "$BC^2 = AB^2 + AC^2$",
+          "$BC = AB + AC$",
           "$AB^2 = BC^2 + AC^2$",
-          "$AC^2 = AB^2 + BC^2$",
-          "$BC = AB + AC$"
+          "$AC^2 = AB^2 + BC^2$"
         ],
         "correct": 0
       },
@@ -1812,24 +1812,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Hệ thức nào sau đây là đúng?",
         "options": [
-          "$AH^2 = BH \\cdot CH$",
           "$AH = BH \\cdot CH$",
-          "$AH^2 = AB \\cdot AC$",
-          "$AH^2 = BC^2$"
+          "$AH^2 = BC^2$",
+          "$AH^2 = BH \\cdot CH$",
+          "$AH^2 = AB \\cdot AC$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Hệ thức liên hệ giữa cạnh góc vuông và hình chiếu của nó trên cạnh huyền là:",
         "options": [
+          "$AB = BH \\cdot BC$",
           "$AB^2 = BH \\cdot BC$",
-          "$AB^2 = CH \\cdot BC$",
           "$AB^2 = AH \\cdot BC$",
-          "$AB = BH \\cdot BC$"
+          "$AB^2 = CH \\cdot BC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -1838,8 +1838,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "options": [
           "Cạnh huyền và đường cao tương ứng ($AB \\cdot AC = BC \\cdot AH$)",
           "Hai hình chiếu của hai cạnh góc vuông",
-          "Đường cao và hình chiếu",
-          "Cạnh huyền và bình phương đường cao"
+          "Cạnh huyền và bình phương đường cao",
+          "Đường cao và hình chiếu"
         ],
         "correct": 0
       },
@@ -1848,24 +1848,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho góc nhọn $\\alpha$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\tan \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$",
-          "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
           "$\\tan \\alpha \\cdot \\cot \\alpha = 1$",
-          "$\\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$"
+          "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
+          "$\\cot \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$",
+          "$\\tan \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 3$ cm, $BC = 5$ cm. Khi đó $\\cos C$ bằng:",
         "options": [
-          "$\\frac{4}{5}$",
-          "$\\frac{3}{5}$",
+          "$\\frac{4}{3}$",
           "$\\frac{3}{4}$",
-          "$\\frac{4}{3}$"
+          "$\\frac{4}{5}$",
+          "$\\frac{3}{5}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -1874,8 +1874,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "options": [
           "$4$ cm",
           "$16$ cm",
-          "$5$ cm",
-          "$10$ cm"
+          "$10$ cm",
+          "$5$ cm"
         ],
         "correct": 0
       },
@@ -1884,60 +1884,60 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AC = 6$ cm, $\\widehat{C} = 30^\\circ$. Cạnh huyền $BC$ bằng:",
         "options": [
-          "$4\\sqrt{3}$ cm",
-          "$12$ cm",
           "$3\\sqrt{3}$ cm",
-          "$6\\sqrt{3}$ cm"
+          "$4\\sqrt{3}$ cm",
+          "$6\\sqrt{3}$ cm",
+          "$12$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = \\sin 30^\\circ \\cdot \\cos 60^\\circ + \\cos 30^\\circ \\cdot \\sin 60^\\circ$ là:",
         "options": [
+          "$\\frac{\\sqrt{3}}{2}$",
           "$1$",
           "$\\frac{1}{2}$",
-          "$\\frac{\\sqrt{3}}{2}$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Một cái cây cao $6$ m đổ bóng trên mặt đất dài $8$ m. Góc tia sáng mặt trời tạo với mặt đất (làm tròn đến độ) xấp xỉ:",
         "options": [
-          "$37^\\circ$",
-          "$53^\\circ$",
           "$45^\\circ$",
+          "$53^\\circ$",
+          "$37^\\circ$",
           "$30^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 6$ cm, $BC = 10$ cm. Độ dài đoạn $BH$ bằng:",
         "options": [
-          "$3{,}6$ cm",
           "$4{,}8$ cm",
+          "$4$ cm",
           "$6{,}4$ cm",
-          "$4$ cm"
+          "$3{,}6$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Cho góc nhọn $\\alpha$ có $\\sin \\alpha = \\frac{1}{3}$. Giá trị của biểu thức $M = 9\\cos^2 \\alpha + 1$ là:",
         "options": [
-          "$9$",
-          "$8$",
+          "$7$",
           "$10$",
-          "$7$"
+          "$8$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2096,24 +2096,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 5$ cm, $AC = 12$ cm. Độ dài đường cao $AH$ là:",
         "options": [
-          "$\\frac{60}{13}$ cm",
           "$\\frac{13}{60}$ cm",
+          "$6{,}5$ cm",
           "$13$ cm",
-          "$6{,}5$ cm"
+          "$\\frac{60}{13}$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 9$ cm, $HC = 16$ cm. Chu vi của tam giác $ABC$ là:",
         "options": [
-          "$60$ cm",
           "$50$ cm",
-          "$72$ cm",
-          "$48$ cm"
+          "$48$ cm",
+          "$60$ cm",
+          "$72$ cm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -2132,12 +2132,12 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu thức $E = \\frac{\\sin^2 38^\\circ + \\sin^2 52^\\circ}{\\tan 20^\\circ \\cdot \\tan 70^\\circ}$ có giá trị bằng:",
         "options": [
-          "$1$",
-          "$2$",
           "$0$",
-          "$\\frac{1}{2}$"
+          "$\\frac{1}{2}$",
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -2156,24 +2156,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Tam giác $ABC$ nhọn có $AB = 6$ cm, $AC = 8$ cm và góc $\\widehat{A} = 60^\\circ$. Diện tích của tam giác $ABC$ là:",
         "options": [
-          "$12\\sqrt{3}$ cm$^2$",
-          "$24\\sqrt{3}$ cm$^2$",
           "$12$ cm$^2$",
-          "$24$ cm$^2$"
+          "$12\\sqrt{3}$ cm$^2$",
+          "$24$ cm$^2$",
+          "$24\\sqrt{3}$ cm$^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Một người nhìn thấy đỉnh một tòa nhà cao tầng dưới góc nâng $40^\\circ$. Sau khi lùi ra xa thêm $30$ m thì thấy đỉnh tòa nhà dưới góc nâng $30^\\circ$. Chiều cao của tòa nhà (làm tròn đến hàng đơn vị mét) là:",
         "options": [
-          "$56$ m",
           "$62$ m",
-          "$48$ m",
-          "$70$ m"
+          "$70$ m",
+          "$56$ m",
+          "$48$ m"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -2181,9 +2181,9 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AH = 12$ cm và $\\frac{BH}{CH} = \\frac{9}{16}$. Độ dài cạnh huyền $BC$ là:",
         "options": [
           "$25$ cm",
-          "$20$ cm",
+          "$35$ cm",
           "$30$ cm",
-          "$35$ cm"
+          "$20$ cm"
         ],
         "correct": 0
       },
@@ -2192,48 +2192,48 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho góc nhọn $\\alpha$ biết $\\sin \\alpha + \\cos \\alpha = \\frac{5}{4}$. Giá trị của $\\sin \\alpha \\cdot \\cos \\alpha$ là:",
         "options": [
-          "$\\frac{9}{32}$",
+          "$\\frac{25}{32}$",
           "$\\frac{9}{16}$",
-          "$\\frac{3}{8}$",
-          "$\\frac{25}{32}$"
+          "$\\frac{9}{32}$",
+          "$\\frac{3}{8}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho hình chữ nhật $ABCD$ có $AB = 8$ cm, $BC = 6$ cm. Kẻ $AH \\perp BD$ tại $H$. Độ dài đoạn thẳng $AH$ là:",
         "options": [
+          "$6{,}4$ cm",
           "$4{,}8$ cm",
           "$5$ cm",
-          "$3{,}6$ cm",
-          "$6{,}4$ cm"
+          "$3{,}6$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$ và $BC = 10(\\sqrt{3}+1)$ cm. Đường cao $AH$ có độ dài là:",
         "options": [
-          "$10$ cm",
           "$5\\sqrt{3}$ cm",
+          "$10$ cm",
           "$10\\sqrt{3}$ cm",
           "$20$ cm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tam giác vuông $ABC$ tại $A$. Gọi $r$ là bán kính đường tròn nội tiếp, $a, b, c$ lần lượt là độ dài ba cạnh $BC, AC, AB$. Công thức nào sau đây diễn tả đúng bán kính $r$?",
         "options": [
-          "$r = \\frac{b + c - a}{2}$",
+          "$r = \\frac{a + b - c}{2}$",
           "$r = \\frac{b + c + a}{2}$",
           "$r = \\frac{bc}{2a}$",
-          "$r = \\frac{a + b - c}{2}$"
+          "$r = \\frac{b + c - a}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2397,8 +2397,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $\\frac{AB}{AC} = \\frac{3}{4}$ và $BC = 25$ cm. Chiều cao $AH$ có độ dài là:",
         "options": [
           "$12$ cm",
-          "$15$ cm",
           "$20$ cm",
+          "$15$ cm",
           "$10$ cm"
         ],
         "correct": 0
@@ -2408,24 +2408,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho góc nhọn $\\alpha$. Biểu thức $T = (\\tan \\alpha + \\cot \\alpha)^2 - (\\tan \\alpha - \\cot \\alpha)^2$ có giá trị bằng:",
         "options": [
-          "$4$",
           "$2$",
-          "$1$",
-          "$0$"
+          "$0$",
+          "$4$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho tam giác vuông $ABC$ tại $A$, đường cao $AH$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\frac{1}{AH} = \\frac{1}{AB} + \\frac{1}{AC}$",
           "$\\frac{1}{AH^2} = \\frac{1}{AB^2} + \\frac{1}{AC^2}$",
           "$AH \\cdot BC = AB \\cdot AC$",
+          "$\\frac{1}{AH} = \\frac{1}{AB} + \\frac{1}{AC}$",
           "$AH^2 = BH \\cdot CH$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2434,8 +2434,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "options": [
           "$\\frac{1}{2}$",
           "$\\frac{\\sqrt{2}}{2}$",
-          "$\\frac{1}{3}$",
-          "$1$"
+          "$1$",
+          "$\\frac{1}{3}$"
         ],
         "correct": 0
       },
@@ -2444,24 +2444,24 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có $AB = 5$ cm, $AC = 7$ cm và $\\widehat{A} = 60^\\circ$. Độ dài cạnh $BC$ bằng:",
         "options": [
-          "$\\sqrt{39}$ cm",
-          "$\\sqrt{74}$ cm",
           "$6$ cm",
-          "$2\\sqrt{10}$ cm"
+          "$2\\sqrt{10}$ cm",
+          "$\\sqrt{39}$ cm",
+          "$\\sqrt{74}$ cm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho góc nhọn $\\alpha$ thỏa mãn $\\tan \\alpha + \\cot \\alpha = 4$. Giá trị của $\\sin 2\\alpha$ là:",
         "options": [
-          "$\\frac{1}{2}$",
-          "$\\frac{1}{4}$",
           "$1$",
-          "$\\frac{3}{4}$"
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{4}$",
+          "$\\frac{1}{4}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -2470,8 +2470,8 @@ const CHAPTER4_TOAN9_EXAMS = {
         "options": [
           "$5$ cm$^2$",
           "$10$ cm$^2$",
-          "$4$ cm$^2$",
-          "$2$ cm$^2$"
+          "$2$ cm$^2$",
+          "$4$ cm$^2$"
         ],
         "correct": 0
       },
@@ -2480,60 +2480,60 @@ const CHAPTER4_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hình thang vuông $ABCD$ ($\\widehat{A} = \\widehat{D} = 90^\\circ$) ngoại tiếp đường tròn bán kính $R = 3$ cm. Biết cạnh đáy lớn $CD = 8$ cm. Diện tích hình thang $ABCD$ bằng:",
         "options": [
-          "$42$ cm$^2$",
-          "$48$ cm$^2$",
           "$36$ cm$^2$",
-          "$54$ cm$^2$"
+          "$42$ cm$^2$",
+          "$54$ cm$^2$",
+          "$48$ cm$^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ nhọn có ba đường cao $AD, BE, CF$ đồng quy tại trực tâm $H$. Tỉ số $\\frac{HD}{AD} + \\frac{HE}{BE} + \\frac{HF}{CF}$ luôn bằng:",
         "options": [
-          "$1$",
+          "$\\frac{1}{2}$",
           "$2$",
           "$\\frac{3}{2}$",
-          "$\\frac{1}{2}$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Gọi $D$ là điểm trên cạnh huyền $BC$. Đẳng thức nào sau đây luôn thỏa mãn?",
         "options": [
-          "$AD^2 \\cdot BC = AB^2 \\cdot CD + AC^2 \\cdot BD - BC \\cdot BD \\cdot CD$ (Định lí Stewart)",
-          "$AD^2 = AB \\cdot AC$",
           "$AD = \\frac{AB + AC}{2}$",
-          "$AD^2 = BD \\cdot CD$"
+          "$AD^2 = AB \\cdot AC$",
+          "$AD^2 = BD \\cdot CD$",
+          "$AD^2 \\cdot BC = AB^2 \\cdot CD + AC^2 \\cdot BD - BC \\cdot BD \\cdot CD$ (Định lí Stewart)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho góc nhọn $\\alpha$. Giá trị nhỏ nhất của biểu thức $F = \\frac{1}{1 + \\sin \\alpha} + \\frac{1}{1 - \\sin \\alpha}$ là:",
         "options": [
-          "$2$ (đạt khi $\\alpha \\to 0^+$)",
           "$1$",
+          "Không có GTNN",
           "$4$",
-          "Không có GTNN"
+          "$2$ (đạt khi $\\alpha \\to 0^+$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Gọi $D, E$ lần lượt là hình chiếu của $H$ trên $AB, AC$. Hệ thức nào sau đây là đúng?",
         "options": [
+          "$DE = BD + CE$",
           "$DE^3 = BC \\cdot BD \\cdot CE$",
           "$DE^2 = BD \\cdot CE$",
-          "$DE = BD + CE$",
           "$DE^2 = BC \\cdot AH$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [

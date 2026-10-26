@@ -13,48 +13,48 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình bình hành là tứ giác có:",
         "options": [
-          "Các cạnh đối song song",
-          "Bốn cạnh bằng nhau",
+          "Hai đường chéo vuông góc",
           "Bốn góc vuông",
-          "Hai đường chéo vuông góc"
+          "Các cạnh đối song song",
+          "Bốn cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong hình bình hành, tính chất nào sau đây là sai?",
         "options": [
-          "Hai đường chéo bằng nhau",
-          "Các cạnh đối bằng nhau",
+          "Hai đường chéo cắt nhau tại trung điểm của mỗi đường",
           "Các góc đối bằng nhau",
-          "Hai đường chéo cắt nhau tại trung điểm của mỗi đường"
+          "Các cạnh đối bằng nhau",
+          "Hai đường chéo bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$ có $\\widehat{A} = 70^\\circ$. Số đo góc $C$ bằng:",
         "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
           "$140^\\circ$",
+          "$110^\\circ$",
+          "$70^\\circ$",
           "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$ có $\\widehat{A} = 100^\\circ$. Số đo góc $B$ bằng:",
         "options": [
+          "$120^\\circ$",
           "$80^\\circ$",
-          "$100^\\circ$",
           "$90^\\circ$",
-          "$120^\\circ$"
+          "$100^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -62,9 +62,9 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Hình bình hành có bao nhiêu tâm đối xứng?",
         "options": [
           "$1$",
+          "Vô số",
           "$2$",
-          "$0$",
-          "Vô số"
+          "$0$"
         ],
         "correct": 0
       },
@@ -73,12 +73,12 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tâm đối xứng của hình bình hành là:",
         "options": [
-          "Giao điểm của hai đường chéo",
           "Trung điểm của cạnh đáy",
-          "Giao điểm của hai đường cao",
-          "Một đỉnh bất kì"
+          "Giao điểm của hai đường chéo",
+          "Một đỉnh bất kì",
+          "Giao điểm của hai đường cao"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -86,8 +86,8 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$ có $AB = 7\\text{ cm}, BC = 5\\text{ cm}$. Chu vi hình bình hành $ABCD$ bằng:",
         "options": [
           "$24\\text{ cm}$",
-          "$12\\text{ cm}$",
           "$35\\text{ cm}$",
+          "$12\\text{ cm}$",
           "$20\\text{ cm}$"
         ],
         "correct": 0
@@ -97,12 +97,12 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Dấu hiệu nào sau đây không kết luận được một tứ giác là hình bình hành?",
         "options": [
-          "Tứ giác có hai cạnh đối bằng nhau",
-          "Tứ giác có các cạnh đối song song",
           "Tứ giác có hai cạnh đối song song và bằng nhau",
-          "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường"
+          "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+          "Tứ giác có các cạnh đối song song",
+          "Tứ giác có hai cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -121,36 +121,36 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hình bình hành $ABCD$ có $\\widehat{A} = 2\\widehat{B}$. Số đo góc $A$ bằng:",
         "options": [
-          "$120^\\circ$",
+          "$100^\\circ$",
           "$60^\\circ$",
-          "$90^\\circ$",
-          "$100^\\circ$"
+          "$120^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Gọi $M, N$ lần lượt là trung điểm của $AB, AC$. Lấy $P$ đối xứng với $M$ qua $N$. Tứ giác $AMCP$ là:",
         "options": [
-          "Hình bình hành",
           "Hình chữ nhật",
           "Hình thoi",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Hình bình hành $ABCD$ có $AB = 2AD$ và chu vi bằng $36\\text{ cm}$. Độ dài cạnh $AD$ bằng:",
         "options": [
+          "$4\\text{ cm}$",
           "$6\\text{ cm}$",
-          "$12\\text{ cm}$",
           "$9\\text{ cm}$",
-          "$4\\text{ cm}$"
+          "$12\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -270,24 +270,24 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác nào sau đây không nhất thiết là hình bình hành?",
         "options": [
-          "Tứ giác có hai cạnh đối bằng nhau",
+          "Tứ giác có các góc đối bằng nhau",
           "Tứ giác có các cạnh đối bằng nhau",
-          "Tứ giác có hai cạnh đối song song và bằng nhau",
-          "Tứ giác có các góc đối bằng nhau"
+          "Tứ giác có hai cạnh đối bằng nhau",
+          "Tứ giác có hai cạnh đối song song và bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$. Tia phân giác của góc $A$ cắt $BC$ tại $E$. Tam giác $ABE$ là tam giác:",
         "options": [
-          "Tam giác cân tại $B$",
+          "Tam giác tù",
           "Tam giác đều",
           "Tam giác vuông tại $E$",
-          "Tam giác tù"
+          "Tam giác cân tại $B$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -295,8 +295,8 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Giao điểm của hai đường chéo hình bình hành chia mỗi đường chéo thành:",
         "options": [
           "Hai đoạn thẳng bằng nhau",
-          "Hai đoạn thẳng tỉ lệ $1 : 2$",
           "Hai đoạn thẳng vuông góc",
+          "Hai đoạn thẳng tỉ lệ $1 : 2$",
           "Hai đoạn thẳng bất kì"
         ],
         "correct": 0
@@ -306,48 +306,48 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$ có $\\widehat{A} - \\widehat{B} = 40^\\circ$. Số đo góc $A$ bằng:",
         "options": [
-          "$110^\\circ$",
           "$70^\\circ$",
-          "$120^\\circ$",
-          "$100^\\circ$"
+          "$100^\\circ$",
+          "$110^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là dấu hiệu nhận biết của:",
         "options": [
-          "Hình bình hành",
           "Hình thang cân",
-          "Hình thang vuông",
-          "Tứ giác bất kì"
+          "Hình bình hành",
+          "Tứ giác bất kì",
+          "Hình thang vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Hình bình hành có hai cạnh kề bằng nhau là:",
         "options": [
-          "Hình thoi",
-          "Hình chữ nhật",
           "Hình vuông",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình thoi",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có $AB = 8\\text{ cm}, AD = 5\\text{ cm}$. Kẻ phân giác góc $A$ cắt cạnh $CD$ tại $E$. Độ dài đoạn thẳng $EC$ là:",
         "options": [
-          "$3\\text{ cm}$",
-          "$4\\text{ cm}$",
           "$5\\text{ cm}$",
-          "$2.5\\text{ cm}$"
+          "$4\\text{ cm}$",
+          "$2.5\\text{ cm}$",
+          "$3\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -355,9 +355,9 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$. Lấy $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Tứ giác $AMND$ là:",
         "options": [
           "Hình bình hành",
+          "Hình thoi",
           "Hình thang vuông",
-          "Hình chữ nhật",
-          "Hình thoi"
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -366,12 +366,12 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có hai đường chéo $AC = 12\\text{ cm}, BD = 16\\text{ cm}$ cắt nhau tại $O$. Biết $AB = 10\\text{ cm}$. Tam giác $OAB$ là:",
         "options": [
+          "Tam giác tù",
           "Tam giác vuông tại $O$",
-          "Tam giác cân tại $O$",
           "Tam giác đều",
-          "Tam giác tù"
+          "Tam giác cân tại $O$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -390,24 +390,24 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Qua $A$ kẻ đường thẳng song song với $BC$, qua $C$ kẻ đường thẳng song song với $AB$, chúng cắt nhau tại $D$. Tứ giác $ABDC$ là:",
         "options": [
-          "Hình bình hành",
-          "Hình thang",
+          "Hình thoi",
           "Hình thang cân",
-          "Hình thoi"
+          "Hình thang",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Các đường phân giác của bốn góc $A, B, C, D$ cắt nhau tạo thành một tứ giác. Tứ giác đó là:",
         "options": [
-          "Hình chữ nhật",
           "Hình thoi",
+          "Hình chữ nhật",
           "Hình bình hành",
           "Hình vuông"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -527,12 +527,12 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là điều kiện cần và đủ để một tứ giác là hình bình hành?",
         "options": [
-          "Có các cặp cạnh đối song song",
-          "Có hai góc kề bù nhau",
+          "Có một cặp cạnh đối bằng nhau",
           "Có hai đường chéo bằng nhau",
-          "Có một cặp cạnh đối bằng nhau"
+          "Có các cặp cạnh đối song song",
+          "Có hai góc kề bù nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -540,9 +540,9 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Hình bình hành có hai đường chéo bằng nhau là hình gì?",
         "options": [
           "Hình chữ nhật",
-          "Hình thoi",
           "Hình vuông",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -551,24 +551,24 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Định lí Varignon phát biểu rằng tứ giác có 4 đỉnh là trung điểm các cạnh của một tứ giác lồi bất kì luôn là:",
         "options": [
-          "Hình bình hành",
           "Hình chữ nhật",
           "Hình thoi",
-          "Hình thang"
+          "Hình thang",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Trong các hình sau, hình nào không có tâm đối xứng?",
         "options": [
-          "Hình thang cân",
           "Hình bình hành",
           "Hình chữ nhật",
+          "Hình thang cân",
           "Hình thoi"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -576,8 +576,8 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$. Tổng bình phương độ dài hai đường chéo $AC^2 + BD^2$ bằng:",
         "options": [
           "$2(AB^2 + BC^2)$",
-          "$AB^2 + BC^2 + CD^2 + DA^2$",
           "$4AB \\cdot BC$",
+          "$AB^2 + BC^2 + CD^2 + DA^2$",
           "$2(AB + BC)^2$"
         ],
         "correct": 0
@@ -588,9 +588,9 @@ const BAI_3_TOAN8_EXAMS = {
         "question": "Nếu một hình bình hành có một góc vuông thì các góc còn lại:",
         "options": [
           "Đều là góc vuông",
-          "Có hai góc tù",
+          "Không xác định",
           "Có hai góc nhọn",
-          "Không xác định"
+          "Có hai góc tù"
         ],
         "correct": 0
       },
@@ -599,72 +599,72 @@ const BAI_3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Lấy $E$ đối xứng với $A$ qua $B$, lấy $F$ đối xứng với $B$ qua $C$. Tỉ số diện tích $\\frac{S_{DEF}}{S_{ABCD}}$ bằng:",
         "options": [
-          "$1.5$",
-          "$2$",
+          "$2.5$",
           "$1$",
-          "$2.5$"
+          "$1.5$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có diện tích $S$. Điểm $M$ bất kì nằm trong hình bình hành. Tổng diện tích $S_{MAB} + S_{MCD}$ bằng:",
         "options": [
-          "$\\frac{1}{2}S$",
           "$\\frac{1}{3}S$",
-          "$\\frac{1}{4}S$",
-          "Phụ thuộc vào vị trí của $M$"
+          "$\\frac{1}{2}S$",
+          "Phụ thuộc vào vị trí của $M$",
+          "$\\frac{1}{4}S$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Gọi $G$ là trọng tâm tam giác. Dựng hình bình hành $ABDC$. Khẳng định nào đúng?",
         "options": [
+          "$AG = \\frac{1}{2}AD$",
           "Điểm $G$ nằm trên đường chéo $AD$ và $AG = \\frac{1}{3}AD$",
-          "Điểm $G$ là giao điểm hai đường chéo",
           "$G$ là trung điểm của $AD$",
-          "$AG = \\frac{1}{2}AD$"
+          "Điểm $G$ là giao điểm hai đường chéo"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có chu vi $20\\text{ cm}$, đường cao $AH = 3\\text{ cm}$ và $AK = 2\\text{ cm}$ ứng với $CD$ và $BC$. Độ dài cạnh $AB$ là:",
         "options": [
-          "$6\\text{ cm}$",
-          "$4\\text{ cm}$",
           "$5\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$4\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$6\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có các trung điểm các cạnh tạo thành một hình chữ nhật. Khi đó hai đường chéo $AC$ và $BD$ của tứ giác $ABCD$ phải:",
         "options": [
+          "Cắt nhau tại trung điểm",
           "Vuông góc với nhau",
-          "Bằng nhau",
           "Song song với nhau",
-          "Cắt nhau tại trung điểm"
+          "Bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có góc nhọn $\\widehat{A} = 60^\\circ$, độ dài các cạnh $AB = 8\\text{ cm}, AD = 5\\text{ cm}$. Độ dài đường chéo $BD$ bằng:",
         "options": [
-          "$7\\text{ cm}$",
+          "$6\\text{ cm}$",
           "$\\sqrt{39}\\text{ cm}$",
           "$8\\text{ cm}$",
-          "$6\\text{ cm}$"
+          "$7\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [

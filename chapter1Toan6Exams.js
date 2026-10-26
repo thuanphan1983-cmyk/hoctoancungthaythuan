@@ -14,9 +14,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Kí hiệu nào sau đây được dùng để chỉ phần tử $a$ thuộc tập hợp $M$?",
         "options": [
           "$a \\in M$",
-          "$a \\notin M$",
+          "$M \\in a$",
           "$a \\subset M$",
-          "$M \\in a$"
+          "$a \\notin M$"
         ],
         "correct": 0
       },
@@ -25,36 +25,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tập hợp $A = \\{2; 3; 5; 7\\}$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$2 \\notin A$",
           "$5 \\in A$",
+          "$2 \\notin A$",
           "$7 \\notin A$",
           "$4 \\in A$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Các phần tử của một tập hợp được viết trong dấu ngoặc nào sau đây?",
         "options": [
-          "Dấu ngoặc tròn $( )$",
+          "Dấu gạch đứng $| |$",
           "Dấu ngoặc vuông $[ ]$",
-          "Dấu ngoặc nhọn $\\{ \\}$",
-          "Dấu gạch đứng $| |$"
+          "Dấu ngoặc tròn $( )$",
+          "Dấu ngoặc nhọn $\\{ \\}$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Trong cách viết tập hợp bằng cách liệt kê các phần tử, các phần tử là số được phân cách nhau bởi dấu nào?",
         "options": [
+          "Dấu hai chấm ($:$)",
           "Dấu phẩy ($,$)",
           "Dấu chấm phẩy ($;$)",
-          "Dấu hai chấm ($:$)",
           "Dấu gạch nối ($-$)"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
@@ -62,20 +62,20 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho tập hợp $B = \\{a; b; c\\}$. Phần tử nào sau đây không thuộc tập hợp $B$?",
         "options": [
           "$a$",
+          "$d$",
           "$b$",
-          "$c$",
-          "$d$"
+          "$c$"
         ],
-        "correct": 3
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Khẳng định $6 \\notin X$ có nghĩa là gì?",
         "options": [
-          "Số $6$ là phần tử của tập hợp $X$",
-          "Số $6$ không thuộc tập hợp $X$",
           "Tập hợp $X$ chỉ chứa số $6$",
+          "Số $6$ không thuộc tập hợp $X$",
+          "Số $6$ là phần tử của tập hợp $X$",
           "Tập hợp $X$ có $6$ phần tử"
         ],
         "correct": 1
@@ -85,72 +85,72 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tập hợp các chữ cái xuất hiện trong từ \"TOAN\" là:",
         "options": [
-          "$\\{\\text{T}; \\text{O}; \\text{A}; \\text{N}\\}$",
           "$(\\text{T}, \\text{O}, \\text{A}, \\text{N})$",
-          "$\\{\\text{T-O-A-N}\\}$",
-          "$[\\text{T}; \\text{O}; \\text{A}; \\text{N}]$"
+          "$\\{\\text{T}; \\text{O}; \\text{A}; \\text{N}\\}$",
+          "$[\\text{T}; \\text{O}; \\text{A}; \\text{N}]$",
+          "$\\{\\text{T-O-A-N}\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Nhận biết",
         "question": "Khi viết một tập hợp bằng cách liệt kê, mỗi phần tử được liệt kê bao nhiêu lần?",
         "options": [
-          "Ít nhất $2$ lần",
-          "Đúng $1$ lần",
           "Tùy ý",
-          "Vô số lần"
+          "Vô số lần",
+          "Đúng $1$ lần",
+          "Ít nhất $2$ lần"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid x < 4\\}$. Viết tập hợp $M$ bằng cách liệt kê các phần tử ta được:",
         "options": [
-          "$M = \\{1; 2; 3; 4\\}$",
           "$M = \\{0; 1; 2; 3; 4\\}$",
-          "$M = \\{0; 1; 2; 3\\}$",
-          "$M = \\{1; 2; 3\\}$"
+          "$M = \\{1; 2; 3; 4\\}$",
+          "$M = \\{1; 2; 3\\}$",
+          "$M = \\{0; 1; 2; 3\\}$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Viết tập hợp các chữ cái trong từ \"HOC SINH\" bằng cách liệt kê các phần tử:",
         "options": [
-          "$\\{\\text{H}; \\text{O}; \\text{C}; \\text{S}; \\text{I}; \\text{N}; \\text{H}\\}$",
           "$\\{\\text{H}; \\text{O}; \\text{C}; \\text{S}; \\text{I}; \\text{N}\\}$",
+          "$\\{\\text{O}; \\text{C}; \\text{S}; \\text{I}; \\text{N}\\}$",
           "$\\{\\text{H}; \\text{O}; \\text{C}; \\text{I}; \\text{N}\\}$",
-          "$\\{\\text{O}; \\text{C}; \\text{S}; \\text{I}; \\text{N}\\}$"
+          "$\\{\\text{H}; \\text{O}; \\text{C}; \\text{S}; \\text{I}; \\text{N}; \\text{H}\\}$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tập hợp $P = \\{2; 4; 6; 8\\}$ gồm các phần tử là:",
         "options": [
-          "Các số tự nhiên nhỏ hơn $10$",
+          "Các số tự nhiên lớn hơn $0$",
           "Các số tự nhiên chẵn",
-          "Các số tự nhiên chẵn khác $0$ và nhỏ hơn $10$",
-          "Các số tự nhiên lớn hơn $0$"
+          "Các số tự nhiên nhỏ hơn $10$",
+          "Các số tự nhiên chẵn khác $0$ và nhỏ hơn $10$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho $E$ là tập hợp các số tự nhiên lớn hơn $7$ và nhỏ hơn $12$. Số phần tử của tập hợp $E$ là:",
         "options": [
+          "$6$",
           "$3$",
           "$4$",
-          "$5$",
-          "$6$"
+          "$5$"
         ],
-        "correct": 1
+        "correct": 2
       }
     ],
     "part2": [
@@ -270,60 +270,60 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid 5 \\le x < 10\\}$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$5 \\notin M$",
-          "$10 \\in M$",
           "$5 \\in M$",
-          "$4 \\in M$"
+          "$4 \\in M$",
+          "$10 \\in M$",
+          "$5 \\notin M$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho tập hợp $P$ gồm các chữ cái xuất hiện trong từ \"HỌC SINH\". Số phần tử của tập hợp $P$ là:",
         "options": [
-          "$6$",
           "$7$",
+          "$8$",
           "$5$",
-          "$8$"
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cách viết nào dưới đây biểu diễn tập hợp $A$ các số tự nhiên lớn hơn $3$ và không vượt quá $7$ bằng cách liệt kê các phần tử?",
         "options": [
-          "$A = \\{4; 5; 6; 7\\}$",
+          "$A = \\{3; 4; 5; 6\\}$",
           "$A = \\{3; 4; 5; 6; 7\\}$",
           "$A = \\{4; 5; 6\\}$",
-          "$A = \\{3; 4; 5; 6\\}$"
+          "$A = \\{4; 5; 6; 7\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kí hiệu nào sau đây dùng để chỉ mối quan hệ giữa một phần tử $a$ và một tập hợp $S$ mà phần tử đó không thuộc tập hợp $S$?",
         "options": [
-          "$a \\subset S$",
-          "$a \\in S$",
+          "$S \\notin a$",
           "$a \\notin S$",
-          "$S \\notin a$"
+          "$a \\subset S$",
+          "$a \\in S$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho tập hợp $B = \\{x \\in \\mathbb{N} \\mid 2x + 1 \\le 11\\}$. Số phần tử của tập hợp $B$ là:",
         "options": [
-          "$5$",
           "$6$",
+          "$5$",
           "$11$",
           "$10$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 6,
@@ -331,35 +331,35 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho tập hợp $C = \\{x \\in \\mathbb{N}^* \\mid x \\text{ chia hết cho } 3 \\text{ và } x \\le 30\\}$. Tập hợp $C$ có bao nhiêu phần tử?",
         "options": [
           "$9$",
-          "$10$",
           "$11$",
+          "$10$",
           "$8$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Biểu diễn tập hợp $E = \\{1; 4; 9; 16; 25\\}$ bằng cách chỉ ra tính chất đặc trưng của các phần tử là:",
         "options": [
-          "$E = \\{x \\in \\mathbb{N} \\mid x = n^2, n \\in \\mathbb{N}, 1 \\le n \\le 5\\}$",
-          "$E = \\{x \\in \\mathbb{N}^* \\mid x < 26\\}$",
           "$E = \\{x \\in \\mathbb{N} \\mid x = 2n + 1, n \\in \\mathbb{N}\\}$",
+          "$E = \\{x \\in \\mathbb{N}^* \\mid x < 26\\}$",
+          "$E = \\{x \\in \\mathbb{N} \\mid x = n^2, n \\in \\mathbb{N}, 1 \\le n \\le 5\\}$",
           "$E = \\{x \\in \\mathbb{N} \\mid x = n^2, n \\in \\mathbb{N}, n \\le 25\\}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid 12 < x < 45 \\text{ và } x \\text{ chia hết cho } 5\\}$. Số phần tử của tập hợp $A$ là:",
         "options": [
-          "$6$",
-          "$7$",
           "$8$",
-          "$5$"
+          "$5$",
+          "$7$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -378,12 +378,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid (x - 2)(x - 5)(2x - 7) = 0\\}$. Số phần tử của tập hợp $M$ là:",
         "options": [
-          "$3$",
-          "$1$",
           "$2$",
-          "$0$"
+          "$0$",
+          "$3$",
+          "$1$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 11,
@@ -391,23 +391,23 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tập hợp các chữ số của số tự nhiên $N = 20242025$ có số phần tử là:",
         "options": [
           "$8$",
-          "$5$",
           "$4$",
+          "$5$",
           "$3$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tập hợp $D = \\{n \\in \\mathbb{N} \\mid \\frac{12}{n} \\in \\mathbb{N}\\text{ và } n > 2\\}$. Tập hợp $D$ được viết dưới dạng liệt kê là:",
         "options": [
+          "$D = \\{4; 6; 12\\}$",
           "$D = \\{3; 4; 6; 12\\}$",
-          "$D = \\{1; 2; 3; 4; 6; 12\\}$",
           "$D = \\{3; 4; 6\\}$",
-          "$D = \\{4; 6; 12\\}$"
+          "$D = \\{1; 2; 3; 4; 6; 12\\}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -527,48 +527,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid 5 \\le x < 9\\}$. Cách viết nào sau đây biểu diễn đúng tập hợp $M$ bằng cách liệt kê các phần tử?",
         "options": [
-          "$\\{5; 6; 7; 8\\}$",
-          "$\\{6; 7; 8; 9\\}$",
           "$\\{5; 6; 7; 8; 9\\}$",
-          "$\\{6; 7; 8\\}$"
+          "$\\{6; 7; 8; 9\\}$",
+          "$\\{6; 7; 8\\}$",
+          "$\\{5; 6; 7; 8\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho tập hợp $A = \\{a; b; \\{c; d\\}; e\\}$. Khẳng định nào sau đây là khẳng định ĐÚNG?",
         "options": [
+          "$\\{a; b\\} \\in A$",
           "$\\{c; d\\} \\in A$",
-          "$c \\in A$",
           "$d \\in A$",
-          "$\\{a; b\\} \\in A$"
+          "$c \\in A$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho hai tập hợp $A = \\{x \\in \\mathbb{N} \\mid x = 2k + 1,\\, k \\in \\mathbb{N},\\, x < 10\\}$ và $B = \\{1; 3; 5; 7; 9; 11\\}$. Kết luận nào sau đây đúng?",
         "options": [
-          "$B \\subset A$",
-          "$A$ có 6 phần tử",
           "$A$ gồm các phần tử là số lẻ nhỏ hơn $10$",
-          "$A = B$"
+          "$B \\subset A$",
+          "$A = B$",
+          "$A$ có 6 phần tử"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Tập hợp $P$ các chữ cái khác nhau trong cụm từ \"NGHIEN CUU KHOA HOC\" có bao nhiêu phần tử?",
         "options": [
-          "10",
-          "9",
+          "8",
           "11",
-          "8"
+          "9",
+          "10"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
@@ -576,9 +576,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho tập hợp $S = \\{x \\in \\mathbb{N} \\mid (2x - 6)(x - 12) = 0\\}$. Tổng các phần tử của tập hợp $S$ bằng:",
         "options": [
           "15",
-          "9",
           "12",
-          "3"
+          "3",
+          "9"
         ],
         "correct": 0
       },
@@ -587,34 +587,34 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tập hợp $X = \\{n \\in \\mathbb{N}^* \\mid n < 100 \\text{ và } n \\text{ chia hết cho cả } 2 \\text{ và } 5\\}$. Số phần tử của tập hợp $X$ là:",
         "options": [
-          "9",
-          "10",
+          "11",
           "8",
-          "11"
+          "9",
+          "10"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid x = 3k + 1,\\, k \\in \\mathbb{N},\\, 10 < x < 40\\}$. Số phần tử của $A$ là:",
         "options": [
-          "9",
           "10",
+          "12",
           "11",
-          "12"
+          "9"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Số tập hợp con gồm đúng 2 phần tử của tập hợp $E = \\{2; 4; 6; 8\\}$ là:",
         "options": [
-          "4",
+          "12",
           "6",
-          "8",
-          "12"
+          "4",
+          "8"
         ],
         "correct": 1
       },
@@ -623,48 +623,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid \\frac{12}{x - 1} \\in \\mathbb{N}\\}$. Số phần tử của tập hợp $A$ là:",
         "options": [
-          "6",
-          "5",
+          "12",
           "7",
-          "12"
+          "6",
+          "5"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid x = a + b,\\, a \\in \\{1; 3; 5\\},\\, b \\in \\{2; 4; 6\\}\\}$. Số phần tử khác nhau của tập hợp $M$ là:",
         "options": [
-          "5",
-          "7",
+          "6",
           "9",
-          "6"
+          "7",
+          "5"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Cho tập hợp $E$ có $n$ phần tử ($n \\in \\mathbb{N}^*$). Biết rằng số tập hợp con của $E$ gấp 4 lần số tập con của một tập hợp có $3$ phần tử. Giá trị của $n$ là:",
         "options": [
-          "5",
           "6",
           "7",
-          "8"
+          "8",
+          "5"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Cho hai tập hợp $A = \\{m - 1; 5\\}$ và $B = \\{2; 2m + 1\\}$ với $m \\in \\mathbb{N}$. Có bao nhiêu giá trị của $m$ để tập hợp $A$ và tập hợp $B$ có ít nhất một phần tử chung?",
         "options": [
-          "2",
           "3",
-          "1",
-          "4"
+          "2",
+          "4",
+          "1"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -784,82 +784,82 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong hệ thập phân, người ta dùng bao nhiêu chữ số để ghi tất cả các số tự nhiên?",
         "options": [
+          "$8$",
           "$9$",
           "$10$",
-          "$8$",
           "Vô số"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Chữ số La Mã $\\mathrm{X}$ biểu diễn số tự nhiên nào trong hệ thập phân?",
         "options": [
-          "$1$",
-          "$5$",
           "$10$",
-          "$50$"
+          "$1$",
+          "$50$",
+          "$5$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Chữ số La Mã $\\mathrm{V}$ có giá trị tương ứng là:",
         "options": [
+          "$10$",
           "$5$",
           "$4$",
-          "$6$",
-          "$10$"
+          "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Trong số tự nhiên $3\\,456$, chữ số $4$ nằm ở hàng nào?",
         "options": [
+          "Hàng trăm",
           "Hàng đơn vị",
           "Hàng chục",
-          "Hàng trăm",
           "Hàng nghìn"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Chữ số La Mã $\\mathrm{IV}$ biểu thị số nào sau đây?",
         "options": [
-          "$4$",
+          "$16$",
           "$6$",
           "$14$",
-          "$16$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Trong số tự nhiên $285$, chữ số hàng chục là:",
         "options": [
-          "$2$",
-          "$8$",
           "$5$",
-          "$80$"
+          "$80$",
+          "$8$",
+          "$2$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Số tự nhiên có hai chữ số $\\overline{ab}$ ($a \\ne 0$) được viết thành tổng giá trị các chữ số là:",
         "options": [
-          "$a + b$",
-          "$10a + b$",
           "$a + 10b$",
-          "$100a + b$"
+          "$10a + b$",
+          "$100a + b$",
+          "$a + b$"
         ],
         "correct": 1
       },
@@ -868,10 +868,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số $9$ được biểu diễn bằng chữ số La Mã là:",
         "options": [
-          "$\\mathrm{VIIII}$",
           "$\\mathrm{XI}$",
+          "$\\mathrm{VIV}$",
           "$\\mathrm{IX}$",
-          "$\\mathrm{VIV}$"
+          "$\\mathrm{VIIII}$"
         ],
         "correct": 2
       },
@@ -880,8 +880,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của chữ số $5$ trong số $25\\,341$ là:",
         "options": [
-          "$5$",
           "$50$",
+          "$5$",
           "$500$",
           "$5\\,000$"
         ],
@@ -892,22 +892,22 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số La Mã $\\mathrm{XXIV}$ tương ứng với số tự nhiên nào trong hệ thập phân?",
         "options": [
-          "$24$",
-          "$26$",
+          "$29$",
           "$19$",
-          "$29$"
+          "$26$",
+          "$24$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Số $18$ được viết bằng chữ số La Mã là:",
         "options": [
-          "$\\mathrm{XIIX}$",
-          "$\\mathrm{XVIII}$",
           "$\\mathrm{XV}$",
-          "$\\mathrm{XVI}$"
+          "$\\mathrm{XVIII}$",
+          "$\\mathrm{XVI}$",
+          "$\\mathrm{XIIX}$"
         ],
         "correct": 1
       },
@@ -916,12 +916,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số tự nhiên gồm $7$ trăm, $0$ chục và $4$ đơn vị được viết là:",
         "options": [
-          "$740$",
-          "$74$",
           "$704$",
-          "$7\\,004$"
+          "$74$",
+          "$7\\,004$",
+          "$740$"
         ],
-        "correct": 2
+        "correct": 0
       }
     ],
     "part2": [
@@ -1042,107 +1042,107 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Trong hệ La Mã, chữ số $\\mathrm{X}$ có giá trị bằng bao nhiêu trong hệ thập phân?",
         "options": [
           "$1$",
+          "$50$",
           "$5$",
-          "$10$",
-          "$50$"
+          "$10$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Số tự nhiên lớn nhất có bốn chữ số khác nhau được viết trong hệ thập phân là:",
         "options": [
+          "$9786$",
           "$9999$",
-          "$9876$",
           "$9867$",
-          "$9786$"
+          "$9876$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho số tự nhiên $M = 34\\,578$. Chữ số hàng trăm và giá trị của chữ số hàng trăm lần lượt là:",
         "options": [
-          "Chữ số hàng trăm là $4$, giá trị là $400$",
           "Chữ số hàng trăm là $5$, giá trị là $500$",
           "Chữ số hàng trăm là $5$, giá trị là $5$",
-          "Chữ số hàng trăm là $7$, giá trị là $70$"
+          "Chữ số hàng trăm là $7$, giá trị là $70$",
+          "Chữ số hàng trăm là $4$, giá trị là $400$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Trong các số La Mã sau, số nào biểu diễn số $24$?",
         "options": [
-          "$\\mathrm{XXVI}$",
-          "${\\mathrm{XXIV}}$",
+          "${\\mathrm{XXIIII}}$",
           "${\\mathrm{XIV}}$",
-          "${\\mathrm{XXIIII}}$"
+          "${\\mathrm{XXIV}}$",
+          "$\\mathrm{XXVI}$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $\\overline{ab}$ biểu diễn dưới dạng tổng giá trị các chữ số là:",
         "options": [
-          "$a + b$",
-          "$10 \\cdot b + a$",
           "$10 \\cdot a + b$",
-          "$100 \\cdot a + b$"
+          "$100 \\cdot a + b$",
+          "$a + b$",
+          "$10 \\cdot b + a$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho số tự nhiên có ba chữ số $\\overline{a8b}$. Biết rằng khi đổi chỗ chữ số hàng trăm và hàng đơn vị cho nhau thì số đó không đổi. Khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$a = b$ với $a \\in \\{1; 2; \\dots; 9\\}$",
-          "$a = b = 8$",
+          "$a + b = 8$",
           "$a = 0$ và $b = 8$",
-          "$a + b = 8$"
+          "$a = b$ với $a \\in \\{1; 2; \\dots; 9\\}$",
+          "$a = b = 8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Khi viết thêm chữ số $5$ vào bên phải của một số tự nhiên có hai chữ số, số đó thay đổi như thế nào?",
         "options": [
-          "Tăng thêm $5$ đơn vị",
-          "Tăng gấp $10$ lần",
+          "Tăng thêm $50$ đơn vị",
           "Tăng gấp $10$ lần và thêm $5$ đơn vị",
-          "Tăng thêm $50$ đơn vị"
+          "Tăng gấp $10$ lần",
+          "Tăng thêm $5$ đơn vị"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Số La Mã biểu diễn kết quả của phép tính $13 + 16$ là:",
         "options": [
+          "$\\mathrm{XXXI}$",
           "$\\mathrm{XXVII}$",
           "$\\mathrm{XXVIII}$",
-          "$\\mathrm{XXIX}$",
-          "$\\mathrm{XXXI}$"
+          "$\\mathrm{XXIX}$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số tự nhiên có hai chữ số mà tổng các chữ số của nó bằng $9$?",
         "options": [
-          "$8$",
           "$9$",
           "$10$",
+          "$8$",
           "$7$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 10,
@@ -1151,8 +1151,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$6$",
           "$4$",
-          "$3$",
-          "$2$"
+          "$2$",
+          "$3$"
         ],
         "correct": 1
       },
@@ -1161,24 +1161,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hiệu giữa giá trị của chữ số $7$ ở hàng nghìn và giá trị của chữ số $7$ ở hàng chục trong số $47\\,275$ là:",
         "options": [
-          "$6930$",
           "$7070$",
           "$6300$",
+          "$6930$",
           "$6970$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một số tự nhiên có dạng $\\overline{2a3b}$. Biết số này có chữ số hàng chục gấp $3$ lần chữ số hàng đơn vị và chữ số hàng trăm lớn hơn chữ số hàng đơn vị $4$ đơn vị. Số đó là:",
         "options": [
-          "$2531$",
           "$2431$",
-          "$2530$",
-          "$2135$"
+          "$2531$",
+          "$2135$",
+          "$2530$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1298,84 +1298,84 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong hệ thập phân, giá trị của chữ số $a$ trong biểu diễn số tự nhiên $\\overline{a0b}$ là:",
         "options": [
-          "$a$",
           "$10 \\cdot a$",
           "$100 \\cdot a$",
-          "$1000 \\cdot a$"
+          "$1000 \\cdot a$",
+          "$a$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Quy tắc viết số La Mã quy định chữ số La Mã nào sau đây không bao giờ được viết lặp lại quá $1$ lần liên tiếp?",
         "options": [
+          "$\\mathrm{I}$",
           "$\\mathrm{X}$",
           "$\\mathrm{V}$",
-          "$\\mathrm{I}$",
           "$\\mathrm{C}$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Số La Mã biểu diễn số tự nhiên liền trước của số $29$ là:",
         "options": [
+          "$\\mathrm{XXX}$",
           "$\\mathrm{XXVIII}$",
           "$\\mathrm{XXIX}$",
-          "$\\mathrm{XXX}$",
           "$\\mathrm{XXVII}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho số tự nhiên có bốn chữ số $A = \\overline{ab5c}$. Khi đổi chỗ chữ số hàng trăm và chữ số hàng đơn vị cho nhau thì số mới tạo thành hơn hay kém số ban đầu bao nhiêu đơn vị?",
         "options": [
+          "Kém $90(b - c)$ đơn vị",
           "Hơn $99(b - c)$ đơn vị",
           "Thay đổi một lượng bằng $|99(b - c)|$ đơn vị",
-          "Kém $90(b - c)$ đơn vị",
           "Hơn $100(b - c)$ đơn vị"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số tự nhiên có ba chữ số $\\overline{abc}$ thỏa mãn $a + b + c = 3$?",
         "options": [
+          "$7$",
           "$5$",
           "$6$",
-          "$7$",
           "$8$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Nếu xóa đi chữ số $0$ ở tận cùng bên phải của một số tự nhiên $N$ thì được số mới. Biết tổng của số cũ và số mới là $143$, số $N$ ban đầu là:",
         "options": [
-          "$130$",
+          "$150$",
           "$140$",
           "$120$",
-          "$150$"
+          "$130$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho số tự nhiên $M = \\overline{x23y}$. Biết giá trị của chữ số $x$ gấp $1000$ lần giá trị của chữ số $y$ và $x - y = 3$. Giá trị của biểu thức $x^2 + y^2$ là:",
         "options": [
-          "$9$",
-          "$25$",
+          "$45$",
           "$29$",
-          "$45$"
+          "$25$",
+          "$9$"
         ],
-        "correct": 3
+        "correct": 0
       },
       {
         "id": 8,
@@ -1383,59 +1383,59 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Người ta dùng các que diêm có độ dài bằng nhau để xếp thành các số La Mã. Để xếp số $19$ bằng chữ số La Mã, số que diêm tối thiểu cần dùng là:",
         "options": [
           "$4$",
-          "$5$",
           "$6$",
-          "$7$"
+          "$7$",
+          "$5$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Để đánh số trang một cuốn sách dày $120$ trang (bắt đầu từ trang $1$), người ta phải dùng tất cả bao nhiêu lượt chữ số?",
         "options": [
-          "$249$",
           "$252$",
           "$250$",
-          "$240$"
+          "$240$",
+          "$249$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Tìm số tự nhiên có hai chữ số, biết rằng nếu viết thêm chữ số $1$ vào bên trái và bên phải số đó thì ta được số mới gấp $23$ lần số đã cho. Số đã cho là:",
         "options": [
-          "$46$",
           "$77$",
-          "$39$",
-          "$69$"
+          "$46$",
+          "$69$",
+          "$39$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Có bao nhiêu số tự nhiên có ba chữ số khác nhau $\\overline{abc}$ sao cho $a < b < c$?",
         "options": [
+          "$96$",
           "$84$",
-          "$72$",
           "$120$",
-          "$96$"
+          "$72$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Cho ba chữ số $x, y, z$ đôi một khác nhau và khác $0$. Tổng của tất cả các số có hai chữ số khác nhau lập từ ba chữ số trên là $396$. Giá trị của $x + y + z$ là:",
         "options": [
-          "$16$",
-          "$18$",
           "$20$",
-          "$22$"
+          "$16$",
+          "$22$",
+          "$18$"
         ],
-        "correct": 1
+        "correct": 3
       }
     ],
     "part2": [
@@ -1555,10 +1555,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Kí hiệu \"$a$ nhỏ hơn hoặc bằng $b$\" được viết là:",
         "options": [
+          "$a \\ge b$",
           "$a < b$",
-          "$a > b$",
           "$a \\le b$",
-          "$a \\ge b$"
+          "$a > b$"
         ],
         "correct": 2
       },
@@ -1567,48 +1567,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trên tia số nằm ngang có gốc là điểm $0$, điểm biểu diễn số $0$ được gọi là:",
         "options": [
-          "Gốc của tia số",
+          "Điểm liền sau",
           "Điểm đơn vị",
           "Điểm liền trước",
-          "Điểm liền sau"
+          "Gốc của tia số"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Số liền sau của số tự nhiên $2023$ là số:",
         "options": [
-          "$2022$",
           "$2024$",
-          "$2025$",
-          "$2021$"
+          "$2022$",
+          "$2021$",
+          "$2025$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số liền trước của số tự nhiên $100$ là số:",
         "options": [
-          "$99$",
-          "$101$",
           "$98$",
+          "$101$",
+          "$99$",
           "$102$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Trên tia số nằm ngang theo chiều từ trái sang phải, nếu điểm $a$ nằm bên trái điểm $b$ thì:",
         "options": [
-          "$a > b$",
           "$a < b$",
-          "$a = b$",
-          "$a \\ge b$"
+          "$a \\ge b$",
+          "$a > b$",
+          "$a = b$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 6,
@@ -1617,8 +1617,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$12$",
           "$0$",
-          "$5$",
-          "$8$"
+          "$8$",
+          "$5$"
         ],
         "correct": 1
       },
@@ -1627,12 +1627,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tính chất bắc cầu của thứ tự trong tập hợp số tự nhiên được phát biểu là:",
         "options": [
-          "Nếu $a < b$ và $b < c$ thì $a < c$",
           "Nếu $a < b$ thì $a + 1 = b$",
+          "Nếu $a < b$ và $b < c$ thì $a < c$",
           "Nếu $a > b$ thì $b > a$",
           "Nếu $a = b$ thì $a < b$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -1640,9 +1640,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cách viết nào dưới đây diễn đạt \"$x$ lớn hơn hoặc bằng $7$\"?",
         "options": [
           "$x \\ge 7$",
+          "$x < 7$",
           "$x > 7$",
-          "$x \\le 7$",
-          "$x < 7$"
+          "$x \\le 7$"
         ],
         "correct": 0
       },
@@ -1651,48 +1651,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Điền dấu thích hợp vào chỗ trống: $2024 \\dots 2042$.",
         "options": [
-          "$<$",
           "$>$",
+          "$\\ge$",
           "$=$",
-          "$\\ge$"
+          "$<$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho số tự nhiên $x$ thỏa mãn $15 < x < 18$. Các giá trị của $x$ là:",
         "options": [
+          "$16; 17; 18$",
           "$16; 17$",
           "$15; 16; 17$",
-          "$16; 17; 18$",
           "$17; 18$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tập hợp $M = \\{x \\in \\mathbb{N} \\mid x \\le 4\\}$ viết bằng cách liệt kê các phần tử là:",
         "options": [
-          "$\\{0; 1; 2; 3; 4\\}$",
-          "$\\{1; 2; 3; 4\\}$",
+          "$\\{4\\}$",
           "$\\{0; 1; 2; 3\\}$",
-          "$\\{4\\}$"
+          "$\\{0; 1; 2; 3; 4\\}$",
+          "$\\{1; 2; 3; 4\\}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Sắp xếp các số sau theo thứ tự tăng dần: $15, 7, 28, 12$.",
         "options": [
-          "$7; 12; 15; 28$",
           "$28; 15; 12; 7$",
           "$7; 15; 12; 28$",
-          "$12; 7; 15; 28$"
+          "$12; 7; 15; 28$",
+          "$7; 12; 15; 28$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1814,8 +1814,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "Nếu $a < b$ và $b < c$ thì $a < c$",
           "Nếu $a < b$ và $b < c$ thì $a > c$",
-          "Nếu $a \\le b$ thì $a < b$ hoặc $a > b$",
-          "Nếu $a < b$ thì $a + c < b - c$ với mọi $c$"
+          "Nếu $a < b$ thì $a + c < b - c$ với mọi $c$",
+          "Nếu $a \\le b$ thì $a < b$ hoặc $a > b$"
         ],
         "correct": 0
       },
@@ -1826,8 +1826,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$m > n$",
           "$m < n$",
-          "$m = n$",
-          "$m \\ge n$"
+          "$m \\ge n$",
+          "$m = n$"
         ],
         "correct": 1
       },
@@ -1836,24 +1836,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số liền trước của số tự nhiên $x + 2$ (với $x \\in \\mathbb{N}$) là:",
         "options": [
-          "$x + 3$",
           "$x + 1$",
-          "$x$",
-          "$x - 1$"
+          "$x + 3$",
+          "$x - 1$",
+          "$x$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kí hiệu $a \\le b$ được hiểu là:",
         "options": [
-          "$a$ nhỏ hơn $b$",
           "$a$ lớn hơn $b$",
           "$a$ nhỏ hơn $b$ hoặc $a$ bằng $b$",
+          "$a$ nhỏ hơn $b$",
           "$a$ nhỏ hơn hoặc bằng $0$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 5,
@@ -1861,21 +1861,21 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid 25 \\le x < 32\\}$. Số phần tử của tập hợp $M$ là:",
         "options": [
           "$6$",
-          "$7$",
           "$8$",
+          "$7$",
           "$9$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Tìm chữ số $x$ thích hợp để có so sánh đúng: $\\overline{20x7} < 2035$.",
         "options": [
-          "$x \\in \\{0; 1; 2; 3\\}$",
-          "$x \\in \\{0; 1; 2\\}$",
           "$x \\in \\{1; 2; 3\\}$",
-          "$x = 2$"
+          "$x \\in \\{0; 1; 2\\}$",
+          "$x = 2$",
+          "$x \\in \\{0; 1; 2; 3\\}$"
         ],
         "correct": 1
       },
@@ -1884,12 +1884,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Sắp xếp các số sau theo thứ tự tăng dần: $a = 10^{2}$, $b = 99$, $c = 2^{6}$, $d = 3^{4}$.",
         "options": [
-          "$c < d < b < a$",
           "$c < b < d < a$",
+          "$d < c < b < a$",
           "$b < c < d < a$",
-          "$d < c < b < a$"
+          "$c < d < b < a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -1897,11 +1897,11 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho ba số tự nhiên $a, b, c$ thỏa mãn $15 < a < b < c \\le 19$. Giá trị lớn nhất có thể của biểu thức $c - a$ là:",
         "options": [
           "$2$",
-          "$3$",
+          "$5$",
           "$4$",
-          "$5$"
+          "$3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 9,
@@ -1910,8 +1910,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$6$",
           "$7$",
-          "$8$",
-          "$9$"
+          "$9$",
+          "$8$"
         ],
         "correct": 0
       },
@@ -1920,12 +1920,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $x \\in \\mathbb{N}$ thỏa mãn $2023 < x + 5 \\le 2027$. Khẳng định nào sau đây đúng về các giá trị của $x$?",
         "options": [
-          "$x \\in \\{2019; 2020; 2021; 2022\\}$",
-          "$x \\in \\{2018; 2019; 2020; 2021; 2022\\}$",
           "$x \\in \\{2018; 2019; 2020; 2021\\}$",
-          "$x \\in \\{2019; 2020; 2021\\}$"
+          "$x \\in \\{2018; 2019; 2020; 2021; 2022\\}$",
+          "$x \\in \\{2019; 2020; 2021\\}$",
+          "$x \\in \\{2019; 2020; 2021; 2022\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -1933,9 +1933,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Viết tập hợp $P$ các số tự nhiên chẵn lớn hơn $14$ và không vượt quá $24$ bằng cách liệt kê phần tử:",
         "options": [
           "$P = \\{16; 18; 20; 22\\}$",
-          "$P = \\{14; 16; 18; 20; 22; 24\\}$",
+          "$P = \\{15; 17; 19; 21; 23\\}$",
           "$P = \\{16; 18; 20; 22; 24\\}$",
-          "$P = \\{15; 17; 19; 21; 23\\}$"
+          "$P = \\{14; 16; 18; 20; 22; 24\\}$"
         ],
         "correct": 2
       },
@@ -1944,12 +1944,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho số $N = \\overline{3a7b}$. Biết $a, b$ là các chữ số thỏa mãn $a > b$ và tổng $a + b = 5$. Có bao nhiêu số $N$ thỏa mãn?",
         "options": [
+          "$4$",
           "$2$",
           "$3$",
-          "$4$",
           "$5$"
         ],
-        "correct": 1
+        "correct": 2
       }
     ],
     "part2": [
@@ -2069,24 +2069,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho ba số tự nhiên $a, b, c$ thỏa mãn $a < b$ và $b \\le c$. Khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$a < c$",
-          "$a = c$",
+          "$a \\ge c$",
           "$a > c$",
-          "$a \\ge c$"
+          "$a = c$",
+          "$a < c$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Số liền trước của số tự nhiên $2k + 1$ (với $k \\in \\mathbb{N}^*$) là:",
         "options": [
-          "$2k$",
+          "$2k - 2$",
           "$2k + 2$",
-          "$2k - 1$",
-          "$2k - 2$"
+          "$2k$",
+          "$2k - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -2094,57 +2094,57 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid 15 < x \\le 27\\}$. Số phần tử của tập hợp $M$ là:",
         "options": [
           "$11$",
+          "$14$",
           "$12$",
-          "$13$",
-          "$14$"
+          "$13$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số tự nhiên $x$ có hai chữ số thỏa mãn $x \\le 35$ và chữ số hàng chục nhỏ hơn chữ số hàng đơn vị?",
         "options": [
+          "$20$",
           "$15$",
           "$18$",
-          "$19$",
-          "$20$"
+          "$19$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho số tự nhiên $n$ thỏa mãn $1999 < n < 2024$. Số các số tự nhiên lẻ thỏa mãn điều kiện của $n$ là:",
         "options": [
+          "$13$",
           "$11$",
           "$12$",
-          "$13$",
           "$24$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $A = \\{x \\in \\mathbb{N}^* \\mid x < 6\\}$ và $B = \\{x \\in \\mathbb{N} \\mid 2 \\le x \\le 5\\}$. Chọn khẳng định đúng nhất:",
         "options": [
-          "$A = B$",
           "$B \\subset A$",
           "$A \\subset B$",
+          "$A = B$",
           "$A$ và $B$ không có phần tử chung"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Biết $x$ là số tự nhiên thỏa mãn $x + 15 < 28$. Số giá trị khả dĩ của $x$ là:",
         "options": [
-          "$12$",
+          "$15$",
           "$13$",
-          "$14$",
-          "$15$"
+          "$12$",
+          "$14$"
         ],
         "correct": 1
       },
@@ -2153,10 +2153,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Trên tia số gốc $O$, điểm $A$ biểu diễn số $12$, điểm $B$ biểu diễn số $28$. Trung điểm $M$ của đoạn thẳng $AB$ biểu diễn số tự nhiên nào?",
         "options": [
-          "$18$",
+          "$24$",
           "$20$",
           "$22$",
-          "$24$"
+          "$18$"
         ],
         "correct": 1
       },
@@ -2165,48 +2165,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $m$ là số tự nhiên. Có bao nhiêu giá trị của $m$ để tập hợp $S = \\{x \\in \\mathbb{N} \\mid 2m \\le x \\le 5m + 1\\}$ có đúng $16$ phần tử?",
         "options": [
-          "$0$",
           "$1$",
           "$2$",
+          "$0$",
           "Vô số"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho bốn số tự nhiên $a, b, c, d$ thỏa mãn $a < b < c < d$ và $a + d = b + c = 21$. Giá trị lớn nhất của tích $a \\cdot d$ có thể đạt được là:",
         "options": [
+          "$90$",
           "$98$",
           "$108$",
-          "$110$",
-          "$90$"
+          "$110$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Có bao nhiêu số tự nhiên $n$ có ba chữ số sao cho khi viết thêm chữ số $2$ vào bên trái số đó thì được một số mới gấp $9$ lần số ban đầu?",
         "options": [
-          "$0$",
           "$1$",
           "$2$",
-          "$3$"
+          "$3$",
+          "$0$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Cho tập hợp $X = \\{x \\in \\mathbb{N}^* \\mid x(x - 3) \\le 0\\}$. Số tập hợp con của $X$ là:",
         "options": [
-          "$4$",
           "$7$",
-          "$8$",
-          "$16$"
+          "$16$",
+          "$4$",
+          "$8$"
         ],
-        "correct": 2
+        "correct": 3
       }
     ],
     "part2": [
@@ -2326,32 +2326,32 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong phép tính cộng $a + b = c$, $c$ được gọi là gì?",
         "options": [
-          "Tổng",
-          "Hiệu",
+          "Số bị trừ",
           "Số hạng",
-          "Số bị trừ"
+          "Tổng",
+          "Hiệu"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong phép trừ $a - b = c$ ($a \\ge b$), $a$ được gọi là gì?",
         "options": [
-          "Số trừ",
           "Số bị trừ",
           "Hiệu",
-          "Số hạng"
+          "Số hạng",
+          "Số trừ"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Với mọi số tự nhiên $a$, kết quả của phép tính $a + 0$ là:",
         "options": [
-          "$0$",
           "$1$",
+          "$0$",
           "$a$",
           "$2a$"
         ],
@@ -2362,21 +2362,21 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tính chất giao hoán của phép cộng số tự nhiên được biểu diễn bởi công thức nào dưới đây?",
         "options": [
+          "$a + 0 = a$",
           "$a + b = b + a$",
           "$(a + b) + c = a + (b + c)$",
-          "$a + 0 = a$",
           "$a - b = b - a$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Điều kiện để thực hiện được phép trừ $a - b$ trong tập hợp số tự nhiên $\\mathbb{N}$ là gì?",
         "options": [
-          "$a < b$",
           "$a \\le b$",
           "$a > b$",
+          "$a < b$",
           "$a \\ge b$"
         ],
         "correct": 3
@@ -2386,60 +2386,60 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $47 + 0$ bằng bao nhiêu?",
         "options": [
-          "$0$",
           "$47$",
           "$470$",
-          "$48$"
+          "$48$",
+          "$0$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Trong phép trừ $85 - 32 = 53$, số $32$ được gọi là:",
         "options": [
-          "Số bị trừ",
           "Hiệu",
-          "Số trừ",
-          "Tổng"
+          "Tổng",
+          "Số bị trừ",
+          "Số trừ"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Nhận biết",
         "question": "Công thức $(a + b) + c = a + (b + c)$ thể hiện tính chất nào của phép cộng?",
         "options": [
-          "Tính chất giao hoán",
           "Tính chất kết hợp",
-          "Tính chất phân phối",
-          "Tính chất cộng với số $0$"
+          "Tính chất giao hoán",
+          "Tính chất cộng với số $0$",
+          "Tính chất phân phối"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $135 + 246$ là:",
         "options": [
-          "$371$",
-          "$381$",
+          "$281$",
           "$380$",
-          "$281$"
+          "$381$",
+          "$371$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $452 - 128$ là:",
         "options": [
+          "$326$",
           "$324$",
           "$334$",
-          "$326$",
           "$224$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -2447,23 +2447,23 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên $x$, biết $x - 15 = 35$.",
         "options": [
           "$x = 20$",
-          "$x = 30$",
           "$x = 50$",
+          "$x = 30$",
           "$x = 40$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$, biết $120 + x = 180$.",
         "options": [
-          "$x = 60$",
-          "$x = 300$",
+          "$x = 70$",
           "$x = 50$",
-          "$x = 70$"
+          "$x = 300$",
+          "$x = 60$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2583,10 +2583,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho biểu thức $a + (b + c) = (a + b) + c$. Biểu thức trên thể hiện tính chất nào của phép cộng các số tự nhiên?",
         "options": [
-          "Tính chất giao hoán",
+          "Tính chất phân phối",
           "Tính chất kết hợp",
-          "Tính chất cộng với số $0$",
-          "Tính chất phân phối"
+          "Tính chất giao hoán",
+          "Tính chất cộng với số $0$"
         ],
         "correct": 1
       },
@@ -2595,10 +2595,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Điều kiện để thực hiện được phép trừ $a - b$ trong tập hợp số tự nhiên $\\mathbb{N}$ là:",
         "options": [
-          "$a > b$",
+          "$a \\le b$",
           "$a < b$",
           "$a \\ge b$",
-          "$a \\le b$"
+          "$a > b$"
         ],
         "correct": 2
       },
@@ -2607,21 +2607,21 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Hiệu của số tự nhiên lớn nhất có bốn chữ số và số tự nhiên nhỏ nhất có bốn chữ số là:",
         "options": [
-          "$8999$",
           "$9000$",
           "$8888$",
+          "$8999$",
           "$9998$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $2024 - (1024 + 400)$ là:",
         "options": [
-          "$1400$",
-          "$600$",
           "$500$",
+          "$600$",
+          "$1400$",
           "$1600$"
         ],
         "correct": 1
@@ -2632,11 +2632,11 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tính hợp lí giá trị của tổng $S = 48 + 275 + 52 + 125$, ta được kết quả là:",
         "options": [
           "$400$",
+          "$510$",
           "$490$",
-          "$500$",
-          "$510$"
+          "$500$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 6,
@@ -2644,8 +2644,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên $x$, biết: $145 - (x + 25) = 40$. Giá trị của $x$ là:",
         "options": [
           "$x = 80$",
-          "$x = 120$",
           "$x = 160$",
+          "$x = 120$",
           "$x = 60$"
         ],
         "correct": 0
@@ -2655,72 +2655,72 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tổng $A = 12 + 14 + 16 + \\dots + 98 + 100$. Số số hạng của tổng $A$ là:",
         "options": [
-          "$44$",
-          "$45$",
           "$88$",
-          "$89$"
+          "$89$",
+          "$45$",
+          "$44$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Một ô tô đi từ tỉnh A đến tỉnh C qua tỉnh B. Quãng đường AB dài $135\\text{ km}$, quãng đường BC dài hơn quãng đường AB là $28\\text{ km}$. Quãng đường ô tô đi từ A đến C là:",
         "options": [
-          "$163\\text{ km}$",
-          "$270\\text{ km}$",
+          "$312\\text{ km}$",
           "$298\\text{ km}$",
-          "$312\\text{ km}$"
+          "$270\\text{ km}$",
+          "$163\\text{ km}$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$, biết: $(2x - 10) + 15 = 45$. Giá trị của $x$ là:",
         "options": [
-          "$x = 20$",
+          "$x = 10$",
           "$x = 15$",
           "$x = 25$",
-          "$x = 10$"
+          "$x = 20$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $M = (2354 - 478) - (1354 - 478)$:",
         "options": [
-          "$1478$",
           "$1000$",
+          "$522$",
           "$956$",
-          "$522$"
+          "$1478$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tổng của hai số tự nhiên là $284$. Nếu thêm vào số thứ nhất $16$ đơn vị và bớt ở số thứ hai đi $16$ đơn vị thì tổng mới là:",
         "options": [
-          "$284$",
           "$300$",
+          "$316$",
           "$268$",
-          "$316$"
+          "$284$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $T = 100 - 99 + 98 - 97 + \\dots + 2 - 1$ bằng:",
         "options": [
-          "$0$",
-          "$1$",
           "$50$",
+          "$1$",
+          "$0$",
           "$100$"
         ],
-        "correct": 2
+        "correct": 0
       }
     ],
     "part2": [
@@ -2840,36 +2840,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho ba số tự nhiên $a, b, c$. Trong tập hợp số tự nhiên $\\mathbb{N}$, phép trừ $a - b = c$ thực hiện được khi và chỉ khi điều kiện nào sau đây thỏa mãn?",
         "options": [
-          "$a > b$",
           "$a \\ge b$",
           "$a < b$",
-          "$a + b \\ge c$"
+          "$a + b \\ge c$",
+          "$a > b$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức biểu diễn tính chất kết hợp của phép cộng các số tự nhiên là:",
         "options": [
-          "$a + b = b + a$",
           "$(a + b) + c = a + (b + c)$",
-          "$a + 0 = 0 + a = a$",
-          "$a(b + c) = ab + ac$"
+          "$a + b = b + a$",
+          "$a(b + c) = ab + ac$",
+          "$a + 0 = 0 + a = a$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tính tổng dãy số cách đều $S = 12 + 15 + 18 + \\dots + 99$. Giá trị của $S$ là:",
         "options": [
-          "$1665$",
           "$1650$",
+          "$1665$",
           "$1554$",
           "$1725$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2877,21 +2877,21 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho số tự nhiên $A = \\overline{ab} + \\overline{ba}$. Khẳng định nào sau đây luôn đúng với mọi chữ số $a, b \\in \\mathbb{N}^*$?",
         "options": [
           "$A$ là số lẻ",
-          "$A$ luôn chia hết cho $9$",
           "$A$ luôn chia hết cho $11$",
-          "$A$ luôn là số chính phương"
+          "$A$ luôn là số chính phương",
+          "$A$ luôn chia hết cho $9$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$, biết rằng: $(x - 35) - 120 = 0$.",
         "options": [
-          "$x = 85$",
+          "$x = 165$",
           "$x = 155$",
-          "$x = 145$",
-          "$x = 165$"
+          "$x = 85$",
+          "$x = 145$"
         ],
         "correct": 1
       },
@@ -2912,12 +2912,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tổng của số tự nhiên lớn nhất có 4 chữ số khác nhau và số tự nhiên nhỏ nhất có 4 chữ số khác nhau là:",
         "options": [
-          "$10899$",
-          "$10875$",
           "$11110$",
-          "$10899$"
+          "$10899$",
+          "$10899$",
+          "$10875$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 8,
@@ -2925,33 +2925,33 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho tổng $S = 1 + 2 + 3 + \\dots + n = 210$ với $n \\in \\mathbb{N}^*$. Giá trị của $n$ là:",
         "options": [
           "$19$",
+          "$22$",
           "$20$",
-          "$21$",
-          "$22$"
+          "$21$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số tự nhiên $x$ thỏa mãn biểu thức $15 < 125 - x \\le 30$?",
         "options": [
-          "$14$",
-          "$15$",
+          "$17$",
           "$16$",
-          "$17$"
+          "$14$",
+          "$15$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Khi cộng thêm vào cả số bị trừ và số trừ cùng một số tự nhiên $m > 0$ thì hiệu của chúng thay đổi như thế nào?",
         "options": [
+          "Tăng thêm $2m$ đơn vị",
           "Tăng thêm $m$ đơn vị",
-          "Giảm đi $m$ đơn vị",
           "Không thay đổi",
-          "Tăng thêm $2m$ đơn vị"
+          "Giảm đi $m$ đơn vị"
         ],
         "correct": 2
       },
@@ -2960,24 +2960,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Biết tổng các chữ số của số tự nhiên $N$ được ký hiệu là $S(N)$. Nếu $N + S(N) = 74$, giá trị của $N$ là:",
         "options": [
-          "$64$",
-          "$65$",
           "$59$",
-          "$61$"
+          "$61$",
+          "$64$",
+          "$65$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một học sinh viết liên tiếp các số tự nhiên từ $1$ đến $100$ để tạo thành dãy: $12345\\dots 99100$. Sau đó bạn xóa đi hai số bất kỳ $a$ và $b$ rồi viết vào dãy số hiệu $|a - b|$. Bạn thực hiện lặp lại thao tác này cho đến khi trên bảng chỉ còn lại đúng một số duy nhất. Số cuối cùng còn lại là:",
         "options": [
-          "Một số chẵn",
-          "Một số lẻ",
           "Luôn luôn bằng 0",
-          "Không thể xác định được tính chẵn lẻ"
+          "Một số lẻ",
+          "Không thể xác định được tính chẵn lẻ",
+          "Một số chẵn"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3097,10 +3097,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong phép nhân $a \\cdot b = c$, các số $a$ và $b$ được gọi là gì?",
         "options": [
-          "Số bị chia và số chia",
+          "Tích",
           "Thừa số",
           "Số hạng",
-          "Tích"
+          "Số bị chia và số chia"
         ],
         "correct": 1
       },
@@ -3109,24 +3109,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép nhân $15 \\cdot 1$ bằng bao nhiêu?",
         "options": [
-          "$1$",
-          "$0$",
           "$15$",
-          "$16$"
+          "$16$",
+          "$0$",
+          "$1$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Kết quả của phép nhân một số tự nhiên bất kì với số $0$ là:",
         "options": [
-          "Chính số đó",
-          "$0$",
           "$1$",
-          "Không xác định"
+          "Không xác định",
+          "Chính số đó",
+          "$0$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 4,
@@ -3145,46 +3145,46 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Phép chia $a : b$ là phép chia hết khi nào?",
         "options": [
-          "Số dư lớn hơn số chia",
-          "Số dư bằng số chia",
           "Số dư bằng $0$",
+          "Số dư bằng số chia",
+          "Số dư lớn hơn số chia",
           "Số dư bằng $1$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tính chất phân phối của phép nhân đối với phép cộng được viết dưới dạng công thức là:",
         "options": [
+          "$a \\cdot (b \\cdot c) = (a \\cdot b) \\cdot c$",
           "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$",
-          "$a + (b \\cdot c) = (a + b) \\cdot c$",
           "$a \\cdot (b + c) = a + b + c$",
-          "$a \\cdot (b \\cdot c) = (a \\cdot b) \\cdot c$"
+          "$a + (b \\cdot c) = (a + b) \\cdot c$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Tính chất giao hoán của phép nhân là:",
         "options": [
+          "$a \\cdot 1 = 1 \\cdot a = a$",
           "$a \\cdot b = b \\cdot a$",
-          "$a + b = b + a$",
           "$a \\cdot b = a + b$",
-          "$a \\cdot 1 = 1 \\cdot a = a$"
+          "$a + b = b + a$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Nhận biết",
         "question": "Trong phép chia $48 : 6 = 8$, số $48$ được gọi là:",
         "options": [
-          "Thương",
           "Số chia",
+          "Số dư",
           "Số bị chia",
-          "Số dư"
+          "Thương"
         ],
         "correct": 2
       },
@@ -3195,10 +3195,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$10$",
           "$50$",
-          "$100$",
-          "$1000$"
+          "$1000$",
+          "$100$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 10,
@@ -3206,35 +3206,35 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên $x$, biết: $x \\cdot 7 = 56$.",
         "options": [
           "$x = 7$",
-          "$x = 8$",
           "$x = 9$",
-          "$x = 49$"
+          "$x = 49$",
+          "$x = 8$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tìm số dư trong phép chia $29$ cho $4$.",
         "options": [
-          "$1$",
-          "$2$",
           "$3$",
-          "$4$"
+          "$4$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $(12 + 8) \\cdot 5$ là:",
         "options": [
-          "$100$",
-          "$52$",
           "$60$",
+          "$52$",
+          "$100$",
           "$40$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3354,24 +3354,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong một phép chia có dư với số chia bằng $18$, số dư lớn nhất có thể có của phép chia đó là:",
         "options": [
+          "$0$",
           "$17$",
-          "$18$",
           "$19$",
-          "$0$"
+          "$18$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho tích $A = 25 \\cdot 48 \\cdot 4$. Áp dụng tính chất giao hoán và kết hợp, cách viết nào dưới đây giúp tính nhẩm nhanh nhất?",
         "options": [
-          "$(25 \\cdot 4) \\cdot 48$",
-          "$(25 \\cdot 48) \\cdot 4$",
+          "$(25 + 4) \\cdot 48$",
           "$25 \\cdot (48 + 4)$",
-          "$(25 + 4) \\cdot 48$"
+          "$(25 \\cdot 48) \\cdot 4$",
+          "$(25 \\cdot 4) \\cdot 48$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -3379,23 +3379,23 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho $a, b \\in \\mathbb{N}$. Biết rằng $a \\cdot b = 0$, khẳng định nào sau đây chắc chắn đúng?",
         "options": [
           "$a = 0$ và $b = 0$",
-          "$a = 0$ hoặc $b = 0$",
           "$a \\ne 0$ và $b = 0$",
+          "$a = 0$ hoặc $b = 0$",
           "$a + b = 1$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Khi thực hiện phép chia có dư số tự nhiên $a$ cho số tự nhiên $b$ ($b \\ne 0$) được thương là $q$ và số dư là $r$. Khẳng định đúng về số dư $r$ là:",
         "options": [
-          "$0 < r < b$",
-          "$0 \\le r \\le b$",
           "$0 \\le r < b$",
-          "$0 < r \\le b$"
+          "$0 < r \\le b$",
+          "$0 \\le r \\le b$",
+          "$0 < r < b$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 5,
@@ -3403,9 +3403,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Giá trị của biểu thức $M = 37 \\cdot 64 + 37 \\cdot 36 - 700$ bằng:",
         "options": [
           "$3\\,000$",
-          "$3\\,700$",
+          "$3\\,100$",
           "$2\\,700$",
-          "$3\\,100$"
+          "$3\\,700$"
         ],
         "correct": 0
       },
@@ -3415,9 +3415,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Số tự nhiên $x$ thỏa mãn $125 - 5 \\cdot (x + 4) = 35$ là:",
         "options": [
           "$14$",
+          "$10$",
           "$18$",
-          "$22$",
-          "$10$"
+          "$22$"
         ],
         "correct": 0
       },
@@ -3426,72 +3426,72 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một hội trường cần sắp xếp chỗ ngồi cho $325$ đại biểu. Biết mỗi dãy ghế dài có đúng $16$ chỗ ngồi. Hỏi ban tổ chức cần ít nhất bao nhiêu dãy ghế như vậy để tất cả đại biểu đều có chỗ ngồi?",
         "options": [
-          "$20$ dãy ghế",
-          "$21$ dãy ghế",
           "$22$ dãy ghế",
-          "$19$ dãy ghế"
+          "$19$ dãy ghế",
+          "$21$ dãy ghế",
+          "$20$ dãy ghế"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Khi chia một số tự nhiên cho $42$ ta được số thương là $15$ và số dư là $28$. Nếu đem số tự nhiên đó chia cho $14$ thì kết luận nào sau đây là đúng?",
         "options": [
-          "Phép chia hết và có số dư bằng $0$",
-          "Phép chia có số dư là $7$",
+          "Phép chia có thương là $45$ và số dư là $2$",
           "Phép chia có số dư là $14$",
-          "Phép chia có thương là $45$ và số dư là $2$"
+          "Phép chia có số dư là $7$",
+          "Phép chia hết và có số dư bằng $0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tích của hai số tự nhiên bằng $864$. Nếu một thừa số tăng lên gấp $3$ lần và thừa số còn lại giảm đi $2$ lần thì tích mới thu được là:",
         "options": [
+          "$432$",
           "$1\\,296$",
           "$576$",
-          "$2\\,592$",
-          "$432$"
+          "$2\\,592$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tính nhanh giá trị của biểu thức $B = 234 \\cdot 101 - 234$ ta được kết quả là:",
         "options": [
-          "$23\\,400$",
           "$23\\,634$",
           "$2\\,340$",
-          "$23\\,166$"
+          "$23\\,166$",
+          "$23\\,400$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Một đoàn khách gồm $185$ người cần sang sông bằng thuyền nhỏ. Mỗi chuyến thuyền chỉ chở tối đa $12$ khách (không kể người lái thuyền). Hỏi người lái thuyền cần thực hiện ít nhất bao nhiêu chuyến để chở hết số khách qua sông?",
         "options": [
-          "$15$ chuyến",
-          "$16$ chuyến",
+          "$14$ chuyến",
           "$17$ chuyến",
-          "$14$ chuyến"
+          "$16$ chuyến",
+          "$15$ chuyến"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tích $P = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\dots \\cdot 15$ tận cùng bằng bao nhiêu chữ số $0$ liên tiếp?",
         "options": [
+          "$1$",
           "$3$",
-          "$2$",
           "$4$",
-          "$1$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3613,8 +3613,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$0 < r < b$",
           "$0 \\le r < b$",
-          "$0 \\le r \\le b$",
-          "$1 \\le r < b$"
+          "$1 \\le r < b$",
+          "$0 \\le r \\le b$"
         ],
         "correct": 1
       },
@@ -3623,60 +3623,60 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho số tự nhiên $a$ chia cho $17$ được thương là $q$ và số dư là $r$. Biểu diễn đại số nào sau đây là đúng với mọi $a \\in \\mathbb{N}$?",
         "options": [
-          "$a = 17q + r$ với $0 \\le r \\le 17$",
           "$a = 17r + q$ với $0 \\le r < 17$",
           "$a = 17q + r$ với $r \\in \\{0; 1; 2; \\dots; 16\\}$",
+          "$a = 17q + r$ với $0 \\le r \\le 17$",
           "$a = 17(q + r)$ với $0 \\le r < 17$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số tự nhiên $x$ thỏa mãn phương trình $(x - 3)(2x - 8) = 0$?",
         "options": [
-          "$1$",
-          "$2$",
           "$3$",
-          "$0$"
+          "$0$",
+          "$2$",
+          "$1$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Khi thực hiện phép chia số tự nhiên $A$ cho $24$, một học sinh viết nhầm chữ số hàng chục của số bị chia từ $5$ thành $2$ nên thu được thương là $18$ và số dư là $5$. Thương và số dư đúng của phép chia ban đầu là:",
         "options": [
-          "Thương $19$, dư $11$",
-          "Thương $20$, dư $5$",
           "Thương $19$, dư $17$",
-          "Thương $20$, dư $17$"
+          "Thương $20$, dư $5$",
+          "Thương $20$, dư $17$",
+          "Thương $19$, dư $11$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $S = 100 \\cdot 99 - 99 \\cdot 98 + 98 \\cdot 97 - 97 \\cdot 96 + \\dots + 2 \\cdot 1$.",
         "options": [
+          "$9900$",
           "$4950$",
           "$5000$",
-          "$5050$",
-          "$9900$"
+          "$5050$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho hai số tự nhiên $a$ và $b$. Biết $a$ chia cho $7$ dư $4$, $b$ chia cho $7$ dư $5$. Khi đó, tích $a \\cdot b$ chia cho $7$ có số dư là:",
         "options": [
-          "$6$",
           "$2$",
+          "$6$",
           "$4$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -3684,9 +3684,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Số các số tự nhiên có hai chữ số $\\overline{ab}$ sao cho tích $a \\cdot b$ bằng thương $a : b$ (với $b \\ne 0$) là:",
         "options": [
           "$9$",
-          "$1$",
           "$0$",
-          "$8$"
+          "$8$",
+          "$1$"
         ],
         "correct": 0
       },
@@ -3695,60 +3695,60 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một số tự nhiên khi chia cho $12$ dư $9$, khi chia cho $15$ dư $12$. Số đó khi chia cho $60$ có số dư là bao nhiêu?",
         "options": [
-          "$21$",
           "$57$",
+          "$39$",
           "$33$",
-          "$39$"
+          "$21$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Tìm số tự nhiên $n$ nhỏ nhất sao cho tích $P = n \\cdot (n + 1) \\cdot (n + 2)$ tận cùng bằng đúng ba chữ số $0$.",
         "options": [
-          "$23$",
-          "$24$",
           "$124$",
-          "$19$"
+          "$23$",
+          "$19$",
+          "$24$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho tích $M = 1 \\cdot 2 \\cdot 3 \\dots 50$. Hỏi nếu phân tích $M$ thành tích các thừa số nguyên tố thì số mũ của thừa số $5$ là bao nhiêu?",
         "options": [
-          "$10$",
           "$12$",
-          "$14$",
-          "$15$"
+          "$15$",
+          "$10$",
+          "$14$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Số cặp số tự nhiên $(x; y)$ thỏa mãn đẳng thức $(2x + 1)(y - 2) = 18$ là:",
         "options": [
-          "$3$",
           "$6$",
           "$2$",
+          "$3$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Trong một phép chia có dư, số bị chia là $189$, số dư là $14$. Biết thương là một số tự nhiên lớn hơn $1$. Số chia và thương lần lượt có thể là:",
         "options": [
-          "$35$ và $5$",
-          "$25$ và $7$",
+          "$7$ và $25$",
           "$175$ và $1$",
-          "$7$ và $25$"
+          "$25$ và $7$",
+          "$35$ và $5$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3868,22 +3868,22 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong lũy thừa $a^n$, ta gọi $a$ là:",
         "options": [
-          "Cơ số",
+          "Thừa số",
           "Số mũ",
-          "Tích số",
-          "Thừa số"
+          "Cơ số",
+          "Tích số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong lũy thừa $7^4$, số mũ là:",
         "options": [
-          "$7$",
+          "$28$",
           "$4$",
-          "$11$",
-          "$28$"
+          "$7$",
+          "$11$"
         ],
         "correct": 1
       },
@@ -3892,36 +3892,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Lũy thừa bậc hai của một số còn được gọi là:",
         "options": [
-          "Lập phương",
           "Bình phương",
           "Căn bậc hai",
-          "Bội số"
+          "Bội số",
+          "Lập phương"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Lập phương của số $a$ được viết dưới dạng lũy thừa là:",
         "options": [
+          "$a+3$",
           "$a^2$",
-          "$a^3$",
           "$3a$",
-          "$a+3$"
+          "$a^3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Viết tích $5 \\cdot 5 \\cdot 5 \\cdot 5$ dưới dạng một lũy thừa ta được kết quả là:",
         "options": [
-          "$5^4$",
+          "$5 \\cdot 4$",
           "$4^5$",
-          "$20$",
-          "$5 \\cdot 4$"
+          "$5^4$",
+          "$20$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -3940,21 +3940,21 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Quy tắc chia hai lũy thừa cùng cơ số khác 0 là: Với $a \\ne 0$ và $m \\ge n$, ta có $a^m : a^n = $",
         "options": [
-          "$a^{m + n}$",
           "$a^{m : n}$",
-          "$a^{m - n}$",
-          "$a^{n - m}$"
+          "$a^{m + n}$",
+          "$a^{n - m}$",
+          "$a^{m - n}$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Nhận biết",
         "question": "Quy ước: Với số tự nhiên $a \\ne 0$, ta có $a^0$ bằng:",
         "options": [
-          "$0$",
-          "$1$",
           "$a$",
+          "$1$",
+          "$0$",
           "Không xác định"
         ],
         "correct": 1
@@ -3964,24 +3964,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của lũy thừa $2^4$ là:",
         "options": [
-          "$8$",
           "$16$",
+          "$8$",
           "$6$",
           "$12$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $3^2 \\cdot 3^3$ dưới dạng một lũy thừa là:",
         "options": [
-          "$3^6$",
           "$3^5$",
-          "$9^5$",
-          "$3^1$"
+          "$3^6$",
+          "$3^1$",
+          "$9^5$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 11,
@@ -3990,22 +3990,22 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$5^3$",
           "$5^8$",
-          "$5^4$",
-          "$1^4$"
+          "$1^4$",
+          "$5^4$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $x$ thỏa mãn $x^2 = 49$ là:",
         "options": [
+          "$9$",
           "$7$",
-          "$14$",
           "$24$",
-          "$9$"
+          "$14$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4125,9 +4125,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong phép toán lũy thừa $7^4$, khẳng định nào sau đây là đúng?",
         "options": [
-          "Cơ số là $4$, số mũ là $7$",
-          "Cơ số là $7$, số mũ là $4$",
           "Giá trị bằng $7 \\cdot 4 = 28$",
+          "Cơ số là $7$, số mũ là $4$",
+          "Cơ số là $4$, số mũ là $7$",
           "Biểu thị tích của $7$ thừa số $4$"
         ],
         "correct": 1
@@ -4137,22 +4137,22 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Quy ước nào sau đây là đúng với mọi số tự nhiên $a \\ne 0$?",
         "options": [
+          "$a^0 = 1$",
           "$a^0 = 0$",
           "$a^1 = 1$",
-          "$a^0 = 1$",
           "$a^1 = 0$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Công thức nhân hai lũy thừa cùng cơ số là:",
         "options": [
-          "$a^m \\cdot a^n = a^{m \\cdot n}$",
-          "$a^m \\cdot a^n = a^{m + n}$",
           "$a^m \\cdot a^n = (a \\cdot a)^{m + n}$",
-          "$a^m \\cdot a^n = a^{m - n}$"
+          "$a^m \\cdot a^n = a^{m + n}$",
+          "$a^m \\cdot a^n = a^{m - n}$",
+          "$a^m \\cdot a^n = a^{m \\cdot n}$"
         ],
         "correct": 1
       },
@@ -4161,9 +4161,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $5^8 : 5^2$ viết dưới dạng một lũy thừa là:",
         "options": [
-          "$5^4$",
           "$1^6$",
           "$5^{10}$",
+          "$5^4$",
           "$5^6$"
         ],
         "correct": 3
@@ -4173,58 +4173,58 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Viết biểu thức $2^3 \\cdot 4 \\cdot 8$ dưới dạng một lũy thừa của cơ số $2$ ta được:",
         "options": [
-          "$2^6$",
-          "$2^8$",
           "$2^7$",
-          "$2^9$"
+          "$2^6$",
+          "$2^9$",
+          "$2^8$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = 3 \\cdot 2^4 - 2 \\cdot 3^2$ là:",
         "options": [
-          "$30$",
           "$66$",
           "$18$",
-          "$36$"
+          "$36$",
+          "$30$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $x$ thỏa mãn $(2x - 1)^3 = 27$ là:",
         "options": [
-          "$x = 1$",
           "$x = 2$",
           "$x = 3$",
+          "$x = 1$",
           "$x = 4$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Khi viết số tự nhiên $2035$ dưới dạng tổng các lũy thừa của $10$, ta được:",
         "options": [
-          "$2 \\cdot 10^4 + 3 \\cdot 10^2 + 5$",
-          "$2 \\cdot 10^3 + 3 \\cdot 10^2 + 5$",
           "$2 \\cdot 10^3 + 3 \\cdot 10^1 + 5 \\cdot 10^0$",
-          "$2 \\cdot 10^4 + 3 \\cdot 10 + 5$"
+          "$2 \\cdot 10^4 + 3 \\cdot 10 + 5$",
+          "$2 \\cdot 10^4 + 3 \\cdot 10^2 + 5$",
+          "$2 \\cdot 10^3 + 3 \\cdot 10^2 + 5$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Biết $x$ là số tự nhiên thỏa mãn $3^{x+1} : 3^2 = 81$. Giá trị của $x$ là:",
         "options": [
-          "$4$",
+          "$6$",
           "$5$",
-          "$3$",
-          "$6$"
+          "$4$",
+          "$3$"
         ],
         "correct": 1
       },
@@ -4233,10 +4233,10 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "So sánh hai số $A = 2^{30}$ và $B = 3^{20}$, khẳng định nào sau đây là đúng?",
         "options": [
-          "$A > B$",
           "$A = B$",
+          "Không thể so sánh được",
           "$A < B$",
-          "Không thể so sánh được"
+          "$A > B$"
         ],
         "correct": 2
       },
@@ -4245,22 +4245,22 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Kết quả rút gọn biểu thức $\\frac{6^5}{2^4 \\cdot 3^4}$ là:",
         "options": [
-          "$6$",
-          "$18$",
           "$36$",
+          "$18$",
+          "$6$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Chữ số tận cùng của số $2^{2024}$ là:",
         "options": [
-          "$2$",
+          "$8$",
           "$4$",
           "$6$",
-          "$8$"
+          "$2$"
         ],
         "correct": 2
       }
@@ -4383,11 +4383,11 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho $a$ là số tự nhiên khác $0$. Biểu thức nào sau đây KHÔNG tương đương với $a^6$?",
         "options": [
           "$(a^2)^3$",
+          "$a^1 \\cdot a^5$",
           "$a^2 \\cdot a^3$",
-          "$a^{10} : a^4$",
-          "$a^1 \\cdot a^5$"
+          "$a^{10} : a^4$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 2,
@@ -4396,8 +4396,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$a^n$ luôn có chữ số tận cùng là chữ số chẵn",
           "$a^n$ luôn là số chính phương",
-          "$a^n > n^a$",
-          "$a^n$ chia cho $3$ luôn dư $1$"
+          "$a^n$ chia cho $3$ luôn dư $1$",
+          "$a^n > n^a$"
         ],
         "correct": 1
       },
@@ -4407,8 +4407,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Chữ số tận cùng của số $P = 2^{2024} + 3^{2025}$ là:",
         "options": [
           "$9$",
-          "$7$",
           "$1$",
+          "$7$",
           "$5$"
         ],
         "correct": 0
@@ -4418,12 +4418,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "So sánh hai số $A = 3^{200}$ và $B = 2^{300}$, kết luận nào sau đây đúng?",
         "options": [
-          "$A > B$",
-          "$A = B$",
           "$A < B$",
-          "$A = B + 1$"
+          "$A = B + 1$",
+          "$A = B$",
+          "$A > B$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -4431,11 +4431,11 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên $n$ biết rằng $2^n + 2^{n+3} = 144$. Giá trị của $n$ là:",
         "options": [
           "$3$",
+          "$6$",
           "$4$",
-          "$5$",
-          "$6$"
+          "$5$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
@@ -4443,9 +4443,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Số ước nguyên tố của số tự nhiên $M = 2^4 \\cdot 3^2 \\cdot 5$ là:",
         "options": [
           "$3$",
+          "$4$",
           "$30$",
-          "$11$",
-          "$4$"
+          "$11$"
         ],
         "correct": 0
       },
@@ -4455,8 +4455,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho biểu thức $S = 1 + 2 + 2^2 + \\dots + 2^{2024}$. Khẳng định nào sau đây là đúng?",
         "options": [
           "$S = 2^{2025} - 1$",
-          "$S = 2^{2024} - 1$",
           "$S = 2^{2025}$",
+          "$S = 2^{2024} - 1$",
           "$S = 2^{2024}$"
         ],
         "correct": 0
@@ -4478,48 +4478,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Vận dụng",
         "question": "Có bao nhiêu số tự nhiên $x$ thỏa mãn đẳng thức $(x - 3)^{2024} = (x - 3)^{2022}$?",
         "options": [
-          "$1$",
-          "$2$",
+          "$4$",
           "$3$",
-          "$4$"
+          "$2$",
+          "$1$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Số dư khi chia $A = 7 + 7^2 + 7^3 + \\dots + 7^{100}$ cho $8$ là:",
         "options": [
-          "$0$",
-          "$1$",
           "$4$",
-          "$7$"
+          "$7$",
+          "$0$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Tìm số tự nhiên $n$ lớn nhất có hai chữ số sao cho $2^n + 1$ chia hết cho $5$.",
         "options": [
+          "$94$",
           "$99$",
-          "$98$",
           "$97$",
-          "$94$"
+          "$98$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho hai số tự nhiên $a, b$ thỏa mãn $2^a + 3^b = 5^{b-a}$ và $b \\ge a \\ge 1$. Cặp giá trị $(a; b)$ thỏa mãn là:",
         "options": [
-          "$(1; 2)$",
           "$(2; 3)$",
-          "$(1; 1)$",
-          "Không tồn tại $(a; b)$"
+          "$(1; 2)$",
+          "Không tồn tại $(a; b)$",
+          "$(1; 1)$"
         ],
-        "correct": 2
+        "correct": 3
       }
     ],
     "part2": [
@@ -4639,22 +4639,22 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi thực hiện phép tính trong biểu thức chỉ chứa phép cộng và phép trừ, ta thực hiện theo thứ tự nào?",
         "options": [
+          "Thực hiện phép trừ trước, phép cộng sau",
           "Từ trái sang phải",
-          "Từ phải sang trái",
           "Thực hiện phép cộng trước, phép trừ sau",
-          "Thực hiện phép trừ trước, phép cộng sau"
+          "Từ phải sang trái"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Khi thực hiện phép tính trong biểu thức chỉ chứa phép nhân và phép chia, ta thực hiện theo thứ tự nào?",
         "options": [
-          "Từ phải sang trái",
+          "Thực hiện phép chia trước, phép nhân sau",
           "Từ trái sang phải",
-          "Thực hiện phép nhân trước, phép chia sau",
-          "Thực hiện phép chia trước, phép nhân sau"
+          "Từ phải sang trái",
+          "Thực hiện phép nhân trước, phép chia sau"
         ],
         "correct": 1
       },
@@ -4663,60 +4663,60 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Đối với biểu thức không có dấu ngoặc gồm các phép tính cộng, trừ, nhân, chia, nâng lên luỹ thừa, thứ tự thực hiện đúng là:",
         "options": [
-          "Cộng và trừ $\\to$ Nhân và chia $\\to$ Nâng lên luỹ thừa",
-          "Nhân và chia $\\to$ Nâng lên luỹ thừa $\\to$ Cộng và trừ",
+          "Nâng lên luỹ thừa $\\to$ Cộng và trừ $\\to$ Nhân và chia",
           "Nâng lên luỹ thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ",
-          "Nâng lên luỹ thừa $\\to$ Cộng và trừ $\\to$ Nhân và chia"
+          "Cộng và trừ $\\to$ Nhân và chia $\\to$ Nâng lên luỹ thừa",
+          "Nhân và chia $\\to$ Nâng lên luỹ thừa $\\to$ Cộng và trừ"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Khi thực hiện phép tính trong biểu thức có các dấu ngoặc: ngoặc tròn $( )$, ngoặc vuông $[ ]$, ngoặc nhọn $\\{ \\}$, thứ tự thực hiện đúng là:",
         "options": [
-          "$( ) \\to [ ] \\to \\{ \\}$",
           "$[ ] \\to ( ) \\to \\{ \\}$",
-          "$\\{ \\} \\to [ ] \\to ( )$",
-          "$( ) \\to \\{ \\} \\to [ ]$"
+          "$( ) \\to \\{ \\} \\to [ ]$",
+          "$( ) \\to [ ] \\to \\{ \\}$",
+          "$\\{ \\} \\to [ ] \\to ( )$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Trong biểu thức $15 + 3 \\cdot 2$, phép tính nào được thực hiện đầu tiên?",
         "options": [
-          "Phép cộng $15 + 3$",
-          "Phép nhân $3 \\cdot 2$",
           "Thực hiện phép tính nào trước cũng được",
-          "Thực hiện đồng thời phép cộng và phép nhân"
+          "Thực hiện đồng thời phép cộng và phép nhân",
+          "Phép cộng $15 + 3$",
+          "Phép nhân $3 \\cdot 2$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Trong biểu thức $24 - 6 + 4$, phép tính nào được thực hiện đầu tiên?",
         "options": [
-          "Phép cộng $6 + 4$",
           "Phép trừ $24 - 6$",
           "Cả hai phép tính cùng lúc",
+          "Phép cộng $6 + 4$",
           "Phép cộng hoặc trừ đều được"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Trong biểu thức $5 \\cdot 2^3$, phép tính nào được thực hiện đầu tiên?",
         "options": [
-          "Phép nhân $5 \\cdot 2$",
           "Phép luỹ thừa $2^3$",
-          "Nhân trước rồi mới tính luỹ thừa",
-          "Tính tuỳ ý"
+          "Tính tuỳ ý",
+          "Phép nhân $5 \\cdot 2$",
+          "Nhân trước rồi mới tính luỹ thừa"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 8,
@@ -4724,59 +4724,59 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Trong biểu thức $60 : (12 - 2)$, phép tính nào được thực hiện trước?",
         "options": [
           "Phép chia $60 : 12$",
-          "Phép trừ $12 - 2$ trong ngoặc tròn",
           "Phép chia thực hiện từ trái sang phải",
-          "Phá ngoặc rồi tính"
+          "Phá ngoặc rồi tính",
+          "Phép trừ $12 - 2$ trong ngoặc tròn"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $12 + 8 : 2$ là:",
         "options": [
-          "10",
           "16",
           "7",
+          "10",
           "14"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $18 - 2 \\cdot 3$ là:",
         "options": [
-          "12",
-          "48",
+          "24",
           "13",
-          "24"
+          "48",
+          "12"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $20 : 2 \\cdot 5$ là:",
         "options": [
+          "10",
           "2",
           "50",
-          "20",
-          "10"
+          "20"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $5 + 2^3$ là:",
         "options": [
+          "17",
           "11",
           "13",
-          "21",
-          "17"
+          "21"
         ],
-        "correct": 1
+        "correct": 2
       }
     ],
     "part2": [
@@ -4909,23 +4909,23 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Khi thực hiện phép tính có các dấu ngoặc: ngoặc tròn $( )$, ngoặc vuông $[ ]$, ngoặc nhọn $\\{ \\}$, thứ tự thực hiện đúng là:",
         "options": [
           "$\\{ \\} \\rightarrow [ ] \\rightarrow ( )$",
-          "$( ) \\rightarrow [ ] \\rightarrow \\{ \\}$",
+          "$( ) \\rightarrow \\{ \\} \\rightarrow [ ]$",
           "$[ ] \\rightarrow ( ) \\rightarrow \\{ \\}$",
-          "$( ) \\rightarrow \\{ \\} \\rightarrow [ ]$"
+          "$( ) \\rightarrow [ ] \\rightarrow \\{ \\}$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Biểu thức chỉ chứa các phép nhân và chia thì thực hiện theo thứ tự nào sau đây?",
         "options": [
-          "Thực hiện nhân trước, chia sau",
-          "Thực hiện chia trước, nhân sau",
+          "Thực hiện từ phải sang trái",
           "Thực hiện từ trái sang phải",
-          "Thực hiện từ phải sang trái"
+          "Thực hiện chia trước, nhân sau",
+          "Thực hiện nhân trước, chia sau"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 4,
@@ -4933,59 +4933,59 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Trong phép tính $A = 20 - 10 : 2 + 3$, bước đầu tiên cần thực hiện là:",
         "options": [
           "Lấy $20 - 10$",
-          "Lấy $10 : 2$",
           "Lấy $2 + 3$",
-          "Lấy $20 + 3$"
+          "Lấy $20 + 3$",
+          "Lấy $10 : 2$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = 3^3 \\cdot 2 - 2 \\cdot 5^2 + 2024^0$ bằng:",
         "options": [
-          "$5$",
           "$4$",
+          "$5$",
           "$3$",
           "$2025$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $A = 120 : [54 - (50 : 2 - 3^2)]$ là:",
         "options": [
+          "$2$",
           "$3$",
           "$4$",
-          "$5$",
-          "$2$"
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $x$ thỏa mãn đẳng thức $2 \\cdot (x - 3)^2 = 32$ là:",
         "options": [
-          "$x = 7$",
           "$x = 5$",
-          "$x = 19$",
-          "$x = 11$"
+          "$x = 11$",
+          "$x = 7$",
+          "$x = 19$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $B = 150 - [10^2 - (14 - 11)^2 \\cdot 2025^0]$ là:",
         "options": [
-          "$59$",
           "$41$",
           "$141$",
-          "$50$"
+          "$50$",
+          "$59$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -5004,36 +5004,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$, biết rằng $5 \\cdot 2^x - 3 = 37$.",
         "options": [
-          "$x = 2$",
           "$x = 3$",
+          "$x = 8$",
           "$x = 4$",
-          "$x = 8$"
+          "$x = 2$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho biểu thức $H = 75 - (3 \\cdot 5^2 - 4 \\cdot 2^3)$. Kết quả rút gọn của $H$ là:",
         "options": [
-          "$32$",
           "$43$",
           "$0$",
+          "$32$",
           "$118$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Bạn Mai mang $100\\,000$ đồng đi nhà sách. Mai mua $5$ quyển vở với giá $11\\,000$ đồng/quyển và $3$ cây bút bi với giá $6\\,000$ đồng/cây. Biểu thức nào biểu thị đúng số tiền còn lại của Mai?",
         "options": [
-          "$100\\,000 - 5 \\cdot 11\\,000 + 3 \\cdot 6\\,000$",
           "$100\\,000 - (5 \\cdot 11\\,000 + 3 \\cdot 6\\,000)$",
-          "$(100\\,000 - 5) \\cdot 11\\,000 - 3 \\cdot 6\\,000$",
-          "$100\\,000 : (5 \\cdot 11\\,000 + 3 \\cdot 6\\,000)$"
+          "$100\\,000 - 5 \\cdot 11\\,000 + 3 \\cdot 6\\,000$",
+          "$100\\,000 : (5 \\cdot 11\\,000 + 3 \\cdot 6\\,000)$",
+          "$(100\\,000 - 5) \\cdot 11\\,000 - 3 \\cdot 6\\,000$"
         ],
-        "correct": 1
+        "correct": 0
       }
     ],
     "part2": [
@@ -5154,9 +5154,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Khi thực hiện phép tính có chứa các dấu ngoặc tròn $( )$, ngoặc vuông $[ ]$, ngoặc nhọn $\\{ \\}$, thứ tự thực hiện đúng quy ước là:",
         "options": [
           "$( ) \\to [ ] \\to \\{ \\}$",
-          "$\\{ \\} \\to [ ] \\to ( )$",
           "$[ ] \\to ( ) \\to \\{ \\}$",
-          "$( ) \\to \\{ \\} \\to [ ]$"
+          "$( ) \\to \\{ \\} \\to [ ]$",
+          "$\\{ \\} \\to [ ] \\to ( )$"
         ],
         "correct": 0
       },
@@ -5165,36 +5165,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Đối với biểu thức không có dấu ngoặc chỉ gồm các phép tính cộng, trừ, nhân, chia, nâng lên luỹ thừa, thứ tự thực hiện đúng là:",
         "options": [
-          "Cộng, trừ $\\to$ Nhân, chia $\\to$ Luỹ thừa",
           "Luỹ thừa $\\to$ Nhân, chia $\\to$ Cộng, trừ",
+          "Cộng, trừ $\\to$ Nhân, chia $\\to$ Luỹ thừa",
           "Nhân, chia $\\to$ Luỹ thừa $\\to$ Cộng, trừ",
           "Luỹ thừa $\\to$ Cộng, trừ $\\to$ Nhân, chia"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = 120 - [30 - (4 - 1)^2]$ là:",
         "options": [
-          "$99$",
           "$81$",
+          "$99$",
           "$111$",
           "$69$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$ thỏa mãn đẳng thức: $2 \\cdot (x - 3)^2 + 15 = 47$.",
         "options": [
-          "$x = 7$",
-          "$x = 1$ hoặc $x = 7$",
           "$x = 4$",
-          "$x = 5$"
+          "$x = 5$",
+          "$x = 1$ hoặc $x = 7$",
+          "$x = 7$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
@@ -5203,8 +5203,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$1$",
           "$8097$",
-          "$9$",
-          "$2025$"
+          "$2025$",
+          "$9$"
         ],
         "correct": 1
       },
@@ -5215,8 +5215,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$n = 2$",
           "$n = 3$",
-          "$n = 4$",
-          "$n = 5$"
+          "$n = 5$",
+          "$n = 4$"
         ],
         "correct": 1
       },
@@ -5225,24 +5225,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Thực hiện phép tính $B = 4^3 : 2^4 + 3 \\cdot 2^3 - 2023^0$ ta được kết quả là:",
         "options": [
-          "$27$",
           "$28$",
           "$24$",
+          "$27$",
           "$26$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$ biết: $100 - [60 - (9 - 2)^2] \\cdot x = 89$.",
         "options": [
+          "$x = 3$",
           "$x = 2$",
-          "$x = 1$",
           "$x = 0$",
-          "$x = 3$"
+          "$x = 1$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 9,
@@ -5250,23 +5250,23 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Có bao nhiêu số tự nhiên $x$ thỏa mãn $(2x - 1)^4 = (2x - 1)^2$?",
         "options": [
           "$1$",
-          "$2$",
+          "$4$",
           "$3$",
-          "$4$"
+          "$2$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho $M = 2 + 2^2 + 2^3 + \\ldots + 2^{60}$. Giá trị của biểu thức $2M + 2$ viết dưới dạng luỹ thừa là:",
         "options": [
-          "$2^{61}$",
-          "$2^{62}$",
           "$4^{60}$",
-          "$2^{60}$"
+          "$2^{62}$",
+          "$2^{60}$",
+          "$2^{61}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -5274,9 +5274,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Cho biểu thức $A = 75 - 5 \\cdot (x - 2)^3$. Giá trị lớn nhất của $A$ khi $x$ là một số tự nhiên lớn hơn hoặc bằng $2$ là:",
         "options": [
           "$75$",
-          "$70$",
+          "$60$",
           "$80$",
-          "$60$"
+          "$70$"
         ],
         "correct": 0
       },
@@ -5285,12 +5285,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm số tự nhiên $x$ thỏa mãn $5^{x} + 5^{x+1} + 5^{x+2} = 3875$.",
         "options": [
+          "$x = 4$",
           "$x = 2$",
           "$x = 3$",
-          "$x = 4$",
           "$x = 5$"
         ],
-        "correct": 1
+        "correct": 2
       }
     ],
     "part2": [
@@ -5410,48 +5410,48 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tập hợp $A = \\{2; 3; 5; 7\\}$. Khẳng định nào sau đây là đúng?",
         "options": [
+          "$2 \\subset A$",
           "$3 \\in A$",
           "$4 \\in A$",
-          "$7 \\notin A$",
-          "$2 \\subset A$"
+          "$7 \\notin A$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Số La Mã $\\text{XIX}$ biểu diễn số tự nhiên nào trong hệ thập phân?",
         "options": [
-          "$19$",
+          "$29$",
           "$21$",
-          "$18$",
-          "$29$"
+          "$19$",
+          "$18$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Tập hợp các số tự nhiên $\\mathbb{N}^*$ là:",
         "options": [
-          "$\\{1; 2; 3; 4; \\dots\\}$",
+          "$\\{1; 3; 5; 7; \\dots\\}$",
           "$\\{0; 1; 2; 3; 4; \\dots\\}$",
           "$\\{0; 2; 4; 6; \\dots\\}$",
-          "$\\{1; 3; 5; 7; \\dots\\}$"
+          "$\\{1; 2; 3; 4; \\dots\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $2^3 \\cdot 2^2$ bằng:",
         "options": [
-          "$2^5$",
           "$2^6$",
-          "$4^5$",
-          "$4^6$"
+          "$2^5$",
+          "$4^6$",
+          "$4^5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -5459,9 +5459,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Kết quả của phép chia $5^6 : 5^2$ bằng:",
         "options": [
           "$5^4$",
-          "$5^3$",
+          "$5^8$",
           "$1^4$",
-          "$5^8$"
+          "$5^3$"
         ],
         "correct": 0
       },
@@ -5470,36 +5470,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Giá trị của $2026^0$ bằng:",
         "options": [
+          "$2026$",
           "$1$",
           "$0$",
-          "$2026$",
           "Không xác định"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Thứ tự thực hiện đúng các dấu ngoặc trong một biểu thức là:",
         "options": [
-          "$( ) \\to [ ] \\to \\{ \\}$",
-          "$[ ] \\to ( ) \\to \\{ \\}$",
+          "$( ) \\to \\{ \\} \\to [ ]$",
           "$\\{ \\} \\to [ ] \\to ( )$",
-          "$( ) \\to \\{ \\} \\to [ ]$"
+          "$[ ] \\to ( ) \\to \\{ \\}$",
+          "$( ) \\to [ ] \\to \\{ \\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $x$ thỏa mãn $x + 15 = 40$ là:",
         "options": [
-          "$25$",
+          "$15$",
           "$55$",
-          "$35$",
-          "$15$"
+          "$25$",
+          "$35$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -5507,9 +5507,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tính nhanh $25 \\cdot 37 \\cdot 4$ ta được kết quả là:",
         "options": [
           "$3700$",
-          "$370$",
+          "$7400$",
           "$37000$",
-          "$7400$"
+          "$370$"
         ],
         "correct": 0
       },
@@ -5518,12 +5518,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Trong phép chia có dư với số chia bằng $7$, số dư lớn nhất có thể có là:",
         "options": [
-          "$6$",
+          "$1$",
           "$7$",
           "$5$",
-          "$1$"
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -5531,9 +5531,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 5 < x \\le 9\\}$ gồm các phần tử là:",
         "options": [
           "$\\{6; 7; 8; 9\\}$",
-          "$\\{5; 6; 7; 8; 9\\}$",
+          "$\\{5; 6; 7; 8\\}$",
           "$\\{6; 7; 8\\}$",
-          "$\\{5; 6; 7; 8\\}$"
+          "$\\{5; 6; 7; 8; 9\\}$"
         ],
         "correct": 0
       },
@@ -5542,12 +5542,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $100 - (30 - 20 : 2)$ bằng:",
         "options": [
-          "$80$",
           "$70$",
           "$90$",
+          "$80$",
           "$60$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -5667,24 +5667,24 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tập hợp $A = \\{x \\in \\mathbb{N}^* \\mid x \\le 5\\}$ có bao nhiêu phần tử?",
         "options": [
-          "$5$",
+          "Vô số",
           "$6$",
           "$4$",
-          "Vô số"
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Số La Mã biểu diễn số tự nhiên $26$ là:",
         "options": [
-          "$\\text{XXVI}$",
           "$\\text{XXIV}$",
+          "$\\text{XVI}$",
           "$\\text{XXVII}$",
-          "$\\text{XVI}$"
+          "$\\text{XXVI}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -5693,8 +5693,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$a^{m+n}$",
           "$a^{m-n}$",
-          "$a^{m \\cdot n}$",
-          "$(2a)^{m+n}$"
+          "$(2a)^{m+n}$",
+          "$a^{m \\cdot n}$"
         ],
         "correct": 0
       },
@@ -5703,12 +5703,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Thương $x^9 : x^3$ ($x \\ne 0$) bằng:",
         "options": [
+          "$1^6$",
           "$x^6$",
           "$x^3$",
-          "$x^{12}$",
-          "$1^6$"
+          "$x^{12}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -5716,9 +5716,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Thứ tự thực hiện các phép tính trong biểu thức không có dấu ngoặc là:",
         "options": [
           "Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ",
-          "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ",
+          "Từ trái sang phải không phân biệt phép tính",
           "Cộng và trừ $\\to$ Nhân và chia $\\to$ Lũy thừa",
-          "Từ trái sang phải không phân biệt phép tính"
+          "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ"
         ],
         "correct": 0
       },
@@ -5727,36 +5727,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho phép chia $a : b = q$ (dư $r$). Điều kiện của số dư $r$ là:",
         "options": [
-          "$0 \\le r < b$",
+          "$r > 0$",
           "$0 < r \\le b$",
-          "$r < b$",
-          "$r > 0$"
+          "$0 \\le r < b$",
+          "$r < b$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $x$ thỏa mãn $5(x - 2) = 35$ là:",
         "options": [
-          "$9$",
-          "$7$",
+          "$11$",
           "$5$",
-          "$11$"
+          "$7$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $2^3 \\cdot 5 - 3^2$ bằng:",
         "options": [
-          "$31$",
-          "$37$",
           "$29$",
-          "$41$"
+          "$41$",
+          "$31$",
+          "$37$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -5764,9 +5764,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Tính nhanh tổng $135 + 360 + 65 + 40$ ta được kết quả là:",
         "options": [
           "$600$",
+          "$590$",
           "$500$",
-          "$610$",
-          "$590$"
+          "$610$"
         ],
         "correct": 0
       },
@@ -5775,36 +5775,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết $x^3 = 64$. Giá trị của số tự nhiên $x$ là:",
         "options": [
-          "$4$",
-          "$8$",
           "$2$",
+          "$8$",
+          "$4$",
           "$16$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Viết tích $8^3 \\cdot 4^2$ dưới dạng một lũy thừa cơ số $2$ ta được:",
         "options": [
+          "$2^{18}$",
           "$2^{13}$",
-          "$2^{10}$",
           "$2^{12}$",
-          "$2^{18}$"
+          "$2^{10}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $A = 2026 - [150 - (12 - 7)^2]$ là:",
         "options": [
-          "$1901$",
           "$1910$",
-          "$1900$",
-          "$2001$"
+          "$1901$",
+          "$2001$",
+          "$1900$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -5924,12 +5924,12 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tập hợp $X = \\{x \\in \\mathbb{N} \\mid 10 \\le x < 100\\}$. Số phần tử của tập hợp $X$ là:",
         "options": [
-          "$90$",
           "$89$",
-          "$91$",
-          "$100$"
+          "$90$",
+          "$100$",
+          "$91$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -5948,60 +5948,60 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức $(a^m)^n$ viết gọn lại là:",
         "options": [
-          "$a^{m \\cdot n}$",
           "$a^{m + n}$",
+          "$a^{m \\cdot n}$",
           "$a^{m - n}$",
           "$a^{m^n}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số tự nhiên liền trước của số $n + 1$ ($n \\in \\mathbb{N}^*$) là:",
         "options": [
-          "$n$",
           "$n + 2$",
+          "$n$",
           "$n - 1$",
           "$2n$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Nếu tích $a \\cdot b = 0$ thì khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$a = 0$ hoặc $b = 0$",
-          "Cả $a$ và $b$ đều phải bằng $0$",
           "$a = 0$ và $b \\ne 0$",
+          "Cả $a$ và $b$ đều phải bằng $0$",
+          "$a = 0$ hoặc $b = 0$",
           "$a > 0$ và $b < 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Trong phép chia số tự nhiên $a$ cho $b$ ($b \\ne 0$) có thương là $q$ và số dư là $r$. Công thức biểu diễn $a$ là:",
         "options": [
-          "$a = b \\cdot q + r$ ($0 \\le r < b$)",
-          "$a = b \\cdot q - r$",
+          "$a = (b + q) \\cdot r$",
           "$a = b \\cdot r + q$",
-          "$a = (b + q) \\cdot r$"
+          "$a = b \\cdot q - r$",
+          "$a = b \\cdot q + r$ ($0 \\le r < b$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Số tự nhiên $x$ thỏa mãn $2^{x+3} = 128$ là:",
         "options": [
-          "$4$",
-          "$7$",
           "$5$",
-          "$3$"
+          "$3$",
+          "$4$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -6009,9 +6009,9 @@ const CHAPTER1_TOAN6_EXAMS = {
         "question": "Để đánh số trang của một cuốn sách dày 120 trang bằng các số tự nhiên từ 1 đến 120, người ta phải dùng tất cả bao nhiêu chữ số?",
         "options": [
           "$252$",
-          "$240$",
           "$250$",
-          "$260$"
+          "$260$",
+          "$240$"
         ],
         "correct": 0
       },
@@ -6020,36 +6020,36 @@ const CHAPTER1_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên có hai chữ số giống nhau, biết số đó chia hết cho 2 và khi chia cho 5 thì dư 3:",
         "options": [
-          "$88$",
           "$22$",
+          "$66$",
           "$44$",
-          "$66$"
+          "$88$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tổng $S = 1 + 2 + 3 + 4 + \\dots + 99 + 100$ có giá trị bằng:",
         "options": [
-          "$5050$",
-          "$5000$",
           "$5100$",
-          "$5025$"
+          "$5000$",
+          "$5025$",
+          "$5050$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $M = \\frac{4^5 \\cdot 9^4 - 2 \\cdot 6^9}{2^{10} \\cdot 3^8 + 6^8 \\cdot 20}$ ta được kết quả là:",
         "options": [
-          "$\\frac{1}{3}$",
+          "$\\frac{2}{3}$",
           "$-1$",
-          "$1$",
-          "$\\frac{2}{3}$"
+          "$\\frac{1}{3}$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -6058,8 +6058,8 @@ const CHAPTER1_TOAN6_EXAMS = {
         "options": [
           "$5$",
           "$0$",
-          "$1$",
-          "$9$"
+          "$9$",
+          "$1$"
         ],
         "correct": 0
       }

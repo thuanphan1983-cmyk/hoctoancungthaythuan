@@ -8,24 +8,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Tổng ba góc của một tam giác bất kì luôn bằng:",
         "options": [
-          "$180^\\circ$",
           "$90^\\circ$",
           "$360^\\circ$",
-          "$120^\\circ$"
+          "$120^\\circ$",
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong tam giác vuông, hai góc nhọn có tính chất:",
         "options": [
-          "Phụ nhau (tổng bằng $90^\\circ$)",
           "Bù nhau (tổng bằng $180^\\circ$)",
-          "Bằng nhau",
-          "Có tổng bằng $60^\\circ$"
+          "Phụ nhau (tổng bằng $90^\\circ$)",
+          "Có tổng bằng $60^\\circ$",
+          "Bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -33,9 +33,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Góc ngoài của một tam giác là góc:",
         "options": [
           "Kề bù với một góc của tam giác đó",
+          "Kề với một góc trong của tam giác",
           "Nằm hoàn toàn bên ngoài tam giác",
-          "Có số đo lớn hơn $90^\\circ$",
-          "Kề với một góc trong của tam giác"
+          "Có số đo lớn hơn $90^\\circ$"
         ],
         "correct": 0
       },
@@ -44,60 +44,60 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Mỗi góc ngoài của một tam giác có số đo bằng:",
         "options": [
-          "Tổng số đo hai góc trong không kề với nó",
           "Tổng ba góc trong của tam giác",
-          "Số đo góc kề bù với nó",
-          "$180^\\circ$ trừ đi số đo một góc ngoài khác"
+          "Tổng số đo hai góc trong không kề với nó",
+          "$180^\\circ$ trừ đi số đo một góc ngoài khác",
+          "Số đo góc kề bù với nó"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ, \\widehat{B} = 70^\\circ$. Số đo góc $C$ là:",
         "options": [
-          "$50^\\circ$",
           "$60^\\circ$",
+          "$50^\\circ$",
           "$70^\\circ$",
           "$80^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle MNP$ vuông tại $M$. Nếu $\\widehat{N} = 35^\\circ$ thì số đo $\\widehat{P}$ bằng:",
         "options": [
-          "$55^\\circ$",
           "$65^\\circ$",
           "$145^\\circ$",
+          "$55^\\circ$",
           "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Góc ngoài tại đỉnh $A$ của $\\triangle ABC$ bằng $120^\\circ$. Khi đó số đo góc $\\widehat{B} + \\widehat{C}$ bằng:",
         "options": [
-          "$120^\\circ$",
           "$60^\\circ$",
-          "$180^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$120^\\circ$",
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tam giác có ba góc bằng nhau thì mỗi góc có số đo là:",
         "options": [
-          "$60^\\circ$",
+          "$50^\\circ$",
           "$45^\\circ$",
-          "$90^\\circ$",
-          "$50^\\circ$"
+          "$60^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -105,8 +105,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle DEF$ có $\\widehat{D} = 40^\\circ$ và $\\widehat{E} = 2\\widehat{D}$. Số đo góc $F$ là:",
         "options": [
           "$60^\\circ$",
-          "$80^\\circ$",
           "$40^\\circ$",
+          "$80^\\circ$",
           "$100^\\circ$"
         ],
         "correct": 0
@@ -117,9 +117,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} - \\widehat{B} = 20^\\circ$ và $\\widehat{B} - \\widehat{C} = 20^\\circ$. Số đo góc $B$ là:",
         "options": [
           "$60^\\circ$",
-          "$80^\\circ$",
           "$40^\\circ$",
-          "$70^\\circ$"
+          "$70^\\circ$",
+          "$80^\\circ$"
         ],
         "correct": 0
       },
@@ -128,24 +128,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác có số đo ba góc tỉ lệ với $1; 2; 3$. Số đo góc lớn nhất của tam giác đó là:",
         "options": [
-          "$90^\\circ$",
-          "$60^\\circ$",
+          "$100^\\circ$",
           "$120^\\circ$",
-          "$100^\\circ$"
+          "$60^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$. Tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Biết $\\widehat{A} = 80^\\circ$, số đo $\\widehat{BIC}$ là:",
         "options": [
-          "$130^\\circ$",
-          "$100^\\circ$",
           "$140^\\circ$",
-          "$120^\\circ$"
+          "$100^\\circ$",
+          "$120^\\circ$",
+          "$130^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -296,12 +296,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc ngoài của tam giác luôn:",
         "options": [
-          "Lớn hơn mỗi góc trong không kề với nó",
-          "Nhỏ hơn góc trong kề với nó",
           "Bằng một góc vuông",
-          "Nhỏ hơn $90^\\circ$"
+          "Nhỏ hơn $90^\\circ$",
+          "Nhỏ hơn góc trong kề với nó",
+          "Lớn hơn mỗi góc trong không kề với nó"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -309,9 +309,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Tam giác tù là tam giác có:",
         "options": [
           "Một góc tù và hai góc nhọn",
-          "Hai góc tù",
           "Ba góc tù",
-          "Một góc vuông và một góc tù"
+          "Một góc vuông và một góc tù",
+          "Hai góc tù"
         ],
         "correct": 0
       },
@@ -321,9 +321,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} : \\widehat{C} = 2 : 3$. Số đo góc $B$ là:",
         "options": [
           "$52^\\circ$",
+          "$45^\\circ$",
           "$78^\\circ$",
-          "$65^\\circ$",
-          "$45^\\circ$"
+          "$65^\\circ$"
         ],
         "correct": 0
       },
@@ -332,60 +332,60 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$\\widehat{BAH} = \\widehat{B}$",
+          "$\\widehat{BAH} + \\widehat{CAH} = 90^\\circ$",
           "$\\widehat{BAH} = \\widehat{C}$",
-          "$\\widehat{CAH} = \\widehat{B}$",
-          "$\\widehat{BAH} + \\widehat{CAH} = 90^\\circ$"
+          "$\\widehat{BAH} = \\widehat{B}$",
+          "$\\widehat{CAH} = \\widehat{B}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho tam giác có số đo ba góc tỉ lệ với $2 : 3 : 5$. Tam giác đó là:",
         "options": [
-          "Tam giác vuông",
-          "Tam giác nhọn",
           "Tam giác tù",
+          "Tam giác nhọn",
+          "Tam giác vuông",
           "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Một tam giác có tổng hai góc bất kì luôn lớn hơn góc còn lại thì tam giác đó là:",
         "options": [
+          "Tam giác cân",
           "Tam giác nhọn",
           "Tam giác tù",
-          "Tam giác vuông",
-          "Tam giác cân"
+          "Tam giác vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 70^\\circ$. Các tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Số đo góc $BIC$ là:",
         "options": [
-          "$125^\\circ$",
           "$110^\\circ$",
+          "$125^\\circ$",
           "$135^\\circ$",
           "$140^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho hình vẽ có $Ax \\parallel By$, biết $\\widehat{xAC} = 40^\\circ, \\widehat{CBy} = 30^\\circ$ ($C$ nằm giữa hai đường song song). Số đo $\\widehat{ACB}$ là:",
         "options": [
+          "$50^\\circ$",
           "$70^\\circ$",
           "$110^\\circ$",
-          "$10^\\circ$",
-          "$50^\\circ$"
+          "$10^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -404,36 +404,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Gọi tia phân giác góc $B$ cắt $AC$ tại $M$. Biết $\\widehat{BMC} = 115^\\circ$, số đo góc $C$ là:",
         "options": [
-          "$40^\\circ$",
-          "$50^\\circ$",
+          "$35^\\circ$",
           "$25^\\circ$",
-          "$35^\\circ$"
+          "$50^\\circ$",
+          "$40^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Hai tia phân giác của hai góc ngoài tại đỉnh $B$ và $C$ cắt nhau tại $K$. Biết $\\widehat{A} = 60^\\circ$, số đo $\\widehat{BKC}$ bằng:",
         "options": [
-          "$60^\\circ$",
-          "$120^\\circ$",
           "$30^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$60^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho ngôi sao năm cánh $ABCDE$. Tổng số đo 5 góc ở 5 cánh của ngôi sao $(\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D} + \\widehat{E})$ bằng:",
         "options": [
-          "$180^\\circ$",
           "$360^\\circ$",
+          "$270^\\circ$",
           "$540^\\circ$",
-          "$270^\\circ$"
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -584,48 +584,48 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc tạo bởi hai tia phân giác của hai góc kề bù bằng:",
         "options": [
-          "$90^\\circ$",
+          "$60^\\circ$",
           "$180^\\circ$",
           "$45^\\circ$",
-          "$60^\\circ$"
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$. Tia phân giác của góc $B$ và góc ngoài tại $C$ cắt nhau tại $E$. Số đo $\\widehat{BEC}$ là:",
         "options": [
-          "$50^\\circ$",
           "$80^\\circ$",
-          "$40^\\circ$",
-          "$100^\\circ$"
+          "$100^\\circ$",
+          "$50^\\circ$",
+          "$40^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tam giác có một góc bằng $60^\\circ$ và hiệu hai góc kia bằng $30^\\circ$. Ba góc của tam giác đó là:",
         "options": [
-          "$75^\\circ; 60^\\circ; 45^\\circ$",
+          "$70^\\circ; 60^\\circ; 50^\\circ$",
           "$80^\\circ; 60^\\circ; 40^\\circ$",
-          "$90^\\circ; 60^\\circ; 30^\\circ$",
-          "$70^\\circ; 60^\\circ; 50^\\circ$"
+          "$75^\\circ; 60^\\circ; 45^\\circ$",
+          "$90^\\circ; 60^\\circ; 30^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$. Tổng số đo các góc ngoài (mỗi đỉnh lấy một góc ngoài) của tam giác bằng:",
         "options": [
-          "$360^\\circ$",
           "$180^\\circ$",
-          "$540^\\circ$",
-          "$270^\\circ$"
+          "$360^\\circ$",
+          "$270^\\circ$",
+          "$540^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -633,9 +633,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho hình cánh diều tứ giác lồi $ABCD$. Tổng 4 góc $\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D}$ bằng:",
         "options": [
           "$360^\\circ$",
+          "$540^\\circ$",
           "$180^\\circ$",
-          "$270^\\circ$",
-          "$540^\\circ$"
+          "$270^\\circ$"
         ],
         "correct": 0
       },
@@ -645,9 +645,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ vuông tại $A$. Gọi $D$ là điểm trên $BC$ sao cho $CD = CA$. Kẻ tia phân giác góc $C$ cắt $AB$ tại $K$. Số đo $\\widehat{KDC}$ là:",
         "options": [
           "$90^\\circ$",
-          "$60^\\circ$",
           "$45^\\circ$",
-          "$75^\\circ$"
+          "$75^\\circ$",
+          "$60^\\circ$"
         ],
         "correct": 0
       },
@@ -656,36 +656,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 30^\\circ$. Đường thẳng chứa tia phân giác của góc ngoài tại đỉnh $A$ cắt đường thẳng $BC$ tại $P$. Số đo $\\widehat{APB}$ là:",
         "options": [
-          "$20^\\circ$",
           "$30^\\circ$",
+          "$20^\\circ$",
           "$40^\\circ$",
           "$50^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 2\\widehat{B} = 4\\widehat{C}$. Số đo của góc $B$ là:",
         "options": [
-          "$\\approx 51{,}43^\\circ$ (hay $\\frac{360^\\circ}{7}$)",
-          "$60^\\circ$",
+          "$50^\\circ$",
           "$45^\\circ$",
-          "$50^\\circ$"
+          "$\\approx 51{,}43^\\circ$ (hay $\\frac{360^\\circ}{7}$)",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có các đường phân giác $BD$ và $CE$ cắt nhau tại $I$. Biết $\\widehat{BIC} = 120^\\circ$, số đo góc $A$ bằng:",
         "options": [
-          "$60^\\circ$",
-          "$120^\\circ$",
           "$30^\\circ$",
-          "$90^\\circ$"
+          "$60^\\circ$",
+          "$90^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -694,8 +694,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$\\widehat{BOC} > \\widehat{BAC}$",
           "$\\widehat{BOC} < \\widehat{BAC}$",
-          "$\\widehat{BOC} = \\widehat{BAC}$",
-          "$\\widehat{BOC} = 2\\widehat{BAC}$"
+          "$\\widehat{BOC} = 2\\widehat{BAC}$",
+          "$\\widehat{BOC} = \\widehat{BAC}$"
         ],
         "correct": 0
       },
@@ -705,8 +705,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Phân giác $BD$ và $CE$ cắt nhau tại $I$. Khẳng định nào đúng?",
         "options": [
           "$ID = IE$",
-          "$\\widehat{BIC} = 120^\\circ$",
           "Tia phân giác góc $BIC$ đi qua $A$",
+          "$\\widehat{BIC} = 120^\\circ$",
           "Cả ba đáp án trên đều đúng"
         ],
         "correct": 3
@@ -716,12 +716,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Một đa giác lồi có $n$ cạnh thì tổng số đo các góc ngoài (mỗi đỉnh lấy một góc ngoài) luôn bằng:",
         "options": [
-          "$360^\\circ$",
+          "$180^\\circ$",
           "$(n - 2) \\cdot 180^\\circ$",
           "$n \\cdot 180^\\circ$",
-          "$180^\\circ$"
+          "$360^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -872,24 +872,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai tam giác bằng nhau là hai tam giác có:",
         "options": [
-          "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
           "Diện tích bằng nhau",
-          "Chu vi bằng nhau",
-          "Các góc tương ứng bằng nhau"
+          "Các góc tương ứng bằng nhau",
+          "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
+          "Chu vi bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Nếu $\\triangle ABC = \\triangle DEF$ thì cạnh tương ứng với cạnh $AB$ là:",
         "options": [
-          "$DE$",
-          "$DF$",
           "$EF$",
-          "$FD$"
+          "$DE$",
+          "$FD$",
+          "$DF$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -897,8 +897,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Nếu $\\triangle ABC = \\triangle MNP$ thì góc tương ứng với góc $\\widehat{C}$ là:",
         "options": [
           "$\\widehat{P}$",
-          "$\\widehat{M}$",
           "$\\widehat{N}$",
+          "$\\widehat{M}$",
           "$\\widehat{B}$"
         ],
         "correct": 0
@@ -908,24 +908,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Trường hợp bằng nhau cạnh - cạnh - cạnh (c.c.c) phát biểu: Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì:",
         "options": [
-          "Hai tam giác đó bằng nhau",
           "Hai tam giác đó đồng dạng",
+          "Hai tam giác đó vuông",
           "Hai tam giác đó có diện tích bằng nhau nhưng không bằng nhau",
-          "Hai tam giác đó vuông"
+          "Hai tam giác đó bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $AB = 5\\text{ cm}, BC = 6\\text{ cm}, DF = 7\\text{ cm}$. Chu vi $\\triangle DEF$ là:",
         "options": [
-          "$18\\text{ cm}$",
           "$17\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$18\\text{ cm}$",
+          "$15\\text{ cm}$",
+          "$16\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -933,9 +933,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $\\widehat{A} = 45^\\circ, \\widehat{B} = 75^\\circ$. Số đo góc $P$ là:",
         "options": [
           "$60^\\circ$",
-          "$45^\\circ$",
+          "$80^\\circ$",
           "$75^\\circ$",
-          "$80^\\circ$"
+          "$45^\\circ$"
         ],
         "correct": 0
       },
@@ -944,36 +944,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle MNP$ và $\\triangle QRS$ có $MN = QR, NP = RS, MP = QS$. Kí hiệu nào sau đây đúng?",
         "options": [
-          "$\\triangle MNP = \\triangle QRS$",
+          "$\\triangle PMN = \\triangle QRS$",
           "$\\triangle MNP = \\triangle RSQ$",
-          "$\\triangle MNP = \\triangle SRQ$",
-          "$\\triangle PMN = \\triangle QRS$"
+          "$\\triangle MNP = \\triangle QRS$",
+          "$\\triangle MNP = \\triangle SRQ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho đoạn thẳng $AB$. Đường tròn tâm $A$ bán kính $R$ và đường tròn tâm $B$ bán kính $R$ cắt nhau tại $C$ và $D$. Khi đó $\\triangle CAB = \\triangle DAB$ theo trường hợp:",
         "options": [
-          "cạnh - cạnh - cạnh (c.c.c)",
           "cạnh - góc - cạnh",
+          "cạnh huyền - góc nhọn",
           "góc - cạnh - góc",
-          "cạnh huyền - góc nhọn"
+          "cạnh - cạnh - cạnh (c.c.c)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AB = CD$ và $BC = AD$. Nối $AC$, ta có $\\triangle ABC = \\triangle CDA$ vì có:",
         "options": [
-          "Ba cặp cạnh bằng nhau ($AB=CD, BC=DA, AC$ chung)",
           "Hai góc bằng nhau",
           "Hai cạnh và một góc vuông",
+          "Ba cặp cạnh bằng nhau ($AB=CD, BC=DA, AC$ chung)",
           "Góc kề bù"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -981,9 +981,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $M$ là trung điểm của $BC$. Khẳng định nào sau đây SAI?",
         "options": [
           "$AM$ không vuông góc với $BC$",
+          "$\\widehat{BAM} = \\widehat{CAM}$",
           "$\\triangle ABM = \\triangle ACM$",
-          "$AM \\perp BC$",
-          "$\\widehat{BAM} = \\widehat{CAM}$"
+          "$AM \\perp BC$"
         ],
         "correct": 0
       },
@@ -992,24 +992,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC = \\triangle HIK$. Biết $\\widehat{A} = 50^\\circ, \\widehat{I} = 65^\\circ$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$\\widehat{K} = 65^\\circ$",
           "$\\widehat{C} = 50^\\circ$",
+          "$\\widehat{H} = 65^\\circ$",
           "$\\widehat{B} = 50^\\circ$",
-          "$\\widehat{H} = 65^\\circ$"
+          "$\\widehat{K} = 65^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Đoạn thẳng $BD$ có tính chất gì đối với góc $B$ và góc $D$?",
         "options": [
-          "Là tia phân giác của cả góc $B$ và góc $D$",
           "Là đường trung tuyến",
-          "Song song với $AC$",
-          "Chỉ là tia phân giác của góc $B$"
+          "Là tia phân giác của cả góc $B$ và góc $D$",
+          "Chỉ là tia phân giác của góc $B$",
+          "Song song với $AC$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1160,24 +1160,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, AC = 10\\text{ cm}$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$NP = 6\\text{ cm}$",
+          "$NP = 8\\text{ cm}$",
           "$MN = 6\\text{ cm}$",
-          "$MP = 10\\text{ cm}$",
-          "$NP = 8\\text{ cm}$"
+          "$NP = 6\\text{ cm}$",
+          "$MP = 10\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có $AB = AC$. Lấy $M, N$ lần lượt là trung điểm của $AB, AC$. Nếu $BN = CM$ thì khẳng định nào sau đây đúng?",
         "options": [
+          "$\\widehat{B} \\neq \\widehat{C}$",
           "$\\triangle BNC = \\triangle CMB$",
           "$\\triangle AMN$ không cân",
-          "$BN$ không bằng $CM$",
-          "$\\widehat{B} \\neq \\widehat{C}$"
+          "$BN$ không bằng $CM$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -1186,8 +1186,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$40^\\circ$",
           "$80^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$"
+          "$30^\\circ$",
+          "$60^\\circ$"
         ],
         "correct": 0
       },
@@ -1198,8 +1198,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$\\triangle ABD = \\triangle CBD$",
           "$\\triangle ABC = \\triangle CDA$",
-          "$AC \\parallel BD$",
-          "$AB \\parallel CD$"
+          "$AB \\parallel CD$",
+          "$AC \\parallel BD$"
         ],
         "correct": 0
       },
@@ -1208,60 +1208,60 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $AB = AC = BC$. Tam giác $ABC$ là:",
         "options": [
-          "Tam giác đều",
           "Tam giác vuông",
+          "Tam giác vuông cân",
           "Tam giác tù",
-          "Tam giác vuông cân"
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Gọi $D$ là điểm nằm trong tam giác sao cho $DB = DC$. Khi đó đường thẳng $AD$:",
         "options": [
-          "Là đường trung trực của đoạn thẳng $BC$",
-          "Song song với $BC$",
           "Vuông góc với $AB$",
-          "Cắt $BC$ tại điểm không phải trung điểm"
+          "Song song với $BC$",
+          "Cắt $BC$ tại điểm không phải trung điểm",
+          "Là đường trung trực của đoạn thẳng $BC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho hai tam giác cân $ABC$ và $DBC$ có chung đáy $BC$ ($A$ và $D$ nằm khác phía đối với $BC$). Khẳng định nào sau đây đúng?",
         "options": [
-          "$\\triangle ABD = \\triangle ACD$ (c.c.c)",
-          "$\\triangle ABD = \\triangle BCD$",
+          "$AB = CD$",
           "$AD \\parallel BC$",
-          "$AB = CD$"
+          "$\\triangle ABD = \\triangle BCD$",
+          "$\\triangle ABD = \\triangle ACD$ (c.c.c)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho hình vẽ có hai đường tròn $(A; R)$ và $(B; R)$ cắt nhau tại $M$ và $N$. Tứ giác $AMBN$ có đặc điểm gì?",
         "options": [
-          "Có 4 cạnh bằng nhau",
           "Có 4 góc vuông",
           "Là hình thang cân",
+          "Có 4 cạnh bằng nhau",
           "Chỉ có 2 cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết $AB = 3x - 1$, $MN = 8$. Giá trị của $x$ là:",
         "options": [
+          "$5$",
           "$3$",
-          "$2$",
           "$4$",
-          "$5$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -1269,9 +1269,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC = \\triangle MNP$. Biết chu vi $\\triangle ABC$ là $22\\text{ cm}$, $AB = 6\\text{ cm}$ và $NP - MP = 2\\text{ cm}$. Độ dài cạnh $BC$ là:",
         "options": [
           "$9\\text{ cm}$",
+          "$10\\text{ cm}$",
           "$7\\text{ cm}$",
-          "$8\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$8\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -1280,24 +1280,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác đều $ABC$. Lấy các điểm $M, N, P$ lần lượt trên các cạnh $AB, BC, CA$ sao cho $AM = BN = CP$. Khi đó tam giác $MNP$ là:",
         "options": [
-          "Tam giác đều",
-          "Tam giác tù",
           "Tam giác vuông cân",
+          "Tam giác tù",
+          "Tam giác đều",
           "Tam giác vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tứ giác $ABCD$ có $AB = CD, BC = AD$. Gọi $O$ là giao điểm của $AC$ và $BD$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$AC \\perp BD$",
           "$OA = OC$",
+          "$AC \\perp BD$",
           "$OB = OD$",
           "$\\triangle OAB = \\triangle OCD$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1449,9 +1449,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Hai tam giác bằng nhau thì có chu vi như thế nào?",
         "options": [
           "Luôn luôn bằng nhau",
-          "Có thể khác nhau",
           "Gấp đôi nhau",
-          "Tỉ lệ với 2"
+          "Tỉ lệ với 2",
+          "Có thể khác nhau"
         ],
         "correct": 0
       },
@@ -1460,60 +1460,60 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC = \\triangle A'B'C'$. Gọi $M, M'$ lần lượt là trung điểm của $BC$ và $B'C'$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$AM \\neq A'M'$",
+          "$\\triangle ACM = \\triangle A'C'M'$",
           "$AM = A'M'$",
           "$\\triangle ABM = \\triangle A'B'M'$",
-          "$\\triangle ACM = \\triangle A'C'M'$"
+          "$AM \\neq A'M'$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho tứ giác lồi $ABCD$ có $AB = BC$ và $CD = DA$. Đường chéo $AC$ và $BD$ có tính chất:",
         "options": [
-          "$BD$ là đường trung trực của $AC$",
-          "$AC$ là đường trung trực của $BD$",
+          "$AC \\parallel BD$",
           "$AC = BD$",
-          "$AC \\parallel BD$"
+          "$AC$ là đường trung trực của $BD$",
+          "$BD$ là đường trung trực của $AC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho tam giác đều $ABC$. Lấy điểm $O$ trong tam giác sao cho $OA = OB = OC$. Khi đó số đo góc $\\widehat{AOB}$ bằng:",
         "options": [
-          "$120^\\circ$",
-          "$90^\\circ$",
           "$60^\\circ$",
-          "$150^\\circ$"
+          "$150^\\circ$",
+          "$120^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy điểm $D$ trên cạnh $AB$ và điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Khi đó $BE = CD$ nhờ cặp tam giác bằng nhau nào?",
         "options": [
+          "Không chứng minh được",
           "$\\triangle ABE = \\triangle ACD$",
           "$\\triangle BDC = \\triangle CEB$",
-          "Cả hai cặp trên đều chứng minh được",
-          "Không chứng minh được"
+          "Cả hai cặp trên đều chứng minh được"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho 4 điểm $A, B, C, D$ sao cho $AB = CD$ và $AD = BC$. Khẳng định nào luôn đúng?",
         "options": [
-          "Tứ giác $ABCD$ là hình bình hành",
           "Tứ giác $ABCD$ là hình thoi",
+          "Tứ giác $ABCD$ là hình bình hành",
           "$AC \\perp BD$",
           "$AB \\perp BC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1521,9 +1521,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho đoạn thẳng $AB$. Tập hợp các điểm $M$ thỏa mãn $MA = MB$ là:",
         "options": [
           "Đường trung trực của đoạn thẳng $AB$",
-          "Đường tròn đường kính $AB$",
           "Tia phân giác",
-          "Đoạn thẳng nối $A$ và $B$"
+          "Đoạn thẳng nối $A$ và $B$",
+          "Đường tròn đường kính $AB$"
         ],
         "correct": 0
       },
@@ -1532,12 +1532,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài tam giác các tam giác đều $ABD$ và $ACE$. Đoạn thẳng $CD$ và $BE$ có quan hệ gì?",
         "options": [
-          "$CD = BE$",
-          "$CD \\perp BE$",
+          "$CD = 2BE$",
           "Cả $CD = BE$ và góc giữa chúng bằng $60^\\circ$",
-          "$CD = 2BE$"
+          "$CD \\perp BE$",
+          "$CD = BE$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 9,
@@ -1545,8 +1545,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$. Trên nửa mặt phẳng bờ $BC$ không chứa $A$, vẽ $\\triangle BCD$ sao cho $BD = AC$ và $CD = AB$. Khẳng định nào sau đây đúng?",
         "options": [
           "$\\triangle ABC = \\triangle DCB$",
-          "$\\triangle ABC = \\triangle BCD$",
           "$AD \\parallel BC$",
+          "$\\triangle ABC = \\triangle BCD$",
           "$AB \\parallel AC$"
         ],
         "correct": 0
@@ -1556,36 +1556,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hình lập phương có các mặt là các hình vuông bằng nhau. Đường chéo các mặt bên của hình lập phương tạo thành một tam giác có đặc điểm gì?",
         "options": [
-          "Là tam giác đều",
           "Là tam giác vuông",
-          "Là tam giác cân không đều",
-          "Là tam giác tù"
+          "Là tam giác tù",
+          "Là tam giác đều",
+          "Là tam giác cân không đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy $M$ là trung điểm của $BC$. Từ $M$ kẻ $MH \\perp AB$ và $MK \\perp AC$. Nhận xét nào sau đây đúng?",
         "options": [
-          "$MH = MK$",
+          "$MH + MK = BC$",
           "$MH > MK$",
-          "$MH < MK$",
-          "$MH + MK = BC$"
+          "$MH = MK$",
+          "$MH < MK$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho ngũ giác đều $ABCDE$. Tất cả các đường chéo của ngũ giác đều này có độ dài như thế nào?",
         "options": [
+          "Từng cặp một bằng nhau",
           "Đều bằng nhau",
           "Có 3 đường bằng nhau và 2 đường khác",
-          "Từng cặp một bằng nhau",
           "Hoàn toàn khác nhau"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1736,36 +1736,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc xen giữa hai cạnh $AB$ và $AC$ của tam giác $ABC$ là góc:",
         "options": [
-          "$\\widehat{A}$",
-          "$\\widehat{B}$",
+          "Góc ngoài tại $A$",
           "$\\widehat{C}$",
-          "Góc ngoài tại $A$"
+          "$\\widehat{A}$",
+          "$\\widehat{B}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cạnh xen giữa hai góc $\\widehat{B}$ và $\\widehat{C}$ của tam giác $ABC$ là cạnh:",
         "options": [
-          "$BC$",
-          "$AB$",
           "$AC$",
-          "Đường cao $AH$"
+          "Đường cao $AH$",
+          "$AB$",
+          "$BC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Trường hợp bằng nhau cạnh - góc - cạnh (c.g.c) yêu cầu góc bằng nhau phải là:",
         "options": [
-          "Góc xen giữa hai cạnh đó",
-          "Góc bất kì",
           "Góc đối diện với một trong hai cạnh",
+          "Góc bất kì",
+          "Góc xen giữa hai cạnh đó",
           "Góc tù"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -1773,8 +1773,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Trường hợp bằng nhau góc - cạnh - góc (g.c.g) yêu cầu cạnh bằng nhau phải là:",
         "options": [
           "Cạnh xen giữa hai góc đó",
-          "Cạnh đối diện một góc",
           "Cạnh huyền",
+          "Cạnh đối diện một góc",
           "Cạnh bất kì"
         ],
         "correct": 0
@@ -1784,48 +1784,48 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN, \\widehat{A} = \\widehat{M}$. Cần thêm điều kiện nào sau đây để hai tam giác bằng nhau theo trường hợp c.g.c?",
         "options": [
-          "$AC = MP$",
-          "$BC = NP$",
           "$\\widehat{B} = \\widehat{N}$",
-          "$\\widehat{C} = \\widehat{P}$"
+          "$\\widehat{C} = \\widehat{P}$",
+          "$AC = MP$",
+          "$BC = NP$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ và $\\triangle DEF$ có $\\widehat{B} = \\widehat{E}, BC = EF$. Cần thêm điều kiện nào để hai tam giác bằng nhau theo trường hợp g.c.g?",
         "options": [
+          "$\\widehat{A} = 90^\\circ$",
           "$\\widehat{C} = \\widehat{F}$",
-          "$AB = DE$",
           "$AC = DF$",
-          "$\\widehat{A} = 90^\\circ$"
+          "$AB = DE$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho đoạn thẳng $AB$, $M$ là trung điểm của $AB$. Đường thẳng $d \\perp AB$ tại $M$. Lấy $P \\in d$. Khi đó $\\triangle PMA = \\triangle PMB$ theo trường hợp:",
         "options": [
-          "c.g.c",
-          "c.c.c",
+          "cả c.g.c và c.c.c",
           "g.c.g",
-          "cả c.g.c và c.c.c"
+          "c.c.c",
+          "c.g.c"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình vẽ có $AB \\parallel CD$ và $AB = CD$. Gọi $O$ là giao điểm của $AC$ và $BD$. Khi đó $\\triangle OAB = \\triangle OCD$ theo trường hợp:",
         "options": [
+          "chỉ có diện tích bằng nhau",
           "g.c.g",
           "c.g.c",
-          "c.c.c",
-          "chỉ có diện tích bằng nhau"
+          "c.c.c"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -1833,9 +1833,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Tia phân giác của $\\widehat{A}$ cắt $BC$ tại $D$. Khi đó $\\triangle ABD = \\triangle ACD$ theo trường hợp:",
         "options": [
           "c.g.c",
+          "không bằng nhau",
           "g.c.g",
-          "chỉ theo c.c.c",
-          "không bằng nhau"
+          "chỉ theo c.c.c"
         ],
         "correct": 0
       },
@@ -1844,24 +1844,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC = \\triangle DEF$ theo trường hợp c.g.c với $AB = DE, \\widehat{B} = \\widehat{E}, BC = EF$. Biết $AB = 6\\text{ cm}, EF = 8\\text{ cm}, \\widehat{D} = 70^\\circ, \\widehat{E} = 50^\\circ$. Độ dài cạnh $BC$ và số đo góc $F$ là:",
         "options": [
-          "$BC = 8\\text{ cm}, \\widehat{F} = 60^\\circ$",
           "$BC = 6\\text{ cm}, \\widehat{F} = 60^\\circ$",
           "$BC = 8\\text{ cm}, \\widehat{F} = 50^\\circ$",
-          "$BC = 6\\text{ cm}, \\widehat{F} = 70^\\circ$"
+          "$BC = 6\\text{ cm}, \\widehat{F} = 70^\\circ$",
+          "$BC = 8\\text{ cm}, \\widehat{F} = 60^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có $\\widehat{B} = \\widehat{C}$. Tia phân giác của góc $B$ cắt $AC$ tại $D$, tia phân giác của góc $C$ cắt $AB$ tại $E$. Khẳng định nào sau đây SAI?",
         "options": [
+          "$AD = AE$",
           "$BD \\neq CE$",
           "$BD = CE$",
-          "$\\triangle EBC = \\triangle DCB$",
-          "$AD = AE$"
+          "$\\triangle EBC = \\triangle DCB$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -2025,9 +2025,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ và $\\triangle MNP$ có $AB = MN, \\widehat{B} = \\widehat{N}, BC = NP$. Kết luận nào sau đây đúng?",
         "options": [
           "$\\triangle ABC = \\triangle MNP$ (c.g.c)",
-          "$\\triangle ABC = \\triangle MNP$ (g.c.g)",
+          "Hai tam giác chưa chắc bằng nhau",
           "$\\triangle ABC = \\triangle MNP$ (c.c.c)",
-          "Hai tam giác chưa chắc bằng nhau"
+          "$\\triangle ABC = \\triangle MNP$ (g.c.g)"
         ],
         "correct": 0
       },
@@ -2036,108 +2036,108 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $AB < AC$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = AB$. Gọi tia phân giác của $\\widehat{A}$ cắt $BC$ tại $E$. Khẳng định nào sau đây SAI?",
         "options": [
+          "$\\widehat{ABE} = \\widehat{ADE}$",
           "$\\triangle ABE = \\triangle ADE$ (g.c.g)",
-          "$\\triangle ABE = \\triangle ADE$ (c.g.c)",
           "$BE = DE$",
-          "$\\widehat{ABE} = \\widehat{ADE}$"
+          "$\\triangle ABE = \\triangle ADE$ (c.g.c)"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = \\widehat{C}$. Kẻ $AH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABH = \\triangle ACH$ theo trường hợp:",
         "options": [
-          "g.c.g (hoặc cạnh huyền - góc nhọn)",
           "c.c.c",
-          "c.g.c với góc xen giữa nhọn",
-          "không bằng nhau"
+          "không bằng nhau",
+          "g.c.g (hoặc cạnh huyền - góc nhọn)",
+          "c.g.c với góc xen giữa nhọn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho góc nhọn $xOy$. Lấy $A \\in Ox, B \\in Oy$ sao cho $OA = OB$. Đường thẳng qua $A$ vuông góc với $Ox$ và đường thẳng qua $B$ vuông góc với $Oy$ cắt nhau tại $C$. Khi đó $OC$ là:",
         "options": [
-          "Tia phân giác của $\\widehat{xOy}$",
           "Đường cao của tam giác đều",
           "Đường song song với $AB$",
-          "Trung trực của $OA$"
+          "Trung trực của $OA$",
+          "Tia phân giác của $\\widehat{xOy}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC = \\triangle A'B'C'$. Gọi $AD, A'D'$ lần lượt là các đường phân giác xuất phát từ đỉnh $A, A'$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$AD = 2A'D'$",
           "$AD = A'D'$",
           "$AD > A'D'$",
-          "$AD < A'D'$",
-          "$AD = 2A'D'$"
+          "$AD < A'D'$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $E$ sao cho $ME = MA$. Khi đó $AB$ và $CE$ có quan hệ:",
         "options": [
-          "Vừa bằng nhau vừa song song",
           "Chỉ bằng nhau",
+          "Vừa bằng nhau vừa song song",
           "Chỉ song song",
           "Vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = AC$. Qua $A$ vẽ đường thẳng $d$ nằm ngoài tam giác. Kẻ $BD \\perp d$ và $CE \\perp d$. Khi đó độ dài đoạn thẳng $DE$ bằng:",
         "options": [
-          "$BD + CE$",
           "$BD - CE$",
           "$2BD$",
-          "$\\frac{BD + CE}{2}$"
+          "$\\frac{BD + CE}{2}$",
+          "$BD + CE$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy điểm $E$ sao cho $CE = CB$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$\\triangle DCE = \\triangle DCB$",
+          "$\\widehat{DEC} = 60^\\circ$",
           "$\\triangle ADE = \\triangle ABC$",
           "$DE = 2AB$",
-          "$\\widehat{DEC} = 60^\\circ$"
+          "$\\triangle DCE = \\triangle DCB$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 40^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Số đo $\\widehat{ADC}$ là:",
         "options": [
-          "$100^\\circ$",
           "$80^\\circ$",
-          "$90^\\circ$",
-          "$110^\\circ$"
+          "$110^\\circ$",
+          "$100^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các tam giác vuông cân tại $A$ là $\\triangle ABD$ và $\\triangle ACE$. Khi đó $CD$ và $BE$ có quan hệ:",
         "options": [
-          "$CD = BE$ và $CD \\perp BE$",
+          "$CD = 2BE$",
           "$CD = BE$ nhưng không vuông góc",
-          "$CD \\parallel BE$",
-          "$CD = 2BE$"
+          "$CD = BE$ và $CD \\perp BE$",
+          "$CD \\parallel BE$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -2145,9 +2145,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy điểm $E$ trên cạnh $AB$ và điểm $F$ trên cạnh $AC$ sao cho $AE = AF$. Nối $BF$ và $CE$ cắt nhau tại $I$. Khi đó $\\triangle IBC$ là:",
         "options": [
           "Tam giác cân tại $I$",
+          "Tam giác nhọn bất kì",
           "Tam giác đều",
-          "Tam giác vuông tại $I$",
-          "Tam giác nhọn bất kì"
+          "Tam giác vuông tại $I$"
         ],
         "correct": 0
       },
@@ -2157,9 +2157,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho góc nhọn $xOy$ và điểm $M$ nằm trong góc đó. Vẽ điểm $A$ đối xứng với $M$ qua $Ox$, điểm $B$ đối xứng với $M$ qua $Oy$. Khi đó tam giác $OAB$ là:",
         "options": [
           "Tam giác cân tại $O$",
+          "Tam giác vuông cân",
           "Tam giác đều",
-          "Tam giác vuông",
-          "Tam giác vuông cân"
+          "Tam giác vuông"
         ],
         "correct": 0
       }
@@ -2312,36 +2312,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Nếu hai góc và cạnh xen giữa của tam giác này bằng hai góc và cạnh xen giữa của tam giác kia thì:",
         "options": [
-          "Hai tam giác đó bằng nhau (g.c.g)",
-          "Hai tam giác đó bằng nhau (c.g.c)",
           "Hai tam giác đó có chu vi khác nhau",
-          "Chưa thể kết luận"
+          "Hai tam giác đó bằng nhau (c.g.c)",
+          "Chưa thể kết luận",
+          "Hai tam giác đó bằng nhau (g.c.g)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Kẻ phân giác $AM$ của $\\widehat{A}$ ($M \\in BC$). Lấy điểm $I$ bất kì trên đoạn $AM$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$IB \\neq IC$",
-          "$IB = IC$",
           "$\\triangle ABI = \\triangle ACI$",
-          "$\\triangle MBI = \\triangle MCI$"
+          "$IB \\neq IC$",
+          "$\\triangle MBI = \\triangle MCI$",
+          "$IB = IC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $E$. Kẻ $EH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABE$ và $\\triangle HBE$ bằng nhau theo:",
         "options": [
-          "Cạnh huyền - góc nhọn",
           "c.c.c",
           "Cạnh góc vuông - góc nhọn kề",
-          "Không bằng nhau"
+          "Không bằng nhau",
+          "Cạnh huyền - góc nhọn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -2349,9 +2349,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho hai tam giác $\\triangle ABC$ và $\\triangle MNP$ có $\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}$ và $BC = NP$. Hai tam giác đó bằng nhau theo trường hợp:",
         "options": [
           "g.c.g (vì $\\widehat{C} = \\widehat{P}$ và cạnh $BC = NP$ kề)",
+          "Không bằng nhau",
           "c.g.c",
-          "c.c.c",
-          "Không bằng nhau"
+          "c.c.c"
         ],
         "correct": 0
       },
@@ -2360,72 +2360,72 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ nhọn. Vẽ đường cao $BD$ và $CE$. Nếu $BD = CE$ thì $\\triangle ABC$ là tam giác gì?",
         "options": [
-          "Tam giác cân tại $A$",
           "Tam giác vuông tại $A$",
           "Tam giác đều",
-          "Tam giác vuông cân"
+          "Tam giác vuông cân",
+          "Tam giác cân tại $A$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho góc nhọn $xOy$ và điểm $A$ cố định trên tia phân giác của $xOy$. Một đường thẳng quay quanh $A$ cắt $Ox$ tại $M$, cắt $Oy$ tại $N$. Khi $OM + ON$ đạt giá trị không đổi thì $\\triangle OMN$ cân tại:",
         "options": [
-          "$O$",
-          "$M$",
           "$N$",
-          "Không xác định"
+          "Không xác định",
+          "$O$",
+          "$M$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $M$, trên cạnh $CD$ lấy điểm $N$ sao cho $\\widehat{MAN} = 45^\\circ$. Chu vi tam giác $CMN$ bằng:",
         "options": [
-          "$2AB$",
           "$AB$",
-          "$\\frac{3}{2}AB$",
-          "$3AB$"
+          "$3AB$",
+          "$2AB$",
+          "$\\frac{3}{2}AB$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Trên tia đối của tia $BA$ lấy điểm $D$ sao cho $BD = BH$. Đường thẳng $DH$ cắt $AC$ tại $M$. Khẳng định nào đúng?",
         "options": [
+          "$MH = 2MC$",
           "$MH = MC$",
-          "$MH > MC$",
           "$MH < MC$",
-          "$MH = 2MC$"
+          "$MH > MC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ có $\\widehat{A} = 90^\\circ, \\widehat{B} = 30^\\circ$. Khi đó khẳng định nào sau đây đúng về độ dài cạnh?",
         "options": [
-          "$AC = \\frac{1}{2}BC$",
           "$AB = \\frac{1}{2}BC$",
           "$AC = \\frac{1}{2}AB$",
+          "$AC = \\frac{1}{2}BC$",
           "$BC = 2AB$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Trên cạnh $AC$ lấy điểm $D$ sao cho $AD = BC$. Số đo góc $\\widehat{ABD}$ là:",
         "options": [
-          "$10^\\circ$",
           "$20^\\circ$",
+          "$10^\\circ$",
           "$15^\\circ$",
           "$30^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -2433,9 +2433,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Điểm $M$ nằm trong tam giác sao cho $MA = 2\\text{ cm}, MB = 1\\text{ cm}, MC = \\sqrt{7}\\text{ cm}$. Số đo góc $\\widehat{AMB}$ là:",
         "options": [
           "$135^\\circ$",
-          "$120^\\circ$",
           "$150^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$120^\\circ$"
         ],
         "correct": 0
       },
@@ -2444,12 +2444,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{B} = \\widehat{D} = 90^\\circ$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Nếu $AH = AK$ thì tứ giác $ABCD$ có:",
         "options": [
-          "$AB = AD$",
-          "$BC = CD$",
+          "Cả ba kết luận trên đều đúng",
           "$AC$ là phân giác của $\\widehat{A}$",
-          "Cả ba kết luận trên đều đúng"
+          "$AB = AD$",
+          "$BC = CD$"
         ],
-        "correct": 3
+        "correct": 0
       }
     ],
     "part2": [
@@ -2600,36 +2600,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai tam giác vuông bằng nhau khi có:",
         "options": [
-          "Hai cạnh góc vuông bằng nhau",
+          "Chu vi bằng nhau",
           "Một góc nhọn bằng nhau",
-          "Một cạnh góc vuông bằng nhau",
-          "Chu vi bằng nhau"
+          "Hai cạnh góc vuông bằng nhau",
+          "Một cạnh góc vuông bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trường hợp bằng nhau cạnh huyền - góc nhọn: Nếu cạnh huyền và một góc nhọn của tam giác vuông này bằng cạnh huyền và một góc nhọn của tam giác vuông kia thì:",
         "options": [
-          "Hai tam giác vuông đó bằng nhau",
           "Hai tam giác đó đồng dạng nhưng không bằng nhau",
-          "Chưa kết luận được",
-          "Hai góc nhọn còn lại bù nhau"
+          "Hai góc nhọn còn lại bù nhau",
+          "Hai tam giác vuông đó bằng nhau",
+          "Chưa kết luận được"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Trường hợp bằng nhau cạnh huyền - cạnh góc vuông: Nếu cạnh huyền và một cạnh góc vuông của tam giác vuông này bằng cạnh huyền và một cạnh góc vuông của tam giác vuông kia thì:",
         "options": [
+          "Chu vi hai tam giác khác nhau",
           "Hai tam giác vuông đó bằng nhau",
-          "Hai tam giác vuông đó chưa chắc bằng nhau",
           "Hai góc nhọn bằng nhau nhưng hai tam giác không bằng nhau",
-          "Chu vi hai tam giác khác nhau"
+          "Hai tam giác vuông đó chưa chắc bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2638,8 +2638,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "Cạnh huyền",
           "Cạnh góc vuông",
-          "Đường cao",
-          "Đường trung trực"
+          "Đường trung trực",
+          "Đường cao"
         ],
         "correct": 0
       },
@@ -2648,36 +2648,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ và $\\triangle MNP$ vuông tại $M$ có $BC = NP$ và $\\widehat{B} = \\widehat{N}$. Khi đó hai tam giác bằng nhau theo trường hợp:",
         "options": [
-          "Cạnh huyền - góc nhọn",
           "Cạnh góc vuông - góc nhọn kề",
+          "Cạnh huyền - góc nhọn",
           "Hai cạnh góc vuông",
           "Cạnh huyền - cạnh góc vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle DEF$ vuông tại $D$ và $\\triangle GHK$ vuông tại $G$ có $DE = GH, DF = GK$. Hai tam giác này bằng nhau theo:",
         "options": [
-          "Hai cạnh góc vuông",
-          "Cạnh huyền - cạnh góc vuông",
+          "g.c.g",
           "Cạnh huyền - góc nhọn",
-          "g.c.g"
+          "Cạnh huyền - cạnh góc vuông",
+          "Hai cạnh góc vuông"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AH \\perp BC$ ($H \\in BC$). Khi đó $\\triangle ABH = \\triangle ACH$ theo trường hợp:",
         "options": [
-          "Cạnh huyền - cạnh góc vuông (hoặc cạnh huyền - góc nhọn)",
           "Hai cạnh góc vuông",
+          "Không bằng nhau",
           "Chỉ theo c.c.c",
-          "Không bằng nhau"
+          "Cạnh huyền - cạnh góc vuông (hoặc cạnh huyền - góc nhọn)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -2685,9 +2685,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho góc nhọn $xOy$ và điểm $M$ nằm trên tia phân giác của nó. Kẻ $MA \\perp Ox$ và $MB \\perp Oy$. Nhận định nào sau đây SAI?",
         "options": [
           "$MA \\neq MB$",
+          "$OA = OB$",
           "$MA = MB$",
-          "$\\triangle OAM = \\triangle OBM$",
-          "$OA = OB$"
+          "$\\triangle OAM = \\triangle OBM$"
         ],
         "correct": 0
       },
@@ -2696,36 +2696,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$, $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Nếu $\\triangle DEF$ vuông tại $D$ bằng $\\triangle ABC$ thì diện tích của $\\triangle DEF$ là:",
         "options": [
-          "$24\\text{ cm}^2$",
           "$48\\text{ cm}^2$",
           "$14\\text{ cm}^2$",
+          "$24\\text{ cm}^2$",
           "$10\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Từ $B$ kẻ $BD \\perp AC$ ($D \\in AC$), từ $C$ kẻ $CE \\perp AB$ ($E \\in AB$). Khẳng định nào đúng?",
         "options": [
+          "$BD = 2CE$",
           "$BD = CE$",
           "$BD > CE$",
-          "$BD < CE$",
-          "$BD = 2CE$"
+          "$BD < CE$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$) có $\\widehat{B} = 60^\\circ$. Cạnh huyền $BC = 10\\text{ cm}$. Độ dài cạnh $AB$ bằng:",
         "options": [
-          "$5\\text{ cm}$",
+          "$5\\sqrt{3}\\text{ cm}$",
           "$6\\text{ cm}$",
           "$8\\text{ cm}$",
-          "$5\\sqrt{3}\\text{ cm}$"
+          "$5\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -2734,8 +2734,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$AD > DE$",
           "$AD = DE$",
-          "$\\triangle ABD = \\triangle EBD$",
-          "$BA = BE$"
+          "$BA = BE$",
+          "$\\triangle ABD = \\triangle EBD$"
         ],
         "correct": 0
       }
@@ -2888,72 +2888,72 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Điều kiện nào sau đây KHÔNG đủ để kết luận hai tam giác vuông bằng nhau?",
         "options": [
-          "Có một góc nhọn bằng nhau",
-          "Có hai cạnh góc vuông bằng nhau",
+          "Có cạnh huyền và một cạnh góc vuông bằng nhau",
           "Có cạnh huyền và một góc nhọn bằng nhau",
-          "Có cạnh huyền và một cạnh góc vuông bằng nhau"
+          "Có một góc nhọn bằng nhau",
+          "Có hai cạnh góc vuông bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ cân tại $A$. Kẻ $AM \\perp BC$ ($M \\in BC$). Khẳng định nào sau đây SAI?",
         "options": [
+          "$\\triangle ABM = \\triangle ACM$",
           "$AM = BC$",
           "$MB = MC$",
-          "$AM$ là phân giác của $\\widehat{BAC}$",
-          "$\\triangle ABM = \\triangle ACM$"
+          "$AM$ là phân giác của $\\widehat{BAC}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$. Tia phân giác của góc $C$ cắt $AB$ tại $K$. Kẻ $KH \\perp BC$ ($H \\in BC$). Khi đó:",
         "options": [
+          "$KA = 2KH$",
           "$KA = KH$",
           "$KA > KH$",
-          "$KA < KH$",
-          "$KA = 2KH$"
+          "$KA < KH$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $BD = CE$ thì:",
         "options": [
-          "$\\triangle ABC$ cân tại $A$",
           "$\\triangle ABC$ vuông tại $A$",
+          "$AB = 2AC$",
           "$\\triangle ABC$ đều",
-          "$AB = 2AC$"
+          "$\\triangle ABC$ cân tại $A$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$. Đường trung trực của $BC$ cắt $AC$ tại $E$. Khẳng định nào đúng?",
         "options": [
-          "$\\triangle EBC$ cân tại $E$",
-          "$\\triangle EAB$ vuông cân",
           "$EB = AB$",
-          "$AC = 2AE$"
+          "$AC = 2AE$",
+          "$\\triangle EBC$ cân tại $E$",
+          "$\\triangle EAB$ vuông cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{C} = 30^\\circ$. Trên cạnh $BC$ lấy điểm $D$ sao cho $CD = CA$. Khi đó $\\triangle ACD$ là:",
         "options": [
-          "Tam giác cân có góc ở đỉnh bằng $30^\\circ$",
-          "Tam giác đều",
+          "Tam giác vuông cân",
           "Tam giác vuông",
-          "Tam giác vuông cân"
+          "Tam giác cân có góc ở đỉnh bằng $30^\\circ$",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -2961,9 +2961,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho tam giác $ABC$ nhọn. Vẽ đường cao $AH$. Lấy điểm $D$ đối xứng với $H$ qua $AB$. Khi đó $\\triangle ABD$ bằng tam giác nào?",
         "options": [
           "$\\triangle ABH$",
-          "$\\triangle ACH$",
           "$\\triangle ABC$",
-          "$\\triangle ADH$"
+          "$\\triangle ADH$",
+          "$\\triangle ACH$"
         ],
         "correct": 0
       },
@@ -2984,12 +2984,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ vuông tại $A$, $AB = 9\\text{ cm}, AC = 12\\text{ cm}$. Trung điểm cạnh $BC$ là $M$. Độ dài $AM$ bằng:",
         "options": [
-          "$7{,}5\\text{ cm}$",
-          "$15\\text{ cm}$",
           "$10\\text{ cm}$",
-          "$6\\text{ cm}$"
+          "$15\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$7{,}5\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -2997,9 +2997,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông cân tại $A$. Một đường thẳng $d$ đi qua $A$. Kẻ $BD \\perp d$ và $CE \\perp d$. Khi đó $BD^2 + CE^2$ bằng:",
         "options": [
           "$AD^2 + AE^2 = AB^2$",
-          "$BC^2$",
           "$2BC^2$",
-          "$4AB^2$"
+          "$4AB^2$",
+          "$BC^2$"
         ],
         "correct": 0
       },
@@ -3008,24 +3008,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác vuông $ABC$ ($A = 90^\\circ$). Đường cao $AH$. Tia phân giác của góc $\\widehat{BAH}$ cắt $BC$ tại $K$. Tam giác $CAK$ là tam giác gì?",
         "options": [
-          "Tam giác cân tại $C$",
-          "Tam giác vuông",
           "Tam giác đều",
-          "Tam giác vuông cân"
+          "Tam giác cân tại $C$",
+          "Tam giác vuông cân",
+          "Tam giác vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ có ba đường cao bằng nhau. Tam giác đó là:",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông",
           "Tam giác cân",
-          "Tam giác tù"
+          "Tam giác tù",
+          "Tam giác vuông",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3176,12 +3176,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền có độ dài bằng:",
         "options": [
-          "Nửa cạnh huyền",
           "Cạnh góc vuông nhỏ hơn",
-          "Nửa tổng hai cạnh góc vuông",
-          "Bằng đường cao tương ứng"
+          "Bằng đường cao tương ứng",
+          "Nửa cạnh huyền",
+          "Nửa tổng hai cạnh góc vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -3189,9 +3189,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Nếu một tam giác có một đường trung tuyến bằng nửa cạnh tương ứng thì tam giác đó là:",
         "options": [
           "Tam giác vuông",
+          "Tam giác tù",
           "Tam giác cân",
-          "Tam giác đều",
-          "Tam giác tù"
+          "Tam giác đều"
         ],
         "correct": 0
       },
@@ -3200,36 +3200,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 30^\\circ$. Kẻ trung tuyến $AM$. Tam giác $ABM$ là:",
         "options": [
-          "Tam giác cân tại $M$ có góc ở đỉnh $120^\\circ$",
-          "Tam giác đều",
           "Tam giác vuông",
+          "Tam giác đều",
+          "Tam giác cân tại $M$ có góc ở đỉnh $120^\\circ$",
           "Tam giác vuông cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $HB = HC$ thì:",
         "options": [
-          "$\\triangle ABC$ cân tại $A$",
           "$\\triangle ABC$ vuông tại $A$",
-          "$\\triangle ABC$ đều",
-          "$AC = 2AB$"
+          "$\\triangle ABC$ cân tại $A$",
+          "$AC = 2AB$",
+          "$\\triangle ABC$ đều"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB < AC$. Kẻ phân giác $BD$ ($D \\in AC$). Kẻ $DH \\perp BC$ ($H \\in BC$). So sánh độ dài $AD$ và $DC$:",
         "options": [
-          "$AD < DC$",
-          "$AD = DC$",
           "$AD > DC$",
-          "$AD = 2DC$"
+          "$AD = DC$",
+          "$AD = 2DC$",
+          "$AD < DC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -3237,8 +3237,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho hình vuông $ABCD$. Lấy điểm $E$ trên cạnh $BC$. Tia phân giác của góc $\\widehat{DAE}$ cắt cạnh $CD$ tại $F$. Khi đó độ dài $AE$ bằng:",
         "options": [
           "$BE + DF$",
-          "$DF - BE$",
           "$2BE$",
+          "$DF - BE$",
           "$\\sqrt{BE \\cdot DF}$"
         ],
         "correct": 0
@@ -3248,48 +3248,48 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ vuông cân tại $A$. Lấy điểm $M$ trên cạnh huyền $BC$. Kẻ $MD \\perp AB$ và $ME \\perp AC$. Tứ giác $ADME$ có đặc điểm gì?",
         "options": [
-          "Là hình chữ nhật có chu vi bằng $2AB$",
+          "Có diện tích lớn nhất khi $M$ trùng $B$",
           "Là hình vuông",
           "Có chu vi thay đổi theo vị trí của $M$",
-          "Có diện tích lớn nhất khi $M$ trùng $B$"
+          "Là hình chữ nhật có chu vi bằng $2AB$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 90^\\circ$ và $\\widehat{B} = 60^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $E$. Tỉ số $\\frac{AE}{EC}$ bằng:",
         "options": [
-          "$\\frac{1}{2}$",
           "$\\frac{1}{3}$",
           "$1$",
-          "$\\frac{2}{3}$"
+          "$\\frac{2}{3}$",
+          "$\\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ vuông tại $A$, kẻ đường cao $AH$. Gọi $D, E$ lần lượt là hình chiếu của $H$ trên $AB$ và $AC$. Đoạn thẳng $DE$ bằng đoạn thẳng nào?",
         "options": [
-          "$AH$",
           "$\\frac{1}{2}BC$",
+          "$AH$",
           "$AB$",
           "$AC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Biết $AH = 6\\text{ cm}$. Độ dài cạnh $BC$ là:",
         "options": [
-          "$6 + 6\\sqrt{3}\\text{ cm}$",
-          "$12\\text{ cm}$",
           "$18\\text{ cm}$",
-          "$6\\sqrt{2} + 6\\sqrt{3}\\text{ cm}$"
+          "$6\\sqrt{2} + 6\\sqrt{3}\\text{ cm}$",
+          "$6 + 6\\sqrt{3}\\text{ cm}$",
+          "$12\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -3297,9 +3297,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho tam giác nhọn $ABC$. Trực tâm $H$. Lấy điểm $K$ đối xứng với $H$ qua cạnh $BC$. Khi đó tứ giác $ABKC$ nội tiếp và có:",
         "options": [
           "$\\triangle KBC = \\triangle HBC$",
-          "$\\triangle KBC = \\triangle ABC$",
+          "$HK \\perp AB$",
           "$AK = BC$",
-          "$HK \\perp AB$"
+          "$\\triangle KBC = \\triangle ABC$"
         ],
         "correct": 0
       },
@@ -3308,12 +3308,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $C = 15^\\circ$. Đường cao $AH$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$AH = \\frac{\\sqrt{3}}{4}BC$",
           "$AH = \\frac{1}{4}BC$",
-          "$AH = \\frac{1}{2}BC$",
           "$AH = \\frac{1}{3}BC$",
-          "$AH = \\frac{\\sqrt{3}}{4}BC$"
+          "$AH = \\frac{1}{2}BC$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3464,12 +3464,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Tam giác cân là tam giác có:",
         "options": [
-          "Hai cạnh bằng nhau",
+          "Ba góc bằng nhau",
           "Ba cạnh bằng nhau",
-          "Một góc vuông",
-          "Ba góc bằng nhau"
+          "Hai cạnh bằng nhau",
+          "Một góc vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -3488,24 +3488,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Tam giác đều là tam giác có:",
         "options": [
-          "Ba cạnh bằng nhau",
-          "Hai cạnh bằng nhau",
           "Một góc bằng $60^\\circ$",
-          "Hai góc bằng nhau"
+          "Ba cạnh bằng nhau",
+          "Hai góc bằng nhau",
+          "Hai cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Mỗi góc của một tam giác đều có số đo bằng:",
         "options": [
-          "$60^\\circ$",
           "$90^\\circ$",
+          "$60^\\circ$",
           "$45^\\circ$",
           "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -3514,8 +3514,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "Vuông góc với đoạn thẳng tại trung điểm của nó",
           "Đi qua trung điểm của đoạn thẳng",
-          "Vuông góc với đoạn thẳng",
-          "Cắt đoạn thẳng"
+          "Cắt đoạn thẳng",
+          "Vuông góc với đoạn thẳng"
         ],
         "correct": 0
       },
@@ -3525,9 +3525,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Điểm nằm trên đường trung trực của một đoạn thẳng thì:",
         "options": [
           "Cách đều hai đầu mút của đoạn thẳng đó",
+          "Tạo với hai đầu mút một góc vuông",
           "Nằm giữa hai đầu mút",
-          "Cách một đầu mút gấp đôi đầu mút kia",
-          "Tạo với hai đầu mút một góc vuông"
+          "Cách một đầu mút gấp đôi đầu mút kia"
         ],
         "correct": 0
       },
@@ -3536,72 +3536,72 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 40^\\circ$. Số đo mỗi góc ở đáy là:",
         "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
           "$60^\\circ$",
-          "$50^\\circ$"
+          "$80^\\circ$",
+          "$50^\\circ$",
+          "$70^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{B} = 55^\\circ$. Số đo góc ở đỉnh $A$ là:",
         "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
+          "$65^\\circ$",
           "$55^\\circ$",
-          "$65^\\circ$"
+          "$110^\\circ$",
+          "$70^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Một tam giác cân có một góc bằng $60^\\circ$ thì tam giác đó là:",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
           "Tam giác tù",
+          "Tam giác vuông cân",
+          "Tam giác đều",
           "Không xác định được"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Một tam giác vuông có hai cạnh góc vuông bằng nhau được gọi là:",
         "options": [
-          "Tam giác vuông cân",
           "Tam giác đều",
-          "Tam giác nhọn",
-          "Tam giác tù cân"
+          "Tam giác vuông cân",
+          "Tam giác tù cân",
+          "Tam giác nhọn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Mỗi góc nhọn của một tam giác vuông cân có số đo bằng:",
         "options": [
-          "$45^\\circ$",
-          "$60^\\circ$",
+          "$90^\\circ$",
           "$30^\\circ$",
-          "$90^\\circ$"
+          "$60^\\circ$",
+          "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ có $AB = AC = 13\\text{ cm}, BC = 10\\text{ cm}$. Gọi $M$ là trung điểm của $BC$. Độ dài đoạn thẳng $AM$ là:",
         "options": [
-          "$12\\text{ cm}$",
-          "$8\\text{ cm}$",
           "$10\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$12\\text{ cm}$",
           "$11\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3752,12 +3752,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây SAI?",
         "options": [
-          "Tam giác có một góc $60^\\circ$ luôn là tam giác đều",
-          "Tam giác cân có một góc $60^\\circ$ là tam giác đều",
+          "Tam giác đều có 3 trục đối xứng",
           "Tam giác vuông có một góc nhọn $45^\\circ$ là tam giác vuông cân",
-          "Tam giác đều có 3 trục đối xứng"
+          "Tam giác cân có một góc $60^\\circ$ là tam giác đều",
+          "Tam giác có một góc $60^\\circ$ luôn là tam giác đều"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -3765,9 +3765,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ cân tại $A$. Trên tia đối của tia $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD = CE$. Tam giác $ADE$ là:",
         "options": [
           "Tam giác cân tại $A$",
-          "Tam giác đều",
           "Tam giác vuông tại $A$",
-          "Tam giác nhọn không cân"
+          "Tam giác nhọn không cân",
+          "Tam giác đều"
         ],
         "correct": 0
       },
@@ -3776,12 +3776,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$ và tam giác cân tại $A$. Đường trung trực của cạnh $AC$ cắt $BC$ tại $D$. Số đo $\\widehat{CAD}$ là:",
         "options": [
-          "$40^\\circ$",
           "$50^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$"
+          "$40^\\circ$",
+          "$30^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -3790,8 +3790,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "Tam giác đều",
           "Tam giác vuông cân",
-          "Tam giác cân không đều",
-          "Tam giác tù"
+          "Tam giác tù",
+          "Tam giác cân không đều"
         ],
         "correct": 0
       },
@@ -3801,9 +3801,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Đường trung trực của cạnh $BC$ trong $\\triangle ABC$ đi qua đỉnh $A$ khi và chỉ khi:",
         "options": [
           "$\\triangle ABC$ cân tại $A$",
-          "$\\triangle ABC$ vuông tại $A$",
+          "$\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$",
           "$\\triangle ABC$ đều",
-          "$\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$"
+          "$\\triangle ABC$ vuông tại $A$"
         ],
         "correct": 0
       },
@@ -3812,84 +3812,84 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 50^\\circ$. Điểm $D$ thuộc miền trong tam giác sao cho $\\triangle DBC$ cân tại $D$ có $\\widehat{DBC} = 15^\\circ$. Số đo $\\widehat{ADB}$ là:",
         "options": [
-          "$130^\\circ$",
+          "$120^\\circ$",
           "$100^\\circ$",
           "$115^\\circ$",
-          "$120^\\circ$"
+          "$130^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 70^\\circ, \\widehat{C} = 30^\\circ$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$AC < AB < AH$",
           "$AH < AB < AC$",
           "$AH < AC < AB$",
-          "$AB < AH < AC$",
-          "$AC < AB < AH$"
+          "$AB < AH < AC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Cho tam giác $ABC$ có đường trung trực của $AB$ và $AC$ cắt nhau tại điểm $O$ nằm trên cạnh $BC$. Khi đó tam giác $ABC$ là:",
         "options": [
-          "Tam giác vuông tại $A$",
-          "Tam giác đều",
+          "Tam giác tù",
           "Tam giác cân tại $A$",
-          "Tam giác tù"
+          "Tam giác vuông tại $A$",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ vuông tại $A$. Kẻ đường cao $AH$. Tia phân giác của góc $\\widehat{HAB}$ cắt $BC$ tại $D$. Tam giác $ACD$ là:",
         "options": [
+          "Tam giác nhọn không cân",
           "Tam giác cân tại $C$",
-          "Tam giác vuông cân",
           "Tam giác đều",
-          "Tam giác nhọn không cân"
+          "Tam giác vuông cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Lấy điểm $M$ trong tam giác sao cho $\\widehat{MBC} = 10^\\circ$ và $\\widehat{MCB} = 30^\\circ$. Số đo góc $\\widehat{AMC}$ bằng:",
         "options": [
-          "$70^\\circ$",
           "$80^\\circ$",
           "$60^\\circ$",
+          "$70^\\circ$",
           "$75^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Một điểm $P$ nằm trên đường trung trực của cả ba cạnh một tam giác. Điểm $P$ đó là:",
         "options": [
-          "Giao điểm 3 đường trung trực, cách đều 3 đỉnh",
           "Trực tâm của tam giác",
           "Trọng tâm của tam giác",
-          "Điểm cách đều 3 cạnh"
+          "Điểm cách đều 3 cạnh",
+          "Giao điểm 3 đường trung trực, cách đều 3 đỉnh"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ cân tại $A$. Trên cạnh $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD = CE$. Đường thẳng qua $D$ vuông góc $BC$ cắt $AB$ tại $M$, đường thẳng qua $E$ vuông góc $BC$ cắt $AC$ tại $N$. Khi đó $MN$ cắt $BC$ tại:",
         "options": [
-          "Trung điểm của đoạn thẳng $DE$",
+          "Điểm $C$",
           "Trung điểm của cạnh $BC$",
-          "Điểm $B$",
-          "Điểm $C$"
+          "Trung điểm của đoạn thẳng $DE$",
+          "Điểm $B$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -4040,60 +4040,60 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Một tam giác có hai đường cao bằng nhau là:",
         "options": [
-          "Tam giác cân",
           "Tam giác vuông",
+          "Tam giác cân",
           "Tam giác tù",
           "Tam giác không cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có hai đường trung tuyến $BM$ và $CN$ bằng nhau. Khi đó tam giác $ABC$ là:",
         "options": [
-          "Tam giác cân tại $A$",
-          "Tam giác đều",
           "Tam giác vuông tại $A$",
-          "Tam giác vuông cân"
+          "Tam giác vuông cân",
+          "Tam giác đều",
+          "Tam giác cân tại $A$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho đoạn thẳng $AB$. Điểm $C$ thỏa mãn $CA = CB$, điểm $D$ thỏa mãn $DA = DB$ ($C \\neq D$). Đường thẳng $CD$ là:",
         "options": [
-          "Đường trung trực của đoạn thẳng $AB$",
-          "Tia phân giác",
           "Đường cao",
-          "Đoạn thẳng bằng $AB$"
+          "Đường trung trực của đoạn thẳng $AB$",
+          "Đoạn thẳng bằng $AB$",
+          "Tia phân giác"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 20^\\circ$. Lấy điểm $D$ trên cạnh $AC$ sao cho $AD = BC$. Số đo góc $\\widehat{BDC}$ là:",
         "options": [
+          "$60^\\circ$",
           "$30^\\circ$",
-          "$45^\\circ$",
           "$20^\\circ$",
-          "$60^\\circ$"
+          "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 108^\\circ$. Tia phân giác của góc $B$ cắt $AC$ tại $D$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$BC = BD + AD$",
-          "$BC = 2BD$",
+          "$AD = 2BC$",
           "$AC = BD$",
-          "$AD = 2BC$"
+          "$BC = BD + AD$",
+          "$BC = 2BD$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -4102,8 +4102,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$\\triangle MAC$ không cân",
           "$\\triangle MAC$ cân tại $M$",
-          "$MA = MC$",
-          "$M$ nằm trên đường trung trực của $AC$"
+          "$M$ nằm trên đường trung trực của $AC$",
+          "$MA = MC$"
         ],
         "correct": 0
       },
@@ -4112,12 +4112,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho hình vuông $ABCD$. Lấy điểm $M$ trong hình vuông sao cho $\\triangle MCD$ đều. Khi đó tam giác $MAB$ là:",
         "options": [
-          "Tam giác cân tại $M$ có góc đáy $15^\\circ$",
           "Tam giác đều",
           "Tam giác vuông cân",
+          "Tam giác cân tại $M$ có góc đáy $15^\\circ$",
           "Tam giác tù có góc $120^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -4125,9 +4125,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho tam giác đều $ABC$. Trên cạnh $BC$ lấy điểm $M$, kẻ $ME \\parallel AC$ ($E \\in AB$) và $MF \\parallel AB$ ($F \\in AC$). Khẳng định nào sau đây đúng?",
         "options": [
           "Chu vi tứ giác $AEMF$ không đổi khi $M$ di chuyển trên $BC$",
+          "Tam giác $MEF$ luôn là tam giác vuông",
           "Độ dài $EF$ lớn nhất khi $M$ là trung điểm $BC$",
-          "Tứ giác $AEMF$ là hình thoi",
-          "Tam giác $MEF$ luôn là tam giác vuông"
+          "Tứ giác $AEMF$ là hình thoi"
         ],
         "correct": 0
       },
@@ -4136,12 +4136,12 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 60^\\circ, \\widehat{C} = 20^\\circ$. Tia phân giác của góc $A$ cắt $BC$ tại $D$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$\\widehat{HAD} = 20^\\circ$",
-          "$\\widehat{HAD} = 30^\\circ$",
           "$\\widehat{HAD} = 15^\\circ$",
-          "$\\widehat{HAD} = 10^\\circ$"
+          "$\\widehat{HAD} = 30^\\circ$",
+          "$\\widehat{HAD} = 10^\\circ$",
+          "$\\widehat{HAD} = 20^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -4149,8 +4149,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho tam giác nhọn $ABC$. Lấy điểm $O$ sao cho $OA = OB = OC$. Khi đó điểm $O$ chính là:",
         "options": [
           "Giao điểm ba đường trung trực của tam giác $ABC$",
-          "Trực tâm tam giác",
           "Trọng tâm tam giác",
+          "Trực tâm tam giác",
           "Giao điểm ba đường phân giác"
         ],
         "correct": 0
@@ -4160,24 +4160,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác cân $ABC$ ($AB = AC$) có $\\widehat{A} = 30^\\circ$. Kẻ đường cao $BH$. Tỉ số $\\frac{BH}{AB}$ bằng:",
         "options": [
-          "$\\frac{1}{2}$",
+          "$\\frac{\\sqrt{2}}{2}$",
           "$\\frac{\\sqrt{3}}{2}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{\\sqrt{2}}{2}$"
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một miếng đất hình tam giác có ba góc nhọn. Để đào một giếng nước cách đều cả 3 ngôi nhà ở 3 đỉnh tam giác, vị trí đào giếng phải là:",
         "options": [
-          "Giao điểm 3 đường trung trực của tam giác",
+          "Giao điểm 3 đường cao",
           "Giao điểm 3 đường phân giác",
           "Trọng tâm tam giác",
-          "Giao điểm 3 đường cao"
+          "Giao điểm 3 đường trung trực của tam giác"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -4328,36 +4328,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Tổng ba góc trong một tam giác bằng:",
         "options": [
-          "$180^\\circ$",
           "$90^\\circ$",
+          "$120^\\circ$",
           "$360^\\circ$",
-          "$120^\\circ$"
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hai tam giác bằng nhau là hai tam giác có:",
         "options": [
-          "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
           "Chu vi bằng nhau",
+          "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
           "Diện tích bằng nhau",
           "Ba góc bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Tam giác cân là tam giác có:",
         "options": [
-          "Hai cạnh bằng nhau",
-          "Ba cạnh bằng nhau",
+          "Một góc tù",
           "Một góc vuông",
-          "Một góc tù"
+          "Ba cạnh bằng nhau",
+          "Hai cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -4376,36 +4376,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC = \\triangle MNP$, biết $AB = 4\\text{ cm}, BC = 6\\text{ cm}, AC = 5\\text{ cm}$. Độ dài cạnh $NP$ là:",
         "options": [
-          "$6\\text{ cm}$",
-          "$4\\text{ cm}$",
           "$5\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$6\\text{ cm}$",
+          "$15\\text{ cm}$",
+          "$4\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 50^\\circ, \\widehat{B} = 60^\\circ$. Số đo góc $C$ là:",
         "options": [
-          "$70^\\circ$",
           "$80^\\circ$",
-          "$60^\\circ$",
-          "$50^\\circ$"
+          "$70^\\circ$",
+          "$50^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 70^\\circ$. Số đo góc $B$ là:",
         "options": [
-          "$55^\\circ$",
-          "$70^\\circ$",
           "$110^\\circ$",
+          "$70^\\circ$",
+          "$55^\\circ$",
           "$40^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -4413,9 +4413,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Tam giác vuông có hai cạnh góc vuông bằng $3\\text{ cm}$ và $4\\text{ cm}$. Độ dài cạnh huyền bằng:",
         "options": [
           "$5\\text{ cm}$",
-          "$7\\text{ cm}$",
           "$6\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$8\\text{ cm}$",
+          "$7\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -4426,8 +4426,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$7\\text{ cm}$",
           "$3{,}5\\text{ cm}$",
-          "$14\\text{ cm}$",
-          "Không xác định"
+          "Không xác định",
+          "$14\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -4436,36 +4436,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC = \\triangle DEF$. Biết $\\widehat{A} = 40^\\circ$ và $\\widehat{E} = 80^\\circ$. Số đo góc $F$ là:",
         "options": [
-          "$60^\\circ$",
+          "$100^\\circ$",
           "$80^\\circ$",
           "$40^\\circ$",
-          "$100^\\circ$"
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Cho tam giác có số đo 3 góc tỉ lệ với $1 : 2 : 6$. Tam giác đó là:",
         "options": [
-          "Tam giác tù",
-          "Tam giác nhọn",
           "Tam giác vuông",
-          "Tam giác đều"
+          "Tam giác đều",
+          "Tam giác tù",
+          "Tam giác nhọn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ cân tại $A$ có đường cao $AH = 12\\text{ cm}$ và $BC = 10\\text{ cm}$. Chu vi tam giác $ABC$ là:",
         "options": [
-          "$36\\text{ cm}$",
           "$34\\text{ cm}$",
           "$32\\text{ cm}$",
+          "$36\\text{ cm}$",
           "$24\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -4617,9 +4617,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Góc ngoài tại đỉnh $A$ của một tam giác lớn hơn:",
         "options": [
           "Mỗi góc trong không kề với nó",
+          "Góc bẹt",
           "Góc trong tại đỉnh $A$",
-          "Tổng hai góc trong không kề",
-          "Góc bẹt"
+          "Tổng hai góc trong không kề"
         ],
         "correct": 0
       },
@@ -4628,72 +4628,72 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 70^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$. Số đo $\\widehat{BIC}$ là:",
         "options": [
-          "$125^\\circ$",
           "$110^\\circ$",
-          "$135^\\circ$",
-          "$140^\\circ$"
+          "$140^\\circ$",
+          "$125^\\circ$",
+          "$135^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $AB = AC$. Lấy $D \\in AB, E \\in AC$ sao cho $AD = AE$. Tứ giác $BDEC$ có tính chất:",
         "options": [
+          "$BE \\parallel CD$",
           "$BE = CD$",
           "$BE > CD$",
-          "$BE < CD$",
-          "$BE \\parallel CD$"
+          "$BE < CD$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho tam giác có số đo 3 góc tỉ lệ với $2 : 3 : 5$. Tam giác đó là:",
         "options": [
-          "Tam giác vuông",
-          "Tam giác nhọn",
           "Tam giác đều",
-          "Tam giác tù"
+          "Tam giác nhọn",
+          "Tam giác tù",
+          "Tam giác vuông"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$. Cạnh đối diện với góc $30^\\circ$ là:",
         "options": [
-          "$AB$, và $AB = \\frac{1}{2}BC$",
+          "$BC$, và $BC = 2AC$",
           "$AC$, và $AC = \\frac{1}{2}BC$",
           "$AB$, và $AB = \\frac{1}{2}AC$",
-          "$BC$, và $BC = 2AC$"
+          "$AB$, và $AB = \\frac{1}{2}BC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $AB < AC$. Kẻ trung tuyến $AM$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD = MA$. Khi đó khẳng định nào SAI?",
         "options": [
-          "$AC \\perp CD$",
-          "$AB = CD$",
+          "$\\triangle MAB = \\triangle MDC$",
           "$AB \\parallel CD$",
-          "$\\triangle MAB = \\triangle MDC$"
+          "$AC \\perp CD$",
+          "$AB = CD$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Nếu $AB = AC$ thì tam giác $HBC$ là:",
         "options": [
+          "Tam giác nhọn không cân",
           "Tam giác cân tại $H$",
-          "Tam giác đều",
           "Tam giác vuông tại $H$",
-          "Tam giác nhọn không cân"
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -4701,9 +4701,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho tam giác $ABC$ có $\\widehat{A} = 90^\\circ$. Đường trung trực của $BC$ cắt cạnh $AC$ tại $M$. Nếu $\\widehat{C} = 20^\\circ$ thì số đo góc $\\widehat{AMB}$ là:",
         "options": [
           "$40^\\circ$",
+          "$70^\\circ$",
           "$50^\\circ$",
-          "$60^\\circ$",
-          "$70^\\circ$"
+          "$60^\\circ$"
         ],
         "correct": 0
       },
@@ -4712,36 +4712,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho tam giác đều $ABC$. Lấy điểm $D$ trên cạnh $BC$ sao cho $BD = \\frac{1}{3}BC$. Kẻ $DE \\perp AB, DF \\perp AC$. Tổng $DE + DF$ bằng:",
         "options": [
-          "Đường cao của tam giác đều $ABC$",
-          "Cạnh $BC$",
           "Nửa chu vi",
-          "$2BC$"
+          "$2BC$",
+          "Cạnh $BC$",
+          "Đường cao của tam giác đều $ABC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 45^\\circ$. Kẻ đường cao $AH$ và trung tuyến $AM$. Nếu $H$ là trung điểm của $BM$ thì $\\triangle ABC$ là:",
         "options": [
-          "Tam giác vuông tại $A$",
           "Tam giác cân tại $A$",
-          "Tam giác đều",
-          "Tam giác vuông cân tại $B$"
+          "Tam giác vuông cân tại $B$",
+          "Tam giác vuông tại $A$",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hình vuông $ABCD$. Trên tia đối của tia $CB$ lấy $E$ sao cho $CE = CB$. Đoạn $DE$ vuông góc với:",
         "options": [
+          "Đoạn $AB$",
           "Đoạn $BD$",
           "Đoạn $AC$",
-          "Đoạn $AB$",
           "Đoạn $AD$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -4749,9 +4749,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 120^\\circ$. Các tia phân giác trong của góc $A, B, C$ cắt các cạnh đối diện lần lượt tại $D, E, F$. Số đo góc $\\widehat{EDF}$ bằng:",
         "options": [
           "$90^\\circ$",
+          "$45^\\circ$",
           "$60^\\circ$",
-          "$120^\\circ$",
-          "$45^\\circ$"
+          "$120^\\circ$"
         ],
         "correct": 0
       }
@@ -4904,24 +4904,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong một tam giác tù, góc lớn nhất là:",
         "options": [
-          "Góc tù, và cạnh đối diện góc tù là cạnh lớn nhất",
           "Góc nhọn",
           "Cạnh đối diện góc tù là cạnh nhỏ nhất",
+          "Góc tù, và cạnh đối diện góc tù là cạnh lớn nhất",
           "Không xác định"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 60^\\circ$. Các phân giác $BD$ và $CE$ cắt nhau tại $I$. Số đo $\\widehat{BIC}$ là:",
         "options": [
-          "$120^\\circ$",
-          "$130^\\circ$",
+          "$90^\\circ$",
           "$100^\\circ$",
-          "$90^\\circ$"
+          "$130^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -4929,9 +4929,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác $ABC$ (bằng nửa cạnh huyền) là:",
         "options": [
           "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
+          "$7\\text{ cm}$",
           "$4\\text{ cm}$",
-          "$7\\text{ cm}$"
+          "$10\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -4940,24 +4940,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\triangle ABC$ có $\\widehat{B} = 2\\widehat{C}$. Kẻ đường cao $AH$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$AC^2 - AB^2 = BC(HC - HB)$",
-          "$AC = 2AB$",
           "$AH = \\frac{1}{2}BC$",
-          "$AB + AC = 2BC$"
+          "$AC = 2AB$",
+          "$AB + AC = 2BC$",
+          "$AC^2 - AB^2 = BC(HC - HB)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho tam giác nhọn $ABC$. Vẽ về phía ngoài các hình vuông $ABMN$ và $ACPQ$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$MC \\neq BP$",
-          "$MC = BP$",
           "$MC \\perp BP$",
-          "Diện tích tam giác $ANP$ bằng diện tích tam giác $ABC$"
+          "$MC \\neq BP$",
+          "Diện tích tam giác $ANP$ bằng diện tích tam giác $ABC$",
+          "$MC = BP$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -4965,9 +4965,9 @@ const CHAPTER4_TOAN7_EXAMS = {
         "question": "Cho $\\triangle ABC$ cân tại $A$ có $\\widehat{A} = 100^\\circ$. Lấy điểm $M$ trên cạnh $BC$ sao cho $AM = AB$. Số đo $\\widehat{MAC}$ là:",
         "options": [
           "$60^\\circ$",
-          "$40^\\circ$",
           "$50^\\circ$",
-          "$70^\\circ$"
+          "$70^\\circ$",
+          "$40^\\circ$"
         ],
         "correct": 0
       },
@@ -4976,24 +4976,24 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác đều $ABC$. Điểm $P$ nằm trong tam giác sao cho khoảng cách từ $P$ đến ba cạnh bằng $x, y, z$. Tổng $x + y + z$ luôn bằng:",
         "options": [
-          "Đường cao của tam giác đều $ABC$",
-          "Nửa chu vi của tam giác",
+          "Bán kính đường tròn nội tiếp",
           "Cạnh của tam giác",
-          "Bán kính đường tròn nội tiếp"
+          "Đường cao của tam giác đều $ABC$",
+          "Nửa chu vi của tam giác"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho $\\triangle ABC$ vuông tại $A$ có $C = 15^\\circ$ và cạnh huyền $BC = 20\\text{ cm}$. Chiều cao $AH$ ứng với cạnh huyền là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
           "$4\\text{ cm}$",
+          "$10\\text{ cm}$",
+          "$5\\text{ cm}$",
           "$2{,}5\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -5002,8 +5002,8 @@ const CHAPTER4_TOAN7_EXAMS = {
         "options": [
           "$\\frac{1}{a} = \\frac{1}{b} + \\frac{1}{c}$",
           "$a^2 = b^2 + c^2$",
-          "$a + b = 2c$",
-          "$c^2 = a^2 + ab$"
+          "$c^2 = a^2 + ab$",
+          "$a + b = 2c$"
         ],
         "correct": 0
       },
@@ -5012,36 +5012,36 @@ const CHAPTER4_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hình vuông $ABCD$ và điểm $E$ nằm trong hình vuông sao cho $\\triangle CDE$ cân tại $E$ có góc ở đáy bằng $15^\\circ$. Khi đó tam giác $ABE$ là:",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
           "Tam giác cân có góc đáy $30^\\circ$",
-          "Tam giác tù"
+          "Tam giác vuông cân",
+          "Tam giác tù",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Gọi $M$ là trung điểm của $BC$. Kẻ đường thẳng qua $H$ vuông góc với $MH$ cắt $AB, AC$ lần lượt tại $P$ và $Q$. Khi đó:",
         "options": [
+          "$HP = 2HQ$",
           "$HP = HQ$",
-          "$HP > HQ$",
           "$HP < HQ$",
-          "$HP = 2HQ$"
+          "$HP > HQ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một đa giác lồi có 2026 đỉnh. Số tam giác tạo thành khi nối một đỉnh bất kì với tất cả các đỉnh còn lại là:",
         "options": [
+          "$2026$",
           "$2024$",
           "$2025$",
-          "$2026$",
           "$2023$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [

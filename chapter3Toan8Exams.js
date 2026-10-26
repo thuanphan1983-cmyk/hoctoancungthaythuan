@@ -14,8 +14,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tổng số đo bốn góc của một tứ giác lồi bằng:",
         "options": [
           "$360^\\circ$",
-          "$180^\\circ$",
           "$270^\\circ$",
+          "$180^\\circ$",
           "$540^\\circ$"
         ],
         "correct": 0
@@ -25,36 +25,36 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 60^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 100^\\circ$. Số đo góc $D$ bằng:",
         "options": [
+          "$110^\\circ$",
           "$120^\\circ$",
           "$100^\\circ$",
-          "$110^\\circ$",
           "$130^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Tứ giác lồi là tứ giác mà:",
         "options": [
-          "Luôn nằm trong một nửa mặt phẳng có bờ là đường thẳng chứa bất kì cạnh nào",
-          "Có hai góc tù và hai góc nhọn",
+          "Có bốn cạnh bằng nhau",
           "Có hai đường chéo bằng nhau",
-          "Có bốn cạnh bằng nhau"
+          "Có hai góc tù và hai góc nhọn",
+          "Luôn nằm trong một nửa mặt phẳng có bờ là đường thẳng chứa bất kì cạnh nào"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số đường chéo của một tứ giác lồi là:",
         "options": [
-          "$2$",
           "$4$",
           "$3$",
-          "$1$"
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -63,8 +63,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Góc ngoài của tứ giác",
           "Góc trong của tứ giác",
-          "Góc đối của tứ giác",
-          "Góc kề của tứ giác"
+          "Góc kề của tứ giác",
+          "Góc đối của tứ giác"
         ],
         "correct": 0
       },
@@ -73,60 +73,60 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Một tứ giác có thể có nhiều nhất bao nhiêu góc tù?",
         "options": [
+          "$1$",
           "$3$",
-          "$4$",
           "$2$",
-          "$1$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 90^\\circ, \\widehat{C} = 120^\\circ$. Số đo góc ngoài tại đỉnh $D$ bằng:",
         "options": [
-          "$100^\\circ$",
+          "$90^\\circ$",
           "$80^\\circ$",
           "$110^\\circ$",
-          "$90^\\circ$"
+          "$100^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 2x, \\widehat{B} = 3x, \\widehat{C} = 4x, \\widehat{D} = x$. Giá trị của $x$ là:",
         "options": [
-          "$36^\\circ$",
           "$30^\\circ$",
           "$40^\\circ$",
+          "$36^\\circ$",
           "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có chu vi $32\\text{ cm}$, biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, CD = 10\\text{ cm}$. Độ dài cạnh $AD$ là:",
         "options": [
-          "$8\\text{ cm}$",
           "$6\\text{ cm}$",
-          "$9\\text{ cm}$",
-          "$7\\text{ cm}$"
+          "$7\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$9\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Trong một tứ giác, khẳng định nào sau đây là luôn đúng?",
         "options": [
-          "Có nhiều nhất 3 góc nhọn",
           "Cả 4 góc đều phải là góc nhọn",
-          "Có ít nhất 2 góc vuông",
-          "Tổng 2 góc đối luôn bằng $180^\\circ$"
+          "Có nhiều nhất 3 góc nhọn",
+          "Tổng 2 góc đối luôn bằng $180^\\circ$",
+          "Có ít nhất 2 góc vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -134,9 +134,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tứ giác $ABCD$. Khẳng định nào sau đây là đúng theo bất đẳng thức tam giác?",
         "options": [
           "$AC < AB + BC$",
-          "$AC > AB + BC$",
+          "$AC \\ge AB + BC$",
           "$AC = AB + BC$",
-          "$AC \\ge AB + BC$"
+          "$AC > AB + BC$"
         ],
         "correct": 0
       },
@@ -145,12 +145,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tổng các góc ngoài tại 4 đỉnh của một tứ giác lồi bằng:",
         "options": [
-          "$360^\\circ$",
           "$180^\\circ$",
           "$720^\\circ$",
+          "$360^\\circ$",
           "$540^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -270,72 +270,72 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc kề bù với góc $A$ của tứ giác $ABCD$ có số đo $115^\\circ$. Số đo góc $A$ bằng:",
         "options": [
-          "$65^\\circ$",
-          "$75^\\circ$",
+          "$85^\\circ$",
           "$115^\\circ$",
-          "$85^\\circ$"
+          "$75^\\circ$",
+          "$65^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = \\widehat{C} = 90^\\circ$. Tổng hai góc $\\widehat{B} + \\widehat{D}$ bằng:",
         "options": [
-          "$180^\\circ$",
           "$90^\\circ$",
-          "$270^\\circ$",
-          "$360^\\circ$"
+          "$180^\\circ$",
+          "$360^\\circ$",
+          "$270^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} : \\widehat{B} : \\widehat{C} : \\widehat{D} = 1 : 2 : 3 : 4$. Góc nhỏ nhất của tứ giác bằng:",
         "options": [
-          "$36^\\circ$",
           "$18^\\circ$",
           "$72^\\circ$",
+          "$36^\\circ$",
           "$54^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường là:",
         "options": [
-          "Hình thoi",
+          "Hình thang vuông",
           "Hình thang cân",
           "Hình chữ nhật",
-          "Hình thang vuông"
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Trong tứ giác lồi $ABCD$, đoạn thẳng nối hai đỉnh đối diện gọi là:",
         "options": [
-          "Đường chéo",
-          "Cạnh bên",
+          "Đường trung tuyến",
           "Đường cao",
-          "Đường trung tuyến"
+          "Đường chéo",
+          "Cạnh bên"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Nếu một tứ giác có 3 góc vuông thì góc còn lại là:",
         "options": [
-          "Góc vuông",
-          "Góc nhọn",
           "Góc tù",
-          "Góc bẹt"
+          "Góc bẹt",
+          "Góc nhọn",
+          "Góc vuông"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -355,9 +355,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = \\widehat{B} + 20^\\circ, \\widehat{B} = \\widehat{C} + 10^\\circ, \\widehat{C} = \\widehat{D} + 10^\\circ$. Số đo góc $D$ bằng:",
         "options": [
           "$70^\\circ$",
-          "$80^\\circ$",
+          "$90^\\circ$",
           "$60^\\circ$",
-          "$90^\\circ$"
+          "$80^\\circ$"
         ],
         "correct": 0
       },
@@ -366,12 +366,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Gọi $O$ là giao điểm hai đường chéo $AC$ và $BD$ của tứ giác $ABCD$. Khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$AC + BD < AB + BC + CD + DA$",
+          "$AC \\cdot BD = AB \\cdot CD$",
           "$AC + BD > AB + BC + CD + DA$",
-          "$AC + BD = AB + CD$",
-          "$AC \\cdot BD = AB \\cdot CD$"
+          "$AC + BD < AB + BC + CD + DA$",
+          "$AC + BD = AB + CD$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -390,24 +390,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} + \\widehat{B} = 200^\\circ$. Hai tia phân giác của góc $C$ và góc $D$ cắt nhau tại $M$. Số đo góc $CMD$ bằng:",
         "options": [
-          "$100^\\circ$",
           "$80^\\circ$",
+          "$100^\\circ$",
           "$120^\\circ$",
           "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Khi đó đường thẳng $BD$ là:",
         "options": [
-          "Đường trung trực của đoạn thẳng $AC$",
           "Đường song song với $AC$",
+          "Đường trung trực của đoạn thẳng $AC$",
           "Đường phân giác góc $B$ nhưng không vuông góc $AC$",
           "Đoạn thẳng bằng $AC$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -527,12 +527,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 70^\\circ, \\widehat{C} = 110^\\circ$. Góc ngoài tại đỉnh $D$ có số đo là:",
         "options": [
-          "$100^\\circ$",
-          "$80^\\circ$",
           "$90^\\circ$",
-          "$110^\\circ$"
+          "$110^\\circ$",
+          "$100^\\circ$",
+          "$80^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -541,8 +541,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Có thể có 4 góc tù",
           "Tổng 4 góc luôn bằng $360^\\circ$",
-          "Hai đường chéo luôn cắt nhau tại một điểm nằm trong tứ giác",
-          "Có nhiều nhất 3 góc nhọn"
+          "Có nhiều nhất 3 góc nhọn",
+          "Hai đường chéo luôn cắt nhau tại một điểm nằm trong tứ giác"
         ],
         "correct": 0
       },
@@ -551,12 +551,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc kề bù của một góc trong tứ giác bằng $135^\\circ$. Góc trong đó là góc:",
         "options": [
-          "Nhọn",
-          "Tù",
           "Vuông",
-          "Bẹt"
+          "Bẹt",
+          "Tù",
+          "Nhọn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -564,9 +564,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tứ giác $ABCD$. Tổng $\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D}$ tính theo độ radian là:",
         "options": [
           "$2\\pi$",
-          "$\\pi$",
+          "$\\frac{3\\pi}{2}$",
           "$4\\pi$",
-          "$\\frac{3\\pi}{2}$"
+          "$\\pi$"
         ],
         "correct": 0
       },
@@ -576,9 +576,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tứ giác có hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường là:",
         "options": [
           "Hình chữ nhật",
-          "Hình thoi",
+          "Hình thang cân",
           "Hình bình hành",
-          "Hình thang cân"
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -587,84 +587,84 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác có 4 cạnh bằng nhau được gọi là:",
         "options": [
-          "Hình thoi",
-          "Hình chữ nhật",
           "Hình thang cân",
-          "Hình bình hành"
+          "Hình bình hành",
+          "Hình thoi",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} - \\widehat{B} = 10^\\circ, \\widehat{B} - \\widehat{C} = 10^\\circ, \\widehat{C} - \\widehat{D} = 10^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$105^\\circ$",
-          "$95^\\circ$",
           "$110^\\circ$",
-          "$100^\\circ$"
+          "$95^\\circ$",
+          "$100^\\circ$",
+          "$105^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có các tia phân giác của góc $A$ và góc $D$ cắt nhau tại $E$, các tia phân giác của góc $B$ và góc $C$ cắt nhau tại $F$. Tổng $\\widehat{AED} + \\widehat{BFC}$ bằng:",
         "options": [
-          "$180^\\circ$",
           "$360^\\circ$",
+          "$180^\\circ$",
           "$90^\\circ$",
           "$270^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tứ giác lồi $ABCD$ có $\\widehat{A} = 90^\\circ, \\widehat{C} = 90^\\circ$. Các tia phân giác của góc $B$ và góc $D$:",
         "options": [
-          "Song song hoặc trùng nhau",
           "Vuông góc với nhau",
+          "Song song hoặc trùng nhau",
           "Tạo với nhau một góc $45^\\circ$",
           "Cắt nhau tại góc $60^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có độ dài các cạnh thỏa mãn $AB + CD = BC + AD$. Tứ giác này có tính chất:",
         "options": [
-          "Ngoại tiếp được một đường tròn",
-          "Nội tiếp được một đường tròn",
           "Là hình thoi",
-          "Có hai đường chéo bằng nhau"
+          "Nội tiếp được một đường tròn",
+          "Có hai đường chéo bằng nhau",
+          "Ngoại tiếp được một đường tròn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Độ dài hai đường chéo của tứ giác $ABCD$ là $8\\text{ cm}$ và $12\\text{ cm}$. Đoạn thẳng nối trung điểm hai đường chéo bằng $2\\text{ cm}$. Khẳng định nào đúng?",
         "options": [
-          "Tứ giác $ABCD$ không thể là hình bình hành",
           "Tứ giác $ABCD$ là hình bình hành",
           "Hai đường chéo vuông góc",
+          "Tứ giác $ABCD$ không thể là hình bình hành",
           "Hai đường chéo cắt nhau tại trung điểm mỗi đường"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AC = 10\\text{ cm}, BD = 14\\text{ cm}$. Diện tích lớn nhất của tứ giác $ABCD$ bằng:",
         "options": [
+          "$35\\text{ cm}^2$",
           "$70\\text{ cm}^2$",
           "$140\\text{ cm}^2$",
-          "$35\\text{ cm}^2$",
           "$24\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -784,12 +784,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình thang là tứ giác có:",
         "options": [
+          "Bốn cạnh bằng nhau",
           "Hai cạnh đối song song",
-          "Hai cạnh đối bằng nhau",
           "Hai đường chéo bằng nhau",
-          "Bốn cạnh bằng nhau"
+          "Hai cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -797,9 +797,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình thang cân là hình thang có:",
         "options": [
           "Hai góc kề một đáy bằng nhau",
+          "Có một góc vuông",
           "Hai cạnh bên song song",
-          "Hai góc đối bằng nhau",
-          "Có một góc vuông"
+          "Hai góc đối bằng nhau"
         ],
         "correct": 0
       },
@@ -809,9 +809,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Trong hình thang cân, khẳng định nào sau đây là sai?",
         "options": [
           "Hai góc đối bằng nhau",
-          "Hai cạnh bên bằng nhau",
+          "Hai góc kề một đáy bằng nhau",
           "Hai đường chéo bằng nhau",
-          "Hai góc kề một đáy bằng nhau"
+          "Hai cạnh bên bằng nhau"
         ],
         "correct": 0
       },
@@ -820,24 +820,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình thang có một góc vuông được gọi là:",
         "options": [
-          "Hình thang vuông",
-          "Hình thang cân",
+          "Hình bình hành",
           "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình thang vuông",
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{C} = 60^\\circ$. Số đo góc $D$ bằng:",
         "options": [
+          "$30^\\circ$",
           "$60^\\circ$",
           "$120^\\circ$",
-          "$90^\\circ$",
-          "$30^\\circ$"
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -845,9 +845,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình thang cân có bao nhiêu trục đối xứng?",
         "options": [
           "$1$",
-          "$2$",
+          "$4$",
           "$0$",
-          "$4$"
+          "$2$"
         ],
         "correct": 0
       },
@@ -856,72 +856,72 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{D} = 70^\\circ$. Số đo góc $A$ bằng:",
         "options": [
-          "$110^\\circ$",
           "$70^\\circ$",
           "$120^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$110^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$) có $AC = BD$. Tứ giác $ABCD$ là:",
         "options": [
+          "Hình chữ nhật",
           "Hình thang cân",
           "Hình bình hành",
-          "Hình chữ nhật",
           "Hình thang vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Hình thang cân $ABCD$ có đáy nhỏ $AB = 4\\text{ cm}$, đáy lớn $CD = 10\\text{ cm}$, cạnh bên $AD = 5\\text{ cm}$. Chu vi hình thang cân là:",
         "options": [
-          "$24\\text{ cm}$",
+          "$20\\text{ cm}$",
           "$19\\text{ cm}$",
           "$29\\text{ cm}$",
-          "$20\\text{ cm}$"
+          "$24\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Kẻ các đường cao $AH, BK$ xuống đáy $CD$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$DH = CK$",
-          "$DH = 2CK$",
           "$AH = CD$",
+          "$DH = 2CK$",
+          "$DH = CK$",
           "$DH = AB$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Một hình thang cân có một góc bằng $50^\\circ$. Các góc còn lại của hình thang đó lần lượt là:",
         "options": [
-          "$50^\\circ, 130^\\circ, 130^\\circ$",
-          "$50^\\circ, 50^\\circ, 130^\\circ$",
           "$60^\\circ, 120^\\circ, 130^\\circ$",
+          "$50^\\circ, 50^\\circ, 130^\\circ$",
+          "$50^\\circ, 130^\\circ, 130^\\circ$",
           "$50^\\circ, 90^\\circ, 140^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ cân tại $A$. Lấy điểm $D$ trên cạnh $AB$, điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Tứ giác $BDEC$ là:",
         "options": [
-          "Hình thang cân",
-          "Hình bình hành",
           "Hình thang vuông",
-          "Hình thoi"
+          "Hình bình hành",
+          "Hình thoi",
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1041,48 +1041,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Dấu hiệu nào sau đây không dùng để nhận biết hình thang cân?",
         "options": [
-          "Hình thang có hai cạnh bên bằng nhau",
-          "Hình thang có hai góc kề một đáy bằng nhau",
+          "Tứ giác có hai đường chéo bằng nhau và hai cạnh đối song song",
           "Hình thang có hai đường chéo bằng nhau",
-          "Tứ giác có hai đường chéo bằng nhau và hai cạnh đối song song"
+          "Hình thang có hai góc kề một đáy bằng nhau",
+          "Hình thang có hai cạnh bên bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Gọi $O$ là giao điểm của $AC$ và $BD$. Khẳng định nào đúng?",
         "options": [
+          "$OA = OC$ và $OB = OD$",
           "$OA = OB$ và $OC = OD$",
           "$OA = OD$ và $OB = OC$",
-          "$OA = OC$ và $OB = OD$",
           "$OA = OB = OC = OD$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hình thang cân có hai đường chéo:",
         "options": [
-          "Bằng nhau",
-          "Vuông góc với nhau",
           "Cắt nhau tại trung điểm mỗi đường",
+          "Vuông góc với nhau",
+          "Bằng nhau",
           "Là các đường phân giác của các góc"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Hình thang $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = \\widehat{D} = 80^\\circ$. Tứ giác $ABCD$ là:",
         "options": [
+          "Hình chữ nhật",
           "Hình thang cân",
-          "Hình bình hành",
           "Hình thang vuông",
-          "Hình chữ nhật"
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -1090,9 +1090,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho hình thang cân $ABCD$ có $\\widehat{A} = 130^\\circ$. Số đo góc đối diện $\\widehat{C}$ bằng:",
         "options": [
           "$50^\\circ$",
-          "$130^\\circ$",
           "$65^\\circ$",
-          "$70^\\circ$"
+          "$70^\\circ$",
+          "$130^\\circ$"
         ],
         "correct": 0
       },
@@ -1102,9 +1102,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Trục đối xứng của hình thang cân là:",
         "options": [
           "Đường thẳng đi qua trung điểm hai đáy",
-          "Đường chéo của hình thang",
+          "Đường thẳng chứa cạnh bên",
           "Đường cao của hình thang",
-          "Đường thẳng chứa cạnh bên"
+          "Đường chéo của hình thang"
         ],
         "correct": 0
       },
@@ -1113,24 +1113,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hình thang cân $ABCD$ ($AB \\parallel CD$) có đường cao $AH = 4\\text{ cm}$, cạnh bên $AD = 5\\text{ cm}$, đáy nhỏ $AB = 3\\text{ cm}$. Đáy lớn $CD$ có độ dài bằng:",
         "options": [
-          "$9\\text{ cm}$",
-          "$8\\text{ cm}$",
+          "$7\\text{ cm}$",
           "$10\\text{ cm}$",
-          "$7\\text{ cm}$"
+          "$9\\text{ cm}$",
+          "$8\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{A} = 3\\widehat{D}$. Số đo góc $B$ bằng:",
         "options": [
-          "$135^\\circ$",
-          "$45^\\circ$",
           "$120^\\circ$",
-          "$150^\\circ$"
+          "$45^\\circ$",
+          "$150^\\circ$",
+          "$135^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -1138,8 +1138,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ đều. Lấy các điểm $D, E$ lần lượt trên các cạnh $AB, AC$ sao cho $BD = CE$. Tứ giác $BDEC$ là:",
         "options": [
           "Hình thang cân",
-          "Hình thoi",
           "Hình bình hành",
+          "Hình thoi",
           "Hình thang vuông"
         ],
         "correct": 0
@@ -1149,36 +1149,36 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hình thang cân có đáy lớn bằng $10\\text{ cm}$, đáy nhỏ bằng một nửa đáy lớn và bằng cạnh bên. Chu vi hình thang cân là:",
         "options": [
-          "$25\\text{ cm}$",
           "$30\\text{ cm}$",
+          "$25\\text{ cm}$",
           "$20\\text{ cm}$",
           "$35\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD, AB < CD$). Giao điểm $E$ của hai cạnh bên kéo dài $AD$ và $BC$ tạo thành tam giác $ECD$ là:",
         "options": [
-          "Tam giác cân tại $E$",
-          "Tam giác vuông tại $E$",
           "Tam giác đều",
-          "Tam giác vuông cân tại $E$"
+          "Tam giác vuông cân tại $E$",
+          "Tam giác vuông tại $E$",
+          "Tam giác cân tại $E$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một hình thang cân có góc nhọn bằng $45^\\circ$, cạnh bên bằng $4\\sqrt{2}\\text{ cm}$, đáy nhỏ bằng $5\\text{ cm}$. Đáy lớn có độ dài là:",
         "options": [
-          "$13\\text{ cm}$",
+          "$15\\text{ cm}$",
           "$9\\text{ cm}$",
-          "$11\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$13\\text{ cm}$",
+          "$11\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1299,9 +1299,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Một hình thang có hai đường chéo bằng nhau thì chắc chắn là:",
         "options": [
           "Hình thang cân",
-          "Hình chữ nhật",
           "Hình bình hành",
-          "Hình thoi"
+          "Hình thoi",
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -1310,12 +1310,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Kết luận nào sau đây luôn đúng?",
         "options": [
+          "$AD \\parallel BC$",
           "$\\triangle ACD = \\triangle BDC$",
           "$\\triangle AOB = \\triangle COD$",
-          "$AB = CD$",
-          "$AD \\parallel BC$"
+          "$AB = CD$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -1323,9 +1323,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình thang cân có góc kề đáy lớn bằng $45^\\circ$ thì góc kề đáy nhỏ bằng:",
         "options": [
           "$135^\\circ$",
-          "$45^\\circ$",
           "$90^\\circ$",
-          "$120^\\circ$"
+          "$120^\\circ$",
+          "$45^\\circ$"
         ],
         "correct": 0
       },
@@ -1334,12 +1334,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Điều kiện cần và đủ để một hình thang là hình thang cân là:",
         "options": [
-          "Có hai góc kề một đáy bằng nhau",
           "Có hai cạnh bên bằng nhau",
           "Có hai đáy bằng nhau",
+          "Có hai góc kề một đáy bằng nhau",
           "Có một góc vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -1347,9 +1347,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tứ giác có hai cạnh đối song song và hai góc đối bù nhau là:",
         "options": [
           "Hình thang cân",
-          "Hình thoi",
           "Hình bình hành",
-          "Hình vuông"
+          "Hình vuông",
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -1358,84 +1358,84 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Đường thẳng nối trung điểm hai đáy của hình thang cân:",
         "options": [
-          "Vuông góc với hai đáy",
           "Bằng hai cạnh bên",
-          "Bằng nửa tổng hai đáy",
-          "Song song với hai cạnh bên"
+          "Song song với hai cạnh bên",
+          "Vuông góc với hai đáy",
+          "Bằng nửa tổng hai đáy"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Hình thang cân $ABCD$ có đường chéo $BD$ vuông góc với cạnh bên $BC$, $\\widehat{BCD} = 60^\\circ$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$CD = 2AB$",
           "$CD = 3AB$",
+          "$CD = 2AB$",
           "$CD = 1.5AB$",
           "$CD = 4AB$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Một hình thang cân có đáy nhỏ bằng $6\\text{ cm}$, cạnh bên bằng $5\\text{ cm}$, góc ở đáy lớn bằng $60^\\circ$. Chu vi hình thang là:",
         "options": [
-          "$27\\text{ cm}$",
-          "$26\\text{ cm}$",
           "$28\\text{ cm}$",
-          "$30\\text{ cm}$"
+          "$30\\text{ cm}$",
+          "$27\\text{ cm}$",
+          "$26\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Khẳng định nào sau đây là sai?",
         "options": [
-          "$MN = AD$",
           "$MN \\parallel AB \\parallel CD$",
           "$MN = \\frac{AB + CD}{2}$",
-          "Đoạn thẳng nối trung điểm 2 đáy cắt $MN$ tại trung điểm của $MN$"
+          "Đoạn thẳng nối trung điểm 2 đáy cắt $MN$ tại trung điểm của $MN$",
+          "$MN = AD$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Hình thang cân có hai đường chéo vuông góc và độ dài đường cao là $h$. Diện tích của hình thang cân này bằng:",
         "options": [
-          "$h^2$",
-          "$2h^2$",
           "$\\frac{1}{2}h^2$",
-          "$4h^2$"
+          "$h^2$",
+          "$4h^2$",
+          "$2h^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $AC = 13\\text{ cm}$, đường cao $AH = 12\\text{ cm}$. Tổng độ dài hai đáy $AB + CD$ bằng:",
         "options": [
-          "$10\\text{ cm}$",
-          "$12\\text{ cm}$",
           "$15\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$12\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$10\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{C} = \\widehat{D}$ và $AD = BC$. Khẳng định nào đúng nhất?",
         "options": [
-          "Tứ giác $ABCD$ là hình thang cân hoặc hình bình hành",
-          "Tứ giác $ABCD$ chắc chắn là hình thang cân",
           "Tứ giác $ABCD$ chắc chắn là hình chữ nhật",
-          "Tứ giác $ABCD$ là hình thang vuông"
+          "Tứ giác $ABCD$ chắc chắn là hình thang cân",
+          "Tứ giác $ABCD$ là hình thang vuông",
+          "Tứ giác $ABCD$ là hình thang cân hoặc hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1555,48 +1555,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình bình hành là tứ giác có:",
         "options": [
+          "Hai đường chéo vuông góc",
           "Các cạnh đối song song",
           "Bốn cạnh bằng nhau",
-          "Bốn góc vuông",
-          "Hai đường chéo vuông góc"
+          "Bốn góc vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong hình bình hành, tính chất nào sau đây là sai?",
         "options": [
+          "Các góc đối bằng nhau",
           "Hai đường chéo bằng nhau",
           "Các cạnh đối bằng nhau",
-          "Các góc đối bằng nhau",
           "Hai đường chéo cắt nhau tại trung điểm của mỗi đường"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$ có $\\widehat{A} = 70^\\circ$. Số đo góc $C$ bằng:",
         "options": [
-          "$70^\\circ$",
+          "$90^\\circ$",
           "$110^\\circ$",
           "$140^\\circ$",
-          "$90^\\circ$"
+          "$70^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$ có $\\widehat{A} = 100^\\circ$. Số đo góc $B$ bằng:",
         "options": [
-          "$80^\\circ$",
-          "$100^\\circ$",
           "$90^\\circ$",
-          "$120^\\circ$"
+          "$120^\\circ$",
+          "$80^\\circ$",
+          "$100^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -1615,12 +1615,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tâm đối xứng của hình bình hành là:",
         "options": [
-          "Giao điểm của hai đường chéo",
           "Trung điểm của cạnh đáy",
-          "Giao điểm của hai đường cao",
-          "Một đỉnh bất kì"
+          "Một đỉnh bất kì",
+          "Giao điểm của hai đường chéo",
+          "Giao điểm của hai đường cao"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -1639,48 +1639,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Dấu hiệu nào sau đây không kết luận được một tứ giác là hình bình hành?",
         "options": [
-          "Tứ giác có hai cạnh đối bằng nhau",
           "Tứ giác có các cạnh đối song song",
+          "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường",
           "Tứ giác có hai cạnh đối song song và bằng nhau",
-          "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường"
+          "Tứ giác có hai cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$. Biết $AC = 10\\text{ cm}, BD = 14\\text{ cm}$. Độ dài $OA + OB$ bằng:",
         "options": [
-          "$12\\text{ cm}$",
           "$24\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$12\\text{ cm}$",
+          "$10\\text{ cm}$",
+          "$7\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Hình bình hành $ABCD$ có $\\widehat{A} = 2\\widehat{B}$. Số đo góc $A$ bằng:",
         "options": [
-          "$120^\\circ$",
-          "$60^\\circ$",
+          "$100^\\circ$",
           "$90^\\circ$",
-          "$100^\\circ$"
+          "$60^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Gọi $M, N$ lần lượt là trung điểm của $AB, AC$. Lấy $P$ đối xứng với $M$ qua $N$. Tứ giác $AMCP$ là:",
         "options": [
-          "Hình bình hành",
           "Hình chữ nhật",
-          "Hình thoi",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình bình hành",
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -1688,8 +1688,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình bình hành $ABCD$ có $AB = 2AD$ và chu vi bằng $36\\text{ cm}$. Độ dài cạnh $AD$ bằng:",
         "options": [
           "$6\\text{ cm}$",
-          "$12\\text{ cm}$",
           "$9\\text{ cm}$",
+          "$12\\text{ cm}$",
           "$4\\text{ cm}$"
         ],
         "correct": 0
@@ -1812,24 +1812,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác nào sau đây không nhất thiết là hình bình hành?",
         "options": [
-          "Tứ giác có hai cạnh đối bằng nhau",
           "Tứ giác có các cạnh đối bằng nhau",
+          "Tứ giác có các góc đối bằng nhau",
           "Tứ giác có hai cạnh đối song song và bằng nhau",
-          "Tứ giác có các góc đối bằng nhau"
+          "Tứ giác có hai cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$. Tia phân giác của góc $A$ cắt $BC$ tại $E$. Tam giác $ABE$ là tam giác:",
         "options": [
-          "Tam giác cân tại $B$",
-          "Tam giác đều",
           "Tam giác vuông tại $E$",
-          "Tam giác tù"
+          "Tam giác cân tại $B$",
+          "Tam giác tù",
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -1837,9 +1837,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Giao điểm của hai đường chéo hình bình hành chia mỗi đường chéo thành:",
         "options": [
           "Hai đoạn thẳng bằng nhau",
-          "Hai đoạn thẳng tỉ lệ $1 : 2$",
+          "Hai đoạn thẳng bất kì",
           "Hai đoạn thẳng vuông góc",
-          "Hai đoạn thẳng bất kì"
+          "Hai đoạn thẳng tỉ lệ $1 : 2$"
         ],
         "correct": 0
       },
@@ -1848,24 +1848,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$ có $\\widehat{A} - \\widehat{B} = 40^\\circ$. Số đo góc $A$ bằng:",
         "options": [
-          "$110^\\circ$",
-          "$70^\\circ$",
           "$120^\\circ$",
+          "$70^\\circ$",
+          "$110^\\circ$",
           "$100^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là dấu hiệu nhận biết của:",
         "options": [
-          "Hình bình hành",
-          "Hình thang cân",
           "Hình thang vuông",
+          "Hình thang cân",
+          "Hình bình hành",
           "Tứ giác bất kì"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -1873,9 +1873,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình bình hành có hai cạnh kề bằng nhau là:",
         "options": [
           "Hình thoi",
-          "Hình chữ nhật",
           "Hình vuông",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -1884,48 +1884,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có $AB = 8\\text{ cm}, AD = 5\\text{ cm}$. Kẻ phân giác góc $A$ cắt cạnh $CD$ tại $E$. Độ dài đoạn thẳng $EC$ là:",
         "options": [
-          "$3\\text{ cm}$",
-          "$4\\text{ cm}$",
+          "$2.5\\text{ cm}$",
           "$5\\text{ cm}$",
-          "$2.5\\text{ cm}$"
+          "$4\\text{ cm}$",
+          "$3\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Lấy $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Tứ giác $AMND$ là:",
         "options": [
-          "Hình bình hành",
-          "Hình thang vuông",
           "Hình chữ nhật",
-          "Hình thoi"
+          "Hình thang vuông",
+          "Hình thoi",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có hai đường chéo $AC = 12\\text{ cm}, BD = 16\\text{ cm}$ cắt nhau tại $O$. Biết $AB = 10\\text{ cm}$. Tam giác $OAB$ là:",
         "options": [
+          "Tam giác tù",
           "Tam giác vuông tại $O$",
           "Tam giác cân tại $O$",
-          "Tam giác đều",
-          "Tam giác tù"
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Chu vi hình bình hành bằng $60\\text{ cm}$. Tỉ số giữa hai cạnh kề là $2 : 3$. Độ dài hai cạnh kề là:",
         "options": [
-          "$12\\text{ cm}$ và $18\\text{ cm}$",
-          "$10\\text{ cm}$ và $20\\text{ cm}$",
           "$15\\text{ cm}$ và $15\\text{ cm}$",
+          "$10\\text{ cm}$ và $20\\text{ cm}$",
+          "$12\\text{ cm}$ và $18\\text{ cm}$",
           "$8\\text{ cm}$ và $22\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -1933,9 +1933,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$. Qua $A$ kẻ đường thẳng song song với $BC$, qua $C$ kẻ đường thẳng song song với $AB$, chúng cắt nhau tại $D$. Tứ giác $ABDC$ là:",
         "options": [
           "Hình bình hành",
-          "Hình thang",
+          "Hình thoi",
           "Hình thang cân",
-          "Hình thoi"
+          "Hình thang"
         ],
         "correct": 0
       },
@@ -1944,12 +1944,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Các đường phân giác của bốn góc $A, B, C, D$ cắt nhau tạo thành một tứ giác. Tứ giác đó là:",
         "options": [
+          "Hình vuông",
           "Hình chữ nhật",
           "Hình thoi",
-          "Hình bình hành",
-          "Hình vuông"
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2069,24 +2069,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là điều kiện cần và đủ để một tứ giác là hình bình hành?",
         "options": [
+          "Có hai đường chéo bằng nhau",
           "Có các cặp cạnh đối song song",
           "Có hai góc kề bù nhau",
-          "Có hai đường chéo bằng nhau",
           "Có một cặp cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hình bình hành có hai đường chéo bằng nhau là hình gì?",
         "options": [
-          "Hình chữ nhật",
           "Hình thoi",
           "Hình vuông",
+          "Hình chữ nhật",
           "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -2094,8 +2094,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Định lí Varignon phát biểu rằng tứ giác có 4 đỉnh là trung điểm các cạnh của một tứ giác lồi bất kì luôn là:",
         "options": [
           "Hình bình hành",
-          "Hình chữ nhật",
           "Hình thoi",
+          "Hình chữ nhật",
           "Hình thang"
         ],
         "correct": 0
@@ -2106,9 +2106,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Trong các hình sau, hình nào không có tâm đối xứng?",
         "options": [
           "Hình thang cân",
+          "Hình thoi",
           "Hình bình hành",
-          "Hình chữ nhật",
-          "Hình thoi"
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -2117,60 +2117,60 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hình bình hành $ABCD$. Tổng bình phương độ dài hai đường chéo $AC^2 + BD^2$ bằng:",
         "options": [
-          "$2(AB^2 + BC^2)$",
-          "$AB^2 + BC^2 + CD^2 + DA^2$",
           "$4AB \\cdot BC$",
-          "$2(AB + BC)^2$"
+          "$AB^2 + BC^2 + CD^2 + DA^2$",
+          "$2(AB + BC)^2$",
+          "$2(AB^2 + BC^2)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Nếu một hình bình hành có một góc vuông thì các góc còn lại:",
         "options": [
-          "Đều là góc vuông",
           "Có hai góc tù",
           "Có hai góc nhọn",
+          "Đều là góc vuông",
           "Không xác định"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Lấy $E$ đối xứng với $A$ qua $B$, lấy $F$ đối xứng với $B$ qua $C$. Tỉ số diện tích $\\frac{S_{DEF}}{S_{ABCD}}$ bằng:",
         "options": [
+          "$1$",
           "$1.5$",
           "$2$",
-          "$1$",
           "$2.5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có diện tích $S$. Điểm $M$ bất kì nằm trong hình bình hành. Tổng diện tích $S_{MAB} + S_{MCD}$ bằng:",
         "options": [
-          "$\\frac{1}{2}S$",
           "$\\frac{1}{3}S$",
-          "$\\frac{1}{4}S$",
-          "Phụ thuộc vào vị trí của $M$"
+          "$\\frac{1}{2}S$",
+          "Phụ thuộc vào vị trí của $M$",
+          "$\\frac{1}{4}S$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Gọi $G$ là trọng tâm tam giác. Dựng hình bình hành $ABDC$. Khẳng định nào đúng?",
         "options": [
-          "Điểm $G$ nằm trên đường chéo $AD$ và $AG = \\frac{1}{3}AD$",
-          "Điểm $G$ là giao điểm hai đường chéo",
+          "$AG = \\frac{1}{2}AD$",
           "$G$ là trung điểm của $AD$",
-          "$AG = \\frac{1}{2}AD$"
+          "Điểm $G$ nằm trên đường chéo $AD$ và $AG = \\frac{1}{3}AD$",
+          "Điểm $G$ là giao điểm hai đường chéo"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -2178,9 +2178,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$ có chu vi $20\\text{ cm}$, đường cao $AH = 3\\text{ cm}$ và $AK = 2\\text{ cm}$ ứng với $CD$ và $BC$. Độ dài cạnh $AB$ là:",
         "options": [
           "$6\\text{ cm}$",
+          "$8\\text{ cm}$",
           "$4\\text{ cm}$",
-          "$5\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$5\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -2189,24 +2189,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có các trung điểm các cạnh tạo thành một hình chữ nhật. Khi đó hai đường chéo $AC$ và $BD$ của tứ giác $ABCD$ phải:",
         "options": [
-          "Vuông góc với nhau",
           "Bằng nhau",
           "Song song với nhau",
-          "Cắt nhau tại trung điểm"
+          "Cắt nhau tại trung điểm",
+          "Vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$ có góc nhọn $\\widehat{A} = 60^\\circ$, độ dài các cạnh $AB = 8\\text{ cm}, AD = 5\\text{ cm}$. Độ dài đường chéo $BD$ bằng:",
         "options": [
-          "$7\\text{ cm}$",
+          "$6\\text{ cm}$",
           "$\\sqrt{39}\\text{ cm}$",
           "$8\\text{ cm}$",
-          "$6\\text{ cm}$"
+          "$7\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2326,12 +2326,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình chữ nhật là tứ giác có:",
         "options": [
+          "Hai cạnh kề bằng nhau",
           "Bốn góc vuông",
           "Bốn cạnh bằng nhau",
-          "Hai đường chéo vuông góc",
-          "Hai cạnh kề bằng nhau"
+          "Hai đường chéo vuông góc"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -2339,9 +2339,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Trong hình chữ nhật, khẳng định nào sau đây là sai?",
         "options": [
           "Hai đường chéo vuông góc với nhau",
-          "Hai đường chéo bằng nhau",
+          "Giao điểm hai đường chéo cách đều bốn đỉnh",
           "Các cạnh đối song song và bằng nhau",
-          "Giao điểm hai đường chéo cách đều bốn đỉnh"
+          "Hai đường chéo bằng nhau"
         ],
         "correct": 0
       },
@@ -2350,12 +2350,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong một tam giác vuông, đường trung tuyến ứng với cạnh huyền có độ dài bằng:",
         "options": [
-          "Nửa độ dài cạnh huyền",
-          "Cạnh huyền",
+          "Gấp đôi cạnh huyền",
           "Cạnh góc vuông",
-          "Gấp đôi cạnh huyền"
+          "Cạnh huyền",
+          "Nửa độ dài cạnh huyền"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -2363,9 +2363,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình chữ nhật có bao nhiêu trục đối xứng?",
         "options": [
           "$2$",
-          "$4$",
           "$1$",
-          "$0$"
+          "$0$",
+          "$4$"
         ],
         "correct": 0
       },
@@ -2374,24 +2374,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình bình hành có thêm điều kiện nào sau đây thì trở thành hình chữ nhật?",
         "options": [
-          "Có một góc vuông",
-          "Có hai cạnh kề bằng nhau",
           "Có hai đường chéo vuông góc",
+          "Có hai cạnh kề bằng nhau",
+          "Có một góc vuông",
           "Có một đường chéo là phân giác một góc"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $BC = 12\\text{ cm}$. Độ dài đường trung tuyến $AM$ bằng:",
         "options": [
-          "$6\\text{ cm}$",
-          "$12\\text{ cm}$",
+          "$8\\text{ cm}$",
           "$24\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$12\\text{ cm}$",
+          "$6\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -2410,60 +2410,60 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hình thang cân có thêm điều kiện nào sau đây thì trở thành hình chữ nhật?",
         "options": [
-          "Có một góc vuông",
-          "Có hai đường chéo bằng nhau",
           "Có hai cạnh bên song song",
+          "Có hai đường chéo bằng nhau",
+          "Có một góc vuông",
           "Có hai góc kề đáy bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$. Biết $OA = 5\\text{ cm}, AB = 8\\text{ cm}$. Độ dài cạnh $BC$ là:",
         "options": [
-          "$6\\text{ cm}$",
-          "$8\\text{ cm}$",
           "$10\\text{ cm}$",
-          "$5\\text{ cm}$"
+          "$5\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$8\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Chu vi của một hình chữ nhật là $28\\text{ cm}$, biết chiều dài hơn chiều rộng $4\\text{ cm}$. Diện tích của hình chữ nhật đó bằng:",
         "options": [
+          "$50\\text{ cm}^2$",
           "$45\\text{ cm}^2$",
           "$48\\text{ cm}^2$",
-          "$50\\text{ cm}^2$",
           "$40\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 5\\text{ cm}$ và $BC = 10\\text{ cm}$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "Tam giác $ABC$ vuông tại $A$",
-          "Tam giác $ABC$ cân tại $A$",
           "Tam giác $ABC$ đều",
-          "Tam giác $ABC$ vuông tại $B$"
+          "Tam giác $ABC$ vuông tại $A$",
+          "Tam giác $ABC$ vuông tại $B$",
+          "Tam giác $ABC$ cân tại $A$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$. Gọi $M, N, P, Q$ lần lượt là trung điểm của các cạnh $AB, BC, CD, DA$. Tứ giác $MNPQ$ là:",
         "options": [
-          "Hình thoi",
+          "Hình thang cân",
           "Hình vuông",
           "Hình chữ nhật",
-          "Hình thang cân"
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2584,9 +2584,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tứ giác có hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường là:",
         "options": [
           "Hình chữ nhật",
+          "Hình bình hành",
           "Hình thoi",
-          "Hình thang cân",
-          "Hình bình hành"
+          "Hình thang cân"
         ],
         "correct": 0
       },
@@ -2595,96 +2595,96 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình bình hành $ABCD$ có hai đường chéo $AC = BD$. Tứ giác $ABCD$ là:",
         "options": [
-          "Hình chữ nhật",
+          "Hình thang vuông",
           "Hình thoi",
           "Hình vuông",
-          "Hình thang vuông"
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ có $AM$ là trung tuyến và $AM = \\frac{1}{2}BC$. Tam giác $ABC$ là:",
         "options": [
+          "Tam giác vuông cân tại $A$",
           "Tam giác vuông tại $A$",
           "Tam giác đều",
-          "Tam giác cân tại $A$",
-          "Tam giác vuông cân tại $A$"
+          "Tam giác cân tại $A$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho hình chữ nhật $ABCD$. Góc giữa hai đường chéo bằng $90^\\circ$ thì hình chữ nhật $ABCD$ là:",
         "options": [
-          "Hình vuông",
+          "Hình bình hành",
           "Hình thoi",
-          "Hình thang",
-          "Hình bình hành"
+          "Hình vuông",
+          "Hình thang"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Tâm đối xứng của hình chữ nhật là:",
         "options": [
-          "Giao điểm của hai đường chéo",
-          "Trung điểm của cạnh dài",
           "Giao điểm của hai cạnh kề",
-          "Không có tâm đối xứng"
+          "Không có tâm đối xứng",
+          "Trung điểm của cạnh dài",
+          "Giao điểm của hai đường chéo"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Trong hình chữ nhật, khoảng cách từ giao điểm hai đường chéo tới mỗi đỉnh:",
         "options": [
-          "Bằng nhau",
           "Khác nhau",
-          "Bằng nửa chiều dài",
-          "Bằng nửa chiều rộng"
+          "Bằng nửa chiều rộng",
+          "Bằng nhau",
+          "Bằng nửa chiều dài"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Hình chữ nhật $ABCD$ có chu vi $36\\text{ cm}$, tỉ số hai cạnh là $\\frac{AB}{BC} = \\frac{4}{5}$. Diện tích hình chữ nhật là:",
         "options": [
+          "$90\\text{ cm}^2$",
           "$80\\text{ cm}^2$",
-          "$160\\text{ cm}^2$",
           "$72\\text{ cm}^2$",
-          "$90\\text{ cm}^2$"
+          "$160\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Điểm $M$ là trung điểm $BC$, điểm $D$ đối xứng với $A$ qua $M$. Tứ giác $ABDC$ có diện tích bằng:",
         "options": [
-          "$48\\text{ cm}^2$",
           "$24\\text{ cm}^2$",
+          "$36\\text{ cm}^2$",
           "$50\\text{ cm}^2$",
-          "$36\\text{ cm}^2$"
+          "$48\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$ có đường chéo $AC = 10\\text{ cm}$, góc tạo bởi $AC$ và $AB$ là $30^\\circ$. Diện tích hình chữ nhật $ABCD$ là:",
         "options": [
-          "$25\\sqrt{3}\\text{ cm}^2$",
           "$50\\text{ cm}^2$",
+          "$25\\sqrt{3}\\text{ cm}^2$",
           "$25\\text{ cm}^2$",
           "$50\\sqrt{3}\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -2692,8 +2692,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $AD \\parallel BC$. Khi đó hình thang cân $ABCD$ là:",
         "options": [
           "Hình chữ nhật",
-          "Hình thoi",
           "Hình vuông",
+          "Hình thoi",
           "Chỉ là hình bình hành"
         ],
         "correct": 0
@@ -2703,12 +2703,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Các đường phân giác của bốn góc của một hình bình hành cắt nhau tạo thành một:",
         "options": [
-          "Hình chữ nhật",
+          "Hình bình hành",
           "Hình thoi",
-          "Hình vuông",
-          "Hình bình hành"
+          "Hình chữ nhật",
+          "Hình vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2716,9 +2716,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho hình chữ nhật $ABCD$ có $AB = 4\\text{ cm}, BC = 3\\text{ cm}$. Khoảng cách từ điểm $B$ đến đường chéo $AC$ bằng:",
         "options": [
           "$2.4\\text{ cm}$",
-          "$2.5\\text{ cm}$",
           "$2\\text{ cm}$",
-          "$3\\text{ cm}$"
+          "$3\\text{ cm}$",
+          "$2.5\\text{ cm}$"
         ],
         "correct": 0
       }
@@ -2840,12 +2840,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Giao điểm các đường phân giác của một tứ giác lồi tạo thành một hình chữ nhật khi và chỉ khi tứ giác đó là:",
         "options": [
+          "Hình vuông",
           "Hình bình hành",
           "Hình thang cân",
-          "Hình thoi",
-          "Hình vuông"
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -2864,12 +2864,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình chữ nhật có chu vi không đổi thì diện tích lớn nhất khi hình chữ nhật đó là:",
         "options": [
-          "Hình vuông",
           "Hình thoi",
           "Tam giác đều",
+          "Hình vuông",
           "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2877,9 +2877,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tứ giác có hai trục đối xứng vuông góc với nhau và có một tâm đối xứng là:",
         "options": [
           "Hình chữ nhật hoặc hình thoi",
+          "Chỉ có hình bình hành",
           "Chỉ có hình chữ nhật",
-          "Chỉ có hình vuông",
-          "Chỉ có hình bình hành"
+          "Chỉ có hình vuông"
         ],
         "correct": 0
       },
@@ -2888,60 +2888,60 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong hình chữ nhật $ABCD$, khoảng cách từ $A$ và $C$ đến đường chéo $BD$:",
         "options": [
-          "Bằng nhau",
-          "Khác nhau",
+          "$C$ gần hơn $A$",
           "$A$ gần hơn $C$",
-          "$C$ gần hơn $A$"
+          "Bằng nhau",
+          "Khác nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tam giác vuông có độ dài hai cạnh góc vuông là $a, b$. Bán kính đường tròn ngoại tiếp tam giác đó bằng:",
         "options": [
-          "$\\frac{\\sqrt{a^2 + b^2}}{2}$",
-          "$\\sqrt{a^2 + b^2}$",
+          "$\\frac{ab}{2}$",
           "$\\frac{a + b}{2}$",
-          "$\\frac{ab}{2}$"
+          "$\\sqrt{a^2 + b^2}$",
+          "$\\frac{\\sqrt{a^2 + b^2}}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$ có $AB = 2AD$. Gọi $E, F$ lần lượt là trung điểm của $AB, CD$. Tứ giác $AEFD$ là:",
         "options": [
-          "Hình vuông",
-          "Hình chữ nhật",
           "Hình thoi",
-          "Hình bình hành không vuông"
+          "Hình chữ nhật",
+          "Hình bình hành không vuông",
+          "Hình vuông"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$. Gọi $H$ là chân đường vuông góc kẻ từ $B$ đến $AC$. Biết $AH = 3\\text{ cm}, HC = 12\\text{ cm}$. Độ dài đường cao $BH$ bằng:",
         "options": [
-          "$6\\text{ cm}$",
-          "$9\\text{ cm}$",
           "$7.5\\text{ cm}$",
-          "$4\\text{ cm}$"
+          "$4\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$9\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông cân tại $A$. Điểm $M$ thuộc cạnh huyền $BC$. Kẻ $MD \\perp AB, ME \\perp AC$. Chu vi tứ giác $ADME$ bằng:",
         "options": [
+          "$4AB$",
           "$2AB$",
           "$AB + AC$",
-          "$BC$",
-          "$4AB$"
+          "$BC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -2950,8 +2950,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "$50$",
           "$100$",
-          "$25$",
-          "$200$"
+          "$200$",
+          "$25$"
         ],
         "correct": 0
       },
@@ -2960,24 +2960,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Điểm $E$ thuộc cạnh $CD$ sao cho diện tích tam giác $ADE$ bằng $\\frac{1}{4}$ diện tích hình chữ nhật. Độ dài $DE$ là:",
         "options": [
-          "$4\\text{ cm}$",
           "$2\\text{ cm}$",
           "$3\\text{ cm}$",
-          "$6\\text{ cm}$"
+          "$6\\text{ cm}$",
+          "$4\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Để tứ giác có các đỉnh là tâm đối xứng của các hình vuông dựng ra phía ngoài các cạnh của $ABCD$ là một hình vuông thì $ABCD$ cần là:",
         "options": [
+          "Hình thoi",
           "Hình bình hành bất kì",
           "Hình chữ nhật",
-          "Hình thoi",
           "Hình thang"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3097,24 +3097,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình thoi là tứ giác có:",
         "options": [
+          "Hai đường chéo bằng nhau",
           "Bốn cạnh bằng nhau",
           "Bốn góc vuông",
-          "Hai đường chéo bằng nhau",
           "Hai cạnh kề vuông góc"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong hình thoi, khẳng định nào sau đây là sai?",
         "options": [
-          "Hai đường chéo luôn bằng nhau",
           "Hai đường chéo vuông góc với nhau",
+          "Bốn cạnh bằng nhau",
           "Hai đường chéo là các đường phân giác của các góc",
-          "Bốn cạnh bằng nhau"
+          "Hai đường chéo luôn bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -3133,12 +3133,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Diện tích của hình thoi có độ dài hai đường chéo $d_1$ và $d_2$ được tính theo công thức:",
         "options": [
-          "$S = \\frac{1}{2} d_1 d_2$",
+          "$S = \\frac{1}{4} d_1 d_2$",
           "$S = d_1 d_2$",
-          "$S = 2 d_1 d_2$",
-          "$S = \\frac{1}{4} d_1 d_2$"
+          "$S = \\frac{1}{2} d_1 d_2$",
+          "$S = 2 d_1 d_2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -3157,24 +3157,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình thoi có thêm điều kiện nào sau đây thì trở thành hình vuông?",
         "options": [
+          "Các góc đối bằng nhau",
           "Có một góc vuông",
           "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau",
-          "Các góc đối bằng nhau"
+          "Bốn cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hình thoi $ABCD$ có $\\widehat{A} = 50^\\circ$. Số đo góc $B$ bằng:",
         "options": [
-          "$130^\\circ$",
+          "$100^\\circ$",
           "$50^\\circ$",
-          "$90^\\circ$",
-          "$100^\\circ$"
+          "$130^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -3183,8 +3183,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "$24\\text{ cm}^2$",
           "$48\\text{ cm}^2$",
-          "$14\\text{ cm}^2$",
-          "$28\\text{ cm}^2$"
+          "$28\\text{ cm}^2$",
+          "$14\\text{ cm}^2$"
         ],
         "correct": 0
       },
@@ -3193,48 +3193,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một hình thoi có độ dài hai đường chéo là $6\\text{ cm}$ và $8\\text{ cm}$. Chu vi của hình thoi đó bằng:",
         "options": [
-          "$20\\text{ cm}$",
-          "$24\\text{ cm}$",
+          "$16\\text{ cm}$",
           "$28\\text{ cm}$",
-          "$16\\text{ cm}$"
+          "$24\\text{ cm}$",
+          "$20\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Hình vuông $ABCD$ có cạnh bằng $5\\text{ cm}$. Độ dài đường chéo $AC$ bằng:",
         "options": [
-          "$5\\sqrt{2}\\text{ cm}$",
-          "$10\\text{ cm}$",
           "$25\\text{ cm}$",
+          "$10\\text{ cm}$",
+          "$5\\sqrt{2}\\text{ cm}$",
           "$7\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $M$ là trung điểm $BC$. Lấy $D$ đối xứng với $A$ qua $M$. Tứ giác $ABDC$ là:",
         "options": [
-          "Hình thoi",
-          "Hình vuông",
           "Hình chữ nhật",
-          "Hình thang cân"
+          "Hình thoi",
+          "Hình thang cân",
+          "Hình vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Hình vuông có bao nhiêu trục đối xứng?",
         "options": [
-          "$4$",
-          "$2$",
           "$1$",
-          "$8$"
+          "$8$",
+          "$2$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3354,48 +3354,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Hình thoi",
           "Hình chữ nhật",
           "Hình thang cân",
-          "Hình vuông"
+          "Hình vuông",
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hình chữ nhật có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Hình vuông",
           "Hình thoi",
           "Hình bình hành",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình vuông"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hình thoi có hai đường chéo bằng nhau là:",
         "options": [
-          "Hình vuông",
-          "Hình chữ nhật",
           "Hình bình hành",
-          "Hình thang cân"
+          "Hình vuông",
+          "Hình thang cân",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tứ giác có các đỉnh là trung điểm bốn cạnh của một hình chữ nhật là:",
         "options": [
-          "Hình thoi",
-          "Hình vuông",
           "Hình chữ nhật",
+          "Hình vuông",
+          "Hình thoi",
           "Hình bình hành không vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -3403,8 +3403,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tứ giác có các đỉnh là trung điểm bốn cạnh của một hình thoi là:",
         "options": [
           "Hình chữ nhật",
-          "Hình vuông",
           "Hình thoi",
+          "Hình vuông",
           "Hình thang"
         ],
         "correct": 0
@@ -3414,24 +3414,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Đường chéo của hình vuông tạo với các cạnh một góc bằng:",
         "options": [
-          "$45^\\circ$",
-          "$30^\\circ$",
+          "$90^\\circ$",
           "$60^\\circ$",
-          "$90^\\circ$"
+          "$30^\\circ$",
+          "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hình thoi $ABCD$ có cạnh bằng $10\\text{ cm}$ và một đường chéo dài $12\\text{ cm}$. Độ dài đường chéo còn lại là:",
         "options": [
-          "$16\\text{ cm}$",
           "$8\\text{ cm}$",
-          "$14\\text{ cm}$",
-          "$20\\text{ cm}$"
+          "$20\\text{ cm}$",
+          "$16\\text{ cm}$",
+          "$14\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -3439,9 +3439,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình vuông có đường chéo dài $10\\text{ cm}$. Diện tích của hình vuông đó bằng:",
         "options": [
           "$50\\text{ cm}^2$",
-          "$100\\text{ cm}^2$",
+          "$75\\text{ cm}^2$",
           "$25\\text{ cm}^2$",
-          "$75\\text{ cm}^2$"
+          "$100\\text{ cm}^2$"
         ],
         "correct": 0
       },
@@ -3451,8 +3451,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông cân tại $A$. Dựng ra phía ngoài tam giác các hình vuông $ABDE$ và $ACFG$. Tứ giác $BDEC$ có quan hệ gì với $BCGF$?",
         "options": [
           "Có diện tích bằng nhau",
-          "Có chu vi bằng nhau",
           "Là các hình vuông bằng nhau",
+          "Có chu vi bằng nhau",
           "Cả 3 khẳng định trên"
         ],
         "correct": 0
@@ -3462,36 +3462,36 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hình thoi $ABCD$ có góc $\\widehat{A} = 120^\\circ$ và cạnh $a = 4\\text{ cm}$. Diện tích hình thoi bằng:",
         "options": [
-          "$8\\sqrt{3}\\text{ cm}^2$",
-          "$16\\sqrt{3}\\text{ cm}^2$",
           "$8\\text{ cm}^2$",
-          "$16\\text{ cm}^2$"
+          "$16\\text{ cm}^2$",
+          "$8\\sqrt{3}\\text{ cm}^2$",
+          "$16\\sqrt{3}\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Tia phân giác góc $A$ cắt $BC$ tại $E$, tia phân giác góc $B$ cắt $AD$ tại $F$. Tứ giác $ABEF$ là:",
         "options": [
+          "Hình chữ nhật",
           "Hình thoi",
           "Hình vuông",
-          "Hình chữ nhật",
           "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một hình vuông có cạnh $a$. Nối trung điểm các cạnh liên tiếp của nó ta được hình vuông mới. Tỉ số diện tích của hình vuông mới so với hình vuông ban đầu là:",
         "options": [
+          "$\\frac{2}{3}$",
           "$\\frac{1}{2}$",
           "$\\frac{1}{4}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{2}{3}$"
+          "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3613,8 +3613,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Hình vuông",
           "Hình chữ nhật",
-          "Hình thoi",
-          "Hình bình hành"
+          "Hình bình hành",
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -3623,36 +3623,36 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là sai khi nói về hình vuông?",
         "options": [
-          "Có hai đường chéo không bằng nhau",
           "Vừa là hình chữ nhật vừa là hình thoi",
-          "Có tâm đối xứng là giao điểm hai đường chéo",
-          "Hai đường chéo vuông góc tại trung điểm mỗi đường"
+          "Có hai đường chéo không bằng nhau",
+          "Hai đường chéo vuông góc tại trung điểm mỗi đường",
+          "Có tâm đối xứng là giao điểm hai đường chéo"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Tứ giác có các đỉnh là trung điểm của bốn cạnh của một hình thoi là:",
         "options": [
+          "Hình bình hành không vuông",
           "Hình chữ nhật",
           "Hình vuông",
-          "Hình thoi",
-          "Hình bình hành không vuông"
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tứ giác có các đỉnh là trung điểm của bốn cạnh của một hình vuông là:",
         "options": [
-          "Hình vuông",
-          "Hình thoi",
+          "Hình thang cân",
           "Hình chữ nhật",
-          "Hình thang cân"
+          "Hình vuông",
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -3671,48 +3671,48 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình vuông có cạnh bằng $a$. Bán kính đường tròn nội tiếp hình vuông bằng:",
         "options": [
-          "$\\frac{a}{2}$",
-          "$\\frac{a\\sqrt{2}}{2}$",
           "$a$",
-          "$\\frac{a}{4}$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$\\frac{a}{4}$",
+          "$\\frac{a}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hình vuông $ABCD$. Điểm $M$ nằm trong hình vuông sao cho tam giác $MCD$ đều. Khi đó số đo góc $\\widehat{MAB}$ bằng:",
         "options": [
-          "$15^\\circ$",
-          "$30^\\circ$",
           "$45^\\circ$",
+          "$30^\\circ$",
+          "$15^\\circ$",
           "$20^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình thoi $ABCD$ có đường chéo $AC = a, BD = b$. Tỉ số $\\frac{a}{b} = \\frac{3}{4}$ và chu vi bằng $40\\text{ cm}$. Tích hai đường chéo $a \\cdot b$ bằng:",
         "options": [
-          "$192\\text{ cm}^2$",
           "$96\\text{ cm}^2$",
-          "$384\\text{ cm}^2$",
-          "$200\\text{ cm}^2$"
+          "$192\\text{ cm}^2$",
+          "$200\\text{ cm}^2$",
+          "$384\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = c, AC = b$. Dựng hình vuông $ADEF$ nội tiếp tam giác ($D \\in AB, E \\in BC, F \\in AC$). Độ dài cạnh của hình vuông đó bằng:",
         "options": [
-          "$\\frac{bc}{b + c}$",
+          "$\\sqrt{bc}$",
           "$\\frac{bc}{2(b + c)}$",
-          "$\\frac{b + c}{2}$",
-          "$\\sqrt{bc}$"
+          "$\\frac{bc}{b + c}$",
+          "$\\frac{b + c}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -3721,8 +3721,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "$11\\text{ cm}^2$",
           "$12\\text{ cm}^2$",
-          "$13\\text{ cm}^2$",
-          "$15\\text{ cm}^2$"
+          "$15\\text{ cm}^2$",
+          "$13\\text{ cm}^2$"
         ],
         "correct": 0
       },
@@ -3731,24 +3731,24 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình vuông $ABCD$. Điểm $P$ thuộc miền trong hình vuông thỏa mãn $PA : PB : PC = 1 : 2 : 3$. Khi đó số đo góc $\\widehat{APB}$ bằng:",
         "options": [
-          "$135^\\circ$",
-          "$120^\\circ$",
+          "$90^\\circ$",
           "$150^\\circ$",
-          "$90^\\circ$"
+          "$120^\\circ$",
+          "$135^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một hình chữ nhật và một hình vuông có cùng chu vi. Khẳng định nào sau đây luôn đúng?",
         "options": [
-          "Diện tích hình vuông lớn hơn diện tích hình chữ nhật",
-          "Diện tích hình chữ nhật lớn hơn diện tích hình vuông",
           "Hai hình có diện tích bằng nhau",
-          "Đường chéo hai hình bằng nhau"
+          "Đường chéo hai hình bằng nhau",
+          "Diện tích hình chữ nhật lớn hơn diện tích hình vuông",
+          "Diện tích hình vuông lớn hơn diện tích hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3868,84 +3868,84 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tổng bốn góc của một tứ giác lồi luôn bằng:",
         "options": [
-          "$360^\\circ$",
           "$180^\\circ$",
+          "$540^\\circ$",
           "$270^\\circ$",
-          "$540^\\circ$"
+          "$360^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tứ giác có hai cạnh đối song song là:",
         "options": [
-          "Hình thang",
+          "Hình chữ nhật",
           "Hình thoi",
-          "Hình bình hành",
-          "Hình chữ nhật"
+          "Hình thang",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hình thang có hai đường chéo bằng nhau là:",
         "options": [
-          "Hình thang cân",
           "Hình bình hành",
           "Hình chữ nhật",
-          "Hình thoi"
+          "Hình thoi",
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
+          "Hình thang vuông",
           "Hình thoi",
           "Hình chữ nhật",
-          "Hình thang cân",
-          "Hình thang vuông"
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Hình vuông",
+          "Hình thang cân",
           "Hình thoi",
-          "Hình bình hành",
-          "Hình thang cân"
+          "Hình vuông",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tứ giác vừa có 4 góc vuông vừa có 4 cạnh bằng nhau là:",
         "options": [
+          "Hình bình hành",
           "Hình vuông",
           "Hình chữ nhật",
-          "Hình thoi",
-          "Hình bình hành"
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 100^\\circ$. Số đo góc $D$ bằng:",
         "options": [
-          "$110^\\circ$",
+          "$120^\\circ$",
           "$100^\\circ$",
           "$90^\\circ$",
-          "$120^\\circ$"
+          "$110^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -3953,9 +3953,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Bán kính đường tròn đi qua bốn đỉnh $A, B, C, D$ là:",
         "options": [
           "$5\\text{ cm}$",
+          "$4\\text{ cm}$",
           "$10\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$4\\text{ cm}$"
+          "$7\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -3964,12 +3964,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thoi có độ dài hai đường chéo là $10\\text{ cm}$ và $24\\text{ cm}$. Chu vi hình thoi đó bằng:",
         "options": [
-          "$52\\text{ cm}$",
           "$68\\text{ cm}$",
           "$48\\text{ cm}$",
+          "$52\\text{ cm}$",
           "$34\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -3977,9 +3977,9 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Tứ giác có các đỉnh là trung điểm của bốn cạnh của một tứ giác lồi bất kì luôn là:",
         "options": [
           "Hình bình hành",
+          "Hình vuông",
           "Hình chữ nhật",
-          "Hình thoi",
-          "Hình vuông"
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -3989,8 +3989,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Độ dài đường trung tuyến $AM$ bằng:",
         "options": [
           "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
           "$7\\text{ cm}$",
+          "$10\\text{ cm}$",
           "$4.8\\text{ cm}$"
         ],
         "correct": 0
@@ -4000,12 +4000,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một hình vuông có chu vi bằng $32\\text{ cm}$. Diện tích của hình vuông đó bằng:",
         "options": [
-          "$64\\text{ cm}^2$",
           "$16\\text{ cm}^2$",
+          "$64\\text{ cm}^2$",
           "$32\\text{ cm}^2$",
           "$128\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4125,36 +4125,36 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là đúng về mối quan hệ giữa các hình?",
         "options": [
-          "Hình vuông vừa là hình chữ nhật vừa là hình thoi",
           "Hình thang cân là hình bình hành",
-          "Hình bình hành có hai đường chéo bằng nhau là hình thoi",
-          "Hình thoi có một góc vuông là hình chữ nhật nhưng không phải hình vuông"
+          "Hình vuông vừa là hình chữ nhật vừa là hình thoi",
+          "Hình thoi có một góc vuông là hình chữ nhật nhưng không phải hình vuông",
+          "Hình bình hành có hai đường chéo bằng nhau là hình thoi"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường là:",
         "options": [
+          "Hình bình hành không thoi",
           "Hình thoi",
           "Hình chữ nhật",
-          "Hình thang cân",
-          "Hình bình hành không thoi"
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường là:",
         "options": [
-          "Hình chữ nhật",
-          "Hình thoi",
+          "Hình bình hành",
           "Hình thang cân",
-          "Hình bình hành"
+          "Hình thoi",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -4174,8 +4174,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "question": "Hình nào sau đây có vô số trục đối xứng?",
         "options": [
           "Hình tròn",
-          "Hình vuông",
           "Hình chữ nhật",
+          "Hình vuông",
           "Hình thoi"
         ],
         "correct": 0
@@ -4187,8 +4187,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Giao điểm của hai đường chéo",
           "Trung điểm của một cạnh",
-          "Một đỉnh của hình vuông",
-          "Không có tâm đối xứng"
+          "Không có tâm đối xứng",
+          "Một đỉnh của hình vuông"
         ],
         "correct": 0
       },
@@ -4197,72 +4197,72 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{A} = 3\\widehat{D}$. Hiệu số đo giữa góc $B$ và góc $C$ bằng:",
         "options": [
-          "$90^\\circ$",
           "$45^\\circ$",
+          "$120^\\circ$",
           "$60^\\circ$",
-          "$120^\\circ$"
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có chu vi $24\\text{ cm}$. Gọi $M, N, P$ lần lượt là trung điểm của $AB, BC, CA$. Chu vi tam giác $MNP$ bằng:",
         "options": [
-          "$12\\text{ cm}$",
-          "$6\\text{ cm}$",
           "$18\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$12\\text{ cm}$",
           "$24\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Một hình chữ nhật có độ dài đường chéo bằng $15\\text{ cm}$ và tỉ số hai cạnh là $3 : 4$. Diện tích hình chữ nhật là:",
         "options": [
-          "$108\\text{ cm}^2$",
-          "$216\\text{ cm}^2$",
+          "$96\\text{ cm}^2$",
           "$144\\text{ cm}^2$",
-          "$96\\text{ cm}^2$"
+          "$108\\text{ cm}^2$",
+          "$216\\text{ cm}^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có hai đường chéo $AC \\perp BD$. Tứ giác có các đỉnh là trung điểm bốn cạnh của $ABCD$ là:",
         "options": [
-          "Hình chữ nhật",
           "Hình thoi",
           "Hình vuông",
+          "Hình chữ nhật",
           "Hình bình hành không vuông"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có hai đường chéo $AC = BD$. Tứ giác có các đỉnh là trung điểm bốn cạnh của $ABCD$ là:",
         "options": [
-          "Hình thoi",
           "Hình chữ nhật",
           "Hình vuông",
-          "Hình bình hành không thoi"
+          "Hình bình hành không thoi",
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Hình vuông có diện tích bằng $144\\text{ cm}^2$. Bán kính đường tròn ngoại tiếp hình vuông đó bằng:",
         "options": [
-          "$6\\sqrt{2}\\text{ cm}$",
           "$12\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$12\\sqrt{2}\\text{ cm}$"
+          "$6\\sqrt{2}\\text{ cm}$",
+          "$12\\sqrt{2}\\text{ cm}$",
+          "$6\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4382,12 +4382,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo bằng nhau và vuông góc với nhau tại trung điểm của mỗi đường là:",
         "options": [
+          "Hình thang cân",
           "Hình vuông",
           "Hình thoi",
-          "Hình chữ nhật",
-          "Hình thang cân"
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -4396,8 +4396,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Hình thang vuông",
           "Hình chữ nhật",
-          "Hình thoi",
-          "Hình vuông"
+          "Hình vuông",
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -4406,12 +4406,12 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Điều kiện cần và đủ để hình bình hành là hình vuông là:",
         "options": [
-          "Có hai đường chéo bằng nhau và vuông góc với nhau",
-          "Có hai đường chéo bằng nhau",
           "Có hai đường chéo vuông góc",
-          "Có bốn cạnh bằng nhau"
+          "Có hai đường chéo bằng nhau",
+          "Có bốn cạnh bằng nhau",
+          "Có hai đường chéo bằng nhau và vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -4420,8 +4420,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Hình bình hành",
           "Hình chữ nhật",
-          "Hình thoi",
-          "Hình vuông"
+          "Hình vuông",
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -4430,84 +4430,84 @@ const CHAPTER3_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác có các đỉnh là trung điểm của bốn cạnh của một hình thang cân có hai đường chéo vuông góc là:",
         "options": [
+          "Hình bình hành",
           "Hình vuông",
           "Hình thoi",
-          "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Cho hình vuông có cạnh $a$. Diện tích hình tròn ngoại tiếp hình vuông đó bằng:",
         "options": [
-          "$\\frac{\\pi a^2}{2}$",
-          "$\\pi a^2$",
           "$2\\pi a^2$",
+          "$\\pi a^2$",
+          "$\\frac{\\pi a^2}{2}$",
           "$\\frac{\\pi a^2}{4}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AC \\perp BD$. Đặt $AB = a, BC = b, CD = c, DA = d$. Hệ thức nào sau đây luôn đúng?",
         "options": [
-          "$a^2 + c^2 = b^2 + d^2$",
           "$a^2 + b^2 = c^2 + d^2$",
-          "$a + c = b + d$",
-          "$a \\cdot c = b \\cdot d$"
+          "$a^2 + c^2 = b^2 + d^2$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + c = b + d$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình vuông $ABCD$. Gọi $E, F$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AE$ cắt $BF$ tại $I$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$AE \\perp BF$ và $CI = CD$",
-          "$AE \\parallel BF$",
           "$AE = 2BF$",
+          "$AE \\parallel BF$",
+          "$AE \\perp BF$ và $CI = CD$",
           "Tam giác $AIB$ vuông cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Tam giác $AMN$ là:",
         "options": [
-          "Tam giác đều",
           "Tam giác vuông cân",
+          "Tam giác cân có góc đáy $30^\\circ$",
           "Tam giác vuông",
-          "Tam giác cân có góc đáy $30^\\circ$"
+          "Tam giác đều"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Điểm $M$ thuộc đường chéo $BD$. Khoảng cách từ $M$ đến $AB$ là $x$, đến $AD$ là $y$. Giá trị biểu thức $3x + 4y$ bằng:",
         "options": [
-          "$24$",
           "$48$",
           "$12$",
+          "$24$",
           "$36$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình vuông $ABCD$. Điểm $M$ thuộc cạnh $BC$. Tia phân giác của góc $\\widehat{DAM}$ cắt cạnh $CD$ tại $P$. Khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$AP = BM + DP$",
           "$AP = BM - DP$",
           "$AP^2 = BM^2 + DP^2$",
-          "$AP = 2(BM + DP)$"
+          "$AP = 2(BM + DP)$",
+          "$AP = BM + DP$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -4516,8 +4516,8 @@ const CHAPTER3_TOAN8_EXAMS = {
         "options": [
           "Bằng nhau và vuông góc với nhau",
           "Bằng nhau nhưng không vuông góc",
-          "Vuông góc nhưng không bằng nhau",
-          "Cắt nhau tại trung điểm mỗi đường"
+          "Cắt nhau tại trung điểm mỗi đường",
+          "Vuông góc nhưng không bằng nhau"
         ],
         "correct": 0
       }

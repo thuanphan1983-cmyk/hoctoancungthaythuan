@@ -8,48 +8,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tập hợp các số nguyên gồm:",
         "options": [
-          "Các số nguyên âm, số 0 và các số nguyên dương",
-          "Các số nguyên âm và số nguyên dương",
           "Các số nguyên âm và số 0",
-          "Các số nguyên dương và số 0"
+          "Các số nguyên dương và số 0",
+          "Các số nguyên âm, số 0 và các số nguyên dương",
+          "Các số nguyên âm và số nguyên dương"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Kí hiệu tập hợp các số nguyên là:",
         "options": [
-          "$\\mathbb{Z}$",
+          "$\\mathbb{R}$",
           "$\\mathbb{N}$",
-          "$\\mathbb{Q}$",
-          "$\\mathbb{R}$"
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Số đối của số nguyên $-5$ là:",
         "options": [
-          "$5$",
-          "$-5$",
           "$\\frac{1}{5}$",
-          "$0$"
+          "$0$",
+          "$5$",
+          "$-5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số 0 là:",
         "options": [
-          "Số nguyên không âm và không dương",
+          "Không phải là số nguyên",
           "Số nguyên dương",
           "Số nguyên âm",
-          "Không phải là số nguyên"
+          "Số nguyên không âm và không dương"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -58,8 +58,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "Nằm về bên trái điểm 0 và cách điểm 0 ba đơn vị",
           "Nằm về bên phải điểm 0 và cách điểm 0 ba đơn vị",
-          "Trùng với điểm 0",
-          "Nằm về bên phải điểm 3"
+          "Nằm về bên phải điểm 3",
+          "Trùng với điểm 0"
         ],
         "correct": 0
       },
@@ -68,24 +68,24 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong các số sau, số nào là số nguyên âm?",
         "options": [
-          "$-7$",
           "$0$",
           "$7$",
-          "$12$"
+          "$12$",
+          "$-7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "So sánh hai số nguyên $-6$ và $-2$:",
         "options": [
+          "$-6 = -2$",
           "$-6 < -2$",
           "$-6 > -2$",
-          "$-6 = -2$",
           "Không so sánh được"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -93,8 +93,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Nhiệt độ $-3^\\circ\\text{C}$ ấm hơn hay lạnh hơn nhiệt độ $-5^\\circ\\text{C}$?",
         "options": [
           "Ấm hơn",
-          "Lạnh hơn",
           "Bằng nhau",
+          "Lạnh hơn",
           "Không xác định được"
         ],
         "correct": 0
@@ -104,24 +104,24 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $3; -5; 0; -2; 4$:",
         "options": [
+          "$0; -2; -5; 3; 4$",
           "$-5; -2; 0; 3; 4$",
-          "$-2; -5; 0; 3; 4$",
           "$4; 3; 0; -2; -5$",
-          "$0; -2; -5; 3; 4$"
+          "$-2; -5; 0; 3; 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tập hợp các số nguyên $x$ thỏa mãn $-3 < x \\leq 2$ là:",
         "options": [
-          "$\\{-2; -1; 0; 1; 2\\}$",
-          "$\\{-3; -2; -1; 0; 1; 2\\}$",
+          "$\\{-3; -2; -1; 0; 1\\}$",
           "$\\{-2; -1; 0; 1\\}$",
-          "$\\{-3; -2; -1; 0; 1\\}$"
+          "$\\{-3; -2; -1; 0; 1; 2\\}$",
+          "$\\{-2; -1; 0; 1; 2\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -129,9 +129,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Độ cao của mực nước biển được quy ước là $0\\text{ m}$. Một chiếc tàu ngầm đang lặn ở độ sâu $35\\text{ m}$ dưới mực nước biển thì độ cao của tàu ngầm được biểu diễn bằng số nguyên nào?",
         "options": [
           "$-35\\text{ m}$",
+          "$-70\\text{ m}$",
           "$35\\text{ m}$",
-          "$0\\text{ m}$",
-          "$-70\\text{ m}$"
+          "$0\\text{ m}$"
         ],
         "correct": 0
       },
@@ -140,12 +140,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số nguyên liền sau của số nguyên $-1$ là:",
         "options": [
+          "$1$",
           "$0$",
           "$-2$",
-          "$1$",
           "$-3$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -265,48 +265,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho số nguyên $a < 0$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$-a < 0$",
-          "$-a > 0$",
           "$a$ nằm bên trái điểm 0 trên trục số",
-          "Số đối của $a$ là số nguyên dương"
+          "Số đối của $a$ là số nguyên dương",
+          "$-a < 0$",
+          "$-a > 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-10 \\leq x \\leq 10$?",
         "options": [
-          "$21$",
-          "$20$",
           "$19$",
-          "$22$"
+          "$20$",
+          "$22$",
+          "$21$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $a, b \\in \\mathbb{Z}$ sao cho $a$ nằm bên trái điểm $b$ trên trục số. Khi đó:",
         "options": [
-          "$a < b$",
-          "$a > b$",
           "$a = b$",
-          "$a \\geq b$"
+          "$a > b$",
+          "$a \\geq b$",
+          "$a < b$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Khẳng định nào sau đây là ĐÚNG với mọi số nguyên $x$?",
         "options": [
-          "Nếu $x > 0$ thì số đối của $x$ nhỏ hơn 0",
           "Nếu $x \\in \\mathbb{Z}$ thì $-x$ luôn là số nguyên âm",
           "Khoảng cách từ $x$ đến gốc 0 có thể là số âm",
-          "$-(-x) = -x$"
+          "$-(-x) = -x$",
+          "Nếu $x > 0$ thì số đối của $x$ nhỏ hơn 0"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -326,9 +326,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm số nguyên $x$ biết số đối của $x$ là $-(-7)$:",
         "options": [
           "$-7$",
-          "$7$",
+          "$14$",
           "$0$",
-          "$14$"
+          "$7$"
         ],
         "correct": 0
       },
@@ -337,48 +337,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho ba số nguyên $a, b, c$ thỏa mãn $a < b < 0 < c$. Sắp xếp các số $a, b, c$ và các số đối của chúng theo thứ tự tăng dần:",
         "options": [
+          "$-c < -a < -b < a < b < c$",
           "$-c < a < b < -b < -a < c$",
           "$a < b < -c < -b < -a < c$",
-          "$-c < -a < -b < a < b < c$",
           "$a < b < c < -c < -b < -a$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $-5 < x \\leq 5$?",
         "options": [
+          "$8$",
           "$10$",
-          "$11$",
           "$9$",
-          "$8$"
+          "$11$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Cho tập hợp $A = \\{x \\in \\mathbb{Z} \\mid -2024 \\leq x \\leq 2024\\}$. Tổng của tất cả các phần tử của $A$ bằng:",
         "options": [
-          "$0$",
-          "$2024$",
+          "$4048$",
           "$-2024$",
-          "$4048$"
+          "$0$",
+          "$2024$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Một tàu ngầm đang ở độ sâu $40\\text{ m}$. Tàu lặn thêm $15\\text{ m}$ nữa rồi nổi lên $20\\text{ m}$. Vị trí mới của tàu ngầm biểu diễn bằng số nguyên nào?",
         "options": [
+          "$-45\\text{ m}$",
           "$-35\\text{ m}$",
           "$-75\\text{ m}$",
-          "$-45\\text{ m}$",
           "$35\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -386,9 +386,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Biết $x$ là số nguyên âm và $-8 < x < -4$. Tích các giá trị của $x$ thỏa mãn bằng:",
         "options": [
           "$-210$",
-          "$210$",
+          "$35$",
           "$-35$",
-          "$35$"
+          "$210$"
         ],
         "correct": 0
       },
@@ -397,12 +397,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Điểm $A$ cách gốc 0 năm đơn vị về bên trái. Điểm $B$ cách điểm $A$ tám đơn vị về bên phải. Tọa độ của điểm $B$ là:",
         "options": [
-          "$3$",
-          "$-13$",
           "$-3$",
-          "$13$"
+          "$13$",
+          "$3$",
+          "$-13$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -522,60 +522,60 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a > b$ thì khẳng định nào sau đây luôn đúng?",
         "options": [
+          "$|a| > |b|$",
           "$-a < -b$",
           "$-a > -b$",
-          "$-a = -b$",
-          "$|a| > |b|$"
+          "$-a = -b$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm tất cả các số nguyên $x$ thỏa mãn $-2 \\leq -x < 3$:",
         "options": [
-          "$-2; -1; 0; 1; 2$",
           "$-3; -2; -1; 0; 1$",
+          "$-2; -1; 0; 1; 2$",
           "$-2; -1; 0$",
           "$1; 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Cho $A = \\{x \\in \\mathbb{Z} \\mid |x| \\leq 5\\}$. Số phần tử của tập hợp $A$ là:",
         "options": [
-          "$11$",
           "$10$",
-          "$5$",
-          "$6$"
+          "$11$",
+          "$6$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $|x| + |y| = 1$?",
         "options": [
-          "$4$ cặp",
-          "$2$ cặp",
           "$8$ cặp",
-          "$6$ cặp"
+          "$6$ cặp",
+          "$4$ cặp",
+          "$2$ cặp"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Cho 5 số nguyên $a_1, a_2, a_3, a_4, a_5$ đều khác 0 thỏa mãn tích của 2 số bất kì trong chúng là số dương. Khẳng định nào đúng?",
         "options": [
-          "Cả 5 số đều cùng dấu",
-          "Có 3 số âm và 2 số dương",
           "Có 4 số âm và 1 số dương",
-          "Chỉ có 1 số âm"
+          "Chỉ có 1 số âm",
+          "Có 3 số âm và 2 số dương",
+          "Cả 5 số đều cùng dấu"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -594,36 +594,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $x$ sao cho khoảng cách từ điểm $x$ đến điểm $-3$ trên trục số bằng 7:",
         "options": [
-          "$x = 4$ hoặc $x = -10$",
+          "$x = 10$ hoặc $x = -4$",
           "$x = 4$",
           "$x = -10$",
-          "$x = 10$ hoặc $x = -4$"
+          "$x = 4$ hoặc $x = -10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho $a$ là số nguyên âm lớn nhất có 3 chữ số khác nhau, $b$ là số nguyên dương nhỏ nhất có 3 chữ số khác nhau. Hiệu $b - a$ bằng:",
         "options": [
-          "$204$",
+          "$200$",
           "$2024$",
-          "$0$",
-          "$200$"
+          "$204$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $|x - 2| < 4$?",
         "options": [
-          "$7$",
           "$8$",
           "$9$",
-          "$6$"
+          "$6$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -632,8 +632,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$203$",
           "$101$",
-          "$102$",
-          "$0$"
+          "$0$",
+          "$102$"
         ],
         "correct": 0
       },
@@ -643,9 +643,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Trên trục số, điểm $M$ biểu diễn số $-15$, điểm $N$ biểu diễn số $25$. Điểm $P$ nằm giữa $M$ và $N$ sao cho $MP = 3PN$. Tọa độ của điểm $P$ là:",
         "options": [
           "$15$",
+          "$0$",
           "$5$",
-          "$10$",
-          "$0$"
+          "$10$"
         ],
         "correct": 0
       },
@@ -654,12 +654,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 1| + |x - 5|$ với $x \\in \\mathbb{Z}$:",
         "options": [
-          "$4$",
-          "$0$",
           "$2$",
-          "$6$"
+          "$6$",
+          "$4$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -779,12 +779,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tổng của hai số nguyên âm luôn là:",
         "options": [
+          "Không xác định được dấu",
           "Một số nguyên âm",
-          "Một số nguyên dương",
           "Số 0",
-          "Không xác định được dấu"
+          "Một số nguyên dương"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -792,9 +792,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Kết quả của phép tính $(-3) + (-5)$ là:",
         "options": [
           "$-8$",
-          "$8$",
           "$-2$",
-          "$2$"
+          "$2$",
+          "$8$"
         ],
         "correct": 0
       },
@@ -805,8 +805,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$0$",
           "$1$",
-          "$-1$",
-          "Hai lần số đó"
+          "Hai lần số đó",
+          "$-1$"
         ],
         "correct": 0
       },
@@ -815,96 +815,96 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Muốn trừ số nguyên $a$ cho số nguyên $b$, ta làm như sau:",
         "options": [
-          "Cộng $a$ với số đối của $b$",
-          "Lấy $b$ trừ đi $a$",
+          "Lấy số đối của $a$ trừ đi $b$",
           "Cộng $a$ với $b$",
-          "Lấy số đối của $a$ trừ đi $b$"
+          "Cộng $a$ với số đối của $b$",
+          "Lấy $b$ trừ đi $a$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $5 - 9$ là:",
         "options": [
+          "$14$",
           "$-4$",
-          "$4$",
           "$-14$",
-          "$14$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tính chất nào sau đây là tính chất của phép cộng các số nguyên?",
         "options": [
-          "Cả giao hoán, kết hợp và cộng với số 0",
-          "Chỉ có tính chất giao hoán",
           "Chỉ có tính chất kết hợp",
-          "Không có tính chất kết hợp"
+          "Không có tính chất kết hợp",
+          "Chỉ có tính chất giao hoán",
+          "Cả giao hoán, kết hợp và cộng với số 0"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $(-12) + 7$ là:",
         "options": [
-          "$-5$",
-          "$5$",
+          "$19$",
           "$-19$",
-          "$19$"
+          "$-5$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $15 + (-8)$ là:",
         "options": [
-          "$7$",
+          "$-23$",
           "$-7$",
-          "$23$",
-          "$-23$"
+          "$7$",
+          "$23$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $(-6) - (-4)$ là:",
         "options": [
-          "$-2$",
-          "$-10$",
+          "$10$",
           "$2$",
-          "$10$"
+          "$-10$",
+          "$-2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Nhiệt độ lúc 12 giờ trưa là $5^\\circ\\text{C}$, đến 20 giờ cùng ngày nhiệt độ giảm $8^\\circ\\text{C}$. Nhiệt độ lúc 20 giờ là:",
         "options": [
+          "$13^\\circ\\text{C}$",
           "$-3^\\circ\\text{C}$",
-          "$3^\\circ\\text{C}$",
           "$-13^\\circ\\text{C}$",
-          "$13^\\circ\\text{C}$"
+          "$3^\\circ\\text{C}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tìm số nguyên $x$ biết $x - 5 = -8$:",
         "options": [
-          "$x = -3$",
           "$x = 3$",
+          "$x = 13$",
           "$x = -13$",
-          "$x = 13$"
+          "$x = -3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -912,9 +912,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tính tổng $S = (-20) + 15 + 20$:",
         "options": [
           "$15$",
-          "$55$",
+          "$0$",
           "$-15$",
-          "$0$"
+          "$55$"
         ],
         "correct": 0
       }
@@ -1036,12 +1036,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $P = (-120) + 45 - (-120) + (-55)$:",
         "options": [
-          "$-10$",
           "$10$",
-          "$-250$",
-          "$0$"
+          "$-10$",
+          "$0$",
+          "$-250$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -1049,9 +1049,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm $x$ biết $15 - (x + 2) = -3$:",
         "options": [
           "$x = 16$",
-          "$x = 10$",
+          "$x = 14$",
           "$x = -16$",
-          "$x = 14$"
+          "$x = 10$"
         ],
         "correct": 0
       },
@@ -1061,9 +1061,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Cho $a = -15, b = -8$. Giá trị của $a - b$ là:",
         "options": [
           "$-7$",
-          "$7$",
           "$-23$",
-          "$23$"
+          "$23$",
+          "$7$"
         ],
         "correct": 0
       },
@@ -1072,96 +1072,96 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tổng của số nguyên âm nhỏ nhất có hai chữ số và số nguyên dương lớn nhất có hai chữ số là:",
         "options": [
-          "$0$",
           "$-1$",
           "$1$",
-          "$-198$"
+          "$-198$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $x \\in \\mathbb{Z}$ thỏa mãn $-7 < x < 5$. Tổng tất cả các giá trị của $x$ là:",
         "options": [
-          "$-11$",
+          "$0$",
           "$-6$",
-          "$-18$",
-          "$0$"
+          "$-11$",
+          "$-18$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tính tổng $S = 1 - 2 + 3 - 4 + 5 - 6 + \\dots + 99 - 100$:",
         "options": [
-          "$-50$",
-          "$50$",
           "$-100$",
-          "$0$"
+          "$0$",
+          "$-50$",
+          "$50$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ thỏa mãn $|x| - 5 = -2$:",
         "options": [
-          "$x = 3$ hoặc $x = -3$",
+          "$x = 7$ hoặc $x = -7$",
           "$x = 3$",
-          "$x = -3$",
-          "$x = 7$ hoặc $x = -7$"
+          "$x = 3$ hoặc $x = -3$",
+          "$x = -3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Một người bán hàng bị lỗ $300\\,000$ đồng trong đợt 1, đợt 2 lãi $500\\,000$ đồng, đợt 3 bị lỗ $150\\,000$ đồng. Tổng kết cả 3 đợt người đó:",
         "options": [
+          "Lãi $650\\,000$ đồng",
           "Lãi $50\\,000$ đồng",
           "Lỗ $50\\,000$ đồng",
-          "Lãi $650\\,000$ đồng",
           "Hòa vốn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Cho $a, b \\in \\mathbb{Z}$. Nếu $a - b = 5$ thì $b - a$ bằng:",
         "options": [
-          "$-5$",
-          "$5$",
           "$0$",
-          "Không xác định"
+          "$-5$",
+          "Không xác định",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Tính tổng $A = (-1) + 2 + (-3) + 4 + \\dots + (-19) + 20$:",
         "options": [
-          "$10$",
           "$-10$",
+          "$-20$",
           "$20$",
-          "$-20$"
+          "$10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ nguyên biết $(x - 3) + (-12) = -8$:",
         "options": [
-          "$x = 7$",
-          "$x = -17$",
           "$x = 1$",
-          "$x = -1$"
+          "$x = -1$",
+          "$x = -17$",
+          "$x = 7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -1169,9 +1169,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Nhiệt độ phòng đông lạnh lúc đầu là $-6^\\circ\\text{C}$. Nếu tăng thêm $4^\\circ\\text{C}$ rồi sau đó lại giảm đi $7^\\circ\\text{C}$ thì nhiệt độ mới là:",
         "options": [
           "$-9^\\circ\\text{C}$",
+          "$5^\\circ\\text{C}$",
           "$-5^\\circ\\text{C}$",
-          "$-17^\\circ\\text{C}$",
-          "$5^\\circ\\text{C}$"
+          "$-17^\\circ\\text{C}$"
         ],
         "correct": 0
       }
@@ -1307,8 +1307,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$b < 0$",
           "$b > 0$",
-          "$b = 0$",
-          "$a > 0$"
+          "$a > 0$",
+          "$b = 0$"
         ],
         "correct": 0
       },
@@ -1317,36 +1317,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x + 2| + 10$:",
         "options": [
-          "$10$",
-          "$2$",
           "$0$",
+          "$2$",
+          "$10$",
           "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tính tổng $S = 1 - 4 + 7 - 10 + 13 - 16 + \\dots + 97 - 100$:",
         "options": [
+          "$-48$",
           "$-51$",
-          "$-50$",
           "$51$",
-          "$-48$"
+          "$-50$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Tìm số nguyên $x$ thỏa mãn $|x + 3| + |y - 2| = 0$:",
         "options": [
+          "Vô số cặp",
           "$x = -3, y = 2$",
-          "$x = 3, y = -2$",
           "$x = 0, y = 0$",
-          "Vô số cặp"
+          "$x = 3, y = -2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -1355,8 +1355,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$12$",
           "$24$",
-          "$6$",
-          "$14$"
+          "$14$",
+          "$6$"
         ],
         "correct": 0
       },
@@ -1365,72 +1365,72 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị lớn nhất của biểu thức $M = 20 - |x - 4|$:",
         "options": [
+          "$24$",
           "$20$",
           "$16$",
-          "$24$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $|x| + |y| = 3$?",
         "options": [
-          "$12$",
-          "$8$",
+          "$6$",
           "$16$",
-          "$6$"
+          "$12$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho dãy số: $x_1, x_2, \\dots, x_{2025}$ sao cho tổng của 3 số bất kì liên tiếp luôn bằng $4$. Biết $x_1 = 5, x_2 = -3$. Giá trị của $x_{2025}$ là:",
         "options": [
-          "$2$",
+          "$4$",
           "$5$",
           "$-3$",
-          "$4$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $a$ và $b$ là hai số nguyên khác 0 thỏa mãn $a + b = 0$. Giá trị của biểu thức $\\frac{a}{|b|} + \\frac{b}{|a|}$ bằng:",
         "options": [
-          "$-2$",
           "$0$",
           "$2$",
-          "$1$"
+          "$1$",
+          "$-2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tính tổng $S = 100 - 99 + 98 - 97 + \\dots + 2 - 1$:",
         "options": [
-          "$50$",
+          "$25$",
           "$100$",
-          "$-50$",
-          "$25$"
+          "$50$",
+          "$-50$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $x, y \\in \\mathbb{Z}$ thỏa mãn $|x - y| = 1$. Giá trị của biểu thức $(x - y)^2$ bằng:",
         "options": [
-          "$1$",
-          "$-1$",
           "$0$",
-          "$2$"
+          "$-1$",
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1550,84 +1550,84 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi bỏ dấu ngoặc có dấu \"+\" đằng trước, ta làm như sau:",
         "options": [
-          "Giữ nguyên dấu của các số hạng trong ngoặc",
-          "Đổi dấu tất cả các số hạng trong ngoặc",
+          "Đổi dấu số hạng cuối cùng",
           "Đổi dấu số hạng đầu tiên",
-          "Đổi dấu số hạng cuối cùng"
+          "Giữ nguyên dấu của các số hạng trong ngoặc",
+          "Đổi dấu tất cả các số hạng trong ngoặc"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Khi bỏ dấu ngoặc có dấu \"-\" đằng trước, ta làm như sau:",
         "options": [
+          "Chỉ đổi dấu số hạng đầu tiên",
           "Đổi dấu tất cả các số hạng trong ngoặc",
           "Giữ nguyên dấu của các số hạng trong ngoặc",
-          "Chỉ đổi dấu số hạng mang dấu trừ",
-          "Chỉ đổi dấu số hạng đầu tiên"
+          "Chỉ đổi dấu số hạng mang dấu trừ"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Bỏ dấu ngoặc biểu thức $-(a - b + c)$ ta được:",
         "options": [
+          "$a - b + c$",
           "$-a + b - c$",
           "$-a - b + c$",
-          "$-a - b - c$",
-          "$a - b + c$"
+          "$-a - b - c$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Bỏ dấu ngoặc biểu thức $+(x - y + z)$ ta được:",
         "options": [
-          "$x - y + z$",
-          "$-x + y - z$",
           "$x + y + z$",
-          "$-x - y + z$"
+          "$-x - y + z$",
+          "$-x + y - z$",
+          "$x - y + z$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Biểu thức $a - (b + c)$ bằng biểu thức nào sau đây?",
         "options": [
-          "$a - b - c$",
-          "$a - b + c$",
           "$a + b - c$",
-          "$a + b + c$"
+          "$a - b + c$",
+          "$a + b + c$",
+          "$a - b - c$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Đặt dấu ngoặc có dấu \"-\" đằng trước cho biểu thức $-x + y - z$ ta được:",
         "options": [
-          "$-(x - y + z)$",
-          "$-(x + y - z)$",
           "$-(-x - y + z)$",
-          "$-(x + y + z)$"
+          "$-(x - y + z)$",
+          "$-(x + y + z)$",
+          "$-(x + y - z)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tính hợp lí: $A = 215 - (115 + 40)$:",
         "options": [
-          "$60$",
-          "$140$",
           "$160$",
-          "$50$"
+          "$50$",
+          "$60$",
+          "$140$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -1635,9 +1635,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Rút gọn biểu thức $M = (a + b) - (a - b)$:",
         "options": [
           "$2b$",
-          "$2a$",
+          "$a + 2b$",
           "$0$",
-          "$a + 2b$"
+          "$2a$"
         ],
         "correct": 0
       },
@@ -1646,12 +1646,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $(-35) - (20 - 35)$ là:",
         "options": [
-          "$-20$",
-          "$20$",
           "$-50$",
-          "$0$"
+          "$20$",
+          "$0$",
+          "$-20$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -1659,8 +1659,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tính $B = (123 - 45) - (123 + 55)$:",
         "options": [
           "$-100$",
-          "$100$",
           "$10$",
+          "$100$",
           "$-10$"
         ],
         "correct": 0
@@ -1671,9 +1671,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm $x$ biết $x - (12 - 5) = -10$:",
         "options": [
           "$x = -3$",
+          "$x = 17$",
           "$x = 3$",
-          "$x = -17$",
-          "$x = 17$"
+          "$x = -17$"
         ],
         "correct": 0
       },
@@ -1682,12 +1682,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = -(15 - 28) - 28$ bằng:",
         "options": [
-          "$-15$",
           "$15$",
-          "$41$",
-          "$-41$"
+          "$-41$",
+          "$-15$",
+          "$41$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1807,24 +1807,24 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính giá trị của $P = (12 - 34 + 56) - (56 + 12 - 34)$:",
         "options": [
-          "$0$",
-          "$24$",
+          "$112$",
           "$-68$",
-          "$112$"
+          "$24$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $M = a - (b - c)$ và $N = (a - b) + c$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$M = N$",
           "$M = -N$",
-          "$M = N - 2c$",
-          "$M = N + 2b$"
+          "$M = N + 2b$",
+          "$M = N$",
+          "$M = N - 2c$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1833,8 +1833,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$0$",
           "$-2a + 2b + 2c$",
-          "$2b + 2c$",
-          "$-2a$"
+          "$-2a$",
+          "$2b + 2c$"
         ],
         "correct": 0
       },
@@ -1843,36 +1843,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính $S = (2024 - 15) - (2024 - 35)$:",
         "options": [
-          "$20$",
+          "$-50$",
           "$-20$",
           "$50$",
-          "$-50$"
+          "$20$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $(x - 4) - (12 - 4) = -20$:",
         "options": [
-          "$x = -8$",
           "$x = 8$",
+          "$x = 12$",
           "$x = -12$",
-          "$x = 12$"
+          "$x = -8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho $a - b = 5$. Giá trị của biểu thức $P = (a + c) - (b + c)$ là:",
         "options": [
+          "$0$",
           "$5$",
           "$5 + 2c$",
-          "$-5$",
-          "$0$"
+          "$-5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1881,8 +1881,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$-50$",
           "$50$",
-          "$-100$",
-          "$0$"
+          "$0$",
+          "$-100$"
         ],
         "correct": 0
       },
@@ -1903,48 +1903,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $x - y = -3$. Giá trị của $Q = (x + 2) - (y - 5)$ là:",
         "options": [
-          "$4$",
-          "$-4$",
           "$-6$",
+          "$-4$",
+          "$4$",
           "$10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Tính $M = [12 - (-15 + 4)] - (12 + 15 - 4)$:",
         "options": [
+          "$-22$",
           "$0$",
           "$22$",
-          "$-22$",
           "$30$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Tìm số nguyên $x$ biết $10 - [x - (5 - 2)] = 15$:",
         "options": [
-          "$-2$",
           "$2$",
           "$8$",
+          "$-2$",
           "$-8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Biểu thức $-(x - y - z) + (x - y - z)$ rút gọn được:",
         "options": [
-          "$0$",
           "$-2x + 2y + 2z$",
+          "$0$",
           "$2y + 2z$",
           "$-2x$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2065,9 +2065,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Cho $S_n = (1 - 2) + (3 - 4) + \\dots + [(2n - 1) - 2n]$. Biểu thức rút gọn của $S_n$ theo $n$ là:",
         "options": [
           "$-n$",
-          "$n$",
+          "$0$",
           "$-2n$",
-          "$0$"
+          "$n$"
         ],
         "correct": 0
       },
@@ -2076,36 +2076,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $A = -[-(-a + b) - (c - d)] - (a + d)$:",
         "options": [
-          "$-b + c$",
-          "$b - c$",
           "$2a - b + c$",
-          "$-2a + b - c$"
+          "$-b + c$",
+          "$-2a + b - c$",
+          "$b - c$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Cho $a + b - c = 20$. Giá trị của biểu thức $M = (a + 5) - (c - 8) + (b - 3)$ là:",
         "options": [
-          "$30$",
           "$10$",
-          "$25$",
-          "$14$"
+          "$14$",
+          "$30$",
+          "$25$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết $x - \\{x - [x - (x - 1)]\\} = 0$:",
         "options": [
-          "$x = 1$",
           "$x = 0$",
+          "$x = 1$",
           "$x = -1$",
           "Vô số $x$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -2113,8 +2113,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Cho các số nguyên $a, b, c, d$ thỏa mãn $a + b = c + d$. Khi đó $(a - c) - (d - b)$ bằng:",
         "options": [
           "$0$",
-          "$2a$",
           "$2d$",
+          "$2a$",
           "$1$"
         ],
         "correct": 0
@@ -2124,24 +2124,24 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $A = 1 - 2 + 3 - 4 + \\dots + 2023 - 2024$. Giá trị của $2024 - A$ bằng:",
         "options": [
-          "$3036$",
           "$1012$",
+          "$-1012$",
           "$2024$",
-          "$-1012$"
+          "$3036$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Biết $(x - y + z) - (x + y - z) = 10$. Hiệu $z - y$ bằng:",
         "options": [
-          "$5$",
           "$10$",
-          "$-5$",
-          "$-10$"
+          "$-10$",
+          "$5$",
+          "$-5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -2149,9 +2149,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm giá trị nhỏ nhất của $A = |x - 1| - (x - 1)$ khi $x \\leq 1$:",
         "options": [
           "$2(1 - x)$",
-          "$0$",
           "$1$",
-          "$-2$"
+          "$-2$",
+          "$0$"
         ],
         "correct": 0
       },
@@ -2160,48 +2160,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $S = a_1 - a_2 + a_3 - a_4 + \\dots + a_{99} - a_{100}$. Nếu đổi dấu tất cả các số hạng của $S$ thì tổng mới bằng:",
         "options": [
-          "$-S$",
+          "$2S$",
           "$S$",
           "$0$",
-          "$2S$"
+          "$-S$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho 4 số nguyên $a, b, c, d$. Nếu $(a - b) + (c - d) = (a + c) - (b + d)$ thì đẳng thức này:",
         "options": [
-          "Luôn đúng với mọi $a, b, c, d$",
           "Chỉ đúng khi $a = b = c = d$",
-          "Chỉ đúng khi $a = b$",
-          "Chỉ đúng khi $c = d$"
+          "Chỉ đúng khi $c = d$",
+          "Luôn đúng với mọi $a, b, c, d$",
+          "Chỉ đúng khi $a = b$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết: $(x - 1) - (x - 2) + (x - 3) - (x - 4) + \\dots + (x - 99) - (x - 100) = x$:",
         "options": [
-          "$x = 50$",
           "$x = -50$",
           "$x = 100$",
-          "$x = 0$"
+          "$x = 0$",
+          "$x = 50$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho biểu thức $P = -(a - b - c) - [(-a + b) - (c - d)] - d$. Giá trị của $P$ là:",
         "options": [
+          "$2b$",
           "$0$",
           "$2a$",
-          "$2b$",
           "$2c$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2322,9 +2322,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tích của hai số nguyên cùng dấu luôn là:",
         "options": [
           "Một số nguyên dương",
-          "Một số nguyên âm",
           "Số 0",
-          "Tùy thuộc vào độ lớn của hai số"
+          "Tùy thuộc vào độ lớn của hai số",
+          "Một số nguyên âm"
         ],
         "correct": 0
       },
@@ -2333,36 +2333,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Tích của hai số nguyên khác dấu luôn là:",
         "options": [
-          "Một số nguyên âm",
           "Một số nguyên dương",
-          "Số 0",
-          "Không xác định"
+          "Một số nguyên âm",
+          "Không xác định",
+          "Số 0"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Kết quả của phép nhân $(-4) \\cdot (-5)$ là:",
         "options": [
-          "$20$",
           "$-20$",
-          "$-9$",
-          "$9$"
+          "$9$",
+          "$20$",
+          "$-9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kết quả của phép nhân $(-6) \\cdot 7$ là:",
         "options": [
-          "$-42$",
+          "$13$",
           "$42$",
           "$-13$",
-          "$13$"
+          "$-42$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -2370,9 +2370,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tích của bất kì số nguyên $a$ nào với số 0 đều bằng:",
         "options": [
           "$0$",
+          "$1$",
           "$a$",
-          "$-a$",
-          "$1$"
+          "$-a$"
         ],
         "correct": 0
       },
@@ -2381,72 +2381,72 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi nhân một số nguyên $a$ với $-1$, ta được:",
         "options": [
+          "$-1$",
           "Số đối của $a$ (tức là $-a$)",
           "$a$",
-          "$1$",
-          "$-1$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tính: $(-2) \\cdot (-3) \\cdot (-4)$:",
         "options": [
-          "$-24$",
-          "$24$",
           "$-9$",
-          "$9$"
+          "$-24$",
+          "$9$",
+          "$24$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tích của ba số nguyên âm và hai số nguyên dương là:",
         "options": [
-          "Một số nguyên âm",
-          "Một số nguyên dương",
           "Số 0",
+          "Một số nguyên dương",
+          "Một số nguyên âm",
           "Không xác định"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $(-5)^2$ là:",
         "options": [
-          "$25$",
           "$-25$",
           "$-10$",
+          "$25$",
           "$10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $(-2)^3$ là:",
         "options": [
-          "$-8$",
-          "$8$",
+          "$6$",
           "$-6$",
-          "$6$"
+          "$8$",
+          "$-8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tính nhanh: $(-25) \\cdot 12 \\cdot (-4)$:",
         "options": [
-          "$1200$",
           "$-1200$",
+          "$-300$",
           "$300$",
-          "$-300$"
+          "$1200$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -2578,72 +2578,72 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tích của 2025 số nguyên âm là:",
         "options": [
-          "Một số nguyên âm",
-          "Một số nguyên dương",
+          "Không xác định",
           "Số 0",
-          "Không xác định"
+          "Một số nguyên dương",
+          "Một số nguyên âm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tính $P = 125 \\cdot (-8) \\cdot (-4) \\cdot 25$:",
         "options": [
+          "$-10000$",
           "$100000$",
           "$-100000$",
-          "$10000$",
-          "$-10000$"
+          "$10000$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $a \\cdot b > 0$ và $a + b < 0$. Khi đó:",
         "options": [
-          "Cả $a$ và $b$ đều là số nguyên âm",
           "Cả $a$ và $b$ đều là số nguyên dương",
+          "$a$ dương và $b$ âm",
           "$a$ âm và $b$ dương",
-          "$a$ dương và $b$ âm"
+          "Cả $a$ và $b$ đều là số nguyên âm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $A = (-2) \\cdot (-3)^2 \\cdot (-5)$ là:",
         "options": [
-          "$90$",
-          "$-90$",
           "$180$",
-          "$-180$"
+          "$-180$",
+          "$90$",
+          "$-90$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $(x + 2)(x - 3) = 0$:",
         "options": [
-          "$x = -2$ hoặc $x = 3$",
+          "$x = 3$",
           "$x = 2$ hoặc $x = -3$",
           "$x = -2$",
-          "$x = 3$"
+          "$x = -2$ hoặc $x = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tính nhanh: $B = 29 \\cdot (-13) + 27 \\cdot (-13) + (-13) \\cdot 44$:",
         "options": [
-          "$-1300$",
+          "$2600$",
           "$1300$",
-          "$-130$",
-          "$2600$"
+          "$-1300$",
+          "$-130$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -2663,8 +2663,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm số nguyên $x$ sao cho $(x - 1)^3 = -27$:",
         "options": [
           "$x = -2$",
-          "$x = 4$",
           "$x = -4$",
+          "$x = 4$",
           "$x = 2$"
         ],
         "correct": 0
@@ -2686,36 +2686,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Biết $a \\cdot b = -24$ và $a < b < 0$. Điều này có thể xảy ra không?",
         "options": [
-          "Không thể xảy ra vì tích hai số âm luôn dương",
           "Có thể xảy ra",
+          "Không thể xảy ra vì tích hai số âm luôn dương",
           "Chỉ xảy ra khi $a = -24$",
           "Chỉ xảy ra khi $b = -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Cho biểu thức $M = a(b - c) - b(a - c)$. Rút gọn $M$ ta được:",
         "options": [
-          "$c(b - a)$",
-          "$c(a - b)$",
+          "$0$",
           "$ab - c$",
-          "$0$"
+          "$c(b - a)$",
+          "$c(a - b)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y = 5$?",
         "options": [
+          "Vô số",
           "$4$ cặp",
-          "$2$ cặp",
           "$1$ cặp",
-          "Vô số"
+          "$2$ cặp"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2835,48 +2835,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a < b < 0$. So sánh $a^2$ và $b^2$:",
         "options": [
-          "$a^2 > b^2$",
-          "$a^2 < b^2$",
           "$a^2 = b^2$",
-          "Không so sánh được"
+          "$a^2 > b^2$",
+          "Không so sánh được",
+          "$a^2 < b^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $x, y \\in \\mathbb{Z}$ thỏa mãn $x \\cdot y < 0$ và $|x| = y$. Khi đó:",
         "options": [
-          "$x < 0$ và $y > 0$",
-          "$x > 0$ và $y < 0$",
           "Cả $x, y$ đều âm",
-          "Cả $x, y$ đều dương"
+          "$x > 0$ và $y < 0$",
+          "Cả $x, y$ đều dương",
+          "$x < 0$ và $y > 0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn $(x - 1)(y + 2) = 5$:",
         "options": [
-          "$4$ cặp",
           "$2$ cặp",
+          "$6$ cặp",
           "$1$ cặp",
-          "$6$ cặp"
+          "$4$ cặp"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Cho $P = (-1) \\cdot (-1)^2 \\cdot (-1)^3 \\dots (-1)^{2024}$. Giá trị của $P$ là:",
         "options": [
-          "$1$",
+          "$2024$",
           "$-1$",
-          "$0$",
-          "$2024$"
+          "$1$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -2884,9 +2884,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm số nguyên $x$ sao cho $(x^2 - 1)(x^2 - 4) < 0$:",
         "options": [
           "$x \\in \\{-1; 1\\}$",
-          "$x \\in \\{-2; 2\\}$",
           "Không có số nguyên $x$ nào",
-          "Vô số $x$"
+          "Vô số $x$",
+          "$x \\in \\{-2; 2\\}$"
         ],
         "correct": 0
       },
@@ -2895,12 +2895,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn $x \\cdot y + 2x - 3y = 11$?",
         "options": [
-          "$4$ cặp",
-          "$2$ cặp",
           "$6$ cặp",
+          "$2$ cặp",
+          "$4$ cặp",
           "$8$ cặp"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -2908,9 +2908,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Cho $a, b, c \\in \\mathbb{Z}$ thỏa mãn $ab - ac + bc - c^2 = -1$. Khẳng định nào sau đây đúng?",
         "options": [
           "$a + c$ và $b - c$ là hai số đối nhau",
-          "$a = b = c$",
+          "$a - b = c$",
           "$a + b = c$",
-          "$a - b = c$"
+          "$a = b = c$"
         ],
         "correct": 0
       },
@@ -2919,48 +2919,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = (x - 2)^2 - 15$ với $x \\in \\mathbb{Z}$:",
         "options": [
-          "$-15$",
-          "$0$",
+          "$-19$",
           "$-11$",
-          "$-19$"
+          "$0$",
+          "$-15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $x$ để $(x - 3)(x + 5) < 0$:",
         "options": [
-          "$-5 < x < 3$",
-          "$x > 3$",
           "$x < -5$",
-          "$x \\leq -5$ hoặc $x \\geq 3$"
+          "$x \\leq -5$ hoặc $x \\geq 3$",
+          "$-5 < x < 3$",
+          "$x > 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho 2025 số nguyên $a_1, a_2, \\dots, a_{2025}$ thỏa mãn tích của 4 số bất kì luôn là một số dương. Khẳng định nào đúng?",
         "options": [
-          "Cả 2025 số đều là số nguyên dương hoặc cả 2025 số đều là số nguyên âm",
-          "Có đúng 1 số âm",
           "Có đúng 2 số âm",
-          "Có đúng 3 số âm"
+          "Cả 2025 số đều là số nguyên dương hoặc cả 2025 số đều là số nguyên âm",
+          "Có đúng 3 số âm",
+          "Có đúng 1 số âm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tích của tất cả các ước nguyên của số $10$ bằng:",
         "options": [
+          "$-1000$",
           "$100$",
-          "$-100$",
           "$1000$",
-          "$-1000$"
+          "$-100$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -2968,9 +2968,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm giá trị lớn nhất của biểu thức $B = 12 - (x + 1)^2$:",
         "options": [
           "$12$",
-          "$11$",
           "$13$",
-          "$0$"
+          "$0$",
+          "$11$"
         ],
         "correct": 0
       }
@@ -3092,12 +3092,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $(-18) : 3$ là:",
         "options": [
-          "$-6$",
-          "$6$",
           "$-15$",
+          "$6$",
+          "$-6$",
           "$21$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -3105,9 +3105,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Kết quả của phép chia $(-24) : (-4)$ là:",
         "options": [
           "$6$",
-          "$-6$",
+          "$20$",
           "$-28$",
-          "$20$"
+          "$-6$"
         ],
         "correct": 0
       },
@@ -3116,48 +3116,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Với số nguyên $a \\neq 0$, kết quả của phép chia $0 : a$ bằng:",
         "options": [
-          "$0$",
+          "$-a$",
           "$1$",
           "$a$",
-          "$-a$"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tập hợp tất cả các ước nguyên của số $4$ là:",
         "options": [
+          "$\\{-4; -1; 1; 4\\}$",
           "$\\{-4; -2; -1; 1; 2; 4\\}$",
           "$\\{1; 2; 4\\}$",
-          "$\\{-4; -1; 1; 4\\}$",
           "$\\{-2; -1; 0; 1; 2\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Số nào sau đây là một bội của $(-5)$?",
         "options": [
-          "$-15$",
           "$12$",
           "$-18$",
-          "$22$"
+          "$22$",
+          "$-15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Trong các khẳng định sau, khẳng định nào đúng?",
         "options": [
-          "Số $1$ và $-1$ là ước của mọi số nguyên",
-          "Số $0$ là ước của mọi số nguyên",
           "Số nguyên dương luôn chia hết cho số nguyên âm",
-          "Số $-1$ không phải là ước của số nào"
+          "Số $-1$ không phải là ước của số nào",
+          "Số $1$ và $-1$ là ước của mọi số nguyên",
+          "Số $0$ là ước của mọi số nguyên"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -3165,9 +3165,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm số nguyên $x$ thỏa mãn: $(-3) \\cdot x = 21$.",
         "options": [
           "$x = -7$",
-          "$x = 7$",
+          "$x = -24$",
           "$x = 18$",
-          "$x = -24$"
+          "$x = 7$"
         ],
         "correct": 0
       },
@@ -3176,12 +3176,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Thương của hai số nguyên khác dấu luôn mang dấu:",
         "options": [
-          "Dấu âm $(-)$",
-          "Dấu dương $(+)$",
           "Không mang dấu",
-          "Tùy thuộc độ lớn của hai số"
+          "Tùy thuộc độ lớn của hai số",
+          "Dấu dương $(+)$",
+          "Dấu âm $(-)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -3189,9 +3189,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Có bao nhiêu số nguyên $x$ là ước của số $6$?",
         "options": [
           "$8$",
-          "$4$",
+          "$2$",
           "$6$",
-          "$2$"
+          "$4$"
         ],
         "correct": 0
       },
@@ -3200,36 +3200,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Nếu số nguyên $a$ chia hết cho $b$ ($b \\neq 0$) thì:",
         "options": [
-          "$-a$ cũng chia hết cho $b$",
-          "$a$ không chia hết cho $-b$",
           "$b$ luôn chia hết cho $a$",
+          "$a$ không chia hết cho $-b$",
+          "$-a$ cũng chia hết cho $b$",
           "$a + b = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $[(-36) : 4] : (-3)$ là:",
         "options": [
-          "$3$",
-          "$-3$",
           "$-9$",
-          "$9$"
+          "$3$",
+          "$9$",
+          "$-3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Số nào sau đây KHÔNG PHẢI là ước của $(-12)$?",
         "options": [
+          "$-6$",
           "$5$",
-          "$-3$",
           "$4$",
-          "$-6$"
+          "$-3$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3349,24 +3349,24 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số nguyên $x$ thỏa mãn $(-72) : x = -8$ là:",
         "options": [
-          "$9$",
-          "$-9$",
           "$8$",
+          "$-9$",
+          "$9$",
           "$-8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $15$ chia hết cho $(x + 1)$?",
         "options": [
-          "$8$",
           "$4$",
-          "$6$",
-          "$2$"
+          "$8$",
+          "$2$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -3374,9 +3374,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tập hợp các số nguyên $x$ vừa là ước của $20$, vừa là bội của $-4$ là:",
         "options": [
           "$\\{\\pm 4; \\pm 20\\}$",
+          "$\\{\\pm 1; \\pm 2; \\pm 4\\}$",
           "$\\{4; 20\\}$",
-          "$\\{-20; -4; 0; 4; 20\\}$",
-          "$\\{\\pm 1; \\pm 2; \\pm 4\\}$"
+          "$\\{-20; -4; 0; 4; 20\\}$"
         ],
         "correct": 0
       },
@@ -3385,60 +3385,60 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $[(-100) : (-5)] : [(-8) + 6]$ là:",
         "options": [
-          "$-10$",
           "$10$",
-          "$-20$",
-          "$20$"
+          "$-10$",
+          "$20$",
+          "$-20$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Số tự nhiên $a$ lớn nhất thỏa mãn $(-36)$ chia hết cho $a$ và $48$ chia hết cho $a$ là:",
         "options": [
-          "$12$",
           "$6$",
           "$24$",
-          "$4$"
+          "$4$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Nếu số nguyên $x$ chia hết cho $8$ và $x$ chia hết cho $(-12)$ thì $x$ là bội của:",
         "options": [
-          "$24$",
-          "$4$",
           "$48$",
-          "$96$"
+          "$96$",
+          "$24$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Tổng của tất cả các ước nguyên của số $25$ bằng:",
         "options": [
-          "$0$",
-          "$31$",
           "$25$",
-          "$1$"
+          "$1$",
+          "$31$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Để $(n + 5)$ chia hết cho $(n + 1)$ với $n$ là số tự nhiên, giá trị lớn nhất của $n$ là:",
         "options": [
-          "$3$",
           "$4$",
+          "$1$",
           "$2$",
-          "$1$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -3446,8 +3446,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Cho hai số nguyên $a, b \\neq 0$. Biết $a$ chia hết cho $b$ và $b$ chia hết cho $a$. Khi đó:",
         "options": [
           "$a = b$ hoặc $a = -b$",
-          "$a = b$",
           "$a = -b$",
+          "$a = b$",
           "$a > b$"
         ],
         "correct": 0
@@ -3457,24 +3457,24 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm số nguyên $x$ biết: $3x - (-5) = -16$.",
         "options": [
+          "$x = 3$",
           "$x = -7$",
           "$x = 7$",
-          "$x = -3$",
-          "$x = 3$"
+          "$x = -3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Số các cặp số nguyên $(x; y)$ thỏa mãn $(x - 1)(y + 2) = 5$ là:",
         "options": [
-          "$4$",
           "$2$",
           "$8$",
+          "$4$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -3482,8 +3482,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Nhiệt độ phòng lạnh giảm đều đặn mỗi giờ. Sau 6 giờ nhiệt độ giảm tổng cộng 18°C. Trung bình mỗi giờ nhiệt độ thay đổi bao nhiêu độ C?",
         "options": [
           "$-3^\\circ\\text{C}$",
-          "$3^\\circ\\text{C}$",
           "$-2^\\circ\\text{C}$",
+          "$3^\\circ\\text{C}$",
           "$-4^\\circ\\text{C}$"
         ],
         "correct": 0
@@ -3607,9 +3607,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $x \\cdot y = -12$ và $x < y$?",
         "options": [
           "$6$",
-          "$4$",
           "$8$",
-          "$3$"
+          "$3$",
+          "$4$"
         ],
         "correct": 0
       },
@@ -3630,96 +3630,96 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $a, b$ là các số nguyên sao cho $(3a + 2b)$ chia hết cho $17$. Khi đó $(10a + b)$ chia hết cho:",
         "options": [
-          "$17$",
           "$34$",
-          "$3$",
-          "$7$"
+          "$17$",
+          "$7$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm giá trị nguyên của $x$ để phân số $(2x + 3) / (x - 2)$ đạt giá trị nguyên nhỏ nhất:",
         "options": [
-          "$x = 1$",
           "$x = 3$",
-          "$x = -5$",
-          "$x = 9$"
+          "$x = 1$",
+          "$x = 9$",
+          "$x = -5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng cao",
         "question": "Số dư khi chia tổng $S = 2 + 2^2 + 2^3 + \\dots + 2^{60}$ cho $7$ là:",
         "options": [
-          "$0$",
-          "$1$",
           "$2$",
-          "$3$"
+          "$1$",
+          "$3$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Tích của hai số nguyên chẵn liên tiếp luôn chia hết cho:",
         "options": [
-          "$8$",
-          "$6$",
+          "$16$",
           "$12$",
-          "$16$"
+          "$6$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $x$ để $(x + 1)(x - 3) < 0$:",
         "options": [
-          "$x \\in \\{0; 1; 2\\}$",
           "$x \\in \\{-1; 0; 1; 2; 3\\}$",
+          "$x \\in \\{-2; -1; 0\\}$",
           "$x > 3$ hoặc $x < -1$",
-          "$x \\in \\{-2; -1; 0\\}$"
+          "$x \\in \\{0; 1; 2\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho $A = 1 - 3 + 3^2 - 3^3 + \\dots + 3^{100}$. Khi đó $4A - 1$ chia hết cho:",
         "options": [
-          "$3^{101}$",
+          "$27$",
           "$3^{100}$",
-          "$9$",
-          "$27$"
+          "$3^{101}$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu số nguyên $n$ để $(n^2 - 2)$ chia hết cho $(n - 1)$?",
         "options": [
-          "$2$",
+          "$0$",
           "$4$",
-          "$6$",
-          "$0$"
+          "$2$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số nghiệm nguyên $(x; y)$ của phương trình $xy + 2x - 3y = 11$ là:",
         "options": [
-          "$4$",
-          "$2$",
           "$8$",
-          "$6$"
+          "$6$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -3727,9 +3727,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Biểu thức $n^3 - n$ luôn chia hết cho số nào sau đây với mọi số nguyên $n$?",
         "options": [
           "$6$",
-          "$8$",
           "$9$",
-          "$12$"
+          "$12$",
+          "$8$"
         ],
         "correct": 0
       },
@@ -3738,12 +3738,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $B = 5 + 5^2 + 5^3 + \\dots + 5^{96}$. Chữ số tận cùng của biểu thức $B$ là:",
         "options": [
+          "$8$",
           "$0$",
           "$5$",
-          "$2$",
-          "$8$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3865,8 +3865,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "Các số nguyên âm, số 0 và các số nguyên dương",
           "Số tự nhiên và phân số",
-          "Chỉ gồm số nguyên âm và số nguyên dương",
-          "Số 0 và các số nguyên âm"
+          "Số 0 và các số nguyên âm",
+          "Chỉ gồm số nguyên âm và số nguyên dương"
         ],
         "correct": 0
       },
@@ -3875,96 +3875,96 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số đối của số $-15$ là:",
         "options": [
-          "$15$",
           "$-15$",
+          "$1/15$",
           "$0$",
-          "$1/15$"
+          "$15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Sắp xếp các số sau theo thứ tự tăng dần: $-7; 0; 5; -2$:",
         "options": [
-          "$-7 < -2 < 0 < 5$",
-          "$-2 < -7 < 0 < 5$",
+          "$-7 < 0 < -2 < 5$",
           "$5 < 0 < -2 < -7$",
-          "$-7 < 0 < -2 < 5$"
+          "$-7 < -2 < 0 < 5$",
+          "$-2 < -7 < 0 < 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $(-14) + (-6)$ là:",
         "options": [
+          "$-8$",
           "$-20$",
           "$20$",
-          "$-8$",
           "$8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $15 - 23$ là:",
         "options": [
-          "$-8$",
           "$8$",
           "$-38$",
-          "$38$"
+          "$38$",
+          "$-8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tích $(-4) \\cdot (-7)$ bằng:",
         "options": [
-          "$28$",
-          "$-28$",
           "$11$",
-          "$-11$"
+          "$-11$",
+          "$-28$",
+          "$28$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Thương $(-45) : 9$ bằng:",
         "options": [
-          "$-5$",
           "$5$",
           "$-6$",
+          "$-5$",
           "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Quy tắc phá ngoặc nào sau đây là đúng?",
         "options": [
-          "$-(a - b + c) = -a + b - c$",
+          "$-(a - b + c) = -a - b - c$",
           "$-(a - b + c) = -a - b + c$",
-          "$+(a - b + c) = a + b + c$",
-          "$-(a - b + c) = -a - b - c$"
+          "$-(a - b + c) = -a + b - c$",
+          "$+(a - b + c) = a + b + c$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $x + 8 = 3$.",
         "options": [
+          "$x = -11$",
           "$x = -5$",
-          "$x = 5$",
           "$x = 11$",
-          "$x = -11$"
+          "$x = 5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -3972,9 +3972,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tập hợp tất cả các ước của số $6$ trong $\\mathbb{Z}$ là:",
         "options": [
           "$\\{-6; -3; -2; -1; 1; 2; 3; 6\\}$",
+          "$\\{0; 1; 2; 3; 6\\}$",
           "$\\{1; 2; 3; 6\\}$",
-          "$\\{\\pm 1; \\pm 2; \\pm 3\\}$",
-          "$\\{0; 1; 2; 3; 6\\}$"
+          "$\\{\\pm 1; \\pm 2; \\pm 3\\}$"
         ],
         "correct": 0
       },
@@ -3984,8 +3984,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Nhiệt độ buổi sáng là $-3^\\circ\\text{C}$, đến trưa tăng thêm $5^\\circ\\text{C}$. Nhiệt độ buổi trưa là:",
         "options": [
           "$2^\\circ\\text{C}$",
-          "$-8^\\circ\\text{C}$",
           "$8^\\circ\\text{C}$",
+          "$-8^\\circ\\text{C}$",
           "$-2^\\circ\\text{C}$"
         ],
         "correct": 0
@@ -3995,12 +3995,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $(-2)^3$ bằng:",
         "options": [
-          "$-8$",
           "$8$",
-          "$-6$",
-          "$6$"
+          "$-8$",
+          "$6$",
+          "$-6$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4120,12 +4120,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $(-3)^2 - (-2)^3$ là:",
         "options": [
-          "$17$",
-          "$1$",
           "$-17$",
-          "$-1$"
+          "$17$",
+          "$-1$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -4134,8 +4134,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$-23$",
           "$23$",
-          "$-7$",
-          "$7$"
+          "$7$",
+          "$-7$"
         ],
         "correct": 0
       },
@@ -4144,48 +4144,48 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tổng tất cả các số nguyên $x$ thỏa mãn $-8 \\leq x < 7$ là:",
         "options": [
-          "$-15$",
-          "$-8$",
+          "$0$",
           "$-7$",
-          "$0$"
+          "$-8$",
+          "$-15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Tích của 5 số nguyên âm và 4 số nguyên dương là một số mang dấu:",
         "options": [
-          "Dấu âm $(-)$",
+          "Bằng 0",
           "Dấu dương $(+)$",
-          "Không xác định",
-          "Bằng 0"
+          "Dấu âm $(-)$",
+          "Không xác định"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $12$ chia hết cho $(2x - 1)$?",
         "options": [
-          "$4$",
-          "$6$",
+          "$12$",
           "$8$",
-          "$12$"
+          "$6$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $180 : [(-12) + 2 \\cdot (-3)]$ là:",
         "options": [
-          "$-10$",
+          "$15$",
           "$10$",
-          "$-15$",
-          "$15$"
+          "$-10$",
+          "$-15$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -4193,8 +4193,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Để tích $(x - 2)(x + 5) = 0$ thì $x$ nhận các giá trị là:",
         "options": [
           "$x = 2$ hoặc $x = -5$",
-          "$x = -2$ hoặc $x = 5$",
           "$x = 2$ hoặc $x = 5$",
+          "$x = -2$ hoặc $x = 5$",
           "$x = -2$ hoặc $x = -5$"
         ],
         "correct": 0
@@ -4204,36 +4204,36 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tập hợp các ước chung của $18$ và $-30$ trong $\\mathbb{Z}$ có bao nhiêu phần tử?",
         "options": [
+          "$12$",
           "$8$",
           "$4$",
-          "$6$",
-          "$12$"
+          "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $x$ biết: $(x - 4)^2 = 25$.",
         "options": [
-          "$x = 9$ hoặc $x = -1$",
-          "$x = 9$",
           "$x = -1$",
-          "$x = 1$ hoặc $x = -9$"
+          "$x = 9$",
+          "$x = 1$ hoặc $x = -9$",
+          "$x = 9$ hoặc $x = -1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Nhiệt độ lúc 6h sáng ở Sa Pa là $-2^\\circ\\text{C}$, trưa tăng $7^\\circ\\text{C}$, đêm giảm $9^\\circ\\text{C}$ so với buổi trưa. Nhiệt độ đêm là:",
         "options": [
-          "$-4^\\circ\\text{C}$",
           "$4^\\circ\\text{C}$",
-          "$0^\\circ\\text{C}$",
-          "$-14^\\circ\\text{C}$"
+          "$-14^\\circ\\text{C}$",
+          "$-4^\\circ\\text{C}$",
+          "$0^\\circ\\text{C}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -4242,8 +4242,8 @@ const CHAPTER3_TOAN6_EXAMS = {
         "options": [
           "$a - b < 0$",
           "$a - b > 0$",
-          "$a - b = 0$",
-          "Không xác định"
+          "Không xác định",
+          "$a - b = 0$"
         ],
         "correct": 0
       },
@@ -4252,12 +4252,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Rút gọn biểu thức $P = -(x - y + z) - (y - x - z)$ ta được:",
         "options": [
+          "$2x - 2y$",
           "$0$",
           "$-2z$",
-          "$2x - 2y$",
           "$-2y$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4377,12 +4377,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tổng $S = 1 - 2 + 3 - 4 + 5 - 6 + \\dots + 2023 - 2024$. Giá trị của $S$ là:",
         "options": [
-          "$-1012$",
-          "$1012$",
+          "$0$",
           "$-2024$",
-          "$0$"
+          "$1012$",
+          "$-1012$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -4401,12 +4401,12 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số nguyên $n$ để phân số $(3n + 2) / (n - 1)$ nhận giá trị nguyên?",
         "options": [
+          "$8$",
           "$4$",
-          "$2$",
           "$6$",
-          "$8$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -4414,9 +4414,9 @@ const CHAPTER3_TOAN6_EXAMS = {
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = (x - 3)^2 + |y + 2| - 7$ với $x, y \\in \\mathbb{Z}$:",
         "options": [
           "$-7$",
+          "$-5$",
           "$0$",
-          "$7$",
-          "$-5$"
+          "$7$"
         ],
         "correct": 0
       },
@@ -4425,96 +4425,96 @@ const CHAPTER3_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Nếu số nguyên $a$ chia $5$ dư $3$ và $b$ chia $5$ dư $2$ thì tích $a \\cdot b$ chia $5$ dư bao nhiêu?",
         "options": [
-          "$1$",
+          "$4$",
           "$0$",
-          "$6$",
-          "$4$"
+          "$1$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $x$ thỏa mãn: $2^x + 2^{x+3} = 144$.",
         "options": [
-          "$x = 4$",
           "$x = 3$",
           "$x = 5$",
+          "$x = 4$",
           "$x = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho các số nguyên $a, b, c$ thỏa mãn $a + b + c = 0$. Biểu thức $M = (a + b)(b + c)(c + a)$ bằng:",
         "options": [
-          "$-abc$",
-          "$abc$",
           "$0$",
-          "$a^3 + b^3 + c^3$"
+          "$-abc$",
+          "$a^3 + b^3 + c^3$",
+          "$abc$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Tìm các số nguyên $x$ để $(x^2 - 1)(x^2 - 10) < 0$:",
         "options": [
+          "Cả ba đáp án đều đúng",
           "$x \\in \\{\\pm 2; \\pm 3\\}$",
-          "$x \\in \\{-3; -2; 2; 3\\}$",
           "$1 < x^2 < 10$",
-          "Cả ba đáp án đều đúng"
+          "$x \\in \\{-3; -2; 2; 3\\}$"
         ],
-        "correct": 3
+        "correct": 0
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Số dư khi chia $2^{100}$ cho $3$ là:",
         "options": [
+          "Không xác định",
           "$1$",
           "$2$",
-          "$0$",
-          "Không xác định"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tích của 4 số nguyên liên tiếp cộng thêm 1 luôn là:",
         "options": [
-          "Một số chính phương lẻ",
-          "Một số chính phương chẵn",
           "Một số chia hết cho 5",
-          "Một số nguyên tố"
+          "Một số chính phương chẵn",
+          "Một số nguyên tố",
+          "Một số chính phương lẻ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $x \\in \\mathbb{Z}$ sao cho $(x^2 + 1)$ chia hết cho $(x - 1)$. Giá trị nguyên lớn nhất của $x$ là:",
         "options": [
-          "$3$",
           "$2$",
           "$1$",
-          "$0$"
+          "$0$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Biết tổng $1 + 2 + 3 + \\dots + n = 120$. Giá trị của số tự nhiên $n$ là:",
         "options": [
-          "$15$",
           "$16$",
           "$14$",
+          "$15$",
           "$20$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

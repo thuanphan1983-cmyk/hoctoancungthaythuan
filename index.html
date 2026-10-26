@@ -2270,6 +2270,50 @@ if (typeof window !== "undefined") {
     function normalizeExamData(rawExam) {
       if (!rawExam) return rawExam;
       const exam = { ...rawExam };
+
+      // 1. Xáo trộn ngẫu nhiên và phân bố đều đáp án đúng trong Phần I (Trắc nghiệm khách quan)
+      if (Array.isArray(exam.part1)) {
+        const p1Len = exam.part1.length;
+        const targets = Array.from({ length: p1Len }, (_, i) => i % 4);
+        for (let i = p1Len - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const t = targets[i];
+          targets[i] = targets[j];
+          targets[j] = t;
+        }
+
+        exam.part1 = exam.part1.map((q, qIdx) => {
+          if (!Array.isArray(q.options) || q.options.length !== 4) return { ...q };
+          const currCorrect = (typeof q.correct === "number" && q.correct >= 0 && q.correct < 4) ? q.correct : 0;
+          const correctText = q.options[currCorrect];
+          const wrongOpts = q.options.filter((_, idx) => idx !== currCorrect);
+          
+          for (let i = wrongOpts.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const t = wrongOpts[i];
+            wrongOpts[i] = wrongOpts[j];
+            wrongOpts[j] = t;
+          }
+
+          const targetCorrect = targets[qIdx];
+          const newOptions = new Array(4);
+          newOptions[targetCorrect] = correctText;
+          let wIdx = 0;
+          for (let i = 0; i < 4; i++) {
+            if (i !== targetCorrect) {
+              newOptions[i] = wrongOpts[wIdx++];
+            }
+          }
+
+          return {
+            ...q,
+            options: newOptions,
+            correct: targetCorrect
+          };
+        });
+      }
+
+      // 2. Chuẩn hóa Phần II (Đúng/Sai)
       if (Array.isArray(exam.part2)) {
         exam.part2 = exam.part2.map((q) => {
           const stem = q.stem || q.question || q.intro || q.content || q.title || "";
@@ -2290,6 +2334,7 @@ if (typeof window !== "undefined") {
           });
           return {
             ...q,
+            intro: q.intro || stem,
             stem,
             question: q.question || stem,
             statements

@@ -8,36 +8,36 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn $x$ và $y$?",
         "options": [
-          "$2x + 3y = 5$",
-          "$x^2 + y = 3$",
+          "$xy + x = 2$",
           "$2x - \\frac{3}{y} = 1$",
-          "$xy + x = 2$"
+          "$x^2 + y = 3$",
+          "$2x + 3y = 5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 3$?",
         "options": [
+          "$(2; -1)$",
           "$(2; 1)$",
           "$(1; 2)$",
-          "$(0; 3)$",
-          "$(2; -1)$"
+          "$(0; 3)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hệ hai phương trình bậc nhất hai ẩn có dạng tổng quát là:",
         "options": [
-          "$\\begin{cases} ax + by = c \\\\ a'x + b'y = c' \\end{cases}$ (với $a^2+b^2 \\neq 0, a'^2+b'^2 \\neq 0$)",
-          "$\\begin{cases} ax^2 + by = c \\\\ a'x + b'y = c' \\end{cases}$",
+          "$ax + by = c$",
           "$\\begin{cases} ax + by + cz = 0 \\\\ a'x + b'y + c'z = 0 \\end{cases}$",
-          "$ax + by = c$"
+          "$\\begin{cases} ax^2 + by = c \\\\ a'x + b'y = c' \\end{cases}$",
+          "$\\begin{cases} ax + by = c \\\\ a'x + b'y = c' \\end{cases}$ (với $a^2+b^2 \\neq 0, a'^2+b'^2 \\neq 0$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -56,36 +56,36 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cặp số $(x_0; y_0) = (1; -2)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
+          "$\\begin{cases} x + 2y = 3 \\\\ 2x - y = 0 \\end{cases}$",
           "$\\begin{cases} x + y = -1 \\\\ 2x - y = 4 \\end{cases}$",
-          "$\\begin{cases} x - y = -1 \\\\ 2x + y = 4 \\end{cases}$",
           "$\\begin{cases} 2x + y = 1 \\\\ x - y = 1 \\end{cases}$",
-          "$\\begin{cases} x + 2y = 3 \\\\ 2x - y = 0 \\end{cases}$"
+          "$\\begin{cases} x - y = -1 \\\\ 2x + y = 4 \\end{cases}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Tất cả các nghiệm của phương trình $0x + 2y = 4$ được biểu diễn bởi đường thẳng:",
         "options": [
-          "$y = 2$",
           "$x = 2$",
-          "$y = 4$",
-          "$x = 4$"
+          "$x = 4$",
+          "$y = 2$",
+          "$y = 4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tất cả các nghiệm của phương trình $3x + 0y = 6$ được biểu diễn bởi đường thẳng:",
         "options": [
-          "Song song với trục tung $Oy$",
-          "Song song với trục hoành $Ox$",
+          "Trùng với trục tung $Oy$",
           "Đi qua gốc toạ độ $O$",
-          "Trùng với trục tung $Oy$"
+          "Song song với trục tung $Oy$",
+          "Song song với trục hoành $Ox$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -104,36 +104,36 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu diễn nghiệm tổng quát của phương trình $x - 2y = 3$ là:",
         "options": [
-          "$\\begin{cases} x \\in \\mathbb{R} \\\\ y = \\frac{1}{2}x - \\frac{3}{2} \\end{cases}$",
           "$\\begin{cases} x = 2y - 3 \\\\ y \\in \\mathbb{R} \\end{cases}$",
-          "$\\begin{cases} x \\in \\mathbb{R} \\\\ y = 2x + 3 \\end{cases}$",
-          "$\\begin{cases} x = 3 \\\\ y = 0 \\end{cases}$"
+          "$\\begin{cases} x = 3 \\\\ y = 0 \\end{cases}$",
+          "$\\begin{cases} x \\in \\mathbb{R} \\\\ y = \\frac{1}{2}x - \\frac{3}{2} \\end{cases}$",
+          "$\\begin{cases} x \\in \\mathbb{R} \\\\ y = 2x + 3 \\end{cases}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Tìm $a$ để cặp số $(1; 1)$ là nghiệm của hệ phương trình $\\begin{cases} ax + y = 3 \\\\ x - ay = -1 \\end{cases}$:",
         "options": [
-          "$a = 2$",
-          "$a = 1$",
           "$a = -2$",
-          "$a = 3$"
+          "$a = 1$",
+          "$a = 3$",
+          "$a = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $2x + y = 4$ cắt trục hoành tại điểm có toạ độ là:",
         "options": [
+          "$(4; 0)$",
           "$(2; 0)$",
           "$(0; 4)$",
-          "$(4; 0)$",
           "$(0; 2)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -141,9 +141,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho phương trình $(m - 1)x + (m + 2)y = 5$. Tìm $m$ để đường thẳng biểu diễn tập nghiệm đi qua điểm $A(1; 2)$:",
         "options": [
           "$m = 2$",
-          "$m = 1$",
+          "$m = -1$",
           "$m = 0$",
-          "$m = -1$"
+          "$m = 1$"
         ],
         "correct": 0
       }
@@ -297,8 +297,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Phương trình nào dưới đây KHÔNG phải là phương trình bậc nhất hai ẩn?",
         "options": [
           "$0x + 0y = 5$",
-          "$2x - 3y = 0$",
           "$0x + 4y = 8$",
+          "$2x - 3y = 0$",
           "$5x + 0y = 10$"
         ],
         "correct": 0
@@ -308,48 +308,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Tập nghiệm của phương trình $ax + by = c$ có bao nhiêu nghiệm?",
         "options": [
-          "Vô số nghiệm",
           "Duy nhất một nghiệm",
           "Vô nghiệm",
-          "Có 2 nghiệm"
+          "Có 2 nghiệm",
+          "Vô số nghiệm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $3x - 4y = 12$ cắt hai trục toạ độ tại $A$ và $B$. Diện tích tam giác $OAB$ là:",
         "options": [
-          "$6$",
           "$12$",
           "$24$",
+          "$6$",
           "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho phương trình $2x - y = 1$. Điểm nào sau đây KHÔNG thuộc đường thẳng biểu diễn tập nghiệm của phương trình?",
         "options": [
-          "$(1; 2)$",
           "$(0; -1)$",
-          "$(2; 3)$",
-          "$(3; 5)$"
+          "$(3; 5)$",
+          "$(1; 2)$",
+          "$(2; 3)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Hệ phương trình $\\begin{cases} x + 2y = 3 \\\\ 2x + 4y = 6 \\end{cases}$ có số nghiệm là:",
         "options": [
-          "Vô số nghiệm",
-          "Một nghiệm duy nhất",
           "Vô nghiệm",
-          "Hai nghiệm"
+          "Một nghiệm duy nhất",
+          "Hai nghiệm",
+          "Vô số nghiệm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -370,8 +370,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "options": [
           "$m = 1$",
           "$m = 2$",
-          "$m = 0$",
-          "$m = -1$"
+          "$m = -1$",
+          "$m = 0$"
         ],
         "correct": 0
       },
@@ -380,60 +380,60 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Biết cặp số $(x; y) = (a; b)$ thỏa mãn $3a - 2b = 5$ và $a + b = 5$. Giá trị của $a \\cdot b$ là:",
         "options": [
+          "$4$",
           "$6$",
           "$5$",
-          "$4$",
           "$8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Khoảng cách từ gốc toạ độ $O$ đến đường thẳng biểu diễn tập nghiệm của phương trình $3x + 4y = 12$ là:",
         "options": [
-          "$\\frac{12}{5} = 2{,}4$",
           "$3$",
-          "$4$",
-          "$5$"
+          "$\\frac{12}{5} = 2{,}4$",
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Có bao nhiêu cặp số tự nhiên $(x; y)$ thỏa mãn phương trình $3x + 5y = 30$?",
         "options": [
-          "$3$",
-          "$2$",
           "$4$",
+          "$2$",
+          "$3$",
           "$5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hệ phương trình $\\begin{cases} ax + y = a + 1 \\\\ x + ay = 2 \\end{cases}$. Tìm $a$ để hệ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0, y > 0$:",
         "options": [
+          "$a \\neq 1$",
           "$a > -1$ và $a \\neq 1$",
           "$a > 0$",
-          "$a < 1$",
-          "$a \\neq 1$"
+          "$a < 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho phương trình $2x + 5y = 29$. Cặp nghiệm nguyên dương $(x; y)$ có tổng $x + y$ lớn nhất là:",
         "options": [
-          "$(12; 1)$ có tổng $13$",
+          "$(17; -1)$",
           "$(7; 3)$ có tổng $10$",
           "$(2; 5)$ có tổng $7$",
-          "$(17; -1)$"
+          "$(12; 1)$ có tổng $13$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -585,9 +585,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $ax + by = c$ đi qua gốc toạ độ $O(0; 0)$ khi và chỉ khi:",
         "options": [
           "$c = 0$",
-          "$a = 0$",
           "$b = 0$",
-          "$a = b$"
+          "$a = b$",
+          "$a = 0$"
         ],
         "correct": 0
       },
@@ -596,60 +596,60 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hệ phương trình $\\begin{cases} mx + y = 1 \\\\ x + my = m^2 \\end{cases}$ có nghiệm duy nhất khi:",
         "options": [
+          "$m = -1$",
           "$m \\neq \\pm 1$",
           "$m \\neq 1$",
-          "$m = 1$",
-          "$m = -1$"
+          "$m = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Phương trình $3x + 2y = 12$ có bao nhiêu nghiệm nguyên dương?",
         "options": [
-          "$1$",
           "$2$",
-          "$3$",
-          "$4$"
+          "$1$",
+          "$4$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Tìm $m$ để đường thẳng $d: (m - 2)x + (2m + 1)y = 5$ song song với trục tung $Oy$:",
         "options": [
-          "$m = -\\frac{1}{2}$",
-          "$m = 2$",
+          "$m = 1$",
           "$m = 0$",
-          "$m = 1$"
+          "$m = -\\frac{1}{2}$",
+          "$m = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Cho ba đường thẳng $d_1: x + y = 2$, $d_2: 2x - y = 4$ và $d_3: (m - 1)x + (m + 1)y = 6$. Tìm $m$ để ba đường thẳng đồng quy:",
         "options": [
-          "$m = 2$",
-          "$m = 3$",
           "$m = 1$",
-          "$m = -1$"
+          "$m = -1$",
+          "$m = 2$",
+          "$m = 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Tập hợp các điểm $M(x; y)$ thỏa mãn hệ thức $|2x - y + 1| + |x + y - 4| = 0$ là:",
         "options": [
-          "Điểm $M(1; 3)$",
           "Một đường thẳng",
+          "Vô số điểm",
           "Tập rỗng",
-          "Vô số điểm"
+          "Điểm $M(1; 3)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -657,9 +657,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho hệ $\\begin{cases} 2x - y = 3 \\\\ x + y = 3 \\end{cases}$. Giá trị nhỏ nhất của biểu thức $P = x^2 + y^2$ với $(x; y)$ là nghiệm của hệ bằng:",
         "options": [
           "$5$",
+          "$2$",
           "$4$",
-          "$9$",
-          "$2$"
+          "$9$"
         ],
         "correct": 0
       },
@@ -668,24 +668,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Phương trình $7x + 13y = 100$ có nghiệm nguyên $(x; y)$ với $x > 0, y > 0$ là:",
         "options": [
-          "$(9; 2)$",
-          "$(2; 9)$",
           "$(4; 5)$",
+          "$(2; 9)$",
+          "$(9; 2)$",
           "$(5; 4)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho hệ phương trình $\\begin{cases} x + my = 2 \\\\ mx - 2y = 1 \\end{cases}$. Hệ thức liên hệ giữa $x$ và $y$ độc lập với $m$ là:",
         "options": [
-          "$x^2 + 2y^2 + y - 2x = 0$",
+          "$x^2 - y^2 = 1$",
           "$x + 2y = 3$",
           "$2x - y = 1$",
-          "$x^2 - y^2 = 1$"
+          "$x^2 + 2y^2 + y - 2x = 0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -693,9 +693,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho phương trình $ax + by = c$ có hai nghiệm là $(1; 2)$ và $(3; -1)$. Tỉ số $\\frac{a}{b}$ bằng:",
         "options": [
           "$\\frac{3}{2}$",
+          "$-\\frac{2}{3}$",
           "$-\\frac{3}{2}$",
-          "$\\frac{2}{3}$",
-          "$-\\frac{2}{3}$"
+          "$\\frac{2}{3}$"
         ],
         "correct": 0
       },
@@ -704,24 +704,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các giá trị của $m$ để hệ $\\begin{cases} mx + y = 2m \\\\ x + my = m + 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x, y$ đều là số nguyên:",
         "options": [
-          "$m = 0$ hoặc $m = 2$",
           "$m = 1$",
-          "$m = -1$",
-          "$m \\in \\{1; -1; 2\\}$"
+          "$m = 0$ hoặc $m = 2$",
+          "$m \\in \\{1; -1; 2\\}$",
+          "$m = -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Diện tích hình phẳng giới hạn bởi các đường thẳng $x = 0, y = 0, x + y = 2$ và $x + y = 4$ là:",
         "options": [
-          "$6$",
-          "$8$",
           "$4$",
-          "$10$"
+          "$10$",
+          "$8$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -872,12 +872,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai phương pháp đại số cơ bản để giải hệ hai phương trình bậc nhất hai ẩn là:",
         "options": [
-          "Phương pháp thế và phương pháp cộng đại số",
-          "Phương pháp đồ thị và lập bảng",
           "Phương pháp phân tích đa thức thành nhân tử",
-          "Phương pháp hằng đẳng thức"
+          "Phương pháp hằng đẳng thức",
+          "Phương pháp thế và phương pháp cộng đại số",
+          "Phương pháp đồ thị và lập bảng"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -885,8 +885,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Khi giải hệ $\\begin{cases} x - y = 2 \\\\ 2x + y = 7 \\end{cases}$ bằng phương pháp thế, ta có thể rút $x$ từ phương trình thứ nhất là:",
         "options": [
           "$x = y + 2$",
-          "$x = y - 2$",
           "$x = 2 - y$",
+          "$x = y - 2$",
           "$x = -y - 2$"
         ],
         "correct": 0
@@ -896,48 +896,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Để giải hệ $\\begin{cases} 2x + 3y = 7 \\\\ 2x - y = 3 \\end{cases}$ bằng phương pháp cộng đại số, ta nên thực hiện phép tính:",
         "options": [
-          "Trừ hai vế của phương trình thứ nhất cho phương trình thứ hai",
-          "Cộng hai vế của hai phương trình",
           "Nhân phương trình thứ hai với 2",
-          "Chia phương trình thứ nhất cho 2"
+          "Chia phương trình thứ nhất cho 2",
+          "Trừ hai vế của phương trình thứ nhất cho phương trình thứ hai",
+          "Cộng hai vế của hai phương trình"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
         "options": [
-          "$(3; 2)$",
           "$(2; 3)$",
+          "$(3; 2)$",
           "$(4; 1)$",
           "$(1; 4)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Giải hệ phương trình $\\begin{cases} 2x + y = 8 \\\\ x - y = 1 \\end{cases}$. Giá trị của $x$ là:",
         "options": [
-          "$3$",
           "$2$",
+          "$5$",
           "$4$",
-          "$5$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Giải hệ phương trình $\\begin{cases} 3x - 2y = 4 \\\\ 2x + y = 5 \\end{cases}$. Nghiệm $(x; y)$ của hệ là:",
         "options": [
-          "$(2; 1)$",
           "$(1; 2)$",
+          "$(0; -2)$",
           "$(3; -1)$",
-          "$(0; -2)$"
+          "$(2; 1)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -946,8 +946,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "options": [
           "Vô số nghiệm",
           "Vô nghiệm",
-          "Nghiệm duy nhất $(0; 2)$",
-          "Nghiệm duy nhất $(4; 0)$"
+          "Nghiệm duy nhất $(4; 0)$",
+          "Nghiệm duy nhất $(0; 2)$"
         ],
         "correct": 0
       },
@@ -956,36 +956,36 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hệ phương trình $\\begin{cases} 3x - y = 2 \\\\ 3x - y = 5 \\end{cases}$ có số nghiệm là:",
         "options": [
-          "Vô nghiệm",
+          "2 nghiệm",
           "Vô số nghiệm",
-          "1 nghiệm",
-          "2 nghiệm"
+          "Vô nghiệm",
+          "1 nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho hệ phương trình $\\begin{cases} 2x - 3y = 1 \\\\ x + 3y = 5 \\end{cases}$. Tổng $x + y$ bằng:",
         "options": [
+          "$1$",
           "$3$",
           "$2$",
-          "$4$",
-          "$1$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Giải hệ phương trình $\\begin{cases} \\frac{1}{x} + \\frac{1}{y} = \\frac{5}{6} \\\\ \\frac{1}{x} - \\frac{1}{y} = \\frac{1}{6} \\end{cases}$. Cặp số $(x; y)$ là:",
         "options": [
-          "$(2; 3)$",
-          "$(3; 2)$",
+          "$(6; 1)$",
           "$(1; 6)$",
-          "$(6; 1)$"
+          "$(3; 2)$",
+          "$(2; 3)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -993,9 +993,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Tìm $m$ để hệ $\\begin{cases} mx + y = 3 \\\\ x - y = 1 \\end{cases}$ nhận cặp số $(2; 1)$ làm nghiệm:",
         "options": [
           "$m = 1$",
-          "$m = 2$",
           "$m = 0$",
-          "$m = -1$"
+          "$m = -1$",
+          "$m = 2$"
         ],
         "correct": 0
       },
@@ -1004,12 +1004,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hệ phương trình $\\begin{cases} 2x + y = 5m - 1 \\\\ x - 2y = 2 \\end{cases}$. Tìm $m$ để $x^2 - 2y^2 = 1$ khi $m = 1$:",
         "options": [
-          "Cặp nghiệm là $(2; 0)$",
           "Cặp nghiệm là $(1; 1)$",
+          "Cặp nghiệm là $(2; 0)$",
           "Cặp nghiệm là $(3; 1)$",
           "Hệ vô nghiệm"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1162,8 +1162,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "options": [
           "Có vô số nghiệm",
           "Vô nghiệm",
-          "Có nghiệm duy nhất",
-          "Có 2 nghiệm"
+          "Có 2 nghiệm",
+          "Có nghiệm duy nhất"
         ],
         "correct": 0
       },
@@ -1172,24 +1172,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Nghiệm của hệ $\\begin{cases} 3x - 4y = 1 \\\\ 4x + 3y = 18 \\end{cases}$ là:",
         "options": [
-          "$(3; 2)$",
-          "$(2; 3)$",
           "$(1; 0)$",
-          "$(4; 2)$"
+          "$(4; 2)$",
+          "$(2; 3)$",
+          "$(3; 2)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm $a, b$ để đồ thị hàm số $y = ax + b$ đi qua hai điểm $A(1; 1)$ và $B(2; 3)$:",
         "options": [
-          "$a = 2, b = -1$",
           "$a = 1, b = 2$",
           "$a = 3, b = -2$",
+          "$a = 2, b = -1$",
           "$a = -1, b = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -1197,9 +1197,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho hệ phương trình $\\begin{cases} x + my = 1 \\\\ mx + y = 1 \\end{cases}$. Với $m = -1$, hệ phương trình:",
         "options": [
           "Vô nghiệm",
+          "Có 2 nghiệm",
           "Có vô số nghiệm",
-          "Có 1 nghiệm duy nhất",
-          "Có 2 nghiệm"
+          "Có 1 nghiệm duy nhất"
         ],
         "correct": 0
       },
@@ -1208,36 +1208,36 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giải hệ phương trình $\\begin{cases} 2(x + 1) - 3(y - 1) = 5 \\\\ 3(x + 1) + 2(y - 1) = 14 \\end{cases}$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 3, y = 2$",
+          "$x = 1, y = 4$",
           "$x = 4, y = 1$",
           "$x = 2, y = 3$",
-          "$x = 1, y = 4$"
+          "$x = 3, y = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Biết hệ phương trình $\\begin{cases} ax + by = 5 \\\\ bx + ay = 7 \\end{cases}$ có nghiệm là $(x; y) = (1; 2)$. Giá trị của $a^2 - b^2$ là:",
         "options": [
+          "$4$",
           "$-8$",
           "$8$",
-          "$-4$",
-          "$4$"
+          "$-4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho hệ phương trình $\\begin{cases} x + y = 2m + 1 \\\\ x - y = 3 \\end{cases}$. Tìm $m$ để nghiệm $(x; y)$ thỏa mãn $x \\cdot y = 4$:",
         "options": [
-          "$m = 2$ hoặc $m = -2$",
-          "$m = 1$",
           "$m = 3$",
+          "$m = 1$",
+          "$m = 2$ hoặc $m = -2$",
           "$m = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -1245,8 +1245,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Giải hệ $\\begin{cases} |x| + 2y = 4 \\\\ 3|x| - y = 5 \\end{cases}$. Số nghiệm $(x; y)$ của hệ là:",
         "options": [
           "$2$ nghiệm",
-          "$1$ nghiệm",
           "$4$ nghiệm",
+          "$1$ nghiệm",
           "$0$ nghiệm"
         ],
         "correct": 0
@@ -1256,48 +1256,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giải hệ $\\begin{cases} \\frac{3}{x} - \\frac{4}{y} = 2 \\\\ \\frac{4}{x} + \\frac{3}{y} = 11 \\end{cases}$. Cặp nghiệm $(x; y)$ là:",
         "options": [
-          "$\\left(\\frac{1}{2}; 1\\right)$",
           "$(2; 1)$",
+          "$\\left(1; \\frac{1}{2}\\right)$",
           "$(1; 2)$",
-          "$\\left(1; \\frac{1}{2}\\right)$"
+          "$\\left(\\frac{1}{2}; 1\\right)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho hệ phương trình $\\begin{cases} mx + y = 3 \\\\ x + my = 2m + 1 \\end{cases}$. Tìm $m$ để hệ có nghiệm duy nhất thỏa mãn $x > 0$ và $y < 0$:",
         "options": [
-          "$m > 1$",
-          "$m < -1$",
+          "$m > 2$",
           "$-1 < m < 1$",
-          "$m > 2$"
+          "$m > 1$",
+          "$m < -1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hệ $\\begin{cases} x + y = 3 \\\\ x^2 + y^2 = 5 \\end{cases}$. Tập các cặp nghiệm $(x; y)$ của hệ là:",
         "options": [
-          "$\\{(2; 1), (1; 2)\\}$",
-          "$\\{(3; 0), (0; 3)\\}$",
           "$\\{(4; -1), (-1; 4)\\}$",
-          "$\\{(1; 1)\\}$"
+          "$\\{(2; 1), (1; 2)\\}$",
+          "$\\{(1; 1)\\}$",
+          "$\\{(3; 0), (0; 3)\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để đường thẳng $d: y = (m - 1)x + 2m$ đi qua giao điểm của hai đường thẳng $d_1: 2x - y = 3$ và $d_2: x + 2y = 4$:",
         "options": [
+          "$m = 0$",
           "$m = 1$",
           "$m = 2$",
-          "$m = -1$",
-          "$m = 0$"
+          "$m = -1$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1448,36 +1448,36 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Hệ hai phương trình bậc nhất hai ẩn vô nghiệm khi hai đường thẳng biểu diễn tập nghiệm của chúng:",
         "options": [
-          "Song song với nhau",
+          "Vuông góc với nhau",
           "Cắt nhau tại 1 điểm",
-          "Trùng nhau",
-          "Vuông góc với nhau"
+          "Song song với nhau",
+          "Trùng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho hệ $\\begin{cases} x + ay = 1 \\\\ ax + y = 1 \\end{cases}$. Hệ có vô số nghiệm khi:",
         "options": [
+          "$a = 2$",
           "$a = 1$",
           "$a = -1$",
-          "$a = 0$",
-          "$a = 2$"
+          "$a = 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Nghiệm của hệ $\\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases}$ là:",
         "options": [
+          "$(3; 2; 1)$",
           "$(1; 2; 3)$",
           "$(2; 1; 3)$",
-          "$(3; 2; 1)$",
           "$(1; 3; 2)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -1485,9 +1485,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Giải hệ phương trình $\\begin{cases} x^2 + y^2 = 25 \\\\ x + y = 7 \\end{cases}$. Tập nghiệm $(x; y)$ là:",
         "options": [
           "$\\{(3; 4), (4; 3)\\}$",
+          "$\\{(0; 7), (7; 0)\\}$",
           "$\\{(1; 6), (6; 1)\\}$",
-          "$\\{(2; 5), (5; 2)\\}$",
-          "$\\{(0; 7), (7; 0)\\}$"
+          "$\\{(2; 5), (5; 2)\\}$"
         ],
         "correct": 0
       },
@@ -1497,8 +1497,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho hệ $\\begin{cases} mx + 4y = 10 - m \\\\ x + my = 4 \\end{cases}$. Tìm $m$ nguyên để hệ có nghiệm duy nhất là các số nguyên:",
         "options": [
           "$m \\in \\{1; 3\\}$",
-          "$m = 0$",
           "$m = -1$",
+          "$m = 0$",
           "$m = 2$"
         ],
         "correct": 0
@@ -1508,24 +1508,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Số nghiệm của hệ phương trình $\\begin{cases} x^2 - y^2 = 0 \\\\ 2x + y = 3 \\end{cases}$ là:",
         "options": [
+          "$0$",
           "$2$",
           "$1$",
-          "$0$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho hệ $\\begin{cases} x + y = m \\\\ x - y = 2 \\end{cases}$. Giá trị của biểu thức $x^2 - y^2$ bằng:",
         "options": [
-          "$2m$",
-          "$m^2 - 4$",
+          "$4m$",
           "$m + 2$",
-          "$4m$"
+          "$2m$",
+          "$m^2 - 4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -1534,8 +1534,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "options": [
           "$(1; 1)$",
           "$(2; 2)$",
-          "$(-1; -1)$",
-          "$(1; 2)$"
+          "$(1; 2)$",
+          "$(-1; -1)$"
         ],
         "correct": 0
       },
@@ -1544,48 +1544,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để hệ $\\begin{cases} x + y = 1 \\\\ x^3 + y^3 = m \\end{cases}$ có nghiệm:",
         "options": [
-          "$m \\ge \\frac{1}{4}$",
-          "$m \\le 1$",
+          "Với mọi $m$",
           "$m > 0$",
-          "Với mọi $m$"
+          "$m \\ge \\frac{1}{4}$",
+          "$m \\le 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho hệ $\\begin{cases} 2x^2 - xy - y^2 = 0 \\\\ x + 2y = 6 \\end{cases}$. Hệ có bao nhiêu nghiệm?",
         "options": [
-          "$2$",
           "$1$",
           "$3$",
-          "$0$"
+          "$0$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Hệ phương trình $\\begin{cases} \\sqrt{x} + \\sqrt{y} = 4 \\\\ x + y = 10 \\end{cases}$ có nghiệm là:",
         "options": [
-          "$(9; 1)$ và $(1; 9)$",
           "$(16; 0)$",
+          "$(5; 5)$",
           "$(4; 6)$",
-          "$(5; 5)$"
+          "$(9; 1)$ và $(1; 9)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho hệ $\\begin{cases} ax + y = 1 \\\\ x + ay = 1 \\end{cases}$. Để hệ có nghiệm duy nhất thỏa mãn $x + y > 0$ thì điều kiện của $a$ là:",
         "options": [
-          "$a > -1$ và $a \\neq 1$",
+          "$a \\neq \\pm 1$",
           "$a > 1$",
           "$a < -1$",
-          "$a \\neq \\pm 1$"
+          "$a > -1$ và $a \\neq 1$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1736,24 +1736,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Bước đầu tiên trong quy trình giải bài toán bằng cách lập hệ phương trình là:",
         "options": [
-          "Chọn hai ẩn số và đặt điều kiện thích hợp cho ẩn",
           "Giải hệ phương trình",
-          "Biểu diễn các đại lượng chưa biết",
-          "Đối chiếu điều kiện và kết luận"
+          "Chọn hai ẩn số và đặt điều kiện thích hợp cho ẩn",
+          "Đối chiếu điều kiện và kết luận",
+          "Biểu diễn các đại lượng chưa biết"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Một số tự nhiên có hai chữ số, chữ số hàng chục là $x$, chữ số hàng đơn vị là $y$. Số đó được biểu diễn là:",
         "options": [
-          "$10x + y$",
-          "$x + y$",
           "$xy$",
-          "$10y + x$"
+          "$10y + x$",
+          "$10x + y$",
+          "$x + y$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1761,9 +1761,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Trong bài toán chuyển động, mối quan hệ giữa quãng đường $s$, vận tốc $v$ và thời gian $t$ là:",
         "options": [
           "$s = v \\cdot t$",
-          "$s = \\frac{v}{t}$",
+          "$s = v + t$",
           "$s = \\frac{t}{v}$",
-          "$s = v + t$"
+          "$s = \\frac{v}{t}$"
         ],
         "correct": 0
       },
@@ -1772,48 +1772,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Vận tốc xuôi dòng của ca nô bằng:",
         "options": [
-          "Vận tốc thực ca nô cộng vận tốc dòng nước",
-          "Vận tốc thực ca nô trừ vận tốc dòng nước",
           "Vận tốc dòng nước chia cho thời gian",
-          "Vận tốc thực nhân đôi"
+          "Vận tốc thực ca nô trừ vận tốc dòng nước",
+          "Vận tốc thực nhân đôi",
+          "Vận tốc thực ca nô cộng vận tốc dòng nước"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Hai số có tổng bằng $25$ và hiệu bằng $5$. Hai số đó là:",
         "options": [
+          "$14$ và $11$",
           "$15$ và $10$",
           "$20$ và $5$",
-          "$14$ và $11$",
           "$16$ và $9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Một mảnh đất hình chữ nhật có chu vi $40\\text{ m}$, chiều dài hơn chiều rộng $4\\text{ m}$. Chiều dài của mảnh đất là:",
         "options": [
-          "$12\\text{ m}$",
-          "$16\\text{ m}$",
+          "$10\\text{ m}$",
           "$8\\text{ m}$",
-          "$10\\text{ m}$"
+          "$16\\text{ m}$",
+          "$12\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tổng số gà và chó là $36$ con, tổng số chân là $100$ chân. Gọi $x$ là số con gà, $y$ là số con chó ($x, y \\in \\mathbb{N}^*$). Hệ phương trình lập được là:",
         "options": [
-          "$\\begin{cases} x + y = 36 \\\\ 2x + 4y = 100 \\end{cases}$",
           "$\\begin{cases} x + y = 36 \\\\ 4x + 2y = 100 \\end{cases}$",
-          "$\\begin{cases} x + y = 100 \\\\ 2x + 4y = 36 \\end{cases}$",
-          "$\\begin{cases} 2x + 2y = 36 \\\\ 4x + 4y = 100 \\end{cases}$"
+          "$\\begin{cases} x + y = 36 \\\\ 2x + 4y = 100 \\end{cases}$",
+          "$\\begin{cases} 2x + 2y = 36 \\\\ 4x + 4y = 100 \\end{cases}$",
+          "$\\begin{cases} x + y = 100 \\\\ 2x + 4y = 36 \\end{cases}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -1822,8 +1822,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "options": [
           "$\\frac{1}{6}$ bể",
           "$6$ bể",
-          "$\\frac{1}{3}$ bể",
-          "$\\frac{2}{3}$ bể"
+          "$\\frac{2}{3}$ bể",
+          "$\\frac{1}{3}$ bể"
         ],
         "correct": 0
       },
@@ -1832,12 +1832,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm hai số biết tỉ số giữa chúng là $\\frac{3}{5}$ và hiệu của chúng bằng $8$. Số lớn là:",
         "options": [
-          "$20$",
           "$12$",
-          "$15$",
-          "$25$"
+          "$25$",
+          "$20$",
+          "$15$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -1856,24 +1856,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Một ô tô và một xe máy cùng khởi hành từ hai địa điểm $A$ và $B$ cách nhau $180\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $2$ giờ. Vận tốc ô tô hơn xe máy $10\\text{ km/h}$. Vận tốc xe máy là:",
         "options": [
-          "$40\\text{ km/h}$",
+          "$35\\text{ km/h}$",
           "$50\\text{ km/h}$",
           "$45\\text{ km/h}$",
-          "$35\\text{ km/h}$"
+          "$40\\text{ km/h}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một phòng họp có $360$ ghế được xếp thành các dãy có số ghế bằng nhau. Nếu bớt đi $3$ dãy và mỗi dãy thêm $4$ ghế thì số chỗ ngồi không đổi. Số dãy ghế ban đầu là:",
         "options": [
-          "$18$ dãy",
+          "$24$ dãy",
           "$20$ dãy",
-          "$15$ dãy",
-          "$24$ dãy"
+          "$18$ dãy",
+          "$15$ dãy"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2025,9 +2025,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Khi giải bài toán năng suất, nếu một tổ công nhân dự định may $x$ chiếc áo trong 1 ngày và thời gian may là $y$ ngày thì tổng số áo may được là:",
         "options": [
           "$x \\cdot y$",
-          "$x + y$",
           "$\\frac{x}{y}$",
-          "$\\frac{y}{x}$"
+          "$\\frac{y}{x}$",
+          "$x + y$"
         ],
         "correct": 0
       },
@@ -2037,9 +2037,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Hai canô cùng khởi hành từ hai bến $A$ và $B$ cách nhau $85\\text{ km}$ đi ngược chiều nhau. Sau $1$ giờ $42$ phút chúng gặp nhau. Biết vận tốc ca nô xuôi dòng lớn hơn ca nô ngược dòng $10\\text{ km/h}$. Vận tốc mỗi ca nô khi nước yên lặng nếu vận tốc dòng nước là $5\\text{ km/h}$:",
         "options": [
           "Ca nô đi xuôi có vận tốc riêng bằng ca nô đi ngược",
+          "Bằng $30\\text{ km/h}$",
           "Không xác định được",
-          "Bằng $25\\text{ km/h}$",
-          "Bằng $30\\text{ km/h}$"
+          "Bằng $25\\text{ km/h}$"
         ],
         "correct": 0
       },
@@ -2048,12 +2048,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một thửa ruộng hình chữ nhật có chu vi $250\\text{ m}$. Chiều dài gấp rưỡi ($1{,}5$ lần) chiều rộng. Diện tích của thửa ruộng là:",
         "options": [
+          "$4000\\text{ m}^2$",
           "$3750\\text{ m}^2$",
           "$3500\\text{ m}^2$",
-          "$4000\\text{ m}^2$",
           "$3600\\text{ m}^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2061,9 +2061,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Một dung dịch chứa $10\\%$ muối, một dung dịch khác chứa $20\\%$ muối. Trộn hai dung dịch lại để được $500\\text{ g}$ dung dịch chứa $16\\%$ muối. Khối lượng dung dịch $10\\%$ cần dùng là:",
         "options": [
           "$200\\text{ g}$",
+          "$150\\text{ g}$",
           "$300\\text{ g}$",
-          "$250\\text{ g}$",
-          "$150\\text{ g}$"
+          "$250\\text{ g}$"
         ],
         "correct": 0
       },
@@ -2072,96 +2072,96 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Năm nay tuổi bố gấp $3$ lần tuổi con. Mười năm trước tuổi bố gấp $7$ lần tuổi con. Tuổi bố năm nay là:",
         "options": [
-          "$45$ tuổi",
-          "$42$ tuổi",
+          "$48$ tuổi",
           "$36$ tuổi",
-          "$48$ tuổi"
+          "$45$ tuổi",
+          "$42$ tuổi"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Một người đầu tư $200$ triệu đồng vào hai khoản: khoản thứ nhất lãi suất $6\\%$/năm, khoản thứ hai lãi suất $8\\%$/năm. Sau một năm nhận được tổng tiền lãi là $14{,}6$ triệu đồng. Số tiền đầu tư vào khoản thứ hai là:",
         "options": [
+          "$80$ triệu đồng",
           "$130$ triệu đồng",
           "$70$ triệu đồng",
-          "$120$ triệu đồng",
-          "$80$ triệu đồng"
+          "$120$ triệu đồng"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Hai tổ sản xuất nhận may $720$ áo. Do tổ 1 vượt mức $15\\%$ và tổ 2 vượt mức $12\\%$ nên cả hai tổ may được $819$ áo. Kế hoạch tổ 1 phải may là:",
         "options": [
-          "$420$ chiếc",
+          "$320$ chiếc",
           "$300$ chiếc",
           "$400$ chiếc",
-          "$320$ chiếc"
+          "$420$ chiếc"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Tìm số tự nhiên có hai chữ số, biết chữ số hàng chục gấp đôi chữ số hàng đơn vị. Nếu thêm số $0$ vào giữa hai chữ số thì được số mới lớn hơn số đã cho $180$ đơn vị. Số đó là:",
         "options": [
-          "$42$",
-          "$63$",
+          "$84$",
           "$21$",
-          "$84$"
+          "$63$",
+          "$42$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Một tam giác vuông có độ dài hai cạnh góc vuông hơn kém nhau $2\\text{ cm}$. Nếu tăng mỗi cạnh góc vuông thêm $2\\text{ cm}$ thì diện tích tăng thêm $18\\text{ cm}^2$. Độ dài cạnh huyền của tam giác ban đầu là:",
         "options": [
-          "$10\\text{ cm}$",
-          "$8\\text{ cm}$",
           "$6\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$10\\text{ cm}$",
           "$12\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Quãng đường $AB$ gồm đoạn lên dốc dài $4\\text{ km}$ và đoạn xuống dốc dài $5\\text{ km}$. Một người đi xe đạp từ $A$ đến $B$ hết $40$ phút và đi từ $B$ về $A$ hết $41$ phút. Vận tốc lúc lên dốc và xuống dốc lần lượt là:",
         "options": [
-          "$12\\text{ km/h}$ và $15\\text{ km/h}$",
           "$10\\text{ km/h}$ và $15\\text{ km/h}$",
-          "$12\\text{ km/h}$ và $18\\text{ km/h}$",
-          "$10\\text{ km/h}$ và $20\\text{ km/h}$"
+          "$10\\text{ km/h}$ và $20\\text{ km/h}$",
+          "$12\\text{ km/h}$ và $15\\text{ km/h}$",
+          "$12\\text{ km/h}$ và $18\\text{ km/h}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Một chiếc thuyền đi xuôi dòng một khúc sông từ $A$ đến $B$ rồi quay lại $A$ hết tổng cộng $4$ giờ $30$ phút. Biết quãng đường $AB = 40\\text{ km}$ và vận tốc dòng nước là $2\\text{ km/h}$. Vận tốc thực của thuyền là:",
         "options": [
-          "$18\\text{ km/h}$",
-          "$20\\text{ km/h}$",
           "$16\\text{ km/h}$",
-          "$22\\text{ km/h}$"
+          "$20\\text{ km/h}$",
+          "$22\\text{ km/h}$",
+          "$18\\text{ km/h}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Hai vòi nước cùng chảy vào bể thì sau $1$ giờ $20$ phút đầy bể. Nếu mở vòi I chảy trong $10$ phút và vòi II chảy trong $12$ phút thì được $\\frac{2}{15}$ bể nước. Vòi I chảy một mình đầy bể trong:",
         "options": [
-          "$2$ giờ",
           "$2{,}5$ giờ",
-          "$3$ giờ",
-          "$1{,}5$ giờ"
+          "$2$ giờ",
+          "$1{,}5$ giờ",
+          "$3$ giờ"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2313,9 +2313,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Trong bài toán cấu tạo số, nếu đổi chỗ hai chữ số của số có hai chữ số $\\overline{xy}$ ($x \\neq 0, y \\neq 0$) thì số mới là:",
         "options": [
           "$10y + x$",
+          "$x + y$",
           "$10x + y$",
-          "$xy$",
-          "$x + y$"
+          "$xy$"
         ],
         "correct": 0
       },
@@ -2324,24 +2324,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một người đi xe máy từ $A$ đến $B$ với vận tốc $30\\text{ km/h}$. Khi về người đó đi với vận tốc $40\\text{ km/h}$ nên thời gian về ít hơn thời gian đi $45$ phút. Quãng đường $AB$ dài:",
         "options": [
+          "$80\\text{ km}$",
           "$90\\text{ km}$",
           "$120\\text{ km}$",
-          "$60\\text{ km}$",
-          "$80\\text{ km}$"
+          "$60\\text{ km}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Một thửa đất hình chữ nhật có chu vi $160\\text{ m}$. Nếu giảm chiều dài $10\\text{ m}$ và tăng chiều rộng $10\\text{ m}$ thì diện tích tăng thêm $100\\text{ m}^2$. Chiều dài ban đầu là:",
         "options": [
-          "$50\\text{ m}$",
-          "$60\\text{ m}$",
           "$45\\text{ m}$",
+          "$60\\text{ m}$",
+          "$50\\text{ m}$",
           "$55\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2349,9 +2349,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Hai vòi nước cùng chảy vào bể sau $4$ giờ đầy bể. Nếu mỗi vòi chảy riêng đến khi đầy bể thì tổng thời gian hai vòi cần là $18$ giờ. Thời gian vòi chảy nhanh hơn làm một mình là:",
         "options": [
           "$6$ giờ",
+          "$9$ giờ",
           "$12$ giờ",
-          "$8$ giờ",
-          "$9$ giờ"
+          "$8$ giờ"
         ],
         "correct": 0
       },
@@ -2360,12 +2360,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm số tự nhiên có hai chữ số, biết chữ số hàng chục chia cho chữ số hàng đơn vị được thương là $2$ dư $1$. Nếu đổi chỗ hai chữ số cho nhau thì được số mới nhỏ hơn số cũ $27$ đơn vị. Số đó là:",
         "options": [
-          "$73$",
           "$52$",
           "$94$",
+          "$73$",
           "$63$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -2373,9 +2373,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Một đoàn xe dự định chở $120$ tấn hàng. Lúc sắp khởi hành có $2$ xe bị hỏng nên mỗi xe còn lại phải chở thêm $2$ tấn. Số xe dự định ban đầu là:",
         "options": [
           "$12$ xe",
-          "$10$ xe",
           "$15$ xe",
-          "$8$ xe"
+          "$8$ xe",
+          "$10$ xe"
         ],
         "correct": 0
       },
@@ -2384,72 +2384,72 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Một mảnh vườn hình chữ nhật có diện tích $600\\text{ m}^2$. Nếu tăng chiều dài $5\\text{ m}$ và giảm chiều rộng $2\\text{ m}$ thì diện tích không đổi. Chu vi ban đầu của mảnh vườn là:",
         "options": [
-          "$100\\text{ m}$",
           "$110\\text{ m}$",
-          "$120\\text{ m}$",
-          "$90\\text{ m}$"
+          "$100\\text{ m}$",
+          "$90\\text{ m}$",
+          "$120\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Ba máy cày cùng cày một cánh đồng. Nếu máy 1 và máy 2 cùng cày thì hoàn thành sau $12$ giờ; máy 2 và máy 3 cùng cày thì sau $15$ giờ; máy 1 và máy 3 cùng cày thì sau $20$ giờ. Cả ba máy cùng cày thì hoàn thành cánh đồng trong:",
         "options": [
-          "$10$ giờ",
-          "$8$ giờ",
           "$12$ giờ",
-          "$9$ giờ"
+          "$9$ giờ",
+          "$8$ giờ",
+          "$10$ giờ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Hai người cùng làm chung một công việc trong $16$ giờ thì xong. Nếu người 1 làm trong $3$ giờ và người 2 làm trong $6$ giờ thì chỉ hoàn thành được $25\\%$ công việc. Người thứ nhất làm một mình xong công việc trong:",
         "options": [
+          "$30$ giờ",
           "$24$ giờ",
-          "$48$ giờ",
           "$36$ giờ",
-          "$30$ giờ"
+          "$48$ giờ"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Hai người đi xe đạp khởi hành cùng một lúc từ hai điểm $A$ và $B$ cách nhau $60\\text{ km}$ đi về phía nhau và gặp nhau sau $2$ giờ. Nếu đi cùng chiều thì người đi nhanh hơn đuổi kịp người đi chậm sau $6$ giờ. Vận tốc của hai người lần lượt là:",
         "options": [
-          "$20\\text{ km/h}$ và $10\\text{ km/h}$",
           "$25\\text{ km/h}$ và $15\\text{ km/h}$",
-          "$18\\text{ km/h}$ và $12\\text{ km/h}$",
-          "$16\\text{ km/h}$ và $14\\text{ km/h}$"
+          "$16\\text{ km/h}$ và $14\\text{ km/h}$",
+          "$20\\text{ km/h}$ và $10\\text{ km/h}$",
+          "$18\\text{ km/h}$ và $12\\text{ km/h}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Một hợp kim gồm đồng và kẽm có khối lượng $124\\text{ g}$ và thể tích $15\\text{ cm}^3$. Khối lượng riêng của đồng là $8{,}9\\text{ g/cm}^3$, của kẽm là $7\\text{ g/cm}^3$. Thể tích đồng trong hợp kim xấp xỉ bằng:",
         "options": [
-          "$10\\text{ cm}^3$",
-          "$5\\text{ cm}^3$",
           "$8\\text{ cm}^3$",
-          "$7\\text{ cm}^3$"
+          "$5\\text{ cm}^3$",
+          "$7\\text{ cm}^3$",
+          "$10\\text{ cm}^3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên có ba chữ số, biết chữ số hàng trăm bằng chữ số hàng đơn vị. Nếu xóa chữ số hàng chục thì số đó giảm đi $540$ đơn vị, và tổng ba chữ số bằng $15$. Số đó là:",
         "options": [
-          "$555$",
           "$474$",
+          "$393$",
           "$636$",
-          "$393$"
+          "$555$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2600,12 +2600,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cặp số nào sau đây là nghiệm của phương trình $3x - 2y = 7$?",
         "options": [
-          "$(3; 1)$",
           "$(1; 3)$",
           "$(3; -1)$",
+          "$(3; 1)$",
           "$(2; -1)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -2613,9 +2613,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Hệ hai phương trình bậc nhất hai ẩn $\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}$ có nghiệm duy nhất khi:",
         "options": [
           "$\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$",
+          "$a_1 b_2 + a_2 b_1 = 0$",
           "$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$",
-          "$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$",
-          "$a_1 b_2 + a_2 b_1 = 0$"
+          "$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$"
         ],
         "correct": 0
       },
@@ -2624,72 +2624,72 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}$ là:",
         "options": [
-          "$(7; 3)$",
           "$(3; 7)$",
-          "$(6; 4)$",
-          "$(8; 2)$"
+          "$(7; 3)$",
+          "$(8; 2)$",
+          "$(6; 4)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $0x + 3y = 6$ là đường thẳng:",
         "options": [
-          "Song song với trục hoành $Ox$",
-          "Song song với trục tung $Oy$",
+          "Trùng với trục tung $Oy$",
           "Đi qua gốc toạ độ",
-          "Trùng với trục tung $Oy$"
+          "Song song với trục tung $Oy$",
+          "Song song với trục hoành $Ox$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm $m$ để cặp số $(1; 2)$ là nghiệm của phương trình $2x + my = 8$:",
         "options": [
-          "$m = 3$",
           "$m = 2$",
+          "$m = 3$",
           "$m = 4$",
           "$m = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ 4x - 2y = 6 \\end{cases}$ có bao nhiêu nghiệm?",
         "options": [
-          "Vô số nghiệm",
-          "Vô nghiệm",
           "$1$ nghiệm",
-          "$2$ nghiệm"
+          "Vô nghiệm",
+          "$2$ nghiệm",
+          "Vô số nghiệm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Hệ phương trình $\\begin{cases} x - 2y = 1 \\\\ x - 2y = 5 \\end{cases}$ có bao nhiêu nghiệm?",
         "options": [
-          "Vô nghiệm",
           "Vô số nghiệm",
-          "$1$ nghiệm",
-          "$2$ nghiệm"
+          "Vô nghiệm",
+          "$2$ nghiệm",
+          "$1$ nghiệm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Giải hệ $\\begin{cases} 3x + y = 10 \\\\ x - 2y = 1 \\end{cases}$. Tổng $x + y$ bằng:",
         "options": [
-          "$4$",
           "$3$",
           "$5$",
-          "$2$"
+          "$2$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2708,24 +2708,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm toạ độ giao điểm của hai đường thẳng $d_1: 2x + 3y = 7$ và $d_2: x - y = 1$:",
         "options": [
-          "$(2; 1)$",
           "$(1; 2)$",
-          "$(3; 2)$",
-          "$(0; 1)$"
+          "$(0; 1)$",
+          "$(2; 1)$",
+          "$(3; 2)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Một ô tô đi từ $A$ đến $B$ với vận tốc $60\\text{ km/h}$ rồi quay về $A$ với vận tốc $40\\text{ km/h}$. Tổng thời gian cả đi và về là $5$ giờ. Quãng đường $AB$ dài:",
         "options": [
-          "$120\\text{ km}$",
-          "$150\\text{ km}$",
           "$100\\text{ km}$",
-          "$180\\text{ km}$"
+          "$180\\text{ km}$",
+          "$120\\text{ km}$",
+          "$150\\text{ km}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2733,8 +2733,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho hệ $\\begin{cases} mx + y = 2 \\\\ x + my = 2 \\end{cases}$. Hệ có nghiệm duy nhất khi:",
         "options": [
           "$m \\neq \\pm 1$",
-          "$m \\neq 1$",
           "$m \\neq -1$",
+          "$m \\neq 1$",
           "$m = 1$"
         ],
         "correct": 0
@@ -2888,48 +2888,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hệ $\\begin{cases} x + 2y = 1 \\\\ 2x + 4y = 2 \\end{cases}$. Số nghiệm của hệ là:",
         "options": [
-          "Vô số nghiệm",
-          "Vô nghiệm",
           "$1$ nghiệm",
+          "Vô nghiệm",
+          "Vô số nghiệm",
           "$2$ nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Nghiệm của hệ phương trình $\\begin{cases} 2x - 3y = 1 \\\\ x + 2y = 4 \\end{cases}$ là:",
         "options": [
-          "$(2; 1)$",
           "$(1; 2)$",
+          "$(0; 2)$",
           "$(3; 1)$",
-          "$(0; 2)$"
+          "$(2; 1)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm $a$ để đồ thị hàm số $y = ax + 3$ đi qua giao điểm của hai đường thẳng $x + y = 3$ và $2x - y = 0$:",
         "options": [
-          "$a = -0{,}5$",
-          "$a = 1$",
           "$a = -1$",
-          "$a = 0{,}5$"
+          "$a = -0{,}5$",
+          "$a = 0{,}5$",
+          "$a = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Hệ phương trình $\\begin{cases} \\frac{2}{x} + \\frac{3}{y} = 7 \\\\ \\frac{1}{x} - \\frac{1}{y} = 1 \\end{cases}$ có nghiệm $(x; y)$ là:",
         "options": [
-          "$\\left(\\frac{1}{2}; 1\\right)$",
+          "$\\left(1; \\frac{1}{2}\\right)$",
           "$(2; 1)$",
-          "$(1; 2)$",
-          "$\\left(1; \\frac{1}{2}\\right)$"
+          "$\\left(\\frac{1}{2}; 1\\right)$",
+          "$(1; 2)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -2937,9 +2937,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Hai vòi nước cùng chảy vào một bể cạn thì sau $4$ giờ đầy bể. Mỗi giờ cả hai vòi chảy được bao nhiêu phần bể?",
         "options": [
           "$\\frac{1}{4}$ bể",
+          "$\\frac{3}{4}$ bể",
           "$4$ bể",
-          "$\\frac{1}{2}$ bể",
-          "$\\frac{3}{4}$ bể"
+          "$\\frac{1}{2}$ bể"
         ],
         "correct": 0
       },
@@ -2948,12 +2948,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Biết cặp số $(x_0; y_0)$ là nghiệm của hệ $\\begin{cases} 3x - 2y = 7 \\\\ 2x + 3y = 9 \\end{cases}$. Giá trị của $x_0^2 + y_0^2$ bằng:",
         "options": [
-          "$10$",
+          "$8$",
           "$13$",
           "$25$",
-          "$8$"
+          "$10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -2961,9 +2961,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Tìm $m$ để hai đường thẳng $d_1: 2x - y = 3$ và $d_2: mx + 2y = 1$ cắt nhau tại một điểm nằm trên trục hoành:",
         "options": [
           "$m = \\frac{2}{3}$",
-          "$m = -\\frac{2}{3}$",
           "$m = 2$",
-          "$m = -2$"
+          "$m = -2$",
+          "$m = -\\frac{2}{3}$"
         ],
         "correct": 0
       },
@@ -2972,48 +2972,48 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Một ô tô đi quãng đường $AB$ với vận tốc $50\\text{ km/h}$, rồi quay về với vận tốc $60\\text{ km/h}$. Thời gian về ít hơn thời gian đi $30$ phút. Độ dài quãng đường $AB$ là:",
         "options": [
-          "$150\\text{ km}$",
+          "$200\\text{ km}$",
           "$120\\text{ km}$",
           "$180\\text{ km}$",
-          "$200\\text{ km}$"
+          "$150\\text{ km}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Tìm các số tự nhiên $x, y$ thỏa mãn $2x + 5y = 23$. Số cặp nghiệm tự nhiên là:",
         "options": [
-          "$3$",
           "$2$",
+          "$3$",
           "$4$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho hệ $\\begin{cases} x + y = 2m + 1 \\\\ x^2 + y^2 = m^2 + 2m + 3 \\end{cases}$. Tìm $m$ để hệ có nghiệm duy nhất:",
         "options": [
-          "$m = -1$ hoặc $m = \\frac{1}{3}$",
-          "$m = 1$",
+          "$m = 2$",
           "$m = 0$",
-          "$m = 2$"
+          "$m = -1$ hoặc $m = \\frac{1}{3}$",
+          "$m = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hệ $\\begin{cases} ax + by = 2 \\\\ cx + dy = 3 \\end{cases}$ có nghiệm duy nhất $(1; 1)$. Nghiệm của hệ $\\begin{cases} 2ax + 2by = 4 \\\\ 3cx + 3dy = 9 \\end{cases}$ là:",
         "options": [
-          "Vô số nghiệm",
           "Nghiệm duy nhất $(1; 1)$",
+          "Vô số nghiệm",
           "Vô nghiệm",
           "Nghiệm $(2; 3)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -3021,9 +3021,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Hai người khởi hành cùng một lúc từ hai địa điểm cách nhau $21\\text{ km}$ và đi ngược chiều nhau. Sau $3$ giờ thì gặp nhau. Vận tốc người đi nhanh hơn người đi chậm $1\\text{ km/h}$. Vận tốc người đi nhanh là:",
         "options": [
           "$4\\text{ km/h}$",
-          "$3\\text{ km/h}$",
           "$5\\text{ km/h}$",
-          "$3{,}5\\text{ km/h}$"
+          "$3{,}5\\text{ km/h}$",
+          "$3\\text{ km/h}$"
         ],
         "correct": 0
       }
@@ -3176,12 +3176,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Nhận biết",
         "question": "Hệ hai phương trình bậc nhất hai ẩn có thể có bao nhiêu trường hợp về số nghiệm?",
         "options": [
-          "Có 3 trường hợp: 1 nghiệm duy nhất, vô nghiệm, hoặc vô số nghiệm",
           "Chỉ có 1 nghiệm duy nhất",
           "Có 2 trường hợp: có nghiệm hoặc vô nghiệm",
-          "Luôn có nghiệm"
+          "Luôn có nghiệm",
+          "Có 3 trường hợp: 1 nghiệm duy nhất, vô nghiệm, hoặc vô số nghiệm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -3189,9 +3189,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho hệ $\\begin{cases} 2x - y = 3 \\\\ ax + 2y = b \\end{cases}$. Hệ có vô số nghiệm khi:",
         "options": [
           "$a = -4$ và $b = -6$",
+          "$a = 2$ và $b = 3$",
           "$a = 4$ và $b = 6$",
-          "$a = -4$ và $b = 6$",
-          "$a = 2$ và $b = 3$"
+          "$a = -4$ và $b = 6$"
         ],
         "correct": 0
       },
@@ -3200,24 +3200,24 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết cặp số $(x; y)$ thỏa mãn $\\begin{cases} x + y = 3 \\\\ xy = 2 \\end{cases}$. Giá trị của $|x - y|$ là:",
         "options": [
-          "$1$",
-          "$2$",
           "$0$",
-          "$3$"
+          "$1$",
+          "$3$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho hệ $\\begin{cases} mx + y = 1 \\\\ x + my = 1 \\end{cases}$. Giá trị nhỏ nhất của $x^2 + y^2$ khi $m = 2$ là:",
         "options": [
-          "$\\frac{2}{9}$",
           "$\\frac{1}{9}$",
           "$1$",
-          "$\\frac{4}{9}$"
+          "$\\frac{4}{9}$",
+          "$\\frac{2}{9}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -3225,9 +3225,9 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Một người chèo thuyền xuôi dòng $12\\text{ km}$ rồi ngược dòng $12\\text{ km}$ hết tất cả $2$ giờ $30$ phút. Vận tốc dòng nước là $2\\text{ km/h}$. Vận tốc thực của thuyền là:",
         "options": [
           "$10\\text{ km/h}$",
-          "$8\\text{ km/h}$",
           "$12\\text{ km/h}$",
-          "$9\\text{ km/h}$"
+          "$9\\text{ km/h}$",
+          "$8\\text{ km/h}$"
         ],
         "correct": 0
       },
@@ -3236,60 +3236,60 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng",
         "question": "Giải hệ phương trình $\\begin{cases} x^2 + y^2 + xy = 7 \\\\ x + y = 3 \\end{cases}$. Số cặp nghiệm $(x; y)$ của hệ là:",
         "options": [
-          "$2$",
           "$1$",
+          "$2$",
           "$0$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Tìm $m$ để ba đường thẳng $2x - y = 1$, $x + y = 2$ và $mx + 3y = 5$ đồng quy:",
         "options": [
-          "$m = 2$",
+          "$m = 3$",
           "$m = 1$",
-          "$m = -1$",
-          "$m = 3$"
+          "$m = 2$",
+          "$m = -1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho hệ $\\begin{cases} x^3 + y^3 = 9 \\\\ x + y = 3 \\end{cases}$. Tích $xy$ bằng:",
         "options": [
-          "$2$",
-          "$1$",
           "$3$",
-          "$0$"
+          "$0$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để hệ $\\begin{cases} mx + 2y = m + 1 \\\\ 2x + my = 3 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0$ và $y > 0$:",
         "options": [
-          "$m > 2$",
           "$m < -2$",
-          "$-2 < m < 2$",
-          "$m = 2$"
+          "$m > 2$",
+          "$m = 2$",
+          "$-2 < m < 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Giải hệ $\\begin{cases} \\sqrt{x} + \\sqrt{y} = 5 \\\\ \\sqrt{xy} = 6 \\end{cases}$. Cặp nghiệm $(x; y)$ là:",
         "options": [
-          "$\\{(4; 9), (9; 4)\\}$",
           "$\\{(1; 16), (16; 1)\\}$",
-          "$\\{(2; 3), (3; 2)\\}$",
-          "$\\{(5; 0), (0; 5)\\}$"
+          "$\\{(5; 0), (0; 5)\\}$",
+          "$\\{(4; 9), (9; 4)\\}$",
+          "$\\{(2; 3), (3; 2)\\}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -3297,8 +3297,8 @@ const CHAPTER1_TOAN9_EXAMS = {
         "question": "Cho hệ $\\begin{cases} x^2 - y^2 = 5 \\\\ x - y = 1 \\end{cases}$. Giá trị của $x^2 + y^2$ là:",
         "options": [
           "$13$",
-          "$25$",
           "$17$",
+          "$25$",
           "$10$"
         ],
         "correct": 0
@@ -3308,12 +3308,12 @@ const CHAPTER1_TOAN9_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số cặp nghiệm nguyên $(x; y)$ của phương trình $xy - 2x - 3y = 1$ là:",
         "options": [
-          "$4$",
-          "$2$",
           "$6$",
-          "$8$"
+          "$8$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

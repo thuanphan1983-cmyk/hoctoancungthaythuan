@@ -9,8 +9,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Hai góc kề bù là hai góc:",
         "options": [
           "Vừa kề nhau vừa bù nhau (có tổng số đo bằng $180^\\circ$)",
-          "Có tổng số đo bằng $90^\\circ$",
           "Có chung một cạnh và không có điểm trong chung",
+          "Có tổng số đo bằng $90^\\circ$",
           "Có hai cạnh là hai tia đối nhau"
         ],
         "correct": 0
@@ -20,48 +20,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai góc đối đỉnh là hai góc mà:",
         "options": [
-          "Mỗi cạnh của góc này là tia đối của một cạnh của góc kia",
           "Có tổng số đo bằng $180^\\circ$",
           "Có chung đỉnh và bằng nhau",
+          "Mỗi cạnh của góc này là tia đối của một cạnh của góc kia",
           "Nằm đối diện nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là đúng về hai góc đối đỉnh?",
         "options": [
+          "Hai góc đối đỉnh có tổng số đo bằng $180^\\circ$",
           "Hai góc đối đỉnh thì bằng nhau",
           "Hai góc bằng nhau thì đối đỉnh",
-          "Hai góc đối đỉnh có tổng số đo bằng $180^\\circ$",
           "Hai góc đối đỉnh luôn là góc nhọn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tia phân giác của một góc là tia:",
         "options": [
-          "Nằm trong góc và tạo với hai cạnh của góc đó hai góc bằng nhau",
-          "Nằm ngoài góc đó",
+          "Cắt cạnh đối diện của góc",
           "Vuông góc với một cạnh của góc",
-          "Cắt cạnh đối diện của góc"
+          "Nằm ngoài góc đó",
+          "Nằm trong góc và tạo với hai cạnh của góc đó hai góc bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Nếu tia $Oz$ là tia phân giác của góc $\\widehat{xOy}$ có số đo $80^\\circ$ thì số đo của góc $\\widehat{xOz}$ bằng:",
         "options": [
+          "$20^\\circ$",
           "$40^\\circ$",
-          "$80^\\circ$",
           "$160^\\circ$",
-          "$20^\\circ$"
+          "$80^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -69,9 +69,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Hai góc bù nhau là hai góc có tổng số đo bằng:",
         "options": [
           "$180^\\circ$",
-          "$90^\\circ$",
           "$360^\\circ$",
-          "$60^\\circ$"
+          "$60^\\circ$",
+          "$90^\\circ$"
         ],
         "correct": 0
       },
@@ -80,24 +80,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hai góc $\\widehat{xOy}$ và $\\widehat{yOz}$ kề bù. Biết $\\widehat{xOy} = 60^\\circ$, số đo của góc $\\widehat{yOz}$ là:",
         "options": [
-          "$120^\\circ$",
-          "$30^\\circ$",
+          "$180^\\circ$",
           "$60^\\circ$",
-          "$180^\\circ$"
+          "$30^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$. Biết $\\widehat{AOC} = 50^\\circ$. Số đo của góc đối đỉnh $\\widehat{BOD}$ là:",
         "options": [
+          "$180^\\circ$",
           "$50^\\circ$",
-          "$130^\\circ$",
           "$40^\\circ$",
-          "$180^\\circ$"
+          "$130^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -105,9 +105,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Hai góc phụ nhau là hai góc có tổng số đo bằng:",
         "options": [
           "$90^\\circ$",
+          "$360^\\circ$",
           "$180^\\circ$",
-          "$45^\\circ$",
-          "$360^\\circ$"
+          "$45^\\circ$"
         ],
         "correct": 0
       },
@@ -116,36 +116,36 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\widehat{xOy} = 110^\\circ$. Góc kề bù với $\\widehat{xOy}$ có số đo bằng:",
         "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
           "$90^\\circ$",
-          "$80^\\circ$"
+          "$80^\\circ$",
+          "$70^\\circ$",
+          "$110^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tia $Ot$ là tia phân giác của $\\widehat{mOn}$. Biết $\\widehat{mOt} = 35^\\circ$, số đo của $\\widehat{mOn}$ là:",
         "options": [
-          "$70^\\circ$",
-          "$35^\\circ$",
           "$17,5^\\circ$",
-          "$140^\\circ$"
+          "$140^\\circ$",
+          "$70^\\circ$",
+          "$35^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Số đo góc tạo bởi hai tia phân giác của hai góc kề bù bằng:",
         "options": [
-          "$90^\\circ$",
           "$180^\\circ$",
+          "$60^\\circ$",
           "$45^\\circ$",
-          "$60^\\circ$"
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -265,24 +265,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$, biết $\\widehat{xOy} = 2\\widehat{yOz}$. Số đo góc $\\widehat{xOy}$ là:",
         "options": [
-          "$120^\\circ$",
           "$60^\\circ$",
-          "$90^\\circ$",
-          "$100^\\circ$"
+          "$120^\\circ$",
+          "$100^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho hai góc đối đỉnh $\\widehat{AOB}$ và $\\widehat{COD}$. Biết $\\widehat{AOB} + \\widehat{COD} = 140^\\circ$. Số đo của góc $\\widehat{AOC}$ là:",
         "options": [
-          "$110^\\circ$",
           "$70^\\circ$",
+          "$40^\\circ$",
           "$140^\\circ$",
-          "$40^\\circ$"
+          "$110^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -290,9 +290,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Tia $Oz$ nằm giữa hai tia $Ox$ và $Oy$ sao cho $\\widehat{xOz} = 40^\\circ$ và $\\widehat{yOz} = 40^\\circ$. Kết luận nào sau đây đúng?",
         "options": [
           "$Oz$ là tia phân giác của $\\widehat{xOy}$",
+          "$Oz$ là tia đối của $Ox$",
           "$Oz$ vuông góc với $Ox$",
-          "$\\widehat{xOy} = 40^\\circ$",
-          "$Oz$ là tia đối của $Ox$"
+          "$\\widehat{xOy} = 40^\\circ$"
         ],
         "correct": 0
       },
@@ -301,60 +301,60 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho góc $\\widehat{xOy} = 120^\\circ$, tia phân giác $Oz$. Vẽ tia $Ot$ nằm trong góc $\\widehat{xOy}$ sao cho $\\widehat{xOt} = 30^\\circ$. Số đo góc $\\widehat{zOt}$ là:",
         "options": [
-          "$30^\\circ$",
-          "$60^\\circ$",
+          "$45^\\circ$",
           "$90^\\circ$",
-          "$45^\\circ$"
+          "$30^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$. Biết $\\widehat{xOy} - \\widehat{xOy'} = 40^\\circ$. Số đo góc $\\widehat{xOy}$ là:",
         "options": [
+          "$140^\\circ$",
           "$110^\\circ$",
           "$70^\\circ$",
-          "$140^\\circ$",
           "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho ba tia chung gốc $Ox, Oy, Oz$ sao cho $\\widehat{xOy} = 80^\\circ, \\widehat{yOz} = 60^\\circ, \\widehat{xOz} = 140^\\circ$. Tia nằm giữa hai tia còn lại là:",
         "options": [
-          "Tia $Oy$",
-          "Tia $Ox$",
+          "Không có tia nào nằm giữa",
           "Tia $Oz$",
-          "Không có tia nào nằm giữa"
+          "Tia $Oy$",
+          "Tia $Ox$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Góc tạo bởi hai tia phân giác của hai góc kề nhau có tổng số đo bằng $150^\\circ$ là:",
         "options": [
-          "$75^\\circ$",
-          "$150^\\circ$",
           "$90^\\circ$",
-          "$60^\\circ$"
+          "$60^\\circ$",
+          "$75^\\circ$",
+          "$150^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho $\\widehat{xOy} = 70^\\circ$. Vẽ tia $Oz$ là tia đối của $Ox$, tia $Ot$ là tia đối của $Oy$. Góc đối đỉnh với $\\widehat{yOz}$ là:",
         "options": [
-          "$\\widehat{xOt}$",
           "$\\widehat{xOy}$",
+          "$\\widehat{yOt}$",
           "$\\widehat{zOt}$",
-          "$\\widehat{yOt}$"
+          "$\\widehat{xOt}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -362,9 +362,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho 4 đường thẳng phân biệt cùng đi qua điểm $O$. Số cặp góc đối đỉnh (khác góc bẹt) tạo thành là:",
         "options": [
           "$12$",
+          "$6$",
           "$8$",
-          "$16$",
-          "$6$"
+          "$16$"
         ],
         "correct": 0
       },
@@ -385,24 +385,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $\\widehat{xOy} = 100^\\circ$. Tia $Oz$ nằm giữa $Ox$ và $Oy$ sao cho $\\widehat{xOz} = 2\\widehat{zOy}$. Số đo góc $\\widehat{xOz}$ là:",
         "options": [
-          "$\\frac{200^\\circ}{3}$",
+          "$75^\\circ$",
           "$50^\\circ$",
           "$60^\\circ$",
-          "$75^\\circ$"
+          "$\\frac{200^\\circ}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho hai góc kề bù $\\widehat{AOB}$ và $\\widehat{BOC}$. Biết tia phân giác của $\\widehat{AOB}$ hợp với tia $OC$ một góc $130^\\circ$. Số đo $\\widehat{AOB}$ là:",
         "options": [
+          "$120^\\circ$",
           "$100^\\circ$",
           "$80^\\circ$",
-          "$120^\\circ$",
           "$50^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -522,36 +522,36 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $n$ đường thẳng phân biệt cùng đi qua điểm $O$ ($n \\geq 2$). Số cặp góc đối đỉnh (nhỏ hơn $180^\\circ$) được tạo thành là:",
         "options": [
-          "$n(n - 1)$",
           "$2n(n - 1)$",
           "$\\frac{n(n - 1)}{2}$",
+          "$n(n - 1)$",
           "$n^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Cho góc $\\widehat{xOy} = 140^\\circ$. Vẽ phía ngoài góc đó hai tia $Oz \\perp Ox$ và $Ot \\perp Oy$. Số đo góc $\\widehat{zOt}$ là:",
         "options": [
+          "$80^\\circ$",
           "$40^\\circ$",
           "$50^\\circ$",
-          "$60^\\circ$",
-          "$80^\\circ$"
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Cho hai góc kề bù $\\widehat{AOB}$ và $\\widehat{BOC}$. Biết tia phân giác $OD$ của góc $\\widehat{AOB}$ vuông góc với đường thẳng chứa tia $OB$. Khi đó góc $\\widehat{AOB}$ là:",
         "options": [
-          "Góc bẹt",
           "Góc vuông",
-          "Góc nhọn",
-          "Không tồn tại"
+          "Không tồn tại",
+          "Góc bẹt",
+          "Góc nhọn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -559,8 +559,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho góc bẹt $\\widehat{xOy}$. Trên cùng một nửa mặt phẳng bờ $xy$, vẽ 2024 tia phân biệt chung gốc $O$ (không trùng $Ox, Oy$). Số góc tạo thành đỉnh $O$ tất cả là:",
         "options": [
           "$\\frac{2026 \\cdot 2025}{2}$",
-          "$\\frac{2024 \\cdot 2023}{2}$",
           "$2024 \\cdot 2025$",
+          "$\\frac{2024 \\cdot 2023}{2}$",
           "$2026^2$"
         ],
         "correct": 0
@@ -570,24 +570,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $\\widehat{AOB} = 90^\\circ$. Bên trong góc đó vẽ hai tia $OC, OD$ sao cho $\\widehat{AOC} = \\widehat{BOD} = 60^\\circ$. Số đo góc $\\widehat{COD}$ là:",
         "options": [
-          "$30^\\circ$",
           "$45^\\circ$",
+          "$15^\\circ$",
           "$60^\\circ$",
-          "$15^\\circ$"
+          "$30^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho hai góc kề nhau $\\widehat{xOy}$ và $\\widehat{yOz}$ có tổng số đo bằng $100^\\circ$, hiệu số đo bằng $40^\\circ$. Góc tạo bởi tia phân giác của hai góc đó có số đo là:",
         "options": [
-          "$50^\\circ$",
           "$40^\\circ$",
           "$20^\\circ$",
-          "$70^\\circ$"
+          "$70^\\circ$",
+          "$50^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -595,9 +595,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho góc $\\widehat{xOy} = \\alpha$ ($0^\\circ < \\alpha < 180^\\circ$). Lấy $Om$ là phân giác của $\\widehat{xOy}$. Lấy $On$ là phân giác của $\\widehat{xOm}$. Góc $\\widehat{yOn}$ có số đo bằng:",
         "options": [
           "$\\frac{3\\alpha}{4}$",
+          "$\\frac{2\\alpha}{3}$",
           "$\\frac{\\alpha}{4}$",
-          "$\\frac{\\alpha}{2}$",
-          "$\\frac{2\\alpha}{3}$"
+          "$\\frac{\\alpha}{2}$"
         ],
         "correct": 0
       },
@@ -606,48 +606,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho ba tia $Ox, Oy, Oz$ sao cho $\\widehat{xOy} = \\widehat{yOz} = \\widehat{zOx} = 120^\\circ$. Gọi $Ox', Oy', Oz'$ lần lượt là các tia đối của $Ox, Oy, Oz$. Nhận định nào sau đây đúng?",
         "options": [
+          "Các tia $Ox', Oy'$ trùng nhau",
           "$Ox'$ là tia phân giác của $\\widehat{yOz}$",
           "$Ox'$ vuông góc với $Oy$",
-          "$\\widehat{x'Oy} = 30^\\circ$",
-          "Các tia $Ox', Oy'$ trùng nhau"
+          "$\\widehat{x'Oy} = 30^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho 6 đường thẳng phân biệt cùng đi qua điểm $O$. Số góc nhọn tạo thành (không kể góc bẹt và góc không) là:",
         "options": [
+          "$6$",
           "$60$ góc (tính cả góc đơn và góc ghép nhọn)",
           "$30$",
-          "$12$",
-          "$6$"
+          "$12$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho góc $\\widehat{xOy} = 150^\\circ$. Vẽ tia $Oz$ nằm giữa $Ox$ và $Oy$ sao cho $\\widehat{xOz} = 4\\widehat{yOz}$. Số đo góc $\\widehat{xOz}$ là:",
         "options": [
-          "$120^\\circ$",
+          "$125^\\circ$",
           "$30^\\circ$",
           "$100^\\circ$",
-          "$125^\\circ$"
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Kẻ tia $Ot$ là tia đối của $Om$. Số đo góc $\\widehat{tOn}$ là:",
         "options": [
+          "$135^\\circ$",
           "$90^\\circ$",
           "$180^\\circ$",
-          "$45^\\circ$",
-          "$135^\\circ$"
+          "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -656,8 +656,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "$40^\\circ$",
           "$30^\\circ$",
-          "$50^\\circ$",
-          "$20^\\circ$"
+          "$20^\\circ$",
+          "$50^\\circ$"
         ],
         "correct": 0
       }
@@ -780,8 +780,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Hai đường thẳng song song là hai đường thẳng:",
         "options": [
           "Không có điểm chung nào",
-          "Có đúng một điểm chung",
           "Có vô số điểm chung",
+          "Có đúng một điểm chung",
           "Cắt nhau"
         ],
         "correct": 0
@@ -791,12 +791,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai góc so le trong bằng nhau thì hai đường thẳng đó:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
+          "Vuông góc với nhau",
           "Trùng nhau",
-          "Vuông góc với nhau"
+          "Song song với nhau",
+          "Cắt nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -804,8 +804,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Nếu đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ tạo thành một cặp góc đồng vị bằng nhau thì:",
         "options": [
           "$a \\parallel b$",
-          "$a \\perp b$",
           "$a$ cắt $b$",
+          "$a \\perp b$",
           "$a$ trùng $b$"
         ],
         "correct": 0
@@ -815,48 +815,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Kí hiệu hai đường thẳng $a$ và $b$ song song với nhau là:",
         "options": [
-          "$a \\parallel b$",
+          "$a \\subset b$",
           "$a \\perp b$",
-          "$a = b$",
-          "$a \\subset b$"
+          "$a \\parallel b$",
+          "$a = b$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Hai góc trong cùng phía tạo bởi một đường thẳng cắt hai đường thẳng song song có tổng số đo bằng:",
         "options": [
-          "$180^\\circ$",
+          "$60^\\circ$",
           "$90^\\circ$",
           "$360^\\circ$",
-          "$60^\\circ$"
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Qua một điểm ở ngoài một đường thẳng, có bao nhiêu đường thẳng song song với đường thẳng đó?",
         "options": [
+          "Không có đường thẳng nào",
           "Chỉ có 1 đường thẳng duy nhất",
-          "Có 2 đường thẳng",
           "Có vô số đường thẳng",
-          "Không có đường thẳng nào"
+          "Có 2 đường thẳng"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Đường thẳng $c$ cắt $a$ và $b$ tại $A$ và $B$. Biết một cặp góc so le trong $\\widehat{A_1} = 60^\\circ$ và $\\widehat{B_1} = 60^\\circ$. Kết luận nào sau đây đúng?",
         "options": [
-          "$a \\parallel b$",
-          "$a$ cắt $b$",
+          "Không xác định",
           "$a \\perp b$",
-          "Không xác định"
+          "$a$ cắt $b$",
+          "$a \\parallel b$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -864,9 +864,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho $a \\parallel b$, đường thẳng $c$ cắt $a$ tại $A$ và cắt $b$ tại $B$. Biết $\\widehat{A_1} = 45^\\circ$. Số đo góc đồng vị $\\widehat{B_1}$ là:",
         "options": [
           "$45^\\circ$",
-          "$135^\\circ$",
+          "$60^\\circ$",
           "$90^\\circ$",
-          "$60^\\circ$"
+          "$135^\\circ$"
         ],
         "correct": 0
       },
@@ -875,48 +875,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a \\parallel b$. Một góc so le trong có số đo $75^\\circ$. Góc so le trong còn lại có số đo là:",
         "options": [
-          "$75^\\circ$",
-          "$105^\\circ$",
           "$15^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$75^\\circ$",
+          "$105^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho $a \\parallel b$. Biết một góc trong cùng phía bằng $110^\\circ$. Góc trong cùng phía còn lại có số đo là:",
         "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
           "$90^\\circ$",
-          "$80^\\circ$"
+          "$110^\\circ$",
+          "$80^\\circ$",
+          "$70^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Hình ảnh nào sau đây trong thực tế cho ta hình ảnh về hai đường thẳng song song?",
         "options": [
+          "Hai chiếc kéo đang mở",
           "Hai thanh ray của đường tàu hỏa",
-          "Hai cạnh kề nhau của mặt bàn",
           "Hai kim đồng hồ lúc 3 giờ",
-          "Hai chiếc kéo đang mở"
+          "Hai cạnh kề nhau của mặt bàn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Dấu hiệu nào sau đây KHÔNG PHẢI là dấu hiệu nhận biết hai đường thẳng song song?",
         "options": [
+          "Một cặp góc trong cùng phía bù nhau",
           "Hai góc kề bù bằng nhau",
-          "Một cặp góc so le trong bằng nhau",
           "Một cặp góc đồng vị bằng nhau",
-          "Một cặp góc trong cùng phía bù nhau"
+          "Một cặp góc so le trong bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1036,36 +1036,36 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình vẽ: $\\widehat{A} = 110^\\circ$ và $\\widehat{B} = 70^\\circ$ là hai góc trong cùng phía. Kết luận nào sau đây đúng?",
         "options": [
-          "Hai đường thẳng chứa hai góc song song với nhau",
-          "Hai đường thẳng cắt nhau",
           "Hai đường thẳng vuông góc",
+          "Hai đường thẳng cắt nhau",
+          "Hai đường thẳng chứa hai góc song song với nhau",
           "Không kết luận được"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Qua đỉnh $A$ vẽ đường thẳng $xy \\parallel BC$. Số đo góc $\\widehat{xAB}$ bằng:",
         "options": [
-          "Số đo góc $\\widehat{B}$ (so le trong)",
           "Số đo góc $\\widehat{C}$",
           "Số đo góc $\\widehat{A}$",
+          "Số đo góc $\\widehat{B}$ (so le trong)",
           "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $a \\parallel b$. Đường thẳng $c$ cắt $a$ và $b$. Biết tỉ số của hai góc trong cùng phía là $2 : 3$. Số đo của góc lớn là:",
         "options": [
-          "$108^\\circ$",
-          "$72^\\circ$",
           "$120^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$72^\\circ$",
+          "$108^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -1073,9 +1073,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hình vẽ: tia $Ax \\parallel By$. Biết $\\widehat{OAx} = 40^\\circ, \\widehat{OBy} = 50^\\circ$ (cùng hướng về phía trong). Góc $\\widehat{AOB}$ có số đo là:",
         "options": [
           "$90^\\circ$",
-          "$10^\\circ$",
           "$80^\\circ$",
-          "$100^\\circ$"
+          "$100^\\circ$",
+          "$10^\\circ$"
         ],
         "correct": 0
       },
@@ -1084,24 +1084,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho hai đường thẳng song song $a$ và $b$. Lấy điểm $M$ nằm ngoài cả hai đường thẳng. Qua $M$ vẽ được tối đa bao nhiêu đường thẳng song song với $a$?",
         "options": [
-          "Chỉ đúng $1$",
           "$2$",
+          "Chỉ đúng $1$",
           "Vô số",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Nếu hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì chúng:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
           "Trùng nhau",
-          "Vuông góc với nhau"
+          "Cắt nhau",
+          "Vuông góc với nhau",
+          "Song song với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -1120,36 +1120,36 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $a \\parallel b$ và $b \\parallel c$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$a$ cắt $c$",
-          "$a \\parallel c$",
           "Nếu $d \\perp a$ thì $d \\perp c$",
-          "Đường thẳng cắt $a$ thì cũng cắt $c$"
+          "Đường thẳng cắt $a$ thì cũng cắt $c$",
+          "$a \\parallel c$",
+          "$a$ cắt $c$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho góc $\\widehat{xOy} = 60^\\circ$. Trên tia $Ox$ lấy điểm $A$. Kẻ $Az \\parallel Oy$ (hướng vào trong). Kẻ tia phân giác $Ot$ của $\\widehat{xOy}$ và phân giác $Am$ của $\\widehat{xAz}$. Hai tia phân giác này:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
           "Trùng nhau",
+          "Cắt nhau",
+          "Song song với nhau",
           "Vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho hai đường thẳng $a$ và $b$ song song. Đường thẳng $c$ cắt $a$ tại $A$ và $b$ tại $B$. Hai tia phân giác của hai góc so le trong:",
         "options": [
+          "Cắt nhau tạo góc $60^\\circ$",
           "Song song với nhau",
-          "Vuông góc với nhau",
           "Trùng nhau",
-          "Cắt nhau tạo góc $60^\\circ$"
+          "Vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -1157,9 +1157,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hình vẽ: biết $AB \\parallel CD$. Góc $\\widehat{A} = 130^\\circ, \\widehat{C} = 140^\\circ$. Góc nhọn $\\widehat{AEC}$ ở giữa có số đo là:",
         "options": [
           "$90^\\circ$",
+          "$70^\\circ$",
           "$80^\\circ$",
-          "$100^\\circ$",
-          "$70^\\circ$"
+          "$100^\\circ$"
         ],
         "correct": 0
       },
@@ -1168,12 +1168,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hai góc có cạnh tương ứng song song, một góc nhọn và một góc tù. Mối quan hệ giữa hai góc đó là:",
         "options": [
+          "Không có mối liên hệ",
           "Bù nhau (tổng bằng $180^\\circ$)",
           "Bằng nhau",
-          "Phụ nhau",
-          "Không có mối liên hệ"
+          "Phụ nhau"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1293,48 +1293,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình vẽ: $Ax \\parallel By$. Biết $\\widehat{A} = 120^\\circ, \\widehat{B} = 130^\\circ$. Điểm $C$ nằm giữa hai đường thẳng sao cho góc $\\widehat{ACB}$ quay về phía ngược lại. Số đo góc $\\widehat{ACB}$ là:",
         "options": [
-          "$110^\\circ$",
           "$70^\\circ$",
+          "$100^\\circ$",
           "$90^\\circ$",
-          "$100^\\circ$"
+          "$110^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Hai góc $\\widehat{xOy}$ và $\\widehat{x'O'y'}$ có $Ox \\parallel O'x'$ và $Oy \\parallel O'y'$. Nếu $\\widehat{xOy} = 50^\\circ$ thì $\\widehat{x'O'y'}$ bằng:",
         "options": [
+          "$40^\\circ$",
           "$50^\\circ$ hoặc $130^\\circ$",
           "$50^\\circ$",
-          "$130^\\circ$",
-          "$40^\\circ$"
+          "$130^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Cho hai đường thẳng $a \\parallel b$. Lấy 5 điểm phân biệt trên $a$ và 6 điểm phân biệt trên $b$. Nối các cặp điểm để tạo thành các đoạn thẳng. Số đoạn thẳng nối 1 điểm trên $a$ với 1 điểm trên $b$ là:",
         "options": [
-          "$30$",
+          "$60$",
           "$11$",
-          "$55$",
-          "$60$"
+          "$30$",
+          "$55$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Từ điểm $D$ trên cạnh $BC$ kẻ $DE \\parallel AB$ ($E \\in AC$) và $DF \\parallel AC$ ($F \\in AB$). Tứ giác $AEDF$ có các góc đối:",
         "options": [
-          "Bằng nhau",
-          "Bù nhau",
           "Phụ nhau",
-          "Không bằng nhau"
+          "Không bằng nhau",
+          "Bằng nhau",
+          "Bù nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -1353,33 +1353,33 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho góc $\\widehat{xOy} = 90^\\circ$. Điểm $A$ nằm trong góc. Kẻ $AB \\perp Ox$ và $AC \\perp Oy$. Nhận xét nào sau đây đúng?",
         "options": [
-          "$AB \\parallel Oy$ và $AC \\parallel Ox$",
           "$AB \\perp AC$",
+          "Cả ba nhận xét đều đúng",
           "Tứ giác $ABOC$ có 4 góc vuông",
-          "Cả ba nhận xét đều đúng"
+          "$AB \\parallel Oy$ và $AC \\parallel Ox$"
         ],
-        "correct": 3
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho $a \\parallel b$. Đường thẳng $c$ cắt $a, b$. Hai tia phân giác của hai góc đồng vị tương ứng:",
         "options": [
-          "Song song với nhau",
           "Vuông góc với nhau",
+          "Cắt nhau",
           "Trùng nhau",
-          "Cắt nhau"
+          "Song song với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho hình vẽ có $Ax \\parallel By$. Số đo góc $\\widehat{AOB}$ thỏa mãn công thức:",
         "options": [
-          "$\\widehat{AOB} = 360^\\circ - (\\widehat{A} + \\widehat{B})$ khi góc quay ra ngoài",
           "$\\widehat{AOB} = \\widehat{A} + \\widehat{B}$",
           "$\\widehat{AOB} = |\\widehat{A} - \\widehat{B}|$",
+          "$\\widehat{AOB} = 360^\\circ - (\\widehat{A} + \\widehat{B})$ khi góc quay ra ngoài",
           "Tùy thuộc vào hình vẽ cụ thể"
         ],
         "correct": 3
@@ -1391,8 +1391,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "$a$ cũng cắt $c$",
           "$a \\parallel c$",
-          "$a \\perp c$",
-          "$a$ trùng $c$"
+          "$a$ trùng $c$",
+          "$a \\perp c$"
         ],
         "correct": 0
       },
@@ -1401,24 +1401,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Kẻ tia phân giác $AD$ của góc $A$. Từ $D$ kẻ đường thẳng song song với $AB$ cắt $AC$ tại $E$. Tam giác $ADE$ là:",
         "options": [
-          "Tam giác có hai góc ở đáy bằng nhau (tam giác cân)",
-          "Tam giác đều",
           "Tam giác vuông",
+          "Tam giác đều",
+          "Tam giác có hai góc ở đáy bằng nhau (tam giác cân)",
           "Tam giác vuông cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hình bình hành $ABCD$. Góc $\\widehat{A} = 120^\\circ$. Số đo các góc $\\widehat{B}, \\widehat{C}, \\widehat{D}$ lần lượt là:",
         "options": [
+          "$60^\\circ, 60^\\circ, 120^\\circ$",
           "$60^\\circ, 120^\\circ, 60^\\circ$",
           "$120^\\circ, 60^\\circ, 60^\\circ$",
-          "$60^\\circ, 60^\\circ, 120^\\circ$",
           "$90^\\circ, 90^\\circ, 90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -1427,8 +1427,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "$\\frac{2024 \\cdot 2023}{2} - \\frac{24 \\cdot 23}{2}$",
           "$\\frac{2024 \\cdot 2023}{2}$",
-          "$2024 \\cdot 24$",
-          "$\\frac{2000 \\cdot 1999}{2}$"
+          "$\\frac{2000 \\cdot 1999}{2}$",
+          "$2024 \\cdot 24$"
         ],
         "correct": 0
       }
@@ -1550,24 +1550,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Nội dung tiên đề Euclid khẳng định: Qua một điểm ở ngoài một đường thẳng:",
         "options": [
-          "Chỉ có một đường thẳng song song với đường thẳng đó",
-          "Có ít nhất một đường thẳng song song với đường thẳng đó",
           "Có vô số đường thẳng song song với đường thẳng đó",
-          "Có đúng hai đường thẳng song song với đường thẳng đó"
+          "Có ít nhất một đường thẳng song song với đường thẳng đó",
+          "Có đúng hai đường thẳng song song với đường thẳng đó",
+          "Chỉ có một đường thẳng song song với đường thẳng đó"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Nếu hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì chúng:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
           "Trùng nhau",
-          "Vuông góc với nhau"
+          "Cắt nhau",
+          "Vuông góc với nhau",
+          "Song song với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -1575,9 +1575,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Nếu một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó:",
         "options": [
           "Vuông góc với đường thẳng kia",
-          "Song song với đường thẳng kia",
+          "Không cắt đường thẳng kia",
           "Trùng với đường thẳng kia",
-          "Không cắt đường thẳng kia"
+          "Song song với đường thẳng kia"
         ],
         "correct": 0
       },
@@ -1586,24 +1586,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng:",
         "options": [
-          "Song song với nhau",
           "Vuông góc với nhau",
           "Cắt nhau",
+          "Song song với nhau",
           "Trùng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Cho $a \\parallel b$ và $c \\perp a$. Kết luận nào sau đây đúng?",
         "options": [
-          "$c \\perp b$",
           "$c \\parallel b$",
-          "$a \\perp b$",
-          "$c$ trùng $b$"
+          "$c$ trùng $b$",
+          "$c \\perp b$",
+          "$a \\perp b$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -1611,9 +1611,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho ba đường thẳng $a, b, c$. Biết $a \\parallel b$ và $b \\parallel c$. Kết luận nào sau đây đúng?",
         "options": [
           "$a \\parallel c$",
-          "$a \\perp c$",
           "$a$ cắt $c$",
-          "$a$ trùng $c$"
+          "$a$ trùng $c$",
+          "$a \\perp c$"
         ],
         "correct": 0
       },
@@ -1622,12 +1622,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và $b$ tại $B$. Biết $\\widehat{A_1} = 70^\\circ$ (so le trong với $\\widehat{B_1}$). Số đo $\\widehat{B_1}$ là:",
         "options": [
+          "$20^\\circ$",
           "$70^\\circ$",
           "$110^\\circ$",
-          "$20^\\circ$",
           "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -1635,9 +1635,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho $a \\parallel b$. Hai góc trong cùng phía có số đo là $\\widehat{A}$ và $\\widehat{B}$. Biết $\\widehat{A} = 100^\\circ$, số đo $\\widehat{B}$ là:",
         "options": [
           "$80^\\circ$",
-          "$100^\\circ$",
+          "$180^\\circ$",
           "$90^\\circ$",
-          "$180^\\circ$"
+          "$100^\\circ$"
         ],
         "correct": 0
       },
@@ -1646,48 +1646,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Qua điểm $M$ nằm ngoài đường thẳng $d$, một học sinh vẽ được hai đường thẳng $a$ và $b$ cùng đi qua $M$ và cùng song song với $d$. Khi đó:",
         "options": [
-          "Hai đường thẳng $a$ và $b$ phải trùng nhau",
           "Học sinh vẽ đúng",
           "Hai đường thẳng $a$ và $b$ vuông góc",
-          "Hai đường thẳng $a$ và $b$ cắt nhau"
+          "Hai đường thẳng $a$ và $b$ cắt nhau",
+          "Hai đường thẳng $a$ và $b$ phải trùng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Qua $A$ vẽ đường thẳng $d \\parallel BC$. Hỏi có bao nhiêu đường thẳng như vậy?",
         "options": [
-          "$1$",
-          "$2$",
           "$0$",
-          "Vô số"
+          "Vô số",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Nếu đường thẳng $c$ cắt hai đường thẳng song song $a$ và $b$ thì:",
         "options": [
+          "Hai góc đồng vị bù nhau",
           "Hai góc so le trong bằng nhau",
           "Hai góc trong cùng phía bằng nhau",
-          "Hai góc đồng vị bù nhau",
           "Hai góc so le trong bù nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Biết $x \\perp y$ và $y \\perp z$. Khi đó quan hệ giữa $x$ và $z$ là:",
         "options": [
-          "$x \\parallel z$ (nếu $x, z$ phân biệt)",
           "$x \\perp z$",
-          "$x$ cắt $z$",
-          "$x$ trùng $y$"
+          "$x \\parallel z$ (nếu $x, z$ phân biệt)",
+          "$x$ trùng $y$",
+          "$x$ cắt $z$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1819,36 +1819,36 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho ba đường thẳng phân biệt $a, b, c$. Biết $a \\perp b$ và $a \\perp c$. Khi đó:",
         "options": [
-          "$b \\parallel c$",
-          "$b \\perp c$",
+          "$b$ trùng $c$",
           "$b$ cắt $c$",
-          "$b$ trùng $c$"
+          "$b \\parallel c$",
+          "$b \\perp c$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho hình vẽ: biết $a \\parallel b$. Góc $\\widehat{A} = 50^\\circ$ và $\\widehat{B} = 70^\\circ$. Góc $\\widehat{AOB}$ nhọn ở giữa (với $Ox \\parallel a$) có số đo là:",
         "options": [
+          "$100^\\circ$",
           "$120^\\circ$",
           "$20^\\circ$",
-          "$60^\\circ$",
-          "$100^\\circ$"
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$. Qua mỗi đỉnh của tam giác, vẽ đường thẳng song song với cạnh đối diện. Số tam giác nhỏ bằng tam giác $ABC$ được tạo thành bên trong hình lớn là:",
         "options": [
+          "$1$",
           "$4$",
           "$3$",
-          "$2$",
-          "$1$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -1856,8 +1856,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho $\\widehat{xOy} = 70^\\circ$. Trên tia $Ox$ lấy điểm $A$. Kẻ tia $Az \\parallel Oy$. Kẻ tia phân giác $Om$ của $\\widehat{xOy}$ và $An$ của $\\widehat{xAz}$. Hai tia phân giác này:",
         "options": [
           "Song song với nhau",
-          "Vuông góc với nhau",
           "Trùng nhau",
+          "Vuông góc với nhau",
           "Cắt nhau tạo góc $35^\\circ$"
         ],
         "correct": 0
@@ -1867,48 +1867,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho bốn đường thẳng phân biệt $a, b, c, d$. Biết $a \\parallel b,\\ b \\parallel c$ và $c \\perp d$. Khẳng định nào sau đây SAI?",
         "options": [
-          "$a \\parallel d$",
-          "$a \\perp d$",
+          "$a \\parallel c$",
           "$b \\perp d$",
-          "$a \\parallel c$"
+          "$a \\perp d$",
+          "$a \\parallel d$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ và $b$. Hai tia phân giác của hai góc trong cùng phía:",
         "options": [
-          "Vuông góc với nhau",
+          "Tạo với nhau góc $60^\\circ$",
           "Song song với nhau",
           "Trùng nhau",
-          "Tạo với nhau góc $60^\\circ$"
+          "Vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho hình vẽ có $AB \\parallel CD$. Góc $\\widehat{BAE} = 130^\\circ, \\widehat{DCE} = 120^\\circ$. Số đo góc $\\widehat{AEC}$ là:",
         "options": [
-          "$110^\\circ$",
-          "$70^\\circ$",
+          "$80^\\circ$",
           "$90^\\circ$",
-          "$80^\\circ$"
+          "$110^\\circ$",
+          "$70^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho góc $\\widehat{xOy}$ nhọn. Lấy điểm $A$ trên $Ox$, điểm $B$ trên $Oy$. Vẽ $Am \\perp Ox, Bn \\perp Oy$. Nếu $Am$ cắt $Bn$ tại $I$ thì:",
         "options": [
-          "$\\widehat{AIB} + \\widehat{xOy} = 180^\\circ$",
           "$\\widehat{AIB} = \\widehat{xOy}$",
           "$\\widehat{AIB} = 90^\\circ$",
-          "$\\widehat{AIB} + \\widehat{xOy} = 90^\\circ$"
+          "$\\widehat{AIB} + \\widehat{xOy} = 90^\\circ$",
+          "$\\widehat{AIB} + \\widehat{xOy} = 180^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -1917,8 +1917,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "Góc vuông ($90^\\circ$)",
           "Góc nhọn ($80^\\circ$)",
-          "Góc tù ($100^\\circ$)",
-          "Không xác định"
+          "Không xác định",
+          "Góc tù ($100^\\circ$)"
         ],
         "correct": 0
       },
@@ -1927,24 +1927,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Nếu hai góc có cạnh tương ứng vuông góc cùng là góc nhọn thì chúng:",
         "options": [
-          "Bằng nhau",
+          "Không bằng nhau",
           "Bù nhau",
-          "Phụ nhau",
-          "Không bằng nhau"
+          "Bằng nhau",
+          "Phụ nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho đường thẳng $d$ và 10 điểm phân biệt nằm ngoài $d$. Qua mỗi điểm vẽ một đường thẳng song song với $d$. Số đường thẳng song song phân biệt tối đa có thể vẽ được là:",
         "options": [
-          "$10$",
           "$1$",
-          "$9$",
-          "Vô số"
+          "$10$",
+          "Vô số",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2064,24 +2064,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho góc $\\widehat{xOy} = \\alpha$. Lấy điểm $A$ trên $Ox$, điểm $B$ trên $Oy$. Vẽ $Az \\parallel Oy$ và $Bt \\parallel Ox$. Tứ giác $OAZB$ là:",
         "options": [
-          "Hình bình hành",
-          "Hình chữ nhật",
+          "Hình thang cân",
           "Hình thoi",
-          "Hình thang cân"
+          "Hình chữ nhật",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Cho hình zíc-zắc có $n$ đỉnh nằm xen kẽ giữa hai đường thẳng song song $d_1$ và $d_2$. Tổng các góc quay sang trái luôn:",
         "options": [
+          "Bằng $180^\\circ$",
           "Bằng tổng các góc quay sang phải",
           "Lớn hơn tổng các góc quay sang phải",
-          "Nhỏ hơn tổng các góc quay sang phải",
-          "Bằng $180^\\circ$"
+          "Nhỏ hơn tổng các góc quay sang phải"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -2089,9 +2089,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hình vẽ: $Ax \\parallel By$. Biết $\\widehat{A} = 150^\\circ, \\widehat{B} = 140^\\circ$. Góc $\\widehat{AOB}$ ngoài (hướng ra ngoài) có số đo là:",
         "options": [
           "$70^\\circ$",
-          "$110^\\circ$",
+          "$80^\\circ$",
           "$90^\\circ$",
-          "$80^\\circ$"
+          "$110^\\circ$"
         ],
         "correct": 0
       },
@@ -2100,12 +2100,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Kẻ phân giác $AD$ của góc $A$. Qua $D$ kẻ $DE \\parallel AB$ ($E \\in AC$). Qua $E$ kẻ $EF \\parallel BC$ ($F \\in AB$). Khẳng định nào sau đây SAI?",
         "options": [
-          "$AE = BF$",
           "$AE = DE$",
-          "$DE \\parallel AB$",
-          "Tam giác $ADE$ có hai góc bằng nhau"
+          "$AE = BF$",
+          "Tam giác $ADE$ có hai góc bằng nhau",
+          "$DE \\parallel AB$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -2113,9 +2113,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho $a \\parallel b$. Lấy điểm $M$ trên $a$, điểm $N$ trên $b$. Điểm $P$ thỏa mãn $\\widehat{PMa} = 30^\\circ$ và $\\widehat{PNb} = 40^\\circ$. Số đo góc $\\widehat{MPN}$ có thể là:",
         "options": [
           "$70^\\circ$ hoặc $10^\\circ$",
+          "$110^\\circ$",
           "$70^\\circ$",
-          "$10^\\circ$",
-          "$110^\\circ$"
+          "$10^\\circ$"
         ],
         "correct": 0
       },
@@ -2124,84 +2124,84 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Trong một mặt phẳng, nếu có 100 đường thẳng đôi một cắt nhau và không có ba đường thẳng nào đồng quy, thì số giao điểm là:",
         "options": [
-          "$4950$",
           "$5000$",
           "$9900$",
-          "$100$"
+          "$100$",
+          "$4950$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho hai góc nhọn có cạnh tương ứng song song. Hai tia phân giác của hai góc đó:",
         "options": [
-          "Song song với nhau",
           "Vuông góc với nhau",
-          "Trùng nhau",
-          "Cắt nhau tạo góc $45^\\circ$"
+          "Cắt nhau tạo góc $45^\\circ$",
+          "Song song với nhau",
+          "Trùng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho hình bình hành $ABCD$. Tia phân giác góc $A$ và tia phân giác góc $B$ cắt nhau tại $I$. Số đo góc $\\widehat{AIB}$ là:",
         "options": [
-          "$90^\\circ$",
-          "$60^\\circ$",
+          "$45^\\circ$",
           "$120^\\circ$",
-          "$45^\\circ$"
+          "$90^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho hai đường thẳng $a \\parallel b$. Điểm $O$ nằm giữa hai đường thẳng. Kẻ $OM \\perp a$ và $ON \\perp b$. Ba điểm $M, O, N$:",
         "options": [
-          "Thẳng hàng",
           "Tạo thành tam giác vuông",
-          "Tạo thành tam giác đều",
-          "Không thẳng hàng"
+          "Không thẳng hàng",
+          "Thẳng hàng",
+          "Tạo thành tam giác đều"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho 2024 đường thẳng phân biệt sao cho cứ hai đường thẳng bất kì thì song song hoặc vuông góc với nhau. Có tối đa bao nhiêu đường thẳng đôi một vuông góc với nhau?",
         "options": [
+          "$2024$",
           "$2$",
           "$4$",
-          "$2024$",
           "$1012$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Qua $B$ kẻ đường thẳng song song với $AC$, qua $C$ kẻ đường thẳng song song với $AB$, chúng cắt nhau tại $D$. Tứ giác $ABDC$ có:",
         "options": [
-          "Các cạnh đối bằng nhau",
           "Bốn cạnh bằng nhau",
+          "Hai đường chéo vuông góc",
           "Bốn góc vuông",
-          "Hai đường chéo vuông góc"
+          "Các cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho hình vẽ có $Ax \\parallel By$. Biết $\\widehat{xAO} = \\alpha, \\widehat{OBy} = \\beta$ và góc $\\widehat{AOB}$ tù. Hệ thức đúng là:",
         "options": [
-          "$\\widehat{AOB} = \\alpha + \\beta$ (nếu vẽ tia Oz // Ax chia AOB)",
+          "Tùy theo hướng các tia",
           "$\\widehat{AOB} = 180^\\circ - (\\alpha + \\beta)$",
-          "$\\widehat{AOB} = 360^\\circ - (\\alpha + \\beta)$",
-          "Tùy theo hướng các tia"
+          "$\\widehat{AOB} = \\alpha + \\beta$ (nếu vẽ tia Oz // Ax chia AOB)",
+          "$\\widehat{AOB} = 360^\\circ - (\\alpha + \\beta)$"
         ],
-        "correct": 3
+        "correct": 0
       }
     ],
     "part2": [
@@ -2321,60 +2321,60 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Một định lí là:",
         "options": [
-          "Một khẳng định được suy ra từ những khẳng định được coi là đúng",
+          "Một hình vẽ hình học",
           "Một khẳng định được suy đoán bằng trực giác",
-          "Một câu hỏi chưa có lời giải",
-          "Một hình vẽ hình học"
+          "Một khẳng định được suy ra từ những khẳng định được coi là đúng",
+          "Một câu hỏi chưa có lời giải"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Mỗi định lí thường được phát biểu dưới dạng:",
         "options": [
-          "Nếu ... thì ...",
-          "Vì ... nên ...",
           "Tuy ... nhưng ...",
-          "Hoặc ... hoặc ..."
+          "Nếu ... thì ...",
+          "Hoặc ... hoặc ...",
+          "Vì ... nên ..."
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Phần nằm giữa từ \"Nếu\" và từ \"thì\" là:",
         "options": [
-          "Giả thiết của định lí",
-          "Kết luận của định lí",
+          "Hình vẽ minh họa",
           "Chứng minh của định lí",
-          "Hình vẽ minh họa"
+          "Kết luận của định lí",
+          "Giả thiết của định lí"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Phần nằm sau từ \"thì\" là:",
         "options": [
-          "Kết luận của định lí",
+          "Định nghĩa",
           "Giả thiết của định lí",
           "Lời giải định lí",
-          "Định nghĩa"
+          "Kết luận của định lí"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Chứng minh định lí là:",
         "options": [
+          "Vẽ hình thật đẹp",
           "Dùng lập luận để từ giả thiết suy ra kết luận",
           "Đo đạc bằng thước",
-          "Vẽ hình thật đẹp",
           "Dùng trực giác để khẳng định"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -2393,36 +2393,36 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Trong định lí: \"Nếu hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì chúng song song với nhau\", giả thiết là:",
         "options": [
-          "Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba",
-          "Chúng song song với nhau",
           "Hai đường thẳng cắt nhau",
-          "Không có giả thiết"
+          "Không có giả thiết",
+          "Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba",
+          "Chúng song song với nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Trong định lí: \"Hai góc đối đỉnh thì bằng nhau\", kết luận là:",
         "options": [
+          "Hai góc đó phụ nhau",
           "Hai góc đó bằng nhau",
-          "Hai góc đó đối đỉnh",
           "Hai góc đó kề bù",
-          "Hai góc đó phụ nhau"
+          "Hai góc đó đối đỉnh"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Phát biểu lại định lí \"Hai góc đối đỉnh thì bằng nhau\" dưới dạng \"Nếu ... thì ...\":",
         "options": [
-          "Nếu hai góc đối đỉnh thì hai góc đó bằng nhau",
           "Nếu hai góc bằng nhau thì hai góc đó đối đỉnh",
+          "Nếu hai góc bằng nhau thì chúng đối đỉnh nhau",
           "Nếu hai góc kề bù thì hai góc đó bằng nhau",
-          "Nếu hai góc bằng nhau thì chúng đối đỉnh nhau"
+          "Nếu hai góc đối đỉnh thì hai góc đó bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -2430,9 +2430,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Khẳng định nào sau đây KHÔNG PHẢI là một định lí?",
         "options": [
           "Hai góc bằng nhau thì đối đỉnh",
-          "Hai góc đối đỉnh thì bằng nhau",
           "Nếu hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì chúng song song",
-          "Tổng ba góc trong một tam giác bằng $180^\\circ$"
+          "Tổng ba góc trong một tam giác bằng $180^\\circ$",
+          "Hai góc đối đỉnh thì bằng nhau"
         ],
         "correct": 0
       },
@@ -2441,12 +2441,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Để bác bỏ một khẳng định sai, ta chỉ cần:",
         "options": [
-          "Chỉ ra một phản ví dụ",
-          "Vẽ thật nhiều hình",
           "Hỏi nhiều người",
-          "Không thể bác bỏ được"
+          "Không thể bác bỏ được",
+          "Chỉ ra một phản ví dụ",
+          "Vẽ thật nhiều hình"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2454,8 +2454,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho khẳng định: \"Nếu $a \\perp b$ và $b \\perp c$ thì $a \\parallel c$\". Giả thiết của khẳng định là:",
         "options": [
           "$a \\perp b$ và $b \\perp c$",
-          "$a \\parallel c$",
           "$a$ cắt $c$",
+          "$a \\parallel c$",
           "$a, b, c$ phân biệt"
         ],
         "correct": 0
@@ -2578,12 +2578,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho định lí: \"Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị bằng nhau\". Giả thiết là:",
         "options": [
-          "Một đường thẳng cắt hai đường thẳng song song",
-          "Hai góc đồng vị bằng nhau",
           "Hai góc so le trong bằng nhau",
-          "Hai đường thẳng vuông góc"
+          "Một đường thẳng cắt hai đường thẳng song song",
+          "Hai đường thẳng vuông góc",
+          "Hai góc đồng vị bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -2592,8 +2592,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "Khẳng định sai",
           "Khẳng định đúng",
-          "Định lí hình học",
-          "Tiên đề"
+          "Tiên đề",
+          "Định lí hình học"
         ],
         "correct": 0
       },
@@ -2603,9 +2603,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Để chứng minh một định lí hình học, ta thực hiện theo thứ tự:",
         "options": [
           "Vẽ hình -> Ghi GT, KL -> Dùng lập luận suy từ GT ra KL",
+          "Đo góc -> Kết luận",
           "Ghi KL -> Vẽ hình -> Ghi GT",
-          "Dùng lập luận -> Vẽ hình -> Ghi GT",
-          "Đo góc -> Kết luận"
+          "Dùng lập luận -> Vẽ hình -> Ghi GT"
         ],
         "correct": 0
       },
@@ -2615,9 +2615,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho định lí: \"Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng kia\". Viết dưới dạng kí hiệu:",
         "options": [
           "GT: $a \\parallel b, c \\perp a$. KL: $c \\perp b$",
-          "GT: $a \\perp b, b \\perp c$. KL: $a \\parallel c$",
+          "GT: $c \\perp b$. KL: $a \\parallel b$",
           "GT: $a \\parallel b, c \\parallel a$. KL: $c \\parallel b$",
-          "GT: $c \\perp b$. KL: $a \\parallel b$"
+          "GT: $a \\perp b, b \\perp c$. KL: $a \\parallel c$"
         ],
         "correct": 0
       },
@@ -2626,96 +2626,96 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Khẳng định nào sau đây là định lí đúng?",
         "options": [
-          "Hai tia phân giác của hai góc đối đỉnh là hai tia đối nhau",
           "Hai góc có số đo bằng $90^\\circ$ là hai góc kề bù",
-          "Hai đường thẳng không cắt nhau thì trùng nhau",
-          "Hai góc phụ nhau có tổng số đo bằng $180^\\circ$"
+          "Hai tia phân giác của hai góc đối đỉnh là hai tia đối nhau",
+          "Hai góc phụ nhau có tổng số đo bằng $180^\\circ$",
+          "Hai đường thẳng không cắt nhau thì trùng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho mệnh đề: \"Nếu $x^2 = 25$ thì $x = 5$\". Phản ví dụ để bác bỏ mệnh đề này là:",
         "options": [
-          "$x = -5$",
           "$x = 0$",
-          "$x = 25$",
-          "$x = 5$"
+          "$x = 5$",
+          "$x = -5$",
+          "$x = 25$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Chứng minh định lí: \"Nếu hai góc cùng phụ với một góc thứ ba thì hai góc đó bằng nhau\". Lập luận nào đúng?",
         "options": [
-          "$\\widehat{A} + \\widehat{C} = 90^\\circ, \\widehat{B} + \\widehat{C} = 90^\\circ \\Rightarrow \\widehat{A} = \\widehat{B}$",
-          "$\\widehat{A} + \\widehat{B} = 90^\\circ$",
+          "Hai góc đối đỉnh",
           "$\\widehat{A} + \\widehat{C} = 180^\\circ$",
-          "Hai góc đối đỉnh"
+          "$\\widehat{A} + \\widehat{C} = 90^\\circ, \\widehat{B} + \\widehat{C} = 90^\\circ \\Rightarrow \\widehat{A} = \\widehat{B}$",
+          "$\\widehat{A} + \\widehat{B} = 90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho định lí: \"Tia phân giác của hai góc kề bù vuông góc với nhau\". Số đo góc tạo bởi hai tia phân giác đó là:",
         "options": [
-          "$90^\\circ$",
-          "$180^\\circ$",
+          "$60^\\circ$",
           "$45^\\circ$",
-          "$60^\\circ$"
+          "$180^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho định lí: \"Nếu hai đường thẳng $a$ và $b$ cùng song song với đường thẳng $c$ thì $a \\parallel b$\". Khi chứng minh định lí này, người ta thường dùng phương pháp:",
         "options": [
-          "Phương pháp phản chứng dựa vào tiên đề Euclid",
           "Đo trực tiếp",
+          "Không cần chứng minh",
           "Vẽ hình",
-          "Không cần chứng minh"
+          "Phương pháp phản chứng dựa vào tiên đề Euclid"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Phát biểu nào sau đây diễn đạt đúng một định lí?",
         "options": [
-          "Nếu một tam giác có hai góc bằng nhau thì tam giác đó có hai cạnh bằng nhau",
-          "Nếu tam giác có một góc vuông thì hai góc kia bằng nhau",
           "Nếu một góc lớn hơn $90^\\circ$ thì nó là góc nhọn",
-          "Nếu hai góc bằng nhau thì có số đo bằng $60^\\circ$"
+          "Nếu hai góc bằng nhau thì có số đo bằng $60^\\circ$",
+          "Nếu một tam giác có hai góc bằng nhau thì tam giác đó có hai cạnh bằng nhau",
+          "Nếu tam giác có một góc vuông thì hai góc kia bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Trong phép chứng minh phản chứng, ta bắt đầu bằng cách:",
         "options": [
-          "Giả sử kết luận là sai",
           "Giả sử giả thiết là sai",
-          "Không quan tâm giả thiết",
-          "Chứng minh kết luận là đúng"
+          "Giả sử kết luận là sai",
+          "Chứng minh kết luận là đúng",
+          "Không quan tâm giả thiết"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho khẳng định: \"Mọi số tự nhiên chia hết cho 2 và chia hết cho 3 thì chia hết cho 6\". Đây là:",
         "options": [
-          "Một định lí đúng trong số học",
-          "Khẳng định sai",
           "Một tiên đề chưa chứng minh",
-          "Một dự đoán"
+          "Một dự đoán",
+          "Khẳng định sai",
+          "Một định lí đúng trong số học"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2835,12 +2835,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Để chứng minh định lí: \"Nếu hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì chúng song song với nhau\", ta dùng phương pháp phản chứng. Bước đầu tiên giả sử:",
         "options": [
-          "Hai đường thẳng đó không song song (tức là chúng cắt nhau)",
-          "Hai đường thẳng đó song song",
+          "Đường thẳng thứ ba không tồn tại",
           "Hai đường thẳng đó trùng nhau",
-          "Đường thẳng thứ ba không tồn tại"
+          "Hai đường thẳng đó không song song (tức là chúng cắt nhau)",
+          "Hai đường thẳng đó song song"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -2849,8 +2849,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "Có thể đúng hoặc sai, cần phải chứng minh",
           "Luôn luôn đúng",
-          "Luôn luôn sai",
-          "Chính là tiên đề"
+          "Chính là tiên đề",
+          "Luôn luôn sai"
         ],
         "correct": 0
       },
@@ -2859,12 +2859,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Xét định lí: \"Nếu một tam giác có ba cạnh bằng nhau thì tam giác đó có ba góc bằng nhau\". Định lí đảo của nó là:",
         "options": [
-          "Nếu một tam giác có ba góc bằng nhau thì tam giác đó có ba cạnh bằng nhau",
           "Nếu một tam giác không có ba cạnh bằng nhau thì ba góc không bằng nhau",
           "Nếu một tam giác có ba cạnh bằng nhau thì đó là tam giác đều",
-          "Không có định lí đảo"
+          "Không có định lí đảo",
+          "Nếu một tam giác có ba góc bằng nhau thì tam giác đó có ba cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -2873,8 +2873,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "Tiên đề Euclid",
           "Định lí về hai góc đối đỉnh",
-          "Định lí về tổng ba góc trong tam giác",
-          "Tính chất hai đường thẳng cùng vuông góc với đường thẳng thứ ba"
+          "Tính chất hai đường thẳng cùng vuông góc với đường thẳng thứ ba",
+          "Định lí về tổng ba góc trong tam giác"
         ],
         "correct": 0
       },
@@ -2883,84 +2883,84 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho định lí: \"Nếu hai góc nhọn $\\widehat{xOy}$ và $\\widehat{x'O'y'}$ có các cạnh tương ứng song song thì chúng bằng nhau\". Giả thiết cần thêm là:",
         "options": [
+          "Hai góc phải kề bù",
           "Các tia $Ox, O'x'$ cùng hướng và $Oy, O'y'$ cùng hướng (hoặc cùng ngược hướng)",
           "Không cần điều kiện gì thêm",
-          "Hai góc phải kề nhau",
-          "Hai góc phải kề bù"
+          "Hai góc phải kề nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Mệnh đề: \"Tích của hai số vô tỉ luôn là một số vô tỉ\" là sai vì có phản ví dụ:",
         "options": [
-          "$\\sqrt{2} \\cdot \\sqrt{2} = 2$ là số hữu tỉ",
           "$\\sqrt{2} \\cdot \\sqrt{3} = \\sqrt{6}$",
+          "$\\sqrt{2} \\cdot \\sqrt{2} = 2$ là số hữu tỉ",
           "$\\pi \\cdot 2 = 2\\pi$",
           "$0 \\cdot \\sqrt{5} = 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho định lí: \"Trong một tam giác, góc đối diện với cạnh lớn hơn là góc lớn hơn\". Giả thiết của định lí là:",
         "options": [
-          "Tam giác $ABC$ có $AC > AB$",
-          "Tam giác $ABC$ có $\\widehat{B} > \\widehat{C}$",
           "Tam giác $ABC$ vuông",
-          "Tam giác $ABC$ đều"
+          "Tam giác $ABC$ có $AC > AB$",
+          "Tam giác $ABC$ đều",
+          "Tam giác $ABC$ có $\\widehat{B} > \\widehat{C}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Chứng minh rằng: \"Không tồn tại số tự nhiên $n$ sao cho $n^2 + 1$ tận cùng bằng 3\". Phương pháp chứng minh phù hợp nhất là:",
         "options": [
-          "Xét chữ số tận cùng của số chính phương",
-          "Đo đạc",
+          "Dùng định lí Pythagore",
           "Thử với vài số cụ thể",
-          "Dùng định lí Pythagore"
+          "Đo đạc",
+          "Xét chữ số tận cùng của số chính phương"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho định lí: \"Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới có ba góc lần lượt bằng ba góc của tam giác ban đầu\". Kết luận gồm:",
         "options": [
-          "Ba cặp góc tương ứng bằng nhau",
-          "Ba cặp cạnh tương ứng bằng nhau",
           "Hai tam giác bằng nhau",
+          "Ba cặp cạnh tương ứng bằng nhau",
+          "Ba cặp góc tương ứng bằng nhau",
           "Diện tích hai tam giác bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho khẳng định: \"Nếu $a^2 = b^2$ thì $a = b$\". Khẳng định này sai vì:",
         "options": [
-          "Có phản ví dụ $a = -2, b = 2$ thỏa mãn $(-2)^2 = 2^2$ nhưng $-2 \\neq 2$",
           "Đúng với mọi số thực",
+          "Sai do định nghĩa",
           "Chỉ đúng với số tự nhiên",
-          "Sai do định nghĩa"
+          "Có phản ví dụ $a = -2, b = 2$ thỏa mãn $(-2)^2 = 2^2$ nhưng $-2 \\neq 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Định lí Pythagore phát biểu về tam giác vuông: \"Trong một tam giác vuông, bình phương cạnh huyền bằng tổng bình phương hai cạnh góc vuông\". Giả thiết là:",
         "options": [
-          "Tam giác vuông",
-          "Bình phương cạnh huyền",
+          "Tam giác đều",
           "Tam giác cân",
-          "Tam giác đều"
+          "Tam giác vuông",
+          "Bình phương cạnh huyền"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2968,9 +2968,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Số lượng tiên đề trong bộ tiên đề Euclid chuẩn cho hình học phẳng là:",
         "options": [
           "$5$",
+          "$1$",
           "$3$",
-          "$10$",
-          "$1$"
+          "$10$"
         ],
         "correct": 0
       }
@@ -3093,9 +3093,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Hai góc đối đỉnh thì:",
         "options": [
           "Bằng nhau",
-          "Kề bù",
           "Phụ nhau",
-          "Có tổng bằng $90^\\circ$"
+          "Có tổng bằng $90^\\circ$",
+          "Kề bù"
         ],
         "correct": 0
       },
@@ -3104,60 +3104,60 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Hai góc kề bù có tổng số đo bằng:",
         "options": [
-          "$180^\\circ$",
           "$90^\\circ$",
           "$360^\\circ$",
-          "$100^\\circ$"
+          "$100^\\circ$",
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Tia phân giác của một góc chia góc đó thành:",
         "options": [
-          "Hai góc bằng nhau",
           "Hai góc kề bù",
+          "Hai góc bằng nhau",
           "Hai góc phụ nhau",
           "Hai góc nhọn bất kì"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Nếu đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ tạo thành một cặp góc so le trong bằng nhau thì:",
         "options": [
-          "$a \\parallel b$",
           "$a \\perp b$",
           "$a$ cắt $b$",
+          "$a \\parallel b$",
           "$a$ trùng $b$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì:",
         "options": [
-          "Song song với nhau",
           "Vuông góc với nhau",
-          "Cắt nhau",
-          "Trùng nhau"
+          "Song song với nhau",
+          "Trùng nhau",
+          "Cắt nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tiên đề Euclid khẳng định qua một điểm ở ngoài đường thẳng có bao nhiêu đường thẳng song song với đường thẳng đó?",
         "options": [
-          "Chỉ có 1 đường thẳng duy nhất",
           "Có 2 đường thẳng",
-          "Có vô số đường thẳng",
-          "Không có đường thẳng nào"
+          "Không có đường thẳng nào",
+          "Chỉ có 1 đường thẳng duy nhất",
+          "Có vô số đường thẳng"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -3166,8 +3166,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "options": [
           "$70^\\circ$",
           "$110^\\circ$",
-          "$20^\\circ$",
-          "$180^\\circ$"
+          "$180^\\circ$",
+          "$20^\\circ$"
         ],
         "correct": 0
       },
@@ -3176,48 +3176,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hai góc kề bù $\\widehat{A}$ và $\\widehat{B}$. Biết $\\widehat{A} = 50^\\circ$, số đo góc $\\widehat{B}$ là:",
         "options": [
-          "$130^\\circ$",
-          "$50^\\circ$",
           "$40^\\circ$",
-          "$90^\\circ$"
+          "$50^\\circ$",
+          "$90^\\circ$",
+          "$130^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tia $Oz$ là phân giác của $\\widehat{xOy} = 80^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
         "options": [
+          "$20^\\circ$",
           "$40^\\circ$",
           "$80^\\circ$",
-          "$160^\\circ$",
-          "$20^\\circ$"
+          "$160^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho $a \\parallel b$. Một góc đồng vị có số đo bằng $65^\\circ$. Góc đồng vị kia có số đo là:",
         "options": [
-          "$65^\\circ$",
-          "$115^\\circ$",
+          "$90^\\circ$",
           "$25^\\circ$",
-          "$90^\\circ$"
+          "$65^\\circ$",
+          "$115^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Hai đường thẳng $a$ và $b$ song song với nhau. Một góc trong cùng phía bằng $120^\\circ$. Góc trong cùng phía còn lại bằng:",
         "options": [
-          "$60^\\circ$",
+          "$180^\\circ$",
           "$120^\\circ$",
           "$90^\\circ$",
-          "$180^\\circ$"
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -3225,9 +3225,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho $a \\perp c$ và $b \\parallel a$. Mối quan hệ giữa $b$ và $c$ là:",
         "options": [
           "$b \\perp c$",
-          "$b \\parallel c$",
           "$b$ trùng $c$",
-          "$b$ cắt $c$ nhưng không vuông góc"
+          "$b$ cắt $c$ nhưng không vuông góc",
+          "$b \\parallel c$"
         ],
         "correct": 0
       }
@@ -3349,12 +3349,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 3\\widehat{yOz}$. Số đo góc $\\widehat{xOy}$ là:",
         "options": [
-          "$135^\\circ$",
+          "$100^\\circ$",
           "$45^\\circ$",
-          "$120^\\circ$",
-          "$100^\\circ$"
+          "$135^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -3362,9 +3362,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hình vẽ: biết $a \\perp c$ và $b \\perp c$. Khẳng định nào sau đây đúng?",
         "options": [
           "$a \\parallel b$",
-          "$a \\perp b$",
           "$a$ cắt $b$",
-          "$a$ trùng $b$"
+          "$a$ trùng $b$",
+          "$a \\perp b$"
         ],
         "correct": 0
       },
@@ -3373,12 +3373,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a \\parallel b$. Đường thẳng $c$ cắt $a$ và $b$. Biết hiệu hai góc trong cùng phía là $40^\\circ$. Số đo của góc bé là:",
         "options": [
-          "$70^\\circ$",
-          "$110^\\circ$",
+          "$80^\\circ$",
           "$60^\\circ$",
-          "$80^\\circ$"
+          "$110^\\circ$",
+          "$70^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -3386,8 +3386,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hình vẽ: $Ax \\parallel By$. Biết $\\widehat{xAC} = 120^\\circ, \\widehat{yBC} = 130^\\circ$. Góc $\\widehat{ACB}$ ở giữa (quay ra ngoài) có số đo là:",
         "options": [
           "$110^\\circ$",
-          "$70^\\circ$",
           "$90^\\circ$",
+          "$70^\\circ$",
           "$100^\\circ$"
         ],
         "correct": 0
@@ -3397,24 +3397,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho góc $\\widehat{xOy} = 100^\\circ$. Lấy điểm $A$ trên tia $Ox$. Kẻ $Az \\parallel Oy$ (hướng vào trong). Tia phân giác của $\\widehat{xAz}$ cắt $Oy$ tại $B$. Tam giác $OAB$ là:",
         "options": [
+          "Tam giác vuông",
           "Tam giác có hai góc bằng nhau (tam giác cân)",
           "Tam giác đều",
-          "Tam giác vuông",
           "Tam giác vuông cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho hai góc đối đỉnh $\\widehat{AOB}$ và $\\widehat{COD}$. Biết $\\widehat{AOB} + \\widehat{COD} = 160^\\circ$. Số đo của góc kề bù với $\\widehat{AOB}$ là:",
         "options": [
+          "$20^\\circ$",
           "$100^\\circ$",
-          "$80^\\circ$",
           "$160^\\circ$",
-          "$20^\\circ$"
+          "$80^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -3422,8 +3422,8 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho tam giác $ABC$. Kẻ tia phân giác $Ax$ của góc ngoài tại đỉnh $A$. Nếu $Ax \\parallel BC$ thì tam giác $ABC$ có:",
         "options": [
           "$\\widehat{B} = \\widehat{C}$",
-          "$\\widehat{A} = 90^\\circ$",
           "$\\widehat{B} = 60^\\circ$",
+          "$\\widehat{A} = 90^\\circ$",
           "$AB = BC = CA$"
         ],
         "correct": 0
@@ -3433,60 +3433,60 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho ba đường thẳng phân biệt $a, b, c$. Biết $a \\parallel b$ và $c$ cắt $a$. Khi đó $c$ và $b$:",
         "options": [
-          "Cắt nhau",
           "Song song",
           "Trùng nhau",
+          "Cắt nhau",
           "Vuông góc"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $\\widehat{xOy} = 60^\\circ$. Vẽ tia $Oz$ là tia đối của $Ox$. Vẽ tia $Ot$ vuông góc với $Oy$ ($Ot$ nằm trong $\\widehat{yOz}$). Số đo góc $\\widehat{zOt}$ là:",
         "options": [
-          "$30^\\circ$",
           "$60^\\circ$",
           "$45^\\circ$",
+          "$30^\\circ$",
           "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Hai đường thẳng song song $a$ và $b$ bị cắt bởi cát tuyến $c$. Hai tia phân giác của hai góc so le trong:",
         "options": [
+          "Cắt nhau tạo góc $45^\\circ$",
           "Song song với nhau",
           "Vuông góc với nhau",
-          "Trùng nhau",
-          "Cắt nhau tạo góc $45^\\circ$"
+          "Trùng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Qua điểm $O$ vẽ 4 đường thẳng phân biệt. Số cặp góc đối đỉnh nhỏ hơn góc bẹt tạo thành là:",
         "options": [
-          "$12$",
-          "$8$",
           "$16$",
-          "$6$"
+          "$8$",
+          "$6$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho hình vẽ: biết $AB \\parallel CD$. Góc $\\widehat{A} = 40^\\circ$, góc $\\widehat{C} = 60^\\circ$. Góc $\\widehat{AEC}$ nhọn ở giữa bằng:",
         "options": [
-          "$100^\\circ$",
+          "$50^\\circ$",
           "$20^\\circ$",
           "$80^\\circ$",
-          "$50^\\circ$"
+          "$100^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3606,12 +3606,12 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho góc $\\widehat{xOy} = 120^\\circ$. Vẽ tia $Oz$ sao cho $Ox \\perp Oz$ và tia $Ot$ sao cho $Oy \\perp Ot$ (các tia $Oz, Ot$ nằm trong góc $\\widehat{xOy}$). Góc $\\widehat{zOt}$ có số đo là:",
         "options": [
-          "$60^\\circ$",
-          "$30^\\circ$",
           "$45^\\circ$",
-          "$90^\\circ$"
+          "$30^\\circ$",
+          "$90^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -3619,9 +3619,9 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hai đường thẳng song song $a$ và $b$. Lấy 10 điểm trên $a$ và 10 điểm trên $b$. Nối tất cả các điểm trên $a$ với các điểm trên $b$. Giả sử không có ba đoạn thẳng nào đồng quy tại một điểm ở giữa hai đường thẳng. Số giao điểm của các đoạn thẳng nằm giữa $a$ và $b$ là:",
         "options": [
           "$2025$",
+          "$900$",
           "$45$",
-          "$100$",
-          "$900$"
+          "$100$"
         ],
         "correct": 0
       },
@@ -3642,48 +3642,48 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Kẻ tia phân giác $BD$ của góc $B$ và $CE$ của góc $C$. Nếu $BD \\parallel CE$ thì:",
         "options": [
-          "Điều này không thể xảy ra",
           "Tam giác $ABC$ đều",
-          "Tam giác $ABC$ vuông",
-          "$\\widehat{B} = \\widehat{C} = 90^\\circ$"
+          "Điều này không thể xảy ra",
+          "$\\widehat{B} = \\widehat{C} = 90^\\circ$",
+          "Tam giác $ABC$ vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng cao",
         "question": "Cho góc $\\widehat{xOy} = 75^\\circ$. Lấy điểm $A$ trên $Ox$, kẻ $Az \\parallel Oy$. Tia phân giác của $\\widehat{OAz}$ cắt $Oy$ tại $B$. Số đo góc $\\widehat{ABO}$ là:",
         "options": [
-          "$\\frac{105^\\circ}{2} = 52,5^\\circ$",
-          "$75^\\circ$",
           "$37,5^\\circ$",
-          "$45^\\circ$"
+          "$45^\\circ$",
+          "$75^\\circ$",
+          "$\\frac{105^\\circ}{2} = 52,5^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $n$ đường thẳng đồng quy tại $O$. Nếu số cặp góc đối đỉnh (khác góc bẹt) tạo thành là 90 thì $n$ bằng:",
         "options": [
+          "$12$",
           "$10$",
-          "$9$",
           "$11$",
-          "$12$"
+          "$9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho hình bình hành $ABCD$. Góc $\\widehat{A} = 110^\\circ$. Tia phân giác của góc $A$ cắt cạnh $CD$ tại $E$. Tam giác $ADE$ là:",
         "options": [
-          "Tam giác có hai góc ở đáy bằng $55^\\circ$ (tam giác cân)",
           "Tam giác đều",
+          "Tam giác có hai góc ở đáy bằng $55^\\circ$ (tam giác cân)",
           "Tam giác vuông",
           "Tam giác tù"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -3691,23 +3691,23 @@ const CHAPTER3_TOAN7_EXAMS = {
         "question": "Cho hình zíc-zắc 3 đoạn $AB \\parallel CD$. Góc $\\widehat{B} = 35^\\circ, \\widehat{D} = 45^\\circ, \\widehat{BCD} = 80^\\circ$. Nhận định nào sau đây đúng?",
         "options": [
           "Điểm $C$ là đỉnh của góc quay",
-          "Hình vẽ thỏa mãn $AB \\parallel CD$",
           "Tổng góc trái bằng tổng góc phải",
-          "Cả ba nhận định đều đúng"
+          "Cả ba nhận định đều đúng",
+          "Hình vẽ thỏa mãn $AB \\parallel CD$"
         ],
-        "correct": 3
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho hai góc kề bù $\\widehat{AOB}$ và $\\widehat{BOC}$. Kẻ $OD$ là phân giác của $\\widehat{AOB}$. Biết $\\widehat{COD} = 140^\\circ$. Số đo góc $\\widehat{AOB}$ là:",
         "options": [
-          "$80^\\circ$",
           "$100^\\circ$",
-          "$60^\\circ$",
-          "$120^\\circ$"
+          "$120^\\circ$",
+          "$80^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -3726,24 +3726,24 @@ const CHAPTER3_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho 2024 đường thẳng phân biệt cùng đi qua điểm $O$. Số góc tạo thành khác góc bẹt và góc không là:",
         "options": [
-          "$2024 \\cdot 4047$",
+          "$2024^2$",
           "$2024 \\cdot 2023$",
           "$4048 \\cdot 4047$",
-          "$2024^2$"
+          "$2024 \\cdot 4047$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho góc $\\widehat{xOy} = 90^\\circ$. Trong góc đó vẽ các tia $Oz, Ot$ sao cho $\\widehat{xOz} = \\widehat{yOt} = 30^\\circ$. Tia phân giác của góc $\\widehat{zOt}$ cũng là:",
         "options": [
-          "Tia phân giác của $\\widehat{xOy}$",
+          "Tia đối của $Oz$",
           "Tia $Ox$",
-          "Tia $Oy$",
-          "Tia đối của $Oz$"
+          "Tia phân giác của $\\widehat{xOy}$",
+          "Tia $Oy$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

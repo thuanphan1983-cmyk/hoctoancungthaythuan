@@ -13,24 +13,24 @@
           "level": "Nhận biết",
           "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn?",
           "options": [
-            "$2x - 5 = 0$",
             "$x^2 - 4 = 0$",
-            "$0x + 3 = 0$",
-            "$2x + y = 1$"
+            "$2x - 5 = 0$",
+            "$2x + y = 1$",
+            "$0x + 3 = 0$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Trong phương trình bậc nhất một ẩn $3x - 6 = 0$, hệ số $a$ và $b$ lần lượt là",
           "options": [
+            "$a = -3;\\ b = -6$",
             "$a = 3;\\ b = 6$",
-            "$a = 3;\\ b = -6$",
             "$a = -6;\\ b = 3$",
-            "$a = -3;\\ b = -6$"
+            "$a = 3;\\ b = -6$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 3,
@@ -38,69 +38,69 @@
           "question": "Số nào sau đây là nghiệm của phương trình $x - 4 = 0$?",
           "options": [
             "$x = -4$",
-            "$x = 0$",
             "$x = 4$",
+            "$x = 0$",
             "$x = 2$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Tập nghiệm của phương trình $x + 2 = 0$ được kí hiệu là",
           "options": [
-            "$S = \\{-2\\}$",
-            "$S = \\{2\\}$",
+            "$S = \\emptyset$",
             "$S = -2$",
-            "$S = \\emptyset$"
+            "$S = \\{2\\}$",
+            "$S = \\{-2\\}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Quy tắc chuyển vế khẳng định rằng: Trong một phương trình, ta có thể chuyển một số hạng từ vế này sang vế kia và",
           "options": [
-            "giữ nguyên dấu của số hạng đó",
             "đổi dấu của số hạng đó",
+            "đổi nghịch đảo số hạng đó",
             "nhân số hạng đó với $-1$ ở cả hai vế",
-            "đổi nghịch đảo số hạng đó"
+            "giữ nguyên dấu của số hạng đó"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 6,
           "level": "Nhận biết",
           "question": "Phương trình bậc nhất một ẩn dạng tổng quát $ax + b = 0$ ($a \\ne 0$) luôn có nghiệm duy nhất là",
           "options": [
-            "$x = \\frac{b}{a}$",
-            "$x = -\\frac{a}{b}$",
             "$x = -\\frac{b}{a}$",
-            "$x = \\frac{a}{b}$"
+            "$x = \\frac{b}{a}$",
+            "$x = \\frac{a}{b}$",
+            "$x = -\\frac{a}{b}$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Phương trình nào dưới đây KHÔNG PHẢI là phương trình bậc nhất một ẩn?",
           "options": [
-            "$5x - 1 = 0$",
             "$-2t + 4 = 0$",
-            "$\\frac{1}{2}y - 3 = 0$",
-            "$\\frac{1}{x} + 2 = 0$"
+            "$5x - 1 = 0$",
+            "$\\frac{1}{x} + 2 = 0$",
+            "$\\frac{1}{2}y - 3 = 0$"
           ],
-          "correct": 3
+          "correct": 2
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Cho phương trình $2x = 8$. Để tìm $x$, ta chia cả hai vế của phương trình cho số",
           "options": [
-            "$8$",
+            "$-2$",
             "$4$",
             "$2$",
-            "$-2$"
+            "$8$"
           ],
           "correct": 2
         },
@@ -109,48 +109,48 @@
           "level": "Thông hiểu",
           "question": "Nghiệm của phương trình $4x = 12$ là",
           "options": [
-            "$x = 3$",
-            "$x = -3$",
             "$x = 8$",
-            "$x = 16$"
+            "$x = 16$",
+            "$x = -3$",
+            "$x = 3$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Thông hiểu",
           "question": "Nghiệm của phương trình $x + 7 = 3$ là",
           "options": [
-            "$x = 10$",
             "$x = 4$",
             "$x = -4$",
+            "$x = 10$",
             "$x = -10$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Với giá trị nào của $m$ thì phương trình $(m - 3)x + 2 = 0$ là phương trình bậc nhất một ẩn?",
           "options": [
-            "$m = 3$",
-            "$m \\ne 3$",
+            "$m \\ne 0$",
             "$m = 2$",
-            "$m \\ne 0$"
+            "$m \\ne 3$",
+            "$m = 3$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Nghiệm của phương trình $2x - 10 = 0$ là",
           "options": [
-            "$x = -5$",
-            "$x = 8$",
             "$x = 5$",
-            "$x = 12$"
+            "$x = 12$",
+            "$x = 8$",
+            "$x = -5$"
           ],
-          "correct": 2
+          "correct": 0
         }
       ],
       "part2": [
@@ -270,10 +270,10 @@
           "level": "Nhận biết",
           "question": "Trong các phương trình sau, phương trình nào đưa được về dạng phương trình bậc nhất một ẩn với hệ số của ẩn khác 0?",
           "options": [
-            "$0x + 7 = 0$",
+            "$\\frac{2}{x} - 3 = 0$",
             "$(x - 2)(x + 2) = x^2 - 3x$",
             "$x^2 - 5x + 6 = 0$",
-            "$\\frac{2}{x} - 3 = 0$"
+            "$0x + 7 = 0$"
           ],
           "correct": 1
         },
@@ -282,24 +282,24 @@
           "level": "Nhận biết",
           "question": "Điều kiện của tham số $m$ để phương trình $(2m - 6)x + m^2 + 1 = 0$ là phương trình bậc nhất một ẩn là:",
           "options": [
-            "$m = 3$",
-            "$m \\ne -3$",
             "$m \\ne 3$",
-            "$m > 0$"
+            "$m \\ne -3$",
+            "$m > 0$",
+            "$m = 3$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Giá trị $x = -2$ là nghiệm của phương trình nào dưới đây?",
           "options": [
-            "$3x - 6 = 0$",
-            "$2(x + 1) = x - 4$",
+            "$5x + 3 = 2x - 3$",
             "$4 - 2x = 0$",
-            "$5x + 3 = 2x - 3$"
+            "$2(x + 1) = x - 4$",
+            "$3x - 6 = 0$"
           ],
-          "correct": 3
+          "correct": 0
         },
         {
           "id": 4,
@@ -307,8 +307,8 @@
           "question": "Phương trình bậc nhất một ẩn $ax + b = 0$ ($a \\ne 0$) luôn có nghiệm duy nhất được tính bởi công thức:",
           "options": [
             "$x = \\frac{a}{b}$",
-            "$x = -\\frac{a}{b}$",
             "$x = \\frac{b}{a}$",
+            "$x = -\\frac{a}{b}$",
             "$x = -\\frac{b}{a}$"
           ],
           "correct": 3
@@ -318,48 +318,48 @@
           "level": "Thông hiểu",
           "question": "Nghiệm của phương trình $5(x - 1) - 2(x + 3) = 4$ là:",
           "options": [
-            "$x = 5$",
+            "$x = -3$",
             "$x = -5$",
-            "$x = 3$",
-            "$x = -3$"
+            "$x = 5$",
+            "$x = 3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Thông hiểu",
           "question": "Phương trình $\\frac{x - 1}{3} - \\frac{x + 2}{4} = 1$ có nghiệm là:",
           "options": [
+            "$x = 18$",
             "$x = 22$",
             "$x = 10$",
-            "$x = -22$",
-            "$x = 18$"
+            "$x = -22$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Thông hiểu",
           "question": "Cho phương trình $(x + 3)^2 - x(x - 2) = 21$. Nghiệm của phương trình này là:",
           "options": [
-            "$x = \\frac{3}{2}$",
-            "$x = 2$",
             "$x = -\\frac{3}{2}$",
+            "$x = 2$",
+            "$x = \\frac{3}{2}$",
             "$x = 3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 8,
           "level": "Thông hiểu",
           "question": "Biết phương trình $3x - k = 2(x + 1) + 5$ nhận $x = 4$ làm nghiệm. Giá trị của $k$ là:",
           "options": [
-            "$k = -3$",
-            "$k = 3$",
+            "$k = 7$",
             "$k = -7$",
-            "$k = 7$"
+            "$k = -3$",
+            "$k = 3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 9,
@@ -367,8 +367,8 @@
           "question": "Tập nghiệm của phương trình $\\frac{2x - 3}{5} + \\frac{1}{2} = \\frac{3x - 1}{10}$ là:",
           "options": [
             "$S = \\{5\\}$",
-            "$S = \\{-5\\}$",
             "$S = \\{1\\}$",
+            "$S = \\{-5\\}$",
             "$S = \\emptyset$"
           ],
           "correct": 0
@@ -378,12 +378,12 @@
           "level": "Thông hiểu",
           "question": "Hai phương trình $2x - 6 = 0$ và $mx + 3 = 0$ là hai phương trình tương đương khi $m$ nhận giá trị là:",
           "options": [
+            "$m = -3$",
             "$m = 1$",
-            "$m = -1$",
             "$m = 2$",
-            "$m = -3$"
+            "$m = -1$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 11,
@@ -402,12 +402,12 @@
           "level": "Thông hiểu",
           "question": "Hiện nay tuổi của mẹ gấp 3 lần tuổi của con. Biết rằng sau 5 năm nữa tổng số tuổi của hai mẹ con là 58 tuổi. Tuổi của con hiện nay là:",
           "options": [
-            "10 tuổi",
-            "12 tuổi",
             "14 tuổi",
-            "16 tuổi"
+            "10 tuổi",
+            "16 tuổi",
+            "12 tuổi"
           ],
-          "correct": 1
+          "correct": 3
         }
       ],
       "part2": [
@@ -527,36 +527,36 @@
           "level": "Nhận biết",
           "question": "Trong các phương trình sau, phương trình nào luôn là phương trình bậc nhất một ẩn với mọi giá trị của tham số $m$?",
           "options": [
-            "$(m^2 - 4)x + 3 = 0$",
             "$(m^2 + 1)x - 5 = 0$",
+            "$(m^2 - 4)x + 3 = 0$",
             "$(m - 1)x + 2 = 0$",
             "$mx + m = 0$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Cho phương trình bậc nhất một ẩn $ax + b = 0$ ($a \\ne 0$). Khẳng định nào sau đây là SAI?",
           "options": [
-            "Phương trình luôn có nghiệm duy nhất $x = -\\frac{b}{a}$.",
-            "Nếu $b = 0$ thì phương trình có nghiệm duy nhất $x = 0$.",
+            "Nếu $a$ thay đổi thì nghiệm của phương trình luôn không đổi.",
             "Tập nghiệm của phương trình là $S = \\left\\{ -\\frac{b}{a} \\right\\}$.",
-            "Nếu $a$ thay đổi thì nghiệm của phương trình luôn không đổi."
+            "Phương trình luôn có nghiệm duy nhất $x = -\\frac{b}{a}$.",
+            "Nếu $b = 0$ thì phương trình có nghiệm duy nhất $x = 0$."
           ],
-          "correct": 3
+          "correct": 0
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Điều kiện cần và đủ của tham số $m$ để phương trình $(m^2 - 9)x = m - 3$ có vô số nghiệm là:",
           "options": [
-            "$m = 3$",
-            "$m = -3$",
+            "$m \\ne 3$ và $m \\ne -3$",
             "$m = 3$ hoặc $m = -3$",
-            "$m \\ne 3$ và $m \\ne -3$"
+            "$m = -3$",
+            "$m = 3$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 4,
@@ -564,55 +564,55 @@
           "question": "Tìm tất cả các giá trị của $m$ để phương trình $(m^2 - 2m)x = m - 2$ vô nghiệm.",
           "options": [
             "$m = 2$",
+            "$m \\ne 0$ và $m \\ne 2$",
             "$m = 0$",
-            "$m = 0$ hoặc $m = 2$",
-            "$m \\ne 0$ và $m \\ne 2$"
+            "$m = 0$ hoặc $m = 2$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 5,
           "level": "Thông hiểu",
           "question": "Cho hai phương trình: $2x - 3 = 5$ (1) và $3x - k = x + 1$ (2). Giá trị của $k$ để hai phương trình trên tương đương là:",
           "options": [
-            "$k = 5$",
-            "$k = 7$",
             "$k = -7$",
-            "$k = 3$"
+            "$k = 3$",
+            "$k = 5$",
+            "$k = 7$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 6,
           "level": "Thông hiểu",
           "question": "Nghiệm của phương trình $\\frac{x - 1}{2024} + \\frac{x - 2}{2023} = \\frac{x - 3}{2022} + \\frac{x - 4}{2021}$ là:",
           "options": [
+            "$x = 0$",
             "$x = 2025$",
-            "$x = 2024$",
             "$x = 2023$",
-            "$x = 0$"
+            "$x = 2024$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Thông hiểu",
           "question": "Có bao nhiêu giá trị nguyên của tham số $m$ thuộc đoạn $[-5; 5]$ để phương trình $(m - 2)x = 6$ có nghiệm nguyên?",
           "options": [
-            "$8$",
-            "$5$",
             "$6$",
+            "$5$",
+            "$8$",
             "$7$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 8,
           "level": "Thông hiểu",
           "question": "Phương trình $|2x - 3| = x - 1$ có tổng các nghiệm là:",
           "options": [
-            "$\\frac{4}{3}$",
             "$2$",
+            "$\\frac{4}{3}$",
             "$\\frac{10}{3}$",
             "$\\frac{2}{3}$"
           ],
@@ -623,21 +623,21 @@
           "level": "Vận dụng",
           "question": "Cho phương trình ẩn $x$: $(a^2 - 4)x + a - 2 = 0$. Tìm điều kiện của $a$ để phương trình có nghiệm duy nhất âm.",
           "options": [
-            "$a > -2$ và $a \\ne 2$",
-            "$a < -2$",
             "$-2 < a < 2$",
-            "$a \\ne 2$"
+            "$a \\ne 2$",
+            "$a < -2$",
+            "$a > -2$ và $a \\ne 2$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng",
           "question": "Số nghiệm thực của phương trình $\\frac{x^2 - 4x + 3}{x - 1} = 0$ là:",
           "options": [
-            "$2$",
-            "$1$",
             "$0$",
+            "$1$",
+            "$2$",
             "Vô số"
           ],
           "correct": 1
@@ -647,24 +647,24 @@
           "level": "Vận dụng",
           "question": "Cho phương trình $mx + 4 = 2x + m^2$. Tìm tất cả các giá trị nguyên của $m$ để phương trình có nghiệm nguyên dương.",
           "options": [
-            "$m \\in \\{-1; 0; 1\\}$",
             "$m \\in \\{0; 1\\}$",
             "$m \\in \\{-1; 0\\}$",
-            "$m \\in \\{-3; -1; 0\\}$"
+            "$m \\in \\{-3; -1; 0\\}$",
+            "$m \\in \\{-1; 0; 1\\}$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 12,
           "level": "Vận dụng",
           "question": "Cho ba số thực $a, b, c$ đôi một khác nhau và $a + b + c \\ne 0$. Nghiệm của phương trình $\\frac{x - a - b}{c} + \\frac{x - b - c}{a} + \\frac{x - c - a}{b} = 3$ là:",
           "options": [
+            "$x = 3(a + b + c)$",
             "$x = 0$",
             "$x = a + b + c$",
-            "$x = -(a + b + c)$",
-            "$x = 3(a + b + c)$"
+            "$x = -(a + b + c)$"
           ],
-          "correct": 1
+          "correct": 2
         }
       ],
       "part2": [
@@ -784,36 +784,36 @@
           "level": "Nhận biết",
           "question": "Bước đầu tiên trong quy trình giải bài toán bằng cách lập phương trình là gì?",
           "options": [
-            "Lập phương trình (chọn ẩn, đặt điều kiện, biểu diễn các đại lượng chưa biết).",
-            "Giải phương trình vừa lập được.",
+            "Biến đổi đưa phương trình về dạng tích.",
             "Trả lời và kiểm tra xem nghiệm có thỏa mãn điều kiện hay không.",
-            "Biến đổi đưa phương trình về dạng tích."
+            "Giải phương trình vừa lập được.",
+            "Lập phương trình (chọn ẩn, đặt điều kiện, biểu diễn các đại lượng chưa biết)."
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Nếu gọi vận tốc của một ô tô là $x$ (km/h) ($x > 0$), thì quãng đường ô tô đó đi được trong thời gian $3$ giờ là:",
           "options": [
-            "$\\frac{x}{3}$ (km)",
             "$\\frac{3}{x}$ (km)",
             "$3x$ (km)",
-            "$x + 3$ (km)"
+            "$x + 3$ (km)",
+            "$\\frac{x}{3}$ (km)"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Biết số thứ nhất là $x$. Số thứ hai lớn gấp $3$ lần số thứ nhất. Biểu thức biểu thị số thứ hai là:",
           "options": [
-            "$x + 3$",
             "$3x$",
-            "$x - 3$",
-            "$\\frac{x}{3}$"
+            "$x + 3$",
+            "$\\frac{x}{3}$",
+            "$x - 3$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 4,
@@ -822,70 +822,70 @@
           "options": [
             "$x + 4$ (cm)",
             "$4x$ (cm)",
-            "$x - 4$ (cm)",
-            "$\\frac{x}{4}$ (cm)"
+            "$\\frac{x}{4}$ (cm)",
+            "$x - 4$ (cm)"
           ],
-          "correct": 2
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Một số tự nhiên có hai chữ số, trong đó chữ số hàng chục là $a$, chữ số hàng đơn vị là $b$. Giá trị của số đó được viết là:",
           "options": [
+            "$ab$",
             "$a + b$",
             "$10a + b$",
-            "$10b + a$",
-            "$ab$"
+            "$10b + a$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Nhận biết",
           "question": "Nếu gọi $x$ là số học sinh của một lớp học thì điều kiện thích hợp nhất cho ẩn $x$ là:",
           "options": [
-            "$x > 0$",
-            "$x \\in \\mathbb{R}$",
             "$x \\in \\mathbb{N}^*$",
+            "$x \\in \\mathbb{R}$",
+            "$x > 0$",
             "$x \\le 0$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Một người đi xe máy trên quãng đường dài $60$ km với vận tốc $v$ (km/h, $v > 0$). Thời gian người đó đi hết quãng đường là:",
           "options": [
-            "$60v$ (giờ)",
             "$\\frac{60}{v}$ (giờ)",
+            "$60v$ (giờ)",
             "$\\frac{v}{60}$ (giờ)",
             "$60 - v$ (giờ)"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Bác An đi bộ với vận tốc $x$ (km/h) trong $2$ giờ thì đi được quãng đường $8$ km. Phương trình biểu diễn mối liên hệ này là:",
           "options": [
-            "$2x = 8$",
-            "$\\frac{x}{2} = 8$",
             "$x + 2 = 8$",
-            "$8x = 2$"
+            "$8x = 2$",
+            "$\\frac{x}{2} = 8$",
+            "$2x = 8$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Thông hiểu",
           "question": "Tổng của hai số bằng $20$. Nếu gọi số bé là $x$ thì số lớn là $20 - x$. Biết số lớn hơn số bé $6$ đơn vị, phương trình tìm $x$ là:",
           "options": [
-            "$(20 - x) - x = 6$",
             "$x - (20 - x) = 6$",
             "$x + 6 = 20 - x$",
+            "$(20 - x) - x = 6$",
             "$20 - x + 6 = x$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
@@ -894,8 +894,8 @@
           "options": [
             "$x + (x - 4) = 40$",
             "$x + (x + 4) = 40$",
-            "$(x + 4) - x = 40$",
-            "$x - (x + 4) = 40$"
+            "$x - (x + 4) = 40$",
+            "$(x + 4) - x = 40$"
           ],
           "correct": 1
         },
@@ -904,24 +904,24 @@
           "level": "Thông hiểu",
           "question": "Năm nay tuổi của bố gấp $4$ lần tuổi của con. Biết tổng số tuổi của hai bố con hiện nay là $50$. Tuổi của con hiện nay là:",
           "options": [
-            "$10$ tuổi",
             "$12$ tuổi",
-            "$8$ tuổi",
-            "$15$ tuổi"
+            "$10$ tuổi",
+            "$15$ tuổi",
+            "$8$ tuổi"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Một khu vườn hình chữ nhật có nửa chu vi là $18$ m. Biết chiều dài hơn chiều rộng $4$ m. Gọi chiều rộng khu vườn là $x$ (m). Phương trình tìm $x$ là:",
           "options": [
-            "$x + 4 = 18$",
-            "$x + (x + 4) = 18$",
+            "$x(x + 4) = 18$",
             "$2(x + x + 4) = 18$",
-            "$x(x + 4) = 18$"
+            "$x + (x + 4) = 18$",
+            "$x + 4 = 18$"
           ],
-          "correct": 1
+          "correct": 2
         }
       ],
       "part2": [
@@ -1053,12 +1053,12 @@
           "level": "Nhận biết",
           "question": "Cho hàm số $y = f(x) = 3x - 1$. Trong công thức trên, biến số là:",
           "options": [
-            "$y$",
-            "$x$",
+            "$3$",
             "$f$",
-            "$3$"
+            "$x$",
+            "$y$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 3,
@@ -1066,11 +1066,11 @@
           "question": "Trên mặt phẳng toạ độ $Oxy$, trục nằm ngang $Ox$ được gọi là:",
           "options": [
             "Trục tung",
-            "Trục hoành",
             "Trục đối xứng",
-            "Gốc toạ độ"
+            "Gốc toạ độ",
+            "Trục hoành"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 4,
@@ -1078,11 +1078,11 @@
           "question": "Gốc toạ độ $O$ trong mặt phẳng toạ độ $Oxy$ có toạ độ là:",
           "options": [
             "$(0; 1)$",
-            "$(1; 0)$",
             "$(0; 0)$",
-            "$(1; 1)$"
+            "$(1; 1)$",
+            "$(1; 0)$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 5,
@@ -1090,8 +1090,8 @@
           "question": "Điểm $M(2; -5)$ có hoành độ là:",
           "options": [
             "$2$",
-            "$-5$",
             "$-2$",
+            "$-5$",
             "$5$"
           ],
           "correct": 0
@@ -1101,34 +1101,34 @@
           "level": "Nhận biết",
           "question": "Điểm $N(-3; 4)$ có tung độ là:",
           "options": [
-            "$-3$",
-            "$4$",
             "$3$",
-            "$-4$"
+            "$-4$",
+            "$-3$",
+            "$4$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Điểm nào sau đây nằm trên trục hoành $Ox$?",
           "options": [
-            "$A(0; 3)$",
             "$B(4; 0)$",
             "$C(2; 2)$",
+            "$A(0; 3)$",
             "$D(0; -1)$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Đồ thị của hàm số $y = f(x)$ là tập hợp tất cả các điểm biểu diễn các cặp giá trị tương ứng $(x; y)$ trên:",
           "options": [
-            "Trục số thực",
+            "Đường thẳng $Oy$",
             "Mặt phẳng toạ độ $Oxy$",
             "Đường thẳng $Ox$",
-            "Đường thẳng $Oy$"
+            "Trục số thực"
           ],
           "correct": 1
         },
@@ -1138,43 +1138,43 @@
           "question": "Cho hàm số $y = f(x) = 2x + 3$. Giá trị của hàm số tại $x = 2$ bằng:",
           "options": [
             "$5$",
-            "$7$",
             "$6$",
-            "$8$"
+            "$8$",
+            "$7$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Thông hiểu",
           "question": "Cho hàm số $y = f(x) = -4x$. Giá trị $f(-1)$ là:",
           "options": [
-            "$-4$",
-            "$4$",
+            "$3$",
             "$-5$",
-            "$3$"
+            "$4$",
+            "$-4$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Điểm nào dưới đây thuộc đồ thị hàm số $y = 3x$?",
           "options": [
-            "$P(1; 3)$",
             "$Q(3; 1)$",
+            "$P(1; 3)$",
             "$R(1; -3)$",
             "$S(-1; 3)$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Cho hàm số $y = f(x) = x - 5$. Khi $y = 2$ thì giá trị tương ứng của $x$ là:",
           "options": [
-            "$3$",
             "$-3$",
+            "$3$",
             "$7$",
             "$-7$"
           ],
@@ -1298,60 +1298,60 @@
           "level": "Nhận biết",
           "question": "Hàm số nào sau đây là hàm số bậc nhất?",
           "options": [
-            "$y = 2x - 3$",
-            "$y = x^2 + 1$",
+            "$y = 0x + 5$",
             "$y = \\frac{1}{x} + 2$",
-            "$y = 0x + 5$"
+            "$y = x^2 + 1$",
+            "$y = 2x - 3$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Hệ số $a$ và $b$ của hàm số bậc nhất $y = -4x + 7$ lần lượt là",
           "options": [
+            "$a = 7; b = -4$",
             "$a = 4; b = 7$",
             "$a = -4; b = 7$",
-            "$a = -4; b = -7$",
-            "$a = 7; b = -4$"
+            "$a = -4; b = -7$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Hàm số bậc nhất $y = 3x$ có hệ số tự do $b$ bằng bao nhiêu?",
           "options": [
-            "$3$",
             "$1$",
             "$0$",
+            "$3$",
             "Không xác định"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Trong các hàm số sau, hàm số nào KHÔNG PHẢI là hàm số bậc nhất?",
           "options": [
-            "$y = -x + 4$",
-            "$y = \\frac{2}{3}x - 1$",
             "$y = \\sqrt{2}x + 3$",
-            "$y = 3x^2 - 2$"
+            "$y = 3x^2 - 2$",
+            "$y = \\frac{2}{3}x - 1$",
+            "$y = -x + 4$"
           ],
-          "correct": 3
+          "correct": 1
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Cho hàm số $y = f(x) = 2x + 1$. Giá trị của $f(0)$ bằng",
           "options": [
-            "$1$",
-            "$2$",
             "$3$",
+            "$2$",
+            "$1$",
             "$0$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
@@ -1359,47 +1359,47 @@
           "question": "Điều kiện của tham số $m$ để hàm số $y = (m - 2)x + 3$ là hàm số bậc nhất là",
           "options": [
             "$m = 2$",
-            "$m \\neq 2$",
+            "$m \\neq 0$",
             "$m > 2$",
-            "$m \\neq 0$"
+            "$m \\neq 2$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Hàm số $y = 5 - 2x$ có hệ số góc $a$ bằng",
           "options": [
-            "$5$",
-            "$-5$",
             "$-2$",
-            "$2$"
+            "$-5$",
+            "$2$",
+            "$5$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = x + 3$?",
           "options": [
-            "$(0; 2)$",
             "$(1; 3)$",
             "$(2; 5)$",
-            "$(1; 5)$"
+            "$(1; 5)$",
+            "$(0; 2)$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Thông hiểu",
           "question": "Cho hàm số $y = -3x + 2$. Giá trị của $y$ khi $x = -1$ là",
           "options": [
-            "$-1$",
-            "$5$",
+            "$1$",
             "$-5$",
-            "$1$"
+            "$5$",
+            "$-1$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 10,
@@ -1407,8 +1407,8 @@
           "question": "Cho hàm số $y = 4x - 5$. Nếu $y = 3$ thì giá trị của $x$ bằng",
           "options": [
             "$2$",
-            "$-2$",
             "$7$",
+            "$-2$",
             "$\\frac{1}{2}$"
           ],
           "correct": 0
@@ -1418,24 +1418,24 @@
           "level": "Thông hiểu",
           "question": "Biết đồ thị hàm số $y = ax + 1$ đi qua điểm $M(2; 7)$. Hệ số $a$ bằng",
           "options": [
-            "$4$",
-            "$3$",
             "$-3$",
-            "$2$"
+            "$2$",
+            "$4$",
+            "$3$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Một người đi bộ với vận tốc đều $4\\text{ km/h}$. Quãng đường $S$ (km) người đó đi được sau $t$ (giờ) được biểu diễn theo công thức nào?",
           "options": [
-            "$S = 4 + t$",
-            "$S = \\frac{4}{t}$",
             "$S = 4t$",
-            "$S = t - 4$"
+            "$S = t - 4$",
+            "$S = \\frac{4}{t}$",
+            "$S = 4 + t$"
           ],
-          "correct": 2
+          "correct": 0
         }
       ],
       "part2": [

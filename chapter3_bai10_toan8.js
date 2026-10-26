@@ -14,8 +14,8 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Tổng số đo bốn góc của một tứ giác lồi bằng:",
         "options": [
           "$360^\\circ$",
-          "$180^\\circ$",
           "$270^\\circ$",
+          "$180^\\circ$",
           "$540^\\circ$"
         ],
         "correct": 0
@@ -37,48 +37,48 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác lồi là tứ giác mà:",
         "options": [
+          "Có hai đường chéo bằng nhau",
           "Luôn nằm trong một nửa mặt phẳng có bờ là đường thẳng chứa bất kì cạnh nào",
           "Có hai góc tù và hai góc nhọn",
-          "Có hai đường chéo bằng nhau",
           "Có bốn cạnh bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số đường chéo của một tứ giác lồi là:",
         "options": [
-          "$2$",
+          "$1$",
           "$4$",
-          "$3$",
-          "$1$"
+          "$2$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Góc kề bù với một góc của tứ giác được gọi là:",
         "options": [
-          "Góc ngoài của tứ giác",
           "Góc trong của tứ giác",
+          "Góc ngoài của tứ giác",
           "Góc đối của tứ giác",
           "Góc kề của tứ giác"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Một tứ giác có thể có nhiều nhất bao nhiêu góc tù?",
         "options": [
-          "$3$",
-          "$4$",
           "$2$",
-          "$1$"
+          "$4$",
+          "$1$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -87,8 +87,8 @@ const BAI_1_TOAN8_EXAMS = {
         "options": [
           "$100^\\circ$",
           "$80^\\circ$",
-          "$110^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$110^\\circ$"
         ],
         "correct": 0
       },
@@ -97,60 +97,60 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 2x, \\widehat{B} = 3x, \\widehat{C} = 4x, \\widehat{D} = x$. Giá trị của $x$ là:",
         "options": [
-          "$36^\\circ$",
           "$30^\\circ$",
-          "$40^\\circ$",
-          "$45^\\circ$"
+          "$45^\\circ$",
+          "$36^\\circ$",
+          "$40^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có chu vi $32\\text{ cm}$, biết $AB = 6\\text{ cm}, BC = 8\\text{ cm}, CD = 10\\text{ cm}$. Độ dài cạnh $AD$ là:",
         "options": [
-          "$8\\text{ cm}$",
-          "$6\\text{ cm}$",
           "$9\\text{ cm}$",
-          "$7\\text{ cm}$"
+          "$6\\text{ cm}$",
+          "$7\\text{ cm}$",
+          "$8\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Trong một tứ giác, khẳng định nào sau đây là luôn đúng?",
         "options": [
+          "Tổng 2 góc đối luôn bằng $180^\\circ$",
           "Có nhiều nhất 3 góc nhọn",
           "Cả 4 góc đều phải là góc nhọn",
-          "Có ít nhất 2 góc vuông",
-          "Tổng 2 góc đối luôn bằng $180^\\circ$"
+          "Có ít nhất 2 góc vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$. Khẳng định nào sau đây là đúng theo bất đẳng thức tam giác?",
         "options": [
-          "$AC < AB + BC$",
           "$AC > AB + BC$",
+          "$AC \\ge AB + BC$",
           "$AC = AB + BC$",
-          "$AC \\ge AB + BC$"
+          "$AC < AB + BC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tổng các góc ngoài tại 4 đỉnh của một tứ giác lồi bằng:",
         "options": [
-          "$360^\\circ$",
+          "$540^\\circ$",
           "$180^\\circ$",
-          "$720^\\circ$",
-          "$540^\\circ$"
+          "$360^\\circ$",
+          "$720^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -270,12 +270,12 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc kề bù với góc $A$ của tứ giác $ABCD$ có số đo $115^\\circ$. Số đo góc $A$ bằng:",
         "options": [
+          "$115^\\circ$",
           "$65^\\circ$",
           "$75^\\circ$",
-          "$115^\\circ$",
           "$85^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -283,9 +283,9 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = \\widehat{C} = 90^\\circ$. Tổng hai góc $\\widehat{B} + \\widehat{D}$ bằng:",
         "options": [
           "$180^\\circ$",
+          "$360^\\circ$",
           "$90^\\circ$",
-          "$270^\\circ$",
-          "$360^\\circ$"
+          "$270^\\circ$"
         ],
         "correct": 0
       },
@@ -294,48 +294,48 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} : \\widehat{B} : \\widehat{C} : \\widehat{D} = 1 : 2 : 3 : 4$. Góc nhỏ nhất của tứ giác bằng:",
         "options": [
-          "$36^\\circ$",
-          "$18^\\circ$",
+          "$54^\\circ$",
           "$72^\\circ$",
-          "$54^\\circ$"
+          "$36^\\circ$",
+          "$18^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường là:",
         "options": [
-          "Hình thoi",
-          "Hình thang cân",
           "Hình chữ nhật",
-          "Hình thang vuông"
+          "Hình thang vuông",
+          "Hình thang cân",
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Trong tứ giác lồi $ABCD$, đoạn thẳng nối hai đỉnh đối diện gọi là:",
         "options": [
-          "Đường chéo",
           "Cạnh bên",
+          "Đường chéo",
           "Đường cao",
           "Đường trung tuyến"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Nếu một tứ giác có 3 góc vuông thì góc còn lại là:",
         "options": [
-          "Góc vuông",
           "Góc nhọn",
+          "Góc bẹt",
           "Góc tù",
-          "Góc bẹt"
+          "Góc vuông"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -343,9 +343,9 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = 80^\\circ, \\widehat{B} = 70^\\circ$, góc ngoài tại đỉnh $C$ bằng $110^\\circ$. Số đo góc $D$ là:",
         "options": [
           "$140^\\circ$",
-          "$130^\\circ$",
+          "$150^\\circ$",
           "$120^\\circ$",
-          "$150^\\circ$"
+          "$130^\\circ$"
         ],
         "correct": 0
       },
@@ -354,36 +354,36 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = \\widehat{B} + 20^\\circ, \\widehat{B} = \\widehat{C} + 10^\\circ, \\widehat{C} = \\widehat{D} + 10^\\circ$. Số đo góc $D$ bằng:",
         "options": [
-          "$70^\\circ$",
+          "$90^\\circ$",
           "$80^\\circ$",
-          "$60^\\circ$",
-          "$90^\\circ$"
+          "$70^\\circ$",
+          "$60^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Gọi $O$ là giao điểm hai đường chéo $AC$ và $BD$ của tứ giác $ABCD$. Khẳng định nào sau đây luôn đúng?",
         "options": [
-          "$AC + BD < AB + BC + CD + DA$",
-          "$AC + BD > AB + BC + CD + DA$",
           "$AC + BD = AB + CD$",
-          "$AC \\cdot BD = AB \\cdot CD$"
+          "$AC + BD > AB + BC + CD + DA$",
+          "$AC \\cdot BD = AB \\cdot CD$",
+          "$AC + BD < AB + BC + CD + DA$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = 120^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 2\\widehat{D}$. Số đo góc $D$ là:",
         "options": [
-          "$53^\\circ 20'$",
           "$60^\\circ$",
-          "$45^\\circ$",
-          "$50^\\circ$"
+          "$50^\\circ$",
+          "$53^\\circ 20'$",
+          "$45^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -391,8 +391,8 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} + \\widehat{B} = 200^\\circ$. Hai tia phân giác của góc $C$ và góc $D$ cắt nhau tại $M$. Số đo góc $CMD$ bằng:",
         "options": [
           "$100^\\circ$",
-          "$80^\\circ$",
           "$120^\\circ$",
+          "$80^\\circ$",
           "$90^\\circ$"
         ],
         "correct": 0
@@ -402,12 +402,12 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AB = BC$ và $CD = DA$. Khi đó đường thẳng $BD$ là:",
         "options": [
-          "Đường trung trực của đoạn thẳng $AC$",
           "Đường song song với $AC$",
-          "Đường phân giác góc $B$ nhưng không vuông góc $AC$",
-          "Đoạn thẳng bằng $AC$"
+          "Đường trung trực của đoạn thẳng $AC$",
+          "Đoạn thẳng bằng $AC$",
+          "Đường phân giác góc $B$ nhưng không vuông góc $AC$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -527,60 +527,60 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 70^\\circ, \\widehat{C} = 110^\\circ$. Góc ngoài tại đỉnh $D$ có số đo là:",
         "options": [
-          "$100^\\circ$",
           "$80^\\circ$",
-          "$90^\\circ$",
-          "$110^\\circ$"
+          "$100^\\circ$",
+          "$110^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là sai khi nói về tứ giác lồi?",
         "options": [
-          "Có thể có 4 góc tù",
-          "Tổng 4 góc luôn bằng $360^\\circ$",
+          "Có nhiều nhất 3 góc nhọn",
           "Hai đường chéo luôn cắt nhau tại một điểm nằm trong tứ giác",
-          "Có nhiều nhất 3 góc nhọn"
+          "Tổng 4 góc luôn bằng $360^\\circ$",
+          "Có thể có 4 góc tù"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Góc kề bù của một góc trong tứ giác bằng $135^\\circ$. Góc trong đó là góc:",
         "options": [
-          "Nhọn",
-          "Tù",
+          "Bẹt",
           "Vuông",
-          "Bẹt"
+          "Nhọn",
+          "Tù"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho tứ giác $ABCD$. Tổng $\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D}$ tính theo độ radian là:",
         "options": [
-          "$2\\pi$",
+          "$\\frac{3\\pi}{2}$",
           "$\\pi$",
           "$4\\pi$",
-          "$\\frac{3\\pi}{2}$"
+          "$2\\pi$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Tứ giác có hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường là:",
         "options": [
+          "Hình bình hành",
           "Hình chữ nhật",
           "Hình thoi",
-          "Hình bình hành",
           "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -588,9 +588,9 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Tứ giác có 4 cạnh bằng nhau được gọi là:",
         "options": [
           "Hình thoi",
-          "Hình chữ nhật",
+          "Hình bình hành",
           "Hình thang cân",
-          "Hình bình hành"
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -599,12 +599,12 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{A} - \\widehat{B} = 10^\\circ, \\widehat{B} - \\widehat{C} = 10^\\circ, \\widehat{C} - \\widehat{D} = 10^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$105^\\circ$",
           "$95^\\circ$",
           "$110^\\circ$",
+          "$105^\\circ$",
           "$100^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -612,8 +612,8 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Cho tứ giác $ABCD$ có các tia phân giác của góc $A$ và góc $D$ cắt nhau tại $E$, các tia phân giác của góc $B$ và góc $C$ cắt nhau tại $F$. Tổng $\\widehat{AED} + \\widehat{BFC}$ bằng:",
         "options": [
           "$180^\\circ$",
-          "$360^\\circ$",
           "$90^\\circ$",
+          "$360^\\circ$",
           "$270^\\circ$"
         ],
         "correct": 0
@@ -623,36 +623,36 @@ const BAI_1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tứ giác lồi $ABCD$ có $\\widehat{A} = 90^\\circ, \\widehat{C} = 90^\\circ$. Các tia phân giác của góc $B$ và góc $D$:",
         "options": [
-          "Song song hoặc trùng nhau",
-          "Vuông góc với nhau",
           "Tạo với nhau một góc $45^\\circ$",
+          "Vuông góc với nhau",
+          "Song song hoặc trùng nhau",
           "Cắt nhau tại góc $60^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có độ dài các cạnh thỏa mãn $AB + CD = BC + AD$. Tứ giác này có tính chất:",
         "options": [
-          "Ngoại tiếp được một đường tròn",
-          "Nội tiếp được một đường tròn",
           "Là hình thoi",
-          "Có hai đường chéo bằng nhau"
+          "Ngoại tiếp được một đường tròn",
+          "Có hai đường chéo bằng nhau",
+          "Nội tiếp được một đường tròn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Độ dài hai đường chéo của tứ giác $ABCD$ là $8\\text{ cm}$ và $12\\text{ cm}$. Đoạn thẳng nối trung điểm hai đường chéo bằng $2\\text{ cm}$. Khẳng định nào đúng?",
         "options": [
-          "Tứ giác $ABCD$ không thể là hình bình hành",
-          "Tứ giác $ABCD$ là hình bình hành",
+          "Hai đường chéo cắt nhau tại trung điểm mỗi đường",
           "Hai đường chéo vuông góc",
-          "Hai đường chéo cắt nhau tại trung điểm mỗi đường"
+          "Tứ giác $ABCD$ là hình bình hành",
+          "Tứ giác $ABCD$ không thể là hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -660,9 +660,9 @@ const BAI_1_TOAN8_EXAMS = {
         "question": "Cho tứ giác $ABCD$ có $AC = 10\\text{ cm}, BD = 14\\text{ cm}$. Diện tích lớn nhất của tứ giác $ABCD$ bằng:",
         "options": [
           "$70\\text{ cm}^2$",
+          "$24\\text{ cm}^2$",
           "$140\\text{ cm}^2$",
-          "$35\\text{ cm}^2$",
-          "$24\\text{ cm}^2$"
+          "$35\\text{ cm}^2$"
         ],
         "correct": 0
       }

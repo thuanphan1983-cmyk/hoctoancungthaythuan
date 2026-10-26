@@ -14,145 +14,157 @@
           "id": 1,
           "question": "Biến cố nào sau đây là biến cố chắc chắn?",
           "options": [
-            "A. Ngày mai mặt trời mọc ở hướng Tây",
             "B. Gieo một con xúc xắc 6 mặt thì số chấm xuất hiện nhỏ hơn 7",
-            "C. Gieo một đồng xu thì xuất hiện mặt sấp",
-            "D. Tháng Hai của một năm có 32 ngày"
+            "D. Tháng Hai của một năm có 32 ngày",
+            "A. Ngày mai mặt trời mọc ở hướng Tây",
+            "C. Gieo một đồng xu thì xuất hiện mặt sấp"
           ],
           "answer": "B",
-          "explanation": "Con xúc xắc có các mặt từ 1 đến 6 chấm nên số chấm xuất hiện luôn nhỏ hơn 7, đây là biến cố chắc chắn."
+          "explanation": "Con xúc xắc có các mặt từ 1 đến 6 chấm nên số chấm xuất hiện luôn nhỏ hơn 7, đây là biến cố chắc chắn.",
+          "correct": 2
         },
         {
           "id": 2,
           "question": "Biến cố nào sau đây là biến cố không thể?",
           "options": [
-            "A. Gieo xúc xắc xuất hiện mặt 6 chấm",
             "B. Tung đồng xu xuất hiện mặt ngửa",
             "C. Gieo một con xúc xắc xuất hiện mặt 8 chấm",
-            "D. Ngày mai trời có mưa"
+            "D. Ngày mai trời có mưa",
+            "A. Gieo xúc xắc xuất hiện mặt 6 chấm"
           ],
           "answer": "C",
-          "explanation": "Con xúc xắc 6 mặt chỉ có từ 1 đến 6 chấm nên không thể xuất hiện mặt 8 chấm."
+          "explanation": "Con xúc xắc 6 mặt chỉ có từ 1 đến 6 chấm nên không thể xuất hiện mặt 8 chấm.",
+          "correct": 3
         },
         {
           "id": 3,
           "question": "Biến cố nào sau đây là biến cố ngẫu nhiên?",
           "options": [
-            "A. Nước sôi ở 100 độ C trong điều kiện áp suất tiêu chuẩn",
-            "B. Chọn ngẫu nhiên một bạn trong lớp và bạn đó là nữ",
             "C. Trong hình vuông có 5 góc vuông",
+            "B. Chọn ngẫu nhiên một bạn trong lớp và bạn đó là nữ",
+            "A. Nước sôi ở 100 độ C trong điều kiện áp suất tiêu chuẩn",
             "D. Gieo xúc xắc được số chấm lớn hơn 0"
           ],
           "answer": "B",
-          "explanation": "Biến cố chọn được một bạn nữ không thể biết trước chắc chắn xảy ra hay không xảy ra nên là biến cố ngẫu nhiên."
+          "explanation": "Biến cố chọn được một bạn nữ không thể biết trước chắc chắn xảy ra hay không xảy ra nên là biến cố ngẫu nhiên.",
+          "correct": 2
         },
         {
           "id": 4,
           "question": "Tung một đồng xu 1 lần. Biến cố 'Mặt xuất hiện là mặt ngửa' là:",
           "options": [
-            "A. Biến cố chắc chắn",
-            "B. Biến cố không thể",
+            "D. Không phải là biến cố",
             "C. Biến cố ngẫu nhiên",
-            "D. Không phải là biến cố"
+            "B. Biến cố không thể",
+            "A. Biến cố chắc chắn"
           ],
           "answer": "C",
-          "explanation": "Đồng xu có 2 mặt sấp hoặc ngửa, ta không thể biết trước mặt nào sẽ xuất hiện nên đây là biến cố ngẫu nhiên."
+          "explanation": "Đồng xu có 2 mặt sấp hoặc ngửa, ta không thể biết trước mặt nào sẽ xuất hiện nên đây là biến cố ngẫu nhiên.",
+          "correct": 3
         },
         {
           "id": 5,
           "question": "Trong hộp có 5 viên bi xanh và 3 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Biến cố 'Lấy được viên bi màu vàng' là:",
           "options": [
-            "A. Biến cố chắc chắn",
+            "D. Biến cố đồng khả năng",
             "B. Biến cố không thể",
             "C. Biến cố ngẫu nhiên",
-            "D. Biến cố đồng khả năng"
+            "A. Biến cố chắc chắn"
           ],
           "answer": "B",
-          "explanation": "Trong hộp không có bi vàng nên không thể lấy được bi vàng."
+          "explanation": "Trong hộp không có bi vàng nên không thể lấy được bi vàng.",
+          "correct": 3
         },
         {
           "id": 6,
           "question": "Trong hộp chỉ có 10 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi. Biến cố 'Lấy được viên bi đỏ' là:",
           "options": [
             "A. Biến cố chắc chắn",
-            "B. Biến cố không thể",
+            "D. Biến cố có xác suất bằng 0",
             "C. Biến cố ngẫu nhiên",
-            "D. Biến cố có xác suất bằng 0"
+            "B. Biến cố không thể"
           ],
           "answer": "A",
-          "explanation": "Tất cả các viên bi trong hộp đều màu đỏ nên chắc chắn lấy được viên bi màu đỏ."
+          "explanation": "Tất cả các viên bi trong hộp đều màu đỏ nên chắc chắn lấy được viên bi màu đỏ.",
+          "correct": 0
         },
         {
           "id": 7,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Biến cố nào là biến cố ngẫu nhiên?",
           "options": [
-            "A. Số chấm xuất hiện là số chia hết cho 7",
-            "B. Số chấm xuất hiện là số lẻ",
             "C. Số chấm xuất hiện lớn hơn 0",
-            "D. Số chấm xuất hiện nhỏ hơn hoặc bằng 6"
+            "A. Số chấm xuất hiện là số chia hết cho 7",
+            "D. Số chấm xuất hiện nhỏ hơn hoặc bằng 6",
+            "B. Số chấm xuất hiện là số lẻ"
           ],
           "answer": "B",
-          "explanation": "Số chấm là số lẻ (1, 3, 5) có thể xảy ra hoặc không xảy ra nên là biến cố ngẫu nhiên."
+          "explanation": "Số chấm là số lẻ (1, 3, 5) có thể xảy ra hoặc không xảy ra nên là biến cố ngẫu nhiên.",
+          "correct": 1
         },
         {
           "id": 8,
           "question": "Có 4 tấm thẻ ghi các số 2, 4, 6, 8. Rút ngẫu nhiên 1 tấm thẻ. Biến cố 'Số trên thẻ rút ra là số chẵn' là:",
           "options": [
-            "A. Biến cố không thể",
+            "D. Cả A và B đều đúng",
             "B. Biến cố ngẫu nhiên",
-            "C. Biến cố chắc chắn",
-            "D. Cả A và B đều đúng"
+            "A. Biến cố không thể",
+            "C. Biến cố chắc chắn"
           ],
           "answer": "C",
-          "explanation": "Tất cả các thẻ đều ghi số chẵn nên biến cố rút được số chẵn là biến cố chắc chắn."
+          "explanation": "Tất cả các thẻ đều ghi số chẵn nên biến cố rút được số chẵn là biến cố chắc chắn.",
+          "correct": 2
         },
         {
           "id": 9,
           "question": "Chọn một ngày bất kì trong tuần. Biến cố 'Ngày được chọn có tên bắt đầu bằng chữ Thứ' là:",
           "options": [
+            "D. Biến cố có khả năng 50%",
             "A. Biến cố không thể",
-            "B. Biến cố ngẫu nhiên",
             "C. Biến cố chắc chắn",
-            "D. Biến cố có khả năng 50%"
+            "B. Biến cố ngẫu nhiên"
           ],
           "answer": "B",
-          "explanation": "Chủ nhật không bắt đầu bằng chữ Thứ, còn Thứ Hai đến Thứ Bảy thì có, nên là biến cố ngẫu nhiên."
+          "explanation": "Chủ nhật không bắt đầu bằng chữ Thứ, còn Thứ Hai đến Thứ Bảy thì có, nên là biến cố ngẫu nhiên.",
+          "correct": 1
         },
         {
           "id": 10,
           "question": "Gieo hai con xúc xắc cân đối. Biến cố 'Tổng số chấm trên hai con xúc xắc bằng 1' là:",
           "options": [
             "A. Biến cố chắc chắn",
+            "D. Biến cố đồng thời",
             "B. Biến cố ngẫu nhiên",
-            "C. Biến cố không thể",
-            "D. Biến cố đồng thời"
+            "C. Biến cố không thể"
           ],
           "answer": "C",
-          "explanation": "Mỗi con xúc xắc có ít nhất 1 chấm nên tổng số chấm nhỏ nhất là 1 + 1 = 2, không thể bằng 1."
+          "explanation": "Mỗi con xúc xắc có ít nhất 1 chấm nên tổng số chấm nhỏ nhất là 1 + 1 = 2, không thể bằng 1.",
+          "correct": 0
         },
         {
           "id": 11,
           "question": "Một năm dương lịch có 365 ngày hoặc 366 ngày. Biến cố 'Năm tiếp theo có 367 ngày' là:",
           "options": [
+            "D. Biến cố có điều kiện",
             "A. Biến cố chắc chắn",
-            "B. Biến cố không thể",
             "C. Biến cố ngẫu nhiên",
-            "D. Biến cố có điều kiện"
+            "B. Biến cố không thể"
           ],
           "answer": "B",
-          "explanation": "Năm dương lịch nhiều nhất chỉ có 366 ngày, không thể có 367 ngày."
+          "explanation": "Năm dương lịch nhiều nhất chỉ có 366 ngày, không thể có 367 ngày.",
+          "correct": 1
         },
         {
           "id": 12,
           "question": "Lấy ngẫu nhiên một chữ cái trong từ 'TOAN'. Biến cố 'Chữ cái lấy ra là chữ T' là:",
           "options": [
             "A. Biến cố chắc chắn",
-            "B. Biến cố không thể",
             "C. Biến cố ngẫu nhiên",
+            "B. Biến cố không thể",
             "D. Biến cố tuyệt đối"
           ],
           "answer": "C",
-          "explanation": "Các chữ cái là T, O, A, N. Ta có thể lấy được T hoặc không, nên là biến cố ngẫu nhiên."
+          "explanation": "Các chữ cái là T, O, A, N. Ta có thể lấy được T hoặc không, nên là biến cố ngẫu nhiên.",
+          "correct": 0
         }
       ],
       "part2": [
@@ -316,145 +328,157 @@
           "id": 1,
           "question": "Gieo hai con xúc xắc cân đối. Biến cố nào sau đây là biến cố chắc chắn?",
           "options": [
-            "A. Tổng số chấm lớn hơn 1",
             "B. Tích số chấm bằng 36",
-            "C. Tổng số chấm là số chẵn",
-            "D. Hai con xúc xắc có số chấm bằng nhau"
+            "D. Hai con xúc xắc có số chấm bằng nhau",
+            "A. Tổng số chấm lớn hơn 1",
+            "C. Tổng số chấm là số chẵn"
           ],
           "answer": "A",
-          "explanation": "Số chấm trên mỗi con xúc xắc từ 1 đến 6 nên tổng số chấm nhỏ nhất là 1 + 1 = 2 > 1. Do đó tổng luôn lớn hơn 1."
+          "explanation": "Số chấm trên mỗi con xúc xắc từ 1 đến 6 nên tổng số chấm nhỏ nhất là 1 + 1 = 2 > 1. Do đó tổng luôn lớn hơn 1.",
+          "correct": 2
         },
         {
           "id": 2,
           "question": "Gieo hai con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?",
           "options": [
             "A. Hiệu số chấm bằng 0",
-            "B. Tổng số chấm bằng 13",
             "C. Tích số chấm là số lẻ",
+            "B. Tổng số chấm bằng 13",
             "D. Tổng số chấm chia hết cho 5"
           ],
           "answer": "B",
-          "explanation": "Số chấm lớn nhất trên mỗi con là 6 nên tổng lớn nhất là 6 + 6 = 12. Tổng số chấm không thể bằng 13."
+          "explanation": "Số chấm lớn nhất trên mỗi con là 6 nên tổng lớn nhất là 6 + 6 = 12. Tổng số chấm không thể bằng 13.",
+          "correct": 0
         },
         {
           "id": 3,
           "question": "Một hộp có 8 tấm thẻ ghi các số từ 1 đến 8. Rút ngẫu nhiên một thẻ. Biến cố 'Số ghi trên thẻ là số chính phương' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 1",
             "B. 2",
             "C. 3",
-            "D. 4"
+            "D. 4",
+            "A. 1"
           ],
           "answer": "B",
-          "explanation": "Các số chính phương từ 1 đến 8 là $1^2 = 1$ và $2^2 = 4$. Có 2 kết quả thuận lợi."
+          "explanation": "Các số chính phương từ 1 đến 8 là $1^2 = 1$ và $2^2 = 4$. Có 2 kết quả thuận lợi.",
+          "correct": 3
         },
         {
           "id": 4,
           "question": "Gieo một con xúc xắc. Biến cố nào sau đây có 3 kết quả thuận lợi?",
           "options": [
-            "A. Mặt xuất hiện có số chấm chia hết cho 2",
             "B. Mặt xuất hiện có số chấm lớn hơn 4",
-            "C. Mặt xuất hiện có số chấm là ước của 5",
-            "D. Mặt xuất hiện có số chấm chia hết cho 3"
+            "A. Mặt xuất hiện có số chấm chia hết cho 2",
+            "D. Mặt xuất hiện có số chấm chia hết cho 3",
+            "C. Mặt xuất hiện có số chấm là ước của 5"
           ],
           "answer": "A",
-          "explanation": "Số chấm chia hết cho 2 là {2, 4, 6} (gồm 3 kết quả thuận lợi)."
+          "explanation": "Số chấm chia hết cho 2 là {2, 4, 6} (gồm 3 kết quả thuận lợi).",
+          "correct": 1
         },
         {
           "id": 5,
           "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Biến cố nào sau đây là biến cố ngẫu nhiên?",
           "options": [
             "A. Số được chọn lớn hơn 9",
-            "B. Số được chọn nhỏ hơn 100",
             "C. Số được chọn có tổng hai chữ số bằng 18",
-            "D. Số được chọn là số có ba chữ số"
+            "D. Số được chọn là số có ba chữ số",
+            "B. Số được chọn nhỏ hơn 100"
           ],
           "answer": "C",
-          "explanation": "Số có tổng các chữ số bằng 18 là 99 (có thể xảy ra hoặc không xảy ra). Các phương án A, B là chắc chắn, D là không thể."
+          "explanation": "Số có tổng các chữ số bằng 18 là 99 (có thể xảy ra hoặc không xảy ra). Các phương án A, B là chắc chắn, D là không thể.",
+          "correct": 0
         },
         {
           "id": 6,
           "question": "Một xạ thủ bắn một viên đạn vào bia. Gọi biến cố A là 'Viên đạn trúng hồng tâm'. Biến cố phủ định của A là:",
           "options": [
-            "A. Viên đạn trúng bia",
-            "B. Viên đạn không trúng hồng tâm",
+            "D. Viên đạn bắn trượt hoàn toàn",
             "C. Viên đạn trúng vòng 9",
-            "D. Viên đạn bắn trượt hoàn toàn"
+            "A. Viên đạn trúng bia",
+            "B. Viên đạn không trúng hồng tâm"
           ],
           "answer": "B",
-          "explanation": "Phủ định của 'trúng hồng tâm' là 'không trúng hồng tâm'."
+          "explanation": "Phủ định của 'trúng hồng tâm' là 'không trúng hồng tâm'.",
+          "correct": 2
         },
         {
           "id": 7,
           "question": "Gieo hai con xúc xắc 6 mặt. Số kết quả thuận lợi cho biến cố 'Tổng số chấm bằng 4' là:",
           "options": [
-            "A. 2",
             "B. 3",
-            "C. 4",
-            "D. 5"
+            "A. 2",
+            "D. 5",
+            "C. 4"
           ],
           "answer": "B",
-          "explanation": "Các cặp số chấm có tổng bằng 4 là (1, 3), (2, 2), (3, 1). Có 3 kết quả thuận lợi."
+          "explanation": "Các cặp số chấm có tổng bằng 4 là (1, 3), (2, 2), (3, 1). Có 3 kết quả thuận lợi.",
+          "correct": 1
         },
         {
           "id": 8,
           "question": "Tung 3 đồng xu cân đối đồng thời. Số kết quả có thể xảy ra của phép thử là:",
           "options": [
-            "A. 3",
+            "D. 9",
             "B. 6",
-            "C. 8",
-            "D. 9"
+            "A. 3",
+            "C. 8"
           ],
           "answer": "C",
-          "explanation": "Mỗi đồng xu có 2 kết quả nên 3 đồng xu có $2 \\times 2 \\times 2 = 8$ kết quả."
+          "explanation": "Mỗi đồng xu có 2 kết quả nên 3 đồng xu có $2 \\times 2 \\times 2 = 8$ kết quả.",
+          "correct": 2
         },
         {
           "id": 9,
           "question": "Một hộp có chứa 3 quả cầu đỏ, 4 quả cầu xanh, 5 quả cầu vàng. Lấy ngẫu nhiên 3 quả cầu. Biến cố nào là biến cố chắc chắn?",
           "options": [
-            "A. Cả 3 quả đều màu đỏ",
+            "D. Ba quả lấy ra có đủ 3 màu",
             "B. Có ít nhất một quả cầu màu vàng",
             "C. Số quả cầu lấy ra không vượt quá 3",
-            "D. Ba quả lấy ra có đủ 3 màu"
+            "A. Cả 3 quả đều màu đỏ"
           ],
           "answer": "C",
-          "explanation": "Theo quy tắc ta lấy 3 quả cầu nên số quả lấy ra chắc chắn đúng bằng 3, tức không vượt quá 3."
+          "explanation": "Theo quy tắc ta lấy 3 quả cầu nên số quả lấy ra chắc chắn đúng bằng 3, tức không vượt quá 3.",
+          "correct": 3
         },
         {
           "id": 10,
           "question": "Quay một vòng quay may mắn chia đều thành 8 phần ghi số từ 1 đến 8. Biến cố 'Mũi tên dừng lại ở ô ghi số là bội của 3' có các kết quả thuận lợi là:",
           "options": [
-            "A. {3; 6}",
             "B. {3; 6; 9}",
             "C. {1; 3; 6}",
-            "D. {3}"
+            "D. {3}",
+            "A. {3; 6}"
           ],
           "answer": "A",
-          "explanation": "Các số từ 1 đến 8 là bội của 3 gồm 3 và 6."
+          "explanation": "Các số từ 1 đến 8 là bội của 3 gồm 3 và 6.",
+          "correct": 3
         },
         {
           "id": 11,
           "question": "Lớp 7A có 40 học sinh, trong đó có 22 bạn nữ và 18 bạn nam. Chọn ngẫu nhiên 1 bạn đi dự đại hội. Biến cố 'Bạn được chọn là học sinh giỏi' là:",
           "options": [
-            "A. Biến cố ngẫu nhiên",
             "B. Biến cố chắc chắn",
+            "A. Biến cố ngẫu nhiên",
             "C. Biến cố không thể",
             "D. Chưa đủ dữ liệu để xác định"
           ],
           "answer": "A",
-          "explanation": "Trong lớp có thể có bạn giỏi hoặc không giỏi, việc chọn ngẫu nhiên 1 bạn là học sinh giỏi là biến cố ngẫu nhiên."
+          "explanation": "Trong lớp có thể có bạn giỏi hoặc không giỏi, việc chọn ngẫu nhiên 1 bạn là học sinh giỏi là biến cố ngẫu nhiên.",
+          "correct": 1
         },
         {
           "id": 12,
           "question": "Gieo một con xúc xắc 6 mặt. Biến cố 'Số chấm xuất hiện không phải là số 5' có bao nhiêu kết quả thuận lợi?",
           "options": [
             "A. 1",
+            "D. 6",
             "B. 4",
-            "C. 5",
-            "D. 6"
+            "C. 5"
           ],
           "answer": "C",
-          "explanation": "Các kết quả thuận lợi là 1, 2, 3, 4, 6 (gồm 5 kết quả)."
+          "explanation": "Các kết quả thuận lợi là 1, 2, 3, 4, 6 (gồm 5 kết quả).",
+          "correct": 0
         }
       ],
       "part2": [
@@ -614,109 +638,118 @@
           "id": 1,
           "question": "Gieo đồng thời hai con xúc xắc cân đối. Có bao nhiêu kết quả thuận lợi cho biến cố 'Tổng số chấm xuất hiện là số nguyên tố'?",
           "options": [
-            "A. 13",
             "B. 14",
             "C. 15",
-            "D. 16"
+            "D. 16",
+            "A. 13"
           ],
           "answer": "C",
-          "explanation": "Tổng số chấm có thể nhận các giá trị nguyên tố là 2, 3, 5, 7, 11. Số cặp tương ứng: tổng=2 (1), tổng=3 (2), tổng=5 (4), tổng=7 (6), tổng=11 (2). Tổng cộng: 1 + 2 + 4 + 6 + 2 = 15 cặp."
+          "explanation": "Tổng số chấm có thể nhận các giá trị nguyên tố là 2, 3, 5, 7, 11. Số cặp tương ứng: tổng=2 (1), tổng=3 (2), tổng=5 (4), tổng=7 (6), tổng=11 (2). Tổng cộng: 1 + 2 + 4 + 6 + 2 = 15 cặp.",
+          "correct": 3
         },
         {
           "id": 2,
           "question": "Chọn ngẫu nhiên một số tự nhiên có 3 chữ số. Biến cố nào sau đây là biến cố chắc chắn?",
           "options": [
-            "A. Số được chọn chia hết cho 5",
             "B. Số được chọn lớn hơn 99 và nhỏ hơn 1000",
+            "A. Số được chọn chia hết cho 5",
             "C. Số được chọn có các chữ số khác nhau",
             "D. Số được chọn có tổng các chữ số là số chẵn"
           ],
           "answer": "B",
-          "explanation": "Các số tự nhiên có 3 chữ số là từ 100 đến 999, tức lớn hơn 99 và nhỏ hơn 1000."
+          "explanation": "Các số tự nhiên có 3 chữ số là từ 100 đến 999, tức lớn hơn 99 và nhỏ hơn 1000.",
+          "correct": 1
         },
         {
           "id": 3,
           "question": "Gieo hai con xúc xắc. Biến cố 'Tích số chấm xuất hiện chia hết cho 6' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 15",
             "B. 18",
-            "C. 21",
-            "D. 25"
+            "D. 25",
+            "A. 15",
+            "C. 21"
           ],
           "answer": "D",
-          "explanation": "Tích không chia hết cho 6 khi không có thừa số 6, tức: (không chia hết cho 2) hoặc (không chia hết cho 3). Số cặp có tích lẻ là 3x3=9. Số cặp có tích không chia hết cho 3 (chỉ gồm 1,2,4,5) là 4x4=16. Số cặp vừa lẻ vừa không chia hết cho 3 (chỉ 1,5) là 2x2=4. Số cặp không chia hết cho 6 là 9 + 16 - 4 = 21. Vậy số cặp chia hết cho 6 là 36 - 21 = 15... Không: nếu có số 6 thì chia hết cho 6. Các cặp có ít nhất 1 mặt 6: 11 cặp. Các cặp không có 6 nhưng tích chia hết cho 6: gồm 2 hoặc 4 ghép với 3: (2,3), (3,2), (4,3), (3,4) -> 4 cặp. Tổng cộng 11 + 4 = 15 kết quả thuận lợi. Tuy nhiên lưu ý (3,2),(3,4),(2,3),(4,3) và (6,...): số kết quả = 15."
+          "explanation": "Tích không chia hết cho 6 khi không có thừa số 6, tức: (không chia hết cho 2) hoặc (không chia hết cho 3). Số cặp có tích lẻ là 3x3=9. Số cặp có tích không chia hết cho 3 (chỉ gồm 1,2,4,5) là 4x4=16. Số cặp vừa lẻ vừa không chia hết cho 3 (chỉ 1,5) là 2x2=4. Số cặp không chia hết cho 6 là 9 + 16 - 4 = 21. Vậy số cặp chia hết cho 6 là 36 - 21 = 15... Không: nếu có số 6 thì chia hết cho 6. Các cặp có ít nhất 1 mặt 6: 11 cặp. Các cặp không có 6 nhưng tích chia hết cho 6: gồm 2 hoặc 4 ghép với 3: (2,3), (3,2), (4,3), (3,4) -> 4 cặp. Tổng cộng 11 + 4 = 15 kết quả thuận lợi. Tuy nhiên lưu ý (3,2),(3,4),(2,3),(4,3) và (6,...): số kết quả = 15.",
+          "correct": 2
         },
         {
           "id": 4,
           "question": "Trong một hộp có 30 tấm thẻ ghi số từ 1 đến 30. Rút ngẫu nhiên một thẻ. Biến cố 'Số trên thẻ là bội của 3 hoặc bội của 5' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 14",
             "B. 16",
-            "C. 15",
-            "D. 12"
+            "A. 14",
+            "D. 12",
+            "C. 15"
           ],
           "answer": "A",
-          "explanation": "Số bội của 3 là 10. Số bội của 5 là 6. Bội chung của 3 và 5 (bội của 15) là 2 (15, 30). Số kết quả thuận lợi là 10 + 6 - 2 = 14."
+          "explanation": "Số bội của 3 là 10. Số bội của 5 là 6. Bội chung của 3 và 5 (bội của 15) là 2 (15, 30). Số kết quả thuận lợi là 10 + 6 - 2 = 14.",
+          "correct": 1
         },
         {
           "id": 5,
           "question": "Tung 4 đồng xu cân đối đồng thời. Số kết quả thuận lợi cho biến cố 'Số mặt sấp bằng số mặt ngửa' là:",
           "options": [
-            "A. 4",
-            "B. 6",
+            "D. 10",
             "C. 8",
-            "D. 10"
+            "B. 6",
+            "A. 4"
           ],
           "answer": "B",
-          "explanation": "Bằng nhau tức là có 2 sấp và 2 ngửa. Số cách chọn vị trí cho 2 sấp trong 4 vị trí là $C_4^2 = 6$ kết quả: SSNN, SNSN, SNNS, NSSN, NSNS, NNSS."
+          "explanation": "Bằng nhau tức là có 2 sấp và 2 ngửa. Số cách chọn vị trí cho 2 sấp trong 4 vị trí là $C_4^2 = 6$ kết quả: SSNN, SNSN, SNNS, NSSN, NSNS, NNSS.",
+          "correct": 3
         },
         {
           "id": 6,
           "question": "Một tổ gồm 6 học sinh giỏi Toán và 4 học sinh giỏi Văn. Cần chọn ngẫu nhiên một ban đại diện 3 người. Biến cố 'Trong ban đại diện có cả bạn giỏi Toán và bạn giỏi Văn' là:",
           "options": [
             "A. Biến cố chắc chắn",
-            "B. Biến cố không thể",
             "C. Biến cố ngẫu nhiên",
-            "D. Biến cố đồng khả năng"
+            "D. Biến cố đồng khả năng",
+            "B. Biến cố không thể"
           ],
           "answer": "C",
-          "explanation": "Có thể chọn được 3 bạn toàn giỏi Toán hoặc cả hai môn, nên là biến cố ngẫu nhiên."
+          "explanation": "Có thể chọn được 3 bạn toàn giỏi Toán hoặc cả hai môn, nên là biến cố ngẫu nhiên.",
+          "correct": 0
         },
         {
           "id": 7,
           "question": "Gieo hai con xúc xắc. Biến cố 'Hiệu số chấm bằng 2' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 4",
-            "B. 6",
             "C. 8",
+            "B. 6",
+            "A. 4",
             "D. 10"
           ],
           "answer": "C",
-          "explanation": "Các cặp có hiệu bằng 2: (1,3), (2,4), (3,5), (4,6) và ngược lại (3,1), (4,2), (5,3), (6,4). Tổng cộng có 8 kết quả."
+          "explanation": "Các cặp có hiệu bằng 2: (1,3), (2,4), (3,5), (4,6) và ngược lại (3,1), (4,2), (5,3), (6,4). Tổng cộng có 8 kết quả.",
+          "correct": 2
         },
         {
           "id": 8,
           "question": "Cho đa thức $P(x) = x^2 - 4x + 3$. Chọn ngẫu nhiên một số $a \\in \\{1, 2, 3, 4, 5\\}$. Biến cố '$a$ là nghiệm của $P(x)$' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 1",
-            "B. 2",
             "C. 3",
-            "D. 4"
+            "D. 4",
+            "B. 2",
+            "A. 1"
           ],
           "answer": "B",
-          "explanation": "$x^2 - 4x + 3 = 0 \\Leftrightarrow x = 1$ hoặc $x = 3$. Cả 1 và 3 đều thuộc tập hợp nên có 2 kết quả thuận lợi."
+          "explanation": "$x^2 - 4x + 3 = 0 \\Leftrightarrow x = 1$ hoặc $x = 3$. Cả 1 và 3 đều thuộc tập hợp nên có 2 kết quả thuận lợi.",
+          "correct": 3
         },
         {
           "id": 9,
           "question": "Một mật mã két sắt gồm 3 chữ số từ 0 đến 9. Biến cố 'Bấm ngẫu nhiên 3 chữ số mà trúng ngay mật mã' là:",
           "options": [
+            "D. Biến cố đồng khả năng",
             "A. Biến cố chắc chắn",
             "B. Biến cố không thể",
-            "C. Biến cố ngẫu nhiên",
-            "D. Biến cố đồng khả năng"
+            "C. Biến cố ngẫu nhiên"
           ],
           "answer": "C",
-          "explanation": "Khả năng xảy ra rất nhỏ nhưng hoàn toàn có thể xảy ra hoặc không xảy ra, nên là biến cố ngẫu nhiên."
+          "explanation": "Khả năng xảy ra rất nhỏ nhưng hoàn toàn có thể xảy ra hoặc không xảy ra, nên là biến cố ngẫu nhiên.",
+          "correct": 1
         },
         {
           "id": 10,
@@ -724,11 +757,12 @@
           "options": [
             "A. Tổng số chấm bằng 2",
             "B. Tổng số chấm bằng 7",
-            "C. Tổng số chấm bằng 10",
-            "D. Tổng số chấm bằng 6"
+            "D. Tổng số chấm bằng 6",
+            "C. Tổng số chấm bằng 10"
           ],
           "answer": "A",
-          "explanation": "Tổng bằng 2 chỉ có duy nhất 1 kết quả là (1, 1)."
+          "explanation": "Tổng bằng 2 chỉ có duy nhất 1 kết quả là (1, 1).",
+          "correct": 0
         },
         {
           "id": 11,
@@ -736,23 +770,25 @@
           "options": [
             "A. 11",
             "B. 12",
-            "C. 13",
-            "D. 14"
+            "D. 14",
+            "C. 13"
           ],
           "answer": "C",
-          "explanation": "Số bi không phải màu vàng là 7 + 5 = 12. Trường hợp xấu nhất lấy 12 viên toàn đỏ và xanh. Lấy thêm 1 viên nữa (viên thứ 13) chắc chắn có bi vàng. Vậy $k = 13$."
+          "explanation": "Số bi không phải màu vàng là 7 + 5 = 12. Trường hợp xấu nhất lấy 12 viên toàn đỏ và xanh. Lấy thêm 1 viên nữa (viên thứ 13) chắc chắn có bi vàng. Vậy $k = 13$.",
+          "correct": 0
         },
         {
           "id": 12,
           "question": "Cho tập hợp $A = \\{n \\in \\mathbb{N} \\mid 10 \\le n \\le 99\\}$. Chọn ngẫu nhiên một phần tử của $A$. Biến cố 'Phần tử được chọn có tích hai chữ số bằng 12' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 2",
             "B. 4",
-            "C. 6",
-            "D. 8"
+            "D. 8",
+            "A. 2",
+            "C. 6"
           ],
           "answer": "B",
-          "explanation": "Các cặp chữ số có tích bằng 12 là (2,6), (6,2), (3,4), (4,3). Các số tương ứng là 26, 62, 34, 43. Có 4 kết quả thuận lợi."
+          "explanation": "Các cặp chữ số có tích bằng 12 là (2,6), (6,2), (3,4), (4,3). Các số tương ứng là 26, 62, 34, 43. Có 4 kết quả thuận lợi.",
+          "correct": 2
         }
       ],
       "part2": [
@@ -909,144 +945,156 @@
           "question": "Xác suất của một biến cố chắc chắn bằng:",
           "options": [
             "A. 0",
-            "B. 0,5",
             "C. 1",
+            "B. 0,5",
             "D. 100"
           ],
           "answer": "C",
-          "explanation": "Biến cố chắc chắn luôn luôn xảy ra nên có xác suất bằng 1."
+          "explanation": "Biến cố chắc chắn luôn luôn xảy ra nên có xác suất bằng 1.",
+          "correct": 0
         },
         {
           "id": 2,
           "question": "Xác suất của một biến cố không thể bằng:",
           "options": [
-            "A. 0",
             "B. 0,5",
             "C. 1",
-            "D. -1"
+            "D. -1",
+            "A. 0"
           ],
           "answer": "A",
-          "explanation": "Biến cố không thể không bao giờ xảy ra nên có xác suất bằng 0."
+          "explanation": "Biến cố không thể không bao giờ xảy ra nên có xác suất bằng 0.",
+          "correct": 3
         },
         {
           "id": 3,
           "question": "Tung một đồng xu cân đối đồng chất một lần. Xác suất để xuất hiện mặt sấp là:",
           "options": [
             "A. 1",
+            "D. $\\frac{1}{4}$",
             "B. 0",
-            "C. $\\frac{1}{2}$",
-            "D. $\\frac{1}{4}$"
+            "C. $\\frac{1}{2}$"
           ],
           "answer": "C",
-          "explanation": "Có 2 kết quả đồng khả năng (S, N). Kết quả thuận lợi cho mặt sấp là 1. Xác suất là $\\frac{1}{2}$."
+          "explanation": "Có 2 kết quả đồng khả năng (S, N). Kết quả thuận lợi cho mặt sấp là 1. Xác suất là $\\frac{1}{2}$.",
+          "correct": 0
         },
         {
           "id": 4,
           "question": "Gieo một con xúc xắc 6 mặt cân đối một lần. Xác suất để xuất hiện mặt 3 chấm là:",
           "options": [
-            "A. $\\frac{1}{6}$",
             "B. $\\frac{3}{6}$",
+            "A. $\\frac{1}{6}$",
             "C. $\\frac{1}{2}$",
             "D. $\\frac{1}{3}$"
           ],
           "answer": "A",
-          "explanation": "Tổng số kết quả là 6, có 1 kết quả xuất hiện mặt 3 chấm. Xác suất là $\\frac{1}{6}$."
+          "explanation": "Tổng số kết quả là 6, có 1 kết quả xuất hiện mặt 3 chấm. Xác suất là $\\frac{1}{6}$.",
+          "correct": 1
         },
         {
           "id": 5,
           "question": "Một hộp có 1 quả bóng xanh và 1 quả bóng đỏ có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 quả bóng. Xác suất lấy được bóng đỏ là:",
           "options": [
-            "A. 1",
+            "D. $\\frac{2}{3}$",
             "B. 0",
-            "C. $\\frac{1}{2}$",
-            "D. $\\frac{2}{3}$"
+            "A. 1",
+            "C. $\\frac{1}{2}$"
           ],
           "answer": "C",
-          "explanation": "Có 2 khả năng như nhau, bóng đỏ chiếm 1 khả năng nên xác suất là $\\frac{1}{2}$."
+          "explanation": "Có 2 khả năng như nhau, bóng đỏ chiếm 1 khả năng nên xác suất là $\\frac{1}{2}$.",
+          "correct": 2
         },
         {
           "id": 6,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Xác suất xuất hiện mặt có số chấm là số chẵn là:",
           "options": [
+            "D. $\\frac{2}{3}$",
             "A. $\\frac{1}{6}$",
             "B. $\\frac{1}{3}$",
-            "C. $\\frac{1}{2}$",
-            "D. $\\frac{2}{3}$"
+            "C. $\\frac{1}{2}$"
           ],
           "answer": "C",
-          "explanation": "Các số chẵn là 2, 4, 6 (gồm 3 kết quả). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$."
+          "explanation": "Các số chẵn là 2, 4, 6 (gồm 3 kết quả). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$.",
+          "correct": 1
         },
         {
           "id": 7,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Xác suất xuất hiện mặt có số chấm lớn hơn 4 là:",
           "options": [
-            "A. $\\frac{1}{6}$",
-            "B. $\\frac{1}{3}$",
+            "D. $\\frac{2}{3}$",
             "C. $\\frac{1}{2}$",
-            "D. $\\frac{2}{3}$"
+            "B. $\\frac{1}{3}$",
+            "A. $\\frac{1}{6}$"
           ],
           "answer": "B",
-          "explanation": "Các số chấm lớn hơn 4 là 5, 6 (gồm 2 kết quả). Xác suất là $\\frac{2}{6} = \\frac{1}{3}$."
+          "explanation": "Các số chấm lớn hơn 4 là 5, 6 (gồm 2 kết quả). Xác suất là $\\frac{2}{6} = \\frac{1}{3}$.",
+          "correct": 3
         },
         {
           "id": 8,
           "question": "Một túi đựng 4 viên bi xanh và 4 viên bi đỏ có kích thước như nhau. Lấy ngẫu nhiên một viên bi. Khả năng lấy được bi xanh so với bi đỏ là:",
           "options": [
-            "A. Lớn hơn",
             "B. Nhỏ hơn",
             "C. Bằng nhau",
-            "D. Không so sánh được"
+            "D. Không so sánh được",
+            "A. Lớn hơn"
           ],
           "answer": "C",
-          "explanation": "Số lượng bi xanh và bi đỏ bằng nhau nên khả năng lấy được là như nhau."
+          "explanation": "Số lượng bi xanh và bi đỏ bằng nhau nên khả năng lấy được là như nhau.",
+          "correct": 3
         },
         {
           "id": 9,
           "question": "Một hộp có 5 tấm thẻ đánh số từ 1 đến 5. Rút ngẫu nhiên một tấm thẻ. Xác suất để rút được tấm thẻ ghi số nguyên tố là:",
           "options": [
-            "A. $\\frac{1}{5}$",
             "B. $\\frac{2}{5}$",
-            "C. $\\frac{3}{5}$",
-            "D. $\\frac{4}{5}$"
+            "D. $\\frac{4}{5}$",
+            "A. $\\frac{1}{5}$",
+            "C. $\\frac{3}{5}$"
           ],
           "answer": "C",
-          "explanation": "Các số nguyên tố từ 1 đến 5 là 2, 3, 5 (gồm 3 số). Xác suất là $\\frac{3}{5}$."
+          "explanation": "Các số nguyên tố từ 1 đến 5 là 2, 3, 5 (gồm 3 số). Xác suất là $\\frac{3}{5}$.",
+          "correct": 2
         },
         {
           "id": 10,
           "question": "Một chiếc vòng quay có 4 phần bằng nhau ghi các màu: Xanh, Đỏ, Tím, Vàng. Quay vòng quay 1 lần. Xác suất mũi tên chỉ vào ô màu Đỏ là:",
           "options": [
             "A. $\\frac{1}{2}$",
-            "B. $\\frac{1}{3}$",
+            "D. $\\frac{1}{8}$",
             "C. $\\frac{1}{4}$",
-            "D. $\\frac{1}{8}$"
+            "B. $\\frac{1}{3}$"
           ],
           "answer": "C",
-          "explanation": "Có 4 ô bằng nhau, ô màu đỏ chiếm 1 phần nên xác suất là $\\frac{1}{4}$."
+          "explanation": "Có 4 ô bằng nhau, ô màu đỏ chiếm 1 phần nên xác suất là $\\frac{1}{4}$.",
+          "correct": 0
         },
         {
           "id": 11,
           "question": "Nếu một biến cố có xác suất bằng 0,8 thì biến cố đó là biến cố:",
           "options": [
+            "D. Ngẫu nhiên có khả năng xảy ra thấp",
             "A. Chắc chắn",
             "B. Không thể",
-            "C. Ngẫu nhiên có khả năng xảy ra cao",
-            "D. Ngẫu nhiên có khả năng xảy ra thấp"
+            "C. Ngẫu nhiên có khả năng xảy ra cao"
           ],
           "answer": "C",
-          "explanation": "Xác suất 0,8 khá gần 1 nên biến cố có khả năng xảy ra cao."
+          "explanation": "Xác suất 0,8 khá gần 1 nên biến cố có khả năng xảy ra cao.",
+          "correct": 1
         },
         {
           "id": 12,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Biến cố nào sau đây có xác suất bằng $\\frac{1}{6}$?",
           "options": [
-            "A. Xuất hiện mặt có số chấm là số nguyên tố",
+            "D. Xuất hiện mặt có số chấm nhỏ hơn 6",
             "B. Xuất hiện mặt 1 chấm",
-            "C. Xuất hiện mặt có số chấm chia hết cho 2",
-            "D. Xuất hiện mặt có số chấm nhỏ hơn 6"
+            "A. Xuất hiện mặt có số chấm là số nguyên tố",
+            "C. Xuất hiện mặt có số chấm chia hết cho 2"
           ],
           "answer": "B",
-          "explanation": "Mặt 1 chấm chỉ có 1 kết quả thuận lợi nên xác suất là $\\frac{1}{6}$."
+          "explanation": "Mặt 1 chấm chỉ có 1 kết quả thuận lợi nên xác suất là $\\frac{1}{6}$.",
+          "correct": 2
         }
       ],
       "part2": [
@@ -1214,37 +1262,40 @@
           "id": 1,
           "question": "Một túi đựng các viên kẹo giống nhau gồm 5 kẹo cam, 4 kẹo dâu và 6 kẹo táo. Lấy ngẫu nhiên 1 viên kẹo. Xác suất để lấy được viên kẹo cam hoặc dâu là:",
           "options": [
-            "A. $\\frac{1}{3}$",
-            "B. $\\frac{3}{5}$",
             "C. $\\frac{4}{15}$",
-            "D. $\\frac{2}{5}$"
+            "A. $\\frac{1}{3}$",
+            "D. $\\frac{2}{5}$",
+            "B. $\\frac{3}{5}$"
           ],
           "answer": "B",
-          "explanation": "Tổng số kẹo là 5 + 4 + 6 = 15. Số kẹo cam hoặc dâu là 5 + 4 = 9. Xác suất là $\\frac{9}{15} = \\frac{3}{5}$."
+          "explanation": "Tổng số kẹo là 5 + 4 + 6 = 15. Số kẹo cam hoặc dâu là 5 + 4 = 9. Xác suất là $\\frac{9}{15} = \\frac{3}{5}$.",
+          "correct": 1
         },
         {
           "id": 2,
           "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm xuất hiện bằng 2 là:",
           "options": [
-            "A. $\\frac{1}{36}$",
-            "B. $\\frac{1}{18}$",
             "C. $\\frac{1}{12}$",
-            "D. $\\frac{1}{6}$"
+            "B. $\\frac{1}{18}$",
+            "D. $\\frac{1}{6}$",
+            "A. $\\frac{1}{36}$"
           ],
           "answer": "A",
-          "explanation": "Tổng số kết quả là 36. Cặp (1, 1) là kết quả duy nhất có tổng bằng 2. Xác suất là $\\frac{1}{36}$."
+          "explanation": "Tổng số kết quả là 36. Cặp (1, 1) là kết quả duy nhất có tổng bằng 2. Xác suất là $\\frac{1}{36}$.",
+          "correct": 3
         },
         {
           "id": 3,
           "question": "Tung hai đồng xu cân đối đồng thời. Xác suất để có đúng một đồng xu xuất hiện mặt sấp là:",
           "options": [
             "A. $\\frac{1}{4}$",
+            "D. 1",
             "B. $\\frac{1}{2}$",
-            "C. $\\frac{3}{4}$",
-            "D. 1"
+            "C. $\\frac{3}{4}$"
           ],
           "answer": "B",
-          "explanation": "Các kết quả là SS, SN, NS, NN (4 kết quả). Có đúng 1 mặt sấp là SN, NS (2 kết quả). Xác suất là $\\frac{2}{4} = \\frac{1}{2}$."
+          "explanation": "Các kết quả là SS, SN, NS, NN (4 kết quả). Có đúng 1 mặt sấp là SN, NS (2 kết quả). Xác suất là $\\frac{2}{4} = \\frac{1}{2}$.",
+          "correct": 0
         },
         {
           "id": 4,
@@ -1256,103 +1307,112 @@
             "D. $\\frac{1}{10}$"
           ],
           "answer": "A",
-          "explanation": "Các số chính phương từ 1 đến 20 là 1, 4, 9, 16 (4 số). Xác suất là $\\frac{4}{20} = \\frac{1}{5}$."
+          "explanation": "Các số chính phương từ 1 đến 20 là 1, 4, 9, 16 (4 số). Xác suất là $\\frac{4}{20} = \\frac{1}{5}$.",
+          "correct": 0
         },
         {
           "id": 5,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để hai mặt xuất hiện có cùng số chấm là:",
           "options": [
-            "A. $\\frac{1}{36}$",
-            "B. $\\frac{1}{6}$",
             "C. $\\frac{1}{12}$",
-            "D. $\\frac{5}{36}$"
+            "B. $\\frac{1}{6}$",
+            "D. $\\frac{5}{36}$",
+            "A. $\\frac{1}{36}$"
           ],
           "answer": "B",
-          "explanation": "Các cặp có số chấm bằng nhau là (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) gồm 6 kết quả. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$."
+          "explanation": "Các cặp có số chấm bằng nhau là (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) gồm 6 kết quả. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$.",
+          "correct": 3
         },
         {
           "id": 6,
           "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Xác suất để số được chọn chia hết cho 10 là:",
           "options": [
             "A. $\\frac{1}{10}$",
+            "D. $\\frac{9}{100}$",
             "B. $\\frac{1}{9}$",
-            "C. $\\frac{1}{11}$",
-            "D. $\\frac{9}{100}$"
+            "C. $\\frac{1}{11}$"
           ],
           "answer": "A",
-          "explanation": "Các số tự nhiên có hai chữ số là từ 10 đến 99 (có 90 số). Các số chia hết cho 10 là 10, 20, ..., 90 (có 9 số). Xác suất là $\\frac{9}{90} = \\frac{1}{10}$."
+          "explanation": "Các số tự nhiên có hai chữ số là từ 10 đến 99 (có 90 số). Các số chia hết cho 10 là 10, 20, ..., 90 (có 9 số). Xác suất là $\\frac{9}{90} = \\frac{1}{10}$.",
+          "correct": 0
         },
         {
           "id": 7,
           "question": "Một hộp chứa 10 viên bi, trong đó có $x$ viên bi đỏ và số còn lại là bi xanh. Biết xác suất lấy được bi đỏ là 0,4. Số viên bi xanh trong hộp là:",
           "options": [
-            "A. 4",
             "B. 5",
-            "C. 6",
-            "D. 7"
+            "D. 7",
+            "A. 4",
+            "C. 6"
           ],
           "answer": "C",
-          "explanation": "Số bi đỏ là $10 \\times 0,4 = 4$. Số bi xanh là $10 - 4 = 6$."
+          "explanation": "Số bi đỏ là $10 \\times 0,4 = 4$. Số bi xanh là $10 - 4 = 6$.",
+          "correct": 2
         },
         {
           "id": 8,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Xác suất xuất hiện mặt có số chấm là ước của 12 là:",
           "options": [
-            "A. $\\frac{5}{6}$",
             "B. $\\frac{2}{3}$",
             "C. $\\frac{1}{2}$",
+            "A. $\\frac{5}{6}$",
             "D. 1"
           ],
           "answer": "A",
-          "explanation": "Các ước của 12 trong tập {1, 2, 3, 4, 5, 6} là 1, 2, 3, 4, 6 (gồm 5 kết quả). Xác suất là $\\frac{5}{6}$."
+          "explanation": "Các ước của 12 trong tập {1, 2, 3, 4, 5, 6} là 1, 2, 3, 4, 6 (gồm 5 kết quả). Xác suất là $\\frac{5}{6}$.",
+          "correct": 2
         },
         {
           "id": 9,
           "question": "Một tấm bìa hình tròn được chia thành 6 hình quạt bằng nhau đánh số từ 1 đến 6. Quay tấm bìa. Xác suất mũi tên chỉ vào ô ghi số nguyên tố là:",
           "options": [
-            "A. $\\frac{1}{6}$",
-            "B. $\\frac{1}{3}$",
             "C. $\\frac{1}{2}$",
-            "D. $\\frac{2}{3}$"
+            "D. $\\frac{2}{3}$",
+            "A. $\\frac{1}{6}$",
+            "B. $\\frac{1}{3}$"
           ],
           "answer": "C",
-          "explanation": "Các số nguyên tố là 2, 3, 5 (3 ô). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$."
+          "explanation": "Các số nguyên tố là 2, 3, 5 (3 ô). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$.",
+          "correct": 2
         },
         {
           "id": 10,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng 7 là:",
           "options": [
+            "D. $\\frac{1}{12}$",
             "A. $\\frac{1}{6}$",
             "B. $\\frac{5}{36}$",
-            "C. $\\frac{7}{36}$",
-            "D. $\\frac{1}{12}$"
+            "C. $\\frac{7}{36}$"
           ],
           "answer": "A",
-          "explanation": "Có 6 cặp có tổng bằng 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Xác suất là $\\frac{6}{36} = \\frac{1}{6}$."
+          "explanation": "Có 6 cặp có tổng bằng 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Xác suất là $\\frac{6}{36} = \\frac{1}{6}$.",
+          "correct": 1
         },
         {
           "id": 11,
           "question": "Một túi chứa các thẻ ghi các chữ cái trong từ 'HOC SINH'. Rút ngẫu nhiên một thẻ. Xác suất rút được chữ 'H' là:",
           "options": [
-            "A. $\\frac{1}{7}$",
             "B. $\\frac{2}{7}$",
-            "C. $\\frac{1}{6}$",
-            "D. $\\frac{2}{6}$"
+            "A. $\\frac{1}{7}$",
+            "D. $\\frac{2}{6}$",
+            "C. $\\frac{1}{6}$"
           ],
           "answer": "B",
-          "explanation": "Từ 'HOC SINH' có 7 chữ cái (H, O, C, S, I, N, H) trong đó có 2 chữ H. Xác suất là $\\frac{2}{7}$."
+          "explanation": "Từ 'HOC SINH' có 7 chữ cái (H, O, C, S, I, N, H) trong đó có 2 chữ H. Xác suất là $\\frac{2}{7}$.",
+          "correct": 1
         },
         {
           "id": 12,
           "question": "Xác suất để một biến cố không xảy ra bằng 0,35. Xác suất để biến cố đó xảy ra là:",
           "options": [
-            "A. 0,35",
-            "B. 0,75",
             "C. 0,65",
-            "D. 0,55"
+            "B. 0,75",
+            "D. 0,55",
+            "A. 0,35"
           ],
           "answer": "C",
-          "explanation": "$1 - 0,35 = 0,65$."
+          "explanation": "$1 - 0,35 = 0,65$.",
+          "correct": 3
         }
       ],
       "part2": [
@@ -1520,145 +1580,157 @@
           "id": 1,
           "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để số chấm xuất hiện trên hai con xúc xắc hơn kém nhau 2 chấm là:",
           "options": [
+            "D. $\\frac{1}{4}$",
             "A. $\\frac{1}{6}$",
             "B. $\\frac{2}{9}$",
-            "C. $\\frac{5}{18}$",
-            "D. $\\frac{1}{4}$"
+            "C. $\\frac{5}{18}$"
           ],
           "answer": "B",
-          "explanation": "Các cặp có hiệu bằng 2: (1,3), (2,4), (3,5), (4,6) và hoán vị (3,1), (4,2), (5,3), (6,4) -> 8 cặp. Xác suất là $\\frac{8}{36} = \\frac{2}{9}$."
+          "explanation": "Các cặp có hiệu bằng 2: (1,3), (2,4), (3,5), (4,6) và hoán vị (3,1), (4,2), (5,3), (6,4) -> 8 cặp. Xác suất là $\\frac{8}{36} = \\frac{2}{9}$.",
+          "correct": 1
         },
         {
           "id": 2,
           "question": "Chọn ngẫu nhiên một số tự nhiên có 3 chữ số. Xác suất để số được chọn chia hết cho 5 là:",
           "options": [
-            "A. $\\frac{1}{5}$",
             "B. $\\frac{1}{4}$",
-            "C. $\\frac{1}{10}$",
-            "D. $\\frac{2}{9}$"
+            "D. $\\frac{2}{9}$",
+            "A. $\\frac{1}{5}$",
+            "C. $\\frac{1}{10}$"
           ],
           "answer": "A",
-          "explanation": "Các số có 3 chữ số từ 100 đến 999 có 900 số. Các số chia hết cho 5 là từ 100 đến 995, có $\\frac{995 - 100}{5} + 1 = 180$ số. Xác suất là $\\frac{180}{900} = \\frac{1}{5}$."
+          "explanation": "Các số có 3 chữ số từ 100 đến 999 có 900 số. Các số chia hết cho 5 là từ 100 đến 995, có $\\frac{995 - 100}{5} + 1 = 180$ số. Xác suất là $\\frac{180}{900} = \\frac{1}{5}$.",
+          "correct": 2
         },
         {
           "id": 3,
           "question": "Tung 4 đồng xu cân đối đồng thời. Xác suất để có ít nhất một mặt ngửa là:",
           "options": [
-            "A. $\\frac{1}{16}$",
+            "D. $\\frac{3}{4}$",
             "B. $\\frac{15}{16}$",
-            "C. $\\frac{7}{8}$",
-            "D. $\\frac{3}{4}$"
+            "A. $\\frac{1}{16}$",
+            "C. $\\frac{7}{8}$"
           ],
           "answer": "B",
-          "explanation": "Tổng số kết quả là $2^4 = 16$. Chỉ có duy nhất 1 kết quả không có mặt ngửa nào (SSSS). Xác suất ít nhất 1 ngửa là $1 - \\frac{1}{16} = \\frac{15}{16}$."
+          "explanation": "Tổng số kết quả là $2^4 = 16$. Chỉ có duy nhất 1 kết quả không có mặt ngửa nào (SSSS). Xác suất ít nhất 1 ngửa là $1 - \\frac{1}{16} = \\frac{15}{16}$.",
+          "correct": 2
         },
         {
           "id": 4,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để tích số chấm là một số chính phương là:",
           "options": [
-            "A. $\\frac{7}{36}$",
             "B. $\\frac{2}{9}$",
-            "C. $\\frac{1}{6}$",
-            "D. $\\frac{5}{18}$"
+            "A. $\\frac{7}{36}$",
+            "D. $\\frac{5}{18}$",
+            "C. $\\frac{1}{6}$"
           ],
           "answer": "B",
-          "explanation": "Tích là chính phương gồm: hai số bằng nhau (1,1),(2,2),(3,3),(4,4),(5,5),(6,6) (6 cặp) và các cặp khác nhau: (1,4), (4,1) (tích 4) -> 2 cặp. Tổng cộng 6 + 2 = 8 cặp. Xác suất là $\\frac{8}{36} = \\frac{2}{9}$."
+          "explanation": "Tích là chính phương gồm: hai số bằng nhau (1,1),(2,2),(3,3),(4,4),(5,5),(6,6) (6 cặp) và các cặp khác nhau: (1,4), (4,1) (tích 4) -> 2 cặp. Tổng cộng 6 + 2 = 8 cặp. Xác suất là $\\frac{8}{36} = \\frac{2}{9}$.",
+          "correct": 1
         },
         {
           "id": 5,
           "question": "Một hộp có 12 tấm thẻ ghi số từ 1 đến 12. Rút ngẫu nhiên đồng thời hai thẻ. Số kết quả có thể xảy ra của phép thử là:",
           "options": [
             "A. 144",
-            "B. 66",
             "C. 132",
+            "B. 66",
             "D. 24"
           ],
           "answer": "B",
-          "explanation": "Số cách chọn 2 thẻ từ 12 thẻ là $\\frac{12 \\times 11}{2} = 66$."
+          "explanation": "Số cách chọn 2 thẻ từ 12 thẻ là $\\frac{12 \\times 11}{2} = 66$.",
+          "correct": 0
         },
         {
           "id": 6,
           "question": "Một hộp đựng 4 bi xanh, 5 bi đỏ và 6 bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để viên bi lấy ra không có màu đỏ là:",
           "options": [
-            "A. $\\frac{1}{3}$",
             "B. $\\frac{2}{3}$",
             "C. $\\frac{3}{5}$",
-            "D. $\\frac{4}{15}$"
+            "D. $\\frac{4}{15}$",
+            "A. $\\frac{1}{3}$"
           ],
           "answer": "B",
-          "explanation": "Tổng số bi là 4 + 5 + 6 = 15. Số bi không phải màu đỏ là 4 + 6 = 10. Xác suất là $\\frac{10}{15} = \\frac{2}{3}$."
+          "explanation": "Tổng số bi là 4 + 5 + 6 = 15. Số bi không phải màu đỏ là 4 + 6 = 10. Xác suất là $\\frac{10}{15} = \\frac{2}{3}$.",
+          "correct": 3
         },
         {
           "id": 7,
           "question": "Gieo hai con xúc xắc. Xác suất để tổng số chấm xuất hiện là số chia hết cho 4 là:",
           "options": [
-            "A. $\\frac{1}{4}$",
-            "B. $\\frac{1}{6}$",
+            "D. $\\frac{7}{36}$",
             "C. $\\frac{5}{18}$",
-            "D. $\\frac{7}{36}$"
+            "B. $\\frac{1}{6}$",
+            "A. $\\frac{1}{4}$"
           ],
           "answer": "A",
-          "explanation": "Tổng chia hết cho 4 có thể là 4, 8, 12. Tổng = 4 có 3 cặp; Tổng = 8 có 5 cặp; Tổng = 12 có 1 cặp. Tổng cộng 3 + 5 + 1 = 9 cặp. Xác suất là $\\frac{9}{36} = \\frac{1}{4}$."
+          "explanation": "Tổng chia hết cho 4 có thể là 4, 8, 12. Tổng = 4 có 3 cặp; Tổng = 8 có 5 cặp; Tổng = 12 có 1 cặp. Tổng cộng 3 + 5 + 1 = 9 cặp. Xác suất là $\\frac{9}{36} = \\frac{1}{4}$.",
+          "correct": 3
         },
         {
           "id": 8,
           "question": "Từ các chữ số 1, 2, 3, 4, 5 viết ngẫu nhiên một số tự nhiên có hai chữ số khác nhau. Xác suất để số đó chia hết cho 3 là:",
           "options": [
             "A. $\\frac{2}{5}$",
-            "B. $\\frac{1}{2}$",
+            "D. $\\frac{1}{5}$",
             "C. $\\frac{3}{10}$",
-            "D. $\\frac{1}{5}$"
+            "B. $\\frac{1}{2}$"
           ],
           "answer": "A",
-          "explanation": "Tổng số các số viết được là $5 \\times 4 = 20$. Các cặp hai chữ số có tổng chia hết cho 3 là (1,2), (1,5), (2,4), (4,5) mỗi cặp cho 2 số. Tổng có $4 \\times 2 = 8$ số. Xác suất là $\\frac{8}{20} = \\frac{2}{5}$."
+          "explanation": "Tổng số các số viết được là $5 \\times 4 = 20$. Các cặp hai chữ số có tổng chia hết cho 3 là (1,2), (1,5), (2,4), (4,5) mỗi cặp cho 2 số. Tổng có $4 \\times 2 = 8$ số. Xác suất là $\\frac{8}{20} = \\frac{2}{5}$.",
+          "correct": 0
         },
         {
           "id": 9,
           "question": "Một đa giác đều 12 đỉnh. Chọn ngẫu nhiên một đỉnh. Xác suất để đỉnh đó là một trong các đỉnh thuộc trục đối xứng của đa giác là:",
           "options": [
             "A. Không xác định",
-            "B. Phụ thuộc góc quay",
             "C. $\\frac{1}{6}$",
+            "B. Phụ thuộc góc quay",
             "D. 1"
           ],
           "answer": "D",
-          "explanation": "Mỗi đỉnh của đa giác đều 12 đỉnh đều nằm trên một trục đối xứng (đa giác có số đỉnh chẵn có các trục đối xứng đi qua các cặp đỉnh đối diện). Do đó biến cố này là chắc chắn, xác suất bằng 1."
+          "explanation": "Mỗi đỉnh của đa giác đều 12 đỉnh đều nằm trên một trục đối xứng (đa giác có số đỉnh chẵn có các trục đối xứng đi qua các cặp đỉnh đối diện). Do đó biến cố này là chắc chắn, xác suất bằng 1.",
+          "correct": 0
         },
         {
           "id": 10,
           "question": "Một người gọi điện thoại nhưng quên mất chữ số cuối cùng, chỉ nhớ nó là một chữ số lẻ. Người đó bấm ngẫu nhiên một chữ số lẻ. Xác suất để người đó gọi đúng ngay lần đầu là:",
           "options": [
-            "A. $\\frac{1}{10}$",
-            "B. $\\frac{1}{5}$",
             "C. $\\frac{1}{2}$",
-            "D. $\\frac{1}{9}$"
+            "D. $\\frac{1}{9}$",
+            "A. $\\frac{1}{10}$",
+            "B. $\\frac{1}{5}$"
           ],
           "answer": "B",
-          "explanation": "Có 5 chữ số lẻ (1, 3, 5, 7, 9). Chọn ngẫu nhiên 1 chữ số đúng trong 5 chữ số có xác suất $\\frac{1}{5}$."
+          "explanation": "Có 5 chữ số lẻ (1, 3, 5, 7, 9). Chọn ngẫu nhiên 1 chữ số đúng trong 5 chữ số có xác suất $\\frac{1}{5}$.",
+          "correct": 2
         },
         {
           "id": 11,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để có ít nhất một con xúc xắc xuất hiện mặt 6 chấm là:",
           "options": [
-            "A. $\\frac{1}{6}$",
-            "B. $\\frac{11}{36}$",
             "C. $\\frac{1}{3}$",
-            "D. $\\frac{5}{18}$"
+            "A. $\\frac{1}{6}$",
+            "D. $\\frac{5}{18}$",
+            "B. $\\frac{11}{36}$"
           ],
           "answer": "B",
-          "explanation": "Số kết quả không có mặt 6 nào là $5 \\times 5 = 25$. Số kết quả có ít nhất 1 mặt 6 là $36 - 25 = 11$. Xác suất là $\\frac{11}{36}$."
+          "explanation": "Số kết quả không có mặt 6 nào là $5 \\times 5 = 25$. Số kết quả có ít nhất 1 mặt 6 là $36 - 25 = 11$. Xác suất là $\\frac{11}{36}$.",
+          "correct": 1
         },
         {
           "id": 12,
           "question": "Một hộp có 100 chiếc thẻ đánh số từ 1 đến 100. Rút ngẫu nhiên 1 thẻ. Xác suất để số trên thẻ chia hết cho cả 3 và 4 là:",
           "options": [
-            "A. $\\frac{2}{25}$",
-            "B. $\\frac{1}{12}$",
             "C. $\\frac{1}{10}$",
-            "D. $\\frac{7}{100}$"
+            "B. $\\frac{1}{12}$",
+            "D. $\\frac{7}{100}$",
+            "A. $\\frac{2}{25}$"
           ],
           "answer": "A",
-          "explanation": "Chia hết cho cả 3 và 4 tức chia hết cho 12. Từ 1 đến 100 có các số 12, 24, 36, 48, 60, 72, 84, 96 (8 số). Xác suất là $\\frac{8}{100} = \\frac{2}{25}$."
+          "explanation": "Chia hết cho cả 3 và 4 tức chia hết cho 12. Từ 1 đến 100 có các số 12, 24, 36, 48, 60, 72, 84, 96 (8 số). Xác suất là $\\frac{8}{100} = \\frac{2}{25}$.",
+          "correct": 3
         }
       ],
       "part2": [
@@ -1822,121 +1894,131 @@
           "id": 1,
           "question": "Biến cố nào sau đây chắc chắn xảy ra?",
           "options": [
-            "A. Tháng 4 có 31 ngày",
             "B. Một tam giác có tổng ba góc bằng 180 độ",
+            "A. Tháng 4 có 31 ngày",
             "C. Gieo một con xúc xắc được mặt 6 chấm",
             "D. Ngày mai trời nắng đẹp"
           ],
           "answer": "B",
-          "explanation": "Tổng ba góc của một tam giác luôn bằng 180 độ theo định lí hình học, nên đây là biến cố chắc chắn."
+          "explanation": "Tổng ba góc của một tam giác luôn bằng 180 độ theo định lí hình học, nên đây là biến cố chắc chắn.",
+          "correct": 1
         },
         {
           "id": 2,
           "question": "Biến cố nào sau đây không thể xảy ra?",
           "options": [
-            "A. Tung một đồng xu được mặt ngửa",
-            "B. Chọn ngẫu nhiên một ngày trong tuần được ngày Chủ nhật",
             "C. Gieo một con xúc xắc được mặt 0 chấm",
-            "D. Lấy ngẫu nhiên một viên bi đỏ từ hộp có cả bi xanh và bi đỏ"
+            "D. Lấy ngẫu nhiên một viên bi đỏ từ hộp có cả bi xanh và bi đỏ",
+            "B. Chọn ngẫu nhiên một ngày trong tuần được ngày Chủ nhật",
+            "A. Tung một đồng xu được mặt ngửa"
           ],
           "answer": "C",
-          "explanation": "Con xúc xắc 6 mặt chỉ có từ 1 đến 6 chấm, không có mặt 0 chấm."
+          "explanation": "Con xúc xắc 6 mặt chỉ có từ 1 đến 6 chấm, không có mặt 0 chấm.",
+          "correct": 3
         },
         {
           "id": 3,
           "question": "Tung một đồng xu cân đối 1 lần. Xác suất xuất hiện mặt ngửa là:",
           "options": [
             "A. 1",
-            "B. 0",
+            "D. 0,25",
             "C. 0,5",
-            "D. 0,25"
+            "B. 0"
           ],
           "answer": "C",
-          "explanation": "Xác suất xuất hiện mặt ngửa là $\\frac{1}{2} = 0,5$."
+          "explanation": "Xác suất xuất hiện mặt ngửa là $\\frac{1}{2} = 0,5$.",
+          "correct": 0
         },
         {
           "id": 4,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Biến cố nào sau đây có xác suất bằng $\\frac{1}{2}$?",
           "options": [
-            "A. Xuất hiện mặt có số chấm là số lẻ",
+            "D. Xuất hiện mặt có số chấm chia hết cho 5",
             "B. Xuất hiện mặt 6 chấm",
-            "C. Xuất hiện mặt có số chấm lớn hơn 4",
-            "D. Xuất hiện mặt có số chấm chia hết cho 5"
+            "A. Xuất hiện mặt có số chấm là số lẻ",
+            "C. Xuất hiện mặt có số chấm lớn hơn 4"
           ],
           "answer": "A",
-          "explanation": "Số chấm lẻ gồm 1, 3, 5 (3 kết quả). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$."
+          "explanation": "Số chấm lẻ gồm 1, 3, 5 (3 kết quả). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$.",
+          "correct": 2
         },
         {
           "id": 5,
           "question": "Một hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ. Xác suất rút được thẻ ghi số lớn hơn 6 là:",
           "options": [
-            "A. $\\frac{2}{5}$",
-            "B. $\\frac{3}{5}$",
             "C. $\\frac{1}{2}$",
+            "B. $\\frac{3}{5}$",
+            "A. $\\frac{2}{5}$",
             "D. $\\frac{7}{10}$"
           ],
           "answer": "A",
-          "explanation": "Các số lớn hơn 6 là 7, 8, 9, 10 (4 số). Xác suất là $\\frac{4}{10} = \\frac{2}{5}$."
+          "explanation": "Các số lớn hơn 6 là 7, 8, 9, 10 (4 số). Xác suất là $\\frac{4}{10} = \\frac{2}{5}$.",
+          "correct": 2
         },
         {
           "id": 6,
           "question": "Trong hộp có 3 quả bóng xanh, 4 quả bóng đỏ và 5 quả bóng vàng cùng kích thước. Lấy ngẫu nhiên 1 quả. Xác suất lấy được bóng vàng là:",
           "options": [
+            "D. $\\frac{7}{12}$",
             "A. $\\frac{1}{4}$",
-            "B. $\\frac{1}{3}$",
             "C. $\\frac{5}{12}$",
-            "D. $\\frac{7}{12}$"
+            "B. $\\frac{1}{3}$"
           ],
           "answer": "C",
-          "explanation": "Tổng số bóng là 3 + 4 + 5 = 12. Xác suất lấy bóng vàng là $\\frac{5}{12}$."
+          "explanation": "Tổng số bóng là 3 + 4 + 5 = 12. Xác suất lấy bóng vàng là $\\frac{5}{12}$.",
+          "correct": 1
         },
         {
           "id": 7,
           "question": "Gieo một con xúc xắc 6 mặt cân đối. Xác suất xuất hiện mặt có số chấm nhỏ hơn 7 là:",
           "options": [
-            "A. 0",
-            "B. 1",
             "C. $\\frac{5}{6}$",
-            "D. $\\frac{1}{6}$"
+            "D. $\\frac{1}{6}$",
+            "B. 1",
+            "A. 0"
           ],
           "answer": "B",
-          "explanation": "Mọi mặt của con xúc xắc đều có số chấm $\\le 6 < 7$ nên đây là biến cố chắc chắn, xác suất bằng 1."
+          "explanation": "Mọi mặt của con xúc xắc đều có số chấm $\\le 6 < 7$ nên đây là biến cố chắc chắn, xác suất bằng 1.",
+          "correct": 3
         },
         {
           "id": 8,
           "question": "Một lớp có 18 bạn nam và 18 bạn nữ. Chọn ngẫu nhiên 1 bạn làm lớp trưởng. Khả năng chọn được bạn nam và khả năng chọn được bạn nữ là:",
           "options": [
-            "A. Khả năng chọn nam lớn hơn",
+            "D. Không thể so sánh",
             "B. Khả năng chọn nữ lớn hơn",
-            "C. Bằng nhau",
-            "D. Không thể so sánh"
+            "A. Khả năng chọn nam lớn hơn",
+            "C. Bằng nhau"
           ],
           "answer": "C",
-          "explanation": "Số lượng nam và nữ bằng nhau (18 bạn) nên xác suất chọn là bằng nhau."
+          "explanation": "Số lượng nam và nữ bằng nhau (18 bạn) nên xác suất chọn là bằng nhau.",
+          "correct": 2
         },
         {
           "id": 9,
           "question": "Lấy ngẫu nhiên một chữ cái trong cụm từ 'HOC TOT'. Biến cố 'Lấy được chữ O' có bao nhiêu kết quả thuận lợi?",
           "options": [
-            "A. 1",
-            "B. 2",
+            "D. 6",
             "C. 3",
-            "D. 6"
+            "B. 2",
+            "A. 1"
           ],
           "answer": "B",
-          "explanation": "Trong cụm từ 'HOC TOT' có 2 chữ O nên có 2 kết quả thuận lợi."
+          "explanation": "Trong cụm từ 'HOC TOT' có 2 chữ O nên có 2 kết quả thuận lợi.",
+          "correct": 3
         },
         {
           "id": 10,
           "question": "Gieo hai con xúc xắc cân đối. Biến cố 'Tổng số chấm bằng 14' là:",
           "options": [
-            "A. Biến cố chắc chắn",
-            "B. Biến cố không thể",
             "C. Biến cố ngẫu nhiên",
-            "D. Biến cố đồng khả năng"
+            "A. Biến cố chắc chắn",
+            "D. Biến cố đồng khả năng",
+            "B. Biến cố không thể"
           ],
           "answer": "B",
-          "explanation": "Tổng số chấm lớn nhất là 6 + 6 = 12 nên không thể bằng 14."
+          "explanation": "Tổng số chấm lớn nhất là 6 + 6 = 12 nên không thể bằng 14.",
+          "correct": 1
         },
         {
           "id": 11,
@@ -1944,23 +2026,25 @@
           "options": [
             "A. 0,3",
             "B. 0,7",
-            "C. 0,6",
-            "D. 0,4"
+            "D. 0,4",
+            "C. 0,6"
           ],
           "answer": "B",
-          "explanation": "Số bút dùng tốt là 20 - 6 = 14. Xác suất là $\\frac{14}{20} = 0,7$."
+          "explanation": "Số bút dùng tốt là 20 - 6 = 14. Xác suất là $\\frac{14}{20} = 0,7$.",
+          "correct": 0
         },
         {
           "id": 12,
           "question": "Chọn ngẫu nhiên một tháng trong năm. Xác suất chọn được tháng có 30 ngày là:",
           "options": [
             "A. $\\frac{1}{3}$",
+            "D. $\\frac{7}{12}$",
             "B. $\\frac{1}{4}$",
-            "C. $\\frac{5}{12}$",
-            "D. $\\frac{7}{12}$"
+            "C. $\\frac{5}{12}$"
           ],
           "answer": "A",
-          "explanation": "Các tháng có đúng 30 ngày là tháng 4, 6, 9, 11 (4 tháng). Xác suất là $\\frac{4}{12} = \\frac{1}{3}$."
+          "explanation": "Các tháng có đúng 30 ngày là tháng 4, 6, 9, 11 (4 tháng). Xác suất là $\\frac{4}{12} = \\frac{1}{3}$.",
+          "correct": 0
         }
       ],
       "part2": [
@@ -2120,85 +2204,92 @@
           "id": 1,
           "question": "Gieo hai con xúc xắc cân đối. Biến cố nào sau đây có xác suất lớn nhất?",
           "options": [
-            "A. Tổng số chấm bằng 2",
-            "B. Tổng số chấm bằng 7",
             "C. Tổng số chấm bằng 12",
-            "D. Tổng số chấm bằng 10"
+            "A. Tổng số chấm bằng 2",
+            "D. Tổng số chấm bằng 10",
+            "B. Tổng số chấm bằng 7"
           ],
           "answer": "B",
-          "explanation": "Tổng bằng 7 có tới 6 kết quả thuận lợi (nhiều nhất trong các tổng từ 2 đến 12)."
+          "explanation": "Tổng bằng 7 có tới 6 kết quả thuận lợi (nhiều nhất trong các tổng từ 2 đến 12).",
+          "correct": 1
         },
         {
           "id": 2,
           "question": "Tung 3 đồng xu cân đối đồng thời. Xác suất để có đúng 1 đồng xu xuất hiện mặt sấp là:",
           "options": [
-            "A. $\\frac{1}{8}$",
             "B. $\\frac{3}{8}$",
+            "D. $\\frac{5}{8}$",
             "C. $\\frac{1}{2}$",
-            "D. $\\frac{5}{8}$"
+            "A. $\\frac{1}{8}$"
           ],
           "answer": "B",
-          "explanation": "Các kết quả có đúng 1 sấp là (S,N,N), (N,S,N), (N,N,S) gồm 3 kết quả trên tổng số 8 kết quả. Xác suất là $\\frac{3}{8}$."
+          "explanation": "Các kết quả có đúng 1 sấp là (S,N,N), (N,S,N), (N,N,S) gồm 3 kết quả trên tổng số 8 kết quả. Xác suất là $\\frac{3}{8}$.",
+          "correct": 3
         },
         {
           "id": 3,
           "question": "Một hộp có chứa 15 chiếc thẻ đánh số từ 1 đến 15. Rút ngẫu nhiên một thẻ. Xác suất để số trên thẻ là số chia hết cho 3 nhưng không chia hết cho 2 là:",
           "options": [
-            "A. $\\frac{1}{5}$",
             "B. $\\frac{2}{15}$",
+            "D. $\\frac{4}{15}$",
             "C. $\\frac{1}{3}$",
-            "D. $\\frac{4}{15}$"
+            "A. $\\frac{1}{5}$"
           ],
           "answer": "A",
-          "explanation": "Các số chia hết cho 3 là 3, 6, 9, 12, 15. Các số không chia hết cho 2 (tức số lẻ) là 3, 9, 15 (gồm 3 số). Xác suất là $\\frac{3}{15} = \\frac{1}{5}$."
+          "explanation": "Các số chia hết cho 3 là 3, 6, 9, 12, 15. Các số không chia hết cho 2 (tức số lẻ) là 3, 9, 15 (gồm 3 số). Xác suất là $\\frac{3}{15} = \\frac{1}{5}$.",
+          "correct": 3
         },
         {
           "id": 4,
           "question": "Gieo một con xúc xắc 6 mặt cân đối hai lần liên tiếp. Xác suất để lần thứ nhất được mặt 6 chấm và lần thứ hai được mặt 1 chấm là:",
           "options": [
             "A. $\\frac{1}{6}$",
+            "D. $\\frac{1}{12}$",
             "B. $\\frac{1}{18}$",
-            "C. $\\frac{1}{36}$",
-            "D. $\\frac{1}{12}$"
+            "C. $\\frac{1}{36}$"
           ],
           "answer": "C",
-          "explanation": "Cặp (6, 1) là 1 kết quả cụ thể trong 36 kết quả có thể xảy ra. Xác suất là $\\frac{1}{36}$."
+          "explanation": "Cặp (6, 1) là 1 kết quả cụ thể trong 36 kết quả có thể xảy ra. Xác suất là $\\frac{1}{36}$.",
+          "correct": 0
         },
         {
           "id": 5,
           "question": "Một hộp chứa 5 viên bi xanh, 6 viên bi đỏ và 9 viên bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi không phải màu vàng là:",
           "options": [
-            "A. 0,45",
             "B. 0,55",
+            "A. 0,45",
             "C. 0,25",
             "D. 0,3"
           ],
           "answer": "B",
-          "explanation": "Tổng số bi là 5 + 6 + 9 = 20. Số bi không phải vàng là 5 + 6 = 11. Xác suất là $\\frac{11}{20} = 0,55$."
+          "explanation": "Tổng số bi là 5 + 6 + 9 = 20. Số bi không phải vàng là 5 + 6 = 11. Xác suất là $\\frac{11}{20} = 0,55$.",
+          "correct": 1
         },
         {
           "id": 6,
           "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Xác suất để số được chọn chia hết cho cả 2 và 5 là:",
           "options": [
-            "A. $\\frac{1}{10}$",
             "B. $\\frac{1}{9}$",
             "C. $\\frac{1}{5}$",
-            "D. $\\frac{9}{100}$"
+            "D. $\\frac{9}{100}$",
+            "A. $\\frac{1}{10}$"
           ],
           "answer": "A",
-          "explanation": "Số có hai chữ số từ 10 đến 99 có 90 số. Số chia hết cho 10 có 9 số (10, 20, ..., 90). Xác suất là $\\frac{9}{90} = \\frac{1}{10}$."
+          "explanation": "Số có hai chữ số từ 10 đến 99 có 90 số. Số chia hết cho 10 có 9 số (10, 20, ..., 90). Xác suất là $\\frac{9}{90} = \\frac{1}{10}$.",
+          "correct": 3
         },
         {
           "id": 7,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để hiệu số chấm xuất hiện trên hai con xúc xắc bằng 3 là:",
           "options": [
             "A. $\\frac{1}{6}$",
-            "B. $\\frac{5}{36}$",
             "C. $\\frac{1}{9}$",
+            "B. $\\frac{5}{36}$",
             "D. $\\frac{1}{12}$"
           ],
           "answer": "A",
-          "explanation": "Các cặp có hiệu bằng 3: (1,4), (2,5), (3,6) và (4,1), (5,2), (6,3) -> 6 cặp. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$."
+          "explanation": "Các cặp có hiệu bằng 3: (1,4), (2,5), (3,6) và (4,1), (5,2), (6,3) -> 6 cặp. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$.",
+          "correct": 0
         },
         {
           "id": 8,
@@ -2206,59 +2297,64 @@
           "options": [
             "A. $\\frac{11}{15}$",
             "B. $\\frac{4}{15}$",
-            "C. $\\frac{1}{15}$",
-            "D. $\\frac{7}{15}$"
+            "D. $\\frac{7}{15}$",
+            "C. $\\frac{1}{15}$"
           ],
           "answer": "B",
-          "explanation": "Xác suất lấy bi vàng là $1 - \\left(\\frac{2}{5} + \\frac{1}{3}\\right) = 1 - \\frac{11}{15} = \\frac{4}{15}$."
+          "explanation": "Xác suất lấy bi vàng là $1 - \\left(\\frac{2}{5} + \\frac{1}{3}\\right) = 1 - \\frac{11}{15} = \\frac{4}{15}$.",
+          "correct": 0
         },
         {
           "id": 9,
           "question": "Trong các số từ 1 đến 50, chọn ngẫu nhiên một số. Xác suất để số được chọn là số chính phương là:",
           "options": [
-            "A. $\\frac{7}{50}$",
+            "D. $\\frac{1}{10}$",
             "B. $\\frac{6}{50}$",
-            "C. $\\frac{8}{50}$",
-            "D. $\\frac{1}{10}$"
+            "A. $\\frac{7}{50}$",
+            "C. $\\frac{8}{50}$"
           ],
           "answer": "A",
-          "explanation": "Các số chính phương là $1, 4, 9, 16, 25, 36, 49$ (7 số). Xác suất là $\\frac{7}{50}$."
+          "explanation": "Các số chính phương là $1, 4, 9, 16, 25, 36, 49$ (7 số). Xác suất là $\\frac{7}{50}$.",
+          "correct": 2
         },
         {
           "id": 10,
           "question": "Gieo một con xúc xắc hai lần. Biến cố 'Tổng số chấm trong hai lần gieo là số lẻ' có số kết quả thuận lợi là:",
           "options": [
-            "A. 12",
-            "B. 18",
             "C. 16",
-            "D. 24"
+            "D. 24",
+            "A. 12",
+            "B. 18"
           ],
           "answer": "B",
-          "explanation": "Tổng là lẻ khi 1 lần chẵn và 1 lần lẻ: chẵn-lẻ (3x3=9) + lẻ-chẵn (3x3=9) = 18 kết quả."
+          "explanation": "Tổng là lẻ khi 1 lần chẵn và 1 lần lẻ: chẵn-lẻ (3x3=9) + lẻ-chẵn (3x3=9) = 18 kết quả.",
+          "correct": 2
         },
         {
           "id": 11,
           "question": "Lớp 7C có 45 học sinh, trong đó có 27 học sinh thích môn Toán và 18 học sinh thích môn Văn. Chọn ngẫu nhiên một học sinh. Xác suất để chọn được học sinh thích môn Toán là:",
           "options": [
-            "A. 0,4",
             "B. 0,6",
-            "C. 0,5",
-            "D. 0,75"
+            "A. 0,4",
+            "D. 0,75",
+            "C. 0,5"
           ],
           "answer": "B",
-          "explanation": "Xác suất là $\\frac{27}{45} = \\frac{3}{5} = 0,6$."
+          "explanation": "Xác suất là $\\frac{27}{45} = \\frac{3}{5} = 0,6$.",
+          "correct": 1
         },
         {
           "id": 12,
           "question": "Có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ, ghi lại số rồi bỏ lại hộp. Rút tiếp thẻ thứ hai. Xác suất để cả hai thẻ rút được đều ghi số 5 là:",
           "options": [
-            "A. $\\frac{1}{10}$",
             "B. $\\frac{1}{20}$",
             "C. $\\frac{1}{100}$",
+            "A. $\\frac{1}{10}$",
             "D. $\\frac{1}{50}$"
           ],
           "answer": "C",
-          "explanation": "Mỗi lần rút có xác suất $\\frac{1}{10}$. Hai lần độc lập: $\\frac{1}{10} \\times \\frac{1}{10} = \\frac{1}{100}$."
+          "explanation": "Mỗi lần rút có xác suất $\\frac{1}{10}$. Hai lần độc lập: $\\frac{1}{10} \\times \\frac{1}{10} = \\frac{1}{100}$.",
+          "correct": 2
         }
       ],
       "part2": [
@@ -2426,145 +2522,157 @@
           "id": 1,
           "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm xuất hiện nhỏ hơn 6 là:",
           "options": [
-            "A. $\\frac{5}{18}$",
             "B. $\\frac{1}{4}$",
+            "A. $\\frac{5}{18}$",
             "C. $\\frac{7}{36}$",
             "D. $\\frac{1}{3}$"
           ],
           "answer": "A",
-          "explanation": "Tổng nhỏ hơn 6 gồm: tổng 2 (1 cặp), tổng 3 (2 cặp), tổng 4 (3 cặp), tổng 5 (4 cặp). Tổng cộng 1 + 2 + 3 + 4 = 10 cặp. Xác suất là $\\frac{10}{36} = \\frac{5}{18}$."
+          "explanation": "Tổng nhỏ hơn 6 gồm: tổng 2 (1 cặp), tổng 3 (2 cặp), tổng 4 (3 cặp), tổng 5 (4 cặp). Tổng cộng 1 + 2 + 3 + 4 = 10 cặp. Xác suất là $\\frac{10}{36} = \\frac{5}{18}$.",
+          "correct": 1
         },
         {
           "id": 2,
           "question": "Tung 4 đồng xu cân đối đồng thời. Xác suất để có đúng 3 đồng xu xuất hiện mặt sấp là:",
           "options": [
-            "A. $\\frac{1}{4}$",
-            "B. $\\frac{1}{8}$",
             "C. $\\frac{3}{16}$",
-            "D. $\\frac{5}{16}$"
+            "B. $\\frac{1}{8}$",
+            "D. $\\frac{5}{16}$",
+            "A. $\\frac{1}{4}$"
           ],
           "answer": "A",
-          "explanation": "Tổng số kết quả là 16. Có 4 cách chọn đồng xu xuất hiện mặt ngửa (SSSN, SSNS, SNSS, NSSS). Xác suất là $\\frac{4}{16} = \\frac{1}{4}$."
+          "explanation": "Tổng số kết quả là 16. Có 4 cách chọn đồng xu xuất hiện mặt ngửa (SSSN, SSNS, SNSS, NSSS). Xác suất là $\\frac{4}{16} = \\frac{1}{4}$.",
+          "correct": 3
         },
         {
           "id": 3,
           "question": "Chọn ngẫu nhiên một số tự nhiên có 3 chữ số. Xác suất để số được chọn có tổng các chữ số bằng 3 là:",
           "options": [
-            "A. $\\frac{1}{150}$",
-            "B. $\\frac{1}{180}$",
             "C. $\\frac{7}{900}$",
-            "D. $\\frac{2}{225}$"
+            "D. $\\frac{2}{225}$",
+            "B. $\\frac{1}{180}$",
+            "A. $\\frac{1}{150}$"
           ],
           "answer": "A",
-          "explanation": "Các số có 3 chữ số có tổng bằng 3: gồm bộ {3,0,0}: 300 (1 số); bộ {2,1,0}: 210, 201, 120, 102 (4 số); bộ {1,1,1}: 111 (1 số). Tổng cộng có 1 + 4 + 1 = 6 số. Xác suất là $\\frac{6}{900} = \\frac{1}{150}$."
+          "explanation": "Các số có 3 chữ số có tổng bằng 3: gồm bộ {3,0,0}: 300 (1 số); bộ {2,1,0}: 210, 201, 120, 102 (4 số); bộ {1,1,1}: 111 (1 số). Tổng cộng có 1 + 4 + 1 = 6 số. Xác suất là $\\frac{6}{900} = \\frac{1}{150}$.",
+          "correct": 3
         },
         {
           "id": 4,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để tích hai số chấm là số chia hết cho 9 là:",
           "options": [
             "A. $\\frac{1}{9}$",
-            "B. $\\frac{1}{6}$",
+            "D. $\\frac{5}{36}$",
             "C. $\\frac{4}{36}$",
-            "D. $\\frac{5}{36}$"
+            "B. $\\frac{1}{6}$"
           ],
           "answer": "A",
-          "explanation": "Để tích chia hết cho 9: các trường hợp có ít nhất 1 số 6 kết hợp với 3 hoặc 6, hoặc cả hai số là bội của 3: (3,3), (3,6), (6,3), (6,6) gồm 4 cặp. Xác suất là $\\frac{4}{36} = \\frac{1}{9}$."
+          "explanation": "Để tích chia hết cho 9: các trường hợp có ít nhất 1 số 6 kết hợp với 3 hoặc 6, hoặc cả hai số là bội của 3: (3,3), (3,6), (6,3), (6,6) gồm 4 cặp. Xác suất là $\\frac{4}{36} = \\frac{1}{9}$.",
+          "correct": 0
         },
         {
           "id": 5,
           "question": "Một túi đựng 5 viên bi xanh, 6 viên bi đỏ và 7 viên bi vàng. Lấy ngẫu nhiên đồng thời 2 viên bi. Số kết quả có thể xảy ra của phép thử là:",
           "options": [
             "A. 153",
+            "D. 36",
             "B. 306",
-            "C. 18",
-            "D. 36"
+            "C. 18"
           ],
           "answer": "A",
-          "explanation": "Tổng số bi là 18. Số cách chọn 2 viên bi từ 18 viên là $\\frac{18 \\times 17}{2} = 153$."
+          "explanation": "Tổng số bi là 18. Số cách chọn 2 viên bi từ 18 viên là $\\frac{18 \\times 17}{2} = 153$.",
+          "correct": 0
         },
         {
           "id": 6,
           "question": "Từ các chữ số 0, 1, 2, 3, 4 viết ngẫu nhiên một số tự nhiên có hai chữ số khác nhau. Xác suất để số viết được là số chẵn là:",
           "options": [
-            "A. $\\frac{5}{8}$",
+            "D. $\\frac{3}{5}$",
             "B. $\\frac{1}{2}$",
-            "C. $\\frac{9}{16}$",
-            "D. $\\frac{3}{5}$"
+            "A. $\\frac{5}{8}$",
+            "C. $\\frac{9}{16}$"
           ],
           "answer": "A",
-          "explanation": "Tổng số các số viết được là $4 \\times 4 = 16$. Số tận cùng bằng 0 có 4 số (10, 20, 30, 40). Số tận cùng bằng 2 có 3 số (12, 32, 42). Số tận cùng bằng 4 có 3 số (14, 24, 34). Tổng cộng có 4 + 3 + 3 = 10 số chẵn. Xác suất là $\\frac{10}{16} = \\frac{5}{8}$."
+          "explanation": "Tổng số các số viết được là $4 \\times 4 = 16$. Số tận cùng bằng 0 có 4 số (10, 20, 30, 40). Số tận cùng bằng 2 có 3 số (12, 32, 42). Số tận cùng bằng 4 có 3 số (14, 24, 34). Tổng cộng có 4 + 3 + 3 = 10 số chẵn. Xác suất là $\\frac{10}{16} = \\frac{5}{8}$.",
+          "correct": 2
         },
         {
           "id": 7,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để hiệu số chấm xuất hiện giữa hai con xúc xắc lớn hơn hoặc bằng 4 là:",
           "options": [
-            "A. $\\frac{1}{6}$",
-            "B. $\\frac{5}{36}$",
+            "D. $\\frac{7}{36}$",
             "C. $\\frac{1}{9}$",
-            "D. $\\frac{7}{36}$"
+            "A. $\\frac{1}{6}$",
+            "B. $\\frac{5}{36}$"
           ],
           "answer": "A",
-          "explanation": "Hiệu = 4 gồm: (1,5), (2,6) và (5,1), (6,2) -> 4 cặp. Hiệu = 5 gồm: (1,6) và (6,1) -> 2 cặp. Tổng cộng 4 + 2 = 6 cặp. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$."
+          "explanation": "Hiệu = 4 gồm: (1,5), (2,6) và (5,1), (6,2) -> 4 cặp. Hiệu = 5 gồm: (1,6) và (6,1) -> 2 cặp. Tổng cộng 4 + 2 = 6 cặp. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$.",
+          "correct": 2
         },
         {
           "id": 8,
           "question": "Một bài thi trắc nghiệm có 4 phương án trả lời cho mỗi câu hỏi, trong đó chỉ có 1 phương án đúng. Một học sinh không học bài nên khoanh bừa 2 câu hỏi độc lập. Xác suất để học sinh đó khoanh đúng cả 2 câu là:",
           "options": [
+            "D. $\\frac{1}{2}$",
             "A. $\\frac{1}{16}$",
-            "B. $\\frac{1}{8}$",
             "C. $\\frac{1}{4}$",
-            "D. $\\frac{1}{2}$"
+            "B. $\\frac{1}{8}$"
           ],
           "answer": "A",
-          "explanation": "Mỗi câu có xác suất đúng là $\\frac{1}{4}$. Đúng cả hai câu: $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$."
+          "explanation": "Mỗi câu có xác suất đúng là $\\frac{1}{4}$. Đúng cả hai câu: $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$.",
+          "correct": 1
         },
         {
           "id": 9,
           "question": "Một bình có 20 tấm thẻ ghi số từ 1 đến 20. Rút ngẫu nhiên một thẻ. Xác suất để số trên thẻ là số chia hết cho 2 hoặc chia hết cho 3 là:",
           "options": [
-            "A. $\\frac{13}{20}$",
             "B. $\\frac{3}{5}$",
+            "A. $\\frac{13}{20}$",
             "C. $\\frac{7}{10}$",
             "D. $\\frac{11}{20}$"
           ],
           "answer": "A",
-          "explanation": "Số chia hết cho 2: 10 số. Số chia hết cho 3: 6 số. Bội chung của 2 và 3 (bội của 6): 3 số (6, 12, 18). Số kết quả thuận lợi là 10 + 6 - 3 = 13. Xác suất là $\\frac{13}{20}$."
+          "explanation": "Số chia hết cho 2: 10 số. Số chia hết cho 3: 6 số. Bội chung của 2 và 3 (bội của 6): 3 số (6, 12, 18). Số kết quả thuận lợi là 10 + 6 - 3 = 13. Xác suất là $\\frac{13}{20}$.",
+          "correct": 1
         },
         {
           "id": 10,
           "question": "Gieo hai con xúc xắc cân đối. Xác suất để số chấm xuất hiện trên ít nhất một con xúc xắc là số nguyên tố là:",
           "options": [
-            "A. $\\frac{3}{4}$",
-            "B. $\\frac{1}{4}$",
             "C. $\\frac{1}{2}$",
-            "D. $\\frac{5}{6}$"
+            "B. $\\frac{1}{4}$",
+            "D. $\\frac{5}{6}$",
+            "A. $\\frac{3}{4}$"
           ],
           "answer": "A",
-          "explanation": "Các số không nguyên tố là 1, 4, 6 (3 số). Số cặp không có số nguyên tố nào là $3 \\times 3 = 9$. Số cặp có ít nhất 1 số nguyên tố là $36 - 9 = 27$. Xác suất là $\\frac{27}{36} = \\frac{3}{4}$."
+          "explanation": "Các số không nguyên tố là 1, 4, 6 (3 số). Số cặp không có số nguyên tố nào là $3 \\times 3 = 9$. Số cặp có ít nhất 1 số nguyên tố là $36 - 9 = 27$. Xác suất là $\\frac{27}{36} = \\frac{3}{4}$.",
+          "correct": 3
         },
         {
           "id": 11,
           "question": "Cho hai biến cố A và B độc lập trong một phép thử. Biết xác suất xảy ra biến cố A là 0,4 và xác suất xảy ra biến cố B là 0,5. Xác suất để cả hai biến cố cùng xảy ra là:",
           "options": [
             "A. 0,2",
-            "B. 0,9",
             "C. 0,1",
+            "B. 0,9",
             "D. 0,45"
           ],
           "answer": "A",
-          "explanation": "$0,4 \\times 0,5 = 0,2$."
+          "explanation": "$0,4 \\times 0,5 = 0,2$.",
+          "correct": 0
         },
         {
           "id": 12,
           "question": "Một nhóm gồm 4 bạn nam và 4 bạn nữ xếp thành một hàng ngang. Xác suất để bạn đầu hàng là bạn nam là:",
           "options": [
-            "A. $\\frac{1}{2}$",
-            "B. $\\frac{1}{4}$",
             "C. $\\frac{3}{8}$",
+            "B. $\\frac{1}{4}$",
+            "A. $\\frac{1}{2}$",
             "D. $\\frac{1}{8}$"
           ],
           "answer": "A",
-          "explanation": "Vị trí đầu hàng có 8 bạn có thể đứng, trong đó có 4 bạn nam. Xác suất là $\\frac{4}{8} = \\frac{1}{2}$."
+          "explanation": "Vị trí đầu hàng có 8 bạn có thể đứng, trong đó có 4 bạn nam. Xác suất là $\\frac{4}{8} = \\frac{1}{2}$.",
+          "correct": 2
         }
       ],
       "part2": [

@@ -13,36 +13,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là một đơn thức?",
         "options": [
-          "$3x^2y$",
-          "$2x + y$",
           "$\\frac{x}{y}$",
-          "$x^2 - 1$"
+          "$x^2 - 1$",
+          "$3x^2y$",
+          "$2x + y$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hệ số của đơn thức $-5x^3y^2$ là:",
         "options": [
-          "$-5$",
-          "$5$",
           "$3$",
-          "$2$"
+          "$-5$",
+          "$2$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Phần biến của đơn thức $\\frac{1}{2}x^2y^4z$ là:",
         "options": [
-          "$x^2y^4z$",
           "$\\frac{1}{2}$",
           "$x^2y^4$",
+          "$x^2y^4z$",
           "$xyz$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -50,9 +50,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Bậc của đơn thức $7x^2y^3z$ là:",
         "options": [
           "$6$",
-          "$5$",
+          "$2$",
           "$7$",
-          "$2$"
+          "$5$"
         ],
         "correct": 0
       },
@@ -61,24 +61,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cặp đơn thức nào sau đây là hai đơn thức đồng dạng?",
         "options": [
-          "$2x^2y$ và $-5x^2y$",
+          "$xy$ và $x^2y$",
           "$3x^2y$ và $3xy^2$",
           "$4x^3$ và $4y^3$",
-          "$xy$ và $x^2y$"
+          "$2x^2y$ và $-5x^2y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $3x^2y + 4x^2y$ là:",
         "options": [
+          "$7xy$",
           "$7x^2y$",
           "$7x^4y^2$",
-          "$12x^2y$",
-          "$7xy$"
+          "$12x^2y$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -86,8 +86,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Thu gọn đơn thức $A = (-2xy^2) \\cdot (3x^2y)$ ta được:",
         "options": [
           "$-6x^3y^3$",
-          "$6x^3y^3$",
           "$-6x^2y^2$",
+          "$6x^3y^3$",
           "$-5x^3y^3$"
         ],
         "correct": 0
@@ -97,24 +97,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Bậc của đơn thức sau khi thu gọn $B = 4x^2y \\cdot (-0.5xy^3)$ là:",
         "options": [
-          "$6$",
-          "$5$",
+          "$7$",
           "$4$",
-          "$7$"
+          "$6$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Kết quả của phép trừ $5x^3y^2 - 8x^3y^2$ là:",
         "options": [
-          "$-3x^3y^2$",
-          "$3x^3y^2$",
           "$-3$",
-          "$-13x^3y^2$"
+          "$3x^3y^2$",
+          "$-13x^3y^2$",
+          "$-3x^3y^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -122,9 +122,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Giá trị của đơn thức $M = -2x^2y$ tại $x = 1, y = -3$ là:",
         "options": [
           "$6$",
-          "$-6$",
+          "$-18$",
           "$18$",
-          "$-18$"
+          "$-6$"
         ],
         "correct": 0
       },
@@ -133,24 +133,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho đơn thức $P = \\frac{2}{3}x^3y^2z$. Bậc của $P$ đối với biến $x$ là:",
         "options": [
+          "$6$",
           "$3$",
-          "$2$",
           "$1$",
-          "$6$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Đơn thức nào sau đây đồng dạng với đơn thức $-xy^2$?",
         "options": [
-          "$\\frac{3}{4}xy^2$",
+          "$-xy$",
           "$-x^2y$",
           "$2x^2y^2$",
-          "$-xy$"
+          "$\\frac{3}{4}xy^2$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -270,36 +270,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong các biểu thức: $2x^2y; \\frac{3}{x}y; -5; x^2 + y; \\sqrt{2}xy^3$, có bao nhiêu đơn thức?",
         "options": [
+          "$1$",
           "$3$",
           "$2$",
-          "$4$",
-          "$1$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Bậc của đơn thức không có hệ số phụ thuộc biến $M = -\\frac{3}{5}x^2y^3z^4$ là:",
         "options": [
-          "$9$",
+          "$10$",
           "$5$",
-          "$6$",
-          "$10$"
+          "$9$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Thu gọn đơn thức $P = (-2x^2y)^3 \\cdot (\\frac{1}{4}xy^2)$ ta được:",
         "options": [
-          "$-2x^7y^5$",
+          "$-8x^7y^5$",
           "$2x^7y^5$",
           "$-2x^6y^5$",
-          "$-8x^7y^5$"
+          "$-2x^7y^5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -307,9 +307,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Hệ số của đơn thức $Q = \\left(-\\frac{1}{3}a^2b\\right)^2 \\cdot (-9ab^3)$ là:",
         "options": [
           "$-1$",
+          "$9$",
           "$1$",
-          "$-9$",
-          "$9$"
+          "$-9$"
         ],
         "correct": 0
       },
@@ -318,60 +318,60 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho đơn thức $A = 2x^m y^3$ và $B = -5x^4 y^n$. Hai đơn thức đồng dạng khi và chỉ khi:",
         "options": [
-          "$m = 4$ và $n = 3$",
           "$m = 3$ và $n = 4$",
+          "$m, n$ tùy ý",
           "$m = 4$ và $n$ tùy ý",
-          "$m, n$ tùy ý"
+          "$m = 4$ và $n = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Tổng của ba đơn thức $3x^2y^3$, $-7x^2y^3$ và $5x^2y^3$ là:",
         "options": [
-          "$x^2y^3$",
-          "$-x^2y^3$",
           "$15x^2y^3$",
-          "$x^6y^9$"
+          "$x^6y^9$",
+          "$x^2y^3$",
+          "$-x^2y^3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tìm đơn thức $M$ biết $M - 3xy^2 = -8xy^2$:",
         "options": [
-          "$-5xy^2$",
           "$5xy^2$",
-          "$-11xy^2$",
-          "$11xy^2$"
+          "$-5xy^2$",
+          "$11xy^2$",
+          "$-11xy^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Giá trị của đơn thức $N = -\\frac{1}{2}x^3y^2z$ tại $x = -2, y = -1, z = 3$ là:",
         "options": [
+          "$24$",
           "$12$",
           "$-12$",
-          "$24$",
           "$-24$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Cho $A = 3x^2y \\cdot (-2xy^3)$ và $B = -x^3y^4$. Hiệu $A - 2B$ bằng:",
         "options": [
-          "$-4x^3y^4$",
-          "$-8x^3y^4$",
+          "$4x^3y^4$",
           "$-5x^3y^4$",
-          "$4x^3y^4$"
+          "$-4x^3y^4$",
+          "$-8x^3y^4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -379,9 +379,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Bậc của đơn thức $K = (-3x^n y^2) \\cdot (2x^2 y^m)$ đối với tập hợp các biến $x, y$ là:",
         "options": [
           "$n + m + 4$",
-          "$n + m + 2$",
+          "$4nm$",
           "$2n + 2m$",
-          "$4nm$"
+          "$n + m + 2$"
         ],
         "correct": 0
       },
@@ -390,12 +390,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Đơn thức nào sau đây luôn nhận giá trị âm với mọi $x \\ne 0, y \\ne 0$?",
         "options": [
-          "$-3x^2y^4$",
           "$-2x^3y^2$",
+          "$4x^2y^2$",
           "$-5x^2y^3$",
-          "$4x^2y^2$"
+          "$-3x^2y^4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -528,9 +528,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Đơn thức nào sau đây có bậc cao nhất đối với các biến $x, y$?",
         "options": [
           "$(-2x^3y^2)^2$",
-          "$-3x^5y^4$",
           "$(5x^2y^3)^2$",
-          "$7x^8y$"
+          "$7x^8y$",
+          "$-3x^5y^4$"
         ],
         "correct": 0
       },
@@ -539,24 +539,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của $m$ để đơn thức $A = -3x^{2m+1}y^4$ có bậc bằng 11 là:",
         "options": [
+          "$5$",
           "$3$",
           "$4$",
-          "$5$",
           "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $M = \\left(-\\frac{1}{2}x^2y\\right)^3 \\cdot (-2xy^2)^2$. Hệ số của đơn thức $M$ là:",
         "options": [
-          "$-\\frac{1}{2}$",
           "$\\frac{1}{2}$",
-          "$-1$",
-          "$1$"
+          "$-\\frac{1}{2}$",
+          "$1$",
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -564,9 +564,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho ba đơn thức đồng dạng $A = 2ax^2y^3; B = -5ax^2y^3; C = 4ax^2y^3$ ($a$ là hằng số khác 0). Tổng $A + B + C$ là:",
         "options": [
           "$ax^2y^3$",
+          "$0$",
           "$-ax^2y^3$",
-          "$11ax^2y^3$",
-          "$0$"
+          "$11ax^2y^3$"
         ],
         "correct": 0
       },
@@ -575,36 +575,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho hai đơn thức $P = 2x^{a-1}y^3$ và $Q = -3x^4y^{b+1}$. Biết $P$ và $Q$ đồng dạng, giá trị của $a^2 - b^2$ là:",
         "options": [
-          "$21$",
+          "$16$",
           "$25$",
           "$9$",
-          "$16$"
+          "$21$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu cặp số nguyên $(x, y)$ thỏa mãn đơn thức $M = 3x^2y^4 = 0$?",
         "options": [
-          "Vô số cặp",
-          "$1$ cặp",
           "$0$ cặp",
-          "$2$ cặp"
+          "$2$ cặp",
+          "Vô số cặp",
+          "$1$ cặp"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Nếu các số $x, y$ thỏa mãn $xy = -2$ thì giá trị của đơn thức $H = -5x^3y^3$ là:",
         "options": [
-          "$40$",
-          "$-40$",
+          "$-30$",
           "$30$",
-          "$-30$"
+          "$40$",
+          "$-40$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -613,8 +613,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$5$",
           "$-5$",
-          "$9$",
-          "$-9$"
+          "$-9$",
+          "$9$"
         ],
         "correct": 0
       },
@@ -623,48 +623,48 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hai đơn thức $A = -\\frac{2}{3}x^3y^4$ và $B = \\frac{3}{5}x^5y^2$. Dấu của tích $A \\cdot B$ khi $x \\ne 0, y \\ne 0$ là:",
         "options": [
+          "Tùy thuộc vào dấu của $y$",
           "Luôn âm",
           "Luôn dương",
-          "Tùy thuộc vào dấu của $x$",
-          "Tùy thuộc vào dấu của $y$"
+          "Tùy thuộc vào dấu của $x$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Bậc của đơn thức $T = (x^1 y^2) \\cdot (x^2 y^3) \\cdot (x^3 y^4) \\dots (x^{10} y^{11})$ là:",
         "options": [
-          "$120$",
-          "$110$",
+          "$65$",
           "$55$",
-          "$65$"
+          "$110$",
+          "$120$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $x + y = 0$ và $x \\ne 0$. Giá trị của biểu thức $E = \\frac{2x^2y^3 + 3x^3y^2}{x^5}$ là:",
         "options": [
-          "$-1$",
-          "$1$",
           "$5$",
+          "$1$",
+          "$-1$",
           "$-5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm GTNN của biểu thức đơn thức kết hợp $F = (2x - 4)^2 \\cdot y^4 + 2025$:",
         "options": [
-          "$2025$",
           "$0$",
+          "$2029$",
           "$4$",
-          "$2029$"
+          "$2025$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -784,24 +784,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây KHÔNG PHẢI là một đa thức?",
         "options": [
-          "$\\frac{x + 1}{y}$",
           "$2x^2 - 3y + 1$",
           "$-5x^3y$",
-          "$\\frac{1}{2}x + \\frac{3}{4}y$"
+          "$\\frac{1}{2}x + \\frac{3}{4}y$",
+          "$\\frac{x + 1}{y}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Đa thức $P = 3x^2y - 2xy + 5$ có bao nhiêu hạng tử?",
         "options": [
-          "$3$",
-          "$2$",
           "$4$",
+          "$2$",
+          "$3$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -809,9 +809,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Hạng tử tự do (hạng tử không chứa biến) của đa thức $A = 4x^3 - 2x + 7$ là:",
         "options": [
           "$7$",
-          "$4$",
+          "$3$",
           "$-2$",
-          "$3$"
+          "$4$"
         ],
         "correct": 0
       },
@@ -820,84 +820,84 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Bậc của đa thức $M = x^3y - 2x^2y^3 + 5$ là:",
         "options": [
-          "$5$",
           "$4$",
-          "$3$",
-          "$2$"
+          "$5$",
+          "$2$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Bậc của đa thức $B = 7x^4 - 3x^2 + 1$ là:",
         "options": [
-          "$4$",
-          "$2$",
           "$7$",
-          "$1$"
+          "$1$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Thu gọn đa thức $Q = 2x^2 + 3x^2 - 4$ ta được:",
         "options": [
-          "$5x^2 - 4$",
-          "$5x^4 - 4$",
+          "$5x^2$",
           "$x^2 - 4$",
-          "$5x^2$"
+          "$5x^4 - 4$",
+          "$5x^2 - 4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Thu gọn đa thức $N = 3x^2y - 5xy + 2x^2y + 5xy - 3$ ta được:",
         "options": [
+          "$5x^2y$",
           "$5x^2y - 3$",
           "$5x^2y + 10xy - 3$",
-          "$x^2y - 3$",
-          "$5x^2y$"
+          "$x^2y - 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Bậc của đa thức sau khi thu gọn $K = 2x^3y^2 - 5x^2y + 3 - 2x^3y^2$ là:",
         "options": [
-          "$3$",
-          "$5$",
+          "$0$",
           "$2$",
-          "$0$"
+          "$5$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Giá trị của đa thức $P = x^2 - 2xy + y^2$ tại $x = 5, y = 2$ là:",
         "options": [
-          "$9$",
+          "$25$",
           "$49$",
-          "$21$",
-          "$25$"
+          "$9$",
+          "$21$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Giá trị của đa thức $Q = 2x^2y - 3$ tại $x = -1, y = 2$ là:",
         "options": [
+          "$-1$",
           "$1$",
-          "$-7$",
           "$7$",
-          "$-1$"
+          "$-7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -1042,9 +1042,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Hạng tử có bậc cao nhất của đa thức $A = 3x^2y^3 - 5x^4y + 2x^3y^2 - 7$ là:",
         "options": [
           "$3x^2y^3$ và $-5x^4y$",
-          "$3x^2y^3$",
           "$-5x^4y$",
-          "$2x^3y^2$"
+          "$2x^3y^2$",
+          "$3x^2y^3$"
         ],
         "correct": 0
       },
@@ -1053,72 +1053,72 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Bậc của đa thức $B = 4x^3y^2 - 2xy^3 + 5x^2y^2 - 4x^3y^2 + 1$ là:",
         "options": [
-          "$4$",
           "$5$",
           "$3$",
-          "$0$"
+          "$0$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Thu gọn đa thức $P = x^2(y - 1) - y(x^2 - 1)$ ta được:",
         "options": [
-          "$-x^2 + y$",
-          "$x^2y - x^2 - x^2y - y$",
           "$-x^2 - y$",
-          "$x^2 + y$"
+          "$x^2y - x^2 - x^2y - y$",
+          "$x^2 + y$",
+          "$-x^2 + y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho đa thức $M = 2x^2 - 3xy + y^2$. Giá trị của $M$ khi $x = 1, y = 2$ là:",
         "options": [
-          "$0$",
-          "$4$",
+          "$2$",
           "$-4$",
-          "$2$"
+          "$0$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm $m$ để đa thức $Q = (m - 1)x^4y + 3x^2y^2 - 5$ có bậc bằng 4:",
         "options": [
-          "$m = 1$",
-          "$m \\ne 1$",
           "$m = 0$",
-          "$m$ tùy ý"
+          "$m$ tùy ý",
+          "$m = 1$",
+          "$m \\ne 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Đa thức nào sau đây có giá trị bằng 0 với mọi $x, y$?",
         "options": [
-          "$(x - y) + (y - x)$",
-          "$x^2 - y^2$",
           "$(x + y)^2$",
-          "$2x - 2y$"
+          "$(x - y) + (y - x)$",
+          "$2x - 2y$",
+          "$x^2 - y^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho $x - y = 3$. Giá trị của đa thức $A = 2x - 2y + 5$ là:",
         "options": [
+          "$10$",
           "$11$",
           "$6$",
-          "$1$",
-          "$10$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -1126,9 +1126,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Thu gọn đa thức $C = \\frac{1}{2}x^2y - \\frac{1}{3}xy^2 + \\frac{3}{2}x^2y + \\frac{4}{3}xy^2$ ta được:",
         "options": [
           "$2x^2y + xy^2$",
-          "$x^2y + xy^2$",
           "$2x^2y - xy^2$",
-          "$2x^4y^2 + xy^4$"
+          "$2x^4y^2 + xy^4$",
+          "$x^2y + xy^2$"
         ],
         "correct": 0
       },
@@ -1149,36 +1149,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Bậc của đa thức $D = (x^2 + 1)(y^3 - 1) - x^2y^3$ sau khi thu gọn là:",
         "options": [
-          "$3$",
           "$5$",
           "$2$",
+          "$3$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Đa thức biểu diễn tổng diện tích của 2 hình vuông có cạnh lần lượt là $x + 1$ và $x - 1$ là:",
         "options": [
-          "$2x^2 + 2$",
-          "$2x^2$",
           "$2x^2 - 2$",
-          "$4x$"
+          "$2x^2$",
+          "$4x$",
+          "$2x^2 + 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Giá trị của đa thức $T = x^3 + y^3$ tại $x = 1, y = -1$ là:",
         "options": [
+          "$1$",
           "$0$",
-          "$2$",
           "$-2$",
-          "$1$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1298,36 +1298,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Bậc của đa thức $P = x^6 - y^6 + 3x^2y^4 - 3x^4y^2$ đối với tập hợp các biến là:",
         "options": [
-          "$6$",
           "$12$",
           "$4$",
-          "$2$"
+          "$2$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho đa thức $A = ax^3y + 2x^2y^2 - 4x^3y + 1$. Để $A$ có bậc 4 thì điều kiện của $a$ là:",
         "options": [
-          "$a \\ne 4$",
           "$a = 4$",
           "$a = 0$",
-          "$a$ tùy ý"
+          "$a$ tùy ý",
+          "$a \\ne 4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Đa thức $F(x) = x^4 + 2x^2 + 5$ có bao nhiêu nghiệm thực?",
         "options": [
-          "$0$",
-          "$2$",
+          "$1$",
           "$4$",
-          "$1$"
+          "$0$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -1335,9 +1335,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $a + b + c = 0$. Giá trị của đa thức $M = a(b + c) + b(c + a) + c(a + b) + 2(ab + bc + ca)$ là:",
         "options": [
           "$0$",
-          "$1$",
+          "$-1$",
           "$2$",
-          "$-1$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -1347,8 +1347,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết $P(0) = 1, P(1) = 6, P(2) = 15$. Giá trị của $a$ là:",
         "options": [
           "$2$",
-          "$1$",
           "$3$",
+          "$1$",
           "$4$"
         ],
         "correct": 0
@@ -1358,36 +1358,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $x^2 + y^2 = 5$ và $xy = 2$. Giá trị của $(x + y)^2$ là:",
         "options": [
-          "$9$",
-          "$7$",
           "$1$",
-          "$25$"
+          "$9$",
+          "$25$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của đa thức $A(x, y) = x^2 - 2xy + 2y^2 - 2y + 5$ là:",
         "options": [
-          "$4$",
-          "$5$",
+          "$0$",
           "$3$",
-          "$0$"
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $Q = x^5 - 2026x^4 + 2026x^3 - 2026x^2 + 2026x - 1$. Giá trị của $Q$ tại $x = 2025$ là:",
         "options": [
-          "$2024$",
           "$2025$",
-          "$0$",
-          "$1$"
+          "$2024$",
+          "$1$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -1395,9 +1395,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho ba số thực $x, y, z$ thỏa mãn $x + y + z = 1$ và $x^2 + y^2 + z^2 = 1$. Giá trị của $xy + yz + zx$ là:",
         "options": [
           "$0$",
-          "$1$",
+          "$-\\frac{1}{2}$",
           "$\\frac{1}{2}$",
-          "$-\\frac{1}{2}$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -1406,36 +1406,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Đa thức $P(x) = x^3 - 3x + 1$ có nhiều nhất bao nhiêu nghiệm thực?",
         "options": [
-          "$3$",
-          "$1$",
+          "$0$",
           "$2$",
-          "$0$"
+          "$3$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để đa thức $f(x) = x^2 - 2(m - 1)x + m^2$ luôn dương với mọi $x$:",
         "options": [
-          "$m > \\frac{1}{2}$",
-          "$m < \\frac{1}{2}$",
           "$m = \\frac{1}{2}$",
+          "$m < \\frac{1}{2}$",
+          "$m > \\frac{1}{2}$",
           "Không có $m$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $x - y = 7$. Giá trị của biểu thức $H = \\frac{x^2 - 2xy + y^2 - 9}{x - y + 3}$ là:",
         "options": [
+          "$10$",
           "$4$",
           "$7$",
-          "$10$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1556,9 +1556,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $A = 2x + y$ và $B = x - y$. Tổng $A + B$ là:",
         "options": [
           "$3x$",
-          "$3x + 2y$",
           "$x$",
-          "$3x - y$"
+          "$3x - y$",
+          "$3x + 2y$"
         ],
         "correct": 0
       },
@@ -1567,60 +1567,60 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $M = x^2 - y$ và $N = 2x^2 + 3y$. Hiệu $M - N$ bằng:",
         "options": [
-          "$-x^2 - 4y$",
           "$-x^2 + 2y$",
           "$3x^2 + 2y$",
-          "$x^2 - 4y$"
+          "$x^2 - 4y$",
+          "$-x^2 - 4y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khi bỏ dấu ngoặc có dấu trừ đằng trước: $-(2x^2 - 3x + 1)$, ta được:",
         "options": [
-          "$-2x^2 + 3x - 1$",
           "$-2x^2 - 3x + 1$",
-          "$2x^2 - 3x + 1$",
-          "$-2x^2 - 3x - 1$"
+          "$-2x^2 - 3x - 1$",
+          "$-2x^2 + 3x - 1$",
+          "$2x^2 - 3x + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tổng của hai đa thức $P = 3x^2y - 1$ và $Q = -2x^2y + 4$ là:",
         "options": [
-          "$x^2y + 3$",
+          "$x^4y^2 + 3$",
           "$5x^2y + 3$",
           "$x^2y - 5$",
-          "$x^4y^2 + 3$"
+          "$x^2y + 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Cho đa thức $A + (x^2 - y^2) = x^2$. Đa thức $A$ bằng:",
         "options": [
-          "$y^2$",
           "$-y^2$",
           "$2x^2 - y^2$",
+          "$y^2$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $A = 2x^2 - xy + 3$ và $B = x^2 + 2xy - 1$. Đa thức $A + B$ là:",
         "options": [
+          "$x^2 - 3xy + 4$",
           "$3x^2 + xy + 2$",
           "$3x^2 - 3xy + 2$",
-          "$x^2 - 3xy + 4$",
           "$3x^2 + xy + 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1629,8 +1629,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$x^2 + 2y^2$",
           "$x^2 - 4y^2$",
-          "$5x^2 - 4y^2$",
-          "$x^2 - 2y^2$"
+          "$x^2 - 2y^2$",
+          "$5x^2 - 4y^2$"
         ],
         "correct": 0
       },
@@ -1639,24 +1639,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Bậc của đa thức tổng $(2x^3 - 3x^2 + 5) + (-2x^3 + x^2 - 1)$ là:",
         "options": [
-          "$2$",
           "$3$",
-          "$1$",
-          "$0$"
+          "$2$",
+          "$0$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho $M - (2x^2 - 3xy) = x^2 + xy$. Đa thức $M$ là:",
         "options": [
+          "$x^2 - 2xy$",
           "$3x^2 - 2xy$",
-          "$-x^2 - 4xy$",
           "$3x^2 + 4xy$",
-          "$x^2 - 2xy$"
+          "$-x^2 - 4xy$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -1665,8 +1665,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$5$",
           "$15$",
-          "$0$",
-          "$10$"
+          "$10$",
+          "$0$"
         ],
         "correct": 0
       },
@@ -1675,24 +1675,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Đa thức đối của đa thức $A = -3x^2y + 2xy - 5$ là:",
         "options": [
-          "$3x^2y - 2xy + 5$",
           "$3x^2y + 2xy - 5$",
           "$-3x^2y - 2xy + 5$",
+          "$3x^2y - 2xy + 5$",
           "$3x^2y - 2xy - 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho hai đa thức $P = x^2 + 2xy$ và $Q = xy - y^2$. Hiệu $P - 2Q$ bằng:",
         "options": [
+          "$x^2 + 4xy + 2y^2$",
           "$x^2 + 2y^2$",
           "$x^2 - 2y^2$",
-          "$x^2 + 4xy + 2y^2$",
           "$x^2 + 2y^2$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1812,108 +1812,108 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho ba đa thức $A, B, C$. Biểu thức $A - (B - C)$ bằng:",
         "options": [
-          "$A - B + C$",
-          "$A - B - C$",
           "$A + B - C$",
-          "$A + B + C$"
+          "$A + B + C$",
+          "$A - B - C$",
+          "$A - B + C$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $P = 3x^3 - 2x^2y + xy^2 - y^3$ và $Q = -x^3 + 2x^2y - xy^2 + 2y^3$. Bậc của $P + Q$ là:",
         "options": [
-          "$3$",
           "$2$",
-          "$1$",
-          "$0$"
+          "$0$",
+          "$3$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm đa thức $K$ thỏa mãn $K + (3x^2 - 2xy) = x^2 - 2xy + y^2$:",
         "options": [
+          "$4x^2 + y^2$",
           "$-2x^2 + y^2$",
-          "$2x^2 + y^2$",
           "$-2x^2 - 4xy + y^2$",
-          "$4x^2 + y^2$"
+          "$2x^2 + y^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho $A = 2x^2 - 3y^2 + 5$ và $B = -2x^2 + 3y^2 - 5$. Khẳng định nào sau đây ĐÚNG?",
         "options": [
-          "$A + B = 0$",
           "$A - B = 0$",
           "$A = B$",
+          "$A + B = 0$",
           "$A + B = 10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $M = x^2 - 2xy$ và $N = 2xy + y^2$. Tổng $M + N$ luôn:",
         "options": [
-          "Không âm với mọi $x, y$",
-          "Dương với mọi $x, y$",
           "Âm với mọi $x, y$",
-          "Triệt tiêu khi $x = y$"
+          "Triệt tiêu khi $x = y$",
+          "Dương với mọi $x, y$",
+          "Không âm với mọi $x, y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho $A = x^3 - 3x^2y + 1$ và $B = 3x^2y - x^3 + y^3 - 1$. Giá trị của $A + B$ tại $y = -2$ là:",
         "options": [
-          "$-8$",
           "$8$",
+          "$-8$",
           "$0$",
           "$-7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Biết $P + Q = 5x^2 - 3xy$ và $P - Q = 3x^2 + xy$. Đa thức $P$ bằng:",
         "options": [
-          "$4x^2 - xy$",
-          "$8x^2 - 2xy$",
           "$2x^2 - 4xy$",
-          "$x^2 - 2xy$"
+          "$4x^2 - xy$",
+          "$x^2 - 2xy$",
+          "$8x^2 - 2xy$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Đa thức nào sau đây khi cộng với $2x^2 - 3xy + y^2$ cho kết quả là một số không đổi?",
         "options": [
-          "$-2x^2 + 3xy - y^2 + 5$",
+          "$-2x^2 + 3xy + y^2$",
           "$2x^2 - 3xy + y^2$",
-          "$-2x^2 - 3xy - y^2$",
-          "$-2x^2 + 3xy + y^2$"
+          "$-2x^2 + 3xy - y^2 + 5$",
+          "$-2x^2 - 3xy - y^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Cho $A = 3x^2 - 5xy + 2$ và $B = x^2 + 2xy - 3$. Hệ số của $xy$ trong hiệu $A - 2B$ là:",
         "options": [
-          "$-9$",
+          "$-3$",
           "$-1$",
           "$-7$",
-          "$-3$"
+          "$-9$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -1921,9 +1921,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Chu vi hình tam giác có độ dài ba cạnh lần lượt là $x + 2y; 2x - y; 3x + y$ là:",
         "options": [
           "$6x + 2y$",
-          "$6x$",
           "$5x + 2y$",
-          "$6x - 2y$"
+          "$6x - 2y$",
+          "$6x$"
         ],
         "correct": 0
       },
@@ -1934,8 +1934,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$15$",
           "$25$",
-          "$10$",
-          "$20$"
+          "$20$",
+          "$10$"
         ],
         "correct": 0
       },
@@ -1945,8 +1945,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Bậc của đa thức $H = (x^4 + 2x^2y^2 + y^4) - (x^4 - 2x^2y^2 + y^4)$ là:",
         "options": [
           "$4$",
-          "$8$",
           "$2$",
+          "$8$",
           "$0$"
         ],
         "correct": 0
@@ -2070,9 +2070,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $P = ax^2 + bx + c$ và $Q = -ax^2 - bx - c$. Khi đó $P + Q$ bằng:",
         "options": [
           "$0$",
+          "$1$",
           "$2ax^2 + 2bx + 2c$",
-          "$2c$",
-          "$1$"
+          "$2c$"
         ],
         "correct": 0
       },
@@ -2081,36 +2081,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho ba đa thức $A, B, C$ thỏa mãn $A + B = 3x^2 - y$ và $B + C = x^2 + 2y$ và $C + A = 2x^2 - y$. Tổng $A + B + C$ bằng:",
         "options": [
-          "$3x^2$",
           "$6x^2$",
+          "$2x^2$",
           "$3x^2 + y$",
-          "$2x^2$"
+          "$3x^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Đa thức $P$ thỏa mãn $P - (x^2 - 2y^2) = (y^2 - 2x^2) - (3x^2 + 3y^2)$ là:",
         "options": [
-          "$-4x^2$",
           "$4x^2$",
+          "$-4x^2$",
           "$-4x^2 - 4y^2$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Cho $A = x^2 + 2xy + y^2$ và $B = x^2 - 2xy + y^2$. Giá trị của $A - B$ khi $xy = -3$ là:",
         "options": [
-          "$-12$",
-          "$12$",
           "$-6$",
-          "$6$"
+          "$-12$",
+          "$6$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -2118,9 +2118,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $f(x) + g(x) = 2x^2 + 3x - 1$ và $f(x) - g(x) = 4x - 5$. Đa thức $g(x)$ là:",
         "options": [
           "$x^2 - \\frac{1}{2}x + 2$",
+          "$x^2 - x + 2$",
           "$x^2 + \\frac{7}{2}x - 3$",
-          "$2x^2 - x + 4$",
-          "$x^2 - x + 2$"
+          "$2x^2 - x + 4$"
         ],
         "correct": 0
       },
@@ -2129,36 +2129,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho ba đa thức $A = 2x^2 - 3y^2; B = y^2 - 2z^2; C = 2z^2 - 2x^2$. Tổng $A + B + C$ bằng:",
         "options": [
-          "$-2y^2$",
+          "$-4z^2$",
           "$0$",
           "$4x^2$",
-          "$-4z^2$"
+          "$-2y^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho $M = x^2 - 4xy + 5y^2 + 2x - 6y + 10$ và $N = y^2 + 2y - 1$. Giá trị nhỏ nhất của đa thức $M - N$ là:",
         "options": [
-          "$7$",
           "$10$",
+          "$0$",
           "$11$",
-          "$0$"
+          "$7$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x) = ax^3 + bx^2 + cx + d$. Biết $P(x) - P(x-1) = x^2$ với mọi $x$. Hệ số $a$ bằng:",
         "options": [
-          "$\\frac{1}{3}$",
           "$1$",
           "$\\frac{1}{2}$",
+          "$\\frac{1}{3}$",
           "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -2166,9 +2166,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Biết $A + B = x^3 - 3x^2y$ và $A - B = 3xy^2 - y^3$. Hiệu của hai đa thức $A - B$ tại $x = 2, y = 2$ là:",
         "options": [
           "$16$",
-          "$0$",
+          "$-16$",
           "$8$",
-          "$-16$"
+          "$0$"
         ],
         "correct": 0
       },
@@ -2177,36 +2177,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho ba đa thức $P, Q, R$ thỏa mãn $P + Q + R = 0$. Khẳng định nào sau đây LUÔN ĐÚNG?",
         "options": [
-          "Trong 3 đa thức luôn có ít nhất một đa thức nhận giá trị không âm",
           "Cả 3 đa thức cùng dương",
-          "Cả 3 đa thức cùng âm",
-          "Tích $P \\cdot Q \\cdot R > 0$"
+          "Tích $P \\cdot Q \\cdot R > 0$",
+          "Trong 3 đa thức luôn có ít nhất một đa thức nhận giá trị không âm",
+          "Cả 3 đa thức cùng âm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm $m$ để đa thức $(2x^2 - 3x + m) - (x^2 + 2x - 3)$ không có nghiệm thực:",
         "options": [
-          "$m > \\frac{13}{4}$",
           "$m < \\frac{13}{4}$",
+          "$m > \\frac{13}{4}$",
           "$m = \\frac{13}{4}$",
           "Không có $m$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $x - y = 2$. Giá trị của biểu thức $E = (x^3 - y^3) - 3xy(x - y) - 8$ bằng:",
         "options": [
-          "$0$",
-          "$8$",
           "$-8$",
-          "$16$"
+          "$16$",
+          "$0$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2326,36 +2326,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép nhân đơn thức $2x$ với đa thức $x - 3$ là:",
         "options": [
-          "$2x^2 - 6x$",
-          "$2x^2 - 3$",
+          "$2x - 6$",
           "$2x^2 - 6$",
-          "$2x - 6$"
+          "$2x^2 - 6x$",
+          "$2x^2 - 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tích của $-3x^2$ với đa thức $2x^2 - x$ là:",
         "options": [
-          "$-6x^4 + 3x^3$",
-          "$-6x^4 - 3x^3$",
           "$6x^4 + 3x^3$",
-          "$-6x^3 + 3x^2$"
+          "$-6x^3 + 3x^2$",
+          "$-6x^4 + 3x^3$",
+          "$-6x^4 - 3x^3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Thực hiện phép tính $(x + 1)(x + 2)$ ta được kết quả là:",
         "options": [
-          "$x^2 + 3x + 2$",
           "$x^2 + 2x + 2$",
-          "$x^2 + 3x + 3$",
-          "$x^2 + 2$"
+          "$x^2 + 2$",
+          "$x^2 + 3x + 2$",
+          "$x^2 + 3x + 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2363,9 +2363,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Kết quả của phép nhân $(x - 3)(x + 3)$ là:",
         "options": [
           "$x^2 - 9$",
+          "$x^2 - 3$",
           "$x^2 + 9$",
-          "$x^2 - 6x + 9$",
-          "$x^2 - 3$"
+          "$x^2 - 6x + 9$"
         ],
         "correct": 0
       },
@@ -2375,8 +2375,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Đa thức nào sau đây là kết quả của phép nhân $(x - 1)(x^2 + x + 1)$?",
         "options": [
           "$x^3 - 1$",
-          "$x^3 + 1$",
           "$x^3 - x^2 + 1$",
+          "$x^3 + 1$",
           "$x^3 + x^2 - 1$"
         ],
         "correct": 0
@@ -2386,12 +2386,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $A = x(x - 2) + 2x$ ta được:",
         "options": [
-          "$x^2$",
+          "$2x^2$",
           "$x^2 - 4x$",
           "$x^2 + 4x$",
-          "$2x^2$"
+          "$x^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -2399,9 +2399,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Rút gọn biểu thức $P = (x - 2)(x + 3) - x^2$ ta được:",
         "options": [
           "$x - 6$",
+          "$x + 6$",
           "$-x - 6$",
-          "$5x - 6$",
-          "$x + 6$"
+          "$5x - 6$"
         ],
         "correct": 0
       },
@@ -2410,60 +2410,60 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $M = x(x - y) + y(x - y)$ tại $x = 3, y = 1$ là:",
         "options": [
-          "$8$",
           "$4$",
+          "$8$",
           "$6$",
           "$10$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $x(x - 2) - x^2 = 4$:",
         "options": [
+          "$x = -4$",
           "$x = -2$",
-          "$x = 2$",
           "$x = 4$",
-          "$x = -4$"
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Khai triển của tích $(2x - y)(x + 2y)$ là:",
         "options": [
-          "$2x^2 + 3xy - 2y^2$",
           "$2x^2 - 3xy - 2y^2$",
-          "$2x^2 + 4xy - 2y^2$",
-          "$2x^2 - 2y^2$"
+          "$2x^2 + 3xy - 2y^2$",
+          "$2x^2 - 2y^2$",
+          "$2x^2 + 4xy - 2y^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Bậc của đa thức tích $(x^2 - 1)(2x^3 + x)$ là:",
         "options": [
-          "$5$",
-          "$6$",
           "$4$",
-          "$3$"
+          "$3$",
+          "$6$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Kết quả của phép nhân $\\frac{1}{2}xy(2x^2 - 4y)$ là:",
         "options": [
-          "$x^3y - 2xy^2$",
           "$x^3y - 4xy^2$",
           "$x^2y - 2xy^2$",
-          "$\\frac{1}{2}x^3y - 2xy^2$"
+          "$\\frac{1}{2}x^3y - 2xy^2$",
+          "$x^3y - 2xy^2$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2583,60 +2583,60 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hệ số cao nhất của đa thức tích $(2x^2 - 3)(3x^2 + 1)$ là:",
         "options": [
-          "$6$",
           "$-3$",
-          "$-7$",
-          "$2$"
+          "$6$",
+          "$2$",
+          "$-7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Khai triển tích $(x^2 - 2xy + y^2)(x - y)$ ta được:",
         "options": [
-          "$x^3 - 3x^2y + 3xy^2 - y^3$",
-          "$x^3 - y^3$",
+          "$x^3 - x^2y - xy^2 + y^3$",
           "$x^3 + y^3$",
-          "$x^3 - x^2y - xy^2 + y^3$"
+          "$x^3 - y^3$",
+          "$x^3 - 3x^2y + 3xy^2 - y^3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $M = (x - 1)(x + 2) - (x + 1)(x - 2)$ ta được:",
         "options": [
-          "$2x$",
           "$-2x$",
           "$4$",
-          "$-4$"
+          "$-4$",
+          "$2x$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Biểu thức $P = (2x - 3)(x + 1) - 2x(x - 1)$ có giá trị bằng:",
         "options": [
-          "$x - 3$",
-          "$-x - 3$",
           "$3x - 3$",
-          "$-3$"
+          "$-3$",
+          "$x - 3$",
+          "$-x - 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $(x - 2)(x + 2) - x(x - 3) = 8$:",
         "options": [
-          "$x = 4$",
           "$x = -4$",
-          "$x = 2$",
-          "$x = -2$"
+          "$x = 4$",
+          "$x = -2$",
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -2644,8 +2644,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Chứng minh giá trị của biểu thức $(x - 5)(2x + 3) - 2x(x - 3) + x + 7$ bằng:",
         "options": [
           "$-8$",
-          "$8$",
           "$0$",
+          "$8$",
           "$15$"
         ],
         "correct": 0
@@ -2667,24 +2667,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $A = (x - y)(x^2 + xy + y^2)$ tại $x = 3, y = 2$ là:",
         "options": [
-          "$19$",
           "$35$",
+          "$19$",
           "$1$",
           "$27$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Cho $x(2x + 1) - x^2(x + 2) + (x^3 - x + 3)$. Giá trị của biểu thức này bằng:",
         "options": [
-          "$3$",
+          "$6$",
           "$0$",
-          "$-3$",
-          "$6$"
+          "$3$",
+          "$-3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -2692,8 +2692,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Hệ số của $x^2$ sau khi khai triển tích $(2x^2 - x + 1)(x - 3)$ là:",
         "options": [
           "$-7$",
-          "$7$",
           "$-6$",
+          "$7$",
           "$5$"
         ],
         "correct": 0
@@ -2703,24 +2703,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tích của 3 số nguyên liên tiếp $n - 1, n, n + 1$ biểu diễn bởi đa thức:",
         "options": [
-          "$n^3 - n$",
-          "$n^3 + n$",
           "$n^3 - 1$",
+          "$n^3 + n$",
+          "$n^3 - n$",
           "$3n$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Nếu $(x - 1)(x^2 + x + 1) = 26$ thì giá trị của $x$ là:",
         "options": [
-          "$3$",
-          "$2$",
+          "$-3$",
           "$4$",
-          "$-3$"
+          "$2$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2840,12 +2840,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Bậc của đa thức tích $(x^3 - 2x + 1)^2 \\cdot (x^2 + 3)$ là:",
         "options": [
-          "$8$",
           "$7$",
+          "$6$",
           "$12$",
-          "$6$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -2853,9 +2853,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Hệ số của $x^3$ trong tích $(x^2 - 3x + 2)(2x^2 + x - 4)$ là:",
         "options": [
           "$-5$",
+          "$1$",
           "$5$",
-          "$-6$",
-          "$1$"
+          "$-6$"
         ],
         "correct": 0
       },
@@ -2864,48 +2864,48 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn $(a + b + c)(a + b - c)$ ta được:",
         "options": [
-          "$(a + b)^2 - c^2$",
           "$a^2 + b^2 - c^2$",
+          "$a^2 + (b - c)^2$",
           "$(a + b)^2 + c^2$",
-          "$a^2 + (b - c)^2$"
+          "$(a + b)^2 - c^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Cho $(x^2 - x + 1)(x^4 - x^2 + 1) = x^6 + ax^4 + bx^2 + 1$. Giá trị của $a + b$ là:",
         "options": [
-          "$0$",
-          "$1$",
           "$-1$",
-          "$2$"
+          "$2$",
+          "$0$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Cho $x + y = 3$ và $xy = 2$. Giá trị của tích $(x^2 + 1)(y^2 + 1)$ là:",
         "options": [
-          "$14$",
           "$10$",
-          "$12$",
-          "$16$"
+          "$16$",
+          "$14$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tìm hệ số $m$ để tích $(x - 2)(x^2 + mx - 4)$ có hệ số của $x$ bằng $-6$:",
         "options": [
-          "$1$",
           "$-1$",
+          "$1$",
           "$2$",
           "$-2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -2913,8 +2913,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Giá trị của biểu thức $P = (2 + 1)(2^2 + 1)(2^4 + 1)(2^8 + 1) - 2^{16}$ là:",
         "options": [
           "$-1$",
-          "$1$",
           "$0$",
+          "$1$",
           "$2$"
         ],
         "correct": 0
@@ -2924,36 +2924,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho ba số thực $a, b, c$ đôi một khác nhau thỏa mãn $(x - a)(x - b) + (x - b)(x - c) + (x - c)(x - a) = 0$ có nghiệm kép. Khẳng định nào ĐÚNG?",
         "options": [
-          "Không tồn tại $a, b, c$",
           "$a = b = c$",
-          "$a + b + c = 0$",
-          "$ab + bc + ca = 0$"
+          "$ab + bc + ca = 0$",
+          "Không tồn tại $a, b, c$",
+          "$a + b + c = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $x + y + z = 0$. Rút gọn tích $(x + y)(y + z)(z + x)$ ta được:",
         "options": [
-          "$-xyz$",
+          "$x^3 + y^3 + z^3$",
           "$xyz$",
           "$0$",
-          "$x^3 + y^3 + z^3$"
+          "$-xyz$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $f(x) = (x^2 - 3x + 1)^{2025}$. Tổng tất cả các hệ số của đa thức $f(x)$ là:",
         "options": [
+          "$2^{2025}$",
           "$-1$",
           "$1$",
-          "$0$",
-          "$2^{2025}$"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -2961,9 +2961,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Giá trị nhỏ nhất của tích $A = (x - 1)(x - 3)(x + 1)(x + 3)$ là:",
         "options": [
           "$-9$",
-          "$-16$",
+          "$9$",
           "$0$",
-          "$9$"
+          "$-16$"
         ],
         "correct": 0
       },
@@ -2972,12 +2972,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $n$ để tích $(n - 2)(n + 3)$ là một số nguyên tố:",
         "options": [
-          "$n = 3$",
           "$n = 4$",
-          "$n = 2$",
-          "Không có $n$"
+          "$n = 3$",
+          "Không có $n$",
+          "$n = 2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3097,60 +3097,60 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $x^6 : x^2$ (với $x \\ne 0$) là:",
         "options": [
-          "$x^4$",
           "$x^3$",
           "$x^8$",
-          "$x^{12}$"
+          "$x^{12}$",
+          "$x^4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $12x^4y^3 : (-3x^2y)$ là:",
         "options": [
+          "$-4x^6y^4$",
           "$-4x^2y^2$",
-          "$4x^2y^2$",
           "$-4x^2y$",
-          "$-4x^6y^4$"
+          "$4x^2y^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Đơn thức $6x^3y^2$ chia hết cho đơn thức nào sau đây?",
         "options": [
+          "$2x^3y^3$",
           "$2x^2y$",
-          "$3x^4y$",
           "$4xy^3$",
-          "$2x^3y^3$"
+          "$3x^4y$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $(4x^3 - 2x^2) : (2x)$ là:",
         "options": [
-          "$2x^2 - x$",
           "$2x^2 - 1$",
           "$2x - 1$",
-          "$4x^2 - x$"
+          "$4x^2 - x$",
+          "$2x^2 - x$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Đa thức $A$ chia hết cho đơn thức $B$ khi:",
         "options": [
-          "Mọi hạng tử của $A$ đều chia hết cho $B$",
-          "Chỉ cần một hạng tử của $A$ chia hết cho $B$",
           "Bậc của $A$ bằng bậc của $B$",
+          "Chỉ cần một hạng tử của $A$ chia hết cho $B$",
+          "Mọi hạng tử của $A$ đều chia hết cho $B$",
           "Hệ số của $A$ chia hết cho hệ số của $B$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -3159,8 +3159,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$2x^2y^2 - 3xy$",
           "$2x^2y - 3x$",
-          "$2xy^2 - 3y$",
-          "$2x^2y^2 - 3x$"
+          "$2x^2y^2 - 3x$",
+          "$2xy^2 - 3y$"
         ],
         "correct": 0
       },
@@ -3170,9 +3170,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Kết quả của phép chia $(15x^3y^4 - 20x^4y^3 + 25x^2y^2) : (-5x^2y^2)$ là:",
         "options": [
           "$-3xy^2 + 4x^2y - 5$",
-          "$3xy^2 - 4x^2y + 5$",
+          "$3xy^2 + 4x^2y - 5$",
           "$-3xy^2 + 4x^2y + 5$",
-          "$3xy^2 + 4x^2y - 5$"
+          "$3xy^2 - 4x^2y + 5$"
         ],
         "correct": 0
       },
@@ -3181,12 +3181,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Bậc của đa thức thương trong phép chia $(4x^5y^3 - 8x^4y^4) : (2x^2y^2)$ là:",
         "options": [
-          "$4$",
-          "$5$",
           "$3$",
+          "$5$",
+          "$4$",
           "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -3194,8 +3194,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Giá trị của biểu thức $P = (8x^4y^3 - 4x^3y^2) : (4x^3y^2)$ tại $x = 2, y = 1$ là:",
         "options": [
           "$3$",
-          "$4$",
           "$2$",
+          "$4$",
           "$1$"
         ],
         "correct": 0
@@ -3205,36 +3205,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $(6x^3 - 3x^2) : (3x^2) = 5$:",
         "options": [
+          "$x = 4$",
           "$x = 3$",
-          "$x = 2$",
           "$x = 1$",
-          "$x = 4$"
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Đa thức nào sau đây KHÔNG chia hết cho đơn thức $2xy$?",
         "options": [
-          "$3x^2 + 4y^2$",
-          "$4x^2y - 2xy^2$",
           "$6x^3y^2 + 2x^2y$",
-          "$2x^2y^2 - 4xy$"
+          "$2x^2y^2 - 4xy$",
+          "$4x^2y - 2xy^2$",
+          "$3x^2 + 4y^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Thực hiện phép chia $[(x + y)^5 - 2(x + y)^3] : (x + y)^3$ ta được:",
         "options": [
-          "$(x + y)^2 - 2$",
-          "$(x + y)^2 + 2$",
           "$(x + y) - 2$",
+          "$(x + y)^2 + 2$",
+          "$(x + y)^2 - 2$",
           "$x^2 + y^2 - 2$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3354,36 +3354,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Điều kiện để đơn thức $A = 3x^m y^4$ chia hết cho đơn thức $B = 2x^3 y^n$ ($m, n \\in \\mathbb{N}$) là:",
         "options": [
+          "$m \\ge 3$ và $n$ tùy ý",
           "$m \\ge 3$ và $n \\le 4$",
           "$m \\le 3$ và $n \\ge 4$",
-          "$m = 3$ và $n = 4$",
-          "$m \\ge 3$ và $n$ tùy ý"
+          "$m = 3$ và $n = 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Thực hiện phép tính $[(2x^2y)^2 - 8x^3y^3] : (2x^2y^2)$ ta được:",
         "options": [
+          "$x^2 - 4xy$",
           "$2x^2 - 4xy$",
           "$2x^2 + 4xy$",
-          "$x^2 - 4xy$",
           "$2x - 4y$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Thương của phép chia $(3x^4y^2 - 6x^3y^3 + 9x^2y^4) : \\left(-\\frac{3}{2}x^2y^2\\right)$ là:",
         "options": [
-          "$-2x^2 + 4xy - 6y^2$",
-          "$2x^2 - 4xy + 6y^2$",
           "$-2x^2 - 4xy - 6y^2$",
-          "$-x^2 + 2xy - 3y^2$"
+          "$-x^2 + 2xy - 3y^2$",
+          "$-2x^2 + 4xy - 6y^2$",
+          "$2x^2 - 4xy + 6y^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -3391,9 +3391,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Số tự nhiên $n$ để đa thức $P = 5x^n y^3 - 3x^4 y^2$ chia hết cho đơn thức $Q = 2x^3 y^2$ là:",
         "options": [
           "$n \\ge 3$",
-          "$n \\le 3$",
           "$n = 3$",
-          "$n \\ge 4$"
+          "$n \\ge 4$",
+          "$n \\le 3$"
         ],
         "correct": 0
       },
@@ -3414,24 +3414,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $(6x^3y^2 - 9x^2y^3 + 3x^2y^2) : M = 2x - 3y + 1$. Đơn thức $M$ là:",
         "options": [
-          "$3x^2y^2$",
           "$3xy$",
-          "$-3x^2y^2$",
-          "$x^2y^2$"
+          "$x^2y^2$",
+          "$3x^2y^2$",
+          "$-3x^2y^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $B = [(x + 2y)^4 - (x + 2y)^3] : (x + 2y)^3$ khi $x = 5, y = 2$ là:",
         "options": [
-          "$8$",
+          "$10$",
           "$9$",
           "$1$",
-          "$10$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -3440,8 +3440,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$x = \\frac{2}{7}$",
           "$x = -\\frac{2}{7}$",
-          "$x = 2$",
-          "$x = 0$"
+          "$x = 0$",
+          "$x = 2$"
         ],
         "correct": 0
       },
@@ -3450,48 +3450,48 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số tự nhiên $n$ để đơn thức $8x^5y^3$ chia hết cho đơn thức $-2x^n y^n$?",
         "options": [
-          "$4$",
           "$3$",
           "$2$",
+          "$4$",
           "$5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Bậc của đa thức thương trong phép chia $(x^3y^4 + 2x^4y^3 - 3x^2y^5) : (\\frac{1}{2}x^2y^3)$ là:",
         "options": [
-          "$2$",
           "$3$",
-          "$4$",
-          "$1$"
+          "$2$",
+          "$1$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Đa thức $(2x^2 - 3x + 1)$ chia cho $(x - 1)$ được thương là:",
         "options": [
-          "$2x - 1$",
-          "$2x + 1$",
           "$x - 1$",
-          "$2x - 2$"
+          "$2x + 1$",
+          "$2x - 2$",
+          "$2x - 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Khi chia đa thức $A = 4x^3y^2 - 6x^2y^3$ cho đơn thức $B = -2x^2y^2$, ta được thương là $-2x + 3y$. Khi $2x - 3y = 5$, giá trị của thương là:",
         "options": [
-          "$-5$",
           "$5$",
+          "$-10$",
           "$10$",
-          "$-10$"
+          "$-5$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3611,36 +3611,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $A = 2x^{n+1}y^4 - 3x^3y^{n+2}$ và $B = x^2y^3$. Điều kiện của số tự nhiên $n$ để $A$ chia hết cho $B$ là:",
         "options": [
-          "$n \\ge 1$",
           "$n \\ge 2$",
-          "$n \\le 1$",
-          "$n$ tùy ý"
+          "$n \\ge 1$",
+          "$n$ tùy ý",
+          "$n \\le 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Thương của phép chia $[2(x - y)^4 + 3(x - y)^3 - 5(x - y)^2] : [2(y - x)^2]$ là:",
         "options": [
-          "$(x - y)^2 + \\frac{3}{2}(x - y) - \\frac{5}{2}$",
+          "$(x - y)^2 + 3(x - y) - 5$",
           "$(x - y)^2 - \\frac{3}{2}(x - y) - \\frac{5}{2}$",
           "$-(x - y)^2 - \\frac{3}{2}(x - y) + \\frac{5}{2}$",
-          "$(x - y)^2 + 3(x - y) - 5$"
+          "$(x - y)^2 + \\frac{3}{2}(x - y) - \\frac{5}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $n$ lớn nhất để đơn thức $A = 12x^8y^5$ chia hết cho đơn thức $B = 3x^{2n}y^n$:",
         "options": [
-          "$4$",
           "$5$",
           "$3$",
+          "$4$",
           "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -3648,8 +3648,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho đa thức $P(x) = x^4 - 2x^3 + 3x^2 - 2x + 1$ chia cho $(x^2 - x + 1)$ được thương là:",
         "options": [
           "$x^2 - x + 1$",
-          "$x^2 + x + 1$",
           "$x^2 - 1$",
+          "$x^2 + x + 1$",
           "$x^2 + 1$"
         ],
         "correct": 0
@@ -3660,9 +3660,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Biết rằng $(x^3 - 3x^2y + 3xy^2 - y^3) : (x - y) = 16$. Giá trị của $|x - y|$ là:",
         "options": [
           "$4$",
-          "$16$",
+          "$8$",
           "$2$",
-          "$8$"
+          "$16$"
         ],
         "correct": 0
       },
@@ -3671,48 +3671,48 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $A = 4x^3y^2 - 8x^2y^3$ và $B = 2xy$. Giá trị của thương $A : B$ khi $x = 3, y = 2$ là:",
         "options": [
-          "$0$",
-          "$12$",
           "$-12$",
-          "$6$"
+          "$6$",
+          "$0$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các cặp số tự nhiên $(m, n)$ sao cho đơn thức $A = 5x^m y^3$ chia hết cho đơn thức $B = 2x^2 y^n$ và bậc của thương bằng 2:",
         "options": [
-          "$(m=3, n=2)$ và $(m=4, n=3)$",
-          "$(m=4, n=2)$",
           "$(m=2, n=1)$",
-          "Không có cặp nào"
+          "Không có cặp nào",
+          "$(m=4, n=2)$",
+          "$(m=3, n=2)$ và $(m=4, n=3)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $n$ để biểu thức $\\frac{2n^2 + 3n + 5}{2n + 1}$ nhận giá trị nguyên:",
         "options": [
-          "$n \\in \\{-3, -1, 0, 2\\}$",
-          "$n \\in \\{0, 1\\}$",
           "$n \\in \\{-1, 2\\}$",
-          "Không có $n$"
+          "$n \\in \\{-3, -1, 0, 2\\}$",
+          "Không có $n$",
+          "$n \\in \\{0, 1\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Rút gọn biểu thức $E = \\frac{(a^2 - b^2)^3 + (b^2 - c^2)^3 + (c^2 - a^2)^3}{(a - b)(b - c)(c - a)}$ ta được kết quả là:",
         "options": [
-          "$3(a + b)(b + c)(c + a)$",
           "$(a + b)(b + c)(c + a)$",
+          "$3(a + b)(b + c)(c + a)$",
           "$3$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -3721,8 +3721,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "options": [
           "$1$",
           "$0$",
-          "$-1$",
-          "$2$"
+          "$2$",
+          "$-1$"
         ],
         "correct": 0
       },
@@ -3731,24 +3731,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của thương trong phép chia $(x^4 + 2x^2 + 5) : (x^2 + 1)$ là:",
         "options": [
-          "$4$",
-          "$5$",
+          "$2$",
           "$1$",
-          "$2$"
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $x > 0, y > 0$ và $x + y = 1$. Giá trị nhỏ nhất của $\\frac{x^3 + y^3}{xy}$ là:",
         "options": [
-          "$1$",
           "$\\frac{1}{2}$",
           "$2$",
+          "$1$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3868,72 +3868,72 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là đơn thức nhiều biến?",
         "options": [
-          "$3x^2y$",
-          "$2x + 3y$",
+          "$x^2 - 4$",
           "$\\frac{x}{y}$",
-          "$x^2 - 4$"
+          "$2x + 3y$",
+          "$3x^2y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Bậc của đơn thức $-4x^3y^2z$ là:",
         "options": [
-          "$6$",
           "$5$",
-          "$4$",
-          "$3$"
+          "$3$",
+          "$6$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cặp đơn thức nào sau đây đồng dạng?",
         "options": [
+          "$xy$ và $x^2y^2$",
           "$-2x^2y$ và $5x^2y$",
           "$3x^2y$ và $3xy^2$",
-          "$4x^3$ và $4y^3$",
-          "$xy$ và $x^2y^2$"
+          "$4x^3$ và $4y^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Bậc của đa thức $P = 5x^4 - 3x^2y^3 + 2xy - 7$ là:",
         "options": [
+          "$9$",
           "$5$",
-          "$4$",
           "$3$",
-          "$9$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Thu gọn đa thức $M = 2x^2y + 3x^2y - 5$ ta được:",
         "options": [
-          "$5x^2y - 5$",
-          "$5x^4y^2 - 5$",
           "$x^2y - 5$",
-          "$5x^2y$"
+          "$5x^4y^2 - 5$",
+          "$5x^2y$",
+          "$5x^2y - 5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $A = 2x^2 - y$ và $B = x^2 + 3y$. Đa thức $A - B$ bằng:",
         "options": [
-          "$x^2 - 4y$",
-          "$x^2 + 2y$",
           "$3x^2 + 2y$",
-          "$x^2 + 4y$"
+          "$x^2 + 4y$",
+          "$x^2 - 4y$",
+          "$x^2 + 2y$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -3941,8 +3941,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Kết quả của phép nhân $2x(x^2 - 3x + 1)$ là:",
         "options": [
           "$2x^3 - 6x^2 + 2x$",
-          "$2x^3 - 6x^2 + 1$",
           "$2x^3 - 3x + 2x$",
+          "$2x^3 - 6x^2 + 1$",
           "$2x^2 - 6x + 2$"
         ],
         "correct": 0
@@ -3952,12 +3952,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Kết quả của phép nhân $(x - 2)(x + 3)$ là:",
         "options": [
-          "$x^2 + x - 6$",
           "$x^2 - x - 6$",
           "$x^2 + 5x - 6$",
-          "$x^2 - 6$"
+          "$x^2 - 6$",
+          "$x^2 + x - 6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -3976,12 +3976,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của đa thức $A = x^2 - 2xy + y^2$ tại $x = 102, y = 2$ là:",
         "options": [
+          "$1000$",
           "$10000$",
           "$100$",
-          "$1000$",
           "$10404$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -3989,9 +3989,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $P = x^2 - y^2$ và $Q = 2x^2 + y^2$. Tổng $P + Q$ bằng:",
         "options": [
           "$3x^2$",
+          "$3x^4$",
           "$3x^2 - 2y^2$",
-          "$x^2 + 2y^2$",
-          "$3x^4$"
+          "$x^2 + 2y^2$"
         ],
         "correct": 0
       },
@@ -4000,12 +4000,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $x(x - 3) - x^2 = 6$:",
         "options": [
-          "$x = -2$",
+          "$x = -3$",
           "$x = 2$",
-          "$x = 3$",
-          "$x = -3$"
+          "$x = -2$",
+          "$x = 3$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -4125,60 +4125,60 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hệ số và bậc của đơn thức $M = -\\frac{2}{3}x^3y^2z$ lần lượt là:",
         "options": [
-          "$-\\frac{2}{3}$ và $6$",
-          "$\\frac{2}{3}$ và $6$",
           "$-\\frac{2}{3}$ và $5$",
-          "$-2$ và $6$"
+          "$-2$ và $6$",
+          "$-\\frac{2}{3}$ và $6$",
+          "$\\frac{2}{3}$ và $6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Thu gọn đa thức $A = 2x^2y \\cdot (-3xy^2) + 5x^3y^3 - x^3y^3$ ta được:",
         "options": [
-          "$-2x^3y^3$",
-          "$2x^3y^3$",
           "$-x^3y^3$",
-          "$0$"
+          "$-2x^3y^3$",
+          "$0$",
+          "$2x^3y^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Bậc của đa thức $B = 4x^3y^2 - 2x^2y^3 + 1 - (4x^3y^2 + 5)$ là:",
         "options": [
-          "$5$",
-          "$6$",
           "$0$",
-          "$3$"
+          "$3$",
+          "$6$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Rút gọn $(2x - 1)(x + 3) - (x - 2)(2x + 1)$ ta được:",
         "options": [
-          "$8x - 1$",
+          "$4x - 1$",
           "$8x + 1$",
-          "$6x - 1$",
-          "$4x - 1$"
+          "$8x - 1$",
+          "$6x - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Thực hiện phép tính $[(2x^2y)^2 - 8x^3y^3] : (2x^2y^2)$ ta được:",
         "options": [
-          "$2x^2 - 4xy$",
           "$2x^2 + 4xy$",
+          "$2x^2 - 4xy$",
           "$x^2 - 4xy$",
           "$2x - 4y$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -4186,8 +4186,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $x - y = 3$. Giá trị của đa thức $P = x^2 - 2xy + y^2 - 5x + 5y + 6$ là:",
         "options": [
           "$0$",
-          "$1$",
           "$-2$",
+          "$1$",
           "$6$"
         ],
         "correct": 0
@@ -4198,9 +4198,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Tìm $x$ biết $(x - 3)(x + 3) - x(x - 2) = 5$:",
         "options": [
           "$x = 7$",
-          "$x = -7$",
+          "$x = -4$",
           "$x = 4$",
-          "$x = -4$"
+          "$x = -7$"
         ],
         "correct": 0
       },
@@ -4209,36 +4209,36 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $A = 3x^2 - 5xy + 2y^2$ và $B = x^2 - 5xy - y^2$. Hiệu $A - B$ bằng:",
         "options": [
-          "$2x^2 + 3y^2$",
           "$2x^2 - 10xy + y^2$",
           "$2x^2 + y^2$",
+          "$2x^2 + 3y^2$",
           "$4x^2 + 3y^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Đa thức nào sau đây luôn nhận giá trị dương với mọi số thực $x$?",
         "options": [
-          "$x^2 - 4x + 5$",
-          "$x^2 - 4x + 4$",
           "$x^2 - 4x$",
-          "$x^2 + 4x - 5$"
+          "$x^2 + 4x - 5$",
+          "$x^2 - 4x + 4$",
+          "$x^2 - 4x + 5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $(x^3 - y^3) : (x - y) - 2xy$ tại $x = 5, y = 2$ là:",
         "options": [
-          "$9$",
           "$29$",
           "$21$",
-          "$15$"
+          "$15$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -4257,12 +4257,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho hai đơn thức $M = 3x^a y^3$ và $N = -2x^4 y^b$. Để $M \\cdot N$ là đơn thức có bậc bằng 10 thì $a + b$ bằng:",
         "options": [
-          "$3$",
           "$4$",
+          "$3$",
           "$7$",
           "$10$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4382,24 +4382,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Bậc của đa thức $P = x^5y - 2x^3y^3 + 3xy^5 - x^5y + 1$ là:",
         "options": [
-          "$6$",
           "$5$",
-          "$3$",
-          "$0$"
+          "$0$",
+          "$6$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $x + y = 0$ và $xy = -4$. Giá trị của $x^4 + y^4$ là:",
         "options": [
-          "$32$",
           "$16$",
-          "$64$",
-          "$8$"
+          "$32$",
+          "$8$",
+          "$64$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -4407,9 +4407,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Hệ số của $x^2$ trong tích $(x - 1)(x - 2)(x - 3)$ là:",
         "options": [
           "$-6$",
-          "$6$",
           "$11$",
-          "$-11$"
+          "$-11$",
+          "$6$"
         ],
         "correct": 0
       },
@@ -4418,24 +4418,24 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $a + b + c = 0$. Rút gọn biểu thức $M = (a + b)(b + c)(c + a) + abc$ ta được:",
         "options": [
-          "$0$",
-          "$abc$",
+          "$2abc$",
           "$-abc$",
-          "$2abc$"
+          "$abc$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Cho đa thức $f(x) = x^4 - 4x^3 + 6x^2 - 4x + 5$. Giá trị nhỏ nhất của $f(x)$ là:",
         "options": [
-          "$4$",
-          "$5$",
           "$1$",
-          "$0$"
+          "$0$",
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -4443,9 +4443,9 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Tìm $m$ để đa thức $A = x^3 - 3x^2 + mx - 2$ chia hết cho đa thức $B = x - 2$:",
         "options": [
           "$m = 3$",
-          "$m = -3$",
+          "$m = -2$",
           "$m = 2$",
-          "$m = -2$"
+          "$m = -3$"
         ],
         "correct": 0
       },
@@ -4454,48 +4454,48 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của đa thức hai biến $P(x, y) = x^2 - 2xy + 2y^2 - 4y + 7$ là:",
         "options": [
-          "$3$",
-          "$7$",
           "$4$",
-          "$1$"
+          "$1$",
+          "$3$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho ba số thực $x, y, z$ thỏa mãn $x^2 + y^2 + z^2 = xy + yz + zx$. Khi đó:",
         "options": [
-          "$x = y = z$",
-          "$x + y + z = 0$",
+          "$x^2 = yz$",
           "$xyz = 1$",
-          "$x^2 = yz$"
+          "$x + y + z = 0$",
+          "$x = y = z$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c$ là độ dài ba cạnh của một tam giác. Dấu của đa thức $A = a^2b + b^2c + c^2a - ab^2 - bc^2 - ca^2$ là:",
         "options": [
-          "Không xác định (tùy thuộc vào thứ tự)",
           "Luôn dương",
+          "Không xác định (tùy thuộc vào thứ tự)",
           "Luôn âm",
           "Bằng 0"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số cặp số nguyên $(x, y)$ thỏa mãn đẳng thức $x^2 + xy - 2x - 2y = 3$ là:",
         "options": [
-          "$4$",
-          "$2$",
+          "$6$",
           "$0$",
-          "$6$"
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -4503,8 +4503,8 @@ const CHAPTER1_TOAN8_EXAMS = {
         "question": "Cho $x = 2025$. Tính giá trị của biểu thức $P = x^4 - 2026x^3 + 2026x^2 - 2026x + 2026$:",
         "options": [
           "$1$",
-          "$2025$",
           "$0$",
+          "$2025$",
           "$-1$"
         ],
         "correct": 0
@@ -4514,12 +4514,12 @@ const CHAPTER1_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x) = (x^2 + x + 1)^{10} = a_{20}x^{20} + a_{19}x^{19} + \\dots + a_1x + a_0$. Tổng các hệ số bậc chẵn $a_0 + a_2 + \\dots + a_{20}$ là:",
         "options": [
+          "$3^{10}$",
           "$\\frac{3^{10} + 1}{2}$",
           "$\\frac{3^{10} - 1}{2}$",
-          "$3^{10}$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [

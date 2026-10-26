@@ -8,72 +8,72 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Tỉ lệ thức là đẳng thức của:",
         "options": [
-          "Hai tỉ số $\\frac{a}{b} = \\frac{c}{d}$",
+          "Hai biểu thức chứa biến",
           "Hai phân số cùng mẫu",
           "Hai số nguyên",
-          "Hai biểu thức chứa biến"
+          "Hai tỉ số $\\frac{a}{b} = \\frac{c}{d}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong tỉ lệ thức $\\frac{a}{b} = \\frac{c}{d}$, các số $a$ và $d$ được gọi là:",
         "options": [
-          "Ngoại tỉ",
-          "Trung tỉ",
+          "Mẫu số",
           "Tử số",
-          "Mẫu số"
+          "Ngoại tỉ",
+          "Trung tỉ"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Trong tỉ lệ thức $\\frac{a}{b} = \\frac{c}{d}$, các số $b$ và $c$ được gọi là:",
         "options": [
-          "Trung tỉ",
-          "Ngoại tỉ",
           "Tử số",
-          "Hệ số"
+          "Ngoại tỉ",
+          "Hệ số",
+          "Trung tỉ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$) thì khẳng định nào sau đây là đúng?",
         "options": [
-          "$ad = bc$",
-          "$ab = cd$",
           "$ac = bd$",
-          "$a + d = b + c$"
+          "$a + d = b + c$",
+          "$ad = bc$",
+          "$ab = cd$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Từ đẳng thức $2 \\cdot 6 = 3 \\cdot 4$, tỉ lệ thức nào sau đây là SAI?",
         "options": [
-          "$\\frac{2}{4} = \\frac{6}{3}$",
-          "$\\frac{2}{3} = \\frac{4}{6}$",
           "$\\frac{6}{3} = \\frac{4}{2}$",
-          "$\\frac{2}{4} = \\frac{3}{6}$"
+          "$\\frac{2}{4} = \\frac{6}{3}$",
+          "$\\frac{2}{4} = \\frac{3}{6}$",
+          "$\\frac{2}{3} = \\frac{4}{6}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cặp tỉ số nào sau đây lập thành một tỉ lệ thức?",
         "options": [
-          "$\\frac{2}{5}$ và $\\frac{6}{15}$",
           "$\\frac{1}{3}$ và $\\frac{2}{5}$",
           "$\\frac{3}{4}$ và $\\frac{4}{3}$",
+          "$\\frac{2}{5}$ và $\\frac{6}{15}$",
           "$\\frac{-2}{3}$ và $\\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -81,8 +81,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{6} = \\frac{5}{3}$:",
         "options": [
           "$x = 10$",
-          "$x = 5$",
           "$x = 15$",
+          "$x = 5$",
           "$x = 2$"
         ],
         "correct": 0
@@ -93,8 +93,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Tìm $x$ trong tỉ lệ thức $\\frac{-3}{x} = \\frac{6}{-8}$:",
         "options": [
           "$x = 4$",
-          "$x = -4$",
           "$x = 16$",
+          "$x = -4$",
           "$x = -16$"
         ],
         "correct": 0
@@ -104,36 +104,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Từ bốn số nào sau đây có thể lập được một tỉ lệ thức?",
         "options": [
+          "$2; 4; 6; 8$",
           "$2; 3; 6; 9$",
           "$1; 2; 3; 4$",
-          "$2; 4; 6; 8$",
           "$3; 5; 7; 9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tỉ lệ thức $\\frac{x}{4} = \\frac{9}{x}$ ($x > 0$). Giá trị của $x$ là:",
         "options": [
+          "$x = 5$",
           "$x = 6$",
-          "$x = 36$",
           "$x = 13$",
-          "$x = 5$"
+          "$x = 36$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\frac{x - 1}{2} = \\frac{3}{4}$:",
         "options": [
-          "$x = 2{,}5$",
           "$x = 2$",
+          "$x = 3$",
           "$x = 1{,}5$",
-          "$x = 3$"
+          "$x = 2{,}5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -141,9 +141,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Biết $\\frac{a}{b} = \\frac{3}{5}$. Tỉ số $\\frac{a + b}{b}$ bằng:",
         "options": [
           "$\\frac{8}{5}$",
+          "$\\frac{5}{3}$",
           "$\\frac{5}{8}$",
-          "$\\frac{2}{5}$",
-          "$\\frac{5}{3}$"
+          "$\\frac{2}{5}$"
         ],
         "correct": 0
       }
@@ -304,60 +304,60 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Từ tỉ lệ thức $\\frac{a}{b} = \\frac{c}{d}$, ta suy ra được đẳng thức nào sau đây?",
         "options": [
-          "$\\frac{a}{c} = \\frac{b}{d}$",
-          "$\\frac{a}{d} = \\frac{b}{c}$",
           "$\\frac{b}{a} = \\frac{c}{d}$",
-          "$\\frac{d}{b} = \\frac{a}{c}$"
+          "$\\frac{a}{c} = \\frac{b}{d}$",
+          "$\\frac{d}{b} = \\frac{a}{c}$",
+          "$\\frac{a}{d} = \\frac{b}{c}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x - 3}{5} = \\frac{x + 1}{7}$:",
         "options": [
-          "$x = 13$",
+          "$x = 10$",
           "$x = 8$",
           "$x = -13$",
-          "$x = 10$"
+          "$x = 13$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $\\frac{a}{b} = \\frac{2}{3}$ và $ab = 54$ ($a, b > 0$). Giá trị của $a + b$ là:",
         "options": [
-          "$15$",
-          "$12$",
+          "$20$",
           "$18$",
-          "$20$"
+          "$15$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho tỉ lệ thức $\\frac{x}{y} = \\frac{4}{7}$. Tỉ số $\\frac{3x - y}{x + 2y}$ bằng:",
         "options": [
-          "$\\frac{5}{18}$",
-          "$\\frac{7}{18}$",
           "$\\frac{1}{3}$",
+          "$\\frac{7}{18}$",
+          "$\\frac{5}{18}$",
           "$\\frac{5}{11}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu giá trị của $x$ thỏa mãn $\\frac{x}{4} = \\frac{16}{x}$?",
         "options": [
-          "$2$ giá trị ($x = 8$ hoặc $x = -8$)",
-          "$1$ giá trị ($x = 8$)",
           "$0$ giá trị",
-          "Vô số giá trị"
+          "$2$ giá trị ($x = 8$ hoặc $x = -8$)",
+          "Vô số giá trị",
+          "$1$ giá trị ($x = 8$)"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -365,8 +365,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Một bản đồ có tỉ lệ xích $1 : 200\\,000$. Khoảng cách giữa hai điểm A và B đo được trên bản đồ là $4$ cm. Khoảng cách thực tế giữa hai điểm đó là:",
         "options": [
           "$8$ km",
-          "$80$ km",
           "$0{,}8$ km",
+          "$80$ km",
           "$800$ m"
         ],
         "correct": 0
@@ -376,12 +376,12 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\frac{2x - 1}{3} = \\frac{x + 5}{4}$:",
         "options": [
-          "$x = 3{,}8$",
-          "$x = 3$",
           "$x = 4$",
+          "$x = 3$",
+          "$x = 3{,}8$",
           "$x = 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -401,9 +401,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Hai lớp 7A và 7B có số học sinh tỉ lệ với $8 : 9$. Biết lớp 7B nhiều hơn lớp 7A là 5 học sinh. Số học sinh của lớp 7A là:",
         "options": [
           "$40$ học sinh",
-          "$45$ học sinh",
           "$35$ học sinh",
-          "$48$ học sinh"
+          "$48$ học sinh",
+          "$45$ học sinh"
         ],
         "correct": 0
       },
@@ -412,36 +412,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm $x$ biết $\\frac{x^2}{6} = \\frac{24}{x}$:",
         "options": [
-          "$x = 5{,}24$",
-          "$x = 12$",
           "$x = 6$",
-          "$x = 2$"
+          "$x = 2$",
+          "$x = 12$",
+          "$x = 5{,}24$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Chứng minh $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{ac}{bd}$. Kết quả này:",
         "options": [
-          "Luôn đúng với mọi $b, d \\neq 0$ và $b^2 + d^2 \\neq 0$",
           "Chỉ đúng khi $a = b = c = d$",
+          "Luôn đúng với mọi $b, d \\neq 0$ và $b^2 + d^2 \\neq 0$",
           "Sai",
           "Chỉ đúng khi $a, b, c, d$ là số dương"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm các số $x, y$ biết $\\frac{x}{3} = \\frac{y}{5}$ và $x^2 + y^2 = 136$ ($x, y > 0$):",
         "options": [
-          "$x = 6, y = 10$",
+          "$x = 12, y = 20$",
           "$x = 3, y = 5$",
           "$x = 9, y = 15$",
-          "$x = 12, y = 20$"
+          "$x = 6, y = 10$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -600,24 +600,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Biểu thức nào sau đây KHÔNG bằng tỉ số $\\frac{a}{b}$?",
         "options": [
-          "$\\frac{a+2}{b+2}$",
-          "$\\frac{a+c}{b+d}$",
+          "$\\frac{3a+5c}{3b+5d}$",
           "$\\frac{2a-c}{2b-d}$",
-          "$\\frac{3a+5c}{3b+5d}$"
+          "$\\frac{a+2}{b+2}$",
+          "$\\frac{a+c}{b+d}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Vận dụng",
         "question": "Cho $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}$ và $x^2 + y^2 + z^2 = 116$ ($x, y, z > 0$). Giá trị của $x + y + z$ là:",
         "options": [
+          "$16$",
           "$18$",
           "$20$",
-          "$16$",
           "$24$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -626,8 +626,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "$x = -6, y = -8$",
           "$x = -3, y = -4$",
-          "$x = -12, y = -16$",
-          "$x = -9, y = -12$"
+          "$x = -9, y = -12$",
+          "$x = -12, y = -16$"
         ],
         "correct": 0
       },
@@ -637,8 +637,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{d}$ ($a, b, c, d \\neq 0$). Khi đó $\\left(\\frac{a+b+c}{b+c+d}\\right)^3$ bằng:",
         "options": [
           "$\\frac{a}{d}$",
-          "$\\frac{a^3}{d^3}$",
           "$\\frac{b}{c}$",
+          "$\\frac{a^3}{d^3}$",
           "$1$"
         ],
         "correct": 0
@@ -649,9 +649,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho tỉ lệ thức $\\frac{a}{b} = \\frac{c}{d}$. Tỉ số $\\frac{ab}{cd}$ bằng tỉ số nào sau đây?",
         "options": [
           "$\\frac{a^2}{c^2}$",
-          "$\\frac{a^2}{b^2}$",
           "$\\frac{c^2}{d^2}$",
-          "$\\frac{a+b}{c+d}$"
+          "$\\frac{a+b}{c+d}$",
+          "$\\frac{a^2}{b^2}$"
         ],
         "correct": 0
       },
@@ -660,84 +660,84 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm $x$ thỏa mãn $\\frac{x - 1}{2023} + \\frac{x - 2}{2022} = \\frac{x - 3}{2021} + \\frac{x - 4}{2020}$:",
         "options": [
-          "$x = 2024$",
           "$x = 2023$",
-          "$x = 0$",
-          "$x = 1$"
+          "$x = 1$",
+          "$x = 2024$",
+          "$x = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c$ khác 0 thỏa mãn $\\frac{a+b-c}{c} = \\frac{b+c-a}{a} = \\frac{c+a-b}{b}$. Giá trị của biểu thức $P = \\left(1 + \\frac{b}{a}\\right)\\left(1 + \\frac{c}{b}\\right)\\left(1 + \\frac{a}{c}\\right)$ là:",
         "options": [
-          "$8$",
           "$1$",
+          "$-1$",
           "$6$",
-          "$-1$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho tỉ lệ thức $\\frac{2a+b}{a-2b} = \\frac{2c+d}{c-2d}$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d}$",
+          "$a = b = c = d$",
           "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$ad + bc = 0$",
-          "$a = b = c = d$"
+          "$\\frac{a}{b} = \\frac{c}{d}$",
+          "$ad + bc = 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Biết $\\frac{bz - cy}{a} = \\frac{cx - az}{b} = \\frac{ay - bx}{c}$. Khi đó tỉ lệ thức nào sau đây đúng?",
         "options": [
+          "$x + y + z = a + b + c$",
           "$\\frac{x}{a} = \\frac{y}{b} = \\frac{z}{c}$",
           "$\\frac{x}{b} = \\frac{y}{c} = \\frac{z}{a}$",
-          "$x + y + z = a + b + c$",
           "$ax = by = cz$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số các cặp số nguyên $(x; y)$ thỏa mãn $\\frac{x}{3} - \\frac{4}{y} = \\frac{1}{6}$ là:",
         "options": [
-          "$6$ cặp",
+          "$2$ cặp",
           "$4$ cặp",
           "$8$ cặp",
-          "$2$ cặp"
+          "$6$ cặp"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho ba số thực $x, y, z$ thỏa mãn $\\frac{x}{y+z+1} = \\frac{y}{x+z+1} = \\frac{z}{x+y-2} = x + y + z$. Khi $x + y + z \\neq 0$, giá trị của tổng $x + y + z$ là:",
         "options": [
-          "$\\frac{1}{2}$",
-          "$1$",
           "$2$",
-          "$-1$"
+          "$1$",
+          "$-1$",
+          "$\\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Chứng minh $\\frac{5a+3b}{5a-3b} = \\frac{5c+3d}{5c-3d}$. Phép biến đổi nào sau đây phù hợp nhất?",
         "options": [
+          "Cộng thêm 1 vào cả hai vế",
           "Chia cả tử và mẫu cho $b$ (ở vế trái) và $d$ (ở vế phải)",
-          "Quy đồng mẫu số hai vế",
           "Bình phương hai vế",
-          "Cộng thêm 1 vào cả hai vế"
+          "Quy đồng mẫu số hai vế"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -896,24 +896,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Từ dãy tỉ số bằng nhau $\\frac{a}{b} = \\frac{c}{d}$, hệ thức nào sau đây diễn tả tính chất của dãy tỉ số bằng nhau?",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a + c}{b + d}$",
-          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a \\cdot c}{b \\cdot d}$",
           "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a + c}{b - d}$",
-          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a - c}{b + d}$"
+          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a + c}{b + d}$",
+          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a - c}{b + d}$",
+          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a \\cdot c}{b \\cdot d}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Từ dãy tỉ số bằng nhau $\\frac{a}{b} = \\frac{c}{d}$, ta cũng có:",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a - c}{b - d}$ (với $b \\neq d$)",
           "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a - c}{d - b}$",
+          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a + d}{b + c}$",
           "$\\frac{a}{b} = \\frac{c}{d} = \\frac{c - a}{b - d}$",
-          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a + d}{b + c}$"
+          "$\\frac{a}{b} = \\frac{c}{d} = \\frac{a - c}{b - d}$ (với $b \\neq d$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -922,8 +922,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "Tỉ lệ với các số $2; 3; 4$",
           "Bằng các số $2; 3; 4$",
-          "Có tổng bằng $9$",
-          "Có tích bằng $24$"
+          "Có tích bằng $24$",
+          "Có tổng bằng $9$"
         ],
         "correct": 0
       },
@@ -932,48 +932,48 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi nói ba số $x, y, z$ tỉ lệ với các số $3; 5; 7$, ta viết:",
         "options": [
-          "$\\frac{x}{3} = \\frac{y}{5} = \\frac{z}{7}$",
-          "$\\frac{x}{7} = \\frac{y}{5} = \\frac{z}{3}$",
           "$3x = 5y = 7z$",
-          "$x : y : z = 7 : 5 : 3$"
+          "$\\frac{x}{3} = \\frac{y}{5} = \\frac{z}{7}$",
+          "$x : y : z = 7 : 5 : 3$",
+          "$\\frac{x}{7} = \\frac{y}{5} = \\frac{z}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{2} = \\frac{y}{3}$ và $x + y = 20$:",
         "options": [
-          "$x = 8, y = 12$",
-          "$x = 10, y = 10$",
+          "$x = 4, y = 16$",
           "$x = 6, y = 14$",
-          "$x = 4, y = 16$"
+          "$x = 8, y = 12$",
+          "$x = 10, y = 10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{5} = \\frac{y}{2}$ và $x - y = 12$:",
         "options": [
-          "$x = 20, y = 8$",
           "$x = 15, y = 3$",
           "$x = 25, y = 13$",
+          "$x = 20, y = 8$",
           "$x = 30, y = 18$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$ và $x + y + z = 36$. Giá trị của $x$ là:",
         "options": [
-          "$x = 9$",
-          "$x = 12$",
           "$x = 15$",
-          "$x = 3$"
+          "$x = 12$",
+          "$x = 3$",
+          "$x = 9$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -982,8 +982,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "$a = 20$",
           "$a = 35$",
-          "$a = 15$",
-          "$a = 25$"
+          "$a = 25$",
+          "$a = 15$"
         ],
         "correct": 0
       },
@@ -992,36 +992,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết ba góc của một tam giác tỉ lệ với $1 : 2 : 3$. Số đo góc lớn nhất của tam giác đó là:",
         "options": [
-          "$90^\\circ$",
+          "$80^\\circ$",
           "$60^\\circ$",
           "$120^\\circ$",
-          "$80^\\circ$"
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho $\\frac{x}{2} = \\frac{y}{5}$ và $2x + y = 27$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 6, y = 15$",
           "$x = 4, y = 10$",
-          "$x = 8, y = 20$",
-          "$x = 2, y = 5$"
+          "$x = 6, y = 15$",
+          "$x = 2, y = 5$",
+          "$x = 8, y = 20$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Hai lớp 7A và 7B quyên góp được tổng cộng 120 quyển vở. Số vở của lớp 7A và 7B tỉ lệ với 5 : 7. Số vở lớp 7A quyên góp được là:",
         "options": [
-          "$50$ quyển",
-          "$70$ quyển",
           "$60$ quyển",
+          "$70$ quyển",
+          "$50$ quyển",
           "$40$ quyển"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -1029,9 +1029,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Một khu vườn hình chữ nhật có tỉ số chiều rộng và chiều dài là $3 : 5$, chu vi là $48$ m. Chiều dài khu vườn là:",
         "options": [
           "$15$ m",
+          "$18$ m",
           "$9$ m",
-          "$20$ m",
-          "$18$ m"
+          "$20$ m"
         ],
         "correct": 0
       }
@@ -1192,72 +1192,72 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\frac{x}{3} = \\frac{y}{5} = \\frac{z}{7}$. Biểu thức nào sau đây bằng các tỉ số đã cho?",
         "options": [
-          "$\\frac{2x + y - z}{4}$",
-          "$\\frac{2x + y - z}{5}$",
+          "$\\frac{x - y + z}{3}$",
           "$\\frac{x + 2y + z}{20}$",
-          "$\\frac{x - y + z}{3}$"
+          "$\\frac{2x + y - z}{4}$",
+          "$\\frac{2x + y - z}{5}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\frac{a}{2} = \\frac{b}{3} = \\frac{c}{4}$ và $a + 2b - c = 16$. Giá trị của $a$ là:",
         "options": [
-          "$a = 8$",
           "$a = 4$",
+          "$a = 16$",
           "$a = 12$",
-          "$a = 16$"
+          "$a = 8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Ba số $x, y, z$ thỏa mãn $\\frac{x}{2} = \\frac{y}{3}; \\frac{y}{4} = \\frac{z}{5}$. Khi đó dãy tỉ số bằng nhau của $x, y, z$ là:",
         "options": [
-          "$\\frac{x}{8} = \\frac{y}{12} = \\frac{z}{15}$",
           "$\\frac{x}{2} = \\frac{y}{12} = \\frac{z}{5}$",
+          "$\\frac{x}{6} = \\frac{y}{12} = \\frac{z}{20}$",
           "$\\frac{x}{8} = \\frac{y}{3} = \\frac{z}{15}$",
-          "$\\frac{x}{6} = \\frac{y}{12} = \\frac{z}{20}$"
+          "$\\frac{x}{8} = \\frac{y}{12} = \\frac{z}{15}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Một tam giác có chu vi $60$ cm, ba cạnh tỉ lệ với $3 : 4 : 5$. Độ dài ba cạnh là:",
         "options": [
-          "$15$ cm, $20$ cm, $25$ cm",
           "$12$ cm, $16$ cm, $20$ cm",
           "$18$ cm, $24$ cm, $30$ cm",
-          "$10$ cm, $20$ cm, $30$ cm"
+          "$10$ cm, $20$ cm, $30$ cm",
+          "$15$ cm, $20$ cm, $25$ cm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Số học sinh của ba lớp 7A, 7B, 7C tỉ lệ với $10 : 9 : 8$. Biết tổng số học sinh của lớp 7A và 7C là 72 em. Số học sinh của lớp 7B là:",
         "options": [
-          "$36$ em",
           "$40$ em",
           "$32$ em",
+          "$36$ em",
           "$38$ em"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $xyz = 240$. Giá trị dương của $x + y + z$ là:",
         "options": [
-          "$20$",
           "$10$",
-          "$30$",
-          "$40$"
+          "$20$",
+          "$40$",
+          "$30$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1265,9 +1265,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Biết $2x = 3y = 5z$ và $x + y - z = 57$. Giá trị của $x$ là:",
         "options": [
           "$45$",
+          "$60$",
           "$30$",
-          "$18$",
-          "$60$"
+          "$18$"
         ],
         "correct": 0
       },
@@ -1277,8 +1277,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Chia số 104 thành ba phần tỉ lệ thuận với $\\frac{1}{2}; \\frac{1}{3}; \\frac{1}{4}$. Số lớn nhất trong ba số đó là:",
         "options": [
           "$48$",
-          "$36$",
           "$32$",
+          "$36$",
           "$24$"
         ],
         "correct": 0
@@ -1288,36 +1288,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Ba công nhân dệt được 360 mét vải trong một ngày. Số mét vải của công nhân 1, 2, 3 tỉ lệ với $5 : 4 : 3$. Người dệt nhiều nhất được bao nhiêu mét vải?",
         "options": [
-          "$150$ m",
-          "$120$ m",
           "$90$ m",
-          "$180$ m"
+          "$180$ m",
+          "$150$ m",
+          "$120$ m"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Tìm hai số $x, y$ biết $\\frac{x}{3} = \\frac{y}{7}$ và $x^2 + y^2 = 232$ ($x, y > 0$):",
         "options": [
-          "$x = 6, y = 14$",
           "$x = 3, y = 7$",
-          "$x = 9, y = 21$",
-          "$x = 12, y = 28$"
+          "$x = 6, y = 14$",
+          "$x = 12, y = 28$",
+          "$x = 9, y = 21$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Hệ thức nào sau đây chứng minh tính chất $\\frac{a^2 + b^2}{c^2 + d^2} = \\frac{(a+b)^2}{(c+d)^2}$?",
         "options": [
-          "Đặt $a = kb, c = kd$ rồi thay vào hai vế",
           "Nhân chéo hai vế",
+          "Đặt $a = kb, c = kd$ rồi thay vào hai vế",
           "Áp dụng định lí Pythagore",
           "Lấy căn bậc hai hai vế"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -1326,8 +1326,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "$18$",
           "$15$",
-          "$21$",
-          "$12$"
+          "$12$",
+          "$21$"
         ],
         "correct": 0
       }
@@ -1488,36 +1488,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f}$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\frac{a}{b} = \\frac{a + c - e}{b - d + f}$",
           "$\\frac{a}{b} = \\frac{a + c + e}{b + d + f}$",
-          "$\\frac{a}{b} = \\frac{2a + 3c - 4e}{2b + 3d - 4f}$",
-          "$\\frac{a}{b} = \\frac{a - c - e}{b - d - f}$"
+          "$\\frac{a}{b} = \\frac{a - c - e}{b - d - f}$",
+          "$\\frac{a}{b} = \\frac{a + c - e}{b - d + f}$",
+          "$\\frac{a}{b} = \\frac{2a + 3c - 4e}{2b + 3d - 4f}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x + y + z = 30$. Giá trị của biểu thức $P = \\frac{x^2 + y^2 + z^2}{x + y + z}$ là:",
         "options": [
-          "$\\frac{38}{3}$",
-          "$15$",
+          "$\\frac{19}{3}$",
           "$20$",
-          "$\\frac{19}{3}$"
+          "$15$",
+          "$\\frac{38}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Cho các số $a, b, c$ thỏa mãn $\\frac{a}{2} = \\frac{b}{3} = \\frac{c}{4}$. Tỉ số $\\frac{a^2 + b^2 + c^2}{(a+b+c)^2}$ bằng:",
         "options": [
+          "$\\frac{13}{81}$",
           "$\\frac{29}{81}$",
           "$\\frac{29}{9}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{13}{81}$"
+          "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -1526,8 +1526,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "$x = 45, y = 60, z = 72$",
           "$x = 30, y = 40, z = 48$",
-          "$x = 15, y = 20, z = 24$",
-          "$x = 60, y = 80, z = 96$"
+          "$x = 60, y = 80, z = 96$",
+          "$x = 15, y = 20, z = 24$"
         ],
         "correct": 0
       },
@@ -1536,12 +1536,12 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d} = \\frac{e}{f} = k$. Khi đó $\\frac{am + cn + ep}{bm + dn + fp}$ bằng:",
         "options": [
-          "$k$",
           "$k^3$",
+          "$k^2$",
           "$3k$",
-          "$k^2$"
+          "$k$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -1550,8 +1550,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "$1$ hoặc $-1$",
           "$2$",
-          "$\\frac{1}{2}$",
-          "$0$"
+          "$0$",
+          "$\\frac{1}{2}$"
         ],
         "correct": 0
       },
@@ -1560,60 +1560,60 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $\\frac{x}{a} = \\frac{y}{b} = \\frac{z}{c}$. Giá trị của $\\frac{(x+y+z)^3}{(a+b+c)^3} \\cdot \\frac{abc}{xyz}$ là:",
         "options": [
-          "$1$",
+          "$k$",
           "$3$",
           "$k^3$",
-          "$k$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c$ đôi một khác nhau và $\\frac{a}{b-c} + \\frac{b}{c-a} + \\frac{c}{a-b} = 0$. Giá trị của biểu thức $\\frac{a}{(b-c)^2} + \\frac{b}{(c-a)^2} + \\frac{c}{(a-b)^2}$ là:",
         "options": [
-          "$0$",
+          "Không xác định",
           "$1$",
-          "$3$",
-          "Không xác định"
+          "$0$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm $x, y, z$ biết $\\frac{x}{y+z+1} = \\frac{y}{x+z+1} = \\frac{z}{x+y-2} = x + y + z$ ($x, y, z \\neq 0$). Giá trị của $x$ là:",
         "options": [
-          "$\\frac{1}{2}$",
-          "$\\frac{1}{3}$",
           "$1$",
-          "$\\frac{1}{4}$"
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Ba đội máy cày cày trên ba cánh đồng có diện tích như nhau. Đội 1 hoàn thành trong 3 ngày, đội 2 trong 5 ngày, đội 3 trong 6 ngày. Biết đội 1 nhiều hơn đội 2 là 10 máy (năng suất mỗi máy như nhau). Số máy của đội 3 là:",
         "options": [
-          "$15$ máy",
           "$25$ máy",
-          "$12$ máy",
-          "$10$ máy"
+          "$15$ máy",
+          "$10$ máy",
+          "$12$ máy"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho ba số $a, b, c$ thỏa mãn $a + b + c = 0$. Giá trị của biểu thức $M = \\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}$ là:",
         "options": [
-          "$3$",
           "$0$",
-          "$1$",
-          "$-3$"
+          "$3$",
+          "$-3$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -1621,9 +1621,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Chứng minh $\\frac{a^{2024} + c^{2024}}{b^{2024} + d^{2024}} = \\left(\\frac{a+c}{b+d}\\right)^{2024}$. Đẳng thức này:",
         "options": [
           "Luôn đúng với mọi $b, d > 0$",
-          "Sai",
+          "Chỉ đúng khi $a = c$",
           "Chỉ đúng với số mũ chẵn 2",
-          "Chỉ đúng khi $a = c$"
+          "Sai"
         ],
         "correct": 0
       }
@@ -1797,9 +1797,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = kx$ (với $k$ là hằng số khác 0) thì:",
         "options": [
           "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k$",
-          "$y$ tỉ lệ nghịch với $x$ theo hệ số $k$",
           "$x$ tỉ lệ thuận với $y$ theo hệ số $k$",
-          "$y$ không phụ thuộc vào $x$"
+          "$y$ không phụ thuộc vào $x$",
+          "$y$ tỉ lệ nghịch với $x$ theo hệ số $k$"
         ],
         "correct": 0
       },
@@ -1820,12 +1820,12 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Công thức nào sau đây diễn tả $y$ tỉ lệ thuận với $x$?",
         "options": [
-          "$y = -2x$",
-          "$y = \\frac{2}{x}$",
           "$xy = 5$",
-          "$y = 2x + 1$"
+          "$y = 2x + 1$",
+          "$y = -2x$",
+          "$y = \\frac{2}{x}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -1834,8 +1834,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "Luôn không đổi",
           "Luôn bằng 0",
-          "Luôn bằng 1",
-          "Tăng dần"
+          "Tăng dần",
+          "Luôn bằng 1"
         ],
         "correct": 0
       },
@@ -1844,96 +1844,96 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = -4$. Khi $x = 2$ thì $y$ bằng:",
         "options": [
-          "$-8$",
+          "$2$",
           "$8$",
           "$-2$",
-          "$2$"
+          "$-8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Biết $y$ tỉ lệ thuận với $x$ và khi $x = 3$ thì $y = 12$. Hệ số tỉ lệ $k$ của $y$ đối với $x$ là:",
         "options": [
-          "$4$",
           "$\\frac{1}{4}$",
+          "$4$",
           "$36$",
           "$9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Một ô tô chuyển động đều với vận tốc $60$ km/h. Quãng đường $s$ (km) đi được trong thời gian $t$ (h) là:",
         "options": [
-          "$s = 60t$",
           "$s = \\frac{60}{t}$",
-          "$s = \\frac{t}{60}$",
-          "$s = 60 + t$"
+          "$s = 60t$",
+          "$s = 60 + t$",
+          "$s = \\frac{t}{60}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Mua 5 quyển vở cùng loại hết 45 000 đồng. Mua 8 quyển vở như thế hết bao nhiêu tiền?",
         "options": [
-          "$72\\,000$ đồng",
-          "$64\\,000$ đồng",
+          "$90\\,000$ đồng",
           "$80\\,000$ đồng",
-          "$90\\,000$ đồng"
+          "$72\\,000$ đồng",
+          "$64\\,000$ đồng"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho bảng giá trị hai đại lượng tỉ lệ thuận $x$ và $y$:\n| $x$ | 2 | 4 | 6 |\n| $y$ | 6 | 12 | ? |\nGiá trị còn thiếu là:",
         "options": [
-          "$18$",
-          "$14$",
           "$16$",
+          "$14$",
+          "$18$",
           "$24$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Một thanh kim loại đồng chất có khối lượng tỉ lệ thuận với thể tích. Biết $5$ cm$^3$ nặng $40$ g. Hệ số tỉ lệ của khối lượng $m$ đối với thể tích $V$ là:",
         "options": [
-          "$8$ g/cm$^3$",
-          "$0{,}125$ g/cm$^3$",
           "$200$ g/cm$^3$",
-          "$35$ g/cm$^3$"
+          "$0{,}125$ g/cm$^3$",
+          "$35$ g/cm$^3$",
+          "$8$ g/cm$^3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Chu vi hình vuông $C$ và độ dài cạnh $a$ liên hệ theo công thức $C = 4a$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "Chu vi tỉ lệ thuận với độ dài cạnh theo hệ số 4",
+          "Hệ số tỉ lệ là 1/4",
           "Chu vi tỉ lệ nghịch với độ dài cạnh",
           "Diện tích tỉ lệ thuận với độ dài cạnh",
-          "Hệ số tỉ lệ là 1/4"
+          "Chu vi tỉ lệ thuận với độ dài cạnh theo hệ số 4"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Biết $y$ tỉ lệ thuận với $x$ theo hệ số $k = 2$, $z$ tỉ lệ thuận với $y$ theo hệ số $m = 3$. Khi đó $z$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ là:",
         "options": [
+          "$\\frac{2}{3}$",
           "$6$",
-          "$5$",
           "$\\frac{3}{2}$",
-          "$\\frac{2}{3}$"
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2092,36 +2092,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $x$ và $y$ là hai đại lượng tỉ lệ thuận. Biết $x_1, x_2$ là hai giá trị của $x$ có tổng bằng 5; $y_1, y_2$ là hai giá trị tương ứng của $y$ có tổng bằng 15. Hệ số tỉ lệ của $y$ đối với $x$ là:",
         "options": [
-          "$3$",
-          "$\\frac{1}{3}$",
+          "$10$",
           "$75$",
-          "$10$"
+          "$\\frac{1}{3}$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $y$ tỉ lệ thuận với $x$ theo hệ số $k_1 = 2$, $z$ tỉ lệ thuận với $x$ theo hệ số $k_2 = 6$. Khi đó $z$ tỉ lệ thuận với $y$ theo hệ số:",
         "options": [
-          "$3$",
+          "$4$",
           "$\\frac{1}{3}$",
-          "$12$",
-          "$4$"
+          "$3$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho biết $y$ tỉ lệ thuận với $x$ theo hệ số $k$. Khi $x$ tăng lên 3 lần thì $y$ sẽ:",
         "options": [
-          "Tăng lên 3 lần",
+          "Không đổi",
           "Giảm đi 3 lần",
           "Tăng thêm 3 đơn vị",
-          "Không đổi"
+          "Tăng lên 3 lần"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -2129,9 +2129,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Một dây đồng dài $15$ m nặng $120$ g. Một cuộn dây đồng cùng loại nặng $4$ kg có chiều dài là:",
         "options": [
           "$500$ m",
-          "$450$ m",
+          "$400$ m",
           "$600$ m",
-          "$400$ m"
+          "$450$ m"
         ],
         "correct": 0
       },
@@ -2141,9 +2141,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Ba đội máy xúc đào đất cùng loại đào được khối lượng đất tỉ lệ với số máy. Đội 1 có 4 máy, đội 2 có 6 máy, đội 3 có 5 máy. Tổng khối lượng đất đào được là 450 m$^3$. Đội 2 đào được bao nhiêu m$^3$ đất?",
         "options": [
           "$180$ m$^3$",
+          "$200$ m$^3$",
           "$120$ m$^3$",
-          "$150$ m$^3$",
-          "$200$ m$^3$"
+          "$150$ m$^3$"
         ],
         "correct": 0
       },
@@ -2152,72 +2152,72 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Một ô tô tiêu thụ $8$ lít xăng khi đi được $100$ km. Hỏi ô tô đó đi quãng đường $250$ km thì tiêu thụ hết bao nhiêu lít xăng?",
         "options": [
+          "$18$ lít",
           "$20$ lít",
-          "$16$ lít",
           "$24$ lít",
-          "$18$ lít"
+          "$16$ lít"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau. Biết hiệu $x_1 - x_2 = 2$ và $y_1 - y_2 = -6$. Công thức liên hệ giữa $y$ và $x$ là:",
         "options": [
+          "$y = x - 8$",
           "$y = -3x$",
-          "$y = 3x$",
           "$y = -\\frac{1}{3}x$",
-          "$y = x - 8$"
+          "$y = 3x$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Khối lượng gạo và giá tiền tỉ lệ thuận với nhau. Mua 15 kg gạo hết 225 000 đồng. Với 300 000 đồng thì mua được bao nhiêu kg gạo cùng loại?",
         "options": [
-          "$20$ kg",
           "$18$ kg",
-          "$25$ kg",
-          "$22$ kg"
+          "$20$ kg",
+          "$22$ kg",
+          "$25$ kg"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $x$ tỉ lệ thuận với $y$ theo hệ số tỉ lệ $a$ ($a \\neq 0$). Khẳng định nào sau đây là SAI?",
         "options": [
-          "$x^2$ tỉ lệ thuận với $y$ theo hệ số $a^2$",
-          "$x$ tỉ lệ thuận với $2y$ theo hệ số $a/2$",
           "$2x$ tỉ lệ thuận với $y$ theo hệ số $2a$",
-          "$y$ tỉ lệ thuận với $x$ theo hệ số $1/a$"
+          "$y$ tỉ lệ thuận với $x$ theo hệ số $1/a$",
+          "$x$ tỉ lệ thuận với $2y$ theo hệ số $a/2$",
+          "$x^2$ tỉ lệ thuận với $y$ theo hệ số $a^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Để in 500 trang tài liệu mất 10 phút. Muốn in 1500 trang tài liệu như thế cần bao nhiêu phút?",
         "options": [
-          "$30$ phút",
-          "$25$ phút",
           "$20$ phút",
+          "$25$ phút",
+          "$30$ phút",
           "$35$ phút"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho ba đại lượng $x, y, z$. Biết $y$ tỉ lệ thuận với $x$ theo hệ số $a$, $z$ tỉ lệ thuận với $x$ theo hệ số $b$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$y + z$ tỉ lệ thuận với $x$ theo hệ số $a + b$",
+          "$y/z$ tỉ lệ thuận với $x$",
           "$y \\cdot z$ tỉ lệ thuận với $x$ theo hệ số $a \\cdot b$",
-          "$y - z$ tỉ lệ nghịch với $x$",
-          "$y/z$ tỉ lệ thuận với $x$"
+          "$y + z$ tỉ lệ thuận với $x$ theo hệ số $a + b$",
+          "$y - z$ tỉ lệ nghịch với $x$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2225,9 +2225,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Số tiền lương của 3 công nhân tỉ lệ với số ngày làm việc: 20 ngày, 22 ngày, 25 ngày. Biết người thứ ba nhận nhiều hơn người thứ nhất 1 500 000 đồng. Tổng số tiền lương của cả 3 công nhân là:",
         "options": [
           "$20\\,100\\,000$ đồng",
+          "$19\\,800\\,000$ đồng",
           "$18\\,500\\,000$ đồng",
-          "$21\\,000\\,000$ đồng",
-          "$19\\,800\\,000$ đồng"
+          "$21\\,000\\,000$ đồng"
         ],
         "correct": 0
       }
@@ -2388,24 +2388,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $y$ tỉ lệ thuận với $x$ theo hệ số $k$. Nếu $x$ tăng thêm $20\\%$ thì $y$ sẽ:",
         "options": [
-          "Tăng thêm $20\\%$",
+          "Không thay đổi",
           "Tăng thêm $k \\times 20\\%$",
           "Giảm đi $20\\%$",
-          "Không thay đổi"
+          "Tăng thêm $20\\%$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Vận dụng",
         "question": "Cho biết $y$ tỉ lệ thuận với $x$ theo hệ số $k_1$, $x$ tỉ lệ thuận với $z$ theo hệ số $k_2$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$y$ tỉ lệ thuận với $z$ theo hệ số $k_1 \\cdot k_2$",
-          "$y$ tỉ lệ nghịch với $z$",
           "$y$ tỉ lệ thuận với $z$ theo hệ số $k_1 + k_2$",
+          "$y$ tỉ lệ nghịch với $z$",
+          "$y$ tỉ lệ thuận với $z$ theo hệ số $k_1 \\cdot k_2$",
           "$y$ tỉ lệ thuận với $z$ theo hệ số $k_1 / k_2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -2413,9 +2413,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau. Biết $2x_1 - 3x_2 = 12$ và $2y_1 - 3y_2 = -36$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
         "options": [
           "$-3$",
-          "$3$",
           "$-12$",
-          "$\\frac{1}{3}$"
+          "$\\frac{1}{3}$",
+          "$3$"
         ],
         "correct": 0
       },
@@ -2425,9 +2425,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Ba công nhân có năng suất dệt vải tỉ lệ thuận với $5 : 6 : 7$. Người thứ ba dệt nhiều hơn người thứ nhất 40 mét vải. Tổng số mét vải của cả ba người là:",
         "options": [
           "$360$ m",
-          "$320$ m",
+          "$450$ m",
           "$400$ m",
-          "$450$ m"
+          "$320$ m"
         ],
         "correct": 0
       },
@@ -2436,60 +2436,60 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Độ dài lò xo treo thẳng đứng $l$ (cm) phụ thuộc vào khối lượng quả cân $m$ (g) theo công thức $l = l_0 + km$ ($l_0$ là chiều dài tự nhiên). Đại lượng nào tỉ lệ thuận với khối lượng $m$?",
         "options": [
+          "Khối lượng riêng của lò xo",
           "Độ dãn của lò xo $\\Delta l = l - l_0$",
           "Chiều dài toàn phần $l$",
-          "Khối lượng riêng của lò xo",
           "Không có đại lượng nào"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Ba máy in cùng in một tài liệu. Số trang in được tỉ lệ thuận với thời gian chạy máy: máy 1 chạy 2 giờ, máy 2 chạy 3 giờ, máy 3 chạy 4 giờ. Nếu tốc độ máy 1 gấp đôi máy 2 và gấp 3 lần máy 3 thì số trang in của ba máy tỉ lệ với:",
         "options": [
-          "$4 : 3 : 2{,}67$ ($12 : 9 : 8$)",
           "$2 : 3 : 4$",
-          "$6 : 6 : 6$",
-          "$1 : 1 : 1$"
+          "$1 : 1 : 1$",
+          "$4 : 3 : 2{,}67$ ($12 : 9 : 8$)",
+          "$6 : 6 : 6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Một người bán hàng định giá bán sản phẩm tỉ lệ thuận với giá nhập kho (lãi 25% trên giá nhập). Nếu giá nhập kho tăng 10% thì giá bán mới tăng bao nhiêu phần trăm so với giá bán cũ?",
         "options": [
-          "$10\\%$",
           "$25\\%$",
+          "$10\\%$",
           "$35\\%$",
           "$12{,}5\\%$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Một xe chạy từ A đến B. Nếu tăng vận tốc thêm 25% thì thời gian đi sẽ giảm đi bao nhiêu phần trăm?",
         "options": [
-          "$20\\%$",
+          "$12{,}5\\%$",
           "$25\\%$",
-          "$15\\%$",
-          "$12{,}5\\%$"
+          "$20\\%$",
+          "$15\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho tam giác có số đo ba góc $\\widehat{A}, \\widehat{B}, \\widehat{C}$ tỉ lệ thuận với $2, 3, 4$. Góc ngoài tại đỉnh $A$ có số đo là:",
         "options": [
-          "$140^\\circ$",
           "$40^\\circ$",
+          "$100^\\circ$",
           "$120^\\circ$",
-          "$100^\\circ$"
+          "$140^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -2508,24 +2508,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Biết $y$ tỉ lệ thuận với $x$ theo hệ số $k$. Khi $x$ nhận các giá trị $x_1, x_2, x_3$ lập thành cấp số cộng thì các giá trị tương ứng $y_1, y_2, y_3$:",
         "options": [
+          "Không có quy luật",
           "Cũng lập thành một cấp số cộng",
           "Lập thành một cấp số nhân",
-          "Có tổng bằng 0",
-          "Không có quy luật"
+          "Có tổng bằng 0"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Chia số $M$ thành ba phần $x, y, z$ tỉ lệ thuận với $a, b, c$. Biểu thức nào sau đây diễn tả đúng giá trị của phần $x$?",
         "options": [
-          "$x = \\frac{a}{a+b+c} \\cdot M$",
-          "$x = \\frac{a+b+c}{a} \\cdot M$",
           "$x = \\frac{bc}{a+b+c} \\cdot M$",
-          "$x = \\frac{M}{a}$"
+          "$x = \\frac{M}{a}$",
+          "$x = \\frac{a+b+c}{a} \\cdot M$",
+          "$x = \\frac{a}{a+b+c} \\cdot M$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2684,48 +2684,48 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = \\frac{a}{x}$ hay $xy = a$ (với $a$ là hằng số khác 0) thì:",
         "options": [
-          "$y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a$",
-          "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $a$",
           "$x$ tỉ lệ thuận với $y$ theo hệ số $a$",
-          "$y$ không phụ thuộc vào $x$"
+          "$y$ không phụ thuộc vào $x$",
+          "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $a$",
+          "$y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Nếu $y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a = 12$ thì $x$ tỉ lệ nghịch với $y$ theo hệ số tỉ lệ là:",
         "options": [
-          "$12$",
-          "$\\frac{1}{12}$",
           "$-12$",
+          "$\\frac{1}{12}$",
+          "$12$",
           "Không tỉ lệ"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Công thức nào sau đây diễn tả $y$ tỉ lệ nghịch với $x$?",
         "options": [
-          "$y = \\frac{6}{x}$",
           "$y = 6x$",
-          "$y = 6 + x$",
-          "$y = \\frac{x}{6}$"
+          "$y = \\frac{x}{6}$",
+          "$y = \\frac{6}{x}$",
+          "$y = 6 + x$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Tính chất của hai đại lượng tỉ lệ nghịch: tích hai giá trị tương ứng của chúng:",
         "options": [
+          "Luôn bằng 1",
           "Luôn không đổi (bằng hệ số tỉ lệ $a$)",
           "Luôn bằng 0",
-          "Luôn bằng 1",
           "Tăng dần"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -2733,9 +2733,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $y$ tỉ lệ nghịch với $x$ theo hệ số $a = 24$. Khi $x = 6$ thì $y$ bằng:",
         "options": [
           "$4$",
+          "$30$",
           "$144$",
-          "$18$",
-          "$30$"
+          "$18$"
         ],
         "correct": 0
       },
@@ -2744,48 +2744,48 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết $y$ tỉ lệ nghịch với $x$ và khi $x = 4$ thì $y = 5$. Hệ số tỉ lệ $a$ là:",
         "options": [
-          "$20$",
           "$1$",
-          "$\\frac{5}{4}$",
-          "$\\frac{4}{5}$"
+          "$20$",
+          "$\\frac{4}{5}$",
+          "$\\frac{5}{4}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Trên cùng một quãng đường, vận tốc $v$ và thời gian chuyển động $t$ là hai đại lượng:",
         "options": [
-          "Tỉ lệ nghịch với nhau",
           "Tỉ lệ thuận với nhau",
           "Không tỉ lệ",
-          "Bằng nhau"
+          "Bằng nhau",
+          "Tỉ lệ nghịch với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Một đội gồm 10 người hoàn thành công việc trong 6 ngày. Nếu muốn hoàn thành trong 3 ngày thì cần bao nhiêu người (năng suất mỗi người như nhau)?",
         "options": [
-          "$20$ người",
           "$15$ người",
+          "$20$ người",
           "$12$ người",
           "$18$ người"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho bảng giá trị hai đại lượng tỉ lệ nghịch $x$ và $y$:\n| $x$ | 2 | 4 | 6 |\n| $y$ | 12 | 6 | ? |\nGiá trị còn thiếu là:",
         "options": [
-          "$4$",
+          "$1$",
           "$2$",
           "$3$",
-          "$1$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -2793,9 +2793,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Hình chữ nhật có diện tích $36$ cm$^2$. Chiều dài $y$ và chiều rộng $x$ liên hệ theo công thức:",
         "options": [
           "$y = \\frac{36}{x}$",
+          "$y = 18 - x$",
           "$y = 36x$",
-          "$y = 36 - x$",
-          "$y = 18 - x$"
+          "$y = 36 - x$"
         ],
         "correct": 0
       },
@@ -2816,12 +2816,12 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Một bể nước có 2 vòi chảy như nhau làm đầy bể trong 6 giờ. Nếu mở 3 vòi cùng loại thì đầy bể trong bao nhiêu giờ?",
         "options": [
-          "$4$ giờ",
           "$9$ giờ",
-          "$3$ giờ",
-          "$5$ giờ"
+          "$5$ giờ",
+          "$4$ giờ",
+          "$3$ giờ"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2981,9 +2981,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $x$ và $y$ là hai đại lượng tỉ lệ nghịch. Biết $x_1 = 2, x_2 = 5$ và $y_1 + y_2 = 28$. Giá trị của $y_1$ là:",
         "options": [
           "$20$",
+          "$10$",
           "$8$",
-          "$14$",
-          "$10$"
+          "$14$"
         ],
         "correct": 0
       },
@@ -2993,8 +2993,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $y$ tỉ lệ nghịch với $x$ theo hệ số $a_1 = 6$, $z$ tỉ lệ nghịch với $y$ theo hệ số $a_2 = 18$. Khi đó $z$ liên hệ với $x$ theo mối quan hệ nào?",
         "options": [
           "$z$ tỉ lệ thuận với $x$ theo hệ số $3$",
-          "$z$ tỉ lệ nghịch với $x$ theo hệ số $3$",
           "$z$ tỉ lệ thuận với $x$ theo hệ số $108$",
+          "$z$ tỉ lệ nghịch với $x$ theo hệ số $3$",
           "$z$ tỉ lệ nghịch với $x$ theo hệ số $108$"
         ],
         "correct": 0
@@ -3004,36 +3004,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một ô tô chạy từ A đến B với vận tốc 45 km/h mất 4 giờ. Muốn đi hết quãng đường đó trong 3 giờ thì vận tốc phải tăng thêm bao nhiêu km/h?",
         "options": [
-          "$15$ km/h",
-          "$60$ km/h",
+          "$10$ km/h",
           "$20$ km/h",
-          "$10$ km/h"
+          "$15$ km/h",
+          "$60$ km/h"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Bốn máy bơm cùng loại hút hết nước trong hồ mất 10 giờ. Muốn hút hết nước trong 8 giờ thì cần thêm bao nhiêu máy bơm như thế?",
         "options": [
+          "$3$ máy",
           "$1$ máy",
           "$5$ máy",
-          "$2$ máy",
-          "$3$ máy"
+          "$2$ máy"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho biết $y$ tỉ lệ nghịch với $x$. Khi $x$ tăng $50\\%$ thì $y$ sẽ giảm bao nhiêu phần trăm?",
         "options": [
-          "$33{,}33\\%$ (giảm $1/3$)",
-          "$50\\%$",
+          "$20\\%$",
           "$25\\%$",
-          "$20\\%$"
+          "$50\\%$",
+          "$33{,}33\\%$ (giảm $1/3$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -3041,9 +3041,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $x$ và $y$ tỉ lệ nghịch với nhau. Biết $x_1 = 3, y_1 = 4$ và $x_2 = -6$. Giá trị của $y_2$ là:",
         "options": [
           "$-2$",
-          "$2$",
           "$-8$",
-          "$8$"
+          "$8$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -3052,72 +3052,72 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Ba đội thợ may có cùng năng suất may ba lô. Số người của ba đội lần lượt là 4, 6, 8 người. Thời gian hoàn thành công việc của ba đội tỉ lệ nghịch với:",
         "options": [
-          "$4 : 6 : 8$",
-          "$6 : 4 : 3$",
           "$8 : 6 : 4$",
-          "$2 : 3 : 4$"
+          "$2 : 3 : 4$",
+          "$6 : 4 : 3$",
+          "$4 : 6 : 8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Hai bánh xe răng cưa khớp vào nhau. Bánh xe thứ nhất có 60 răng quay 20 vòng mỗi phút. Bánh xe thứ hai có 40 răng sẽ quay bao nhiêu vòng mỗi phút?",
         "options": [
-          "$30$ vòng/phút",
+          "$15$ vòng/phút",
           "$25$ vòng/phút",
-          "$40$ vòng/phút",
-          "$15$ vòng/phút"
+          "$30$ vòng/phút",
+          "$40$ vòng/phút"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Một số tiền dự định mua được 20 quyển vở với giá 6 000 đồng/quyển. Nếu giá vở giảm xuống còn 5 000 đồng/quyển thì số tiền đó mua được bao nhiêu quyển vở?",
         "options": [
-          "$24$ quyển",
-          "$25$ quyển",
           "$22$ quyển",
-          "$26$ quyển"
+          "$26$ quyển",
+          "$24$ quyển",
+          "$25$ quyển"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho $x$ và $y$ tỉ lệ nghịch. Biết $x_1 - x_2 = 2$ và $y_1 - y_2 = -3$, đồng thời $x_1 y_1 = 24$. Giá trị của $x_1$ và $y_1$ là:",
         "options": [
-          "$x_1 = 4, y_1 = 6$",
           "$x_1 = 6, y_1 = 4$",
+          "$x_1 = 8, y_1 = 3$",
           "$x_1 = 3, y_1 = 8$",
-          "$x_1 = 8, y_1 = 3$"
+          "$x_1 = 4, y_1 = 6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Một người đi từ A đến B: nửa quãng đường đầu đi với vận tốc 20 km/h, nửa quãng đường sau đi với vận tốc 30 km/h. Vận tốc trung bình trên cả quãng đường là:",
         "options": [
+          "$22$ km/h",
           "$24$ km/h",
           "$25$ km/h",
-          "$26$ km/h",
-          "$22$ km/h"
+          "$26$ km/h"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Chia số 110 thành ba phần $x, y, z$ tỉ lệ nghịch với $2; 3; 6$. Giá trị của phần $x$ là:",
         "options": [
+          "$60$",
           "$55$",
-          "$33$",
           "$22$",
-          "$60$"
+          "$33$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3276,48 +3276,48 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $y$ tỉ lệ nghịch với $x$ theo hệ số $a$. Nếu $x$ giảm $20\\%$ thì $y$ sẽ tăng thêm bao nhiêu phần trăm?",
         "options": [
-          "$25\\%$",
           "$20\\%$",
-          "$15\\%$",
-          "$30\\%$"
+          "$30\\%$",
+          "$25\\%$",
+          "$15\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Vận dụng",
         "question": "Cho ba đại lượng $x, y, z$. Biết $y$ tỉ lệ nghịch với $x$ theo hệ số $a$, $z$ tỉ lệ nghịch với $y$ theo hệ số $b$. Khẳng định nào sau đây là đúng?",
         "options": [
+          "$z$ không phụ thuộc vào $x$",
           "$z$ tỉ lệ thuận với $x$ theo hệ số $\\frac{b}{a}$",
-          "$z$ tỉ lệ nghịch với $x$ theo hệ số $ab$",
           "$z$ tỉ lệ thuận với $x$ theo hệ số $ab$",
-          "$z$ không phụ thuộc vào $x$"
+          "$z$ tỉ lệ nghịch với $x$ theo hệ số $ab$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Một ô tô đi từ A đến B với vận tốc $v$. Nếu tăng vận tốc thêm $20\\%$ thì thời gian đi sẽ giảm bao nhiêu phần trăm?",
         "options": [
-          "$16{,}67\\%$ (tức $\\frac{1}{6}$)",
+          "$10\\%$",
           "$20\\%$",
           "$25\\%$",
-          "$10\\%$"
+          "$16{,}67\\%$ (tức $\\frac{1}{6}$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Một bể có ba vòi nước. Vòi 1 chảy một mình 3 giờ đầy bể, vòi 2 chảy một mình 4 giờ đầy bể, vòi 3 chảy một mình 6 giờ đầy bể. Nếu cả ba vòi cùng chảy thì sau bao lâu đầy bể?",
         "options": [
-          "$\\frac{4}{3}$ giờ (1 giờ 20 phút)",
           "$2$ giờ",
-          "$1{,}5$ giờ",
-          "$1$ giờ"
+          "$\\frac{4}{3}$ giờ (1 giờ 20 phút)",
+          "$1$ giờ",
+          "$1{,}5$ giờ"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -3325,9 +3325,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Ba công nhân tiện cùng một số chi tiết máy với thời gian hoàn thành lần lượt là 9 giờ, 10 giờ, 12 giờ. Người thứ nhất trong 1 giờ tiện nhiều hơn người thứ ba 3 chi tiết máy. Người thứ hai trong 1 giờ tiện được bao nhiêu chi tiết máy?",
         "options": [
           "$18$ chi tiết máy",
-          "$20$ chi tiết máy",
+          "$24$ chi tiết máy",
           "$15$ chi tiết máy",
-          "$24$ chi tiết máy"
+          "$20$ chi tiết máy"
         ],
         "correct": 0
       },
@@ -3336,24 +3336,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Một công trường dự định giao cho 30 công nhân làm việc trong 40 ngày. Sau khi làm được 10 ngày, công trường cần đẩy nhanh tiến độ nên đã tăng cường thêm một số công nhân để hoàn thành phần việc còn lại trong 20 ngày. Số công nhân được tăng cường thêm là:",
         "options": [
-          "$15$ người",
-          "$10$ người",
           "$20$ người",
-          "$25$ người"
+          "$10$ người",
+          "$25$ người",
+          "$15$ người"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Một vật chuyển động trên 3 cạnh của một tam giác đều với các vận tốc lần lượt là $v_1 = 10$ m/s, $v_2 = 15$ m/s, $v_3 = 20$ m/s. Vận tốc trung bình của vật trên cả chu vi tam giác là:",
         "options": [
-          "$\\frac{180}{13} \\approx 13{,}85$ m/s",
           "$15$ m/s",
+          "$14{,}5$ m/s",
           "$14$ m/s",
-          "$14{,}5$ m/s"
+          "$\\frac{180}{13} \\approx 13{,}85$ m/s"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -3361,9 +3361,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho hai đại lượng $x$ và $y$ tỉ lệ nghịch. Biết $x_1^2 + x_2^2 = 52$ và $y_1^2 + y_2^2 = 117$. Hệ số tỉ lệ $a$ ($a > 0$) của $y$ đối với $x$ là:",
         "options": [
           "$36$",
-          "$24$",
           "$48$",
-          "$18$"
+          "$18$",
+          "$24$"
         ],
         "correct": 0
       },
@@ -3372,12 +3372,12 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Chia số 237 thành ba phần $x, y, z$ tỉ lệ nghịch với các số $\\frac{2}{3}; \\frac{1}{2}; \\frac{3}{4}$. Giá trị của phần lớn nhất là:",
         "options": [
-          "$90$",
-          "$96$",
+          "$100$",
           "$84$",
-          "$100$"
+          "$90$",
+          "$96$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -3385,9 +3385,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Ba thửa ruộng có diện tích bằng nhau. Năng suất thu hoạch của ba thửa ruộng tỉ lệ với $5 : 6 : 8$. Thời gian thu hoạch của ba thửa ruộng tỉ lệ với:",
         "options": [
           "$\\frac{1}{5} : \\frac{1}{6} : \\frac{1}{8} = 24 : 20 : 15$",
+          "$15 : 20 : 24$",
           "$5 : 6 : 8$",
-          "$8 : 6 : 5$",
-          "$15 : 20 : 24$"
+          "$8 : 6 : 5$"
         ],
         "correct": 0
       },
@@ -3396,24 +3396,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Một bánh xe răng cưa A có 24 răng khớp với bánh xe B có 36 răng, bánh xe B lại khớp với bánh xe C có 18 răng. Khi bánh xe A quay 30 vòng thì bánh xe C quay được:",
         "options": [
-          "$40$ vòng",
           "$45$ vòng",
-          "$20$ vòng",
-          "$60$ vòng"
+          "$40$ vòng",
+          "$60$ vòng",
+          "$20$ vòng"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $y$ tỉ lệ nghịch với $x$. Khi $x$ nhận các giá trị tạo thành một cấp số nhân thì các giá trị tương ứng của $y$ sẽ:",
         "options": [
-          "Cũng tạo thành một cấp số nhân có công bội nghịch đảo",
           "Tạo thành một cấp số cộng",
           "Không đổi",
+          "Cũng tạo thành một cấp số nhân có công bội nghịch đảo",
           "Có tích bằng 1"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3573,9 +3573,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Đẳng thức nào sau đây là một tỉ lệ thức?",
         "options": [
           "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{b} + \\frac{c}{d} = 1$",
+          "$\\frac{a}{b} - \\frac{c}{d} = 0$",
           "$\\frac{a}{b} \\cdot \\frac{c}{d} = 1$",
-          "$\\frac{a}{b} - \\frac{c}{d} = 0$"
+          "$\\frac{a}{b} + \\frac{c}{d} = 1$"
         ],
         "correct": 0
       },
@@ -3584,72 +3584,72 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Từ đẳng thức $ad = bc$ ($b, d \\neq 0$) suy ra tỉ lệ thức nào?",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{d} = \\frac{c}{b}$",
+          "$\\frac{b}{a} = \\frac{c}{d}$",
           "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$\\frac{b}{a} = \\frac{c}{d}$"
+          "$\\frac{a}{d} = \\frac{c}{b}$",
+          "$\\frac{a}{b} = \\frac{c}{d}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Đại lượng $y$ tỉ lệ thuận với $x$ theo công thức nào?",
         "options": [
-          "$y = kx$ ($k \\neq 0$)",
-          "$y = \\frac{a}{x}$",
           "$xy = a$",
-          "$y = kx + b$"
+          "$y = kx + b$",
+          "$y = kx$ ($k \\neq 0$)",
+          "$y = \\frac{a}{x}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Đại lượng $y$ tỉ lệ nghịch với $x$ theo công thức nào?",
         "options": [
-          "$y = \\frac{a}{x}$ ($a \\neq 0$)",
-          "$y = ax$",
           "$y = a + x$",
-          "$y = \\frac{x}{a}$"
+          "$y = \\frac{a}{x}$ ($a \\neq 0$)",
+          "$y = \\frac{x}{a}$",
+          "$y = ax$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{8} = \\frac{3}{4}$:",
         "options": [
-          "$x = 6$",
           "$x = 4$",
           "$x = 8$",
-          "$x = 12$"
+          "$x = 12$",
+          "$x = 6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{2} = \\frac{y}{5}$ và $x + y = 28$:",
         "options": [
-          "$x = 8, y = 20$",
-          "$x = 10, y = 18$",
+          "$x = 14, y = 14$",
           "$x = 6, y = 22$",
-          "$x = 14, y = 14$"
+          "$x = 8, y = 20$",
+          "$x = 10, y = 18$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $y$ tỉ lệ thuận với $x$ theo hệ số $k = 3$. Khi $x = 5$ thì $y$ bằng:",
         "options": [
-          "$15$",
           "$8$",
-          "$\\frac{5}{3}$",
-          "$\\frac{3}{5}$"
+          "$15$",
+          "$\\frac{3}{5}$",
+          "$\\frac{5}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -3657,9 +3657,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $y$ tỉ lệ nghịch với $x$ theo hệ số $a = 18$. Khi $x = 2$ thì $y$ bằng:",
         "options": [
           "$9$",
-          "$36$",
+          "$20$",
           "$16$",
-          "$20$"
+          "$36$"
         ],
         "correct": 0
       },
@@ -3668,12 +3668,12 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một ô tô đi quãng đường 120 km hết 2 giờ. Vận tốc của ô tô là:",
         "options": [
-          "$60$ km/h",
-          "$50$ km/h",
           "$70$ km/h",
-          "$80$ km/h"
+          "$80$ km/h",
+          "$60$ km/h",
+          "$50$ km/h"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -3681,9 +3681,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Mua 6 mét vải hết 180 000 đồng. Mua 10 mét vải như thế hết bao nhiêu tiền?",
         "options": [
           "$300\\,000$ đồng",
-          "$240\\,000$ đồng",
           "$360\\,000$ đồng",
-          "$270\\,000$ đồng"
+          "$270\\,000$ đồng",
+          "$240\\,000$ đồng"
         ],
         "correct": 0
       },
@@ -3692,24 +3692,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Ba lớp 7A, 7B, 7C có số học sinh tỉ lệ với $7 : 8 : 9$. Tổng số học sinh cả ba lớp là 120 em. Lớp 7B có bao nhiêu học sinh?",
         "options": [
-          "$40$ em",
-          "$35$ em",
           "$45$ em",
-          "$38$ em"
+          "$38$ em",
+          "$35$ em",
+          "$40$ em"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Cho tam giác có ba góc tỉ lệ với $1 : 2 : 3$. Số đo ba góc đó là:",
         "options": [
+          "$30^\\circ, 50^\\circ, 100^\\circ$",
           "$30^\\circ, 60^\\circ, 90^\\circ$",
           "$20^\\circ, 40^\\circ, 60^\\circ$",
-          "$45^\\circ, 45^\\circ, 90^\\circ$",
-          "$30^\\circ, 50^\\circ, 100^\\circ$"
+          "$45^\\circ, 45^\\circ, 90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3870,8 +3870,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "options": [
           "$-4$",
           "$4$",
-          "$-\\frac{1}{4}$",
-          "$\\frac{1}{4}$"
+          "$\\frac{1}{4}$",
+          "$-\\frac{1}{4}$"
         ],
         "correct": 0
       },
@@ -3880,72 +3880,72 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}$ và $2x + y - z = 9$. Giá trị của $y$ là:",
         "options": [
-          "$9$",
           "$6$",
-          "$12$",
-          "$3$"
+          "$9$",
+          "$3$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Nếu đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số $k = 4$ thì đại lượng $x$ tỉ lệ thuận với $y$ theo hệ số là:",
         "options": [
-          "$0{,}25$",
-          "$4$",
           "$-4$",
-          "$-0{,}25$"
+          "$-0{,}25$",
+          "$0{,}25$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Nếu đại lượng $y$ tỉ lệ nghịch với $x$ theo hệ số $a = 15$ thì đại lượng $x$ tỉ lệ nghịch với $y$ theo hệ số là:",
         "options": [
-          "$15$",
+          "$0$",
           "$\\frac{1}{15}$",
           "$-15$",
-          "$0$"
+          "$15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Ba cạnh của tam giác tỉ lệ với $4 : 5 : 6$ và chu vi bằng $60$ cm. Độ dài cạnh ngắn nhất là:",
         "options": [
-          "$16$ cm",
-          "$20$ cm",
           "$24$ cm",
+          "$20$ cm",
+          "$16$ cm",
           "$12$ cm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Một ô tô đi quãng đường AB mất 3 giờ với vận tốc 50 km/h. Nếu đi với vận tốc 60 km/h thì hết bao lâu?",
         "options": [
-          "$2{,}5$ giờ",
-          "$2$ giờ",
           "$3{,}5$ giờ",
-          "$2{,}8$ giờ"
+          "$2$ giờ",
+          "$2{,}8$ giờ",
+          "$2{,}5$ giờ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau. Biết $x_1 - x_2 = 3$ và $y_1 - y_2 = -9$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
         "options": [
-          "$-3$",
           "$3$",
           "$-1/3$",
-          "$1/3$"
+          "$1/3$",
+          "$-3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -3953,8 +3953,8 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho hai đại lượng $x$ và $y$ tỉ lệ nghịch. Biết $x_1 = 4, y_1 = 10$ và $x_2 = 5$. Giá trị của $y_2$ là:",
         "options": [
           "$8$",
-          "$12{,}5$",
           "$2$",
+          "$12{,}5$",
           "$6$"
         ],
         "correct": 0
@@ -3965,9 +3965,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Chia số 180 thành ba phần tỉ lệ thuận với $2; 3; 4$. Số lớn nhất trong ba số là:",
         "options": [
           "$80$",
-          "$60$",
+          "$100$",
           "$40$",
-          "$100$"
+          "$60$"
         ],
         "correct": 0
       },
@@ -3976,36 +3976,36 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Chia số 180 thành ba phần tỉ lệ nghịch với $2; 3; 6$. Số lớn nhất trong ba số là:",
         "options": [
-          "$90$",
           "$60$",
-          "$30$",
-          "$100$"
+          "$100$",
+          "$90$",
+          "$30$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm hai số $x, y$ biết $\\frac{x}{3} = \\frac{y}{4}$ và $x^2 + y^2 = 100$ ($x, y > 0$):",
         "options": [
-          "$x = 6, y = 8$",
-          "$x = 3, y = 4$",
           "$x = 9, y = 12$",
-          "$x = 12, y = 16$"
+          "$x = 6, y = 8$",
+          "$x = 12, y = 16$",
+          "$x = 3, y = 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Đẳng thức nào sau đây là SAI?",
         "options": [
+          "$\\frac{a+c}{b+d} = \\frac{a-c}{b-d}$",
           "$\\frac{a+b}{b} = \\frac{c-d}{d}$",
           "$\\frac{a+b}{b} = \\frac{c+d}{d}$",
-          "$\\frac{a-b}{b} = \\frac{c-d}{d}$",
-          "$\\frac{a+c}{b+d} = \\frac{a-c}{b-d}$"
+          "$\\frac{a-b}{b} = \\frac{c-d}{d}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4164,45 +4164,45 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{a}$ và $a + b + c \\neq 0$. Khi đó khẳng định nào sau đây là đúng?",
         "options": [
+          "$a^2 + b^2 = c^2$",
           "$a = b = c$",
           "$a + b = c$",
-          "$a^2 + b^2 = c^2$",
           "$abc = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tỉ lệ thức $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$. Biểu thức $\\frac{2x^2 + 3y^2 - z^2}{x^2 + y^2 + z^2}$ có giá trị bằng:",
         "options": [
-          "$\\frac{41}{50}$",
-          "$\\frac{43}{50}$",
           "$\\frac{39}{50}$",
-          "$1$"
+          "$1$",
+          "$\\frac{41}{50}$",
+          "$\\frac{43}{50}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Tìm các số $x, y, z$ biết $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}$ và $xyz = 192$:",
         "options": [
-          "$x = 4, y = 6, z = 8$",
+          "$x = 6, y = 9, z = 12$",
           "$x = 2, y = 3, z = 4$",
           "$x = 8, y = 12, z = 16$",
-          "$x = 6, y = 9, z = 12$"
+          "$x = 4, y = 6, z = 8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Tỉ số $\\frac{(a+b)^2}{(c+d)^2}$ bằng tỉ số nào sau đây?",
         "options": [
+          "$\\frac{ab}{cd}$",
           "$\\frac{a^2 + b^2}{c^2 + d^2}$",
           "$\\frac{a^2 - b^2}{c^2 - d^2}$",
-          "$\\frac{ab}{cd}$",
           "Cả 3 phương án trên"
         ],
         "correct": 3
@@ -4212,24 +4212,24 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Một ô tô đi nửa đoạn đường đầu với vận tốc $40$ km/h, nửa đoạn đường sau với vận tốc $60$ km/h. Vận tốc trung bình trên cả quãng đường là:",
         "options": [
-          "$48$ km/h",
           "$50$ km/h",
-          "$52$ km/h",
-          "$45$ km/h"
+          "$48$ km/h",
+          "$45$ km/h",
+          "$52$ km/h"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $\\frac{x}{a+2b+c} = \\frac{y}{2a+b-c} = \\frac{z}{4a-4b+c}$. Tỉ số $\\frac{a}{x+2y+z}$ bằng:",
         "options": [
-          "$\\frac{b}{2x+y-z}$",
-          "$\\frac{c}{4x-4y+z}$",
           "Cả hai đều đúng",
-          "Không so sánh được"
+          "Không so sánh được",
+          "$\\frac{b}{2x+y-z}$",
+          "$\\frac{c}{4x-4y+z}$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 7,
@@ -4237,9 +4237,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho ba số thực $a, b, c$ thỏa mãn $\\frac{a+b}{c} = \\frac{b+c}{a} = \\frac{c+a}{b}$. Khi $a+b+c \\neq 0$, giá trị của $\\frac{(a+b)(b+c)(c+a)}{abc}$ là:",
         "options": [
           "$8$",
-          "$1$",
+          "$-1$",
           "$6$",
-          "$-1$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -4248,48 +4248,48 @@ const CHAPTER6_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ thỏa mãn $\\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)} = \\frac{99}{100}$:",
         "options": [
-          "$n = 99$",
+          "$n = 101$",
           "$n = 100$",
           "$n = 98$",
-          "$n = 101$"
+          "$n = 99$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Ba đội công nhân có năng suất tỉ lệ với $3; 4; 5$. Đội 1 làm 4 ngày, đội 2 làm 5 ngày, đội 3 làm 6 ngày được tổng cộng 310 sản phẩm. Đội 2 làm được bao nhiêu sản phẩm?",
         "options": [
+          "$120$ sản phẩm",
           "$100$ sản phẩm",
-          "$60$ sản phẩm",
           "$150$ sản phẩm",
-          "$120$ sản phẩm"
+          "$60$ sản phẩm"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{d}$. Chứng minh $\\left(\\frac{a+b+c}{b+c+d}\\right)^3 = \\frac{a}{d}$. Đẳng thức này:",
         "options": [
-          "Luôn đúng với mọi $b, c, d \\neq 0$ và $b+c+d \\neq 0$",
-          "Sai",
           "Chỉ đúng khi $a = d$",
+          "Sai",
+          "Luôn đúng với mọi $b, c, d \\neq 0$ và $b+c+d \\neq 0$",
           "Chỉ đúng với số tự nhiên"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Một ô tô đi ngược chiều gió với vận tốc $40$ km/h hết 3 giờ. Khi xuôi chiều gió ô tô đi với vận tốc $60$ km/h thì hết bao nhiêu giờ (vận tốc gió không đổi)?",
         "options": [
-          "$2$ giờ",
+          "$1{,}5$ giờ",
           "$2{,}5$ giờ",
-          "$1{,}8$ giờ",
-          "$1{,}5$ giờ"
+          "$2$ giờ",
+          "$1{,}8$ giờ"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -4297,9 +4297,9 @@ const CHAPTER6_TOAN7_EXAMS = {
         "question": "Cho $a, b, c > 0$ và $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{a}$. Giá trị của biểu thức $M = \\frac{a^{2024} + b^{2024} + c^{2024}}{a^{1012} b^{1012} + b^{1012} c^{1012} + c^{1012} a^{1012}}$ là:",
         "options": [
           "$1$",
-          "$3$",
+          "$2024$",
           "$0$",
-          "$2024$"
+          "$3$"
         ],
         "correct": 0
       }

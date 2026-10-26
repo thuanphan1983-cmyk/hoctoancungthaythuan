@@ -13,12 +13,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tỉ số của hai đoạn thẳng $AB = 4\text{ cm}$ và $CD = 10\text{ cm}$ bằng:",
         "options": [
-          "$\frac{2}{5}$",
-          "$\frac{5}{2}$",
           "$\frac{2}{3}$",
-          "$\frac{1}{2}$"
+          "$\frac{5}{2}$",
+          "$\frac{1}{2}$",
+          "$\frac{2}{5}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -37,48 +37,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$, đường thẳng $d \\parallel BC$ cắt hai cạnh $AB, AC$ lần lượt tại $M, N$. Tỉ số nào sau đây là ĐÚNG theo định lí Thalès?",
         "options": [
-          "$\frac{AM}{MB} = \frac{AN}{NC}$",
-          "$\frac{AM}{AB} = \frac{NC}{AN}$",
+          "$\frac{MB}{AB} = \frac{AN}{AC}$",
           "$\frac{AM}{AN} = \frac{AB}{NC}$",
-          "$\frac{MB}{AB} = \frac{AN}{AC}$"
+          "$\frac{AM}{AB} = \frac{NC}{AN}$",
+          "$\frac{AM}{MB} = \frac{AN}{NC}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho hình vẽ với $MN \\parallel BC$. Biết $AM = 3\text{ cm}, MB = 6\text{ cm}, AN = 4\text{ cm}$. Độ dài đoạn thẳng $NC$ là:",
         "options": [
-          "$8\text{ cm}$",
-          "$6\text{ cm}$",
+          "$9\text{ cm}$",
           "$7\text{ cm}$",
-          "$9\text{ cm}$"
+          "$8\text{ cm}$",
+          "$6\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Theo hệ quả của định lí Thalès, nếu đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì:",
         "options": [
-          "Tạo thành một tam giác mới có ba cạnh tương ứng tỉ lệ với ba cạnh của tam giác đã cho",
           "Tạo thành một tam giác mới bằng tam giác đã cho",
+          "Tạo thành một tam giác mới có ba cạnh tương ứng tỉ lệ với ba cạnh của tam giác đã cho",
           "Tạo thành một tam giác mới có diện tích bằng tam giác đã cho",
           "Tạo thành một tam giác vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$ có $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Khẳng định nào sau đây là hệ quả của định lí Thalès?",
         "options": [
-          "$\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}$",
-          "$\frac{AM}{MB} = \frac{AN}{NC} = \frac{MN}{BC}$",
           "$\frac{AM}{AB} = \frac{NC}{AC} = \frac{MN}{BC}$",
+          "$\frac{AM}{MB} = \frac{AN}{NC} = \frac{MN}{BC}$",
+          "$\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}$",
           "$\frac{MB}{AB} = \frac{AN}{AC} = \frac{MN}{BC}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -86,9 +86,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $AM = 2\text{ cm}, AB = 6\text{ cm}, BC = 9\text{ cm}$. Độ dài đoạn thẳng $MN$ bằng:",
         "options": [
           "$3\text{ cm}$",
+          "$4.5\text{ cm}$",
           "$4\text{ cm}$",
-          "$2.5\text{ cm}$",
-          "$4.5\text{ cm}$"
+          "$2.5\text{ cm}$"
         ],
         "correct": 0
       },
@@ -97,36 +97,36 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$. Điểm $M$ thuộc cạnh $AB$, điểm $N$ thuộc cạnh $AC$ sao cho $AM = 2, MB = 4, AN = 3, NC = 6$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$MN \\parallel BC$",
           "$MN$ cắt $BC$",
+          "$MN \\parallel BC$",
           "$MN \\perp BC$",
           "$MN = BC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Đo chiều cao của một cột cờ bằng bóng nắng: Một cọc tiêu cao $2\text{ m}$ cắm vuông góc với mặt đất có bóng dài $1.6\text{ m}$. Cùng thời điểm đó, bóng của cột cờ dài $8\text{ m}$. Chiều cao của cột cờ là:",
         "options": [
-          "$10\text{ m}$",
+          "$8.5\text{ m}$",
           "$12\text{ m}$",
-          "$9.6\text{ m}$",
-          "$8.5\text{ m}$"
+          "$10\text{ m}$",
+          "$9.6\text{ m}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $DE \\parallel BC$ ($D \\in AB, E \\in AC$). Biết $AD = 3\text{ cm}, DB = 5\text{ cm}$ và $AC = 16\text{ cm}$. Độ dài $AE$ là:",
         "options": [
-          "$6\text{ cm}$",
-          "$10\text{ cm}$",
           "$8\text{ cm}$",
-          "$9.6\text{ cm}$"
+          "$9.6\text{ cm}$",
+          "$10\text{ cm}$",
+          "$6\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -134,8 +134,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Một đường thẳng song song với hai đáy cắt hai cạnh bên $AD$ và $BC$ lần lượt tại $M$ và $N$. Hệ thức nào sau đây đúng?",
         "options": [
           "$\frac{AM}{MD} = \frac{BN}{NC}$",
-          "$\frac{AM}{AD} = \frac{NC}{BC}$",
           "$\frac{AM}{MB} = \frac{DN}{NC}$",
+          "$\frac{AM}{AD} = \frac{NC}{BC}$",
           "$\frac{MD}{AD} = \frac{BN}{BC}$"
         ],
         "correct": 0
@@ -145,12 +145,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $\frac{AM}{MB} = \frac{1}{2}$. Tỉ số $\frac{MN}{BC}$ bằng:",
         "options": [
+          "$\frac{1}{4}$",
           "$\frac{1}{3}$",
-          "$\frac{1}{2}$",
           "$\frac{2}{3}$",
-          "$\frac{1}{4}$"
+          "$\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -270,12 +270,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho đoạn thẳng $AB = 8\text{ cm}$. Điểm $C$ nằm trên đoạn thẳng $AB$ sao cho $\frac{CA}{CB} = \frac{3}{5}$. Độ dài đoạn thẳng $CA$ là:",
         "options": [
-          "$3\text{ cm}$",
-          "$5\text{ cm}$",
+          "$4.8\text{ cm}$",
           "$4\text{ cm}$",
-          "$4.8\text{ cm}$"
+          "$3\text{ cm}$",
+          "$5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -283,9 +283,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $AM = 2MB$. Tỉ số $\frac{AN}{AC}$ bằng:",
         "options": [
           "$\frac{2}{3}$",
-          "$\frac{1}{2}$",
+          "$\frac{1}{3}$",
           "$\frac{2}{1}$",
-          "$\frac{1}{3}$"
+          "$\frac{1}{2}$"
         ],
         "correct": 0
       },
@@ -294,48 +294,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Giao điểm hai đường chéo là $O$. Tỉ số nào sau đây luôn đúng?",
         "options": [
-          "$\frac{OA}{OC} = \frac{OB}{OD}$",
-          "$\frac{OA}{OB} = \frac{OC}{OD}$",
+          "$\frac{OA}{OC} = \frac{OD}{OB}$",
           "$\frac{OA}{OD} = \frac{OB}{OC}$",
-          "$\frac{OA}{OC} = \frac{OD}{OB}$"
+          "$\frac{OA}{OC} = \frac{OB}{OD}$",
+          "$\frac{OA}{OB} = \frac{OC}{OD}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $AB = 12\text{ cm}, AC = 18\text{ cm}$. Trên $AB$ lấy $D$ sao cho $BD = 4\text{ cm}$, trên $AC$ lấy $E$ sao cho $CE = 6\text{ cm}$. Kết luận nào sau đây đúng?",
         "options": [
+          "$DE \\perp BC$",
           "$DE \\parallel BC$",
           "$DE$ không song song $BC$",
-          "$DE \\perp BC$",
           "$DE = \frac{1}{2}BC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$) có $AB = 4\text{ cm}, CD = 10\text{ cm}$. Đường thẳng song song với hai đáy cắt hai cạnh bên $AD, BC$ tại $M, N$ sao cho $AM = 2MD$. Độ dài đoạn thẳng $MN$ bằng:",
         "options": [
+          "$7.5\text{ cm}$",
           "$8\text{ cm}$",
-          "$7\text{ cm}$",
           "$6\text{ cm}$",
-          "$7.5\text{ cm}$"
+          "$7\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$. Đường thẳng song song với $BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = x, DB = 2, AE = 3, EC = x - 1$. Giá trị của $x$ là:",
         "options": [
-          "$3$",
           "$2$",
+          "$1$",
           "$4$",
-          "$1$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -343,9 +343,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$. Điểm $F$ thuộc cạnh $BC$. Tia $AF$ cắt đường thẳng $CD$ tại $E$. Tỉ số $\frac{AF}{AE}$ bằng tỉ số nào dưới đây?",
         "options": [
           "$\frac{BF}{BC}$",
-          "$\frac{CF}{BC}$",
           "$\frac{AB}{CD}$",
-          "$\frac{DF}{BC}$"
+          "$\frac{DF}{BC}$",
+          "$\frac{CF}{BC}$"
         ],
         "correct": 0
       },
@@ -354,48 +354,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có $BC = 12\text{ cm}$. Trên cạnh $AB$ lấy hai điểm $M, P$ sao cho $AM = MP = PB$. Kẻ $MN \\parallel BC$ và $PQ \\parallel BC$ ($N, Q \\in AC$). Độ dài đoạn thẳng $MN$ và $PQ$ lần lượt là:",
         "options": [
-          "$4\text{ cm}$ và $8\text{ cm}$",
           "$3\text{ cm}$ và $6\text{ cm}$",
           "$4\text{ cm}$ và $6\text{ cm}$",
-          "$5\text{ cm}$ và $10\text{ cm}$"
+          "$5\text{ cm}$ và $10\text{ cm}$",
+          "$4\text{ cm}$ và $8\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ vuông tại $A$ có $AB = 6, AC = 8$. Lấy điểm $M$ trên $AB$ sao cho $AM = 3$. Kẻ $MN \\parallel BC$ ($N \\in AC$). Độ dài đoạn thẳng $MN$ bằng:",
         "options": [
-          "$5$",
           "$4$",
           "$4.5$",
-          "$6$"
+          "$6$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có trung tuyến $AM$. Đường thẳng song song với $BC$ cắt $AB, AM, AC$ lần lượt tại $D, I, E$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$I$ là trung điểm của $DE$",
-          "$ID = 2IE$",
           "$IE = 2ID$",
-          "$DE = 2AM$"
+          "$I$ là trung điểm của $DE$",
+          "$DE = 2AM$",
+          "$ID = 2IE$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$. Điểm $D$ trên cạnh $BC$. Đường thẳng qua $D$ song song với $AB$ cắt $AC$ tại $E$, đường thẳng qua $D$ song song với $AC$ cắt $AB$ tại $F$. Giá trị của tổng $\frac{AE}{AC} + \frac{AF}{AB}$ bằng:",
         "options": [
-          "$1$",
-          "$2$",
           "$\frac{1}{2}$",
+          "$2$",
+          "$1$",
           "$\frac{3}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -403,9 +403,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$. Một đường thẳng cắt $AB$ tại $D$ và $AC$ tại $E$. Để $DE \\parallel BC$ thì điều kiện cần và đủ là:",
         "options": [
           "$\frac{AD}{BD} = \frac{AE}{CE}$",
-          "$\frac{AD}{AE} = \frac{BD}{BC}$",
           "$\frac{AD}{AB} = \frac{EC}{AC}$",
-          "$AD = AE$"
+          "$AD = AE$",
+          "$\frac{AD}{AE} = \frac{BD}{BC}$"
         ],
         "correct": 0
       }
@@ -527,10 +527,10 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$. Một đường thẳng $d$ cắt $AB$ tại $D$, $AC$ tại $E$ và cắt tia đối của $BC$ tại $F$. Đẳng thức nào sau đây biểu diễn định lí Menelaus?",
         "options": [
-          "$\frac{DA}{DB} \\cdot \frac{FC}{FB} \\cdot \frac{EB}{EC} = 1$",
+          "$\frac{AD}{DB} \\cdot \frac{BE}{EC} \\cdot \frac{CF}{FA} = 1$",
           "$\frac{AD}{DB} \\cdot \frac{BF}{FC} \\cdot \frac{CE}{EA} = 1$",
           "$\frac{AD}{AB} \\cdot \frac{BE}{EC} \\cdot \frac{CF}{FA} = 1$",
-          "$\frac{AD}{DB} \\cdot \frac{BE}{EC} \\cdot \frac{CF}{FA} = 1$"
+          "$\frac{DA}{DB} \\cdot \frac{FC}{FB} \\cdot \frac{EB}{EC} = 1$"
         ],
         "correct": 1
       },
@@ -539,24 +539,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có ba trung tuyến $AD, BE, CF$ đồng quy tại trọng tâm $G$. Tỉ số $\frac{GA}{GD} \\cdot \frac{GB}{GE} \\cdot \frac{GC}{GF}$ bằng:",
         "options": [
-          "$8$",
+          "$1$",
           "$6$",
           "$4$",
-          "$1$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Các điểm $D, E, F$ lần lượt nằm trên $BC, CA, AB$ sao cho $AD, BE, CF$ đồng quy tại $O$. Theo định lí Ceva:",
         "options": [
-          "$\frac{AF}{FB} \\cdot \frac{BD}{DC} \\cdot \frac{CE}{EA} = 1$",
-          "$\frac{AF}{FB} \\cdot \frac{BD}{DC} \\cdot \frac{CE}{EA} = -1$",
+          "$\frac{AB}{AF} + \frac{BC}{BD} + \frac{CA}{CE} = 1$",
           "$\frac{AF}{AB} \\cdot \frac{BD}{BC} \\cdot \frac{CE}{CA} = 1$",
-          "$\frac{AB}{AF} + \frac{BC}{BD} + \frac{CA}{CE} = 1$"
+          "$\frac{AF}{FB} \\cdot \frac{BD}{DC} \\cdot \frac{CE}{EA} = 1$",
+          "$\frac{AF}{FB} \\cdot \frac{BD}{DC} \\cdot \frac{CE}{EA} = -1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -565,8 +565,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "options": [
           "$EF \\parallel AB$",
           "$EF \\perp AB$",
-          "$EF = AB$",
-          "$EF = CD$"
+          "$EF = CD$",
+          "$EF = AB$"
         ],
         "correct": 0
       },
@@ -575,48 +575,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$. Lấy điểm $D$ trên cạnh $AB$ sao cho $AD = 2DB$, điểm $E$ trên $AC$ sao cho $AE = 2EC$. Điểm $M$ bất kì trong tam giác. Diện tích tam giác $ADE$ bằng bao nhiêu phần diện tích $\triangle ABC$?",
         "options": [
-          "$\frac{4}{9}$",
-          "$\frac{2}{3}$",
           "$\frac{1}{3}$",
-          "$\frac{4}{5}$"
+          "$\frac{4}{9}$",
+          "$\frac{4}{5}$",
+          "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho tứ giác $ABCD$. Gọi $E, F$ lần lượt là giao điểm của $AB$ và $CD$, của $AD$ và $BC$. Đường thẳng qua $E$ song song với $BC$ cắt $BD$ tại $M$, đường thẳng qua $E$ song song với $AD$ cắt $AC$ tại $N$. Khi đó:",
         "options": [
-          "$MN \\parallel CD$",
-          "$MN \\perp CD$",
           "$MN = CD$",
+          "$MN \\perp CD$",
+          "$MN \\parallel CD$",
           "$MN$ đi qua $F$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$. Lấy $M$ trên $BC$ sao cho $BM = 3MC$. Lấy $N$ trên $AM$ sao cho $AN = 2NM$. Đường thẳng $BN$ cắt $AC$ tại $P$. Tỉ số $\frac{AP}{PC}$ bằng:",
         "options": [
-          "$\frac{2}{3}$",
           "$\frac{1}{2}$",
           "$\frac{3}{2}$",
-          "$\frac{3}{4}$"
+          "$\frac{3}{4}$",
+          "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Qua $O$ vẽ đường thẳng song song với $AB$ cắt $AD, BC$ tại $E, F$. Biết $AB = a, CD = b$. Độ dài $EF$ bằng:",
         "options": [
-          "$\frac{2ab}{a+b}$",
-          "$\frac{ab}{a+b}$",
           "$\frac{a+b}{2}$",
-          "$\\sqrt{ab}$"
+          "$\frac{2ab}{a+b}$",
+          "$\\sqrt{ab}$",
+          "$\frac{ab}{a+b}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -624,9 +624,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có trọng tâm $G$. Một đường thẳng đi qua $G$ cắt hai cạnh $AB, AC$ lần lượt tại $M, N$. Giá trị của biểu thức $\frac{AB}{AM} + \frac{AC}{AN}$ bằng:",
         "options": [
           "$3$",
-          "$2$",
           "$4$",
-          "$\frac{3}{2}$"
+          "$\frac{3}{2}$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -635,24 +635,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $\triangle ABC$. Lấy $D$ thuộc cạnh $BC$. Từ $D$ kẻ đường thẳng song song với $AB$ cắt $AC$ tại $E$, kẻ đường thẳng song song với $AC$ cắt $AB$ tại $F$. Giá trị lớn nhất của tích diện tích $S_{\triangle BDF} \\cdot S_{\triangle CDE}$ là:",
         "options": [
-          "$\frac{1}{16} S_{\triangle ABC}^2$",
+          "$\frac{1}{9} S_{\triangle ABC}^2$",
           "$\frac{1}{4} S_{\triangle ABC}^2$",
-          "$\frac{1}{8} S_{\triangle ABC}^2$",
-          "$\frac{1}{9} S_{\triangle ABC}^2$"
+          "$\frac{1}{16} S_{\triangle ABC}^2$",
+          "$\frac{1}{8} S_{\triangle ABC}^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hình bình hành $ABCD$. Điểm $M$ thuộc $AB$, $N$ thuộc $BC$ sao cho $AM = CN$. $DM$ cắt $BN$ tại $P$. Tỉ số $\frac{DP}{PM}$ phụ thuộc vào:",
         "options": [
-          "Tỉ số $\frac{AM}{AB}$ và kích thước hình bình hành",
-          "Chỉ phụ thuộc góc $A$",
+          "Luôn bằng $1$",
           "Không phụ thuộc vào $M, N$",
-          "Luôn bằng $1$"
+          "Chỉ phụ thuộc góc $A$",
+          "Tỉ số $\frac{AM}{AB}$ và kích thước hình bình hành"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -660,9 +660,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tứ giác lồi $ABCD$. Các đường thẳng $AB$ và $CD$ cắt nhau tại $E$, $AD$ và $BC$ cắt nhau tại $F$. Trung điểm các đoạn thẳng $AC, BD, EF$ cùng nằm trên một đường thẳng. Đường thẳng này được gọi là:",
         "options": [
           "Đường thẳng Gauss (Newton)",
+          "Đường thẳng Steiner",
           "Đường thẳng Euler",
-          "Đường thẳng Simson",
-          "Đường thẳng Steiner"
+          "Đường thẳng Simson"
         ],
         "correct": 0
       }
@@ -786,8 +786,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "options": [
           "Nối trung điểm hai cạnh của tam giác",
           "Nối từ đỉnh đến trung điểm cạnh đối diện",
-          "Vuông góc từ đỉnh xuống cạnh đối diện",
-          "Chia đôi một góc của tam giác"
+          "Chia đôi một góc của tam giác",
+          "Vuông góc từ đỉnh xuống cạnh đối diện"
         ],
         "correct": 0
       },
@@ -796,48 +796,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Một tam giác có bao nhiêu đường trung bình?",
         "options": [
-          "$3$",
           "$1$",
           "$2$",
+          "$3$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Đường trung bình của tam giác có tính chất nào sau đây?",
         "options": [
-          "Song song với cạnh thứ ba và bằng nửa cạnh ấy",
-          "Vuông góc với cạnh thứ ba",
           "Bằng một phần ba cạnh thứ ba",
-          "Đi qua trọng tâm tam giác"
+          "Vuông góc với cạnh thứ ba",
+          "Đi qua trọng tâm tam giác",
+          "Song song với cạnh thứ ba và bằng nửa cạnh ấy"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$ có $M, N$ lần lượt là trung điểm của $AB$ và $AC$. Biết $BC = 12\text{ cm}$. Độ dài đoạn thẳng $MN$ là:",
         "options": [
-          "$6\text{ cm}$",
           "$24\text{ cm}$",
+          "$3\text{ cm}$",
           "$4\text{ cm}$",
-          "$3\text{ cm}$"
+          "$6\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Cho tam giác $ABC$ có chu vi bằng $24\text{ cm}$. Gọi $D, E, F$ lần lượt là trung điểm của ba cạnh $AB, BC, CA$. Chu vi tam giác $DEF$ bằng:",
         "options": [
-          "$12\text{ cm}$",
           "$6\text{ cm}$",
+          "$12\text{ cm}$",
           "$48\text{ cm}$",
           "$8\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -846,8 +846,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "options": [
           "Đi qua trung điểm của cạnh thứ ba",
           "Vuông góc với cạnh thứ ba",
-          "Bằng cạnh thứ hai",
-          "Trùng với đường cao"
+          "Trùng với đường cao",
+          "Bằng cạnh thứ hai"
         ],
         "correct": 0
       },
@@ -856,48 +856,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $M$ là trung điểm $AB$. Đường thẳng qua $M$ song song với $BC$ cắt $AC$ tại $N$. Biết $AC = 10\text{ cm}$. Độ dài đoạn thẳng $AN$ là:",
         "options": [
-          "$5\text{ cm}$",
-          "$2.5\text{ cm}$",
+          "$7.5\text{ cm}$",
           "$10\text{ cm}$",
-          "$7.5\text{ cm}$"
+          "$5\text{ cm}$",
+          "$2.5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có các đường trung bình $DE, EF, FD$. Diện tích tam giác $DEF$ bằng bao nhiêu phần diện tích $\triangle ABC$?",
         "options": [
-          "$\frac{1}{4}$",
           "$\frac{1}{2}$",
+          "$\frac{1}{8}$",
           "$\frac{1}{3}$",
-          "$\frac{1}{8}$"
+          "$\frac{1}{4}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ cân tại $A$ có $AB = AC = 10\text{ cm}, BC = 12\text{ cm}$. Gọi $M, N$ lần lượt là trung điểm của $AB, AC$. Tứ giác $BMNC$ là hình gì?",
         "options": [
+          "Hình chữ nhật",
           "Hình thang cân",
           "Hình bình hành",
-          "Hình chữ nhật",
           "Hình thoi"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\text{ cm}, AC = 8\text{ cm}$. Gọi $M, N$ lần lượt là trung điểm của $AB, AC$. Độ dài $MN$ bằng:",
         "options": [
-          "$5\text{ cm}$",
           "$10\text{ cm}$",
+          "$5\text{ cm}$",
           "$7\text{ cm}$",
           "$4.5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -905,9 +905,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Tứ giác có bốn đỉnh là bốn trung điểm của các cạnh của một tứ giác bất kì luôn là:",
         "options": [
           "Hình bình hành",
-          "Hình chữ nhật",
+          "Hình thang cân",
           "Hình thoi",
-          "Hình thang cân"
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -916,12 +916,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của hai cạnh bên $AD$ và $BC$. Đoạn thẳng $MN$ có độ dài bằng:",
         "options": [
-          "$\frac{AB + CD}{2}$",
-          "$\frac{CD - AB}{2}$",
           "$\\sqrt{AB \\cdot CD}$",
-          "$AB + CD$"
+          "$AB + CD$",
+          "$\frac{AB + CD}{2}$",
+          "$\frac{CD - AB}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1041,12 +1041,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$. Gọi $M, N$ lần lượt là trung điểm của $AB, AC$. Nếu $MN = 5\text{ cm}$ thì độ dài cạnh $BC$ là:",
         "options": [
-          "$10\text{ cm}$",
           "$2.5\text{ cm}$",
-          "$5\text{ cm}$",
-          "$15\text{ cm}$"
+          "$15\text{ cm}$",
+          "$10\text{ cm}$",
+          "$5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -1054,9 +1054,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Tứ giác có các đỉnh là trung điểm bốn cạnh của một hình thoi là hình gì?",
         "options": [
           "Hình chữ nhật",
+          "Hình bình hành không có góc vuông",
           "Hình thoi",
-          "Hình vuông",
-          "Hình bình hành không có góc vuông"
+          "Hình vuông"
         ],
         "correct": 0
       },
@@ -1065,48 +1065,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có chu vi $30\text{ cm}$. Gọi $M, N, P$ lần lượt là trung điểm $AB, BC, CA$. Chu vi tam giác $MNP$ bằng:",
         "options": [
-          "$15\text{ cm}$",
           "$10\text{ cm}$",
+          "$15\text{ cm}$",
           "$7.5\text{ cm}$",
           "$20\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $E, F$ lần lượt là trung điểm của $AD, BC$. Biết $AB = 6\text{ cm}$ và $EF = 9\text{ cm}$. Độ dài đáy $CD$ là:",
         "options": [
-          "$12\text{ cm}$",
-          "$15\text{ cm}$",
+          "$8\text{ cm}$",
           "$10\text{ cm}$",
-          "$8\text{ cm}$"
+          "$15\text{ cm}$",
+          "$12\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ vuông tại $A$, có $BC = 10\text{ cm}$. Gọi $D, E, F$ lần lượt là trung điểm của $AB, BC, CA$. Độ dài đoạn thẳng $DF$ bằng:",
         "options": [
-          "$5\text{ cm}$",
-          "$2.5\text{ cm}$",
           "$10\text{ cm}$",
-          "$6\text{ cm}$"
+          "$6\text{ cm}$",
+          "$5\text{ cm}$",
+          "$2.5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Gọi $M$ là trung điểm $BC$. Từ $M$ kẻ $MD \\parallel AC$ ($D \\in AB$) và $ME \\parallel AB$ ($E \\in AC$). Tứ giác $ADME$ là hình gì?",
         "options": [
+          "Hình thoi",
           "Hình bình hành",
           "Hình chữ nhật",
-          "Hình thoi",
           "Hình vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1114,9 +1114,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có $AB = 6\text{ cm}, AC = 8\text{ cm}, BC = 10\text{ cm}$. Gọi $M, N$ là trung điểm của $AB, BC$. Diện tích tam giác $BMN$ bằng:",
         "options": [
           "$6\text{ cm}^2$",
-          "$12\text{ cm}^2$",
+          "$3\text{ cm}^2$",
           "$24\text{ cm}^2$",
-          "$3\text{ cm}^2$"
+          "$12\text{ cm}^2$"
         ],
         "correct": 0
       },
@@ -1125,12 +1125,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình bình hành $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Đoạn thẳng $AN$ và $CM$ cắt đường chéo $BD$ lần lượt tại $E$ và $F$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$BE = EF = FD$",
-          "$BE = 2EF$",
           "$EF = 2FD$",
-          "$BE + FD = EF$"
+          "$BE = EF = FD$",
+          "$BE + FD = EF$",
+          "$BE = 2EF$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -1138,9 +1138,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$. Gọi $M, N$ là trung điểm của $AB, AC$. Trên tia đối của tia $NM$ lấy điểm $P$ sao cho $NP = NM$. Tứ giác $AMCP$ là hình gì?",
         "options": [
           "Hình bình hành",
+          "Hình thang cân",
           "Hình thoi",
-          "Hình chữ nhật",
-          "Hình thang cân"
+          "Hình chữ nhật"
         ],
         "correct": 0
       },
@@ -1149,36 +1149,36 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$. Gọi $M, N, P, Q$ lần lượt là trung điểm của $AB, BC, CD, DA$. Để $MNPQ$ là hình chữ nhật thì tứ giác $ABCD$ cần có:",
         "options": [
-          "Hai đường chéo vuông góc với nhau",
-          "Hai đường chéo bằng nhau",
           "Các cạnh đối bằng nhau",
-          "Các góc vuông"
+          "Hai đường chéo bằng nhau",
+          "Các góc vuông",
+          "Hai đường chéo vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có đường trung tuyến $AM$. Gọi $I$ là trung điểm $AM$. Tia $BI$ cắt $AC$ tại $E$. Tỉ số $\frac{AE}{EC}$ bằng:",
         "options": [
-          "$\frac{1}{2}$",
           "$\frac{1}{3}$",
-          "$\frac{2}{3}$",
-          "$1$"
+          "$1$",
+          "$\frac{1}{2}$",
+          "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tam giác đều $ABC$ có cạnh bằng $8\text{ cm}$. Nối trung điểm các cạnh tạo thành tam giác thứ hai, nối trung điểm các cạnh tam giác thứ hai tạo thành tam giác thứ ba. Chu vi tam giác thứ ba bằng:",
         "options": [
-          "$6\text{ cm}$",
           "$12\text{ cm}$",
           "$3\text{ cm}$",
-          "$8\text{ cm}$"
+          "$8\text{ cm}$",
+          "$6\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1298,96 +1298,96 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AB \\perp CD$. Gọi $E, F, G, H$ lần lượt là trung điểm của $BC, BD, AD, AC$. Tứ giác $EFGH$ là hình gì?",
         "options": [
+          "Hình vuông",
           "Hình chữ nhật",
           "Hình thoi",
-          "Hình vuông",
           "Hình bình hành không có góc vuông"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AC = BD$. Gọi $M, N, P, Q$ lần lượt là trung điểm của $AB, BC, CD, DA$. Tứ giác $MNPQ$ là hình gì?",
         "options": [
-          "Hình thoi",
-          "Hình chữ nhật",
           "Hình vuông",
-          "Hình thang cân"
+          "Hình thang cân",
+          "Hình chữ nhật",
+          "Hình thoi"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $AC \\perp BD$ và $AC = BD$. Nối trung điểm 4 cạnh của tứ giác được hình gì?",
         "options": [
-          "Hình vuông",
-          "Hình chữ nhật",
           "Hình thoi",
-          "Hình bình hành"
+          "Hình bình hành",
+          "Hình vuông",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 2DB$. Gọi $M$ là trung điểm của $BC$. Đường thẳng qua $D$ song song với $BC$ cắt $AM$ tại $I$. Tỉ số $\frac{DI}{BC}$ bằng:",
         "options": [
-          "$\frac{1}{3}$",
-          "$\frac{2}{3}$",
+          "$\frac{1}{6}$",
           "$\frac{1}{2}$",
-          "$\frac{1}{6}$"
+          "$\frac{1}{3}$",
+          "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $E, F$ lần lượt là trung điểm của $AD, BC$. Đoạn thẳng $EF$ cắt hai đường chéo $BD$ và $AC$ lần lượt tại $M$ và $N$. Độ dài đoạn thẳng $MN$ bằng:",
         "options": [
-          "$\frac{|CD - AB|}{2}$",
           "$\frac{CD + AB}{2}$",
           "$\frac{CD - AB}{4}$",
-          "$\frac{CD + AB}{4}$"
+          "$\frac{CD + AB}{4}$",
+          "$\frac{|CD - AB|}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$. Gọi $H$ là trực tâm của tam giác, $O$ là tâm đường tròn ngoại tiếp, $M$ là trung điểm của $BC$. Mối quan hệ giữa đoạn thẳng $AH$ và $OM$ là:",
         "options": [
+          "$AH \\perp OM$",
           "$AH = 2OM$ và $AH \\parallel OM$",
-          "$AH = OM$",
           "$AH = 3OM$",
-          "$AH \\perp OM$"
+          "$AH = OM$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$ có trung tuyến $AM$. Lấy điểm $D$ trên $AM$ sao cho $AD = 2DM$. Gọi $E$ là giao điểm của $BD$ và $AC$. Tỉ số $\frac{AE}{EC}$ bằng:",
         "options": [
-          "$1$",
           "$\frac{1}{2}$",
-          "$2$",
-          "$\frac{2}{3}$"
+          "$\frac{2}{3}$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho tứ giác $ABCD$ có $AD = BC$. Gọi $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Đường thẳng $MN$ cắt các đường thẳng $AD$ và $BC$ lần lượt tại $P$ và $Q$. Khi đó góc $\\widehat{APD}$ và $\\widehat{BQM}$:",
         "options": [
-          "Bằng nhau",
-          "Bù nhau",
           "Phụ nhau",
-          "Không có mối quan hệ cố định"
+          "Bằng nhau",
+          "Không có mối quan hệ cố định",
+          "Bù nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -1395,9 +1395,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$. Gọi $M$ là trung điểm $BC$. Từ $A$ kẻ đường thẳng $d$ vuông góc với $AM$. Các đường phân giác của góc $B$ và góc $C$ cắt $d$ lần lượt tại $E$ và $F$. Kết luận nào sau đây đúng?",
         "options": [
           "$AE = AF$",
+          "$BE \\parallel CF$",
           "$AE = 2AF$",
-          "$AF = 2AE$",
-          "$BE \\parallel CF$"
+          "$AF = 2AE$"
         ],
         "correct": 0
       },
@@ -1407,9 +1407,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$. Gọi $G$ là trọng tâm, $M, N, P$ lần lượt là trung điểm của $BC, CA, AB$. Gọi $A', B', C'$ lần lượt là điểm đối xứng của $A, B, C$ qua $G$. Khi đó sáu điểm $M, N, P, A', B', C'$:",
         "options": [
           "Cùng nằm trên một đường tròn nếu $\triangle ABC$ đều",
-          "Luôn thẳng hàng",
           "Tạo thành một tam giác",
-          "Tạo thành hai đường thẳng song song"
+          "Tạo thành hai đường thẳng song song",
+          "Luôn thẳng hàng"
         ],
         "correct": 0
       },
@@ -1419,9 +1419,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Đường trung bình thứ $n$ nối trung điểm của tam giác thứ $n-1$. Biết diện tích tam giác ban đầu là $S_0$. Diện tích của tam giác thứ $n$ là:",
         "options": [
           "$\frac{S_0}{4^n}$",
+          "$\frac{S_0}{4n}$",
           "$\frac{S_0}{2^n}$",
-          "$\frac{S_0}{3^n}$",
-          "$\frac{S_0}{4n}$"
+          "$\frac{S_0}{3^n}$"
         ],
         "correct": 0
       },
@@ -1430,12 +1430,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tứ giác $ABCD$. Gọi $G$ là trọng tâm tứ giác (giao điểm của hai đoạn thẳng nối trung điểm các cạnh đối). Với mọi điểm $M$ bất kì trong không gian, ta luôn có:",
         "options": [
-          "$\u000bec{MA} + \u000bec{MB} + \u000bec{MC} + \u000bec{MD} = 4\u000bec{MG}$",
-          "$\u000bec{MA} + \u000bec{MC} = \u000bec{MB} + \u000bec{MD}$",
+          "$MA + MB + MC + MD = 4MG$",
           "$\u000bec{GA} + \u000bec{GB} + \u000bec{GC} + \u000bec{GD} = \u000bec{AB}$",
-          "$MA + MB + MC + MD = 4MG$"
+          "$\u000bec{MA} + \u000bec{MC} = \u000bec{MB} + \u000bec{MD}$",
+          "$\u000bec{MA} + \u000bec{MB} + \u000bec{MC} + \u000bec{MD} = 4\u000bec{MG}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1555,48 +1555,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong một tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng:",
         "options": [
+          "Tỉ lệ nghịch với hai cạnh kề",
           "Tỉ lệ với hai cạnh kề hai đoạn ấy",
           "Bằng nhau",
-          "Tỉ lệ nghịch với hai cạnh kề",
           "Bằng nửa cạnh đối diện"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$ có tia phân giác của góc $A$ cắt cạnh $BC$ tại $D$. Tỉ số nào sau đây là ĐÚNG?",
         "options": [
-          "$\frac{DB}{DC} = \frac{AB}{AC}$",
+          "$\frac{DB}{DC} = \frac{BC}{AC}$",
           "$\frac{DB}{DC} = \frac{AC}{AB}$",
-          "$\frac{DB}{AB} = \frac{DC}{BC}$",
-          "$\frac{DB}{DC} = \frac{BC}{AC}$"
+          "$\frac{DB}{DC} = \frac{AB}{AC}$",
+          "$\frac{DB}{AB} = \frac{DC}{BC}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$ có $AD$ là tia phân giác góc $A$ ($D \\in BC$). Biết $AB = 4\text{ cm}, AC = 6\text{ cm}, DB = 2\text{ cm}$. Độ dài đoạn thẳng $DC$ bằng:",
         "options": [
-          "$3\text{ cm}$",
-          "$4\text{ cm}$",
           "$2\text{ cm}$",
+          "$4\text{ cm}$",
+          "$3\text{ cm}$",
           "$5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Cho $\triangle MNP$ có $MI$ là phân giác của góc $M$ ($I \\in NP$). Đẳng thức nào sau đây đúng?",
         "options": [
-          "$\frac{IN}{IP} = \frac{MN}{MP}$",
-          "$\frac{IN}{IP} = \frac{MP}{MN}$",
           "$\frac{IN}{MN} = \frac{IP}{NP}$",
-          "$IN \\cdot MP = IP \\cdot NP$"
+          "$IN \\cdot MP = IP \\cdot NP$",
+          "$\frac{IN}{IP} = \frac{MP}{MN}$",
+          "$\frac{IN}{IP} = \frac{MN}{MP}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -1604,9 +1604,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có $AB = 6\text{ cm}, AC = 9\text{ cm}$. $AD$ là phân giác góc $A$ ($D \\in BC$). Tỉ số $\frac{DB}{DC}$ bằng:",
         "options": [
           "$\frac{2}{3}$",
-          "$\frac{3}{2}$",
+          "$\frac{3}{5}$",
           "$\frac{2}{5}$",
-          "$\frac{3}{5}$"
+          "$\frac{3}{2}$"
         ],
         "correct": 0
       },
@@ -1615,24 +1615,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Định lí về tính chất đường phân giác trong tam giác vẫn đúng đối với:",
         "options": [
-          "Tia phân giác của góc ngoài tam giác",
-          "Đường trung tuyến của tam giác",
           "Đường cao của tam giác",
-          "Đường trung trực của tam giác"
+          "Tia phân giác của góc ngoài tam giác",
+          "Đường trung trực của tam giác",
+          "Đường trung tuyến của tam giác"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $AD$ là phân giác góc $A$ ($D \\in BC$). Biết $AB = 5\text{ cm}, AC = 8\text{ cm}$ và $BC = 13\text{ cm}$. Độ dài đoạn thẳng $BD$ là:",
         "options": [
-          "$5\text{ cm}$",
           "$8\text{ cm}$",
+          "$4\text{ cm}$",
           "$6.5\text{ cm}$",
-          "$4\text{ cm}$"
+          "$5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -1640,8 +1640,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có phân giác $AD$. Biết $AB = 6, AC = 10$ và $BC = 12$. Độ dài đoạn thẳng $DC$ bằng:",
         "options": [
           "$7.5$",
-          "$4.5$",
           "$8$",
+          "$4.5$",
           "$6$"
         ],
         "correct": 0
@@ -1652,9 +1652,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có $AD$ là phân giác góc $A$ ($D \\in BC$). Tỉ số diện tích $\frac{S_{\triangle ABD}}{S_{\triangle ACD}}$ bằng tỉ số nào dưới đây?",
         "options": [
           "$\frac{AB}{AC}$",
-          "$\\left(\frac{AB}{AC}\right)^2$",
+          "$1$",
           "$\frac{AD}{BC}$",
-          "$1$"
+          "$\\left(\frac{AB}{AC}\right)^2$"
         ],
         "correct": 0
       },
@@ -1663,36 +1663,36 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ cân tại $A$. Đường phân giác của góc $A$ cắt $BC$ tại $D$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$DB = 2DC$",
           "$D$ là trung điểm của $BC$",
-          "$AD \\perp BC$",
-          "$AD$ là đường trung tuyến của tam giác"
+          "$DB = 2DC$",
+          "$AD$ là đường trung tuyến của tam giác",
+          "$AD \\perp BC$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ vuông tại $A$ có $AB = 3\text{ cm}, AC = 4\text{ cm}$. Phân giác góc $A$ cắt $BC$ tại $D$. Độ dài đoạn thẳng $BD$ là:",
         "options": [
-          "$\frac{15}{7}\text{ cm}$",
+          "$2.5\text{ cm}$",
           "$\frac{20}{7}\text{ cm}$",
-          "$2\text{ cm}$",
-          "$2.5\text{ cm}$"
+          "$\frac{15}{7}\text{ cm}$",
+          "$2\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$, $AD$ là phân giác góc trong, $AE$ là phân giác góc ngoài tại đỉnh $A$ ($D, E \\in BC$). Góc $\\widehat{DAE}$ bằng:",
         "options": [
-          "$90^\\circ$",
-          "$60^\\circ$",
           "$45^\\circ$",
-          "$120^\\circ$"
+          "$60^\\circ$",
+          "$120^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1813,8 +1813,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có phân giác trong $AD$ và phân giác ngoài $AK$ tại đỉnh $A$ ($D, K \\in BC$). Hệ thức nào sau đây đúng?",
         "options": [
           "$\frac{KB}{KC} = \frac{DB}{DC} = \frac{AB}{AC}$",
-          "$\frac{KB}{KC} = -\frac{DB}{DC}$",
           "$KB \\cdot DB = KC \\cdot DC$",
+          "$\frac{KB}{KC} = -\frac{DB}{DC}$",
           "$KD = BC$"
         ],
         "correct": 0
@@ -1824,12 +1824,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có $AB = 12\text{ cm}, AC = 16\text{ cm}, BC = 21\text{ cm}$. Phân giác của góc $A$ cắt $BC$ tại $D$. Độ dài đoạn thẳng $BD$ là:",
         "options": [
-          "$9\text{ cm}$",
           "$12\text{ cm}$",
           "$10.5\text{ cm}$",
+          "$9\text{ cm}$",
           "$8\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1838,8 +1838,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "options": [
           "$\frac{8}{3}\text{ cm}$",
           "$3\text{ cm}$",
-          "$\frac{10}{3}\text{ cm}$",
-          "$2\text{ cm}$"
+          "$2\text{ cm}$",
+          "$\frac{10}{3}\text{ cm}$"
         ],
         "correct": 0
       },
@@ -1848,24 +1848,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có phân giác $AD$. Kẻ $DH \\parallel AB$ ($H \\in AC$). Biết $AB = 6\text{ cm}, AC = 12\text{ cm}$. Độ dài đoạn thẳng $DH$ là:",
         "options": [
-          "$4\text{ cm}$",
           "$3\text{ cm}$",
+          "$4\text{ cm}$",
           "$5\text{ cm}$",
           "$4.5\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có phân giác $AD$. Biết diện tích tam giác $ABD$ bằng $18\text{ cm}^2$ và diện tích tam giác $ACD$ bằng $27\text{ cm}^2$. Tỉ số $\frac{AB}{AC}$ bằng:",
         "options": [
-          "$\frac{2}{3}$",
           "$\frac{3}{2}$",
+          "$\frac{9}{4}$",
           "$\frac{4}{9}$",
-          "$\frac{9}{4}$"
+          "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -1874,8 +1874,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "options": [
           "$\frac{a}{b + c}$",
           "$\frac{b + c}{a}$",
-          "$\frac{b}{a + c}$",
-          "$\frac{c}{a + b}$"
+          "$\frac{c}{a + b}$",
+          "$\frac{b}{a + c}$"
         ],
         "correct": 0
       },
@@ -1884,45 +1884,45 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có phân giác $AD$. Trên cạnh $AB$ lấy điểm $E$ sao cho $AE = AC$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$\triangle ADE = \triangle ADC$",
+          "$\triangle BDE$ cân tại $D$",
           "$DE \\parallel BC$",
           "$DE = BC$",
-          "$\triangle BDE$ cân tại $D$"
+          "$\triangle ADE = \triangle ADC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình thoi $ABCD$. Điểm $M$ thuộc cạnh $BC$. Tia phân giác của góc $\\widehat{BAM}$ cắt $BC$ tại $E$. Tỉ số $\frac{EB}{EM}$ bằng tỉ số nào dưới đây?",
         "options": [
-          "$\frac{AB}{AM}$",
           "$\frac{AM}{AB}$",
           "$\frac{BM}{AB}$",
+          "$\frac{AB}{AM}$",
           "$\frac{BC}{AM}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có phân giác $AD$. Biết $AB = c, AC = b, BC = a$. Công thức tính độ dài đoạn $BD$ theo $a, b, c$ là:",
         "options": [
-          "$BD = \frac{ac}{b + c}$",
           "$BD = \frac{ab}{b + c}$",
+          "$BD = \frac{a(b+c)}{c}$",
           "$BD = \frac{bc}{a + b}$",
-          "$BD = \frac{a(b+c)}{c}$"
+          "$BD = \frac{ac}{b + c}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có chu vi bằng $36\text{ cm}$. Phân giác $AD$ chia cạnh $BC$ thành hai đoạn $BD = 6\text{ cm}$ và $DC = 9\text{ cm}$. Độ dài cạnh $AB$ bằng:",
         "options": [
-          "$\frac{42}{5}\text{ cm}$",
-          "$8.4\text{ cm}$",
           "$9\text{ cm}$",
+          "$8.4\text{ cm}$",
+          "$\frac{42}{5}\text{ cm}$",
           "$10\text{ cm}$"
         ],
         "correct": 1
@@ -1932,24 +1932,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$. Đường phân giác của góc $B$ cắt $AC$ tại $E$. Từ $E$ kẻ đường thẳng song song với $AB$ cắt $BC$ tại $F$. Tam giác $BEF$ là tam giác gì?",
         "options": [
-          "Tam giác cân tại $F$",
-          "Tam giác vuông tại $F$",
           "Tam giác đều",
+          "Tam giác vuông tại $F$",
+          "Tam giác cân tại $F$",
           "Tam giác vuông cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có $AB = 8, AC = 12$. Phân giác ngoài tại đỉnh $A$ cắt đường thẳng $BC$ tại $E$. Biết $BC = 5$. Độ dài đoạn thẳng $BE$ là:",
         "options": [
+          "$12$",
           "$10$",
           "$8$",
-          "$12$",
           "$15$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2070,35 +2070,35 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có các cạnh thỏa mãn $a^2 = b^2 + bc$. Kẻ phân giác $AD$. Khi đó góc $\\widehat{BAC}$ bằng:",
         "options": [
           "$2\\widehat{B}$",
-          "$2\\widehat{C}$",
+          "$120^\\circ$",
           "$90^\\circ$",
-          "$120^\\circ$"
+          "$2\\widehat{C}$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có phân giác $AD$. Biết $AB = 6, AC = 8, BC = 7$. Độ dài đoạn phân giác $AD$ bằng:",
         "options": [
-          "$\\sqrt{36} = 6$",
-          "$\\sqrt{38}$",
+          "$\\sqrt{42}$",
           "$5$",
-          "$\\sqrt{42}$"
+          "$\\sqrt{38}$",
+          "$\\sqrt{36} = 6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có phân giác trong $AD$ và phân giác ngoài $AE$ ($D, E \\in BC$). Khi đó đường tròn đường kính $DE$ được gọi là:",
         "options": [
+          "Đường tròn ngoại tiếp",
           "Đường tròn Apollonius",
-          "Đường tròn Euler",
           "Đường tròn nội tiếp",
-          "Đường tròn ngoại tiếp"
+          "Đường tròn Euler"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2106,9 +2106,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$. Gọi $I$ là giao điểm ba đường phân giác trong. Một đường thẳng qua $I$ song song với $BC$ cắt $AB, AC$ lần lượt tại $M, N$. Đẳng thức nào sau đây đúng?",
         "options": [
           "$MN = BM + CN$",
+          "$MN^2 = BM \\cdot CN$",
           "$MN = BM - CN$",
-          "$MN = \frac{BM + CN}{2}$",
-          "$MN^2 = BM \\cdot CN$"
+          "$MN = \frac{BM + CN}{2}$"
         ],
         "correct": 0
       },
@@ -2117,12 +2117,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$ vuông cân tại $A$. Đường phân giác của góc $B$ cắt $AC$ tại $D$. Tỉ số $\frac{AD}{DC}$ bằng:",
         "options": [
-          "$\frac{\\sqrt{2}}{2}$",
-          "$\\sqrt{2} - 1$",
+          "$\\sqrt{2}$",
           "$\frac{1}{2}$",
-          "$\\sqrt{2}$"
+          "$\frac{\\sqrt{2}}{2}$",
+          "$\\sqrt{2} - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -2130,8 +2130,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$. Tia phân giác của góc $A$ cắt $BC$ tại $E$, tia phân giác của góc $B$ cắt $AD$ tại $F$. Tứ giác $ABEF$ là hình gì?",
         "options": [
           "Hình thoi",
-          "Hình chữ nhật",
           "Hình vuông",
+          "Hình chữ nhật",
           "Hình bình hành"
         ],
         "correct": 0
@@ -2141,24 +2141,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$ có $AB < AC$. Kẻ đường phân giác $AD$ và trung tuyến $AM$. Kết luận nào sau đây đúng về vị trí tương đối của $D$ và $M$ trên cạnh $BC$?",
         "options": [
-          "Điểm $D$ nằm giữa hai điểm $B$ và $M$",
           "Điểm $M$ nằm giữa hai điểm $B$ và $D$",
           "Điểm $D$ trùng điểm $M$",
-          "Không thể xác định"
+          "Không thể xác định",
+          "Điểm $D$ nằm giữa hai điểm $B$ và $M$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho $\triangle ABC$. Kẻ phân giác $AD$. Biết $\frac{AB}{AC} = \frac{2}{3}$. Qua $D$ kẻ $DE \\parallel AB$ ($E \\in AC$). Tỉ số $\frac{AE}{AC}$ bằng:",
         "options": [
-          "$\frac{2}{5}$",
-          "$\frac{3}{5}$",
           "$\frac{2}{3}$",
-          "$\frac{1}{3}$"
+          "$\frac{1}{3}$",
+          "$\frac{2}{5}$",
+          "$\frac{3}{5}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -2166,9 +2166,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có hai đường phân giác $BD$ và $CE$ bằng nhau ($BD = CE$). Khi đó tam giác $ABC$ là tam giác gì? (Định lí Steiner - Lehmus)",
         "options": [
           "Tam giác cân tại $A$",
-          "Tam giác đều",
           "Tam giác vuông tại $A$",
-          "Tam giác vuông cân"
+          "Tam giác vuông cân",
+          "Tam giác đều"
         ],
         "correct": 0
       },
@@ -2189,24 +2189,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ có $AB = c, AC = b, BC = a$. Độ dài đường phân giác trong $AD$ thỏa mãn bất đẳng thức nào sau đây?",
         "options": [
-          "$AD < \frac{2bc}{b+c}$",
-          "$AD > \frac{2bc}{b+c}$",
           "$AD = \frac{b+c}{2}$",
+          "$AD > \frac{2bc}{b+c}$",
+          "$AD < \frac{2bc}{b+c}$",
           "$AD = \\sqrt{bc}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$. Điểm $M$ thuộc cạnh $BC$. Gọi $D, E$ lần lượt là hình chiếu của $M$ trên $AB, AC$. Vị trí của điểm $M$ để $MD + ME$ không phụ thuộc vào $M$ khi $M$ di chuyển là khi:",
         "options": [
+          "Mọi tam giác bất kì",
           "Tam giác $ABC$ cân tại $A$",
-          "Tam giác $ABC$ vuông tại $A$",
           "Tam giác $ABC$ có góc $A = 120^\\circ$",
-          "Mọi tam giác bất kì"
+          "Tam giác $ABC$ vuông tại $A$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2326,48 +2326,48 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho đoạn thẳng $AB = 6\text{ cm}, CD = 9\text{ cm}$. Tỉ số của hai đoạn thẳng $AB$ và $CD$ là:",
         "options": [
-          "$\frac{2}{3}$",
           "$\frac{3}{2}$",
-          "$\frac{1}{3}$",
-          "$\frac{2}{5}$"
+          "$\frac{2}{3}$",
+          "$\frac{2}{5}$",
+          "$\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$, $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Khẳng định nào sau đây là định lí Thalès thuận?",
         "options": [
-          "$\frac{AM}{AB} = \frac{AN}{AC}$",
-          "$\frac{AM}{MB} = \frac{NC}{AN}$",
           "$\frac{AM}{AN} = \frac{BC}{MN}$",
-          "$\frac{MB}{AB} = \frac{AN}{AC}$"
+          "$\frac{AM}{AB} = \frac{AN}{AC}$",
+          "$\frac{MB}{AB} = \frac{AN}{AC}$",
+          "$\frac{AM}{MB} = \frac{NC}{AN}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$ có $M, N$ lần lượt là trung điểm của $AB, AC$. Đoạn thẳng $MN$ được gọi là:",
         "options": [
-          "Đường trung bình của tam giác $ABC$",
           "Đường trung trực của tam giác $ABC$",
           "Đường phân giác của tam giác $ABC$",
+          "Đường trung bình của tam giác $ABC$",
           "Đường cao của tam giác $ABC$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Đường trung bình của tam giác có độ dài bằng bao nhiêu so với cạnh song song với nó?",
         "options": [
+          "Gấp đôi",
           "Một nửa",
           "Bằng nhau",
-          "Một phần ba",
-          "Gấp đôi"
+          "Một phần ba"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -2375,9 +2375,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có $AD$ là tia phân giác của góc $A$ ($D \\in BC$). Đẳng thức nào sau đây đúng?",
         "options": [
           "$\frac{DB}{DC} = \frac{AB}{AC}$",
-          "$\frac{DB}{DC} = \frac{AC}{AB}$",
+          "$DB \\cdot AB = DC \\cdot AC$",
           "$\frac{DB}{AB} = \frac{DC}{BC}$",
-          "$DB \\cdot AB = DC \\cdot AC$"
+          "$\frac{DB}{DC} = \frac{AC}{AB}$"
         ],
         "correct": 0
       },
@@ -2386,36 +2386,36 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$ có $MN$ là đường trung bình song song với $BC$. Biết $BC = 14\text{ cm}$. Độ dài $MN$ là:",
         "options": [
-          "$7\text{ cm}$",
+          "$3.5\text{ cm}$",
           "$28\text{ cm}$",
-          "$4.6\text{ cm}$",
-          "$3.5\text{ cm}$"
+          "$7\text{ cm}$",
+          "$4.6\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $DE \\parallel BC$ ($D \\in AB, E \\in AC$). Biết $AD = 4\text{ cm}, DB = 2\text{ cm}, AE = 6\text{ cm}$. Độ dài đoạn thẳng $EC$ là:",
         "options": [
-          "$3\text{ cm}$",
-          "$4\text{ cm}$",
+          "$5\text{ cm}$",
           "$2\text{ cm}$",
-          "$5\text{ cm}$"
+          "$3\text{ cm}$",
+          "$4\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $AB = 6\text{ cm}, AC = 8\text{ cm}, BC = 10\text{ cm}$. $AD$ là phân giác của góc $A$ ($D \\in BC$). Độ dài đoạn thẳng $BD$ là:",
         "options": [
-          "$\frac{30}{7}\text{ cm}$",
           "$4\text{ cm}$",
+          "$\frac{40}{7}\text{ cm}$",
           "$5\text{ cm}$",
-          "$\frac{40}{7}\text{ cm}$"
+          "$\frac{30}{7}\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2423,9 +2423,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ vuông tại $A$ có $AB = 6\text{ cm}, AC = 8\text{ cm}$. Gọi $M$ là trung điểm của $BC$. Độ dài đoạn thẳng $AM$ là:",
         "options": [
           "$5\text{ cm}$",
-          "$10\text{ cm}$",
           "$4\text{ cm}$",
-          "$4.8\text{ cm}$"
+          "$4.8\text{ cm}$",
+          "$10\text{ cm}$"
         ],
         "correct": 0
       },
@@ -2434,24 +2434,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một cột đèn có bóng trên mặt đất dài $4\text{ m}$. Cùng lúc đó một cọc thẳng đứng cao $1\text{ m}$ có bóng dài $0.8\text{ m}$. Chiều cao cột đèn là:",
         "options": [
-          "$5\text{ m}$",
           "$4.5\text{ m}$",
+          "$6\text{ m}$",
           "$3.2\text{ m}$",
-          "$6\text{ m}$"
+          "$5\text{ m}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $E, F$ lần lượt là trung điểm của $AD, BC$. Biết $AB = 5\text{ cm}, CD = 11\text{ cm}$. Độ dài đoạn thẳng $EF$ là:",
         "options": [
-          "$8\text{ cm}$",
+          "$7\text{ cm}$",
           "$6\text{ cm}$",
           "$16\text{ cm}$",
-          "$7\text{ cm}$"
+          "$8\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -2459,9 +2459,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho $\triangle ABC$ có $D$ là trung điểm $AB$, $E$ là trung điểm $AC$. Tỉ số diện tích $\frac{S_{\triangle ADE}}{S_{\triangle ABC}}$ bằng:",
         "options": [
           "$\frac{1}{4}$",
-          "$\frac{1}{2}$",
           "$\frac{1}{3}$",
-          "$\frac{1}{8}$"
+          "$\frac{1}{8}$",
+          "$\frac{1}{2}$"
         ],
         "correct": 0
       }
@@ -2583,60 +2583,60 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho $\triangle ABC$. Điểm $D \\in AB, E \\in AC$. Điều kiện nào sau đây KHÔNG khẳng định được $DE \\parallel BC$?",
         "options": [
-          "$\frac{AD}{AB} = \frac{DE}{BC}$",
-          "$\frac{AD}{DB} = \frac{AE}{EC}$",
           "$\frac{AD}{AB} = \frac{AE}{AC}$",
-          "$\frac{DB}{AB} = \frac{EC}{AC}$"
+          "$\frac{AD}{DB} = \frac{AE}{EC}$",
+          "$\frac{DB}{AB} = \frac{EC}{AC}$",
+          "$\frac{AD}{AB} = \frac{DE}{BC}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có $AB = 9, AC = 12$. Lấy $M$ trên $AB$ sao cho $AM = 3$. Kẻ $MN \\parallel BC$ ($N \\in AC$). Độ dài đoạn thẳng $AN$ là:",
         "options": [
+          "$5$",
           "$4$",
-          "$3$",
           "$6$",
-          "$5$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có chu vi $24\text{ cm}$. Gọi $M, N, P$ lần lượt là trung điểm của ba cạnh. Chu vi tam giác $MNP$ bằng:",
         "options": [
-          "$12\text{ cm}$",
+          "$16\text{ cm}$",
           "$6\text{ cm}$",
           "$8\text{ cm}$",
-          "$16\text{ cm}$"
+          "$12\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$) có $AB = 4\text{ cm}, CD = 8\text{ cm}$. Giao điểm của hai đường chéo là $O$. Tỉ số $\frac{OA}{OC}$ bằng:",
         "options": [
-          "$\frac{1}{2}$",
-          "$\frac{1}{3}$",
           "$\frac{2}{3}$",
-          "$2$"
+          "$2$",
+          "$\frac{1}{3}$",
+          "$\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ có phân giác $AD$. Biết $AB = 8, AC = 12$ và $BD = 4$. Độ dài cạnh $BC$ là:",
         "options": [
-          "$10$",
           "$6$",
-          "$8$",
-          "$12$"
+          "$10$",
+          "$12$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -2644,9 +2644,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có $AB = 6\text{ cm}, AC = 9\text{ cm}$. Phân giác góc ngoài tại đỉnh $A$ cắt đường thẳng $BC$ tại $E$. Tỉ số $\frac{EB}{EC}$ bằng:",
         "options": [
           "$\frac{2}{3}$",
+          "$\frac{2}{5}$",
           "$\frac{3}{2}$",
-          "$\frac{1}{3}$",
-          "$\frac{2}{5}$"
+          "$\frac{1}{3}$"
         ],
         "correct": 0
       },
@@ -2655,12 +2655,12 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$. Gọi $D, E$ lần lượt là trung điểm của $AB, BC$. Lấy $K$ trên đoạn $DE$ sao cho $DK = 2KE$. Tỉ số $\frac{DK}{AC}$ bằng:",
         "options": [
-          "$\frac{1}{3}$",
           "$\frac{1}{4}$",
+          "$\frac{1}{3}$",
           "$\frac{1}{6}$",
           "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -2668,9 +2668,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho hình thoi $ABCD$. Gọi $E, F, G, H$ lần lượt là trung điểm của $AB, BC, CD, DA$. Tứ giác $EFGH$ là hình gì?",
         "options": [
           "Hình chữ nhật",
-          "Hình thoi",
           "Hình vuông",
-          "Hình bình hành không có góc vuông"
+          "Hình bình hành không có góc vuông",
+          "Hình thoi"
         ],
         "correct": 0
       },
@@ -2680,8 +2680,8 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho tam giác $ABC$ có $DE \\parallel BC$ ($D \\in AB, E \\in AC$). Biết diện tích $\triangle ADE$ bằng $\frac{1}{9}$ diện tích $\triangle ABC$. Tỉ số $\frac{AD}{AB}$ bằng:",
         "options": [
           "$\frac{1}{3}$",
-          "$\frac{1}{9}$",
           "$\frac{1}{6}$",
+          "$\frac{1}{9}$",
           "$\frac{2}{3}$"
         ],
         "correct": 0
@@ -2691,36 +2691,36 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$ vuông tại $A$ có $AB = 12\text{ cm}, AC = 16\text{ cm}$. Đường phân giác góc $A$ cắt $BC$ tại $D$. Khoảng cách từ $D$ đến cạnh $AB$ bằng:",
         "options": [
-          "$\frac{48}{7}\text{ cm}$",
-          "$6\text{ cm}$",
           "$8\text{ cm}$",
-          "$\frac{36}{7}\text{ cm}$"
+          "$\frac{36}{7}\text{ cm}$",
+          "$\frac{48}{7}\text{ cm}$",
+          "$6\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ có đường trung tuyến $AM$. Gọi $G$ là trọng tâm. Qua $G$ kẻ đường thẳng song song với $BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\frac{AD}{AB} = \frac{1}{3}$",
-          "$\frac{AD}{AB} = \frac{2}{3}$",
           "$\frac{DE}{BC} = \frac{2}{3}$",
-          "$\frac{S_{\triangle ADE}}{S_{\triangle ABC}} = \frac{4}{9}$"
+          "$\frac{S_{\triangle ADE}}{S_{\triangle ABC}} = \frac{4}{9}$",
+          "$\frac{AD}{AB} = \frac{1}{3}$",
+          "$\frac{AD}{AB} = \frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho $\triangle ABC$. Đường phân giác của góc $B$ cắt $AC$ tại $D$. Từ $D$ kẻ đường thẳng song song với $BC$ cắt $AB$ tại $E$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$ED = EB$",
+          "$ED = AD$",
           "$ED = EA$",
-          "$ED = BC$",
-          "$ED = AD$"
+          "$ED = EB$",
+          "$ED = BC$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2853,9 +2853,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho hình bình hành $ABCD$. Một đường thẳng đi qua $D$ cắt cạnh $BC$ tại $P$ và cắt tia đối của tia $AB$ tại $Q$. Hệ thức nào sau đây đúng?",
         "options": [
           "$DP \\cdot DQ = CD \\cdot AD$",
-          "$\frac{DP}{DQ} = \frac{CP}{BQ}$",
+          "$\frac{1}{DP} + \frac{1}{DQ} = \frac{1}{CD}$",
           "$DP^2 = BP \\cdot CP$",
-          "$\frac{1}{DP} + \frac{1}{DQ} = \frac{1}{CD}$"
+          "$\frac{DP}{DQ} = \frac{CP}{BQ}$"
         ],
         "correct": 0
       },
@@ -2864,24 +2864,24 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$. Các đường phân giác $AD, BE, CF$ đồng quy tại $I$. Khẳng định nào sau đây thể hiện định lí Ceva cho đường phân giác?",
         "options": [
-          "$\frac{DB}{DC} \\cdot \frac{EC}{EA} \\cdot \frac{FA}{FB} = 1$",
-          "$\frac{DB}{DC} + \frac{EC}{EA} + \frac{FA}{FB} = 1$",
           "$\frac{DB}{DC} \\cdot \frac{EC}{EA} \\cdot \frac{FA}{FB} = -1$",
-          "$DB \\cdot EC \\cdot FA = DC \\cdot EA \\cdot FB = 1$"
+          "$\frac{DB}{DC} \\cdot \frac{EC}{EA} \\cdot \frac{FA}{FB} = 1$",
+          "$DB \\cdot EC \\cdot FA = DC \\cdot EA \\cdot FB = 1$",
+          "$\frac{DB}{DC} + \frac{EC}{EA} + \frac{FA}{FB} = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Phân giác của góc $B$ cắt $AH$ tại $E$ và cắt $AC$ tại $F$. Tỉ số $\frac{EH}{EA}$ bằng tỉ số nào dưới đây?",
         "options": [
-          "$\frac{FA}{FC}$",
-          "$\frac{FC}{FA}$",
           "$\frac{AB}{BC}$",
+          "$\frac{FC}{FA}$",
+          "$\frac{FA}{FC}$",
           "$\frac{BH}{BA}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -2889,9 +2889,9 @@ const CHAPTER4_TOAN8_EXAMS = {
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Hai đường chéo cắt nhau tại $O$. Một đường thẳng qua $O$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Tỉ số $\frac{OE}{OF}$ bằng:",
         "options": [
           "$\frac{AB}{CD}$",
-          "$\frac{CD}{AB}$",
           "$1$",
-          "$\\left(\frac{AB}{CD}\right)^2$"
+          "$\\left(\frac{AB}{CD}\right)^2$",
+          "$\frac{CD}{AB}$"
         ],
         "correct": 0
       },
@@ -2900,84 +2900,84 @@ const CHAPTER4_TOAN8_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho tam giác $ABC$ có $AB = 6, AC = 8, BC = 10$. Gọi $I$ là tâm đường tròn nội tiếp tam giác. Khoảng cách từ $I$ đến các cạnh của tam giác bằng:",
         "options": [
-          "$2$",
-          "$2.5$",
           "$3$",
-          "$1.5$"
+          "$1.5$",
+          "$2.5$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho tứ giác $ABCD$. Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Biết $MN = \frac{AB + CD}{2}$. Khi đó tứ giác $ABCD$ là:",
         "options": [
-          "Hình thang có hai đáy $AB$ và $CD$",
           "Hình bình hành",
-          "Hình chữ nhật",
-          "Tứ giác có hai đường chéo vuông góc"
+          "Hình thang có hai đáy $AB$ và $CD$",
+          "Tứ giác có hai đường chéo vuông góc",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ nhọn. Các đường cao $AD, BE, CF$ cắt nhau tại $H$. Gọi $M$ là trung điểm của $BC$. Đường thẳng qua $H$ vuông góc với $MH$ cắt $AB, AC$ lần lượt tại $P, Q$. Kết luận nào sau đây đúng?",
         "options": [
-          "$HP = HQ$",
-          "$HP = 2HQ$",
+          "$P, Q, M$ thẳng hàng",
           "$HQ = 2HP$",
-          "$P, Q, M$ thẳng hàng"
+          "$HP = 2HQ$",
+          "$HP = HQ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $\triangle ABC$. Lấy điểm $D$ trên cạnh $BC$. Gọi $r_1, r_2, r$ lần lượt là bán kính đường tròn nội tiếp của $\triangle ABD, \triangle ACD, \triangle ABC$. Hệ thức nào sau đây luôn đúng?",
         "options": [
-          "$r_1 + r_2 > r$",
-          "$r_1 + r_2 = r$",
           "$r_1 + r_2 < r$",
+          "$r_1 + r_2 = r$",
+          "$r_1 + r_2 > r$",
           "$r_1 \\cdot r_2 = r^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho tam giác $ABC$ có trọng tâm $G$. Một đường thẳng $d$ đi qua $G$ cắt hai cạnh $AB, AC$ tại $M, N$. Gọi $S$ là diện tích tam giác $AMN$ và $S_0$ là diện tích tam giác $ABC$. Giá trị nhỏ nhất của tỉ số $\frac{S}{S_0}$ bằng:",
         "options": [
-          "$\frac{4}{9}$",
           "$\frac{1}{2}$",
           "$\frac{1}{3}$",
+          "$\frac{4}{9}$",
           "$\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $\triangle ABC$. Kẻ ba đường phân giác trong $AD, BE, CF$. Đặt $BC = a, CA = b, AB = c$. Biểu thức $\frac{AD^2}{bc} + \frac{BE^2}{ca} + \frac{CF^2}{ab}$ đạt giá trị lớn nhất khi:",
         "options": [
-          "Tam giác $ABC$ đều",
-          "Tam giác $ABC$ vuông cân",
           "Tam giác $ABC$ cân có góc $120^\\circ$",
-          "Mọi tam giác"
+          "Tam giác $ABC$ đều",
+          "Mọi tam giác",
+          "Tam giác $ABC$ vuông cân"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho hình bình hành $ABCD$. Điểm $M$ thuộc đường chéo $AC$. Đường thẳng qua $M$ song song với $AB$ cắt $AD, BC$ tại $E, F$. Đường thẳng qua $M$ song song với $AD$ cắt $AB, CD$ tại $H, K$. Diện tích hai hình bình hành $EMKD$ và $MFBH$:",
         "options": [
-          "Luôn bằng nhau",
+          "Chỉ bằng nhau khi $M$ là trung điểm $AC$",
           "Diện tích $EMKD$ lớn hơn",
           "Diện tích $MFBH$ lớn hơn",
-          "Chỉ bằng nhau khi $M$ là trung điểm $AC$"
+          "Luôn bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [

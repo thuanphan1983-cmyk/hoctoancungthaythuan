@@ -8,48 +8,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là biểu thức số?",
         "options": [
-          "$3^2 + 5 \\cdot 2$",
           "$2x + 1$",
+          "$3^2 + 5 \\cdot 2$",
           "$3a - b$",
           "$\\frac{x}{y}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây chứa biến (biểu thức đại số)?",
         "options": [
-          "$2x - 5$",
+          "$10 : 2 + 3$",
           "$2 \\cdot 3 + 4$",
           "$5^2 - 1$",
-          "$10 : 2 + 3$"
+          "$2x - 5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Trong biểu thức đại số $3x + 4y$, các chữ $x$ và $y$ được gọi là:",
         "options": [
-          "Biến số (biến)",
           "Hằng số",
-          "Hệ số",
-          "Hạng tử tự do"
+          "Hạng tử tự do",
+          "Biến số (biến)",
+          "Hệ số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Biểu thức đại số biểu thị chu vi hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
         "options": [
-          "$2(a + b)$",
-          "$ab$",
           "$a + b$",
-          "$2ab$"
+          "$2ab$",
+          "$2(a + b)$",
+          "$ab$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -58,8 +58,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$\\frac{1}{2}ah$",
           "$ah$",
-          "$2ah$",
-          "$a + h$"
+          "$a + h$",
+          "$2ah$"
         ],
         "correct": 0
       },
@@ -69,9 +69,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $A = 2x + 3$ tại $x = 5$ là:",
         "options": [
           "$13$",
-          "$10$",
+          "$15$",
           "$11$",
-          "$15$"
+          "$10$"
         ],
         "correct": 0
       },
@@ -80,12 +80,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $B = x^2 - 4x + 1$ tại $x = 2$ là:",
         "options": [
-          "$-3$",
-          "$1$",
           "$5$",
-          "$-5$"
+          "$1$",
+          "$-5$",
+          "$-3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -94,8 +94,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$2x + 3y$",
           "$3x + 2y$",
-          "$2x \\cdot 3y$",
-          "$(2+x)(3+y)$"
+          "$(2+x)(3+y)$",
+          "$2x \\cdot 3y$"
         ],
         "correct": 0
       },
@@ -104,48 +104,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu thức đại số biểu thị \"Bình phương của tổng hai số $a$ và $b$\" là:",
         "options": [
-          "$(a + b)^2$",
-          "$a^2 + b^2$",
+          "$2(a + b)$",
           "$a + b^2$",
-          "$2(a + b)$"
+          "$(a + b)^2$",
+          "$a^2 + b^2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = 3x - 2y$ tại $x = 2, y = -1$ là:",
         "options": [
-          "$8$",
+          "$-4$",
           "$4$",
           "$-8$",
-          "$-4$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Một người đi xe máy với vận tốc $40$ km/h trong $t$ giờ và sau đó đi bộ với vận tốc $5$ km/h trong $2$ giờ. Tổng quãng đường đi được là:",
         "options": [
-          "$40t + 10$",
           "$40t + 5$",
+          "$40t + 10$",
           "$45t$",
           "$80 + 5t$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $Q = \\frac{2x - 1}{x + 2}$ tại $x = 3$ là:",
         "options": [
-          "$1$",
           "$\\frac{5}{3}$",
-          "$\\frac{7}{5}$",
-          "$2$"
+          "$1$",
+          "$2$",
+          "$\\frac{7}{5}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -304,24 +304,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $A = 2x^2 - 5x + 3$ tại $x = -2$ là:",
         "options": [
-          "$21$",
           "$1$",
+          "$15$",
           "$-5$",
-          "$15$"
+          "$21$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Biểu thức đại số biểu thị diện tích hình thang có đáy lớn $a$, đáy nhỏ $b$ và chiều cao $h$ là:",
         "options": [
-          "$\\frac{(a + b)h}{2}$",
-          "$(a + b)h$",
+          "$\\frac{a + b + h}{2}$",
           "$\\frac{ab \\cdot h}{2}$",
-          "$\\frac{a + b + h}{2}$"
+          "$\\frac{(a + b)h}{2}$",
+          "$(a + b)h$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -329,9 +329,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $B = x^2 - y^2$ tại $x = 13, y = 7$ là:",
         "options": [
           "$120$",
-          "$40$",
           "$196$",
-          "$169$"
+          "$169$",
+          "$40$"
         ],
         "correct": 0
       },
@@ -340,36 +340,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho biểu thức $C = \\frac{x + 1}{x - 1}$. Điều kiện của biến $x$ để giá trị biểu thức được xác định là:",
         "options": [
+          "Mọi $x$",
           "$x \\neq 1$",
           "$x \\neq -1$",
-          "$x > 0$",
-          "Mọi $x$"
+          "$x > 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $D = x^3 - 3x^2 + 3x - 1$ tại $x = 11$:",
         "options": [
-          "$1000$",
           "$1331$",
           "$100$",
-          "$1210$"
+          "$1210$",
+          "$1000$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Một người gửi ngân hàng số tiền $A$ đồng với lãi suất $r$ mỗi năm. Biểu thức biểu thị số tiền cả gốc lẫn lãi sau 1 năm là:",
         "options": [
-          "$A(1 + r)$",
           "$A + r$",
-          "$Ar$",
-          "$A(1 - r)$"
+          "$A(1 - r)$",
+          "$A(1 + r)$",
+          "$Ar$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -378,8 +378,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$14$",
           "$-14$",
-          "$2$",
-          "$-2$"
+          "$-2$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -388,36 +388,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm $x$ để biểu thức $E = 2x - 6$ có giá trị bằng $10$:",
         "options": [
-          "$x = 8$",
-          "$x = 2$",
           "$x = 4$",
-          "$x = -8$"
+          "$x = 2$",
+          "$x = -8$",
+          "$x = 8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho $x - y = 5$. Giá trị của biểu thức $H = 2(x - y) + 3$ là:",
         "options": [
-          "$13$",
-          "$10$",
           "$8$",
-          "$15$"
+          "$15$",
+          "$13$",
+          "$10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Biểu thức đại số biểu thị tổng bình phương của 3 số nguyên liên tiếp bắt đầu từ $n$ là:",
         "options": [
-          "$n^2 + (n+1)^2 + (n+2)^2$",
           "$[n + (n+1) + (n+2)]^2$",
-          "$3n^2 + 3$",
-          "$n^2 + n^2 + n^2$"
+          "$n^2 + (n+1)^2 + (n+2)^2$",
+          "$n^2 + n^2 + n^2$",
+          "$3n^2 + 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -425,9 +425,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho $x + y = 3$. Giá trị của biểu thức $K = x^2 + 2xy + y^2 - 4x - 4y + 5$ là:",
         "options": [
           "$2$",
-          "$4$",
+          "$0$",
           "$5$",
-          "$0$"
+          "$4$"
         ],
         "correct": 0
       },
@@ -436,12 +436,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $P = (x - 2)^2 + 7$ là:",
         "options": [
-          "$7$ (khi $x = 2$)",
-          "$2$",
           "$0$",
-          "$9$"
+          "$7$ (khi $x = 2$)",
+          "$9$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -600,48 +600,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $x + y = 1$. Giá trị của biểu thức $A = x^3 + y^3 + 3xy$ là:",
         "options": [
-          "$1$",
           "$3$",
-          "$0$",
-          "$2$"
+          "$2$",
+          "$1$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $B = \\frac{x^2 - y^2}{(x+y)^2}$ tại $x = 105, y = 95$ là:",
         "options": [
-          "$\\frac{1}{20}$",
+          "$1$",
           "$\\frac{1}{10}$",
           "$\\frac{1}{40}$",
-          "$1$"
+          "$\\frac{1}{20}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Cho $a - b = 7$. Giá trị của biểu thức $C = a(a + 2) + b(b - 2) - 2ab$ là:",
         "options": [
-          "$63$",
-          "$49$",
+          "$56$",
           "$70$",
-          "$56$"
+          "$49$",
+          "$63$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Giá trị nhỏ nhất của biểu thức $M = x^2 - 6x + 14$ là:",
         "options": [
-          "$5$ (đạt khi $x = 3$)",
-          "$14$",
+          "$9$",
           "$0$",
-          "$9$"
+          "$14$",
+          "$5$ (đạt khi $x = 3$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -649,8 +649,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Giá trị lớn nhất của biểu thức $N = 10 - (x + 1)^2$ là:",
         "options": [
           "$10$ (đạt khi $x = -1$)",
-          "$9$",
           "$11$",
+          "$9$",
           "$1$"
         ],
         "correct": 0
@@ -672,24 +672,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho ba số thực $a, b, c$ thỏa mãn $a + b + c = 0$. Giá trị của biểu thức $Q = (a + b)(b + c)(c + a) + abc$ là:",
         "options": [
-          "$0$",
+          "$1$",
           "$abc$",
-          "$-abc$",
-          "$1$"
+          "$0$",
+          "$-abc$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho $x, y$ thỏa mãn $x^2 + y^2 - 4x + 6y + 13 = 0$. Giá trị của biểu thức $x + y$ là:",
         "options": [
-          "$-1$",
-          "$1$",
           "$5$",
-          "$-5$"
+          "$-1$",
+          "$-5$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -697,9 +697,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho biểu thức $A = \\frac{x^2 + 8}{x^2 + 2}$. Giá trị lớn nhất của $A$ là:",
         "options": [
           "$4$ (đạt tại $x = 0$)",
+          "$5$",
           "$8$",
-          "$2$",
-          "$5$"
+          "$2$"
         ],
         "correct": 0
       },
@@ -708,36 +708,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số cặp số nguyên $(x; y)$ thỏa mãn biểu thức $(x - 1)(y + 2) = 5$ là:",
         "options": [
-          "$4$ cặp",
           "$2$ cặp",
-          "$8$ cặp",
-          "$1$ cặp"
+          "$4$ cặp",
+          "$1$ cặp",
+          "$8$ cặp"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $a + b + c = 0$ và $a^2 + b^2 + c^2 = 14$. Giá trị của biểu thức $ab + bc + ca$ là:",
         "options": [
-          "$-7$",
-          "$7$",
+          "$14$",
           "$-14$",
-          "$14$"
+          "$-7$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $H = x^2 + 2y^2 - 2xy - 4y + 10$:",
         "options": [
+          "$2$",
           "$6$",
-          "$10$",
           "$4$",
-          "$2$"
+          "$10$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -896,24 +896,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là đơn thức một biến?",
         "options": [
+          "$\\frac{2}{x}$",
           "$3x^2$",
           "$2x + 1$",
-          "$x - y$",
-          "$\\frac{2}{x}$"
+          "$x - y$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Đa thức một biến là:",
         "options": [
-          "Tổng của những đơn thức của cùng một biến",
           "Tích của hai biến số",
+          "Biểu thức chứa căn bậc hai",
           "Thương của hai số nguyên",
-          "Biểu thức chứa căn bậc hai"
+          "Tổng của những đơn thức của cùng một biến"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -921,9 +921,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Bậc của đa thức $P(x) = 5x^4 - 3x^2 + x - 7$ là:",
         "options": [
           "$4$",
-          "$2$",
           "$1$",
-          "$0$"
+          "$0$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -932,48 +932,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Trong đa thức $P(x) = 5x^4 - 3x^2 + x - 7$, hệ số cao nhất là:",
         "options": [
-          "$5$",
+          "$-7$",
           "$-3$",
-          "$1$",
-          "$-7$"
+          "$5$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Trong đa thức $P(x) = 5x^4 - 3x^2 + x - 7$, hệ số tự do là:",
         "options": [
-          "$-7$",
-          "$7$",
           "$5$",
+          "$7$",
+          "$-7$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Sắp xếp đa thức $Q(x) = 2x - 5x^3 + 1 + 4x^2$ theo lũy thừa giảm dần của biến:",
         "options": [
-          "$-5x^3 + 4x^2 + 2x + 1$",
-          "$1 + 2x + 4x^2 - 5x^3$",
           "$4x^2 - 5x^3 + 2x + 1$",
+          "$1 + 2x + 4x^2 - 5x^3$",
+          "$-5x^3 + 4x^2 + 2x + 1$",
           "$-5x^3 + 2x + 4x^2 + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho đa thức $A(x) = 2x^3 - 3x + 1$. Giá trị của $A(1)$ là:",
         "options": [
+          "$6$",
           "$0$",
           "$2$",
-          "$6$",
           "$-1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -982,8 +982,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$x = 2$",
           "$x = 0$",
-          "$x = 4$",
-          "$x = 1$"
+          "$x = 1$",
+          "$x = 4$"
         ],
         "correct": 0
       },
@@ -993,9 +993,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Thu gọn đa thức $P(x) = 3x^2 - 5x + 2x^2 + 4x - 1$ ta được:",
         "options": [
           "$5x^2 - x - 1$",
-          "$5x^2 + x - 1$",
+          "$5x^2 - 9x - 1$",
           "$x^2 - x - 1$",
-          "$5x^2 - 9x - 1$"
+          "$5x^2 + x - 1$"
         ],
         "correct": 0
       },
@@ -1004,36 +1004,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Đa thức bậc 0 là:",
         "options": [
-          "Một số khác 0",
-          "Số 0",
           "Đa thức có biến $x$",
-          "Không tồn tại"
+          "Số 0",
+          "Không tồn tại",
+          "Một số khác 0"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Bậc của đa thức $P(x) = (2x^3 - x^2) - (2x^3 - 3x^2 + 1)$ sau khi thu gọn là:",
         "options": [
-          "$2$",
+          "$0$",
           "$3$",
           "$1$",
-          "$0$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Nghiệm của đa thức $f(x) = 2x - 6$ là:",
         "options": [
+          "$x = 6$",
           "$x = 3$",
           "$x = -3$",
-          "$x = 6$",
           "$x = 2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1192,96 +1192,96 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho đa thức $P(x) = ax^3 + 2x^2 - x + 1$. Biết $P(1) = 4$, giá trị của $a$ là:",
         "options": [
-          "$a = 2$",
-          "$a = 1$",
           "$a = 3$",
-          "$a = -2$"
+          "$a = 1$",
+          "$a = -2$",
+          "$a = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Số nghiệm tối đa của một đa thức một biến bậc $n$ ($n \\ge 1$) là:",
         "options": [
-          "$n$ nghiệm",
-          "$n + 1$ nghiệm",
           "$n - 1$ nghiệm",
-          "Vô số nghiệm"
+          "$n + 1$ nghiệm",
+          "Vô số nghiệm",
+          "$n$ nghiệm"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Đa thức nào sau đây KHÔNG có nghiệm thực?",
         "options": [
+          "$x^3 + 1$",
           "$x^2 + 1$",
-          "$x^2 - 1$",
           "$x + 1$",
-          "$x^3 + 1$"
+          "$x^2 - 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho $P(x) = 2x^2 - 3x + m$. Để $x = 2$ là nghiệm của $P(x)$ thì giá trị của $m$ là:",
         "options": [
-          "$m = -2$",
-          "$m = 2$",
+          "$m = -1$",
           "$m = 1$",
-          "$m = -1$"
+          "$m = -2$",
+          "$m = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tập hợp các nghiệm của đa thức $A(x) = x(x - 3)(2x + 4)$ là:",
         "options": [
-          "$\\{0; 3; -2\\}$",
-          "$\\{3; -2\\}$",
           "$\\{0; -3; 2\\}$",
-          "$\\{0; 3; 2\\}$"
+          "$\\{0; 3; -2\\}$",
+          "$\\{0; 3; 2\\}$",
+          "$\\{3; -2\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Bậc của đa thức $f(x) = (x^2 + 1)(x^3 - 2x + 1)$ là:",
         "options": [
-          "$5$",
-          "$6$",
+          "$2$",
           "$3$",
-          "$2$"
+          "$5$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x) = x^4 - 2024x^3 + 2024x^2 - 2024x + 2025$. Giá trị của $P(2023)$ là:",
         "options": [
-          "$2$",
           "$1$",
-          "$2024$",
-          "$0$"
+          "$2$",
+          "$0$",
+          "$2024$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Nghiệm của đa thức $g(x) = (x - 1)^2 - 9$ là:",
         "options": [
-          "$x = 4$ và $x = -2$",
-          "$x = 4$ và $x = 2$",
           "$x = 10$ và $x = -8$",
-          "$x = 3$ và $x = -3$"
+          "$x = 4$ và $x = 2$",
+          "$x = 3$ và $x = -3$",
+          "$x = 4$ và $x = -2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -1289,8 +1289,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Tổng các hệ số của đa thức $P(x) = (2x - 1)^{10}$ là:",
         "options": [
           "$1$",
-          "$2^{10}$",
           "$-1$",
+          "$2^{10}$",
           "$0$"
         ],
         "correct": 0
@@ -1300,12 +1300,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho đa thức $M(x) = x^2 + 4x + 5$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$M(x) > 0$ với mọi $x$, do đó đa thức vô nghiệm",
+          "$M(x)$ có nghiệm $x = -1$",
           "$M(x)$ có 2 nghiệm phân biệt",
-          "$M(x)$ có nghiệm $x = -2$",
-          "$M(x)$ có nghiệm $x = -1$"
+          "$M(x) > 0$ với mọi $x$, do đó đa thức vô nghiệm",
+          "$M(x)$ có nghiệm $x = -2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -1313,9 +1313,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Tìm đa thức bậc nhất $P(x) = ax + b$ biết $P(1) = 3$ và $P(2) = 5$:",
         "options": [
           "$P(x) = 2x + 1$",
+          "$P(x) = 2x - 1$",
           "$P(x) = x + 2$",
-          "$P(x) = 3x$",
-          "$P(x) = 2x - 1$"
+          "$P(x) = 3x$"
         ],
         "correct": 0
       },
@@ -1325,9 +1325,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết $P(0), P(1), P(2)$ đều là các số nguyên. Khẳng định nào sau đây đúng?",
         "options": [
           "$2a$ và $2b$ là các số nguyên",
-          "$a, b, c$ bắt buộc phải là các số nguyên",
+          "$P(3)$ không chắc là số nguyên",
           "$a + b$ là số lẻ",
-          "$P(3)$ không chắc là số nguyên"
+          "$a, b, c$ bắt buộc phải là các số nguyên"
         ],
         "correct": 0
       }
@@ -1492,48 +1492,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho đa thức $P(x) = x^5 - 5x^4 + 5x^3 - 5x^2 + 5x - 1$. Giá trị của $P(4)$ là:",
         "options": [
-          "$3$",
           "$1$",
+          "$3$",
           "$-1$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Vận dụng",
         "question": "Cho đa thức $f(x)$ thỏa mãn $x \\cdot f(x - 1) = (x - 2) \\cdot f(x)$ với mọi $x$. Đa thức $f(x)$ có ít nhất mấy nghiệm?",
         "options": [
-          "$2$ nghiệm ($x = 0$ và $x = 1$)",
-          "$1$ nghiệm",
           "$3$ nghiệm",
-          "Vô nghiệm"
+          "$1$ nghiệm",
+          "Vô nghiệm",
+          "$2$ nghiệm ($x = 0$ và $x = 1$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Đa thức $P(x) = ax^2 + bx + c$ có $a, b, c$ cùng dấu. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$P(x)$ không thể có nghiệm dương",
           "$P(x)$ luôn có nghiệm dương",
           "$P(x)$ luôn vô nghiệm",
+          "$P(x)$ không thể có nghiệm dương",
           "$P(0) < 0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Tổng các nghiệm của đa thức $P(x) = (x^2 - 4)(x^2 - 9)$ là:",
         "options": [
+          "$13$",
           "$0$",
-          "$5$",
           "$-5$",
-          "$13$"
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -1541,9 +1541,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho $P(x) = x^3 + ax^2 + bx + c$. Biết $P(1) = 1, P(2) = 4, P(3) = 9$. Giá trị của $P(4)$ là:",
         "options": [
           "$22$",
-          "$16$",
+          "$25$",
           "$20$",
-          "$25$"
+          "$16$"
         ],
         "correct": 0
       },
@@ -1552,60 +1552,60 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Đa thức $P(x)$ chia cho $x - 1$ dư 5, chia cho $x - 2$ dư 7. Phần dư khi chia $P(x)$ cho $(x - 1)(x - 2)$ là:",
         "options": [
-          "$2x + 3$",
           "$x + 4$",
           "$3x + 2$",
+          "$2x + 3$",
           "$2x - 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các nghiệm nguyên của đa thức $P(x) = x^3 - 3x^2 - x + 3$:",
         "options": [
-          "$\\{-1; 1; 3\\}$",
-          "$\\{1; 2; 3\\}$",
           "$\\{-3; 1; 3\\}$",
-          "$\\{-1; 0; 3\\}$"
+          "$\\{-1; 0; 3\\}$",
+          "$\\{1; 2; 3\\}$",
+          "$\\{-1; 1; 3\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x)$ có các hệ số nguyên. Biết $P(1)$ và $P(2)$ là các số lẻ. Khẳng định nào sau đây đúng?",
         "options": [
-          "$P(x)$ không thể có nghiệm nguyên",
           "$P(x)$ có ít nhất 1 nghiệm nguyên",
           "$P(x)$ có vô số nghiệm",
-          "$P(0)$ là số chẵn"
+          "$P(0)$ là số chẵn",
+          "$P(x)$ không thể có nghiệm nguyên"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Số nghiệm của đa thức $f(x) = (x^2 + 2x + 2)^2 + (x + 1)^2$ là:",
         "options": [
-          "$0$ nghiệm",
-          "$2$ nghiệm",
+          "$1$ nghiệm",
           "$4$ nghiệm",
-          "$1$ nghiệm"
+          "$0$ nghiệm",
+          "$2$ nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x) = x^2 + px + q$ ($p, q \\in \\mathbb{Z}$). Biết $P(x)$ nhận giá trị nguyên tố tại 3 giá trị nguyên liên tiếp của $x$. Khẳng định nào sau đây đúng?",
         "options": [
+          "Không tồn tại đa thức như vậy",
           "Có giá trị nguyên tố bằng 2 hoặc 3",
-          "Cả 3 giá trị đều bằng nhau",
           "p và q cùng chẵn",
-          "Không tồn tại đa thức như vậy"
+          "Cả 3 giá trị đều bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -1613,9 +1613,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết $5a + b + 2c = 0$. Khẳng định nào sau đây đúng?",
         "options": [
           "$P(x)$ có ít nhất một nghiệm nằm trong đoạn $[-1; 2]$",
-          "$P(x)$ luôn vô nghiệm",
           "$P(x) > 0$ với mọi $x$",
-          "$P(0) = 0$"
+          "$P(0) = 0$",
+          "$P(x)$ luôn vô nghiệm"
         ],
         "correct": 0
       },
@@ -1625,9 +1625,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Tìm hệ số cao nhất của đa thức $P(x)$ bậc 3 biết $P(x) - P(x - 1) = x^2$ với mọi $x$:",
         "options": [
           "$\\frac{1}{3}$",
+          "$\\frac{1}{6}$",
           "$1$",
-          "$\\frac{1}{2}$",
-          "$\\frac{1}{6}$"
+          "$\\frac{1}{2}$"
         ],
         "correct": 0
       }
@@ -1793,9 +1793,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Để cộng hai đa thức một biến, ta thực hiện:",
         "options": [
           "Cộng các hệ số của các đơn thức có cùng số mũ của biến",
+          "Chỉ cộng hệ số tự do",
           "Nhân các hệ số với nhau",
-          "Cộng các số mũ với nhau",
-          "Chỉ cộng hệ số tự do"
+          "Cộng các số mũ với nhau"
         ],
         "correct": 0
       },
@@ -1804,60 +1804,60 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi trừ một đa thức, ta đổi dấu của:",
         "options": [
+          "Không đổi dấu",
           "Tất cả các hạng tử trong đa thức bị trừ",
-          "Chỉ hạng tử đầu tiên",
           "Chỉ hạng tử tự do",
-          "Không đổi dấu"
+          "Chỉ hạng tử đầu tiên"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $P(x) = 2x^2 + 3x - 1$ và $Q(x) = x^2 - 2x + 4$. Tổng $P(x) + Q(x)$ bằng:",
         "options": [
-          "$3x^2 + x + 3$",
           "$3x^2 + 5x + 3$",
+          "$3x^2 + x + 3$",
           "$x^2 + x + 3$",
           "$3x^2 + x - 5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho $P(x) = 2x^2 + 3x - 1$ và $Q(x) = x^2 - 2x + 4$. Hiệu $P(x) - Q(x)$ bằng:",
         "options": [
-          "$x^2 + 5x - 5$",
           "$x^2 + x + 3$",
           "$3x^2 + x - 5$",
+          "$x^2 + 5x - 5$",
           "$x^2 - 5x + 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $A(x) = 4x^3 - 2x + 1$ và $B(x) = -4x^3 + 5x - 3$. Bậc của đa thức $A(x) + B(x)$ là:",
         "options": [
-          "$1$",
-          "$3$",
+          "$0$",
           "$2$",
-          "$0$"
+          "$1$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho $P(x) + (x^2 - 2x + 1) = 3x^2 + x - 2$. Đa thức $P(x)$ là:",
         "options": [
-          "$2x^2 + 3x - 3$",
-          "$4x^2 - x - 1$",
           "$2x^2 - x - 3$",
-          "$2x^2 + 3x - 1$"
+          "$2x^2 + 3x - 1$",
+          "$4x^2 - x - 1$",
+          "$2x^2 + 3x - 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -1865,8 +1865,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho $M(x) = 5x^2 - 3x$ và $N(x) = 2x^2 - 3x + 4$. Hiệu $M(x) - N(x)$ bằng:",
         "options": [
           "$3x^2 - 4$",
-          "$3x^2 - 6x - 4$",
           "$3x^2 + 4$",
+          "$3x^2 - 6x - 4$",
           "$7x^2 - 6x + 4$"
         ],
         "correct": 0
@@ -1876,12 +1876,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của đa thức $P(x) + Q(x)$ tại $x = 1$ biết $P(1) = 4$ và $Q(1) = -2$ là:",
         "options": [
-          "$2$",
-          "$6$",
           "$-8$",
-          "$-2$"
+          "$6$",
+          "$-2$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -1889,9 +1889,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Giá trị của đa thức $P(x) - Q(x)$ tại $x = 2$ biết $P(2) = 5$ và $Q(2) = 8$ là:",
         "options": [
           "$-3$",
-          "$3$",
           "$13$",
-          "$40$"
+          "$40$",
+          "$3$"
         ],
         "correct": 0
       },
@@ -1900,36 +1900,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hệ số tự do của đa thức $(3x^2 - 5x + 7) - (2x^2 + 4x - 3)$ là:",
         "options": [
-          "$10$",
+          "$-4$",
           "$4$",
           "$-10$",
-          "$-4$"
+          "$10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Cho $P(x) = x^2 - 2x + 1$ và $Q(x) = -x^2 + 2x - 1$. Tổng $P(x) + Q(x)$ là:",
         "options": [
-          "Đa thức $0$",
-          "$2x^2 - 4x + 2$",
           "Đa thức bậc 2",
-          "Đa thức bậc 1"
+          "Đa thức bậc 1",
+          "Đa thức $0$",
+          "$2x^2 - 4x + 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Nghiệm của đa thức $H(x) = (3x - 2) - (x + 4)$ là:",
         "options": [
+          "$x = 2$",
           "$x = 3$",
           "$x = 1$",
-          "$x = -3$",
-          "$x = 2$"
+          "$x = -3$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2088,24 +2088,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $P(x) = 3x^4 - 2x^2 + 5$ và $Q(x) = -3x^4 + 4x^2 - 2x + 1$. Bậc của đa thức $P(x) + Q(x)$ là:",
         "options": [
-          "$2$",
           "$4$",
+          "$2$",
           "$3$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $A(x) = 2x^3 - 3x^2 + 4x - 1$ và $B(x) = 2x^3 + x^2 - 5$. Hiệu $A(x) - B(x)$ bằng:",
         "options": [
-          "$-4x^2 + 4x + 4$",
-          "$4x^3 - 2x^2 + 4x - 6$",
           "$-4x^2 + 4x - 6$",
-          "$-2x^2 + 4x - 6$"
+          "$-4x^2 + 4x + 4$",
+          "$-2x^2 + 4x - 6$",
+          "$4x^3 - 2x^2 + 4x - 6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -2113,9 +2113,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Hệ số cao nhất của đa thức $P(x) - Q(x)$ biết $P(x) = 5x^3 - 2x + 1$ và $Q(x) = 2x^3 + 4x^2 - 3$ là:",
         "options": [
           "$3$",
+          "$-2$",
           "$5$",
-          "$-4$",
-          "$-2$"
+          "$-4$"
         ],
         "correct": 0
       },
@@ -2124,60 +2124,60 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm đa thức $M(x)$ biết $M(x) - (2x^2 - 3x + 1) = x^2 + 4x - 5$:",
         "options": [
-          "$3x^2 + x - 6$",
           "$x^2 - 7x + 6$",
-          "$3x^2 - x - 4$",
-          "$x^2 + 7x - 4$"
+          "$x^2 + 7x - 4$",
+          "$3x^2 + x - 6$",
+          "$3x^2 - x - 4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $P(x) = x^2 - 4x + 3$. Đa thức đối của đa thức $P(x)$ là:",
         "options": [
-          "$-x^2 + 4x - 3$",
           "$x^2 + 4x - 3$",
+          "$-x^2 - 4x - 3$",
           "$-x^2 - 4x + 3$",
-          "$-x^2 - 4x - 3$"
+          "$-x^2 + 4x - 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Cho $P(x) = ax^2 - 2x + 3$ và $Q(x) = 2x^2 + bx - 1$. Biết $P(x) + Q(x) = 5x^2 + x + 2$. Giá trị của $a$ và $b$ là:",
         "options": [
-          "$a = 3, b = 3$",
-          "$a = 3, b = -1$",
+          "$a = 5, b = 1$",
           "$a = 7, b = 3$",
-          "$a = 5, b = 1$"
+          "$a = 3, b = -1$",
+          "$a = 3, b = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Giá trị của hiệu $P(x) - Q(x)$ tại $x = -1$ biết $P(-1) = 12$ và $Q(-1) = 7$ là:",
         "options": [
-          "$5$",
           "$19$",
+          "$5$",
           "$-5$",
           "$-19$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Nghiệm của đa thức $D(x) = (2x^2 - 3x + 1) - (2x^2 + x - 7)$ là:",
         "options": [
-          "$x = 2$",
           "$x = -2$",
+          "$x = 1$",
           "$x = 4$",
-          "$x = 1$"
+          "$x = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2185,9 +2185,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Chu vi của một tam giác có ba cạnh lần lượt là $x + 2, 2x - 1, 3x + 4$ (cm) được biểu thị bởi đa thức:",
         "options": [
           "$6x + 5$",
+          "$5x - 3$",
           "$5x + 5$",
-          "$6x - 5$",
-          "$5x - 3$"
+          "$6x - 5$"
         ],
         "correct": 0
       },
@@ -2196,12 +2196,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho $A(x) = x^3 - 3x + 2$ và $B(x) = x^2 + 2x - 1$. Bậc của đa thức $2A(x) - 3B(x)$ là:",
         "options": [
-          "$3$",
-          "$2$",
+          "$5$",
           "$1$",
-          "$5$"
+          "$3$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -2209,9 +2209,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho đa thức $P(x)$ thỏa mãn $P(x) + P(-x) = 2x^2 + 6$ với mọi $x$. Khẳng định nào sau đây là đúng?",
         "options": [
           "$P(x)$ chỉ chứa các số mũ chẵn của biến $x$",
+          "$P(x)$ vô nghiệm",
           "$P(x)$ là đa thức bậc 1",
-          "$P(0) = 0$",
-          "$P(x)$ vô nghiệm"
+          "$P(0) = 0$"
         ],
         "correct": 0
       },
@@ -2220,12 +2220,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho ba đa thức $A(x), B(x), C(x)$ thỏa mãn $A(x) + B(x) = x^2 + 1$, $B(x) + C(x) = 2x^2 - x$, $C(x) + A(x) = 3x^2 + x + 1$. Đa thức $A(x)$ là:",
         "options": [
-          "$x^2 + x + 1$",
-          "$x^2$",
           "$2x^2 + 1$",
+          "$x^2$",
+          "$x^2 + x + 1$",
           "$x^2 - x$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2388,48 +2388,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hai đa thức $P(x)$ và $Q(x)$ cùng có bậc $n$. Bậc của đa thức $P(x) + Q(x)$ là:",
         "options": [
-          "Nhỏ hơn hoặc bằng $n$",
-          "Bằng $2n$",
           "Bằng $n$",
+          "Bằng $2n$",
+          "Nhỏ hơn hoặc bằng $n$",
           "Luôn nhỏ hơn $n$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $P(x) = ax^2 + bx + c$ và $Q(x) = a'x^2 + b'x + c'$. Để $P(x) + Q(x)$ là đa thức bậc 1 thì điều kiện là:",
         "options": [
-          "$a + a' = 0$ và $b + b' \\neq 0$",
-          "$a = a'$",
           "$b = b'$",
-          "$a + a' \\neq 0$"
+          "$a + a' \\neq 0$",
+          "$a = a'$",
+          "$a + a' = 0$ và $b + b' \\neq 0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Cho $P(x) = 2x^3 - 3x^2 + x - 1$ và $Q(x) = -2x^3 + 3x^2 + 2x + 5$. Nghiệm của đa thức $P(x) + Q(x)$ là:",
         "options": [
-          "$x = -\\frac{4}{3}$",
           "$x = \\frac{4}{3}$",
-          "$x = -4$",
-          "$x = 4$"
+          "$x = 4$",
+          "$x = -\\frac{4}{3}$",
+          "$x = -4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x)$ thỏa mãn $P(x) + (2x^2 - x + 1) = (x + 2)^2$. Đa thức $P(x)$ là:",
         "options": [
-          "$-x^2 + 5x + 3$",
-          "$3x^2 + 3x + 5$",
           "$x^2 + 5x + 3$",
-          "$-x^2 + 3x + 5$"
+          "$-x^2 + 3x + 5$",
+          "$-x^2 + 5x + 3$",
+          "$3x^2 + 3x + 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -2450,8 +2450,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$7$",
           "$23$",
-          "$-7$",
-          "$-120$"
+          "$-120$",
+          "$-7$"
         ],
         "correct": 0
       },
@@ -2460,48 +2460,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho ba đa thức $A(x), B(x), C(x)$ thỏa mãn $A(x) - B(x) = x^2, B(x) - C(x) = 2x, C(x) - A(x) = -x^2 - 2x$. Tổng $A(x) + B(x) + C(x)$ phụ thuộc vào:",
         "options": [
-          "Một trong ba đa thức ban đầu (hằng số tự do)",
           "Chỉ bậc của $A(x)$",
           "Bằng 0",
-          "Không tồn tại bộ đa thức"
+          "Không tồn tại bộ đa thức",
+          "Một trong ba đa thức ban đầu (hằng số tự do)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $f(x)$ thỏa mãn $f(x) - f(x - 1) = 2x - 1$ và $f(0) = 0$. Đa thức $f(x)$ là:",
         "options": [
-          "$f(x) = x^2$",
-          "$f(x) = 2x^2 - x$",
           "$f(x) = x^2 + x$",
-          "$f(x) = x^2 - x$"
+          "$f(x) = x^2$",
+          "$f(x) = x^2 - x$",
+          "$f(x) = 2x^2 - x$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $P(x) = ax^2 + bx + c$. Biết $P(x) - P(x - 1) = 4x - 1$. Hệ số $a$ và $b$ là:",
         "options": [
-          "$a = 2, b = 1$",
-          "$a = 4, b = -1$",
           "$a = 2, b = -1$",
-          "$a = 1, b = 2$"
+          "$a = 1, b = 2$",
+          "$a = 4, b = -1$",
+          "$a = 2, b = 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho hai đa thức $P(x)$ và $Q(x)$ thỏa mãn $P(x) + Q(x) = x^2 + 2$ và $P(x) - Q(x) = 4x$. Khi đó $P(x)$ là:",
         "options": [
+          "$x^2 + 2x + 1$",
           "$\\frac{1}{2}x^2 + 2x + 1$",
           "$x^2 + 4x + 2$",
-          "$\\frac{1}{2}x^2 - 2x + 1$",
-          "$x^2 + 2x + 1$"
+          "$\\frac{1}{2}x^2 - 2x + 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -2509,8 +2509,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Đa thức $P(x) + Q(x)$ có bậc là 4. Biết $Q(x)$ có bậc 6. Bậc của đa thức $P(x)$ là:",
         "options": [
           "$6$",
-          "$4$",
           "$2$",
+          "$4$",
           "Không xác định"
         ],
         "correct": 0
@@ -2520,12 +2520,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho hai đa thức $A(x) = x^2 + ax + 1$ và $B(x) = x^2 + bx + 1$. Biết $A(x) - B(x)$ có nghiệm $x = 2$ ($a \\neq b$). Khi đó:",
         "options": [
-          "Điều này xảy ra khi $(a - b) \\cdot 2 = 0 \\Rightarrow$ mâu thuẫn vì $a \\neq b$",
-          "Luôn có nghiệm $x = 0$",
           "$a + b = 2$",
-          "Vô số nghiệm"
+          "Điều này xảy ra khi $(a - b) \\cdot 2 = 0 \\Rightarrow$ mâu thuẫn vì $a \\neq b$",
+          "Vô số nghiệm",
+          "Luôn có nghiệm $x = 0$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2692,36 +2692,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Quy tắc nhân hai đơn thức một biến: nhân các hệ số với nhau và:",
         "options": [
-          "Nhân các phần biến với nhau (cộng các số mũ)",
           "Cộng các hệ số với nhau",
+          "Giữ nguyên phần biến",
           "Nhân các số mũ với nhau",
-          "Giữ nguyên phần biến"
+          "Nhân các phần biến với nhau (cộng các số mũ)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tích của hai đơn thức $2x^2$ và $3x^3$ là:",
         "options": [
-          "$6x^5$",
           "$5x^5$",
+          "$6x^5$",
           "$6x^6$",
           "$5x^6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Muốn nhân một đơn thức với một đa thức, ta:",
         "options": [
+          "Chỉ nhân với hạng tử tự do",
           "Nhân đơn thức đó với từng hạng tử của đa thức rồi cộng các tích với nhau",
           "Chỉ nhân với hạng tử đầu tiên",
-          "Chỉ nhân với hạng tử tự do",
           "Cộng đơn thức với từng hạng tử"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2742,8 +2742,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$-6x^3 + 3x^2$",
           "$-6x^3 - 3x^2$",
-          "$6x^3 - 3x^2$",
-          "$-6x^2 + 3x$"
+          "$-6x^2 + 3x$",
+          "$6x^3 - 3x^2$"
         ],
         "correct": 0
       },
@@ -2752,72 +2752,72 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khai triển tích $(x + 1)(x + 2)$ được kết quả là:",
         "options": [
-          "$x^2 + 3x + 2$",
+          "$x^2 + 2$",
           "$x^2 + 2x + 2$",
           "$x^2 + 3x + 3$",
-          "$x^2 + 2$"
+          "$x^2 + 3x + 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Khai triển tích $(x - 3)(x + 3)$ được kết quả là:",
         "options": [
-          "$x^2 - 9$",
-          "$x^2 + 9$",
           "$x^2 - 6x + 9$",
-          "$x^2 - 6$"
+          "$x^2 - 6$",
+          "$x^2 - 9$",
+          "$x^2 + 9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Hệ số cao nhất của đa thức $(2x - 1)(3x^2 + x)$ là:",
         "options": [
-          "$6$",
-          "$2$",
           "$3$",
-          "$-1$"
+          "$-1$",
+          "$6$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Hệ số tự do của đa thức $(2x - 3)(x + 4)$ là:",
         "options": [
-          "$-12$",
           "$12$",
+          "$-12$",
           "$-3$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Bậc của đa thức tích $(x^2 + 1)(x^3 - 2)$ là:",
         "options": [
-          "$5$",
-          "$6$",
+          "$2$",
           "$3$",
-          "$2$"
+          "$5$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Rút gọn biểu thức $A = x(x - 2) - x^2 + 2x$ được kết quả là:",
         "options": [
-          "$0$",
+          "$2x^2$",
           "$2x$",
           "$-4x$",
-          "$2x^2$"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -2825,8 +2825,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết $(x - 1)(x + 2) - x^2 = 0$:",
         "options": [
           "$x = 2$",
-          "$x = 1$",
           "$x = -2$",
+          "$x = 1$",
           "$x = 0$"
         ],
         "correct": 0
@@ -2988,12 +2988,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khai triển $(2x - 3)(x^2 - 4x + 1)$ ta được hệ số của $x^2$ là:",
         "options": [
-          "$-11$",
           "$11$",
-          "$-5$",
-          "$-8$"
+          "$-8$",
+          "$-11$",
+          "$-5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -3001,8 +3001,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết $(x + 2)(x - 3) - x(x + 1) = 4$:",
         "options": [
           "$x = -5$",
-          "$x = 5$",
           "$x = -2$",
+          "$x = 5$",
           "$x = 2$"
         ],
         "correct": 0
@@ -3013,9 +3013,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Rút gọn biểu thức $P = (x - 2)(x^2 + 2x + 4)$ được kết quả là:",
         "options": [
           "$x^3 - 8$",
-          "$x^3 + 8$",
+          "$x^3 - 2$",
           "$x^3 - 4x - 8$",
-          "$x^3 - 2$"
+          "$x^3 + 8$"
         ],
         "correct": 0
       },
@@ -3024,24 +3024,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Bậc của đa thức $A(x) = (x^2 - 3x + 1)(2x^3 - x)$ là:",
         "options": [
+          "$3$",
           "$5$",
-          "$6$",
           "$4$",
-          "$3$"
+          "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $(x + a)(x - 3) = x^2 + 2x - 15$. Giá trị của $a$ là:",
         "options": [
-          "$5$",
           "$-5$",
           "$3$",
-          "$-3$"
+          "$-3$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -3049,9 +3049,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Chứng minh rằng biểu thức $M = (x - 1)(x + 2) - (x + 1)(x - 2)$ có giá trị:",
         "options": [
           "Không phụ thuộc vào biến $x$ (luôn bằng 0)",
+          "Bằng $4x$",
           "Bằng $2x$",
-          "Bằng $-4$",
-          "Bằng $4x$"
+          "Bằng $-4$"
         ],
         "correct": 0
       },
@@ -3060,72 +3060,72 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x) = (x^2 + 1)(x - 2) - x^3$. Nghiệm của đa thức $P(x)$ là:",
         "options": [
+          "$x = -2$",
           "$x = -1$",
-          "$x = 1$",
           "$x = 2$",
-          "$x = -2$"
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Tìm ba số tự nhiên chẵn liên tiếp biết tích của hai số sau lớn hơn tích của hai số đầu là 32:",
         "options": [
-          "$6; 8; 10$",
-          "$4; 6; 8$",
           "$8; 10; 12$",
+          "$4; 6; 8$",
+          "$6; 8; 10$",
           "$10; 12; 14$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Tổng các hệ số của đa thức $P(x) = (3x - 2)^3 (x + 1)^2$ sau khi khai triển là:",
         "options": [
-          "$4$",
           "$1$",
+          "$4$",
           "$16$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Cho $x + y = 5$ và $xy = 6$. Giá trị của $x^2 + y^2$ là:",
         "options": [
-          "$13$",
           "$25$",
+          "$37$",
           "$19$",
-          "$37$"
+          "$13$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Hệ số của $x^3$ trong khai triển của đa thức $(1 + x + x^2 + x^3)(1 - x)$ là:",
         "options": [
-          "$0$",
+          "$2$",
           "$1$",
-          "$-1$",
-          "$2$"
+          "$0$",
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $f(x) = (x - 1)(x - 2)(x - 3)(x - 4) + 1$. Khẳng định nào sau đây là đúng?",
         "options": [
-          "$f(x) \\ge 0$ với mọi số thực $x$",
           "$f(x) < 0$ với mọi $x$",
+          "$f(0) = 0$",
           "$f(x)$ có 4 nghiệm phân biệt",
-          "$f(0) = 0$"
+          "$f(x) \\ge 0$ với mọi số thực $x$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3288,24 +3288,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $(x - 1)(x + 1)(x^2 + 1)(x^4 + 1)$ được kết quả là:",
         "options": [
+          "$x^4 - 1$",
           "$x^8 - 1$",
-          "$x^8 + 1$",
           "$x^{16} - 1$",
-          "$x^4 - 1$"
+          "$x^8 + 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Vận dụng",
         "question": "Giá trị của biểu thức $P = (2 - 1)(2 + 1)(2^2 + 1)(2^4 + 1)(2^8 + 1)$ là:",
         "options": [
-          "$2^{16} - 1$",
           "$2^{16} + 1$",
+          "$2^8 - 1$",
           "$2^{32} - 1$",
-          "$2^8 - 1$"
+          "$2^{16} - 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
@@ -3313,9 +3313,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Hệ số của $x^2$ trong tích $(x^2 + ax + 2)(x - 3)$ là $-1$. Giá trị của $a$ là:",
         "options": [
           "$a = 2$",
-          "$a = -2$",
           "$a = 4$",
-          "$a = -4$"
+          "$a = -4$",
+          "$a = -2$"
         ],
         "correct": 0
       },
@@ -3324,36 +3324,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x) = (x^2 - x + 1)(x^2 + x + 1)$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$P(x) = x^4 + x^2 + 1$",
           "$P(x) = x^4 - x^2 + 1$",
           "$P(x) = x^4 + 1$",
+          "$P(x) = x^4 + x^2 + 1$",
           "$P(x) = x^4 + 2x^2 + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Tìm hệ số cao nhất của tích các đa thức $(x - 1)(2x - 1)(3x - 1)(4x - 1)$:",
         "options": [
-          "$24$",
-          "$10$",
           "$12$",
-          "$1$"
+          "$10$",
+          "$1$",
+          "$24$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $a + b + c = 0$. Rút gọn biểu thức $M = a(a + b)(a + c) + b(b + c)(b + a) + c(c + a)(c + b)$ được:",
         "options": [
-          "$3abc$",
-          "$0$",
           "$-3abc$",
-          "$abc$"
+          "$abc$",
+          "$3abc$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -3372,36 +3372,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho biểu thức $A = (x - 1)(x - 3)(x + 5)(x + 7) + 2024$. Giá trị nhỏ nhất của $A$ là:",
         "options": [
-          "$1960$",
           "$2024$",
-          "$2000$",
-          "$1980$"
+          "$1960$",
+          "$1980$",
+          "$2000$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Số cặp số nguyên dương $(x; y)$ thỏa mãn $(x + 1)(y + 2) = 12$ là:",
         "options": [
-          "$3$ cặp",
           "$4$ cặp",
           "$2$ cặp",
-          "$5$ cặp"
+          "$5$ cặp",
+          "$3$ cặp"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Đa thức $(x - a)(x - b)(x - c)$ có hệ số của $x^2$ là $-6$ và hệ số tự do là $-8$. Khi đó $a + b + c$ bằng:",
         "options": [
+          "$8$",
           "$6$",
           "$-6$",
-          "$8$",
           "$-8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -3410,8 +3410,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$x = 1$",
           "$x = 2$",
-          "$x = 0$",
-          "$x = 3$"
+          "$x = 3$",
+          "$x = 0$"
         ],
         "correct": 0
       },
@@ -3420,12 +3420,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Khai triển biểu thức $(1 + x + x^2 + \\dots + x^{10})^2$, hệ số của $x^4$ là:",
         "options": [
-          "$5$",
           "$4$",
-          "$6$",
-          "$3$"
+          "$3$",
+          "$5$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3584,48 +3584,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép chia đơn thức $6x^4$ cho $2x^2$ là:",
         "options": [
-          "$3x^2$",
-          "$3x^6$",
+          "$12x^2$",
           "$4x^2$",
-          "$12x^2$"
+          "$3x^6$",
+          "$3x^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Đơn thức $A$ chia hết cho đơn thức $B$ khi:",
         "options": [
-          "Số mũ của biến trong $A$ lớn hơn hoặc bằng số mũ của biến trong $B$",
-          "Số mũ của biến trong $A$ nhỏ hơn trong $B$",
           "Hệ số của $A$ chia hết cho hệ số của $B$",
-          "Bậc của $A$ nhỏ hơn bậc của $B$"
+          "Bậc của $A$ nhỏ hơn bậc của $B$",
+          "Số mũ của biến trong $A$ lớn hơn hoặc bằng số mũ của biến trong $B$",
+          "Số mũ của biến trong $A$ nhỏ hơn trong $B$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $(4x^3 - 6x^2) : 2x$ là:",
         "options": [
+          "$2x^3 - 3x^2$",
           "$2x^2 - 3x$",
           "$2x^2 - 3$",
-          "$2x^3 - 3x^2$",
           "$4x^2 - 6x$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Trong phép chia đa thức $A$ cho đa thức $B$ được thương $Q$ và dư $R$, ta có:",
         "options": [
-          "$A = B \\cdot Q + R$ (với bậc của $R$ nhỏ hơn bậc của $B$ hoặc $R = 0$)",
-          "$A = B \\cdot R + Q$",
           "$A = B \\cdot Q - R$",
-          "$A = B + Q \\cdot R$"
+          "$A = B \\cdot R + Q$",
+          "$A = B + Q \\cdot R$",
+          "$A = B \\cdot Q + R$ (với bậc của $R$ nhỏ hơn bậc của $B$ hoặc $R = 0$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -3633,9 +3633,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Phép chia là phép chia hết khi:",
         "options": [
           "Đa thức dư $R = 0$",
-          "Đa thức dư $R = 1$",
+          "Bậc của $Q$ bằng 0",
           "Bậc của $R$ bằng bậc của $B$",
-          "Bậc của $Q$ bằng 0"
+          "Đa thức dư $R = 1$"
         ],
         "correct": 0
       },
@@ -3644,12 +3644,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Thực hiện phép chia $(x^2 - 4) : (x - 2)$ được kết quả là:",
         "options": [
-          "$x + 2$",
-          "$x - 2$",
           "$x + 4$",
-          "$x - 4$"
+          "$x + 2$",
+          "$x - 4$",
+          "$x - 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -3657,9 +3657,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Thực hiện phép chia $(x^2 + 5x + 6) : (x + 2)$ được kết quả là:",
         "options": [
           "$x + 3$",
-          "$x - 3$",
           "$x + 2$",
-          "$x + 1$"
+          "$x + 1$",
+          "$x - 3$"
         ],
         "correct": 0
       },
@@ -3668,12 +3668,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Dư của phép chia $(x^2 + 1) : (x + 1)$ là:",
         "options": [
-          "$2$",
+          "$-2$",
           "$0$",
-          "$1$",
-          "$-2$"
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -3681,9 +3681,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Bậc của đa thức thương trong phép chia đa thức bậc 4 cho đa thức bậc 2 là:",
         "options": [
           "$2$",
-          "$6$",
+          "$1$",
           "$8$",
-          "$1$"
+          "$6$"
         ],
         "correct": 0
       },
@@ -3692,36 +3692,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Đa thức nào sau đây chia hết cho $x - 1$?",
         "options": [
-          "$x^2 - 1$",
-          "$x^2 + 1$",
           "$x^2 - 2$",
+          "$x^2 + 1$",
+          "$x^2 - 1$",
           "$x^2 + x + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Tìm $a$ để đa thức $x^2 - 3x + a$ chia hết cho $x - 2$:",
         "options": [
-          "$a = 2$",
           "$a = -2$",
           "$a = 1$",
-          "$a = -1$"
+          "$a = -1$",
+          "$a = 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Thực hiện phép chia $(2x^3 - 3x^2 + x) : x$ ta được thương là:",
         "options": [
-          "$2x^2 - 3x + 1$",
           "$2x^2 - 3x$",
-          "$2x^3 - 3x + 1$",
-          "$x^2 - 3x + 1$"
+          "$2x^2 - 3x + 1$",
+          "$x^2 - 3x + 1$",
+          "$2x^3 - 3x + 1$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3880,36 +3880,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Thực hiện phép chia $(x^3 - 3x^2 + 3x - 1) : (x - 1)$ ta được thương là:",
         "options": [
-          "$(x - 1)^2 = x^2 - 2x + 1$",
           "$x^2 + 2x + 1$",
           "$x^2 - 1$",
+          "$(x - 1)^2 = x^2 - 2x + 1$",
           "$x - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm phần dư khi chia đa thức $2x^3 - x^2 + 5$ cho $x - 2$:",
         "options": [
-          "$17$",
           "$5$",
-          "$9$",
-          "$12$"
+          "$12$",
+          "$17$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm $a$ để đa thức $x^3 - 3x + a$ chia hết cho $x + 2$:",
         "options": [
-          "$a = 2$",
           "$a = -2$",
-          "$a = 4$",
-          "$a = -4$"
+          "$a = 2$",
+          "$a = -4$",
+          "$a = 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -3917,9 +3917,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho $P(x) = (x + 1)Q(x) + 3$. Khi đó giá trị $P(-1)$ bằng:",
         "options": [
           "$3$",
-          "$0$",
+          "$-3$",
           "$1$",
-          "$-3$"
+          "$0$"
         ],
         "correct": 0
       },
@@ -3928,60 +3928,60 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Thương và dư của phép chia $(2x^2 + x - 5) : (x - 1)$ lần lượt là:",
         "options": [
-          "Thương $2x + 3$, dư $-2$",
           "Thương $2x - 1$, dư $-4$",
-          "Thương $2x + 1$, dư $-6$",
-          "Thương $2x + 3$, dư $2$"
+          "Thương $2x + 3$, dư $2$",
+          "Thương $2x + 3$, dư $-2$",
+          "Thương $2x + 1$, dư $-6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Đa thức $x^4 + ax^2 + b$ chia hết cho $x^2 - 1$. Hệ số $a$ và $b$ thỏa mãn:",
         "options": [
-          "$a + b = -1$",
-          "$a + b = 1$",
           "$a - b = 0$",
-          "$ab = 1$"
+          "$ab = 1$",
+          "$a + b = 1$",
+          "$a + b = -1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Tìm các giá trị nguyên của $n$ để phân thức $\\frac{2n + 3}{n + 1}$ nhận giá trị nguyên:",
         "options": [
+          "$n \\in \\{0; 1\\}$",
           "$n \\in \\{-2; 0\\}$",
           "$n \\in \\{-3; -2; 0; 1\\}$",
-          "$n \\in \\{0; 1\\}$",
           "$n \\in \\{-1; 1\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Thực hiện phép chia $(x^4 - 1) : (x^2 + 1)$ ta được thương là:",
         "options": [
-          "$x^2 - 1$",
-          "$x^2 + 1$",
           "$x - 1$",
-          "$x + 1$"
+          "$x^2 - 1$",
+          "$x + 1$",
+          "$x^2 + 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x)$ chia cho $x - 2$ dư 5, chia cho $x + 2$ dư 1. Dư khi chia $P(x)$ cho $x^2 - 4$ là:",
         "options": [
-          "$x + 3$",
           "$2x + 1$",
           "$x - 3$",
-          "$3x - 1$"
+          "$3x - 1$",
+          "$x + 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -3989,9 +3989,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Bậc của đa thức dư khi chia đa thức bậc 5 cho đa thức bậc 3 có thể là:",
         "options": [
           "Nhỏ hơn hoặc bằng $2$ (hoặc dư bằng 0)",
-          "Bằng $3$",
           "Bằng $2$ luôn luôn",
-          "Bằng $5$"
+          "Bằng $5$",
+          "Bằng $3$"
         ],
         "correct": 0
       },
@@ -4012,12 +4012,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Định lí Bézout phát biểu: Số dư trong phép chia đa thức $f(x)$ cho nhị thức $x - a$ bằng:",
         "options": [
-          "$f(a)$",
-          "$f(-a)$",
           "$0$",
-          "$a$"
+          "$f(-a)$",
+          "$a$",
+          "$f(a)$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -4177,9 +4177,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Đa thức $x^3 - 1$ chia cho đa thức nào sau đây được thương là $x^2 + x + 1$ và dư là 0?",
         "options": [
           "$x - 1$",
-          "$x + 1$",
+          "$x - 2$",
           "$x^2 - 1$",
-          "$x - 2$"
+          "$x + 1$"
         ],
         "correct": 0
       },
@@ -4188,72 +4188,72 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Tìm phần dư khi chia đa thức $x^{100}$ cho $x^2 - 1$:",
         "options": [
-          "$1$",
-          "$x$",
           "$0$",
-          "$x + 1$"
+          "$1$",
+          "$x + 1$",
+          "$x$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x) = x^4 + ax^2 + b$. Để $P(x)$ chia hết cho $x^2 - 3x + 2$ thì $a$ và $b$ bằng:",
         "options": [
-          "$a = -5, b = 4$",
           "$a = 5, b = -4$",
-          "$a = -4, b = 5$",
-          "$a = 4, b = -5$"
+          "$a = -5, b = 4$",
+          "$a = 4, b = -5$",
+          "$a = -4, b = 5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Tìm các giá trị nguyên của $n$ để phân thức $\\frac{n^3 + 2n^2 - 3n + 2}{n + 1}$ nhận giá trị nguyên:",
         "options": [
-          "$n \\in \\{-7; -3; -2; 0; 1; 5\\}$",
           "$n \\in \\{-2; 0\\}$",
           "$n \\in \\{-1; 1\\}$",
-          "$n \\in \\{0; 2; 4\\}$"
+          "$n \\in \\{0; 2; 4\\}$",
+          "$n \\in \\{-7; -3; -2; 0; 1; 5\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Phần dư của phép chia $(x^5 + 1) : (x + 1)$ là:",
         "options": [
-          "$0$",
-          "$2$",
           "$-2$",
-          "$1$"
+          "$1$",
+          "$2$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x)$ bậc 4 có hệ số cao nhất là 1 thỏa mãn $P(1) = 1, P(2) = 2, P(3) = 3, P(4) = 4$. Giá trị của $P(5)$ là:",
         "options": [
-          "$29$",
           "$24$",
-          "$5$",
-          "$30$"
+          "$29$",
+          "$30$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Đa thức $P(x) = x^n - 1$ luôn chia hết cho đa thức nào sau đây với mọi số tự nhiên $n \\ge 1$?",
         "options": [
-          "$x - 1$",
-          "$x + 1$",
           "$x^2 + 1$",
-          "$x$"
+          "$x + 1$",
+          "$x$",
+          "$x - 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -4261,9 +4261,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Đa thức $x^n + 1$ chia hết cho $x + 1$ khi và chỉ khi:",
         "options": [
           "$n$ là số tự nhiên lẻ",
-          "$n$ là số tự nhiên chẵn",
           "Mọi $n \\in \\mathbb{N}$",
-          "$n$ chia hết cho 4"
+          "$n$ chia hết cho 4",
+          "$n$ là số tự nhiên chẵn"
         ],
         "correct": 0
       },
@@ -4272,36 +4272,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x)$ chia cho $x - 1$ dư 4, chia cho $x^2 + 1$ dư $2x + 3$. Phần dư khi chia $P(x)$ cho $(x - 1)(x^2 + 1)$ là:",
         "options": [
-          "$-0{,}5x^2 + 2x + 2{,}5$",
           "$x^2 + 2x + 1$",
           "$-x^2 + 2x + 3$",
+          "$-0{,}5x^2 + 2x + 2{,}5$",
           "$2x^2 + x + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm hệ số tự do của đa thức thương trong phép chia $(x^5 - 1) : (x - 1)$:",
         "options": [
-          "$1$",
           "$0$",
-          "$-1$",
-          "$5$"
+          "$5$",
+          "$1$",
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho $P(x) = (x^2 + x + 1)^{10} = a_{20}x^{20} + \\dots + a_1 x + a_0$. Tổng các hệ số $a_{20} + a_{19} + \\dots + a_0$ bằng:",
         "options": [
-          "$3^{10}$",
+          "$0$",
           "$1$",
-          "$2^{10}$",
-          "$0$"
+          "$3^{10}$",
+          "$2^{10}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -4472,48 +4472,48 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là đơn thức?",
         "options": [
-          "$-3x^2$",
-          "$2x - 1$",
+          "$\\frac{1}{x}$",
           "$x + y$",
-          "$\\frac{1}{x}$"
+          "$-3x^2$",
+          "$2x - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Bậc của đa thức $P(x) = 4x^3 - 2x^2 + x - 5$ là:",
         "options": [
+          "$2$",
           "$3$",
           "$4$",
-          "$2$",
           "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hệ số cao nhất của đa thức $Q(x) = -5x^4 + 3x^2 - 1$ là:",
         "options": [
-          "$-5$",
+          "$-1$",
           "$5$",
           "$3$",
-          "$-1$"
+          "$-5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Hệ số tự do của đa thức $Q(x) = -5x^4 + 3x^2 - 1$ là:",
         "options": [
-          "$-1$",
           "$1$",
           "$-5$",
-          "$3$"
+          "$3$",
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -4521,8 +4521,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $A = 2x^2 - 3x + 1$ tại $x = 2$ là:",
         "options": [
           "$3$",
-          "$1$",
           "$5$",
+          "$1$",
           "$7$"
         ],
         "correct": 0
@@ -4532,36 +4532,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tổng của hai đa thức $P(x) = x^2 - 3x + 2$ và $Q(x) = 2x^2 + 3x - 5$ là:",
         "options": [
-          "$3x^2 - 3$",
           "$3x^2 + 6x - 3$",
           "$3x^2 - 6x - 3$",
+          "$3x^2 - 3$",
           "$x^2 - 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Hiệu của hai đa thức $(3x^2 - 2x + 1) - (x^2 - 2x + 4)$ bằng:",
         "options": [
-          "$2x^2 - 3$",
-          "$2x^2 - 4x - 3$",
           "$2x^2 + 5$",
-          "$4x^2 - 3$"
+          "$4x^2 - 3$",
+          "$2x^2 - 4x - 3$",
+          "$2x^2 - 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tích của $2x$ với $(x^2 - 3x + 1)$ là:",
         "options": [
-          "$2x^3 - 6x^2 + 2x$",
           "$2x^3 - 6x + 2$",
-          "$2x^3 - 3x^2 + 1$",
-          "$2x^2 - 6x + 2$"
+          "$2x^2 - 6x + 2$",
+          "$2x^3 - 6x^2 + 2x$",
+          "$2x^3 - 3x^2 + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -4580,12 +4580,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số nào sau đây là nghiệm của đa thức $P(x) = 2x - 6$?",
         "options": [
+          "$x = 0$",
           "$x = 3$",
           "$x = -3$",
-          "$x = 6$",
-          "$x = 0$"
+          "$x = 6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -4593,9 +4593,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Tìm nghiệm của đa thức $A(x) = x^2 - 9$:",
         "options": [
           "$x = 3$ và $x = -3$",
+          "$x = 0$",
           "$x = 3$",
-          "$x = 9$",
-          "$x = 0$"
+          "$x = 9$"
         ],
         "correct": 0
       },
@@ -4604,12 +4604,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Biểu thức đại số biểu thị diện tích hình chữ nhật có chiều dài hơn chiều rộng 3 cm (chiều rộng là $x$ cm) là:",
         "options": [
+          "$2(x + 3)$",
           "$x(x + 3)$",
           "$x + (x + 3)$",
-          "$2(x + 3)$",
           "$x^2 + 3$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4768,12 +4768,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $P(x) = 3x^3 - 2x + 1$ và $Q(x) = 2x^2 - x + 4$. Bậc của đa thức tích $P(x) \\cdot Q(x)$ là:",
         "options": [
+          "$2$",
           "$5$",
           "$6$",
-          "$3$",
-          "$2$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -4792,84 +4792,84 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Phần dư khi chia đa thức $x^3 + 2x^2 - 3$ cho $x + 1$ là:",
         "options": [
-          "$-2$",
           "$2$",
-          "$0$",
-          "$4$"
+          "$-2$",
+          "$4$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Đa thức nào sau đây vô nghiệm trên tập hợp số thực?",
         "options": [
-          "$x^2 + 4$",
           "$x^2 - 4$",
           "$x^3 + 1$",
+          "$x^2 + 4$",
           "$x - 4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Cho $P(x) = ax^2 + bx + c$. Biết $P(0) = 3, P(1) = 6, P(-1) = 2$. Giá trị của $a$ là:",
         "options": [
-          "$a = 1$",
-          "$a = 2$",
+          "$a = -1$",
           "$a = 3$",
-          "$a = -1$"
+          "$a = 2$",
+          "$a = 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Tìm $m$ để $x = -2$ là nghiệm của đa thức $f(x) = 2x^2 + mx - 6$:",
         "options": [
+          "$m = -2$",
           "$m = 1$",
           "$m = -1$",
-          "$m = 2$",
-          "$m = -2$"
+          "$m = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Cho $x + y = 4$ và $xy = 3$. Giá trị của $x^3 + y^3$ là:",
         "options": [
-          "$28$",
           "$36$",
           "$64$",
-          "$52$"
+          "$52$",
+          "$28$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Tìm nghiệm của đa thức $P(x) = (x - 1)^2 - 4$:",
         "options": [
-          "$x = 3$ và $x = -1$",
           "$x = 3$",
           "$x = 5$ và $x = -3$",
+          "$x = 3$ và $x = -1$",
           "$x = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho hai đa thức $P(x) = x^2 - 2x + 3$ và $Q(x) = x^2 + 4x + 1$. Giá trị nhỏ nhất của $P(x)$ là:",
         "options": [
-          "$2$ (khi $x = 1$)",
-          "$3$",
+          "$0$",
           "$1$",
-          "$0$"
+          "$2$ (khi $x = 1$)",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -4877,9 +4877,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Rút gọn biểu thức $(x + 1)(x - 1)(x^2 + 1)$ ta được:",
         "options": [
           "$x^4 - 1$",
-          "$x^4 + 1$",
           "$x^3 - 1$",
-          "$x^4 - 2x^2 + 1$"
+          "$x^4 - 2x^2 + 1$",
+          "$x^4 + 1$"
         ],
         "correct": 0
       },
@@ -4888,12 +4888,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số dư khi chia đa thức $P(x) = x^{2023} + x^{2022} + 1$ cho $x + 1$ là:",
         "options": [
-          "$1$",
           "$3$",
+          "$0$",
           "$-1$",
-          "$0$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -4902,8 +4902,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "$x = -1$ là nghiệm của $P(x)$",
           "$x = 1$ là nghiệm của $P(x)$",
-          "$P(0) = 0$",
-          "$P(x)$ vô nghiệm"
+          "$P(x)$ vô nghiệm",
+          "$P(0) = 0$"
         ],
         "correct": 0
       }
@@ -5068,12 +5068,12 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho đa thức $P(x)$ thỏa mãn $P(x) + P(1 - x) = x^2$ với mọi $x$. Bậc của đa thức $P(x)$ là:",
         "options": [
-          "$2$",
           "$1$",
+          "$2$",
           "$3$",
           "Không tồn tại"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -5081,9 +5081,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho đa thức $P(x) = x^3 - 3x^2 + 3x - 1$. Nghiệm duy nhất của $P(x)$ là:",
         "options": [
           "$x = 1$",
-          "$x = -1$",
           "$x = 3$",
-          "$x = 0$"
+          "$x = 0$",
+          "$x = -1$"
         ],
         "correct": 0
       },
@@ -5092,36 +5092,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Đa thức $f(x) = x^4 + 4$ có thể phân tích thành tích của hai tam thức bậc hai là:",
         "options": [
-          "$(x^2 - 2x + 2)(x^2 + 2x + 2)$",
           "$(x^2 - 2)(x^2 + 2)$",
           "$(x^2 + 2)^2$",
-          "$(x^2 - 4x + 2)(x^2 + 4x + 2)$"
+          "$(x^2 - 4x + 2)(x^2 + 4x + 2)$",
+          "$(x^2 - 2x + 2)(x^2 + 2x + 2)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho đa thức $P(x) = x^3 + ax^2 + bx + c$. Biết $P(x)$ chia hết cho $x - 1, x - 2, x - 3$. Giá trị của $a + b + c$ là:",
         "options": [
-          "$-1$",
-          "$0$",
           "$6$",
-          "$-6$"
+          "$0$",
+          "$-6$",
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Tổng các nghiệm của đa thức $P(x) = x(x - 1)(x - 2)(x - 3) - 24$ là:",
         "options": [
-          "$3$",
           "$6$",
+          "$3$",
           "$0$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -5129,9 +5129,9 @@ const CHAPTER7_TOAN7_EXAMS = {
         "question": "Cho $P(x) = ax^2 + bx + c$. Biết $P(x)$ nhận giá trị nguyên với mọi $x$ nguyên. Điều kiện cần và đủ là:",
         "options": [
           "$2a, a+b, c$ là các số nguyên",
-          "$a, b, c$ là các số nguyên",
           "$a, b, c$ cùng chẵn",
-          "$a+b+c$ chia hết cho 2"
+          "$a+b+c$ chia hết cho 2",
+          "$a, b, c$ là các số nguyên"
         ],
         "correct": 0
       },
@@ -5140,36 +5140,36 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x)$ thỏa mãn $x \\cdot P(x - 1) = (x - 3) \\cdot P(x)$ với mọi $x$. Đa thức $P(x)$ có ít nhất mấy nghiệm?",
         "options": [
-          "$3$ nghiệm ($x = 0, x = 1, x = 2$)",
           "$2$ nghiệm",
-          "$4$ nghiệm",
-          "$1$ nghiệm"
+          "$1$ nghiệm",
+          "$3$ nghiệm ($x = 0, x = 1, x = 2$)",
+          "$4$ nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Số dư khi chia đa thức $x^{99} + x^{88} + x^{77} + \\dots + x^{11} + 1$ cho $x - 1$ là:",
         "options": [
-          "$10$",
-          "$9$",
           "$1$",
+          "$9$",
+          "$10$",
           "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x) = x^4 - 4x^3 + 6x^2 - 4x + 2$. Giá trị nhỏ nhất của $P(x)$ là:",
         "options": [
-          "$1$ (đạt khi $x = 1$)",
-          "$2$",
+          "$-1$",
           "$0$",
-          "$-1$"
+          "$1$ (đạt khi $x = 1$)",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -5178,8 +5178,8 @@ const CHAPTER7_TOAN7_EXAMS = {
         "options": [
           "Không thể có nghiệm nguyên",
           "Luôn có nghiệm nguyên",
-          "Có nghiệm $x = 3$",
-          "Chưa thể kết luận"
+          "Chưa thể kết luận",
+          "Có nghiệm $x = 3$"
         ],
         "correct": 0
       },
@@ -5188,24 +5188,24 @@ const CHAPTER7_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho đa thức $P(x) = ax^3 + bx^2 + cx + d$. Nếu $P(x) = 0$ với mọi $x$ thì:",
         "options": [
-          "$a = b = c = d = 0$",
           "$a + b + c + d = 0$",
-          "$ad = bc$",
-          "$a = d$ và $b = c$"
+          "$a = b = c = d = 0$",
+          "$a = d$ và $b = c$",
+          "$ad = bc$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Tìm hệ số của $x^5$ trong khai triển $(1 + 2x + 3x^2)^3$:",
         "options": [
-          "$36$",
           "$24$",
+          "$18$",
           "$54$",
-          "$18$"
+          "$36$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [

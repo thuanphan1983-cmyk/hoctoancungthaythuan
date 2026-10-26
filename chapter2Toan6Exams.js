@@ -8,48 +8,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số tự nhiên $a$ chia hết cho số tự nhiên $b$ ($b \\neq 0$) nếu có số tự nhiên $q$ sao cho:",
         "options": [
+          "$a = b : q$",
           "$a = b \\cdot q$",
           "$a = b + q$",
-          "$a = b : q$",
           "$a = b - q$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Kí hiệu $a$ chia hết cho $b$ là:",
         "options": [
-          "$a \\,\\vdots\\, b$",
           "$a \\, / \\, b$",
           "$a \\in b$",
-          "$a \\subset b$"
+          "$a \\subset b$",
+          "$a \\,\\vdots\\, b$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Trong phép chia có dư $a = b \\cdot q + r$ ($b > 0$), số dư $r$ thỏa mãn điều kiện nào sau đây?",
         "options": [
-          "$0 \\leq r < b$",
           "$0 < r \\leq b$",
           "$0 \\leq r \\leq b$",
-          "$r > b$"
+          "$r > b$",
+          "$0 \\leq r < b$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Nếu số tự nhiên $a$ chia hết cho số tự nhiên $b$, ta nói:",
         "options": [
-          "$a$ là bội của $b$ và $b$ là ước của $a$",
+          "$a$ là ước của $b$ và $b$ cũng là ước của $a$",
           "$a$ là ước của $b$ và $b$ là bội của $a$",
           "$a$ là bội của $b$ và $b$ cũng là bội của $a$",
-          "$a$ là ước của $b$ và $b$ cũng là ước của $a$"
+          "$a$ là bội của $b$ và $b$ là ước của $a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -69,9 +69,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Số nào sau đây là ước của mọi số tự nhiên khác 0?",
         "options": [
           "$1$",
-          "$0$",
+          "Chính số đó",
           "$2$",
-          "Chính số đó"
+          "$0$"
         ],
         "correct": 0
       },
@@ -80,12 +80,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Nếu $a \\,\\vdots\\, m$ và $b \\,\\vdots\\, m$ thì khẳng định nào sau đây là đúng?",
         "options": [
+          "$(a \\cdot b)$ không chia hết cho $m$",
           "$(a + b) \\,\\vdots\\, m$",
           "$(a - b)$ không chia hết cho $m$",
-          "$(a \\cdot b)$ không chia hết cho $m$",
           "$(a + b)$ không chia hết cho $m$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -93,9 +93,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho tổng $A = 12 + 24 + 36$. Tổng $A$ chia hết cho số nào sau đây?",
         "options": [
           "$6$",
+          "$8$",
           "$5$",
-          "$7$",
-          "$8$"
+          "$7$"
         ],
         "correct": 0
       },
@@ -104,48 +104,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hiệu $B = 48 - 16$. Hiệu $B$ chia hết cho số nào sau đây?",
         "options": [
-          "$8$",
-          "$5$",
+          "$7$",
           "$9$",
-          "$7$"
+          "$8$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Biết $x \\,\\vdots\\, 5$ và $15 \\leq x \\leq 25$. Có bao nhiêu giá trị của $x$ thỏa mãn?",
         "options": [
-          "$3$",
+          "$1$",
           "$2$",
-          "$4$",
-          "$1$"
+          "$3$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tập hợp bốn bội đầu tiên của $7$ là:",
         "options": [
-          "$\\{0; 7; 14; 21\\}$",
           "$\\{7; 14; 21; 28\\}$",
+          "$\\{0; 7; 14; 21\\}$",
           "$\\{1; 7; 14; 21\\}$",
           "$\\{0; 1; 7; 14\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Không làm phép tính, cho biết biểu thức nào sau đây chia hết cho $4$?",
         "options": [
-          "$20 + 36 + 40$",
           "$16 + 25 + 32$",
-          "$12 + 18 + 24$",
-          "$8 + 14 + 20$"
+          "$8 + 14 + 20$",
+          "$20 + 36 + 40$",
+          "$12 + 18 + 24$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -265,24 +265,24 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho số tự nhiên $a$ chia cho $6$ dư $4$. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$a$ chia hết cho 2 nhưng không chia hết cho 6",
-          "$a$ chia hết cho 3",
+          "$a$ chia cho 2 dư 1",
           "$a$ chia hết cho 6",
-          "$a$ chia cho 2 dư 1"
+          "$a$ chia hết cho 2 nhưng không chia hết cho 6",
+          "$a$ chia hết cho 3"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Nếu tổng $(a + b) \\,\\vdots\\, 7$ và $a \\,\\vdots\\, 7$ thì:",
         "options": [
-          "$b \\,\\vdots\\, 7$",
-          "$b$ không chia hết cho 7",
           "$b$ có thể chia hết hoặc không chia hết cho 7",
-          "$b = 7$"
+          "$b = 7$",
+          "$b \\,\\vdots\\, 7$",
+          "$b$ không chia hết cho 7"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -290,9 +290,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tập hợp các ước của $24$ có bao nhiêu phần tử?",
         "options": [
           "$8$",
-          "$6$",
+          "$7$",
           "$10$",
-          "$7$"
+          "$6$"
         ],
         "correct": 0
       },
@@ -301,36 +301,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $M = 35 \\cdot 12 + 42$. Biểu thức $M$ chia hết cho:",
         "options": [
-          "$7$",
           "$5$",
-          "$10$",
-          "$11$"
+          "$11$",
+          "$7$",
+          "$10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu số tự nhiên $x$ thỏa mãn $x \\,\\vdots\\, 8$ và $20 \\leq x \\leq 60$?",
         "options": [
-          "$5$",
+          "$7$",
           "$6$",
           "$4$",
-          "$7$"
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Biết $x + 1$ là ước của $10$. Giá trị tự nhiên lớn nhất của $x$ là:",
         "options": [
+          "$1$",
           "$9$",
           "$10$",
-          "$4$",
-          "$1$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -349,48 +349,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $n$ để $(n + 5) \\,\\vdots\\, n$ ($n > 0$):",
         "options": [
-          "$n \\in \\{1; 5\\}$",
           "$n \\in \\{1; 2; 5\\}$",
-          "$n = 5$",
-          "$n = 1$"
+          "$n \\in \\{1; 5\\}$",
+          "$n = 1$",
+          "$n = 5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Cho tích $P = 1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\dots 10$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$P + 1$ chia hết cho 5",
           "$P$ chia hết cho 10",
-          "$P$ chia hết cho 9",
-          "$P$ chia hết cho 7"
+          "$P + 1$ chia hết cho 5",
+          "$P$ chia hết cho 7",
+          "$P$ chia hết cho 9"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Khi chia số tự nhiên $a$ cho $12$ được số dư là $8$. Khi chia $a$ cho $4$ thì số dư là:",
         "options": [
-          "$0$",
-          "$2$",
+          "$3$",
           "$1$",
-          "$3$"
+          "$2$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Tổng $S = 2 + 2^2 + 2^3 + 2^4 + 2^5 + 2^6$ chia hết cho số nào?",
         "options": [
-          "$3$",
-          "$5$",
+          "$9$",
           "$7$",
-          "$9$"
+          "$5$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -522,60 +522,60 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Chứng minh rằng tích của hai số tự nhiên liên tiếp luôn:",
         "options": [
-          "Chia hết cho 2",
           "Chia hết cho 3",
-          "Chia hết cho 4",
-          "Là số lẻ"
+          "Chia hết cho 2",
+          "Là số lẻ",
+          "Chia hết cho 4"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tích của ba số tự nhiên liên tiếp luôn chia hết cho số nào sau đây?",
         "options": [
-          "$6$",
-          "$4$",
           "$9$",
-          "$12$"
+          "$12$",
+          "$4$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Cho $A = 1 + 3 + 3^2 + 3^3 + \\dots + 3^{11}$. Tổng $A$ chia hết cho:",
         "options": [
-          "$13$",
           "$7$",
-          "$11$",
-          "$17$"
+          "$17$",
+          "$13$",
+          "$11$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Số dư khi chia $A = 2 + 2^2 + 2^3 + \\dots + 2^{100}$ cho $3$ là:",
         "options": [
-          "$0$",
-          "$1$",
           "$2$",
-          "$3$"
+          "$1$",
+          "$3$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Tìm tất cả số tự nhiên $n$ để phân số $\\frac{n + 3}{n - 1}$ là số tự nhiên:",
         "options": [
-          "$n \\in \\{2; 3; 5\\}$",
+          "$n \\in \\{3; 5\\}$",
           "$n \\in \\{1; 2; 3; 5\\}$",
-          "$n \\in \\{2; 5\\}$",
-          "$n \\in \\{3; 5\\}$"
+          "$n \\in \\{2; 3; 5\\}$",
+          "$n \\in \\{2; 5\\}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -583,9 +583,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $p$ là số nguyên tố lớn hơn 3. Khi chia $p^2$ cho 3 thì số dư là:",
         "options": [
           "$1$",
-          "$2$",
           "$0$",
-          "Không xác định"
+          "Không xác định",
+          "$2$"
         ],
         "correct": 0
       },
@@ -595,8 +595,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên $n$ lớn nhất có hai chữ số sao cho $2n + 1$ chia hết cho $n - 2$:",
         "options": [
           "$n = 7$",
-          "$n = 9$",
           "$n = 12$",
+          "$n = 9$",
           "$n = 99$"
         ],
         "correct": 0
@@ -607,9 +607,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $a$ và $b$ là hai số tự nhiên lẻ. Tổng $a^2 + b^2$ khi chia cho 4 có số dư là:",
         "options": [
           "$2$",
-          "$0$",
           "$1$",
-          "$3$"
+          "$3$",
+          "$0$"
         ],
         "correct": 0
       },
@@ -618,48 +618,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho số tự nhiên $A = n(n + 1)(2n + 1)$. Khẳng định nào sau đây luôn đúng với mọi $n \\in \\mathbb{N}$?",
         "options": [
-          "$A$ chia hết cho 6",
           "$A$ chia hết cho 12",
+          "$A$ chia hết cho 15",
           "$A$ chia hết cho 8",
-          "$A$ chia hết cho 15"
+          "$A$ chia hết cho 6"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số các ước tự nhiên của số $360$ là:",
         "options": [
-          "$24$",
           "$18$",
           "$20$",
+          "$24$",
           "$16$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm chữ số tận cùng của $S = 2 + 2^2 + 2^3 + \\dots + 2^{2024}$:",
         "options": [
-          "$0$",
           "$2$",
-          "$4$",
-          "$6$"
+          "$0$",
+          "$6$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một hội trường có từ $300$ đến $400$ người. Nếu xếp mỗi hàng $12$ người, $15$ người hoặc $18$ người thì đều vừa đủ. Số người trong hội trường là:",
         "options": [
-          "$360$",
-          "$320$",
           "$340$",
-          "$380$"
+          "$360$",
+          "$380$",
+          "$320$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -779,12 +779,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số có chữ số tận cùng là chữ số nào sau đây thì chia hết cho 2?",
         "options": [
-          "$0; 2; 4; 6; 8$",
+          "$0; 3; 6; 9$",
           "$1; 3; 5; 7; 9$",
-          "$0; 5$",
-          "$0; 3; 6; 9$"
+          "$0; 2; 4; 6; 8$",
+          "$0; 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -792,9 +792,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Số có chữ số tận cùng là chữ số nào sau đây thì chia hết cho 5?",
         "options": [
           "$0$ hoặc $5$",
-          "Chỉ chữ số $0$",
+          "$0; 2; 4; 6; 8$",
           "Chỉ chữ số $5$",
-          "$0; 2; 4; 6; 8$"
+          "Chỉ chữ số $0$"
         ],
         "correct": 0
       },
@@ -803,12 +803,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số có chữ số tận cùng là chữ số nào thì chia hết cho cả 2 và 5?",
         "options": [
-          "Chữ số $0$",
-          "Chữ số $5$",
           "Chữ số $2$",
+          "Chữ số $5$",
+          "Chữ số $0$",
           "Chữ số $8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -828,9 +828,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Dấu hiệu chia hết cho 9 là:",
         "options": [
           "Tổng các chữ số của số đó chia hết cho 9",
-          "Chữ số tận cùng là 9",
+          "Hai chữ số tận cùng chia hết cho 9",
           "Chữ số tận cùng chia hết cho 9",
-          "Hai chữ số tận cùng chia hết cho 9"
+          "Chữ số tận cùng là 9"
         ],
         "correct": 0
       },
@@ -839,84 +839,84 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "Một số chia hết cho 9 thì chắc chắn chia hết cho 3",
-          "Một số chia hết cho 3 thì chắc chắn chia hết cho 9",
           "Một số chia hết cho 2 thì chắc chắn chia hết cho 4",
+          "Một số chia hết cho 3 thì chắc chắn chia hết cho 9",
+          "Một số chia hết cho 9 thì chắc chắn chia hết cho 3",
           "Một số chia hết cho 5 thì tận cùng là 0"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Trong các số $124; 235; 340; 459$, số nào chia hết cho cả 2 và 5?",
         "options": [
-          "$340$",
-          "$124$",
+          "$459$",
           "$235$",
-          "$459$"
+          "$124$",
+          "$340$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Trong các số $135; 246; 357; 469$, số nào chia hết cho 9?",
         "options": [
+          "$469$",
           "$135$",
-          "$246$",
           "$357$",
-          "$469$"
+          "$246$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Điền chữ số thích hợp vào dấu $*$ để số $\\overline{5*2}$ chia hết cho 3:",
         "options": [
-          "$2$",
           "$1$",
           "$3$",
-          "$4$"
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho số $A = 2340$. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$A$ chia hết cho 7",
+          "$A$ chia hết cho 9",
           "$A$ chia hết cho 2",
           "$A$ chia hết cho 5",
-          "$A$ chia hết cho 9"
+          "$A$ chia hết cho 7"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Số nào sau đây chia hết cho 3 nhưng KHÔNG chia hết cho 9?",
         "options": [
-          "$123$",
           "$108$",
+          "$123$",
           "$180$",
           "$216$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Thay chữ số $x$ để số $\\overline{17x}$ chia hết cho 2 nhưng không chia hết cho 5:",
         "options": [
-          "$x \\in \\{2; 4; 6; 8\\}$",
           "$x = 0$",
+          "$x \\in \\{2; 4; 6; 8\\}$",
           "$x = 5$",
           "$x \\in \\{0; 2; 4; 6; 8\\}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1036,12 +1036,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số tự nhiên $\\overline{1a2b}$ chia hết cho cả 2, 5 và 9 thì tích $a \\cdot b$ bằng:",
         "options": [
-          "$0$",
           "$6$",
-          "$12$",
-          "$18$"
+          "$18$",
+          "$0$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -1049,9 +1049,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Có bao nhiêu chữ số $x$ để số $\\overline{5x4}$ chia hết cho 3?",
         "options": [
           "$4$ chữ số ($0; 3; 6; 9$)",
+          "$1$ chữ số",
           "$3$ chữ số",
-          "$2$ chữ số",
-          "$1$ chữ số"
+          "$2$ chữ số"
         ],
         "correct": 0
       },
@@ -1060,48 +1060,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số dư khi chia $10^{15} + 2$ cho 3 là:",
         "options": [
-          "$0$",
-          "$1$",
           "$2$",
+          "$1$",
+          "$0$",
           "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Một số chia cho 9 dư 4. Số đó chia cho 3 có số dư là:",
         "options": [
+          "$4$",
           "$1$",
           "$0$",
-          "$2$",
-          "$4$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm các chữ số $x, y$ để số $\\overline{x45y}$ chia hết cho cả 2, 5 và 3:",
         "options": [
-          "$y = 0; x \\in \\{3; 6; 9\\}$",
           "$y = 0; x \\in \\{0; 3; 6; 9\\}$",
           "$y = 5; x \\in \\{1; 4; 7\\}$",
+          "$y = 0; x \\in \\{3; 6; 9\\}$",
           "$y = 0; x = 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tổng $A = 10^{2024} + 8$ chia hết cho:",
         "options": [
-          "Cả $2$ và $9$",
           "Chỉ $2$",
+          "Cả $2$ và $9$",
           "Chỉ $9$",
           "Cả $5$ và $9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -1109,9 +1109,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Hiệu $10^{20} - 1$ chia hết cho số nào sau đây?",
         "options": [
           "Cả $3$ và $9$",
-          "Chỉ chia hết cho 3",
           "Chia hết cho 5",
-          "Chia hết cho 2"
+          "Chia hết cho 2",
+          "Chỉ chia hết cho 3"
         ],
         "correct": 0
       },
@@ -1120,36 +1120,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm chữ số $a$ sao cho số $\\overline{2a1a}$ chia hết cho 9:",
         "options": [
+          "$a = 5$",
           "$a = 3$",
-          "$a = 6$",
           "$a = 4$",
-          "$a = 5$"
+          "$a = 6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Biết số $\\overline{12x3}$ chia hết cho 3 nhưng không chia hết cho 9. Chữ số $x$ có thể là:",
         "options": [
-          "$6$",
-          "$3$",
+          "$9$",
           "$0$",
-          "$9$"
+          "$3$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng thấp",
         "question": "Cho số $A = 123456...99100$. Số dư của $A$ khi chia cho 9 bằng số dư của:",
         "options": [
-          "Tổng các chữ số từ 1 đến 100 khi chia cho 9",
-          "Chữ số tận cùng 0",
           "Hai chữ số tận cùng 00",
-          "Số các chữ số của $A$"
+          "Chữ số tận cùng 0",
+          "Số các chữ số của $A$",
+          "Tổng các chữ số từ 1 đến 100 khi chia cho 9"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -1157,9 +1157,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên nhỏ nhất có 4 chữ số khác nhau chia hết cho cả 5 và 9:",
         "options": [
           "$1260$",
+          "$1215$",
           "$1035$",
-          "$1080$",
-          "$1215$"
+          "$1080$"
         ],
         "correct": 0
       },
@@ -1168,12 +1168,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Một cửa hàng có một số quả cam ít hơn 50 quả. Nếu xếp vào các đĩa 2 quả, 3 quả hay 5 quả thì đều vừa hết. Số cam của cửa hàng là:",
         "options": [
-          "$30$ quả",
           "$20$ quả",
+          "$45$ quả",
           "$40$ quả",
-          "$45$ quả"
+          "$30$ quả"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1293,60 +1293,60 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số tự nhiên $N = 10^{2024} + 17$ chia hết cho số nào sau đây?",
         "options": [
-          "$9$",
-          "$5$",
           "$2$",
+          "$5$",
+          "$9$",
           "$11$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Một số được viết bởi $27$ chữ số $1$. Số đó chia hết cho số nào sau đây?",
         "options": [
+          "Không chia hết cho 3 và 9",
           "Cả $3$ và $9$",
           "Chỉ chia hết cho 3",
-          "Không chia hết cho 3 và 9",
           "Chia hết cho 27 nhưng không chia hết cho 9"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Tìm chữ số $a$ để số $\\overline{a123a}$ chia hết cho 3:",
         "options": [
-          "$a \\in \\{3; 6; 9\\}$",
-          "$a \\in \\{0; 3; 6; 9\\}$",
           "$a \\in \\{1; 4; 7\\}$",
-          "$a \\in \\{2; 5; 8\\}$"
+          "$a \\in \\{3; 6; 9\\}$",
+          "$a \\in \\{2; 5; 8\\}$",
+          "$a \\in \\{0; 3; 6; 9\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Số dư khi chia $A = 10^1 + 10^2 + 10^3 + \\dots + 10^{10}$ cho $9$ là:",
         "options": [
-          "$1$",
           "$0$",
           "$2$",
-          "$8$"
+          "$8$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Cho số $A = \\overline{x183y}$ chia cho 2, 5 và 9 đều dư 1. Giá trị của $x + y$ bằng:",
         "options": [
+          "$9$",
           "$7$",
           "$6$",
-          "$8$",
-          "$9$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -1354,9 +1354,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên nhỏ nhất khác 0 chia hết cho cả 2, 3, 4, 5, 6:",
         "options": [
           "$60$",
+          "$90$",
           "$30$",
-          "$120$",
-          "$90$"
+          "$120$"
         ],
         "correct": 0
       },
@@ -1366,9 +1366,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Biết số $\\overline{a8b}$ chia hết cho 45. Có bao nhiêu cặp chữ số $(a; b)$ thỏa mãn?",
         "options": [
           "$2$ cặp ($a = 1, b = 0$ và $a = 5, b = 5$)",
+          "$4$ cặp",
           "$1$ cặp",
-          "$3$ cặp",
-          "$4$ cặp"
+          "$3$ cặp"
         ],
         "correct": 0
       },
@@ -1389,48 +1389,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số tự nhiên $A$ gồm $2025$ chữ số $9$. Nếu cộng thêm $2$ vào số $A$ thì số mới chia cho $9$ có số dư là:",
         "options": [
-          "$2$",
           "$0$",
           "$1$",
-          "$7$"
+          "$7$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $\\overline{ab}$ sao cho $\\overline{ab} = 2 \\cdot a \\cdot b$:",
         "options": [
-          "$36$",
           "$24$",
-          "$12$",
-          "$48$"
+          "$48$",
+          "$36$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tổng các số có hai chữ số chia hết cho 3 là:",
         "options": [
-          "$1665$",
-          "$1650$",
           "$1680$",
-          "$1620$"
+          "$1620$",
+          "$1665$",
+          "$1650$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một số tự nhiên có 3 chữ số, khi chia cho 2 dư 1, chia cho 5 dư 3, chia hết cho 9 và chữ số hàng trăm là 8. Số đó là:",
         "options": [
-          "$873$",
+          "$855$",
           "$837$",
           "$828$",
-          "$855$"
+          "$873$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1550,12 +1550,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có:",
         "options": [
+          "Vô số ước",
           "Đúng hai ước là 1 và chính nó",
-          "Nhiều hơn hai ước",
           "Một ước duy nhất",
-          "Vô số ước"
+          "Nhiều hơn hai ước"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -1563,9 +1563,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Hợp số là số tự nhiên lớn hơn 1 và:",
         "options": [
           "Có nhiều hơn hai ước",
-          "Chỉ có hai ước",
+          "Là số lẻ",
           "Không có ước nào",
-          "Là số lẻ"
+          "Chỉ có hai ước"
         ],
         "correct": 0
       },
@@ -1574,36 +1574,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số nào sau đây không phải là số nguyên tố cũng không phải là hợp số?",
         "options": [
-          "$0$ và $1$",
-          "Chỉ số $0$",
           "Chỉ số $1$",
-          "Số $2$"
+          "Số $2$",
+          "Chỉ số $0$",
+          "$0$ và $1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số nguyên tố nhỏ nhất và là số nguyên tố chẵn duy nhất là:",
         "options": [
-          "$2$",
+          "$3$",
           "$0$",
           "$1$",
-          "$3$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Trong các số $11; 12; 15; 21$, số nào là số nguyên tố?",
         "options": [
-          "$11$",
-          "$12$",
           "$15$",
-          "$21$"
+          "$21$",
+          "$11$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -1622,60 +1622,60 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi phân tích một số ra thừa số nguyên tố, các thừa số đều phải là:",
         "options": [
-          "Các số nguyên tố",
-          "Các số tự nhiên bất kì",
+          "Các số chẵn",
           "Các số lẻ",
-          "Các số chẵn"
+          "Các số tự nhiên bất kì",
+          "Các số nguyên tố"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Khẳng định nào sau đây là ĐÚNG?",
         "options": [
+          "Tổng của hai số nguyên tố luôn là số chẵn",
           "Mọi số nguyên tố lớn hơn 2 đều là số lẻ",
-          "Mọi số lẻ đều là số nguyên tố",
           "Mọi số chẵn đều là hợp số",
-          "Tổng của hai số nguyên tố luôn là số chẵn"
+          "Mọi số lẻ đều là số nguyên tố"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Trong các số sau, số nào là hợp số?",
         "options": [
-          "$27$",
-          "$17$",
           "$23$",
+          "$17$",
+          "$27$",
           "$29$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Phân tích số 60 ra thừa số nguyên tố là:",
         "options": [
+          "$2 \\cdot 30$",
           "$2^2 \\cdot 3 \\cdot 5$",
           "$4 \\cdot 3 \\cdot 5$",
-          "$2 \\cdot 30$",
           "$6 \\cdot 10$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tập hợp tất cả các số nguyên tố nhỏ hơn 10 là:",
         "options": [
-          "$\\{2; 3; 5; 7\\}$",
-          "$\\{1; 2; 3; 5; 7\\}$",
           "$\\{3; 5; 7\\}$",
+          "$\\{1; 2; 3; 5; 7\\}$",
+          "$\\{2; 3; 5; 7\\}$",
           "$\\{2; 3; 5; 7; 9\\}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -1683,9 +1683,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $P = 11 \\cdot 13 + 17$. Khẳng định nào sau đây đúng?",
         "options": [
           "$P$ là hợp số vì $P$ là số chẵn lớn hơn 2",
-          "$P$ là số nguyên tố",
+          "$P$ chia hết cho 13",
           "$P$ chia hết cho 11",
-          "$P$ chia hết cho 13"
+          "$P$ là số nguyên tố"
         ],
         "correct": 0
       }
@@ -1807,24 +1807,24 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số lượng ước số tự nhiên của số $a = 2^3 \\cdot 3^2$ là:",
         "options": [
-          "$12$",
           "$6$",
           "$10$",
-          "$8$"
+          "$8$",
+          "$12$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tổng của hai số nguyên tố có thể bằng $2025$ được không?",
         "options": [
-          "Được, hai số đó là 2 và 2023",
-          "Không thể, vì tổng hai số nguyên tố luôn là số chẵn",
           "Không thể, vì 2025 chia hết cho 5",
-          "Được, có vô số cặp số như vậy"
+          "Được, có vô số cặp số như vậy",
+          "Được, hai số đó là 2 và 2023",
+          "Không thể, vì tổng hai số nguyên tố luôn là số chẵn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1832,9 +1832,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Có bao nhiêu số nguyên tố có dạng $\\overline{3*}$?",
         "options": [
           "$2$ số ($31; 37$)",
+          "$4$ số",
           "$3$ số",
-          "$1$ số",
-          "$4$ số"
+          "$1$ số"
         ],
         "correct": 0
       },
@@ -1843,72 +1843,72 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $k$ để $5k$ là số nguyên tố:",
         "options": [
-          "$k = 1$",
-          "$k = 0$",
+          "$k \\in \\{1; 5\\}$",
           "$k = 2$",
-          "$k \\in \\{1; 5\\}$"
+          "$k = 0$",
+          "$k = 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Số $504$ được phân tích ra thừa số nguyên tố là:",
         "options": [
+          "$8 \\cdot 9 \\cdot 7$",
           "$2^3 \\cdot 3^2 \\cdot 7$",
           "$2^2 \\cdot 3^3 \\cdot 7$",
-          "$8 \\cdot 9 \\cdot 7$",
           "$2^4 \\cdot 3 \\cdot 7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tìm số nguyên tố $p$ sao cho $p + 10$ và $p + 14$ đều là số nguyên tố:",
         "options": [
-          "$p = 3$",
-          "$p = 5$",
           "$p = 7$",
-          "$p = 2$"
+          "$p = 2$",
+          "$p = 5$",
+          "$p = 3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho $P = n(n + 1) + 1$ với $n$ là số tự nhiên khác 0. Khi $n = 3$, $P$ là:",
         "options": [
-          "Số nguyên tố ($13$)",
-          "Hợp số",
+          "Chia hết cho 3",
           "Số chẵn",
-          "Chia hết cho 3"
+          "Số nguyên tố ($13$)",
+          "Hợp số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Tìm số nguyên tố $p$ để $p + 2$ cũng là số nguyên tố. Cặp số $(p; p+2)$ như vậy được gọi là:",
         "options": [
-          "Cặp số nguyên tố sinh đôi",
           "Cặp số bạn bè",
-          "Cặp số hoàn hảo",
-          "Cặp số tương hỗ"
+          "Cặp số nguyên tố sinh đôi",
+          "Cặp số tương hỗ",
+          "Cặp số hoàn hảo"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Biết $x$ là số tự nhiên thỏa mãn $x \\,\\vdots\\, 7$ và $x$ là số nguyên tố. Giá trị của $x$ là:",
         "options": [
-          "$7$",
           "$14$",
           "$1$",
+          "$7$",
           "Không có"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -1916,8 +1916,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Số tự nhiên nhỏ nhất có 3 chữ số khi phân tích ra thừa số nguyên tố có dạng $2^a \\cdot 3^b \\cdot 5^c$ là:",
         "options": [
           "$120$",
-          "$100$",
           "$108$",
+          "$100$",
           "$150$"
         ],
         "correct": 0
@@ -1927,12 +1927,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $A = 1 \\cdot 2 \\cdot 3 \\dots 9 + 77$. Khẳng định nào đúng?",
         "options": [
+          "$A$ tận cùng bằng 0",
           "$A$ là hợp số vì chia hết cho 11",
           "$A$ là số nguyên tố",
-          "$A$ chia hết cho 10",
-          "$A$ tận cùng bằng 0"
+          "$A$ chia hết cho 10"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -1941,8 +1941,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "options": [
           "$S$ luôn là hợp số",
           "$S$ có thể là số nguyên tố",
-          "$S$ luôn là số chẵn",
-          "$S$ luôn chia hết cho 4"
+          "$S$ luôn chia hết cho 4",
+          "$S$ luôn là số chẵn"
         ],
         "correct": 0
       }
@@ -2064,36 +2064,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $p$ là số nguyên tố lớn hơn 3. Khi đó số dư của $p^2 - 1$ khi chia cho 24 là:",
         "options": [
-          "$0$",
           "$1$",
           "$2$",
+          "$0$",
           "$12$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm tất cả các số nguyên tố $p$ sao cho $p + 2$ và $p + 4$ đều là số nguyên tố:",
         "options": [
+          "Không tồn tại số $p$ nào",
           "Duy nhất $p = 3$",
-          "$p = 2$",
           "$p = 5$",
-          "Không tồn tại số $p$ nào"
+          "$p = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Số tự nhiên nhỏ nhất có đúng 12 ước tự nhiên là:",
         "options": [
+          "$90$",
           "$60$",
           "$72$",
-          "$84$",
-          "$90$"
+          "$84$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2101,9 +2101,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $p$ và $8p - 1$ là các số nguyên tố ($p > 3$). Khẳng định nào sau đây là đúng về số $8p + 1$?",
         "options": [
           "$8p + 1$ là hợp số",
+          "$8p + 1$ chia hết cho 5",
           "$8p + 1$ là số nguyên tố",
-          "$8p + 1$ là số lẻ",
-          "$8p + 1$ chia hết cho 5"
+          "$8p + 1$ là số lẻ"
         ],
         "correct": 0
       },
@@ -2112,36 +2112,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $n$ sao cho $n^4 + 4$ là số nguyên tố:",
         "options": [
-          "$n = 1$",
-          "$n = 2$",
           "$n = 0$",
-          "Không có số nào"
+          "$n = 1$",
+          "Không có số nào",
+          "$n = 2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu số nguyên tố $p$ sao cho $2p + 1$ là lập phương của một số tự nhiên?",
         "options": [
-          "$1$ số ($p = 13$ vì $2 \\cdot 13 + 1 = 27 = 3^3$)",
           "$0$",
           "$2$",
-          "Vô số"
+          "Vô số",
+          "$1$ số ($p = 13$ vì $2 \\cdot 13 + 1 = 27 = 3^3$)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho ba số nguyên tố $p, q, r$ thỏa mãn $p^q + q^p = r$. Giá trị của $r$ là:",
         "options": [
-          "$17$",
-          "$5$",
+          "$19$",
           "$13$",
-          "$19$"
+          "$5$",
+          "$17$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -2149,9 +2149,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Số các số nguyên tố $p$ để $p^2 + 2$ là số nguyên tố là:",
         "options": [
           "$1$ số ($p = 3$)",
-          "$2$ số",
+          "Vô số",
           "$0$",
-          "Vô số"
+          "$2$ số"
         ],
         "correct": 0
       },
@@ -2160,36 +2160,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên tố $p$ sao cho $4p + 1$ và $6p + 1$ đều là số nguyên tố ($p < 20$):",
         "options": [
-          "$p = 3$ và $p = 13$",
-          "$p = 5$",
           "$p = 7$",
+          "$p = 5$",
+          "$p = 3$ và $p = 13$",
           "$p = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $n \\in \\mathbb{N}^*$. Số $A = n^3 - n$ luôn chia hết cho số nguyên tố nào sau đây?",
         "options": [
-          "Cả $2$ và $3$",
           "Chỉ $2$",
           "Chỉ $5$",
-          "Cả $2, 3$ và $5$"
+          "Cả $2, 3$ và $5$",
+          "Cả $2$ và $3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tổng của 10 số nguyên tố đầu tiên là một số:",
         "options": [
-          "Có chữ số tận cùng là 9",
-          "Chia hết cho 2",
           "Chia hết cho 5",
-          "Là số chính phương"
+          "Là số chính phương",
+          "Có chữ số tận cùng là 9",
+          "Chia hết cho 2"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2197,8 +2197,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Biết $p$ là số nguyên tố và $a$ là số tự nhiên thỏa mãn $a^2 \\,\\vdots\\, p$. Khi đó:",
         "options": [
           "$a \\,\\vdots\\, p$",
-          "$a$ không chia hết cho $p$",
           "$a = p$",
+          "$a$ không chia hết cho $p$",
           "$a^2 = p$"
         ],
         "correct": 0
@@ -2333,48 +2333,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Kí hiệu ước chung lớn nhất của hai số $a$ và $b$ là:",
         "options": [
-          "$\\text{ƯCLN}(a, b)$",
+          "$\\B(a, b)$",
           "$\\text{BCNN}(a, b)$",
-          "$\\Ư(a, b)$",
-          "$\\B(a, b)$"
+          "$\\text{ƯCLN}(a, b)$",
+          "$\\Ư(a, b)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Ước chung lớn nhất của hai số nguyên tố cùng nhau bằng:",
         "options": [
-          "$1$",
           "$0$",
           "Tích hai số đó",
-          "Số lớn hơn"
+          "Số lớn hơn",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số nào sau đây luôn là ước chung của mọi số tự nhiên $a$ và $b$?",
         "options": [
-          "$1$",
+          "Tích $a \\cdot b$",
           "$0$",
-          "$2$",
-          "Tích $a \\cdot b$"
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Nếu số tự nhiên $a$ chia hết cho số tự nhiên $b$ ($a \\,\\vdots\\, b$) thì $\\text{ƯCLN}(a, b)$ bằng:",
         "options": [
-          "$b$",
+          "$a \\cdot b$",
           "$a$",
-          "$1$",
-          "$a \\cdot b$"
+          "$b$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -2382,9 +2382,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tập hợp các ước chung của $8$ và $12$ là:",
         "options": [
           "$\\{1; 2; 4\\}$",
-          "$\\{1; 2; 4; 8\\}$",
+          "$\\{2; 4\\}$",
           "$\\{1; 3; 4\\}$",
-          "$\\{2; 4\\}$"
+          "$\\{1; 2; 4; 8\\}$"
         ],
         "correct": 0
       },
@@ -2394,9 +2394,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tìm $\\text{ƯCLN}(18, 30)$:",
         "options": [
           "$6$",
+          "$9$",
           "$3$",
-          "$2$",
-          "$9$"
+          "$2$"
         ],
         "correct": 0
       },
@@ -2405,60 +2405,60 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a = 2^2 \\cdot 3$ và $b = 2 \\cdot 3^2$. Khi đó $\\text{ƯCLN}(a, b)$ là:",
         "options": [
+          "$3^2 = 9$",
           "$2 \\cdot 3 = 6$",
           "$2^2 \\cdot 3^2 = 36$",
-          "$2^2 = 4$",
-          "$3^2 = 9$"
+          "$2^2 = 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Rút gọn phân số $\\frac{16}{24}$ về phân số tối giản ta được:",
         "options": [
-          "$\\frac{2}{3}$",
           "$\\frac{4}{6}$",
           "$\\frac{8}{12}$",
-          "$\\frac{1}{2}$"
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cặp số nào sau đây là hai số nguyên tố cùng nhau?",
         "options": [
+          "$12$ và $18$",
           "$8$ và $9$",
           "$6$ và $9$",
-          "$12$ và $18$",
           "$10$ và $25$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tìm $\\text{ƯCLN}(24, 48)$:",
         "options": [
+          "$12$",
           "$24$",
           "$48$",
-          "$12$",
           "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tập hợp $\\ƯC(12, 18)$ có bao nhiêu phần tử?",
         "options": [
-          "$4$ phần tử ($\\{1; 2; 3; 6\\}$)",
+          "$6$ phần tử",
           "$3$ phần tử",
           "$5$ phần tử",
-          "$6$ phần tử"
+          "$4$ phần tử ($\\{1; 2; 3; 6\\}$)"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2578,24 +2578,24 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $a = 2^3 \\cdot 3^2 \\cdot 5$ và $b = 2^2 \\cdot 3^3 \\cdot 7$. Khi đó $\\text{ƯCLN}(a, b)$ bằng:",
         "options": [
-          "$36$",
-          "$72$",
+          "$108$",
           "$18$",
-          "$108$"
+          "$72$",
+          "$36$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Biết $\\text{ƯCLN}(a, b) = 18$. Số ước chung của $a$ và $b$ là:",
         "options": [
-          "$6$",
-          "$8$",
           "$4$",
+          "$8$",
+          "$6$",
           "$9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -2603,9 +2603,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho hai số tự nhiên $a$ và $b$ thỏa mãn $a = 5b$. Khi đó $\\text{ƯCLN}(a, b)$ là:",
         "options": [
           "$b$",
-          "$a$",
           "$5$",
-          "$5b$"
+          "$5b$",
+          "$a$"
         ],
         "correct": 0
       },
@@ -2614,60 +2614,60 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$ lớn nhất thỏa mãn $70 \\,\\vdots\\, x$ và $84 \\,\\vdots\\, x$:",
         "options": [
-          "$14$",
           "$7$",
           "$28$",
-          "$2$"
+          "$2$",
+          "$14$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Hai số tự nhiên liên tiếp có ước chung lớn nhất bằng:",
         "options": [
-          "$1$",
-          "$2$",
+          "Số nhỏ hơn",
           "Không xác định",
-          "Số nhỏ hơn"
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $x$ biết $90 \\,\\vdots\\, x$, $126 \\,\\vdots\\, x$ và $x > 10$:",
         "options": [
-          "$18$",
           "$9$",
-          "$6$",
-          "$3$"
+          "$3$",
+          "$18$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Phân số $\\frac{n + 1}{n + 2}$ ($n \\in \\mathbb{N}$) luôn là phân số tối giản vì:",
         "options": [
+          "Cả tử và mẫu là hai số nguyên tố",
           "$\\text{ƯCLN}(n+1, n+2) = 1$",
-          "Tử số bé hơn mẫu số",
           "Mẫu số luôn là số chẵn",
-          "Cả tử và mẫu là hai số nguyên tố"
+          "Tử số bé hơn mẫu số"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho hai số $a = 48, b = 72$. Tỉ số $\\frac{a}{\\text{ƯCLN}(a, b)}$ bằng:",
         "options": [
-          "$2$",
           "$3$",
+          "$1$",
           "$4$",
-          "$1$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2675,9 +2675,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Một mảnh đất hình chữ nhật dài 112m, rộng 40m được chia thành các ô vuông bằng nhau sao cho không thừa mảnh nào. Số ô vuông ít nhất chia được là:",
         "options": [
           "$35$",
-          "$70$",
           "$140$",
-          "$28$"
+          "$28$",
+          "$70$"
         ],
         "correct": 0
       },
@@ -2686,12 +2686,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $a$ lớn nhất biết rằng $156$ chia cho $a$ dư $12$ và $280$ chia cho $a$ dư $10$:",
         "options": [
-          "$18$",
           "$24$",
+          "$18$",
           "$36$",
           "$12$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -2710,12 +2710,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Bác thợ mộc có hai thanh gỗ dài 180cm và 240cm. Bác muốn cưa hai thanh gỗ thành các đoạn ngắn bằng nhau mà không lãng phí gỗ. Độ dài lớn nhất của mỗi đoạn gỗ là:",
         "options": [
-          "$60\\text{ cm}$",
-          "$30\\text{ cm}$",
           "$40\\text{ cm}$",
-          "$20\\text{ cm}$"
+          "$60\\text{ cm}$",
+          "$20\\text{ cm}$",
+          "$30\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2836,8 +2836,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho hai số tự nhiên $a$ và $b$ thỏa mãn $a \\cdot b = 720$ và $\\text{BCNN}(a, b) = 120$. Khi đó $\\text{ƯCLN}(a, b)$ bằng:",
         "options": [
           "$6$",
-          "$12$",
           "$24$",
+          "$12$",
           "$3$"
         ],
         "correct": 0
@@ -2847,12 +2847,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $n$ để phân số $\\frac{n + 1}{2n + 1}$ tối giản:",
         "options": [
-          "Với mọi số tự nhiên $n$",
           "Chỉ khi $n$ chẵn",
+          "Với mọi số tự nhiên $n$",
           "Chỉ khi $n$ lẻ",
           "Không có $n$ nào"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -2871,84 +2871,84 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Biết $\\text{ƯCLN}(a, b) = 1$. Giá trị của $\\text{ƯCLN}(a + b, a - b)$ với $a, b$ là hai số lẻ bằng:",
         "options": [
-          "$2$",
           "$1$",
-          "$4$",
-          "Không xác định"
+          "Không xác định",
+          "$2$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $a$ lớn nhất biết $452$ chia cho $a$ dư $32$ và $321$ chia cho $a$ dư $21$:",
         "options": [
-          "$60$",
           "$30$",
+          "$60$",
           "$42$",
           "$15$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $a$ và $b$ là hai số nguyên tố cùng nhau. Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\text{ƯCLN}(a^2, b) > 1$",
-          "$\\text{ƯCLN}(a, a + b) = 1$",
+          "$\\text{ƯCLN}(a^2, b^2) = 1$",
           "$\\text{ƯCLN}(b, a \\cdot b + 1) = 1$",
-          "$\\text{ƯCLN}(a^2, b^2) = 1$"
+          "$\\text{ƯCLN}(a^2, b) > 1$",
+          "$\\text{ƯCLN}(a, a + b) = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ để phân số $\\frac{2n + 5}{n + 1}$ rút gọn được:",
         "options": [
-          "$n = 3k + 2$ với $k \\in \\mathbb{N}$",
-          "$n$ là số chẵn",
           "$n$ là số lẻ",
+          "$n$ là số chẵn",
+          "$n = 3k + 2$ với $k \\in \\mathbb{N}$",
           "Không có $n$ nào"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Thuật toán Euclid tìm $\\text{ƯCLN}(a, b)$ dựa trên tính chất:",
         "options": [
-          "$\\text{ƯCLN}(a, b) = \\text{ƯCLN}(b, a \\bmod b)$",
-          "$\\text{ƯCLN}(a, b) = a - b$",
           "$\\text{ƯCLN}(a, b) = a + b$",
-          "$\\text{ƯCLN}(a, b) = a \\cdot b$"
+          "$\\text{ƯCLN}(a, b) = a \\cdot b$",
+          "$\\text{ƯCLN}(a, b) = a - b$",
+          "$\\text{ƯCLN}(a, b) = \\text{ƯCLN}(b, a \\bmod b)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm $\\text{ƯCLN}(2^{100} - 1, 2^{60} - 1)$:",
         "options": [
-          "$2^{20} - 1$",
           "$2^{10} - 1$",
-          "$2^{40} - 1$",
-          "$1$"
+          "$2^{20} - 1$",
+          "$1$",
+          "$2^{40} - 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $A = 1 + 2 + 3 + \\dots + n$ và $B = 2n + 1$. Ước chung lớn nhất của $A$ và $B$ luôn bằng:",
         "options": [
-          "$1$",
+          "Phụ thuộc vào $n$",
           "$2$",
           "$n$",
-          "Phụ thuộc vào $n$"
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -2956,9 +2956,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Số cặp số tự nhiên $(a, b)$ thỏa mãn $a \\cdot b = 180$ và $\\text{ƯCLN}(a, b) = 3$ là:",
         "options": [
           "$4$ cặp",
-          "$2$ cặp",
+          "$6$ cặp",
           "$3$ cặp",
-          "$6$ cặp"
+          "$2$ cặp"
         ],
         "correct": 0
       },
@@ -2967,12 +2967,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ lớn nhất có hai chữ số sao cho $\\text{ƯCLN}(n, 60) = 12$:",
         "options": [
-          "$84$",
-          "$96$",
           "$72$",
-          "$60$"
+          "$96$",
+          "$60$",
+          "$84$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3092,12 +3092,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Bội chung của hai hay nhiều số là:",
         "options": [
+          "Tích của tất cả các số đó",
           "Bội của tất cả các số đó",
-          "Ước của tất cả các số đó",
           "Số tự nhiên nhỏ nhất",
-          "Tích của tất cả các số đó"
+          "Ước của tất cả các số đó"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -3105,8 +3105,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Kí hiệu bội chung nhỏ nhất của hai số $a$ và $b$ là:",
         "options": [
           "$\\text{BCNN}(a, b)$",
-          "$\\text{ƯCLN}(a, b)$",
           "$\\B(a, b)$",
+          "$\\text{ƯCLN}(a, b)$",
           "$\\Ư(a, b)$"
         ],
         "correct": 0
@@ -3117,9 +3117,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Số tự nhiên khác 0 nhỏ nhất trong tập hợp các bội chung của $a$ và $b$ được gọi là:",
         "options": [
           "Bội chung nhỏ nhất của $a$ và $b$",
+          "Ước của $b$",
           "Ước chung lớn nhất của $a$ và $b$",
-          "Bội của $a$",
-          "Ước của $b$"
+          "Bội của $a$"
         ],
         "correct": 0
       },
@@ -3128,84 +3128,84 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Số nào sau đây luôn là bội chung của mọi số tự nhiên $a$ và $b$?",
         "options": [
-          "$0$",
-          "$1$",
           "$2$",
+          "$1$",
+          "$0$",
           "Tích $a \\cdot b$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Nếu số tự nhiên $a$ chia hết cho số tự nhiên $b$ ($a \\,\\vdots\\, b$) thì $\\text{BCNN}(a, b)$ bằng:",
         "options": [
-          "$a$",
-          "$b$",
           "$1$",
-          "$a \\cdot b$"
+          "$a$",
+          "$a \\cdot b$",
+          "$b$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Tất cả các bội chung của $a$ và $b$ đều là:",
         "options": [
-          "Bội của $\\text{BCNN}(a, b)$",
-          "Ước của $\\text{BCNN}(a, b)$",
+          "Ước của $\\text{ƯCLN}(a, b)$",
           "Bội của $\\text{ƯCLN}(a, b)$",
-          "Ước của $\\text{ƯCLN}(a, b)$"
+          "Ước của $\\text{BCNN}(a, b)$",
+          "Bội của $\\text{BCNN}(a, b)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tìm $\\text{BCNN}(6, 8)$:",
         "options": [
-          "$24$",
-          "$48$",
           "$12$",
-          "$16$"
+          "$48$",
+          "$16$",
+          "$24$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $a = 2^2 \\cdot 3$ và $b = 2 \\cdot 3^2$. Khi đó $\\text{BCNN}(a, b)$ là:",
         "options": [
-          "$2^2 \\cdot 3^2 = 36$",
-          "$2 \\cdot 3 = 6$",
           "$2^2 \\cdot 3 = 12$",
+          "$2 \\cdot 3 = 6$",
+          "$2^2 \\cdot 3^2 = 36$",
           "$2 \\cdot 3^2 = 18$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Mẫu chung nhỏ nhất của hai phân số $\\frac{1}{6}$ và $\\frac{1}{9}$ là:",
         "options": [
-          "$18$",
-          "$54$",
           "$12$",
-          "$36$"
+          "$54$",
+          "$36$",
+          "$18$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tìm $\\text{BCNN}(15, 30)$:",
         "options": [
-          "$30$",
           "$15$",
+          "$30$",
           "$45$",
           "$60$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -3213,8 +3213,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Nếu $\\text{ƯCLN}(a, b) = 1$ thì $\\text{BCNN}(a, b)$ bằng:",
         "options": [
           "$a \\cdot b$",
-          "$1$",
           "$a + b$",
+          "$1$",
           "$a - b$"
         ],
         "correct": 0
@@ -3224,12 +3224,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tập hợp các bội chung nhỏ hơn 50 của 4 và 6 là:",
         "options": [
-          "$\\{0; 12; 24; 36; 48\\}$",
-          "$\\{12; 24; 36; 48\\}$",
           "$\\{0; 24; 48\\}$",
-          "$\\{0; 6; 12; 24; 48\\}$"
+          "$\\{0; 6; 12; 24; 48\\}$",
+          "$\\{0; 12; 24; 36; 48\\}$",
+          "$\\{12; 24; 36; 48\\}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3350,9 +3350,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $a = 2^2 \\cdot 5$ và $b = 2 \\cdot 3 \\cdot 5$. Tỉ số $\\frac{\\text{BCNN}(a, b)}{\\text{ƯCLN}(a, b)}$ bằng:",
         "options": [
           "$6$",
-          "$10$",
           "$12$",
-          "$60$"
+          "$60$",
+          "$10$"
         ],
         "correct": 0
       },
@@ -3361,60 +3361,60 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết $\\text{BCNN}(x, 18) = 36$ và $x < 18$. Giá trị của $x$ có thể là:",
         "options": [
-          "$4$ hoặc $12$",
-          "Chỉ $4$",
           "Chỉ $12$",
+          "Chỉ $4$",
+          "$4$ hoặc $12$",
           "$6$ hoặc $9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $x$ nhỏ nhất khác 0 biết $x \\,\\vdots\\, 12, x \\,\\vdots\\, 15, x \\,\\vdots\\, 18$:",
         "options": [
-          "$180$",
+          "$120$",
           "$90$",
-          "$360$",
-          "$120$"
+          "$180$",
+          "$360$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho hai số $a = 24, b = 36$. Tích $\\text{ƯCLN}(a, b) \\cdot \\text{BCNN}(a, b)$ bằng:",
         "options": [
+          "$1728$",
           "$864$",
-          "$432$",
           "$288$",
-          "$1728$"
+          "$432$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $a$ nhỏ nhất khác 0 sao cho khi chia $a$ cho 4, 5, 6 đều có số dư bằng 1:",
         "options": [
-          "$61$",
-          "$60$",
           "$121$",
-          "$31$"
+          "$31$",
+          "$61$",
+          "$60$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Số học sinh khối 6 của một trường khoảng từ 200 đến 250 em. Khi xếp hàng 10, hàng 12 hay hàng 15 đều dư 3 em. Số học sinh khối 6 là:",
         "options": [
-          "$243$",
           "$240$",
+          "$223$",
           "$213$",
-          "$223$"
+          "$243$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -3422,9 +3422,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Một tấm biển quảng cáo có 3 bóng đèn Led phát sáng theo chu kì: đèn đỏ cứ 4 giây chớp 1 lần, đèn vàng cứ 6 giây chớp 1 lần, đèn xanh cứ 10 giây chớp 1 lần. Cả 3 đèn cùng chớp lần đầu lúc 19h00. Thời điểm gần nhất tiếp theo cả 3 đèn cùng chớp là:",
         "options": [
           "$19\\text{h}01\\text{p}00\\text{s}$",
-          "$19\\text{h}02\\text{p}00\\text{s}$",
           "$19\\text{h}00\\text{p}30\\text{s}$",
-          "$19\\text{h}01\\text{p}30\\text{s}$"
+          "$19\\text{h}01\\text{p}30\\text{s}$",
+          "$19\\text{h}02\\text{p}00\\text{s}$"
         ],
         "correct": 0
       },
@@ -3433,12 +3433,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $n$ biết rằng $\\text{BCNN}(n, 6) = 30$:",
         "options": [
-          "$n \\in \\{10; 30\\}$",
           "$n = 5$",
-          "$n = 15$",
-          "$n = 30$"
+          "$n \\in \\{10; 30\\}$",
+          "$n = 30$",
+          "$n = 15$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -3446,9 +3446,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho hai số nguyên tố cùng nhau có tích bằng 40. Bội chung nhỏ nhất của chúng là:",
         "options": [
           "$40$",
-          "$1$",
           "$20$",
-          "$80$"
+          "$80$",
+          "$1$"
         ],
         "correct": 0
       },
@@ -3457,36 +3457,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $x$ lớn nhất có hai chữ số chia hết cho cả 6 và 8:",
         "options": [
-          "$96$",
+          "$84$",
           "$72$",
           "$48$",
-          "$84$"
+          "$96$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Mẫu thức chung đơn giản nhất của ba phân số $\\frac{1}{2^3 \\cdot 3}, \\frac{1}{2^2 \\cdot 3^2}, \\frac{1}{2 \\cdot 3^3}$ là:",
         "options": [
-          "$216$",
           "$72$",
+          "$108$",
           "$144$",
-          "$108$"
+          "$216$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Bác An có một số cây giống ít hơn 300 cây. Nếu đem trồng theo hàng 12 cây, 15 cây hay 18 cây đều thiếu 2 cây. Số cây của bác An là:",
         "options": [
+          "$268$ cây",
           "$178$ cây",
-          "$180$ cây",
           "$182$ cây",
-          "$268$ cây"
+          "$180$ cây"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3607,9 +3607,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho hai số $a$ và $b$ thỏa mãn $\\text{BCNN}(a, b) = 180$ và $\\text{ƯCLN}(a, b) = 12$. Biết $a < b$, giá trị nhỏ nhất của $a + b$ là:",
         "options": [
           "$96$",
-          "$108$",
+          "$84$",
           "$192$",
-          "$84$"
+          "$108$"
         ],
         "correct": 0
       },
@@ -3618,96 +3618,96 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên nhỏ nhất chia cho 5 dư 1, chia cho 7 dư 5:",
         "options": [
-          "$26$",
           "$61$",
-          "$96$",
-          "$12$"
+          "$26$",
+          "$12$",
+          "$96$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Số tự nhiên $n$ nhỏ nhất có 3 chữ số chia cho 8 dư 7, chia cho 12 dư 11 là:",
         "options": [
-          "$119$",
           "$143$",
           "$107$",
+          "$119$",
           "$131$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm hai số tự nhiên $a, b$ biết $\\text{BCNN}(a, b) + \\text{ƯCLN}(a, b) = 19$. Số cặp $(a, b)$ với $a \\leq b$ là:",
         "options": [
-          "$2$ cặp",
-          "$1$ cặp",
           "$3$ cặp",
+          "$1$ cặp",
+          "$2$ cặp",
           "$4$ cặp"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Một số tự nhiên khi chia cho 3, 5, 7 có số dư lần lượt là 2, 4, 6. Số nhỏ nhất thỏa mãn là:",
         "options": [
-          "$104$",
+          "$34$",
           "$105$",
-          "$209$",
-          "$34$"
+          "$104$",
+          "$209$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $a, b \\in \\mathbb{N}^*$. Nếu $\\text{ƯCLN}(a, b) + \\text{BCNN}(a, b) = a + b$ thì:",
         "options": [
-          "$a \\,\\vdots\\, b$ hoặc $b \\,\\vdots\\, a$",
           "$a = b = 1$",
           "$a$ và $b$ nguyên tố cùng nhau",
-          "Không có điều kiện nào"
+          "Không có điều kiện nào",
+          "$a \\,\\vdots\\, b$ hoặc $b \\,\\vdots\\, a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên nhỏ nhất chia cho 8, 10, 15, 20 có số dư lần lượt là 5, 7, 12, 17:",
         "options": [
-          "$117$",
           "$123$",
+          "$117$",
           "$237$",
           "$57$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu số tự nhiên $x$ có 3 chữ số sao cho $x + 1$ chia hết cho cả 6, 8 và 10?",
         "options": [
-          "$7$",
-          "$8$",
           "$6$",
-          "$9$"
+          "$7$",
+          "$9$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $A = \\text{BCNN}(1, 2, 3, 4, \\dots, 10)$. Giá trị của $A$ bằng:",
         "options": [
-          "$2520$",
-          "$5040$",
           "$1260$",
-          "$840$"
+          "$5040$",
+          "$840$",
+          "$2520$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -3715,9 +3715,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Một người đem một số trứng ra chợ bán. Biết nếu đếm theo chục (10 quả), theo tá (12 quả) hay theo 15 quả thì đều thừa 1 quả, nhưng nếu đếm theo 11 quả thì vừa vặn hết. Biết số trứng nhỏ hơn 400. Số trứng là:",
         "options": [
           "$121$ quả",
-          "$241$ quả",
           "$361$ quả",
-          "$181$ quả"
+          "$181$ quả",
+          "$241$ quả"
         ],
         "correct": 0
       },
@@ -3727,9 +3727,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $\\text{BCNN}(a, b) = 60$ và $a \\cdot b = 180$. Khi đó $\\text{ƯCLN}(a, b)$ bằng:",
         "options": [
           "$3$",
-          "$6$",
+          "$5$",
           "$2$",
-          "$5$"
+          "$6$"
         ],
         "correct": 0
       },
@@ -3738,12 +3738,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Ba xe buýt cùng khởi hành lúc 6 giờ sáng tại một bến xe. Thời gian chạy một vòng của xe A là 15 phút, xe B là 20 phút, xe C là 25 phút. Hỏi lúc mấy giờ thì cả 3 xe lại cùng về bến lần đầu tiên tiếp theo?",
         "options": [
-          "$11\\text{ giờ sáng}$",
-          "$10\\text{ giờ sáng}$",
           "$9\\text{ giờ sáng}$",
-          "$12\\text{ giờ trưa}$"
+          "$10\\text{ giờ sáng}$",
+          "$12\\text{ giờ trưa}$",
+          "$11\\text{ giờ sáng}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3864,9 +3864,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Trong các số $0; 1; 2; 4$, số nào là số nguyên tố?",
         "options": [
           "$2$",
-          "$0$",
           "$1$",
-          "$4$"
+          "$4$",
+          "$0$"
         ],
         "correct": 0
       },
@@ -3875,84 +3875,84 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là SAI?",
         "options": [
+          "Số 2 là số nguyên tố chẵn duy nhất",
           "Số 0 là ước của mọi số tự nhiên",
-          "Số 1 là ước của mọi số tự nhiên",
           "Mọi số tự nhiên khác 0 đều có ít nhất hai ước",
-          "Số 2 là số nguyên tố chẵn duy nhất"
+          "Số 1 là ước của mọi số tự nhiên"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Số chia hết cho cả 2 và 5 có chữ số tận cùng là:",
         "options": [
-          "$0$",
           "$5$",
           "$2$",
-          "$0$ hoặc $5$"
+          "$0$ hoặc $5$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Phân tích số 18 ra thừa số nguyên tố ta được:",
         "options": [
-          "$2 \\cdot 3^2$",
-          "$2 \\cdot 9$",
+          "$18$",
           "$3 \\cdot 6$",
-          "$18$"
+          "$2 \\cdot 3^2$",
+          "$2 \\cdot 9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Ước chung lớn nhất của $12$ và $1$ là:",
         "options": [
+          "$6$",
           "$1$",
           "$12$",
-          "$0$",
-          "$6$"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Bội chung nhỏ nhất của $4$ và $6$ là:",
         "options": [
-          "$12$",
-          "$24$",
+          "$6$",
           "$2$",
-          "$6$"
+          "$12$",
+          "$24$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tổng $15 + 30 + 45$ chia hết cho số nào sau đây?",
         "options": [
-          "$15$",
-          "$7$",
           "$8$",
+          "$7$",
+          "$15$",
           "$9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Số nào sau đây chia hết cho 3?",
         "options": [
-          "$234$",
-          "$124$",
           "$235$",
-          "$346$"
+          "$124$",
+          "$346$",
+          "$234$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -3960,9 +3960,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $A = \\{x \\in \\mathbb{N} \\mid x \\,\\vdots\\, 3 \\text{ và } x < 10\\}$. Số phần tử của $A$ là:",
         "options": [
           "$4$ phần tử ($\\{0; 3; 6; 9\\}$)",
-          "$3$ phần tử",
           "$5$ phần tử",
-          "$2$ phần tử"
+          "$2$ phần tử",
+          "$3$ phần tử"
         ],
         "correct": 0
       },
@@ -3971,12 +3971,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $\\text{ƯCLN}(20, 30)$:",
         "options": [
-          "$10$",
-          "$5$",
           "$2$",
-          "$20$"
+          "$20$",
+          "$5$",
+          "$10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -3985,8 +3985,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "options": [
           "$30$",
           "$15$",
-          "$60$",
-          "$5$"
+          "$5$",
+          "$60$"
         ],
         "correct": 0
       },
@@ -3995,12 +3995,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Phân số nào sau đây là phân số tối giản?",
         "options": [
-          "$\\frac{5}{7}$",
-          "$\\frac{6}{8}$",
           "$\\frac{9}{12}$",
-          "$\\frac{10}{15}$"
+          "$\\frac{5}{7}$",
+          "$\\frac{10}{15}$",
+          "$\\frac{6}{8}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -4120,24 +4120,24 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số các số tự nhiên $x$ thỏa mãn $x \\in \\BC(6, 8)$ và $x < 100$ là:",
         "options": [
-          "$5$ số",
-          "$4$ số",
           "$6$ số",
-          "$3$ số"
+          "$4$ số",
+          "$3$ số",
+          "$5$ số"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Số $N = 2^3 \\cdot 3^2 \\cdot 5$ có tất cả bao nhiêu ước tự nhiên?",
         "options": [
+          "$18$",
           "$24$",
           "$12$",
-          "$18$",
           "$20$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -4145,9 +4145,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên $\\overline{1a2b}$ chia hết cho cả 2, 5 và 9:",
         "options": [
           "$1620$",
-          "$1820$",
           "$1225$",
-          "$1520$"
+          "$1520$",
+          "$1820$"
         ],
         "correct": 0
       },
@@ -4156,48 +4156,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cặp số nào sau đây nguyên tố cùng nhau nhưng cả hai đều là hợp số?",
         "options": [
-          "$8$ và $9$",
-          "$7$ và $9$",
           "$11$ và $13$",
-          "$4$ và $6$"
+          "$4$ và $6$",
+          "$8$ và $9$",
+          "$7$ và $9$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $n$ để $n + 6$ chia hết cho $n + 1$:",
         "options": [
-          "$n \\in \\{0; 4\\}$",
-          "$n = 4$",
           "$n = 0$",
-          "$n \\in \\{1; 5\\}$"
+          "$n = 4$",
+          "$n \\in \\{1; 5\\}$",
+          "$n \\in \\{0; 4\\}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tổng $S = 3 + 3^2 + 3^3 + \\dots + 3^{10}$ chia hết cho số nào sau đây?",
         "options": [
-          "$4$",
           "$5$",
-          "$7$",
-          "$8$"
+          "$4$",
+          "$8$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Cho $a$ và $b$ thỏa mãn $\\text{ƯCLN}(a, b) = 15$ và $\\text{BCNN}(a, b) = 90$. Tích $a \\cdot b$ bằng:",
         "options": [
-          "$1350$",
-          "$600$",
           "$900$",
-          "$1500$"
+          "$1500$",
+          "$1350$",
+          "$600$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -4205,9 +4205,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Tìm số tự nhiên nhỏ nhất có 3 chữ số khi chia cho 4, 5, 6 đều dư 1:",
         "options": [
           "$121$",
-          "$181$",
+          "$101$",
           "$241$",
-          "$101$"
+          "$181$"
         ],
         "correct": 0
       },
@@ -4217,9 +4217,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Cho $p$ là số nguyên tố lớn hơn 3. Số dư của $p^2$ khi chia cho 3 là:",
         "options": [
           "$1$",
+          "Không xác định",
           "$2$",
-          "$0$",
-          "Không xác định"
+          "$0$"
         ],
         "correct": 0
       },
@@ -4228,36 +4228,36 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Số học sinh khối 6 của một trường khoảng 300 đến 400 em. Xếp hàng 12, hàng 15, hàng 18 đều thiếu 2 em. Số học sinh là:",
         "options": [
-          "$358$",
-          "$362$",
+          "$342$",
           "$360$",
-          "$342$"
+          "$362$",
+          "$358$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng thấp",
         "question": "Tìm hai số tự nhiên $a$ và $b$ ($a < b$) biết $a + b = 48$ và $\\text{ƯCLN}(a, b) = 6$. Có bao nhiêu cặp số thỏa mãn?",
         "options": [
+          "$1$ cặp",
           "$2$ cặp",
-          "$3$ cặp",
           "$4$ cặp",
-          "$1$ cặp"
+          "$3$ cặp"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng thấp",
         "question": "Rút gọn phân số $\\frac{84}{140}$ về phân số tối giản:",
         "options": [
-          "$\\frac{3}{5}$",
-          "$\\frac{6}{10}$",
           "$\\frac{21}{35}$",
-          "$\\frac{4}{7}$"
+          "$\\frac{4}{7}$",
+          "$\\frac{3}{5}$",
+          "$\\frac{6}{10}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -4377,48 +4377,48 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $n$ là số tự nhiên. Số các ước số của số $A = 2^n \\cdot 3^2$ là 15. Giá trị của $n$ là:",
         "options": [
-          "$4$",
           "$5$",
+          "$4$",
           "$3$",
           "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Cho $p$ và $p + 4$ là các số nguyên tố ($p > 3$). Khẳng định nào sau đây là ĐÚNG về số $p + 8$?",
         "options": [
-          "$p + 8$ là hợp số",
+          "$p + 8$ là số chẵn",
           "$p + 8$ là số nguyên tố",
-          "$p + 8$ chia hết cho 5",
-          "$p + 8$ là số chẵn"
+          "$p + 8$ là hợp số",
+          "$p + 8$ chia hết cho 5"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Cho $S = 2 + 2^2 + 2^3 + \\dots + 2^{2024}$. Số dư của $S$ khi chia cho 7 là:",
         "options": [
-          "$2$",
           "$0$",
-          "$1$",
-          "$4$"
+          "$4$",
+          "$2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm hai số tự nhiên $a, b$ thỏa mãn $a \\cdot b = 180$ và $\\text{BCNN}(a, b) = 60$. Giá trị $\\text{ƯCLN}(a, b)$ là:",
         "options": [
-          "$3$",
-          "$6$",
+          "$5$",
           "$12$",
-          "$5$"
+          "$6$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -4427,8 +4427,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "options": [
           "$0$",
           "$2$",
-          "$4$",
-          "$8$"
+          "$8$",
+          "$4$"
         ],
         "correct": 0
       },
@@ -4437,12 +4437,12 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $a, b$ là hai số tự nhiên lẻ. Chứng minh rằng $a^2 - b^2$ luôn chia hết cho:",
         "options": [
-          "$8$",
-          "$16$",
+          "$12$",
           "$6$",
-          "$12$"
+          "$16$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -4451,8 +4451,8 @@ const CHAPTER2_TOAN6_EXAMS = {
         "options": [
           "$3$",
           "$6$",
-          "$2$",
-          "$4$"
+          "$4$",
+          "$2$"
         ],
         "correct": 0
       },
@@ -4461,24 +4461,24 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số cặp số tự nhiên $(x, y)$ thỏa mãn $(2x + 1)(y - 3) = 12$ là:",
         "options": [
+          "$6$ cặp",
           "$3$ cặp",
           "$2$ cặp",
-          "$4$ cặp",
-          "$6$ cặp"
+          "$4$ cặp"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $A = 111...11$ ($2025$ chữ số 1). Số dư của $A$ khi chia cho 9 là:",
         "options": [
-          "$0$",
-          "$1$",
+          "$6$",
           "$3$",
-          "$6$"
+          "$1$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -4486,9 +4486,9 @@ const CHAPTER2_TOAN6_EXAMS = {
         "question": "Có bao nhiêu số nguyên tố $p$ để $p^2 + 8$ là số nguyên tố?",
         "options": [
           "$1$ số ($p = 3$)",
-          "$2$ số",
           "$0$",
-          "Vô số"
+          "Vô số",
+          "$2$ số"
         ],
         "correct": 0
       },
@@ -4497,24 +4497,24 @@ const CHAPTER2_TOAN6_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ để phân số $\\frac{5n + 6}{n + 1}$ nhận giá trị nguyên:",
         "options": [
-          "$n = 0$",
-          "$n \\in \\{0; 2\\}$",
           "$n = 1$",
-          "Không có số nào"
+          "$n = 0$",
+          "Không có số nào",
+          "$n \\in \\{0; 2\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một số tự nhiên $N$ chia cho 3 dư 1, chia cho 4 dư 2, chia cho 5 dư 3, chia cho 6 dư 4. Số tự nhiên $N$ nhỏ nhất là:",
         "options": [
-          "$58$",
           "$59$",
-          "$62$",
-          "$118$"
+          "$118$",
+          "$58$",
+          "$62$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

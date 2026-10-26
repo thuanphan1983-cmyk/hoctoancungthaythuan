@@ -13,72 +13,72 @@
           "level": "Nhận biết",
           "question": "Tam giác đều là tam giác có:",
           "options": [
-            "Ba cạnh bằng nhau và ba góc bằng nhau bằng $60^\\circ$",
             "Hai cạnh bằng nhau",
+            "Ba cạnh bằng nhau và ba góc bằng nhau bằng $60^\\circ$",
             "Ba cạnh có độ dài bất kì",
             "Một góc vuông"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Hình vuông là tứ giác có:",
           "options": [
-            "4 cạnh bằng nhau và 4 góc vuông",
             "4 cạnh bằng nhau và 4 góc nhọn",
-            "2 cạnh dài và 2 cạnh ngắn",
-            "4 góc bằng nhau nhưng 4 cạnh khác nhau"
+            "4 góc bằng nhau nhưng 4 cạnh khác nhau",
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "2 cạnh dài và 2 cạnh ngắn"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Hình lục giác đều có bao nhiêu cạnh bằng nhau?",
           "options": [
+            "$8$ cạnh",
             "$6$ cạnh",
             "$4$ cạnh",
-            "$8$ cạnh",
             "$5$ cạnh"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Chu vi của một hình vuông có cạnh bằng $5\\text{ cm}$ là:",
           "options": [
-            "$20\\text{ cm}$",
-            "$25\\text{ cm}$",
+            "$15\\text{ cm}$",
             "$10\\text{ cm}$",
-            "$15\\text{ cm}$"
+            "$25\\text{ cm}$",
+            "$20\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Một tam giác đều có cạnh $6\\text{ cm}$. Chu vi tam giác đều đó bằng:",
           "options": [
-            "$18\\text{ cm}$",
             "$12\\text{ cm}$",
             "$36\\text{ cm}$",
+            "$18\\text{ cm}$",
             "$24\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Nhận biết",
           "question": "Hình lục giác đều được ghép từ bao nhiêu tam giác đều bằng nhau?",
           "options": [
-            "$6$",
-            "$4$",
+            "$8$",
             "$5$",
-            "$8$"
+            "$6$",
+            "$4$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 7,
@@ -86,9 +86,9 @@
           "question": "Một hình vuông có chu vi bằng $36\\text{ cm}$. Độ dài cạnh hình vuông đó là:",
           "options": [
             "$9\\text{ cm}$",
-            "$6\\text{ cm}$",
             "$18\\text{ cm}$",
-            "$12\\text{ cm}$"
+            "$12\\text{ cm}$",
+            "$6\\text{ cm}$"
           ],
           "correct": 0
         },
@@ -98,9 +98,9 @@
           "question": "Diện tích của hình vuông có cạnh $7\\text{ cm}$ là:",
           "options": [
             "$49\\text{ cm}^2$",
+            "$21\\text{ cm}^2$",
             "$28\\text{ cm}^2$",
-            "$14\\text{ cm}^2$",
-            "$21\\text{ cm}^2$"
+            "$14\\text{ cm}^2$"
           ],
           "correct": 0
         },
@@ -109,36 +109,36 @@
           "level": "Thông hiểu",
           "question": "Trong hình lục giác đều $ABCDEF$, các đường chéo chính là:",
           "options": [
+            "$AC, BD, CE$",
             "$AD, BE, CF$",
             "$AB, BC, CD$",
-            "$AC, BD, CE$",
             "$AF, EF, DE$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 10,
           "level": "Thông hiểu",
           "question": "Một biển báo giao thông hình tam giác đều có chu vi $120\\text{ cm}$. Cạnh của biển báo đó dài:",
           "options": [
-            "$40\\text{ cm}$",
-            "$60\\text{ cm}$",
             "$30\\text{ cm}$",
-            "$45\\text{ cm}$"
+            "$45\\text{ cm}$",
+            "$60\\text{ cm}$",
+            "$40\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Mỗi góc của hình lục giác đều có số đo bằng:",
           "options": [
-            "$120^\\circ$",
             "$60^\\circ$",
             "$90^\\circ$",
-            "$108^\\circ$"
+            "$108^\\circ$",
+            "$120^\\circ$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 12,
@@ -147,8 +147,8 @@
           "options": [
             "Bằng nhau và vuông góc với nhau",
             "Không bằng nhau",
-            "Bằng nhau nhưng không vuông góc",
-            "Song song với nhau"
+            "Song song với nhau",
+            "Bằng nhau nhưng không vuông góc"
           ],
           "correct": 0
         }
@@ -270,36 +270,36 @@
           "level": "Thông hiểu",
           "question": "Nếu cạnh của một hình vuông tăng lên gấp đôi thì diện tích của nó tăng lên gấp:",
           "options": [
-            "$4$ lần",
             "$2$ lần",
-            "$8$ lần",
-            "$16$ lần"
+            "$16$ lần",
+            "$4$ lần",
+            "$8$ lần"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Thông hiểu",
           "question": "Một hình lục giác đều có chu vi là $48\\text{ cm}$. Độ dài mỗi cạnh của nó là:",
           "options": [
+            "$12\\text{ cm}$",
             "$8\\text{ cm}$",
             "$6\\text{ cm}$",
-            "$12\\text{ cm}$",
             "$16\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Ghép hai hình tam giác đều có cùng độ dài cạnh bằng nhau ta được một hình:",
           "options": [
-            "Hình thoi",
-            "Hình vuông",
             "Hình chữ nhật",
-            "Hình lục giác"
+            "Hình thoi",
+            "Hình lục giác",
+            "Hình vuông"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
@@ -318,12 +318,12 @@
           "level": "Thông hiểu",
           "question": "Trong hình lục giác đều có bao nhiêu đường chéo chính?",
           "options": [
-            "$3$",
             "$6$",
+            "$12$",
             "$9$",
-            "$12$"
+            "$3$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 6,
@@ -331,9 +331,9 @@
           "question": "Một sợi dây thép dài $48\\text{ cm}$ uốn vừa đủ thành một hình vuông. Diện tích hình vuông đó là:",
           "options": [
             "$144\\text{ cm}^2$",
-            "$96\\text{ cm}^2$",
+            "$196\\text{ cm}^2$",
             "$64\\text{ cm}^2$",
-            "$196\\text{ cm}^2$"
+            "$96\\text{ cm}^2$"
           ],
           "correct": 0
         },
@@ -343,9 +343,9 @@
           "question": "Một chiếc bàn ăn mặt gỗ có dạng hình lục giác đều với cạnh $60\\text{ cm}$. Khoảng cách giữa hai đỉnh đối diện nhau qua tâm bằng:",
           "options": [
             "$120\\text{ cm}$",
-            "$60\\text{ cm}$",
             "$90\\text{ cm}$",
-            "$180\\text{ cm}$"
+            "$180\\text{ cm}$",
+            "$60\\text{ cm}$"
           ],
           "correct": 0
         },
@@ -354,60 +354,60 @@
           "level": "Vận dụng thấp",
           "question": "Nếu giảm cạnh của một hình vuông đi $3\\text{ cm}$ thì diện tích giảm $39\\text{ cm}^2$. Cạnh ban đầu của hình vuông là:",
           "options": [
-            "$8\\text{ cm}$",
             "$7\\text{ cm}$",
+            "$10\\text{ cm}$",
             "$9\\text{ cm}$",
-            "$10\\text{ cm}$"
+            "$8\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Vận dụng thấp",
           "question": "Cho tam giác đều $ABC$ cạnh $a$. Lấy điểm $M, N, P$ lần lượt là trung điểm của $AB, BC, CA$. Hình lục giác hoặc tam giác $MNP$ là:",
           "options": [
-            "Tam giác đều có cạnh bằng $a/2$",
             "Tam giác vuông",
             "Tam giác cân nhưng không đều",
-            "Hình thoi"
+            "Hình thoi",
+            "Tam giác đều có cạnh bằng $a/2$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng thấp",
           "question": "Chi phí lát gạch một sân chơi hình vuông cạnh $10\\text{ m}$ với giá $150\\,000$ đồng/m² là:",
           "options": [
-            "$15\\,000\\,000$ đồng",
-            "$6\\,000\\,000$ đồng",
             "$30\\,000\\,000$ đồng",
+            "$6\\,000\\,000$ đồng",
+            "$15\\,000\\,000$ đồng",
             "$22\\,500\\,000$ đồng"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Ghép 6 tam giác đều cạnh $4\\text{ cm}$ thành một hình lục giác đều. Chu vi của hình lục giác đều tạo thành là:",
           "options": [
-            "$24\\text{ cm}$",
-            "$36\\text{ cm}$",
             "$18\\text{ cm}$",
-            "$48\\text{ cm}$"
+            "$24\\text{ cm}$",
+            "$48\\text{ cm}$",
+            "$36\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
           "question": "Một khung ảnh hình vuông cạnh ngoài $25\\text{ cm}$, bề rộng của viền khung là $2\\text{ cm}$. Diện tích phần bên trong để gắn ảnh là:",
           "options": [
-            "$441\\text{ cm}^2$",
-            "$529\\text{ cm}^2$",
             "$400\\text{ cm}^2$",
-            "$484\\text{ cm}^2$"
+            "$484\\text{ cm}^2$",
+            "$441\\text{ cm}^2$",
+            "$529\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         }
       ],
       "part2": [
@@ -527,72 +527,72 @@
           "level": "Thông hiểu",
           "question": "Số đường chéo tất cả của một hình lục giác đều là:",
           "options": [
-            "$9$",
-            "$6$",
+            "$3$",
             "$12$",
-            "$3$"
+            "$9$",
+            "$6$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Vận dụng thấp",
           "question": "Cho hình vuông có diện tích $S$. Nếu tăng cạnh của hình vuông thêm $10\\%$ thì diện tích tăng thêm bao nhiêu phần trăm?",
           "options": [
-            "$21\\%$",
-            "$20\\%$",
             "$10\\%$",
-            "$15\\%$"
+            "$20\\%$",
+            "$15\\%$",
+            "$21\\%$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 3,
           "level": "Vận dụng thấp",
           "question": "Một người ghép 4 viên gạch hình tam giác đều bằng nhau có cạnh $a$ để tạo thành một tam giác đều lớn hơn. Chu vi của tam giác đều lớn đó là:",
           "options": [
-            "$6a$",
-            "$12a$",
             "$4a$",
-            "$3a$"
+            "$6a$",
+            "$3a$",
+            "$12a$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Vận dụng cao",
           "question": "Một hình vuông có cạnh $a$ và một tam giác đều có cạnh $b$ có chu vi bằng nhau. Tỉ số diện tích của hình vuông và diện tích tam giác đều (xấp xỉ) phụ thuộc vào tỉ số giữa $a$ và $b$. Biết chu vi bằng $24\\text{ cm}$. Tỉ số $a/b$ là:",
           "options": [
+            "$2/3$",
             "$3/4$",
             "$4/3$",
-            "$2/3$",
             "$1$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
           "level": "Vận dụng cao",
           "question": "Một mảnh đất hình vuông được chia thành 4 thửa ruộng hình chữ nhật nhỏ bằng nhau bởi hai đường thẳng song song với các cạnh. Nếu chu vi mỗi thửa ruộng nhỏ là $50\\text{ m}$ thì chu vi mảnh đất ban đầu là:",
           "options": [
-            "$80\\text{ m}$",
-            "$100\\text{ m}$",
+            "$60\\text{ m}$",
             "$120\\text{ m}$",
-            "$60\\text{ m}$"
+            "$80\\text{ m}$",
+            "$100\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Vận dụng cao",
           "question": "Trong một hình lục giác đều cạnh $6\\text{ cm}$, diện tích lục giác đều này gấp bao nhiêu lần diện tích một tam giác đều có cùng cạnh $6\\text{ cm}$?",
           "options": [
-            "$6$ lần",
-            "$3$ lần",
+            "$4$ lần",
             "$12$ lần",
-            "$4$ lần"
+            "$3$ lần",
+            "$6$ lần"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
@@ -611,12 +611,12 @@
           "level": "Vận dụng cao",
           "question": "Cho hình vuông $ABCD$ cạnh $12\\text{ cm}$. Điểm $M, N$ lần lượt là trung điểm của $AB$ và $BC$. Diện tích tứ giác $AMND$ là:",
           "options": [
-            "$90\\text{ cm}^2$",
-            "$72\\text{ cm}^2$",
             "$108\\text{ cm}^2$",
-            "$84\\text{ cm}^2$"
+            "$84\\text{ cm}^2$",
+            "$90\\text{ cm}^2$",
+            "$72\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 9,
@@ -624,9 +624,9 @@
           "question": "Một viên gạch trang trí hình lục giác đều có diện tích $54\\text{ cm}^2$. Người ta ghép các viên này lại thành một mảng trang trí gồm 10 viên. Diện tích toàn bộ mảng là:",
           "options": [
             "$540\\text{ cm}^2$",
+            "$500\\text{ cm}^2$",
             "$480\\text{ cm}^2$",
-            "$600\\text{ cm}^2$",
-            "$500\\text{ cm}^2$"
+            "$600\\text{ cm}^2$"
           ],
           "correct": 0
         },
@@ -635,24 +635,24 @@
           "level": "Vận dụng cao",
           "question": "Tìm số tự nhiên $n$ sao cho một đa giác đều $n$ cạnh có số đo mỗi góc bằng $120^\\circ$:",
           "options": [
+            "$n = 4$",
             "$n = 6$",
             "$n = 5$",
-            "$n = 8$",
-            "$n = 4$"
+            "$n = 8$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Một sân hình vuông được mở rộng về 4 phía, mỗi phía tăng thêm $2\\text{ m}$, làm diện tích tăng thêm $64\\text{ m}^2$. Cạnh ban đầu của sân là:",
           "options": [
-            "$6\\text{ m}$",
-            "$8\\text{ m}$",
             "$10\\text{ m}$",
-            "$4\\text{ m}$"
+            "$8\\text{ m}$",
+            "$4\\text{ m}$",
+            "$6\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 12,
@@ -660,9 +660,9 @@
           "question": "Cho lục giác đều $ABCDEF$ có diện tích $S$. Diện tích tam giác $ACE$ bằng:",
           "options": [
             "$S/2$",
+            "$S/4$",
             "$S/3$",
-            "$2S/3$",
-            "$S/4$"
+            "$2S/3$"
           ],
           "correct": 0
         }
@@ -784,60 +784,60 @@
           "level": "Nhận biết",
           "question": "Hình chữ nhật là tứ giác có:",
           "options": [
-            "4 góc vuông",
             "4 cạnh bằng nhau",
             "Hai đường chéo vuông góc",
-            "Hai cạnh kề bằng nhau"
+            "Hai cạnh kề bằng nhau",
+            "4 góc vuông"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Hình thoi là tứ giác có:",
           "options": [
+            "Không có trục đối xứng",
             "4 cạnh bằng nhau",
-            "4 góc vuông",
             "Hai đường chéo bằng nhau",
-            "Không có trục đối xứng"
+            "4 góc vuông"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Công thức tính diện tích hình chữ nhật có chiều dài $a$, chiều rộng $b$ là:",
           "options": [
+            "$S = \\frac{1}{2} a \\cdot b$",
             "$S = a \\cdot b$",
             "$S = (a + b) \\cdot 2$",
-            "$S = a^2$",
-            "$S = \\frac{1}{2} a \\cdot b$"
+            "$S = a^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Công thức tính diện tích hình thoi có độ dài hai đường chéo là $m$ và $n$ là:",
           "options": [
-            "$S = \\frac{1}{2} m \\cdot n$",
+            "$S = 2(m + n)$",
             "$S = m \\cdot n$",
             "$S = (m + n) \\cdot 2$",
-            "$S = 2(m + n)$"
+            "$S = \\frac{1}{2} m \\cdot n$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Chu vi hình thoi có cạnh $a$ được tính theo công thức:",
           "options": [
-            "$C = 4a$",
             "$C = 2a$",
+            "$C = 4a$",
             "$C = a^2$",
             "$C = a + 4$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 6,
@@ -845,9 +845,9 @@
           "question": "Hai đường chéo của hình thoi có tính chất:",
           "options": [
             "Vuông góc với nhau tại trung điểm của mỗi đường",
-            "Bằng nhau và song song",
             "Không cắt nhau",
-            "Không vuông góc"
+            "Không vuông góc",
+            "Bằng nhau và song song"
           ],
           "correct": 0
         },
@@ -856,12 +856,12 @@
           "level": "Thông hiểu",
           "question": "Một hình chữ nhật có chiều dài $12\\text{ cm}$, chiều rộng $8\\text{ cm}$. Chu vi của nó là:",
           "options": [
-            "$40\\text{ cm}$",
             "$96\\text{ cm}$",
             "$20\\text{ cm}$",
+            "$40\\text{ cm}$",
             "$48\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 8,
@@ -869,8 +869,8 @@
           "question": "Diện tích hình chữ nhật có chiều dài $15\\text{ m}$, chiều rộng $6\\text{ m}$ là:",
           "options": [
             "$90\\text{ m}^2$",
-            "$42\\text{ m}^2$",
             "$21\\text{ m}^2$",
+            "$42\\text{ m}^2$",
             "$180\\text{ m}^2$"
           ],
           "correct": 0
@@ -880,12 +880,12 @@
           "level": "Thông hiểu",
           "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $8\\text{ cm}$ và $10\\text{ cm}$. Diện tích của hình thoi đó là:",
           "options": [
-            "$40\\text{ cm}^2$",
+            "$18\\text{ cm}^2$",
             "$80\\text{ cm}^2$",
-            "$36\\text{ cm}^2$",
-            "$18\\text{ cm}^2$"
+            "$40\\text{ cm}^2$",
+            "$36\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
@@ -893,9 +893,9 @@
           "question": "Hình thoi có chu vi bằng $28\\text{ cm}$. Độ dài mỗi cạnh của hình thoi là:",
           "options": [
             "$7\\text{ cm}$",
-            "$14\\text{ cm}$",
             "$4\\text{ cm}$",
-            "$8\\text{ cm}$"
+            "$8\\text{ cm}$",
+            "$14\\text{ cm}$"
           ],
           "correct": 0
         },
@@ -904,24 +904,24 @@
           "level": "Thông hiểu",
           "question": "Trong hình chữ nhật $ABCD$, khẳng định nào sau đây là SAI?",
           "options": [
-            "Hai đường chéo vuông góc với nhau",
-            "Hai đường chéo bằng nhau",
+            "Bốn góc đều bằng $90^\\circ$",
             "Các cạnh đối song song và bằng nhau",
-            "Bốn góc đều bằng $90^\\circ$"
+            "Hai đường chéo vuông góc với nhau",
+            "Hai đường chéo bằng nhau"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Một mảnh vườn hình chữ nhật có chu vi $60\\text{ m}$, chiều dài $20\\text{ m}$. Chiều rộng của mảnh vườn là:",
           "options": [
-            "$10\\text{ m}$",
-            "$20\\text{ m}$",
             "$40\\text{ m}$",
-            "$15\\text{ m}$"
+            "$20\\text{ m}$",
+            "$15\\text{ m}$",
+            "$10\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 3
         }
       ],
       "part2": [
@@ -1053,96 +1053,96 @@
           "level": "Thông hiểu",
           "question": "Một hình thoi có cạnh $10\\text{ cm}$. Chu vi hình thoi đó bằng chu vi hình chữ nhật có các kích thước nào sau đây?",
           "options": [
-            "$12\\text{ cm}$ và $8\\text{ cm}$",
             "$15\\text{ cm}$ và $10\\text{ cm}$",
             "$10\\text{ cm}$ và $5\\text{ cm}$",
+            "$12\\text{ cm}$ và $8\\text{ cm}$",
             "$20\\text{ cm}$ và $10\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Một tấm tôn hình thoi có độ dài hai đường chéo tỉ lệ $3 : 4$, tổng độ dài hai đường chéo bằng $28\\text{ dm}$. Diện tích tấm tôn đó là:",
           "options": [
+            "$120\\text{ dm}^2$",
             "$96\\text{ dm}^2$",
             "$192\\text{ dm}^2$",
-            "$84\\text{ dm}^2$",
-            "$120\\text{ dm}^2$"
+            "$84\\text{ dm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Vận dụng thấp",
           "question": "Người ta ghép hai hình vuông cạnh $6\\text{ cm}$ lại với nhau để được một hình chữ nhật. Chu vi hình chữ nhật tạo thành là:",
           "options": [
-            "$36\\text{ cm}$",
             "$48\\text{ cm}$",
-            "$24\\text{ cm}$",
-            "$30\\text{ cm}$"
+            "$30\\text{ cm}$",
+            "$36\\text{ cm}$",
+            "$24\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 5,
           "level": "Vận dụng thấp",
           "question": "Một mảnh đất hình chữ nhật có diện tích $360\\text{ m}^2$. Nếu tăng chiều rộng thêm $2\\text{ m}$ và giữ nguyên chiều dài thì diện tích tăng thêm $40\\text{ m}^2$. Chiều dài ban đầu của mảnh đất là:",
           "options": [
-            "$20\\text{ m}$",
-            "$18\\text{ m}$",
             "$15\\text{ m}$",
-            "$24\\text{ m}$"
+            "$24\\text{ m}$",
+            "$20\\text{ m}$",
+            "$18\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Vận dụng thấp",
           "question": "Một bồn hoa hình thoi có độ dài hai đường chéo là $6\\text{ m}$ và $8\\text{ m}$, cạnh bồn hoa dài $5\\text{ m}$. Chiều cao của bồn hoa (khoảng cách giữa hai cạnh đối) bằng:",
           "options": [
-            "$4,8\\text{ m}$",
+            "$3,6\\text{ m}$",
             "$4\\text{ m}$",
             "$5\\text{ m}$",
-            "$3,6\\text{ m}$"
+            "$4,8\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
           "level": "Vận dụng thấp",
           "question": "Một khung thép hình thoi có cạnh dài $13\\text{ cm}$, một đường chéo dài $10\\text{ cm}$. Độ dài đường chéo còn lại là:",
           "options": [
-            "$24\\text{ cm}$",
-            "$12\\text{ cm}$",
+            "$18\\text{ cm}$",
             "$20\\text{ cm}$",
-            "$18\\text{ cm}$"
+            "$12\\text{ cm}$",
+            "$24\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 8,
           "level": "Vận dụng thấp",
           "question": "Chi phí mua lưới B40 để rào quanh một khu vườn hình chữ nhật dài $32\\text{ m}$, rộng $18\\text{ m}$ với giá $85\\,000$ đồng/m (chừa cổng vào rộng $2\\text{ m}$) là:",
           "options": [
+            "$8\\,160\\,000$ đồng",
             "$8\\,330\\,000$ đồng",
-            "$8\\,500\\,000$ đồng",
             "$4\\,250\\,000$ đồng",
-            "$8\\,160\\,000$ đồng"
+            "$8\\,500\\,000$ đồng"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Vận dụng thấp",
           "question": "Cắt một tấm bìa hình chữ nhật kích thước $30\\text{ cm} \\times 20\\text{ cm}$ thành các hình vuông có cạnh $5\\text{ cm}$. Số hình vuông cắt được tối đa là:",
           "options": [
-            "$24$",
+            "$18$",
             "$20$",
             "$25$",
-            "$18$"
+            "$24$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
@@ -1150,8 +1150,8 @@
           "question": "Một hình chữ nhật có chu vi $72\\text{ cm}$. Nếu giảm chiều dài $4\\text{ cm}$ và tăng chiều rộng $4\\text{ cm}$ thì được một hình vuông. Diện tích hình chữ nhật ban đầu là:",
           "options": [
             "$308\\text{ cm}^2$",
-            "$320\\text{ cm}^2$",
             "$324\\text{ cm}^2$",
+            "$320\\text{ cm}^2$",
             "$312\\text{ cm}^2$"
           ],
           "correct": 0
@@ -1162,9 +1162,9 @@
           "question": "Ghép bốn tam giác vuông bằng nhau có hai cạnh góc vuông là $6\\text{ cm}$ và $8\\text{ cm}$ thành một hình thoi. Chu vi của hình thoi đó là:",
           "options": [
             "$40\\text{ cm}$",
-            "$28\\text{ cm}$",
             "$32\\text{ cm}$",
-            "$48\\text{ cm}$"
+            "$48\\text{ cm}$",
+            "$28\\text{ cm}$"
           ],
           "correct": 0
         },
@@ -1173,12 +1173,12 @@
           "level": "Vận dụng cao",
           "question": "Một mảnh sân hình chữ nhật lát kín bằng 600 viên gạch vuông cạnh $40\\text{ cm}$. Biết chiều rộng sân là $8\\text{ m}$, chiều dài của sân là:",
           "options": [
-            "$12\\text{ m}$",
             "$15\\text{ m}$",
-            "$10\\text{ m}$",
-            "$16\\text{ m}$"
+            "$12\\text{ m}$",
+            "$16\\text{ m}$",
+            "$10\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 1
         }
       ],
       "part2": [
@@ -1298,48 +1298,48 @@
           "level": "Thông hiểu",
           "question": "Một hình chữ nhật có chu vi $C$. Nếu giữ nguyên chu vi nhưng thay đổi kích thước để diện tích đạt giá trị lớn nhất thì hình chữ nhật đó trở thành:",
           "options": [
-            "Hình vuông",
-            "Hình thoi",
             "Tam giác đều",
-            "Không đổi"
+            "Không đổi",
+            "Hình thoi",
+            "Hình vuông"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
           "level": "Vận dụng thấp",
           "question": "Một hình thoi có diện tích bằng diện tích một hình vuông cạnh $12\\text{ cm}$. Biết một đường chéo của hình thoi dài $18\\text{ cm}$. Đường chéo còn lại dài:",
           "options": [
-            "$16\\text{ cm}$",
-            "$8\\text{ cm}$",
+            "$12\\text{ cm}$",
             "$24\\text{ cm}$",
-            "$12\\text{ cm}$"
+            "$16\\text{ cm}$",
+            "$8\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
           "question": "Một hình chữ nhật có chu vi $80\\text{ m}$. Nếu giảm chiều dài đi $20\\%$ và tăng chiều rộng thêm $20\\%$ thì diện tích không đổi. Tỉ số chiều dài và chiều rộng ban đầu là:",
           "options": [
-            "$3/2$",
             "$2/1$",
             "$5/4$",
+            "$3/2$",
             "$4/3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Vận dụng cao",
           "question": "Một mảnh đất hình chữ nhật có diện tích $540\\text{ m}^2$, chiều dài hơn chiều rộng $9\\text{ m}$. Chu vi của mảnh đất đó là:",
           "options": [
+            "$90\\text{ m}$",
             "$96\\text{ m}$",
             "$102\\text{ m}$",
-            "$90\\text{ m}$",
             "$108\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
@@ -1347,9 +1347,9 @@
           "question": "Nối các trung điểm bốn cạnh của một hình chữ nhật ta luôn được một:",
           "options": [
             "Hình thoi",
-            "Hình vuông",
+            "Hình bình hành không thoi",
             "Hình thang cân",
-            "Hình bình hành không thoi"
+            "Hình vuông"
           ],
           "correct": 0
         },
@@ -1358,36 +1358,36 @@
           "level": "Vận dụng cao",
           "question": "Nối các trung điểm bốn cạnh của một hình thoi ta luôn được một:",
           "options": [
+            "Hình bình hành",
             "Hình chữ nhật",
             "Hình vuông",
-            "Hình thoi",
-            "Hình bình hành"
+            "Hình thoi"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Vận dụng cao",
           "question": "Một hình chữ nhật có chiều dài gấp đôi chiều rộng. Nếu tăng mỗi kích thước thêm $3\\text{ m}$ thì diện tích tăng thêm $135\\text{ m}^2$. Kích thước ban đầu của hình chữ nhật là:",
           "options": [
-            "$28\\text{ m}$ và $14\\text{ m}$",
-            "$30\\text{ m}$ và $15\\text{ m}$",
+            "$26\\text{ m}$ và $13\\text{ m}$",
             "$24\\text{ m}$ và $12\\text{ m}$",
-            "$26\\text{ m}$ và $13\\text{ m}$"
+            "$30\\text{ m}$ và $15\\text{ m}$",
+            "$28\\text{ m}$ và $14\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 8,
           "level": "Vận dụng cao",
           "question": "Một hình thoi có chu vi $52\\text{ cm}$, một đường chéo dài $10\\text{ cm}$. Diện tích của hình thoi đó là:",
           "options": [
-            "$120\\text{ cm}^2$",
             "$240\\text{ cm}^2$",
-            "$260\\text{ cm}^2$",
-            "$130\\text{ cm}^2$"
+            "$130\\text{ cm}^2$",
+            "$120\\text{ cm}^2$",
+            "$260\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 9,
@@ -1395,9 +1395,9 @@
           "question": "Có bao nhiêu hình thoi được tạo thành bởi các đỉnh của một hình lục giác đều?",
           "options": [
             "$6$",
+            "$9$",
             "$3$",
-            "$12$",
-            "$9$"
+            "$12$"
           ],
           "correct": 0
         },
@@ -1406,24 +1406,24 @@
           "level": "Vận dụng cao",
           "question": "Một nền nhà hình chữ nhật kích thước $6\\text{ m} \\times 9\\text{ m}$. Người ta muốn lát kín nền bằng một loại gạch men hình vuông mà không cần cắt viên gạch nào. Kích thước cạnh lớn nhất của viên gạch men là:",
           "options": [
-            "$3\\text{ m}$ (hay $300\\text{ cm}$)",
+            "$50\\text{ cm}$",
             "$1\\text{ m}$",
             "$60\\text{ cm}$",
-            "$50\\text{ cm}$"
+            "$3\\text{ m}$ (hay $300\\text{ cm}$)"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Cho hình chữ nhật $ABCD$ có $AB = 24\\text{ cm}, BC = 15\\text{ cm}$. Trên cạnh $AB$ lấy điểm $E$ sao cho $AE = 6\\text{ cm}$. Diện tích hình thang $EBCD$ là:",
           "options": [
-            "$315\\text{ cm}^2$",
             "$270\\text{ cm}^2$",
+            "$315\\text{ cm}^2$",
             "$360\\text{ cm}^2$",
             "$285\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
@@ -1431,9 +1431,9 @@
           "question": "Cho hình thoi có tổng độ dài hai đường chéo bằng $34\\text{ cm}$, hiệu độ dài hai đường chéo bằng $6\\text{ cm}$. Diện tích hình thoi đó là:",
           "options": [
             "$140\\text{ cm}^2$",
+            "$160\\text{ cm}^2$",
             "$280\\text{ cm}^2$",
-            "$70\\text{ cm}^2$",
-            "$160\\text{ cm}^2$"
+            "$70\\text{ cm}^2$"
           ],
           "correct": 0
         }
@@ -1555,60 +1555,60 @@
           "level": "Nhận biết",
           "question": "Hình bình hành là tứ giác có:",
           "options": [
-            "Các cạnh đối song song và bằng nhau",
             "Bốn cạnh bằng nhau",
+            "Hai đường chéo vuông góc",
             "Bốn góc vuông",
-            "Hai đường chéo vuông góc"
+            "Các cạnh đối song song và bằng nhau"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Hình thang cân là hình thang có:",
           "options": [
-            "Hai góc kề một đáy bằng nhau",
-            "Hai cạnh đáy bằng nhau",
             "Bốn cạnh bằng nhau",
-            "Hai đường chéo vuông góc"
+            "Hai cạnh đáy bằng nhau",
+            "Hai đường chéo vuông góc",
+            "Hai góc kề một đáy bằng nhau"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Hai đường chéo của hình thang cân có tính chất:",
           "options": [
-            "Bằng nhau",
             "Vuông góc với nhau",
-            "Song song với nhau",
-            "Cắt nhau tại trung điểm mỗi đường"
+            "Cắt nhau tại trung điểm mỗi đường",
+            "Bằng nhau",
+            "Song song với nhau"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Công thức tính diện tích hình bình hành có đáy $a$ và chiều cao tương ứng $h$ là:",
           "options": [
+            "$S = 2a \\cdot h$",
             "$S = a \\cdot h$",
-            "$S = \\frac{1}{2} a \\cdot h$",
             "$S = (a + h) \\cdot 2$",
-            "$S = 2a \\cdot h$"
+            "$S = \\frac{1}{2} a \\cdot h$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Công thức tính diện tích hình thang có hai đáy $a, b$ và chiều cao $h$ là:",
           "options": [
-            "$S = \\frac{(a + b) \\cdot h}{2}$",
+            "$S = \\frac{a \\cdot b}{2}$",
             "$S = (a + b) \\cdot h$",
-            "$S = a \\cdot b \\cdot h$",
-            "$S = \\frac{a \\cdot b}{2}$"
+            "$S = \\frac{(a + b) \\cdot h}{2}$",
+            "$S = a \\cdot b \\cdot h$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
@@ -1616,9 +1616,9 @@
           "question": "Chu vi hình bình hành có độ dài hai cạnh kề $a$ và $b$ là:",
           "options": [
             "$C = 2(a + b)$",
-            "$C = 4(a + b)$",
+            "$C = a + b$",
             "$C = a \\cdot b$",
-            "$C = a + b$"
+            "$C = 4(a + b)$"
           ],
           "correct": 0
         },
@@ -1627,24 +1627,24 @@
           "level": "Thông hiểu",
           "question": "Một hình bình hành có độ dài đáy $10\\text{ cm}$ và chiều cao $6\\text{ cm}$. Diện tích của nó là:",
           "options": [
-            "$60\\text{ cm}^2$",
             "$30\\text{ cm}^2$",
+            "$60\\text{ cm}^2$",
             "$32\\text{ cm}^2$",
             "$16\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 8,
           "level": "Thông hiểu",
           "question": "Một hình thang có đáy lớn $12\\text{ cm}$, đáy bé $8\\text{ cm}$ và chiều cao $5\\text{ cm}$. Diện tích hình thang đó là:",
           "options": [
-            "$50\\text{ cm}^2$",
-            "$100\\text{ cm}^2$",
             "$25\\text{ cm}^2$",
-            "$40\\text{ cm}^2$"
+            "$40\\text{ cm}^2$",
+            "$50\\text{ cm}^2$",
+            "$100\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 9,
@@ -1652,8 +1652,8 @@
           "question": "Một hình bình hành có hai cạnh kề dài $7\\text{ cm}$ và $9\\text{ cm}$. Chu vi hình bình hành đó bằng:",
           "options": [
             "$32\\text{ cm}$",
-            "$16\\text{ cm}$",
             "$63\\text{ cm}$",
+            "$16\\text{ cm}$",
             "$28\\text{ cm}$"
           ],
           "correct": 0
@@ -1663,24 +1663,24 @@
           "level": "Thông hiểu",
           "question": "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $AB = 4\\text{ cm}, CD = 10\\text{ cm}$, hai cạnh bên $AD = BC = 5\\text{ cm}$. Chu vi hình thang cân là:",
           "options": [
-            "$24\\text{ cm}$",
-            "$19\\text{ cm}$",
+            "$20\\text{ cm}$",
             "$28\\text{ cm}$",
-            "$20\\text{ cm}$"
+            "$19\\text{ cm}$",
+            "$24\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Trong hình bình hành $ABCD$, khẳng định nào sau đây là SAI?",
           "options": [
-            "Hai đường chéo bằng nhau",
             "Các góc đối bằng nhau",
-            "Hai đường chéo cắt nhau tại trung điểm của mỗi đường",
-            "Các cạnh đối bằng nhau"
+            "Hai đường chéo bằng nhau",
+            "Các cạnh đối bằng nhau",
+            "Hai đường chéo cắt nhau tại trung điểm của mỗi đường"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
@@ -1689,8 +1689,8 @@
           "options": [
             "$15\\text{ m}$",
             "$30\\text{ m}$",
-            "$12\\text{ m}$",
-            "$20\\text{ m}$"
+            "$20\\text{ m}$",
+            "$12\\text{ m}$"
           ],
           "correct": 0
         }
@@ -1812,12 +1812,12 @@
           "level": "Thông hiểu",
           "question": "Một mảnh đất hình bình hành có đáy dài gấp 3 lần chiều cao và diện tích là $75\\text{ m}^2$. Độ dài đáy của mảnh đất là:",
           "options": [
-            "$15\\text{ m}$",
-            "$5\\text{ m}$",
             "$25\\text{ m}$",
-            "$10\\text{ m}$"
+            "$10\\text{ m}$",
+            "$5\\text{ m}$",
+            "$15\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
@@ -1825,9 +1825,9 @@
           "question": "Một hình thang cân có đáy lớn $20\\text{ cm}$, đáy bé bằng một nửa đáy lớn, cạnh bên $8\\text{ cm}$. Chu vi của hình thang cân đó là:",
           "options": [
             "$46\\text{ cm}$",
+            "$40\\text{ cm}$",
             "$38\\text{ cm}$",
-            "$52\\text{ cm}$",
-            "$40\\text{ cm}$"
+            "$52\\text{ cm}$"
           ],
           "correct": 0
         },
@@ -1836,12 +1836,12 @@
           "level": "Thông hiểu",
           "question": "Một hình thang có diện tích $150\\text{ cm}^2$, chiều cao $10\\text{ cm}$. Trung bình cộng hai đáy của hình thang là:",
           "options": [
-            "$15\\text{ cm}$",
-            "$30\\text{ cm}$",
             "$20\\text{ cm}$",
+            "$30\\text{ cm}$",
+            "$15\\text{ cm}$",
             "$25\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
@@ -1849,9 +1849,9 @@
           "question": "Một mảnh vườn hình bình hành có cạnh $24\\text{ m}$ và $16\\text{ m}$. Người ta rào xung quanh vườn bằng 4 hàng dây thép gai. Tổng chiều dài dây thép gai cần dùng là:",
           "options": [
             "$320\\text{ m}$",
+            "$240\\text{ m}$",
             "$80\\text{ m}$",
-            "$160\\text{ m}$",
-            "$240\\text{ m}$"
+            "$160\\text{ m}$"
           ],
           "correct": 0
         },
@@ -1861,9 +1861,9 @@
           "question": "Một hình thang có đáy bé $9\\text{ cm}$, đáy lớn gấp đôi đáy bé. Nếu kéo dài đáy lớn thêm $3\\text{ cm}$ thì diện tích tăng thêm $18\\text{ cm}^2$. Diện tích hình thang ban đầu là:",
           "options": [
             "$162\\text{ cm}^2$",
-            "$144\\text{ cm}^2$",
             "$180\\text{ cm}^2$",
-            "$120\\text{ cm}^2$"
+            "$120\\text{ cm}^2$",
+            "$144\\text{ cm}^2$"
           ],
           "correct": 0
         },
@@ -1872,84 +1872,84 @@
           "level": "Vận dụng thấp",
           "question": "Một hình thang cân có chu vi $60\\text{ cm}$, hai cạnh bên mỗi cạnh dài $13\\text{ cm}$. Chiều cao hình thang bằng $12\\text{ cm}$. Diện tích của hình thang cân đó là:",
           "options": [
-            "$204\\text{ cm}^2$",
+            "$240\\text{ cm}^2$",
             "$408\\text{ cm}^2$",
             "$180\\text{ cm}^2$",
-            "$240\\text{ cm}^2$"
+            "$204\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
           "level": "Vận dụng thấp",
           "question": "Ghép hai hình thang cân bằng nhau có đáy lớn $10\\text{ cm}$, đáy nhỏ $6\\text{ cm}$ và cạnh bên $5\\text{ cm}$ dọc theo đáy lớn thì ta được một hình:",
           "options": [
+            "Hình chữ nhật",
             "Lục giác",
             "Hình bình hành",
-            "Hình chữ nhật",
             "Hình thoi"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 8,
           "level": "Vận dụng thấp",
           "question": "Cho hình bình hành $ABCD$ có diện tích $60\\text{ cm}^2$. Lấy $M$ là trung điểm của cạnh $CD$. Diện tích tam giác $ABM$ là:",
           "options": [
-            "$30\\text{ cm}^2$",
             "$20\\text{ cm}^2$",
-            "$15\\text{ cm}^2$",
-            "$40\\text{ cm}^2$"
+            "$30\\text{ cm}^2$",
+            "$40\\text{ cm}^2$",
+            "$15\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Một thửa ruộng hình thang có đáy lớn $50\\text{ m}$, đáy bé $30\\text{ m}$. Khi mở rộng đáy lớn thêm $10\\text{ m}$ thì diện tích tăng $120\\text{ m}^2$. Diện tích thửa ruộng ban đầu là:",
           "options": [
-            "$960\\text{ m}^2$",
+            "$1200\\text{ m}^2$",
             "$1080\\text{ m}^2$",
-            "$840\\text{ m}^2$",
-            "$1200\\text{ m}^2$"
+            "$960\\text{ m}^2$",
+            "$840\\text{ m}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Một hình bình hành có chu vi $70\\text{ cm}$, độ dài hai cạnh tỉ lệ $2 : 3$. Độ dài hai cạnh kề của hình bình hành là:",
           "options": [
-            "$14\\text{ cm}$ và $21\\text{ cm}$",
-            "$10\\text{ cm}$ và $25\\text{ cm}$",
             "$12\\text{ cm}$ và $18\\text{ cm}$",
-            "$15\\text{ cm}$ và $20\\text{ cm}$"
+            "$10\\text{ cm}$ và $25\\text{ cm}$",
+            "$15\\text{ cm}$ và $20\\text{ cm}$",
+            "$14\\text{ cm}$ và $21\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Một tấm bìa hình thang cân có đáy lớn $18\\text{ cm}$, đáy nhỏ $10\\text{ cm}$, góc ở đáy lớn bằng $45^\\circ$. Chiều cao của hình thang cân đó là:",
           "options": [
-            "$4\\text{ cm}$",
             "$8\\text{ cm}$",
-            "$5\\text{ cm}$",
-            "$6\\text{ cm}$"
+            "$4\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$5\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
           "question": "Cho hình bình hành $ABCD$ có chiều cao ứng với cạnh $AB$ là $h_1 = 8\\text{ cm}$, chiều cao ứng với cạnh $BC$ là $h_2 = 10\\text{ cm}$. Biết $AB = 15\\text{ cm}$, độ dài cạnh $BC$ là:",
           "options": [
-            "$12\\text{ cm}$",
+            "$16\\text{ cm}$",
             "$10\\text{ cm}$",
-            "$14\\text{ cm}$",
-            "$16\\text{ cm}$"
+            "$12\\text{ cm}$",
+            "$14\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         }
       ],
       "part2": [
@@ -2069,12 +2069,12 @@
           "level": "Thông hiểu",
           "question": "Cho hình bình hành $ABCD$. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Một đường thẳng đi qua $O$ cắt $AB$ tại $M$ và cắt $CD$ tại $N$. Khi đó đoạn thẳng $OM$ so với $ON$:",
           "options": [
-            "$OM = ON$",
-            "$OM > ON$",
             "$OM < ON$",
-            "Không so sánh được"
+            "$OM > ON$",
+            "Không so sánh được",
+            "$OM = ON$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
@@ -2082,9 +2082,9 @@
           "question": "Một hình thang có đáy lớn gấp $3$ lần đáy nhỏ. Nếu tăng đáy nhỏ thêm $4\\text{ m}$ thì hình thang trở thành hình bình hành có diện tích gấp đôi diện tích ban đầu. Đáy nhỏ ban đầu là:",
           "options": [
             "$2\\text{ m}$",
-            "$4\\text{ m}$",
+            "$6\\text{ m}$",
             "$3\\text{ m}$",
-            "$6\\text{ m}$"
+            "$4\\text{ m}$"
           ],
           "correct": 0
         },
@@ -2093,36 +2093,36 @@
           "level": "Vận dụng thấp",
           "question": "Một hình thang cân có hai đường chéo vuông góc với nhau và chiều cao bằng $10\\text{ cm}$. Diện tích của hình thang cân đó là:",
           "options": [
-            "$100\\text{ cm}^2$",
-            "$50\\text{ cm}^2$",
             "$200\\text{ cm}^2$",
-            "$150\\text{ cm}^2$"
+            "$50\\text{ cm}^2$",
+            "$150\\text{ cm}^2$",
+            "$100\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 4,
           "level": "Vận dụng cao",
           "question": "Cho hình bình hành $ABCD$ có diện tích $S$. Điểm $E$ nằm trên cạnh $AB$. Diện tích tam giác $EDC$ luôn bằng:",
           "options": [
-            "$S/2$",
-            "$S/3$",
             "$2S/3$",
-            "$S/4$"
+            "$S/4$",
+            "$S/2$",
+            "$S/3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 5,
           "level": "Vận dụng cao",
           "question": "Một thửa ruộng hình thang có diện tích $540\\text{ m}^2$, chiều cao $18\\text{ m}$. Đáy lớn hơn đáy bé $12\\text{ m}$. Độ dài đáy bé và đáy lớn lần lượt là:",
           "options": [
+            "$18\\text{ m}$ và $30\\text{ m}$",
             "$24\\text{ m}$ và $36\\text{ m}$",
             "$20\\text{ m}$ và $32\\text{ m}$",
-            "$22\\text{ m}$ và $34\\text{ m}$",
-            "$18\\text{ m}$ và $30\\text{ m}$"
+            "$22\\text{ m}$ và $34\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 6,
@@ -2130,9 +2130,9 @@
           "question": "Cắt một hình thang cân theo một đường thẳng song song với hai đáy để chia thành hai hình thang có chiều cao bằng nhau. Tỉ số diện tích hai phần phụ thuộc vào:",
           "options": [
             "Độ dài hai đáy ban đầu",
-            "Chỉ phụ thuộc chiều cao",
+            "Không xác định",
             "Luôn bằng 1",
-            "Không xác định"
+            "Chỉ phụ thuộc chiều cao"
           ],
           "correct": 0
         },
@@ -2141,60 +2141,60 @@
           "level": "Vận dụng cao",
           "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $AB = 6\\text{ cm}, CD = 14\\text{ cm}$, góc ở đáy lớn bằng $60^\\circ$. Độ dài cạnh bên $AD$ là:",
           "options": [
+            "$10\\text{ cm}$",
             "$8\\text{ cm}$",
-            "$4\\text{ cm}$",
             "$6\\text{ cm}$",
-            "$10\\text{ cm}$"
+            "$4\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 8,
           "level": "Vận dụng cao",
           "question": "Cho hình bình hành $ABCD$. Trên cạnh $AB$ lấy điểm $M$, trên $CD$ lấy $N$ sao cho $AM = CN$. Tứ giác $MBND$ là hình gì?",
           "options": [
-            "Hình bình hành",
             "Hình chữ nhật",
-            "Hình thoi",
-            "Hình thang cân"
+            "Hình bình hành",
+            "Hình thang cân",
+            "Hình thoi"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Một hình thang có diện tích $210\\text{ cm}^2$, tỉ số hai đáy là $2/5$. Khi kéo dài đáy bé thêm $6\\text{ cm}$ thì được hình bình hành có diện tích $300\\text{ cm}^2$. Chiều cao của hình thang là:",
           "options": [
-            "$15\\text{ cm}$",
+            "$20\\text{ cm}$",
             "$12\\text{ cm}$",
             "$18\\text{ cm}$",
-            "$20\\text{ cm}$"
+            "$15\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Cho tam giác $ABC$ có diện tích $60\\text{ cm}^2$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 2 DB$. Kẻ $DE \\parallel BC$ ($E \\in AC$). Diện tích hình thang $BDEC$ là:",
           "options": [
-            "$33,3\\text{ cm}^2$",
             "$40\\text{ cm}^2$",
             "$26,7\\text{ cm}^2$",
+            "$33,3\\text{ cm}^2$",
             "$45\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Một hình thang cân có đáy nhỏ $10\\text{ cm}$, cạnh bên $13\\text{ cm}$, chiều cao $12\\text{ cm}$. Đáy lớn của hình thang cân là:",
           "options": [
-            "$20\\text{ cm}$",
+            "$18\\text{ cm}$",
             "$15\\text{ cm}$",
-            "$25\\text{ cm}$",
-            "$18\\text{ cm}$"
+            "$20\\text{ cm}$",
+            "$25\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
@@ -2202,9 +2202,9 @@
           "question": "Tổng số đo bốn góc của một hình thang cân luôn bằng:",
           "options": [
             "$360^\\circ$",
-            "$180^\\circ$",
+            "$720^\\circ$",
             "$540^\\circ$",
-            "$720^\\circ$"
+            "$180^\\circ$"
           ],
           "correct": 0
         }
@@ -2326,12 +2326,12 @@
           "level": "Nhận biết",
           "question": "Hình nào sau đây có 4 cạnh bằng nhau và 4 góc vuông?",
           "options": [
-            "Hình vuông",
             "Hình thoi",
             "Hình chữ nhật",
-            "Hình bình hành"
+            "Hình bình hành",
+            "Hình vuông"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
@@ -2339,9 +2339,9 @@
           "question": "Hình nào sau đây có 3 cạnh bằng nhau và 3 góc bằng nhau?",
           "options": [
             "Tam giác đều",
+            "Tam giác tù",
             "Tam giác vuông",
-            "Tam giác cân",
-            "Tam giác tù"
+            "Tam giác cân"
           ],
           "correct": 0
         },
@@ -2350,72 +2350,72 @@
           "level": "Nhận biết",
           "question": "Hình lục giác đều có số đường chéo chính là:",
           "options": [
-            "$3$",
-            "$6$",
+            "$4$",
             "$9$",
-            "$4$"
+            "$3$",
+            "$6$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Diện tích hình chữ nhật có kích thước $a = 6\\text{ cm}, b = 4\\text{ cm}$ là:",
           "options": [
+            "$10\\text{ cm}^2$",
             "$24\\text{ cm}^2$",
             "$20\\text{ cm}^2$",
-            "$10\\text{ cm}^2$",
             "$12\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Chu vi của một hình vuông có cạnh bằng $8\\text{ cm}$ là:",
           "options": [
-            "$32\\text{ cm}$",
-            "$64\\text{ cm}$",
             "$16\\text{ cm}$",
-            "$24\\text{ cm}$"
+            "$32\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$64\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 6,
           "level": "Nhận biết",
           "question": "Diện tích hình thoi có hai đường chéo $m = 6\\text{ cm}, n = 8\\text{ cm}$ là:",
           "options": [
-            "$24\\text{ cm}^2$",
             "$48\\text{ cm}^2$",
-            "$14\\text{ cm}^2$",
-            "$28\\text{ cm}^2$"
+            "$24\\text{ cm}^2$",
+            "$28\\text{ cm}^2$",
+            "$14\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Thông hiểu",
           "question": "Hình thang cân có tính chất nào sau đây?",
           "options": [
-            "Hai đường chéo bằng nhau",
+            "Bốn góc bằng nhau",
             "Bốn cạnh bằng nhau",
             "Hai đường chéo vuông góc",
-            "Bốn góc bằng nhau"
+            "Hai đường chéo bằng nhau"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 8,
           "level": "Thông hiểu",
           "question": "Một hình bình hành có đáy $12\\text{ cm}$ và chiều cao tương ứng $5\\text{ cm}$. Diện tích của nó là:",
           "options": [
-            "$60\\text{ cm}^2$",
-            "$30\\text{ cm}^2$",
+            "$17\\text{ cm}^2$",
             "$34\\text{ cm}^2$",
-            "$17\\text{ cm}^2$"
+            "$60\\text{ cm}^2$",
+            "$30\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 9,
@@ -2423,9 +2423,9 @@
           "question": "Một tam giác đều có chu vi bằng $27\\text{ cm}$. Độ dài mỗi cạnh của nó là:",
           "options": [
             "$9\\text{ cm}$",
+            "$12\\text{ cm}$",
             "$6\\text{ cm}$",
-            "$8\\text{ cm}$",
-            "$12\\text{ cm}$"
+            "$8\\text{ cm}$"
           ],
           "correct": 0
         },
@@ -2434,24 +2434,24 @@
           "level": "Thông hiểu",
           "question": "Một hình chữ nhật có diện tích $45\\text{ cm}^2$, chiều rộng $5\\text{ cm}$. Chu vi hình chữ nhật đó là:",
           "options": [
-            "$28\\text{ cm}$",
+            "$24\\text{ cm}$",
             "$14\\text{ cm}$",
-            "$18\\text{ cm}$",
-            "$24\\text{ cm}$"
+            "$28\\text{ cm}$",
+            "$18\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Chu vi của một hình lục giác đều cạnh $7\\text{ cm}$ là:",
           "options": [
-            "$42\\text{ cm}$",
             "$35\\text{ cm}$",
+            "$28\\text{ cm}$",
             "$49\\text{ cm}$",
-            "$28\\text{ cm}$"
+            "$42\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 12,
@@ -2585,8 +2585,8 @@
           "options": [
             "$96\\text{ cm}^2$",
             "$120\\text{ cm}^2$",
-            "$48\\text{ cm}^2$",
-            "$192\\text{ cm}^2$"
+            "$192\\text{ cm}^2$",
+            "$48\\text{ cm}^2$"
           ],
           "correct": 0
         },
@@ -2595,60 +2595,60 @@
           "level": "Thông hiểu",
           "question": "Ghép 6 tam giác đều cạnh $5\\text{ cm}$ thành một lục giác đều. Chu vi của hình lục giác đều tạo thành là:",
           "options": [
-            "$30\\text{ cm}$",
             "$25\\text{ cm}$",
+            "$30\\text{ cm}$",
             "$36\\text{ cm}$",
             "$15\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Một hình chữ nhật có chu vi $64\\text{ m}$. Nếu tăng chiều rộng $3\\text{ m}$ và giảm chiều dài $3\\text{ m}$ thì diện tích đạt giá trị lớn nhất. Diện tích lớn nhất đó là:",
           "options": [
-            "$256\\text{ m}^2$",
-            "$240\\text{ m}^2$",
             "$250\\text{ m}^2$",
-            "$289\\text{ m}^2$"
+            "$256\\text{ m}^2$",
+            "$289\\text{ m}^2$",
+            "$240\\text{ m}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Thông hiểu",
           "question": "Một hình thang cân có đáy lớn $22\\text{ cm}$, đáy bé $10\\text{ cm}$, cạnh bên $10\\text{ cm}$. Chiều cao hình thang cân là:",
           "options": [
-            "$8\\text{ cm}$",
             "$6\\text{ cm}$",
-            "$10\\text{ cm}$",
-            "$12\\text{ cm}$"
+            "$8\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$10\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
           "level": "Vận dụng thấp",
           "question": "Cắt một tấm bìa hình vuông cạnh $24\\text{ cm}$ thành các hình vuông nhỏ cạnh $3\\text{ cm}$. Số hình vuông nhỏ thu được là:",
           "options": [
-            "$64$",
             "$36$",
             "$8$",
+            "$64$",
             "$48$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Vận dụng thấp",
           "question": "Một bồn hoa hình thoi có cạnh $15\\text{ m}$, hai đường chéo dài $18\\text{ m}$ và $24\\text{ m}$. Chiều cao của bồn hoa đó là:",
           "options": [
-            "$14,4\\text{ m}$",
             "$12\\text{ m}$",
             "$15\\text{ m}$",
-            "$16\\text{ m}$"
+            "$16\\text{ m}$",
+            "$14,4\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
@@ -2656,9 +2656,9 @@
           "question": "Một mảnh đất hình bình hành có chu vi $100\\text{ m}$, cạnh dài hơn cạnh ngắn $10\\text{ m}$. Cạnh dài của mảnh đất là:",
           "options": [
             "$30\\text{ m}$",
-            "$25\\text{ m}$",
+            "$20\\text{ m}$",
             "$35\\text{ m}$",
-            "$20\\text{ m}$"
+            "$25\\text{ m}$"
           ],
           "correct": 0
         },
@@ -2667,48 +2667,48 @@
           "level": "Vận dụng thấp",
           "question": "Một hình thang có diện tích $180\\text{ cm}^2$, chiều cao $12\\text{ cm}$. Nếu đáy lớn dài gấp rưỡi đáy bé thì độ dài đáy lớn là:",
           "options": [
-            "$18\\text{ cm}$",
             "$12\\text{ cm}$",
             "$24\\text{ cm}$",
-            "$15\\text{ cm}$"
+            "$15\\text{ cm}$",
+            "$18\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Chi phí mua cỏ phủ kín một sân vận động hình chữ nhật kích thước $105\\text{ m} \\times 68\\text{ m}$ với giá $160\\,000$ đồng/m² là:",
           "options": [
-            "$1\\,142\\,400\\,000$ đồng",
             "$1\\,140\\,000\\,000$ đồng",
             "$571\\,200\\,000$ đồng",
-            "$2\\,284\\,800\\,000$ đồng"
+            "$2\\,284\\,800\\,000$ đồng",
+            "$1\\,142\\,400\\,000$ đồng"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Một biển quảng cáo hình lục giác đều cạnh $1\\text{ m}$. Người ta lắp đèn viền xung quanh với giá $150\\,000$ đồng/m. Số tiền làm viền đèn là:",
           "options": [
-            "$900\\,000$ đồng",
-            "$600\\,000$ đồng",
             "$1\\,200\\,000$ đồng",
-            "$750\\,000$ đồng"
+            "$750\\,000$ đồng",
+            "$900\\,000$ đồng",
+            "$600\\,000$ đồng"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Nối các trung điểm 4 cạnh của hình chữ nhật có kích thước $16\\text{ cm} \\times 12\\text{ cm}$ ta được hình thoi có diện tích:",
           "options": [
-            "$96\\text{ cm}^2$",
-            "$192\\text{ cm}^2$",
+            "$144\\text{ cm}^2$",
             "$48\\text{ cm}^2$",
-            "$144\\text{ cm}^2$"
+            "$96\\text{ cm}^2$",
+            "$192\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
@@ -2716,9 +2716,9 @@
           "question": "Một hình vuông và một tam giác đều có cùng chu vi là $36\\text{ cm}$. Tỉ số cạnh của hình vuông so với cạnh của tam giác đều là:",
           "options": [
             "$3/4$",
+            "$2/3$",
             "$4/3$",
-            "$1/2$",
-            "$2/3$"
+            "$1/2$"
           ],
           "correct": 0
         }
@@ -2841,8 +2841,8 @@
           "question": "Cho hình chữ nhật có chu vi không đổi $P = 40\\text{ cm}$. Khi diện tích đạt giá trị lớn nhất thì diện tích đó bằng:",
           "options": [
             "$100\\text{ cm}^2$",
-            "$96\\text{ cm}^2$",
             "$84\\text{ cm}^2$",
+            "$96\\text{ cm}^2$",
             "$64\\text{ cm}^2$"
           ],
           "correct": 0
@@ -2852,36 +2852,36 @@
           "level": "Vận dụng thấp",
           "question": "Một hình lục giác đều có diện tích $96\\text{ cm}^2$. Nối 3 đỉnh không liền kề nhau ta được một tam giác đều có diện tích là:",
           "options": [
+            "$64\\text{ cm}^2$",
             "$48\\text{ cm}^2$",
             "$32\\text{ cm}^2$",
-            "$64\\text{ cm}^2$",
             "$24\\text{ cm}^2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Vận dụng thấp",
           "question": "Một hình thoi có độ dài hai đường chéo hơn kém nhau $4\\text{ cm}$ và diện tích bằng $96\\text{ cm}^2$. Cạnh của hình thoi đó là:",
           "options": [
-            "$10\\text{ cm}$",
-            "$12\\text{ cm}$",
             "$8\\text{ cm}$",
-            "$15\\text{ cm}$"
+            "$15\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$10\\text{ cm}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 4,
           "level": "Vận dụng cao",
           "question": "Một thửa ruộng hình thang có diện tích $450\\text{ m}^2$, đáy lớn gấp đôi đáy bé. Khi mở rộng cả hai đáy thêm $5\\text{ m}$ thì diện tích tăng thêm $75\\text{ m}^2$. Độ dài hai đáy ban đầu lần lượt là:",
           "options": [
-            "$10\\text{ m}$ và $20\\text{ m}$",
-            "$15\\text{ m}$ và $30\\text{ m}$",
             "$12\\text{ m}$ và $24\\text{ m}$",
-            "$20\\text{ m}$ và $40\\text{ m}$"
+            "$10\\text{ m}$ và $20\\text{ m}$",
+            "$20\\text{ m}$ và $40\\text{ m}$",
+            "$15\\text{ m}$ và $30\\text{ m}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
@@ -2889,9 +2889,9 @@
           "question": "Cho hình bình hành $ABCD$. Lấy $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Tỉ số diện tích tứ giác $AMCN$ so với diện tích hình bình hành $ABCD$ là:",
           "options": [
             "$1/2$",
-            "$1/3$",
+            "$1/4$",
             "$2/3$",
-            "$1/4$"
+            "$1/3$"
           ],
           "correct": 0
         },
@@ -2900,12 +2900,12 @@
           "level": "Vận dụng cao",
           "question": "Một mảnh đất hình vuông được chia thành 5 hình chữ nhật có diện tích bằng nhau nhờ các đường thẳng song song. Nếu chu vi mỗi hình chữ nhật nhỏ là $48\\text{ m}$ thì diện tích mảnh đất ban đầu là:",
           "options": [
-            "$400\\text{ m}^2$",
+            "$900\\text{ m}^2$",
             "$225\\text{ m}^2$",
-            "$625\\text{ m}^2$",
-            "$900\\text{ m}^2$"
+            "$400\\text{ m}^2$",
+            "$625\\text{ m}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 7,
@@ -2913,9 +2913,9 @@
           "question": "Cho hình thang cân $ABCD$ có đường chéo $AC \\perp BD$, chiều cao $h = 8\\text{ cm}$. Diện tích của hình thang cân đó là:",
           "options": [
             "$64\\text{ cm}^2$",
+            "$96\\text{ cm}^2$",
             "$32\\text{ cm}^2$",
-            "$128\\text{ cm}^2$",
-            "$96\\text{ cm}^2$"
+            "$128\\text{ cm}^2$"
           ],
           "correct": 0
         },
@@ -2924,60 +2924,60 @@
           "level": "Vận dụng cao",
           "question": "Cắt 4 góc của một hình vuông cạnh $a$ để được một hình bát giác đều. Độ dài cạnh của bát giác đều được tính theo $a$ xấp xỉ bằng:",
           "options": [
-            "$0,414 a$",
-            "$0,5 a$",
             "$0,333 a$",
-            "$0,25 a$"
+            "$0,5 a$",
+            "$0,25 a$",
+            "$0,414 a$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Người ta muốn uốn một sợi dây thép dài $60\\text{ cm}$ thành một hình có diện tích lớn nhất. Hình nên uốn là:",
           "options": [
-            "Hình lục giác đều",
-            "Hình vuông",
             "Hình tam giác đều",
+            "Hình vuông",
+            "Hình lục giác đều",
             "Hình chữ nhật có tỉ lệ 2:1"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Một hình chữ nhật có kích thước $a \\times b$. Tăng $a$ thêm $20\\%$ và giảm $b$ đi $20\\%$ thì diện tích thay đổi thế nào?",
           "options": [
+            "Không thay đổi",
             "Giảm $4\\%$",
             "Tăng $4\\%$",
-            "Không thay đổi",
             "Giảm $2\\%$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Một mảnh vườn hình chữ nhật có chu vi $120\\text{ m}$. Xung quanh vườn làm đường đi rộng $1\\text{ m}$. Diện tích con đường đó là:",
           "options": [
-            "$116\\text{ m}^2$",
             "$124\\text{ m}^2$",
             "$120\\text{ m}^2$",
+            "$116\\text{ m}^2$",
             "$108\\text{ m}^2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
           "question": "Cho lục giác đều $ABCDEF$. Tỉ số diện tích của tam giác $ABC$ so với lục giác đều $ABCDEF$ bằng:",
           "options": [
-            "$1/6$",
+            "$1/12$",
             "$1/3$",
             "$1/4$",
-            "$1/12$"
+            "$1/6$"
           ],
-          "correct": 0
+          "correct": 3
         }
       ],
       "part2": [

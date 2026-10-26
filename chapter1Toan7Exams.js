@@ -8,48 +8,48 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Số hữu tỉ là số có thể viết được dưới dạng:",
         "options": [
+          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}$",
           "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z},\\ b \\neq 0$",
           "$\\frac{a}{b}$ với $a, b \\in \\mathbb{N}$",
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}$",
           "$a \\cdot b$ với $a, b \\in \\mathbb{Z}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$\\mathbb{Q}$",
+          "$\\mathbb{R}$",
           "$\\mathbb{Z}$",
           "$\\mathbb{N}$",
-          "$\\mathbb{R}$"
+          "$\\mathbb{Q}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Số đối của số hữu tỉ $-\\frac{3}{5}$ là:",
         "options": [
-          "$\\frac{3}{5}$",
           "$-\\frac{3}{5}$",
+          "$\\frac{3}{5}$",
           "$-\\frac{5}{3}$",
           "$\\frac{5}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là đúng về số 0?",
         "options": [
-          "Số 0 là số hữu tỉ không âm và không dương",
-          "Số 0 là số hữu tỉ dương",
           "Số 0 là số hữu tỉ âm",
-          "Số 0 không phải là số hữu tỉ"
+          "Số 0 không phải là số hữu tỉ",
+          "Số 0 là số hữu tỉ không âm và không dương",
+          "Số 0 là số hữu tỉ dương"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -57,9 +57,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Trong các số sau, số nào KHÔNG PHẢI là số hữu tỉ?",
         "options": [
           "Số thập phân vô hạn không tuần hoàn",
-          "$-2,5$",
+          "$1\\frac{2}{3}$",
           "$\\frac{0}{7}$",
-          "$1\\frac{2}{3}$"
+          "$-2,5$"
         ],
         "correct": 0
       },
@@ -70,8 +70,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "Bên phải điểm 0",
           "Bên trái điểm 0",
-          "Trùng điểm 0",
-          "Bên trái điểm -1"
+          "Bên trái điểm -1",
+          "Trùng điểm 0"
         ],
         "correct": 0
       },
@@ -80,48 +80,48 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Phân số nào sau đây biểu diễn số hữu tỉ $-0,75$?",
         "options": [
-          "$-\\frac{3}{4}$",
-          "$\\frac{3}{4}$",
+          "$-\\frac{4}{3}$",
           "$-\\frac{7}{5}$",
-          "$-\\frac{4}{3}$"
+          "$-\\frac{3}{4}$",
+          "$\\frac{3}{4}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "So sánh hai số hữu tỉ $-\\frac{2}{5}$ và $-\\frac{4}{5}$:",
         "options": [
+          "Không so sánh được",
           "$-\\frac{2}{5} > -\\frac{4}{5}$",
-          "$-\\frac{2}{5} < -\\frac{4}{5}$",
           "$-\\frac{2}{5} = -\\frac{4}{5}$",
-          "Không so sánh được"
+          "$-\\frac{2}{5} < -\\frac{4}{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Số nguyên $-4$ có thể viết dưới dạng số hữu tỉ là:",
         "options": [
-          "$-\\frac{4}{1}$",
           "$\\frac{1}{-4}$",
           "$\\frac{4}{0}$",
-          "$-4,1$"
+          "$-4,1$",
+          "$-\\frac{4}{1}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Sắp xếp các số sau theo thứ tự tăng dần: $-1,5;\\ 0;\\ \\frac{1}{2};\\ -2$:",
         "options": [
-          "$-2 < -1,5 < 0 < \\frac{1}{2}$",
-          "$-1,5 < -2 < 0 < \\frac{1}{2}$",
           "$\\frac{1}{2} < 0 < -1,5 < -2$",
-          "$-2 < 0 < -1,5 < \\frac{1}{2}$"
+          "$-2 < 0 < -1,5 < \\frac{1}{2}$",
+          "$-2 < -1,5 < 0 < \\frac{1}{2}$",
+          "$-1,5 < -2 < 0 < \\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -129,8 +129,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Phân số nào sau đây bằng phân số $\\frac{-6}{10}$?",
         "options": [
           "$\\frac{-3}{5}$",
-          "$\\frac{3}{5}$",
           "$\\frac{-5}{3}$",
+          "$\\frac{3}{5}$",
           "$\\frac{6}{10}$"
         ],
         "correct": 0
@@ -140,12 +140,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khoảng cách từ điểm biểu diễn $-\\frac{3}{4}$ đến điểm gốc 0 trên trục số là:",
         "options": [
-          "$\\frac{3}{4}$",
           "$-\\frac{3}{4}$",
+          "$\\frac{4}{3}$",
           "$0$",
-          "$\\frac{4}{3}$"
+          "$\\frac{3}{4}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -265,60 +265,60 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số hữu tỉ nào sau đây nằm giữa $-\\frac{1}{3}$ và $\\frac{1}{3}$?",
         "options": [
-          "$0$",
           "$-\\frac{1}{2}$",
           "$\\frac{2}{3}$",
-          "$-\\frac{3}{4}$"
+          "$-\\frac{3}{4}$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm số nguyên $x$ sao cho phân số $\\frac{x}{5}$ thỏa mãn $-\\frac{3}{5} < \\frac{x}{5} < \\frac{1}{5}$:",
         "options": [
-          "$x \\in \\{-2; -1; 0\\}$",
-          "$x \\in \\{-3; -2; -1\\}$",
           "$x \\in \\{-2; -1; 0; 1\\}$",
-          "$x \\in \\{-1; 0\\}$"
+          "$x \\in \\{-2; -1; 0\\}$",
+          "$x \\in \\{-1; 0\\}$",
+          "$x \\in \\{-3; -2; -1\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Cho $a, b \\in \\mathbb{Z},\\ b > 0$. Số hữu tỉ $\\frac{a}{b}$ là số hữu tỉ dương khi:",
         "options": [
-          "$a > 0$",
-          "$a < 0$",
           "$a = 0$",
-          "$a \\leq 0$"
+          "$a > 0$",
+          "$a \\leq 0$",
+          "$a < 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "So sánh hai số hữu tỉ $x = -0,75$ và $y = -\\frac{5}{6}$:",
         "options": [
-          "$x > y$",
           "$x < y$",
-          "$x = y$",
-          "Không so sánh được"
+          "Không so sánh được",
+          "$x > y$",
+          "$x = y$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số nguyên $a$ để phân số $\\frac{5}{a - 2}$ là số hữu tỉ?",
         "options": [
-          "Vô số giá trị với $a \\in \\mathbb{Z},\\ a \\neq 2$",
+          "4 giá trị",
           "Đúng 5 giá trị",
-          "Không có giá trị nào",
-          "4 giá trị"
+          "Vô số giá trị với $a \\in \\mathbb{Z},\\ a \\neq 2$",
+          "Không có giá trị nào"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -326,8 +326,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Số đối của $-\\left(-\\frac{2}{7}\\right)$ là:",
         "options": [
           "$-\\frac{2}{7}$",
-          "$\\frac{2}{7}$",
           "$\\frac{7}{2}$",
+          "$\\frac{2}{7}$",
           "$-\\frac{7}{2}$"
         ],
         "correct": 0
@@ -337,60 +337,60 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $x = \\frac{a - 3}{2}$. Với giá trị nào của $a$ thì $x$ là số hữu tỉ dương?",
         "options": [
-          "$a > 3$",
           "$a < 3$",
+          "$a > 3$",
           "$a = 3$",
           "$a \\geq 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Khoảng cách giữa hai điểm $-\\frac{5}{3}$ và $\\frac{1}{3}$ trên trục số là:",
         "options": [
-          "$2$",
           "$\\frac{4}{3}$",
           "$-\\frac{4}{3}$",
-          "$\\frac{6}{3} = -2$"
+          "$\\frac{6}{3} = -2$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng thấp",
         "question": "Phân số nào sau đây không thể viết thành số thập phân hữu hạn?",
         "options": [
-          "$\\frac{5}{6}$",
           "$\\frac{3}{8}$",
           "$\\frac{7}{20}$",
-          "$\\frac{9}{25}$"
+          "$\\frac{9}{25}$",
+          "$\\frac{5}{6}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số hữu tỉ $\\frac{x}{8}$ thỏa mãn $-\\frac{3}{4} < \\frac{x}{8} < -\\frac{1}{2}$ có tử số $x$ nguyên là:",
         "options": [
-          "$x = -5$",
           "$x = -6$",
           "$x = -4$",
+          "$x = -5$",
           "$x = -7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Trong các số hữu tỉ sau, số nào lớn nhất?",
         "options": [
+          "$-\\frac{9}{10}$",
           "$-\\frac{11}{12}$",
-          "$-\\frac{13}{14}$",
           "$-\\frac{15}{16}$",
-          "$-\\frac{9}{10}$"
+          "$-\\frac{13}{14}$"
         ],
-        "correct": 3
+        "correct": 0
       },
       {
         "id": 12,
@@ -399,8 +399,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$a \\cdot d < b \\cdot c$",
           "$a \\cdot c < b \\cdot d$",
-          "$a + d < b + c$",
-          "$a \\cdot b < c \\cdot d$"
+          "$a \\cdot b < c \\cdot d$",
+          "$a + d < b + c$"
         ],
         "correct": 0
       }
@@ -522,72 +522,72 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $x = \\frac{a}{b}$ và $y = \\frac{c}{d}$ ($b, d > 0$). Nếu $ad - bc = 1$ thì:",
         "options": [
-          "$x > y$ và không có số hữu tỉ nào có mẫu $b + d$ nằm giữa $x$ và $y$",
+          "$x$ và $y$ là hai số đối nhau",
           "$x < y$ và $(a+c)/(b+d)$ nằm giữa $x$ và $y$",
-          "$x = y$",
-          "$x$ và $y$ là hai số đối nhau"
+          "$x > y$ và không có số hữu tỉ nào có mẫu $b + d$ nằm giữa $x$ và $y$",
+          "$x = y$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Số giá trị nguyên của $x$ để phân số $\\frac{2x + 7}{x + 1}$ nhận giá trị nguyên là:",
         "options": [
-          "$4$",
           "$2$",
+          "$8$",
           "$6$",
-          "$8$"
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Tìm số hữu tỉ $x$ sao cho khoảng cách từ $x$ đến $-\\frac{1}{2}$ bằng $\\frac{3}{4}$:",
         "options": [
-          "$x = \\frac{1}{4}$ hoặc $x = -\\frac{5}{4}$",
-          "$x = \\frac{1}{4}$",
           "$x = -\\frac{5}{4}$",
-          "$x = \\frac{5}{4}$"
+          "$x = \\frac{1}{4}$",
+          "$x = \\frac{5}{4}$",
+          "$x = \\frac{1}{4}$ hoặc $x = -\\frac{5}{4}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng cao",
         "question": "Cho dãy số hữu tỉ: $\\frac{1}{1\\cdot 2}, \\frac{1}{2\\cdot 3}, \\frac{1}{3\\cdot 4}, \\dots, \\frac{1}{99\\cdot 100}$. Tổng của dãy số này bằng:",
         "options": [
-          "$\\frac{99}{100}$",
-          "$\\frac{1}{100}$",
           "$1$",
+          "$\\frac{1}{100}$",
+          "$\\frac{99}{100}$",
           "$\\frac{100}{101}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu phân số có mẫu là 13, lớn hơn $-\\frac{5}{7}$ và nhỏ hơn $-\\frac{2}{7}$?",
         "options": [
-          "$5$",
-          "$4$",
           "$6$",
-          "$3$"
+          "$3$",
+          "$5$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $A = \\frac{2024}{2025}$ và $B = \\frac{2025}{2026}$. Khẳng định nào sau đây đúng?",
         "options": [
+          "Không so sánh được",
           "$A < B$",
           "$A > B$",
-          "$A = B$",
-          "Không so sánh được"
+          "$A = B$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -596,8 +596,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$3,8$",
           "$2,5$",
-          "$6,3$",
-          "$0$"
+          "$0$",
+          "$6,3$"
         ],
         "correct": 0
       },
@@ -606,12 +606,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số hữu tỉ $x$ biết rằng $x$ bằng trung bình cộng của số đối của nó và $\\frac{4}{5}$:",
         "options": [
+          "$x = \\frac{8}{15}$",
           "$x = \\frac{4}{15}$",
           "$x = \\frac{2}{5}$",
-          "$x = \\frac{4}{5}$",
-          "$x = \\frac{8}{15}$"
+          "$x = \\frac{4}{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -619,9 +619,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Cho ba số hữu tỉ $a, b, c$ thỏa mãn $a < b < c$. Khẳng định nào sau đây SAI?",
         "options": [
           "$a + c$ luôn lớn hơn $2b$",
-          "$a < \\frac{a+b+c}{3} < c$",
           "Nếu $c < 0$ thì $a \\cdot c > b \\cdot c$",
-          "$-c < -b < -a$"
+          "$-c < -b < -a$",
+          "$a < \\frac{a+b+c}{3} < c$"
         ],
         "correct": 0
       },
@@ -642,24 +642,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Phân số tối giản $\\frac{a}{b}$ ($a, b > 0$) thỏa mãn khi cộng cả tử và mẫu với $b$ thì giá trị phân số tăng gấp đôi. Phân số đó là:",
         "options": [
+          "$\\frac{2}{3}$",
           "Không tồn tại phân số như vậy",
           "$\\frac{1}{2}$",
-          "$\\frac{2}{3}$",
           "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị lớn nhất của biểu thức $P = 5 - |2x + 1,4|$ là:",
         "options": [
-          "$5$",
-          "$3,6$",
+          "Không có giá trị lớn nhất",
           "$6,4$",
-          "Không có giá trị lớn nhất"
+          "$3,6$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -780,8 +780,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Kết quả của phép tính $\\frac{-2}{5} + \\frac{4}{5}$ là:",
         "options": [
           "$\\frac{2}{5}$",
-          "$-\\frac{2}{5}$",
           "$\\frac{6}{5}$",
+          "$-\\frac{2}{5}$",
           "$-\\frac{6}{5}$"
         ],
         "correct": 0
@@ -791,48 +791,48 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $\\frac{3}{7} - \\frac{5}{7}$ là:",
         "options": [
-          "$-\\frac{2}{7}$",
           "$\\frac{2}{7}$",
-          "$-\\frac{8}{7}$",
-          "$\\frac{8}{7}$"
+          "$\\frac{8}{7}$",
+          "$-\\frac{2}{7}$",
+          "$-\\frac{8}{7}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $\\left(-\\frac{3}{4}\\right) \\cdot \\frac{2}{5}$ là:",
         "options": [
-          "$-\\frac{3}{10}$",
           "$\\frac{3}{10}$",
+          "$\\frac{6}{20}$",
           "$-\\frac{6}{20}$",
-          "$\\frac{6}{20}$"
+          "$-\\frac{3}{10}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Số nghịch đảo của số hữu tỉ $-\\frac{4}{9}$ là:",
         "options": [
-          "$-\\frac{9}{4}$",
           "$\\frac{9}{4}$",
-          "$\\frac{4}{9}$",
-          "$-\\frac{4}{9}$"
+          "$-\\frac{9}{4}$",
+          "$-\\frac{4}{9}$",
+          "$\\frac{4}{9}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Kết quả của phép chia $\\frac{-5}{8} : \\frac{5}{2}$ là:",
         "options": [
+          "$-4$",
           "$-\\frac{1}{4}$",
           "$\\frac{1}{4}$",
-          "$-\\frac{25}{16}$",
-          "$-4$"
+          "$-\\frac{25}{16}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -840,9 +840,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Quy tắc chuyển vế: khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải:",
         "options": [
           "Đổi dấu số hạng đó",
+          "Nghịch đảo số hạng đó",
           "Giữ nguyên dấu số hạng đó",
-          "Nhân số hạng đó với -1",
-          "Nghịch đảo số hạng đó"
+          "Nhân số hạng đó với -1"
         ],
         "correct": 0
       },
@@ -852,9 +852,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tính: $0,25 + \\left(-\\frac{3}{4}\\right)$:",
         "options": [
           "$-0,5$",
-          "$0,5$",
           "$-1$",
-          "$1$"
+          "$1$",
+          "$0,5$"
         ],
         "correct": 0
       },
@@ -863,60 +863,60 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính: $\\frac{-7}{12} - \\left(-\\frac{5}{12}\\right)$:",
         "options": [
+          "$-\\frac{12}{12}$",
           "$-\\frac{1}{6}$",
-          "$\\frac{1}{6}$",
           "$-1$",
-          "$-\\frac{12}{12}$"
+          "$\\frac{1}{6}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $x - \\frac{1}{3} = \\frac{2}{5}$:",
         "options": [
-          "$x = \\frac{11}{15}$",
-          "$x = \\frac{1}{15}$",
           "$x = -\\frac{1}{15}$",
-          "$x = -\\frac{11}{15}$"
+          "$x = \\frac{1}{15}$",
+          "$x = -\\frac{11}{15}$",
+          "$x = \\frac{11}{15}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Tính hợp lý: $\\frac{4}{9} \\cdot \\frac{13}{3} - \\frac{4}{9} \\cdot \\frac{4}{3}$:",
         "options": [
-          "$\\frac{4}{3}$",
+          "$\\frac{16}{9}$",
           "$\\frac{4}{9}$",
-          "$4$",
-          "$\\frac{16}{9}$"
+          "$\\frac{4}{3}$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $A = -2,5 \\cdot 4 + 3,5$ là:",
         "options": [
-          "$-6,5$",
           "$6,5$",
           "$-13,5$",
-          "$13,5$"
+          "$13,5$",
+          "$-6,5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một người thợ cắt đi $\\frac{3}{5}\\text{ m}$ từ một sợi dây dài $\\frac{9}{4}\\text{ m}$. Chiều dài sợi dây còn lại là:",
         "options": [
-          "$\\frac{33}{20}\\text{ m}$",
+          "$\\frac{12}{9}\\text{ m}$",
           "$\\frac{27}{20}\\text{ m}$",
-          "$\\frac{6}{1}\\text{ m}$",
-          "$\\frac{12}{9}\\text{ m}$"
+          "$\\frac{33}{20}\\text{ m}$",
+          "$\\frac{6}{1}\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1036,24 +1036,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = \\left(-\\frac{2}{3} + \\frac{3}{4}\\right) : \\frac{5}{12}$ là:",
         "options": [
+          "$1$",
           "$\\frac{1}{5}$",
           "$\\frac{1}{12}$",
-          "$-\\frac{1}{5}$",
-          "$1$"
+          "$-\\frac{1}{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $\\frac{3}{4} - x = \\frac{1}{5} : \\frac{2}{3}$:",
         "options": [
+          "$x = -\\frac{9}{20}$",
           "$x = \\frac{9}{20}$",
           "$x = \\frac{21}{20}$",
-          "$x = -\\frac{9}{20}$",
           "$x = \\frac{3}{10}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -1061,9 +1061,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tính nhanh: $A = \\frac{7}{19} \\cdot \\frac{8}{11} + \\frac{7}{19} \\cdot \\frac{3}{11} - \\frac{7}{19}$:",
         "options": [
           "$0$",
-          "$\\frac{7}{19}$",
           "$1$",
-          "$-\\frac{7}{19}$"
+          "$-\\frac{7}{19}$",
+          "$\\frac{7}{19}$"
         ],
         "correct": 0
       },
@@ -1072,24 +1072,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Số nghịch đảo của số hữu tỉ $x$ thỏa mãn $x \\cdot \\left(-\\frac{5}{8}\\right) = \\frac{15}{16}$ là:",
         "options": [
-          "$-\\frac{2}{3}$",
-          "$-\\frac{3}{2}$",
+          "$\\frac{3}{2}$",
           "$\\frac{2}{3}$",
-          "$\\frac{3}{2}$"
+          "$-\\frac{2}{3}$",
+          "$-\\frac{3}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $\\left|x - \\frac{1}{2}\\right| = \\frac{3}{4}$:",
         "options": [
-          "$x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$",
+          "$x = \\frac{1}{4}$ hoặc $x = -\\frac{5}{4}$",
           "$x = \\frac{5}{4}$",
           "$x = -\\frac{1}{4}$",
-          "$x = \\frac{1}{4}$ hoặc $x = -\\frac{5}{4}$"
+          "$x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -1110,8 +1110,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$350\\text{ kg}$",
           "$210\\text{ kg}$",
-          "$140\\text{ kg}$",
-          "$420\\text{ kg}$"
+          "$420\\text{ kg}$",
+          "$140\\text{ kg}$"
         ],
         "correct": 0
       },
@@ -1120,60 +1120,60 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $M = \\frac{1}{2} - \\frac{1}{3} + \\frac{1}{4} - \\frac{1}{5}$ và $N = \\frac{1}{6} + \\frac{1}{20}$. So sánh $M$ và $N$:",
         "options": [
-          "$M = N$",
-          "$M > N$",
           "$M < N$",
-          "Không so sánh được"
+          "Không so sánh được",
+          "$M = N$",
+          "$M > N$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $C = \\frac{\\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4}}{\\frac{1}{4} + \\frac{1}{6} + \\frac{1}{8}}$ bằng:",
         "options": [
-          "$2$",
-          "$\\frac{1}{2}$",
+          "$\\frac{3}{2}$",
           "$4$",
-          "$\\frac{3}{2}$"
+          "$2$",
+          "$\\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết: $\\frac{x - 1}{2024} + \\frac{x - 2}{2023} = \\frac{x - 3}{2022} + \\frac{x - 4}{2021}$:",
         "options": [
-          "$x = 2025$",
-          "$x = 2024$",
           "$x = 1$",
-          "$x = 0$"
+          "$x = 2024$",
+          "$x = 0$",
+          "$x = 2025$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho hai số hữu tỉ $x, y$ thỏa mãn $x + y = x \\cdot y = x : y$ ($y \\neq 0$). Cặp số $(x; y)$ là:",
         "options": [
-          "$(-0,5; -1)$",
-          "$(0,5; 1)$",
+          "Không tồn tại",
           "$(2; 0,5)$",
-          "Không tồn tại"
+          "$(0,5; 1)$",
+          "$(-0,5; -1)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một ô tô đi quãng đường từ A đến B hết 3 giờ. Giờ thứ nhất đi được $\\frac{1}{3}$ quãng đường, giờ thứ hai đi được $\\frac{2}{5}$ quãng đường còn lại, giờ thứ ba đi $60\\text{ km}$. Quãng đường AB dài:",
         "options": [
-          "$150\\text{ km}$",
           "$180\\text{ km}$",
-          "$120\\text{ km}$",
-          "$200\\text{ km}$"
+          "$150\\text{ km}$",
+          "$200\\text{ km}$",
+          "$120\\text{ km}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1294,9 +1294,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tính tổng $S = \\frac{1}{1\\cdot 3} + \\frac{1}{3\\cdot 5} + \\frac{1}{5\\cdot 7} + \\dots + \\frac{1}{19\\cdot 21}$:",
         "options": [
           "$\\frac{10}{21}$",
-          "$\\frac{20}{21}$",
+          "$\\frac{1}{21}$",
           "$\\frac{5}{21}$",
-          "$\\frac{1}{21}$"
+          "$\\frac{20}{21}$"
         ],
         "correct": 0
       },
@@ -1306,9 +1306,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết: $\\frac{x+1}{99} + \\frac{x+2}{98} + \\frac{x+3}{97} + 3 = 0$:",
         "options": [
           "$x = -100$",
+          "$x = 0$",
           "$x = 100$",
-          "$x = -99$",
-          "$x = 0$"
+          "$x = -99$"
         ],
         "correct": 0
       },
@@ -1317,108 +1317,108 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $A = \\left(1 - \\frac{1}{4}\\right)\\left(1 - \\frac{1}{9}\\right)\\left(1 - \\frac{1}{16}\\right)\\dots\\left(1 - \\frac{1}{100}\\right)$. Giá trị của $A$ là:",
         "options": [
-          "$\\frac{11}{20}$",
-          "$\\frac{9}{20}$",
           "$\\frac{1}{20}$",
+          "$\\frac{9}{20}$",
+          "$\\frac{11}{20}$",
           "$\\frac{19}{20}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ thỏa mãn: $\\frac{1}{3} + \\frac{1}{6} + \\frac{1}{10} + \\dots + \\frac{2}{n(n+1)} = \\frac{2024}{2025}$:",
         "options": [
+          "$n = 2023$",
           "$n = 2024$",
           "$n = 2025$",
-          "$n = 2023$",
           "$n = 4048$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng cao",
         "question": "Cho $a, b, c$ là các số hữu tỉ khác 0 thỏa mãn $ab = 2(a+b),\\ bc = 3(b+c),\\ ca = 4(c+a)$. Giá trị của biểu thức $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$ là:",
         "options": [
-          "$\\frac{13}{24}$",
-          "$\\frac{7}{12}$",
           "$\\frac{11}{24}$",
-          "$1$"
+          "$\\frac{13}{24}$",
+          "$1$",
+          "$\\frac{7}{12}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Số nghiệm hữu tỉ $x$ của phương trình $|x - 1| + |x + 3| = 4$ là:",
         "options": [
-          "Vô số nghiệm với $-3 \\leq x \\leq 1$",
           "$2$ nghiệm",
           "$1$ nghiệm",
+          "Vô số nghiệm với $-3 \\leq x \\leq 1$",
           "Vô nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho $x, y$ là các số hữu tỉ dương thỏa mãn $x + y = 1$. Giá trị nhỏ nhất của biểu thức $P = \\frac{1}{x} + \\frac{1}{y}$ là:",
         "options": [
+          "$1$",
           "$4$",
           "$2$",
-          "$1$",
           "$8$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Rút gọn biểu thức $M = \\frac{\\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{2025}}{\\frac{2024}{1} + \\frac{2023}{2} + \\dots + \\frac{1}{2024}}$ ta được:",
         "options": [
-          "$\\frac{1}{2025}$",
-          "$2025$",
           "$1$",
-          "$\\frac{1}{2024}$"
+          "$\\frac{1}{2024}$",
+          "$2025$",
+          "$\\frac{1}{2025}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết: $|2x - 1| + |2x - 5| = 4$. Tập nghiệm của phương trình là:",
         "options": [
-          "$\\frac{1}{2} \\leq x \\leq \\frac{5}{2}$",
-          "$x = \\frac{1}{2}$ hoặc $x = \\frac{5}{2}$",
           "$x \\geq \\frac{5}{2}$",
-          "Vô nghiệm"
+          "$x = \\frac{1}{2}$ hoặc $x = \\frac{5}{2}$",
+          "Vô nghiệm",
+          "$\\frac{1}{2} \\leq x \\leq \\frac{5}{2}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho biểu thức $S = 1 + \\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{2^{100}-1}$. So sánh $S$ với $50$:",
         "options": [
-          "$S > 50$",
-          "$S < 50$",
           "$S = 50$",
-          "Không so sánh được"
+          "Không so sánh được",
+          "$S > 50$",
+          "$S < 50$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm hai số hữu tỉ $a$ và $b$ sao cho $a - b = 2(a + b) = a : b$ ($b \\neq 0$):",
         "options": [
-          "$a = -2,25;\\ b = -0,75$",
           "$a = 2,25;\\ b = 0,75$",
           "$a = -1;\\ b = -0,5$",
-          "$a = 1;\\ b = 0,5$"
+          "$a = 1;\\ b = 0,5$",
+          "$a = -2,25;\\ b = -0,75$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -1426,9 +1426,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Biết tổng các chữ số của số hữu tỉ $A = \\frac{10^{2025} + 8}{9}$ là:",
         "options": [
           "Một số chia hết cho 9",
-          "$9$",
+          "Không xác định",
           "$2025$",
-          "Không xác định"
+          "$9$"
         ],
         "correct": 0
       }
@@ -1550,24 +1550,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Với số hữu tỉ $x$ và $n \\in \\mathbb{N}^*$, lũy thừa bậc $n$ của $x$ kí hiệu là $x^n$ là:",
         "options": [
-          "Tích của $n$ thừa số $x$",
-          "Tổng của $n$ số hạng $x$",
           "Thương của $x$ và $n$",
+          "Tổng của $n$ số hạng $x$",
+          "Tích của $n$ thừa số $x$",
           "Hiệu của $x$ và $n$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Quy ước: với số hữu tỉ $x \\neq 0$ thì $x^0$ bằng:",
         "options": [
-          "$1$",
+          "Không xác định",
           "$0$",
-          "$x$",
-          "Không xác định"
+          "$1$",
+          "$x$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1575,8 +1575,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Giá trị của $\\left(-\\frac{1}{2}\\right)^3$ là:",
         "options": [
           "$-\\frac{1}{8}$",
-          "$\\frac{1}{8}$",
           "$-\\frac{1}{6}$",
+          "$\\frac{1}{8}$",
           "$\\frac{1}{6}$"
         ],
         "correct": 0
@@ -1586,12 +1586,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Công thức nhân hai lũy thừa cùng cơ số $x^m \\cdot x^n$ là:",
         "options": [
-          "$x^{m+n}$",
+          "$(2x)^{m+n}$",
           "$x^{m-n}$",
-          "$x^{m \\cdot n}$",
-          "$(2x)^{m+n}$"
+          "$x^{m+n}$",
+          "$x^{m \\cdot n}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -1610,48 +1610,48 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Lũy thừa của một lũy thừa $(x^m)^n$ bằng:",
         "options": [
-          "$x^{m \\cdot n}$",
-          "$x^{m+n}$",
+          "$x^{m^n}$",
           "$x^{m-n}$",
-          "$x^{m^n}$"
+          "$x^{m+n}$",
+          "$x^{m \\cdot n}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tính: $\\left(-\\frac{2}{3}\\right)^2$:",
         "options": [
-          "$\\frac{4}{9}$",
           "$-\\frac{4}{9}$",
+          "$-\\frac{4}{6}$",
           "$\\frac{4}{6}$",
-          "$-\\frac{4}{6}$"
+          "$\\frac{4}{9}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $\\left(\\frac{3}{5}\\right)^5 : \\left(\\frac{3}{5}\\right)^3$ là:",
         "options": [
+          "$1$",
           "$\\frac{9}{25}$",
-          "$\\frac{3}{5}$",
           "$\\frac{27}{125}$",
-          "$1$"
+          "$\\frac{3}{5}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Viết biểu thức $2^3 \\cdot 5^3$ dưới dạng lũy thừa của một tích:",
         "options": [
+          "$10^9$",
           "$10^3$",
           "$10^6$",
-          "$10^9$",
           "$7^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -1670,24 +1670,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $[(-0,1)^2]^3$ là:",
         "options": [
-          "$0,000001$",
-          "$-0,000001$",
+          "$-0,0001$",
           "$0,0001$",
-          "$-0,0001$"
+          "$-0,000001$",
+          "$0,000001$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$(-3)^4 = -81$",
           "$(-3)^4 = 81$",
-          "$(-2)^3 = -8$",
-          "$(-5)^0 = 1$"
+          "$(-3)^4 = -81$",
+          "$(-5)^0 = 1$",
+          "$(-2)^3 = -8$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -1809,8 +1809,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$9$",
           "$6$",
-          "$3$",
-          "$1$"
+          "$1$",
+          "$3$"
         ],
         "correct": 0
       },
@@ -1819,48 +1819,48 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $n$ biết: $\\frac{16}{2^n} = 2$:",
         "options": [
-          "$n = 3$",
           "$n = 4$",
           "$n = 2$",
+          "$n = 3$",
           "$n = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "So sánh $2^{30}$ và $3^{20}$:",
         "options": [
+          "$2^{30} = 3^{20}$",
           "$2^{30} < 3^{20}$",
           "$2^{30} > 3^{20}$",
-          "$2^{30} = 3^{20}$",
           "Không so sánh được"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $\\left(x - \\frac{1}{3}\\right)^2 = \\frac{4}{9}$:",
         "options": [
-          "$x = 1$ hoặc $x = -\\frac{1}{3}$",
-          "$x = 1$",
+          "$x = \\frac{5}{3}$ hoặc $x = -1$",
           "$x = -\\frac{1}{3}$",
-          "$x = \\frac{5}{3}$ hoặc $x = -1$"
+          "$x = 1$",
+          "$x = 1$ hoặc $x = -\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $P = \\frac{10^8 \\cdot 9^4}{6^8 \\cdot 5^7}$ là:",
         "options": [
-          "$5$",
-          "$10$",
+          "$1$",
           "$2$",
-          "$1$"
+          "$5$",
+          "$10$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -1869,8 +1869,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$x = 3$",
           "$x = 2$",
-          "$x = 4$",
-          "$x = 1$"
+          "$x = 1$",
+          "$x = 4$"
         ],
         "correct": 0
       },
@@ -1880,9 +1880,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Số các chữ số của số $A = 2^{12} \\cdot 5^9$ khi viết trong hệ thập phân là:",
         "options": [
           "$12$",
-          "$11$",
           "$10$",
-          "$13$"
+          "$13$",
+          "$11$"
         ],
         "correct": 0
       },
@@ -1891,60 +1891,60 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Cho $x$ là số hữu tỉ thỏa mãn: $x^2 = x^5$. Giá trị của $x$ có thể là:",
         "options": [
+          "$x = 0$",
           "$x \\in \\{0; 1\\}$",
           "$x = 1$",
-          "$x = 0$",
           "$x \\in \\{-1; 0; 1\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ thỏa mãn: $2 \\cdot 2^2 \\cdot 2^3 \\dots 2^n = 1024$:",
         "options": [
-          "$n = 4$",
-          "$n = 5$",
+          "$n = 10$",
           "$n = 6$",
-          "$n = 10$"
+          "$n = 4$",
+          "$n = 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Chữ số tận cùng của $7^{2024}$ là:",
         "options": [
-          "$1$",
           "$7$",
-          "$9$",
-          "$3$"
+          "$1$",
+          "$3$",
+          "$9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "So sánh $A = 2^{100}$ và $B = 10^{30}$:",
         "options": [
-          "$A > B$",
           "$A < B$",
           "$A = B$",
-          "Không thể so sánh"
+          "Không thể so sánh",
+          "$A > B$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $M = \\frac{2^{12} \\cdot 3^5 - 4^6 \\cdot 9^2}{(2^2 \\cdot 3)^6 + 8^4 \\cdot 3^5}$ là:",
         "options": [
-          "$-\\frac{1}{3}$",
           "$\\frac{1}{3}$",
+          "$1$",
           "$0$",
-          "$1$"
+          "$-\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2064,36 +2064,36 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $n$ biết $3^{-1} \\cdot 3^n + 5 \\cdot 3^{n-1} = 162$:",
         "options": [
-          "$n = 4$",
           "$n = 3$",
           "$n = 5$",
+          "$n = 4$",
           "$n = 2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Cho $A = 1 + 2 + 2^2 + \\dots + 2^{2024}$. Biểu thức $A + 1$ bằng:",
         "options": [
-          "$2^{2025}$",
-          "$2^{2024}$",
           "$2^{2026}$",
+          "$2^{2024}$",
+          "$2^{2025}$",
           "$4^{2024}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Tìm các cặp số tự nhiên $(x; y)$ thỏa mãn $2^{x+1} \\cdot 3^y = 72$:",
         "options": [
-          "$(x; y) = (2; 2)$",
-          "$(x; y) = (3; 1)$",
+          "$(x; y) = (2; 3)$",
           "$(x; y) = (1; 3)$",
-          "$(x; y) = (2; 3)$"
+          "$(x; y) = (3; 1)$",
+          "$(x; y) = (2; 2)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -2101,9 +2101,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Số dư khi chia $A = 3 + 3^2 + 3^3 + \\dots + 3^{100}$ cho 13 là:",
         "options": [
           "$3$",
-          "$0$",
+          "$9$",
           "$1$",
-          "$9$"
+          "$0$"
         ],
         "correct": 0
       },
@@ -2112,48 +2112,48 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ nhỏ nhất sao cho $2^n > 1000$:",
         "options": [
-          "$n = 10$",
-          "$n = 9$",
           "$n = 11$",
-          "$n = 8$"
+          "$n = 10$",
+          "$n = 8$",
+          "$n = 9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Chữ số tận cùng của $2^{2025}$ là:",
         "options": [
-          "$2$",
           "$4$",
+          "$2$",
           "$8$",
           "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "So sánh $A = 100^{100}$ và $B = 2^{100} \\cdot 50^{100}$:",
         "options": [
-          "$A = B$",
-          "$A > B$",
           "$A < B$",
-          "Không so sánh được"
+          "$A = B$",
+          "Không so sánh được",
+          "$A > B$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho biểu thức $P = \\frac{2^{2024} - 1}{2^{2025} - 1}$ và $Q = \\frac{2^{2025} - 1}{2^{2026} - 1}$. So sánh $P$ và $Q$:",
         "options": [
-          "$P < Q$",
           "$P > Q$",
+          "Không so sánh được",
           "$P = Q$",
-          "Không so sánh được"
+          "$P < Q$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2161,9 +2161,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $(x - 2)^{x+1} = (x - 2)^{x+3}$?",
         "options": [
           "$3$",
+          "$0$",
           "$1$",
-          "$2$",
-          "$0$"
+          "$2$"
         ],
         "correct": 0
       },
@@ -2172,12 +2172,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm chữ số tận cùng của số $S = 1^{2024} + 2^{2024} + 3^{2024} + 4^{2024}$:",
         "options": [
-          "$4$",
-          "$6$",
           "$0$",
-          "$2$"
+          "$2$",
+          "$6$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -2185,8 +2185,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Biết $x$ thỏa mãn $5^{x} + 5^{x+2} = 650$. Giá trị của biểu thức $x^3 - 2x + 1$ là:",
         "options": [
           "$5$",
-          "$1$",
           "$9$",
+          "$1$",
           "$7$"
         ],
         "correct": 0
@@ -2196,12 +2196,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Chứng minh tổng $B = 4 + 4^2 + 4^3 + \\dots + 4^{60}$ chia hết cho 21. Khẳng định nào sau đây đúng?",
         "options": [
-          "Nhóm 3 số hạng liên tiếp chia hết cho 21",
-          "Nhóm 2 số hạng liên tiếp chia hết cho 21",
+          "B tận cùng bằng 0",
           "B chia hết cho 4 nhưng không chia hết cho 21",
-          "B tận cùng bằng 0"
+          "Nhóm 3 số hạng liên tiếp chia hết cho 21",
+          "Nhóm 2 số hạng liên tiếp chia hết cho 21"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2333,24 +2333,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Thứ tự thực hiện các phép tính đối với biểu thức có dấu ngoặc là:",
         "options": [
-          "( ) -> [ ] -> { }",
           "{ } -> [ ] -> ( )",
+          "Tùy ý",
           "[ ] -> ( ) -> { }",
-          "Tùy ý"
+          "( ) -> [ ] -> { }"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khi chuyển số hạng $-\\frac{2}{3}$ từ vế trái sang vế phải của một đẳng thức, số hạng đó đổi thành:",
         "options": [
+          "$\\frac{3}{2}$",
           "$+\\frac{2}{3}$",
           "$-\\frac{2}{3}$",
-          "$-\\frac{3}{2}$",
-          "$\\frac{3}{2}$"
+          "$-\\frac{3}{2}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -2358,9 +2358,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Nếu $x + a = b$ thì giá trị của $x$ bằng:",
         "options": [
           "$x = b - a$",
+          "$x = -(a + b)$",
           "$x = b + a$",
-          "$x = a - b$",
-          "$x = -(a + b)$"
+          "$x = a - b$"
         ],
         "correct": 0
       },
@@ -2370,9 +2370,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tính giá trị của biểu thức: $15 - 3 \\cdot \\left(\\frac{1}{3}\\right)^2$:",
         "options": [
           "$\\frac{44}{3}$",
-          "$4$",
+          "$12$",
           "$\\frac{4}{3}$",
-          "$12$"
+          "$4$"
         ],
         "correct": 0
       },
@@ -2381,84 +2381,84 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $x - \\frac{3}{4} = -\\frac{1}{2}$:",
         "options": [
+          "$x = \\frac{5}{4}$",
           "$x = \\frac{1}{4}$",
-          "$x = -\\frac{5}{4}$",
           "$x = -\\frac{1}{4}$",
-          "$x = \\frac{5}{4}$"
+          "$x = -\\frac{5}{4}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $20 : [5 - (2 - 1)^2]$ là:",
         "options": [
-          "$5$",
           "$4$",
           "$10$",
+          "$5$",
           "$20$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $\\frac{2}{3} + x = -\\frac{1}{6}$:",
         "options": [
-          "$x = -\\frac{5}{6}$",
           "$x = \\frac{5}{6}$",
+          "$x = \\frac{1}{2}$",
           "$x = -\\frac{1}{2}$",
-          "$x = \\frac{1}{2}$"
+          "$x = -\\frac{5}{6}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Tính: $A = \\left(-\\frac{1}{2}\\right)^3 : \\frac{1}{4} + \\frac{3}{2}$:",
         "options": [
-          "$1$",
           "$-1$",
-          "$2$",
-          "$0$"
+          "$0$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Bỏ dấu ngoặc của biểu thức $A - (B - C + D)$ ta được:",
         "options": [
-          "$A - B + C - D$",
-          "$A - B - C + D$",
           "$A - B - C - D$",
-          "$A + B - C + D$"
+          "$A - B - C + D$",
+          "$A + B - C + D$",
+          "$A - B + C - D$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Kết quả của phép tính $\\frac{3}{4} - \\frac{1}{4} : \\frac{1}{2}$ là:",
         "options": [
-          "$\\frac{1}{4}$",
           "$1$",
-          "$\\frac{1}{2}$",
-          "$0$"
+          "$0$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $3x + 1,2 = 4,2$:",
         "options": [
+          "$x = 0,5$",
           "$x = 1$",
-          "$x = 1,8$",
           "$x = 2$",
-          "$x = 0,5$"
+          "$x = 1,8$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2578,24 +2578,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $A = 12 \\cdot \\left(-\\frac{2}{3}\\right)^2 + \\frac{4}{3}$ là:",
         "options": [
-          "$\\frac{20}{3}$",
-          "$4$",
+          "$8$",
           "$\\frac{16}{3}$",
-          "$8$"
+          "$4$",
+          "$\\frac{20}{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $\\frac{4}{5} - \\left(x + \\frac{1}{3}\\right) = 0,25$:",
         "options": [
+          "$x = \\frac{17}{60}$",
           "$x = \\frac{13}{60}$",
           "$x = -\\frac{13}{60}$",
-          "$x = \\frac{7}{20}$",
-          "$x = \\frac{17}{60}$"
+          "$x = \\frac{7}{20}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -2604,8 +2604,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$12$",
           "$0$",
-          "$6$",
-          "$-6$"
+          "$-6$",
+          "$6$"
         ],
         "correct": 0
       },
@@ -2615,9 +2615,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết: $2(x - 1,5) - 3(x + 0,5) = -4$:",
         "options": [
           "$x = -0,5$",
+          "$x = 1$",
           "$x = 0,5$",
-          "$x = -1$",
-          "$x = 1$"
+          "$x = -1$"
         ],
         "correct": 0
       },
@@ -2626,60 +2626,60 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $C = \\left[\\left(\\frac{3}{8} - \\frac{5}{12}\\right) \\cdot 6 + \\frac{1}{3}\\right] : 4$ là:",
         "options": [
-          "$\\frac{1}{48}$",
+          "$-\\frac{1}{24}$",
           "$-\\frac{1}{48}$",
-          "$\\frac{1}{24}$",
-          "$-\\frac{1}{24}$"
+          "$\\frac{1}{48}$",
+          "$\\frac{1}{24}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $\\left|x - \\frac{2}{5}\\right| + \\frac{1}{2} = \\frac{3}{4}$:",
         "options": [
-          "$x = \\frac{13}{20}$ hoặc $x = \\frac{3}{20}$",
           "$x = \\frac{13}{20}$",
-          "$x = \\frac{3}{20}$",
-          "$x = \\frac{7}{20}$ hoặc $x = -\\frac{7}{20}$"
+          "$x = \\frac{7}{20}$ hoặc $x = -\\frac{7}{20}$",
+          "$x = \\frac{13}{20}$ hoặc $x = \\frac{3}{20}$",
+          "$x = \\frac{3}{20}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Một bể nước có dung tích $1200\\text{ lít}$. Vòi thứ nhất chảy vào bể mỗi giờ được $\\frac{1}{4}$ bể, vòi thứ hai chảy mỗi giờ được $\\frac{1}{6}$ bể. Nếu mở cả hai vòi cùng chảy thì sau bao lâu bể đầy nước?",
         "options": [
+          "$2,5\\text{ giờ}$",
           "$2,4\\text{ giờ}$",
           "$2\\text{ giờ}$",
-          "$3\\text{ giờ}$",
-          "$2,5\\text{ giờ}$"
+          "$3\\text{ giờ}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $\\frac{2}{3}x - \\frac{1}{2} = \\frac{3}{4}x + \\frac{1}{3}$:",
         "options": [
-          "$x = -10$",
           "$x = 10$",
           "$x = -5$",
-          "$x = 5$"
+          "$x = 5$",
+          "$x = -10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tính giá trị của biểu thức $P = \\left(\\frac{1}{4} - 1\\right)\\left(\\frac{1}{9} - 1\\right)\\dots\\left(\\frac{1}{100} - 1\\right)$:",
         "options": [
-          "$-\\frac{11}{20}$",
-          "$\\frac{11}{20}$",
+          "$\\frac{9}{20}$",
           "$-\\frac{9}{20}$",
-          "$\\frac{9}{20}$"
+          "$-\\frac{11}{20}$",
+          "$\\frac{11}{20}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -2687,9 +2687,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết: $(2x - 3)^2 = 36$:",
         "options": [
           "$x = 4,5$ hoặc $x = -1,5$",
+          "$x = 9$ hoặc $x = -3$",
           "$x = 4,5$",
-          "$x = -1,5$",
-          "$x = 9$ hoặc $x = -3$"
+          "$x = -1,5$"
         ],
         "correct": 0
       },
@@ -2698,24 +2698,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $A = 1 - 2 + 3 - 4 + \\dots + 99 - 100$. Giá trị của $A$ là:",
         "options": [
-          "$-50$",
-          "$50$",
           "$-100$",
-          "$0$"
+          "$-50$",
+          "$0$",
+          "$50$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $M = (x - 1)^2 + |y + 2| - 3$ là:",
         "options": [
-          "$-3$",
+          "$-2$",
           "$0$",
           "$3$",
-          "$-2$"
+          "$-3$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2835,12 +2835,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $\\frac{x - 1}{2023} + \\frac{x - 2}{2022} + \\frac{x - 3}{2021} = 3$:",
         "options": [
+          "$x = 2025$",
           "$x = 2024$",
           "$x = 2023$",
-          "$x = 2025$",
           "$x = 2022$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -2848,9 +2848,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $P = \\frac{1}{1\\cdot 4} + \\frac{1}{4\\cdot 7} + \\dots + \\frac{1}{97\\cdot 100}$ là:",
         "options": [
           "$\\frac{33}{100}$",
-          "$\\frac{99}{100}$",
           "$\\frac{1}{100}$",
-          "$\\frac{11}{100}$"
+          "$\\frac{11}{100}$",
+          "$\\frac{99}{100}$"
         ],
         "correct": 0
       },
@@ -2859,12 +2859,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $|2x - 3| - |x + 1| = 0$:",
         "options": [
-          "$x = 4$ hoặc $x = \\frac{2}{3}$",
           "$x = 4$",
           "$x = \\frac{2}{3}$",
+          "$x = 4$ hoặc $x = \\frac{2}{3}$",
           "$x = -4$ hoặc $x = -\\frac{2}{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2883,84 +2883,84 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $a + b + c = 0$. Biểu thức $M = \\left(1 + \\frac{a}{b}\\right)\\left(1 + \\frac{b}{c}\\right)\\left(1 + \\frac{c}{a}\\right)$ có giá trị là:",
         "options": [
-          "$-1$",
           "$1$",
+          "$-8$",
           "$0$",
-          "$-8$"
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2| + |x - 5| + |x - 8|$:",
         "options": [
-          "$6$",
-          "$8$",
           "$5$",
-          "$10$"
+          "$8$",
+          "$10$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Cho $x, y$ là các số hữu tỉ khác 0 thỏa mãn $x^2 + y^2 = 2xy$. Khi đó tỉ số $\\frac{x}{y}$ bằng:",
         "options": [
-          "$1$",
           "$-1$",
-          "$2$",
-          "$\\frac{1}{2}$"
+          "$\\frac{1}{2}$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết: $\\frac{1}{x(x+1)} + \\frac{1}{(x+1)(x+2)} + \\frac{1}{(x+2)(x+3)} = \\frac{3}{10}$ (với $x > 0$):",
         "options": [
-          "$x = 2$",
-          "$x = 1$",
+          "$x = 5$",
           "$x = 3$",
-          "$x = 5$"
+          "$x = 2$",
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Biết rằng $\\frac{a}{b} = \\frac{c}{d}$ ($a, b, c, d \\neq 0$). Đẳng thức nào sau đây SAI?",
         "options": [
-          "$\\frac{a+b}{b} = \\frac{c-d}{d}$",
-          "$\\frac{a+b}{b} = \\frac{c+d}{d}$",
           "$\\frac{a}{c} = \\frac{b}{d}$",
-          "$\\frac{a-b}{a+b} = \\frac{c-d}{c+d}$"
+          "$\\frac{a+b}{b} = \\frac{c-d}{d}$",
+          "$\\frac{a-b}{a+b} = \\frac{c-d}{c+d}$",
+          "$\\frac{a+b}{b} = \\frac{c+d}{d}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $S = \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots + \\frac{1}{1024}$ là:",
         "options": [
-          "$\\frac{1023}{1024}$",
-          "$\\frac{1}{1024}$",
           "$1$",
-          "$\\frac{511}{512}$"
+          "$\\frac{1}{1024}$",
+          "$\\frac{511}{512}$",
+          "$\\frac{1023}{1024}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ sao cho $n^2 + 2n + 7$ chia hết cho $n + 2$:",
         "options": [
-          "$n = 5$",
           "$n = 6$",
-          "$n = 4$",
-          "$n = 7$"
+          "$n = 5$",
+          "$n = 7$",
+          "$n = 4$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -2969,8 +2969,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "$3$",
           "$1$",
-          "$-1$",
-          "$0$"
+          "$0$",
+          "$-1$"
         ],
         "correct": 0
       }
@@ -3092,12 +3092,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Số đối của $-\\frac{5}{7}$ là:",
         "options": [
-          "$\\frac{5}{7}$",
+          "$\\frac{7}{5}$",
           "$-\\frac{5}{7}$",
           "$-\\frac{7}{5}$",
-          "$\\frac{7}{5}$"
+          "$\\frac{5}{7}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -3106,8 +3106,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "options": [
           "Các số viết được dưới dạng phân số $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\neq 0$",
           "Chỉ các số nguyên",
-          "Chỉ các số tự nhiên",
-          "Các số thập phân vô hạn không tuần hoàn"
+          "Các số thập phân vô hạn không tuần hoàn",
+          "Chỉ các số tự nhiên"
         ],
         "correct": 0
       },
@@ -3117,8 +3117,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Giá trị của $\\left(-\\frac{1}{3}\\right)^2$ là:",
         "options": [
           "$\\frac{1}{9}$",
-          "$-\\frac{1}{9}$",
           "$\\frac{1}{6}$",
+          "$-\\frac{1}{9}$",
           "$-\\frac{1}{6}$"
         ],
         "correct": 0
@@ -3128,72 +3128,72 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Kết quả của phép tính $-\\frac{3}{5} + \\frac{2}{5}$ là:",
         "options": [
-          "$-\\frac{1}{5}$",
-          "$\\frac{1}{5}$",
           "$-\\frac{5}{5} = -1$",
+          "$\\frac{1}{5}$",
+          "$-\\frac{1}{5}$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Số nghịch đảo của số hữu tỉ $-2\\frac{1}{3}$ là:",
         "options": [
-          "$-\\frac{3}{7}$",
           "$\\frac{3}{7}$",
-          "$-\\frac{7}{3}$",
-          "$\\frac{7}{3}$"
+          "$-\\frac{3}{7}$",
+          "$\\frac{7}{3}$",
+          "$-\\frac{7}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Tính: $0,75 - \\left(-\\frac{1}{4}\\right)$:",
         "options": [
-          "$1$",
-          "$0,5$",
+          "$0$",
           "$-1$",
-          "$0$"
+          "$0,5$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $x + \\frac{1}{2} = -\\frac{3}{4}$:",
         "options": [
-          "$x = -\\frac{5}{4}$",
-          "$x = -\\frac{1}{4}$",
           "$x = \\frac{5}{4}$",
+          "$x = -\\frac{1}{4}$",
+          "$x = -\\frac{5}{4}$",
           "$x = \\frac{1}{4}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $\\left(\\frac{2}{3}\\right)^5 : \\left(\\frac{2}{3}\\right)^3$ là:",
         "options": [
-          "$\\frac{4}{9}$",
           "$\\frac{2}{3}$",
           "$\\frac{8}{27}$",
+          "$\\frac{4}{9}$",
           "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Khoảng cách từ điểm biểu diễn số $-2,5$ đến gốc 0 trên trục số là:",
         "options": [
-          "$2,5$",
-          "$-2,5$",
           "$0$",
-          "$5$"
+          "$5$",
+          "$-2,5$",
+          "$2,5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -3201,9 +3201,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Sắp xếp theo thứ tự tăng dần: $-\\frac{2}{3};\\ 0;\\ 0,5;\\ -1$:",
         "options": [
           "$-1 < -\\frac{2}{3} < 0 < 0,5$",
-          "$-\\frac{2}{3} < -1 < 0 < 0,5$",
           "$0,5 < 0 < -\\frac{2}{3} < -1$",
-          "$-1 < 0 < -\\frac{2}{3} < 0,5$"
+          "$-1 < 0 < -\\frac{2}{3} < 0,5$",
+          "$-\\frac{2}{3} < -1 < 0 < 0,5$"
         ],
         "correct": 0
       },
@@ -3212,24 +3212,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức: $A = \\frac{5}{9} \\cdot \\frac{7}{13} + \\frac{5}{9} \\cdot \\frac{6}{13}$:",
         "options": [
-          "$\\frac{5}{9}$",
           "$1$",
+          "$\\frac{5}{9}$",
           "$\\frac{13}{9}$",
           "$\\frac{65}{117}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $x^2 = \\frac{16}{25}$ và $x < 0$:",
         "options": [
+          "$x = -\\frac{8}{25}$",
           "$x = -\\frac{4}{5}$",
           "$x = \\frac{4}{5}$",
-          "$x = -\\frac{16}{25}$",
-          "$x = -\\frac{8}{25}$"
+          "$x = -\\frac{16}{25}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3350,9 +3350,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $A = \\left(-\\frac{1}{3}\\right)^2 : \\frac{1}{9} - 2 \\cdot \\left(-\\frac{1}{2}\\right)^3$ là:",
         "options": [
           "$\\frac{5}{4}$",
+          "$2$",
           "$\\frac{3}{4}$",
-          "$1$",
-          "$2$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -3361,24 +3361,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $\\frac{2}{3}x - \\frac{1}{4} = \\frac{1}{6}$:",
         "options": [
-          "$x = \\frac{5}{8}$",
-          "$x = -\\frac{5}{8}$",
           "$x = \\frac{1}{8}$",
+          "$x = -\\frac{5}{8}$",
+          "$x = \\frac{5}{8}$",
           "$x = \\frac{3}{8}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $\\frac{2^5 \\cdot 3^4}{6^4}$ ta được:",
         "options": [
-          "$2$",
-          "$3$",
           "$6$",
-          "$1$"
+          "$2$",
+          "$1$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -3386,9 +3386,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết: $\\left|x - \\frac{3}{4}\\right| = \\frac{1}{2}$:",
         "options": [
           "$x = \\frac{5}{4}$ hoặc $x = \\frac{1}{4}$",
-          "$x = \\frac{5}{4}$",
           "$x = \\frac{1}{4}$",
-          "$x = -\\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$"
+          "$x = -\\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$",
+          "$x = \\frac{5}{4}$"
         ],
         "correct": 0
       },
@@ -3397,12 +3397,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Tính nhanh giá trị của biểu thức: $M = \\frac{4}{7} \\cdot \\frac{3}{5} + \\frac{4}{7} \\cdot \\frac{2}{5} - 1\\frac{4}{7}$:",
         "options": [
-          "$-1$",
           "$0$",
-          "$1$",
-          "$-\\frac{4}{7}$"
+          "$-1$",
+          "$-\\frac{4}{7}$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -3410,8 +3410,8 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Tìm số tự nhiên $n$ biết: $3^{n+1} - 3^n = 162$:",
         "options": [
           "$n = 4$",
-          "$n = 3$",
           "$n = 5$",
+          "$n = 3$",
           "$n = 2$"
         ],
         "correct": 0
@@ -3421,72 +3421,72 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Một ô tô đi từ A đến B hết 2 giờ 30 phút với vận tốc $60\\text{ km/h}$. Quãng đường AB dài:",
         "options": [
-          "$150\\text{ km}$",
+          "$140\\text{ km}$",
           "$120\\text{ km}$",
           "$180\\text{ km}$",
-          "$140\\text{ km}$"
+          "$150\\text{ km}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Cho hai số hữu tỉ $a$ và $b$ thỏa mãn $a + b = -1$ và $a - b = 0,6$. Giá trị của $a \\cdot b$ là:",
         "options": [
-          "$-0,16$",
-          "$0,16$",
           "$-0,64$",
-          "$0,64$"
+          "$0,64$",
+          "$0,16$",
+          "$-0,16$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $B = \\frac{1}{1\\cdot 2} + \\frac{1}{2\\cdot 3} + \\frac{1}{3\\cdot 4} + \\dots + \\frac{1}{49\\cdot 50}$ là:",
         "options": [
-          "$\\frac{49}{50}$",
           "$\\frac{1}{50}$",
+          "$1$",
           "$\\frac{50}{51}$",
-          "$1$"
+          "$\\frac{49}{50}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết: $\\frac{x+1}{2024} + \\frac{x+2}{2023} + \\frac{x+3}{2022} = -3$:",
         "options": [
-          "$x = -2025$",
           "$x = 2025$",
           "$x = -2024$",
+          "$x = -2025$",
           "$x = 2024$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Số giá trị nguyên của $x$ để phân số $\\frac{x+3}{x-1}$ nhận giá trị nguyên là:",
         "options": [
-          "$6$",
           "$4$",
           "$8$",
+          "$6$",
           "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $P = |x - 1,5| + 2,8$ là:",
         "options": [
-          "$2,8$",
-          "$1,5$",
           "$4,3$",
-          "$0$"
+          "$2,8$",
+          "$0$",
+          "$1,5$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3606,36 +3606,36 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $S = 1 + \\frac{1}{2} + \\frac{1}{2^2} + \\frac{1}{2^3} + \\dots + \\frac{1}{2^{10}}$:",
         "options": [
-          "$2 - \\frac{1}{2^{10}}$",
           "$2 - \\frac{1}{2^{11}}$",
           "$1 - \\frac{1}{2^{10}}$",
+          "$2 - \\frac{1}{2^{10}}$",
           "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $(x - 1)^{2024} = (x - 1)^{2026}$:",
         "options": [
-          "$x \\in \\{0; 1; 2\\}$",
-          "$x = 1$",
           "$x = 2$",
-          "$x \\in \\{1; 2\\}$"
+          "$x \\in \\{1; 2\\}$",
+          "$x \\in \\{0; 1; 2\\}$",
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{2}$?",
         "options": [
-          "$5$",
-          "$3$",
+          "$6$",
           "$4$",
-          "$6$"
+          "$3$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -3643,9 +3643,9 @@ const CHAPTER1_TOAN7_EXAMS = {
         "question": "Cho $a, b, c$ là các số hữu tỉ đôi một khác nhau. Giá trị của biểu thức $M = \\frac{a-b}{c} + \\frac{b-c}{a} + \\frac{c-a}{b}$ khi $\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} = 1$ là:",
         "options": [
           "$0$",
-          "$1$",
+          "$3$",
           "$-1$",
-          "$3$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -3654,24 +3654,24 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2024| + |x - 1|$:",
         "options": [
-          "$2023$",
-          "$2025$",
           "$0$",
-          "$1$"
+          "$2025$",
+          "$1$",
+          "$2023$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $P = \\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right)\\dots\\left(1 - \\frac{1}{2025}\\right)$. Giá trị của $P$ là:",
         "options": [
-          "$\\frac{1}{2025}$",
-          "$\\frac{2024}{2025}$",
           "$\\frac{1}{2024}$",
-          "$1$"
+          "$\\frac{1}{2025}$",
+          "$1$",
+          "$\\frac{2024}{2025}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -3702,34 +3702,34 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm $x$ biết: $\\frac{x - 2024}{2} + \\frac{x - 2024}{3} + \\frac{x - 2024}{4} = 0$:",
         "options": [
-          "$x = 2024$",
           "$x = 0$",
-          "$x = 1$",
-          "Vô nghiệm"
+          "Vô nghiệm",
+          "$x = 2024$",
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho hai số hữu tỉ dương $x, y$ thỏa mãn $x^3 + y^3 = x - y$. Khẳng định nào sau đây đúng?",
         "options": [
-          "$x^2 + y^2 < 1$",
-          "$x^2 + y^2 > 1$",
           "$x^2 + y^2 = 1$",
-          "Không xác định"
+          "$x^2 + y^2 < 1$",
+          "Không xác định",
+          "$x^2 + y^2 > 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Số dư khi chia $3^{2025}$ cho 13 là:",
         "options": [
-          "$1$",
+          "$0$",
           "$3$",
-          "$9$",
-          "$0$"
+          "$1$",
+          "$9$"
         ],
         "correct": 1
       },
@@ -3738,12 +3738,12 @@ const CHAPTER1_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Giá trị lớn nhất của biểu thức $Q = \\frac{2024}{|x| + 2}$ là:",
         "options": [
-          "$1012$",
-          "$2024$",
           "$506$",
-          "Không tồn tại"
+          "Không tồn tại",
+          "$2024$",
+          "$1012$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [

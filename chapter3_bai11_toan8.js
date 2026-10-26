@@ -13,48 +13,48 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hình thang là tứ giác có:",
         "options": [
-          "Hai cạnh đối song song",
-          "Hai cạnh đối bằng nhau",
           "Hai đường chéo bằng nhau",
-          "Bốn cạnh bằng nhau"
+          "Bốn cạnh bằng nhau",
+          "Hai cạnh đối song song",
+          "Hai cạnh đối bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hình thang cân là hình thang có:",
         "options": [
-          "Hai góc kề một đáy bằng nhau",
           "Hai cạnh bên song song",
           "Hai góc đối bằng nhau",
-          "Có một góc vuông"
+          "Có một góc vuông",
+          "Hai góc kề một đáy bằng nhau"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Trong hình thang cân, khẳng định nào sau đây là sai?",
         "options": [
-          "Hai góc đối bằng nhau",
-          "Hai cạnh bên bằng nhau",
           "Hai đường chéo bằng nhau",
-          "Hai góc kề một đáy bằng nhau"
+          "Hai góc kề một đáy bằng nhau",
+          "Hai góc đối bằng nhau",
+          "Hai cạnh bên bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Hình thang có một góc vuông được gọi là:",
         "options": [
-          "Hình thang vuông",
-          "Hình thang cân",
           "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình bình hành",
+          "Hình thang vuông",
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -62,8 +62,8 @@ const BAI_2_TOAN8_EXAMS = {
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{C} = 60^\\circ$. Số đo góc $D$ bằng:",
         "options": [
           "$60^\\circ$",
-          "$120^\\circ$",
           "$90^\\circ$",
+          "$120^\\circ$",
           "$30^\\circ$"
         ],
         "correct": 0
@@ -74,9 +74,9 @@ const BAI_2_TOAN8_EXAMS = {
         "question": "Hình thang cân có bao nhiêu trục đối xứng?",
         "options": [
           "$1$",
-          "$2$",
+          "$4$",
           "$0$",
-          "$4$"
+          "$2$"
         ],
         "correct": 0
       },
@@ -85,48 +85,48 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{D} = 70^\\circ$. Số đo góc $A$ bằng:",
         "options": [
-          "$110^\\circ$",
           "$70^\\circ$",
+          "$110^\\circ$",
           "$120^\\circ$",
           "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$) có $AC = BD$. Tứ giác $ABCD$ là:",
         "options": [
+          "Hình thang vuông",
           "Hình thang cân",
-          "Hình bình hành",
           "Hình chữ nhật",
-          "Hình thang vuông"
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Hình thang cân $ABCD$ có đáy nhỏ $AB = 4\\text{ cm}$, đáy lớn $CD = 10\\text{ cm}$, cạnh bên $AD = 5\\text{ cm}$. Chu vi hình thang cân là:",
         "options": [
-          "$24\\text{ cm}$",
-          "$19\\text{ cm}$",
+          "$20\\text{ cm}$",
           "$29\\text{ cm}$",
-          "$20\\text{ cm}$"
+          "$19\\text{ cm}$",
+          "$24\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Kẻ các đường cao $AH, BK$ xuống đáy $CD$. Khẳng định nào sau đây đúng?",
         "options": [
+          "$AH = CD$",
           "$DH = CK$",
           "$DH = 2CK$",
-          "$AH = CD$",
           "$DH = AB$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -134,9 +134,9 @@ const BAI_2_TOAN8_EXAMS = {
         "question": "Một hình thang cân có một góc bằng $50^\\circ$. Các góc còn lại của hình thang đó lần lượt là:",
         "options": [
           "$50^\\circ, 130^\\circ, 130^\\circ$",
+          "$50^\\circ, 90^\\circ, 140^\\circ$",
           "$50^\\circ, 50^\\circ, 130^\\circ$",
-          "$60^\\circ, 120^\\circ, 130^\\circ$",
-          "$50^\\circ, 90^\\circ, 140^\\circ$"
+          "$60^\\circ, 120^\\circ, 130^\\circ$"
         ],
         "correct": 0
       },
@@ -145,12 +145,12 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho tam giác $ABC$ cân tại $A$. Lấy điểm $D$ trên cạnh $AB$, điểm $E$ trên cạnh $AC$ sao cho $AD = AE$. Tứ giác $BDEC$ là:",
         "options": [
-          "Hình thang cân",
-          "Hình bình hành",
           "Hình thang vuông",
-          "Hình thoi"
+          "Hình bình hành",
+          "Hình thoi",
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -270,48 +270,48 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Dấu hiệu nào sau đây không dùng để nhận biết hình thang cân?",
         "options": [
-          "Hình thang có hai cạnh bên bằng nhau",
+          "Tứ giác có hai đường chéo bằng nhau và hai cạnh đối song song",
           "Hình thang có hai góc kề một đáy bằng nhau",
-          "Hình thang có hai đường chéo bằng nhau",
-          "Tứ giác có hai đường chéo bằng nhau và hai cạnh đối song song"
+          "Hình thang có hai cạnh bên bằng nhau",
+          "Hình thang có hai đường chéo bằng nhau"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Gọi $O$ là giao điểm của $AC$ và $BD$. Khẳng định nào đúng?",
         "options": [
-          "$OA = OB$ và $OC = OD$",
+          "$OA = OB = OC = OD$",
           "$OA = OD$ và $OB = OC$",
           "$OA = OC$ và $OB = OD$",
-          "$OA = OB = OC = OD$"
+          "$OA = OB$ và $OC = OD$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hình thang cân có hai đường chéo:",
         "options": [
+          "Cắt nhau tại trung điểm mỗi đường",
           "Bằng nhau",
           "Vuông góc với nhau",
-          "Cắt nhau tại trung điểm mỗi đường",
           "Là các đường phân giác của các góc"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Hình thang $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = \\widehat{D} = 80^\\circ$. Tứ giác $ABCD$ là:",
         "options": [
-          "Hình thang cân",
           "Hình bình hành",
+          "Hình chữ nhật",
           "Hình thang vuông",
-          "Hình chữ nhật"
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -319,9 +319,9 @@ const BAI_2_TOAN8_EXAMS = {
         "question": "Cho hình thang cân $ABCD$ có $\\widehat{A} = 130^\\circ$. Số đo góc đối diện $\\widehat{C}$ bằng:",
         "options": [
           "$50^\\circ$",
-          "$130^\\circ$",
           "$65^\\circ$",
-          "$70^\\circ$"
+          "$70^\\circ$",
+          "$130^\\circ$"
         ],
         "correct": 0
       },
@@ -330,12 +330,12 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Trục đối xứng của hình thang cân là:",
         "options": [
-          "Đường thẳng đi qua trung điểm hai đáy",
           "Đường chéo của hình thang",
           "Đường cao của hình thang",
-          "Đường thẳng chứa cạnh bên"
+          "Đường thẳng chứa cạnh bên",
+          "Đường thẳng đi qua trung điểm hai đáy"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -344,8 +344,8 @@ const BAI_2_TOAN8_EXAMS = {
         "options": [
           "$9\\text{ cm}$",
           "$8\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$7\\text{ cm}$"
+          "$7\\text{ cm}$",
+          "$10\\text{ cm}$"
         ],
         "correct": 0
       },
@@ -354,12 +354,12 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{A} = 3\\widehat{D}$. Số đo góc $B$ bằng:",
         "options": [
-          "$135^\\circ$",
           "$45^\\circ$",
           "$120^\\circ$",
+          "$135^\\circ$",
           "$150^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -368,8 +368,8 @@ const BAI_2_TOAN8_EXAMS = {
         "options": [
           "Hình thang cân",
           "Hình thoi",
-          "Hình bình hành",
-          "Hình thang vuông"
+          "Hình thang vuông",
+          "Hình bình hành"
         ],
         "correct": 0
       },
@@ -378,36 +378,36 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Hình thang cân có đáy lớn bằng $10\\text{ cm}$, đáy nhỏ bằng một nửa đáy lớn và bằng cạnh bên. Chu vi hình thang cân là:",
         "options": [
-          "$25\\text{ cm}$",
-          "$30\\text{ cm}$",
           "$20\\text{ cm}$",
-          "$35\\text{ cm}$"
+          "$25\\text{ cm}$",
+          "$35\\text{ cm}$",
+          "$30\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD, AB < CD$). Giao điểm $E$ của hai cạnh bên kéo dài $AD$ và $BC$ tạo thành tam giác $ECD$ là:",
         "options": [
-          "Tam giác cân tại $E$",
-          "Tam giác vuông tại $E$",
           "Tam giác đều",
+          "Tam giác vuông tại $E$",
+          "Tam giác cân tại $E$",
           "Tam giác vuông cân tại $E$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một hình thang cân có góc nhọn bằng $45^\\circ$, cạnh bên bằng $4\\sqrt{2}\\text{ cm}$, đáy nhỏ bằng $5\\text{ cm}$. Đáy lớn có độ dài là:",
         "options": [
+          "$15\\text{ cm}$",
           "$13\\text{ cm}$",
           "$9\\text{ cm}$",
-          "$11\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$11\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -527,60 +527,60 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Một hình thang có hai đường chéo bằng nhau thì chắc chắn là:",
         "options": [
-          "Hình thang cân",
-          "Hình chữ nhật",
+          "Hình thoi",
           "Hình bình hành",
-          "Hình thoi"
+          "Hình thang cân",
+          "Hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Kết luận nào sau đây luôn đúng?",
         "options": [
-          "$\\triangle ACD = \\triangle BDC$",
           "$\\triangle AOB = \\triangle COD$",
           "$AB = CD$",
-          "$AD \\parallel BC$"
+          "$AD \\parallel BC$",
+          "$\\triangle ACD = \\triangle BDC$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hình thang cân có góc kề đáy lớn bằng $45^\\circ$ thì góc kề đáy nhỏ bằng:",
         "options": [
-          "$135^\\circ$",
           "$45^\\circ$",
           "$90^\\circ$",
+          "$135^\\circ$",
           "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Điều kiện cần và đủ để một hình thang là hình thang cân là:",
         "options": [
+          "Có một góc vuông",
           "Có hai góc kề một đáy bằng nhau",
           "Có hai cạnh bên bằng nhau",
-          "Có hai đáy bằng nhau",
-          "Có một góc vuông"
+          "Có hai đáy bằng nhau"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Tứ giác có hai cạnh đối song song và hai góc đối bù nhau là:",
         "options": [
-          "Hình thang cân",
-          "Hình thoi",
           "Hình bình hành",
-          "Hình vuông"
+          "Hình thoi",
+          "Hình vuông",
+          "Hình thang cân"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -588,8 +588,8 @@ const BAI_2_TOAN8_EXAMS = {
         "question": "Đường thẳng nối trung điểm hai đáy của hình thang cân:",
         "options": [
           "Vuông góc với hai đáy",
-          "Bằng hai cạnh bên",
           "Bằng nửa tổng hai đáy",
+          "Bằng hai cạnh bên",
           "Song song với hai cạnh bên"
         ],
         "correct": 0
@@ -601,8 +601,8 @@ const BAI_2_TOAN8_EXAMS = {
         "options": [
           "$CD = 2AB$",
           "$CD = 3AB$",
-          "$CD = 1.5AB$",
-          "$CD = 4AB$"
+          "$CD = 4AB$",
+          "$CD = 1.5AB$"
         ],
         "correct": 0
       },
@@ -623,48 +623,48 @@ const BAI_2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Khẳng định nào sau đây là sai?",
         "options": [
+          "Đoạn thẳng nối trung điểm 2 đáy cắt $MN$ tại trung điểm của $MN$",
           "$MN = AD$",
-          "$MN \\parallel AB \\parallel CD$",
           "$MN = \\frac{AB + CD}{2}$",
-          "Đoạn thẳng nối trung điểm 2 đáy cắt $MN$ tại trung điểm của $MN$"
+          "$MN \\parallel AB \\parallel CD$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Hình thang cân có hai đường chéo vuông góc và độ dài đường cao là $h$. Diện tích của hình thang cân này bằng:",
         "options": [
-          "$h^2$",
-          "$2h^2$",
           "$\\frac{1}{2}h^2$",
-          "$4h^2$"
+          "$2h^2$",
+          "$4h^2$",
+          "$h^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $AC = 13\\text{ cm}$, đường cao $AH = 12\\text{ cm}$. Tổng độ dài hai đáy $AB + CD$ bằng:",
         "options": [
+          "$8\\text{ cm}$",
           "$10\\text{ cm}$",
           "$12\\text{ cm}$",
-          "$15\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$15\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Cho tứ giác $ABCD$ có $\\widehat{C} = \\widehat{D}$ và $AD = BC$. Khẳng định nào đúng nhất?",
         "options": [
-          "Tứ giác $ABCD$ là hình thang cân hoặc hình bình hành",
           "Tứ giác $ABCD$ chắc chắn là hình thang cân",
-          "Tứ giác $ABCD$ chắc chắn là hình chữ nhật",
-          "Tứ giác $ABCD$ là hình thang vuông"
+          "Tứ giác $ABCD$ là hình thang vuông",
+          "Tứ giác $ABCD$ là hình thang cân hoặc hình bình hành",
+          "Tứ giác $ABCD$ chắc chắn là hình chữ nhật"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

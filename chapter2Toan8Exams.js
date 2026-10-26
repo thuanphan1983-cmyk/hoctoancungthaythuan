@@ -13,57 +13,57 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Với hai biểu thức $A$ và $B$ bất kì, hằng đẳng thức hiệu hai bình phương là:",
         "options": [
-          "$A^2 - B^2 = (A - B)(A + B)$",
           "$A^2 - B^2 = (A - B)^2$",
+          "$A^2 - B^2 = (A + B)^2$",
           "$A^2 - B^2 = A^2 - 2AB + B^2$",
-          "$A^2 - B^2 = (A + B)^2$"
+          "$A^2 - B^2 = (A - B)(A + B)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hằng đẳng thức bình phương của một tổng $(A + B)^2$ khai triển bằng biểu thức nào sau đây?",
         "options": [
-          "$A^2 + B^2$",
           "$A^2 + 2AB + B^2$",
           "$A^2 + AB + B^2$",
-          "$A^2 - 2AB + B^2$"
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khai triển của hằng đẳng thức bình phương của một hiệu $(A - B)^2$ là:",
         "options": [
+          "$A^2 - 2AB + B^2$",
           "$A^2 - B^2$",
           "$A^2 + 2AB + B^2$",
-          "$A^2 - AB + B^2$",
-          "$A^2 - 2AB + B^2$"
+          "$A^2 - AB + B^2$"
         ],
-        "correct": 3
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Biểu thức $x^2 - 9$ viết dưới dạng tích là:",
         "options": [
-          "$(x - 3)(x + 3)$",
-          "$(x - 9)(x + 9)$",
+          "$(x + 3)^2$",
           "$(x - 3)^2$",
-          "$(x + 3)^2$"
+          "$(x - 3)(x + 3)$",
+          "$(x - 9)(x + 9)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Khai triển biểu thức $(x + 4)^2$ ta được:",
         "options": [
-          "$x^2 + 16$",
-          "$x^2 + 8x + 16$",
           "$x^2 + 4x + 16$",
+          "$x^2 + 8x + 16$",
+          "$x^2 + 16$",
           "$x^2 + 8x + 8$"
         ],
         "correct": 1
@@ -86,11 +86,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Đa thức $x^2 + 6x + 9$ được viết dưới dạng bình phương của một tổng là:",
         "options": [
           "$(x + 9)^2$",
+          "$(x - 3)^2$",
           "$(x + 6)^2$",
-          "$(x + 3)^2$",
-          "$(x - 3)^2$"
+          "$(x + 3)^2$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 8,
@@ -109,22 +109,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $(2x + 3)^2$ ta được kết quả là:",
         "options": [
-          "$4x^2 + 9$",
           "$4x^2 + 6x + 9$",
-          "$4x^2 + 12x + 9$",
-          "$2x^2 + 12x + 9$"
+          "$2x^2 + 12x + 9$",
+          "$4x^2 + 9$",
+          "$4x^2 + 12x + 9$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Đa thức $4x^2 - 4x + 1$ viết dưới dạng bình phương của một hiệu là:",
         "options": [
-          "$(4x - 1)^2$",
+          "$(x - 1)^2$",
           "$(2x - 1)^2$",
-          "$(2x + 1)^2$",
-          "$(x - 1)^2$"
+          "$(4x - 1)^2$",
+          "$(2x + 1)^2$"
         ],
         "correct": 1
       },
@@ -133,24 +133,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = x^2 - 4xy + 4y^2$ tại $x = 14$ và $y = 2$ là:",
         "options": [
+          "$10$",
           "$100$",
-          "$144$",
           "$64$",
-          "$10$"
+          "$144$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Tính nhanh giá trị của $51^2 - 49^2$ ta được kết quả là:",
         "options": [
-          "$200$",
-          "$100$",
           "$4$",
+          "$100$",
+          "$200$",
           "$20$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -270,12 +270,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khai triển của biểu thức $(-2x + y)^2$ là",
         "options": [
+          "$4x^2 + 4xy + y^2$",
           "$4x^2 - 4xy + y^2$",
           "$-4x^2 - 4xy + y^2$",
-          "$4x^2 + 4xy + y^2$",
           "$4x^2 - 2xy + y^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -283,11 +283,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Biểu thức $(3x - 5y)(3x + 5y)$ viết dưới dạng hiệu hai bình phương là",
         "options": [
           "$3x^2 - 5y^2$",
-          "$9x^2 - 25y^2$",
+          "$(3x - 5y)^2$",
           "$9x^2 + 25y^2$",
-          "$(3x - 5y)^2$"
+          "$9x^2 - 25y^2$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 3,
@@ -295,9 +295,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Khẳng định nào dưới đây là một hằng đẳng thức đúng với mọi số thực $a$ và $b$?",
         "options": [
           "$(a - b)^2 = -(b - a)^2$",
-          "$(a - b)^2 = a^2 - b^2$",
+          "$(a + b)^2 = a^2 + b^2$",
           "$(a - b)^2 = (b - a)^2$",
-          "$(a + b)^2 = a^2 + b^2$"
+          "$(a - b)^2 = a^2 - b^2$"
         ],
         "correct": 2
       },
@@ -306,22 +306,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Đơn thức thích hợp điền vào dấu \"...\" để biểu thức $4x^2 + ... + 9y^2$ trở thành bình phương của một tổng là",
         "options": [
+          "$24xy$",
           "$6xy$",
           "$12xy$",
-          "$-12xy$",
-          "$24xy$"
+          "$-12xy$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $P = (2x + 3)^2 - (2x - 3)^2$ ta được kết quả là",
         "options": [
-          "$12x$",
+          "$8x^2 + 18$",
           "$24x$",
           "$18$",
-          "$8x^2 + 18$"
+          "$12x$"
         ],
         "correct": 1
       },
@@ -330,24 +330,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính nhanh giá trị của biểu thức $52{,}5^2 - 47{,}5^2$ thu được kết quả là",
         "options": [
-          "$500$",
           "$250$",
+          "$50$",
           "$100$",
-          "$50$"
+          "$500$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho hai số thực $x, y$ thỏa mãn $x + y = 7$ và $xy = 10$. Giá trị của $x^2 + y^2$ bằng",
         "options": [
-          "$29$",
-          "$39$",
           "$49$",
-          "$69$"
+          "$29$",
+          "$69$",
+          "$39$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -366,12 +366,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số thực $x$ thỏa mãn đẳng thức $(x + 4)^2 - x^2 = 32$.",
         "options": [
-          "$x = 4$",
-          "$x = -2$",
           "$x = 2$",
-          "$x = 1$"
+          "$x = 1$",
+          "$x = -2$",
+          "$x = 4$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 10,
@@ -379,35 +379,35 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho đa thức $A = 4x^2 - 12x + 11$. Khẳng định nào sau đây đúng?",
         "options": [
           "$A = (2x - 3)^2 - 2$",
-          "$A > 0$ với mọi số thực $x$",
           "$A < 0$ với mọi số thực $x$",
-          "$A = 0$ khi $x = \\frac{3}{2}$"
+          "$A = 0$ khi $x = \\frac{3}{2}$",
+          "$A > 0$ với mọi số thực $x$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $\\left(2x - \\frac{1}{2}\\right)^2$ ta được kết quả là",
         "options": [
-          "$4x^2 - 2x + \\frac{1}{4}$",
-          "$4x^2 - x + \\frac{1}{4}$",
           "$4x^2 - 2x - \\frac{1}{4}$",
-          "$4x^2 - \\frac{1}{4}$"
+          "$4x^2 - \\frac{1}{4}$",
+          "$4x^2 - 2x + \\frac{1}{4}$",
+          "$4x^2 - x + \\frac{1}{4}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Hiệu diện tích giữa hình vuông cạnh có độ dài $(x + 3)$ và hình vuông cạnh có độ dài $(x - 3)$ (với $x > 3$) bằng",
         "options": [
-          "$6x$",
           "$12x$",
+          "$2x^2 + 18$",
           "$18$",
-          "$2x^2 + 18$"
+          "$6x$"
         ],
-        "correct": 1
+        "correct": 0
       }
     ],
     "part2": [
@@ -527,12 +527,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức $(-2x - 3y)^2$ bằng biểu thức nào sau đây?",
         "options": [
-          "$(2x + 3y)^2$",
           "$(2x - 3y)^2$",
-          "$-(2x + 3y)^2$",
-          "$4x^2 - 12xy + 9y^2$"
+          "$(2x + 3y)^2$",
+          "$4x^2 - 12xy + 9y^2$",
+          "$-(2x + 3y)^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
@@ -540,9 +540,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Thu gọn tích $[(x - 2y) + z][(x - 2y) - z]$ theo hằng đẳng thức hiệu hai bình phương, ta được kết quả là:",
         "options": [
           "$(x - 2y)^2 - z^2$",
-          "$x^2 - (2y - z)^2$",
           "$(x + 2y)^2 - z^2$",
-          "$(x - 2y)^2 + z^2$"
+          "$(x - 2y)^2 + z^2$",
+          "$x^2 - (2y - z)^2$"
         ],
         "correct": 0
       },
@@ -551,22 +551,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm số dương $k$ để đa thức $49x^2 - 28kx + 16$ viết được dưới dạng bình phương của một hiệu.",
         "options": [
-          "$k = 4$",
           "$k = 2$",
-          "$k = 1$",
-          "$k = 7$"
+          "$k = 7$",
+          "$k = 4$",
+          "$k = 1$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức số $M = (2 - 1)(2 + 1)(2^2 + 1)(2^4 + 1)(2^8 + 1) - 2^{16}$ là:",
         "options": [
+          "$-2$",
           "$1$",
-          "$0$",
           "$-1$",
-          "$-2$"
+          "$0$"
         ],
         "correct": 2
       },
@@ -588,71 +588,71 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Có bao nhiêu cặp số nguyên dương $(x; y)$ thỏa mãn đẳng thức $x^2 - y^2 = 35$?",
         "options": [
           "$1$",
+          "$3$",
           "$2$",
-          "$4$",
-          "$3$"
+          "$4$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $Q = (x + y + z)^2 - 2(x + y + z)(y + z) + (y + z)^2$, ta được:",
         "options": [
+          "$y^2 + z^2$",
           "$x^2$",
           "$(x + 2y + 2z)^2$",
-          "$y^2 + z^2$",
           "$x^2 + 2y^2 + 2z^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho biết $x + \\frac{1}{x} = 5$. Giá trị của biểu thức $x^2 + \\frac{1}{x^2}$ bằng:",
         "options": [
-          "$27$",
-          "$23$",
           "$25$",
-          "$21$"
+          "$27$",
+          "$21$",
+          "$23$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho các số thực $x, y$ thỏa mãn $x^2 + 4y^2 - 4x + 12y + 13 = 0$. Giá trị của biểu thức $T = x - 2y$ bằng:",
         "options": [
+          "$-5$",
           "$-1$",
-          "$5$",
           "$1$",
-          "$-5$"
+          "$5$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho ba số thực dương $a, b, c$ là độ dài ba cạnh của một tam giác thỏa mãn đẳng thức $a^2 + b^2 + c^2 = ab + bc + ca$. Khẳng định nào sau đây là đúng nhất?",
         "options": [
-          "Tam giác đó là tam giác vuông cân.",
           "Tam giác đó là tam giác cân nhưng không đều.",
-          "Tam giác đó là tam giác đều.",
-          "Tam giác đó là tam giác vuông."
+          "Tam giác đó là tam giác vuông cân.",
+          "Tam giác đó là tam giác vuông.",
+          "Tam giác đó là tam giác đều."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $A = 2x^2 + 2xy + y^2 - 2x + 2y + 15$ đạt được tại cặp số $(x; y)$ là:",
         "options": [
-          "$(2; -3)$",
-          "$(1; -2)$",
           "$(-2; 1)$",
+          "$(1; -2)$",
+          "$(2; -3)$",
           "$(2; 3)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -661,8 +661,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "$0$",
           "$1$",
-          "$2$",
-          "Vô số"
+          "Vô số",
+          "$2$"
         ],
         "correct": 1
       }
@@ -784,36 +784,36 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Với hai biểu thức $A$ và $B$ bất kì, hằng đẳng thức lập phương của một tổng $(A + B)^3$ bằng biểu thức nào sau đây?",
         "options": [
+          "$A^3 + 3AB + B^3$",
           "$A^3 + 3A^2B + 3AB^2 + B^3$",
           "$A^3 - 3A^2B + 3AB^2 - B^3$",
-          "$A^3 + A^2B + AB^2 + B^3$",
-          "$A^3 + 3AB + B^3$"
+          "$A^3 + A^2B + AB^2 + B^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Với hai biểu thức $A$ và $B$ bất kì, hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng biểu thức nào sau đây?",
         "options": [
-          "$A^3 - 3A^2B - 3AB^2 - B^3$",
-          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
           "$A^3 + 3A^2B - 3AB^2 + B^3$",
-          "$A^3 - B^3$"
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 - 3A^2B + 3AB^2 - B^3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khai triển của hằng đẳng thức $(x + 1)^3$ là",
         "options": [
-          "$x^3 + 3x^2 + 3x + 1$",
+          "$x^3 + 3x^2 + 3x + 3$",
           "$x^3 + x^2 + x + 1$",
           "$x^3 + 3x + 1$",
-          "$x^3 + 3x^2 + 3x + 3$"
+          "$x^3 + 3x^2 + 3x + 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -821,11 +821,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Khai triển của hằng đẳng thức $(x - 1)^3$ là",
         "options": [
           "$x^3 - 3x^2 - 3x - 1$",
+          "$x^3 - 3x - 1$",
           "$x^3 - 3x^2 + 3x - 1$",
-          "$x^3 - x^2 + x - 1$",
-          "$x^3 - 3x - 1$"
+          "$x^3 - x^2 + x - 1$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 5,
@@ -833,35 +833,35 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Hệ số của số hạng chứa $x^2$ trong khai triển của $(x + 2)^3$ là",
         "options": [
           "$2$",
-          "$3$",
           "$6$",
+          "$3$",
           "$12$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Hệ số tự do (không chứa biến $x$) trong khai triển của $(x - 2)^3$ là",
         "options": [
-          "$-8$",
-          "$8$",
           "$-6$",
+          "$8$",
+          "$-8$",
           "$-2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Đa thức $x^3 + 6x^2y + 12xy^2 + 8y^3$ được viết gọn thành",
         "options": [
-          "$(x + 8y)^3$",
-          "$(x + 4y)^3$",
           "$(x + 2y)^3$",
-          "$(2x + y)^3$"
+          "$(x + 4y)^3$",
+          "$(2x + y)^3$",
+          "$(x + 8y)^3$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 8,
@@ -870,8 +870,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "$(x - y)^3$",
           "$(x + y)^3$",
-          "$(y - x)^2$",
-          "$x^3 - y^3$"
+          "$x^3 - y^3$",
+          "$(y - x)^2$"
         ],
         "correct": 0
       },
@@ -880,36 +880,36 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $(2x + 1)^3$ ta được kết quả là",
         "options": [
-          "$8x^3 + 12x^2 + 6x + 1$",
+          "$8x^3 + 1$",
           "$2x^3 + 6x^2 + 6x + 1$",
-          "$8x^3 + 6x^2 + 6x + 1$",
-          "$8x^3 + 1$"
+          "$8x^3 + 12x^2 + 6x + 1$",
+          "$8x^3 + 6x^2 + 6x + 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $(x - 3)^3$ ta được kết quả là",
         "options": [
-          "$x^3 - 9x^2 + 27x - 27$",
           "$x^3 - 3x^2 + 9x - 27$",
-          "$x^3 - 9x^2 + 9x - 27$",
-          "$x^3 - 27$"
+          "$x^3 - 9x^2 + 27x - 27$",
+          "$x^3 - 27$",
+          "$x^3 - 9x^2 + 9x - 27$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = x^3 - 3x^2 + 3x - 1$ tại $x = 11$ là",
         "options": [
+          "$121$",
           "$100$",
-          "$1\\,000$",
           "$10\\,000$",
-          "$121$"
+          "$1\\,000$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 12,
@@ -917,9 +917,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Biểu thức $M = (x + 2)^3 - x^3$ sau khi rút gọn thu được kết quả là",
         "options": [
           "$6x^2 + 12x + 8$",
+          "$8$",
           "$6x^2 + 6x + 8$",
-          "$12x + 8$",
-          "$8$"
+          "$12x + 8$"
         ],
         "correct": 0
       }
@@ -1041,24 +1041,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khai triển của hằng đẳng thức $(A + B)^3$ là biểu thức nào sau đây?",
         "options": [
-          "$A^3 + 3A^2B + 3AB^2 + B^3$",
           "$A^3 - 3A^2B + 3AB^2 - B^3$",
-          "$A^3 + A^2B + AB^2 + B^3$",
-          "$A^3 + 3AB + B^3$"
+          "$A^3 + 3AB + B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$",
+          "$A^3 + A^2B + AB^2 + B^3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức $(M - N)^3$ bằng biểu thức nào dưới đây?",
         "options": [
+          "$(M - N)(M^2 + MN + N^2)$",
           "$-(N - M)^3$",
-          "$(N - M)^3$",
           "$M^3 - N^3$",
-          "$(M - N)(M^2 + MN + N^2)$"
+          "$(N - M)^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -1066,11 +1066,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Thu gọn đa thức $x^3 - 6x^2 + 12x - 8$ ta được kết quả là:",
         "options": [
           "$(x + 2)^3$",
-          "$(x - 2)^3$",
           "$(x - 8)^3$",
-          "$(2 - x)^3$"
+          "$(2 - x)^3$",
+          "$(x - 2)^3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 4,
@@ -1078,35 +1078,35 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Hệ số của đơn thức $x^2y$ trong khai triển của $(2x + y)^3$ là:",
         "options": [
           "$6$",
-          "$8$",
           "$12$",
+          "$8$",
           "$4$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $(3x - 2y)^3$ ta được kết quả là:",
         "options": [
-          "$27x^3 - 18x^2y + 12xy^2 - 8y^3$",
-          "$27x^3 - 54x^2y + 36xy^2 - 8y^3$",
           "$9x^3 - 54x^2y + 36xy^2 - 6y^3$",
-          "$27x^3 + 54x^2y - 36xy^2 - 8y^3$"
+          "$27x^3 + 54x^2y - 36xy^2 - 8y^3$",
+          "$27x^3 - 18x^2y + 12xy^2 - 8y^3$",
+          "$27x^3 - 54x^2y + 36xy^2 - 8y^3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Viết biểu thức $8x^3 + 36x^2y + 54xy^2 + 27y^3$ dưới dạng lập phương của một tổng:",
         "options": [
-          "$(4x + 3y)^3$",
           "$(2x + 9y)^3$",
           "$(2x + 3y)^3$",
-          "$(8x + 27y)^3$"
+          "$(8x + 27y)^3$",
+          "$(4x + 3y)^3$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 7,
@@ -1125,60 +1125,60 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $P = (x + 1)^3 - (x - 1)^3$ ta thu được đa thức bậc mấy?",
         "options": [
-          "Bậc $3$",
           "Bậc $2$",
+          "Bậc $3$",
           "Bậc $1$",
           "Bậc $0$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $A = (2x - 1)^3 - 2x(2x - 3)^2$ ta được kết quả là:",
         "options": [
-          "$6x - 1$",
+          "$-1$",
           "$-6x - 1$",
-          "$12x^2 - 1$",
-          "$-1$"
+          "$6x - 1$",
+          "$12x^2 - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $B = x^3 - 9x^2 + 27x - 27$ tại $x = 103$ là:",
         "options": [
-          "$1\\,000\\,000$",
           "$100\\,000$",
           "$10\\,000\\,000$",
-          "$1\\,000$"
+          "$1\\,000$",
+          "$1\\,000\\,000$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Khai triển biểu thức $\\left(x - \\frac{1}{3}\\right)^3$ thành đa thức thu gọn là:",
         "options": [
-          "$x^3 - x^2 + \\frac{1}{3}x - \\frac{1}{27}$",
-          "$x^3 - \\frac{1}{3}x^2 + \\frac{1}{9}x - \\frac{1}{27}$",
+          "$x^3 - x^2 + \\frac{1}{9}x - \\frac{1}{27}$",
           "$x^3 - 3x^2 + 3x - \\frac{1}{27}$",
-          "$x^3 - x^2 + \\frac{1}{9}x - \\frac{1}{27}$"
+          "$x^3 - x^2 + \\frac{1}{3}x - \\frac{1}{27}$",
+          "$x^3 - \\frac{1}{3}x^2 + \\frac{1}{9}x - \\frac{1}{27}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Biết $(x - y)^3 = x^3 - y^3 - k\\cdot xy(x - y)$. Hệ số $k$ bằng:",
         "options": [
+          "$3$",
           "$-3$",
           "$1$",
-          "$-1$",
-          "$3$"
+          "$-1$"
         ],
-        "correct": 3
+        "correct": 0
       }
     ],
     "part2": [
@@ -1298,20 +1298,20 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khai triển của hằng đẳng thức $(-2x + y)^3$ có dạng nào dưới đây?",
         "options": [
-          "$-8x^3 + 12x^2y - 6xy^2 + y^3$",
           "$-8x^3 - 12x^2y + 6xy^2 - y^3$",
-          "$8x^3 - 12x^2y + 6xy^2 - y^3$",
-          "$-8x^3 - 6x^2y - 6xy^2 + y^3$"
+          "$-8x^3 + 12x^2y - 6xy^2 + y^3$",
+          "$-8x^3 - 6x^2y - 6xy^2 + y^3$",
+          "$8x^3 - 12x^2y + 6xy^2 - y^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức thu gọn của $-x^3 + 3x^2 - 3x + 1$ là:",
         "options": [
-          "$(x - 1)^3$",
           "$-(x + 1)^3$",
+          "$(x - 1)^3$",
           "$(1 - x)^3$",
           "$-(1 - x)^3$"
         ],
@@ -1323,11 +1323,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho hằng đẳng thức $(ax - 2y)^3 = -27x^3 + bx^2y - cxy^2 - 8y^3$. Tổng $a + b + c$ bằng:",
         "options": [
           "$15$",
+          "$-21$",
           "$87$",
-          "$21$",
-          "$-21$"
+          "$21$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 4,
@@ -1335,9 +1335,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Rút gọn biểu thức $P = (2x - 3y)^3 + (2x + 3y)^3$, ta thu được kết quả là:",
         "options": [
           "$16x^3 + 108xy^2$",
-          "$16x^3 - 108xy^2$",
           "$16x^3 + 36xy^2$",
-          "$16x^3 - 54y^3$"
+          "$16x^3 - 54y^3$",
+          "$16x^3 - 108xy^2$"
         ],
         "correct": 0
       },
@@ -1346,10 +1346,10 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $M = x^3 - 6x^2y + 12xy^2 - 8y^3$ tại $x = 2025$ và $y = 1012$ là:",
         "options": [
-          "$-1$",
+          "$-8$",
           "$1$",
-          "$8$",
-          "$-8$"
+          "$-1$",
+          "$8$"
         ],
         "correct": 1
       },
@@ -1359,9 +1359,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Biết $x + y = 5$ và $xy = 6$. Giá trị của $x^3 + y^3$ bằng:",
         "options": [
           "$35$",
-          "$95$",
           "$65$",
-          "$125$"
+          "$125$",
+          "$95$"
         ],
         "correct": 0
       },
@@ -1370,22 +1370,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết $x - y = -4$ và $xy = 5$. Giá trị của biểu thức $x^3 - y^3$ bằng:",
         "options": [
-          "$-124$",
           "$-4$",
           "$-64$",
-          "$124$"
+          "$124$",
+          "$-124$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $x > 0$ thoả mãn $x - \\frac{1}{x} = 3$. Giá trị của $x^3 - \\frac{1}{x^3}$ là:",
         "options": [
-          "$18$",
+          "$9$",
           "$27$",
           "$36$",
-          "$9$"
+          "$18$"
         ],
         "correct": 2
       },
@@ -1394,12 +1394,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Vận dụng",
         "question": "Số nghiệm thực của phương trình $(x - 1)^3 + (2 - x)^3 = 1$ là:",
         "options": [
-          "$0$",
+          "$3$",
           "$1$",
-          "$2$",
-          "$3$"
+          "$0$",
+          "$2$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 10,
@@ -1407,9 +1407,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho $a + b + c = 0$. Biểu thức $T = (a + b - c)^3 + (b + c - a)^3 + (c + a - b)^3$ luôn bằng:",
         "options": [
           "$-24abc$",
-          "$24abc$",
+          "$-8(a^3+b^3+c^3)$",
           "$0$",
-          "$-8(a^3+b^3+c^3)$"
+          "$24abc$"
         ],
         "correct": 0
       },
@@ -1418,12 +1418,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Vận dụng",
         "question": "Cho ba số thực $x, y, z$ thỏa mãn $x + y + z = 1$ và $x^3 + y^3 + z^3 = 1$. Giá trị của biểu thức $P = (x^{2025} + y^{2025})(y^{2025} + z^{2025})(z^{2025} + x^{2025})$ là:",
         "options": [
+          "$-1$",
           "$0$",
           "$1$",
-          "$2^{2025}$",
-          "$-1$"
+          "$2^{2025}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -1431,11 +1431,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Tìm hệ số của số hạng chứa $x^3$ trong khai triển biểu thức $Q(x) = (x^2 - 2x + 1)^3$ sau khi thu gọn.",
         "options": [
           "$-32$",
-          "$-20$",
           "$-8$",
-          "$20$"
+          "$20$",
+          "$-20$"
         ],
-        "correct": 1
+        "correct": 3
       }
     ],
     "part2": [
@@ -1555,21 +1555,21 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Hằng đẳng thức nào sau đây biểu diễn đúng tổng hai lập phương của hai biểu thức $A$ và $B$?",
         "options": [
-          "$A^3 + B^3 = (A + B)(A^2 - AB + B^2)$",
+          "$A^3 + B^3 = (A + B)^3$",
           "$A^3 + B^3 = (A + B)(A^2 + AB + B^2)$",
-          "$A^3 + B^3 = (A - B)(A^2 + AB + B^2)$",
-          "$A^3 + B^3 = (A + B)^3$"
+          "$A^3 + B^3 = (A + B)(A^2 - AB + B^2)$",
+          "$A^3 + B^3 = (A - B)(A^2 + AB + B^2)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Hằng đẳng thức nào sau đây biểu diễn đúng hiệu hai lập phương của hai biểu thức $A$ và $B$?",
         "options": [
-          "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
           "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$",
+          "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
+          "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$",
           "$A^3 - B^3 = (A - B)^3$"
         ],
         "correct": 1
@@ -1579,24 +1579,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức $x^2 - 2x + 4$ được gọi là gì đối với hai số $x$ và $2$?",
         "options": [
-          "Bình phương của một tổng",
-          "Bình phương của một hiệu",
           "Bình phương thiếu của một tổng",
-          "Bình phương thiếu của một hiệu"
+          "Bình phương thiếu của một hiệu",
+          "Bình phương của một hiệu",
+          "Bình phương của một tổng"
         ],
-        "correct": 3
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Biểu thức $x^2 + 3x + 9$ được gọi là gì đối với hai số $x$ và $3$?",
         "options": [
-          "Bình phương thiếu của một tổng",
           "Bình phương thiếu của một hiệu",
           "Bình phương của một tổng",
+          "Bình phương thiếu của một tổng",
           "Hiệu hai bình phương"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -1605,8 +1605,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "$(x + 1)(x^2 - x + 1)$",
           "$(x + 1)(x^2 + x + 1)$",
-          "$(x - 1)(x^2 + x + 1)$",
-          "$(x + 1)(x^2 - 2x + 1)$"
+          "$(x + 1)(x^2 - 2x + 1)$",
+          "$(x - 1)(x^2 + x + 1)$"
         ],
         "correct": 0
       },
@@ -1615,22 +1615,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khai triển của hằng đẳng thức $x^3 - 8$ là:",
         "options": [
-          "$(x - 2)(x^2 + 2x + 4)$",
           "$(x - 2)(x^2 - 2x + 4)$",
           "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x - 8)(x^2 + 8x + 64)$"
+          "$(x - 8)(x^2 + 8x + 64)$",
+          "$(x - 2)(x^2 + 2x + 4)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Viết biểu thức $(x - 1)(x^2 + x + 1)$ dưới dạng hiệu hai lập phương, ta được:",
         "options": [
-          "$x^3 - 3$",
           "$x^3 + 1$",
+          "$x^2 - 1$",
           "$x^3 - 1$",
-          "$x^2 - 1$"
+          "$x^3 - 3$"
         ],
         "correct": 2
       },
@@ -1639,60 +1639,60 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Viết biểu thức $(x + 4)(x^2 - 4x + 16)$ dưới dạng tổng hai lập phương, ta được:",
         "options": [
-          "$x^3 + 16$",
           "$x^3 + 64$",
           "$x^3 - 64$",
+          "$x^3 + 16$",
           "$x^3 + 4$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Điền biểu thức thích hợp vào chỗ trống để có đẳng thức đúng: $x^3 + 27 = (x + 3)(...)$",
         "options": [
-          "$x^2 - 6x + 9$",
           "$x^2 + 3x + 9$",
-          "$x^2 - 3x + 9$",
-          "$x^2 - 3x + 6$"
+          "$x^2 - 3x + 6$",
+          "$x^2 - 6x + 9$",
+          "$x^2 - 3x + 9$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Biểu thức $8x^3 - 1$ được viết dưới dạng tích là:",
         "options": [
+          "$(8x - 1)(64x^2 + 8x + 1)$",
           "$(2x - 1)(4x^2 + 2x + 1)$",
           "$(2x - 1)(2x^2 + 2x + 1)$",
-          "$(2x - 1)(4x^2 - 2x + 1)$",
-          "$(8x - 1)(64x^2 + 8x + 1)$"
+          "$(2x - 1)(4x^2 - 2x + 1)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $P = (x - 2)(x^2 + 2x + 4) - x^3$ ta được kết quả là:",
         "options": [
-          "$8$",
-          "$-8$",
           "$2x^3 - 8$",
-          "$-4$"
+          "$-4$",
+          "$8$",
+          "$-8$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $M = (x + 2)(x^2 - 2x + 4)$ tại $x = 2$ là:",
         "options": [
-          "$12$",
-          "$14$",
           "$16$",
+          "$14$",
+          "$12$",
           "$8$"
         ],
-        "correct": 2
+        "correct": 0
       }
     ],
     "part2": [
@@ -1812,22 +1812,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là dạng khai triển đúng của hằng đẳng thức tổng hai lập phương $A^3 + B^3$?",
         "options": [
-          "$(A + B)(A^2 - AB + B^2)$",
-          "$(A + B)(A^2 + AB + B^2)$",
           "$(A - B)(A^2 + AB + B^2)$",
-          "$(A + B)(A^2 - 2AB + B^2)$"
+          "$(A + B)(A^2 - AB + B^2)$",
+          "$(A + B)(A^2 - 2AB + B^2)$",
+          "$(A + B)(A^2 + AB + B^2)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Đa thức nào dưới đây được gọi là \"bình phương thiếu của một tổng\" ứng với hai biểu thức $x$ và $3y$?",
         "options": [
-          "$x^2 + 6xy + 9y^2$",
+          "$x^2 + 3xy + 3y^2$",
           "$x^2 + 3xy + 9y^2$",
-          "$x^2 - 3xy + 9y^2$",
-          "$x^2 + 3xy + 3y^2$"
+          "$x^2 + 6xy + 9y^2$",
+          "$x^2 - 3xy + 9y^2$"
         ],
         "correct": 1
       },
@@ -1836,9 +1836,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức $8x^3 - 27$ được viết dưới dạng tích là:",
         "options": [
-          "$(2x - 3)(4x^2 - 6x + 9)$",
-          "$(2x - 3)(4x^2 + 6x + 9)$",
           "$(2x + 3)(4x^2 - 6x + 9)$",
+          "$(2x - 3)(4x^2 + 6x + 9)$",
+          "$(2x - 3)(4x^2 - 6x + 9)$",
           "$(8x - 27)(64x^2 + 216x + 729)$"
         ],
         "correct": 1
@@ -1848,58 +1848,58 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Tích $(3x + 1)(9x^2 - 3x + 1)$ viết gọn thành đa thức là:",
         "options": [
-          "$27x^3 - 1$",
-          "$9x^3 + 1$",
           "$27x^3 + 1$",
-          "$(3x + 1)^3$"
+          "$27x^3 - 1$",
+          "$(3x + 1)^3$",
+          "$9x^3 + 1$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = (2x - 5y)(4x^2 + 10xy + 25y^2)$ tại $x = 2$ và $y = 1$ là:",
         "options": [
-          "$-61$",
+          "$61$",
           "$-89$",
           "$89$",
-          "$61$"
+          "$-61$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Điền đơn thức thích hợp vào chỗ trống để có đẳng thức đúng: $(4x - \\dots)(16x^2 + 12xy + 9y^2) = 64x^3 - 27y^3$.",
         "options": [
-          "$3y$",
-          "$-3y$",
           "$9y$",
-          "$3y^2$"
+          "$-3y$",
+          "$3y^2$",
+          "$3y$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $M = (x + 2)(x^2 - 2x + 4) - (x - 1)(x^2 + x + 1)$ ta được kết quả là:",
         "options": [
-          "$7$",
-          "$9$",
           "$2x^3 + 7$",
-          "$2x^3 + 9$"
+          "$7$",
+          "$2x^3 + 9$",
+          "$9$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tìm số tự nhiên $n$ sao cho $x^3 + 64 = (x + 4)(x^2 - nx + 16)$ với mọi $x$.",
         "options": [
-          "$n = -4$",
+          "$n = 8$",
           "$n = 2$",
           "$n = 4$",
-          "$n = 8$"
+          "$n = -4$"
         ],
         "correct": 2
       },
@@ -1909,9 +1909,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Rút gọn biểu thức $Q = (x - 3y)(x^2 + 3xy + 9y^2) + 27y^3$ được kết quả là:",
         "options": [
           "$x^3$",
-          "$x^3 - 54y^3$",
           "$x^3 + 54y^3$",
-          "$-x^3$"
+          "$-x^3$",
+          "$x^3 - 54y^3$"
         ],
         "correct": 0
       },
@@ -1933,9 +1933,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho biểu thức $B = (2x - 1)(4x^2 + 2x + 1) - 8x(x^2 - 1)$. Khi đó khẳng định nào sau đây là đúng?",
         "options": [
           "$B = 8x - 1$",
-          "$B = -8x - 1$",
+          "$B = -1$",
           "$B = 1$",
-          "$B = -1$"
+          "$B = -8x - 1$"
         ],
         "correct": 0
       },
@@ -1944,12 +1944,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Nghiệm của phương trình $(x + 3)(x^2 - 3x + 9) - x(x^2 + 2) = 15$ là:",
         "options": [
-          "$x = 6$",
-          "$x = -6$",
+          "$x = -12$",
           "$x = 12$",
-          "$x = -12$"
+          "$x = 6$",
+          "$x = -6$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2070,9 +2070,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho hai biểu thức $A$ và $B$ bất kì. Khẳng định nào sau đây là hằng đẳng thức đúng về hiệu hai lập phương?",
         "options": [
           "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$",
           "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 + 2AB + B^2)$"
+          "$A^3 - B^3 = (A - B)(A^2 + 2AB + B^2)$",
+          "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$"
         ],
         "correct": 0
       },
@@ -2083,8 +2083,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "$9x^2 - 12xy + 4y^2$",
           "$9x^2 - 6xy + 4y^2$",
-          "$9x^2 + 6xy + 4y^2$",
-          "$3x^2 - 6xy + 2y^2$"
+          "$3x^2 - 6xy + 2y^2$",
+          "$9x^2 + 6xy + 4y^2$"
         ],
         "correct": 1
       },
@@ -2093,24 +2093,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $P = (2x - 3y)(4x^2 + 6xy + 9y^2) - (2x + 3y)(4x^2 - 6xy + 9y^2)$, ta được kết quả là:",
         "options": [
+          "$-18y^3$",
           "$16x^3$",
-          "$-54y^3$",
           "$0$",
-          "$-18y^3$"
+          "$-54y^3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Thông hiểu",
         "question": "Cho biểu thức $M = (x^2 - 2)(x^4 + 2x^2 + 4) - x^2(x^2 - 1)(x^2 + 1) - x^2$. Giá trị của $M$ là:",
         "options": [
-          "$-8$",
           "$-8 - 2x^2$",
-          "$-8 + x^2$",
-          "$8$"
+          "$-8$",
+          "$8$",
+          "$-8 + x^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
@@ -2118,9 +2118,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho $x + y = 3$ và $xy = -4$. Giá trị của biểu thức $K = x^3 + y^3$ bằng:",
         "options": [
           "$63$",
-          "$9$",
           "$-9$",
-          "$45$"
+          "$45$",
+          "$9$"
         ],
         "correct": 0
       },
@@ -2129,58 +2129,58 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biết $(x - 4)(x^2 + 4x + 16) - x(x - 2)(x + 2) = 20$. Giá trị của $x$ thỏa mãn là:",
         "options": [
-          "$x = 21$",
           "$x = -21$",
           "$x = 15$",
-          "$x = -15$"
+          "$x = -15$",
+          "$x = 21$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Đa thức $Q(x) = x^6 - 64$ được phân tích triệt để thành tích các đa thức hệ số nguyên là:",
         "options": [
-          "$(x - 2)(x + 2)(x^2 - 2x + 4)(x^2 + 2x + 4)$",
-          "$(x^3 - 8)(x^3 + 8)$",
+          "$(x^2 - 4)(x^4 + 4x^2 + 16)$",
           "$(x - 2)^3(x + 2)^3$",
-          "$(x^2 - 4)(x^4 + 4x^2 + 16)$"
+          "$(x - 2)(x + 2)(x^2 - 2x + 4)(x^2 + 2x + 4)$",
+          "$(x^3 - 8)(x^3 + 8)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Cho $a, b$ là hai số thực thỏa mãn $a - b = 5$ và $a^2 + b^2 = 19$. Giá trị của tích $ab$ và biểu thức $a^3 - b^3$ lần lượt là:",
         "options": [
-          "$ab = -3$ và $a^3 - b^3 = 80$",
-          "$ab = 3$ và $a^3 - b^3 = 110$",
+          "$ab = -6$ và $a^3 - b^3 = 65$",
           "$ab = -3$ và $a^3 - b^3 = 95$",
-          "$ab = -6$ và $a^3 - b^3 = 65$"
+          "$ab = 3$ và $a^3 - b^3 = 110$",
+          "$ab = -3$ và $a^3 - b^3 = 80$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các giá trị thực của tham số $m$ để biểu thức $f(x) = (x - 2)(x^2 + 2x + 4) - (x + 1)(x^2 - x + 1) + mx$ nhận giá trị không đổi với mọi $x$.",
         "options": [
-          "$m = 0$",
-          "$m = 9$",
           "$m = -9$",
+          "$m = 9$",
+          "$m = 0$",
           "Không tồn tại $m$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số cặp số nguyên dương $(x; y)$ thỏa mãn đẳng thức $x^3 - y^3 = 3(x - y) + 7$ là:",
         "options": [
-          "$0$",
+          "$3$",
           "$1$",
-          "$2$",
-          "$3$"
+          "$0$",
+          "$2$"
         ],
         "correct": 1
       },
@@ -2190,9 +2190,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho $x > 0$ thỏa mãn $x^2 + \\frac{1}{x^2} = 7$. Giá trị của biểu thức $S = x^3 + \\frac{1}{x^3}$ bằng:",
         "options": [
           "$18$",
-          "$27$",
+          "$36$",
           "$9$",
-          "$36$"
+          "$27$"
         ],
         "correct": 0
       },
@@ -2201,12 +2201,12 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho các số thực $a, b, c$ khác $0$ thỏa mãn $a + b + c = 0$. Rút gọn biểu thức $H = \\frac{a^3 + b^3 + c^3}{3abc}$ ta được kết quả là:",
         "options": [
-          "$1$",
           "$3$",
-          "$-1$",
-          "$0$"
+          "$0$",
+          "$1$",
+          "$-1$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2327,9 +2327,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Nhân tử chung của đa thức $3x^2 - 6x$ là:",
         "options": [
           "$3x$",
+          "$6x$",
           "$3$",
-          "$x$",
-          "$6x$"
+          "$x$"
         ],
         "correct": 0
       },
@@ -2338,22 +2338,22 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Đa thức $x^2 - 9$ được phân tích thành nhân tử là:",
         "options": [
-          "$(x - 3)(x + 3)$",
-          "$(x - 9)(x + 9)$",
           "$(x - 3)^2$",
-          "$(x + 3)^2$"
+          "$(x - 3)(x + 3)$",
+          "$(x + 3)^2$",
+          "$(x - 9)(x + 9)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Đa thức $x^2 + 4x + 4$ bằng biểu thức nào sau đây?",
         "options": [
-          "$(x + 4)^2$",
+          "$(x + 2)(x - 2)$",
           "$(x + 2)^2$",
           "$(x - 2)^2$",
-          "$(x + 2)(x - 2)$"
+          "$(x + 4)^2$"
         ],
         "correct": 1
       },
@@ -2362,60 +2362,60 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Đặt nhân tử chung $5$ ra ngoài biểu thức $5x - 15y$, ta thu được kết quả là:",
         "options": [
+          "$5(x + 3y)$",
           "$5(x - 3y)$",
           "$5(x - 10y)$",
-          "$5(x + 3y)$",
           "$5(x - 15y)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Đa thức nào sau đây có thể phân tích thành nhân tử bằng cách áp dụng trực tiếp hằng đẳng thức hiệu hai bình phương $A^2 - B^2$?",
         "options": [
-          "$x^2 + 16$",
-          "$x^2 - 16$",
           "$x^2 - 4x + 4$",
-          "$x^2 + 2x + 1$"
+          "$x^2 + 2x + 1$",
+          "$x^2 - 16$",
+          "$x^2 + 16$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là hằng đẳng thức đúng dùng để phân tích đa thức thành nhân tử?",
         "options": [
-          "$a^2 - 2ab + b^2 = (a - b)^2$",
+          "$a^2 + 2ab + b^2 = (a - b)^2$",
           "$a^2 - b^2 = (a - b)^2$",
           "$a^2 + b^2 = (a + b)(a - b)$",
-          "$a^2 + 2ab + b^2 = (a - b)^2$"
+          "$a^2 - 2ab + b^2 = (a - b)^2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Phân tích đa thức $xy + 2y$ thành nhân tử, ta được kết quả là:",
         "options": [
-          "$y(x + 2)$",
           "$x(y + 2)$",
           "$y(x - 2)$",
-          "$2(xy + y)$"
+          "$2(xy + y)$",
+          "$y(x + 2)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Nhận biết",
         "question": "Biểu thức $x(x - 1) + 2(x - 1)$ có nhân tử chung là:",
         "options": [
-          "$x$",
           "$x - 1$",
+          "$x$",
           "$x + 2$",
           "$2$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 9,
@@ -2423,9 +2423,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Phân tích đa thức $2x(y - 1) - 4(y - 1)$ thành nhân tử, ta được:",
         "options": [
           "$2(y - 1)(x - 2)$",
+          "$4(y - 1)(x - 1)$",
           "$2(y - 1)(x + 2)$",
-          "$(y - 1)(2x - 2)$",
-          "$4(y - 1)(x - 1)$"
+          "$(y - 1)(2x - 2)$"
         ],
         "correct": 0
       },
@@ -2434,36 +2434,36 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $P = x^2 - 2x + 1$ tại $x = 101$ bằng:",
         "options": [
+          "$100$",
           "$1000$",
           "$10000$",
-          "$10201$",
-          "$100$"
+          "$10201$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tất cả các giá trị của $x$ thỏa mãn $x^2 - 5x = 0$ là:",
         "options": [
-          "$x = 0$ hoặc $x = 5$",
-          "$x = 5$",
           "$x = 0$ hoặc $x = -5$",
+          "$x = 5$",
+          "$x = 0$ hoặc $x = 5$",
           "$x = -5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Phân tích đa thức $x^2 - xy + 2x - 2y$ thành nhân tử, ta được kết quả là:",
         "options": [
-          "$(x - y)(x + 2)$",
-          "$(x + y)(x - 2)$",
+          "$(x + y)(x + 2)$",
           "$(x - y)(x - 2)$",
-          "$(x + y)(x + 2)$"
+          "$(x + y)(x - 2)$",
+          "$(x - y)(x + 2)$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2583,36 +2583,36 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Phân tích đa thức $P = x^4 + 4$ thành nhân tử trên tập số thực, ta được kết quả là:",
         "options": [
+          "$(x^2 + 2)(x^2 - 2)$",
           "$(x^2 + 2x + 2)(x^2 - 2x + 2)$",
           "$(x^2 + 2)^2$",
-          "$(x^2 - 2)^2$",
-          "$(x^2 + 2)(x^2 - 2)$"
+          "$(x^2 - 2)^2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức $Q = a^3 + b^3 + c^3 - 3abc$ luôn chia hết cho đa thức nào sau đây?",
         "options": [
-          "$a + b - c$",
-          "$a + b + c$",
+          "$a - b - c$",
           "$a - b + c$",
-          "$a - b - c$"
+          "$a + b - c$",
+          "$a + b + c$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Đa thức $A(x) = x^4 + 2024x^2 + 2023x + 2024$ có một nhân tử là:",
         "options": [
+          "$x^2 - x - 1$",
           "$x^2 - x + 1$",
           "$x^2 + x + 1$",
-          "$x^2 + x - 1$",
-          "$x^2 - x - 1$"
+          "$x^2 + x - 1$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 4,
@@ -2621,46 +2621,46 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "100",
           "105",
-          "96",
-          "120"
+          "120",
+          "96"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Biết $x^3 - 7x + 6 = (x - a)(x - b)(x - c)$ với $a < b < c$. Giá trị của biểu thức $T = a^2 + 2b + 3c$ bằng:",
         "options": [
-          "17",
           "15",
-          "13",
-          "11"
+          "17",
+          "11",
+          "13"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Số cặp số thực $(x; y)$ thỏa mãn $x^2 + y^2 - 4x + 6y + 13 = 0$ là:",
         "options": [
-          "0",
-          "1",
+          "Vô số",
           "2",
-          "Vô số"
+          "0",
+          "1"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Phân tích đa thức $B(x) = x^5 + x + 1$ thành nhân tử, ta nhận được nhân tử bậc hai là:",
         "options": [
+          "$x^2 - 1$",
           "$x^2 - x + 1$",
           "$x^2 + x + 1$",
-          "$x^2 + 1$",
-          "$x^2 - 1$"
+          "$x^2 + 1$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 8,
@@ -2668,9 +2668,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Tìm hệ số $m$ để đa thức $P(x) = x^3 - 3x^2 + mx - 6$ chia hết cho đa thức $x - 3$.",
         "options": [
           "$m = 2$",
+          "$m = -3$",
           "$m = -2$",
-          "$m = 3$",
-          "$m = -3$"
+          "$m = 3$"
         ],
         "correct": 0
       },
@@ -2681,8 +2681,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "$-1$",
           "$1$",
-          "$-8$",
-          "$8$"
+          "$8$",
+          "$-8$"
         ],
         "correct": 0
       },
@@ -2692,11 +2692,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn đẳng thức $xy - 2x + 3y = 11$?",
         "options": [
           "4",
-          "6",
           "8",
-          "2"
+          "2",
+          "6"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 11,
@@ -2705,10 +2705,10 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "2019",
           "2020",
-          "2021",
-          "2022"
+          "2022",
+          "2021"
         ],
-        "correct": 3
+        "correct": 2
       },
       {
         "id": 12,
@@ -2716,9 +2716,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho đa thức $P(x) = x^4 - 2x^3 + 3x^2 - 2x + 1$. Phân tích $P(x)$ thành bình phương của một đa thức, ta được:",
         "options": [
           "$(x^2 - x + 1)^2$",
+          "$(x^2 + x - 1)^2$",
           "$(x^2 + x + 1)^2$",
-          "$(x^2 - 2x + 1)^2$",
-          "$(x^2 + x - 1)^2$"
+          "$(x^2 - 2x + 1)^2$"
         ],
         "correct": 0
       }
@@ -2841,59 +2841,59 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Đẳng thức nào sau đây biểu diễn đúng hằng đẳng thức hiệu hai lập phương với hai biểu thức $A$ và $B$ bất kỳ?",
         "options": [
           "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
           "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$",
+          "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
           "$A^3 - B^3 = (A - B)(A^2 + 2AB + B^2)$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức nào sau đây là bình phương của một hiệu?",
         "options": [
-          "$4x^2 - 12x + 9$",
-          "$4x^2 + 12x + 9$",
           "$4x^2 - 9$",
-          "$4x^2 - 6x + 9$"
+          "$4x^2 - 6x + 9$",
+          "$4x^2 + 12x + 9$",
+          "$4x^2 - 12x + 9$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Phân tích đa thức $9x^2 - 16y^2$ thành nhân tử, ta được kết quả là:",
         "options": [
-          "$(3x - 4y)^2$",
-          "$(9x - 16y)(9x + 16y)$",
           "$(3x - 4y)(3x + 4y)$",
-          "$(3x + 4y)^2$"
+          "$(3x + 4y)^2$",
+          "$(3x - 4y)^2$",
+          "$(9x - 16y)(9x + 16y)$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Hằng đẳng thức lập phương của một tổng được viết dưới dạng thu gọn của biểu thức $x^3 + 6x^2 + 12x + 8$ là:",
         "options": [
+          "$(x + 2)^3$",
           "$(x + 8)^3$",
           "$(x + 4)^3$",
-          "$(x + 2)^3$",
           "$(2x + 1)^3$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $M = (2x - 3y)(4x^2 + 6xy + 9y^2) - (2x + 3y)(4x^2 - 6xy + 9y^2)$ ta được kết quả là:",
         "options": [
-          "$-54y^3$",
-          "$16x^3$",
           "$0$",
-          "$-27y^3$"
+          "$-27y^3$",
+          "$-54y^3$",
+          "$16x^3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -2901,35 +2901,35 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Tìm hệ số của đơn thức $x^2y$ sau khi khai triển và thu gọn biểu thức $P = (2x - y)^3 + (x + 2y)^3$.",
         "options": [
           "$-12$",
+          "$0$",
           "$-6$",
-          "$6$",
-          "$0$"
+          "$6$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Cho $x - y = 5$ và $xy = 6$. Giá trị của biểu thức $Q = x^3 - y^3$ bằng:",
         "options": [
+          "$95$",
           "$35$",
-          "$215$",
           "$155$",
-          "$95$"
+          "$215$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Phân tích đa thức $A = x^3 - 4x^2y + 4xy^2 - 9x$ thành nhân tử hoàn chỉnh:",
         "options": [
-          "$x(x - 2y - 3)(x - 2y + 3)$",
-          "$x(x + 2y - 3)(x + 2y + 3)$",
           "$(x^2 - 2xy)(x - 2y - 9)$",
-          "$x(x - 2y - 9)(x - 2y + 9)$"
+          "$x(x - 2y - 3)(x - 2y + 3)$",
+          "$x(x - 2y - 9)(x - 2y + 9)$",
+          "$x(x + 2y - 3)(x + 2y + 3)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -2937,9 +2937,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Giá trị của biểu thức $N = 78^2 + 22^2 + 44 \\cdot 78$ bằng:",
         "options": [
           "$10\\,000$",
-          "$3\\,136$",
+          "$1\\,000$",
           "$100\\,000$",
-          "$1\\,000$"
+          "$3\\,136$"
         ],
         "correct": 0
       },
@@ -2960,24 +2960,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Có bao nhiêu giá trị của $x$ thỏa mãn đẳng thức $(2x - 1)^2 - (x + 3)^2 = 0$?",
         "options": [
-          "$0$",
           "$1$",
-          "$2$",
-          "$3$"
+          "$0$",
+          "$3$",
+          "$2$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Biểu thức $K = -x^2 + 6x - 11$ đạt giá trị lớn nhất bằng bao nhiêu?",
         "options": [
-          "$-2$",
-          "$2$",
           "$-11$",
-          "$3$"
+          "$-2$",
+          "$3$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -3097,36 +3097,36 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Cho hai biểu thức $A$ và $B$. Đẳng thức nào sau đây biểu diễn hằng đẳng thức hiệu hai lập phương?",
         "options": [
+          "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$",
           "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
           "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$",
-          "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$",
           "$(A - B)^3 = A^3 - 3A^2B + 3AB^2 - B^3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu thức $4x^2 - 12xy + 9y^2$ viết dưới dạng bình phương của một hiệu là",
         "options": [
-          "$(4x - 9y)^2$",
           "$(2x - 3y)^2$",
+          "$(4x - 9y)^2$",
           "$(2x + 3y)^2$",
           "$(3y - 4x)^2$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $P = (2x - 1)(4x^2 + 2x + 1) - 8x(x^2 - 1)$ ta được kết quả là",
         "options": [
-          "$8x - 1$",
-          "$-8x - 1$",
           "$1$",
-          "$-1$"
+          "$-1$",
+          "$8x - 1$",
+          "$-8x - 1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -3145,36 +3145,36 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm hệ số của $x^2$ trong khai triển của biểu thức $Q = (3x - 2)^3 + (x + 2)^3$.",
         "options": [
-          "$-48$",
           "$-54$",
           "$6$",
-          "$-60$"
+          "$-60$",
+          "$-48$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Biểu thức $M = x^2 - 6x + 14$ đạt giá trị nhỏ nhất tại",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
           "$x = 6$",
+          "$x = -3$",
+          "$x = 3$",
           "$x = 5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Đa thức $x^3 - 7x - 6$ được phân tích thành nhân tử là",
         "options": [
-          "$(x + 1)(x + 2)(x - 3)$",
           "$(x - 1)(x + 2)(x - 3)$",
+          "$(x + 1)(x + 2)(x - 3)$",
           "$(x + 1)(x - 2)(x + 3)$",
           "$(x - 1)(x - 2)(x + 3)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -3182,11 +3182,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Có bao nhiêu cặp số nguyên dương $(x; y)$ thỏa mãn đẳng thức $x^2 - y^2 = 35$?",
         "options": [
           "$1$",
-          "$2$",
           "$3$",
-          "$4$"
+          "$4$",
+          "$2$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 9,
@@ -3194,11 +3194,11 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Cho $a, b, c$ đôi một khác nhau và thỏa mãn $a + b + c = 0$. Rút gọn biểu thức $S = \\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}$ ta thu được kết quả là",
         "options": [
           "$0$",
-          "$1$",
           "$3$",
+          "$1$",
           "$-3$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 10,
@@ -3206,9 +3206,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Biết rằng đa thức $P(x) = x^4 + 4x^3 + 10x^2 + 12x + 9$ được viết dưới dạng bình phương của một đa thức $Q(x)$. Đa thức $Q(x)$ có thể là",
         "options": [
           "$x^2 + 2x + 3$",
-          "$x^2 + 3x + 2$",
+          "$x^2 + 2x - 3$",
           "$x^2 - 2x + 3$",
-          "$x^2 + 2x - 3$"
+          "$x^2 + 3x + 2$"
         ],
         "correct": 0
       },
@@ -3217,24 +3217,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho $x > 0$ thỏa mãn $x^2 + \\frac{1}{x^2} = 7$. Giá trị của biểu thức $x^5 + \\frac{1}{x^5}$ bằng",
         "options": [
-          "$123$",
-          "$126$",
           "$110$",
+          "$126$",
+          "$123$",
           "$133$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đa thức $A(x) = 4x^2 - 12x + m$ luôn nhận giá trị dương với mọi số thực $x$?",
         "options": [
-          "Vô số giá trị",
-          "$9$",
           "$10$",
-          "Không có giá trị nào"
+          "Không có giá trị nào",
+          "$9$",
+          "Vô số giá trị"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -3354,9 +3354,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Khi đặt nhân tử chung cho biểu thức $6x^3y^2 - 9x^2y^3 + 15x^2y^2$, nhân tử chung có hệ số nguyên dương lớn nhất là",
         "options": [
-          "$3xy$",
-          "$3x^2y^2$",
           "$6x^2y^2$",
+          "$3x^2y^2$",
+          "$3xy$",
           "$x^2y^2$"
         ],
         "correct": 1
@@ -3366,24 +3366,24 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Đa thức nào sau đây viết được dưới dạng bình phương của một hiệu?",
         "options": [
-          "$4x^2 - 12x + 9$",
-          "$4x^2 + 12x + 9$",
           "$x^2 - 6x - 9$",
+          "$4x^2 + 12x + 9$",
+          "$4x^2 - 12x + 9$",
           "$9x^2 - 6x + 4$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Phân tích đa thức $25 - (x - 1)^2$ thành nhân tử, ta thu được kết quả là",
         "options": [
-          "$(4 - x)(6 + x)$",
-          "$(6 - x)(4 + x)$",
           "$(26 - x)(24 + x)$",
-          "$(x - 6)(x + 4)$"
+          "$(4 - x)(6 + x)$",
+          "$(x - 6)(x + 4)$",
+          "$(6 - x)(4 + x)$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 4,
@@ -3391,8 +3391,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Biểu thức $8x^3 + 27y^3$ được viết thành tích của hai đa thức nào sau đây?",
         "options": [
           "$(2x + 3y)(4x^2 - 6xy + 9y^2)$",
-          "$(2x + 3y)(4x^2 + 6xy + 9y^2)$",
           "$(2x - 3y)(4x^2 + 6xy + 9y^2)$",
+          "$(2x + 3y)(4x^2 + 6xy + 9y^2)$",
           "$(2x + 3y)(2x^2 - 6xy + 3y^2)$"
         ],
         "correct": 0
@@ -3402,45 +3402,45 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Phân tích đa thức $M = 3x(x - 2y) - 6y(2y - x)$ thành nhân tử ta được",
         "options": [
+          "$3(x - 2y)(x - 4y)$",
           "$3(x - 2y)^2$",
           "$3(x - 2y)(x + 2y)$",
-          "$3(x - 2y)(x - 4y)$",
           "$-3(x - 2y)^2$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Cho đa thức $P = x^2 - y^2 - 4x + 4$. Khi phân tích $P$ thành nhân tử, kết quả đúng là",
         "options": [
-          "$(x - y - 2)(x + y - 2)$",
           "$(x - 2 - y)(x - 2 + y)$",
-          "$(x + 2 - y)(x + 2 + y)$",
-          "$(x - y + 2)(x + y + 2)$"
+          "$(x - y - 2)(x + y - 2)$",
+          "$(x - y + 2)(x + y + 2)$",
+          "$(x + 2 - y)(x + 2 + y)$"
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $Q = x^3 - 3x^2y + 3xy^2 - y^3$ tại $x = 103$ và $y = 3$ là",
         "options": [
+          "$1\\ 000$",
           "$1\\ 000\\ 000$",
           "$100\\ 000$",
-          "$10\\ 000$",
-          "$1\\ 000$"
+          "$10\\ 000$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tập hợp các giá trị của $x$ thỏa mãn đẳng thức $2x(x - 5) - x + 5 = 0$ là",
         "options": [
-          "$\\left\\{5; -\\frac{1}{2}\\right\\}$",
-          "$\\left\\{5; \\frac{1}{2}\\right\\}$",
           "$\\left\\{-5; \\frac{1}{2}\\right\\}$",
+          "$\\left\\{5; \\frac{1}{2}\\right\\}$",
+          "$\\left\\{5; -\\frac{1}{2}\\right\\}$",
           "$\\left\\{5; 1\\right\\}$"
         ],
         "correct": 1
@@ -3450,48 +3450,48 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Đa thức $x^2 - 7x + 12$ được phân tích thành nhân tử là",
         "options": [
-          "$(x - 3)(x - 4)$",
           "$(x - 2)(x - 6)$",
           "$(x + 3)(x + 4)$",
+          "$(x - 3)(x - 4)$",
           "$(x - 1)(x - 12)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Phân tích đa thức $A = x^3 + 2x^2y + xy^2 - 9x$ thành nhân tử triệt để, ta được",
         "options": [
-          "$x(x + y - 3)(x + y + 3)$",
           "$x(x - y - 3)(x - y + 3)$",
           "$(x^2 + xy - 3)(x + y + 3)$",
-          "$x(x + y - 9)(x + y + 9)$"
+          "$x(x + y - 9)(x + y + 9)$",
+          "$x(x + y - 3)(x + y + 3)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Biết $x^2 - 2xy + y^2 - z^2 = 0$ và $x - y + z = 10$. Giá trị của $x - y - z$ bằng",
         "options": [
-          "$10$",
           "$-10$",
-          "$0$",
-          "Không xác định"
+          "$10$",
+          "Không xác định",
+          "$0$"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn đẳng thức $xy - 2x + 3y = 11$?",
         "options": [
-          "$2$",
           "$4$",
-          "$6$",
-          "$8$"
+          "$2$",
+          "$8$",
+          "$6$"
         ],
-        "correct": 1
+        "correct": 0
       }
     ],
     "part2": [
@@ -3612,9 +3612,9 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Khai triển của hằng đẳng thức $(a + b)^2$ là",
         "options": [
           "$a^2 + 2ab + b^2$",
-          "$a^2 - 2ab + b^2$",
+          "$a^2 + ab + b^2$",
           "$a^2 + b^2$",
-          "$a^2 + ab + b^2$"
+          "$a^2 - 2ab + b^2$"
         ],
         "correct": 0
       },
@@ -3623,72 +3623,72 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu thức $x^2 - 9$ viết dưới dạng tích là",
         "options": [
-          "$(x - 3)^2$",
-          "$(x + 3)(x - 3)$",
           "$(x - 9)(x + 9)$",
-          "$(x + 3)^2$"
+          "$(x + 3)^2$",
+          "$(x + 3)(x - 3)$",
+          "$(x - 3)^2$"
         ],
-        "correct": 1
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng",
         "options": [
-          "$A^3 - B^3$",
-          "$A^3 - 3A^2B + 3AB^2 - B^3$",
           "$A^3 + 3A^2B + 3AB^2 + B^3$",
-          "$A^3 - 3A^2B - 3AB^2 - B^3$"
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 - 3A^2B + 3AB^2 - B^3$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Biểu thức $(x - 2y)^2$ được khai triển thành",
         "options": [
-          "$x^2 - 2xy + 4y^2$",
           "$x^2 - 4xy + 2y^2$",
           "$x^2 - 4xy + 4y^2$",
+          "$x^2 - 2xy + 4y^2$",
           "$x^2 - 4y^2$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Biểu thức $x^3 + 8$ viết dưới dạng tích là",
         "options": [
-          "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x + 2)(x^2 + 2x + 4)$",
           "$(x - 2)(x^2 + 2x + 4)$",
-          "$(x + 2)^3$"
+          "$(x + 2)^3$",
+          "$(x + 2)(x^2 + 2x + 4)$",
+          "$(x + 2)(x^2 - 2x + 4)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Đơn thức nhân tử chung của đa thức $6x^2y - 9xy^2$ là",
         "options": [
-          "$3x$",
-          "$3y$",
           "$3xy$",
-          "$xy$"
+          "$3x$",
+          "$xy$",
+          "$3y$"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "id": 7,
         "level": "Nhận biết",
         "question": "Biểu thức $x^2 - 4x + 4$ là bình phương của đa thức nào?",
         "options": [
+          "$2x - 1$",
           "$x + 2$",
-          "$x - 2$",
           "$x - 4$",
-          "$2x - 1$"
+          "$x - 2$"
         ],
-        "correct": 1
+        "correct": 3
       },
       {
         "id": 8,
@@ -3697,8 +3697,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "options": [
           "$x^3 - 1$",
           "$x^3 + 1$",
-          "$(x + 1)^3$",
-          "$x^2 + 1$"
+          "$x^2 + 1$",
+          "$(x + 1)^3$"
         ],
         "correct": 1
       },
@@ -3707,34 +3707,34 @@ const CHAPTER2_TOAN8_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tính giá trị của biểu thức $A = x^2 - 6x + 9$ tại $x = 13$.",
         "options": [
-          "$100$",
-          "$121$",
+          "$169$",
           "$81$",
-          "$169$"
+          "$100$",
+          "$121$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Phân tích đa thức $x(x - 3) + 5(x - 3)$ thành nhân tử ta được",
         "options": [
-          "$(x - 3)(x - 5)$",
           "$5x(x - 3)$",
           "$(x - 3)(x + 5)$",
-          "$(x + 3)(x + 5)$"
+          "$(x + 3)(x + 5)$",
+          "$(x - 3)(x - 5)$"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $x^2 - 16 = 0$.",
         "options": [
+          "$x = 16$",
           "$x = 4$",
-          "$x = -4$",
           "$x = 4$ hoặc $x = -4$",
-          "$x = 16$"
+          "$x = -4$"
         ],
         "correct": 2
       },
@@ -3744,8 +3744,8 @@ const CHAPTER2_TOAN8_EXAMS = {
         "question": "Giá trị của biểu thức $52^2 - 48^2$ là",
         "options": [
           "$400$",
-          "$200$",
           "$800$",
+          "$200$",
           "$100$"
         ],
         "correct": 0

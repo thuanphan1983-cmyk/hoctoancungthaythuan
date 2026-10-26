@@ -8,36 +8,36 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu trực tiếp?",
         "options": [
-          "Quan sát hoặc làm thí nghiệm, lập phiếu hỏi",
-          "Tìm kiếm trên mạng Internet",
           "Đọc trong sách tham khảo",
-          "Tra cứu trên niên giám thống kê"
+          "Tra cứu trên niên giám thống kê",
+          "Tìm kiếm trên mạng Internet",
+          "Quan sát hoặc làm thí nghiệm, lập phiếu hỏi"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Dữ liệu nào sau đây là dữ liệu số (số liệu)?",
         "options": [
+          "Nơi sinh của các bạn học sinh",
           "Chiều cao của các học sinh trong lớp (cm)",
-          "Tên các loài hoa yêu thích",
           "Xếp loại học lực (Tốt, Khá, Đạt)",
-          "Nơi sinh của các bạn học sinh"
+          "Tên các loài hoa yêu thích"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Dữ liệu nào sau đây không phải là số liệu (dữ liệu định tính)?",
         "options": [
-          "Màu sắc yêu thích của các bạn trong tổ",
-          "Số học sinh giỏi của từng lớp",
           "Điểm kiểm tra môn Toán",
-          "Nhiệt độ trung bình các ngày trong tuần"
+          "Màu sắc yêu thích của các bạn trong tổ",
+          "Nhiệt độ trung bình các ngày trong tuần",
+          "Số học sinh giỏi của từng lớp"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
@@ -45,9 +45,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Dữ liệu định tính nào sau đây có thể so sánh được (thứ bậc)?",
         "options": [
           "Mức độ hài lòng của khách hàng: Rất hài lòng, Hài lòng, Không hài lòng",
+          "Tên các quận, huyện của Hà Nội",
           "Màu mắt: Đen, Nâu, Xanh",
-          "Môn thể thao yêu thích: Bóng đá, Bơi, Cầu lông",
-          "Tên các quận, huyện của Hà Nội"
+          "Môn thể thao yêu thích: Bóng đá, Bơi, Cầu lông"
         ],
         "correct": 0
       },
@@ -56,24 +56,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Để thu thập dữ liệu về điểm kiểm tra môn Toán học kì I của các bạn học sinh lớp 7A, bạn lớp trưởng nên thu thập từ nguồn nào?",
         "options": [
-          "Sổ điểm hoặc bảng điểm của giáo viên dạy Toán",
-          "Hỏi các bạn trong tổ của mình",
           "Tìm kiếm trên mạng Internet",
-          "Hỏi bác bảo vệ của trường"
+          "Hỏi bác bảo vệ của trường",
+          "Sổ điểm hoặc bảng điểm của giáo viên dạy Toán",
+          "Hỏi các bạn trong tổ của mình"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Dãy dữ liệu nào sau đây gồm các dữ liệu hợp lí về điểm thi môn Toán thang điểm 10?",
         "options": [
-          "$8; 9; 7{,}5; 10; 6$",
-          "$8; 12; 7; -2; 9$",
           "$9; 10; A; B; 8$",
+          "$8; 12; 7; -2; 9$",
+          "$8; 9; 7{,}5; 10; 6$",
           "$7; 8; 15; 6; 7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -82,8 +82,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "$1995$",
           "$2011$",
-          "$2012$",
-          "Không có giá trị nào"
+          "Không có giá trị nào",
+          "$2012$"
         ],
         "correct": 0
       },
@@ -92,48 +92,48 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Bảng khảo sát về sở thích đọc sách của học sinh có các mức: Không thích, Bình thường, Thích, Rất thích. Đây là loại dữ liệu:",
         "options": [
-          "Dữ liệu định tính có thể sắp xếp thứ bậc",
-          "Dữ liệu định tính không thể sắp xếp thứ bậc",
           "Dữ liệu số liên tục",
-          "Dữ liệu số rời rạc"
+          "Dữ liệu định tính không thể sắp xếp thứ bậc",
+          "Dữ liệu số rời rạc",
+          "Dữ liệu định tính có thể sắp xếp thứ bậc"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Dãy dữ liệu về thân nhiệt của một bệnh nhân (độ C) lúc 8h sáng: $36{,}8; 37{,}0; 37{,}2; 45{,}5$. Giá trị bất thường trong dãy là:",
         "options": [
-          "$45{,}5$",
-          "$37{,}0$",
+          "$37{,}2$",
           "$36{,}8$",
-          "$37{,}2$"
+          "$45{,}5$",
+          "$37{,}0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Để tìm hiểu về số lượng xe máy của mỗi hộ gia đình tại một khu phố, loại dữ liệu thu thập được là:",
         "options": [
-          "Dữ liệu số",
-          "Dữ liệu định tính",
           "Dữ liệu hình ảnh",
-          "Dữ liệu âm thanh"
+          "Dữ liệu âm thanh",
+          "Dữ liệu định tính",
+          "Dữ liệu số"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Một tổ có 8 học sinh có số cuốn sách đọc trong học kì I là: $3, 5, 2, 4, 3, 6, 4, 5$. Tổng số sách tổ đó đọc được là:",
         "options": [
+          "$34$",
           "$32$",
           "$30$",
-          "$34$",
           "$28$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -141,9 +141,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Số lượng học sinh vắng mặt trong tuần của một lớp là: Thứ Hai: 1, Thứ Ba: 0, Thứ Tư: 2, Thứ Năm: 0, Thứ Sáu: 1. Số ngày không có học sinh vắng là:",
         "options": [
           "$2$ ngày",
-          "$1$ ngày",
           "$3$ ngày",
-          "$0$ ngày"
+          "$0$ ngày",
+          "$1$ ngày"
         ],
         "correct": 0
       }
@@ -316,24 +316,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Để đánh giá mức độ hài lòng của phụ huynh học sinh về các hoạt động ngoại khóa của trường, nhà trường nên thu thập dữ liệu bằng cách nào?",
         "options": [
-          "Gửi phiếu khảo sát trực tuyến hoặc phiếu giấy đến toàn thể phụ huynh",
           "Hỏi ý kiến của một lớp bất kì",
+          "Hỏi các thầy cô giáo chủ nhiệm",
           "Chỉ hỏi ban đại diện cha mẹ học sinh của trường",
-          "Hỏi các thầy cô giáo chủ nhiệm"
+          "Gửi phiếu khảo sát trực tuyến hoặc phiếu giấy đến toàn thể phụ huynh"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Trong các dãy dữ liệu sau, dãy nào là dữ liệu định tính có thể so sánh thứ bậc?",
         "options": [
-          "Học lực học kì: Tốt, Khá, Đạt, Chưa đạt",
-          "Màu xe máy: Đỏ, Trắng, Đen, Xanh",
           "Môn thể thao: Cầu lông, Bóng rổ, Bơi lội",
-          "Tên thủ đô các nước Đông Nam Á"
+          "Màu xe máy: Đỏ, Trắng, Đen, Xanh",
+          "Tên thủ đô các nước Đông Nam Á",
+          "Học lực học kì: Tốt, Khá, Đạt, Chưa đạt"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -341,9 +341,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Khảo sát thời gian tự học ở nhà mỗi ngày của 5 bạn học sinh (đơn vị: giờ): $2; 1{,}5; -0{,}5; 3; 2{,}5$. Giá trị không hợp lí trong dãy dữ liệu là:",
         "options": [
           "$-0{,}5$",
-          "$1{,}5$",
+          "$3$",
           "$2{,}5$",
-          "$3$"
+          "$1{,}5$"
         ],
         "correct": 0
       },
@@ -352,60 +352,60 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một bảng dữ liệu ghi điểm thi môn Tiếng Anh: $8; 7; 9; 10; 8; \\text{Tốt}; 7$. Thành phần không hợp lí là:",
         "options": [
-          "$\\text{Tốt}$",
           "$10$",
-          "$7$",
-          "$8$"
+          "$\\text{Tốt}$",
+          "$8$",
+          "$7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Thu thập số lượng học sinh của 4 khối lớp tại một trường THCS được kết quả: Khối 6: 180, Khối 7: 175, Khối 8: 160, Khối 9: 155. Tổng số học sinh toàn trường là:",
         "options": [
-          "$670$",
           "$660$",
           "$680$",
+          "$670$",
           "$650$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Kết quả khảo sát món ăn sáng yêu thích của 100 học sinh: Bánh mì 45, Phở 25, Xôi 20, Khác 10. Tỉ lệ học sinh thích Bánh mì là:",
         "options": [
-          "$45\\%$",
-          "$25\\%$",
           "$20\\%$",
+          "$25\\%$",
+          "$45\\%$",
           "$55\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Một bạn ghi chép số cuốn vở dùng trong một năm của 5 bạn: $15, 18, 12, 16, 14$. Trung vị của dãy số liệu trên là:",
         "options": [
-          "$15$",
-          "$16$",
           "$18$",
-          "$14$"
+          "$14$",
+          "$16$",
+          "$15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Số lượng cây trồng của 4 tổ trong đợt phát động Tết trồng cây: Tổ 1: 24, Tổ 2: 28, Tổ 3: 22, Tổ 4: 26. Tổ nào trồng được nhiều cây nhất?",
         "options": [
-          "Tổ 2",
           "Tổ 1",
           "Tổ 4",
+          "Tổ 2",
           "Tổ 3"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -413,9 +413,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Cho dãy dữ liệu xếp loại thể lực: Rất khỏe (30%), Khỏe (50%), Trung bình (15%), Yếu (x%). Giá trị của $x$ để tổng phần trăm bằng 100% là:",
         "options": [
           "$5$",
-          "$10$",
+          "$0$",
           "$15$",
-          "$0$"
+          "$10$"
         ],
         "correct": 0
       },
@@ -424,24 +424,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Để chọn mẫu khảo sát đại diện cho ý kiến của 1000 học sinh toàn trường, phương pháp chọn mẫu nào sau đây là hợp lí nhất?",
         "options": [
-          "Chọn ngẫu nhiên 10 học sinh từ mỗi lớp trong 25 lớp của trường",
           "Chọn toàn bộ học sinh khối 9",
-          "Chọn 50 bạn hay đến thư viện",
-          "Chọn các bạn tham gia đội tuyển học sinh giỏi"
+          "Chọn ngẫu nhiên 10 học sinh từ mỗi lớp trong 25 lớp của trường",
+          "Chọn các bạn tham gia đội tuyển học sinh giỏi",
+          "Chọn 50 bạn hay đến thư viện"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Dữ liệu liên tục là dữ liệu nhận các giá trị trong một khoảng số thực. Ví dụ nào sau đây là dữ liệu liên tục?",
         "options": [
+          "Số bàn thắng trong trận đấu",
           "Cân nặng của các bạn học sinh (kg)",
           "Số lượng học sinh trong lớp",
-          "Số bàn thắng trong trận đấu",
           "Số quyển sách trên giá"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -600,60 +600,60 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khi nghiên cứu tỉ lệ ủng hộ của công chúng đối với dự án mở rộng công viên, cơ quan khảo sát phỏng vấn 100 người đi bộ trong công viên đó vào sáng Chủ nhật. Kết luận nào sau đây đúng về mẫu khảo sát?",
         "options": [
+          "Mẫu không đủ số lượng người để khảo sát",
           "Mẫu bị thiên lệch (chệch) vì người có mặt ở công viên có xu hướng ủng hộ cao hơn mặt bằng chung",
-          "Mẫu có tính đại diện cao cho toàn bộ dân cư thành phố",
           "Mẫu hoàn toàn ngẫu nhiên và khách quan",
-          "Mẫu không đủ số lượng người để khảo sát"
+          "Mẫu có tính đại diện cao cho toàn bộ dân cư thành phố"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Dữ liệu nào sau đây là dữ liệu rời rạc (chỉ nhận giá trị nguyên hoặc đếm được)?",
         "options": [
-          "Số lượng xe ôtô đi qua trạm thu phí mỗi giờ",
           "Khối lượng bao gạo cân được",
-          "Khoảng cách giữa hai thành phố",
-          "Thời gian chạy 100 m của vận động viên"
+          "Thời gian chạy 100 m của vận động viên",
+          "Số lượng xe ôtô đi qua trạm thu phí mỗi giờ",
+          "Khoảng cách giữa hai thành phố"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Một bảng thống kê thu nhập của 10 hộ gia đình (triệu đồng/tháng): $12, 15, 10, 14, 13, 11, 16, 12, 14, 500$. Để phản ánh đúng mức thu nhập phổ biến của đa số người dân, số đặc trưng nào thích hợp hơn?",
         "options": [
-          "Số trung vị",
-          "Số trung bình cộng",
           "Số lớn nhất",
+          "Số trung bình cộng",
+          "Số trung vị",
           "Tổng thu nhập"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cho dãy số liệu điểm thi: $5, 7, 8, 9, x, 6, 8, 10$. Biết trung bình cộng của dãy là $7{,}5$. Giá trị của $x$ là:",
         "options": [
-          "$7$",
           "$8$",
-          "$6$",
-          "$9$"
+          "$7$",
+          "$9$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Một trường học có tỉ lệ học sinh các khối 6, 7, 8, 9 lần lượt là $28\\%, 26\\%, 24\\%, 22\\%$. Nếu cần chọn 200 học sinh theo đúng tỉ lệ trên, số học sinh khối 7 cần chọn là:",
         "options": [
-          "$52$ bạn",
           "$56$ bạn",
           "$48$ bạn",
+          "$52$ bạn",
           "$44$ bạn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -661,9 +661,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Khảo sát cân nặng của 5 em bé sơ sinh: $3{,}1; 3{,}3; 3{,}2; 3{,}5; 2{,}9$ (kg). Độ lệch giữa bé nặng nhất và bé nhẹ nhất là:",
         "options": [
           "$0{,}6$ kg",
+          "$0{,}3$ kg",
           "$0{,}4$ kg",
-          "$0{,}5$ kg",
-          "$0{,}3$ kg"
+          "$0{,}5$ kg"
         ],
         "correct": 0
       },
@@ -672,36 +672,36 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Một cuộc thăm dò ý kiến gồm 500 phiếu có 3 phương án lựa chọn A, B, C. Tỉ lệ chọn A là 42%, chọn B là 38%. Số người chọn phương án C là:",
         "options": [
-          "$100$ người",
           "$80$ người",
           "$120$ người",
-          "$150$ người"
+          "$150$ người",
+          "$100$ người"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Có 4 số tự nhiên có trung bình cộng là 15. Nếu thêm số thứ năm là 25 thì trung bình cộng của cả 5 số là:",
         "options": [
-          "$17$",
           "$18$",
+          "$20$",
           "$16$",
-          "$20$"
+          "$17$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Một lớp có 40 học sinh gồm hai nhóm A và B. Nhóm A có 25 học sinh có điểm trung bình là 8,0. Nhóm B có điểm trung bình là 7,0. Điểm trung bình của cả lớp là:",
         "options": [
-          "$7{,}625$",
+          "$7{,}7$",
           "$7{,}5$",
           "$7{,}6$",
-          "$7{,}7$"
+          "$7{,}625$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
@@ -710,8 +710,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "Chọn mẫu ngẫu nhiên phân tầng",
           "Chọn mẫu thuận tiện",
-          "Chọn mẫu hệ thống",
-          "Chọn mẫu tự nguyện"
+          "Chọn mẫu tự nguyện",
+          "Chọn mẫu hệ thống"
         ],
         "correct": 0
       },
@@ -720,12 +720,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Một dãy số liệu có 7 giá trị nguyên dương tăng dần: $3, 5, 7, x, 11, 14, 18$. Biết số trung vị bằng 9. Giá trị của $x$ là:",
         "options": [
+          "$10$",
           "$9$",
           "$8$",
-          "$10$",
           "$7$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -733,9 +733,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Sai số trong thu thập dữ liệu có thể phát sinh từ:",
         "options": [
           "Dụng cụ đo không chuẩn, người trả lời khai báo sai hoặc người nhập dữ liệu nhầm lẫn",
-          "Chỉ do dụng cụ đo",
+          "Không bao giờ có sai số nếu khảo sát nhiều",
           "Chỉ do người khảo sát cố ý làm sai",
-          "Không bao giờ có sai số nếu khảo sát nhiều"
+          "Chỉ do dụng cụ đo"
         ],
         "correct": 0
       }
@@ -896,24 +896,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu đồ hình quạt tròn thường được dùng để:",
         "options": [
+          "Biểu diễn vị trí không gian",
           "So sánh các phần trong toàn bộ dữ liệu (tỉ lệ phần trăm)",
-          "Biểu diễn sự thay đổi của dữ liệu theo thời gian",
           "So sánh các giá trị tuyệt đối giữa các đối tượng",
-          "Biểu diễn vị trí không gian"
+          "Biểu diễn sự thay đổi của dữ liệu theo thời gian"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Trong biểu đồ hình quạt tròn, toàn bộ hình tròn biểu diễn:",
         "options": [
-          "$100\\%$",
           "$50\\%$",
-          "$360\\%$",
-          "$180\\%$"
+          "$180\\%$",
+          "$100\\%$",
+          "$360\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -921,9 +921,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Trong hình tròn có tổng số đo góc ở tâm là:",
         "options": [
           "$360^\\circ$",
-          "$180^\\circ$",
           "$90^\\circ$",
-          "$100^\\circ$"
+          "$100^\\circ$",
+          "$180^\\circ$"
         ],
         "correct": 0
       },
@@ -932,12 +932,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Một hình quạt tròn biểu diễn $25\\%$ của tổng thể thì góc ở tâm tương ứng là:",
         "options": [
-          "$90^\\circ$",
           "$45^\\circ$",
+          "$60^\\circ$",
           "$180^\\circ$",
-          "$60^\\circ$"
+          "$90^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -945,8 +945,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Một hình quạt tròn có góc ở tâm là $180^\\circ$ thì biểu diễn bao nhiêu phần trăm tổng thể?",
         "options": [
           "$50\\%$",
-          "$25\\%$",
           "$75\\%$",
+          "$25\\%$",
           "$100\\%$"
         ],
         "correct": 0
@@ -956,60 +956,60 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu đồ hình quạt tròn thể hiện cơ cấu chi tiêu của một gia đình gồm: Ăn uống (40%), Tiết kiệm (20%), Giáo dục (25%), Chi khác (x%). Giá trị của $x$ là:",
         "options": [
-          "$15$",
           "$20$",
+          "$5$",
           "$10$",
-          "$5$"
+          "$15$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "Lớp 7A có 40 học sinh. Biểu đồ quạt tròn cho biết học sinh Khá chiếm $40\\%$. Số học sinh Khá của lớp 7A là:",
         "options": [
-          "$16$ học sinh",
           "$10$ học sinh",
           "$20$ học sinh",
-          "$24$ học sinh"
+          "$24$ học sinh",
+          "$16$ học sinh"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Góc ở tâm biểu diễn tỉ lệ $10\\%$ trong biểu đồ quạt tròn là:",
         "options": [
-          "$36^\\circ$",
           "$10^\\circ$",
           "$18^\\circ$",
+          "$36^\\circ$",
           "$72^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Một trường học có 800 học sinh. Biểu đồ quạt tròn cho thấy $50\\%$ học sinh đi bộ đến trường. Số học sinh đi bộ đến trường là:",
         "options": [
+          "$500$ học sinh",
           "$400$ học sinh",
           "$300$ học sinh",
-          "$500$ học sinh",
           "$200$ học sinh"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Trong biểu đồ hình quạt tròn biểu diễn các phương tiện đến trường, hình quạt biểu diễn \"Đi xe buýt\" chiếm góc $72^\\circ$. Tỉ lệ phần trăm học sinh đi xe buýt là:",
         "options": [
+          "$30\\%$",
           "$20\\%$",
           "$15\\%$",
-          "$25\\%$",
-          "$30\\%$"
+          "$25\\%$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
@@ -1028,12 +1028,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Một thư viện trường có 1200 cuốn sách gồm 3 loại: Sách giáo khoa (50%), Sách tham khảo (30%), Truyện tranh (20%). Số sách tham khảo là:",
         "options": [
-          "$360$ cuốn",
           "$600$ cuốn",
-          "$240$ cuốn",
-          "$400$ cuốn"
+          "$400$ cuốn",
+          "$360$ cuốn",
+          "$240$ cuốn"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1192,24 +1192,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Góc ở tâm $54^\\circ$ trong biểu đồ hình quạt tròn tương ứng với tỉ lệ phần trăm là:",
         "options": [
-          "$15\\%$",
-          "$12\\%$",
           "$18\\%$",
-          "$20\\%$"
+          "$20\\%$",
+          "$12\\%$",
+          "$15\\%$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Biểu đồ quạt tròn biểu diễn thành phần các loại rác thải: Rác hữu cơ 55%, Nhựa tái chế 20%, Giấy 15%, Rác khác 10%. Góc ở tâm biểu diễn Rác hữu cơ là:",
         "options": [
-          "$198^\\circ$",
-          "$180^\\circ$",
           "$200^\\circ$",
-          "$190^\\circ$"
+          "$190^\\circ$",
+          "$198^\\circ$",
+          "$180^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
@@ -1228,60 +1228,60 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu đồ hình quạt biểu diễn thể loại phim yêu thích của 400 học sinh: Hoạt hình 45%, Hành động 30%, Hài 15%, Trinh thám 10%. Số học sinh thích phim Hoạt hình nhiều hơn phim Hài là:",
         "options": [
-          "$120$ bạn",
           "$100$ bạn",
+          "$60$ bạn",
           "$80$ bạn",
-          "$60$ bạn"
+          "$120$ bạn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Thông hiểu",
         "question": "Biểu đồ quạt tròn có 3 hình quạt với các góc ở tâm lần lượt là $90^\\circ, 120^\\circ$ và góc thứ ba. Số đo góc thứ ba là:",
         "options": [
-          "$150^\\circ$",
-          "$160^\\circ$",
+          "$130^\\circ$",
           "$140^\\circ$",
-          "$130^\\circ$"
+          "$150^\\circ$",
+          "$160^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng",
         "question": "Một giải chạy việt dã có 500 vận động viên tham gia. Tỉ lệ hoàn thành cự ly là 84%, bỏ cuộc là 16%. Số vận động viên hoàn thành cự ly là:",
         "options": [
-          "$420$ người",
           "$400$ người",
-          "$430$ người",
-          "$450$ người"
+          "$420$ người",
+          "$450$ người",
+          "$430$ người"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Một hợp kim gồm Đồng, Kẽm và Chì. Biểu đồ quạt tròn cho biết Đồng chiếm $60\\%$, Kẽm chiếm $35\\%$, còn lại là Chì. Khối lượng Chì trong $200$ g hợp kim là:",
         "options": [
+          "$5$ g",
           "$10$ g",
-          "$20$ g",
           "$15$ g",
-          "$5$ g"
+          "$20$ g"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Biểu đồ hình quạt thể hiện kết quả học tập của học sinh khối 7. Biết góc ở tâm của nhóm học sinh Giỏi là $72^\\circ$. Tỉ số giữa số học sinh Giỏi và tổng số học sinh khối 7 là:",
         "options": [
-          "$\\frac{1}{5}$",
-          "$\\frac{1}{4}$",
+          "$\\frac{2}{5}$",
           "$\\frac{1}{6}$",
-          "$\\frac{2}{5}$"
+          "$\\frac{1}{5}$",
+          "$\\frac{1}{4}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -1289,9 +1289,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Trong biểu đồ quạt tròn biểu diễn doanh thu 4 quý của một công ty, Quý I chiếm 20%, Quý II chiếm 25%, Quý III chiếm 30%. Nếu doanh thu Quý IV là 50 tỷ đồng thì tổng doanh thu cả năm là:",
         "options": [
           "$200$ tỷ đồng",
-          "$150$ tỷ đồng",
+          "$180$ tỷ đồng",
           "$250$ tỷ đồng",
-          "$180$ tỷ đồng"
+          "$150$ tỷ đồng"
         ],
         "correct": 0
       },
@@ -1312,24 +1312,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Để vẽ biểu đồ hình quạt tròn cho bảng số liệu gồm 5 đối tượng có các tỉ lệ: 30%, 25%, 20%, 15%, 10%, số đo góc lớn nhất gấp mấy lần số đo góc nhỏ nhất?",
         "options": [
-          "$3$ lần",
-          "$2$ lần",
           "$2{,}5$ lần",
-          "$4$ lần"
+          "$3$ lần",
+          "$4$ lần",
+          "$2$ lần"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Hai biểu đồ hình quạt tròn A và B cùng biểu diễn tỉ lệ học sinh thích môn Toán là $25\\%$. Biết tổng số học sinh ở biểu đồ A là 400 em, ở biểu đồ B là 600 em. Khẳng định nào sau đây đúng?",
         "options": [
-          "Số học sinh thích môn Toán ở trường B nhiều hơn trường A",
-          "Số học sinh thích môn Toán ở hai trường bằng nhau",
           "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường B lớn hơn trường A",
-          "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường A lớn hơn trường B"
+          "Số học sinh thích môn Toán ở hai trường bằng nhau",
+          "Góc ở tâm của hình quạt biểu diễn môn Toán ở trường A lớn hơn trường B",
+          "Số học sinh thích môn Toán ở trường B nhiều hơn trường A"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1488,60 +1488,60 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu đồ quạt tròn biểu diễn cơ cấu nông nghiệp gồm: Trồng trọt, Chăn nuôi và Thủy sản. Biết góc ở tâm của Trồng trọt là $216^\\circ$, Chăn nuôi là $90^\\circ$. Tỉ lệ phần trăm của ngành Thủy sản là:",
         "options": [
-          "$15\\%$",
-          "$20\\%$",
           "$12\\%$",
-          "$25\\%$"
+          "$20\\%$",
+          "$25\\%$",
+          "$15\\%$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Để vẽ biểu đồ hình quạt tròn từ bảng số liệu có tỉ số $\\frac{3}{8}$, góc ở tâm tương ứng là:",
         "options": [
-          "$135^\\circ$",
-          "$120^\\circ$",
           "$150^\\circ$",
-          "$145^\\circ$"
+          "$135^\\circ$",
+          "$145^\\circ$",
+          "$120^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Một người nông dân thu hoạch 12 tấn nông sản gồm 3 loại: Thóc 60%, Bắp 25%, Khoai 15%. Khối lượng thóc thu được nhiều hơn tổng khối lượng bắp và khoai là:",
         "options": [
-          "$2{,}4$ tấn",
           "$1{,}2$ tấn",
-          "$3{,}6$ tấn",
-          "$4{,}8$ tấn"
+          "$2{,}4$ tấn",
+          "$4{,}8$ tấn",
+          "$3{,}6$ tấn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Cơ cấu dân số theo độ tuổi của một địa phương: Dưới 15 tuổi (20%), Từ 15 đến 64 tuổi (65%), Từ 65 tuổi trở lên (15%). Góc ở tâm của nhóm tuổi lao động (15 đến 64 tuổi) là:",
         "options": [
-          "$234^\\circ$",
-          "$240^\\circ$",
           "$220^\\circ$",
-          "$216^\\circ$"
+          "$216^\\circ$",
+          "$234^\\circ$",
+          "$240^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Vận dụng",
         "question": "Một hình quạt tròn có diện tích $15\\pi$ cm$^2$ trong một hình tròn có diện tích $60\\pi$ cm$^2$. Hình quạt đó biểu diễn tỉ lệ bao nhiêu phần trăm?",
         "options": [
+          "$15\\%$",
           "$25\\%$",
-          "$20\\%$",
           "$30\\%$",
-          "$15\\%$"
+          "$20\\%$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -1549,9 +1549,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Một xí nghiệp có 3 phân xưởng A, B, C. Tỉ lệ sản phẩm của xưởng A gấp 1,5 lần xưởng B; xưởng B gấp 2 lần xưởng C. Góc ở tâm biểu diễn phân xưởng A là:",
         "options": [
           "$180^\\circ$",
-          "$150^\\circ$",
+          "$120^\\circ$",
           "$200^\\circ$",
-          "$120^\\circ$"
+          "$150^\\circ$"
         ],
         "correct": 0
       },
@@ -1561,8 +1561,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Một trường học có tỉ lệ đỗ tốt nghiệp qua các mức Giỏi (30%), Khá (50%), Trung bình (20%). Nếu số học sinh Khá là 250 em thì số học sinh Giỏi là:",
         "options": [
           "$150$ em",
-          "$100$ em",
           "$200$ em",
+          "$100$ em",
           "$125$ em"
         ],
         "correct": 0
@@ -1572,48 +1572,48 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Cho biểu đồ hình quạt tròn biểu diễn 4 thành phần A, B, C, D với tỉ số diện tích quạt tương ứng là $1 : 2 : 3 : 4$. Góc ở tâm của phần D là:",
         "options": [
-          "$144^\\circ$",
           "$108^\\circ$",
           "$72^\\circ$",
+          "$144^\\circ$",
           "$36^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Một bể cá có 3 loại cá: Cá vàng, Cá chép và Cá bảy màu. Số cá vàng bằng $40\\%$ tổng số cá, số cá chép bằng $\\frac{2}{3}$ số cá còn lại. Tỉ lệ phần trăm của cá bảy màu là:",
         "options": [
-          "$20\\%$",
           "$25\\%$",
-          "$15\\%$",
-          "$30\\%$"
+          "$30\\%$",
+          "$20\\%$",
+          "$15\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Hai hình quạt kề nhau trên biểu đồ tròn có góc ở tâm lần lượt là $\\alpha$ và $\\beta$ thỏa mãn $\\alpha + \\beta = 180^\\circ$ và $\\alpha - \\beta = 36^\\circ$. Tỉ lệ phần trăm tương ứng của hình quạt lớn là:",
         "options": [
-          "$30\\%$",
-          "$25\\%$",
           "$35\\%$",
-          "$20\\%$"
+          "$25\\%$",
+          "$20\\%$",
+          "$30\\%$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Số lượng vé bán ra của một rạp chiếu phim trong tuần gồm 3 mức giá: Vé VIP, Vé Thường, Vé Khuyến mãi. Biết số vé Thường gấp đôi vé VIP, số vé Khuyến mãi bằng $\\frac{1}{2}$ vé VIP. Tỉ lệ doanh số về số lượng vé VIP là:",
         "options": [
-          "$\\frac{2}{7}$",
           "$\\frac{1}{3}$",
           "$\\frac{2}{5}$",
-          "$\\frac{1}{4}$"
+          "$\\frac{1}{4}$",
+          "$\\frac{2}{7}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
@@ -1621,8 +1621,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Sai lầm nào sau đây thường gặp nhất khi vẽ hoặc đọc biểu đồ hình quạt tròn?",
         "options": [
           "Tổng các tỉ lệ phần trăm ghi trên các quạt không bằng 100% hoặc vẽ sai tỉ lệ góc ở tâm",
-          "Dùng màu sắc khác nhau cho các quạt",
           "Ghi tên chú giải rõ ràng",
+          "Dùng màu sắc khác nhau cho các quạt",
           "Vẽ hình tròn bằng compa"
         ],
         "correct": 0
@@ -1784,12 +1784,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Biểu đồ đoạn thẳng thường được dùng để biểu diễn:",
         "options": [
-          "Sự thay đổi của một đại lượng theo thời gian",
           "Cơ cấu tỉ lệ các phần trong toàn bộ",
           "Sự phân bố không gian",
-          "Mức độ hài lòng của khách hàng"
+          "Mức độ hài lòng của khách hàng",
+          "Sự thay đổi của một đại lượng theo thời gian"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -1797,9 +1797,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Trên biểu đồ đoạn thẳng, trục nằm ngang (trục hoành) thường biểu diễn:",
         "options": [
           "Thời gian (ngày, tháng, năm, giờ,...)",
-          "Số lượng hoặc giá trị đo được",
           "Tên các địa danh",
-          "Tỉ lệ phần trăm"
+          "Tỉ lệ phần trăm",
+          "Số lượng hoặc giá trị đo được"
         ],
         "correct": 0
       },
@@ -1808,24 +1808,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Trên biểu đồ đoạn thẳng, trục thẳng đứng (trục tung) biểu diễn:",
         "options": [
+          "Tên đơn vị đo",
           "Đại lượng cần theo dõi (nhiệt độ, doanh thu, sản lượng,...)",
           "Thời gian theo dõi",
-          "Tên đơn vị đo",
           "Tiêu đề biểu đồ"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Khi đoạn thẳng đi lên từ trái sang phải, đại lượng có xu hướng:",
         "options": [
-          "Tăng lên",
-          "Giảm đi",
+          "Bằng không",
           "Không đổi",
-          "Bằng không"
+          "Tăng lên",
+          "Giảm đi"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -1833,9 +1833,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Khi đoạn thẳng nằm ngang song song với trục thời gian, đại lượng có xu hướng:",
         "options": [
           "Không thay đổi (giữ nguyên)",
-          "Tăng nhanh",
           "Giảm mạnh",
-          "Biến động mạnh"
+          "Biến động mạnh",
+          "Tăng nhanh"
         ],
         "correct": 0
       },
@@ -1845,8 +1845,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Một biểu đồ đoạn thẳng biểu diễn nhiệt độ trong tuần: Thứ Hai: $25^\\circ$C, Thứ Ba: $27^\\circ$C, Thứ Tư: $26^\\circ$C. Nhiệt độ ngày Thứ Ba tăng bao nhiêu độ C so với ngày Thứ Hai?",
         "options": [
           "$2^\\circ$C",
-          "$1^\\circ$C",
           "$3^\\circ$C",
+          "$1^\\circ$C",
           "$0^\\circ$C"
         ],
         "correct": 0
@@ -1856,72 +1856,72 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu đồ đoạn thẳng biểu diễn số học sinh giỏi của một trường qua 4 năm: Năm 1: 120 em, Năm 2: 135 em, Năm 3: 150 em, Năm 4: 165 em. Xu thế chung của số học sinh giỏi là:",
         "options": [
-          "Tăng đều qua các năm",
           "Giảm dần qua các năm",
+          "Tăng đều qua các năm",
           "Dao động thất thường",
           "Không đổi"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Quan sát biểu đồ chiều cao của bạn Nam từ 11 đến 14 tuổi: 11 tuổi: 140 cm, 12 tuổi: 146 cm, 13 tuổi: 153 cm, 14 tuổi: 161 cm. Trong độ tuổi nào bạn Nam tăng chiều cao nhiều nhất?",
         "options": [
-          "Từ 13 đến 14 tuổi (tăng 8 cm)",
-          "Từ 11 đến 12 tuổi",
           "Từ 12 đến 13 tuổi",
-          "Tăng đều nhau"
+          "Tăng đều nhau",
+          "Từ 13 đến 14 tuổi (tăng 8 cm)",
+          "Từ 11 đến 12 tuổi"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
         "level": "Thông hiểu",
         "question": "Nếu một biểu đồ đoạn thẳng biểu diễn doanh số bán hàng từ tháng 1 đến tháng 6 có đoạn nối giữa tháng 3 và tháng 4 dốc xuống, điều đó chứng tỏ:",
         "options": [
+          "Doanh số tháng 4 bằng 0",
           "Doanh số tháng 4 giảm so với tháng 3",
-          "Doanh số tháng 4 tăng so với tháng 3",
           "Doanh số tháng 4 bằng tháng 3",
-          "Doanh số tháng 4 bằng 0"
+          "Doanh số tháng 4 tăng so với tháng 3"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Số lượng xe đạp bán ra trong 3 tháng đầu năm: Tháng 1: 50 chiếc, Tháng 2: 40 chiếc, Tháng 3: 60 chiếc. Chênh lệch số xe bán được giữa tháng cao nhất và thấp nhất là:",
         "options": [
-          "$20$ chiếc",
+          "$15$ chiếc",
           "$10$ chiếc",
           "$30$ chiếc",
-          "$15$ chiếc"
+          "$20$ chiếc"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Biểu đồ đoạn thẳng biểu diễn điểm kiểm tra của An qua 4 lần: $7, 8, 8, 9$. Điểm trung bình của An qua 4 lần kiểm tra là:",
         "options": [
-          "$8{,}0$",
           "$8{,}25$",
-          "$7{,}75$",
-          "$8{,}5$"
+          "$8{,}5$",
+          "$8{,}0$",
+          "$7{,}75$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Nhiệt độ đo được lúc 6h, 12h, 18h trong ngày lần lượt là $20^\\circ$C, $32^\\circ$C, $26^\\circ$C. Độ chênh lệch nhiệt độ lớn nhất trong ngày là:",
         "options": [
-          "$12^\\circ$C",
-          "$6^\\circ$C",
           "$8^\\circ$C",
-          "$10^\\circ$C"
+          "$6^\\circ$C",
+          "$10^\\circ$C",
+          "$12^\\circ$C"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2080,36 +2080,36 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Biểu đồ đoạn thẳng kép thường được dùng để:",
         "options": [
-          "So sánh xu hướng phát triển của hai đối tượng theo cùng một mốc thời gian",
-          "Biểu diễn cơ cấu các phần trăm",
           "Tính diện tích hình tròn",
-          "Thay thế hoàn toàn bảng tần số"
+          "Biểu diễn cơ cấu các phần trăm",
+          "Thay thế hoàn toàn bảng tần số",
+          "So sánh xu hướng phát triển của hai đối tượng theo cùng một mốc thời gian"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Biểu đồ doanh thu của một cửa hàng 4 quý: Quý I: 80 triệu, Quý II: 100 triệu, Quý III: 90 triệu, Quý IV: 130 triệu. Quý nào có doanh thu tăng mạnh nhất so với quý trước đó?",
         "options": [
-          "Quý IV (tăng 40 triệu)",
           "Quý II (tăng 20 triệu)",
-          "Quý III",
-          "Quý I"
+          "Quý I",
+          "Quý IV (tăng 40 triệu)",
+          "Quý III"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Sản lượng lúa của một tỉnh trong 3 năm liên tiếp: Năm 2021: 1,2 triệu tấn; Năm 2022: 1,35 triệu tấn; Năm 2023: 1,5 triệu tấn. Sản lượng năm 2023 tăng bao nhiêu phần trăm so với năm 2021?",
         "options": [
-          "$25\\%$",
           "$20\\%$",
-          "$15\\%$",
-          "$30\\%$"
+          "$30\\%$",
+          "$25\\%$",
+          "$15\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2129,9 +2129,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Một người gửi tiết kiệm với số dư tài khoản qua 3 năm: Năm 1: 50 triệu; Năm 2: 55 triệu; Năm 3: 60,5 triệu. Lãi suất mỗi năm người đó nhận được là:",
         "options": [
           "$10\\%$/năm",
-          "$8\\%$/năm",
           "$5\\%$/năm",
-          "$12\\%$/năm"
+          "$12\\%$/năm",
+          "$8\\%$/năm"
         ],
         "correct": 0
       },
@@ -2140,48 +2140,48 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Khối lượng một con bê sơ sinh sau 4 tháng: Tháng 1: 25 kg, Tháng 2: 32 kg, Tháng 3: 40 kg, Tháng 4: 50 kg. Khối lượng trung bình mỗi tháng con bê tăng được là:",
         "options": [
-          "$8{,}33$ kg",
           "$7{,}5$ kg",
-          "$6{,}25$ kg",
-          "$9$ kg"
+          "$8{,}33$ kg",
+          "$9$ kg",
+          "$6{,}25$ kg"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Tỉ lệ thất nghiệp của một thành phố trong 4 năm: 2020: 3,5%, 2021: 4,2%, 2022: 3,8%, 2023: 3,0%. Năm nào có tỉ lệ thất nghiệp cao nhất?",
         "options": [
-          "Năm 2021",
           "Năm 2020",
+          "Năm 2023",
           "Năm 2022",
-          "Năm 2023"
+          "Năm 2021"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Số lượng người truy cập một trang web từ thứ Hai đến thứ Bảy: 200, 250, 300, 280, 350, 420. Trung vị của dãy số liệu trên là:",
         "options": [
+          "$275$",
           "$290$",
-          "$300$",
           "$280$",
-          "$275$"
+          "$300$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Một bạn học sinh theo dõi số trang sách đọc mỗi ngày trong 5 ngày: 15, 20, 25, 30, x. Biết trung bình mỗi ngày bạn đọc 24 trang. Giá trị của x là:",
         "options": [
+          "$20$",
           "$30$",
-          "$25$",
           "$35$",
-          "$20$"
+          "$25$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
@@ -2200,24 +2200,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Một người chạy bộ ghi lại thời gian hoàn thành cự ly 5 km qua 5 tuần: 30 phút, 28 phút, 27 phút, 25 phút, 24 phút. Nhận xét nào sau đây đúng về thành tích chạy của người đó?",
         "options": [
-          "Thành tích ngày càng tiến bộ vì thời gian chạy ngày càng rút ngắn",
           "Thành tích ngày càng kém đi vì số phút giảm",
+          "Thành tích không đổi",
           "Không thể nhận xét được",
-          "Thành tích không đổi"
+          "Thành tích ngày càng tiến bộ vì thời gian chạy ngày càng rút ngắn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Độ dốc của đoạn thẳng nối hai điểm $(t_1, y_1)$ và $(t_2, y_2)$ trên biểu đồ đoạn thẳng thể hiện:",
         "options": [
-          "Tốc độ thay đổi trung bình của đại lượng trong khoảng thời gian đó",
           "Giá trị tuyệt đối của đại lượng",
           "Sai số của phép đo",
+          "Tốc độ thay đổi trung bình của đại lượng trong khoảng thời gian đó",
           "Thời gian bắt đầu thí nghiệm"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2376,48 +2376,48 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khi muốn biểu diễn đồng thời số lượng sản phẩm xuất khẩu và giá trị kim ngạch thu về (hai đơn vị đo khác nhau) theo thời gian trên cùng một biểu đồ, người ta thường dùng:",
         "options": [
-          "Biểu đồ đoạn thẳng hai trục tung (hai trục tỉ lệ khác nhau)",
-          "Biểu đồ hình quạt tròn đơn",
           "Biểu đồ cột chồng",
-          "Biểu đồ tranh"
+          "Biểu đồ hình quạt tròn đơn",
+          "Biểu đồ tranh",
+          "Biểu đồ đoạn thẳng hai trục tung (hai trục tỉ lệ khác nhau)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Để làm nổi bật sự chênh lệch nhỏ giữa các giá trị lớn (ví dụ nhiệt độ cơ thể từ $36{,}5$ đến $39^\\circ$C), người ta nên làm gì trên trục tung?",
         "options": [
+          "Bỏ qua các giá trị thập phân",
           "Cắt gãy trục tung (bắt đầu từ giá trị gần 36 thay vì từ 0) kèm kí hiệu ngắt trục rõ ràng",
           "Kéo dài trục hoành gấp đôi",
-          "Đổi đơn vị đo sang độ F",
-          "Bỏ qua các giá trị thập phân"
+          "Đổi đơn vị đo sang độ F"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Vận dụng",
         "question": "Một cổ phiếu có giá đóng cửa qua 5 phiên liên tiếp: 50, 52, 48, 54, 60 (nghìn đồng). Mức thay đổi giá lớn nhất giữa hai phiên liền kề là:",
         "options": [
+          "Tăng $2$ nghìn đồng",
           "Tăng $6$ nghìn đồng (từ 54 lên 60)",
           "Giảm $4$ nghìn đồng",
-          "Tăng $2$ nghìn đồng",
           "Tăng $10$ nghìn đồng"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng",
         "question": "Dân số một thành phố qua 3 năm: 2021: 2,0 triệu; 2022: 2,04 triệu; 2023: 2,0808 triệu. Tốc độ gia tăng dân số hằng năm của thành phố là:",
         "options": [
-          "$2\\%$/năm",
-          "$4\\%$/năm",
           "$1\\%$/năm",
-          "$2{,}5\\%$/năm"
+          "$2{,}5\\%$/năm",
+          "$2\\%$/năm",
+          "$4\\%$/năm"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -2426,8 +2426,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "$14$ m/s",
           "$8$ m/s",
-          "$10$ m/s",
-          "$16$ m/s"
+          "$16$ m/s",
+          "$10$ m/s"
         ],
         "correct": 0
       },
@@ -2436,36 +2436,36 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Nồng độ bụi mịn PM2.5 tại một trạm quan trắc trong 6 giờ: 45, 55, 75, 80, 60, 45 (mcg/m$^3$). Số giờ nồng độ vượt ngưỡng an toàn (50 mcg/m$^3$) là:",
         "options": [
-          "$4$ giờ",
-          "$3$ giờ",
           "$5$ giờ",
-          "$2$ giờ"
+          "$3$ giờ",
+          "$2$ giờ",
+          "$4$ giờ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng",
         "question": "Biểu đồ đoạn thẳng ghi nhận lượng nước tiêu thụ của gia đình trong 4 tháng: 18, 22, 25, 20 ($m^3$). Giá nước là 10 000 đồng/$m^3$. Tổng số tiền nước 4 tháng là:",
         "options": [
-          "$850$ nghìn đồng",
-          "$800$ nghìn đồng",
           "$900$ nghìn đồng",
-          "$750$ nghìn đồng"
+          "$750$ nghìn đồng",
+          "$850$ nghìn đồng",
+          "$800$ nghìn đồng"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Nếu dữ liệu có tính chu kì (ví dụ doanh thu bán kem cao vào mùa hè và thấp vào mùa đông lặp lại hằng năm), biểu đồ đoạn thẳng nhiều năm sẽ có hình dạng:",
         "options": [
-          "Hình sóng lượn dao động tuần hoàn",
+          "Đường xoắn ốc",
           "Đường thẳng dốc đứng liên tục",
           "Đường nằm ngang tuyệt đối",
-          "Đường xoắn ốc"
+          "Hình sóng lượn dao động tuần hoàn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2484,24 +2484,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Một người đầu tư 100 triệu. Năm đầu lãi 20%, năm thứ hai lỗ 20%. Sau hai năm số tiền còn lại là:",
         "options": [
+          "$90$ triệu đồng",
           "$96$ triệu đồng",
-          "$100$ triệu đồng",
           "$104$ triệu đồng",
-          "$90$ triệu đồng"
+          "$100$ triệu đồng"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Để dự báo xu thế giá vàng trong tương lai gần dựa vào biểu đồ đoạn thẳng lịch sử 30 ngày qua, người ta sử dụng đường nào?",
         "options": [
-          "Đường xu thế (Trendline) hoặc trung bình động (Moving Average)",
-          "Đường bao ngoài",
+          "Đường phân giác",
           "Đường tiệm cận ngang",
-          "Đường phân giác"
+          "Đường xu thế (Trendline) hoặc trung bình động (Moving Average)",
+          "Đường bao ngoài"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2672,48 +2672,48 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?",
         "options": [
-          "Chiều cao của các học sinh trong lớp",
           "Tên các môn học yêu thích",
           "Xếp loại rèn luyện (Tốt, Khá, Đạt)",
-          "Màu sắc áo đồng phục"
+          "Màu sắc áo đồng phục",
+          "Chiều cao của các học sinh trong lớp"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Biểu đồ nào thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần trong một tổng thể?",
         "options": [
-          "Biểu đồ hình quạt tròn",
-          "Biểu đồ đoạn thẳng",
           "Biểu đồ tranh",
-          "Biểu đồ cột đơn"
+          "Biểu đồ cột đơn",
+          "Biểu đồ hình quạt tròn",
+          "Biểu đồ đoạn thẳng"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Biểu đồ nào thích hợp nhất để theo dõi sự biến đổi nhiệt độ trong một ngày theo thời gian?",
         "options": [
-          "Biểu đồ đoạn thẳng",
-          "Biểu đồ hình quạt tròn",
+          "Bảng dữ liệu chữ",
           "Biểu đồ tranh",
-          "Bảng dữ liệu chữ"
+          "Biểu đồ đoạn thẳng",
+          "Biểu đồ hình quạt tròn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Trong biểu đồ hình quạt tròn, góc ở tâm $90^\\circ$ biểu diễn bao nhiêu phần trăm tổng thể?",
         "options": [
-          "$25\\%$",
+          "$10\\%$",
           "$50\\%$",
           "$75\\%$",
-          "$10\\%$"
+          "$25\\%$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -2721,9 +2721,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Phương pháp nào sau đây là phương pháp thu thập dữ liệu gián tiếp?",
         "options": [
           "Tra cứu niên giám thống kê trên cổng thông tin điện tử",
-          "Phát phiếu hỏi trực tiếp",
+          "Phỏng vấn từng người",
           "Quan sát và ghi chép thí nghiệm",
-          "Phỏng vấn từng người"
+          "Phát phiếu hỏi trực tiếp"
         ],
         "correct": 0
       },
@@ -2732,12 +2732,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Dãy dữ liệu nào sau đây về điểm thi môn Toán (thang điểm 10) là hợp lí?",
         "options": [
-          "$6; 7; 8{,}5; 9; 10$",
           "$5; 11; 8; -1; 7$",
+          "$10; 8; 15; 9; 7$",
           "$8; 9; A; 7; 6$",
-          "$10; 8; 15; 9; 7$"
+          "$6; 7; 8{,}5; 9; 10$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -2745,9 +2745,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Lớp 7A có 40 học sinh. Biểu đồ quạt tròn cho biết tỉ lệ học sinh thích chơi bóng đá là $45\\%$. Số học sinh thích chơi bóng đá của lớp 7A là:",
         "options": [
           "$18$ học sinh",
-          "$20$ học sinh",
           "$16$ học sinh",
-          "$22$ học sinh"
+          "$22$ học sinh",
+          "$20$ học sinh"
         ],
         "correct": 0
       },
@@ -2758,8 +2758,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "$144^\\circ$",
           "$120^\\circ$",
-          "$100^\\circ$",
-          "$160^\\circ$"
+          "$160^\\circ$",
+          "$100^\\circ$"
         ],
         "correct": 0
       },
@@ -2768,48 +2768,48 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Nhiệt độ các ngày trong tuần: Thứ Hai: $28^\\circ$C, Thứ Ba: $30^\\circ$C, Thứ Tư: $29^\\circ$C, Thứ Năm: $32^\\circ$C. Ngày nào có nhiệt độ cao nhất?",
         "options": [
+          "Thứ Tư",
           "Thứ Năm",
           "Thứ Ba",
-          "Thứ Hai",
-          "Thứ Tư"
+          "Thứ Hai"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Khảo sát ý kiến của 50 học sinh về món ăn sáng: Bánh mì 25, Phở 15, Xôi 10. Tỉ lệ học sinh thích Bánh mì là:",
         "options": [
-          "$50\\%$",
+          "$40\\%$",
           "$30\\%$",
-          "$20\\%$",
-          "$40\\%$"
+          "$50\\%$",
+          "$20\\%$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng",
         "question": "Một tổ có 6 bạn có số điểm kiểm tra: $7; 8; 9; 8; 8; 8$. Điểm trung bình của tổ là:",
         "options": [
-          "$8{,}0$",
-          "$7{,}5$",
           "$8{,}2$",
-          "$8{,}5$"
+          "$8{,}0$",
+          "$8{,}5$",
+          "$7{,}5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng",
         "question": "Một gia đình có tổng thu nhập 15 triệu đồng/tháng. Biểu đồ quạt tròn cho biết tiền tiết kiệm chiếm 20%. Số tiền tiết kiệm mỗi tháng là:",
         "options": [
-          "$3$ triệu đồng",
           "$2$ triệu đồng",
-          "$4$ triệu đồng",
-          "$2{,}5$ triệu đồng"
+          "$3$ triệu đồng",
+          "$2{,}5$ triệu đồng",
+          "$4$ triệu đồng"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -2968,12 +2968,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Để biểu diễn số lượng học sinh giỏi các lớp 7A, 7B, 7C, 7D, loại biểu đồ nào sau đây là phù hợp nhất?",
         "options": [
-          "Biểu đồ cột",
           "Biểu đồ đoạn thẳng",
-          "Biểu đồ hình quạt tròn",
-          "Biểu đồ đám mây"
+          "Biểu đồ đám mây",
+          "Biểu đồ cột",
+          "Biểu đồ hình quạt tròn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -2982,8 +2982,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "$45\\%$",
           "$40\\%$",
-          "$50\\%$",
-          "$35\\%$"
+          "$35\\%$",
+          "$50\\%$"
         ],
         "correct": 0
       },
@@ -2992,12 +2992,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Một giải bóng đá có 8 đội thi đấu vòng tròn 1 lượt. Mỗi trận thắng được 3 điểm, hòa 1 điểm, thua 0 điểm. Dữ liệu \"số điểm của các đội sau giải\" thuộc loại:",
         "options": [
-          "Dữ liệu số rời rạc",
-          "Dữ liệu định tính",
+          "Dữ liệu không so sánh được",
           "Dữ liệu liên tục",
-          "Dữ liệu không so sánh được"
+          "Dữ liệu định tính",
+          "Dữ liệu số rời rạc"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -3005,9 +3005,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Biểu đồ đoạn thẳng ghi lại số ca khỏi bệnh Covid-19 trong một tuần có đoạn dốc đứng nhất vào ngày nào? Điều đó có ý nghĩa gì?",
         "options": [
           "Ngày có số ca khỏi bệnh tăng nhanh nhất so với ngày trước",
-          "Ngày có số ca khỏi bệnh thấp nhất",
           "Ngày không có ca khỏi bệnh nào",
-          "Ngày trạm y tế đóng cửa"
+          "Ngày trạm y tế đóng cửa",
+          "Ngày có số ca khỏi bệnh thấp nhất"
         ],
         "correct": 0
       },
@@ -3016,12 +3016,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cơ cấu chi phí sản xuất một sản phẩm gồm: Nguyên liệu 50%, Nhân công 30%, Khấu hao 15%, Chi khác 5%. Góc ở tâm biểu diễn chi phí Nguyên liệu là:",
         "options": [
-          "$180^\\circ$",
-          "$150^\\circ$",
+          "$90^\\circ$",
           "$120^\\circ$",
-          "$90^\\circ$"
+          "$180^\\circ$",
+          "$150^\\circ$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
@@ -3030,8 +3030,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "$110\\%$",
           "$100\\%$",
-          "$120\\%$",
-          "$90\\%$"
+          "$90\\%$",
+          "$120\\%$"
         ],
         "correct": 0
       },
@@ -3040,72 +3040,72 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Khảo sát thời gian xem tivi mỗi ngày của 5 học sinh: 1h, 1,5h, 2h, 2,5h, 3h. Thời gian xem trung bình của nhóm là:",
         "options": [
-          "$2$ giờ",
-          "$1{,}8$ giờ",
           "$2{,}2$ giờ",
-          "$2{,}5$ giờ"
+          "$1{,}8$ giờ",
+          "$2{,}5$ giờ",
+          "$2$ giờ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng",
         "question": "Trong biểu đồ quạt tròn, phần dành cho thể thao chiếm góc $108^\\circ$. Nếu có tổng cộng 500 bạn được khảo sát thì có bao nhiêu bạn chọn thể thao?",
         "options": [
+          "$180$ bạn",
           "$150$ bạn",
           "$120$ bạn",
-          "$180$ bạn",
           "$100$ bạn"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng",
         "question": "Cho dãy dữ liệu nhiệt độ: $25, 27, 26, 31, 28, 29$. Trung vị của dãy số liệu là:",
         "options": [
+          "$26{,}5$",
           "$27{,}5$",
-          "$27$",
           "$28$",
-          "$26{,}5$"
+          "$27$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng",
         "question": "Một người bán hàng lãi 15% trong tháng 1, lãi 25% trong tháng 2 so với vốn ban đầu không đổi. Mức tăng trưởng lợi nhuận của tháng 2 so với tháng 1 là:",
         "options": [
+          "$40\\%$",
           "$66{,}7\\%$",
           "$10\\%$",
-          "$50\\%$",
-          "$40\\%$"
+          "$50\\%$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Khi đọc biểu đồ đoạn thẳng, việc trục tung không xuất phát từ 0 mà không có kí hiệu ngắt trục có thể gây ra ảo giác gì?",
         "options": [
-          "Làm người đọc cảm thấy sự khác biệt giữa các số liệu bị phóng đại quá mức",
+          "Làm đổi chiều tăng giảm",
           "Làm cho số liệu trông nhỏ hơn thực tế",
           "Làm mất tính thời gian của số liệu",
-          "Làm đổi chiều tăng giảm"
+          "Làm người đọc cảm thấy sự khác biệt giữa các số liệu bị phóng đại quá mức"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một trường học có 1200 học sinh. Để chọn mẫu 60 học sinh khảo sát, người ta chọn ngẫu nhiên mỗi lớp 2 học sinh. Cách chọn mẫu này gọi là:",
         "options": [
-          "Chọn mẫu phân tầng ngẫu nhiên",
           "Chọn mẫu thuận tiện",
-          "Chọn mẫu tự nguyện",
-          "Chọn mẫu cụm"
+          "Chọn mẫu cụm",
+          "Chọn mẫu phân tầng ngẫu nhiên",
+          "Chọn mẫu tự nguyện"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -3264,24 +3264,24 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Khi muốn khảo sát ý kiến học sinh về việc đổi mới đồng phục, phương pháp chọn mẫu nào sau đây tránh được thiên vị giới tính và khối lớp nhất?",
         "options": [
-          "Chọn mẫu ngẫu nhiên phân tầng theo khối lớp và theo giới tính nam/nữ",
           "Phỏng vấn các bạn ở câu lạc bộ thời trang",
-          "Hỏi các bạn nữ trong trường",
-          "Lấy ý kiến đại diện của các bạn trong ban cán sự lớp"
+          "Lấy ý kiến đại diện của các bạn trong ban cán sự lớp",
+          "Chọn mẫu ngẫu nhiên phân tầng theo khối lớp và theo giới tính nam/nữ",
+          "Hỏi các bạn nữ trong trường"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Trong biểu đồ quạt tròn có 4 hình quạt A, B, C, D tỉ lệ thuận với các số $2, 3, 4, 6$. Số đo góc ở tâm của hình quạt lớn nhất là:",
         "options": [
+          "$160^\\circ$",
           "$144^\\circ$",
           "$120^\\circ$",
-          "$96^\\circ$",
-          "$160^\\circ$"
+          "$96^\\circ$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
@@ -3290,8 +3290,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "Giảm $1\\%$",
           "Không thay đổi",
-          "Tăng $1\\%$",
-          "Giảm $2\\%$"
+          "Giảm $2\\%$",
+          "Tăng $1\\%$"
         ],
         "correct": 0
       },
@@ -3302,8 +3302,8 @@ const CHAPTER5_TOAN7_EXAMS = {
         "options": [
           "$15$",
           "$25$",
-          "$16$",
-          "Không xác định"
+          "Không xác định",
+          "$16$"
         ],
         "correct": 0
       },
@@ -3312,12 +3312,12 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Biểu đồ đoạn thẳng kép ghi nhận doanh thu và chi phí của công ty qua 4 quý. Lợi nhuận đạt mức cao nhất khi:",
         "options": [
-          "Khoảng cách thẳng đứng từ điểm doanh thu xuống điểm chi phí là lớn nhất (doanh thu > chi phí)",
-          "Doanh thu cao nhất",
           "Chi phí thấp nhất",
-          "Doanh thu bằng chi phí"
+          "Doanh thu cao nhất",
+          "Doanh thu bằng chi phí",
+          "Khoảng cách thẳng đứng từ điểm doanh thu xuống điểm chi phí là lớn nhất (doanh thu > chi phí)"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -3325,9 +3325,9 @@ const CHAPTER5_TOAN7_EXAMS = {
         "question": "Một bể bơi ghi nhận lượng khách trong 4 ngày nghỉ lễ: 500, 650, 800, 950 người. Lượng khách trung bình mỗi ngày là:",
         "options": [
           "$725$ người",
-          "$700$ người",
+          "$800$ người",
           "$750$ người",
-          "$800$ người"
+          "$700$ người"
         ],
         "correct": 0
       },
@@ -3336,72 +3336,72 @@ const CHAPTER5_TOAN7_EXAMS = {
         "level": "Vận dụng",
         "question": "Biểu đồ quạt tròn biểu diễn 3 thành phần X, Y, Z. Biết diện tích hình quạt X bằng $\\frac{1}{3}$ hình quạt Y, hình quạt Y bằng $\\frac{1}{2}$ hình quạt Z. Góc ở tâm của hình quạt X là:",
         "options": [
-          "$36^\\circ$",
-          "$72^\\circ$",
+          "$144^\\circ$",
           "$108^\\circ$",
-          "$144^\\circ$"
+          "$72^\\circ$",
+          "$36^\\circ$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Cho bảng phân bố điểm thi môn Toán của 50 học sinh có trung bình là 7,2. Khi phát hiện một bài 4 điểm bị chấm nhầm thành 9 điểm và được sửa lại, điểm trung bình thực tế của lớp là:",
         "options": [
+          "$7{,}05$",
           "$7{,}1$",
-          "$7{,}0$",
           "$7{,}15$",
-          "$7{,}05$"
+          "$7{,}0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Một tam giác số liệu hình quạt tròn có 3 góc ở tâm tỉ lệ với $1 : 2 : 3$. Tỉ lệ phần trăm của hình quạt lớn nhất là:",
         "options": [
-          "$50\\%$",
+          "$45\\%$",
           "$60\\%$",
           "$33{,}3\\%$",
-          "$45\\%$"
+          "$50\\%$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Khi nghiên cứu mối quan hệ giữa chiều cao và cân nặng của học sinh, loại biểu đồ thích hợp nhất để nhận biết tương quan hai đại lượng là:",
         "options": [
-          "Biểu đồ phân tán (Scatter plot)",
           "Biểu đồ hình quạt tròn",
-          "Biểu đồ cột đơn",
-          "Biểu đồ tranh"
+          "Biểu đồ tranh",
+          "Biểu đồ phân tán (Scatter plot)",
+          "Biểu đồ cột đơn"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Cho dãy số: $2, 4, 6, 8, \\dots, 2n$ có trung bình cộng bằng 21. Giá trị của $n$ là:",
         "options": [
-          "$20$",
           "$21$",
+          "$20$",
           "$19$",
           "$22$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Một người quan sát thấy biểu đồ doanh thu một công ty có trục tung bắt đầu từ 90 đến 100 với bước nhảy 1 đơn vị. Đoạn thẳng dốc vọt lên trên biểu đồ thực tế thể hiện mức tăng trưởng:",
         "options": [
-          "Rất nhỏ (chỉ vài phần trăm) nhưng bị phóng đại trực quan do ngắt trục",
-          "Tăng trưởng đột biến hàng trăm phần trăm",
+          "Không có doanh thu",
           "Doanh thu bị giảm",
-          "Không có doanh thu"
+          "Rất nhỏ (chỉ vài phần trăm) nhưng bị phóng đại trực quan do ngắt trục",
+          "Tăng trưởng đột biến hàng trăm phần trăm"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

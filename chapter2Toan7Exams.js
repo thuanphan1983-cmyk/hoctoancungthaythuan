@@ -8,48 +8,48 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Số thập phân hữu hạn là số thập phân:",
         "options": [
-          "Có phần thập phân gồm hữu hạn chữ số",
+          "Không có phần nguyên",
           "Có phần thập phân gồm vô hạn chữ số lặp lại",
-          "Có phần thập phân không bao giờ dừng và không lặp lại",
-          "Không có phần nguyên"
+          "Có phần thập phân gồm hữu hạn chữ số",
+          "Có phần thập phân không bao giờ dừng và không lặp lại"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Chu kì của số thập phân vô hạn tuần hoàn $0,(3)$ là:",
         "options": [
-          "$3$",
-          "$0$",
+          "$33$",
           "$0,3$",
-          "$33$"
+          "$3$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?",
         "options": [
+          "$\\frac{4}{7}$",
           "$\\frac{3}{8}$",
-          "$\\frac{1}{3}$",
           "$\\frac{5}{6}$",
-          "$\\frac{4}{7}$"
+          "$\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Phân số nào sau đây viết được dưới dạng số thập phân vô hạn tuần hoàn?",
         "options": [
-          "$\\frac{1}{3}$",
           "$\\frac{3}{4}$",
           "$\\frac{7}{10}$",
+          "$\\frac{1}{3}$",
           "$\\frac{9}{20}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
@@ -57,9 +57,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Số $-1,2(45)$ có chu kì là:",
         "options": [
           "$45$",
-          "$245$",
+          "$4$",
           "$2$",
-          "$4$"
+          "$245$"
         ],
         "correct": 0
       },
@@ -68,12 +68,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Một phân số tối giản với mẫu dương viết được dưới dạng số thập phân hữu hạn khi mẫu số:",
         "options": [
-          "Không có ước nguyên tố nào khác 2 và 5",
-          "Chỉ có ước nguyên tố 3",
+          "Là một số lẻ bất kì",
           "Có ước nguyên tố 7",
-          "Là một số lẻ bất kì"
+          "Chỉ có ước nguyên tố 3",
+          "Không có ước nguyên tố nào khác 2 và 5"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
@@ -81,9 +81,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Viết phân số $\\frac{1}{6}$ dưới dạng số thập phân vô hạn tuần hoàn:",
         "options": [
           "$0,1(6)$",
-          "$0,(16)$",
           "$0,16$",
-          "$0,(6)$"
+          "$0,(6)$",
+          "$0,(16)$"
         ],
         "correct": 0
       },
@@ -93,9 +93,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Viết số thập phân vô hạn tuần hoàn $0,(4)$ dưới dạng phân số tối giản:",
         "options": [
           "$\\frac{4}{9}$",
+          "$\\frac{4}{99}$",
           "$\\frac{2}{5}$",
-          "$\\frac{4}{10}$",
-          "$\\frac{4}{99}$"
+          "$\\frac{4}{10}$"
         ],
         "correct": 0
       },
@@ -104,48 +104,48 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Viết số thập phân hữu hạn $0,35$ dưới dạng phân số tối giản:",
         "options": [
+          "$\\frac{35}{99}$",
           "$\\frac{7}{20}$",
           "$\\frac{35}{10}$",
-          "$\\frac{7}{25}$",
-          "$\\frac{35}{99}$"
+          "$\\frac{7}{25}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Số thập phân $0,1232323\\dots$ được viết gọn là:",
         "options": [
-          "$0,1(23)$",
           "$0,(123)$",
+          "$0,(23)$",
           "$0,12(3)$",
-          "$0,(23)$"
+          "$0,1(23)$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Làm tròn số $4,357$ đến chữ số thập phân thứ hai được kết quả là:",
         "options": [
-          "$4,36$",
           "$4,35$",
+          "$4,36$",
           "$4,40$",
           "$4,358$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Làm tròn số $12\\,450$ đến hàng trăm được kết quả là:",
         "options": [
-          "$12\\,500$",
-          "$12\\,400$",
           "$12\\,000$",
-          "$13\\,000$"
+          "$13\\,000$",
+          "$12\\,400$",
+          "$12\\,500$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -265,72 +265,72 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số thập phân vô hạn tuần hoàn $0,2(18)$ viết dưới dạng phân số tối giản là:",
         "options": [
-          "$\\frac{12}{55}$",
           "$\\frac{218}{990}$",
           "$\\frac{216}{990}$",
-          "$\\frac{24}{110}$"
+          "$\\frac{24}{110}$",
+          "$\\frac{12}{55}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Chữ số thập phân thứ 100 sau dấu phẩy của số $0,(142857)$ là:",
         "options": [
-          "$8$",
           "$4$",
           "$2$",
-          "$5$"
+          "$5$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tính: $A = 0,(3) + 0,(72) \\cdot 11$:",
         "options": [
-          "$\\frac{25}{3}$",
-          "$8$",
+          "$7$",
           "$\\frac{23}{3}$",
-          "$7$"
+          "$\\frac{25}{3}$",
+          "$8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm số tự nhiên $x < 10$ để phân số $\\frac{x}{12}$ viết được dưới dạng số thập phân hữu hạn:",
         "options": [
-          "$x \\in \\{3; 6; 9\\}$",
           "$x \\in \\{2; 4; 6\\}$",
-          "$x \\in \\{1; 3; 5\\}$",
-          "$x \\in \\{3; 6\\}$"
+          "$x \\in \\{3; 6; 9\\}$",
+          "$x \\in \\{3; 6\\}$",
+          "$x \\in \\{1; 3; 5\\}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $M = [0,(4) + 0,(5)] : 0,(3)$ là:",
         "options": [
-          "$3$",
-          "$1$",
+          "$2$",
           "$\\frac{9}{10}$",
-          "$2$"
+          "$3$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Cho $x = 0,2333\\dots$ và $y = 0,7666\\dots$ Tổng $x + y$ bằng:",
         "options": [
-          "$1$",
-          "$0,99$",
+          "$1,01$",
           "$0,9(9)$",
-          "$1,01$"
+          "$1$",
+          "$0,99$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 7,
@@ -338,9 +338,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Một người cân một túi hoa quả được $3,456\\text{ kg}$. Nếu cân có độ chính xác $d = 0,05\\text{ kg}$ thì kết quả làm tròn là:",
         "options": [
           "$3,5\\text{ kg}$",
+          "$3,45\\text{ kg}$",
           "$3,46\\text{ kg}$",
-          "$3,4\\text{ kg}$",
-          "$3,45\\text{ kg}$"
+          "$3,4\\text{ kg}$"
         ],
         "correct": 0
       },
@@ -350,8 +350,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Số thập phân vô hạn tuần hoàn $1,3(45)$ có thể biểu diễn dưới dạng hỗn số là:",
         "options": [
           "$1\\frac{19}{55}$",
-          "$1\\frac{345}{990}$",
           "$1\\frac{45}{99}$",
+          "$1\\frac{345}{990}$",
           "$1\\frac{38}{110}$"
         ],
         "correct": 0
@@ -373,36 +373,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $a$ nhỏ nhất có hai chữ số sao cho phân số $\\frac{a}{140}$ viết được dưới dạng số thập phân hữu hạn:",
         "options": [
-          "$14$",
-          "$21$",
+          "$35$",
           "$28$",
-          "$35$"
+          "$21$",
+          "$14$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tính giá trị biểu thức $B = \\frac{0,(3) + 0,(384615)}{0,(03) + 0,(0384615)}$:",
         "options": [
-          "$10$",
           "$1$",
-          "$100$",
-          "$\\frac{1}{10}$"
+          "$10$",
+          "$\\frac{1}{10}$",
+          "$100$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Ước lượng kết quả của phép tính $49,85 \\cdot 19,95$ bằng cách làm tròn các thừa số đến hàng đơn vị:",
         "options": [
-          "$1000$",
-          "$950$",
           "$1050$",
-          "$980$"
+          "$1000$",
+          "$980$",
+          "$950$"
         ],
-        "correct": 0
+        "correct": 1
       }
     ],
     "part2": [
@@ -522,36 +522,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Chữ số thập phân thứ 1000 sau dấu phẩy của số $\\frac{1}{13}$ là:",
         "options": [
-          "$6$",
-          "$0$",
           "$7$",
-          "$9$"
+          "$9$",
+          "$0$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Viết số $0,1(23)$ dưới dạng phân số tối giản $\\frac{a}{b}$. Hiệu $b - a$ là:",
         "options": [
-          "$868$",
-          "$870$",
           "$860$",
-          "$890$"
+          "$890$",
+          "$868$",
+          "$870$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu phân số tối giản có mẫu là 30, lớn hơn $0$ và nhỏ hơn $1$, viết được dưới dạng số thập phân hữu hạn?",
         "options": [
-          "$4$",
-          "$2$",
           "$6$",
-          "$8$"
+          "$8$",
+          "$4$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -559,9 +559,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Tính tổng $S = 0,(1) + 0,(2) + 0,(3) + \\dots + 0,(8)$:",
         "options": [
           "$4$",
-          "$\\frac{36}{10}$",
+          "$4,5$",
           "$\\frac{35}{9}$",
-          "$4,5$"
+          "$\\frac{36}{10}$"
         ],
         "correct": 0
       },
@@ -570,36 +570,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ nhỏ nhất sao cho phân số $\\frac{7}{n + 2}$ là số thập phân vô hạn tuần hoàn đơn (chu kì bắt đầu ngay sau dấu phẩy):",
         "options": [
-          "$n = 1$",
-          "$n = 7$",
           "$n = 9$",
-          "$n = 11$"
+          "$n = 11$",
+          "$n = 7$",
+          "$n = 1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $A = 0,(a)$ và $B = 0,(b)$ thỏa mãn $A + B = 1$. Giá trị của $a + b$ là:",
         "options": [
-          "$9$",
           "$10$",
+          "$9$",
           "$8$",
           "$11$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $P = \\frac{0,(4) + 0,(2) - 0,(12)}{0,(8) + 0,(4) - 0,(24)}$ là:",
         "options": [
-          "$\\frac{1}{2}$",
           "$1$",
-          "$2$",
-          "$\\frac{1}{4}$"
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{4}$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -607,8 +607,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Một số thập phân vô hạn tuần hoàn có dạng $0,(ab)$, biết $0,(ab) = \\frac{a+b}{9}$. Giá trị của $a \\cdot b$ là:",
         "options": [
           "Không tồn tại",
-          "$12$",
           "$18$",
+          "$12$",
           "$24$"
         ],
         "correct": 0
@@ -618,24 +618,24 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu số tự nhiên $a$ ($1 \\leq a \\leq 100$) sao cho phân số $\\frac{a}{60}$ viết được dưới dạng số thập phân hữu hạn?",
         "options": [
+          "$50$",
           "$33$",
           "$34$",
-          "$20$",
-          "$50$"
+          "$20$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Tìm chữ số thập phân thứ 2026 của số $\\frac{5}{14}$ sau dấu phẩy:",
         "options": [
-          "$5$",
           "$7$",
           "$1$",
-          "$4$"
+          "$4$",
+          "$5$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 11,
@@ -643,9 +643,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Cho $x = 0,(123)$ và $y = 0,(321)$. Tổng $x + y$ bằng phân số tối giản:",
         "options": [
           "$\\frac{148}{333}$",
-          "$\\frac{444}{999}$",
+          "$\\frac{14}{33}$",
           "$\\frac{4}{9}$",
-          "$\\frac{14}{33}$"
+          "$\\frac{444}{999}$"
         ],
         "correct": 0
       },
@@ -654,12 +654,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tích của $0,(3)$ và $0,(6)$ bằng:",
         "options": [
-          "$\\frac{2}{9}$",
+          "$\\frac{2}{3}$",
           "$\\frac{1}{5}$",
-          "$0,(18)$",
-          "$\\frac{2}{3}$"
+          "$\\frac{2}{9}$",
+          "$0,(18)$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -779,60 +779,60 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Số vô tỉ là số được viết dưới dạng:",
         "options": [
-          "Số thập phân vô hạn không tuần hoàn",
-          "Số thập phân hữu hạn",
+          "Phân số $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}$",
           "Số thập phân vô hạn tuần hoàn",
-          "Phân số $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}$"
+          "Số thập phân hữu hạn",
+          "Số thập phân vô hạn không tuần hoàn"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tập hợp các số vô tỉ được kí hiệu là:",
         "options": [
-          "$\\mathbb{I}$",
           "$\\mathbb{Q}$",
           "$\\mathbb{Z}$",
-          "$\\mathbb{R}$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Căn bậc hai số học của số $a$ không âm kí hiệu là $\\sqrt{a}$ là số $x \\geq 0$ sao cho:",
         "options": [
-          "$x^2 = a$",
-          "$x = a^2$",
+          "$x^2 = -a$",
           "$2x = a$",
-          "$x^2 = -a$"
+          "$x = a^2$",
+          "$x^2 = a$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Căn bậc hai số học của 25 là:",
         "options": [
-          "$5$",
-          "$-5$",
           "$\\pm 5$",
+          "$-5$",
+          "$5$",
           "$625$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là SAI?",
         "options": [
+          "$\\sqrt{0} = 0$",
           "$\\sqrt{-16} = 4$",
           "$\\sqrt{16} = 4$",
-          "$\\sqrt{0} = 0$",
           "$\\sqrt{1} = 1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
@@ -840,9 +840,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Số nào sau đây là số vô tỉ?",
         "options": [
           "$\\sqrt{2}$",
-          "$\\sqrt{4}$",
           "$0,(3)$",
-          "$-\\frac{3}{5}$"
+          "$-\\frac{3}{5}$",
+          "$\\sqrt{4}$"
         ],
         "correct": 0
       },
@@ -851,12 +851,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $\\sqrt{81} - \\sqrt{36}$ là:",
         "options": [
-          "$3$",
+          "$45$",
           "$9$",
-          "$6$",
-          "$45$"
+          "$3$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -864,8 +864,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết $\\sqrt{x} = 4$:",
         "options": [
           "$x = 16$",
-          "$x = 2$",
           "$x = 8$",
+          "$x = 2$",
           "$x = \\pm 16$"
         ],
         "correct": 0
@@ -875,36 +875,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "So sánh 3 và $\\sqrt{8}$:",
         "options": [
-          "$3 > \\sqrt{8}$",
           "$3 < \\sqrt{8}$",
+          "$3 > \\sqrt{8}$",
           "$3 = \\sqrt{8}$",
           "Không so sánh được"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $\\sqrt{0,49}$ là:",
         "options": [
-          "$0,7$",
           "$0,07$",
           "$7$",
+          "$0,7$",
           "$0,049$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "Một mảnh đất hình vuông có diện tích $64\\text{ m}^2$. Độ dài cạnh của mảnh đất đó là:",
         "options": [
-          "$8\\text{ m}$",
-          "$16\\text{ m}$",
           "$32\\text{ m}$",
-          "$4\\text{ m}$"
+          "$8\\text{ m}$",
+          "$4\\text{ m}$",
+          "$16\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
@@ -912,9 +912,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Dùng máy tính cầm tay tính $\\sqrt{7}$ và làm tròn đến chữ số thập phân thứ hai:",
         "options": [
           "$2,65$",
+          "$2,70$",
           "$2,64$",
-          "$2,60$",
-          "$2,70$"
+          "$2,60$"
         ],
         "correct": 0
       }
@@ -1037,9 +1037,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $\\sqrt{3^2 + 4^2}$ là:",
         "options": [
           "$5$",
+          "$1$",
           "$7$",
-          "$25$",
-          "$1$"
+          "$25$"
         ],
         "correct": 0
       },
@@ -1048,72 +1048,72 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số nào sau đây lớn hơn $5$?",
         "options": [
-          "$\\sqrt{26}$",
-          "$\\sqrt{24}$",
           "$\\sqrt{25}$",
+          "$\\sqrt{24}$",
+          "$\\sqrt{26}$",
           "$\\sqrt{20}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $x^2 = 7$ và $x > 0$:",
         "options": [
-          "$x = \\sqrt{7}$",
-          "$x = 49$",
           "$x = 3,5$",
-          "$x = -\\sqrt{7}$"
+          "$x = \\sqrt{7}$",
+          "$x = -\\sqrt{7}$",
+          "$x = 49$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $P = \\sqrt{\\frac{4}{9}} + \\sqrt{\\frac{25}{36}} - \\sqrt{\\frac{1}{4}}$ là:",
         "options": [
-          "$1$",
-          "$\\frac{2}{3}$",
           "$\\frac{5}{6}$",
-          "$\\frac{1}{2}$"
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Tìm $x$ biết: $\\sqrt{2x + 1} = 5$:",
         "options": [
-          "$x = 12$",
-          "$x = 24$",
+          "$x = 13$",
           "$x = 2$",
-          "$x = 13$"
+          "$x = 24$",
+          "$x = 12$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Có bao nhiêu số tự nhiên $x$ thỏa mãn $\\sqrt{x} < 3$?",
         "options": [
-          "$9$",
           "$8$",
-          "$10$",
-          "$4$"
+          "$9$",
+          "$4$",
+          "$10$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "So sánh $\\sqrt{17} + \\sqrt{26}$ với $9$:",
         "options": [
+          "Không so sánh được",
           "$\\sqrt{17} + \\sqrt{26} > 9$",
-          "$\\sqrt{17} + \\sqrt{26} < 9$",
           "$\\sqrt{17} + \\sqrt{26} = 9$",
-          "Không so sánh được"
+          "$\\sqrt{17} + \\sqrt{26} < 9$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
@@ -1132,12 +1132,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = \\sqrt{x - 3} + 5$:",
         "options": [
-          "$5$",
           "$3$",
           "$0$",
+          "$5$",
           "$8$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
@@ -1156,24 +1156,24 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số nguyên $x$ lớn nhất thỏa mãn $\\sqrt{x} < 4,5$ là:",
         "options": [
-          "$20$",
-          "$19$",
           "$16$",
-          "$21$"
+          "$19$",
+          "$21$",
+          "$20$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $M = \\sqrt{1 + 2 + 3 + 4 + 5 + 4 + 3 + 2 + 1}$ là:",
         "options": [
-          "$5$",
-          "$25$",
           "$15$",
+          "$25$",
+          "$5$",
           "$4$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -1293,12 +1293,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số các số nguyên $x$ thỏa mãn $4 \\leq \\sqrt{x} \\leq 7$ là:",
         "options": [
-          "$34$",
           "$33$",
-          "$3$",
-          "$49$"
+          "$49$",
+          "$34$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 2,
@@ -1306,9 +1306,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "So sánh $\\sqrt{2024} - \\sqrt{2023}$ và $\\sqrt{2023} - \\sqrt{2022}$:",
         "options": [
           "$\\sqrt{2024} - \\sqrt{2023} < \\sqrt{2023} - \\sqrt{2022}$",
-          "$\\sqrt{2024} - \\sqrt{2023} > \\sqrt{2023} - \\sqrt{2022}$",
+          "Không so sánh được",
           "Hai biểu thức bằng nhau",
-          "Không so sánh được"
+          "$\\sqrt{2024} - \\sqrt{2023} > \\sqrt{2023} - \\sqrt{2022}$"
         ],
         "correct": 0
       },
@@ -1317,96 +1317,96 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Biểu thức $\\sqrt{(\\sqrt{3} - 2)^2}$ có giá trị bằng:",
         "options": [
-          "$2 - \\sqrt{3}$",
           "$\\sqrt{3} - 2$",
           "$1$",
-          "$\\pm(2 - \\sqrt{3})$"
+          "$\\pm(2 - \\sqrt{3})$",
+          "$2 - \\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ sao cho $\\sqrt{n^2 + 5}$ là một số nguyên:",
         "options": [
-          "$n = 2$",
           "$n = 1$",
-          "$n = 3$",
-          "Không tồn tại"
+          "$n = 2$",
+          "Không tồn tại",
+          "$n = 3$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $P = \\sqrt{x - 1} + \\sqrt{5 - x}$ là:",
         "options": [
+          "$4$",
           "$2$",
           "$\\sqrt{2}$",
-          "$0$",
-          "$4$"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $x = \\sqrt{3 + 2\\sqrt{2}} - \\sqrt{3 - 2\\sqrt{2}}$. Giá trị của $x$ là:",
         "options": [
+          "$0$",
           "$2$",
-          "$\\sqrt{2}$",
           "$2\\sqrt{2}$",
-          "$0$"
+          "$\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các giá trị của $x$ thỏa mãn: $\\sqrt{x + 2\\sqrt{x-1}} + \\sqrt{x - 2\\sqrt{x-1}} = 2$:",
         "options": [
-          "$1 \\leq x \\leq 2$",
           "$x = 2$",
           "$x \\geq 2$",
-          "$x = 1$"
+          "$x = 1$",
+          "$1 \\leq x \\leq 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Số nghiệm nguyên dương của phương trình $\\sqrt{x} + \\sqrt{y} = \\sqrt{18}$ là:",
         "options": [
-          "$2$",
-          "$1$",
           "$3$",
-          "$0$"
+          "$0$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $A = \\sqrt{1 + 2024^2 + \\frac{2024^2}{2025^2}} + \\frac{2024}{2025}$. Giá trị của $A$ là:",
         "options": [
-          "$2025$",
           "$2024$",
           "$1$",
+          "$2025$",
           "$2026$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Chứng minh $\\sqrt{3}$ là số vô tỉ. Phát biểu nào sau đây đúng?",
         "options": [
-          "Chứng minh bằng phương pháp phản chứng",
           "$\\sqrt{3}$ viết được dưới dạng phân số",
-          "$\\sqrt{3}$ là số tự nhiên",
-          "$\\sqrt{3}$ là số thập phân hữu hạn"
+          "$\\sqrt{3}$ là số thập phân hữu hạn",
+          "Chứng minh bằng phương pháp phản chứng",
+          "$\\sqrt{3}$ là số tự nhiên"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -1414,8 +1414,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Tìm giá trị lớn nhất của biểu thức $M = 6 - \\sqrt{x^2 - 4x + 7}$:",
         "options": [
           "$6 - \\sqrt{3}$",
-          "$6$",
           "$\\sqrt{3}$",
+          "$6$",
           "Không có giá trị lớn nhất"
         ],
         "correct": 0
@@ -1426,9 +1426,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Biết $\\sqrt{x} + \\frac{1}{\\sqrt{x}} = 3$. Giá trị của $x + \\frac{1}{x}$ là:",
         "options": [
           "$7$",
-          "$9$",
+          "$6$",
           "$11$",
-          "$6$"
+          "$9$"
         ],
         "correct": 0
       }
@@ -1550,36 +1550,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Tập hợp các số thực bao gồm:",
         "options": [
-          "Số hữu tỉ và số vô tỉ",
+          "Số tự nhiên và số nguyên",
           "Chỉ các số hữu tỉ",
           "Chỉ các số vô tỉ",
-          "Số tự nhiên và số nguyên"
+          "Số hữu tỉ và số vô tỉ"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Nhận biết",
         "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
+          "$\\mathbb{Z}$",
           "$\\mathbb{R}$",
           "$\\mathbb{Q}$",
-          "$\\mathbb{I}$",
-          "$\\mathbb{Z}$"
+          "$\\mathbb{I}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Số đối của số thực $-\\sqrt{5}$ là:",
         "options": [
-          "$\\sqrt{5}$",
-          "$-\\sqrt{5}$",
           "$5$",
-          "$-5$"
+          "$-\\sqrt{5}$",
+          "$-5$",
+          "$\\sqrt{5}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 4,
@@ -1587,9 +1587,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Giá trị tuyệt đối của số thực $x$ (kí hiệu $|x|$) là:",
         "options": [
           "Khoảng cách từ điểm $x$ đến điểm gốc 0 trên trục số",
-          "Chính số $x$",
+          "Bình phương của $x$",
           "Số đối của $x$",
-          "Bình phương của $x$"
+          "Chính số $x$"
         ],
         "correct": 0
       },
@@ -1598,48 +1598,48 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Giá trị của $|-3,5|$ là:",
         "options": [
-          "$3,5$",
           "$-3,5$",
-          "$0$",
-          "$7$"
+          "$3,5$",
+          "$7$",
+          "$0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 6,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là SAI?",
         "options": [
+          "$\\mathbb{I} \\subset \\mathbb{R}$",
           "$\\mathbb{R} \\subset \\mathbb{Q}$",
           "$\\mathbb{Q} \\subset \\mathbb{R}$",
-          "$\\mathbb{I} \\subset \\mathbb{R}$",
           "$\\mathbb{Z} \\subset \\mathbb{R}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Thông hiểu",
         "question": "So sánh hai số thực $-1,41$ và $-\\sqrt{2}$:",
         "options": [
-          "$-1,41 > -\\sqrt{2}$",
           "$-1,41 < -\\sqrt{2}$",
-          "$-1,41 = -\\sqrt{2}$",
-          "Không so sánh được"
+          "Không so sánh được",
+          "$-1,41 > -\\sqrt{2}$",
+          "$-1,41 = -\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $|x| = 2,5$:",
         "options": [
-          "$x = 2,5$ hoặc $x = -2,5$",
-          "$x = 2,5$",
           "$x = -2,5$",
-          "$x = 5$"
+          "$x = 5$",
+          "$x = 2,5$ hoặc $x = -2,5$",
+          "$x = 2,5$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 9,
@@ -1647,9 +1647,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Trong các số sau: $-3;\\ 0;\\ \\sqrt{2};\\ -\\frac{5}{2};\\ \\pi$, có bao nhiêu số thực dương?",
         "options": [
           "$2$",
-          "$3$",
           "$1$",
-          "$4$"
+          "$4$",
+          "$3$"
         ],
         "correct": 0
       },
@@ -1659,9 +1659,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Sắp xếp theo thứ tự giảm dần: $-2;\\ 0;\\ \\sqrt{5};\\ -\\frac{7}{3}$:",
         "options": [
           "$\\sqrt{5} > 0 > -2 > -\\frac{7}{3}$",
-          "$\\sqrt{5} > 0 > -\\frac{7}{3} > -2$",
           "$0 > \\sqrt{5} > -2 > -\\frac{7}{3}$",
-          "$-\\frac{7}{3} > -2 > 0 > \\sqrt{5}$"
+          "$-\\frac{7}{3} > -2 > 0 > \\sqrt{5}$",
+          "$\\sqrt{5} > 0 > -\\frac{7}{3} > -2$"
         ],
         "correct": 0
       },
@@ -1670,24 +1670,24 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $|-\\sqrt{9}| + |4|$ là:",
         "options": [
-          "$7$",
-          "$1$",
           "$-7$",
+          "$1$",
+          "$7$",
           "$-1$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Điểm biểu diễn các số thực lấp đầy:",
         "options": [
-          "Toàn bộ trục số",
-          "Chỉ các điểm chia hết",
           "Chỉ nửa trục số dương",
-          "Chỉ các số nguyên"
+          "Chỉ các điểm chia hết",
+          "Chỉ các số nguyên",
+          "Toàn bộ trục số"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -1807,84 +1807,84 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Cho $x = -2,5$. Giá trị của biểu thức $P = -|x| + 3,5$ là:",
         "options": [
-          "$1$",
-          "$6$",
           "$-1$",
-          "$-6$"
+          "$-6$",
+          "$6$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $|x - 2| = 3$:",
         "options": [
+          "$x = 1$ hoặc $x = -5$",
           "$x = 5$ hoặc $x = -1$",
           "$x = 5$",
-          "$x = -1$",
-          "$x = 1$ hoặc $x = -5$"
+          "$x = -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "Trong các số: $-\\sqrt{3};\\ -1,7;\\ 0;\\ \\sqrt{5};\\ 2,236$, số thực nhỏ nhất là:",
         "options": [
-          "$-\\sqrt{3}$",
-          "$-1,7$",
+          "$\\sqrt{5}$",
           "$0$",
-          "$\\sqrt{5}$"
+          "$-\\sqrt{3}$",
+          "$-1,7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Vận dụng thấp",
         "question": "Tìm tất cả các giá trị của $x$ thỏa mãn $|x| = -x$:",
         "options": [
+          "$x \\geq 0$",
           "$x \\leq 0$",
-          "$x < 0$",
           "$x = 0$",
-          "$x \\geq 0$"
+          "$x < 0$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 5,
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $A = |x - 1| + |2 - x|$ khi $1 \\leq x \\leq 2$ là:",
         "options": [
-          "$1$",
-          "$2x - 3$",
+          "Không đổi bằng $3$",
           "$3 - 2x$",
-          "Không đổi bằng $3$"
+          "$1$",
+          "$2x - 3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng thấp",
         "question": "Số các số nguyên $x$ thỏa mãn $|x| < \\sqrt{17}$ là:",
         "options": [
-          "$9$",
           "$8$",
+          "$9$",
           "$4$",
           "$5$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng thấp",
         "question": "Biểu thức $B = \\sqrt{(2 - \\sqrt{5})^2}$ rút gọn được kết quả là:",
         "options": [
-          "$\\sqrt{5} - 2$",
           "$2 - \\sqrt{5}$",
+          "$-1$",
           "$3$",
-          "$-1$"
+          "$\\sqrt{5} - 2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 8,
@@ -1892,9 +1892,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết $|2x - 3| - 1 = 4$:",
         "options": [
           "$x = 4$ hoặc $x = -1$",
-          "$x = 4$",
+          "$x = 3$ hoặc $x = -2$",
           "$x = -1$",
-          "$x = 3$ hoặc $x = -2$"
+          "$x = 4$"
         ],
         "correct": 0
       },
@@ -1905,8 +1905,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "options": [
           "$1,2$",
           "$3,5$",
-          "$4,7$",
-          "$0$"
+          "$0$",
+          "$4,7$"
         ],
         "correct": 0
       },
@@ -1927,24 +1927,24 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số nghiệm của phương trình $|x - 1| + |x - 4| = 2$ là:",
         "options": [
-          "$0$",
+          "Vô số",
           "$1$",
           "$2$",
-          "Vô số"
+          "$0$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Giá trị lớn nhất của biểu thức $Q = 10 - |2x - 6|$ là:",
         "options": [
-          "$10$",
-          "$6$",
           "$4$",
-          "Không có giá trị lớn nhất"
+          "Không có giá trị lớn nhất",
+          "$10$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2064,48 +2064,48 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 1| + |x - 2024|$:",
         "options": [
-          "$2023$",
-          "$2024$",
+          "$1$",
           "$0$",
-          "$1$"
+          "$2024$",
+          "$2023$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Vận dụng thấp",
         "question": "Số nghiệm thực của phương trình $|x - 2| + |2x - 4| = 9$ là:",
         "options": [
-          "$2$",
-          "$1$",
+          "Vô số",
           "$0$",
-          "Vô số"
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Vận dụng thấp",
         "question": "Rút gọn biểu thức $M = \\sqrt{7 + 4\\sqrt{3}} - \\sqrt{7 - 4\\sqrt{3}}$ ta được kết quả là:",
         "options": [
-          "$4$",
           "$2\\sqrt{3}$",
-          "$2$",
-          "$0$"
+          "$4$",
+          "$0$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 4,
         "level": "Vận dụng cao",
         "question": "Cho $x, y$ là các số thực thỏa mãn $(x - 1)^2 + |x + y - 3| = 0$. Giá trị của $x \\cdot y$ là:",
         "options": [
-          "$2$",
-          "$-2$",
           "$3$",
-          "$1$"
+          "$-2$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
@@ -2113,9 +2113,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Giá trị nhỏ nhất của biểu thức $P = |x - 1| + |x - 2| + |x - 3| + |x - 4|$ là:",
         "options": [
           "$4$",
+          "$5$",
           "$3$",
-          "$6$",
-          "$5$"
+          "$6$"
         ],
         "correct": 0
       },
@@ -2124,24 +2124,24 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các số thực $x$ thỏa mãn: $|x + 1| + |x - 2| = 3$:",
         "options": [
-          "$-1 \\leq x \\leq 2$",
           "$x = -1$ hoặc $x = 2$",
+          "$-1 \\leq x \\leq 2$",
           "$x \\geq 2$",
           "$x \\leq -1$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Biết $A = \\sqrt{2 + \\sqrt{2 + \\sqrt{2 + \\dots}}}$ (vô hạn dấu căn). Giá trị của $A$ bằng:",
         "options": [
-          "$2$",
-          "$\\sqrt{2}$",
           "$4$",
-          "$1$"
+          "$1$",
+          "$2$",
+          "$\\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
@@ -2149,9 +2149,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Cho $a, b, c$ là ba số thực thỏa mãn $a + b + c = 0$ và $a, b, c \\neq 0$. Biểu thức $T = \\frac{|a|}{a} + \\frac{|b|}{b} + \\frac{|c|}{c} + \\frac{|abc|}{abc}$ có thể nhận các giá trị là:",
         "options": [
           "$0$",
-          "$4$",
           "$-4$",
-          "$-2$"
+          "$-2$",
+          "$4$"
         ],
         "correct": 0
       },
@@ -2160,36 +2160,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm giá trị lớn nhất của biểu thức $B = \\frac{12}{|x - 2| + 3}$:",
         "options": [
-          "$4$",
+          "Không tồn tại",
           "$12$",
-          "$3$",
-          "Không tồn tại"
+          "$4$",
+          "$3$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Cho $x, y$ là các số thực thỏa mãn $|x| + |y| = 1$. Giá trị lớn nhất của $x^2 + y^2$ là:",
         "options": [
+          "$\\frac{1}{4}$",
           "$1$",
-          "$2$",
           "$\\frac{1}{2}$",
-          "$\\frac{1}{4}$"
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Tìm nghiệm nguyên dương của phương trình: $\\sqrt{x} + \\sqrt{y} = \\sqrt{20}$:",
         "options": [
-          "$(x; y) = (5; 5)$",
+          "Vô nghiệm",
           "$(x; y) = (4; 16)$",
-          "$(x; y) = (1; 19)$",
-          "Vô nghiệm"
+          "$(x; y) = (5; 5)$",
+          "$(x; y) = (1; 19)$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
@@ -2323,8 +2323,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "options": [
           "$\\sqrt{3}$",
           "$\\sqrt{9}$",
-          "$0,(5)$",
-          "$-\\frac{4}{7}$"
+          "$-\\frac{4}{7}$",
+          "$0,(5)$"
         ],
         "correct": 0
       },
@@ -2333,60 +2333,60 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Nhận biết",
         "question": "Căn bậc hai số học của 36 là:",
         "options": [
-          "$6$",
           "$-6$",
           "$\\pm 6$",
-          "$18$"
+          "$18$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 3,
         "level": "Nhận biết",
         "question": "Khẳng định nào sau đây là đúng?",
         "options": [
-          "$\\sqrt{a}$ có nghĩa khi và chỉ khi $a \\geq 0$",
-          "Số âm cũng có căn bậc hai số học",
+          "$\\sqrt{0}$ không xác định",
           "$\\sqrt{a^2} = a$ với mọi số thực $a$",
-          "$\\sqrt{0}$ không xác định"
+          "$\\sqrt{a}$ có nghĩa khi và chỉ khi $a \\geq 0$",
+          "Số âm cũng có căn bậc hai số học"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
         "level": "Nhận biết",
         "question": "Giá trị tuyệt đối của $-4,7$ là:",
         "options": [
-          "$4,7$",
-          "$-4,7$",
           "$0$",
-          "$9,4$"
+          "$9,4$",
+          "$4,7$",
+          "$-4,7$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 5,
         "level": "Nhận biết",
         "question": "Số đối của $\\sqrt{7}$ là:",
         "options": [
-          "$-\\sqrt{7}$",
           "$\\sqrt{7}$",
+          "$-7$",
           "$7$",
-          "$-7$"
+          "$-\\sqrt{7}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
         "level": "Thông hiểu",
         "question": "Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?",
         "options": [
-          "$\\frac{7}{25}$",
-          "$\\frac{5}{6}$",
           "$\\frac{2}{7}$",
-          "$\\frac{1}{9}$"
+          "$\\frac{7}{25}$",
+          "$\\frac{1}{9}$",
+          "$\\frac{5}{6}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 7,
@@ -2394,9 +2394,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Giá trị của biểu thức $\\sqrt{49} - \\sqrt{16}$ là:",
         "options": [
           "$3$",
+          "$33$",
           "$7$",
-          "$4$",
-          "$33$"
+          "$4$"
         ],
         "correct": 0
       },
@@ -2405,12 +2405,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết: $\\sqrt{x} = 5$:",
         "options": [
-          "$x = 25$",
+          "$x = 10$",
           "$x = \\pm 25$",
           "$x = \\sqrt{5}$",
-          "$x = 10$"
+          "$x = 25$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 9,
@@ -2418,8 +2418,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Làm tròn số $7,846$ đến hàng phần mười được kết quả là:",
         "options": [
           "$7,8$",
-          "$7,9$",
           "$7,85$",
+          "$7,9$",
           "$8$"
         ],
         "correct": 0
@@ -2429,36 +2429,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Số thập phân vô hạn tuần hoàn $0,(5)$ viết dưới dạng phân số tối giản là:",
         "options": [
+          "$\\frac{5}{10}$",
           "$\\frac{5}{9}$",
           "$\\frac{1}{2}$",
-          "$\\frac{5}{10}$",
           "$\\frac{5}{99}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Thông hiểu",
         "question": "So sánh $\\sqrt{15}$ và $4$:",
         "options": [
-          "$\\sqrt{15} < 4$",
           "$\\sqrt{15} > 4$",
+          "$\\sqrt{15} < 4$",
           "$\\sqrt{15} = 4$",
           "Không so sánh được"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 12,
         "level": "Thông hiểu",
         "question": "Một hình vuông có diện tích $81\\text{ cm}^2$. Chu vi hình vuông đó là:",
         "options": [
-          "$36\\text{ cm}$",
+          "$81\\text{ cm}$",
           "$9\\text{ cm}$",
-          "$18\\text{ cm}$",
-          "$81\\text{ cm}$"
+          "$36\\text{ cm}$",
+          "$18\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [
@@ -2578,36 +2578,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Giá trị của biểu thức $A = \\sqrt{25} - \\sqrt{\\frac{16}{9}} + | -1,5 |$ là:",
         "options": [
-          "$\\frac{31}{6}$",
-          "$\\frac{23}{6}$",
           "$5$",
-          "$\\frac{13}{6}$"
+          "$\\frac{23}{6}$",
+          "$\\frac{13}{6}$",
+          "$\\frac{31}{6}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
         "level": "Thông hiểu",
         "question": "Tìm $x$ biết $x^2 = 18$ và $x > 0$:",
         "options": [
-          "$x = 3\\sqrt{2}$",
           "$x = 9$",
+          "$x = 3\\sqrt{2}$",
           "$x = 6$",
           "$x = 2\\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 3,
         "level": "Thông hiểu",
         "question": "So sánh hai số thực $a = \\sqrt{29}$ và $b = 5,4$:",
         "options": [
-          "$a < b$",
           "$a > b$",
           "$a = b$",
+          "$a < b$",
           "Không so sánh được"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 4,
@@ -2615,8 +2615,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Tìm $x$ biết: $\\sqrt{3x - 2} = 4$:",
         "options": [
           "$x = 6$",
-          "$x = 2$",
           "$x = 18$",
+          "$x = 2$",
           "$x = 5$"
         ],
         "correct": 0
@@ -2626,12 +2626,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Giá trị của biểu thức $P = \\sqrt{(3 - \\sqrt{7})^2} + \\sqrt{7}$ là:",
         "options": [
-          "$3$",
+          "$\\sqrt{7}$",
           "$2\\sqrt{7} - 3$",
           "$6$",
-          "$\\sqrt{7}$"
+          "$3$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 6,
@@ -2639,9 +2639,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Số nghiệm của phương trình $|2x - 1| = x + 2$ là:",
         "options": [
           "$2$",
+          "Vô số",
           "$1$",
-          "$0$",
-          "Vô số"
+          "$0$"
         ],
         "correct": 0
       },
@@ -2650,24 +2650,24 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng thấp",
         "question": "Làm tròn số $a = 15,3849$ đến chữ số thập phân thứ hai với độ chính xác $d = 0,005$:",
         "options": [
-          "$15,38$",
-          "$15,39$",
           "$15,4$",
-          "$15,385$"
+          "$15,385$",
+          "$15,38$",
+          "$15,39$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 8,
         "level": "Vận dụng thấp",
         "question": "Một hình chữ nhật có diện tích $45\\text{ cm}^2$, chiều dài gấp 5 lần chiều rộng. Chiều rộng của hình chữ nhật là:",
         "options": [
+          "$5\\text{ cm}$",
           "$3\\text{ cm}$",
           "$9\\text{ cm}$",
-          "$\\sqrt{5}\\text{ cm}$",
-          "$5\\text{ cm}$"
+          "$\\sqrt{5}\\text{ cm}$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
@@ -2676,8 +2676,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "options": [
           "$3$",
           "$2$",
-          "$0$",
-          "$5$"
+          "$5$",
+          "$0$"
         ],
         "correct": 0
       },
@@ -2686,36 +2686,36 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Số các số nguyên $x$ thỏa mãn $\\sqrt{x} < 10$ là:",
         "options": [
-          "$100$",
           "$99$",
+          "$100$",
           "$10$",
           "$81$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 11,
         "level": "Vận dụng cao",
         "question": "Giá trị của biểu thức $C = \\frac{\\sqrt{15} + \\sqrt{5}}{\\sqrt{3} + 1}$ là:",
         "options": [
-          "$\\sqrt{5}$",
+          "$1$",
           "$5$",
-          "$\\sqrt{3}$",
-          "$1$"
+          "$\\sqrt{5}$",
+          "$\\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
         "question": "Cho $x$ thỏa mãn $|x - 2| + |x - 5| = 3$. Giá trị của $x$ có thể là:",
         "options": [
-          "Mọi $x$ thỏa mãn $2 \\leq x \\leq 5$",
+          "Vô nghiệm",
           "$x = 2$ hoặc $x = 5$",
           "$x = 3,5$",
-          "Vô nghiệm"
+          "Mọi $x$ thỏa mãn $2 \\leq x \\leq 5$"
         ],
-        "correct": 0
+        "correct": 3
       }
     ],
     "part2": [
@@ -2835,12 +2835,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Thông hiểu",
         "question": "Rút gọn biểu thức $A = \\sqrt{9 - 4\\sqrt{5}} + \\sqrt{9 + 4\\sqrt{5}}$ ta được:",
         "options": [
-          "$2\\sqrt{5}$",
-          "$4$",
           "$\\sqrt{5}$",
-          "$2$"
+          "$4$",
+          "$2$",
+          "$2\\sqrt{5}$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 2,
@@ -2848,8 +2848,8 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Số nghiệm nguyên của phương trình $\\sqrt{x + 1} + \\sqrt{y - 2} = 0$ là:",
         "options": [
           "$1$",
-          "$2$",
           "$0$",
+          "$2$",
           "Vô số"
         ],
         "correct": 0
@@ -2860,9 +2860,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "So sánh $A = \\sqrt{17} + \\sqrt{8}$ và $B = 7$:",
         "options": [
           "$A < B$",
-          "$A > B$",
           "$A = B$",
-          "Không so sánh được"
+          "Không so sánh được",
+          "$A > B$"
         ],
         "correct": 0
       },
@@ -2871,84 +2871,84 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Tìm số tự nhiên $n$ sao cho $\\sqrt{n + 1} + \\sqrt{n} = \\frac{1}{\\sqrt{2025} - \\sqrt{2024}}$:",
         "options": [
-          "$n = 2024$",
           "$n = 2025$",
           "$n = 2023$",
-          "Không tồn tại"
+          "Không tồn tại",
+          "$n = 2024$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 5,
         "level": "Vận dụng cao",
         "question": "Giá trị nhỏ nhất của biểu thức $P = \\sqrt{x^2 - 2x + 5} + 3$ là:",
         "options": [
-          "$5$",
-          "$3$",
           "$\\sqrt{5} + 3$",
+          "$3$",
+          "$5$",
           "$2$"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 6,
         "level": "Vận dụng cao",
         "question": "Cho $x$ thỏa mãn $\\sqrt{x} + \\frac{1}{\\sqrt{x}} = 4$. Giá trị của biểu thức $x^2 + \\frac{1}{x^2}$ là:",
         "options": [
-          "$194$",
-          "$14$",
+          "$192$",
           "$196$",
-          "$192$"
+          "$14$",
+          "$194$"
         ],
-        "correct": 0
+        "correct": 3
       },
       {
         "id": 7,
         "level": "Vận dụng cao",
         "question": "Tìm tất cả các cặp số thực $(x; y)$ thỏa mãn $\\sqrt{x - 1} + \\sqrt{y - 2} = 2$ và $x + y = 5$:",
         "options": [
+          "Vô số nghiệm",
           "$(x; y) = (2; 3)$",
           "$(x; y) = (1; 4)$",
-          "$(x; y) = (3; 2)$",
-          "Vô số nghiệm"
+          "$(x; y) = (3; 2)$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 8,
         "level": "Vận dụng cao",
         "question": "Có bao nhiêu số nguyên $x$ để phân số $\\frac{\\sqrt{x} + 2}{\\sqrt{x} - 1}$ nhận giá trị nguyên?",
         "options": [
-          "$3$",
-          "$2$",
           "$4$",
-          "$1$"
+          "$3$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 9,
         "level": "Vận dụng cao",
         "question": "Cho $S = \\frac{1}{\\sqrt{1} + \\sqrt{2}} + \\frac{1}{\\sqrt{2} + \\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{99} + \\sqrt{100}}$. Giá trị của $S$ là:",
         "options": [
+          "$\\sqrt{99}$",
           "$9$",
-          "$10$",
           "$8$",
-          "$\\sqrt{99}$"
+          "$10$"
         ],
-        "correct": 0
+        "correct": 1
       },
       {
         "id": 10,
         "level": "Vận dụng cao",
         "question": "Số nghiệm của phương trình $|x - 1| + |x - 2| + |x - 3| = 2$ là:",
         "options": [
-          "$1$",
-          "$2$",
           "$0$",
+          "$2$",
+          "$1$",
           "Vô số"
         ],
-        "correct": 0
+        "correct": 2
       },
       {
         "id": 11,
@@ -2956,9 +2956,9 @@ const CHAPTER2_TOAN7_EXAMS = {
         "question": "Tìm giá trị lớn nhất của biểu thức $Q = \\frac{1}{x - \\sqrt{x} + 1}$ với $x \\geq 0$:",
         "options": [
           "$\\frac{4}{3}$",
-          "$1$",
+          "$\\frac{3}{4}$",
           "$2$",
-          "$\\frac{3}{4}$"
+          "$1$"
         ],
         "correct": 0
       },
@@ -2967,12 +2967,12 @@ const CHAPTER2_TOAN7_EXAMS = {
         "level": "Vận dụng cao",
         "question": "Biết $x$ là số vô tỉ và $y$ là số hữu tỉ khác 0. Khi đó tích $x \\cdot y$ luôn là:",
         "options": [
-          "Số vô tỉ",
           "Số hữu tỉ",
-          "Số nguyên",
-          "Số tự nhiên"
+          "Số tự nhiên",
+          "Số vô tỉ",
+          "Số nguyên"
         ],
-        "correct": 0
+        "correct": 2
       }
     ],
     "part2": [

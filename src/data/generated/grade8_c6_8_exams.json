@@ -13,12 +13,12 @@
           "level": "Nhận biết",
           "question": "Biểu thức nào sau đây là một phân thức đại số?",
           "options": [
+            "$\\frac{\\sqrt{x} + 2}{x + 1}$",
             "$\\frac{x - 1}{\\sqrt{x}}$",
             "$\\frac{2x + 1}{x - 3}$",
-            "$\\frac{\\sqrt{x} + 2}{x + 1}$",
             "$\\frac{3x}{0}$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 2,
@@ -26,11 +26,11 @@
           "question": "Trong phân thức đại số $\\frac{A}{B}$ ($B$ khác đa thức $0$), biểu thức $A$ được gọi là gì?",
           "options": [
             "Mẫu thức",
-            "Tử thức",
             "Thương số",
-            "Số chia"
+            "Số chia",
+            "Tử thức"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 3,
@@ -38,83 +38,83 @@
           "question": "Tử thức của phân thức đại số $\\frac{3x - 5}{x + 2}$ là biểu thức nào?",
           "options": [
             "$x + 2$",
-            "$3x$",
             "$3x - 5$",
-            "$-5$"
+            "$-5$",
+            "$3x$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Mẫu thức của phân thức đại số $\\frac{x^2 + 1}{2x - 7}$ là biểu thức nào?",
           "options": [
-            "$x^2 + 1$",
-            "$2x$",
             "$-7$",
-            "$2x - 7$"
+            "$2x$",
+            "$2x - 7$",
+            "$x^2 + 1$"
           ],
-          "correct": 3
+          "correct": 2
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ ($B \\ne 0, D \\ne 0$) được gọi là bằng nhau nếu thỏa mãn điều kiện nào sau đây?",
           "options": [
-            "$A \\cdot C = B \\cdot D$",
             "$A \\cdot D = B \\cdot C$",
             "$A + D = B + C$",
-            "$A - D = B - C$"
+            "$A - D = B - C$",
+            "$A \\cdot C = B \\cdot D$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 6,
           "level": "Nhận biết",
           "question": "Khẳng định nào sau đây là đúng về đa thức và phân thức?",
           "options": [
-            "Mỗi đa thức không thể coi là một phân thức đại số",
             "Mỗi đa thức được coi là một phân thức đại số có mẫu thức bằng 1",
+            "Mỗi đa thức không thể coi là một phân thức đại số",
             "Chỉ có số 0 mới được coi là một phân thức đại số",
             "Mỗi đa thức được coi là một phân thức đại số có tử thức bằng 1"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 4}$ là gì?",
           "options": [
-            "$x \\ne 4$",
+            "$x \\ne -1$",
             "$x \\ne -4$",
             "$x \\ne 1$",
-            "$x \\ne -1$"
+            "$x \\ne 4$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Phân thức nào sau đây có điều kiện xác định là $x \\ne -2$?",
           "options": [
-            "$\\frac{1}{x - 2}$",
-            "$\\frac{x - 2}{3}$",
             "$\\frac{5}{x + 2}$",
-            "$\\frac{x + 2}{x - 1}$"
+            "$\\frac{x + 2}{x - 1}$",
+            "$\\frac{1}{x - 2}$",
+            "$\\frac{x - 2}{3}$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 9,
           "level": "Thông hiểu",
           "question": "Cặp phân thức nào dưới đây bằng nhau?",
           "options": [
+            "$\\frac{x}{2}$ và $\\frac{2}{x}$",
             "$\\frac{x}{3}$ và $\\frac{2x}{6}$",
             "$\\frac{x}{3}$ và $\\frac{x + 1}{4}$",
-            "$\\frac{x}{2}$ và $\\frac{2}{x}$",
             "$\\frac{x - 1}{2}$ và $\\frac{1 - x}{2}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 10,
@@ -122,35 +122,35 @@
           "question": "Giá trị của phân thức $P = \\frac{2x + 1}{x - 1}$ tại $x = 2$ bằng bao nhiêu?",
           "options": [
             "$3$",
+            "$1$",
             "$5$",
-            "$-5$",
-            "$1$"
+            "$-5$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Điều kiện xác định của phân thức $\\frac{3x - 1}{2x - 6}$ là gì?",
           "options": [
+            "$x \\ne \\frac{1}{3}$",
             "$x \\ne 6$",
             "$x \\ne -3$",
-            "$x \\ne 3$",
-            "$x \\ne \\frac{1}{3}$"
+            "$x \\ne 3$"
           ],
-          "correct": 2
+          "correct": 3
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Giá trị của phân thức $Q = \\frac{x^2 - 1}{x + 3}$ tại $x = 1$ bằng bao nhiêu?",
           "options": [
+            "$2$",
             "$0$",
             "$1$",
-            "$\\frac{1}{2}$",
-            "$2$"
+            "$\\frac{1}{2}$"
           ],
-          "correct": 0
+          "correct": 1
         }
       ],
       "part2": [
@@ -270,24 +270,24 @@
           "level": "Nhận biết",
           "question": "Biểu thức nào sau đây KHÔNG phải là phân thức đại số?",
           "options": [
-            "$\\frac{3x - 5}{x^2 + 1}$",
-            "$\\frac{\\sqrt{x} + 2}{x - 1}$",
+            "$x^2 - 4x + 7$",
             "$\\frac{5}{2x - 3}$",
-            "$x^2 - 4x + 7$"
+            "$\\frac{\\sqrt{x} + 2}{x - 1}$",
+            "$\\frac{3x - 5}{x^2 + 1}$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Cho biểu thức $P = \\frac{A}{B}$ với $A, B$ là các đa thức. Biểu thức $P$ được gọi là một phân thức đại số khi và chỉ khi:",
           "options": [
-            "$B$ là đa thức khác đa thức $0$",
-            "$A$ là đa thức khác đa thức $0$",
             "$A$ và $B$ đều có bậc lớn hơn $0$",
-            "$B$ nhận giá trị dương với mọi biến"
+            "$B$ nhận giá trị dương với mọi biến",
+            "$B$ là đa thức khác đa thức $0$",
+            "$A$ là đa thức khác đa thức $0$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
@@ -295,33 +295,33 @@
           "question": "Với đa thức $B \\ne 0$, cặp phân thức nào sau đây luôn bằng nhau theo quy tắc đổi dấu?",
           "options": [
             "$\\frac{A}{B}$ và $\\frac{-A}{B}$",
-            "$\\frac{A}{B}$ và $\\frac{A}{-B}$",
             "$\\frac{A}{B}$ và $\\frac{-A}{-B}$",
+            "$\\frac{A}{B}$ và $\\frac{A}{-B}$",
             "$\\frac{A}{B}$ và $-\\frac{-A}{-B}$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Phân thức $\\frac{2x - 3}{(x - 4)(x + 5)}$ không xác định khi:",
           "options": [
-            "$x = 4$ hoặc $x = -5$",
-            "$x = -4$ hoặc $x = 5$",
             "$x = \\frac{3}{2}$",
-            "$x = 4$ và $x = -5$"
+            "$x = 4$ và $x = -5$",
+            "$x = 4$ hoặc $x = -5$",
+            "$x = -4$ hoặc $x = 5$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 5,
           "level": "Thông hiểu",
           "question": "Điều kiện xác định của phân thức đại số $M = \\frac{5x - 1}{x^2 - 6x + 9}$ là:",
           "options": [
-            "$x \\ne 3$ và $x \\ne -3$",
-            "$x \\ne 3$",
             "$x \\ne -3$",
-            "$x > 3$"
+            "$x \\ne 3$",
+            "$x > 3$",
+            "$x \\ne 3$ và $x \\ne -3$"
           ],
           "correct": 1
         },
@@ -330,84 +330,84 @@
           "level": "Thông hiểu",
           "question": "Tìm đa thức $P$ thích hợp thỏa mãn đẳng thức $\\frac{x^2 - 16}{x - 4} = \\frac{P}{3x}$ (với $x \\ne 4, x \\ne 0$).",
           "options": [
-            "$P = 3x^2 + 12x$",
+            "$P = x + 4$",
             "$P = 3x^2 - 12x$",
             "$P = 3x + 12$",
-            "$P = x + 4$"
+            "$P = 3x^2 + 12x$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
           "level": "Thông hiểu",
           "question": "Cho phân thức $C = \\frac{x^2 - 4xy + 4y^2}{x - 2y}$. Giá trị của phân thức $C$ tại $x = 15$ và $y = 5$ là:",
           "options": [
-            "$25$",
             "$5$",
             "$10$",
+            "$25$",
             "$0$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 8,
           "level": "Thông hiểu",
           "question": "Phân thức $\\frac{x^2 - 9}{x^2 + 4}$ có giá trị bằng $0$ khi giá trị của $x$ là:",
           "options": [
-            "$x = 3$",
             "$x = -3$",
             "$x = 3$ hoặc $x = -3$",
-            "Không có giá trị nào của $x$"
+            "Không có giá trị nào của $x$",
+            "$x = 3$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Thông hiểu",
           "question": "Tìm giá trị của $x$ để phân thức $D = \\frac{x^2 - 4x}{x^2 - 16}$ có giá trị bằng $0$.",
           "options": [
+            "$x = 0$",
             "$x = 0$ hoặc $x = 4$",
             "$x = 4$",
-            "$x = 0$",
             "$x = -4$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 10,
           "level": "Thông hiểu",
           "question": "Cặp phân thức nào sau đây KHÔNG bằng nhau?",
           "options": [
-            "$\\frac{x - 2}{3 - x}$ và $\\frac{2 - x}{x - 3}$",
-            "$\\frac{x^2 - 1}{x + 1}$ và $\\frac{x^2 - 2x + 1}{x - 1}$",
             "$\\frac{2x}{x - 1}$ và $\\frac{2x^2 + 2x}{x^2 - 1}$",
-            "$\\frac{x - y}{y - x}$ và $-1$"
+            "$\\frac{x - y}{y - x}$ và $-1$",
+            "$\\frac{x - 2}{3 - x}$ và $\\frac{2 - x}{x - 3}$",
+            "$\\frac{x^2 - 1}{x + 1}$ và $\\frac{x^2 - 2x + 1}{x - 1}$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Một ô tô di chuyển trên quãng đường dài $150\\text{ km}$ với vận tốc trung bình $2x + 10\\text{ (km/h)}$. Phân thức biểu thị thời gian ô tô hoàn thành chuyến đi là:",
           "options": [
-            "$\\frac{150}{2x + 10}\\text{ (giờ)}$",
-            "$\\frac{2x + 10}{150}\\text{ (giờ)}$",
             "$\\frac{75}{x + 10}\\text{ (giờ)}$",
-            "$150(2x + 10)\\text{ (giờ)}$"
+            "$\\frac{2x + 10}{150}\\text{ (giờ)}$",
+            "$150(2x + 10)\\text{ (giờ)}$",
+            "$\\frac{150}{2x + 10}\\text{ (giờ)}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Phân thức đại số nào sau đây luôn xác định với mọi giá trị của biến $x \\in \\mathbb{R}$?",
           "options": [
+            "$\\frac{5}{x^2 - 1}$",
             "$\\frac{2x + 1}{x^2 - 2x + 1}$",
-            "$\\frac{x - 3}{x^2 + 2x + 5}$",
             "$\\frac{x^2 + 1}{x^2 - 4}$",
-            "$\\frac{5}{x^2 - 1}$"
+            "$\\frac{x - 3}{x^2 + 2x + 5}$"
           ],
-          "correct": 1
+          "correct": 3
         }
       ],
       "part2": [
@@ -527,48 +527,48 @@
           "level": "Thông hiểu",
           "question": "Phân thức $\\frac{x - y}{x^2 - y^2}$ xác định khi và chỉ khi:",
           "options": [
-            "$x \\neq y$ và $x \\neq -y$",
-            "$x \\neq y$",
             "$x \\neq -y$",
-            "$x > y$"
+            "$x > y$",
+            "$x \\neq y$ và $x \\neq -y$",
+            "$x \\neq y$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Thông hiểu",
           "question": "Tìm tập hợp các giá trị của $x$ để phân thức $\\frac{x^2 - 1}{x^2 + 1}$ nhận giá trị bằng $0$:",
           "options": [
-            "$\\{1; -1\\}$",
             "$\\{1\\}$",
             "$\\{-1\\}$",
+            "$\\{1; -1\\}$",
             "$\\emptyset$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Vận dụng thấp",
           "question": "Cho phân thức $P = \\frac{x^2 + 4x + 4}{x^3 + 8}$. Sau khi rút gọn, $P$ có dạng:",
           "options": [
+            "$\\frac{x - 2}{x^2 + 4}$",
             "$\\frac{x + 2}{x^2 - 2x + 4}$",
             "$\\frac{1}{x - 2}$",
-            "$\\frac{x + 2}{x^2 + 2x + 4}$",
-            "$\\frac{x - 2}{x^2 + 4}$"
+            "$\\frac{x + 2}{x^2 + 2x + 4}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Vận dụng thấp",
           "question": "Giá trị nhỏ nhất của phân thức $M = \\frac{4}{x^2 + 2x + 5}$ đạt được khi:",
           "options": [
-            "Không có giá trị nhỏ nhất (chỉ có GTLN bằng 1 khi $x = -1$)",
             "$x = -1$",
-            "$x = 0$",
-            "$x = 2$"
+            "$x = 2$",
+            "Không có giá trị nhỏ nhất (chỉ có GTLN bằng 1 khi $x = -1$)",
+            "$x = 0$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 5,
@@ -587,60 +587,60 @@
           "level": "Vận dụng cao",
           "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn phân thức $\\frac{x + 2y}{x - y} = 2$ với $x \\neq y$ và $1 \\leq x \\leq 10$?",
           "options": [
-            "$2$",
-            "$4$",
+            "$10$",
             "$5$",
-            "$10$"
+            "$4$",
+            "$2$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
           "level": "Vận dụng cao",
           "question": "Cho phân thức $A = \\frac{x^2 - x + 1}{x^2 + 1}$. Khẳng định nào sau đây là ĐÚNG?",
           "options": [
+            "$A < 0$ khi $x < 0$",
             "$\\frac{1}{2} \\leq A \\leq \\frac{3}{2}$ với mọi số thực $x$",
             "$A > 2$ với mọi $x$",
-            "$A < 0$ khi $x < 0$",
             "$A = 0$ khi $x = 1$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 8,
           "level": "Vận dụng cao",
           "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $\\frac{x^3 - 2x^2 + 4}{x - 2}$ nhận giá trị là một số nguyên:",
           "options": [
+            "$x \\in \\{-1, 0, 3\\}$",
             "$x \\in \\{0, 1, 3, 4, 6, -2\\}$",
-            "$x \\in \\{1, 2, 3, 4\\}$",
             "$x \\in \\{2, 4, 6\\}$",
-            "$x \\in \\{-1, 0, 3\\}$"
+            "$x \\in \\{1, 2, 3, 4\\}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Cho hai số thực $x, y$ thỏa mãn $2x + y = 1$. Giá trị của phân thức $E = \\frac{4x^2 + 4xy + y^2 - 1}{2x + y + 1}$ bằng:",
           "options": [
-            "$0$",
             "$1$",
+            "$-1$",
             "$2$",
-            "$-1$"
+            "$0$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Biết rằng phân thức $P = \\frac{ax + b}{x^2 + 1}$ đạt giá trị lớn nhất bằng $2$ khi $x = 1$ và nhỏ nhất bằng $-2$ khi $x = -1$. Khi đó $a^2 + b^2$ bằng:",
           "options": [
-            "$16$",
             "$4$",
+            "$12$",
             "$8$",
-            "$12$"
+            "$16$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
@@ -660,9 +660,9 @@
           "question": "Cho $x, y, z$ đôi một khác nhau thỏa mãn $\\frac{x}{y - z} + \\frac{y}{z - x} + \\frac{z}{x - y} = 0$. Giá trị của biểu thức $\\frac{x}{(y - z)^2} + \\frac{y}{(z - x)^2} + \\frac{z}{(x - y)^2}$ bằng:",
           "options": [
             "$0$",
+            "$3$",
             "$1$",
-            "$-1$",
-            "$3$"
+            "$-1$"
           ],
           "correct": 0
         }
@@ -784,24 +784,24 @@
           "level": "Nhận biết",
           "question": "Với đa thức $M$ khác đa thức 0, khẳng định nào sau đây là đúng về tính chất cơ bản của phân thức đại số?",
           "options": [
-            "$\\frac{A}{B} = \\frac{A \\cdot M}{B \\cdot M}$",
             "$\\frac{A}{B} = \\frac{A + M}{B + M}$",
             "$\\frac{A}{B} = \\frac{A - M}{B - M}$",
-            "$\\frac{A}{B} = \\frac{A \\cdot M}{B}$"
+            "$\\frac{A}{B} = \\frac{A \\cdot M}{B}$",
+            "$\\frac{A}{B} = \\frac{A \\cdot M}{B \\cdot M}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 2,
           "level": "Nhận biết",
           "question": "Nếu $N$ là một nhân tử chung của cả tử thức $A$ và mẫu thức $B$ ($N \\ne 0$) thì:",
           "options": [
-            "$\\frac{A}{B} = \\frac{A \\cdot N}{B : N}$",
-            "$\\frac{A}{B} = \\frac{A : N}{B : N}$",
+            "$\\frac{A}{B} = \\frac{A : N}{B}$",
             "$\\frac{A}{B} = \\frac{A - N}{B - N}$",
-            "$\\frac{A}{B} = \\frac{A : N}{B}$"
+            "$\\frac{A}{B} = \\frac{A : N}{B : N}$",
+            "$\\frac{A}{B} = \\frac{A \\cdot N}{B : N}$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 3,
@@ -809,71 +809,71 @@
           "question": "Theo quy tắc đổi dấu, phân thức $\\frac{A}{B}$ bằng phân thức nào dưới đây?",
           "options": [
             "$\\frac{-A}{B}$",
-            "$\\frac{A}{-B}$",
             "$\\frac{-A}{-B}$",
-            "$-\\frac{-A}{-B}$"
+            "$-\\frac{-A}{-B}$",
+            "$\\frac{A}{-B}$"
           ],
-          "correct": 2
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Phân thức $\\frac{x - 3}{5 - x}$ bằng phân thức nào sau đây khi đổi dấu cả tử và mẫu?",
           "options": [
-            "$\\frac{3 - x}{x - 5}$",
-            "$\\frac{x - 3}{x - 5}$",
             "$\\frac{3 - x}{5 - x}$",
-            "$\\frac{x + 3}{x + 5}$"
+            "$\\frac{x + 3}{x + 5}$",
+            "$\\frac{x - 3}{x - 5}$",
+            "$\\frac{3 - x}{x - 5}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Nhận biết",
           "question": "Nhân tử chung của tử thức và mẫu thức trong phân thức $\\frac{4x^2}{6xy}$ là:",
           "options": [
-            "$2x$",
             "$4x$",
-            "$2y$",
-            "$xy$"
+            "$2x$",
+            "$xy$",
+            "$2y$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 6,
           "level": "Nhận biết",
           "question": "Rút gọn phân thức $\\frac{5(x + 2)}{3(x + 2)}$ ta được kết quả là:",
           "options": [
-            "$\\frac{5}{3}$",
             "$\\frac{5x}{3}$",
-            "$\\frac{5}{3(x+2)}$",
-            "$1$"
+            "$\\frac{5}{3}$",
+            "$1$",
+            "$\\frac{5}{3(x+2)}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Mẫu thức chung đơn giản nhất của hai phân thức $\\frac{1}{2x}$ và $\\frac{1}{3x^2}$ là:",
           "options": [
-            "$6x^3$",
             "$6x^2$",
+            "$6x$",
             "$5x^2$",
-            "$6x$"
+            "$6x^3$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Khi quy đồng mẫu thức hai phân thức $\\frac{1}{x - 1}$ và $\\frac{1}{x + 1}$, mẫu thức chung là:",
           "options": [
-            "$(x - 1)(x + 1)$",
             "$x - 1$",
+            "$x^2 + 1$",
             "$x + 1$",
-            "$x^2 + 1$"
+            "$(x - 1)(x + 1)$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
@@ -881,8 +881,8 @@
           "question": "Điền đa thức thích hợp vào chỗ trống để có đẳng thức đúng: $\\frac{2x}{x + 3} = \\frac{...}{(x + 3)(x - 1)}$",
           "options": [
             "$2x(x - 1)$",
-            "$2x(x + 3)$",
             "$x - 1$",
+            "$2x(x + 3)$",
             "$2x^2$"
           ],
           "correct": 0
@@ -893,8 +893,8 @@
           "question": "Rút gọn phân thức $\\frac{3x - 6}{x - 2}$ ta được kết quả là:",
           "options": [
             "$3$",
-            "$-3$",
             "$3x$",
+            "$-3$",
             "$\\frac{1}{3}$"
           ],
           "correct": 0
@@ -904,24 +904,24 @@
           "level": "Thông hiểu",
           "question": "Nhân tử phụ của mẫu thức trong phân thức $\\frac{2}{3x^2 y}$ khi quy đồng với mẫu thức chung $12x^3 y^2$ là:",
           "options": [
-            "$4xy$",
             "$4x^2 y$",
-            "$9xy$",
-            "$4$"
+            "$4$",
+            "$4xy$",
+            "$9xy$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Thông hiểu",
           "question": "Kết quả rút gọn của phân thức $\\frac{x^2 - 4}{x + 2}$ là:",
           "options": [
-            "$x - 2$",
-            "$x + 2$",
             "$x - 4$",
-            "$2 - x$"
+            "$2 - x$",
+            "$x - 2$",
+            "$x + 2$"
           ],
-          "correct": 0
+          "correct": 2
         }
       ],
       "part2": [
@@ -1041,12 +1041,12 @@
           "level": "Nhận biết",
           "question": "Phân thức đối của phân thức $\\frac{x - 3}{x + 2}$ là:",
           "options": [
-            "$\\frac{3 - x}{x + 2}$",
-            "$\\frac{x - 3}{x - 2}$",
             "$\\frac{x + 3}{x + 2}$",
-            "$\\frac{3 - x}{-x - 2}$"
+            "$\\frac{3 - x}{x + 2}$",
+            "$\\frac{3 - x}{-x - 2}$",
+            "$\\frac{x - 3}{x - 2}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 2,
@@ -1055,8 +1055,8 @@
           "options": [
             "$x - 1$",
             "$x + 1$",
-            "$(x - 1)^2$",
-            "$1$"
+            "$1$",
+            "$(x - 1)^2$"
           ],
           "correct": 0
         },
@@ -1065,48 +1065,48 @@
           "level": "Thông hiểu",
           "question": "Mẫu thức chung đơn giản nhất của ba phân thức $\\frac{1}{x^2 - 2x}$, $\\frac{1}{x^2 - 4}$, $\\frac{1}{x^2 + 2x}$ là:",
           "options": [
-            "$x(x - 2)(x + 2)$",
-            "$x^2(x^2 - 4)$",
             "$(x^2 - 4)^2$",
-            "$x(x - 2)^2$"
+            "$x(x - 2)^2$",
+            "$x(x - 2)(x + 2)$",
+            "$x^2(x^2 - 4)$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Thông hiểu",
           "question": "Rút gọn phân thức $\\frac{x^2 - y^2}{(x - y)^2}$ với $x \\neq y$ ta được:",
           "options": [
-            "$\\frac{x + y}{x - y}$",
-            "$\\frac{x - y}{x + y}$",
             "$1$",
-            "$\\frac{x + y}{(x - y)^2}$"
+            "$\\frac{x - y}{x + y}$",
+            "$\\frac{x + y}{(x - y)^2}$",
+            "$\\frac{x + y}{x - y}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Thông hiểu",
           "question": "Tìm đa thức $M$ thỏa mãn $\\frac{x^2 - 5x + 6}{x - 2} = M$ với $x \\neq 2$:",
           "options": [
-            "$x - 3$",
             "$x + 3$",
-            "$x - 2$",
-            "$x + 2$"
+            "$x + 2$",
+            "$x - 3$",
+            "$x - 2$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
           "level": "Thông hiểu",
           "question": "Rút gọn phân thức $P = \\frac{2x^2 + 5x - 3}{x^2 - 9}$ với $x \\neq \\pm 3$ ta được:",
           "options": [
-            "$\\frac{2x - 1}{x - 3}$",
+            "$\\frac{x - 1}{x - 3}$",
             "$\\frac{2x + 1}{x + 3}$",
             "$\\frac{2x - 1}{x + 3}$",
-            "$\\frac{x - 1}{x - 3}$"
+            "$\\frac{2x - 1}{x - 3}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 7,
@@ -1125,36 +1125,36 @@
           "level": "Vận dụng thấp",
           "question": "Cho $\\frac{x^2 - 16}{x^2 - 8x + 16} = \\frac{x + 4}{A}$. Đa thức $A$ là:",
           "options": [
-            "$x - 4$",
-            "$x + 4$",
+            "$4 - x$",
             "$(x - 4)^2$",
-            "$4 - x$"
+            "$x + 4$",
+            "$x - 4$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Vận dụng thấp",
           "question": "Rút gọn phân thức $\\frac{x^3 - x^2y - xy^2 + y^3}{x^2 - y^2}$ với $x \\neq \\pm y$ ta được:",
           "options": [
+            "$(x - y)^2$",
             "$x - y$",
             "$x + y$",
-            "$(x - y)^2$",
             "$1$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 10,
           "level": "Vận dụng thấp",
           "question": "Quy đồng mẫu thức hai phân thức $\\frac{1}{x^2 - 3x + 2}$ và $\\frac{1}{x^2 - 4x + 3}$. Mẫu thức chung là:",
           "options": [
-            "$(x - 1)(x - 2)(x - 3)$",
             "$(x - 1)^2(x - 2)$",
+            "$(x - 1)(x - 2)(x - 3)$",
             "$(x - 2)(x - 3)$",
             "$x^2 - 5x + 6$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 11,
@@ -1163,8 +1163,8 @@
           "options": [
             "$-5$",
             "$5$",
-            "$-7$",
-            "$7$"
+            "$7$",
+            "$-7$"
           ],
           "correct": 0
         },
@@ -1173,12 +1173,12 @@
           "level": "Vận dụng thấp",
           "question": "Cho $x + y = 5$ và $xy = 6$. Giá trị của phân thức $\\frac{x^2 + y^2}{x^3 + y^3}$ bằng:",
           "options": [
-            "$\\frac{13}{35}$",
             "$\\frac{13}{65}$",
             "$\\frac{1}{5}$",
+            "$\\frac{13}{35}$",
             "$\\frac{19}{35}$"
           ],
-          "correct": 0
+          "correct": 2
         }
       ],
       "part2": [
@@ -1298,48 +1298,48 @@
           "level": "Thông hiểu",
           "question": "Cho $a + b + c = 0$. Rút gọn phân thức $\\frac{a^3 + b^3 + c^3}{3abc}$ với $abc \\neq 0$ ta được kết quả là:",
           "options": [
-            "$1$",
-            "$3$",
+            "$0$",
             "$-1$",
-            "$0$"
+            "$1$",
+            "$3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Thông hiểu",
           "question": "Rút gọn phân thức $M = \\frac{(x - y)^3 + (y - z)^3 + (z - x)^3}{(x - y)(y - z)(z - x)}$ ta được:",
           "options": [
-            "$3$",
+            "$0$",
             "$1$",
-            "$-3$",
-            "$0$"
+            "$3$",
+            "$-3$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Vận dụng thấp",
           "question": "Rút gọn phân thức $P = \\frac{x^4 + 4}{x^2 + 2x + 2}$ ta được:",
           "options": [
+            "$x^2 + 2x - 2$",
             "$x^2 - 2x + 2$",
             "$x^2 + 2$",
-            "$x^2 - 2$",
-            "$x^2 + 2x - 2$"
+            "$x^2 - 2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 4,
           "level": "Vận dụng thấp",
           "question": "Rút gọn phân thức $\\frac{x^8 + x^4 + 1}{x^4 + x^2 + 1}$ ta được:",
           "options": [
-            "$x^4 - x^2 + 1$",
+            "$x^4 + x^2 - 1$",
             "$x^4 + 1$",
             "$x^2 - x + 1$",
-            "$x^4 + x^2 - 1$"
+            "$x^4 - x^2 + 1$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
@@ -1347,8 +1347,8 @@
           "question": "Cho $x, y, z$ đôi một khác nhau. Mẫu thức chung gọn nhất của các phân thức $\\frac{1}{(x - y)(y - z)}$, $\\frac{1}{(y - z)(z - x)}$, $\\frac{1}{(z - x)(x - y)}$ là:",
           "options": [
             "$(x - y)(y - z)(z - x)$",
-            "$(x - y)^2(y - z)^2(z - x)^2$",
             "$(x - y)(y - z)(x - z)$",
+            "$(x - y)^2(y - z)^2(z - x)^2$",
             "$-(x - y)(y - z)(z - x)$"
           ],
           "correct": 0
@@ -1358,24 +1358,24 @@
           "level": "Vận dụng cao",
           "question": "Cho $x + \\frac{1}{x} = 3$. Giá trị của phân thức $\\frac{x^4 + 1}{x^2}$ bằng:",
           "options": [
+            "$11$",
             "$7$",
             "$9$",
-            "$11$",
             "$6$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Vận dụng cao",
           "question": "Rút gọn phân thức $A = \\frac{x^2 + y^2 + z^2 - 2xy + 2xz - 2yz}{x - y + z}$ ta được:",
           "options": [
-            "$x - y + z$",
-            "$x + y + z$",
             "$x - y - z$",
-            "$1$"
+            "$x + y + z$",
+            "$1$",
+            "$x - y + z$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 8,
@@ -1384,8 +1384,8 @@
           "options": [
             "$1$",
             "$2$",
-            "$4$",
-            "$\\frac{1}{2}$"
+            "$\\frac{1}{2}$",
+            "$4$"
           ],
           "correct": 0
         },
@@ -1395,8 +1395,8 @@
           "question": "Cho phân thức $P = \\frac{n^3 + 2n^2 - 1}{n^3 + 2n^2 + 2n + 1}$. Phân thức $P$ sau khi rút gọn tối giản có dạng:",
           "options": [
             "$\\frac{n^2 + n - 1}{n^2 + n + 1}$",
-            "$\\frac{n - 1}{n + 1}$",
             "$\\frac{n^2 - 1}{n^2 + 1}$",
+            "$\\frac{n - 1}{n + 1}$",
             "$\\frac{n + 1}{n^2 + 1}$"
           ],
           "correct": 0
@@ -1406,36 +1406,36 @@
           "level": "Vận dụng cao",
           "question": "Tìm số tự nhiên $n$ để phân thức $\\frac{2n + 3}{n + 1}$ là một phân số tối giản:",
           "options": [
-            "Với mọi số tự nhiên $n$",
-            "Chỉ khi $n$ là số chẵn",
             "Chỉ khi $n$ là số lẻ",
+            "Chỉ khi $n$ là số chẵn",
+            "Với mọi số tự nhiên $n$",
             "Không có số $n$ nào"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Cho $x, y$ thỏa mãn $x^2 + y^2 = 25$ và $xy = 12$ ($x > y > 0$). Giá trị của phân thức $\\frac{x - y}{x + y}$ bằng:",
           "options": [
-            "$\\frac{1}{7}$",
+            "$\\frac{3}{7}$",
             "$\\frac{2}{7}$",
             "$\\frac{1}{5}$",
-            "$\\frac{3}{7}$"
+            "$\\frac{1}{7}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
           "question": "Rút gọn phân thức $S = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n + 1)}$ dưới dạng một phân thức đại số theo $n$:",
           "options": [
-            "$\\frac{n}{n + 1}$",
             "$\\frac{1}{n + 1}$",
+            "$\\frac{n}{n + 1}$",
             "$\\frac{n + 1}{n}$",
             "$\\frac{n - 1}{n}$"
           ],
-          "correct": 0
+          "correct": 1
         }
       ],
       "part2": [
@@ -1556,8 +1556,8 @@
           "question": "Kết quả của phép cộng hai phân thức cùng mẫu $\\frac{A}{M} + \\frac{B}{M}$ (với $M \\ne 0$) là",
           "options": [
             "$\\frac{A + B}{M}$",
-            "$\\frac{A + B}{2M}$",
             "$\\frac{A \\cdot B}{M}$",
+            "$\\frac{A + B}{2M}$",
             "$\\frac{A - B}{M}$"
           ],
           "correct": 0
@@ -1567,12 +1567,12 @@
           "level": "Nhận biết",
           "question": "Phân thức đối của phân thức $\\frac{x - 3}{y}$ là",
           "options": [
+            "Cả ba đáp án trên đều đúng",
             "$\\frac{3 - x}{y}$",
             "$\\frac{x - 3}{-y}$",
-            "$-\\frac{x - 3}{y}$",
-            "Cả ba đáp án trên đều đúng"
+            "$-\\frac{x - 3}{y}$"
           ],
-          "correct": 3
+          "correct": 0
         },
         {
           "id": 3,
@@ -1580,23 +1580,23 @@
           "question": "Kết quả của phép tính $\\frac{3x}{x + 1} + \\frac{2x}{x + 1}$ là",
           "options": [
             "$\\frac{5x}{2x + 2}$",
+            "$\\frac{x}{x + 1}$",
             "$\\frac{5x}{x + 1}$",
-            "$\\frac{6x^2}{x + 1}$",
-            "$\\frac{x}{x + 1}$"
+            "$\\frac{6x^2}{x + 1}$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Nhận biết",
           "question": "Kết quả của phép trừ $\\frac{7y}{y - 2} - \\frac{3y}{y - 2}$ bằng",
           "options": [
-            "$\\frac{4y}{y - 2}$",
             "$\\frac{10y}{y - 2}$",
+            "$\\frac{4y}{(y - 2)^2}$",
             "$\\frac{4}{y - 2}$",
-            "$\\frac{4y}{(y - 2)^2}$"
+            "$\\frac{4y}{y - 2}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
@@ -1615,70 +1615,70 @@
           "level": "Nhận biết",
           "question": "Quy tắc trừ hai phân thức $\\frac{A}{B} - \\frac{C}{D}$ được thực hiện bằng cách",
           "options": [
-            "Cộng $\\frac{A}{B}$ với phân thức đối của $\\frac{C}{D}$",
             "Nhân $\\frac{A}{B}$ với nghịch đảo của $\\frac{C}{D}$",
             "Lấy tử trừ tử, mẫu trừ mẫu",
+            "Cộng $\\frac{A}{B}$ với phân thức đối của $\\frac{C}{D}$",
             "Cộng $\\frac{A}{B}$ với $\\frac{C}{D}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Thực hiện phép tính $\\frac{x + 2}{x - 1} + \\frac{x - 4}{x - 1}$, ta được kết quả rút gọn là",
           "options": [
+            "$\\frac{-2}{x - 1}$",
             "$\\frac{2x - 2}{x - 1}$",
             "$2$",
-            "$\\frac{2x + 6}{x - 1}$",
-            "$\\frac{-2}{x - 1}$"
+            "$\\frac{2x + 6}{x - 1}$"
           ],
-          "correct": 1
+          "correct": 2
         },
         {
           "id": 8,
           "level": "Nhận biết",
           "question": "Mẫu thức chung của hai phân thức $\\frac{1}{x - 2}$ và $\\frac{1}{x + 2}$ là",
           "options": [
-            "$x - 2$",
-            "$x + 2$",
             "$x^2 - 4$",
-            "$x^2 + 4$"
+            "$x + 2$",
+            "$x^2 + 4$",
+            "$x - 2$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 9,
           "level": "Thông hiểu",
           "question": "Kết quả của phép tính $\\frac{1}{x} + \\frac{2}{x + 1}$ là",
           "options": [
-            "$\\frac{3x + 1}{x(x + 1)}$",
-            "$\\frac{3}{2x + 1}$",
             "$\\frac{3}{x(x + 1)}$",
-            "$\\frac{x + 2}{x(x + 1)}$"
+            "$\\frac{3}{2x + 1}$",
+            "$\\frac{x + 2}{x(x + 1)}$",
+            "$\\frac{3x + 1}{x(x + 1)}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Thông hiểu",
           "question": "Thực hiện phép tính $\\frac{x}{x - 3} + \\frac{3}{3 - x}$, kết quả là",
           "options": [
-            "$\\frac{x + 3}{x - 3}$",
+            "$\\frac{x - 3}{3 - x}$",
             "$-1$",
-            "$1$",
-            "$\\frac{x - 3}{3 - x}$"
+            "$\\frac{x + 3}{x - 3}$",
+            "$1$"
           ],
-          "correct": 2
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Kết quả phép trừ $\\frac{x^2}{x - 1} - \\frac{1}{x - 1}$ sau khi rút gọn tối giản là",
           "options": [
-            "$x - 1$",
+            "$1$",
             "$x + 1$",
             "$\\frac{x^2 - 1}{(x - 1)^2}$",
-            "$1$"
+            "$x - 1$"
           ],
           "correct": 1
         },
@@ -1687,10 +1687,10 @@
           "level": "Thông hiểu",
           "question": "Tìm biểu thức $P$ biết: $P + \\frac{1}{x} = \\frac{3}{x}$ (với $x \\ne 0$).",
           "options": [
-            "$P = \\frac{4}{x}$",
-            "$P = \\frac{2}{x}$",
             "$P = 2$",
-            "$P = -\\frac{2}{x}$"
+            "$P = \\frac{2}{x}$",
+            "$P = -\\frac{2}{x}$",
+            "$P = \\frac{4}{x}$"
           ],
           "correct": 1
         }
@@ -1813,8 +1813,8 @@
           "question": "Thực hiện phép tính $\\frac{x + 3}{x^2 - 1} - \\frac{1}{x^2 + x}$ ta được kết quả là:",
           "options": [
             "$\\frac{x + 1}{x(x - 1)}$",
-            "$\\frac{1}{x - 1}$",
             "$\\frac{x - 1}{x(x + 1)}$",
+            "$\\frac{1}{x - 1}$",
             "$\\frac{x + 2}{x^2 - 1}$"
           ],
           "correct": 0
@@ -1824,36 +1824,36 @@
           "level": "Thông hiểu",
           "question": "Rút gọn biểu thức $P = \\frac{1}{x - 2} - \\frac{4}{x^2 - 4}$ với $x \\neq \\pm 2$ ta được:",
           "options": [
-            "$\\frac{1}{x + 2}$",
             "$\\frac{1}{x - 2}$",
+            "$\\frac{2}{x^2 - 4}$",
             "$\\frac{x - 2}{x + 2}$",
-            "$\\frac{2}{x^2 - 4}$"
+            "$\\frac{1}{x + 2}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Kết quả của phép tính $\\frac{2x}{x^2 - 9} + \\frac{1}{3 - x}$ với $x \\neq \\pm 3$ là:",
           "options": [
-            "$\\frac{1}{x - 3}$",
             "$\\frac{1}{x + 3}$",
             "$\\frac{x - 1}{x^2 - 9}$",
+            "$\\frac{1}{x - 3}$",
             "$\\frac{3x + 1}{x^2 - 9}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Thông hiểu",
           "question": "Biểu thức $\\frac{x^2 + 2}{x^3 - 1} + \\frac{2}{x^2 + x + 1} - \\frac{1}{x - 1}$ rút gọn được là:",
           "options": [
-            "$\\frac{2}{x^2 + x + 1}$",
+            "$\\frac{1}{x^3 - 1}$",
             "$\\frac{1}{x - 1}$",
-            "$0$",
-            "$\\frac{1}{x^3 - 1}$"
+            "$\\frac{2}{x^2 + x + 1}$",
+            "$0$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 5,
@@ -1861,9 +1861,9 @@
           "question": "Tính tổng $\\frac{x - 1}{x} + \\frac{x + 1}{x + 2}$ tại $x = 1$:",
           "options": [
             "$\\frac{2}{3}$",
-            "$1$",
             "$0$",
-            "$\\frac{4}{3}$"
+            "$\\frac{4}{3}$",
+            "$1$"
           ],
           "correct": 0
         },
@@ -1872,12 +1872,12 @@
           "level": "Vận dụng thấp",
           "question": "Cho $A = \\frac{2}{x + 1}$ và $B = \\frac{1}{x - 1}$. Để $A + B = 0$ thì $x$ bằng:",
           "options": [
+            "$-3$",
             "$\\frac{1}{3}$",
-            "$3$",
             "$-\\frac{1}{3}$",
-            "$-3$"
+            "$3$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
@@ -1885,9 +1885,9 @@
           "question": "Biết $\\frac{3x - 1}{(x - 1)(x + 2)} = \\frac{A}{x - 1} + \\frac{B}{x + 2}$. Giá trị của $A + B$ bằng:",
           "options": [
             "$3$",
+            "$0$",
             "$1$",
-            "$2$",
-            "$0$"
+            "$2$"
           ],
           "correct": 0
         },
@@ -1896,60 +1896,60 @@
           "level": "Vận dụng thấp",
           "question": "Rút gọn biểu thức $M = \\frac{x + 1}{x^2 - 2x + 1} - \\frac{1}{x - 1}$ ta được:",
           "options": [
-            "$\\frac{2}{(x - 1)^2}$",
             "$\\frac{2}{x - 1}$",
+            "$0$",
             "$\\frac{x}{(x - 1)^2}$",
-            "$0$"
+            "$\\frac{2}{(x - 1)^2}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Vận dụng thấp",
           "question": "Giá trị của biểu thức $P = \\frac{x + 2}{x - 1} - \\frac{x - 3}{x + 1}$ tại $x = 2$ bằng:",
           "options": [
-            "$\\frac{13}{3}$",
-            "$3$",
             "$\\frac{11}{3}$",
-            "$4$"
+            "$4$",
+            "$3$",
+            "$\\frac{13}{3}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng thấp",
           "question": "Tìm $x$ nguyên để phân thức $A = \\frac{3}{x - 2} + \\frac{1}{2 - x}$ nhận giá trị nguyên:",
           "options": [
-            "$x \\in \\{0, 1, 3, 4\\}$",
             "$x \\in \\{1, 3\\}$",
+            "$x \\in \\{0, 1, 3, 4\\}$",
             "$x \\in \\{2, 4\\}$",
             "$x \\in \\{-1, 0, 1\\}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 11,
           "level": "Vận dụng thấp",
           "question": "Biểu thức $K = \\frac{x - y}{xy} + \\frac{y - z}{yz} + \\frac{z - x}{zx}$ rút gọn được kết quả là:",
           "options": [
-            "$0$",
             "$1$",
             "$\\frac{x + y + z}{xyz}$",
+            "$0$",
             "$-1$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Vận dụng thấp",
           "question": "Một ca nô chạy xuôi dòng $45\\text{ km}$ rồi ngược dòng $18\\text{ km}$. Biết vận tốc dòng nước là $3\\text{ km/h}$. Biểu thức biểu thị tổng thời gian ca nô đi theo vận tốc thực $v\\text{ (km/h)}$ ($v > 3$) là:",
           "options": [
-            "$\\frac{45}{v + 3} + \\frac{18}{v - 3}$",
             "$\\frac{45}{v - 3} + \\frac{18}{v + 3}$",
-            "$\\frac{63}{v}$",
-            "$\\frac{45 + 18}{v + 3}$"
+            "$\\frac{45}{v + 3} + \\frac{18}{v - 3}$",
+            "$\\frac{45 + 18}{v + 3}$",
+            "$\\frac{63}{v}$"
           ],
-          "correct": 0
+          "correct": 1
         }
       ],
       "part2": [
@@ -2070,9 +2070,9 @@
           "question": "Tính tổng $S = \\frac{1}{x(x + 1)} + \\frac{1}{(x + 1)(x + 2)} + \\frac{1}{(x + 2)(x + 3)}$ ta được kết quả là:",
           "options": [
             "$\\frac{3}{x(x + 3)}$",
-            "$\\frac{1}{x(x + 3)}$",
             "$\\frac{3}{(x + 1)(x + 2)}$",
-            "$\\frac{x}{x + 3}$"
+            "$\\frac{x}{x + 3}$",
+            "$\\frac{1}{x(x + 3)}$"
           ],
           "correct": 0
         },
@@ -2081,12 +2081,12 @@
           "level": "Thông hiểu",
           "question": "Rút gọn biểu thức $P = \\frac{1}{a(a - b)(a - c)} + \\frac{1}{b(b - a)(b - c)} + \\frac{1}{c(c - a)(c - b)}$ với $a, b, c$ đôi một khác nhau và khác 0:",
           "options": [
-            "$\\frac{1}{abc}$",
             "$0$",
             "$\\frac{a + b + c}{abc}$",
+            "$\\frac{1}{abc}$",
             "$1$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
@@ -2095,8 +2095,8 @@
           "options": [
             "$0$",
             "$1$",
-            "$\\frac{1}{xyz}$",
-            "$-1$"
+            "$-1$",
+            "$\\frac{1}{xyz}$"
           ],
           "correct": 0
         },
@@ -2105,12 +2105,12 @@
           "level": "Vận dụng thấp",
           "question": "Cho phân thức $A = \\frac{1}{x - 1} - \\frac{1}{x + 1} - \\frac{2}{x^2 + 1} - \\frac{4}{x^4 + 1}$. Kết quả rút gọn của $A$ là:",
           "options": [
-            "$\\frac{8}{x^8 - 1}$",
+            "$0$",
             "$-\\frac{8}{x^8 - 1}$",
             "$\\frac{4}{x^8 - 1}$",
-            "$0$"
+            "$\\frac{8}{x^8 - 1}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
@@ -2118,9 +2118,9 @@
           "question": "Tìm các hằng số $A, B$ sao cho $\\frac{5x - 2}{x^2 - 4} = \\frac{A}{x - 2} + \\frac{B}{x + 2}$ với mọi $x \\neq \\pm 2$:",
           "options": [
             "$A = 2, B = 3$",
+            "$A = 1, B = 4$",
             "$A = 3, B = 2$",
-            "$A = 5, B = -2$",
-            "$A = 1, B = 4$"
+            "$A = 5, B = -2$"
           ],
           "correct": 0
         },
@@ -2129,84 +2129,84 @@
           "level": "Vận dụng cao",
           "question": "Cho ba số thực $x, y, z$ thỏa mãn $xy + yz + zx = 1$. Giá trị của biểu thức $P = \\frac{x}{1 + x^2} + \\frac{y}{1 + y^2} + \\frac{z}{1 + z^2}$ bằng:",
           "options": [
-            "$\\frac{2}{(x + y)(y + z)(z + x)}$",
             "$\\frac{1}{(x + y)(y + z)(z + x)}$",
-            "$1$",
-            "$0$"
+            "$\\frac{2}{(x + y)(y + z)(z + x)}$",
+            "$0$",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 7,
           "level": "Vận dụng cao",
           "question": "Tính tổng $S = \\frac{1}{x^2 + 3x + 2} + \\frac{1}{x^2 + 5x + 6} + \\frac{1}{x^2 + 7x + 12}$ ta được:",
           "options": [
+            "$\\frac{x}{(x + 1)(x + 4)}$",
             "$\\frac{3}{(x + 1)(x + 4)}$",
             "$\\frac{1}{(x + 1)(x + 4)}$",
-            "$\\frac{3}{x^2 + 4x}$",
-            "$\\frac{x}{(x + 1)(x + 4)}$"
+            "$\\frac{3}{x^2 + 4x}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 8,
           "level": "Vận dụng cao",
           "question": "Cho $a, b, c > 0$. Giá trị nhỏ nhất của biểu thức $P = \\frac{a}{b + c} + \\frac{b}{c + a} + \\frac{c}{a + b}$ (Bất đẳng thức Nesbitt) bằng:",
           "options": [
-            "$\\frac{3}{2}$",
             "$1$",
+            "$\\frac{3}{2}$",
             "$2$",
             "$3$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Có bao nhiêu số nguyên dương $n$ để phân thức $A = \\frac{n^2 + 3n + 5}{n + 1}$ nhận giá trị nguyên?",
           "options": [
-            "$2$",
-            "$1$",
             "$3$",
+            "$1$",
+            "$2$",
             "$4$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Cho $\\frac{a}{x} + \\frac{b}{y} + \\frac{c}{z} = 1$ và $\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 0$. Giá trị của $\\frac{a^2}{x^2} + \\frac{b^2}{y^2} + \\frac{c^2}{z^2}$ bằng:",
           "options": [
-            "$1$",
-            "$0$",
+            "$4$",
             "$2$",
-            "$4$"
+            "$0$",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Vận dụng cao",
           "question": "Tìm giá trị nhỏ nhất của biểu thức $Q = \\frac{x^2 - 2x + 2025}{x^2}$ với $x > 0$:",
           "options": [
-            "$\\frac{2024}{2025}$",
+            "$\\frac{2025}{2024}$",
             "$1$",
-            "$2025$",
-            "$\\frac{2025}{2024}$"
+            "$\\frac{2024}{2025}$",
+            "$2025$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
           "question": "Rút gọn biểu thức $S_n = \\frac{1}{1 \\cdot 3} + \\frac{1}{3 \\cdot 5} + \\dots + \\frac{1}{(2n - 1)(2n + 1)}$ thành một phân thức theo $n$:",
           "options": [
-            "$\\frac{n}{2n + 1}$",
-            "$\\frac{1}{2n + 1}$",
             "$\\frac{2n}{2n + 1}$",
-            "$\\frac{n - 1}{2n + 1}$"
+            "$\\frac{n - 1}{2n + 1}$",
+            "$\\frac{1}{2n + 1}$",
+            "$\\frac{n}{2n + 1}$"
           ],
-          "correct": 0
+          "correct": 3
         }
       ],
       "part2": [
@@ -2327,9 +2327,9 @@
           "question": "Quy tắc nhân hai phân thức đại số $\\frac{A}{B}$ và $\\frac{C}{D}$ ($B \\ne 0, D \\ne 0$) là:",
           "options": [
             "$\\frac{A}{B} \\cdot \\frac{C}{D} = \\frac{A \\cdot C}{B \\cdot D}$",
+            "$\\frac{A}{B} \\cdot \\frac{C}{D} = \\frac{A \\cdot C}{B + D}$",
             "$\\frac{A}{B} \\cdot \\frac{C}{D} = \\frac{A \\cdot D}{B \\cdot C}$",
-            "$\\frac{A}{B} \\cdot \\frac{C}{D} = \\frac{A + C}{B + D}$",
-            "$\\frac{A}{B} \\cdot \\frac{C}{D} = \\frac{A \\cdot C}{B + D}$"
+            "$\\frac{A}{B} \\cdot \\frac{C}{D} = \\frac{A + C}{B + D}$"
           ],
           "correct": 0
         },
@@ -2339,21 +2339,21 @@
           "question": "Phân thức nghịch đảo của phân thức $\\frac{3x}{x - 2}$ (với $x \\ne 0, x \\ne 2$) là:",
           "options": [
             "$-\\frac{3x}{x - 2}$",
-            "$\\frac{x - 2}{3x}$",
+            "$\\frac{2 - x}{3x}$",
             "$\\frac{3x}{2 - x}$",
-            "$\\frac{2 - x}{3x}$"
+            "$\\frac{x - 2}{3x}$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Quy tắc chia phân thức $\\frac{A}{B}$ cho phân thức $\\frac{C}{D}$ khác $0$ ($B \\ne 0, D \\ne 0, C \\ne 0$) là:",
           "options": [
-            "$\\frac{A}{B} : \\frac{C}{D} = \\frac{A \\cdot C}{B \\cdot D}$",
             "$\\frac{A}{B} : \\frac{C}{D} = \\frac{B \\cdot C}{A \\cdot D}$",
+            "$\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{C}{D}$",
             "$\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{D}{C}$",
-            "$\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{C}{D}$"
+            "$\\frac{A}{B} : \\frac{C}{D} = \\frac{A \\cdot C}{B \\cdot D}$"
           ],
           "correct": 2
         },
@@ -2363,9 +2363,9 @@
           "question": "Kết quả của phép nhân $\\frac{2}{x} \\cdot \\frac{x}{3}$ (với $x \\ne 0$) là:",
           "options": [
             "$\\frac{2}{3}$",
-            "$\\frac{2x^2}{3}$",
+            "$\\frac{5}{x+3}$",
             "$\\frac{3}{2}$",
-            "$\\frac{5}{x+3}$"
+            "$\\frac{2x^2}{3}$"
           ],
           "correct": 0
         },
@@ -2374,10 +2374,10 @@
           "level": "Nhận biết",
           "question": "Kết quả của phép nhân $\\frac{x - 1}{x + 2} \\cdot \\frac{x + 2}{x - 1}$ (với $x \\ne 1, x \\ne -2$) bằng:",
           "options": [
-            "$-1$",
+            "$2$",
             "$0$",
             "$1$",
-            "$2$"
+            "$-1$"
           ],
           "correct": 2
         },
@@ -2398,12 +2398,12 @@
           "level": "Nhận biết",
           "question": "Kết quả của phép chia $\\frac{5x}{y} : \\frac{5x}{y}$ (với $x \\ne 0, y \\ne 0$) là:",
           "options": [
-            "$1$",
-            "$\\frac{25x^2}{y^2}$",
+            "$5$",
             "$0$",
-            "$5$"
+            "$1$",
+            "$\\frac{25x^2}{y^2}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 8,
@@ -2423,9 +2423,9 @@
           "question": "Thực hiện phép tính $\\frac{3x^2}{4y} \\cdot \\frac{2y^2}{9x}$ (với $x \\ne 0, y \\ne 0$) ta được:",
           "options": [
             "$\\frac{xy}{6}$",
-            "$\\frac{x^2 y^2}{6}$",
+            "$\\frac{6xy}{36}$",
             "$\\frac{xy}{12}$",
-            "$\\frac{6xy}{36}$"
+            "$\\frac{x^2 y^2}{6}$"
           ],
           "correct": 0
         },
@@ -2434,24 +2434,24 @@
           "level": "Thông hiểu",
           "question": "Thực hiện phép chia $\\frac{6x}{x + 1} : \\frac{2x}{x + 1}$ (với $x \\ne 0, x \\ne -1$) được kết quả là:",
           "options": [
-            "$3$",
             "$\\frac{3x}{x + 1}$",
+            "$3$",
             "$\\frac{12x^2}{(x + 1)^2}$",
             "$\\frac{1}{3}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Thực hiện phép nhân $\\frac{x - 3}{x + 1} \\cdot \\frac{2x + 2}{x - 3}$ (với $x \\ne 3, x \\ne -1$) ta được kết quả là:",
           "options": [
+            "$2(x - 3)$",
             "$2$",
             "$1$",
-            "$2(x - 3)$",
             "$\\frac{2}{x + 1}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
@@ -2459,11 +2459,11 @@
           "question": "Biết $\\frac{x - 2}{5} \\cdot P = \\frac{x^2 - 4}{5}$. Phân thức $P$ là:",
           "options": [
             "$x - 2$",
-            "$x + 2$",
             "$\\frac{1}{x + 2}$",
-            "$5$"
+            "$5$",
+            "$x + 2$"
           ],
-          "correct": 1
+          "correct": 3
         }
       ],
       "part2": [
@@ -2583,60 +2583,60 @@
           "level": "Thông hiểu",
           "question": "Rút gọn biểu thức $A = \\frac{x^3 - 8}{x^2 + x} \\cdot \\frac{x + 1}{x^2 + 2x + 4}$ với $x \\neq 0, x \\neq -1$ ta được:",
           "options": [
-            "$\\frac{x - 2}{x}$",
             "$\\frac{x + 2}{x}$",
-            "$\\frac{x - 2}{x + 1}$",
-            "$\\frac{1}{x}$"
+            "$\\frac{1}{x}$",
+            "$\\frac{x - 2}{x}$",
+            "$\\frac{x - 2}{x + 1}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Thông hiểu",
           "question": "Thực hiện phép tính $\\frac{x^2 - 4y^2}{x^2 - y^2} : \\frac{x - 2y}{x - y}$ ta được kết quả là:",
           "options": [
-            "$\\frac{x + 2y}{x + y}$",
             "$\\frac{x - 2y}{x + y}$",
-            "$\\frac{x + 2y}{x - y}$",
-            "$1$"
+            "$\\frac{x + 2y}{x + y}$",
+            "$1$",
+            "$\\frac{x + 2y}{x - y}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Cho biểu thức $P = \\left(\\frac{x}{x + 1} + 1\\right) : \\left(1 - \\frac{3x^2}{1 - x^2}\\right)$. Điều kiện xác định của $P$ là:",
           "options": [
-            "$x \\neq \\pm 1$ và $x \\neq \\pm \\frac{1}{2}$",
-            "$x \\neq \\pm 1$",
             "$x \\neq 0$ và $x \\neq 1$",
-            "$x \\neq -1$"
+            "$x \\neq \\pm 1$",
+            "$x \\neq -1$",
+            "$x \\neq \\pm 1$ và $x \\neq \\pm \\frac{1}{2}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 4,
           "level": "Thông hiểu",
           "question": "Rút gọn biểu thức $\\frac{x^2 - 1}{x^2 + 2x + 1} : \\frac{x - 1}{x + 1}$ với $x \\neq \\pm 1$ ta được:",
           "options": [
+            "$\\frac{1}{(x + 1)^2}$",
             "$1$",
-            "$\\frac{x - 1}{x + 1}$",
             "$-1$",
-            "$\\frac{1}{(x + 1)^2}$"
+            "$\\frac{x - 1}{x + 1}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 5,
           "level": "Thông hiểu",
           "question": "Tìm biểu thức $Q$ biết rằng $\\frac{x - 1}{x + 2} \\cdot Q = \\frac{x^2 - 1}{x^2 - 4}$:",
           "options": [
-            "$\\frac{x + 1}{x - 2}$",
-            "$\\frac{x - 1}{x - 2}$",
+            "$\\frac{x - 1}{x + 2}$",
             "$\\frac{x + 1}{x + 2}$",
-            "$\\frac{x - 1}{x + 2}$"
+            "$\\frac{x + 1}{x - 2}$",
+            "$\\frac{x - 1}{x - 2}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 6,
@@ -2644,9 +2644,9 @@
           "question": "Cho $M = \\left(\\frac{x + 2}{x - 2} - \\frac{x - 2}{x + 2}\\right) : \\frac{8}{x^2 - 4}$. Giá trị của $M$ là:",
           "options": [
             "$x$",
+            "$1$",
             "$2x$",
-            "$\\frac{x}{2}$",
-            "$1$"
+            "$\\frac{x}{2}$"
           ],
           "correct": 0
         },
@@ -2655,12 +2655,12 @@
           "level": "Vận dụng thấp",
           "question": "Cho biểu thức $A = \\left(\\frac{x - 1}{x}\\right)^2 : \\frac{x^2 - 1}{x^2 + x}$. Sau khi rút gọn, giá trị của $A$ tại $x = 5$ là:",
           "options": [
-            "$\\frac{4}{5}$",
+            "$\\frac{6}{5}$",
             "$\\frac{5}{4}$",
-            "$1$",
-            "$\\frac{6}{5}$"
+            "$\\frac{4}{5}$",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 8,
@@ -2668,9 +2668,9 @@
           "question": "Tìm $x$ để biểu thức $B = \\frac{x^2 - 9}{x + 1} : \\frac{x - 3}{x + 1}$ có giá trị bằng 7:",
           "options": [
             "$x = 4$",
-            "$x = 3$",
             "$x = -4$",
-            "$x = 10$"
+            "$x = 10$",
+            "$x = 3$"
           ],
           "correct": 0
         },
@@ -2679,36 +2679,36 @@
           "level": "Vận dụng thấp",
           "question": "Tính tích $P = \\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right) \\dots \\left(1 - \\frac{1}{n}\\right)$ dưới dạng phân thức:",
           "options": [
-            "$\\frac{1}{n}$",
+            "$\\frac{1}{n(n - 1)}$",
             "$\\frac{2}{n}$",
             "$\\frac{n - 1}{n}$",
-            "$\\frac{1}{n(n - 1)}$"
+            "$\\frac{1}{n}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 10,
           "level": "Vận dụng thấp",
           "question": "Rút gọn biểu thức $C = \\frac{x^2 - 4x + 4}{x^2 - 1} \\cdot \\frac{x + 1}{x - 2}$ ta được:",
           "options": [
-            "$\\frac{x - 2}{x - 1}$",
             "$\\frac{x - 2}{x + 1}$",
+            "$1$",
             "$\\frac{x + 2}{x - 1}$",
-            "$1$"
+            "$\\frac{x - 2}{x - 1}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Vận dụng thấp",
           "question": "Tìm giá trị nguyên của $x$ để biểu thức $D = \\frac{2x + 4}{x - 1} : \\frac{x + 2}{x - 1}$ nhận giá trị nguyên:",
           "options": [
+            "$x = 2$",
             "Với mọi số nguyên $x \\neq 1, x \\neq -2$",
             "$x = 0$",
-            "$x = 2$",
             "Không có $x$ nào"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 12,
@@ -2716,9 +2716,9 @@
           "question": "Một khối rubik hình lập phương có thể tích là $V = \\frac{x^3 + 3x^2 + 3x + 1}{8}\\text{ cm}^3$. Cạnh của khối rubik đó là:",
           "options": [
             "$\\frac{x + 1}{2}\\text{ cm}$",
+            "$(x + 1)\\text{ cm}$",
             "$\\frac{x + 1}{4}\\text{ cm}$",
-            "$\\frac{(x + 1)^2}{4}\\text{ cm}$",
-            "$(x + 1)\\text{ cm}$"
+            "$\\frac{(x + 1)^2}{4}\\text{ cm}$"
           ],
           "correct": 0
         }
@@ -2840,60 +2840,60 @@
           "level": "Thông hiểu",
           "question": "Tính tích vô hạn $P = \\left(1 - \\frac{1}{4}\\right)\\left(1 - \\frac{1}{9}\\right)\\left(1 - \\frac{1}{16}\\right) \\dots \\left(1 - \\frac{1}{n^2}\\right)$ theo $n$:",
           "options": [
-            "$\\frac{n + 1}{2n}$",
-            "$\\frac{n}{2(n + 1)}$",
             "$\\frac{n - 1}{2n}$",
+            "$\\frac{n}{2(n + 1)}$",
+            "$\\frac{n + 1}{2n}$",
             "$\\frac{1}{2n}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 2,
           "level": "Thông hiểu",
           "question": "Cho biểu thức $A = \\left(\\frac{x^2 - y^2}{x^3 - y^3}\\right) : \\left(\\frac{x + y}{x^2 + xy + y^2}\\right)$. Giá trị của $A$ bằng:",
           "options": [
-            "$1$",
-            "$x - y$",
             "$x + y$",
-            "$\\frac{1}{x - y}$"
+            "$\\frac{1}{x - y}$",
+            "$1$",
+            "$x - y$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Vận dụng thấp",
           "question": "Rút gọn biểu thức $M = \\left(\\frac{a + b}{a - b} - \\frac{a - b}{a + b}\\right) : \\left(\\frac{a + b}{a - b} + \\frac{a - b}{a + b}\\right)$ ta được:",
           "options": [
-            "$\\frac{2ab}{a^2 + b^2}$",
+            "$1$",
             "$\\frac{4ab}{a^2 + b^2}$",
-            "$\\frac{ab}{a^2 + b^2}$",
-            "$1$"
+            "$\\frac{2ab}{a^2 + b^2}$",
+            "$\\frac{ab}{a^2 + b^2}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 4,
           "level": "Vận dụng thấp",
           "question": "Cho $x, y, z$ khác 0 thỏa mãn $x + y + z = 0$. Rút gọn biểu thức $P = \\left(\\frac{x}{y - z} + \\frac{y}{z - x} + \\frac{z}{x - y}\\right)\\left(\\frac{y - z}{x} + \\frac{z - x}{y} + \\frac{x - y}{z}\\right)$ ta được:",
           "options": [
-            "$9$",
-            "$0$",
             "$1$",
-            "$3$"
+            "$3$",
+            "$0$",
+            "$9$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 5,
           "level": "Vận dụng thấp",
           "question": "Giá trị của biểu thức $Q = \\frac{x^3 + y^3 + z^3 - 3xyz}{(x - y)^2 + (y - z)^2 + (z - x)^2}$ khi $x + y + z = 12$ bằng:",
           "options": [
+            "$24$",
             "$6$",
-            "$12$",
             "$3$",
-            "$24$"
+            "$12$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 6,
@@ -2902,8 +2902,8 @@
           "options": [
             "$2$",
             "$1$",
-            "$4$",
-            "$\\frac{5}{2}$"
+            "$\\frac{5}{2}$",
+            "$4$"
           ],
           "correct": 0
         },
@@ -2912,12 +2912,12 @@
           "level": "Vận dụng cao",
           "question": "Cho biểu thức $A = \\left(\\frac{x^2 - 1}{x^4 - x^2 + 1}\\right) \\cdot \\left(\\frac{x^6 + 1}{x^2 + 1}\\right)$. Rút gọn biểu thức $A$ ta được:",
           "options": [
-            "$x^2 - 1$",
             "$x^2 + 1$",
             "$x^4 - 1$",
-            "$1$"
+            "$1$",
+            "$x^2 - 1$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 8,
@@ -2925,9 +2925,9 @@
           "question": "Tìm số cặp số nguyên $(x; y)$ thỏa mãn đẳng thức phân thức $\\frac{x}{y} + \\frac{y}{x} = 2$ với $1 \\leq x, y \\leq 10$:",
           "options": [
             "$10$",
-            "$5$",
             "$1$",
-            "$20$"
+            "$20$",
+            "$5$"
           ],
           "correct": 0
         },
@@ -2936,24 +2936,24 @@
           "level": "Vận dụng cao",
           "question": "Cho $a, b, c > 0$ thỏa mãn $abc = 1$. Giá trị của biểu thức $S = \\frac{1}{1 + a + ab} + \\frac{1}{1 + b + bc} + \\frac{1}{1 + c + ca}$ bằng:",
           "options": [
+            "$0$",
             "$1$",
-            "$3$",
             "$\\frac{1}{3}$",
-            "$0$"
+            "$3$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 10,
           "level": "Vận dụng cao",
           "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $B = \\left(\\frac{x + 2}{x - 1}\\right) : \\left(\\frac{x + 2}{2x + 1}\\right)$ nhận giá trị nguyên:",
           "options": [
-            "$x \\in \\{-2, 0, 2, 4\\}$",
+            "$x \\in \\{-1, 1\\}$",
             "$x \\in \\{0, 2\\}$",
             "$x \\in \\{2, 4\\}$",
-            "$x \\in \\{-1, 1\\}$"
+            "$x \\in \\{-2, 0, 2, 4\\}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
@@ -2972,12 +2972,12 @@
           "level": "Vận dụng cao",
           "question": "Rút gọn tích $T = \\left(1 + \\frac{1}{1 \\cdot 3}\\right)\\left(1 + \\frac{1}{2 \\cdot 4}\\right)\\left(1 + \\frac{1}{3 \\cdot 5}\\right) \\dots \\left(1 + \\frac{1}{n(n + 2)}\\right)$ theo $n$:",
           "options": [
-            "$\\frac{2(n + 1)}{n + 2}$",
             "$\\frac{n + 1}{n + 2}$",
+            "$\\frac{2(n + 1)}{n + 2}$",
             "$\\frac{2n}{n + 1}$",
             "$\\frac{n + 2}{2(n + 1)}$"
           ],
-          "correct": 0
+          "correct": 1
         }
       ],
       "part2": [
@@ -3099,8 +3099,8 @@
           "options": [
             "$\\frac{x - 1}{0}$",
             "$\\frac{2x + 3}{x - 5}$",
-            "$\\sqrt{x - 1}$",
-            "$\\frac{\\sqrt{x}}{2x + 1}$"
+            "$\\frac{\\sqrt{x}}{2x + 1}$",
+            "$\\sqrt{x - 1}$"
           ],
           "correct": 1
         },
@@ -3109,22 +3109,22 @@
           "level": "Nhận biết",
           "question": "Tử thức của phân thức $\\frac{3x - 7}{2x + 5}$ là",
           "options": [
-            "$3x - 7$",
             "$2x + 5$",
+            "$2x$",
             "$3x$",
-            "$2x$"
+            "$3x - 7$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 3,
           "level": "Nhận biết",
           "question": "Điều kiện xác định của phân thức $\\frac{x + 2}{x - 3}$ là",
           "options": [
-            "$x \\ne -2$",
-            "$x \\ne 3$",
             "$x = 3$",
-            "$x \\ne 0$"
+            "$x \\ne 3$",
+            "$x \\ne 0$",
+            "$x \\ne -2$"
           ],
           "correct": 1
         },
@@ -3133,12 +3133,12 @@
           "level": "Nhận biết",
           "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ ($B \\ne 0, D \\ne 0$) bằng nhau khi",
           "options": [
-            "$A \\cdot C = B \\cdot D$",
-            "$A + D = B + C$",
             "$A \\cdot D = B \\cdot C$",
-            "$A - D = B - C$"
+            "$A - D = B - C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$"
           ],
-          "correct": 2
+          "correct": 0
         },
         {
           "id": 5,
@@ -3146,9 +3146,9 @@
           "question": "Kết quả rút gọn của phân thức $\\frac{5xy}{10x}$ (với $x \\ne 0$) là",
           "options": [
             "$\\frac{y}{2}$",
+            "$2y$",
             "$\\frac{y}{5}$",
-            "$\\frac{x}{2}$",
-            "$2y$"
+            "$\\frac{x}{2}$"
           ],
           "correct": 0
         },
@@ -3157,24 +3157,24 @@
           "level": "Nhận biết",
           "question": "Phân thức đối của phân thức $\\frac{x - 2}{x + 1}$ là",
           "options": [
-            "$\\frac{x + 2}{x + 1}$",
             "$\\frac{2 - x}{x + 1}$",
             "$\\frac{x - 2}{-x - 1}$",
+            "$\\frac{x + 2}{x + 1}$",
             "$\\frac{-x + 2}{-x - 1}$"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": 7,
           "level": "Nhận biết",
           "question": "Phân thức nghịch đảo của phân thức $\\frac{2x}{x - 3}$ (với $x \\ne 0; x \\ne 3$) là",
           "options": [
-            "$\\frac{x - 3}{2x}$",
             "$-\\frac{2x}{x - 3}$",
-            "$\\frac{3 - x}{2x}$",
-            "$\\frac{-2x}{x - 3}$"
+            "$\\frac{-2x}{x - 3}$",
+            "$\\frac{x - 3}{2x}$",
+            "$\\frac{3 - x}{2x}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 8,
@@ -3182,47 +3182,47 @@
           "question": "Kết quả của phép tính $\\frac{x}{x + 2} + \\frac{2}{x + 2}$ là",
           "options": [
             "$\\frac{x + 2}{2x + 4}$",
-            "$1$",
+            "$0$",
             "$\\frac{2x}{x + 2}$",
-            "$0$"
+            "$1$"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": 9,
           "level": "Thông hiểu",
           "question": "Giá trị của phân thức $P = \\frac{2x - 1}{x + 2}$ tại $x = 3$ là",
           "options": [
-            "$1$",
             "$\\frac{7}{5}$",
-            "$-1$",
-            "$2$"
+            "$2$",
+            "$1$",
+            "$-1$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
           "level": "Thông hiểu",
           "question": "Kết quả của phép trừ $\\frac{3x - 1}{x - 1} - \\frac{2x}{x - 1}$ là",
           "options": [
-            "$\\frac{x - 1}{x - 1} = 1$",
             "$\\frac{5x - 1}{x - 1}$",
             "$\\frac{x + 1}{x - 1}$",
-            "$-1$"
+            "$-1$",
+            "$\\frac{x - 1}{x - 1} = 1$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 11,
           "level": "Thông hiểu",
           "question": "Kết quả của phép nhân $\\frac{3x}{x - 2} \\cdot \\frac{x - 2}{6x^2}$ (với $x \\ne 0, x \\ne 2$) là",
           "options": [
-            "$\\frac{1}{2x}$",
             "$\\frac{1}{2}$",
-            "$2x$",
-            "$\\frac{x}{2}$"
+            "$\\frac{x}{2}$",
+            "$\\frac{1}{2x}$",
+            "$2x$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
@@ -3231,8 +3231,8 @@
           "options": [
             "$6x$",
             "$6x^2$",
-            "$5x^2$",
-            "$6x^3$"
+            "$6x^3$",
+            "$5x^2$"
           ],
           "correct": 1
         }
@@ -3366,24 +3366,24 @@
           "level": "Thông hiểu",
           "question": "Rút gọn phân thức $\\frac{x^3 - 3x^2 + 3x - 1}{x - 1}$ với $x \\neq 1$ ta được:",
           "options": [
-            "$(x - 1)^2$",
             "$x^2 - 1$",
-            "$x - 1$",
-            "$(x + 1)^2$"
+            "$(x + 1)^2$",
+            "$(x - 1)^2$",
+            "$x - 1$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 3,
           "level": "Thông hiểu",
           "question": "Biểu thức $M = \\frac{x + 1}{x - 2} - \\frac{x - 1}{x + 2} - \\frac{8}{x^2 - 4}$ rút gọn được kết quả là:",
           "options": [
-            "$\\frac{6x - 8}{x^2 - 4}$",
             "$\\frac{6x}{x^2 - 4}$",
+            "$1$",
             "$\\frac{2x - 8}{x^2 - 4}$",
-            "$1$"
+            "$\\frac{6x - 8}{x^2 - 4}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 4,
@@ -3391,9 +3391,9 @@
           "question": "Tìm $x$ để phân thức $\\frac{x^2 - 25}{x - 5}$ nhận giá trị bằng $12$:",
           "options": [
             "$x = 7$",
-            "$x = 5$",
+            "Không có $x$ nào",
             "$x = 12$",
-            "Không có $x$ nào"
+            "$x = 5$"
           ],
           "correct": 0
         },
@@ -3402,24 +3402,24 @@
           "level": "Thông hiểu",
           "question": "Cho biểu thức $A = \\left(\\frac{x}{x^2 - 1}\\right) : \\left(\\frac{1}{x - 1} - \\frac{1}{x + 1}\\right)$. Rút gọn $A$ ta được:",
           "options": [
-            "$\\frac{x}{2}$",
             "$2x$",
             "$x$",
-            "$\\frac{1}{2}$"
+            "$\\frac{1}{2}$",
+            "$\\frac{x}{2}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 6,
           "level": "Vận dụng thấp",
           "question": "Tìm các giá trị nguyên của $x$ để phân thức $\\frac{2x + 7}{x + 2}$ nhận giá trị nguyên:",
           "options": [
-            "$x \\in \\{-5, -3, -1, 1\\}$",
+            "$x \\in \\{0, 1\\}$",
             "$x \\in \\{-1, 1\\}$",
-            "$x \\in \\{1, 2, 3\\}$",
-            "$x \\in \\{0, 1\\}$"
+            "$x \\in \\{-5, -3, -1, 1\\}$",
+            "$x \\in \\{1, 2, 3\\}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 7,
@@ -3427,9 +3427,9 @@
           "question": "Cho $P = \\frac{x - 2}{x + 3}$. Tìm $x$ để $P < 0$:",
           "options": [
             "$-3 < x < 2$",
+            "$x \\leq -3$ hoặc $x \\geq 2$",
             "$x > 2$",
-            "$x < -3$",
-            "$x \\leq -3$ hoặc $x \\geq 2$"
+            "$x < -3$"
           ],
           "correct": 0
         },
@@ -3438,60 +3438,60 @@
           "level": "Vận dụng thấp",
           "question": "Biết rằng $\\frac{1}{x(x + 1)} = \\frac{a}{x} + \\frac{b}{x + 1}$. Giá trị của $a - b$ bằng:",
           "options": [
-            "$2$",
             "$0$",
-            "$1$",
-            "$-2$"
+            "$2$",
+            "$-2$",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 9,
           "level": "Vận dụng thấp",
           "question": "Giá trị nhỏ nhất của phân thức $Q = \\frac{5}{x^2 - 2x + 3}$ là:",
           "options": [
-            "Không có GTNN (GTLN bằng $\\frac{5}{2}$ khi $x = 1$)",
             "$\\frac{5}{2}$",
+            "Không có GTNN (GTLN bằng $\\frac{5}{2}$ khi $x = 1$)",
             "$1$",
             "$5$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 10,
           "level": "Vận dụng thấp",
           "question": "Biểu thức $K = \\left(1 - \\frac{2}{x + 1}\\right) \\cdot \\left(\\frac{x^2 + 1}{x - 1} + 1\\right)$ với $x \\neq \\pm 1$ rút gọn bằng:",
           "options": [
+            "$1$",
             "$x$",
             "$x - 1$",
-            "$x + 1$",
-            "$1$"
+            "$x + 1$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 11,
           "level": "Vận dụng thấp",
           "question": "Hai vòi nước cùng chảy vào bể cạn thì sau 6 giờ đầy bể. Nếu vòi 1 chảy một mình mất $x$ giờ đầy bể ($x > 6$) thì trong 1 giờ vòi 2 chảy được:",
           "options": [
-            "$\\frac{1}{6} - \\frac{1}{x}$ bể",
             "$\\frac{1}{x} - \\frac{1}{6}$ bể",
             "$\\frac{x - 6}{6}$ bể",
+            "$\\frac{1}{6} - \\frac{1}{x}$ bể",
             "$\\frac{6}{x}$ bể"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 12,
           "level": "Vận dụng thấp",
           "question": "Cho phân thức $M = \\frac{x^2 - 4x + 3}{x^2 - 1}$. Giá trị của $M$ tại $x = 99$ bằng:",
           "options": [
-            "$\\frac{48}{50} = 0.96$",
-            "$\\frac{96}{100} = 0.96$",
             "$\\frac{97}{100}$",
-            "$1$"
+            "$1$",
+            "$\\frac{96}{100} = 0.96$",
+            "$\\frac{48}{50} = 0.96$"
           ],
-          "correct": 0
+          "correct": 3
         }
       ],
       "part2": [
@@ -3611,60 +3611,60 @@
           "level": "Thông hiểu",
           "question": "Cho ba số thực $a, b, c$ khác 0 thỏa mãn $a + b + c = 0$. Giá trị của biểu thức $P = \\frac{ab}{a^2 + b^2 - c^2} + \\frac{bc}{b^2 + c^2 - a^2} + \\frac{ca}{c^2 + a^2 - b^2}$ bằng:",
           "options": [
+            "$1$",
             "$-\\frac{3}{2}$",
             "$\\frac{3}{2}$",
-            "$0$",
-            "$1$"
+            "$0$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 2,
           "level": "Thông hiểu",
           "question": "Rút gọn biểu thức $A = \\left(\\frac{x}{x^2 - 4} + \\frac{2}{2 - x} + \\frac{1}{x + 2}\\right) : \\left(x - 2 + \\frac{10 - x^2}{x + 2}\\right)$ với $x$ thỏa mãn ĐKXĐ ta được:",
           "options": [
+            "$1$",
             "$-\\frac{1}{x - 2}$",
             "$\\frac{1}{x - 2}$",
-            "$\\frac{1}{x + 2}$",
-            "$1$"
+            "$\\frac{1}{x + 2}$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 3,
           "level": "Vận dụng thấp",
           "question": "Cho $x > 0$. Giá trị nhỏ nhất của biểu thức $P = \\frac{x^2 + 2025}{x}$ bằng:",
           "options": [
-            "$2\\sqrt{2025} = 90$",
             "$45$",
+            "$180$",
             "$2025$",
-            "$180$"
+            "$2\\sqrt{2025} = 90$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 4,
           "level": "Vận dụng thấp",
           "question": "Cho $x, y$ thỏa mãn $x^2 + y^2 = 1$. Giá trị lớn nhất của phân thức $M = \\frac{2xy}{x^2 + 2xy + y^2 + 1}$ là:",
           "options": [
-            "$\\frac{1}{2}$",
+            "$\\frac{2}{3}$",
             "$1$",
-            "$\\frac{1}{4}$",
-            "$\\frac{2}{3}$"
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 5,
           "level": "Vận dụng thấp",
           "question": "Tính tổng $S = \\frac{1}{1 \\cdot 2 \\cdot 3} + \\frac{1}{2 \\cdot 3 \\cdot 4} + \\dots + \\frac{1}{n(n + 1)(n + 2)}$ theo $n$:",
           "options": [
-            "$\\frac{n(n + 3)}{4(n + 1)(n + 2)}$",
-            "$\\frac{1}{4(n + 1)(n + 2)}$",
             "$\\frac{n}{2(n + 1)(n + 2)}$",
-            "$\\frac{n(n + 1)}{2(n + 2)}$"
+            "$\\frac{1}{4(n + 1)(n + 2)}$",
+            "$\\frac{n(n + 1)}{2(n + 2)}$",
+            "$\\frac{n(n + 3)}{4(n + 1)(n + 2)}$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 6,
@@ -3672,9 +3672,9 @@
           "question": "Tìm tất cả các cặp số nguyên $(x; y)$ thỏa mãn đẳng thức phân thức $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{2}$ với $x \\leq y$:",
           "options": [
             "$(x; y) \\in \\{(3; 6), (4; 4), (1; -2), (-2; 1)\\}$",
-            "$(x; y) \\in \\{(3; 6), (4; 4)\\}$",
+            "$(x; y) \\in \\{(1; 2), (2; 4)\\}$",
             "$(x; y) \\in \\{(2; 2), (4; 4)\\}$",
-            "$(x; y) \\in \\{(1; 2), (2; 4)\\}$"
+            "$(x; y) \\in \\{(3; 6), (4; 4)\\}$"
           ],
           "correct": 0
         },
@@ -3683,36 +3683,36 @@
           "level": "Vận dụng cao",
           "question": "Cho các số thực dương $a, b, c$ thỏa mãn $a + b + c = 3$. Giá trị nhỏ nhất của biểu thức $P = \\frac{a^2}{b + 1} + \\frac{b^2}{c + 1} + \\frac{c^2}{a + 1}$ bằng:",
           "options": [
-            "$\\frac{3}{2}$",
             "$3$",
+            "$\\frac{3}{2}$",
             "$1$",
             "$2$"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": 8,
           "level": "Vận dụng cao",
           "question": "Cho $x, y, z$ đôi một khác nhau thỏa mãn $\\frac{x}{y - z} + \\frac{y}{z - x} + \\frac{z}{x - y} = 0$. Khẳng định nào sau đây là ĐÚNG?",
           "options": [
-            "Trong ba phân thức trên, ít nhất có một phân thức nhận giá trị âm và một phân thức nhận giá trị dương",
+            "Tổng bình phương của ba phân thức bằng 0",
             "Cả ba phân thức đều cùng bằng 0",
-            "Tích của ba phân thức bằng 1",
-            "Tổng bình phương của ba phân thức bằng 0"
+            "Trong ba phân thức trên, ít nhất có một phân thức nhận giá trị âm và một phân thức nhận giá trị dương",
+            "Tích của ba phân thức bằng 1"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 9,
           "level": "Vận dụng cao",
           "question": "Tìm giá trị lớn nhất của biểu thức $A = \\frac{x}{(x + 2026)^2}$ với $x > 0$:",
           "options": [
-            "$\\frac{1}{8104}$",
+            "$\\frac{1}{1013}$",
             "$\\frac{1}{2026}$",
-            "$\\frac{1}{4052}$",
-            "$\\frac{1}{1013}$"
+            "$\\frac{1}{8104}$",
+            "$\\frac{1}{4052}$"
           ],
-          "correct": 0
+          "correct": 2
         },
         {
           "id": 10,
@@ -3721,8 +3721,8 @@
           "options": [
             "$S \\geq 2$",
             "$S \\geq 0$",
-            "$S \\leq 1$",
-            "$S = 3$"
+            "$S = 3$",
+            "$S \\leq 1$"
           ],
           "correct": 0
         },
@@ -3731,12 +3731,12 @@
           "level": "Vận dụng cao",
           "question": "Tìm số nghiệm nguyên của phương trình $\\frac{x^2 - 3x + 2}{x - 1} = 0$:",
           "options": [
-            "$1$",
             "$2$",
             "$0$",
-            "Vô số"
+            "Vô số",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 3
         },
         {
           "id": 12,
@@ -3745,8 +3745,8 @@
           "options": [
             "$a^3 - 3a$",
             "$a^3 + 3a$",
-            "$a^3 - 1$",
-            "$a(a^2 - 1)$"
+            "$a(a^2 - 1)$",
+            "$a^3 - 1$"
           ],
           "correct": 0
         }

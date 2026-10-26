@@ -29,52 +29,56 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid 3 < x \\le 8\\}$. Khẳng định nào sau đây là **đúng**?",
             "options": [
-              "$3 \\in M$",
-              "$8 \\in M$",
               "$9 \\in M$",
-              "$4 \\notin M$"
+              "$4 \\notin M$",
+              "$3 \\in M$",
+              "$8 \\in M$"
             ],
-            "correct": 1,
-            "explanation": "$M = \\{4; 5; 6; 7; 8\\}$. Do đó $8 \\in M$ là khẳng định đúng."
+            "correct": 3,
+            "explanation": "$M = \\{4; 5; 6; 7; 8\\}$. Do đó $8 \\in M$ là khẳng định đúng.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Số tự nhiên nào sau đây là số nguyên tố?",
             "options": [
-              "$9$",
               "$15$",
               "$17$",
-              "$21$"
+              "$21$",
+              "$9$"
             ],
-            "correct": 2,
-            "explanation": "Số $17$ chỉ có hai ước là $1$ và $17$ nên là số nguyên tố."
+            "correct": 1,
+            "explanation": "Số $17$ chỉ có hai ước là $1$ và $17$ nên là số nguyên tố.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Kết quả của phép nhân hai lũy thừa cùng cơ số $3^4 \\cdot 3^2$ là:",
             "options": [
-              "$3^8$",
-              "$3^6$",
               "$9^6$",
-              "$3^2$"
+              "$3^2$",
+              "$3^6$",
+              "$3^8$"
             ],
-            "correct": 1,
-            "explanation": "$3^4 \\cdot 3^2 = 3^{4+2} = 3^6$."
+            "correct": 2,
+            "explanation": "$3^4 \\cdot 3^2 = 3^{4+2} = 3^6$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Thứ tự thực hiện phép tính đối với biểu thức có các dấu ngoặc là:",
             "options": [
-              "$[\\ ] \\rightarrow (\\ ) \\rightarrow \\{\\ \\}$",
               "$(\\ ) \\rightarrow [\\ ] \\rightarrow \\{\\ \\}$",
               "$\\{\\ \\} \\rightarrow [\\ ] \\rightarrow (\\ )$",
+              "$[\\ ] \\rightarrow (\\ ) \\rightarrow \\{\\ \\}$",
               "$(\\ ) \\rightarrow \\{\\ \\} \\rightarrow [\\ ]$"
             ],
-            "correct": 1,
-            "explanation": "Quy ước: $(\\ ) \\rightarrow [\\ ] \\rightarrow \\{\\ \\}$."
+            "correct": 0,
+            "explanation": "Quy ước: $(\\ ) \\rightarrow [\\ ] \\rightarrow \\{\\ \\}$.",
+            "points": 0.25
           },
           {
             "id": 5,
@@ -82,25 +86,27 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Số nào sau đây chia hết cho cả $2$ và $5$?",
             "options": [
               "$124$",
-              "$235$",
               "$350$",
+              "$235$",
               "$418$"
             ],
-            "correct": 2,
-            "explanation": "Số tận cùng là $0$ thì chia hết cho cả $2$ và $5$."
+            "correct": 1,
+            "explanation": "Số tận cùng là $0$ thì chia hết cho cả $2$ và $5$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Trong các số sau, số nào chia hết cho $9$?",
             "options": [
-              "$135$",
-              "$241$",
+              "$671$",
               "$502$",
-              "$671$"
+              "$135$",
+              "$241$"
             ],
-            "correct": 0,
-            "explanation": "Tổng các chữ số $1 + 3 + 5 = 9 \\ \\vdots \\ 9$ nên $135 \\ \\vdots \\ 9$."
+            "correct": 2,
+            "explanation": "Tổng các chữ số $1 + 3 + 5 = 9 \\ \\vdots \\ 9$ nên $135 \\ \\vdots \\ 9$.",
+            "points": 0.25
           },
           {
             "id": 7,
@@ -108,25 +114,27 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Hình tam giác đều có đặc điểm nào sau đây?",
             "options": [
               "Có hai cạnh bằng nhau",
-              "Có 3 cạnh bằng nhau và 3 góc bằng nhau",
               "Có một góc vuông",
-              "Có hai đường chéo bằng nhau"
+              "Có hai đường chéo bằng nhau",
+              "Có 3 cạnh bằng nhau và 3 góc bằng nhau"
             ],
-            "correct": 1,
-            "explanation": "Tam giác đều có 3 cạnh bằng nhau và 3 góc bằng nhau (cùng bằng $60^\\circ$)."
+            "correct": 3,
+            "explanation": "Tam giác đều có 3 cạnh bằng nhau và 3 góc bằng nhau (cùng bằng $60^\\circ$).",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Hình thoi có độ dài hai đường chéo là $6\\text{ cm}$ và $8\\text{ cm}$. Diện tích của hình thoi đó là:",
             "options": [
-              "$48\\text{ cm}^2$",
-              "$24\\text{ cm}^2$",
               "$14\\text{ cm}^2$",
-              "$28\\text{ cm}^2$"
+              "$28\\text{ cm}^2$",
+              "$48\\text{ cm}^2$",
+              "$24\\text{ cm}^2$"
             ],
-            "correct": 1,
-            "explanation": "$S = \\frac{1}{2} \\cdot 6 \\cdot 8 = 24\\text{ cm}^2$."
+            "correct": 3,
+            "explanation": "$S = \\frac{1}{2} \\cdot 6 \\cdot 8 = 24\\text{ cm}^2$.",
+            "points": 0.25
           },
           {
             "id": 9,
@@ -139,52 +147,56 @@ window.PERIODIC_EXAM_BANK = {
               "$16$"
             ],
             "correct": 0,
-            "explanation": "$18 : 9 + 10 = 2 + 10 = 12$."
+            "explanation": "$18 : 9 + 10 = 2 + 10 = 12$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Biết số tự nhiên $\\overline{1x5}$ chia hết cho $3$. Chữ số $x$ có thể nhận giá trị nào sau đây?",
             "options": [
-              "$1$",
-              "$2$",
               "$3$",
-              "$4$"
+              "$1$",
+              "$4$",
+              "$2$"
             ],
-            "correct": 2,
-            "explanation": "Tổng chữ số: $1 + x + 5 = 6 + x \\ \\vdots \\ 3$. Với $x = 3$ thì $6 + 3 = 9 \\ \\vdots \\ 3$."
+            "correct": 0,
+            "explanation": "Tổng chữ số: $1 + x + 5 = 6 + x \\ \\vdots \\ 3$. Với $x = 3$ thì $6 + 3 = 9 \\ \\vdots \\ 3$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Ước chung lớn nhất của $24$ và $36$ là:",
             "options": [
-              "$6$",
-              "$12$",
               "$72$",
-              "$18$"
+              "$12$",
+              "$18$",
+              "$6$"
             ],
             "correct": 1,
-            "explanation": "$24 = 2^3 \\cdot 3; 36 = 2^2 \\cdot 3^2 \\Rightarrow \\text{ƯCLN}(24, 36) = 2^2 \\cdot 3 = 12$."
+            "explanation": "$24 = 2^3 \\cdot 3; 36 = 2^2 \\cdot 3^2 \\Rightarrow \\text{ƯCLN}(24, 36) = 2^2 \\cdot 3 = 12$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một mảnh sân hình chữ nhật có chiều dài $12\\text{ m}$ và chiều rộng $5\\text{ m}$. Chu vi của mảnh sân đó là:",
             "options": [
+              "$70\\text{ m}$",
               "$60\\text{ m}$",
               "$34\\text{ m}$",
-              "$17\\text{ m}$",
-              "$70\\text{ m}$"
+              "$17\\text{ m}$"
             ],
-            "correct": 1,
-            "explanation": "$C = 2 \\cdot (12 + 5) = 34\\text{ m}$."
+            "correct": 2,
+            "explanation": "$C = 2 \\cdot (12 + 5) = 34\\text{ m}$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hai số tự nhiên $A = 2^3 \\cdot 3 \\cdot 5^2$ và $B = 2^2 \\cdot 3^2 \\cdot 7$.",
             "statements": [
               {
@@ -255,34 +267,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức: $P = 75 - (3 \\cdot 5^2 - 4 \\cdot 2^3)$",
             "answer": "32",
-            "explanation": "$3 \\cdot 25 - 4 \\cdot 8 = 75 - 32 = 43$. $P = 75 - 43 = 32$."
+            "explanation": "$3 \\cdot 25 - 4 \\cdot 8 = 75 - 32 = 43$. $P = 75 - 43 = 32$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$ thỏa mãn: $3 \\cdot (x - 4) = 27$",
             "answer": "13",
-            "explanation": "$x - 4 = 9 \\Rightarrow x = 13$."
+            "explanation": "$x - 4 = 9 \\Rightarrow x = 13$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Một đội tình nguyện viên có $36$ nam và $48$ nữ được chia đều vào các tổ sao cho số nam và nữ ở mỗi tổ đều bằng nhau. Hỏi có thể chia được nhiều nhất thành bao nhiêu tổ?",
             "answer": "12",
-            "explanation": "$\\text{ƯCLN}(36, 48) = 12$ tổ."
+            "explanation": "$\\text{ƯCLN}(36, 48) = 12$ tổ.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm chữ số $a$ để số tự nhiên $\\overline{4a10}$ chia hết cho $9$:",
             "answer": "4",
-            "explanation": "$4 + a + 1 + 0 = 5 + a \\ \\vdots \\ 9 \\Rightarrow a = 4$."
+            "explanation": "$4 + a + 1 + 0 = 5 + a \\ \\vdots \\ 9 \\Rightarrow a = 4$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Thực hiện phép tính một cách hợp lý:\na) $28 \\cdot 76 + 28 \\cdot 24 - 800$\nb) $120 : [54 - (5 - 1)^2 \\cdot 2]$",
             "rubric": "a) $28(76 + 24) - 800 = 28 \\cdot 100 - 800 = 2000$ (0.5đ).\nb) $120 : [54 - 16 \\cdot 2] = 120 : 22 = \\frac{60}{11}$ (0.5đ).",
@@ -290,7 +306,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm số tự nhiên $x$, biết:\na) $2x + 15 = 45$\nb) $5^{x+1} - 5^x = 500$",
             "rubric": "a) $2x = 30 \\Rightarrow x = 15$ (0.35đ).\nb) $5^x(5 - 1) = 500 \\Leftrightarrow 4 \\cdot 5^x = 500 \\Leftrightarrow 5^x = 125 = 5^3 \\Rightarrow x = 3$ (0.4đ).",
@@ -336,13 +352,14 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Cho tập hợp $A = \\{2; 3; 5; 7\\}$. Khẳng định nào sau đây là **sai**?",
             "options": [
-              "$2 \\in A$",
-              "$3 \\in A$",
+              "$7 \\in A$",
               "$4 \\in A$",
-              "$7 \\in A$"
+              "$2 \\in A$",
+              "$3 \\in A$"
             ],
-            "correct": 2,
-            "explanation": "Số $4$ không nằm trong tập hợp $A$ nên khẳng định $4 \\in A$ là sai."
+            "correct": 1,
+            "explanation": "Số $4$ không nằm trong tập hợp $A$ nên khẳng định $4 \\in A$ là sai.",
+            "points": 0.25
           },
           {
             "id": 2,
@@ -350,77 +367,83 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Viết tích $5 \\cdot 5 \\cdot 5 \\cdot 5$ dưới dạng lũy thừa ta được:",
             "options": [
               "$4^5$",
-              "$5^4$",
               "$20$",
+              "$5^4$",
               "$5^5$"
             ],
-            "correct": 1,
-            "explanation": "Tích của 4 thừa số 5 là $5^4$."
+            "correct": 2,
+            "explanation": "Tích của 4 thừa số 5 là $5^4$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Kết quả của phép chia hai lũy thừa cùng cơ số $7^6 : 7^2$ là:",
             "options": [
-              "$7^4$",
               "$7^3$",
               "$1^4$",
-              "$7^8$"
+              "$7^8$",
+              "$7^4$"
             ],
-            "correct": 0,
-            "explanation": "$7^6 : 7^2 = 7^{6 - 2} = 7^4$."
+            "correct": 3,
+            "explanation": "$7^6 : 7^2 = 7^{6 - 2} = 7^4$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Giá trị của lũy thừa $2^4$ bằng:",
             "options": [
-              "$8$",
-              "$16$",
               "$6$",
-              "$12$"
+              "$8$",
+              "$12$",
+              "$16$"
             ],
-            "correct": 1,
-            "explanation": "$2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$."
+            "correct": 3,
+            "explanation": "$2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Số nào sau đây là hợp số?",
             "options": [
-              "$2$",
+              "$9$",
               "$3$",
-              "$5$",
-              "$9$"
+              "$2$",
+              "$5$"
             ],
-            "correct": 3,
-            "explanation": "Số $9$ có các ước là $1, 3, 9$ (nhiều hơn 2 ước) nên $9$ là hợp số."
+            "correct": 0,
+            "explanation": "Số $9$ có các ước là $1, 3, 9$ (nhiều hơn 2 ước) nên $9$ là hợp số.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Trong các số sau, số nào chia hết cho cả $3$ và $5$?",
             "options": [
-              "$125$",
-              "$135$",
               "$240$",
-              "$130$"
+              "$130$",
+              "$135$",
+              "$125$"
             ],
-            "correct": 1,
-            "explanation": "Số $135$ có tận cùng là $5$ (chia hết cho 5) và tổng các chữ số $1 + 3 + 5 = 9$ (chia hết cho 3)."
+            "correct": 2,
+            "explanation": "Số $135$ có tận cùng là $5$ (chia hết cho 5) và tổng các chữ số $1 + 3 + 5 = 9$ (chia hết cho 3).",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Hình lục giác đều có bao nhiêu cạnh bằng nhau?",
             "options": [
-              "$4$",
-              "$5$",
               "$6$",
-              "$8$"
+              "$8$",
+              "$4$",
+              "$5$"
             ],
-            "correct": 2,
-            "explanation": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau."
+            "correct": 0,
+            "explanation": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
+            "points": 0.25
           },
           {
             "id": 8,
@@ -428,25 +451,27 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Một hình bình hành có độ dài đáy là $10\\text{ cm}$ và chiều cao tương ứng là $6\\text{ cm}$. Diện tích của hình bình hành đó là:",
             "options": [
               "$60\\text{ cm}^2$",
-              "$30\\text{ cm}^2$",
               "$16\\text{ cm}^2$",
-              "$32\\text{ cm}^2$"
+              "$32\\text{ cm}^2$",
+              "$30\\text{ cm}^2$"
             ],
             "correct": 0,
-            "explanation": "Diện tích hình bình hành: $S = a \\cdot h = 10 \\cdot 6 = 60\\text{ cm}^2$."
+            "explanation": "Diện tích hình bình hành: $S = a \\cdot h = 10 \\cdot 6 = 60\\text{ cm}^2$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Thực hiện phép tính $25 + 15 \\cdot 4 - 3^3$, ta được kết quả là:",
             "options": [
-              "$58$",
               "$68$",
-              "$48$",
-              "$133$"
+              "$58$",
+              "$133$",
+              "$48$"
             ],
-            "correct": 0,
-            "explanation": "$25 + 60 - 27 = 85 - 27 = 58$."
+            "correct": 1,
+            "explanation": "$25 + 60 - 27 = 85 - 27 = 58$.",
+            "points": 0.25
           },
           {
             "id": 10,
@@ -454,44 +479,47 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Bội chung nhỏ nhất của $12$ và $18$ là:",
             "options": [
               "$6$",
-              "$36$",
+              "$216$",
               "$72$",
-              "$216$"
+              "$36$"
             ],
-            "correct": 1,
-            "explanation": "$12 = 2^2 \\cdot 3; 18 = 2 \\cdot 3^2 \\Rightarrow \\text{BCNN}(12, 18) = 2^2 \\cdot 3^2 = 36$."
+            "correct": 3,
+            "explanation": "$12 = 2^2 \\cdot 3; 18 = 2 \\cdot 3^2 \\Rightarrow \\text{BCNN}(12, 18) = 2^2 \\cdot 3^2 = 36$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Biết tổng $120 + x$ chia hết cho $6$. Giá trị của $x$ có thể là:",
             "options": [
-              "$14$",
+              "$20$",
               "$16$",
               "$18$",
-              "$20$"
+              "$14$"
             ],
             "correct": 2,
-            "explanation": "Vì $120 \\ \\vdots \\ 6$ nên để $(120 + x) \\ \\vdots \\ 6$ thì $x$ phải chia hết cho $6$. Trong các đáp án chỉ có $18 \\ \\vdots \\ 6$."
+            "explanation": "Vì $120 \\ \\vdots \\ 6$ nên để $(120 + x) \\ \\vdots \\ 6$ thì $x$ phải chia hết cho $6$. Trong các đáp án Chỉ có $18 \\ \\vdots \\ 6$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một mảnh vườn hình chữ nhật có chu vi $48\\text{ m}$, chiều rộng $10\\text{ m}$. Chiều dài mảnh vườn đó là:",
             "options": [
+              "$24\\text{ m}$",
               "$14\\text{ m}$",
               "$28\\text{ m}$",
-              "$38\\text{ m}$",
-              "$24\\text{ m}$"
+              "$38\\text{ m}$"
             ],
-            "correct": 0,
-            "explanation": "Nửa chu vi là $48 : 2 = 24\\text{ m}$. Chiều dài là $24 - 10 = 14\\text{ m}$."
+            "correct": 1,
+            "explanation": "Nửa chu vi là $48 : 2 = 24\\text{ m}$. Chiều dài là $24 - 10 = 14\\text{ m}$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho số tự nhiên $M = 120$ và $N = 180$. Phân tích ra thừa số nguyên tố: $M = 2^3 \\cdot 3 \\cdot 5$; $N = 2^2 \\cdot 3^2 \\cdot 5$.",
             "statements": [
               {
@@ -562,34 +590,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức: $P = 2^3 \\cdot 5 - 3^2 \\cdot 4 + 2026^0$",
             "answer": "5",
-            "explanation": "$8 \\cdot 5 - 9 \\cdot 4 + 1 = 40 - 36 + 1 = 5$."
+            "explanation": "$8 \\cdot 5 - 9 \\cdot 4 + 1 = 40 - 36 + 1 = 5$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$, biết: $4 \\cdot (x + 5) - 12 = 36$",
             "answer": "7",
-            "explanation": "$4(x + 5) = 48 \\Rightarrow x + 5 = 12 \\Rightarrow x = 7$."
+            "explanation": "$4(x + 5) = 48 \\Rightarrow x + 5 = 12 \\Rightarrow x = 7$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Học sinh khối 6 của một trường khi xếp hàng 10, hàng 12, hàng 15 đều vừa đủ hàng. Biết số học sinh trong khoảng từ 300 đến 400 em. Tính số học sinh khối 6 của trường đó:",
             "answer": "360",
-            "explanation": "$\\text{BCNN}(10, 12, 15) = 60$. Bội của 60 trong khoảng $[300, 400]$ là $360$."
+            "explanation": "$\\text{BCNN}(10, 12, 15) = 60$. Bội của 60 trong khoảng $[300, 400]$ là $360$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm chữ số $x$ để số $\\overline{1x80}$ chia hết cho $9$:",
             "answer": "0",
-            "explanation": "$1 + x + 8 + 0 = 9 + x \\ \\vdots \\ 9 \\Rightarrow x = 0$ (hoặc $x = 9$). Với chữ số nhỏ nhất thỏa mãn là $0$ (hoặc chọn $x=0$)."
+            "explanation": "$1 + x + 8 + 0 = 9 + x \\ \\vdots \\ 9 \\Rightarrow x = 0$ (hoặc $x = 9$). Với chữ số nhỏ nhất thỏa mãn là $0$ (hoặc chọn $x=0$).",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Thực hiện phép tính hợp lý:\na) $47 \\cdot 135 - 47 \\cdot 35 + 200$\nb) $200 : [119 - (25 - 2 \\cdot 3)^2]$",
             "rubric": "a) $47(135 - 35) + 200 = 47 \\cdot 100 + 200 = 4700 + 200 = 4900$ (0.5đ).\nb) $25 - 6 = 19$. $19^2 = 361$ (sai số). Đổi số: $(25 - 2 \\cdot 8)^2 = 9^2 = 81$. $119 - 81 = 38$. Đổi: $200 : [119 - (15 - 2 \\cdot 3)^2] = 200 : [119 - 81] = 200 : 38$ -> Lấy $200 : [129 - (15 - 2 \\cdot 3)^2] = 200 : [129 - 81] = 200 : 48$. Để chẵn: $200 : [125 - 5^2] = 2$ (0.5đ).",
@@ -597,7 +629,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm số tự nhiên $x$, biết:\na) $3x - 18 = 45$\nb) $2^{x+2} - 2^x = 96$",
             "rubric": "a) $3x = 63 \\Rightarrow x = 21$ (0.35đ).\nb) $2^x(2^2 - 1) = 96 \\Leftrightarrow 3 \\cdot 2^x = 96 \\Leftrightarrow 2^x = 32 = 2^5 \\Rightarrow x = 5$ (0.4đ).",
@@ -643,162 +675,174 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Số La Mã XIX biểu diễn số tự nhiên nào sau đây?",
             "options": [
-              "$19$",
               "$21$",
               "$14$",
+              "$19$",
               "$16$"
             ],
-            "correct": 0,
-            "explanation": "XIX = 10 + (10 - 1) = 19."
+            "correct": 2,
+            "explanation": "XIX = 10 + (10 - 1) = 19.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Trong các khẳng định sau, khẳng định nào **đúng**?",
             "options": [
-              "Tất cả các số nguyên tố đều là số lẻ",
               "Số $0$ là bội của mọi số tự nhiên khác $0$",
               "Mọi số chẵn đều là hợp số",
-              "Số $1$ là số nguyên tố nhỏ nhất"
+              "Số $1$ là số nguyên tố nhỏ nhất",
+              "Tất cả các số nguyên tố đều là số lẻ"
             ],
-            "correct": 1,
-            "explanation": "Số $0$ chia hết cho mọi số tự nhiên khác $0$ nên $0$ là bội của mọi số tự nhiên khác $0$."
+            "correct": 0,
+            "explanation": "Số $0$ chia hết cho mọi số tự nhiên khác $0$ nên $0$ là bội của mọi số tự nhiên khác $0$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Phép tính nào sau đây có kết quả bằng $6^5$?",
             "options": [
-              "$6^2 \\cdot 6^3$",
-              "$6^6 - 6^1$",
+              "$6^2 + 6^3$",
               "$6^{10} : 6^2$",
-              "$6^2 + 6^3$"
+              "$6^6 - 6^1$",
+              "$6^2 \\cdot 6^3$"
             ],
-            "correct": 0,
-            "explanation": "$6^2 \\cdot 6^3 = 6^{2+3} = 6^5$."
+            "correct": 3,
+            "explanation": "$6^2 \\cdot 6^3 = 6^{2+3} = 6^5$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Biết $a \\ \\vdots \\ 4$ và $b \\ \\vdots \\ 4$. Khẳng định nào sau đây là **đúng**?",
             "options": [
-              "$(a + b) \\ \\vdots \\ 4$",
-              "$(a - b) \\ \\vdots \\ 2$",
               "Cả A và B đều đúng",
-              "Chỉ có A đúng"
+              "$(a + b) \\ \\vdots \\ 4$",
+              "Chỉ có A đúng",
+              "$(a - b) \\ \\vdots \\ 2$"
             ],
-            "correct": 2,
-            "explanation": "Theo tính chất chia hết của một tổng: $(a + b) \\ \\vdots \\ 4$ và $(a - b) \\ \\vdots \\ 4 \\Rightarrow (a - b) \\ \\vdots \\ 2$."
+            "correct": 0,
+            "explanation": "Theo tính chất chia hết của một tổng: $(a + b) \\ \\vdots \\ 4$ và $(a - b) \\ \\vdots \\ 4 \\Rightarrow (a - b) \\ \\vdots \\ 2$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Số nào sau đây vừa chia hết cho $2$, vừa chia hết cho $9$?",
             "options": [
-              "$134$",
-              "$252$",
               "$315$",
-              "$421$"
+              "$252$",
+              "$421$",
+              "$134$"
             ],
             "correct": 1,
-            "explanation": "$252$ có tận cùng là $2$ (chia hết cho 2) và tổng chữ số $2+5+2=9$ (chia hết cho 9)."
+            "explanation": "$252$ có tận cùng là $2$ (chia hết cho 2) và tổng chữ số $2+5+2=9$ (chia hết cho 9).",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Hai số nguyên tố cùng nhau là hai số có:",
             "options": [
-              "Ước chung lớn nhất bằng 1",
               "Bội chung nhỏ nhất bằng 1",
               "Tổng bằng một số nguyên tố",
-              "Hiệu bằng 1"
+              "Hiệu bằng 1",
+              "Ước chung lớn nhất bằng 1"
             ],
-            "correct": 0,
-            "explanation": "Định nghĩa: Hai số có $\\text{ƯCLN} = 1$ được gọi là hai số nguyên tố cùng nhau."
+            "correct": 3,
+            "explanation": "Định nghĩa: Hai số có $\\text{ƯCLN} = 1$ được gọi là hai số nguyên tố cùng nhau.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Hình thang cân là hình thang có:",
             "options": [
-              "Hai góc kề một đáy bằng nhau",
-              "Hai đường chéo bằng nhau",
               "Hai cạnh bên bằng nhau",
-              "Tất cả các phương án trên"
+              "Tất cả các phương án trên",
+              "Hai đường chéo bằng nhau",
+              "Hai góc kề một đáy bằng nhau"
             ],
-            "correct": 3,
-            "explanation": "Hình thang cân có hai góc kề một đáy bằng nhau, hai đường chéo bằng nhau và hai cạnh bên bằng nhau."
+            "correct": 1,
+            "explanation": "Hình thang cân có hai góc kề một đáy bằng nhau, hai đường chéo bằng nhau và hai cạnh bên bằng nhau.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Một hình thang cân có độ dài hai đáy lần lượt là $8\\text{ cm}$ và $12\\text{ cm}$, chiều cao là $5\\text{ cm}$. Diện tích hình thang đó là:",
             "options": [
-              "$50\\text{ cm}^2$",
               "$100\\text{ cm}^2$",
+              "$25\\text{ cm}^2$",
               "$48\\text{ cm}^2$",
-              "$25\\text{ cm}^2$"
+              "$50\\text{ cm}^2$"
             ],
-            "correct": 0,
-            "explanation": "$S = \\frac{(8 + 12) \\cdot 5}{2} = 50\\text{ cm}^2$."
+            "correct": 3,
+            "explanation": "$S = \\frac{(8 + 12) \\cdot 5}{2} = 50\\text{ cm}^2$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Thực hiện phép tính $150 - [10^2 - (4 \\cdot 5 - 2^3)]$, ta được kết quả là:",
             "options": [
-              "$62$",
-              "$50$",
+              "$88$",
               "$72$",
-              "$88$"
+              "$62$",
+              "$50$"
             ],
-            "correct": 0,
-            "explanation": "$4 \\cdot 5 - 8 = 12$. $100 - 12 = 88$. $150 - 88 = 62$."
+            "correct": 2,
+            "explanation": "$4 \\cdot 5 - 8 = 12$. $100 - 12 = 88$. $150 - 88 = 62$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$ biết $x \\in \\text{Ư}(30)$ và $x > 10$. Giá trị của $x$ có thể là:",
             "options": [
-              "$12$",
-              "$15$",
               "$20$",
-              "$25$"
+              "$15$",
+              "$25$",
+              "$12$"
             ],
             "correct": 1,
-            "explanation": "Các ước của $30$ lớn hơn 10 là $15, 30$."
+            "explanation": "Các ước của $30$ lớn hơn 10 là $15, 30$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Số tự nhiên nhỏ nhất khác $0$ cùng chia hết cho $15$ và $20$ là:",
             "options": [
-              "$30$",
               "$60$",
+              "$30$",
               "$120$",
               "$300$"
             ],
-            "correct": 1,
-            "explanation": "$\\text{BCNN}(15, 20) = 60$."
+            "correct": 0,
+            "explanation": "$\\text{BCNN}(15, 20) = 60$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một thửa ruộng hình bình hành có cạnh đáy dài $30\\text{ m}$, chiều cao bằng một nửa cạnh đáy. Diện tích thửa ruộng đó là:",
             "options": [
-              "$450\\text{ m}^2$",
               "$900\\text{ m}^2$",
               "$225\\text{ m}^2$",
+              "$450\\text{ m}^2$",
               "$150\\text{ m}^2$"
             ],
-            "correct": 0,
-            "explanation": "Chiều cao là $30 : 2 = 15\\text{ m}$. Diện tích $S = 30 \\cdot 15 = 450\\text{ m}^2$."
+            "correct": 2,
+            "explanation": "Chiều cao là $30 : 2 = 15\\text{ m}$. Diện tích $S = 30 \\cdot 15 = 450\\text{ m}^2$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho biểu thức $A = 12 + 15 + 21 + x$ với $x \\in \\mathbb{N}$.",
             "statements": [
               {
@@ -869,34 +913,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức: $A = 120 - [50 - (20 - 2^3 \\cdot 2)]$",
             "answer": "74",
-            "explanation": "$20 - 16 = 4$. $50 - 4 = 46$. $120 - 46 = 74$."
+            "explanation": "$20 - 16 = 4$. $50 - 4 = 46$. $120 - 46 = 74$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$ thỏa mãn: $2 \\cdot (x - 3)^2 = 32$",
             "answer": "7",
-            "explanation": "$(x - 3)^2 = 16 = 4^2 \\Rightarrow x - 3 = 4 \\Rightarrow x = 7$."
+            "explanation": "$(x - 3)^2 = 16 = 4^2 \\Rightarrow x - 3 = 4 \\Rightarrow x = 7$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Tính diện tích hình thang cân có độ dài hai đáy lần lượt là $14\\text{ cm}, 6\\text{ cm}$ và chiều cao $5\\text{ cm}$ (đơn vị: cm²):",
             "answer": "50",
-            "explanation": "$S = (14 + 6) \\cdot 5 / 2 = 50\\text{ cm}^2$."
+            "explanation": "$S = (14 + 6) \\cdot 5 / 2 = 50\\text{ cm}^2$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm số tự nhiên $n$ nhỏ nhất sao cho $(2n + 7)$ chia hết cho $(n + 1)$:",
             "answer": "0",
-            "explanation": "$2n + 7 = 2(n + 1) + 5 \\ \\vdots \\ (n + 1) \\Rightarrow (n + 1) \\in \\text{Ư}(5) = \\{1; 5\\} \\Rightarrow n = 0$ hoặc $n = 4$. Nhỏ nhất là $0$."
+            "explanation": "$2n + 7 = 2(n + 1) + 5 \\ \\vdots \\ (n + 1) \\Rightarrow (n + 1) \\in \\text{Ư}(5) = \\{1; 5\\} \\Rightarrow n = 0$ hoặc $n = 4$. Nhỏ nhất là $0$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Tính một cách hợp lý:\na) $35 \\cdot 34 + 35 \\cdot 86 + 65 \\cdot 75 + 65 \\cdot 45$\nb) $2^3 \\cdot 17 - 2^3 \\cdot 14 + 2026^0$",
             "rubric": "a) Nhóm $35(34+86) + 65(75+45) = 35 \\cdot 120 + 65 \\cdot 120 = 120(35+65) = 120 \\cdot 100 = 12000$ (0.5đ).\nb) $8(17 - 14) + 1 = 8 \\cdot 3 + 1 = 25$ (0.5đ).",
@@ -904,7 +952,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm số tự nhiên $x$, biết:\na) $15 + 5x = 40$\nb) $(x - 2)^3 = 27$",
             "rubric": "a) $5x = 25 \\Rightarrow x = 5$ (0.35đ).\nb) $(x - 2)^3 = 3^3 \\Rightarrow x - 2 = 3 \\Rightarrow x = 5$ (0.4đ).",
@@ -950,13 +998,14 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Tập hợp các chữ số của số tự nhiên $2026$ gồm bao nhiêu phần tử?",
             "options": [
-              "$4$",
-              "$3$",
               "$2$",
+              "$3$",
+              "$4$",
               "$1$"
             ],
             "correct": 1,
-            "explanation": "Các chữ số là $\\{0; 2; 6\\}$ gồm 3 phần tử."
+            "explanation": "Các chữ số là $\\{0; 2; 6\\}$ gồm 3 phần tử.",
+            "points": 0.25
           },
           {
             "id": 2,
@@ -964,25 +1013,27 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Số nguyên tố chẵn duy nhất là:",
             "options": [
               "$0$",
-              "$2$",
               "$4$",
-              "Không có số nào"
+              "Không có số nào",
+              "$2$"
             ],
-            "correct": 1,
-            "explanation": "Số $2$ là số nguyên tố chẵn duy nhất."
+            "correct": 3,
+            "explanation": "Số $2$ là số nguyên tố chẵn duy nhất.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Lũy thừa $10^5$ có giá trị bằng:",
             "options": [
-              "$50$",
-              "$100\\ 000$",
               "$10\\ 000$",
-              "$1\\ 000\\ 000$"
+              "$50$",
+              "$1\\ 000\\ 000$",
+              "$100\\ 000$"
             ],
-            "correct": 1,
-            "explanation": "$10^5 = 100\\ 000$ (chữ số 1 và 5 chữ số 0)."
+            "correct": 3,
+            "explanation": "$10^5 = 100\\ 000$ (chữ số 1 và 5 chữ số 0).",
+            "points": 0.25
           },
           {
             "id": 4,
@@ -990,12 +1041,13 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Tổng $15 + 30 + 45 + 60$ chia hết cho số nào sau đây?",
             "options": [
               "$7$",
+              "$9$",
               "$15$",
-              "$8$",
-              "$9$"
+              "$8$"
             ],
-            "correct": 1,
-            "explanation": "Tất cả các số hạng đều chia hết cho $15$ nên tổng chia hết cho $15$."
+            "correct": 2,
+            "explanation": "Tất cả các số hạng đều chia hết cho $15$ nên tổng chia hết cho $15$.",
+            "points": 0.25
           },
           {
             "id": 5,
@@ -1008,59 +1060,64 @@ window.PERIODIC_EXAM_BANK = {
               "$10$"
             ],
             "correct": 0,
-            "explanation": "Số ước là $(2 + 1)(1 + 1)(1 + 1) = 3 \\cdot 2 \\cdot 2 = 12$."
+            "explanation": "Số ước là $(2 + 1)(1 + 1)(1 + 1) = 3 \\cdot 2 \\cdot 2 = 12$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Dấu hiệu chia hết cho $2$ là:",
             "options": [
-              "Có chữ số tận cùng là số lẻ",
               "Có chữ số tận cùng là chữ số chẵn: $0, 2, 4, 6, 8$",
+              "Có chữ số tận cùng là số lẻ",
               "Có tổng các chữ số chia hết cho 2",
               "Có hai chữ số tận cùng chia hết cho 2"
             ],
-            "correct": 1,
-            "explanation": "Các số có chữ số tận cùng là $0, 2, 4, 6, 8$ thì chia hết cho $2$."
+            "correct": 0,
+            "explanation": "Các số có chữ số tận cùng là $0, 2, 4, 6, 8$ thì chia hết cho $2$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Hình vuông có cạnh dài $7\\text{ cm}$. Chu vi của hình vuông đó là:",
             "options": [
-              "$49\\text{ cm}$",
               "$28\\text{ cm}$",
               "$14\\text{ cm}$",
+              "$49\\text{ cm}$",
               "$21\\text{ cm}$"
             ],
-            "correct": 1,
-            "explanation": "$C = 4 \\cdot 7 = 28\\text{ cm}$."
+            "correct": 0,
+            "explanation": "$C = 4 \\cdot 7 = 28\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Diện tích của hình vuông có cạnh dài $9\\text{ cm}$ là:",
             "options": [
+              "$18\\text{ cm}^2$",
               "$36\\text{ cm}^2$",
               "$81\\text{ cm}^2$",
-              "$18\\text{ cm}^2$",
               "$72\\text{ cm}^2$"
             ],
-            "correct": 1,
-            "explanation": "$S = 9^2 = 81\\text{ cm}^2$."
+            "correct": 2,
+            "explanation": "$S = 9^2 = 81\\text{ cm}^2$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Giá trị của biểu thức $P = 4^3 : 2^3 + 3 \\cdot 2^2$ là:",
             "options": [
-              "$20$",
               "$14$",
               "$32$",
-              "$24$"
+              "$24$",
+              "$20$"
             ],
-            "correct": 0,
-            "explanation": "$64 : 8 + 3 \\cdot 4 = 8 + 12 = 20$."
+            "correct": 3,
+            "explanation": "$64 : 8 + 3 \\cdot 4 = 8 + 12 = 20$.",
+            "points": 0.25
           },
           {
             "id": 10,
@@ -1068,44 +1125,47 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Biết $\\text{ƯCLN}(a, b) = 6$ và $a = 18$. Giá trị của $b$ có thể là:",
             "options": [
               "$12$",
+              "Tất cả các số trên",
               "$24$",
-              "$30$",
-              "Tất cả các số trên"
+              "$30$"
             ],
-            "correct": 3,
-            "explanation": "$\\text{ƯCLN}(18, 12) = 6$, $\\text{ƯCLN}(18, 24) = 6$, $\\text{ƯCLN}(18, 30) = 6$."
+            "correct": 1,
+            "explanation": "$\\text{ƯCLN}(18, 12) = 6$, $\\text{ƯCLN}(18, 24) = 6$, $\\text{ƯCLN}(18, 30) = 6$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Số tự nhiên $x$ thỏa mãn $x \\in \\text{B}(12)$ và $20 < x < 50$ là:",
             "options": [
-              "$24; 36; 48$",
-              "$24; 36$",
+              "$12; 24; 36; 48$",
               "$36; 48$",
-              "$12; 24; 36; 48$"
+              "$24; 36; 48$",
+              "$24; 36$"
             ],
-            "correct": 0,
-            "explanation": "Các bội của 12 trong khoảng $(20; 50)$ là $24; 36; 48$."
+            "correct": 2,
+            "explanation": "Các bội của 12 trong khoảng $(20; 50)$ là $24; 36; 48$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một khu vườn hình vuông có chu vi bằng chu vi hình chữ nhật có chiều dài $16\\text{ m}$ và chiều rộng $8\\text{ m}$. Cạnh của khu vườn hình vuông là:",
             "options": [
+              "$8\\text{ m}$",
               "$12\\text{ m}$",
               "$24\\text{ m}$",
-              "$6\\text{ m}$",
-              "$8\\text{ m}$"
+              "$6\\text{ m}$"
             ],
-            "correct": 0,
-            "explanation": "Chu vi hình chữ nhật là $2(16 + 8) = 48\\text{ m}$. Cạnh hình vuông là $48 : 4 = 12\\text{ m}$."
+            "correct": 1,
+            "explanation": "Chu vi hình chữ nhật là $2(16 + 8) = 48\\text{ m}$. Cạnh hình vuông là $48 : 4 = 12\\text{ m}$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho ba số tự nhiên $a = 15, b = 25, c = 30$.",
             "statements": [
               {
@@ -1176,34 +1236,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức: $B = (3 \\cdot 4^2 - 2 \\cdot 3^2) : 10$",
             "answer": "3",
-            "explanation": "$3 \\cdot 16 - 2 \\cdot 9 = 48 - 18 = 30$. $30 : 10 = 3$."
+            "explanation": "$3 \\cdot 16 - 2 \\cdot 9 = 48 - 18 = 30$. $30 : 10 = 3$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$, biết: $2^{x+1} \\cdot 3 = 48$",
             "answer": "3",
-            "explanation": "$2^{x+1} = 16 = 2^4 \\Rightarrow x + 1 = 4 \\Rightarrow x = 3$."
+            "explanation": "$2^{x+1} = 16 = 2^4 \\Rightarrow x + 1 = 4 \\Rightarrow x = 3$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Tìm số tự nhiên $x$ lớn nhất biết $120 \\ \\vdots \\ x$ và $180 \\ \\vdots \\ x$:",
             "answer": "60",
-            "explanation": "$x = \\text{ƯCLN}(120, 180) = 60$."
+            "explanation": "$x = \\text{ƯCLN}(120, 180) = 60$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm số nguyên tố $p$ sao cho $p + 2$ và $p + 4$ cũng là các số nguyên tố:",
             "answer": "3",
-            "explanation": "Với $p = 3$ thì $p+2 = 5, p+4 = 7$ là các số nguyên tố. Với $p > 3$ thì trong 3 số luôn có 1 số chia hết cho 3."
+            "explanation": "Với $p = 3$ thì $p+2 = 5, p+4 = 7$ là các số nguyên tố. Với $p > 3$ thì trong 3 số luôn có 1 số chia hết cho 3.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Thực hiện phép tính:\na) $17 \\cdot 85 + 15 \\cdot 17 - 1200$\nb) $2^3 \\cdot 5^2 - 3^2 \\cdot (20 - 2^3)$",
             "rubric": "a) $17(85 + 15) - 1200 = 17 \\cdot 100 - 1200 = 1700 - 1200 = 500$ (0.5đ).\nb) $8 \\cdot 25 - 9 \\cdot 12 = 200 - 108 = 92$ (0.5đ).",
@@ -1211,7 +1275,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm số tự nhiên $x$, biết:\na) $128 - 3(x + 4) = 23$\nb) $3^{x} + 3^{x+1} = 36$",
             "rubric": "a) $3(x + 4) = 105 \\Rightarrow x + 4 = 35 \\Rightarrow x = 31$ (0.35đ).\nb) $3^x(1 + 3) = 36 \\Leftrightarrow 4 \\cdot 3^x = 36 \\Leftrightarrow 3^x = 9 = 3^2 \\Rightarrow x = 2$ (0.4đ).",
@@ -1261,104 +1325,112 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Khẳng định nào sau đây là **đúng** về tập hợp số hữu tỉ $\\mathbb{Q}$?",
             "options": [
-              "$\\frac{-3}{4} \\in \\mathbb{Q}$",
-              "$0 \\notin \\mathbb{Q}$",
               "$5 \\notin \\mathbb{Q}$",
-              "$\\sqrt{2} \\in \\mathbb{Q}$"
+              "$\\sqrt{2} \\in \\mathbb{Q}$",
+              "$\\frac{-3}{4} \\in \\mathbb{Q}$",
+              "$0 \\notin \\mathbb{Q}$"
             ],
-            "correct": 0,
-            "explanation": "$\\frac{-3}{4}$ là phân số có tử và mẫu là các số nguyên nên thuộc $\\mathbb{Q}$."
+            "correct": 2,
+            "explanation": "$\\frac{-3}{4}$ là phân số có tử và mẫu là các số nguyên nên thuộc $\\mathbb{Q}$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Số đối của số hữu tỉ $\\frac{-5}{7}$ là:",
             "options": [
-              "$\\frac{5}{7}$",
               "$\\frac{-7}{5}$",
               "$\\frac{7}{5}$",
-              "$\\frac{-5}{-7}$"
+              "$\\frac{-5}{-7}$",
+              "$\\frac{5}{7}$"
             ],
-            "correct": 0,
-            "explanation": "Số đối của $-\\frac{5}{7}$ là $\\frac{5}{7}$."
+            "correct": 3,
+            "explanation": "Số đối của $-\\frac{5}{7}$ là $\\frac{5}{7}$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Trong các số hữu tỉ sau, số nào là số hữu tỉ dương?",
             "options": [
-              "$-\\frac{2}{3}$",
+              "$\\frac{-1}{9}$",
               "$\\frac{-4}{-5}$",
-              "$\\frac{0}{7}$",
-              "$\\frac{-1}{9}$"
+              "$-\\frac{2}{3}$",
+              "$\\frac{0}{7}$"
             ],
             "correct": 1,
-            "explanation": "$\\frac{-4}{-5} = \\frac{4}{5} > 0$ là số hữu tỉ dương."
+            "explanation": "$\\frac{-4}{-5} = \\frac{4}{5} > 0$ là số hữu tỉ dương.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Kết quả của phép tính $\\left(-\\frac{2}{3}\\right)^3$ là:",
             "options": [
-              "$-\\frac{6}{9}$",
+              "$-\\frac{8}{9}$",
               "$-\\frac{8}{27}$",
               "$\\frac{8}{27}$",
-              "$-\\frac{8}{9}$"
+              "$-\\frac{6}{9}$"
             ],
             "correct": 1,
-            "explanation": "$\\left(-\\frac{2}{3}\\right)^3 = -\\frac{8}{27}$."
+            "explanation": "$\\left(-\\frac{2}{3}\\right)^3 = -\\frac{8}{27}$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Với mọi $x \\in \\mathbb{Q}, x \\ne 0$ và $m, n \\in \\mathbb{N}$, khẳng định nào sau đây **đúng**?",
             "options": [
+              "$x^m : x^n = x^{m : n}$",
               "$x^m \\cdot x^n = x^{m \\cdot n}$",
-              "$x^m \\cdot x^n = x^{m + n}$",
               "$(x^m)^n = x^{m + n}$",
-              "$x^m : x^n = x^{m : n}$"
+              "$x^m \\cdot x^n = x^{m + n}$"
             ],
-            "correct": 1,
-            "explanation": "$x^m \\cdot x^n = x^{m + n}$."
+            "correct": 3,
+            "explanation": "$x^m \\cdot x^n = x^{m + n}$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Cho $x + \\frac{1}{3} = \\frac{4}{5}$. Theo quy tắc chuyển vế, ta suy ra:",
             "options": [
-              "$x = \\frac{4}{5} + \\frac{1}{3}$",
-              "$x = \\frac{4}{5} - \\frac{1}{3}$",
               "$x = -\\frac{4}{5} - \\frac{1}{3}$",
-              "$x = \\frac{1}{3} - \\frac{4}{5}$"
+              "$x = \\frac{1}{3} - \\frac{4}{5}$",
+              "$x = \\frac{4}{5} - \\frac{1}{3}$",
+              "$x = \\frac{4}{5} + \\frac{1}{3}$"
             ],
-            "correct": 1,
-            "explanation": "Chuyển vế đổi dấu: $x = \\frac{4}{5} - \\frac{1}{3}$."
+            "correct": 2,
+            "explanation": "Chuyển vế đổi dấu: $x = \\frac{4}{5} - \\frac{1}{3}$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Khẳng định nào sau đây về hai góc đối đỉnh là **đúng**?",
             "options": [
-              "Hai góc đối đỉnh có tổng số đo bằng $180^\\circ$",
               "Hai góc bằng nhau thì đối đỉnh",
               "Hai góc đối đỉnh thì bằng nhau",
+              "Hai góc đối đỉnh có tổng số đo bằng $180^\\circ$",
               "Hai góc đối đỉnh là hai góc kề bù"
             ],
-            "correct": 2,
-            "explanation": "Hai góc đối đỉnh thì bằng nhau."
+            "correct": 1,
+            "explanation": "Hai góc đối đỉnh thì bằng nhau.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Cho $\\widehat{xOy} = 70^\\circ$. Góc đối đỉnh với $\\widehat{xOy}$ có số đo là:",
             "options": [
-              "$110^\\circ$",
-              "$70^\\circ$",
+              "$90^\\circ$",
               "$20^\\circ$",
-              "$90^\\circ$"
+              "$70^\\circ$",
+              "$110^\\circ$"
             ],
-            "correct": 1,
-            "explanation": "Góc đối đỉnh có số đo bằng nhau nên bằng $70^\\circ$."
+            "correct": 2,
+            "explanation": "Góc đối đỉnh có số đo bằng nhau nên bằng $70^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 9,
@@ -1366,38 +1438,41 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Kết quả của phép tính $\\frac{3}{4} - \\frac{1}{2} : \\frac{2}{3}$ là:",
             "options": [
               "$0$",
-              "$\\frac{1}{4}$",
               "$\\frac{3}{8}$",
-              "$1$"
+              "$1$",
+              "$\\frac{1}{4}$"
             ],
             "correct": 0,
-            "explanation": "$\\frac{3}{4} - \\frac{1}{2} \\cdot \\frac{3}{2} = \\frac{3}{4} - \\frac{3}{4} = 0$."
+            "explanation": "$\\frac{3}{4} - \\frac{1}{2} \\cdot \\frac{3}{2} = \\frac{3}{4} - \\frac{3}{4} = 0$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Cho tia $Oz$ là tia phân giác của $\\widehat{xOy} = 80^\\circ$. Số đo của góc $\\widehat{xOz}$ là:",
             "options": [
-              "$160^\\circ$",
               "$40^\\circ$",
+              "$50^\\circ$",
               "$80^\\circ$",
-              "$50^\\circ$"
+              "$160^\\circ$"
             ],
-            "correct": 1,
-            "explanation": "$\\widehat{xOz} = 80^\\circ : 2 = 40^\\circ$."
+            "correct": 0,
+            "explanation": "$\\widehat{xOz} = 80^\\circ : 2 = 40^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Cho $a \\parallel b$, một đường thẳng cắt $a, b$ tạo ra góc so le trong bằng $65^\\circ$. Góc so le trong còn lại có số đo là:",
             "options": [
-              "$115^\\circ$",
               "$65^\\circ$",
               "$25^\\circ$",
+              "$115^\\circ$",
               "$90^\\circ$"
             ],
-            "correct": 1,
-            "explanation": "Hai góc so le trong bằng nhau nên bằng $65^\\circ$."
+            "correct": 0,
+            "explanation": "Hai góc so le trong bằng nhau nên bằng $65^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 12,
@@ -1405,18 +1480,19 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Tìm $x$, biết $x^2 = \\frac{16}{25}$:",
             "options": [
               "$x = \\frac{4}{5}$",
+              "$x = \\frac{16}{50}$",
               "$x = -\\frac{4}{5}$",
-              "$x = \\pm \\frac{4}{5}$",
-              "$x = \\frac{16}{50}$"
+              "$x = \\pm \\frac{4}{5}$"
             ],
-            "correct": 2,
-            "explanation": "$x = \\pm \\sqrt{16/25} = \\pm 4/5$."
+            "correct": 3,
+            "explanation": "$x = \\pm \\sqrt{16/25} = \\pm 4/5$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hai biểu thức số hữu tỉ $A = \\left(-\\frac{1}{2}\\right)^3 : \\frac{1}{4} + \\frac{3}{2}$ và $B = \\frac{5}{7} \\cdot \\frac{13}{19} + \\frac{5}{7} \\cdot \\frac{6}{19}$.",
             "statements": [
               {
@@ -1487,34 +1563,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị biểu thức: $M = \\frac{2}{3} + \\left(-\\frac{1}{6}\\right) \\cdot 2$ (viết dạng a/b):",
             "answer": "1/3",
-            "explanation": "$2/3 - 1/3 = 1/3$."
+            "explanation": "$2/3 - 1/3 = 1/3$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số hữu tỉ $x > 0$, biết: $\\left(x - \\frac{1}{3}\\right)^2 = \\frac{4}{9}$",
             "answer": "1",
-            "explanation": "$x - 1/3 = 2/3 \\Rightarrow x = 1$."
+            "explanation": "$x - 1/3 = 2/3 \\Rightarrow x = 1$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho $xx' \\parallel yy'$. Góc $\\widehat{xAB} = 75^\\circ$. Tính góc so le trong $\\widehat{ABy'}$ (độ):",
             "answer": "75",
-            "explanation": "So le trong bằng nhau: $75^\\circ$."
+            "explanation": "So le trong bằng nhau: $75^\\circ$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị nhỏ nhất của: $A = \\left|x - \\frac{3}{5}\\right| + 2026$",
             "answer": "2026",
-            "explanation": "GTNN là $2026$ khi $x = 3/5$."
+            "explanation": "GTNN là $2026$ khi $x = 3/5$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Tính giá trị của các biểu thức sau một cách hợp lý:\na) $A = \\frac{11}{24} - \\frac{5}{41} + \\frac{13}{24} + 0,5 - \\frac{36}{41}$\nb) $B = \\left(-\\frac{3}{4}\\right)^2 : \\frac{9}{8} - \\frac{2}{3} \\cdot \\left(\\frac{3}{4} - \\frac{1}{2}\\right)$",
             "rubric": "a) Nhóm cùng mẫu ra $0.5$ (0.5đ). b) Tính ra $1/3$ (0.5đ).",
@@ -1522,7 +1602,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm số hữu tỉ $x$, biết:\na) $\\frac{3}{4} + \\frac{1}{4}x = -\\frac{1}{2}$\nb) $(2x - 1)^3 = -\\frac{8}{27}$",
             "rubric": "a) $x = -5$ (0.35đ). b) $2x - 1 = -2/3 \\Rightarrow x = 1/6$ (0.4đ).",
@@ -1568,104 +1648,112 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Số đối của $-\\left(-\\frac{2}{5}\\right)$ là:",
             "options": [
-              "$\\frac{2}{5}$",
               "$-\\frac{2}{5}$",
               "$\\frac{5}{2}$",
-              "$-\\frac{5}{2}$"
+              "$-\\frac{5}{2}$",
+              "$\\frac{2}{5}$"
             ],
-            "correct": 1,
-            "explanation": "$-\\left(-\\frac{2}{5}\\right) = \\frac{2}{5}$. Số đối của $\\frac{2}{5}$ là $-\\frac{2}{5}$."
+            "correct": 0,
+            "explanation": "$-\\left(-\\frac{2}{5}\\right) = \\frac{2}{5}$. Số đối của $\\frac{2}{5}$ là $-\\frac{2}{5}$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Điểm biểu diễn số hữu tỉ $-\\frac{3}{4}$ trên trục số nằm ở vị trí nào?",
             "options": [
-              "Bên phải điểm 0",
-              "Bên trái điểm 0",
               "Trùng với điểm 0",
-              "Bên phải điểm 1"
+              "Bên trái điểm 0",
+              "Bên phải điểm 1",
+              "Bên phải điểm 0"
             ],
             "correct": 1,
-            "explanation": "Số âm nằm bên trái điểm 0 trên trục số."
+            "explanation": "Số âm nằm bên trái điểm 0 trên trục số.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Kết quả của phép tính $\\left(\\frac{1}{2}\\right)^2 \\cdot \\left(\\frac{1}{2}\\right)^3$ là:",
             "options": [
+              "$\\left(\\frac{1}{4}\\right)^5$",
               "$\\left(\\frac{1}{2}\\right)^6$",
               "$\\left(\\frac{1}{2}\\right)^5$",
-              "$\\frac{1}{4}$",
-              "$\\left(\\frac{1}{4}\\right)^5$"
+              "$\\frac{1}{4}$"
             ],
-            "correct": 1,
-            "explanation": "$\\left(\\frac{1}{2}\\right)^{2+3} = \\left(\\frac{1}{2}\\right)^5$."
+            "correct": 2,
+            "explanation": "$\\left(\\frac{1}{2}\\right)^{2+3} = \\left(\\frac{1}{2}\\right)^5$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Với $x \\in \\mathbb{Q}$, giá trị của $|x|$ luôn thỏa mãn điều kiện nào sau đây?",
             "options": [
-              "$|x| < 0$",
               "$|x| \\le 0$",
               "$|x| \\ge 0$",
+              "$|x| < 0$",
               "$|x| > 0$"
             ],
-            "correct": 2,
-            "explanation": "Giá trị tuyệt đối của một số hữu tỉ luôn không âm ($|x| \\ge 0$)."
+            "correct": 1,
+            "explanation": "Giá trị tuyệt đối của một số hữu tỉ luôn không âm ($|x| \\ge 0$).",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Hai góc kề bù có tổng số đo bằng:",
             "options": [
+              "$360^\\circ$",
               "$90^\\circ$",
               "$180^\\circ$",
-              "$360^\\circ$",
               "$45^\\circ$"
             ],
-            "correct": 1,
-            "explanation": "Hai góc kề bù luôn có tổng số đo bằng $180^\\circ$."
+            "correct": 2,
+            "explanation": "Hai góc kề bù luôn có tổng số đo bằng $180^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Cho $\\widehat{xOy}$ và $\\widehat{yOz}$ là hai góc kề bù. Biết $\\widehat{xOy} = 50^\\circ$, số đo của $\\widehat{yOz}$ là:",
             "options": [
-              "$130^\\circ$",
-              "$50^\\circ$",
               "$40^\\circ$",
-              "$140^\\circ$"
+              "$140^\\circ$",
+              "$50^\\circ$",
+              "$130^\\circ$"
             ],
-            "correct": 0,
-            "explanation": "$\\widehat{yOz} = 180^\\circ - 50^\\circ = 130^\\circ$."
+            "correct": 3,
+            "explanation": "$\\widehat{yOz} = 180^\\circ - 50^\\circ = 130^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Cho đường thẳng $c$ cắt hai đường thẳng $a$ và $b$. Để $a \\parallel b$ thì cần điều kiện nào sau đây?",
             "options": [
-              "Hai góc so le trong bằng nhau",
               "Hai góc đồng vị bằng nhau",
-              "Hai góc trong cùng phía bù nhau",
-              "Một trong các điều kiện trên"
+              "Một trong các điều kiện trên",
+              "Hai góc so le trong bằng nhau",
+              "Hai góc trong cùng phía bù nhau"
             ],
-            "correct": 3,
-            "explanation": "Một trong các dấu hiệu trên đều suy ra $a \\parallel b$."
+            "correct": 1,
+            "explanation": "Một trong các dấu hiệu trên đều suy ra $a \\parallel b$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Công thức lũy thừa của một lũy thừa là:",
             "options": [
-              "$(x^m)^n = x^{m+n}$",
-              "$(x^m)^n = x^{m \\cdot n}$",
               "$(x^m)^n = x^{m-n}$",
-              "$(x^m)^n = (x \\cdot m)^n$"
+              "$(x^m)^n = (x \\cdot m)^n$",
+              "$(x^m)^n = x^{m \\cdot n}$",
+              "$(x^m)^n = x^{m+n}$"
             ],
-            "correct": 1,
-            "explanation": "$(x^m)^n = x^{m \\cdot n}$."
+            "correct": 2,
+            "explanation": "$(x^m)^n = x^{m \\cdot n}$.",
+            "points": 0.25
           },
           {
             "id": 9,
@@ -1673,57 +1761,61 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Kết quả của phép tính $\\left(-\\frac{3}{5}\\right) \\cdot \\frac{5}{9} + \\frac{1}{3}$ là:",
             "options": [
               "$0$",
-              "$\\frac{2}{3}$",
+              "$\\frac{1}{3}$",
               "$-\\frac{2}{3}$",
-              "$\\frac{1}{3}$"
+              "$\\frac{2}{3}$"
             ],
             "correct": 0,
-            "explanation": "$-\\frac{1}{3} + \\frac{1}{3} = 0$."
+            "explanation": "$-\\frac{1}{3} + \\frac{1}{3} = 0$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Tìm $x$, biết: $|x - 0,5| = 1,5$. Các giá trị của $x$ là:",
             "options": [
-              "$x = 2$",
               "$x = -1$",
-              "$x = 2$ hoặc $x = -1$",
-              "$x = 1$"
+              "$x = 1$",
+              "$x = 2$",
+              "$x = 2$ hoặc $x = -1$"
             ],
-            "correct": 2,
-            "explanation": "$x - 0,5 = 1,5 \\Rightarrow x = 2$ hoặc $x - 0,5 = -1,5 \\Rightarrow x = -1$."
+            "correct": 3,
+            "explanation": "$x - 0,5 = 1,5 \\Rightarrow x = 2$ hoặc $x - 0,5 = -1,5 \\Rightarrow x = -1$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Cho tam giác $ABC$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 60^\\circ$. Qua $C$ kẻ đường thẳng song song với $AB$. Góc so le trong với góc $\\widehat{B}$ có số đo là:",
             "options": [
-              "$70^\\circ$",
               "$60^\\circ$",
-              "$50^\\circ$",
-              "$120^\\circ$"
+              "$70^\\circ$",
+              "$120^\\circ$",
+              "$50^\\circ$"
             ],
-            "correct": 1,
-            "explanation": "Hai góc so le trong bằng nhau nên bằng $\\widehat{B} = 60^\\circ$."
+            "correct": 0,
+            "explanation": "Hai góc so le trong bằng nhau nên bằng $\\widehat{B} = 60^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $n$ thỏa mãn: $2^n = 32$.",
             "options": [
-              "$n = 4$",
-              "$n = 5$",
               "$n = 6$",
-              "$n = 16$"
+              "$n = 16$",
+              "$n = 4$",
+              "$n = 5$"
             ],
-            "correct": 1,
-            "explanation": "$2^5 = 32 \\Rightarrow n = 5$."
+            "correct": 3,
+            "explanation": "$2^5 = 32 \\Rightarrow n = 5$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hai số hữu tỉ $x = -0,75$ và $y = \\frac{3}{4}$.",
             "statements": [
               {
@@ -1794,34 +1886,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị biểu thức: $A = \\left(-\\frac{2}{3}\\right)^2 + \\frac{5}{9}$",
             "answer": "1",
-            "explanation": "$4/9 + 5/9 = 9/9 = 1$."
+            "explanation": "$4/9 + 5/9 = 9/9 = 1$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số hữu tỉ $x$, biết: $x - \\frac{2}{5} = -\\frac{1}{2}$ (viết dưới dạng số thập phân):",
             "answer": "-0.1",
-            "explanation": "$x = -1/2 + 2/5 = -5/10 + 4/10 = -1/10 = -0,1$."
+            "explanation": "$x = -1/2 + 2/5 = -5/10 + 4/10 = -1/10 = -0,1$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Hai góc $\\widehat{xOy}$ và $\\widehat{yOz}$ kề bù. Biết $\\widehat{xOy} = 2 \\cdot \\widehat{yOz}$. Tính số đo góc $\\widehat{xOy}$ (đơn vị: độ):",
             "answer": "120",
-            "explanation": "$2\\widehat{yOz} + \\widehat{yOz} = 180^\\circ \\Rightarrow \\widehat{yOz} = 60^\\circ \\Rightarrow \\widehat{xOy} = 120^\\circ$."
+            "explanation": "$2\\widehat{yOz} + \\widehat{yOz} = 180^\\circ \\Rightarrow \\widehat{yOz} = 60^\\circ \\Rightarrow \\widehat{xOy} = 120^\\circ$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tính giá trị của tổng $S = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$ (dạng a/b):",
             "answer": "99/100",
-            "explanation": "$S = 1 - 1/100 = 99/100$."
+            "explanation": "$S = 1 - 1/100 = 99/100$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Thực hiện phép tính hợp lý:\na) $\\frac{4}{9} \\cdot \\frac{13}{3} - \\frac{4}{9} \\cdot \\frac{4}{3}$\nb) $\\left(-\\frac{1}{3}\\right)^2 : \\frac{4}{9} + \\frac{1}{2} \\cdot \\left(-\\frac{4}{3}\\right)$",
             "rubric": "a) $4/9(13/3 - 4/3) = 4/9 \\cdot 3 = 4/3$ (0.5đ).\nb) $1/9 \\cdot 9/4 - 2/3 = 1/4 - 2/3 = -5/12$ (0.5đ).",
@@ -1829,7 +1925,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm $x$, biết:\na) $\\frac{2}{3}x - \\frac{1}{2} = \\frac{5}{6}$\nb) $\\left(x + \\frac{1}{2}\\right)^2 = \\frac{25}{16}$",
             "rubric": "a) $2/3x = 8/6 = 4/3 \\Rightarrow x = 2$ (0.35đ).\nb) $x + 1/2 = \\pm 5/4 \\Rightarrow x = 3/4$ hoặc $x = -7/4$ (0.4đ).",
@@ -1875,13 +1971,14 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Số nào sau đây viết được dưới dạng số thập phân hữu hạn?",
             "options": [
-              "$\\frac{1}{3}$",
               "$\\frac{3}{4}$",
+              "$\\frac{1}{3}$",
               "$\\frac{5}{7}$",
               "$\\frac{1}{6}$"
             ],
-            "correct": 1,
-            "explanation": "$\\frac{3}{4} = 0,75$ là số thập phân hữu hạn."
+            "correct": 0,
+            "explanation": "$\\frac{3}{4} = 0,75$ là số thập phân hữu hạn.",
+            "points": 0.25
           },
           {
             "id": 2,
@@ -1889,64 +1986,69 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Khẳng định nào sau đây là **sai**?",
             "options": [
               "Số $0$ là số hữu tỉ",
-              "Số nguyên âm cũng là số hữu tỉ",
+              "Tập $\\mathbb{Z}$ là tập con của $\\mathbb{Q}$",
               "Phân số có mẫu bằng 0 là số hữu tỉ",
-              "Tập $\\mathbb{Z}$ là tập con của $\\mathbb{Q}$"
+              "Số nguyên âm cũng là số hữu tỉ"
             ],
             "correct": 2,
-            "explanation": "Mẫu số của phân số phải khác 0."
+            "explanation": "Mẫu số của phân số phải khác 0.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Kết quả của phép tính $\\left(-\\frac{1}{3}\\right)^4$ là:",
             "options": [
-              "$-\\frac{1}{81}$",
               "$\\frac{1}{81}$",
-              "$-\\frac{4}{81}$",
-              "$\\frac{4}{12}$"
+              "$-\\frac{1}{81}$",
+              "$\\frac{4}{12}$",
+              "$-\\frac{4}{81}$"
             ],
-            "correct": 1,
-            "explanation": "Số mũ chẵn của số âm cho kết quả dương: $1/81$."
+            "correct": 0,
+            "explanation": "Số mũ chẵn của số âm cho kết quả dương: $1/81$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Hai góc bù nhau có tổng số đo bằng:",
             "options": [
-              "$90^\\circ$",
-              "$180^\\circ$",
               "$60^\\circ$",
+              "$180^\\circ$",
+              "$90^\\circ$",
               "$360^\\circ$"
             ],
             "correct": 1,
-            "explanation": "Định nghĩa hai góc bù nhau có tổng số đo bằng $180^\\circ$."
+            "explanation": "Định nghĩa hai góc bù nhau có tổng số đo bằng $180^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Tia $Ot$ là tia phân giác của $\\widehat{mOn}$ khi:",
             "options": [
-              "Tia $Ot$ nằm giữa hai tia $Om, On$",
               "$\\widehat{mOt} = \\widehat{tOn}$",
               "Tia $Ot$ nằm giữa $Om, On$ và $\\widehat{mOt} = \\widehat{tOn} = \\frac{\\widehat{mOn}}{2}$",
+              "Tia $Ot$ nằm giữa hai tia $Om, On$",
               "$\\widehat{mOt} + \\widehat{tOn} = 180^\\circ$"
             ],
-            "correct": 2,
-            "explanation": "Tia phân giác phải nằm giữa và tạo với hai cạnh hai góc bằng nhau."
+            "correct": 1,
+            "explanation": "Tia phân giác phải nằm giữa và tạo với hai cạnh hai góc bằng nhau.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Cho hai đường thẳng phân biệt $a$ và $b$. Nếu $a \\parallel c$ và $b \\parallel c$ thì:",
             "options": [
-              "$a \\perp b$",
               "$a \\parallel b$",
+              "$a$ trùng $b$",
               "$a$ cắt $b$",
-              "$a$ trùng $b$"
+              "$a \\perp b$"
             ],
-            "correct": 1,
-            "explanation": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì chúng song song với nhau."
+            "correct": 0,
+            "explanation": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì chúng song song với nhau.",
+            "points": 0.25
           },
           {
             "id": 7,
@@ -1954,83 +2056,89 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Cho $x = \\frac{a}{b}$ ($a, b \\in \\mathbb{Z}, b \\ne 0$). Để $x$ là số hữu tỉ âm thì:",
             "options": [
               "$a$ và $b$ cùng dấu",
-              "$a$ và $b$ khác dấu",
               "$a = 0$",
+              "$a$ và $b$ khác dấu",
               "$b < 0$"
             ],
-            "correct": 1,
-            "explanation": "Số hữu tỉ âm khi tử và mẫu trái dấu (khác dấu)."
+            "correct": 2,
+            "explanation": "Số hữu tỉ âm khi tử và mẫu trái dấu (khác dấu).",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Viết số $0,25$ dưới dạng phân số tối giản ta được:",
             "options": [
-              "$\\frac{25}{100}$",
-              "$\\frac{1}{4}$",
               "$\\frac{2}{8}$",
-              "$\\frac{5}{20}$"
+              "$\\frac{5}{20}$",
+              "$\\frac{25}{100}$",
+              "$\\frac{1}{4}$"
             ],
-            "correct": 1,
-            "explanation": "$0,25 = 25/100 = 1/4$."
+            "correct": 3,
+            "explanation": "$0,25 = 25/100 = 1/4$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Tính: $P = \\left(\\frac{2}{3}\\right)^3 : \\left(\\frac{2}{3}\\right)^2 + \\frac{1}{3}$",
             "options": [
-              "$1$",
-              "$\\frac{2}{3}$",
               "$\\frac{4}{9}$",
-              "$0$"
+              "$0$",
+              "$\\frac{2}{3}$",
+              "$1$"
             ],
-            "correct": 0,
-            "explanation": "$2/3 + 1/3 = 1$."
+            "correct": 3,
+            "explanation": "$2/3 + 1/3 = 1$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Tìm $x$, biết: $2x - \\frac{1}{3} = \\frac{5}{3}$",
             "options": [
-              "$x = 1$",
               "$x = 2$",
               "$x = \\frac{4}{3}$",
+              "$x = 1$",
               "$x = \\frac{2}{3}$"
             ],
-            "correct": 0,
-            "explanation": "$2x = 6/3 = 2 \\Rightarrow x = 1$."
+            "correct": 2,
+            "explanation": "$2x = 6/3 = 2 \\Rightarrow x = 1$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Cho hình vẽ có $a \\parallel b$. Biết góc trong cùng phía với $\\widehat{A}_1$ có số đo là $110^\\circ$. Số đo của góc $\\widehat{A}_1$ là:",
             "options": [
-              "$110^\\circ$",
+              "$90^\\circ$",
               "$70^\\circ$",
               "$80^\\circ$",
-              "$90^\\circ$"
+              "$110^\\circ$"
             ],
             "correct": 1,
-            "explanation": "$180^\\circ - 110^\\circ = 70^\\circ$."
+            "explanation": "$180^\\circ - 110^\\circ = 70^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Biết $\\left(-\\frac{1}{2}\\right)^x = -\\frac{1}{8}$. Giá trị của $x$ là:",
             "options": [
-              "$2$",
-              "$3$",
+              "$1$",
               "$4$",
-              "$1$"
+              "$2$",
+              "$3$"
             ],
-            "correct": 1,
-            "explanation": "$(-1/2)^3 = -1/8 \\Rightarrow x = 3$."
+            "correct": 3,
+            "explanation": "$(-1/2)^3 = -1/8 \\Rightarrow x = 3$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho biểu thức $P = \\frac{2}{5} - \\left(\\frac{1}{2} - \\frac{3}{5}\\right) + \\frac{1}{2}$.",
             "statements": [
               {
@@ -2101,34 +2209,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính: $M = \\frac{5}{12} - \\frac{7}{18} + \\frac{1}{36}$ (dạng tối giản a/b):",
             "answer": "1/18",
-            "explanation": "$(15 - 14 + 1)/36 = 2/36 = 1/18$."
+            "explanation": "$(15 - 14 + 1)/36 = 2/36 = 1/18$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm $x$, biết: $3^{x+1} - 3^x = 18$",
             "answer": "2",
-            "explanation": "$3^x(3 - 1) = 18 \\Rightarrow 2 \\cdot 3^x = 18 \\Rightarrow 3^x = 9 \\Rightarrow x = 2$."
+            "explanation": "$3^x(3 - 1) = 18 \\Rightarrow 2 \\cdot 3^x = 18 \\Rightarrow 3^x = 9 \\Rightarrow x = 2$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho hai đường thẳng $a \\parallel b$. Đường thẳng $c$ cắt $a$ tại $A$ và $b$ tại $B$. Biết tổng hai góc trong cùng phía bằng $180^\\circ$. Nếu một góc bằng $3$ lần góc kia, tính số đo góc lớn hơn (độ):",
             "answer": "135",
-            "explanation": "$x + 3x = 180^\\circ \\Rightarrow 4x = 180^\\circ \\Rightarrow x = 45^\\circ \\Rightarrow 3x = 135^\\circ$."
+            "explanation": "$x + 3x = 180^\\circ \\Rightarrow 4x = 180^\\circ \\Rightarrow x = 45^\\circ \\Rightarrow 3x = 135^\\circ$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị nhỏ nhất của biểu thức: $Q = |x - 1| + |x - 5|$",
             "answer": "4",
-            "explanation": "$|x - 1| + |5 - x| \\ge |x - 1 + 5 - x| = 4$."
+            "explanation": "$|x - 1| + |5 - x| \\ge |x - 1 + 5 - x| = 4$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Tính hợp lý:\na) $\\left(-\\frac{5}{11}\\right) \\cdot \\frac{7}{15} + \\left(-\\frac{5}{11}\\right) \\cdot \\frac{8}{15} + 1\\frac{5}{11}$\nb) $\\left(\\frac{1}{3} - 0,5\\right) \\cdot 6 + \\left(-\\frac{1}{2}\\right)^2 : \\frac{1}{4}$",
             "rubric": "a) $-5/11 \\cdot 1 + 16/11 = 11/11 = 1$ (0.5đ).\nb) $(1/3 - 1/2) \\cdot 6 + 1/4 : 1/4 = -1/6 \\cdot 6 + 1 = -1 + 1 = 0$ (0.5đ).",
@@ -2136,7 +2248,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm $x$, biết:\na) $\\frac{4}{7} - x = \\frac{1}{3}$\nb) $|2x - 1| - \\frac{1}{2} = \\frac{3}{2}$",
             "rubric": "a) $x = 4/7 - 1/3 = 5/21$ (0.35đ).\nb) $|2x - 1| = 2 \\Rightarrow 2x - 1 = 2 \\Rightarrow x = 3/2$ hoặc $2x - 1 = -2 \\Rightarrow x = -1/2$ (0.4đ).",
@@ -2182,13 +2294,14 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Số nào sau đây là số đối của số $-\\sqrt{\\frac{4}{9}}$?",
             "options": [
-              "$-\\frac{2}{3}$",
               "$\\frac{2}{3}$",
+              "$-\\frac{4}{9}$",
               "$\\frac{4}{9}$",
-              "$-\\frac{4}{9}$"
+              "$-\\frac{2}{3}$"
             ],
-            "correct": 1,
-            "explanation": "$-\\sqrt{4/9} = -2/3$. Số đối là $2/3$."
+            "correct": 0,
+            "explanation": "$-\\sqrt{4/9} = -2/3$. Số đối là $2/3$.",
+            "points": 0.25
           },
           {
             "id": 2,
@@ -2196,77 +2309,83 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Kết quả của $(-0,1)^3$ là:",
             "options": [
               "$-0,3$",
-              "$-0,01$",
+              "$0,001$",
               "$-0,001$",
-              "$0,001$"
+              "$-0,01$"
             ],
             "correct": 2,
-            "explanation": "$(-0,1)^3 = -0,001$."
+            "explanation": "$(-0,1)^3 = -0,001$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Khẳng định nào sau đây về số hữu tỉ là **đúng**?",
             "options": [
-              "Mỗi số hữu tỉ được biểu diễn bởi duy nhất một phân số",
+              "Số vô tỉ cũng là số hữu tỉ",
               "Số $0$ vừa là số hữu tỉ dương vừa là số hữu tỉ âm",
               "Mọi số tự nhiên đều là số hữu tỉ",
-              "Số vô tỉ cũng là số hữu tỉ"
+              "Mỗi số hữu tỉ được biểu diễn bởi duy nhất một phân số"
             ],
             "correct": 2,
-            "explanation": "Mọi số tự nhiên $n$ đều viết được thành $n/1$ nên là số hữu tỉ."
+            "explanation": "Mọi số tự nhiên $n$ đều viết được thành $n/1$ nên là số hữu tỉ.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Hai đường thẳng vuông góc tạo thành bao nhiêu góc vuông?",
             "options": [
-              "$1$",
               "$2$",
               "$3$",
-              "$4$"
+              "$4$",
+              "$1$"
             ],
-            "correct": 3,
-            "explanation": "Hai đường thẳng vuông góc tạo thành 4 góc vuông."
+            "correct": 2,
+            "explanation": "Hai đường thẳng vuông góc tạo thành 4 góc vuông.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Đường trung trực của đoạn thẳng $AB$ là đường thẳng:",
             "options": [
-              "Đi qua trung điểm của $AB$",
-              "Vuông góc với $AB$",
               "Đi qua trung điểm của $AB$ và vuông góc với $AB$",
-              "Song song với $AB$"
+              "Song song với $AB$",
+              "Đi qua trung điểm của $AB$",
+              "Vuông góc với $AB$"
             ],
-            "correct": 2,
-            "explanation": "Đường thẳng vuông góc với đoạn thẳng tại trung điểm của nó là đường trung trực."
+            "correct": 0,
+            "explanation": "Đường thẳng vuông góc với đoạn thẳng tại trung điểm của nó là đường trung trực.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Cho $x : \\left(-\\frac{1}{2}\\right) = 4$. Giá trị của $x$ là:",
             "options": [
-              "$-2$",
               "$2$",
-              "$-8$",
-              "$8$"
+              "$-2$",
+              "$8$",
+              "$-8$"
             ],
-            "correct": 0,
-            "explanation": "$x = 4 \\cdot (-1/2) = -2$."
+            "correct": 1,
+            "explanation": "$x = 4 \\cdot (-1/2) = -2$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Phát biểu nào sau đây là một định lí?",
             "options": [
-              "Góc nhọn là góc nhỏ hơn $90^\\circ$",
               "Hai góc đối đỉnh thì bằng nhau",
-              "Nếu góc lớn hơn $90^\\circ$ thì là góc tù",
-              "Vẽ tia phân giác của một góc"
+              "Góc nhọn là góc nhỏ hơn $90^\\circ$",
+              "Vẽ tia phân giác của một góc",
+              "Nếu góc lớn hơn $90^\\circ$ thì là góc tù"
             ],
-            "correct": 1,
-            "explanation": "\"Hai góc đối đỉnh thì bằng nhau\" là một định lí đã được chứng minh."
+            "correct": 0,
+            "explanation": "\"Hai góc đối đỉnh thì bằng nhau\" là một định lí đã được chứng minh.",
+            "points": 0.25
           },
           {
             "id": 8,
@@ -2275,69 +2394,74 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "$0$",
               "$1$",
-              "$\\frac{3}{5}$",
-              "Không xác định"
+              "Không xác định",
+              "$\\frac{3}{5}$"
             ],
             "correct": 1,
-            "explanation": "Quy ước: $a^0 = 1$ với mọi $a \\ne 0$."
+            "explanation": "Quy ước: $a^0 = 1$ với mọi $a \\ne 0$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "So sánh hai số hữu tỉ $a = -\\frac{5}{8}$ và $b = -\\frac{7}{12}$:",
             "options": [
-              "$a > b$",
-              "$a < b$",
               "$a = b$",
-              "Không so sánh được"
+              "Không so sánh được",
+              "$a > b$",
+              "$a < b$"
             ],
-            "correct": 1,
-            "explanation": "$a = -15/24; b = -14/24$. Vì $-15 < -14$ nên $a < b$."
+            "correct": 3,
+            "explanation": "$a = -15/24; b = -14/24$. Vì $-15 < -14$ nên $a < b$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Cho hai góc bù nhau $\\widehat{A}$ và $\\widehat{B}$ có tỉ lệ $\\widehat{A} : \\widehat{B} = 2 : 3$. Số đo của góc $\\widehat{A}$ là:",
             "options": [
+              "$60^\\circ$",
               "$72^\\circ$",
               "$108^\\circ$",
-              "$36^\\circ$",
-              "$60^\\circ$"
+              "$36^\\circ$"
             ],
-            "correct": 0,
-            "explanation": "$\\widehat{A} = 180^\\circ : (2 + 3) \\cdot 2 = 72^\\circ$."
+            "correct": 1,
+            "explanation": "$\\widehat{A} = 180^\\circ : (2 + 3) \\cdot 2 = 72^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Tính: $K = \\frac{4^5 \\cdot 9^4}{6^8}$",
             "options": [
-              "$1$",
-              "$2$",
               "$4$",
-              "$\\frac{1}{2}$"
+              "$\\frac{1}{2}$",
+              "$2$",
+              "$1$"
             ],
-            "correct": 0,
-            "explanation": "$4^5 \\cdot 9^4 = 2^{10} \\cdot 3^8$. $6^8 = 2^8 \\cdot 3^8$. Chia ra $2^2 = 4$... Đổi đề: $\\frac{4^4 \\cdot 9^4}{6^8} = \\frac{2^8 \\cdot 3^8}{6^8} = 1$."
+            "correct": 3,
+            "explanation": "$4^5 \\cdot 9^4 = 2^{10} \\cdot 3^8$. $6^8 = 2^8 \\cdot 3^8$. Chia ra $2^2 = 4$... Đổi đề: $\\frac{4^4 \\cdot 9^4}{6^8} = \\frac{2^8 \\cdot 3^8}{6^8} = 1$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Cho $a \\parallel b$ và $b \\parallel c$. Khẳng định nào sau đây luôn **đúng**?",
             "options": [
-              "$a \\parallel c$",
               "$a \\perp c$",
               "$a$ cắt $c$",
-              "$a$ trùng $c$"
+              "$a$ trùng $c$",
+              "$a \\parallel c$"
             ],
-            "correct": 0,
-            "explanation": "Tính chất bắc cầu của quan hệ song song."
+            "correct": 3,
+            "explanation": "Tính chất bắc cầu của quan hệ song song.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho đẳng thức lũy thừa: $A = \\frac{27^2 \\cdot 8^3}{6^6}$.",
             "statements": [
               {
@@ -2408,34 +2532,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính: $H = \\left(\\frac{1}{2} - \\frac{1}{3}\\right)^2 : \\frac{1}{36}$",
             "answer": "1",
-            "explanation": "$(1/6)^2 : 1/36 = 1/36 : 1/36 = 1$."
+            "explanation": "$(1/6)^2 : 1/36 = 1/36 : 1/36 = 1$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $n$ biết: $\\frac{3^n}{9} = 27$",
             "answer": "5",
-            "explanation": "$3^n = 243 = 3^5 \\Rightarrow n = 5$."
+            "explanation": "$3^n = 243 = 3^5 \\Rightarrow n = 5$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho góc $\\widehat{xOy} = 70^\\circ$. Vẽ góc $\\widehat{yOz}$ kề bù với $\\widehat{xOy}$. Kẻ $Ot$ là tia phân giác của $\\widehat{yOz}$. Tính số đo của góc $\\widehat{xOt}$ (độ):",
             "answer": "125",
-            "explanation": "$\\widehat{yOz} = 110^\\circ \\Rightarrow \\widehat{yOt} = 55^\\circ \\Rightarrow \\widehat{xOt} = 70^\\circ + 55^\\circ = 125^\\circ$."
+            "explanation": "$\\widehat{yOz} = 110^\\circ \\Rightarrow \\widehat{yOt} = 55^\\circ \\Rightarrow \\widehat{xOt} = 70^\\circ + 55^\\circ = 125^\\circ$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị nhỏ nhất của biểu thức: $E = (x - 2)^2 + |y + 1| + 2026$",
             "answer": "2026",
-            "explanation": "Vì $(x-2)^2 \\ge 0$ và $|y+1| \\ge 0$ nên $E \\ge 2026$ khi $x = 2, y = -1$."
+            "explanation": "Vì $(x-2)^2 \\ge 0$ và $|y+1| \\ge 0$ nên $E \\ge 2026$ khi $x = 2, y = -1$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Tính giá trị của biểu thức sau:\na) $A = \\left(-\\frac{2}{5}\\right) \\cdot \\frac{4}{15} + \\left(-\\frac{2}{5}\\right) \\cdot \\frac{11}{15} + 2\\frac{2}{5}$\nb) $B = \\frac{2^{12} \\cdot 3^5 - 4^6 \\cdot 9^2}{(2^2 \\cdot 3)^6}$",
             "rubric": "a) $-2/5 \\cdot 1 + 12/5 = 10/5 = 2$ (0.5đ).\nb) $4^6 = 2^{12}, 9^2 = 3^4$. Tử $2^{12} \\cdot 3^4(3 - 1) = 2^{13} \\cdot 3^4$. Mẫu $2^{12} \\cdot 3^6$. $B = 2/9$ (0.5đ).",
@@ -2443,7 +2571,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Tìm $x$, biết:\na) $\\frac{1}{2} - \\frac{2}{3}x = \\frac{7}{12}$\nb) $(2x + 3)^2 = 25$",
             "rubric": "a) $2/3x = -1/12 \\Rightarrow x = -1/8$ (0.35đ).\nb) $2x + 3 = \\pm 5 \\Rightarrow x = 1$ hoặc $x = -4$ (0.4đ).",
@@ -2493,65 +2621,70 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Biểu thức nào sau đây là đơn thức nhiều biến?",
             "options": [
-              "$2x + y$",
-              "$3x^2 y z^3$",
               "$\\frac{x}{y}$",
-              "$x^2 - 4$"
+              "$2x + y$",
+              "$x^2 - 4$",
+              "$3x^2 y z^3$"
             ],
-            "correct": 1,
-            "explanation": "$3x^2 y z^3$ chỉ gồm tích giữa các số và các biến nên là đơn thức."
+            "correct": 3,
+            "explanation": "$3x^2 y z^3$ chỉ gồm tích giữa các số và các biến nên là đơn thức.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Bậc của đơn thức $5x^3 y^2 z$ là:",
             "options": [
-              "$3$",
-              "$5$",
               "$6$",
-              "$7$"
+              "$7$",
+              "$3$",
+              "$5$"
             ],
-            "correct": 2,
-            "explanation": "Bậc của đơn thức: $3 + 2 + 1 = 6$."
+            "correct": 0,
+            "explanation": "Bậc của đơn thức: $3 + 2 + 1 = 6$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Đơn thức nào sau đây đồng dạng với đơn thức $-4x^2 y$?",
             "options": [
-              "$3xy^2$",
-              "$\\frac{1}{2}x^2 y$",
               "$-4x^2 y^2$",
+              "$\\frac{1}{2}x^2 y$",
+              "$3xy^2$",
               "$2x^3 y$"
             ],
             "correct": 1,
-            "explanation": "Cùng phần biến $x^2 y$."
+            "explanation": "Cùng phần biến $x^2 y$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Bậc của đa thức $P = 4x^4 y - 3x^2 y^3 - 4x^4 y + 7$ sau khi thu gọn là:",
             "options": [
+              "$6$",
               "$5$",
               "$4$",
-              "$6$",
               "$0$"
             ],
-            "correct": 0,
-            "explanation": "Thu gọn $P = -3x^2 y^3 + 7$ có bậc là $2 + 3 = 5$."
+            "correct": 1,
+            "explanation": "Thu gọn $P = -3x^2 y^3 + 7$ có bậc là $2 + 3 = 5$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Khai triển hằng đẳng thức $(x + 3)^2$ ta được:",
             "options": [
+              "$x^2 + 3x + 9$",
               "$x^2 + 9$",
               "$x^2 + 6x + 9$",
-              "$x^2 + 3x + 9$",
               "$x^2 + 6x + 6$"
             ],
-            "correct": 1,
-            "explanation": "$(x + 3)^2 = x^2 + 6x + 9$."
+            "correct": 2,
+            "explanation": "$(x + 3)^2 = x^2 + 6x + 9$.",
+            "points": 0.25
           },
           {
             "id": 6,
@@ -2560,76 +2693,82 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "$(x - 4)(x + 4)$",
               "$(x - 16)(x + 16)$",
-              "$(x - 4)^2$",
-              "$(x + 4)^2$"
+              "$(x + 4)^2$",
+              "$(x - 4)^2$"
             ],
             "correct": 0,
-            "explanation": "$x^2 - 4^2 = (x - 4)(x + 4)$."
+            "explanation": "$x^2 - 4^2 = (x - 4)(x + 4)$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Kết quả của phép nhân đơn thức với đa thức $2x(x^2 - 5)$ là:",
             "options": [
+              "$3x^3 - 10x$",
               "$2x^3 - 5$",
               "$2x^3 - 10x$",
-              "$2x^3 + 10x$",
-              "$3x^3 - 10x$"
+              "$2x^3 + 10x$"
             ],
-            "correct": 1,
-            "explanation": "$2x \\cdot x^2 - 2x \\cdot 5 = 2x^3 - 10x$."
+            "correct": 2,
+            "explanation": "$2x \\cdot x^2 - 2x \\cdot 5 = 2x^3 - 10x$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Kết quả của phép chia đơn thức $15x^4 y^3 : 3x^2 y$ là:",
             "options": [
-              "$5x^2 y^2$",
               "$5x^6 y^4$",
               "$12x^2 y^2$",
+              "$5x^2 y^2$",
               "$5x^2 y^3$"
             ],
-            "correct": 0,
-            "explanation": "$15 : 3 = 5, x^4 : x^2 = x^2, y^3 : y = y^2$."
+            "correct": 2,
+            "explanation": "$15 : 3 = 5, x^4 : x^2 = x^2, y^3 : y = y^2$.",
+            "points": 0.25
           },
           {
             "id": 9,
-            "level": "Nhận biết",
+            "level": "Thông hiểu",
             "question": "Tổng số đo bốn góc trong một tứ giác lồi luôn bằng:",
             "options": [
-              "$180^\\circ$",
-              "$360^\\circ$",
+              "$270^\\circ$",
               "$90^\\circ$",
-              "$270^\\circ$"
+              "$180^\\circ$",
+              "$360^\\circ$"
             ],
-            "correct": 1,
-            "explanation": "Tổng 4 góc tứ giác bằng $360^\\circ$."
+            "correct": 3,
+            "explanation": "Tổng 4 góc tứ giác bằng $360^\\circ$.",
+            "points": 0.25
           },
           {
             "id": 10,
-            "level": "Nhận biết",
+            "level": "Thông hiểu",
             "question": "Khẳng định nào sau đây về tính chất của hình thang cân là **sai**?",
             "options": [
-              "Hai cạnh bên bằng nhau",
-              "Hai góc kề một đáy bằng nhau",
+              "Hai đường chéo bằng nhau",
               "Hai đường chéo vuông góc với nhau",
-              "Hai đường chéo bằng nhau"
+              "Hai cạnh bên bằng nhau",
+              "Hai góc kề một đáy bằng nhau"
             ],
-            "correct": 2,
-            "explanation": "Hai đường chéo bằng nhau chứ không nhất thiết vuông góc."
+            "correct": 1,
+            "explanation": "Hai đường chéo bằng nhau chứ không nhất thiết vuông góc.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Phân tích đa thức $x^2 - 4x + 4 - y^2$ thành nhân tử ta được:",
             "options": [
-              "$(x - 2 - y)(x - 2 + y)$",
               "$(x - 2)^2 - y^2$",
               "$(x + 2 - y)(x + 2 + y)$",
-              "$(x - y - 4)(x + y + 4)$"
+              "$(x - y - 4)(x + y + 4)$",
+              "$(x - 2 - y)(x - 2 + y)$"
             ],
-            "correct": 0,
-            "explanation": "$(x - 2)^2 - y^2 = (x - 2 - y)(x - 2 + y)$."
+            "correct": 3,
+            "explanation": "$(x - 2)^2 - y^2 = (x - 2 - y)(x - 2 + y)$.",
+            "points": 0.25
           },
           {
             "id": 12,
@@ -2638,17 +2777,18 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "$110^\\circ$",
               "$120^\\circ$",
-              "$90^\\circ$",
-              "$100^\\circ$"
+              "$100^\\circ$",
+              "$90^\\circ$"
             ],
             "correct": 0,
-            "explanation": "$360^\\circ - 250^\\circ = 110^\\circ$."
+            "explanation": "$360^\\circ - 250^\\circ = 110^\\circ$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hai đa thức $M = 3x^2 y - 2xy^2 + 5$ và $N = x^2 y + 2xy^2 - 3$.",
             "statements": [
               {
@@ -2719,34 +2859,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức $A = x^3 - 3x^2 + 3x - 1$ tại $x = 101$:",
             "answer": "1000000",
-            "explanation": "$(x - 1)^3 = 100^3 = 1\\ 000\\ 000$."
+            "explanation": "$(x - 1)^3 = 100^3 = 1\\ 000\\ 000$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm giá trị của $x$, biết: $(x - 3)(x + 3) - x(x - 2) = 11$",
             "answer": "10",
-            "explanation": "$x^2 - 9 - x^2 + 2x = 11 \\Leftrightarrow 2x = 20 \\Leftrightarrow x = 10$."
+            "explanation": "$x^2 - 9 - x^2 + 2x = 11 \\Leftrightarrow 2x = 20 \\Leftrightarrow x = 10$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 65^\\circ$. Tính số đo của góc $\\widehat{A}$ (đơn vị: độ):",
             "answer": "115",
-            "explanation": "$\\widehat{A} = 180^\\circ - 65^\\circ = 115^\\circ$."
+            "explanation": "$\\widehat{A} = 180^\\circ - 65^\\circ = 115^\\circ$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = x^2 - 6x + y^2 + 4y + 2039$",
             "answer": "2026",
-            "explanation": "$(x - 3)^2 + (y + 2)^2 + 2026 \\ge 2026$."
+            "explanation": "$(x - 3)^2 + (y + 2)^2 + 2026 \\ge 2026$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "a) Thu gọn đa thức: $A = 5x^2 y - 3xy^2 + 2x^2 y + 4xy^2 - 7$.\nb) Thực hiện phép chia: $(12x^3 y^2 - 9x^2 y^3 + 6x^2 y^2) : (3x^2 y^2)$.",
             "rubric": "a) $7x^2 y + xy^2 - 7$ (0.5đ). b) $4x - 3y + 2$ (0.5đ).",
@@ -2754,7 +2898,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Phân tích các đa thức sau thành nhân tử:\na) $3x^2 - 6x$\nb) $x^2 - 2xy + y^2 - 25$",
             "rubric": "a) $3x(x - 2)$ (0.35đ). b) $(x - y - 5)(x - y + 5)$ (0.4đ).",
@@ -2800,65 +2944,70 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Hệ số của đơn thức $-5x^3 y^4$ là:",
             "options": [
-              "$5$",
-              "$-5$",
               "$3$",
-              "$4$"
+              "$4$",
+              "$5$",
+              "$-5$"
             ],
-            "correct": 1,
-            "explanation": "Hệ số là phần số: $-5$."
+            "correct": 3,
+            "explanation": "Hệ số là phần số: $-5$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Kết quả của phép nhân $(x + 2)(x - 2)$ là:",
             "options": [
-              "$x^2 - 4$",
               "$x^2 + 4$",
-              "$x^2 - 2$",
-              "$x^2 - 4x + 4$"
+              "$x^2 - 4$",
+              "$x^2 - 4x + 4$",
+              "$x^2 - 2$"
             ],
-            "correct": 0,
-            "explanation": "$(x + 2)(x - 2) = x^2 - 4$."
+            "correct": 1,
+            "explanation": "$(x + 2)(x - 2) = x^2 - 4$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Khai triển hằng đẳng thức $(a - b)^3$ ta được:",
             "options": [
-              "$a^3 - b^3$",
-              "$a^3 - 3a^2 b + 3ab^2 - b^3$",
+              "$a^3 + 3a^2 b + 3ab^2 + b^3$",
               "$a^3 - 3a^2 b - 3ab^2 - b^3$",
-              "$a^3 + 3a^2 b + 3ab^2 + b^3$"
+              "$a^3 - 3a^2 b + 3ab^2 - b^3$",
+              "$a^3 - b^3$"
             ],
-            "correct": 1,
-            "explanation": "$(a - b)^3 = a^3 - 3a^2 b + 3ab^2 - b^3$."
+            "correct": 2,
+            "explanation": "$(a - b)^3 = a^3 - 3a^2 b + 3ab^2 - b^3$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Đa thức $x^3 + 8$ viết dưới dạng tích là:",
             "options": [
-              "$(x + 2)(x^2 - 2x + 4)$",
               "$(x + 2)(x^2 + 2x + 4)$",
               "$(x - 2)(x^2 + 2x + 4)$",
+              "$(x + 2)(x^2 - 2x + 4)$",
               "$(x + 2)^3$"
             ],
-            "correct": 0,
-            "explanation": "$x^3 + 2^3 = (x + 2)(x^2 - 2x + 4)$."
+            "correct": 2,
+            "explanation": "$x^3 + 2^3 = (x + 2)(x^2 - 2x + 4)$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Phân tích đa thức $5x(x - y) + 3(x - y)$ thành nhân tử được kết quả là:",
             "options": [
-              "$(x - y)(5x + 3)$",
-              "$(x - y)(5x - 3)$",
               "$8x(x - y)$",
+              "$(x - y)(5x - 3)$",
+              "$(x - y)(5x + 3)$",
               "$(x + y)(5x + 3)$"
             ],
-            "correct": 0,
-            "explanation": "Đặt nhân tử chung $(x - y)$."
+            "correct": 2,
+            "explanation": "Đặt nhân tử chung $(x - y)$.",
+            "points": 0.25
           },
           {
             "id": 6,
@@ -2866,96 +3015,103 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Đơn thức $-12x^3 y^2$ chia hết cho đơn thức nào sau đây?",
             "options": [
               "$3x^4 y$",
-              "$4x^2 y^3$",
               "$-3x^2 y$",
+              "$4x^2 y^3$",
               "$5xy^4$"
             ],
-            "correct": 2,
-            "explanation": "Số mũ của từng biến ở đơn thức bị chia lớn hơn hoặc bằng ở đơn thức chia."
+            "correct": 1,
+            "explanation": "Số mũ của từng biến ở đơn thức bị chia lớn hơn hoặc bằng ở đơn thức chia.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Hình chữ nhật là tứ giác có:",
             "options": [
-              "Bốn cạnh bằng nhau",
               "Bốn góc vuông",
               "Hai đường chéo vuông góc",
+              "Bốn cạnh bằng nhau",
               "Hai đường chéo là phân giác"
             ],
-            "correct": 1,
-            "explanation": "Hình chữ nhật là tứ giác có bốn góc vuông."
+            "correct": 0,
+            "explanation": "Hình chữ nhật là tứ giác có bốn góc vuông.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Hình thoi có hai đường chéo dài $10\\text{ cm}$ và $12\\text{ cm}$. Diện tích của hình thoi là:",
             "options": [
-              "$120\\text{ cm}^2$",
               "$60\\text{ cm}^2$",
+              "$44\\text{ cm}^2$",
               "$22\\text{ cm}^2$",
-              "$44\\text{ cm}^2$"
+              "$120\\text{ cm}^2$"
             ],
-            "correct": 1,
-            "explanation": "$S = \\frac{1}{2} \\cdot 10 \\cdot 12 = 60\\text{ cm}^2$."
+            "correct": 0,
+            "explanation": "$S = \\frac{1}{2} \\cdot 10 \\cdot 12 = 60\\text{ cm}^2$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Giá trị của biểu thức $P = x^2 - 4xy + 4y^2$ tại $x = 104, y = 2$ là:",
             "options": [
-              "$10\\ 000$",
-              "$100$",
               "$1000$",
-              "$10\\ 816$"
+              "$10\\ 816$",
+              "$100$",
+              "$10\\ 000$"
             ],
-            "correct": 0,
-            "explanation": "$P = (x - 2y)^2 = (104 - 4)^2 = 100^2 = 10\\ 000$."
+            "correct": 3,
+            "explanation": "$P = (x - 2y)^2 = (104 - 4)^2 = 100^2 = 10\\ 000$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Tìm $x$, biết: $x(x - 5) + x - 5 = 0$.",
             "options": [
-              "$x = 5$",
               "$x = -1$",
-              "$x = 5$ hoặc $x = -1$",
-              "$x = 0$"
+              "$x = 5$",
+              "$x = 0$",
+              "$x = 5$ hoặc $x = -1$"
             ],
-            "correct": 2,
-            "explanation": "$(x - 5)(x + 1) = 0 \\Rightarrow x = 5$ hoặc $x = -1$."
+            "correct": 3,
+            "explanation": "$(x - 5)(x + 1) = 0 \\Rightarrow x = 5$ hoặc $x = -1$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Cho tam giác $ABC$ vuông tại $A$, có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Độ dài đường trung tuyến ứng với cạnh huyền $BC$ là:",
             "options": [
-              "$10\\text{ cm}$",
               "$5\\text{ cm}$",
-              "$4\\text{ cm}$",
-              "$3\\text{ cm}$"
+              "$10\\text{ cm}$",
+              "$3\\text{ cm}$",
+              "$4\\text{ cm}$"
             ],
-            "correct": 1,
-            "explanation": "$BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $10 : 2 = 5\\text{ cm}$."
+            "correct": 0,
+            "explanation": "$BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $10 : 2 = 5\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 120^\\circ$ và $\\widehat{C} - \\widehat{D} = 20^\\circ$. Số đo của góc $\\widehat{D}$ là:",
             "options": [
+              "$70^\\circ$",
               "$60^\\circ$",
               "$80^\\circ$",
-              "$70^\\circ$",
               "$50^\\circ$"
             ],
-            "correct": 0,
-            "explanation": "$\\widehat{C} + \\widehat{D} = 360^\\circ - 220^\\circ = 140^\\circ$. $\\widehat{D} = (140^\\circ - 20^\\circ) : 2 = 60^\\circ$."
+            "correct": 1,
+            "explanation": "$\\widehat{C} + \\widehat{D} = 360^\\circ - 220^\\circ = 140^\\circ$. $\\widehat{D} = (140^\\circ - 20^\\circ) : 2 = 60^\\circ$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho biểu thức $A = (x - 2)(x^2 + 2x + 4) - (x + 1)^3$.",
             "statements": [
               {
@@ -3026,34 +3182,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức $M = (x + y)^3 - 3xy(x + y)$ khi $x + y = 5$ và $xy = 6$:",
             "answer": "35",
-            "explanation": "$5^3 - 3 \\cdot 6 \\cdot 5 = 125 - 90 = 35$."
+            "explanation": "$5^3 - 3 \\cdot 6 \\cdot 5 = 125 - 90 = 35$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$ thỏa mãn: $x^2 - 16 = 0$ và $x > 0$:",
             "answer": "4",
-            "explanation": "$x^2 = 16 \\Rightarrow x = 4$."
+            "explanation": "$x^2 = 16 \\Rightarrow x = 4$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho hình thoi $ABCD$ có cạnh $a = 10\\text{ cm}$ và một góc $\\widehat{A} = 60^\\circ$. Tính độ dài đường chéo ngắn $BD$ (đơn vị: cm):",
             "answer": "10",
-            "explanation": "Tam giác $ABD$ có $AB = AD = 10$ và góc $60^\\circ$ nên là tam giác đều $\\Rightarrow BD = 10\\text{ cm}$."
+            "explanation": "Tam giác $ABD$ có $AB = AD = 10$ và góc $60^\\circ$ nên là tam giác đều $\\Rightarrow BD = 10\\text{ cm}$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 - 4x + 11$",
             "answer": "7",
-            "explanation": "$P = (x - 2)^2 + 7 \\ge 7$ khi $x = 2$."
+            "explanation": "$P = (x - 2)^2 + 7 \\ge 7$ khi $x = 2$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Thực hiện phép tính:\na) $(2x - 1)(x + 3) - 2x(x + 1)$\nb) $(15x^3 y^2 - 10x^2 y^3 + 5x^2 y^2) : (5x^2 y^2)$",
             "rubric": "a) $2x^2 + 5x - 3 - 2x^2 - 2x = 3x - 3$ (0.5đ). b) $3x - 2y + 1$ (0.5đ).",
@@ -3061,7 +3221,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Phân tích các đa thức sau thành nhân tử:\na) $x^2 - 9 + (x - 3)^2$\nb) $x^2 - 4x - y^2 + 4$",
             "rubric": "a) $(x-3)(x+3) + (x-3)^2 = (x-3)(x+3+x-3) = 2x(x-3)$ (0.35đ).\nb) $(x-2)^2 - y^2 = (x - 2 - y)(x - 2 + y)$ (0.4đ).",
@@ -3107,13 +3267,14 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Biểu thức $x^2 + 2xy + y^2$ là dạng khai triển của hằng đẳng thức nào?",
             "options": [
-              "$(x - y)^2$",
-              "$(x + y)^2$",
+              "$(x + y)^3$",
               "$x^2 + y^2$",
-              "$(x + y)^3$"
+              "$(x + y)^2$",
+              "$(x - y)^2$"
             ],
-            "correct": 1,
-            "explanation": "$(x + y)^2 = x^2 + 2xy + y^2$."
+            "correct": 2,
+            "explanation": "$(x + y)^2 = x^2 + 2xy + y^2$.",
+            "points": 0.25
           },
           {
             "id": 2,
@@ -3121,51 +3282,55 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Giá trị của biểu thức $x^2 - y^2$ tại $x = 87$ và $y = 13$ là:",
             "options": [
               "$7400$",
-              "$740$",
+              "$1000$",
               "$100$",
-              "$1000$"
+              "$740$"
             ],
             "correct": 0,
-            "explanation": "$(87 - 13)(87 + 13) = 74 \\cdot 100 = 7400$."
+            "explanation": "$(87 - 13)(87 + 13) = 74 \\cdot 100 = 7400$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Bậc của đa thức $Q = 2x^2 y^2 - 5x^3 y + x^4 - x^4 + 1$ là:",
             "options": [
+              "$0$",
               "$4$",
-              "$3$",
               "$2$",
-              "$0$"
+              "$3$"
             ],
-            "correct": 0,
-            "explanation": "$x^4 - x^4 = 0$. $Q = 2x^2 y^2 - 5x^3 y + 1$ có bậc là $4$."
+            "correct": 1,
+            "explanation": "$x^4 - x^4 = 0$. $Q = 2x^2 y^2 - 5x^3 y + 1$ có bậc là $4$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Phân tích đa thức $x^2 - 5x + 6$ thành nhân tử, ta được:",
             "options": [
-              "$(x - 2)(x - 3)$",
               "$(x + 2)(x + 3)$",
+              "$(x - 2)(x - 3)$",
               "$(x - 1)(x - 6)$",
               "$(x + 1)(x - 6)$"
             ],
-            "correct": 0,
-            "explanation": "$x^2 - 2x - 3x + 6 = x(x - 2) - 3(x - 2) = (x - 2)(x - 3)$."
+            "correct": 1,
+            "explanation": "$x^2 - 2x - 3x + 6 = x(x - 2) - 3(x - 2) = (x - 2)(x - 3)$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Đa thức nào sau đây chia hết cho đơn thức $3xy$?",
             "options": [
-              "$6x^2 y - 3xy^2$",
-              "$3x^2 + y$",
               "$2x - 3y$",
+              "$3x^2 + y$",
+              "$6x^2 y - 3xy^2$",
               "$x^2 y^2 - x$"
             ],
-            "correct": 0,
-            "explanation": "Mỗi hạng tử của $6x^2 y - 3xy^2$ đều chia hết cho $3xy$."
+            "correct": 2,
+            "explanation": "Mỗi hạng tử của $6x^2 y - 3xy^2$ đều chia hết cho $3xy$.",
+            "points": 0.25
           },
           {
             "id": 6,
@@ -3173,38 +3338,41 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Hình vuông là hình thoi có:",
             "options": [
               "Một góc vuông",
-              "Hai đường chéo vuông góc",
               "Bốn cạnh bằng nhau",
-              "Các góc đối bằng nhau"
+              "Các góc đối bằng nhau",
+              "Hai đường chéo vuông góc"
             ],
             "correct": 0,
-            "explanation": "Dấu hiệu nhận biết: Hình thoi có một góc vuông là hình vuông."
+            "explanation": "Dấu hiệu nhận biết: Hình thoi có một góc vuông là hình vuông.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Hình bình hành có hai đường chéo bằng nhau là hình gì?",
             "options": [
+              "Hình vuông",
               "Hình thoi",
               "Hình chữ nhật",
-              "Hình vuông",
               "Hình thang cân"
             ],
-            "correct": 1,
-            "explanation": "Hình bình hành có hai đường chéo bằng nhau là hình chữ nhật."
+            "correct": 2,
+            "explanation": "Hình bình hành có hai đường chéo bằng nhau là hình chữ nhật.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Một hình vuông có độ dài đường chéo bằng $\\sqrt{32}\\text{ cm}$. Độ dài cạnh hình vuông đó là:",
             "options": [
-              "$4\\text{ cm}$",
-              "$8\\text{ cm}$",
               "$16\\text{ cm}$",
-              "$2\\text{ cm}$"
+              "$8\\text{ cm}$",
+              "$2\\text{ cm}$",
+              "$4\\text{ cm}$"
             ],
-            "correct": 0,
-            "explanation": "$d = a\\sqrt{2} = \\sqrt{32} = 4\\sqrt{2} \\Rightarrow a = 4\\text{ cm}$."
+            "correct": 3,
+            "explanation": "$d = a\\sqrt{2} = \\sqrt{32} = 4\\sqrt{2} \\Rightarrow a = 4\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 9,
@@ -3212,57 +3380,61 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Rút gọn biểu thức $(x + 1)^2 - 2(x + 1)(x - 2) + (x - 2)^2$ ta được:",
             "options": [
               "$9$",
+              "$3$",
               "$1$",
-              "$2x - 1$",
-              "$3$"
+              "$2x - 1$"
             ],
             "correct": 0,
-            "explanation": "$[(x + 1) - (x - 2)]^2 = 3^2 = 9$."
+            "explanation": "$[(x + 1) - (x - 2)]^2 = 3^2 = 9$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $n$ để đơn thức $x^n y^2$ chia hết cho đơn thức $x^3 y$:",
             "options": [
-              "$n \\ge 3$",
+              "$n \\ge 2$",
               "$n \\le 3$",
               "$n = 2$",
-              "$n \\ge 2$"
+              "$n \\ge 3$"
             ],
-            "correct": 0,
-            "explanation": "Số mũ của biến $x$ ở số bị chia phải lớn hơn hoặc bằng ở số chia: $n \\ge 3$."
+            "correct": 3,
+            "explanation": "Số mũ của biến $x$ ở số bị chia phải lớn hơn hoặc bằng ở số chia: $n \\ge 3$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Cho tứ giác $ABCD$ có hai đường chéo $AC \\perp BD$. Gọi $E, F, G, H$ lần lượt là trung điểm của bốn cạnh $AB, BC, CD, DA$. Tứ giác $EFGH$ là hình gì?",
             "options": [
-              "Hình bình hành",
+              "Hình vuông",
               "Hình chữ nhật",
               "Hình thoi",
-              "Hình vuông"
+              "Hình bình hành"
             ],
             "correct": 1,
-            "explanation": "Tứ giác nối trung điểm 4 cạnh của tứ giác có hai đường chéo vuông góc là hình chữ nhật."
+            "explanation": "Tứ giác nối trung điểm 4 cạnh của tứ giác có hai đường chéo vuông góc là hình chữ nhật.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Phân tích đa thức $x^3 - 4x$ thành nhân tử, ta được:",
             "options": [
-              "$x(x - 2)(x + 2)$",
+              "$x^2(x - 4)$",
               "$x(x - 4)(x + 4)$",
               "$x(x - 2)^2$",
-              "$x^2(x - 4)$"
+              "$x(x - 2)(x + 2)$"
             ],
-            "correct": 0,
-            "explanation": "$x(x^2 - 4) = x(x - 2)(x + 2)$."
+            "correct": 3,
+            "explanation": "$x(x^2 - 4) = x(x - 2)(x + 2)$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho đa thức $P(x) = x^3 - 3x^2 + 3x - 1$ và $Q(x) = (x - 1)(x^2 + x + 1)$.",
             "statements": [
               {
@@ -3333,34 +3505,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức $A = x^2 - 6x + 9$ tại $x = 103$:",
             "answer": "10000",
-            "explanation": "$(103 - 3)^2 = 100^2 = 10\\ 000$."
+            "explanation": "$(103 - 3)^2 = 100^2 = 10\\ 000$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$, biết: $(2x - 3)^2 - (2x + 1)(2x - 1) = 22$",
             "answer": "-1",
-            "explanation": "$4x^2 - 12x + 9 - 4x^2 + 1 = 22 \\Leftrightarrow -12x = 12 \\Rightarrow x = -1$."
+            "explanation": "$4x^2 - 12x + 9 - 4x^2 + 1 = 22 \\Leftrightarrow -12x = 12 \\Rightarrow x = -1$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Một hình chữ nhật có chu vi $36\\text{ cm}$. Nếu tăng chiều rộng thêm $2\\text{ cm}$ và giảm chiều dài đi $2\\text{ cm}$ thì được một hình vuông. Tính diện tích hình chữ nhật ban đầu (cm²):",
             "answer": "77",
-            "explanation": "Nửa chu vi 18. Dài hơn rộng 4cm $\\Rightarrow$ dài 11, rộng 7 $\\Rightarrow S = 77$."
+            "explanation": "Nửa chu vi 18. Dài hơn rộng 4cm $\\Rightarrow$ dài 11, rộng 7 $\\Rightarrow S = 77$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Cho $x + y = 3$ và $x^2 + y^2 = 5$. Tính giá trị của $xy$:",
             "answer": "2",
-            "explanation": "$2xy = (x + y)^2 - (x^2 + y^2) = 9 - 5 = 4 \\Rightarrow xy = 2$."
+            "explanation": "$2xy = (x + y)^2 - (x^2 + y^2) = 9 - 5 = 4 \\Rightarrow xy = 2$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "a) Rút gọn biểu thức: $A = (x + 2)^3 - x(x + 3)^2 + 6x^2$.\nb) Thực hiện phép chia đa thức cho đơn thức: $(8x^4 y^3 - 12x^3 y^2 + 4x^2 y^2) : (4x^2 y^2)$.",
             "rubric": "a) $x^3 + 6x^2 + 12x + 8 - x(x^2 + 6x + 9) + 6x^2 = 3x + 8$ (0.5đ). b) $2x^2 y - 3x + 1$ (0.5đ).",
@@ -3368,7 +3544,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Phân tích các đa thức sau thành nhân tử:\na) $2x^3 - 8x$\nb) $x^2 - 5x + 6$",
             "rubric": "a) $2x(x - 2)(x + 2)$ (0.35đ). b) $(x - 2)(x - 3)$ (0.4đ).",
@@ -3414,26 +3590,28 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Thu gọn đơn thức $2x^2 y \\cdot (-3)x y^3$ ta được:",
             "options": [
-              "$-6x^3 y^4$",
-              "$6x^3 y^4$",
+              "$-5x^3 y^4$",
               "$-6x^2 y^3$",
-              "$-5x^3 y^4$"
+              "$6x^3 y^4$",
+              "$-6x^3 y^4$"
             ],
-            "correct": 0,
-            "explanation": "$2 \\cdot (-3) \\cdot x^3 y^4 = -6x^3 y^4$."
+            "correct": 3,
+            "explanation": "$2 \\cdot (-3) \\cdot x^3 y^4 = -6x^3 y^4$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Hằng đẳng thức tổng hai lập phương là:",
             "options": [
-              "$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$",
-              "$a^3 + b^3 = (a + b)(a^2 + ab + b^2)$",
               "$a^3 + b^3 = (a - b)(a^2 + ab + b^2)$",
-              "$a^3 + b^3 = (a + b)^3$"
+              "$a^3 + b^3 = (a + b)^3$",
+              "$a^3 + b^3 = (a + b)(a^2 - ab + b^2)$",
+              "$a^3 + b^3 = (a + b)(a^2 + ab + b^2)$"
             ],
-            "correct": 0,
-            "explanation": "Đúng công thức hằng đẳng thức."
+            "correct": 2,
+            "explanation": "Đúng công thức hằng đẳng thức.",
+            "points": 0.25
           },
           {
             "id": 3,
@@ -3446,33 +3624,36 @@ window.PERIODIC_EXAM_BANK = {
               "$(x + 1)^2 - y$"
             ],
             "correct": 0,
-            "explanation": "$(x + 1)^2 - y^2 = (x + 1 - y)(x + 1 + y)$."
+            "explanation": "$(x + 1)^2 - y^2 = (x + 1 - y)(x + 1 + y)$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Khẳng định nào sau đây về hình chữ nhật là **đúng**?",
             "options": [
-              "Hai đường chéo vuông góc với nhau",
               "Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường",
-              "Bốn cạnh bằng nhau",
-              "Đường chéo là đường phân giác của các góc"
+              "Đường chéo là đường phân giác của các góc",
+              "Hai đường chéo vuông góc với nhau",
+              "Bốn cạnh bằng nhau"
             ],
-            "correct": 1,
-            "explanation": "Tính chất đặc trưng của hình chữ nhật."
+            "correct": 0,
+            "explanation": "Tính chất đặc trưng của hình chữ nhật.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Hình thoi có chu vi bằng $40\\text{ cm}$. Độ dài mỗi cạnh của hình thoi là:",
             "options": [
+              "$8\\text{ cm}$",
               "$10\\text{ cm}$",
               "$20\\text{ cm}$",
-              "$5\\text{ cm}$",
-              "$8\\text{ cm}$"
+              "$5\\text{ cm}$"
             ],
-            "correct": 0,
-            "explanation": "$40 : 4 = 10\\text{ cm}$."
+            "correct": 1,
+            "explanation": "$40 : 4 = 10\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 6,
@@ -3480,96 +3661,103 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Biểu thức $x^2 - 10x + 25$ được viết dưới dạng bình phương của một hiệu là:",
             "options": [
               "$(x - 5)^2$",
-              "$(x + 5)^2$",
               "$(x - 25)^2$",
+              "$(x + 5)^2$",
               "$(x - 10)^2$"
             ],
             "correct": 0,
-            "explanation": "$(x - 5)^2$."
+            "explanation": "$(x - 5)^2$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Thực hiện phép chia $20x^5 y^4 : 5x^2 y^3$ ta được:",
             "options": [
-              "$4x^3 y$",
+              "$4x^7 y^7$",
               "$4x^3 y^7$",
-              "$15x^3 y$",
-              "$4x^7 y^7$"
+              "$4x^3 y$",
+              "$15x^3 y$"
             ],
-            "correct": 0,
-            "explanation": "$4x^3 y$."
+            "correct": 2,
+            "explanation": "$4x^3 y$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là hình gì?",
             "options": [
-              "Hình bình hành",
+              "Hình thang cân",
               "Hình chữ nhật",
               "Hình thoi",
-              "Hình thang cân"
+              "Hình bình hành"
             ],
-            "correct": 0,
-            "explanation": "Dấu hiệu nhận biết hình bình hành."
+            "correct": 3,
+            "explanation": "Dấu hiệu nhận biết hình bình hành.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Tìm $x$ biết $x^3 - x = 0$. Các giá trị của $x$ là:",
             "options": [
-              "$x = 0$",
-              "$x = 1$",
+              "$x = 0; x = 1$",
               "$x = 0; x = 1; x = -1$",
-              "$x = 0; x = 1$"
+              "$x = 1$",
+              "$x = 0$"
             ],
-            "correct": 2,
-            "explanation": "$x(x - 1)(x + 1) = 0 \\Rightarrow x \\in \\{0; 1; -1\\}$."
+            "correct": 1,
+            "explanation": "$x(x - 1)(x + 1) = 0 \\Rightarrow x \\in \\{0; 1; -1\\}$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Cho tam giác $ABC$ có chu vi bằng $24\\text{ cm}$. Gọi $D, E, F$ lần lượt là trung điểm của ba cạnh $AB, BC, CA$. Chu vi của tam giác $DEF$ là:",
             "options": [
-              "$12\\text{ cm}$",
               "$48\\text{ cm}$",
-              "$6\\text{ cm}$",
-              "$8\\text{ cm}$"
+              "$8\\text{ cm}$",
+              "$12\\text{ cm}$",
+              "$6\\text{ cm}$"
             ],
-            "correct": 0,
-            "explanation": "Mỗi cạnh của $\\Delta DEF$ bằng một nửa cạnh tương ứng của $\\Delta ABC$, chu vi bằng $24 : 2 = 12\\text{ cm}$."
+            "correct": 2,
+            "explanation": "Mỗi cạnh của $\\Delta DEF$ bằng một nửa cạnh tương ứng của $\\Delta ABC$, chu vi bằng $24 : 2 = 12\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức $P = x^3 + y^3$ biết $x + y = 4$ và $xy = 3$:",
             "options": [
-              "$28$",
-              "$64$",
               "$36$",
-              "$52$"
+              "$52$",
+              "$64$",
+              "$28$"
             ],
-            "correct": 0,
-            "explanation": "$P = (x + y)^3 - 3xy(x + y) = 4^3 - 3 \\cdot 3 \\cdot 4 = 64 - 36 = 28$."
+            "correct": 3,
+            "explanation": "$P = (x + y)^3 - 3xy(x + y) = 4^3 - 3 \\cdot 3 \\cdot 4 = 64 - 36 = 28$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Đa thức $x^2 - y^2 - 2y - 1$ được phân tích thành:",
             "options": [
-              "$(x - y - 1)(x + y + 1)$",
-              "$(x - y + 1)(x + y - 1)$",
               "$(x + y + 1)^2$",
-              "$(x - y - 1)^2$"
+              "$(x - y - 1)(x + y + 1)$",
+              "$(x - y - 1)^2$",
+              "$(x - y + 1)(x + y - 1)$"
             ],
-            "correct": 0,
-            "explanation": "$x^2 - (y + 1)^2 = (x - y - 1)(x + y + 1)$."
+            "correct": 1,
+            "explanation": "$x^2 - (y + 1)^2 = (x - y - 1)(x + y + 1)$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho biểu thức $M = (2x + 1)^2 + (2x - 1)^2 - 2(4x^2 - 1)$.",
             "statements": [
               {
@@ -3640,34 +3828,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính nhanh giá trị: $K = 53^2 + 47^2 + 94 \\cdot 53$:",
             "answer": "10000",
-            "explanation": "$(53 + 47)^2 = 100^2 = 10\\ 000$."
+            "explanation": "$(53 + 47)^2 = 100^2 = 10\\ 000$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm số tự nhiên $x$, biết: $x(x - 2) + 3x - 6 = 0$ và $x > 0$:",
             "answer": "2",
-            "explanation": "$(x - 2)(x + 3) = 0 \\Rightarrow x = 2$."
+            "explanation": "$(x - 2)(x + 3) = 0 \\Rightarrow x = 2$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho hình chữ nhật có diện tích $48\\text{ cm}^2$ và chu vi $28\\text{ cm}$. Tính độ dài đường chéo hình chữ nhật (cm):",
             "answer": "10",
-            "explanation": "Dài 8, rộng 6 $\\Rightarrow d = \\sqrt{8^2 + 6^2} = 10\\text{ cm}$."
+            "explanation": "Dài 8, rộng 6 $\\Rightarrow d = \\sqrt{8^2 + 6^2} = 10\\text{ cm}$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị lớn nhất của biểu thức: $N = -x^2 + 6x - 4$:",
             "answer": "5",
-            "explanation": "$N = -(x - 3)^2 + 5 \\le 5$ khi $x = 3$."
+            "explanation": "$N = -(x - 3)^2 + 5 \\le 5$ khi $x = 3$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "Thực hiện phép tính:\na) $(x^2 - 1)(x^2 + 2x) - x(x^3 - 2)$\nb) $(20x^4 y^3 - 15x^3 y^4 + 10x^2 y^3) : (5x^2 y^3)$",
             "rubric": "a) $x^4 + 2x^3 - x^2 - 2x - x^4 + 2x = 2x^3 - x^2$ (0.5đ). b) $4x^2 - 3xy + 2$ (0.5đ).",
@@ -3675,7 +3867,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Phân tích các đa thức sau thành nhân tử:\na) $x^3 - 2x^2 + x$\nb) $x^2 - y^2 + 4x - 4y$",
             "rubric": "a) $x(x - 1)^2$ (0.35đ). b) $(x - y)(x + y + 4)$ (0.4đ).",
@@ -3725,52 +3917,56 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Cặp số nào sau đây là một nghiệm của phương trình bậc nhất hai ẩn $2x - y = 3$?",
             "options": [
-              "$(1; 1)$",
               "$(2; 1)$",
               "$(1; -2)$",
-              "$(0; 3)$"
+              "$(0; 3)$",
+              "$(1; 1)$"
             ],
-            "correct": 1,
-            "explanation": "$2(2) - 1 = 3$."
+            "correct": 0,
+            "explanation": "$2(2) - 1 = 3$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
             "options": [
-              "$(2; 3)$",
               "$(3; 2)$",
-              "$(4; 1)$",
-              "$(1; 4)$"
+              "$(1; 4)$",
+              "$(2; 3)$",
+              "$(4; 1)$"
             ],
-            "correct": 1,
-            "explanation": "$x = 3, y = 2$."
+            "correct": 0,
+            "explanation": "$x = 3, y = 2$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Tập nghiệm của phương trình tích $(x - 5)(2x + 6) = 0$ là:",
             "options": [
-              "$S = \\{5; -3\\}$",
               "$S = \\{-5; 3\\}$",
               "$S = \\{5; 3\\}$",
-              "$S = \\{-5; -3\\}$"
+              "$S = \\{-5; -3\\}$",
+              "$S = \\{5; -3\\}$"
             ],
-            "correct": 0,
-            "explanation": "$x = 5$ hoặc $x = -3$."
+            "correct": 3,
+            "explanation": "$x = 5$ hoặc $x = -3$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Điều kiện xác định của biểu thức căn bậc hai $\\sqrt{3x - 6}$ là:",
             "options": [
-              "$x > 2$",
-              "$x \\ge 2$",
               "$x \\le 2$",
-              "$x \\ge -2$"
+              "$x \\ge -2$",
+              "$x > 2$",
+              "$x \\ge 2$"
             ],
-            "correct": 1,
-            "explanation": "$3x - 6 \\ge 0 \\Leftrightarrow x \\ge 2$."
+            "correct": 3,
+            "explanation": "$3x - 6 \\ge 0 \\Leftrightarrow x \\ge 2$.",
+            "points": 0.25
           },
           {
             "id": 5,
@@ -3778,12 +3974,13 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Giá trị của biểu thức $\\sqrt{(-7)^2}$ là:",
             "options": [
               "$-7$",
-              "$7$",
               "$\\pm 7$",
-              "$49$"
+              "$49$",
+              "$7$"
             ],
-            "correct": 1,
-            "explanation": "$\\sqrt{(-7)^2} = |-7| = 7$."
+            "correct": 3,
+            "explanation": "$\\sqrt{(-7)^2} = |-7| = 7$.",
+            "points": 0.25
           },
           {
             "id": 6,
@@ -3791,96 +3988,103 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Khai phương một tích $\\sqrt{25 \\cdot 36}$ ta được kết quả là:",
             "options": [
               "$60$",
+              "$11$",
               "$30$",
-              "$900$",
-              "$11$"
+              "$900$"
             ],
-            "correct": 1,
-            "explanation": "$5 \\cdot 6 = 30$."
+            "correct": 2,
+            "explanation": "$5 \\cdot 6 = 30$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Trục căn thức ở mẫu của biểu thức $\\frac{6}{\\sqrt{3}}$ ta được:",
             "options": [
-              "$2\\sqrt{3}$",
+              "$2$",
               "$3\\sqrt{3}$",
-              "$6\\sqrt{3}$",
-              "$2$"
+              "$2\\sqrt{3}$",
+              "$6\\sqrt{3}$"
             ],
-            "correct": 0,
-            "explanation": "$\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$."
+            "correct": 2,
+            "explanation": "$\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Cho tam giác $ABC$ vuông tại $A$. Tỉ số lượng giác $\\sin B$ bằng:",
             "options": [
+              "$\\frac{AB}{AC}$",
               "$\\frac{AC}{BC}$",
               "$\\frac{AB}{BC}$",
-              "$\\frac{AC}{AB}$",
-              "$\\frac{AB}{AC}$"
+              "$\\frac{AC}{AB}$"
             ],
-            "correct": 0,
-            "explanation": "$\\sin = \\text{đối}/\\text{huyền} = AC/BC$."
+            "correct": 1,
+            "explanation": "$\\sin = \\text{đối}/\\text{huyền} = AC/BC$.",
+            "points": 0.25
           },
           {
             "id": 9,
-            "level": "Nhận biết",
+            "level": "Thông hiểu",
             "question": "Với góc nhọn $\\alpha$ bất kỳ, khẳng định nào sau đây là **sai**?",
             "options": [
-              "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
-              "$\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}$",
               "$\\sin(90^\\circ - \\alpha) = \\cos \\alpha$",
-              "$\\sin \\alpha > 1$"
+              "$\\sin \\alpha > 1$",
+              "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$",
+              "$\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}$"
             ],
-            "correct": 3,
-            "explanation": "Luôn có $0 < \\sin \\alpha < 1$."
+            "correct": 1,
+            "explanation": "Luôn có $0 < \\sin \\alpha < 1$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 3\\text{ cm}, AC = 4\\text{ cm}$. Giá trị của $\\tan B$ bằng:",
             "options": [
-              "$\\frac{3}{4}$",
               "$\\frac{4}{3}$",
+              "$\\frac{3}{4}$",
               "$\\frac{4}{5}$",
               "$\\frac{3}{5}$"
             ],
-            "correct": 1,
-            "explanation": "$\\tan B = AC/AB = 4/3$."
+            "correct": 0,
+            "explanation": "$\\tan B = AC/AB = 4/3$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Rút gọn biểu thức $P = \\sqrt{48} - \\sqrt{27} + \\sqrt{12}$ ta được kết quả là:",
             "options": [
-              "$3\\sqrt{3}$",
-              "$5\\sqrt{3}$",
               "$9\\sqrt{3}$",
-              "$2\\sqrt{3}$"
+              "$3\\sqrt{3}$",
+              "$2\\sqrt{3}$",
+              "$5\\sqrt{3}$"
             ],
-            "correct": 0,
-            "explanation": "$4\\sqrt{3} - 3\\sqrt{3} + 2\\sqrt{3} = 3\\sqrt{3}$."
+            "correct": 1,
+            "explanation": "$4\\sqrt{3} - 3\\sqrt{3} + 2\\sqrt{3} = 3\\sqrt{3}$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một cột cờ có bóng trên mặt đất dài $10\\text{ m}$. Biết góc tạo bởi tia nắng mặt trời với mặt đất là $60^\\circ$. Chiều cao cột cờ (làm tròn đến hàng phần mười) là:",
             "options": [
-              "$17,3\\text{ m}$",
               "$5,8\\text{ m}$",
-              "$20,0\\text{ m}$",
-              "$14,1\\text{ m}$"
+              "$14,1\\text{ m}$",
+              "$17,3\\text{ m}$",
+              "$20,0\\text{ m}$"
             ],
-            "correct": 0,
-            "explanation": "$h = 10 \\cdot \\tan 60^\\circ = 10\\sqrt{3} \\approx 17,3\\text{ m}$."
+            "correct": 2,
+            "explanation": "$h = 10 \\cdot \\tan 60^\\circ = 10\\sqrt{3} \\approx 17,3\\text{ m}$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hệ phương trình bậc nhất hai ẩn $\\begin{cases} 2x + y = 7 \\\\ 3x - 2y = 7 \\end{cases}$ và phương trình chứa ẩn ở mẫu $\\frac{x + 1}{x - 2} - \\frac{1}{x} = 1$.",
             "statements": [
               {
@@ -3951,34 +4155,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tìm giá trị của tổng $x_0 + y_0$, biết $(x_0; y_0)$ là nghiệm của hệ: $\\begin{cases} 3x - y = 5 \\\\ 2x + 3y = 7 \\end{cases}$",
             "answer": "3",
-            "explanation": "$x_0 = 2, y_0 = 1 \\Rightarrow 3$."
+            "explanation": "$x_0 = 2, y_0 = 1 \\Rightarrow 3$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức: $A = \\sqrt{(\\sqrt{3} - 2)^2} + \\sqrt{3}$",
             "answer": "2",
-            "explanation": "$2 - \\sqrt{3} + \\sqrt{3} = 2$."
+            "explanation": "$2 - \\sqrt{3} + \\sqrt{3} = 2$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho tam giác $ABC$ vuông tại $A$, có $AB = 9\\text{ cm}, AC = 12\\text{ cm}$. Tính độ dài đường cao $AH$ (cm):",
             "answer": "7.2",
-            "explanation": "$AH = (9 \\cdot 12) / 15 = 7,2\\text{ cm}$."
+            "explanation": "$AH = (9 \\cdot 12) / 15 = 7,2\\text{ cm}$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Một chiếc máy bay cất cánh theo góc $24^\\circ$. Sau 1 phút đạt độ cao $1200\\text{ m}$. Hỏi vận tốc là bao nhiêu km/h (làm tròn số nguyên; $\\sin 24^\\circ \\approx 0,4067$):",
             "answer": "177",
-            "explanation": "$v \\approx 177\\text{ km/h}$."
+            "explanation": "$v \\approx 177\\text{ km/h}$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "a) Trục căn thức ở mẫu và rút gọn: $A = \\frac{3}{\\sqrt{5} - \\sqrt{2}} - \\frac{3}{\\sqrt{5} + \\sqrt{2}}$.\nb) Cho biểu thức $P = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{x - 2\\sqrt{x}}$ với $x > 0, x \\ne 4$. Rút gọn biểu thức $P$.",
             "rubric": "a) $2\\sqrt{2}$ (0.5đ). b) $\\frac{\\sqrt{x}+2}{\\sqrt{x}}$ (0.5đ).",
@@ -3986,7 +4194,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Giải bài toán bằng cách lập hệ phương trình:\nHai xí nghiệp theo kế hoạch phải làm tổng cộng $700$ sản phẩm. Do áp dụng kĩ thuật mới, xí nghiệp I vượt mức $15\\%$, xí nghiệp II vượt mức $20\\%$, do đó cả hai làm được $820$ sản phẩm. Hỏi theo kế hoạch mỗi xí nghiệp phải làm bao nhiêu sản phẩm?",
             "rubric": "Hệ: $x + y = 700$ và $1,15x + 1,20y = 820 \\Rightarrow x = 400, y = 300$ (0.75đ).",
@@ -4034,50 +4242,54 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "$\\begin{cases} 2x - y = 1 \\\\ x + 3y = 4 \\end{cases}$",
               "$\\begin{cases} x^2 + y = 2 \\\\ 3x - y = 1 \\end{cases}$",
-              "$\\begin{cases} xy = 1 \\\\ x + y = 3 \\end{cases}$",
-              "$\\begin{cases} 2x + \\frac{1}{y} = 3 \\\\ x - y = 0 \\end{cases}$"
+              "$\\begin{cases} 2x + \\frac{1}{y} = 3 \\\\ x - y = 0 \\end{cases}$",
+              "$\\begin{cases} xy = 1 \\\\ x + y = 3 \\end{cases}$"
             ],
             "correct": 0,
-            "explanation": "Các phương trình có dạng $ax + by = c$."
+            "explanation": "Các phương trình có dạng $ax + by = c$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Nghiệm tổng quát của phương trình bậc nhất hai ẩn $2x - y = 1$ là:",
             "options": [
-              "$(x; 2x - 1)$ với mọi $x \\in \\mathbb{R}$",
               "$(x; 2x + 1)$ với mọi $x \\in \\mathbb{R}$",
               "$(2y + 1; y)$ với mọi $y \\in \\mathbb{R}$",
-              "$(1; 1)$"
+              "$(1; 1)$",
+              "$(x; 2x - 1)$ với mọi $x \\in \\mathbb{R}$"
             ],
-            "correct": 0,
-            "explanation": "$y = 2x - 1$."
+            "correct": 3,
+            "explanation": "$y = 2x - 1$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Biểu thức $\\sqrt{(3 - \\sqrt{10})^2}$ bằng:",
             "options": [
-              "$3 - \\sqrt{10}$",
-              "$\\sqrt{10} - 3$",
               "$10 - 3$",
-              "$\\pm(3 - \\sqrt{10})$"
+              "$3 - \\sqrt{10}$",
+              "$\\pm(3 - \\sqrt{10})$",
+              "$\\sqrt{10} - 3$"
             ],
-            "correct": 1,
-            "explanation": "$|3 - \\sqrt{10}| = \\sqrt{10} - 3$ vì $\\sqrt{10} > 3$."
+            "correct": 3,
+            "explanation": "$|3 - \\sqrt{10}| = \\sqrt{10} - 3$ vì $\\sqrt{10} > 3$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Căn bậc hai số học của $81$ là:",
             "options": [
-              "$9$",
-              "$-9$",
+              "$81$",
               "$\\pm 9$",
-              "$81$"
+              "$9$",
+              "$-9$"
             ],
-            "correct": 0,
-            "explanation": "Căn bậc hai số học luôn không âm: $\\sqrt{81} = 9$."
+            "correct": 2,
+            "explanation": "Căn bậc hai số học luôn không âm: $\\sqrt{81} = 9$.",
+            "points": 0.25
           },
           {
             "id": 5,
@@ -4090,20 +4302,22 @@ window.PERIODIC_EXAM_BANK = {
               "$-\\sqrt{6}$"
             ],
             "correct": 0,
-            "explanation": "$-3\\sqrt{2} = -\\sqrt{3^2 \\cdot 2} = -\\sqrt{18}$."
+            "explanation": "$-3\\sqrt{2} = -\\sqrt{3^2 \\cdot 2} = -\\sqrt{18}$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Cho tam giác $ABC$ vuông tại $A$. Hệ thức nào sau đây là **đúng**?",
             "options": [
-              "$b = a \\cdot \\sin B$",
-              "$b = a \\cdot \\cos B$",
               "$b = c \\cdot \\cos B$",
+              "$b = a \\cdot \\cos B$",
+              "$b = a \\cdot \\sin B$",
               "$b = c \\cdot \\sin B$"
             ],
-            "correct": 0,
-            "explanation": "$b = a \\cdot \\sin B = a \\cdot \\cos C$."
+            "correct": 2,
+            "explanation": "$b = a \\cdot \\sin B = a \\cdot \\cos C$.",
+            "points": 0.25
           },
           {
             "id": 7,
@@ -4116,78 +4330,84 @@ window.PERIODIC_EXAM_BANK = {
               "$\\cos(90^\\circ - \\alpha) = -\\sin \\alpha$"
             ],
             "correct": 0,
-            "explanation": "$\\tan \\alpha \\cdot \\cot \\alpha = 1$."
+            "explanation": "$\\tan \\alpha \\cdot \\cot \\alpha = 1$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Cho tam giác $MNP$ vuông tại $M$. Cạnh huyền $NP = 10\\text{ cm}, \\widehat{P} = 30^\\circ$. Độ dài cạnh $MN$ là:",
             "options": [
-              "$5\\text{ cm}$",
+              "$2,5\\text{ cm}$",
               "$5\\sqrt{3}\\text{ cm}$",
               "$10\\sqrt{3}\\text{ cm}$",
-              "$2,5\\text{ cm}$"
+              "$5\\text{ cm}$"
             ],
-            "correct": 0,
-            "explanation": "$MN = NP \\cdot \\sin 30^\\circ = 10 \\cdot 0,5 = 5\\text{ cm}$."
+            "correct": 3,
+            "explanation": "$MN = NP \\cdot \\sin 30^\\circ = 10 \\cdot 0,5 = 5\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Giải hệ phương trình $\\begin{cases} 3x + 2y = 8 \\\\ 2x - y = 3 \\end{cases}$, ta được nghiệm $(x; y)$ là:",
             "options": [
-              "$(2; 1)$",
               "$(1; 2)$",
-              "$(3; 3)$",
-              "$(0; 4)$"
+              "$(2; 1)$",
+              "$(0; 4)$",
+              "$(3; 3)$"
             ],
-            "correct": 0,
-            "explanation": "$y = 2x - 3 \\Rightarrow 3x + 2(2x - 3) = 8 \\Rightarrow 7x = 14 \\Rightarrow x = 2, y = 1$."
+            "correct": 1,
+            "explanation": "$y = 2x - 3 \\Rightarrow 3x + 2(2x - 3) = 8 \\Rightarrow 7x = 14 \\Rightarrow x = 2, y = 1$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Rút gọn biểu thức $A = \\sqrt{20} - \\sqrt{45} + 3\\sqrt{5}$ ta được:",
             "options": [
+              "$\\sqrt{5}$",
               "$2\\sqrt{5}$",
-              "$3\\sqrt{5}$",
               "$4\\sqrt{5}$",
-              "$\\sqrt{5}$"
+              "$3\\sqrt{5}$"
             ],
-            "correct": 0,
-            "explanation": "$2\\sqrt{5} - 3\\sqrt{5} + 3\\sqrt{5} = 2\\sqrt{5}$."
+            "correct": 1,
+            "explanation": "$2\\sqrt{5} - 3\\sqrt{5} + 3\\sqrt{5} = 2\\sqrt{5}$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Tìm $x$, biết $\\sqrt{4x - 20} = 6$:",
             "options": [
-              "$x = 14$",
               "$x = 9$",
               "$x = 11$",
+              "$x = 14$",
               "$x = 29$"
             ],
-            "correct": 0,
-            "explanation": "$4x - 20 = 36 \\Leftrightarrow 4x = 56 \\Leftrightarrow x = 14$."
+            "correct": 2,
+            "explanation": "$4x - 20 = 36 \\Leftrightarrow 4x = 56 \\Leftrightarrow x = 14$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một người đứng cách một tòa nhà $30\\text{ m}$ nhìn lên đỉnh tòa nhà với góc nâng $45^\\circ$. Chiều cao tòa nhà là:",
             "options": [
-              "$30\\text{ m}$",
               "$15\\text{ m}$",
-              "$30\\sqrt{3}\\text{ m}$",
-              "$60\\text{ m}$"
+              "$30\\text{ m}$",
+              "$60\\text{ m}$",
+              "$30\\sqrt{3}\\text{ m}$"
             ],
-            "correct": 0,
-            "explanation": "$h = 30 \\cdot \\tan 45^\\circ = 30 \\cdot 1 = 30\\text{ m}$."
+            "correct": 1,
+            "explanation": "$h = 30 \\cdot \\tan 45^\\circ = 30 \\cdot 1 = 30\\text{ m}$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x} - 1} + \\frac{1}{\\sqrt{x} + 1}\\right) \\cdot \\frac{x - 1}{2}$ với $x \\ge 0, x \\ne 1$.",
             "statements": [
               {
@@ -4258,34 +4478,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tìm nghiệm $(x_0; y_0)$ của hệ $\\begin{cases} 2x + 3y = 12 \\\\ 3x - 2y = 5 \\end{cases}$. Tính tích $x_0 \\cdot y_0$:",
             "answer": "6",
-            "explanation": "$x_0 = 3, y_0 = 2 \\Rightarrow 3 \\cdot 2 = 6$."
+            "explanation": "$x_0 = 3, y_0 = 2 \\Rightarrow 3 \\cdot 2 = 6$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tính giá trị của biểu thức: $B = (\\sqrt{8} - 3\\sqrt{2} + \\sqrt{50}) \\cdot \\sqrt{2}$",
             "answer": "8",
-            "explanation": "$(2\\sqrt{2} - 3\\sqrt{2} + 5\\sqrt{2})\\sqrt{2} = 4\\sqrt{2} \\cdot \\sqrt{2} = 8$."
+            "explanation": "$(2\\sqrt{2} - 3\\sqrt{2} + 5\\sqrt{2})\\sqrt{2} = 4\\sqrt{2} \\cdot \\sqrt{2} = 8$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Một thang nhôm dài $4\\text{ m}$ tựa vào tường tạo với mặt đất góc $65^\\circ$. Chiều cao chân thang lên tới đỉnh tựa trên tường là bao nhiêu mét? (làm tròn hàng phần mười; biết $\\sin 65^\\circ \\approx 0,906$):",
             "answer": "3.6",
-            "explanation": "$h = 4 \\cdot \\sin 65^\\circ \\approx 3,62 \\approx 3,6\\text{ m}$."
+            "explanation": "$h = 4 \\cdot \\sin 65^\\circ \\approx 3,62 \\approx 3,6\\text{ m}$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm giá trị nhỏ nhất của biểu thức: $Q = x - 2\\sqrt{x} + 2027$ với $x \\ge 0$:",
             "answer": "2026",
-            "explanation": "$(\\sqrt{x} - 1)^2 + 2026 \\ge 2026$ khi $x = 1$."
+            "explanation": "$(\\sqrt{x} - 1)^2 + 2026 \\ge 2026$ khi $x = 1$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "a) Rút gọn biểu thức: $A = \\sqrt{75} - 2\\sqrt{27} + \\sqrt{(2 - \\sqrt{3})^2}$.\nb) Tìm $x$, biết: $\\sqrt{x - 3} + 2\\sqrt{4x - 12} = 15$.",
             "rubric": "a) $5\\sqrt{3} - 6\\sqrt{3} + 2 - \\sqrt{3} = 2 - 2\\sqrt{3}$ (0.5đ).\nb) $\\sqrt{x-3} + 4\\sqrt{x-3} = 15 \\Leftrightarrow 5\\sqrt{x-3} = 15 \\Leftrightarrow x - 3 = 9 \\Leftrightarrow x = 12$ (0.5đ).",
@@ -4293,7 +4517,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Giải bài toán bằng cách lập hệ phương trình:\nQuãng đường từ tỉnh A đến tỉnh B dài $150\\text{ km}$. Một ô tô và một xe máy khởi hành cùng một lúc từ A đến B. Vận tốc ô tô lớn hơn xe máy là $10\\text{ km/h}$, do đó ô tô đến B sớm hơn xe máy $45\\text{ phút}$. Tính vận tốc của mỗi xe.",
             "rubric": "Hệ pt hoặc pt vận tốc: $150/x - 150/(x+10) = 3/4 \\Rightarrow x = 40, x + 10 = 50$ (0.75đ).",
@@ -4339,26 +4563,28 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Nhận biết",
             "question": "Hệ phương trình $\\begin{cases} x - 2y = 3 \\\\ 2x - 4y = 6 \\end{cases}$ có bao nhiêu nghiệm?",
             "options": [
-              "Vô số nghiệm",
-              "Vô nghiệm",
               "Có nghiệm duy nhất",
-              "Có 2 nghiệm"
+              "Vô số nghiệm",
+              "Có 2 nghiệm",
+              "Vô nghiệm"
             ],
-            "correct": 0,
-            "explanation": "Tỉ số: $1/2 = -2/(-4) = 3/6$ nên hệ có vô số nghiệm."
+            "correct": 1,
+            "explanation": "Tỉ số: $1/2 = -2/(-4) = 3/6$ nên hệ có vô số nghiệm.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Điều kiện xác định của phương trình $\\frac{2x}{x - 3} + \\frac{1}{x + 1} = 0$ là:",
             "options": [
-              "$x \\ne 3$ và $x \\ne -1$",
               "$x \\ne 3$",
               "$x \\ne -1$",
+              "$x \\ne 3$ và $x \\ne -1$",
               "$x \\ne 0$"
             ],
-            "correct": 0,
-            "explanation": "$x - 3 \\ne 0$ và $x + 1 \\ne 0$."
+            "correct": 2,
+            "explanation": "$x - 3 \\ne 0$ và $x + 1 \\ne 0$.",
+            "points": 0.25
           },
           {
             "id": 3,
@@ -4366,12 +4592,13 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Giá trị của biểu thức $\\sqrt{0,16}$ là:",
             "options": [
               "$0,4$",
-              "$-0,4$",
               "$0,04$",
-              "$0,8$"
+              "$0,8$",
+              "$-0,4$"
             ],
             "correct": 0,
-            "explanation": "$0,4^2 = 0,16$."
+            "explanation": "$0,4^2 = 0,16$.",
+            "points": 0.25
           },
           {
             "id": 4,
@@ -4379,64 +4606,69 @@ window.PERIODIC_EXAM_BANK = {
             "question": "Trục căn thức ở mẫu của biểu thức $\\frac{4}{\\sqrt{5} - 1}$ ta được:",
             "options": [
               "$\\sqrt{5} + 1$",
-              "$\\sqrt{5} - 1$",
               "$2(\\sqrt{5} + 1)$",
-              "$4(\\sqrt{5} + 1)$"
+              "$4(\\sqrt{5} + 1)$",
+              "$\\sqrt{5} - 1$"
             ],
             "correct": 0,
-            "explanation": "$\\frac{4(\\sqrt{5}+1)}{5 - 1} = \\sqrt{5} + 1$."
+            "explanation": "$\\frac{4(\\sqrt{5}+1)}{5 - 1} = \\sqrt{5} + 1$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Căn bậc ba của $-27$ là:",
             "options": [
-              "$-3$",
-              "$3$",
               "$\\pm 3$",
-              "Không tồn tại"
+              "$-3$",
+              "Không tồn tại",
+              "$3$"
             ],
-            "correct": 0,
-            "explanation": "$(-3)^3 = -27$."
+            "correct": 1,
+            "explanation": "$(-3)^3 = -27$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Với tam giác vuông, nếu biết một cạnh góc vuông $c$ và góc nhọn kề $B$ thì cạnh huyền $a$ tính bằng:",
             "options": [
+              "$a = c \\cdot \\tan B$",
               "$a = \\frac{c}{\\cos B}$",
               "$a = c \\cdot \\cos B$",
-              "$a = \\frac{c}{\\sin B}$",
-              "$a = c \\cdot \\tan B$"
+              "$a = \\frac{c}{\\sin B}$"
             ],
-            "correct": 0,
-            "explanation": "$c = a \\cdot \\cos B \\Rightarrow a = \\frac{c}{\\cos B}$."
+            "correct": 1,
+            "explanation": "$c = a \\cdot \\cos B \\Rightarrow a = \\frac{c}{\\cos B}$.",
+            "points": 0.25
           },
           {
             "id": 7,
             "level": "Nhận biết",
             "question": "Cho tam giác vuông có hai cạnh góc vuông bằng $3$ và $4$. Độ dài đường cao ứng với cạnh huyền là:",
             "options": [
-              "$2,4$",
               "$5$",
-              "$1,2$",
-              "$4,8$"
+              "$4,8$",
+              "$2,4$",
+              "$1,2$"
             ],
-            "correct": 0,
-            "explanation": "$h = (3 \\cdot 4) / 5 = 2,4$."
+            "correct": 2,
+            "explanation": "$h = (3 \\cdot 4) / 5 = 2,4$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Biết $\\sin \\alpha = 0,6$. Giá trị của $\\cos \\alpha$ (với $\\alpha$ nhọn) là:",
             "options": [
-              "$0,8$",
-              "$0,4$",
               "$0,36$",
-              "$0,64$"
+              "$0,4$",
+              "$0,64$",
+              "$0,8$"
             ],
-            "correct": 0,
-            "explanation": "$\\cos \\alpha = \\sqrt{1 - 0,6^2} = 0,8$."
+            "correct": 3,
+            "explanation": "$\\cos \\alpha = \\sqrt{1 - 0,6^2} = 0,8$.",
+            "points": 0.25
           },
           {
             "id": 9,
@@ -4449,52 +4681,56 @@ window.PERIODIC_EXAM_BANK = {
               "$S = \\emptyset$"
             ],
             "correct": 0,
-            "explanation": "$x^2 + 1 > 0$ với mọi $x$, do đó chỉ có nghiệm $x = 1$."
+            "explanation": "$x^2 + 1 > 0$ với mọi $x$, do đó chỉ có nghiệm $x = 1$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Rút gọn biểu thức $M = \\sqrt{9a} - \\sqrt{16a} + \\sqrt{25a}$ (với $a \\ge 0$) ta được:",
             "options": [
-              "$4\\sqrt{a}$",
               "$2\\sqrt{a}$",
+              "$3\\sqrt{a}$",
               "$10\\sqrt{a}$",
-              "$3\\sqrt{a}$"
+              "$4\\sqrt{a}$"
             ],
-            "correct": 0,
-            "explanation": "$3\\sqrt{a} - 4\\sqrt{a} + 5\\sqrt{a} = 4\\sqrt{a}$."
+            "correct": 3,
+            "explanation": "$3\\sqrt{a} - 4\\sqrt{a} + 5\\sqrt{a} = 4\\sqrt{a}$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Tìm $x$, biết $\\sqrt{x + 1} = 4$:",
             "options": [
-              "$x = 15$",
-              "$x = 3$",
               "$x = 16$",
-              "$x = 7$"
+              "$x = 7$",
+              "$x = 15$",
+              "$x = 3$"
             ],
-            "correct": 0,
-            "explanation": "$x + 1 = 16 \\Rightarrow x = 15$."
+            "correct": 2,
+            "explanation": "$x + 1 = 16 \\Rightarrow x = 15$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một dốc nghiêng dài $100\\text{ m}$ có độ cao so với mặt đất bằng $20\\text{ m}$. Góc dốc của mặt phẳng nghiêng (làm tròn đến độ) là:",
             "options": [
-              "$12^\\circ$",
-              "$15^\\circ$",
               "$20^\\circ$",
-              "$10^\\circ$"
+              "$15^\\circ$",
+              "$10^\\circ$",
+              "$12^\\circ$"
             ],
-            "correct": 0,
-            "explanation": "$\\sin \\alpha = 20 / 100 = 0,2 \\Rightarrow \\alpha \\approx 12^\\circ$."
+            "correct": 3,
+            "explanation": "$\\sin \\alpha = 20 / 100 = 0,2 \\Rightarrow \\alpha \\approx 12^\\circ$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hệ phương trình $\\begin{cases} x + 2y = 4 \\\\ 2x - y = 3 \\end{cases}$.",
             "statements": [
               {
@@ -4565,34 +4801,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Giải phương trình: $\\frac{x}{x - 2} - \\frac{2}{x + 1} = 1$. Tìm nghiệm $x$:",
             "answer": "4",
-            "explanation": "$x(x + 1) - 2(x - 2) = (x - 2)(x + 1) \\Leftrightarrow x^2 - x + 4 = x^2 - x - 2$ (vô lý)... Sửa đề: $\\frac{x+2}{x-2} = 3 \\Rightarrow x+2 = 3x - 6 \\Rightarrow 2x = 8 \\Rightarrow x = 4$."
+            "explanation": "$x(x + 1) - 2(x - 2) = (x - 2)(x + 1) \\Leftrightarrow x^2 - x + 4 = x^2 - x - 2$ (vô lý)... Sửa đề: $\\frac{x+2}{x-2} = 3 \\Rightarrow x+2 = 3x - 6 \\Rightarrow 2x = 8 \\Rightarrow x = 4$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tính: $P = \\sqrt{3} \\cdot (\\sqrt{27} - \\sqrt{12})$",
             "answer": "3",
-            "explanation": "$\\sqrt{3}(3\\sqrt{3} - 2\\sqrt{3}) = \\sqrt{3} \\cdot \\sqrt{3} = 3$."
+            "explanation": "$\\sqrt{3}(3\\sqrt{3} - 2\\sqrt{3}) = \\sqrt{3} \\cdot \\sqrt{3} = 3$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Một tàu thủy xuất phát từ bến A chạy xuôi dòng hết $3$ giờ và ngược dòng hết $5$ giờ. Biết khúc sông dài $60\\text{ km}$. Tính vận tốc dòng nước (km/h):",
             "answer": "4",
-            "explanation": "$v_x = 20, v_n = 12 \\Rightarrow v_{nc} = (20 - 12)/2 = 4\\text{ km/h}$."
+            "explanation": "$v_x = 20, v_n = 12 \\Rightarrow v_{nc} = (20 - 12)/2 = 4\\text{ km/h}$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Tìm nghiệm $x$ của phương trình: $\\sqrt{x - 2} + \\sqrt{4 - x} = x^2 - 6x + 11$:",
             "answer": "3",
-            "explanation": "VT $\\le 2$, VP $= (x - 3)^2 + 2 \\ge 2$. Dấu \"=\" xảy ra khi $x = 3$."
+            "explanation": "VT $\\le 2$, VP $= (x - 3)^2 + 2 \\ge 2$. Dấu \"=\" xảy ra khi $x = 3$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "a) Rút gọn biểu thức: $A = \\left(\\frac{1}{\\sqrt{x}-3} - \\frac{1}{\\sqrt{x}+3}\\right) : \\frac{3}{x - 9}$ với $x \\ge 0, x \\ne 9$.\nb) Tính giá trị của biểu thức $B = \\sqrt{8 - 2\\sqrt{15}} - \\sqrt{5}$.",
             "rubric": "a) $\\frac{6}{x - 9} \\cdot \\frac{x - 9}{3} = 2$ (0.5đ). b) $\\sqrt{(\\sqrt{5}-\\sqrt{3})^2} - \\sqrt{5} = \\sqrt{5} - \\sqrt{3} - \\sqrt{5} = -\\sqrt{3}$ (0.5đ).",
@@ -4600,7 +4840,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Giải bài toán bằng cách lập hệ phương trình:\nMột cửa hàng bán hai loại áo: áo sơ mi và áo phông. Trong một ngày, cửa hàng bán được $25$ chiếc cả hai loại, thu được tổng số tiền là $4\\ 200\\ 000$ đồng. Biết giá mỗi chiếc áo sơ mi là $200\\ 000$ đồng và giá mỗi chiếc áo phông là $140\\ 000$ đồng. Hỏi cửa hàng đã bán được bao nhiêu chiếc áo mỗi loại?",
             "rubric": "Hệ: $x + y = 25$ và $200x + 140y = 4200 \\Rightarrow x = 12, y = 13$ (0.75đ).",
@@ -4648,76 +4888,82 @@ window.PERIODIC_EXAM_BANK = {
             "options": [
               "$m \\ne 1$",
               "$m = 1$",
-              "$m \\ne -1$",
-              "$m = 0$"
+              "$m = 0$",
+              "$m \\ne -1$"
             ],
             "correct": 0,
-            "explanation": "$\\frac{1}{m} \\ne \\frac{1}{1} \\Leftrightarrow m \\ne 1$."
+            "explanation": "$\\frac{1}{m} \\ne \\frac{1}{1} \\Leftrightarrow m \\ne 1$.",
+            "points": 0.25
           },
           {
             "id": 2,
             "level": "Nhận biết",
             "question": "Biểu thức $\\sqrt{\\frac{25}{49}}$ có giá trị bằng:",
             "options": [
-              "$\\frac{5}{7}$",
               "$-\\frac{5}{7}$",
-              "$\\pm \\frac{5}{7}$",
-              "$\\frac{25}{49}$"
+              "$\\frac{5}{7}$",
+              "$\\frac{25}{49}$",
+              "$\\pm \\frac{5}{7}$"
             ],
-            "correct": 0,
-            "explanation": "$\\frac{5}{7}$."
+            "correct": 1,
+            "explanation": "$\\frac{5}{7}$.",
+            "points": 0.25
           },
           {
             "id": 3,
             "level": "Nhận biết",
             "question": "Phương trình $x^2 = 7$ có các nghiệm là:",
             "options": [
-              "$x = \\pm \\sqrt{7}$",
               "$x = \\sqrt{7}$",
+              "$x = \\pm \\sqrt{7}$",
               "$x = 49$",
               "$x = \\pm 49$"
             ],
-            "correct": 0,
-            "explanation": "$x = \\pm \\sqrt{7}$."
+            "correct": 1,
+            "explanation": "$x = \\pm \\sqrt{7}$.",
+            "points": 0.25
           },
           {
             "id": 4,
             "level": "Nhận biết",
             "question": "Khử mẫu của biểu thức lấy căn $\\sqrt{\\frac{3}{5}}$ ta được:",
             "options": [
-              "$\\frac{\\sqrt{15}}{5}$",
-              "$\\frac{\\sqrt{3}}{5}$",
+              "$\\frac{3}{5}$",
               "$\\frac{15}{5}$",
-              "$\\frac{3}{5}$"
+              "$\\frac{\\sqrt{15}}{5}$",
+              "$\\frac{\\sqrt{3}}{5}$"
             ],
-            "correct": 0,
-            "explanation": "$\\frac{\\sqrt{3 \\cdot 5}}{5} = \\frac{\\sqrt{15}}{5}$."
+            "correct": 2,
+            "explanation": "$\\frac{\\sqrt{3 \\cdot 5}}{5} = \\frac{\\sqrt{15}}{5}$.",
+            "points": 0.25
           },
           {
             "id": 5,
             "level": "Nhận biết",
             "question": "Trong tam giác vuông, bình phương mỗi cạnh góc vuông bằng:",
             "options": [
-              "Tích của cạnh huyền và hình chiếu của cạnh góc vuông đó trên cạnh huyền",
               "Tích của hai hình chiếu",
+              "Tổng của hai cạnh góc vuông",
               "Tích của cạnh huyền và đường cao",
-              "Tổng của hai cạnh góc vuông"
+              "Tích của cạnh huyền và hình chiếu của cạnh góc vuông đó trên cạnh huyền"
             ],
-            "correct": 0,
-            "explanation": "$b^2 = a \\cdot b'$."
+            "correct": 3,
+            "explanation": "$b^2 = a \\cdot b'$.",
+            "points": 0.25
           },
           {
             "id": 6,
             "level": "Nhận biết",
             "question": "Cho tam giác vuông có hai góc nhọn $\\alpha$ và $\\beta$ phụ nhau. Khẳng định nào sau đây là **sai**?",
             "options": [
-              "$\\sin \\alpha = \\cos \\beta$",
-              "$\\tan \\alpha = \\cot \\beta$",
+              "$\\tan \\alpha = \\tan \\beta$",
               "$\\sin^2 \\alpha + \\sin^2 \\beta = 1$",
-              "$\\tan \\alpha = \\tan \\beta$"
+              "$\\tan \\alpha = \\cot \\beta$",
+              "$\\sin \\alpha = \\cos \\beta$"
             ],
-            "correct": 3,
-            "explanation": "$\\tan \\alpha = \\cot \\beta = 1 / \\tan \\beta$."
+            "correct": 0,
+            "explanation": "$\\tan \\alpha = \\cot \\beta = 1 / \\tan \\beta$.",
+            "points": 0.25
           },
           {
             "id": 7,
@@ -4730,78 +4976,84 @@ window.PERIODIC_EXAM_BANK = {
               "$\\frac{\\sqrt{3}}{2}$"
             ],
             "correct": 0,
-            "explanation": "$0,5 + 0,5 = 1$."
+            "explanation": "$0,5 + 0,5 = 1$.",
+            "points": 0.25
           },
           {
             "id": 8,
             "level": "Nhận biết",
             "question": "Điều kiện để biểu thức $\\frac{1}{\\sqrt{x - 5}}$ có nghĩa là:",
             "options": [
-              "$x > 5$",
-              "$x \\ge 5$",
               "$x < 5$",
-              "$x \\ne 5$"
+              "$x \\ge 5$",
+              "$x \\ne 5$",
+              "$x > 5$"
             ],
-            "correct": 0,
-            "explanation": "Mẫu số nằm dưới căn bậc hai nên $x - 5 > 0 \\Leftrightarrow x > 5$."
+            "correct": 3,
+            "explanation": "Mẫu số nằm dưới căn bậc hai nên $x - 5 > 0 \\Leftrightarrow x > 5$.",
+            "points": 0.25
           },
           {
             "id": 9,
             "level": "Thông hiểu",
             "question": "Nghiệm của phương trình $\\sqrt{2x} = \\sqrt{6}$ là:",
             "options": [
-              "$x = 3$",
               "$x = 9$",
-              "$x = 6$",
-              "$x = \\sqrt{3}$"
+              "$x = \\sqrt{3}$",
+              "$x = 3$",
+              "$x = 6$"
             ],
-            "correct": 0,
-            "explanation": "$2x = 6 \\Rightarrow x = 3$."
+            "correct": 2,
+            "explanation": "$2x = 6 \\Rightarrow x = 3$.",
+            "points": 0.25
           },
           {
             "id": 10,
             "level": "Thông hiểu",
             "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 6\\text{ cm}, BC = 10\\text{ cm}$. Độ dài đoạn thẳng $BH$ là:",
             "options": [
-              "$3,6\\text{ cm}$",
-              "$4,8\\text{ cm}$",
+              "$8\\text{ cm}$",
               "$6,4\\text{ cm}$",
-              "$8\\text{ cm}$"
+              "$4,8\\text{ cm}$",
+              "$3,6\\text{ cm}$"
             ],
-            "correct": 0,
-            "explanation": "$BH = AB^2 / BC = 36 / 10 = 3,6\\text{ cm}$."
+            "correct": 3,
+            "explanation": "$BH = AB^2 / BC = 36 / 10 = 3,6\\text{ cm}$.",
+            "points": 0.25
           },
           {
             "id": 11,
             "level": "Thông hiểu",
             "question": "Rút gọn biểu thức $P = \\frac{a - 4}{\\sqrt{a} + 2}$ (với $a \\ge 0$) ta được:",
             "options": [
-              "$\\sqrt{a} - 2$",
-              "$\\sqrt{a} + 2$",
+              "$a + 2$",
               "$a - 2$",
-              "$a + 2$"
+              "$\\sqrt{a} - 2$",
+              "$\\sqrt{a} + 2$"
             ],
-            "correct": 0,
-            "explanation": "$(\\sqrt{a}-2)(\\sqrt{a}+2)/(\\sqrt{a}+2) = \\sqrt{a} - 2$."
+            "correct": 2,
+            "explanation": "$(\\sqrt{a}-2)(\\sqrt{a}+2)/(\\sqrt{a}+2) = \\sqrt{a} - 2$.",
+            "points": 0.25
           },
           {
             "id": 12,
             "level": "Thông hiểu",
             "question": "Một người leo núi từ chân dốc lên đỉnh dốc dài $600\\text{ m}$, biết góc dốc là $20^\\circ$. Độ cao của đỉnh núi so với mặt đất (làm tròn đến mét) là:",
             "options": [
-              "$205\\text{ m}$",
               "$180\\text{ m}$",
-              "$300\\text{ m}$",
-              "$250\\text{ m}$"
+              "$205\\text{ m}$",
+              "$250\\text{ m}$",
+              "$300\\text{ m}$"
             ],
-            "correct": 0,
-            "explanation": "$h = 600 \\cdot \\sin 20^\\circ \\approx 600 \\cdot 0,3420 \\approx 205\\text{ m}$."
+            "correct": 1,
+            "explanation": "$h = 600 \\cdot \\sin 20^\\circ \\approx 600 \\cdot 0,3420 \\approx 205\\text{ m}$.",
+            "points": 0.25
           }
         ],
         "part2": [
           {
             "id": 1,
-            "level": "Thông hiểu",
+            "level": "Nhận biết",
             "intro": "Cho hệ phương trình $\\begin{cases} x + ay = 2 \\\\ ax + y = 2 \\end{cases}$ với $a$ là tham số.",
             "statements": [
               {
@@ -4872,34 +5124,38 @@ window.PERIODIC_EXAM_BANK = {
             "level": "Thông hiểu",
             "question": "Tính giá trị: $A = \\sqrt{4 + 2\\sqrt{3}} - \\sqrt{3}$",
             "answer": "1",
-            "explanation": "$\\sqrt{(\\sqrt{3}+1)^2} - \\sqrt{3} = \\sqrt{3} + 1 - \\sqrt{3} = 1$."
+            "explanation": "$\\sqrt{(\\sqrt{3}+1)^2} - \\sqrt{3} = \\sqrt{3} + 1 - \\sqrt{3} = 1$.",
+            "points": 0.5
           },
           {
             "id": 2,
             "level": "Thông hiểu",
             "question": "Tìm $x$ nguyên dương nhỏ nhất thỏa mãn: $\\sqrt{x} > 5$",
             "answer": "26",
-            "explanation": "$x > 25 \\Rightarrow x = 26$."
+            "explanation": "$x > 25 \\Rightarrow x = 26$.",
+            "points": 0.5
           },
           {
             "id": 3,
             "level": "Vận dụng",
             "question": "Cho tam giác $ABC$ vuông tại $A$ có $\\widehat{B} = 60^\\circ$ và $BC = 8\\text{ cm}$. Tính độ dài cạnh $AB$ (cm):",
             "answer": "4",
-            "explanation": "$AB = BC \\cdot \\cos 60^\\circ = 8 \\cdot 0,5 = 4\\text{ cm}$."
+            "explanation": "$AB = BC \\cdot \\cos 60^\\circ = 8 \\cdot 0,5 = 4\\text{ cm}$.",
+            "points": 0.5
           },
           {
             "id": 4,
             "level": "Vận dụng cao",
             "question": "Cho $x > 0$. Tìm giá trị nhỏ nhất của biểu thức: $M = x + \\frac{4}{x}$",
             "answer": "4",
-            "explanation": "Theo BĐT Cauchy: $x + 4/x \\ge 2\\sqrt{x \\cdot 4/x} = 4$ khi $x = 2$."
+            "explanation": "Theo BĐT Cauchy: $x + 4/x \\ge 2\\sqrt{x \\cdot 4/x} = 4$ khi $x = 2$.",
+            "points": 0.5
           }
         ],
         "part4": [
           {
             "id": 1,
-            "level": "Nhận biết - Thông hiểu",
+            "level": "Nhận biết",
             "points": 1.0,
             "question": "a) Rút gọn biểu thức: $P = \\left(\\frac{\\sqrt{x}}{\\sqrt{x}-1} - \\frac{1}{x-\\sqrt{x}}\\right) : \\frac{\\sqrt{x}+1}{x-1}$ với $x > 0, x \\ne 1$.\nb) Tìm giá trị của $x$ để $P = 2$.",
             "rubric": "a) $P = \\frac{x - 1}{\\sqrt{x}(\\sqrt{x}-1)} \\cdot \\frac{x - 1}{\\sqrt{x}+1} = \\frac{\\sqrt{x}+1}{\\sqrt{x}} \\cdot (\\sqrt{x}-1)$... Rút gọn $P = \\sqrt{x} - 1$ (0.5đ).\nb) $\\sqrt{x} - 1 = 2 \\Leftrightarrow \\sqrt{x} = 3 \\Leftrightarrow x = 9$ (0.5đ).",
@@ -4907,7 +5163,7 @@ window.PERIODIC_EXAM_BANK = {
           },
           {
             "id": 2,
-            "level": "Thông hiểu - Vận dụng",
+            "level": "Vận dụng",
             "points": 0.75,
             "question": "Cho hệ phương trình: $\\begin{cases} mx + y = 3 \\\\ x + my = 3 \\end{cases}$ (với $m$ là tham số).\na) Giải hệ phương trình khi $m = 2$.\nb) Tìm các giá trị của $m$ để hệ phương trình có nghiệm duy nhất $(x; y)$ thỏa mãn $x + y > 1$.",
             "rubric": "a) $m = 2 \\Rightarrow x = 1, y = 1$ (0.35đ).\nb) Hệ có nghiệm duy nhất khi $m \\ne \\pm 1$. Khi đó $x = y = \\frac{3}{m + 1}$. $x + y = \\frac{6}{m + 1} > 1 \\Leftrightarrow -1 < m < 5$ và $m \\ne 1$ (0.4đ).",
