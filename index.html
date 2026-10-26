@@ -3758,114 +3758,73 @@ YÊU CẦU TRẢ VỀ ĐÚNG CẤU TRÚC JSON SAU:
 
 
             const visionPrompt = `
-
-Bạn là giám khảo chấm thi môn Toán THCS có kinh nghiệm chấm thi học sinh giỏi và kỳ thi tuyển sinh vào lớp 10.
-
-Nhiệm vụ: Hãy đọc ảnh chụp bài làm tự luận viết tay của học sinh, đối chiếu đề bài và biểu điểm chuẩn (Rubric), sau đó chấm điểm và nhận xét chi tiết theo chuẩn Bộ Giáo dục & Đào tạo.
-
-
+Bạn là giám khảo chấm thi môn Toán THCS có chuyên môn sâu, giàu kinh nghiệm chấm thi học sinh giỏi và kỳ thi tuyển sinh vào lớp 10 THPT.
+Nhiệm vụ của bạn: Đọc và phân tích ảnh chụp bài làm tự luận viết tay của học sinh, đối chiếu với đề bài và biểu điểm chuẩn (Rubric), sau đó chấm điểm và nhận xét chi tiết, chính xác theo chuẩn Bộ Giáo dục & Đào tạo.
 
 ĐỀ BÀI CÂU ${q.id} (Mức độ: ${q.level} - Thang điểm tối đa: 1.0 điểm):
-
 "${q.question}"
 
-
-
 BIỂU ĐIỂM CHUẨN CỦA BỘ GD&ĐT (TỔNG 1.0 ĐIỂM):
-
 "${q.rubric}"
 
+BỐN QUY TẮC CHẤM THI BẮT BUỘC TUÂN THỦ NGHIÊM NGẶT (QUY CHẾ CHẤM THI BỘ GD&ĐT):
+1. HỌC SINH GIẢI CÁCH KHÁC ĐÁP ÁN NHƯNG VẪN ĐÚNG THÌ CHO ĐIỂM TỐI ĐA (1.0 ĐIỂM):
+   - Học sinh có thể giải bằng bất kỳ phương pháp, định lý, công thức hoặc cách tiếp cận toán học hợp lệ nào (kể cả phương pháp không có trong Rubric mẫu).
+   - Miễn là lập luận logic chặt chẽ, tính toán đúng và ra kết quả chính xác, BẮT BUỘC PHẢI CHO ĐIỂM TỐI ĐA (1.0 điểm). Tuyệt đối không trừ điểm vì làm khác đáp án gợi ý.
 
+2. HỌC SINH LÀM TẮT HOẶC BỎ QUA BƯỚC PHỤ VẪN CHO ĐIỂM TỐI ĐA:
+   - Nếu học sinh làm tắt, tính nhẩm, bỏ qua các bước biến đổi trung gian hiển nhiên nhưng các bước then chốt và kết quả vẫn đúng, hợp lý thì VẪN PHẢI CHO ĐIỂM TỐI ĐA của bước đó và cả bài.
+   - Tuyệt đối không bắt bẻ hay chiết trừ điểm chỉ vì học sinh giải ngắn gọn, làm tắt.
 
-HÃY PHÂN TÍCH ẢNH VÀ CHẤM THEO QUY TRÌNH CHUẨN:
+3. HỌC SINH VIẾT SAI RỒI GẠCH BỎ, VIẾT LẠI ĐÚNG THÌ HOÀN TOÀN KHÔNG TRỪ ĐIỂM:
+   - Nếu trong bài có chữ viết hoặc phép tính bị sai nhưng học sinh đã lấy bút gạch bỏ (gạch chéo, gạch ngang) và viết lại bài giải đúng ở bên cạnh hoặc dòng dưới, bạn PHẢI BỎ QUA phần bị gạch, chỉ chấm phần bài viết lại đúng.
+   - Tuyệt đối KHÔNG TRỪ ĐIỂM đối với những phần học sinh đã tự gạch bỏ và sửa lại đúng.
 
-1. Nhận diện chữ viết tay và công thức toán học của học sinh trong ảnh (OCR):
+4. CHẤM CHÍNH XÁC VÀ KHOANH VÙNG MÀU ĐỎ NẾU HỌC SINH GIẢI SAI:
+   - Chấm thật chuẩn xác từng phép tính, từng dòng biến đổi.
+   - NẾU HỌC SINH CÓ CHỖ SAI:
+     + Trích xuất nguyên văn dòng hoặc biểu thức học sinh viết sai đưa vào trường "errorExcerpt" (để hệ thống đóng khung viền đỏ nổi bật cho học sinh thấy rõ).
+     + Phân tích cụ thể lỗi sai ở đâu (sai dấu, nhầm điều kiện, tính nhầm, ngộ nhận hình học...) trong trường "mistakes".
+   - NẾU HỌC SINH LÀM ĐÚNG HOÀN TOÀN (đạt 1.0 điểm):
+     + Để "errorExcerpt": "" (chuỗi rỗng) và "mistakes": "" (chuỗi rỗng).
 
-   - Đọc từng dòng chữ viết tay, phép tính, biến đổi đại số, lập luận hình học.
-
-   - Nếu trong ảnh chụp có nhiều câu, hãy tìm đúng phần bài làm của Câu ${q.id}.
-
-   - Nếu ảnh không chứa lời giải của câu này hoặc chữ viết quá mờ không thể đọc, hãy cho 0 điểm và ghi rõ lý do.
-
-2. Chia biểu điểm 1.0 điểm thành các bước nhỏ chuẩn barem (bước 0.25đ hoặc 0.5đ):
-
-   - Barem chấm điểm câu 1.0 điểm của Bộ GD&ĐT thường chia thành 3 hoặc 4 bước chấm (mỗi bước 0.25đ hoặc 0.5đ).
-
-3. Đánh giá tính đúng/sai của từng bước:
-
-   - Học sinh làm đúng đến đâu thì cho điểm tối đa của bước đó.
-
-   - Nếu sai ở bước nào thì không cho điểm bước đó và các bước kế tiếp phụ thuộc vào bước sai đó.
-
-   - Điểm tổng của câu PHẢI là một trong các mức chuẩn: 0, 0.25, 0.5, 0.75, hoặc 1.0 điểm.
-
-4. Trả về lời giải mẫu chuẩn hoàn chỉnh từng bước có công thức LaTeX để học sinh đối chiếu.
-
-
+QUY TRÌNH CHẤM:
+- Nhận diện OCR toàn bộ bài làm viết tay của học sinh (dùng LaTeX bọc trong $...$ cho công thức toán, bỏ qua các phần học sinh đã gạch xóa).
+- Chia bài chấm thành các bước theo barem (mỗi bước 0.25đ hoặc 0.5đ). Tổng điểm đạt được là 0, 0.25, 0.5, 0.75 hoặc 1.0 điểm.
+- Viết lời phê sư phạm khen ngợi các điểm sáng tạo/ngắn gọn, hoặc động viên chỉ dẫn sửa lỗi nếu chưa đạt điểm tối đa.
 
 TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
-
 {
-
-  "ocrText": "Trích dẫn nguyên văn hoặc tóm lược các bước học sinh đã viết trong ảnh (dùng LaTeX bọc trong $ cho biểu thức toán)",
-
-  "score": 0.75,
-
+  "ocrText": "Trích dẫn nguyên văn bài giải viết tay của học sinh (dùng LaTeX $...$ cho công thức toán, bỏ qua phần gạch xóa)",
+  "score": 1.0,
   "steps": [
-
     {
-
       "step": "Bước 1: Nêu điều kiện xác định / thiết lập giả thiết (0.25đ)",
-
       "awarded": 0.25,
-
       "max": 0.25,
-
       "status": "Đúng",
-
-      "note": "Xác định đúng điều kiện..."
-
+      "note": "Học sinh nêu đúng điều kiện hoặc làm tắt hợp lệ."
     },
-
     {
-
-      "step": "Bước 2: Biến đổi đại số / tính toán chính (0.50đ)",
-
-      "awarded": 0.25,
-
+      "step": "Bước 2: Biến đổi đại số / lập luận chính (0.50đ)",
+      "awarded": 0.50,
       "max": 0.50,
-
-      "status": "Sai một phần",
-
-      "note": "Nhầm dấu ở dòng..."
-
-    },
-
-    {
-
-      "step": "Bước 3: Kết luận nghiệm và đối chiếu (0.25đ)",
-
-      "awarded": 0.25,
-
-      "max": 0.25,
-
       "status": "Đúng",
-
-      "note": "Đối chiếu và kết luận đúng."
-
+      "note": "Biến đổi chính xác (cách giải đúng/làm tắt đạt yêu cầu)."
+    },
+    {
+      "step": "Bước 3: Kết luận nghiệm và đối chiếu (0.25đ)",
+      "awarded": 0.25,
+      "max": 0.25,
+      "status": "Đúng",
+      "note": "Kết luận nghiệm chính xác."
     }
-
   ],
-
-  "comment": "Lời phê sư phạm: Đánh giá bài làm, khen ngợi điểm tốt và chỉ dẫn cách sửa.",
-
-  "mistakes": "Chỉ rõ cụ thể lỗi sai trong bài làm (nếu có)",
-
-  "modelSolution": "Lời giải mẫu hoàn chỉnh từng bước với công thức LaTeX chuẩn..."
-
+  "errorExcerpt": "Đoạn công thức hoặc câu học sinh viết sai (ví dụ: '2√x = 3 - 5' hoặc 'x = 4 (không loại)'). Nếu làm đúng 100% thì để rỗng ''",
+  "mistakes": "Mô tả chi tiết lỗi sai nếu có (nếu làm đúng 100% thì để rỗng '')",
+  "comment": "Lời phê sư phạm chi tiết của giáo viên AI.",
+  "modelSolution": "Lời giải mẫu tham khảo đầy đủ từng bước với công thức LaTeX chuẩn..."
 }`;
-
-
 
             let graded = false;
 
@@ -3946,21 +3905,14 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
                 scorePart4 += awarded;
 
                 essayFeedbacks[q.id] = {
-
                   score: awarded,
-
                   ocrText: parsedVision.ocrText || "Đã nhận diện bài làm viết tay của học sinh.",
-
                   steps: Array.isArray(parsedVision.steps) ? parsedVision.steps : [],
-
+                  errorExcerpt: parsedVision.errorExcerpt || "",
                   mistakes: parsedVision.mistakes || "",
-
                   comment: parsedVision.comment || "Đã chấm theo barem chuẩn của Bộ GD&ĐT.",
-
                   modelSolution: parsedVision.modelSolution || q.rubric,
-
                   usedImage: imgDataUrl
-
                 };
 
                 graded = true;
@@ -4008,33 +3960,20 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
           } else {
 
             // Chế độ mô phỏng khi chưa nhập Key
-
             scorePart4 += 0.75;
-
             essayFeedbacks[q.id] = {
-
               score: 0.75,
-
               ocrText: `[Chế độ mô phỏng]: Đã nhận diện công thức và bài giải viết tay cho Câu ${q.id}.`,
-
               steps: [
-
-                { step: "Bước 1: Điều kiện xác định & giả thiết (0.25đ)", awarded: 0.25, max: 0.25, status: "Đúng", note: "Xác định đúng điều kiện ban đầu của bài toán." },
-
-                { step: "Bước 2: Biến đổi đại số / lập luận chính (0.50đ)", awarded: 0.50, max: 0.50, status: "Đúng", note: "Thực hiện đúng quy tắc biến đổi và tính toán." },
-
-                { step: "Bước 3: Đối chiếu điều kiện và kết luận (0.25đ)", awarded: 0.0, max: 0.25, status: "Thiếu", note: "Chưa đối chiếu lại với điều kiện xác định trước khi kết luận nghiệm." }
-
+                { step: "Bước 1: Điều kiện xác định & giả thiết (0.25đ)", awarded: 0.25, max: 0.25, status: "Đúng", note: "Xác định đúng điều kiện ban đầu của bài toán (chấp nhận làm tắt hợp lệ)." },
+                { step: "Bước 2: Biến đổi đại số / lập luận chính (0.50đ)", awarded: 0.50, max: 0.50, status: "Đúng", note: "Thực hiện đúng quy tắc biến đổi và tính toán (cho điểm tối đa dù cách giải khác đáp án mẫu)." },
+                { step: "Bước 3: Đối chiếu điều kiện và kết luận (0.25đ)", awarded: 0.0, max: 0.25, status: "Sai / Thiếu", note: "Chưa đối chiếu lại với điều kiện xác định trước khi kết luận nghiệm." }
               ],
-
-              mistakes: "Chưa đối chiếu nghiệm tìm được với điều kiện bài toán.",
-
-              comment: `Bài làm tốt, đúng phương pháp (${q.level}). Trình bày rõ ràng, tuy nhiên cần bổ sung bước đối chiếu điều kiện ở dòng kết luận.`,
-
+              errorExcerpt: "x = 4 (chưa đối chiếu điều kiện x ≠ 1)",
+              mistakes: "Chưa đối chiếu nghiệm tìm được với điều kiện ban đầu của bài toán (x ≠ 1).",
+              comment: `Bài làm tốt, đúng phương pháp (${q.level}). Trình bày rõ ràng, tính toán đúng (đã cho điểm tối đa các bước tính tắt/giải cách khác). Cần chú ý đối chiếu điều kiện trước khi kết luận nghiệm.`,
               modelSolution: `Lời giải chuẩn: ${q.rubric}`,
-
               usedImage: imgDataUrl
-
             };
 
           }
@@ -6229,10 +6168,14 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
                           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
 
-                            <div className="font-bold text-sm text-slate-900">
-
-                              Câu {q.id} ({q.level}): <MathView text={q.question} />
-
+                            <div>
+                              <div className="font-bold text-sm text-slate-900">
+                                Câu {q.id} ({q.level}): <MathView text={q.question} />
+                              </div>
+                              <div className="flex items-center gap-1.5 text-[11px] text-slate-600 bg-slate-50 border border-slate-200 px-2.5 py-1 rounded-md mt-1.5 font-medium">
+                                <span className="text-indigo-600 font-bold">⚖️ Quy chế chấm:</span>
+                                <span>Giải tắt / Cách khác / Viết lại sau gạch xóa đều được bảo toàn điểm tối đa</span>
+                              </div>
                             </div>
 
                             <span className={`px-2.5 py-1 rounded-lg text-xs font-bold ${
@@ -6383,22 +6326,36 @@ TRẢ VỀ ĐÚNG ĐỊNH DẠNG JSON SAU (không kèm markdown ngoài JSON):
 
 
 
-                          {/* Lỗi sai cụ thể nếu có */}
-
-                          {fb.mistakes && (
-
-                            <div className="bg-rose-50 border border-rose-200 p-2.5 rounded-lg text-xs text-rose-900 flex items-start gap-2">
-
-                              <Icons.AlertTriangle />
-
-                              <div>
-
-                                <span className="font-bold">Lưu ý lỗi sai:</span> {fb.mistakes}
-
+                          {/* Khoanh vùng màu đỏ và chỉ rõ vị trí học sinh giải sai (nếu có) */}
+                          {(fb.mistakes || fb.errorExcerpt) && (
+                            <div className="bg-rose-50/90 border-2 border-rose-500 rounded-xl p-3.5 space-y-2.5 shadow-sm">
+                              <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-2 font-bold text-rose-800 text-xs md:text-sm">
+                                  <span className="w-2.5 h-2.5 rounded-full bg-rose-600 animate-pulse"></span>
+                                  <span className="uppercase tracking-wide">Khoanh vùng vị trí bài làm bị sai (Đánh dấu đỏ)</span>
+                                </div>
+                                <span className="text-[11px] px-2 py-0.5 bg-rose-200 text-rose-900 rounded font-bold border border-rose-300">
+                                  Cần lưu ý
+                                </span>
                               </div>
 
-                            </div>
+                              {fb.errorExcerpt && (
+                                <div className="bg-white p-3 rounded-lg border-2 border-dashed border-rose-500 shadow-inner space-y-1">
+                                  <div className="text-[11px] font-bold text-rose-600 uppercase flex items-center gap-1">
+                                    <Icons.AlertTriangle /> Dòng / Phép tính học sinh giải sai:
+                                  </div>
+                                  <div className="text-sm font-bold text-rose-900 bg-rose-50 p-2 rounded border border-rose-300 font-mono">
+                                    <MathView text={fb.errorExcerpt} />
+                                  </div>
+                                </div>
+                              )}
 
+                              {fb.mistakes && (
+                                <div className="text-xs text-rose-950 leading-relaxed font-medium pt-0.5">
+                                  <span className="font-bold text-rose-800">Chi tiết lỗi sai & hướng dẫn:</span> {fb.mistakes}
+                                </div>
+                              )}
+                            </div>
                           )}
 
 
