@@ -1,4 +1,8 @@
-/**\n * NGAN HANG DE KIEM TRA DINH KY TOAN THCS (KNTT) - LOP 6, 7, 8, 9\n * Giua ky 1, Cuoi ky 1, Giua ky 2, Cuoi ky 2\n */\nwindow.PERIODIC_EXAM_BANK = {
+/**
+ * NGAN HANG DE KIEM TRA DINH KY TOAN THCS (KNTT) - LOP 6, 7, 8, 9
+ * Giua ky 1, Cuoi ky 1, Giua ky 2, Cuoi ky 2
+ */
+window.PERIODIC_EXAM_BANK = {
   "6": {
     "mid1": [
       {
@@ -15015,4 +15019,4 @@
       }
     ]
   }
-};\n
+};
