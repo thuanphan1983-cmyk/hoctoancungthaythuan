@@ -1125,6 +1125,36 @@ if (typeof window !== "undefined") {
 
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
+  <!-- 1. THANH TIỆN ÍCH HOTLINE & ZALO NHỎ GỌN TRÊN CÙNG (GÓC PHẢI) -->
+  <div id="top-contact-bar" style="position: fixed; top: 12px; right: 16px; z-index: 10000; display: flex; align-items: center; gap: 8px;">
+    <!-- Hotline nhỏ gọn -->
+    <a href="tel:0976295033" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; background: #e11d48; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+      <span>📞</span> 0976.295.033
+    </a>
+
+    <!-- Zalo Thầy Thuấn nhỏ gọn -->
+    <a href="https://zalo.me/0976295033" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; background: #0284c7; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+      <span>💬</span> Zalo Thầy Thuấn
+    </a>
+  </div>
+
+  <!-- 2. POPUP BẮT BUỘC ĐĂNG NHẬP GOOGLE -->
+  <div id="auth-force-overlay" style="display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.94); z-index: 999999; backdrop-filter: blur(8px); align-items: center; justify-content: center;">
+    <div style="background: #ffffff; border-radius: 18px; padding: 32px; max-width: 400px; width: 90%; text-align: center; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);">
+      <div style="font-size: 46px; margin-bottom: 12px;">🔒</div>
+      <h3 style="margin: 0 0 8px; font-size: 20px; font-weight: 700; color: #0f172a;">Yêu cầu đăng nhập</h3>
+      <p style="margin: 0 0 24px; color: #64748b; font-size: 14px; line-height: 1.5;">
+        Em cần đăng nhập bằng tài khoản Google để vào làm đề kiểm tra và lưu kết quả học tập.
+      </p>
+
+      <!-- Nút đăng nhập xử lý đa tầng -->
+      <button id="btn-trigger-login" type="button" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 18px; background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 15px; font-weight: 600; color: #1e293b; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.06);">
+        <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+        Đăng nhập bằng Google
+      </button>
+    </div>
+  </div>
+
   <div id="root"></div>
 
 
@@ -3183,6 +3213,8 @@ const [loadingAI, setLoadingAI] = useState(false);
         if (window.confirm("Em có chắc chắn muốn đăng xuất tài khoản Google?")) {
           setCurrentUser(null);
           localStorage.removeItem("APP_CURRENT_USER");
+          const overlay = document.getElementById('auth-force-overlay');
+          if (overlay) overlay.style.display = 'flex';
           showToast("info", "Đã đăng xuất tài khoản Google.");
         }
       };
@@ -3193,6 +3225,8 @@ const [loadingAI, setLoadingAI] = useState(false);
         localStorage.setItem("APP_CURRENT_USER", JSON.stringify(userObj));
         if (userObj.name) setStudentName(userObj.name);
         setShowAuthModal(false);
+        const overlay = document.getElementById('auth-force-overlay');
+        if (overlay) overlay.style.display = 'none';
         showToast("success", `Chào mừng em ${userObj.name} đã đăng nhập thành công!`);
       };
 
@@ -4524,7 +4558,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
           <header className="bg-indigo-900 text-white shadow-md no-print sticky top-0 z-50">
 
-            <div className="max-w-6xl mx-auto px-4 py-3.5 flex flex-wrap items-center justify-between gap-4">
+            <div className="max-w-6xl mx-auto px-4 py-3.5 flex flex-wrap items-center justify-between gap-4 lg:pr-56">
 
               <div className="flex items-center gap-3">
 
@@ -8242,40 +8276,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
 
-          {/* Sửa text Zalo thành Thầy Thuấn và xóa bỏ nút Mời Thầy cafe */}
-          <div className="fixed-floating-buttons print:hidden" style={{ position: "fixed", bottom: "20px", right: "20px", zIndex: 1000, display: "flex", flexDirection: "column", gap: "10px" }}>
-            {/* Nút Hotline */}
-            <a href={`tel:${APP_CONFIG.SUPPORT_PHONE}`} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#e11d48", color: "#fff", padding: "10px 16px", borderRadius: "9999px", textDecoration: "none", fontWeight: "600", fontSize: "14px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.15)" }}>
-              📞 Hotline: {APP_CONFIG.SUPPORT_PHONE}
-            </a>
-
-            {/* Nút Zalo (Đã sửa chính xác thành Thầy Thuấn) */}
-            <a href={APP_CONFIG.ZALO_LINK} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", gap: "8px", background: "#0284c7", color: "#fff", padding: "10px 16px", borderRadius: "9999px", textDecoration: "none", fontWeight: "600", fontSize: "14px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.15)" }}>
-              💬 Chat Zalo Thầy Thuấn
-            </a>
-          </div>
-
-          {/* Lớp phủ bắt buộc đăng nhập Google mới xem được đề và vào lớp */}
-          {!currentUser && (
-            <div id="google-login-overlay" style={{ display: "flex", position: "fixed", inset: 0, background: "rgba(15, 23, 42, 0.92)", zIndex: 99999, justifyContent: "center", alignItems: "center", backdropFilter: "blur(6px)" }}>
-              <div style={{ background: "#ffffff", borderRadius: "16px", padding: "32px", maxWidth: "420px", width: "90%", textAlign: "center", boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" }}>
-                <div style={{ fontSize: "48px", marginBottom: "12px" }}>🔒</div>
-                <h3 style={{ margin: "0 0 10px", fontSize: "20px", color: "#0f172a", fontWeight: 700 }}>Yêu cầu đăng nhập</h3>
-                <p style={{ margin: "0 0 24px", color: "#64748b", fontSize: "14px", lineHeight: "1.6" }}>
-                  Hệ thống yêu cầu đăng nhập tài khoản Google để bảo mật, lưu tiến trình và mở khóa bài kiểm tra.
-                </p>
-                <button
-                  type="button"
-                  onClick={loginWithGoogle}
-                  style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: "12px", padding: "12px 20px", background: "#fff", border: "1px solid #cbd5e1", borderRadius: "10px", fontSize: "15px", fontWeight: 600, cursor: "pointer", color: "#334155", boxShadow: "0 1px 2px rgba(0,0,0,0.05)" }}
-                >
-                  <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
-                  Đăng nhập bằng Google
-                </button>
-              </div>
-            </div>
-          )}
-
+          
 
           {/* TOAST THÔNG BÁO DỰ PHÒNG & TRẠNG THÁI */}
 
@@ -8644,6 +8645,104 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
   </script>
 
+  <!-- 3. SCRIPT XỬ LÝ DỨT ĐIỂM -->
+  <script>
+  (function() {
+    // A. XÓA BỎ NÚT MỜI CAFE NẾU CÒN TRÊN TRANG
+    function removeCafeButtons() {
+      document.querySelectorAll('button, a, div').forEach(el => {
+        if (el.innerText && el.innerText.toLowerCase().includes('mời thầy cafe')) {
+          el.remove();
+        }
+      });
+    }
+    removeCafeButtons();
+    setTimeout(removeCafeButtons, 1000);
+
+    const overlay = document.getElementById('auth-force-overlay');
+    const triggerBtn = document.getElementById('btn-trigger-login');
+
+    // B. BẮT SỰ KIỆN CLICK ĐĂNG NHẬP (CƠ CHẾ 2 TẦNG BẢO ĐẢM LUÔN CHẠY)
+    if (triggerBtn) {
+      triggerBtn.addEventListener('click', function() {
+        // Cách 1: Kích hoạt nút "Đăng nhập Google" gốc có sẵn trên thanh tiêu đề của web
+        let originalBtn = Array.from(document.querySelectorAll('button, a')).find(el => 
+          el.id !== 'btn-trigger-login' && 
+          el.innerText && 
+          el.innerText.includes('Đăng nhập Google')
+        );
+
+        if (originalBtn) {
+          console.log("Tìm thấy nút đăng nhập gốc, đang kích hoạt...");
+          originalBtn.click();
+          return;
+        }
+
+        // Cách 1b: Kích hoạt hàm loginWithGoogle
+        if (typeof window.loginWithGoogle === 'function') {
+          window.loginWithGoogle();
+          return;
+        }
+
+        // Cách 2: Gọi trực tiếp SDK Firebase Auth (hỗ trợ cả Popup và Redirect)
+        if (typeof firebase !== 'undefined' && firebase.auth) {
+          const provider = new firebase.auth.GoogleAuthProvider();
+          firebase.auth().signInWithPopup(provider).catch(err => {
+            // Nếu trình duyệt chặn Popup (Blocked by browser popup blocker), chuyển sang Redirect
+            if (err.code === 'auth/popup-blocked') {
+              firebase.auth().signInWithRedirect(provider);
+            } else {
+              alert('Lỗi đăng nhập: ' + err.message);
+            }
+          });
+        } else {
+          alert("Chưa tìm thấy SDK Firebase Authentication. Vui lòng kiểm tra lại cấu hình thư viện Auth.");
+        }
+      });
+    }
+
+    // C. THEO DÕI TRẠNG THÁI ĐĂNG NHẬP ĐỂ ẨN / HIỆN POPUP
+    function initAuthWatcher() {
+      try {
+        const savedUser = localStorage.getItem("APP_CURRENT_USER");
+        if (savedUser) {
+          const u = JSON.parse(savedUser);
+          if (u && (u.email || u.name)) {
+            if (overlay) overlay.style.display = 'none';
+            return;
+          }
+        }
+      } catch(e) {}
+
+      if (typeof firebase !== 'undefined' && firebase.auth) {
+        try {
+          firebase.auth().onAuthStateChanged(user => {
+            if (user) {
+              if (overlay) overlay.style.display = 'none';
+            } else {
+              const saved = localStorage.getItem("APP_CURRENT_USER");
+              if (saved && overlay) {
+                overlay.style.display = 'none';
+              } else if (overlay) {
+                overlay.style.display = 'flex';
+              }
+            }
+          });
+          return;
+        } catch(e) {}
+      }
+
+      if (!localStorage.getItem("APP_CURRENT_USER")) {
+        if (overlay) overlay.style.display = 'flex';
+      } else {
+        if (overlay) overlay.style.display = 'none';
+      }
+      setTimeout(initAuthWatcher, 500);
+    }
+
+    initAuthWatcher();
+  })();
+  </script>
 </body>
 
 </html>
