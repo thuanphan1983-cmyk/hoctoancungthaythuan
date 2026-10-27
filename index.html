@@ -3131,10 +3131,7 @@ const [loadingAI, setLoadingAI] = useState(false);
       const [partTimes, setPartTimes] = useState({ part1: 0, part2: 0, part3: 0, part4: 0 });
       const [isTabHidden, setIsTabHidden] = useState(false);
 
-      // Quản lý Popup VietQR "Mời Thầy ly cafe"
-      const [showCoffeeModal, setShowCoffeeModal] = useState(false);
-      const [coffeeAmount, setCoffeeAmount] = useState(20000);
-      const [coffeeNote, setCoffeeNote] = useState("Em gui Thay ly cafe");
+
 
       // Bộ lọc mở rộng cho Teacher Dashboard
       const [filterDate, setFilterDate] = useState("ALL"); // ALL | TODAY | 7DAYS | 30DAYS
@@ -3171,6 +3168,15 @@ const [loadingAI, setLoadingAI] = useState(false);
           if (timer) clearInterval(timer);
         };
       }, [view, isExamSubmitted, isTabHidden, activePart]);
+
+      // Hàm đăng nhập Google
+      const loginWithGoogle = () => {
+        if (window.google?.accounts?.id && APP_CONFIG.GOOGLE_CLIENT_ID && !APP_CONFIG.GOOGLE_CLIENT_ID.includes("YOUR_")) {
+          window.google.accounts.id.prompt();
+        }
+        setShowAuthModal(true);
+      };
+      window.loginWithGoogle = loginWithGoogle;
 
       // Xử lý Đăng xuất Google
       const handleLogout = () => {
@@ -4598,16 +4604,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   <Icons.BarChart2 />
                 </button>
 
-                {/* NÚT MỜI THẦY LY CAFE (VIETQR) */}
-                <button
-                  type="button"
-                  onClick={() => setShowCoffeeModal(true)}
-                  title="Mời Thầy ly cafe qua VietQR"
-                  className="bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold px-3 py-1.5 rounded-xl text-xs flex items-center gap-1.5 shadow-sm transition transform active:scale-95"
-                >
-                  <span>☕</span>
-                  <span className="hidden sm:inline">Mời Thầy cafe</span>
-                </button>
+
 
                 {/* KHU VỰC ĐĂNG NHẬP GOOGLE */}
                 {currentUser ? (
@@ -6178,7 +6175,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         </div>
                       </div>
                       <span className="text-xs bg-indigo-600 text-white font-bold px-3 py-1 rounded-full shadow-xs">
-                        Thầy Phan Đình Thuận
+                        Thầy Phan Đình Thuấn
                       </span>
                     </div>
 
@@ -6237,7 +6234,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         rel="noopener noreferrer"
                         className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-[#0068FF] hover:bg-[#0052cc] text-white text-xs font-bold flex items-center justify-center gap-1.5 shadow-md shadow-blue-500/20 transition transform active:scale-95"
                       >
-                        <span>💬 Nhắn tin Zalo Thầy Thuận</span>
+                        <span>💬 Nhắn tin Zalo Thầy Thuấn</span>
                         <span className="text-[10px]">↗</span>
                       </a>
                       <a
@@ -8243,129 +8240,41 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
             </div>
           )}
 
-          {/* ============================================================== */}
-          {/* MODAL MỜI TÁC GIẢ LY CAFE (VIETQR TỰ ĐỘNG) */}
-          {/* ============================================================== */}
-          {showCoffeeModal && (
-            <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-3 md:p-4 overflow-y-auto">
-              <div className="bg-white rounded-3xl p-5 md:p-7 shadow-2xl max-w-md w-full space-y-4 border border-slate-100 my-auto animate-in fade-in zoom-in-95 duration-200 text-center">
-                <div className="flex justify-between items-start border-b pb-3">
-                  <div className="flex items-center gap-2 text-left">
-                    <div className="w-10 h-10 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center text-xl font-bold shadow-xs">
-                      ☕
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-base md:text-lg text-slate-900 leading-tight">Mời Thầy Thuận ly cafe</h3>
-                      <p className="text-xs text-slate-500">Ủng hộ duy trì máy chủ & phát triển hệ thống</p>
-                    </div>
-                  </div>
-                  <button onClick={() => setShowCoffeeModal(false)} className="text-slate-400 hover:text-slate-600 font-bold text-lg">✕</button>
-                </div>
 
-                {/* Chọn số tiền ủng hộ nhanh */}
-                <div className="space-y-2">
-                  <label className="text-xs font-bold text-slate-600 block text-left">Chọn mức ủng hộ tùy tâm:</label>
-                  <div className="grid grid-cols-4 gap-2">
-                    {[10000, 20000, 50000, 100000].map(amt => (
-                      <button
-                        key={amt}
-                        type="button"
-                        onClick={() => setCoffeeAmount(amt)}
-                        className={`py-2 rounded-xl text-xs font-bold border transition ${
-                          coffeeAmount === amt
-                            ? "bg-amber-500 text-white border-amber-500 shadow-sm"
-                            : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-amber-50"
-                        }`}
-                      >
-                        {(amt / 1000).toLocaleString()}k
-                      </button>
-                    ))}
-                  </div>
-                </div>
 
-                {/* Ảnh mã VietQR tự động */}
-                <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 flex flex-col items-center justify-center space-y-2">
-                  <img
-                    src={`https://img.vietqr.io/image/${APP_CONFIG.BANK_ID}-${APP_CONFIG.ACCOUNT_NO}-compact2.png?amount=${coffeeAmount}&addInfo=${encodeURIComponent(coffeeNote + " - " + (studentName || "Hoc sinh"))}&accountName=${encodeURIComponent(APP_CONFIG.ACCOUNT_NAME)}`}
-                    alt="Mã QR Chuyển khoản VietQR"
-                    className="w-56 h-auto rounded-xl shadow-md border border-slate-300"
-                  />
-                  <div className="text-[11px] text-slate-500 font-medium">
-                    Mở App Ngân hàng (MB, VCB, Techcombank, Momo,...) quét mã QR
-                  </div>
-                </div>
+          {/* Sửa text Zalo thành Thầy Thuấn và xóa bỏ nút Mời Thầy cafe */}
+          <div className="fixed-floating-buttons print:hidden" style={{ position: "fixed", bottom: "20px", right: "20px", zIndex: 1000, display: "flex", flexDirection: "column", gap: "10px" }}>
+            {/* Nút Hotline */}
+            <a href={`tel:${APP_CONFIG.SUPPORT_PHONE}`} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#e11d48", color: "#fff", padding: "10px 16px", borderRadius: "9999px", textDecoration: "none", fontWeight: "600", fontSize: "14px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.15)" }}>
+              📞 Hotline: {APP_CONFIG.SUPPORT_PHONE}
+            </a>
 
-                {/* Thông tin tài khoản ngân hàng */}
-                <div className="bg-amber-50/70 p-3 rounded-xl border border-amber-200/80 text-left text-xs space-y-1 text-slate-700">
-                  <div className="flex justify-between items-center">
-                    <span className="text-slate-500">Ngân hàng:</span>
-                    <span className="font-bold text-indigo-900">MB Bank (Ngân hàng Quân Đội)</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-slate-500">Số tài khoản:</span>
-                    <div className="flex items-center gap-1.5">
-                      <span className="font-bold text-slate-900 font-mono text-sm">{APP_CONFIG.ACCOUNT_NO}</span>
-                      <button
-                        onClick={() => {
-                          navigator.clipboard.writeText(APP_CONFIG.ACCOUNT_NO);
-                          alert("Đã sao chép số tài khoản: " + APP_CONFIG.ACCOUNT_NO);
-                        }}
-                        className="text-[10px] font-bold text-indigo-600 bg-white border border-indigo-200 px-1.5 py-0.5 rounded hover:bg-indigo-50"
-                      >
-                        Copy
-                      </button>
-                    </div>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-slate-500">Chủ tài khoản:</span>
-                    <span className="font-bold text-slate-900">{APP_CONFIG.ACCOUNT_NAME}</span>
-                  </div>
-                </div>
+            {/* Nút Zalo (Đã sửa chính xác thành Thầy Thuấn) */}
+            <a href={APP_CONFIG.ZALO_LINK} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", gap: "8px", background: "#0284c7", color: "#fff", padding: "10px 16px", borderRadius: "9999px", textDecoration: "none", fontWeight: "600", fontSize: "14px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.15)" }}>
+              💬 Chat Zalo Thầy Thuấn
+            </a>
+          </div>
 
-                <p className="text-[11px] text-slate-400 italic">
-                  "Thầy chân thành cảm ơn tình cảm và sự ủng hộ của các em và quý phụ huynh!"
+          {/* Lớp phủ bắt buộc đăng nhập Google mới xem được đề và vào lớp */}
+          {!currentUser && (
+            <div id="google-login-overlay" style={{ display: "flex", position: "fixed", inset: 0, background: "rgba(15, 23, 42, 0.92)", zIndex: 99999, justifyContent: "center", alignItems: "center", backdropFilter: "blur(6px)" }}>
+              <div style={{ background: "#ffffff", borderRadius: "16px", padding: "32px", maxWidth: "420px", width: "90%", textAlign: "center", boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" }}>
+                <div style={{ fontSize: "48px", marginBottom: "12px" }}>🔒</div>
+                <h3 style={{ margin: "0 0 10px", fontSize: "20px", color: "#0f172a", fontWeight: 700 }}>Yêu cầu đăng nhập</h3>
+                <p style={{ margin: "0 0 24px", color: "#64748b", fontSize: "14px", lineHeight: "1.6" }}>
+                  Hệ thống yêu cầu đăng nhập tài khoản Google để bảo mật, lưu tiến trình và mở khóa bài kiểm tra.
                 </p>
+                <button
+                  type="button"
+                  onClick={loginWithGoogle}
+                  style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: "12px", padding: "12px 20px", background: "#fff", border: "1px solid #cbd5e1", borderRadius: "10px", fontSize: "15px", fontWeight: 600, cursor: "pointer", color: "#334155", boxShadow: "0 1px 2px rgba(0,0,0,0.05)" }}
+                >
+                  <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+                  Đăng nhập bằng Google
+                </button>
               </div>
             </div>
           )}
-
-          {/* ============================================================== */}
-          {/* WIDGET CỐ ĐỊNH GÓC PHẢI MÀN HÌNH (HOTLINE & CHAT ZALO & CAFE) */}
-          {/* ============================================================== */}
-          <div className="fixed bottom-6 right-5 z-40 flex flex-col items-end gap-2.5 print:hidden">
-            {/* Nút 1: Gọi Hotline */}
-            <a
-              href={`tel:${APP_CONFIG.SUPPORT_PHONE}`}
-              title={`Gọi Hotline hỗ trợ: ${APP_CONFIG.SUPPORT_PHONE}`}
-              className="group flex items-center gap-2 px-3.5 py-2.5 rounded-full bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white shadow-lg shadow-red-500/30 hover:scale-105 transition transform active:scale-95 text-xs font-bold"
-            >
-              <span className="text-base animate-bounce">📞</span>
-              <span className="hidden sm:inline">Hotline: {APP_CONFIG.SUPPORT_PHONE}</span>
-            </a>
-
-            {/* Nút 2: Chat Zalo */}
-            <a
-              href={APP_CONFIG.ZALO_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Nhắn tin Zalo với Thầy Thuận"
-              className="group flex items-center gap-2 px-3.5 py-2.5 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white shadow-lg shadow-blue-500/30 hover:scale-105 transition transform active:scale-95 text-xs font-bold"
-            >
-              <span className="w-5 h-5 rounded-full bg-white text-[#0068FF] flex items-center justify-center font-black text-[10px]">Z</span>
-              <span className="hidden sm:inline">Chat Zalo Thầy Thuận</span>
-            </a>
-
-            {/* Nút 3: Mời Thầy cafe */}
-            <button
-              type="button"
-              onClick={() => setShowCoffeeModal(true)}
-              title="Mời Thầy ly cafe qua VietQR"
-              className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white shadow-lg shadow-amber-500/30 hover:scale-105 transition transform active:scale-95 text-xs font-bold"
-            >
-              <span className="text-sm">☕</span>
-              <span className="hidden sm:inline">Mời Thầy cafe</span>
-            </button>
-          </div>
 
 
           {/* TOAST THÔNG BÁO DỰ PHÒNG & TRẠNG THÁI */}
