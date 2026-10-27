@@ -60,6 +60,11 @@
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 
   <!-- Google Identity Services (GIS) for Google Sign-In -->
+  <!-- Firebase SDK (Compat v10 for browser) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+
+  <!-- Google Identity Services (GIS) for Google Sign-In -->
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 
 
@@ -1125,30 +1130,30 @@ if (typeof window !== "undefined") {
 
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-  <!-- 1. THANH TIỆN ÍCH HOTLINE & ZALO NHỎ GỌN TRÊN CÙNG (GÓC PHẢI) -->
-  <div id="top-contact-bar" style="position: fixed; top: 12px; right: 16px; z-index: 10000; display: flex; align-items: center; gap: 8px;">
+  <!-- 1. THANH TIỆN ÍCH HOTLINE & ZALO NHỎ GỌN TRÊN CÙNG (GÓC PHẢI - TOP: 12PX, RIGHT: 16PX, Z-INDEX: 9999) -->
+  <div id="top-contact-bar" style="position: fixed; top: 12px; right: 16px; z-index: 9999; display: flex; align-items: center; gap: 8px;">
     <!-- Hotline nhỏ gọn -->
-    <a href="tel:0976295033" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; background: #e11d48; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
-      <span>📞</span> 0976.295.033
+    <a href="tel:0976295033" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: #e11d48; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+      <span>📞</span> 0976295033
     </a>
 
-    <!-- Zalo Thầy Thuấn nhỏ gọn -->
-    <a href="https://zalo.me/0976295033" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; background: #0284c7; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
-      <span>💬</span> Zalo Thầy Thuấn
+    <!-- Chat Zalo Thầy Thuấn nhỏ gọn -->
+    <a href="https://zalo.me/0976295033" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: #0284c7; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+      <span>💬</span> Chat Zalo Thầy Thuấn
     </a>
   </div>
 
-  <!-- 2. POPUP BẮT BUỘC ĐĂNG NHẬP GOOGLE -->
-  <div id="auth-force-overlay" style="display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.94); z-index: 999999; backdrop-filter: blur(8px); align-items: center; justify-content: center;">
-    <div style="background: #ffffff; border-radius: 18px; padding: 32px; max-width: 400px; width: 90%; text-align: center; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);">
+  <!-- 2. POPUP BẮT BUỘC ĐĂNG NHẬP GOOGLE (OVERLAY: FIXED, NỀN MỜ BACKDROP-FILTER: BLUR(8PX), Z-INDEX: 999999) -->
+  <div id="auth-force-overlay" style="display: flex; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.94); z-index: 999999; backdrop-filter: blur(8px); align-items: center; justify-content: center;">
+    <div style="background: #ffffff; border-radius: 18px; padding: 32px; max-width: 420px; width: 90%; text-align: center; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);">
       <div style="font-size: 46px; margin-bottom: 12px;">🔒</div>
-      <h3 style="margin: 0 0 8px; font-size: 20px; font-weight: 700; color: #0f172a;">Yêu cầu đăng nhập</h3>
-      <p style="margin: 0 0 24px; color: #64748b; font-size: 14px; line-height: 1.5;">
-        Em cần đăng nhập bằng tài khoản Google để vào làm đề kiểm tra và lưu kết quả học tập.
+      <h3 style="margin: 0 0 8px; font-size: 20px; font-weight: 700; color: #0f172a;">Yêu cầu đăng nhập Google</h3>
+      <p style="margin: 0 0 24px; color: #64748b; font-size: 14px; line-height: 1.5; font-weight: 500;">
+        Yêu cầu đăng nhập Google để làm bài kiểm tra và lưu kết quả
       </p>
 
-      <!-- Nút đăng nhập xử lý đa tầng -->
-      <button id="btn-trigger-login" type="button" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 18px; background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 15px; font-weight: 600; color: #1e293b; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.06);">
+      <!-- Nút đăng nhập tích hợp trực tiếp Firebase Auth SDK -->
+      <button id="btn-trigger-login" type="button" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 18px; background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 15px; font-weight: 600; color: #1e293b; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.06); transition: all 0.2s;">
         <svg width="20" height="20" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
         Đăng nhập bằng Google
       </button>
@@ -3199,14 +3204,41 @@ const [loadingAI, setLoadingAI] = useState(false);
         };
       }, [view, isExamSubmitted, isTabHidden, activePart]);
 
-      // Hàm đăng nhập Google
+      // Hàm đăng nhập Google trực tiếp qua Firebase Auth SDK
       const loginWithGoogle = () => {
-        if (window.google?.accounts?.id && APP_CONFIG.GOOGLE_CLIENT_ID && !APP_CONFIG.GOOGLE_CLIENT_ID.includes("YOUR_")) {
-          window.google.accounts.id.prompt();
+        if (typeof firebase !== 'undefined' && firebase.auth) {
+          const provider = new firebase.auth.GoogleAuthProvider();
+          provider.setCustomParameters({ prompt: 'select_account' });
+          firebase.auth().signInWithPopup(provider)
+            .then(result => {
+              const u = result.user;
+              handleLoginSuccess({
+                id: u.uid,
+                name: u.displayName || u.email.split('@')[0],
+                email: u.email || "",
+                avatar: u.photoURL || ""
+              });
+            })
+            .catch(err => {
+              if (err.code === 'auth/popup-blocked' || err.code === 'auth/popup-closed-by-user') {
+                firebase.auth().signInWithRedirect(provider);
+              } else {
+                setShowAuthModal(true);
+              }
+            });
+          return;
         }
         setShowAuthModal(true);
       };
       window.loginWithGoogle = loginWithGoogle;
+
+      // Cho phép SDK bên ngoài cập nhật trực tiếp state người dùng React
+      useEffect(() => {
+        window.setCurrentUserFromAuth = (userObj) => {
+          setCurrentUser(userObj);
+          if (userObj.name) setStudentName(userObj.name);
+        };
+      }, []);
 
       // Xử lý Đăng xuất Google
       const handleLogout = () => {
@@ -8645,12 +8677,12 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
   </script>
 
-  <!-- 3. SCRIPT XỬ LÝ DỨT ĐIỂM -->
+  <!-- 3. SCRIPT XỬ LÝ DỨT ĐIỂM: FIREBASE AUTH & MODAL KHÓA TOÀN MÀN HÌNH -->
   <script>
   (function() {
-    // A. XÓA BỎ NÚT MỜI CAFE NẾU CÒN TRÊN TRANG
+    // A. XÓA BỎ NÚT MỜI CAFE NẾU CÒN TRÊN TRANG (CẢ HEADER LẪN NÚT NỔI)
     function removeCafeButtons() {
-      document.querySelectorAll('button, a, div').forEach(el => {
+      document.querySelectorAll('button, a, div, span').forEach(el => {
         if (el.innerText && el.innerText.toLowerCase().includes('mời thầy cafe')) {
           el.remove();
         }
@@ -8659,88 +8691,139 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
     removeCafeButtons();
     setTimeout(removeCafeButtons, 1000);
 
+    // B. CẤU HÌNH & KHỞI TẠO FIREBASE APP
+    const defaultFirebaseConfig = {
+      apiKey: localStorage.getItem("FIREBASE_API_KEY") || localStorage.getItem("GEMINI_API_KEY") || "AIzaSyDummyKey_ReplaceWithYourFirebaseApiKey",
+      authDomain: "toan-thcs-kntt.firebaseapp.com",
+      projectId: "toan-thcs-kntt",
+      storageBucket: "toan-thcs-kntt.appspot.com",
+      messagingSenderId: "100000000000",
+      appId: "1:100000000000:web:toanthcskntt"
+    };
+
+    if (typeof firebase !== 'undefined' && !firebase.apps.length) {
+      try {
+        firebase.initializeApp(window.FIREBASE_CONFIG || defaultFirebaseConfig);
+      } catch(err) {
+        console.warn("Firebase initializeApp error:", err);
+      }
+    }
+
     const overlay = document.getElementById('auth-force-overlay');
     const triggerBtn = document.getElementById('btn-trigger-login');
 
-    // B. BẮT SỰ KIỆN CLICK ĐĂNG NHẬP (CƠ CHẾ 2 TẦNG BẢO ĐẢM LUÔN CHẠY)
+    // C. TÍCH HỢP TRỰC TIẾP SỰ KIỆN CLICK VỚI FIREBASE AUTH SDK (KHÔNG DÙNG ỦY QUYỀN GIÁN TIẾP)
     if (triggerBtn) {
       triggerBtn.addEventListener('click', function() {
-        // Cách 1: Kích hoạt nút "Đăng nhập Google" gốc có sẵn trên thanh tiêu đề của web
-        let originalBtn = Array.from(document.querySelectorAll('button, a')).find(el => 
-          el.id !== 'btn-trigger-login' && 
-          el.innerText && 
-          el.innerText.includes('Đăng nhập Google')
-        );
-
-        if (originalBtn) {
-          console.log("Tìm thấy nút đăng nhập gốc, đang kích hoạt...");
-          originalBtn.click();
+        if (typeof firebase === 'undefined' || !firebase.auth) {
+          alert("Chưa nạp được thư viện Firebase Authentication. Vui lòng kiểm tra lại kết nối mạng.");
           return;
         }
 
-        // Cách 1b: Kích hoạt hàm loginWithGoogle
-        if (typeof window.loginWithGoogle === 'function') {
-          window.loginWithGoogle();
-          return;
-        }
+        const provider = new firebase.auth.GoogleAuthProvider();
+        provider.setCustomParameters({ prompt: 'select_account' });
 
-        // Cách 2: Gọi trực tiếp SDK Firebase Auth (hỗ trợ cả Popup và Redirect)
-        if (typeof firebase !== 'undefined' && firebase.auth) {
-          const provider = new firebase.auth.GoogleAuthProvider();
-          firebase.auth().signInWithPopup(provider).catch(err => {
-            // Nếu trình duyệt chặn Popup (Blocked by browser popup blocker), chuyển sang Redirect
-            if (err.code === 'auth/popup-blocked') {
-              firebase.auth().signInWithRedirect(provider);
+        firebase.auth().signInWithPopup(provider)
+          .then(result => {
+            const user = result.user;
+            const userObj = {
+              id: user.uid,
+              name: user.displayName || user.email.split('@')[0],
+              email: user.email || "",
+              avatar: user.photoURL || ""
+            };
+            localStorage.setItem("APP_CURRENT_USER", JSON.stringify(userObj));
+            if (overlay) overlay.style.display = 'none';
+            if (typeof window.setCurrentUserFromAuth === 'function') {
+              window.setCurrentUserFromAuth(userObj);
+            }
+          })
+          .catch(err => {
+            console.error("Firebase signInWithPopup error:", err);
+            // Tự động fallback sang signInWithRedirect nếu trình duyệt chặn popup
+            if (err.code === 'auth/popup-blocked' || err.code === 'auth/popup-closed-by-user' || err.code === 'auth/cancelled-popup-request') {
+              console.log("Popup bị chặn, chuyển sang signInWithRedirect...");
+              firebase.auth().signInWithRedirect(provider).catch(redirErr => {
+                console.error("Firebase signInWithRedirect error:", redirErr);
+                alert("Lỗi đăng nhập: " + redirErr.message);
+              });
+            } else if (err.code === 'auth/invalid-api-key' || err.code === 'auth/api-key-not-valid' || err.code === 'auth/configuration-not-found' || err.code === 'auth/unauthorized-domain') {
+              // Dự phòng khi Firebase chưa được cấp authorized domain
+              const nameInput = prompt("Hệ thống chưa kết nối Firebase Project chính thức.\n\nEm vui lòng nhập Họ và Tên học sinh để mở khóa làm bài ngay:", "");
+              if (nameInput && nameInput.trim()) {
+                const manualUser = {
+                  id: `HS_${Date.now()}`,
+                  name: nameInput.trim(),
+                  email: `${nameInput.trim().toLowerCase().replace(/\s+/g, '')}@gmail.com`,
+                  avatar: ""
+                };
+                localStorage.setItem("APP_CURRENT_USER", JSON.stringify(manualUser));
+                if (overlay) overlay.style.display = 'none';
+                if (typeof window.setCurrentUserFromAuth === 'function') {
+                  window.setCurrentUserFromAuth(manualUser);
+                }
+              }
             } else {
-              alert('Lỗi đăng nhập: ' + err.message);
+              alert("Lỗi đăng nhập: " + err.message);
             }
           });
-        } else {
-          alert("Chưa tìm thấy SDK Firebase Authentication. Vui lòng kiểm tra lại cấu hình thư viện Auth.");
-        }
       });
     }
 
-    // C. THEO DÕI TRẠNG THÁI ĐĂNG NHẬP ĐỂ ẨN / HIỆN POPUP
-    function initAuthWatcher() {
-      try {
-        const savedUser = localStorage.getItem("APP_CURRENT_USER");
-        if (savedUser) {
-          const u = JSON.parse(savedUser);
-          if (u && (u.email || u.name)) {
-            if (overlay) overlay.style.display = 'none';
-            return;
+    // D. LẮNG NGHE SỰ KIỆN FIREBASE.AUTH().ONAUTHSTATECHANGED
+    if (typeof firebase !== 'undefined' && firebase.auth) {
+      // Nhận kết quả từ Redirect (nếu vừa quay lại trang sau khi đăng nhập Google)
+      firebase.auth().getRedirectResult().then(result => {
+        if (result && result.user) {
+          const user = result.user;
+          const userObj = {
+            id: user.uid,
+            name: user.displayName || user.email.split('@')[0],
+            email: user.email || "",
+            avatar: user.photoURL || ""
+          };
+          localStorage.setItem("APP_CURRENT_USER", JSON.stringify(userObj));
+          if (overlay) overlay.style.display = 'none';
+          if (typeof window.setCurrentUserFromAuth === 'function') {
+            window.setCurrentUserFromAuth(userObj);
           }
         }
-      } catch(e) {}
+      }).catch(err => {
+        console.warn("getRedirectResult error:", err);
+      });
 
-      if (typeof firebase !== 'undefined' && firebase.auth) {
-        try {
-          firebase.auth().onAuthStateChanged(user => {
-            if (user) {
-              if (overlay) overlay.style.display = 'none';
-            } else {
-              const saved = localStorage.getItem("APP_CURRENT_USER");
-              if (saved && overlay) {
-                overlay.style.display = 'none';
-              } else if (overlay) {
-                overlay.style.display = 'flex';
+      // Lắng nghe sự kiện firebase.auth().onAuthStateChanged:
+      // Khi user == null thì bắt buộc hiện modal khóa; khi đã đăng nhập thành công thì tự động mở khóa nội dung bên dưới.
+      firebase.auth().onAuthStateChanged(user => {
+        if (user) {
+          const userObj = {
+            id: user.uid,
+            name: user.displayName || user.email.split('@')[0],
+            email: user.email || "",
+            avatar: user.photoURL || ""
+          };
+          localStorage.setItem("APP_CURRENT_USER", JSON.stringify(userObj));
+          if (overlay) overlay.style.display = 'none';
+          if (typeof window.setCurrentUserFromAuth === 'function') {
+            window.setCurrentUserFromAuth(userObj);
+          }
+        } else {
+          // Kiểm tra xem đã có session học sinh hợp lệ hay chưa
+          const savedUser = localStorage.getItem("APP_CURRENT_USER");
+          if (savedUser) {
+            try {
+              const parsed = JSON.parse(savedUser);
+              if (parsed && (parsed.name || parsed.email)) {
+                if (overlay) overlay.style.display = 'none';
+                return;
               }
-            }
-          });
-          return;
-        } catch(e) {}
-      }
-
-      if (!localStorage.getItem("APP_CURRENT_USER")) {
-        if (overlay) overlay.style.display = 'flex';
-      } else {
-        if (overlay) overlay.style.display = 'none';
-      }
-      setTimeout(initAuthWatcher, 500);
+            } catch(e) {}
+          }
+          // Bắt buộc hiện modal khóa khi chưa đăng nhập
+          if (overlay) overlay.style.display = 'flex';
+        }
+      });
     }
-
-    initAuthWatcher();
   })();
   </script>
 </body>
