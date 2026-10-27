@@ -54,13 +54,13 @@
 
 
 
-  <!-- KaTeX CSS & JS for Math Rendering -->
+  <!-- KaTeX CSS & JS for Math Rendering (0.16.11 Không dùng integrity để tránh chặn CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <!-- Google Identity Services (GIS) for Google Sign-In -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
 
 
 
@@ -1137,6 +1137,18 @@ if (typeof window !== "undefined") {
 
 
   <script type="text/babel">
+
+    // ==============================================================
+    // CẤU HÌNH THÔNG TIN CHUNG HỆ THỐNG (DỄ DÀNG ĐIỀU CHỈNH)
+    // ==============================================================
+    const APP_CONFIG = {
+      SUPPORT_PHONE: "0976295033",
+      ZALO_LINK: "https://zalo.me/0976295033",
+      BANK_ID: "MB", // Ngân hàng Quân Đội (MB Bank)
+      ACCOUNT_NO: "0976295033",
+      ACCOUNT_NAME: "PHAN DINH THUAN",
+      GOOGLE_CLIENT_ID: "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+    };
 
     const { useState, useEffect, useRef, useMemo } = React;
 
@@ -2693,6 +2705,162 @@ if (typeof window !== "undefined") {
 
     // ==========================================
 
+    
+    // ==============================================================
+    // HÀM ĐỊNH DẠNG THỜI GIAN & PHÂN TÍCH NHẬN XÉT SƯ PHẠM THÔNG MINH
+    // ==============================================================
+    const formatPartTime = (seconds) => {
+      const s = Math.max(0, seconds || 0);
+      const m = Math.floor(s / 60);
+      const sec = s % 60;
+      return `${m}p ${sec < 10 ? '0' : ''}${sec}s`;
+    };
+
+    const analyzeExamPerformance = (scores, times, total) => {
+      const t1 = times?.part1 || 0;
+      const t2 = times?.part2 || 0;
+      const t3 = times?.part3 || 0;
+      const t4 = times?.part4 || 0;
+
+      const partComments = [];
+
+      // 1. Phân tích Phần I (Trắc nghiệm 4 lựa chọn)
+      if (t1 < 300 && scores.part1 < 2.0) {
+        partComments.push({
+          part: "Phần I. Trắc nghiệm",
+          timeStr: formatPartTime(t1),
+          scoreStr: `${scores.part1}/3.0đ`,
+          type: "warning",
+          text: `Làm phần Trắc nghiệm còn vội vàng (${formatPartTime(t1)}), dễ bị bẫy ở các phương án nhiễu. Cần đọc kỹ đề trước khi bấm chọn.`
+        });
+      } else if (scores.part1 >= 2.5) {
+        partComments.push({
+          part: "Phần I. Trắc nghiệm",
+          timeStr: formatPartTime(t1),
+          scoreStr: `${scores.part1}/3.0đ`,
+          type: "success",
+          text: `Khởi đầu Phần I rất tốt (${formatPartTime(t1)}), phản xạ kiến thức lý thuyết nhanh và chuẩn xác.`
+        });
+      } else {
+        partComments.push({
+          part: "Phần I. Trắc nghiệm",
+          timeStr: formatPartTime(t1),
+          scoreStr: `${scores.part1}/3.0đ`,
+          type: "info",
+          text: `Thời gian hoàn thành Phần I là ${formatPartTime(t1)}. Cần củng cố thêm các câu thông hiểu để đạt điểm tối đa.`
+        });
+      }
+
+      // 2. Phân tích Phần II (Trắc nghiệm Đúng / Sai)
+      if (t2 < 480 && scores.part2 < 1.0) {
+        partComments.push({
+          part: "Phần II. Đúng / Sai",
+          timeStr: formatPartTime(t2),
+          scoreStr: `${scores.part2}/2.0đ`,
+          type: "warning",
+          text: `Em làm phần Đúng/Sai quá vội (${formatPartTime(t2)}) dẫn đến sai nhiều ý. Cần đọc kỹ từng mệnh đề a, b, c, d.`
+        });
+      } else if (scores.part2 >= 1.5) {
+        partComments.push({
+          part: "Phần II. Đúng / Sai",
+          timeStr: formatPartTime(t2),
+          scoreStr: `${scores.part2}/2.0đ`,
+          type: "success",
+          text: `Phần Đúng/Sai phân bổ thời gian hợp lý (${formatPartTime(t2)}), tư duy phân tích các mệnh đề rất chắc chắn.`
+        });
+      } else {
+        partComments.push({
+          part: "Phần II. Đúng / Sai",
+          timeStr: formatPartTime(t2),
+          scoreStr: `${scores.part2}/2.0đ`,
+          type: "info",
+          text: `Thời gian làm phần Đúng/Sai là ${formatPartTime(t2)}. Chú ý đối chiếu kỹ điều kiện xác định ở các ý vận dụng (c, d).`
+        });
+      }
+
+      // 3. Phân tích Phần III (Trả lời ngắn)
+      if (t3 > 1500) {
+        partComments.push({
+          part: "Phần III. Trả lời ngắn",
+          timeStr: formatPartTime(t3),
+          scoreStr: `${scores.part3}/2.0đ`,
+          type: "warning",
+          text: `Tốc độ bấm máy tính và nháp ở phần Trả lời ngắn còn chậm (${formatPartTime(t3)}), cần rèn luyện phản xạ tính nhanh.`
+        });
+      } else if (t3 < 600 && scores.part3 < 1.0) {
+        partComments.push({
+          part: "Phần III. Trả lời ngắn",
+          timeStr: formatPartTime(t3),
+          scoreStr: `${scores.part3}/2.0đ`,
+          type: "warning",
+          text: `Phần Trả lời ngắn tính toán vội vàng (${formatPartTime(t3)}), dễ nhầm dấu hoặc làm tròn chưa đúng quy định.`
+        });
+      } else if (scores.part3 >= 1.5) {
+        partComments.push({
+          part: "Phần III. Trả lời ngắn",
+          timeStr: formatPartTime(t3),
+          scoreStr: `${scores.part3}/2.0đ`,
+          type: "success",
+          text: `Kỹ năng tính toán và đưa ra kết quả cuối cùng ở phần Trả lời ngắn rất tốt (${formatPartTime(t3)}).`
+        });
+      } else {
+        partComments.push({
+          part: "Phần III. Trả lời ngắn",
+          timeStr: formatPartTime(t3),
+          scoreStr: `${scores.part3}/2.0đ`,
+          type: "info",
+          text: `Thời gian phần Trả lời ngắn là ${formatPartTime(t3)}. Nên rèn luyện thêm kỹ thuật bấm máy tính cầm tay Casio/Vinacal.`
+        });
+      }
+
+      // 4. Phân tích Phần IV (Tự luận)
+      if (t4 < 600 || scores.part4 < 1.5) {
+        partComments.push({
+          part: "Phần IV. Tự luận",
+          timeStr: formatPartTime(t4),
+          scoreStr: `${scores.part4}/3.0đ`,
+          type: "warning",
+          text: `Chưa phân bổ đủ thời gian cho phần Tự luận (${formatPartTime(t4)}), cần dành ít nhất 20-25 phút cuối giờ để trình bày.`
+        });
+      } else if (scores.part4 >= 2.5) {
+        partComments.push({
+          part: "Phần IV. Tự luận",
+          timeStr: formatPartTime(t4),
+          scoreStr: `${scores.part4}/3.0đ`,
+          type: "success",
+          text: `Phần Tự luận trình bày mẫu mực, mạch lạc, lập luận chặt chẽ và đạt điểm tối ưu (${formatPartTime(t4)}).`
+        });
+      } else {
+        partComments.push({
+          part: "Phần IV. Tự luận",
+          timeStr: formatPartTime(t4),
+          scoreStr: `${scores.part4}/3.0đ`,
+          type: "info",
+          text: `Thời gian làm Tự luận là ${formatPartTime(t4)}. Cần chú ý cách trình bày từng bước để lấy trọn vẹn điểm barem.`
+        });
+      }
+
+      // 5. Lời khuyên tổng quan theo phổ điểm
+      let generalAdvice = "";
+      if (total < 5.0) {
+        generalAdvice = "Cần củng cố lại toàn bộ kiến thức lý thuyết nền tảng trong SGK và làm lại các bài tập ví dụ cơ bản.";
+      } else if (total < 7.0) {
+        generalAdvice = "Nắm được kiến thức cơ bản nhưng cần luyện tập thêm các dạng toán biến đổi đại số và hình học mức độ thông hiểu.";
+      } else if (total < 8.0) {
+        generalAdvice = "Học lực Khá, kỹ năng tính toán tốt. Cần rèn thêm tư duy phân tích đa bước và các bài toán thực tế để bứt phá điểm 8+.";
+      } else if (total < 9.0) {
+        generalAdvice = "Học lực Giỏi, phản xạ và phân bổ thời gian rất hợp lý. Tiếp tục thử sức với các bài toán tham số và cực trị điểm 10.";
+      } else {
+        generalAdvice = "Xuất sắc! Nắm vững toàn diện kiến thức, tốc độ làm bài nhanh và tư duy lập luận tự luận mẫu mực.";
+      }
+
+      return {
+        partComments,
+        generalAdvice,
+        totalTimeSpent: t1 + t2 + t3 + t4
+      };
+    };
+
     function App() {
 
       const curriculum = window.CURRICULUM_KNTT || {};
@@ -2944,6 +3112,83 @@ const [loadingAI, setLoadingAI] = useState(false);
       const EXAM_DURATION = 90 * 60;
       const [examTimeLeft, setExamTimeLeft] = useState(EXAM_DURATION);
       const [isExamSubmitted, setIsExamSubmitted] = useState(false);
+
+      // Quản lý Đăng nhập Google (Google Sign-In)
+      const [currentUser, setCurrentUser] = useState(() => {
+        try {
+          const saved = localStorage.getItem("APP_CURRENT_USER");
+          return saved ? JSON.parse(saved) : null;
+        } catch (e) {
+          return null;
+        }
+      });
+      const [showAuthModal, setShowAuthModal] = useState(false);
+      const [authNameInput, setAuthNameInput] = useState("");
+      const [authEmailInput, setAuthEmailInput] = useState("");
+
+      // Quản lý Bộ đếm thời gian theo từng phần thi độc lập (Multi-part Timer)
+      const [activePart, setActivePart] = useState("part1"); // 'part1' | 'part2' | 'part3' | 'part4'
+      const [partTimes, setPartTimes] = useState({ part1: 0, part2: 0, part3: 0, part4: 0 });
+      const [isTabHidden, setIsTabHidden] = useState(false);
+
+      // Quản lý Popup VietQR "Mời Thầy ly cafe"
+      const [showCoffeeModal, setShowCoffeeModal] = useState(false);
+      const [coffeeAmount, setCoffeeAmount] = useState(20000);
+      const [coffeeNote, setCoffeeNote] = useState("Em gui Thay ly cafe");
+
+      // Bộ lọc mở rộng cho Teacher Dashboard
+      const [filterDate, setFilterDate] = useState("ALL"); // ALL | TODAY | 7DAYS | 30DAYS
+      const [filterExamLesson, setFilterExamLesson] = useState("ALL");
+
+      // Tự động gắn tên học sinh nếu đã đăng nhập Google
+      useEffect(() => {
+        if (currentUser && !studentName) {
+          setStudentName(currentUser.name || "");
+        }
+      }, [currentUser]);
+
+      // Lắng nghe sự kiện rời tab (document.hidden / visibilitychange)
+      useEffect(() => {
+        const handleVisibilityChange = () => {
+          setIsTabHidden(document.hidden);
+        };
+        document.addEventListener("visibilitychange", handleVisibilityChange);
+        return () => document.removeEventListener("visibilitychange", handleVisibilityChange);
+      }, []);
+
+      // Bộ đếm ngầm thời gian độc lập cho từng phần thi (Chỉ đếm phần đang xem, tạm dừng khi rời tab)
+      useEffect(() => {
+        let timer = null;
+        if (view === "exam" && !isExamSubmitted && !isTabHidden) {
+          timer = setInterval(() => {
+            setPartTimes((prev) => ({
+              ...prev,
+              [activePart]: (prev[activePart] || 0) + 1
+            }));
+          }, 1000);
+        }
+        return () => {
+          if (timer) clearInterval(timer);
+        };
+      }, [view, isExamSubmitted, isTabHidden, activePart]);
+
+      // Xử lý Đăng xuất Google
+      const handleLogout = () => {
+        if (window.confirm("Em có chắc chắn muốn đăng xuất tài khoản Google?")) {
+          setCurrentUser(null);
+          localStorage.removeItem("APP_CURRENT_USER");
+          showToast("info", "Đã đăng xuất tài khoản Google.");
+        }
+      };
+
+      // Xử lý Đăng nhập Google (Giả lập / GIS One-Tap)
+      const handleLoginSuccess = (userObj) => {
+        setCurrentUser(userObj);
+        localStorage.setItem("APP_CURRENT_USER", JSON.stringify(userObj));
+        if (userObj.name) setStudentName(userObj.name);
+        setShowAuthModal(false);
+        showToast("success", `Chào mừng em ${userObj.name} đã đăng nhập thành công!`);
+      };
 
       // Tự động gợi ý mở modal hướng dẫn lấy Key nếu học sinh chưa lưu Key trên thiết bị
       useEffect(() => {
@@ -3302,6 +3547,8 @@ const [loadingAI, setLoadingAI] = useState(false);
           setExamData(normalizeExamData(bankExam));
           setExamTimeLeft(EXAM_DURATION);
           setIsExamSubmitted(false);
+          setPartTimes({ part1: 0, part2: 0, part3: 0, part4: 0 });
+          setActivePart("part1");
           setView("exam");
 
           if (isFallback) {
@@ -3940,9 +4187,19 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           totalScore
         );
 
+        // Tính toán nhận xét và phân tích thời gian thông minh
+        const smartAnalysis = analyzeExamPerformance(
+          { part1: scorePart1, part2: Number(scorePart2.toFixed(2)), part3: scorePart3, part4: Number(scorePart4.toFixed(2)) },
+          partTimes,
+          totalScore
+        );
+
         const finalRecord = {
           id: Date.now(),
           timestamp: new Date().toLocaleString("vi-VN"),
+          studentId: currentUser?.id || `HS_${Date.now()}`,
+          studentEmail: currentUser?.email || "",
+          studentAvatar: currentUser?.avatar || "",
           studentName,
           className: className.toUpperCase().trim(),
           grade: selectedGrade,
@@ -3953,12 +4210,15 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           scorePart3,
           scorePart4: Number(scorePart4.toFixed(2)),
           totalScore,
+          partTimes: { ...partTimes },
+          totalTimeSpent: smartAnalysis.totalTimeSpent,
+          smartAnalysis,
           tfDetails,
           essayFeedbacks,
           essayImages: { ...essayImages },
           sharedEssayImage: sharedEssayImage,
           feedbacks,
-          overallTeacherComment: feedbacks.overall
+          overallTeacherComment: smartAnalysis.generalAdvice || feedbacks.overall
         };
 
         // Lưu vào LocalStorage an toàn
@@ -4200,26 +4460,53 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
       const classStats = useMemo(() => {
-
-        const filtered = getFilteredSubmissions();
+        let filtered = submissions;
+        if (filterClass !== "ALL") {
+          filtered = filtered.filter(s => s.className === filterClass);
+        }
+        if (filterExamLesson !== "ALL") {
+          filtered = filtered.filter(s => (s.lesson || "").includes(filterExamLesson));
+        }
 
         if (filtered.length === 0) return null;
 
-        const total = filtered.reduce((acc, cur) => acc + cur.totalScore, 0);
+        const count = filtered.length;
+        const total = filtered.reduce((acc, cur) => acc + (cur.totalScore || 0), 0);
+        const avg = (total / count).toFixed(2);
 
-        const avg = (total / filtered.length).toFixed(2);
+        const gioi = filtered.filter(s => (s.totalScore || 0) >= 8).length;
+        const kha = filtered.filter(s => (s.totalScore || 0) >= 6.5 && (s.totalScore || 0) < 8).length;
+        const dat = filtered.filter(s => (s.totalScore || 0) >= 5 && (s.totalScore || 0) < 6.5).length;
+        const chuaDat = filtered.filter(s => (s.totalScore || 0) < 5).length;
 
-        const gioi = filtered.filter(s => s.totalScore >= 8).length;
+        // Tính thời gian trung bình từng phần thi
+        const totalT1 = filtered.reduce((acc, c) => acc + (c.partTimes?.part1 || 0), 0);
+        const totalT2 = filtered.reduce((acc, c) => acc + (c.partTimes?.part2 || 0), 0);
+        const totalT3 = filtered.reduce((acc, c) => acc + (c.partTimes?.part3 || 0), 0);
+        const totalT4 = filtered.reduce((acc, c) => acc + (c.partTimes?.part4 || 0), 0);
 
-        const kha = filtered.filter(s => s.totalScore >= 6.5 && s.totalScore < 8).length;
+        const avgT1 = Math.round(totalT1 / count);
+        const avgT2 = Math.round(totalT2 / count);
+        const avgT3 = Math.round(totalT3 / count);
+        const avgT4 = Math.round(totalT4 / count);
+        const avgTotalTime = Math.round((totalT1 + totalT2 + totalT3 + totalT4) / count);
 
-        const dat = filtered.filter(s => s.totalScore >= 5 && s.totalScore < 6.5).length;
+        // Xác định phần mất nhiều thời gian nhất
+        const parts = [
+          { name: "Phần I (Trắc nghiệm)", time: avgT1 },
+          { name: "Phần II (Đúng/Sai)", time: avgT2 },
+          { name: "Phần III (Trả lời ngắn)", time: avgT3 },
+          { name: "Phần IV (Tự luận)", time: avgT4 }
+        ];
+        parts.sort((a, b) => b.time - a.time);
+        const mostTimePart = parts[0]?.name || "Phần IV (Tự luận)";
 
-        const chuaDat = filtered.filter(s => s.totalScore < 5).length;
-
-        return { avg, gioi, kha, dat, chuaDat, count: filtered.length };
-
-      }, [submissions, filterClass]);
+        return {
+          avg, gioi, kha, dat, chuaDat, count,
+          avgT1, avgT2, avgT3, avgT4, avgTotalTime,
+          mostTimePart
+        };
+      }, [submissions, filterClass, filterExamLesson]);
 
 
 
@@ -4310,6 +4597,54 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                 >
                   <Icons.BarChart2 />
                 </button>
+
+                {/* NÚT MỜI THẦY LY CAFE (VIETQR) */}
+                <button
+                  type="button"
+                  onClick={() => setShowCoffeeModal(true)}
+                  title="Mời Thầy ly cafe qua VietQR"
+                  className="bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold px-3 py-1.5 rounded-xl text-xs flex items-center gap-1.5 shadow-sm transition transform active:scale-95"
+                >
+                  <span>☕</span>
+                  <span className="hidden sm:inline">Mời Thầy cafe</span>
+                </button>
+
+                {/* KHU VỰC ĐĂNG NHẬP GOOGLE */}
+                {currentUser ? (
+                  <div className="flex items-center gap-2 bg-indigo-950/60 border border-indigo-700/60 p-1 pl-2.5 pr-1 rounded-xl text-xs text-white">
+                    {currentUser.avatar ? (
+                      <img src={currentUser.avatar} alt="Avatar" className="w-6 h-6 rounded-full border border-indigo-300 object-cover" />
+                    ) : (
+                      <div className="w-6 h-6 rounded-full bg-indigo-500 text-white font-bold flex items-center justify-center text-[10px]">
+                        {currentUser.name ? currentUser.name.charAt(0).toUpperCase() : "G"}
+                      </div>
+                    )}
+                    <div className="text-left leading-tight hidden sm:block max-w-[110px] truncate">
+                      <div className="font-bold truncate text-[11px]">{currentUser.name}</div>
+                      <div className="text-[9px] text-indigo-300 truncate">{currentUser.email}</div>
+                    </div>
+                    <button
+                      onClick={handleLogout}
+                      title="Đăng xuất tài khoản"
+                      className="text-indigo-200 hover:text-white px-2 py-1 rounded-lg hover:bg-indigo-900/80 transition text-[11px] font-semibold"
+                    >
+                      Thoát
+                    </button>
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setShowAuthModal(true)}
+                    className="bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 shadow-sm transition transform active:scale-95"
+                  >
+                    <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24">
+                      <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                      <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                      <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                      <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <span>Đăng nhập Google</span>
+                  </button>
+                )}
               </div>
 
             </div>
@@ -4819,9 +5154,60 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
 
+                                {/* THANH ĐIỀU HƯỚNG 4 PHẦN THI & ĐỒNG HỒ THEO TỪNG PHẦN */}
+                <div className="sticky top-2 z-30 bg-white/95 backdrop-blur-md p-2.5 rounded-2xl border border-slate-200 shadow-md flex flex-wrap items-center justify-between gap-2 no-print">
+                  <div className="flex items-center gap-1.5 flex-wrap">
+                    {[
+                      { id: "part1", name: "Phần I (Trắc nghiệm)", icon: "🎯" },
+                      { id: "part2", name: "Phần II (Đúng / Sai)", icon: "⚖️" },
+                      { id: "part3", name: "Phần III (Trả lời ngắn)", icon: "✍️" },
+                      { id: "part4", name: "Phần IV (Tự luận)", icon: "📝" }
+                    ].map(p => {
+                      const isActive = activePart === p.id;
+                      const pSec = partTimes[p.id] || 0;
+                      return (
+                        <button
+                          key={p.id}
+                          type="button"
+                          onClick={() => {
+                            setActivePart(p.id);
+                            const el = document.getElementById(`exam-section-${p.id}`);
+                            if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+                          }}
+                          className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition ${
+                            isActive
+                              ? "bg-indigo-600 text-white shadow-sm ring-2 ring-indigo-300"
+                              : "bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200"
+                          }`}
+                        >
+                          <span>{p.icon}</span>
+                          <span>{p.name}</span>
+                          <span className={`text-[10px] px-1.5 py-0.5 rounded-md font-mono ${isActive ? "bg-indigo-800 text-indigo-100" : "bg-slate-200 text-slate-700"}`}>
+                            {formatPartTime(pSec)}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    {isTabHidden ? (
+                      <span className="text-[11px] bg-amber-100 text-amber-900 font-bold px-2.5 py-1 rounded-lg border border-amber-300 animate-pulse flex items-center gap-1">
+                        <span>⏸️</span> Tạm dừng đếm (Rời tab)
+                      </span>
+                    ) : (
+                      <span className="text-[11px] bg-emerald-50 text-emerald-800 font-bold px-2 py-1 rounded-lg border border-emerald-200 flex items-center gap-1">
+                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                        Đang làm: <b className="uppercase">{activePart}</b>
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+
                 {/* PHẦN I: 12 CÂU TRẮC NGHIỆM TUẦN TỰ */}
 
-                <section className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                <section id="exam-section-part1" onClick={() => setActivePart("part1")} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
 
                   <div className="border-b pb-3">
 
@@ -4999,7 +5385,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                 {/* PHẦN II: 2 CÂU ĐÚNG / SAI */}
 
-                <section className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                <section id="exam-section-part2" onClick={() => setActivePart("part2")} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
 
                   <div className="border-b pb-3">
 
@@ -5106,7 +5492,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                 {/* PHẦN III: 4 CÂU TRẢ LỜI NGẮN */}
 
-                <section className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                <section id="exam-section-part3" onClick={() => setActivePart("part3")} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
 
                   <div className="border-b pb-3">
 
@@ -5186,7 +5572,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                 {/* PHẦN IV: TỰ LUẬN CHỤP ẢNH / CAMERA */}
 
                 {examData.part4 && examData.part4.length > 0 && (
-                <section className="border border-slate-200 rounded-2xl p-5 space-y-5 bg-white shadow-sm">
+                <section id="exam-section-part4" onClick={() => setActivePart("part4")} className="border border-slate-200 rounded-2xl p-5 space-y-5 bg-white shadow-sm">
 
                   <div className="border-b pb-3">
 
@@ -5713,6 +6099,155 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                   </div>
 
+
+
+                                    {/* BẢNG CHI TIẾT THỜI GIAN & ĐIỂM TỪNG PHẦN */}
+                  <div className="bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 space-y-3">
+                    <div className="flex items-center justify-between">
+                      <h4 className="font-bold text-xs md:text-sm uppercase tracking-wide text-slate-800 flex items-center gap-1.5">
+                        <span>⏱️</span> Bảng Chi tiết Điểm & Thời gian làm từng phần thi
+                      </h4>
+                      <span className="text-xs font-mono font-bold text-indigo-700 bg-indigo-50 px-2.5 py-0.5 rounded-md border border-indigo-200">
+                        Tổng thời gian: {formatPartTime(resultData.totalTimeSpent || 0)}
+                      </span>
+                    </div>
+
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-left text-xs bg-white rounded-xl overflow-hidden border border-slate-200">
+                        <thead className="bg-slate-100 text-slate-700 font-bold uppercase text-[11px]">
+                          <tr>
+                            <th className="p-2.5 border-b">Phần thi</th>
+                            <th className="p-2.5 border-b text-center">Số câu</th>
+                            <th className="p-2.5 border-b text-center">Điểm đạt</th>
+                            <th className="p-2.5 border-b text-center">Thời gian làm</th>
+                            <th className="p-2.5 border-b">Đánh giá tốc độ & kết quả</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-slate-800">
+                          <tr>
+                            <td className="p-2.5 font-bold text-indigo-900">Phần I: Trắc nghiệm 4 lựa chọn</td>
+                            <td className="p-2.5 text-center">12 câu</td>
+                            <td className="p-2.5 text-center font-bold text-emerald-700">{resultData.scorePart1} / 3.0đ</td>
+                            <td className="p-2.5 text-center font-mono font-semibold">{formatPartTime(resultData.partTimes?.part1 || 0)}</td>
+                            <td className="p-2.5 text-slate-600">
+                              {resultData.smartAnalysis?.partComments?.[0]?.text || "Hoàn thành 12 câu trắc nghiệm"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="p-2.5 font-bold text-indigo-900">Phần II: Đúng / Sai</td>
+                            <td className="p-2.5 text-center">{resultData.grade === "12" ? "4 câu" : "2 câu"}</td>
+                            <td className="p-2.5 text-center font-bold text-emerald-700">{resultData.scorePart2} / {resultData.grade === "12" ? "4.0" : "2.0"}đ</td>
+                            <td className="p-2.5 text-center font-mono font-semibold">{formatPartTime(resultData.partTimes?.part2 || 0)}</td>
+                            <td className="p-2.5 text-slate-600">
+                              {resultData.smartAnalysis?.partComments?.[1]?.text || "Hoàn thành phần Đúng/Sai"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="p-2.5 font-bold text-indigo-900">Phần III: Trả lời ngắn</td>
+                            <td className="p-2.5 text-center">{resultData.grade === "12" ? "6 câu" : "4 câu"}</td>
+                            <td className="p-2.5 text-center font-bold text-emerald-700">{resultData.scorePart3} / {resultData.grade === "12" ? "3.0" : "2.0"}đ</td>
+                            <td className="p-2.5 text-center font-mono font-semibold">{formatPartTime(resultData.partTimes?.part3 || 0)}</td>
+                            <td className="p-2.5 text-slate-600">
+                              {resultData.smartAnalysis?.partComments?.[2]?.text || "Hoàn thành phần Trả lời ngắn"}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td className="p-2.5 font-bold text-indigo-900">Phần IV: Tự luận viết tay</td>
+                            <td className="p-2.5 text-center">3 câu</td>
+                            <td className="p-2.5 text-center font-bold text-emerald-700">{resultData.scorePart4} / 3.0đ</td>
+                            <td className="p-2.5 text-center font-mono font-semibold">{formatPartTime(resultData.partTimes?.part4 || 0)}</td>
+                            <td className="p-2.5 text-slate-600">
+                              {resultData.smartAnalysis?.partComments?.[3]?.text || "Hoàn thành bài giải tự luận"}
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  {/* KHỐI NHẬN XÉT CỦA GIÁO VIÊN (DỰA TRÊN SỰ KẾT HỢP ĐIỂM SỐ & THỜI GIAN) */}
+                  <div className="bg-gradient-to-br from-indigo-50/90 via-purple-50/70 to-blue-50/80 p-5 rounded-2xl border border-indigo-200/90 shadow-sm space-y-3.5">
+                    <div className="flex items-center justify-between border-b border-indigo-100 pb-2.5">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-black text-sm shadow">
+                          👨‍🏫
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-sm text-indigo-950">Nhận xét của Giáo viên</h4>
+                          <p className="text-[11px] text-slate-500">Đánh giá chuyên sâu kết hợp Điểm số & Tốc độ làm bài từng phần</p>
+                        </div>
+                      </div>
+                      <span className="text-xs bg-indigo-600 text-white font-bold px-3 py-1 rounded-full shadow-xs">
+                        Thầy Phan Đình Thuận
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 text-xs">
+                      {(resultData.smartAnalysis?.partComments || []).map((c, idx) => (
+                        <div
+                          key={idx}
+                          className={`p-3 rounded-xl border flex items-start gap-2.5 ${
+                            c.type === "warning"
+                              ? "bg-amber-50/90 border-amber-200 text-amber-900"
+                              : c.type === "success"
+                              ? "bg-emerald-50/90 border-emerald-200 text-emerald-900"
+                              : "bg-white/90 border-slate-200 text-slate-800"
+                          }`}
+                        >
+                          <span className="text-base shrink-0 mt-0.5">
+                            {c.type === "warning" ? "⚠️" : c.type === "success" ? "🌟" : "📌"}
+                          </span>
+                          <div className="space-y-0.5">
+                            <div className="font-bold">{c.part} ({c.scoreStr} - {c.timeStr}):</div>
+                            <p className="leading-relaxed opacity-90">{c.text}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="bg-white/90 p-3.5 rounded-xl border border-indigo-100 text-xs text-indigo-950 space-y-1">
+                      <div className="font-bold flex items-center gap-1.5 text-indigo-900">
+                        <span>🎯</span> Lời khuyên định hướng học tập theo phổ điểm ({resultData.totalScore}/10đ):
+                      </div>
+                      <p className="italic leading-relaxed text-slate-700">
+                        "{resultData.smartAnalysis?.generalAdvice || resultData.overallTeacherComment}"
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* HỘP THÔNG BÁO HỖ TRỢ QUA SỐ ĐIỆN THOẠI / ZALO SAU KHI NỘP BÀI */}
+                  <div className="bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 p-4 md:p-5 rounded-2xl border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm no-print">
+                    <div className="flex items-center gap-3.5">
+                      <div className="w-11 h-11 rounded-2xl bg-[#0068FF] text-white flex items-center justify-center font-bold text-xl shadow-md shadow-blue-500/25 shrink-0">
+                        💬
+                      </div>
+                      <div className="space-y-0.5">
+                        <h5 className="font-bold text-slate-900 text-xs md:text-sm">
+                          Em có thắc mắc về đáp án, phương pháp giải hoặc điểm số?
+                        </h5>
+                        <p className="text-xs text-slate-600 leading-relaxed">
+                          Nếu em có thắc mắc về đáp án, phương pháp giải hoặc điểm số, hãy nhắn tin cho Thầy qua Zalo <b>{APP_CONFIG.SUPPORT_PHONE}</b> để được giải đáp chi tiết.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto">
+                      <a
+                        href={APP_CONFIG.ZALO_LINK}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-[#0068FF] hover:bg-[#0052cc] text-white text-xs font-bold flex items-center justify-center gap-1.5 shadow-md shadow-blue-500/20 transition transform active:scale-95"
+                      >
+                        <span>💬 Nhắn tin Zalo Thầy Thuận</span>
+                        <span className="text-[10px]">↗</span>
+                      </a>
+                      <a
+                        href={`tel:${APP_CONFIG.SUPPORT_PHONE}`}
+                        className="px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center gap-1 transition"
+                      >
+                        <span>📞 Gọi</span>
+                      </a>
+                    </div>
+                  </div>
 
 
                   {/* KHU VỰC NHẬN XÉT CHI TIẾT CẢ 4 PHẦN VÀ ĐÁNH GIÁ CHUNG */}
@@ -7107,51 +7642,62 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                 {/* Thống kê nhanh */}
 
                 {classStats && (
-
-                  <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
-
-                    <div className="bg-indigo-50 border border-indigo-200 p-3.5 rounded-xl text-center">
-
-                      <div className="text-xs text-indigo-700 font-bold uppercase">Điểm TB Lớp</div>
-
-                      <div className="text-2xl font-black text-indigo-950 mt-1">{classStats.avg}</div>
-
+                  <div className="space-y-4">
+                    {/* Hàng 1: Phổ điểm lớp */}
+                    <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+                      <div className="bg-indigo-50 border border-indigo-200 p-3.5 rounded-xl text-center">
+                        <div className="text-xs text-indigo-700 font-bold uppercase">Điểm TB Lớp</div>
+                        <div className="text-2xl font-black text-indigo-950 mt-1">{classStats.avg} <span className="text-xs font-normal">/ 10</span></div>
+                      </div>
+                      <div className="bg-emerald-50 border border-emerald-200 p-3.5 rounded-xl text-center">
+                        <div className="text-xs text-emerald-700 font-bold uppercase">Giỏi (≥ 8.0)</div>
+                        <div className="text-2xl font-black text-emerald-800 mt-1">{classStats.gioi} <span className="text-xs font-normal">({Math.round((classStats.gioi / classStats.count) * 100)}%)</span></div>
+                      </div>
+                      <div className="bg-blue-50 border border-blue-200 p-3.5 rounded-xl text-center">
+                        <div className="text-xs text-blue-700 font-bold uppercase">Khá (6.5 - 7.9)</div>
+                        <div className="text-2xl font-black text-blue-800 mt-1">{classStats.kha} <span className="text-xs font-normal">({Math.round((classStats.kha / classStats.count) * 100)}%)</span></div>
+                      </div>
+                      <div className="bg-amber-50 border border-amber-200 p-3.5 rounded-xl text-center">
+                        <div className="text-xs text-amber-700 font-bold uppercase">Đạt (5.0 - 6.4)</div>
+                        <div className="text-2xl font-black text-amber-800 mt-1">{classStats.dat} <span className="text-xs font-normal">({Math.round((classStats.dat / classStats.count) * 100)}%)</span></div>
+                      </div>
+                      <div className="bg-rose-50 border border-rose-200 p-3.5 rounded-xl text-center">
+                        <div className="text-xs text-rose-700 font-bold uppercase">Chưa đạt (&lt; 5.0)</div>
+                        <div className="text-2xl font-black text-rose-800 mt-1">{classStats.chuaDat} <span className="text-xs font-normal">({Math.round((classStats.chuaDat / classStats.count) * 100)}%)</span></div>
+                      </div>
                     </div>
 
-                    <div className="bg-emerald-50 border border-emerald-200 p-3.5 rounded-xl text-center">
+                    {/* Hàng 2: Thời gian trung bình lớp dành cho từng phần (Giúp GV biết lớp đang yếu/mất nhiều thời gian ở phần nào nhất) */}
+                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <div className="text-xs font-bold uppercase text-slate-700 flex items-center gap-1.5">
+                          <span>⏱️</span> Thời gian trung bình lớp dành cho từng phần (Tổng TB: {formatPartTime(classStats.avgTotalTime)})
+                        </div>
+                        <span className="text-[11px] bg-rose-100 text-rose-800 font-bold px-2.5 py-0.5 rounded-full border border-rose-300">
+                          Phần mất nhiều thời gian nhất: {classStats.mostTimePart}
+                        </span>
+                      </div>
 
-                      <div className="text-xs text-emerald-700 font-bold uppercase">Giỏi (≥ 8.0)</div>
-
-                      <div className="text-2xl font-black text-emerald-800 mt-1">{classStats.gioi} <span className="text-xs font-normal">({Math.round((classStats.gioi / classStats.count) * 100)}%)</span></div>
-
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5 text-center">
+                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                          <div className="text-[11px] font-semibold text-slate-500">Phần I (Trắc nghiệm)</div>
+                          <div className="text-base font-black text-indigo-700 font-mono mt-0.5">{formatPartTime(classStats.avgT1)}</div>
+                        </div>
+                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                          <div className="text-[11px] font-semibold text-slate-500">Phần II (Đúng / Sai)</div>
+                          <div className="text-base font-black text-indigo-700 font-mono mt-0.5">{formatPartTime(classStats.avgT2)}</div>
+                        </div>
+                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                          <div className="text-[11px] font-semibold text-slate-500">Phần III (Trả lời ngắn)</div>
+                          <div className="text-base font-black text-indigo-700 font-mono mt-0.5">{formatPartTime(classStats.avgT3)}</div>
+                        </div>
+                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                          <div className="text-[11px] font-semibold text-slate-500">Phần IV (Tự luận)</div>
+                          <div className="text-base font-black text-indigo-700 font-mono mt-0.5">{formatPartTime(classStats.avgT4)}</div>
+                        </div>
+                      </div>
                     </div>
-
-                    <div className="bg-blue-50 border border-blue-200 p-3.5 rounded-xl text-center">
-
-                      <div className="text-xs text-blue-700 font-bold uppercase">Khá (6.5 - 7.9)</div>
-
-                      <div className="text-2xl font-black text-blue-800 mt-1">{classStats.kha} <span className="text-xs font-normal">({Math.round((classStats.kha / classStats.count) * 100)}%)</span></div>
-
-                    </div>
-
-                    <div className="bg-amber-50 border border-amber-200 p-3.5 rounded-xl text-center">
-
-                      <div className="text-xs text-amber-700 font-bold uppercase">Đạt (5.0 - 6.4)</div>
-
-                      <div className="text-2xl font-black text-amber-800 mt-1">{classStats.dat} <span className="text-xs font-normal">({Math.round((classStats.dat / classStats.count) * 100)}%)</span></div>
-
-                    </div>
-
-                    <div className="bg-rose-50 border border-rose-200 p-3.5 rounded-xl text-center">
-
-                      <div className="text-xs text-rose-700 font-bold uppercase">Chưa đạt (&lt; 5.0)</div>
-
-                      <div className="text-2xl font-black text-rose-800 mt-1">{classStats.chuaDat} <span className="text-xs font-normal">({Math.round((classStats.chuaDat / classStats.count) * 100)}%)</span></div>
-
-                    </div>
-
                   </div>
-
                 )}
 
 
@@ -7235,28 +7781,18 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       <thead>
 
                         <tr className="bg-slate-100 text-slate-700 text-[11px] uppercase font-bold">
-
+                          <th className="p-3 border">STT</th>
                           <th className="p-3 border">Lớp</th>
-
-                          <th className="p-3 border">Họ tên Học sinh</th>
-
-                          <th className="p-3 border text-center">Khối</th>
-
+                          <th className="p-3 border">Họ tên & Email Học sinh</th>
                           <th className="p-3 border">Bài học & Đề</th>
-
-                          <th className="p-3 border text-center">P.I (3đ)</th>
-
-                          <th className="p-3 border text-center">P.II (2đ)</th>
-
-                          <th className="p-3 border text-center">P.III (2đ)</th>
-
-                          <th className="p-3 border text-center">P.IV (3đ)</th>
-
-                          <th className="p-3 border text-center">Tổng</th>
-
-                          <th className="p-3 border text-center">Xếp loại</th>
-
-                          <th className="p-3 border">Đánh giá chung</th>
+                          <th className="p-3 border text-center">P.I (Điểm / Time)</th>
+                          <th className="p-3 border text-center">P.II (Điểm / Time)</th>
+                          <th className="p-3 border text-center">P.III (Điểm / Time)</th>
+                          <th className="p-3 border text-center">P.IV (Điểm / Time)</th>
+                          <th className="p-3 border text-center">Tổng Điểm</th>
+                          <th className="p-3 border text-center">Tổng Time</th>
+                          <th className="p-3 border text-center">Thời điểm nộp</th>
+                          <th className="p-3 border">Đánh giá của Thầy</th>
 
                         </tr>
 
@@ -7264,7 +7800,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                       <tbody>
 
-                        {getFilteredSubmissions().map((sub) => (
+                        {getFilteredSubmissions().map((sub, sIdx) => (
 
                           <tr key={sub.id} className="hover:bg-slate-50 transition">
 
@@ -7597,6 +8133,240 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
               </div>
             </div>
           )}
+
+          
+          {/* ============================================================== */}
+          {/* MODAL ĐĂNG NHẬP GOOGLE (GOOGLE SIGN-IN) */}
+          {/* ============================================================== */}
+          {showAuthModal && (
+            <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+              <div className="bg-white rounded-3xl p-6 md:p-8 shadow-2xl max-w-md w-full space-y-5 border border-slate-100 animate-in fade-in zoom-in-95 duration-200">
+                <div className="flex justify-between items-start">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-2xl bg-slate-100 flex items-center justify-center shadow-xs">
+                      <svg className="w-6 h-6" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-base md:text-lg text-slate-900 leading-tight">Đăng nhập tài khoản Google</h3>
+                      <p className="text-xs text-slate-500">Lưu kết quả học tập và đồng bộ bài thi tự động</p>
+                    </div>
+                  </div>
+                  <button onClick={() => setShowAuthModal(false)} className="text-slate-400 hover:text-slate-600 font-bold text-lg">✕</button>
+                </div>
+
+                {/* Nút đăng nhập Google trực tiếp */}
+                <div className="space-y-3">
+                  <button
+                    onClick={() => {
+                      // Nếu có window.google GIS Client ID:
+                      if (window.google?.accounts?.id && APP_CONFIG.GOOGLE_CLIENT_ID && !APP_CONFIG.GOOGLE_CLIENT_ID.includes("YOUR_")) {
+                        window.google.accounts.id.prompt();
+                      } else {
+                        // Tự động kích hoạt tài khoản Google mặc định nếu không có Client ID
+                        const promptName = prompt("Nhập Họ và tên học sinh:", studentName || "Nguyễn Văn An");
+                        if (!promptName) return;
+                        const promptEmail = prompt("Nhập địa chỉ Gmail của em:", "hocsinh.toan@gmail.com") || "hocsinh.toan@gmail.com";
+                        handleLoginSuccess({
+                          id: "google_" + Date.now(),
+                          name: promptName.trim(),
+                          email: promptEmail.trim(),
+                          avatar: "https://www.gstatic.com/images/branding/product/2x/avatar_square_blue_120dp.png",
+                          provider: "google"
+                        });
+                      }
+                    }}
+                    className="w-full py-3 px-4 rounded-xl border border-slate-300 hover:border-slate-400 bg-white hover:bg-slate-50 text-slate-800 font-bold text-sm shadow-sm flex items-center justify-center gap-3 transition transform active:scale-95"
+                  >
+                    <svg className="w-5 h-5" viewBox="0 0 24 24">
+                      <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                      <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                      <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                      <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <span>Tiếp tục với Google Account</span>
+                  </button>
+
+                  <div className="relative flex py-2 items-center">
+                    <div className="flex-grow border-t border-slate-200"></div>
+                    <span className="flex-shrink mx-3 text-[11px] text-slate-400 uppercase font-semibold">Hoặc điền nhanh thông tin</span>
+                    <div className="flex-grow border-t border-slate-200"></div>
+                  </div>
+
+                  <div className="space-y-2.5">
+                    <div>
+                      <label className="text-xs font-bold text-slate-700 block mb-1">Họ và tên học sinh:</label>
+                      <input
+                        type="text"
+                        placeholder="VD: Trần Thị Mai..."
+                        value={authNameInput}
+                        onChange={(e) => setAuthNameInput(e.target.value)}
+                        className="w-full text-xs border border-slate-300 rounded-xl px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-500"
+                      />
+                    </div>
+                    <div>
+                      <label className="text-xs font-bold text-slate-700 block mb-1">Địa chỉ Gmail cá nhân:</label>
+                      <input
+                        type="email"
+                        placeholder="VD: tranmai.toan@gmail.com..."
+                        value={authEmailInput}
+                        onChange={(e) => setAuthEmailInput(e.target.value)}
+                        className="w-full text-xs border border-slate-300 rounded-xl px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-500"
+                      />
+                    </div>
+
+                    <button
+                      onClick={() => {
+                        if (!authNameInput.trim()) {
+                          alert("Vui lòng nhập Họ tên học sinh!");
+                          return;
+                        }
+                        handleLoginSuccess({
+                          id: "google_" + Date.now(),
+                          name: authNameInput.trim(),
+                          email: authEmailInput.trim() || "hocsinh@gmail.com",
+                          avatar: "https://www.gstatic.com/images/branding/product/2x/avatar_square_blue_120dp.png",
+                          provider: "google"
+                        });
+                      }}
+                      className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold shadow transition"
+                    >
+                      Xác nhận đăng nhập
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* ============================================================== */}
+          {/* MODAL MỜI TÁC GIẢ LY CAFE (VIETQR TỰ ĐỘNG) */}
+          {/* ============================================================== */}
+          {showCoffeeModal && (
+            <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-3 md:p-4 overflow-y-auto">
+              <div className="bg-white rounded-3xl p-5 md:p-7 shadow-2xl max-w-md w-full space-y-4 border border-slate-100 my-auto animate-in fade-in zoom-in-95 duration-200 text-center">
+                <div className="flex justify-between items-start border-b pb-3">
+                  <div className="flex items-center gap-2 text-left">
+                    <div className="w-10 h-10 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center text-xl font-bold shadow-xs">
+                      ☕
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-base md:text-lg text-slate-900 leading-tight">Mời Thầy Thuận ly cafe</h3>
+                      <p className="text-xs text-slate-500">Ủng hộ duy trì máy chủ & phát triển hệ thống</p>
+                    </div>
+                  </div>
+                  <button onClick={() => setShowCoffeeModal(false)} className="text-slate-400 hover:text-slate-600 font-bold text-lg">✕</button>
+                </div>
+
+                {/* Chọn số tiền ủng hộ nhanh */}
+                <div className="space-y-2">
+                  <label className="text-xs font-bold text-slate-600 block text-left">Chọn mức ủng hộ tùy tâm:</label>
+                  <div className="grid grid-cols-4 gap-2">
+                    {[10000, 20000, 50000, 100000].map(amt => (
+                      <button
+                        key={amt}
+                        type="button"
+                        onClick={() => setCoffeeAmount(amt)}
+                        className={`py-2 rounded-xl text-xs font-bold border transition ${
+                          coffeeAmount === amt
+                            ? "bg-amber-500 text-white border-amber-500 shadow-sm"
+                            : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-amber-50"
+                        }`}
+                      >
+                        {(amt / 1000).toLocaleString()}k
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Ảnh mã VietQR tự động */}
+                <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 flex flex-col items-center justify-center space-y-2">
+                  <img
+                    src={`https://img.vietqr.io/image/${APP_CONFIG.BANK_ID}-${APP_CONFIG.ACCOUNT_NO}-compact2.png?amount=${coffeeAmount}&addInfo=${encodeURIComponent(coffeeNote + " - " + (studentName || "Hoc sinh"))}&accountName=${encodeURIComponent(APP_CONFIG.ACCOUNT_NAME)}`}
+                    alt="Mã QR Chuyển khoản VietQR"
+                    className="w-56 h-auto rounded-xl shadow-md border border-slate-300"
+                  />
+                  <div className="text-[11px] text-slate-500 font-medium">
+                    Mở App Ngân hàng (MB, VCB, Techcombank, Momo,...) quét mã QR
+                  </div>
+                </div>
+
+                {/* Thông tin tài khoản ngân hàng */}
+                <div className="bg-amber-50/70 p-3 rounded-xl border border-amber-200/80 text-left text-xs space-y-1 text-slate-700">
+                  <div className="flex justify-between items-center">
+                    <span className="text-slate-500">Ngân hàng:</span>
+                    <span className="font-bold text-indigo-900">MB Bank (Ngân hàng Quân Đội)</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-slate-500">Số tài khoản:</span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="font-bold text-slate-900 font-mono text-sm">{APP_CONFIG.ACCOUNT_NO}</span>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText(APP_CONFIG.ACCOUNT_NO);
+                          alert("Đã sao chép số tài khoản: " + APP_CONFIG.ACCOUNT_NO);
+                        }}
+                        className="text-[10px] font-bold text-indigo-600 bg-white border border-indigo-200 px-1.5 py-0.5 rounded hover:bg-indigo-50"
+                      >
+                        Copy
+                      </button>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-slate-500">Chủ tài khoản:</span>
+                    <span className="font-bold text-slate-900">{APP_CONFIG.ACCOUNT_NAME}</span>
+                  </div>
+                </div>
+
+                <p className="text-[11px] text-slate-400 italic">
+                  "Thầy chân thành cảm ơn tình cảm và sự ủng hộ của các em và quý phụ huynh!"
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* ============================================================== */}
+          {/* WIDGET CỐ ĐỊNH GÓC PHẢI MÀN HÌNH (HOTLINE & CHAT ZALO & CAFE) */}
+          {/* ============================================================== */}
+          <div className="fixed bottom-6 right-5 z-40 flex flex-col items-end gap-2.5 print:hidden">
+            {/* Nút 1: Gọi Hotline */}
+            <a
+              href={`tel:${APP_CONFIG.SUPPORT_PHONE}`}
+              title={`Gọi Hotline hỗ trợ: ${APP_CONFIG.SUPPORT_PHONE}`}
+              className="group flex items-center gap-2 px-3.5 py-2.5 rounded-full bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white shadow-lg shadow-red-500/30 hover:scale-105 transition transform active:scale-95 text-xs font-bold"
+            >
+              <span className="text-base animate-bounce">📞</span>
+              <span className="hidden sm:inline">Hotline: {APP_CONFIG.SUPPORT_PHONE}</span>
+            </a>
+
+            {/* Nút 2: Chat Zalo */}
+            <a
+              href={APP_CONFIG.ZALO_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Nhắn tin Zalo với Thầy Thuận"
+              className="group flex items-center gap-2 px-3.5 py-2.5 rounded-full bg-[#0068FF] hover:bg-[#0052cc] text-white shadow-lg shadow-blue-500/30 hover:scale-105 transition transform active:scale-95 text-xs font-bold"
+            >
+              <span className="w-5 h-5 rounded-full bg-white text-[#0068FF] flex items-center justify-center font-black text-[10px]">Z</span>
+              <span className="hidden sm:inline">Chat Zalo Thầy Thuận</span>
+            </a>
+
+            {/* Nút 3: Mời Thầy cafe */}
+            <button
+              type="button"
+              onClick={() => setShowCoffeeModal(true)}
+              title="Mời Thầy ly cafe qua VietQR"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-amber-500 hover:bg-amber-600 text-white shadow-lg shadow-amber-500/30 hover:scale-105 transition transform active:scale-95 text-xs font-bold"
+            >
+              <span className="text-sm">☕</span>
+              <span className="hidden sm:inline">Mời Thầy cafe</span>
+            </button>
+          </div>
+
 
           {/* TOAST THÔNG BÁO DỰ PHÒNG & TRẠNG THÁI */}
 
