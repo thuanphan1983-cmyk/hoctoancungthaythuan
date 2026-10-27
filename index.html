@@ -3296,6 +3296,30 @@ const [loadingAI, setLoadingAI] = useState(false);
       // Lưu kết quả bài thi
 
       const [resultData, setResultData] = useState(null);
+      const [reviewFilter, setReviewFilter] = useState("all"); // 'all' | 'wrong'
+      const [expandedReview, setExpandedReview] = useState({});
+      const toggleReviewExplanation = (key) => {
+        setExpandedReview((prev) => ({ ...prev, [key]: !prev[key] }));
+      };
+      const toggleExpandAllReview = (expand, resObj) => {
+        if (!expand) {
+          setExpandedReview({});
+          return;
+        }
+        const allExp = {};
+        if (resObj?.mcDetails) {
+          resObj.mcDetails.forEach((q) => { allExp[`mc_${q.id}`] = true; });
+        }
+        if (resObj?.tfDetailedReview) {
+          resObj.tfDetailedReview.forEach((q) => {
+            (q.subItems || []).forEach((st) => { allExp[`tf_${q.id}_${st.key}`] = true; });
+          });
+        }
+        if (resObj?.saDetails) {
+          resObj.saDetails.forEach((q) => { allExp[`sa_${q.id}`] = true; });
+        }
+        setExpandedReview(allExp);
+      };
 
       const [submissions, setSubmissions] = useState(() => {
 
@@ -3685,11 +3709,11 @@ const [loadingAI, setLoadingAI] = useState(false);
         const currentChapter = curriculum[selectedGrade]?.chapters.find(c => c.id === selectedChapter);
         const isChapterExam = (selectedLesson || "").toLowerCase().includes("cuối chương");
 
-        // Mô tả mức độ phân hóa ngắn gọn, chuẩn xác ma trận
+        // Mô tả mức độ phân hóa chuẩn xác theo chuẩn khảo thí SGK KNTT (Đề 1 & 2 tương đương, Đề 3 phân hóa nhẹ)
         const diffSummary = {
-          1: "ĐỀ SỐ 1 - CƠ BẢN (5.0 - 7.0 điểm): Bám sát SGK Kết nối tri thức. 8 Nhận biết + 4 Thông hiểu ở P1; 2 câu Đúng/Sai cơ bản ở P2; 4 câu Trả lời ngắn 1-2 bước ở P3; 3 câu Tự luận mẫu mực cơ bản ở P4.",
-          2: "ĐỀ SỐ 2 - KHÁ (7.0 - 8.5 điểm): Biến đổi nhiều bước, bài toán thực tế. 4 Nhận biết + 8 Thông hiểu ở P1; 2 câu Đúng/Sai phân tích ở P2; 4 câu Trả lời ngắn vận dụng ở P3; 3 câu Tự luận phân hóa khá ở P4.",
-          3: "ĐỀ SỐ 3 - NÂNG CAO (8.5 - 10.0 điểm): Phân hóa sâu, tư duy logic, tham số m, cực trị/BĐT. 2 Nhận biết + 6 Thông hiểu + 4 Vận dụng ở P1; 2 câu Đúng/Sai nâng cao ở P2; 4 câu Trả lời ngắn VDC ở P3; 3 câu Tự luận phân hóa sâu ở P4."
+          1: "ĐỀ SỐ 1 - CHUẨN CƠ BẢN BÁM SÁT SGK (Mục tiêu 7.0 - 8.0 điểm): 70% Nhận biết & Thông hiểu, 20% Vận dụng cơ bản theo bài học SGK, 10% Liên hệ thực tế nhẹ. Bám sát ví dụ, luyện tập và bài tập của đúng bài học đó trong SGK. Đảm bảo học sinh khá - trung bình làm tốt 7 - 8 điểm.",
+          2: "ĐỀ SỐ 2 - RÈN LUYỆN TƯƠNG ĐƯƠNG ĐỀ 1 (Mục tiêu 7.0 - 8.0 điểm): Độ khó TƯƠNG ĐƯƠNG Đề 1 (70% Nhận biết & Thông hiểu, 20% Vận dụng cơ bản theo bài học SGK, 10% Liên hệ thực tế nhẹ). Thay đổi ngữ cảnh và số liệu nhưng giữ nguyên độ khó và mô hình toán học để học sinh rèn luyện song song.",
+          3: "ĐỀ SỐ 3 - PHÂN HÓA NHẸ (Mục tiêu 8.5 - 9.5 điểm): Khó hơn Đề 1 và 2 một ít. Tỷ lệ 60% Cơ bản, 30% Vận dụng, 10% Vận dụng nâng cao nhẹ. Chỉ phân hóa nhẹ ở câu hỏi cuối của bài, BÁM SÁT 100% mục tiêu cần đạt của SGK, TUYỆT ĐỐI KHÔNG đưa bài tập thi HSG nặng nề hay kiến thức ngoài bài vào."
         };
         const currentDiffText = diffSummary[selectedTestNum] || diffSummary[1];
 
@@ -4023,29 +4047,93 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
         setGradingPercent(10);
         setGradingProgress("Đang nén ảnh và tối ưu hóa dung lượng...");
 
-        // 1. Chấm Phần I (12 câu * 0.25đ = 3.0đ)
+        // 1. Chấm & Đối soát chi tiết Phần I (12 câu * 0.25đ = 3.0đ)
         let scorePart1 = 0;
-        examData.part1.forEach((q, idx) => {
-          if (mcAnswers[idx] === q.correct) scorePart1 += 0.25;
+        const letterMap = ["A", "B", "C", "D"];
+        const mcDetails = (examData.part1 || []).map((q, idx) => {
+          const userAns = mcAnswers[idx]; // 0, 1, 2, 3 or undefined
+          const correctAns = (typeof q.correct === "number") ? q.correct :
+                             (typeof q.answer === "number" ? q.answer :
+                             (["A", "B", "C", "D"].indexOf(String(q.correct || q.answer || "").toUpperCase())));
+          const isCorrect = userAns !== undefined && userAns === correctAns;
+          if (isCorrect) scorePart1 += 0.25;
+          return {
+            id: q.id || (idx + 1),
+            index: idx,
+            question: q.question,
+            options: q.options || [],
+            userAns,
+            correctAns,
+            userLetter: userAns !== undefined && letterMap[userAns] ? letterMap[userAns] : "(Chưa chọn)",
+            correctLetter: letterMap[correctAns] || "A",
+            userOptionText: userAns !== undefined ? (q.options?.[userAns] || "") : "",
+            correctOptionText: q.options?.[correctAns] || "",
+            isCorrect,
+            explanation: q.explanation || ""
+          };
         });
+        const mcCorrectCount = mcDetails.filter(d => d.isCorrect).length;
+        const mcTotalCount = mcDetails.length;
 
-        // 2. Chấm Phần II (2 câu Đúng/Sai = 2.0đ)
+        // 2. Chấm & Đối soát chi tiết Phần II (Trắc nghiệm Đúng/Sai)
         let scorePart2 = 0;
         const tfDetails = {};
-        examData.part2.forEach(q => {
+        const tfDetailedReview = (examData.part2 || []).map((q, qIdx) => {
           const stmts = q.statements || q.options || q.items || [];
           const s = calculateTrueFalseScore(tfAnswers[q.id], stmts);
           scorePart2 += s;
           tfDetails[q.id] = s;
+
+          const subItems = stmts.map((stmt, sIdx) => {
+            const key = stmt.key || stmt.id || String.fromCharCode(97 + sIdx);
+            const expected = (stmt.correct !== undefined) ? Boolean(stmt.correct) :
+                             ((stmt.isCorrect !== undefined) ? Boolean(stmt.isCorrect) : Boolean(stmt.answer));
+            const userVal = tfAnswers[q.id] ? tfAnswers[q.id][key] : undefined;
+            const isCorrect = userVal !== undefined && Boolean(userVal) === expected;
+            return {
+              key,
+              text: stmt.text || stmt.statement || "",
+              userVal,
+              expected,
+              userText: userVal === true ? "Đúng" : (userVal === false ? "Sai" : "(Chưa chọn)"),
+              expectedText: expected ? "Đúng" : "Sai",
+              isCorrect,
+              explanation: stmt.explanation || ""
+            };
+          });
+
+          return {
+            id: q.id || (qIdx + 1),
+            intro: q.intro || q.stem || q.question || "",
+            subItems,
+            correctSubCount: subItems.filter(item => item.isCorrect).length,
+            totalSubCount: subItems.length,
+            score: s
+          };
         });
 
-        // 3. Chấm Phần III (4 câu ngắn * 0.5đ = 2.0đ)
+        // 3. Chấm & Đối soát chi tiết Phần III (Trắc nghiệm Trả lời ngắn)
         let scorePart3 = 0;
-        examData.part3.forEach(q => {
-          if (normalizeShortAnswer(saAnswers[q.id]) === normalizeShortAnswer(q.answer)) {
-            scorePart3 += 0.5;
-          }
+        const saDetails = (examData.part3 || []).map((q, idx) => {
+          const rawUser = saAnswers[q.id];
+          const userNorm = normalizeShortAnswer(rawUser);
+          const correctVal = q.correctAnswer || q.answer || (Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers[0] : "") || "";
+          const correctNorm = normalizeShortAnswer(correctVal);
+          const isMatch = (userNorm.length > 0 && userNorm === correctNorm) ||
+                          (Array.isArray(q.acceptableAnswers) && q.acceptableAnswers.some(a => userNorm.length > 0 && userNorm === normalizeShortAnswer(a)));
+          if (isMatch) scorePart3 += 0.5;
+          return {
+            id: q.id || (idx + 1),
+            question: q.question,
+            rawUser: rawUser || "",
+            userText: (rawUser && String(rawUser).trim().length > 0) ? String(rawUser).trim() : "(Bỏ trống)",
+            correctText: String(correctVal).trim(),
+            isCorrect: isMatch,
+            explanation: q.explanation || ""
+          };
         });
+        const saCorrectCount = saDetails.filter(d => d.isCorrect).length;
+        const saTotalCount = saDetails.length;
 
         // Nén và chuẩn hóa ảnh tự luận trước khi gửi API (Đảm bảo < 1MB, tối đa 1200px)
         setGradingPercent(25);
@@ -4265,7 +4353,21 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           essayImages: { ...essayImages },
           sharedEssayImage: sharedEssayImage,
           feedbacks,
-          overallTeacherComment: smartAnalysis.generalAdvice || feedbacks.overall
+          overallTeacherComment: smartAnalysis.generalAdvice || feedbacks.overall,
+          // Chi tiết đối soát từng câu phục vụ học sinh tự sửa lỗi (Phần 2)
+          mcDetails,
+          mcCorrectCount,
+          mcTotalCount,
+          tfDetailedReview,
+          saDetails,
+          saCorrectCount,
+          saTotalCount,
+          examDataSnapshot: examData,
+          userAnswersSnapshot: {
+            mcAnswers: { ...mcAnswers },
+            tfAnswers: JSON.parse(JSON.stringify(tfAnswers || {})),
+            saAnswers: { ...saAnswers }
+          }
         };
 
         // Lưu vào LocalStorage an toàn
@@ -5006,62 +5108,82 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                   <div className="space-y-4">
                     <div>
-                      <label className="block text-xs font-bold uppercase text-slate-600 mb-2">
-                        4. Chọn Đề kiểm tra (Phân hóa độ khó: Đề 1 &lt; Đề 2 &lt; Đề 3)
+                      <label className="block text-xs font-bold uppercase text-slate-700 mb-2 flex items-center justify-between">
+                        <span>4. Chọn Đề kiểm tra bài học SGK (3 mã đề chuẩn hóa theo độ dốc)</span>
+                        <span className="text-[11px] font-normal text-indigo-600 lowercase bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">
+                          Đề 1 & 2 tương đương • Đề 3 phân hóa nhẹ
+                        </span>
                       </label>
-                      <div className="grid grid-cols-3 gap-2.5">
+                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         {[
                           {
                             num: 1,
                             title: "Đề số 1",
-                            level: "Cơ bản",
-                            scoreRange: "5 - 7 điểm",
+                            level: "Chuẩn cơ bản SGK",
+                            ratio: "70% CB • 20% VD • 10% TT",
+                            scoreRange: "7 - 8 điểm (Khá - TB)",
+                            desc: "Bám sát ví dụ & bài tập SGK",
                             icon: "🌱",
-                            activeStyle: "border-emerald-600 bg-emerald-50/80 ring-2 ring-emerald-500/20 text-emerald-950",
-                            badgeColor: "bg-emerald-100 text-emerald-800"
+                            activeStyle: "border-emerald-600 bg-emerald-50/90 ring-2 ring-emerald-500/30 text-emerald-950",
+                            badgeColor: "bg-emerald-100 text-emerald-800 border border-emerald-300"
                           },
                           {
                             num: 2,
                             title: "Đề số 2",
-                            level: "Khá",
-                            scoreRange: "7 - 8.5 điểm",
-                            icon: "🚀",
-                            activeStyle: "border-blue-600 bg-blue-50/80 ring-2 ring-blue-500/20 text-blue-950",
-                            badgeColor: "bg-blue-100 text-blue-800"
+                            level: "Tương đương Đề 1",
+                            ratio: "70% CB • 20% VD • 10% TT",
+                            scoreRange: "7 - 8 điểm (Khá - TB)",
+                            desc: "Rèn luyện mô hình song song",
+                            icon: "📘",
+                            activeStyle: "border-blue-600 bg-blue-50/90 ring-2 ring-blue-500/30 text-blue-950",
+                            badgeColor: "bg-blue-100 text-blue-800 border border-blue-300"
                           },
                           {
                             num: 3,
                             title: "Đề số 3",
-                            level: "Giỏi",
-                            scoreRange: "8.5 - 10 điểm",
-                            icon: "🔥",
-                            activeStyle: "border-purple-600 bg-purple-50/80 ring-2 ring-purple-500/20 text-purple-950",
-                            badgeColor: "bg-purple-100 text-purple-800"
+                            level: "Phân hóa nhẹ",
+                            ratio: "60% CB • 30% VD • 10% VDC",
+                            scoreRange: "8.5 - 9.5 điểm",
+                            desc: "Phân hóa câu cuối, bám sát SGK",
+                            icon: "🚀",
+                            activeStyle: "border-purple-600 bg-purple-50/90 ring-2 ring-purple-500/30 text-purple-950",
+                            badgeColor: "bg-purple-100 text-purple-800 border border-purple-300"
                           }
                         ].map((item) => (
                           <button
                             key={item.num}
                             type="button"
                             onClick={() => setSelectedTestNum(item.num)}
-                            className={`p-2.5 rounded-xl border-2 text-center transition flex flex-col items-center justify-between gap-1.5 relative ${
+                            className={`p-3 rounded-xl border-2 text-left sm:text-center transition flex flex-col justify-between gap-1.5 relative shadow-xs ${
                               selectedTestNum === item.num
-                                ? `${item.activeStyle} shadow-sm`
-                                : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50"
+                                ? `${item.activeStyle} shadow-md`
+                                : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50 text-slate-800"
                             }`}
                           >
-                            <div className="flex items-center gap-1">
-                              <span className="text-base">{item.icon}</span>
-                              <span className="text-xs font-black text-slate-900">{item.title}</span>
+                            <div className="flex items-center sm:justify-center gap-1.5 w-full">
+                              <span className="text-lg">{item.icon}</span>
+                              <span className="text-sm font-black text-slate-900">{item.title}</span>
+                              {selectedTestNum === item.num && (
+                                <span className="ml-auto sm:hidden text-[10px] font-black text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">
+                                  ✓ Đang chọn
+                                </span>
+                              )}
                             </div>
-                            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${item.badgeColor}`}>
-                              Mức độ: {item.level}
+                            <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full inline-block sm:mx-auto ${item.badgeColor}`}>
+                              {item.level}
                             </span>
-                            <div className="text-[11px] font-semibold text-slate-500">
+                            <div className="text-[11px] text-slate-600 font-medium">
+                              Tỉ lệ: <b>{item.ratio}</b>
+                            </div>
+                            <div className="text-[11px] font-bold text-indigo-700 bg-indigo-50/80 px-2 py-0.5 rounded border border-indigo-100">
                               Mục tiêu: {item.scoreRange}
                             </div>
+                            <p className="text-[10px] text-slate-500 italic mt-0.5">
+                              {item.desc}
+                            </p>
                             {selectedTestNum === item.num && (
-                              <div className="text-[10px] font-black text-emerald-700 flex items-center gap-0.5">
-                                <span>✓</span> <span>Đang chọn</span>
+                              <div className="hidden sm:flex text-[11px] font-black text-emerald-700 items-center justify-center gap-0.5 mt-0.5">
+                                <span>✓ Đang chọn</span>
                               </div>
                             )}
                           </button>
@@ -5070,17 +5192,25 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
 
                     {/* Tóm tắt ma trận 10 điểm */}
-                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 text-xs space-y-1.5">
+                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs space-y-2">
                       <div className="font-bold text-slate-800 uppercase tracking-wide flex items-center justify-between">
-                        <span>Ma trận Đề kiểm tra chuẩn Bộ GD&ĐT (10,0 điểm)</span>
-                        <span className="text-[10px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">90 phút</span>
+                        <span className="flex items-center gap-1.5">
+                          <span>📐</span> Quy chuẩn phân hóa đề bài học SGK (GDPT 2018 - Kết nối tri thức)
+                        </span>
+                        <span className="text-[10px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">
+                          90 phút • 10.0 điểm
+                        </span>
                       </div>
-                      <ul className="space-y-1 text-slate-600 text-[11px]">
-                        <li>• <b>Phần I (3,0đ):</b> 12 câu Trắc nghiệm (0,25đ/câu)</li>
-                        <li>• <b>Phần II (2,0đ):</b> 2 câu Đúng/Sai (1,0đ/câu)</li>
-                        <li>• <b>Phần III (2,0đ):</b> 4 câu Trả lời ngắn (0,5đ/câu)</li>
-                        <li>• <b>Phần IV (3,0đ):</b> 3 câu Tự luận (1,0đ/câu) - AI Vision chấm viết tay</li>
-                      </ul>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px] text-slate-600">
+                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                          <strong className="text-emerald-800 block mb-0.5">🌱 Đề 1 & Đề 2 (Độ khó tương đương):</strong>
+                          70% Nhận biết - Thông hiểu, 20% Vận dụng cơ bản theo SGK, 10% Liên hệ thực tế nhẹ. Học sinh khá - TB làm tốt 7 - 8 điểm.
+                        </div>
+                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                          <strong className="text-purple-800 block mb-0.5">🚀 Đề 3 (Khó hơn Đề 1 & 2 một ít):</strong>
+                          60% Cơ bản, 30% Vận dụng, 10% Vận dụng nâng cao nhẹ. Phân hóa nhẹ ở câu hỏi cuối, bám sát 100% SGK, tuyệt đối không đưa bài thi HSG nặng nề vào.
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -6446,6 +6576,493 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
 
                   </div>
+
+                  {/* BẢNG ĐỐI SOÁT CHI TIẾT TỪNG CÂU & TỰ SỬA LỖI (Phần I, II, III) */}
+                  {resultData && (
+                    <div className="space-y-5 pt-4 border-t-2 border-indigo-100">
+                      {/* Tiêu đề & Nhận xét học lực tự động */}
+                      <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-5 rounded-2xl shadow-md space-y-3">
+                        <div className="flex flex-wrap items-center justify-between gap-3">
+                          <div className="flex items-center gap-2.5">
+                            <span className="text-2xl">🎯</span>
+                            <div>
+                              <h3 className="text-base sm:text-lg font-black tracking-tight text-white uppercase flex items-center gap-2">
+                                Bảng Đối Soát Chi Tiết Từng Câu & Tự Sửa Lỗi
+                              </h3>
+                              <p className="text-xs text-indigo-200">
+                                Đối chiếu câu trả lời của em với đáp án chuẩn và lời giải chi tiết chuẩn Bộ GD&ĐT
+                              </p>
+                            </div>
+                          </div>
+                          {/* Badge tổng quan trắc nghiệm */}
+                          <div className="flex items-center gap-2">
+                            <span className="px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 text-xs font-bold text-amber-300">
+                              Trắc nghiệm: {(
+                                (Number(resultData.scorePart1) || 0) +
+                                (Number(resultData.scorePart2) || 0) +
+                                (Number(resultData.scorePart3) || 0)
+                              ).toFixed(2)} / 7,00 điểm
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Card tự động sinh nhận xét học lực ngắn gọn */}
+                        {(() => {
+                          const objScore = (Number(resultData.scorePart1) || 0) + (Number(resultData.scorePart2) || 0) + (Number(resultData.scorePart3) || 0);
+                          let academicComment = {
+                            badge: "🌟 HỌC LỰC GIỎI / XUẤT SẮC",
+                            badgeBg: "bg-emerald-500/20 text-emerald-300 border-emerald-400/30",
+                            text: "Em nắm rất vững toàn bộ kiến thức bài học và thành thạo các bước biến đổi toán học. Tiếp tục duy trì phong độ và rèn luyện các dạng bài phân hóa nhé!"
+                          };
+                          if (objScore < 3.5) {
+                            academicComment = {
+                              badge: "⚠️ CẦN CỐ GẮNG ÔN TẬP",
+                              badgeBg: "bg-rose-500/20 text-rose-300 border-rose-400/30",
+                              text: "Em còn hổng một số kiến thức cơ bản trong bài học SGK này. Hãy xem kỹ bảng đối soát và bấm 'Xem lời giải chi tiết' bên dưới để tự rút kinh nghiệm, sau đó rèn luyện lại với Đề 1/Đề 2."
+                            };
+                          } else if (objScore < 4.8) {
+                            academicComment = {
+                              badge: "📚 HỌC LỰC TRUNG BÌNH KHÁ",
+                              badgeBg: "bg-amber-500/20 text-amber-300 border-amber-400/30",
+                              text: "Em đã hiểu các kiến thức nền tảng cơ bản nhưng còn nhầm lẫn ở bước biến đổi hoặc đọc đề chưa kỹ. Hãy đối chiếu các câu làm sai để hoàn thiện kỹ năng tính toán."
+                            };
+                          } else if (objScore < 6.0) {
+                            academicComment = {
+                              badge: "👍 HỌC LỰC KHÁ",
+                              badgeBg: "bg-blue-500/20 text-blue-300 border-blue-400/30",
+                              text: "Em làm rất tốt các câu nhận biết và thông hiểu. Cần chú ý cẩn thận hơn ở các mệnh đề bẫy Đúng/Sai và đối chiếu kỹ điều kiện trước khi điền số ở Phần Trả lời ngắn."
+                            };
+                          }
+
+                          return (
+                            <div className="bg-white/10 rounded-xl p-3 border border-white/10 flex flex-col sm:flex-row sm:items-center gap-2.5">
+                              <span className={`px-2.5 py-1 rounded-lg text-xs font-black uppercase tracking-wide border self-start whitespace-nowrap ${academicComment.badgeBg}`}>
+                                {academicComment.badge}
+                              </span>
+                              <p className="text-xs text-slate-200 leading-relaxed font-medium">
+                                {academicComment.text}
+                              </p>
+                            </div>
+                          );
+                        })()}
+                      </div>
+
+                      {/* Thanh công cụ: Bộ lọc (Tất cả / Chỉ xem câu sai) & Nút Mở/Đóng tất cả lời giải */}
+                      {(() => {
+                        const mcList = resultData.mcDetails || [];
+                        const tfList = resultData.tfDetailedReview || [];
+                        const saList = resultData.saDetails || [];
+                        const mcWrongCount = mcList.filter(d => !d.isCorrect).length;
+                        const tfWrongSubCount = tfList.reduce((acc, q) => acc + (q.subItems || []).filter(s => !s.isCorrect).length, 0);
+                        const saWrongCount = saList.filter(d => !d.isCorrect).length;
+                        const totalWrongQuestions = mcWrongCount + (tfList.filter(q => (q.subItems || []).some(s => !s.isCorrect)).length) + saWrongCount;
+
+                        const isAllExpanded = Object.keys(expandedReview || {}).length > 0;
+
+                        return (
+                          <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-100 p-2.5 rounded-xl border border-slate-200">
+                            {/* Bộ lọc Tabs */}
+                            <div className="flex items-center gap-1.5">
+                              <button
+                                type="button"
+                                onClick={() => setReviewFilter("all")}
+                                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${reviewFilter === "all" ? "bg-indigo-600 text-white shadow-sm" : "bg-white text-slate-700 hover:bg-slate-200"}`}
+                              >
+                                Tất cả câu hỏi
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => setReviewFilter("wrong")}
+                                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-1.5 ${reviewFilter === "wrong" ? "bg-rose-600 text-white shadow-sm" : "bg-white text-slate-700 hover:bg-slate-200"}`}
+                              >
+                                <span>⚠️ Chỉ xem câu làm sai</span>
+                                <span className={`px-1.5 py-0.2 rounded-full text-[10px] font-black ${reviewFilter === "wrong" ? "bg-white text-rose-700" : (totalWrongQuestions > 0 ? "bg-rose-100 text-rose-700" : "bg-emerald-100 text-emerald-700")}`}>
+                                  {totalWrongQuestions}
+                                </span>
+                              </button>
+                            </div>
+
+                            {/* Nút Toggle mở tất cả lời giải */}
+                            <div className="flex items-center gap-2">
+                              <button
+                                type="button"
+                                onClick={() => toggleExpandAllReview(!isAllExpanded, resultData)}
+                                className="px-3 py-1.5 rounded-lg text-xs font-bold bg-white text-indigo-700 hover:bg-indigo-50 border border-indigo-200 flex items-center gap-1.5 transition"
+                              >
+                                <span>{isAllExpanded ? "▲ Thu gọn lời giải" : "📖 Xem tất cả lời giải chi tiết"}</span>
+                              </button>
+                            </div>
+                          </div>
+                        );
+                      })()}
+
+                      {/* --- NỘI DUNG 3 PHẦN TRẮC NGHIỆM --- */}
+                      {(() => {
+                        const mcList = resultData.mcDetails || [];
+                        const tfList = resultData.tfDetailedReview || [];
+                        const saList = resultData.saDetails || [];
+
+                        const filteredMc = reviewFilter === "wrong" ? mcList.filter(d => !d.isCorrect) : mcList;
+                        const filteredTf = reviewFilter === "wrong"
+                          ? tfList.map(q => ({
+                              ...q,
+                              subItems: (q.subItems || []).filter(s => !s.isCorrect)
+                            })).filter(q => (q.subItems || []).length > 0)
+                          : tfList;
+                        const filteredSa = reviewFilter === "wrong" ? saList.filter(d => !d.isCorrect) : saList;
+
+                        const totalWrong = mcList.filter(d => !d.isCorrect).length +
+                                           tfList.reduce((acc, q) => acc + (q.subItems || []).filter(s => !s.isCorrect).length, 0) +
+                                           saList.filter(d => !d.isCorrect).length;
+
+                        if (reviewFilter === "wrong" && totalWrong === 0) {
+                          return (
+                            <div className="p-8 text-center bg-emerald-50 border-2 border-dashed border-emerald-300 rounded-2xl space-y-2">
+                              <div className="text-4xl">🎉</div>
+                              <h4 className="text-base font-bold text-emerald-900">
+                                Xuất sắc! Em không làm sai câu hỏi trắc nghiệm nào!
+                              </h4>
+                              <p className="text-xs text-emerald-700 font-medium">
+                                Toàn bộ các câu ở Phần I, II và III đều trả lời chính xác. Bấm tab "Tất cả câu hỏi" nếu muốn xem lại bài thi.
+                              </p>
+                            </div>
+                          );
+                        }
+
+                        return (
+                          <div className="space-y-6">
+                            {/* ========================================================= */}
+                            {/* PHẦN I: TRẮC NGHIỆM 4 LỰA CHỌN */}
+                            {/* ========================================================= */}
+                            {filteredMc.length > 0 && (
+                              <div className="bg-white rounded-2xl border-2 border-blue-200 shadow-sm overflow-hidden space-y-3">
+                                {/* Header Phần I */}
+                                <div className="bg-blue-50/80 px-4 py-3 border-b border-blue-200 flex flex-wrap items-center justify-between gap-2">
+                                  <div className="flex items-center gap-2">
+                                    <span className="w-3 h-3 rounded-full bg-blue-600"></span>
+                                    <h4 className="font-bold text-sm uppercase text-blue-950">
+                                      Phần I: Câu trắc nghiệm nhiều phương án lựa chọn (12 câu - 3,0 điểm)
+                                    </h4>
+                                  </div>
+                                  <div className="flex items-center gap-2">
+                                    <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-white text-blue-700 border border-blue-300">
+                                      Đúng {resultData.mcCorrectCount ?? mcList.filter(d => d.isCorrect).length}/{resultData.mcTotalCount ?? mcList.length} câu
+                                    </span>
+                                    <span className="px-2.5 py-1 rounded-lg text-xs font-black bg-blue-600 text-white">
+                                      {(Number(resultData.scorePart1) || 0).toFixed(2)} / 3,00 điểm
+                                    </span>
+                                  </div>
+                                </div>
+
+                                {/* Danh sách tóm tắt các câu làm sai (nếu có) */}
+                                {mcList.some(d => !d.isCorrect) && (
+                                  <div className="mx-4 p-2.5 rounded-xl bg-rose-50 border border-rose-200 flex flex-wrap items-center gap-2 text-xs">
+                                    <span className="font-bold text-rose-900 flex items-center gap-1">
+                                      <span>⚠️</span> Các câu làm sai cần xem lại:
+                                    </span>
+                                    {mcList.filter(d => !d.isCorrect).map(d => (
+                                      <span key={d.id} className="px-2 py-0.5 rounded font-black bg-rose-600 text-white text-[11px] shadow-xs">
+                                        Câu {d.id}
+                                      </span>
+                                    ))}
+                                  </div>
+                                )}
+
+                                {/* Chi tiết từng câu Phần I */}
+                                <div className="p-4 space-y-3.5 divide-y divide-slate-100">
+                                  {filteredMc.map((item) => {
+                                    const expKey = `mc_${item.id}`;
+                                    const isExp = expandedReview[expKey];
+
+                                    return (
+                                      <div key={item.id} className={`pt-3.5 first:pt-0 p-3 rounded-xl border transition ${item.isCorrect ? "bg-slate-50/40 border-slate-200" : "bg-rose-50/30 border-rose-300"}`}>
+                                        {/* Câu số & Huy hiệu Đúng/Sai */}
+                                        <div className="flex items-center justify-between gap-2 mb-2">
+                                          <div className="flex items-center gap-2">
+                                            <span className="font-black text-sm text-slate-900">
+                                              Câu {item.id}:
+                                            </span>
+                                            {item.isCorrect ? (
+                                              <span className="px-2 py-0.5 rounded-full text-[11px] font-black bg-emerald-100 text-emerald-800 border border-emerald-300 flex items-center gap-1">
+                                                <span>✓</span> ĐÚNG (+0,25đ)
+                                              </span>
+                                            ) : (
+                                              <span className="px-2 py-0.5 rounded-full text-[11px] font-black bg-rose-100 text-rose-800 border border-rose-300 flex items-center gap-1">
+                                                <span>✗</span> CHƯA ĐÚNG (0đ)
+                                              </span>
+                                            )}
+                                          </div>
+                                        </div>
+
+                                        {/* Đề bài câu hỏi */}
+                                        <div className="text-sm font-medium text-slate-800 mb-3">
+                                          <MathView text={item.question} />
+                                        </div>
+
+                                        {/* Bảng đối soát: Em chọn vs Đáp án đúng */}
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                                          {/* Cột Em chọn */}
+                                          <div className={`p-2.5 rounded-lg border flex items-start gap-2 ${item.isCorrect ? "bg-emerald-50/70 border-emerald-200 text-emerald-950" : "bg-rose-50 border-rose-200 text-rose-950"}`}>
+                                            <span className="font-bold whitespace-nowrap text-slate-700">Em chọn:</span>
+                                            <div className="font-semibold flex-1">
+                                              <span className={`inline-block px-1.5 py-0.5 rounded font-black text-xs mr-1 ${item.isCorrect ? "bg-emerald-600 text-white" : "bg-rose-600 text-white"}`}>
+                                                {item.userLetter}
+                                              </span>
+                                              {item.userOptionText ? <MathView text={item.userOptionText} /> : <span className="text-slate-400 italic font-normal">(Chưa chọn)</span>}
+                                            </div>
+                                          </div>
+
+                                          {/* Cột Đáp án chuẩn */}
+                                          <div className="p-2.5 rounded-lg border bg-emerald-50 border-emerald-300 text-emerald-950 flex items-start gap-2">
+                                            <span className="font-bold whitespace-nowrap text-emerald-900">Đáp án đúng:</span>
+                                            <div className="font-semibold flex-1 text-emerald-950">
+                                              <span className="inline-block px-1.5 py-0.5 rounded font-black text-xs bg-emerald-600 text-white mr-1">
+                                                {item.correctLetter}
+                                              </span>
+                                              {item.correctOptionText ? <MathView text={item.correctOptionText} /> : null}
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        {/* Nút & Khung Lời giải chi tiết */}
+                                        <div className="mt-2.5 pt-2 border-t border-dashed border-slate-200">
+                                          <button
+                                            type="button"
+                                            onClick={() => toggleReviewExplanation(expKey)}
+                                            className="text-xs font-bold text-indigo-700 hover:text-indigo-900 hover:underline flex items-center gap-1.5"
+                                          >
+                                            <span>{isExp ? "▲ Thu gọn lời giải" : "💡 Xem lời giải chi tiết"}</span>
+                                          </button>
+                                          {isExp && (
+                                            <div className="mt-2 p-3 rounded-xl bg-amber-50/90 border border-amber-200 text-xs text-slate-800 leading-relaxed shadow-xs">
+                                              <div className="font-bold text-amber-950 mb-1 flex items-center gap-1.5">
+                                                <span>📖</span> Lời giải chi tiết Câu {item.id}:
+                                              </div>
+                                              <MathView text={item.explanation || "Chưa có lời giải chi tiết cho câu này."} />
+                                            </div>
+                                          )}
+                                        </div>
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            )}
+
+                            {/* ========================================================= */}
+                            {/* PHẦN II: TRẮC NGHIỆM ĐÚNG / SAI */}
+                            {/* ========================================================= */}
+                            {filteredTf.length > 0 && (
+                              <div className="bg-white rounded-2xl border-2 border-emerald-200 shadow-sm overflow-hidden space-y-3">
+                                {/* Header Phần II */}
+                                <div className="bg-emerald-50/80 px-4 py-3 border-b border-emerald-200 flex flex-wrap items-center justify-between gap-2">
+                                  <div className="flex items-center gap-2">
+                                    <span className="w-3 h-3 rounded-full bg-emerald-600"></span>
+                                    <h4 className="font-bold text-sm uppercase text-emerald-950">
+                                      Phần II: Câu trắc nghiệm Đúng / Sai (2 câu, 8 ý - 2,0 điểm)
+                                    </h4>
+                                  </div>
+                                  <div className="flex items-center gap-2">
+                                    <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-white text-emerald-700 border border-emerald-300">
+                                      Đúng {resultData.tfCorrectCount ?? tfList.reduce((acc, q) => acc + (q.subItems || []).filter(s => s.isCorrect).length, 0)}/{resultData.tfTotalCount ?? 8} ý
+                                    </span>
+                                    <span className="px-2.5 py-1 rounded-lg text-xs font-black bg-emerald-600 text-white">
+                                      {(Number(resultData.scorePart2) || 0).toFixed(2)} / 2,00 điểm
+                                    </span>
+                                  </div>
+                                </div>
+
+                                {/* Chi tiết từng câu Phần II */}
+                                <div className="p-4 space-y-4">
+                                  {filteredTf.map((q) => (
+                                    <div key={q.id} className="p-3.5 rounded-xl border border-emerald-100 bg-slate-50/50 space-y-3">
+                                      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-2">
+                                        <div className="font-black text-sm text-slate-900">
+                                          Câu {q.id}
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                          <span className="text-xs font-bold text-slate-600">
+                                            Đúng {q.correctSubCount ?? (q.subItems || []).filter(s => s.isCorrect).length}/4 ý
+                                          </span>
+                                          <span className="px-2 py-0.5 rounded text-xs font-black bg-emerald-100 text-emerald-800 border border-emerald-200">
+                                            {(Number(q.score) || 0).toFixed(2)} / 1,00đ
+                                          </span>
+                                        </div>
+                                      </div>
+
+                                      {/* Đề bài dẫn của câu Đúng/Sai */}
+                                      {q.intro && (
+                                        <div className="text-sm font-medium text-slate-800">
+                                          <MathView text={q.intro} />
+                                        </div>
+                                      )}
+
+                                      {/* Danh sách 4 ý con a, b, c, d */}
+                                      <div className="space-y-2.5">
+                                        {(q.subItems || []).map((stmt) => {
+                                          const tfExpKey = `tf_${q.id}_${stmt.key}`;
+                                          const isTfExp = expandedReview[tfExpKey];
+
+                                          return (
+                                            <div key={stmt.key} className={`p-3 rounded-lg border text-xs ${stmt.isCorrect ? "bg-white border-slate-200" : "bg-rose-50/40 border-rose-300"}`}>
+                                              <div className="flex items-start justify-between gap-2 mb-1.5">
+                                                <div className="font-bold text-slate-800 flex items-center gap-1.5">
+                                                  <span className="w-5 h-5 rounded-full bg-slate-100 border border-slate-300 inline-flex items-center justify-center font-bold text-slate-700 uppercase text-[11px]">
+                                                    {stmt.key}
+                                                  </span>
+                                                  <span>Ý {stmt.key.toUpperCase()}</span>
+                                                </div>
+                                                <span className={`px-2 py-0.5 rounded text-[11px] font-black border ${stmt.isCorrect ? "bg-emerald-100 text-emerald-800 border-emerald-300" : "bg-rose-100 text-rose-800 border-rose-300"}`}>
+                                                  {stmt.isCorrect ? "✓ ĐÚNG" : "✗ SAI"}
+                                                </span>
+                                              </div>
+
+                                              {/* Nội dung mệnh đề */}
+                                              <div className="text-slate-800 mb-2">
+                                                <MathView text={stmt.text} />
+                                              </div>
+
+                                              {/* Đối soát Em chọn vs Đáp án đúng */}
+                                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] font-semibold">
+                                                <div className={`p-2 rounded border flex items-center justify-between ${stmt.isCorrect ? "bg-emerald-50/60 border-emerald-200 text-emerald-950" : "bg-rose-50 border-rose-200 text-rose-950"}`}>
+                                                  <span className="text-slate-700">Em chọn:</span>
+                                                  <span className={`px-2 py-0.5 rounded font-black ${stmt.isCorrect ? "bg-emerald-600 text-white" : "bg-rose-600 text-white"}`}>
+                                                    {stmt.userText}
+                                                  </span>
+                                                </div>
+                                                <div className="p-2 rounded border bg-emerald-50 border-emerald-300 text-emerald-950 flex items-center justify-between">
+                                                  <span className="text-emerald-900 font-bold">Đáp án đúng:</span>
+                                                  <span className="px-2 py-0.5 rounded font-black bg-emerald-600 text-white">
+                                                    {stmt.expectedText}
+                                                  </span>
+                                                </div>
+                                              </div>
+
+                                              {/* Giải thích bẫy logic ý con */}
+                                              {stmt.explanation && (
+                                                <div className="mt-2 pt-1.5 border-t border-dashed border-slate-200">
+                                                  <button
+                                                    type="button"
+                                                    onClick={() => toggleReviewExplanation(tfExpKey)}
+                                                    className="text-[11px] font-bold text-indigo-700 hover:underline flex items-center gap-1"
+                                                  >
+                                                    <span>{isTfExp ? "▲ Thu gọn giải thích" : "💡 Giải thích & Bẫy logic ý " + stmt.key.toUpperCase()}</span>
+                                                  </button>
+                                                  {isTfExp && (
+                                                    <div className="mt-1.5 p-2.5 rounded bg-amber-50/90 border border-amber-200 text-[11px] text-slate-800">
+                                                      <MathView text={stmt.explanation} />
+                                                    </div>
+                                                  )}
+                                                </div>
+                                              )}
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+
+                            {/* ========================================================= */}
+                            {/* PHẦN III: TRẮC NGHIỆM TRẢ LỜI NGẮN */}
+                            {/* ========================================================= */}
+                            {filteredSa.length > 0 && (
+                              <div className="bg-white rounded-2xl border-2 border-amber-200 shadow-sm overflow-hidden space-y-3">
+                                {/* Header Phần III */}
+                                <div className="bg-amber-50/80 px-4 py-3 border-b border-amber-200 flex flex-wrap items-center justify-between gap-2">
+                                  <div className="flex items-center gap-2">
+                                    <span className="w-3 h-3 rounded-full bg-amber-600"></span>
+                                    <h4 className="font-bold text-sm uppercase text-amber-950">
+                                      Phần III: Câu hỏi Trả lời ngắn (4 câu - 2,0 điểm)
+                                    </h4>
+                                  </div>
+                                  <div className="flex items-center gap-2">
+                                    <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-white text-amber-800 border border-amber-300">
+                                      Đúng {resultData.saCorrectCount ?? saList.filter(d => d.isCorrect).length}/{resultData.saTotalCount ?? saList.length} câu
+                                    </span>
+                                    <span className="px-2.5 py-1 rounded-lg text-xs font-black bg-amber-600 text-white">
+                                      {(Number(resultData.scorePart3) || 0).toFixed(2)} / 2,00 điểm
+                                    </span>
+                                  </div>
+                                </div>
+
+                                {/* Chi tiết từng câu Phần III */}
+                                <div className="p-4 space-y-3.5 divide-y divide-slate-100">
+                                  {filteredSa.map((item) => {
+                                    const saExpKey = `sa_${item.id}`;
+                                    const isSaExp = expandedReview[saExpKey];
+
+                                    return (
+                                      <div key={item.id} className={`pt-3.5 first:pt-0 p-3 rounded-xl border transition ${item.isCorrect ? "bg-slate-50/40 border-slate-200" : "bg-rose-50/30 border-rose-300"}`}>
+                                        <div className="flex items-center justify-between gap-2 mb-2">
+                                          <span className="font-black text-sm text-slate-900">
+                                            Câu {item.id}:
+                                          </span>
+                                          {item.isCorrect ? (
+                                            <span className="px-2 py-0.5 rounded-full text-[11px] font-black bg-emerald-100 text-emerald-800 border border-emerald-300 flex items-center gap-1">
+                                              <span>✓</span> ĐÚNG (+0,50đ)
+                                            </span>
+                                          ) : (
+                                            <span className="px-2 py-0.5 rounded-full text-[11px] font-black bg-rose-100 text-rose-800 border border-rose-300 flex items-center gap-1">
+                                              <span>✗</span> CHƯA ĐÚNG (0đ)
+                                            </span>
+                                          )}
+                                        </div>
+
+                                        {/* Đề bài */}
+                                        <div className="text-sm font-medium text-slate-800 mb-3">
+                                          <MathView text={item.question} />
+                                        </div>
+
+                                        {/* Bảng đối soát: Giá trị em đã nhập vs Đáp án chuẩn */}
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                                          <div className={`p-2.5 rounded-lg border flex items-center justify-between ${item.isCorrect ? "bg-emerald-50/70 border-emerald-200 text-emerald-950" : "bg-rose-50 border-rose-200 text-rose-950"}`}>
+                                            <span className="font-bold text-slate-700">Giá trị em đã nhập:</span>
+                                            <span className={`px-2.5 py-1 rounded font-mono text-sm font-black ${item.isCorrect ? "bg-emerald-600 text-white" : "bg-rose-600 text-white"}`}>
+                                              {item.userText}
+                                            </span>
+                                          </div>
+
+                                          <div className="p-2.5 rounded-lg border bg-emerald-50 border-emerald-300 text-emerald-950 flex items-center justify-between">
+                                            <span className="font-bold text-emerald-900">Đáp án chuẩn:</span>
+                                            <span className="px-2.5 py-1 rounded font-mono text-sm font-black bg-emerald-600 text-white shadow-xs">
+                                              {item.correctText}
+                                            </span>
+                                          </div>
+                                        </div>
+
+                                        {/* Lời giải chi tiết */}
+                                        <div className="mt-2.5 pt-2 border-t border-dashed border-slate-200">
+                                          <button
+                                            type="button"
+                                            onClick={() => toggleReviewExplanation(saExpKey)}
+                                            className="text-xs font-bold text-indigo-700 hover:text-indigo-900 hover:underline flex items-center gap-1.5"
+                                          >
+                                            <span>{isSaExp ? "▲ Thu gọn lời giải" : "💡 Xem lời giải & phương pháp tính"}</span>
+                                          </button>
+                                          {isSaExp && (
+                                            <div className="mt-2 p-3 rounded-xl bg-amber-50/90 border border-amber-200 text-xs text-slate-800 leading-relaxed shadow-xs">
+                                              <div className="font-bold text-amber-950 mb-1 flex items-center gap-1.5">
+                                                <span>📖</span> Lời giải Câu {item.id}:
+                                              </div>
+                                              <MathView text={item.explanation || "Chưa có lời giải chi tiết cho câu này."} />
+                                            </div>
+                                          )}
+                                        </div>
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })()}
+                    </div>
+                  )}
+
 
 
 

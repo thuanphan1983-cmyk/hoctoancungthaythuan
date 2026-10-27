@@ -257,40 +257,43 @@ def build_prompt(grade, chapter, lesson, test_num):
 
     difficulty_specs = {
         1: {
-            "name": "ĐỀ SỐ 1 - MỨC ĐỘ CƠ BẢN & CỦNG CỐ NỀN TẢNG (Mục tiêu 5.0 - 7.0 điểm)",
+            "name": "ĐỀ SỐ 1 - CHUẨN CƠ BẢN BÁM SÁT SGK (Mục tiêu 7.0 - 8.0 điểm)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 1 (MỨC ĐỘ DỄ NHẤT - CƠ BẢN):
-- Bám sát chuẩn kiến thức kỹ năng nền tảng SGK Kết nối tri thức. Hỏi trực diện, tường minh, không đánh đố.
-- Số liệu: Dùng số nguyên nhỏ, gọn gàng ($1, 2, 3, 4, 5, -1, -2$), không dùng phân số cồng kềnh hay căn thức khó.
-- Phần I (Trắc nghiệm): 8 câu Nhận biết (khái niệm trực tiếp, hệ số, biến số, bậc, nghiệm có sẵn), 4 câu Thông hiểu đơn giản (thay số 1 bước tính ra ngay).
-- Phần II (Đúng/Sai): 2 câu Thông hiểu cơ bản, mệnh đề rõ ràng, kiểm tra định nghĩa hoặc tính toán 1 bước ngắn gọn.
-- Phần III (Trả lời ngắn): 4 câu tính toán số học / đại số 1 bước cơ bản, kết quả là số nguyên đẹp.
-- Phần IV (Tự luận): 3 bài tập mẫu mực cơ bản như ví dụ SGK, các bước suy luận rõ ràng, học sinh trung bình dễ đạt điểm."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 1 (CHUẨN CƠ BẢN BÁM SÁT SGK KẾT NỐI TRI THỨC):
+- Tỷ lệ chuẩn: 70% Nhận biết & Thông hiểu, 20% Vận dụng cơ bản theo bài học SGK, 10% Liên hệ thực tế nhẹ.
+- Bám sát 100% mục tiêu cần đạt, ví dụ, hoạt động luyện tập và bài tập của đúng bài học đó trong SGK.
+- Đảm bảo học sinh khá - trung bình làm tốt 7.0 - 8.0 điểm.
+- Phần I (Trắc nghiệm 12 câu): 8 câu Nhận biết trực tiếp + 4 câu Thông hiểu cơ bản.
+- Phần II (Đúng/Sai 2 câu): Các mệnh đề rõ ràng, kiểm tra đúng tính chất và quy tắc của bài học.
+- Phần III (Trả lời ngắn 4 câu): Tính toán số học / đại số 1-2 bước cơ bản theo bài học, kết quả gọn gàng.
+- Phần IV (Tự luận 3 câu): Dạng bài mẫu mực tương đương các bài tập cơ bản trong SGK."""
         },
         2: {
-            "name": "ĐỀ SỐ 2 - MỨC ĐỘ KHÁ & VẬN DỤNG LINH HOẠT (Mục tiêu 7.0 - 8.5 điểm - KHÓ HƠN ĐỀ 1 RÕ RỆT)",
+            "name": "ĐỀ SỐ 2 - RÈN LUYỆN TƯƠNG ĐƯƠNG ĐỀ 1 (Mục tiêu 7.0 - 8.0 điểm)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 2 (ĐỘ KHÓ TRUNG BÌNH KHÁ - KHÓ HƠN ĐỀ 1 RÕ RỆT):
-- BẮT BUỘC THAY ĐỔI HOÀN TOÀN SỐ LIỆU, BIỂU THỨC SO VỚI ĐỀ 1. Không dùng lại bất kỳ đa thức hay con số nào của Đề 1.
-- Đòi hỏi học sinh phải biết kết hợp từ 2 đến 3 kiến thức, thực hiện các bước biến đổi trung gian (rút gọn biểu thức trước khi tính giá trị, quy đồng mẫu thức, đổi dấu, xử lý biểu thức nhiều biến $x, y, z$, phân số, số âm).
-- Phần I (Trắc nghiệm): 4 câu Nhận biết (hỏi sâu hơn về tính chất), 8 câu Thông hiểu (có phương án nhiễu dễ nhầm dấu hoặc nhầm bậc, bắt buộc phải tính toán qua 2 bước mới chọn đúng).
-- Phần II (Đúng/Sai): 2 câu phân tích đa bước (chứa biểu thức quy đồng, đối chiếu điều kiện xác định, kiểm tra tính chất chia hết hoặc dấu của đa thức).
-- Phần III (Trả lời ngắn): 4 câu hỏi yêu cầu giải phương trình, rút gọn có điều kiện, tính toán thực tế hoặc tỉ số hình học qua 2 bước.
-- Phần IV (Tự luận): Bài toán thực tế sinh động (toán chuyển động $s = vt$, toán năng suất, bài toán diện tích / thể tích hình học thực tiễn) và bài toán biến đổi đại số có ràng buộc điều kiện."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 2 (TƯƠNG ĐƯƠNG ĐỀ 1 - RÈN LUYỆN SONG SONG):
+- Độ khó TƯƠNG ĐƯƠNG ĐỀ 1 (70% Nhận biết & Thông hiểu, 20% Vận dụng cơ bản theo bài học SGK, 10% Liên hệ thực tế nhẹ).
+- Đảm bảo học sinh khá - trung bình làm tốt 7.0 - 8.0 điểm.
+- BẮT BUỘC THAY ĐỔI SỐ LIỆU VÀ NGỮ CẢNH SO VỚI ĐỀ 1 để học sinh rèn luyện song song nhưng KHÔNG LÀM TĂNG ĐỘ KHÓ.
+- Phần I (Trắc nghiệm 12 câu): 8 câu Nhận biết + 4 câu Thông hiểu (đổi số liệu và cách diễn đạt so với Đề 1).
+- Phần II (Đúng/Sai 2 câu): 2 câu kiểm tra toàn diện các khía cạnh khác của bài học với cùng độ khó cơ bản.
+- Phần III (Trả lời ngắn 4 câu): 4 câu tính toán cơ bản với bộ số liệu mới.
+- Phần IV (Tự luận 3 câu): 3 bài tập mẫu mực bám sát SGK với số liệu khác Đề 1."""
         },
         3: {
-            "name": "ĐỀ SỐ 3 - MỨC ĐỘ NÂNG CAO & PHÂN HÓA SÂU (Mục tiêu 8.5 - 10.0 điểm - KHÓ NHẤT, KHÓ HƠN ĐỀ 2 VÀ ĐỀ 1)",
+            "name": "ĐỀ SỐ 3 - PHÂN HÓA NHẸ BÁM SÁT SGK (Mục tiêu 8.5 - 9.5 điểm)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (ĐỘ KHÓ CAO NHẤT, PHÂN HÓA MẠNH MẼ CHO HSG VÀ THI VÀO LỚP 10 CHUYÊN):
-- BẮT BUỘC SÁNG TẠO BỘ SỐ VÀ CÁCH ĐẶT VẤN ĐỀ MỚI HOÀN TOÀN SO VỚI ĐỀ 1 VÀ ĐỀ 2.
-- Đòi hỏi tư duy logic trừu tượng cao, kỹ năng biến đổi đại số khéo léo, xử lý tham số $m, k$, tìm cực trị (giá trị lớn nhất / nhỏ nhất), phương trình nghiệm nguyên, hoặc bất đẳng thức.
-- Phần I (Trắc nghiệm): 2 câu Nhận biết tinh tế, 6 câu Thông hiểu nâng cao, 4 câu có bẫy logic sâu (dễ mất nghiệm, nhầm lẫn tập xác định hoặc bỏ quên trường hợp đặc biệt).
-- Phần II (Đúng/Sai): 2 câu phân tích đa chiều (chứa tham số $m$, biện luận số nghiệm, tính chất hình học nâng cao hoặc biểu thức đối xứng).
-- Phần III (Trả lời ngắn): 4 câu hỏi phức tạp (tìm giá trị cực trị min/max, số nghiệm nguyên, bài toán tổ hợp logic hoặc tỉ số diện tích nâng cao).
-- Phần IV (Tự luận):
-  + Câu 1 (1.0đ): Vận dụng nâng cao về rút gọn biểu thức có điều kiện, biến đổi đẳng thức phức tạp nhiều biến.
-  + Câu 2 (1.0đ): Bài toán hình học chứng minh nhiều bước hoặc bài toán thực tế giải bằng lập phương trình/hệ phương trình nâng cao.
-  + Câu 3 (1.0đ): CÂU ĐIỂM 10 PHÂN HÓA HỌC SINH GIỎI (Bất đẳng thức Cauchy/Schwarz, cực trị đại số, phương trình nghiệm nguyên, hoặc tìm tham số để biểu thức nhận giá trị nguyên)."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (KHÓ HƠN ĐỀ 1 & 2 MỘT ÍT - PHÂN HÓA NHẸ BÁM SÁT SGK):
+- Tỷ lệ: 60% Cơ bản, 30% Vận dụng, 10% Vận dụng nâng cao nhẹ.
+- CHỈ PHÂN HÓA NHẸ Ở CÂU HỎI CUỐI CỦA BÀI, BÁM SÁT 100% mục tiêu cần đạt trong SGK.
+- TUYỆT ĐỐI KHÔNG đưa bài tập thi HSG nặng nề hay kiến thức ngoài bài vào.
+- Phần I (Trắc nghiệm 12 câu): 6 câu Cơ bản + 4 câu Thông hiểu nâng cao + 2 câu Vận dụng nhẹ.
+- Phần II (Đúng/Sai 2 câu): Yêu cầu lập luận chặt chẽ hơn một chút, đối chiếu điều kiện bài học.
+- Phần III (Trả lời ngắn 4 câu): Có 1 câu vận dụng tổng hợp nhẹ của bài học đó.
+- Phần IV (Tự luận 3 câu):
+  + Câu 1 (1.0đ): Vận dụng cơ bản bài học.
+  + Câu 2 (1.0đ): Bài toán thực tế hoặc biến đổi bám sát nội dung SGK.
+  + Câu 3 (1.0đ): Phân hóa nhẹ ở ý cuối của bài học SGK (không ra đề thi HSG ngoài chương trình)."""
         }
     }
 
@@ -311,9 +314,9 @@ RÀNG BUỘC ĐỘC LẬP & CHỐNG SAO CHÉP TUYỆT ĐỐI GIỮA CÁC ĐỀ:
 2. BẮT BUỘC: Toàn bộ số liệu, hàm số, phương trình, biến số, hệ số, ngữ cảnh và cách đặt câu hỏi phải ĐỘC LẬP HOÀN TOÀN. KHÔNG ĐƯỢC lặp lại đề mẫu mặc định hay sao chép từ đề khác của cùng bài học.
 3. KHÔNG ĐƯỢC dùng lại cùng một ví dụ rập khuôn trong SGK. Hãy sáng tạo số liệu mới, các biểu thức toán học mới lạ, ngữ cảnh thực tế phong phú.
 4. Tuân thủ chuẩn mực phân hóa:
-   * Nếu là Đề 1 (Cơ bản): Hỏi trực tiếp, số nguyên nhỏ, tính toán 1 bước.
-   * Nếu là Đề 2 (Khá): Bắt buộc dùng số liệu khác hẳn Đề 1, yêu cầu các bước biến đổi trung gian (rút gọn, quy đồng, đa biến).
-   * Nếu là Đề 3 (Nâng cao): Khác biệt hoàn toàn Đề 1 và Đề 2, chứa tham số, cực trị, bài toán điểm 10 phân hóa sâu sắc.
+   * Nếu là Đề 1 (Chuẩn cơ bản SGK): 70% NB-TH, 20% VD cơ bản, 10% thực tế nhẹ. Học sinh khá - TB làm tốt 7 - 8 điểm.
+   * Nếu là Đề 2 (Tương đương Đề 1): Giữ nguyên độ khó tương đương Đề 1 (70/20/10, 7 - 8 điểm), đổi mới số liệu và ngữ cảnh để rèn luyện song song.
+   * Nếu là Đề 3 (Phân hóa nhẹ): Khó hơn Đề 1 & 2 một ít (60% cơ bản, 30% VD, 10% VDC nhẹ ở câu cuối). Bám sát SGK, TUYỆT ĐỐI KHÔNG đưa bài thi HSG nặng nề vào.
 
 {spec['rules']}
 
