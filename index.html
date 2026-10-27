@@ -2937,6 +2937,58 @@ const [loadingAI, setLoadingAI] = useState(false);
       const [aiGenStep, setAiGenStep] = useState(1); // 1: Kết nối, 2: Soạn câu hỏi, 3: Thẩm định, 4: Sẵn sàng
       const [aiGenRetryCount, setAiGenRetryCount] = useState(0);
 
+      // Quản lý trạng thái nguồn mở modal Key & tiến trình
+      const [pendingAiGen, setPendingAiGen] = useState(false);
+
+      // Quản lý đồng hồ đếm ngược 90 phút cho bài kiểm tra SGK (90 * 60 = 5400 giây)
+      const EXAM_DURATION = 90 * 60;
+      const [examTimeLeft, setExamTimeLeft] = useState(EXAM_DURATION);
+      const [isExamSubmitted, setIsExamSubmitted] = useState(false);
+
+      // Tự động gợi ý mở modal hướng dẫn lấy Key nếu học sinh chưa lưu Key trên thiết bị
+      useEffect(() => {
+        const savedKey = localStorage.getItem("GEMINI_API_KEY");
+        if (!savedKey) {
+          setShowKeyModal(true);
+        }
+      }, []);
+
+      // Đồng hồ đếm ngược 90 phút khi đang trong phòng thi SGK (view === "exam")
+      useEffect(() => {
+        let timer = null;
+        if (view === "exam" && !isExamSubmitted) {
+          timer = setInterval(() => {
+            setExamTimeLeft((prev) => {
+              if (prev <= 1) {
+                clearInterval(timer);
+                return 0;
+              }
+              return prev - 1;
+            });
+          }, 1000);
+        }
+        return () => {
+          if (timer) clearInterval(timer);
+        };
+      }, [view, isExamSubmitted]);
+
+      // Khi đồng hồ đếm lùi về 00:00: Tự động khóa và lập tức nộp bài (auto-submit)
+      useEffect(() => {
+        if (view === "exam" && examTimeLeft === 0 && !isExamSubmitted) {
+          setIsExamSubmitted(true);
+          showToast("warning", "⏰ Đã hết 90 phút làm bài! Hệ thống tự động khóa quyền chỉnh sửa và nộp bài chấm điểm.");
+          handleSubmitExam(true, true);
+        }
+      }, [view, examTimeLeft, isExamSubmitted]);
+
+      // Hàm format thời gian đếm ngược (VD: 90:00 -> 04:59 -> 00:00)
+      const formatExamTime = (seconds) => {
+        const s = Math.max(0, seconds);
+        const mins = Math.floor(s / 60);
+        const secs = s % 60;
+        return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+      };
+
       const videoRef = useRef(null);
 
       const cameraStreamRef = useRef(null);
@@ -3248,6 +3300,8 @@ const [loadingAI, setLoadingAI] = useState(false);
           setSharedEssayImage(null);
           setLoadingAI(false);
           setExamData(normalizeExamData(bankExam));
+          setExamTimeLeft(EXAM_DURATION);
+          setIsExamSubmitted(false);
           setView("exam");
 
           if (isFallback) {
@@ -3295,10 +3349,9 @@ const [loadingAI, setLoadingAI] = useState(false);
 
         if (!cleanKey) {
 
-          // Chưa có Key -> Mở popup cảnh báo yêu cầu nhập Key
-
+          // Chưa có Key -> Mở popup cảnh báo yêu cầu nhập Key kèm hướng dẫn 4 bước
           setTempKeyInput("");
-
+          setPendingAiGen(true);
           setShowKeyModal(true);
 
           return;
@@ -3488,6 +3541,8 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
             setAiGenActive(false);
             setLoadingAI(false);
             setExamData(normalizeExamData(successExam));
+            setExamTimeLeft(EXAM_DURATION);
+            setIsExamSubmitted(false);
             setView("exam");
             showToast("success", "Đã sinh đề thi AI cá nhân hóa thành công!");
           } else {
@@ -3633,15 +3688,19 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
 
       // Chấm bài tự động chuẩn Bộ GD&ĐT
 
-      const handleSubmitExam = async (skipKeyCheck = false) => {
+      const handleSubmitExam = async (skipKeyCheck = false, isAutoSubmit = false) => {
+        // Khóa ngay trạng thái bài nộp
+        setIsExamSubmitted(true);
 
-        if (Object.keys(mcAnswers).length < 12) {
-
+        if (!isAutoSubmit && Object.keys(mcAnswers).length < 12) {
           const confirmSubmit = window.confirm("Em chưa hoàn thành hết 12 câu trắc nghiệm tuần tự. Vẫn nộp bài bây giờ?");
-
-          if (!confirmSubmit) return;
-
+          if (!confirmSubmit) {
+            setIsExamSubmitted(false);
+            return;
+          }
         }
+
+
 
 
 
@@ -4359,10 +4418,21 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                   <div className="flex flex-col items-end gap-1">
 
-                    <div className="text-[11px] font-medium text-slate-500">
-
-                      Google Gemini API Key <span className="text-slate-400 font-normal">(Tùy chọn - Dùng cho Sinh đề AI & Chấm tự luận)</span>
-
+                    <div className="flex items-center justify-between gap-2 w-full">
+                      <div className="text-[11px] font-medium text-slate-500">
+                        Google Gemini API Key <span className="text-slate-400 font-normal">(Tùy chọn - Dùng cho Sinh đề AI & Chấm tự luận)</span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setTempKeyInput(apiKey);
+                          setPendingAiGen(false);
+                          setShowKeyModal(true);
+                        }}
+                        className="text-[11px] font-bold text-indigo-600 hover:text-indigo-800 underline flex items-center gap-1"
+                      >
+                        🧭 Hướng dẫn lấy Key
+                      </button>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -4669,40 +4739,82 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               <div className="space-y-6">
 
-                {/* Banner đầu bài */}
-
+                {/* Banner đầu bài kèm Đồng hồ đếm ngược 90:00 */}
                 <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-wrap justify-between items-center gap-4">
-
                   <div>
-
                     <span className="text-xs font-bold uppercase px-2.5 py-1 bg-indigo-100 text-indigo-800 rounded-md">
-
                       Khối {selectedGrade} • Lớp {className.toUpperCase()}
-
                     </span>
-
                     <h2 className="text-lg font-bold text-slate-900 mt-1">
-
                       <MathView text={examData.title} />
-
                     </h2>
-
                     <p className="text-xs text-slate-500 mt-0.5">Học sinh: <b>{studentName}</b></p>
-
                   </div>
 
-                  <div className="text-right">
-
-                    <div className="text-xs text-slate-500">Tiến độ Phần I</div>
-
-                    <div className="text-lg font-black text-indigo-600">
-
-                      {Object.keys(mcAnswers).length} / 12 câu
-
+                  <div className="flex items-center gap-4">
+                    {/* ĐỒNG HỒ ĐẾM NGƯỢC 90 PHÚT CHÍNH XÁC */}
+                    <div
+                      className={`flex items-center gap-2.5 px-4 py-2 rounded-2xl border transition-all duration-300 shadow-sm ${
+                        examTimeLeft <= 60
+                          ? "bg-rose-50 border-rose-300 text-rose-700 ring-2 ring-rose-300 animate-bounce"
+                          : examTimeLeft <= 300
+                          ? "bg-amber-50 border-amber-300 text-amber-900 ring-2 ring-amber-300 animate-pulse"
+                          : "bg-indigo-50/80 border-indigo-200 text-indigo-950"
+                      }`}
+                    >
+                      <div className="text-xl">
+                        {examTimeLeft <= 60 ? "🚨" : examTimeLeft <= 300 ? "⚠️" : "⏱️"}
+                      </div>
+                      <div className="text-left font-mono">
+                        <div className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                          {examTimeLeft <= 60
+                            ? "Sắp hết giờ làm bài"
+                            : examTimeLeft <= 300
+                            ? "Cảnh báo dưới 5 phút"
+                            : "Thời gian làm bài"}
+                        </div>
+                        <div
+                          className={`text-xl sm:text-2xl font-black tracking-tight leading-tight ${
+                            examTimeLeft <= 60
+                              ? "text-rose-600"
+                              : examTimeLeft <= 300
+                              ? "text-amber-600"
+                              : "text-indigo-700"
+                          }`}
+                        >
+                          {formatExamTime(examTimeLeft)}
+                        </div>
+                      </div>
                     </div>
 
+                    <div className="text-right">
+                      <div className="text-xs text-slate-500">Tiến độ Phần I</div>
+                      <div className="text-lg font-black text-indigo-600">
+                        {Object.keys(mcAnswers).length} / 12 câu
+                      </div>
+                    </div>
                   </div>
+                </div>
 
+                {/* FLOATING TIMER BADGE KHI CUỘN BÀI LÀM */}
+                <div className="fixed bottom-6 right-6 z-40 print:hidden">
+                  <div
+                    className={`flex items-center gap-2 px-4 py-2.5 rounded-2xl shadow-xl border backdrop-blur-md transition-all ${
+                      examTimeLeft <= 60
+                        ? "bg-rose-600 text-white border-rose-400 animate-bounce"
+                        : examTimeLeft <= 300
+                        ? "bg-amber-500 text-white border-amber-400 animate-pulse"
+                        : "bg-indigo-900/90 text-white border-indigo-700 shadow-indigo-950/20"
+                    }`}
+                  >
+                    <span className="text-lg">{examTimeLeft <= 300 ? "⚠️" : "⏱️"}</span>
+                    <div className="text-right font-mono">
+                      <div className="text-[9px] uppercase tracking-wider font-bold opacity-80">
+                        {examTimeLeft <= 300 ? "Sắp hết giờ" : "Thời gian"}
+                      </div>
+                      <div className="text-base font-black leading-none">{formatExamTime(examTimeLeft)}</div>
+                    </div>
+                  </div>
                 </div>
 
 
@@ -4818,15 +4930,11 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                       key={optIdx}
 
                                       onClick={() => {
-
+                                        if (examTimeLeft <= 0 || isExamSubmitted || loadingAI) return;
                                         setMcAnswers((prev) => ({ ...prev, [index]: optIdx }));
-
                                         if (index === mcLockedIndex && mcLockedIndex < 11) {
-
                                           setMcLockedIndex(index + 1);
-
                                         }
-
                                       }}
 
                                       className={`text-left px-3.5 py-2.5 rounded-lg border text-sm flex items-center gap-2.5 transition ${
@@ -4948,6 +5056,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   <div className="flex items-center gap-2">
                                     <button
                                       onClick={() =>
+                                        if (examTimeLeft <= 0 || isExamSubmitted || loadingAI) return;
                                         setTfAnswers((prev) => ({
                                           ...prev,
                                           [q.id]: { ...prev[q.id], [stmtKey]: true }
@@ -4964,6 +5073,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                                     <button
                                       onClick={() =>
+                                        if (examTimeLeft <= 0 || isExamSubmitted || loadingAI) return;
                                         setTfAnswers((prev) => ({
                                           ...prev,
                                           [q.id]: { ...prev[q.id], [stmtKey]: false }
@@ -5052,7 +5162,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                             value={saAnswers[q.id] || ""}
 
-                            onChange={(e) => setSaAnswers(prev => ({ ...prev, [q.id]: e.target.value }))}
+                            disabled={examTimeLeft <= 0 || isExamSubmitted || loadingAI}
+                            onChange={(e) => { if (examTimeLeft <= 0 || isExamSubmitted || loadingAI) return; setSaAnswers(prev => ({ ...prev, [q.id]: e.target.value })); }}
 
                             className="w-full px-3 py-2 text-sm rounded-lg border border-slate-300 bg-white focus:ring-2 focus:ring-indigo-600 outline-none font-semibold"
 
@@ -5389,33 +5500,23 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                 <div className="flex justify-end gap-3 pb-8">
 
                   <button
-
-                    onClick={handleSubmitExam}
-
-                    disabled={loadingAI}
-
+                    onClick={() => handleSubmitExam(false, false)}
+                    disabled={loadingAI || isExamSubmitted || examTimeLeft <= 0}
                     className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg flex items-center gap-2 transition disabled:opacity-50"
-
                   >
-
                     {loadingAI ? (
-
                       <>
-
                         <Icons.RefreshCw /> AI đang chấm điểm & viết nhận xét cả 4 phần...
-
                       </>
-
-                    ) : (
-
+                    ) : isExamSubmitted || examTimeLeft <= 0 ? (
                       <>
-
-                        <Icons.CheckCircle /> Nộp bài & Chấm điểm tự động
-
+                        <Icons.CheckCircle /> Đã hết giờ làm bài • Đang nộp bài...
                       </>
-
+                    ) : (
+                      <>
+                        <Icons.CheckCircle /> Nộp bài & Chấm điểm tự động
+                      </>
                     )}
-
                   </button>
 
                 </div>
@@ -7550,154 +7651,161 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           {/* MODAL YÊU CẦU NHẬP KEY CHO SINH ĐỀ AI */}
 
           {showKeyModal && (
-
-            <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
-
-              <div className="bg-white rounded-2xl p-6 shadow-2xl max-w-lg w-full space-y-4 border border-slate-100">
-
-                <div className="flex justify-between items-start">
-
-                  <div className="flex items-center gap-2">
-
-                    <div className="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold">
-
+            <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-3 md:p-4 overflow-y-auto">
+              <div className="bg-white rounded-3xl p-5 md:p-7 shadow-2xl max-w-xl w-full space-y-4 border border-slate-100 my-auto animate-in fade-in zoom-in-95 duration-200">
+                {/* Header Modal */}
+                <div className="flex justify-between items-start border-b border-slate-100 pb-3">
+                  <div className="flex items-center gap-2.5">
+                    <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white flex items-center justify-center font-bold shadow-md shadow-purple-500/20">
                       <Icons.Sparkles />
-
                     </div>
-
                     <div>
+                      <h3 className="font-bold text-base md:text-lg text-slate-900 leading-tight">
+                        Cấu hình Google Gemini API Key
+                      </h3>
+                      <p className="text-xs text-slate-500 mt-0.5">
+                        Kích hoạt tính năng Sinh đề AI cá nhân hóa & Chấm tự luận AI Vision
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => {
+                      setShowKeyModal(false);
+                      setPendingAiGen(false);
+                    }}
+                    className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-700 font-bold flex items-center justify-center transition"
+                  >
+                    ✕
+                  </button>
+                </div>
 
-                      <h3 className="font-bold text-base text-slate-900">Kích hoạt Sinh đề AI Cá nhân hóa</h3>
+                {/* KHUNG HƯỚNG DẪN 4 BƯỚC LẤY KEY MIỄN PHÍ DÀNH CHO HỌC SINH */}
+                <div className="bg-gradient-to-br from-indigo-50/90 via-purple-50/70 to-blue-50/90 p-4 rounded-2xl border border-indigo-200/80 shadow-inner space-y-3">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2 text-xs font-bold text-indigo-950 uppercase tracking-wide">
+                      <span className="text-base">🧭</span> Hướng dẫn lấy API Key miễn phí (4 bước đơn giản)
+                    </div>
+                    <span className="text-[11px] bg-emerald-100 text-emerald-800 font-bold px-2.5 py-0.5 rounded-full border border-emerald-300">
+                      Miễn phí 100%
+                    </span>
+                  </div>
 
-                      <p className="text-xs text-slate-500">Google Gemini AI biên soạn bộ đề mới hoàn toàn</p>
-
+                  <div className="space-y-2 text-xs text-slate-700">
+                    {/* Bước 1 */}
+                    <div className="flex items-start gap-2.5 bg-white/90 p-2.5 rounded-xl border border-indigo-100 shadow-xs">
+                      <span className="w-5 h-5 rounded-full bg-indigo-600 text-white font-black text-[11px] flex items-center justify-center shrink-0 mt-0.5">
+                        1
+                      </span>
+                      <div className="flex-1">
+                        <span className="font-semibold text-slate-900">Bấm vào liên kết mở nhanh Google AI Studio:</span>
+                        <div className="mt-1.5">
+                          <a
+                            href="https://aistudio.google.com/app/apikey"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl text-xs shadow-md shadow-indigo-500/20 transition transform active:scale-95"
+                          >
+                            <span>🔗 Mở trang Google AI Studio</span>
+                            <span className="text-[10px]">↗</span>
+                          </a>
+                        </div>
+                      </div>
                     </div>
 
+                    {/* Bước 2 */}
+                    <div className="flex items-start gap-2.5 bg-white/90 p-2.5 rounded-xl border border-indigo-100 shadow-xs">
+                      <span className="w-5 h-5 rounded-full bg-indigo-600 text-white font-black text-[11px] flex items-center justify-center shrink-0 mt-0.5">
+                        2
+                      </span>
+                      <div className="flex-1 font-semibold text-slate-900">
+                        Đăng nhập bằng tài khoản Google (Gmail) cá nhân của em.
+                      </div>
+                    </div>
+
+                    {/* Bước 3 */}
+                    <div className="flex items-start gap-2.5 bg-white/90 p-2.5 rounded-xl border border-indigo-100 shadow-xs">
+                      <span className="w-5 h-5 rounded-full bg-indigo-600 text-white font-black text-[11px] flex items-center justify-center shrink-0 mt-0.5">
+                        3
+                      </span>
+                      <div className="flex-1 text-slate-800">
+                        Bấm nút <span className="font-bold text-indigo-700 bg-indigo-50 px-1.5 py-0.5 rounded border border-indigo-200">"Create API key"</span> ➜ Chọn <span className="font-bold text-indigo-700 bg-indigo-50 px-1.5 py-0.5 rounded border border-indigo-200">"Create key in new project"</span>.
+                      </div>
+                    </div>
+
+                    {/* Bước 4 */}
+                    <div className="flex items-start gap-2.5 bg-white/90 p-2.5 rounded-xl border border-indigo-100 shadow-xs">
+                      <span className="w-5 h-5 rounded-full bg-indigo-600 text-white font-black text-[11px] flex items-center justify-center shrink-0 mt-0.5">
+                        4
+                      </span>
+                      <div className="flex-1 text-slate-800">
+                        Sao chép (Copy) dãy mã khóa và quay lại dán vào ô nhập bên dưới ➜ Bấm <span className="font-bold text-purple-700">"Xác nhận & Lưu"</span>.
+                      </div>
+                    </div>
                   </div>
 
-                  <button
-
-                    onClick={() => setShowKeyModal(false)}
-
-                    className="text-slate-400 hover:text-slate-600 font-bold text-lg"
-
-                  >
-
-                    ✕
-
-                  </button>
-
+                  {/* Lưu ý quan trọng */}
+                  <div className="flex items-center gap-2 bg-amber-50/90 border border-amber-200/90 p-2.5 rounded-xl text-[11px] text-amber-900 font-medium">
+                    <span className="text-base shrink-0">💡</span>
+                    <span><b>Lưu ý:</b> Chỉ cần làm 1 lần duy nhất trên thiết bị này. Khóa hoàn toàn miễn phí và bảo mật.</span>
+                  </div>
                 </div>
 
-
-
-                <div className="bg-purple-50/70 p-3.5 rounded-xl border border-purple-200/60 text-xs text-purple-900 space-y-2">
-
-                  <p>
-
-                    Để sử dụng trí tuệ nhân tạo Gemini tự động biên soạn bộ đề mới độc lập, em vui lòng cung cấp mã <b>Google Gemini API Key</b> (miễn phí từ Google AI Studio).
-
-                  </p>
-
-                  <p className="text-slate-600">
-
-                    💡 <i>Nếu không có mã Key, em có thể bấm <b>"Làm bài ngay (Đề Chuẩn)"</b> hoàn toàn miễn phí và không cần nhập bất kỳ mã nào!</i>
-
-                  </p>
-
-                </div>
-
-
-
+                {/* Ô DÁN MÃ KEY */}
                 <div className="space-y-1.5">
-
-                  <label className="text-xs font-bold text-slate-700">Gemini API Key của em:</label>
-
+                  <label className="text-xs font-bold text-slate-800 flex items-center justify-between">
+                    <span>Dán Gemini API Key của em vào đây:</span>
+                    <span className="text-[11px] text-purple-600 font-semibold">(Bắt đầu bằng AIzaSy...)</span>
+                  </label>
                   <input
-
                     type="password"
-
-                    placeholder="Dán mã AIzaSy... vào đây"
-
+                    placeholder="Dán mã khóa AIzaSy... vào đây"
                     value={tempKeyInput}
-
                     onChange={(e) => setTempKeyInput(e.target.value)}
-
-                    className="w-full text-xs border border-slate-300 rounded-xl px-3.5 py-2.5 focus:ring-2 focus:ring-purple-500 outline-none bg-slate-50"
-
+                    className="w-full text-xs font-mono border border-slate-300 rounded-xl px-3.5 py-2.5 focus:ring-2 focus:ring-purple-500 outline-none bg-slate-50 transition"
                   />
-
                   <div className="text-[11px] text-slate-400">
-
-                    Key được lưu trực tiếp và an toàn trên trình duyệt (localStorage), không lưu trữ trên máy chủ khác.
-
+                    Mã khóa được lưu trữ an toàn trực tiếp trên trình duyệt của em (localStorage) và không chia sẻ cho bất kỳ bên thứ ba nào.
                   </div>
-
                 </div>
 
-
-
-                <div className="flex flex-col sm:flex-row justify-end items-stretch sm:items-center gap-2 pt-2">
-
+                {/* NÚT THAO TÁC */}
+                <div className="flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-2 pt-2 border-t border-slate-100">
                   <button
-
                     onClick={() => {
-
                       setShowKeyModal(false);
-
-                      handleStartStandardExam(false);
-
-                    }}
-
-                    className="px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 transition text-center"
-
-                  >
-
-                    Làm Đề Chuẩn (Không cần Key)
-
-                  </button>
-
-                  <button
-
-                    onClick={() => {
-
-                      const trimmed = tempKeyInput.trim();
-
-                      if (!trimmed) {
-
-                        alert("Vui lòng dán mã Gemini API Key trước khi kích hoạt!");
-
-                        return;
-
+                      if (pendingAiGen) {
+                        setPendingAiGen(false);
+                        handleStartStandardExam(false);
                       }
-
-                      saveApiKey(trimmed);
-
-                      setShowKeyModal(false);
-
-                      generateExamWithAI(trimmed);
-
                     }}
-
-                    className="px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-purple-600 hover:bg-purple-700 shadow-md flex items-center justify-center gap-1.5 transition"
-
+                    className="px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-600 bg-slate-100 hover:bg-slate-200 transition text-center"
                   >
-
-                    <Icons.Sparkles /> Lưu Key & Bắt đầu sinh đề AI
-
+                    {pendingAiGen ? "Làm Đề Chuẩn (Không cần Key)" : "Để sau / Đóng"}
                   </button>
+                  <button
+                    onClick={() => {
+                      const trimmed = tempKeyInput.trim();
+                      if (!trimmed) {
+                        alert("Vui lòng dán mã Gemini API Key trước khi bấm Xác nhận & Lưu!");
+                        return;
+                      }
+                      saveApiKey(trimmed);
+                      setShowKeyModal(false);
+                      showToast("success", "Đã lưu Gemini API Key thành công trên thiết bị!");
 
+                      if (pendingAiGen) {
+                        setPendingAiGen(false);
+                        generateExamWithAI(trimmed);
+                      }
+                    }}
+                    className="px-5 py-2.5 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 shadow-md shadow-purple-500/25 flex items-center justify-center gap-1.5 transition transform active:scale-95"
+                  >
+                    <Icons.CheckCircle /> Xác nhận & Lưu
+                  </button>
                 </div>
-
               </div>
-
             </div>
-
           )}
-
-
-
-          {/* MODAL YÊU CẦU NHẬP KEY CHO CHẤM TỰ LUẬN AI VISION */}
 
           {showEssayKeyModal && (
 
