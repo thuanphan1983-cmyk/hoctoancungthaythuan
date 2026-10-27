@@ -4637,331 +4637,149 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
                     <div>
-
                       <label className="block text-xs font-bold uppercase text-slate-600 mb-2">
-
                         3. Chọn Bài học cụ thể
-
                       </label>
-
                       <select
-
                         value={selectedLesson}
-
                         onChange={(e) => setSelectedLesson(e.target.value)}
-
                         className="w-full p-2.5 rounded-xl border border-slate-300 bg-white text-sm font-medium focus:ring-2 focus:ring-indigo-600 outline-none"
-
                       >
-
                         {curriculum[selectedGrade]?.chapters
-
                           .find((c) => c.id === selectedChapter)
-
                           ?.lessons.map((les) => (
-
                             <option key={les} value={les}>
-
                               {les.toLowerCase().includes("cuối chương") ? `⭐ [Đề tổng hợp] ${les}` : les}
-
                             </option>
-
                           ))}
-
                       </select>
-
                     </div>
 
+                    {/* 2 NÚT HÀNH ĐỘNG CHÍNH - ĐẶT NGAY DƯỚI KHU VỰC CHỌN BÀI HỌC CỤ THỂ */}
+                    <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {/* Nút 1: Vào làm đề sẵn có */}
+                      <button
+                        type="button"
+                        onClick={() => handleStartStandardExam(false)}
+                        disabled={loadingAI || loadingExam}
+                        className="bg-gradient-to-r from-indigo-600 via-indigo-700 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold px-4 py-3 rounded-xl shadow-lg hover:shadow-indigo-500/25 flex items-center justify-center gap-2 transition transform active:scale-95 text-xs sm:text-sm border border-indigo-400/30 disabled:opacity-60 disabled:cursor-not-allowed"
+                      >
+                        {loadingExam ? (
+                          <>
+                            <Icons.RefreshCw />
+                            <span>Đang tải đề thi...</span>
+                          </>
+                        ) : (
+                          <>
+                            <Icons.BookOpen />
+                            <span>Vào làm Đề {selectedTestNum} (Có sẵn)</span>
+                          </>
+                        )}
+                      </button>
+
+                      {/* Nút 2: Sinh đề bằng AI */}
+                      <button
+                        type="button"
+                        onClick={handleStartAIGeneratedExam}
+                        disabled={loadingAI}
+                        className="bg-white hover:bg-purple-50 text-purple-700 border-2 border-purple-400 hover:border-purple-600 font-bold px-4 py-3 rounded-xl shadow-md flex items-center justify-center gap-2 transition transform active:scale-95 text-xs sm:text-sm disabled:opacity-50"
+                      >
+                        {loadingAI ? (
+                          <>
+                            <Icons.RefreshCw />
+                            <span>Đang kết nối Gemini...</span>
+                          </>
+                        ) : (
+                          <>
+                            <Icons.Sparkles />
+                            <span>Sinh đề bằng AI</span>
+                          </>
+                        )}
+                      </button>
+                    </div>
                   </div>
-
-
 
                   <div className="space-y-4">
-
                     <div>
-
                       <label className="block text-xs font-bold uppercase text-slate-600 mb-2">
-
-                        4. Chọn Đề kiểm tra (Phân hóa độ khó tăng dần: Đề 1 &lt; Đề 2 &lt; Đề 3)
-
+                        4. Chọn Đề kiểm tra (Phân hóa độ khó: Đề 1 &lt; Đề 2 &lt; Đề 3)
                       </label>
-
-                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-
+                      <div className="grid grid-cols-3 gap-2.5">
                         {[
-
                           {
-
                             num: 1,
-
-                            title: "Bài kiểm tra số 1",
-
-                            level: "Cơ bản & Chuẩn kiến thức",
-
-                            scoreRange: "Mục tiêu 5.0 - 7.0 điểm",
-
-                            badge: "🌱 Mức độ Cơ bản",
-
-                            badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-300",
-
-                            desc: "Bám sát chuẩn SGK, hỏi trực tiếp định nghĩa, công thức cơ bản."
-
+                            title: "Đề số 1",
+                            level: "Cơ bản",
+                            scoreRange: "5 - 7 điểm",
+                            icon: "🌱",
+                            activeStyle: "border-emerald-600 bg-emerald-50/80 ring-2 ring-emerald-500/20 text-emerald-950",
+                            badgeColor: "bg-emerald-100 text-emerald-800"
                           },
-
                           {
-
                             num: 2,
-
-                            title: "Bài kiểm tra số 2",
-
-                            level: "Khá & Vận dụng linh hoạt",
-
-                            scoreRange: "Mục tiêu 7.0 - 8.5 điểm",
-
-                            badge: "🚀 Mức độ Khá (Khó hơn Đề 1)",
-
-                            badgeColor: "bg-blue-100 text-blue-800 border-blue-300",
-
-                            desc: "Khó hơn Đề 1 rõ rệt: biến đổi nhiều bước, bài toán thực tế trung bình."
-
+                            title: "Đề số 2",
+                            level: "Khá",
+                            scoreRange: "7 - 8.5 điểm",
+                            icon: "🚀",
+                            activeStyle: "border-blue-600 bg-blue-50/80 ring-2 ring-blue-500/20 text-blue-950",
+                            badgeColor: "bg-blue-100 text-blue-800"
                           },
-
                           {
-
                             num: 3,
-
-                            title: "Bài kiểm tra số 3",
-
-                            level: "Giỏi & Phân hóa sâu",
-
-                            scoreRange: "Mục tiêu 8.5 - 10.0 điểm",
-
-                            badge: "🔥 Nâng cao (Khó nhất)",
-
-                            badgeColor: "bg-purple-100 text-purple-800 border-purple-300",
-
-                            desc: "Độ khó cao nhất, phân hóa sâu cho HSG và thi vào 10 (chốt điểm 10)."
-
+                            title: "Đề số 3",
+                            level: "Giỏi",
+                            scoreRange: "8.5 - 10 điểm",
+                            icon: "🔥",
+                            activeStyle: "border-purple-600 bg-purple-50/80 ring-2 ring-purple-500/20 text-purple-950",
+                            badgeColor: "bg-purple-100 text-purple-800"
                           }
-
                         ].map((item) => (
-
                           <button
-
                             key={item.num}
-
                             type="button"
-
                             onClick={() => setSelectedTestNum(item.num)}
-
-                            className={`p-3.5 rounded-xl border-2 text-left transition relative flex flex-col justify-between ${
-
+                            className={`p-2.5 rounded-xl border-2 text-center transition flex flex-col items-center justify-between gap-1.5 relative ${
                               selectedTestNum === item.num
-
-                                ? "border-indigo-600 bg-indigo-50/70 shadow-md ring-2 ring-indigo-500/20"
-
-                                : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/70"
-
+                                ? `${item.activeStyle} shadow-sm`
+                                : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50"
                             }`}
-
                           >
-
-                            <div>
-
-                              <div className="flex items-center justify-between mb-1.5">
-
-                                <span className="text-sm font-black text-slate-900">{item.title}</span>
-
-                                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${item.badgeColor}`}>
-
-                                  {item.badge}
-
-                                </span>
-
+                            <div className="flex items-center gap-1">
+                              <span className="text-base">{item.icon}</span>
+                              <span className="text-xs font-black text-slate-900">{item.title}</span>
+                            </div>
+                            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${item.badgeColor}`}>
+                              Mức độ: {item.level}
+                            </span>
+                            <div className="text-[11px] font-semibold text-slate-500">
+                              Mục tiêu: {item.scoreRange}
+                            </div>
+                            {selectedTestNum === item.num && (
+                              <div className="text-[10px] font-black text-emerald-700 flex items-center gap-0.5">
+                                <span>✓</span> <span>Đang chọn</span>
                               </div>
-
-                              <div className="text-xs font-bold text-indigo-950 mb-1">{item.level}</div>
-
-                              <div className="text-[11px] text-slate-500 leading-snug">{item.desc}</div>
-
-                            </div>
-
-                            <div className="mt-3 pt-2 border-t border-slate-100 text-[10px] font-bold text-slate-600 flex items-center justify-between">
-
-                              <span className="text-indigo-700">{item.scoreRange}</span>
-
-                              {selectedTestNum === item.num && (
-
-                                <span className="text-emerald-700 font-extrabold flex items-center gap-1">
-
-                                  ✓ Đang chọn
-
-                                </span>
-
-                              )}
-
-                            </div>
-
+                            )}
                           </button>
-
                         ))}
-
                       </div>
-
-
-
-                      {/* BANNER HƯỚNG DẪN MỨC ĐỘ KHÓ */}
-
-                      <div className="mt-2.5 p-3 rounded-xl border text-xs leading-relaxed flex items-start gap-2.5 bg-slate-50 border-slate-200">
-
-                        <span className="text-base">
-
-                          {selectedTestNum === 1 ? "🌱" : selectedTestNum === 2 ? "🚀" : "🔥"}
-
-                        </span>
-
-                        <div>
-
-                          <span className="font-bold text-slate-900">
-
-                            {selectedTestNum === 1
-
-                              ? "Cấu trúc Đề số 1 (Đề chuẩn cơ bản): "
-
-                              : selectedTestNum === 2
-
-                              ? "Cấu trúc Đề số 2 (Độ khó cao hơn Đề 1): "
-
-                              : "Cấu trúc Đề số 3 (Độ khó cao nhất - Phân hóa học sinh giỏi): "}
-
-                          </span>
-
-                          <span className="text-slate-700">
-
-                            {selectedTestNum === 1
-
-                              ? "Tập trung củng cố kiến thức nền tảng SGK. Các câu hỏi hỏi trực tiếp công thức và ví dụ mẫu. Thích hợp cho mọi học sinh rèn luyện nắm chắc điểm 5 đến 7."
-
-                              : selectedTestNum === 2
-
-                              ? "Nâng cao độ khó so với Đề 1, yêu cầu biến đổi nhiều bước, giải toán thực tế và kết hợp nhiều kiến thức. Phù hợp mục tiêu điểm 7 đến 8.5."
-
-                              : "Độ khó cao nhất, chứa các dạng bài phân hóa sâu sắc (chứa tham số m, cực trị hình học, bất đẳng thức GTLN/GTNN). Phù hợp ôn thi vào lớp 10 và bồi dưỡng HSG."}
-
-                          </span>
-
-                        </div>
-
-                      </div>
-
                     </div>
-
-
 
                     {/* Tóm tắt ma trận 10 điểm */}
-
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs space-y-1.5">
-
-                      <div className="font-bold text-slate-800 uppercase tracking-wide">
-
-                        Ma trận Đề kiểm tra chuẩn Bộ GD&ĐT (10,0 điểm):
-
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 text-xs space-y-1.5">
+                      <div className="font-bold text-slate-800 uppercase tracking-wide flex items-center justify-between">
+                        <span>Ma trận Đề kiểm tra chuẩn Bộ GD&ĐT (10,0 điểm)</span>
+                        <span className="text-[10px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">90 phút</span>
                       </div>
-
-                      <ul className="space-y-1 text-slate-600">
-
-                        <li>• <b>Phần I (3,0đ):</b> 12 câu Trắc nghiệm (0,25đ/câu) - Khóa tuần tự Câu 1 → 12.</li>
-
-                        <li>• <b>Phần II (2,0đ):</b> 2 câu Đúng/Sai (1,0đ/câu) - Chấm lũy tiến 0,1 - 0,25 - 0,5 - 1,0đ.</li>
-
-                        <li>• <b>Phần III (2,0đ):</b> 4 câu Trả lời ngắn (0,5đ/câu) - Điền số nguyên hoặc số thập phân.</li>
-
-                        <li>• <b>Phần IV (3,0đ):</b> 3 câu Tự luận (1,0đ/câu) - Chụp ảnh bài giải, AI Vision chấm chi tiết.</li>
-
+                      <ul className="space-y-1 text-slate-600 text-[11px]">
+                        <li>• <b>Phần I (3,0đ):</b> 12 câu Trắc nghiệm (0,25đ/câu)</li>
+                        <li>• <b>Phần II (2,0đ):</b> 2 câu Đúng/Sai (1,0đ/câu)</li>
+                        <li>• <b>Phần III (2,0đ):</b> 4 câu Trả lời ngắn (0,5đ/câu)</li>
+                        <li>• <b>Phần IV (3,0đ):</b> 3 câu Tự luận (1,0đ/câu) - AI Vision chấm viết tay</li>
                       </ul>
-
                     </div>
-
                   </div>
-
                 </div>
-
-
-
-                <div className="pt-4 flex flex-col sm:flex-row justify-end items-stretch sm:items-center gap-3">
-
-                  {/* Nút 1: Làm bài ngay (Đề Chuẩn) - Nổi bật, KHÔNG yêu cầu API Key */}
-
-                  <button
-
-                    type="button"
-
-                    onClick={() => handleStartStandardExam(false)}
-
-                    disabled={loadingAI || loadingExam}
-
-                    className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-indigo-500/25 flex items-center justify-center gap-2.5 transition transform active:scale-95 text-sm sm:text-base border border-indigo-400/30 disabled:opacity-60 disabled:cursor-not-allowed"
-
-                  >
-
-                    {loadingExam ? (
-                      <>
-                        <Icons.RefreshCw />
-                        <span>Đang tải đề thi...</span>
-                      </>
-                    ) : (
-                      <>
-                        <Icons.BookOpen />
-                        <span>Làm bài ngay (Đề Chuẩn)</span>
-                      </>
-                    )}
-
-                  </button>
-
-
-
-                  {/* Nút 2: Sinh đề AI Cá nhân hóa - Yêu cầu Key & Fallback */}
-
-                  <button
-
-                    type="button"
-
-                    onClick={handleStartAIGeneratedExam}
-
-                    disabled={loadingAI}
-
-                    className="bg-white hover:bg-purple-50 text-purple-700 border-2 border-purple-400 hover:border-purple-600 font-bold px-6 py-3.5 rounded-xl shadow-md flex items-center justify-center gap-2.5 transition transform active:scale-95 text-sm sm:text-base disabled:opacity-50"
-
-                  >
-
-                    {loadingAI ? (
-
-                      <>
-
-                        <Icons.RefreshCw />
-
-                        <span>Đang kết nối Gemini AI...</span>
-
-                      </>
-
-                    ) : (
-
-                      <>
-
-                        <Icons.Sparkles />
-
-                        <span>Sinh đề AI Cá nhân hóa</span>
-
-                      </>
-
-                    )}
-
-                  </button>
-
-                </div>
-
               </div>
-
             )}
 
 
