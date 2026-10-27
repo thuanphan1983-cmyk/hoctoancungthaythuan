@@ -5055,13 +5055,14 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                                   <div className="flex items-center gap-2">
                                     <button
-                                      onClick={() =>
+                                      disabled={examTimeLeft <= 0 || isExamSubmitted || loadingAI}
+                                      onClick={() => {
                                         if (examTimeLeft <= 0 || isExamSubmitted || loadingAI) return;
                                         setTfAnswers((prev) => ({
                                           ...prev,
                                           [q.id]: { ...prev[q.id], [stmtKey]: true }
-                                        }))
-                                      }
+                                        }));
+                                      }}
                                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition ${
                                         currentVal === true
                                           ? "bg-emerald-600 text-white border-emerald-600"
@@ -5072,13 +5073,14 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                     </button>
 
                                     <button
-                                      onClick={() =>
+                                      disabled={examTimeLeft <= 0 || isExamSubmitted || loadingAI}
+                                      onClick={() => {
                                         if (examTimeLeft <= 0 || isExamSubmitted || loadingAI) return;
                                         setTfAnswers((prev) => ({
                                           ...prev,
                                           [q.id]: { ...prev[q.id], [stmtKey]: false }
-                                        }))
-                                      }
+                                        }));
+                                      }}
                                       className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition ${
                                         currentVal === false
                                           ? "bg-rose-600 text-white border-rose-600"
