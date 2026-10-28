@@ -257,43 +257,41 @@ def build_prompt(grade, chapter, lesson, test_num):
 
     difficulty_specs = {
         1: {
-            "name": "ĐỀ SỐ 1 - CHUẨN CƠ BẢN BÁM SÁT SGK (Mục tiêu 7.0 - 8.0 điểm)",
+            "name": "ĐỀ SỐ 1 - MỨC ĐỘ KHÁ (40% NB, 30% TH, 20% VD, 10% VDC)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 1 (CHUẨN CƠ BẢN BÁM SÁT SGK KẾT NỐI TRI THỨC):
-- Tỷ lệ chuẩn: 70% Nhận biết & Thông hiểu, 20% Vận dụng cơ bản theo bài học SGK, 10% Liên hệ thực tế nhẹ.
-- Bám sát 100% mục tiêu cần đạt, ví dụ, hoạt động luyện tập và bài tập của đúng bài học đó trong SGK.
-- Đảm bảo học sinh khá - trung bình làm tốt 7.0 - 8.0 điểm.
-- Phần I (Trắc nghiệm 12 câu): 8 câu Nhận biết trực tiếp + 4 câu Thông hiểu cơ bản.
-- Phần II (Đúng/Sai 2 câu): Các mệnh đề rõ ràng, kiểm tra đúng tính chất và quy tắc của bài học.
-- Phần III (Trả lời ngắn 4 câu): Tính toán số học / đại số 1-2 bước cơ bản theo bài học, kết quả gọn gàng.
-- Phần IV (Tự luận 3 câu): Dạng bài mẫu mực tương đương các bài tập cơ bản trong SGK."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 1 (MỨC ĐỘ KHÁ - MA TRẬN 40% NB - 30% TH - 20% VD - 10% VDC):
+- Phân bổ toàn bài: 40% Nhận biết, 30% Thông hiểu, 20% Vận dụng, 10% Vận dụng cao (khó).
+- RÀNG BUỘC CẤU TRÚC CHI TIẾT BẮT BUỘC:
+  + Phần I (Trắc nghiệm 12 câu): 8 câu Nhận biết (khái niệm, định nghĩa, công thức), 3 câu Thông hiểu (tính toán 1-2 bước), 1 câu Vận dụng nhẹ.
+  + Phần II (Đúng/Sai 2 câu lớn): Trong MỖI câu lớn (4 ý a, b, c, d), BẮT BUỘC phải có đúng 1 ý ở mức độ Vận dụng (hơi khó), 3 ý còn lại là Nhận biết hoặc Thông hiểu.
+  + Phần III (Trả lời ngắn 4 câu): Trong tổng số 4 câu hỏi, BẮT BUỘC phải có đúng 2 câu ở mức độ Vận dụng (hơi khó), 2 câu còn lại là Thông hiểu.
+  + Phần IV (Tự luận 3 câu): Câu 1 (Thông hiểu - 1.0đ), Câu 2 (Vận dụng - 1.0đ), Câu 3 (Vận dụng cao khó phân hóa - 1.0đ)."""
         },
         2: {
-            "name": "ĐỀ SỐ 2 - RÈN LUYỆN TƯƠNG ĐƯƠNG ĐỀ 1 (Mục tiêu 7.0 - 8.0 điểm)",
+            "name": "ĐỀ SỐ 2 - MỨC ĐỘ KHÁ (40% NB, 30% TH, 20% VD, 10% VDC - TƯƠNG ĐƯƠNG ĐỀ 1)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 2 (TƯƠNG ĐƯƠNG ĐỀ 1 - RÈN LUYỆN SONG SONG):
-- Độ khó TƯƠNG ĐƯƠNG ĐỀ 1 (70% Nhận biết & Thông hiểu, 20% Vận dụng cơ bản theo bài học SGK, 10% Liên hệ thực tế nhẹ).
-- Đảm bảo học sinh khá - trung bình làm tốt 7.0 - 8.0 điểm.
-- BẮT BUỘC THAY ĐỔI SỐ LIỆU VÀ NGỮ CẢNH SO VỚI ĐỀ 1 để học sinh rèn luyện song song nhưng KHÔNG LÀM TĂNG ĐỘ KHÓ.
-- Phần I (Trắc nghiệm 12 câu): 8 câu Nhận biết + 4 câu Thông hiểu (đổi số liệu và cách diễn đạt so với Đề 1).
-- Phần II (Đúng/Sai 2 câu): 2 câu kiểm tra toàn diện các khía cạnh khác của bài học với cùng độ khó cơ bản.
-- Phần III (Trả lời ngắn 4 câu): 4 câu tính toán cơ bản với bộ số liệu mới.
-- Phần IV (Tự luận 3 câu): 3 bài tập mẫu mực bám sát SGK với số liệu khác Đề 1."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 2 (TƯƠNG ĐƯƠNG ĐỀ 1 - MA TRẬN 40% NB - 30% TH - 20% VD - 10% VDC):
+- Độ khó TƯƠNG ĐƯƠNG ĐỀ 1 (40% Nhận biết, 30% Thông hiểu, 20% Vận dụng, 10% Vận dụng cao).
+- BẮT BUỘC THAY ĐỔI SỐ LIỆU VÀ NGỮ CẢNH SO VỚI ĐỀ 1 để học sinh rèn luyện song song nhưng GIỮ NGUYÊN ĐỘ KHÓ.
+- RÀNG BUỘC CẤU TRÚC CHI TIẾT BẮT BUỘC:
+  + Phần I (Trắc nghiệm 12 câu): 8 câu Nhận biết, 3 câu Thông hiểu, 1 câu Vận dụng.
+  + Phần II (Đúng/Sai 2 câu lớn): Trong MỖI câu lớn (4 ý a, b, c, d), BẮT BUỘC phải có đúng 1 ý ở mức độ Vận dụng (hơi khó).
+  + Phần III (Trả lời ngắn 4 câu): Trong tổng số 4 câu hỏi, BẮT BUỘC phải có đúng 2 câu ở mức độ Vận dụng (hơi khó).
+  + Phần IV (Tự luận 3 câu): Câu 1 (Thông hiểu - 1.0đ), Câu 2 (Vận dụng - 1.0đ), Câu 3 (Vận dụng cao khó - 1.0đ)."""
         },
         3: {
-            "name": "ĐỀ SỐ 3 - PHÂN HÓA NHẸ BÁM SÁT SGK (Mục tiêu 8.5 - 9.5 điểm)",
+            "name": "ĐỀ SỐ 3 - MỨC ĐỘ KHÁ GIỎI (20% NB, 30% TH, 30% VD, 20% VDC)",
             "rules": """
-YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (KHÓ HƠN ĐỀ 1 & 2 MỘT ÍT - PHÂN HÓA NHẸ BÁM SÁT SGK):
-- Tỷ lệ: 60% Cơ bản, 30% Vận dụng, 10% Vận dụng nâng cao nhẹ.
-- CHỈ PHÂN HÓA NHẸ Ở CÂU HỎI CUỐI CỦA BÀI, BÁM SÁT 100% mục tiêu cần đạt trong SGK.
-- TUYỆT ĐỐI KHÔNG đưa bài tập thi HSG nặng nề hay kiến thức ngoài bài vào.
-- Phần I (Trắc nghiệm 12 câu): 6 câu Cơ bản + 4 câu Thông hiểu nâng cao + 2 câu Vận dụng nhẹ.
-- Phần II (Đúng/Sai 2 câu): Yêu cầu lập luận chặt chẽ hơn một chút, đối chiếu điều kiện bài học.
-- Phần III (Trả lời ngắn 4 câu): Có 1 câu vận dụng tổng hợp nhẹ của bài học đó.
-- Phần IV (Tự luận 3 câu):
-  + Câu 1 (1.0đ): Vận dụng cơ bản bài học.
-  + Câu 2 (1.0đ): Bài toán thực tế hoặc biến đổi bám sát nội dung SGK.
-  + Câu 3 (1.0đ): Phân hóa nhẹ ở ý cuối của bài học SGK (không ra đề thi HSG ngoài chương trình)."""
+YÊU CẦU ĐỘ KHÓ ĐỀ SỐ 3 (MỨC ĐỘ KHÁ GIỎI - MA TRẬN 20% NB - 30% TH - 30% VD - 20% VDC):
+- Phân bổ toàn bài: 20% Nhận biết, 30% Thông hiểu, 30% Vận dụng, 20% Vận dụng cao (khó).
+- RÀNG BUỘC CẤU TRÚC CHI TIẾT BẮT BUỘC:
+  + Phần I (Trắc nghiệm 12 câu): 4 câu Nhận biết, 4 câu Thông hiểu, 3 câu Vận dụng, 1 câu Vận dụng cao.
+  + Phần II (Đúng/Sai 2 câu lớn): Trong MỖI câu lớn (4 ý a, b, c, d), BẮT BUỘC phải có đúng 1 ý ở mức độ Vận dụng (hơi khó).
+  + Phần III (Trả lời ngắn 4 câu): Trong tổng số 4 câu hỏi, BẮT BUỘC phải có đúng 2 câu ở mức độ Vận dụng (hơi khó), 1 câu Thông hiểu, 1 câu Vận dụng cao nhẹ.
+  + Phần IV (Tự luận 3 câu):
+    * Câu 1 (1.0đ): Vận dụng kết hợp kiến thức.
+    * Câu 2 (1.0đ): Bài toán thực tế hoặc hình học vận dụng.
+    * Câu 3 (1.0đ): Câu phân hóa học sinh khá giỏi (Vận dụng cao)."""
         }
     }
 
@@ -313,10 +311,12 @@ RÀNG BUỘC ĐỘC LẬP & CHỐNG SAO CHÉP TUYỆT ĐỐI GIỮA CÁC ĐỀ:
 1. ĐÂY LÀ ĐỀ SỐ {test_num} TRONG BỘ 3 ĐỀ PHÂN HÓA CỦA BÀI HỌC NÀY.
 2. BẮT BUỘC: Toàn bộ số liệu, hàm số, phương trình, biến số, hệ số, ngữ cảnh và cách đặt câu hỏi phải ĐỘC LẬP HOÀN TOÀN. KHÔNG ĐƯỢC lặp lại đề mẫu mặc định hay sao chép từ đề khác của cùng bài học.
 3. KHÔNG ĐƯỢC dùng lại cùng một ví dụ rập khuôn trong SGK. Hãy sáng tạo số liệu mới, các biểu thức toán học mới lạ, ngữ cảnh thực tế phong phú.
-4. Tuân thủ chuẩn mực phân hóa:
-   * Nếu là Đề 1 (Chuẩn cơ bản SGK): 70% NB-TH, 20% VD cơ bản, 10% thực tế nhẹ. Học sinh khá - TB làm tốt 7 - 8 điểm.
-   * Nếu là Đề 2 (Tương đương Đề 1): Giữ nguyên độ khó tương đương Đề 1 (70/20/10, 7 - 8 điểm), đổi mới số liệu và ngữ cảnh để rèn luyện song song.
-   * Nếu là Đề 3 (Phân hóa nhẹ): Khó hơn Đề 1 & 2 một ít (60% cơ bản, 30% VD, 10% VDC nhẹ ở câu cuối). Bám sát SGK, TUYỆT ĐỐI KHÔNG đưa bài thi HSG nặng nề vào.
+4. Tuân thủ chuẩn mực phân hóa và ràng buộc ma trận:
+   * Đề 1 & Đề 2 (Mức độ Khá): 40% Nhận biết, 30% Thông hiểu, 20% Vận dụng, 10% Vận dụng cao (khó).
+   * Đề 3 (Mức độ Khá Giỏi): 20% Nhận biết, 30% Thông hiểu, 30% Vận dụng, 20% Vận dụng cao (khó).
+   * RÀNG BUỘC CẤU TRÚC BẮT BUỘC (Áp dụng cho CẢ 3 ĐỀ):
+     - Phần II (Trắc nghiệm Đúng/Sai): Trong mỗi câu lớn (4 ý a, b, c, d), BẮT BUỘC phải có đúng 1 ý ở mức độ Vận dụng (hơi khó).
+     - Phần III (Trả lời ngắn): Trong tổng số 4 câu hỏi, BẮT BUỘC phải có đúng 2 câu ở mức độ Vận dụng (hơi khó).
 
 {spec['rules']}
 

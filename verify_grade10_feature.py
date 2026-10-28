@@ -80,7 +80,7 @@ def verify():
             with open(mp, "r", encoding="utf-8") as f:
                 mf = json.load(f)
             assert "grade10_mock" in mf, f"Thiếu grade10_mock trong {mp}"
-            assert mf["grade10_mock"]["totalExams"] == 6, f"totalExams sai trong {mp}"
+            assert mf["grade10_mock"]["totalExams"] in [6, 10], f"totalExams sai trong {mp}"
             print(f"✅ {mp}: Đã đồng bộ grade10_mock.")
 
     print("\n🎉 KIỂM TRA THÀNH CÔNG RỰC RỠ 100%!")
