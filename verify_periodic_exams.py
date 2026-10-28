@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-VERIFY PERIODIC EXAMS IN ROOT & DIST
+VERIFY PERIODIC EXAMS IN ROOT & DIST (ALL 96 EXAMS: GK1, CK1, GK2, CK2)
 """
 
 import os
@@ -30,9 +30,9 @@ def load_bank_from_file(filepath):
     return json.loads(json_str)
 
 def main():
-    print("=" * 70)
-    print("KIỂM TRA TÍNH TOÀN VẸN CỦA HỆ THỐNG ĐỀ THI ĐỊNH KỲ (HK2)")
-    print("=" * 70)
+    print("=" * 75)
+    print("KIỂM TRA TÍNH TOÀN VẸN CỦA HỆ THỐNG ĐỀ THI ĐỊNH KỲ (HK1 & HK2) - 96 ĐỀ")
+    print("=" * 75)
 
     for fp in FILES_TO_CHECK:
         assert os.path.exists(fp), f"Không tìm thấy {fp}"
@@ -43,27 +43,20 @@ def main():
         for grade in ["6", "7", "8", "9"]:
             assert grade in bank, f"Thiếu grade {grade} trong {fp}"
             
-            # Kiểm tra Giữa kỳ 2
-            mid2 = bank[grade].get("mid2", [])
-            assert len(mid2) == 6, f"Khối {grade} mid2 không đúng 6 đề (hiện có {len(mid2)})"
-            for i, ex in enumerate(mid2, 1):
-                validate_periodic_exam(ex, grade, "mid2", i)
-                total_checked += 1
+            for term in ["mid1", "final1", "mid2", "final2"]:
+                exams = bank[grade].get(term, [])
+                assert len(exams) == 6, f"Khối {grade} {term} không đúng 6 đề (hiện có {len(exams)})"
+                for i, ex in enumerate(exams, 1):
+                    validate_periodic_exam(ex, grade, term, i)
+                    total_checked += 1
 
-            # Kiểm tra Cuối kỳ 2
-            final2 = bank[grade].get("final2", [])
-            assert len(final2) == 6, f"Khối {grade} final2 không đúng 6 đề (hiện có {len(final2)})"
-            for i, ex in enumerate(final2, 1):
-                validate_periodic_exam(ex, grade, "final2", i)
-                total_checked += 1
+            print(f"  OK Khối {grade}: Đã kiểm tra 24 đề (6 GK1 + 6 CK1 + 6 GK2 + 6 CK2) -> ĐẠT CHUẨN!")
 
-            print(f"  ✅ Khối {grade}: Đã kiểm tra 6 đề Giữa kỳ 2 + 6 đề Cuối kỳ 2 -> HOÀN TOÀN ĐẠT CHUẨN!")
+        print(f"File {fp}: Đã xác thực thành công {total_checked}/96 đề định kỳ!")
 
-        print(f"🎉 File {fp}: Đã xác thực thành công {total_checked}/48 đề định kỳ!")
-
-    print("\n" + "=" * 70)
-    print("TẤT CẢ 48 MÃ ĐỀ ĐỊNH KỲ HK2 ĐÃ ĐƯỢC ĐỒNG BỘ VÀ XÁC THỰC 100% HOÀN HẢO!")
-    print("=" * 70)
+    print("\n" + "=" * 75)
+    print("TẤT CẢ 96 MÃ ĐỀ ĐỊNH KỲ HK1 VÀ HK2 ĐÃ ĐƯỢC ĐỒNG BỘ VÀ XÁC THỰC 100% HOÀN HẢO!")
+    print("=" * 75)
 
 if __name__ == "__main__":
     main()

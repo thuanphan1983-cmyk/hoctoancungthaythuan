@@ -15,6 +15,7 @@ import json
 
 sys.stdout.reconfigure(encoding='utf-8')
 from periodic_validator import validate_periodic_exam
+from build_periodic_grade6_term1 import generate_g6_mid1, generate_g6_final1
 
 def make_mc(qid, level, q_text, options, correct, exp):
     return {

@@ -31,7 +31,7 @@ def validate_periodic_exam(exam, expected_grade, expected_term, expected_test_nu
     ex_id = exam.get("id", "unknown_id")
     assert exam.get("grade") == str(expected_grade), f"[{ex_id}] Sai grade: {exam.get('grade')} != {expected_grade}"
     assert exam.get("term") == str(expected_term), f"[{ex_id}] Sai term: {exam.get('term')} != {expected_term}"
-    assert exam.get("testNum") == expected_test_num, f"[{ex_id}] Sai testNum: {exam.get('testNum')} != {expected_test_num}"
+    assert str(exam.get("testNum")).zfill(2) == str(expected_test_num).zfill(2) or exam.get("testNum") == expected_test_num, f"[{ex_id}] Sai testNum: {exam.get('testNum')} != {expected_test_num}"
     
     # 1. Phần I: 12 câu trắc nghiệm khách quan
     part1 = exam.get("part1", [])

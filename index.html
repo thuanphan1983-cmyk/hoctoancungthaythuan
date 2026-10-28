@@ -2292,6 +2292,21 @@ if (typeof window !== "undefined") {
     // ==========================================
     // CHUẨN HÓA DỮ LIỆU ĐỀ THI (NORMALIZE EXAM DATA)
     // ==========================================
+    // Helper lấy ngữ cảnh / đề bài mẹ đầy đủ nhất cho câu hỏi Đúng / Sai
+    function getFullPart2Stem(q) {
+      if (!q) return "";
+      const candidates = [q.intro, q.stem, q.question, q.content, q.context, q.title]
+        .filter(s => typeof s === "string" && s.trim().length > 0);
+      if (candidates.length === 0) return "";
+      candidates.sort((a, b) => {
+        const aMath = (/\$|\\/.test(a) ? 1 : 0);
+        const bMath = (/\$|\\/.test(b) ? 1 : 0);
+        if (aMath !== bMath) return bMath - aMath;
+        return b.trim().length - a.trim().length;
+      });
+      return candidates[0];
+    }
+
     function normalizeExamData(rawExam) {
       if (!rawExam) return rawExam;
       const exam = { ...rawExam };
@@ -2341,7 +2356,7 @@ if (typeof window !== "undefined") {
       // 2. Chuẩn hóa Phần II (Đúng/Sai)
       if (Array.isArray(exam.part2)) {
         exam.part2 = exam.part2.map((q) => {
-          const stem = q.stem || q.question || q.intro || q.content || q.title || "";
+          const stem = getFullPart2Stem(q);
           const rawStatements = q.statements || q.options || q.items || [];
           const statements = rawStatements.map((stmt, sIdx) => {
             const key = stmt.key || stmt.id || String.fromCharCode(97 + sIdx);
@@ -2359,9 +2374,9 @@ if (typeof window !== "undefined") {
           });
           return {
             ...q,
-            intro: q.intro || stem,
+            intro: stem,
             stem,
-            question: q.question || stem,
+            question: stem,
             statements
           };
         });
@@ -4104,7 +4119,9 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
 
           return {
             id: q.id || (qIdx + 1),
-            intro: q.intro || q.stem || q.question || "",
+            intro: getFullPart2Stem(q) || q.intro || q.stem || q.question || "",
+            stem: getFullPart2Stem(q) || q.intro || q.stem || q.question || "",
+            question: getFullPart2Stem(q) || q.intro || q.stem || q.question || "",
             subItems,
             correctSubCount: subItems.filter(item => item.isCorrect).length,
             totalSubCount: subItems.length,
@@ -5451,10 +5468,17 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             <>
 
                               <div className="text-sm font-medium text-slate-800 mb-3">
-
                                 <EssayQuestionView question={q.question} />
-
                               </div>
+                              {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                                <div className="mb-3 text-center">
+                                  <img
+                                    src={q.image || q.imageUrl || q.diagram || q.figure}
+                                    alt="Hình vẽ minh họa"
+                                    className="max-w-full md:max-w-md max-h-60 mx-auto rounded-lg border border-slate-200 shadow-sm object-contain"
+                                  />
+                                </div>
+                              )}
 
                               <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
 
@@ -5563,14 +5587,34 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   <div className="space-y-5">
 
                     {examData.part2.map((q) => {
-                      const stemText = q.stem || q.question || q.intro || q.content || q.title || "";
+                      const stemText = getFullPart2Stem(q) || q.stem || q.question || q.intro || q.content || "";
                       const rawList = q.statements || q.options || q.items || [];
-                      console.log(`[Phần II] Dữ liệu Câu ${q.id}:`, { stem: stemText, rawList });
+                      const questionImage = q.image || q.imageUrl || q.diagram || q.figure || null;
 
                       return (
-                        <div key={q.id} className="p-4 rounded-xl border border-slate-200 bg-slate-50/50 space-y-3">
-                          <div className="font-bold text-sm text-slate-900">
-                            Câu {q.id}: <MathView text={stemText} />
+                        <div key={q.id} className="p-4 md:p-5 rounded-2xl border border-slate-200 bg-slate-50/60 space-y-3.5 shadow-sm">
+                          {/* Đề bài mẹ / Ngữ cảnh dẫn chung cho 4 ý Đúng - Sai */}
+                          <div className="bg-indigo-50/80 p-4 rounded-xl border border-indigo-200/80 space-y-2">
+                            <div className="flex items-center gap-2">
+                              <span className="px-2.5 py-0.5 bg-indigo-600 text-white text-xs font-bold rounded-md uppercase">
+                                Câu {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"} điểm)
+                              </span>
+                              <span className="text-xs font-black text-indigo-900 uppercase tracking-wide">
+                                Đề bài dẫn chung / Ngữ cảnh bài toán
+                              </span>
+                            </div>
+                            <div className="text-sm md:text-base font-semibold text-slate-900 leading-relaxed pl-0.5">
+                              <MathView text={stemText} />
+                            </div>
+                            {questionImage && (
+                              <div className="pt-2 text-center">
+                                <img
+                                  src={questionImage}
+                                  alt={`Hình vẽ minh họa Câu ${q.id}`}
+                                  className="max-w-full md:max-w-md max-h-64 object-contain mx-auto rounded-lg border border-slate-200 shadow-sm"
+                                />
+                              </div>
+                            )}
                           </div>
 
                           <div className="space-y-2">
@@ -5688,10 +5732,17 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           </div>
 
                           <div className="text-sm text-slate-800">
-
                             <EssayQuestionView question={q.question} />
-
                           </div>
+                          {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                            <div className="my-2 text-center">
+                              <img
+                                src={q.image || q.imageUrl || q.diagram || q.figure}
+                                alt="Hình vẽ minh họa"
+                                className="max-w-full md:max-w-md max-h-56 mx-auto rounded-lg border border-slate-200 shadow-sm object-contain"
+                              />
+                            </div>
+                          )}
 
                         </div>
 
@@ -5915,7 +5966,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                           <div className="flex items-center justify-between">
 
-                            <span className="font-bold text-sm text-indigo-900">Câu tự luận {q.id} (1,0 điểm)</span>
+                            <span className="font-bold text-sm text-indigo-900">
+                              Câu tự luận {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"} điểm)
+                            </span>
 
                             <span className="text-xs px-2.5 py-0.5 bg-purple-100 text-purple-800 rounded font-medium">
 
@@ -5930,6 +5983,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             <EssayQuestionView question={q.question} />
 
                           </div>
+
+                          {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                            <div className="text-center my-2">
+                              <img
+                                src={q.image || q.imageUrl || q.diagram || q.figure}
+                                alt={`Hình vẽ minh họa Câu tự luận ${q.id}`}
+                                className="max-w-full md:max-w-md max-h-60 mx-auto rounded-lg border border-slate-200 shadow-sm object-contain"
+                              />
+                            </div>
+                          )}
 
 
 
@@ -6892,8 +6955,13 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                                       {/* Đề bài dẫn của câu Đúng/Sai */}
                                       {q.intro && (
-                                        <div className="text-sm font-medium text-slate-800">
-                                          <MathView text={q.intro} />
+                                        <div className="bg-emerald-50/70 p-3 rounded-xl border border-emerald-200/70 space-y-1">
+                                          <div className="text-[11px] font-bold uppercase text-emerald-800 tracking-wide">
+                                            Ngữ cảnh bài toán / Đề bài dẫn chung:
+                                          </div>
+                                          <div className="text-sm font-semibold text-slate-900 leading-relaxed">
+                                            <MathView text={q.intro} />
+                                          </div>
                                         </div>
                                       )}
 
@@ -7612,6 +7680,15 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   <span className="font-bold text-indigo-700">Câu {q.id}:</span>{" "}
                                   <MathView text={q.question} />
                                 </div>
+                                {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                                  <div className="my-1 text-center">
+                                    <img
+                                      src={q.image || q.imageUrl || q.diagram || q.figure}
+                                      alt={`Hình vẽ minh họa Câu ${q.id}`}
+                                      className="max-h-40 max-w-full object-contain mx-auto rounded border border-slate-200"
+                                    />
+                                  </div>
+                                )}
                                 <div className="grid grid-cols-2 gap-1.5 pl-2">
                                   {q.options.map((opt, oIdx) => (
                                     <div key={oIdx} className="text-slate-700">
@@ -7636,10 +7713,32 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             II. PHẦN TRẮC NGHIỆM ĐÚNG / SAI ({currentExam.part2 && currentExam.part2.length === 4 ? "4,0 điểm - 4 câu, mỗi câu 1,0đ" : "2,0 điểm - 2 câu, mỗi câu 1,0đ"})
                           </div>
                           <div className="space-y-3">
-                            {currentExam.part2.map((q) => (
-                              <div key={q.id} className="p-3.5 rounded-lg border border-slate-200 bg-slate-50/50 space-y-2 text-xs">
-                                <div className="font-bold text-slate-900">
-                                  Câu {q.id}: <MathView text={q.intro || q.stem || q.question} />
+                            {currentExam.part2.map((q) => {
+                              const stemText = getFullPart2Stem(q) || q.stem || q.intro || q.question || "";
+                              const qImg = q.image || q.imageUrl || q.diagram || q.figure;
+                              return (
+                              <div key={q.id} className="p-3.5 rounded-xl border border-slate-200 bg-slate-50/60 space-y-2.5 text-xs">
+                                <div className="bg-indigo-50/70 p-3 rounded-lg border border-indigo-200/70 space-y-1.5">
+                                  <div className="flex items-center gap-2">
+                                    <span className="px-2 py-0.5 bg-indigo-600 text-white font-bold rounded text-[10px] uppercase">
+                                      Câu {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"}đ)
+                                    </span>
+                                    <span className="text-[11px] font-bold text-indigo-900 uppercase">
+                                      Đề bài dẫn chung / Ngữ cảnh bài toán
+                                    </span>
+                                  </div>
+                                  <div className="font-semibold text-slate-900 leading-relaxed">
+                                    <MathView text={stemText} />
+                                  </div>
+                                  {qImg && (
+                                    <div className="pt-1.5 text-center">
+                                      <img
+                                        src={qImg}
+                                        alt={`Hình vẽ Câu ${q.id}`}
+                                        className="max-h-52 max-w-full object-contain mx-auto rounded border border-slate-200"
+                                      />
+                                    </div>
+                                  )}
                                 </div>
                                 <div className="space-y-1.5 pl-2">
                                   {(q.statements || []).map((st) => (
@@ -7659,7 +7758,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   ))}
                                 </div>
                               </div>
-                            ))}
+                              );
+                            })}
                           </div>
                         </div>
 
@@ -7675,6 +7775,15 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   <span className="font-bold text-indigo-700">Câu {q.id}:</span>{" "}
                                   <MathView text={q.question} />
                                 </div>
+                                {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                                  <div className="my-1 text-center">
+                                    <img
+                                      src={q.image || q.imageUrl || q.diagram || q.figure}
+                                      alt={`Hình vẽ minh họa Câu ${q.id}`}
+                                      className="max-h-40 max-w-full object-contain mx-auto rounded border border-slate-200"
+                                    />
+                                  </div>
+                                )}
                                 {showPeriodicSolution && (
                                   <div className="pt-1 border-t border-slate-200 text-emerald-800 font-medium">
                                     <span className="font-bold">Đáp số:</span> {q.answer} • {q.explanation}
@@ -7695,11 +7804,20 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             {currentExam.part4.map((q) => (
                               <div key={q.id} className="p-3.5 rounded-lg border border-slate-200 bg-white space-y-2 text-xs">
                                 <div className="font-bold text-slate-900 text-sm">
-                                  Câu {q.id} ({q.points || 1.0} điểm):
+                                  Câu {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"} điểm):
                                 </div>
                                 <div className="text-slate-800 leading-relaxed font-serif text-[12pt]">
                                   <MathView text={q.question} />
                                 </div>
+                                {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                                  <div className="my-2 text-center">
+                                    <img
+                                      src={q.image || q.imageUrl || q.diagram || q.figure}
+                                      alt={`Hình vẽ minh họa Câu ${q.id}`}
+                                      className="max-h-56 max-w-full object-contain mx-auto rounded border border-slate-200"
+                                    />
+                                  </div>
+                                )}
                                 {showPeriodicSolution && (
                                   <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-200 space-y-1.5">
                                     <div className="font-bold text-emerald-950">Hướng dẫn giải & Barem điểm chuẩn:</div>
