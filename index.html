@@ -1036,10 +1036,39 @@ if (typeof window !== "undefined") {
       page-break-inside: avoid;
       break-inside: avoid;
     }
+    /* ============================================================== */
+    /* QUY CHUẨN IN & XUẤT PDF A4 TIẾT KIỆM GIẤY CHUẨN BỘ GD&ĐT      */
+    /* ============================================================== */
+    .options-grid-4 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.25rem 0.75rem;
+    }
+    @media (min-width: 640px) {
+      .options-grid-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+    .options-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 0.25rem 1rem;
+    }
+    @media (min-width: 640px) {
+      .options-grid-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    .options-grid-1 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.25rem 0;
+    }
+
     @media print {
       @page {
-        size: A4;
-        margin: 15mm;
+        size: A4 portrait;
+        margin: 12mm 15mm 12mm 15mm;
       }
       *, *::before, *::after {
         box-shadow: none !important;
@@ -1047,8 +1076,8 @@ if (typeof window !== "undefined") {
       }
       body, html {
         font-family: 'Times New Roman', Times, 'Liberation Serif', serif !important;
-        font-size: 12pt !important;
-        line-height: 1.45 !important;
+        font-size: 11pt !important;
+        line-height: 1.35 !important;
         color: #000000 !important;
         background: #ffffff !important;
         margin: 0 !important;
@@ -1065,11 +1094,13 @@ if (typeof window !== "undefined") {
       input,
       select,
       .no-print,
+      #top-contact-bar,
       .toast-container {
         display: none !important;
       }
-      /* Khung đề thi chuẩn Times New Roman 12pt, viền nét, không bị cắt chữ */
-      .pdf-exam-container {
+      /* Khung đề thi chuẩn Times New Roman 11pt - 12pt, viền nét, tiết kiệm tối đa diện tích giấy */
+      .pdf-exam-container,
+      .periodic-printable-exam {
         display: block !important;
         width: 100% !important;
         max-width: 100% !important;
@@ -1080,29 +1111,91 @@ if (typeof window !== "undefined") {
         background: transparent !important;
         color: #000000 !important;
         font-family: 'Times New Roman', Times, 'Liberation Serif', serif !important;
-        font-size: 12pt !important;
-        line-height: 1.45 !important;
-        white-space: pre-wrap !important;
+        font-size: 11pt !important;
+        line-height: 1.35 !important;
       }
-      /* Gỡ bỏ nền xám và bóng của các container cha */
+      /* Gỡ bỏ nền xám, viền hộp và bóng của các container khi in */
       .bg-slate-200\/70,
       .bg-slate-50,
-      .bg-slate-100 {
+      .bg-slate-100,
+      .bg-white,
+      .border,
+      .rounded-2xl,
+      .shadow-sm,
+      .shadow-xl {
         background: transparent !important;
-        border: none !important;
+        border-color: transparent !important;
         box-shadow: none !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        overflow: visible !important;
       }
-      /* Chống cắt đôi công thức khi sang trang */
-      .katex-display, .math-block, .equation {
+      /* Từng câu hỏi không bị cắt trang giữa chừng và triệt tiêu padding lãng phí */
+      .exam-question-card,
+      .equation {
         page-break-inside: avoid !important;
         break-inside: avoid !important;
+        margin-bottom: 6px !important;
+        padding: 0 !important;
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+      /* Tiêu đề phân đoạn chuẩn Bộ GD&ĐT */
+      .exam-section-header {
+        border-bottom: 1.2px solid #000000 !important;
+        color: #000000 !important;
+        font-size: 11.5pt !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
+        padding-bottom: 2px !important;
+        page-break-after: avoid !important;
+        break-after: avoid !important;
+      }
+      /* Tự động phân bố phương án trắc nghiệm khi in (Chuẩn Quy tắc 4) */
+      .options-grid-4 {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        column-gap: 12px !important;
+        row-gap: 2px !important;
+        width: 100% !important;
+      }
+      .options-grid-2 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 18px !important;
+        row-gap: 3px !important;
+        width: 100% !important;
+      }
+      .options-grid-1 {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        row-gap: 3px !important;
+        width: 100% !important;
+      }
+      /* Dàn câu hỏi trải đều toàn bộ bề ngang khổ giấy A4 */
+      .questions-flow-container {
+        display: block !important;
+        width: 100% !important;
+      }
+      .questions-flow-container > div {
+        width: 100% !important;
+        margin-bottom: 6px !important;
+      }
+      /* Chống cắt đôi công thức toán khi sang trang */
+      .katex-display, .math-block {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        margin: 0.2em 0 !important;
       }
       .katex {
-        font-size: 1.05em !important;
+        font-size: 1.02em !important;
         color: #000000 !important;
+      }
+      /* Hình vẽ minh họa tự co gọn hợp lý khi in để không làm tràn trang */
+      .periodic-printable-exam img {
+        max-height: 120px !important;
+        margin: 3px auto !important;
+        border: none !important;
       }
       table {
         border-collapse: collapse !important;
@@ -1127,7 +1220,7 @@ if (typeof window !== "undefined") {
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
   <!-- 1. THANH TIỆN ÍCH HOTLINE & ZALO NHỎ GỌN TRÊN CÙNG (GÓC PHẢI - TOP: 12PX, RIGHT: 16PX, Z-INDEX: 9999) -->
-  <div id="top-contact-bar" style="position: fixed; top: 12px; right: 16px; z-index: 9999; display: flex; align-items: center; gap: 8px;">
+  <div id="top-contact-bar" class="no-print" style="position: fixed; top: 12px; right: 16px; z-index: 9999; display: flex; align-items: center; gap: 8px;">
     <!-- Hotline nhỏ gọn -->
     <a href="tel:0976295033" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: #e11d48; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
       <span>📞</span> 0976295033
@@ -2292,6 +2385,36 @@ if (typeof window !== "undefined") {
     // ==========================================
     // CHUẨN HÓA DỮ LIỆU ĐỀ THI (NORMALIZE EXAM DATA)
     // ==========================================
+    // Helper đo độ dài ký tự hiển thị thực tế của phương án (bỏ LaTeX & prefix)
+    function getOptionDisplayLength(opt) {
+      if (!opt) return 0;
+      const text = String(opt).replace(/^[A-D]\s*[\.:\)]\s*/i, '').trim();
+      const clean = text
+        .replace(/\\[a-zA-Z]+/g, ' ')
+        .replace(/[{}$^_]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      return clean.length;
+    }
+
+    // Tự động phân bố hàng / cột phương án tối ưu tiết kiệm giấy in (Chuẩn Quy tắc 4):
+    // - <= 16 ký tự: 1 dòng (1 hàng x 4 cột)
+    // - <= 50 ký tự: 2 dòng (2 hàng x 2 cột)
+    // - > 50 ký tự: 4 dòng (4 hàng x 1 cột)
+    function getOptimalOptionsLayout(options) {
+      if (!Array.isArray(options) || options.length === 0) {
+        return { gridClass: "grid-cols-1 sm:grid-cols-2", printClass: "options-grid-2" };
+      }
+      const maxLen = Math.max(...options.map(getOptionDisplayLength));
+      if (maxLen <= 16) {
+        return { gridClass: "grid-cols-2 sm:grid-cols-4", printClass: "options-grid-4" };
+      } else if (maxLen <= 50) {
+        return { gridClass: "grid-cols-1 sm:grid-cols-2", printClass: "options-grid-2" };
+      } else {
+        return { gridClass: "grid-cols-1", printClass: "options-grid-1" };
+      }
+    }
+
     // Helper lấy ngữ cảnh / đề bài mẹ đầy đủ nhất cho câu hỏi Đúng / Sai
     function getFullPart2Stem(q) {
       if (!q) return "";
@@ -3082,6 +3205,13 @@ if (typeof window !== "undefined") {
         }
       }, [mockExamsData]);
       // HÀM IN / XUẤT PDF QUA HỘP THOẠI IN CỦA TRÌNH DUYỆT (CHỌN 'SAVE AS PDF')
+      const handlePrintPeriodicExam = (includeSolution = false) => {
+        setShowPeriodicSolution(includeSolution);
+        setTimeout(() => {
+          window.print();
+        }, 150);
+      };
+
       const handlePrintExam = (tab = "paper") => {
         if (mockViewTab !== tab) {
           setMockViewTab(tab);
@@ -7463,13 +7593,20 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       </div>
 
                       {currentExam && (
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
                           <button
-                            onClick={() => window.print()}
+                            onClick={() => handlePrintPeriodicExam(false)}
                             className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition"
-                            title="In hoặc Lưu PDF đề thi"
+                            title="In hoặc Lưu PDF đề thi tối ưu tiết kiệm giấy (không kèm đáp án)"
                           >
-                            <span>🖨️</span> In / Xuất PDF A4
+                            <span>🖨️</span> In Đề thi (Tiết kiệm giấy)
+                          </button>
+                          <button
+                            onClick={() => handlePrintPeriodicExam(true)}
+                            className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition"
+                            title="In hoặc Lưu PDF đề thi kèm đáp án và hướng dẫn giải chi tiết"
+                          >
+                            <span>📄</span> Xuất PDF Đề & Lời giải
                           </button>
                         </div>
                       )}
@@ -7640,7 +7777,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         <div className="flex flex-wrap items-center gap-2">
                           <button
                             onClick={() => handleStartPeriodicExam(currentExam)}
-                            className="bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs md:text-sm px-5 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5"
+                            className="bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs md:text-sm px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5"
                           >
                             <span>🚀</span> Làm bài thi Online
                           </button>
@@ -7650,129 +7787,163 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           >
                             {showPeriodicSolution ? "Ẩn đáp án & Lời giải" : "📘 Xem đáp án & Lời giải"}
                           </button>
+                          <button
+                            onClick={() => handlePrintPeriodicExam(false)}
+                            className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs md:text-sm px-4 py-2.5 rounded-xl shadow transition flex items-center gap-1"
+                            title="In hoặc Lưu PDF đề thi chuẩn A4 tiết kiệm giấy"
+                          >
+                            <span>🖨️</span> In Đề thi A4
+                          </button>
                         </div>
                       </div>
 
-                      {/* KHUNG NỘI DUNG ĐỀ THI ĐỊNH KỲ (CHUẨN MA TRẬN 4 PHẦN) */}
-                      <div className="space-y-6 font-times text-slate-900">
-                        {/* Header bài in */}
-                        <div className="text-center space-y-1 border-b pb-4">
-                          <div className="font-bold text-base md:text-lg uppercase">
-                            {currentExam.title}
+                      {/* KHUNG NỘI DUNG ĐỀ THI ĐỊNH KỲ (CHUẨN MA TRẬN 4 PHẦN - TỐI ƯU TIẾT KIỆM GIẤY) */}
+                      <div className="periodic-printable-exam space-y-5 font-times text-slate-900">
+                        {/* Header đề thi chuẩn Bộ GD&ĐT (2 cột đối xứng, trang nhã, siêu tiết kiệm giấy) */}
+                        <div className="border-b-2 border-black pb-2 mb-3 text-black">
+                          <div className="flex justify-between items-start text-center">
+                            <div className="w-[45%] text-center">
+                              <div className="font-bold text-xs md:text-sm uppercase tracking-wide">SỞ GIÁO DỤC VÀ ĐÀO TẠO</div>
+                              <div className="font-bold text-sm md:text-base uppercase mt-0.5">TRƯỜNG THCS ........................</div>
+                              <div className="inline-block border border-black font-bold px-3 py-0.5 mt-1 text-xs">
+                                MÃ ĐỀ: {currentExam.testNum || currentExam.code || "01"}
+                              </div>
+                              <div className="text-[10pt] italic mt-0.5">(Đề thi gồm 4 phần)</div>
+                            </div>
+                            <div className="w-[55%] text-center">
+                              <div className="font-bold text-xs md:text-sm uppercase">ĐỀ KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026</div>
+                              <div className="font-bold text-sm md:text-base uppercase mt-0.5 text-indigo-950 print:text-black">
+                                MÔN THI: TOÁN - KHỐI {currentExam.grade}
+                              </div>
+                              <div className="text-[10.5pt] italic">Thời gian làm bài: 90 phút (không kể thời gian phát đề)</div>
+                              <div className="text-[10pt] font-semibold mt-0.5">Kỳ thi: {termNames[periodicTerm] || currentExam.termName || "Giữa kỳ"}</div>
+                            </div>
                           </div>
-                          <div className="text-xs md:text-sm italic text-slate-600">
-                            Thời gian làm bài: 90 phút (Không kể thời gian phát đề) • Đầy đủ 4 phần chuẩn ma trận
-                          </div>
-                          <div className="text-xs text-indigo-800 font-bold">
-                            Học sinh: {studentName || "(Chưa nhập)"} • Lớp: {className || "(Chưa nhập)"}
+                          <div className="mt-2 pt-1.5 border-t border-dashed border-slate-400 print:border-black flex flex-wrap justify-between text-[11pt] italic font-times">
+                            <span>Họ và tên học sinh: {studentName ? <b>{studentName}</b> : "............................................................................................"}</span>
+                            <span>Lớp: {className ? <b>{className}</b> : "...................."}</span>
+                            <span>SBD: ....................</span>
                           </div>
                         </div>
 
                         {/* PHẦN I: 12 CÂU TRẮC NGHIỆM */}
-                        <div className="space-y-3">
-                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                        <div className="space-y-2">
+                          <div className="exam-section-header font-bold uppercase text-indigo-950 text-sm border-b pb-1 font-times">
                             I. PHẦN TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm - 12 câu, mỗi câu 0,25đ)
                           </div>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            {currentExam.part1.map((q) => (
-                              <div key={q.id} className="p-3 rounded-lg border border-slate-100 bg-slate-50/50 space-y-2 text-xs">
-                                <div className="font-semibold text-slate-900">
-                                  <span className="font-bold text-indigo-700">Câu {q.id}:</span>{" "}
-                                  <MathView text={q.question} />
-                                </div>
-                                {(q.image || q.imageUrl || q.diagram || q.figure) && (
-                                  <div className="my-1 text-center">
-                                    <img
-                                      src={q.image || q.imageUrl || q.diagram || q.figure}
-                                      alt={`Hình vẽ minh họa Câu ${q.id}`}
-                                      className="max-h-40 max-w-full object-contain mx-auto rounded border border-slate-200"
-                                    />
+                          <div className="questions-flow-container space-y-2">
+                            {currentExam.part1.map((q) => {
+                              const optLayout = getOptimalOptionsLayout(q.options);
+                              return (
+                                <div key={q.id} className="exam-question-card p-2 md:p-2.5 rounded-lg border border-slate-100 bg-slate-50/40 print:p-0 print:border-none print:bg-transparent space-y-1 text-xs md:text-sm">
+                                  <div className="font-semibold text-slate-900 print:font-normal leading-relaxed text-[11pt] md:text-[11.5pt]">
+                                    <span className="font-bold text-indigo-900 print:text-black">Câu {q.id}: </span>
+                                    <MathView text={q.question} />
                                   </div>
-                                )}
-                                <div className="grid grid-cols-2 gap-1.5 pl-2">
-                                  {q.options.map((opt, oIdx) => (
-                                    <div key={oIdx} className="text-slate-700">
-                                      <span className="font-bold mr-1">{String.fromCharCode(65 + oIdx)}.</span>
-                                      <MathView text={opt} />
+                                  {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                                    <div className="my-1 text-center">
+                                      <img
+                                        src={q.image || q.imageUrl || q.diagram || q.figure}
+                                        alt={`Hình vẽ minh họa Câu ${q.id}`}
+                                        className="max-h-40 print:max-h-28 max-w-full object-contain mx-auto rounded border border-slate-200 print:border-none"
+                                      />
                                     </div>
-                                  ))}
-                                </div>
-                                {showPeriodicSolution && (
-                                  <div className="pt-1.5 border-t border-slate-200 text-emerald-800 font-medium">
-                                    <span className="font-bold">Đáp án: {String.fromCharCode(65 + q.correct)}</span> • {q.explanation}
+                                  )}
+                                  <div className={`grid ${optLayout.gridClass} ${optLayout.printClass} gap-x-3 gap-y-0.5 pl-2 text-[11pt] md:text-[11.5pt] font-times mt-0.5 leading-snug`}>
+                                    {q.options.map((opt, oIdx) => {
+                                      const label = String.fromCharCode(65 + oIdx);
+                                      const cleanOpt = String(opt).replace(/^[A-D]\s*[\.:\)]\s*/i, '').trim();
+                                      const isCorrect = showPeriodicSolution && (oIdx === q.correct);
+                                      return (
+                                        <div key={oIdx} className={`flex items-baseline gap-1 break-inside-avoid text-slate-800 ${isCorrect ? "font-bold text-emerald-800" : ""}`}>
+                                          <span className="font-bold font-times shrink-0">{label}.</span>
+                                          <span className="font-times"><MathView text={cleanOpt} /></span>
+                                        </div>
+                                      );
+                                    })}
                                   </div>
-                                )}
-                              </div>
-                            ))}
+                                  {showPeriodicSolution && (
+                                    <div className="pt-1 border-t border-slate-200 print:border-none text-emerald-800 print:text-black font-medium text-[10.5pt]">
+                                      <span className="font-bold">Đáp án: {String.fromCharCode(65 + q.correct)}</span> • {q.explanation}
+                                    </div>
+                                  )}
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
 
                         {/* PHẦN II: 2 CÂU ĐÚNG / SAI */}
-                        <div className="space-y-3 pt-2">
-                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                        <div className="space-y-2 pt-1">
+                          <div className="exam-section-header font-bold uppercase text-indigo-950 text-sm border-b pb-1 font-times">
                             II. PHẦN TRẮC NGHIỆM ĐÚNG / SAI ({currentExam.part2 && currentExam.part2.length === 4 ? "4,0 điểm - 4 câu, mỗi câu 1,0đ" : "2,0 điểm - 2 câu, mỗi câu 1,0đ"})
                           </div>
-                          <div className="space-y-3">
+                          <div className="questions-flow-container space-y-2.5">
                             {currentExam.part2.map((q) => {
                               const stemText = getFullPart2Stem(q) || q.stem || q.intro || q.question || "";
                               const qImg = q.image || q.imageUrl || q.diagram || q.figure;
                               return (
-                              <div key={q.id} className="p-3.5 rounded-xl border border-slate-200 bg-slate-50/60 space-y-2.5 text-xs">
-                                <div className="bg-indigo-50/70 p-3 rounded-lg border border-indigo-200/70 space-y-1.5">
-                                  <div className="flex items-center gap-2">
-                                    <span className="px-2 py-0.5 bg-indigo-600 text-white font-bold rounded text-[10px] uppercase">
-                                      Câu {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"}đ)
-                                    </span>
-                                    <span className="text-[11px] font-bold text-indigo-900 uppercase">
-                                      Đề bài dẫn chung / Ngữ cảnh bài toán
-                                    </span>
-                                  </div>
-                                  <div className="font-semibold text-slate-900 leading-relaxed">
-                                    <MathView text={stemText} />
-                                  </div>
-                                  {qImg && (
-                                    <div className="pt-1.5 text-center">
-                                      <img
-                                        src={qImg}
-                                        alt={`Hình vẽ Câu ${q.id}`}
-                                        className="max-h-52 max-w-full object-contain mx-auto rounded border border-slate-200"
-                                      />
+                                <div key={q.id} className="exam-question-card p-3 rounded-xl border border-slate-200 bg-slate-50/60 print:p-0 print:border-none print:bg-transparent space-y-1.5 text-xs md:text-sm font-times">
+                                  <div className="bg-indigo-50/70 p-2.5 rounded-lg border border-indigo-200/70 print:p-0 print:border-none print:bg-transparent space-y-1">
+                                    <div className="no-print flex items-center gap-2 mb-1">
+                                      <span className="px-2 py-0.5 bg-indigo-600 text-white font-bold rounded text-[10px] uppercase">
+                                        Câu {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"}đ)
+                                      </span>
+                                      <span className="text-[11px] font-bold text-indigo-900 uppercase">
+                                        Đề bài dẫn chung / Ngữ cảnh bài toán
+                                      </span>
                                     </div>
-                                  )}
-                                </div>
-                                <div className="space-y-1.5 pl-2">
-                                  {(q.statements || []).map((st) => (
-                                    <div key={st.key || st.id} className="flex items-start justify-between gap-2 border-b border-slate-100 pb-1">
-                                      <div className="flex-1">
-                                        <span className="font-bold text-indigo-700 mr-1">{st.key || st.id})</span>
-                                        <MathView text={st.text || st.statement} />
+                                    <div className="font-semibold text-slate-900 print:font-normal leading-relaxed text-[11pt] md:text-[11.5pt]">
+                                      <span className="font-bold text-indigo-900 print:text-black">Câu {q.id}: </span>
+                                      <MathView text={stemText} />
+                                    </div>
+                                    {qImg && (
+                                      <div className="pt-1.5 text-center">
+                                        <img
+                                          src={qImg}
+                                          alt={`Hình vẽ Câu ${q.id}`}
+                                          className="max-h-48 print:max-h-28 max-w-full object-contain mx-auto rounded border border-slate-200 print:border-none"
+                                        />
                                       </div>
-                                      {showPeriodicSolution && (
-                                        <span className={`px-2 py-0.5 rounded text-[10px] font-bold shrink-0 ${
-                                          (st.correct !== undefined ? st.correct : st.isCorrect) ? "bg-emerald-100 text-emerald-800" : "bg-rose-100 text-rose-800"
-                                        }`}>
-                                          {(st.correct !== undefined ? st.correct : st.isCorrect) ? "Đúng" : "Sai"}
-                                        </span>
-                                      )}
-                                    </div>
-                                  ))}
+                                    )}
+                                  </div>
+                                  <div className="space-y-1 pl-2 md:pl-3">
+                                    {(q.statements || []).map((st) => {
+                                      const stText = st.text || st.statement || "";
+                                      const isTrue = (st.correct !== undefined ? st.correct : st.isCorrect);
+                                      return (
+                                        <div key={st.key || st.id} className="flex items-start justify-between gap-2 border-b border-slate-100 print:border-none pb-0.5 text-[11pt] md:text-[11.5pt]">
+                                          <div className="flex-1">
+                                            <span className="font-bold text-indigo-800 print:text-black mr-1">{st.key || st.id})</span>
+                                            <MathView text={stText} />
+                                          </div>
+                                          {showPeriodicSolution && (
+                                            <span className={`px-2 py-0.2 rounded text-[10px] md:text-[11px] font-bold shrink-0 ${
+                                              isTrue ? "bg-emerald-100 text-emerald-800 print:bg-transparent print:text-black" : "bg-rose-100 text-rose-800 print:bg-transparent print:text-black"
+                                            }`}>
+                                              {isTrue ? "[Đúng]" : "[Sai]"}
+                                            </span>
+                                          )}
+                                        </div>
+                                      );
+                                    })}
+                                  </div>
                                 </div>
-                              </div>
                               );
                             })}
                           </div>
                         </div>
 
                         {/* PHẦN III: 4 CÂU TRẢ LỜI NGẮN */}
-                        <div className="space-y-3 pt-2">
-                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
+                        <div className="space-y-2 pt-1">
+                          <div className="exam-section-header font-bold uppercase text-indigo-950 text-sm border-b pb-1 font-times">
                             III. PHẦN TRẮC NGHIỆM TRẢ LỜI NGẮN ({currentExam.part3 && currentExam.part3.length === 6 ? "3,0 điểm - 6 câu, mỗi câu 0,5đ" : "2,0 điểm - 4 câu, mỗi câu 0,5đ"})
                           </div>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          <div className="questions-flow-container space-y-1.5">
                             {currentExam.part3.map((q) => (
-                              <div key={q.id} className="p-3 rounded-lg border border-slate-100 bg-slate-50/50 space-y-1.5 text-xs">
-                                <div className="font-semibold text-slate-900">
-                                  <span className="font-bold text-indigo-700">Câu {q.id}:</span>{" "}
+                              <div key={q.id} className="exam-question-card p-2 md:p-2.5 rounded-lg border border-slate-100 bg-slate-50/50 print:p-0 print:border-none print:bg-transparent space-y-1 text-xs md:text-sm font-times">
+                                <div className="font-semibold text-slate-900 print:font-normal leading-relaxed text-[11pt] md:text-[11.5pt]">
+                                  <span className="font-bold text-indigo-800 print:text-black">Câu {q.id}: </span>
                                   <MathView text={q.question} />
                                 </div>
                                 {(q.image || q.imageUrl || q.diagram || q.figure) && (
@@ -7780,12 +7951,12 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                     <img
                                       src={q.image || q.imageUrl || q.diagram || q.figure}
                                       alt={`Hình vẽ minh họa Câu ${q.id}`}
-                                      className="max-h-40 max-w-full object-contain mx-auto rounded border border-slate-200"
+                                      className="max-h-40 print:max-h-28 max-w-full object-contain mx-auto rounded border border-slate-200 print:border-none"
                                     />
                                   </div>
                                 )}
                                 {showPeriodicSolution && (
-                                  <div className="pt-1 border-t border-slate-200 text-emerald-800 font-medium">
+                                  <div className="pt-1 border-t border-slate-200 print:border-none text-emerald-800 print:text-black font-medium text-[10.5pt]">
                                     <span className="font-bold">Đáp số:</span> {q.answer} • {q.explanation}
                                   </div>
                                 )}
@@ -7796,41 +7967,49 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                         {/* PHẦN IV: 4 CÂU TỰ LUẬN (Dành cho Khối 6, 7, 8, 9) */}
                         {currentExam.part4 && currentExam.part4.length > 0 && (
-                        <div className="space-y-3 pt-2">
-                          <div className="font-bold uppercase text-indigo-950 text-sm border-b pb-1">
-                            IV. PHẦN TỰ LUẬN (3,0 điểm - 4 câu)
-                          </div>
-                          <div className="space-y-4">
-                            {currentExam.part4.map((q) => (
-                              <div key={q.id} className="p-3.5 rounded-lg border border-slate-200 bg-white space-y-2 text-xs">
-                                <div className="font-bold text-slate-900 text-sm">
-                                  Câu {q.id} ({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"} điểm):
-                                </div>
-                                <div className="text-slate-800 leading-relaxed font-serif text-[12pt]">
-                                  <MathView text={q.question} />
-                                </div>
-                                {(q.image || q.imageUrl || q.diagram || q.figure) && (
-                                  <div className="my-2 text-center">
-                                    <img
-                                      src={q.image || q.imageUrl || q.diagram || q.figure}
-                                      alt={`Hình vẽ minh họa Câu ${q.id}`}
-                                      className="max-h-56 max-w-full object-contain mx-auto rounded border border-slate-200"
-                                    />
+                          <div className="space-y-2 pt-1">
+                            <div className="exam-section-header font-bold uppercase text-indigo-950 text-sm border-b pb-1 font-times">
+                              IV. PHẦN TỰ LUẬN (3,0 điểm - 4 câu)
+                            </div>
+                            <div className="questions-flow-container space-y-2.5">
+                              {currentExam.part4.map((q) => (
+                                <div key={q.id} className="exam-question-card p-3 rounded-lg border border-slate-200 bg-white print:p-0 print:border-none space-y-1 text-xs md:text-sm font-times">
+                                  <div className="font-semibold text-slate-900 print:font-normal leading-relaxed text-[11pt] md:text-[12pt]">
+                                    <span className="font-bold text-indigo-900 print:text-black">
+                                      Câu {q.id} <i>({q.points ? q.points.toFixed(1).replace(".", ",") : "1,0"} điểm): </i>
+                                    </span>
+                                    <MathView text={q.question} />
                                   </div>
-                                )}
-                                {showPeriodicSolution && (
-                                  <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-200 space-y-1.5">
-                                    <div className="font-bold text-emerald-950">Hướng dẫn giải & Barem điểm chuẩn:</div>
-                                    <div className="text-slate-700 leading-relaxed font-times">
-                                      <MathView text={q.modelSolution || q.rubric} />
+                                  {(q.image || q.imageUrl || q.diagram || q.figure) && (
+                                    <div className="my-1.5 text-center">
+                                      <img
+                                        src={q.image || q.imageUrl || q.diagram || q.figure}
+                                        alt={`Hình vẽ minh họa Câu ${q.id}`}
+                                        className="max-h-52 print:max-h-32 max-w-full object-contain mx-auto rounded border border-slate-200 print:border-none"
+                                      />
                                     </div>
-                                  </div>
-                                )}
-                              </div>
-                            ))}
+                                  )}
+                                  {showPeriodicSolution && (
+                                    <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-200 print:bg-transparent print:border-none print:p-0 space-y-1 text-[10.5pt] md:text-[11pt]">
+                                      <div className="font-bold text-emerald-950 print:text-black">Hướng dẫn giải & Barem điểm chuẩn:</div>
+                                      <div className="text-slate-700 leading-relaxed font-times">
+                                        <MathView text={q.modelSolution || q.rubric} />
+                                      </div>
+                                    </div>
+                                  )}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Footer kết thúc đề thi */}
+                        <div className="text-center font-bold text-[11pt] md:text-[12pt] pt-3 mt-3 border-t border-slate-300 print:border-black font-times">
+                          <div>------------------ HẾT ------------------</div>
+                          <div className="text-[10pt] font-normal italic mt-0.5 text-slate-600 print:text-black">
+                            Thí sinh không được sử dụng tài liệu. Cán bộ coi thi không giải thích gì thêm.
                           </div>
                         </div>
-                        )}
                       </div>
                     </div>
                   )}
@@ -8041,19 +8220,29 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           <div className="font-bold uppercase text-[12pt]">
                             I- PHẦN TRẮC NGHIỆM (2,0 điểm) <span className="font-normal italic normal-case">(Trong mỗi câu từ câu 1 đến câu 8, hãy viết chữ cái in hoa đứng trước phương án đúng duy nhất vào tờ giấy thi).</span>
                           </div>
-                          <div className="space-y-2.5">
-                            {currentExam.part1.map(q => (
-                              <div key={q.id} className="text-[12pt] leading-relaxed equation">
-                                <div className="font-bold">
-                                  Câu {q.id}. <span className="font-normal font-times"><MathView text={q.question} /></span>
+                          <div className="space-y-2">
+                            {currentExam.part1.map(q => {
+                              const optLayout = getOptimalOptionsLayout(q.options);
+                              return (
+                                <div key={q.id} className="text-[11.5pt] md:text-[12pt] leading-relaxed equation">
+                                  <div className="font-bold">
+                                    Câu {q.id}: <span className="font-normal font-times"><MathView text={q.question} /></span>
+                                  </div>
+                                  <div className={`grid ${optLayout.gridClass} ${optLayout.printClass} gap-x-3 gap-y-0.5 pl-4 text-[11.5pt] md:text-[12pt] mt-0.5 font-times leading-snug`}>
+                                    {q.options.map((opt, idx) => {
+                                      const label = String.fromCharCode(65 + idx);
+                                      const cleanOpt = String(opt).replace(/^[A-D]\s*[\.:\)]\s*/i, '').trim();
+                                      return (
+                                        <div key={idx} className="flex items-baseline gap-1 break-inside-avoid">
+                                          <span className="font-bold font-times shrink-0">{label}.</span>
+                                          <span className="font-times"><MathView text={cleanOpt} /></span>
+                                        </div>
+                                      );
+                                    })}
+                                  </div>
                                 </div>
-                                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pl-4 text-[12pt] mt-0.5 font-times">
-                                  {q.options.map((opt, idx) => (
-                                    <div key={idx}><MathView text={opt} /></div>
-                                  ))}
-                                </div>
-                              </div>
-                            ))}
+                              );
+                            })}
                           </div>
                         </div>
 
