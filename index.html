@@ -83,6 +83,7 @@
 
   <!-- Grade 10 Entrance Exam Database (GV Phan Đình Thuấn) -->
   <script src="grade10EntranceExams.js"></script>
+  <script src="grade10TopicsData.js"></script>
   <!-- Periodic Exam Database (Khối 6, 7, 8, 9 - Giữa kỳ & Cuối kỳ) -->
   <script src="periodicExamsData.js"></script>
 
@@ -1100,7 +1101,8 @@ if (typeof window !== "undefined") {
       }
       /* Khung đề thi chuẩn Times New Roman 11pt - 12pt, viền nét, tiết kiệm tối đa diện tích giấy */
       .pdf-exam-container,
-      .periodic-printable-exam {
+      .periodic-printable-exam,
+      .topic-printable-exam {
         display: block !important;
         width: 100% !important;
         max-width: 100% !important;
@@ -3115,7 +3117,9 @@ if (typeof window !== "undefined") {
         if (!validateStudentInfo()) {
           return;
         }
-        if (targetTab === "grade10_mock") {
+        if (targetTab === "grade10_topic") {
+          setView("grade10_topic");
+        } else if (targetTab === "grade10_mock") {
           setView("grade10_mock");
         } else if (targetTab === "sgk_lesson") {
           setView("setup");
@@ -3235,6 +3239,64 @@ if (typeof window !== "undefined") {
       // Trạng thái màn hình: 'setup' | 'exam' | 'result' | 'dashboard'
 
       const [view, setView] = useState("setup");
+
+      // State chuyên dụng cho ÔN THI VÀO 10 THEO CHỦ ĐỀ (8 CHUYÊN ĐỀ TRỌNG ĐIỂM)
+      const [topicsData, setTopicsData] = useState(() => {
+        if (typeof window !== "undefined" && window.GRADE10_TOPICS_DATA) {
+          return window.GRADE10_TOPICS_DATA;
+        }
+        return null;
+      });
+      const [selectedTopicId, setSelectedTopicId] = useState("cd1");
+      const [selectedLevelFilter, setSelectedLevelFilter] = useState("ALL"); // 'ALL' | 'VD' | 'VDC'
+      const [showAllTopicSolutions, setShowAllTopicSolutions] = useState(false);
+      const [expandedTopicQuestions, setExpandedTopicQuestions] = useState({});
+
+      useEffect(() => {
+        if (!topicsData) {
+          const loadTopics = async () => {
+            try {
+              const res = await fetch("src/data/generated/grade10_topics_data.json");
+              if (res.ok) {
+                const d = await res.json();
+                setTopicsData(d);
+                window.GRADE10_TOPICS_DATA = d;
+                return;
+              }
+            } catch (e) {}
+            try {
+              const res2 = await fetch("generated/grade10_topics_data.json");
+              if (res2.ok) {
+                const d2 = await res2.json();
+                setTopicsData(d2);
+                window.GRADE10_TOPICS_DATA = d2;
+              }
+            } catch (e) {}
+          };
+          loadTopics();
+        }
+      }, [topicsData]);
+
+      // Hàm in / xuất PDF Chuyên đề ôn thi vào 10 chuẩn A4 tiết kiệm giấy
+      const handlePrintTopicQuestions = (includeSolution = false) => {
+        setShowAllTopicSolutions(includeSolution);
+        
+        const curTopic = topicsData?.topics?.find(t => t.id === selectedTopicId);
+        const topicShort = curTopic ? curTopic.shortTitle.replace(/[:\/]/g, '_') : "CHU_DE_ON_THI_VAO_10";
+        const solTag = includeSolution ? " - ĐÁP ÁN & LỜI GIẢI" : "";
+        const printTitle = `${topicShort}${solTag}`;
+        
+        const prevTitle = document.title;
+        document.title = printTitle;
+
+        setTimeout(() => {
+          window.print();
+        }, 150);
+
+        const restore = () => { document.title = prevTitle; };
+        window.addEventListener("afterprint", restore, { once: true });
+        setTimeout(restore, 3000);
+      };
 
       // State chuyên dụng cho THI THỬ VÀO LỚP 10 - GV PHAN ĐÌNH THUẤN
       const [selectedMockExamKey, setSelectedMockExamKey] = useState("de_01");
@@ -4952,7 +5014,20 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
               <div className="flex flex-wrap items-center gap-2">
-                {/* NÚT 1: 🎯 ÔN THI VÀO 10 */}
+                {/* NÚT MỚI: 📚 ÔN THI VÀO 10 THEO CHỦ ĐỀ */}
+                <button
+                  onClick={() => handleNavigateTab("grade10_topic")}
+                  className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
+                    view === "grade10_topic"
+                      ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-300 font-black"
+                      : "bg-white/10 hover:bg-white/20 text-white"
+                  }`}
+                  title="Luyện tập theo 8 chuyên đề trọng điểm thi tuyển sinh vào 10"
+                >
+                  <span>📚</span> ÔN THI VÀO 10 THEO CHỦ ĐỀ
+                </button>
+
+                {/* NÚT 1: 🎯 ÔN THI VÀO 10 (ĐỀ MINH HỌA) */}
                 <button
                   onClick={() => handleNavigateTab("grade10_mock")}
                   className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
@@ -5034,7 +5109,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           <main className="flex-1 max-w-5xl w-full mx-auto p-4 md:p-6 space-y-6">
 
             {/* KHỐI KHAI BÁO THÔNG TIN HỌC SINH (BẮT BUỘC) */}
-            {(view === "setup" || view === "grade10_mock" || view === "periodic_exam") && (
+            {(view === "setup" || view === "grade10_mock" || view === "grade10_topic" || view === "periodic_exam") && (
               <div id="student-info-section" className="bg-white rounded-2xl shadow-sm border border-indigo-100 p-5 space-y-3 no-print">
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
                   <div className="flex items-center gap-2">
@@ -8426,6 +8501,274 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
               );
             })()}
 
+
+            {/* ============================================================== */}
+            {/* MÀN HÌNH CHUYÊN ĐỀ: ÔN THI VÀO LỚP 10 THEO CHỦ ĐỀ (8 CHUYÊN ĐỀ)  */}
+            {/* ============================================================== */}
+            {view === "grade10_topic" && (() => {
+              const allTopics = topicsData?.topics || [];
+              const curTopic = allTopics.find(t => t.id === selectedTopicId) || allTopics[0] || null;
+
+              if (!curTopic) {
+                return (
+                  <div className="bg-white p-8 rounded-2xl shadow border text-center space-y-4">
+                    <div className="w-12 h-12 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto text-2xl animate-spin">
+                      ⏳
+                    </div>
+                    <h3 className="text-lg font-bold text-slate-800">Đang tải kho 8 Chuyên đề ôn thi vào Lớp 10...</h3>
+                    <p className="text-xs text-slate-500">GV Phan Đình Thuấn • 360 câu hỏi tự luận chuẩn ma trận 2025 - 2026</p>
+                  </div>
+                );
+              }
+
+              // Lọc câu hỏi theo mức độ
+              const filteredQuestions = curTopic.questions.filter(q => {
+                if (selectedLevelFilter === "VD") return q.level === "VD";
+                if (selectedLevelFilter === "VDC") return q.level === "VDC";
+                return true;
+              });
+
+              const countVD = curTopic.questions.filter(q => q.level === "VD").length;
+              const countVDC = curTopic.questions.filter(q => q.level === "VDC").length;
+
+              return (
+                <div className="space-y-6">
+                  {/* BANNER ÔN THI VÀO 10 THEO CHỦ ĐỀ */}
+                  <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-4 no-print">
+                    <div className="flex flex-wrap justify-between items-start gap-4 border-b border-indigo-800/60 pb-5">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="bg-amber-400 text-slate-950 text-[10px] font-black px-2 py-0.5 rounded tracking-wider uppercase">
+                            ÔN THI VÀO LỚP 10 THEO CHỦ ĐỀ
+                          </span>
+                          <span className="text-xs text-indigo-300">8 Chuyên đề • 360 câu tự luận phân hóa</span>
+                        </div>
+                        <h2 className="text-xl md:text-2xl font-black text-amber-300 mt-1 uppercase tracking-wide">
+                          HỆ THỐNG 8 CHUYÊN ĐỀ ÔN THI TUYỂN SINH VÀO 10
+                        </h2>
+                        <p className="text-xs md:text-sm text-slate-300 mt-1">
+                          Bộ câu hỏi tự luận bám sát cấu trúc đề thi tuyển sinh vào lớp 10 THPT của Bộ GD&ĐT và các tỉnh thành (Hà Tĩnh, Hà Nội, TP.HCM...)
+                        </p>
+                      </div>
+
+                      {/* NÚT IN & XUẤT PDF A4 TIẾT KIỆM GIẤY */}
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handlePrintTopicQuestions(false)}
+                          className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition"
+                          title="In hoặc Lưu PDF danh sách bài tập (không kèm lời giải) siêu tiết kiệm giấy"
+                        >
+                          <span>🖨️</span> In Đề bài tập (Tiết kiệm)
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handlePrintTopicQuestions(true)}
+                          className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition"
+                          title="In hoặc Lưu PDF đầy đủ câu hỏi kèm đáp án và hướng dẫn giải chi tiết"
+                        >
+                          <span>📄</span> Xuất PDF Đề & Lời giải
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* LƯỚI CHỌN 8 CHỦ ĐỀ (GRID) */}
+                    <div>
+                      <label className="block text-xs font-bold uppercase tracking-wider text-indigo-200 mb-2.5">
+                        Chọn chuyên đề ôn tập (1 trong 8 chủ đề trọng điểm):
+                      </label>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                        {allTopics.map((top) => {
+                          const isSelected = selectedTopicId === top.id;
+                          return (
+                            <button
+                              key={top.id}
+                              type="button"
+                              onClick={() => {
+                                setSelectedTopicId(top.id);
+                                setSelectedLevelFilter("ALL");
+                                setExpandedTopicQuestions({});
+                              }}
+                              className={`p-3.5 rounded-xl border-2 text-left transition flex flex-col justify-between gap-1.5 relative shadow-xs ${
+                                isSelected
+                                  ? "border-amber-400 bg-indigo-900/90 ring-2 ring-amber-400/40 text-white shadow-md"
+                                  : "border-indigo-800/60 bg-indigo-950/60 hover:bg-indigo-900/50 text-indigo-100"
+                              }`}
+                            >
+                              <div className="flex items-center justify-between gap-2">
+                                <span className="text-xl">{top.icon}</span>
+                                <span className="text-[10px] font-black px-2 py-0.5 rounded bg-white/10 text-amber-300">
+                                  {top.count} câu
+                                </span>
+                              </div>
+                              <div className="font-bold text-xs md:text-sm line-clamp-2 mt-1">
+                                {top.shortTitle}
+                              </div>
+                              <div className="text-[10px] text-indigo-300 line-clamp-1">
+                                {top.badge}
+                              </div>
+                              {isSelected && (
+                                <div className="text-[10px] font-black text-amber-300 flex items-center gap-1 mt-1">
+                                  <span>✓ Đang chọn</span>
+                                </div>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* KHUNG NỘI DUNG CHUYÊN ĐỀ ĐANG CHỌN */}
+                  <div className="bg-white p-5 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-5">
+                    {/* Thanh điều hướng & bộ lọc trên web */}
+                    <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-100 pb-4 no-print">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs bg-indigo-100 text-indigo-950 font-bold px-2.5 py-0.5 rounded-full">
+                            {curTopic.icon} {curTopic.shortTitle}
+                          </span>
+                          <span className="text-xs text-slate-500 font-medium">
+                            Tổng {curTopic.count} câu ({countVD} Vận dụng • {countVDC} Vận dụng cao)
+                          </span>
+                        </div>
+                        <h3 className="text-lg md:text-xl font-black text-slate-900 mt-1">
+                          {curTopic.title}
+                        </h3>
+                        <p className="text-xs text-slate-600 mt-0.5">
+                          {curTopic.description}
+                        </p>
+                      </div>
+
+                      {/* Bộ lọc mức độ & Nút bật/tắt toàn bộ lời giải */}
+                      <div className="flex flex-wrap items-center gap-2">
+                        <div className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-bold text-slate-700 border border-slate-200">
+                          <button
+                            type="button"
+                            onClick={() => setSelectedLevelFilter("ALL")}
+                            className={`px-3 py-1.5 rounded-lg transition ${selectedLevelFilter === "ALL" ? "bg-white text-indigo-900 shadow-xs" : "hover:text-black"}`}
+                          >
+                            Tất cả ({curTopic.count})
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setSelectedLevelFilter("VD")}
+                            className={`px-3 py-1.5 rounded-lg transition ${selectedLevelFilter === "VD" ? "bg-white text-indigo-900 shadow-xs" : "hover:text-black"}`}
+                          >
+                            Vận dụng ({countVD})
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setSelectedLevelFilter("VDC")}
+                            className={`px-3 py-1.5 rounded-lg transition ${selectedLevelFilter === "VDC" ? "bg-white text-indigo-900 shadow-xs" : "hover:text-black"}`}
+                          >
+                            Vận dụng cao ({countVDC})
+                          </button>
+                        </div>
+
+                        <button
+                          type="button"
+                          onClick={() => setShowAllTopicSolutions(!showAllTopicSolutions)}
+                          className="bg-indigo-50 hover:bg-indigo-100 text-indigo-900 font-bold text-xs px-3.5 py-2 rounded-xl border border-indigo-200 transition flex items-center gap-1.5"
+                        >
+                          <span>{showAllTopicSolutions ? "🙈" : "💡"}</span>
+                          <span>{showAllTopicSolutions ? "Ẩn tất cả Lời giải" : "Hiện tất cả Lời giải"}</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* KHUNG IN / HIỂN THỊ DANH SÁCH BÀI TẬP (A4 SIÊU TIẾT KIỆM GIẤY) */}
+                    <div className="topic-printable-exam space-y-4 font-times text-slate-900">
+                      {/* Header chuẩn Bộ GD&ĐT khi in */}
+                      <div className="border-b-2 border-black pb-2 mb-3 text-black">
+                        <div className="flex justify-between items-start text-center">
+                          <div className="w-[45%] text-center">
+                            <div className="font-bold text-xs md:text-sm uppercase tracking-wide">SỞ GIÁO DỤC VÀ ĐÀO TẠO</div>
+                            <div className="font-bold text-sm md:text-base uppercase mt-0.5">TRƯỜNG THCS ........................</div>
+                            <div className="text-xs italic mt-0.5">Kỳ thi Tuyển sinh vào Lớp 10 THPT</div>
+                          </div>
+                          <div className="w-[55%] text-center">
+                            <div className="font-bold text-xs md:text-sm uppercase">TÀI LIỆU ÔN THI VÀO LỚP 10 THEO CHỦ ĐỀ</div>
+                            <div className="font-bold text-sm md:text-base uppercase mt-0.5 text-indigo-950 print:text-black">
+                              {curTopic.title}
+                            </div>
+                            <div className="text-[10pt] italic">Người biên soạn: GV Phan Đình Thuấn • Bộ sách Kết nối tri thức</div>
+                          </div>
+                        </div>
+
+                        {/* Dòng thông tin thí sinh */}
+                        <div className="flex justify-between items-center text-xs md:text-sm pt-2 mt-2 border-t border-slate-300 print:border-black font-times">
+                          <div>Họ và tên học sinh: <b>{studentName || "...................................................."}</b></div>
+                          <div>Lớp: <b>{className || "................"}</b></div>
+                          <div>Số báo danh: <b>................................</b></div>
+                        </div>
+                      </div>
+
+                      {/* Danh sách các câu hỏi tự luận */}
+                      <div className="space-y-3.5">
+                        {filteredQuestions.map((q) => {
+                          const isExpanded = showAllTopicSolutions || !!expandedTopicQuestions[q.id];
+                          return (
+                            <div
+                              key={q.id}
+                              className="exam-question-card p-3 rounded-xl border border-slate-200 bg-white print:p-0 print:border-none print:shadow-none space-y-2 font-times"
+                            >
+                              <div className="flex items-baseline justify-between gap-2">
+                                <div className="text-[11.5pt] md:text-[12pt] leading-relaxed text-slate-900 print:text-black">
+                                  <span className="font-bold text-indigo-900 print:text-black">
+                                    Câu {q.id}:
+                                  </span>{" "}
+                                  <span className="font-times font-normal">
+                                    <MathView text={q.question} />
+                                  </span>
+                                </div>
+                                <div className="shrink-0 no-print">
+                                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                                    q.level === "VDC" ? "bg-rose-100 text-rose-800 border border-rose-200" : "bg-emerald-100 text-emerald-800 border border-emerald-200"
+                                  }`}>
+                                    {q.level === "VDC" ? "Vận dụng cao" : "Vận dụng"}
+                                  </span>
+                                </div>
+                              </div>
+
+                              {/* Nút bấm xem lời giải riêng từng câu (chỉ hiển thị trên web) */}
+                              <div className="no-print pt-1">
+                                <button
+                                  type="button"
+                                  onClick={() => setExpandedTopicQuestions(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
+                                  className="text-xs font-bold text-indigo-600 hover:text-indigo-800 flex items-center gap-1 transition"
+                                >
+                                  <span>{isExpanded ? "▾" : "▸"}</span>
+                                  <span>{isExpanded ? "Thu gọn lời giải" : "Xem hướng dẫn giải & Barem"}</span>
+                                </button>
+                              </div>
+
+                              {/* Hướng dẫn giải chi tiết */}
+                              {isExpanded && (
+                                <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-200 print:bg-transparent print:border-none print:p-0 space-y-1 text-[10.5pt] md:text-[11pt]">
+                                  <div className="font-bold text-emerald-950 print:text-black">Hướng dẫn giải chi tiết:</div>
+                                  <div className="text-slate-800 print:text-black leading-relaxed font-times">
+                                    <MathView text={q.solution} />
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+
+                      {/* Footer kết thúc tài liệu */}
+                      <div className="text-center font-bold text-[11pt] pt-3 mt-3 border-t border-slate-300 print:border-black font-times">
+                        <div>------------------ HẾT ------------------</div>
+                        <div className="text-[9.5pt] font-normal italic mt-0.5 text-slate-600 print:text-black">
+                          Tài liệu bồi dưỡng và luyện thi tuyển sinh vào lớp 10 THPT môn Toán • Chúc các em học tập và thi đạt kết quả xuất sắc!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
 
             {view === "grade10_mock" && (() => {
               const examsObj = mockExamsData?.exams || {};

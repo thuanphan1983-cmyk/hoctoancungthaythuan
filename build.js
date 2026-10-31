@@ -91,6 +91,7 @@ const examFiles = [
   'chapter3_bai14_toan8.js',
   'chapter3_ontap_toan8.js',
   'grade10EntranceExams.js',
+  'grade10TopicsData.js',
   'periodicExamsData.js'
 ];
 
