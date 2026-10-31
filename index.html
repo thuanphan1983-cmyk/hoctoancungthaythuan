@@ -3191,7 +3191,7 @@ if (typeof window !== "undefined") {
         return () => { isMounted = false; };
       }, [selectedGrade, selectedChapter, selectedLesson, selectedTestNum]);
 
-      // Hàm in / xuất PDF đề thi bài học SGK (Chuẩn hóa siêu tiết kiệm giấy)
+      // Hàm in / xuất PDF đề thi bài học SGK (Chuẩn hóa siêu tiết kiệm giấy & Tên file ngắn gọn)
       const handlePrintLessonExam = async (includeSolution = false) => {
         setShowLessonSolution(includeSolution);
         let ex = previewLessonExam;
@@ -3210,9 +3210,24 @@ if (typeof window !== "undefined") {
           showToast("error", "Đề thi của bài học này đang được cập nhật!");
           return;
         }
+
+        // Đặt tên file in / xuất PDF ngắn gọn, rõ ràng theo đúng bài học và mã đề (tránh trùng lặp)
+        const lessonShort = selectedLesson ? (selectedLesson.includes(":") ? selectedLesson.split(":")[0].trim() : selectedLesson.substring(0, 15).trim()) : "BÀI HỌC";
+        const gradeStr = selectedGrade ? ` - TOÁN ${selectedGrade}` : "";
+        const solStr = includeSolution ? " - ĐÁP ÁN" : "";
+        const printTitle = `ĐỀ SỐ ${selectedTestNum} - ${lessonShort.toUpperCase()}${gradeStr}${solStr}`;
+        const prevTitle = document.title;
+        document.title = printTitle;
+
         setTimeout(() => {
           window.print();
         }, 150);
+
+        const restoreTitle = () => {
+          document.title = prevTitle;
+        };
+        window.addEventListener("afterprint", restoreTitle, { once: true });
+        setTimeout(restoreTitle, 3000);
       };
 
 
@@ -3261,20 +3276,56 @@ if (typeof window !== "undefined") {
       // HÀM IN / XUẤT PDF QUA HỘP THOẠI IN CỦA TRÌNH DUYỆT (CHỌN 'SAVE AS PDF')
       const handlePrintPeriodicExam = (includeSolution = false) => {
         setShowPeriodicSolution(includeSolution);
+
+        // Đặt tên file ngắn gọn chuẩn Bộ GD&ĐT: Ví dụ "ĐỀ SỐ 3 GIỮA KỲ 1 - TOÁN 8"
+        const termShortNames = {
+          "mid1": "GIỮA KỲ 1",
+          "final1": "CUỐI KỲ 1",
+          "mid2": "GIỮA KỲ 2",
+          "final2": "CUỐI KỲ 2"
+        };
+        const termStr = termShortNames[periodicTerm] || "GIỮA KỲ 1";
+        const testNum = selectedPeriodicTestIdx + 1;
+        const gradeStr = periodicGrade ? ` - TOÁN ${periodicGrade}` : "";
+        const solStr = includeSolution ? " - ĐÁP ÁN" : "";
+        const printTitle = `ĐỀ SỐ ${testNum} ${termStr}${gradeStr}${solStr}`;
+        const prevTitle = document.title;
+        document.title = printTitle;
+
         setTimeout(() => {
           window.print();
         }, 150);
+
+        const restoreTitle = () => {
+          document.title = prevTitle;
+        };
+        window.addEventListener("afterprint", restoreTitle, { once: true });
+        setTimeout(restoreTitle, 3000);
       };
 
       const handlePrintExam = (tab = "paper") => {
+        const mockNum = selectedMockExamKey ? selectedMockExamKey.replace("de_", "").replace(/^0+/, "") : "1";
+        const solStr = tab === "full" ? " - ĐÁP ÁN VÀ LỜI GIẢI" : "";
+        const printTitle = `ĐỀ SỐ ${mockNum} - THI THỬ VÀO 10${solStr}`;
+        const prevTitle = document.title;
+        document.title = printTitle;
+
         if (mockViewTab !== tab) {
           setMockViewTab(tab);
           setTimeout(() => {
             window.print();
           }, 150);
         } else {
-          window.print();
+          setTimeout(() => {
+            window.print();
+          }, 150);
         }
+
+        const restoreTitle = () => {
+          document.title = prevTitle;
+        };
+        window.addEventListener("afterprint", restoreTitle, { once: true });
+        setTimeout(restoreTitle, 3000);
       };
 const [loadingAI, setLoadingAI] = useState(false);
 
@@ -5059,7 +5110,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
             {view === "setup" && (
 
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6">
+              <div className="space-y-6">
+                {/* KHU VỰC THIẾT LẬP BÀI KIỂM TRA (CHỈ HIỂN THỊ TRÊN WEB - BỎ QUA HOÀN TOÀN KHI IN ĐỀ THEO HÌNH 3) */}
+                <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6 no-print">
 
                 <div className="border-b pb-4 flex flex-wrap justify-between items-center gap-4">
 
@@ -5439,6 +5492,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
                   </div>
                 </div>
+              </div>
 
                 {/* XEM TRƯỚC & BẢN IN ĐỀ THI BÀI HỌC SGK (CHUẨN MA TRẬN 4 PHẦN - TỐI ƯU TIẾT KIỆM GIẤY) */}
                 {previewLessonExam && (
@@ -5724,7 +5778,17 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       <p className="text-xs text-slate-500">Học sinh: <b>{studentName}</b></p>
                       <button
                         type="button"
-                        onClick={() => window.print()}
+                        onClick={() => {
+                          const lessonShort = selectedLesson ? (selectedLesson.includes(":") ? selectedLesson.split(":")[0].trim() : selectedLesson.substring(0, 15).trim()) : "BÀI HỌC";
+                          const gradeStr = selectedGrade ? ` - TOÁN ${selectedGrade}` : "";
+                          const printTitle = `ĐỀ SỐ ${selectedTestNum} - ${lessonShort.toUpperCase()}${gradeStr}`;
+                          const prevTitle = document.title;
+                          document.title = printTitle;
+                          setTimeout(() => { window.print(); }, 150);
+                          const restore = () => { document.title = prevTitle; };
+                          window.addEventListener("afterprint", restore, { once: true });
+                          setTimeout(restore, 3000);
+                        }}
                         className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-3 py-1 rounded-xl shadow-xs text-xs flex items-center gap-1 transition"
                         title="In đề thi này ra giấy A4 tiết kiệm giấy"
                       >
