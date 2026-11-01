@@ -8,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Hệ thống Kiểm tra Toán THCS - Bộ sách Kết nối tri thức (Lớp 6, 7, 8, 9)</title>
+  <title>ĐỀ SỐ 1 GIỮA KỲ 1 - TOÁN THCS</title>
 
 
 
@@ -1086,6 +1086,16 @@ if (typeof window !== "undefined") {
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
       }
+      /* Triệt tiêu padding, margin và space-y của các container bọc ngoài khi in để tiết kiệm giấy tối đa */
+      main,
+      .max-w-5xl,
+      .max-w-6xl,
+      .space-y-6 > :not([hidden]) ~ :not([hidden]),
+      .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+      }
       /* Ẩn hoàn toàn tất cả nút bấm, header, footer, thanh điều hướng và phần tử no-print */
       header,
       footer,
@@ -1094,7 +1104,9 @@ if (typeof window !== "undefined") {
       button,
       input,
       select,
+      textarea,
       .no-print,
+      .print\:hidden,
       #top-contact-bar,
       #student-info-section,
       #setup-controls-card,
@@ -1110,19 +1122,23 @@ if (typeof window !== "undefined") {
         margin: 0 !important;
         padding: 0 !important;
         overflow: hidden !important;
+        opacity: 0 !important;
       }
       #setup-controls-card *,
-      .setup-controls-card * {
+      .setup-controls-card *,
+      #periodic-banner-card *,
+      #periodic-filter-card * {
         display: none !important;
         visibility: hidden !important;
-      }
-      #setup-controls-card *,
-      .setup-controls-card * {
-        display: none !important;
-        visibility: hidden !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
       }
       /* Khung đề thi chuẩn Times New Roman 11pt - 12pt, viền nét, tiết kiệm tối đa diện tích giấy */
       .pdf-exam-container,
+      .lesson-printable-exam,
       .periodic-printable-exam,
       .topic-printable-exam {
         display: block !important;
@@ -3211,6 +3227,73 @@ if (typeof window !== "undefined") {
         return () => { isMounted = false; };
       }, [selectedGrade, selectedChapter, selectedLesson, selectedTestNum]);
 
+      // Tự động tính toán tên đề thi ngắn gọn chuẩn Bộ GD&ĐT (Tránh dài dòng và tránh trùng lặp)
+      const computeCleanExamTitle = (includeSolution = false) => {
+        try {
+          if (view === "grade10_topic") {
+            const curTopic = topicsData?.topics?.find(t => t.id === selectedTopicId);
+            const topicShort = curTopic ? curTopic.shortTitle.replace(/[:\/]/g, '_') : "CHU_DE_ON_THI_VAO_10";
+            const solTag = (includeSolution || showAllTopicSolutions) ? " - DAP AN VA LOI GIAI" : "";
+            return `${topicShort}${solTag}`.trim();
+          }
+          if (view === "grade10_mock") {
+            const mockNum = selectedMockExamKey ? selectedMockExamKey.replace("de_", "").replace(/^0+/, "") : "1";
+            const solStr = (includeSolution || mockViewTab === "full") ? " - DAP AN VA LOI GIAI" : "";
+            return `DE SO ${mockNum} - THI THU VAO 10${solStr}`.trim();
+          }
+          if (view === "periodic_exam") {
+            const termShortNames = {
+              "mid1": "GIỮA KỲ 1",
+              "final1": "CUỐI KỲ 1",
+              "mid2": "GIỮA KỲ 2",
+              "final2": "CUỐI KỲ 2"
+            };
+            const termStr = termShortNames[periodicTerm] || "GIỮA KỲ 1";
+            const testNum = selectedPeriodicTestIdx + 1;
+            const gradeStr = periodicGrade ? ` - TOÁN ${periodicGrade}` : "";
+            const solStr = (includeSolution || showPeriodicSolution) ? " - ĐÁP ÁN" : "";
+            return `ĐỀ SỐ ${testNum} ${termStr}${gradeStr}${solStr}`.trim();
+          }
+          // Tab bài học SGK (view === 'setup' hoặc 'exam')
+          const lessonShort = selectedLesson ? (selectedLesson.includes(":") ? selectedLesson.split(":")[0].trim() : selectedLesson.substring(0, 20).trim()) : "BÀI HỌC";
+          const gradeStr = selectedGrade ? ` - TOÁN ${selectedGrade}` : "";
+          const solStr = (includeSolution || showLessonSolution) ? " - ĐÁP ÁN" : "";
+          return `ĐỀ SỐ ${selectedTestNum} - ${lessonShort.toUpperCase()}${gradeStr}${solStr}`.trim();
+        } catch (e) {
+          return "DE KIEM TRA TOAN THCS";
+        }
+      };
+
+      // Đồng bộ document.title liên tục theo từng tương tác chọn đề và ngay trước khi in
+      useEffect(() => {
+        const syncTitle = () => {
+          const t = computeCleanExamTitle();
+          if (t && document.title !== t) {
+            document.title = t;
+          }
+        };
+        syncTitle();
+        window.addEventListener('beforeprint', syncTitle);
+        return () => {
+          window.removeEventListener('beforeprint', syncTitle);
+        };
+      }, [
+        view,
+        selectedGrade,
+        selectedLesson,
+        selectedTestNum,
+        showLessonSolution,
+        periodicGrade,
+        periodicTerm,
+        selectedPeriodicTestIdx,
+        showPeriodicSolution,
+        selectedTopicId,
+        showAllTopicSolutions,
+        selectedMockExamKey,
+        mockViewTab,
+        topicsData
+      ]);
+
       // Hàm in / xuất PDF đề thi bài học SGK (Chuẩn hóa siêu tiết kiệm giấy & Tên file ngắn gọn)
       const handlePrintLessonExam = async (includeSolution = false) => {
         setShowLessonSolution(includeSolution);
@@ -3231,22 +3314,12 @@ if (typeof window !== "undefined") {
           return;
         }
 
-        // Đặt tên file in / xuất PDF ngắn gọn, rõ ràng theo đúng bài học và mã đề (tránh trùng lặp)
-        const lessonShort = selectedLesson ? (selectedLesson.includes(":") ? selectedLesson.split(":")[0].trim() : selectedLesson.substring(0, 15).trim()) : "BÀI HỌC";
-        const gradeStr = selectedGrade ? ` - TOÁN ${selectedGrade}` : "";
-        const solStr = includeSolution ? " - ĐÁP ÁN" : "";
-        const printTitle = `ĐỀ SỐ ${selectedTestNum} - ${lessonShort.toUpperCase()}${gradeStr}${solStr}`;
-        const prevTitle = document.title;
+        const printTitle = computeCleanExamTitle(includeSolution);
         document.title = printTitle;
 
         setTimeout(() => {
           window.print();
-        }, 150);
-
-        const restoreTitle = () => {
-          document.title = prevTitle;
-        };
-        // document.title giữ nguyên tên đề thi để Save As PDF chuẩn xác 100%
+        }, 120);
       };
 
 
@@ -3295,21 +3368,12 @@ if (typeof window !== "undefined") {
       // Hàm in / xuất PDF Chuyên đề ôn thi vào 10 chuẩn A4 tiết kiệm giấy
       const handlePrintTopicQuestions = (includeSolution = false) => {
         setShowAllTopicSolutions(includeSolution);
-        
-        const curTopic = topicsData?.topics?.find(t => t.id === selectedTopicId);
-        const topicShort = curTopic ? curTopic.shortTitle.replace(/[:\/]/g, '_') : "CHU_DE_ON_THI_VAO_10";
-        const solTag = includeSolution ? " - ĐÁP ÁN & LỜI GIẢI" : "";
-        const printTitle = `${topicShort}${solTag}`;
-        
-        const prevTitle = document.title;
+        const printTitle = computeCleanExamTitle(includeSolution);
         document.title = printTitle;
 
         setTimeout(() => {
           window.print();
-        }, 150);
-
-        const restore = () => { document.title = prevTitle; };
-        // document.title giữ nguyên tên đề thi để Save As PDF chuẩn xác 100%
+        }, 120);
       };
 
       // State chuyên dụng cho THI THỬ VÀO LỚP 10 - GV PHAN ĐÌNH THUẤN
@@ -3352,54 +3416,28 @@ if (typeof window !== "undefined") {
       // HÀM IN / XUẤT PDF QUA HỘP THOẠI IN CỦA TRÌNH DUYỆT (CHỌN 'SAVE AS PDF')
       const handlePrintPeriodicExam = (includeSolution = false) => {
         setShowPeriodicSolution(includeSolution);
-
-        // Đặt tên file ngắn gọn chuẩn Bộ GD&ĐT: Ví dụ "ĐỀ SỐ 3 GIỮA KỲ 1 - TOÁN 8"
-        const termShortNames = {
-          "mid1": "GIỮA KỲ 1",
-          "final1": "CUỐI KỲ 1",
-          "mid2": "GIỮA KỲ 2",
-          "final2": "CUỐI KỲ 2"
-        };
-        const termStr = termShortNames[periodicTerm] || "GIỮA KỲ 1";
-        const testNum = selectedPeriodicTestIdx + 1;
-        const gradeStr = periodicGrade ? ` - TOÁN ${periodicGrade}` : "";
-        const solStr = includeSolution ? " - ĐÁP ÁN" : "";
-        const printTitle = `ĐỀ SỐ ${testNum} ${termStr}${gradeStr}${solStr}`.trim();
-        const prevTitle = document.title;
+        const printTitle = computeCleanExamTitle(includeSolution);
         document.title = printTitle;
 
         setTimeout(() => {
           window.print();
-        }, 150);
-
-        const restoreTitle = () => {
-          document.title = prevTitle;
-        };
-        // document.title giữ nguyên tên đề thi để Save As PDF chuẩn xác 100%
+        }, 120);
       };
 
       const handlePrintExam = (tab = "paper") => {
-        const mockNum = selectedMockExamKey ? selectedMockExamKey.replace("de_", "").replace(/^0+/, "") : "1";
-        const solStr = tab === "full" ? " - ĐÁP ÁN VÀ LỜI GIẢI" : "";
-        const printTitle = `ĐỀ SỐ ${mockNum} - THI THỬ VÀO 10${solStr}`;
-        const prevTitle = document.title;
+        const printTitle = computeCleanExamTitle(tab === "full");
         document.title = printTitle;
 
         if (mockViewTab !== tab) {
           setMockViewTab(tab);
           setTimeout(() => {
             window.print();
-          }, 150);
+          }, 120);
         } else {
           setTimeout(() => {
             window.print();
-          }, 150);
+          }, 120);
         }
-
-        const restoreTitle = () => {
-          document.title = prevTitle;
-        };
-        // document.title giữ nguyên tên đề thi để Save As PDF chuẩn xác 100%
       };
 const [loadingAI, setLoadingAI] = useState(false);
 
@@ -5201,7 +5239,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
             {/* KHỐI KHAI BÁO THÔNG TIN HỌC SINH (BẮT BUỘC) */}
             {(view === "setup" || view === "grade10_mock" || view === "grade10_topic" || view === "periodic_exam") && (
-              <div id="student-info-section" className="bg-white rounded-2xl shadow-sm border border-indigo-100 p-5 space-y-3 no-print">
+              <div id="student-info-section" className="bg-white rounded-2xl shadow-sm border border-indigo-100 p-5 space-y-3 no-print print:hidden">
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
                   <div className="flex items-center gap-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
@@ -5278,7 +5316,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               <div className="space-y-6">
                 {/* KHU VỰC THIẾT LẬP BÀI KIỂM TRA (CHỈ HIỂN THỊ TRÊN WEB - BỎ QUA HOÀN TOÀN KHI IN ĐỀ THEO HÌNH 3) */}
-                <div id="setup-controls-card" className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6 no-print setup-controls-card">
+                <div id="setup-controls-card" className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6 no-print setup-controls-card print:hidden">
 
                 <div className="border-b pb-4 flex flex-wrap justify-between items-center gap-4">
 
@@ -8272,7 +8310,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
               return (
                 <div className="space-y-6">
                   {/* BANNER ÔN TẬP ĐỊNH KỲ */}
-                  <div id="periodic-banner-card" className="bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print">
+                  <div id="periodic-banner-card" className="bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print print:hidden">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <div className="flex items-center gap-3.5">
                         <div className="w-12 h-12 bg-white/10 backdrop-blur rounded-2xl flex items-center justify-center text-2xl shrink-0">
@@ -8316,7 +8354,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   </div>
 
                   {/* BẢNG CHỌN KHỐI & KỲ THI */}
-                  <div id="periodic-filter-card" className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5 no-print">
+                  <div id="periodic-filter-card" className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5 no-print print:hidden">
                     {/* 1. Chọn Khối */}
                     <div>
                       <label className="block text-xs font-bold uppercase text-slate-700 mb-2">
