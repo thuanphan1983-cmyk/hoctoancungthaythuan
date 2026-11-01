@@ -1096,8 +1096,20 @@ if (typeof window !== "undefined") {
       select,
       .no-print,
       #top-contact-bar,
+      #student-info-section,
+      #setup-controls-card,
+      .setup-controls-card,
+      #periodic-banner-card,
+      #periodic-filter-card,
+      [data-no-print="true"],
       .toast-container {
         display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
       }
       /* Khung đề thi chuẩn Times New Roman 11pt - 12pt, viền nét, tiết kiệm tối đa diện tích giấy */
       .pdf-exam-container,
@@ -3231,7 +3243,6 @@ if (typeof window !== "undefined") {
           document.title = prevTitle;
         };
         window.addEventListener("afterprint", restoreTitle, { once: true });
-        setTimeout(restoreTitle, 3000);
       };
 
 
@@ -3295,7 +3306,6 @@ if (typeof window !== "undefined") {
 
         const restore = () => { document.title = prevTitle; };
         window.addEventListener("afterprint", restore, { once: true });
-        setTimeout(restore, 3000);
       };
 
       // State chuyên dụng cho THI THỬ VÀO LỚP 10 - GV PHAN ĐÌNH THUẤN
@@ -3350,7 +3360,7 @@ if (typeof window !== "undefined") {
         const testNum = selectedPeriodicTestIdx + 1;
         const gradeStr = periodicGrade ? ` - TOÁN ${periodicGrade}` : "";
         const solStr = includeSolution ? " - ĐÁP ÁN" : "";
-        const printTitle = `ĐỀ SỐ ${testNum} ${termStr}${gradeStr}${solStr}`;
+        const printTitle = `ĐỀ SỐ ${testNum} ${termStr}${gradeStr}${solStr}`.trim();
         const prevTitle = document.title;
         document.title = printTitle;
 
@@ -3362,7 +3372,6 @@ if (typeof window !== "undefined") {
           document.title = prevTitle;
         };
         window.addEventListener("afterprint", restoreTitle, { once: true });
-        setTimeout(restoreTitle, 3000);
       };
 
       const handlePrintExam = (tab = "paper") => {
@@ -3387,7 +3396,6 @@ if (typeof window !== "undefined") {
           document.title = prevTitle;
         };
         window.addEventListener("afterprint", restoreTitle, { once: true });
-        setTimeout(restoreTitle, 3000);
       };
 const [loadingAI, setLoadingAI] = useState(false);
 
@@ -5187,7 +5195,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               <div className="space-y-6">
                 {/* KHU VỰC THIẾT LẬP BÀI KIỂM TRA (CHỈ HIỂN THỊ TRÊN WEB - BỎ QUA HOÀN TOÀN KHI IN ĐỀ THEO HÌNH 3) */}
-                <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6 no-print">
+                <div id="setup-controls-card" className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6 no-print setup-controls-card">
 
                 <div className="border-b pb-4 flex flex-wrap justify-between items-center gap-4">
 
@@ -5862,7 +5870,6 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           setTimeout(() => { window.print(); }, 150);
                           const restore = () => { document.title = prevTitle; };
                           window.addEventListener("afterprint", restore, { once: true });
-                          setTimeout(restore, 3000);
                         }}
                         className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-3 py-1 rounded-xl shadow-xs text-xs flex items-center gap-1 transition"
                         title="In đề thi này ra giấy A4 tiết kiệm giấy"
@@ -8054,7 +8061,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
               return (
                 <div className="space-y-6">
                   {/* BANNER ÔN TẬP ĐỊNH KỲ */}
-                  <div className="bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print">
+                  <div id="periodic-banner-card" className="bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <div className="flex items-center gap-3.5">
                         <div className="w-12 h-12 bg-white/10 backdrop-blur rounded-2xl flex items-center justify-center text-2xl shrink-0">
@@ -8098,7 +8105,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   </div>
 
                   {/* BẢNG CHỌN KHỐI & KỲ THI */}
-                  <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5 no-print">
+                  <div id="periodic-filter-card" className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-5 no-print">
                     {/* 1. Chọn Khối */}
                     <div>
                       <label className="block text-xs font-bold uppercase text-slate-700 mb-2">
