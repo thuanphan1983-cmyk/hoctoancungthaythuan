@@ -5537,7 +5537,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         ) : (
                           <>
                             <Icons.BookOpen />
-                            <span>Vào làm Đề {selectedTestNum}</span>
+                            <span>Vào làm Đề số {selectedTestNum < 10 ? '0' + selectedTestNum : selectedTestNum}</span>
                           </>
                         )}
                       </button>
@@ -5588,197 +5588,53 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
                   </div>
 
-                  <div className="space-y-4">
+                  <div className="space-y-3">
                     {(() => {
                       const isChapterExam = selectedLesson && selectedLesson.toLowerCase().includes("cuối chương");
-                      const lessonTests = isChapterExam ? [
-                        {
-                          num: 1,
-                          title: "Đề số 1",
-                          level: "Cơ bản - Khá",
-                          ratio: "40% NB • 30% TH • 20% VD • 10% VDC",
-                          scoreRange: "7 - 8 điểm",
-                          desc: "Bao quát kiến thức toàn chương",
-                          icon: "🌱",
-                          activeStyle: "border-emerald-600 bg-emerald-50/90 ring-2 ring-emerald-500/30 text-emerald-950",
-                          badgeColor: "bg-emerald-100 text-emerald-800 border border-emerald-300"
-                        },
-                        {
-                          num: 2,
-                          title: "Đề số 2",
-                          level: "Tương đương Đề 1",
-                          ratio: "40% NB • 30% TH • 20% VD • 10% VDC",
-                          scoreRange: "7 - 8 điểm",
-                          desc: "Rèn luyện mô hình đề độc lập",
-                          icon: "📘",
-                          activeStyle: "border-blue-600 bg-blue-50/90 ring-2 ring-blue-500/30 text-blue-950",
-                          badgeColor: "bg-blue-100 text-blue-800 border border-blue-300"
-                        },
-                        {
-                          num: 3,
-                          title: "Đề số 3",
-                          level: "Khá Giỏi",
-                          ratio: "20% NB • 30% TH • 30% VD • 20% VDC",
-                          scoreRange: "8.5 - 9.5 điểm",
-                          desc: "Phân hóa câu cuối, bám sát SGK",
-                          icon: "🚀",
-                          activeStyle: "border-purple-600 bg-purple-50/90 ring-2 ring-purple-500/30 text-purple-950",
-                          badgeColor: "bg-purple-100 text-purple-800 border border-purple-300"
-                        },
-                        {
-                          num: 4,
-                          title: "Đề số 4",
-                          level: "Chuẩn ma trận",
-                          ratio: "30% NB • 30% TH • 20% VD • 20% VDC",
-                          scoreRange: "8.0 - 9.0 điểm",
-                          desc: "Toàn diện các dạng bài trong chương",
-                          icon: "🎯",
-                          activeStyle: "border-indigo-600 bg-indigo-50/90 ring-2 ring-indigo-500/30 text-indigo-950",
-                          badgeColor: "bg-indigo-100 text-indigo-800 border border-indigo-300"
-                        },
-                        {
-                          num: 5,
-                          title: "Đề số 5",
-                          level: "Vận dụng thực tế",
-                          ratio: "30% NB • 30% TH • 20% VD • 20% VDC",
-                          scoreRange: "8.0 - 9.0 điểm",
-                          desc: "Liên hệ ứng dụng thực tiễn",
-                          icon: "💡",
-                          activeStyle: "border-amber-600 bg-amber-50/90 ring-2 ring-amber-500/30 text-amber-950",
-                          badgeColor: "bg-amber-100 text-amber-800 border border-amber-300"
-                        },
-                        {
-                          num: 6,
-                          title: "Đề số 6",
-                          level: "Phân hóa Nâng cao",
-                          ratio: "30% NB • 30% TH • 20% VD • 20% VDC",
-                          scoreRange: "8.5 - 9.5 điểm",
-                          desc: "Thử thách tư duy logic & biến đổi",
-                          icon: "🔥",
-                          activeStyle: "border-rose-600 bg-rose-50/90 ring-2 ring-rose-500/30 text-rose-950",
-                          badgeColor: "bg-rose-100 text-rose-800 border border-rose-300"
-                        },
-                        {
-                          num: 7,
-                          title: "Đề số 7",
-                          level: "Chinh phục điểm 10",
-                          ratio: "30% NB • 30% TH • 20% VD • 20% VDC",
-                          scoreRange: "9.0 - 10.0 điểm",
-                          desc: "Câu hỏi chốt điểm 10 phân hóa cao",
-                          icon: "🏆",
-                          activeStyle: "border-teal-600 bg-teal-50/90 ring-2 ring-teal-500/30 text-teal-950",
-                          badgeColor: "bg-teal-100 text-teal-800 border border-teal-300"
-                        }
-                      ] : [
-                        {
-                          num: 1,
-                          title: "Đề số 1",
-                          level: "Chuẩn cơ bản SGK",
-                          ratio: "70% CB • 20% VD • 10% TT",
-                          scoreRange: "7 - 8 điểm (Khá - TB)",
-                          desc: "Bám sát ví dụ & bài tập SGK",
-                          icon: "🌱",
-                          activeStyle: "border-emerald-600 bg-emerald-50/90 ring-2 ring-emerald-500/30 text-emerald-950",
-                          badgeColor: "bg-emerald-100 text-emerald-800 border border-emerald-300"
-                        },
-                        {
-                          num: 2,
-                          title: "Đề số 2",
-                          level: "Tương đương Đề 1",
-                          ratio: "70% CB • 20% VD • 10% TT",
-                          scoreRange: "7 - 8 điểm (Khá - TB)",
-                          desc: "Rèn luyện mô hình song song",
-                          icon: "📘",
-                          activeStyle: "border-blue-600 bg-blue-50/90 ring-2 ring-blue-500/30 text-blue-950",
-                          badgeColor: "bg-blue-100 text-blue-800 border border-blue-300"
-                        },
-                        {
-                          num: 3,
-                          title: "Đề số 3",
-                          level: "Phân hóa nhẹ",
-                          ratio: "60% CB • 30% VD • 10% VDC",
-                          scoreRange: "8.5 - 9.5 điểm",
-                          desc: "Phân hóa câu cuối, bám sát SGK",
-                          icon: "🚀",
-                          activeStyle: "border-purple-600 bg-purple-50/90 ring-2 ring-purple-500/30 text-purple-950",
-                          badgeColor: "bg-purple-100 text-purple-800 border border-purple-300"
-                        }
-                      ];
+                      const totalTests = isChapterExam ? 7 : 3;
+                      const testsList = Array.from({ length: totalTests }, (_, i) => {
+                        const num = i + 1;
+                        const formattedNum = num < 10 ? `0${num}` : `${num}`;
+                        return {
+                          num: num,
+                          title: `Đề số ${formattedNum}`
+                        };
+                      });
 
                       return (
-                        <div>
-                          <label className="block text-xs font-bold uppercase text-slate-700 mb-2 flex items-center justify-between">
-                            <span>{isChapterExam ? "4. Chọn Đề kiểm tra cuối Chương (7 mã đề chuẩn ma trận độc lập 100%)" : "4. Chọn Đề kiểm tra bài học SGK (3 mã đề chuẩn hóa theo độ dốc)"}</span>
-                            <span className="text-[11px] font-normal text-indigo-600 lowercase bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">
-                              {isChapterExam ? "Đề 1 - Đề 7 mở tự do • Chuẩn 30% NB, 30% TH, 20% VD, 20% VDC" : "Đề 1 & 2 tương đương • Đề 3 phân hóa nhẹ"}
+                        <div className="bg-slate-50/80 p-4 rounded-2xl border border-slate-200/80 space-y-2.5">
+                          <div className="flex items-center justify-between">
+                            <label className="block text-xs font-bold uppercase text-slate-700 tracking-wide">
+                              4. Chọn mã đề kiểm tra {isChapterExam ? "(7 mã đề độc lập)" : "(3 mã đề)"}:
+                            </label>
+                            <span className="text-[11px] font-semibold text-indigo-700 bg-white px-2.5 py-0.5 rounded-full border border-indigo-200 shadow-xs">
+                              {isChapterExam ? "Đề 01 - Đề 07 mở tự do • Độc lập 100%" : "Đề 01 - Đề 03 mở tự do"}
                             </span>
-                          </label>
-                          <div className={`grid ${isChapterExam ? "grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7" : "grid-cols-1 sm:grid-cols-3"} gap-2.5`}>
-                            {lessonTests.map((item) => (
-                              <button
-                                key={item.num}
-                                type="button"
-                                onClick={() => setSelectedTestNum(item.num)}
-                                className={`p-3 rounded-xl border-2 text-left sm:text-center transition flex flex-col justify-between gap-1.5 relative shadow-xs ${
-                                  selectedTestNum === item.num
-                                    ? `${item.activeStyle} shadow-md`
-                                    : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50 text-slate-800"
-                                }`}
-                              >
-                                <div className="flex items-center sm:justify-center gap-1.5 w-full">
-                                  <span className="text-lg">{item.icon}</span>
-                                  <span className="text-sm font-black text-slate-900">{item.title}</span>
-                                  {selectedTestNum === item.num && (
-                                    <span className="ml-auto sm:hidden text-[10px] font-black text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">
-                                      ✓ Đang chọn
-                                    </span>
-                                  )}
-                                </div>
-                                <span className={`text-[11px] font-bold px-2 py-0.5 rounded-full inline-block sm:mx-auto ${item.badgeColor}`}>
-                                  {item.level}
-                                </span>
-                                <div className="text-[11px] text-slate-600 font-medium">
-                                  Tỉ lệ: <b>{item.ratio}</b>
-                                </div>
-                                <div className="text-[11px] font-bold text-indigo-700 bg-indigo-50/80 px-2 py-0.5 rounded border border-indigo-100">
-                                  Mục tiêu: {item.scoreRange}
-                                </div>
-                                <p className="text-[10px] text-slate-500 italic mt-0.5">
-                                  {item.desc}
-                                </p>
-                                {selectedTestNum === item.num && (
-                                  <div className="hidden sm:flex text-[11px] font-black text-emerald-700 items-center justify-center gap-0.5 mt-0.5">
-                                    <span>✓ Đang chọn</span>
-                                  </div>
-                                )}
-                              </button>
-                            ))}
+                          </div>
+
+                          <div className={`grid ${isChapterExam ? "grid-cols-2 sm:grid-cols-4 lg:grid-cols-7" : "grid-cols-1 sm:grid-cols-3"} gap-2.5`}>
+                            {testsList.map((item) => {
+                              const isSelected = selectedTestNum === item.num;
+                              return (
+                                <button
+                                  key={item.num}
+                                  type="button"
+                                  onClick={() => setSelectedTestNum(item.num)}
+                                  className={`py-3 px-3 rounded-xl border text-center transition flex items-center justify-center gap-1.5 font-bold text-sm shadow-xs ${
+                                    isSelected
+                                      ? "bg-indigo-600 text-white border-indigo-600 shadow-md ring-2 ring-indigo-200 transform scale-[1.02]"
+                                      : "bg-white text-slate-700 border-slate-200 hover:border-indigo-300 hover:bg-indigo-50/50"
+                                  }`}
+                                >
+                                  <span>{item.title}</span>
+                                  {isSelected && <span className="text-xs">✓</span>}
+                                </button>
+                              );
+                            })}
                           </div>
                         </div>
                       );
                     })()}
-
-                    {/* Tóm tắt ma trận 10 điểm */}
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs space-y-2">
-                      <div className="font-bold text-slate-800 uppercase tracking-wide flex items-center justify-between">
-                        <span className="flex items-center gap-1.5">
-                          <span>📐</span> Quy chuẩn phân hóa đề bài học SGK (GDPT 2018 - Kết nối tri thức)
-                        </span>
-                        <span className="text-[10px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200">
-                          90 phút • 10.0 điểm
-                        </span>
-                      </div>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px] text-slate-600">
-                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
-                          <strong className="text-emerald-800 block mb-0.5">🌱 Đề 1 & Đề 2 (Độ khó tương đương):</strong>
-                          70% Nhận biết - Thông hiểu, 20% Vận dụng cơ bản theo SGK, 10% Liên hệ thực tế nhẹ. Học sinh khá - TB làm tốt 7 - 8 điểm.
-                        </div>
-                        <div className="bg-white p-2.5 rounded-lg border border-slate-200">
-                          <strong className="text-purple-800 block mb-0.5">🚀 Đề 3 (Khó hơn Đề 1 & 2 một ít):</strong>
-                          60% Cơ bản, 30% Vận dụng, 10% Vận dụng nâng cao nhẹ. Phân hóa nhẹ ở câu hỏi cuối, bám sát 100% SGK, tuyệt đối không đưa bài thi HSG nặng nề vào.
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
