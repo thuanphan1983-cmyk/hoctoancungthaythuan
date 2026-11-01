@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG VII: TẦN SỐ VÀ TẦN SỐ TƯƠNG ĐỐI - TOÁN 9 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-10-28 08:29:30
+// Cập nhật lúc: 2026-11-01 19:28:20
 // ==============================================================================
 
 const EXAMS_9_C7_9 = {
@@ -3518,6 +3518,1186 @@ const EXAMS_9_C7_9 = {
         "level": "Vận dụng cao",
         "question": "Bảng ghép nhóm cự ly chạy 100m của 40 học sinh được phân vào 4 nhóm: [12; 13): a bạn; [13; 14): 18 bạn; [14; 15): 10 bạn; [15; 16): 4 bạn. Tìm a và tính thời gian chạy trung bình của học sinh lớp 9 này bằng cách sử dụng giá trị đại diện của các nhóm.",
         "rubric": "Tổng số HS là 40 nên a = 40 - 18 - 10 - 4 = 8 bạn (0.25đ). Giá trị đại diện các nhóm: 12.5; 13.5; 14.5; 15.5 (0.25đ). Thời gian trung bình: X = (8*12.5 + 18*13.5 + 10*14.5 + 4*15.5) / 40 = (100 + 243 + 145 + 62) / 40 = 550 / 40 = 13.75 giây (0.5đ)."
+      }
+    ]
+  },
+  "c7_9_bai4_test4": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VII: Tần số và tần số tương đối - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tần số của một giá trị trong mẫu số liệu là:",
+        "options": [
+          "Số lần xuất hiện của giá trị đó trong mẫu số liệu",
+          "Tỉ số giữa giá trị đó và tổng số liệu",
+          "Giá trị lớn nhất của mẫu",
+          "Giá trị trung bình"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Tần số tương đối $f_i$ của giá trị $x_i$ được tính theo công thức:",
+        "options": [
+          "$f_i = \\frac{m_i}{N} \\cdot 100\\%$",
+          "$f_i = \\frac{N}{m_i}$",
+          "$f_i = m_i \\cdot N$",
+          "$f_i = m_i - N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tổng tất cả các tần số tương đối của các giá trị trong mẫu số liệu luôn bằng:",
+        "options": [
+          "$100\\%$ (hay $1$)",
+          "$50\\%$",
+          "$360\\%$",
+          "Bằng cỡ mẫu $N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Để biểu diễn tần số tương đối của các nhóm số liệu, người ta thường dùng:",
+        "options": [
+          "Biểu đồ tần số tương đối hình quạt tròn hoặc cột",
+          "Biểu đồ tranh",
+          "Biểu đồ Ven",
+          "Biểu đồ đường chéo"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Khảo sát cỡ giày của 40 học sinh: Cỡ 38 xuất hiện 12 lần. Tần số tương đối của cỡ giày 38 là:",
+        "options": [
+          "$30\\%$",
+          "$12\\%$",
+          "$25\\%$",
+          "$40\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Một lớp có 45 học sinh, trong đó có 9 học sinh xếp loại Xuất sắc. Tần số tương đối của học sinh Xuất sắc là:",
+        "options": [
+          "$20\\%$",
+          "$9\\%$",
+          "$25\\%$",
+          "$15\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Bảng tần số ghép nhóm thường được dùng khi:",
+        "options": [
+          "Dữ liệu có nhiều giá trị khác nhau và phân bố liên tục",
+          "Mẫu số liệu rất ít (dưới 5 số liệu)",
+          "Dữ liệu định tính",
+          "Chỉ có 2 giá trị"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Độ dài của nhóm số liệu $[a; b)$ được tính bằng:",
+        "options": [
+          "$b - a$",
+          "$b + a$",
+          "$\\frac{a+b}{2}$",
+          "$\\sqrt{b-a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bảng phân bố tần số ghép nhóm điểm kiểm tra Toán: Nhóm $[7; 8)$ có tần số 14, cỡ mẫu $N = 50$. Tần số tương đối của nhóm điểm này là:",
+        "options": [
+          "$28\\%$",
+          "$14\\%$",
+          "$35\\%$",
+          "$25\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Thời gian hoàn thành một bài tập của 30 học sinh: Dưới 10 phút: 6 em; Từ 10 đến 15 phút: 15 em; Trên 15 phút: 9 em. Tần số tương đối của nhóm học sinh làm từ 10 phút trở lên là:",
+        "options": [
+          "$80\\%$",
+          "$50\\%$",
+          "$70\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn tần số tương đối, góc ở tâm của nhóm đạt tỉ lệ $35\\%$ là:",
+        "options": [
+          "$126^\\circ$",
+          "$108^\\circ$",
+          "$90^\\circ$",
+          "$140^\\circ$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu số liệu ghép nhóm có 5 nhóm bằng nhau. Biết giá trị đại diện của nhóm thứ nhất là 12, giá trị đại diện của nhóm thứ hai là 16. Khoảng biến thiên của mẫu số liệu trên ít nhất là:",
+        "options": [
+          "$20$",
+          "$16$",
+          "$24$",
+          "$18$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tần số và tần số tương đối (Mã đề 4):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tổng các tần số của tất cả các giá trị luôn bằng cỡ mẫu N.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị đại diện của nhóm [a; b) là trung điểm (a + b)/2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối có thể nhận giá trị lớn hơn 100%.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Biểu đồ đoạn thẳng tần số nối các điểm có hoành độ là giá trị đại diện và tung độ là tần số tương ứng.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bảng thống kê số giờ tự học mỗi ngày của 50 học sinh: [0; 1) có 5 em; [1; 2) có 15 em; [2; 3) có 20 em; [3; 4) có 10 em:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nhóm có tần số lớn nhất là nhóm [2; 3).",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối của nhóm [1; 2) là 30%.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tỉ lệ học sinh học từ 2 giờ trở lên mỗi ngày là 60%.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Thời gian tự học trung bình của học sinh lớp đó lớn hơn 2,5 giờ.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Một mẫu số liệu có cỡ mẫu N = 80, giá trị x có tần số m = 24. Tính tần số tương đối (%) của x.",
+        "answer": "30",
+        "acceptableAnswers": [
+          "30"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm giá trị đại diện của nhóm [20; 30).",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một nhóm chiếm tần số tương đối 45%. Tính số đo góc ở tâm tương ứng trong biểu đồ quạt tròn (độ).",
+        "answer": "162",
+        "acceptableAnswers": [
+          "162"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **162**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu gồm 4 nhóm với tần số tương ứng: 8, 12, 16, 4. Tính tần số tương đối (%) của nhóm lớn nhất.",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Lập bảng tần số tương đối cho mẫu số liệu về điểm kiểm tra của 40 học sinh: Điểm 8: 10 em; Điểm 9: 18 em; Điểm 10: 12 em.",
+        "rubric": "Tần số tương đối:\nĐiểm 8: 10 / 40 = 25% (0.15đ).\nĐiểm 9: 18 / 40 = 45% (0.2đ).\nĐiểm 10: 12 / 40 = 30% (0.15đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Khảo sát chiều cao của 100 học sinh lớp 9: [150; 155) có 15 em; [155; 160) có 35 em; [160; 165) có 30 em; [165; 170) có 20 em. a) Lập bảng tần số ghép nhóm kèm giá trị đại diện. b) Ước tính chiều cao trung bình của 100 học sinh đó.",
+        "rubric": "a) Giá trị đại diện các nhóm: 152,5; 157,5; 162,5; 167,5 (0.25đ).\nb) Chiều cao trung bình: x_tb = (152,5.15 + 157,5.35 + 162,5.30 + 167,5.20) / 100 = 160,25 (cm) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một nhà máy phân tích thời gian chạy thử của 200 chiếc động cơ trước khi xuất xưởng. Nhóm thời gian [40; 50) giờ chiếm 30%, nhóm [50; 60) giờ chiếm 50%, còn lại là trên 60 giờ. Tính số động cơ chạy thử trên 60 giờ và góc ở tâm tương ứng khi vẽ biểu đồ quạt tròn.",
+        "rubric": "Tỉ lệ nhóm trên 60 giờ: 100% - 30% - 50% = 20% (0.25đ).\nSố động cơ trên 60 giờ: 200 x 20% = 40 (động cơ).\nGóc ở tâm tương ứng: 20% x 360 độ = 72 độ (0.25đ)."
+      }
+    ]
+  },
+  "c7_9_bai4_test5": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VII: Tần số và tần số tương đối - Bài kiểm tra số 5 (💡 Bảng tần số & Biểu đồ thực tế)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tần số của một giá trị trong mẫu số liệu là:",
+        "options": [
+          "Số lần xuất hiện của giá trị đó trong mẫu số liệu",
+          "Tỉ số giữa giá trị đó và tổng số liệu",
+          "Giá trị lớn nhất của mẫu",
+          "Giá trị trung bình"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Tần số tương đối $f_i$ của giá trị $x_i$ được tính theo công thức:",
+        "options": [
+          "$f_i = \\frac{m_i}{N} \\cdot 100\\%$",
+          "$f_i = \\frac{N}{m_i}$",
+          "$f_i = m_i \\cdot N$",
+          "$f_i = m_i - N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tổng tất cả các tần số tương đối của các giá trị trong mẫu số liệu luôn bằng:",
+        "options": [
+          "$100\\%$ (hay $1$)",
+          "$50\\%$",
+          "$360\\%$",
+          "Bằng cỡ mẫu $N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Để biểu diễn tần số tương đối của các nhóm số liệu, người ta thường dùng:",
+        "options": [
+          "Biểu đồ tần số tương đối hình quạt tròn hoặc cột",
+          "Biểu đồ tranh",
+          "Biểu đồ Ven",
+          "Biểu đồ đường chéo"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Khảo sát cỡ giày của 40 học sinh: Cỡ 38 xuất hiện 12 lần. Tần số tương đối của cỡ giày 38 là:",
+        "options": [
+          "$30\\%$",
+          "$12\\%$",
+          "$25\\%$",
+          "$40\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Một lớp có 45 học sinh, trong đó có 9 học sinh xếp loại Xuất sắc. Tần số tương đối của học sinh Xuất sắc là:",
+        "options": [
+          "$20\\%$",
+          "$9\\%$",
+          "$25\\%$",
+          "$15\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Bảng tần số ghép nhóm thường được dùng khi:",
+        "options": [
+          "Dữ liệu có nhiều giá trị khác nhau và phân bố liên tục",
+          "Mẫu số liệu rất ít (dưới 5 số liệu)",
+          "Dữ liệu định tính",
+          "Chỉ có 2 giá trị"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Độ dài của nhóm số liệu $[a; b)$ được tính bằng:",
+        "options": [
+          "$b - a$",
+          "$b + a$",
+          "$\\frac{a+b}{2}$",
+          "$\\sqrt{b-a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bảng phân bố tần số ghép nhóm điểm kiểm tra Toán: Nhóm $[7; 8)$ có tần số 14, cỡ mẫu $N = 50$. Tần số tương đối của nhóm điểm này là:",
+        "options": [
+          "$28\\%$",
+          "$14\\%$",
+          "$35\\%$",
+          "$25\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Thời gian hoàn thành một bài tập của 30 học sinh: Dưới 10 phút: 6 em; Từ 10 đến 15 phút: 15 em; Trên 15 phút: 9 em. Tần số tương đối của nhóm học sinh làm từ 10 phút trở lên là:",
+        "options": [
+          "$80\\%$",
+          "$50\\%$",
+          "$70\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn tần số tương đối, góc ở tâm của nhóm đạt tỉ lệ $35\\%$ là:",
+        "options": [
+          "$126^\\circ$",
+          "$108^\\circ$",
+          "$90^\\circ$",
+          "$140^\\circ$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu số liệu ghép nhóm có 5 nhóm bằng nhau. Biết giá trị đại diện của nhóm thứ nhất là 12, giá trị đại diện của nhóm thứ hai là 16. Khoảng biến thiên của mẫu số liệu trên ít nhất là:",
+        "options": [
+          "$20$",
+          "$16$",
+          "$24$",
+          "$18$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tần số và tần số tương đối (Mã đề 5):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tổng các tần số của tất cả các giá trị luôn bằng cỡ mẫu N.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị đại diện của nhóm [a; b) là trung điểm (a + b)/2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối có thể nhận giá trị lớn hơn 100%.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Biểu đồ đoạn thẳng tần số nối các điểm có hoành độ là giá trị đại diện và tung độ là tần số tương ứng.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bảng thống kê số giờ tự học mỗi ngày của 50 học sinh: [0; 1) có 5 em; [1; 2) có 15 em; [2; 3) có 20 em; [3; 4) có 10 em:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nhóm có tần số lớn nhất là nhóm [2; 3).",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối của nhóm [1; 2) là 30%.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tỉ lệ học sinh học từ 2 giờ trở lên mỗi ngày là 60%.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Thời gian tự học trung bình của học sinh lớp đó lớn hơn 2,5 giờ.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Một mẫu số liệu có cỡ mẫu N = 80, giá trị x có tần số m = 24. Tính tần số tương đối (%) của x.",
+        "answer": "30",
+        "acceptableAnswers": [
+          "30"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm giá trị đại diện của nhóm [20; 30).",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một nhóm chiếm tần số tương đối 45%. Tính số đo góc ở tâm tương ứng trong biểu đồ quạt tròn (độ).",
+        "answer": "162",
+        "acceptableAnswers": [
+          "162"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **162**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu gồm 4 nhóm với tần số tương ứng: 8, 12, 16, 4. Tính tần số tương đối (%) của nhóm lớn nhất.",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Lập bảng tần số tương đối cho mẫu số liệu về điểm kiểm tra của 40 học sinh: Điểm 8: 10 em; Điểm 9: 18 em; Điểm 10: 12 em.",
+        "rubric": "Tần số tương đối:\nĐiểm 8: 10 / 40 = 25% (0.15đ).\nĐiểm 9: 18 / 40 = 45% (0.2đ).\nĐiểm 10: 12 / 40 = 30% (0.15đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Khảo sát chiều cao của 100 học sinh lớp 9: [150; 155) có 15 em; [155; 160) có 35 em; [160; 165) có 30 em; [165; 170) có 20 em. a) Lập bảng tần số ghép nhóm kèm giá trị đại diện. b) Ước tính chiều cao trung bình của 100 học sinh đó.",
+        "rubric": "a) Giá trị đại diện các nhóm: 152,5; 157,5; 162,5; 167,5 (0.25đ).\nb) Chiều cao trung bình: x_tb = (152,5.15 + 157,5.35 + 162,5.30 + 167,5.20) / 100 = 160,25 (cm) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một nhà máy phân tích thời gian chạy thử của 200 chiếc động cơ trước khi xuất xưởng. Nhóm thời gian [40; 50) giờ chiếm 30%, nhóm [50; 60) giờ chiếm 50%, còn lại là trên 60 giờ. Tính số động cơ chạy thử trên 60 giờ và góc ở tâm tương ứng khi vẽ biểu đồ quạt tròn.",
+        "rubric": "Tỉ lệ nhóm trên 60 giờ: 100% - 30% - 50% = 20% (0.25đ).\nSố động cơ trên 60 giờ: 200 x 20% = 40 (động cơ).\nGóc ở tâm tương ứng: 20% x 360 độ = 72 độ (0.25đ)."
+      }
+    ]
+  },
+  "c7_9_bai4_test6": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VII: Tần số và tần số tương đối - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tần số của một giá trị trong mẫu số liệu là:",
+        "options": [
+          "Số lần xuất hiện của giá trị đó trong mẫu số liệu",
+          "Tỉ số giữa giá trị đó và tổng số liệu",
+          "Giá trị lớn nhất của mẫu",
+          "Giá trị trung bình"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Tần số tương đối $f_i$ của giá trị $x_i$ được tính theo công thức:",
+        "options": [
+          "$f_i = \\frac{m_i}{N} \\cdot 100\\%$",
+          "$f_i = \\frac{N}{m_i}$",
+          "$f_i = m_i \\cdot N$",
+          "$f_i = m_i - N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tổng tất cả các tần số tương đối của các giá trị trong mẫu số liệu luôn bằng:",
+        "options": [
+          "$100\\%$ (hay $1$)",
+          "$50\\%$",
+          "$360\\%$",
+          "Bằng cỡ mẫu $N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Để biểu diễn tần số tương đối của các nhóm số liệu, người ta thường dùng:",
+        "options": [
+          "Biểu đồ tần số tương đối hình quạt tròn hoặc cột",
+          "Biểu đồ tranh",
+          "Biểu đồ Ven",
+          "Biểu đồ đường chéo"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Khảo sát cỡ giày của 40 học sinh: Cỡ 38 xuất hiện 12 lần. Tần số tương đối của cỡ giày 38 là:",
+        "options": [
+          "$30\\%$",
+          "$12\\%$",
+          "$25\\%$",
+          "$40\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Một lớp có 45 học sinh, trong đó có 9 học sinh xếp loại Xuất sắc. Tần số tương đối của học sinh Xuất sắc là:",
+        "options": [
+          "$20\\%$",
+          "$9\\%$",
+          "$25\\%$",
+          "$15\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Bảng tần số ghép nhóm thường được dùng khi:",
+        "options": [
+          "Dữ liệu có nhiều giá trị khác nhau và phân bố liên tục",
+          "Mẫu số liệu rất ít (dưới 5 số liệu)",
+          "Dữ liệu định tính",
+          "Chỉ có 2 giá trị"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Độ dài của nhóm số liệu $[a; b)$ được tính bằng:",
+        "options": [
+          "$b - a$",
+          "$b + a$",
+          "$\\frac{a+b}{2}$",
+          "$\\sqrt{b-a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bảng phân bố tần số ghép nhóm điểm kiểm tra Toán: Nhóm $[7; 8)$ có tần số 14, cỡ mẫu $N = 50$. Tần số tương đối của nhóm điểm này là:",
+        "options": [
+          "$28\\%$",
+          "$14\\%$",
+          "$35\\%$",
+          "$25\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Thời gian hoàn thành một bài tập của 30 học sinh: Dưới 10 phút: 6 em; Từ 10 đến 15 phút: 15 em; Trên 15 phút: 9 em. Tần số tương đối của nhóm học sinh làm từ 10 phút trở lên là:",
+        "options": [
+          "$80\\%$",
+          "$50\\%$",
+          "$70\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn tần số tương đối, góc ở tâm của nhóm đạt tỉ lệ $35\\%$ là:",
+        "options": [
+          "$126^\\circ$",
+          "$108^\\circ$",
+          "$90^\\circ$",
+          "$140^\\circ$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu số liệu ghép nhóm có 5 nhóm bằng nhau. Biết giá trị đại diện của nhóm thứ nhất là 12, giá trị đại diện của nhóm thứ hai là 16. Khoảng biến thiên của mẫu số liệu trên ít nhất là:",
+        "options": [
+          "$20$",
+          "$16$",
+          "$24$",
+          "$18$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tần số và tần số tương đối (Mã đề 6):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tổng các tần số của tất cả các giá trị luôn bằng cỡ mẫu N.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị đại diện của nhóm [a; b) là trung điểm (a + b)/2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối có thể nhận giá trị lớn hơn 100%.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Biểu đồ đoạn thẳng tần số nối các điểm có hoành độ là giá trị đại diện và tung độ là tần số tương ứng.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bảng thống kê số giờ tự học mỗi ngày của 50 học sinh: [0; 1) có 5 em; [1; 2) có 15 em; [2; 3) có 20 em; [3; 4) có 10 em:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nhóm có tần số lớn nhất là nhóm [2; 3).",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối của nhóm [1; 2) là 30%.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tỉ lệ học sinh học từ 2 giờ trở lên mỗi ngày là 60%.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Thời gian tự học trung bình của học sinh lớp đó lớn hơn 2,5 giờ.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Một mẫu số liệu có cỡ mẫu N = 80, giá trị x có tần số m = 24. Tính tần số tương đối (%) của x.",
+        "answer": "30",
+        "acceptableAnswers": [
+          "30"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm giá trị đại diện của nhóm [20; 30).",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một nhóm chiếm tần số tương đối 45%. Tính số đo góc ở tâm tương ứng trong biểu đồ quạt tròn (độ).",
+        "answer": "162",
+        "acceptableAnswers": [
+          "162"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **162**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu gồm 4 nhóm với tần số tương ứng: 8, 12, 16, 4. Tính tần số tương đối (%) của nhóm lớn nhất.",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Lập bảng tần số tương đối cho mẫu số liệu về điểm kiểm tra của 40 học sinh: Điểm 8: 10 em; Điểm 9: 18 em; Điểm 10: 12 em.",
+        "rubric": "Tần số tương đối:\nĐiểm 8: 10 / 40 = 25% (0.15đ).\nĐiểm 9: 18 / 40 = 45% (0.2đ).\nĐiểm 10: 12 / 40 = 30% (0.15đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Khảo sát chiều cao của 100 học sinh lớp 9: [150; 155) có 15 em; [155; 160) có 35 em; [160; 165) có 30 em; [165; 170) có 20 em. a) Lập bảng tần số ghép nhóm kèm giá trị đại diện. b) Ước tính chiều cao trung bình của 100 học sinh đó.",
+        "rubric": "a) Giá trị đại diện các nhóm: 152,5; 157,5; 162,5; 167,5 (0.25đ).\nb) Chiều cao trung bình: x_tb = (152,5.15 + 157,5.35 + 162,5.30 + 167,5.20) / 100 = 160,25 (cm) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một nhà máy phân tích thời gian chạy thử của 200 chiếc động cơ trước khi xuất xưởng. Nhóm thời gian [40; 50) giờ chiếm 30%, nhóm [50; 60) giờ chiếm 50%, còn lại là trên 60 giờ. Tính số động cơ chạy thử trên 60 giờ và góc ở tâm tương ứng khi vẽ biểu đồ quạt tròn.",
+        "rubric": "Tỉ lệ nhóm trên 60 giờ: 100% - 30% - 50% = 20% (0.25đ).\nSố động cơ trên 60 giờ: 200 x 20% = 40 (động cơ).\nGóc ở tâm tương ứng: 20% x 360 độ = 72 độ (0.25đ)."
+      }
+    ]
+  },
+  "c7_9_bai4_test7": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VII: Tần số và tần số tương đối - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tần số của một giá trị trong mẫu số liệu là:",
+        "options": [
+          "Số lần xuất hiện của giá trị đó trong mẫu số liệu",
+          "Tỉ số giữa giá trị đó và tổng số liệu",
+          "Giá trị lớn nhất của mẫu",
+          "Giá trị trung bình"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Tần số tương đối $f_i$ của giá trị $x_i$ được tính theo công thức:",
+        "options": [
+          "$f_i = \\frac{m_i}{N} \\cdot 100\\%$",
+          "$f_i = \\frac{N}{m_i}$",
+          "$f_i = m_i \\cdot N$",
+          "$f_i = m_i - N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Tổng tất cả các tần số tương đối của các giá trị trong mẫu số liệu luôn bằng:",
+        "options": [
+          "$100\\%$ (hay $1$)",
+          "$50\\%$",
+          "$360\\%$",
+          "Bằng cỡ mẫu $N$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Để biểu diễn tần số tương đối của các nhóm số liệu, người ta thường dùng:",
+        "options": [
+          "Biểu đồ tần số tương đối hình quạt tròn hoặc cột",
+          "Biểu đồ tranh",
+          "Biểu đồ Ven",
+          "Biểu đồ đường chéo"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Khảo sát cỡ giày của 40 học sinh: Cỡ 38 xuất hiện 12 lần. Tần số tương đối của cỡ giày 38 là:",
+        "options": [
+          "$30\\%$",
+          "$12\\%$",
+          "$25\\%$",
+          "$40\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Một lớp có 45 học sinh, trong đó có 9 học sinh xếp loại Xuất sắc. Tần số tương đối của học sinh Xuất sắc là:",
+        "options": [
+          "$20\\%$",
+          "$9\\%$",
+          "$25\\%$",
+          "$15\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Bảng tần số ghép nhóm thường được dùng khi:",
+        "options": [
+          "Dữ liệu có nhiều giá trị khác nhau và phân bố liên tục",
+          "Mẫu số liệu rất ít (dưới 5 số liệu)",
+          "Dữ liệu định tính",
+          "Chỉ có 2 giá trị"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Độ dài của nhóm số liệu $[a; b)$ được tính bằng:",
+        "options": [
+          "$b - a$",
+          "$b + a$",
+          "$\\frac{a+b}{2}$",
+          "$\\sqrt{b-a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bảng phân bố tần số ghép nhóm điểm kiểm tra Toán: Nhóm $[7; 8)$ có tần số 14, cỡ mẫu $N = 50$. Tần số tương đối của nhóm điểm này là:",
+        "options": [
+          "$28\\%$",
+          "$14\\%$",
+          "$35\\%$",
+          "$25\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Thời gian hoàn thành một bài tập của 30 học sinh: Dưới 10 phút: 6 em; Từ 10 đến 15 phút: 15 em; Trên 15 phút: 9 em. Tần số tương đối của nhóm học sinh làm từ 10 phút trở lên là:",
+        "options": [
+          "$80\\%$",
+          "$50\\%$",
+          "$70\\%$",
+          "$30\\%$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Trong biểu đồ quạt tròn tần số tương đối, góc ở tâm của nhóm đạt tỉ lệ $35\\%$ là:",
+        "options": [
+          "$126^\\circ$",
+          "$108^\\circ$",
+          "$90^\\circ$",
+          "$140^\\circ$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu số liệu ghép nhóm có 5 nhóm bằng nhau. Biết giá trị đại diện của nhóm thứ nhất là 12, giá trị đại diện của nhóm thứ hai là 16. Khoảng biến thiên của mẫu số liệu trên ít nhất là:",
+        "options": [
+          "$20$",
+          "$16$",
+          "$24$",
+          "$18$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tần số và tần số tương đối (Mã đề 7):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Tổng các tần số của tất cả các giá trị luôn bằng cỡ mẫu N.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Giá trị đại diện của nhóm [a; b) là trung điểm (a + b)/2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối có thể nhận giá trị lớn hơn 100%.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Biểu đồ đoạn thẳng tần số nối các điểm có hoành độ là giá trị đại diện và tung độ là tần số tương ứng.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bảng thống kê số giờ tự học mỗi ngày của 50 học sinh: [0; 1) có 5 em; [1; 2) có 15 em; [2; 3) có 20 em; [3; 4) có 10 em:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Nhóm có tần số lớn nhất là nhóm [2; 3).",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tần số tương đối của nhóm [1; 2) là 30%.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Tỉ lệ học sinh học từ 2 giờ trở lên mỗi ngày là 60%.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Thời gian tự học trung bình của học sinh lớp đó lớn hơn 2,5 giờ.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Một mẫu số liệu có cỡ mẫu N = 80, giá trị x có tần số m = 24. Tính tần số tương đối (%) của x.",
+        "answer": "30",
+        "acceptableAnswers": [
+          "30"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm giá trị đại diện của nhóm [20; 30).",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một nhóm chiếm tần số tương đối 45%. Tính số đo góc ở tâm tương ứng trong biểu đồ quạt tròn (độ).",
+        "answer": "162",
+        "acceptableAnswers": [
+          "162"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **162**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một mẫu gồm 4 nhóm với tần số tương ứng: 8, 12, 16, 4. Tính tần số tương đối (%) của nhóm lớn nhất.",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Lập bảng tần số tương đối cho mẫu số liệu về điểm kiểm tra của 40 học sinh: Điểm 8: 10 em; Điểm 9: 18 em; Điểm 10: 12 em.",
+        "rubric": "Tần số tương đối:\nĐiểm 8: 10 / 40 = 25% (0.15đ).\nĐiểm 9: 18 / 40 = 45% (0.2đ).\nĐiểm 10: 12 / 40 = 30% (0.15đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Khảo sát chiều cao của 100 học sinh lớp 9: [150; 155) có 15 em; [155; 160) có 35 em; [160; 165) có 30 em; [165; 170) có 20 em. a) Lập bảng tần số ghép nhóm kèm giá trị đại diện. b) Ước tính chiều cao trung bình của 100 học sinh đó.",
+        "rubric": "a) Giá trị đại diện các nhóm: 152,5; 157,5; 162,5; 167,5 (0.25đ).\nb) Chiều cao trung bình: x_tb = (152,5.15 + 157,5.35 + 162,5.30 + 167,5.20) / 100 = 160,25 (cm) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một nhà máy phân tích thời gian chạy thử của 200 chiếc động cơ trước khi xuất xưởng. Nhóm thời gian [40; 50) giờ chiếm 30%, nhóm [50; 60) giờ chiếm 50%, còn lại là trên 60 giờ. Tính số động cơ chạy thử trên 60 giờ và góc ở tâm tương ứng khi vẽ biểu đồ quạt tròn.",
+        "rubric": "Tỉ lệ nhóm trên 60 giờ: 100% - 30% - 50% = 20% (0.25đ).\nSố động cơ trên 60 giờ: 200 x 20% = 40 (động cơ).\nGóc ở tâm tương ứng: 20% x 360 độ = 72 độ (0.25đ)."
       }
     ]
   }

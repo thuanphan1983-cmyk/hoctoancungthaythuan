@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG VI: HÀM SỐ Y = AX^2 (A != 0). PHƯƠNG TRÌNH BẬC HAI MỘT ẨN - TOÁN 9 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-10-28 08:29:30
+// Cập nhật lúc: 2026-11-01 19:28:20
 // ==============================================================================
 
 const EXAMS_9_C6_9 = {
@@ -4397,6 +4397,1186 @@ const EXAMS_9_C6_9 = {
         "level": "Vận dụng cao",
         "question": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$. Tìm $m$ để phương trình có hai nghiệm $x_1, x_2$ thỏa mãn: $x_1^2 + x_2^2 - x_1 x_2 = 7$.",
         "rubric": "Theo Vi-ét: x1 + x2 = 2(m + 1); x1*x2 = 2m (0.25đ). Biến đổi biểu thức: (x1 + x2)² - 3x1*x2 = 7 <=> 4(m + 1)² - 6m - 7 = 0 (0.25đ). Tương đương 4m² + 2m - 3 = 0. Giải phương trình bậc hai tìm ra m (0.5đ)."
+      }
+    ]
+  },
+  "c6_9_bai5_test4": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VI: Hàm số bậc hai & PT bậc hai - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax^2$ ($a \\neq 0$) là một đường cong parabol có đỉnh là:",
+        "options": [
+          "Gốc tọa độ $O(0; 0)$",
+          "Điểm $(1; a)$",
+          "Điểm $(a; 0)$",
+          "Không có đỉnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính biệt thức $\\Delta$ của phương trình bậc hai $ax^2 + bx + c = 0$ ($a \\neq 0$) là:",
+        "options": [
+          "$\\Delta = b^2 - 4ac$",
+          "$\\Delta = b^2 - ac$",
+          "$\\Delta = b^2 + 4ac$",
+          "$\\Delta = 4ac - b^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Phương trình bậc hai $ax^2 + bx + c = 0$ có hai nghiệm phân biệt khi:",
+        "options": [
+          "$\\Delta > 0$",
+          "$\\Delta = 0$",
+          "$\\Delta < 0$",
+          "$\\Delta \\le 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Theo định lí Viète, nếu $x_1, x_2$ là hai nghiệm của phương trình $ax^2 + bx + c = 0$ ($a \\neq 0$) thì:",
+        "options": [
+          "$x_1 + x_2 = -\\frac{b}{a}$ và $x_1 x_2 = \\frac{c}{a}$",
+          "$x_1 + x_2 = \\frac{b}{a}$ và $x_1 x_2 = -\\frac{c}{a}$",
+          "$x_1 + x_2 = -\\frac{c}{a}$",
+          "$x_1 x_2 = -\\frac{b}{a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $x^2 - 5x + 6 = 0$ là:",
+        "options": [
+          "$x_1 = 2; x_2 = 3$",
+          "$x_1 = -2; x_2 = -3$",
+          "$x_1 = 1; x_2 = 6$",
+          "$x_1 = -1; x_2 = -6$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x^2$?",
+        "options": [
+          "$M(2; 8)$",
+          "$N(1; 4)$",
+          "$P(-1; -2)$",
+          "$Q(0; 2)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $m$ để phương trình $x^2 - 2x + m = 0$ có nghiệm kép:",
+        "options": [
+          "$m = 1$",
+          "$m = -1$",
+          "$m = 4$",
+          "$m = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tổng và tích hai nghiệm của phương trình $2x^2 - 7x + 3 = 0$ lần lượt là:",
+        "options": [
+          "$S = \\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = -\\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = 7; P = 3$",
+          "$S = \\frac{3}{2}; P = \\frac{7}{2}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Tìm tọa độ giao điểm của parabol $(P): y = x^2$ và đường thẳng $(d): y = 2x + 3$:",
+        "options": [
+          "$(-1; 1)$ và $(3; 9)$",
+          "$(1; 1)$ và $(-3; 9)$",
+          "$(0; 3)$",
+          "$(2; 4)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình chữ nhật có diện tích $300\\text{ m}^2$, chiều dài hơn chiều rộng $5\\text{ m}$. Chiều rộng của khu vườn là:",
+        "options": [
+          "$15\\text{ m}$",
+          "$20\\text{ m}$",
+          "$10\\text{ m}$",
+          "$25\\text{ m}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2 - 4x - 1 = 0$. Giá trị của biểu thức $A = x_1^2 + x_2^2$ là:",
+        "options": [
+          "$18$",
+          "$14$",
+          "$16$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tìm $m$ để phương trình $x^2 - 2(m + 1)x + m^2 + 2 = 0$ có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$:",
+        "options": [
+          "$m = 2$",
+          "$m = 1$",
+          "$m = -2$",
+          "$m = 3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về hàm số bậc hai và phương trình bậc hai (Mã đề 4):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hàm số y = ax^2 với a > 0 nghịch biến khi x < 0 và đồng biến khi x > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu a và c trái dấu (a.c < 0) thì phương trình ax^2 + bx + c = 0 luôn có hai nghiệm phân biệt.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu a + b + c = 0 thì phương trình ax^2 + bx + c = 0 có nghiệm x1 = 1, x2 = c/a.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Parabol y = ax^2 (a khác 0) và đường thẳng y = mx + n luôn luôn cắt nhau tại 2 điểm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho phương trình $x^2 - 2(m - 1)x + m^2 - 3 = 0$ (m là tham số):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biệt thức Delta' = (m - 1)^2 - (m^2 - 3) = -2m + 4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình có hai nghiệm khi và chỉ khi m <= 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Khi m = 2 phương trình có nghiệm kép x1 = x2 = 1.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi m = 0 phương trình có hai nghiệm cùng dấu.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình: x^2 - 7x + 12 = 0. Tìm nghiệm lớn hơn.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho parabol y = ax^2 đi qua điểm A(2; 8). Tìm hệ số a.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Cho phương trình x^2 - 6x + 2 = 0 có hai nghiệm x1, x2. Tính x1^2 + x2^2.",
+        "answer": "32",
+        "acceptableAnswers": [
+          "32"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **32**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm m để đường thẳng y = 2x + m tiếp xúc với parabol y = x^2.",
+        "answer": "-1",
+        "acceptableAnswers": [
+          "-1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bằng công thức nghiệm: $2x^2 - 5x + 2 = 0$.",
+        "rubric": "Delta = (-5)^2 - 4 . 2 . 2 = 25 - 16 = 9 > 0 => căn(Delta) = 3 (0.25đ).\nx1 = (5 + 3)/4 = 2; x2 = (5 - 3)/4 = 1/2 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một tổ công nhân theo kế hoạch phải may 600 bộ quần áo trong một thời gian quy định. Nhờ cải tiến kỹ thuật, mỗi ngày tổ may được thêm 10 bộ nên đã hoàn thành kế hoạch sớm hơn 2 ngày. Hỏi theo kế hoạch mỗi ngày tổ phải may bao nhiêu bộ quần áo?",
+        "rubric": "Gọi số bộ quần áo may 1 ngày theo kế hoạch là x (x in N*, bộ) (0.25đ).\nThời gian theo kế hoạch: 600/x (ngày). Thời gian thực tế: 600/(x + 10) (ngày).\nTa có pt: 600/x - 600/(x + 10) = 2 <=> x(x + 10) = 3000 <=> x^2 + 10x - 3000 = 0.\nGiải pt: x = 50 (thỏa mãn) hoặc x = -60 (loại). Vậy kế hoạch mỗi ngày may 50 bộ (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$. Tìm $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn: $x_1^2 + x_2^2 - 3x_1 x_2 = 4$.",
+        "rubric": "Delta' = (m + 1)^2 - 2m = m^2 + 1 > 0 với mọi m => pt luôn có 2 nghiệm phân biệt (0.25đ).\nTheo Vi-ét: x1 + x2 = 2(m + 1); x1.x2 = 2m.\nTa có: (x1 + x2)^2 - 5x1 x2 = 4 <=> 4(m + 1)^2 - 10m = 4 <=> 4m^2 - 2m = 0 <=> 2m(2m - 1) = 0 => m = 0 hoặc m = 1/2 (0.25đ)."
+      }
+    ]
+  },
+  "c6_9_bai5_test5": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VI: Hàm số bậc hai & PT bậc hai - Bài kiểm tra số 5 (💡 Parabol & Định lí Viète thực tế)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax^2$ ($a \\neq 0$) là một đường cong parabol có đỉnh là:",
+        "options": [
+          "Gốc tọa độ $O(0; 0)$",
+          "Điểm $(1; a)$",
+          "Điểm $(a; 0)$",
+          "Không có đỉnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính biệt thức $\\Delta$ của phương trình bậc hai $ax^2 + bx + c = 0$ ($a \\neq 0$) là:",
+        "options": [
+          "$\\Delta = b^2 - 4ac$",
+          "$\\Delta = b^2 - ac$",
+          "$\\Delta = b^2 + 4ac$",
+          "$\\Delta = 4ac - b^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Phương trình bậc hai $ax^2 + bx + c = 0$ có hai nghiệm phân biệt khi:",
+        "options": [
+          "$\\Delta > 0$",
+          "$\\Delta = 0$",
+          "$\\Delta < 0$",
+          "$\\Delta \\le 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Theo định lí Viète, nếu $x_1, x_2$ là hai nghiệm của phương trình $ax^2 + bx + c = 0$ ($a \\neq 0$) thì:",
+        "options": [
+          "$x_1 + x_2 = -\\frac{b}{a}$ và $x_1 x_2 = \\frac{c}{a}$",
+          "$x_1 + x_2 = \\frac{b}{a}$ và $x_1 x_2 = -\\frac{c}{a}$",
+          "$x_1 + x_2 = -\\frac{c}{a}$",
+          "$x_1 x_2 = -\\frac{b}{a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $x^2 - 5x + 6 = 0$ là:",
+        "options": [
+          "$x_1 = 2; x_2 = 3$",
+          "$x_1 = -2; x_2 = -3$",
+          "$x_1 = 1; x_2 = 6$",
+          "$x_1 = -1; x_2 = -6$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x^2$?",
+        "options": [
+          "$M(2; 8)$",
+          "$N(1; 4)$",
+          "$P(-1; -2)$",
+          "$Q(0; 2)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $m$ để phương trình $x^2 - 2x + m = 0$ có nghiệm kép:",
+        "options": [
+          "$m = 1$",
+          "$m = -1$",
+          "$m = 4$",
+          "$m = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tổng và tích hai nghiệm của phương trình $2x^2 - 7x + 3 = 0$ lần lượt là:",
+        "options": [
+          "$S = \\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = -\\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = 7; P = 3$",
+          "$S = \\frac{3}{2}; P = \\frac{7}{2}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Tìm tọa độ giao điểm của parabol $(P): y = x^2$ và đường thẳng $(d): y = 2x + 3$:",
+        "options": [
+          "$(-1; 1)$ và $(3; 9)$",
+          "$(1; 1)$ và $(-3; 9)$",
+          "$(0; 3)$",
+          "$(2; 4)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình chữ nhật có diện tích $300\\text{ m}^2$, chiều dài hơn chiều rộng $5\\text{ m}$. Chiều rộng của khu vườn là:",
+        "options": [
+          "$15\\text{ m}$",
+          "$20\\text{ m}$",
+          "$10\\text{ m}$",
+          "$25\\text{ m}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2 - 4x - 1 = 0$. Giá trị của biểu thức $A = x_1^2 + x_2^2$ là:",
+        "options": [
+          "$18$",
+          "$14$",
+          "$16$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tìm $m$ để phương trình $x^2 - 2(m + 1)x + m^2 + 2 = 0$ có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$:",
+        "options": [
+          "$m = 2$",
+          "$m = 1$",
+          "$m = -2$",
+          "$m = 3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về hàm số bậc hai và phương trình bậc hai (Mã đề 5):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hàm số y = ax^2 với a > 0 nghịch biến khi x < 0 và đồng biến khi x > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu a và c trái dấu (a.c < 0) thì phương trình ax^2 + bx + c = 0 luôn có hai nghiệm phân biệt.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu a + b + c = 0 thì phương trình ax^2 + bx + c = 0 có nghiệm x1 = 1, x2 = c/a.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Parabol y = ax^2 (a khác 0) và đường thẳng y = mx + n luôn luôn cắt nhau tại 2 điểm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho phương trình $x^2 - 2(m - 1)x + m^2 - 3 = 0$ (m là tham số):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biệt thức Delta' = (m - 1)^2 - (m^2 - 3) = -2m + 4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình có hai nghiệm khi và chỉ khi m <= 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Khi m = 2 phương trình có nghiệm kép x1 = x2 = 1.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi m = 0 phương trình có hai nghiệm cùng dấu.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình: x^2 - 7x + 12 = 0. Tìm nghiệm lớn hơn.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho parabol y = ax^2 đi qua điểm A(2; 8). Tìm hệ số a.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Cho phương trình x^2 - 6x + 2 = 0 có hai nghiệm x1, x2. Tính x1^2 + x2^2.",
+        "answer": "32",
+        "acceptableAnswers": [
+          "32"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **32**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm m để đường thẳng y = 2x + m tiếp xúc với parabol y = x^2.",
+        "answer": "-1",
+        "acceptableAnswers": [
+          "-1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bằng công thức nghiệm: $2x^2 - 5x + 2 = 0$.",
+        "rubric": "Delta = (-5)^2 - 4 . 2 . 2 = 25 - 16 = 9 > 0 => căn(Delta) = 3 (0.25đ).\nx1 = (5 + 3)/4 = 2; x2 = (5 - 3)/4 = 1/2 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một tổ công nhân theo kế hoạch phải may 600 bộ quần áo trong một thời gian quy định. Nhờ cải tiến kỹ thuật, mỗi ngày tổ may được thêm 10 bộ nên đã hoàn thành kế hoạch sớm hơn 2 ngày. Hỏi theo kế hoạch mỗi ngày tổ phải may bao nhiêu bộ quần áo?",
+        "rubric": "Gọi số bộ quần áo may 1 ngày theo kế hoạch là x (x in N*, bộ) (0.25đ).\nThời gian theo kế hoạch: 600/x (ngày). Thời gian thực tế: 600/(x + 10) (ngày).\nTa có pt: 600/x - 600/(x + 10) = 2 <=> x(x + 10) = 3000 <=> x^2 + 10x - 3000 = 0.\nGiải pt: x = 50 (thỏa mãn) hoặc x = -60 (loại). Vậy kế hoạch mỗi ngày may 50 bộ (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$. Tìm $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn: $x_1^2 + x_2^2 - 3x_1 x_2 = 4$.",
+        "rubric": "Delta' = (m + 1)^2 - 2m = m^2 + 1 > 0 với mọi m => pt luôn có 2 nghiệm phân biệt (0.25đ).\nTheo Vi-ét: x1 + x2 = 2(m + 1); x1.x2 = 2m.\nTa có: (x1 + x2)^2 - 5x1 x2 = 4 <=> 4(m + 1)^2 - 10m = 4 <=> 4m^2 - 2m = 0 <=> 2m(2m - 1) = 0 => m = 0 hoặc m = 1/2 (0.25đ)."
+      }
+    ]
+  },
+  "c6_9_bai5_test6": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VI: Hàm số bậc hai & PT bậc hai - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax^2$ ($a \\neq 0$) là một đường cong parabol có đỉnh là:",
+        "options": [
+          "Gốc tọa độ $O(0; 0)$",
+          "Điểm $(1; a)$",
+          "Điểm $(a; 0)$",
+          "Không có đỉnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính biệt thức $\\Delta$ của phương trình bậc hai $ax^2 + bx + c = 0$ ($a \\neq 0$) là:",
+        "options": [
+          "$\\Delta = b^2 - 4ac$",
+          "$\\Delta = b^2 - ac$",
+          "$\\Delta = b^2 + 4ac$",
+          "$\\Delta = 4ac - b^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Phương trình bậc hai $ax^2 + bx + c = 0$ có hai nghiệm phân biệt khi:",
+        "options": [
+          "$\\Delta > 0$",
+          "$\\Delta = 0$",
+          "$\\Delta < 0$",
+          "$\\Delta \\le 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Theo định lí Viète, nếu $x_1, x_2$ là hai nghiệm của phương trình $ax^2 + bx + c = 0$ ($a \\neq 0$) thì:",
+        "options": [
+          "$x_1 + x_2 = -\\frac{b}{a}$ và $x_1 x_2 = \\frac{c}{a}$",
+          "$x_1 + x_2 = \\frac{b}{a}$ và $x_1 x_2 = -\\frac{c}{a}$",
+          "$x_1 + x_2 = -\\frac{c}{a}$",
+          "$x_1 x_2 = -\\frac{b}{a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $x^2 - 5x + 6 = 0$ là:",
+        "options": [
+          "$x_1 = 2; x_2 = 3$",
+          "$x_1 = -2; x_2 = -3$",
+          "$x_1 = 1; x_2 = 6$",
+          "$x_1 = -1; x_2 = -6$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x^2$?",
+        "options": [
+          "$M(2; 8)$",
+          "$N(1; 4)$",
+          "$P(-1; -2)$",
+          "$Q(0; 2)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $m$ để phương trình $x^2 - 2x + m = 0$ có nghiệm kép:",
+        "options": [
+          "$m = 1$",
+          "$m = -1$",
+          "$m = 4$",
+          "$m = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tổng và tích hai nghiệm của phương trình $2x^2 - 7x + 3 = 0$ lần lượt là:",
+        "options": [
+          "$S = \\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = -\\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = 7; P = 3$",
+          "$S = \\frac{3}{2}; P = \\frac{7}{2}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Tìm tọa độ giao điểm của parabol $(P): y = x^2$ và đường thẳng $(d): y = 2x + 3$:",
+        "options": [
+          "$(-1; 1)$ và $(3; 9)$",
+          "$(1; 1)$ và $(-3; 9)$",
+          "$(0; 3)$",
+          "$(2; 4)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình chữ nhật có diện tích $300\\text{ m}^2$, chiều dài hơn chiều rộng $5\\text{ m}$. Chiều rộng của khu vườn là:",
+        "options": [
+          "$15\\text{ m}$",
+          "$20\\text{ m}$",
+          "$10\\text{ m}$",
+          "$25\\text{ m}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2 - 4x - 1 = 0$. Giá trị của biểu thức $A = x_1^2 + x_2^2$ là:",
+        "options": [
+          "$18$",
+          "$14$",
+          "$16$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tìm $m$ để phương trình $x^2 - 2(m + 1)x + m^2 + 2 = 0$ có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$:",
+        "options": [
+          "$m = 2$",
+          "$m = 1$",
+          "$m = -2$",
+          "$m = 3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về hàm số bậc hai và phương trình bậc hai (Mã đề 6):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hàm số y = ax^2 với a > 0 nghịch biến khi x < 0 và đồng biến khi x > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu a và c trái dấu (a.c < 0) thì phương trình ax^2 + bx + c = 0 luôn có hai nghiệm phân biệt.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu a + b + c = 0 thì phương trình ax^2 + bx + c = 0 có nghiệm x1 = 1, x2 = c/a.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Parabol y = ax^2 (a khác 0) và đường thẳng y = mx + n luôn luôn cắt nhau tại 2 điểm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho phương trình $x^2 - 2(m - 1)x + m^2 - 3 = 0$ (m là tham số):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biệt thức Delta' = (m - 1)^2 - (m^2 - 3) = -2m + 4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình có hai nghiệm khi và chỉ khi m <= 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Khi m = 2 phương trình có nghiệm kép x1 = x2 = 1.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi m = 0 phương trình có hai nghiệm cùng dấu.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình: x^2 - 7x + 12 = 0. Tìm nghiệm lớn hơn.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho parabol y = ax^2 đi qua điểm A(2; 8). Tìm hệ số a.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Cho phương trình x^2 - 6x + 2 = 0 có hai nghiệm x1, x2. Tính x1^2 + x2^2.",
+        "answer": "32",
+        "acceptableAnswers": [
+          "32"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **32**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm m để đường thẳng y = 2x + m tiếp xúc với parabol y = x^2.",
+        "answer": "-1",
+        "acceptableAnswers": [
+          "-1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bằng công thức nghiệm: $2x^2 - 5x + 2 = 0$.",
+        "rubric": "Delta = (-5)^2 - 4 . 2 . 2 = 25 - 16 = 9 > 0 => căn(Delta) = 3 (0.25đ).\nx1 = (5 + 3)/4 = 2; x2 = (5 - 3)/4 = 1/2 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một tổ công nhân theo kế hoạch phải may 600 bộ quần áo trong một thời gian quy định. Nhờ cải tiến kỹ thuật, mỗi ngày tổ may được thêm 10 bộ nên đã hoàn thành kế hoạch sớm hơn 2 ngày. Hỏi theo kế hoạch mỗi ngày tổ phải may bao nhiêu bộ quần áo?",
+        "rubric": "Gọi số bộ quần áo may 1 ngày theo kế hoạch là x (x in N*, bộ) (0.25đ).\nThời gian theo kế hoạch: 600/x (ngày). Thời gian thực tế: 600/(x + 10) (ngày).\nTa có pt: 600/x - 600/(x + 10) = 2 <=> x(x + 10) = 3000 <=> x^2 + 10x - 3000 = 0.\nGiải pt: x = 50 (thỏa mãn) hoặc x = -60 (loại). Vậy kế hoạch mỗi ngày may 50 bộ (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$. Tìm $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn: $x_1^2 + x_2^2 - 3x_1 x_2 = 4$.",
+        "rubric": "Delta' = (m + 1)^2 - 2m = m^2 + 1 > 0 với mọi m => pt luôn có 2 nghiệm phân biệt (0.25đ).\nTheo Vi-ét: x1 + x2 = 2(m + 1); x1.x2 = 2m.\nTa có: (x1 + x2)^2 - 5x1 x2 = 4 <=> 4(m + 1)^2 - 10m = 4 <=> 4m^2 - 2m = 0 <=> 2m(2m - 1) = 0 => m = 0 hoặc m = 1/2 (0.25đ)."
+      }
+    ]
+  },
+  "c6_9_bai5_test7": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương VI: Hàm số bậc hai & PT bậc hai - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax^2$ ($a \\neq 0$) là một đường cong parabol có đỉnh là:",
+        "options": [
+          "Gốc tọa độ $O(0; 0)$",
+          "Điểm $(1; a)$",
+          "Điểm $(a; 0)$",
+          "Không có đỉnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính biệt thức $\\Delta$ của phương trình bậc hai $ax^2 + bx + c = 0$ ($a \\neq 0$) là:",
+        "options": [
+          "$\\Delta = b^2 - 4ac$",
+          "$\\Delta = b^2 - ac$",
+          "$\\Delta = b^2 + 4ac$",
+          "$\\Delta = 4ac - b^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Phương trình bậc hai $ax^2 + bx + c = 0$ có hai nghiệm phân biệt khi:",
+        "options": [
+          "$\\Delta > 0$",
+          "$\\Delta = 0$",
+          "$\\Delta < 0$",
+          "$\\Delta \\le 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Theo định lí Viète, nếu $x_1, x_2$ là hai nghiệm của phương trình $ax^2 + bx + c = 0$ ($a \\neq 0$) thì:",
+        "options": [
+          "$x_1 + x_2 = -\\frac{b}{a}$ và $x_1 x_2 = \\frac{c}{a}$",
+          "$x_1 + x_2 = \\frac{b}{a}$ và $x_1 x_2 = -\\frac{c}{a}$",
+          "$x_1 + x_2 = -\\frac{c}{a}$",
+          "$x_1 x_2 = -\\frac{b}{a}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $x^2 - 5x + 6 = 0$ là:",
+        "options": [
+          "$x_1 = 2; x_2 = 3$",
+          "$x_1 = -2; x_2 = -3$",
+          "$x_1 = 1; x_2 = 6$",
+          "$x_1 = -1; x_2 = -6$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x^2$?",
+        "options": [
+          "$M(2; 8)$",
+          "$N(1; 4)$",
+          "$P(-1; -2)$",
+          "$Q(0; 2)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $m$ để phương trình $x^2 - 2x + m = 0$ có nghiệm kép:",
+        "options": [
+          "$m = 1$",
+          "$m = -1$",
+          "$m = 4$",
+          "$m = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tổng và tích hai nghiệm của phương trình $2x^2 - 7x + 3 = 0$ lần lượt là:",
+        "options": [
+          "$S = \\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = -\\frac{7}{2}; P = \\frac{3}{2}$",
+          "$S = 7; P = 3$",
+          "$S = \\frac{3}{2}; P = \\frac{7}{2}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Tìm tọa độ giao điểm của parabol $(P): y = x^2$ và đường thẳng $(d): y = 2x + 3$:",
+        "options": [
+          "$(-1; 1)$ và $(3; 9)$",
+          "$(1; 1)$ và $(-3; 9)$",
+          "$(0; 3)$",
+          "$(2; 4)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình chữ nhật có diện tích $300\\text{ m}^2$, chiều dài hơn chiều rộng $5\\text{ m}$. Chiều rộng của khu vườn là:",
+        "options": [
+          "$15\\text{ m}$",
+          "$20\\text{ m}$",
+          "$10\\text{ m}$",
+          "$25\\text{ m}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2 - 4x - 1 = 0$. Giá trị của biểu thức $A = x_1^2 + x_2^2$ là:",
+        "options": [
+          "$18$",
+          "$14$",
+          "$16$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tìm $m$ để phương trình $x^2 - 2(m + 1)x + m^2 + 2 = 0$ có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 = 10$:",
+        "options": [
+          "$m = 2$",
+          "$m = 1$",
+          "$m = -2$",
+          "$m = 3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về hàm số bậc hai và phương trình bậc hai (Mã đề 7):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hàm số y = ax^2 với a > 0 nghịch biến khi x < 0 và đồng biến khi x > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu a và c trái dấu (a.c < 0) thì phương trình ax^2 + bx + c = 0 luôn có hai nghiệm phân biệt.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu a + b + c = 0 thì phương trình ax^2 + bx + c = 0 có nghiệm x1 = 1, x2 = c/a.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Parabol y = ax^2 (a khác 0) và đường thẳng y = mx + n luôn luôn cắt nhau tại 2 điểm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho phương trình $x^2 - 2(m - 1)x + m^2 - 3 = 0$ (m là tham số):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Biệt thức Delta' = (m - 1)^2 - (m^2 - 3) = -2m + 4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình có hai nghiệm khi và chỉ khi m <= 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Khi m = 2 phương trình có nghiệm kép x1 = x2 = 1.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi m = 0 phương trình có hai nghiệm cùng dấu.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình: x^2 - 7x + 12 = 0. Tìm nghiệm lớn hơn.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Cho parabol y = ax^2 đi qua điểm A(2; 8). Tìm hệ số a.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Cho phương trình x^2 - 6x + 2 = 0 có hai nghiệm x1, x2. Tính x1^2 + x2^2.",
+        "answer": "32",
+        "acceptableAnswers": [
+          "32"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **32**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm m để đường thẳng y = 2x + m tiếp xúc với parabol y = x^2.",
+        "answer": "-1",
+        "acceptableAnswers": [
+          "-1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bằng công thức nghiệm: $2x^2 - 5x + 2 = 0$.",
+        "rubric": "Delta = (-5)^2 - 4 . 2 . 2 = 25 - 16 = 9 > 0 => căn(Delta) = 3 (0.25đ).\nx1 = (5 + 3)/4 = 2; x2 = (5 - 3)/4 = 1/2 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một tổ công nhân theo kế hoạch phải may 600 bộ quần áo trong một thời gian quy định. Nhờ cải tiến kỹ thuật, mỗi ngày tổ may được thêm 10 bộ nên đã hoàn thành kế hoạch sớm hơn 2 ngày. Hỏi theo kế hoạch mỗi ngày tổ phải may bao nhiêu bộ quần áo?",
+        "rubric": "Gọi số bộ quần áo may 1 ngày theo kế hoạch là x (x in N*, bộ) (0.25đ).\nThời gian theo kế hoạch: 600/x (ngày). Thời gian thực tế: 600/(x + 10) (ngày).\nTa có pt: 600/x - 600/(x + 10) = 2 <=> x(x + 10) = 3000 <=> x^2 + 10x - 3000 = 0.\nGiải pt: x = 50 (thỏa mãn) hoặc x = -60 (loại). Vậy kế hoạch mỗi ngày may 50 bộ (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$. Tìm $m$ để phương trình có hai nghiệm phân biệt $x_1, x_2$ thỏa mãn: $x_1^2 + x_2^2 - 3x_1 x_2 = 4$.",
+        "rubric": "Delta' = (m + 1)^2 - 2m = m^2 + 1 > 0 với mọi m => pt luôn có 2 nghiệm phân biệt (0.25đ).\nTheo Vi-ét: x1 + x2 = 2(m + 1); x1.x2 = 2m.\nTa có: (x1 + x2)^2 - 5x1 x2 = 4 <=> 4(m + 1)^2 - 10m = 4 <=> 4m^2 - 2m = 0 <=> 2m(2m - 1) = 0 => m = 0 hoặc m = 1/2 (0.25đ)."
       }
     ]
   }

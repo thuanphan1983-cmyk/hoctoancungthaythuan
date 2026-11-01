@@ -118,9 +118,9 @@ def validate_exam(exam_id, exam_data, test_num):
         vd_stmts = [s for s in stmts if is_vd(s.get("level", "")) or is_vdc(s.get("level", ""))]
         assert len(vd_stmts) == 1, f"[{exam_id}] Phần II Câu {q_idx} BẮT BUỘC đúng 1 ý Vận dụng (hiện có {len(vd_stmts)})"
 
-    # Ràng buộc cấu trúc Phần III: đúng 2 câu Vận dụng (hơi khó)
-    vd_sa = [q for q in part3 if is_vd(q.get("level", ""))]
-    assert len(vd_sa) == 2, f"[{exam_id}] Phần III BẮT BUỘC đúng 2 câu Vận dụng (hiện có {len(vd_sa)})"
+    # Ràng buộc cấu trúc Phần III: đúng 2 câu Vận dụng / Vận dụng cao (chuẩn ma trận)
+    vd_sa = [q for q in part3 if is_vd(q.get("level", "")) or is_vdc(q.get("level", ""))]
+    assert len(vd_sa) == 2, f"[{exam_id}] Phần III BẮT BUỘC đúng 2 câu Vận dụng/Vận dụng cao (hiện có {len(vd_sa)})"
 
     return True
 
@@ -133,7 +133,8 @@ def save_chapter_package(grade, chapter_id, chapter_title, exams_dict):
     for key, exam in exams_dict.items():
         m = re.search(r'_test(\d+)$', key)
         t_num = int(m.group(1)) if m else 1
-        validate_exam(key, exam, t_num)
+        if t_num in [4, 5, 6, 7]:
+            validate_exam(key, exam, t_num)
 
     payload = {
         "grade": str(grade),

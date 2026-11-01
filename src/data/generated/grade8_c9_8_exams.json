@@ -2,8 +2,8 @@
   "grade": "8",
   "chapterId": "c9_8",
   "chapterTitle": "Chương IX: Tam giác đồng dạng",
-  "totalExams": 18,
-  "updatedAt": "2026-10-28 08:26:02",
+  "totalExams": 22,
+  "updatedAt": "2026-11-01 19:24:42",
   "exams": {
     "c9_8_bai1_test1": {
       "title": "Toán 8 (KNTT) - Bài 33: Hai tam giác đồng dạng - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
@@ -5330,6 +5330,1186 @@
           "level": "Vận dụng cao",
           "question": "Cho tam giác $ABC$ nhọn. Chứng minh rằng nếu $BC^2 = 2AB^2 + 2AC^2$ thì không thể tồn tại tam giác như vậy.",
           "rubric": "Theo bất đẳng thức tam giác và định lí Pythagore, thiết lập quan hệ góc và cạnh để chỉ ra mâu thuẫn hình học (1.0đ)."
+        }
+      ]
+    },
+    "c9_8_bai6_test4": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IX: Tam giác đồng dạng - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Nếu $\\Delta ABC \\backsim \\Delta A'B'C'$ theo tỉ số đồng dạng $k$ thì $\\Delta A'B'C' \\backsim \\Delta ABC$ theo tỉ số:",
+          "options": [
+            "$\\frac{1}{k}$",
+            "$k$",
+            "$k^2$",
+            "$-k$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ nhất (c-c-c): Nếu ba cạnh của tam giác này:",
+          "options": [
+            "Tỉ lệ với ba cạnh của tam giác kia",
+            "Bằng ba cạnh của tam giác kia",
+            "Song song với ba cạnh tam giác kia",
+            "Vuông góc với ba cạnh kia"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ ba (g-g): Nếu hai góc của tam giác này:",
+          "options": [
+            "Lần lượt bằng hai góc của tam giác kia",
+            "Bù với hai góc của tam giác kia",
+            "Tỉ lệ với hai góc của tam giác kia",
+            "Cùng phụ nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số diện tích của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Bình phương tỉ số đồng dạng ($k^2$)",
+            "Tỉ số đồng dạng ($k$)",
+            "Hai lần tỉ số đồng dạng",
+            "Lập phương tỉ số đồng dạng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta DEF$ theo tỉ số $k = \\frac{2}{3}$. Biết chu vi $\\Delta ABC$ là $24\\text{ cm}$. Chu vi $\\Delta DEF$ là:",
+          "options": [
+            "$36\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$48\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Hai tam giác vuông đồng dạng với nhau khi:",
+          "options": [
+            "Có một góc nhọn bằng nhau",
+            "Có cạnh huyền bằng nhau",
+            "Có diện tích bằng nhau",
+            "Có hai cạnh góc vuông bằng nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $AB = 4\\text{ cm}, AC = 6\\text{ cm}$. Tam giác $DEF$ có $DE = 2\\text{ cm}, DF = 3\\text{ cm}$ và $\\widehat{A} = \\widehat{D}$. Khẳng định nào ĐÚNG?",
+          "options": [
+            "$\\Delta ABC \\backsim \\Delta DEF$ (c-g-c)",
+            "$\\Delta ABC = \\Delta DEF$",
+            "Hai tam giác không đồng dạng",
+            "$\\widehat{B} = \\widehat{F}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tỉ số hai đường cao tương ứng của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Tỉ số đồng dạng $k$",
+            "$k^2$",
+            "$\\sqrt{k}$",
+            "$\\frac{1}{k}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Người ta cắm một cọc thẳng đứng cao $1,5\\text{ m}$ có bóng trên mặt đất dài $1\\text{ m}$. Cùng thời điểm đó, bóng của một cột cờ trên mặt đất dài $8\\text{ m}$. Chiều cao của cột cờ là:",
+          "options": [
+            "$12\\text{ m}$",
+            "$10\\text{ m}$",
+            "$16\\text{ m}$",
+            "$9,5\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta MNP$ theo tỉ số $k = 2$. Biết diện tích $\\Delta MNP$ bằng $15\\text{ cm}^2$. Diện tích $\\Delta ABC$ là:",
+          "options": [
+            "$60\\text{ cm}^2$",
+            "$30\\text{ cm}^2$",
+            "$7,5\\text{ cm}^2$",
+            "$45\\text{ cm}^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Hai đường chéo cắt nhau tại $O$. Biết $AB = 4\\text{ cm}, CD = 8\\text{ cm}$. Tỉ số $\\frac{OA}{OC}$ bằng:",
+          "options": [
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$2$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$AH^2 = AB \\cdot AC$",
+            "$AB^2 = BH \\cdot BC$",
+            "$AC^2 = CH \\cdot BC$",
+            "$AH^2 = BH \\cdot CH$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về tam giác đồng dạng (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số k = 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác đều bất kì luôn đồng dạng với nhau.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác cân bất kì luôn đồng dạng với nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu hai tam giác đồng dạng thì tỉ số chu vi bằng tỉ số đồng dạng k.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$ ($H \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tam giác HAC đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác HAC (g-g).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hệ thức AH^2 = BH . CH luôn đúng.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC đồng dạng DEF với tỉ số k = 3/4. Tính tỉ số diện tích của chúng.",
+          "answer": "9/16",
+          "acceptableAnswers": [
+            "9/16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9/16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác vuông có hai cạnh góc vuông 6 cm và 8 cm. Tính độ dài đường cao ứng với cạnh huyền (cm).",
+          "answer": "4,8",
+          "acceptableAnswers": [
+            "4,8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cột cờ cao 10 m có bóng dài 6 m. Cùng lúc đó một người cao 1,5 m có bóng dài bao nhiêu mét?",
+          "answer": "0,9",
+          "acceptableAnswers": [
+            "0,9"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,9**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC có AB = 6 cm, AC = 9 cm. Điểm D thuộc AB sao cho AD = 3 cm. Kẻ DE // BC. Tính tỉ số diện tích ADE và tứ giác BDEC.",
+          "answer": "1/3",
+          "acceptableAnswers": [
+            "1/3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Chứng minh rằng $AB^2 = BH \\cdot BC$.",
+          "rubric": "Xét tam giác HBA và ABC có: góc B chung, góc BHA = BAC = 90 độ (0.25đ).\n=> tam giác HBA đồng dạng ABC (g-g) => BA / BC = BH / BA => AB^2 = BH . BC. Đpcm (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho hình bình hành $ABCD$. Trên cạnh $AB$ lấy điểm $E$. Đường thẳng $ED$ cắt cạnh $BC$ tại $F$ và cắt tia $AC$ tại $K$. Chứng minh rằng $\\Delta EAD \\backsim \\Delta EBF$ và $ED^2 = EK \\cdot EF$.",
+          "rubric": "Do AD // BC => tam giác EAD đồng dạng EBF (g-g) (0.25đ).\nÁp dụng định lí Thalès và tam giác đồng dạng với các đường song song ta được ED^2 = EK . EF (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ nhọn có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng $HD \\cdot HB = HE \\cdot HC$ và $\\Delta ADE \\backsim \\Delta ABC$.",
+          "rubric": "Xét hai tam giác vuông HED và HCB có: góc DHE = BHC (đối đỉnh) => tam giác HED đồng dạng HCB (g-g) => HD/HC = HE/HB => HD . HB = HE . HC (0.25đ).\nTừ tỉ số AD/AB = AE/AC (do tam giác ADB đồng dạng AEC) kết hợp góc A chung => tam giác ADE đồng dạng ABC (c-g-c). Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c9_8_bai6_test5": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IX: Tam giác đồng dạng - Bài kiểm tra số 5 (💡 Tam giác đồng dạng & Ứng dụng thực tiễn)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Nếu $\\Delta ABC \\backsim \\Delta A'B'C'$ theo tỉ số đồng dạng $k$ thì $\\Delta A'B'C' \\backsim \\Delta ABC$ theo tỉ số:",
+          "options": [
+            "$\\frac{1}{k}$",
+            "$k$",
+            "$k^2$",
+            "$-k$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ nhất (c-c-c): Nếu ba cạnh của tam giác này:",
+          "options": [
+            "Tỉ lệ với ba cạnh của tam giác kia",
+            "Bằng ba cạnh của tam giác kia",
+            "Song song với ba cạnh tam giác kia",
+            "Vuông góc với ba cạnh kia"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ ba (g-g): Nếu hai góc của tam giác này:",
+          "options": [
+            "Lần lượt bằng hai góc của tam giác kia",
+            "Bù với hai góc của tam giác kia",
+            "Tỉ lệ với hai góc của tam giác kia",
+            "Cùng phụ nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số diện tích của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Bình phương tỉ số đồng dạng ($k^2$)",
+            "Tỉ số đồng dạng ($k$)",
+            "Hai lần tỉ số đồng dạng",
+            "Lập phương tỉ số đồng dạng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta DEF$ theo tỉ số $k = \\frac{2}{3}$. Biết chu vi $\\Delta ABC$ là $24\\text{ cm}$. Chu vi $\\Delta DEF$ là:",
+          "options": [
+            "$36\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$48\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Hai tam giác vuông đồng dạng với nhau khi:",
+          "options": [
+            "Có một góc nhọn bằng nhau",
+            "Có cạnh huyền bằng nhau",
+            "Có diện tích bằng nhau",
+            "Có hai cạnh góc vuông bằng nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $AB = 4\\text{ cm}, AC = 6\\text{ cm}$. Tam giác $DEF$ có $DE = 2\\text{ cm}, DF = 3\\text{ cm}$ và $\\widehat{A} = \\widehat{D}$. Khẳng định nào ĐÚNG?",
+          "options": [
+            "$\\Delta ABC \\backsim \\Delta DEF$ (c-g-c)",
+            "$\\Delta ABC = \\Delta DEF$",
+            "Hai tam giác không đồng dạng",
+            "$\\widehat{B} = \\widehat{F}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tỉ số hai đường cao tương ứng của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Tỉ số đồng dạng $k$",
+            "$k^2$",
+            "$\\sqrt{k}$",
+            "$\\frac{1}{k}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Người ta cắm một cọc thẳng đứng cao $1,5\\text{ m}$ có bóng trên mặt đất dài $1\\text{ m}$. Cùng thời điểm đó, bóng của một cột cờ trên mặt đất dài $8\\text{ m}$. Chiều cao của cột cờ là:",
+          "options": [
+            "$12\\text{ m}$",
+            "$10\\text{ m}$",
+            "$16\\text{ m}$",
+            "$9,5\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta MNP$ theo tỉ số $k = 2$. Biết diện tích $\\Delta MNP$ bằng $15\\text{ cm}^2$. Diện tích $\\Delta ABC$ là:",
+          "options": [
+            "$60\\text{ cm}^2$",
+            "$30\\text{ cm}^2$",
+            "$7,5\\text{ cm}^2$",
+            "$45\\text{ cm}^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Hai đường chéo cắt nhau tại $O$. Biết $AB = 4\\text{ cm}, CD = 8\\text{ cm}$. Tỉ số $\\frac{OA}{OC}$ bằng:",
+          "options": [
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$2$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$AH^2 = AB \\cdot AC$",
+            "$AB^2 = BH \\cdot BC$",
+            "$AC^2 = CH \\cdot BC$",
+            "$AH^2 = BH \\cdot CH$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về tam giác đồng dạng (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số k = 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác đều bất kì luôn đồng dạng với nhau.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác cân bất kì luôn đồng dạng với nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu hai tam giác đồng dạng thì tỉ số chu vi bằng tỉ số đồng dạng k.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$ ($H \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tam giác HAC đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác HAC (g-g).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hệ thức AH^2 = BH . CH luôn đúng.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC đồng dạng DEF với tỉ số k = 3/4. Tính tỉ số diện tích của chúng.",
+          "answer": "9/16",
+          "acceptableAnswers": [
+            "9/16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9/16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác vuông có hai cạnh góc vuông 6 cm và 8 cm. Tính độ dài đường cao ứng với cạnh huyền (cm).",
+          "answer": "4,8",
+          "acceptableAnswers": [
+            "4,8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cột cờ cao 10 m có bóng dài 6 m. Cùng lúc đó một người cao 1,5 m có bóng dài bao nhiêu mét?",
+          "answer": "0,9",
+          "acceptableAnswers": [
+            "0,9"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,9**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC có AB = 6 cm, AC = 9 cm. Điểm D thuộc AB sao cho AD = 3 cm. Kẻ DE // BC. Tính tỉ số diện tích ADE và tứ giác BDEC.",
+          "answer": "1/3",
+          "acceptableAnswers": [
+            "1/3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Chứng minh rằng $AB^2 = BH \\cdot BC$.",
+          "rubric": "Xét tam giác HBA và ABC có: góc B chung, góc BHA = BAC = 90 độ (0.25đ).\n=> tam giác HBA đồng dạng ABC (g-g) => BA / BC = BH / BA => AB^2 = BH . BC. Đpcm (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho hình bình hành $ABCD$. Trên cạnh $AB$ lấy điểm $E$. Đường thẳng $ED$ cắt cạnh $BC$ tại $F$ và cắt tia $AC$ tại $K$. Chứng minh rằng $\\Delta EAD \\backsim \\Delta EBF$ và $ED^2 = EK \\cdot EF$.",
+          "rubric": "Do AD // BC => tam giác EAD đồng dạng EBF (g-g) (0.25đ).\nÁp dụng định lí Thalès và tam giác đồng dạng với các đường song song ta được ED^2 = EK . EF (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ nhọn có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng $HD \\cdot HB = HE \\cdot HC$ và $\\Delta ADE \\backsim \\Delta ABC$.",
+          "rubric": "Xét hai tam giác vuông HED và HCB có: góc DHE = BHC (đối đỉnh) => tam giác HED đồng dạng HCB (g-g) => HD/HC = HE/HB => HD . HB = HE . HC (0.25đ).\nTừ tỉ số AD/AB = AE/AC (do tam giác ADB đồng dạng AEC) kết hợp góc A chung => tam giác ADE đồng dạng ABC (c-g-c). Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c9_8_bai6_test6": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IX: Tam giác đồng dạng - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Nếu $\\Delta ABC \\backsim \\Delta A'B'C'$ theo tỉ số đồng dạng $k$ thì $\\Delta A'B'C' \\backsim \\Delta ABC$ theo tỉ số:",
+          "options": [
+            "$\\frac{1}{k}$",
+            "$k$",
+            "$k^2$",
+            "$-k$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ nhất (c-c-c): Nếu ba cạnh của tam giác này:",
+          "options": [
+            "Tỉ lệ với ba cạnh của tam giác kia",
+            "Bằng ba cạnh của tam giác kia",
+            "Song song với ba cạnh tam giác kia",
+            "Vuông góc với ba cạnh kia"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ ba (g-g): Nếu hai góc của tam giác này:",
+          "options": [
+            "Lần lượt bằng hai góc của tam giác kia",
+            "Bù với hai góc của tam giác kia",
+            "Tỉ lệ với hai góc của tam giác kia",
+            "Cùng phụ nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số diện tích của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Bình phương tỉ số đồng dạng ($k^2$)",
+            "Tỉ số đồng dạng ($k$)",
+            "Hai lần tỉ số đồng dạng",
+            "Lập phương tỉ số đồng dạng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta DEF$ theo tỉ số $k = \\frac{2}{3}$. Biết chu vi $\\Delta ABC$ là $24\\text{ cm}$. Chu vi $\\Delta DEF$ là:",
+          "options": [
+            "$36\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$48\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Hai tam giác vuông đồng dạng với nhau khi:",
+          "options": [
+            "Có một góc nhọn bằng nhau",
+            "Có cạnh huyền bằng nhau",
+            "Có diện tích bằng nhau",
+            "Có hai cạnh góc vuông bằng nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $AB = 4\\text{ cm}, AC = 6\\text{ cm}$. Tam giác $DEF$ có $DE = 2\\text{ cm}, DF = 3\\text{ cm}$ và $\\widehat{A} = \\widehat{D}$. Khẳng định nào ĐÚNG?",
+          "options": [
+            "$\\Delta ABC \\backsim \\Delta DEF$ (c-g-c)",
+            "$\\Delta ABC = \\Delta DEF$",
+            "Hai tam giác không đồng dạng",
+            "$\\widehat{B} = \\widehat{F}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tỉ số hai đường cao tương ứng của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Tỉ số đồng dạng $k$",
+            "$k^2$",
+            "$\\sqrt{k}$",
+            "$\\frac{1}{k}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Người ta cắm một cọc thẳng đứng cao $1,5\\text{ m}$ có bóng trên mặt đất dài $1\\text{ m}$. Cùng thời điểm đó, bóng của một cột cờ trên mặt đất dài $8\\text{ m}$. Chiều cao của cột cờ là:",
+          "options": [
+            "$12\\text{ m}$",
+            "$10\\text{ m}$",
+            "$16\\text{ m}$",
+            "$9,5\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta MNP$ theo tỉ số $k = 2$. Biết diện tích $\\Delta MNP$ bằng $15\\text{ cm}^2$. Diện tích $\\Delta ABC$ là:",
+          "options": [
+            "$60\\text{ cm}^2$",
+            "$30\\text{ cm}^2$",
+            "$7,5\\text{ cm}^2$",
+            "$45\\text{ cm}^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Hai đường chéo cắt nhau tại $O$. Biết $AB = 4\\text{ cm}, CD = 8\\text{ cm}$. Tỉ số $\\frac{OA}{OC}$ bằng:",
+          "options": [
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$2$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$AH^2 = AB \\cdot AC$",
+            "$AB^2 = BH \\cdot BC$",
+            "$AC^2 = CH \\cdot BC$",
+            "$AH^2 = BH \\cdot CH$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về tam giác đồng dạng (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số k = 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác đều bất kì luôn đồng dạng với nhau.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác cân bất kì luôn đồng dạng với nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu hai tam giác đồng dạng thì tỉ số chu vi bằng tỉ số đồng dạng k.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$ ($H \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tam giác HAC đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác HAC (g-g).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hệ thức AH^2 = BH . CH luôn đúng.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC đồng dạng DEF với tỉ số k = 3/4. Tính tỉ số diện tích của chúng.",
+          "answer": "9/16",
+          "acceptableAnswers": [
+            "9/16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9/16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác vuông có hai cạnh góc vuông 6 cm và 8 cm. Tính độ dài đường cao ứng với cạnh huyền (cm).",
+          "answer": "4,8",
+          "acceptableAnswers": [
+            "4,8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cột cờ cao 10 m có bóng dài 6 m. Cùng lúc đó một người cao 1,5 m có bóng dài bao nhiêu mét?",
+          "answer": "0,9",
+          "acceptableAnswers": [
+            "0,9"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,9**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC có AB = 6 cm, AC = 9 cm. Điểm D thuộc AB sao cho AD = 3 cm. Kẻ DE // BC. Tính tỉ số diện tích ADE và tứ giác BDEC.",
+          "answer": "1/3",
+          "acceptableAnswers": [
+            "1/3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Chứng minh rằng $AB^2 = BH \\cdot BC$.",
+          "rubric": "Xét tam giác HBA và ABC có: góc B chung, góc BHA = BAC = 90 độ (0.25đ).\n=> tam giác HBA đồng dạng ABC (g-g) => BA / BC = BH / BA => AB^2 = BH . BC. Đpcm (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho hình bình hành $ABCD$. Trên cạnh $AB$ lấy điểm $E$. Đường thẳng $ED$ cắt cạnh $BC$ tại $F$ và cắt tia $AC$ tại $K$. Chứng minh rằng $\\Delta EAD \\backsim \\Delta EBF$ và $ED^2 = EK \\cdot EF$.",
+          "rubric": "Do AD // BC => tam giác EAD đồng dạng EBF (g-g) (0.25đ).\nÁp dụng định lí Thalès và tam giác đồng dạng với các đường song song ta được ED^2 = EK . EF (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ nhọn có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng $HD \\cdot HB = HE \\cdot HC$ và $\\Delta ADE \\backsim \\Delta ABC$.",
+          "rubric": "Xét hai tam giác vuông HED và HCB có: góc DHE = BHC (đối đỉnh) => tam giác HED đồng dạng HCB (g-g) => HD/HC = HE/HB => HD . HB = HE . HC (0.25đ).\nTừ tỉ số AD/AB = AE/AC (do tam giác ADB đồng dạng AEC) kết hợp góc A chung => tam giác ADE đồng dạng ABC (c-g-c). Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c9_8_bai6_test7": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IX: Tam giác đồng dạng - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Nếu $\\Delta ABC \\backsim \\Delta A'B'C'$ theo tỉ số đồng dạng $k$ thì $\\Delta A'B'C' \\backsim \\Delta ABC$ theo tỉ số:",
+          "options": [
+            "$\\frac{1}{k}$",
+            "$k$",
+            "$k^2$",
+            "$-k$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ nhất (c-c-c): Nếu ba cạnh của tam giác này:",
+          "options": [
+            "Tỉ lệ với ba cạnh của tam giác kia",
+            "Bằng ba cạnh của tam giác kia",
+            "Song song với ba cạnh tam giác kia",
+            "Vuông góc với ba cạnh kia"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Trường hợp đồng dạng thứ ba (g-g): Nếu hai góc của tam giác này:",
+          "options": [
+            "Lần lượt bằng hai góc của tam giác kia",
+            "Bù với hai góc của tam giác kia",
+            "Tỉ lệ với hai góc của tam giác kia",
+            "Cùng phụ nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số diện tích của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Bình phương tỉ số đồng dạng ($k^2$)",
+            "Tỉ số đồng dạng ($k$)",
+            "Hai lần tỉ số đồng dạng",
+            "Lập phương tỉ số đồng dạng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta DEF$ theo tỉ số $k = \\frac{2}{3}$. Biết chu vi $\\Delta ABC$ là $24\\text{ cm}$. Chu vi $\\Delta DEF$ là:",
+          "options": [
+            "$36\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$48\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Hai tam giác vuông đồng dạng với nhau khi:",
+          "options": [
+            "Có một góc nhọn bằng nhau",
+            "Có cạnh huyền bằng nhau",
+            "Có diện tích bằng nhau",
+            "Có hai cạnh góc vuông bằng nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có $AB = 4\\text{ cm}, AC = 6\\text{ cm}$. Tam giác $DEF$ có $DE = 2\\text{ cm}, DF = 3\\text{ cm}$ và $\\widehat{A} = \\widehat{D}$. Khẳng định nào ĐÚNG?",
+          "options": [
+            "$\\Delta ABC \\backsim \\Delta DEF$ (c-g-c)",
+            "$\\Delta ABC = \\Delta DEF$",
+            "Hai tam giác không đồng dạng",
+            "$\\widehat{B} = \\widehat{F}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tỉ số hai đường cao tương ứng của hai tam giác đồng dạng bằng:",
+          "options": [
+            "Tỉ số đồng dạng $k$",
+            "$k^2$",
+            "$\\sqrt{k}$",
+            "$\\frac{1}{k}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Người ta cắm một cọc thẳng đứng cao $1,5\\text{ m}$ có bóng trên mặt đất dài $1\\text{ m}$. Cùng thời điểm đó, bóng của một cột cờ trên mặt đất dài $8\\text{ m}$. Chiều cao của cột cờ là:",
+          "options": [
+            "$12\\text{ m}$",
+            "$10\\text{ m}$",
+            "$16\\text{ m}$",
+            "$9,5\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $\\Delta ABC \\backsim \\Delta MNP$ theo tỉ số $k = 2$. Biết diện tích $\\Delta MNP$ bằng $15\\text{ cm}^2$. Diện tích $\\Delta ABC$ là:",
+          "options": [
+            "$60\\text{ cm}^2$",
+            "$30\\text{ cm}^2$",
+            "$7,5\\text{ cm}^2$",
+            "$45\\text{ cm}^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Hai đường chéo cắt nhau tại $O$. Biết $AB = 4\\text{ cm}, CD = 8\\text{ cm}$. Tỉ số $\\frac{OA}{OC}$ bằng:",
+          "options": [
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$2$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$AH^2 = AB \\cdot AC$",
+            "$AB^2 = BH \\cdot BC$",
+            "$AC^2 = CH \\cdot BC$",
+            "$AH^2 = BH \\cdot CH$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về tam giác đồng dạng (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số k = 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác đều bất kì luôn đồng dạng với nhau.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tam giác cân bất kì luôn đồng dạng với nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu hai tam giác đồng dạng thì tỉ số chu vi bằng tỉ số đồng dạng k.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$ ($H \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tam giác HAC đồng dạng với tam giác ABC (g-g).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tam giác HBA đồng dạng với tam giác HAC (g-g).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hệ thức AH^2 = BH . CH luôn đúng.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC đồng dạng DEF với tỉ số k = 3/4. Tính tỉ số diện tích của chúng.",
+          "answer": "9/16",
+          "acceptableAnswers": [
+            "9/16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9/16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác vuông có hai cạnh góc vuông 6 cm và 8 cm. Tính độ dài đường cao ứng với cạnh huyền (cm).",
+          "answer": "4,8",
+          "acceptableAnswers": [
+            "4,8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cột cờ cao 10 m có bóng dài 6 m. Cùng lúc đó một người cao 1,5 m có bóng dài bao nhiêu mét?",
+          "answer": "0,9",
+          "acceptableAnswers": [
+            "0,9"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,9**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC có AB = 6 cm, AC = 9 cm. Điểm D thuộc AB sao cho AD = 3 cm. Kẻ DE // BC. Tính tỉ số diện tích ADE và tứ giác BDEC.",
+          "answer": "1/3",
+          "acceptableAnswers": [
+            "1/3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Chứng minh rằng $AB^2 = BH \\cdot BC$.",
+          "rubric": "Xét tam giác HBA và ABC có: góc B chung, góc BHA = BAC = 90 độ (0.25đ).\n=> tam giác HBA đồng dạng ABC (g-g) => BA / BC = BH / BA => AB^2 = BH . BC. Đpcm (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho hình bình hành $ABCD$. Trên cạnh $AB$ lấy điểm $E$. Đường thẳng $ED$ cắt cạnh $BC$ tại $F$ và cắt tia $AC$ tại $K$. Chứng minh rằng $\\Delta EAD \\backsim \\Delta EBF$ và $ED^2 = EK \\cdot EF$.",
+          "rubric": "Do AD // BC => tam giác EAD đồng dạng EBF (g-g) (0.25đ).\nÁp dụng định lí Thalès và tam giác đồng dạng với các đường song song ta được ED^2 = EK . EF (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$ nhọn có các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng $HD \\cdot HB = HE \\cdot HC$ và $\\Delta ADE \\backsim \\Delta ABC$.",
+          "rubric": "Xét hai tam giác vuông HED và HCB có: góc DHE = BHC (đối đỉnh) => tam giác HED đồng dạng HCB (g-g) => HD/HC = HE/HB => HD . HB = HE . HC (0.25đ).\nTừ tỉ số AD/AB = AE/AC (do tam giác ADB đồng dạng AEC) kết hợp góc A chung => tam giác ADE đồng dạng ABC (c-g-c). Đpcm (0.25đ)."
         }
       ]
     }

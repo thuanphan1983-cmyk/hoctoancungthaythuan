@@ -2,8 +2,8 @@
   "grade": "8",
   "chapterId": "c1_8",
   "chapterTitle": "Chương I: Đa thức",
-  "totalExams": 18,
-  "updatedAt": "2026-10-23 17:55:00",
+  "totalExams": 22,
+  "updatedAt": "2026-11-01 19:24:42",
   "exams": {
     "c1_8_bai1_test1": {
       "title": "Toán 8 (KNTT) - Bài 1: Đơn thức - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -4628,6 +4628,1186 @@
           "level": "Vận dụng cao",
           "question": "(Câu điểm 10)\na) Cho ba số thực $x, y, z$ thỏa mãn $x + y + z = 0$ và $xy + yz + zx = 0$. Chứng minh rằng $x = y = z = 0$.\nb) Tìm giá trị nhỏ nhất của đa thức sau:\n$$P(x, y) = x^2 + 2y^2 - 2xy - 4x + 2y + 15$$",
           "rubric": "a) Ta có (x + y + z)^2 = x^2 + y^2 + z^2 + 2(xy + yz + zx) (0.25đ).\nThay số: 0 = x^2 + y^2 + z^2 + 0 <=> x^2 + y^2 + z^2 = 0 <=> x = y = z = 0 (ĐPCM) (0.25đ).\nb) P = (x^2 - 2xy + y^2) - 4(x - y) + 4 + (y^2 - 2y + 1) + 10 = (x - y - 2)^2 + (y - 1)^2 + 10 (0.25đ).\nVì (x - y - 2)^2 >= 0 và (y - 1)^2 >= 0 nên P >= 10. Dấu '=' xảy ra <=> y = 1 và x = y + 2 = 3. Vậy GTNN là 10 tại (x = 3, y = 1) (0.25đ)."
+        }
+      ]
+    },
+    "c1_8_bai6_test4": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương I: Đa thức - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Biểu thức nào sau đây là đơn thức nhiều biến?",
+          "options": [
+            "$-3x^2y$",
+            "$2x + y$",
+            "$x^2 - y^2$",
+            "$\\frac{x}{y}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Bậc của đơn thức $4x^3y^2z$ là:",
+          "options": [
+            "$6$",
+            "$5$",
+            "$3$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đơn thức nào sau đây đồng dạng với đơn thức $-5x^2y$?",
+          "options": [
+            "$3x^2y$",
+            "$5xy^2$",
+            "$-5xy$",
+            "$2x^3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Bậc của đa thức $A = 2x^4y - 3x^2y^3 + 5$ là:",
+          "options": [
+            "$5$",
+            "$4$",
+            "$3$",
+            "$2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức $P = 3x^2y - 5xy + 2x^2y + 5xy$ ta được:",
+          "options": [
+            "$5x^2y$",
+            "$5x^2y - 10xy$",
+            "$x^2y$",
+            "$0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Tích của đơn thức $2xy$ với đa thức $(x^2 - 3y)$ là:",
+          "options": [
+            "$2x^3y - 6xy^2$",
+            "$2x^3y - 3y$",
+            "$2x^2y - 6xy$",
+            "$2x^3y + 6xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép chia $(6x^4y^3 - 9x^2y^2) : (3x^2y)$ là:",
+          "options": [
+            "$2x^2y^2 - 3y$",
+            "$2x^2y - 3$",
+            "$2x^2y^2 - 3x$",
+            "$3x^2y^2 - 3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của đa thức $M = x^2 - 2xy + y^2$ tại $x = 3, y = 1$ là:",
+          "options": [
+            "$4$",
+            "$2$",
+            "$8$",
+            "$16$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Tính tích $(2x - y)(x + 3y)$ ta được kết quả là:",
+          "options": [
+            "$2x^2 + 5xy - 3y^2$",
+            "$2x^2 - 5xy - 3y^2$",
+            "$2x^2 + 6xy - 3y^2$",
+            "$2x^2 - 3y^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm đa thức $B$ biết $B - (2x^2y - 3xy^2) = 5x^2y + xy^2$:",
+          "options": [
+            "$B = 7x^2y - 2xy^2$",
+            "$B = 3x^2y + 4xy^2$",
+            "$B = 7x^2y + 4xy^2$",
+            "$B = 3x^2y - 2xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $(2x + 3)\\text{ m}$ và chiều rộng $(x + 1)\\text{ m}$. Diện tích mảnh vườn theo $x$ là:",
+          "options": [
+            "$2x^2 + 5x + 3$",
+            "$2x^2 + 3$",
+            "$3x + 4$",
+            "$2x^2 + 4x + 3$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức hai biến $A = x^2 + y^2 - 4x + 2y + 10$:",
+          "options": [
+            "$5$ (khi $x = 2, y = -1$)",
+            "$10$",
+            "$0$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đơn thức và đa thức nhiều biến (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Bậc của đa thức là bậc của hạng tử có bậc cao nhất trong dạng thu gọn của đa thức đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Phép chia đa thức cho đơn thức chỉ thực hiện được khi mọi hạng tử của đa thức đều chia hết cho đơn thức.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tích của hai đa thức bậc 2 luôn là một đa thức bậc 4.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai đa thức $P = 4x^2 - 2xy + y^2$ và $Q = x^2 + 2xy - 3y^2$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng P + Q = 5x^2 - 2y^2.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu P - Q = 3x^2 - 4xy + 4y^2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tại x = 1, y = 1 thì P = 3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Đa thức P luôn nhận giá trị dương với mọi cặp số thực (x, y) khác (0, 0).",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm bậc của đa thức: P = 5x^3y^2 - 2x^4y + x^2 - 1.",
+          "answer": "5",
+          "acceptableAnswers": [
+            "5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị của đa thức A = x^2 - 4xy tại x = 2, y = -1.",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính giá trị của biểu thức P = (x + y)(x - y) tại x = 15, y = 5.",
+          "answer": "200",
+          "acceptableAnswers": [
+            "200"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức: M = x^2 - 6x + y^2 + 4y + 20.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức sau: $A = 2x^2y - 3xy^2 + 5 - x^2y + 4xy^2 - 2$.",
+          "rubric": "A = (2 - 1)x^2y + (-3 + 4)xy^2 + (5 - 2) = x^2y + xy^2 + 3 (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Thực hiện phép tính: $(2x - 3y)(4x^2 + 6xy + 9y^2)$.",
+          "rubric": "= (2x)^3 - (3y)^3 = 8x^3 - 27y^3 (0.5đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $x + y = 5$ và $xy = 2$. Tính giá trị của biểu thức $P = x^3 + y^3$.",
+          "rubric": "Ta có: x^3 + y^3 = (x + y)^3 - 3xy(x + y) (0.25đ).\nThay x + y = 5 và xy = 2:\nP = 5^3 - 3 . 2 . 5 = 125 - 30 = 95 (0.25đ)."
+        }
+      ]
+    },
+    "c1_8_bai6_test5": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương I: Đa thức - Bài kiểm tra số 5 (💡 Đa thức nhiều biến thực tế)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Biểu thức nào sau đây là đơn thức nhiều biến?",
+          "options": [
+            "$-3x^2y$",
+            "$2x + y$",
+            "$x^2 - y^2$",
+            "$\\frac{x}{y}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Bậc của đơn thức $4x^3y^2z$ là:",
+          "options": [
+            "$6$",
+            "$5$",
+            "$3$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đơn thức nào sau đây đồng dạng với đơn thức $-5x^2y$?",
+          "options": [
+            "$3x^2y$",
+            "$5xy^2$",
+            "$-5xy$",
+            "$2x^3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Bậc của đa thức $A = 2x^4y - 3x^2y^3 + 5$ là:",
+          "options": [
+            "$5$",
+            "$4$",
+            "$3$",
+            "$2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức $P = 3x^2y - 5xy + 2x^2y + 5xy$ ta được:",
+          "options": [
+            "$5x^2y$",
+            "$5x^2y - 10xy$",
+            "$x^2y$",
+            "$0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Tích của đơn thức $2xy$ với đa thức $(x^2 - 3y)$ là:",
+          "options": [
+            "$2x^3y - 6xy^2$",
+            "$2x^3y - 3y$",
+            "$2x^2y - 6xy$",
+            "$2x^3y + 6xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép chia $(6x^4y^3 - 9x^2y^2) : (3x^2y)$ là:",
+          "options": [
+            "$2x^2y^2 - 3y$",
+            "$2x^2y - 3$",
+            "$2x^2y^2 - 3x$",
+            "$3x^2y^2 - 3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của đa thức $M = x^2 - 2xy + y^2$ tại $x = 3, y = 1$ là:",
+          "options": [
+            "$4$",
+            "$2$",
+            "$8$",
+            "$16$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Tính tích $(2x - y)(x + 3y)$ ta được kết quả là:",
+          "options": [
+            "$2x^2 + 5xy - 3y^2$",
+            "$2x^2 - 5xy - 3y^2$",
+            "$2x^2 + 6xy - 3y^2$",
+            "$2x^2 - 3y^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm đa thức $B$ biết $B - (2x^2y - 3xy^2) = 5x^2y + xy^2$:",
+          "options": [
+            "$B = 7x^2y - 2xy^2$",
+            "$B = 3x^2y + 4xy^2$",
+            "$B = 7x^2y + 4xy^2$",
+            "$B = 3x^2y - 2xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $(2x + 3)\\text{ m}$ và chiều rộng $(x + 1)\\text{ m}$. Diện tích mảnh vườn theo $x$ là:",
+          "options": [
+            "$2x^2 + 5x + 3$",
+            "$2x^2 + 3$",
+            "$3x + 4$",
+            "$2x^2 + 4x + 3$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức hai biến $A = x^2 + y^2 - 4x + 2y + 10$:",
+          "options": [
+            "$5$ (khi $x = 2, y = -1$)",
+            "$10$",
+            "$0$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đơn thức và đa thức nhiều biến (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Bậc của đa thức là bậc của hạng tử có bậc cao nhất trong dạng thu gọn của đa thức đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Phép chia đa thức cho đơn thức chỉ thực hiện được khi mọi hạng tử của đa thức đều chia hết cho đơn thức.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tích của hai đa thức bậc 2 luôn là một đa thức bậc 4.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai đa thức $P = 4x^2 - 2xy + y^2$ và $Q = x^2 + 2xy - 3y^2$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng P + Q = 5x^2 - 2y^2.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu P - Q = 3x^2 - 4xy + 4y^2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tại x = 1, y = 1 thì P = 3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Đa thức P luôn nhận giá trị dương với mọi cặp số thực (x, y) khác (0, 0).",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm bậc của đa thức: P = 5x^3y^2 - 2x^4y + x^2 - 1.",
+          "answer": "5",
+          "acceptableAnswers": [
+            "5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị của đa thức A = x^2 - 4xy tại x = 2, y = -1.",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính giá trị của biểu thức P = (x + y)(x - y) tại x = 15, y = 5.",
+          "answer": "200",
+          "acceptableAnswers": [
+            "200"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức: M = x^2 - 6x + y^2 + 4y + 20.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức sau: $A = 2x^2y - 3xy^2 + 5 - x^2y + 4xy^2 - 2$.",
+          "rubric": "A = (2 - 1)x^2y + (-3 + 4)xy^2 + (5 - 2) = x^2y + xy^2 + 3 (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Thực hiện phép tính: $(2x - 3y)(4x^2 + 6xy + 9y^2)$.",
+          "rubric": "= (2x)^3 - (3y)^3 = 8x^3 - 27y^3 (0.5đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $x + y = 5$ và $xy = 2$. Tính giá trị của biểu thức $P = x^3 + y^3$.",
+          "rubric": "Ta có: x^3 + y^3 = (x + y)^3 - 3xy(x + y) (0.25đ).\nThay x + y = 5 và xy = 2:\nP = 5^3 - 3 . 2 . 5 = 125 - 30 = 95 (0.25đ)."
+        }
+      ]
+    },
+    "c1_8_bai6_test6": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương I: Đa thức - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Biểu thức nào sau đây là đơn thức nhiều biến?",
+          "options": [
+            "$-3x^2y$",
+            "$2x + y$",
+            "$x^2 - y^2$",
+            "$\\frac{x}{y}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Bậc của đơn thức $4x^3y^2z$ là:",
+          "options": [
+            "$6$",
+            "$5$",
+            "$3$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đơn thức nào sau đây đồng dạng với đơn thức $-5x^2y$?",
+          "options": [
+            "$3x^2y$",
+            "$5xy^2$",
+            "$-5xy$",
+            "$2x^3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Bậc của đa thức $A = 2x^4y - 3x^2y^3 + 5$ là:",
+          "options": [
+            "$5$",
+            "$4$",
+            "$3$",
+            "$2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức $P = 3x^2y - 5xy + 2x^2y + 5xy$ ta được:",
+          "options": [
+            "$5x^2y$",
+            "$5x^2y - 10xy$",
+            "$x^2y$",
+            "$0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Tích của đơn thức $2xy$ với đa thức $(x^2 - 3y)$ là:",
+          "options": [
+            "$2x^3y - 6xy^2$",
+            "$2x^3y - 3y$",
+            "$2x^2y - 6xy$",
+            "$2x^3y + 6xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép chia $(6x^4y^3 - 9x^2y^2) : (3x^2y)$ là:",
+          "options": [
+            "$2x^2y^2 - 3y$",
+            "$2x^2y - 3$",
+            "$2x^2y^2 - 3x$",
+            "$3x^2y^2 - 3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của đa thức $M = x^2 - 2xy + y^2$ tại $x = 3, y = 1$ là:",
+          "options": [
+            "$4$",
+            "$2$",
+            "$8$",
+            "$16$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Tính tích $(2x - y)(x + 3y)$ ta được kết quả là:",
+          "options": [
+            "$2x^2 + 5xy - 3y^2$",
+            "$2x^2 - 5xy - 3y^2$",
+            "$2x^2 + 6xy - 3y^2$",
+            "$2x^2 - 3y^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm đa thức $B$ biết $B - (2x^2y - 3xy^2) = 5x^2y + xy^2$:",
+          "options": [
+            "$B = 7x^2y - 2xy^2$",
+            "$B = 3x^2y + 4xy^2$",
+            "$B = 7x^2y + 4xy^2$",
+            "$B = 3x^2y - 2xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $(2x + 3)\\text{ m}$ và chiều rộng $(x + 1)\\text{ m}$. Diện tích mảnh vườn theo $x$ là:",
+          "options": [
+            "$2x^2 + 5x + 3$",
+            "$2x^2 + 3$",
+            "$3x + 4$",
+            "$2x^2 + 4x + 3$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức hai biến $A = x^2 + y^2 - 4x + 2y + 10$:",
+          "options": [
+            "$5$ (khi $x = 2, y = -1$)",
+            "$10$",
+            "$0$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đơn thức và đa thức nhiều biến (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Bậc của đa thức là bậc của hạng tử có bậc cao nhất trong dạng thu gọn của đa thức đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Phép chia đa thức cho đơn thức chỉ thực hiện được khi mọi hạng tử của đa thức đều chia hết cho đơn thức.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tích của hai đa thức bậc 2 luôn là một đa thức bậc 4.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai đa thức $P = 4x^2 - 2xy + y^2$ và $Q = x^2 + 2xy - 3y^2$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng P + Q = 5x^2 - 2y^2.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu P - Q = 3x^2 - 4xy + 4y^2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tại x = 1, y = 1 thì P = 3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Đa thức P luôn nhận giá trị dương với mọi cặp số thực (x, y) khác (0, 0).",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm bậc của đa thức: P = 5x^3y^2 - 2x^4y + x^2 - 1.",
+          "answer": "5",
+          "acceptableAnswers": [
+            "5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị của đa thức A = x^2 - 4xy tại x = 2, y = -1.",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính giá trị của biểu thức P = (x + y)(x - y) tại x = 15, y = 5.",
+          "answer": "200",
+          "acceptableAnswers": [
+            "200"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức: M = x^2 - 6x + y^2 + 4y + 20.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức sau: $A = 2x^2y - 3xy^2 + 5 - x^2y + 4xy^2 - 2$.",
+          "rubric": "A = (2 - 1)x^2y + (-3 + 4)xy^2 + (5 - 2) = x^2y + xy^2 + 3 (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Thực hiện phép tính: $(2x - 3y)(4x^2 + 6xy + 9y^2)$.",
+          "rubric": "= (2x)^3 - (3y)^3 = 8x^3 - 27y^3 (0.5đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $x + y = 5$ và $xy = 2$. Tính giá trị của biểu thức $P = x^3 + y^3$.",
+          "rubric": "Ta có: x^3 + y^3 = (x + y)^3 - 3xy(x + y) (0.25đ).\nThay x + y = 5 và xy = 2:\nP = 5^3 - 3 . 2 . 5 = 125 - 30 = 95 (0.25đ)."
+        }
+      ]
+    },
+    "c1_8_bai6_test7": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương I: Đa thức - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Biểu thức nào sau đây là đơn thức nhiều biến?",
+          "options": [
+            "$-3x^2y$",
+            "$2x + y$",
+            "$x^2 - y^2$",
+            "$\\frac{x}{y}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Bậc của đơn thức $4x^3y^2z$ là:",
+          "options": [
+            "$6$",
+            "$5$",
+            "$3$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đơn thức nào sau đây đồng dạng với đơn thức $-5x^2y$?",
+          "options": [
+            "$3x^2y$",
+            "$5xy^2$",
+            "$-5xy$",
+            "$2x^3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Bậc của đa thức $A = 2x^4y - 3x^2y^3 + 5$ là:",
+          "options": [
+            "$5$",
+            "$4$",
+            "$3$",
+            "$2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức $P = 3x^2y - 5xy + 2x^2y + 5xy$ ta được:",
+          "options": [
+            "$5x^2y$",
+            "$5x^2y - 10xy$",
+            "$x^2y$",
+            "$0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Tích của đơn thức $2xy$ với đa thức $(x^2 - 3y)$ là:",
+          "options": [
+            "$2x^3y - 6xy^2$",
+            "$2x^3y - 3y$",
+            "$2x^2y - 6xy$",
+            "$2x^3y + 6xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép chia $(6x^4y^3 - 9x^2y^2) : (3x^2y)$ là:",
+          "options": [
+            "$2x^2y^2 - 3y$",
+            "$2x^2y - 3$",
+            "$2x^2y^2 - 3x$",
+            "$3x^2y^2 - 3y$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của đa thức $M = x^2 - 2xy + y^2$ tại $x = 3, y = 1$ là:",
+          "options": [
+            "$4$",
+            "$2$",
+            "$8$",
+            "$16$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Tính tích $(2x - y)(x + 3y)$ ta được kết quả là:",
+          "options": [
+            "$2x^2 + 5xy - 3y^2$",
+            "$2x^2 - 5xy - 3y^2$",
+            "$2x^2 + 6xy - 3y^2$",
+            "$2x^2 - 3y^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm đa thức $B$ biết $B - (2x^2y - 3xy^2) = 5x^2y + xy^2$:",
+          "options": [
+            "$B = 7x^2y - 2xy^2$",
+            "$B = 3x^2y + 4xy^2$",
+            "$B = 7x^2y + 4xy^2$",
+            "$B = 3x^2y - 2xy^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $(2x + 3)\\text{ m}$ và chiều rộng $(x + 1)\\text{ m}$. Diện tích mảnh vườn theo $x$ là:",
+          "options": [
+            "$2x^2 + 5x + 3$",
+            "$2x^2 + 3$",
+            "$3x + 4$",
+            "$2x^2 + 4x + 3$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức hai biến $A = x^2 + y^2 - 4x + 2y + 10$:",
+          "options": [
+            "$5$ (khi $x = 2, y = -1$)",
+            "$10$",
+            "$0$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đơn thức và đa thức nhiều biến (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Bậc của đa thức là bậc của hạng tử có bậc cao nhất trong dạng thu gọn của đa thức đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Phép chia đa thức cho đơn thức chỉ thực hiện được khi mọi hạng tử của đa thức đều chia hết cho đơn thức.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tích của hai đa thức bậc 2 luôn là một đa thức bậc 4.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai đa thức $P = 4x^2 - 2xy + y^2$ và $Q = x^2 + 2xy - 3y^2$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng P + Q = 5x^2 - 2y^2.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu P - Q = 3x^2 - 4xy + 4y^2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tại x = 1, y = 1 thì P = 3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Đa thức P luôn nhận giá trị dương với mọi cặp số thực (x, y) khác (0, 0).",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm bậc của đa thức: P = 5x^3y^2 - 2x^4y + x^2 - 1.",
+          "answer": "5",
+          "acceptableAnswers": [
+            "5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị của đa thức A = x^2 - 4xy tại x = 2, y = -1.",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính giá trị của biểu thức P = (x + y)(x - y) tại x = 15, y = 5.",
+          "answer": "200",
+          "acceptableAnswers": [
+            "200"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm giá trị nhỏ nhất của đa thức: M = x^2 - 6x + y^2 + 4y + 20.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thu gọn đa thức sau: $A = 2x^2y - 3xy^2 + 5 - x^2y + 4xy^2 - 2$.",
+          "rubric": "A = (2 - 1)x^2y + (-3 + 4)xy^2 + (5 - 2) = x^2y + xy^2 + 3 (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Thực hiện phép tính: $(2x - 3y)(4x^2 + 6xy + 9y^2)$.",
+          "rubric": "= (2x)^3 - (3y)^3 = 8x^3 - 27y^3 (0.5đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho $x + y = 5$ và $xy = 2$. Tính giá trị của biểu thức $P = x^3 + y^3$.",
+          "rubric": "Ta có: x^3 + y^3 = (x + y)^3 - 3xy(x + y) (0.25đ).\nThay x + y = 5 và xy = 2:\nP = 5^3 - 3 . 2 . 5 = 125 - 30 = 95 (0.25đ)."
         }
       ]
     }

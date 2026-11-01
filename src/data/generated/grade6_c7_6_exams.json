@@ -2,8 +2,8 @@
   "grade": "6",
   "chapterId": "c7_6",
   "chapterTitle": "Chương VII: Số thập phân",
-  "totalExams": 15,
-  "updatedAt": "2026-10-28 08:27:37",
+  "totalExams": 19,
+  "updatedAt": "2026-11-01 19:17:04",
   "exams": {
     "c7_6_bai1_test1": {
       "title": "Toán 6 (KNTT) - Bài 28: Số thập phân - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
@@ -4412,6 +4412,1186 @@
           "level": "Vận dụng cao",
           "question": "Giá một lít xăng vào tháng 1 là $24\\ 000$ đồng. Sang tháng 2, giá xăng tăng $10\\%$. Sang tháng 3, giá xăng lại giảm $10\\%$ so với tháng 2. Hỏi giá một lít xăng ở tháng 3 so với tháng 1 đắt hơn hay rẻ hơn bao nhiêu đồng?",
           "rubric": "Giá xăng tháng 2: 24000 * (1 + 0.10) = 26400 đồng (0.5đ). Giá xăng tháng 3: 26400 * (1 - 0.10) = 23760 đồng. So với tháng 1, giá xăng tháng 3 rẻ hơn: 24000 - 23760 = 240 đồng (0.5đ)."
+        }
+      ]
+    },
+    "c7_6_bai5_test4": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VII: Số thập phân - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số thập phân $-3,25$ có phần nguyên là:",
+          "options": [
+            "$-3$",
+            "$3$",
+            "$25$",
+            "$-0,25$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số thập phân $4,8$ là:",
+          "options": [
+            "$-4,8$",
+            "$4,8$",
+            "$8,4$",
+            "$-8,4$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Làm tròn số $15,348$ đến hàng phần mười (chữ số thập phân thứ nhất) được:",
+          "options": [
+            "$15,3$",
+            "$15,4$",
+            "$15,35$",
+            "$15$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số phần trăm của $3$ và $5$ là:",
+          "options": [
+            "$60\\%$",
+            "$15\\%$",
+            "$35\\%$",
+            "$50\\%$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $(-2,5) + (-4,3)$ là:",
+          "options": [
+            "$-6,8$",
+            "$6,8$",
+            "$-1,8$",
+            "$1,8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép nhân $0,4 \\cdot (-2,5)$ là:",
+          "options": [
+            "$-1$",
+            "$1$",
+            "$-10$",
+            "$-0,1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x$, biết $x + 2,4 = 1,1$:",
+          "options": [
+            "$x = -1,3$",
+            "$x = 3,5$",
+            "$x = 1,3$",
+            "$x = -3,5$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tính $25\\%$ của $160$ ta được kết quả là:",
+          "options": [
+            "$40$",
+            "$80$",
+            "$20$",
+            "$32$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Một chiếc áo sơ mi có giá niêm yết 350 000 đồng. Nhân dịp ngày lễ, cửa hàng giảm giá $20\\%$. Giá bán của chiếc áo sau khi giảm giá là:",
+          "options": [
+            "$280\\,000$ đồng",
+            "$270\\,000$ đồng",
+            "$70\\,000$ đồng",
+            "$300\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng gửi tiết kiệm 50 000 000 đồng với lãi suất $6\\%$ một năm. Sau một năm, cả tiền gửi và tiền lãi cửa hàng nhận được là:",
+          "options": [
+            "$53\\,000\\,000$ đồng",
+            "$3\\,000\\,000$ đồng",
+            "$56\\,000\\,000$ đồng",
+            "$52\\,500\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tính hợp lý: $M = 3,75 \\cdot 12,4 + 3,75 \\cdot 87,6 - 75$:",
+          "options": [
+            "$300$",
+            "$375$",
+            "$250$",
+            "$350$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một dung dịch chứa 15 g muối và 185 g nước. Cần cho thêm vào dung dịch bao nhiêu gam muối để nồng độ muối của dung dịch mới là $10\\%$?",
+          "options": [
+            "$5\\text{ g}$ muối",
+            "$7\\text{ g}$ muối",
+            "$10\\text{ g}$ muối",
+            "$3\\text{ g}$ muối"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên số thập phân (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Khi chia một số thập phân cho 0,1 ta chỉ việc nhân số đó với 10.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tích của hai số thập phân âm là một số thập phân dương.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số $-5,4$ lớn hơn số $-5,2$.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu một mặt hàng tăng giá $10\\%$ rồi sau đó lại giảm giá $10\\%$ thì giá mới bằng đúng giá ban đầu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Một lớp 6A có 40 học sinh. Kết quả xếp loại cuối kỳ gồm: Giỏi chiếm $25\\%$, Khá chiếm $50\\%$, còn lại là Đạt:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Giỏi là $10$ học sinh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Khá là $20$ học sinh.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Đạt là $10$ học sinh (chiếm $25\\%$).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số phần trăm của số học sinh Giỏi so với số học sinh Khá là $40\\%$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính: 3,5 x 4,2 - 2,5 x 4,2.",
+          "answer": "4,2",
+          "acceptableAnswers": [
+            "4,2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,2**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Làm tròn số 47,826 đến hàng phần trăm.",
+          "answer": "47,83",
+          "acceptableAnswers": [
+            "47,83"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **47,83**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm một số biết 30% của số đó bằng 45.",
+          "answer": "150",
+          "acceptableAnswers": [
+            "150"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Giá một đôi giày sau khi giảm 15% là 680 000 đồng. Tính giá niêm yết ban đầu của đôi giày (đơn vị: đồng).",
+          "answer": "800000",
+          "acceptableAnswers": [
+            "800000"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **800000**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $C = 15,24 \\cdot 4,8 + 15,24 \\cdot 5,2 - 52,4$.",
+          "rubric": "C = 15,24 . (4,8 + 5,2) - 52,4 = 15,24 . 10 - 52,4 = 152,4 - 52,4 = 100 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Bác Ba gửi ngân hàng 100 triệu đồng với kỳ hạn 1 năm, lãi suất 6,5%/năm. Hỏi sau 1 năm Bác Ba rút được tất cả bao nhiêu tiền cả gốc lẫn lãi?",
+          "rubric": "Tiền lãi sau 1 năm: 100 000 000 x 6,5% = 6 500 000 (đồng) (0.25đ).\nTổng tiền nhận được: 100 000 000 + 6 500 000 = 106 500 000 (đồng) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Nhân dịp Black Friday, một cửa hàng điện máy giảm giá một chiếc Smart Tivi hai lần: lần thứ nhất giảm 10% so với giá niêm yết, lần thứ hai giảm tiếp 5% so với giá sau lần giảm thứ nhất. Sau hai lần giảm giá, chiếc Tivi được bán với giá 17 100 000 đồng. Tính giá niêm yết ban đầu của chiếc Tivi.",
+          "rubric": "Giá sau lần 1: 17 100 000 : (1 - 0,05) = 18 000 000 (đồng) (0.25đ).\nGiá niêm yết ban đầu: 18 000 000 : (1 - 0,10) = 20 000 000 (đồng) (0.25đ)."
+        }
+      ]
+    },
+    "c7_6_bai5_test5": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VII: Số thập phân - Bài kiểm tra số 5 (💡 Số thập phân & Tỉ số phần trăm)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số thập phân $-3,25$ có phần nguyên là:",
+          "options": [
+            "$-3$",
+            "$3$",
+            "$25$",
+            "$-0,25$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số thập phân $4,8$ là:",
+          "options": [
+            "$-4,8$",
+            "$4,8$",
+            "$8,4$",
+            "$-8,4$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Làm tròn số $15,348$ đến hàng phần mười (chữ số thập phân thứ nhất) được:",
+          "options": [
+            "$15,3$",
+            "$15,4$",
+            "$15,35$",
+            "$15$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số phần trăm của $3$ và $5$ là:",
+          "options": [
+            "$60\\%$",
+            "$15\\%$",
+            "$35\\%$",
+            "$50\\%$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $(-2,5) + (-4,3)$ là:",
+          "options": [
+            "$-6,8$",
+            "$6,8$",
+            "$-1,8$",
+            "$1,8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép nhân $0,4 \\cdot (-2,5)$ là:",
+          "options": [
+            "$-1$",
+            "$1$",
+            "$-10$",
+            "$-0,1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x$, biết $x + 2,4 = 1,1$:",
+          "options": [
+            "$x = -1,3$",
+            "$x = 3,5$",
+            "$x = 1,3$",
+            "$x = -3,5$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tính $25\\%$ của $160$ ta được kết quả là:",
+          "options": [
+            "$40$",
+            "$80$",
+            "$20$",
+            "$32$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Một chiếc áo sơ mi có giá niêm yết 350 000 đồng. Nhân dịp ngày lễ, cửa hàng giảm giá $20\\%$. Giá bán của chiếc áo sau khi giảm giá là:",
+          "options": [
+            "$280\\,000$ đồng",
+            "$270\\,000$ đồng",
+            "$70\\,000$ đồng",
+            "$300\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng gửi tiết kiệm 50 000 000 đồng với lãi suất $6\\%$ một năm. Sau một năm, cả tiền gửi và tiền lãi cửa hàng nhận được là:",
+          "options": [
+            "$53\\,000\\,000$ đồng",
+            "$3\\,000\\,000$ đồng",
+            "$56\\,000\\,000$ đồng",
+            "$52\\,500\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tính hợp lý: $M = 3,75 \\cdot 12,4 + 3,75 \\cdot 87,6 - 75$:",
+          "options": [
+            "$300$",
+            "$375$",
+            "$250$",
+            "$350$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một dung dịch chứa 15 g muối và 185 g nước. Cần cho thêm vào dung dịch bao nhiêu gam muối để nồng độ muối của dung dịch mới là $10\\%$?",
+          "options": [
+            "$5\\text{ g}$ muối",
+            "$7\\text{ g}$ muối",
+            "$10\\text{ g}$ muối",
+            "$3\\text{ g}$ muối"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên số thập phân (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Khi chia một số thập phân cho 0,1 ta chỉ việc nhân số đó với 10.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tích của hai số thập phân âm là một số thập phân dương.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số $-5,4$ lớn hơn số $-5,2$.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu một mặt hàng tăng giá $10\\%$ rồi sau đó lại giảm giá $10\\%$ thì giá mới bằng đúng giá ban đầu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Một lớp 6A có 40 học sinh. Kết quả xếp loại cuối kỳ gồm: Giỏi chiếm $25\\%$, Khá chiếm $50\\%$, còn lại là Đạt:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Giỏi là $10$ học sinh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Khá là $20$ học sinh.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Đạt là $10$ học sinh (chiếm $25\\%$).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số phần trăm của số học sinh Giỏi so với số học sinh Khá là $40\\%$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính: 3,5 x 4,2 - 2,5 x 4,2.",
+          "answer": "4,2",
+          "acceptableAnswers": [
+            "4,2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,2**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Làm tròn số 47,826 đến hàng phần trăm.",
+          "answer": "47,83",
+          "acceptableAnswers": [
+            "47,83"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **47,83**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm một số biết 30% của số đó bằng 45.",
+          "answer": "150",
+          "acceptableAnswers": [
+            "150"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Giá một đôi giày sau khi giảm 15% là 680 000 đồng. Tính giá niêm yết ban đầu của đôi giày (đơn vị: đồng).",
+          "answer": "800000",
+          "acceptableAnswers": [
+            "800000"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **800000**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $C = 15,24 \\cdot 4,8 + 15,24 \\cdot 5,2 - 52,4$.",
+          "rubric": "C = 15,24 . (4,8 + 5,2) - 52,4 = 15,24 . 10 - 52,4 = 152,4 - 52,4 = 100 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Bác Ba gửi ngân hàng 100 triệu đồng với kỳ hạn 1 năm, lãi suất 6,5%/năm. Hỏi sau 1 năm Bác Ba rút được tất cả bao nhiêu tiền cả gốc lẫn lãi?",
+          "rubric": "Tiền lãi sau 1 năm: 100 000 000 x 6,5% = 6 500 000 (đồng) (0.25đ).\nTổng tiền nhận được: 100 000 000 + 6 500 000 = 106 500 000 (đồng) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Nhân dịp Black Friday, một cửa hàng điện máy giảm giá một chiếc Smart Tivi hai lần: lần thứ nhất giảm 10% so với giá niêm yết, lần thứ hai giảm tiếp 5% so với giá sau lần giảm thứ nhất. Sau hai lần giảm giá, chiếc Tivi được bán với giá 17 100 000 đồng. Tính giá niêm yết ban đầu của chiếc Tivi.",
+          "rubric": "Giá sau lần 1: 17 100 000 : (1 - 0,05) = 18 000 000 (đồng) (0.25đ).\nGiá niêm yết ban đầu: 18 000 000 : (1 - 0,10) = 20 000 000 (đồng) (0.25đ)."
+        }
+      ]
+    },
+    "c7_6_bai5_test6": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VII: Số thập phân - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số thập phân $-3,25$ có phần nguyên là:",
+          "options": [
+            "$-3$",
+            "$3$",
+            "$25$",
+            "$-0,25$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số thập phân $4,8$ là:",
+          "options": [
+            "$-4,8$",
+            "$4,8$",
+            "$8,4$",
+            "$-8,4$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Làm tròn số $15,348$ đến hàng phần mười (chữ số thập phân thứ nhất) được:",
+          "options": [
+            "$15,3$",
+            "$15,4$",
+            "$15,35$",
+            "$15$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số phần trăm của $3$ và $5$ là:",
+          "options": [
+            "$60\\%$",
+            "$15\\%$",
+            "$35\\%$",
+            "$50\\%$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $(-2,5) + (-4,3)$ là:",
+          "options": [
+            "$-6,8$",
+            "$6,8$",
+            "$-1,8$",
+            "$1,8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép nhân $0,4 \\cdot (-2,5)$ là:",
+          "options": [
+            "$-1$",
+            "$1$",
+            "$-10$",
+            "$-0,1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x$, biết $x + 2,4 = 1,1$:",
+          "options": [
+            "$x = -1,3$",
+            "$x = 3,5$",
+            "$x = 1,3$",
+            "$x = -3,5$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tính $25\\%$ của $160$ ta được kết quả là:",
+          "options": [
+            "$40$",
+            "$80$",
+            "$20$",
+            "$32$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Một chiếc áo sơ mi có giá niêm yết 350 000 đồng. Nhân dịp ngày lễ, cửa hàng giảm giá $20\\%$. Giá bán của chiếc áo sau khi giảm giá là:",
+          "options": [
+            "$280\\,000$ đồng",
+            "$270\\,000$ đồng",
+            "$70\\,000$ đồng",
+            "$300\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng gửi tiết kiệm 50 000 000 đồng với lãi suất $6\\%$ một năm. Sau một năm, cả tiền gửi và tiền lãi cửa hàng nhận được là:",
+          "options": [
+            "$53\\,000\\,000$ đồng",
+            "$3\\,000\\,000$ đồng",
+            "$56\\,000\\,000$ đồng",
+            "$52\\,500\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tính hợp lý: $M = 3,75 \\cdot 12,4 + 3,75 \\cdot 87,6 - 75$:",
+          "options": [
+            "$300$",
+            "$375$",
+            "$250$",
+            "$350$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một dung dịch chứa 15 g muối và 185 g nước. Cần cho thêm vào dung dịch bao nhiêu gam muối để nồng độ muối của dung dịch mới là $10\\%$?",
+          "options": [
+            "$5\\text{ g}$ muối",
+            "$7\\text{ g}$ muối",
+            "$10\\text{ g}$ muối",
+            "$3\\text{ g}$ muối"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên số thập phân (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Khi chia một số thập phân cho 0,1 ta chỉ việc nhân số đó với 10.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tích của hai số thập phân âm là một số thập phân dương.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số $-5,4$ lớn hơn số $-5,2$.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu một mặt hàng tăng giá $10\\%$ rồi sau đó lại giảm giá $10\\%$ thì giá mới bằng đúng giá ban đầu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Một lớp 6A có 40 học sinh. Kết quả xếp loại cuối kỳ gồm: Giỏi chiếm $25\\%$, Khá chiếm $50\\%$, còn lại là Đạt:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Giỏi là $10$ học sinh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Khá là $20$ học sinh.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Đạt là $10$ học sinh (chiếm $25\\%$).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số phần trăm của số học sinh Giỏi so với số học sinh Khá là $40\\%$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính: 3,5 x 4,2 - 2,5 x 4,2.",
+          "answer": "4,2",
+          "acceptableAnswers": [
+            "4,2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,2**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Làm tròn số 47,826 đến hàng phần trăm.",
+          "answer": "47,83",
+          "acceptableAnswers": [
+            "47,83"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **47,83**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm một số biết 30% của số đó bằng 45.",
+          "answer": "150",
+          "acceptableAnswers": [
+            "150"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Giá một đôi giày sau khi giảm 15% là 680 000 đồng. Tính giá niêm yết ban đầu của đôi giày (đơn vị: đồng).",
+          "answer": "800000",
+          "acceptableAnswers": [
+            "800000"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **800000**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $C = 15,24 \\cdot 4,8 + 15,24 \\cdot 5,2 - 52,4$.",
+          "rubric": "C = 15,24 . (4,8 + 5,2) - 52,4 = 15,24 . 10 - 52,4 = 152,4 - 52,4 = 100 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Bác Ba gửi ngân hàng 100 triệu đồng với kỳ hạn 1 năm, lãi suất 6,5%/năm. Hỏi sau 1 năm Bác Ba rút được tất cả bao nhiêu tiền cả gốc lẫn lãi?",
+          "rubric": "Tiền lãi sau 1 năm: 100 000 000 x 6,5% = 6 500 000 (đồng) (0.25đ).\nTổng tiền nhận được: 100 000 000 + 6 500 000 = 106 500 000 (đồng) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Nhân dịp Black Friday, một cửa hàng điện máy giảm giá một chiếc Smart Tivi hai lần: lần thứ nhất giảm 10% so với giá niêm yết, lần thứ hai giảm tiếp 5% so với giá sau lần giảm thứ nhất. Sau hai lần giảm giá, chiếc Tivi được bán với giá 17 100 000 đồng. Tính giá niêm yết ban đầu của chiếc Tivi.",
+          "rubric": "Giá sau lần 1: 17 100 000 : (1 - 0,05) = 18 000 000 (đồng) (0.25đ).\nGiá niêm yết ban đầu: 18 000 000 : (1 - 0,10) = 20 000 000 (đồng) (0.25đ)."
+        }
+      ]
+    },
+    "c7_6_bai5_test7": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VII: Số thập phân - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số thập phân $-3,25$ có phần nguyên là:",
+          "options": [
+            "$-3$",
+            "$3$",
+            "$25$",
+            "$-0,25$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số thập phân $4,8$ là:",
+          "options": [
+            "$-4,8$",
+            "$4,8$",
+            "$8,4$",
+            "$-8,4$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Làm tròn số $15,348$ đến hàng phần mười (chữ số thập phân thứ nhất) được:",
+          "options": [
+            "$15,3$",
+            "$15,4$",
+            "$15,35$",
+            "$15$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tỉ số phần trăm của $3$ và $5$ là:",
+          "options": [
+            "$60\\%$",
+            "$15\\%$",
+            "$35\\%$",
+            "$50\\%$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $(-2,5) + (-4,3)$ là:",
+          "options": [
+            "$-6,8$",
+            "$6,8$",
+            "$-1,8$",
+            "$1,8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép nhân $0,4 \\cdot (-2,5)$ là:",
+          "options": [
+            "$-1$",
+            "$1$",
+            "$-10$",
+            "$-0,1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x$, biết $x + 2,4 = 1,1$:",
+          "options": [
+            "$x = -1,3$",
+            "$x = 3,5$",
+            "$x = 1,3$",
+            "$x = -3,5$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Tính $25\\%$ của $160$ ta được kết quả là:",
+          "options": [
+            "$40$",
+            "$80$",
+            "$20$",
+            "$32$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Một chiếc áo sơ mi có giá niêm yết 350 000 đồng. Nhân dịp ngày lễ, cửa hàng giảm giá $20\\%$. Giá bán của chiếc áo sau khi giảm giá là:",
+          "options": [
+            "$280\\,000$ đồng",
+            "$270\\,000$ đồng",
+            "$70\\,000$ đồng",
+            "$300\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng gửi tiết kiệm 50 000 000 đồng với lãi suất $6\\%$ một năm. Sau một năm, cả tiền gửi và tiền lãi cửa hàng nhận được là:",
+          "options": [
+            "$53\\,000\\,000$ đồng",
+            "$3\\,000\\,000$ đồng",
+            "$56\\,000\\,000$ đồng",
+            "$52\\,500\\,000$ đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tính hợp lý: $M = 3,75 \\cdot 12,4 + 3,75 \\cdot 87,6 - 75$:",
+          "options": [
+            "$300$",
+            "$375$",
+            "$250$",
+            "$350$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một dung dịch chứa 15 g muối và 185 g nước. Cần cho thêm vào dung dịch bao nhiêu gam muối để nồng độ muối của dung dịch mới là $10\\%$?",
+          "options": [
+            "$5\\text{ g}$ muối",
+            "$7\\text{ g}$ muối",
+            "$10\\text{ g}$ muối",
+            "$3\\text{ g}$ muối"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên số thập phân (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Khi chia một số thập phân cho 0,1 ta chỉ việc nhân số đó với 10.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tích của hai số thập phân âm là một số thập phân dương.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số $-5,4$ lớn hơn số $-5,2$.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu một mặt hàng tăng giá $10\\%$ rồi sau đó lại giảm giá $10\\%$ thì giá mới bằng đúng giá ban đầu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Một lớp 6A có 40 học sinh. Kết quả xếp loại cuối kỳ gồm: Giỏi chiếm $25\\%$, Khá chiếm $50\\%$, còn lại là Đạt:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Giỏi là $10$ học sinh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Khá là $20$ học sinh.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số học sinh xếp loại Đạt là $10$ học sinh (chiếm $25\\%$).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số phần trăm của số học sinh Giỏi so với số học sinh Khá là $40\\%$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính: 3,5 x 4,2 - 2,5 x 4,2.",
+          "answer": "4,2",
+          "acceptableAnswers": [
+            "4,2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,2**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Làm tròn số 47,826 đến hàng phần trăm.",
+          "answer": "47,83",
+          "acceptableAnswers": [
+            "47,83"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **47,83**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm một số biết 30% của số đó bằng 45.",
+          "answer": "150",
+          "acceptableAnswers": [
+            "150"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Giá một đôi giày sau khi giảm 15% là 680 000 đồng. Tính giá niêm yết ban đầu của đôi giày (đơn vị: đồng).",
+          "answer": "800000",
+          "acceptableAnswers": [
+            "800000"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **800000**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $C = 15,24 \\cdot 4,8 + 15,24 \\cdot 5,2 - 52,4$.",
+          "rubric": "C = 15,24 . (4,8 + 5,2) - 52,4 = 15,24 . 10 - 52,4 = 152,4 - 52,4 = 100 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Bác Ba gửi ngân hàng 100 triệu đồng với kỳ hạn 1 năm, lãi suất 6,5%/năm. Hỏi sau 1 năm Bác Ba rút được tất cả bao nhiêu tiền cả gốc lẫn lãi?",
+          "rubric": "Tiền lãi sau 1 năm: 100 000 000 x 6,5% = 6 500 000 (đồng) (0.25đ).\nTổng tiền nhận được: 100 000 000 + 6 500 000 = 106 500 000 (đồng) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Nhân dịp Black Friday, một cửa hàng điện máy giảm giá một chiếc Smart Tivi hai lần: lần thứ nhất giảm 10% so với giá niêm yết, lần thứ hai giảm tiếp 5% so với giá sau lần giảm thứ nhất. Sau hai lần giảm giá, chiếc Tivi được bán với giá 17 100 000 đồng. Tính giá niêm yết ban đầu của chiếc Tivi.",
+          "rubric": "Giá sau lần 1: 17 100 000 : (1 - 0,05) = 18 000 000 (đồng) (0.25đ).\nGiá niêm yết ban đầu: 18 000 000 : (1 - 0,10) = 20 000 000 (đồng) (0.25đ)."
         }
       ]
     }

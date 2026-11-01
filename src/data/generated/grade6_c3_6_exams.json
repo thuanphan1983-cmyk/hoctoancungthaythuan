@@ -2,8 +2,8 @@
   "grade": "6",
   "chapterId": "c3_6",
   "chapterTitle": "Chương III: Số nguyên",
-  "totalExams": 18,
-  "updatedAt": "2026-10-25 14:15:00",
+  "totalExams": 22,
+  "updatedAt": "2026-11-01 19:17:04",
   "exams": {
     "c3_6_bai1_test1": {
       "title": "Toán 6 (KNTT) - Bài 13: Tập hợp các số nguyên - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -4628,6 +4628,1186 @@
           "level": "Vận dụng cao",
           "question": "Cho 2024 số nguyên, trong đó tích của 3 số bất kì luôn là một số âm.\na) Chứng minh rằng trong 2024 số đó có ít nhất một số âm.\nb) Hỏi tích của cả 2024 số đó mang dấu gì? Giải thích chi tiết.",
           "rubric": "a) Phản chứng: nếu không có số âm nào thì tích 3 số bất kì ≥ 0 (mâu thuẫn), vậy có ít nhất 1 số âm a (0.4đ).\nb) Với a < 0, 2 số bất kì b, c có a.b.c < 0 => b.c > 0. Vậy 2023 số còn lại cùng dấu. Nếu cùng dương thì tích 3 số dương là dương (vô lý). Vậy cả 2024 số đều âm. Tích của 2024 số âm (chẵn số âm) là số DƯƠNG (0.6đ)."
+        }
+      ]
+    },
+    "c3_6_bai6_test4": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tập hợp các số nguyên $\\mathbb{Z}$ bao gồm:",
+          "options": [
+            "Số nguyên âm, số 0 và số nguyên dương",
+            "Số tự nhiên và phân số",
+            "Chỉ gồm số nguyên âm",
+            "Số nguyên dương và số 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số $-15$ là:",
+          "options": [
+            "$15$",
+            "$-15$",
+            "$0$",
+            "$\\frac{1}{15}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Kết quả của phép tính $(-7) + (-8)$ là:",
+          "options": [
+            "$-15$",
+            "$15$",
+            "$-1$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tích của hai số nguyên khác dấu luôn mang dấu gì?",
+          "options": [
+            "Dấu âm",
+            "Dấu dương",
+            "Dấu bất kì",
+            "Bằng 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $-5; 2; -8; 0; 7$:",
+          "options": [
+            "$-8 < -5 < 0 < 2 < 7$",
+            "$-5 < -8 < 0 < 2 < 7$",
+            "$7 < 2 < 0 < -5 < -8$",
+            "$-8 < -5 < 2 < 0 < 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $25 - (-15)$ là:",
+          "options": [
+            "$40$",
+            "$10$",
+            "$-10$",
+            "$-40$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $x + 12 = 5$:",
+          "options": [
+            "$x = -7$",
+            "$x = 7$",
+            "$x = 17$",
+            "$x = -17$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của biểu thức $P = (-4) \\cdot (-5) \\cdot (-2)$ là:",
+          "options": [
+            "$-40$",
+            "$40$",
+            "$-20$",
+            "$20$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Nhiệt độ lúc 6 giờ sáng tại Sa Pa là $-2^\\circ\\text{C}$, đến trưa nhiệt độ tăng thêm $7^\\circ\\text{C}$, đến tối lại giảm $4^\\circ\\text{C}$. Hỏi nhiệt độ lúc tối tại Sa Pa là bao nhiêu?",
+          "options": [
+            "$1^\\circ\\text{C}$",
+            "$3^\\circ\\text{C}$",
+            "$-1^\\circ\\text{C}$",
+            "$5^\\circ\\text{C}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn: $-6 < x \\le 5$:",
+          "options": [
+            "$-5$",
+            "$0$",
+            "$5$",
+            "$-6$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $(-3)x - 15 = -24$:",
+          "options": [
+            "$x = 3$",
+            "$x = -3$",
+            "$x = 13$",
+            "$x = -13$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các số nguyên $n$ để phân số $\\frac{n+3}{n-1}$ nhận giá trị nguyên:",
+          "options": [
+            "$n \\in \\{-3; 0; 2; 3; 5\\}$",
+            "$n \\in \\{1; 2; 3\\}$",
+            "$n \\in \\{0; 2\\}$",
+            "$n \\in \\{-1; 1\\}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên tập số nguyên (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tích của số nguyên âm với số 0 bằng 0.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Với mọi số nguyên $a, b$, ta luôn có $|a + b| = |a| + |b|$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho biểu thức $A = (-25) \\cdot 68 + (-25) \\cdot 32$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Áp dụng tính chất phân phối: $A = (-25) \\cdot (68 + 32)$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Giá trị của biểu thức $A$ bằng $-2500$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số đối của $A$ là $2500$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của $A$ chia hết cho 100 và là một ước của $-5000$.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị biểu thức: $(-18) + 32 - 14$.",
+          "answer": "0",
+          "acceptableAnswers": [
+            "0"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm số nguyên $x$ thỏa mãn: $2x - (-8) = -12$.",
+          "answer": "-10",
+          "acceptableAnswers": [
+            "-10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-10**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn điều kiện: $-10 < x < 11$.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số nguyên $x$ biết: $(x - 2)(x + 5) < 0$. Có bao nhiêu số nguyên $x$ thỏa mãn?",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $P = (-125) \\cdot 8 \\cdot (-7) \\cdot 4$.",
+          "rubric": "P = [(-125) . 8] . [(-7) . 4] = (-1000) . (-28) = 28 000 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một tàu ngầm đang ở vị trí $-45\\text{ m}$ so với mực nước biển. Tàu nổi lên $18\\text{ m}$, sau đó lại lặn sâu thêm $25\\text{ m}$. Hỏi vị trí hiện tại của tàu ngầm là bao nhiêu mét so với mực nước biển?",
+          "rubric": "Sau khi nổi lên: (-45) + 18 = -27 (m) (0.25đ).\nSau khi lặn thêm: (-27) - 25 = -52 (m).\nVậy tàu ngầm đang ở độ sâu 52 m dưới mực nước biển (hoặc vị trí -52 m) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn: $(x - 1)(y + 2) = -7$.",
+          "rubric": "Vì x, y in Z nên x - 1 và y + 2 là các ước của -7 in {1; -1; 7; -7} (0.25đ).\nTH1: x - 1 = 1 => x = 2; y + 2 = -7 => y = -9.\nTH2: x - 1 = -1 => x = 0; y + 2 = 7 => y = 5.\nTH3: x - 1 = 7 => x = 8; y + 2 = -1 => y = -3.\nTH4: x - 1 = -7 => x = -6; y + 2 = 1 => y = -1.\nVậy các cặp (x, y) là: (2, -9); (0, 5); (8, -3); (-6, -1) (0.25đ)."
+        }
+      ]
+    },
+    "c3_6_bai6_test5": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 5 (💡 Vận dụng thực tế Số nguyên)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tập hợp các số nguyên $\\mathbb{Z}$ bao gồm:",
+          "options": [
+            "Số nguyên âm, số 0 và số nguyên dương",
+            "Số tự nhiên và phân số",
+            "Chỉ gồm số nguyên âm",
+            "Số nguyên dương và số 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số $-15$ là:",
+          "options": [
+            "$15$",
+            "$-15$",
+            "$0$",
+            "$\\frac{1}{15}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Kết quả của phép tính $(-7) + (-8)$ là:",
+          "options": [
+            "$-15$",
+            "$15$",
+            "$-1$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tích của hai số nguyên khác dấu luôn mang dấu gì?",
+          "options": [
+            "Dấu âm",
+            "Dấu dương",
+            "Dấu bất kì",
+            "Bằng 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $-5; 2; -8; 0; 7$:",
+          "options": [
+            "$-8 < -5 < 0 < 2 < 7$",
+            "$-5 < -8 < 0 < 2 < 7$",
+            "$7 < 2 < 0 < -5 < -8$",
+            "$-8 < -5 < 2 < 0 < 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $25 - (-15)$ là:",
+          "options": [
+            "$40$",
+            "$10$",
+            "$-10$",
+            "$-40$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $x + 12 = 5$:",
+          "options": [
+            "$x = -7$",
+            "$x = 7$",
+            "$x = 17$",
+            "$x = -17$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của biểu thức $P = (-4) \\cdot (-5) \\cdot (-2)$ là:",
+          "options": [
+            "$-40$",
+            "$40$",
+            "$-20$",
+            "$20$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Nhiệt độ lúc 6 giờ sáng tại Sa Pa là $-2^\\circ\\text{C}$, đến trưa nhiệt độ tăng thêm $7^\\circ\\text{C}$, đến tối lại giảm $4^\\circ\\text{C}$. Hỏi nhiệt độ lúc tối tại Sa Pa là bao nhiêu?",
+          "options": [
+            "$1^\\circ\\text{C}$",
+            "$3^\\circ\\text{C}$",
+            "$-1^\\circ\\text{C}$",
+            "$5^\\circ\\text{C}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn: $-6 < x \\le 5$:",
+          "options": [
+            "$-5$",
+            "$0$",
+            "$5$",
+            "$-6$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $(-3)x - 15 = -24$:",
+          "options": [
+            "$x = 3$",
+            "$x = -3$",
+            "$x = 13$",
+            "$x = -13$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các số nguyên $n$ để phân số $\\frac{n+3}{n-1}$ nhận giá trị nguyên:",
+          "options": [
+            "$n \\in \\{-3; 0; 2; 3; 5\\}$",
+            "$n \\in \\{1; 2; 3\\}$",
+            "$n \\in \\{0; 2\\}$",
+            "$n \\in \\{-1; 1\\}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên tập số nguyên (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tích của số nguyên âm với số 0 bằng 0.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Với mọi số nguyên $a, b$, ta luôn có $|a + b| = |a| + |b|$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho biểu thức $A = (-25) \\cdot 68 + (-25) \\cdot 32$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Áp dụng tính chất phân phối: $A = (-25) \\cdot (68 + 32)$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Giá trị của biểu thức $A$ bằng $-2500$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số đối của $A$ là $2500$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của $A$ chia hết cho 100 và là một ước của $-5000$.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị biểu thức: $(-18) + 32 - 14$.",
+          "answer": "0",
+          "acceptableAnswers": [
+            "0"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm số nguyên $x$ thỏa mãn: $2x - (-8) = -12$.",
+          "answer": "-10",
+          "acceptableAnswers": [
+            "-10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-10**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn điều kiện: $-10 < x < 11$.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số nguyên $x$ biết: $(x - 2)(x + 5) < 0$. Có bao nhiêu số nguyên $x$ thỏa mãn?",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $P = (-125) \\cdot 8 \\cdot (-7) \\cdot 4$.",
+          "rubric": "P = [(-125) . 8] . [(-7) . 4] = (-1000) . (-28) = 28 000 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một tàu ngầm đang ở vị trí $-45\\text{ m}$ so với mực nước biển. Tàu nổi lên $18\\text{ m}$, sau đó lại lặn sâu thêm $25\\text{ m}$. Hỏi vị trí hiện tại của tàu ngầm là bao nhiêu mét so với mực nước biển?",
+          "rubric": "Sau khi nổi lên: (-45) + 18 = -27 (m) (0.25đ).\nSau khi lặn thêm: (-27) - 25 = -52 (m).\nVậy tàu ngầm đang ở độ sâu 52 m dưới mực nước biển (hoặc vị trí -52 m) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn: $(x - 1)(y + 2) = -7$.",
+          "rubric": "Vì x, y in Z nên x - 1 và y + 2 là các ước của -7 in {1; -1; 7; -7} (0.25đ).\nTH1: x - 1 = 1 => x = 2; y + 2 = -7 => y = -9.\nTH2: x - 1 = -1 => x = 0; y + 2 = 7 => y = 5.\nTH3: x - 1 = 7 => x = 8; y + 2 = -1 => y = -3.\nTH4: x - 1 = -7 => x = -6; y + 2 = 1 => y = -1.\nVậy các cặp (x, y) là: (2, -9); (0, 5); (8, -3); (-6, -1) (0.25đ)."
+        }
+      ]
+    },
+    "c3_6_bai6_test6": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tập hợp các số nguyên $\\mathbb{Z}$ bao gồm:",
+          "options": [
+            "Số nguyên âm, số 0 và số nguyên dương",
+            "Số tự nhiên và phân số",
+            "Chỉ gồm số nguyên âm",
+            "Số nguyên dương và số 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số $-15$ là:",
+          "options": [
+            "$15$",
+            "$-15$",
+            "$0$",
+            "$\\frac{1}{15}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Kết quả của phép tính $(-7) + (-8)$ là:",
+          "options": [
+            "$-15$",
+            "$15$",
+            "$-1$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tích của hai số nguyên khác dấu luôn mang dấu gì?",
+          "options": [
+            "Dấu âm",
+            "Dấu dương",
+            "Dấu bất kì",
+            "Bằng 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $-5; 2; -8; 0; 7$:",
+          "options": [
+            "$-8 < -5 < 0 < 2 < 7$",
+            "$-5 < -8 < 0 < 2 < 7$",
+            "$7 < 2 < 0 < -5 < -8$",
+            "$-8 < -5 < 2 < 0 < 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $25 - (-15)$ là:",
+          "options": [
+            "$40$",
+            "$10$",
+            "$-10$",
+            "$-40$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $x + 12 = 5$:",
+          "options": [
+            "$x = -7$",
+            "$x = 7$",
+            "$x = 17$",
+            "$x = -17$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của biểu thức $P = (-4) \\cdot (-5) \\cdot (-2)$ là:",
+          "options": [
+            "$-40$",
+            "$40$",
+            "$-20$",
+            "$20$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Nhiệt độ lúc 6 giờ sáng tại Sa Pa là $-2^\\circ\\text{C}$, đến trưa nhiệt độ tăng thêm $7^\\circ\\text{C}$, đến tối lại giảm $4^\\circ\\text{C}$. Hỏi nhiệt độ lúc tối tại Sa Pa là bao nhiêu?",
+          "options": [
+            "$1^\\circ\\text{C}$",
+            "$3^\\circ\\text{C}$",
+            "$-1^\\circ\\text{C}$",
+            "$5^\\circ\\text{C}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn: $-6 < x \\le 5$:",
+          "options": [
+            "$-5$",
+            "$0$",
+            "$5$",
+            "$-6$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $(-3)x - 15 = -24$:",
+          "options": [
+            "$x = 3$",
+            "$x = -3$",
+            "$x = 13$",
+            "$x = -13$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các số nguyên $n$ để phân số $\\frac{n+3}{n-1}$ nhận giá trị nguyên:",
+          "options": [
+            "$n \\in \\{-3; 0; 2; 3; 5\\}$",
+            "$n \\in \\{1; 2; 3\\}$",
+            "$n \\in \\{0; 2\\}$",
+            "$n \\in \\{-1; 1\\}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên tập số nguyên (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tích của số nguyên âm với số 0 bằng 0.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Với mọi số nguyên $a, b$, ta luôn có $|a + b| = |a| + |b|$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho biểu thức $A = (-25) \\cdot 68 + (-25) \\cdot 32$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Áp dụng tính chất phân phối: $A = (-25) \\cdot (68 + 32)$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Giá trị của biểu thức $A$ bằng $-2500$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số đối của $A$ là $2500$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của $A$ chia hết cho 100 và là một ước của $-5000$.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị biểu thức: $(-18) + 32 - 14$.",
+          "answer": "0",
+          "acceptableAnswers": [
+            "0"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm số nguyên $x$ thỏa mãn: $2x - (-8) = -12$.",
+          "answer": "-10",
+          "acceptableAnswers": [
+            "-10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-10**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn điều kiện: $-10 < x < 11$.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số nguyên $x$ biết: $(x - 2)(x + 5) < 0$. Có bao nhiêu số nguyên $x$ thỏa mãn?",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $P = (-125) \\cdot 8 \\cdot (-7) \\cdot 4$.",
+          "rubric": "P = [(-125) . 8] . [(-7) . 4] = (-1000) . (-28) = 28 000 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một tàu ngầm đang ở vị trí $-45\\text{ m}$ so với mực nước biển. Tàu nổi lên $18\\text{ m}$, sau đó lại lặn sâu thêm $25\\text{ m}$. Hỏi vị trí hiện tại của tàu ngầm là bao nhiêu mét so với mực nước biển?",
+          "rubric": "Sau khi nổi lên: (-45) + 18 = -27 (m) (0.25đ).\nSau khi lặn thêm: (-27) - 25 = -52 (m).\nVậy tàu ngầm đang ở độ sâu 52 m dưới mực nước biển (hoặc vị trí -52 m) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn: $(x - 1)(y + 2) = -7$.",
+          "rubric": "Vì x, y in Z nên x - 1 và y + 2 là các ước của -7 in {1; -1; 7; -7} (0.25đ).\nTH1: x - 1 = 1 => x = 2; y + 2 = -7 => y = -9.\nTH2: x - 1 = -1 => x = 0; y + 2 = 7 => y = 5.\nTH3: x - 1 = 7 => x = 8; y + 2 = -1 => y = -3.\nTH4: x - 1 = -7 => x = -6; y + 2 = 1 => y = -1.\nVậy các cặp (x, y) là: (2, -9); (0, 5); (8, -3); (-6, -1) (0.25đ)."
+        }
+      ]
+    },
+    "c3_6_bai6_test7": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương III: Số nguyên - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tập hợp các số nguyên $\\mathbb{Z}$ bao gồm:",
+          "options": [
+            "Số nguyên âm, số 0 và số nguyên dương",
+            "Số tự nhiên và phân số",
+            "Chỉ gồm số nguyên âm",
+            "Số nguyên dương và số 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số đối của số $-15$ là:",
+          "options": [
+            "$15$",
+            "$-15$",
+            "$0$",
+            "$\\frac{1}{15}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Kết quả của phép tính $(-7) + (-8)$ là:",
+          "options": [
+            "$-15$",
+            "$15$",
+            "$-1$",
+            "$1$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tích của hai số nguyên khác dấu luôn mang dấu gì?",
+          "options": [
+            "Dấu âm",
+            "Dấu dương",
+            "Dấu bất kì",
+            "Bằng 0"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $-5; 2; -8; 0; 7$:",
+          "options": [
+            "$-8 < -5 < 0 < 2 < 7$",
+            "$-5 < -8 < 0 < 2 < 7$",
+            "$7 < 2 < 0 < -5 < -8$",
+            "$-8 < -5 < 2 < 0 < 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép tính $25 - (-15)$ là:",
+          "options": [
+            "$40$",
+            "$10$",
+            "$-10$",
+            "$-40$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $x + 12 = 5$:",
+          "options": [
+            "$x = -7$",
+            "$x = 7$",
+            "$x = 17$",
+            "$x = -17$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Giá trị của biểu thức $P = (-4) \\cdot (-5) \\cdot (-2)$ là:",
+          "options": [
+            "$-40$",
+            "$40$",
+            "$-20$",
+            "$20$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Nhiệt độ lúc 6 giờ sáng tại Sa Pa là $-2^\\circ\\text{C}$, đến trưa nhiệt độ tăng thêm $7^\\circ\\text{C}$, đến tối lại giảm $4^\\circ\\text{C}$. Hỏi nhiệt độ lúc tối tại Sa Pa là bao nhiêu?",
+          "options": [
+            "$1^\\circ\\text{C}$",
+            "$3^\\circ\\text{C}$",
+            "$-1^\\circ\\text{C}$",
+            "$5^\\circ\\text{C}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn: $-6 < x \\le 5$:",
+          "options": [
+            "$-5$",
+            "$0$",
+            "$5$",
+            "$-6$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tìm $x \\in \\mathbb{Z}$, biết $(-3)x - 15 = -24$:",
+          "options": [
+            "$x = 3$",
+            "$x = -3$",
+            "$x = 13$",
+            "$x = -13$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các số nguyên $n$ để phân số $\\frac{n+3}{n-1}$ nhận giá trị nguyên:",
+          "options": [
+            "$n \\in \\{-3; 0; 2; 3; 5\\}$",
+            "$n \\in \\{1; 2; 3\\}$",
+            "$n \\in \\{0; 2\\}$",
+            "$n \\in \\{-1; 1\\}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai của các phép toán trên tập số nguyên (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tổng của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Hiệu của hai số nguyên âm luôn là một số nguyên âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tích của số nguyên âm với số 0 bằng 0.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Với mọi số nguyên $a, b$, ta luôn có $|a + b| = |a| + |b|$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho biểu thức $A = (-25) \\cdot 68 + (-25) \\cdot 32$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Áp dụng tính chất phân phối: $A = (-25) \\cdot (68 + 32)$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Giá trị của biểu thức $A$ bằng $-2500$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số đối của $A$ là $2500$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của $A$ chia hết cho 100 và là một ước của $-5000$.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tính giá trị biểu thức: $(-18) + 32 - 14$.",
+          "answer": "0",
+          "acceptableAnswers": [
+            "0"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm số nguyên $x$ thỏa mãn: $2x - (-8) = -12$.",
+          "answer": "-10",
+          "acceptableAnswers": [
+            "-10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-10**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tính tổng các số nguyên $x$ thỏa mãn điều kiện: $-10 < x < 11$.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số nguyên $x$ biết: $(x - 2)(x + 5) < 0$. Có bao nhiêu số nguyên $x$ thỏa mãn?",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép tính: $P = (-125) \\cdot 8 \\cdot (-7) \\cdot 4$.",
+          "rubric": "P = [(-125) . 8] . [(-7) . 4] = (-1000) . (-28) = 28 000 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một tàu ngầm đang ở vị trí $-45\\text{ m}$ so với mực nước biển. Tàu nổi lên $18\\text{ m}$, sau đó lại lặn sâu thêm $25\\text{ m}$. Hỏi vị trí hiện tại của tàu ngầm là bao nhiêu mét so với mực nước biển?",
+          "rubric": "Sau khi nổi lên: (-45) + 18 = -27 (m) (0.25đ).\nSau khi lặn thêm: (-27) - 25 = -52 (m).\nVậy tàu ngầm đang ở độ sâu 52 m dưới mực nước biển (hoặc vị trí -52 m) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn: $(x - 1)(y + 2) = -7$.",
+          "rubric": "Vì x, y in Z nên x - 1 và y + 2 là các ước của -7 in {1; -1; 7; -7} (0.25đ).\nTH1: x - 1 = 1 => x = 2; y + 2 = -7 => y = -9.\nTH2: x - 1 = -1 => x = 0; y + 2 = 7 => y = 5.\nTH3: x - 1 = 7 => x = 8; y + 2 = -1 => y = -3.\nTH4: x - 1 = -7 => x = -6; y + 2 = 1 => y = -1.\nVậy các cặp (x, y) là: (2, -9); (0, 5); (8, -3); (-6, -1) (0.25đ)."
         }
       ]
     }

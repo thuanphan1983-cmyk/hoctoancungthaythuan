@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG VI: PHÂN SỐ - TOÁN 6 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-10-28 08:27:37
+// Cập nhật lúc: 2026-11-01 19:17:04
 // ==============================================================================
 
 const EXAMS_6_C6_6 = {
@@ -5276,6 +5276,1186 @@ const EXAMS_6_C6_6 = {
         "level": "Vận dụng cao",
         "question": "Tìm số nguyên $n$ để phân số $A = \\frac{2n + 3}{n + 1}$ nhận giá trị là một số nguyên.",
         "rubric": "Biến đổi: A = [2(n + 1) + 1] / (n + 1) = 2 + 1/(n + 1) (0.5đ). Để A nguyên thì 1 phải chia hết cho (n + 1), suy ra n + 1 ∈ {1; -1}. Dẫn đến n ∈ {0; -2} (0.5đ)."
+      }
+    ]
+  },
+  "c6_6_bai6_test4": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VI: Phân số - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phân số nào sau đây bằng phân số $\\frac{2}{3}$?",
+        "options": [
+          "$\\frac{6}{9}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{5}{6}$",
+          "$\\frac{2}{6}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số nghịch đảo của phân số $-\\frac{3}{5}$ là:",
+        "options": [
+          "$-\\frac{5}{3}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{3}{5}$",
+          "$-\\frac{3}{5}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép cộng $\\frac{1}{7} + \\frac{3}{7}$ là:",
+        "options": [
+          "$\\frac{4}{7}$",
+          "$\\frac{4}{14}$",
+          "$\\frac{3}{7}$",
+          "$\\frac{2}{7}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Rút gọn phân số $\\frac{15}{25}$ về phân số tối giản được:",
+        "options": [
+          "$\\frac{3}{5}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{10}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "So sánh hai phân số $-\\frac{3}{4}$ và $-\\frac{5}{4}$:",
+        "options": [
+          "$-\\frac{3}{4} > -\\frac{5}{4}$",
+          "$-\\frac{3}{4} < -\\frac{5}{4}$",
+          "$-\\frac{3}{4} = -\\frac{5}{4}$",
+          "Không so sánh được"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép nhân $\\frac{-5}{8} \\cdot \\frac{4}{15}$ là:",
+        "options": [
+          "$-\\frac{1}{6}$",
+          "$\\frac{1}{6}$",
+          "$-\\frac{1}{3}$",
+          "$-\\frac{2}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết $x - \\frac{1}{2} = \\frac{3}{4}$:",
+        "options": [
+          "$x = \\frac{5}{4}$",
+          "$x = \\frac{1}{4}$",
+          "$x = 1$",
+          "$x = \\frac{3}{8}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tính $\\frac{2}{3}$ của $60\\text{ kg}$ ta được:",
+        "options": [
+          "$40\\text{ kg}$",
+          "$90\\text{ kg}$",
+          "$30\\text{ kg}$",
+          "$45\\text{ kg}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một giá sách có 120 cuốn sách. Số sách Toán chiếm $\\frac{2}{5}$ tổng số sách, số sách Văn chiếm $\\frac{1}{3}$ tổng số sách, còn lại là sách Tiếng Anh. Số sách Tiếng Anh là:",
+        "options": [
+          "$32$ cuốn",
+          "$48$ cuốn",
+          "$40$ cuốn",
+          "$24$ cuốn"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết $\\frac{3}{4}$ của số đó bằng $45$:",
+        "options": [
+          "$60$",
+          "$36$",
+          "$40$",
+          "$75$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Tính hợp lý: $A = \\frac{7}{19} \\cdot \\frac{8}{11} + \\frac{7}{19} \\cdot \\frac{3}{11} - \\frac{7}{19}$:",
+        "options": [
+          "$0$",
+          "$\\frac{7}{19}$",
+          "$1$",
+          "$\\frac{14}{19}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng $S = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$:",
+        "options": [
+          "$\\frac{99}{100}$",
+          "$1$",
+          "$\\frac{100}{101}$",
+          "$\\frac{98}{99}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các tính chất của phân số (Mã đề 4):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Phân số $\\frac{a}{b}$ có nghĩa khi $a, b \\in \\mathbb{Z}$ và $b \\neq 0$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu nhân cả tử và mẫu của một phân số với cùng một số nguyên khác 0 thì được phân số bằng nó.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Mọi phân số đều có số nghịch đảo.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Với mọi số tự nhiên $n \\ge 1$, phân số $\\frac{n}{n+1}$ luôn nhỏ hơn phân số $\\frac{n+1}{n+2}$.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bác An thu hoạch được 120 kg cam. Ngày thứ nhất bác bán được $\\frac{1}{3}$ số cam. Ngày thứ hai bác bán được $\\frac{3}{4}$ số cam còn lại:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ nhất là $40\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số cam còn lại sau ngày thứ nhất là $80\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ hai là $60\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số cam còn lại sau hai ngày là $30\\text{ kg}$.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị biểu thức: $A = \\frac{5}{12} + \\frac{7}{12} - \\frac{1}{2}$.",
+        "answer": "1/2",
+        "acceptableAnswers": [
+          "1/2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/2**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số đối của phân số: -7/9.",
+        "answer": "7/9",
+        "acceptableAnswers": [
+          "7/9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7/9**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết 2/5 của số đó bằng 24.",
+        "answer": "60",
+        "acceptableAnswers": [
+          "60"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên n để phân số (n + 1)/(n - 2) nhận giá trị nguyên. Có bao nhiêu giá trị nguyên của n?",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lý: $B = \\frac{5}{13} \\cdot \\frac{-3}{7} + \\frac{5}{13} \\cdot \\frac{-4}{7} + \\frac{8}{13}$.",
+        "rubric": "B = 5/13 . (-3/7 + -4/7) + 8/13 = 5/13 . (-1) + 8/13 = -5/13 + 8/13 = 3/13 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một ô tô chạy quãng đường từ A đến B. Giờ thứ nhất ô tô chạy được 2/5 quãng đường. Giờ thứ hai ô tô chạy được 1/3 quãng đường. Giờ thứ ba ô tô chạy nốt 40 km thì tới B. Tính độ dài quãng đường AB.",
+        "rubric": "Phần quãng đường đi trong hai giờ đầu: 2/5 + 1/3 = 11/15 (quãng đường) (0.25đ).\nPhần quãng đường đi trong giờ thứ ba: 1 - 11/15 = 4/15 (quãng đường).\nĐộ dài quãng đường AB: 40 : (4/15) = 150 (km) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng $S = \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\dots + \\frac{1}{100^2} < 1$.",
+        "rubric": "Ta có: 1/n^2 < 1/(n-1).n với mọi n >= 2 (0.25đ).\n=> S < 1/1.2 + 1/2.3 + ... + 1/99.100 = 1 - 1/100 = 99/100 < 1. Đpcm (0.25đ)."
+      }
+    ]
+  },
+  "c6_6_bai6_test5": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VI: Phân số - Bài kiểm tra số 5 (💡 Phân số & Bài toán thực tế)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phân số nào sau đây bằng phân số $\\frac{2}{3}$?",
+        "options": [
+          "$\\frac{6}{9}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{5}{6}$",
+          "$\\frac{2}{6}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số nghịch đảo của phân số $-\\frac{3}{5}$ là:",
+        "options": [
+          "$-\\frac{5}{3}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{3}{5}$",
+          "$-\\frac{3}{5}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép cộng $\\frac{1}{7} + \\frac{3}{7}$ là:",
+        "options": [
+          "$\\frac{4}{7}$",
+          "$\\frac{4}{14}$",
+          "$\\frac{3}{7}$",
+          "$\\frac{2}{7}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Rút gọn phân số $\\frac{15}{25}$ về phân số tối giản được:",
+        "options": [
+          "$\\frac{3}{5}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{10}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "So sánh hai phân số $-\\frac{3}{4}$ và $-\\frac{5}{4}$:",
+        "options": [
+          "$-\\frac{3}{4} > -\\frac{5}{4}$",
+          "$-\\frac{3}{4} < -\\frac{5}{4}$",
+          "$-\\frac{3}{4} = -\\frac{5}{4}$",
+          "Không so sánh được"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép nhân $\\frac{-5}{8} \\cdot \\frac{4}{15}$ là:",
+        "options": [
+          "$-\\frac{1}{6}$",
+          "$\\frac{1}{6}$",
+          "$-\\frac{1}{3}$",
+          "$-\\frac{2}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết $x - \\frac{1}{2} = \\frac{3}{4}$:",
+        "options": [
+          "$x = \\frac{5}{4}$",
+          "$x = \\frac{1}{4}$",
+          "$x = 1$",
+          "$x = \\frac{3}{8}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tính $\\frac{2}{3}$ của $60\\text{ kg}$ ta được:",
+        "options": [
+          "$40\\text{ kg}$",
+          "$90\\text{ kg}$",
+          "$30\\text{ kg}$",
+          "$45\\text{ kg}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một giá sách có 120 cuốn sách. Số sách Toán chiếm $\\frac{2}{5}$ tổng số sách, số sách Văn chiếm $\\frac{1}{3}$ tổng số sách, còn lại là sách Tiếng Anh. Số sách Tiếng Anh là:",
+        "options": [
+          "$32$ cuốn",
+          "$48$ cuốn",
+          "$40$ cuốn",
+          "$24$ cuốn"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết $\\frac{3}{4}$ của số đó bằng $45$:",
+        "options": [
+          "$60$",
+          "$36$",
+          "$40$",
+          "$75$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Tính hợp lý: $A = \\frac{7}{19} \\cdot \\frac{8}{11} + \\frac{7}{19} \\cdot \\frac{3}{11} - \\frac{7}{19}$:",
+        "options": [
+          "$0$",
+          "$\\frac{7}{19}$",
+          "$1$",
+          "$\\frac{14}{19}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng $S = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$:",
+        "options": [
+          "$\\frac{99}{100}$",
+          "$1$",
+          "$\\frac{100}{101}$",
+          "$\\frac{98}{99}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các tính chất của phân số (Mã đề 5):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Phân số $\\frac{a}{b}$ có nghĩa khi $a, b \\in \\mathbb{Z}$ và $b \\neq 0$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu nhân cả tử và mẫu của một phân số với cùng một số nguyên khác 0 thì được phân số bằng nó.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Mọi phân số đều có số nghịch đảo.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Với mọi số tự nhiên $n \\ge 1$, phân số $\\frac{n}{n+1}$ luôn nhỏ hơn phân số $\\frac{n+1}{n+2}$.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bác An thu hoạch được 120 kg cam. Ngày thứ nhất bác bán được $\\frac{1}{3}$ số cam. Ngày thứ hai bác bán được $\\frac{3}{4}$ số cam còn lại:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ nhất là $40\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số cam còn lại sau ngày thứ nhất là $80\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ hai là $60\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số cam còn lại sau hai ngày là $30\\text{ kg}$.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị biểu thức: $A = \\frac{5}{12} + \\frac{7}{12} - \\frac{1}{2}$.",
+        "answer": "1/2",
+        "acceptableAnswers": [
+          "1/2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/2**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số đối của phân số: -7/9.",
+        "answer": "7/9",
+        "acceptableAnswers": [
+          "7/9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7/9**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết 2/5 của số đó bằng 24.",
+        "answer": "60",
+        "acceptableAnswers": [
+          "60"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên n để phân số (n + 1)/(n - 2) nhận giá trị nguyên. Có bao nhiêu giá trị nguyên của n?",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lý: $B = \\frac{5}{13} \\cdot \\frac{-3}{7} + \\frac{5}{13} \\cdot \\frac{-4}{7} + \\frac{8}{13}$.",
+        "rubric": "B = 5/13 . (-3/7 + -4/7) + 8/13 = 5/13 . (-1) + 8/13 = -5/13 + 8/13 = 3/13 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một ô tô chạy quãng đường từ A đến B. Giờ thứ nhất ô tô chạy được 2/5 quãng đường. Giờ thứ hai ô tô chạy được 1/3 quãng đường. Giờ thứ ba ô tô chạy nốt 40 km thì tới B. Tính độ dài quãng đường AB.",
+        "rubric": "Phần quãng đường đi trong hai giờ đầu: 2/5 + 1/3 = 11/15 (quãng đường) (0.25đ).\nPhần quãng đường đi trong giờ thứ ba: 1 - 11/15 = 4/15 (quãng đường).\nĐộ dài quãng đường AB: 40 : (4/15) = 150 (km) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng $S = \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\dots + \\frac{1}{100^2} < 1$.",
+        "rubric": "Ta có: 1/n^2 < 1/(n-1).n với mọi n >= 2 (0.25đ).\n=> S < 1/1.2 + 1/2.3 + ... + 1/99.100 = 1 - 1/100 = 99/100 < 1. Đpcm (0.25đ)."
+      }
+    ]
+  },
+  "c6_6_bai6_test6": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VI: Phân số - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phân số nào sau đây bằng phân số $\\frac{2}{3}$?",
+        "options": [
+          "$\\frac{6}{9}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{5}{6}$",
+          "$\\frac{2}{6}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số nghịch đảo của phân số $-\\frac{3}{5}$ là:",
+        "options": [
+          "$-\\frac{5}{3}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{3}{5}$",
+          "$-\\frac{3}{5}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép cộng $\\frac{1}{7} + \\frac{3}{7}$ là:",
+        "options": [
+          "$\\frac{4}{7}$",
+          "$\\frac{4}{14}$",
+          "$\\frac{3}{7}$",
+          "$\\frac{2}{7}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Rút gọn phân số $\\frac{15}{25}$ về phân số tối giản được:",
+        "options": [
+          "$\\frac{3}{5}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{10}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "So sánh hai phân số $-\\frac{3}{4}$ và $-\\frac{5}{4}$:",
+        "options": [
+          "$-\\frac{3}{4} > -\\frac{5}{4}$",
+          "$-\\frac{3}{4} < -\\frac{5}{4}$",
+          "$-\\frac{3}{4} = -\\frac{5}{4}$",
+          "Không so sánh được"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép nhân $\\frac{-5}{8} \\cdot \\frac{4}{15}$ là:",
+        "options": [
+          "$-\\frac{1}{6}$",
+          "$\\frac{1}{6}$",
+          "$-\\frac{1}{3}$",
+          "$-\\frac{2}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết $x - \\frac{1}{2} = \\frac{3}{4}$:",
+        "options": [
+          "$x = \\frac{5}{4}$",
+          "$x = \\frac{1}{4}$",
+          "$x = 1$",
+          "$x = \\frac{3}{8}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tính $\\frac{2}{3}$ của $60\\text{ kg}$ ta được:",
+        "options": [
+          "$40\\text{ kg}$",
+          "$90\\text{ kg}$",
+          "$30\\text{ kg}$",
+          "$45\\text{ kg}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một giá sách có 120 cuốn sách. Số sách Toán chiếm $\\frac{2}{5}$ tổng số sách, số sách Văn chiếm $\\frac{1}{3}$ tổng số sách, còn lại là sách Tiếng Anh. Số sách Tiếng Anh là:",
+        "options": [
+          "$32$ cuốn",
+          "$48$ cuốn",
+          "$40$ cuốn",
+          "$24$ cuốn"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết $\\frac{3}{4}$ của số đó bằng $45$:",
+        "options": [
+          "$60$",
+          "$36$",
+          "$40$",
+          "$75$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Tính hợp lý: $A = \\frac{7}{19} \\cdot \\frac{8}{11} + \\frac{7}{19} \\cdot \\frac{3}{11} - \\frac{7}{19}$:",
+        "options": [
+          "$0$",
+          "$\\frac{7}{19}$",
+          "$1$",
+          "$\\frac{14}{19}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng $S = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$:",
+        "options": [
+          "$\\frac{99}{100}$",
+          "$1$",
+          "$\\frac{100}{101}$",
+          "$\\frac{98}{99}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các tính chất của phân số (Mã đề 6):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Phân số $\\frac{a}{b}$ có nghĩa khi $a, b \\in \\mathbb{Z}$ và $b \\neq 0$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu nhân cả tử và mẫu của một phân số với cùng một số nguyên khác 0 thì được phân số bằng nó.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Mọi phân số đều có số nghịch đảo.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Với mọi số tự nhiên $n \\ge 1$, phân số $\\frac{n}{n+1}$ luôn nhỏ hơn phân số $\\frac{n+1}{n+2}$.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bác An thu hoạch được 120 kg cam. Ngày thứ nhất bác bán được $\\frac{1}{3}$ số cam. Ngày thứ hai bác bán được $\\frac{3}{4}$ số cam còn lại:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ nhất là $40\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số cam còn lại sau ngày thứ nhất là $80\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ hai là $60\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số cam còn lại sau hai ngày là $30\\text{ kg}$.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị biểu thức: $A = \\frac{5}{12} + \\frac{7}{12} - \\frac{1}{2}$.",
+        "answer": "1/2",
+        "acceptableAnswers": [
+          "1/2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/2**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số đối của phân số: -7/9.",
+        "answer": "7/9",
+        "acceptableAnswers": [
+          "7/9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7/9**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết 2/5 của số đó bằng 24.",
+        "answer": "60",
+        "acceptableAnswers": [
+          "60"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên n để phân số (n + 1)/(n - 2) nhận giá trị nguyên. Có bao nhiêu giá trị nguyên của n?",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lý: $B = \\frac{5}{13} \\cdot \\frac{-3}{7} + \\frac{5}{13} \\cdot \\frac{-4}{7} + \\frac{8}{13}$.",
+        "rubric": "B = 5/13 . (-3/7 + -4/7) + 8/13 = 5/13 . (-1) + 8/13 = -5/13 + 8/13 = 3/13 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một ô tô chạy quãng đường từ A đến B. Giờ thứ nhất ô tô chạy được 2/5 quãng đường. Giờ thứ hai ô tô chạy được 1/3 quãng đường. Giờ thứ ba ô tô chạy nốt 40 km thì tới B. Tính độ dài quãng đường AB.",
+        "rubric": "Phần quãng đường đi trong hai giờ đầu: 2/5 + 1/3 = 11/15 (quãng đường) (0.25đ).\nPhần quãng đường đi trong giờ thứ ba: 1 - 11/15 = 4/15 (quãng đường).\nĐộ dài quãng đường AB: 40 : (4/15) = 150 (km) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng $S = \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\dots + \\frac{1}{100^2} < 1$.",
+        "rubric": "Ta có: 1/n^2 < 1/(n-1).n với mọi n >= 2 (0.25đ).\n=> S < 1/1.2 + 1/2.3 + ... + 1/99.100 = 1 - 1/100 = 99/100 < 1. Đpcm (0.25đ)."
+      }
+    ]
+  },
+  "c6_6_bai6_test7": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VI: Phân số - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phân số nào sau đây bằng phân số $\\frac{2}{3}$?",
+        "options": [
+          "$\\frac{6}{9}$",
+          "$\\frac{4}{9}$",
+          "$\\frac{5}{6}$",
+          "$\\frac{2}{6}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số nghịch đảo của phân số $-\\frac{3}{5}$ là:",
+        "options": [
+          "$-\\frac{5}{3}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{3}{5}$",
+          "$-\\frac{3}{5}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Kết quả của phép cộng $\\frac{1}{7} + \\frac{3}{7}$ là:",
+        "options": [
+          "$\\frac{4}{7}$",
+          "$\\frac{4}{14}$",
+          "$\\frac{3}{7}$",
+          "$\\frac{2}{7}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Rút gọn phân số $\\frac{15}{25}$ về phân số tối giản được:",
+        "options": [
+          "$\\frac{3}{5}$",
+          "$\\frac{5}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{3}{10}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "So sánh hai phân số $-\\frac{3}{4}$ và $-\\frac{5}{4}$:",
+        "options": [
+          "$-\\frac{3}{4} > -\\frac{5}{4}$",
+          "$-\\frac{3}{4} < -\\frac{5}{4}$",
+          "$-\\frac{3}{4} = -\\frac{5}{4}$",
+          "Không so sánh được"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép nhân $\\frac{-5}{8} \\cdot \\frac{4}{15}$ là:",
+        "options": [
+          "$-\\frac{1}{6}$",
+          "$\\frac{1}{6}$",
+          "$-\\frac{1}{3}$",
+          "$-\\frac{2}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết $x - \\frac{1}{2} = \\frac{3}{4}$:",
+        "options": [
+          "$x = \\frac{5}{4}$",
+          "$x = \\frac{1}{4}$",
+          "$x = 1$",
+          "$x = \\frac{3}{8}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Tính $\\frac{2}{3}$ của $60\\text{ kg}$ ta được:",
+        "options": [
+          "$40\\text{ kg}$",
+          "$90\\text{ kg}$",
+          "$30\\text{ kg}$",
+          "$45\\text{ kg}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một giá sách có 120 cuốn sách. Số sách Toán chiếm $\\frac{2}{5}$ tổng số sách, số sách Văn chiếm $\\frac{1}{3}$ tổng số sách, còn lại là sách Tiếng Anh. Số sách Tiếng Anh là:",
+        "options": [
+          "$32$ cuốn",
+          "$48$ cuốn",
+          "$40$ cuốn",
+          "$24$ cuốn"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết $\\frac{3}{4}$ của số đó bằng $45$:",
+        "options": [
+          "$60$",
+          "$36$",
+          "$40$",
+          "$75$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Tính hợp lý: $A = \\frac{7}{19} \\cdot \\frac{8}{11} + \\frac{7}{19} \\cdot \\frac{3}{11} - \\frac{7}{19}$:",
+        "options": [
+          "$0$",
+          "$\\frac{7}{19}$",
+          "$1$",
+          "$\\frac{14}{19}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Tính tổng $S = \\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots + \\frac{1}{99 \\cdot 100}$:",
+        "options": [
+          "$\\frac{99}{100}$",
+          "$1$",
+          "$\\frac{100}{101}$",
+          "$\\frac{98}{99}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các tính chất của phân số (Mã đề 7):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Phân số $\\frac{a}{b}$ có nghĩa khi $a, b \\in \\mathbb{Z}$ và $b \\neq 0$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu nhân cả tử và mẫu của một phân số với cùng một số nguyên khác 0 thì được phân số bằng nó.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Mọi phân số đều có số nghịch đảo.",
+            "correct": false,
+            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Với mọi số tự nhiên $n \\ge 1$, phân số $\\frac{n}{n+1}$ luôn nhỏ hơn phân số $\\frac{n+1}{n+2}$.",
+            "correct": true,
+            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bác An thu hoạch được 120 kg cam. Ngày thứ nhất bác bán được $\\frac{1}{3}$ số cam. Ngày thứ hai bác bán được $\\frac{3}{4}$ số cam còn lại:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ nhất là $40\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số cam còn lại sau ngày thứ nhất là $80\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số cam bán trong ngày thứ hai là $60\\text{ kg}$.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số cam còn lại sau hai ngày là $30\\text{ kg}$.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị biểu thức: $A = \\frac{5}{12} + \\frac{7}{12} - \\frac{1}{2}$.",
+        "answer": "1/2",
+        "acceptableAnswers": [
+          "1/2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/2**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số đối của phân số: -7/9.",
+        "answer": "7/9",
+        "acceptableAnswers": [
+          "7/9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7/9**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Tìm một số biết 2/5 của số đó bằng 24.",
+        "answer": "60",
+        "acceptableAnswers": [
+          "60"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên n để phân số (n + 1)/(n - 2) nhận giá trị nguyên. Có bao nhiêu giá trị nguyên của n?",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lý: $B = \\frac{5}{13} \\cdot \\frac{-3}{7} + \\frac{5}{13} \\cdot \\frac{-4}{7} + \\frac{8}{13}$.",
+        "rubric": "B = 5/13 . (-3/7 + -4/7) + 8/13 = 5/13 . (-1) + 8/13 = -5/13 + 8/13 = 3/13 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một ô tô chạy quãng đường từ A đến B. Giờ thứ nhất ô tô chạy được 2/5 quãng đường. Giờ thứ hai ô tô chạy được 1/3 quãng đường. Giờ thứ ba ô tô chạy nốt 40 km thì tới B. Tính độ dài quãng đường AB.",
+        "rubric": "Phần quãng đường đi trong hai giờ đầu: 2/5 + 1/3 = 11/15 (quãng đường) (0.25đ).\nPhần quãng đường đi trong giờ thứ ba: 1 - 11/15 = 4/15 (quãng đường).\nĐộ dài quãng đường AB: 40 : (4/15) = 150 (km) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng $S = \\frac{1}{2^2} + \\frac{1}{3^2} + \\frac{1}{4^2} + \\dots + \\frac{1}{100^2} < 1$.",
+        "rubric": "Ta có: 1/n^2 < 1/(n-1).n với mọi n >= 2 (0.25đ).\n=> S < 1/1.2 + 1/2.3 + ... + 1/99.100 = 1 - 1/100 = 99/100 < 1. Đpcm (0.25đ)."
       }
     ]
   }

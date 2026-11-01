@@ -2,8 +2,8 @@
   "grade": "8",
   "chapterId": "c5_8",
   "chapterTitle": "Chương V: Dữ liệu và biểu đồ",
-  "totalExams": 5,
-  "updatedAt": "2026-10-24 20:29:49",
+  "totalExams": 9,
+  "updatedAt": "2026-11-01 19:24:42",
   "exams": {
     "c5_8_bai1_test1": {
       "title": "Toán 8 (KNTT) - Bài 18: Thu thập và phân loại dữ liệu - Đề kiểm tra số 1",
@@ -1287,6 +1287,1186 @@
           "level": "Vận dụng thấp",
           "question": "Để chuẩn bị cho chuyến dã ngoại, lớp 8B gồm $40$ học sinh bầu chọn một trong ba địa điểm: Lăng Bác, Bảo tàng Dân tộc học, Thảo Cầm Viên. Kết quả có $50\\%$ học sinh chọn Lăng Bác, $30\\%$ chọn Bảo tàng Dân tộc học, số còn lại chọn Thảo Cầm Viên.\na) Tính số học sinh bình chọn cho từng địa điểm.\nb) Lớp 8B nên quyết định chọn đi địa điểm nào? Vì sao?",
           "rubric": "- Bước 1 (0.5 điểm): Tính số học sinh chọn từng địa điểm:\n  + Lăng Bác: $40 \\times 50\\% = 20$ (học sinh).\n  + Bảo tàng Dân tộc học: $40 \\times 30\\% = 12$ (học sinh).\n  + Thảo Cầm Viên: $40 - (20 + 12) = 8$ (học sinh) (hoặc tính $40 \\times 20\\% = 8$).\n- Bước 2 (0.5 điểm): Lớp 8B nên chọn đi Lăng Bác vì có số học sinh bình chọn nhiều nhất ($20$ học sinh, chiếm quá bán $50\\%$)."
+        }
+      ]
+    },
+    "c5_8_bai4_test4": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương V: Dữ liệu và biểu đồ - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Dữ liệu thu thập được có thể là:",
+          "options": [
+            "Số liệu hoặc dữ liệu không phải là số",
+            "Chỉ gồm số nguyên dương",
+            "Chỉ gồm chữ viết",
+            "Chỉ gồm hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu đồ nào sau đây thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần của một tổng thể?",
+          "options": [
+            "Biểu đồ hình quạt tròn",
+            "Biểu đồ cột",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Để nhận biết xu hướng tăng, giảm của một đại lượng theo thời gian, ta dùng:",
+          "options": [
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh",
+            "Biểu đồ quạt tròn",
+            "Bảng dữ liệu chữ"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Biểu đồ cột kép thường dùng để:",
+          "options": [
+            "So sánh hai tập dữ liệu cùng loại trên cùng một tiêu chí",
+            "Biểu diễn tỉ lệ phần trăm",
+            "Biểu diễn số liệu liên tục",
+            "Vẽ hình học phẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Khảo sát thời gian tự học ở nhà của học sinh: Dữ liệu thu được thuộc loại:",
+          "options": [
+            "Dữ liệu số (định lượng)",
+            "Dữ liệu định tính",
+            "Dữ liệu không đo đếm được",
+            "Dữ liệu hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn biểu diễn cơ cấu chi tiêu: Ăn uống $45\\%$, Nhà ở $25\\%$, Giáo dục $20\\%$, Tiết kiệm $10\\%$. Khoản chi tiêu nhiều nhất là:",
+          "options": [
+            "Ăn uống ($45\\%$)",
+            "Nhà ở",
+            "Giáo dục",
+            "Tiết kiệm"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Một bảng số liệu có số học sinh nam các lớp 8A, 8B, 8C lần lượt là 22, 20, 24; số học sinh nữ là 18, 22, 21. Biểu đồ thích hợp nhất để so sánh nam và nữ là:",
+          "options": [
+            "Biểu đồ cột kép",
+            "Biểu đồ quạt tròn",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Lựa chọn biểu đồ thích hợp giúp người đọc:",
+          "options": [
+            "Nắm bắt thông tin nhanh chóng, chính xác và trực quan",
+            "Tránh phải tính toán",
+            "Làm đẹp báo cáo",
+            "Thay đổi được bản chất số liệu"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Quan sát biểu đồ cột về số lượng sách bán được của một nhà sách trong 4 tuần: Tuần 1: 300 cuốn, Tuần 2: 450 cuốn, Tuần 3: 400 cuốn, Tuần 4: 650 cuốn. Số lượng sách bán trung bình mỗi tuần là:",
+          "options": [
+            "$450$ cuốn",
+            "$400$ cuốn",
+            "$500$ cuốn",
+            "$600$ cuốn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tốc độ tăng trưởng doanh thu tuần 4 so với tuần 1 ở câu trên là:",
+          "options": [
+            "Tăng hơn gấp đôi ($650$ so với $300$ cuốn)",
+            "Tăng $50\\%$",
+            "Giảm $20\\%$",
+            "Không đổi"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một trường có 1000 học sinh. Biểu đồ quạt tròn cho biết học sinh đi xe buýt chiếm $15\\%$. Số học sinh đi xe buýt là:",
+          "options": [
+            "$150$ học sinh",
+            "$100$ học sinh",
+            "$200$ học sinh",
+            "$250$ học sinh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một gia đình có tổng thu nhập một tháng là 30 triệu đồng. Trong biểu đồ chi tiêu, góc ở tâm của hình quạt biểu diễn tiền ăn uống là $144^\\circ$. Số tiền gia đình đó chi cho ăn uống trong tháng là:",
+          "options": [
+            "$12$ triệu đồng",
+            "$10$ triệu đồng",
+            "$15$ triệu đồng",
+            "$8$ triệu đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về việc biểu diễn dữ liệu bằng biểu đồ (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ cột đơn thích hợp để so sánh số lượng giữa các đối tượng khác nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ quạt tròn có thể biểu diễn được số liệu âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Trục đứng của biểu đồ cột thường thể hiện giá trị số lượng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Để thể hiện sự thay đổi nhiệt độ các giờ trong ngày, biểu đồ đoạn thẳng tối ưu hơn biểu đồ tròn.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bảng thống kê điểm môn Toán học kỳ 1 của lớp 8A gồm 40 học sinh: Điểm 9-10 có 10 em; Điểm 7-8 có 18 em; Điểm 5-6 có 10 em; Dưới 5 có 2 em:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Giỏi (9-10) là 25%.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Khá (7-8) là 45%.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt từ điểm 5 trở lên chiếm 95%.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khi vẽ biểu đồ quạt tròn, góc ở tâm biểu diễn nhóm học sinh đạt điểm Khá là 180 độ.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn có góc ở tâm là 90 độ. Hỏi phần đó chiếm bao nhiêu phần trăm tổng thể?",
+          "answer": "25",
+          "acceptableAnswers": [
+            "25"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Số học sinh 4 lớp: 38, 42, 40, 40. Tính số học sinh trung bình mỗi lớp.",
+          "answer": "40",
+          "acceptableAnswers": [
+            "40"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Một quạt tròn biểu diễn 35% tổng số. Tính số đo góc ở tâm tương ứng (độ).",
+          "answer": "126",
+          "acceptableAnswers": [
+            "126"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **126**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Doanh thu năm 2023 là 500 triệu. Năm 2024 tăng 20%. Tính doanh thu năm 2024 (triệu đồng).",
+          "answer": "600",
+          "acceptableAnswers": [
+            "600"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Nêu các bước cơ bản để chuyển một bảng số liệu phần trăm sang biểu đồ hình quạt tròn.",
+          "rubric": "1) Tính góc ở tâm cho từng đối tượng: góc = (% / 100) x 360 độ (0.25đ).\n2) Vẽ đường tròn tâm O và dùng thước đo góc để dựng các hình quạt tương ứng, ghi chú tỉ lệ phần trăm và tên đối tượng (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng bán sách thống kê số lượng sách tham khảo bán được trong 5 ngày: Thứ 2: 25 cuốn; Thứ 3: 30 cuốn; Thứ 4: 45 cuốn; Thứ 5: 35 cuốn; Thứ 6: 65 cuốn. a) Vẽ bảng số liệu và tính tổng số sách bán được. b) Tính tỉ số phần trăm sách bán được trong ngày Thứ 6 so với cả tuần.",
+          "rubric": "a) Tổng số sách: 25 + 30 + 45 + 35 + 65 = 200 (cuốn) (0.25đ).\nb) Tỉ lệ ngày Thứ 6: 65 / 200 x 100% = 32,5% (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Số lượng học sinh giỏi của một trường qua 4 năm học: Năm 1: 120 em; Năm 2: 150 em; Năm 3: 180 em; Năm 4: 216 em. Tính tỉ lệ phần trăm tăng trưởng học sinh giỏi của Năm 4 so với Năm 1.",
+          "rubric": "Số lượng tăng thêm: 216 - 120 = 96 (học sinh) (0.25đ).\nTỉ lệ tăng trưởng so với Năm 1: 96 / 120 x 100% = 80% (0.25đ)."
+        }
+      ]
+    },
+    "c5_8_bai4_test5": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương V: Dữ liệu và biểu đồ - Bài kiểm tra số 5 (💡 Thống kê & Phân tích biểu đồ)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Dữ liệu thu thập được có thể là:",
+          "options": [
+            "Số liệu hoặc dữ liệu không phải là số",
+            "Chỉ gồm số nguyên dương",
+            "Chỉ gồm chữ viết",
+            "Chỉ gồm hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu đồ nào sau đây thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần của một tổng thể?",
+          "options": [
+            "Biểu đồ hình quạt tròn",
+            "Biểu đồ cột",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Để nhận biết xu hướng tăng, giảm của một đại lượng theo thời gian, ta dùng:",
+          "options": [
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh",
+            "Biểu đồ quạt tròn",
+            "Bảng dữ liệu chữ"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Biểu đồ cột kép thường dùng để:",
+          "options": [
+            "So sánh hai tập dữ liệu cùng loại trên cùng một tiêu chí",
+            "Biểu diễn tỉ lệ phần trăm",
+            "Biểu diễn số liệu liên tục",
+            "Vẽ hình học phẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Khảo sát thời gian tự học ở nhà của học sinh: Dữ liệu thu được thuộc loại:",
+          "options": [
+            "Dữ liệu số (định lượng)",
+            "Dữ liệu định tính",
+            "Dữ liệu không đo đếm được",
+            "Dữ liệu hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn biểu diễn cơ cấu chi tiêu: Ăn uống $45\\%$, Nhà ở $25\\%$, Giáo dục $20\\%$, Tiết kiệm $10\\%$. Khoản chi tiêu nhiều nhất là:",
+          "options": [
+            "Ăn uống ($45\\%$)",
+            "Nhà ở",
+            "Giáo dục",
+            "Tiết kiệm"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Một bảng số liệu có số học sinh nam các lớp 8A, 8B, 8C lần lượt là 22, 20, 24; số học sinh nữ là 18, 22, 21. Biểu đồ thích hợp nhất để so sánh nam và nữ là:",
+          "options": [
+            "Biểu đồ cột kép",
+            "Biểu đồ quạt tròn",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Lựa chọn biểu đồ thích hợp giúp người đọc:",
+          "options": [
+            "Nắm bắt thông tin nhanh chóng, chính xác và trực quan",
+            "Tránh phải tính toán",
+            "Làm đẹp báo cáo",
+            "Thay đổi được bản chất số liệu"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Quan sát biểu đồ cột về số lượng sách bán được của một nhà sách trong 4 tuần: Tuần 1: 300 cuốn, Tuần 2: 450 cuốn, Tuần 3: 400 cuốn, Tuần 4: 650 cuốn. Số lượng sách bán trung bình mỗi tuần là:",
+          "options": [
+            "$450$ cuốn",
+            "$400$ cuốn",
+            "$500$ cuốn",
+            "$600$ cuốn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tốc độ tăng trưởng doanh thu tuần 4 so với tuần 1 ở câu trên là:",
+          "options": [
+            "Tăng hơn gấp đôi ($650$ so với $300$ cuốn)",
+            "Tăng $50\\%$",
+            "Giảm $20\\%$",
+            "Không đổi"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một trường có 1000 học sinh. Biểu đồ quạt tròn cho biết học sinh đi xe buýt chiếm $15\\%$. Số học sinh đi xe buýt là:",
+          "options": [
+            "$150$ học sinh",
+            "$100$ học sinh",
+            "$200$ học sinh",
+            "$250$ học sinh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một gia đình có tổng thu nhập một tháng là 30 triệu đồng. Trong biểu đồ chi tiêu, góc ở tâm của hình quạt biểu diễn tiền ăn uống là $144^\\circ$. Số tiền gia đình đó chi cho ăn uống trong tháng là:",
+          "options": [
+            "$12$ triệu đồng",
+            "$10$ triệu đồng",
+            "$15$ triệu đồng",
+            "$8$ triệu đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về việc biểu diễn dữ liệu bằng biểu đồ (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ cột đơn thích hợp để so sánh số lượng giữa các đối tượng khác nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ quạt tròn có thể biểu diễn được số liệu âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Trục đứng của biểu đồ cột thường thể hiện giá trị số lượng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Để thể hiện sự thay đổi nhiệt độ các giờ trong ngày, biểu đồ đoạn thẳng tối ưu hơn biểu đồ tròn.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bảng thống kê điểm môn Toán học kỳ 1 của lớp 8A gồm 40 học sinh: Điểm 9-10 có 10 em; Điểm 7-8 có 18 em; Điểm 5-6 có 10 em; Dưới 5 có 2 em:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Giỏi (9-10) là 25%.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Khá (7-8) là 45%.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt từ điểm 5 trở lên chiếm 95%.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khi vẽ biểu đồ quạt tròn, góc ở tâm biểu diễn nhóm học sinh đạt điểm Khá là 180 độ.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn có góc ở tâm là 90 độ. Hỏi phần đó chiếm bao nhiêu phần trăm tổng thể?",
+          "answer": "25",
+          "acceptableAnswers": [
+            "25"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Số học sinh 4 lớp: 38, 42, 40, 40. Tính số học sinh trung bình mỗi lớp.",
+          "answer": "40",
+          "acceptableAnswers": [
+            "40"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Một quạt tròn biểu diễn 35% tổng số. Tính số đo góc ở tâm tương ứng (độ).",
+          "answer": "126",
+          "acceptableAnswers": [
+            "126"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **126**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Doanh thu năm 2023 là 500 triệu. Năm 2024 tăng 20%. Tính doanh thu năm 2024 (triệu đồng).",
+          "answer": "600",
+          "acceptableAnswers": [
+            "600"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Nêu các bước cơ bản để chuyển một bảng số liệu phần trăm sang biểu đồ hình quạt tròn.",
+          "rubric": "1) Tính góc ở tâm cho từng đối tượng: góc = (% / 100) x 360 độ (0.25đ).\n2) Vẽ đường tròn tâm O và dùng thước đo góc để dựng các hình quạt tương ứng, ghi chú tỉ lệ phần trăm và tên đối tượng (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng bán sách thống kê số lượng sách tham khảo bán được trong 5 ngày: Thứ 2: 25 cuốn; Thứ 3: 30 cuốn; Thứ 4: 45 cuốn; Thứ 5: 35 cuốn; Thứ 6: 65 cuốn. a) Vẽ bảng số liệu và tính tổng số sách bán được. b) Tính tỉ số phần trăm sách bán được trong ngày Thứ 6 so với cả tuần.",
+          "rubric": "a) Tổng số sách: 25 + 30 + 45 + 35 + 65 = 200 (cuốn) (0.25đ).\nb) Tỉ lệ ngày Thứ 6: 65 / 200 x 100% = 32,5% (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Số lượng học sinh giỏi của một trường qua 4 năm học: Năm 1: 120 em; Năm 2: 150 em; Năm 3: 180 em; Năm 4: 216 em. Tính tỉ lệ phần trăm tăng trưởng học sinh giỏi của Năm 4 so với Năm 1.",
+          "rubric": "Số lượng tăng thêm: 216 - 120 = 96 (học sinh) (0.25đ).\nTỉ lệ tăng trưởng so với Năm 1: 96 / 120 x 100% = 80% (0.25đ)."
+        }
+      ]
+    },
+    "c5_8_bai4_test6": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương V: Dữ liệu và biểu đồ - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Dữ liệu thu thập được có thể là:",
+          "options": [
+            "Số liệu hoặc dữ liệu không phải là số",
+            "Chỉ gồm số nguyên dương",
+            "Chỉ gồm chữ viết",
+            "Chỉ gồm hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu đồ nào sau đây thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần của một tổng thể?",
+          "options": [
+            "Biểu đồ hình quạt tròn",
+            "Biểu đồ cột",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Để nhận biết xu hướng tăng, giảm của một đại lượng theo thời gian, ta dùng:",
+          "options": [
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh",
+            "Biểu đồ quạt tròn",
+            "Bảng dữ liệu chữ"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Biểu đồ cột kép thường dùng để:",
+          "options": [
+            "So sánh hai tập dữ liệu cùng loại trên cùng một tiêu chí",
+            "Biểu diễn tỉ lệ phần trăm",
+            "Biểu diễn số liệu liên tục",
+            "Vẽ hình học phẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Khảo sát thời gian tự học ở nhà của học sinh: Dữ liệu thu được thuộc loại:",
+          "options": [
+            "Dữ liệu số (định lượng)",
+            "Dữ liệu định tính",
+            "Dữ liệu không đo đếm được",
+            "Dữ liệu hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn biểu diễn cơ cấu chi tiêu: Ăn uống $45\\%$, Nhà ở $25\\%$, Giáo dục $20\\%$, Tiết kiệm $10\\%$. Khoản chi tiêu nhiều nhất là:",
+          "options": [
+            "Ăn uống ($45\\%$)",
+            "Nhà ở",
+            "Giáo dục",
+            "Tiết kiệm"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Một bảng số liệu có số học sinh nam các lớp 8A, 8B, 8C lần lượt là 22, 20, 24; số học sinh nữ là 18, 22, 21. Biểu đồ thích hợp nhất để so sánh nam và nữ là:",
+          "options": [
+            "Biểu đồ cột kép",
+            "Biểu đồ quạt tròn",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Lựa chọn biểu đồ thích hợp giúp người đọc:",
+          "options": [
+            "Nắm bắt thông tin nhanh chóng, chính xác và trực quan",
+            "Tránh phải tính toán",
+            "Làm đẹp báo cáo",
+            "Thay đổi được bản chất số liệu"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Quan sát biểu đồ cột về số lượng sách bán được của một nhà sách trong 4 tuần: Tuần 1: 300 cuốn, Tuần 2: 450 cuốn, Tuần 3: 400 cuốn, Tuần 4: 650 cuốn. Số lượng sách bán trung bình mỗi tuần là:",
+          "options": [
+            "$450$ cuốn",
+            "$400$ cuốn",
+            "$500$ cuốn",
+            "$600$ cuốn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tốc độ tăng trưởng doanh thu tuần 4 so với tuần 1 ở câu trên là:",
+          "options": [
+            "Tăng hơn gấp đôi ($650$ so với $300$ cuốn)",
+            "Tăng $50\\%$",
+            "Giảm $20\\%$",
+            "Không đổi"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một trường có 1000 học sinh. Biểu đồ quạt tròn cho biết học sinh đi xe buýt chiếm $15\\%$. Số học sinh đi xe buýt là:",
+          "options": [
+            "$150$ học sinh",
+            "$100$ học sinh",
+            "$200$ học sinh",
+            "$250$ học sinh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một gia đình có tổng thu nhập một tháng là 30 triệu đồng. Trong biểu đồ chi tiêu, góc ở tâm của hình quạt biểu diễn tiền ăn uống là $144^\\circ$. Số tiền gia đình đó chi cho ăn uống trong tháng là:",
+          "options": [
+            "$12$ triệu đồng",
+            "$10$ triệu đồng",
+            "$15$ triệu đồng",
+            "$8$ triệu đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về việc biểu diễn dữ liệu bằng biểu đồ (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ cột đơn thích hợp để so sánh số lượng giữa các đối tượng khác nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ quạt tròn có thể biểu diễn được số liệu âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Trục đứng của biểu đồ cột thường thể hiện giá trị số lượng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Để thể hiện sự thay đổi nhiệt độ các giờ trong ngày, biểu đồ đoạn thẳng tối ưu hơn biểu đồ tròn.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bảng thống kê điểm môn Toán học kỳ 1 của lớp 8A gồm 40 học sinh: Điểm 9-10 có 10 em; Điểm 7-8 có 18 em; Điểm 5-6 có 10 em; Dưới 5 có 2 em:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Giỏi (9-10) là 25%.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Khá (7-8) là 45%.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt từ điểm 5 trở lên chiếm 95%.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khi vẽ biểu đồ quạt tròn, góc ở tâm biểu diễn nhóm học sinh đạt điểm Khá là 180 độ.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn có góc ở tâm là 90 độ. Hỏi phần đó chiếm bao nhiêu phần trăm tổng thể?",
+          "answer": "25",
+          "acceptableAnswers": [
+            "25"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Số học sinh 4 lớp: 38, 42, 40, 40. Tính số học sinh trung bình mỗi lớp.",
+          "answer": "40",
+          "acceptableAnswers": [
+            "40"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Một quạt tròn biểu diễn 35% tổng số. Tính số đo góc ở tâm tương ứng (độ).",
+          "answer": "126",
+          "acceptableAnswers": [
+            "126"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **126**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Doanh thu năm 2023 là 500 triệu. Năm 2024 tăng 20%. Tính doanh thu năm 2024 (triệu đồng).",
+          "answer": "600",
+          "acceptableAnswers": [
+            "600"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Nêu các bước cơ bản để chuyển một bảng số liệu phần trăm sang biểu đồ hình quạt tròn.",
+          "rubric": "1) Tính góc ở tâm cho từng đối tượng: góc = (% / 100) x 360 độ (0.25đ).\n2) Vẽ đường tròn tâm O và dùng thước đo góc để dựng các hình quạt tương ứng, ghi chú tỉ lệ phần trăm và tên đối tượng (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng bán sách thống kê số lượng sách tham khảo bán được trong 5 ngày: Thứ 2: 25 cuốn; Thứ 3: 30 cuốn; Thứ 4: 45 cuốn; Thứ 5: 35 cuốn; Thứ 6: 65 cuốn. a) Vẽ bảng số liệu và tính tổng số sách bán được. b) Tính tỉ số phần trăm sách bán được trong ngày Thứ 6 so với cả tuần.",
+          "rubric": "a) Tổng số sách: 25 + 30 + 45 + 35 + 65 = 200 (cuốn) (0.25đ).\nb) Tỉ lệ ngày Thứ 6: 65 / 200 x 100% = 32,5% (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Số lượng học sinh giỏi của một trường qua 4 năm học: Năm 1: 120 em; Năm 2: 150 em; Năm 3: 180 em; Năm 4: 216 em. Tính tỉ lệ phần trăm tăng trưởng học sinh giỏi của Năm 4 so với Năm 1.",
+          "rubric": "Số lượng tăng thêm: 216 - 120 = 96 (học sinh) (0.25đ).\nTỉ lệ tăng trưởng so với Năm 1: 96 / 120 x 100% = 80% (0.25đ)."
+        }
+      ]
+    },
+    "c5_8_bai4_test7": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương V: Dữ liệu và biểu đồ - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Dữ liệu thu thập được có thể là:",
+          "options": [
+            "Số liệu hoặc dữ liệu không phải là số",
+            "Chỉ gồm số nguyên dương",
+            "Chỉ gồm chữ viết",
+            "Chỉ gồm hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu đồ nào sau đây thích hợp nhất để biểu diễn tỉ lệ phần trăm các thành phần của một tổng thể?",
+          "options": [
+            "Biểu đồ hình quạt tròn",
+            "Biểu đồ cột",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Để nhận biết xu hướng tăng, giảm của một đại lượng theo thời gian, ta dùng:",
+          "options": [
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh",
+            "Biểu đồ quạt tròn",
+            "Bảng dữ liệu chữ"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Biểu đồ cột kép thường dùng để:",
+          "options": [
+            "So sánh hai tập dữ liệu cùng loại trên cùng một tiêu chí",
+            "Biểu diễn tỉ lệ phần trăm",
+            "Biểu diễn số liệu liên tục",
+            "Vẽ hình học phẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Khảo sát thời gian tự học ở nhà của học sinh: Dữ liệu thu được thuộc loại:",
+          "options": [
+            "Dữ liệu số (định lượng)",
+            "Dữ liệu định tính",
+            "Dữ liệu không đo đếm được",
+            "Dữ liệu hình ảnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn biểu diễn cơ cấu chi tiêu: Ăn uống $45\\%$, Nhà ở $25\\%$, Giáo dục $20\\%$, Tiết kiệm $10\\%$. Khoản chi tiêu nhiều nhất là:",
+          "options": [
+            "Ăn uống ($45\\%$)",
+            "Nhà ở",
+            "Giáo dục",
+            "Tiết kiệm"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Một bảng số liệu có số học sinh nam các lớp 8A, 8B, 8C lần lượt là 22, 20, 24; số học sinh nữ là 18, 22, 21. Biểu đồ thích hợp nhất để so sánh nam và nữ là:",
+          "options": [
+            "Biểu đồ cột kép",
+            "Biểu đồ quạt tròn",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ tranh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Lựa chọn biểu đồ thích hợp giúp người đọc:",
+          "options": [
+            "Nắm bắt thông tin nhanh chóng, chính xác và trực quan",
+            "Tránh phải tính toán",
+            "Làm đẹp báo cáo",
+            "Thay đổi được bản chất số liệu"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Quan sát biểu đồ cột về số lượng sách bán được của một nhà sách trong 4 tuần: Tuần 1: 300 cuốn, Tuần 2: 450 cuốn, Tuần 3: 400 cuốn, Tuần 4: 650 cuốn. Số lượng sách bán trung bình mỗi tuần là:",
+          "options": [
+            "$450$ cuốn",
+            "$400$ cuốn",
+            "$500$ cuốn",
+            "$600$ cuốn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tốc độ tăng trưởng doanh thu tuần 4 so với tuần 1 ở câu trên là:",
+          "options": [
+            "Tăng hơn gấp đôi ($650$ so với $300$ cuốn)",
+            "Tăng $50\\%$",
+            "Giảm $20\\%$",
+            "Không đổi"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Một trường có 1000 học sinh. Biểu đồ quạt tròn cho biết học sinh đi xe buýt chiếm $15\\%$. Số học sinh đi xe buýt là:",
+          "options": [
+            "$150$ học sinh",
+            "$100$ học sinh",
+            "$200$ học sinh",
+            "$250$ học sinh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Một gia đình có tổng thu nhập một tháng là 30 triệu đồng. Trong biểu đồ chi tiêu, góc ở tâm của hình quạt biểu diễn tiền ăn uống là $144^\\circ$. Số tiền gia đình đó chi cho ăn uống trong tháng là:",
+          "options": [
+            "$12$ triệu đồng",
+            "$10$ triệu đồng",
+            "$15$ triệu đồng",
+            "$8$ triệu đồng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về việc biểu diễn dữ liệu bằng biểu đồ (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ cột đơn thích hợp để so sánh số lượng giữa các đối tượng khác nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Biểu đồ quạt tròn có thể biểu diễn được số liệu âm.",
+              "correct": false,
+              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Trục đứng của biểu đồ cột thường thể hiện giá trị số lượng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Để thể hiện sự thay đổi nhiệt độ các giờ trong ngày, biểu đồ đoạn thẳng tối ưu hơn biểu đồ tròn.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bảng thống kê điểm môn Toán học kỳ 1 của lớp 8A gồm 40 học sinh: Điểm 9-10 có 10 em; Điểm 7-8 có 18 em; Điểm 5-6 có 10 em; Dưới 5 có 2 em:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Giỏi (9-10) là 25%.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt điểm Khá (7-8) là 45%.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tỉ lệ học sinh đạt từ điểm 5 trở lên chiếm 95%.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khi vẽ biểu đồ quạt tròn, góc ở tâm biểu diễn nhóm học sinh đạt điểm Khá là 180 độ.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một biểu đồ quạt tròn có góc ở tâm là 90 độ. Hỏi phần đó chiếm bao nhiêu phần trăm tổng thể?",
+          "answer": "25",
+          "acceptableAnswers": [
+            "25"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Số học sinh 4 lớp: 38, 42, 40, 40. Tính số học sinh trung bình mỗi lớp.",
+          "answer": "40",
+          "acceptableAnswers": [
+            "40"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Một quạt tròn biểu diễn 35% tổng số. Tính số đo góc ở tâm tương ứng (độ).",
+          "answer": "126",
+          "acceptableAnswers": [
+            "126"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **126**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Doanh thu năm 2023 là 500 triệu. Năm 2024 tăng 20%. Tính doanh thu năm 2024 (triệu đồng).",
+          "answer": "600",
+          "acceptableAnswers": [
+            "600"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Nêu các bước cơ bản để chuyển một bảng số liệu phần trăm sang biểu đồ hình quạt tròn.",
+          "rubric": "1) Tính góc ở tâm cho từng đối tượng: góc = (% / 100) x 360 độ (0.25đ).\n2) Vẽ đường tròn tâm O và dùng thước đo góc để dựng các hình quạt tương ứng, ghi chú tỉ lệ phần trăm và tên đối tượng (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một cửa hàng bán sách thống kê số lượng sách tham khảo bán được trong 5 ngày: Thứ 2: 25 cuốn; Thứ 3: 30 cuốn; Thứ 4: 45 cuốn; Thứ 5: 35 cuốn; Thứ 6: 65 cuốn. a) Vẽ bảng số liệu và tính tổng số sách bán được. b) Tính tỉ số phần trăm sách bán được trong ngày Thứ 6 so với cả tuần.",
+          "rubric": "a) Tổng số sách: 25 + 30 + 45 + 35 + 65 = 200 (cuốn) (0.25đ).\nb) Tỉ lệ ngày Thứ 6: 65 / 200 x 100% = 32,5% (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Số lượng học sinh giỏi của một trường qua 4 năm học: Năm 1: 120 em; Năm 2: 150 em; Năm 3: 180 em; Năm 4: 216 em. Tính tỉ lệ phần trăm tăng trưởng học sinh giỏi của Năm 4 so với Năm 1.",
+          "rubric": "Số lượng tăng thêm: 216 - 120 = 96 (học sinh) (0.25đ).\nTỉ lệ tăng trưởng so với Năm 1: 96 / 120 x 100% = 80% (0.25đ)."
         }
       ]
     }

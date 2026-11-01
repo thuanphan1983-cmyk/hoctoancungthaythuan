@@ -2,8 +2,8 @@
   "grade": "6",
   "chapterId": "c8_6",
   "chapterTitle": "Chương VIII: Những hình hình học cơ bản",
-  "totalExams": 21,
-  "updatedAt": "2026-10-28 08:27:37",
+  "totalExams": 25,
+  "updatedAt": "2026-11-01 19:17:05",
   "exams": {
     "c8_6_bai1_test1": {
       "title": "Toán 6 (KNTT) - Bài 32: Điểm và đường thẳng - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
@@ -6155,6 +6155,1186 @@
           "level": "Vận dụng cao",
           "question": "Cho $n$ điểm phân biệt trong đó không có ba điểm nào thẳng hàng. Biết vẽ được tất cả $190$ đường thẳng đi qua các cặp điểm. Tìm số điểm $n$.",
           "rubric": "Số đường thẳng vẽ được qua n điểm là n(n - 1)/2 (0.5đ). Ta có: n(n - 1)/2 = 190 => n(n - 1) = 380. Vì 20 * 19 = 380 nên n = 20 điểm (0.5đ)."
+        }
+      ]
+    },
+    "c8_6_bai7_test4": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VIII: Hình học cơ bản - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Qua hai điểm phân biệt $A$ và $B$ vẽ được bao nhiêu đường thẳng?",
+          "options": [
+            "Đúng một đường thẳng",
+            "Hai đường thẳng",
+            "Vô số đường thẳng",
+            "Không vẽ được"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi:",
+          "options": [
+            "$M$ nằm giữa $A, B$ và $MA = MB$",
+            "$MA = MB$",
+            "$M$ nằm giữa $A$ và $B$",
+            "$M, A, B$ thẳng hàng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Góc có số đo bằng $90^\\circ$ là:",
+          "options": [
+            "Góc vuông",
+            "Góc nhọn",
+            "Góc tù",
+            "Góc bẹt"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Góc bẹt có số đo bằng:",
+          "options": [
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB = 10\\text{ cm}$. Điểm $M$ là trung điểm của đoạn thẳng $AB$. Độ dài đoạn thẳng $AM$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$20\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Trên tia $Ox$ lấy hai điểm $A$ và $B$ sao cho $OA = 3\\text{ cm}, OB = 7\\text{ cm}$. Độ dài đoạn thẳng $AB$ là:",
+          "options": [
+            "$4\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Góc nhọn là góc có số đo:",
+          "options": [
+            "Lớn hơn $0^\\circ$ và nhỏ hơn $90^\\circ$",
+            "Bằng $90^\\circ$",
+            "Lớn hơn $90^\\circ$",
+            "Bằng $180^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho góc $\\widehat{xOy} = 70^\\circ$ và tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Số đo của $\\widehat{xOz}$ là:",
+          "options": [
+            "$35^\\circ$",
+            "$70^\\circ$",
+            "$140^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB = 8\\text{ cm}$. Lấy điểm $C$ thuộc đoạn thẳng $AB$ sao cho $AC = 2\\text{ cm}$. Gọi $I$ là trung điểm của đoạn thẳng $BC$. Độ dài đoạn thẳng $AI$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$3\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $10$ điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Cứ qua hai điểm vẽ một đường thẳng. Số đường thẳng vẽ được là:",
+          "options": [
+            "$45$ đường thẳng",
+            "$90$ đường thẳng",
+            "$20$ đường thẳng",
+            "$100$ đường thẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$, biết $\\widehat{xOy} = 50^\\circ$. Số đo của góc $\\widehat{yOz}$ là:",
+          "options": [
+            "$130^\\circ$",
+            "$40^\\circ$",
+            "$50^\\circ$",
+            "$140^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng $AB = 2^{2026}\\text{ cm}$. Gọi $M_1$ là trung điểm $AB$, $M_2$ là trung điểm $AM_1$, ..., $M_{2026}$ là trung điểm $AM_{2025}$. Độ dài đoạn thẳng $AM_{2026}$ là:",
+          "options": [
+            "$1\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$0,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về điểm, đường thẳng và đoạn thẳng (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu ba điểm cùng thuộc một đường thẳng thì ta nói ba điểm đó thẳng hàng.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng $AB$ là hình gồm điểm $A$, điểm $B$ và tất cả các điểm nằm giữa $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tia phân biệt có chung gốc luôn là hai tia đối nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu $AM + MB = AB$ thì điểm $M$ luôn là trung điểm của đoạn thẳng $AB$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Trên đường thẳng $xy$, lấy điểm $O$. Trên tia $Ox$ lấy điểm $A$ sao cho $OA = 4\\text{ cm}$. Trên tia $Oy$ lấy điểm $B$ sao cho $OB = 4\\text{ cm}$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tia $Ox$ và $Oy$ là hai tia đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ nằm giữa hai điểm $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ là trung điểm của đoạn thẳng $AB$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Lấy điểm $C$ trên tia $Oy$ sao cho $BC = 2\\text{ cm}$. Khi đó độ dài đoạn thẳng $AC$ chỉ có thể bằng $10\\text{ cm}$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho góc xOy = 120 độ. Tính số đo góc kề bù với góc xOy.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng CD = 16 cm. M là trung điểm của CD. Tính độ dài CM (cm).",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho n điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Biết vẽ được tất cả 28 đường thẳng. Tìm n.",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng AB = 12 cm. Điểm C nằm giữa A và B sao cho AC = 4 cm. Gọi M, N lần lượt là trung điểm của AC và CB. Tính độ dài đoạn thẳng MN (cm).",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Vẽ hình và tính độ dài đoạn thẳng $AB$ biết điểm $C$ nằm giữa $A$ và $B$, $AC = 3\\text{ cm}, CB = 5\\text{ cm}$.",
+          "rubric": "Vì C nằm giữa A và B nên: AB = AC + CB = 3 + 5 = 8 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trên tia $Ox$ lấy hai điểm $A, B$ sao cho $OA = 3\\text{ cm}, OB = 6\\text{ cm}$. Chứng tỏ rằng điểm $A$ là trung điểm của đoạn thẳng $OB$.",
+          "rubric": "Vì OA < OB (3cm < 6cm) nên A nằm giữa O và B (0.25đ).\n=> AB = OB - OA = 6 - 3 = 3 (cm).\nVì A nằm giữa O, B và OA = AB (= 3cm) nên A là trung điểm OB (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho 20 điểm phân biệt, trong đó có đúng 4 điểm thẳng hàng, ngoài ra không có 3 điểm nào khác thẳng hàng. Cứ qua 2 điểm ta vẽ được 1 đường thẳng. Hỏi vẽ được tất cả bao nhiêu đường thẳng?",
+          "rubric": "Nếu 20 điểm không có 3 điểm thẳng hàng: 20 x 19 : 2 = 190 đường thẳng (0.25đ).\nVới 4 điểm thẳng hàng tạo ra 1 đường thẳng thay vì 4 x 3 : 2 = 6 đường thẳng.\nSố đường thẳng thực tế vẽ được: 190 - 6 + 1 = 185 (đường thẳng) (0.25đ)."
+        }
+      ]
+    },
+    "c8_6_bai7_test5": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VIII: Hình học cơ bản - Bài kiểm tra số 5 (💡 Đoạn thẳng & Góc thực tế)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Qua hai điểm phân biệt $A$ và $B$ vẽ được bao nhiêu đường thẳng?",
+          "options": [
+            "Đúng một đường thẳng",
+            "Hai đường thẳng",
+            "Vô số đường thẳng",
+            "Không vẽ được"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi:",
+          "options": [
+            "$M$ nằm giữa $A, B$ và $MA = MB$",
+            "$MA = MB$",
+            "$M$ nằm giữa $A$ và $B$",
+            "$M, A, B$ thẳng hàng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Góc có số đo bằng $90^\\circ$ là:",
+          "options": [
+            "Góc vuông",
+            "Góc nhọn",
+            "Góc tù",
+            "Góc bẹt"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Góc bẹt có số đo bằng:",
+          "options": [
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB = 10\\text{ cm}$. Điểm $M$ là trung điểm của đoạn thẳng $AB$. Độ dài đoạn thẳng $AM$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$20\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Trên tia $Ox$ lấy hai điểm $A$ và $B$ sao cho $OA = 3\\text{ cm}, OB = 7\\text{ cm}$. Độ dài đoạn thẳng $AB$ là:",
+          "options": [
+            "$4\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Góc nhọn là góc có số đo:",
+          "options": [
+            "Lớn hơn $0^\\circ$ và nhỏ hơn $90^\\circ$",
+            "Bằng $90^\\circ$",
+            "Lớn hơn $90^\\circ$",
+            "Bằng $180^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho góc $\\widehat{xOy} = 70^\\circ$ và tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Số đo của $\\widehat{xOz}$ là:",
+          "options": [
+            "$35^\\circ$",
+            "$70^\\circ$",
+            "$140^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB = 8\\text{ cm}$. Lấy điểm $C$ thuộc đoạn thẳng $AB$ sao cho $AC = 2\\text{ cm}$. Gọi $I$ là trung điểm của đoạn thẳng $BC$. Độ dài đoạn thẳng $AI$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$3\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $10$ điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Cứ qua hai điểm vẽ một đường thẳng. Số đường thẳng vẽ được là:",
+          "options": [
+            "$45$ đường thẳng",
+            "$90$ đường thẳng",
+            "$20$ đường thẳng",
+            "$100$ đường thẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$, biết $\\widehat{xOy} = 50^\\circ$. Số đo của góc $\\widehat{yOz}$ là:",
+          "options": [
+            "$130^\\circ$",
+            "$40^\\circ$",
+            "$50^\\circ$",
+            "$140^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng $AB = 2^{2026}\\text{ cm}$. Gọi $M_1$ là trung điểm $AB$, $M_2$ là trung điểm $AM_1$, ..., $M_{2026}$ là trung điểm $AM_{2025}$. Độ dài đoạn thẳng $AM_{2026}$ là:",
+          "options": [
+            "$1\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$0,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về điểm, đường thẳng và đoạn thẳng (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu ba điểm cùng thuộc một đường thẳng thì ta nói ba điểm đó thẳng hàng.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng $AB$ là hình gồm điểm $A$, điểm $B$ và tất cả các điểm nằm giữa $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tia phân biệt có chung gốc luôn là hai tia đối nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu $AM + MB = AB$ thì điểm $M$ luôn là trung điểm của đoạn thẳng $AB$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Trên đường thẳng $xy$, lấy điểm $O$. Trên tia $Ox$ lấy điểm $A$ sao cho $OA = 4\\text{ cm}$. Trên tia $Oy$ lấy điểm $B$ sao cho $OB = 4\\text{ cm}$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tia $Ox$ và $Oy$ là hai tia đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ nằm giữa hai điểm $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ là trung điểm của đoạn thẳng $AB$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Lấy điểm $C$ trên tia $Oy$ sao cho $BC = 2\\text{ cm}$. Khi đó độ dài đoạn thẳng $AC$ chỉ có thể bằng $10\\text{ cm}$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho góc xOy = 120 độ. Tính số đo góc kề bù với góc xOy.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng CD = 16 cm. M là trung điểm của CD. Tính độ dài CM (cm).",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho n điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Biết vẽ được tất cả 28 đường thẳng. Tìm n.",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng AB = 12 cm. Điểm C nằm giữa A và B sao cho AC = 4 cm. Gọi M, N lần lượt là trung điểm của AC và CB. Tính độ dài đoạn thẳng MN (cm).",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Vẽ hình và tính độ dài đoạn thẳng $AB$ biết điểm $C$ nằm giữa $A$ và $B$, $AC = 3\\text{ cm}, CB = 5\\text{ cm}$.",
+          "rubric": "Vì C nằm giữa A và B nên: AB = AC + CB = 3 + 5 = 8 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trên tia $Ox$ lấy hai điểm $A, B$ sao cho $OA = 3\\text{ cm}, OB = 6\\text{ cm}$. Chứng tỏ rằng điểm $A$ là trung điểm của đoạn thẳng $OB$.",
+          "rubric": "Vì OA < OB (3cm < 6cm) nên A nằm giữa O và B (0.25đ).\n=> AB = OB - OA = 6 - 3 = 3 (cm).\nVì A nằm giữa O, B và OA = AB (= 3cm) nên A là trung điểm OB (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho 20 điểm phân biệt, trong đó có đúng 4 điểm thẳng hàng, ngoài ra không có 3 điểm nào khác thẳng hàng. Cứ qua 2 điểm ta vẽ được 1 đường thẳng. Hỏi vẽ được tất cả bao nhiêu đường thẳng?",
+          "rubric": "Nếu 20 điểm không có 3 điểm thẳng hàng: 20 x 19 : 2 = 190 đường thẳng (0.25đ).\nVới 4 điểm thẳng hàng tạo ra 1 đường thẳng thay vì 4 x 3 : 2 = 6 đường thẳng.\nSố đường thẳng thực tế vẽ được: 190 - 6 + 1 = 185 (đường thẳng) (0.25đ)."
+        }
+      ]
+    },
+    "c8_6_bai7_test6": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VIII: Hình học cơ bản - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Qua hai điểm phân biệt $A$ và $B$ vẽ được bao nhiêu đường thẳng?",
+          "options": [
+            "Đúng một đường thẳng",
+            "Hai đường thẳng",
+            "Vô số đường thẳng",
+            "Không vẽ được"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi:",
+          "options": [
+            "$M$ nằm giữa $A, B$ và $MA = MB$",
+            "$MA = MB$",
+            "$M$ nằm giữa $A$ và $B$",
+            "$M, A, B$ thẳng hàng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Góc có số đo bằng $90^\\circ$ là:",
+          "options": [
+            "Góc vuông",
+            "Góc nhọn",
+            "Góc tù",
+            "Góc bẹt"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Góc bẹt có số đo bằng:",
+          "options": [
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB = 10\\text{ cm}$. Điểm $M$ là trung điểm của đoạn thẳng $AB$. Độ dài đoạn thẳng $AM$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$20\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Trên tia $Ox$ lấy hai điểm $A$ và $B$ sao cho $OA = 3\\text{ cm}, OB = 7\\text{ cm}$. Độ dài đoạn thẳng $AB$ là:",
+          "options": [
+            "$4\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Góc nhọn là góc có số đo:",
+          "options": [
+            "Lớn hơn $0^\\circ$ và nhỏ hơn $90^\\circ$",
+            "Bằng $90^\\circ$",
+            "Lớn hơn $90^\\circ$",
+            "Bằng $180^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho góc $\\widehat{xOy} = 70^\\circ$ và tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Số đo của $\\widehat{xOz}$ là:",
+          "options": [
+            "$35^\\circ$",
+            "$70^\\circ$",
+            "$140^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB = 8\\text{ cm}$. Lấy điểm $C$ thuộc đoạn thẳng $AB$ sao cho $AC = 2\\text{ cm}$. Gọi $I$ là trung điểm của đoạn thẳng $BC$. Độ dài đoạn thẳng $AI$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$3\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $10$ điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Cứ qua hai điểm vẽ một đường thẳng. Số đường thẳng vẽ được là:",
+          "options": [
+            "$45$ đường thẳng",
+            "$90$ đường thẳng",
+            "$20$ đường thẳng",
+            "$100$ đường thẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$, biết $\\widehat{xOy} = 50^\\circ$. Số đo của góc $\\widehat{yOz}$ là:",
+          "options": [
+            "$130^\\circ$",
+            "$40^\\circ$",
+            "$50^\\circ$",
+            "$140^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng $AB = 2^{2026}\\text{ cm}$. Gọi $M_1$ là trung điểm $AB$, $M_2$ là trung điểm $AM_1$, ..., $M_{2026}$ là trung điểm $AM_{2025}$. Độ dài đoạn thẳng $AM_{2026}$ là:",
+          "options": [
+            "$1\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$0,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về điểm, đường thẳng và đoạn thẳng (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu ba điểm cùng thuộc một đường thẳng thì ta nói ba điểm đó thẳng hàng.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng $AB$ là hình gồm điểm $A$, điểm $B$ và tất cả các điểm nằm giữa $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tia phân biệt có chung gốc luôn là hai tia đối nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu $AM + MB = AB$ thì điểm $M$ luôn là trung điểm của đoạn thẳng $AB$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Trên đường thẳng $xy$, lấy điểm $O$. Trên tia $Ox$ lấy điểm $A$ sao cho $OA = 4\\text{ cm}$. Trên tia $Oy$ lấy điểm $B$ sao cho $OB = 4\\text{ cm}$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tia $Ox$ và $Oy$ là hai tia đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ nằm giữa hai điểm $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ là trung điểm của đoạn thẳng $AB$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Lấy điểm $C$ trên tia $Oy$ sao cho $BC = 2\\text{ cm}$. Khi đó độ dài đoạn thẳng $AC$ chỉ có thể bằng $10\\text{ cm}$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho góc xOy = 120 độ. Tính số đo góc kề bù với góc xOy.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng CD = 16 cm. M là trung điểm của CD. Tính độ dài CM (cm).",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho n điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Biết vẽ được tất cả 28 đường thẳng. Tìm n.",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng AB = 12 cm. Điểm C nằm giữa A và B sao cho AC = 4 cm. Gọi M, N lần lượt là trung điểm của AC và CB. Tính độ dài đoạn thẳng MN (cm).",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Vẽ hình và tính độ dài đoạn thẳng $AB$ biết điểm $C$ nằm giữa $A$ và $B$, $AC = 3\\text{ cm}, CB = 5\\text{ cm}$.",
+          "rubric": "Vì C nằm giữa A và B nên: AB = AC + CB = 3 + 5 = 8 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trên tia $Ox$ lấy hai điểm $A, B$ sao cho $OA = 3\\text{ cm}, OB = 6\\text{ cm}$. Chứng tỏ rằng điểm $A$ là trung điểm của đoạn thẳng $OB$.",
+          "rubric": "Vì OA < OB (3cm < 6cm) nên A nằm giữa O và B (0.25đ).\n=> AB = OB - OA = 6 - 3 = 3 (cm).\nVì A nằm giữa O, B và OA = AB (= 3cm) nên A là trung điểm OB (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho 20 điểm phân biệt, trong đó có đúng 4 điểm thẳng hàng, ngoài ra không có 3 điểm nào khác thẳng hàng. Cứ qua 2 điểm ta vẽ được 1 đường thẳng. Hỏi vẽ được tất cả bao nhiêu đường thẳng?",
+          "rubric": "Nếu 20 điểm không có 3 điểm thẳng hàng: 20 x 19 : 2 = 190 đường thẳng (0.25đ).\nVới 4 điểm thẳng hàng tạo ra 1 đường thẳng thay vì 4 x 3 : 2 = 6 đường thẳng.\nSố đường thẳng thực tế vẽ được: 190 - 6 + 1 = 185 (đường thẳng) (0.25đ)."
+        }
+      ]
+    },
+    "c8_6_bai7_test7": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương VIII: Hình học cơ bản - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Qua hai điểm phân biệt $A$ và $B$ vẽ được bao nhiêu đường thẳng?",
+          "options": [
+            "Đúng một đường thẳng",
+            "Hai đường thẳng",
+            "Vô số đường thẳng",
+            "Không vẽ được"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi:",
+          "options": [
+            "$M$ nằm giữa $A, B$ và $MA = MB$",
+            "$MA = MB$",
+            "$M$ nằm giữa $A$ và $B$",
+            "$M, A, B$ thẳng hàng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Góc có số đo bằng $90^\\circ$ là:",
+          "options": [
+            "Góc vuông",
+            "Góc nhọn",
+            "Góc tù",
+            "Góc bẹt"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Góc bẹt có số đo bằng:",
+          "options": [
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$60^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng $AB = 10\\text{ cm}$. Điểm $M$ là trung điểm của đoạn thẳng $AB$. Độ dài đoạn thẳng $AM$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$20\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Trên tia $Ox$ lấy hai điểm $A$ và $B$ sao cho $OA = 3\\text{ cm}, OB = 7\\text{ cm}$. Độ dài đoạn thẳng $AB$ là:",
+          "options": [
+            "$4\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Góc nhọn là góc có số đo:",
+          "options": [
+            "Lớn hơn $0^\\circ$ và nhỏ hơn $90^\\circ$",
+            "Bằng $90^\\circ$",
+            "Lớn hơn $90^\\circ$",
+            "Bằng $180^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Cho góc $\\widehat{xOy} = 70^\\circ$ và tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Số đo của $\\widehat{xOz}$ là:",
+          "options": [
+            "$35^\\circ$",
+            "$70^\\circ$",
+            "$140^\\circ$",
+            "$45^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Cho đoạn thẳng $AB = 8\\text{ cm}$. Lấy điểm $C$ thuộc đoạn thẳng $AB$ sao cho $AC = 2\\text{ cm}$. Gọi $I$ là trung điểm của đoạn thẳng $BC$. Độ dài đoạn thẳng $AI$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$3\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho $10$ điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Cứ qua hai điểm vẽ một đường thẳng. Số đường thẳng vẽ được là:",
+          "options": [
+            "$45$ đường thẳng",
+            "$90$ đường thẳng",
+            "$20$ đường thẳng",
+            "$100$ đường thẳng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$, biết $\\widehat{xOy} = 50^\\circ$. Số đo của góc $\\widehat{yOz}$ là:",
+          "options": [
+            "$130^\\circ$",
+            "$40^\\circ$",
+            "$50^\\circ$",
+            "$140^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng $AB = 2^{2026}\\text{ cm}$. Gọi $M_1$ là trung điểm $AB$, $M_2$ là trung điểm $AM_1$, ..., $M_{2026}$ là trung điểm $AM_{2025}$. Độ dài đoạn thẳng $AM_{2026}$ là:",
+          "options": [
+            "$1\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$0,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về điểm, đường thẳng và đoạn thẳng (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu ba điểm cùng thuộc một đường thẳng thì ta nói ba điểm đó thẳng hàng.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng $AB$ là hình gồm điểm $A$, điểm $B$ và tất cả các điểm nằm giữa $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hai tia phân biệt có chung gốc luôn là hai tia đối nhau.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu $AM + MB = AB$ thì điểm $M$ luôn là trung điểm của đoạn thẳng $AB$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Trên đường thẳng $xy$, lấy điểm $O$. Trên tia $Ox$ lấy điểm $A$ sao cho $OA = 4\\text{ cm}$. Trên tia $Oy$ lấy điểm $B$ sao cho $OB = 4\\text{ cm}$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hai tia $Ox$ và $Oy$ là hai tia đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ nằm giữa hai điểm $A$ và $B$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Điểm $O$ là trung điểm của đoạn thẳng $AB$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Lấy điểm $C$ trên tia $Oy$ sao cho $BC = 2\\text{ cm}$. Khi đó độ dài đoạn thẳng $AC$ chỉ có thể bằng $10\\text{ cm}$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho góc xOy = 120 độ. Tính số đo góc kề bù với góc xOy.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Cho đoạn thẳng CD = 16 cm. M là trung điểm của CD. Tính độ dài CM (cm).",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Cho n điểm phân biệt trong đó không có 3 điểm nào thẳng hàng. Biết vẽ được tất cả 28 đường thẳng. Tìm n.",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đoạn thẳng AB = 12 cm. Điểm C nằm giữa A và B sao cho AC = 4 cm. Gọi M, N lần lượt là trung điểm của AC và CB. Tính độ dài đoạn thẳng MN (cm).",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Vẽ hình và tính độ dài đoạn thẳng $AB$ biết điểm $C$ nằm giữa $A$ và $B$, $AC = 3\\text{ cm}, CB = 5\\text{ cm}$.",
+          "rubric": "Vì C nằm giữa A và B nên: AB = AC + CB = 3 + 5 = 8 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trên tia $Ox$ lấy hai điểm $A, B$ sao cho $OA = 3\\text{ cm}, OB = 6\\text{ cm}$. Chứng tỏ rằng điểm $A$ là trung điểm của đoạn thẳng $OB$.",
+          "rubric": "Vì OA < OB (3cm < 6cm) nên A nằm giữa O và B (0.25đ).\n=> AB = OB - OA = 6 - 3 = 3 (cm).\nVì A nằm giữa O, B và OA = AB (= 3cm) nên A là trung điểm OB (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho 20 điểm phân biệt, trong đó có đúng 4 điểm thẳng hàng, ngoài ra không có 3 điểm nào khác thẳng hàng. Cứ qua 2 điểm ta vẽ được 1 đường thẳng. Hỏi vẽ được tất cả bao nhiêu đường thẳng?",
+          "rubric": "Nếu 20 điểm không có 3 điểm thẳng hàng: 20 x 19 : 2 = 190 đường thẳng (0.25đ).\nVới 4 điểm thẳng hàng tạo ra 1 đường thẳng thay vì 4 x 3 : 2 = 6 đường thẳng.\nSố đường thẳng thực tế vẽ được: 190 - 6 + 1 = 185 (đường thẳng) (0.25đ)."
         }
       ]
     }

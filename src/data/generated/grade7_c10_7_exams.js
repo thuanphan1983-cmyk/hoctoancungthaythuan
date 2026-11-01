@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG X: MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN - TOÁN 7 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-10-28 08:23:05
+// Cập nhật lúc: 2026-11-01 19:20:50
 // ==============================================================================
 
 const EXAMS_7_C10_7 = {
@@ -2645,6 +2645,1186 @@ const EXAMS_7_C10_7 = {
         "level": "Vận dụng cao",
         "question": "Một khối lập phương bằng sắt cạnh $10\\text{ cm}$ được thả vào một bể nước hình hộp chữ nhật đáy $25\\text{ cm} \\times 20\\text{ cm}$ đang có nước sâu $15\\text{ cm}$. Hỏi sau khi thả khối sắt chìm hoàn toàn thì mực nước trong bể là bao nhiêu cm?",
         "rubric": "Thể tích khối lập phương bằng sắt: V = 10³ = 1000 cm³ (0.5đ). Diện tích đáy bể nước: 25 * 20 = 500 cm². Chiều cao nước dâng thêm: 1000 / 500 = 2 cm. Mực nước mới trong bể: 15 + 2 = 17 cm (0.5đ)."
+      }
+    ]
+  },
+  "c10_7_bai3_test4": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Hình hộp chữ nhật có bao nhiêu mặt, bao nhiêu đỉnh và bao nhiêu cạnh?",
+        "options": [
+          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
+          "$6$ mặt, $12$ đỉnh, $8$ cạnh",
+          "$8$ mặt, $6$ đỉnh, $12$ cạnh",
+          "$4$ mặt, $4$ đỉnh, $6$ cạnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Các mặt bên của hình lăng trụ đứng tam giác là các hình gì?",
+        "options": [
+          "Hình chữ nhật",
+          "Tam giác",
+          "Hình bình hành",
+          "Hình vuông"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình hộp chữ nhật có ba kích thước $a, b, c$ là:",
+        "options": [
+          "$V = a \\cdot b \\cdot c$",
+          "$V = a + b + c$",
+          "$V = 2(a + b)c$",
+          "$V = a^2 \\cdot b$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình lăng trụ đứng có diện tích đáy $S$ và chiều cao $h$ là:",
+        "options": [
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{3}S \\cdot h$",
+          "$V = 2S \\cdot h$",
+          "$V = S + h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình lập phương có cạnh $5\\text{ cm}$. Thể tích của hình lập phương đó là:",
+        "options": [
+          "$125\\text{ cm}^3$",
+          "$25\\text{ cm}^3$",
+          "$150\\text{ cm}^3$",
+          "$100\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình hộp chữ nhật có chiều dài $6\\text{ m}$, chiều rộng $4\\text{ m}$ và chiều cao $3\\text{ m}$ là:",
+        "options": [
+          "$60\\text{ m}^2$",
+          "$72\\text{ m}^2$",
+          "$20\\text{ m}^2$",
+          "$48\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Hình lăng trụ đứng tứ giác có hai đáy là hình thoi cạnh $5\\text{ cm}$, chiều cao lăng trụ $8\\text{ cm}$. Diện tích xung quanh là:",
+        "options": [
+          "$160\\text{ cm}^2$",
+          "$80\\text{ cm}^2$",
+          "$200\\text{ cm}^2$",
+          "$40\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hình lập phương có diện tích toàn phần là $96\\text{ cm}^2$. Độ dài cạnh của hình lập phương là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$16\\text{ cm}$",
+          "$8\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một bể nước dạng hình hộp chữ nhật có kích thước lòng bể: dài $2\\text{ m}$, rộng $1,5\\text{ m}$, cao $1,2\\text{ m}$. Bể đang chứa $60\\%$ nước. Thể tích nước hiện có trong bể là:",
+        "options": [
+          "$2,16\\text{ m}^3$ (hay $2160$ lít)",
+          "$3,6\\text{ m}^3$",
+          "$1,8\\text{ m}^3$",
+          "$2,4\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khối bê tông dạng hình lăng trụ đứng tam giác có đáy là tam giác vuông có hai cạnh góc vuông $3\\text{ m}$ và $4\\text{ m}$, chiều cao lăng trụ $6\\text{ m}$. Thể tích khối bê tông là:",
+        "options": [
+          "$36\\text{ m}^3$",
+          "$72\\text{ m}^3$",
+          "$18\\text{ m}^3$",
+          "$24\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Người ta sơn toàn bộ 4 bức tường xung quanh bên trong một căn phòng dài $8\\text{ m}$, rộng $5\\text{ m}$ và cao $3,5\\text{ m}$. Biết tổng diện tích các cửa là $9\\text{ m}^2$. Diện tích cần sơn là:",
+        "options": [
+          "$82\\text{ m}^2$",
+          "$91\\text{ m}^2$",
+          "$140\\text{ m}^2$",
+          "$73\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa hàng dạng hình hộp chữ nhật có thể tích $72\\text{ m}^3$, đáy là hình chữ nhật có tỉ lệ chiều dài và chiều rộng là $2:1$. Chiều cao thùng bằng $3\\text{ m}$. Diện tích toàn phần của thùng là:",
+        "options": [
+          "$108\\text{ m}^2$",
+          "$96\\text{ m}^2$",
+          "$120\\text{ m}^2$",
+          "$84\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính chất của các hình khối trong không gian (Mã đề 4):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hình lăng trụ đứng có các cạnh bên song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Hai đáy của hình lăng trụ đứng luôn song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hình lập phương là trường hợp đặc biệt của hình hộp chữ nhật.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu gấp đôi mỗi kích thước của hình hộp chữ nhật thì thể tích tăng gấp 4 lần.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một chiếc lều cắm trại dạng hình lăng trụ đứng tam giác có hai đáy là tam giác vuông cân cạnh góc vuông dài 2 m, chiều dài lều 3 m:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Diện tích một mặt đáy của lều là 2 m^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích không gian bên trong lều là 6 m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cạnh huyền của mặt đáy tam giác vuông cân xấp xỉ 2,83 m.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích bạt che xung quanh lều (không tính mặt đáy tiếp đất) bằng đúng 12 m^2.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính thể tích hình hộp chữ nhật có kích thước: 4 cm x 5 cm x 6 cm.",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh của hình lập phương có cạnh bằng 3 cm.",
+        "answer": "36",
+        "acceptableAnswers": [
+          "36"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một lăng trụ đứng tam giác có diện tích đáy 15 cm^2, chiều cao 8 cm. Tính thể tích (cm^3).",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình lập phương có thể tích 64 cm^3. Tính diện tích toàn phần của hình lập phương đó (cm^2).",
+        "answer": "96",
+        "acceptableAnswers": [
+          "96"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật có chiều dài 10 m, chiều rộng 6 m và chiều cao 4 m.",
+        "rubric": "Diện tích xung quanh: 2 x (10 + 6) x 4 = 128 (m^2) (0.25đ).\nThể tích: 10 x 6 x 4 = 240 (m^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác Năm muốn xây một bể ngầm trữ nước mưa hình hộp chữ nhật có chiều dài 3 m, chiều rộng 2 m và sâu 1,5 m. a) Bể chứa được tối đa bao nhiêu mét khối nước? b) Biết chi phí trát vữa chống thấm bên trong (đáy và 4 mặt xung quanh) là 120 000 đồng/m^2. Tính tổng chi phí chống thấm.",
+        "rubric": "a) Thể tích bể: 3 x 2 x 1,5 = 9 (m^3) (0.25đ).\nb) Diện tích đáy: 3 x 2 = 6 m^2. Diện tích xung quanh: 2 x (3 + 2) x 1,5 = 15 m^2.\nTổng diện tích chống thấm: 6 + 15 = 21 m^2. Chi phí: 21 x 120 000 = 2 520 000 (đồng) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc bánh kem hình lăng trụ đứng đáy là hình thang cân có hai đáy 10 cm và 16 cm, chiều cao đáy 8 cm. Chiều cao của bánh kem là 12 cm. Người ta phủ kem toàn bộ các mặt bên xung quanh bánh. Tính diện tích bề mặt được phủ kem.",
+        "rubric": "Cạnh bên đáy hình thang cân: căn(8^2 + ((16 - 10)/2)^2) = căn(64 + 9) = căn(73) xấp xỉ 8,54 cm (0.25đ).\nChu vi đáy hình thang: 10 + 16 + 2 x căn(73) xấp xỉ 43,09 cm.\nDiện tích phủ kem (Sxq): Chu vi đáy x chiều cao = 43,09 x 12 xấp xỉ 517,1 cm^2 (0.25đ)."
+      }
+    ]
+  },
+  "c10_7_bai3_test5": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 5 (💡 Lăng trụ đứng & Thể tích thực tế)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Hình hộp chữ nhật có bao nhiêu mặt, bao nhiêu đỉnh và bao nhiêu cạnh?",
+        "options": [
+          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
+          "$6$ mặt, $12$ đỉnh, $8$ cạnh",
+          "$8$ mặt, $6$ đỉnh, $12$ cạnh",
+          "$4$ mặt, $4$ đỉnh, $6$ cạnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Các mặt bên của hình lăng trụ đứng tam giác là các hình gì?",
+        "options": [
+          "Hình chữ nhật",
+          "Tam giác",
+          "Hình bình hành",
+          "Hình vuông"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình hộp chữ nhật có ba kích thước $a, b, c$ là:",
+        "options": [
+          "$V = a \\cdot b \\cdot c$",
+          "$V = a + b + c$",
+          "$V = 2(a + b)c$",
+          "$V = a^2 \\cdot b$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình lăng trụ đứng có diện tích đáy $S$ và chiều cao $h$ là:",
+        "options": [
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{3}S \\cdot h$",
+          "$V = 2S \\cdot h$",
+          "$V = S + h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình lập phương có cạnh $5\\text{ cm}$. Thể tích của hình lập phương đó là:",
+        "options": [
+          "$125\\text{ cm}^3$",
+          "$25\\text{ cm}^3$",
+          "$150\\text{ cm}^3$",
+          "$100\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình hộp chữ nhật có chiều dài $6\\text{ m}$, chiều rộng $4\\text{ m}$ và chiều cao $3\\text{ m}$ là:",
+        "options": [
+          "$60\\text{ m}^2$",
+          "$72\\text{ m}^2$",
+          "$20\\text{ m}^2$",
+          "$48\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Hình lăng trụ đứng tứ giác có hai đáy là hình thoi cạnh $5\\text{ cm}$, chiều cao lăng trụ $8\\text{ cm}$. Diện tích xung quanh là:",
+        "options": [
+          "$160\\text{ cm}^2$",
+          "$80\\text{ cm}^2$",
+          "$200\\text{ cm}^2$",
+          "$40\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hình lập phương có diện tích toàn phần là $96\\text{ cm}^2$. Độ dài cạnh của hình lập phương là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$16\\text{ cm}$",
+          "$8\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một bể nước dạng hình hộp chữ nhật có kích thước lòng bể: dài $2\\text{ m}$, rộng $1,5\\text{ m}$, cao $1,2\\text{ m}$. Bể đang chứa $60\\%$ nước. Thể tích nước hiện có trong bể là:",
+        "options": [
+          "$2,16\\text{ m}^3$ (hay $2160$ lít)",
+          "$3,6\\text{ m}^3$",
+          "$1,8\\text{ m}^3$",
+          "$2,4\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khối bê tông dạng hình lăng trụ đứng tam giác có đáy là tam giác vuông có hai cạnh góc vuông $3\\text{ m}$ và $4\\text{ m}$, chiều cao lăng trụ $6\\text{ m}$. Thể tích khối bê tông là:",
+        "options": [
+          "$36\\text{ m}^3$",
+          "$72\\text{ m}^3$",
+          "$18\\text{ m}^3$",
+          "$24\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Người ta sơn toàn bộ 4 bức tường xung quanh bên trong một căn phòng dài $8\\text{ m}$, rộng $5\\text{ m}$ và cao $3,5\\text{ m}$. Biết tổng diện tích các cửa là $9\\text{ m}^2$. Diện tích cần sơn là:",
+        "options": [
+          "$82\\text{ m}^2$",
+          "$91\\text{ m}^2$",
+          "$140\\text{ m}^2$",
+          "$73\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa hàng dạng hình hộp chữ nhật có thể tích $72\\text{ m}^3$, đáy là hình chữ nhật có tỉ lệ chiều dài và chiều rộng là $2:1$. Chiều cao thùng bằng $3\\text{ m}$. Diện tích toàn phần của thùng là:",
+        "options": [
+          "$108\\text{ m}^2$",
+          "$96\\text{ m}^2$",
+          "$120\\text{ m}^2$",
+          "$84\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính chất của các hình khối trong không gian (Mã đề 5):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hình lăng trụ đứng có các cạnh bên song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Hai đáy của hình lăng trụ đứng luôn song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hình lập phương là trường hợp đặc biệt của hình hộp chữ nhật.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu gấp đôi mỗi kích thước của hình hộp chữ nhật thì thể tích tăng gấp 4 lần.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một chiếc lều cắm trại dạng hình lăng trụ đứng tam giác có hai đáy là tam giác vuông cân cạnh góc vuông dài 2 m, chiều dài lều 3 m:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Diện tích một mặt đáy của lều là 2 m^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích không gian bên trong lều là 6 m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cạnh huyền của mặt đáy tam giác vuông cân xấp xỉ 2,83 m.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích bạt che xung quanh lều (không tính mặt đáy tiếp đất) bằng đúng 12 m^2.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính thể tích hình hộp chữ nhật có kích thước: 4 cm x 5 cm x 6 cm.",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh của hình lập phương có cạnh bằng 3 cm.",
+        "answer": "36",
+        "acceptableAnswers": [
+          "36"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một lăng trụ đứng tam giác có diện tích đáy 15 cm^2, chiều cao 8 cm. Tính thể tích (cm^3).",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình lập phương có thể tích 64 cm^3. Tính diện tích toàn phần của hình lập phương đó (cm^2).",
+        "answer": "96",
+        "acceptableAnswers": [
+          "96"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật có chiều dài 10 m, chiều rộng 6 m và chiều cao 4 m.",
+        "rubric": "Diện tích xung quanh: 2 x (10 + 6) x 4 = 128 (m^2) (0.25đ).\nThể tích: 10 x 6 x 4 = 240 (m^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác Năm muốn xây một bể ngầm trữ nước mưa hình hộp chữ nhật có chiều dài 3 m, chiều rộng 2 m và sâu 1,5 m. a) Bể chứa được tối đa bao nhiêu mét khối nước? b) Biết chi phí trát vữa chống thấm bên trong (đáy và 4 mặt xung quanh) là 120 000 đồng/m^2. Tính tổng chi phí chống thấm.",
+        "rubric": "a) Thể tích bể: 3 x 2 x 1,5 = 9 (m^3) (0.25đ).\nb) Diện tích đáy: 3 x 2 = 6 m^2. Diện tích xung quanh: 2 x (3 + 2) x 1,5 = 15 m^2.\nTổng diện tích chống thấm: 6 + 15 = 21 m^2. Chi phí: 21 x 120 000 = 2 520 000 (đồng) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc bánh kem hình lăng trụ đứng đáy là hình thang cân có hai đáy 10 cm và 16 cm, chiều cao đáy 8 cm. Chiều cao của bánh kem là 12 cm. Người ta phủ kem toàn bộ các mặt bên xung quanh bánh. Tính diện tích bề mặt được phủ kem.",
+        "rubric": "Cạnh bên đáy hình thang cân: căn(8^2 + ((16 - 10)/2)^2) = căn(64 + 9) = căn(73) xấp xỉ 8,54 cm (0.25đ).\nChu vi đáy hình thang: 10 + 16 + 2 x căn(73) xấp xỉ 43,09 cm.\nDiện tích phủ kem (Sxq): Chu vi đáy x chiều cao = 43,09 x 12 xấp xỉ 517,1 cm^2 (0.25đ)."
+      }
+    ]
+  },
+  "c10_7_bai3_test6": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Hình hộp chữ nhật có bao nhiêu mặt, bao nhiêu đỉnh và bao nhiêu cạnh?",
+        "options": [
+          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
+          "$6$ mặt, $12$ đỉnh, $8$ cạnh",
+          "$8$ mặt, $6$ đỉnh, $12$ cạnh",
+          "$4$ mặt, $4$ đỉnh, $6$ cạnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Các mặt bên của hình lăng trụ đứng tam giác là các hình gì?",
+        "options": [
+          "Hình chữ nhật",
+          "Tam giác",
+          "Hình bình hành",
+          "Hình vuông"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình hộp chữ nhật có ba kích thước $a, b, c$ là:",
+        "options": [
+          "$V = a \\cdot b \\cdot c$",
+          "$V = a + b + c$",
+          "$V = 2(a + b)c$",
+          "$V = a^2 \\cdot b$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình lăng trụ đứng có diện tích đáy $S$ và chiều cao $h$ là:",
+        "options": [
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{3}S \\cdot h$",
+          "$V = 2S \\cdot h$",
+          "$V = S + h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình lập phương có cạnh $5\\text{ cm}$. Thể tích của hình lập phương đó là:",
+        "options": [
+          "$125\\text{ cm}^3$",
+          "$25\\text{ cm}^3$",
+          "$150\\text{ cm}^3$",
+          "$100\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình hộp chữ nhật có chiều dài $6\\text{ m}$, chiều rộng $4\\text{ m}$ và chiều cao $3\\text{ m}$ là:",
+        "options": [
+          "$60\\text{ m}^2$",
+          "$72\\text{ m}^2$",
+          "$20\\text{ m}^2$",
+          "$48\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Hình lăng trụ đứng tứ giác có hai đáy là hình thoi cạnh $5\\text{ cm}$, chiều cao lăng trụ $8\\text{ cm}$. Diện tích xung quanh là:",
+        "options": [
+          "$160\\text{ cm}^2$",
+          "$80\\text{ cm}^2$",
+          "$200\\text{ cm}^2$",
+          "$40\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hình lập phương có diện tích toàn phần là $96\\text{ cm}^2$. Độ dài cạnh của hình lập phương là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$16\\text{ cm}$",
+          "$8\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một bể nước dạng hình hộp chữ nhật có kích thước lòng bể: dài $2\\text{ m}$, rộng $1,5\\text{ m}$, cao $1,2\\text{ m}$. Bể đang chứa $60\\%$ nước. Thể tích nước hiện có trong bể là:",
+        "options": [
+          "$2,16\\text{ m}^3$ (hay $2160$ lít)",
+          "$3,6\\text{ m}^3$",
+          "$1,8\\text{ m}^3$",
+          "$2,4\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khối bê tông dạng hình lăng trụ đứng tam giác có đáy là tam giác vuông có hai cạnh góc vuông $3\\text{ m}$ và $4\\text{ m}$, chiều cao lăng trụ $6\\text{ m}$. Thể tích khối bê tông là:",
+        "options": [
+          "$36\\text{ m}^3$",
+          "$72\\text{ m}^3$",
+          "$18\\text{ m}^3$",
+          "$24\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Người ta sơn toàn bộ 4 bức tường xung quanh bên trong một căn phòng dài $8\\text{ m}$, rộng $5\\text{ m}$ và cao $3,5\\text{ m}$. Biết tổng diện tích các cửa là $9\\text{ m}^2$. Diện tích cần sơn là:",
+        "options": [
+          "$82\\text{ m}^2$",
+          "$91\\text{ m}^2$",
+          "$140\\text{ m}^2$",
+          "$73\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa hàng dạng hình hộp chữ nhật có thể tích $72\\text{ m}^3$, đáy là hình chữ nhật có tỉ lệ chiều dài và chiều rộng là $2:1$. Chiều cao thùng bằng $3\\text{ m}$. Diện tích toàn phần của thùng là:",
+        "options": [
+          "$108\\text{ m}^2$",
+          "$96\\text{ m}^2$",
+          "$120\\text{ m}^2$",
+          "$84\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính chất của các hình khối trong không gian (Mã đề 6):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hình lăng trụ đứng có các cạnh bên song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Hai đáy của hình lăng trụ đứng luôn song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hình lập phương là trường hợp đặc biệt của hình hộp chữ nhật.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu gấp đôi mỗi kích thước của hình hộp chữ nhật thì thể tích tăng gấp 4 lần.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một chiếc lều cắm trại dạng hình lăng trụ đứng tam giác có hai đáy là tam giác vuông cân cạnh góc vuông dài 2 m, chiều dài lều 3 m:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Diện tích một mặt đáy của lều là 2 m^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích không gian bên trong lều là 6 m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cạnh huyền của mặt đáy tam giác vuông cân xấp xỉ 2,83 m.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích bạt che xung quanh lều (không tính mặt đáy tiếp đất) bằng đúng 12 m^2.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính thể tích hình hộp chữ nhật có kích thước: 4 cm x 5 cm x 6 cm.",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh của hình lập phương có cạnh bằng 3 cm.",
+        "answer": "36",
+        "acceptableAnswers": [
+          "36"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một lăng trụ đứng tam giác có diện tích đáy 15 cm^2, chiều cao 8 cm. Tính thể tích (cm^3).",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình lập phương có thể tích 64 cm^3. Tính diện tích toàn phần của hình lập phương đó (cm^2).",
+        "answer": "96",
+        "acceptableAnswers": [
+          "96"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật có chiều dài 10 m, chiều rộng 6 m và chiều cao 4 m.",
+        "rubric": "Diện tích xung quanh: 2 x (10 + 6) x 4 = 128 (m^2) (0.25đ).\nThể tích: 10 x 6 x 4 = 240 (m^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác Năm muốn xây một bể ngầm trữ nước mưa hình hộp chữ nhật có chiều dài 3 m, chiều rộng 2 m và sâu 1,5 m. a) Bể chứa được tối đa bao nhiêu mét khối nước? b) Biết chi phí trát vữa chống thấm bên trong (đáy và 4 mặt xung quanh) là 120 000 đồng/m^2. Tính tổng chi phí chống thấm.",
+        "rubric": "a) Thể tích bể: 3 x 2 x 1,5 = 9 (m^3) (0.25đ).\nb) Diện tích đáy: 3 x 2 = 6 m^2. Diện tích xung quanh: 2 x (3 + 2) x 1,5 = 15 m^2.\nTổng diện tích chống thấm: 6 + 15 = 21 m^2. Chi phí: 21 x 120 000 = 2 520 000 (đồng) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc bánh kem hình lăng trụ đứng đáy là hình thang cân có hai đáy 10 cm và 16 cm, chiều cao đáy 8 cm. Chiều cao của bánh kem là 12 cm. Người ta phủ kem toàn bộ các mặt bên xung quanh bánh. Tính diện tích bề mặt được phủ kem.",
+        "rubric": "Cạnh bên đáy hình thang cân: căn(8^2 + ((16 - 10)/2)^2) = căn(64 + 9) = căn(73) xấp xỉ 8,54 cm (0.25đ).\nChu vi đáy hình thang: 10 + 16 + 2 x căn(73) xấp xỉ 43,09 cm.\nDiện tích phủ kem (Sxq): Chu vi đáy x chiều cao = 43,09 x 12 xấp xỉ 517,1 cm^2 (0.25đ)."
+      }
+    ]
+  },
+  "c10_7_bai3_test7": {
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Hình hộp chữ nhật có bao nhiêu mặt, bao nhiêu đỉnh và bao nhiêu cạnh?",
+        "options": [
+          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
+          "$6$ mặt, $12$ đỉnh, $8$ cạnh",
+          "$8$ mặt, $6$ đỉnh, $12$ cạnh",
+          "$4$ mặt, $4$ đỉnh, $6$ cạnh"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Các mặt bên của hình lăng trụ đứng tam giác là các hình gì?",
+        "options": [
+          "Hình chữ nhật",
+          "Tam giác",
+          "Hình bình hành",
+          "Hình vuông"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình hộp chữ nhật có ba kích thước $a, b, c$ là:",
+        "options": [
+          "$V = a \\cdot b \\cdot c$",
+          "$V = a + b + c$",
+          "$V = 2(a + b)c$",
+          "$V = a^2 \\cdot b$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình lăng trụ đứng có diện tích đáy $S$ và chiều cao $h$ là:",
+        "options": [
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{3}S \\cdot h$",
+          "$V = 2S \\cdot h$",
+          "$V = S + h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình lập phương có cạnh $5\\text{ cm}$. Thể tích của hình lập phương đó là:",
+        "options": [
+          "$125\\text{ cm}^3$",
+          "$25\\text{ cm}^3$",
+          "$150\\text{ cm}^3$",
+          "$100\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình hộp chữ nhật có chiều dài $6\\text{ m}$, chiều rộng $4\\text{ m}$ và chiều cao $3\\text{ m}$ là:",
+        "options": [
+          "$60\\text{ m}^2$",
+          "$72\\text{ m}^2$",
+          "$20\\text{ m}^2$",
+          "$48\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Hình lăng trụ đứng tứ giác có hai đáy là hình thoi cạnh $5\\text{ cm}$, chiều cao lăng trụ $8\\text{ cm}$. Diện tích xung quanh là:",
+        "options": [
+          "$160\\text{ cm}^2$",
+          "$80\\text{ cm}^2$",
+          "$200\\text{ cm}^2$",
+          "$40\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hình lập phương có diện tích toàn phần là $96\\text{ cm}^2$. Độ dài cạnh của hình lập phương là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$6\\text{ cm}$",
+          "$16\\text{ cm}$",
+          "$8\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một bể nước dạng hình hộp chữ nhật có kích thước lòng bể: dài $2\\text{ m}$, rộng $1,5\\text{ m}$, cao $1,2\\text{ m}$. Bể đang chứa $60\\%$ nước. Thể tích nước hiện có trong bể là:",
+        "options": [
+          "$2,16\\text{ m}^3$ (hay $2160$ lít)",
+          "$3,6\\text{ m}^3$",
+          "$1,8\\text{ m}^3$",
+          "$2,4\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một khối bê tông dạng hình lăng trụ đứng tam giác có đáy là tam giác vuông có hai cạnh góc vuông $3\\text{ m}$ và $4\\text{ m}$, chiều cao lăng trụ $6\\text{ m}$. Thể tích khối bê tông là:",
+        "options": [
+          "$36\\text{ m}^3$",
+          "$72\\text{ m}^3$",
+          "$18\\text{ m}^3$",
+          "$24\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Người ta sơn toàn bộ 4 bức tường xung quanh bên trong một căn phòng dài $8\\text{ m}$, rộng $5\\text{ m}$ và cao $3,5\\text{ m}$. Biết tổng diện tích các cửa là $9\\text{ m}^2$. Diện tích cần sơn là:",
+        "options": [
+          "$82\\text{ m}^2$",
+          "$91\\text{ m}^2$",
+          "$140\\text{ m}^2$",
+          "$73\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa hàng dạng hình hộp chữ nhật có thể tích $72\\text{ m}^3$, đáy là hình chữ nhật có tỉ lệ chiều dài và chiều rộng là $2:1$. Chiều cao thùng bằng $3\\text{ m}$. Diện tích toàn phần của thùng là:",
+        "options": [
+          "$108\\text{ m}^2$",
+          "$96\\text{ m}^2$",
+          "$120\\text{ m}^2$",
+          "$84\\text{ m}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính chất của các hình khối trong không gian (Mã đề 7):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hình lăng trụ đứng có các cạnh bên song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Hai đáy của hình lăng trụ đứng luôn song song và bằng nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hình lập phương là trường hợp đặc biệt của hình hộp chữ nhật.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu gấp đôi mỗi kích thước của hình hộp chữ nhật thì thể tích tăng gấp 4 lần.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một chiếc lều cắm trại dạng hình lăng trụ đứng tam giác có hai đáy là tam giác vuông cân cạnh góc vuông dài 2 m, chiều dài lều 3 m:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Diện tích một mặt đáy của lều là 2 m^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích không gian bên trong lều là 6 m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cạnh huyền của mặt đáy tam giác vuông cân xấp xỉ 2,83 m.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích bạt che xung quanh lều (không tính mặt đáy tiếp đất) bằng đúng 12 m^2.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính thể tích hình hộp chữ nhật có kích thước: 4 cm x 5 cm x 6 cm.",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh của hình lập phương có cạnh bằng 3 cm.",
+        "answer": "36",
+        "acceptableAnswers": [
+          "36"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một lăng trụ đứng tam giác có diện tích đáy 15 cm^2, chiều cao 8 cm. Tính thể tích (cm^3).",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình lập phương có thể tích 64 cm^3. Tính diện tích toàn phần của hình lập phương đó (cm^2).",
+        "answer": "96",
+        "acceptableAnswers": [
+          "96"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật có chiều dài 10 m, chiều rộng 6 m và chiều cao 4 m.",
+        "rubric": "Diện tích xung quanh: 2 x (10 + 6) x 4 = 128 (m^2) (0.25đ).\nThể tích: 10 x 6 x 4 = 240 (m^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác Năm muốn xây một bể ngầm trữ nước mưa hình hộp chữ nhật có chiều dài 3 m, chiều rộng 2 m và sâu 1,5 m. a) Bể chứa được tối đa bao nhiêu mét khối nước? b) Biết chi phí trát vữa chống thấm bên trong (đáy và 4 mặt xung quanh) là 120 000 đồng/m^2. Tính tổng chi phí chống thấm.",
+        "rubric": "a) Thể tích bể: 3 x 2 x 1,5 = 9 (m^3) (0.25đ).\nb) Diện tích đáy: 3 x 2 = 6 m^2. Diện tích xung quanh: 2 x (3 + 2) x 1,5 = 15 m^2.\nTổng diện tích chống thấm: 6 + 15 = 21 m^2. Chi phí: 21 x 120 000 = 2 520 000 (đồng) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc bánh kem hình lăng trụ đứng đáy là hình thang cân có hai đáy 10 cm và 16 cm, chiều cao đáy 8 cm. Chiều cao của bánh kem là 12 cm. Người ta phủ kem toàn bộ các mặt bên xung quanh bánh. Tính diện tích bề mặt được phủ kem.",
+        "rubric": "Cạnh bên đáy hình thang cân: căn(8^2 + ((16 - 10)/2)^2) = căn(64 + 9) = căn(73) xấp xỉ 8,54 cm (0.25đ).\nChu vi đáy hình thang: 10 + 16 + 2 x căn(73) xấp xỉ 43,09 cm.\nDiện tích phủ kem (Sxq): Chu vi đáy x chiều cao = 43,09 x 12 xấp xỉ 517,1 cm^2 (0.25đ)."
       }
     ]
   }

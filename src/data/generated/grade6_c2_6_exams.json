@@ -2,8 +2,8 @@
   "grade": "6",
   "chapterId": "c2_6",
   "chapterTitle": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
-  "totalExams": 18,
-  "updatedAt": "2026-10-25 14:10:00",
+  "totalExams": 22,
+  "updatedAt": "2026-11-01 19:17:04",
   "exams": {
     "c2_6_bai1_test1": {
       "title": "Toán 6 (KNTT) - Bài 8: Quan hệ chia hết và tính chất - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -4628,6 +4628,1186 @@
           "level": "Vận dụng cao",
           "question": "Cho $p$ là số nguyên tố lớn hơn 3 thỏa mãn $p + 2$ cũng là số nguyên tố. Chứng minh rằng $(p + 1)$ chia hết cho 6 và $(p + p + 2) = 2p + 2$ chia hết cho 12.",
           "rubric": "- Vì p là số nguyên tố lớn hơn 3 nên p lẻ => p + 1 chẵn => p + 1 chia hết cho 2 (0.2đ).\n- Trong ba số liên tiếp p, p + 1, p + 2 có một số chia hết cho 3. Mà p và p + 2 nguyên tố lớn hơn 3 nên p + 1 chia hết cho 3 (0.3đ).\nVì ƯCLN(2, 3) = 1 nên (p + 1) chia hết cho 6 (0.2đ).\n- Ta có 2p + 2 = 2(p + 1). Vì p + 1 chia hết cho 6 nên 2(p + 1) chia hết cho 2 * 6 = 12 (0.3đ)."
+        }
+      ]
+    },
+    "c2_6_bai6_test4": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương II: Tính chia hết - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Trong các số sau, số nào chia hết cho cả 2 và 5?",
+          "options": [
+            "$120$",
+            "$125$",
+            "$132$",
+            "$144$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số nguyên tố là số tự nhiên lớn hơn 1 và:",
+          "options": [
+            "Chỉ có hai ước là 1 và chính nó",
+            "Có nhiều hơn hai ước",
+            "Chỉ có một ước duy nhất",
+            "Chia hết cho 2"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Số nào sau đây là hợp số?",
+          "options": [
+            "$15$",
+            "$13$",
+            "$17$",
+            "$19$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Số 0 có phải là ước của số tự nhiên nào không?",
+          "options": [
+            "Không là ước của bất kì số nào",
+            "Là ước của mọi số",
+            "Chỉ là ước của 0",
+            "Là ước của các số chẵn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Khẳng định nào sau đây là ĐÚNG?",
+          "options": [
+            "Tổng $15 + 30 + 45$ chia hết cho 15",
+            "Tổng $12 + 14 + 15$ chia hết cho 2",
+            "Hiệu $45 - 12$ chia hết cho 5",
+            "Tích $13 \\cdot 17$ là số chẵn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Phân tích số 60 ra thừa số nguyên tố ta được:",
+          "options": [
+            "$2^2 \\cdot 3 \\cdot 5$",
+            "$2 \\cdot 3 \\cdot 10$",
+            "$4 \\cdot 15$",
+            "$2 \\cdot 3^2 \\cdot 5$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Ước chung lớn nhất của 24 và 36 là:",
+          "options": [
+            "$12$",
+            "$6$",
+            "$24$",
+            "$72$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Bội chung nhỏ nhất của 12 và 18 là:",
+          "options": [
+            "$36$",
+            "$72$",
+            "$18$",
+            "$6$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Một lớp học có 24 học sinh nam và 20 học sinh nữ. Cô giáo muốn chia đều số nam và số nữ vào các tổ sao cho số nam và số nữ ở mỗi tổ là như nhau. Cô giáo có thể chia được nhiều nhất bao nhiêu tổ?",
+          "options": [
+            "$4$ tổ",
+            "$6$ tổ",
+            "$8$ tổ",
+            "$2$ tổ"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $x$, biết $x \\,\\vdots\\, 12$, $x \\,\\vdots\\, 15$ và $100 < x < 150$:",
+          "options": [
+            "$x = 120$",
+            "$x = 180$",
+            "$x = 135$",
+            "$x = 140$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Tìm chữ số $a$ để số $\\overline{4a5}$ chia hết cho 9:",
+          "options": [
+            "$a = 0$ hoặc $a = 9$",
+            "$a = 1$",
+            "$a = 5$",
+            "$a = 3$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $n$ sao cho $3n + 14$ chia hết cho $n + 2$:",
+          "options": [
+            "$n = 6$ (hoặc $n=0, 2$)",
+            "$n = 5$",
+            "$n = 7$",
+            "$n = 4$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính chia hết và số nguyên tố của các số tự nhiên:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Số 2 là số nguyên tố chẵn duy nhất.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Mọi số tự nhiên có chữ số tận cùng là 5 đều chia hết cho 5.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu mỗi số hạng của tổng chia hết cho 6 thì tổng đó chia hết cho 6.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng của hai số nguyên tố bất kì luôn là một hợp số.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai số tự nhiên $a = 72$ và $b = 90$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Phân tích ra thừa số nguyên tố: $a = 2^3 \\cdot 3^2$ và $b = 2 \\cdot 3^2 \\cdot 5$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "ƯCLN$(a, b) = 2 \\cdot 3^2 = 18$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "BCNN$(a, b) = 2^3 \\cdot 3^2 \\cdot 5 = 360$.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tích ƯCLN$(a, b) \\cdot$ BCNN$(a, b)$ lớn hơn tích $a \\cdot b$.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm ƯCLN của 36 và 54.",
+          "answer": "18",
+          "acceptableAnswers": [
+            "18"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **18**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của 15 và 25.",
+          "answer": "75",
+          "acceptableAnswers": [
+            "75"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Số học sinh khối 6 của một trường khoảng từ 200 đến 250 em. Khi xếp hàng 10, hàng 12, hàng 15 đều vừa đủ. Tính số học sinh khối 6 của trường đó.",
+          "answer": "240",
+          "acceptableAnswers": [
+            "240"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **240**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $n$ để $n^2 + 3n + 7$ chia hết cho $n + 3$.",
+          "answer": "4",
+          "acceptableAnswers": [
+            "4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm tập hợp các ước chung của 28 và 42.",
+          "rubric": "28 = 2^2 . 7; 42 = 2 . 3 . 7 => ƯCLN(28, 42) = 14 (0.25đ).\nƯC(28, 42) = Ư(14) = {1; 2; 7; 14} (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một đoàn từ thiện chuẩn bị 180 quyển vở và 120 chiếc bút. Họ muốn chia đều số vở và bút vào các túi quà sao cho số vở và bút ở mỗi túi là bằng nhau. Hỏi có thể chia được nhiều nhất bao nhiêu túi quà? Khi đó mỗi túi có bao nhiêu vở và bút?",
+          "rubric": "Số túi quà nhiều nhất là ƯCLN(180, 120) = 60 túi (0.25đ).\nMỗi túi có: 180 : 60 = 3 (vở) và 120 : 60 = 2 (bút) (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Chứng minh rằng hai số tự nhiên liên tiếp $n$ và $n+1$ luôn nguyên tố cùng nhau với mọi $n \\in \\mathbb{N}^*$.",
+          "rubric": "Gọi d = ƯCLN(n, n+1) => n chia hết cho d và (n+1) chia hết cho d (0.25đ).\n=> (n + 1) - n chia hết cho d => 1 chia hết cho d => d = 1.\nVậy n và n+1 luôn nguyên tố cùng nhau (0.25đ)."
+        }
+      ]
+    },
+    "c2_6_bai6_test5": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương II: Tính chia hết - Bài kiểm tra số 5 (💡 Vận dụng thực tế & Ước - Bội)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số nào sau đây là số nguyên tố? (Mã đề 5)",
+          "options": [
+            "$23$",
+            "$25$",
+            "$27$",
+            "$21$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số có chữ số tận cùng là chữ số nào thì chia hết cho cả 2 và 5?",
+          "options": [
+            "Chữ số $0$",
+            "Chữ số $5$",
+            "Chữ số $2$",
+            "Chữ số $8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "ƯCLN của hai số nguyên tố cùng nhau là:",
+          "options": [
+            "$1$",
+            "$0$",
+            "Chính tích của chúng",
+            "Không tồn tại"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Trong các số sau, số chia hết cho 3 là:",
+          "options": [
+            "$321$",
+            "$124$",
+            "$512$",
+            "$713$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Phân tích 84 ra thừa số nguyên tố:",
+          "options": [
+            "$2^2 \\cdot 3 \\cdot 7$",
+            "$2 \\cdot 6 \\cdot 7$",
+            "$4 \\cdot 21$",
+            "$2^3 \\cdot 3 \\cdot 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "BCNN của 8 và 12 là:",
+          "options": [
+            "$24$",
+            "$48$",
+            "$12$",
+            "$96$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Số các ước tự nhiên của số 18 là:",
+          "options": [
+            "$6$ (gồm $1; 2; 3; 6; 9; 18$)",
+            "$4$",
+            "$5$",
+            "$8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Thay chữ số $x$ vào số $\\overline{1x2}$ để số đó chia hết cho 9:",
+          "options": [
+            "$x = 6$",
+            "$x = 3$",
+            "$x = 9$",
+            "$x = 0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Ba chiếc chuông báo thức cùng reo lúc 6 giờ sáng. Chuông thứ nhất reo sau mỗi 10 phút, chuông thứ hai sau mỗi 12 phút, chuông thứ ba sau mỗi 15 phút. Hỏi sau ít nhất bao nhiêu phút cả ba chuông lại cùng reo một lúc?",
+          "options": [
+            "$60$ phút",
+            "$120$ phút",
+            "$30$ phút",
+            "$90$ phút"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $a$ lớn nhất biết $84 \\,\\vdots\\, a$ và $126 \\,\\vdots\\, a$:",
+          "options": [
+            "$a = 42$",
+            "$a = 21$",
+            "$a = 14$",
+            "$a = 84$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho $A = 12 + 15 + 21 + x$ với $x \\in \\mathbb{N}$. Điều kiện của $x$ để $A$ chia hết cho 3 là:",
+          "options": [
+            "$x$ chia hết cho 3",
+            "$x$ chia 3 dư 1",
+            "$x$ chia 3 dư 2",
+            "$x$ là số nguyên tố"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $p$ để $p$ và $p + 2$ đều là số nguyên tố:",
+          "options": [
+            "$p = 3$ (hoặc $5, 11, 17$)",
+            "$p = 7$",
+            "$p = 9$",
+            "$p = 2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về quan hệ chia hết trong tập số tự nhiên (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu tổng hai số chia hết cho 4 và một trong hai số chia hết cho 4 thì số còn lại chia hết cho 4.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số chia hết cho 9 thì luôn chia hết cho 3.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số chia hết cho 3 thì luôn chia hết cho 9.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu tích $a \\cdot b$ chia hết cho 6 thì chắc chắn $a$ chia hết cho 6 hoặc $b$ chia hết cho 6.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai số $m = 48$ và $n = 60$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "ƯCLN$(m, n) = 12$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "BCNN$(m, n) = 240$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tập hợp các ước chung của $m$ và $n$ có đúng 6 phần tử.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng các ước chung của $m$ và $n$ bằng 28.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của 20 và 30.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm ƯCLN của 45 và 75.",
+          "answer": "15",
+          "acceptableAnswers": [
+            "15"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $x$ nhỏ nhất khác 0 biết $x$ chia hết cho cả 16 và 24.",
+          "answer": "48",
+          "acceptableAnswers": [
+            "48"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $n$ sao cho $2n + 9$ chia hết cho $n + 1$.",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của ba số: 12, 18, 24.",
+          "rubric": "12 = 2^2 . 3; 18 = 2 . 3^2; 24 = 2^3 . 3 => BCNN(12, 18, 24) = 2^3 . 3^2 = 72 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một khối học sinh khi xếp hàng 12, hàng 15, hàng 18 đều vừa đủ. Biết số học sinh đó trong khoảng từ 300 đến 400 em. Tính số học sinh của khối.",
+          "rubric": "Số học sinh là BC(12, 15, 18). BCNN = 180 (0.25đ).\nCác bội của 180: 0, 180, 360, 540...\nSố học sinh trong khoảng 300 đến 400 em nên là 360 học sinh (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Chứng minh rằng với mọi số tự nhiên $n$, phân số $\\frac{2n + 3}{3n + 4}$ là phân số tối giản.",
+          "rubric": "Gọi d = ƯCLN(2n + 3, 3n + 4). Ta có 3(2n + 3) - 2(3n + 4) = 1 chia hết cho d (0.25đ).\n=> d = 1. Do đó phân số luôn tối giản với mọi n (0.25đ)."
+        }
+      ]
+    },
+    "c2_6_bai6_test6": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương II: Tính chia hết - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số nào sau đây là số nguyên tố? (Mã đề 6)",
+          "options": [
+            "$23$",
+            "$25$",
+            "$27$",
+            "$21$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số có chữ số tận cùng là chữ số nào thì chia hết cho cả 2 và 5?",
+          "options": [
+            "Chữ số $0$",
+            "Chữ số $5$",
+            "Chữ số $2$",
+            "Chữ số $8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "ƯCLN của hai số nguyên tố cùng nhau là:",
+          "options": [
+            "$1$",
+            "$0$",
+            "Chính tích của chúng",
+            "Không tồn tại"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Trong các số sau, số chia hết cho 3 là:",
+          "options": [
+            "$321$",
+            "$124$",
+            "$512$",
+            "$713$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Phân tích 84 ra thừa số nguyên tố:",
+          "options": [
+            "$2^2 \\cdot 3 \\cdot 7$",
+            "$2 \\cdot 6 \\cdot 7$",
+            "$4 \\cdot 21$",
+            "$2^3 \\cdot 3 \\cdot 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "BCNN của 8 và 12 là:",
+          "options": [
+            "$24$",
+            "$48$",
+            "$12$",
+            "$96$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Số các ước tự nhiên của số 18 là:",
+          "options": [
+            "$6$ (gồm $1; 2; 3; 6; 9; 18$)",
+            "$4$",
+            "$5$",
+            "$8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Thay chữ số $x$ vào số $\\overline{1x2}$ để số đó chia hết cho 9:",
+          "options": [
+            "$x = 6$",
+            "$x = 3$",
+            "$x = 9$",
+            "$x = 0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Ba chiếc chuông báo thức cùng reo lúc 6 giờ sáng. Chuông thứ nhất reo sau mỗi 10 phút, chuông thứ hai sau mỗi 12 phút, chuông thứ ba sau mỗi 15 phút. Hỏi sau ít nhất bao nhiêu phút cả ba chuông lại cùng reo một lúc?",
+          "options": [
+            "$60$ phút",
+            "$120$ phút",
+            "$30$ phút",
+            "$90$ phút"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $a$ lớn nhất biết $84 \\,\\vdots\\, a$ và $126 \\,\\vdots\\, a$:",
+          "options": [
+            "$a = 42$",
+            "$a = 21$",
+            "$a = 14$",
+            "$a = 84$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho $A = 12 + 15 + 21 + x$ với $x \\in \\mathbb{N}$. Điều kiện của $x$ để $A$ chia hết cho 3 là:",
+          "options": [
+            "$x$ chia hết cho 3",
+            "$x$ chia 3 dư 1",
+            "$x$ chia 3 dư 2",
+            "$x$ là số nguyên tố"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $p$ để $p$ và $p + 2$ đều là số nguyên tố:",
+          "options": [
+            "$p = 3$ (hoặc $5, 11, 17$)",
+            "$p = 7$",
+            "$p = 9$",
+            "$p = 2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về quan hệ chia hết trong tập số tự nhiên (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu tổng hai số chia hết cho 4 và một trong hai số chia hết cho 4 thì số còn lại chia hết cho 4.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số chia hết cho 9 thì luôn chia hết cho 3.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số chia hết cho 3 thì luôn chia hết cho 9.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu tích $a \\cdot b$ chia hết cho 6 thì chắc chắn $a$ chia hết cho 6 hoặc $b$ chia hết cho 6.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai số $m = 48$ và $n = 60$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "ƯCLN$(m, n) = 12$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "BCNN$(m, n) = 240$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tập hợp các ước chung của $m$ và $n$ có đúng 6 phần tử.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng các ước chung của $m$ và $n$ bằng 28.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của 20 và 30.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm ƯCLN của 45 và 75.",
+          "answer": "15",
+          "acceptableAnswers": [
+            "15"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $x$ nhỏ nhất khác 0 biết $x$ chia hết cho cả 16 và 24.",
+          "answer": "48",
+          "acceptableAnswers": [
+            "48"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $n$ sao cho $2n + 9$ chia hết cho $n + 1$.",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của ba số: 12, 18, 24.",
+          "rubric": "12 = 2^2 . 3; 18 = 2 . 3^2; 24 = 2^3 . 3 => BCNN(12, 18, 24) = 2^3 . 3^2 = 72 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một khối học sinh khi xếp hàng 12, hàng 15, hàng 18 đều vừa đủ. Biết số học sinh đó trong khoảng từ 300 đến 400 em. Tính số học sinh của khối.",
+          "rubric": "Số học sinh là BC(12, 15, 18). BCNN = 180 (0.25đ).\nCác bội của 180: 0, 180, 360, 540...\nSố học sinh trong khoảng 300 đến 400 em nên là 360 học sinh (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Chứng minh rằng với mọi số tự nhiên $n$, phân số $\\frac{2n + 3}{3n + 4}$ là phân số tối giản.",
+          "rubric": "Gọi d = ƯCLN(2n + 3, 3n + 4). Ta có 3(2n + 3) - 2(3n + 4) = 1 chia hết cho d (0.25đ).\n=> d = 1. Do đó phân số luôn tối giản với mọi n (0.25đ)."
+        }
+      ]
+    },
+    "c2_6_bai6_test7": {
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương II: Tính chia hết - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Số nào sau đây là số nguyên tố? (Mã đề 7)",
+          "options": [
+            "$23$",
+            "$25$",
+            "$27$",
+            "$21$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Số có chữ số tận cùng là chữ số nào thì chia hết cho cả 2 và 5?",
+          "options": [
+            "Chữ số $0$",
+            "Chữ số $5$",
+            "Chữ số $2$",
+            "Chữ số $8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "ƯCLN của hai số nguyên tố cùng nhau là:",
+          "options": [
+            "$1$",
+            "$0$",
+            "Chính tích của chúng",
+            "Không tồn tại"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Trong các số sau, số chia hết cho 3 là:",
+          "options": [
+            "$321$",
+            "$124$",
+            "$512$",
+            "$713$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Phân tích 84 ra thừa số nguyên tố:",
+          "options": [
+            "$2^2 \\cdot 3 \\cdot 7$",
+            "$2 \\cdot 6 \\cdot 7$",
+            "$4 \\cdot 21$",
+            "$2^3 \\cdot 3 \\cdot 7$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "BCNN của 8 và 12 là:",
+          "options": [
+            "$24$",
+            "$48$",
+            "$12$",
+            "$96$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Số các ước tự nhiên của số 18 là:",
+          "options": [
+            "$6$ (gồm $1; 2; 3; 6; 9; 18$)",
+            "$4$",
+            "$5$",
+            "$8$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Thay chữ số $x$ vào số $\\overline{1x2}$ để số đó chia hết cho 9:",
+          "options": [
+            "$x = 6$",
+            "$x = 3$",
+            "$x = 9$",
+            "$x = 0$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Ba chiếc chuông báo thức cùng reo lúc 6 giờ sáng. Chuông thứ nhất reo sau mỗi 10 phút, chuông thứ hai sau mỗi 12 phút, chuông thứ ba sau mỗi 15 phút. Hỏi sau ít nhất bao nhiêu phút cả ba chuông lại cùng reo một lúc?",
+          "options": [
+            "$60$ phút",
+            "$120$ phút",
+            "$30$ phút",
+            "$90$ phút"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $a$ lớn nhất biết $84 \\,\\vdots\\, a$ và $126 \\,\\vdots\\, a$:",
+          "options": [
+            "$a = 42$",
+            "$a = 21$",
+            "$a = 14$",
+            "$a = 84$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho $A = 12 + 15 + 21 + x$ với $x \\in \\mathbb{N}$. Điều kiện của $x$ để $A$ chia hết cho 3 là:",
+          "options": [
+            "$x$ chia hết cho 3",
+            "$x$ chia 3 dư 1",
+            "$x$ chia 3 dư 2",
+            "$x$ là số nguyên tố"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $p$ để $p$ và $p + 2$ đều là số nguyên tố:",
+          "options": [
+            "$p = 3$ (hoặc $5, 11, 17$)",
+            "$p = 7$",
+            "$p = 9$",
+            "$p = 2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về quan hệ chia hết trong tập số tự nhiên (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Nếu tổng hai số chia hết cho 4 và một trong hai số chia hết cho 4 thì số còn lại chia hết cho 4.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Số chia hết cho 9 thì luôn chia hết cho 3.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số chia hết cho 3 thì luôn chia hết cho 9.",
+              "correct": false,
+              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu tích $a \\cdot b$ chia hết cho 6 thì chắc chắn $a$ chia hết cho 6 hoặc $b$ chia hết cho 6.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hai số $m = 48$ và $n = 60$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "ƯCLN$(m, n) = 12$.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "BCNN$(m, n) = 240$.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Tập hợp các ước chung của $m$ và $n$ có đúng 6 phần tử.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng các ước chung của $m$ và $n$ bằng 28.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của 20 và 30.",
+          "answer": "60",
+          "acceptableAnswers": [
+            "60"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tìm ƯCLN của 45 và 75.",
+          "answer": "15",
+          "acceptableAnswers": [
+            "15"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tìm số tự nhiên $x$ nhỏ nhất khác 0 biết $x$ chia hết cho cả 16 và 24.",
+          "answer": "48",
+          "acceptableAnswers": [
+            "48"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Tìm số tự nhiên $n$ sao cho $2n + 9$ chia hết cho $n + 1$.",
+          "answer": "6",
+          "acceptableAnswers": [
+            "6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Tìm BCNN của ba số: 12, 18, 24.",
+          "rubric": "12 = 2^2 . 3; 18 = 2 . 3^2; 24 = 2^3 . 3 => BCNN(12, 18, 24) = 2^3 . 3^2 = 72 (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Một khối học sinh khi xếp hàng 12, hàng 15, hàng 18 đều vừa đủ. Biết số học sinh đó trong khoảng từ 300 đến 400 em. Tính số học sinh của khối.",
+          "rubric": "Số học sinh là BC(12, 15, 18). BCNN = 180 (0.25đ).\nCác bội của 180: 0, 180, 360, 540...\nSố học sinh trong khoảng 300 đến 400 em nên là 360 học sinh (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Chứng minh rằng với mọi số tự nhiên $n$, phân số $\\frac{2n + 3}{3n + 4}$ là phân số tối giản.",
+          "rubric": "Gọi d = ƯCLN(2n + 3, 3n + 4). Ta có 3(2n + 3) - 2(3n + 4) = 1 chia hết cho d (0.25đ).\n=> d = 1. Do đó phân số luôn tối giản với mọi n (0.25đ)."
         }
       ]
     }

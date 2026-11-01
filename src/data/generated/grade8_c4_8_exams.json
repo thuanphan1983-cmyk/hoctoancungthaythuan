@@ -2,8 +2,8 @@
   "grade": "8",
   "chapterId": "c4_8",
   "chapterTitle": "Chương IV: Định lí Thalès",
-  "totalExams": 12,
-  "updatedAt": "2026-10-23 19:45:00",
+  "totalExams": 16,
+  "updatedAt": "2026-11-01 19:24:42",
   "exams": {
     "c4_8_bai1_test1": {
       "title": "Toán 8 (KNTT) - Bài 15: Định lí Thalès trong tam giác - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -3086,6 +3086,1186 @@
           "level": "Vận dụng cao",
           "question": "(Câu điểm 10)\nCho tam giác $ABC$ có $BC = a, CA = b, AB = c$. Gọi $I$ là tâm đường tròn nội tiếp tam giác. Đường thẳng vuông góc với $AI$ tại $I$ cắt các cạnh $AB, AC$ lần lượt tại $M, N$.\na) Chứng minh rằng $AM = AN = \frac{2bc}{b+c} \\cdot \\cos^2\frac{A}{2}$ (hoặc tính theo các đoạn tiếp tuyến).\nb) Chứng minh rằng $BM \\cdot CN = IM^2 = IN^2$.",
           "rubric": "a) Xét tam giác AMN có AI là phân giác góc A và AI vuông góc MN nên tam giác AMN cân tại A => AM = AN và AI là đường cao đồng thời là trung trực (0.25đ). Dùng công thức lượng giác hoặc diện tích tính được độ dài AM = AN (0.25đ).\nb) Ta tính góc: góc MIB = góc MBI = góc B/2 + góc A/2 = ... => tam giác BMI đồng dạng tam giác INC (g-g) vì góc MIB = góc NCI và góc BMI = góc NIC (0.25đ). Từ tỉ số đồng dạng suy ra BM/IN = MI/CN => BM * CN = MI * IN = IM^2 (do IM = IN). Ta có điều phải chứng minh (0.25đ)."
+        }
+      ]
+    },
+    "c4_8_bai4_test4": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IV: Định lí Thalès - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Định lí Thalès trong tam giác khẳng định: Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì:",
+          "options": [
+            "Nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+            "Nó đi qua trung điểm hai cạnh đó",
+            "Hai cạnh đó bằng nhau",
+            "Tạo ra tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Đường trung bình của tam giác là đoạn thẳng nối:",
+          "options": [
+            "Trung điểm hai cạnh của tam giác",
+            "Đỉnh với trung điểm cạnh đối diện",
+            "Hai điểm bất kì trên hai cạnh",
+            "Tâm đường tròn ngoại tiếp"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Độ dài đường trung bình của tam giác bằng:",
+          "options": [
+            "Một nửa độ dài cạnh đáy tương ứng",
+            "Bằng cạnh đáy",
+            "Gấp đôi cạnh đáy",
+            "Một phần ba cạnh đáy"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Đường phân giác trong của một góc trong tam giác chia cạnh đối diện thành hai đoạn thẳng:",
+          "options": [
+            "Tỉ lệ với hai cạnh kề hai đoạn thẳng đó",
+            "Bằng nhau",
+            "Bằng một nửa cạnh đối diện",
+            "Vuông góc với cạnh đối diện"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $AM = 2\\text{ cm}, MB = 4\\text{ cm}, AN = 3\\text{ cm}$. Độ dài $NC$ là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$9\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có cạnh $BC = 12\\text{ cm}$. Đoạn thẳng nối trung điểm của $AB$ và $AC$ có độ dài là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có đường phân giác $AD$ ($D \\in BC$). Biết $AB = 4\\text{ cm}, AC = 6\\text{ cm}, BD = 2\\text{ cm}$. Độ dài $DC$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Nếu $\\frac{AM}{AB} = \\frac{AN}{AC}$ thì theo định lí Thalès đảo ta suy ra:",
+          "options": [
+            "$MN \\parallel BC$",
+            "$MN \\perp BC$",
+            "$MN = BC$",
+            "$MN = \\frac{1}{2}BC$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Để đo chiều cao của một cái cây, người ta cắm một cọc thẳng đứng cao $2\\text{ m}$ cách gốc cây $15\\text{ m}$. Khi bóng của cọc trên mặt đất dài $1,5\\text{ m}$ thì bóng của cây dài bao nhiêu biết cây và cọc cùng phương nắng chiếu?",
+          "options": [
+            "Chiều cao cây tỉ lệ với chiều dài bóng",
+            "$20\\text{ m}$",
+            "$18\\text{ m}$",
+            "$15\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Biết $AB = 6\\text{ cm}, CD = 10\\text{ cm}$. Độ dài đoạn thẳng $MN$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$7\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có chu vi $18\\text{ cm}$. Nối trung điểm ba cạnh của tam giác $ABC$ ta được tam giác mới có chu vi là:",
+          "options": [
+            "$9\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$4,5\\text{ cm}$",
+            "$12\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$, đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$, tia $CI$ cắt $AB$ tại $K$. Tỉ số $\\frac{AK}{AB}$ bằng:",
+          "options": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về định lí Thalès và tính chất đường phân giác (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hệ quả của định lí Thalès áp dụng được cho cả trường hợp đường thẳng cắt phần kéo dài của hai cạnh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đường trung bình của tam giác song song với cạnh thứ ba và bằng nửa cạnh đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Đường phân giác ngoài của một góc trong tam giác cũng chia cạnh đối diện theo tỉ số hai cạnh kề.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu MN // BC thì tỉ số diện tích tam giác AMN và ABC bằng tỉ số AM/AB.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ có $AB = 6\\text{ cm}, AC = 9\\text{ cm}$, đường phân giác $AD$ ($D \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ số BD/CD = AB/AC = 2/3.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng CD lớn hơn đoạn thẳng BD.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu BC = 10 cm thì BD = 4 cm và CD = 6 cm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số diện tích của hai tam giác ABD và ACD bằng 2/3.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC, MN // BC. Biết AM = 3 cm, MB = 6 cm, AN = 4 cm. Tính AC (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Hình thang có hai đáy 8 cm và 14 cm. Tính độ dài đường trung bình của hình thang (cm).",
+          "answer": "11",
+          "acceptableAnswers": [
+            "11"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tam giác ABC có AB = 8 cm, AC = 12 cm, BC = 10 cm, AD là phân giác trong. Tính BD (cm).",
+          "answer": "4",
+          "acceptableAnswers": [
+            "4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC vuông tại A có AB = 6 cm, AC = 8 cm, đường cao AH. Kẻ HD // AC (D thuộc AB). Tính độ dài HD (cm).",
+          "answer": "3,84",
+          "acceptableAnswers": [
+            "3,84"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,84**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, một đường thẳng song song với $BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 4\\text{ cm}, DB = 2\\text{ cm}, AE = 6\\text{ cm}$. Tính độ dài $EC$.",
+          "rubric": "Theo định lí Thalès: AD/DB = AE/EC => 4/2 = 6/EC => EC = 2 x 6 / 4 = 3 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Để đo khoảng cách giữa hai điểm $A$ và $B$ bị ngăn cách bởi một hồ nước, người ta chọn một điểm $C$ trên bờ nhìn rõ cả $A$ và $B$. Lấy $M, N$ lần lượt là trung điểm của $CA$ và $CB$. Đo được $MN = 45\\text{ m}$. Tính khoảng cách $AB$.",
+          "rubric": "Trong tam giác ABC, vì M, N là trung điểm của CA và CB nên MN là đường trung bình (0.25đ).\n=> AB = 2 MN = 2 x 45 = 90 (m). Vậy khoảng cách AB là 90 m (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Qua $O$ kẻ đường thẳng song song với $AB$ cắt $AD$ tại $M$ và $BC$ tại $N$. Chứng minh rằng $OM = ON$.",
+          "rubric": "Áp dụng hệ quả định lí Thalès:\nTrong tam giác ADC có MO // CD => OM/CD = AO/AC (0.25đ).\nTrong tam giác BDC có ON // CD => ON/CD = BO/BD.\nMặt khác vì AB // CD nên AO/AC = BO/BD.\nSuy ra: OM/CD = ON/CD => OM = ON. Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c4_8_bai4_test5": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IV: Định lí Thalès - Bài kiểm tra số 5 (💡 Định lí Thalès & Ứng dụng thực tế)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Định lí Thalès trong tam giác khẳng định: Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì:",
+          "options": [
+            "Nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+            "Nó đi qua trung điểm hai cạnh đó",
+            "Hai cạnh đó bằng nhau",
+            "Tạo ra tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Đường trung bình của tam giác là đoạn thẳng nối:",
+          "options": [
+            "Trung điểm hai cạnh của tam giác",
+            "Đỉnh với trung điểm cạnh đối diện",
+            "Hai điểm bất kì trên hai cạnh",
+            "Tâm đường tròn ngoại tiếp"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Độ dài đường trung bình của tam giác bằng:",
+          "options": [
+            "Một nửa độ dài cạnh đáy tương ứng",
+            "Bằng cạnh đáy",
+            "Gấp đôi cạnh đáy",
+            "Một phần ba cạnh đáy"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Đường phân giác trong của một góc trong tam giác chia cạnh đối diện thành hai đoạn thẳng:",
+          "options": [
+            "Tỉ lệ với hai cạnh kề hai đoạn thẳng đó",
+            "Bằng nhau",
+            "Bằng một nửa cạnh đối diện",
+            "Vuông góc với cạnh đối diện"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $AM = 2\\text{ cm}, MB = 4\\text{ cm}, AN = 3\\text{ cm}$. Độ dài $NC$ là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$9\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có cạnh $BC = 12\\text{ cm}$. Đoạn thẳng nối trung điểm của $AB$ và $AC$ có độ dài là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có đường phân giác $AD$ ($D \\in BC$). Biết $AB = 4\\text{ cm}, AC = 6\\text{ cm}, BD = 2\\text{ cm}$. Độ dài $DC$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Nếu $\\frac{AM}{AB} = \\frac{AN}{AC}$ thì theo định lí Thalès đảo ta suy ra:",
+          "options": [
+            "$MN \\parallel BC$",
+            "$MN \\perp BC$",
+            "$MN = BC$",
+            "$MN = \\frac{1}{2}BC$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Để đo chiều cao của một cái cây, người ta cắm một cọc thẳng đứng cao $2\\text{ m}$ cách gốc cây $15\\text{ m}$. Khi bóng của cọc trên mặt đất dài $1,5\\text{ m}$ thì bóng của cây dài bao nhiêu biết cây và cọc cùng phương nắng chiếu?",
+          "options": [
+            "Chiều cao cây tỉ lệ với chiều dài bóng",
+            "$20\\text{ m}$",
+            "$18\\text{ m}$",
+            "$15\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Biết $AB = 6\\text{ cm}, CD = 10\\text{ cm}$. Độ dài đoạn thẳng $MN$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$7\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có chu vi $18\\text{ cm}$. Nối trung điểm ba cạnh của tam giác $ABC$ ta được tam giác mới có chu vi là:",
+          "options": [
+            "$9\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$4,5\\text{ cm}$",
+            "$12\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$, đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$, tia $CI$ cắt $AB$ tại $K$. Tỉ số $\\frac{AK}{AB}$ bằng:",
+          "options": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về định lí Thalès và tính chất đường phân giác (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hệ quả của định lí Thalès áp dụng được cho cả trường hợp đường thẳng cắt phần kéo dài của hai cạnh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đường trung bình của tam giác song song với cạnh thứ ba và bằng nửa cạnh đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Đường phân giác ngoài của một góc trong tam giác cũng chia cạnh đối diện theo tỉ số hai cạnh kề.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu MN // BC thì tỉ số diện tích tam giác AMN và ABC bằng tỉ số AM/AB.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ có $AB = 6\\text{ cm}, AC = 9\\text{ cm}$, đường phân giác $AD$ ($D \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ số BD/CD = AB/AC = 2/3.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng CD lớn hơn đoạn thẳng BD.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu BC = 10 cm thì BD = 4 cm và CD = 6 cm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số diện tích của hai tam giác ABD và ACD bằng 2/3.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC, MN // BC. Biết AM = 3 cm, MB = 6 cm, AN = 4 cm. Tính AC (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Hình thang có hai đáy 8 cm và 14 cm. Tính độ dài đường trung bình của hình thang (cm).",
+          "answer": "11",
+          "acceptableAnswers": [
+            "11"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tam giác ABC có AB = 8 cm, AC = 12 cm, BC = 10 cm, AD là phân giác trong. Tính BD (cm).",
+          "answer": "4",
+          "acceptableAnswers": [
+            "4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC vuông tại A có AB = 6 cm, AC = 8 cm, đường cao AH. Kẻ HD // AC (D thuộc AB). Tính độ dài HD (cm).",
+          "answer": "3,84",
+          "acceptableAnswers": [
+            "3,84"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,84**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, một đường thẳng song song với $BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 4\\text{ cm}, DB = 2\\text{ cm}, AE = 6\\text{ cm}$. Tính độ dài $EC$.",
+          "rubric": "Theo định lí Thalès: AD/DB = AE/EC => 4/2 = 6/EC => EC = 2 x 6 / 4 = 3 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Để đo khoảng cách giữa hai điểm $A$ và $B$ bị ngăn cách bởi một hồ nước, người ta chọn một điểm $C$ trên bờ nhìn rõ cả $A$ và $B$. Lấy $M, N$ lần lượt là trung điểm của $CA$ và $CB$. Đo được $MN = 45\\text{ m}$. Tính khoảng cách $AB$.",
+          "rubric": "Trong tam giác ABC, vì M, N là trung điểm của CA và CB nên MN là đường trung bình (0.25đ).\n=> AB = 2 MN = 2 x 45 = 90 (m). Vậy khoảng cách AB là 90 m (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Qua $O$ kẻ đường thẳng song song với $AB$ cắt $AD$ tại $M$ và $BC$ tại $N$. Chứng minh rằng $OM = ON$.",
+          "rubric": "Áp dụng hệ quả định lí Thalès:\nTrong tam giác ADC có MO // CD => OM/CD = AO/AC (0.25đ).\nTrong tam giác BDC có ON // CD => ON/CD = BO/BD.\nMặt khác vì AB // CD nên AO/AC = BO/BD.\nSuy ra: OM/CD = ON/CD => OM = ON. Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c4_8_bai4_test6": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IV: Định lí Thalès - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Định lí Thalès trong tam giác khẳng định: Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì:",
+          "options": [
+            "Nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+            "Nó đi qua trung điểm hai cạnh đó",
+            "Hai cạnh đó bằng nhau",
+            "Tạo ra tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Đường trung bình của tam giác là đoạn thẳng nối:",
+          "options": [
+            "Trung điểm hai cạnh của tam giác",
+            "Đỉnh với trung điểm cạnh đối diện",
+            "Hai điểm bất kì trên hai cạnh",
+            "Tâm đường tròn ngoại tiếp"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Độ dài đường trung bình của tam giác bằng:",
+          "options": [
+            "Một nửa độ dài cạnh đáy tương ứng",
+            "Bằng cạnh đáy",
+            "Gấp đôi cạnh đáy",
+            "Một phần ba cạnh đáy"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Đường phân giác trong của một góc trong tam giác chia cạnh đối diện thành hai đoạn thẳng:",
+          "options": [
+            "Tỉ lệ với hai cạnh kề hai đoạn thẳng đó",
+            "Bằng nhau",
+            "Bằng một nửa cạnh đối diện",
+            "Vuông góc với cạnh đối diện"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $AM = 2\\text{ cm}, MB = 4\\text{ cm}, AN = 3\\text{ cm}$. Độ dài $NC$ là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$9\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có cạnh $BC = 12\\text{ cm}$. Đoạn thẳng nối trung điểm của $AB$ và $AC$ có độ dài là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có đường phân giác $AD$ ($D \\in BC$). Biết $AB = 4\\text{ cm}, AC = 6\\text{ cm}, BD = 2\\text{ cm}$. Độ dài $DC$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Nếu $\\frac{AM}{AB} = \\frac{AN}{AC}$ thì theo định lí Thalès đảo ta suy ra:",
+          "options": [
+            "$MN \\parallel BC$",
+            "$MN \\perp BC$",
+            "$MN = BC$",
+            "$MN = \\frac{1}{2}BC$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Để đo chiều cao của một cái cây, người ta cắm một cọc thẳng đứng cao $2\\text{ m}$ cách gốc cây $15\\text{ m}$. Khi bóng của cọc trên mặt đất dài $1,5\\text{ m}$ thì bóng của cây dài bao nhiêu biết cây và cọc cùng phương nắng chiếu?",
+          "options": [
+            "Chiều cao cây tỉ lệ với chiều dài bóng",
+            "$20\\text{ m}$",
+            "$18\\text{ m}$",
+            "$15\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Biết $AB = 6\\text{ cm}, CD = 10\\text{ cm}$. Độ dài đoạn thẳng $MN$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$7\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có chu vi $18\\text{ cm}$. Nối trung điểm ba cạnh của tam giác $ABC$ ta được tam giác mới có chu vi là:",
+          "options": [
+            "$9\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$4,5\\text{ cm}$",
+            "$12\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$, đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$, tia $CI$ cắt $AB$ tại $K$. Tỉ số $\\frac{AK}{AB}$ bằng:",
+          "options": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về định lí Thalès và tính chất đường phân giác (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hệ quả của định lí Thalès áp dụng được cho cả trường hợp đường thẳng cắt phần kéo dài của hai cạnh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đường trung bình của tam giác song song với cạnh thứ ba và bằng nửa cạnh đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Đường phân giác ngoài của một góc trong tam giác cũng chia cạnh đối diện theo tỉ số hai cạnh kề.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu MN // BC thì tỉ số diện tích tam giác AMN và ABC bằng tỉ số AM/AB.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ có $AB = 6\\text{ cm}, AC = 9\\text{ cm}$, đường phân giác $AD$ ($D \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ số BD/CD = AB/AC = 2/3.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng CD lớn hơn đoạn thẳng BD.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu BC = 10 cm thì BD = 4 cm và CD = 6 cm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số diện tích của hai tam giác ABD và ACD bằng 2/3.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC, MN // BC. Biết AM = 3 cm, MB = 6 cm, AN = 4 cm. Tính AC (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Hình thang có hai đáy 8 cm và 14 cm. Tính độ dài đường trung bình của hình thang (cm).",
+          "answer": "11",
+          "acceptableAnswers": [
+            "11"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tam giác ABC có AB = 8 cm, AC = 12 cm, BC = 10 cm, AD là phân giác trong. Tính BD (cm).",
+          "answer": "4",
+          "acceptableAnswers": [
+            "4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC vuông tại A có AB = 6 cm, AC = 8 cm, đường cao AH. Kẻ HD // AC (D thuộc AB). Tính độ dài HD (cm).",
+          "answer": "3,84",
+          "acceptableAnswers": [
+            "3,84"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,84**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, một đường thẳng song song với $BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 4\\text{ cm}, DB = 2\\text{ cm}, AE = 6\\text{ cm}$. Tính độ dài $EC$.",
+          "rubric": "Theo định lí Thalès: AD/DB = AE/EC => 4/2 = 6/EC => EC = 2 x 6 / 4 = 3 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Để đo khoảng cách giữa hai điểm $A$ và $B$ bị ngăn cách bởi một hồ nước, người ta chọn một điểm $C$ trên bờ nhìn rõ cả $A$ và $B$. Lấy $M, N$ lần lượt là trung điểm của $CA$ và $CB$. Đo được $MN = 45\\text{ m}$. Tính khoảng cách $AB$.",
+          "rubric": "Trong tam giác ABC, vì M, N là trung điểm của CA và CB nên MN là đường trung bình (0.25đ).\n=> AB = 2 MN = 2 x 45 = 90 (m). Vậy khoảng cách AB là 90 m (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Qua $O$ kẻ đường thẳng song song với $AB$ cắt $AD$ tại $M$ và $BC$ tại $N$. Chứng minh rằng $OM = ON$.",
+          "rubric": "Áp dụng hệ quả định lí Thalès:\nTrong tam giác ADC có MO // CD => OM/CD = AO/AC (0.25đ).\nTrong tam giác BDC có ON // CD => ON/CD = BO/BD.\nMặt khác vì AB // CD nên AO/AC = BO/BD.\nSuy ra: OM/CD = ON/CD => OM = ON. Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c4_8_bai4_test7": {
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương IV: Định lí Thalès - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Định lí Thalès trong tam giác khẳng định: Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì:",
+          "options": [
+            "Nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ",
+            "Nó đi qua trung điểm hai cạnh đó",
+            "Hai cạnh đó bằng nhau",
+            "Tạo ra tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Đường trung bình của tam giác là đoạn thẳng nối:",
+          "options": [
+            "Trung điểm hai cạnh của tam giác",
+            "Đỉnh với trung điểm cạnh đối diện",
+            "Hai điểm bất kì trên hai cạnh",
+            "Tâm đường tròn ngoại tiếp"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Độ dài đường trung bình của tam giác bằng:",
+          "options": [
+            "Một nửa độ dài cạnh đáy tương ứng",
+            "Bằng cạnh đáy",
+            "Gấp đôi cạnh đáy",
+            "Một phần ba cạnh đáy"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Đường phân giác trong của một góc trong tam giác chia cạnh đối diện thành hai đoạn thẳng:",
+          "options": [
+            "Tỉ lệ với hai cạnh kề hai đoạn thẳng đó",
+            "Bằng nhau",
+            "Bằng một nửa cạnh đối diện",
+            "Vuông góc với cạnh đối diện"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, $MN \\parallel BC$ ($M \\in AB, N \\in AC$). Biết $AM = 2\\text{ cm}, MB = 4\\text{ cm}, AN = 3\\text{ cm}$. Độ dài $NC$ là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$9\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có cạnh $BC = 12\\text{ cm}$. Đoạn thẳng nối trung điểm của $AB$ và $AC$ có độ dài là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$8\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$ có đường phân giác $AD$ ($D \\in BC$). Biết $AB = 4\\text{ cm}, AC = 6\\text{ cm}, BD = 2\\text{ cm}$. Độ dài $DC$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$2\\text{ cm}$",
+            "$5\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Nếu $\\frac{AM}{AB} = \\frac{AN}{AC}$ thì theo định lí Thalès đảo ta suy ra:",
+          "options": [
+            "$MN \\parallel BC$",
+            "$MN \\perp BC$",
+            "$MN = BC$",
+            "$MN = \\frac{1}{2}BC$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Để đo chiều cao của một cái cây, người ta cắm một cọc thẳng đứng cao $2\\text{ m}$ cách gốc cây $15\\text{ m}$. Khi bóng của cọc trên mặt đất dài $1,5\\text{ m}$ thì bóng của cây dài bao nhiêu biết cây và cọc cùng phương nắng chiếu?",
+          "options": [
+            "Chiều cao cây tỉ lệ với chiều dài bóng",
+            "$20\\text{ m}$",
+            "$18\\text{ m}$",
+            "$15\\text{ m}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $M, N$ lần lượt là trung điểm của $AD, BC$. Biết $AB = 6\\text{ cm}, CD = 10\\text{ cm}$. Độ dài đoạn thẳng $MN$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$7\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ có chu vi $18\\text{ cm}$. Nối trung điểm ba cạnh của tam giác $ABC$ ta được tam giác mới có chu vi là:",
+          "options": [
+            "$9\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$4,5\\text{ cm}$",
+            "$12\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác $ABC$, đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AM$, tia $CI$ cắt $AB$ tại $K$. Tỉ số $\\frac{AK}{AB}$ bằng:",
+          "options": [
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{2}{3}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về định lí Thalès và tính chất đường phân giác (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Hệ quả của định lí Thalès áp dụng được cho cả trường hợp đường thẳng cắt phần kéo dài của hai cạnh.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đường trung bình của tam giác song song với cạnh thứ ba và bằng nửa cạnh đó.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Đường phân giác ngoài của một góc trong tam giác cũng chia cạnh đối diện theo tỉ số hai cạnh kề.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu MN // BC thì tỉ số diện tích tam giác AMN và ABC bằng tỉ số AM/AB.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho tam giác $ABC$ có $AB = 6\\text{ cm}, AC = 9\\text{ cm}$, đường phân giác $AD$ ($D \\in BC$):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Tỉ số BD/CD = AB/AC = 2/3.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng CD lớn hơn đoạn thẳng BD.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu BC = 10 cm thì BD = 4 cm và CD = 6 cm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tỉ số diện tích của hai tam giác ABD và ACD bằng 2/3.",
+              "correct": true,
+              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác ABC, MN // BC. Biết AM = 3 cm, MB = 6 cm, AN = 4 cm. Tính AC (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Hình thang có hai đáy 8 cm và 14 cm. Tính độ dài đường trung bình của hình thang (cm).",
+          "answer": "11",
+          "acceptableAnswers": [
+            "11"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tam giác ABC có AB = 8 cm, AC = 12 cm, BC = 10 cm, AD là phân giác trong. Tính BD (cm).",
+          "answer": "4",
+          "acceptableAnswers": [
+            "4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho tam giác ABC vuông tại A có AB = 6 cm, AC = 8 cm, đường cao AH. Kẻ HD // AC (D thuộc AB). Tính độ dài HD (cm).",
+          "answer": "3,84",
+          "acceptableAnswers": [
+            "3,84"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,84**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác $ABC$, một đường thẳng song song với $BC$ cắt $AB$ tại $D$ và $AC$ tại $E$. Biết $AD = 4\\text{ cm}, DB = 2\\text{ cm}, AE = 6\\text{ cm}$. Tính độ dài $EC$.",
+          "rubric": "Theo định lí Thalès: AD/DB = AE/EC => 4/2 = 6/EC => EC = 2 x 6 / 4 = 3 (cm) (0.5đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Để đo khoảng cách giữa hai điểm $A$ và $B$ bị ngăn cách bởi một hồ nước, người ta chọn một điểm $C$ trên bờ nhìn rõ cả $A$ và $B$. Lấy $M, N$ lần lượt là trung điểm của $CA$ và $CB$. Đo được $MN = 45\\text{ m}$. Tính khoảng cách $AB$.",
+          "rubric": "Trong tam giác ABC, vì M, N là trung điểm của CA và CB nên MN là đường trung bình (0.25đ).\n=> AB = 2 MN = 2 x 45 = 90 (m). Vậy khoảng cách AB là 90 m (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho hình thang $ABCD$ ($AB \\parallel CD$). Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Qua $O$ kẻ đường thẳng song song với $AB$ cắt $AD$ tại $M$ và $BC$ tại $N$. Chứng minh rằng $OM = ON$.",
+          "rubric": "Áp dụng hệ quả định lí Thalès:\nTrong tam giác ADC có MO // CD => OM/CD = AO/AC (0.25đ).\nTrong tam giác BDC có ON // CD => ON/CD = BO/BD.\nMặt khác vì AB // CD nên AO/AC = BO/BD.\nSuy ra: OM/CD = ON/CD => OM = ON. Đpcm (0.25đ)."
         }
       ]
     }

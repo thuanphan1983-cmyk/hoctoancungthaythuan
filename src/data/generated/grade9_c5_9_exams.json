@@ -2,8 +2,8 @@
   "grade": "9",
   "chapterId": "c5_9",
   "chapterTitle": "Chương V: Đường tròn",
-  "totalExams": 18,
-  "updatedAt": "2026-10-28 08:29:30",
+  "totalExams": 22,
+  "updatedAt": "2026-11-01 19:28:20",
   "exams": {
     "c5_9_bai1_test1": {
       "title": "Toán 9 (KNTT) - Bài 13: Mở đầu về đường tròn - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
@@ -5276,6 +5276,1186 @@
           "level": "Vận dụng cao",
           "question": "Cho nửa đường tròn đường kính $AB = 2R$. Lấy điểm $C$ trên nửa đường tròn. Kẻ $CH \\perp AB$ ($H \\in AB$). Tìm vị trí của điểm $C$ trên nửa đường tròn để diện tích tam giác $CAB$ đạt giá trị lớn nhất.",
           "rubric": "Diện tích tam giác CAB: S = 1/2 * AB * CH = 1/2 * 2R * CH = R * CH (0.5đ). Diện tích S lớn nhất khi đường cao CH lớn nhất. Trong nửa đường tròn, CH ≤ R, dấu '=' xảy ra khi H trùng với tâm O, tức C là điểm chính giữa của cung AB. Khi đó diện tích lớn nhất bằng R² (0.5đ)."
+        }
+      ]
+    },
+    "c5_9_bai6_test4": {
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương V: Đường tròn - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tâm đối xứng của đường tròn $(O; R)$ là:",
+          "options": [
+            "Tâm $O$ của đường tròn",
+            "Một điểm bất kì trên đường tròn",
+            "Điểm bên ngoài đường tròn",
+            "Không có tâm đối xứng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Dây cung lớn nhất của đường tròn là:",
+          "options": [
+            "Đường kính",
+            "Bán kính",
+            "Tiếp tuyến",
+            "Cung lớn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đường thẳng và đường tròn tiếp xúc nhau khi số điểm chung giữa chúng là:",
+          "options": [
+            "Đúng $1$ điểm chung",
+            "$2$ điểm chung",
+            "Không có điểm chung",
+            "Vô số điểm chung"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tiếp tuyến của đường tròn vuông góc với bán kính tại:",
+          "options": [
+            "Tiếp điểm",
+            "Tâm đường tròn",
+            "Điểm bất kì",
+            "Trung điểm bán kính"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 5\\text{ cm})$. Dây cung $AB = 8\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 4\\text{ cm})$ và điểm $M$ cách $O$ một khoảng $7\\text{ cm}$. Vị trí của điểm $M$ là:",
+          "options": [
+            "Nằm ngoài đường tròn",
+            "Nằm trên đường tròn",
+            "Nằm trong đường tròn",
+            "Trùng với tâm $O$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Từ điểm $M$ ở ngoài $(O)$ kẻ hai tiếp tuyến $MA$ và $MB$ ($A, B$ là tiếp điểm). Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$MA \\perp MB$",
+            "$MA = MB$",
+            "$MO$ là tia phân giác của $\\widehat{AMB}$",
+            "$OM$ là tia phân giác của $\\widehat{AOB}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ tiếp xúc ngoài khi khoảng cách nối tâm $d = OO'$ bằng:",
+          "options": [
+            "$R + r$",
+            "$R - r$",
+            "$R \\cdot r$",
+            "$\\sqrt{R^2 + r^2}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Từ điểm $M$ cách tâm $O$ một khoảng $10\\text{ cm}$, kẻ tiếp tuyến $MA$ với đường tròn $(O; 6\\text{ cm})$ ($A$ là tiếp điểm). Độ dài đoạn tiếp tuyến $MA$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính của đường tròn ngoại tiếp tam giác $ABC$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Hai tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ cắt nhau tại $M$ sao cho $\\widehat{AMB} = 60^\\circ$. Tam giác $MAB$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông cân",
+            "Tam giác cân có góc đáy $45^\\circ$",
+            "Tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn $(O; R)$ và dây $AB = R\\sqrt{3}$. Diện tích tam giác $OAB$ theo $R$ là:",
+          "options": [
+            "$\\frac{R^2\\sqrt{3}}{4}$",
+            "$\\frac{R^2}{2}$",
+            "$\\frac{R^2\\sqrt{3}}{2}$",
+            "$R^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đường tròn và tiếp tuyến (Mã đề 4):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đường kính vuông góc với một dây thì đi qua trung điểm của dây đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Trong một đường tròn, hai dây bằng nhau thì cách đều tâm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Góc tạo bởi hai tiếp tuyến cắt nhau bù với góc tạo bởi hai bán kính đi qua hai tiếp điểm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Qua ba điểm thẳng hàng luôn vẽ được duy nhất một đường tròn.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Từ điểm $A$ ở ngoài $(O; R)$, kẻ hai tiếp tuyến $AB$ và $AC$ ($B, C$ là tiếp điểm). Gọi $H$ là giao điểm của $AO$ và $BC$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng AO là đường trung trực của đoạn thẳng BC.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tứ giác ABOC có tổng hai góc đối B và C bằng 180 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hệ thức AH . AO = AB^2 luôn đúng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Độ dài BC luôn lớn hơn 2R.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn (O; 10 cm), dây cung AB cách tâm O một khoảng 6 cm. Tính độ dài dây AB (cm).",
+          "answer": "16",
+          "acceptableAnswers": [
+            "16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tam giác đều ABC cạnh 6 cm nội tiếp (O). Tính bán kính R (cm, dạng a căn(3)). Điền hệ số a.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Từ điểm M cách tâm O 13 cm kẻ tiếp tuyến MA (A là tiếp điểm). Biết bán kính R = 5 cm. Tính độ dài MA (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn (O; 5 cm) và hai tiếp tuyến song song với nhau. Tính khoảng cách giữa hai tiếp tuyến đó (cm).",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc đường tròn ($C \\neq A, B$). Chứng minh rằng tam giác $ABC$ là tam giác vuông tại $C$.",
+          "rubric": "Điểm C thuộc đường tròn đường kính AB nên OC = OA = OB = R (0.25đ).\nTrong tam giác ABC, đường trung tuyến CO ứng với cạnh AB bằng một nửa cạnh AB => tam giác ABC vuông tại C (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho đường tròn $(O)$ và điểm $A$ nằm ngoài $(O)$. Kẻ hai tiếp tuyến $AB, AC$ với $(O)$ ($B, C$ là tiếp điểm). Kẻ đường kính $CD$. Chứng minh rằng $BD \\parallel AO$.",
+          "rubric": "Ta có AB = AC và OB = OC nên AO là trung trực BC => AO vuông góc BC (0.25đ).\nMặt khác tam giác BCD có CD là đường kính nên góc CBD = 90 độ => BD vuông góc BC.\nVì cùng vuông góc với BC nên BD // AO. Đpcm (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho nửa đường tròn $(O; R)$ đường kính $AB$. Gọi $Ax, By$ là các tia tiếp tuyến cùng phía với nửa đường tròn. Lấy điểm $M$ trên nửa đường tròn, tiếp tuyến tại $M$ cắt $Ax, By$ lần lượt tại $C$ và $D$. Chứng minh rằng $AC \\cdot BD = R^2$ và $\\widehat{COD} = 90^\\circ$.",
+          "rubric": "Theo tính chất hai tiếp tuyến cắt nhau: AC = CM và BD = DM; OC là phân giác AOM, OD là phân giác BOM (0.25đ).\n=> góc COD = AOM/2 + BOM/2 = 180/2 = 90 độ.\nTam giác COD vuông tại O có đường cao OM = R => CM . MD = OM^2 => AC . BD = R^2. Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c5_9_bai6_test5": {
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương V: Đường tròn - Bài kiểm tra số 5 (💡 Tiếp tuyến & Tính chất đường tròn)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tâm đối xứng của đường tròn $(O; R)$ là:",
+          "options": [
+            "Tâm $O$ của đường tròn",
+            "Một điểm bất kì trên đường tròn",
+            "Điểm bên ngoài đường tròn",
+            "Không có tâm đối xứng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Dây cung lớn nhất của đường tròn là:",
+          "options": [
+            "Đường kính",
+            "Bán kính",
+            "Tiếp tuyến",
+            "Cung lớn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đường thẳng và đường tròn tiếp xúc nhau khi số điểm chung giữa chúng là:",
+          "options": [
+            "Đúng $1$ điểm chung",
+            "$2$ điểm chung",
+            "Không có điểm chung",
+            "Vô số điểm chung"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tiếp tuyến của đường tròn vuông góc với bán kính tại:",
+          "options": [
+            "Tiếp điểm",
+            "Tâm đường tròn",
+            "Điểm bất kì",
+            "Trung điểm bán kính"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 5\\text{ cm})$. Dây cung $AB = 8\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 4\\text{ cm})$ và điểm $M$ cách $O$ một khoảng $7\\text{ cm}$. Vị trí của điểm $M$ là:",
+          "options": [
+            "Nằm ngoài đường tròn",
+            "Nằm trên đường tròn",
+            "Nằm trong đường tròn",
+            "Trùng với tâm $O$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Từ điểm $M$ ở ngoài $(O)$ kẻ hai tiếp tuyến $MA$ và $MB$ ($A, B$ là tiếp điểm). Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$MA \\perp MB$",
+            "$MA = MB$",
+            "$MO$ là tia phân giác của $\\widehat{AMB}$",
+            "$OM$ là tia phân giác của $\\widehat{AOB}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ tiếp xúc ngoài khi khoảng cách nối tâm $d = OO'$ bằng:",
+          "options": [
+            "$R + r$",
+            "$R - r$",
+            "$R \\cdot r$",
+            "$\\sqrt{R^2 + r^2}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Từ điểm $M$ cách tâm $O$ một khoảng $10\\text{ cm}$, kẻ tiếp tuyến $MA$ với đường tròn $(O; 6\\text{ cm})$ ($A$ là tiếp điểm). Độ dài đoạn tiếp tuyến $MA$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính của đường tròn ngoại tiếp tam giác $ABC$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Hai tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ cắt nhau tại $M$ sao cho $\\widehat{AMB} = 60^\\circ$. Tam giác $MAB$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông cân",
+            "Tam giác cân có góc đáy $45^\\circ$",
+            "Tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn $(O; R)$ và dây $AB = R\\sqrt{3}$. Diện tích tam giác $OAB$ theo $R$ là:",
+          "options": [
+            "$\\frac{R^2\\sqrt{3}}{4}$",
+            "$\\frac{R^2}{2}$",
+            "$\\frac{R^2\\sqrt{3}}{2}$",
+            "$R^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đường tròn và tiếp tuyến (Mã đề 5):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đường kính vuông góc với một dây thì đi qua trung điểm của dây đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Trong một đường tròn, hai dây bằng nhau thì cách đều tâm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Góc tạo bởi hai tiếp tuyến cắt nhau bù với góc tạo bởi hai bán kính đi qua hai tiếp điểm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Qua ba điểm thẳng hàng luôn vẽ được duy nhất một đường tròn.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Từ điểm $A$ ở ngoài $(O; R)$, kẻ hai tiếp tuyến $AB$ và $AC$ ($B, C$ là tiếp điểm). Gọi $H$ là giao điểm của $AO$ và $BC$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng AO là đường trung trực của đoạn thẳng BC.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tứ giác ABOC có tổng hai góc đối B và C bằng 180 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hệ thức AH . AO = AB^2 luôn đúng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Độ dài BC luôn lớn hơn 2R.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn (O; 10 cm), dây cung AB cách tâm O một khoảng 6 cm. Tính độ dài dây AB (cm).",
+          "answer": "16",
+          "acceptableAnswers": [
+            "16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tam giác đều ABC cạnh 6 cm nội tiếp (O). Tính bán kính R (cm, dạng a căn(3)). Điền hệ số a.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Từ điểm M cách tâm O 13 cm kẻ tiếp tuyến MA (A là tiếp điểm). Biết bán kính R = 5 cm. Tính độ dài MA (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn (O; 5 cm) và hai tiếp tuyến song song với nhau. Tính khoảng cách giữa hai tiếp tuyến đó (cm).",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc đường tròn ($C \\neq A, B$). Chứng minh rằng tam giác $ABC$ là tam giác vuông tại $C$.",
+          "rubric": "Điểm C thuộc đường tròn đường kính AB nên OC = OA = OB = R (0.25đ).\nTrong tam giác ABC, đường trung tuyến CO ứng với cạnh AB bằng một nửa cạnh AB => tam giác ABC vuông tại C (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho đường tròn $(O)$ và điểm $A$ nằm ngoài $(O)$. Kẻ hai tiếp tuyến $AB, AC$ với $(O)$ ($B, C$ là tiếp điểm). Kẻ đường kính $CD$. Chứng minh rằng $BD \\parallel AO$.",
+          "rubric": "Ta có AB = AC và OB = OC nên AO là trung trực BC => AO vuông góc BC (0.25đ).\nMặt khác tam giác BCD có CD là đường kính nên góc CBD = 90 độ => BD vuông góc BC.\nVì cùng vuông góc với BC nên BD // AO. Đpcm (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho nửa đường tròn $(O; R)$ đường kính $AB$. Gọi $Ax, By$ là các tia tiếp tuyến cùng phía với nửa đường tròn. Lấy điểm $M$ trên nửa đường tròn, tiếp tuyến tại $M$ cắt $Ax, By$ lần lượt tại $C$ và $D$. Chứng minh rằng $AC \\cdot BD = R^2$ và $\\widehat{COD} = 90^\\circ$.",
+          "rubric": "Theo tính chất hai tiếp tuyến cắt nhau: AC = CM và BD = DM; OC là phân giác AOM, OD là phân giác BOM (0.25đ).\n=> góc COD = AOM/2 + BOM/2 = 180/2 = 90 độ.\nTam giác COD vuông tại O có đường cao OM = R => CM . MD = OM^2 => AC . BD = R^2. Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c5_9_bai6_test6": {
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương V: Đường tròn - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tâm đối xứng của đường tròn $(O; R)$ là:",
+          "options": [
+            "Tâm $O$ của đường tròn",
+            "Một điểm bất kì trên đường tròn",
+            "Điểm bên ngoài đường tròn",
+            "Không có tâm đối xứng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Dây cung lớn nhất của đường tròn là:",
+          "options": [
+            "Đường kính",
+            "Bán kính",
+            "Tiếp tuyến",
+            "Cung lớn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đường thẳng và đường tròn tiếp xúc nhau khi số điểm chung giữa chúng là:",
+          "options": [
+            "Đúng $1$ điểm chung",
+            "$2$ điểm chung",
+            "Không có điểm chung",
+            "Vô số điểm chung"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tiếp tuyến của đường tròn vuông góc với bán kính tại:",
+          "options": [
+            "Tiếp điểm",
+            "Tâm đường tròn",
+            "Điểm bất kì",
+            "Trung điểm bán kính"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 5\\text{ cm})$. Dây cung $AB = 8\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 4\\text{ cm})$ và điểm $M$ cách $O$ một khoảng $7\\text{ cm}$. Vị trí của điểm $M$ là:",
+          "options": [
+            "Nằm ngoài đường tròn",
+            "Nằm trên đường tròn",
+            "Nằm trong đường tròn",
+            "Trùng với tâm $O$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Từ điểm $M$ ở ngoài $(O)$ kẻ hai tiếp tuyến $MA$ và $MB$ ($A, B$ là tiếp điểm). Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$MA \\perp MB$",
+            "$MA = MB$",
+            "$MO$ là tia phân giác của $\\widehat{AMB}$",
+            "$OM$ là tia phân giác của $\\widehat{AOB}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ tiếp xúc ngoài khi khoảng cách nối tâm $d = OO'$ bằng:",
+          "options": [
+            "$R + r$",
+            "$R - r$",
+            "$R \\cdot r$",
+            "$\\sqrt{R^2 + r^2}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Từ điểm $M$ cách tâm $O$ một khoảng $10\\text{ cm}$, kẻ tiếp tuyến $MA$ với đường tròn $(O; 6\\text{ cm})$ ($A$ là tiếp điểm). Độ dài đoạn tiếp tuyến $MA$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính của đường tròn ngoại tiếp tam giác $ABC$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Hai tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ cắt nhau tại $M$ sao cho $\\widehat{AMB} = 60^\\circ$. Tam giác $MAB$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông cân",
+            "Tam giác cân có góc đáy $45^\\circ$",
+            "Tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn $(O; R)$ và dây $AB = R\\sqrt{3}$. Diện tích tam giác $OAB$ theo $R$ là:",
+          "options": [
+            "$\\frac{R^2\\sqrt{3}}{4}$",
+            "$\\frac{R^2}{2}$",
+            "$\\frac{R^2\\sqrt{3}}{2}$",
+            "$R^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đường tròn và tiếp tuyến (Mã đề 6):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đường kính vuông góc với một dây thì đi qua trung điểm của dây đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Trong một đường tròn, hai dây bằng nhau thì cách đều tâm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Góc tạo bởi hai tiếp tuyến cắt nhau bù với góc tạo bởi hai bán kính đi qua hai tiếp điểm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Qua ba điểm thẳng hàng luôn vẽ được duy nhất một đường tròn.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Từ điểm $A$ ở ngoài $(O; R)$, kẻ hai tiếp tuyến $AB$ và $AC$ ($B, C$ là tiếp điểm). Gọi $H$ là giao điểm của $AO$ và $BC$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng AO là đường trung trực của đoạn thẳng BC.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tứ giác ABOC có tổng hai góc đối B và C bằng 180 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hệ thức AH . AO = AB^2 luôn đúng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Độ dài BC luôn lớn hơn 2R.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn (O; 10 cm), dây cung AB cách tâm O một khoảng 6 cm. Tính độ dài dây AB (cm).",
+          "answer": "16",
+          "acceptableAnswers": [
+            "16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tam giác đều ABC cạnh 6 cm nội tiếp (O). Tính bán kính R (cm, dạng a căn(3)). Điền hệ số a.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Từ điểm M cách tâm O 13 cm kẻ tiếp tuyến MA (A là tiếp điểm). Biết bán kính R = 5 cm. Tính độ dài MA (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn (O; 5 cm) và hai tiếp tuyến song song với nhau. Tính khoảng cách giữa hai tiếp tuyến đó (cm).",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc đường tròn ($C \\neq A, B$). Chứng minh rằng tam giác $ABC$ là tam giác vuông tại $C$.",
+          "rubric": "Điểm C thuộc đường tròn đường kính AB nên OC = OA = OB = R (0.25đ).\nTrong tam giác ABC, đường trung tuyến CO ứng với cạnh AB bằng một nửa cạnh AB => tam giác ABC vuông tại C (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho đường tròn $(O)$ và điểm $A$ nằm ngoài $(O)$. Kẻ hai tiếp tuyến $AB, AC$ với $(O)$ ($B, C$ là tiếp điểm). Kẻ đường kính $CD$. Chứng minh rằng $BD \\parallel AO$.",
+          "rubric": "Ta có AB = AC và OB = OC nên AO là trung trực BC => AO vuông góc BC (0.25đ).\nMặt khác tam giác BCD có CD là đường kính nên góc CBD = 90 độ => BD vuông góc BC.\nVì cùng vuông góc với BC nên BD // AO. Đpcm (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho nửa đường tròn $(O; R)$ đường kính $AB$. Gọi $Ax, By$ là các tia tiếp tuyến cùng phía với nửa đường tròn. Lấy điểm $M$ trên nửa đường tròn, tiếp tuyến tại $M$ cắt $Ax, By$ lần lượt tại $C$ và $D$. Chứng minh rằng $AC \\cdot BD = R^2$ và $\\widehat{COD} = 90^\\circ$.",
+          "rubric": "Theo tính chất hai tiếp tuyến cắt nhau: AC = CM và BD = DM; OC là phân giác AOM, OD là phân giác BOM (0.25đ).\n=> góc COD = AOM/2 + BOM/2 = 180/2 = 90 độ.\nTam giác COD vuông tại O có đường cao OM = R => CM . MD = OM^2 => AC . BD = R^2. Đpcm (0.25đ)."
+        }
+      ]
+    },
+    "c5_9_bai6_test7": {
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương V: Đường tròn - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "duration": "90 phút",
+      "totalScore": 10.0,
+      "part1": [
+        {
+          "id": 1,
+          "level": "Nhận biết",
+          "question": "Tâm đối xứng của đường tròn $(O; R)$ là:",
+          "options": [
+            "Tâm $O$ của đường tròn",
+            "Một điểm bất kì trên đường tròn",
+            "Điểm bên ngoài đường tròn",
+            "Không có tâm đối xứng"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Dây cung lớn nhất của đường tròn là:",
+          "options": [
+            "Đường kính",
+            "Bán kính",
+            "Tiếp tuyến",
+            "Cung lớn"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Đường thẳng và đường tròn tiếp xúc nhau khi số điểm chung giữa chúng là:",
+          "options": [
+            "Đúng $1$ điểm chung",
+            "$2$ điểm chung",
+            "Không có điểm chung",
+            "Vô số điểm chung"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Tiếp tuyến của đường tròn vuông góc với bán kính tại:",
+          "options": [
+            "Tiếp điểm",
+            "Tâm đường tròn",
+            "Điểm bất kì",
+            "Trung điểm bán kính"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 5\\text{ cm})$. Dây cung $AB = 8\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "options": [
+            "$3\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$5\\text{ cm}$",
+            "$2\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; 4\\text{ cm})$ và điểm $M$ cách $O$ một khoảng $7\\text{ cm}$. Vị trí của điểm $M$ là:",
+          "options": [
+            "Nằm ngoài đường tròn",
+            "Nằm trên đường tròn",
+            "Nằm trong đường tròn",
+            "Trùng với tâm $O$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Từ điểm $M$ ở ngoài $(O)$ kẻ hai tiếp tuyến $MA$ và $MB$ ($A, B$ là tiếp điểm). Khẳng định nào sau đây là SAI?",
+          "options": [
+            "$MA \\perp MB$",
+            "$MA = MB$",
+            "$MO$ là tia phân giác của $\\widehat{AMB}$",
+            "$OM$ là tia phân giác của $\\widehat{AOB}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Hai đường tròn $(O; R)$ và $(O'; r)$ tiếp xúc ngoài khi khoảng cách nối tâm $d = OO'$ bằng:",
+          "options": [
+            "$R + r$",
+            "$R - r$",
+            "$R \\cdot r$",
+            "$\\sqrt{R^2 + r^2}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Từ điểm $M$ cách tâm $O$ một khoảng $10\\text{ cm}$, kẻ tiếp tuyến $MA$ với đường tròn $(O; 6\\text{ cm})$ ($A$ là tiếp điểm). Độ dài đoạn tiếp tuyến $MA$ là:",
+          "options": [
+            "$8\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính của đường tròn ngoại tiếp tam giác $ABC$ là:",
+          "options": [
+            "$5\\text{ cm}$",
+            "$10\\text{ cm}$",
+            "$2,5\\text{ cm}$",
+            "$4\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 11,
+          "level": "Vận dụng",
+          "question": "Hai tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ cắt nhau tại $M$ sao cho $\\widehat{AMB} = 60^\\circ$. Tam giác $MAB$ là:",
+          "options": [
+            "Tam giác đều",
+            "Tam giác vuông cân",
+            "Tam giác cân có góc đáy $45^\\circ$",
+            "Tam giác vuông"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 12,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn $(O; R)$ và dây $AB = R\\sqrt{3}$. Diện tích tam giác $OAB$ theo $R$ là:",
+          "options": [
+            "$\\frac{R^2\\sqrt{3}}{4}$",
+            "$\\frac{R^2}{2}$",
+            "$\\frac{R^2\\sqrt{3}}{2}$",
+            "$R^2$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        }
+      ],
+      "part2": [
+        {
+          "id": 1,
+          "stem": "Xét tính đúng sai về đường tròn và tiếp tuyến (Mã đề 7):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đường kính vuông góc với một dây thì đi qua trung điểm của dây đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Trong một đường tròn, hai dây bằng nhau thì cách đều tâm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Góc tạo bởi hai tiếp tuyến cắt nhau bù với góc tạo bởi hai bán kính đi qua hai tiếp điểm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Qua ba điểm thẳng hàng luôn vẽ được duy nhất một đường tròn.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Từ điểm $A$ ở ngoài $(O; R)$, kẻ hai tiếp tuyến $AB$ và $AC$ ($B, C$ là tiếp điểm). Gọi $H$ là giao điểm của $AO$ và $BC$:",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Thông hiểu",
+              "text": "Đoạn thẳng AO là đường trung trực của đoạn thẳng BC.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tứ giác ABOC có tổng hai góc đối B và C bằng 180 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Hệ thức AH . AO = AB^2 luôn đúng.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Độ dài BC luôn lớn hơn 2R.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        }
+      ],
+      "part3": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn (O; 10 cm), dây cung AB cách tâm O một khoảng 6 cm. Tính độ dài dây AB (cm).",
+          "answer": "16",
+          "acceptableAnswers": [
+            "16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Tam giác đều ABC cạnh 6 cm nội tiếp (O). Tính bán kính R (cm, dạng a căn(3)). Điền hệ số a.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Từ điểm M cách tâm O 13 cm kẻ tiếp tuyến MA (A là tiếp điểm). Biết bán kính R = 5 cm. Tính độ dài MA (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng cao",
+          "question": "Cho đường tròn (O; 5 cm) và hai tiếp tuyến song song với nhau. Tính khoảng cách giữa hai tiếp tuyến đó (cm).",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        }
+      ],
+      "part4": [
+        {
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Cho đường tròn $(O; R)$ đường kính $AB$. Lấy điểm $C$ thuộc đường tròn ($C \\neq A, B$). Chứng minh rằng tam giác $ABC$ là tam giác vuông tại $C$.",
+          "rubric": "Điểm C thuộc đường tròn đường kính AB nên OC = OA = OB = R (0.25đ).\nTrong tam giác ABC, đường trung tuyến CO ứng với cạnh AB bằng một nửa cạnh AB => tam giác ABC vuông tại C (0.25đ)."
+        },
+        {
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Cho đường tròn $(O)$ và điểm $A$ nằm ngoài $(O)$. Kẻ hai tiếp tuyến $AB, AC$ với $(O)$ ($B, C$ là tiếp điểm). Kẻ đường kính $CD$. Chứng minh rằng $BD \\parallel AO$.",
+          "rubric": "Ta có AB = AC và OB = OC nên AO là trung trực BC => AO vuông góc BC (0.25đ).\nMặt khác tam giác BCD có CD là đường kính nên góc CBD = 90 độ => BD vuông góc BC.\nVì cùng vuông góc với BC nên BD // AO. Đpcm (0.25đ)."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Cho nửa đường tròn $(O; R)$ đường kính $AB$. Gọi $Ax, By$ là các tia tiếp tuyến cùng phía với nửa đường tròn. Lấy điểm $M$ trên nửa đường tròn, tiếp tuyến tại $M$ cắt $Ax, By$ lần lượt tại $C$ và $D$. Chứng minh rằng $AC \\cdot BD = R^2$ và $\\widehat{COD} = 90^\\circ$.",
+          "rubric": "Theo tính chất hai tiếp tuyến cắt nhau: AC = CM và BD = DM; OC là phân giác AOM, OD là phân giác BOM (0.25đ).\n=> góc COD = AOM/2 + BOM/2 = 180/2 = 90 độ.\nTam giác COD vuông tại O có đường cao OM = R => CM . MD = OM^2 => AC . BD = R^2. Đpcm (0.25đ)."
         }
       ]
     }

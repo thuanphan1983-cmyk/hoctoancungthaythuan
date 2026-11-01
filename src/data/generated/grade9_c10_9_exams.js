@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG X: MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN - TOÁN 9 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-10-28 08:29:30
+// Cập nhật lúc: 2026-11-01 19:28:20
 // ==============================================================================
 
 const EXAMS_9_C10_9 = {
@@ -2666,6 +2666,1186 @@ const EXAMS_9_C10_9 = {
         "level": "Vận dụng cao",
         "question": "Một bể chứa nước có dạng gồm một phần hình trụ ở dưới (chiều cao $2\\text{ m}$, bán kính đáy $1\\text{ m}$) và một phần bán cầu ở trên (cùng bán kính $1\\text{ m}$). Tính thể tích nước tối đa mà bể có thể chứa được (lấy $\\pi \\approx 3,14$, làm tròn 2 chữ số thập phân).",
         "rubric": "Thể tích phần hình trụ: V1 = π * R² * h = π * 1² * 2 = 2π m³ (0.25đ). Thể tích phần bán cầu: V2 = 1/2 * (4/3 π R³) = 2/3 π * 1³ = 2/3 π m³ (0.25đ). Tổng thể tích bể: V = V1 + V2 = (2 + 2/3)π = 8/3 π ≈ 8.38 m³ (khoảng 8380 lít nước) (0.5đ)."
+      }
+    ]
+  },
+  "c10_9_bai3_test4": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích xung quanh của hình trụ có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$S_{xq} = 2\\pi R h$",
+          "$S_{xq} = \\pi R h$",
+          "$S_{xq} = \\pi R^2 h$",
+          "$S_{xq} = 2\\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình nón có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$V = \\frac{1}{3}\\pi R^2 h$",
+          "$V = \\pi R^2 h$",
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 2\\pi R h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích mặt cầu bán kính $R$ là:",
+        "options": [
+          "$S = 4\\pi R^2$",
+          "$S = \\frac{4}{3}\\pi R^3$",
+          "$S = 2\\pi R^2$",
+          "$S = \\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích hình cầu bán kính $R$ là:",
+        "options": [
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 4\\pi R^2$",
+          "$V = \\pi R^3$",
+          "$V = \\frac{1}{3}\\pi R^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình trụ có bán kính đáy $3\\text{ cm}$ và chiều cao $5\\text{ cm}$. Thể tích hình trụ là:",
+        "options": [
+          "$45\\pi\\text{ cm}^3$",
+          "$15\\pi\\text{ cm}^3$",
+          "$30\\pi\\text{ cm}^3$",
+          "$90\\pi\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Hình nón có bán kính đáy $R = 3\\text{ cm}$, đường sinh $l = 5\\text{ cm}$. Chiều cao của hình nón là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$2\\text{ cm}$",
+          "$\\sqrt{34}\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình nón có bán kính đáy $R = 4\\text{ cm}$ và đường sinh $l = 6\\text{ cm}$ là:",
+        "options": [
+          "$24\\pi\\text{ cm}^2$",
+          "$48\\pi\\text{ cm}^2$",
+          "$16\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Mặt cầu có đường kính $6\\text{ cm}$ thì diện tích của nó bằng:",
+        "options": [
+          "$36\\pi\\text{ cm}^2$",
+          "$144\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$",
+          "$18\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một thùng nước hình trụ có chiều cao $1\\text{ m}$, bán kính đáy $0,5\\text{ m}$. Lấy $\\pi \\approx 3,14$. Thể tích nước tối đa thùng chứa được là:",
+        "options": [
+          "$0,785\\text{ m}^3$ (hay $785$ lít)",
+          "$1,57\\text{ m}^3$",
+          "$3,14\\text{ m}^3$",
+          "$0,5\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Người ta làm một chiếc nón lá dạng hình nón có đường kính đáy $40\\text{ cm}$ và độ dài đường sinh $30\\text{ cm}$. Diện tích lá cần dùng để phủ kín mặt xung quanh chiếc nón là:",
+        "options": [
+          "$600\\pi\\text{ cm}^2$",
+          "$1200\\pi\\text{ cm}^2$",
+          "$300\\pi\\text{ cm}^2$",
+          "$900\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một quả bóng bàn dạng hình cầu có bán kính $2\\text{ cm}$. Thể tích không khí bên trong quả bóng bàn xấp xỉ là:",
+        "options": [
+          "$\\frac{32\\pi}{3}\\text{ cm}^3$",
+          "$16\\pi\\text{ cm}^3$",
+          "$8\\pi\\text{ cm}^3$",
+          "$\\frac{16\\pi}{3}\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc ly dạng hình nón có bán kính miệng ly $4\\text{ cm}$, chiều cao $12\\text{ cm}$. Ly đang chứa nước đến độ cao $6\\text{ cm}$. Tỉ số thể tích nước trong ly so với dung tích cả chiếc ly là:",
+        "options": [
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các hình khối tròn xoay (Mã đề 4):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khi quay một hình chữ nhật một vòng quanh một cạnh cố định ta được một hình trụ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khi quay một tam giác vuông một vòng quanh một cạnh góc vuông cố định ta được một hình nón.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường sinh l của hình nón liên hệ với bán kính đáy R và chiều cao h theo công thức: l^2 = R^2 + h^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một hình trụ và một hình nón có cùng bán kính đáy và cùng chiều cao thì thể tích của chúng bằng nhau.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một bồn chứa xăng gồm phần thân là hình trụ dài $6\\text{ m}$ và hai đầu là hai nửa hình cầu có cùng bán kính $R = 1\\text{ m}$:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hai đầu bồn ghép lại tạo thành một hình cầu hoàn chỉnh bán kính 1 m.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích phần thân hình trụ bằng 6pi m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Thể tích hai đầu bán cầu bằng 4/3 pi m^3.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng thể tích của cả bồn chứa xăng nhỏ hơn 20 m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Hình trụ có R = 4 cm, h = 5 cm. Tính diện tích xung quanh chia cho pi (cm^2).",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Hình nón có R = 6 cm, h = 8 cm. Tính độ dài đường sinh l (cm).",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một quả cầu có diện tích bề mặt bằng 100 pi cm^2. Tính bán kính R (cm).",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình trụ có diện tích toàn phần gấp 3 lần diện tích xung quanh. Biết bán kính đáy R = 6 cm. Tính chiều cao h (cm).",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích toàn phần và thể tích của hình trụ có bán kính đáy $R = 5\\text{ cm}$ và chiều cao $h = 10\\text{ cm}$ (để kết quả theo $\\pi$).",
+        "rubric": "S_tp = 2pi R h + 2pi R^2 = 2pi . 5 . 10 + 2pi . 5^2 = 100pi + 50pi = 150pi (cm^2) (0.25đ).\nV = pi R^2 h = pi . 5^2 . 10 = 250pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Người ta đúc một chi tiết máy bằng kim loại gồm một hình nón có bán kính đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$ gắn liền với một hình bán cầu có cùng bán kính đáy. Tính thể tích khối kim loại đó (để kết quả theo $\\pi$).",
+        "rubric": "Thể tích phần hình nón: V1 = (1/3) pi R^2 h = (1/3) pi . 6^2 . 8 = 96pi (cm^3) (0.25đ).\nThể tích phần nửa hình cầu: V2 = (1/2) . (4/3) pi R^3 = (2/3) pi . 6^3 = 144pi (cm^3).\nTổng thể tích khối kim loại: V = 96pi + 144pi = 240pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa dạng hình trụ không có nắp được làm từ một tấm tôn có diện tích cố định $S = 27\\pi\\text{ dm}^2$ (coi diện tích mép hàn không đáng kể). Tìm bán kính đáy $R$ và chiều cao $h$ để thùng chứa có thể tích lớn nhất.",
+        "rubric": "Diện tích tôn dùng làm thùng hình trụ không nắp: S = pi R^2 + 2pi R h = 27pi => R^2 + 2Rh = 27 => h = (27 - R^2)/(2R) (0.25đ).\nThể tích thùng: V = pi R^2 h = pi R^2 . (27 - R^2)/(2R) = (pi/2) . R(27 - R^2).\nÁp dụng BĐT AM-GM cho 2R^2 và 27 - R^2:\nTa có 2R^2(27 - R^2)^2 <= [ (2R^2 + 27 - R^2 + 27 - R^2)/3 ]^3 = (54/3)^3 = 18^3 = 5832.\nDấu '=' xảy ra khi 2R^2 = 27 - R^2 => 3R^2 = 27 => R^2 = 9 => R = 3 dm.\nKhi đó h = (27 - 9)/(2 . 3) = 18/6 = 3 dm. Vậy R = 3 dm và h = 3 dm (0.25đ)."
+      }
+    ]
+  },
+  "c10_9_bai3_test5": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 5 (💡 Hình trụ, nón, cầu trong thực tế)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích xung quanh của hình trụ có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$S_{xq} = 2\\pi R h$",
+          "$S_{xq} = \\pi R h$",
+          "$S_{xq} = \\pi R^2 h$",
+          "$S_{xq} = 2\\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình nón có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$V = \\frac{1}{3}\\pi R^2 h$",
+          "$V = \\pi R^2 h$",
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 2\\pi R h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích mặt cầu bán kính $R$ là:",
+        "options": [
+          "$S = 4\\pi R^2$",
+          "$S = \\frac{4}{3}\\pi R^3$",
+          "$S = 2\\pi R^2$",
+          "$S = \\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích hình cầu bán kính $R$ là:",
+        "options": [
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 4\\pi R^2$",
+          "$V = \\pi R^3$",
+          "$V = \\frac{1}{3}\\pi R^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình trụ có bán kính đáy $3\\text{ cm}$ và chiều cao $5\\text{ cm}$. Thể tích hình trụ là:",
+        "options": [
+          "$45\\pi\\text{ cm}^3$",
+          "$15\\pi\\text{ cm}^3$",
+          "$30\\pi\\text{ cm}^3$",
+          "$90\\pi\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Hình nón có bán kính đáy $R = 3\\text{ cm}$, đường sinh $l = 5\\text{ cm}$. Chiều cao của hình nón là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$2\\text{ cm}$",
+          "$\\sqrt{34}\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình nón có bán kính đáy $R = 4\\text{ cm}$ và đường sinh $l = 6\\text{ cm}$ là:",
+        "options": [
+          "$24\\pi\\text{ cm}^2$",
+          "$48\\pi\\text{ cm}^2$",
+          "$16\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Mặt cầu có đường kính $6\\text{ cm}$ thì diện tích của nó bằng:",
+        "options": [
+          "$36\\pi\\text{ cm}^2$",
+          "$144\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$",
+          "$18\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một thùng nước hình trụ có chiều cao $1\\text{ m}$, bán kính đáy $0,5\\text{ m}$. Lấy $\\pi \\approx 3,14$. Thể tích nước tối đa thùng chứa được là:",
+        "options": [
+          "$0,785\\text{ m}^3$ (hay $785$ lít)",
+          "$1,57\\text{ m}^3$",
+          "$3,14\\text{ m}^3$",
+          "$0,5\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Người ta làm một chiếc nón lá dạng hình nón có đường kính đáy $40\\text{ cm}$ và độ dài đường sinh $30\\text{ cm}$. Diện tích lá cần dùng để phủ kín mặt xung quanh chiếc nón là:",
+        "options": [
+          "$600\\pi\\text{ cm}^2$",
+          "$1200\\pi\\text{ cm}^2$",
+          "$300\\pi\\text{ cm}^2$",
+          "$900\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một quả bóng bàn dạng hình cầu có bán kính $2\\text{ cm}$. Thể tích không khí bên trong quả bóng bàn xấp xỉ là:",
+        "options": [
+          "$\\frac{32\\pi}{3}\\text{ cm}^3$",
+          "$16\\pi\\text{ cm}^3$",
+          "$8\\pi\\text{ cm}^3$",
+          "$\\frac{16\\pi}{3}\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc ly dạng hình nón có bán kính miệng ly $4\\text{ cm}$, chiều cao $12\\text{ cm}$. Ly đang chứa nước đến độ cao $6\\text{ cm}$. Tỉ số thể tích nước trong ly so với dung tích cả chiếc ly là:",
+        "options": [
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các hình khối tròn xoay (Mã đề 5):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khi quay một hình chữ nhật một vòng quanh một cạnh cố định ta được một hình trụ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khi quay một tam giác vuông một vòng quanh một cạnh góc vuông cố định ta được một hình nón.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường sinh l của hình nón liên hệ với bán kính đáy R và chiều cao h theo công thức: l^2 = R^2 + h^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một hình trụ và một hình nón có cùng bán kính đáy và cùng chiều cao thì thể tích của chúng bằng nhau.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một bồn chứa xăng gồm phần thân là hình trụ dài $6\\text{ m}$ và hai đầu là hai nửa hình cầu có cùng bán kính $R = 1\\text{ m}$:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hai đầu bồn ghép lại tạo thành một hình cầu hoàn chỉnh bán kính 1 m.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích phần thân hình trụ bằng 6pi m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Thể tích hai đầu bán cầu bằng 4/3 pi m^3.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng thể tích của cả bồn chứa xăng nhỏ hơn 20 m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Hình trụ có R = 4 cm, h = 5 cm. Tính diện tích xung quanh chia cho pi (cm^2).",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Hình nón có R = 6 cm, h = 8 cm. Tính độ dài đường sinh l (cm).",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một quả cầu có diện tích bề mặt bằng 100 pi cm^2. Tính bán kính R (cm).",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình trụ có diện tích toàn phần gấp 3 lần diện tích xung quanh. Biết bán kính đáy R = 6 cm. Tính chiều cao h (cm).",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích toàn phần và thể tích của hình trụ có bán kính đáy $R = 5\\text{ cm}$ và chiều cao $h = 10\\text{ cm}$ (để kết quả theo $\\pi$).",
+        "rubric": "S_tp = 2pi R h + 2pi R^2 = 2pi . 5 . 10 + 2pi . 5^2 = 100pi + 50pi = 150pi (cm^2) (0.25đ).\nV = pi R^2 h = pi . 5^2 . 10 = 250pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Người ta đúc một chi tiết máy bằng kim loại gồm một hình nón có bán kính đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$ gắn liền với một hình bán cầu có cùng bán kính đáy. Tính thể tích khối kim loại đó (để kết quả theo $\\pi$).",
+        "rubric": "Thể tích phần hình nón: V1 = (1/3) pi R^2 h = (1/3) pi . 6^2 . 8 = 96pi (cm^3) (0.25đ).\nThể tích phần nửa hình cầu: V2 = (1/2) . (4/3) pi R^3 = (2/3) pi . 6^3 = 144pi (cm^3).\nTổng thể tích khối kim loại: V = 96pi + 144pi = 240pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa dạng hình trụ không có nắp được làm từ một tấm tôn có diện tích cố định $S = 27\\pi\\text{ dm}^2$ (coi diện tích mép hàn không đáng kể). Tìm bán kính đáy $R$ và chiều cao $h$ để thùng chứa có thể tích lớn nhất.",
+        "rubric": "Diện tích tôn dùng làm thùng hình trụ không nắp: S = pi R^2 + 2pi R h = 27pi => R^2 + 2Rh = 27 => h = (27 - R^2)/(2R) (0.25đ).\nThể tích thùng: V = pi R^2 h = pi R^2 . (27 - R^2)/(2R) = (pi/2) . R(27 - R^2).\nÁp dụng BĐT AM-GM cho 2R^2 và 27 - R^2:\nTa có 2R^2(27 - R^2)^2 <= [ (2R^2 + 27 - R^2 + 27 - R^2)/3 ]^3 = (54/3)^3 = 18^3 = 5832.\nDấu '=' xảy ra khi 2R^2 = 27 - R^2 => 3R^2 = 27 => R^2 = 9 => R = 3 dm.\nKhi đó h = (27 - 9)/(2 . 3) = 18/6 = 3 dm. Vậy R = 3 dm và h = 3 dm (0.25đ)."
+      }
+    ]
+  },
+  "c10_9_bai3_test6": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích xung quanh của hình trụ có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$S_{xq} = 2\\pi R h$",
+          "$S_{xq} = \\pi R h$",
+          "$S_{xq} = \\pi R^2 h$",
+          "$S_{xq} = 2\\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình nón có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$V = \\frac{1}{3}\\pi R^2 h$",
+          "$V = \\pi R^2 h$",
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 2\\pi R h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích mặt cầu bán kính $R$ là:",
+        "options": [
+          "$S = 4\\pi R^2$",
+          "$S = \\frac{4}{3}\\pi R^3$",
+          "$S = 2\\pi R^2$",
+          "$S = \\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích hình cầu bán kính $R$ là:",
+        "options": [
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 4\\pi R^2$",
+          "$V = \\pi R^3$",
+          "$V = \\frac{1}{3}\\pi R^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình trụ có bán kính đáy $3\\text{ cm}$ và chiều cao $5\\text{ cm}$. Thể tích hình trụ là:",
+        "options": [
+          "$45\\pi\\text{ cm}^3$",
+          "$15\\pi\\text{ cm}^3$",
+          "$30\\pi\\text{ cm}^3$",
+          "$90\\pi\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Hình nón có bán kính đáy $R = 3\\text{ cm}$, đường sinh $l = 5\\text{ cm}$. Chiều cao của hình nón là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$2\\text{ cm}$",
+          "$\\sqrt{34}\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình nón có bán kính đáy $R = 4\\text{ cm}$ và đường sinh $l = 6\\text{ cm}$ là:",
+        "options": [
+          "$24\\pi\\text{ cm}^2$",
+          "$48\\pi\\text{ cm}^2$",
+          "$16\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Mặt cầu có đường kính $6\\text{ cm}$ thì diện tích của nó bằng:",
+        "options": [
+          "$36\\pi\\text{ cm}^2$",
+          "$144\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$",
+          "$18\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một thùng nước hình trụ có chiều cao $1\\text{ m}$, bán kính đáy $0,5\\text{ m}$. Lấy $\\pi \\approx 3,14$. Thể tích nước tối đa thùng chứa được là:",
+        "options": [
+          "$0,785\\text{ m}^3$ (hay $785$ lít)",
+          "$1,57\\text{ m}^3$",
+          "$3,14\\text{ m}^3$",
+          "$0,5\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Người ta làm một chiếc nón lá dạng hình nón có đường kính đáy $40\\text{ cm}$ và độ dài đường sinh $30\\text{ cm}$. Diện tích lá cần dùng để phủ kín mặt xung quanh chiếc nón là:",
+        "options": [
+          "$600\\pi\\text{ cm}^2$",
+          "$1200\\pi\\text{ cm}^2$",
+          "$300\\pi\\text{ cm}^2$",
+          "$900\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một quả bóng bàn dạng hình cầu có bán kính $2\\text{ cm}$. Thể tích không khí bên trong quả bóng bàn xấp xỉ là:",
+        "options": [
+          "$\\frac{32\\pi}{3}\\text{ cm}^3$",
+          "$16\\pi\\text{ cm}^3$",
+          "$8\\pi\\text{ cm}^3$",
+          "$\\frac{16\\pi}{3}\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc ly dạng hình nón có bán kính miệng ly $4\\text{ cm}$, chiều cao $12\\text{ cm}$. Ly đang chứa nước đến độ cao $6\\text{ cm}$. Tỉ số thể tích nước trong ly so với dung tích cả chiếc ly là:",
+        "options": [
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các hình khối tròn xoay (Mã đề 6):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khi quay một hình chữ nhật một vòng quanh một cạnh cố định ta được một hình trụ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khi quay một tam giác vuông một vòng quanh một cạnh góc vuông cố định ta được một hình nón.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường sinh l của hình nón liên hệ với bán kính đáy R và chiều cao h theo công thức: l^2 = R^2 + h^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một hình trụ và một hình nón có cùng bán kính đáy và cùng chiều cao thì thể tích của chúng bằng nhau.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một bồn chứa xăng gồm phần thân là hình trụ dài $6\\text{ m}$ và hai đầu là hai nửa hình cầu có cùng bán kính $R = 1\\text{ m}$:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hai đầu bồn ghép lại tạo thành một hình cầu hoàn chỉnh bán kính 1 m.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích phần thân hình trụ bằng 6pi m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Thể tích hai đầu bán cầu bằng 4/3 pi m^3.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng thể tích của cả bồn chứa xăng nhỏ hơn 20 m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Hình trụ có R = 4 cm, h = 5 cm. Tính diện tích xung quanh chia cho pi (cm^2).",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Hình nón có R = 6 cm, h = 8 cm. Tính độ dài đường sinh l (cm).",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một quả cầu có diện tích bề mặt bằng 100 pi cm^2. Tính bán kính R (cm).",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình trụ có diện tích toàn phần gấp 3 lần diện tích xung quanh. Biết bán kính đáy R = 6 cm. Tính chiều cao h (cm).",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích toàn phần và thể tích của hình trụ có bán kính đáy $R = 5\\text{ cm}$ và chiều cao $h = 10\\text{ cm}$ (để kết quả theo $\\pi$).",
+        "rubric": "S_tp = 2pi R h + 2pi R^2 = 2pi . 5 . 10 + 2pi . 5^2 = 100pi + 50pi = 150pi (cm^2) (0.25đ).\nV = pi R^2 h = pi . 5^2 . 10 = 250pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Người ta đúc một chi tiết máy bằng kim loại gồm một hình nón có bán kính đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$ gắn liền với một hình bán cầu có cùng bán kính đáy. Tính thể tích khối kim loại đó (để kết quả theo $\\pi$).",
+        "rubric": "Thể tích phần hình nón: V1 = (1/3) pi R^2 h = (1/3) pi . 6^2 . 8 = 96pi (cm^3) (0.25đ).\nThể tích phần nửa hình cầu: V2 = (1/2) . (4/3) pi R^3 = (2/3) pi . 6^3 = 144pi (cm^3).\nTổng thể tích khối kim loại: V = 96pi + 144pi = 240pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa dạng hình trụ không có nắp được làm từ một tấm tôn có diện tích cố định $S = 27\\pi\\text{ dm}^2$ (coi diện tích mép hàn không đáng kể). Tìm bán kính đáy $R$ và chiều cao $h$ để thùng chứa có thể tích lớn nhất.",
+        "rubric": "Diện tích tôn dùng làm thùng hình trụ không nắp: S = pi R^2 + 2pi R h = 27pi => R^2 + 2Rh = 27 => h = (27 - R^2)/(2R) (0.25đ).\nThể tích thùng: V = pi R^2 h = pi R^2 . (27 - R^2)/(2R) = (pi/2) . R(27 - R^2).\nÁp dụng BĐT AM-GM cho 2R^2 và 27 - R^2:\nTa có 2R^2(27 - R^2)^2 <= [ (2R^2 + 27 - R^2 + 27 - R^2)/3 ]^3 = (54/3)^3 = 18^3 = 5832.\nDấu '=' xảy ra khi 2R^2 = 27 - R^2 => 3R^2 = 27 => R^2 = 9 => R = 3 dm.\nKhi đó h = (27 - 9)/(2 . 3) = 18/6 = 3 dm. Vậy R = 3 dm và h = 3 dm (0.25đ)."
+      }
+    ]
+  },
+  "c10_9_bai3_test7": {
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích xung quanh của hình trụ có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$S_{xq} = 2\\pi R h$",
+          "$S_{xq} = \\pi R h$",
+          "$S_{xq} = \\pi R^2 h$",
+          "$S_{xq} = 2\\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích của hình nón có bán kính đáy $R$ và chiều cao $h$ là:",
+        "options": [
+          "$V = \\frac{1}{3}\\pi R^2 h$",
+          "$V = \\pi R^2 h$",
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 2\\pi R h$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Công thức tính diện tích mặt cầu bán kính $R$ là:",
+        "options": [
+          "$S = 4\\pi R^2$",
+          "$S = \\frac{4}{3}\\pi R^3$",
+          "$S = 2\\pi R^2$",
+          "$S = \\pi R^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Công thức tính thể tích hình cầu bán kính $R$ là:",
+        "options": [
+          "$V = \\frac{4}{3}\\pi R^3$",
+          "$V = 4\\pi R^2$",
+          "$V = \\pi R^3$",
+          "$V = \\frac{1}{3}\\pi R^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Một hình trụ có bán kính đáy $3\\text{ cm}$ và chiều cao $5\\text{ cm}$. Thể tích hình trụ là:",
+        "options": [
+          "$45\\pi\\text{ cm}^3$",
+          "$15\\pi\\text{ cm}^3$",
+          "$30\\pi\\text{ cm}^3$",
+          "$90\\pi\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Hình nón có bán kính đáy $R = 3\\text{ cm}$, đường sinh $l = 5\\text{ cm}$. Chiều cao của hình nón là:",
+        "options": [
+          "$4\\text{ cm}$",
+          "$8\\text{ cm}$",
+          "$2\\text{ cm}$",
+          "$\\sqrt{34}\\text{ cm}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Diện tích xung quanh của hình nón có bán kính đáy $R = 4\\text{ cm}$ và đường sinh $l = 6\\text{ cm}$ là:",
+        "options": [
+          "$24\\pi\\text{ cm}^2$",
+          "$48\\pi\\text{ cm}^2$",
+          "$16\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Mặt cầu có đường kính $6\\text{ cm}$ thì diện tích của nó bằng:",
+        "options": [
+          "$36\\pi\\text{ cm}^2$",
+          "$144\\pi\\text{ cm}^2$",
+          "$12\\pi\\text{ cm}^2$",
+          "$18\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Một thùng nước hình trụ có chiều cao $1\\text{ m}$, bán kính đáy $0,5\\text{ m}$. Lấy $\\pi \\approx 3,14$. Thể tích nước tối đa thùng chứa được là:",
+        "options": [
+          "$0,785\\text{ m}^3$ (hay $785$ lít)",
+          "$1,57\\text{ m}^3$",
+          "$3,14\\text{ m}^3$",
+          "$0,5\\text{ m}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Người ta làm một chiếc nón lá dạng hình nón có đường kính đáy $40\\text{ cm}$ và độ dài đường sinh $30\\text{ cm}$. Diện tích lá cần dùng để phủ kín mặt xung quanh chiếc nón là:",
+        "options": [
+          "$600\\pi\\text{ cm}^2$",
+          "$1200\\pi\\text{ cm}^2$",
+          "$300\\pi\\text{ cm}^2$",
+          "$900\\pi\\text{ cm}^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một quả bóng bàn dạng hình cầu có bán kính $2\\text{ cm}$. Thể tích không khí bên trong quả bóng bàn xấp xỉ là:",
+        "options": [
+          "$\\frac{32\\pi}{3}\\text{ cm}^3$",
+          "$16\\pi\\text{ cm}^3$",
+          "$8\\pi\\text{ cm}^3$",
+          "$\\frac{16\\pi}{3}\\text{ cm}^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Một chiếc ly dạng hình nón có bán kính miệng ly $4\\text{ cm}$, chiều cao $12\\text{ cm}$. Ly đang chứa nước đến độ cao $6\\text{ cm}$. Tỉ số thể tích nước trong ly so với dung tích cả chiếc ly là:",
+        "options": [
+          "$\\frac{1}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{3}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về các hình khối tròn xoay (Mã đề 7):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Khi quay một hình chữ nhật một vòng quanh một cạnh cố định ta được một hình trụ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khi quay một tam giác vuông một vòng quanh một cạnh góc vuông cố định ta được một hình nón.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường sinh l của hình nón liên hệ với bán kính đáy R và chiều cao h theo công thức: l^2 = R^2 + h^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một hình trụ và một hình nón có cùng bán kính đáy và cùng chiều cao thì thể tích của chúng bằng nhau.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Một bồn chứa xăng gồm phần thân là hình trụ dài $6\\text{ m}$ và hai đầu là hai nửa hình cầu có cùng bán kính $R = 1\\text{ m}$:",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Thông hiểu",
+            "text": "Hai đầu bồn ghép lại tạo thành một hình cầu hoàn chỉnh bán kính 1 m.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Thể tích phần thân hình trụ bằng 6pi m^3.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Thể tích hai đầu bán cầu bằng 4/3 pi m^3.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng thể tích của cả bồn chứa xăng nhỏ hơn 20 m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Hình trụ có R = 4 cm, h = 5 cm. Tính diện tích xung quanh chia cho pi (cm^2).",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Hình nón có R = 6 cm, h = 8 cm. Tính độ dài đường sinh l (cm).",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một quả cầu có diện tích bề mặt bằng 100 pi cm^2. Tính bán kính R (cm).",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng cao",
+        "question": "Một hình trụ có diện tích toàn phần gấp 3 lần diện tích xung quanh. Biết bán kính đáy R = 6 cm. Tính chiều cao h (cm).",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính diện tích toàn phần và thể tích của hình trụ có bán kính đáy $R = 5\\text{ cm}$ và chiều cao $h = 10\\text{ cm}$ (để kết quả theo $\\pi$).",
+        "rubric": "S_tp = 2pi R h + 2pi R^2 = 2pi . 5 . 10 + 2pi . 5^2 = 100pi + 50pi = 150pi (cm^2) (0.25đ).\nV = pi R^2 h = pi . 5^2 . 10 = 250pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Người ta đúc một chi tiết máy bằng kim loại gồm một hình nón có bán kính đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$ gắn liền với một hình bán cầu có cùng bán kính đáy. Tính thể tích khối kim loại đó (để kết quả theo $\\pi$).",
+        "rubric": "Thể tích phần hình nón: V1 = (1/3) pi R^2 h = (1/3) pi . 6^2 . 8 = 96pi (cm^3) (0.25đ).\nThể tích phần nửa hình cầu: V2 = (1/2) . (4/3) pi R^3 = (2/3) pi . 6^3 = 144pi (cm^3).\nTổng thể tích khối kim loại: V = 96pi + 144pi = 240pi (cm^3) (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Một thùng chứa dạng hình trụ không có nắp được làm từ một tấm tôn có diện tích cố định $S = 27\\pi\\text{ dm}^2$ (coi diện tích mép hàn không đáng kể). Tìm bán kính đáy $R$ và chiều cao $h$ để thùng chứa có thể tích lớn nhất.",
+        "rubric": "Diện tích tôn dùng làm thùng hình trụ không nắp: S = pi R^2 + 2pi R h = 27pi => R^2 + 2Rh = 27 => h = (27 - R^2)/(2R) (0.25đ).\nThể tích thùng: V = pi R^2 h = pi R^2 . (27 - R^2)/(2R) = (pi/2) . R(27 - R^2).\nÁp dụng BĐT AM-GM cho 2R^2 và 27 - R^2:\nTa có 2R^2(27 - R^2)^2 <= [ (2R^2 + 27 - R^2 + 27 - R^2)/3 ]^3 = (54/3)^3 = 18^3 = 5832.\nDấu '=' xảy ra khi 2R^2 = 27 - R^2 => 3R^2 = 27 => R^2 = 9 => R = 3 dm.\nKhi đó h = (27 - 9)/(2 . 3) = 18/6 = 3 dm. Vậy R = 3 dm và h = 3 dm (0.25đ)."
       }
     ]
   }
