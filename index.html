@@ -5520,72 +5520,6 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       </select>
                     </div>
 
-                    {/* CÁC NÚT HÀNH ĐỘNG: VÀO LÀM ONLINE & IN / XUẤT PDF A4 TIẾT KIỆM GIẤY */}
-                    <div className="pt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
-                      {/* Nút 1: Vào làm bài online */}
-                      <button
-                        type="button"
-                        onClick={() => handleStartStandardExam(false)}
-                        disabled={loadingAI || loadingExam}
-                        className="bg-gradient-to-r from-indigo-600 via-indigo-700 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold px-3 py-2.5 rounded-xl shadow-md flex items-center justify-center gap-1.5 transition transform active:scale-95 text-xs sm:text-sm border border-indigo-400/30 disabled:opacity-60 disabled:cursor-not-allowed"
-                      >
-                        {loadingExam ? (
-                          <>
-                            <Icons.RefreshCw />
-                            <span>Đang tải đề...</span>
-                          </>
-                        ) : (
-                          <>
-                            <Icons.BookOpen />
-                            <span>Vào làm Đề số {selectedTestNum < 10 ? '0' + selectedTestNum : selectedTestNum}</span>
-                          </>
-                        )}
-                      </button>
-
-                      {/* Nút 2: In Đề thi A4 tiết kiệm giấy */}
-                      <button
-                        type="button"
-                        onClick={() => handlePrintLessonExam(false)}
-                        disabled={loadingExam || !previewLessonExam}
-                        className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3 py-2.5 rounded-xl shadow-md flex items-center justify-center gap-1.5 transition transform active:scale-95 text-xs sm:text-sm disabled:opacity-50"
-                        title="In hoặc Lưu PDF đề thi bài học SGK tối ưu tiết kiệm giấy (không kèm đáp án)"
-                      >
-                        <span>🖨️</span>
-                        <span>In Đề thi A4 (Tiết kiệm)</span>
-                      </button>
-
-                      {/* Nút 3: Xuất PDF Đề & Lời giải */}
-                      <button
-                        type="button"
-                        onClick={() => handlePrintLessonExam(true)}
-                        disabled={loadingExam || !previewLessonExam}
-                        className="bg-teal-700 hover:bg-teal-800 text-white font-bold px-3 py-2.5 rounded-xl shadow-md flex items-center justify-center gap-1.5 transition transform active:scale-95 text-xs sm:text-sm disabled:opacity-50"
-                        title="In hoặc Lưu PDF đề thi kèm đáp án và lời giải chi tiết"
-                      >
-                        <span>📄</span>
-                        <span>Xuất PDF Đề & Lời giải</span>
-                      </button>
-
-                      {/* Nút 4: Sinh đề bằng AI */}
-                      <button
-                        type="button"
-                        onClick={handleStartAIGeneratedExam}
-                        disabled={loadingAI}
-                        className="bg-white hover:bg-purple-50 text-purple-700 border-2 border-purple-400 hover:border-purple-600 font-bold px-3 py-2.5 rounded-xl shadow-sm flex items-center justify-center gap-1.5 transition transform active:scale-95 text-xs sm:text-sm disabled:opacity-50"
-                      >
-                        {loadingAI ? (
-                          <>
-                            <Icons.RefreshCw />
-                            <span>Đang kết nối Gemini...</span>
-                          </>
-                        ) : (
-                          <>
-                            <Icons.Sparkles />
-                            <span>Sinh đề bằng AI</span>
-                          </>
-                        )}
-                      </button>
-                    </div>
                   </div>
 
                   <div className="space-y-3">
@@ -5602,7 +5536,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       });
 
                       return (
-                        <div className="bg-slate-50/80 p-4 rounded-2xl border border-slate-200/80 space-y-2.5">
+                        <div className="bg-slate-50/80 p-4 rounded-2xl border border-slate-200/80 space-y-3">
                           <div className="flex items-center justify-between">
                             <label className="block text-xs font-bold uppercase text-slate-700 tracking-wide">
                               4. Chọn mã đề kiểm tra {isChapterExam ? "(7 mã đề độc lập)" : "(3 mã đề)"}:
@@ -5612,7 +5546,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             </span>
                           </div>
 
-                          <div className={`grid ${isChapterExam ? "grid-cols-2 sm:grid-cols-4 lg:grid-cols-7" : "grid-cols-1 sm:grid-cols-3"} gap-2.5`}>
+                          <div className={`grid ${isChapterExam ? "grid-cols-2 sm:grid-cols-4 lg:grid-cols-7" : "grid-cols-1 sm:grid-cols-3"} gap-2`}>
                             {testsList.map((item) => {
                               const isSelected = selectedTestNum === item.num;
                               return (
@@ -5620,7 +5554,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   key={item.num}
                                   type="button"
                                   onClick={() => setSelectedTestNum(item.num)}
-                                  className={`py-3 px-3 rounded-xl border text-center transition flex items-center justify-center gap-1.5 font-bold text-sm shadow-xs ${
+                                  className={`py-2.5 px-3 rounded-xl border text-center transition flex items-center justify-center gap-1.5 font-bold text-sm shadow-xs ${
                                     isSelected
                                       ? "bg-indigo-600 text-white border-indigo-600 shadow-md ring-2 ring-indigo-200 transform scale-[1.02]"
                                       : "bg-white text-slate-700 border-slate-200 hover:border-indigo-300 hover:bg-indigo-50/50"
@@ -5631,6 +5565,75 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                 </button>
                               );
                             })}
+                          </div>
+
+                          {/* 4 NÚT HÀNH ĐỘNG GỌN GÀNG, ĐẸP MẮT VÀ TINH TẾ NGAY DƯỚI CÁC ĐỀ */}
+                          <div className="pt-2.5 border-t border-slate-200/80 grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            {/* Nút 1: Vào làm bài */}
+                            <button
+                              type="button"
+                              onClick={() => handleStartStandardExam(false)}
+                              disabled={loadingAI || loadingExam}
+                              className="py-2.5 px-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white shadow-sm flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-60"
+                              title="Làm bài trực tuyến bấm giờ và chấm điểm tự động"
+                            >
+                              {loadingExam ? (
+                                <>
+                                  <Icons.RefreshCw className="w-4 h-4 animate-spin" />
+                                  <span>Đang tải...</span>
+                                </>
+                              ) : (
+                                <>
+                                  <Icons.BookOpen />
+                                  <span>Vào làm bài</span>
+                                </>
+                              )}
+                            </button>
+
+                            {/* Nút 2: In đề thi */}
+                            <button
+                              type="button"
+                              onClick={() => handlePrintLessonExam(false)}
+                              disabled={loadingExam || !previewLessonExam}
+                              className="py-2.5 px-2.5 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 hover:bg-emerald-700 text-white shadow-sm flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50"
+                              title="In hoặc Lưu PDF đề thi tiết kiệm giấy (không kèm đáp án)"
+                            >
+                              <span>🖨️</span>
+                              <span>In đề thi</span>
+                            </button>
+
+                            {/* Nút 3: Xuất PDF */}
+                            <button
+                              type="button"
+                              onClick={() => handlePrintLessonExam(true)}
+                              disabled={loadingExam || !previewLessonExam}
+                              className="py-2.5 px-2.5 rounded-xl font-bold text-xs sm:text-sm bg-teal-600 hover:bg-teal-700 text-white shadow-sm flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50"
+                              title="Xuất PDF kèm đáp án và lời giải chi tiết"
+                            >
+                              <span>📄</span>
+                              <span>Xuất PDF</span>
+                            </button>
+
+                            {/* Nút 4: Sinh đề AI */}
+                            <button
+                              type="button"
+                              onClick={handleStartAIGeneratedExam}
+                              disabled={loadingAI}
+                              className="py-2.5 px-2.5 rounded-xl font-bold text-xs sm:text-sm bg-purple-50 hover:bg-purple-100 text-purple-700 border border-purple-300 hover:border-purple-400 shadow-2xs flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50"
+                              title="Dùng Gemini AI sinh đề mới tương đương"
+                            >
+                              {loadingAI ? (
+                                <>
+                                  <Icons.RefreshCw className="w-4 h-4 animate-spin" />
+                                  <span>Đang sinh...</span>
+                                </>
+                              ) : (
+                                <>
+                                  <Icons.Sparkles />
+                                  <span>Sinh đề AI</span>
+                                </>
+                              )}
+                            </button>
                           </div>
                         </div>
                       );
