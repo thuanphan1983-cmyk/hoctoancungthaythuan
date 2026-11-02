@@ -3,7 +3,7 @@
   "chapterId": "c2_9",
   "chapterTitle": "Chương II: Phương trình và bất phương trình bậc nhất một ẩn",
   "totalExams": 16,
-  "updatedAt": "2026-11-01 19:28:20",
+  "updatedAt": "2026-11-02 06:43:13",
   "exams": {
     "c2_9_bai1_test1": {
       "title": "Toán 9 (KNTT) - Bài 4: Phương trình quy về phương trình bậc nhất một ẩn - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -2598,205 +2598,233 @@
       ]
     },
     "c2_9_bai4_test1": {
-      "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương II - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phương trình $(x - 1)(x + 2) = 0$ có các nghiệm là:",
+          "question": "Phương trình tích có dạng chuẩn là:",
           "options": [
-            "$x = 1$ hoặc $x = 2$",
-            "$x = -1$ hoặc $x = 2$",
-            "$x = -1$ hoặc $x = -2$",
-            "$x = 1$ hoặc $x = -2$"
+            "$A(x) \\cdot B(x) = 0$",
+            "$A(x) + B(x) = 0$",
+            "$\\frac{A(x)}{B(x)} = 0$",
+            "$A(x) - B(x) = 0$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phương trình $\\frac{x}{x - 3} = 2$ là:",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{1x - 2} = 1$ là:",
           "options": [
             "$x \\neq 2$",
             "$x \\neq 0$",
-            "$x \\neq 3$",
-            "$x > 3$"
+            "$x > 2$",
+            "$x \\neq 1$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Cho $a < b$. Khẳng định nào sau đây đúng?",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$a - 2 > b - 2$",
-            "$2a > 2b$",
-            "$-2a < -2b$",
-            "$a + 2 < b + 2$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Nghiệm của bất phương trình $2x - 4 \\ge 0$ là:",
+          "question": "Nghiệm của bất phương trình $2x > 4$ là:",
           "options": [
-            "$x \\ge 2$",
-            "$x \\le 2$",
+            "$x > 2$",
             "$x < 2$",
-            "$x > 2$"
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Giải phương trình $(2x - 1)(3x + 6) = 0$. Các nghiệm là:",
+          "question": "Tập nghiệm của phương trình $(x - 1)(2x + 6) = 0$ là:",
           "options": [
-            "$x = 2$ và $x = -2$",
-            "$x = 1$ và $x = -6$",
-            "$x = \\frac{1}{2}$ và $x = -2$",
-            "$x = -\\frac{1}{2}$ và $x = 2$"
+            "$\\{1; -3\\}$",
+            "$\\{-1; 3\\}$",
+            "$\\{1; 3\\}$",
+            "$\\{-1; -3\\}$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình $\\frac{x - 2}{x + 1} = 0$ là:",
+          "question": "Bất phương trình $2x - 1 \\le x + 4$ có nghiệm là:",
           "options": [
-            "$x = -1$",
-            "Vô nghiệm",
-            "$x = 2$",
-            "$x = 0$"
+            "$x \\le 5$",
+            "$x \\ge 5$",
+            "$x < 4$",
+            "$x \\le 3$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Cho $-3x < 12$. Nghiệm của bất phương trình là:",
+          "question": "Giá trị $x = 1$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$x > 4$",
-            "$x > -4$",
-            "$x < -4$",
-            "$x < 4$"
+            "$2x - 1 < 3$",
+            "$3x > 5$",
+            "$x + 5 \\le 1$",
+            "$-x > -0$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Số nguyên lớn nhất thỏa mãn bất phương trình $x < 3{,}5$ là:",
+          "question": "Giải phương trình $\\frac{x + 1}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "$0$",
-            "$3$",
-            "$4$",
-            "$2$"
+            "$x = 3$",
+            "$x = -1$",
+            "$x = 1$",
+            "Vô nghiệm"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Cho $a > b$. Bất đẳng thức nào sau đây luôn đúng?",
+          "level": "Vận dụng",
+          "question": "Một hãng taxi có giá mở cửa là 12,000 đồng cho km đầu tiên và 14,000 đồng cho mỗi km tiếp theo. Với số tiền 200,000 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$a^2 > b^2$",
-            "$3a + 1 > 3b + 1$",
-            "$\\frac{1}{a} > \\frac{1}{b}$",
-            "$-3a + 1 > -3b + 1$"
+            "14 km",
+            "13 km",
+            "14 km",
+            "12 km"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Giải phương trình $\\frac{x + 1}{x - 1} - \\frac{x - 1}{x + 1} = \\frac{4}{x^2 - 1}$. Nghiệm là:",
+          "question": "Một thang máy có tải trọng tối đa 200000 kg. Nhân viên nặng 12000 kg mang theo các kiện hàng mỗi kiện nặng 14000 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "Vô nghiệm (nghiệm $x = 1$ bị loại)",
-            "$x = 0$",
-            "$x = 1$",
-            "$x = -1$"
+            "13 kiện",
+            "14 kiện",
+            "14 kiện",
+            "20 kiện"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Có bao nhiêu số nguyên dương thỏa mãn bất phương trình $4 - x > 0$?",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "Vô số",
-            "$2$",
-            "$4$",
-            "$3$ ($x = 1, 2, 3$)"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Giá trị nhỏ nhất của biểu thức $A = x^2 - 6x + 11$ là:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 1}{2} + \\frac{x - 2}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$2$",
-            "$11$",
-            "$5$",
-            "$3$"
+            "$x = 2$",
+            "$x = 1$",
+            "$x = 3$",
+            "$x = 0$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho phương trình $\\frac{x + 2}{x} = \\frac{x - 3}{x - 1}$. Xét tính đúng/sai:",
+          "stem": "Xét phương trình tích $(2x - 2)(x + 3) = 0$ (Đề 01):",
           "statements": [
             {
-              "subId": "a",
-              "text": "ĐKXĐ là $x \\neq 0$ và $x \\neq 1$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Quy đồng và khử mẫu: $(x + 2)(x - 1) = x(x - 3)$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nhân tử thứ nhất 2x - 2 = 0 cho nghiệm x = 1.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Khai triển và thu gọn ta được $4x = 2 \\Rightarrow x = \\frac{1}{2}$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Giá trị $x = \\frac{1}{2}$ bị loại vì vi phạm ĐKXĐ.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng hai nghiệm của phương trình bằng 4.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "level": "Vận dụng",
-          "question": "Cho bất phương trình $\\frac{x - 1}{2} - \\frac{x - 2}{3} \\ge 1$. Xét tính đúng/sai:",
+          "stem": "Bài toán thực tế học tập (Mã đề 01): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
-              "subId": "a",
-              "text": "Quy đồng mẫu 6 ta được $3(x - 1) - 2(x - 2) \\ge 6$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Thu gọn vế trái được $x + 1 \\ge 6$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Tập nghiệm là $x \\ge 5$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Số $4$ là một nghiệm của bất phương trình.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -2805,286 +2833,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính tổng các nghiệm của phương trình $(x - 3)(x + 7) = 0$.",
-          "correctAnswer": "-4",
-          "explanation": "$x = 3$ hoặc $x = -7$. Tổng = $3 + (-7) = -4$."
+          "question": "Giải phương trình: 3x - 3 = 0. Tìm x.",
+          "answer": "1",
+          "acceptableAnswers": [
+            "1"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tìm số tự nhiên lớn nhất thỏa mãn bất phương trình $3x - 11 < 0$.",
-          "correctAnswer": "3",
-          "explanation": "$x < 11/3 \\approx 3{,}67$. Số tự nhiên lớn nhất là $3$."
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 3.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Cho $a > 0$. Tìm giá trị nhỏ nhất của biểu thức $P = a + \\frac{9}{a}$.",
-          "correctAnswer": "6",
-          "explanation": "$P \\ge 2\\sqrt{a \\cdot \\frac{9}{a}} = 6$."
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
+          "acceptableAnswers": [
+            "100"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm nghiệm của phương trình $\\frac{x^2 - 1}{x + 1} = 2$.",
-          "correctAnswer": "3",
-          "explanation": "ĐKXĐ: $x \\neq -1$. $x - 1 = 2 \\Rightarrow x = 3$ (thỏa mãn ĐKXĐ)."
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "points": 1.0,
-          "question": "Giải phương trình sau:\n$$\\frac{x}{x - 2} + \\frac{1}{x + 2} = \\frac{4}{x^2 - 4}$$",
-          "solution": "Điều kiện xác định: $x \\neq 2$ và $x \\neq -2$.\nMẫu thức chung: $x^2 - 4 = (x - 2)(x + 2)$.\nQuy đồng mẫu thức và khử mẫu:\n$x(x + 2) + 1(x - 2) = 4$\n$\\Leftrightarrow x^2 + 2x + x - 2 = 4$\n$\\Leftrightarrow x^2 + 3x - 6 = 0$.\nGiải phương trình bậc hai có $\\Delta = 9 - 4(1)(-6) = 33 > 0$.\nSuy ra hai nghiệm: $x_1 = \\frac{-3 + \\sqrt{33}}{2}$ và $x_2 = \\frac{-3 - \\sqrt{33}}{2}$.\nCả hai nghiệm đều khác $\\pm 2$, thỏa mãn ĐKXĐ.\nVậy tập nghiệm của phương trình là $S = \\left\\{\\frac{-3 + \\sqrt{33}}{2}; \\frac{-3 - \\sqrt{33}}{2}\\right\\}$.",
-          "rubric": [
-            {
-              "step": "Tìm đúng ĐKXĐ và quy đồng khử mẫu ra x^2 + 3x - 6 = 0",
-              "subScore": 0.5
-            },
-            {
-              "step": "Giải đúng hai nghiệm, đối chiếu ĐKXĐ và kết luận",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 1}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 1) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 1x - x + 2 = x^2 - 2x <=> (1 + 1)x = -2 => x = -2/(1 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "points": 1.0,
-          "question": "Giải bất phương trình sau và biểu diễn tập nghiệm trên trục số:\n$$\\frac{2x - 1}{3} - \\frac{x - 3}{2} > 1$$",
-          "solution": "Quy đồng mẫu số chung là $6$:\n$2(2x - 1) - 3(x - 3) > 6$\n$\\Leftrightarrow 4x - 2 - 3x + 9 > 6$\n$\\Leftrightarrow x + 7 > 6$\n$\\Leftrightarrow x > 6 - 7$\n$\\Leftrightarrow x > -1$.\nVậy tập nghiệm của bất phương trình là $\\{x \\mid x > -1\\}$.\nBiểu diễn trên trục số: Điểm -1 dùng dấu ngoặc tròn $($ mở về phía bên phải, gạch bỏ phần bên trái điểm -1.",
-          "rubric": [
-            {
-              "step": "Quy đồng, khử mẫu và thu gọn ra x > -1",
-              "subScore": 0.5
-            },
-            {
-              "step": "Kết luận tập nghiệm và biểu diễn chuẩn xác trên trục số",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Cho hai số dương $x, y$ thỏa mãn $x + y \\ge 4$. Tìm giá trị nhỏ nhất của biểu thức:\n$$P = 2x + 3y + \\frac{4}{x} + \\frac{18}{y}$$",
-          "solution": "Áp dụng kĩ thuật chọn điểm rơi Cauchy:\nDự đoán dấu bằng xảy ra khi $x = 2, y = 2$.\nTách các hạng tử để áp dụng Cauchy:\n$P = \\left(x + \\frac{4}{x}\\right) + \\left(2y + \\frac{18}{y}\\right) + (x + y)$.\n1) Áp dụng BĐT Cauchy cho hai số dương $x$ và $\\frac{4}{x}$:\n$x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 4$.\nDấu \"=\" xảy ra khi $x = \\frac{4}{x} \\Leftrightarrow x^2 = 4 \\Rightarrow x = 2$.\n2) Áp dụng BĐT Cauchy cho hai số dương $2y$ và $\\frac{18}{y}$:\n$2y + \\frac{18}{y} \\ge 2\\sqrt{2y \\cdot \\frac{18}{y}} = 2\\sqrt{36} = 12$.\nDấu \"=\" xảy ra khi $2y = \\frac{18}{y} \\Leftrightarrow y^2 = 9 \\Rightarrow y = 3$? Kiểm tra lại: nếu $y = 3$, $2(3) = 6, 18/3 = 6$. Khi đó $x + y = 2 + 3 = 5 > 4$. Dấu bằng không đồng thời xảy ra tại $x+y=4$. Nếu $y = 2$: $2y + 18/y = 4 + 9 = 13$.\nTách theo điểm rơi $x = 2, y = 2$:\n- $x$ đi với $4/x$: hệ số là $1x$ (vì $4/2^2 = 1$).\n- $y$ đi với $18/y$: hệ số là $\\frac{18}{2^2} y = 4{,}5y > 3y$ (không đủ $y$).\nVậy điểm rơi thực sự nằm ở biên $x + y = 4$ hoặc giải tự do: tại $x = 2, y = 3$, $x + y = 5 \\ge 4$, thỏa mãn điều kiện $x + y \\ge 4$!\nThật vậy, với $x = 2, y = 3$:\n$P = \\left(x + \\frac{4}{x}\\right) + \\left(2y + \\frac{18}{y}\\right) + (x + y)$ không tối ưu.\nTách trực tiếp: $P = \\left(2x + \\frac{4}{x}\\right) + \\left(3y + \\frac{18}{y}\\right)$.\nTại điểm rơi $x = \\sqrt{2}, y = \\sqrt{6}$, tổng $x + y \\approx 1{,}414 + 2{,}449 = 3{,}863 < 4$.\nDo đó điểm rơi bắt buộc phải đạt tại biên $x + y = 4$.\nSử dụng phương pháp nhân tử Lagrange hoặc thế $y = 4 - x$ ta tìm được GTNN chính xác.",
-          "rubric": [
-            {
-              "step": "Phân tích điều kiện biên và tách hạng tử theo điểm rơi",
-              "subScore": 0.5
-            },
-            {
-              "step": "Áp dụng Cauchy và tìm GTNN chuẩn xác",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     },
     "c2_9_bai4_test2": {
-      "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương II - Bài kiểm tra số 2 (🌿 Khá)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phương trình $x^2 - 4x = 0$ có các nghiệm là:",
+          "question": "Phương trình tích có dạng chuẩn là:",
           "options": [
-            "$x = 0$ hoặc $x = -4$",
-            "$x = 2$ hoặc $x = -2$",
-            "$x = 4$",
-            "$x = 0$ hoặc $x = 4$"
+            "$A(x) \\cdot B(x) = 0$",
+            "$A(x) + B(x) = 0$",
+            "$\\frac{A(x)}{B(x)} = 0$",
+            "$A(x) - B(x) = 0$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Nghiệm của bất phương trình $\\frac{x - 1}{3} > \\frac{x + 2}{4}$ là:",
+          "level": "Nhận biết",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{2x - 4} = 1$ là:",
           "options": [
-            "$x < 10$",
-            "$x > -10$",
-            "$x < -10$",
-            "$x > 10$"
+            "$x \\neq 2$",
+            "$x \\neq 0$",
+            "$x > 2$",
+            "$x \\neq 2$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Phương trình $\\frac{2}{x - 1} = \\frac{1}{x + 2}$ có nghiệm là:",
+          "level": "Nhận biết",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$x = 5$",
-            "$x = -5$",
-            "$x = -2$",
-            "$x = 1$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Thông hiểu",
-          "question": "Số nghiệm của phương trình $\\frac{x^2 - 9}{x - 3} = 6$ là:",
+          "level": "Nhận biết",
+          "question": "Nghiệm của bất phương trình $3x > 6$ là:",
           "options": [
-            "Vô số",
-            "$1$",
-            "$2$",
-            "$0$ (vô nghiệm)"
+            "$x > 2$",
+            "$x < 2$",
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho $a < b$. Khẳng định nào sau đây SAI?",
+          "question": "Tập nghiệm của phương trình $(x - 2)(2x + 6) = 0$ là:",
           "options": [
-            "$-5a < -5b$",
-            "$a - 7 < b - 7$",
-            "$5a < 5b$",
-            "$-2a + 3 > -2b + 3$"
+            "$\\{2; -3\\}$",
+            "$\\{-2; 3\\}$",
+            "$\\{2; 3\\}$",
+            "$\\{-2; -3\\}$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng",
-          "question": "Tập nghiệm của bất phương trình $(x - 2)^2 \\le x^2 - 8$ là:",
+          "level": "Thông hiểu",
+          "question": "Bất phương trình $2x - 2 \\le x + 5$ có nghiệm là:",
           "options": [
-            "$x \\ge 3$",
-            "$x \\le 3$",
-            "$x \\ge -3$",
-            "$x \\le -3$"
+            "$x \\le 7$",
+            "$x \\ge 7$",
+            "$x < 5$",
+            "$x \\le 3$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng",
-          "question": "Giải phương trình $x^3 - 4x = 0$. Tích các nghiệm là:",
+          "level": "Thông hiểu",
+          "question": "Giá trị $x = 2$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$4$",
-            "$2$",
-            "$0$",
-            "$-4$"
+            "$2x - 1 < 5$",
+            "$3x > 8$",
+            "$x + 5 \\le 2$",
+            "$-x > -1$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng",
-          "question": "Có bao nhiêu số nguyên $x$ thỏa mãn $1 \\le 2x - 3 < 7$?",
+          "level": "Thông hiểu",
+          "question": "Giải phương trình $\\frac{x + 2}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "$3$ ($x = 2, 3, 4$)",
-            "$2$",
-            "$5$",
-            "$4$"
+            "$x = 4$",
+            "$x = 0$",
+            "$x = 2$",
+            "Vô nghiệm"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho $x > 0$. Giá trị nhỏ nhất của biểu thức $P = x + \\frac{25}{x}$ là:",
+          "question": "Một hãng taxi có giá mở cửa là 70 đồng cho km đầu tiên và 30 đồng cho mỗi km tiếp theo. Với số tiền 650 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$15$",
-            "$5$",
-            "$10$",
-            "$25$"
+            "20 km",
+            "19 km",
+            "21 km",
+            "12 km"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Tìm $m$ để phương trình $\\frac{x - m}{x - 1} = 2$ có nghiệm dương:",
+          "level": "Vận dụng",
+          "question": "Một thang máy có tải trọng tối đa 650 kg. Nhân viên nặng 70 kg mang theo các kiện hàng mỗi kiện nặng 30 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "$m > 2$",
-            "$m < 2$ và $m \\neq 1$",
-            "$m < 2$",
-            "$m \\neq 1$"
+            "19 kiện",
+            "20 kiện",
+            "21 kiện",
+            "20 kiện"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Nghiệm của bất phương trình $\\frac{x - 3}{x + 1} > 0$ là:",
+          "level": "Vận dụng",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "$x > 3$",
-            "$x < -1$ hoặc $x > 3$",
-            "$x < -1$",
-            "$-1 < x < 3$"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 1$. Giá trị nhỏ nhất của $\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}$ là:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 2}{2} + \\frac{x - 3}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$1$",
-            "$3$",
-            "$9$",
-            "$6$"
+            "$x = 3$",
+            "$x = 2$",
+            "$x = 4$",
+            "$x = 1$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho phương trình $\\frac{x}{x - 3} - \\frac{1}{x} = \\frac{3}{x(x - 3)}$. Xét tính đúng/sai:",
+          "stem": "Xét phương trình tích $(2x - 4)(x + 3) = 0$ (Đề 02):",
           "statements": [
             {
-              "subId": "a",
-              "text": "ĐKXĐ là $x \\neq 0$ và $x \\neq 3$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Khử mẫu ta được phương trình $x^2 - (x - 3) = 3$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nhân tử thứ nhất 2x - 4 = 0 cho nghiệm x = 2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Phương trình thu gọn là $x^2 - x = 0 \\Leftrightarrow x(x - 1) = 0$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Phương trình có 2 nghiệm phân biệt.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng hai nghiệm của phương trình bằng 5.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "level": "Vận dụng",
-          "question": "Cho bất phương trình bậc nhất một ẩn: $-3(x - 1) \\ge 2x + 8$. Xét tính đúng/sai:",
+          "stem": "Bài toán thực tế học tập (Mã đề 02): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
-              "subId": "a",
-              "text": "Khai triển vế trái: $-3x + 3 \\ge 2x + 8$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Chuyển vế: $-5x \\ge 5$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Nghiệm là $x \\le -1$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Số nguyên lớn nhất thỏa mãn bất phương trình là $0$.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3093,286 +3128,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tìm nghiệm của phương trình $\\frac{2x - 5}{3} = \\frac{x - 1}{2}$.",
-          "correctAnswer": "7",
-          "explanation": "$2(2x - 5) = 3(x - 1) \\Rightarrow 4x - 10 = 3x - 3 \\Rightarrow x = 7$."
+          "question": "Giải phương trình: 3x - 6 = 0. Tìm x.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Giải bất phương trình $6 - 2x > 0$. Số nguyên dương lớn nhất thỏa mãn là bao nhiêu?",
-          "correctAnswer": "2",
-          "explanation": "$2x < 6 \\Rightarrow x < 3$. Số nguyên dương lớn nhất là $2$."
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 5.",
+          "answer": "3",
+          "acceptableAnswers": [
+            "3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Cho phương trình $x^2 - 5x + 6 = 0$. Tính tổng các nghiệm của phương trình.",
-          "correctAnswer": "5",
-          "explanation": "$(x - 2)(x - 3) = 0 \\Rightarrow x = 2$ hoặc $x = 3$. Tổng = $5$."
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
+          "acceptableAnswers": [
+            "100"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho $x > 0$. Tìm giá trị nhỏ nhất của biểu thức $A = x + \\frac{1}{4x}$.",
-          "correctAnswer": "1",
-          "explanation": "$A \\ge 2\\sqrt{x \\cdot \\frac{1}{4x}} = 2 \\times \\frac{1}{2} = 1$."
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "points": 1.0,
-          "question": "Giải phương trình sau:\n$$\\frac{x + 2}{x - 2} - \\frac{2}{x^2 - 2x} = \\frac{1}{x}$$",
-          "solution": "Điều kiện xác định: $x \\neq 0$ và $x \\neq 2$.\nTa có: $x^2 - 2x = x(x - 2)$. Mẫu thức chung: $x(x - 2)$.\nQuy đồng mẫu thức và khử mẫu:\n$x(x + 2) - 2 = 1(x - 2)$\n$\\Leftrightarrow x^2 + 2x - 2 = x - 2$\n$\\Leftrightarrow x^2 + x = 0$\n$\\Leftrightarrow x(x + 1) = 0$\n$\\Leftrightarrow x = 0$ hoặc $x = -1$.\nĐối chiếu với điều kiện xác định:\n- $x = 0$ (loại do không thỏa mãn ĐKXĐ).\n- $x = -1$ (thỏa mãn ĐKXĐ).\nVậy tập nghiệm của phương trình là $S = \\{-1\\}$.",
-          "rubric": [
-            {
-              "step": "Tìm đúng ĐKXĐ x khác 0, x khác 2 và quy đồng khử mẫu",
-              "subScore": 0.5
-            },
-            {
-              "step": "Giải ra x = 0 (loại), x = -1 (nhận) và kết luận S = {-1}",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 2}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 2) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 2x - x + 2 = x^2 - 2x <=> (2 + 1)x = -2 => x = -2/(2 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "points": 1.0,
-          "question": "Giải bất phương trình sau:\n$$\\frac{3x - 1}{4} - \\frac{2x - 3}{3} \\le \\frac{x + 1}{6}$$",
-          "solution": "Mẫu thức chung là $12$.\nNhân cả hai vế với 12:\n$3(3x - 1) - 4(2x - 3) \\le 2(x + 1)$\n$\\Leftrightarrow 9x - 3 - 8x + 12 \\le 2x + 2$\n$\\Leftrightarrow x + 9 \\le 2x + 2$\n$\\Leftrightarrow x - 2x \\le 2 - 9$\n$\\Leftrightarrow -x \\le -7$\n$\\Leftrightarrow x \\ge 7$.\nVậy tập nghiệm của bất phương trình là $\\{x \\mid x \\ge 7\\}$.",
-          "rubric": [
-            {
-              "step": "Quy đồng mẫu thức chung 12 và khai triển chuẩn xác",
-              "subScore": 0.5
-            },
-            {
-              "step": "Thu gọn ra -x <= -7 và đổi chiều ra x >= 7",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Chứng minh rằng với mọi số thực dương $a, b$, ta có:\n$$\\frac{a^2}{b} + \\frac{b^2}{a} \\ge a + b$$",
-          "solution": "Cách 1: Quy đồng mẫu số và biến đổi tương đương:\n$\\frac{a^2}{b} + \\frac{b^2}{a} \\ge a + b \\Leftrightarrow \\frac{a^3 + b^3}{ab} \\ge a + b$\nVì $a, b > 0 \\Rightarrow ab > 0$, nhân cả hai vế với $ab$:\n$a^3 + b^3 \\ge ab(a + b)$\n$\\Leftrightarrow (a + b)(a^2 - ab + b^2) \\ge ab(a + b)$\nVì $a + b > 0$, chia cả hai vế cho $a + b$:\n$a^2 - ab + b^2 \\ge ab \\Leftrightarrow a^2 - 2ab + b^2 \\ge 0 \\Leftrightarrow (a - b)^2 \\ge 0$.\nBất đẳng thức cuối cùng luôn đúng với mọi $a, b > 0$.\nDấu \"=\" xảy ra khi $a = b$.\nCách 2: Áp dụng BĐT Cauchy:\n$\\frac{a^2}{b} + b \\ge 2\\sqrt{\\frac{a^2}{b} \\cdot b} = 2a$.\n$\\frac{b^2}{a} + a \\ge 2\\sqrt{\\frac{b^2}{a} \\cdot a} = 2b$.\nCộng hai bất đẳng thức lại:\n$\\frac{a^2}{b} + \\frac{b^2}{a} + (a + b) \\ge 2a + 2b \\Leftrightarrow \\frac{a^2}{b} + \\frac{b^2}{a} \\ge a + b$.\nĐẳng thức được chứng minh.",
-          "rubric": [
-            {
-              "step": "Biến đổi tương đương hoặc dùng kĩ thuật thêm bớt Cauchy",
-              "subScore": 0.5
-            },
-            {
-              "step": "Hoàn tất chứng minh và chỉ rõ dấu bằng khi a = b",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     },
     "c2_9_bai4_test3": {
-      "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương II - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phương trình $x^4 - 1 = 0$ có bao nhiêu nghiệm thực?",
+          "question": "Phương trình tích có dạng chuẩn là:",
           "options": [
-            "$1$ nghiệm",
-            "$4$ nghiệm",
-            "$2$ nghiệm ($x = \\pm 1$)",
-            "$0$ nghiệm"
+            "$A(x) \\cdot B(x) = 0$",
+            "$A(x) + B(x) = 0$",
+            "$\\frac{A(x)}{B(x)} = 0$",
+            "$A(x) - B(x) = 0$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Nghiệm của bất phương trình $(x - 2)^2 > 0$ là:",
+          "level": "Nhận biết",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{3x - 6} = 1$ là:",
           "options": [
-            "Vô nghiệm",
-            "Mọi $x \\in \\mathbb{R}$",
+            "$x \\neq 2$",
+            "$x \\neq 0$",
             "$x > 2$",
-            "Mọi $x \\neq 2$"
+            "$x \\neq 3$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Tập nghiệm của phương trình $|x - 1| = x - 1$ là:",
+          "level": "Nhận biết",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$x > 1$",
-            "$x \\ge 1$",
-            "$x = 1$",
-            "Mọi $x$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Vận dụng",
-          "question": "Cho $x, y > 0$ thỏa mãn $x + y = 2$. Giá trị nhỏ nhất của $\\frac{1}{x} + \\frac{1}{y}$ là:",
+          "level": "Nhận biết",
+          "question": "Nghiệm của bất phương trình $4x > 8$ là:",
           "options": [
-            "$1$",
-            "$\\frac{1}{2}$",
-            "$2$",
-            "$4$"
+            "$x > 2$",
+            "$x < 2$",
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng",
-          "question": "Giải phương trình $(x^2 - x + 1)(x^2 - x - 3) = 5$. Nghiệm thực của phương trình là:",
+          "level": "Thông hiểu",
+          "question": "Tập nghiệm của phương trình $(x - 3)(2x + 6) = 0$ là:",
           "options": [
-            "$x = -1$ và $x = 2$",
-            "Vô nghiệm",
-            "$x = 0$ và $x = 1$",
-            "$x = 1$ và $x = -2$"
+            "$\\{3; -3\\}$",
+            "$\\{-3; 3\\}$",
+            "$\\{3; 3\\}$",
+            "$\\{-3; -3\\}$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng",
-          "question": "Tìm số nghiệm nguyên của bất phương trình $\\frac{x + 2}{x - 1} < 0$:",
+          "level": "Thông hiểu",
+          "question": "Bất phương trình $2x - 3 \\le x + 6$ có nghiệm là:",
           "options": [
-            "$3$",
-            "$2$ ($x = -1$ và $x = 0$)",
-            "$0$",
-            "$1$"
+            "$x \\le 9$",
+            "$x \\ge 9$",
+            "$x < 6$",
+            "$x \\le 3$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng",
-          "question": "Cho $a, b > 0$ và $a + b \\le 1$. Giá trị nhỏ nhất của $A = a + b + \\frac{1}{a} + \\frac{1}{b}$ là:",
+          "level": "Thông hiểu",
+          "question": "Giá trị $x = 3$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$5$",
-            "$\\frac{9}{2}$",
-            "$4$",
-            "$6$"
+            "$2x - 1 < 7$",
+            "$3x > 11$",
+            "$x + 5 \\le 3$",
+            "$-x > -2$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng cao",
-          "question": "Phương trình $(x - 1)^4 + (x - 3)^4 = 16$ có nghiệm là:",
+          "level": "Thông hiểu",
+          "question": "Giải phương trình $\\frac{x + 3}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "Vô nghiệm",
-            "$x = 0$ và $x = 4$",
-            "$x = 2$",
-            "$x = 1$ và $x = 3$"
+            "$x = 5$",
+            "$x = 1$",
+            "$x = 3$",
+            "Vô nghiệm"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Cho ba số dương $a, b, c$. Bất đẳng thức nào sau đây luôn đúng?",
+          "level": "Vận dụng",
+          "question": "Một hãng taxi có giá mở cửa là 8.0 đồng cho km đầu tiên và 7.5 đồng cho mỗi km tiếp theo. Với số tiền 9.0 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} < 1$",
-            "$a^3 + b^3 + c^3 < 3abc$",
-            "$(a+b+c)^3 \\le 27abc$",
-            "$\\frac{a^3}{b} + \\frac{b^3}{c} + \\frac{c^3}{a} \\ge ab + bc + ca$"
+            "1.0 km",
+            "0.0 km",
+            "1.0 km",
+            "12 km"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Tìm $m$ để bất phương trình $(m - 1)x + 2 > 0$ đúng với mọi $x \\in [-1; 2]$:",
+          "level": "Vận dụng",
+          "question": "Một thang máy có tải trọng tối đa 9.0 kg. Nhân viên nặng 8.0 kg mang theo các kiện hàng mỗi kiện nặng 7.5 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "$0 < m < 3$",
-            "$-1 < m < 2$",
-            "$m < 3$",
-            "$m > 0$"
+            "0.0 kiện",
+            "1.0 kiện",
+            "1.0 kiện",
+            "20 kiện"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Cho $x, y$ thỏa mãn $x^2 + y^2 = 4$. Giá trị lớn nhất của biểu thức $P = x + \\sqrt{3}y$ là:",
+          "level": "Vận dụng",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "$2\\sqrt{3}$",
-            "$8$",
-            "$4$",
-            "$2$"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình $\\frac{x}{x^2 + 1} + \\frac{x}{x^2 + 2} = \\frac{1}{2}$. Số nghiệm thực của phương trình là:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 3}{2} + \\frac{x - 4}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$0$",
-            "$2$",
-            "$1$",
-            "$4$"
+            "$x = 4$",
+            "$x = 3$",
+            "$x = 5$",
+            "$x = 2$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "level": "Vận dụng",
-          "question": "Cho phương trình $\\frac{x^2 - 3x}{x^2 - 9} = \\frac{x}{x + 3}$. Xét tính đúng/sai:",
+          "stem": "Xét phương trình tích $(2x - 6)(x + 3) = 0$ (Đề 03):",
           "statements": [
             {
-              "subId": "a",
-              "text": "Điều kiện xác định là $x \\neq 3$ và $x \\neq -3$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Rút gọn vế trái: $\\frac{x(x - 3)}{(x - 3)(x + 3)} = \\frac{x}{x + 3}$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nhân tử thứ nhất 2x - 6 = 0 cho nghiệm x = 3.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Phương trình nghiệm đúng với mọi $x$ thỏa mãn ĐKXĐ.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Tập nghiệm của phương trình là $\\mathbb{R}$.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Tổng hai nghiệm của phương trình bằng 6.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Cho $a, b, c > 0$ thỏa mãn $a + b + c = 3$. Xét tính đúng/sai:",
+          "stem": "Bài toán thực tế học tập (Mã đề 03): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
-              "subId": "a",
-              "text": "Tích $abc \\le 1$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "$a^2 + b^2 + c^2 \\ge 3$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "$\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} \\ge 3$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Dấu bằng của các bất đẳng thức trên xảy ra khi $a = 1, b = 2, c = 0$.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3381,88 +3423,67 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình $x^2 - 16 = 0$. Tính tích các nghiệm.",
-          "correctAnswer": "-16",
-          "explanation": "$x = 4$ và $x = -4$. Tích = $-16$."
+          "question": "Giải phương trình: 3x - 9 = 0. Tìm x.",
+          "answer": "3",
+          "acceptableAnswers": [
+            "3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
         },
         {
           "id": 2,
-          "level": "Vận dụng",
-          "question": "Cho $a, b > 0$ và $ab = 9$. Tìm giá trị nhỏ nhất của $a + b$.",
-          "correctAnswer": "6",
-          "explanation": "$a + b \\ge 2\\sqrt{ab} = 2\\sqrt{9} = 6$."
+          "level": "Thông hiểu",
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 7.",
+          "answer": "4",
+          "acceptableAnswers": [
+            "4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
         },
         {
           "id": 3,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nghiệm nguyên của bất phương trình $x^2 - 4x \\le 0$.",
-          "correctAnswer": "5",
-          "explanation": "$x(x - 4) \\le 0 \\Rightarrow 0 \\le x \\le 4$. Các nghiệm nguyên là $0, 1, 2, 3, 4$. Có 5 nghiệm."
+          "level": "Vận dụng",
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
+          "acceptableAnswers": [
+            "100"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho $x > 1$. Tìm giá trị nhỏ nhất của $P = x + \\frac{4}{x - 1}$.",
-          "correctAnswer": "5",
-          "explanation": "$P = (x - 1) + \\frac{4}{x - 1} + 1 \\ge 2\\sqrt{4} + 1 = 5$."
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng",
-          "points": 1.0,
-          "question": "Giải phương trình trùng phương sau:\n$$x^4 - 8x^2 - 9 = 0$$",
-          "solution": "Đặt $t = x^2$ (điều kiện $t \\ge 0$).\nPhương trình trở thành:\n$t^2 - 8t - 9 = 0$\nTa có $a - b + c = 1 - (-8) + (-9) = 0$, nên phương trình có hai nghiệm:\n$t_1 = -1$ (loại vì $t \\ge 0$).\n$t_2 = -\\frac{c}{a} = 9$ (thỏa mãn $t \\ge 0$).\nVới $t = 9 \\Rightarrow x^2 = 9 \\Rightarrow x = \\pm 3$.\nVậy tập nghiệm của phương trình là $S = \\{-3; 3\\}$.",
-          "rubric": [
-            {
-              "step": "Đặt ẩn phụ t = x^2 (t >= 0) và giải ra t = -1 (loại), t = 9 (nhận)",
-              "subScore": 0.5
-            },
-            {
-              "step": "Tìm ra x = +- 3 và kết luận tập nghiệm",
-              "subScore": 0.5
-            }
-          ]
+          "level": "Thông hiểu",
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 3}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 3) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 3x - x + 2 = x^2 - 2x <=> (3 + 1)x = -2 => x = -2/(3 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Giải phương trình bằng phương pháp đặt ẩn phụ đối xứng:\n$$(x - 1)(x - 2)(x - 4)(x - 8) = 4x^2$$",
-          "solution": "Nhân $(x - 1)$ với $(x - 8)$ và $(x - 2)$ với $(x - 4)$:\n$[(x - 1)(x - 8)][(x - 2)(x - 4)] = 4x^2$\n$\\Leftrightarrow (x^2 - 9x + 8)(x^2 - 6x + 8) = 4x^2$.\nNhận xét $x = 0$ không phải là nghiệm của phương trình.\nChia cả hai vế cho $x^2 \\neq 0$:\n$\\left(x - 9 + \\frac{8}{x}\\right)\\left(x - 6 + \\frac{8}{x}\\right) = 4$.\nĐặt $t = x + \\frac{8}{x} - 7{,}5$ (hoặc đặt $u = x + \\frac{8}{x}$).\nĐặt $u = x + \\frac{8}{x}$, phương trình trở thành:\n$(u - 9)(u - 6) = 4 \\Leftrightarrow u^2 - 15u + 54 = 4 \\Leftrightarrow u^2 - 15u + 50 = 0$\n$\\Leftrightarrow (u - 5)(u - 10) = 0 \\Rightarrow u = 5$ hoặc $u = 10$.\n- Với $u = 5$: $x + \\frac{8}{x} = 5 \\Leftrightarrow x^2 - 5x + 8 = 0$ (vô nghiệm vì $\\Delta = 25 - 32 < 0$).\n- Với $u = 10$: $x + \\frac{8}{x} = 10 \\Leftrightarrow x^2 - 10x + 8 = 0 \\Rightarrow x = 5 \\pm \\sqrt{17}$.\nVậy tập nghiệm của phương trình là $S = \\{5 - \\sqrt{17}; 5 + \\sqrt{17}\\}$.",
-          "rubric": [
-            {
-              "step": "Ghép cặp, chia hai vế cho x^2 và đặt ẩn phụ u = x + 8/x",
-              "subScore": 0.5
-            },
-            {
-              "step": "Giải ra u = 5, u = 10 và tìm đúng nghiệm x = 5 +- sqrt(17)",
-              "subScore": 0.5
-            }
-          ]
+          "level": "Vận dụng",
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Cho ba số thực dương $a, b, c$ thỏa mãn $a + b + c = 3$. Chứng minh rằng:\n$$\\frac{a}{1 + b^2} + \\frac{b}{1 + c^2} + \\frac{c}{1 + a^2} \\ge \\frac{3}{2}$$",
-          "solution": "Áp dụng kĩ thuật Cauchy ngược dấu:\nTa có: $\\frac{a}{1 + b^2} = \\frac{a(1 + b^2) - ab^2}{1 + b^2} = a - \\frac{ab^2}{1 + b^2}$.\nÁp dụng BĐT Cauchy cho mẫu số: $1 + b^2 \\ge 2b > 0$.\nSuy ra: $\\frac{ab^2}{1 + b^2} \\le \\frac{ab^2}{2b} = \\frac{ab}{2}$.\nDo đó: $\\frac{a}{1 + b^2} \\ge a - \\frac{ab}{2}$.\nHoàn toàn tương tự:\n$\\frac{b}{1 + c^2} \\ge b - \\frac{bc}{2}$,\n$\\frac{c}{1 + a^2} \\ge c - \\frac{ca}{2}$.\nCộng vế theo vế ba bất đẳng thức:\n$\\frac{a}{1 + b^2} + \\frac{b}{1 + c^2} + \\frac{c}{1 + a^2} \\ge (a + b + c) - \\frac{ab + bc + ca}{2}$.\nMặt khác, ta luôn có $ab + bc + ca \\le \\frac{(a + b + c)^2}{3} = \\frac{3^2}{3} = 3$.\nSuy ra: $\\frac{ab + bc + ca}{2} \\le \\frac{3}{2} \\Rightarrow -\\frac{ab + bc + ca}{2} \\ge -\\frac{3}{2}$.\nDo đó:\n$\\frac{a}{1 + b^2} + \\frac{b}{1 + c^2} + \\frac{c}{1 + a^2} \\ge 3 - \\frac{3}{2} = \\frac{3}{2}$.\nDấu \"=\" xảy ra khi và chỉ khi $a = b = c = 1$.\nBất đẳng thức được chứng minh.",
-          "rubric": [
-            {
-              "step": "Sử dụng kĩ thuật Cauchy ngược dấu a/(1+b^2) >= a - ab/2",
-              "subScore": 0.5
-            },
-            {
-              "step": "Cộng ba bất đẳng thức, dùng ab+bc+ca <= (a+b+c)^2/3 và kết luận dấu bằng",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     },
     "c2_9_bai4_test4": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình & Bất phương trình - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
@@ -3474,7 +3495,7 @@
             "$A(x) \\cdot B(x) = 0$",
             "$A(x) + B(x) = 0$",
             "$\\frac{A(x)}{B(x)} = 0$",
-            "$A(x) = B(x)$"
+            "$A(x) - B(x) = 0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3482,12 +3503,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Khi nhân hai vế của một bất đẳng thức với cùng một số âm, ta phải:",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{4x - 8} = 1$ là:",
           "options": [
-            "Đổi chiều bất đẳng thức",
-            "Giữ nguyên chiều",
-            "Nhân thêm số $-1$",
-            "Đổi số thành số nghịch đảo"
+            "$x \\neq 2$",
+            "$x \\neq 0$",
+            "$x > 2$",
+            "$x \\neq 4$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3495,12 +3516,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Nghiệm của bất phương trình $2x > 6$ là:",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$x > 3$",
-            "$x < 3$",
-            "$x > 4$",
-            "$x \\ge 3$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3508,12 +3529,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phương trình $\\frac{x}{x-3} = 2$ là:",
+          "question": "Nghiệm của bất phương trình $5x > 10$ là:",
           "options": [
-            "$x \\neq 3$",
-            "$x \\neq 0$",
-            "$x > 3$",
-            "$x \\neq -3$"
+            "$x > 2$",
+            "$x < 2$",
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3521,12 +3542,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình tích $(x - 3)(2x + 4) = 0$ là:",
+          "question": "Tập nghiệm của phương trình $(x - 4)(2x + 6) = 0$ là:",
           "options": [
-            "$x = 3$ hoặc $x = -2$",
-            "$x = 3$ hoặc $x = 2$",
-            "$x = -3$ hoặc $x = -2$",
-            "$x = 3$"
+            "$\\{4; -3\\}$",
+            "$\\{-4; 3\\}$",
+            "$\\{4; 3\\}$",
+            "$\\{-4; -3\\}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3534,12 +3555,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Tập nghiệm của bất phương trình $-3x + 9 \\ge 0$ là:",
+          "question": "Bất phương trình $2x - 4 \\le x + 7$ có nghiệm là:",
           "options": [
-            "$x \\le 3$",
-            "$x \\ge 3$",
-            "$x < 3$",
-            "$x > -3$"
+            "$x \\le 11$",
+            "$x \\ge 11$",
+            "$x < 7$",
+            "$x \\le 3$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3547,12 +3568,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phương trình $\\frac{x+1}{x-1} = 1$ có số nghiệm là:",
+          "question": "Giá trị $x = 4$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$0$ (vô nghiệm)",
-            "$1$ nghiệm",
-            "$2$ nghiệm",
-            "Vô số nghiệm"
+            "$2x - 1 < 9$",
+            "$3x > 14$",
+            "$x + 5 \\le 4$",
+            "$-x > -3$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3560,12 +3581,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Cho $a < b$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Giải phương trình $\\frac{x + 4}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "$2a - 3 < 2b - 3$",
-            "$-3a < -3b$",
-            "$a + 5 > b + 5$",
-            "$a^2 < b^2$"
+            "$x = 6$",
+            "$x = 2$",
+            "$x = 4$",
+            "Vô nghiệm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3573,12 +3594,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tìm số nguyên $x$ lớn nhất thỏa mãn bất phương trình $4x - 5 < 2x + 8$:",
+          "question": "Một hãng taxi có giá mở cửa là 50,000 đồng cho km đầu tiên và 1,000 đồng cho mỗi km tiếp theo. Với số tiền 150,000 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$x = 6$",
-            "$x = 7$",
-            "$x = 5$",
-            "$x = 8$"
+            "101 km",
+            "100 km",
+            "150 km",
+            "12 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3586,12 +3607,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Giải phương trình $\\frac{x}{x-2} + \\frac{1}{x+2} = \\frac{4}{x^2-4}$ ta được nghiệm là:",
+          "question": "Một thang máy có tải trọng tối đa 150000 kg. Nhân viên nặng 50000 kg mang theo các kiện hàng mỗi kiện nặng 1000 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "$x = -3$",
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 3$"
+            "100 kiện",
+            "101 kiện",
+            "150 kiện",
+            "20 kiện"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3599,12 +3620,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một người có 500 000 đồng đi siêu thị. Người đó mua một thùng sữa giá 280 000 đồng và một số gói bánh giá 35 000 đồng/gói. Người đó có thể mua được tối đa bao nhiêu gói bánh?",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "$6$ gói",
-            "$7$ gói",
-            "$5$ gói",
-            "$8$ gói"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3612,12 +3633,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm $m$ để phương trình $\\frac{x-m}{x-1} + \\frac{x-1}{x-m} = 2$ có nghiệm duy nhất:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 4}{2} + \\frac{x - 5}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$m \\neq 1$",
-            "$m = 1$",
-            "Không tồn tại $m$",
-            "$m > 0$"
+            "$x = 5$",
+            "$x = 4$",
+            "$x = 6$",
+            "$x = 3$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3626,33 +3647,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phương trình và bất phương trình bậc nhất một ẩn (Mã đề 4):",
+          "stem": "Xét phương trình tích $(2x - 8)(x + 3) = 0$ (Đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Bất phương trình ax + b < 0 (với a khác 0) luôn có vô số nghiệm.",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi cộng cùng một số vào hai vế của một bất phương trình ta được bất phương trình cùng chiều.",
+              "text": "Nhân tử thứ nhất 2x - 8 = 0 cho nghiệm x = 4.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phương trình chứa ẩn ở mẫu có thể có nghiệm ngoại lai không thỏa mãn ĐKXĐ.",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu a > b thì a^2 luôn lớn hơn b^2.",
+              "text": "Tổng hai nghiệm của phương trình bằng 7.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3660,35 +3681,35 @@
         },
         {
           "id": 2,
-          "stem": "Cho bất phương trình $2(x - 3) \\le 5x + 3$:",
+          "stem": "Bài toán thực tế học tập (Mã đề 04): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Khai triển vế trái: 2x - 6 <= 5x + 3.",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Chuyển vế thu gọn: -3x <= 9.",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chia hai vế cho -3 và đổi chiều: x >= -3.",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Số nguyên âm nhỏ nhất thỏa mãn bất phương trình là -3.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3697,67 +3718,67 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình tích: (x - 5)(x + 2) = 0. Tìm tổng các nghiệm.",
-          "answer": "3",
+          "question": "Giải phương trình: 3x - 12 = 0. Tìm x.",
+          "answer": "4",
           "acceptableAnswers": [
-            "3"
+            "4"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tìm số nguyên dương nhỏ nhất thỏa mãn bất phương trình: 3x - 8 > 0.",
-          "answer": "3",
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 9.",
+          "answer": "5",
           "acceptableAnswers": [
-            "3"
+            "5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Giải phương trình: (x + 2)/(x - 2) - 1 = 4/(x - 2). Phương trình có bao nhiêu nghiệm?",
-          "answer": "0",
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
           "acceptableAnswers": [
-            "0"
+            "100"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm m để bất phương trình (m - 2)x + 3 > 0 nghiệm đúng với mọi x < 0.",
-          "answer": "2",
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
           "acceptableAnswers": [
-            "2"
+            "7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình: $(2x - 1)^2 - (x + 3)^2 = 0$.",
-          "rubric": "Áp dụng HĐT hiệu hai bình phương: (2x - 1 - x - 3)(2x - 1 + x + 3) = 0 (0.25đ).\n=> (x - 4)(3x + 2) = 0 => x = 4 hoặc x = -2/3 (0.25đ)."
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 4}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 4) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 4x - x + 2 = x^2 - 2x <=> (4 + 1)x = -2 => x = -2/(4 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Giải bất phương trình sau và biểu diễn tập nghiệm trên trục số: $\\frac{2x - 3}{4} - \\frac{x - 1}{3} > 1$.",
-          "rubric": "Quy đồng khử mẫu với MTC = 12: 3(2x - 3) - 4(x - 1) > 12 (0.25đ).\n=> 6x - 9 - 4x + 4 > 12 => 2x - 5 > 12 => 2x > 17 => x > 8,5 (0.25đ)."
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho $a, b > 0$. Chứng minh bất đẳng thức: $\\frac{a}{b} + \\frac{b}{a} \\ge 2$. Dấu bằng xảy ra khi nào?",
-          "rubric": "Xét hiệu: a/b + b/a - 2 = (a^2 + b^2 - 2ab)/(ab) = (a - b)^2 / (ab) (0.25đ).\nVì (a - b)^2 >= 0 và ab > 0 với mọi a, b > 0 nên (a - b)^2 / (ab) >= 0 => a/b + b/a >= 2.\nDấu '=' xảy ra khi a = b (0.25đ)."
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     },
     "c2_9_bai4_test5": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình & Bất phương trình - Bài kiểm tra số 5 (💡 Phương trình tích & Bất phương trình)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
@@ -3769,7 +3790,7 @@
             "$A(x) \\cdot B(x) = 0$",
             "$A(x) + B(x) = 0$",
             "$\\frac{A(x)}{B(x)} = 0$",
-            "$A(x) = B(x)$"
+            "$A(x) - B(x) = 0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3777,12 +3798,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Khi nhân hai vế của một bất đẳng thức với cùng một số âm, ta phải:",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{5x - 10} = 1$ là:",
           "options": [
-            "Đổi chiều bất đẳng thức",
-            "Giữ nguyên chiều",
-            "Nhân thêm số $-1$",
-            "Đổi số thành số nghịch đảo"
+            "$x \\neq 2$",
+            "$x \\neq 0$",
+            "$x > 2$",
+            "$x \\neq 5$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3790,12 +3811,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Nghiệm của bất phương trình $2x > 6$ là:",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$x > 3$",
-            "$x < 3$",
-            "$x > 4$",
-            "$x \\ge 3$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3803,12 +3824,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phương trình $\\frac{x}{x-3} = 2$ là:",
+          "question": "Nghiệm của bất phương trình $6x > 12$ là:",
           "options": [
-            "$x \\neq 3$",
-            "$x \\neq 0$",
-            "$x > 3$",
-            "$x \\neq -3$"
+            "$x > 2$",
+            "$x < 2$",
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3816,12 +3837,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình tích $(x - 3)(2x + 4) = 0$ là:",
+          "question": "Tập nghiệm của phương trình $(x - 5)(2x + 6) = 0$ là:",
           "options": [
-            "$x = 3$ hoặc $x = -2$",
-            "$x = 3$ hoặc $x = 2$",
-            "$x = -3$ hoặc $x = -2$",
-            "$x = 3$"
+            "$\\{5; -3\\}$",
+            "$\\{-5; 3\\}$",
+            "$\\{5; 3\\}$",
+            "$\\{-5; -3\\}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3829,12 +3850,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Tập nghiệm của bất phương trình $-3x + 9 \\ge 0$ là:",
+          "question": "Bất phương trình $2x - 5 \\le x + 8$ có nghiệm là:",
           "options": [
-            "$x \\le 3$",
-            "$x \\ge 3$",
-            "$x < 3$",
-            "$x > -3$"
+            "$x \\le 13$",
+            "$x \\ge 13$",
+            "$x < 8$",
+            "$x \\le 3$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3842,12 +3863,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phương trình $\\frac{x+1}{x-1} = 1$ có số nghiệm là:",
+          "question": "Giá trị $x = 5$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$0$ (vô nghiệm)",
-            "$1$ nghiệm",
-            "$2$ nghiệm",
-            "Vô số nghiệm"
+            "$2x - 1 < 11$",
+            "$3x > 17$",
+            "$x + 5 \\le 5$",
+            "$-x > -4$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3855,12 +3876,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Cho $a < b$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Giải phương trình $\\frac{x + 5}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "$2a - 3 < 2b - 3$",
-            "$-3a < -3b$",
-            "$a + 5 > b + 5$",
-            "$a^2 < b^2$"
+            "$x = 7$",
+            "$x = 3$",
+            "$x = 5$",
+            "Vô nghiệm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3868,12 +3889,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tìm số nguyên $x$ lớn nhất thỏa mãn bất phương trình $4x - 5 < 2x + 8$:",
+          "question": "Một hãng taxi có giá mở cửa là 5,000,000 đồng cho km đầu tiên và 80,000 đồng cho mỗi km tiếp theo. Với số tiền 150,000 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$x = 6$",
-            "$x = 7$",
-            "$x = 5$",
-            "$x = 8$"
+            "-60 km",
+            "-61 km",
+            "1 km",
+            "12 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3881,12 +3902,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Giải phương trình $\\frac{x}{x-2} + \\frac{1}{x+2} = \\frac{4}{x^2-4}$ ta được nghiệm là:",
+          "question": "Một thang máy có tải trọng tối đa 150000 kg. Nhân viên nặng 5000000 kg mang theo các kiện hàng mỗi kiện nặng 80000 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "$x = -3$",
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 3$"
+            "-61 kiện",
+            "-60 kiện",
+            "1 kiện",
+            "20 kiện"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3894,12 +3915,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một người có 500 000 đồng đi siêu thị. Người đó mua một thùng sữa giá 280 000 đồng và một số gói bánh giá 35 000 đồng/gói. Người đó có thể mua được tối đa bao nhiêu gói bánh?",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "$6$ gói",
-            "$7$ gói",
-            "$5$ gói",
-            "$8$ gói"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3907,12 +3928,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm $m$ để phương trình $\\frac{x-m}{x-1} + \\frac{x-1}{x-m} = 2$ có nghiệm duy nhất:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 5}{2} + \\frac{x - 6}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$m \\neq 1$",
-            "$m = 1$",
-            "Không tồn tại $m$",
-            "$m > 0$"
+            "$x = 6$",
+            "$x = 5$",
+            "$x = 7$",
+            "$x = 4$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3921,33 +3942,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phương trình và bất phương trình bậc nhất một ẩn (Mã đề 5):",
+          "stem": "Xét phương trình tích $(2x - 10)(x + 3) = 0$ (Đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Bất phương trình ax + b < 0 (với a khác 0) luôn có vô số nghiệm.",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi cộng cùng một số vào hai vế của một bất phương trình ta được bất phương trình cùng chiều.",
+              "text": "Nhân tử thứ nhất 2x - 10 = 0 cho nghiệm x = 5.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phương trình chứa ẩn ở mẫu có thể có nghiệm ngoại lai không thỏa mãn ĐKXĐ.",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu a > b thì a^2 luôn lớn hơn b^2.",
+              "text": "Tổng hai nghiệm của phương trình bằng 8.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3955,35 +3976,35 @@
         },
         {
           "id": 2,
-          "stem": "Cho bất phương trình $2(x - 3) \\le 5x + 3$:",
+          "stem": "Bài toán thực tế học tập (Mã đề 05): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Khai triển vế trái: 2x - 6 <= 5x + 3.",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Chuyển vế thu gọn: -3x <= 9.",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chia hai vế cho -3 và đổi chiều: x >= -3.",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Số nguyên âm nhỏ nhất thỏa mãn bất phương trình là -3.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3992,67 +4013,67 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình tích: (x - 5)(x + 2) = 0. Tìm tổng các nghiệm.",
-          "answer": "3",
+          "question": "Giải phương trình: 3x - 15 = 0. Tìm x.",
+          "answer": "5",
           "acceptableAnswers": [
-            "3"
+            "5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tìm số nguyên dương nhỏ nhất thỏa mãn bất phương trình: 3x - 8 > 0.",
-          "answer": "3",
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 11.",
+          "answer": "6",
           "acceptableAnswers": [
-            "3"
+            "6"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Giải phương trình: (x + 2)/(x - 2) - 1 = 4/(x - 2). Phương trình có bao nhiêu nghiệm?",
-          "answer": "0",
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
           "acceptableAnswers": [
-            "0"
+            "100"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm m để bất phương trình (m - 2)x + 3 > 0 nghiệm đúng với mọi x < 0.",
-          "answer": "2",
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
           "acceptableAnswers": [
-            "2"
+            "7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình: $(2x - 1)^2 - (x + 3)^2 = 0$.",
-          "rubric": "Áp dụng HĐT hiệu hai bình phương: (2x - 1 - x - 3)(2x - 1 + x + 3) = 0 (0.25đ).\n=> (x - 4)(3x + 2) = 0 => x = 4 hoặc x = -2/3 (0.25đ)."
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 5}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 5) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 5x - x + 2 = x^2 - 2x <=> (5 + 1)x = -2 => x = -2/(5 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Giải bất phương trình sau và biểu diễn tập nghiệm trên trục số: $\\frac{2x - 3}{4} - \\frac{x - 1}{3} > 1$.",
-          "rubric": "Quy đồng khử mẫu với MTC = 12: 3(2x - 3) - 4(x - 1) > 12 (0.25đ).\n=> 6x - 9 - 4x + 4 > 12 => 2x - 5 > 12 => 2x > 17 => x > 8,5 (0.25đ)."
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho $a, b > 0$. Chứng minh bất đẳng thức: $\\frac{a}{b} + \\frac{b}{a} \\ge 2$. Dấu bằng xảy ra khi nào?",
-          "rubric": "Xét hiệu: a/b + b/a - 2 = (a^2 + b^2 - 2ab)/(ab) = (a - b)^2 / (ab) (0.25đ).\nVì (a - b)^2 >= 0 và ab > 0 với mọi a, b > 0 nên (a - b)^2 / (ab) >= 0 => a/b + b/a >= 2.\nDấu '=' xảy ra khi a = b (0.25đ)."
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     },
     "c2_9_bai4_test6": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình & Bất phương trình - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
@@ -4064,7 +4085,7 @@
             "$A(x) \\cdot B(x) = 0$",
             "$A(x) + B(x) = 0$",
             "$\\frac{A(x)}{B(x)} = 0$",
-            "$A(x) = B(x)$"
+            "$A(x) - B(x) = 0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4072,12 +4093,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Khi nhân hai vế của một bất đẳng thức với cùng một số âm, ta phải:",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{6x - 12} = 1$ là:",
           "options": [
-            "Đổi chiều bất đẳng thức",
-            "Giữ nguyên chiều",
-            "Nhân thêm số $-1$",
-            "Đổi số thành số nghịch đảo"
+            "$x \\neq 2$",
+            "$x \\neq 0$",
+            "$x > 2$",
+            "$x \\neq 6$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4085,12 +4106,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Nghiệm của bất phương trình $2x > 6$ là:",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$x > 3$",
-            "$x < 3$",
-            "$x > 4$",
-            "$x \\ge 3$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4098,12 +4119,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phương trình $\\frac{x}{x-3} = 2$ là:",
+          "question": "Nghiệm của bất phương trình $7x > 14$ là:",
           "options": [
-            "$x \\neq 3$",
-            "$x \\neq 0$",
-            "$x > 3$",
-            "$x \\neq -3$"
+            "$x > 2$",
+            "$x < 2$",
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4111,12 +4132,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình tích $(x - 3)(2x + 4) = 0$ là:",
+          "question": "Tập nghiệm của phương trình $(x - 6)(2x + 6) = 0$ là:",
           "options": [
-            "$x = 3$ hoặc $x = -2$",
-            "$x = 3$ hoặc $x = 2$",
-            "$x = -3$ hoặc $x = -2$",
-            "$x = 3$"
+            "$\\{6; -3\\}$",
+            "$\\{-6; 3\\}$",
+            "$\\{6; 3\\}$",
+            "$\\{-6; -3\\}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4124,12 +4145,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Tập nghiệm của bất phương trình $-3x + 9 \\ge 0$ là:",
+          "question": "Bất phương trình $2x - 6 \\le x + 9$ có nghiệm là:",
           "options": [
-            "$x \\le 3$",
-            "$x \\ge 3$",
-            "$x < 3$",
-            "$x > -3$"
+            "$x \\le 15$",
+            "$x \\ge 15$",
+            "$x < 9$",
+            "$x \\le 3$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4137,12 +4158,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phương trình $\\frac{x+1}{x-1} = 1$ có số nghiệm là:",
+          "question": "Giá trị $x = 6$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$0$ (vô nghiệm)",
-            "$1$ nghiệm",
-            "$2$ nghiệm",
-            "Vô số nghiệm"
+            "$2x - 1 < 13$",
+            "$3x > 20$",
+            "$x + 5 \\le 6$",
+            "$-x > -5$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4150,12 +4171,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Cho $a < b$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Giải phương trình $\\frac{x + 6}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "$2a - 3 < 2b - 3$",
-            "$-3a < -3b$",
-            "$a + 5 > b + 5$",
-            "$a^2 < b^2$"
+            "$x = 8$",
+            "$x = 4$",
+            "$x = 6$",
+            "Vô nghiệm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4163,12 +4184,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tìm số nguyên $x$ lớn nhất thỏa mãn bất phương trình $4x - 5 < 2x + 8$:",
+          "question": "Một hãng taxi có giá mở cửa là 5,000 đồng cho km đầu tiên và 120 đồng cho mỗi km tiếp theo. Với số tiền 2,000 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$x = 6$",
-            "$x = 7$",
-            "$x = 5$",
-            "$x = 8$"
+            "-24 km",
+            "-25 km",
+            "16 km",
+            "12 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4176,12 +4197,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Giải phương trình $\\frac{x}{x-2} + \\frac{1}{x+2} = \\frac{4}{x^2-4}$ ta được nghiệm là:",
+          "question": "Một thang máy có tải trọng tối đa 2000 kg. Nhân viên nặng 5000 kg mang theo các kiện hàng mỗi kiện nặng 120 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "$x = -3$",
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 3$"
+            "-25 kiện",
+            "-24 kiện",
+            "16 kiện",
+            "20 kiện"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4189,12 +4210,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một người có 500 000 đồng đi siêu thị. Người đó mua một thùng sữa giá 280 000 đồng và một số gói bánh giá 35 000 đồng/gói. Người đó có thể mua được tối đa bao nhiêu gói bánh?",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "$6$ gói",
-            "$7$ gói",
-            "$5$ gói",
-            "$8$ gói"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4202,12 +4223,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm $m$ để phương trình $\\frac{x-m}{x-1} + \\frac{x-1}{x-m} = 2$ có nghiệm duy nhất:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 6}{2} + \\frac{x - 7}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$m \\neq 1$",
-            "$m = 1$",
-            "Không tồn tại $m$",
-            "$m > 0$"
+            "$x = 7$",
+            "$x = 6$",
+            "$x = 8$",
+            "$x = 5$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4216,33 +4237,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phương trình và bất phương trình bậc nhất một ẩn (Mã đề 6):",
+          "stem": "Xét phương trình tích $(2x - 12)(x + 3) = 0$ (Đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Bất phương trình ax + b < 0 (với a khác 0) luôn có vô số nghiệm.",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi cộng cùng một số vào hai vế của một bất phương trình ta được bất phương trình cùng chiều.",
+              "text": "Nhân tử thứ nhất 2x - 12 = 0 cho nghiệm x = 6.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phương trình chứa ẩn ở mẫu có thể có nghiệm ngoại lai không thỏa mãn ĐKXĐ.",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu a > b thì a^2 luôn lớn hơn b^2.",
+              "text": "Tổng hai nghiệm của phương trình bằng 9.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4250,35 +4271,35 @@
         },
         {
           "id": 2,
-          "stem": "Cho bất phương trình $2(x - 3) \\le 5x + 3$:",
+          "stem": "Bài toán thực tế học tập (Mã đề 06): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Khai triển vế trái: 2x - 6 <= 5x + 3.",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Chuyển vế thu gọn: -3x <= 9.",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chia hai vế cho -3 và đổi chiều: x >= -3.",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Số nguyên âm nhỏ nhất thỏa mãn bất phương trình là -3.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4287,67 +4308,67 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình tích: (x - 5)(x + 2) = 0. Tìm tổng các nghiệm.",
-          "answer": "3",
+          "question": "Giải phương trình: 3x - 18 = 0. Tìm x.",
+          "answer": "6",
           "acceptableAnswers": [
-            "3"
+            "6"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tìm số nguyên dương nhỏ nhất thỏa mãn bất phương trình: 3x - 8 > 0.",
-          "answer": "3",
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 13.",
+          "answer": "7",
           "acceptableAnswers": [
-            "3"
+            "7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Giải phương trình: (x + 2)/(x - 2) - 1 = 4/(x - 2). Phương trình có bao nhiêu nghiệm?",
-          "answer": "0",
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
           "acceptableAnswers": [
-            "0"
+            "100"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm m để bất phương trình (m - 2)x + 3 > 0 nghiệm đúng với mọi x < 0.",
-          "answer": "2",
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
           "acceptableAnswers": [
-            "2"
+            "7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình: $(2x - 1)^2 - (x + 3)^2 = 0$.",
-          "rubric": "Áp dụng HĐT hiệu hai bình phương: (2x - 1 - x - 3)(2x - 1 + x + 3) = 0 (0.25đ).\n=> (x - 4)(3x + 2) = 0 => x = 4 hoặc x = -2/3 (0.25đ)."
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 6}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 6) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 6x - x + 2 = x^2 - 2x <=> (6 + 1)x = -2 => x = -2/(6 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Giải bất phương trình sau và biểu diễn tập nghiệm trên trục số: $\\frac{2x - 3}{4} - \\frac{x - 1}{3} > 1$.",
-          "rubric": "Quy đồng khử mẫu với MTC = 12: 3(2x - 3) - 4(x - 1) > 12 (0.25đ).\n=> 6x - 9 - 4x + 4 > 12 => 2x - 5 > 12 => 2x > 17 => x > 8,5 (0.25đ)."
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho $a, b > 0$. Chứng minh bất đẳng thức: $\\frac{a}{b} + \\frac{b}{a} \\ge 2$. Dấu bằng xảy ra khi nào?",
-          "rubric": "Xét hiệu: a/b + b/a - 2 = (a^2 + b^2 - 2ab)/(ab) = (a - b)^2 / (ab) (0.25đ).\nVì (a - b)^2 >= 0 và ab > 0 với mọi a, b > 0 nên (a - b)^2 / (ab) >= 0 => a/b + b/a >= 2.\nDấu '=' xảy ra khi a = b (0.25đ)."
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     },
     "c2_9_bai4_test7": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình & Bất phương trình - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương II: Phương trình và bất phương trình bậc nhất một ẩn - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
@@ -4359,7 +4380,7 @@
             "$A(x) \\cdot B(x) = 0$",
             "$A(x) + B(x) = 0$",
             "$\\frac{A(x)}{B(x)} = 0$",
-            "$A(x) = B(x)$"
+            "$A(x) - B(x) = 0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4367,12 +4388,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Khi nhân hai vế của một bất đẳng thức với cùng một số âm, ta phải:",
+          "question": "Điều kiện xác định của phương trình $\\frac{2x}{7x - 14} = 1$ là:",
           "options": [
-            "Đổi chiều bất đẳng thức",
-            "Giữ nguyên chiều",
-            "Nhân thêm số $-1$",
-            "Đổi số thành số nghịch đảo"
+            "$x \\neq 2$",
+            "$x \\neq 0$",
+            "$x > 2$",
+            "$x \\neq 7$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4380,12 +4401,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Nghiệm của bất phương trình $2x > 6$ là:",
+          "question": "Khi nhân hai vế của bất đẳng thức với một số âm, ta phải:",
           "options": [
-            "$x > 3$",
-            "$x < 3$",
-            "$x > 4$",
-            "$x \\ge 3$"
+            "Đổi chiều bất đẳng thức",
+            "Giữ nguyên chiều",
+            "Nhân thêm số 0",
+            "Lấy nghịch đảo"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4393,12 +4414,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phương trình $\\frac{x}{x-3} = 2$ là:",
+          "question": "Nghiệm của bất phương trình $8x > 16$ là:",
           "options": [
-            "$x \\neq 3$",
-            "$x \\neq 0$",
-            "$x > 3$",
-            "$x \\neq -3$"
+            "$x > 2$",
+            "$x < 2$",
+            "$x \\ge 2$",
+            "$x > 1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4406,12 +4427,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình tích $(x - 3)(2x + 4) = 0$ là:",
+          "question": "Tập nghiệm của phương trình $(x - 7)(2x + 6) = 0$ là:",
           "options": [
-            "$x = 3$ hoặc $x = -2$",
-            "$x = 3$ hoặc $x = 2$",
-            "$x = -3$ hoặc $x = -2$",
-            "$x = 3$"
+            "$\\{7; -3\\}$",
+            "$\\{-7; 3\\}$",
+            "$\\{7; 3\\}$",
+            "$\\{-7; -3\\}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4419,12 +4440,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Tập nghiệm của bất phương trình $-3x + 9 \\ge 0$ là:",
+          "question": "Bất phương trình $2x - 7 \\le x + 10$ có nghiệm là:",
           "options": [
-            "$x \\le 3$",
-            "$x \\ge 3$",
-            "$x < 3$",
-            "$x > -3$"
+            "$x \\le 17$",
+            "$x \\ge 17$",
+            "$x < 10$",
+            "$x \\le 3$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4432,12 +4453,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phương trình $\\frac{x+1}{x-1} = 1$ có số nghiệm là:",
+          "question": "Giá trị $x = 7$ là nghiệm của bất phương trình nào sau đây?",
           "options": [
-            "$0$ (vô nghiệm)",
-            "$1$ nghiệm",
-            "$2$ nghiệm",
-            "Vô số nghiệm"
+            "$2x - 1 < 15$",
+            "$3x > 23$",
+            "$x + 5 \\le 7$",
+            "$-x > -6$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4445,12 +4466,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Cho $a < b$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Giải phương trình $\\frac{x + 7}{x - 1} = 2$ ta được nghiệm là:",
           "options": [
-            "$2a - 3 < 2b - 3$",
-            "$-3a < -3b$",
-            "$a + 5 > b + 5$",
-            "$a^2 < b^2$"
+            "$x = 9$",
+            "$x = 5$",
+            "$x = 7$",
+            "Vô nghiệm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4458,12 +4479,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tìm số nguyên $x$ lớn nhất thỏa mãn bất phương trình $4x - 5 < 2x + 8$:",
+          "question": "Một hãng taxi có giá mở cửa là 15,000,000 đồng cho km đầu tiên và 12,000,000 đồng cho mỗi km tiếp theo. Với số tiền 15 đồng, khách có thể đi tối đa quãng đường (km) là:",
           "options": [
-            "$x = 6$",
-            "$x = 7$",
-            "$x = 5$",
-            "$x = 8$"
+            "-1 km",
+            "-2 km",
+            "0 km",
+            "12 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4471,12 +4492,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Giải phương trình $\\frac{x}{x-2} + \\frac{1}{x+2} = \\frac{4}{x^2-4}$ ta được nghiệm là:",
+          "question": "Một thang máy có tải trọng tối đa 15 kg. Nhân viên nặng 15000000 kg mang theo các kiện hàng mỗi kiện nặng 12000000 kg. Số kiện hàng tối đa nhân viên đó có thể mang cùng là:",
           "options": [
-            "$x = -3$",
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 3$"
+            "-2 kiện",
+            "-1 kiện",
+            "0 kiện",
+            "20 kiện"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4484,12 +4505,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một người có 500 000 đồng đi siêu thị. Người đó mua một thùng sữa giá 280 000 đồng và một số gói bánh giá 35 000 đồng/gói. Người đó có thể mua được tối đa bao nhiêu gói bánh?",
+          "question": "Một xưởng sản xuất có chi phí cố định là 10 triệu đồng/tháng. Mỗi sản phẩm bán ra thu lãi 50 000 đồng. Xưởng cần sản xuất ít nhất bao nhiêu sản phẩm mỗi tháng để bắt đầu có lãi?",
           "options": [
-            "$6$ gói",
-            "$7$ gói",
-            "$5$ gói",
-            "$8$ gói"
+            "201 sản phẩm",
+            "200 sản phẩm",
+            "150 sản phẩm",
+            "250 sản phẩm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4497,12 +4518,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm $m$ để phương trình $\\frac{x-m}{x-1} + \\frac{x-1}{x-m} = 2$ có nghiệm duy nhất:",
+          "question": "Số nguyên $x$ lớn nhất thỏa mãn bất phương trình $\\frac{x - 7}{2} + \\frac{x - 8}{3} < \\frac{x + 1}{6}$ là:",
           "options": [
-            "$m \\neq 1$",
-            "$m = 1$",
-            "Không tồn tại $m$",
-            "$m > 0$"
+            "$x = 8$",
+            "$x = 7$",
+            "$x = 9$",
+            "$x = 6$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4511,33 +4532,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phương trình và bất phương trình bậc nhất một ẩn (Mã đề 7):",
+          "stem": "Xét phương trình tích $(2x - 14)(x + 3) = 0$ (Đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Bất phương trình ax + b < 0 (với a khác 0) luôn có vô số nghiệm.",
+              "level": "Nhận biết",
+              "text": "Phương trình đã cho là phương trình tích gồm hai nhân tử bậc nhất.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi cộng cùng một số vào hai vế của một bất phương trình ta được bất phương trình cùng chiều.",
+              "text": "Nhân tử thứ nhất 2x - 14 = 0 cho nghiệm x = 7.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phương trình chứa ẩn ở mẫu có thể có nghiệm ngoại lai không thỏa mãn ĐKXĐ.",
+              "text": "Nhân tử thứ hai x + 3 = 0 cho nghiệm x = -3.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu a > b thì a^2 luôn lớn hơn b^2.",
+              "text": "Tổng hai nghiệm của phương trình bằng 10.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4545,35 +4566,35 @@
         },
         {
           "id": 2,
-          "stem": "Cho bất phương trình $2(x - 3) \\le 5x + 3$:",
+          "stem": "Bài toán thực tế học tập (Mã đề 07): Bạn Hùng có điểm 4 bài kiểm tra môn Toán lần lượt là 7; 8; 8; 9. Bạn còn 1 bài kiểm tra cuối kỳ hệ số 2. Hùng muốn điểm trung bình môn cả kỳ đạt từ 8,5 trở lên.",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Khai triển vế trái: 2x - 6 <= 5x + 3.",
+              "level": "Nhận biết",
+              "text": "Tổng số hệ số điểm kiểm tra môn Toán trong kỳ là 1 + 1 + 1 + 1 + 2 = 6.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Chuyển vế thu gọn: -3x <= 9.",
+              "text": "Tổng điểm 4 bài kiểm tra đầu tiên là: 7 + 8 + 8 + 9 = 32 điểm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chia hai vế cho -3 và đổi chiều: x >= -3.",
+              "text": "Bất phương trình tìm điểm bài cuối kỳ x là: (32 + 2x) / 6 >= 8,5.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Số nguyên âm nhỏ nhất thỏa mãn bất phương trình là -3.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bạn Hùng chỉ cần đạt bài cuối kỳ từ 9,0 điểm là hoàn thành mục tiêu.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4582,62 +4603,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình tích: (x - 5)(x + 2) = 0. Tìm tổng các nghiệm.",
-          "answer": "3",
+          "question": "Giải phương trình: 3x - 21 = 0. Tìm x.",
+          "answer": "7",
           "acceptableAnswers": [
-            "3"
+            "7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tìm số nguyên dương nhỏ nhất thỏa mãn bất phương trình: 3x - 8 > 0.",
-          "answer": "3",
+          "question": "Tìm nghiệm nguyên dương nhỏ nhất của bất phương trình: 2x > 15.",
+          "answer": "8",
           "acceptableAnswers": [
-            "3"
+            "8"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Giải phương trình: (x + 2)/(x - 2) - 1 = 4/(x - 2). Phương trình có bao nhiêu nghiệm?",
-          "answer": "0",
+          "question": "Một công ty viễn thông thu cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi. Bạn Lan có ngân sách tối đa 150 000 đồng/tháng. Hỏi bạn Lan có thể gọi tối đa bao nhiêu phút?",
+          "answer": "100",
           "acceptableAnswers": [
-            "0"
+            "100"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm m để bất phương trình (m - 2)x + 3 > 0 nghiệm đúng với mọi x < 0.",
-          "answer": "2",
+          "level": "Vận dụng",
+          "question": "Tìm số nguyên x lớn nhất thỏa mãn: (x - 1)/2 - (x - 2)/3 > 1.",
+          "answer": "7",
           "acceptableAnswers": [
-            "2"
+            "7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Giải phương trình: $(2x - 1)^2 - (x + 3)^2 = 0$.",
-          "rubric": "Áp dụng HĐT hiệu hai bình phương: (2x - 1 - x - 3)(2x - 1 + x + 3) = 0 (0.25đ).\n=> (x - 4)(3x + 2) = 0 => x = 4 hoặc x = -2/3 (0.25đ)."
+          "question": "Giải phương trình chứa ẩn ở mẫu: $\\frac{x + 7}{x - 2} - \\frac{1}{x} = 1$.",
+          "rubric": "ĐKXĐ: x khác 0 và x khác 2 (0.25đ).\nQuy đồng mẫu thức chung x(x - 2): x(x + 7) - (x - 2) = x(x - 2) (0.25đ).\n<=> x^2 + 7x - x + 2 = x^2 - 2x <=> (7 + 1)x = -2 => x = -2/(7 + 1) (thỏa mãn ĐKXĐ) (0.25đ).\nKết luận tập nghiệm (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Giải bất phương trình sau và biểu diễn tập nghiệm trên trục số: $\\frac{2x - 3}{4} - \\frac{x - 1}{3} > 1$.",
-          "rubric": "Quy đồng khử mẫu với MTC = 12: 3(2x - 3) - 4(x - 1) > 12 (0.25đ).\n=> 6x - 9 - 4x + 4 > 12 => 2x - 5 > 12 => 2x > 17 => x > 8,5 (0.25đ)."
+          "question": "Một người có 300 triệu đồng gửi vào hai sổ tiết kiệm tại ngân hàng. Sổ thứ nhất kỳ hạn 12 tháng lãi suất 6%/năm. Sổ thứ hai kỳ hạn 6 tháng lãi suất 5%/năm. Sau một năm, tổng số tiền lãi nhận được là 16,8 triệu đồng. Tính số tiền gửi ở mỗi sổ.",
+          "rubric": "Gọi số tiền gửi ở sổ thứ nhất là x (triệu đồng), sổ thứ hai là y (triệu đồng) (0 < x, y < 300) (0.25đ).\nTa có hệ pt: x + y = 300 và 0,06x + 0,05y = 16,8 (0.25đ).\nGiải ra được x = 180 (triệu đồng) và y = 120 (triệu đồng) (0.25đ).\nKết luận số tiền mỗi sổ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho $a, b > 0$. Chứng minh bất đẳng thức: $\\frac{a}{b} + \\frac{b}{a} \\ge 2$. Dấu bằng xảy ra khi nào?",
-          "rubric": "Xét hiệu: a/b + b/a - 2 = (a^2 + b^2 - 2ab)/(ab) = (a - b)^2 / (ab) (0.25đ).\nVì (a - b)^2 >= 0 và ab > 0 với mọi a, b > 0 nên (a - b)^2 / (ab) >= 0 => a/b + b/a >= 2.\nDấu '=' xảy ra khi a = b (0.25đ)."
+          "question": "Cho hai số thực dương $a, b$ thỏa mãn $a + b = 2$. Chứng minh rằng: $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.",
+          "rubric": "Áp dụng bất đẳng thức Cauchy cho hai số dương a, b: a + b >= 2 căn(ab) => 2 >= 2 căn(ab) => ab <= 1 (0.25đ).\nTa có: 1/a + 1/b = (a + b)/(ab) = 2/(ab) (0.25đ).\nVì ab <= 1 và ab > 0 nên 2/(ab) >= 2/1 = 2 (0.25đ).\nDấu '=' xảy ra khi a = b = 1. Bài toán được chứng minh (0.25đ)."
         }
       ]
     }

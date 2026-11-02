@@ -3,7 +3,7 @@
   "chapterId": "c8_7",
   "chapterTitle": "Chương VIII: Làm quen với biến cố và xác suất của biến cố",
   "totalExams": 13,
-  "updatedAt": "2026-11-01 19:20:50",
+  "updatedAt": "2026-11-02 07:40:53",
   "exams": {
     "c8_7_bai1_test1": {
       "title": "Toán 7 - Bài 29: Làm quen với biến cố - Đề 1 (Cơ bản)",
@@ -1886,958 +1886,901 @@
       ]
     },
     "c8_7_bai3_test1": {
-      "title": "Toán 7 - Bài kiểm tra cuối Chương VIII: Biến cố và xác suất - Đề 1 (Cơ bản)",
-      "time": 45,
-      "totalPoints": 10.0,
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "question": "Biến cố nào sau đây chắc chắn xảy ra?",
+          "level": "Nhận biết",
+          "question": "Biến cố chắc chắn là biến cố (Đề 01):",
           "options": [
-            "B. Một tam giác có tổng ba góc bằng 180 độ",
-            "A. Tháng 4 có 31 ngày",
-            "C. Gieo một con xúc xắc được mặt 6 chấm",
-            "D. Ngày mai trời nắng đẹp"
+            "Luôn xảy ra trong phép thử",
+            "Không bao giờ xảy ra",
+            "Có thể xảy ra hoặc không",
+            "Có xác suất bằng 0"
           ],
-          "answer": "B",
-          "explanation": "Tổng ba góc của một tam giác luôn bằng 180 độ theo định lí hình học, nên đây là biến cố chắc chắn.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "question": "Biến cố nào sau đây không thể xảy ra?",
+          "level": "Nhận biết",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "C. Gieo một con xúc xắc được mặt 0 chấm",
-            "D. Lấy ngẫu nhiên một viên bi đỏ từ hộp có cả bi xanh và bi đỏ",
-            "B. Chọn ngẫu nhiên một ngày trong tuần được ngày Chủ nhật",
-            "A. Tung một đồng xu được mặt ngửa"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
-          "answer": "C",
-          "explanation": "Con xúc xắc 6 mặt chỉ có từ 1 đến 6 chấm, không có mặt 0 chấm.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "question": "Tung một đồng xu cân đối 1 lần. Xác suất xuất hiện mặt ngửa là:",
+          "level": "Nhận biết",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "A. 1",
-            "D. 0,25",
-            "C. 0,5",
-            "B. 0"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
-          "answer": "C",
-          "explanation": "Xác suất xuất hiện mặt ngửa là $\\frac{1}{2} = 0,5$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "question": "Gieo một con xúc xắc 6 mặt cân đối. Biến cố nào sau đây có xác suất bằng $\\frac{1}{2}$?",
+          "level": "Nhận biết",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "D. Xuất hiện mặt có số chấm chia hết cho 5",
-            "B. Xuất hiện mặt 6 chấm",
-            "A. Xuất hiện mặt có số chấm là số lẻ",
-            "C. Xuất hiện mặt có số chấm lớn hơn 4"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
-          "answer": "A",
-          "explanation": "Số chấm lẻ gồm 1, 3, 5 (3 kết quả). Xác suất là $\\frac{3}{6} = \\frac{1}{2}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "question": "Một hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ. Xác suất rút được thẻ ghi số lớn hơn 6 là:",
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
-            "C. $\\frac{1}{2}$",
-            "B. $\\frac{3}{5}$",
-            "A. $\\frac{2}{5}$",
-            "D. $\\frac{7}{10}$"
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
-          "answer": "A",
-          "explanation": "Các số lớn hơn 6 là 7, 8, 9, 10 (4 số). Xác suất là $\\frac{4}{10} = \\frac{2}{5}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "question": "Trong hộp có 3 quả bóng xanh, 4 quả bóng đỏ và 5 quả bóng vàng cùng kích thước. Lấy ngẫu nhiên 1 quả. Xác suất lấy được bóng vàng là:",
+          "level": "Thông hiểu",
+          "question": "Một túi có 6 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "D. $\\frac{7}{12}$",
-            "A. $\\frac{1}{4}$",
-            "C. $\\frac{5}{12}$",
-            "B. $\\frac{1}{3}$"
+            "$\\frac{6}{11}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
-          "answer": "C",
-          "explanation": "Tổng số bóng là 3 + 4 + 5 = 12. Xác suất lấy bóng vàng là $\\frac{5}{12}$.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "question": "Gieo một con xúc xắc 6 mặt cân đối. Xác suất xuất hiện mặt có số chấm nhỏ hơn 7 là:",
+          "level": "Thông hiểu",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "C. $\\frac{5}{6}$",
-            "D. $\\frac{1}{6}$",
-            "B. 1",
-            "A. 0"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
-          "answer": "B",
-          "explanation": "Mọi mặt của con xúc xắc đều có số chấm $\\le 6 < 7$ nên đây là biến cố chắc chắn, xác suất bằng 1.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "question": "Một lớp có 18 bạn nam và 18 bạn nữ. Chọn ngẫu nhiên 1 bạn làm lớp trưởng. Khả năng chọn được bạn nam và khả năng chọn được bạn nữ là:",
+          "level": "Thông hiểu",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "D. Không thể so sánh",
-            "B. Khả năng chọn nữ lớn hơn",
-            "A. Khả năng chọn nam lớn hơn",
-            "C. Bằng nhau"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
-          "answer": "C",
-          "explanation": "Số lượng nam và nữ bằng nhau (18 bạn) nên xác suất chọn là bằng nhau.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "question": "Lấy ngẫu nhiên một chữ cái trong cụm từ 'HOC TOT'. Biến cố 'Lấy được chữ O' có bao nhiêu kết quả thuận lợi?",
+          "level": "Vận dụng",
+          "question": "Hội khỏe Phù Đổng trường có 16 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "D. 6",
-            "C. 3",
-            "B. 2",
-            "A. 1"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
-          "answer": "B",
-          "explanation": "Trong cụm từ 'HOC TOT' có 2 chữ O nên có 2 kết quả thuận lợi.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "question": "Gieo hai con xúc xắc cân đối. Biến cố 'Tổng số chấm bằng 14' là:",
+          "level": "Vận dụng",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "C. Biến cố ngẫu nhiên",
-            "A. Biến cố chắc chắn",
-            "D. Biến cố đồng khả năng",
-            "B. Biến cố không thể"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
-          "answer": "B",
-          "explanation": "Tổng số chấm lớn nhất là 6 + 6 = 12 nên không thể bằng 14.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "question": "Một hộp có 20 chiếc bút, trong đó có 6 chiếc bút hỏng. Lấy ngẫu nhiên 1 chiếc bút. Xác suất lấy được chiếc bút sử dụng tốt là:",
+          "level": "Vận dụng",
+          "question": "Trong một hộp có 25 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "A. 0,3",
-            "B. 0,7",
-            "D. 0,4",
-            "C. 0,6"
+            "0.80",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
-          "answer": "B",
-          "explanation": "Số bút dùng tốt là 20 - 6 = 14. Xác suất là $\\frac{14}{20} = 0,7$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "question": "Chọn ngẫu nhiên một tháng trong năm. Xác suất chọn được tháng có 30 ngày là:",
+          "level": "Vận dụng cao",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "A. $\\frac{1}{3}$",
-            "D. $\\frac{7}{12}$",
-            "B. $\\frac{1}{4}$",
-            "C. $\\frac{5}{12}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
-          "answer": "A",
-          "explanation": "Các tháng có đúng 30 ngày là tháng 4, 6, 9, 11 (4 tháng). Xác suất là $\\frac{4}{12} = \\frac{1}{3}$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
-          "id": 13,
-          "stem": "Một hộp đựng 12 tấm thẻ cùng loại được đánh số từ 1 đến 12. Rút ngẫu nhiên một tấm thẻ.",
+          "id": 1,
+          "stem": "Xét tính đúng sai về biến cố (Đề 01):",
           "statements": [
             {
-              "id": "a",
-              "statement": "Số kết quả có thể xảy ra của phép thử là 12 kết quả.",
-              "answer": true,
-              "explanation": "Có 12 thẻ được đánh số từ 1 đến 12."
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "b",
-              "statement": "Biến cố 'Rút được thẻ ghi số chia hết cho 13' là biến cố không thể.",
-              "answer": true,
-              "explanation": "Không có số nào từ 1 đến 12 chia hết cho 13."
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "c",
-              "statement": "Xác suất rút được thẻ ghi số lẻ bằng $\\frac{1}{2}$.",
-              "answer": true,
-              "explanation": "Số lẻ gồm 1, 3, 5, 7, 9, 11 (6 số). Xác suất là $\\frac{6}{12} = \\frac{1}{2}$."
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "d",
-              "statement": "Xác suất rút được thẻ ghi số nguyên tố bằng $\\frac{1}{3}$.",
-              "answer": false,
-              "explanation": "Các số nguyên tố là 2, 3, 5, 7, 11 (5 số). Xác suất là $\\frac{5}{12} \\neq \\frac{1}{3}$."
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
-          "id": 14,
-          "stem": "Tung hai đồng xu cân đối đồng chất một lần.",
+          "id": 2,
+          "stem": "Trong một hộp kín có 11 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 01):",
           "statements": [
             {
-              "id": "a",
-              "statement": "Tổng số kết quả có thể xảy ra của phép thử là 4.",
-              "answer": true,
-              "explanation": "Các kết quả: (S,S), (S,N), (N,S), (N,N)."
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "b",
-              "statement": "Biến cố 'Cả hai đồng xu đều xuất hiện mặt sấp' có xác suất bằng 0,25.",
-              "answer": true,
-              "explanation": "Chỉ có kết quả (S,S). Xác suất là $\\frac{1}{4} = 0,25$."
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 21.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "c",
-              "statement": "Biến cố 'Có ít nhất một đồng xu xuất hiện mặt ngửa' có xác suất bằng 0,75.",
-              "answer": true,
-              "explanation": "Gồm (S,N), (N,S), (N,N) (3 kết quả). Xác suất là $\\frac{3}{4} = 0,75$."
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Xác suất rút được thẻ đen là 10 / (21).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "d",
-              "statement": "Biến cố 'Không có đồng xu nào xuất hiện mặt sấp' là biến cố không thể.",
-              "answer": false,
-              "explanation": "Trường hợp cả hai đồng xu đều ngửa (N,N) thì không có mặt sấp nào. Đây là biến cố ngẫu nhiên."
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
       ],
       "part3": [
         {
-          "id": 15,
-          "question": "Gieo một con xúc xắc 6 mặt cân đối. Tính xác suất để xuất hiện mặt có số chấm là ước của 6 (kết quả viết dưới dạng phân số tối giản).",
-          "answer": "2/3",
-          "explanation": "Các ước của 6 là 1, 2, 3, 6 (4 kết quả). Xác suất là 4/6 = 2/3."
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
+          "acceptableAnswers": [
+            "0.5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
-          "id": 16,
-          "question": "Một túi đựng 15 viên kẹo gồm 6 kẹo dâu và 9 kẹo cam có kích thước giống nhau. Lấy ngẫu nhiên 1 viên kẹo. Tính xác suất lấy được viên kẹo cam (kết quả viết dưới dạng phân số tối giản).",
-          "answer": "3/5",
-          "explanation": "Xác suất = 9/15 = 3/5."
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Một hộp có 7 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "11",
+          "acceptableAnswers": [
+            "11"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
         },
         {
-          "id": 17,
-          "question": "Một hộp có 20 tấm thẻ đánh số từ 1 đến 20. Rút ngẫu nhiên một tấm thẻ. Có bao nhiêu kết quả thuận lợi cho biến cố 'Số trên thẻ chia hết cho cả 2 và 5'?",
-          "answer": "2",
-          "explanation": "Số chia hết cho cả 2 và 5 là số tận cùng bằng 0: 10 và 20 (gồm 2 kết quả)."
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
+          "acceptableAnswers": [
+            "0.45"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
-          "id": 18,
-          "question": "Xác suất của một biến cố A là 0,4. Hỏi xác suất của biến cố không xảy ra A bằng bao nhiêu?",
-          "answer": "0.6",
-          "explanation": "1 - 0,4 = 0,6."
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
+          "acceptableAnswers": [
+            "0.3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
-          "id": 19,
-          "question": "Một hộp kín chứa 20 quả bóng có cùng kích thước và khối lượng, được đánh số từ 1 đến 20. Lấy ngẫu nhiên một quả bóng từ hộp.\na) Tính xác suất để quả bóng lấy ra ghi số chia hết cho 4.\nb) Tính xác suất để quả bóng lấy ra ghi số nguyên tố.\nc) Tính xác suất để quả bóng lấy ra ghi số có chứa chữ số 1.",
-          "rubric": [
-            {
-              "step": "Số kết quả có thể là 20.",
-              "points": 0.1
-            },
-            {
-              "step": "Số chia hết cho 4: 4, 8, 12, 16, 20 (5 số). Xác suất P = 5/20 = 1/4 = 0,25.",
-              "points": 0.3
-            },
-            {
-              "step": "Số nguyên tố: 2, 3, 5, 7, 11, 13, 17, 19 (8 số). Xác suất P = 8/20 = 2/5 = 0,4.",
-              "points": 0.3
-            },
-            {
-              "step": "Số chứa chữ số 1: 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 (11 số). Xác suất P = 11/20 = 0,55.",
-              "points": 0.3
-            }
-          ],
-          "solution": "Tổng số kết quả có thể xảy ra là 20.\na) Các số chia hết cho 4 từ 1 đến 20 là: 4; 8; 12; 16; 20 gồm 5 số thuận lợi.\nXác suất là: $P = \\frac{5}{20} = \\frac{1}{4} = 0,25$.\nb) Các số nguyên tố từ 1 đến 20 là: 2; 3; 5; 7; 11; 13; 17; 19 gồm 8 số thuận lợi.\nXác suất là: $P = \\frac{8}{20} = \\frac{2}{5} = 0,4$.\nc) Các số có chứa chữ số 1 từ 1 đến 20 là: 1; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19 gồm 11 số thuận lợi.\nXác suất là: $P = \\frac{11}{20} = 0,55$."
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một hộp đựng 6 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (6) + 5 = 11 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 6 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (6) / (11) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (11) (0.25đ)."
         },
         {
-          "id": 20,
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt cân đối.\na) Nêu số kết quả có thể xảy ra của phép thử.\nb) Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc bằng 5.\nc) Tính xác suất để cả hai con xúc xắc đều xuất hiện mặt có số chấm là số lẻ.",
-          "rubric": [
-            {
-              "step": "Số kết quả có thể xảy ra: 6 x 6 = 36 kết quả.",
-              "points": 0.3
-            },
-            {
-              "step": "Tổng số chấm bằng 5: (1,4), (2,3), (3,2), (4,1) gồm 4 kết quả. Xác suất là 4/36 = 1/9.",
-              "points": 0.35
-            },
-            {
-              "step": "Cả hai đều lẻ: mỗi con có 3 số lẻ (1, 3, 5), số cặp là 3 x 3 = 9. Xác suất là 9/36 = 1/4 = 0,25.",
-              "points": 0.35
-            }
-          ],
-          "solution": "a) Số kết quả có thể xảy ra khi gieo hai con xúc xắc là: $6 \\times 6 = 36$ kết quả.\nb) Các cặp có tổng số chấm bằng 5 là: (1, 4), (2, 3), (3, 2), (4, 1) gồm 4 kết quả thuận lợi.\nXác suất là: $P = \\frac{4}{36} = \\frac{1}{9}$.\nc) Mỗi con xúc xắc có 3 mặt lẻ {1, 3, 5}. Số kết quả cả hai con đều xuất hiện mặt lẻ là: $3 \\times 3 = 9$ kết quả.\nXác suất là: $P = \\frac{9}{36} = \\frac{1}{4} = 0,25$."
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 110 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (110) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
-          "id": 21,
-          "question": "Một xạ thủ bắn 80 viên đạn vào bia thì có 64 viên trúng bia.\na) Tính xác suất thực nghiệm của biến cố 'Xạ thủ bắn trúng bia'.\nb) Nếu xạ thủ bắn tiếp 150 viên đạn thì ước lượng có khoảng bao nhiêu viên đạn trúng bia?",
-          "rubric": [
-            {
-              "step": "Xác suất thực nghiệm: P = 64/80 = 4/5 = 0,8.",
-              "points": 0.5
-            },
-            {
-              "step": "Ước lượng số viên trúng bia trong 150 viên: 150 x 0,8 = 120 viên.",
-              "points": 0.5
-            }
-          ],
-          "solution": "a) Xác suất thực nghiệm của biến cố 'Xạ thủ bắn trúng bia' là:\n$P_{tn} = \\frac{64}{80} = \\frac{4}{5} = 0,8$.\nb) Khi xạ thủ bắn tiếp 150 viên đạn, số viên đạn ước lượng trúng bia là:\n$150 \\times 0,8 = 120$ (viên đạn)."
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     },
     "c8_7_bai3_test2": {
-      "title": "Toán 7 - Bài kiểm tra cuối Chương VIII: Biến cố và xác suất - Đề 2 (Khá)",
-      "time": 45,
-      "totalPoints": 10.0,
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "question": "Gieo hai con xúc xắc cân đối. Biến cố nào sau đây có xác suất lớn nhất?",
+          "level": "Nhận biết",
+          "question": "Biến cố chắc chắn là biến cố (Đề 02):",
           "options": [
-            "C. Tổng số chấm bằng 12",
-            "A. Tổng số chấm bằng 2",
-            "D. Tổng số chấm bằng 10",
-            "B. Tổng số chấm bằng 7"
+            "Luôn xảy ra trong phép thử",
+            "Không bao giờ xảy ra",
+            "Có thể xảy ra hoặc không",
+            "Có xác suất bằng 0"
           ],
-          "answer": "B",
-          "explanation": "Tổng bằng 7 có tới 6 kết quả thuận lợi (nhiều nhất trong các tổng từ 2 đến 12).",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "question": "Tung 3 đồng xu cân đối đồng thời. Xác suất để có đúng 1 đồng xu xuất hiện mặt sấp là:",
+          "level": "Nhận biết",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "B. $\\frac{3}{8}$",
-            "D. $\\frac{5}{8}$",
-            "C. $\\frac{1}{2}$",
-            "A. $\\frac{1}{8}$"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
-          "answer": "B",
-          "explanation": "Các kết quả có đúng 1 sấp là (S,N,N), (N,S,N), (N,N,S) gồm 3 kết quả trên tổng số 8 kết quả. Xác suất là $\\frac{3}{8}$.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "question": "Một hộp có chứa 15 chiếc thẻ đánh số từ 1 đến 15. Rút ngẫu nhiên một thẻ. Xác suất để số trên thẻ là số chia hết cho 3 nhưng không chia hết cho 2 là:",
+          "level": "Nhận biết",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "B. $\\frac{2}{15}$",
-            "D. $\\frac{4}{15}$",
-            "C. $\\frac{1}{3}$",
-            "A. $\\frac{1}{5}$"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
-          "answer": "A",
-          "explanation": "Các số chia hết cho 3 là 3, 6, 9, 12, 15. Các số không chia hết cho 2 (tức số lẻ) là 3, 9, 15 (gồm 3 số). Xác suất là $\\frac{3}{15} = \\frac{1}{5}$.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "question": "Gieo một con xúc xắc 6 mặt cân đối hai lần liên tiếp. Xác suất để lần thứ nhất được mặt 6 chấm và lần thứ hai được mặt 1 chấm là:",
+          "level": "Nhận biết",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "A. $\\frac{1}{6}$",
-            "D. $\\frac{1}{12}$",
-            "B. $\\frac{1}{18}$",
-            "C. $\\frac{1}{36}$"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
-          "answer": "C",
-          "explanation": "Cặp (6, 1) là 1 kết quả cụ thể trong 36 kết quả có thể xảy ra. Xác suất là $\\frac{1}{36}$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "question": "Một hộp chứa 5 viên bi xanh, 6 viên bi đỏ và 9 viên bi vàng. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được viên bi không phải màu vàng là:",
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
-            "B. 0,55",
-            "A. 0,45",
-            "C. 0,25",
-            "D. 0,3"
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
-          "answer": "B",
-          "explanation": "Tổng số bi là 5 + 6 + 9 = 20. Số bi không phải vàng là 5 + 6 = 11. Xác suất là $\\frac{11}{20} = 0,55$.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Xác suất để số được chọn chia hết cho cả 2 và 5 là:",
+          "level": "Thông hiểu",
+          "question": "Một túi có 7 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "B. $\\frac{1}{9}$",
-            "C. $\\frac{1}{5}$",
-            "D. $\\frac{9}{100}$",
-            "A. $\\frac{1}{10}$"
+            "$\\frac{7}{12}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
-          "answer": "A",
-          "explanation": "Số có hai chữ số từ 10 đến 99 có 90 số. Số chia hết cho 10 có 9 số (10, 20, ..., 90). Xác suất là $\\frac{9}{90} = \\frac{1}{10}$.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "question": "Gieo hai con xúc xắc cân đối. Xác suất để hiệu số chấm xuất hiện trên hai con xúc xắc bằng 3 là:",
+          "level": "Thông hiểu",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "A. $\\frac{1}{6}$",
-            "C. $\\frac{1}{9}$",
-            "B. $\\frac{5}{36}$",
-            "D. $\\frac{1}{12}$"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
-          "answer": "A",
-          "explanation": "Các cặp có hiệu bằng 3: (1,4), (2,5), (3,6) và (4,1), (5,2), (6,3) -> 6 cặp. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "question": "Một bình kín có các viên bi cùng kích thước. Biết rằng xác suất lấy được bi đỏ là $\\frac{2}{5}$ và xác suất lấy được bi xanh là $\\frac{1}{3}$, còn lại là bi vàng. Xác suất lấy được bi vàng là:",
+          "level": "Thông hiểu",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "A. $\\frac{11}{15}$",
-            "B. $\\frac{4}{15}$",
-            "D. $\\frac{7}{15}$",
-            "C. $\\frac{1}{15}$"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
-          "answer": "B",
-          "explanation": "Xác suất lấy bi vàng là $1 - \\left(\\frac{2}{5} + \\frac{1}{3}\\right) = 1 - \\frac{11}{15} = \\frac{4}{15}$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "question": "Trong các số từ 1 đến 50, chọn ngẫu nhiên một số. Xác suất để số được chọn là số chính phương là:",
+          "level": "Vận dụng",
+          "question": "Hội khỏe Phù Đổng trường có 17 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "D. $\\frac{1}{10}$",
-            "B. $\\frac{6}{50}$",
-            "A. $\\frac{7}{50}$",
-            "C. $\\frac{8}{50}$"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
-          "answer": "A",
-          "explanation": "Các số chính phương là $1, 4, 9, 16, 25, 36, 49$ (7 số). Xác suất là $\\frac{7}{50}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "question": "Gieo một con xúc xắc hai lần. Biến cố 'Tổng số chấm trong hai lần gieo là số lẻ' có số kết quả thuận lợi là:",
+          "level": "Vận dụng",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "C. 16",
-            "D. 24",
-            "A. 12",
-            "B. 18"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
-          "answer": "B",
-          "explanation": "Tổng là lẻ khi 1 lần chẵn và 1 lần lẻ: chẵn-lẻ (3x3=9) + lẻ-chẵn (3x3=9) = 18 kết quả.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "question": "Lớp 7C có 45 học sinh, trong đó có 27 học sinh thích môn Toán và 18 học sinh thích môn Văn. Chọn ngẫu nhiên một học sinh. Xác suất để chọn được học sinh thích môn Toán là:",
+          "level": "Vận dụng",
+          "question": "Trong một hộp có 30 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "B. 0,6",
-            "A. 0,4",
-            "D. 0,75",
-            "C. 0,5"
+            "0.83",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
-          "answer": "B",
-          "explanation": "Xác suất là $\\frac{27}{45} = \\frac{3}{5} = 0,6$.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "question": "Có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên một thẻ, ghi lại số rồi bỏ lại hộp. Rút tiếp thẻ thứ hai. Xác suất để cả hai thẻ rút được đều ghi số 5 là:",
+          "level": "Vận dụng cao",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "B. $\\frac{1}{20}$",
-            "C. $\\frac{1}{100}$",
-            "A. $\\frac{1}{10}$",
-            "D. $\\frac{1}{50}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
-          "answer": "C",
-          "explanation": "Mỗi lần rút có xác suất $\\frac{1}{10}$. Hai lần độc lập: $\\frac{1}{10} \\times \\frac{1}{10} = \\frac{1}{100}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
-          "id": 13,
-          "stem": "Gieo đồng thời hai con xúc xắc cân đối. Gọi $a$ và $b$ lần lượt là số chấm xuất hiện trên con thứ nhất và thứ hai.",
+          "id": 1,
+          "stem": "Xét tính đúng sai về biến cố (Đề 02):",
           "statements": [
             {
-              "id": "a",
-              "statement": "Xác suất để tích $a \\cdot b$ là số chẵn bằng $\\frac{3}{4}$.",
-              "answer": true,
-              "explanation": "Tích là số lẻ khi cả hai con đều lẻ, xác suất là $\\frac{9}{36} = \\frac{1}{4}$. Vậy xác suất tích chẵn là $1 - \\frac{1}{4} = \\frac{3}{4}$."
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "b",
-              "statement": "Xác suất để $a + b = 8$ bằng $\\frac{5}{36}$.",
-              "answer": true,
-              "explanation": "Các cặp có tổng bằng 8: (2,6), (3,5), (4,4), (5,3), (6,2) gồm 5 cặp. Xác suất là $\\frac{5}{36}$."
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "c",
-              "statement": "Xác suất để $a$ chia hết cho $b$ bằng $\\frac{14}{36}$.",
-              "answer": true,
-              "explanation": "Các cặp $a$ chia hết cho $b$: b=1 (6 cặp: 1..6); b=2 (3 cặp: 2,4,6); b=3 (2 cặp: 3,6); b=4 (1 cặp: 4); b=5 (1 cặp: 5); b=6 (1 cặp: 6). Tổng cộng: 6 + 3 + 2 + 1 + 1 + 1 = 14 cặp. Xác suất là $\\frac{14}{36} = \\frac{7}{18}$."
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "d",
-              "statement": "Xác suất để $a + b \\ge 11$ bằng $\\frac{1}{9}$.",
-              "answer": false,
-              "explanation": "Tổng $\\ge 11$ gồm tổng 11 có (5,6),(6,5) (2 cặp) và tổng 12 có (6,6) (1 cặp) -> 3 cặp. Xác suất là $\\frac{3}{36} = \\frac{1}{12} \\neq \\frac{1}{9}$."
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
-          "id": 14,
-          "stem": "Một tổ công tác có 6 kĩ sư nam và 4 kĩ sư nữ. Chọn ngẫu nhiên một ban đại diện gồm 2 người.",
+          "id": 2,
+          "stem": "Trong một hộp kín có 12 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 02):",
           "statements": [
             {
-              "id": "a",
-              "statement": "Tổng số cách chọn ban đại diện 2 người từ 10 người là 45 cách.",
-              "answer": true,
-              "explanation": "$\\frac{10 \\times 9}{2} = 45$ cách."
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "b",
-              "statement": "Số kết quả thuận lợi để ban đại diện gồm 1 nam và 1 nữ là 24.",
-              "answer": true,
-              "explanation": "$6 \\times 4 = 24$ kết quả."
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 22.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "c",
-              "statement": "Xác suất để cả 2 người được chọn đều là nữ bằng $\\frac{2}{15}$.",
-              "answer": true,
-              "explanation": "Số cách chọn 2 nữ từ 4 nữ là $\\frac{4 \\times 3}{2} = 6$. Xác suất là $\\frac{6}{45} = \\frac{2}{15}$."
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Xác suất rút được thẻ đen là 10 / (22).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "d",
-              "statement": "Xác suất để ban đại diện có ít nhất 1 kĩ sư nam bằng $\\frac{13}{15}$.",
-              "answer": true,
-              "explanation": "$1 - \\frac{2}{15} = \\frac{13}{15}$."
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
       ],
       "part3": [
         {
-          "id": 15,
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện chia hết cho 6 (kết quả viết dưới dạng phân số tối giản).",
-          "answer": "1/6",
-          "explanation": "Tổng chia hết cho 6 có thể là 6 hoặc 12. Tổng = 6 có 5 cặp; Tổng = 12 có 1 cặp. Tổng cộng 6 cặp. Xác suất là 6/36 = 1/6."
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
+          "acceptableAnswers": [
+            "0.5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
-          "id": 16,
-          "question": "Một túi đựng 10 quả cầu đỏ, 8 quả cầu xanh và một số quả cầu vàng cùng kích thước. Biết xác suất lấy được một quả cầu vàng là 0,28. Hỏi trong túi có bao nhiêu quả cầu vàng?",
-          "answer": "7",
-          "explanation": "Tổng số cầu đỏ và xanh là 18 quả, tương ứng với tỉ lệ 1 - 0,28 = 0,72. Tổng số quả cầu là 18 / 0,72 = 25 quả. Số quả vàng là 25 - 18 = 7 quả."
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Một hộp có 8 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
         },
         {
-          "id": 17,
-          "question": "Từ các chữ số 2, 3, 5, 7, lập các số tự nhiên có hai chữ số khác nhau. Có bao nhiêu số là kết quả thuận lợi cho biến cố 'Số lập được lớn hơn 35'?",
-          "answer": "8",
-          "explanation": "Tổng số các số lập được là 4x3=12 số. Các số <= 35 là: đầu 2 (23, 25, 27: 3 số); đầu 3 (32: 1 số) -> 4 số. Các số lớn hơn 35 là 12 - 4 = 8 số (35 không có vì khác nhau, 37, 52, 53, 57, 72, 73, 75)."
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
+          "acceptableAnswers": [
+            "0.45"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
-          "id": 18,
-          "question": "Tung 3 đồng xu cân đối đồng thời. Tính xác suất để không có đồng xu nào xuất hiện mặt ngửa.",
-          "answer": "1/8",
-          "explanation": "Chỉ có 1 kết quả là (S, S, S) trong 8 kết quả. Xác suất là 1/8."
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
+          "acceptableAnswers": [
+            "0.3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
-          "id": 19,
-          "question": "Một chiếc hộp chứa 24 tấm thẻ cùng loại được đánh số từ 1 đến 24. Rút ngẫu nhiên một tấm thẻ từ trong hộp. Tính xác suất của các biến cố sau:\na) Biến cố A: 'Số ghi trên thẻ là số chia hết cho cả 3 và 4'.\nb) Biến cố B: 'Số ghi trên thẻ là ước của 24'.\nc) Biến cố C: 'Số ghi trên thẻ là số có hai chữ số và có chữ số tận cùng là 1'.",
-          "rubric": [
-            {
-              "step": "Số kết quả có thể là 24.",
-              "points": 0.1
-            },
-            {
-              "step": "Số chia hết cho cả 3 và 4 là bội của 12: 12, 24 (2 số). P(A) = 2/24 = 1/12.",
-              "points": 0.3
-            },
-            {
-              "step": "Ước của 24 từ 1 đến 24: 1, 2, 3, 4, 6, 8, 12, 24 (8 số). P(B) = 8/24 = 1/3.",
-              "points": 0.3
-            },
-            {
-              "step": "Số có hai chữ số tận cùng là 1: 11, 21 (2 số). P(C) = 2/24 = 1/12.",
-              "points": 0.3
-            }
-          ],
-          "solution": "Tổng số kết quả có thể xảy ra là 24.\na) Các số chia hết cho cả 3 và 4 là bội của 12: 12; 24 (gồm 2 số thuận lợi).\nVậy $P(A) = \\frac{2}{24} = \\frac{1}{12}$.\nb) Các ước của 24 là: 1; 2; 3; 4; 6; 8; 12; 24 (gồm 8 số thuận lợi).\nVậy $P(B) = \\frac{8}{24} = \\frac{1}{3}$.\nc) Các số có hai chữ số từ 1 đến 24 tận cùng bằng 1 là: 11; 21 (gồm 2 số thuận lợi).\nVậy $P(C) = \\frac{2}{24} = \\frac{1}{12}$."
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một hộp đựng 7 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (7) + 5 = 12 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 7 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (7) / (12) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (12) (0.25đ)."
         },
         {
-          "id": 20,
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt cân đối.\na) Tính xác suất để ít nhất một con xúc xắc xuất hiện mặt 5 chấm.\nb) Tính xác suất để số chấm xuất hiện trên hai con xúc xắc khác nhau.\nc) Tính xác suất để tổng số chấm trên hai con xúc xắc là số chẵn.",
-          "rubric": [
-            {
-              "step": "Số kết quả có thể là 36.",
-              "points": 0.1
-            },
-            {
-              "step": "Số kết quả không có mặt 5: 5 x 5 = 25. Ít nhất một mặt 5: 36 - 25 = 11. P = 11/36.",
-              "points": 0.3
-            },
-            {
-              "step": "Số kết quả giống nhau là 6. Số kết quả khác nhau: 36 - 6 = 30. P = 30/36 = 5/6.",
-              "points": 0.3
-            },
-            {
-              "step": "Tổng là số chẵn: (cùng chẵn hoặc cùng lẻ) gồm 9 + 9 = 18 kết quả. P = 18/36 = 1/2 = 0,5.",
-              "points": 0.3
-            }
-          ],
-          "solution": "Tổng số kết quả có thể xảy ra là $6 \\times 6 = 36$.\na) Số kết quả mà không có con xúc xắc nào xuất hiện mặt 5 chấm là $5 \\times 5 = 25$.\nSố kết quả có ít nhất một con xuất hiện mặt 5 chấm là $36 - 25 = 11$.\nXác suất là: $P = \\frac{11}{36}$.\nb) Có 6 kết quả hai con xúc xắc xuất hiện số chấm giống nhau: (1,1), (2,2), (3,3), (4,4), (5,5), (6,6).\nSố kết quả hai con xuất hiện số chấm khác nhau là: $36 - 6 = 30$.\nXác suất là: $P = \\frac{30}{36} = \\frac{5}{6}$.\nc) Tổng số chấm là số chẵn khi cả hai con đều xuất hiện mặt chẵn ($3 \\times 3 = 9$ kết quả) hoặc cả hai đều xuất hiện mặt lẻ ($3 \\times 3 = 9$ kết quả).\nTổng số kết quả thuận lợi là $9 + 9 = 18$.\nXác suất là: $P = \\frac{18}{36} = \\frac{1}{2} = 0,5$."
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 120 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (120) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
-          "id": 21,
-          "question": "Có hai hộp kẹo: Hộp A có 6 kẹo dâu và 4 kẹo táo; Hộp B có 5 kẹo dâu và 5 kẹo táo (tất cả các kẹo đều cùng kích thước).\na) Lấy ngẫu nhiên 1 chiếc kẹo từ Hộp A. Tính xác suất lấy được kẹo dâu.\nb) Lấy ngẫu nhiên 1 chiếc kẹo từ Hộp B. Tính xác suất lấy được kẹo dâu.\nc) Bạn Lan muốn lấy được kẹo dâu thì nên chọn lấy kẹo từ Hộp A hay Hộp B? Vì sao?",
-          "rubric": [
-            {
-              "step": "Xác suất lấy kẹo dâu ở Hộp A: P(A) = 6/10 = 0,6.",
-              "points": 0.35
-            },
-            {
-              "step": "Xác suất lấy kẹo dâu ở Hộp B: P(B) = 5/10 = 0,5.",
-              "points": 0.35
-            },
-            {
-              "step": "So sánh 0,6 > 0,5 nên Lan nên chọn lấy kẹo từ Hộp A vì cơ hội lấy được kẹo dâu cao hơn.",
-              "points": 0.3
-            }
-          ],
-          "solution": "a) Tổng số kẹo ở Hộp A là $6 + 4 = 10$ chiếc.\nXác suất lấy được kẹo dâu từ Hộp A là: $P(A) = \\frac{6}{10} = 0,6$.\nb) Tổng số kẹo ở Hộp B là $5 + 5 = 10$ chiếc.\nXác suất lấy được kẹo dâu từ Hộp B là: $P(B) = \\frac{5}{10} = 0,5$.\nc) Vì $0,6 > 0,5$, nghĩa là xác suất lấy được kẹo dâu từ Hộp A cao hơn từ Hộp B, nên bạn Lan nên chọn lấy kẹo từ Hộp A để có cơ hội nhận được kẹo dâu lớn hơn."
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     },
     "c8_7_bai3_test3": {
-      "title": "Toán 7 - Bài kiểm tra cuối Chương VIII: Biến cố và xác suất - Đề 3 (Nâng cao)",
-      "time": 45,
-      "totalPoints": 10.0,
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm xuất hiện nhỏ hơn 6 là:",
+          "level": "Nhận biết",
+          "question": "Biến cố chắc chắn là biến cố (Đề 03):",
           "options": [
-            "B. $\\frac{1}{4}$",
-            "A. $\\frac{5}{18}$",
-            "C. $\\frac{7}{36}$",
-            "D. $\\frac{1}{3}$"
+            "Luôn xảy ra trong phép thử",
+            "Không bao giờ xảy ra",
+            "Có thể xảy ra hoặc không",
+            "Có xác suất bằng 0"
           ],
-          "answer": "A",
-          "explanation": "Tổng nhỏ hơn 6 gồm: tổng 2 (1 cặp), tổng 3 (2 cặp), tổng 4 (3 cặp), tổng 5 (4 cặp). Tổng cộng 1 + 2 + 3 + 4 = 10 cặp. Xác suất là $\\frac{10}{36} = \\frac{5}{18}$.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "question": "Tung 4 đồng xu cân đối đồng thời. Xác suất để có đúng 3 đồng xu xuất hiện mặt sấp là:",
+          "level": "Nhận biết",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "C. $\\frac{3}{16}$",
-            "B. $\\frac{1}{8}$",
-            "D. $\\frac{5}{16}$",
-            "A. $\\frac{1}{4}$"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
-          "answer": "A",
-          "explanation": "Tổng số kết quả là 16. Có 4 cách chọn đồng xu xuất hiện mặt ngửa (SSSN, SSNS, SNSS, NSSS). Xác suất là $\\frac{4}{16} = \\frac{1}{4}$.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "question": "Chọn ngẫu nhiên một số tự nhiên có 3 chữ số. Xác suất để số được chọn có tổng các chữ số bằng 3 là:",
+          "level": "Nhận biết",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "C. $\\frac{7}{900}$",
-            "D. $\\frac{2}{225}$",
-            "B. $\\frac{1}{180}$",
-            "A. $\\frac{1}{150}$"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
-          "answer": "A",
-          "explanation": "Các số có 3 chữ số có tổng bằng 3: gồm bộ {3,0,0}: 300 (1 số); bộ {2,1,0}: 210, 201, 120, 102 (4 số); bộ {1,1,1}: 111 (1 số). Tổng cộng có 1 + 4 + 1 = 6 số. Xác suất là $\\frac{6}{900} = \\frac{1}{150}$.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "question": "Gieo hai con xúc xắc cân đối. Xác suất để tích hai số chấm là số chia hết cho 9 là:",
+          "level": "Nhận biết",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "A. $\\frac{1}{9}$",
-            "D. $\\frac{5}{36}$",
-            "C. $\\frac{4}{36}$",
-            "B. $\\frac{1}{6}$"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
-          "answer": "A",
-          "explanation": "Để tích chia hết cho 9: các trường hợp có ít nhất 1 số 6 kết hợp với 3 hoặc 6, hoặc cả hai số là bội của 3: (3,3), (3,6), (6,3), (6,6) gồm 4 cặp. Xác suất là $\\frac{4}{36} = \\frac{1}{9}$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "question": "Một túi đựng 5 viên bi xanh, 6 viên bi đỏ và 7 viên bi vàng. Lấy ngẫu nhiên đồng thời 2 viên bi. Số kết quả có thể xảy ra của phép thử là:",
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
-            "A. 153",
-            "D. 36",
-            "B. 306",
-            "C. 18"
+            "$\\frac{1}{3}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
-          "answer": "A",
-          "explanation": "Tổng số bi là 18. Số cách chọn 2 viên bi từ 18 viên là $\\frac{18 \\times 17}{2} = 153$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "question": "Từ các chữ số 0, 1, 2, 3, 4 viết ngẫu nhiên một số tự nhiên có hai chữ số khác nhau. Xác suất để số viết được là số chẵn là:",
+          "level": "Thông hiểu",
+          "question": "Một túi có 8 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "D. $\\frac{3}{5}$",
-            "B. $\\frac{1}{2}$",
-            "A. $\\frac{5}{8}$",
-            "C. $\\frac{9}{16}$"
+            "$\\frac{8}{13}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
-          "answer": "A",
-          "explanation": "Tổng số các số viết được là $4 \\times 4 = 16$. Số tận cùng bằng 0 có 4 số (10, 20, 30, 40). Số tận cùng bằng 2 có 3 số (12, 32, 42). Số tận cùng bằng 4 có 3 số (14, 24, 34). Tổng cộng có 4 + 3 + 3 = 10 số chẵn. Xác suất là $\\frac{10}{16} = \\frac{5}{8}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "question": "Gieo hai con xúc xắc cân đối. Xác suất để hiệu số chấm xuất hiện giữa hai con xúc xắc lớn hơn hoặc bằng 4 là:",
+          "level": "Thông hiểu",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "D. $\\frac{7}{36}$",
-            "C. $\\frac{1}{9}$",
-            "A. $\\frac{1}{6}$",
-            "B. $\\frac{5}{36}$"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
-          "answer": "A",
-          "explanation": "Hiệu = 4 gồm: (1,5), (2,6) và (5,1), (6,2) -> 4 cặp. Hiệu = 5 gồm: (1,6) và (6,1) -> 2 cặp. Tổng cộng 4 + 2 = 6 cặp. Xác suất là $\\frac{6}{36} = \\frac{1}{6}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "question": "Một bài thi trắc nghiệm có 4 phương án trả lời cho mỗi câu hỏi, trong đó chỉ có 1 phương án đúng. Một học sinh không học bài nên khoanh bừa 2 câu hỏi độc lập. Xác suất để học sinh đó khoanh đúng cả 2 câu là:",
+          "level": "Thông hiểu",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "D. $\\frac{1}{2}$",
-            "A. $\\frac{1}{16}$",
-            "C. $\\frac{1}{4}$",
-            "B. $\\frac{1}{8}$"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
-          "answer": "A",
-          "explanation": "Mỗi câu có xác suất đúng là $\\frac{1}{4}$. Đúng cả hai câu: $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "question": "Một bình có 20 tấm thẻ ghi số từ 1 đến 20. Rút ngẫu nhiên một thẻ. Xác suất để số trên thẻ là số chia hết cho 2 hoặc chia hết cho 3 là:",
+          "level": "Vận dụng",
+          "question": "Hội khỏe Phù Đổng trường có 18 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "B. $\\frac{3}{5}$",
-            "A. $\\frac{13}{20}$",
-            "C. $\\frac{7}{10}$",
-            "D. $\\frac{11}{20}$"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
-          "answer": "A",
-          "explanation": "Số chia hết cho 2: 10 số. Số chia hết cho 3: 6 số. Bội chung của 2 và 3 (bội của 6): 3 số (6, 12, 18). Số kết quả thuận lợi là 10 + 6 - 3 = 13. Xác suất là $\\frac{13}{20}$.",
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "question": "Gieo hai con xúc xắc cân đối. Xác suất để số chấm xuất hiện trên ít nhất một con xúc xắc là số nguyên tố là:",
+          "level": "Vận dụng",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "C. $\\frac{1}{2}$",
-            "B. $\\frac{1}{4}$",
-            "D. $\\frac{5}{6}$",
-            "A. $\\frac{3}{4}$"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
-          "answer": "A",
-          "explanation": "Các số không nguyên tố là 1, 4, 6 (3 số). Số cặp không có số nguyên tố nào là $3 \\times 3 = 9$. Số cặp có ít nhất 1 số nguyên tố là $36 - 9 = 27$. Xác suất là $\\frac{27}{36} = \\frac{3}{4}$.",
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "question": "Cho hai biến cố A và B độc lập trong một phép thử. Biết xác suất xảy ra biến cố A là 0,4 và xác suất xảy ra biến cố B là 0,5. Xác suất để cả hai biến cố cùng xảy ra là:",
+          "level": "Vận dụng",
+          "question": "Trong một hộp có 35 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "A. 0,2",
-            "C. 0,1",
-            "B. 0,9",
-            "D. 0,45"
+            "0.86",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
-          "answer": "A",
-          "explanation": "$0,4 \\times 0,5 = 0,2$.",
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "question": "Một nhóm gồm 4 bạn nam và 4 bạn nữ xếp thành một hàng ngang. Xác suất để bạn đầu hàng là bạn nam là:",
+          "level": "Vận dụng cao",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "C. $\\frac{3}{8}$",
-            "B. $\\frac{1}{4}$",
-            "A. $\\frac{1}{2}$",
-            "D. $\\frac{1}{8}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
-          "answer": "A",
-          "explanation": "Vị trí đầu hàng có 8 bạn có thể đứng, trong đó có 4 bạn nam. Xác suất là $\\frac{4}{8} = \\frac{1}{2}$.",
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
-          "id": 13,
-          "stem": "Gieo đồng thời hai con xúc xắc cân đối 6 mặt. Kí hiệu $(x, y)$ là số chấm trên hai con xúc xắc.",
+          "id": 1,
+          "stem": "Xét tính đúng sai về biến cố (Đề 03):",
           "statements": [
             {
-              "id": "a",
-              "statement": "Xác suất để giá trị tuyệt đối $|x - y| = 2$ bằng $\\frac{2}{9}$.",
-              "answer": true,
-              "explanation": "Các cặp có hiệu bằng 2: (1,3), (2,4), (3,5), (4,6) và đối xứng gồm 8 cặp. Xác suất là $\\frac{8}{36} = \\frac{2}{9}$."
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "b",
-              "statement": "Xác suất để $x^2 + y^2 \\le 8$ bằng $\\frac{1}{12}$.",
-              "answer": false,
-              "explanation": "Các cặp $x^2 + y^2 \\le 8$ gồm: (1,1) [tổng bp=2], (1,2) [5], (2,1) [5], (2,2) [8]. Tổng cộng có 4 cặp không? Chú ý: $1^2+1^2=2$, $1^2+2^2=5$, $2^2+1^2=5$, $2^2+2^2=8$. Không còn cặp nào khác vì nếu có 3 thì $3^2=9 > 8$. Vậy có 4 cặp. $4/36 = 1/9 \\neq 1/12$."
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "c",
-              "statement": "Xác suất để tích $x \\cdot y$ chia hết cho 4 bằng $\\frac{5}{12}$.",
-              "answer": true,
-              "explanation": "Tích không chia hết cho 4 gồm: tích lẻ (3x3=9 cặp) và tích chia hết cho 2 nhưng không chia hết cho 4 (dạng 2 x lẻ): (2,1),(2,3),(2,5),(6,1),(6,3),(6,5) và ngược lại -> 12 cặp. Tổng số cặp không chia hết cho 4 là 9 + 12 = 21 cặp. Vậy số cặp chia hết cho 4 là 36 - 21 = 15 cặp. Xác suất là $\\frac{15}{36} = \\frac{5}{12}$."
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "d",
-              "statement": "Xác suất để $x + y > 9$ bằng $\\frac{1}{6}$.",
-              "answer": true,
-              "explanation": "Tổng > 9 gồm: tổng 10 (3 cặp), tổng 11 (2 cặp), tổng 12 (1 cặp) -> 6 cặp. Xác suất $\\frac{6}{36} = \\frac{1}{6}$."
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
-          "id": 14,
-          "stem": "Một tổ có 7 học sinh giỏi Toán và 5 học sinh giỏi Văn. Thầy giáo chọn ngẫu nhiên ra 2 học sinh đi giao lưu học sinh giỏi.",
+          "id": 2,
+          "stem": "Trong một hộp kín có 13 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 03):",
           "statements": [
             {
-              "id": "a",
-              "statement": "Số kết quả có thể xảy ra khi chọn 2 học sinh từ 12 học sinh là 66.",
-              "answer": true,
-              "explanation": "$\\frac{12 \\times 11}{2} = 66$."
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "b",
-              "statement": "Xác suất để chọn được 2 học sinh đều giỏi Toán bằng $\\frac{7}{22}$.",
-              "answer": true,
-              "explanation": "Số cách chọn 2 học sinh giỏi Toán là $\\frac{7 \\times 6}{2} = 21$. Xác suất là $\\frac{21}{66} = \\frac{7}{22}$."
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 23.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "c",
-              "statement": "Xác suất để chọn được 2 học sinh đều giỏi Văn bằng $\\frac{5}{33}$.",
-              "answer": true,
-              "explanation": "Số cách chọn 2 học sinh giỏi Văn là $\\frac{5 \\times 4}{2} = 10$. Xác suất là $\\frac{10}{66} = \\frac{5}{33}$."
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Xác suất rút được thẻ đen là 10 / (23).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "id": "d",
-              "statement": "Xác suất để chọn được 1 học sinh giỏi Toán và 1 học sinh giỏi Văn bằng $\\frac{35}{66}$.",
-              "answer": true,
-              "explanation": "Số cách chọn 1 Toán và 1 Văn là $7 \\times 5 = 35$. Xác suất là $\\frac{35}{66}$."
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
       ],
       "part3": [
         {
-          "id": 15,
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện chia hết cho 4 hoặc chia hết cho 6 (kết quả viết dưới dạng phân số tối giản).",
-          "answer": "7/18",
-          "explanation": "Tổng chia hết cho 4: 4, 8, 12 (3 + 5 + 1 = 9 cặp). Tổng chia hết cho 6: 6, 12 (5 + 1 = 6 cặp). Giao nhau tại tổng = 12 (1 cặp). Số kết quả thuận lợi là 9 + 6 - 1 = 14 cặp. Xác suất là 14/36 = 7/18."
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
+          "acceptableAnswers": [
+            "0.5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
-          "id": 16,
-          "question": "Một hộp kín chứa 3 quả cầu đỏ, 4 quả cầu xanh và 5 quả cầu vàng cùng kích thước. Lấy ngẫu nhiên đồng thời 2 quả cầu. Có bao nhiêu kết quả thuận lợi cho biến cố 'Lấy được 2 quả cầu khác màu'?",
-          "answer": "47",
-          "explanation": "Tổng số cách chọn 2 quả là 12x11/2 = 66. Số cách chọn 2 quả cùng màu: 2 đỏ (3), 2 xanh (6), 2 vàng (10) -> 3+6+10 = 19. Số cách chọn khác màu là 66 - 19 = 47."
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Một hộp có 9 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "13",
+          "acceptableAnswers": [
+            "13"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **13**."
         },
         {
-          "id": 17,
-          "question": "Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Tính xác suất để số được chọn có chữ số hàng chục lớn hơn chữ số hàng đơn vị (kết quả viết dưới dạng phân số tối giản).",
-          "answer": "1/2",
-          "explanation": "Có 90 số từ 10 đến 99. Các số có hàng chục = hàng đơn vị là 11..99 (9 số). Còn lại 81 số chia thành 2 nhóm: hàng chục > hàng đơn vị (gồm: chục 1 có 1 số là 10; chục 2 có 2 số là 20,21; ... chục 9 có 9 số -> 1+2+...+9 = 45 số). Xác suất là 45/90 = 1/2."
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
+          "acceptableAnswers": [
+            "0.45"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
-          "id": 18,
-          "question": "Tung 4 đồng xu cân đối đồng thời. Tính xác suất để số mặt sấp bằng số mặt ngửa (kết quả viết dưới dạng phân số tối giản).",
-          "answer": "3/8",
-          "explanation": "Có 16 kết quả. Số kết quả có 2 sấp và 2 ngửa là C(4,2) = 6 kết quả. Xác suất là 6/16 = 3/8."
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
+          "acceptableAnswers": [
+            "0.3"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
-          "id": 19,
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt cân đối.\na) Tính xác suất để tích số chấm xuất hiện trên hai con xúc xắc là số lẻ.\nb) Tính xác suất để hiệu số chấm xuất hiện giữa con xúc xắc thứ nhất và con thứ hai bằng 2.\nc) Tính xác suất để tích số chấm là một số chia hết cho 5.",
-          "rubric": [
-            {
-              "step": "Số kết quả có thể xảy ra là 36.",
-              "points": 0.1
-            },
-            {
-              "step": "Tích là số lẻ khi cả hai mặt đều lẻ: 3 x 3 = 9 kết quả. P = 9/36 = 1/4 = 0,25.",
-              "points": 0.3
-            },
-            {
-              "step": "Hiệu x - y = 2: các cặp là (3,1), (4,2), (5,3), (6,4) gồm 4 kết quả. P = 4/36 = 1/9.",
-              "points": 0.3
-            },
-            {
-              "step": "Tích chia hết cho 5 khi ít nhất một con có mặt 5: 36 - 25 = 11 kết quả. P = 11/36.",
-              "points": 0.3
-            }
-          ],
-          "solution": "Tổng số kết quả có thể xảy ra là $6 \\times 6 = 36$.\na) Tích hai số chấm là số lẻ khi và chỉ khi cả hai con xúc xắc đều xuất hiện mặt có số chấm lẻ.\nSố kết quả thuận lợi là: $3 \\times 3 = 9$.\nXác suất là: $P = \\frac{9}{36} = \\frac{1}{4} = 0,25$.\nb) Gọi số chấm con thứ nhất là $x$, con thứ hai là $y$. Điều kiện $x - y = 2$ cho các cặp thuận lợi:\n(3, 1), (4, 2), (5, 3), (6, 4) gồm 4 kết quả.\nXác suất là: $P = \\frac{4}{36} = \\frac{1}{9}$.\nc) Tích hai số chia hết cho 5 khi có ít nhất một con xúc xắc xuất hiện mặt 5 chấm.\nSố kết quả không có mặt 5 nào là $5 \\times 5 = 25$.\nSố kết quả có ít nhất một mặt 5 là: $36 - 25 = 11$.\nXác suất là: $P = \\frac{11}{36}$."
+          "id": 1,
+          "level": "Thông hiểu",
+          "question": "Một hộp đựng 8 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (8) + 5 = 13 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 8 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (8) / (13) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (13) (0.25đ)."
         },
         {
-          "id": 20,
-          "question": "Một nhóm học sinh gồm 6 bạn nam và 4 bạn nữ. Chọn ngẫu nhiên đồng thời 2 bạn để đi tham dự lễ khai mạc Hội khỏe Phù Đổng.\na) Tính tổng số cách chọn 2 bạn từ nhóm 10 học sinh.\nb) Tính xác suất để cả 2 bạn được chọn đều là nam.\nc) Tính xác suất để trong 2 bạn được chọn có cả nam và nữ.",
-          "rubric": [
-            {
-              "step": "Số cách chọn 2 bạn: 10 x 9 / 2 = 45 cách.",
-              "points": 0.35
-            },
-            {
-              "step": "Cả 2 đều là nam: 6 x 5 / 2 = 15 cách. Xác suất P = 15/45 = 1/3.",
-              "points": 0.35
-            },
-            {
-              "step": "Có cả nam và nữ: 6 x 4 = 24 cách. Xác suất P = 24/45 = 8/15.",
-              "points": 0.3
-            }
-          ],
-          "solution": "Tổng số học sinh là $6 + 4 = 10$ bạn.\na) Số kết quả có thể xảy ra khi chọn đồng thời 2 bạn từ 10 bạn là:\n$\\frac{10 \\times 9}{2} = 45$ (kết quả).\nb) Số cách chọn 2 bạn nam từ 6 bạn nam là:\n$\\frac{6 \\times 5}{2} = 15$ (kết quả thuận lợi).\nXác suất là: $P = \\frac{15}{45} = \\frac{1}{3}$.\nc) Số cách chọn 1 bạn nam và 1 bạn nữ là:\n$6 \\times 4 = 24$ (kết quả thuận lợi).\nXác suất là: $P = \\frac{24}{45} = \\frac{8}{15}$."
+          "id": 2,
+          "level": "Vận dụng",
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 130 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (130) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
-          "id": 21,
-          "question": "Một hộp kín chứa 30 tấm thẻ cùng loại được đánh số từ 1 đến 30. Rút ngẫu nhiên một tấm thẻ.\na) Tính xác suất để số ghi trên thẻ là số có hai chữ số và chia hết cho 5.\nb) Tính xác suất để số ghi trên thẻ là số nguyên tố lớn hơn 10.\nc) Bạn Bình rút trước một thẻ và được số 15 (không bỏ lại vào hộp). Sau đó bạn Minh rút tiếp một thẻ. Tính xác suất để thẻ của bạn Minh ghi số lớn hơn số của bạn Bình.",
-          "rubric": [
-            {
-              "step": "Số có hai chữ số chia hết cho 5: 10, 15, 20, 25, 30 (5 số). Xác suất là 5/30 = 1/6.",
-              "points": 0.3
-            },
-            {
-              "step": "Số nguyên tố lớn hơn 10: 11, 13, 17, 19, 23, 29 (6 số). Xác suất là 6/30 = 1/5 = 0,2.",
-              "points": 0.35
-            },
-            {
-              "step": "Còn lại 29 thẻ từ 1 đến 30 (bỏ 15). Các số lớn hơn 15 là 16 đến 30 gồm 15 số. Xác suất Minh rút được số lớn hơn 15 là 15/29.",
-              "points": 0.35
-            }
-          ],
-          "solution": "Tổng số thẻ ban đầu là 30.\na) Các số có hai chữ số chia hết cho 5 từ 1 đến 30 là: 10; 15; 20; 25; 30 (gồm 5 số thuận lợi).\nXác suất là: $P = \\frac{5}{30} = \\frac{1}{6}$.\nb) Các số nguyên tố lớn hơn 10 trong tập từ 1 đến 30 là: 11; 13; 17; 19; 23; 29 (gồm 6 số thuận lợi).\nXác suất là: $P = \\frac{6}{30} = \\frac{1}{5} = 0,2$.\nc) Sau khi Bình rút số 15 và không bỏ lại, trong hộp còn lại $30 - 1 = 29$ tấm thẻ.\nCác tấm thẻ ghi số lớn hơn 15 là từ 16 đến 30, gồm $30 - 16 + 1 = 15$ tấm thẻ.\nVậy xác suất để thẻ của Minh ghi số lớn hơn số của Bình là:\n$P = \\frac{15}{29}$."
+          "id": 3,
+          "level": "Vận dụng cao",
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     },
     "c8_7_bai3_test4": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Biến cố & Xác suất - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Biến cố chắc chắn là biến cố:",
+          "question": "Biến cố chắc chắn là biến cố (Đề 04):",
           "options": [
-            "Chắc chắn xảy ra khi thực hiện phép thử",
+            "Luôn xảy ra trong phép thử",
             "Không bao giờ xảy ra",
             "Có thể xảy ra hoặc không",
             "Có xác suất bằng 0"
@@ -2848,12 +2791,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố không thể bằng:",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "$0$",
-            "$1$",
-            "$0,5$",
-            "$-1$"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2861,12 +2804,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố chắc chắn bằng:",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "$1$",
-            "$0$",
-            "$0,5$",
-            "$100$"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2874,12 +2817,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "Xuất hiện mặt 7 chấm",
-            "Xuất hiện mặt 1 chấm",
-            "Xuất hiện mặt chẵn",
-            "Xuất hiện số chấm nhỏ hơn 7"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2887,12 +2830,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Tung một đồng xu cân đối 1 lần. Xác suất xuất hiện mặt Ngửa là:",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
+            "$\\frac{1}{3}$",
             "$\\frac{1}{2}$",
-            "$\\frac{1}{4}$",
-            "$1$",
-            "$0$"
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2900,12 +2843,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Xác suất để xuất hiện mặt có số chấm là số chẵn là:",
+          "question": "Một túi có 9 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$"
+            "$\\frac{9}{14}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2913,12 +2856,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Một hộp có 5 chiếc bút bi xanh và 3 chiếc bút bi đỏ cùng loại. Lấy ngẫu nhiên 1 chiếc bút. Xác suất lấy được bút bi xanh là:",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "$\\frac{5}{8}$",
-            "$\\frac{3}{8}$",
-            "$\\frac{5}{3}$",
-            "$\\frac{1}{8}$"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2926,12 +2869,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Chọn ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất chọn được số nguyên tố là:",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "$\\frac{4}{10} = \\frac{2}{5}$",
-            "$\\frac{5}{10}$",
-            "$\\frac{3}{10}$",
-            "$\\frac{1}{10}$"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2939,12 +2882,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số nguyên tố là:",
+          "question": "Hội khỏe Phù Đổng trường có 19 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$ (gồm 2, 3, 5)",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$",
-            "$\\frac{1}{6}$"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2952,12 +2895,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi đựng 20 viên kẹo giống hệt nhau gồm 8 viên dâu, 7 viên cam và 5 viên bạc hà. Lấy ngẫu nhiên 1 viên kẹo. Xác suất để viên kẹo lấy ra không phải là vị bạc hà là:",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "$\\frac{15}{20} = \\frac{3}{4}$",
-            "$\\frac{5}{20} = \\frac{1}{4}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{7}{20}$"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2965,12 +2908,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một lớp học có 20 bạn nam và 25 bạn nữ. Giáo viên gọi ngẫu nhiên một bạn lên bảng trả lời câu hỏi. Xác suất để bạn được gọi là một bạn nữ là:",
+          "question": "Trong một hộp có 40 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "$\\frac{25}{45} = \\frac{5}{9}$",
-            "$\\frac{20}{45} = \\frac{4}{9}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{20}{25}$"
+            "0.88",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2978,12 +2921,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Xác suất để tổng số chấm trên hai con xúc xắc bằng 8 là:",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "$\\frac{5}{36}$",
-            "$\\frac{6}{36}$",
-            "$\\frac{4}{36}$",
-            "$\\frac{1}{8}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2992,33 +2935,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về các loại biến cố và xác suất (Mã đề 4):",
+          "stem": "Xét tính đúng sai về biến cố (Đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Biến cố ngẫu nhiên là biến cố không thể biết trước chắc chắn có xảy ra hay không.",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất của mọi biến cố ngẫu nhiên luôn nằm nghiêm ngặt giữa 0 và 1.",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu hai biến cố đồng khả năng thì xác suất của chúng bằng nhau.",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Tung 2 đồng xu cùng lúc thì xác suất xuất hiện 2 mặt ngửa bằng 1/2.",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3026,33 +2969,33 @@
         },
         {
           "id": 2,
-          "stem": "Trong một hộp có 12 tấm thẻ cùng loại được đánh số từ 1 đến 12. Rút ngẫu nhiên một tấm thẻ:",
+          "stem": "Trong một hộp kín có 14 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Có tất cả 12 kết quả có thể xảy ra với số ghi trên thẻ.",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chẵn bằng 6/12 = 1/2.",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 24.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho 3 bằng 4/12 = 1/3.",
+              "text": "Xác suất rút được thẻ đen là 10 / (24).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho cả 2 và 3 là 1/4.",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3063,76 +3006,76 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hộp có 4 bi xanh và 6 bi đỏ. Tính xác suất bốc được bi đỏ.",
-          "answer": "0,6",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
           "acceptableAnswers": [
-            "0,6"
+            "0.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,6**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 1 lần. Tính xác suất xuất hiện mặt có số chấm lớn hơn 4.",
-          "answer": "1/3",
+          "question": "Một hộp có 10 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "14",
           "acceptableAnswers": [
-            "1/3"
+            "14"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **14**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Rút 1 thẻ từ 1 đến 20. Có bao nhiêu kết quả thuận lợi cho sự kiện 'rút được số chia hết cho 4'?",
-          "answer": "5",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
           "acceptableAnswers": [
-            "5"
+            "0.45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Gieo 2 con xúc xắc cân đối. Có bao nhiêu kết quả để tích hai số chấm là số lẻ?",
-          "answer": "9",
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
           "acceptableAnswers": [
-            "9"
+            "0.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một tổ học sinh có 6 bạn nam và 4 bạn nữ. Chọn ngẫu nhiên một bạn làm tổ trưởng. Tính xác suất chọn được bạn nam.",
-          "rubric": "Số kết quả có thể: 6 + 4 = 10 (0.25đ).\nSố kết quả thuận lợi cho bạn nam: 6. Xác suất: 6/10 = 3/5 = 0,6 (0.25đ)."
+          "question": "Một hộp đựng 9 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (9) + 5 = 14 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 9 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (9) / (14) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (14) (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Trong hộp có 15 quả bóng bàn cùng loại được đánh số từ 1 đến 15. Lấy ngẫu nhiên một quả bóng. Tính xác suất của các biến cố sau: a) Quả bóng lấy ra ghi số chia hết cho 5. b) Quả bóng lấy ra ghi số là số nguyên tố.",
-          "rubric": "a) Các số chia hết cho 5: {5; 10; 15} (3 số). P = 3/15 = 1/5 (0.25đ).\nb) Các số nguyên tố: {2; 3; 5; 7; 11; 13} (6 số). P = 6/15 = 2/5 (0.25đ)."
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 140 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (140) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc là một số chia hết cho 5.",
-          "rubric": "Không gian mẫu: 6 x 6 = 36 kết quả (0.25đ).\nCác cặp có tổng chia hết cho 5:\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 kết quả].\nTổng = 10: (4,6), (5,5), (6,4) [3 kết quả].\nTổng số kết quả thuận lợi: 4 + 3 = 7. Xác suất: 7/36 (0.25đ)."
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     },
     "c8_7_bai3_test5": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Biến cố & Xác suất - Bài kiểm tra số 5 (💡 Biến cố & Xác suất cơ bản)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Biến cố chắc chắn là biến cố:",
+          "question": "Biến cố chắc chắn là biến cố (Đề 05):",
           "options": [
-            "Chắc chắn xảy ra khi thực hiện phép thử",
+            "Luôn xảy ra trong phép thử",
             "Không bao giờ xảy ra",
             "Có thể xảy ra hoặc không",
             "Có xác suất bằng 0"
@@ -3143,12 +3086,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố không thể bằng:",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "$0$",
-            "$1$",
-            "$0,5$",
-            "$-1$"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3156,12 +3099,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố chắc chắn bằng:",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "$1$",
-            "$0$",
-            "$0,5$",
-            "$100$"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3169,12 +3112,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "Xuất hiện mặt 7 chấm",
-            "Xuất hiện mặt 1 chấm",
-            "Xuất hiện mặt chẵn",
-            "Xuất hiện số chấm nhỏ hơn 7"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3182,12 +3125,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Tung một đồng xu cân đối 1 lần. Xác suất xuất hiện mặt Ngửa là:",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
+            "$\\frac{1}{3}$",
             "$\\frac{1}{2}$",
-            "$\\frac{1}{4}$",
-            "$1$",
-            "$0$"
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3195,12 +3138,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Xác suất để xuất hiện mặt có số chấm là số chẵn là:",
+          "question": "Một túi có 10 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$"
+            "$\\frac{10}{15}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3208,12 +3151,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Một hộp có 5 chiếc bút bi xanh và 3 chiếc bút bi đỏ cùng loại. Lấy ngẫu nhiên 1 chiếc bút. Xác suất lấy được bút bi xanh là:",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "$\\frac{5}{8}$",
-            "$\\frac{3}{8}$",
-            "$\\frac{5}{3}$",
-            "$\\frac{1}{8}$"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3221,12 +3164,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Chọn ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất chọn được số nguyên tố là:",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "$\\frac{4}{10} = \\frac{2}{5}$",
-            "$\\frac{5}{10}$",
-            "$\\frac{3}{10}$",
-            "$\\frac{1}{10}$"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3234,12 +3177,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số nguyên tố là:",
+          "question": "Hội khỏe Phù Đổng trường có 20 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$ (gồm 2, 3, 5)",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$",
-            "$\\frac{1}{6}$"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3247,12 +3190,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi đựng 20 viên kẹo giống hệt nhau gồm 8 viên dâu, 7 viên cam và 5 viên bạc hà. Lấy ngẫu nhiên 1 viên kẹo. Xác suất để viên kẹo lấy ra không phải là vị bạc hà là:",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "$\\frac{15}{20} = \\frac{3}{4}$",
-            "$\\frac{5}{20} = \\frac{1}{4}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{7}{20}$"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3260,12 +3203,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một lớp học có 20 bạn nam và 25 bạn nữ. Giáo viên gọi ngẫu nhiên một bạn lên bảng trả lời câu hỏi. Xác suất để bạn được gọi là một bạn nữ là:",
+          "question": "Trong một hộp có 45 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "$\\frac{25}{45} = \\frac{5}{9}$",
-            "$\\frac{20}{45} = \\frac{4}{9}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{20}{25}$"
+            "0.89",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3273,12 +3216,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Xác suất để tổng số chấm trên hai con xúc xắc bằng 8 là:",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "$\\frac{5}{36}$",
-            "$\\frac{6}{36}$",
-            "$\\frac{4}{36}$",
-            "$\\frac{1}{8}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3287,33 +3230,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về các loại biến cố và xác suất (Mã đề 5):",
+          "stem": "Xét tính đúng sai về biến cố (Đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Biến cố ngẫu nhiên là biến cố không thể biết trước chắc chắn có xảy ra hay không.",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất của mọi biến cố ngẫu nhiên luôn nằm nghiêm ngặt giữa 0 và 1.",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu hai biến cố đồng khả năng thì xác suất của chúng bằng nhau.",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Tung 2 đồng xu cùng lúc thì xác suất xuất hiện 2 mặt ngửa bằng 1/2.",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3321,33 +3264,33 @@
         },
         {
           "id": 2,
-          "stem": "Trong một hộp có 12 tấm thẻ cùng loại được đánh số từ 1 đến 12. Rút ngẫu nhiên một tấm thẻ:",
+          "stem": "Trong một hộp kín có 15 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Có tất cả 12 kết quả có thể xảy ra với số ghi trên thẻ.",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chẵn bằng 6/12 = 1/2.",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 25.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho 3 bằng 4/12 = 1/3.",
+              "text": "Xác suất rút được thẻ đen là 10 / (25).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho cả 2 và 3 là 1/4.",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3358,76 +3301,76 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hộp có 4 bi xanh và 6 bi đỏ. Tính xác suất bốc được bi đỏ.",
-          "answer": "0,6",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
           "acceptableAnswers": [
-            "0,6"
+            "0.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,6**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 1 lần. Tính xác suất xuất hiện mặt có số chấm lớn hơn 4.",
-          "answer": "1/3",
+          "question": "Một hộp có 11 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "15",
           "acceptableAnswers": [
-            "1/3"
+            "15"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Rút 1 thẻ từ 1 đến 20. Có bao nhiêu kết quả thuận lợi cho sự kiện 'rút được số chia hết cho 4'?",
-          "answer": "5",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
           "acceptableAnswers": [
-            "5"
+            "0.45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Gieo 2 con xúc xắc cân đối. Có bao nhiêu kết quả để tích hai số chấm là số lẻ?",
-          "answer": "9",
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
           "acceptableAnswers": [
-            "9"
+            "0.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một tổ học sinh có 6 bạn nam và 4 bạn nữ. Chọn ngẫu nhiên một bạn làm tổ trưởng. Tính xác suất chọn được bạn nam.",
-          "rubric": "Số kết quả có thể: 6 + 4 = 10 (0.25đ).\nSố kết quả thuận lợi cho bạn nam: 6. Xác suất: 6/10 = 3/5 = 0,6 (0.25đ)."
+          "question": "Một hộp đựng 10 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (10) + 5 = 15 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 10 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (10) / (15) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (15) (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Trong hộp có 15 quả bóng bàn cùng loại được đánh số từ 1 đến 15. Lấy ngẫu nhiên một quả bóng. Tính xác suất của các biến cố sau: a) Quả bóng lấy ra ghi số chia hết cho 5. b) Quả bóng lấy ra ghi số là số nguyên tố.",
-          "rubric": "a) Các số chia hết cho 5: {5; 10; 15} (3 số). P = 3/15 = 1/5 (0.25đ).\nb) Các số nguyên tố: {2; 3; 5; 7; 11; 13} (6 số). P = 6/15 = 2/5 (0.25đ)."
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 150 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (150) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc là một số chia hết cho 5.",
-          "rubric": "Không gian mẫu: 6 x 6 = 36 kết quả (0.25đ).\nCác cặp có tổng chia hết cho 5:\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 kết quả].\nTổng = 10: (4,6), (5,5), (6,4) [3 kết quả].\nTổng số kết quả thuận lợi: 4 + 3 = 7. Xác suất: 7/36 (0.25đ)."
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     },
     "c8_7_bai3_test6": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Biến cố & Xác suất - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Biến cố chắc chắn là biến cố:",
+          "question": "Biến cố chắc chắn là biến cố (Đề 06):",
           "options": [
-            "Chắc chắn xảy ra khi thực hiện phép thử",
+            "Luôn xảy ra trong phép thử",
             "Không bao giờ xảy ra",
             "Có thể xảy ra hoặc không",
             "Có xác suất bằng 0"
@@ -3438,12 +3381,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố không thể bằng:",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "$0$",
-            "$1$",
-            "$0,5$",
-            "$-1$"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3451,12 +3394,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố chắc chắn bằng:",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "$1$",
-            "$0$",
-            "$0,5$",
-            "$100$"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3464,12 +3407,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "Xuất hiện mặt 7 chấm",
-            "Xuất hiện mặt 1 chấm",
-            "Xuất hiện mặt chẵn",
-            "Xuất hiện số chấm nhỏ hơn 7"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3477,12 +3420,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Tung một đồng xu cân đối 1 lần. Xác suất xuất hiện mặt Ngửa là:",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
+            "$\\frac{1}{3}$",
             "$\\frac{1}{2}$",
-            "$\\frac{1}{4}$",
-            "$1$",
-            "$0$"
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3490,12 +3433,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Xác suất để xuất hiện mặt có số chấm là số chẵn là:",
+          "question": "Một túi có 11 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$"
+            "$\\frac{11}{16}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3503,12 +3446,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Một hộp có 5 chiếc bút bi xanh và 3 chiếc bút bi đỏ cùng loại. Lấy ngẫu nhiên 1 chiếc bút. Xác suất lấy được bút bi xanh là:",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "$\\frac{5}{8}$",
-            "$\\frac{3}{8}$",
-            "$\\frac{5}{3}$",
-            "$\\frac{1}{8}$"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3516,12 +3459,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Chọn ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất chọn được số nguyên tố là:",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "$\\frac{4}{10} = \\frac{2}{5}$",
-            "$\\frac{5}{10}$",
-            "$\\frac{3}{10}$",
-            "$\\frac{1}{10}$"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3529,12 +3472,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số nguyên tố là:",
+          "question": "Hội khỏe Phù Đổng trường có 21 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$ (gồm 2, 3, 5)",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$",
-            "$\\frac{1}{6}$"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3542,12 +3485,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi đựng 20 viên kẹo giống hệt nhau gồm 8 viên dâu, 7 viên cam và 5 viên bạc hà. Lấy ngẫu nhiên 1 viên kẹo. Xác suất để viên kẹo lấy ra không phải là vị bạc hà là:",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "$\\frac{15}{20} = \\frac{3}{4}$",
-            "$\\frac{5}{20} = \\frac{1}{4}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{7}{20}$"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3555,12 +3498,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một lớp học có 20 bạn nam và 25 bạn nữ. Giáo viên gọi ngẫu nhiên một bạn lên bảng trả lời câu hỏi. Xác suất để bạn được gọi là một bạn nữ là:",
+          "question": "Trong một hộp có 50 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "$\\frac{25}{45} = \\frac{5}{9}$",
-            "$\\frac{20}{45} = \\frac{4}{9}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{20}{25}$"
+            "0.90",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3568,12 +3511,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Xác suất để tổng số chấm trên hai con xúc xắc bằng 8 là:",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "$\\frac{5}{36}$",
-            "$\\frac{6}{36}$",
-            "$\\frac{4}{36}$",
-            "$\\frac{1}{8}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3582,33 +3525,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về các loại biến cố và xác suất (Mã đề 6):",
+          "stem": "Xét tính đúng sai về biến cố (Đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Biến cố ngẫu nhiên là biến cố không thể biết trước chắc chắn có xảy ra hay không.",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất của mọi biến cố ngẫu nhiên luôn nằm nghiêm ngặt giữa 0 và 1.",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu hai biến cố đồng khả năng thì xác suất của chúng bằng nhau.",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Tung 2 đồng xu cùng lúc thì xác suất xuất hiện 2 mặt ngửa bằng 1/2.",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3616,33 +3559,33 @@
         },
         {
           "id": 2,
-          "stem": "Trong một hộp có 12 tấm thẻ cùng loại được đánh số từ 1 đến 12. Rút ngẫu nhiên một tấm thẻ:",
+          "stem": "Trong một hộp kín có 16 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Có tất cả 12 kết quả có thể xảy ra với số ghi trên thẻ.",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chẵn bằng 6/12 = 1/2.",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 26.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho 3 bằng 4/12 = 1/3.",
+              "text": "Xác suất rút được thẻ đen là 10 / (26).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho cả 2 và 3 là 1/4.",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3653,76 +3596,76 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hộp có 4 bi xanh và 6 bi đỏ. Tính xác suất bốc được bi đỏ.",
-          "answer": "0,6",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
           "acceptableAnswers": [
-            "0,6"
+            "0.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,6**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 1 lần. Tính xác suất xuất hiện mặt có số chấm lớn hơn 4.",
-          "answer": "1/3",
+          "question": "Một hộp có 12 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "16",
           "acceptableAnswers": [
-            "1/3"
+            "16"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Rút 1 thẻ từ 1 đến 20. Có bao nhiêu kết quả thuận lợi cho sự kiện 'rút được số chia hết cho 4'?",
-          "answer": "5",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
           "acceptableAnswers": [
-            "5"
+            "0.45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Gieo 2 con xúc xắc cân đối. Có bao nhiêu kết quả để tích hai số chấm là số lẻ?",
-          "answer": "9",
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
           "acceptableAnswers": [
-            "9"
+            "0.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một tổ học sinh có 6 bạn nam và 4 bạn nữ. Chọn ngẫu nhiên một bạn làm tổ trưởng. Tính xác suất chọn được bạn nam.",
-          "rubric": "Số kết quả có thể: 6 + 4 = 10 (0.25đ).\nSố kết quả thuận lợi cho bạn nam: 6. Xác suất: 6/10 = 3/5 = 0,6 (0.25đ)."
+          "question": "Một hộp đựng 11 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (11) + 5 = 16 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 11 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (11) / (16) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (16) (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Trong hộp có 15 quả bóng bàn cùng loại được đánh số từ 1 đến 15. Lấy ngẫu nhiên một quả bóng. Tính xác suất của các biến cố sau: a) Quả bóng lấy ra ghi số chia hết cho 5. b) Quả bóng lấy ra ghi số là số nguyên tố.",
-          "rubric": "a) Các số chia hết cho 5: {5; 10; 15} (3 số). P = 3/15 = 1/5 (0.25đ).\nb) Các số nguyên tố: {2; 3; 5; 7; 11; 13} (6 số). P = 6/15 = 2/5 (0.25đ)."
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 160 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (160) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc là một số chia hết cho 5.",
-          "rubric": "Không gian mẫu: 6 x 6 = 36 kết quả (0.25đ).\nCác cặp có tổng chia hết cho 5:\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 kết quả].\nTổng = 10: (4,6), (5,5), (6,4) [3 kết quả].\nTổng số kết quả thuận lợi: 4 + 3 = 7. Xác suất: 7/36 (0.25đ)."
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     },
     "c8_7_bai3_test7": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Biến cố & Xác suất - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VIII: Làm quen với biến cố và xác suất của biến cố - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Biến cố chắc chắn là biến cố:",
+          "question": "Biến cố chắc chắn là biến cố (Đề 07):",
           "options": [
-            "Chắc chắn xảy ra khi thực hiện phép thử",
+            "Luôn xảy ra trong phép thử",
             "Không bao giờ xảy ra",
             "Có thể xảy ra hoặc không",
             "Có xác suất bằng 0"
@@ -3733,12 +3676,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố không thể bằng:",
+          "question": "Biến cố không thể là biến cố:",
           "options": [
-            "$0$",
-            "$1$",
-            "$0,5$",
-            "$-1$"
+            "Không bao giờ xảy ra trong phép thử",
+            "Luôn luôn xảy ra",
+            "Xảy ra với xác suất 1",
+            "Xảy ra với xác suất 0,5"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3746,12 +3689,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Xác suất của biến cố chắc chắn bằng:",
+          "question": "Gieo một con xúc xắc 6 mặt cân đối thì biến cố nào sau đây là ngẫu nhiên?",
           "options": [
-            "$1$",
-            "$0$",
-            "$0,5$",
-            "$100$"
+            "Xuất hiện mặt có số chấm là số chẵn",
+            "Xuất hiện mặt 7 chấm",
+            "Xuất hiện mặt có số chấm nhỏ hơn 10",
+            "Xuất hiện mặt 0 chấm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3759,12 +3702,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?",
+          "question": "Xác suất của biến cố chắc chắn bằng:",
           "options": [
-            "Xuất hiện mặt 7 chấm",
-            "Xuất hiện mặt 1 chấm",
-            "Xuất hiện mặt chẵn",
-            "Xuất hiện số chấm nhỏ hơn 7"
+            "1",
+            "0",
+            "0,5",
+            "-1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3772,12 +3715,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Tung một đồng xu cân đối 1 lần. Xác suất xuất hiện mặt Ngửa là:",
+          "question": "Gieo một con xúc xắc cân đối. Xác suất xuất hiện mặt có số chấm chia hết cho 3 là:",
           "options": [
+            "$\\frac{1}{3}$",
             "$\\frac{1}{2}$",
-            "$\\frac{1}{4}$",
-            "$1$",
-            "$0$"
+            "$\\frac{1}{6}$",
+            "$\\frac{2}{3}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3785,12 +3728,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Xác suất để xuất hiện mặt có số chấm là số chẵn là:",
+          "question": "Một túi có 12 viên kẹo màu xanh và 5 viên kẹo màu đỏ. Lấy ngẫu nhiên 1 chiếc kẹo. Biến cố lấy được kẹo màu xanh có xác suất là:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$"
+            "$\\frac{12}{17}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{10}$",
+            "$\\frac{1}{5}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3798,12 +3741,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Một hộp có 5 chiếc bút bi xanh và 3 chiếc bút bi đỏ cùng loại. Lấy ngẫu nhiên 1 chiếc bút. Xác suất lấy được bút bi xanh là:",
+          "question": "Rút ngẫu nhiên một lá bài trong bộ bài có 10 lá đánh số từ 1 đến 10. Xác suất rút được lá bài ghi số nguyên tố là:",
           "options": [
-            "$\\frac{5}{8}$",
-            "$\\frac{3}{8}$",
-            "$\\frac{5}{3}$",
-            "$\\frac{1}{8}$"
+            "0,4",
+            "0,5",
+            "0,3",
+            "0,2"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3811,12 +3754,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Chọn ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Xác suất chọn được số nguyên tố là:",
+          "question": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
           "options": [
-            "$\\frac{4}{10} = \\frac{2}{5}$",
-            "$\\frac{5}{10}$",
-            "$\\frac{3}{10}$",
-            "$\\frac{1}{10}$"
+            "0,6",
+            "0,4",
+            "0,5",
+            "0,8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3824,12 +3767,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm là số nguyên tố là:",
+          "question": "Hội khỏe Phù Đổng trường có 22 đội bóng chuyền tham gia thi đấu loại trực tiếp bốc thăm ngẫu nhiên. Xác suất để đội lớp 7A gặp đội lớp 7B ngay ở trận đầu tiên là một biến cố:",
           "options": [
-            "$\\frac{3}{6} = \\frac{1}{2}$ (gồm 2, 3, 5)",
-            "$\\frac{2}{6}$",
-            "$\\frac{4}{6}$",
-            "$\\frac{1}{6}$"
+            "Ngẫu nhiên",
+            "Chắc chắn",
+            "Không thể",
+            "Đồng khả năng"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3837,12 +3780,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi đựng 20 viên kẹo giống hệt nhau gồm 8 viên dâu, 7 viên cam và 5 viên bạc hà. Lấy ngẫu nhiên 1 viên kẹo. Xác suất để viên kẹo lấy ra không phải là vị bạc hà là:",
+          "question": "Một hộp có 1 quả bóng xanh, 1 quả bóng đỏ, 1 quả bóng vàng. Bạn An lấy ra 1 quả rồi đặt lại vào hộp, sau đó bạn Bình lấy ra 1 quả. Số kết quả có thể xảy ra là:",
           "options": [
-            "$\\frac{15}{20} = \\frac{3}{4}$",
-            "$\\frac{5}{20} = \\frac{1}{4}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{7}{20}$"
+            "9",
+            "3",
+            "6",
+            "8"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3850,12 +3793,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một lớp học có 20 bạn nam và 25 bạn nữ. Giáo viên gọi ngẫu nhiên một bạn lên bảng trả lời câu hỏi. Xác suất để bạn được gọi là một bạn nữ là:",
+          "question": "Trong một hộp có 55 chiếc bút bi, trong đó có 5 chiếc bút màu đỏ, còn lại là màu xanh. Xác suất lấy được chiếc bút màu xanh là:",
           "options": [
-            "$\\frac{25}{45} = \\frac{5}{9}$",
-            "$\\frac{20}{45} = \\frac{4}{9}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{20}{25}$"
+            "0.91",
+            "0,75",
+            "0,5",
+            "0,25"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3863,12 +3806,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Xác suất để tổng số chấm trên hai con xúc xắc bằng 8 là:",
+          "question": "Gieo đồng thời hai con xúc xắc cân đối. Xác suất để tổng số chấm trên hai con xúc xắc bằng 11 là:",
           "options": [
-            "$\\frac{5}{36}$",
-            "$\\frac{6}{36}$",
-            "$\\frac{4}{36}$",
-            "$\\frac{1}{8}$"
+            "$\\frac{2}{36} = \\frac{1}{18}$",
+            "$\\frac{1}{36}$",
+            "$\\frac{3}{36}$",
+            "$\\frac{4}{36}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3877,33 +3820,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về các loại biến cố và xác suất (Mã đề 7):",
+          "stem": "Xét tính đúng sai về biến cố (Đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Biến cố ngẫu nhiên là biến cố không thể biết trước chắc chắn có xảy ra hay không.",
+              "level": "Nhận biết",
+              "text": "Biến cố ngẫu nhiên là biến cố có thể xảy ra hoặc không xảy ra tùy thuộc vào kết quả của phép thử.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất của mọi biến cố ngẫu nhiên luôn nằm nghiêm ngặt giữa 0 và 1.",
+              "text": "Xác suất của một biến cố là một con số nằm giữa 0 và 1 (kể cả 0 và 1).",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu hai biến cố đồng khả năng thì xác suất của chúng bằng nhau.",
+              "text": "Gieo một con xúc xắc 6 mặt thì xác suất ra mặt 1 chấm bằng xác suất ra mặt 6 chấm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Tung 2 đồng xu cùng lúc thì xác suất xuất hiện 2 mặt ngửa bằng 1/2.",
+              "text": "Nếu tung đồng xu 10 lần đều ra mặt Sấp thì chắc chắn lần thứ 11 sẽ ra mặt Ngửa.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3911,33 +3854,33 @@
         },
         {
           "id": 2,
-          "stem": "Trong một hộp có 12 tấm thẻ cùng loại được đánh số từ 1 đến 12. Rút ngẫu nhiên một tấm thẻ:",
+          "stem": "Trong một hộp kín có 17 thẻ trắng và 10 thẻ đen có cùng kích thước và khối lượng (Mã đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Có tất cả 12 kết quả có thể xảy ra với số ghi trên thẻ.",
+              "level": "Nhận biết",
+              "text": "Hành động rút ngẫu nhiên 1 thẻ là một phép thử ngẫu nhiên.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chẵn bằng 6/12 = 1/2.",
+              "text": "Tổng số kết quả có thể xảy ra khi rút 1 thẻ là 27.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho 3 bằng 4/12 = 1/3.",
+              "text": "Xác suất rút được thẻ đen là 10 / (27).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất rút được thẻ ghi số chia hết cho cả 2 và 3 là 1/4.",
+              "text": "Khả năng rút được thẻ đen luôn cao hơn rút được thẻ trắng với mọi t >= 1.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3948,62 +3891,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hộp có 4 bi xanh và 6 bi đỏ. Tính xác suất bốc được bi đỏ.",
-          "answer": "0,6",
+          "question": "Gieo một con xúc xắc 6 mặt. Tính xác suất xuất hiện mặt có số chấm là số lẻ.",
+          "answer": "0.5",
           "acceptableAnswers": [
-            "0,6"
+            "0.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,6**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.5**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 1 lần. Tính xác suất xuất hiện mặt có số chấm lớn hơn 4.",
-          "answer": "1/3",
+          "question": "Một hộp có 13 bi xanh và 4 bi đỏ. Tính tổng số kết quả có thể xảy ra khi lấy ngẫu nhiên 1 viên bi.",
+          "answer": "17",
           "acceptableAnswers": [
-            "1/3"
+            "17"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1/3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Rút 1 thẻ từ 1 đến 20. Có bao nhiêu kết quả thuận lợi cho sự kiện 'rút được số chia hết cho 4'?",
-          "answer": "5",
+          "question": "Tung một đồng xu 40 lần thấy xuất hiện mặt Ngửa 22 lần. Tính xác suất thực nghiệm xuất hiện mặt Sấp.",
+          "answer": "0.45",
           "acceptableAnswers": [
-            "5"
+            "0.45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.45**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Gieo 2 con xúc xắc cân đối. Có bao nhiêu kết quả để tích hai số chấm là số lẻ?",
-          "answer": "9",
+          "level": "Vận dụng",
+          "question": "Trong hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên 1 thẻ. Tính xác suất thẻ rút được ghi số lớn hơn 7.",
+          "answer": "0.3",
           "acceptableAnswers": [
-            "9"
+            "0.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.3**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một tổ học sinh có 6 bạn nam và 4 bạn nữ. Chọn ngẫu nhiên một bạn làm tổ trưởng. Tính xác suất chọn được bạn nam.",
-          "rubric": "Số kết quả có thể: 6 + 4 = 10 (0.25đ).\nSố kết quả thuận lợi cho bạn nam: 6. Xác suất: 6/10 = 3/5 = 0,6 (0.25đ)."
+          "question": "Một hộp đựng 12 tấm thẻ ghi số chẵn và 5 tấm thẻ ghi số lẻ. Rút ngẫu nhiên 1 tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn và xác suất rút được thẻ ghi số lẻ.",
+          "rubric": "Tổng số tấm thẻ trong hộp: (12) + 5 = 17 thẻ (0.25đ).\nSố kết quả thuận lợi rút thẻ số chẵn là 12 (0.25đ).\nXác suất rút thẻ chẵn: P(Chẵn) = (12) / (17) (0.25đ).\nXác suất rút thẻ lẻ: P(Lẻ) = 5 / (17) (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Trong hộp có 15 quả bóng bàn cùng loại được đánh số từ 1 đến 15. Lấy ngẫu nhiên một quả bóng. Tính xác suất của các biến cố sau: a) Quả bóng lấy ra ghi số chia hết cho 5. b) Quả bóng lấy ra ghi số là số nguyên tố.",
-          "rubric": "a) Các số chia hết cho 5: {5; 10; 15} (3 số). P = 3/15 = 1/5 (0.25đ).\nb) Các số nguyên tố: {2; 3; 5; 7; 11; 13} (6 số). P = 6/15 = 2/5 (0.25đ)."
+          "question": "Trong một đợt kiểm tra chất lượng sản phẩm gồm 170 linh kiện điện tử, người ta phát hiện có 5 linh kiện bị lỗi. Hãy tính xác suất thực nghiệm một linh kiện bị lỗi và ước lượng nếu sản xuất 10 000 linh kiện thì có khoảng bao nhiêu linh kiện bị lỗi.",
+          "rubric": "Xác suất thực nghiệm linh kiện bị lỗi: P = 5 / (170) (0.25đ).\nTỉ lệ lỗi thực nghiệm ước tính cho toàn bộ lô hàng (0.25đ).\nSố linh kiện lỗi dự đoán trong 10 000 linh kiện: N = 10 000 . P (0.25đ).\nTính toán và kết luận số linh kiện lỗi ước lượng (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc là một số chia hết cho 5.",
-          "rubric": "Không gian mẫu: 6 x 6 = 36 kết quả (0.25đ).\nCác cặp có tổng chia hết cho 5:\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 kết quả].\nTổng = 10: (4,6), (5,5), (6,4) [3 kết quả].\nTổng số kết quả thuận lợi: 4 + 3 = 7. Xác suất: 7/36 (0.25đ)."
+          "question": "Một chiếc hộp có 3 quả bóng xanh và 2 quả bóng đỏ. Bạn Nam lấy ngẫu nhiên 1 quả bóng, xem màu rồi KHÔNG trả lại vào hộp. Sau đó bạn Bình lấy tiếp 1 quả bóng. Tính xác suất để cả hai bạn đều lấy được bóng màu xanh.",
+          "rubric": "Xác suất bạn Nam lấy được quả bóng màu xanh lần thứ nhất là: 3/5 (0.25đ).\nSau khi Nam lấy 1 bóng xanh, trong hộp còn lại 4 quả bóng (gồm 2 xanh và 2 đỏ) (0.25đ).\nXác suất bạn Bình lấy được quả bóng màu xanh lần thứ hai là: 2/4 = 1/2 (0.25đ).\nXác suất để cả hai bạn cùng lấy được bóng xanh là: (3/5) . (1/2) = 3/10 = 0,3 (0.25đ)."
         }
       ]
     }

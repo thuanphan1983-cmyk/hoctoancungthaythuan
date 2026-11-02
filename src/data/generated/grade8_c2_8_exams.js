@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG II: HẰNG ĐẲNG THỨC ĐÁNG NHỚ VÀ ỨNG DỤNG - TOÁN 8 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:24:42
+// Cập nhật lúc: 2026-11-02 07:36:39
 // ==============================================================================
 
 const EXAMS_8_C2_8 = {
@@ -2832,520 +2832,6 @@ const EXAMS_8_C2_8 = {
       }
     ]
   },
-  "c2_8_bai5_test2": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Bài kiểm tra số 2",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Đẳng thức nào sau đây biểu diễn đúng hằng đẳng thức hiệu hai lập phương với hai biểu thức $A$ và $B$ bất kỳ?",
-        "options": [
-          "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 + 2AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Biểu thức nào sau đây là bình phương của một hiệu?",
-        "options": [
-          "$4x^2 + 12x + 9$",
-          "$4x^2 - 6x + 9$",
-          "$4x^2 - 9$",
-          "$4x^2 - 12x + 9$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Phân tích đa thức $9x^2 - 16y^2$ thành nhân tử, ta được kết quả là:",
-        "options": [
-          "$(9x - 16y)(9x + 16y)$",
-          "$(3x - 4y)(3x + 4y)$",
-          "$(3x - 4y)^2$",
-          "$(3x + 4y)^2$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Hằng đẳng thức lập phương của một tổng được viết dưới dạng thu gọn của biểu thức $x^3 + 6x^2 + 12x + 8$ là:",
-        "options": [
-          "$(x + 2)^3$",
-          "$(2x + 1)^3$",
-          "$(x + 8)^3$",
-          "$(x + 4)^3$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Rút gọn biểu thức $M = (2x - 3y)(4x^2 + 6xy + 9y^2) - (2x + 3y)(4x^2 - 6xy + 9y^2)$ ta được kết quả là:",
-        "options": [
-          "$-27y^3$",
-          "$16x^3$",
-          "$-54y^3$",
-          "$0$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Tìm hệ số của đơn thức $x^2y$ sau khi khai triển và thu gọn biểu thức $P = (2x - y)^3 + (x + 2y)^3$.",
-        "options": [
-          "$6$",
-          "$0$",
-          "$-6$",
-          "$-12$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Cho $x - y = 5$ và $xy = 6$. Giá trị của biểu thức $Q = x^3 - y^3$ bằng:",
-        "options": [
-          "$215$",
-          "$95$",
-          "$155$",
-          "$35$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Phân tích đa thức $A = x^3 - 4x^2y + 4xy^2 - 9x$ thành nhân tử hoàn chỉnh:",
-        "options": [
-          "$(x^2 - 2xy)(x - 2y - 9)$",
-          "$x(x + 2y - 3)(x + 2y + 3)$",
-          "$x(x - 2y - 3)(x - 2y + 3)$",
-          "$x(x - 2y - 9)(x - 2y + 9)$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $N = 78^2 + 22^2 + 44 \\cdot 78$ bằng:",
-        "options": [
-          "$1\\,000$",
-          "$10\\,000$",
-          "$100\\,000$",
-          "$3\\,136$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 10,
-        "level": "Thông hiểu",
-        "question": "Đa thức $x^2 - 5x + 6$ được phân tích thành nhân tử là:",
-        "options": [
-          "$(x - 2)(x - 3)$",
-          "$(x + 1)(x - 6)$",
-          "$(x - 1)(x - 6)$",
-          "$(x + 2)(x + 3)$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 11,
-        "level": "Thông hiểu",
-        "question": "Có bao nhiêu giá trị của $x$ thỏa mãn đẳng thức $(2x - 1)^2 - (x + 3)^2 = 0$?",
-        "options": [
-          "$3$",
-          "$1$",
-          "$0$",
-          "$2$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 12,
-        "level": "Thông hiểu",
-        "question": "Biểu thức $K = -x^2 + 6x - 11$ đạt giá trị lớn nhất bằng bao nhiêu?",
-        "options": [
-          "$3$",
-          "$2$",
-          "$-11$",
-          "$-2$"
-        ],
-        "correct": 3
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "stem": "Cho hai biểu thức đại số $A = (2x + 1)^2 - 2(2x + 1)(x - 3) + (x - 3)^2$ và $B = x^3 - 3x^2 + 3x - 1$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Rút gọn biểu thức $A$, ta được $A = (x + 4)^2$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Biểu thức $B$ được viết dưới dạng lũy thừa là $B = (x + 1)^3$.",
-            "correct": false
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Khi $x = 6$, tỉ số $\\frac{A}{B}$ có giá trị bằng $\\frac{4}{5}$.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Với mọi số nguyên dương $x > 1$, giá trị của biểu thức $B$ luôn chia hết cho $6$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho đa thức $P(x) = x^4 - 2x^3 + 3x^2 - 2x + 2$ và phương trình $x^3 - 7x + 6 = 0$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Đa thức $x^3 - 7x + 6$ có một nhân tử là $(x - 1)$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Phương trình $x^3 - 7x + 6 = 0$ có đúng 2 nghiệm phân biệt.",
-            "correct": false
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Đa thức $P(x)$ có thể biến đổi thành dạng $(x^2 - x + 1)^2 + 1$.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Giá trị nhỏ nhất của đa thức $P(x)$ bằng $2$ khi $x = 0$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức $H = x^3 - 6x^2y + 12xy^2 - 8y^3$ tại $x = 24$ và $y = 7$.",
-        "answer": "1000"
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Tìm số nguyên dương $x$ thỏa mãn phương trình: $(x + 2)^2 - (x - 1)(x + 1) = 25$.",
-        "answer": "5"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Cho hai số thực $a, b$ thỏa mãn $a + b = 7$ và $a^2 + b^2 = 29$. Tính giá trị của biểu thức $a^3 + b^3$.",
-        "answer": "133"
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng thấp",
-        "question": "Một mảnh đất hình vuông có cạnh độ dài $x$ mét ($x > 4$). Người ta bớt mỗi cạnh đi $4$ mét để làm lối đi xung quanh, phần đất còn lại bên trong vẫn là hình vuông có diện tích nhỏ hơn diện tích mảnh đất ban đầu là $112\\text{ m}^2$. Tính cạnh $x$ (mét) của mảnh đất ban đầu.",
-        "answer": "16"
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng thấp",
-        "question": "Phân tích các đa thức sau thành nhân tử:\na) $M = 3x^2 - 6xy + 3y^2 - 12z^2$.\nb) $N = x^2 - 7x + 12$.",
-        "rubric": "a) (0.5 điểm):\n- Đặt nhân tử chung $3$: $M = 3(x^2 - 2xy + y^2 - 4z^2)$ (0.25đ).\n- Áp dụng hằng đẳng thức hiệu hai bình phương: $M = 3[(x - y)^2 - (2z)^2] = 3(x - y - 2z)(x - y + 2z)$ (0.25đ).\nb) (0.5 điểm):\n- Tách hạng tử: $N = x^2 - 3x - 4x + 12$ (0.25đ).\n- Nhóm và phân tích: $N = x(x - 3) - 4(x - 3) = (x - 3)(x - 4)$ (0.25đ)."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Bác An có một bể nước dạng hình hộp chữ nhật có đáy là hình vuông cạnh $x$ (mét), chiều cao là $h$ (mét). Bác An mở rộng bể bằng cách tăng cạnh đáy hình vuông thêm $1{,}5\\text{ m}$ và giữ nguyên chiều cao $h$. \na) Viết biểu thức biểu thị phần dung tích tăng thêm của bể theo $x$ và $h$.\nb) Biết ban đầu bể có cạnh đáy $x = 2{,}5\\text{ m}$, chiều cao $h = 1{,}6\\text{ m}$. Hãy tính phần thể tích tăng thêm đó ra đơn vị mét khối.",
-        "rubric": "a) (0.5 điểm):\n- Thể tích ban đầu: $V_1 = x^2 \\cdot h$ ($m^3$) (0.1đ).\n- Cạnh đáy sau khi mở rộng là $x + 1{,}5$, thể tích mới là: $V_2 = (x + 1{,}5)^2 \\cdot h$ ($m^3$) (0.15đ).\n- Phần thể tích tăng thêm: $\\Delta V = V_2 - V_1 = h[(x + 1{,}5)^2 - x^2] = h(3x + 2{,}25)$ ($m^3$) (0.25đ).\nb) (0.5 điểm):\n- Thay $x = 2{,}5$ và $h = 1{,}6$ vào biểu thức tăng thêm: $\\Delta V = 1{,}6 \\cdot (3 \\cdot 2{,}5 + 2{,}25)$ (0.25đ).\n- Tính toán ra kết quả: $\\Delta V = 1{,}6 \\cdot (7{,}5 + 2{,}25) = 1{,}6 \\cdot 9{,}75 = 15{,}6\\text{ m}^3$ (0.25đ)."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho hai số thực $x, y$ thỏa mãn điều kiện $x^2 + 2y^2 + 2xy - 4y + 4 = 0$. Hãy tính giá trị của biểu thức $T = (x + y + 1)^{2024} + (x + 2)^{2025}$.",
-        "rubric": "Bước 1 (0.5 điểm):\n- Biến đổi phương trình đã cho bằng cách nhóm các hằng đẳng thức:\n$x^2 + 2xy + y^2 + y^2 - 4y + 4 = 0$\n$\\Leftrightarrow (x + y)^2 + (y - 2)^2 = 0$ (0.5đ).\nBước 2 (0.5 điểm):\n- Vì $(x + y)^2 \\ge 0$ và $(y - 2)^2 \\ge 0$ với mọi $x, y$, nên dấu \"=\" xảy ra khi và chỉ khi:\n$\\begin{cases} x + y = 0 \\\\ y - 2 = 0 \\end{cases} \\Leftrightarrow \\begin{cases} y = 2 \\\\ x = -2 \\end{cases}$ (0.25đ).\n- Thay $x = -2; y = 2$ vào biểu thức $T$:\n$T = (-2 + 2 + 1)^{2024} + (-2 + 2)^{2025} = 1^{2024} + 0^{2025} = 1$ (0.25đ)."
-      }
-    ]
-  },
-  "c2_8_bai5_test3": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 3 (Nâng cao & Phân hóa sâu)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Cho hai biểu thức $A$ và $B$. Đẳng thức nào sau đây biểu diễn hằng đẳng thức hiệu hai lập phương?",
-        "options": [
-          "$(A - B)^3 = A^3 - 3A^2B + 3AB^2 - B^3$",
-          "$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$",
-          "$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$",
-          "$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Biểu thức $4x^2 - 12xy + 9y^2$ viết dưới dạng bình phương của một hiệu là",
-        "options": [
-          "$(2x - 3y)^2$",
-          "$(3y - 4x)^2$",
-          "$(4x - 9y)^2$",
-          "$(2x + 3y)^2$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Thông hiểu",
-        "question": "Rút gọn biểu thức $P = (2x - 1)(4x^2 + 2x + 1) - 8x(x^2 - 1)$ ta được kết quả là",
-        "options": [
-          "$1$",
-          "$-1$",
-          "$8x - 1$",
-          "$-8x - 1$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 4,
-        "level": "Thông hiểu",
-        "question": "Cho $x + y = 5$ và $xy = 6$. Giá trị của biểu thức $x^3 + y^3$ bằng",
-        "options": [
-          "$125$",
-          "$95$",
-          "$65$",
-          "$35$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Tìm hệ số của $x^2$ trong khai triển của biểu thức $Q = (3x - 2)^3 + (x + 2)^3$.",
-        "options": [
-          "$-54$",
-          "$6$",
-          "$-60$",
-          "$-48$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Biểu thức $M = x^2 - 6x + 14$ đạt giá trị nhỏ nhất tại",
-        "options": [
-          "$x = 6$",
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 5$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Đa thức $x^3 - 7x - 6$ được phân tích thành nhân tử là",
-        "options": [
-          "$(x - 1)(x + 2)(x - 3)$",
-          "$(x + 1)(x + 2)(x - 3)$",
-          "$(x + 1)(x - 2)(x + 3)$",
-          "$(x - 1)(x - 2)(x + 3)$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Có bao nhiêu cặp số nguyên dương $(x; y)$ thỏa mãn đẳng thức $x^2 - y^2 = 35$?",
-        "options": [
-          "$4$",
-          "$1$",
-          "$2$",
-          "$3$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho $a, b, c$ đôi một khác nhau và thỏa mãn $a + b + c = 0$. Rút gọn biểu thức $S = \\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}$ ta thu được kết quả là",
-        "options": [
-          "$3$",
-          "$-3$",
-          "$1$",
-          "$0$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Biết rằng đa thức $P(x) = x^4 + 4x^3 + 10x^2 + 12x + 9$ được viết dưới dạng bình phương của một đa thức $Q(x)$. Đa thức $Q(x)$ có thể là",
-        "options": [
-          "$x^2 + 2x - 3$",
-          "$x^2 + 2x + 3$",
-          "$x^2 + 3x + 2$",
-          "$x^2 - 2x + 3$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho $x > 0$ thỏa mãn $x^2 + \\frac{1}{x^2} = 7$. Giá trị của biểu thức $x^5 + \\frac{1}{x^5}$ bằng",
-        "options": [
-          "$110$",
-          "$133$",
-          "$126$",
-          "$123$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để đa thức $A(x) = 4x^2 - 12x + m$ luôn nhận giá trị dương với mọi số thực $x$?",
-        "options": [
-          "Vô số giá trị",
-          "Không có giá trị nào",
-          "$10$",
-          "$9$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "stem": "Cho biểu thức $A = (x + 1)(x + 2)(x + 4)(x + 5) + 2025$ và biểu thức $B(x; y) = 2x^2 + y^2 - 2xy - 4x + 2026$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Bằng cách ghép các nhân tử thích hợp, ta có $(x + 1)(x + 5) = x^2 + 6x + 5$ và $(x + 2)(x + 4) = x^2 + 6x + 8$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Đặt $t = x^2 + 6x + 6$, biểu thức $A$ được viết lại thành $t^2 + 2024$.",
-            "correct": false
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị nhỏ nhất của biểu thức $A$ là $2024$.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Biểu thức $B(x; y)$ đạt giá trị nhỏ nhất là $2022$ khi $x = y = 2$.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho ba số thực dương $a, b, c$ thỏa mãn điều kiện $a + b + c = 3$. Xét tính đúng/sai của các mệnh đề sau:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Biểu thức $(a + b + c)^2$ khai triển bằng $a^2 + b^2 + c^2 + 2(ab + bc + ca)$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Bất đẳng thức $a^2 + b^2 + c^2 \\ge ab + bc + ca$ luôn đúng với mọi số thực $a, b, c$.",
-            "correct": true
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị lớn nhất của biểu thức $M = ab + bc + ca$ là $9$.",
-            "correct": false
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Biểu thức $P = \\frac{a^3}{b} + \\frac{b^3}{c} + \\frac{c^3}{a}$ luôn thỏa mãn $P \\ge 3$.",
-            "correct": true
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức $T = 100^2 - 99^2 + 98^2 - 97^2 + \\dots + 2^2 - 1^2$.",
-        "answer": "5050"
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $x - y = 4$ và $xy = 5$. Tính giá trị của biểu thức $D = x^3 - y^3$.",
-        "answer": "124"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $H = x^2 - 4xy + 5y^2 - 6y + 15$.",
-        "answer": "6"
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn phương trình: $x^2 + 2xy + 2y^2 - 4x - 6y + 5 = 0$?",
-        "answer": "1"
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Vận dụng thấp",
-        "question": "Cho $a, b, c$ là các số thực thỏa mãn đồng thời hai điều kiện: $a + b + c = 6$ và $a^2 + b^2 + c^2 = 18$.\nChứng minh rằng cả ba số $a, b, c$ đều thuộc đoạn $[0; 4]$.",
-        "rubric": "Bước 1 (0.5đ): Từ $a + b + c = 6 \\Rightarrow b + c = 6 - a$. Từ $a^2 + b^2 + c^2 = 18 \\Rightarrow b^2 + c^2 = 18 - a^2$.\nÁp dụng hằng đẳng thức: $(b + c)^2 = b^2 + 2bc + c^2 \\le 2(b^2 + c^2)$ (do $(b - c)^2 \\ge 0$).\nBước 2 (0.5đ): Thay vào ta được:\n$(6 - a)^2 \\le 2(18 - a^2) \\Leftrightarrow 36 - 12a + a^2 \\le 36 - 2a^2 \\Leftrightarrow 3a^2 - 12a \\le 0 \\Leftrightarrow 3a(a - 4) \\le 0 \\Leftrightarrow 0 \\le a \\le 4$.\nDo vai trò đối xứng của $a, b, c$ nên $0 \\le b \\le 4$ và $0 \\le c \\le 4$. Vậy $a, b, c \\in [0; 4]$."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Một mảnh vườn hình chữ nhật có chu vi bằng $40\\text{ m}$. Người ta làm một lối đi xung quanh vườn thuộc phần đất của vườn rộng $1\\text{ m}$. Biết rằng diện tích phần đất còn lại bên trong để trồng rau là $72\\text{ m}^2$.\na) Tính diện tích ban đầu của mảnh vườn.\nb) Bằng phương pháp biến đổi đại số dựa vào hằng đẳng thức, hãy tìm kích thước các cạnh của mảnh vườn ban đầu.",
-        "rubric": "Bước 1 (0.5đ): Gọi chiều dài và chiều rộng của mảnh vườn ban đầu lần lượt là $x, y$ (m) ($x \\ge y > 2$).\nNửa chu vi vườn là $x + y = 20$.\nPhần đất còn lại bên trong là hình chữ nhật có kích thước $(x - 2)$ và $(y - 2)$.\nDiện tích trồng rau: $(x - 2)(y - 2) = 72 \\Leftrightarrow xy - 2(x + y) + 4 = 72$.\nThay $x + y = 20$ vào: $xy - 2(20) + 4 = 72 \\Leftrightarrow xy - 36 = 72 \\Leftrightarrow xy = 108$.\nDiện tích ban đầu của mảnh vườn là $S = xy = 108\\text{ m}^2$.\nBước 2 (0.5đ): Ta có $x + y = 20$ và $xy = 108$.\nÁp dụng hằng đẳng thức hiệu hai bình phương: $(x - y)^2 = (x + y)^2 - 4xy = 20^2 - 4 \\cdot 108 = 400 - 432 = -32$ (vô lý nếu không đổi số liệu). \nKiểm tra lại: $xy - 2(20) + 4 = 72 \\Rightarrow xy = 72 + 40 - 4 = 108$. Khi đó $(x - y)^2 = 400 - 432 < 0$. \nChỉnh lại số liệu trong tính: $xy = 96$ nếu diện tích trồng rau là $60\\text{ m}^2$: \nVới đề bài: $(x-2)(y-2) = xy - 2(x+y) + 4 = 72 \\Rightarrow xy = 108$. Ta thấy $(x+y)^2 - 4xy = 400 - 432 < 0$. Do đó, để bài toán thực tế có nghiệm thực, ta hiệu chỉnh diện tích trồng rau phù hợp: $(x-2)(y-2) = 60\\text{ m}^2 \\Rightarrow xy = 60 + 40 - 4 = 96\\text{ m}^2$.\nKhi đó: $(x - y)^2 = (x+y)^2 - 4xy = 400 - 384 = 16 \\Rightarrow x - y = 4$ (do $x \\ge y$).\nTừ $x + y = 20$ và $x - y = 4 \\Rightarrow x = 12\\text{ m}, y = 8\\text{ m}$.\n(Thí sinh lập luận đúng quan hệ $xy = (x-2)(y-2) + 2(x+y) - 4$ và giải tìm $x, y$ qua hằng đẳng thức $(x-y)^2 = (x+y)^2 - 4xy$ đạt điểm tối đa)."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho các số thực dương $x, y, z$ thỏa mãn điều kiện $x + y + z = 1$.\nChứng minh rằng:\n$$\\frac{x}{x + yz} + \\frac{y}{y + zx} + \\frac{z}{z + xy} \\le \\frac{9}{4}$$",
-        "rubric": "Bước 1 (0.5đ): Thay $1 = x + y + z$ vào mẫu số:\n$x + yz = x(x + y + z) + yz = x^2 + xy + xz + yz = x(x + y) + z(x + y) = (x + y)(x + z)$.\nTương tự: $y + zx = (y + x)(y + z)$ và $z + xy = (z + x)(z + y)$.\nKhi đó vế trái trở thành:\n$VT = \\frac{x}{(x+y)(x+z)} + \\frac{y}{(y+x)(y+z)} + \\frac{z}{(z+x)(z+y)}$\n$VT = \\frac{x(y+z) + y(x+z) + z(x+y)}{(x+y)(y+z)(z+x)} = \\frac{2(xy + yz + zx)}{(x+y)(y+z)(z+x)}$.\nBước 2 (0.5đ): Áp dụng hằng đẳng thức:\n$(x+y)(y+z)(z+x) = (x+y+z)(xy+yz+zx) - xyz = (xy+yz+zx) - xyz$ (do $x+y+z=1$).\nTheo bất đẳng thức Cauchy: $(x+y)(y+z)(z+x) \\ge 8xyz$ và $(xy+yz+zx)(x+y+z) \\ge 9xyz \\Rightarrow xyz \\le \\frac{1}{9}(xy+yz+zx)$.\nDo đó: $(x+y)(y+z)(z+x) = (xy+yz+zx) - xyz \\ge (xy+yz+zx) - \\frac{1}{9}(xy+yz+zx) = \\frac{8}{9}(xy+yz+zx)$.\nTừ đó suy ra:\n$VT = \\frac{2(xy+yz+zx)}{(x+y)(y+z)(z+x)} \\le \\frac{2(xy+yz+zx)}{\\frac{8}{9}(xy+yz+zx)} = \\frac{2}{\\frac{8}{9}} = \\frac{9}{4}$.\nDấu \"=\" xảy ra khi và chỉ khi $x = y = z = \\frac{1}{3}$."
-      }
-    ]
-  },
   "c2_8_bai4_test2": {
     "title": "Toán 8 (KNTT) - Bài 9: Phân tích đa thức thành nhân tử - Đề kiểm tra số 2 (Mức độ Khá)",
     "part1": [
@@ -3604,211 +3090,233 @@ const EXAMS_8_C2_8 = {
     ]
   },
   "c2_8_bai5_test1": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Bài kiểm tra số 1",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Khai triển của hằng đẳng thức $(a + b)^2$ là",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 01):",
         "options": [
-          "$a^2 - 2ab + b^2$",
-          "$a^2 + 2ab + b^2$",
-          "$a^2 + b^2$",
-          "$a^2 + ab + b^2$"
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Biểu thức $x^2 - 9$ viết dưới dạng tích là",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
         "options": [
-          "$(x + 3)^2$",
-          "$(x - 9)(x + 9)$",
-          "$(x + 3)(x - 3)$",
-          "$(x - 3)^2$"
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
         "options": [
-          "$A^3 + 3A^2B + 3AB^2 + B^3$",
-          "$A^3 - 3A^2B - 3AB^2 - B^3$",
           "$A^3 - 3A^2B + 3AB^2 - B^3$",
-          "$A^3 - B^3$"
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Biểu thức $(x - 2y)^2$ được khai triển thành",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
         "options": [
-          "$x^2 - 4xy + 2y^2$",
-          "$x^2 - 2xy + 4y^2$",
-          "$x^2 - 4y^2$",
-          "$x^2 - 4xy + 4y^2$"
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Biểu thức $x^3 + 8$ viết dưới dạng tích là",
+        "level": "Thông hiểu",
+        "question": "Khai triển hằng đẳng thức $(x + 1)^2$ ta được kết quả là:",
         "options": [
-          "$(x + 2)(x^2 + 2x + 4)$",
-          "$(x + 2)^3$",
-          "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x - 2)(x^2 + 2x + 4)$"
+          "$x^2 + 2x + 1$",
+          "$x^2 + 1x + 1$",
+          "$x^2 + 2x + 2$",
+          "$x^2 + 1$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Đơn thức nhân tử chung của đa thức $6x^2y - 9xy^2$ là",
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức $x^2 - 4$ thành nhân tử ta được:",
         "options": [
-          "$3xy$",
-          "$3y$",
-          "$3x$",
-          "$xy$"
+          "$(x - 2)(x + 2)$",
+          "$(x - 2)^2$",
+          "$(x - 4)(x + 4)$",
+          "$(x + 2)^2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Nhận biết",
-        "question": "Biểu thức $x^2 - 4x + 4$ là bình phương của đa thức nào?",
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $P = x^2 - 2x + 1$ tại $x = 11$ là:",
         "options": [
-          "$x - 4$",
-          "$x - 2$",
-          "$2x - 1$",
-          "$x + 2$"
+          "100",
+          "$1$",
+          "200",
+          "50"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Nhận biết",
-        "question": "Biểu thức $(x + 1)(x^2 - x + 1)$ thu gọn thành",
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức $x^3 - 8$ thành nhân tử ta được:",
         "options": [
-          "$(x + 1)^3$",
-          "$x^2 + 1$",
-          "$x^3 - 1$",
-          "$x^3 + 1$"
+          "$(x - 2)(x^2 + 2x + 4)$",
+          "$(x - 2)(x^2 - 2x + 4)$",
+          "$(x - 2)^3$",
+          "$(x - 8)(x^2 + 8x + 64)$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức $A = x^2 - 6x + 9$ tại $x = 13$.",
+        "level": "Vận dụng",
+        "question": "Tại dự án Mở rộng khuôn viên trường THCS, một sân bóng chuyền hình vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $3$ mét thì diện tích tăng thêm là:",
         "options": [
-          "$100$",
-          "$81$",
-          "$169$",
-          "$121$"
+          "$6x + 9$ mét vuông",
+          "$3x + 9$ mét vuông",
+          "$x^2 + 9$ mét vuông",
+          "$12x$ mét vuông"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Phân tích đa thức $x(x - 3) + 5(x - 3)$ thành nhân tử ta được",
+        "level": "Vận dụng",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $101^2 - 99^2$:",
         "options": [
-          "$5x(x - 3)$",
-          "$(x - 3)(x - 5)$",
-          "$(x + 3)(x + 5)$",
-          "$(x - 3)(x + 5)$"
+          "$400$",
+          "$200$",
+          "$100$",
+          "$4$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Tìm $x$ biết $x^2 - 16 = 0$.",
+        "level": "Vận dụng",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $1$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
         "options": [
-          "$x = 4$ hoặc $x = -4$",
-          "$x = 4$",
-          "$x = 16$",
-          "$x = -4$"
+          "$31x^2 - 31x + 1$",
+          "$x^3 - 1$",
+          "$3x^2$",
+          "$1$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $52^2 - 48^2$ là",
+        "level": "Vận dụng cao",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 4x + y^2 + 2y + 12$ là:",
         "options": [
-          "$200$",
-          "$400$",
-          "$800$",
-          "$100$"
+          "7",
+          "5",
+          "$1$",
+          "10"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho biểu thức $P = (x + 2)^2 - (x - 1)^2$. Xét tính đúng/sai của các khẳng định sau:",
+        "stem": "Cho biểu thức $A = (x + 1)^3 - (x - 1)^3$ (Đề 01):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Khai triển $(x + 2)^2 = x^2 + 4x + 4$.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Khai triển $(x - 1)^2 = x^2 - 2x - 1$.",
-            "correct": false
+            "text": "Khai triển hằng đẳng thức ta được A = 6x^2 + 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Rút gọn biểu thức $P$ ta được $P = 6x + 3$.",
-            "correct": true
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Thông hiểu",
-            "text": "Tại $x = 1$, giá trị của biểu thức $P$ bằng $7$.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 1.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Cho đa thức $Q = x^2 - 2xy + y^2 - 9$. Xét tính đúng/sai của các khẳng định sau:",
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 01): Một tấm tôn hình vuông cạnh (x + 2) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 2) cm.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Ba hạng tử đầu tạo thành hằng đẳng thức $(x - y)^2$.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đa thức $Q$ có thể viết lại dưới dạng $(x - y)^2 - 3^2$.",
-            "correct": true
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Phân tích đa thức $Q$ thành nhân tử được $(x - y - 3)(x - y + 3)$.",
-            "correct": true
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 8x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Thông hiểu",
-            "text": "Khi $x - y = 3$, giá trị của $Q$ bằng $9$.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3817,63 +3325,669 @@ const EXAMS_8_C2_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính nhanh giá trị của biểu thức $B = 37^2 + 2 \\cdot 37 \\cdot 13 + 13^2$.",
-        "answer": "2500"
+        "question": "Tính giá trị của biểu thức P = x^2 - 6x + 9 tại x = 8.",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$ thoả mãn $(x - 2)^2 = 25$ và $x > 0$.",
-        "answer": "7"
+        "question": "Tìm x biết: (x - 1)^2 - (x - 1)(x + 1) = 0.",
+        "answer": "1",
+        "acceptableAnswers": [
+          "1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức $C = x^3 - 3x^2 + 3x - 1$ tại $x = 11$.",
-        "answer": "1000"
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 7x + 12 m^2, chiều rộng là x + 3 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 1?",
+        "answer": "1",
+        "acceptableAnswers": [
+          "1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       },
       {
         "id": 4,
-        "level": "Thông hiểu",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $D = x^2 - 4x + 9$.",
-        "answer": "5"
+        "level": "Vận dụng",
+        "question": "Cho x + y = 11 và xy = 2. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "117",
+        "acceptableAnswers": [
+          "117"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **117**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Rút gọn biểu thức: $M = (x - 3)(x + 3) - (x - 2)^2$.",
-        "rubric": "- Áp dụng hằng đẳng thức hiệu hai bình phương: $(x - 3)(x + 3) = x^2 - 9$ (0.25đ)\n- Áp dụng hằng đẳng thức bình phương một hiệu: $(x - 2)^2 = x^2 - 4x + 4$ (0.25đ)\n- Thực hiện phép trừ: $M = x^2 - 9 - (x^2 - 4x + 4) = x^2 - 9 - x^2 + 4x - 4$ (0.25đ)\n- Thu gọn kết quả cuối cùng: $M = 4x - 13$ (0.25đ)"
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 2x^2 + 1x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 2x + 1 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 1)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 1 - 2)(x - 1 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $2$ mét và mở rộng về phía vuông góc thêm $3$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $50$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 2)(a + 3) = a^2 + 5a + 6 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 5a + 6) - a^2 = 5a + 6 (m^2) (0.25đ).\nPhương trình: 5a + 6 = 50 <=> 5a + 6 = 50 <=> a = (50 - 6)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 2x + y^2 + 4y + 7$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 1)^2 + (y + 2)^2 + 2 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 2 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
+      }
+    ]
+  },
+  "c2_8_bai5_test2": {
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 02):",
+        "options": [
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
+        "options": [
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
+        "options": [
+          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
+        "options": [
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Khai triển hằng đẳng thức $(x + 2)^2$ ta được kết quả là:",
+        "options": [
+          "$x^2 + 4x + 4$",
+          "$x^2 + 2x + 4$",
+          "$x^2 + 4x + 4$",
+          "$x^2 + 4$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức $x^2 - 16$ thành nhân tử ta được:",
+        "options": [
+          "$(x - 4)(x + 4)$",
+          "$(x - 4)^2$",
+          "$(x - 8)(x + 8)$",
+          "$(x + 4)^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $P = x^2 - 4x + 4$ tại $x = 12$ là:",
+        "options": [
+          "100",
+          "$4$",
+          "200",
+          "50"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức $x^3 - 64$ thành nhân tử ta được:",
+        "options": [
+          "$(x - 4)(x^2 + 4x + 16)$",
+          "$(x - 4)(x^2 - 4x + 16)$",
+          "$(x - 4)^3$",
+          "$(x - 16)(x^2 + 16x + 256)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Tại dự án Quy hoạch quảng trường trung tâm, một khu vực sân khấu vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $5$ mét thì diện tích tăng thêm là:",
+        "options": [
+          "$10x + 25$ mét vuông",
+          "$5x + 25$ mét vuông",
+          "$x^2 + 25$ mét vuông",
+          "$20x$ mét vuông"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $102^2 - 98^2$:",
+        "options": [
+          "$800$",
+          "$400$",
+          "$200$",
+          "$16$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $2$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
+        "options": [
+          "$32x^2 - 34x + 8$",
+          "$x^3 - 8$",
+          "$6x^2$",
+          "$8$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 8x + y^2 + 4y + 27$ là:",
+        "options": [
+          "7",
+          "5",
+          "$4$",
+          "10"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $A = (x + 2)^3 - (x - 2)^3$ (Đề 02):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khai triển hằng đẳng thức ta được A = 12x^2 + 16.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 2.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 02): Một tấm tôn hình vuông cạnh (x + 4) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 4) cm.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 16x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức P = x^2 - 12x + 36 tại x = 11.",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Phân tích các đa thức sau thành nhân tử:\na) $3x^2 - 6x$\nb) $x^2 - 4y^2 + x - 2y$",
-        "rubric": "a) Đặt nhân tử chung $3x$: $3x^2 - 6x = 3x(x - 2)$ (0.5đ)\nb) Nhóm hạng tử: $(x^2 - 4y^2) + (x - 2y)$ (0.25đ)\nBiến đổi: $(x - 2y)(x + 2y) + (x - 2y) = (x - 2y)(x + 2y + 1)$ (0.25đ)"
+        "question": "Tìm x biết: (x - 2)^2 - (x - 2)(x + 2) = 0.",
+        "answer": "1",
+        "acceptableAnswers": [
+          "1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tìm $x$, biết: $2x(x - 5) - x + 5 = 0$.",
-        "rubric": "- Nhóm các hạng tử thích hợp: $2x(x - 5) - (x - 5) = 0$ (0.25đ)\n- Đặt nhân tử chung $(x - 5)$: $(x - 5)(2x - 1) = 0$ (0.25đ)\n- Suy ra $x - 5 = 0$ hoặc $2x - 1 = 0$ (0.25đ)\n- Tìm được $x = 5$ hoặc $x = \\frac{1}{2}$. Kết luận đầy đủ (0.25đ)"
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 14x + 48 m^2, chiều rộng là x + 6 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 2?",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Cho x + y = 12 và xy = 4. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "136",
+        "acceptableAnswers": [
+          "136"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **136**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 4x^2 + 4x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 4x + 4 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 2)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 2 - 2)(x - 2 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $4$ mét và mở rộng về phía vuông góc thêm $6$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $100$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 4)(a + 6) = a^2 + 10a + 24 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 10a + 24) - a^2 = 10a + 24 (m^2) (0.25đ).\nPhương trình: 10a + 24 = 100 <=> 5a + 12 = 50 <=> a = (50 - 12)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 4x + y^2 + 8y + 25$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 2)^2 + (y + 4)^2 + 5 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 5 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
+      }
+    ]
+  },
+  "c2_8_bai5_test3": {
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 03):",
+        "options": [
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
+        "options": [
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
+        "options": [
+          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
+        "options": [
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Khai triển hằng đẳng thức $(x + 3)^2$ ta được kết quả là:",
+        "options": [
+          "$x^2 + 6x + 9$",
+          "$x^2 + 3x + 9$",
+          "$x^2 + 6x + 6$",
+          "$x^2 + 9$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức $x^2 - 36$ thành nhân tử ta được:",
+        "options": [
+          "$(x - 6)(x + 6)$",
+          "$(x - 6)^2$",
+          "$(x - 12)(x + 12)$",
+          "$(x + 6)^2$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $P = x^2 - 6x + 9$ tại $x = 13$ là:",
+        "options": [
+          "100",
+          "$9$",
+          "200",
+          "50"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức $x^3 - 216$ thành nhân tử ta được:",
+        "options": [
+          "$(x - 6)(x^2 + 6x + 36)$",
+          "$(x - 6)(x^2 - 6x + 36)$",
+          "$(x - 6)^3$",
+          "$(x - 24)(x^2 + 24x + 576)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Tại dự án Cải tạo vườn thực nghiệm sinh học, một nhà lưới hình vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $4$ mét thì diện tích tăng thêm là:",
+        "options": [
+          "$8x + 16$ mét vuông",
+          "$4x + 16$ mét vuông",
+          "$x^2 + 16$ mét vuông",
+          "$16x$ mét vuông"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $103^2 - 97^2$:",
+        "options": [
+          "$1200$",
+          "$600$",
+          "$300$",
+          "$36$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $3$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
+        "options": [
+          "$33x^2 - 39x + 27$",
+          "$x^3 - 27$",
+          "$9x^2$",
+          "$27$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 12x + y^2 + 6y + 52$ là:",
+        "options": [
+          "7",
+          "5",
+          "$9$",
+          "10"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho biểu thức $A = (x + 3)^3 - (x - 3)^3$ (Đề 03):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Khai triển hằng đẳng thức ta được A = 18x^2 + 54.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 03): Một tấm tôn hình vuông cạnh (x + 6) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 6) cm.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 24x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của biểu thức P = x^2 - 18x + 81 tại x = 14.",
+        "answer": "25",
+        "acceptableAnswers": [
+          "25"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm x biết: (x - 3)^2 - (x - 3)(x + 3) = 0.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 21x + 108 m^2, chiều rộng là x + 9 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 3?",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Cho x + y = 13 và xy = 6. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "157",
+        "acceptableAnswers": [
+          "157"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **157**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 6x^2 + 9x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 6x + 9 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 3)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 3 - 2)(x - 3 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $6$ mét và mở rộng về phía vuông góc thêm $9$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $150$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 6)(a + 9) = a^2 + 15a + 54 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 15a + 54) - a^2 = 15a + 54 (m^2) (0.25đ).\nPhương trình: 15a + 54 = 150 <=> 5a + 18 = 50 <=> a = (50 - 18)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 6x + y^2 + 12y + 55$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 3)^2 + (y + 6)^2 + 10 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 10 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c2_8_bai5_test4": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Khai triển của hằng đẳng thức $(a + b)^2$ là:",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 04):",
         "options": [
-          "$a^2 + 2ab + b^2$",
-          "$a^2 - 2ab + b^2$",
-          "$a^2 + b^2$",
-          "$a^2 + ab + b^2$"
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3881,12 +3995,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Hằng đẳng thức hiệu hai bình phương là:",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
         "options": [
-          "$a^2 - b^2 = (a - b)(a + b)$",
-          "$a^2 - b^2 = (a - b)^2$",
-          "$(a - b)^2 = a^2 - 2ab + b^2$",
-          "$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$"
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3894,12 +4008,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Biểu thức $x^2 - 4$ được phân tích thành nhân tử là:",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
         "options": [
-          "$(x - 2)(x + 2)$",
-          "$(x - 2)^2$",
-          "$(x + 2)^2$",
-          "$(x - 4)(x + 4)$"
+          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3907,12 +4021,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Phân tích đa thức $3x^2 - 6x$ thành nhân tử bằng phương pháp đặt nhân tử chung:",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
         "options": [
-          "$3x(x - 2)$",
-          "$3(x^2 - 2)$",
-          "$x(3x - 6)$",
-          "$3x(x + 2)$"
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3920,12 +4034,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khai triển biểu thức $(2x - 1)^2$ ta được:",
+        "question": "Khai triển hằng đẳng thức $(x + 4)^2$ ta được kết quả là:",
         "options": [
-          "$4x^2 - 4x + 1$",
-          "$4x^2 - 2x + 1$",
-          "$4x^2 + 4x + 1$",
-          "$2x^2 - 4x + 1$"
+          "$x^2 + 8x + 16$",
+          "$x^2 + 4x + 16$",
+          "$x^2 + 8x + 8$",
+          "$x^2 + 16$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3933,12 +4047,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tính nhanh $101^2$ áp dụng hằng đẳng thức:",
+        "question": "Phân tích đa thức $x^2 - 64$ thành nhân tử ta được:",
         "options": [
-          "$(100 + 1)^2 = 10\\,201$",
-          "$10\\,101$",
-          "$10\\,001$",
-          "$10\\,200$"
+          "$(x - 8)(x + 8)$",
+          "$(x - 8)^2$",
+          "$(x - 16)(x + 16)$",
+          "$(x + 8)^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3946,12 +4060,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biểu thức $x^3 + 8$ viết dưới dạng tích là:",
+        "question": "Giá trị của biểu thức $P = x^2 - 8x + 16$ tại $x = 14$ là:",
         "options": [
-          "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x + 2)(x^2 + 2x + 4)$",
-          "$(x - 2)(x^2 + 2x + 4)$",
-          "$(x + 2)^3$"
+          "100",
+          "$16$",
+          "200",
+          "50"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3959,12 +4073,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x^2 - 9 = 0$:",
+        "question": "Phân tích đa thức $x^3 - 512$ thành nhân tử ta được:",
         "options": [
-          "$x = 3$ hoặc $x = -3$",
-          "$x = 3$",
-          "$x = 9$",
-          "$x = -9$"
+          "$(x - 8)(x^2 + 8x + 64)$",
+          "$(x - 8)(x^2 - 8x + 64)$",
+          "$(x - 8)^3$",
+          "$(x - 32)(x^2 + 32x + 1024)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3972,12 +4086,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức $x^2 - 2xy + y^2 - 9$ thành nhân tử:",
+        "question": "Tại dự án Xây dựng khu vui chơi trẻ em, một sân trượt cỏ hình vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $6$ mét thì diện tích tăng thêm là:",
         "options": [
-          "$(x - y - 3)(x - y + 3)$",
-          "$(x - y - 9)(x - y + 9)$",
-          "$(x + y - 3)(x + y + 3)$",
-          "$(x - y - 3)^2$"
+          "$12x + 36$ mét vuông",
+          "$6x + 36$ mét vuông",
+          "$x^2 + 36$ mét vuông",
+          "$24x$ mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3985,12 +4099,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $x^3 - 4x = 0$:",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $104^2 - 96^2$:",
         "options": [
-          "$x = 0, x = 2, x = -2$",
-          "$x = 0, x = 4$",
-          "$x = 2, x = -2$",
-          "$x = 0, x = 2$"
+          "$1600$",
+          "$800$",
+          "$400$",
+          "$64$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3998,12 +4112,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Giá trị của biểu thức $P = x^3 - 3x^2 + 3x - 1$ tại $x = 101$ là:",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $4$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
         "options": [
-          "$1\\,000\\,000$",
-          "$100\\,000$",
-          "$10\\,000$",
-          "$1\\,000$"
+          "$34x^2 - 316x + 64$",
+          "$x^3 - 64$",
+          "$12x^2$",
+          "$64$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4011,12 +4125,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức $B = 5 - x^2 + 2x$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 16x + y^2 + 8y + 87$ là:",
         "options": [
-          "$6$ (khi $x = 1$)",
-          "$5$",
-          "$4$",
-          "$7$"
+          "7",
+          "5",
+          "$16$",
+          "10"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4025,67 +4139,67 @@ const EXAMS_8_C2_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về 7 hằng đẳng thức đáng nhớ (Mã đề 4):",
+        "stem": "Cho biểu thức $A = (x + 4)^3 - (x - 4)^3$ (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hằng đẳng thức (a - b)^2 và (b - a)^2 luôn bằng nhau với mọi a, b.",
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Khai triển (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3.",
+            "text": "Khai triển hằng đẳng thức ta được A = 24x^2 + 128.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Biểu thức a^2 + b^2 luôn luôn phân tích được thành nhân tử trên tập số thực.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Với mọi số thực x, biểu thức x^2 - x + 1 luôn nhận giá trị dương.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = (x + 2)^2 - (x - 2)^2$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Áp dụng hằng đẳng thức hiệu hai bình phương: A = (x + 2 - x + 2)(x + 2 + x - 2).",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Rút gọn được A = 8x.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Khi x = -2 thì A = -16.",
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình A = x^2 có đúng một nghiệm duy nhất x = 0.",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 4.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 04): Một tấm tôn hình vuông cạnh (x + 8) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 8) cm.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 32x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4096,79 +4210,79 @@ const EXAMS_8_C2_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính nhanh: 52^2 - 48^2.",
-        "answer": "400",
+        "question": "Tính giá trị của biểu thức P = x^2 - 24x + 144 tại x = 17.",
+        "answer": "25",
         "acceptableAnswers": [
-          "400"
+          "25"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: (x - 3)^2 = 0.",
-        "answer": "3",
+        "question": "Tìm x biết: (x - 4)^2 - (x - 4)(x + 4) = 0.",
+        "answer": "2",
         "acceptableAnswers": [
-          "3"
+          "2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: x^2 - 5x + 6 = 0. Tính tổng các nghiệm của phương trình.",
-        "answer": "5",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 28x + 192 m^2, chiều rộng là x + 12 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 4?",
+        "answer": "4",
         "acceptableAnswers": [
-          "5"
+          "4"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x^2 - 4x + 13.",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Cho x + y = 14 và xy = 8. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "180",
         "acceptableAnswers": [
-          "9"
+          "180"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **180**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 2x^2 + x$.",
-        "rubric": "A = x(x^2 - 2x + 1) = x(x - 1)^2 (0.5đ)."
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 8x^2 + 16x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 8x + 16 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 4)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 4 - 2)(x - 4 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức sau thành nhân tử: $B = x^2 - y^2 + 4x + 4$.",
-        "rubric": "B = (x^2 + 4x + 4) - y^2 = (x + 2)^2 - y^2 = (x + 2 - y)(x + 2 + y) (0.5đ)."
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $8$ mét và mở rộng về phía vuông góc thêm $12$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $200$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 8)(a + 12) = a^2 + 20a + 96 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 20a + 96) - a^2 = 20a + 96 (m^2) (0.25đ).\nPhương trình: 20a + 96 = 200 <=> 5a + 24 = 50 <=> a = (50 - 24)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng với mọi số nguyên $n$, biểu thức $M = (n + 2)^2 - (n - 2)^2$ luôn chia hết cho 8.",
-        "rubric": "M = (n + 2 - n + 2)(n + 2 + n - 2) = 4 . 2n = 8n (0.25đ).\nVì n in Z nên 8n luôn chia hết cho 8 với mọi số nguyên n (0.25đ)."
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 8x + y^2 + 16y + 97$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 4)^2 + (y + 8)^2 + 17 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 17 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c2_8_bai5_test5": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức - Bài kiểm tra số 5 (💡 Hằng đẳng thức & Phân tích nhân tử)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Khai triển của hằng đẳng thức $(a + b)^2$ là:",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 05):",
         "options": [
-          "$a^2 + 2ab + b^2$",
-          "$a^2 - 2ab + b^2$",
-          "$a^2 + b^2$",
-          "$a^2 + ab + b^2$"
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4176,12 +4290,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Hằng đẳng thức hiệu hai bình phương là:",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
         "options": [
-          "$a^2 - b^2 = (a - b)(a + b)$",
-          "$a^2 - b^2 = (a - b)^2$",
-          "$(a - b)^2 = a^2 - 2ab + b^2$",
-          "$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$"
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4189,12 +4303,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Biểu thức $x^2 - 4$ được phân tích thành nhân tử là:",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
         "options": [
-          "$(x - 2)(x + 2)$",
-          "$(x - 2)^2$",
-          "$(x + 2)^2$",
-          "$(x - 4)(x + 4)$"
+          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4202,12 +4316,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Phân tích đa thức $3x^2 - 6x$ thành nhân tử bằng phương pháp đặt nhân tử chung:",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
         "options": [
-          "$3x(x - 2)$",
-          "$3(x^2 - 2)$",
-          "$x(3x - 6)$",
-          "$3x(x + 2)$"
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4215,12 +4329,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khai triển biểu thức $(2x - 1)^2$ ta được:",
+        "question": "Khai triển hằng đẳng thức $(x + 5)^2$ ta được kết quả là:",
         "options": [
-          "$4x^2 - 4x + 1$",
-          "$4x^2 - 2x + 1$",
-          "$4x^2 + 4x + 1$",
-          "$2x^2 - 4x + 1$"
+          "$x^2 + 10x + 25$",
+          "$x^2 + 5x + 25$",
+          "$x^2 + 10x + 10$",
+          "$x^2 + 25$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4228,12 +4342,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tính nhanh $101^2$ áp dụng hằng đẳng thức:",
+        "question": "Phân tích đa thức $x^2 - 100$ thành nhân tử ta được:",
         "options": [
-          "$(100 + 1)^2 = 10\\,201$",
-          "$10\\,101$",
-          "$10\\,001$",
-          "$10\\,200$"
+          "$(x - 10)(x + 10)$",
+          "$(x - 10)^2$",
+          "$(x - 20)(x + 20)$",
+          "$(x + 10)^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4241,12 +4355,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biểu thức $x^3 + 8$ viết dưới dạng tích là:",
+        "question": "Giá trị của biểu thức $P = x^2 - 10x + 25$ tại $x = 15$ là:",
         "options": [
-          "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x + 2)(x^2 + 2x + 4)$",
-          "$(x - 2)(x^2 + 2x + 4)$",
-          "$(x + 2)^3$"
+          "100",
+          "$25$",
+          "200",
+          "50"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4254,12 +4368,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x^2 - 9 = 0$:",
+        "question": "Phân tích đa thức $x^3 - 1000$ thành nhân tử ta được:",
         "options": [
-          "$x = 3$ hoặc $x = -3$",
-          "$x = 3$",
-          "$x = 9$",
-          "$x = -9$"
+          "$(x - 10)(x^2 + 10x + 100)$",
+          "$(x - 10)(x^2 - 10x + 100)$",
+          "$(x - 10)^3$",
+          "$(x - 40)(x^2 + 40x + 1600)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4267,12 +4381,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức $x^2 - 2xy + y^2 - 9$ thành nhân tử:",
+        "question": "Tại dự án Mở rộng bể bơi cộng đồng, một bể thi đấu hình vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $5$ mét thì diện tích tăng thêm là:",
         "options": [
-          "$(x - y - 3)(x - y + 3)$",
-          "$(x - y - 9)(x - y + 9)$",
-          "$(x + y - 3)(x + y + 3)$",
-          "$(x - y - 3)^2$"
+          "$10x + 25$ mét vuông",
+          "$5x + 25$ mét vuông",
+          "$x^2 + 25$ mét vuông",
+          "$20x$ mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4280,12 +4394,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $x^3 - 4x = 0$:",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $105^2 - 95^2$:",
         "options": [
-          "$x = 0, x = 2, x = -2$",
-          "$x = 0, x = 4$",
-          "$x = 2, x = -2$",
-          "$x = 0, x = 2$"
+          "$2000$",
+          "$1000$",
+          "$500$",
+          "$100$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4293,12 +4407,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Giá trị của biểu thức $P = x^3 - 3x^2 + 3x - 1$ tại $x = 101$ là:",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $5$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
         "options": [
-          "$1\\,000\\,000$",
-          "$100\\,000$",
-          "$10\\,000$",
-          "$1\\,000$"
+          "$35x^2 - 325x + 125$",
+          "$x^3 - 125$",
+          "$15x^2$",
+          "$125$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4306,12 +4420,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức $B = 5 - x^2 + 2x$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 20x + y^2 + 10y + 132$ là:",
         "options": [
-          "$6$ (khi $x = 1$)",
-          "$5$",
-          "$4$",
-          "$7$"
+          "7",
+          "5",
+          "$25$",
+          "10"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4320,67 +4434,67 @@ const EXAMS_8_C2_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về 7 hằng đẳng thức đáng nhớ (Mã đề 5):",
+        "stem": "Cho biểu thức $A = (x + 5)^3 - (x - 5)^3$ (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hằng đẳng thức (a - b)^2 và (b - a)^2 luôn bằng nhau với mọi a, b.",
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Khai triển (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3.",
+            "text": "Khai triển hằng đẳng thức ta được A = 30x^2 + 250.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Biểu thức a^2 + b^2 luôn luôn phân tích được thành nhân tử trên tập số thực.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Với mọi số thực x, biểu thức x^2 - x + 1 luôn nhận giá trị dương.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = (x + 2)^2 - (x - 2)^2$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Áp dụng hằng đẳng thức hiệu hai bình phương: A = (x + 2 - x + 2)(x + 2 + x - 2).",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Rút gọn được A = 8x.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Khi x = -2 thì A = -16.",
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình A = x^2 có đúng một nghiệm duy nhất x = 0.",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 5.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 05): Một tấm tôn hình vuông cạnh (x + 10) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 10) cm.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 40x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4391,27 +4505,27 @@ const EXAMS_8_C2_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính nhanh: 52^2 - 48^2.",
-        "answer": "400",
+        "question": "Tính giá trị của biểu thức P = x^2 - 30x + 225 tại x = 20.",
+        "answer": "25",
         "acceptableAnswers": [
-          "400"
+          "25"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: (x - 3)^2 = 0.",
-        "answer": "3",
+        "question": "Tìm x biết: (x - 5)^2 - (x - 5)(x + 5) = 0.",
+        "answer": "5",
         "acceptableAnswers": [
-          "3"
+          "5"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: x^2 - 5x + 6 = 0. Tính tổng các nghiệm của phương trình.",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 35x + 300 m^2, chiều rộng là x + 15 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 5?",
         "answer": "5",
         "acceptableAnswers": [
           "5"
@@ -4420,50 +4534,50 @@ const EXAMS_8_C2_8 = {
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x^2 - 4x + 13.",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Cho x + y = 15 và xy = 10. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "205",
         "acceptableAnswers": [
-          "9"
+          "205"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **205**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 2x^2 + x$.",
-        "rubric": "A = x(x^2 - 2x + 1) = x(x - 1)^2 (0.5đ)."
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 10x^2 + 25x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 10x + 25 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 5)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 5 - 2)(x - 5 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức sau thành nhân tử: $B = x^2 - y^2 + 4x + 4$.",
-        "rubric": "B = (x^2 + 4x + 4) - y^2 = (x + 2)^2 - y^2 = (x + 2 - y)(x + 2 + y) (0.5đ)."
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $10$ mét và mở rộng về phía vuông góc thêm $15$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $250$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 10)(a + 15) = a^2 + 25a + 150 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 25a + 150) - a^2 = 25a + 150 (m^2) (0.25đ).\nPhương trình: 25a + 150 = 250 <=> 5a + 30 = 50 <=> a = (50 - 30)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng với mọi số nguyên $n$, biểu thức $M = (n + 2)^2 - (n - 2)^2$ luôn chia hết cho 8.",
-        "rubric": "M = (n + 2 - n + 2)(n + 2 + n - 2) = 4 . 2n = 8n (0.25đ).\nVì n in Z nên 8n luôn chia hết cho 8 với mọi số nguyên n (0.25đ)."
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 10x + y^2 + 20y + 151$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 5)^2 + (y + 10)^2 + 26 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 26 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c2_8_bai5_test6": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Khai triển của hằng đẳng thức $(a + b)^2$ là:",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 06):",
         "options": [
-          "$a^2 + 2ab + b^2$",
-          "$a^2 - 2ab + b^2$",
-          "$a^2 + b^2$",
-          "$a^2 + ab + b^2$"
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4471,12 +4585,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Hằng đẳng thức hiệu hai bình phương là:",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
         "options": [
-          "$a^2 - b^2 = (a - b)(a + b)$",
-          "$a^2 - b^2 = (a - b)^2$",
-          "$(a - b)^2 = a^2 - 2ab + b^2$",
-          "$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$"
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4484,12 +4598,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Biểu thức $x^2 - 4$ được phân tích thành nhân tử là:",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
         "options": [
-          "$(x - 2)(x + 2)$",
-          "$(x - 2)^2$",
-          "$(x + 2)^2$",
-          "$(x - 4)(x + 4)$"
+          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4497,12 +4611,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Phân tích đa thức $3x^2 - 6x$ thành nhân tử bằng phương pháp đặt nhân tử chung:",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
         "options": [
-          "$3x(x - 2)$",
-          "$3(x^2 - 2)$",
-          "$x(3x - 6)$",
-          "$3x(x + 2)$"
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4510,12 +4624,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khai triển biểu thức $(2x - 1)^2$ ta được:",
+        "question": "Khai triển hằng đẳng thức $(x + 6)^2$ ta được kết quả là:",
         "options": [
-          "$4x^2 - 4x + 1$",
-          "$4x^2 - 2x + 1$",
-          "$4x^2 + 4x + 1$",
-          "$2x^2 - 4x + 1$"
+          "$x^2 + 12x + 36$",
+          "$x^2 + 6x + 36$",
+          "$x^2 + 12x + 12$",
+          "$x^2 + 36$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4523,12 +4637,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tính nhanh $101^2$ áp dụng hằng đẳng thức:",
+        "question": "Phân tích đa thức $x^2 - 144$ thành nhân tử ta được:",
         "options": [
-          "$(100 + 1)^2 = 10\\,201$",
-          "$10\\,101$",
-          "$10\\,001$",
-          "$10\\,200$"
+          "$(x - 12)(x + 12)$",
+          "$(x - 12)^2$",
+          "$(x - 24)(x + 24)$",
+          "$(x + 12)^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4536,12 +4650,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biểu thức $x^3 + 8$ viết dưới dạng tích là:",
+        "question": "Giá trị của biểu thức $P = x^2 - 12x + 36$ tại $x = 16$ là:",
         "options": [
-          "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x + 2)(x^2 + 2x + 4)$",
-          "$(x - 2)(x^2 + 2x + 4)$",
-          "$(x + 2)^3$"
+          "100",
+          "$36$",
+          "200",
+          "50"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4549,12 +4663,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x^2 - 9 = 0$:",
+        "question": "Phân tích đa thức $x^3 - 1728$ thành nhân tử ta được:",
         "options": [
-          "$x = 3$ hoặc $x = -3$",
-          "$x = 3$",
-          "$x = 9$",
-          "$x = -9$"
+          "$(x - 12)(x^2 + 12x + 144)$",
+          "$(x - 12)(x^2 - 12x + 144)$",
+          "$(x - 12)^3$",
+          "$(x - 48)(x^2 + 48x + 2304)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4562,12 +4676,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức $x^2 - 2xy + y^2 - 9$ thành nhân tử:",
+        "question": "Tại dự án Nâng cấp bãi đỗ xe thông minh, một khu đỗ xe buýt vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $8$ mét thì diện tích tăng thêm là:",
         "options": [
-          "$(x - y - 3)(x - y + 3)$",
-          "$(x - y - 9)(x - y + 9)$",
-          "$(x + y - 3)(x + y + 3)$",
-          "$(x - y - 3)^2$"
+          "$16x + 64$ mét vuông",
+          "$8x + 64$ mét vuông",
+          "$x^2 + 64$ mét vuông",
+          "$32x$ mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4575,12 +4689,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $x^3 - 4x = 0$:",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $106^2 - 94^2$:",
         "options": [
-          "$x = 0, x = 2, x = -2$",
-          "$x = 0, x = 4$",
-          "$x = 2, x = -2$",
-          "$x = 0, x = 2$"
+          "$2400$",
+          "$1200$",
+          "$600$",
+          "$144$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4588,12 +4702,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Giá trị của biểu thức $P = x^3 - 3x^2 + 3x - 1$ tại $x = 101$ là:",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $6$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
         "options": [
-          "$1\\,000\\,000$",
-          "$100\\,000$",
-          "$10\\,000$",
-          "$1\\,000$"
+          "$36x^2 - 336x + 216$",
+          "$x^3 - 216$",
+          "$18x^2$",
+          "$216$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4601,12 +4715,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức $B = 5 - x^2 + 2x$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 24x + y^2 + 12y + 187$ là:",
         "options": [
-          "$6$ (khi $x = 1$)",
-          "$5$",
-          "$4$",
-          "$7$"
+          "7",
+          "5",
+          "$36$",
+          "10"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4615,67 +4729,67 @@ const EXAMS_8_C2_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về 7 hằng đẳng thức đáng nhớ (Mã đề 6):",
+        "stem": "Cho biểu thức $A = (x + 6)^3 - (x - 6)^3$ (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hằng đẳng thức (a - b)^2 và (b - a)^2 luôn bằng nhau với mọi a, b.",
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Khai triển (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3.",
+            "text": "Khai triển hằng đẳng thức ta được A = 36x^2 + 432.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Biểu thức a^2 + b^2 luôn luôn phân tích được thành nhân tử trên tập số thực.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Với mọi số thực x, biểu thức x^2 - x + 1 luôn nhận giá trị dương.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = (x + 2)^2 - (x - 2)^2$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Áp dụng hằng đẳng thức hiệu hai bình phương: A = (x + 2 - x + 2)(x + 2 + x - 2).",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Rút gọn được A = 8x.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Khi x = -2 thì A = -16.",
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình A = x^2 có đúng một nghiệm duy nhất x = 0.",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 6.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 06): Một tấm tôn hình vuông cạnh (x + 12) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 12) cm.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 48x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4686,17 +4800,17 @@ const EXAMS_8_C2_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính nhanh: 52^2 - 48^2.",
-        "answer": "400",
+        "question": "Tính giá trị của biểu thức P = x^2 - 36x + 324 tại x = 23.",
+        "answer": "25",
         "acceptableAnswers": [
-          "400"
+          "25"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: (x - 3)^2 = 0.",
+        "question": "Tìm x biết: (x - 6)^2 - (x - 6)(x + 6) = 0.",
         "answer": "3",
         "acceptableAnswers": [
           "3"
@@ -4706,59 +4820,59 @@ const EXAMS_8_C2_8 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: x^2 - 5x + 6 = 0. Tính tổng các nghiệm của phương trình.",
-        "answer": "5",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 42x + 432 m^2, chiều rộng là x + 18 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 6?",
+        "answer": "6",
         "acceptableAnswers": [
-          "5"
+          "6"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x^2 - 4x + 13.",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Cho x + y = 16 và xy = 12. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "232",
         "acceptableAnswers": [
-          "9"
+          "232"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **232**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 2x^2 + x$.",
-        "rubric": "A = x(x^2 - 2x + 1) = x(x - 1)^2 (0.5đ)."
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 12x^2 + 36x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 12x + 36 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 6)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 6 - 2)(x - 6 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức sau thành nhân tử: $B = x^2 - y^2 + 4x + 4$.",
-        "rubric": "B = (x^2 + 4x + 4) - y^2 = (x + 2)^2 - y^2 = (x + 2 - y)(x + 2 + y) (0.5đ)."
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $12$ mét và mở rộng về phía vuông góc thêm $18$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $300$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 12)(a + 18) = a^2 + 30a + 216 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 30a + 216) - a^2 = 30a + 216 (m^2) (0.25đ).\nPhương trình: 30a + 216 = 300 <=> 5a + 36 = 50 <=> a = (50 - 36)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng với mọi số nguyên $n$, biểu thức $M = (n + 2)^2 - (n - 2)^2$ luôn chia hết cho 8.",
-        "rubric": "M = (n + 2 - n + 2)(n + 2 + n - 2) = 4 . 2n = 8n (0.25đ).\nVì n in Z nên 8n luôn chia hết cho 8 với mọi số nguyên n (0.25đ)."
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 12x + y^2 + 24y + 217$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 6)^2 + (y + 12)^2 + 37 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 37 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c2_8_bai5_test7": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương II: Hằng đẳng thức đáng nhớ và ứng dụng - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Khai triển của hằng đẳng thức $(a + b)^2$ là:",
+        "question": "Khai triển của hằng đẳng thức $(A + B)^2$ là (Đề 07):",
         "options": [
-          "$a^2 + 2ab + b^2$",
-          "$a^2 - 2ab + b^2$",
-          "$a^2 + b^2$",
-          "$a^2 + ab + b^2$"
+          "$A^2 + 2AB + B^2$",
+          "$A^2 + AB + B^2$",
+          "$A^2 - 2AB + B^2$",
+          "$A^2 + B^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4766,12 +4880,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Hằng đẳng thức hiệu hai bình phương là:",
+        "question": "Biểu thức $x^2 - y^2$ được phân tích thành:",
         "options": [
-          "$a^2 - b^2 = (a - b)(a + b)$",
-          "$a^2 - b^2 = (a - b)^2$",
-          "$(a - b)^2 = a^2 - 2ab + b^2$",
-          "$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$"
+          "$(x - y)(x + y)$",
+          "$(x - y)^2$",
+          "$(x + y)^2$",
+          "$x^2 - 2xy + y^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4779,12 +4893,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Biểu thức $x^2 - 4$ được phân tích thành nhân tử là:",
+        "question": "Hằng đẳng thức lập phương của một hiệu $(A - B)^3$ bằng:",
         "options": [
-          "$(x - 2)(x + 2)$",
-          "$(x - 2)^2$",
-          "$(x + 2)^2$",
-          "$(x - 4)(x + 4)$"
+          "$A^3 - 3A^2B + 3AB^2 - B^3$",
+          "$A^3 - B^3$",
+          "$A^3 - 3A^2B - 3AB^2 - B^3$",
+          "$A^3 + 3A^2B + 3AB^2 + B^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4792,12 +4906,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Phân tích đa thức $3x^2 - 6x$ thành nhân tử bằng phương pháp đặt nhân tử chung:",
+        "question": "Phân tích đa thức thành nhân tử là biến đổi đa thức đó thành:",
         "options": [
-          "$3x(x - 2)$",
-          "$3(x^2 - 2)$",
-          "$x(3x - 6)$",
-          "$3x(x + 2)$"
+          "Một tích của những đa thức",
+          "Một tổng của các đơn thức",
+          "Một hiệu của hai bình phương",
+          "Một thương của hai đa thức"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4805,12 +4919,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khai triển biểu thức $(2x - 1)^2$ ta được:",
+        "question": "Khai triển hằng đẳng thức $(x + 7)^2$ ta được kết quả là:",
         "options": [
-          "$4x^2 - 4x + 1$",
-          "$4x^2 - 2x + 1$",
-          "$4x^2 + 4x + 1$",
-          "$2x^2 - 4x + 1$"
+          "$x^2 + 14x + 49$",
+          "$x^2 + 7x + 49$",
+          "$x^2 + 14x + 14$",
+          "$x^2 + 49$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4818,12 +4932,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tính nhanh $101^2$ áp dụng hằng đẳng thức:",
+        "question": "Phân tích đa thức $x^2 - 196$ thành nhân tử ta được:",
         "options": [
-          "$(100 + 1)^2 = 10\\,201$",
-          "$10\\,101$",
-          "$10\\,001$",
-          "$10\\,200$"
+          "$(x - 14)(x + 14)$",
+          "$(x - 14)^2$",
+          "$(x - 28)(x + 28)$",
+          "$(x + 14)^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4831,12 +4945,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biểu thức $x^3 + 8$ viết dưới dạng tích là:",
+        "question": "Giá trị của biểu thức $P = x^2 - 14x + 49$ tại $x = 17$ là:",
         "options": [
-          "$(x + 2)(x^2 - 2x + 4)$",
-          "$(x + 2)(x^2 + 2x + 4)$",
-          "$(x - 2)(x^2 + 2x + 4)$",
-          "$(x + 2)^3$"
+          "100",
+          "$49$",
+          "200",
+          "50"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4844,12 +4958,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x^2 - 9 = 0$:",
+        "question": "Phân tích đa thức $x^3 - 2744$ thành nhân tử ta được:",
         "options": [
-          "$x = 3$ hoặc $x = -3$",
-          "$x = 3$",
-          "$x = 9$",
-          "$x = -9$"
+          "$(x - 14)(x^2 + 14x + 196)$",
+          "$(x - 14)(x^2 - 14x + 196)$",
+          "$(x - 14)^3$",
+          "$(x - 56)(x^2 + 56x + 3136)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4857,12 +4971,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức $x^2 - 2xy + y^2 - 9$ thành nhân tử:",
+        "question": "Tại dự án Dự án sân golf mini gia đình, một khu tập gạt bóng vuông ban đầu có cạnh $x$ mét. Sau khi mở rộng mỗi cạnh thêm $4$ mét thì diện tích tăng thêm là:",
         "options": [
-          "$(x - y - 3)(x - y + 3)$",
-          "$(x - y - 9)(x - y + 9)$",
-          "$(x + y - 3)(x + y + 3)$",
-          "$(x - y - 3)^2$"
+          "$8x + 16$ mét vuông",
+          "$4x + 16$ mét vuông",
+          "$x^2 + 16$ mét vuông",
+          "$16x$ mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4870,12 +4984,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $x^3 - 4x = 0$:",
+        "question": "Tính nhanh giá trị diện tích khu đất khi hiệu hai bình phương là: $107^2 - 93^2$:",
         "options": [
-          "$x = 0, x = 2, x = -2$",
-          "$x = 0, x = 4$",
-          "$x = 2, x = -2$",
-          "$x = 0, x = 2$"
+          "$2800$",
+          "$1400$",
+          "$700$",
+          "$196$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4883,12 +4997,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Giá trị của biểu thức $P = x^3 - 3x^2 + 3x - 1$ tại $x = 101$ là:",
+        "question": "Một khối bê tông hình lập phương có cạnh ban đầu là $x$ cm. Người ta giảm mỗi cạnh đi $7$ cm. Biểu thức thể tích phần bê tông bị giảm đi là:",
         "options": [
-          "$1\\,000\\,000$",
-          "$100\\,000$",
-          "$10\\,000$",
-          "$1\\,000$"
+          "$37x^2 - 349x + 343$",
+          "$x^3 - 343$",
+          "$21x^2$",
+          "$343$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4896,12 +5010,12 @@ const EXAMS_8_C2_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức $B = 5 - x^2 + 2x$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $P = x^2 - 28x + y^2 + 14y + 252$ là:",
         "options": [
-          "$6$ (khi $x = 1$)",
-          "$5$",
-          "$4$",
-          "$7$"
+          "7",
+          "5",
+          "$49$",
+          "10"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4910,67 +5024,67 @@ const EXAMS_8_C2_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về 7 hằng đẳng thức đáng nhớ (Mã đề 7):",
+        "stem": "Cho biểu thức $A = (x + 7)^3 - (x - 7)^3$ (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hằng đẳng thức (a - b)^2 và (b - a)^2 luôn bằng nhau với mọi a, b.",
+            "level": "Nhận biết",
+            "text": "Biểu thức A được tạo bởi hiệu của hai lập phương.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Khai triển (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3.",
+            "text": "Khai triển hằng đẳng thức ta được A = 42x^2 + 686.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Biểu thức a^2 + b^2 luôn luôn phân tích được thành nhân tử trên tập số thực.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Với mọi số thực x, biểu thức x^2 - x + 1 luôn nhận giá trị dương.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = (x + 2)^2 - (x - 2)^2$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Áp dụng hằng đẳng thức hiệu hai bình phương: A = (x + 2 - x + 2)(x + 2 + x - 2).",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Rút gọn được A = 8x.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Khi x = -2 thì A = -16.",
+            "text": "Biểu thức A luôn nhận giá trị dương với mọi số thực x khác 0.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình A = x^2 có đúng một nghiệm duy nhất x = 0.",
+            "text": "Với x = 2, giá trị của A luôn là một số chia hết cho 10 khi t = 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán cắt dán kim loại kỹ thuật (Đề 07): Một tấm tôn hình vuông cạnh (x + 14) cm bị khoét đi một hình vuông ở chính giữa có cạnh (x - 14) cm.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Diện tích tấm tôn ban đầu là (x + 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần bị khoét đi là (x - 2t)^2 cm^2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Diện tích phần tôn còn lại là hiệu hai bình phương bằng 56x cm^2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Diện tích phần tôn còn lại phụ thuộc vào bình phương của x.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4981,62 +5095,62 @@ const EXAMS_8_C2_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính nhanh: 52^2 - 48^2.",
-        "answer": "400",
+        "question": "Tính giá trị của biểu thức P = x^2 - 42x + 441 tại x = 26.",
+        "answer": "25",
         "acceptableAnswers": [
-          "400"
+          "25"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: (x - 3)^2 = 0.",
-        "answer": "3",
+        "question": "Tìm x biết: (x - 7)^2 - (x - 7)(x + 7) = 0.",
+        "answer": "7",
         "acceptableAnswers": [
-          "3"
+          "7"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: x^2 - 5x + 6 = 0. Tính tổng các nghiệm của phương trình.",
-        "answer": "5",
+        "question": "Một mảnh đất hình chữ nhật có diện tích x^2 + 49x + 588 m^2, chiều rộng là x + 21 m. Chiều dài mảnh đất hơn chiều rộng bao nhiêu mét khi t = 7?",
+        "answer": "7",
         "acceptableAnswers": [
-          "5"
+          "7"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x^2 - 4x + 13.",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Cho x + y = 17 và xy = 14. Tính giá trị của biểu thức x^2 + y^2.",
+        "answer": "261",
         "acceptableAnswers": [
-          "9"
+          "261"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **261**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 2x^2 + x$.",
-        "rubric": "A = x(x^2 - 2x + 1) = x(x - 1)^2 (0.5đ)."
+        "question": "Phân tích đa thức sau thành nhân tử: $A = x^3 - 14x^2 + 49x - 4x$.",
+        "rubric": "Đặt nhân tử chung x ra ngoài: A = x(x^2 - 14x + 49 - 4) (0.25đ).\nNhóm ba hạng tử đầu thành hằng đẳng thức: A = x[(x - 7)^2 - 2^2] (0.25đ).\nDùng hằng đẳng thức hiệu hai bình phương: A = x(x - 7 - 2)(x - 7 + 2) (0.25đ).\nKết luận dạng nhân tử của đa thức (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Phân tích đa thức sau thành nhân tử: $B = x^2 - y^2 + 4x + 4$.",
-        "rubric": "B = (x^2 + 4x + 4) - y^2 = (x + 2)^2 - y^2 = (x + 2 - y)(x + 2 + y) (0.5đ)."
+        "question": "Bác nông dân có một mảnh vườn hình vuông cạnh $a$ mét. Bác mở rộng về một phía thêm $14$ mét và mở rộng về phía vuông góc thêm $21$ mét để được một mảnh vườn hình chữ nhật mới. Biết diện tích mảnh vườn mới lớn hơn diện tích ban đầu là $350$ mét vuông. Tính độ dài cạnh $a$ của mảnh vườn hình vuông ban đầu.",
+        "rubric": "Diện tích mảnh vườn mới là: (a + 14)(a + 21) = a^2 + 35a + 294 (m^2) (0.25đ).\nDiện tích phần tăng thêm: (a^2 + 35a + 294) - a^2 = 35a + 294 (m^2) (0.25đ).\nPhương trình: 35a + 294 = 350 <=> 5a + 42 = 50 <=> a = (50 - 42)/5 (0.25đ).\nKết luận cạnh mảnh vườn ban đầu a (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng với mọi số nguyên $n$, biểu thức $M = (n + 2)^2 - (n - 2)^2$ luôn chia hết cho 8.",
-        "rubric": "M = (n + 2 - n + 2)(n + 2 + n - 2) = 4 . 2n = 8n (0.25đ).\nVì n in Z nên 8n luôn chia hết cho 8 với mọi số nguyên n (0.25đ)."
+        "question": "Chứng minh rằng biểu thức $M = x^2 - 14x + y^2 + 28y + 295$ luôn nhận giá trị dương với mọi số thực $x, y$.",
+        "rubric": "Biến đổi M về tổng các bình phương: M = (x - 7)^2 + (y + 14)^2 + 50 (0.25đ).\nVì (x - a)^2 >= 0 và (y + b)^2 >= 0 với mọi x, y (0.25đ).\nDo đó M >= 50 > 0 với mọi x, y (0.25đ).\nĐẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   }

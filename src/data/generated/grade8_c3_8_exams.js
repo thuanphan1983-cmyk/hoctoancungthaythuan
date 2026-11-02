@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG III: TỨ GIÁC - TOÁN 8 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:24:42
+// Cập nhật lúc: 2026-11-02 07:36:39
 // ==============================================================================
 
 const EXAMS_8_C3_8 = {
@@ -3861,211 +3861,233 @@ const EXAMS_8_C3_8 = {
     ]
   },
   "c3_8_bai6_test1": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tổng bốn góc của một tứ giác lồi luôn bằng:",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 01):",
         "options": [
-          "$540^\\circ$",
+          "$360^\\circ$",
           "$180^\\circ$",
-          "$270^\\circ$",
-          "$360^\\circ$"
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Tứ giác có hai cạnh đối song song là:",
+        "question": "Hình thang cân là hình thang có:",
         "options": [
-          "Hình thang",
-          "Hình thoi",
-          "Hình bình hành",
-          "Hình chữ nhật"
+          "Hai góc kề một đáy bằng nhau",
+          "Hai cạnh bên song song",
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hình thang có hai đường chéo bằng nhau là:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Hình bình hành",
           "Hình thoi",
+          "Hình chữ nhật",
           "Hình thang cân",
-          "Hình chữ nhật"
+          "Hình vuông"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Hình thang vuông",
-          "Hình chữ nhật",
-          "Hình thang cân",
-          "Hình thoi"
+          "Hình vuông",
+          "Hình thoi",
+          "Hình thang",
+          "Hình bình hành"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
+        "level": "Thông hiểu",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 81^\\circ, \\widehat{B} = 99^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "Hình thoi",
-          "Hình vuông",
-          "Hình thang cân",
-          "Hình bình hành"
+          "$90^\\circ$",
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Tứ giác vừa có 4 góc vuông vừa có 4 cạnh bằng nhau là:",
+        "level": "Thông hiểu",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 61^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "Hình chữ nhật",
-          "Hình thoi",
-          "Hình bình hành",
-          "Hình vuông"
+          "$119^\\circ$",
+          "$61^\\circ$",
+          "$179^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 100^\\circ$. Số đo góc $D$ bằng:",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $6$ cm và $8$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "$90^\\circ$",
-          "$120^\\circ$",
-          "$110^\\circ$",
-          "$100^\\circ$"
+          "$5$ cm",
+          "$10$ cm",
+          "$7$ cm",
+          "$14$ cm"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Bán kính đường tròn đi qua bốn đỉnh $A, B, C, D$ là:",
+        "question": "Hình chữ nhật có độ dài đường chéo là $10$ cm, một cạnh bằng $6$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$4\\text{ cm}$"
+          "$48$ cm$^2$",
+          "$60$ cm$^2$",
+          "$30$ cm$^2$",
+          "$24$ cm$^2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho hình thoi có độ dài hai đường chéo là $10\\text{ cm}$ và $24\\text{ cm}$. Chu vi hình thoi đó bằng:",
+        "level": "Vận dụng",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $45$ cm và $65$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "$68\\text{ cm}$",
-          "$48\\text{ cm}$",
-          "$52\\text{ cm}$",
-          "$34\\text{ cm}$"
+          "$1462$ cm$^2$",
+          "$2925$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Tứ giác có các đỉnh là trung điểm của bốn cạnh của một tứ giác lồi bất kì luôn là:",
+        "level": "Vận dụng",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $130$ cm và chiều rộng $95$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "Hình thoi",
-          "Hình bình hành",
-          "Hình chữ nhật",
-          "Hình vuông"
+          "$161$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Độ dài đường trung tuyến $AM$ bằng:",
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình bình hành có đáy dài $32$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$4.8\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$96.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Thông hiểu",
-        "question": "Một hình vuông có chu vi bằng $32\\text{ cm}$. Diện tích của hình vuông đó bằng:",
+        "level": "Vận dụng cao",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "$16\\text{ cm}^2$",
-          "$64\\text{ cm}^2$",
-          "$128\\text{ cm}^2$",
-          "$32\\text{ cm}^2$"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của cạnh huyền $BC$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$.",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 01):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác $ADME$ có 3 góc vuông nên là hình chữ nhật.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Điểm $D$ là trung điểm của $AB$ và điểm $E$ là trung điểm của $AC$.",
-            "correct": true
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Độ dài đoạn thẳng $DE$ bằng một nửa độ dài cạnh huyền $BC$.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Tứ giác $ADME$ luôn là hình vuông với mọi tam giác vuông $ABC$.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Cho hình bình hành $ABCD$ có $AB = 2AD$. Gọi $E, F$ lần lượt là trung điểm của $AB$ và $CD$.",
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 01):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác $AEFD$ là hình thoi vì có 4 cạnh bằng nhau.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Tứ giác $EBCF$ cũng là hình thoi.",
-            "correct": true
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Đoạn thẳng $AF$ luôn vuông góc với đoạn thẳng $DE$.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Nếu $\\widehat{A} = 90^\\circ$ thì tứ giác $AEFD$ trở thành hình chữ nhật nhưng không phải hình vuông.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4074,255 +4096,293 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 105^\\circ, \\widehat{B} = 85^\\circ, \\widehat{C} = 70^\\circ$. Tính số đo góc $D$ (theo độ).",
-        "answer": "100"
+        "question": "Cho hình bình hành ABCD có góc A = 109 độ. Tính số đo góc B (độ).",
+        "answer": "71",
+        "acceptableAnswers": [
+          "71"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $AB = 4\\text{ cm}, CD = 10\\text{ cm}$, cạnh bên bằng $5\\text{ cm}$. Tính diện tích hình thang cân (theo cm²).",
-        "answer": "28"
+        "level": "Thông hiểu",
+        "question": "Một hình thoi có cạnh bằng 5 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "20",
+        "acceptableAnswers": [
+          "20"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **20**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Một hình thoi có diện tích bằng $48\\text{ cm}^2$ và một đường chéo dài $8\\text{ cm}$. Tính độ dài cạnh của hình thoi (theo cm, làm tròn số nguyên).",
-        "answer": "7"
+        "level": "Vận dụng",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 110 mét, chiều dài hơn chiều rộng 12 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "747",
+        "acceptableAnswers": [
+          "747"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **747**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một hình vuông có độ dài đường chéo bằng $14\\text{ cm}$. Tính diện tích của hình vuông đó (theo cm²).",
-        "answer": "98"
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
+        "acceptableAnswers": [
+          "1.9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D, E$ lần lượt là trung điểm của $AB, AC$.\na) Chứng minh tứ giác $BDEC$ là hình thang cân.\nb) Biết $\\widehat{A} = 80^\\circ$, tính số đo các góc của hình thang cân $BDEC$.",
-        "rubric": "a) DE là đường trung bình tam giác ABC => DE // BC => BDEC là hình thang. Lại có góc B = góc C (do tam giác ABC cân tại A) => BDEC là hình thang cân (0.5đ)\nb) Góc B = góc C = (180° - 80°)/2 = 50°. Góc BDE = góc CED = 180° - 50° = 130° (0.5đ)"
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 8$ cm, $BC = 6$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 100 (0.25đ).\nSuy ra AC = 10 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 5 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của $BC$. Lấy điểm $D$ đối xứng với $A$ qua $M$.\na) Chứng minh tứ giác $ABDC$ là hình chữ nhật.\nb) Kẻ $AH \\perp BC$ tại $H$. Gọi $I$ là trung điểm của $AH$. Chứng minh rằng nếu tam giác $ABC$ vuông cân thì tứ giác $ABDC$ là hình vuông.",
-        "rubric": "a) M là trung điểm của AD và BC => ABDC là hình bình hành. Có góc BAC = 90° => ABDC là hình chữ nhật (0.5đ)\nb) Nếu tam giác ABC vuông cân tại A thì AB = AC. Hình chữ nhật ABDC có hai cạnh kề AB = AC nên là hình vuông (0.5đ)"
+        "level": "Vận dụng",
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $20$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 20 => a = căn(20) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(20) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "(Câu điểm 10)\nCho hình vuông $ABCD$. Lấy điểm $E$ trên cạnh $CD$ và điểm $F$ trên cạnh $BC$ sao cho $\\widehat{EAF} = 45^\\circ$. Kẻ $AH \\perp EF$ tại $H$.\na) Chứng minh rằng $AH = AB$.\nb) Chứng minh chu vi tam giác $CEF$ bằng nửa chu vi hình vuông $ABCD$.",
-        "rubric": "a) Trên tia đối tia DC lấy điểm K sao cho DK = BF. Tam giác ABF = tam giác ADK (c-g-c) => AF = AK và góc BAF = góc DAK. Khi đó góc KAE = góc DAK + góc DAE = góc BAF + góc DAE = 90° - 45° = 45° = góc FAE. Tam giác AKE = tam giác AFE (c-g-c) => AH = AD = AB (0.5đ)\nb) Chu vi tam giác CEF = CE + EF + FC = CE + KE + FC = CE + KD + DE + FC = CE + BF + DE + FC = (CE + DE) + (BF + FC) = CD + BC = 2a = Nửa chu vi hình vuông (ĐPCM) (0.5đ)"
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   },
   "c3_8_bai6_test2": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 2 (⚡ Khá)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Khẳng định nào sau đây là đúng về mối quan hệ giữa các hình?",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 02):",
         "options": [
-          "Hình thoi có một góc vuông là hình chữ nhật nhưng không phải hình vuông",
-          "Hình thang cân là hình bình hành",
-          "Hình bình hành có hai đường chéo bằng nhau là hình thoi",
-          "Hình vuông vừa là hình chữ nhật vừa là hình thoi"
+          "$360^\\circ$",
+          "$180^\\circ$",
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Tứ giác có hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường là:",
+        "question": "Hình thang cân là hình thang có:",
         "options": [
-          "Hình bình hành không thoi",
-          "Hình thang cân",
-          "Hình thoi",
-          "Hình chữ nhật"
+          "Hai góc kề một đáy bằng nhau",
+          "Hai cạnh bên song song",
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Tứ giác có hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường là:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Hình thang cân",
-          "Hình bình hành",
           "Hình thoi",
-          "Hình chữ nhật"
+          "Hình chữ nhật",
+          "Hình thang cân",
+          "Hình vuông"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hình thoi có bốn góc bằng nhau là:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
           "Hình vuông",
-          "Hình chữ nhật",
-          "Hình thang cân",
+          "Hình thoi",
+          "Hình thang",
           "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Hình nào sau đây có vô số trục đối xứng?",
+        "level": "Thông hiểu",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 82^\\circ, \\widehat{B} = 98^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình tròn",
-          "Hình vuông"
+          "$90^\\circ$",
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Tâm đối xứng của hình vuông là:",
+        "level": "Thông hiểu",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 62^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "Không có tâm đối xứng",
-          "Giao điểm của hai đường chéo",
-          "Một đỉnh của hình vuông",
-          "Trung điểm của một cạnh"
+          "$118^\\circ$",
+          "$62^\\circ$",
+          "$178^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$). Biết $\\widehat{A} = 3\\widehat{D}$. Hiệu số đo giữa góc $B$ và góc $C$ bằng:",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $12$ cm và $16$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "$60^\\circ$",
-          "$90^\\circ$",
-          "$45^\\circ$",
-          "$120^\\circ$"
+          "$10$ cm",
+          "$20$ cm",
+          "$14$ cm",
+          "$28$ cm"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có chu vi $24\\text{ cm}$. Gọi $M, N, P$ lần lượt là trung điểm của $AB, BC, CA$. Chu vi tam giác $MNP$ bằng:",
+        "question": "Hình chữ nhật có độ dài đường chéo là $20$ cm, một cạnh bằng $12$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "$24\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$12\\text{ cm}$",
-          "$18\\text{ cm}$"
+          "$192$ cm$^2$",
+          "$240$ cm$^2$",
+          "$120$ cm$^2$",
+          "$96$ cm$^2$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Một hình chữ nhật có độ dài đường chéo bằng $15\\text{ cm}$ và tỉ số hai cạnh là $3 : 4$. Diện tích hình chữ nhật là:",
+        "level": "Vận dụng",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $50$ cm và $70$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "$108\\text{ cm}^2$",
-          "$96\\text{ cm}^2$",
-          "$216\\text{ cm}^2$",
-          "$144\\text{ cm}^2$"
+          "$1750$ cm$^2$",
+          "$3500$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có hai đường chéo $AC \\perp BD$. Tứ giác có các đỉnh là trung điểm bốn cạnh của $ABCD$ là:",
+        "level": "Vận dụng",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $140$ cm và chiều rộng $100$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "Hình chữ nhật",
-          "Hình vuông",
-          "Hình bình hành không vuông",
-          "Hình thoi"
+          "$172$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có hai đường chéo $AC = BD$. Tứ giác có các đỉnh là trung điểm bốn cạnh của $ABCD$ là:",
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình bình hành có đáy dài $34$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "Hình vuông",
-          "Hình chữ nhật",
-          "Hình bình hành không thoi",
-          "Hình thoi"
+          "$102.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Thông hiểu",
-        "question": "Hình vuông có diện tích bằng $144\\text{ cm}^2$. Bán kính đường tròn ngoại tiếp hình vuông đó bằng:",
+        "level": "Vận dụng cao",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "$6\\text{ cm}$",
-          "$6\\sqrt{2}\\text{ cm}$",
-          "$12\\text{ cm}$",
-          "$12\\sqrt{2}\\text{ cm}$"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho hình bình hành $ABCD$. Lấy $M, N$ lần lượt trên các cạnh $AB, CD$ sao cho $AM = CN$.",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 02):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác $AMCN$ là một hình bình hành.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đoạn thẳng $MN$ đi qua giao điểm của hai đường chéo $AC$ và $BD$.",
-            "correct": true
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Tứ giác $MBND$ cũng là một hình bình hành.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Nếu $ABCD$ là hình thoi thì $AMCN$ chắc chắn là hình thoi.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Cho tam giác $ABC$ vuông cân tại $A$. Dựng hình vuông $BCDE$ sao cho điểm $A$ nằm ngoài hình vuông.",
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 02):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Góc $\\widehat{ABC} = \\widehat{ACB} = 45^\\circ$.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Các góc $\\widehat{ABE} = \\widehat{ACD} = 135^\\circ$.",
-            "correct": true
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Hai tam giác $ABE$ và $ACD$ bằng nhau.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Đoạn thẳng $AE$ vuông góc với đoạn thẳng $AD$.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4331,255 +4391,293 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hình thang cân $ABCD$ có đường chéo $AC = 15\\text{ cm}$, đường cao $AH = 9\\text{ cm}$. Tính tổng độ dài hai đáy $AB + CD$ (theo cm).",
-        "answer": "24"
+        "question": "Cho hình bình hành ABCD có góc A = 108 độ. Tính số đo góc B (độ).",
+        "answer": "72",
+        "acceptableAnswers": [
+          "72"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Hình thoi $ABCD$ có chu vi $40\\text{ cm}$, khoảng cách giữa hai cạnh đối là $9.6\\text{ cm}$. Tính diện tích hình thoi (theo cm²).",
-        "answer": "96"
+        "level": "Thông hiểu",
+        "question": "Một hình thoi có cạnh bằng 10 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "40",
+        "acceptableAnswers": [
+          "40"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Cho hình chữ nhật $ABCD$ có diện tích $60\\text{ cm}^2$ và chu vi $34\\text{ cm}$. Tính độ dài đường chéo $AC$ (theo cm).",
-        "answer": "13"
+        "level": "Vận dụng",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 120 mét, chiều dài hơn chiều rộng 14 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "888",
+        "acceptableAnswers": [
+          "888"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **888**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$ cạnh $10\\text{ cm}$. Gọi $M$ là trung điểm $AB$. Đoạn thẳng $CM$ cắt $BD$ tại $P$. Tính diện tích tam giác $BPM$ (theo cm², viết dưới dạng phân số tối giản $a/b$).",
-        "answer": "25/3"
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
+        "acceptableAnswers": [
+          "1.9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của $BC$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$.\na) Chứng minh tứ giác $ADME$ là hình chữ nhật.\nb) Lấy điểm $P$ đối xứng với $M$ qua $D$. Chứng minh tứ giác $AMBP$ là hình thoi.",
-        "rubric": "a) Tứ giác ADME có 3 góc vuông nên là hình chữ nhật (0.5đ)\nb) D là trung điểm PM (gt). MD // AC và M là trung điểm BC => D là trung điểm AB. Tứ giác AMBP có hai đường chéo cắt nhau tại trung điểm D mỗi đường nên là HBH. Lại có AB vuông góc PM => AMBP là hình thoi (0.5đ)"
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 16$ cm, $BC = 12$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 400 (0.25đ).\nSuy ra AC = 20 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 10 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Cho hình bình hành $ABCD$ có $AB = 2AD$. Gọi $E, F$ lần lượt là trung điểm của $AB$ và $CD$.\na) Chứng minh tứ giác $AEFD$ là hình thoi.\nb) Gọi $M$ là giao điểm của $AF$ và $DE$, $N$ là giao điểm của $BF$ và $CE$. Chứng minh tứ giác $EMFN$ là hình chữ nhật.",
-        "rubric": "a) AEFD có AD // EF, AD = EF = AB/2 = AE => AEFD là hình thoi (0.5đ)\nb) Trong hình thoi AEFD: AF vuông góc DE tại M => góc M = 90°. Tương tự góc N = 90°. ME // NF và MF // NE => EMFN là HBH có góc M = 90° nên là hình chữ nhật (0.5đ)"
+        "level": "Vận dụng",
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $24$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 24 => a = căn(24) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(24) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "(Câu điểm 10)\nCho hình vuông $ABCD$. Lấy điểm $M$ trên cạnh $BC$. Kẻ tia $Ax$ vuông góc với $AM$ cắt đường thẳng $CD$ tại $N$. Gọi $I$ là trung điểm của đoạn thẳng $MN$.\na) Chứng minh tam giác $AMN$ vuông cân tại $A$.\nb) Chứng minh rằng khi $M$ di chuyển trên cạnh $BC$, điểm $I$ luôn thuộc một đường thẳng cố định.",
-        "rubric": "a) Tam giác vuông ABM = tam giác vuông ADN (cạnh góc vuông - góc nhọn: AB = AD, góc BAM = góc DAN cùng phụ góc DAM) => AM = AN. Tam giác AMN vuông tại A có AM = AN nên là tam giác vuông cân tại A (0.5đ)\nb) I là trung điểm MN, tam giác CMN vuông tại C => CI = MN/2. Lại có AI = MN/2 (tam giác vuông cân AMN) => AI = CI. Do A và C cố định nên I luôn nằm trên đường trung trực của đoạn thẳng AC (chính là đường thẳng chứa đường chéo BD của hình vuông) (0.5đ)"
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   },
   "c3_8_bai6_test3": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 3 (🔥 Nâng cao)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tứ giác có hai đường chéo bằng nhau và vuông góc với nhau tại trung điểm của mỗi đường là:",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 03):",
         "options": [
-          "Hình thang cân",
-          "Hình chữ nhật",
-          "Hình vuông",
-          "Hình thoi"
+          "$360^\\circ$",
+          "$180^\\circ$",
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Một tứ giác lồi vừa có trục đối xứng vừa có tâm đối xứng không thể là:",
+        "question": "Hình thang cân là hình thang có:",
         "options": [
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình thang vuông",
-          "Hình vuông"
+          "Hai góc kề một đáy bằng nhau",
+          "Hai cạnh bên song song",
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Điều kiện cần và đủ để hình bình hành là hình vuông là:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Có hai đường chéo bằng nhau và vuông góc với nhau",
-          "Có hai đường chéo vuông góc",
-          "Có hai đường chéo bằng nhau",
-          "Có bốn cạnh bằng nhau"
+          "Hình thoi",
+          "Hình chữ nhật",
+          "Hình thang cân",
+          "Hình vuông"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Tổng bình phương bốn cạnh của một tứ giác lồi bằng tổng bình phương hai đường chéo khi và chỉ khi tứ giác đó là:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Hình bình hành",
-          "Hình thoi",
           "Hình vuông",
-          "Hình chữ nhật"
+          "Hình thoi",
+          "Hình thang",
+          "Hình bình hành"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Tứ giác có các đỉnh là trung điểm của bốn cạnh của một hình thang cân có hai đường chéo vuông góc là:",
+        "level": "Thông hiểu",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 83^\\circ, \\widehat{B} = 97^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "Hình chữ nhật",
-          "Hình vuông",
-          "Hình bình hành",
-          "Hình thoi"
+          "$90^\\circ$",
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Cho hình vuông có cạnh $a$. Diện tích hình tròn ngoại tiếp hình vuông đó bằng:",
+        "level": "Thông hiểu",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 63^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$\\pi a^2$",
-          "$\\frac{\\pi a^2}{4}$",
-          "$2\\pi a^2$",
-          "$\\frac{\\pi a^2}{2}$"
+          "$117^\\circ$",
+          "$63^\\circ$",
+          "$177^\\circ$",
+          "$90^\\circ$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $AC \\perp BD$. Đặt $AB = a, BC = b, CD = c, DA = d$. Hệ thức nào sau đây luôn đúng?",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $18$ cm và $24$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "$a + c = b + d$",
-          "$a^2 + c^2 = b^2 + d^2$",
-          "$a^2 + b^2 = c^2 + d^2$",
-          "$a \\cdot c = b \\cdot d$"
+          "$15$ cm",
+          "$30$ cm",
+          "$21$ cm",
+          "$42$ cm"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho hình vuông $ABCD$. Gọi $E, F$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AE$ cắt $BF$ tại $I$. Khẳng định nào sau đây là đúng?",
+        "question": "Hình chữ nhật có độ dài đường chéo là $30$ cm, một cạnh bằng $18$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "$AE = 2BF$",
-          "Tam giác $AIB$ vuông cân",
-          "$AE \\parallel BF$",
-          "$AE \\perp BF$ và $CI = CD$"
+          "$432$ cm$^2$",
+          "$540$ cm$^2$",
+          "$270$ cm$^2$",
+          "$216$ cm$^2$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Tam giác $AMN$ là:",
+        "level": "Vận dụng",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $55$ cm và $75$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "Tam giác đều",
-          "Tam giác cân có góc đáy $30^\\circ$",
-          "Tam giác vuông",
-          "Tam giác vuông cân"
+          "$2062$ cm$^2$",
+          "$4125$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Cho hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}, BC = 6\\text{ cm}$. Điểm $M$ thuộc đường chéo $BD$. Khoảng cách từ $M$ đến $AB$ là $x$, đến $AD$ là $y$. Giá trị biểu thức $3x + 4y$ bằng:",
+        "level": "Vận dụng",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $150$ cm và chiều rộng $105$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "$36$",
-          "$12$",
-          "$48$",
-          "$24$"
+          "$183$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Cho hình vuông $ABCD$. Điểm $M$ thuộc cạnh $BC$. Tia phân giác của góc $\\widehat{DAM}$ cắt cạnh $CD$ tại $P$. Khẳng định nào sau đây luôn đúng?",
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình bình hành có đáy dài $36$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "$AP^2 = BM^2 + DP^2$",
-          "$AP = BM - DP$",
-          "$AP = BM + DP$",
-          "$AP = 2(BM + DP)$"
+          "$108.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có diện tích $S = 32\\text{ cm}^2$ và $AC + BD = 16\\text{ cm}$. Khi đó hai đường chéo $AC$ và $BD$:",
+        "level": "Vận dụng cao",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "Vuông góc nhưng không bằng nhau",
-          "Bằng nhau và vuông góc với nhau",
-          "Bằng nhau nhưng không vuông góc",
-          "Cắt nhau tại trung điểm mỗi đường"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho hình vuông $ABCD$. Lấy điểm $E$ trên cạnh $BC$, điểm $F$ trên cạnh $CD$ sao cho $\\widehat{EAF} = 45^\\circ$. Kẻ $AH \\perp EF$ tại $H$.",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 03):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Độ dài đoạn thẳng $AH$ luôn bằng độ dài cạnh hình vuông $AB$.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Chu vi của tam giác $CEF$ luôn bằng nửa chu vi hình vuông $ABCD$.",
-            "correct": true
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Đoạn thẳng $EF = BE + DF$.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Diện tích tam giác $AEF$ luôn lớn hơn diện tích tam giác $CEF$.",
-            "correct": true
+            "level": "Vận dụng",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Cho hình thoi $ABCD$ có cạnh bằng $a$ và góc $\\widehat{A} = 60^\\circ$. Một đường thẳng $d$ bất kì đi qua đỉnh $C$ cắt tia đối của tia $BA$ tại $E$ và cắt tia đối của tia $DA$ tại $F$.",
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 03):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tích hai đoạn thẳng $BE \\cdot DF = a^2$.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Tam giác $ABD$ là một tam giác đều cạnh $a$.",
-            "correct": true
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Hai tam giác $BDE$ và $FDB$ đồng dạng với nhau.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Số đo góc $\\widehat{EOF}$ (với $O$ là giao điểm $AC$ và $BD$) bằng $90^\\circ$.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4588,63 +4686,79 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hình vuông $ABCD$ cạnh $12\\text{ cm}$. Gọi $E, F$ là trung điểm của $AB, CD$. Tính bán kính đường tròn đi qua bốn đỉnh của hình chữ nhật $AEFD$ (theo cm, viết dạng $a\\sqrt{5}$ với $a$ là số nguyên).",
-        "answer": "3"
+        "question": "Cho hình bình hành ABCD có góc A = 107 độ. Tính số đo góc B (độ).",
+        "answer": "73",
+        "acceptableAnswers": [
+          "73"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **73**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Cho hình thoi $ABCD$ có $AC = 16\\text{ cm}, BD = 12\\text{ cm}$. Gọi $M, N, P, Q$ là trung điểm bốn cạnh. Tính diện tích hình chữ nhật $MNPQ$ (theo cm²).",
-        "answer": "48"
+        "level": "Thông hiểu",
+        "question": "Một hình thoi có cạnh bằng 15 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "60",
+        "acceptableAnswers": [
+          "60"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
       },
       {
         "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$ có cạnh bằng $10\\text{ cm}$. Lấy điểm $E$ trên cạnh $BC$ sao cho $BE = 3\\text{ cm}$. Kẻ $AF \\perp AE$ ($F \\in CD$ kéo dài). Tính diện tích tam giác $AEF$ (theo cm²).",
-        "answer": "54.5"
+        "level": "Vận dụng",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 130 mét, chiều dài hơn chiều rộng 16 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "1040",
+        "acceptableAnswers": [
+          "1040"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1040**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình chữ nhật $ABCD$ có $AB = 4\\text{ cm}, BC = 3\\text{ cm}$. Một điểm $M$ di động trong hình chữ nhật. Tìm giá trị nhỏ nhất của tổng $S = MA^2 + MB^2 + MC^2 + MD^2$ (theo cm²).",
-        "answer": "25"
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
+        "acceptableAnswers": [
+          "1.9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hình vuông $ABCD$. Gọi $O$ là giao điểm hai đường chéo $AC$ và $BD$. Lấy điểm $M$ trên đoạn $OB$ ($M$ khác $O, B$). Kẻ $ME \\perp AB$ tại $E$ và $MF \\perp BC$ tại $F$.\na) Chứng minh tứ giác $BEMF$ là hình vuông.\nb) Chứng minh $DE = CF$ và $DE \\perp CF$.",
-        "rubric": "a) Góc B = 90°, ME vuông góc AB, MF vuông góc BC => BEMF là hình chữ nhật. Vì M thuộc BD (phân giác góc B) nên ME = MF => BEMF là hình vuông (0.5đ)\nb) Xét tam giác ADE và tam giác DCF: AD = DC, AE = DF (do AB - BE = BC - MF), góc A = góc D = 90° => tam giác ADE = tam giác DCF (c-g-c) => DE = CF và góc ADE = góc DCF => DE vuông góc CF (0.5đ)"
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 24$ cm, $BC = 18$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 900 (0.25đ).\nSuy ra AC = 30 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 15 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Cho tứ giác lồi $ABCD$. Dựng ra phía ngoài tứ giác các hình vuông có cạnh lần lượt là $AB, BC, CD, DA$. Gọi $O_1, O_2, O_3, O_4$ lần lượt là tâm của bốn hình vuông đó.\na) Chứng minh đoạn thẳng $O_1 O_3$ bằng đoạn thẳng $O_2 O_4$ (Định lí Van Aubel).\nb) Chứng minh rằng $O_1 O_3 \\perp O_2 O_4$.",
-        "rubric": "a) Sử dụng phương pháp vectơ hoặc phép quay góc 90° tâm là trung điểm đường chéo: Dựng tam giác bằng nhau chứng minh đoạn thẳng nối hai tâm đối diện bằng nhau O1O3 = O2O4 (0.5đ)\nb) Tương tự từ phép quay 90° suy ra góc giữa hai đoạn thẳng O1O3 và O2O4 bằng 90°, tức là O1O3 vuông góc O2O4 (0.5đ)"
+        "level": "Vận dụng",
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $28$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 28 => a = căn(28) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(28) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "(Câu điểm 10)\nCho hình vuông $ABCD$ cạnh $a$. Điểm $M$ nằm trên cạnh $BC$, điểm $N$ nằm trên cạnh $CD$ sao cho chu vi tam giác $CMN$ bằng $2a$.\na) Chứng minh rằng góc $\\widehat{MAN} = 45^\\circ$.\nb) Tìm giá trị lớn nhất và giá trị nhỏ nhất của diện tích tam giác $AMN$ khi $M, N$ thay đổi.",
-        "rubric": "a) Chu vi tam giác CMN = CM + MN + NC = 2a = BC + CD = (BM + MC) + (CN + ND) => MN = BM + DN. Trên tia đối tia DC lấy K sao cho DK = BM => NK = ND + DK = DN + BM = MN. Tam giác ABM = tam giác ADK => AM = AK. Tam giác AMN = tam giác AKN (c-c-c) => góc MAN = góc KAN = 1/2 góc BAK = 45° (0.5đ)\nb) Kẻ AH vuông góc MN => AH = AB = a. S(AMN) = 1/2 a . MN. Vì MN = BM + DN và CM + CN + MN = 2a. Áp dụng BĐT: MN nhỏ nhất khi BM = DN <=> MN = 2a(căn 2 - 1). Khi đó S(AMN)_min = a²(căn 2 - 1). S(AMN)_max đạt được khi M trùng B hoặc M trùng C (S = a²/2) (0.5đ)"
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   },
   "c3_8_bai6_test4": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tổng các góc trong một tứ giác bằng:",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 04):",
         "options": [
           "$360^\\circ$",
           "$180^\\circ$",
-          "$540^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4656,8 +4770,8 @@ const EXAMS_8_C3_8 = {
         "options": [
           "Hai góc kề một đáy bằng nhau",
           "Hai cạnh bên song song",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau"
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4665,12 +4779,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hình bình hành có hai đường chéo:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Cắt nhau tại trung điểm của mỗi đường",
-          "Bằng nhau",
-          "Vuông góc với nhau",
-          "Là các đường phân giác"
+          "Hình thoi",
+          "Hình chữ nhật",
+          "Hình thang cân",
+          "Hình vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4678,12 +4792,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hình chữ nhật là tứ giác có:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Bốn góc vuông",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo vuông góc",
-          "Hai cạnh bên bằng nhau"
+          "Hình vuông",
+          "Hình thoi",
+          "Hình thang",
+          "Hình bình hành"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4691,12 +4805,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 110^\\circ$. Số đo của góc $\\widehat{D}$ là:",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 84^\\circ, \\widehat{B} = 96^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
           "$90^\\circ$",
-          "$60^\\circ$"
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4704,12 +4818,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Hình thoi có hai đường chéo dài $6\\text{ cm}$ và $8\\text{ cm}$. Cạnh của hình thoi đó bằng:",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 64^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "$116^\\circ$",
+          "$64^\\circ$",
+          "$176^\\circ$",
+          "$90^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4717,12 +4831,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình thoi có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $24$ cm và $32$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "Có một góc vuông",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo cắt nhau tại trung điểm"
+          "$20$ cm",
+          "$40$ cm",
+          "$28$ cm",
+          "$56$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4730,12 +4844,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Hình chữ nhật có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Hình chữ nhật có độ dài đường chéo là $40$ cm, một cạnh bằng $24$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "Hai đường chéo vuông góc với nhau",
-          "Hai đường chéo bằng nhau",
-          "Bốn góc vuông",
-          "Các cạnh đối song song"
+          "$768$ cm$^2$",
+          "$960$ cm$^2$",
+          "$480$ cm$^2$",
+          "$384$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4743,12 +4857,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 60^\\circ$. Số đo của góc $\\widehat{A}$ là:",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $60$ cm và $80$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "$120^\\circ$",
-          "$60^\\circ$",
-          "$90^\\circ$",
-          "$180^\\circ$"
+          "$2400$ cm$^2$",
+          "$4800$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4756,12 +4870,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM = 5\\text{ cm}$. Độ dài cạnh huyền $BC$ là:",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $160$ cm và chiều rộng $110$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "$10\\text{ cm}$",
-          "$5\\text{ cm}$",
-          "$2,5\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$194$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4769,12 +4883,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khung cửa sổ hình vuông có đường chéo dài $1,4\\text{ m}$. Diện tích của khung cửa sổ đó là:",
+        "question": "Một mảnh đất hình bình hành có đáy dài $38$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "$0,98\\text{ m}^2$",
-          "$1,96\\text{ m}^2$",
-          "$1,4\\text{ m}^2$",
-          "$0,7\\text{ m}^2$"
+          "$114.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4782,12 +4896,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy $E$, tia phân giác của $\\widehat{DAE}$ cắt $CD$ tại $F$. Chu vi tam giác $CEF$ bằng:",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "$2 AB$ (khi $E$ trùng $B$)",
-          "Luôn bằng $2 CD$",
-          "$AB + CD$",
-          "Không đổi"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4796,69 +4910,69 @@ const EXAMS_8_C3_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về các loại tứ giác đặc biệt (Mã đề 4):",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chữ nhật có hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường.",
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hình thoi có hai đường chéo vuông góc với nhau và là đường phân giác các góc.",
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tứ giác có hai đường chéo vuông góc luôn là hình thoi.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Các trung điểm của bốn cạnh của một hình chữ nhật tạo thành một hình thoi.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của $BC$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác ADME là hình chữ nhật.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Điểm D là trung điểm của AB và E là trung điểm của AC.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Độ dài đoạn thẳng DE bằng AM.",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu tam giác ABC vuông cân tại A thì tứ giác ADME là hình vuông.",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 04):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
             "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4867,79 +4981,79 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tứ giác ABCD có góc A = 70, B = 80, C = 100 độ. Tính góc D (độ).",
-        "answer": "110",
+        "question": "Cho hình bình hành ABCD có góc A = 106 độ. Tính số đo góc B (độ).",
+        "answer": "74",
         "acceptableAnswers": [
-          "110"
+          "74"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **110**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **74**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình thoi có cạnh bằng 10 cm, một đường chéo 12 cm. Tính độ dài đường chéo kia (cm).",
-        "answer": "16",
+        "question": "Một hình thoi có cạnh bằng 20 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "80",
         "acceptableAnswers": [
-          "16"
+          "80"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **80**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân có đáy nhỏ 4 cm, đáy lớn 10 cm, cạnh bên 5 cm. Tính chiều cao hình thang (cm).",
-        "answer": "4",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 140 mét, chiều dài hơn chiều rộng 18 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "1205",
         "acceptableAnswers": [
-          "4"
+          "1205"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1205**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình chữ nhật ABCD có AB = 8 cm, BC = 6 cm. Tính khoảng cách từ đỉnh A đến đường chéo BD (cm).",
-        "answer": "4,8",
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
         "acceptableAnswers": [
-          "4,8"
+          "1.9"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng hình thang có hai đường chéo bằng nhau là hình thang cân.",
-        "rubric": "Qua đỉnh B kẻ đường thẳng song song với AC cắt đường thẳng DC tại E => ABEC là hình bình hành => BE = AC = BD (0.25đ).\n=> tam giác BDE cân tại B => góc BDC = E = ACD => tam giác ADC = BCD (c-g-c) => AD = BC => ABCD là hình thang cân (0.25đ)."
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 32$ cm, $BC = 24$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 1600 (0.25đ).\nSuy ra AC = 40 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 20 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D, E$ lần lượt là trung điểm của $AB, AC$. Chứng minh tứ giác $BDEC$ là hình thang cân.",
-        "rubric": "Vì D, E là trung điểm AB, AC nên DE là đường trung bình => DE // BC => BDEC là hình thang (0.25đ).\nMặt khác tam giác ABC cân tại A => góc B = góc C.\nHình thang có hai góc kề một đáy bằng nhau nên BDEC là hình thang cân (0.25đ)."
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $32$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 32 => a = căn(32) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(32) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho hình bình hành $ABCD$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Biết $\\widehat{HAK} = 50^\\circ$. Tính các góc của hình bình hành $ABCD$.",
-        "rubric": "Xét tứ giác AHCK có góc H = 90 độ, K = 90 độ => C + HAK = 180 độ (0.25đ).\n=> góc C = 180 - 50 = 130 độ.\nVì ABCD là hình bình hành nên: A = C = 130 độ; B = D = 180 - 130 = 50 độ (0.25đ)."
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   },
   "c3_8_bai6_test5": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 5 (💡 Tứ giác đặc biệt trong thực tiễn)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tổng các góc trong một tứ giác bằng:",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 05):",
         "options": [
           "$360^\\circ$",
           "$180^\\circ$",
-          "$540^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4951,8 +5065,8 @@ const EXAMS_8_C3_8 = {
         "options": [
           "Hai góc kề một đáy bằng nhau",
           "Hai cạnh bên song song",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau"
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4960,12 +5074,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hình bình hành có hai đường chéo:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Cắt nhau tại trung điểm của mỗi đường",
-          "Bằng nhau",
-          "Vuông góc với nhau",
-          "Là các đường phân giác"
+          "Hình thoi",
+          "Hình chữ nhật",
+          "Hình thang cân",
+          "Hình vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4973,12 +5087,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hình chữ nhật là tứ giác có:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Bốn góc vuông",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo vuông góc",
-          "Hai cạnh bên bằng nhau"
+          "Hình vuông",
+          "Hình thoi",
+          "Hình thang",
+          "Hình bình hành"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4986,12 +5100,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 110^\\circ$. Số đo của góc $\\widehat{D}$ là:",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 85^\\circ, \\widehat{B} = 95^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
           "$90^\\circ$",
-          "$60^\\circ$"
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4999,12 +5113,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Hình thoi có hai đường chéo dài $6\\text{ cm}$ và $8\\text{ cm}$. Cạnh của hình thoi đó bằng:",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 65^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "$115^\\circ$",
+          "$65^\\circ$",
+          "$175^\\circ$",
+          "$90^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5012,12 +5126,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình thoi có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $30$ cm và $40$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "Có một góc vuông",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo cắt nhau tại trung điểm"
+          "$25$ cm",
+          "$50$ cm",
+          "$35$ cm",
+          "$70$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5025,12 +5139,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Hình chữ nhật có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Hình chữ nhật có độ dài đường chéo là $50$ cm, một cạnh bằng $30$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "Hai đường chéo vuông góc với nhau",
-          "Hai đường chéo bằng nhau",
-          "Bốn góc vuông",
-          "Các cạnh đối song song"
+          "$1200$ cm$^2$",
+          "$1500$ cm$^2$",
+          "$750$ cm$^2$",
+          "$600$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5038,12 +5152,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 60^\\circ$. Số đo của góc $\\widehat{A}$ là:",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $65$ cm và $85$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "$120^\\circ$",
-          "$60^\\circ$",
-          "$90^\\circ$",
-          "$180^\\circ$"
+          "$2762$ cm$^2$",
+          "$5525$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5051,12 +5165,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM = 5\\text{ cm}$. Độ dài cạnh huyền $BC$ là:",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $170$ cm và chiều rộng $115$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "$10\\text{ cm}$",
-          "$5\\text{ cm}$",
-          "$2,5\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$205$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5064,12 +5178,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khung cửa sổ hình vuông có đường chéo dài $1,4\\text{ m}$. Diện tích của khung cửa sổ đó là:",
+        "question": "Một mảnh đất hình bình hành có đáy dài $40$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "$0,98\\text{ m}^2$",
-          "$1,96\\text{ m}^2$",
-          "$1,4\\text{ m}^2$",
-          "$0,7\\text{ m}^2$"
+          "$120.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5077,12 +5191,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy $E$, tia phân giác của $\\widehat{DAE}$ cắt $CD$ tại $F$. Chu vi tam giác $CEF$ bằng:",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "$2 AB$ (khi $E$ trùng $B$)",
-          "Luôn bằng $2 CD$",
-          "$AB + CD$",
-          "Không đổi"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5091,69 +5205,69 @@ const EXAMS_8_C3_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về các loại tứ giác đặc biệt (Mã đề 5):",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chữ nhật có hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường.",
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hình thoi có hai đường chéo vuông góc với nhau và là đường phân giác các góc.",
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tứ giác có hai đường chéo vuông góc luôn là hình thoi.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Các trung điểm của bốn cạnh của một hình chữ nhật tạo thành một hình thoi.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của $BC$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác ADME là hình chữ nhật.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Điểm D là trung điểm của AB và E là trung điểm của AC.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Độ dài đoạn thẳng DE bằng AM.",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu tam giác ABC vuông cân tại A thì tứ giác ADME là hình vuông.",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 05):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
             "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -5162,79 +5276,79 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tứ giác ABCD có góc A = 70, B = 80, C = 100 độ. Tính góc D (độ).",
-        "answer": "110",
+        "question": "Cho hình bình hành ABCD có góc A = 105 độ. Tính số đo góc B (độ).",
+        "answer": "75",
         "acceptableAnswers": [
-          "110"
+          "75"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **110**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình thoi có cạnh bằng 10 cm, một đường chéo 12 cm. Tính độ dài đường chéo kia (cm).",
-        "answer": "16",
+        "question": "Một hình thoi có cạnh bằng 25 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "100",
         "acceptableAnswers": [
-          "16"
+          "100"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân có đáy nhỏ 4 cm, đáy lớn 10 cm, cạnh bên 5 cm. Tính chiều cao hình thang (cm).",
-        "answer": "4",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 150 mét, chiều dài hơn chiều rộng 20 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "1381",
         "acceptableAnswers": [
-          "4"
+          "1381"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1381**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình chữ nhật ABCD có AB = 8 cm, BC = 6 cm. Tính khoảng cách từ đỉnh A đến đường chéo BD (cm).",
-        "answer": "4,8",
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
         "acceptableAnswers": [
-          "4,8"
+          "1.9"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng hình thang có hai đường chéo bằng nhau là hình thang cân.",
-        "rubric": "Qua đỉnh B kẻ đường thẳng song song với AC cắt đường thẳng DC tại E => ABEC là hình bình hành => BE = AC = BD (0.25đ).\n=> tam giác BDE cân tại B => góc BDC = E = ACD => tam giác ADC = BCD (c-g-c) => AD = BC => ABCD là hình thang cân (0.25đ)."
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 40$ cm, $BC = 30$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 2500 (0.25đ).\nSuy ra AC = 50 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 25 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D, E$ lần lượt là trung điểm của $AB, AC$. Chứng minh tứ giác $BDEC$ là hình thang cân.",
-        "rubric": "Vì D, E là trung điểm AB, AC nên DE là đường trung bình => DE // BC => BDEC là hình thang (0.25đ).\nMặt khác tam giác ABC cân tại A => góc B = góc C.\nHình thang có hai góc kề một đáy bằng nhau nên BDEC là hình thang cân (0.25đ)."
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $36$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 36 => a = căn(36) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(36) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho hình bình hành $ABCD$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Biết $\\widehat{HAK} = 50^\\circ$. Tính các góc của hình bình hành $ABCD$.",
-        "rubric": "Xét tứ giác AHCK có góc H = 90 độ, K = 90 độ => C + HAK = 180 độ (0.25đ).\n=> góc C = 180 - 50 = 130 độ.\nVì ABCD là hình bình hành nên: A = C = 130 độ; B = D = 180 - 130 = 50 độ (0.25đ)."
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   },
   "c3_8_bai6_test6": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tổng các góc trong một tứ giác bằng:",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 06):",
         "options": [
           "$360^\\circ$",
           "$180^\\circ$",
-          "$540^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5246,8 +5360,8 @@ const EXAMS_8_C3_8 = {
         "options": [
           "Hai góc kề một đáy bằng nhau",
           "Hai cạnh bên song song",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau"
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5255,12 +5369,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hình bình hành có hai đường chéo:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Cắt nhau tại trung điểm của mỗi đường",
-          "Bằng nhau",
-          "Vuông góc với nhau",
-          "Là các đường phân giác"
+          "Hình thoi",
+          "Hình chữ nhật",
+          "Hình thang cân",
+          "Hình vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5268,12 +5382,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hình chữ nhật là tứ giác có:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Bốn góc vuông",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo vuông góc",
-          "Hai cạnh bên bằng nhau"
+          "Hình vuông",
+          "Hình thoi",
+          "Hình thang",
+          "Hình bình hành"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5281,12 +5395,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 110^\\circ$. Số đo của góc $\\widehat{D}$ là:",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 86^\\circ, \\widehat{B} = 94^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
           "$90^\\circ$",
-          "$60^\\circ$"
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5294,12 +5408,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Hình thoi có hai đường chéo dài $6\\text{ cm}$ và $8\\text{ cm}$. Cạnh của hình thoi đó bằng:",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 66^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "$114^\\circ$",
+          "$66^\\circ$",
+          "$174^\\circ$",
+          "$90^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5307,12 +5421,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình thoi có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $36$ cm và $48$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "Có một góc vuông",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo cắt nhau tại trung điểm"
+          "$30$ cm",
+          "$60$ cm",
+          "$42$ cm",
+          "$84$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5320,12 +5434,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Hình chữ nhật có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Hình chữ nhật có độ dài đường chéo là $60$ cm, một cạnh bằng $36$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "Hai đường chéo vuông góc với nhau",
-          "Hai đường chéo bằng nhau",
-          "Bốn góc vuông",
-          "Các cạnh đối song song"
+          "$1728$ cm$^2$",
+          "$2160$ cm$^2$",
+          "$1080$ cm$^2$",
+          "$864$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5333,12 +5447,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 60^\\circ$. Số đo của góc $\\widehat{A}$ là:",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $70$ cm và $90$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "$120^\\circ$",
-          "$60^\\circ$",
-          "$90^\\circ$",
-          "$180^\\circ$"
+          "$3150$ cm$^2$",
+          "$6300$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5346,12 +5460,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM = 5\\text{ cm}$. Độ dài cạnh huyền $BC$ là:",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $180$ cm và chiều rộng $120$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "$10\\text{ cm}$",
-          "$5\\text{ cm}$",
-          "$2,5\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$216$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5359,12 +5473,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khung cửa sổ hình vuông có đường chéo dài $1,4\\text{ m}$. Diện tích của khung cửa sổ đó là:",
+        "question": "Một mảnh đất hình bình hành có đáy dài $42$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "$0,98\\text{ m}^2$",
-          "$1,96\\text{ m}^2$",
-          "$1,4\\text{ m}^2$",
-          "$0,7\\text{ m}^2$"
+          "$126.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5372,12 +5486,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy $E$, tia phân giác của $\\widehat{DAE}$ cắt $CD$ tại $F$. Chu vi tam giác $CEF$ bằng:",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "$2 AB$ (khi $E$ trùng $B$)",
-          "Luôn bằng $2 CD$",
-          "$AB + CD$",
-          "Không đổi"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5386,69 +5500,69 @@ const EXAMS_8_C3_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về các loại tứ giác đặc biệt (Mã đề 6):",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chữ nhật có hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường.",
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hình thoi có hai đường chéo vuông góc với nhau và là đường phân giác các góc.",
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tứ giác có hai đường chéo vuông góc luôn là hình thoi.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Các trung điểm của bốn cạnh của một hình chữ nhật tạo thành một hình thoi.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của $BC$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác ADME là hình chữ nhật.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Điểm D là trung điểm của AB và E là trung điểm của AC.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Độ dài đoạn thẳng DE bằng AM.",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu tam giác ABC vuông cân tại A thì tứ giác ADME là hình vuông.",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 06):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
             "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -5457,79 +5571,79 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tứ giác ABCD có góc A = 70, B = 80, C = 100 độ. Tính góc D (độ).",
-        "answer": "110",
+        "question": "Cho hình bình hành ABCD có góc A = 104 độ. Tính số đo góc B (độ).",
+        "answer": "76",
         "acceptableAnswers": [
-          "110"
+          "76"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **110**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **76**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình thoi có cạnh bằng 10 cm, một đường chéo 12 cm. Tính độ dài đường chéo kia (cm).",
-        "answer": "16",
+        "question": "Một hình thoi có cạnh bằng 30 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "120",
         "acceptableAnswers": [
-          "16"
+          "120"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân có đáy nhỏ 4 cm, đáy lớn 10 cm, cạnh bên 5 cm. Tính chiều cao hình thang (cm).",
-        "answer": "4",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 160 mét, chiều dài hơn chiều rộng 22 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "1570",
         "acceptableAnswers": [
-          "4"
+          "1570"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1570**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình chữ nhật ABCD có AB = 8 cm, BC = 6 cm. Tính khoảng cách từ đỉnh A đến đường chéo BD (cm).",
-        "answer": "4,8",
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
         "acceptableAnswers": [
-          "4,8"
+          "1.9"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng hình thang có hai đường chéo bằng nhau là hình thang cân.",
-        "rubric": "Qua đỉnh B kẻ đường thẳng song song với AC cắt đường thẳng DC tại E => ABEC là hình bình hành => BE = AC = BD (0.25đ).\n=> tam giác BDE cân tại B => góc BDC = E = ACD => tam giác ADC = BCD (c-g-c) => AD = BC => ABCD là hình thang cân (0.25đ)."
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 48$ cm, $BC = 36$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 3600 (0.25đ).\nSuy ra AC = 60 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 30 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D, E$ lần lượt là trung điểm của $AB, AC$. Chứng minh tứ giác $BDEC$ là hình thang cân.",
-        "rubric": "Vì D, E là trung điểm AB, AC nên DE là đường trung bình => DE // BC => BDEC là hình thang (0.25đ).\nMặt khác tam giác ABC cân tại A => góc B = góc C.\nHình thang có hai góc kề một đáy bằng nhau nên BDEC là hình thang cân (0.25đ)."
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $40$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 40 => a = căn(40) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(40) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho hình bình hành $ABCD$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Biết $\\widehat{HAK} = 50^\\circ$. Tính các góc của hình bình hành $ABCD$.",
-        "rubric": "Xét tứ giác AHCK có góc H = 90 độ, K = 90 độ => C + HAK = 180 độ (0.25đ).\n=> góc C = 180 - 50 = 130 độ.\nVì ABCD là hình bình hành nên: A = C = 130 độ; B = D = 180 - 130 = 50 độ (0.25đ)."
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   },
   "c3_8_bai6_test7": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương III: Tứ giác - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tổng các góc trong một tứ giác bằng:",
+        "question": "Tổng các góc của một tứ giác lồi luôn bằng (Đề 07):",
         "options": [
           "$360^\\circ$",
           "$180^\\circ$",
-          "$540^\\circ$",
-          "$90^\\circ$"
+          "$90^\\circ$",
+          "$720^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5541,8 +5655,8 @@ const EXAMS_8_C3_8 = {
         "options": [
           "Hai góc kề một đáy bằng nhau",
           "Hai cạnh bên song song",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau"
+          "Hai góc đối bằng nhau",
+          "Bốn góc vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5550,12 +5664,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hình bình hành có hai đường chéo:",
+        "question": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
         "options": [
-          "Cắt nhau tại trung điểm của mỗi đường",
-          "Bằng nhau",
-          "Vuông góc với nhau",
-          "Là các đường phân giác"
+          "Hình thoi",
+          "Hình chữ nhật",
+          "Hình thang cân",
+          "Hình vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5563,12 +5677,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hình chữ nhật là tứ giác có:",
+        "question": "Hình chữ nhật có hai cạnh kề bằng nhau là:",
         "options": [
-          "Bốn góc vuông",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo vuông góc",
-          "Hai cạnh bên bằng nhau"
+          "Hình vuông",
+          "Hình thoi",
+          "Hình thang",
+          "Hình bình hành"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5576,12 +5690,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 100^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 110^\\circ$. Số đo của góc $\\widehat{D}$ là:",
+        "question": "Cho tứ giác $ABCD$ có $\\widehat{A} = 87^\\circ, \\widehat{B} = 93^\\circ, \\widehat{C} = 90^\\circ$. Số đo góc $D$ là:",
         "options": [
-          "$70^\\circ$",
-          "$80^\\circ$",
           "$90^\\circ$",
-          "$60^\\circ$"
+          "$100^\\circ$",
+          "$80^\\circ$",
+          "$110^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5589,12 +5703,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Hình thoi có hai đường chéo dài $6\\text{ cm}$ và $8\\text{ cm}$. Cạnh của hình thoi đó bằng:",
+        "question": "Hình thang cân $ABCD$ ($AB // CD$) có $\\widehat{C} = 67^\\circ$. Số đo góc $A$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$7\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "$113^\\circ$",
+          "$67^\\circ$",
+          "$173^\\circ$",
+          "$90^\\circ$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5602,12 +5716,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình thoi có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Một hình thoi có độ dài hai đường chéo lần lượt là $42$ cm và $56$ cm. Độ dài cạnh của hình thoi là:",
         "options": [
-          "Có một góc vuông",
-          "Hai đường chéo vuông góc",
-          "Bốn cạnh bằng nhau",
-          "Hai đường chéo cắt nhau tại trung điểm"
+          "$35$ cm",
+          "$70$ cm",
+          "$49$ cm",
+          "$98$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5615,12 +5729,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Hình chữ nhật có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+        "question": "Hình chữ nhật có độ dài đường chéo là $70$ cm, một cạnh bằng $42$ cm. Diện tích của hình chữ nhật là:",
         "options": [
-          "Hai đường chéo vuông góc với nhau",
-          "Hai đường chéo bằng nhau",
-          "Bốn góc vuông",
-          "Các cạnh đối song song"
+          "$2352$ cm$^2$",
+          "$2940$ cm$^2$",
+          "$1470$ cm$^2$",
+          "$1176$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5628,12 +5742,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 60^\\circ$. Số đo của góc $\\widehat{A}$ là:",
+        "question": "Người ta làm một con diều hình thoi có hai thanh tre làm đường chéo dài $75$ cm và $95$ cm. Diện tích giấy màu cần để dán phủ mặt diều là:",
         "options": [
-          "$120^\\circ$",
-          "$60^\\circ$",
-          "$90^\\circ$",
-          "$180^\\circ$"
+          "$3562$ cm$^2$",
+          "$7125$ cm$^2$",
+          "1000 cm$^2$",
+          "1500 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5641,12 +5755,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM = 5\\text{ cm}$. Độ dài cạnh huyền $BC$ là:",
+        "question": "Một khung cửa sổ bằng nhôm kính hình chữ nhật có chiều dài $190$ cm và chiều rộng $125$ cm. Để đảm bảo khung cửa vuông vắn, bác thợ đo hai đường chéo thì độ dài mỗi đường chéo phải xấp xỉ bằng:",
         "options": [
-          "$10\\text{ cm}$",
-          "$5\\text{ cm}$",
-          "$2,5\\text{ cm}$",
-          "$15\\text{ cm}$"
+          "$227$ cm",
+          "150 cm",
+          "200 cm",
+          "180 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5654,12 +5768,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khung cửa sổ hình vuông có đường chéo dài $1,4\\text{ m}$. Diện tích của khung cửa sổ đó là:",
+        "question": "Một mảnh đất hình bình hành có đáy dài $44$ mét, chiều cao tương ứng bằng $15$ mét. Người ta dùng $20\\%$ diện tích để trồng hoa. Diện tích trồng hoa là:",
         "options": [
-          "$0,98\\text{ m}^2$",
-          "$1,96\\text{ m}^2$",
-          "$1,4\\text{ m}^2$",
-          "$0,7\\text{ m}^2$"
+          "$132.0$ mét vuông",
+          "100 mét vuông",
+          "120 mét vuông",
+          "90 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5667,12 +5781,12 @@ const EXAMS_8_C3_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy $E$, tia phân giác của $\\widehat{DAE}$ cắt $CD$ tại $F$. Chu vi tam giác $CEF$ bằng:",
+        "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $M, N$ lần lượt là trung điểm của $BC, CD$. Đoạn thẳng $AM$ vuông góc với đoạn thẳng:",
         "options": [
-          "$2 AB$ (khi $E$ trùng $B$)",
-          "Luôn bằng $2 CD$",
-          "$AB + CD$",
-          "Không đổi"
+          "$BN$",
+          "$DN$",
+          "$BD$",
+          "$AC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5681,69 +5795,69 @@ const EXAMS_8_C3_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về các loại tứ giác đặc biệt (Mã đề 7):",
+        "stem": "Xét tính đúng sai về hình thang cân và hình thoi (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chữ nhật có hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường.",
+            "level": "Nhận biết",
+            "text": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hình thoi có hai đường chéo vuông góc với nhau và là đường phân giác các góc.",
+            "text": "Hình thoi có bốn cạnh bằng nhau và hai đường chéo vuông góc với nhau.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tứ giác có hai đường chéo vuông góc luôn là hình thoi.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Các trung điểm của bốn cạnh của một hình chữ nhật tạo thành một hình thoi.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác $ABC$ vuông tại $A$. Gọi $M$ là trung điểm của $BC$. Kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tứ giác ADME là hình chữ nhật.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Điểm D là trung điểm của AB và E là trung điểm của AC.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Độ dài đoạn thẳng DE bằng AM.",
+            "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu tam giác ABC vuông cân tại A thì tứ giác ADME là hình vuông.",
+            "text": "Một hình thoi có một góc vuông thì trở thành hình bình hành.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$ (Mã đề 07):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tứ giác ABDC có hai đường chéo AD và BC cắt nhau tại trung điểm M.",
             "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tứ giác ABDC có một góc vuông tại A nên là hình chữ nhật.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Độ dài đường trung tuyến AM bằng một nửa độ dài cạnh huyền BC.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Khi tam giác ABC vuông cân tại A thì tứ giác ABDC là hình thoi nhưng không phải hình vuông.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -5752,62 +5866,62 @@ const EXAMS_8_C3_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tứ giác ABCD có góc A = 70, B = 80, C = 100 độ. Tính góc D (độ).",
-        "answer": "110",
+        "question": "Cho hình bình hành ABCD có góc A = 103 độ. Tính số đo góc B (độ).",
+        "answer": "77",
         "acceptableAnswers": [
-          "110"
+          "77"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **110**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **77**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình thoi có cạnh bằng 10 cm, một đường chéo 12 cm. Tính độ dài đường chéo kia (cm).",
-        "answer": "16",
+        "question": "Một hình thoi có cạnh bằng 35 cm, chu vi của hình thoi đó là bao nhiêu cm?",
+        "answer": "140",
         "acceptableAnswers": [
-          "16"
+          "140"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **140**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho hình thang cân có đáy nhỏ 4 cm, đáy lớn 10 cm, cạnh bên 5 cm. Tính chiều cao hình thang (cm).",
-        "answer": "4",
+        "question": "Một mảnh vườn hình chữ nhật có chu vi 170 mét, chiều dài hơn chiều rộng 24 mét. Tính diện tích mảnh vườn (m^2).",
+        "answer": "1770",
         "acceptableAnswers": [
-          "4"
+          "1770"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1770**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho hình chữ nhật ABCD có AB = 8 cm, BC = 6 cm. Tính khoảng cách từ đỉnh A đến đường chéo BD (cm).",
-        "answer": "4,8",
+        "level": "Vận dụng",
+        "question": "Một chiếc thang xếp khi mở ra tạo thành hình thang cân có hai cạnh bên dài 2 mét, đáy nhỏ 0,6 mét, đáy lớn 1,8 mét. Tính chiều cao của chiếc thang (làm tròn 1 chữ số thập phân, mét).",
+        "answer": "1.9",
         "acceptableAnswers": [
-          "4,8"
+          "1.9"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4,8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.9**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng hình thang có hai đường chéo bằng nhau là hình thang cân.",
-        "rubric": "Qua đỉnh B kẻ đường thẳng song song với AC cắt đường thẳng DC tại E => ABEC là hình bình hành => BE = AC = BD (0.25đ).\n=> tam giác BDE cân tại B => góc BDC = E = ACD => tam giác ADC = BCD (c-g-c) => AD = BC => ABCD là hình thang cân (0.25đ)."
+        "question": "Cho hình chữ nhật $ABCD$ có $AB = 56$ cm, $BC = 42$ cm. Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Tính độ dài $AC$ và $OA$.",
+        "rubric": "Áp dụng định lí Pythagore trong tam giác vuông ABC: AC^2 = AB^2 + BC^2 = 4900 (0.25đ).\nSuy ra AC = 70 cm (0.25đ).\nVì ABCD là hình chữ nhật nên hai đường chéo cắt nhau tại trung điểm O: OA = AC / 2 (0.25đ).\nSuy ra OA = 35 cm. Kết luận độ dài AC và OA (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D, E$ lần lượt là trung điểm của $AB, AC$. Chứng minh tứ giác $BDEC$ là hình thang cân.",
-        "rubric": "Vì D, E là trung điểm AB, AC nên DE là đường trung bình => DE // BC => BDEC là hình thang (0.25đ).\nMặt khác tam giác ABC cân tại A => góc B = góc C.\nHình thang có hai góc kề một đáy bằng nhau nên BDEC là hình thang cân (0.25đ)."
+        "question": "Người ta thiết kế một bồn hoa hình vuông ở sân trường. Xung quanh bồn hoa, bác bảo vệ dự định rào một hàng rào bằng lưới thép. Biết diện tích bồn hoa là $44$ mét vuông. Tính chu vi bồn hoa để mua số mét lưới thép vừa đủ.",
+        "rubric": "Gọi cạnh bồn hoa hình vuông là a (m, a > 0) (0.25đ).\nTheo bài ra: a^2 = 44 => a = căn(44) (m) (0.25đ).\nChu vi bồn hoa hình vuông: P = 4 . a = 4 . căn(44) (m) (0.25đ).\nKết luận số mét lưới thép cần mua (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho hình bình hành $ABCD$. Kẻ $AH \\perp CD$ và $AK \\perp BC$. Biết $\\widehat{HAK} = 50^\\circ$. Tính các góc của hình bình hành $ABCD$.",
-        "rubric": "Xét tứ giác AHCK có góc H = 90 độ, K = 90 độ => C + HAK = 180 độ (0.25đ).\n=> góc C = 180 - 50 = 130 độ.\nVì ABCD là hình bình hành nên: A = C = 130 độ; B = D = 180 - 130 = 50 độ (0.25đ)."
+        "question": "Cho hình vuông $ABCD$. Trên cạnh $BC$ lấy điểm $E$, trên tia đối của tia $CD$ lấy điểm $F$ sao cho $BE = DF$. Chứng minh rằng tam giác $AEF$ là tam giác vuông cân.",
+        "rubric": "Xét tam giác ABE và ADF có: AB = AD, góc ABE = ADF = 90 độ, BE = DF (0.25đ).\nSuy ra tam giác ABE = tam giác ADF (c.g.c) => AE = AF và góc BAE = DAF (0.25đ).\nTính được góc EAF = góc EAD + góc DAF = góc EAD + góc BAE = 90 độ (0.25đ).\nTam giác AEF có AE = AF và góc vuông nên là tam giác vuông cân tại A (0.25đ)."
       }
     ]
   }

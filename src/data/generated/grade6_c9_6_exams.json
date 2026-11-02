@@ -3,7 +3,7 @@
   "chapterId": "c9_6",
   "chapterTitle": "Chương IX: Dữ liệu và xác suất thực nghiệm",
   "totalExams": 25,
-  "updatedAt": "2026-11-01 19:17:05",
+  "updatedAt": "2026-11-02 07:49:00",
   "exams": {
     "c9_6_bai1_test1": {
       "title": "Toán 6 (KNTT) - Bài 38: Dữ liệu và thu thập dữ liệu - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
@@ -5334,17 +5334,19 @@
       ]
     },
     "c9_6_bai7_test1": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là dữ liệu là số (số liệu)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 01)?",
           "options": [
-            "Điểm kiểm tra môn Toán: 8; 9; 10",
-            "Tên các loài hoa: Mai, Đào, Cúc",
-            "Màu sắc yêu thích: Đỏ, Xanh",
-            "Xếp loại học lực: Tốt, Khá"
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
+            "Tên các môn học",
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5352,12 +5354,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là dữ liệu không phải là số?",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "Tên các tỉnh thành: Hà Nội, Huế, Đà Nẵng",
-            "Chiều cao học sinh: 150 cm, 155 cm",
-            "Số học sinh vắng: 0, 1, 2",
-            "Nhiệt độ trong ngày: 28°C, 32°C"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5365,12 +5367,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Biểu đồ tranh sử dụng hình ảnh hoặc biểu tượng để:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Biểu diễn dữ liệu thống kê",
-            "Vẽ tranh phong cảnh",
-            "Trang trí bài báo",
-            "Tính diện tích"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5378,116 +5380,116 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột thích hợp dùng để:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "So sánh số liệu của các đối tượng khác nhau",
-            "Tính tỉ số góc",
-            "Vẽ đường tròn",
-            "Vẽ sơ đồ tư duy"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Biểu đồ cột kép thích hợp dùng để:",
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc 30 lần thấy mặt 1 chấm xuất hiện 6 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "So sánh từng cặp số liệu của hai nhóm đối tượng cùng loại",
-            "Biểu diễn 1 đại lượng duy nhất",
-            "Thay thế cho bảng chữ cái",
-            "Vẽ hình khối 3D"
+            "0.20",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Tung một đồng xu 1 lần. Có mấy kết quả có thể xảy ra?",
+          "level": "Thông hiểu",
+          "question": "Tung một đồng xu 30 lần thấy có 16 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "2 kết quả (Sấp hoặc Ngửa)",
-            "1 kết quả",
-            "4 kết quả",
-            "6 kết quả"
+            "14",
+            "16",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Nhận biết",
-          "question": "Gieo con xúc xắc 6 mặt 1 lần. Sự kiện nào sau đây là sự kiện chắc chắn?",
+          "level": "Thông hiểu",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Số chấm xuất hiện nhỏ hơn hoặc bằng 6",
-            "Số chấm bằng 6",
-            "Số chấm là số chẵn",
-            "Số chấm bằng 7"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Nhận biết",
-          "question": "Sự kiện nào sau đây là sự kiện không thể xảy ra?",
+          "level": "Thông hiểu",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Gieo con xúc xắc được mặt 7 chấm",
-            "Gieo đồng xu được mặt sấp",
-            "Rút được quân bài màu đỏ",
-            "Bắt gặp ngày mưa"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Gieo đồng xu 20 lần thấy 12 lần mặt sấp. Xác suất thực nghiệm mặt sấp là:",
+          "level": "Vận dụng",
+          "question": "Trong đợt khảo sát 120 người về việc phân loại rác tại nguồn, có 95 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{12}{20} = \\frac{3}{5}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{12}{8}$"
+            "0.79",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Trong biểu đồ tranh, một biểu tượng 🌟 đại diện cho 10 học sinh giỏi. Nếu lớp có 35 học sinh giỏi thì cần vẽ:",
+          "level": "Vận dụng",
+          "question": "Một xạ thủ bắn 60 viên đạn vào bia, trong đó có 48 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "3 biểu tượng nguyên và nửa biểu tượng",
-            "3 biểu tượng",
-            "4 biểu tượng",
-            "2 biểu tượng"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Gieo con xúc xắc 50 lần, thấy có 15 lần xuất hiện mặt số chấm lẻ. Xác suất thực nghiệm xuất hiện mặt chấm chẵn là:",
+          "level": "Vận dụng",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{35}{50} = 70\\%$",
-            "$30\\%$",
-            "$50\\%$",
-            "$15\\%$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Vận dụng",
-          "question": "Tung 2 đồng xu 40 lần, thấy có 10 lần cả 2 đồng xu đều sấp. Xác suất thực nghiệm của sự kiện 'Có ít nhất một đồng ngửa' là:",
+          "level": "Vận dụng cao",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$\\frac{30}{40} = 75\\%$",
-            "$25\\%$",
-            "$50\\%$",
-            "$10\\%$"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5496,69 +5498,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Một bảng khảo sát môn thể thao yêu thích của 40 học sinh lớp 6A:",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 01):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Môn thể thao yêu thích là dữ liệu không phải là số.",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Số lượng học sinh chọn mỗi môn là dữ liệu số liệu.",
+              "level": "Thông hiểu",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu có 18 bạn chọn Bóng đá thì tỉ lệ học sinh thích Bóng đá là 18/40 = 45%.",
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi vẽ biểu đồ cột biểu diễn dữ liệu này, độ cao của các cột tỉ lệ thuận với số lượng học sinh chọn từng môn.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Bạn Minh thực hiện thí nghiệm quay vòng quay 50 lần, mũi tên dừng lại ở ô Vàng 15 lần, ô Đỏ 20 lần và ô Xanh 15 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 50 ly, Thứ Năm: 60 ly (Mã đề 01):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tổng số lần thực hiện phép thử là 50 lần.",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm mũi tên chỉ vào ô Đỏ là 20/50 = 40%.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 200 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm mũi tên chỉ vào ô Vàng bằng xác suất thực nghiệm ô Xanh là 30%.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của biến cố 'Mũi tên không dừng ở ô Đỏ' là 60%.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -5567,80 +5569,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Gieo đồng xu 50 lần thấy 27 lần xuất hiện mặt ngửa. Số lần xuất hiện mặt sấp là bao nhiêu?",
-          "answer": "23",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "23"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **23**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Một xạ thủ bắn 30 phát đạn thì trúng bia 24 phát. Xác suất thực nghiệm bắn trúng bia bằng bao nhiêu (dạng thập phân)?",
-          "answer": "0.8",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 11 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.22",
           "acceptableAnswers": [
-            "0.8",
-            "0,8",
-            "4/5",
-            "80%"
+            "0.22"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.8**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.22**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Trong biểu đồ cột kép so sánh số học sinh nam và nữ của 4 khối: Khối 6 có 120 nam và 130 nữ. Khối 6 có tất cả bao nhiêu học sinh?",
-          "answer": "250",
+          "question": "Một cửa hàng bán được 110 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "54.5",
           "acceptableAnswers": [
-            "250"
+            "54.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **250**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **54.5**."
         },
         {
           "id": 4,
           "level": "Vận dụng",
-          "question": "Tung một con xúc xắc 100 lần, mặt 6 chấm xuất hiện 18 lần. Xác suất thực nghiệm của sự kiện 'Mặt xuất hiện không phải 6 chấm' là bao nhiêu phần trăm (%)?",
-          "answer": "82%",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "82%"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **82%**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Bảng thống kê điểm môn Toán của một nhóm học sinh: Điểm 7: 3 bạn; Điểm 8: 5 bạn; Điểm 9: 4 bạn; Điểm 10: 2 bạn. a) Có tất cả bao nhiêu học sinh? b) Tính tỉ số phần trăm số học sinh đạt điểm 9 trở lên.",
-          "rubric": "a) Tổng số học sinh: 3 + 5 + 4 + 2 = 14 học sinh (0.5đ). b) Số bạn đạt điểm 9 trở lên: 4 + 2 = 6 bạn. Tỉ số phần trăm: (6 / 14) * 100% ≈ 42.86% (0.5đ)."
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 40 lần và ghi lại số lần xuất hiện mặt 2 chấm là 7 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 40 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 7 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (7) / (40) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (40) - (7) = 33 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Bạn Hùng gieo một con xúc xắc 80 lần và ghi lại số lần xuất hiện của các mặt như sau: Mặt 1 chấm: 12 lần; Mặt 2 chấm: 15 lần; Mặt 3 chấm: 13 lần; Mặt 4 chấm: 14 lần; Mặt 5 chấm: 16 lần; Mặt 6 chấm: 10 lần. Tính xác suất thực nghiệm của sự kiện: a) Xuất hiện mặt có số chấm là số nguyên tố; b) Xuất hiện mặt có số chấm lớn hơn 3.",
-          "rubric": "a) Các mặt số nguyên tố là 2, 3, 5. Số lần xuất hiện: 15 + 13 + 16 = 44 lần. Xác suất P = 44 / 80 = 11/20 = 55% (0.5đ). b) Các mặt lớn hơn 3 là 4, 5, 6. Số lần xuất hiện: 14 + 16 + 10 = 40 lần. Xác suất P = 40 / 80 = 1/2 = 50% (0.5đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $60$ lần và có $42$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (42) / (60) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Trong một hộp kín có 3 quả bóng xanh và một số quả bóng đỏ có kích thước như nhau. Lấy ngẫu nhiên 1 quả bóng, ghi màu rồi thả lại vào hộp. Sau 120 lần thử thì có 36 lần lấy được bóng xanh. Ước tính trong hộp có tất cả bao nhiêu quả bóng đỏ?",
-          "rubric": "Xác suất thực nghiệm lấy được bóng xanh là: 36 / 120 = 3/10 = 0.3 (0.5đ). Gọi N là tổng số bóng trong hộp. Ta có: 3 / N ≈ 0.3 suy ra N ≈ 10 quả bóng. Số quả bóng đỏ ước tính: 10 - 3 = 7 quả bóng đỏ (0.5đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     },
     "c9_6_bai7_test2": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 2 (🌿 Mức độ Khá (Đề 2))",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là dữ liệu là số (số liệu)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 02)?",
           "options": [
-            "Điểm kiểm tra môn Toán: 8; 9; 10",
-            "Tên các loài hoa: Mai, Đào, Cúc",
-            "Màu sắc yêu thích: Đỏ, Xanh",
-            "Xếp loại học lực: Tốt, Khá"
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
+            "Tên các môn học",
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5648,12 +5649,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là dữ liệu không phải là số?",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "Tên các tỉnh thành: Hà Nội, Huế, Đà Nẵng",
-            "Chiều cao học sinh: 150 cm, 155 cm",
-            "Số học sinh vắng: 0, 1, 2",
-            "Nhiệt độ trong ngày: 28°C, 32°C"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5661,12 +5662,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Biểu đồ tranh sử dụng hình ảnh hoặc biểu tượng để:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Biểu diễn dữ liệu thống kê",
-            "Vẽ tranh phong cảnh",
-            "Trang trí bài báo",
-            "Tính diện tích"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5674,116 +5675,116 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột thích hợp dùng để:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "So sánh số liệu của các đối tượng khác nhau",
-            "Tính tỉ số góc",
-            "Vẽ đường tròn",
-            "Vẽ sơ đồ tư duy"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Biểu đồ cột kép thích hợp dùng để:",
+          "level": "Thông hiểu",
+          "question": "Gieo một con xúc xắc 40 lần thấy mặt 1 chấm xuất hiện 7 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "So sánh từng cặp số liệu của hai nhóm đối tượng cùng loại",
-            "Biểu diễn 1 đại lượng duy nhất",
-            "Thay thế cho bảng chữ cái",
-            "Vẽ hình khối 3D"
+            "0.17",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Tung một đồng xu 1 lần. Có mấy kết quả có thể xảy ra?",
+          "level": "Thông hiểu",
+          "question": "Tung một đồng xu 30 lần thấy có 17 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "2 kết quả (Sấp hoặc Ngửa)",
-            "1 kết quả",
-            "4 kết quả",
-            "6 kết quả"
+            "13",
+            "17",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Nhận biết",
-          "question": "Gieo con xúc xắc 6 mặt 1 lần. Sự kiện nào sau đây là sự kiện chắc chắn?",
+          "level": "Thông hiểu",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Số chấm xuất hiện nhỏ hơn hoặc bằng 6",
-            "Số chấm bằng 6",
-            "Số chấm là số chẵn",
-            "Số chấm bằng 7"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Nhận biết",
-          "question": "Sự kiện nào sau đây là sự kiện không thể xảy ra?",
+          "level": "Thông hiểu",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Gieo con xúc xắc được mặt 7 chấm",
-            "Gieo đồng xu được mặt sấp",
-            "Rút được quân bài màu đỏ",
-            "Bắt gặp ngày mưa"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Gieo đồng xu 20 lần thấy 12 lần mặt sấp. Xác suất thực nghiệm mặt sấp là:",
+          "level": "Vận dụng",
+          "question": "Trong đợt khảo sát 140 người về việc phân loại rác tại nguồn, có 110 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{12}{20} = \\frac{3}{5}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{12}{8}$"
+            "0.79",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Trong biểu đồ tranh, một biểu tượng 🌟 đại diện cho 10 học sinh giỏi. Nếu lớp có 35 học sinh giỏi thì cần vẽ:",
+          "level": "Vận dụng",
+          "question": "Một xạ thủ bắn 70 viên đạn vào bia, trong đó có 56 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "3 biểu tượng nguyên và nửa biểu tượng",
-            "3 biểu tượng",
-            "4 biểu tượng",
-            "2 biểu tượng"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Gieo con xúc xắc 50 lần, thấy có 15 lần xuất hiện mặt số chấm lẻ. Xác suất thực nghiệm xuất hiện mặt chấm chẵn là:",
+          "level": "Vận dụng",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{35}{50} = 70\\%$",
-            "$30\\%$",
-            "$50\\%$",
-            "$15\\%$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Vận dụng",
-          "question": "Tung 2 đồng xu 40 lần, thấy có 10 lần cả 2 đồng xu đều sấp. Xác suất thực nghiệm của sự kiện 'Có ít nhất một đồng ngửa' là:",
+          "level": "Vận dụng cao",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$\\frac{30}{40} = 75\\%$",
-            "$25\\%$",
-            "$50\\%$",
-            "$10\\%$"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5792,69 +5793,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Một bảng khảo sát môn thể thao yêu thích của 40 học sinh lớp 6A:",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 02):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Môn thể thao yêu thích là dữ liệu không phải là số.",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Số lượng học sinh chọn mỗi môn là dữ liệu số liệu.",
+              "level": "Thông hiểu",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu có 18 bạn chọn Bóng đá thì tỉ lệ học sinh thích Bóng đá là 18/40 = 45%.",
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi vẽ biểu đồ cột biểu diễn dữ liệu này, độ cao của các cột tỉ lệ thuận với số lượng học sinh chọn từng môn.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Bạn Minh thực hiện thí nghiệm quay vòng quay 50 lần, mũi tên dừng lại ở ô Vàng 15 lần, ô Đỏ 20 lần và ô Xanh 15 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 55 ly, Thứ Năm: 60 ly (Mã đề 02):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tổng số lần thực hiện phép thử là 50 lần.",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm mũi tên chỉ vào ô Đỏ là 20/50 = 40%.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 205 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm mũi tên chỉ vào ô Vàng bằng xác suất thực nghiệm ô Xanh là 30%.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của biến cố 'Mũi tên không dừng ở ô Đỏ' là 60%.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -5863,80 +5864,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Gieo đồng xu 50 lần thấy 27 lần xuất hiện mặt ngửa. Số lần xuất hiện mặt sấp là bao nhiêu?",
-          "answer": "23",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "23"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **23**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Một xạ thủ bắn 30 phát đạn thì trúng bia 24 phát. Xác suất thực nghiệm bắn trúng bia bằng bao nhiêu (dạng thập phân)?",
-          "answer": "0.8",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 12 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.24",
           "acceptableAnswers": [
-            "0.8",
-            "0,8",
-            "4/5",
-            "80%"
+            "0.24"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.8**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.24**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Trong biểu đồ cột kép so sánh số học sinh nam và nữ của 4 khối: Khối 6 có 120 nam và 130 nữ. Khối 6 có tất cả bao nhiêu học sinh?",
-          "answer": "250",
+          "question": "Một cửa hàng bán được 120 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "50.0",
           "acceptableAnswers": [
-            "250"
+            "50.0"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **250**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **50.0**."
         },
         {
           "id": 4,
           "level": "Vận dụng",
-          "question": "Tung một con xúc xắc 100 lần, mặt 6 chấm xuất hiện 18 lần. Xác suất thực nghiệm của sự kiện 'Mặt xuất hiện không phải 6 chấm' là bao nhiêu phần trăm (%)?",
-          "answer": "82%",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "82%"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **82%**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Bảng thống kê điểm môn Toán của một nhóm học sinh: Điểm 7: 3 bạn; Điểm 8: 5 bạn; Điểm 9: 4 bạn; Điểm 10: 2 bạn. a) Có tất cả bao nhiêu học sinh? b) Tính tỉ số phần trăm số học sinh đạt điểm 9 trở lên.",
-          "rubric": "a) Tổng số học sinh: 3 + 5 + 4 + 2 = 14 học sinh (0.5đ). b) Số bạn đạt điểm 9 trở lên: 4 + 2 = 6 bạn. Tỉ số phần trăm: (6 / 14) * 100% ≈ 42.86% (0.5đ)."
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 2 chấm là 8 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 50 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 8 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (8) / (50) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (50) - (8) = 42 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Bạn Hùng gieo một con xúc xắc 80 lần và ghi lại số lần xuất hiện của các mặt như sau: Mặt 1 chấm: 12 lần; Mặt 2 chấm: 15 lần; Mặt 3 chấm: 13 lần; Mặt 4 chấm: 14 lần; Mặt 5 chấm: 16 lần; Mặt 6 chấm: 10 lần. Tính xác suất thực nghiệm của sự kiện: a) Xuất hiện mặt có số chấm là số nguyên tố; b) Xuất hiện mặt có số chấm lớn hơn 3.",
-          "rubric": "a) Các mặt số nguyên tố là 2, 3, 5. Số lần xuất hiện: 15 + 13 + 16 = 44 lần. Xác suất P = 44 / 80 = 11/20 = 55% (0.5đ). b) Các mặt lớn hơn 3 là 4, 5, 6. Số lần xuất hiện: 14 + 16 + 10 = 40 lần. Xác suất P = 40 / 80 = 1/2 = 50% (0.5đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $70$ lần và có $49$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (49) / (70) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Trong một hộp kín có 3 quả bóng xanh và một số quả bóng đỏ có kích thước như nhau. Lấy ngẫu nhiên 1 quả bóng, ghi màu rồi thả lại vào hộp. Sau 120 lần thử thì có 36 lần lấy được bóng xanh. Ước tính trong hộp có tất cả bao nhiêu quả bóng đỏ?",
-          "rubric": "Xác suất thực nghiệm lấy được bóng xanh là: 36 / 120 = 3/10 = 0.3 (0.5đ). Gọi N là tổng số bóng trong hộp. Ta có: 3 / N ≈ 0.3 suy ra N ≈ 10 quả bóng. Số quả bóng đỏ ước tính: 10 - 3 = 7 quả bóng đỏ (0.5đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     },
     "c9_6_bai7_test3": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 3 (🚀 Mức độ Khá Giỏi)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là dữ liệu là số (số liệu)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 03)?",
           "options": [
-            "Điểm kiểm tra môn Toán: 8; 9; 10",
-            "Tên các loài hoa: Mai, Đào, Cúc",
-            "Màu sắc yêu thích: Đỏ, Xanh",
-            "Xếp loại học lực: Tốt, Khá"
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
+            "Tên các môn học",
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5944,12 +5944,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là dữ liệu không phải là số?",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "Tên các tỉnh thành: Hà Nội, Huế, Đà Nẵng",
-            "Chiều cao học sinh: 150 cm, 155 cm",
-            "Số học sinh vắng: 0, 1, 2",
-            "Nhiệt độ trong ngày: 28°C, 32°C"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5957,12 +5957,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Biểu đồ tranh sử dụng hình ảnh hoặc biểu tượng để:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Biểu diễn dữ liệu thống kê",
-            "Vẽ tranh phong cảnh",
-            "Trang trí bài báo",
-            "Tính diện tích"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5970,12 +5970,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột thích hợp dùng để:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "So sánh số liệu của các đối tượng khác nhau",
-            "Tính tỉ số góc",
-            "Vẽ đường tròn",
-            "Vẽ sơ đồ tư duy"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5983,12 +5983,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Biểu đồ cột kép thích hợp dùng để:",
+          "question": "Gieo một con xúc xắc 50 lần thấy mặt 1 chấm xuất hiện 8 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "So sánh từng cặp số liệu của hai nhóm đối tượng cùng loại",
-            "Biểu diễn 1 đại lượng duy nhất",
-            "Thay thế cho bảng chữ cái",
-            "Vẽ hình khối 3D"
+            "0.16",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5996,12 +5996,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Tung một đồng xu 1 lần. Có mấy kết quả có thể xảy ra?",
+          "question": "Tung một đồng xu 30 lần thấy có 18 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "2 kết quả (Sấp hoặc Ngửa)",
-            "1 kết quả",
-            "4 kết quả",
-            "6 kết quả"
+            "12",
+            "18",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6009,12 +6009,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Gieo con xúc xắc 6 mặt 1 lần. Sự kiện nào sau đây là sự kiện chắc chắn?",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Số chấm xuất hiện nhỏ hơn hoặc bằng 6",
-            "Số chấm bằng 6",
-            "Số chấm là số chẵn",
-            "Số chấm bằng 7"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6022,12 +6022,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Sự kiện nào sau đây là sự kiện không thể xảy ra?",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Gieo con xúc xắc được mặt 7 chấm",
-            "Gieo đồng xu được mặt sấp",
-            "Rút được quân bài màu đỏ",
-            "Bắt gặp ngày mưa"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6035,12 +6035,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Gieo đồng xu 20 lần thấy 12 lần mặt sấp. Xác suất thực nghiệm mặt sấp là:",
+          "question": "Trong đợt khảo sát 160 người về việc phân loại rác tại nguồn, có 125 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{12}{20} = \\frac{3}{5}$",
-            "$\\frac{8}{20}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{12}{8}$"
+            "0.78",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6048,12 +6048,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Trong biểu đồ tranh, một biểu tượng 🌟 đại diện cho 10 học sinh giỏi. Nếu lớp có 35 học sinh giỏi thì cần vẽ:",
+          "question": "Một xạ thủ bắn 80 viên đạn vào bia, trong đó có 64 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "3 biểu tượng nguyên và nửa biểu tượng",
-            "3 biểu tượng",
-            "4 biểu tượng",
-            "2 biểu tượng"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6061,12 +6061,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Gieo con xúc xắc 50 lần, thấy có 15 lần xuất hiện mặt số chấm lẻ. Xác suất thực nghiệm xuất hiện mặt chấm chẵn là:",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{35}{50} = 70\\%$",
-            "$30\\%$",
-            "$50\\%$",
-            "$15\\%$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6074,12 +6074,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tung 2 đồng xu 40 lần, thấy có 10 lần cả 2 đồng xu đều sấp. Xác suất thực nghiệm của sự kiện 'Có ít nhất một đồng ngửa' là:",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$\\frac{30}{40} = 75\\%$",
-            "$25\\%$",
-            "$50\\%$",
-            "$10\\%$"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6088,69 +6088,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Một bảng khảo sát môn thể thao yêu thích của 40 học sinh lớp 6A:",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 03):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Môn thể thao yêu thích là dữ liệu không phải là số.",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Số lượng học sinh chọn mỗi môn là dữ liệu số liệu.",
+              "level": "Thông hiểu",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu có 18 bạn chọn Bóng đá thì tỉ lệ học sinh thích Bóng đá là 18/40 = 45%.",
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi vẽ biểu đồ cột biểu diễn dữ liệu này, độ cao của các cột tỉ lệ thuận với số lượng học sinh chọn từng môn.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Bạn Minh thực hiện thí nghiệm quay vòng quay 50 lần, mũi tên dừng lại ở ô Vàng 15 lần, ô Đỏ 20 lần và ô Xanh 15 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 60 ly, Thứ Năm: 60 ly (Mã đề 03):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tổng số lần thực hiện phép thử là 50 lần.",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm mũi tên chỉ vào ô Đỏ là 20/50 = 40%.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 210 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm mũi tên chỉ vào ô Vàng bằng xác suất thực nghiệm ô Xanh là 30%.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của biến cố 'Mũi tên không dừng ở ô Đỏ' là 60%.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -6159,82 +6159,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Gieo đồng xu 50 lần thấy 27 lần xuất hiện mặt ngửa. Số lần xuất hiện mặt sấp là bao nhiêu?",
-          "answer": "23",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "23"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **23**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Một xạ thủ bắn 30 phát đạn thì trúng bia 24 phát. Xác suất thực nghiệm bắn trúng bia bằng bao nhiêu (dạng thập phân)?",
-          "answer": "0.8",
+          "level": "Thông hiểu",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 13 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.26",
           "acceptableAnswers": [
-            "0.8",
-            "0,8",
-            "4/5",
-            "80%"
+            "0.26"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.8**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.26**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Trong biểu đồ cột kép so sánh số học sinh nam và nữ của 4 khối: Khối 6 có 120 nam và 130 nữ. Khối 6 có tất cả bao nhiêu học sinh?",
-          "answer": "250",
+          "question": "Một cửa hàng bán được 130 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "46.2",
           "acceptableAnswers": [
-            "250"
+            "46.2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **250**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **46.2**."
         },
         {
           "id": 4,
           "level": "Vận dụng",
-          "question": "Tung một con xúc xắc 100 lần, mặt 6 chấm xuất hiện 18 lần. Xác suất thực nghiệm của sự kiện 'Mặt xuất hiện không phải 6 chấm' là bao nhiêu phần trăm (%)?",
-          "answer": "82%",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "82%"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **82%**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng",
-          "question": "Bảng thống kê điểm môn Toán của một nhóm học sinh: Điểm 7: 3 bạn; Điểm 8: 5 bạn; Điểm 9: 4 bạn; Điểm 10: 2 bạn. a) Có tất cả bao nhiêu học sinh? b) Tính tỉ số phần trăm số học sinh đạt điểm 9 trở lên.",
-          "rubric": "a) Tổng số học sinh: 3 + 5 + 4 + 2 = 14 học sinh (0.5đ). b) Số bạn đạt điểm 9 trở lên: 4 + 2 = 6 bạn. Tỉ số phần trăm: (6 / 14) * 100% ≈ 42.86% (0.5đ)."
+          "level": "Thông hiểu",
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 60 lần và ghi lại số lần xuất hiện mặt 2 chấm là 9 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 60 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 9 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (9) / (60) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (60) - (9) = 51 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Bạn Hùng gieo một con xúc xắc 80 lần và ghi lại số lần xuất hiện của các mặt như sau: Mặt 1 chấm: 12 lần; Mặt 2 chấm: 15 lần; Mặt 3 chấm: 13 lần; Mặt 4 chấm: 14 lần; Mặt 5 chấm: 16 lần; Mặt 6 chấm: 10 lần. Tính xác suất thực nghiệm của sự kiện: a) Xuất hiện mặt có số chấm là số nguyên tố; b) Xuất hiện mặt có số chấm lớn hơn 3.",
-          "rubric": "a) Các mặt số nguyên tố là 2, 3, 5. Số lần xuất hiện: 15 + 13 + 16 = 44 lần. Xác suất P = 44 / 80 = 11/20 = 55% (0.5đ). b) Các mặt lớn hơn 3 là 4, 5, 6. Số lần xuất hiện: 14 + 16 + 10 = 40 lần. Xác suất P = 40 / 80 = 1/2 = 50% (0.5đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $80$ lần và có $56$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (56) / (80) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Trong một hộp kín có 3 quả bóng xanh và một số quả bóng đỏ có kích thước như nhau. Lấy ngẫu nhiên 1 quả bóng, ghi màu rồi thả lại vào hộp. Sau 120 lần thử thì có 36 lần lấy được bóng xanh. Ước tính trong hộp có tất cả bao nhiêu quả bóng đỏ?",
-          "rubric": "Xác suất thực nghiệm lấy được bóng xanh là: 36 / 120 = 3/10 = 0.3 (0.5đ). Gọi N là tổng số bóng trong hộp. Ta có: 3 / N ≈ 0.3 suy ra N ≈ 10 quả bóng. Số quả bóng đỏ ước tính: 10 - 3 = 7 quả bóng đỏ (0.5đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     },
     "c9_6_bai7_test4": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 04)?",
           "options": [
-            "Chiều cao của các bạn học sinh (cm)",
-            "Màu sắc yêu thích",
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
             "Tên các môn học",
-            "Nơi sinh"
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6242,12 +6239,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột kép thường được dùng để:",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "So sánh hai tập dữ liệu cùng loại",
-            "Thể hiện xu hướng liên tục theo thời gian",
-            "Biểu diễn tỉ lệ phần trăm",
-            "Vẽ sơ đồ hình cây"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6255,12 +6252,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Tung một đồng xu một lần. Các kết quả có thể xảy ra là:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Mặt Sấp (S) hoặc mặt Ngửa (N)",
-            "Chỉ có mặt Sấp",
-            "Chỉ có mặt Ngửa",
-            "Mặt 1 chấm đến mặt 6 chấm"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6268,12 +6265,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Tập hợp các kết quả có thể xảy ra là:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "$\\{1; 2; 3; 4; 5; 6\\}$",
-            "$\\{0; 1; 2; 3; 4; 5; 6\\}$",
-            "$\\{S; N\\}$",
-            "$\\{2; 4; 6\\}$"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6281,12 +6278,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Một xạ thủ bắn 50 phát súng, có 42 phát trúng bia. Xác suất thực nghiệm của sự kiện 'bắn trúng bia' là:",
+          "question": "Gieo một con xúc xắc 60 lần thấy mặt 1 chấm xuất hiện 9 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "$\\frac{42}{50} = 0,84$",
-            "$\\frac{8}{50} = 0,16$",
-            "$0,50$",
-            "$0,42$"
+            "0.15",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6294,12 +6291,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 20 lần liên tiếp, có 4 lần xuất hiện mặt 6 chấm. Xác suất thực nghiệm xuất hiện mặt 6 chấm là:",
+          "question": "Tung một đồng xu 30 lần thấy có 19 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "$\\frac{4}{20} = \\frac{1}{5}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{16}{20}$",
-            "$\\frac{1}{4}$"
+            "11",
+            "19",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6307,12 +6304,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Để biểu diễn số lượng học sinh Giỏi các khối 6, 7, 8, 9 của trường, loại biểu đồ nào sau đây là thích hợp nhất?",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Biểu đồ cột đơn",
-            "Biểu đồ hình quạt tròn",
-            "Biểu đồ tranh không số liệu",
-            "Biểu đồ đoạn thẳng"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6320,12 +6317,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hộp có 3 quả bóng: Xanh, Đỏ, Vàng. Lấy ngẫu nhiên 1 quả, ghi màu rồi trả lại. Sự kiện nào sau đây KHÔNG THỂ xảy ra?",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Lấy được quả bóng màu Tím",
-            "Lấy được quả bóng màu Xanh",
-            "Lấy được quả bóng màu Đỏ",
-            "Lấy được quả bóng màu Vàng"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6333,12 +6330,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tung một đồng xu 60 lần, thấy có 24 lần xuất hiện mặt Sấp. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
+          "question": "Trong đợt khảo sát 180 người về việc phân loại rác tại nguồn, có 140 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{36}{60} = \\frac{3}{5}$",
-            "$\\frac{24}{60} = \\frac{2}{5}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{1}{3}$"
+            "0.78",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6346,12 +6343,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi có 5 viên bi gồm 2 bi xanh và 3 bi đỏ. Lấy ngẫu nhiên lần lượt từng viên bi không hoàn lại. Có bao nhiêu kết quả có thể xảy ra khi lấy 2 viên bi?",
+          "question": "Một xạ thủ bắn 90 viên đạn vào bia, trong đó có 72 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "$4$ kết quả: (X, X), (X, Đ), (Đ, X), (Đ, Đ)",
-            "$2$ kết quả",
-            "$3$ kết quả",
-            "$5$ kết quả"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6359,12 +6356,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Bảng thống kê điểm kiểm tra Toán của lớp 6B: Điểm 8 có 12 em, Điểm 9 có 8 em, Điểm 10 có 5 em, còn lại là dưới 8 gồm 15 em. Xác suất thực nghiệm chọn ngẫu nhiên một học sinh đạt điểm 9 hoặc 10 là:",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{13}{40}$",
-            "$\\frac{8}{40}$",
-            "$\\frac{5}{40}$",
-            "$\\frac{25}{40}$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6372,12 +6369,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Số kết quả có thể để tổng số chấm trên hai con xúc xắc bằng 7 là:",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$6$ kết quả",
-            "$4$ kết quả",
-            "$8$ kết quả",
-            "$5$ kết quả"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6386,33 +6383,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về xác suất thực nghiệm và thu thập dữ liệu (Mã đề 4):",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm của một sự kiện luôn nằm trong khoảng từ 0 đến 1.",
+              "level": "Nhận biết",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi số lần thực hiện thí nghiệm càng lớn thì xác suất thực nghiệm càng gần với xác suất lý thuyết.",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu tung đồng xu 10 lần mà có 6 lần mặt Sấp thì lần thứ 11 chắc chắn là mặt Ngửa.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của một sự kiện có thể lớn hơn 1 nếu sự kiện đó xảy ra nhiều lần.",
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -6420,35 +6417,35 @@
         },
         {
           "id": 2,
-          "stem": "Bạn Nam gieo một con xúc xắc 100 lần và ghi lại số lần xuất hiện của các mặt: Mặt 1 chấm: 15 lần; Mặt 2: 18 lần; Mặt 3: 14 lần; Mặt 4: 16 lần; Mặt 5: 20 lần; Mặt 6: 17 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 65 ly, Thứ Năm: 60 ly (Mã đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mặt có số lần xuất hiện nhiều nhất là mặt 5 chấm.",
+              "level": "Nhận biết",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm xuất hiện mặt 1 chấm là 0,15.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 215 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Số lần xuất hiện mặt có số chấm là số chẵn là: 18 + 16 + 17 = 51 lần.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm xuất hiện mặt có số chấm lớn hơn 4 là 0,37.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -6457,79 +6454,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tung đồng xu 40 lần, có 18 lần xuất hiện mặt ngửa. Tính xác suất thực nghiệm xuất hiện mặt sấp (dưới dạng số thập phân).",
-          "answer": "0,55",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "0,55"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 50 lần, có 12 lần xuất hiện mặt số chẵn. Tính xác suất thực nghiệm xuất hiện mặt số lẻ (dạng số thập phân).",
-          "answer": "0,76",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 14 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.28",
           "acceptableAnswers": [
-            "0,76"
+            "0.28"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,76**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.28**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một xạ thủ bắn 80 viên đạn, xác suất thực nghiệm bắn trượt là 0,15. Tính số phát bắn trúng của xạ thủ đó.",
-          "answer": "68",
+          "question": "Một cửa hàng bán được 140 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "42.9",
           "acceptableAnswers": [
-            "68"
+            "42.9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **68**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **42.9**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Trong hộp có 10 tấm thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một tấm thẻ. Có bao nhiêu kết quả thuận lợi cho sự kiện 'số ghi trên thẻ là số nguyên tố'?",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "4"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Lớp 6A có 36 học sinh. Bạn lớp trưởng tiến hành khảo sát môn thể thao yêu thích: Bóng đá: 18 em, Cầu lông: 9 em, Bơi lội: 6 em, Bóng bàn: 3 em. Tính xác suất thực nghiệm một học sinh yêu thích môn Bóng đá.",
-          "rubric": "Xác suất thực nghiệm chọn học sinh thích Bóng đá: 18 / 36 = 1/2 = 0,5 (0.5đ)."
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 70 lần và ghi lại số lần xuất hiện mặt 2 chấm là 10 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 70 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 10 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (10) / (70) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (70) - (10) = 60 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một nhà máy sản xuất bóng đèn kiểm tra ngẫu nhiên 500 bóng đèn thì thấy có 15 bóng bị lỗi. a) Tính xác suất thực nghiệm bóng đèn bị lỗi. b) Nếu nhà máy sản xuất 20 000 bóng đèn thì ước tính có khoảng bao nhiêu bóng đèn đạt chuẩn?",
-          "rubric": "a) Xác suất thực nghiệm lỗi: 15 / 500 = 0,03 (0.25đ).\nb) Tỉ lệ bóng đạt chuẩn: 1 - 0,03 = 0,97. Số bóng đạt chuẩn ước tính: 20 000 x 0,97 = 19 400 (bóng) (0.25đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $90$ lần và có $63$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (63) / (90) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt một lần. Liệt kê tất cả các kết quả để tổng số chấm trên hai con xúc xắc là một số nguyên tố.",
-          "rubric": "Các tổng có thể là số nguyên tố: 2, 3, 5, 7, 11 (0.25đ).\nTổng = 2: (1,1) [1 cách].\nTổng = 3: (1,2), (2,1) [2 cách].\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 cách].\nTổng = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) [6 cách].\nTổng = 11: (5,6), (6,5) [2 cách].\nTổng cộng có: 1 + 2 + 4 + 6 + 2 = 15 kết quả thuận lợi (0.25đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     },
     "c9_6_bai7_test5": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất - Bài kiểm tra số 5 (💡 Thống kê & Xác suất thực nghiệm)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 05)?",
           "options": [
-            "Chiều cao của các bạn học sinh (cm)",
-            "Màu sắc yêu thích",
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
             "Tên các môn học",
-            "Nơi sinh"
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6537,12 +6534,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột kép thường được dùng để:",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "So sánh hai tập dữ liệu cùng loại",
-            "Thể hiện xu hướng liên tục theo thời gian",
-            "Biểu diễn tỉ lệ phần trăm",
-            "Vẽ sơ đồ hình cây"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6550,12 +6547,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Tung một đồng xu một lần. Các kết quả có thể xảy ra là:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Mặt Sấp (S) hoặc mặt Ngửa (N)",
-            "Chỉ có mặt Sấp",
-            "Chỉ có mặt Ngửa",
-            "Mặt 1 chấm đến mặt 6 chấm"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6563,12 +6560,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Tập hợp các kết quả có thể xảy ra là:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "$\\{1; 2; 3; 4; 5; 6\\}$",
-            "$\\{0; 1; 2; 3; 4; 5; 6\\}$",
-            "$\\{S; N\\}$",
-            "$\\{2; 4; 6\\}$"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6576,12 +6573,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Một xạ thủ bắn 50 phát súng, có 42 phát trúng bia. Xác suất thực nghiệm của sự kiện 'bắn trúng bia' là:",
+          "question": "Gieo một con xúc xắc 70 lần thấy mặt 1 chấm xuất hiện 10 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "$\\frac{42}{50} = 0,84$",
-            "$\\frac{8}{50} = 0,16$",
-            "$0,50$",
-            "$0,42$"
+            "0.14",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6589,12 +6586,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 20 lần liên tiếp, có 4 lần xuất hiện mặt 6 chấm. Xác suất thực nghiệm xuất hiện mặt 6 chấm là:",
+          "question": "Tung một đồng xu 30 lần thấy có 20 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "$\\frac{4}{20} = \\frac{1}{5}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{16}{20}$",
-            "$\\frac{1}{4}$"
+            "10",
+            "20",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6602,12 +6599,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Để biểu diễn số lượng học sinh Giỏi các khối 6, 7, 8, 9 của trường, loại biểu đồ nào sau đây là thích hợp nhất?",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Biểu đồ cột đơn",
-            "Biểu đồ hình quạt tròn",
-            "Biểu đồ tranh không số liệu",
-            "Biểu đồ đoạn thẳng"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6615,12 +6612,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hộp có 3 quả bóng: Xanh, Đỏ, Vàng. Lấy ngẫu nhiên 1 quả, ghi màu rồi trả lại. Sự kiện nào sau đây KHÔNG THỂ xảy ra?",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Lấy được quả bóng màu Tím",
-            "Lấy được quả bóng màu Xanh",
-            "Lấy được quả bóng màu Đỏ",
-            "Lấy được quả bóng màu Vàng"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6628,12 +6625,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tung một đồng xu 60 lần, thấy có 24 lần xuất hiện mặt Sấp. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
+          "question": "Trong đợt khảo sát 200 người về việc phân loại rác tại nguồn, có 155 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{36}{60} = \\frac{3}{5}$",
-            "$\\frac{24}{60} = \\frac{2}{5}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{1}{3}$"
+            "0.78",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6641,12 +6638,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi có 5 viên bi gồm 2 bi xanh và 3 bi đỏ. Lấy ngẫu nhiên lần lượt từng viên bi không hoàn lại. Có bao nhiêu kết quả có thể xảy ra khi lấy 2 viên bi?",
+          "question": "Một xạ thủ bắn 100 viên đạn vào bia, trong đó có 80 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "$4$ kết quả: (X, X), (X, Đ), (Đ, X), (Đ, Đ)",
-            "$2$ kết quả",
-            "$3$ kết quả",
-            "$5$ kết quả"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6654,12 +6651,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Bảng thống kê điểm kiểm tra Toán của lớp 6B: Điểm 8 có 12 em, Điểm 9 có 8 em, Điểm 10 có 5 em, còn lại là dưới 8 gồm 15 em. Xác suất thực nghiệm chọn ngẫu nhiên một học sinh đạt điểm 9 hoặc 10 là:",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{13}{40}$",
-            "$\\frac{8}{40}$",
-            "$\\frac{5}{40}$",
-            "$\\frac{25}{40}$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6667,12 +6664,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Số kết quả có thể để tổng số chấm trên hai con xúc xắc bằng 7 là:",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$6$ kết quả",
-            "$4$ kết quả",
-            "$8$ kết quả",
-            "$5$ kết quả"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6681,33 +6678,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về xác suất thực nghiệm và thu thập dữ liệu (Mã đề 5):",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm của một sự kiện luôn nằm trong khoảng từ 0 đến 1.",
+              "level": "Nhận biết",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi số lần thực hiện thí nghiệm càng lớn thì xác suất thực nghiệm càng gần với xác suất lý thuyết.",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu tung đồng xu 10 lần mà có 6 lần mặt Sấp thì lần thứ 11 chắc chắn là mặt Ngửa.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của một sự kiện có thể lớn hơn 1 nếu sự kiện đó xảy ra nhiều lần.",
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -6715,35 +6712,35 @@
         },
         {
           "id": 2,
-          "stem": "Bạn Nam gieo một con xúc xắc 100 lần và ghi lại số lần xuất hiện của các mặt: Mặt 1 chấm: 15 lần; Mặt 2: 18 lần; Mặt 3: 14 lần; Mặt 4: 16 lần; Mặt 5: 20 lần; Mặt 6: 17 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 70 ly, Thứ Năm: 60 ly (Mã đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mặt có số lần xuất hiện nhiều nhất là mặt 5 chấm.",
+              "level": "Nhận biết",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm xuất hiện mặt 1 chấm là 0,15.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 220 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Số lần xuất hiện mặt có số chấm là số chẵn là: 18 + 16 + 17 = 51 lần.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm xuất hiện mặt có số chấm lớn hơn 4 là 0,37.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -6752,79 +6749,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tung đồng xu 40 lần, có 18 lần xuất hiện mặt ngửa. Tính xác suất thực nghiệm xuất hiện mặt sấp (dưới dạng số thập phân).",
-          "answer": "0,55",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "0,55"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 50 lần, có 12 lần xuất hiện mặt số chẵn. Tính xác suất thực nghiệm xuất hiện mặt số lẻ (dạng số thập phân).",
-          "answer": "0,76",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 15 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.30",
           "acceptableAnswers": [
-            "0,76"
+            "0.30"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,76**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.30**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một xạ thủ bắn 80 viên đạn, xác suất thực nghiệm bắn trượt là 0,15. Tính số phát bắn trúng của xạ thủ đó.",
-          "answer": "68",
+          "question": "Một cửa hàng bán được 150 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "40.0",
           "acceptableAnswers": [
-            "68"
+            "40.0"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **68**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40.0**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Trong hộp có 10 tấm thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một tấm thẻ. Có bao nhiêu kết quả thuận lợi cho sự kiện 'số ghi trên thẻ là số nguyên tố'?",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "4"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Lớp 6A có 36 học sinh. Bạn lớp trưởng tiến hành khảo sát môn thể thao yêu thích: Bóng đá: 18 em, Cầu lông: 9 em, Bơi lội: 6 em, Bóng bàn: 3 em. Tính xác suất thực nghiệm một học sinh yêu thích môn Bóng đá.",
-          "rubric": "Xác suất thực nghiệm chọn học sinh thích Bóng đá: 18 / 36 = 1/2 = 0,5 (0.5đ)."
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 80 lần và ghi lại số lần xuất hiện mặt 2 chấm là 11 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 80 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 11 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (11) / (80) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (80) - (11) = 69 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một nhà máy sản xuất bóng đèn kiểm tra ngẫu nhiên 500 bóng đèn thì thấy có 15 bóng bị lỗi. a) Tính xác suất thực nghiệm bóng đèn bị lỗi. b) Nếu nhà máy sản xuất 20 000 bóng đèn thì ước tính có khoảng bao nhiêu bóng đèn đạt chuẩn?",
-          "rubric": "a) Xác suất thực nghiệm lỗi: 15 / 500 = 0,03 (0.25đ).\nb) Tỉ lệ bóng đạt chuẩn: 1 - 0,03 = 0,97. Số bóng đạt chuẩn ước tính: 20 000 x 0,97 = 19 400 (bóng) (0.25đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $100$ lần và có $70$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (70) / (100) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt một lần. Liệt kê tất cả các kết quả để tổng số chấm trên hai con xúc xắc là một số nguyên tố.",
-          "rubric": "Các tổng có thể là số nguyên tố: 2, 3, 5, 7, 11 (0.25đ).\nTổng = 2: (1,1) [1 cách].\nTổng = 3: (1,2), (2,1) [2 cách].\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 cách].\nTổng = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) [6 cách].\nTổng = 11: (5,6), (6,5) [2 cách].\nTổng cộng có: 1 + 2 + 4 + 6 + 2 = 15 kết quả thuận lợi (0.25đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     },
     "c9_6_bai7_test6": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 06)?",
           "options": [
-            "Chiều cao của các bạn học sinh (cm)",
-            "Màu sắc yêu thích",
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
             "Tên các môn học",
-            "Nơi sinh"
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6832,12 +6829,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột kép thường được dùng để:",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "So sánh hai tập dữ liệu cùng loại",
-            "Thể hiện xu hướng liên tục theo thời gian",
-            "Biểu diễn tỉ lệ phần trăm",
-            "Vẽ sơ đồ hình cây"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6845,12 +6842,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Tung một đồng xu một lần. Các kết quả có thể xảy ra là:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Mặt Sấp (S) hoặc mặt Ngửa (N)",
-            "Chỉ có mặt Sấp",
-            "Chỉ có mặt Ngửa",
-            "Mặt 1 chấm đến mặt 6 chấm"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6858,12 +6855,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Tập hợp các kết quả có thể xảy ra là:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "$\\{1; 2; 3; 4; 5; 6\\}$",
-            "$\\{0; 1; 2; 3; 4; 5; 6\\}$",
-            "$\\{S; N\\}$",
-            "$\\{2; 4; 6\\}$"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6871,12 +6868,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Một xạ thủ bắn 50 phát súng, có 42 phát trúng bia. Xác suất thực nghiệm của sự kiện 'bắn trúng bia' là:",
+          "question": "Gieo một con xúc xắc 80 lần thấy mặt 1 chấm xuất hiện 11 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "$\\frac{42}{50} = 0,84$",
-            "$\\frac{8}{50} = 0,16$",
-            "$0,50$",
-            "$0,42$"
+            "0.14",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6884,12 +6881,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 20 lần liên tiếp, có 4 lần xuất hiện mặt 6 chấm. Xác suất thực nghiệm xuất hiện mặt 6 chấm là:",
+          "question": "Tung một đồng xu 30 lần thấy có 21 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "$\\frac{4}{20} = \\frac{1}{5}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{16}{20}$",
-            "$\\frac{1}{4}$"
+            "9",
+            "21",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6897,12 +6894,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Để biểu diễn số lượng học sinh Giỏi các khối 6, 7, 8, 9 của trường, loại biểu đồ nào sau đây là thích hợp nhất?",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Biểu đồ cột đơn",
-            "Biểu đồ hình quạt tròn",
-            "Biểu đồ tranh không số liệu",
-            "Biểu đồ đoạn thẳng"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6910,12 +6907,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hộp có 3 quả bóng: Xanh, Đỏ, Vàng. Lấy ngẫu nhiên 1 quả, ghi màu rồi trả lại. Sự kiện nào sau đây KHÔNG THỂ xảy ra?",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Lấy được quả bóng màu Tím",
-            "Lấy được quả bóng màu Xanh",
-            "Lấy được quả bóng màu Đỏ",
-            "Lấy được quả bóng màu Vàng"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6923,12 +6920,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tung một đồng xu 60 lần, thấy có 24 lần xuất hiện mặt Sấp. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
+          "question": "Trong đợt khảo sát 220 người về việc phân loại rác tại nguồn, có 170 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{36}{60} = \\frac{3}{5}$",
-            "$\\frac{24}{60} = \\frac{2}{5}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{1}{3}$"
+            "0.77",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6936,12 +6933,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi có 5 viên bi gồm 2 bi xanh và 3 bi đỏ. Lấy ngẫu nhiên lần lượt từng viên bi không hoàn lại. Có bao nhiêu kết quả có thể xảy ra khi lấy 2 viên bi?",
+          "question": "Một xạ thủ bắn 110 viên đạn vào bia, trong đó có 88 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "$4$ kết quả: (X, X), (X, Đ), (Đ, X), (Đ, Đ)",
-            "$2$ kết quả",
-            "$3$ kết quả",
-            "$5$ kết quả"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6949,12 +6946,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Bảng thống kê điểm kiểm tra Toán của lớp 6B: Điểm 8 có 12 em, Điểm 9 có 8 em, Điểm 10 có 5 em, còn lại là dưới 8 gồm 15 em. Xác suất thực nghiệm chọn ngẫu nhiên một học sinh đạt điểm 9 hoặc 10 là:",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{13}{40}$",
-            "$\\frac{8}{40}$",
-            "$\\frac{5}{40}$",
-            "$\\frac{25}{40}$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6962,12 +6959,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Số kết quả có thể để tổng số chấm trên hai con xúc xắc bằng 7 là:",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$6$ kết quả",
-            "$4$ kết quả",
-            "$8$ kết quả",
-            "$5$ kết quả"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6976,33 +6973,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về xác suất thực nghiệm và thu thập dữ liệu (Mã đề 6):",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm của một sự kiện luôn nằm trong khoảng từ 0 đến 1.",
+              "level": "Nhận biết",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi số lần thực hiện thí nghiệm càng lớn thì xác suất thực nghiệm càng gần với xác suất lý thuyết.",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu tung đồng xu 10 lần mà có 6 lần mặt Sấp thì lần thứ 11 chắc chắn là mặt Ngửa.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của một sự kiện có thể lớn hơn 1 nếu sự kiện đó xảy ra nhiều lần.",
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -7010,35 +7007,35 @@
         },
         {
           "id": 2,
-          "stem": "Bạn Nam gieo một con xúc xắc 100 lần và ghi lại số lần xuất hiện của các mặt: Mặt 1 chấm: 15 lần; Mặt 2: 18 lần; Mặt 3: 14 lần; Mặt 4: 16 lần; Mặt 5: 20 lần; Mặt 6: 17 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 75 ly, Thứ Năm: 60 ly (Mã đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mặt có số lần xuất hiện nhiều nhất là mặt 5 chấm.",
+              "level": "Nhận biết",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm xuất hiện mặt 1 chấm là 0,15.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 225 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Số lần xuất hiện mặt có số chấm là số chẵn là: 18 + 16 + 17 = 51 lần.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm xuất hiện mặt có số chấm lớn hơn 4 là 0,37.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -7047,79 +7044,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tung đồng xu 40 lần, có 18 lần xuất hiện mặt ngửa. Tính xác suất thực nghiệm xuất hiện mặt sấp (dưới dạng số thập phân).",
-          "answer": "0,55",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "0,55"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 50 lần, có 12 lần xuất hiện mặt số chẵn. Tính xác suất thực nghiệm xuất hiện mặt số lẻ (dạng số thập phân).",
-          "answer": "0,76",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 16 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.32",
           "acceptableAnswers": [
-            "0,76"
+            "0.32"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,76**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.32**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một xạ thủ bắn 80 viên đạn, xác suất thực nghiệm bắn trượt là 0,15. Tính số phát bắn trúng của xạ thủ đó.",
-          "answer": "68",
+          "question": "Một cửa hàng bán được 160 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "37.5",
           "acceptableAnswers": [
-            "68"
+            "37.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **68**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **37.5**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Trong hộp có 10 tấm thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một tấm thẻ. Có bao nhiêu kết quả thuận lợi cho sự kiện 'số ghi trên thẻ là số nguyên tố'?",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "4"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Lớp 6A có 36 học sinh. Bạn lớp trưởng tiến hành khảo sát môn thể thao yêu thích: Bóng đá: 18 em, Cầu lông: 9 em, Bơi lội: 6 em, Bóng bàn: 3 em. Tính xác suất thực nghiệm một học sinh yêu thích môn Bóng đá.",
-          "rubric": "Xác suất thực nghiệm chọn học sinh thích Bóng đá: 18 / 36 = 1/2 = 0,5 (0.5đ)."
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 90 lần và ghi lại số lần xuất hiện mặt 2 chấm là 12 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 90 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 12 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (12) / (90) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (90) - (12) = 78 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một nhà máy sản xuất bóng đèn kiểm tra ngẫu nhiên 500 bóng đèn thì thấy có 15 bóng bị lỗi. a) Tính xác suất thực nghiệm bóng đèn bị lỗi. b) Nếu nhà máy sản xuất 20 000 bóng đèn thì ước tính có khoảng bao nhiêu bóng đèn đạt chuẩn?",
-          "rubric": "a) Xác suất thực nghiệm lỗi: 15 / 500 = 0,03 (0.25đ).\nb) Tỉ lệ bóng đạt chuẩn: 1 - 0,03 = 0,97. Số bóng đạt chuẩn ước tính: 20 000 x 0,97 = 19 400 (bóng) (0.25đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $110$ lần và có $77$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (77) / (110) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt một lần. Liệt kê tất cả các kết quả để tổng số chấm trên hai con xúc xắc là một số nguyên tố.",
-          "rubric": "Các tổng có thể là số nguyên tố: 2, 3, 5, 7, 11 (0.25đ).\nTổng = 2: (1,1) [1 cách].\nTổng = 3: (1,2), (2,1) [2 cách].\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 cách].\nTổng = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) [6 cách].\nTổng = 11: (5,6), (6,5) [2 cách].\nTổng cộng có: 1 + 2 + 4 + 6 + 2 = 15 kết quả thuận lợi (0.25đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     },
     "c9_6_bai7_test7": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IX: Dữ liệu và xác suất thực nghiệm - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng)?",
+          "question": "Dữ liệu nào sau đây là số liệu (dữ liệu định lượng) (Đề 07)?",
           "options": [
-            "Chiều cao của các bạn học sinh (cm)",
-            "Màu sắc yêu thích",
+            "Số học sinh giỏi của lớp",
+            "Màu áo yêu thích",
             "Tên các môn học",
-            "Nơi sinh"
+            "Nơi cư trú"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7127,12 +7124,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Biểu đồ cột kép thường được dùng để:",
+          "question": "Để biểu diễn số lượng học sinh của từng tổ trong lớp, biểu đồ phù hợp nhất là:",
           "options": [
-            "So sánh hai tập dữ liệu cùng loại",
-            "Thể hiện xu hướng liên tục theo thời gian",
-            "Biểu diễn tỉ lệ phần trăm",
-            "Vẽ sơ đồ hình cây"
+            "Biểu đồ cột",
+            "Biểu đồ tranh",
+            "Biểu đồ đoạn thẳng",
+            "Biểu đồ quạt tròn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7140,12 +7137,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Tung một đồng xu một lần. Các kết quả có thể xảy ra là:",
+          "question": "Tung một đồng xu 1 lần, kết quả có thể xảy ra là:",
           "options": [
-            "Mặt Sấp (S) hoặc mặt Ngửa (N)",
-            "Chỉ có mặt Sấp",
-            "Chỉ có mặt Ngửa",
-            "Mặt 1 chấm đến mặt 6 chấm"
+            "Xuất hiện mặt Sấp hoặc mặt Ngửa",
+            "Chỉ xuất hiện mặt Sấp",
+            "Chỉ xuất hiện mặt Ngửa",
+            "Xuất hiện cả hai mặt"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7153,12 +7150,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Gieo một con xúc xắc 6 mặt một lần. Tập hợp các kết quả có thể xảy ra là:",
+          "question": "Xác suất thực nghiệm của một sự kiện bằng:",
           "options": [
-            "$\\{1; 2; 3; 4; 5; 6\\}$",
-            "$\\{0; 1; 2; 3; 4; 5; 6\\}$",
-            "$\\{S; N\\}$",
-            "$\\{2; 4; 6\\}$"
+            "Số lần sự kiện xảy ra chia cho tổng số lần thực hiện phép thử",
+            "Tổng số lần thực hiện",
+            "Số lần xảy ra",
+            "Hiệu hai số lần"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7166,12 +7163,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Một xạ thủ bắn 50 phát súng, có 42 phát trúng bia. Xác suất thực nghiệm của sự kiện 'bắn trúng bia' là:",
+          "question": "Gieo một con xúc xắc 90 lần thấy mặt 1 chấm xuất hiện 12 lần. Xác suất thực nghiệm xuất hiện mặt 1 chấm là:",
           "options": [
-            "$\\frac{42}{50} = 0,84$",
-            "$\\frac{8}{50} = 0,16$",
-            "$0,50$",
-            "$0,42$"
+            "0.13",
+            "0,5",
+            "0,2",
+            "0,1"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7179,12 +7176,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Gieo một con xúc xắc 20 lần liên tiếp, có 4 lần xuất hiện mặt 6 chấm. Xác suất thực nghiệm xuất hiện mặt 6 chấm là:",
+          "question": "Tung một đồng xu 30 lần thấy có 22 lần xuất hiện mặt Ngửa. Số lần xuất hiện mặt Sấp là:",
           "options": [
-            "$\\frac{4}{20} = \\frac{1}{5}$",
-            "$\\frac{1}{6}$",
-            "$\\frac{16}{20}$",
-            "$\\frac{1}{4}$"
+            "8",
+            "22",
+            "15",
+            "30"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7192,12 +7189,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Để biểu diễn số lượng học sinh Giỏi các khối 6, 7, 8, 9 của trường, loại biểu đồ nào sau đây là thích hợp nhất?",
+          "question": "Bảng thống kê điểm kiểm tra Toán của tổ 1: Điểm 8 có 4 bạn, Điểm 9 có 3 bạn, Điểm 10 có 2 bạn. Sĩ số tổ 1 là:",
           "options": [
-            "Biểu đồ cột đơn",
-            "Biểu đồ hình quạt tròn",
-            "Biểu đồ tranh không số liệu",
-            "Biểu đồ đoạn thẳng"
+            "9 bạn",
+            "8 bạn",
+            "10 bạn",
+            "7 bạn"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7205,12 +7202,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hộp có 3 quả bóng: Xanh, Đỏ, Vàng. Lấy ngẫu nhiên 1 quả, ghi màu rồi trả lại. Sự kiện nào sau đây KHÔNG THỂ xảy ra?",
+          "question": "Dữ liệu nào sau đây là KHÔNG hợp lí khi thống kê số ngày đi học muộn trong một tuần của học sinh?",
           "options": [
-            "Lấy được quả bóng màu Tím",
-            "Lấy được quả bóng màu Xanh",
-            "Lấy được quả bóng màu Đỏ",
-            "Lấy được quả bóng màu Vàng"
+            "8 ngày",
+            "0 ngày",
+            "1 ngày",
+            "2 ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7218,12 +7215,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Tung một đồng xu 60 lần, thấy có 24 lần xuất hiện mặt Sấp. Xác suất thực nghiệm xuất hiện mặt Ngửa là:",
+          "question": "Trong đợt khảo sát 240 người về việc phân loại rác tại nguồn, có 185 người thực hiện thường xuyên. Xác suất thực nghiệm một người được chọn ngẫu nhiên phân loại rác thường xuyên là:",
           "options": [
-            "$\\frac{36}{60} = \\frac{3}{5}$",
-            "$\\frac{24}{60} = \\frac{2}{5}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{1}{3}$"
+            "0.77",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7231,12 +7228,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Một túi có 5 viên bi gồm 2 bi xanh và 3 bi đỏ. Lấy ngẫu nhiên lần lượt từng viên bi không hoàn lại. Có bao nhiêu kết quả có thể xảy ra khi lấy 2 viên bi?",
+          "question": "Một xạ thủ bắn 120 viên đạn vào bia, trong đó có 96 viên trúng vòng 10 điểm. Xác suất thực nghiệm xạ thủ bắn trúng vòng 10 điểm là:",
           "options": [
-            "$4$ kết quả: (X, X), (X, Đ), (Đ, X), (Đ, Đ)",
-            "$2$ kết quả",
-            "$3$ kết quả",
-            "$5$ kết quả"
+            "0.80",
+            "0,8",
+            "0,9",
+            "0,7"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7244,12 +7241,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Bảng thống kê điểm kiểm tra Toán của lớp 6B: Điểm 8 có 12 em, Điểm 9 có 8 em, Điểm 10 có 5 em, còn lại là dưới 8 gồm 15 em. Xác suất thực nghiệm chọn ngẫu nhiên một học sinh đạt điểm 9 hoặc 10 là:",
+          "question": "Trong hộp có 1 bi đỏ và 1 bi xanh. Bạn An lấy 1 viên rồi trả lại, lặp lại 100 lần thấy có 52 lần lấy được bi đỏ. Xác suất thực nghiệm lấy được bi xanh là:",
           "options": [
-            "$\\frac{13}{40}$",
-            "$\\frac{8}{40}$",
-            "$\\frac{5}{40}$",
-            "$\\frac{25}{40}$"
+            "0,48",
+            "0,52",
+            "0,50",
+            "0,40"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7257,12 +7254,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc cân đối một lần. Số kết quả có thể để tổng số chấm trên hai con xúc xắc bằng 7 là:",
+          "question": "Một chiếc hộp kín có một số viên bi xanh và đỏ. Thực hiện 200 lần lấy ngẫu nhiên 1 viên bi rồi trả lại, thấy có 80 lần được bi xanh. Ước lượng tỉ lệ phần trăm số bi đỏ trong hộp là khoảng:",
           "options": [
-            "$6$ kết quả",
-            "$4$ kết quả",
-            "$8$ kết quả",
-            "$5$ kết quả"
+            "60%",
+            "40%",
+            "50%",
+            "70%"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7271,33 +7268,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về xác suất thực nghiệm và thu thập dữ liệu (Mã đề 7):",
+          "stem": "Xét tính đúng sai về dữ liệu và xác suất thực nghiệm (Đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm của một sự kiện luôn nằm trong khoảng từ 0 đến 1.",
+              "level": "Nhận biết",
+              "text": "Thu thập dữ liệu có thể thực hiện bằng quan sát, đo đạc hoặc lập phiếu hỏi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi số lần thực hiện thí nghiệm càng lớn thì xác suất thực nghiệm càng gần với xác suất lý thuyết.",
+              "text": "Khi số lần thực nghiệm càng nhiều thì xác suất thực nghiệm càng phản ánh khách quan hơn.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Nếu tung đồng xu 10 lần mà có 6 lần mặt Sấp thì lần thứ 11 chắc chắn là mặt Ngửa.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+              "text": "Xác suất thực nghiệm là một số không âm và không vượt quá 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm của một sự kiện có thể lớn hơn 1 nếu sự kiện đó xảy ra nhiều lần.",
+              "text": "Nếu gieo xúc xắc 6 lần thì chắc chắn mỗi mặt từ 1 đến 6 xuất hiện đúng 1 lần.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -7305,35 +7302,35 @@
         },
         {
           "id": 2,
-          "stem": "Bạn Nam gieo một con xúc xắc 100 lần và ghi lại số lần xuất hiện của các mặt: Mặt 1 chấm: 15 lần; Mặt 2: 18 lần; Mặt 3: 14 lần; Mặt 4: 16 lần; Mặt 5: 20 lần; Mặt 6: 17 lần:",
+          "stem": "Thống kê số ly trà sữa bán được trong 4 ngày của một quán: Thứ Hai: 40 ly, Thứ Ba: 50 ly, Thứ Tư: 80 ly, Thứ Năm: 60 ly (Mã đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mặt có số lần xuất hiện nhiều nhất là mặt 5 chấm.",
+              "level": "Nhận biết",
+              "text": "Dữ liệu về số ly trà sữa là dữ liệu số (định lượng).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Xác suất thực nghiệm xuất hiện mặt 1 chấm là 0,15.",
+              "text": "Tổng số ly trà sữa bán được trong 4 ngày là 230 ly.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Số lần xuất hiện mặt có số chấm là số chẵn là: 18 + 16 + 17 = 51 lần.",
+              "text": "Thứ Năm là ngày bán được nhiều ly trà sữa nhất.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Xác suất thực nghiệm xuất hiện mặt có số chấm lớn hơn 4 là 0,37.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Số ly trà sữa bán ngày Thứ Hai chiếm hơn một nửa tổng số ly bán trong cả 4 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -7342,62 +7339,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tung đồng xu 40 lần, có 18 lần xuất hiện mặt ngửa. Tính xác suất thực nghiệm xuất hiện mặt sấp (dưới dạng số thập phân).",
-          "answer": "0,55",
+          "question": "Gieo đồng xu 20 lần thấy 11 lần ngửa. Tính số lần sấp.",
+          "answer": "9",
           "acceptableAnswers": [
-            "0,55"
+            "9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Gieo xúc xắc 50 lần, có 12 lần xuất hiện mặt số chẵn. Tính xác suất thực nghiệm xuất hiện mặt số lẻ (dạng số thập phân).",
-          "answer": "0,76",
+          "question": "Gieo xúc xắc 50 lần thấy mặt 6 chấm xuất hiện 17 lần. Tính xác suất thực nghiệm xuất hiện mặt 6 chấm.",
+          "answer": "0.34",
           "acceptableAnswers": [
-            "0,76"
+            "0.34"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0,76**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.34**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một xạ thủ bắn 80 viên đạn, xác suất thực nghiệm bắn trượt là 0,15. Tính số phát bắn trúng của xạ thủ đó.",
-          "answer": "68",
+          "question": "Một cửa hàng bán được 170 chiếc điện thoại trong tháng. Trong đó có 60 chiếc của hãng S. Tính tỉ lệ phần trăm số điện thoại hãng S bán được (%).",
+          "answer": "35.3",
           "acceptableAnswers": [
-            "68"
+            "35.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **68**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35.3**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Trong hộp có 10 tấm thẻ cùng loại được đánh số từ 1 đến 10. Rút ngẫu nhiên một tấm thẻ. Có bao nhiêu kết quả thuận lợi cho sự kiện 'số ghi trên thẻ là số nguyên tố'?",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Quay vòng quay may mắn 40 lần thấy kim chỉ vào ô trúng thưởng 14 lần. Tính xác suất thực nghiệm quay vào ô không trúng thưởng.",
+          "answer": "0.65",
           "acceptableAnswers": [
-            "4"
+            "0.65"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.65**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Lớp 6A có 36 học sinh. Bạn lớp trưởng tiến hành khảo sát môn thể thao yêu thích: Bóng đá: 18 em, Cầu lông: 9 em, Bơi lội: 6 em, Bóng bàn: 3 em. Tính xác suất thực nghiệm một học sinh yêu thích môn Bóng đá.",
-          "rubric": "Xác suất thực nghiệm chọn học sinh thích Bóng đá: 18 / 36 = 1/2 = 0,5 (0.5đ)."
+          "question": "Bạn Lan gieo một con xúc xắc 6 mặt 100 lần và ghi lại số lần xuất hiện mặt 2 chấm là 13 lần. Tính xác suất thực nghiệm xuất hiện mặt 2 chấm và số lần xuất hiện các mặt còn lại.",
+          "rubric": "Tổng số lần gieo xúc xắc là: 100 lần (0.25đ).\nSố lần xuất hiện mặt 2 chấm là 13 lần (0.25đ).\nXác suất thực nghiệm xuất hiện mặt 2 chấm: P = (13) / (100) (0.25đ).\nSố lần xuất hiện các mặt còn lại: (100) - (13) = 87 lần (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một nhà máy sản xuất bóng đèn kiểm tra ngẫu nhiên 500 bóng đèn thì thấy có 15 bóng bị lỗi. a) Tính xác suất thực nghiệm bóng đèn bị lỗi. b) Nếu nhà máy sản xuất 20 000 bóng đèn thì ước tính có khoảng bao nhiêu bóng đèn đạt chuẩn?",
-          "rubric": "a) Xác suất thực nghiệm lỗi: 15 / 500 = 0,03 (0.25đ).\nb) Tỉ lệ bóng đạt chuẩn: 1 - 0,03 = 0,97. Số bóng đạt chuẩn ước tính: 20 000 x 0,97 = 19 400 (bóng) (0.25đ)."
+          "question": "Trong một giải thi đấu ném bóng rổ, một cầu thủ thực hiện ném bóng $120$ lần và có $84$ lần ném bóng vào rổ. Hãy tính xác suất thực nghiệm ném bóng vào rổ của cầu thủ đó và dự đoán nếu cầu thủ ném $200$ lần thì sẽ có khoảng bao nhiêu lần bóng vào rổ.",
+          "rubric": "Xác suất thực nghiệm ném bóng vào rổ: P = (84) / (120) (0.25đ).\nTính tỉ lệ thành công của cầu thủ (0.25đ).\nDự đoán số lần bóng vào rổ khi ném 200 lần: N = 200 . P (0.25đ).\nKết luận số lần bóng vào rổ ước tính (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Gieo đồng thời hai con xúc xắc 6 mặt một lần. Liệt kê tất cả các kết quả để tổng số chấm trên hai con xúc xắc là một số nguyên tố.",
-          "rubric": "Các tổng có thể là số nguyên tố: 2, 3, 5, 7, 11 (0.25đ).\nTổng = 2: (1,1) [1 cách].\nTổng = 3: (1,2), (2,1) [2 cách].\nTổng = 5: (1,4), (2,3), (3,2), (4,1) [4 cách].\nTổng = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) [6 cách].\nTổng = 11: (5,6), (6,5) [2 cách].\nTổng cộng có: 1 + 2 + 4 + 6 + 2 = 15 kết quả thuận lợi (0.25đ)."
+          "question": "Trong một chiếc hộp có 50 viên bi gồm hai màu xanh và đỏ (không nhìn thấy bên trong). Bạn Minh lấy ngẫu nhiên 1 viên bi, ghi màu rồi trả lại hộp. Sau 100 lần thử, bạn Minh thấy có 40 lần lấy được bi xanh. Hãy ước lượng xem trong hộp có khoảng bao nhiêu viên bi màu đỏ.",
+          "rubric": "Xác suất thực nghiệm lấy được viên bi màu xanh là: 40 / 100 = 0,4 (0.25đ).\nXác suất thực nghiệm lấy được viên bi màu đỏ là: 1 - 0,4 = 0,6 (0.25đ).\nƯớc lượng tỉ lệ bi đỏ trong hộp xấp xỉ 60% (0.25đ).\nSố viên bi đỏ trong hộp ước tính là: 50 . 0,6 = 30 viên bi đỏ (0.25đ)."
         }
       ]
     }

@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG VII: BIỂU THỨC ĐẠI SỐ VÀ ĐA THỨC MỘT BIẾN - TOÁN 7 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:20:50
+// Cập nhật lúc: 2026-11-02 07:40:53
 // ==============================================================================
 
 const EXAMS_7_C7_7 = {
@@ -4470,213 +4470,233 @@ const EXAMS_7_C7_7 = {
     ]
   },
   "c7_7_bai6_test1": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Biểu thức nào sau đây là đơn thức?",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 01)?",
         "options": [
-          "$2x - 1$",
-          "$x + y$",
-          "$-3x^2$",
-          "$\\frac{1}{x}$"
+          "$2x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Bậc của đa thức $P(x) = 4x^3 - 2x^2 + x - 5$ là:",
+        "question": "Bậc của đa thức $P(x) = 1x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$4$",
-          "$3$",
-          "$5$",
-          "$2$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hệ số cao nhất của đa thức $Q(x) = -5x^4 + 3x^2 - 1$ là:",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$-5$",
-          "$-1$",
-          "$3$",
-          "$5$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ số tự do của đa thức $Q(x) = -5x^4 + 3x^2 - 1$ là:",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$3$",
-          "$1$",
-          "$-5$",
-          "$-1$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = 2x^2 - 3x + 1$ tại $x = 2$ là:",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 1x$ tại $x = 2$ là:",
         "options": [
+          "$6$",
+          "$10$",
           "$3$",
-          "$5$",
-          "$1$",
-          "$7$"
+          "$8$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tổng của hai đa thức $P(x) = x^2 - 3x + 2$ và $Q(x) = 2x^2 + 3x - 5$ là:",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 2$ là:",
         "options": [
-          "$3x^2 - 6x - 3$",
-          "$3x^2 - 3$",
-          "$3x^2 + 6x - 3$",
-          "$x^2 - 3$"
+          "$x = 1$",
+          "$x = -1$",
+          "$x = 0$",
+          "$x = 2$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hiệu của hai đa thức $(3x^2 - 2x + 1) - (x^2 - 2x + 4)$ bằng:",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 4x^3 + 5$ là:",
         "options": [
-          "$2x^2 + 5$",
-          "$2x^2 - 4x - 3$",
-          "$2x^2 - 3$",
-          "$4x^2 - 3$"
+          "$-4$",
+          "$4$",
+          "3",
+          "5"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tích của $2x$ với $(x^2 - 3x + 1)$ là:",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 2$ là:",
         "options": [
-          "$2x^3 - 3x^2 + 1$",
-          "$2x^3 - 6x^2 + 2x$",
-          "$2x^3 - 6x + 2$",
-          "$2x^2 - 6x + 2$"
+          "$2$",
+          "1",
+          "-2",
+          "0"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Thương của phép chia $(4x^3 - 2x^2) : 2x^2$ là:",
+        "level": "Vận dụng",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$2x - 1$",
-          "$2x + 1$",
-          "$4x - 1$",
-          "$2x^2 - 1$"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Số nào sau đây là nghiệm của đa thức $P(x) = 2x - 6$?",
+        "level": "Vận dụng",
+        "question": "Một hình chữ nhật có chiều dài là $x + 2$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "$x = 0$",
-          "$x = 6$",
-          "$x = -3$",
-          "$x = 3$"
+          "$x^2 + 2x$",
+          "$2x + 2$",
+          "$x^2 + 4$",
+          "$x^2$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Tìm nghiệm của đa thức $A(x) = x^2 - 9$:",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $10\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$x = 9$",
-          "$x = 3$",
-          "$x = 3$ và $x = -3$",
-          "$x = 0$"
+          "$0.90x$",
+          "$0.10x$",
+          "$x - 10$",
+          "$x + 10$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Vận dụng",
-        "question": "Biểu thức đại số biểu thị diện tích hình chữ nhật có chiều dài hơn chiều rộng 3 cm (chiều rộng là $x$ cm) là:",
+        "level": "Vận dụng cao",
+        "question": "Đa thức $P(x) = x^2 + 2x + 5$ có số nghiệm thực là:",
         "options": [
-          "$x + (x + 3)$",
-          "$2(x + 3)$",
-          "$x^2 + 3$",
-          "$x(x + 3)$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho hai đa thức $P(x) = 2x^3 - x^2 + 3x - 1$ và $Q(x) = -x^3 + x^2 - 2x + 4$. Xét tính đúng/sai:",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 01):",
         "statements": [
           {
-            "id": "a",
-            "statement": "$P(x) + Q(x) = x^3 + x + 3$.",
-            "isCorrect": true,
-            "explanation": "$(2-1)x^3 + (-1+1)x^2 + (3-2)x + (-1+4) = x^3 + x + 3$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Bậc của đa thức $P(x) + Q(x)$ bằng $3$.",
-            "isCorrect": true,
-            "explanation": "Hạng tử bậc 3 có hệ số khác 0."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "$P(0) + Q(0) = 3$.",
-            "isCorrect": true,
-            "explanation": "$P(0) = -1, Q(0) = 4 \\Rightarrow -1 + 4 = 3$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đa thức P(x) = x^2 + 1 luôn dương với mọi số thực x nên không có nghiệm.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Hệ số cao nhất của $P(x) - Q(x)$ là $1$.",
-            "isCorrect": false,
-            "explanation": "$2 - (-1) = 3$, hệ số cao nhất là $3$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho đa thức $f(x) = x^2 - 1$. Xét tính đúng/sai:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 1x + 3$ và $Q(x) = x^2 + 1x - 1$ (Mã đề 01):",
         "statements": [
           {
-            "id": "a",
-            "statement": "$f(1) = 0$ và $f(-1) = 0$.",
-            "isCorrect": true,
-            "explanation": "$1^2 - 1 = 0$ và $(-1)^2 - 1 = 0$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "$x = 1$ và $x = -1$ là các nghiệm của $f(x)$.",
-            "isCorrect": true,
-            "explanation": "Giá trị của đa thức tại đó bằng 0."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Đa thức $f(x)$ chia hết cho $x - 1$.",
-            "isCorrect": true,
-            "explanation": "$x^2 - 1 = (x - 1)(x + 1)$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 2x + 4.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Đa thức $f(x)$ không có nghiệm nào khác ngoài 1 và -1.",
-            "isCorrect": true,
-            "explanation": "Đa thức bậc 2 có tối đa 2 nghiệm."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4685,294 +4705,293 @@ const EXAMS_7_C7_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của đa thức $A(x) = 3x^2 - 5x + 4$ tại $x = 1$.",
-        "answer": 2,
-        "unit": ""
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 2 tại x = 2.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Xác định bậc của đa thức $B(x) = 6x^5 - 2x^4 + 3x - 1$.",
-        "answer": 5,
-        "unit": ""
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 9.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm nghiệm dương của đa thức $P(x) = x^2 - 25$.",
-        "answer": 5,
-        "unit": ""
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 11, diện tích là bao nhiêu m^2?",
+        "answer": "81",
+        "acceptableAnswers": [
+          "81"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **81**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Tìm hệ số tự do của tích $(x - 3)(x + 7)$.",
-        "answer": -21,
-        "unit": ""
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
+        "acceptableAnswers": [
+          "324"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hai đa thức:\n$A(x) = 3x^3 - 2x^2 + 4x - 5$\n$B(x) = -x^3 + 2x^2 - x + 1$\na) Tính $A(x) + B(x)$.\nb) Tính $A(x) - B(x)$.",
-        "maxScore": 1.0,
-        "solution": "a) $A(x) + B(x) = (3x^3 - x^3) + (-2x^2 + 2x^2) + (4x - x) + (-5 + 1)$\n$= 2x^3 + 3x - 4$.\nb) $A(x) - B(x) = (3x^3 - (-x^3)) + (-2x^2 - 2x^2) + (4x - (-x)) + (-5 - 1)$\n$= 4x^3 - 4x^2 + 5x - 6$.",
-        "rubric": [
-          {
-            "step": "Tính đúng tổng A(x) + B(x) = 2x^3 + 3x - 4",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính đúng hiệu A(x) - B(x) = 4x^3 - 4x^2 + 5x - 6",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 1x - 5$ và $B(x) = -x^3 + 2x^2 - 1x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (1 - 1)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Thực hiện phép nhân và rút gọn biểu thức:\n$P(x) = (x - 2)(x^2 + 2x + 4) - x(x^2 - 3)$.\nTìm nghiệm của đa thức $P(x)$ vừa rút gọn.",
-        "maxScore": 1.0,
-        "solution": "Khai triển biểu thức $P(x)$:\n- $(x - 2)(x^2 + 2x + 4) = x^3 - 2^3 = x^3 - 8$.\n- $x(x^2 - 3) = x^3 - 3x$.\nDo đó:\n$P(x) = (x^3 - 8) - (x^3 - 3x) = x^3 - 8 - x^3 + 3x = 3x - 8$.\nTìm nghiệm của $P(x)$:\nCho $P(x) = 0 \\Leftrightarrow 3x - 8 = 0 \\Leftrightarrow 3x = 8 \\Leftrightarrow x = \\frac{8}{3}$.\nVậy nghiệm của đa thức $P(x)$ là $x = \\frac{8}{3}$.",
-        "rubric": [
-          {
-            "step": "Khai triển và rút gọn đúng ra P(x) = 3x - 8",
-            "subScore": 0.6
-          },
-          {
-            "step": "Giải phương trình ra nghiệm x = 8/3",
-            "subScore": 0.4
-          }
-        ]
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $25$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 25 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 25) = x^2 + 25x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 25 . 60 (0.25đ).\nTính toán ra kết quả: S = 5100 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
-        "level": "Vận dụng",
-        "question": "Thực hiện phép chia đa thức $A(x) = x^3 - 3x^2 + 4x - 2$ cho đa thức $B(x) = x - 1$. Chỉ rõ thương và dư của phép chia.",
-        "maxScore": 1.0,
-        "solution": "Đặt tính chia $A(x)$ cho $B(x) = x - 1$:\n- $x^3 : x = x^2$.\nNhân: $x^2(x - 1) = x^3 - x^2$.\nTrừ: $(x^3 - 3x^2 + 4x - 2) - (x^3 - x^2) = -2x^2 + 4x - 2$.\n- $-2x^2 : x = -2x$.\nNhân: $-2x(x - 1) = -2x^2 + 2x$.\nTrừ: $(-2x^2 + 4x - 2) - (-2x^2 + 2x) = 2x - 2$.\n- $2x : x = 2$.\nNhân: $2(x - 1) = 2x - 2$.\nTrừ: $(2x - 2) - (2x - 2) = 0$.\nVậy phép chia là phép chia hết với:\n- Đa thức thương: $Q(x) = x^2 - 2x + 2$.\n- Đa thức dư: $R = 0$.",
-        "rubric": [
-          {
-            "step": "Thực hiện đặt tính chia từng bước chính xác",
-            "subScore": 0.6
-          },
-          {
-            "step": "Kết luận đúng thương Q(x) = x^2 - 2x + 2 và dư R = 0",
-            "subScore": 0.4
-          }
-        ]
+        "level": "Vận dụng cao",
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 2x + 2$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 2x + 1) + 1 (0.25đ).\nP(x) = (x - 1)^2 + 1 (0.25đ).\nVì (x - 1)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   },
   "c7_7_bai6_test2": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Bài kiểm tra số 2 (🌿 Khá)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $P(x) = 3x^3 - 2x + 1$ và $Q(x) = 2x^2 - x + 4$. Bậc của đa thức tích $P(x) \\cdot Q(x)$ là:",
+        "level": "Nhận biết",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 02)?",
         "options": [
-          "$5$",
-          "$2$",
-          "$6$",
-          "$3$"
+          "$3x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Hệ số cao nhất của đa thức $A(x) = (2x^2 - 1)(3x^2 + 2)$ là:",
+        "level": "Nhận biết",
+        "question": "Bậc của đa thức $P(x) = 2x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$6$",
-          "$5$",
-          "$-2$",
-          "$1$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "Phần dư khi chia đa thức $x^3 + 2x^2 - 3$ cho $x + 1$ là:",
+        "level": "Nhận biết",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$0$",
-          "$4$",
-          "$-2$",
-          "$2$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Thông hiểu",
-        "question": "Đa thức nào sau đây vô nghiệm trên tập hợp số thực?",
+        "level": "Nhận biết",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$x^2 - 4$",
-          "$x^2 + 4$",
-          "$x - 4$",
-          "$x^3 + 1$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho $P(x) = ax^2 + bx + c$. Biết $P(0) = 3, P(1) = 6, P(-1) = 2$. Giá trị của $a$ là:",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 2x$ tại $x = 2$ là:",
         "options": [
-          "$a = 3$",
-          "$a = 2$",
-          "$a = 1$",
-          "$a = -1$"
+          "$4$",
+          "$12$",
+          "$2$",
+          "$8$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng",
-        "question": "Tìm $m$ để $x = -2$ là nghiệm của đa thức $f(x) = 2x^2 + mx - 6$:",
+        "level": "Thông hiểu",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 4$ là:",
         "options": [
-          "$m = 2$",
-          "$m = -1$",
-          "$m = -2$",
-          "$m = 1$"
+          "$x = 2$",
+          "$x = -2$",
+          "$x = 0$",
+          "$x = 2$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho $x + y = 4$ và $xy = 3$. Giá trị của $x^3 + y^3$ là:",
+        "level": "Thông hiểu",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 8x^3 + 5$ là:",
         "options": [
-          "$36$",
-          "$28$",
-          "$52$",
-          "$64$"
+          "$-8$",
+          "$8$",
+          "3",
+          "5"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng",
-        "question": "Tìm nghiệm của đa thức $P(x) = (x - 1)^2 - 4$:",
+        "level": "Thông hiểu",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 5$ là:",
         "options": [
-          "$x = 3$ và $x = -1$",
-          "$x = 1$",
-          "$x = 5$ và $x = -3$",
-          "$x = 3$"
+          "$5$",
+          "1",
+          "-2",
+          "0"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hai đa thức $P(x) = x^2 - 2x + 3$ và $Q(x) = x^2 + 4x + 1$. Giá trị nhỏ nhất của $P(x)$ là:",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$3$",
-          "$1$",
-          "$0$",
-          "$2$ (khi $x = 1$)"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Rút gọn biểu thức $(x + 1)(x - 1)(x^2 + 1)$ ta được:",
+        "question": "Một hình chữ nhật có chiều dài là $x + 4$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "$x^4 - 2x^2 + 1$",
-          "$x^4 + 1$",
-          "$x^3 - 1$",
-          "$x^4 - 1$"
+          "$x^2 + 4x$",
+          "$2x + 4$",
+          "$x^2 + 8$",
+          "$x^2$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Số dư khi chia đa thức $P(x) = x^{2023} + x^{2022} + 1$ cho $x + 1$ là:",
+        "level": "Vận dụng",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $20\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$-1$",
-          "$0$",
-          "$1$",
-          "$3$"
+          "$0.80x$",
+          "$0.20x$",
+          "$x - 20$",
+          "$x + 20$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^3 + bx^2 + cx + d$. Biết $a + c = b + d$. Khẳng định nào sau đây đúng?",
+        "question": "Đa thức $P(x) = x^2 + 4x + 8$ có số nghiệm thực là:",
         "options": [
-          "$x = 1$ là nghiệm của $P(x)$",
-          "$x = -1$ là nghiệm của $P(x)$",
-          "$P(x)$ vô nghiệm",
-          "$P(0) = 0$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho đa thức $P(x) = x^3 - 3x^2 + 2x$. Xét tính đúng/sai:",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 02):",
         "statements": [
           {
-            "id": "a",
-            "statement": "$P(x) = x(x^2 - 3x + 2) = x(x - 1)(x - 2)$.",
-            "isCorrect": true,
-            "explanation": "Phân tích đa thức thành nhân tử."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Tập nghiệm của đa thức $P(x)$ là $\\{0; 1; 2\\}$.",
-            "isCorrect": true,
-            "explanation": "Các nghiệm là 0, 1, 2."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Tổng các nghiệm của đa thức $P(x)$ bằng $3$.",
-            "isCorrect": true,
-            "explanation": "$0 + 1 + 2 = 3$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đa thức P(x) = x^2 + 4 luôn dương với mọi số thực x nên không có nghiệm.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Đa thức $P(x)$ có 4 nghiệm phân biệt.",
-            "isCorrect": false,
-            "explanation": "Đa thức bậc 3 có đúng 3 nghiệm phân biệt."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho hai đa thức $A(x) = 2x^2 - x + 1$ và $B(x) = x + 2$. Xét tính đúng/sai:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 2x + 3$ và $Q(x) = x^2 + 2x - 1$ (Mã đề 02):",
         "statements": [
           {
-            "id": "a",
-            "statement": "Tích $A(x) \\cdot B(x) = 2x^3 + 3x^2 - x + 2$.",
-            "isCorrect": true,
-            "explanation": "$(2x^2-x+1)(x+2) = 2x^3 + 4x^2 - x^2 - 2x + x + 2 = 2x^3 + 3x^2 - x + 2$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Bậc của tích $A(x) \\cdot B(x)$ bằng $3$.",
-            "isCorrect": true,
-            "explanation": "Bậc $2 + 1 = 3$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Hệ số của $x^2$ trong tích bằng $3$.",
-            "isCorrect": true,
-            "explanation": "Hệ số của $x^2$ là 3."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 4x + 4.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Hệ số tự do của tích bằng $1$.",
-            "isCorrect": false,
-            "explanation": "Hệ số tự do là $1 \\times 2 = 2 \\neq 1$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4981,298 +5000,293 @@ const EXAMS_7_C7_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của đa thức $P(x) = x^4 - 2x^2 + 1$ tại $x = -2$.",
-        "answer": 9,
-        "unit": ""
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 4 tại x = 3.",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Tìm nghiệm dương của đa thức $Q(x) = 2x^2 - 8$.",
-        "answer": 2,
-        "unit": ""
+        "level": "Thông hiểu",
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 18.",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho $P(x) = (x - 1)(x + 2) + 2$. Tính giá trị của $P(3)$.",
-        "answer": 12,
-        "unit": ""
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 12, diện tích là bao nhiêu m^2?",
+        "answer": "100",
+        "acceptableAnswers": [
+          "100"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm phần dư khi chia đa thức $x^4 + x^2 + 1$ cho $x^2 + x + 1$.",
-        "answer": 0,
-        "unit": ""
+        "level": "Vận dụng",
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
+        "acceptableAnswers": [
+          "324"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho hai đa thức:\n$P(x) = 2x^4 - x^3 + 3x^2 - 5x + 2$\n$Q(x) = -x^4 + 2x^3 - 3x^2 + 4x - 1$\na) Tính $M(x) = P(x) + Q(x)$ và $N(x) = P(x) - Q(x)$.\nb) Tìm bậc và hệ số cao nhất của $M(x)$ và $N(x)$.",
-        "maxScore": 1.0,
-        "solution": "a) Tính $M(x) = P(x) + Q(x)$:\n$M(x) = (2x^4 - x^4) + (-x^3 + 2x^3) + (3x^2 - 3x^2) + (-5x + 4x) + (2 - 1)$\n$= x^4 + x^3 - x + 1$.\nTính $N(x) = P(x) - Q(x)$:\n$N(x) = (2x^4 - (-x^4)) + (-x^3 - 2x^3) + (3x^2 - (-3x^2)) + (-5x - 4x) + (2 - (-1))$\n$= 3x^4 - 3x^3 + 6x^2 - 9x + 3$.\nb) - Đa thức $M(x)$ có bậc $4$, hệ số cao nhất là $1$.\n- Đa thức $N(x)$ có bậc $4$, hệ số cao nhất là $3$.",
-        "rubric": [
-          {
-            "step": "Tính đúng M(x) = x^4 + x^3 - x + 1 và N(x) = 3x^4 - 3x^3 + 6x^2 - 9x + 3",
-            "subScore": 0.6
-          },
-          {
-            "step": "Chỉ đúng bậc và hệ số cao nhất của cả hai đa thức",
-            "subScore": 0.4
-          }
-        ]
+        "level": "Thông hiểu",
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 2x - 5$ và $B(x) = -x^3 + 2x^2 - 2x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (2 - 2)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho đa thức $A(x) = 2x^3 - 3x^2 + x + a$.\na) Thực hiện phép chia đa thức $A(x)$ cho đa thức $B(x) = x - 2$.\nb) Tìm giá trị của $a$ để $A(x)$ chia hết cho $B(x)$.",
-        "maxScore": 1.0,
-        "solution": "a) Đặt tính chia $A(x)$ cho $B(x) = x - 2$:\n- $2x^3 : x = 2x^2$.\nNhân: $2x^2(x - 2) = 2x^3 - 4x^2$.\nTrừ: $(2x^3 - 3x^2 + x + a) - (2x^3 - 4x^2) = x^2 + x + a$.\n- $x^2 : x = x$.\nNhân: $x(x - 2) = x^2 - 2x$.\nTrừ: $(x^2 + x + a) - (x^2 - 2x) = 3x + a$.\n- $3x : x = 3$.\nNhân: $3(x - 2) = 3x - 6$.\nTrừ: $(3x + a) - (3x - 6) = a + 6$.\nVậy thương là $Q(x) = 2x^2 + x + 3$ và phần dư là $R = a + 6$.\nb) Để $A(x)$ chia hết cho $B(x)$ thì $R = 0 \\Leftrightarrow a + 6 = 0 \\Leftrightarrow a = -6$.\nVậy $a = -6$.",
-        "rubric": [
-          {
-            "step": "Chia đúng tìm được thương Q(x) = 2x^2 + x + 3 và dư R = a + 6",
-            "subScore": 0.6
-          },
-          {
-            "step": "Tìm đúng a = -6 để chia hết",
-            "subScore": 0.4
-          }
-        ]
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $30$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 30 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 30) = x^2 + 30x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 30 . 60 (0.25đ).\nTính toán ra kết quả: S = 5400 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết $P(x) \\ge 0$ với mọi $x \\in \\mathbb{R}$ và $P(0) = 1, P(1) = 0$.\na) Xác định các hệ số $a, b, c$.\nb) Tính giá trị của $P(2)$.",
-        "maxScore": 1.0,
-        "solution": "a) Ta có:\n- $P(0) = c = 1$.\n- $P(1) = a + b + c = a + b + 1 = 0 \\Rightarrow a + b = -1 \\Rightarrow b = -1 - a$.\nVì $P(1) = 0$ và $P(x) \\ge 0$ với mọi $x$ nên $x = 1$ là điểm đạt giá trị nhỏ nhất của đa thức bậc hai $P(x)$.\nDo đó đỉnh parabol có hoành độ $x_0 = 1$:\n$-\\frac{b}{2a} = 1 \\Leftrightarrow b = -2a$.\nTừ đó ta có hệ:\n$\\begin{cases} b = -1 - a \\\\ b = -2a \\end{cases} \\Rightarrow -2a = -1 - a \\Rightarrow -a = -1 \\Rightarrow a = 1$.\nSuy ra: $b = -2(1) = -2$.\nVậy $a = 1, b = -2, c = 1$.\nĐa thức là: $P(x) = x^2 - 2x + 1 = (x - 1)^2$ (thỏa mãn $P(x) \\ge 0$ với mọi $x$).\nb) Với $x = 2$:\n$P(2) = (2 - 1)^2 = 1^2 = 1$.\nVậy $P(2) = 1$.",
-        "rubric": [
-          {
-            "step": "Tìm đúng c = 1 và thiết lập a + b = -1",
-            "subScore": 0.4
-          },
-          {
-            "step": "Nhận xét đỉnh x = 1 suy ra b = -2a, tìm ra a = 1, b = -2",
-            "subScore": 0.4
-          },
-          {
-            "step": "Tính đúng P(2) = 1",
-            "subScore": 0.2
-          }
-        ]
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 4x + 5$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 4x + 4) + 1 (0.25đ).\nP(x) = (x - 2)^2 + 1 (0.25đ).\nVì (x - 2)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   },
   "c7_7_bai6_test3": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho đa thức $P(x)$ thỏa mãn $P(x) + P(1 - x) = x^2$ với mọi $x$. Bậc của đa thức $P(x)$ là:",
+        "level": "Nhận biết",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 03)?",
         "options": [
-          "Không tồn tại",
-          "$2$",
-          "$3$",
-          "$1$"
+          "$4x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Cho đa thức $P(x) = x^3 - 3x^2 + 3x - 1$. Nghiệm duy nhất của $P(x)$ là:",
+        "level": "Nhận biết",
+        "question": "Bậc của đa thức $P(x) = 3x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$x = 3$",
-          "$x = -1$",
-          "$x = 1$",
-          "$x = 0$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Vận dụng",
-        "question": "Đa thức $f(x) = x^4 + 4$ có thể phân tích thành tích của hai tam thức bậc hai là:",
+        "level": "Nhận biết",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$(x^2 + 2)^2$",
-          "$(x^2 - 2)(x^2 + 2)$",
-          "$(x^2 - 4x + 2)(x^2 + 4x + 2)$",
-          "$(x^2 - 2x + 2)(x^2 + 2x + 2)$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho đa thức $P(x) = x^3 + ax^2 + bx + c$. Biết $P(x)$ chia hết cho $x - 1, x - 2, x - 3$. Giá trị của $a + b + c$ là:",
+        "level": "Nhận biết",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$0$",
-          "$-6$",
-          "$6$",
-          "$-1$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng",
-        "question": "Tổng các nghiệm của đa thức $P(x) = x(x - 1)(x - 2)(x - 3) - 24$ là:",
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 3x$ tại $x = 2$ là:",
         "options": [
-          "$6$",
-          "$3$",
-          "$0$",
-          "$4$"
+          "$2$",
+          "$14$",
+          "$1$",
+          "$8$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng cao",
-        "question": "Cho $P(x) = ax^2 + bx + c$. Biết $P(x)$ nhận giá trị nguyên với mọi $x$ nguyên. Điều kiện cần và đủ là:",
+        "level": "Thông hiểu",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 6$ là:",
         "options": [
-          "$a, b, c$ cùng chẵn",
-          "$a+b+c$ chia hết cho 2",
-          "$a, b, c$ là các số nguyên",
-          "$2a, a+b, c$ là các số nguyên"
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 0$",
+          "$x = 2$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x)$ thỏa mãn $x \\cdot P(x - 1) = (x - 3) \\cdot P(x)$ với mọi $x$. Đa thức $P(x)$ có ít nhất mấy nghiệm?",
+        "level": "Thông hiểu",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 12x^3 + 5$ là:",
         "options": [
-          "$3$ nghiệm ($x = 0, x = 1, x = 2$)",
-          "$1$ nghiệm",
-          "$4$ nghiệm",
-          "$2$ nghiệm"
+          "$-12$",
+          "$12$",
+          "3",
+          "5"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Số dư khi chia đa thức $x^{99} + x^{88} + x^{77} + \\dots + x^{11} + 1$ cho $x - 1$ là:",
+        "level": "Thông hiểu",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 10$ là:",
         "options": [
-          "$0$",
-          "$1$",
           "$10$",
-          "$9$"
+          "1",
+          "-2",
+          "0"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = x^4 - 4x^3 + 6x^2 - 4x + 2$. Giá trị nhỏ nhất của $P(x)$ là:",
+        "level": "Vận dụng",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$1$ (đạt khi $x = 1$)",
-          "$0$",
-          "$2$",
-          "$-1$"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x)$ có hệ số nguyên thỏa mãn $P(1) = 3$ và $P(5) = 7$. Phương trình $P(x) = 0$ có thể có nghiệm nguyên không?",
+        "level": "Vận dụng",
+        "question": "Một hình chữ nhật có chiều dài là $x + 6$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "Luôn có nghiệm nguyên",
-          "Có nghiệm $x = 3$",
-          "Không thể có nghiệm nguyên",
-          "Chưa thể kết luận"
+          "$x^2 + 6x$",
+          "$2x + 6$",
+          "$x^2 + 12$",
+          "$x^2$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^3 + bx^2 + cx + d$. Nếu $P(x) = 0$ với mọi $x$ thì:",
+        "level": "Vận dụng",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $30\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$a = b = c = d = 0$",
-          "$a + b + c + d = 0$",
-          "$a = d$ và $b = c$",
-          "$ad = bc$"
+          "$0.70x$",
+          "$0.30x$",
+          "$x - 30$",
+          "$x + 30$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm hệ số của $x^5$ trong khai triển $(1 + 2x + 3x^2)^3$:",
+        "question": "Đa thức $P(x) = x^2 + 6x + 13$ có số nghiệm thực là:",
         "options": [
-          "$24$",
-          "$36$",
-          "$54$",
-          "$18$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho đa thức $P(x) = (x - 1)(x - 2)(x - 3)(x - 4) + 1$. Xét tính đúng/sai:",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 03):",
         "statements": [
           {
-            "id": "a",
-            "statement": "Nhóm hạng tử: $P(x) = (x^2 - 5x + 4)(x^2 - 5x + 6) + 1$.",
-            "isCorrect": true,
-            "explanation": "$(x-1)(x-4) = x^2-5x+4$ và $(x-2)(x-3) = x^2-5x+6$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Đặt $t = x^2 - 5x + 5$, ta có $P(x) = (t - 1)(t + 1) + 1 = t^2$.",
-            "isCorrect": true,
-            "explanation": "$t^2 - 1 + 1 = t^2$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Do đó $P(x) = (x^2 - 5x + 5)^2 \\ge 0$ với mọi số thực $x$.",
-            "isCorrect": true,
-            "explanation": "Bình phương luôn không âm."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đa thức P(x) = x^2 + 9 luôn dương với mọi số thực x nên không có nghiệm.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Đa thức $P(x)$ không có nghiệm thực nào.",
-            "isCorrect": false,
-            "explanation": "Phương trình $x^2 - 5x + 5 = 0$ có nghiệm thực $x = \\frac{5 \\pm \\sqrt{5}}{2}$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$ ($a \\neq 0$) thỏa mãn $P(x) \\ge 0$ với mọi số thực $x$. Xét tính đúng/sai:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 3x + 3$ và $Q(x) = x^2 + 3x - 1$ (Mã đề 03):",
         "statements": [
           {
-            "id": "a",
-            "statement": "Hệ số cao nhất $a$ phải là số dương ($a > 0$).",
-            "isCorrect": true,
-            "explanation": "Nếu $a < 0$ thì khi $|x|$ rất lớn $P(x) < 0$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Biệt thức $\\Delta = b^2 - 4ac \\le 0$.",
-            "isCorrect": true,
-            "explanation": "Điều kiện để tam thức bậc hai không âm với mọi $x$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Hệ số tự do $c$ bắt buộc phải lớn hơn hoặc bằng 0 ($c = P(0) \\ge 0$).",
-            "isCorrect": true,
-            "explanation": "$c = P(0) \\ge 0$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 6x + 4.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Đa thức $P(x)$ luôn luôn vô nghiệm.",
-            "isCorrect": false,
-            "explanation": "Nếu $\\Delta = 0$ thì đa thức có nghiệm kép (ví dụ $P(x) = x^2$ có nghiệm $x = 0$)."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -5280,109 +5294,80 @@ const EXAMS_7_C7_7 = {
     "part3": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Tính tổng các nghiệm của đa thức $P(x) = (x^2 - 4)(x^2 - 16)$.",
-        "answer": 0,
-        "unit": ""
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 6 tại x = 4.",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 6x + 15$.",
-        "answer": 6,
-        "unit": ""
+        "level": "Thông hiểu",
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 27.",
+        "answer": "9",
+        "acceptableAnswers": [
+          "9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
       },
       {
         "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = x^3 - 3x^2 + 3x + 7$. Tìm nghiệm thực duy nhất của đa thức $P(x)$.",
-        "answer": -1,
-        "unit": ""
+        "level": "Vận dụng",
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 13, diện tích là bao nhiêu m^2?",
+        "answer": "121",
+        "acceptableAnswers": [
+          "121"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **121**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $f(x)$ chia cho $x - 2$ dư 5, chia cho $x - 3$ dư 7. Tìm số dư khi chia $f(x)$ cho $(x - 2)(x - 3)$ tại $x = 0$.",
-        "answer": 1,
-        "unit": ""
+        "level": "Vận dụng",
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
+        "acceptableAnswers": [
+          "324"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = x^4 + ax^3 + bx^2 + cx + d$ ($a, b, c, d \\in \\mathbb{R}$).\nBiết $P(1) = 10, P(2) = 20, P(3) = 30$.\nTính giá trị của biểu thức: $\\frac{P(12) + P(-8)}{10} + 25$.",
-        "maxScore": 1.0,
-        "solution": "Xét đa thức phụ $Q(x) = P(x) - 10x$.\nTa có:\n- $Q(1) = P(1) - 10(1) = 10 - 10 = 0$.\n- $Q(2) = P(2) - 10(2) = 20 - 20 = 0$.\n- $Q(3) = P(3) - 10(3) = 30 - 30 = 0$.\nDo đó $x = 1, x = 2, x = 3$ là ba nghiệm của đa thức $Q(x)$.\nVì $P(x)$ là đa thức bậc 4 có hệ số cao nhất là 1, nên $Q(x)$ cũng là đa thức bậc 4 có hệ số cao nhất là 1.\nDo đó $Q(x)$ có dạng:\n$Q(x) = (x - 1)(x - 2)(x - 3)(x - x_0)$ (với $x_0$ là nghiệm thứ tư).\nSuy ra: $P(x) = (x - 1)(x - 2)(x - 3)(x - x_0) + 10x$.\nTa tính:\n$P(12) = (11)(10)(9)(12 - x_0) + 120 = 990(12 - x_0) + 120 = 11880 - 990x_0 + 120 = 12000 - 990x_0$.\n$P(-8) = (-9)(-10)(-11)(-8 - x_0) - 80 = -990(-8 - x_0) - 80 = 7920 + 990x_0 - 80 = 7840 + 990x_0$.\nCộng lại:\n$P(12) + P(-8) = (12000 - 990x_0) + (7840 + 990x_0) = 19840$.\nBiểu thức cần tính:\n$\\frac{P(12) + P(-8)}{10} + 25 = \\frac{19840}{10} + 25 = 1984 + 25 = 2009$.\nVậy giá trị của biểu thức là $2009$.",
-        "rubric": [
-          {
-            "step": "Đặt đa thức phụ Q(x) = P(x) - 10x và biểu diễn P(x)",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính tổng P(12) + P(-8) triệt tiêu x0 và ra 19840",
-            "subScore": 0.3
-          },
-          {
-            "step": "Tính đúng kết quả cuối cùng là 2009",
-            "subScore": 0.2
-          }
-        ]
+        "level": "Thông hiểu",
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 3x - 5$ và $B(x) = -x^3 + 2x^2 - 3x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (3 - 3)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$ với $a, b, c$ là các số nguyên.\nChứng minh rằng không thể tồn tại đồng thời các giá trị $P(2023) = 2024$ và $P(2024) = 2023$.",
-        "maxScore": 1.0,
-        "solution": "Giả sử phản chứng tồn tại đa thức $P(x) = ax^2 + bx + c$ có các hệ số $a, b, c \\in \\mathbb{Z}$ thỏa mãn $P(2023) = 2024$ và $P(2024) = 2023$.\nTa có tính chất cơ bản của đa thức với hệ số nguyên: với hai số nguyên bất kì $x_1, x_2$, hiệu $P(x_1) - P(x_2)$ luôn chia hết cho $x_1 - x_2$.\nThật vậy:\n$P(x_1) - P(x_2) = a(x_1^2 - x_2^2) + b(x_1 - x_2) = (x_1 - x_2)[a(x_1 + x_2) + b]$.\nVì $a, b, x_1, x_2$ là các số nguyên nên $[a(x_1 + x_2) + b]$ là số nguyên.\nDo đó: $P(x_1) - P(x_2) \\,\\vdots\\, (x_1 - x_2)$.\nÁp dụng với $x_1 = 2024, x_2 = 2023$:\n$x_1 - x_2 = 2024 - 2023 = 1$.\n$P(x_1) - P(x_2) = P(2024) - P(2023) = 2023 - 2024 = -1$.\nTa thấy $-1 \\,\\vdots\\, 1$ (thỏa mãn).\nTuy nhiên, xét tính chẵn lẻ của $P(x)$:\n$P(x+1) - P(x) = a(2x+1) + b$.\nVới $x = 2023$: $P(2024) - P(2023) = -1 \\Rightarrow a(4047) + b = -1$.\nXét với $x$ nguyên bất kì: hiệu giữa hai giá trị liên tiếp là số lẻ, nghĩa là tính chẵn lẻ của $P(x)$ luân phiên.\nĐiều này hoàn toàn đúng và không mâu thuẫn.\nXét cặp số khác: nếu $P(x_1) - P(x_2) = (x_1 - x_2) k$, khi $x_1 - x_2$ chẵn thì hiệu phải chẵn.\nĐẳng thức đối với hai số liên tiếp luôn có nghiệm (ví dụ $P(x) = -x + 4047$ có $P(2023) = 2024, P(2024) = 2023$).\nNếu giả thiết xét $P(1) = 2$ và $P(3) = 5$: $P(3) - P(1) = 3$ không chia hết cho $3 - 1 = 2$, mâu thuẫn.\nVậy tính chất tổng quát: $(P(x_1) - P(x_2)) \\,\\vdots\\, (x_1 - x_2)$ luôn là tiêu chuẩn kiểm tra tính nguyên của hệ số.",
-        "rubric": [
-          {
-            "step": "Phát biểu và chứng minh tính chất (P(x1) - P(x2)) chia hết cho (x1 - x2)",
-            "subScore": 0.5
-          },
-          {
-            "step": "Lập luận áp dụng tính chất vào bài toán số học đa thức",
-            "subScore": 0.5
-          }
-        ]
+        "level": "Vận dụng",
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $35$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 35 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 35) = x^2 + 35x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 35 . 60 (0.25đ).\nTính toán ra kết quả: S = 5700 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các đa thức $P(x)$ thỏa mãn đẳng thức:\n$P(x^2) = [P(x)]^2$ với mọi số thực $x$.",
-        "maxScore": 1.0,
-        "solution": "1) Nếu $P(x)$ là đa thức không: $P(x) = 0$ thỏa mãn $0 = 0^2$.\n2) Nếu $P(x)$ là đa thức hằng khác 0: $P(x) = c$ ($c \\neq 0$).\nKhi đó $c = c^2 \\Leftrightarrow c(c - 1) = 0 \\Rightarrow c = 1$ (do $c \\neq 0$).\nVậy $P(x) = 1$ là một nghiệm.\n3) Nếu $P(x)$ có bậc $n \\ge 1$:\nGọi hệ số cao nhất của $P(x)$ là $a_n \\neq 0$: $P(x) = a_n x^n + \\dots$\nKhi đó $P(x^2)$ có bậc là $2n$ và hệ số cao nhất là $a_n$.\nMặt khác $[P(x)]^2$ có bậc là $2n$ và hệ số cao nhất là $a_n^2$.\nSo sánh hệ số cao nhất: $a_n = a_n^2 \\Rightarrow a_n = 1$ (vì $a_n \\neq 0$).\nGiả sử $x_0$ là một nghiệm của $P(x)$, tức $P(x_0) = 0$.\nKhi đó $[P(x_0)]^2 = 0 \\Rightarrow P(x_0^2) = 0$.\nTiếp tục suy ra $x_0^4, x_0^8, x_0^{16}, \\dots$ đều là nghiệm của $P(x)$.\nVì đa thức có bậc hữu hạn nên chỉ có thể có hữu hạn nghiệm, do đó:\n- Hoặc $x_0 = 0$;\n- Hoặc $|x_0| = 1$.\nNếu $x_0 \\neq 0$ thì $|x_0| = 1$. Tương tự từ $P(x_0) = 0 \\Rightarrow P(\\sqrt{x_0}) = 0$, dẫn tới vô số nghiệm trừ khi $x_0 = 0$.\nDo đó nghiệm duy nhất có thể có của $P(x)$ là $x = 0$.\nVậy $P(x) = x^n$.\nThử lại: $P(x^2) = (x^2)^n = x^{2n}$ và $[P(x)]^2 = (x^n)^2 = x^{2n}$ (thỏa mãn).\nKết luận: Các đa thức thỏa mãn đề bài là $P(x) = 0$ và $P(x) = x^n$ với mọi $n \\in \\mathbb{N}$ (bao gồm cả $n = 0$ ứng với $P(x) = 1$).",
-        "rubric": [
-          {
-            "step": "Xét đa thức không và đa thức hằng tìm ra P(x) = 0, P(x) = 1",
-            "subScore": 0.3
-          },
-          {
-            "step": "Xét bậc n >= 1, so sánh hệ số cao nhất tìm an = 1",
-            "subScore": 0.3
-          },
-          {
-            "step": "Lập luận về số nghiệm và kết luận P(x) = x^n với n tự nhiên",
-            "subScore": 0.4
-          }
-        ]
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 6x + 10$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 6x + 9) + 1 (0.25đ).\nP(x) = (x - 3)^2 + 1 (0.25đ).\nVì (x - 3)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   },
   "c7_7_bai6_test4": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Biểu thức nào sau đây là đơn thức một biến?",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 04)?",
         "options": [
-          "$3x^2$",
-          "$2x + 1$",
-          "$x^2 - y$",
-          "$\\frac{1}{x}$"
+          "$5x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5390,12 +5375,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Bậc của đa thức $P(x) = 4x^3 - 2x^5 + x - 7$ là:",
+        "question": "Bậc của đa thức $P(x) = 4x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$5$",
-          "$3$",
-          "$4$",
-          "$7$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5403,12 +5388,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hệ số cao nhất của đa thức $A(x) = -3x^4 + 5x^2 - x + 9$ là:",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$-3$",
-          "$5$",
-          "$9$",
-          "$4$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5416,12 +5401,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ số tự do của đa thức $Q(x) = 2x^3 - 7x + 15$ là:",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$15$",
-          "$2$",
-          "$-7$",
-          "$0$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5429,12 +5414,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Giá trị của đa thức $P(x) = 2x^2 - 3x + 1$ tại $x = 2$ là:",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 4x$ tại $x = 2$ là:",
         "options": [
-          "$3$",
-          "$5$",
-          "$15$",
-          "$1$"
+          "$0$",
+          "$16$",
+          "$0$",
+          "$8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5442,12 +5427,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Số nào sau đây là nghiệm của đa thức $A(x) = 2x - 6$?",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 8$ là:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 6$",
-          "$x = 0$"
+          "$x = 4$",
+          "$x = -4$",
+          "$x = 0$",
+          "$x = 2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5455,12 +5440,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Thu gọn đa thức $M(x) = 3x^2 - 5x + 2x^2 + 5x - 7$ ta được:",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 16x^3 + 5$ là:",
         "options": [
-          "$5x^2 - 7$",
-          "$5x^2 + 10x - 7$",
-          "$x^2 - 7$",
-          "$5x^2$"
+          "$-16$",
+          "$16$",
+          "3",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5468,12 +5453,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho $P(x) = x^2 - 4x + 3$. Nghiệm của đa thức $P(x)$ là:",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 17$ là:",
         "options": [
-          "$x = 1$ và $x = 3$",
-          "$x = -1$ và $x = -3$",
-          "$x = 2$",
-          "$x = 4$"
+          "$17$",
+          "1",
+          "-2",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5481,12 +5466,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hai đa thức $A(x) = 3x^3 - 2x + 5$ và $B(x) = -x^3 + 2x - 1$. Đa thức $A(x) + B(x)$ bằng:",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$2x^3 + 4$",
-          "$4x^3 + 4$",
-          "$2x^3 - 4x + 6$",
-          "$2x^3 + 6$"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5494,12 +5479,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm đa thức $C(x)$ biết $C(x) + (2x^2 - x) = 5x^2 - 3x + 4$:",
+        "question": "Một hình chữ nhật có chiều dài là $x + 8$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "$C(x) = 3x^2 - 2x + 4$",
-          "$C(x) = 7x^2 - 4x + 4$",
-          "$C(x) = 3x^2 - 4x + 4$",
-          "$C(x) = 3x^2 + 2x + 4$"
+          "$x^2 + 8x$",
+          "$2x + 8$",
+          "$x^2 + 16$",
+          "$x^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5507,12 +5492,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Thực hiện phép nhân đa thức $(x - 2)(x + 3)$ ta được:",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $40\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$x^2 + x - 6$",
-          "$x^2 - x - 6$",
-          "$x^2 + 5x - 6$",
-          "$x^2 - 6$"
+          "$0.60x$",
+          "$0.40x$",
+          "$x - 40$",
+          "$x + 40$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5520,12 +5505,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Chứng minh đa thức $P(x) = x^2 + 2x + 5$ không có nghiệm trên tập số thực:",
+        "question": "Đa thức $P(x) = x^2 + 8x + 20$ có số nghiệm thực là:",
         "options": [
-          "$P(x) = (x + 1)^2 + 4 > 0$ với mọi $x$",
-          "$P(x)$ có bậc 2",
-          "Hệ số tự do dương",
-          "Vì $x^2 > 0$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5534,33 +5519,33 @@ const EXAMS_7_C7_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về đa thức một biến (Mã đề 4):",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 được coi là đa thức không có bậc.",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Một đa thức bậc n (n >= 1) có không quá n nghiệm.",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu P(a) = 0 thì a là một nghiệm của đa thức P(x).",
+            "text": "Đa thức P(x) = x^2 + 16 luôn dương với mọi số thực x nên không có nghiệm.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng của hai đa thức bậc 3 luôn luôn là một đa thức bậc 3.",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5568,33 +5553,33 @@ const EXAMS_7_C7_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho hai đa thức $P(x) = 2x^2 - 4x + 2$ và $Q(x) = x - 1$:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 4x + 3$ và $Q(x) = x^2 + 4x - 1$ (Mã đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Đa thức P(x) có bậc là 2, hệ số cao nhất là 2.",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Giá trị của Q(x) tại x = 1 bằng 0.",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chia đa thức P(x) cho Q(x) ta được thương là 2x - 2.",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 8x + 4.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đa thức P(x) có đúng hai nghiệm phân biệt.",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5605,79 +5590,79 @@ const EXAMS_7_C7_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của đa thức P(x) = 3x^2 - 5x + 2 tại x = 1.",
-        "answer": "0",
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 8 tại x = 5.",
+        "answer": "17",
         "acceptableAnswers": [
-          "0"
+          "17"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm bậc của đa thức: A(x) = 5x^4 - 2x^3 + 7x - 5x^4 + 1.",
-        "answer": "3",
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 36.",
+        "answer": "12",
         "acceptableAnswers": [
-          "3"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm nghiệm của đa thức: B(x) = 4x - 12.",
-        "answer": "3",
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 14, diện tích là bao nhiêu m^2?",
+        "answer": "144",
         "acceptableAnswers": [
-          "3"
+          "144"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **144**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm hệ số a để đa thức P(x) = ax^2 - 2x + 3 nhận x = -1 là nghiệm.",
-        "answer": "-5",
+        "level": "Vận dụng",
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
         "acceptableAnswers": [
-          "-5"
+          "324"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hai đa thức: $A(x) = 2x^3 - 3x^2 + 4x - 5$ và $B(x) = -x^3 + 3x^2 - 2x + 1$. Tính $A(x) + B(x)$.",
-        "rubric": "A(x) + B(x) = (2 - 1)x^3 + (-3 + 3)x^2 + (4 - 2)x + (-5 + 1) = x^3 + 2x - 4 (0.5đ)."
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 4x - 5$ và $B(x) = -x^3 + 2x^2 - 4x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (4 - 4)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho đa thức $M(x) = x^3 - 4x$. a) Tìm bậc và các hệ số của $M(x)$. b) Tìm tất cả các nghiệm của đa thức $M(x)$.",
-        "rubric": "a) Bậc 3, hệ số cao nhất là 1, hệ số bậc 1 là -4 (0.25đ).\nb) M(x) = x(x^2 - 4) = x(x - 2)(x + 2) = 0 => x = 0 hoặc x = 2 hoặc x = -2 (0.25đ)."
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $40$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 40 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 40) = x^2 + 40x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 40 . 60 (0.25đ).\nTính toán ra kết quả: S = 6000 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết rằng $P(0), P(1), P(2)$ đều là các số nguyên. Chứng minh rằng $2a, 2b$ và $c$ đều là các số nguyên.",
-        "rubric": "P(0) = c => c là số nguyên (0.25đ).\nP(1) = a + b + c nguyên => a + b nguyên.\nP(2) = 4a + 2b + c nguyên => 4a + 2b = 2(2a + b) nguyên.\nTa có 2a = P(2) - 2P(1) + P(0) là số nguyên.\n=> 2b = 2(a + b) - 2a cũng là số nguyên. Đpcm (0.25đ)."
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 8x + 17$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 8x + 16) + 1 (0.25đ).\nP(x) = (x - 4)^2 + 1 (0.25đ).\nVì (x - 4)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   },
   "c7_7_bai6_test5": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số - Bài kiểm tra số 5 (💡 Đa thức một biến & Nghiệm)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Biểu thức nào sau đây là đơn thức một biến?",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 05)?",
         "options": [
-          "$3x^2$",
-          "$2x + 1$",
-          "$x^2 - y$",
-          "$\\frac{1}{x}$"
+          "$6x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5685,12 +5670,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Bậc của đa thức $P(x) = 4x^3 - 2x^5 + x - 7$ là:",
+        "question": "Bậc của đa thức $P(x) = 5x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$5$",
-          "$3$",
-          "$4$",
-          "$7$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5698,12 +5683,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hệ số cao nhất của đa thức $A(x) = -3x^4 + 5x^2 - x + 9$ là:",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$-3$",
-          "$5$",
-          "$9$",
-          "$4$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5711,12 +5696,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ số tự do của đa thức $Q(x) = 2x^3 - 7x + 15$ là:",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$15$",
-          "$2$",
-          "$-7$",
-          "$0$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5724,12 +5709,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Giá trị của đa thức $P(x) = 2x^2 - 3x + 1$ tại $x = 2$ là:",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 5x$ tại $x = 2$ là:",
         "options": [
-          "$3$",
-          "$5$",
-          "$15$",
-          "$1$"
+          "$-2$",
+          "$18$",
+          "$-1$",
+          "$8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5737,12 +5722,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Số nào sau đây là nghiệm của đa thức $A(x) = 2x - 6$?",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 10$ là:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 6$",
-          "$x = 0$"
+          "$x = 5$",
+          "$x = -5$",
+          "$x = 0$",
+          "$x = 2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5750,12 +5735,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Thu gọn đa thức $M(x) = 3x^2 - 5x + 2x^2 + 5x - 7$ ta được:",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 20x^3 + 5$ là:",
         "options": [
-          "$5x^2 - 7$",
-          "$5x^2 + 10x - 7$",
-          "$x^2 - 7$",
-          "$5x^2$"
+          "$-20$",
+          "$20$",
+          "3",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5763,12 +5748,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho $P(x) = x^2 - 4x + 3$. Nghiệm của đa thức $P(x)$ là:",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 26$ là:",
         "options": [
-          "$x = 1$ và $x = 3$",
-          "$x = -1$ và $x = -3$",
-          "$x = 2$",
-          "$x = 4$"
+          "$26$",
+          "1",
+          "-2",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5776,12 +5761,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hai đa thức $A(x) = 3x^3 - 2x + 5$ và $B(x) = -x^3 + 2x - 1$. Đa thức $A(x) + B(x)$ bằng:",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$2x^3 + 4$",
-          "$4x^3 + 4$",
-          "$2x^3 - 4x + 6$",
-          "$2x^3 + 6$"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5789,12 +5774,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm đa thức $C(x)$ biết $C(x) + (2x^2 - x) = 5x^2 - 3x + 4$:",
+        "question": "Một hình chữ nhật có chiều dài là $x + 10$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "$C(x) = 3x^2 - 2x + 4$",
-          "$C(x) = 7x^2 - 4x + 4$",
-          "$C(x) = 3x^2 - 4x + 4$",
-          "$C(x) = 3x^2 + 2x + 4$"
+          "$x^2 + 10x$",
+          "$2x + 10$",
+          "$x^2 + 20$",
+          "$x^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5802,12 +5787,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Thực hiện phép nhân đa thức $(x - 2)(x + 3)$ ta được:",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $50\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$x^2 + x - 6$",
-          "$x^2 - x - 6$",
-          "$x^2 + 5x - 6$",
-          "$x^2 - 6$"
+          "$0.50x$",
+          "$0.50x$",
+          "$x - 50$",
+          "$x + 50$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5815,12 +5800,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Chứng minh đa thức $P(x) = x^2 + 2x + 5$ không có nghiệm trên tập số thực:",
+        "question": "Đa thức $P(x) = x^2 + 10x + 29$ có số nghiệm thực là:",
         "options": [
-          "$P(x) = (x + 1)^2 + 4 > 0$ với mọi $x$",
-          "$P(x)$ có bậc 2",
-          "Hệ số tự do dương",
-          "Vì $x^2 > 0$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5829,33 +5814,33 @@ const EXAMS_7_C7_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về đa thức một biến (Mã đề 5):",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 được coi là đa thức không có bậc.",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Một đa thức bậc n (n >= 1) có không quá n nghiệm.",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu P(a) = 0 thì a là một nghiệm của đa thức P(x).",
+            "text": "Đa thức P(x) = x^2 + 25 luôn dương với mọi số thực x nên không có nghiệm.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng của hai đa thức bậc 3 luôn luôn là một đa thức bậc 3.",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5863,33 +5848,33 @@ const EXAMS_7_C7_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho hai đa thức $P(x) = 2x^2 - 4x + 2$ và $Q(x) = x - 1$:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 5x + 3$ và $Q(x) = x^2 + 5x - 1$ (Mã đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Đa thức P(x) có bậc là 2, hệ số cao nhất là 2.",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Giá trị của Q(x) tại x = 1 bằng 0.",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chia đa thức P(x) cho Q(x) ta được thương là 2x - 2.",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 10x + 4.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đa thức P(x) có đúng hai nghiệm phân biệt.",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5900,79 +5885,79 @@ const EXAMS_7_C7_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của đa thức P(x) = 3x^2 - 5x + 2 tại x = 1.",
-        "answer": "0",
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 10 tại x = 6.",
+        "answer": "26",
         "acceptableAnswers": [
-          "0"
+          "26"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm bậc của đa thức: A(x) = 5x^4 - 2x^3 + 7x - 5x^4 + 1.",
-        "answer": "3",
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 45.",
+        "answer": "15",
         "acceptableAnswers": [
-          "3"
+          "15"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm nghiệm của đa thức: B(x) = 4x - 12.",
-        "answer": "3",
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 15, diện tích là bao nhiêu m^2?",
+        "answer": "169",
         "acceptableAnswers": [
-          "3"
+          "169"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **169**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm hệ số a để đa thức P(x) = ax^2 - 2x + 3 nhận x = -1 là nghiệm.",
-        "answer": "-5",
+        "level": "Vận dụng",
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
         "acceptableAnswers": [
-          "-5"
+          "324"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hai đa thức: $A(x) = 2x^3 - 3x^2 + 4x - 5$ và $B(x) = -x^3 + 3x^2 - 2x + 1$. Tính $A(x) + B(x)$.",
-        "rubric": "A(x) + B(x) = (2 - 1)x^3 + (-3 + 3)x^2 + (4 - 2)x + (-5 + 1) = x^3 + 2x - 4 (0.5đ)."
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 5x - 5$ và $B(x) = -x^3 + 2x^2 - 5x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (5 - 5)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho đa thức $M(x) = x^3 - 4x$. a) Tìm bậc và các hệ số của $M(x)$. b) Tìm tất cả các nghiệm của đa thức $M(x)$.",
-        "rubric": "a) Bậc 3, hệ số cao nhất là 1, hệ số bậc 1 là -4 (0.25đ).\nb) M(x) = x(x^2 - 4) = x(x - 2)(x + 2) = 0 => x = 0 hoặc x = 2 hoặc x = -2 (0.25đ)."
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $45$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 45 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 45) = x^2 + 45x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 45 . 60 (0.25đ).\nTính toán ra kết quả: S = 6300 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết rằng $P(0), P(1), P(2)$ đều là các số nguyên. Chứng minh rằng $2a, 2b$ và $c$ đều là các số nguyên.",
-        "rubric": "P(0) = c => c là số nguyên (0.25đ).\nP(1) = a + b + c nguyên => a + b nguyên.\nP(2) = 4a + 2b + c nguyên => 4a + 2b = 2(2a + b) nguyên.\nTa có 2a = P(2) - 2P(1) + P(0) là số nguyên.\n=> 2b = 2(a + b) - 2a cũng là số nguyên. Đpcm (0.25đ)."
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 10x + 26$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 10x + 25) + 1 (0.25đ).\nP(x) = (x - 5)^2 + 1 (0.25đ).\nVì (x - 5)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   },
   "c7_7_bai6_test6": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Biểu thức nào sau đây là đơn thức một biến?",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 06)?",
         "options": [
-          "$3x^2$",
-          "$2x + 1$",
-          "$x^2 - y$",
-          "$\\frac{1}{x}$"
+          "$7x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5980,12 +5965,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Bậc của đa thức $P(x) = 4x^3 - 2x^5 + x - 7$ là:",
+        "question": "Bậc của đa thức $P(x) = 6x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$5$",
-          "$3$",
-          "$4$",
-          "$7$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5993,12 +5978,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hệ số cao nhất của đa thức $A(x) = -3x^4 + 5x^2 - x + 9$ là:",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$-3$",
-          "$5$",
-          "$9$",
-          "$4$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6006,12 +5991,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ số tự do của đa thức $Q(x) = 2x^3 - 7x + 15$ là:",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$15$",
-          "$2$",
-          "$-7$",
-          "$0$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6019,12 +6004,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Giá trị của đa thức $P(x) = 2x^2 - 3x + 1$ tại $x = 2$ là:",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 6x$ tại $x = 2$ là:",
         "options": [
-          "$3$",
-          "$5$",
-          "$15$",
-          "$1$"
+          "$-4$",
+          "$20$",
+          "$-2$",
+          "$8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6032,12 +6017,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Số nào sau đây là nghiệm của đa thức $A(x) = 2x - 6$?",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 12$ là:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
           "$x = 6$",
-          "$x = 0$"
+          "$x = -6$",
+          "$x = 0$",
+          "$x = 2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6045,12 +6030,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Thu gọn đa thức $M(x) = 3x^2 - 5x + 2x^2 + 5x - 7$ ta được:",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 24x^3 + 5$ là:",
         "options": [
-          "$5x^2 - 7$",
-          "$5x^2 + 10x - 7$",
-          "$x^2 - 7$",
-          "$5x^2$"
+          "$-24$",
+          "$24$",
+          "3",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6058,12 +6043,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho $P(x) = x^2 - 4x + 3$. Nghiệm của đa thức $P(x)$ là:",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 37$ là:",
         "options": [
-          "$x = 1$ và $x = 3$",
-          "$x = -1$ và $x = -3$",
-          "$x = 2$",
-          "$x = 4$"
+          "$37$",
+          "1",
+          "-2",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6071,12 +6056,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hai đa thức $A(x) = 3x^3 - 2x + 5$ và $B(x) = -x^3 + 2x - 1$. Đa thức $A(x) + B(x)$ bằng:",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$2x^3 + 4$",
-          "$4x^3 + 4$",
-          "$2x^3 - 4x + 6$",
-          "$2x^3 + 6$"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6084,12 +6069,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm đa thức $C(x)$ biết $C(x) + (2x^2 - x) = 5x^2 - 3x + 4$:",
+        "question": "Một hình chữ nhật có chiều dài là $x + 12$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "$C(x) = 3x^2 - 2x + 4$",
-          "$C(x) = 7x^2 - 4x + 4$",
-          "$C(x) = 3x^2 - 4x + 4$",
-          "$C(x) = 3x^2 + 2x + 4$"
+          "$x^2 + 12x$",
+          "$2x + 12$",
+          "$x^2 + 24$",
+          "$x^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6097,12 +6082,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Thực hiện phép nhân đa thức $(x - 2)(x + 3)$ ta được:",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $60\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$x^2 + x - 6$",
-          "$x^2 - x - 6$",
-          "$x^2 + 5x - 6$",
-          "$x^2 - 6$"
+          "$0.40x$",
+          "$0.60x$",
+          "$x - 60$",
+          "$x + 60$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6110,12 +6095,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Chứng minh đa thức $P(x) = x^2 + 2x + 5$ không có nghiệm trên tập số thực:",
+        "question": "Đa thức $P(x) = x^2 + 12x + 40$ có số nghiệm thực là:",
         "options": [
-          "$P(x) = (x + 1)^2 + 4 > 0$ với mọi $x$",
-          "$P(x)$ có bậc 2",
-          "Hệ số tự do dương",
-          "Vì $x^2 > 0$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6124,33 +6109,33 @@ const EXAMS_7_C7_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về đa thức một biến (Mã đề 6):",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 được coi là đa thức không có bậc.",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Một đa thức bậc n (n >= 1) có không quá n nghiệm.",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu P(a) = 0 thì a là một nghiệm của đa thức P(x).",
+            "text": "Đa thức P(x) = x^2 + 36 luôn dương với mọi số thực x nên không có nghiệm.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng của hai đa thức bậc 3 luôn luôn là một đa thức bậc 3.",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6158,33 +6143,33 @@ const EXAMS_7_C7_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho hai đa thức $P(x) = 2x^2 - 4x + 2$ và $Q(x) = x - 1$:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 6x + 3$ và $Q(x) = x^2 + 6x - 1$ (Mã đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Đa thức P(x) có bậc là 2, hệ số cao nhất là 2.",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Giá trị của Q(x) tại x = 1 bằng 0.",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chia đa thức P(x) cho Q(x) ta được thương là 2x - 2.",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 12x + 4.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đa thức P(x) có đúng hai nghiệm phân biệt.",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6195,79 +6180,79 @@ const EXAMS_7_C7_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của đa thức P(x) = 3x^2 - 5x + 2 tại x = 1.",
-        "answer": "0",
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 12 tại x = 7.",
+        "answer": "37",
         "acceptableAnswers": [
-          "0"
+          "37"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **37**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm bậc của đa thức: A(x) = 5x^4 - 2x^3 + 7x - 5x^4 + 1.",
-        "answer": "3",
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 54.",
+        "answer": "18",
         "acceptableAnswers": [
-          "3"
+          "18"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **18**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm nghiệm của đa thức: B(x) = 4x - 12.",
-        "answer": "3",
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 16, diện tích là bao nhiêu m^2?",
+        "answer": "196",
         "acceptableAnswers": [
-          "3"
+          "196"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **196**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm hệ số a để đa thức P(x) = ax^2 - 2x + 3 nhận x = -1 là nghiệm.",
-        "answer": "-5",
+        "level": "Vận dụng",
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
         "acceptableAnswers": [
-          "-5"
+          "324"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hai đa thức: $A(x) = 2x^3 - 3x^2 + 4x - 5$ và $B(x) = -x^3 + 3x^2 - 2x + 1$. Tính $A(x) + B(x)$.",
-        "rubric": "A(x) + B(x) = (2 - 1)x^3 + (-3 + 3)x^2 + (4 - 2)x + (-5 + 1) = x^3 + 2x - 4 (0.5đ)."
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 6x - 5$ và $B(x) = -x^3 + 2x^2 - 6x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (6 - 6)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho đa thức $M(x) = x^3 - 4x$. a) Tìm bậc và các hệ số của $M(x)$. b) Tìm tất cả các nghiệm của đa thức $M(x)$.",
-        "rubric": "a) Bậc 3, hệ số cao nhất là 1, hệ số bậc 1 là -4 (0.25đ).\nb) M(x) = x(x^2 - 4) = x(x - 2)(x + 2) = 0 => x = 0 hoặc x = 2 hoặc x = -2 (0.25đ)."
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $50$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 50 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 50) = x^2 + 50x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 50 . 60 (0.25đ).\nTính toán ra kết quả: S = 6600 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết rằng $P(0), P(1), P(2)$ đều là các số nguyên. Chứng minh rằng $2a, 2b$ và $c$ đều là các số nguyên.",
-        "rubric": "P(0) = c => c là số nguyên (0.25đ).\nP(1) = a + b + c nguyên => a + b nguyên.\nP(2) = 4a + 2b + c nguyên => 4a + 2b = 2(2a + b) nguyên.\nTa có 2a = P(2) - 2P(1) + P(0) là số nguyên.\n=> 2b = 2(a + b) - 2a cũng là số nguyên. Đpcm (0.25đ)."
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 12x + 37$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 12x + 36) + 1 (0.25đ).\nP(x) = (x - 6)^2 + 1 (0.25đ).\nVì (x - 6)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   },
   "c7_7_bai6_test7": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VII: Biểu thức đại số và đa thức một biến - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Biểu thức nào sau đây là đơn thức một biến?",
+        "question": "Biểu thức nào sau đây là biểu thức đại số (Đề 07)?",
         "options": [
-          "$3x^2$",
-          "$2x + 1$",
-          "$x^2 - y$",
-          "$\\frac{1}{x}$"
+          "$8x^2 - 3x + 1$",
+          "$2 + 3 = 5$",
+          "$4 > 2$",
+          "$5 \\neq 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6275,12 +6260,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Bậc của đa thức $P(x) = 4x^3 - 2x^5 + x - 7$ là:",
+        "question": "Bậc của đa thức $P(x) = 7x^4 - 2x^2 + 5$ là:",
         "options": [
-          "$5$",
-          "$3$",
-          "$4$",
-          "$7$"
+          "4",
+          "2",
+          "5",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6288,12 +6273,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hệ số cao nhất của đa thức $A(x) = -3x^4 + 5x^2 - x + 9$ là:",
+        "question": "Nghiệm của đa thức $P(x)$ là giá trị của biến làm cho:",
         "options": [
-          "$-3$",
-          "$5$",
-          "$9$",
-          "$4$"
+          "$P(x) = 0$",
+          "$P(x) > 0$",
+          "$P(x) = 1$",
+          "$P(x) < 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6301,12 +6286,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ số tự do của đa thức $Q(x) = 2x^3 - 7x + 15$ là:",
+        "question": "Đa thức một biến là tổng của những đơn thức của:",
         "options": [
-          "$15$",
-          "$2$",
-          "$-7$",
-          "$0$"
+          "Cùng một biến",
+          "Nhiều biến khác nhau",
+          "Các số nguyên",
+          "Các phân số"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6314,12 +6299,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Giá trị của đa thức $P(x) = 2x^2 - 3x + 1$ tại $x = 2$ là:",
+        "question": "Giá trị của biểu thức $A = 2x^2 - 7x$ tại $x = 2$ là:",
         "options": [
-          "$3$",
-          "$5$",
-          "$15$",
-          "$1$"
+          "$-6$",
+          "$22$",
+          "$-3$",
+          "$8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6327,12 +6312,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Số nào sau đây là nghiệm của đa thức $A(x) = 2x - 6$?",
+        "question": "Nghiệm của đa thức $Q(x) = 2x - 14$ là:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 6$",
-          "$x = 0$"
+          "$x = 7$",
+          "$x = -7$",
+          "$x = 0$",
+          "$x = 2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6340,12 +6325,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Thu gọn đa thức $M(x) = 3x^2 - 5x + 2x^2 + 5x - 7$ ta được:",
+        "question": "Hệ số cao nhất của đa thức $A(x) = 3x^2 - 28x^3 + 5$ là:",
         "options": [
-          "$5x^2 - 7$",
-          "$5x^2 + 10x - 7$",
-          "$x^2 - 7$",
-          "$5x^2$"
+          "$-28$",
+          "$28$",
+          "3",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6353,12 +6338,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho $P(x) = x^2 - 4x + 3$. Nghiệm của đa thức $P(x)$ là:",
+        "question": "Hệ số tự do của đa thức $B(x) = x^3 - 2x + 50$ là:",
         "options": [
-          "$x = 1$ và $x = 3$",
-          "$x = -1$ và $x = -3$",
-          "$x = 2$",
-          "$x = 4$"
+          "$50$",
+          "1",
+          "-2",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6366,12 +6351,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho hai đa thức $A(x) = 3x^3 - 2x + 5$ và $B(x) = -x^3 + 2x - 1$. Đa thức $A(x) + B(x)$ bằng:",
+        "question": "Một người đi bộ với vận tốc $4$ km/h trong $x$ giờ, sau đó đi xe đạp với vận tốc $12$ km/h trong $y$ giờ. Biểu thức đại số biểu thị tổng quãng đường người đó đã đi là:",
         "options": [
-          "$2x^3 + 4$",
-          "$4x^3 + 4$",
-          "$2x^3 - 4x + 6$",
-          "$2x^3 + 6$"
+          "$4x + 12y$",
+          "$12x + 4y$",
+          "$16(x + y)$",
+          "$48xy$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6379,12 +6364,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm đa thức $C(x)$ biết $C(x) + (2x^2 - x) = 5x^2 - 3x + 4$:",
+        "question": "Một hình chữ nhật có chiều dài là $x + 14$ mét, chiều rộng là $x$ mét. Đa thức biểu thị diện tích hình chữ nhật là:",
         "options": [
-          "$C(x) = 3x^2 - 2x + 4$",
-          "$C(x) = 7x^2 - 4x + 4$",
-          "$C(x) = 3x^2 - 4x + 4$",
-          "$C(x) = 3x^2 + 2x + 4$"
+          "$x^2 + 14x$",
+          "$2x + 14$",
+          "$x^2 + 28$",
+          "$x^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6392,12 +6377,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Thực hiện phép nhân đa thức $(x - 2)(x + 3)$ ta được:",
+        "question": "Giá bán một chiếc áo ban đầu là $x$ đồng. Đợt khuyến mại cửa hàng giảm giá $70\\%$. Biểu thức biểu diễn giá bán sau khi giảm là:",
         "options": [
-          "$x^2 + x - 6$",
-          "$x^2 - x - 6$",
-          "$x^2 + 5x - 6$",
-          "$x^2 - 6$"
+          "$0.30x$",
+          "$0.70x$",
+          "$x - 70$",
+          "$x + 70$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6405,12 +6390,12 @@ const EXAMS_7_C7_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Chứng minh đa thức $P(x) = x^2 + 2x + 5$ không có nghiệm trên tập số thực:",
+        "question": "Đa thức $P(x) = x^2 + 14x + 53$ có số nghiệm thực là:",
         "options": [
-          "$P(x) = (x + 1)^2 + 4 > 0$ với mọi $x$",
-          "$P(x)$ có bậc 2",
-          "Hệ số tự do dương",
-          "Vì $x^2 > 0$"
+          "0 nghiệm (vô nghiệm)",
+          "1 nghiệm",
+          "2 nghiệm",
+          "Vô số nghiệm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6419,33 +6404,33 @@ const EXAMS_7_C7_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về đa thức một biến (Mã đề 7):",
+        "stem": "Xét tính đúng sai về đa thức một biến (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 được coi là đa thức không có bậc.",
+            "level": "Nhận biết",
+            "text": "Bậc của đa thức một biến (khác đa thức không) là số mũ lớn nhất của biến trong đa thức thu gọn.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Một đa thức bậc n (n >= 1) có không quá n nghiệm.",
+            "text": "Đa thức bậc 1 luôn có đúng một nghiệm thực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu P(a) = 0 thì a là một nghiệm của đa thức P(x).",
+            "text": "Đa thức P(x) = x^2 + 49 luôn dương với mọi số thực x nên không có nghiệm.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng của hai đa thức bậc 3 luôn luôn là một đa thức bậc 3.",
+            "text": "Một đa thức bậc 3 có thể có 4 nghiệm phân biệt.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6453,33 +6438,33 @@ const EXAMS_7_C7_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho hai đa thức $P(x) = 2x^2 - 4x + 2$ và $Q(x) = x - 1$:",
+        "stem": "Cho hai đa thức $P(x) = 2x^2 - 7x + 3$ và $Q(x) = x^2 + 7x - 1$ (Mã đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Đa thức P(x) có bậc là 2, hệ số cao nhất là 2.",
+            "level": "Nhận biết",
+            "text": "P(x) và Q(x) đều là các đa thức bậc 2 theo biến x.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Giá trị của Q(x) tại x = 1 bằng 0.",
+            "text": "Tổng P(x) + Q(x) = 3x^2 + 2.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chia đa thức P(x) cho Q(x) ta được thương là 2x - 2.",
+            "text": "Hiệu P(x) - Q(x) = x^2 - 14x + 4.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đa thức P(x) có đúng hai nghiệm phân biệt.",
+            "text": "Tổng P(x) + Q(x) có nghiệm là x = 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6490,62 +6475,62 @@ const EXAMS_7_C7_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của đa thức P(x) = 3x^2 - 5x + 2 tại x = 1.",
-        "answer": "0",
+        "question": "Tính giá trị của đa thức P(x) = x^2 - 14 tại x = 8.",
+        "answer": "50",
         "acceptableAnswers": [
-          "0"
+          "50"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **50**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm bậc của đa thức: A(x) = 5x^4 - 2x^3 + 7x - 5x^4 + 1.",
-        "answer": "3",
+        "question": "Tìm nghiệm của đa thức bậc nhất: A(x) = 3x - 63.",
+        "answer": "21",
         "acceptableAnswers": [
-          "3"
+          "21"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **21**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm nghiệm của đa thức: B(x) = 4x - 12.",
-        "answer": "3",
+        "question": "Một mảnh đất hình vuông có cạnh là x mét. Người ta bớt mỗi cạnh 2 mét để làm lối đi. Viết đa thức biểu thị diện tích phần đất còn lại. Khi x = 17, diện tích là bao nhiêu m^2?",
+        "answer": "225",
         "acceptableAnswers": [
-          "3"
+          "225"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **225**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm hệ số a để đa thức P(x) = ax^2 - 2x + 3 nhận x = -1 là nghiệm.",
-        "answer": "-5",
+        "level": "Vận dụng",
+        "question": "Một bể bơi hình chữ nhật có chiều dài 25 m, chiều rộng 10 m. Người ta làm một lối đi xung quanh rộng x mét. Khi x = 1, diện tích toàn bộ khu đất là bao nhiêu m^2?",
+        "answer": "324",
         "acceptableAnswers": [
-          "-5"
+          "324"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **324**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hai đa thức: $A(x) = 2x^3 - 3x^2 + 4x - 5$ và $B(x) = -x^3 + 3x^2 - 2x + 1$. Tính $A(x) + B(x)$.",
-        "rubric": "A(x) + B(x) = (2 - 1)x^3 + (-3 + 3)x^2 + (4 - 2)x + (-5 + 1) = x^3 + 2x - 4 (0.5đ)."
+        "question": "Cho hai đa thức: $A(x) = 3x^3 - 2x^2 + 7x - 5$ và $B(x) = -x^3 + 2x^2 - 7x + 10$. Tính $A(x) + B(x)$.",
+        "rubric": "Đặt phép tính cộng hai đa thức A(x) + B(x) (0.25đ).\nNhóm các hạng tử cùng bậc: (3 - 1)x^3 + (-2 + 2)x^2 + (7 - 7)x + (-5 + 10) (0.25đ).\nThu gọn các hạng tử đồng dạng: 2x^3 + 0x^2 + 0x + 5 (0.25đ).\nKết quả thu gọn: A(x) + B(x) = 2x^3 + 5 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho đa thức $M(x) = x^3 - 4x$. a) Tìm bậc và các hệ số của $M(x)$. b) Tìm tất cả các nghiệm của đa thức $M(x)$.",
-        "rubric": "a) Bậc 3, hệ số cao nhất là 1, hệ số bậc 1 là -4 (0.25đ).\nb) M(x) = x(x^2 - 4) = x(x - 2)(x + 2) = 0 => x = 0 hoặc x = 2 hoặc x = -2 (0.25đ)."
+        "question": "Bác thợ mộc đóng một chiếc bàn học có mặt bàn hình chữ nhật với chiều dài hơn chiều rộng $55$ cm. Gọi chiều rộng mặt bàn là $x$ (cm). Viết đa thức biểu thị diện tích mặt bàn theo $x$ và tính diện tích mặt bàn khi chiều rộng $x = 60$ cm.",
+        "rubric": "Chiều dài mặt bàn là: x + 55 (cm) (0.25đ).\nĐa thức biểu thị diện tích: S(x) = x(x + 55) = x^2 + 55x (cm^2) (0.25đ).\nThay x = 60 vào đa thức: S(60) = 60^2 + 55 . 60 (0.25đ).\nTính toán ra kết quả: S = 6900 cm^2. Kết luận diện tích mặt bàn (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho đa thức $P(x) = ax^2 + bx + c$. Biết rằng $P(0), P(1), P(2)$ đều là các số nguyên. Chứng minh rằng $2a, 2b$ và $c$ đều là các số nguyên.",
-        "rubric": "P(0) = c => c là số nguyên (0.25đ).\nP(1) = a + b + c nguyên => a + b nguyên.\nP(2) = 4a + 2b + c nguyên => 4a + 2b = 2(2a + b) nguyên.\nTa có 2a = P(2) - 2P(1) + P(0) là số nguyên.\n=> 2b = 2(a + b) - 2a cũng là số nguyên. Đpcm (0.25đ)."
+        "question": "Chứng minh rằng đa thức $P(x) = x^2 - 14x + 50$ không có nghiệm với mọi số thực $x$.",
+        "rubric": "Biến đổi đa thức về dạng bình phương cộng một hằng số: P(x) = (x^2 - 14x + 49) + 1 (0.25đ).\nP(x) = (x - 7)^2 + 1 (0.25đ).\nVì (x - 7)^2 >= 0 với mọi x nên P(x) >= 1 > 0 với mọi x (0.25đ).\nDo P(x) luôn nhận giá trị dương nên đa thức không có nghiệm. ĐPCM (0.25đ)."
       }
     ]
   }

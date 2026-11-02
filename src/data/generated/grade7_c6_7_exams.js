@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG VI: TỈ LỆ THỨC VÀ ĐẠI LƯỢNG TỈ LỆ - TOÁN 7 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:20:50
+// Cập nhật lúc: 2026-11-02 07:40:53
 // ==============================================================================
 
 const EXAMS_7_C6_7 = {
@@ -3570,213 +3570,233 @@ const EXAMS_7_C6_7 = {
     ]
   },
   "c6_7_bai5_test1": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Đẳng thức nào sau đây là một tỉ lệ thức?",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 01):",
         "options": [
           "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{b} - \\frac{c}{d} = 0$",
-          "$\\frac{a}{b} + \\frac{c}{d} = 1$",
-          "$\\frac{a}{b} \\cdot \\frac{c}{d} = 1$"
+          "$a + b = c + d$",
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Từ đẳng thức $ad = bc$ ($b, d \\neq 0$) suy ra tỉ lệ thức nào?",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$\\frac{a}{d} = \\frac{c}{b}$",
-          "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{b}{a} = \\frac{c}{d}$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Đại lượng $y$ tỉ lệ thuận với $x$ theo công thức nào?",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$xy = a$",
-          "$y = \\frac{a}{x}$",
-          "$y = kx + b$",
-          "$y = kx$ ($k \\neq 0$)"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Đại lượng $y$ tỉ lệ nghịch với $x$ theo công thức nào?",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$y = ax$",
-          "$y = a + x$",
-          "$y = \\frac{a}{x}$ ($a \\neq 0$)",
-          "$y = \\frac{x}{a}$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{8} = \\frac{3}{4}$:",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{2} = \\frac32$:",
         "options": [
-          "$x = 8$",
-          "$x = 12$",
-          "$x = 4$",
-          "$x = 6$"
+          "$x = 3$",
+          "$x = 1$",
+          "$x = 6$",
+          "$x = 2$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{2} = \\frac{y}{5}$ và $x + y = 28$:",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 5$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 14, y = 14$",
-          "$x = 10, y = 18$",
-          "$x = 8, y = 20$",
-          "$x = 6, y = 22$"
+          "$x = 2, y = 3$",
+          "$x = 3, y = 2$",
+          "$x = 1, y = 4$",
+          "$x = 2, y = 3$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho $y$ tỉ lệ thuận với $x$ theo hệ số $k = 3$. Khi $x = 5$ thì $y$ bằng:",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 1$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$\\frac{3}{5}$",
-          "$15$",
-          "$8$",
-          "$\\frac{5}{3}$"
+          "$4$",
+          "$1$",
+          "$5$",
+          "$4$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Cho $y$ tỉ lệ nghịch với $x$ theo hệ số $a = 18$. Khi $x = 2$ thì $y$ bằng:",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 3$. Hệ số tỉ lệ là:",
         "options": [
-          "$9$",
-          "$36$",
-          "$20$",
-          "$16$"
+          "$6$",
+          "$3$",
+          "$2$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Một ô tô đi quãng đường 120 km hết 2 giờ. Vận tốc của ô tô là:",
+        "level": "Vận dụng",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $330$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$80$ km/h",
-          "$60$ km/h",
-          "$70$ km/h",
-          "$50$ km/h"
+          "220 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Mua 6 mét vải hết 180 000 đồng. Mua 10 mét vải như thế hết bao nhiêu tiền?",
+        "level": "Vận dụng",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $132$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "$300\\,000$ đồng",
-          "$270\\,000$ đồng",
-          "$360\\,000$ đồng",
-          "$240\\,000$ đồng"
+          "33 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Ba lớp 7A, 7B, 7C có số học sinh tỉ lệ với $7 : 8 : 9$. Tổng số học sinh cả ba lớp là 120 em. Lớp 7B có bao nhiêu học sinh?",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$38$ em",
-          "$40$ em",
-          "$45$ em",
-          "$35$ em"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Vận dụng",
-        "question": "Cho tam giác có ba góc tỉ lệ với $1 : 2 : 3$. Số đo ba góc đó là:",
+        "level": "Vận dụng cao",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 29$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$20^\\circ, 40^\\circ, 60^\\circ$",
-          "$30^\\circ, 50^\\circ, 100^\\circ$",
-          "$45^\\circ, 45^\\circ, 90^\\circ$",
-          "$30^\\circ, 60^\\circ, 90^\\circ$"
+          "$9$",
+          "$6$",
+          "$12$",
+          "$29$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{x}{3} = \\frac{y}{5} = \\frac{z}{7}$ và $x + y + z = 60$. Xét tính đúng/sai:",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 01):",
         "statements": [
           {
-            "id": "a",
-            "statement": "Tổng số phần bằng nhau ở mẫu là $3 + 5 + 7 = 15$.",
-            "isCorrect": true,
-            "explanation": "Mẫu số là 15."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Giá trị của mỗi tỉ số bằng $\\frac{60}{15} = 4$.",
-            "isCorrect": true,
-            "explanation": "$\\frac{60}{15} = 4$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Số $x = 12, y = 20, z = 28$.",
-            "isCorrect": true,
-            "explanation": "$x = 3 \\times 4 = 12, y = 5 \\times 4 = 20, z = 7 \\times 4 = 28$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Hiệu $z - x = 14$.",
-            "isCorrect": false,
-            "explanation": "$z - x = 28 - 12 = 16 \\neq 14$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho các nhận định về hai đại lượng tỉ lệ, xét tính đúng/sai:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 01): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
-            "id": "a",
-            "statement": "Nếu $y = kx$ ($k \\neq 0$) thì $y$ tỉ lệ thuận với $x$.",
-            "isCorrect": true,
-            "explanation": "Đúng định nghĩa tỉ lệ thuận."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Nếu $xy = a$ ($a \\neq 0$) thì $y$ tỉ lệ nghịch với $x$.",
-            "isCorrect": true,
-            "explanation": "Đúng định nghĩa tỉ lệ nghịch."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Số lượng công nhân và thời gian hoàn thành một công việc (năng suất như nhau) là hai đại lượng tỉ lệ thuận.",
-            "isCorrect": false,
-            "explanation": "Càng nhiều công nhân thì thời gian làm càng giảm, đây là hai đại lượng tỉ lệ nghịch."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Quãng đường đi được và thời gian chuyển động (khi vận tốc không đổi) là hai đại lượng tỉ lệ thuận.",
-            "isCorrect": true,
-            "explanation": "$s = v \\cdot t$, khi $v$ không đổi thì $s$ tỉ lệ thuận với $t$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3785,294 +3805,293 @@ const EXAMS_7_C6_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{15} = \\frac{4}{5}$.",
-        "answer": 12,
-        "unit": ""
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 1 / 2.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Cho $\\frac{x}{4} = \\frac{y}{7}$ và $x + y = 33$. Tìm $x$.",
-        "answer": 12,
-        "unit": ""
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 6. Tìm hệ số tỉ lệ k của y đối với x.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một ô tô đi 100 km tiêu thụ 9 lít xăng. Hỏi đi 300 km tiêu thụ bao nhiêu lít xăng?",
-        "answer": 27,
-        "unit": "lít"
+        "question": "Mua 5 quyển vở cùng loại hết 45 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "90",
+        "acceptableAnswers": [
+          "90"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **90**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Một đội 8 người làm xong công việc trong 15 ngày. Muốn xong trong 10 ngày thì cần bao nhiêu người (năng suất như nhau)?",
-        "answer": 12,
-        "unit": "người"
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
+        "acceptableAnswers": [
+          "12"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm các số $x, y, z$ biết:\n$\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x + y + z = 40$.",
-        "maxScore": 1.0,
-        "solution": "Áp dụng tính chất của dãy tỉ số bằng nhau:\n$\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5} = \\frac{x + y + z}{2 + 3 + 5} = \\frac{40}{10} = 4$.\nSuy ra:\n$x = 2 \\times 4 = 8$.\n$y = 3 \\times 4 = 12$.\n$z = 5 \\times 4 = 20$.\nVậy $x = 8, y = 12, z = 20$.",
-        "rubric": [
-          {
-            "step": "Áp dụng tính chất dãy tỉ số tính ra giá trị 4",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tìm đúng x = 8, y = 12, z = 20",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 16$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 16 / 8 = 2 (0.25đ).\nSuy ra: x = 3 . 2 = 6 (0.25đ).\ny = 5 . 2 = 10. Vậy x = 6, y = 10 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Hai người làm cỏ một mảnh vườn: người thứ nhất làm một mình hết 6 giờ, người thứ hai làm một mình hết 8 giờ. Hỏi nếu cả hai người cùng làm thì sau bao lâu làm xong mảnh vườn?",
-        "maxScore": 1.0,
-        "solution": "Trong 1 giờ, người thứ nhất làm được: $\\frac{1}{6}$ (công việc).\nTrong 1 giờ, người thứ hai làm được: $\\frac{1}{8}$ (công việc).\nTrong 1 giờ, cả hai người cùng làm được:\n$\\frac{1}{6} + \\frac{1}{8} = \\frac{4 + 3}{24} = \\frac{7}{24}$ (công việc).\nThời gian để cả hai người cùng làm xong mảnh vườn là:\n$1 : \\frac{7}{24} = \\frac{24}{7}$ giờ (khoảng 3 giờ 25 phút 43 giây).\nVậy cả hai người cùng làm hết $\\frac{24}{7}$ giờ.",
-        "rubric": [
-          {
-            "step": "Tính năng suất 1 giờ của từng người và cả hai người là 7/24",
-            "subScore": 0.6
-          },
-          {
-            "step": "Tính thời gian hoàn thành là 24/7 giờ",
-            "subScore": 0.4
-          }
-        ]
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $252$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 252 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (252)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
-        "level": "Vận dụng",
-        "question": "Số học sinh giỏi của ba lớp 7A, 7B, 7C tỉ lệ với $3; 4; 5$. Biết số học sinh giỏi của lớp 7C nhiều hơn lớp 7A là 6 em. Tính số học sinh giỏi của mỗi lớp.",
-        "maxScore": 1.0,
-        "solution": "Gọi số học sinh giỏi của ba lớp 7A, 7B, 7C lần lượt là $x, y, z$ (học sinh) ($x, y, z \\in \\mathbb{N}^*$).\nTa có: $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$ và $z - x = 6$.\nÁp dụng tính chất của dãy tỉ số bằng nhau:\n$\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5} = \\frac{z - x}{5 - 3} = \\frac{6}{2} = 3$.\nSuy ra:\n$x = 3 \\times 3 = 9$ học sinh.\n$y = 4 \\times 3 = 12$ học sinh.\n$z = 5 \\times 3 = 15$ học sinh.\nVậy lớp 7A có 9 học sinh giỏi, lớp 7B có 12 học sinh giỏi, lớp 7C có 15 học sinh giỏi.",
-        "rubric": [
-          {
-            "step": "Thiết lập tỉ lệ thức và áp dụng hiệu z - x = 6 tính ra tỉ số 3",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tìm đúng x = 9, y = 12, z = 15 và kết luận",
-            "subScore": 0.5
-          }
-        ]
+        "level": "Vận dụng cao",
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c6_7_bai5_test2": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Bài kiểm tra số 2 (🌿 Khá)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho tỉ lệ thức $\\frac{x}{3} = \\frac{y}{5}$. Tỉ số $\\frac{x + y}{x - y}$ bằng:",
+        "level": "Nhận biết",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 02):",
         "options": [
-          "$-4$",
-          "$\\frac{1}{4}$",
-          "$-\\frac{1}{4}$",
-          "$4$"
+          "$\\frac{a}{b} = \\frac{c}{d}$",
+          "$a + b = c + d$",
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}$ và $2x + y - z = 9$. Giá trị của $y$ là:",
+        "level": "Nhận biết",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$6$",
-          "$3$",
-          "$12$",
-          "$9$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "Nếu đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số $k = 4$ thì đại lượng $x$ tỉ lệ thuận với $y$ theo hệ số là:",
+        "level": "Nhận biết",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$0{,}25$",
-          "$4$",
-          "$-0{,}25$",
-          "$-4$"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Thông hiểu",
-        "question": "Nếu đại lượng $y$ tỉ lệ nghịch với $x$ theo hệ số $a = 15$ thì đại lượng $x$ tỉ lệ nghịch với $y$ theo hệ số là:",
+        "level": "Nhận biết",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$0$",
-          "$\\frac{1}{15}$",
-          "$-15$",
-          "$15$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Ba cạnh của tam giác tỉ lệ với $4 : 5 : 6$ và chu vi bằng $60$ cm. Độ dài cạnh ngắn nhất là:",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{4} = \\frac32$:",
         "options": [
-          "$20$ cm",
-          "$16$ cm",
-          "$24$ cm",
-          "$12$ cm"
+          "$x = 6$",
+          "$x = 2$",
+          "$x = 12$",
+          "$x = 4$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng",
-        "question": "Một ô tô đi quãng đường AB mất 3 giờ với vận tốc 50 km/h. Nếu đi với vận tốc 60 km/h thì hết bao lâu?",
+        "level": "Thông hiểu",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 10$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$2{,}8$ giờ",
-          "$2$ giờ",
-          "$3{,}5$ giờ",
-          "$2{,}5$ giờ"
+          "$x = 4, y = 6$",
+          "$x = 6, y = 4$",
+          "$x = 2, y = 8$",
+          "$x = 2, y = 3$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng",
-        "question": "Cho hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau. Biết $x_1 - x_2 = 3$ và $y_1 - y_2 = -9$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
+        "level": "Thông hiểu",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 2$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$-1/3$",
-          "$3$",
-          "$-3$",
-          "$1/3$"
+          "$8$",
+          "$2$",
+          "$6$",
+          "$4$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng",
-        "question": "Cho hai đại lượng $x$ và $y$ tỉ lệ nghịch. Biết $x_1 = 4, y_1 = 10$ và $x_2 = 5$. Giá trị của $y_2$ là:",
+        "level": "Thông hiểu",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 6$. Hệ số tỉ lệ là:",
         "options": [
+          "$12$",
           "$6$",
-          "$8$",
-          "$2$",
-          "$12{,}5$"
+          "$4$",
+          "$6$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Chia số 180 thành ba phần tỉ lệ thuận với $2; 3; 4$. Số lớn nhất trong ba số là:",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $360$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$100$",
-          "$60$",
-          "$80$",
-          "$40$"
+          "240 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Chia số 180 thành ba phần tỉ lệ nghịch với $2; 3; 6$. Số lớn nhất trong ba số là:",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $144$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "$30$",
-          "$90$",
-          "$100$",
-          "$60$"
+          "36 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Tìm hai số $x, y$ biết $\\frac{x}{3} = \\frac{y}{4}$ và $x^2 + y^2 = 100$ ($x, y > 0$):",
+        "level": "Vận dụng",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$x = 6, y = 8$",
-          "$x = 12, y = 16$",
-          "$x = 3, y = 4$",
-          "$x = 9, y = 12$"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Đẳng thức nào sau đây là SAI?",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 116$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$\\frac{a+c}{b+d} = \\frac{a-c}{b-d}$",
-          "$\\frac{a-b}{b} = \\frac{c-d}{d}$",
-          "$\\frac{a+b}{b} = \\frac{c-d}{d}$",
-          "$\\frac{a+b}{b} = \\frac{c+d}{d}$"
+          "$18$",
+          "$12$",
+          "$24$",
+          "$58$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho ba số $x, y, z$ thỏa mãn $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}$ và $x - 2y + 3z = 24$. Xét tính đúng/sai:",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 02):",
         "statements": [
           {
-            "id": "a",
-            "statement": "Hệ số ở mẫu tương ứng là $2 - 2(3) + 3(4) = 2 - 6 + 12 = 8$.",
-            "isCorrect": true,
-            "explanation": "$2 - 6 + 12 = 8$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Giá trị của mỗi tỉ số bằng $\\frac{24}{8} = 3$.",
-            "isCorrect": true,
-            "explanation": "$24 / 8 = 3$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Ba số tìm được là $x = 6, y = 9, z = 12$.",
-            "isCorrect": true,
-            "explanation": "$x = 2 \\times 3 = 6, y = 3 \\times 3 = 9, z = 4 \\times 3 = 12$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Tổng $x + y + z = 30$.",
-            "isCorrect": false,
-            "explanation": "$6 + 9 + 12 = 27 \\neq 30$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Một người dự định hoàn thành một công việc trong 20 ngày với 12 công nhân. Nhưng thực tế có thêm 3 công nhân tham gia làm việc ngay từ đầu (năng suất như nhau). Xét tính đúng/sai:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 02): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
-            "id": "a",
-            "statement": "Số công nhân thực tế làm việc là $15$ người.",
-            "isCorrect": true,
-            "explanation": "$12 + 3 = 15$ người."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Thời gian hoàn thành tỉ lệ nghịch với số lượng công nhân.",
-            "isCorrect": true,
-            "explanation": "Khối lượng không đổi thì thời gian tỉ lệ nghịch với số người."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Thời gian thực tế làm xong công việc là $16$ ngày.",
-            "isCorrect": true,
-            "explanation": "$t = (12 \\times 20) / 15 = 240 / 15 = 16$ ngày."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Công việc được hoàn thành sớm hơn dự định 5 ngày.",
-            "isCorrect": false,
-            "explanation": "$20 - 16 = 4$ ngày, không phải 5 ngày."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4081,294 +4100,293 @@ const EXAMS_7_C6_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho $\\frac{x}{3} = \\frac{y}{5}$ và $y - x = 8$. Tìm $x$.",
-        "answer": 12,
-        "unit": ""
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 2 / 2.",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Tìm hai số $x, y$ dương biết $\\frac{x}{2} = \\frac{y}{3}$ và $x \\cdot y = 54$. Tính $x + y$.",
-        "answer": 15,
-        "unit": ""
+        "level": "Thông hiểu",
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 12. Tìm hệ số tỉ lệ k của y đối với x.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một ô tô đi từ A đến B với vận tốc 40 km/h hết 4,5 giờ. Nếu đi với vận tốc 60 km/h thì hết bao nhiêu giờ?",
-        "answer": 3,
-        "unit": "giờ"
+        "question": "Mua 5 quyển vở cùng loại hết 50 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "100",
+        "acceptableAnswers": [
+          "100"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\frac{a}{3} = \\frac{b}{4} = \\frac{c}{5}$ và $a + 2b - c = 24$. Tính giá trị của $a + b + c$.",
-        "answer": 48,
-        "unit": ""
+        "level": "Vận dụng",
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
+        "acceptableAnswers": [
+          "12"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Tìm $x, y, z$ biết:\n$\\frac{x}{2} = \\frac{y}{3}; \\frac{y}{4} = \\frac{z}{5}$ và $x + y - z = 10$.",
-        "maxScore": 1.0,
-        "solution": "Từ $\\frac{x}{2} = \\frac{y}{3} \\Rightarrow \\frac{x}{8} = \\frac{y}{12}$.\nTừ $\\frac{y}{4} = \\frac{z}{5} \\Rightarrow \\frac{y}{12} = \\frac{z}{15}$.\nSuy ra dãy tỉ số bằng nhau: $\\frac{x}{8} = \\frac{y}{12} = \\frac{z}{15}$.\nVà $x + y - z = 10$.\nÁp dụng tính chất của dãy tỉ số bằng nhau:\n$\\frac{x}{8} = \\frac{y}{12} = \\frac{z}{15} = \\frac{x + y - z}{8 + 12 - 15} = \\frac{10}{5} = 2$.\nSuy ra:\n$x = 8 \\times 2 = 16$.\n$y = 12 \\times 2 = 24$.\n$z = 15 \\times 2 = 30$.\nVậy $x = 16, y = 24, z = 30$.",
-        "rubric": [
-          {
-            "step": "Quy đồng đưa về cùng dãy x/8 = y/12 = z/15",
-            "subScore": 0.5
-          },
-          {
-            "step": "Áp dụng tính chất dãy tỉ số tìm đúng x = 16, y = 24, z = 30",
-            "subScore": 0.5
-          }
-        ]
+        "level": "Thông hiểu",
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 32$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 32 / 8 = 4 (0.25đ).\nSuy ra: x = 3 . 4 = 12 (0.25đ).\ny = 5 . 4 = 20. Vậy x = 12, y = 20 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Hưởng ứng ngày hội đọc sách, ba lớp 7A, 7B, 7C quyên góp được tất cả $180$ quyển sách. Số sách quyên góp của ba lớp tỉ lệ thuận với số học sinh của mỗi lớp. Biết số học sinh của lớp 7A, 7B, 7C lần lượt là $38; 40; 42$ em. Hỏi mỗi lớp quyên góp được bao nhiêu quyển sách?",
-        "maxScore": 1.0,
-        "solution": "Gọi số sách quyên góp được của ba lớp 7A, 7B, 7C lần lượt là $x, y, z$ (quyển) ($x, y, z \\in \\mathbb{N}^*$).\nTheo bài ra:\n$\\frac{x}{38} = \\frac{y}{40} = \\frac{z}{42}$.\nVà $x + y + z = 180$.\nÁp dụng tính chất của dãy tỉ số bằng nhau:\n$\\frac{x}{38} = \\frac{y}{40} = \\frac{z}{42} = \\frac{x + y + z}{38 + 40 + 42} = \\frac{180}{120} = 1{,}5$.\nSuy ra:\n$x = 38 \\times 1{,}5 = 57$ quyển.\n$y = 40 \\times 1{,}5 = 60$ quyển.\n$z = 42 \\times 1{,}5 = 63$ quyển.\nVậy lớp 7A quyên góp 57 quyển, lớp 7B quyên góp 60 quyển, lớp 7C quyên góp 63 quyển.",
-        "rubric": [
-          {
-            "step": "Thiết lập dãy tỉ số x/38 = y/40 = z/42 và tổng 180",
-            "subScore": 0.5
-          },
-          {
-            "step": "Tính đúng x = 57, y = 60, z = 63 quyển và kết luận",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $264$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 264 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (264)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($a, b, c, d \\neq 0; a \\neq b; c \\neq d$).\nChứng minh rằng: $\\frac{a - b}{a + b} = \\frac{c - d}{c + d}$.",
-        "maxScore": 1.0,
-        "solution": "Cách 1: Đặt $\\frac{a}{b} = \\frac{c}{d} = k \\Rightarrow a = kb, c = kd$.\nThay vào vế trái:\n$\\text{VT} = \\frac{a - b}{a + b} = \\frac{kb - b}{kb + b} = \\frac{b(k - 1)}{b(k + 1)} = \\frac{k - 1}{k + 1}$.\nThay vào vế phải:\n$\\text{VP} = \\frac{c - d}{c + d} = \\frac{kd - d}{kd + d} = \\frac{d(k - 1)}{d(k + 1)} = \\frac{k - 1}{k + 1}$.\nDo đó $\\text{VT} = \\text{VP} = \\frac{k - 1}{k + 1}$, suy ra $\\frac{a - b}{a + b} = \\frac{c - d}{c + d}$ (đpcm).",
-        "rubric": [
-          {
-            "step": "Đặt ẩn phụ k và biến đổi vế trái theo k",
-            "subScore": 0.5
-          },
-          {
-            "step": "Biến đổi vế phải theo k và kết luận đẳng thức",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c6_7_bai5_test3": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{a}$ và $a + b + c \\neq 0$. Khi đó khẳng định nào sau đây là đúng?",
+        "level": "Nhận biết",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 03):",
         "options": [
-          "$a + b = c$",
-          "$a = b = c$",
-          "$a^2 + b^2 = c^2$",
-          "$abc = 1$"
+          "$\\frac{a}{b} = \\frac{c}{d}$",
+          "$a + b = c + d$",
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho tỉ lệ thức $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$. Biểu thức $\\frac{2x^2 + 3y^2 - z^2}{x^2 + y^2 + z^2}$ có giá trị bằng:",
+        "level": "Nhận biết",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$1$",
-          "$\\frac{43}{50}$",
-          "$\\frac{39}{50}$",
-          "$\\frac{41}{50}$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Vận dụng",
-        "question": "Tìm các số $x, y, z$ biết $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}$ và $xyz = 192$:",
+        "level": "Nhận biết",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$x = 8, y = 12, z = 16$",
-          "$x = 2, y = 3, z = 4$",
-          "$x = 6, y = 9, z = 12$",
-          "$x = 4, y = 6, z = 8$"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$. Tỉ số $\\frac{(a+b)^2}{(c+d)^2}$ bằng tỉ số nào sau đây?",
+        "level": "Nhận biết",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$\\frac{a^2 - b^2}{c^2 - d^2}$",
-          "$\\frac{a^2 + b^2}{c^2 + d^2}$",
-          "Cả 3 phương án trên",
-          "$\\frac{ab}{cd}$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng",
-        "question": "Một ô tô đi nửa đoạn đường đầu với vận tốc $40$ km/h, nửa đoạn đường sau với vận tốc $60$ km/h. Vận tốc trung bình trên cả quãng đường là:",
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{6} = \\frac32$:",
         "options": [
-          "$50$ km/h",
-          "$52$ km/h",
-          "$45$ km/h",
-          "$48$ km/h"
+          "$x = 9$",
+          "$x = 3$",
+          "$x = 18$",
+          "$x = 6$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng",
-        "question": "Cho $\\frac{x}{a+2b+c} = \\frac{y}{2a+b-c} = \\frac{z}{4a-4b+c}$. Tỉ số $\\frac{a}{x+2y+z}$ bằng:",
+        "level": "Thông hiểu",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 15$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "Cả hai đều đúng",
-          "$\\frac{b}{2x+y-z}$",
-          "$\\frac{c}{4x-4y+z}$",
-          "Không so sánh được"
+          "$x = 6, y = 9$",
+          "$x = 9, y = 6$",
+          "$x = 3, y = 12$",
+          "$x = 2, y = 3$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng cao",
-        "question": "Cho ba số thực $a, b, c$ thỏa mãn $\\frac{a+b}{c} = \\frac{b+c}{a} = \\frac{c+a}{b}$. Khi $a+b+c \\neq 0$, giá trị của $\\frac{(a+b)(b+c)(c+a)}{abc}$ là:",
+        "level": "Thông hiểu",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 3$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$8$",
-          "$-1$",
-          "$6$",
-          "$1$"
+          "$12$",
+          "$3$",
+          "$7$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ thỏa mãn $\\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\dots + \\frac{1}{n(n+1)} = \\frac{99}{100}$:",
+        "level": "Thông hiểu",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 9$. Hệ số tỉ lệ là:",
         "options": [
-          "$n = 99$",
-          "$n = 101$",
-          "$n = 98$",
-          "$n = 100$"
+          "$18$",
+          "$9$",
+          "$6$",
+          "$6$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Ba đội công nhân có năng suất tỉ lệ với $3; 4; 5$. Đội 1 làm 4 ngày, đội 2 làm 5 ngày, đội 3 làm 6 ngày được tổng cộng 310 sản phẩm. Đội 2 làm được bao nhiêu sản phẩm?",
+        "level": "Vận dụng",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $390$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$60$ sản phẩm",
-          "$150$ sản phẩm",
-          "$100$ sản phẩm",
-          "$120$ sản phẩm"
+          "260 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{d}$. Chứng minh $\\left(\\frac{a+b+c}{b+c+d}\\right)^3 = \\frac{a}{d}$. Đẳng thức này:",
+        "level": "Vận dụng",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $156$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "Chỉ đúng với số tự nhiên",
-          "Luôn đúng với mọi $b, c, d \\neq 0$ và $b+c+d \\neq 0$",
-          "Sai",
-          "Chỉ đúng khi $a = d$"
+          "39 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Một ô tô đi ngược chiều gió với vận tốc $40$ km/h hết 3 giờ. Khi xuôi chiều gió ô tô đi với vận tốc $60$ km/h thì hết bao nhiêu giờ (vận tốc gió không đổi)?",
+        "level": "Vận dụng",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$1{,}8$ giờ",
-          "$2{,}5$ giờ",
-          "$2$ giờ",
-          "$1{,}5$ giờ"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho $a, b, c > 0$ và $\\frac{a}{b} = \\frac{b}{c} = \\frac{c}{a}$. Giá trị của biểu thức $M = \\frac{a^{2024} + b^{2024} + c^{2024}}{a^{1012} b^{1012} + b^{1012} c^{1012} + c^{1012} a^{1012}}$ là:",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 261$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$0$",
-          "$1$",
-          "$2024$",
-          "$3$"
+          "$27$",
+          "$18$",
+          "$36$",
+          "$87$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho các số thực $x, y, z$ thỏa mãn $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x^2 + 2y^2 - z^2 = -12$. Xét tính đúng/sai:",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 03):",
         "statements": [
           {
-            "id": "a",
-            "statement": "Đặt $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5} = k$, ta có $x = 2k, y = 3k, z = 5k$.",
-            "isCorrect": true,
-            "explanation": "Đặt ẩn phụ k."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Thay vào hệ thức: $(2k)^2 + 2(3k)^2 - (5k)^2 = 4k^2 + 18k^2 - 25k^2 = -3k^2 = -12$.",
-            "isCorrect": true,
-            "explanation": "$4 + 18 - 25 = -3$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Từ $-3k^2 = -12$ suy ra $k^2 = 4 \\Rightarrow k = 2$ hoặc $k = -2$.",
-            "isCorrect": true,
-            "explanation": "$k^2 = 4$ có hai nghiệm."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Chỉ có một bộ nghiệm duy nhất thỏa mãn là $(4; 6; 10)$.",
-            "isCorrect": false,
-            "explanation": "Có hai bộ nghiệm: $(4; 6; 10)$ và $(-4; -6; -10)$."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{x}{y+z+t} = \\frac{y}{z+t+x} = \\frac{z}{t+x+y} = \\frac{t}{x+y+z}$. Xét tính đúng/sai:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 03): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
-            "id": "a",
-            "statement": "Nếu $x + y + z + t \\neq 0$, áp dụng tính chất dãy tỉ số bằng nhau thì mỗi tỉ số bằng $\\frac{1}{3}$.",
-            "isCorrect": true,
-            "explanation": "$\\frac{x+y+z+t}{3(x+y+z+t)} = \\frac{1}{3}$."
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "b",
-            "statement": "Từ đó suy ra $x = y = z = t$.",
-            "isCorrect": true,
-            "explanation": "Mẫu số bằng nhau nên $x = y = z = t$."
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "c",
-            "statement": "Khi $x = y = z = t$, giá trị biểu thức $P = \\frac{x+y}{z+t} + \\frac{y+z}{t+x} + \\frac{z+t}{x+y} + \\frac{t+x}{y+z} = 4$.",
-            "isCorrect": true,
-            "explanation": "$1 + 1 + 1 + 1 = 4$."
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "id": "d",
-            "statement": "Nếu $x + y + z + t = 0$ thì biểu thức $P$ không xác định.",
-            "isCorrect": false,
-            "explanation": "$x+y = -(z+t) \\Rightarrow$ mỗi phân số bằng $-1 \\Rightarrow P = -4$ vẫn xác định (với mẫu khác 0)."
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -4376,105 +4394,80 @@ const EXAMS_7_C6_7 = {
     "part3": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho $\\frac{x}{3} = \\frac{y}{5} = \\frac{z}{7}$ và $2x + 3y - z = 42$. Tìm giá trị của $x$.",
-        "answer": 9,
-        "unit": ""
+        "level": "Thông hiểu",
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 3 / 2.",
+        "answer": "9",
+        "acceptableAnswers": [
+          "9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Ba ô tô cùng đi từ A đến B với vận tốc tỉ lệ thuận với 3, 4, 5. Thời gian đi của xe thứ nhất nhiều hơn xe thứ ba là 40 phút. Tính thời gian xe thứ hai đi quãng đường AB theo phút.",
-        "answer": 75,
-        "unit": "phút"
+        "level": "Thông hiểu",
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 18. Tìm hệ số tỉ lệ k của y đối với x.",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ với $a = 4c$. Tính tỉ số $\\frac{2a + 3b}{2c + 3d}$.",
-        "answer": 4,
-        "unit": ""
+        "level": "Vận dụng",
+        "question": "Mua 5 quyển vở cùng loại hết 55 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "110",
+        "acceptableAnswers": [
+          "110"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **110**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm $x$ biết $\\frac{x - 2}{2024} + \\frac{x - 3}{2023} = \\frac{x - 4}{2022} + \\frac{x - 5}{2021}$.",
-        "answer": 2026,
-        "unit": ""
+        "level": "Vận dụng",
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
+        "acceptableAnswers": [
+          "12"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng cao",
-        "question": "Cho ba số $a, b, c$ thỏa mãn $a, b, c \\neq 0$ và $\\frac{a}{b+c} = \\frac{b}{c+a} = \\frac{c}{a+b}$.\nTính giá trị của biểu thức: $M = \\frac{b+c}{a} + \\frac{c+a}{b} + \\frac{a+b}{c}$.",
-        "maxScore": 1.0,
-        "solution": "Trường hợp 1: Nếu $a + b + c \\neq 0$.\nÁp dụng tính chất của dãy tỉ số bằng nhau:\n$\\frac{a}{b+c} = \\frac{b}{c+a} = \\frac{c}{a+b} = \\frac{a + b + c}{(b+c) + (c+a) + (a+b)} = \\frac{a + b + c}{2(a+b+c)} = \\frac{1}{2}$.\nSuy ra: $b + c = 2a, c + a = 2b, a + b = 2c$.\nDo đó: $\\frac{b+c}{a} = 2, \\frac{c+a}{b} = 2, \\frac{a+b}{c} = 2$.\nGiá trị của $M$ là:\n$M = 2 + 2 + 2 = 6$.\nTrường hợp 2: Nếu $a + b + c = 0$.\nSuy ra: $b + c = -a, c + a = -b, a + b = -c$.\nDo đó: $\\frac{b+c}{a} = -1, \\frac{c+a}{b} = -1, \\frac{a+b}{c} = -1$.\nGiá trị của $M$ là:\n$M = (-1) + (-1) + (-1) = -3$.\nVậy $M = 6$ hoặc $M = -3$.",
-        "rubric": [
-          {
-            "step": "Xét TH1: a+b+c != 0 suy ra mỗi tỉ số bằng 1/2 và M = 6",
-            "subScore": 0.5
-          },
-          {
-            "step": "Xét TH2: a+b+c = 0 suy ra mỗi tỉ số bằng -1 và M = -3",
-            "subScore": 0.5
-          }
-        ]
+        "level": "Thông hiểu",
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 48$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 48 / 8 = 6 (0.25đ).\nSuy ra: x = 3 . 6 = 18 (0.25đ).\ny = 5 . 6 = 30. Vậy x = 18, y = 30 (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Ba đội công nhân đào ba con mương có khối lượng đất đào như nhau. Đội 1 hoàn thành trong 3 ngày, đội 2 trong 4 ngày, đội 3 trong 6 ngày. Biết rằng đội 1 có nhiều hơn đội 3 là 10 người (năng suất các công nhân như nhau). Hỏi cả ba đội có tổng cộng bao nhiêu công nhân?",
-        "maxScore": 1.0,
-        "solution": "Gọi số công nhân của ba đội lần lượt là $x, y, z$ (người) ($x, y, z \\in \\mathbb{N}^*$).\nVì khối lượng công việc như nhau và năng suất mỗi người như nhau nên số công nhân và số ngày hoàn thành là hai đại lượng tỉ lệ nghịch:\n$3x = 4y = 6z$.\nChia các vế cho BCNN(3, 4, 6) = 12:\n$\\frac{3x}{12} = \\frac{4y}{12} = \\frac{6z}{12} \\Leftrightarrow \\frac{x}{4} = \\frac{y}{3} = \\frac{z}{2}$.\nTheo đề bài, đội 1 nhiều hơn đội 3 là 10 người: $x - z = 10$.\nÁp dụng tính chất của dãy tỉ số bằng nhau:\n$\\frac{x}{4} = \\frac{y}{3} = \\frac{z}{2} = \\frac{x - z}{4 - 2} = \\frac{10}{2} = 5$.\nSuy ra:\n$x = 4 \\times 5 = 20$ người.\n$y = 3 \\times 5 = 15$ người.\n$z = 2 \\times 5 = 10$ người.\nTổng số công nhân của cả ba đội là:\n$x + y + z = 20 + 15 + 10 = 45$ (người).\nVậy cả ba đội có tổng cộng 45 công nhân.",
-        "rubric": [
-          {
-            "step": "Lập tỉ lệ nghịch 3x = 4y = 6z đưa về x/4 = y/3 = z/2",
-            "subScore": 0.4
-          },
-          {
-            "step": "Áp dụng hiệu x - z = 10 tìm đúng x = 20, y = 15, z = 10",
-            "subScore": 0.4
-          },
-          {
-            "step": "Tính đúng tổng số 45 công nhân",
-            "subScore": 0.2
-          }
-        ]
+        "level": "Vận dụng",
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $276$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 276 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (276)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho tỉ lệ thức $\\frac{a}{b} = \\frac{c}{d}$ ($a, b, c, d \\neq 0$). Chứng minh rằng:\n$\\left(\\frac{a - b}{c - d}\\right)^4 = \\frac{a^4 + b^4}{c^4 + d^4}$ (giả thiết các mẫu số đều khác 0).",
-        "maxScore": 1.0,
-        "solution": "Đặt $\\frac{a}{b} = \\frac{c}{d} = k \\Rightarrow a = kb, c = kd$.\nThay vào vế trái:\n$\\text{VT} = \\left(\\frac{a - b}{c - d}\\right)^4 = \\left(\\frac{kb - b}{kd - d}\\right)^4 = \\left(\\frac{b(k - 1)}{d(k - 1)}\\right)^4 = \\left(\\frac{b}{d}\\right)^4 = \\frac{b^4}{d^4}$.\nThay vào vế phải:\n$\\text{VP} = \\frac{a^4 + b^4}{c^4 + d^4} = \\frac{(kb)^4 + b^4}{(kd)^4 + d^4} = \\frac{k^4 b^4 + b^4}{k^4 d^4 + d^4} = \\frac{b^4(k^4 + 1)}{d^4(k^4 + 1)} = \\frac{b^4}{d^4}$.\nDo đó $\\text{VT} = \\text{VP} = \\frac{b^4}{d^4}$, suy ra $\\left(\\frac{a - b}{c - d}\\right)^4 = \\frac{a^4 + b^4}{c^4 + d^4}$ (đpcm).",
-        "rubric": [
-          {
-            "step": "Đặt ẩn phụ k và biến đổi vế trái bằng b^4 / d^4",
-            "subScore": 0.5
-          },
-          {
-            "step": "Biến đổi vế phải bằng b^4 / d^4 và kết luận",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c6_7_bai5_test4": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức & Đại lượng tỉ lệ - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số có dạng:",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 04):",
         "options": [
           "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$a \\cdot b = c \\cdot d$",
           "$a + b = c + d$",
-          "$\\frac{a}{b} + \\frac{c}{d} = 1$"
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4482,12 +4475,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Từ đẳng thức $a \\cdot d = b \\cdot c$ ($a, b, c, d \\neq 0$) có thể suy ra tỉ lệ thức nào?",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$\\frac{a}{d} = \\frac{b}{c}$",
-          "$\\frac{b}{a} = \\frac{c}{d}$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4495,12 +4488,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = kx$ ($k \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k$",
-          "$y$ tỉ lệ nghịch với $x$",
-          "$x$ tỉ lệ nghịch với $y$",
-          "$x$ và $y$ không phụ thuộc nhau"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4508,12 +4501,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = \\frac{a}{x}$ ($a \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a$",
-          "$y$ tỉ lệ thuận với $x$",
-          "$x$ tỉ lệ thuận với $y$",
-          "$y = a - x$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4521,12 +4514,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{6} = \\frac{5}{3}$:",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{8} = \\frac32$:",
         "options": [
-          "$x = 10$",
-          "$x = 9$",
-          "$x = 2,5$",
-          "$x = 15$"
+          "$x = 12$",
+          "$x = 4$",
+          "$x = 24$",
+          "$x = 8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4534,12 +4527,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x + y + z = 30$. Giá trị của $x$ là:",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 20$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 6$",
-          "$x = 9$",
-          "$x = 15$",
-          "$x = 3$"
+          "$x = 8, y = 12$",
+          "$x = 12, y = 8$",
+          "$x = 4, y = 16$",
+          "$x = 2, y = 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4547,12 +4540,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ thuận với $x$ và khi $x = 4$ thì $y = 12$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 4$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$k = 3$",
-          "$k = \\frac{1}{3}$",
-          "$k = 48$",
-          "$k = 8$"
+          "$16$",
+          "$4$",
+          "$8$",
+          "$4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4560,12 +4553,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ nghịch với $x$ và khi $x = 3$ thì $y = 8$. Khi $x = 6$ thì giá trị của $y$ là:",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 12$. Hệ số tỉ lệ là:",
         "options": [
-          "$y = 4$",
-          "$y = 16$",
-          "$y = 2$",
-          "$y = 24$"
+          "$24$",
+          "$12$",
+          "$8$",
+          "$6$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4573,12 +4566,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Ba đội máy cày có năng suất như nhau cày ba cánh đồng có cùng diện tích. Đội 1 cày xong trong 3 ngày, đội 2 trong 4 ngày, đội 3 trong 6 ngày. Biết đội 1 nhiều hơn đội 2 là 2 máy. Số máy cày của đội 1 là:",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $420$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$8$ máy",
-          "$6$ máy",
-          "$4$ máy",
-          "$10$ máy"
+          "280 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4586,12 +4579,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{3} = \\frac{y}{5}$ và $2x + y = 33$:",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $168$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "$x = 9; y = 15$",
-          "$x = 6; y = 10$",
-          "$x = 12; y = 20$",
-          "$x = 15; y = 25$"
+          "42 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4599,12 +4592,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Để làm xong một công việc trong 12 ngày cần 15 công nhân. Nếu muốn làm xong công việc đó sớm hơn 2 ngày (trong 10 ngày) thì cần bổ sung thêm bao nhiêu công nhân (năng suất như nhau)?",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$3$ công nhân",
-          "$18$ công nhân",
-          "$5$ công nhân",
-          "$2$ công nhân"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4612,12 +4605,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{a}{b} = \\frac{c}{d}$. Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 464$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$\\frac{a+b}{a-b} = \\frac{c+d}{c-d}$",
-          "$\\frac{a+c}{b+d} = \\frac{a \\cdot c}{b \\cdot d}$",
-          "$\\frac{a}{d} = \\frac{c}{b}$",
-          "$\\frac{a^2+c^2}{b^2+d^2} = \\frac{a+c}{b+d}$"
+          "$36$",
+          "$24$",
+          "$48$",
+          "$116$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4626,33 +4619,33 @@ const EXAMS_7_C6_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về tỉ lệ thức và đại lượng tỉ lệ (Mã đề 4):",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số 1/k (k khác 0).",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ nghịch với x theo hệ số a thì tích x.y luôn là một hằng số bằng a.",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chu vi hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4660,33 +4653,33 @@ const EXAMS_7_C6_7 = {
       },
       {
         "id": 2,
-        "stem": "Số học sinh của ba lớp 7A, 7B, 7C tỉ lệ với 8; 9; 10. Biết tổng số học sinh của cả ba lớp là 108 em:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 04): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7A là 32 em.",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7B là 36 em.",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7C là 40 em.",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số học sinh lớp 7C nhiều hơn lớp 7A là 10 em.",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4697,17 +4690,17 @@ const EXAMS_7_C6_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x / 5 = 12 / 15.",
-        "answer": "4",
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 4 / 2.",
+        "answer": "12",
         "acceptableAnswers": [
-          "4"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hai số x, y biết x/2 = y/5 và x + y = 28. Tìm giá trị của x.",
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 24. Tìm hệ số tỉ lệ k của y đối với x.",
         "answer": "8",
         "acceptableAnswers": [
           "8"
@@ -4717,59 +4710,59 @@ const EXAMS_7_C6_7 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Biết y tỉ lệ nghịch với x, khi x = 4 thì y = 9. Tìm y khi x = 6.",
-        "answer": "6",
+        "question": "Mua 5 quyển vở cùng loại hết 60 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "120",
         "acceptableAnswers": [
-          "6"
+          "120"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho a/b = c/d = e/f = 4. Tính giá trị biểu thức: (2a - 3c + e) / (2b - 3d + f).",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
         "acceptableAnswers": [
-          "4"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{4} = \\frac{y}{7}$ và $x + y = 55$.",
-        "rubric": "Áp dụng tính chất dãy tỉ số bằng nhau: x/4 = y/7 = (x + y)/(4 + 7) = 55/11 = 5 (0.25đ).\n=> x = 4 x 5 = 20; y = 7 x 5 = 35 (0.25đ)."
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 64$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 64 / 8 = 8 (0.25đ).\nSuy ra: x = 3 . 8 = 24 (0.25đ).\ny = 5 . 8 = 40. Vậy x = 24, y = 40 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Ba lớp 7A, 7B, 7C tham gia trồng cây xanh bảo vệ môi trường. Số cây trồng được của ba lớp lần lượt tỉ lệ với 4; 5; 6. Biết lớp 7C trồng được nhiều hơn lớp 7A là 30 cây. Tính tổng số cây cả ba lớp trồng được.",
-        "rubric": "Gọi x, y, z là số cây trồng được của 7A, 7B, 7C. Ta có x/4 = y/5 = z/6 và z - x = 30 (0.25đ).\nÁp dụng: x/4 = y/5 = z/6 = (z - x)/(6 - 4) = 30/2 = 15.\nTổng số cây: (4 + 5 + 6) x 15 = 15 x 15 = 225 (cây) (0.25đ)."
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $288$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 288 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (288)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau: $\\frac{2a + b + c + d}{a} = \\frac{a + 2b + c + d}{b} = \\frac{a + b + 2c + d}{c} = \\frac{a + b + c + 2d}{d}$. Tính giá trị của biểu thức $P = \\frac{a + b}{c + d} + \\frac{b + c}{d + a} + \\frac{c + d}{a + b} + \\frac{d + a}{b + c}$.",
-        "rubric": "Trừ 1 ở mỗi phân thức ta được: (a+b+c+d)/a = (a+b+c+d)/b = (a+b+c+d)/c = (a+b+c+d)/d (0.25đ).\nTH1: a + b + c + d = 0 => a + b = -(c + d), v.v. Khi đó mỗi phân thức bằng -1 => P = -4.\nTH2: a + b + c + d khác 0 => a = b = c = d. Khi đó mỗi phân thức bằng 1 => P = 4.\nVậy P = 4 hoặc P = -4 (0.25đ)."
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c6_7_bai5_test5": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức & Đại lượng tỉ lệ - Bài kiểm tra số 5 (💡 Tỉ lệ thuận & Tỉ lệ nghịch)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số có dạng:",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 05):",
         "options": [
           "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$a \\cdot b = c \\cdot d$",
           "$a + b = c + d$",
-          "$\\frac{a}{b} + \\frac{c}{d} = 1$"
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4777,12 +4770,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Từ đẳng thức $a \\cdot d = b \\cdot c$ ($a, b, c, d \\neq 0$) có thể suy ra tỉ lệ thức nào?",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$\\frac{a}{d} = \\frac{b}{c}$",
-          "$\\frac{b}{a} = \\frac{c}{d}$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4790,12 +4783,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = kx$ ($k \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k$",
-          "$y$ tỉ lệ nghịch với $x$",
-          "$x$ tỉ lệ nghịch với $y$",
-          "$x$ và $y$ không phụ thuộc nhau"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4803,12 +4796,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = \\frac{a}{x}$ ($a \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a$",
-          "$y$ tỉ lệ thuận với $x$",
-          "$x$ tỉ lệ thuận với $y$",
-          "$y = a - x$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4816,12 +4809,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{6} = \\frac{5}{3}$:",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{10} = \\frac32$:",
         "options": [
-          "$x = 10$",
-          "$x = 9$",
-          "$x = 2,5$",
-          "$x = 15$"
+          "$x = 15$",
+          "$x = 5$",
+          "$x = 30$",
+          "$x = 10$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4829,12 +4822,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x + y + z = 30$. Giá trị của $x$ là:",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 25$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 6$",
-          "$x = 9$",
-          "$x = 15$",
-          "$x = 3$"
+          "$x = 10, y = 15$",
+          "$x = 15, y = 10$",
+          "$x = 5, y = 20$",
+          "$x = 2, y = 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4842,12 +4835,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ thuận với $x$ và khi $x = 4$ thì $y = 12$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 5$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$k = 3$",
-          "$k = \\frac{1}{3}$",
-          "$k = 48$",
-          "$k = 8$"
+          "$20$",
+          "$5$",
+          "$9$",
+          "$4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4855,12 +4848,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ nghịch với $x$ và khi $x = 3$ thì $y = 8$. Khi $x = 6$ thì giá trị của $y$ là:",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 15$. Hệ số tỉ lệ là:",
         "options": [
-          "$y = 4$",
-          "$y = 16$",
-          "$y = 2$",
-          "$y = 24$"
+          "$30$",
+          "$15$",
+          "$10$",
+          "$6$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4868,12 +4861,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Ba đội máy cày có năng suất như nhau cày ba cánh đồng có cùng diện tích. Đội 1 cày xong trong 3 ngày, đội 2 trong 4 ngày, đội 3 trong 6 ngày. Biết đội 1 nhiều hơn đội 2 là 2 máy. Số máy cày của đội 1 là:",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $450$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$8$ máy",
-          "$6$ máy",
-          "$4$ máy",
-          "$10$ máy"
+          "300 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4881,12 +4874,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{3} = \\frac{y}{5}$ và $2x + y = 33$:",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $180$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "$x = 9; y = 15$",
-          "$x = 6; y = 10$",
-          "$x = 12; y = 20$",
-          "$x = 15; y = 25$"
+          "45 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4894,12 +4887,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Để làm xong một công việc trong 12 ngày cần 15 công nhân. Nếu muốn làm xong công việc đó sớm hơn 2 ngày (trong 10 ngày) thì cần bổ sung thêm bao nhiêu công nhân (năng suất như nhau)?",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$3$ công nhân",
-          "$18$ công nhân",
-          "$5$ công nhân",
-          "$2$ công nhân"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4907,12 +4900,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{a}{b} = \\frac{c}{d}$. Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 725$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$\\frac{a+b}{a-b} = \\frac{c+d}{c-d}$",
-          "$\\frac{a+c}{b+d} = \\frac{a \\cdot c}{b \\cdot d}$",
-          "$\\frac{a}{d} = \\frac{c}{b}$",
-          "$\\frac{a^2+c^2}{b^2+d^2} = \\frac{a+c}{b+d}$"
+          "$45$",
+          "$30$",
+          "$60$",
+          "$145$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4921,33 +4914,33 @@ const EXAMS_7_C6_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về tỉ lệ thức và đại lượng tỉ lệ (Mã đề 5):",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số 1/k (k khác 0).",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ nghịch với x theo hệ số a thì tích x.y luôn là một hằng số bằng a.",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chu vi hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4955,33 +4948,33 @@ const EXAMS_7_C6_7 = {
       },
       {
         "id": 2,
-        "stem": "Số học sinh của ba lớp 7A, 7B, 7C tỉ lệ với 8; 9; 10. Biết tổng số học sinh của cả ba lớp là 108 em:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 05): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7A là 32 em.",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7B là 36 em.",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7C là 40 em.",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số học sinh lớp 7C nhiều hơn lớp 7A là 10 em.",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4992,79 +4985,79 @@ const EXAMS_7_C6_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x / 5 = 12 / 15.",
-        "answer": "4",
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 5 / 2.",
+        "answer": "15",
         "acceptableAnswers": [
-          "4"
+          "15"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hai số x, y biết x/2 = y/5 và x + y = 28. Tìm giá trị của x.",
-        "answer": "8",
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 30. Tìm hệ số tỉ lệ k của y đối với x.",
+        "answer": "10",
         "acceptableAnswers": [
-          "8"
+          "10"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Biết y tỉ lệ nghịch với x, khi x = 4 thì y = 9. Tìm y khi x = 6.",
-        "answer": "6",
+        "question": "Mua 5 quyển vở cùng loại hết 65 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "130",
         "acceptableAnswers": [
-          "6"
+          "130"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **130**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho a/b = c/d = e/f = 4. Tính giá trị biểu thức: (2a - 3c + e) / (2b - 3d + f).",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
         "acceptableAnswers": [
-          "4"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{4} = \\frac{y}{7}$ và $x + y = 55$.",
-        "rubric": "Áp dụng tính chất dãy tỉ số bằng nhau: x/4 = y/7 = (x + y)/(4 + 7) = 55/11 = 5 (0.25đ).\n=> x = 4 x 5 = 20; y = 7 x 5 = 35 (0.25đ)."
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 80$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 80 / 8 = 10 (0.25đ).\nSuy ra: x = 3 . 10 = 30 (0.25đ).\ny = 5 . 10 = 50. Vậy x = 30, y = 50 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Ba lớp 7A, 7B, 7C tham gia trồng cây xanh bảo vệ môi trường. Số cây trồng được của ba lớp lần lượt tỉ lệ với 4; 5; 6. Biết lớp 7C trồng được nhiều hơn lớp 7A là 30 cây. Tính tổng số cây cả ba lớp trồng được.",
-        "rubric": "Gọi x, y, z là số cây trồng được của 7A, 7B, 7C. Ta có x/4 = y/5 = z/6 và z - x = 30 (0.25đ).\nÁp dụng: x/4 = y/5 = z/6 = (z - x)/(6 - 4) = 30/2 = 15.\nTổng số cây: (4 + 5 + 6) x 15 = 15 x 15 = 225 (cây) (0.25đ)."
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $300$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 300 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (300)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau: $\\frac{2a + b + c + d}{a} = \\frac{a + 2b + c + d}{b} = \\frac{a + b + 2c + d}{c} = \\frac{a + b + c + 2d}{d}$. Tính giá trị của biểu thức $P = \\frac{a + b}{c + d} + \\frac{b + c}{d + a} + \\frac{c + d}{a + b} + \\frac{d + a}{b + c}$.",
-        "rubric": "Trừ 1 ở mỗi phân thức ta được: (a+b+c+d)/a = (a+b+c+d)/b = (a+b+c+d)/c = (a+b+c+d)/d (0.25đ).\nTH1: a + b + c + d = 0 => a + b = -(c + d), v.v. Khi đó mỗi phân thức bằng -1 => P = -4.\nTH2: a + b + c + d khác 0 => a = b = c = d. Khi đó mỗi phân thức bằng 1 => P = 4.\nVậy P = 4 hoặc P = -4 (0.25đ)."
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c6_7_bai5_test6": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức & Đại lượng tỉ lệ - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số có dạng:",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 06):",
         "options": [
           "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$a \\cdot b = c \\cdot d$",
           "$a + b = c + d$",
-          "$\\frac{a}{b} + \\frac{c}{d} = 1$"
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5072,12 +5065,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Từ đẳng thức $a \\cdot d = b \\cdot c$ ($a, b, c, d \\neq 0$) có thể suy ra tỉ lệ thức nào?",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$\\frac{a}{d} = \\frac{b}{c}$",
-          "$\\frac{b}{a} = \\frac{c}{d}$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5085,12 +5078,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = kx$ ($k \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k$",
-          "$y$ tỉ lệ nghịch với $x$",
-          "$x$ tỉ lệ nghịch với $y$",
-          "$x$ và $y$ không phụ thuộc nhau"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5098,12 +5091,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = \\frac{a}{x}$ ($a \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a$",
-          "$y$ tỉ lệ thuận với $x$",
-          "$x$ tỉ lệ thuận với $y$",
-          "$y = a - x$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5111,12 +5104,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{6} = \\frac{5}{3}$:",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{12} = \\frac32$:",
         "options": [
-          "$x = 10$",
-          "$x = 9$",
-          "$x = 2,5$",
-          "$x = 15$"
+          "$x = 18$",
+          "$x = 6$",
+          "$x = 36$",
+          "$x = 12$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5124,12 +5117,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x + y + z = 30$. Giá trị của $x$ là:",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 30$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 6$",
-          "$x = 9$",
-          "$x = 15$",
-          "$x = 3$"
+          "$x = 12, y = 18$",
+          "$x = 18, y = 12$",
+          "$x = 6, y = 24$",
+          "$x = 2, y = 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5137,12 +5130,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ thuận với $x$ và khi $x = 4$ thì $y = 12$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 6$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$k = 3$",
-          "$k = \\frac{1}{3}$",
-          "$k = 48$",
-          "$k = 8$"
+          "$24$",
+          "$6$",
+          "$10$",
+          "$4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5150,12 +5143,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ nghịch với $x$ và khi $x = 3$ thì $y = 8$. Khi $x = 6$ thì giá trị của $y$ là:",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 18$. Hệ số tỉ lệ là:",
         "options": [
-          "$y = 4$",
-          "$y = 16$",
-          "$y = 2$",
-          "$y = 24$"
+          "$36$",
+          "$18$",
+          "$12$",
+          "$6$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5163,12 +5156,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Ba đội máy cày có năng suất như nhau cày ba cánh đồng có cùng diện tích. Đội 1 cày xong trong 3 ngày, đội 2 trong 4 ngày, đội 3 trong 6 ngày. Biết đội 1 nhiều hơn đội 2 là 2 máy. Số máy cày của đội 1 là:",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $480$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$8$ máy",
-          "$6$ máy",
-          "$4$ máy",
-          "$10$ máy"
+          "320 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5176,12 +5169,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{3} = \\frac{y}{5}$ và $2x + y = 33$:",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $192$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "$x = 9; y = 15$",
-          "$x = 6; y = 10$",
-          "$x = 12; y = 20$",
-          "$x = 15; y = 25$"
+          "48 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5189,12 +5182,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Để làm xong một công việc trong 12 ngày cần 15 công nhân. Nếu muốn làm xong công việc đó sớm hơn 2 ngày (trong 10 ngày) thì cần bổ sung thêm bao nhiêu công nhân (năng suất như nhau)?",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$3$ công nhân",
-          "$18$ công nhân",
-          "$5$ công nhân",
-          "$2$ công nhân"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5202,12 +5195,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{a}{b} = \\frac{c}{d}$. Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 1044$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$\\frac{a+b}{a-b} = \\frac{c+d}{c-d}$",
-          "$\\frac{a+c}{b+d} = \\frac{a \\cdot c}{b \\cdot d}$",
-          "$\\frac{a}{d} = \\frac{c}{b}$",
-          "$\\frac{a^2+c^2}{b^2+d^2} = \\frac{a+c}{b+d}$"
+          "$54$",
+          "$36$",
+          "$72$",
+          "$174$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5216,33 +5209,33 @@ const EXAMS_7_C6_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về tỉ lệ thức và đại lượng tỉ lệ (Mã đề 6):",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số 1/k (k khác 0).",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ nghịch với x theo hệ số a thì tích x.y luôn là một hằng số bằng a.",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chu vi hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5250,33 +5243,33 @@ const EXAMS_7_C6_7 = {
       },
       {
         "id": 2,
-        "stem": "Số học sinh của ba lớp 7A, 7B, 7C tỉ lệ với 8; 9; 10. Biết tổng số học sinh của cả ba lớp là 108 em:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 06): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7A là 32 em.",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7B là 36 em.",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7C là 40 em.",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số học sinh lớp 7C nhiều hơn lớp 7A là 10 em.",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5287,79 +5280,79 @@ const EXAMS_7_C6_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x / 5 = 12 / 15.",
-        "answer": "4",
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 6 / 2.",
+        "answer": "18",
         "acceptableAnswers": [
-          "4"
+          "18"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **18**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hai số x, y biết x/2 = y/5 và x + y = 28. Tìm giá trị của x.",
-        "answer": "8",
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 36. Tìm hệ số tỉ lệ k của y đối với x.",
+        "answer": "12",
         "acceptableAnswers": [
-          "8"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Biết y tỉ lệ nghịch với x, khi x = 4 thì y = 9. Tìm y khi x = 6.",
-        "answer": "6",
+        "question": "Mua 5 quyển vở cùng loại hết 70 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "140",
         "acceptableAnswers": [
-          "6"
+          "140"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **140**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho a/b = c/d = e/f = 4. Tính giá trị biểu thức: (2a - 3c + e) / (2b - 3d + f).",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
         "acceptableAnswers": [
-          "4"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{4} = \\frac{y}{7}$ và $x + y = 55$.",
-        "rubric": "Áp dụng tính chất dãy tỉ số bằng nhau: x/4 = y/7 = (x + y)/(4 + 7) = 55/11 = 5 (0.25đ).\n=> x = 4 x 5 = 20; y = 7 x 5 = 35 (0.25đ)."
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 96$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 96 / 8 = 12 (0.25đ).\nSuy ra: x = 3 . 12 = 36 (0.25đ).\ny = 5 . 12 = 60. Vậy x = 36, y = 60 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Ba lớp 7A, 7B, 7C tham gia trồng cây xanh bảo vệ môi trường. Số cây trồng được của ba lớp lần lượt tỉ lệ với 4; 5; 6. Biết lớp 7C trồng được nhiều hơn lớp 7A là 30 cây. Tính tổng số cây cả ba lớp trồng được.",
-        "rubric": "Gọi x, y, z là số cây trồng được của 7A, 7B, 7C. Ta có x/4 = y/5 = z/6 và z - x = 30 (0.25đ).\nÁp dụng: x/4 = y/5 = z/6 = (z - x)/(6 - 4) = 30/2 = 15.\nTổng số cây: (4 + 5 + 6) x 15 = 15 x 15 = 225 (cây) (0.25đ)."
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $312$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 312 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (312)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau: $\\frac{2a + b + c + d}{a} = \\frac{a + 2b + c + d}{b} = \\frac{a + b + 2c + d}{c} = \\frac{a + b + c + 2d}{d}$. Tính giá trị của biểu thức $P = \\frac{a + b}{c + d} + \\frac{b + c}{d + a} + \\frac{c + d}{a + b} + \\frac{d + a}{b + c}$.",
-        "rubric": "Trừ 1 ở mỗi phân thức ta được: (a+b+c+d)/a = (a+b+c+d)/b = (a+b+c+d)/c = (a+b+c+d)/d (0.25đ).\nTH1: a + b + c + d = 0 => a + b = -(c + d), v.v. Khi đó mỗi phân thức bằng -1 => P = -4.\nTH2: a + b + c + d khác 0 => a = b = c = d. Khi đó mỗi phân thức bằng 1 => P = 4.\nVậy P = 4 hoặc P = -4 (0.25đ)."
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   },
   "c6_7_bai5_test7": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức & Đại lượng tỉ lệ - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương VI: Tỉ lệ thức và đại lượng tỉ lệ - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số có dạng:",
+        "question": "Tỉ lệ thức là đẳng thức của hai tỉ số (Đề 07):",
         "options": [
           "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$a \\cdot b = c \\cdot d$",
           "$a + b = c + d$",
-          "$\\frac{a}{b} + \\frac{c}{d} = 1$"
+          "$a \\cdot b = c \\cdot d$",
+          "$a - b = c - d$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5367,12 +5360,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Từ đẳng thức $a \\cdot d = b \\cdot c$ ($a, b, c, d \\neq 0$) có thể suy ra tỉ lệ thức nào?",
+        "question": "Nếu $\\frac{a}{b} = \\frac{c}{d}$ thì theo tính chất cơ bản của tỉ lệ thức:",
         "options": [
-          "$\\frac{a}{b} = \\frac{c}{d}$",
-          "$\\frac{a}{c} = \\frac{d}{b}$",
-          "$\\frac{a}{d} = \\frac{b}{c}$",
-          "$\\frac{b}{a} = \\frac{c}{d}$"
+          "$a \\cdot d = b \\cdot c$",
+          "$a \\cdot c = b \\cdot d$",
+          "$a + d = b + c$",
+          "$a : d = b : c$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5380,12 +5373,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = kx$ ($k \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ thuận với nhau theo hệ số tỉ lệ $k$ ($k \\neq 0$) khi:",
         "options": [
-          "$y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k$",
-          "$y$ tỉ lệ nghịch với $x$",
-          "$x$ tỉ lệ nghịch với $y$",
-          "$x$ và $y$ không phụ thuộc nhau"
+          "$y = k \\cdot x$",
+          "$y = \\frac{k}{x}$",
+          "$x \\cdot y = k$",
+          "$y = x + k$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5393,12 +5386,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Nếu đại lượng $y$ liên hệ với đại lượng $x$ theo công thức $y = \\frac{a}{x}$ ($a \\neq 0$) thì ta nói:",
+        "question": "Hai đại lượng $x$ và $y$ tỉ lệ nghịch với nhau khi:",
         "options": [
-          "$y$ tỉ lệ nghịch với $x$ theo hệ số tỉ lệ $a$",
-          "$y$ tỉ lệ thuận với $x$",
-          "$x$ tỉ lệ thuận với $y$",
-          "$y = a - x$"
+          "$x \\cdot y = a$ ($a \\neq 0$)",
+          "$y = a \\cdot x$",
+          "$\\frac{y}{x} = a$",
+          "$y = x - a$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5406,12 +5399,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{6} = \\frac{5}{3}$:",
+        "question": "Tìm $x$ trong tỉ lệ thức $\\frac{x}{14} = \\frac32$:",
         "options": [
-          "$x = 10$",
-          "$x = 9$",
-          "$x = 2,5$",
-          "$x = 15$"
+          "$x = 21$",
+          "$x = 7$",
+          "$x = 42$",
+          "$x = 14$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5419,12 +5412,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5}$ và $x + y + z = 30$. Giá trị của $x$ là:",
+        "question": "Cho $\\frac{x}2 = \\frac{y}3$ và $x + y = 35$. Giá trị của $x$ và $y$ là:",
         "options": [
-          "$x = 6$",
-          "$x = 9$",
-          "$x = 15$",
-          "$x = 3$"
+          "$x = 14, y = 21$",
+          "$x = 21, y = 14$",
+          "$x = 7, y = 28$",
+          "$x = 2, y = 3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5432,12 +5425,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ thuận với $x$ và khi $x = 4$ thì $y = 12$. Hệ số tỉ lệ của $y$ đối với $x$ là:",
+        "question": "Biết đại lượng $y$ tỉ lệ thuận với $x$ theo hệ số tỉ lệ $k = 7$. Khi $x = 4$ thì $y$ bằng:",
         "options": [
-          "$k = 3$",
-          "$k = \\frac{1}{3}$",
-          "$k = 48$",
-          "$k = 8$"
+          "$28$",
+          "$7$",
+          "$11$",
+          "$4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5445,12 +5438,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Biết $y$ tỉ lệ nghịch với $x$ và khi $x = 3$ thì $y = 8$. Khi $x = 6$ thì giá trị của $y$ là:",
+        "question": "Biết $x$ và $y$ tỉ lệ nghịch với nhau và khi $x = 2$ thì $y = 21$. Hệ số tỉ lệ là:",
         "options": [
-          "$y = 4$",
-          "$y = 16$",
-          "$y = 2$",
-          "$y = 24$"
+          "$42$",
+          "$21$",
+          "$14$",
+          "$6$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5458,12 +5451,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Ba đội máy cày có năng suất như nhau cày ba cánh đồng có cùng diện tích. Đội 1 cày xong trong 3 ngày, đội 2 trong 4 ngày, đội 3 trong 6 ngày. Biết đội 1 nhiều hơn đội 2 là 2 máy. Số máy cày của đội 1 là:",
+        "question": "Để làm một chiếc bánh bông lan theo công thức, tỉ lệ khối lượng bột mì và đường là $3 : 2$. Nếu dùng $510$ gam bột mì thì cần dùng khối lượng đường là:",
         "options": [
-          "$8$ máy",
-          "$6$ máy",
-          "$4$ máy",
-          "$10$ máy"
+          "340 gam",
+          "200 gam",
+          "300 gam",
+          "150 gam"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5471,12 +5464,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{3} = \\frac{y}{5}$ và $2x + y = 33$:",
+        "question": "Ba tổ công nhân nhận đào một con mương có độ dài lần lượt tỉ lệ với $3; 4; 5$. Biết tổng độ dài con mương cả ba tổ phải đào là $204$ mét. Tổ 1 phải đào số mét mương là:",
         "options": [
-          "$x = 9; y = 15$",
-          "$x = 6; y = 10$",
-          "$x = 12; y = 20$",
-          "$x = 15; y = 25$"
+          "51 mét",
+          "30 mét",
+          "40 mét",
+          "50 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5484,12 +5477,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Để làm xong một công việc trong 12 ngày cần 15 công nhân. Nếu muốn làm xong công việc đó sớm hơn 2 ngày (trong 10 ngày) thì cần bổ sung thêm bao nhiêu công nhân (năng suất như nhau)?",
+        "question": "Một ô tô đi quãng đường $AB$ hết $3$ giờ với vận tốc $60$ km/h. Nếu ô tô đó đi với vận tốc $45$ km/h thì thời gian đi hết quãng đường $AB$ là:",
         "options": [
-          "$3$ công nhân",
-          "$18$ công nhân",
-          "$5$ công nhân",
-          "$2$ công nhân"
+          "4 giờ",
+          "3,5 giờ",
+          "5 giờ",
+          "2,5 giờ"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5497,12 +5490,12 @@ const EXAMS_7_C6_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau $\\frac{a}{b} = \\frac{c}{d}$. Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Cho ba số $a, b, c$ thỏa mãn $\\frac{a}2 = \\frac{b}3 = \\frac{c}4$ và $a^2 + b^2 + c^2 = 1421$. Giá trị dương của $a + b + c$ bằng:",
         "options": [
-          "$\\frac{a+b}{a-b} = \\frac{c+d}{c-d}$",
-          "$\\frac{a+c}{b+d} = \\frac{a \\cdot c}{b \\cdot d}$",
-          "$\\frac{a}{d} = \\frac{c}{b}$",
-          "$\\frac{a^2+c^2}{b^2+d^2} = \\frac{a+c}{b+d}$"
+          "$63$",
+          "$42$",
+          "$84$",
+          "$203$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5511,33 +5504,33 @@ const EXAMS_7_C6_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về tỉ lệ thức và đại lượng tỉ lệ (Mã đề 7):",
+        "stem": "Xét tính đúng sai về tính chất của dãy tỉ số bằng nhau (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số 1/k (k khác 0).",
+            "level": "Nhận biết",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a + c)/(b + d) với b + d khác 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nếu y tỉ lệ nghịch với x theo hệ số a thì tích x.y luôn là một hằng số bằng a.",
+            "text": "Từ a/b = c/d ta có: a/b = c/d = (a - c)/(b - d) với b - d khác 0.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Chu vi hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x thì x cũng tỉ lệ thuận với y.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích hình vuông tỉ lệ thuận với độ dài cạnh của hình vuông.",
+            "text": "Nếu y tỉ lệ thuận với x theo hệ số k thì x tỉ lệ thuận với y theo hệ số k.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5545,33 +5538,33 @@ const EXAMS_7_C6_7 = {
       },
       {
         "id": 2,
-        "stem": "Số học sinh của ba lớp 7A, 7B, 7C tỉ lệ với 8; 9; 10. Biết tổng số học sinh của cả ba lớp là 108 em:",
+        "stem": "Bài toán chia tiền thưởng năng suất (Mã đề 07): Ba bạn An, Bình, Cúc được thưởng số tiền tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng là 18 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7A là 32 em.",
+            "level": "Nhận biết",
+            "text": "Gọi số tiền thưởng của ba bạn là x, y, z thì x/2 = y/3 = z/4.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7B là 36 em.",
+            "text": "Tổng số phần bằng nhau là 2 + 3 + 4 = 9 phần.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Số học sinh lớp 7C là 40 em.",
+            "text": "Số tiền bạn An nhận được là 4 triệu đồng, bạn Bình là 6 triệu đồng, bạn Cúc là 8 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số học sinh lớp 7C nhiều hơn lớp 7A là 10 em.",
+            "text": "Số tiền thưởng của bạn Cúc gấp 3 lần số tiền thưởng của bạn An.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5582,62 +5575,62 @@ const EXAMS_7_C6_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x / 5 = 12 / 15.",
-        "answer": "4",
+        "question": "Tìm x trong tỉ lệ thức: x / 6 = 7 / 2.",
+        "answer": "21",
         "acceptableAnswers": [
-          "4"
+          "21"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **21**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hai số x, y biết x/2 = y/5 và x + y = 28. Tìm giá trị của x.",
-        "answer": "8",
+        "question": "Biết x và y tỉ lệ thuận, khi x = 3 thì y = 42. Tìm hệ số tỉ lệ k của y đối với x.",
+        "answer": "14",
         "acceptableAnswers": [
-          "8"
+          "14"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **14**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Biết y tỉ lệ nghịch với x, khi x = 4 thì y = 9. Tìm y khi x = 6.",
-        "answer": "6",
+        "question": "Mua 5 quyển vở cùng loại hết 75 nghìn đồng. Hỏi mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?",
+        "answer": "150",
         "acceptableAnswers": [
-          "6"
+          "150"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho a/b = c/d = e/f = 4. Tính giá trị biểu thức: (2a - 3c + e) / (2b - 3d + f).",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Để hoàn thành một công việc trong 6 ngày cần 8 công nhân. Muốn hoàn thành công việc đó trong 4 ngày thì cần bao nhiêu công nhân (năng suất như nhau)?",
+        "answer": "12",
         "acceptableAnswers": [
-          "4"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm hai số $x$ và $y$ biết $\\frac{x}{4} = \\frac{y}{7}$ và $x + y = 55$.",
-        "rubric": "Áp dụng tính chất dãy tỉ số bằng nhau: x/4 = y/7 = (x + y)/(4 + 7) = 55/11 = 5 (0.25đ).\n=> x = 4 x 5 = 20; y = 7 x 5 = 35 (0.25đ)."
+        "question": "Tìm hai số $x$ và $y$, biết: $\\frac{x}3 = \\frac{y}5$ và $x + y = 112$.",
+        "rubric": "Áp dụng tính chất của dãy tỉ số bằng nhau (0.25đ).\nx / 3 = y / 5 = (x + y) / (3 + 5) = 112 / 8 = 14 (0.25đ).\nSuy ra: x = 3 . 14 = 42 (0.25đ).\ny = 5 . 14 = 70. Vậy x = 42, y = 70 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Ba lớp 7A, 7B, 7C tham gia trồng cây xanh bảo vệ môi trường. Số cây trồng được của ba lớp lần lượt tỉ lệ với 4; 5; 6. Biết lớp 7C trồng được nhiều hơn lớp 7A là 30 cây. Tính tổng số cây cả ba lớp trồng được.",
-        "rubric": "Gọi x, y, z là số cây trồng được của 7A, 7B, 7C. Ta có x/4 = y/5 = z/6 và z - x = 30 (0.25đ).\nÁp dụng: x/4 = y/5 = z/6 = (z - x)/(6 - 4) = 30/2 = 15.\nTổng số cây: (4 + 5 + 6) x 15 = 15 x 15 = 225 (cây) (0.25đ)."
+        "question": "Hưởng ứng phong trào quyên góp sách ủng hộ học sinh vùng lũ, ba lớp 7A, 7B, 7C quyên góp được tổng cộng $324$ quyển sách. Biết số sách quyên góp của ba lớp tỉ lệ với $3; 4; 5$. Tính số quyển sách mỗi lớp quyên góp được.",
+        "rubric": "Gọi số sách ba lớp 7A, 7B, 7C quyên góp lần lượt là x, y, z (quyển) (0.25đ).\nTa có: x/3 = y/4 = z/5 và x + y + z = 324 (0.25đ).\nÁp dụng tính chất dãy tỉ số: (x+y+z)/(3+4+5) = (324)/12 (0.25đ).\nTính số sách cụ thể của từng lớp và kết luận (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho dãy tỉ số bằng nhau: $\\frac{2a + b + c + d}{a} = \\frac{a + 2b + c + d}{b} = \\frac{a + b + 2c + d}{c} = \\frac{a + b + c + 2d}{d}$. Tính giá trị của biểu thức $P = \\frac{a + b}{c + d} + \\frac{b + c}{d + a} + \\frac{c + d}{a + b} + \\frac{d + a}{b + c}$.",
-        "rubric": "Trừ 1 ở mỗi phân thức ta được: (a+b+c+d)/a = (a+b+c+d)/b = (a+b+c+d)/c = (a+b+c+d)/d (0.25đ).\nTH1: a + b + c + d = 0 => a + b = -(c + d), v.v. Khi đó mỗi phân thức bằng -1 => P = -4.\nTH2: a + b + c + d khác 0 => a = b = c = d. Khi đó mỗi phân thức bằng 1 => P = 4.\nVậy P = 4 hoặc P = -4 (0.25đ)."
+        "question": "Cho $\\frac{a}{b} = \\frac{c}{d}$ ($b, d \\neq 0$). Chứng minh rằng: $\\frac{a^2 + c^2}{b^2 + d^2} = \\frac{a \\cdot c}{b \\cdot d}$.",
+        "rubric": "Đặt a/b = c/d = k => a = kb, c = kd (0.25đ).\nVế trái: (a^2 + c^2)/(b^2 + d^2) = (k^2 b^2 + k^2 d^2)/(b^2 + d^2) = k^2 (0.25đ).\nVế phải: (a . c)/(b . d) = (kb . kd)/(bd) = k^2 (0.25đ).\nVì VT = VP = k^2 nên đẳng thức được chứng minh hoàn tất (0.25đ)."
       }
     ]
   }

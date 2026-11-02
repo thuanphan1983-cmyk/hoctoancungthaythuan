@@ -3,7 +3,7 @@
   "chapterId": "c6_8",
   "chapterTitle": "Chương VI: Phân thức đại số",
   "totalExams": 19,
-  "updatedAt": "2026-11-01 19:24:42",
+  "updatedAt": "2026-11-02 07:36:39",
   "exams": {
     "c6_8_bai1_test1": {
       "title": "Toán 8 (KNTT) - Bài 21: Phân thức đại số - Đề kiểm tra số 1",
@@ -3090,211 +3090,233 @@
       ]
     },
     "c6_8_bai5_test1": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 1",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Biểu thức nào sau đây là một phân thức đại số?",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 01):",
           "options": [
-            "$\\frac{x - 1}{0}$",
-            "$\\frac{2x + 3}{x - 5}$",
-            "$\\frac{\\sqrt{x}}{2x + 1}$",
-            "$\\sqrt{x - 1}$"
+            "$B$ khác đa thức 0",
+            "$A$ khác đa thức 0",
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Tử thức của phân thức $\\frac{3x - 7}{2x + 5}$ là",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$2x + 5$",
-            "$2x$",
-            "$3x$",
-            "$3x - 7$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phân thức $\\frac{x + 2}{x - 3}$ là",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 1}$ là:",
           "options": [
-            "$x = 3$",
-            "$x \\ne 3$",
-            "$x \\ne 0$",
-            "$x \\ne -2$"
+            "$x \\neq 1$",
+            "$x \\neq -1$",
+            "$x = 1$",
+            "$x \\neq -1$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ ($B \\ne 0, D \\ne 0$) bằng nhau khi",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$A \\cdot D = B \\cdot C$",
-            "$A - D = B - C$",
-            "$A \\cdot C = B \\cdot D$",
-            "$A + D = B + C$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Kết quả rút gọn của phân thức $\\frac{5xy}{10x}$ (với $x \\ne 0$) là",
+          "level": "Thông hiểu",
+          "question": "Rút gọn phân thức $\\frac{2x^2y}{4xy^2}$ ta được kết quả là:",
           "options": [
-            "$\\frac{y}{2}$",
-            "$2y$",
-            "$\\frac{y}{5}$",
-            "$\\frac{x}{2}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Phân thức đối của phân thức $\\frac{x - 2}{x + 1}$ là",
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép cộng $\\frac{x - 1}{x + 2} + \\frac{1 + 2}{x + 2}$ là:",
           "options": [
-            "$\\frac{2 - x}{x + 1}$",
-            "$\\frac{x - 2}{-x - 1}$",
-            "$\\frac{x + 2}{x + 1}$",
-            "$\\frac{-x + 2}{-x - 1}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Nhận biết",
-          "question": "Phân thức nghịch đảo của phân thức $\\frac{2x}{x - 3}$ (với $x \\ne 0; x \\ne 3$) là",
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép nhân $\\frac{x - 1}{3x} \\cdot \\frac{6x^2}{x - 1}$ ta được:",
           "options": [
-            "$-\\frac{2x}{x - 3}$",
-            "$\\frac{-2x}{x - 3}$",
-            "$\\frac{x - 3}{2x}$",
-            "$\\frac{3 - x}{2x}$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Nhận biết",
-          "question": "Kết quả của phép tính $\\frac{x}{x + 2} + \\frac{2}{x + 2}$ là",
+          "level": "Thông hiểu",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 1}{x - 1}$ tại $x = 6$ là:",
           "options": [
-            "$\\frac{x + 2}{2x + 4}$",
-            "$0$",
-            "$\\frac{2x}{x + 2}$",
-            "$1$"
+            "$7$",
+            "$6$",
+            "5",
+            "$2$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Giá trị của phân thức $P = \\frac{2x - 1}{x + 2}$ tại $x = 3$ là",
+          "level": "Vận dụng",
+          "question": "Một tổ công nhân theo kế hoạch may 350 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{7}{5}$",
-            "$2$",
-            "$1$",
-            "$-1$"
+            "$\\frac{350}{x+5}$ ngày",
+            "$\\frac{350}{x}$ ngày",
+            "$\\frac{350}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Kết quả của phép trừ $\\frac{3x - 1}{x - 1} - \\frac{2x}{x - 1}$ là",
+          "level": "Vận dụng",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 13 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$\\frac{5x - 1}{x - 1}$",
-            "$\\frac{x + 1}{x - 1}$",
-            "$-1$",
-            "$\\frac{x - 1}{x - 1} = 1$"
+            "$\\frac{13}{v + 2}$ giờ",
+            "$\\frac{13}{v - 2}$ giờ",
+            "$\\frac{13}{v}$ giờ",
+            "$\\frac{v + 2}{13}$ giờ"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Kết quả của phép nhân $\\frac{3x}{x - 2} \\cdot \\frac{x - 2}{6x^2}$ (với $x \\ne 0, x \\ne 2$) là",
+          "level": "Vận dụng",
+          "question": "Biết phân thức $\\frac{2x + 1}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$\\frac{1}{2}$",
-            "$\\frac{x}{2}$",
-            "$\\frac{1}{2x}$",
-            "$2x$"
+            "$3$",
+            "$-1$",
+            "$1$",
+            "$2$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Thông hiểu",
-          "question": "Mẫu thức chung đơn giản nhất của hai phân thức $\\frac{1}{2x}$ và $\\frac{5}{3x^2}$ là",
+          "level": "Vận dụng cao",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{4}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$6x$",
-            "$6x^2$",
-            "$6x^3$",
-            "$5x^2$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho phân thức $A = \\frac{x^2 - 4}{x + 2}$.",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 1}{x^2 - 2x + 1}$ (Mã đề 01):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Điều kiện xác định của phân thức $A$ là $x \\ne -2$.",
-              "correct": true
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Phân tích tử thức thành nhân tử ta được $x^2 - 4 = (x - 2)(x + 2)$.",
-              "correct": true
+              "text": "Điều kiện xác định của phân thức P là x khác 1.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Rút gọn phân thức $A$ ta được kết quả là $x + 2$.",
-              "correct": false
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 1) / (x - 1).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Thông hiểu",
-              "text": "Tại $x = 5$, giá trị của phân thức $A$ bằng $3$.",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $B = \\frac{x}{x - 1} - \\frac{1}{x - 1} + \\frac{2}{x}$ với $x \\ne 0$ và $x \\ne 1$.",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 01): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Hiệu $\\frac{x}{x - 1} - \\frac{1}{x - 1}$ có giá trị bằng $1$.",
-              "correct": true
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Sau khi thu gọn hai số hạng đầu, biểu thức $B$ trở thành $1 + \\frac{2}{x}$.",
-              "correct": true
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Quy đồng mẫu thức biểu thức $B$ ta được $B = \\frac{x + 2}{x}$.",
-              "correct": true
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng thấp",
-              "text": "Để $B = 2$ thì $x = 1$.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3303,255 +3325,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tìm giá trị của $x$ để giá trị của phân thức $\\frac{2x - 6}{x + 1}$ bằng $0$.",
-          "answer": "3"
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 4).",
+          "answer": "x khác -4",
+          "acceptableAnswers": [
+            "x khác -4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -4**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị số của biểu thức $M = \\frac{x^2 - 1}{x - 1}$ khi $x = 9$.",
-          "answer": "10"
+          "question": "Tính giá trị của phân thức (x^2 - 4) / (x + 2) khi x = 12.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Cho hai phân thức bằng nhau $\\frac{x - 1}{2} = \\frac{6}{4}$. Tìm giá trị của $x$.",
-          "answer": "4"
+          "level": "Vận dụng",
+          "question": "Một ô tô đi từ A đến B dài 130 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "2.6",
+          "acceptableAnswers": [
+            "2.6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2.6**."
         },
         {
           "id": 4,
-          "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $P = \\frac{3}{x + 2} + \\frac{x - 1}{x + 2}$ tại $x = 8$.",
-          "answer": "1"
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng thấp",
-          "question": "Cho phân thức $P = \\frac{3x + 6}{x^2 - 4}$.\na) Tìm điều kiện xác định của phân thức $P$.\nb) Rút gọn phân thức $P$.",
-          "rubric": "- a) Phân thức xác định khi $x^2 - 4 \\ne 0 \\Leftrightarrow (x - 2)(x + 2) \\ne 0 \\Leftrightarrow x \\ne 2$ và $x \\ne -2$. (0.5 điểm)\n- b) Phân tích tử và mẫu: $3x + 6 = 3(x + 2)$ và $x^2 - 4 = (x - 2)(x + 2)$. Ta có: $P = \\frac{3(x + 2)}{(x - 2)(x + 2)} = \\frac{3}{x - 2}$. (0.5 điểm)"
+          "level": "Thông hiểu",
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 1} - \\frac{1}{x + 1}\\right) : \\frac{2}{x^2 - 1}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 1) - (x - 1) ] / (x^2 - 1) = 2 / (x^2 - 1) (0.25đ).\nChia phân thức: A = [ 2 / (x^2 - 1) ] . [ (x^2 - 1) / 2 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-1 (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Thực hiện phép tính: $A = \\frac{1}{x - 2} - \\frac{4}{x^2 - 4}$ (với $x \\ne 2, x \\ne -2$).",
-          "rubric": "- Mẫu thức chung: $x^2 - 4 = (x - 2)(x + 2)$. (0.25 điểm)\n- Quy đồng: $A = \\frac{x + 2}{(x - 2)(x + 2)} - \\frac{4}{(x - 2)(x + 2)} = \\frac{x + 2 - 4}{(x - 2)(x + 2)}$. (0.25 điểm)\n- Thu gọn tử số: $x + 2 - 4 = x - 2$. (0.25 điểm)\n- Rút gọn: $A = \\frac{x - 2}{(x - 2)(x + 2)} = \\frac{1}{x + 2}$. (0.25 điểm)"
+          "level": "Vận dụng",
+          "question": "Hai người thợ cùng làm chung một công việc trong $6$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $12$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(6) (0.25đ).\nThay x = 12 vào phương trình: 1/(12) + 1/y = 1/(6) (0.25đ).\nSuy ra 1/y = 1/(6) - 1/(12) = 1/(12) (0.25đ).\nVậy y = 12 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Thực hiện phép tính: $B = \\frac{x^2 - 9}{2x + 4} \\cdot \\frac{x + 2}{x - 3}$ (với $x \\ne -2, x \\ne 3$).",
-          "rubric": "- Phân tích các đa thức thành nhân tử:\n  $x^2 - 9 = (x - 3)(x + 3)$;\n  $2x + 4 = 2(x + 2)$. (0.5 điểm)\n- Nhân và rút gọn:\n  $B = \\frac{(x - 3)(x + 3) \\cdot (x + 2)}{2(x + 2) \\cdot (x - 3)} = \\frac{x + 3}{2}$. (0.5 điểm)"
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 4}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 4 = 2(x - 1) + 6 (0.25đ).\nKhi đó P = 2 + (6)/(x - 1) (0.25đ).\nĐể P nguyên thì (6) chia hết cho (x - 1) => x - 1 thuộc Ư(6) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     },
     "c6_8_bai5_test2": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 2 (🌿 Khá)",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Điều kiện xác định của phân thức $P = \\frac{2x - 1}{x^3 - 4x}$ là:",
+          "level": "Nhận biết",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 02):",
           "options": [
-            "$x \\neq 0, x \\neq 2, x \\neq -2$",
-            "$x \\neq 2, x \\neq -2$",
-            "$x \\neq 0, x \\neq 4$",
-            "$x \\neq 0$"
+            "$B$ khác đa thức 0",
+            "$A$ khác đa thức 0",
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Rút gọn phân thức $\\frac{x^3 - 3x^2 + 3x - 1}{x - 1}$ với $x \\neq 1$ ta được:",
+          "level": "Nhận biết",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$x^2 - 1$",
-            "$(x + 1)^2$",
-            "$(x - 1)^2$",
-            "$x - 1$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Biểu thức $M = \\frac{x + 1}{x - 2} - \\frac{x - 1}{x + 2} - \\frac{8}{x^2 - 4}$ rút gọn được kết quả là:",
+          "level": "Nhận biết",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 2}$ là:",
           "options": [
-            "$\\frac{6x}{x^2 - 4}$",
-            "$1$",
-            "$\\frac{2x - 8}{x^2 - 4}$",
-            "$\\frac{6x - 8}{x^2 - 4}$"
+            "$x \\neq 2$",
+            "$x \\neq -2$",
+            "$x = 2$",
+            "$x \\neq -1$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Thông hiểu",
-          "question": "Tìm $x$ để phân thức $\\frac{x^2 - 25}{x - 5}$ nhận giá trị bằng $12$:",
+          "level": "Nhận biết",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$x = 7$",
-            "Không có $x$ nào",
-            "$x = 12$",
-            "$x = 5$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho biểu thức $A = \\left(\\frac{x}{x^2 - 1}\\right) : \\left(\\frac{1}{x - 1} - \\frac{1}{x + 1}\\right)$. Rút gọn $A$ ta được:",
+          "question": "Rút gọn phân thức $\\frac{4x^2y}{8xy^2}$ ta được kết quả là:",
           "options": [
-            "$2x$",
-            "$x$",
-            "$\\frac{1}{2}$",
-            "$\\frac{x}{2}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng thấp",
-          "question": "Tìm các giá trị nguyên của $x$ để phân thức $\\frac{2x + 7}{x + 2}$ nhận giá trị nguyên:",
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép cộng $\\frac{x - 2}{x + 2} + \\frac{2 + 2}{x + 2}$ là:",
           "options": [
-            "$x \\in \\{0, 1\\}$",
-            "$x \\in \\{-1, 1\\}$",
-            "$x \\in \\{-5, -3, -1, 1\\}$",
-            "$x \\in \\{1, 2, 3\\}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng thấp",
-          "question": "Cho $P = \\frac{x - 2}{x + 3}$. Tìm $x$ để $P < 0$:",
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép nhân $\\frac{x - 2}{3x} \\cdot \\frac{6x^2}{x - 2}$ ta được:",
           "options": [
-            "$-3 < x < 2$",
-            "$x \\leq -3$ hoặc $x \\geq 2$",
-            "$x > 2$",
-            "$x < -3$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng thấp",
-          "question": "Biết rằng $\\frac{1}{x(x + 1)} = \\frac{a}{x} + \\frac{b}{x + 1}$. Giá trị của $a - b$ bằng:",
+          "level": "Thông hiểu",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 4}{x - 2}$ tại $x = 7$ là:",
           "options": [
-            "$0$",
-            "$2$",
-            "$-2$",
-            "$1$"
+            "$9$",
+            "$7$",
+            "5",
+            "$4$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng thấp",
-          "question": "Giá trị nhỏ nhất của phân thức $Q = \\frac{5}{x^2 - 2x + 3}$ là:",
+          "level": "Vận dụng",
+          "question": "Một tổ công nhân theo kế hoạch may 400 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{5}{2}$",
-            "Không có GTNN (GTLN bằng $\\frac{5}{2}$ khi $x = 1$)",
-            "$1$",
-            "$5$"
+            "$\\frac{400}{x+5}$ ngày",
+            "$\\frac{400}{x}$ ngày",
+            "$\\frac{400}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng thấp",
-          "question": "Biểu thức $K = \\left(1 - \\frac{2}{x + 1}\\right) \\cdot \\left(\\frac{x^2 + 1}{x - 1} + 1\\right)$ với $x \\neq \\pm 1$ rút gọn bằng:",
+          "level": "Vận dụng",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 14 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$1$",
-            "$x$",
-            "$x - 1$",
-            "$x + 1$"
+            "$\\frac{14}{v + 2}$ giờ",
+            "$\\frac{14}{v - 2}$ giờ",
+            "$\\frac{14}{v}$ giờ",
+            "$\\frac{v + 2}{14}$ giờ"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng thấp",
-          "question": "Hai vòi nước cùng chảy vào bể cạn thì sau 6 giờ đầy bể. Nếu vòi 1 chảy một mình mất $x$ giờ đầy bể ($x > 6$) thì trong 1 giờ vòi 2 chảy được:",
+          "level": "Vận dụng",
+          "question": "Biết phân thức $\\frac{2x + 2}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$\\frac{1}{x} - \\frac{1}{6}$ bể",
-            "$\\frac{x - 6}{6}$ bể",
-            "$\\frac{1}{6} - \\frac{1}{x}$ bể",
-            "$\\frac{6}{x}$ bể"
+            "$4$",
+            "$0$",
+            "$2$",
+            "$2$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Vận dụng thấp",
-          "question": "Cho phân thức $M = \\frac{x^2 - 4x + 3}{x^2 - 1}$. Giá trị của $M$ tại $x = 99$ bằng:",
+          "level": "Vận dụng cao",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{5}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$\\frac{97}{100}$",
-            "$1$",
-            "$\\frac{96}{100} = 0.96$",
-            "$\\frac{48}{50} = 0.96$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho biểu thức $P = \\left(\\frac{x + 2}{x^2 - 9} - \\frac{1}{x + 3}\\right) : \\frac{5}{x^2 + 3x}$.",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 4}{x^2 - 4x + 4}$ (Mã đề 02):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Điều kiện xác định của biểu thức là $x \\neq 0, x \\neq 3, x \\neq -3$.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Biểu thức trong ngoặc quy đồng được kết quả là $\\frac{5}{x^2 - 9}$.",
-              "correct": true
+              "text": "Điều kiện xác định của phân thức P là x khác 2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Kết quả rút gọn của biểu thức $P$ là $P = \\frac{x}{x - 3}$.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 2) / (x - 2).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng thấp",
-              "text": "Để $P = 2$ thì $x = 6$ (thỏa mãn điều kiện xác định).",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho phân thức $A = \\frac{3x - 2}{x - 1}$ với $x$ là số nguyên khác 1.",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 02): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Ta có thể phân tích $A = 3 + \\frac{1}{x - 1}$.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Để $A$ nhận giá trị nguyên thì $x - 1 \\in \\{1; -1\\}$.",
-              "correct": true
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Các giá trị nguyên của $x$ để $A$ nguyên là $x = 0$ và $x = 2$.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng thấp",
-              "text": "Tổng các giá trị nguyên của $x$ để $A$ nguyên bằng $3$.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3560,255 +3620,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $P = \\frac{x^2 - 1}{x^2 - 2x + 1}$ tại $x = 21$.",
-          "answer": "1.1"
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 5).",
+          "answer": "x khác -5",
+          "acceptableAnswers": [
+            "x khác -5"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -5**."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Tìm số các giá trị nguyên của $x$ để phân thức $\\frac{x + 5}{x + 1}$ nhận giá trị nguyên.",
-          "answer": "6"
+          "level": "Thông hiểu",
+          "question": "Tính giá trị của phân thức (x^2 - 16) / (x + 4) khi x = 14.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Cho biểu thức $A = \\left(\\frac{x}{x - 1} - 1\\right) : \\frac{1}{x^2 - 1}$. Tính giá trị của $A$ tại $x = 19$.",
-          "answer": "20"
+          "level": "Vận dụng",
+          "question": "Một ô tô đi từ A đến B dài 140 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "2.8",
+          "acceptableAnswers": [
+            "2.8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2.8**."
         },
         {
           "id": 4,
-          "level": "Vận dụng thấp",
-          "question": "Tìm giá trị lớn nhất của phân thức $M = \\frac{12}{x^2 - 4x + 7}$.",
-          "answer": "4"
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho biểu thức $P = \\left(\\frac{x + 1}{x - 1} - \\frac{x - 1}{x + 1}\\right) : \\frac{4x}{x^2 - 1}$.\na) Tìm điều kiện xác định của $P$.\nb) Rút gọn biểu thức $P$.\nc) Tìm giá trị của $P$ khi $x = 2026$.",
-          "rubric": "a) ĐKXĐ: x ≠ 0, x ≠ 1, x ≠ -1 (0.25đ).\nb) Tử thức:\n(x + 1)/(x - 1) - (x - 1)/(x + 1) = [(x + 1)^2 - (x - 1)^2] / (x^2 - 1) = 4x / (x^2 - 1) (0.35đ).\nThực hiện phép chia:\nP = [4x / (x^2 - 1)] : [4x / (x^2 - 1)] = 1 (0.25đ).\nc) Tại x = 2026 (thỏa mãn ĐKXĐ), P = 1 (0.15đ)."
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 2} - \\frac{1}{x + 2}\\right) : \\frac{4}{x^2 - 4}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 2) - (x - 2) ] / (x^2 - 4) = 4 / (x^2 - 4) (0.25đ).\nChia phân thức: A = [ 4 / (x^2 - 4) ] . [ (x^2 - 4) / 4 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-2 (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Cho biểu thức $B = \\frac{x}{x + 2} + \\frac{2}{x - 2} - \\frac{4x}{x^2 - 4}$.\na) Rút gọn biểu thức $B$.\nb) Tìm các giá trị của $x$ để $B > 0$.\nc) Tìm các giá trị nguyên của $x$ để $B$ nhận giá trị nguyên.",
-          "rubric": "a) ĐKXĐ: x ≠ 2 và x ≠ -2. MTC = x^2 - 4 (0.15đ).\nTử = x(x - 2) + 2(x + 2) - 4x = (x^2 - 2x) + (2x + 4) - 4x = x^2 - 4x + 4 = (x - 2)^2 (0.25đ).\nRút gọn: B = (x - 2)^2 / [(x - 2)(x + 2)] = (x - 2) / (x + 2) (0.2đ).\nb) B > 0 <=> (x - 2)/(x + 2) > 0 <=> x > 2 hoặc x < -2 (0.2đ).\nc) B = (x + 2 - 4)/(x + 2) = 1 - 4/(x + 2). Để B nguyên thì x + 2 ∈ Ư(4) = {±1, ±2, ±4}.\nTìm được x ∈ {-6, -4, -3, -1, 0, 2}. Kết hợp ĐKXĐ (x ≠ ±2) ta được x ∈ {-6; -4; -3; -1; 0} (0.2đ)."
+          "level": "Vận dụng",
+          "question": "Hai người thợ cùng làm chung một công việc trong $8$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $16$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(8) (0.25đ).\nThay x = 16 vào phương trình: 1/(16) + 1/y = 1/(8) (0.25đ).\nSuy ra 1/y = 1/(8) - 1/(16) = 1/(16) (0.25đ).\nVậy y = 16 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Một xưởng theo kế hoạch cần gia công $1500$ sản phẩm trong thời gian quy định. Khi thực hiện, mỗi ngày xưởng làm thêm được $10$ sản phẩm nên đã hoàn thành sớm hơn $5$ ngày so với kế hoạch.\na) Gọi số ngày theo kế hoạch là $x$ (ngày, $x > 5$). Hãy viết phân thức biểu thị năng suất kế hoạch và thực tế.\nb) Lập phương trình biểu thị mối liên hệ và tính số ngày dự định hoàn thành theo kế hoạch.",
-          "rubric": "a) Năng suất kế hoạch: N_kh = 1500 / x (sản phẩm/ngày) (0.25đ).\nThời gian thực tế: x - 5 (ngày).\nNăng suất thực tế: N_tt = 1500 / (x - 5) (sản phẩm/ngày) (0.25đ).\nb) Vì mỗi ngày làm thêm 10 sản phẩm nên ta có phương trình:\n1500 / (x - 5) - 1500 / x = 10 (0.2đ).\n<=> 150 / (x - 5) - 150 / x = 1 <=> 150x - 150(x - 5) = x(x - 5)\n<=> 750 = x^2 - 5x <=> x^2 - 5x - 750 = 0 (0.15đ).\n(x - 30)(x + 25) = 0 => x = 30 (thỏa mãn x > 5) hoặc x = -25 (loại).\nVậy thời gian dự định là 30 ngày (0.15đ)."
+          "level": "Vận dụng cao",
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 5}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 5 = 2(x - 1) + 7 (0.25đ).\nKhi đó P = 2 + (7)/(x - 1) (0.25đ).\nĐể P nguyên thì (7) chia hết cho (x - 1) => x - 1 thuộc Ư(7) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     },
     "c6_8_bai5_test3": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho ba số thực $a, b, c$ khác 0 thỏa mãn $a + b + c = 0$. Giá trị của biểu thức $P = \\frac{ab}{a^2 + b^2 - c^2} + \\frac{bc}{b^2 + c^2 - a^2} + \\frac{ca}{c^2 + a^2 - b^2}$ bằng:",
+          "level": "Nhận biết",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 03):",
           "options": [
-            "$1$",
-            "$-\\frac{3}{2}$",
-            "$\\frac{3}{2}$",
-            "$0$"
+            "$B$ khác đa thức 0",
+            "$A$ khác đa thức 0",
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $A = \\left(\\frac{x}{x^2 - 4} + \\frac{2}{2 - x} + \\frac{1}{x + 2}\\right) : \\left(x - 2 + \\frac{10 - x^2}{x + 2}\\right)$ với $x$ thỏa mãn ĐKXĐ ta được:",
+          "level": "Nhận biết",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$1$",
-            "$-\\frac{1}{x - 2}$",
-            "$\\frac{1}{x - 2}$",
-            "$\\frac{1}{x + 2}$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Cho $x > 0$. Giá trị nhỏ nhất của biểu thức $P = \\frac{x^2 + 2025}{x}$ bằng:",
+          "level": "Nhận biết",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 3}$ là:",
           "options": [
-            "$45$",
-            "$180$",
-            "$2025$",
-            "$2\\sqrt{2025} = 90$"
+            "$x \\neq 3$",
+            "$x \\neq -3$",
+            "$x = 3$",
+            "$x \\neq -1$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Vận dụng thấp",
-          "question": "Cho $x, y$ thỏa mãn $x^2 + y^2 = 1$. Giá trị lớn nhất của phân thức $M = \\frac{2xy}{x^2 + 2xy + y^2 + 1}$ là:",
+          "level": "Nhận biết",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$\\frac{2}{3}$",
-            "$1$",
-            "$\\frac{1}{2}$",
-            "$\\frac{1}{4}$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng thấp",
-          "question": "Tính tổng $S = \\frac{1}{1 \\cdot 2 \\cdot 3} + \\frac{1}{2 \\cdot 3 \\cdot 4} + \\dots + \\frac{1}{n(n + 1)(n + 2)}$ theo $n$:",
+          "level": "Thông hiểu",
+          "question": "Rút gọn phân thức $\\frac{6x^2y}{12xy^2}$ ta được kết quả là:",
           "options": [
-            "$\\frac{n}{2(n + 1)(n + 2)}$",
-            "$\\frac{1}{4(n + 1)(n + 2)}$",
-            "$\\frac{n(n + 1)}{2(n + 2)}$",
-            "$\\frac{n(n + 3)}{4(n + 1)(n + 2)}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng cao",
-          "question": "Tìm tất cả các cặp số nguyên $(x; y)$ thỏa mãn đẳng thức phân thức $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{2}$ với $x \\leq y$:",
+          "level": "Thông hiểu",
+          "question": "Kết quả của phép cộng $\\frac{x - 3}{x + 2} + \\frac{3 + 2}{x + 2}$ là:",
           "options": [
-            "$(x; y) \\in \\{(3; 6), (4; 4), (1; -2), (-2; 1)\\}$",
-            "$(x; y) \\in \\{(1; 2), (2; 4)\\}$",
-            "$(x; y) \\in \\{(2; 2), (4; 4)\\}$",
-            "$(x; y) \\in \\{(3; 6), (4; 4)\\}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng cao",
-          "question": "Cho các số thực dương $a, b, c$ thỏa mãn $a + b + c = 3$. Giá trị nhỏ nhất của biểu thức $P = \\frac{a^2}{b + 1} + \\frac{b^2}{c + 1} + \\frac{c^2}{a + 1}$ bằng:",
+          "level": "Thông hiểu",
+          "question": "Thực hiện phép nhân $\\frac{x - 3}{3x} \\cdot \\frac{6x^2}{x - 3}$ ta được:",
           "options": [
-            "$3$",
-            "$\\frac{3}{2}$",
-            "$1$",
-            "$2$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng cao",
-          "question": "Cho $x, y, z$ đôi một khác nhau thỏa mãn $\\frac{x}{y - z} + \\frac{y}{z - x} + \\frac{z}{x - y} = 0$. Khẳng định nào sau đây là ĐÚNG?",
+          "level": "Thông hiểu",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 9}{x - 3}$ tại $x = 8$ là:",
           "options": [
-            "Tổng bình phương của ba phân thức bằng 0",
-            "Cả ba phân thức đều cùng bằng 0",
-            "Trong ba phân thức trên, ít nhất có một phân thức nhận giá trị âm và một phân thức nhận giá trị dương",
-            "Tích của ba phân thức bằng 1"
+            "$11$",
+            "$8$",
+            "5",
+            "$6$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của biểu thức $A = \\frac{x}{(x + 2026)^2}$ với $x > 0$:",
+          "level": "Vận dụng",
+          "question": "Một tổ công nhân theo kế hoạch may 450 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{1}{1013}$",
-            "$\\frac{1}{2026}$",
-            "$\\frac{1}{8104}$",
-            "$\\frac{1}{4052}$"
+            "$\\frac{450}{x+5}$ ngày",
+            "$\\frac{450}{x}$ ngày",
+            "$\\frac{450}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Cho ba số thực $a, b, c$ đôi một khác nhau. Giá trị của biểu thức $S = \\frac{(a + b)^2}{(a - b)^2} + \\frac{(b + c)^2}{(b - c)^2} + \\frac{(c + a)^2}{(c - a)^2}$ luôn thỏa mãn:",
+          "level": "Vận dụng",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 15 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$S \\geq 2$",
-            "$S \\geq 0$",
-            "$S = 3$",
-            "$S \\leq 1$"
+            "$\\frac{15}{v + 2}$ giờ",
+            "$\\frac{15}{v - 2}$ giờ",
+            "$\\frac{15}{v}$ giờ",
+            "$\\frac{v + 2}{15}$ giờ"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nghiệm nguyên của phương trình $\\frac{x^2 - 3x + 2}{x - 1} = 0$:",
+          "level": "Vận dụng",
+          "question": "Biết phân thức $\\frac{2x + 3}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$2$",
-            "$0$",
-            "Vô số",
-            "$1$"
+            "$5$",
+            "$1$",
+            "$3$",
+            "$2$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho $x + \\frac{1}{x} = a$. Biểu thức $\\frac{x^6 + 1}{x^3}$ biểu diễn theo $a$ là:",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{6}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$a^3 - 3a$",
-            "$a^3 + 3a$",
-            "$a(a^2 - 1)$",
-            "$a^3 - 1$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho biểu thức $P = \\left(\\frac{x^2 + 3}{x^3 + 3x^2 + x + 3} + \\frac{1}{x^2 + 1}\\right) : \\left(\\frac{x - 2}{x^2 - x - 6}\\right)$.",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 9}{x^2 - 6x + 9}$ (Mã đề 03):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mẫu thức $x^3 + 3x^2 + x + 3$ phân tích thành $(x + 3)(x^2 + 1)$.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Điều kiện xác định của $P$ là $x \\neq 2, x \\neq 3, x \\neq -3, x \\neq -2$.",
-              "correct": true
+              "text": "Điều kiện xác định của phân thức P là x khác 3.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng cao",
-              "text": "Biểu thức $P$ sau khi rút gọn tối giản có dạng $P = \\frac{2}{x^2 + 1}$.",
-              "correct": false
+              "level": "Thông hiểu",
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 3) / (x - 3).",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Kết quả rút gọn thực sự là $P = \\frac{2(x - 3)}{x^2 + 1}$.",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho ba số thực dương $a, b, c$ thỏa mãn $a + b + c = 1$. Xét biểu thức $E = \\frac{a}{1 + bc} + \\frac{b}{1 + ca} + \\frac{c}{1 + ab}$.",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 03): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Ta có $bc \\leq \\frac{(b + c)^2}{4} = \\frac{(1 - a)^2}{4}$.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Vận dụng cao",
-              "text": "Mẫu số $1 + bc \\leq 1 + \\frac{1}{4} = \\frac{5}{4}$.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng cao",
-              "text": "Biểu thức $E$ luôn thỏa mãn $E \\geq \\frac{3}{4}$.",
-              "correct": false
+              "level": "Thông hiểu",
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Khi $a = b = c = \\frac{1}{3}$, giá trị của $E$ bằng $\\frac{9}{10}$.",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3816,64 +3914,80 @@
       "part3": [
         {
           "id": 1,
-          "level": "Vận dụng thấp",
-          "question": "Cho $x > 0$. Tìm giá trị nhỏ nhất của biểu thức $A = x + \\frac{16}{x}$.",
-          "answer": "8"
+          "level": "Thông hiểu",
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 6).",
+          "answer": "x khác -6",
+          "acceptableAnswers": [
+            "x khác -6"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -6**."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của phân thức $P = \\frac{x^2}{x^4 + 1}$.",
-          "answer": "0.5"
+          "level": "Thông hiểu",
+          "question": "Tính giá trị của phân thức (x^2 - 36) / (x + 6) khi x = 16.",
+          "answer": "10",
+          "acceptableAnswers": [
+            "10"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
-          "level": "Vận dụng cao",
-          "question": "Cho $a, b, c$ khác 0 thỏa mãn $a + b + c = 0$. Tính giá trị của biểu thức $M = \\frac{a^3 + b^3 + c^3}{abc}$.",
-          "answer": "3"
+          "level": "Vận dụng",
+          "question": "Một ô tô đi từ A đến B dài 150 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "3.0",
+          "acceptableAnswers": [
+            "3.0"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.0**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nghiệm nguyên dương của phương trình $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{5}$.",
-          "answer": "3"
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng cao",
-          "question": "Cho biểu thức $A = \\left(\\frac{x + 2}{x^2 - 2x + 1} - \\frac{x - 2}{x^2 - 1}\\right) : \\frac{4x}{x^2 - 1}$.\na) Tìm điều kiện xác định của biểu thức $A$.\nb) Rút gọn biểu thức $A$.\nc) Tìm các giá trị của $x$ để $A < 0$.",
-          "rubric": "a) ĐKXĐ: x ≠ 0, x ≠ 1, x ≠ -1 (0.25đ).\nb) Quy đồng trong ngoặc với MTC = (x - 1)^2(x + 1):\nTử = (x + 2)(x + 1) - (x - 2)(x - 1) = (x^2 + 3x + 2) - (x^2 - 3x + 2) = 6x (0.35đ).\nThực hiện phép chia:\nA = [6x / ((x - 1)^2(x + 1))] * [(x - 1)(x + 1) / (4x)] = 6 / [4(x - 1)] = 3 / [2(x - 1)] (0.25đ).\nc) A < 0 <=> 3 / [2(x - 1)] < 0 <=> x - 1 < 0 <=> x < 1.\nKết hợp ĐKXĐ: x < 1, x ≠ 0, x ≠ -1 (0.15đ)."
+          "level": "Thông hiểu",
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 3} - \\frac{1}{x + 3}\\right) : \\frac{6}{x^2 - 9}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 3) - (x - 3) ] / (x^2 - 9) = 6 / (x^2 - 9) (0.25đ).\nChia phân thức: A = [ 6 / (x^2 - 9) ] . [ (x^2 - 9) / 6 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-3 (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Cho ba số thực $a, b, c$ khác nhau từng đôi một.\nChứng minh rằng:\n$S = \\frac{bc}{(a - b)(a - c)} + \\frac{ca}{(b - c)(b - a)} + \\frac{ab}{(c - a)(c - b)} = 1$.",
-          "rubric": "- Mẫu thức chung là (a - b)(b - c)(c - a) (0.25đ).\n- Biến đổi từng phân thức:\nP_1 = -bc(b - c) / MTC\nP_2 = -ca(c - a) / MTC\nP_3 = -ab(a - b) / MTC (0.35đ).\n- Tử thức = -[bc(b - c) + ca(c - a) + ab(a - b)] (0.15đ).\n- Phân tích tử thức thành nhân tử:\nbc(b - c) + ca(c - a) + ab(a - b) = -(a - b)(b - c)(c - a) (0.15đ).\n- Do đó Tử thức = (a - b)(b - c)(c - a) = MTC.\nSuy ra S = MTC / MTC = 1 (đpcm) (0.1đ)."
+          "level": "Vận dụng",
+          "question": "Hai người thợ cùng làm chung một công việc trong $10$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $20$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(10) (0.25đ).\nThay x = 20 vào phương trình: 1/(20) + 1/y = 1/(10) (0.25đ).\nSuy ra 1/y = 1/(10) - 1/(20) = 1/(20) (0.25đ).\nVậy y = 20 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho hai số thực $x, y$ thỏa mãn $x > 0, y > 0$ và $x + y = 1$.\nTìm giá trị nhỏ nhất của biểu thức:\n$P = \\frac{1}{x^2 + y^2} + \\frac{1}{2xy}$.",
-          "rubric": "- Biến đổi biểu thức:\nP = 1/(x^2 + y^2) + 1/(2xy) (0.1đ).\n- Áp dụng bất đẳng thức 1/A + 1/B ≥ 4/(A + B) với A, B > 0:\n1/(x^2 + y^2) + 1/(2xy) ≥ 4 / (x^2 + y^2 + 2xy) = 4 / (x + y)^2 (0.45đ).\n- Vì x + y = 1 nên P ≥ 4 / 1^2 = 4 (0.25đ).\n- Dấu '=' xảy ra khi x^2 + y^2 = 2xy <=> (x - y)^2 = 0 <=> x = y.\nKết hợp x + y = 1 ta được x = y = 1/2 (thỏa mãn x, y > 0) (0.15đ).\n- Vậy giá trị nhỏ nhất của P là 4 khi x = y = 1/2 (0.05đ)."
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 6}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 6 = 2(x - 1) + 8 (0.25đ).\nKhi đó P = 2 + (8)/(x - 1) (0.25đ).\nĐể P nguyên thì (8) chia hết cho (x - 1) => x - 1 thuộc Ư(8) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     },
     "c6_8_bai5_test4": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$ trong đó $A, B$ là các đa thức và:",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 04):",
           "options": [
-            "$B$ là đa thức khác đa thức 0",
+            "$B$ khác đa thức 0",
             "$A$ khác đa thức 0",
-            "$B$ là một hằng số",
-            "$A$ và $B$ là các số tự nhiên"
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3881,12 +3995,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phân thức $\\frac{x+1}{x-2}$ là:",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$x \\neq 2$",
-            "$x \\neq -1$",
-            "$x \\neq 0$",
-            "$x > 2$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3894,12 +4008,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Rút gọn phân thức $\\frac{2x}{4x^2}$ ta được:",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 4}$ là:",
           "options": [
-            "$\\frac{1}{2x}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{x}{2}$",
-            "$\\frac{2}{x}$"
+            "$x \\neq 4$",
+            "$x \\neq -4$",
+            "$x = 4$",
+            "$x \\neq -1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3907,12 +4021,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Phân thức đối của phân thức $\\frac{x-1}{x+2}$ là:",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$-\\frac{x-1}{x+2} = \\frac{1-x}{x+2}$",
-            "$\\frac{x+1}{x-2}$",
-            "$\\frac{x+2}{x-1}$",
-            "$\\frac{x-1}{2-x}$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3920,12 +4034,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép cộng $\\frac{2x}{x+1} + \\frac{2}{x+1}$ là:",
+          "question": "Rút gọn phân thức $\\frac{8x^2y}{16xy^2}$ ta được kết quả là:",
           "options": [
-            "$2$",
-            "$\\frac{2x+2}{2(x+1)}$",
-            "$4$",
-            "$\\frac{2}{x+1}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3933,12 +4047,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép nhân $\\frac{x-1}{x+3} \\cdot \\frac{x+3}{x-1}$ với $x \\neq 1, x \\neq -3$ là:",
+          "question": "Kết quả của phép cộng $\\frac{x - 4}{x + 2} + \\frac{4 + 2}{x + 2}$ là:",
           "options": [
-            "$1$",
-            "$0$",
-            "$-1$",
-            "$\\frac{(x-1)^2}{(x+3)^2}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3946,12 +4060,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phân thức $\\frac{x^2 - 4}{x - 2}$ sau khi rút gọn bằng:",
+          "question": "Thực hiện phép nhân $\\frac{x - 4}{3x} \\cdot \\frac{6x^2}{x - 4}$ ta được:",
           "options": [
-            "$x + 2$",
-            "$x - 2$",
-            "$x + 4$",
-            "$2$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3959,12 +4073,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Giá trị của phân thức $\\frac{x+3}{x-1}$ tại $x = 3$ là:",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 16}{x - 4}$ tại $x = 9$ là:",
           "options": [
-            "$3$",
-            "$6$",
-            "$2$",
-            "$0$"
+            "$13$",
+            "$9$",
+            "5",
+            "$8$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3972,12 +4086,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính $\\frac{1}{x-1} - \\frac{1}{x+1}$ ta được:",
+          "question": "Một tổ công nhân theo kế hoạch may 500 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{2}{x^2-1}$",
-            "$\\frac{2x}{x^2-1}$",
-            "$0$",
-            "$\\frac{-2}{x^2-1}$"
+            "$\\frac{500}{x+5}$ ngày",
+            "$\\frac{500}{x}$ ngày",
+            "$\\frac{500}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3985,12 +4099,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$ để phân thức $\\frac{3x-6}{x+2}$ có giá trị bằng 0:",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 16 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 0$",
-            "$x = 6$"
+            "$\\frac{16}{v + 2}$ giờ",
+            "$\\frac{16}{v - 2}$ giờ",
+            "$\\frac{16}{v}$ giờ",
+            "$\\frac{v + 2}{16}$ giờ"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3998,12 +4112,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một ca nô xuôi dòng quãng đường $30\\text{ km}$ với vận tốc $(x + 3)\\text{ km/h}$. Biểu thức biểu thị thời gian ca nô đi là:",
+          "question": "Biết phân thức $\\frac{2x + 4}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$\\frac{30}{x+3}$ (giờ)",
-            "$30(x + 3)$",
-            "$\\frac{x+3}{30}$",
-            "$30 - (x + 3)$"
+            "$6$",
+            "$2$",
+            "$4$",
+            "$2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4011,12 +4125,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $\\frac{2x+3}{x-1}$ nhận giá trị nguyên:",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{7}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$x \\in \\{-4; 0; 2; 6\\}$",
-            "$x \\in \\{1; 2; 3\\}$",
-            "$x \\in \\{0; 2\\}$",
-            "$x \\in \\{-1; 1\\}$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4025,67 +4139,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phân thức đại số và các phép biến đổi (Mã đề 4):",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 16}{x^2 - 8x + 16}$ (Mã đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Nếu nhân cả tử và mẫu của một phân thức với cùng một đa thức khác 0 thì được phân thức bằng nó.",
+              "level": "Nhận biết",
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hai phân thức A/B và C/D bằng nhau khi và chỉ khi A.D = B.C.",
+              "text": "Điều kiện xác định của phân thức P là x khác 4.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phân thức nghịch đảo của A/B là B/A (với A, B khác 0).",
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 4) / (x - 4).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Với mọi giá trị của x, phân thức (x^2 + 1)/(x^2 + 2) luôn nhỏ hơn 1.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $P = \\left(\\frac{x}{x-2} - \\frac{2}{x+2}\\right) : \\frac{x^2+4}{x^2-4}$ (với $x \\neq \\pm 2$):",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 04): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mẫu thức chung trong ngoặc là (x - 2)(x + 2) = x^2 - 4.",
+              "level": "Nhận biết",
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tử thức trong ngoặc sau quy đồng là x(x + 2) - 2(x - 2) = x^2 + 4.",
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức P rút gọn bằng 1.",
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi x = 2 thì P nhận giá trị bằng 1.",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4096,79 +4210,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tìm điều kiện xác định của phân thức: 5 / (x - 7). Điền số mà x phải khác.",
-          "answer": "7",
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 7).",
+          "answer": "x khác -7",
           "acceptableAnswers": [
-            "7"
+            "x khác -7"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -7**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức (x^2 - 9)/(x + 3) rồi tính giá trị tại x = 10.",
-          "answer": "7",
+          "question": "Tính giá trị của phân thức (x^2 - 64) / (x + 8) khi x = 18.",
+          "answer": "10",
           "acceptableAnswers": [
-            "7"
+            "10"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x để phân thức (2x - 8) / (x + 1) bằng 0.",
-          "answer": "4",
+          "question": "Một ô tô đi từ A đến B dài 160 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "3.2",
           "acceptableAnswers": [
-            "4"
+            "3.2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.2**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nguyên x lớn nhất để phân thức 5 / (x - 2) nhận giá trị nguyên dương.",
-          "answer": "7",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
           "acceptableAnswers": [
-            "7"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức: $A = \\frac{x^2 - 4x + 4}{2x - 4}$.",
-          "rubric": "A = (x - 2)^2 / [2(x - 2)] = (x - 2) / 2 (0.5đ)."
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 4} - \\frac{1}{x + 4}\\right) : \\frac{8}{x^2 - 16}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 4) - (x - 4) ] / (x^2 - 16) = 8 / (x^2 - 16) (0.25đ).\nChia phân thức: A = [ 8 / (x^2 - 16) ] . [ (x^2 - 16) / 8 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-4 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính: $B = \\frac{1}{x-2} + \\frac{1}{x+2} - \\frac{2x}{x^2-4}$.",
-          "rubric": "MTC = x^2 - 4 = (x - 2)(x + 2) (0.25đ).\nB = [(x + 2) + (x - 2) - 2x] / (x^2 - 4) = (2x - 2x) / (x^2 - 4) = 0 (0.25đ)."
+          "question": "Hai người thợ cùng làm chung một công việc trong $12$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $24$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(12) (0.25đ).\nThay x = 24 vào phương trình: 1/(24) + 1/y = 1/(12) (0.25đ).\nSuy ra 1/y = 1/(12) - 1/(24) = 1/(24) (0.25đ).\nVậy y = 24 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $M = \\frac{3x + 5}{x - 1}$ nhận giá trị là một số nguyên.",
-          "rubric": "M = (3x - 3 + 8)/(x - 1) = 3 + 8/(x - 1) (0.25đ).\nĐể M nguyên thì x - 1 phải là ước của 8 in {1; -1; 2; -2; 4; -4; 8; -8}.\n=> x in {2; 0; 3; -1; 5; -3; 9; -7} (0.25đ)."
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 7}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 7 = 2(x - 1) + 9 (0.25đ).\nKhi đó P = 2 + (9)/(x - 1) (0.25đ).\nĐể P nguyên thì (9) chia hết cho (x - 1) => x - 1 thuộc Ư(9) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     },
     "c6_8_bai5_test5": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 5 (💡 Phân thức đại số & Rút gọn)",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$ trong đó $A, B$ là các đa thức và:",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 05):",
           "options": [
-            "$B$ là đa thức khác đa thức 0",
+            "$B$ khác đa thức 0",
             "$A$ khác đa thức 0",
-            "$B$ là một hằng số",
-            "$A$ và $B$ là các số tự nhiên"
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4176,12 +4290,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phân thức $\\frac{x+1}{x-2}$ là:",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$x \\neq 2$",
-            "$x \\neq -1$",
-            "$x \\neq 0$",
-            "$x > 2$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4189,12 +4303,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Rút gọn phân thức $\\frac{2x}{4x^2}$ ta được:",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 5}$ là:",
           "options": [
-            "$\\frac{1}{2x}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{x}{2}$",
-            "$\\frac{2}{x}$"
+            "$x \\neq 5$",
+            "$x \\neq -5$",
+            "$x = 5$",
+            "$x \\neq -1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4202,12 +4316,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Phân thức đối của phân thức $\\frac{x-1}{x+2}$ là:",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$-\\frac{x-1}{x+2} = \\frac{1-x}{x+2}$",
-            "$\\frac{x+1}{x-2}$",
-            "$\\frac{x+2}{x-1}$",
-            "$\\frac{x-1}{2-x}$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4215,12 +4329,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép cộng $\\frac{2x}{x+1} + \\frac{2}{x+1}$ là:",
+          "question": "Rút gọn phân thức $\\frac{10x^2y}{20xy^2}$ ta được kết quả là:",
           "options": [
-            "$2$",
-            "$\\frac{2x+2}{2(x+1)}$",
-            "$4$",
-            "$\\frac{2}{x+1}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4228,12 +4342,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép nhân $\\frac{x-1}{x+3} \\cdot \\frac{x+3}{x-1}$ với $x \\neq 1, x \\neq -3$ là:",
+          "question": "Kết quả của phép cộng $\\frac{x - 5}{x + 2} + \\frac{5 + 2}{x + 2}$ là:",
           "options": [
-            "$1$",
-            "$0$",
-            "$-1$",
-            "$\\frac{(x-1)^2}{(x+3)^2}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4241,12 +4355,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phân thức $\\frac{x^2 - 4}{x - 2}$ sau khi rút gọn bằng:",
+          "question": "Thực hiện phép nhân $\\frac{x - 5}{3x} \\cdot \\frac{6x^2}{x - 5}$ ta được:",
           "options": [
-            "$x + 2$",
-            "$x - 2$",
-            "$x + 4$",
-            "$2$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4254,12 +4368,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Giá trị của phân thức $\\frac{x+3}{x-1}$ tại $x = 3$ là:",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 25}{x - 5}$ tại $x = 10$ là:",
           "options": [
-            "$3$",
-            "$6$",
-            "$2$",
-            "$0$"
+            "$15$",
+            "$10$",
+            "5",
+            "$10$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4267,12 +4381,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính $\\frac{1}{x-1} - \\frac{1}{x+1}$ ta được:",
+          "question": "Một tổ công nhân theo kế hoạch may 550 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{2}{x^2-1}$",
-            "$\\frac{2x}{x^2-1}$",
-            "$0$",
-            "$\\frac{-2}{x^2-1}$"
+            "$\\frac{550}{x+5}$ ngày",
+            "$\\frac{550}{x}$ ngày",
+            "$\\frac{550}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4280,12 +4394,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$ để phân thức $\\frac{3x-6}{x+2}$ có giá trị bằng 0:",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 17 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 0$",
-            "$x = 6$"
+            "$\\frac{17}{v + 2}$ giờ",
+            "$\\frac{17}{v - 2}$ giờ",
+            "$\\frac{17}{v}$ giờ",
+            "$\\frac{v + 2}{17}$ giờ"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4293,12 +4407,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một ca nô xuôi dòng quãng đường $30\\text{ km}$ với vận tốc $(x + 3)\\text{ km/h}$. Biểu thức biểu thị thời gian ca nô đi là:",
+          "question": "Biết phân thức $\\frac{2x + 5}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$\\frac{30}{x+3}$ (giờ)",
-            "$30(x + 3)$",
-            "$\\frac{x+3}{30}$",
-            "$30 - (x + 3)$"
+            "$7$",
+            "$3$",
+            "$5$",
+            "$2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4306,12 +4420,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $\\frac{2x+3}{x-1}$ nhận giá trị nguyên:",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{8}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$x \\in \\{-4; 0; 2; 6\\}$",
-            "$x \\in \\{1; 2; 3\\}$",
-            "$x \\in \\{0; 2\\}$",
-            "$x \\in \\{-1; 1\\}$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4320,67 +4434,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phân thức đại số và các phép biến đổi (Mã đề 5):",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 25}{x^2 - 10x + 25}$ (Mã đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Nếu nhân cả tử và mẫu của một phân thức với cùng một đa thức khác 0 thì được phân thức bằng nó.",
+              "level": "Nhận biết",
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hai phân thức A/B và C/D bằng nhau khi và chỉ khi A.D = B.C.",
+              "text": "Điều kiện xác định của phân thức P là x khác 5.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phân thức nghịch đảo của A/B là B/A (với A, B khác 0).",
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 5) / (x - 5).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Với mọi giá trị của x, phân thức (x^2 + 1)/(x^2 + 2) luôn nhỏ hơn 1.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $P = \\left(\\frac{x}{x-2} - \\frac{2}{x+2}\\right) : \\frac{x^2+4}{x^2-4}$ (với $x \\neq \\pm 2$):",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 05): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mẫu thức chung trong ngoặc là (x - 2)(x + 2) = x^2 - 4.",
+              "level": "Nhận biết",
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tử thức trong ngoặc sau quy đồng là x(x + 2) - 2(x - 2) = x^2 + 4.",
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức P rút gọn bằng 1.",
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi x = 2 thì P nhận giá trị bằng 1.",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4391,79 +4505,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tìm điều kiện xác định của phân thức: 5 / (x - 7). Điền số mà x phải khác.",
-          "answer": "7",
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 8).",
+          "answer": "x khác -8",
           "acceptableAnswers": [
-            "7"
+            "x khác -8"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -8**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức (x^2 - 9)/(x + 3) rồi tính giá trị tại x = 10.",
-          "answer": "7",
+          "question": "Tính giá trị của phân thức (x^2 - 100) / (x + 10) khi x = 20.",
+          "answer": "10",
           "acceptableAnswers": [
-            "7"
+            "10"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x để phân thức (2x - 8) / (x + 1) bằng 0.",
-          "answer": "4",
+          "question": "Một ô tô đi từ A đến B dài 170 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "3.4",
           "acceptableAnswers": [
-            "4"
+            "3.4"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nguyên x lớn nhất để phân thức 5 / (x - 2) nhận giá trị nguyên dương.",
-          "answer": "7",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
           "acceptableAnswers": [
-            "7"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức: $A = \\frac{x^2 - 4x + 4}{2x - 4}$.",
-          "rubric": "A = (x - 2)^2 / [2(x - 2)] = (x - 2) / 2 (0.5đ)."
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 5} - \\frac{1}{x + 5}\\right) : \\frac{10}{x^2 - 25}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 5) - (x - 5) ] / (x^2 - 25) = 10 / (x^2 - 25) (0.25đ).\nChia phân thức: A = [ 10 / (x^2 - 25) ] . [ (x^2 - 25) / 10 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-5 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính: $B = \\frac{1}{x-2} + \\frac{1}{x+2} - \\frac{2x}{x^2-4}$.",
-          "rubric": "MTC = x^2 - 4 = (x - 2)(x + 2) (0.25đ).\nB = [(x + 2) + (x - 2) - 2x] / (x^2 - 4) = (2x - 2x) / (x^2 - 4) = 0 (0.25đ)."
+          "question": "Hai người thợ cùng làm chung một công việc trong $14$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $28$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(14) (0.25đ).\nThay x = 28 vào phương trình: 1/(28) + 1/y = 1/(14) (0.25đ).\nSuy ra 1/y = 1/(14) - 1/(28) = 1/(28) (0.25đ).\nVậy y = 28 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $M = \\frac{3x + 5}{x - 1}$ nhận giá trị là một số nguyên.",
-          "rubric": "M = (3x - 3 + 8)/(x - 1) = 3 + 8/(x - 1) (0.25đ).\nĐể M nguyên thì x - 1 phải là ước của 8 in {1; -1; 2; -2; 4; -4; 8; -8}.\n=> x in {2; 0; 3; -1; 5; -3; 9; -7} (0.25đ)."
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 8}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 8 = 2(x - 1) + 10 (0.25đ).\nKhi đó P = 2 + (10)/(x - 1) (0.25đ).\nĐể P nguyên thì (10) chia hết cho (x - 1) => x - 1 thuộc Ư(10) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     },
     "c6_8_bai5_test6": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$ trong đó $A, B$ là các đa thức và:",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 06):",
           "options": [
-            "$B$ là đa thức khác đa thức 0",
+            "$B$ khác đa thức 0",
             "$A$ khác đa thức 0",
-            "$B$ là một hằng số",
-            "$A$ và $B$ là các số tự nhiên"
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4471,12 +4585,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phân thức $\\frac{x+1}{x-2}$ là:",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$x \\neq 2$",
-            "$x \\neq -1$",
-            "$x \\neq 0$",
-            "$x > 2$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4484,12 +4598,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Rút gọn phân thức $\\frac{2x}{4x^2}$ ta được:",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 6}$ là:",
           "options": [
-            "$\\frac{1}{2x}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{x}{2}$",
-            "$\\frac{2}{x}$"
+            "$x \\neq 6$",
+            "$x \\neq -6$",
+            "$x = 6$",
+            "$x \\neq -1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4497,12 +4611,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Phân thức đối của phân thức $\\frac{x-1}{x+2}$ là:",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$-\\frac{x-1}{x+2} = \\frac{1-x}{x+2}$",
-            "$\\frac{x+1}{x-2}$",
-            "$\\frac{x+2}{x-1}$",
-            "$\\frac{x-1}{2-x}$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4510,12 +4624,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép cộng $\\frac{2x}{x+1} + \\frac{2}{x+1}$ là:",
+          "question": "Rút gọn phân thức $\\frac{12x^2y}{24xy^2}$ ta được kết quả là:",
           "options": [
-            "$2$",
-            "$\\frac{2x+2}{2(x+1)}$",
-            "$4$",
-            "$\\frac{2}{x+1}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4523,12 +4637,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép nhân $\\frac{x-1}{x+3} \\cdot \\frac{x+3}{x-1}$ với $x \\neq 1, x \\neq -3$ là:",
+          "question": "Kết quả của phép cộng $\\frac{x - 6}{x + 2} + \\frac{6 + 2}{x + 2}$ là:",
           "options": [
-            "$1$",
-            "$0$",
-            "$-1$",
-            "$\\frac{(x-1)^2}{(x+3)^2}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4536,12 +4650,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phân thức $\\frac{x^2 - 4}{x - 2}$ sau khi rút gọn bằng:",
+          "question": "Thực hiện phép nhân $\\frac{x - 6}{3x} \\cdot \\frac{6x^2}{x - 6}$ ta được:",
           "options": [
-            "$x + 2$",
-            "$x - 2$",
-            "$x + 4$",
-            "$2$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4549,12 +4663,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Giá trị của phân thức $\\frac{x+3}{x-1}$ tại $x = 3$ là:",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 36}{x - 6}$ tại $x = 11$ là:",
           "options": [
-            "$3$",
-            "$6$",
-            "$2$",
-            "$0$"
+            "$17$",
+            "$11$",
+            "5",
+            "$12$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4562,12 +4676,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính $\\frac{1}{x-1} - \\frac{1}{x+1}$ ta được:",
+          "question": "Một tổ công nhân theo kế hoạch may 600 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{2}{x^2-1}$",
-            "$\\frac{2x}{x^2-1}$",
-            "$0$",
-            "$\\frac{-2}{x^2-1}$"
+            "$\\frac{600}{x+5}$ ngày",
+            "$\\frac{600}{x}$ ngày",
+            "$\\frac{600}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4575,12 +4689,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$ để phân thức $\\frac{3x-6}{x+2}$ có giá trị bằng 0:",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 18 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 0$",
-            "$x = 6$"
+            "$\\frac{18}{v + 2}$ giờ",
+            "$\\frac{18}{v - 2}$ giờ",
+            "$\\frac{18}{v}$ giờ",
+            "$\\frac{v + 2}{18}$ giờ"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4588,12 +4702,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một ca nô xuôi dòng quãng đường $30\\text{ km}$ với vận tốc $(x + 3)\\text{ km/h}$. Biểu thức biểu thị thời gian ca nô đi là:",
+          "question": "Biết phân thức $\\frac{2x + 6}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$\\frac{30}{x+3}$ (giờ)",
-            "$30(x + 3)$",
-            "$\\frac{x+3}{30}$",
-            "$30 - (x + 3)$"
+            "$8$",
+            "$4$",
+            "$6$",
+            "$2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4601,12 +4715,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $\\frac{2x+3}{x-1}$ nhận giá trị nguyên:",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{9}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$x \\in \\{-4; 0; 2; 6\\}$",
-            "$x \\in \\{1; 2; 3\\}$",
-            "$x \\in \\{0; 2\\}$",
-            "$x \\in \\{-1; 1\\}$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4615,67 +4729,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phân thức đại số và các phép biến đổi (Mã đề 6):",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 36}{x^2 - 12x + 36}$ (Mã đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Nếu nhân cả tử và mẫu của một phân thức với cùng một đa thức khác 0 thì được phân thức bằng nó.",
+              "level": "Nhận biết",
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hai phân thức A/B và C/D bằng nhau khi và chỉ khi A.D = B.C.",
+              "text": "Điều kiện xác định của phân thức P là x khác 6.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phân thức nghịch đảo của A/B là B/A (với A, B khác 0).",
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 6) / (x - 6).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Với mọi giá trị của x, phân thức (x^2 + 1)/(x^2 + 2) luôn nhỏ hơn 1.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $P = \\left(\\frac{x}{x-2} - \\frac{2}{x+2}\\right) : \\frac{x^2+4}{x^2-4}$ (với $x \\neq \\pm 2$):",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 06): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mẫu thức chung trong ngoặc là (x - 2)(x + 2) = x^2 - 4.",
+              "level": "Nhận biết",
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tử thức trong ngoặc sau quy đồng là x(x + 2) - 2(x - 2) = x^2 + 4.",
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức P rút gọn bằng 1.",
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi x = 2 thì P nhận giá trị bằng 1.",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4686,79 +4800,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tìm điều kiện xác định của phân thức: 5 / (x - 7). Điền số mà x phải khác.",
-          "answer": "7",
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 9).",
+          "answer": "x khác -9",
           "acceptableAnswers": [
-            "7"
+            "x khác -9"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -9**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức (x^2 - 9)/(x + 3) rồi tính giá trị tại x = 10.",
-          "answer": "7",
+          "question": "Tính giá trị của phân thức (x^2 - 144) / (x + 12) khi x = 22.",
+          "answer": "10",
           "acceptableAnswers": [
-            "7"
+            "10"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x để phân thức (2x - 8) / (x + 1) bằng 0.",
-          "answer": "4",
+          "question": "Một ô tô đi từ A đến B dài 180 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "3.6",
           "acceptableAnswers": [
-            "4"
+            "3.6"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.6**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nguyên x lớn nhất để phân thức 5 / (x - 2) nhận giá trị nguyên dương.",
-          "answer": "7",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
           "acceptableAnswers": [
-            "7"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức: $A = \\frac{x^2 - 4x + 4}{2x - 4}$.",
-          "rubric": "A = (x - 2)^2 / [2(x - 2)] = (x - 2) / 2 (0.5đ)."
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 6} - \\frac{1}{x + 6}\\right) : \\frac{12}{x^2 - 36}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 6) - (x - 6) ] / (x^2 - 36) = 12 / (x^2 - 36) (0.25đ).\nChia phân thức: A = [ 12 / (x^2 - 36) ] . [ (x^2 - 36) / 12 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-6 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính: $B = \\frac{1}{x-2} + \\frac{1}{x+2} - \\frac{2x}{x^2-4}$.",
-          "rubric": "MTC = x^2 - 4 = (x - 2)(x + 2) (0.25đ).\nB = [(x + 2) + (x - 2) - 2x] / (x^2 - 4) = (2x - 2x) / (x^2 - 4) = 0 (0.25đ)."
+          "question": "Hai người thợ cùng làm chung một công việc trong $16$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $32$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(16) (0.25đ).\nThay x = 32 vào phương trình: 1/(32) + 1/y = 1/(16) (0.25đ).\nSuy ra 1/y = 1/(16) - 1/(32) = 1/(32) (0.25đ).\nVậy y = 32 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $M = \\frac{3x + 5}{x - 1}$ nhận giá trị là một số nguyên.",
-          "rubric": "M = (3x - 3 + 8)/(x - 1) = 3 + 8/(x - 1) (0.25đ).\nĐể M nguyên thì x - 1 phải là ước của 8 in {1; -1; 2; -2; 4; -4; 8; -8}.\n=> x in {2; 0; 3; -1; 5; -3; 9; -7} (0.25đ)."
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 9}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 9 = 2(x - 1) + 11 (0.25đ).\nKhi đó P = 2 + (11)/(x - 1) (0.25đ).\nĐể P nguyên thì (11) chia hết cho (x - 1) => x - 1 thuộc Ư(11) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     },
     "c6_8_bai5_test7": {
-      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VI: Phân thức đại số - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$ trong đó $A, B$ là các đa thức và:",
+          "question": "Phân thức đại số là biểu thức có dạng $\\frac{A}{B}$, trong đó $A, B$ là những đa thức và (Đề 07):",
           "options": [
-            "$B$ là đa thức khác đa thức 0",
+            "$B$ khác đa thức 0",
             "$A$ khác đa thức 0",
-            "$B$ là một hằng số",
-            "$A$ và $B$ là các số tự nhiên"
+            "$B$ là số tự nhiên",
+            "$A, B$ cùng bậc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4766,12 +4880,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Điều kiện xác định của phân thức $\\frac{x+1}{x-2}$ là:",
+          "question": "Hai phân thức $\\frac{A}{B}$ và $\\frac{C}{D}$ bằng nhau khi và chỉ khi:",
           "options": [
-            "$x \\neq 2$",
-            "$x \\neq -1$",
-            "$x \\neq 0$",
-            "$x > 2$"
+            "$A \\cdot D = B \\cdot C$",
+            "$A \\cdot C = B \\cdot D$",
+            "$A + D = B + C$",
+            "$A - D = B - C$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4779,12 +4893,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Rút gọn phân thức $\\frac{2x}{4x^2}$ ta được:",
+          "question": "Điều kiện xác định của phân thức $\\frac{x + 1}{x - 7}$ là:",
           "options": [
-            "$\\frac{1}{2x}$",
-            "$\\frac{1}{2}$",
-            "$\\frac{x}{2}$",
-            "$\\frac{2}{x}$"
+            "$x \\neq 7$",
+            "$x \\neq -7$",
+            "$x = 7$",
+            "$x \\neq -1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4792,12 +4906,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Phân thức đối của phân thức $\\frac{x-1}{x+2}$ là:",
+          "question": "Muốn rút gọn một phân thức, ta có thể chia cả tử và mẫu cho:",
           "options": [
-            "$-\\frac{x-1}{x+2} = \\frac{1-x}{x+2}$",
-            "$\\frac{x+1}{x-2}$",
-            "$\\frac{x+2}{x-1}$",
-            "$\\frac{x-1}{2-x}$"
+            "Nhân tử chung của chúng",
+            "Một số thực bất kì",
+            "Đa thức ở tử",
+            "Đa thức ở mẫu"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4805,12 +4919,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép cộng $\\frac{2x}{x+1} + \\frac{2}{x+1}$ là:",
+          "question": "Rút gọn phân thức $\\frac{14x^2y}{28xy^2}$ ta được kết quả là:",
           "options": [
-            "$2$",
-            "$\\frac{2x+2}{2(x+1)}$",
-            "$4$",
-            "$\\frac{2}{x+1}$"
+            "$\\frac{x}{2y}$",
+            "$\\frac{x}{y}$",
+            "$\\frac{2x}{y}$",
+            "$\\frac{1}{2xy}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4818,12 +4932,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép nhân $\\frac{x-1}{x+3} \\cdot \\frac{x+3}{x-1}$ với $x \\neq 1, x \\neq -3$ là:",
+          "question": "Kết quả của phép cộng $\\frac{x - 7}{x + 2} + \\frac{7 + 2}{x + 2}$ là:",
           "options": [
-            "$1$",
-            "$0$",
-            "$-1$",
-            "$\\frac{(x-1)^2}{(x+3)^2}$"
+            "$\\frac{x + 2}{x + 2} = 1$",
+            "$\\frac{x}{x + 2}$",
+            "$x + 2$",
+            "$0$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4831,12 +4945,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Phân thức $\\frac{x^2 - 4}{x - 2}$ sau khi rút gọn bằng:",
+          "question": "Thực hiện phép nhân $\\frac{x - 7}{3x} \\cdot \\frac{6x^2}{x - 7}$ ta được:",
           "options": [
-            "$x + 2$",
-            "$x - 2$",
-            "$x + 4$",
-            "$2$"
+            "$2x$",
+            "$2$",
+            "$x$",
+            "$\\frac{2}{x}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4844,12 +4958,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Giá trị của phân thức $\\frac{x+3}{x-1}$ tại $x = 3$ là:",
+          "question": "Giá trị của phân thức $\\frac{x^2 - 49}{x - 7}$ tại $x = 12$ là:",
           "options": [
-            "$3$",
-            "$6$",
-            "$2$",
-            "$0$"
+            "$19$",
+            "$12$",
+            "5",
+            "$14$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4857,12 +4971,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính $\\frac{1}{x-1} - \\frac{1}{x+1}$ ta được:",
+          "question": "Một tổ công nhân theo kế hoạch may 650 chiếc áo trong $x$ ngày. Nhưng thực tế nhờ tăng năng suất mỗi ngày may thêm được 5 chiếc nên hoàn thành trước 2 ngày. Biểu thức thời gian thực tế hoàn thành là:",
           "options": [
-            "$\\frac{2}{x^2-1}$",
-            "$\\frac{2x}{x^2-1}$",
-            "$0$",
-            "$\\frac{-2}{x^2-1}$"
+            "$\\frac{650}{x+5}$ ngày",
+            "$\\frac{650}{x}$ ngày",
+            "$\\frac{650}{x-2}$ ngày",
+            "$x - 2$ ngày"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4870,12 +4984,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$ để phân thức $\\frac{3x-6}{x+2}$ có giá trị bằng 0:",
+          "question": "Một người chèo thuyền xuôi dòng quãng đường 19 km với vận tốc dòng nước là 2 km/h. Vận tốc thực của thuyền là $v$ km/h ($v > 2$). Biểu thức thời gian xuôi dòng là:",
           "options": [
-            "$x = 2$",
-            "$x = -2$",
-            "$x = 0$",
-            "$x = 6$"
+            "$\\frac{19}{v + 2}$ giờ",
+            "$\\frac{19}{v - 2}$ giờ",
+            "$\\frac{19}{v}$ giờ",
+            "$\\frac{v + 2}{19}$ giờ"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4883,12 +4997,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một ca nô xuôi dòng quãng đường $30\\text{ km}$ với vận tốc $(x + 3)\\text{ km/h}$. Biểu thức biểu thị thời gian ca nô đi là:",
+          "question": "Biết phân thức $\\frac{2x + 7}{x - 1} = 2 + \\frac{A}{x - 1}$. Đa thức $A$ có giá trị bằng:",
           "options": [
-            "$\\frac{30}{x+3}$ (giờ)",
-            "$30(x + 3)$",
-            "$\\frac{x+3}{30}$",
-            "$30 - (x + 3)$"
+            "$9$",
+            "$5$",
+            "$7$",
+            "$2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4896,12 +5010,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $\\frac{2x+3}{x-1}$ nhận giá trị nguyên:",
+          "question": "Số giá trị nguyên của $x$ để phân thức $P = \\frac{10}{x - 2}$ nhận giá trị nguyên là:",
           "options": [
-            "$x \\in \\{-4; 0; 2; 6\\}$",
-            "$x \\in \\{1; 2; 3\\}$",
-            "$x \\in \\{0; 2\\}$",
-            "$x \\in \\{-1; 1\\}$"
+            "Số các ước nguyên của tử số",
+            "2",
+            "1",
+            "Vô số"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4910,67 +5024,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về phân thức đại số và các phép biến đổi (Mã đề 7):",
+          "stem": "Cho phân thức đại số $P = \\frac{x^2 - 49}{x^2 - 14x + 49}$ (Mã đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Nếu nhân cả tử và mẫu của một phân thức với cùng một đa thức khác 0 thì được phân thức bằng nó.",
+              "level": "Nhận biết",
+              "text": "Mẫu thức P có thể viết dưới dạng hằng đẳng thức bình phương của một hiệu.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hai phân thức A/B và C/D bằng nhau khi và chỉ khi A.D = B.C.",
+              "text": "Điều kiện xác định của phân thức P là x khác 7.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Phân thức nghịch đảo của A/B là B/A (với A, B khác 0).",
+              "text": "Rút gọn phân thức P ta được kết quả là (x + 7) / (x - 7).",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Với mọi giá trị của x, phân thức (x^2 + 1)/(x^2 + 2) luôn nhỏ hơn 1.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Tại x = 0 thì giá trị của phân thức P bằng 1.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $P = \\left(\\frac{x}{x-2} - \\frac{2}{x+2}\\right) : \\frac{x^2+4}{x^2-4}$ (với $x \\neq \\pm 2$):",
+          "stem": "Bài toán năng suất sản xuất (Mã đề 07): Một xưởng dệt được giao dệt 6 000 m vải trong thời gian x ngày (x nguyên dương).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mẫu thức chung trong ngoặc là (x - 2)(x + 2) = x^2 - 4.",
+              "level": "Nhận biết",
+              "text": "Năng suất dệt theo kế hoạch là 6 000 / x (m vải/ngày).",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tử thức trong ngoặc sau quy đồng là x(x + 2) - 2(x - 2) = x^2 + 4.",
+              "text": "Nếu tăng năng suất thêm 50 m/ngày thì năng suất mới là 6 000/x + 50.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức P rút gọn bằng 1.",
+              "text": "Thời gian dệt thực tế tương ứng là 6 000 / (6 000/x + 50) ngày.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Khi x = 2 thì P nhận giá trị bằng 1.",
+              "text": "Nếu thời gian dự định là 20 ngày thì số ngày hoàn thành thực tế ít hơn kế hoạch 5 ngày.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4981,62 +5095,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tìm điều kiện xác định của phân thức: 5 / (x - 7). Điền số mà x phải khác.",
-          "answer": "7",
+          "question": "Tìm điều kiện xác định của phân thức: (2x - 1) / (x + 10).",
+          "answer": "x khác -10",
           "acceptableAnswers": [
-            "7"
+            "x khác -10"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **x khác -10**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức (x^2 - 9)/(x + 3) rồi tính giá trị tại x = 10.",
-          "answer": "7",
+          "question": "Tính giá trị của phân thức (x^2 - 196) / (x + 14) khi x = 24.",
+          "answer": "10",
           "acceptableAnswers": [
-            "7"
+            "10"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x để phân thức (2x - 8) / (x + 1) bằng 0.",
-          "answer": "4",
+          "question": "Một ô tô đi từ A đến B dài 190 km với vận tốc x km/h, lúc về tăng vận tốc thêm 10 km/h. Viết biểu thức thời gian về ít hơn thời gian đi. Khi x = 50, thời gian đi là bao nhiêu giờ?",
+          "answer": "3.8",
           "acceptableAnswers": [
-            "4"
+            "3.8"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.8**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm số nguyên x lớn nhất để phân thức 5 / (x - 2) nhận giá trị nguyên dương.",
-          "answer": "7",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nguyên dương x để phân thức 6 / (x - 1) nhận giá trị nguyên lớn nhất.",
+          "answer": "2",
           "acceptableAnswers": [
-            "7"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn phân thức: $A = \\frac{x^2 - 4x + 4}{2x - 4}$.",
-          "rubric": "A = (x - 2)^2 / [2(x - 2)] = (x - 2) / 2 (0.5đ)."
+          "question": "Cho biểu thức $A = \\left(\\frac{1}{x - 7} - \\frac{1}{x + 7}\\right) : \\frac{14}{x^2 - 49}$. Rút gọn biểu thức $A$.",
+          "rubric": "Quy đồng mẫu thức trong ngoặc: [ (x + 7) - (x - 7) ] / (x^2 - 49) = 14 / (x^2 - 49) (0.25đ).\nChia phân thức: A = [ 14 / (x^2 - 49) ] . [ (x^2 - 49) / 14 ] (0.25đ).\nRút gọn cả tử và mẫu ta được A = 1 (0.25đ).\nKết luận giá trị biểu thức A = 1 với mọi x khác +-7 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Thực hiện phép tính: $B = \\frac{1}{x-2} + \\frac{1}{x+2} - \\frac{2x}{x^2-4}$.",
-          "rubric": "MTC = x^2 - 4 = (x - 2)(x + 2) (0.25đ).\nB = [(x + 2) + (x - 2) - 2x] / (x^2 - 4) = (2x - 2x) / (x^2 - 4) = 0 (0.25đ)."
+          "question": "Hai người thợ cùng làm chung một công việc trong $18$ giờ thì xong. Nếu làm riêng một mình thì người thứ nhất cần $x$ giờ và người thứ hai cần $y$ giờ để hoàn thành. Viết hệ thức liên hệ giữa $x$ và $y$ dưới dạng phân thức và tính số giờ người thứ hai hoàn thành một mình nếu người thứ nhất làm một mình mất $36$ giờ.",
+          "rubric": "Phương trình liên hệ: 1/x + 1/y = 1/(18) (0.25đ).\nThay x = 36 vào phương trình: 1/(36) + 1/y = 1/(18) (0.25đ).\nSuy ra 1/y = 1/(18) - 1/(36) = 1/(36) (0.25đ).\nVậy y = 36 (giờ). Kết luận số giờ người thứ hai hoàn thành một mình (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $M = \\frac{3x + 5}{x - 1}$ nhận giá trị là một số nguyên.",
-          "rubric": "M = (3x - 3 + 8)/(x - 1) = 3 + 8/(x - 1) (0.25đ).\nĐể M nguyên thì x - 1 phải là ước của 8 in {1; -1; 2; -2; 4; -4; 8; -8}.\n=> x in {2; 0; 3; -1; 5; -3; 9; -7} (0.25đ)."
+          "question": "Tìm tất cả các giá trị nguyên của $x$ để phân thức $P = \\frac{2x + 10}{x - 1}$ nhận giá trị là một số nguyên.",
+          "rubric": "Biến đổi tử thức: 2x + 10 = 2(x - 1) + 12 (0.25đ).\nKhi đó P = 2 + (12)/(x - 1) (0.25đ).\nĐể P nguyên thì (12) chia hết cho (x - 1) => x - 1 thuộc Ư(12) (0.25đ).\nLập bảng tìm các giá trị nguyên của x thỏa mãn (0.25đ)."
         }
       ]
     }

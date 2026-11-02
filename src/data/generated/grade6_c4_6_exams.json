@@ -3,7 +3,7 @@
   "chapterId": "c4_6",
   "chapterTitle": "Chương IV: Một số hình phẳng trong thực tiễn",
   "totalExams": 16,
-  "updatedAt": "2026-11-01 19:17:04",
+  "updatedAt": "2026-11-02 07:48:59",
   "exams": {
     "c4_6_bai1_test1": {
       "title": "Toán 6 (KNTT) - Bài 18: Tam giác đều, Hình vuông, Lục giác đều - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -2319,211 +2319,233 @@
       ]
     },
     "c4_6_bai4_test1": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Hình phẳng - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Hình nào sau đây có 4 cạnh bằng nhau và 4 góc vuông?",
+          "question": "Hình vuông là hình có (Đề 01):",
           "options": [
-            "Hình thoi",
-            "Hình chữ nhật",
-            "Hình bình hành",
-            "Hình vuông"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Hình nào sau đây có 3 cạnh bằng nhau và 3 góc bằng nhau?",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "Tam giác đều",
-            "Tam giác tù",
-            "Tam giác vuông",
-            "Tam giác cân"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Hình lục giác đều có số đường chéo chính là:",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$4$",
-            "$9$",
-            "$3$",
-            "$6$"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Diện tích hình chữ nhật có kích thước $a = 6\\text{ cm}, b = 4\\text{ cm}$ là:",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$10\\text{ cm}^2$",
-            "$24\\text{ cm}^2$",
-            "$20\\text{ cm}^2$",
-            "$12\\text{ cm}^2$"
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
+            "$S = m \\cdot n$",
+            "$S = 2(m + n)$",
+            "$S = m + n$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Chu vi của một hình vuông có cạnh bằng $8\\text{ cm}$ là:",
+          "level": "Thông hiểu",
+          "question": "Một hình vuông có cạnh bằng $5$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$16\\text{ cm}$",
-            "$32\\text{ cm}$",
-            "$24\\text{ cm}$",
-            "$64\\text{ cm}$"
+            "$20$ cm",
+            "$25$ cm$^2$",
+            "$10$ cm",
+            "$15$ cm"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Diện tích hình thoi có hai đường chéo $m = 6\\text{ cm}, n = 8\\text{ cm}$ là:",
+          "level": "Thông hiểu",
+          "question": "Một hình chữ nhật có chiều dài $8$ cm và chiều rộng $5$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$48\\text{ cm}^2$",
-            "$24\\text{ cm}^2$",
-            "$28\\text{ cm}^2$",
-            "$14\\text{ cm}^2$"
+            "$40$ cm$^2$",
+            "$26$ cm",
+            "$13$ cm",
+            "$20$ cm$^2$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Hình thang cân có tính chất nào sau đây?",
+          "question": "Hình thoi có độ dài hai đường chéo là $6$ cm và $8$ cm. Diện tích hình thoi là:",
           "options": [
-            "Bốn góc bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Hai đường chéo vuông góc",
-            "Hai đường chéo bằng nhau"
+            "$24$ cm$^2$",
+            "$48$ cm$^2$",
+            "$14$ cm",
+            "$28$ cm"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hình bình hành có đáy $12\\text{ cm}$ và chiều cao tương ứng $5\\text{ cm}$. Diện tích của nó là:",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$17\\text{ cm}^2$",
-            "$34\\text{ cm}^2$",
-            "$60\\text{ cm}^2$",
-            "$30\\text{ cm}^2$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Một tam giác đều có chu vi bằng $27\\text{ cm}$. Độ dài mỗi cạnh của nó là:",
+          "level": "Vận dụng",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $5.5$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "$9\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$6\\text{ cm}$",
-            "$8\\text{ cm}$"
+            "176 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Một hình chữ nhật có diện tích $45\\text{ cm}^2$, chiều rộng $5\\text{ cm}$. Chu vi hình chữ nhật đó là:",
+          "level": "Vận dụng",
+          "question": "Một khu vườn hình thang cân có hai đáy là $17$ mét và $27$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "$24\\text{ cm}$",
-            "$14\\text{ cm}$",
-            "$28\\text{ cm}$",
-            "$18\\text{ cm}$"
+            "220 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Chu vi của một hình lục giác đều cạnh $7\\text{ cm}$ là:",
+          "level": "Vận dụng",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $13$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$35\\text{ cm}$",
-            "$28\\text{ cm}$",
-            "$49\\text{ cm}$",
-            "$42\\text{ cm}$"
+            "$42$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Thông hiểu",
-          "question": "Một hình thoi có cạnh $6\\text{ cm}$. Chu vi hình thoi đó là:",
+          "level": "Vận dụng cao",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$24\\text{ cm}$",
-            "$36\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$18\\text{ cm}$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Xét các hình phẳng đã học trong Chương IV:",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 01):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
               "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
-              "correct": true
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Hình chữ nhật có 4 góc bằng nhau và bằng 90°.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Hình bình hành luôn có hai đường chéo bằng nhau.",
-              "correct": false
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Thông hiểu",
-              "text": "Hình thang cân có hai cạnh bên bằng nhau.",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Một mảnh sân hình chữ nhật có chiều dài 15 m, chiều rộng 8 m:",
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 01): Bác Nam lát nền phòng khách hình vuông cạnh 5 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Chu vi của mảnh sân là 46 m.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Diện tích của mảnh sân là 120 m².",
-              "correct": true
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Người ta dùng gạch vuông cạnh 40 cm để lát sân thì cần 750 viên gạch.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng thấp",
-              "text": "Chi phí mua gạch lát sân với giá 120 000 đồng/m² là 15 triệu đồng.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -2532,255 +2554,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hình vuông có diện tích 100 cm². Chu vi hình vuông đó là bao nhiêu cm?",
-          "answer": "40"
+          "question": "Tính diện tích hình chữ nhật có chiều dài 11 cm, chiều rộng 6 cm (cm^2).",
+          "answer": "66",
+          "acceptableAnswers": [
+            "66"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **66**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Một hình thang có đáy lớn 14 cm, đáy bé 8 cm và chiều cao 6 cm. Diện tích của hình thang đó bằng bao nhiêu cm²?",
-          "answer": "66"
+          "question": "Một tam giác đều có cạnh 4 cm. Tính chu vi tam giác đều đó (cm).",
+          "answer": "12",
+          "acceptableAnswers": [
+            "12"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Một hình bình hành có đáy 15 m, chiều cao 8 m. Diện tích hình bình hành bằng bao nhiêu m²?",
-          "answer": "120"
+          "level": "Vận dụng",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 20 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "160",
+          "acceptableAnswers": [
+            "160"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **160**."
         },
         {
           "id": 4,
-          "level": "Vận dụng thấp",
-          "question": "Chu vi một hình lục giác đều bằng 54 cm. Cạnh của hình lục giác đó dài bao nhiêu cm?",
-          "answer": "9"
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
+          "acceptableAnswers": [
+            "2400"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính diện tích của các hình sau:\na) Hình chữ nhật có chiều dài 18 cm, chiều rộng 11 cm.\nb) Hình thoi có hai đường chéo dài 16 cm và 25 cm.",
-          "rubric": "a) S = 18 x 11 = 198 cm² (0.5đ).\nb) S = (1/2) x 16 x 25 = 200 cm² (0.5đ)."
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $16$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (16 + 10) = 2 . 26 = 52 (m) (0.25đ).\nDiện tích mảnh vườn: S = (16) . 10 = 160 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 52 m và diện tích là 160 m^2 (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Một thửa ruộng hình bình hành có đáy 36 m, chiều cao tương ứng 20 m.\na) Tính diện tích thửa ruộng.\nb) Cứ mỗi 100 m² đất ruộng thu hoạch được 70 kg thóc. Hỏi cả thửa ruộng thu được bao nhiêu tạ thóc?",
-          "rubric": "a) Diện tích: 36 x 20 = 720 m² (0.5đ).\nb) Sản lượng thóc: (720 : 100) x 70 = 504 kg = 5,04 tạ thóc (0.5đ)."
+          "level": "Vận dụng",
+          "question": "Một sân trường hình chữ nhật có chiều dài $45$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (45) . 30 = 1350 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (1350) - 25 = 1325 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 1325 m^2 (0.25đ)."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Một nền nhà hình chữ nhật có chiều dài 12 m và chiều rộng 5 m. Người ta dùng gạch men hình vuông cạnh 50 cm để lát toàn bộ nền nhà.\na) Tính diện tích nền nhà.\nb) Hỏi cần bao nhiêu viên gạch men để lát kín nền nhà (bỏ qua mép vữa)?",
-          "rubric": "a) S nền: 12 x 5 = 60 m² = 600 000 cm² (0.5đ).\nb) S 1 viên gạch: 50 x 50 = 2500 cm². Số viên gạch: 600 000 : 2500 = 240 viên (0.5đ)."
+          "level": "Vận dụng cao",
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     },
     "c4_6_bai4_test2": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Hình phẳng - Bài kiểm tra số 2 (🌿 Khá)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Hình thoi có chu vi $40\\text{ cm}$, một đường chéo dài $12\\text{ cm}$. Diện tích của hình thoi đó là:",
+          "level": "Nhận biết",
+          "question": "Hình vuông là hình có (Đề 02):",
           "options": [
-            "$96\\text{ cm}^2$",
-            "$120\\text{ cm}^2$",
-            "$192\\text{ cm}^2$",
-            "$48\\text{ cm}^2$"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Ghép 6 tam giác đều cạnh $5\\text{ cm}$ thành một lục giác đều. Chu vi của hình lục giác đều tạo thành là:",
+          "level": "Nhận biết",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "$25\\text{ cm}$",
-            "$30\\text{ cm}$",
-            "$36\\text{ cm}$",
-            "$15\\text{ cm}$"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Một hình chữ nhật có chu vi $64\\text{ m}$. Nếu tăng chiều rộng $3\\text{ m}$ và giảm chiều dài $3\\text{ m}$ thì diện tích đạt giá trị lớn nhất. Diện tích lớn nhất đó là:",
+          "level": "Nhận biết",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$250\\text{ m}^2$",
-            "$256\\text{ m}^2$",
-            "$289\\text{ m}^2$",
-            "$240\\text{ m}^2$"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Thông hiểu",
-          "question": "Một hình thang cân có đáy lớn $22\\text{ cm}$, đáy bé $10\\text{ cm}$, cạnh bên $10\\text{ cm}$. Chiều cao hình thang cân là:",
+          "level": "Nhận biết",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$6\\text{ cm}$",
-            "$8\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$10\\text{ cm}$"
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
+            "$S = m \\cdot n$",
+            "$S = 2(m + n)$",
+            "$S = m + n$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng thấp",
-          "question": "Cắt một tấm bìa hình vuông cạnh $24\\text{ cm}$ thành các hình vuông nhỏ cạnh $3\\text{ cm}$. Số hình vuông nhỏ thu được là:",
+          "level": "Thông hiểu",
+          "question": "Một hình vuông có cạnh bằng $10$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$36$",
-            "$8$",
-            "$64$",
-            "$48$"
+            "$40$ cm",
+            "$100$ cm$^2$",
+            "$20$ cm",
+            "$30$ cm"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng thấp",
-          "question": "Một bồn hoa hình thoi có cạnh $15\\text{ m}$, hai đường chéo dài $18\\text{ m}$ và $24\\text{ m}$. Chiều cao của bồn hoa đó là:",
+          "level": "Thông hiểu",
+          "question": "Một hình chữ nhật có chiều dài $16$ cm và chiều rộng $10$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$12\\text{ m}$",
-            "$15\\text{ m}$",
-            "$16\\text{ m}$",
-            "$14,4\\text{ m}$"
+            "$160$ cm$^2$",
+            "$52$ cm",
+            "$26$ cm",
+            "$80$ cm$^2$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng thấp",
-          "question": "Một mảnh đất hình bình hành có chu vi $100\\text{ m}$, cạnh dài hơn cạnh ngắn $10\\text{ m}$. Cạnh dài của mảnh đất là:",
+          "level": "Thông hiểu",
+          "question": "Hình thoi có độ dài hai đường chéo là $12$ cm và $16$ cm. Diện tích hình thoi là:",
           "options": [
-            "$30\\text{ m}$",
-            "$20\\text{ m}$",
-            "$35\\text{ m}$",
-            "$25\\text{ m}$"
+            "$96$ cm$^2$",
+            "$192$ cm$^2$",
+            "$28$ cm",
+            "$56$ cm"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng thấp",
-          "question": "Một hình thang có diện tích $180\\text{ cm}^2$, chiều cao $12\\text{ cm}$. Nếu đáy lớn dài gấp rưỡi đáy bé thì độ dài đáy lớn là:",
+          "level": "Thông hiểu",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$12\\text{ cm}$",
-            "$24\\text{ cm}$",
-            "$15\\text{ cm}$",
-            "$18\\text{ cm}$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Chi phí mua cỏ phủ kín một sân vận động hình chữ nhật kích thước $105\\text{ m} \\times 68\\text{ m}$ với giá $160\\,000$ đồng/m² là:",
+          "level": "Vận dụng",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $6.0$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "$1\\,140\\,000\\,000$ đồng",
-            "$571\\,200\\,000$ đồng",
-            "$2\\,284\\,800\\,000$ đồng",
-            "$1\\,142\\,400\\,000$ đồng"
+            "192 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Một biển quảng cáo hình lục giác đều cạnh $1\\text{ m}$. Người ta lắp đèn viền xung quanh với giá $150\\,000$ đồng/m. Số tiền làm viền đèn là:",
+          "level": "Vận dụng",
+          "question": "Một khu vườn hình thang cân có hai đáy là $19$ mét và $29$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "$1\\,200\\,000$ đồng",
-            "$750\\,000$ đồng",
-            "$900\\,000$ đồng",
-            "$600\\,000$ đồng"
+            "240 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Nối các trung điểm 4 cạnh của hình chữ nhật có kích thước $16\\text{ cm} \\times 12\\text{ cm}$ ta được hình thoi có diện tích:",
+          "level": "Vận dụng",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $14$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$144\\text{ cm}^2$",
-            "$48\\text{ cm}^2$",
-            "$96\\text{ cm}^2$",
-            "$192\\text{ cm}^2$"
+            "$44$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Một hình vuông và một tam giác đều có cùng chu vi là $36\\text{ cm}$. Tỉ số cạnh của hình vuông so với cạnh của tam giác đều là:",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$3/4$",
-            "$2/3$",
-            "$4/3$",
-            "$1/2$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Một khu vườn hình thang cân có đáy lớn 50 m, đáy bé 30 m, chiều cao 20 m:",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 02):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Diện tích của khu vườn là 800 m².",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Vận dụng thấp",
-              "text": "Người ta làm một lối đi hình bình hành có đáy 2 m chạy cắt ngang vườn theo chiều cao, diện tích lối đi là 40 m².",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Diện tích phần đất trồng cây còn lại là 760 m².",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Lối đi chiếm hơn 10% diện tích của cả khu vườn.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho hình chữ nhật ABCD có AB = 20 cm, BC = 15 cm. Điểm E là trung điểm của AB:",
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 02): Bác Nam lát nền phòng khách hình vuông cạnh 6 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Diện tích hình chữ nhật ABCD bằng 300 cm².",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác EBCD là hình thang vuông.",
-              "correct": true
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Diện tích tứ giác EBCD là 225 cm².",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Diện tích tam giác ADE bằng một nửa diện tích hình chữ nhật ABCD.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -2789,255 +2849,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hình thoi có hiệu độ dài hai đường chéo là 4 cm, tổng độ dài hai đường chéo là 28 cm. Diện tích của hình thoi đó bằng bao nhiêu cm²?",
-          "answer": "96"
+          "question": "Tính diện tích hình chữ nhật có chiều dài 12 cm, chiều rộng 6 cm (cm^2).",
+          "answer": "72",
+          "acceptableAnswers": [
+            "72"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Một mảnh vườn hình chữ nhật có chu vi 84 m. Chiều dài gấp rưỡi chiều rộng. Diện tích của mảnh vườn đó là bao nhiêu m²?",
-          "answer": "432"
+          "level": "Thông hiểu",
+          "question": "Một tam giác đều có cạnh 8 cm. Tính chu vi tam giác đều đó (cm).",
+          "answer": "24",
+          "acceptableAnswers": [
+            "24"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **24**."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Một hình thang có diện tích 150 cm², chiều cao 10 cm. Biết đáy lớn hơn đáy bé 6 cm. Độ dài đáy lớn là bao nhiêu cm?",
-          "answer": "18"
+          "level": "Vận dụng",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 22 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "170",
+          "acceptableAnswers": [
+            "170"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **170**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Một sân trường hình chữ nhật có chu vi 180 m. Người ta mở rộng mỗi chiều thêm 5 m thì diện tích tăng thêm bao nhiêu m²?",
-          "answer": "925"
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
+          "acceptableAnswers": [
+            "2400"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một mảnh sân hình chữ nhật dài 16 m, rộng 10 m. Người ta xây một bồn hoa hình thoi ở giữa có hai đường chéo dài 6 m và 4 m, phần còn lại lát gạch.\na) Tính diện tích mảnh sân.\nb) Tính diện tích phần lát gạch.",
-          "rubric": "a) Diện tích sân: 16 x 10 = 160 m² (0.5đ).\nb) Diện tích bồn hoa hình thoi: (1/2) x 6 x 4 = 12 m². Diện tích phần lát gạch: 160 - 12 = 148 m² (0.5đ)."
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $17$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (17 + 10) = 2 . 27 = 54 (m) (0.25đ).\nDiện tích mảnh vườn: S = (17) . 10 = 170 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 54 m và diện tích là 170 m^2 (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Bác Tư có một mảnh đất hình bình hành có đáy 30 m, chiều cao tương ứng 18 m.\na) Tính diện tích mảnh đất của bác Tư.\nb) Bác Tư muốn bán mảnh đất với giá 15 triệu đồng/m². Tính tổng số tiền bác Tư thu được khi bán hết mảnh đất đó.",
-          "rubric": "a) Diện tích: 30 x 18 = 540 m² (0.5đ).\nb) Tổng số tiền bán đất: 540 x 15 000 000 = 8 100 000 000 đồng (8,1 tỉ đồng) (0.5đ)."
+          "level": "Vận dụng",
+          "question": "Một sân trường hình chữ nhật có chiều dài $50$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (50) . 30 = 1500 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (1500) - 25 = 1475 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 1475 m^2 (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Một bờ kè bằng bê tông có mặt cắt ngang là hình thang cân với đáy trên rộng 3 m, đáy dưới rộng 7 m và chiều cao kè là 4 m.\na) Tính diện tích mặt cắt ngang của bờ kè.\nb) Chiều dài toàn bộ bờ kè là 250 m. Tính thể tích khối bê tông cần đúc bờ kè (biết thể tích = diện tích mặt cắt ngang x chiều dài).",
-          "rubric": "a) Diện tích mặt cắt: (3 + 7) x 4 : 2 = 20 m² (0.5đ).\nb) Thể tích bê tông cần dùng: 20 x 250 = 5000 m³ (0.5đ)."
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     },
     "c4_6_bai4_test3": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Hình phẳng - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho hình chữ nhật có chu vi không đổi $P = 40\\text{ cm}$. Khi diện tích đạt giá trị lớn nhất thì diện tích đó bằng:",
+          "level": "Nhận biết",
+          "question": "Hình vuông là hình có (Đề 03):",
           "options": [
-            "$100\\text{ cm}^2$",
-            "$84\\text{ cm}^2$",
-            "$96\\text{ cm}^2$",
-            "$64\\text{ cm}^2$"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Một hình lục giác đều có diện tích $96\\text{ cm}^2$. Nối 3 đỉnh không liền kề nhau ta được một tam giác đều có diện tích là:",
+          "level": "Nhận biết",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "$64\\text{ cm}^2$",
-            "$48\\text{ cm}^2$",
-            "$32\\text{ cm}^2$",
-            "$24\\text{ cm}^2$"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Một hình thoi có độ dài hai đường chéo hơn kém nhau $4\\text{ cm}$ và diện tích bằng $96\\text{ cm}^2$. Cạnh của hình thoi đó là:",
+          "level": "Nhận biết",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$8\\text{ cm}$",
-            "$15\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$10\\text{ cm}$"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Một thửa ruộng hình thang có diện tích $450\\text{ m}^2$, đáy lớn gấp đôi đáy bé. Khi mở rộng cả hai đáy thêm $5\\text{ m}$ thì diện tích tăng thêm $75\\text{ m}^2$. Độ dài hai đáy ban đầu lần lượt là:",
+          "level": "Nhận biết",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$12\\text{ m}$ và $24\\text{ m}$",
-            "$10\\text{ m}$ và $20\\text{ m}$",
-            "$20\\text{ m}$ và $40\\text{ m}$",
-            "$15\\text{ m}$ và $30\\text{ m}$"
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
+            "$S = m \\cdot n$",
+            "$S = 2(m + n)$",
+            "$S = m + n$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng cao",
-          "question": "Cho hình bình hành $ABCD$. Lấy $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Tỉ số diện tích tứ giác $AMCN$ so với diện tích hình bình hành $ABCD$ là:",
+          "level": "Thông hiểu",
+          "question": "Một hình vuông có cạnh bằng $15$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$1/2$",
-            "$1/4$",
-            "$2/3$",
-            "$1/3$"
+            "$60$ cm",
+            "$225$ cm$^2$",
+            "$30$ cm",
+            "$45$ cm"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng cao",
-          "question": "Một mảnh đất hình vuông được chia thành 5 hình chữ nhật có diện tích bằng nhau nhờ các đường thẳng song song. Nếu chu vi mỗi hình chữ nhật nhỏ là $48\\text{ m}$ thì diện tích mảnh đất ban đầu là:",
+          "level": "Thông hiểu",
+          "question": "Một hình chữ nhật có chiều dài $24$ cm và chiều rộng $15$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$900\\text{ m}^2$",
-            "$225\\text{ m}^2$",
-            "$400\\text{ m}^2$",
-            "$625\\text{ m}^2$"
+            "$360$ cm$^2$",
+            "$78$ cm",
+            "$39$ cm",
+            "$180$ cm$^2$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng cao",
-          "question": "Cho hình thang cân $ABCD$ có đường chéo $AC \\perp BD$, chiều cao $h = 8\\text{ cm}$. Diện tích của hình thang cân đó là:",
+          "level": "Thông hiểu",
+          "question": "Hình thoi có độ dài hai đường chéo là $18$ cm và $24$ cm. Diện tích hình thoi là:",
           "options": [
-            "$64\\text{ cm}^2$",
-            "$96\\text{ cm}^2$",
-            "$32\\text{ cm}^2$",
-            "$128\\text{ cm}^2$"
+            "$216$ cm$^2$",
+            "$432$ cm$^2$",
+            "$42$ cm",
+            "$84$ cm"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng cao",
-          "question": "Cắt 4 góc của một hình vuông cạnh $a$ để được một hình bát giác đều. Độ dài cạnh của bát giác đều được tính theo $a$ xấp xỉ bằng:",
+          "level": "Thông hiểu",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$0,333 a$",
-            "$0,5 a$",
-            "$0,25 a$",
-            "$0,414 a$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Người ta muốn uốn một sợi dây thép dài $60\\text{ cm}$ thành một hình có diện tích lớn nhất. Hình nên uốn là:",
+          "level": "Vận dụng",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $6.5$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "Hình tam giác đều",
-            "Hình vuông",
-            "Hình lục giác đều",
-            "Hình chữ nhật có tỉ lệ 2:1"
+            "208 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Một hình chữ nhật có kích thước $a \\times b$. Tăng $a$ thêm $20\\%$ và giảm $b$ đi $20\\%$ thì diện tích thay đổi thế nào?",
+          "level": "Vận dụng",
+          "question": "Một khu vườn hình thang cân có hai đáy là $21$ mét và $31$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "Không thay đổi",
-            "Giảm $4\\%$",
-            "Tăng $4\\%$",
-            "Giảm $2\\%$"
+            "260 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Một mảnh vườn hình chữ nhật có chu vi $120\\text{ m}$. Xung quanh vườn làm đường đi rộng $1\\text{ m}$. Diện tích con đường đó là:",
+          "level": "Vận dụng",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $15$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$124\\text{ m}^2$",
-            "$120\\text{ m}^2$",
-            "$116\\text{ m}^2$",
-            "$108\\text{ m}^2$"
+            "$46$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho lục giác đều $ABCDEF$. Tỉ số diện tích của tam giác $ABC$ so với lục giác đều $ABCDEF$ bằng:",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$1/12$",
-            "$1/3$",
-            "$1/4$",
-            "$1/6$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho hình vuông ABCD cạnh 20 cm. Lấy các điểm M, N, P, Q lần lượt trên các cạnh AB, BC, CD, DA sao cho AM = BN = CP = DQ = 5 cm:",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 03):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Bốn tam giác vuông AMQ, BNM, CPN, DQP bằng nhau.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Vận dụng thấp",
-              "text": "Tứ giác MNPQ là hình vuông.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng cao",
-              "text": "Diện tích mỗi tam giác vuông ở góc là 37,5 cm².",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Diện tích hình vuông MNPQ là 250 cm².",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Một khu đất hình bình hành ABCD có AB = 60 m, BC = 40 m. Chiều cao hạ từ A xuống CD là 30 m:",
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 03): Bác Nam lát nền phòng khách hình vuông cạnh 7 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Diện tích khu đất hình bình hành ABCD là 1800 m².",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Vận dụng thấp",
-              "text": "Chiều cao hạ từ A xuống cạnh BC bằng 45 m.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng cao",
-              "text": "Chu vi của khu đất là 200 m.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Độ dài đường chéo BD luôn bằng đường chéo AC.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3046,63 +3144,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Một hình chữ nhật có diện tích 300 cm², chiều dài hơn chiều rộng 5 cm. Chu vi của hình chữ nhật đó bằng bao nhiêu cm?",
-          "answer": "70"
+          "question": "Tính diện tích hình chữ nhật có chiều dài 13 cm, chiều rộng 6 cm (cm^2).",
+          "answer": "78",
+          "acceptableAnswers": [
+            "78"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **78**."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Một hình thang cân có đáy nhỏ 12 cm, đáy lớn 20 cm và diện tích 128 cm². Chiều cao của hình thang cân bằng bao nhiêu cm?",
-          "answer": "8"
+          "level": "Thông hiểu",
+          "question": "Một tam giác đều có cạnh 12 cm. Tính chu vi tam giác đều đó (cm).",
+          "answer": "36",
+          "acceptableAnswers": [
+            "36"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
         },
         {
           "id": 3,
-          "level": "Vận dụng cao",
-          "question": "Một mảnh đất hình chữ nhật có chu vi 160 m. Người ta đào một cái ao hình vuông có cạnh bằng chiều rộng mảnh đất, phần còn lại là mảnh vườn hình chữ nhật có diện tích 700 m². Chiều dài mảnh đất ban đầu là bao nhiêu mét?",
-          "answer": "70"
+          "level": "Vận dụng",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 24 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "180",
+          "acceptableAnswers": [
+            "180"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **180**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Một tấm bìa hình lục giác đều có diện tích 120 cm². Người ta cắt bỏ 6 tam giác đều nhỏ ở 6 góc để được một hình lục giác đều mới có cạnh bằng 1/2 cạnh ban đầu. Diện tích hình lục giác đều mới là bao nhiêu cm²?",
-          "answer": "30"
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
+          "acceptableAnswers": [
+            "2400"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng thấp",
-          "question": "Cho hình chữ nhật ABCD có diện tích 180 cm². Trên cạnh AB lấy điểm M sao cho AM = 1/3 AB. Trên cạnh CD lấy điểm N sao cho CN = 1/3 CD.\na) Chứng minh tứ giác AMCN là hình bình hành.\nb) Tính diện tích hình bình hành AMCN.",
-          "rubric": "a) AM // CN (thuộc AB // CD) và AM = CN = 1/3 AB => AMCN là hình bình hành (0.5đ).\nb) AMCN có đáy AM = 1/3 AB và chiều cao bằng BC (chiều rộng hình chữ nhật). Do đó S(AMCN) = 1/3 S(ABCD) = 1/3 x 180 = 60 cm² (0.5đ)."
+          "level": "Thông hiểu",
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $18$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (18 + 10) = 2 . 28 = 56 (m) (0.25đ).\nDiện tích mảnh vườn: S = (18) . 10 = 180 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 56 m và diện tích là 180 m^2 (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Một khu liên hợp thể thao gồm một sân bóng đá hình chữ nhật kích thước 100 m x 60 m và hai khu vực phụ hình thang cân gắn vào hai đầu chiều rộng sân bóng, mỗi hình thang cân có đáy lớn 60 m (chung với sân), đáy bé 40 m và chiều cao 15 m.\na) Tính diện tích sân bóng đá.\nb) Tính tổng diện tích của toàn bộ khu liên hợp thể thao đó.\nc) Chi phí trải thảm cỏ nhân tạo cho cả khu liên hợp là 140 000 đồng/m². Tính tổng chi phí trải thảm cỏ.",
-          "rubric": "a) Diện tích sân bóng đá: 100 x 60 = 6000 m² (0.3đ).\nb) Diện tích 1 khu phụ hình thang cân: (60 + 40) x 15 : 2 = 750 m². Cả 2 khu phụ: 750 x 2 = 1500 m². Tổng diện tích cả khu: 6000 + 1500 = 7500 m² (0.4đ).\nc) Chi phí trải thảm cỏ: 7500 x 140 000 = 1 050 000 000 đồng (1,05 tỉ đồng) (0.3đ)."
+          "level": "Vận dụng",
+          "question": "Một sân trường hình chữ nhật có chiều dài $55$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (55) . 30 = 1650 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (1650) - 25 = 1625 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 1625 m^2 (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Bác An muốn rào một khu đất hình chữ nhật có diện tích 600 m² giáp với một bờ sông thẳng (bên bờ sông không cần rào). Bác có sẵn 70 m lưới thép B40 để làm 3 mặt còn lại của hàng rào.\na) Gọi chiều rộng của mảnh đất vuông góc với bờ sông là x (m). Lập biểu thức biểu thị chiều dài song song với bờ sông theo x.\nb) Tìm các giá trị của x để bác An sử dụng hết đúng 70 m lưới thép đó.\nc) Với kích thước nào thì diện tích khu đất đạt giá trị lớn nhất?",
-          "rubric": "a) Chiều dài song song bờ sông: y = 70 - 2x (m) (0.3đ).\nb) Diện tích: x(70 - 2x) = 600 => 70x - 2x² = 600 => x² - 35x + 300 = 0 => (x - 15)(x - 20) = 0 => x = 15 hoặc x = 20 (0.4đ). Nếu x = 15 m thì chiều dài là 40 m (15 x 40 = 600 m²). Nếu x = 20 m thì chiều dài là 30 m (20 x 30 = 600 m²).\nc) Diện tích S(x) = -2(x² - 35x) = -2(x - 17,5)² + 612,5. Diện tích đạt lớn nhất bằng 612,5 m² khi x = 17,5 m và chiều dài y = 35 m (0.3đ)."
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     },
     "c4_6_bai4_test4": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Tam giác đều có đặc điểm nào sau đây?",
+          "question": "Hình vuông là hình có (Đề 04):",
           "options": [
-            "Ba cạnh bằng nhau và ba góc bằng nhau bằng $60^\\circ$",
-            "Ba cạnh khác nhau",
-            "Có một góc tù",
-            "Có hai cạnh vuông góc"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3110,12 +3224,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Hình vuông có cạnh là $a$. Công thức tính chu vi $C$ và diện tích $S$ là:",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "$C = 4a; S = a^2$",
-            "$C = 2a; S = a^2$",
-            "$C = 4a; S = 2a$",
-            "$C = a^2; S = 4a$"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3123,12 +3237,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Lục giác đều có bao nhiêu cạnh bằng nhau và bao nhiêu góc bằng nhau?",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$6$ cạnh bằng nhau và $6$ góc bằng nhau",
-            "$4$ cạnh bằng nhau",
-            "$8$ cạnh bằng nhau",
-            "$5$ cạnh"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3136,12 +3250,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Hình thoi có độ dài hai đường chéo là $m$ và $n$. Diện tích hình thoi là:",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$S = \\frac{1}{2}m \\cdot n$",
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
             "$S = m \\cdot n$",
             "$S = 2(m + n)$",
-            "$S = (m + n)^2$"
+            "$S = m + n$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3149,12 +3263,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Hình chữ nhật có chiều dài $8\\text{ cm}$ và chiều rộng $5\\text{ cm}$. Diện tích của nó là:",
+          "question": "Một hình vuông có cạnh bằng $20$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$40\\text{ cm}^2$",
-            "$26\\text{ cm}^2$",
-            "$13\\text{ cm}^2$",
-            "$80\\text{ cm}^2$"
+            "$80$ cm",
+            "$400$ cm$^2$",
+            "$40$ cm",
+            "$60$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3162,12 +3276,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Hình bình hành có độ dài đáy $10\\text{ cm}$ và chiều cao tương ứng $6\\text{ cm}$. Diện tích hình bình hành là:",
+          "question": "Một hình chữ nhật có chiều dài $32$ cm và chiều rộng $20$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$60\\text{ cm}^2$",
-            "$30\\text{ cm}^2$",
-            "$16\\text{ cm}^2$",
-            "$32\\text{ cm}^2$"
+            "$640$ cm$^2$",
+            "$104$ cm",
+            "$52$ cm",
+            "$320$ cm$^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3175,12 +3289,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Hình thang cân có hai đáy lần lượt là $6\\text{ cm}$ và $10\\text{ cm}$, chiều cao $4\\text{ cm}$. Diện tích là:",
+          "question": "Hình thoi có độ dài hai đường chéo là $24$ cm và $32$ cm. Diện tích hình thoi là:",
           "options": [
-            "$32\\text{ cm}^2$",
-            "$64\\text{ cm}^2$",
-            "$20\\text{ cm}^2$",
-            "$16\\text{ cm}^2$"
+            "$384$ cm$^2$",
+            "$768$ cm$^2$",
+            "$56$ cm",
+            "$112$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3188,12 +3302,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hình thoi có chu vi bằng $24\\text{ cm}$. Độ dài cạnh của hình thoi đó là:",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$6\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$8\\text{ cm}$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3201,12 +3315,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Một mảnh vườn hình chữ nhật có chiều dài $15\\text{ m}$, chiều rộng $8\\text{ m}$. Người ta dành một lối đi xung quanh rộng $1\\text{ m}$ để trồng hoa, phần còn lại trồng rau. Diện tích phần đất trồng rau là:",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $7.0$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "$78\\text{ m}^2$",
-            "$120\\text{ m}^2$",
-            "$42\\text{ m}^2$",
-            "$96\\text{ m}^2$"
+            "224 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3214,12 +3328,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Người ta làm một khung tranh bằng gỗ hình thoi có hai đường chéo dài $60\\text{ cm}$ và $80\\text{ cm}$. Diện tích của bức tranh bên trong là:",
+          "question": "Một khu vườn hình thang cân có hai đáy là $23$ mét và $33$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "$2400\\text{ cm}^2$",
-            "$4800\\text{ cm}^2$",
-            "$1200\\text{ cm}^2$",
-            "$140\\text{ cm}^2$"
+            "280 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3227,12 +3341,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một sân vận động hình chữ nhật có chu vi $320\\text{ m}$. Chiều dài hơn chiều rộng $40\\text{ m}$. Diện tích sân vận động là:",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $16$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$6000\\text{ m}^2$",
-            "$6400\\text{ m}^2$",
-            "$5600\\text{ m}^2$",
-            "$7200\\text{ m}^2$"
+            "$48$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3240,12 +3354,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Một thửa ruộng hình thang có đáy lớn $40\\text{ m}$, đáy nhỏ bằng $60\\%$ đáy lớn, chiều cao bằng một nửa đáy lớn. Người ta trồng lúa trên thửa ruộng, trung bình $100\\text{ m}^2$ thu được $65\\text{ kg}$ thóc. Khối lượng thóc thu được là:",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$416\\text{ kg}$",
-            "$640\\text{ kg}$",
-            "$520\\text{ kg}$",
-            "$380\\text{ kg}$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3254,11 +3368,11 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính chất hình học của các hình phẳng quen thuộc (Mã đề 4):",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
+              "level": "Nhận biết",
               "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
@@ -3266,55 +3380,55 @@
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hình bình hành có hai đường chéo bằng nhau.",
-              "correct": false,
-              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hình thang cân có hai cạnh bên bằng nhau.",
-              "correct": true,
-              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Một hình thoi có diện tích $48\\text{ cm}^2$ và đường chéo thứ nhất $8\\text{ cm}$ thì đường chéo thứ hai là $12\\text{ cm}$.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Bác Năm có mảnh đất hình chữ nhật dài $20\\text{ m}$, rộng $12\\text{ m}$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Chu vi mảnh đất là $64\\text{ m}$.",
-              "correct": true,
-              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Diện tích mảnh đất là $240\\text{ m}^2$.",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chi phí rào xung quanh mảnh đất với giá 150 000 đồng/m (không kể cổng 2m) là $9\\,300\\,000$ đồng.",
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu tăng chiều dài $10\\%$ và giảm chiều rộng $10\\%$ thì diện tích mảnh đất không thay đổi.",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 04): Bác Nam lát nền phòng khách hình vuông cạnh 8 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3325,7 +3439,7 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính diện tích hình chữ nhật có chiều dài 14 cm và chiều rộng 6 cm.",
+          "question": "Tính diện tích hình chữ nhật có chiều dài 14 cm, chiều rộng 6 cm (cm^2).",
           "answer": "84",
           "acceptableAnswers": [
             "84"
@@ -3335,69 +3449,69 @@
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính diện tích hình thoi có hai đường chéo dài 16 cm và 12 cm.",
-          "answer": "96",
-          "acceptableAnswers": [
-            "96"
-          ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
-        },
-        {
-          "id": 3,
-          "level": "Vận dụng",
-          "question": "Một phòng khách hình chữ nhật dài 8 m, rộng 5 m lát gạch vuông cạnh 50 cm. Cần bao nhiêu viên gạch?",
-          "answer": "160",
-          "acceptableAnswers": [
-            "160"
-          ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **160**."
-        },
-        {
-          "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tính diện tích hình thang cân biết đáy nhỏ 12 cm, đáy lớn 20 cm, cạnh bên 5 cm.",
+          "question": "Một tam giác đều có cạnh 16 cm. Tính chu vi tam giác đều đó (cm).",
           "answer": "48",
           "acceptableAnswers": [
             "48"
           ],
           "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+        },
+        {
+          "id": 3,
+          "level": "Vận dụng",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 26 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "190",
+          "acceptableAnswers": [
+            "190"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **190**."
+        },
+        {
+          "id": 4,
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
+          "acceptableAnswers": [
+            "2400"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính chu vi và diện tích mảnh đất hình bình hành có độ dài đáy 15 m, cạnh bên 8 m và chiều cao tương ứng 6 m.",
-          "rubric": "Chu vi: (15 + 8) x 2 = 46 (m) (0.25đ).\nDiện tích: 15 x 6 = 90 (m^2) (0.25đ)."
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $19$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (19 + 10) = 2 . 29 = 58 (m) (0.25đ).\nDiện tích mảnh vườn: S = (19) . 10 = 190 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 58 m và diện tích là 190 m^2 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một khu vườn hình thang có đáy bé 25 m, đáy lớn gấp đôi đáy bé, chiều cao 18 m. Ở giữa vườn người ta đào một ao cá hình vuông cạnh 6 m, phần đất còn lại trồng cây ăn quả. Tính diện tích phần đất trồng cây ăn quả.",
-          "rubric": "Đáy lớn: 25 x 2 = 50 (m). Diện tích hình thang: (25 + 50) x 18 : 2 = 675 (m^2) (0.25đ).\nDiện tích ao cá: 6 x 6 = 36 (m^2).\nDiện tích trồng cây: 675 - 36 = 639 (m^2) (0.25đ)."
+          "question": "Một sân trường hình chữ nhật có chiều dài $60$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (60) . 30 = 1800 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (1800) - 25 = 1775 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 1775 m^2 (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Một mảnh sân hình chữ nhật có chiều dài 12 m và chiều rộng 8 m. Người ta làm một lối đi bằng bê tông hình bình hành có đáy 2 m cắt ngang qua sân. Tính diện tích phần còn lại của sân để trồng cỏ.",
-          "rubric": "Diện tích cả mảnh sân: 12 x 8 = 96 (m^2) (0.25đ).\nDiện tích lối đi hình bình hành có đáy 2m và chiều cao bằng chiều rộng sân (8m): 2 x 8 = 16 (m^2).\nDiện tích trồng cỏ còn lại: 96 - 16 = 80 (m^2) (0.25đ)."
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     },
     "c4_6_bai4_test5": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng - Bài kiểm tra số 5 (💡 Hình học phẳng & Đời sống)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Tam giác đều có đặc điểm nào sau đây?",
+          "question": "Hình vuông là hình có (Đề 05):",
           "options": [
-            "Ba cạnh bằng nhau và ba góc bằng nhau bằng $60^\\circ$",
-            "Ba cạnh khác nhau",
-            "Có một góc tù",
-            "Có hai cạnh vuông góc"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3405,12 +3519,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Hình vuông có cạnh là $a$. Công thức tính chu vi $C$ và diện tích $S$ là:",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "$C = 4a; S = a^2$",
-            "$C = 2a; S = a^2$",
-            "$C = 4a; S = 2a$",
-            "$C = a^2; S = 4a$"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3418,12 +3532,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Lục giác đều có bao nhiêu cạnh bằng nhau và bao nhiêu góc bằng nhau?",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$6$ cạnh bằng nhau và $6$ góc bằng nhau",
-            "$4$ cạnh bằng nhau",
-            "$8$ cạnh bằng nhau",
-            "$5$ cạnh"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3431,12 +3545,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Hình thoi có độ dài hai đường chéo là $m$ và $n$. Diện tích hình thoi là:",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$S = \\frac{1}{2}m \\cdot n$",
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
             "$S = m \\cdot n$",
             "$S = 2(m + n)$",
-            "$S = (m + n)^2$"
+            "$S = m + n$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3444,12 +3558,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Hình chữ nhật có chiều dài $8\\text{ cm}$ và chiều rộng $5\\text{ cm}$. Diện tích của nó là:",
+          "question": "Một hình vuông có cạnh bằng $25$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$40\\text{ cm}^2$",
-            "$26\\text{ cm}^2$",
-            "$13\\text{ cm}^2$",
-            "$80\\text{ cm}^2$"
+            "$100$ cm",
+            "$625$ cm$^2$",
+            "$50$ cm",
+            "$75$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3457,12 +3571,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Hình bình hành có độ dài đáy $10\\text{ cm}$ và chiều cao tương ứng $6\\text{ cm}$. Diện tích hình bình hành là:",
+          "question": "Một hình chữ nhật có chiều dài $40$ cm và chiều rộng $25$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$60\\text{ cm}^2$",
-            "$30\\text{ cm}^2$",
-            "$16\\text{ cm}^2$",
-            "$32\\text{ cm}^2$"
+            "$1000$ cm$^2$",
+            "$130$ cm",
+            "$65$ cm",
+            "$500$ cm$^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3470,12 +3584,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Hình thang cân có hai đáy lần lượt là $6\\text{ cm}$ và $10\\text{ cm}$, chiều cao $4\\text{ cm}$. Diện tích là:",
+          "question": "Hình thoi có độ dài hai đường chéo là $30$ cm và $40$ cm. Diện tích hình thoi là:",
           "options": [
-            "$32\\text{ cm}^2$",
-            "$64\\text{ cm}^2$",
-            "$20\\text{ cm}^2$",
-            "$16\\text{ cm}^2$"
+            "$600$ cm$^2$",
+            "$1200$ cm$^2$",
+            "$70$ cm",
+            "$140$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3483,12 +3597,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hình thoi có chu vi bằng $24\\text{ cm}$. Độ dài cạnh của hình thoi đó là:",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$6\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$8\\text{ cm}$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3496,12 +3610,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Một mảnh vườn hình chữ nhật có chiều dài $15\\text{ m}$, chiều rộng $8\\text{ m}$. Người ta dành một lối đi xung quanh rộng $1\\text{ m}$ để trồng hoa, phần còn lại trồng rau. Diện tích phần đất trồng rau là:",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $7.5$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "$78\\text{ m}^2$",
-            "$120\\text{ m}^2$",
-            "$42\\text{ m}^2$",
-            "$96\\text{ m}^2$"
+            "240 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3509,12 +3623,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Người ta làm một khung tranh bằng gỗ hình thoi có hai đường chéo dài $60\\text{ cm}$ và $80\\text{ cm}$. Diện tích của bức tranh bên trong là:",
+          "question": "Một khu vườn hình thang cân có hai đáy là $25$ mét và $35$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "$2400\\text{ cm}^2$",
-            "$4800\\text{ cm}^2$",
-            "$1200\\text{ cm}^2$",
-            "$140\\text{ cm}^2$"
+            "300 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3522,12 +3636,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một sân vận động hình chữ nhật có chu vi $320\\text{ m}$. Chiều dài hơn chiều rộng $40\\text{ m}$. Diện tích sân vận động là:",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $17$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$6000\\text{ m}^2$",
-            "$6400\\text{ m}^2$",
-            "$5600\\text{ m}^2$",
-            "$7200\\text{ m}^2$"
+            "$50$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3535,12 +3649,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Một thửa ruộng hình thang có đáy lớn $40\\text{ m}$, đáy nhỏ bằng $60\\%$ đáy lớn, chiều cao bằng một nửa đáy lớn. Người ta trồng lúa trên thửa ruộng, trung bình $100\\text{ m}^2$ thu được $65\\text{ kg}$ thóc. Khối lượng thóc thu được là:",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$416\\text{ kg}$",
-            "$640\\text{ kg}$",
-            "$520\\text{ kg}$",
-            "$380\\text{ kg}$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3549,11 +3663,11 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính chất hình học của các hình phẳng quen thuộc (Mã đề 5):",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
+              "level": "Nhận biết",
               "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
@@ -3561,55 +3675,55 @@
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hình bình hành có hai đường chéo bằng nhau.",
-              "correct": false,
-              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hình thang cân có hai cạnh bên bằng nhau.",
-              "correct": true,
-              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Một hình thoi có diện tích $48\\text{ cm}^2$ và đường chéo thứ nhất $8\\text{ cm}$ thì đường chéo thứ hai là $12\\text{ cm}$.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Bác Năm có mảnh đất hình chữ nhật dài $20\\text{ m}$, rộng $12\\text{ m}$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Chu vi mảnh đất là $64\\text{ m}$.",
-              "correct": true,
-              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Diện tích mảnh đất là $240\\text{ m}^2$.",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chi phí rào xung quanh mảnh đất với giá 150 000 đồng/m (không kể cổng 2m) là $9\\,300\\,000$ đồng.",
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu tăng chiều dài $10\\%$ và giảm chiều rộng $10\\%$ thì diện tích mảnh đất không thay đổi.",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 05): Bác Nam lát nền phòng khách hình vuông cạnh 9 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3620,79 +3734,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính diện tích hình chữ nhật có chiều dài 14 cm và chiều rộng 6 cm.",
-          "answer": "84",
+          "question": "Tính diện tích hình chữ nhật có chiều dài 15 cm, chiều rộng 6 cm (cm^2).",
+          "answer": "90",
           "acceptableAnswers": [
-            "84"
+            "90"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **84**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **90**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính diện tích hình thoi có hai đường chéo dài 16 cm và 12 cm.",
-          "answer": "96",
+          "question": "Một tam giác đều có cạnh 20 cm. Tính chu vi tam giác đều đó (cm).",
+          "answer": "60",
           "acceptableAnswers": [
-            "96"
+            "60"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một phòng khách hình chữ nhật dài 8 m, rộng 5 m lát gạch vuông cạnh 50 cm. Cần bao nhiêu viên gạch?",
-          "answer": "160",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 28 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "200",
           "acceptableAnswers": [
-            "160"
+            "200"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **160**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tính diện tích hình thang cân biết đáy nhỏ 12 cm, đáy lớn 20 cm, cạnh bên 5 cm.",
-          "answer": "48",
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
           "acceptableAnswers": [
-            "48"
+            "2400"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính chu vi và diện tích mảnh đất hình bình hành có độ dài đáy 15 m, cạnh bên 8 m và chiều cao tương ứng 6 m.",
-          "rubric": "Chu vi: (15 + 8) x 2 = 46 (m) (0.25đ).\nDiện tích: 15 x 6 = 90 (m^2) (0.25đ)."
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $20$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (20 + 10) = 2 . 30 = 60 (m) (0.25đ).\nDiện tích mảnh vườn: S = (20) . 10 = 200 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 60 m và diện tích là 200 m^2 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một khu vườn hình thang có đáy bé 25 m, đáy lớn gấp đôi đáy bé, chiều cao 18 m. Ở giữa vườn người ta đào một ao cá hình vuông cạnh 6 m, phần đất còn lại trồng cây ăn quả. Tính diện tích phần đất trồng cây ăn quả.",
-          "rubric": "Đáy lớn: 25 x 2 = 50 (m). Diện tích hình thang: (25 + 50) x 18 : 2 = 675 (m^2) (0.25đ).\nDiện tích ao cá: 6 x 6 = 36 (m^2).\nDiện tích trồng cây: 675 - 36 = 639 (m^2) (0.25đ)."
+          "question": "Một sân trường hình chữ nhật có chiều dài $65$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (65) . 30 = 1950 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (1950) - 25 = 1925 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 1925 m^2 (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Một mảnh sân hình chữ nhật có chiều dài 12 m và chiều rộng 8 m. Người ta làm một lối đi bằng bê tông hình bình hành có đáy 2 m cắt ngang qua sân. Tính diện tích phần còn lại của sân để trồng cỏ.",
-          "rubric": "Diện tích cả mảnh sân: 12 x 8 = 96 (m^2) (0.25đ).\nDiện tích lối đi hình bình hành có đáy 2m và chiều cao bằng chiều rộng sân (8m): 2 x 8 = 16 (m^2).\nDiện tích trồng cỏ còn lại: 96 - 16 = 80 (m^2) (0.25đ)."
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     },
     "c4_6_bai4_test6": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Tam giác đều có đặc điểm nào sau đây?",
+          "question": "Hình vuông là hình có (Đề 06):",
           "options": [
-            "Ba cạnh bằng nhau và ba góc bằng nhau bằng $60^\\circ$",
-            "Ba cạnh khác nhau",
-            "Có một góc tù",
-            "Có hai cạnh vuông góc"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3700,12 +3814,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Hình vuông có cạnh là $a$. Công thức tính chu vi $C$ và diện tích $S$ là:",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "$C = 4a; S = a^2$",
-            "$C = 2a; S = a^2$",
-            "$C = 4a; S = 2a$",
-            "$C = a^2; S = 4a$"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3713,12 +3827,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Lục giác đều có bao nhiêu cạnh bằng nhau và bao nhiêu góc bằng nhau?",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$6$ cạnh bằng nhau và $6$ góc bằng nhau",
-            "$4$ cạnh bằng nhau",
-            "$8$ cạnh bằng nhau",
-            "$5$ cạnh"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3726,12 +3840,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Hình thoi có độ dài hai đường chéo là $m$ và $n$. Diện tích hình thoi là:",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$S = \\frac{1}{2}m \\cdot n$",
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
             "$S = m \\cdot n$",
             "$S = 2(m + n)$",
-            "$S = (m + n)^2$"
+            "$S = m + n$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3739,12 +3853,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Hình chữ nhật có chiều dài $8\\text{ cm}$ và chiều rộng $5\\text{ cm}$. Diện tích của nó là:",
+          "question": "Một hình vuông có cạnh bằng $30$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$40\\text{ cm}^2$",
-            "$26\\text{ cm}^2$",
-            "$13\\text{ cm}^2$",
-            "$80\\text{ cm}^2$"
+            "$120$ cm",
+            "$900$ cm$^2$",
+            "$60$ cm",
+            "$90$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3752,12 +3866,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Hình bình hành có độ dài đáy $10\\text{ cm}$ và chiều cao tương ứng $6\\text{ cm}$. Diện tích hình bình hành là:",
+          "question": "Một hình chữ nhật có chiều dài $48$ cm và chiều rộng $30$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$60\\text{ cm}^2$",
-            "$30\\text{ cm}^2$",
-            "$16\\text{ cm}^2$",
-            "$32\\text{ cm}^2$"
+            "$1440$ cm$^2$",
+            "$156$ cm",
+            "$78$ cm",
+            "$720$ cm$^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3765,12 +3879,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Hình thang cân có hai đáy lần lượt là $6\\text{ cm}$ và $10\\text{ cm}$, chiều cao $4\\text{ cm}$. Diện tích là:",
+          "question": "Hình thoi có độ dài hai đường chéo là $36$ cm và $48$ cm. Diện tích hình thoi là:",
           "options": [
-            "$32\\text{ cm}^2$",
-            "$64\\text{ cm}^2$",
-            "$20\\text{ cm}^2$",
-            "$16\\text{ cm}^2$"
+            "$864$ cm$^2$",
+            "$1728$ cm$^2$",
+            "$84$ cm",
+            "$168$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3778,12 +3892,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hình thoi có chu vi bằng $24\\text{ cm}$. Độ dài cạnh của hình thoi đó là:",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$6\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$8\\text{ cm}$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3791,12 +3905,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Một mảnh vườn hình chữ nhật có chiều dài $15\\text{ m}$, chiều rộng $8\\text{ m}$. Người ta dành một lối đi xung quanh rộng $1\\text{ m}$ để trồng hoa, phần còn lại trồng rau. Diện tích phần đất trồng rau là:",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $8.0$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "$78\\text{ m}^2$",
-            "$120\\text{ m}^2$",
-            "$42\\text{ m}^2$",
-            "$96\\text{ m}^2$"
+            "256 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3804,12 +3918,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Người ta làm một khung tranh bằng gỗ hình thoi có hai đường chéo dài $60\\text{ cm}$ và $80\\text{ cm}$. Diện tích của bức tranh bên trong là:",
+          "question": "Một khu vườn hình thang cân có hai đáy là $27$ mét và $37$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "$2400\\text{ cm}^2$",
-            "$4800\\text{ cm}^2$",
-            "$1200\\text{ cm}^2$",
-            "$140\\text{ cm}^2$"
+            "320 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3817,12 +3931,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một sân vận động hình chữ nhật có chu vi $320\\text{ m}$. Chiều dài hơn chiều rộng $40\\text{ m}$. Diện tích sân vận động là:",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $18$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$6000\\text{ m}^2$",
-            "$6400\\text{ m}^2$",
-            "$5600\\text{ m}^2$",
-            "$7200\\text{ m}^2$"
+            "$52$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3830,12 +3944,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Một thửa ruộng hình thang có đáy lớn $40\\text{ m}$, đáy nhỏ bằng $60\\%$ đáy lớn, chiều cao bằng một nửa đáy lớn. Người ta trồng lúa trên thửa ruộng, trung bình $100\\text{ m}^2$ thu được $65\\text{ kg}$ thóc. Khối lượng thóc thu được là:",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$416\\text{ kg}$",
-            "$640\\text{ kg}$",
-            "$520\\text{ kg}$",
-            "$380\\text{ kg}$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3844,11 +3958,11 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính chất hình học của các hình phẳng quen thuộc (Mã đề 6):",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
+              "level": "Nhận biết",
               "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
@@ -3856,55 +3970,55 @@
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hình bình hành có hai đường chéo bằng nhau.",
-              "correct": false,
-              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hình thang cân có hai cạnh bên bằng nhau.",
-              "correct": true,
-              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Một hình thoi có diện tích $48\\text{ cm}^2$ và đường chéo thứ nhất $8\\text{ cm}$ thì đường chéo thứ hai là $12\\text{ cm}$.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Bác Năm có mảnh đất hình chữ nhật dài $20\\text{ m}$, rộng $12\\text{ m}$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Chu vi mảnh đất là $64\\text{ m}$.",
-              "correct": true,
-              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Diện tích mảnh đất là $240\\text{ m}^2$.",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chi phí rào xung quanh mảnh đất với giá 150 000 đồng/m (không kể cổng 2m) là $9\\,300\\,000$ đồng.",
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu tăng chiều dài $10\\%$ và giảm chiều rộng $10\\%$ thì diện tích mảnh đất không thay đổi.",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 06): Bác Nam lát nền phòng khách hình vuông cạnh 10 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3915,17 +4029,7 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính diện tích hình chữ nhật có chiều dài 14 cm và chiều rộng 6 cm.",
-          "answer": "84",
-          "acceptableAnswers": [
-            "84"
-          ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **84**."
-        },
-        {
-          "id": 2,
-          "level": "Thông hiểu",
-          "question": "Tính diện tích hình thoi có hai đường chéo dài 16 cm và 12 cm.",
+          "question": "Tính diện tích hình chữ nhật có chiều dài 16 cm, chiều rộng 6 cm (cm^2).",
           "answer": "96",
           "acceptableAnswers": [
             "96"
@@ -3933,61 +4037,71 @@
           "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
         },
         {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Một tam giác đều có cạnh 24 cm. Tính chu vi tam giác đều đó (cm).",
+          "answer": "72",
+          "acceptableAnswers": [
+            "72"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
+        },
+        {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một phòng khách hình chữ nhật dài 8 m, rộng 5 m lát gạch vuông cạnh 50 cm. Cần bao nhiêu viên gạch?",
-          "answer": "160",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 30 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "210",
           "acceptableAnswers": [
-            "160"
+            "210"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **160**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **210**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tính diện tích hình thang cân biết đáy nhỏ 12 cm, đáy lớn 20 cm, cạnh bên 5 cm.",
-          "answer": "48",
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
           "acceptableAnswers": [
-            "48"
+            "2400"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính chu vi và diện tích mảnh đất hình bình hành có độ dài đáy 15 m, cạnh bên 8 m và chiều cao tương ứng 6 m.",
-          "rubric": "Chu vi: (15 + 8) x 2 = 46 (m) (0.25đ).\nDiện tích: 15 x 6 = 90 (m^2) (0.25đ)."
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $21$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (21 + 10) = 2 . 31 = 62 (m) (0.25đ).\nDiện tích mảnh vườn: S = (21) . 10 = 210 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 62 m và diện tích là 210 m^2 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một khu vườn hình thang có đáy bé 25 m, đáy lớn gấp đôi đáy bé, chiều cao 18 m. Ở giữa vườn người ta đào một ao cá hình vuông cạnh 6 m, phần đất còn lại trồng cây ăn quả. Tính diện tích phần đất trồng cây ăn quả.",
-          "rubric": "Đáy lớn: 25 x 2 = 50 (m). Diện tích hình thang: (25 + 50) x 18 : 2 = 675 (m^2) (0.25đ).\nDiện tích ao cá: 6 x 6 = 36 (m^2).\nDiện tích trồng cây: 675 - 36 = 639 (m^2) (0.25đ)."
+          "question": "Một sân trường hình chữ nhật có chiều dài $70$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (70) . 30 = 2100 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (2100) - 25 = 2075 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 2075 m^2 (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Một mảnh sân hình chữ nhật có chiều dài 12 m và chiều rộng 8 m. Người ta làm một lối đi bằng bê tông hình bình hành có đáy 2 m cắt ngang qua sân. Tính diện tích phần còn lại của sân để trồng cỏ.",
-          "rubric": "Diện tích cả mảnh sân: 12 x 8 = 96 (m^2) (0.25đ).\nDiện tích lối đi hình bình hành có đáy 2m và chiều cao bằng chiều rộng sân (8m): 2 x 8 = 16 (m^2).\nDiện tích trồng cỏ còn lại: 96 - 16 = 80 (m^2) (0.25đ)."
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     },
     "c4_6_bai4_test7": {
-      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương IV: Một số hình phẳng trong thực tiễn - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Tam giác đều có đặc điểm nào sau đây?",
+          "question": "Hình vuông là hình có (Đề 07):",
           "options": [
-            "Ba cạnh bằng nhau và ba góc bằng nhau bằng $60^\\circ$",
-            "Ba cạnh khác nhau",
-            "Có một góc tù",
-            "Có hai cạnh vuông góc"
+            "4 cạnh bằng nhau và 4 góc vuông",
+            "4 cạnh bằng nhau",
+            "4 góc vuông",
+            "2 đường chéo vuông góc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3995,12 +4109,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Hình vuông có cạnh là $a$. Công thức tính chu vi $C$ và diện tích $S$ là:",
+          "question": "Tam giác đều là tam giác có:",
           "options": [
-            "$C = 4a; S = a^2$",
-            "$C = 2a; S = a^2$",
-            "$C = 4a; S = 2a$",
-            "$C = a^2; S = 4a$"
+            "3 cạnh bằng nhau và 3 góc bằng nhau",
+            "2 cạnh bằng nhau",
+            "1 góc vuông",
+            "3 cạnh khác nhau"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4008,12 +4122,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Lục giác đều có bao nhiêu cạnh bằng nhau và bao nhiêu góc bằng nhau?",
+          "question": "Chu vi của hình chữ nhật có chiều dài $a$ và chiều rộng $b$ là:",
           "options": [
-            "$6$ cạnh bằng nhau và $6$ góc bằng nhau",
-            "$4$ cạnh bằng nhau",
-            "$8$ cạnh bằng nhau",
-            "$5$ cạnh"
+            "$C = 2(a + b)$",
+            "$C = a + b$",
+            "$C = a \\cdot b$",
+            "$C = 2a + b$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4021,12 +4135,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Hình thoi có độ dài hai đường chéo là $m$ và $n$. Diện tích hình thoi là:",
+          "question": "Diện tích của hình thoi có độ dài hai đường chéo $m$ và $n$ là:",
           "options": [
-            "$S = \\frac{1}{2}m \\cdot n$",
+            "$S = \\frac{{1}}{{2}} m \\cdot n$",
             "$S = m \\cdot n$",
             "$S = 2(m + n)$",
-            "$S = (m + n)^2$"
+            "$S = m + n$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4034,12 +4148,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Hình chữ nhật có chiều dài $8\\text{ cm}$ và chiều rộng $5\\text{ cm}$. Diện tích của nó là:",
+          "question": "Một hình vuông có cạnh bằng $35$ cm. Chu vi của hình vuông đó là:",
           "options": [
-            "$40\\text{ cm}^2$",
-            "$26\\text{ cm}^2$",
-            "$13\\text{ cm}^2$",
-            "$80\\text{ cm}^2$"
+            "$140$ cm",
+            "$1225$ cm$^2$",
+            "$70$ cm",
+            "$105$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4047,12 +4161,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Hình bình hành có độ dài đáy $10\\text{ cm}$ và chiều cao tương ứng $6\\text{ cm}$. Diện tích hình bình hành là:",
+          "question": "Một hình chữ nhật có chiều dài $56$ cm và chiều rộng $35$ cm. Diện tích của hình chữ nhật là:",
           "options": [
-            "$60\\text{ cm}^2$",
-            "$30\\text{ cm}^2$",
-            "$16\\text{ cm}^2$",
-            "$32\\text{ cm}^2$"
+            "$1960$ cm$^2$",
+            "$182$ cm",
+            "$91$ cm",
+            "$980$ cm$^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4060,12 +4174,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Hình thang cân có hai đáy lần lượt là $6\\text{ cm}$ và $10\\text{ cm}$, chiều cao $4\\text{ cm}$. Diện tích là:",
+          "question": "Hình thoi có độ dài hai đường chéo là $42$ cm và $56$ cm. Diện tích hình thoi là:",
           "options": [
-            "$32\\text{ cm}^2$",
-            "$64\\text{ cm}^2$",
-            "$20\\text{ cm}^2$",
-            "$16\\text{ cm}^2$"
+            "$1176$ cm$^2$",
+            "$2352$ cm$^2$",
+            "$98$ cm",
+            "$196$ cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4073,12 +4187,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Một hình thoi có chu vi bằng $24\\text{ cm}$. Độ dài cạnh của hình thoi đó là:",
+          "question": "Hình lục giác đều được ghép từ:",
           "options": [
-            "$6\\text{ cm}$",
-            "$12\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$8\\text{ cm}$"
+            "6 tam giác đều bằng nhau",
+            "4 hình vuông",
+            "3 hình thoi",
+            "5 hình chữ nhật"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4086,12 +4200,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Một mảnh vườn hình chữ nhật có chiều dài $15\\text{ m}$, chiều rộng $8\\text{ m}$. Người ta dành một lối đi xung quanh rộng $1\\text{ m}$ để trồng hoa, phần còn lại trồng rau. Diện tích phần đất trồng rau là:",
+          "question": "Bác An muốn lát gạch cho một căn phòng hình chữ nhật dài $8$ mét và rộng $8.5$ mét. Người ta dùng gạch hình vuông cạnh $50$ cm. Số viên gạch cần dùng (bỏ qua mạch vữa) là:",
           "options": [
-            "$78\\text{ m}^2$",
-            "$120\\text{ m}^2$",
-            "$42\\text{ m}^2$",
-            "$96\\text{ m}^2$"
+            "272 viên",
+            "100 viên",
+            "150 viên",
+            "200 viên"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4099,12 +4213,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Người ta làm một khung tranh bằng gỗ hình thoi có hai đường chéo dài $60\\text{ cm}$ và $80\\text{ cm}$. Diện tích của bức tranh bên trong là:",
+          "question": "Một khu vườn hình thang cân có hai đáy là $29$ mét và $39$ mét, chiều cao $10$ mét. Diện tích khu vườn hình thang cân là:",
           "options": [
-            "$2400\\text{ cm}^2$",
-            "$4800\\text{ cm}^2$",
-            "$1200\\text{ cm}^2$",
-            "$140\\text{ cm}^2$"
+            "340 mét vuông",
+            "200 mét vuông",
+            "300 mét vuông",
+            "250 mét vuông"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4112,12 +4226,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Một sân vận động hình chữ nhật có chu vi $320\\text{ m}$. Chiều dài hơn chiều rộng $40\\text{ m}$. Diện tích sân vận động là:",
+          "question": "Người ta làm một hàng rào quanh một khu đất hình bình hành có độ dài hai cạnh kề là $19$ mét và $8$ mét. Chiều dài hàng rào là:",
           "options": [
-            "$6000\\text{ m}^2$",
-            "$6400\\text{ m}^2$",
-            "$5600\\text{ m}^2$",
-            "$7200\\text{ m}^2$"
+            "$54$ mét",
+            "40 mét",
+            "30 mét",
+            "50 mét"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4125,12 +4239,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Một thửa ruộng hình thang có đáy lớn $40\\text{ m}$, đáy nhỏ bằng $60\\%$ đáy lớn, chiều cao bằng một nửa đáy lớn. Người ta trồng lúa trên thửa ruộng, trung bình $100\\text{ m}^2$ thu được $65\\text{ kg}$ thóc. Khối lượng thóc thu được là:",
+          "question": "Một mảnh đất hình chữ nhật có chu vi $60$ mét. Nếu tăng chiều rộng thêm $5$ mét và giảm chiều dài đi $5$ mét thì diện tích tăng thêm bao nhiêu mét vuông?",
           "options": [
-            "$416\\text{ kg}$",
-            "$640\\text{ kg}$",
-            "$520\\text{ kg}$",
-            "$380\\text{ kg}$"
+            "25 mét vuông",
+            "50 mét vuông",
+            "10 mét vuông",
+            "Không đổi"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4139,11 +4253,11 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính chất hình học của các hình phẳng quen thuộc (Mã đề 7):",
+          "stem": "Xét tính đúng sai về các hình phẳng (Đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
+              "level": "Nhận biết",
               "text": "Hình vuông vừa là hình chữ nhật vừa là hình thoi.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
@@ -4151,55 +4265,55 @@
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Hình bình hành có hai đường chéo bằng nhau.",
-              "correct": false,
-              "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hình thang cân có hai cạnh bên bằng nhau.",
-              "correct": true,
-              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Một hình thoi có diện tích $48\\text{ cm}^2$ và đường chéo thứ nhất $8\\text{ cm}$ thì đường chéo thứ hai là $12\\text{ cm}$.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Bác Năm có mảnh đất hình chữ nhật dài $20\\text{ m}$, rộng $12\\text{ m}$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Chu vi mảnh đất là $64\\text{ m}$.",
-              "correct": true,
-              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Diện tích mảnh đất là $240\\text{ m}^2$.",
+              "text": "Trong hình thoi, hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm mỗi đường.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Chi phí rào xung quanh mảnh đất với giá 150 000 đồng/m (không kể cổng 2m) là $9\\,300\\,000$ đồng.",
+              "text": "Hình lục giác đều có 6 cạnh bằng nhau và 6 góc bằng nhau.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu tăng chiều dài $10\\%$ và giảm chiều rộng $10\\%$ thì diện tích mảnh đất không thay đổi.",
+              "text": "Hình bình hành có hai đường chéo luôn bằng nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Bài toán kinh tế lát sàn nhà (Mã đề 07): Bác Nam lát nền phòng khách hình vuông cạnh 11 mét bằng các viên gạch vuông cạnh 40 cm (0,4 m).",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Diện tích sàn phòng khách là (4 + t)^2 mét vuông.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Diện tích một viên gạch là 0,4 . 0,4 = 0,16 mét vuông.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Số viên gạch cần dùng là (4 + t)^2 / 0,16 viên.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Nếu t = 2 thì số viên gạch cần mua ít hơn 200 viên.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4210,7 +4324,17 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính diện tích hình chữ nhật có chiều dài 14 cm và chiều rộng 6 cm.",
+          "question": "Tính diện tích hình chữ nhật có chiều dài 17 cm, chiều rộng 6 cm (cm^2).",
+          "answer": "102",
+          "acceptableAnswers": [
+            "102"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **102**."
+        },
+        {
+          "id": 2,
+          "level": "Thông hiểu",
+          "question": "Một tam giác đều có cạnh 28 cm. Tính chu vi tam giác đều đó (cm).",
           "answer": "84",
           "acceptableAnswers": [
             "84"
@@ -4218,54 +4342,44 @@
           "explanation": "Các bước giải chi tiết dẫn đến kết quả: **84**."
         },
         {
-          "id": 2,
-          "level": "Thông hiểu",
-          "question": "Tính diện tích hình thoi có hai đường chéo dài 16 cm và 12 cm.",
-          "answer": "96",
-          "acceptableAnswers": [
-            "96"
-          ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
-        },
-        {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Một phòng khách hình chữ nhật dài 8 m, rộng 5 m lát gạch vuông cạnh 50 cm. Cần bao nhiêu viên gạch?",
-          "answer": "160",
+          "question": "Một thửa ruộng hình thang có hai đáy là 12 m và 32 m, chiều cao 10 m. Tính diện tích thửa ruộng (m^2).",
+          "answer": "220",
           "acceptableAnswers": [
-            "160"
+            "220"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **160**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **220**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tính diện tích hình thang cân biết đáy nhỏ 12 cm, đáy lớn 20 cm, cạnh bên 5 cm.",
-          "answer": "48",
+          "level": "Vận dụng",
+          "question": "Một con diều hình thoi có hai đường chéo dài 60 cm và 80 cm. Tính diện tích con diều (cm^2).",
+          "answer": "2400",
           "acceptableAnswers": [
-            "48"
+            "2400"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2400**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính chu vi và diện tích mảnh đất hình bình hành có độ dài đáy 15 m, cạnh bên 8 m và chiều cao tương ứng 6 m.",
-          "rubric": "Chu vi: (15 + 8) x 2 = 46 (m) (0.25đ).\nDiện tích: 15 x 6 = 90 (m^2) (0.25đ)."
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài $22$ mét, chiều rộng $10$ mét. Tính chu vi và diện tích của mảnh vườn đó.",
+          "rubric": "Chu vi mảnh vườn: C = 2 . (22 + 10) = 2 . 32 = 64 (m) (0.25đ).\nDiện tích mảnh vườn: S = (22) . 10 = 220 (m^2) (0.25đ).\nGhi chú đơn vị đo chu vi (m) và diện tích (m^2) (0.25đ).\nKết luận chu vi là 64 m và diện tích là 220 m^2 (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Một khu vườn hình thang có đáy bé 25 m, đáy lớn gấp đôi đáy bé, chiều cao 18 m. Ở giữa vườn người ta đào một ao cá hình vuông cạnh 6 m, phần đất còn lại trồng cây ăn quả. Tính diện tích phần đất trồng cây ăn quả.",
-          "rubric": "Đáy lớn: 25 x 2 = 50 (m). Diện tích hình thang: (25 + 50) x 18 : 2 = 675 (m^2) (0.25đ).\nDiện tích ao cá: 6 x 6 = 36 (m^2).\nDiện tích trồng cây: 675 - 36 = 639 (m^2) (0.25đ)."
+          "question": "Một sân trường hình chữ nhật có chiều dài $75$ mét và chiều rộng $30$ mét. Ở giữa sân người ta xây một bồn hoa hình vuông cạnh $5$ mét. Phần sân còn lại được lát gạch tự chèn. Tính diện tích phần sân được lát gạch.",
+          "rubric": "Diện tích toàn bộ sân trường: S1 = (75) . 30 = 2250 (m^2) (0.25đ).\nDiện tích bồn hoa hình vuông: S2 = 5 . 5 = 25 (m^2) (0.25đ).\nDiện tích phần sân lát gạch: S = S1 - S2 = (2250) - 25 = 2225 (m^2) (0.25đ).\nKết luận diện tích phần sân được lát gạch là 2225 m^2 (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Một mảnh sân hình chữ nhật có chiều dài 12 m và chiều rộng 8 m. Người ta làm một lối đi bằng bê tông hình bình hành có đáy 2 m cắt ngang qua sân. Tính diện tích phần còn lại của sân để trồng cỏ.",
-          "rubric": "Diện tích cả mảnh sân: 12 x 8 = 96 (m^2) (0.25đ).\nDiện tích lối đi hình bình hành có đáy 2m và chiều cao bằng chiều rộng sân (8m): 2 x 8 = 16 (m^2).\nDiện tích trồng cỏ còn lại: 96 - 16 = 80 (m^2) (0.25đ)."
+          "question": "Người ta muốn rào quanh một khu đất hình chữ nhật có diện tích $36\\text{ m}^2$ bằng lưới thép. Hỏi người ta phải chọn kích thước các cạnh như thế nào để số mét lưới thép cần mua (chu vi) là ít nhất?",
+          "rubric": "Gọi chiều dài là a (m) và chiều rộng là b (m) => a . b = 36 (0.25đ).\nChu vi khu đất là C = 2(a + b) (0.25đ).\nÁp dụng bất đẳng thức Cauchy: a + b >= 2 . căn(ab) = 2 . căn(36) = 12 (0.25đ).\nChu vi nhỏ nhất khi a = b = 6 m (khu đất hình vuông). Khi đó chu vi ít nhất là 24 m (0.25đ)."
         }
       ]
     }

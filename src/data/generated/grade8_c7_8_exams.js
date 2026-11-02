@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG VII: PHƯƠNG TRÌNH BẬC NHẤT VÀ HÀM SỐ BẬC NHẤT - TOÁN 8 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:24:42
+// Cập nhật lúc: 2026-11-02 07:36:39
 // ==============================================================================
 
 const EXAMS_8_C7_8 = {
@@ -1547,20 +1547,20 @@ const EXAMS_8_C7_8 = {
       }
     ]
   },
-  "c7_8_bai6_test4": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình & Hàm số bậc nhất - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+  "c7_8_bai6_test1": {
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 01",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn?",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 01)?",
         "options": [
-          "$2x - 5 = 0$",
-          "$x^2 + 1 = 0$",
-          "$\\frac{1}{x} + 2 = 0$",
-          "$2x + y = 3$"
+          "$2x - 2 = 0$",
+          "$x^2 - 1 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{1}{x} = 1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1568,12 +1568,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Nghiệm của phương trình $3x - 9 = 0$ là:",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 9$",
-          "$x = 0$"
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1581,12 +1581,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất là hàm số có dạng:",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
         "options": [
-          "$y = ax + b$ với $a \\neq 0$",
-          "$y = ax^2 + b$",
-          "$y = \\frac{a}{x}$",
-          "$y = b$"
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1594,12 +1594,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất $y = 3x - 2$ có hệ số góc bằng:",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
         "options": [
-          "$3$",
-          "$-2$",
-          "$2$",
-          "$-3$"
+          "3",
+          "-5",
+          "5",
+          "-3"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1607,12 +1607,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hàm số bậc nhất $y = -2x + 5$ là hàm số:",
+        "question": "Nghiệm của phương trình $2x - 6 = 0$ là:",
         "options": [
-          "Nghịch biến trên $\\mathbb{R}$",
-          "Đồng biến trên $\\mathbb{R}$",
-          "Vừa đồng biến vừa nghịch biến",
-          "Không đổi"
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 1$",
+          "$x = 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1620,12 +1620,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 1$?",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 1x + 2$?",
         "options": [
-          "$A(1; 1)$",
-          "$B(0; 1)$",
-          "$C(2; 4)$",
-          "$D(-1; 1)$"
+          "$(1; 3)$",
+          "$(1; 1)$",
+          "$(0; 0)$",
+          "$(1; 1)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1633,12 +1633,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hai đường thẳng $y = 2x + 1$ và $y = 2x - 3$ có vị trí tương đối là:",
+        "question": "Đường thẳng $y = 1x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
-          "Trùng nhau",
-          "Vuông góc với nhau"
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 1)$",
+          "$(1; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1646,12 +1646,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Phương trình $2(x - 1) = 3x + 1$ có nghiệm là:",
+        "question": "Hai đường thẳng $y = 2x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
         "options": [
-          "$x = -3$",
-          "$x = 3$",
-          "$x = -1$",
-          "$x = 1$"
+          "2",
+          "4",
+          "1",
+          "-2"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1659,12 +1659,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để đồ thị hàm số $y = (m - 1)x + 3$ đi qua điểm $M(2; 7)$:",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 13 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
         "options": [
-          "$m = 3$",
-          "$m = 2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$y = 13x + 10$",
+          "$y = 10x + 13$",
+          "$y = 13x$",
+          "$y = (12+t+10)x$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1672,12 +1672,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Một xe máy đi từ A đến B với vận tốc $40\\text{ km/h}$. Lúc về xe đi với vận tốc $30\\text{ km/h}$ nên thời gian về nhiều hơn thời gian đi là 30 phút ($0,5$ giờ). Quãng đường AB dài:",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $16$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
         "options": [
-          "$60\\text{ km}$",
-          "$70\\text{ km}$",
-          "$80\\text{ km}$",
-          "$50\\text{ km}$"
+          "$V = 16t + 100$",
+          "$V = 100t + 16$",
+          "$V = 16t$",
+          "$V = 100 - (15+t)t$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1685,12 +1685,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Tìm giao điểm của hai đường thẳng $y = 2x - 3$ và $y = -x + 3$:",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 3)$",
-          "$(3; 0)$"
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1698,12 +1698,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để phương trình $(m^2 - 4)x + m - 2 = 0$ có vô số nghiệm:",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 1x + 2$ đạt giá trị bằng:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = \\pm 2$",
-          "Không có giá trị nào của $m$"
+          "$2 / \\sqrt{2}$",
+          "$2$",
+          "$1$",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1712,67 +1712,67 @@ const EXAMS_8_C7_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về phương trình và hàm số bậc nhất (Mã đề 4):",
+        "stem": "Cho hàm số bậc nhất $y = (1)x + 2$ có đồ thị là đường thẳng $d$ (Mã đề 01):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình ax + b = 0 với a khác 0 luôn có duy nhất một nghiệm x = -b/a.",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đồ thị hàm số y = ax + b (a khác 0) là một đường thẳng.",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 2).",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hai đường thẳng song song khi chúng có hệ số góc bằng nhau và tung độ gốc khác nhau.",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đồ thị hàm số y = 3x đi qua gốc tọa độ O(0; 0).",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Bác Ba gửi ngân hàng một khoản tiền. Số tiền nhận được sau x tháng được tính bởi y = 0,5x + 100 (triệu đồng):",
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 01): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số tiền gốc ban đầu Bác Ba gửi là 100 triệu đồng.",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mỗi tháng số tiền tăng thêm 0,5 triệu đồng tiền lãi.",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Sau 12 tháng (1 năm) số tiền nhận được là 106 triệu đồng.",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Sau 2 năm (24 tháng) Bác Ba nhận được đúng 120 triệu đồng.",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -1783,7 +1783,7 @@ const EXAMS_8_C7_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: 5x - 15 = 0.",
+        "question": "Giải phương trình bậc nhất: 3x - 9 = 0.",
         "answer": "3",
         "acceptableAnswers": [
           "3"
@@ -1793,17 +1793,7 @@ const EXAMS_8_C7_8 = {
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hệ số góc của đường thẳng y = -4x + 7.",
-        "answer": "-4",
-        "acceptableAnswers": [
-          "-4"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Tìm m để hai đường thẳng y = (m - 2)x + 1 và y = 3x - 5 song song với nhau.",
+        "question": "Tìm hệ số góc của đường thẳng y = 5x - 12.",
         "answer": "5",
         "acceptableAnswers": [
           "5"
@@ -1811,51 +1801,946 @@ const EXAMS_8_C7_8 = {
         "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
       },
       {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm diện tích tam giác tạo bởi đường thẳng y = 2x - 4 với hai trục tọa độ Ox và Oy.",
-        "answer": "4",
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
         "acceptableAnswers": [
-          "4"
+          "100"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 8. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "8.0",
+        "acceptableAnswers": [
+          "8.0"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8.0**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: $3(x - 2) + 2x = 9$.",
-        "rubric": "3x - 6 + 2x = 9 => 5x = 15 => x = 3 (0.5đ)."
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 2$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -2, điểm A(0; -2) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 2 => x = 1, điểm B(1; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một người đi xe đạp từ A đến B với vận tốc 15 km/h. Sau đó 1 giờ, một người đi xe máy cũng từ A đuổi theo với vận tốc 40 km/h. Hỏi sau bao lâu kể từ khi xe máy xuất phát thì xe máy đuổi kịp xe đạp?",
-        "rubric": "Gọi thời gian xe máy đi đến khi gặp xe đạp là t (giờ, t > 0) (0.25đ).\nQuãng đường xe đạp đi: 15(t + 1). Quãng đường xe máy đi: 40t.\nTa có: 40t = 15(t + 1) => 25t = 15 => t = 15/25 = 0,6 giờ = 36 phút (0.25đ)."
+        "question": "Một công ty du lịch dự định thuê xe chở $130$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 130 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để ba đường thẳng sau đồng quy: $(d_1): y = 2x - 3$, $(d_2): y = -x + 3$ và $(d_3): y = (m - 1)x + 2m - 5$.",
-        "rubric": "Tọa độ giao điểm của (d1) và (d2) là nghiệm của: 2x - 3 = -x + 3 => 3x = 6 => x = 2; y = 1 => A(2; 1) (0.25đ).\nĐể 3 đường thẳng đồng quy thì A(2; 1) thuộc (d3):\n1 = (m - 1).2 + 2m - 5 => 4m - 7 = 1 => 4m = 8 => m = 2 (0.25đ)."
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
+      }
+    ]
+  },
+  "c7_8_bai6_test2": {
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 02)?",
+        "options": [
+          "$3x - 4 = 0$",
+          "$x^2 - 2 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{2}{x} = 1"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
+        "options": [
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
+        "options": [
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
+        "options": [
+          "3",
+          "-5",
+          "5",
+          "-3"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $4x - 12 = 0$ là:",
+        "options": [
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 2$",
+          "$x = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x + 2$?",
+        "options": [
+          "$(1; 4)$",
+          "$(1; 2)$",
+          "$(0; 0)$",
+          "$(2; 1)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Đường thẳng $y = 2x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
+        "options": [
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 2)$",
+          "$(2; 0)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hai đường thẳng $y = 4x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
+        "options": [
+          "2",
+          "4",
+          "1",
+          "-2"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 14 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
+        "options": [
+          "$y = 14x + 10$",
+          "$y = 10x + 14$",
+          "$y = 14x$",
+          "$y = (12+t+10)x$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $17$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
+        "options": [
+          "$V = 17t + 100$",
+          "$V = 100t + 17$",
+          "$V = 17t$",
+          "$V = 100 - (15+t)t$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
+        "options": [
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 2x + 4$ đạt giá trị bằng:",
+        "options": [
+          "$4 / \\sqrt{5}$",
+          "$4$",
+          "$2$",
+          "1"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho hàm số bậc nhất $y = (2)x + 4$ có đồ thị là đường thẳng $d$ (Mã đề 02):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 4).",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 02): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bậc nhất: 3x - 12 = 0.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm hệ số góc của đường thẳng y = 10x - 12.",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
+        "acceptableAnswers": [
+          "100"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 9. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "7.5",
+        "acceptableAnswers": [
+          "7.5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7.5**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 4$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -4, điểm A(0; -4) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 4 => x = 2, điểm B(2; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một công ty du lịch dự định thuê xe chở $140$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 140 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
+      }
+    ]
+  },
+  "c7_8_bai6_test3": {
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 03)?",
+        "options": [
+          "$4x - 6 = 0$",
+          "$x^2 - 3 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{3}{x} = 1"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
+        "options": [
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
+        "options": [
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
+        "options": [
+          "3",
+          "-5",
+          "5",
+          "-3"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $6x - 18 = 0$ là:",
+        "options": [
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 3$",
+          "$x = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 3x + 2$?",
+        "options": [
+          "$(1; 5)$",
+          "$(1; 3)$",
+          "$(0; 0)$",
+          "$(3; 1)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Đường thẳng $y = 3x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
+        "options": [
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 3)$",
+          "$(3; 0)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hai đường thẳng $y = 6x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
+        "options": [
+          "2",
+          "4",
+          "1",
+          "-2"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 15 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
+        "options": [
+          "$y = 15x + 10$",
+          "$y = 10x + 15$",
+          "$y = 15x$",
+          "$y = (12+t+10)x$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $18$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
+        "options": [
+          "$V = 18t + 100$",
+          "$V = 100t + 18$",
+          "$V = 18t$",
+          "$V = 100 - (15+t)t$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
+        "options": [
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 3x + 6$ đạt giá trị bằng:",
+        "options": [
+          "$6 / \\sqrt{10}$",
+          "$6$",
+          "$3$",
+          "1"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho hàm số bậc nhất $y = (3)x + 6$ có đồ thị là đường thẳng $d$ (Mã đề 03):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 6).",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 03): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bậc nhất: 3x - 15 = 0.",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm hệ số góc của đường thẳng y = 15x - 12.",
+        "answer": "15",
+        "acceptableAnswers": [
+          "15"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
+        "acceptableAnswers": [
+          "100"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 7. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "8.5",
+        "acceptableAnswers": [
+          "8.5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8.5**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 6$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -6, điểm A(0; -6) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 6 => x = 3, điểm B(3; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một công ty du lịch dự định thuê xe chở $150$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 150 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
+      }
+    ]
+  },
+  "c7_8_bai6_test4": {
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 04",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 04)?",
+        "options": [
+          "$5x - 8 = 0$",
+          "$x^2 - 4 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{4}{x} = 1"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
+        "options": [
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
+        "options": [
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
+        "options": [
+          "3",
+          "-5",
+          "5",
+          "-3"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Nghiệm của phương trình $8x - 24 = 0$ là:",
+        "options": [
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 4$",
+          "$x = 0$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 4x + 2$?",
+        "options": [
+          "$(1; 6)$",
+          "$(1; 4)$",
+          "$(0; 0)$",
+          "$(4; 1)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Đường thẳng $y = 4x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
+        "options": [
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 4)$",
+          "$(4; 0)$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Hai đường thẳng $y = 8x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
+        "options": [
+          "2",
+          "4",
+          "1",
+          "-2"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 16 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
+        "options": [
+          "$y = 16x + 10$",
+          "$y = 10x + 16$",
+          "$y = 16x$",
+          "$y = (12+t+10)x$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $19$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
+        "options": [
+          "$V = 19t + 100$",
+          "$V = 100t + 19$",
+          "$V = 19t$",
+          "$V = 100 - (15+t)t$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
+        "options": [
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 4x + 8$ đạt giá trị bằng:",
+        "options": [
+          "$8 / \\sqrt{17}$",
+          "$8$",
+          "$4$",
+          "1"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Cho hàm số bậc nhất $y = (4)x + 8$ có đồ thị là đường thẳng $d$ (Mã đề 04):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 8).",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 04): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Giải phương trình bậc nhất: 3x - 18 = 0.",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm hệ số góc của đường thẳng y = 20x - 12.",
+        "answer": "20",
+        "acceptableAnswers": [
+          "20"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **20**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
+        "acceptableAnswers": [
+          "100"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 8. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "8.0",
+        "acceptableAnswers": [
+          "8.0"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8.0**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 8$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -8, điểm A(0; -8) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 8 => x = 4, điểm B(4; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Một công ty du lịch dự định thuê xe chở $160$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 160 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
       }
     ]
   },
   "c7_8_bai6_test5": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình & Hàm số bậc nhất - Bài kiểm tra số 5 (💡 Phương trình & Hàm số bậc nhất)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn?",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 05)?",
         "options": [
-          "$2x - 5 = 0$",
-          "$x^2 + 1 = 0$",
-          "$\\frac{1}{x} + 2 = 0$",
-          "$2x + y = 3$"
+          "$6x - 10 = 0$",
+          "$x^2 - 5 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{5}{x} = 1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1863,12 +2748,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Nghiệm của phương trình $3x - 9 = 0$ là:",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 9$",
-          "$x = 0$"
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1876,12 +2761,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất là hàm số có dạng:",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
         "options": [
-          "$y = ax + b$ với $a \\neq 0$",
-          "$y = ax^2 + b$",
-          "$y = \\frac{a}{x}$",
-          "$y = b$"
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1889,12 +2774,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất $y = 3x - 2$ có hệ số góc bằng:",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
         "options": [
-          "$3$",
-          "$-2$",
-          "$2$",
-          "$-3$"
+          "3",
+          "-5",
+          "5",
+          "-3"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1902,12 +2787,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hàm số bậc nhất $y = -2x + 5$ là hàm số:",
+        "question": "Nghiệm của phương trình $10x - 30 = 0$ là:",
         "options": [
-          "Nghịch biến trên $\\mathbb{R}$",
-          "Đồng biến trên $\\mathbb{R}$",
-          "Vừa đồng biến vừa nghịch biến",
-          "Không đổi"
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 5$",
+          "$x = 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1915,12 +2800,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 1$?",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 5x + 2$?",
         "options": [
-          "$A(1; 1)$",
-          "$B(0; 1)$",
-          "$C(2; 4)$",
-          "$D(-1; 1)$"
+          "$(1; 7)$",
+          "$(1; 5)$",
+          "$(0; 0)$",
+          "$(5; 1)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1928,12 +2813,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hai đường thẳng $y = 2x + 1$ và $y = 2x - 3$ có vị trí tương đối là:",
+        "question": "Đường thẳng $y = 5x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
-          "Trùng nhau",
-          "Vuông góc với nhau"
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 5)$",
+          "$(5; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1941,12 +2826,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Phương trình $2(x - 1) = 3x + 1$ có nghiệm là:",
+        "question": "Hai đường thẳng $y = 10x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
         "options": [
-          "$x = -3$",
-          "$x = 3$",
-          "$x = -1$",
-          "$x = 1$"
+          "2",
+          "4",
+          "1",
+          "-2"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1954,12 +2839,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để đồ thị hàm số $y = (m - 1)x + 3$ đi qua điểm $M(2; 7)$:",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 17 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
         "options": [
-          "$m = 3$",
-          "$m = 2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$y = 17x + 10$",
+          "$y = 10x + 17$",
+          "$y = 17x$",
+          "$y = (12+t+10)x$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1967,12 +2852,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Một xe máy đi từ A đến B với vận tốc $40\\text{ km/h}$. Lúc về xe đi với vận tốc $30\\text{ km/h}$ nên thời gian về nhiều hơn thời gian đi là 30 phút ($0,5$ giờ). Quãng đường AB dài:",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $20$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
         "options": [
-          "$60\\text{ km}$",
-          "$70\\text{ km}$",
-          "$80\\text{ km}$",
-          "$50\\text{ km}$"
+          "$V = 20t + 100$",
+          "$V = 100t + 20$",
+          "$V = 20t$",
+          "$V = 100 - (15+t)t$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1980,12 +2865,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Tìm giao điểm của hai đường thẳng $y = 2x - 3$ và $y = -x + 3$:",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 3)$",
-          "$(3; 0)$"
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1993,12 +2878,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để phương trình $(m^2 - 4)x + m - 2 = 0$ có vô số nghiệm:",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 5x + 10$ đạt giá trị bằng:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = \\pm 2$",
-          "Không có giá trị nào của $m$"
+          "$10 / \\sqrt{26}$",
+          "$10$",
+          "$5$",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2007,67 +2892,67 @@ const EXAMS_8_C7_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về phương trình và hàm số bậc nhất (Mã đề 5):",
+        "stem": "Cho hàm số bậc nhất $y = (5)x + 10$ có đồ thị là đường thẳng $d$ (Mã đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình ax + b = 0 với a khác 0 luôn có duy nhất một nghiệm x = -b/a.",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đồ thị hàm số y = ax + b (a khác 0) là một đường thẳng.",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 10).",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hai đường thẳng song song khi chúng có hệ số góc bằng nhau và tung độ gốc khác nhau.",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đồ thị hàm số y = 3x đi qua gốc tọa độ O(0; 0).",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Bác Ba gửi ngân hàng một khoản tiền. Số tiền nhận được sau x tháng được tính bởi y = 0,5x + 100 (triệu đồng):",
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 05): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số tiền gốc ban đầu Bác Ba gửi là 100 triệu đồng.",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mỗi tháng số tiền tăng thêm 0,5 triệu đồng tiền lãi.",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Sau 12 tháng (1 năm) số tiền nhận được là 106 triệu đồng.",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Sau 2 năm (24 tháng) Bác Ba nhận được đúng 120 triệu đồng.",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -2078,79 +2963,79 @@ const EXAMS_8_C7_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: 5x - 15 = 0.",
-        "answer": "3",
+        "question": "Giải phương trình bậc nhất: 3x - 21 = 0.",
+        "answer": "7",
         "acceptableAnswers": [
-          "3"
+          "7"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hệ số góc của đường thẳng y = -4x + 7.",
-        "answer": "-4",
+        "question": "Tìm hệ số góc của đường thẳng y = 25x - 12.",
+        "answer": "25",
         "acceptableAnswers": [
-          "-4"
+          "25"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm m để hai đường thẳng y = (m - 2)x + 1 và y = 3x - 5 song song với nhau.",
-        "answer": "5",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
         "acceptableAnswers": [
-          "5"
+          "100"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm diện tích tam giác tạo bởi đường thẳng y = 2x - 4 với hai trục tọa độ Ox và Oy.",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 9. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "7.5",
         "acceptableAnswers": [
-          "4"
+          "7.5"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7.5**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: $3(x - 2) + 2x = 9$.",
-        "rubric": "3x - 6 + 2x = 9 => 5x = 15 => x = 3 (0.5đ)."
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 10$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -10, điểm A(0; -10) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 10 => x = 5, điểm B(5; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một người đi xe đạp từ A đến B với vận tốc 15 km/h. Sau đó 1 giờ, một người đi xe máy cũng từ A đuổi theo với vận tốc 40 km/h. Hỏi sau bao lâu kể từ khi xe máy xuất phát thì xe máy đuổi kịp xe đạp?",
-        "rubric": "Gọi thời gian xe máy đi đến khi gặp xe đạp là t (giờ, t > 0) (0.25đ).\nQuãng đường xe đạp đi: 15(t + 1). Quãng đường xe máy đi: 40t.\nTa có: 40t = 15(t + 1) => 25t = 15 => t = 15/25 = 0,6 giờ = 36 phút (0.25đ)."
+        "question": "Một công ty du lịch dự định thuê xe chở $170$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 170 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để ba đường thẳng sau đồng quy: $(d_1): y = 2x - 3$, $(d_2): y = -x + 3$ và $(d_3): y = (m - 1)x + 2m - 5$.",
-        "rubric": "Tọa độ giao điểm của (d1) và (d2) là nghiệm của: 2x - 3 = -x + 3 => 3x = 6 => x = 2; y = 1 => A(2; 1) (0.25đ).\nĐể 3 đường thẳng đồng quy thì A(2; 1) thuộc (d3):\n1 = (m - 1).2 + 2m - 5 => 4m - 7 = 1 => 4m = 8 => m = 2 (0.25đ)."
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
       }
     ]
   },
   "c7_8_bai6_test6": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình & Hàm số bậc nhất - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn?",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 06)?",
         "options": [
-          "$2x - 5 = 0$",
-          "$x^2 + 1 = 0$",
-          "$\\frac{1}{x} + 2 = 0$",
-          "$2x + y = 3$"
+          "$7x - 12 = 0$",
+          "$x^2 - 6 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{6}{x} = 1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2158,12 +3043,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Nghiệm của phương trình $3x - 9 = 0$ là:",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 9$",
-          "$x = 0$"
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2171,12 +3056,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất là hàm số có dạng:",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
         "options": [
-          "$y = ax + b$ với $a \\neq 0$",
-          "$y = ax^2 + b$",
-          "$y = \\frac{a}{x}$",
-          "$y = b$"
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2184,12 +3069,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất $y = 3x - 2$ có hệ số góc bằng:",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
         "options": [
-          "$3$",
-          "$-2$",
-          "$2$",
-          "$-3$"
+          "3",
+          "-5",
+          "5",
+          "-3"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2197,12 +3082,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hàm số bậc nhất $y = -2x + 5$ là hàm số:",
+        "question": "Nghiệm của phương trình $12x - 36 = 0$ là:",
         "options": [
-          "Nghịch biến trên $\\mathbb{R}$",
-          "Đồng biến trên $\\mathbb{R}$",
-          "Vừa đồng biến vừa nghịch biến",
-          "Không đổi"
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 6$",
+          "$x = 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2210,12 +3095,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 1$?",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 6x + 2$?",
         "options": [
-          "$A(1; 1)$",
-          "$B(0; 1)$",
-          "$C(2; 4)$",
-          "$D(-1; 1)$"
+          "$(1; 8)$",
+          "$(1; 6)$",
+          "$(0; 0)$",
+          "$(6; 1)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2223,12 +3108,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hai đường thẳng $y = 2x + 1$ và $y = 2x - 3$ có vị trí tương đối là:",
+        "question": "Đường thẳng $y = 6x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
-          "Trùng nhau",
-          "Vuông góc với nhau"
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 6)$",
+          "$(6; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2236,12 +3121,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Phương trình $2(x - 1) = 3x + 1$ có nghiệm là:",
+        "question": "Hai đường thẳng $y = 12x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
         "options": [
-          "$x = -3$",
-          "$x = 3$",
-          "$x = -1$",
-          "$x = 1$"
+          "2",
+          "4",
+          "1",
+          "-2"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2249,12 +3134,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để đồ thị hàm số $y = (m - 1)x + 3$ đi qua điểm $M(2; 7)$:",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 18 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
         "options": [
-          "$m = 3$",
-          "$m = 2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$y = 18x + 10$",
+          "$y = 10x + 18$",
+          "$y = 18x$",
+          "$y = (12+t+10)x$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2262,12 +3147,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Một xe máy đi từ A đến B với vận tốc $40\\text{ km/h}$. Lúc về xe đi với vận tốc $30\\text{ km/h}$ nên thời gian về nhiều hơn thời gian đi là 30 phút ($0,5$ giờ). Quãng đường AB dài:",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $21$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
         "options": [
-          "$60\\text{ km}$",
-          "$70\\text{ km}$",
-          "$80\\text{ km}$",
-          "$50\\text{ km}$"
+          "$V = 21t + 100$",
+          "$V = 100t + 21$",
+          "$V = 21t$",
+          "$V = 100 - (15+t)t$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2275,12 +3160,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Tìm giao điểm của hai đường thẳng $y = 2x - 3$ và $y = -x + 3$:",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 3)$",
-          "$(3; 0)$"
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2288,12 +3173,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để phương trình $(m^2 - 4)x + m - 2 = 0$ có vô số nghiệm:",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 6x + 12$ đạt giá trị bằng:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = \\pm 2$",
-          "Không có giá trị nào của $m$"
+          "$12 / \\sqrt{37}$",
+          "$12$",
+          "$6$",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2302,67 +3187,67 @@ const EXAMS_8_C7_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về phương trình và hàm số bậc nhất (Mã đề 6):",
+        "stem": "Cho hàm số bậc nhất $y = (6)x + 12$ có đồ thị là đường thẳng $d$ (Mã đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình ax + b = 0 với a khác 0 luôn có duy nhất một nghiệm x = -b/a.",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đồ thị hàm số y = ax + b (a khác 0) là một đường thẳng.",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 12).",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hai đường thẳng song song khi chúng có hệ số góc bằng nhau và tung độ gốc khác nhau.",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đồ thị hàm số y = 3x đi qua gốc tọa độ O(0; 0).",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Bác Ba gửi ngân hàng một khoản tiền. Số tiền nhận được sau x tháng được tính bởi y = 0,5x + 100 (triệu đồng):",
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 06): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số tiền gốc ban đầu Bác Ba gửi là 100 triệu đồng.",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mỗi tháng số tiền tăng thêm 0,5 triệu đồng tiền lãi.",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Sau 12 tháng (1 năm) số tiền nhận được là 106 triệu đồng.",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Sau 2 năm (24 tháng) Bác Ba nhận được đúng 120 triệu đồng.",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -2373,79 +3258,79 @@ const EXAMS_8_C7_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: 5x - 15 = 0.",
-        "answer": "3",
+        "question": "Giải phương trình bậc nhất: 3x - 24 = 0.",
+        "answer": "8",
         "acceptableAnswers": [
-          "3"
+          "8"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hệ số góc của đường thẳng y = -4x + 7.",
-        "answer": "-4",
+        "question": "Tìm hệ số góc của đường thẳng y = 30x - 12.",
+        "answer": "30",
         "acceptableAnswers": [
-          "-4"
+          "30"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm m để hai đường thẳng y = (m - 2)x + 1 và y = 3x - 5 song song với nhau.",
-        "answer": "5",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
         "acceptableAnswers": [
-          "5"
+          "100"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm diện tích tam giác tạo bởi đường thẳng y = 2x - 4 với hai trục tọa độ Ox và Oy.",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 7. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "8.5",
         "acceptableAnswers": [
-          "4"
+          "8.5"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8.5**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: $3(x - 2) + 2x = 9$.",
-        "rubric": "3x - 6 + 2x = 9 => 5x = 15 => x = 3 (0.5đ)."
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 12$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -12, điểm A(0; -12) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 12 => x = 6, điểm B(6; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một người đi xe đạp từ A đến B với vận tốc 15 km/h. Sau đó 1 giờ, một người đi xe máy cũng từ A đuổi theo với vận tốc 40 km/h. Hỏi sau bao lâu kể từ khi xe máy xuất phát thì xe máy đuổi kịp xe đạp?",
-        "rubric": "Gọi thời gian xe máy đi đến khi gặp xe đạp là t (giờ, t > 0) (0.25đ).\nQuãng đường xe đạp đi: 15(t + 1). Quãng đường xe máy đi: 40t.\nTa có: 40t = 15(t + 1) => 25t = 15 => t = 15/25 = 0,6 giờ = 36 phút (0.25đ)."
+        "question": "Một công ty du lịch dự định thuê xe chở $180$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 180 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để ba đường thẳng sau đồng quy: $(d_1): y = 2x - 3$, $(d_2): y = -x + 3$ và $(d_3): y = (m - 1)x + 2m - 5$.",
-        "rubric": "Tọa độ giao điểm của (d1) và (d2) là nghiệm của: 2x - 3 = -x + 3 => 3x = 6 => x = 2; y = 1 => A(2; 1) (0.25đ).\nĐể 3 đường thẳng đồng quy thì A(2; 1) thuộc (d3):\n1 = (m - 1).2 + 2m - 5 => 4m - 7 = 1 => 4m = 8 => m = 2 (0.25đ)."
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
       }
     ]
   },
   "c7_8_bai6_test7": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình & Hàm số bậc nhất - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương VII: Phương trình bậc nhất và hàm số bậc nhất - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn?",
+        "question": "Phương trình nào sau đây là phương trình bậc nhất một ẩn (Đề 07)?",
         "options": [
-          "$2x - 5 = 0$",
-          "$x^2 + 1 = 0$",
-          "$\\frac{1}{x} + 2 = 0$",
-          "$2x + y = 3$"
+          "$8x - 14 = 0$",
+          "$x^2 - 7 = 0$",
+          "$0x + 5 = 0$",
+          "\\frac{7}{x} = 1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2453,12 +3338,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Nghiệm của phương trình $3x - 9 = 0$ là:",
+        "question": "Hàm số bậc nhất là hàm số được cho bởi công thức có dạng:",
         "options": [
-          "$x = 3$",
-          "$x = -3$",
-          "$x = 9$",
-          "$x = 0$"
+          "$y = ax + b$ ($a \\neq 0$)",
+          "$y = ax^2 + b$",
+          "$y = \\frac{a}{x}$",
+          "$y = ax^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2466,12 +3351,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất là hàm số có dạng:",
+        "question": "Đồ thị của hàm số $y = ax + b$ ($a \\neq 0$) là:",
         "options": [
-          "$y = ax + b$ với $a \\neq 0$",
-          "$y = ax^2 + b$",
-          "$y = \\frac{a}{x}$",
-          "$y = b$"
+          "Một đường thẳng",
+          "Một đường parabol",
+          "Một đường cong tròn",
+          "Hai tia đối nhau"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2479,12 +3364,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hàm số bậc nhất $y = 3x - 2$ có hệ số góc bằng:",
+        "question": "Hệ số góc của đường thẳng $y = 3x - 5$ là:",
         "options": [
-          "$3$",
-          "$-2$",
-          "$2$",
-          "$-3$"
+          "3",
+          "-5",
+          "5",
+          "-3"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2492,12 +3377,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hàm số bậc nhất $y = -2x + 5$ là hàm số:",
+        "question": "Nghiệm của phương trình $14x - 42 = 0$ là:",
         "options": [
-          "Nghịch biến trên $\\mathbb{R}$",
-          "Đồng biến trên $\\mathbb{R}$",
-          "Vừa đồng biến vừa nghịch biến",
-          "Không đổi"
+          "$x = 3$",
+          "$x = -3$",
+          "$x = 7$",
+          "$x = 0$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2505,12 +3390,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 2x - 1$?",
+        "question": "Điểm nào sau đây thuộc đồ thị hàm số $y = 7x + 2$?",
         "options": [
-          "$A(1; 1)$",
-          "$B(0; 1)$",
-          "$C(2; 4)$",
-          "$D(-1; 1)$"
+          "$(1; 9)$",
+          "$(1; 7)$",
+          "$(0; 0)$",
+          "$(7; 1)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2518,12 +3403,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hai đường thẳng $y = 2x + 1$ và $y = 2x - 3$ có vị trí tương đối là:",
+        "question": "Đường thẳng $y = 7x - 4$ cắt trục tung $Oy$ tại điểm có tọa độ:",
         "options": [
-          "Song song với nhau",
-          "Cắt nhau",
-          "Trùng nhau",
-          "Vuông góc với nhau"
+          "$(0; -4)$",
+          "$(-4; 0)$",
+          "$(0; 7)$",
+          "$(7; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2531,12 +3416,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Phương trình $2(x - 1) = 3x + 1$ có nghiệm là:",
+        "question": "Hai đường thẳng $y = 14x + 1$ và $y = 4x - 3$ song song với nhau khi $t$ bằng:",
         "options": [
-          "$x = -3$",
-          "$x = 3$",
-          "$x = -1$",
-          "$x = 1$"
+          "2",
+          "4",
+          "1",
+          "-2"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2544,12 +3429,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để đồ thị hàm số $y = (m - 1)x + 3$ đi qua điểm $M(2; 7)$:",
+        "question": "Hãng taxi Sao Mai tính tiền cước gồm giá mở cửa 10 000 đồng và mỗi kilômét tiếp theo tính 19 nghìn đồng. Hàm số biểu diễn số tiền cước $y$ (nghìn đồng) theo quãng đường $x$ (km) là:",
         "options": [
-          "$m = 3$",
-          "$m = 2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$y = 19x + 10$",
+          "$y = 10x + 19$",
+          "$y = 19x$",
+          "$y = (12+t+10)x$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2557,12 +3442,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Một xe máy đi từ A đến B với vận tốc $40\\text{ km/h}$. Lúc về xe đi với vận tốc $30\\text{ km/h}$ nên thời gian về nhiều hơn thời gian đi là 30 phút ($0,5$ giờ). Quãng đường AB dài:",
+        "question": "Một bể bơi đang có 100 m$^3$ nước. Người ta mở một vòi nước chảy vào bể với lưu lượng $22$ m$^3$ mỗi giờ. Thể tích nước trong bể $V$ (m$^3$) sau $t$ giờ là hàm số:",
         "options": [
-          "$60\\text{ km}$",
-          "$70\\text{ km}$",
-          "$80\\text{ km}$",
-          "$50\\text{ km}$"
+          "$V = 22t + 100$",
+          "$V = 100t + 22$",
+          "$V = 22t$",
+          "$V = 100 - (15+t)t$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2570,12 +3455,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Tìm giao điểm của hai đường thẳng $y = 2x - 3$ và $y = -x + 3$:",
+        "question": "Nhiệt độ $T$ ($^\\circ$C) tại độ cao $h$ (km) so với mặt đất tính theo công thức: $T = 30 - 6,5h$. Tại độ cao $h = 2$ km thì nhiệt độ là:",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 3)$",
-          "$(3; 0)$"
+          "17 $^\\circ$C",
+          "23,5 $^\\circ$C",
+          "13 $^\\circ$C",
+          "20 $^\\circ$C"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2583,12 +3468,12 @@ const EXAMS_8_C7_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để phương trình $(m^2 - 4)x + m - 2 = 0$ có vô số nghiệm:",
+        "question": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d: y = 7x + 14$ đạt giá trị bằng:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = \\pm 2$",
-          "Không có giá trị nào của $m$"
+          "$14 / \\sqrt{50}$",
+          "$14$",
+          "$7$",
+          "1"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2597,67 +3482,67 @@ const EXAMS_8_C7_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về phương trình và hàm số bậc nhất (Mã đề 7):",
+        "stem": "Cho hàm số bậc nhất $y = (7)x + 14$ có đồ thị là đường thẳng $d$ (Mã đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình ax + b = 0 với a khác 0 luôn có duy nhất một nghiệm x = -b/a.",
+            "level": "Nhận biết",
+            "text": "Hệ số góc của đường thẳng d là một số dương nên hàm số đồng biến.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đồ thị hàm số y = ax + b (a khác 0) là một đường thẳng.",
+            "text": "Đường thẳng d cắt trục tung tại điểm (0; 14).",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hai đường thẳng song song khi chúng có hệ số góc bằng nhau và tung độ gốc khác nhau.",
+            "text": "Đường thẳng d cắt trục hoành tại điểm (-2; 0).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đồ thị hàm số y = 3x đi qua gốc tọa độ O(0; 0).",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Góc tạo bởi đường thẳng d và trục Ox là góc tù.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Bác Ba gửi ngân hàng một khoản tiền. Số tiền nhận được sau x tháng được tính bởi y = 0,5x + 100 (triệu đồng):",
+        "stem": "Bài toán kinh tế tiền cước viễn thông (Mã đề 07): Thuê bao điện thoại trả sau có cước thuê bao cố định 50 000 đồng/tháng và 1 000 đồng cho mỗi phút gọi nội mạng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số tiền gốc ban đầu Bác Ba gửi là 100 triệu đồng.",
+            "level": "Nhận biết",
+            "text": "Số tiền phải trả y (đồng) phụ thuộc vào số phút gọi x (phút) theo hàm bậc nhất y = 1 000x + 50 000.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mỗi tháng số tiền tăng thêm 0,5 triệu đồng tiền lãi.",
+            "text": "Nếu trong tháng gọi 100 phút thì số tiền phải trả là 150 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Sau 12 tháng (1 năm) số tiền nhận được là 106 triệu đồng.",
+            "text": "Nếu tháng đó phải trả 200 000 đồng thì số phút gọi là 150 phút.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Sau 2 năm (24 tháng) Bác Ba nhận được đúng 120 triệu đồng.",
+            "text": "Số tiền cước tỉ lệ thuận tuyệt đối với số phút gọi không tính cước cố định.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -2668,62 +3553,62 @@ const EXAMS_8_C7_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: 5x - 15 = 0.",
-        "answer": "3",
+        "question": "Giải phương trình bậc nhất: 3x - 27 = 0.",
+        "answer": "9",
         "acceptableAnswers": [
-          "3"
+          "9"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hệ số góc của đường thẳng y = -4x + 7.",
-        "answer": "-4",
+        "question": "Tìm hệ số góc của đường thẳng y = 35x - 12.",
+        "answer": "35",
         "acceptableAnswers": [
-          "-4"
+          "35"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm m để hai đường thẳng y = (m - 2)x + 1 và y = 3x - 5 song song với nhau.",
-        "answer": "5",
+        "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h hết x giờ. Khi về đi với vận tốc 50 km/h nên thời gian về ít hơn 30 phút (0,5 giờ). Tìm quãng đường AB (km).",
+        "answer": "100",
         "acceptableAnswers": [
-          "5"
+          "100"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm diện tích tam giác tạo bởi đường thẳng y = 2x - 4 với hai trục tọa độ Ox và Oy.",
-        "answer": "4",
+        "level": "Vận dụng",
+        "question": "Điểm kiểm tra trung bình môn Toán cả năm tính theo công thức: ĐTB = (K1 + 2*K2) / 3. Bạn Lan có điểm học kỳ 1 K1 = 8. Hỏi Lan cần đạt điểm K2 tối thiểu bao nhiêu để ĐTB đạt đúng 8,0?",
+        "answer": "8.0",
         "acceptableAnswers": [
-          "4"
+          "8.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8.0**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải phương trình: $3(x - 2) + 2x = 9$.",
-        "rubric": "3x - 6 + 2x = 9 => 5x = 15 => x = 3 (0.5đ)."
+        "question": "Vẽ đồ thị của hàm số bậc nhất: $y = 2x - 14$.",
+        "rubric": "Xác định giao điểm với Oy: Cho x = 0 => y = -14, điểm A(0; -14) (0.25đ).\nXác định giao điểm với Ox: Cho y = 0 => 2x = 14 => x = 7, điểm B(7; 0) (0.25đ).\nVẽ hệ trục tọa độ Oxy, biểu diễn hai điểm A và B (0.25đ).\nVẽ đường thẳng đi qua A và B ta được đồ thị hàm số (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một người đi xe đạp từ A đến B với vận tốc 15 km/h. Sau đó 1 giờ, một người đi xe máy cũng từ A đuổi theo với vận tốc 40 km/h. Hỏi sau bao lâu kể từ khi xe máy xuất phát thì xe máy đuổi kịp xe đạp?",
-        "rubric": "Gọi thời gian xe máy đi đến khi gặp xe đạp là t (giờ, t > 0) (0.25đ).\nQuãng đường xe đạp đi: 15(t + 1). Quãng đường xe máy đi: 40t.\nTa có: 40t = 15(t + 1) => 25t = 15 => t = 15/25 = 0,6 giờ = 36 phút (0.25đ)."
+        "question": "Một công ty du lịch dự định thuê xe chở $190$ học sinh đi dã ngoại. Có hai loại xe: loại xe 30 chỗ có giá thuê 1,2 triệu đồng/xe và loại xe 45 chỗ có giá 1,6 triệu đồng/xe. Hỏi công ty nên thuê bao nhiêu xe mỗi loại để vừa chở hết số học sinh, vừa tiết kiệm chi phí nhất?",
+        "rubric": "Phân tích các phương án chở đủ 190 học sinh (0.25đ).\nPhương án 1: Thuê xe 45 chỗ (0.25đ).\nPhương án 2: Thuê kết hợp xe 45 chỗ và 30 chỗ (0.25đ).\nSo sánh chi phí từng phương án và kết luận phương án tiết kiệm nhất (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm $m$ để ba đường thẳng sau đồng quy: $(d_1): y = 2x - 3$, $(d_2): y = -x + 3$ và $(d_3): y = (m - 1)x + 2m - 5$.",
-        "rubric": "Tọa độ giao điểm của (d1) và (d2) là nghiệm của: 2x - 3 = -x + 3 => 3x = 6 => x = 2; y = 1 => A(2; 1) (0.25đ).\nĐể 3 đường thẳng đồng quy thì A(2; 1) thuộc (d3):\n1 = (m - 1).2 + 2m - 5 => 4m - 7 = 1 => 4m = 8 => m = 2 (0.25đ)."
+        "question": "Tìm tọa độ điểm cố định mà đường thẳng $(d): (a - 1)x + (2a + 3)y - 5a + 1 = 0$ luôn đi qua với mọi giá trị của tham số $a$.",
+        "rubric": "Biến đổi phương trình đường thẳng theo a: a(x + 2y - 5) - (x - 3y - 1) = 0 (0.25đ).\nĐường thẳng luôn đi qua điểm cố định khi: x + 2y - 5 = 0 và x - 3y - 1 = 0 (0.25đ).\nGiải hệ phương trình ta được: y = 4/5 và x = 17/5 (0.25đ).\nKết luận tọa độ điểm cố định là (17/5; 4/5) (0.25đ)."
       }
     ]
   }

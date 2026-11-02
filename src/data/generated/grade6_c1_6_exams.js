@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG I: TẬP HỢP CÁC SỐ TỰ NHIÊN - TOÁN 6 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:17:04
+// Cập nhật lúc: 2026-11-02 07:48:59
 // ==============================================================================
 
 const EXAMS_6_C1_6 = {
@@ -5403,790 +5403,19 @@ const EXAMS_6_C1_6 = {
     ]
   },
   "c1_6_bai8_test1": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 1 (🌱 Cơ bản)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Cho tập hợp $A = \\{2; 3; 5; 7\\}$. Khẳng định nào sau đây là đúng?",
-        "options": [
-          "$3 \\in A$",
-          "$4 \\in A$",
-          "$2 \\subset A$",
-          "$7 \\notin A$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Số La Mã $\\text{XIX}$ biểu diễn số tự nhiên nào trong hệ thập phân?",
-        "options": [
-          "$19$",
-          "$18$",
-          "$29$",
-          "$21$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Tập hợp các số tự nhiên $\\mathbb{N}^*$ là:",
-        "options": [
-          "$\\{0; 2; 4; 6; \\dots\\}$",
-          "$\\{1; 3; 5; 7; \\dots\\}$",
-          "$\\{1; 2; 3; 4; \\dots\\}$",
-          "$\\{0; 1; 2; 3; 4; \\dots\\}$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Kết quả của phép tính $2^3 \\cdot 2^2$ bằng:",
-        "options": [
-          "$2^5$",
-          "$4^5$",
-          "$2^6$",
-          "$4^6$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 5,
-        "level": "Nhận biết",
-        "question": "Kết quả của phép chia $5^6 : 5^2$ bằng:",
-        "options": [
-          "$5^8$",
-          "$5^4$",
-          "$1^4$",
-          "$5^3$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 6,
-        "level": "Nhận biết",
-        "question": "Giá trị của $2026^0$ bằng:",
-        "options": [
-          "$0$",
-          "$2026$",
-          "$1$",
-          "Không xác định"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Thứ tự thực hiện đúng các dấu ngoặc trong một biểu thức là:",
-        "options": [
-          "$[ ] \\to ( ) \\to \\{ \\}$",
-          "$( ) \\to [ ] \\to \\{ \\}$",
-          "$\\{ \\} \\to [ ] \\to ( )$",
-          "$( ) \\to \\{ \\} \\to [ ]$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Số tự nhiên $x$ thỏa mãn $x + 15 = 40$ là:",
-        "options": [
-          "$35$",
-          "$55$",
-          "$25$",
-          "$15$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Tính nhanh $25 \\cdot 37 \\cdot 4$ ta được kết quả là:",
-        "options": [
-          "$370$",
-          "$37000$",
-          "$7400$",
-          "$3700$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 10,
-        "level": "Thông hiểu",
-        "question": "Trong phép chia có dư với số chia bằng $7$, số dư lớn nhất có thể có là:",
-        "options": [
-          "$5$",
-          "$6$",
-          "$1$",
-          "$7$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 11,
-        "level": "Thông hiểu",
-        "question": "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 5 < x \\le 9\\}$ gồm các phần tử là:",
-        "options": [
-          "$\\{5; 6; 7; 8\\}$",
-          "$\\{6; 7; 8\\}$",
-          "$\\{5; 6; 7; 8; 9\\}$",
-          "$\\{6; 7; 8; 9\\}$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 12,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $100 - (30 - 20 : 2)$ bằng:",
-        "options": [
-          "$60$",
-          "$70$",
-          "$90$",
-          "$80$"
-        ],
-        "correct": 3
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "stem": "Cho tập hợp $M = \\{x \\in \\mathbb{N}^* \\mid x < 6\\}$ và biểu thức $A = 2^3 + 3 \\cdot 4$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tập hợp $M$ có đúng 5 phần tử: $1; 2; 3; 4; 5$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Phần tử $0$ thuộc tập hợp $M$ ($0 \\in M$).",
-            "correct": false
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị của biểu thức $A$ bằng $20$.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị của biểu thức $A$ là một phần tử thuộc tập hợp $M$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Một đoàn tàu chở hàng gồm 12 toa xe, mỗi toa xe chở 35 tấn hàng. Biết rằng một xe tải loại lớn có thể chở tối đa 15 tấn hàng.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tổng khối lượng hàng trên đoàn tàu là 420 tấn.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Phép tính tìm tổng khối lượng hàng là $12 \\times 35$.",
-            "correct": true
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Cần ít nhất 28 xe tải loại lớn để chở hết số hàng đó.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Nếu mỗi toa xe chở thêm 5 tấn hàng thì tổng khối lượng hàng tăng thêm 50 tấn.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: $A = 3^4 : 3^2 + 2 \\cdot 5$.",
-        "answer": "19"
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $3x - 17 = 28$.",
-        "answer": "15"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tính tổng của tất cả các số tự nhiên $x$ thỏa mãn: $12 \\le x < 16$.",
-        "answer": "54"
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $x$, biết: $2^{x+1} - 2^x = 32$.",
-        "answer": "5"
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý:\na) $48 \\cdot 63 + 48 \\cdot 37$\nb) $120 : [54 - (50 - 2^3)]$",
-        "rubric": "a) = 48 . (63 + 37) = 48 . 100 = 4800 (0.5đ)\nb) 50 - 2^3 = 50 - 8 = 42 (0.25đ)\n54 - 42 = 12 => 120 : 12 = 10 (0.25đ)"
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $x$, biết:\na) $2x + 15 = 47$\nb) $(x - 3)^2 = 25$",
-        "rubric": "a) 2x = 47 - 15 = 32 => x = 16 (0.5đ)\nb) Do x là số tự nhiên nên x - 3 >= 0. Vì 25 = 5^2 nên x - 3 = 5 => x = 8 (0.5đ)"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "(Câu điểm 10)\nCho biểu thức $S = 1 + 2 + 2^2 + 2^3 + \\dots + 2^{2025}$.\na) Thu gọn biểu thức $S$.\nb) Chứng minh rằng $S + 1$ là một lũy thừa của $2$.",
-        "rubric": "a) 2S = 2 + 2^2 + 2^3 + ... + 2^2026 (0.25đ)\n2S - S = (2 + 2^2 + ... + 2^2026) - (1 + 2 + ... + 2^2025) (0.25đ)\n=> S = 2^2026 - 1 (0.25đ)\nb) S + 1 = 2^2026 - 1 + 1 = 2^2026, là một lũy thừa của 2 với cơ số 2 và số mũ 2026 (0.25đ)"
-      }
-    ]
-  },
-  "c1_6_bai8_test2": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 2 (⚡ Khá)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Tập hợp $A = \\{x \\in \\mathbb{N}^* \\mid x \\le 5\\}$ có bao nhiêu phần tử?",
-        "options": [
-          "$4$",
-          "$5$",
-          "Vô số",
-          "$6$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Số La Mã biểu diễn số tự nhiên $26$ là:",
-        "options": [
-          "$\\text{XVI}$",
-          "$\\text{XXVII}$",
-          "$\\text{XXIV}$",
-          "$\\text{XXVI}$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Tích $a^m \\cdot a^n$ với $a \\ne 0$ bằng:",
-        "options": [
-          "$a^{m-n}$",
-          "$a^{m \\cdot n}$",
-          "$a^{m+n}$",
-          "$(2a)^{m+n}$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Thương $x^9 : x^3$ ($x \\ne 0$) bằng:",
-        "options": [
-          "$1^6$",
-          "$x^6$",
-          "$x^3$",
-          "$x^{12}$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 5,
-        "level": "Nhận biết",
-        "question": "Thứ tự thực hiện các phép tính trong biểu thức không có dấu ngoặc là:",
-        "options": [
-          "Từ trái sang phải không phân biệt phép tính",
-          "Cộng và trừ $\\to$ Nhân và chia $\\to$ Lũy thừa",
-          "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ",
-          "Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 6,
-        "level": "Nhận biết",
-        "question": "Cho phép chia $a : b = q$ (dư $r$). Điều kiện của số dư $r$ là:",
-        "options": [
-          "$0 \\le r < b$",
-          "$0 < r \\le b$",
-          "$r > 0$",
-          "$r < b$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Số tự nhiên $x$ thỏa mãn $5(x - 2) = 35$ là:",
-        "options": [
-          "$9$",
-          "$11$",
-          "$7$",
-          "$5$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Kết quả của phép tính $2^3 \\cdot 5 - 3^2$ bằng:",
-        "options": [
-          "$41$",
-          "$31$",
-          "$37$",
-          "$29$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Tính nhanh tổng $135 + 360 + 65 + 40$ ta được kết quả là:",
-        "options": [
-          "$590$",
-          "$500$",
-          "$610$",
-          "$600$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 10,
-        "level": "Thông hiểu",
-        "question": "Biết $x^3 = 64$. Giá trị của số tự nhiên $x$ là:",
-        "options": [
-          "$16$",
-          "$2$",
-          "$4$",
-          "$8$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 11,
-        "level": "Thông hiểu",
-        "question": "Viết tích $8^3 \\cdot 4^2$ dưới dạng một lũy thừa cơ số $2$ ta được:",
-        "options": [
-          "$2^{13}$",
-          "$2^{10}$",
-          "$2^{18}$",
-          "$2^{12}$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 12,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = 2026 - [150 - (12 - 7)^2]$ là:",
-        "options": [
-          "$2001$",
-          "$1910$",
-          "$1901$",
-          "$1900$"
-        ],
-        "correct": 2
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "stem": "Cho biểu thức $P = 125 \\cdot 18 - 125 \\cdot 8$ và tập hợp các ước của $10$ là $U$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Biểu thức $P$ được rút gọn thành $125 \\cdot (18 - 8) = 1250$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Tập hợp các ước tự nhiên của $10$ là $U = \\{1; 2; 5; 10\\}$.",
-            "correct": true
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị của $P$ chia hết cho tất cả các phần tử của tập hợp $U$.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Số $P$ khi viết dưới dạng lũy thừa cơ số $5$ là $5^5$.",
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Một trường THCS có 480 học sinh khối 6 đi tham quan dã ngoại. Ban tổ chức dự định thuê xe ô tô loại 45 chỗ ngồi hoặc loại 30 chỗ ngồi.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nếu chỉ dùng xe 45 chỗ thì 10 xe là không đủ để chở hết học sinh.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Cần ít nhất 11 xe loại 45 chỗ để chở hết 480 học sinh.",
-            "correct": true
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Nếu dùng hoàn toàn xe 30 chỗ thì cần đúng 16 xe (không có ghế trống).",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Thuê 9 xe loại 45 chỗ và 3 xe loại 30 chỗ chở được tối đa 480 học sinh.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $B = 2^4 \\cdot 3 - [131 - (13 - 4)^2]$.",
-        "answer": "-2"
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $120 - 5(x + 2) = 45$.",
-        "answer": "13"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Số lượng các số tự nhiên có hai chữ số chia hết cho cả $2$ và $5$ là bao nhiêu?",
-        "answer": "9"
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm chữ số tận cùng của lũy thừa $2^{2024}$.",
-        "answer": "6"
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của các biểu thức sau một cách hợp lý:\na) $27 \\cdot 75 + 25 \\cdot 27 - 150$\nb) $3^3 \\cdot 18 - 3^3 \\cdot 12 + 2026^0$",
-        "rubric": "a) = 27.(75 + 25) - 150 = 27.100 - 150 = 2700 - 150 = 2550 (0.5đ)\nb) = 27.(18 - 12) + 1 = 27.6 + 1 = 162 + 1 = 163 (0.5đ)"
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $x$, biết:\na) $4(x - 3) - 18 = 38$\nb) $3^{x+2} - 3^x = 216$",
-        "rubric": "a) 4(x - 3) = 56 => x - 3 = 14 => x = 17 (0.5đ)\nb) 3^x . (3^2 - 1) = 216 <=> 3^x . 8 = 216 <=> 3^x = 27 = 3^3 => x = 3 (0.5đ)"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "(Câu điểm 10)\na) Cho tổng $A = 1 + 3 + 3^2 + 3^3 + \\dots + 3^{100}$. Chứng minh rằng $2A + 1$ là một số chính phương.\nb) So sánh hai số: $2^{300}$ và $3^{200}$.",
-        "rubric": "a) 3A = 3 + 3^2 + ... + 3^101 => 3A - A = 3^101 - 1 => 2A = 3^101 - 1 => 2A + 1 = 3^101. (Nếu đề 3^100 chẵn thì (3^50)^2 chính phương, với A từ 1 đến 3^99 thì 2A+1 = 3^100 = (3^50)^2 là số chính phương) (0.5đ)\nb) 2^300 = (2^3)^100 = 8^100 (0.25đ)\n3^200 = (3^2)^100 = 9^100 (0.25đ)\nVì 8 < 9 nên 8^100 < 9^100 => 2^300 < 3^200. (0.25đ)"
-      }
-    ]
-  },
-  "c1_6_bai8_test3": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 3 (🔥 Nâng cao)",
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Cho tập hợp $X = \\{x \\in \\mathbb{N} \\mid 10 \\le x < 100\\}$. Số phần tử của tập hợp $X$ là:",
-        "options": [
-          "$91$",
-          "$90$",
-          "$89$",
-          "$100$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Chữ số La Mã $\\text{L}$ và $\\text{C}$ lần lượt có giá trị trong hệ thập phân là:",
-        "options": [
-          "$100$ và $50$",
-          "$50$ và $500$",
-          "$50$ và $100$",
-          "$10$ và $100$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Biểu thức $(a^m)^n$ viết gọn lại là:",
-        "options": [
-          "$a^{m - n}$",
-          "$a^{m^n}$",
-          "$a^{m \\cdot n}$",
-          "$a^{m + n}$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Số tự nhiên liền trước của số $n + 1$ ($n \\in \\mathbb{N}^*$) là:",
-        "options": [
-          "$2n$",
-          "$n$",
-          "$n - 1$",
-          "$n + 2$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 5,
-        "level": "Nhận biết",
-        "question": "Nếu tích $a \\cdot b = 0$ thì khẳng định nào sau đây luôn đúng?",
-        "options": [
-          "$a > 0$ và $b < 0$",
-          "$a = 0$ và $b \\ne 0$",
-          "$a = 0$ hoặc $b = 0$",
-          "Cả $a$ và $b$ đều phải bằng $0$"
-        ],
-        "correct": 2
-      },
-      {
-        "id": 6,
-        "level": "Nhận biết",
-        "question": "Trong phép chia số tự nhiên $a$ cho $b$ ($b \\ne 0$) có thương là $q$ và số dư là $r$. Công thức biểu diễn $a$ là:",
-        "options": [
-          "$a = b \\cdot r + q$",
-          "$a = b \\cdot q + r$ ($0 \\le r < b$)",
-          "$a = (b + q) \\cdot r$",
-          "$a = b \\cdot q - r$"
-        ],
-        "correct": 1
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Số tự nhiên $x$ thỏa mãn $2^{x+3} = 128$ là:",
-        "options": [
-          "$4$",
-          "$5$",
-          "$7$",
-          "$3$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Để đánh số trang của một cuốn sách dày 120 trang bằng các số tự nhiên từ 1 đến 120, người ta phải dùng tất cả bao nhiêu chữ số?",
-        "options": [
-          "$252$",
-          "$250$",
-          "$260$",
-          "$240$"
-        ],
-        "correct": 0
-      },
-      {
-        "id": 9,
-        "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên có hai chữ số giống nhau, biết số đó chia hết cho 2 và khi chia cho 5 thì dư 3:",
-        "options": [
-          "$44$",
-          "$66$",
-          "$22$",
-          "$88$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 10,
-        "level": "Thông hiểu",
-        "question": "Tổng $S = 1 + 2 + 3 + 4 + \\dots + 99 + 100$ có giá trị bằng:",
-        "options": [
-          "$5025$",
-          "$5100$",
-          "$5000$",
-          "$5050$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 11,
-        "level": "Thông hiểu",
-        "question": "Rút gọn biểu thức $M = \\frac{4^5 \\cdot 9^4 - 2 \\cdot 6^9}{2^{10} \\cdot 3^8 + 6^8 \\cdot 20}$ ta được kết quả là:",
-        "options": [
-          "$-1$",
-          "$\\frac{2}{3}$",
-          "$1$",
-          "$\\frac{1}{3}$"
-        ],
-        "correct": 3
-      },
-      {
-        "id": 12,
-        "level": "Thông hiểu",
-        "question": "Chữ số tận cùng của tích $1 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot \\dots \\cdot 2025$ là:",
-        "options": [
-          "$5$",
-          "$1$",
-          "$0$",
-          "$9$"
-        ],
-        "correct": 0
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "stem": "Cho dãy số tự nhiên cách đều: $3; 7; 11; 15; 19; \\dots; 403$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Khoảng cách giữa hai số liên tiếp trong dãy là 4 đơn vị.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Dãy số trên có tất cả 101 số hạng.",
-            "correct": true
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Tổng của tất cả các số hạng trong dãy bằng 20503.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Số hạng thứ 50 của dãy số là số 199.",
-            "correct": true
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tổng $B = 1 + 4 + 4^2 + 4^3 + \\dots + 4^{2024}$.",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Biểu thức $4B = 4 + 4^2 + 4^3 + \\dots + 4^{2025}$.",
-            "correct": true
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Rút gọn ta được $3B = 4^{2025} - 1$.",
-            "correct": true
-          },
-          {
-            "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị của $3B + 1$ là một lũy thừa của $2$.",
-            "correct": true
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Chữ số tận cùng của $4^{2025}$ là chữ số $6$.",
-            "correct": false
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính tổng của tất cả các số có 3 chữ số nhỏ hơn 200: $S = 100 + 101 + \\dots + 199$.",
-        "answer": "14950"
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $x$, biết: $(2x - 1)^3 = 125$.",
-        "answer": "3"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ nhỏ nhất sao cho $2^n > 1000$.",
-        "answer": "10"
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho $A = 1 + 2 + 2^2 + \\dots + 2^{2023}$. Tìm số dư khi chia $A$ cho $7$.",
-        "answer": "0"
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính hợp lý giá trị biểu thức:\n$$P = \\frac{2^{12} \\cdot 3^5 - 4^6 \\cdot 9^2}{(2^2 \\cdot 3)^6 + 8^4 \\cdot 3^5}$$",
-        "rubric": "Biến đổi: 4^6 = (2^2)^6 = 2^12; 9^2 = (3^2)^2 = 3^4.\nTử số = 2^12 . 3^5 - 2^12 . 3^4 = 2^12 . 3^4 . (3 - 1) = 2^13 . 3^4. (0.5đ)\nMẫu số = 2^12 . 3^6 + 2^12 . 3^5 = 2^12 . 3^5 . (3 + 1) = 2^14 . 3^5. (0.25đ)\n=> P = (2^13 . 3^4) / (2^14 . 3^5) = 1 / (2 . 3) = 1/6 (0.25đ)"
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $x$, biết:\na) $5^{x} + 5^{x+2} = 650$\nb) $(x - 1) + (x - 2) + (x - 3) + \\dots + (x - 20) = 190$",
-        "rubric": "a) 5^x . (1 + 5^2) = 650 <=> 5^x . 26 = 650 <=> 5^x = 25 = 5^2 => x = 2 (0.5đ)\nb) (x + x + ... + x) - (1 + 2 + ... + 20) = 190\n<=> 20x - (20 . 21 / 2) = 190 <=> 20x - 210 = 190 <=> 20x = 400 => x = 20 (0.5đ)"
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "(Câu điểm 10)\na) Chứng minh rằng tổng $S = 2 + 2^2 + 2^3 + 2^4 + \\dots + 2^{60}$ chia hết cho cả $3$, $7$ và $15$.\nb) Cho $A = 1 + 2025 + 2025^2 + \\dots + 2025^{2024}$ và $B = 2025^{2025}$. So sánh $2024 \\cdot A$ và $B$.",
-        "rubric": "a) Nhóm 2 số: S = (2 + 2^2) + ... = 2.(1 + 2) + ... = 6 + ... chia hết cho 3 (0.25đ)\nNhóm 3 số: S = (2 + 2^2 + 2^3) + ... = 2.(1 + 2 + 4) + ... = 2.7 + ... chia hết cho 7 (0.25đ)\nNhóm 4 số: S = (2 + 2^2 + 2^3 + 2^4) + ... = 2.(1 + 2 + 4 + 8) + ... = 2.15 + ... chia hết cho 15 (0.25đ)\nb) 2025.A = 2025 + 2025^2 + ... + 2025^2025\n=> 2025.A - A = 2025^2025 - 1 <=> 2024.A = B - 1\nVì B - 1 < B nên 2024.A < B (0.25đ)"
-      }
-    ]
-  },
-  "c1_6_bai8_test4": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 01",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Cho tập hợp $M = \\{x \\in \\mathbb{N} \\mid 5 \\le x < 9\\}$. Viết tập hợp $M$ bằng cách liệt kê các phần tử:",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 01):",
         "options": [
-          "$M = \\{5; 6; 7; 8\\}$",
-          "$M = \\{5; 6; 7; 8; 9\\}$",
-          "$M = \\{6; 7; 8\\}$",
-          "$M = \\{6; 7; 8; 9\\}$"
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6194,12 +5423,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số La Mã XIX biểu diễn số tự nhiên nào sau đây?",
+        "question": "Số La Mã biểu diễn số 11 là:",
         "options": [
-          "$19$",
-          "$21$",
-          "$11$",
-          "$15$"
+          "XI",
+          "XV",
+          "XX",
+          "XII"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6207,12 +5436,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Kết quả của phép tính $5^3 \\cdot 5^4$ viết dưới dạng một lũy thừa là:",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
         "options": [
-          "$5^7$",
-          "$5^{12}$",
-          "$25^7$",
-          "$5^1$"
+          "50",
+          "5",
+          "500",
+          "5000"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6220,12 +5449,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Thứ tự thực hiện phép tính đối với biểu thức không có dấu ngoặc là:",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
         "options": [
-          "Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ",
-          "Cộng và trừ $\\to$ Nhân và chia $\\to$ Lũy thừa",
-          "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ",
-          "Từ trái sang phải không phân biệt"
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6233,12 +5462,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$, biết $2x + 15 = 45$:",
+        "question": "Thực hiện phép tính $2 + 3 \\cdot 1$ ta được kết quả là:",
         "options": [
-          "$x = 15$",
-          "$x = 30$",
-          "$x = 12$",
-          "$x = 10$"
+          "$5$",
+          "$6$",
+          "$6$",
+          "$8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6246,12 +5475,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $P = 4^3 : 2^2 + 3^2 \\cdot 2$ là:",
+        "question": "Giá trị của biểu thức $2^3 + 5$ là:",
         "options": [
-          "$34$",
-          "$26$",
-          "$30$",
-          "$42$"
+          "$13$",
+          "$11$",
+          "$15$",
+          "$15$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6259,12 +5488,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N}^* \\mid x \\le 50\\}$. Số phần tử của tập hợp $A$ là:",
+        "question": "Tìm $x$, biết: $x - 3 = 7$:",
         "options": [
-          "$50$",
-          "$49$",
-          "$51$",
-          "$25$"
+          "$x = 10$",
+          "$x = 4$",
+          "$x = 1$",
+          "$x = 21$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6272,12 +5501,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tập hợp các chữ số của số tự nhiên $2026$ có số phần tử là:",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 1 \\le x < 5\\}$ bằng cách liệt kê phần tử:",
         "options": [
-          "$3$ (gồm các chữ số $0; 2; 6$)",
-          "$4$",
-          "$2$",
-          "$5$"
+          "$\\{1; 2; 3; 4\\}$",
+          "$\\{1; 2; 3; 4; 5\\}$",
+          "$\\{2; 3; 4\\}$",
+          "$\\{1; 5\\}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6285,12 +5514,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính tổng nhanh $S = 24 \\cdot 37 + 24 \\cdot 63 + 76 \\cdot 100$:",
+        "question": "Bạn An đi nhà sách mua 3 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
         "options": [
-          "$10\\,000$",
-          "$2\\,400$",
-          "$7\\,600$",
-          "$12\\,400$"
+          "$45,000$ đồng",
+          "$30,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6298,12 +5527,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm số tự nhiên $x$, biết $3^{x+1} - 3^x = 162$:",
+        "question": "Một đoàn xe chở hàng gồm 4 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
         "options": [
-          "$x = 4$",
-          "$x = 3$",
-          "$x = 5$",
-          "$x = 2$"
+          "$9,000$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6311,12 +5540,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một phòng học có 12 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi 25 phòng học như vậy có thể xếp chỗ cho tối đa bao nhiêu học sinh?",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 100, người ta cần dùng bao nhiêu chữ số?",
         "options": [
-          "$600$ học sinh",
-          "$300$ học sinh",
-          "$500$ học sinh",
-          "$720$ học sinh"
+          "191",
+          "100",
+          "150",
+          "200"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6324,12 +5553,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Chữ số tận cùng của lũy thừa $7^{2026}$ là:",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*1 + 1}$ là:",
         "options": [
-          "$9$",
-          "$7$",
-          "$1$",
-          "$3$"
+          "2",
+          "4",
+          "6",
+          "8"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6338,33 +5567,33 @@ const EXAMS_6_C1_6 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Cho biểu thức $A = 25 \\cdot 18 - 25 \\cdot 8$ và tập hợp $B = \\{x \\in \\mathbb{N} \\mid 20 < x \\le 25\\}$:",
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 01):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức $A$ bằng $250$.",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Tập hợp $B$ gồm 5 phần tử là: $21; 22; 23; 24; 25$.",
+            "text": "Không có số tự nhiên lớn nhất.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Phần tử $20$ thuộc tập hợp $B$ ($20 \\in B$).",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            "text": "Số liền sau của số 101 là số 102.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Giá trị của biểu thức $A$ chia hết cho mọi phần tử của tập hợp $B$.",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6372,35 +5601,35 @@ const EXAMS_6_C1_6 = {
       },
       {
         "id": 2,
-        "stem": "Cho biểu thức $M = 3 + 3^2 + 3^3 + \\dots + 3^{60}$:",
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 01): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 5 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tổng $M$ có tất cả $60$ số hạng.",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số hạng đầu tiên của $M$ là $3$ và số hạng cuối cùng là $3^{60}$.",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Biểu thức $2M + 3$ có thể viết gọn thành $3^{61}$.",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng $M$ chia hết cho $13$.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -6409,17 +5638,902 @@ const EXAMS_6_C1_6 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $45 + 15 : 3 - 2^3$.",
-        "answer": "42",
+        "question": "Tính giá trị của phép tính: 5 * 4 + 5 * 6.",
+        "answer": "50",
         "acceptableAnswers": [
-          "42"
+          "50"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **42**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **50**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $125 - 5(x - 3) = 100$.",
+        "question": "Tìm số tự nhiên x biết: 2x + 2 = 6.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một phòng học có 9 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "72",
+        "acceptableAnswers": [
+          "72"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 110 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "35",
+        "acceptableAnswers": [
+          "35"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 15 \\cdot 64 + 15 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 15 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 15 . 100 = 1500 (0.25đ).\nKết luận giá trị biểu thức A = 1500 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Trường THCS tổ chức cho 320 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (320) : 45 (0.25đ).\nTa có: 320 = 45 . 7 + 5 (0.25đ).\nVì còn dư 5 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 8 xe buýt (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 10$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
+      }
+    ]
+  },
+  "c1_6_bai8_test2": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 02):",
+        "options": [
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số La Mã biểu diễn số 12 là:",
+        "options": [
+          "XII",
+          "XV",
+          "XX",
+          "XII"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
+        "options": [
+          "50",
+          "5",
+          "500",
+          "5000"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
+        "options": [
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính $4 + 3 \\cdot 2$ ta được kết quả là:",
+        "options": [
+          "$10$",
+          "$24$",
+          "$12$",
+          "$13$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $2^3 + 10$ là:",
+        "options": [
+          "$18$",
+          "$16$",
+          "$20$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết: $x - 6 = 14$:",
+        "options": [
+          "$x = 20$",
+          "$x = 8$",
+          "$x = 2$",
+          "$x = 42$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 2 \\le x < 6\\}$ bằng cách liệt kê phần tử:",
+        "options": [
+          "$\\{2; 3; 4; 5\\}$",
+          "$\\{2; 3; 4; 5; 6\\}$",
+          "$\\{3; 4; 5\\}$",
+          "$\\{2; 6\\}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bạn An đi nhà sách mua 4 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
+        "options": [
+          "$55,000$ đồng",
+          "$40,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một đoàn xe chở hàng gồm 5 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
+        "options": [
+          "$11,250$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 110, người ta cần dùng bao nhiêu chữ số?",
+        "options": [
+          "211",
+          "100",
+          "150",
+          "200"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*2 + 1}$ là:",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 02):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Không có số tự nhiên lớn nhất.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số liền sau của số 102 là số 103.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 02): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 6 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của phép tính: 10 * 4 + 10 * 6.",
+        "answer": "100",
+        "acceptableAnswers": [
+          "100"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số tự nhiên x biết: 2x + 4 = 12.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một phòng học có 10 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "80",
+        "acceptableAnswers": [
+          "80"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **80**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 120 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "45",
+        "acceptableAnswers": [
+          "45"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 30 \\cdot 64 + 30 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 30 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 30 . 100 = 3000 (0.25đ).\nKết luận giá trị biểu thức A = 3000 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Trường THCS tổ chức cho 340 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (340) : 45 (0.25đ).\nTa có: 340 = 45 . 7 + 25 (0.25đ).\nVì còn dư 25 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 8 xe buýt (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 30$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
+      }
+    ]
+  },
+  "c1_6_bai8_test3": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 03):",
+        "options": [
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số La Mã biểu diễn số 13 là:",
+        "options": [
+          "XIII",
+          "XV",
+          "XX",
+          "XII"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
+        "options": [
+          "50",
+          "5",
+          "500",
+          "5000"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
+        "options": [
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính $6 + 3 \\cdot 3$ ta được kết quả là:",
+        "options": [
+          "$15$",
+          "$54$",
+          "$18$",
+          "$18$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $2^3 + 15$ là:",
+        "options": [
+          "$23$",
+          "$21$",
+          "$25$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết: $x - 9 = 21$:",
+        "options": [
+          "$x = 30$",
+          "$x = 12$",
+          "$x = 3$",
+          "$x = 63$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 3 \\le x < 7\\}$ bằng cách liệt kê phần tử:",
+        "options": [
+          "$\\{3; 4; 5; 6\\}$",
+          "$\\{3; 4; 5; 6; 7\\}$",
+          "$\\{4; 5; 6\\}$",
+          "$\\{3; 7\\}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bạn An đi nhà sách mua 5 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
+        "options": [
+          "$65,000$ đồng",
+          "$50,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một đoàn xe chở hàng gồm 6 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
+        "options": [
+          "$13,500$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 120, người ta cần dùng bao nhiêu chữ số?",
+        "options": [
+          "231",
+          "100",
+          "150",
+          "200"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*3 + 1}$ là:",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 03):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Không có số tự nhiên lớn nhất.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số liền sau của số 103 là số 104.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 03): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 7 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của phép tính: 15 * 4 + 15 * 6.",
+        "answer": "150",
+        "acceptableAnswers": [
+          "150"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số tự nhiên x biết: 2x + 6 = 18.",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một phòng học có 11 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "88",
+        "acceptableAnswers": [
+          "88"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **88**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 130 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "55",
+        "acceptableAnswers": [
+          "55"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **55**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 45 \\cdot 64 + 45 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 45 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 45 . 100 = 4500 (0.25đ).\nKết luận giá trị biểu thức A = 4500 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Trường THCS tổ chức cho 360 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (360) : 45 (0.25đ).\nTa có: 360 = 45 . 8 + 0 (0.25đ).\nVì còn dư 0 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 8 xe buýt (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 60$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
+      }
+    ]
+  },
+  "c1_6_bai8_test4": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 04",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 04):",
+        "options": [
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số La Mã biểu diễn số 14 là:",
+        "options": [
+          "XIV",
+          "XV",
+          "XX",
+          "XII"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
+        "options": [
+          "50",
+          "5",
+          "500",
+          "5000"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
+        "options": [
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính $8 + 3 \\cdot 4$ ta được kết quả là:",
+        "options": [
+          "$20$",
+          "$96$",
+          "$24$",
+          "$23$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $2^3 + 20$ là:",
+        "options": [
+          "$28$",
+          "$26$",
+          "$30$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết: $x - 12 = 28$:",
+        "options": [
+          "$x = 40$",
+          "$x = 16$",
+          "$x = 4$",
+          "$x = 84$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 4 \\le x < 8\\}$ bằng cách liệt kê phần tử:",
+        "options": [
+          "$\\{4; 5; 6; 7\\}$",
+          "$\\{4; 5; 6; 7; 8\\}$",
+          "$\\{5; 6; 7\\}$",
+          "$\\{4; 8\\}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bạn An đi nhà sách mua 6 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
+        "options": [
+          "$75,000$ đồng",
+          "$60,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một đoàn xe chở hàng gồm 7 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
+        "options": [
+          "$15,750$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 130, người ta cần dùng bao nhiêu chữ số?",
+        "options": [
+          "251",
+          "100",
+          "150",
+          "200"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*4 + 1}$ là:",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 04):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Không có số tự nhiên lớn nhất.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số liền sau của số 104 là số 105.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 04): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 8 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của phép tính: 20 * 4 + 20 * 6.",
+        "answer": "200",
+        "acceptableAnswers": [
+          "200"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số tự nhiên x biết: 2x + 8 = 24.",
         "answer": "8",
         "acceptableAnswers": [
           "8"
@@ -6429,59 +6543,59 @@ const EXAMS_6_C1_6 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tính tổng dãy số tự nhiên cách đều: $S = 2 + 5 + 8 + \\dots + 98$.",
-        "answer": "1650",
+        "question": "Một phòng học có 12 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "96",
         "acceptableAnswers": [
-          "1650"
+          "96"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1650**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **96**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ nhỏ nhất để $2^n - 1$ chia hết cho 7.",
-        "answer": "3",
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 140 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "65",
         "acceptableAnswers": [
-          "3"
+          "65"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $A = 135 \\cdot 78 + 135 \\cdot 22 - 3500$.",
-        "rubric": "A = 135.(78 + 22) - 3500 = 135.100 - 3500 = 13500 - 3500 = 10000 (0.25đ)."
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 60 \\cdot 64 + 60 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 60 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 60 . 100 = 6000 (0.25đ).\nKết luận giá trị biểu thức A = 6000 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một trường học dự định đưa 420 học sinh khối 6 đi tham quan dã ngoại bằng xe buýt. Mỗi xe buýt chở được tối đa 45 học sinh. Nhà trường cần thuê ít nhất bao nhiêu xe buýt cùng loại để chở hết số học sinh trên?",
-        "rubric": "Ta thực hiện phép chia có dư: 420 : 45 = 9 (dư 15) (0.25đ).\nNhư vậy 9 xe chỉ chở được 405 em, còn thừa 15 em cần thêm 1 xe nữa.\nVậy nhà trường cần thuê ít nhất: 9 + 1 = 10 xe (0.25đ)."
+        "question": "Trường THCS tổ chức cho 380 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (380) : 45 (0.25đ).\nTa có: 380 = 45 . 8 + 20 (0.25đ).\nVì còn dư 20 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 9 xe buýt (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng với mọi số tự nhiên $n$, tích $P = n(n + 1)(2n + 1)$ luôn chia hết cho 6.",
-        "rubric": "Trong hai số tự nhiên liên tiếp n và n+1 luôn có 1 số chẵn nên P chia hết cho 2 (0.25đ).\nXét n chia cho 3: nếu n chia hết cho 3 hoặc n+1 chia hết cho 3 thì P chia hết cho 3. Nếu n = 3k+1 thì 2n+1 = 6k+3 chia hết cho 3. Do đó P chia hết cho 3. Vì ƯCLN(2,3)=1 nên P chia hết cho 6 (0.25đ)."
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 100$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_6_bai8_test5": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 5 (💡 Vận dụng thực tế)",
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số tự nhiên liền trước của số $1000$ là:",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 05):",
         "options": [
-          "$999$",
-          "$1001$",
-          "$998$",
-          "$1000$"
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6489,12 +6603,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Tập hợp $\\mathbb{N}^*$ khác tập hợp $\\mathbb{N}$ ở điểm nào?",
+        "question": "Số La Mã biểu diễn số 15 là:",
         "options": [
-          "Không chứa số $0$",
-          "Không chứa số chẵn",
-          "Không chứa số lẻ",
-          "Chỉ chứa số nguyên tố"
+          "XV",
+          "XV",
+          "XX",
+          "XII"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6502,12 +6616,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Lũy thừa $2^5$ có giá trị bằng:",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
         "options": [
-          "$32$",
-          "$10$",
-          "$16$",
-          "$64$"
+          "50",
+          "5",
+          "500",
+          "5000"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6515,12 +6629,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Kết quả của phép chia $7^8 : 7^2$ viết dưới dạng lũy thừa là:",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
         "options": [
-          "$7^6$",
-          "$7^4$",
-          "$7^{10}$",
-          "$1^6$"
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6528,12 +6642,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$, biết $3x - 12 = 33$:",
+        "question": "Thực hiện phép tính $10 + 3 \\cdot 5$ ta được kết quả là:",
         "options": [
-          "$x = 15$",
-          "$x = 7$",
-          "$x = 11$",
-          "$x = 9$"
+          "$25$",
+          "$150$",
+          "$30$",
+          "$28$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6541,12 +6655,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $100 - [60 - (9 - 2)^2]$ là:",
+        "question": "Giá trị của biểu thức $2^3 + 25$ là:",
         "options": [
-          "$89$",
-          "$90$",
-          "$78$",
-          "$95$"
+          "$33$",
+          "$31$",
+          "$35$",
+          "$15$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6554,12 +6668,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho tập hợp $E = \\{x \\in \\mathbb{N} \\mid 10 < x < 99\\}$. Số phần tử của tập hợp $E$ là:",
+        "question": "Tìm $x$, biết: $x - 15 = 35$:",
         "options": [
-          "$88$",
-          "$89$",
-          "$90$",
-          "$87$"
+          "$x = 50$",
+          "$x = 20$",
+          "$x = 5$",
+          "$x = 105$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6567,12 +6681,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tích $25 \\cdot 4 \\cdot 37$ có kết quả là:",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 5 \\le x < 9\\}$ bằng cách liệt kê phần tử:",
         "options": [
-          "$3700$",
-          "$370$",
-          "$37000$",
-          "$1480$"
+          "$\\{5; 6; 7; 8\\}$",
+          "$\\{5; 6; 7; 8; 9\\}$",
+          "$\\{6; 7; 8\\}$",
+          "$\\{5; 9\\}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6580,12 +6694,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Bạn Nam mua 5 quyển vở giá 12 000 đồng/quyển và 3 cây bút bi giá 6 000 đồng/cây. Nam đưa cho cô thu ngân tờ tiền 100 000 đồng. Cô thu ngân phải trả lại Nam bao nhiêu tiền?",
+        "question": "Bạn An đi nhà sách mua 7 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
         "options": [
-          "$22\\,000$ đồng",
-          "$78\\,000$ đồng",
-          "$32\\,000$ đồng",
-          "$18\\,000$ đồng"
+          "$85,000$ đồng",
+          "$70,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6593,12 +6707,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm số tự nhiên $x$, biết $2^{x+2} + 2^x = 80$:",
+        "question": "Một đoàn xe chở hàng gồm 8 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
         "options": [
-          "$x = 4$",
-          "$x = 3$",
-          "$x = 5$",
-          "$x = 2$"
+          "$18,000$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6606,12 +6720,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một đoàn tàu chở hàng gồm 1 đầu máy và 15 toa xe. Mỗi toa xe chở được 32 tấn hàng. Tổng khối lượng hàng đoàn tàu chở được là:",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 140, người ta cần dùng bao nhiêu chữ số?",
         "options": [
-          "$480$ tấn",
-          "$450$ tấn",
-          "$500$ tấn",
-          "$512$ tấn"
+          "271",
+          "100",
+          "150",
+          "200"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6619,12 +6733,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Chữ số tận cùng của tổng $S = 2 + 2^2 + 2^3 + \\dots + 2^{2024}$ là:",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*5 + 1}$ là:",
         "options": [
-          "$0$",
-          "$2$",
-          "$4$",
-          "$6$"
+          "2",
+          "4",
+          "6",
+          "8"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6633,33 +6747,33 @@ const EXAMS_6_C1_6 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Bác An đi siêu thị mua hàng gồm: 3 kg gạo với giá 25 000 đồng/kg, 2 chai dầu ăn với giá 48 000 đồng/chai và 1 hộp bánh quy giá 35 000 đồng:",
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số tiền mua 3 kg gạo là $75\\,000$ đồng.",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số tiền mua 2 chai dầu ăn là $96\\,000$ đồng.",
+            "text": "Không có số tự nhiên lớn nhất.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tổng số tiền Bác An phải trả là $206\\,000$ đồng.",
+            "text": "Số liền sau của số 105 là số 106.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu Bác An có phiếu giảm giá $10\\%$ trên tổng hóa đơn thì số tiền được giảm là $25\\,000$ đồng.",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6667,33 +6781,33 @@ const EXAMS_6_C1_6 = {
       },
       {
         "id": 2,
-        "stem": "Cho tập hợp $X$ gồm các số tự nhiên có hai chữ số chia hết cho 5:",
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 05): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 9 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phần tử nhỏ nhất của tập hợp $X$ là $10$.",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Phần tử lớn nhất của tập hợp $X$ là $95$.",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tập hợp $X$ có đúng $18$ phần tử.",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng của tất cả các phần tử trong tập hợp $X$ bằng $1000$.",
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6704,79 +6818,79 @@ const EXAMS_6_C1_6 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $120 : (15 + 5) \\cdot 3$.",
-        "answer": "18",
+        "question": "Tính giá trị của phép tính: 25 * 4 + 25 * 6.",
+        "answer": "250",
         "acceptableAnswers": [
-          "18"
+          "250"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **18**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **250**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $4(x - 5) + 12 = 52$.",
-        "answer": "15",
+        "question": "Tìm số tự nhiên x biết: 2x + 10 = 30.",
+        "answer": "10",
         "acceptableAnswers": [
-          "15"
+          "10"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một thư viện trường học có 4 giá sách, mỗi giá có 5 ngăn, mỗi ngăn xếp được 28 cuốn sách. Hỏi thư viện có tất cả bao nhiêu cuốn sách?",
-        "answer": "560",
+        "question": "Một phòng học có 13 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "104",
         "acceptableAnswers": [
-          "560"
+          "104"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **560**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **104**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $1 + 3 + 5 + \\dots + (2x - 1) = 144$.",
-        "answer": "12",
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 150 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "75",
         "acceptableAnswers": [
-          "12"
+          "75"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $B = 72 \\cdot 64 + 72 \\cdot 36 - 1200$.",
-        "rubric": "B = 72.(64 + 36) - 1200 = 72.100 - 1200 = 7200 - 1200 = 6000 (0.25đ)."
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 75 \\cdot 64 + 75 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 75 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 75 . 100 = 7500 (0.25đ).\nKết luận giá trị biểu thức A = 7500 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Mẹ cho Lan 200 000 đồng đi nhà sách. Lan mua 1 cuốn sách tham khảo giá 65 000 đồng, 8 cuốn vở giá 11 000 đồng/cuốn. Hỏi Lan còn lại bao nhiêu tiền?",
-        "rubric": "Số tiền Lan mua 8 cuốn vở: 8 x 11 000 = 88 000 (đồng) (0.25đ).\nTổng số tiền Lan đã mua: 65 000 + 88 000 = 153 000 (đồng).\nSố tiền còn lại: 200 000 - 153 000 = 47 000 (đồng) (0.25đ)."
+        "question": "Trường THCS tổ chức cho 400 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (400) : 45 (0.25đ).\nTa có: 400 = 45 . 8 + 40 (0.25đ).\nVì còn dư 40 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 9 xe buýt (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm chữ số tận cùng của lũy thừa $A = 2^{2025} + 3^{2025}$.",
-        "rubric": "2^4 = 16 tận cùng 6 nên 2^2024 tận cùng 6 => 2^2025 tận cùng 2 (0.25đ).\n3^4 = 81 tận cùng 1 nên 3^2024 tận cùng 1 => 3^2025 tận cùng 3.\nVậy chữ số tận cùng của A là: 2 + 3 = 5 (0.25đ)."
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 150$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_6_bai8_test6": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số phần tử của tập hợp các số tự nhiên chẵn nhỏ hơn 20 là:",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 06):",
         "options": [
-          "$10$",
-          "$9$",
-          "$11$",
-          "$20$"
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6784,12 +6898,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số La Mã XXIV tương ứng với số tự nhiên nào?",
+        "question": "Số La Mã biểu diễn số 16 là:",
         "options": [
-          "$24$",
-          "$26$",
-          "$19$",
-          "$29$"
+          "XVI",
+          "XV",
+          "XX",
+          "XII"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6797,12 +6911,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Tích $3^2 \\cdot 3^3$ bằng:",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
         "options": [
-          "$3^5 = 243$",
-          "$3^6$",
-          "$9^5$",
-          "$27$"
+          "50",
+          "5",
+          "500",
+          "5000"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6810,12 +6924,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Thương $10^9 : 10^3$ dưới dạng lũy thừa cơ số 10 là:",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
         "options": [
-          "$10^6$",
-          "$10^3$",
-          "$10^{12}$",
-          "$1^6$"
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6823,320 +6937,25 @@ const EXAMS_6_C1_6 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$, biết $5x - 35 = 65$:",
-        "options": [
-          "$x = 20$",
-          "$x = 10$",
-          "$x = 25$",
-          "$x = 15$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 6,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = 2^4 \\cdot 5 - [131 - (13 - 4)^2]$ là:",
+        "question": "Thực hiện phép tính $12 + 3 \\cdot 6$ ta được kết quả là:",
         "options": [
           "$30$",
-          "$40$",
-          "$25$",
-          "$35$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 7,
-        "level": "Thông hiểu",
-        "question": "Số các số tự nhiên có ba chữ số là:",
-        "options": [
-          "$900$",
-          "$899$",
-          "$901$",
-          "$999$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 8,
-        "level": "Thông hiểu",
-        "question": "Kết quả phép tính $45 \\cdot 11$ là:",
-        "options": [
-          "$495$",
-          "$450$",
-          "$505$",
-          "$465$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 9,
-        "level": "Vận dụng",
-        "question": "Tính giá trị tổng $S = 1 + 2 + 3 + \\dots + 50$:",
-        "options": [
-          "$1275$",
-          "$1250$",
-          "$1300$",
-          "$2550$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 10,
-        "level": "Vận dụng",
-        "question": "Tìm $x \\in \\mathbb{N}$, biết $5^{x+1} - 5^x = 500$:",
-        "options": [
-          "$x = 3$",
-          "$x = 2$",
-          "$x = 4$",
-          "$x = 5$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 11,
-        "level": "Vận dụng",
-        "question": "Một gia đình dự định lát nền một căn phòng hình chữ nhật có kích thước $6\\text{ m} \\times 4\\text{ m}$ bằng gạch vuông cạnh $40\\text{ cm}$. Số viên gạch cần mua là:",
-        "options": [
-          "$150$ viên",
-          "$120$ viên",
-          "$200$ viên",
-          "$240$ viên"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 12,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ để phân số $\\frac{n+7}{n+2}$ là số tự nhiên:",
-        "options": [
-          "$n = 3$ (hoặc $n=0$)",
-          "$n = 4$",
-          "$n = 5$",
-          "$n = 2$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      }
-    ],
-    "part2": [
-      {
-        "id": 1,
-        "stem": "Cho biểu thức $P = 1 + 4 + 4^2 + 4^3 + \\dots + 4^{20}$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tổng $P$ có tất cả $21$ số hạng.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Biểu thức $3P + 1$ có giá trị bằng $4^{21}$.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Tổng $P$ là một số lẻ.",
-            "correct": true,
-            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Tổng $P$ chia hết cho $5$.",
-            "correct": false,
-            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho số tự nhiên có hai chữ số $\\overline{ab}$ thỏa mãn $a - b = 3$ và $\\overline{ab}$ chia hết cho 5:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Chữ số tận cùng $b$ chỉ có thể là $0$ hoặc $5$.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Nếu $b = 0$ thì chữ số $a = 3$, ta được số $30$.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Nếu $b = 5$ thì chữ số $a = 8$, ta được số $85$.",
-            "correct": true,
-            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Tổng của hai số tự nhiên tìm được ở trên là một số chia hết cho 9.",
-            "correct": false,
-            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
-          }
-        ]
-      }
-    ],
-    "part3": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $2^3 \\cdot 15 - [115 - (12 - 5)^2]$.",
-        "answer": "54",
-        "acceptableAnswers": [
-          "54"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **54**."
-      },
-      {
-        "id": 2,
-        "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $(2x - 8) : 3 = 14$.",
-        "answer": "25",
-        "acceptableAnswers": [
-          "25"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Tính tổng dãy số lẻ cách đều: $S = 1 + 3 + 5 + \\dots + 49$.",
-        "answer": "625",
-        "acceptableAnswers": [
-          "625"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **625**."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $x$ nhỏ nhất sao cho $x$ chia 3 dư 2, chia 5 dư 3, chia 7 dư 4.",
-        "answer": "53",
-        "acceptableAnswers": [
-          "53"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **53**."
-      }
-    ],
-    "part4": [
-      {
-        "id": 1,
-        "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $C = 28 \\cdot 45 + 28 \\cdot 55 - 1800$.",
-        "rubric": "C = 28.(45 + 55) - 1800 = 28.100 - 1800 = 2800 - 1800 = 1000 (0.25đ)."
-      },
-      {
-        "id": 2,
-        "level": "Vận dụng",
-        "question": "Một kho gạo có 150 tấn gạo. Ngày thứ nhất xuất đi 35 tấn, ngày thứ hai xuất đi gấp đôi ngày thứ nhất. Hỏi trong kho còn lại bao nhiêu tấn gạo?",
-        "rubric": "Ngày thứ hai xuất: 35 x 2 = 70 (tấn) (0.25đ).\nCả hai ngày xuất: 35 + 70 = 105 (tấn).\nTrong kho còn lại: 150 - 105 = 45 (tấn) (0.25đ)."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Tìm tất cả các cặp số tự nhiên $(x, y)$ thỏa mãn: $(x + 1)(2y - 1) = 15$.",
-        "rubric": "Vì 2y - 1 là số lẻ và là ước của 15 nên 2y - 1 in {1; 3; 5; 15} (0.25đ).\nTH1: 2y - 1 = 1 => y = 1; x + 1 = 15 => x = 14.\nTH2: 2y - 1 = 3 => y = 2; x + 1 = 5 => x = 4.\nTH3: 2y - 1 = 5 => y = 3; x + 1 = 3 => x = 2.\nTH4: 2y - 1 = 15 => y = 8; x + 1 = 1 => x = 0.\nVậy các cặp (x, y) là: (14, 1); (4, 2); (2, 3); (0, 8) (0.25đ)."
-      }
-    ]
-  },
-  "c1_6_bai8_test7": {
-    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
-    "duration": "90 phút",
-    "totalScore": 10.0,
-    "part1": [
-      {
-        "id": 1,
-        "level": "Nhận biết",
-        "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid 12 < x \\le 16\\}$. Phần tử nào sau đây thuộc tập $A$?",
-        "options": [
-          "$16$",
-          "$12$",
-          "$11$",
-          "$17$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Số La Mã XXVIII tương ứng với số tự nhiên nào?",
-        "options": [
-          "$28$",
-          "$27$",
-          "$29$",
+          "$216$",
+          "$36$",
           "$33$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Lũy thừa $3^4$ có giá trị bằng:",
-        "options": [
-          "$81$",
-          "$12$",
-          "$64$",
-          "$27$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 4,
-        "level": "Nhận biết",
-        "question": "Thương $6^9 : 6^3$ bằng:",
-        "options": [
-          "$6^6$",
-          "$6^3$",
-          "$1^6$",
-          "$6^{12}$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 5,
-        "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$, biết $7x - 21 = 49$:",
-        "options": [
-          "$x = 10$",
-          "$x = 7$",
-          "$x = 8$",
-          "$x = 12$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = 50 - [30 - (6 - 2)^2]$ là:",
+        "question": "Giá trị của biểu thức $2^3 + 30$ là:",
         "options": [
+          "$38$",
           "$36$",
           "$40$",
-          "$24$",
-          "$46$"
+          "$15$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7144,12 +6963,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Số phần tử của tập hợp $K = \\{x \\in \\mathbb{N} \\mid 20 \\le x \\le 80\\}$ là:",
+        "question": "Tìm $x$, biết: $x - 18 = 42$:",
         "options": [
-          "$61$",
-          "$60$",
-          "$59$",
-          "$62$"
+          "$x = 60$",
+          "$x = 24$",
+          "$x = 6$",
+          "$x = 126$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7157,12 +6976,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tính nhẩm $125 \\cdot 8 \\cdot 19$ ta được kết quả là:",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 6 \\le x < 10\\}$ bằng cách liệt kê phần tử:",
         "options": [
-          "$19\\,000$",
-          "$1900$",
-          "$190\\,000$",
-          "$15\\,200$"
+          "$\\{6; 7; 8; 9\\}$",
+          "$\\{6; 7; 8; 9; 10\\}$",
+          "$\\{7; 8; 9\\}$",
+          "$\\{6; 10\\}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7170,12 +6989,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính giá trị tổng $S = 2 + 4 + 6 + \\dots + 60$:",
+        "question": "Bạn An đi nhà sách mua 8 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
         "options": [
-          "$930$",
-          "$900$",
-          "$960$",
-          "$1860$"
+          "$95,000$ đồng",
+          "$80,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7183,12 +7002,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x \\in \\mathbb{N}$, biết $2^{x+3} - 2^x = 112$:",
+        "question": "Một đoàn xe chở hàng gồm 9 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
         "options": [
-          "$x = 4$",
-          "$x = 3$",
-          "$x = 5$",
-          "$x = 2$"
+          "$20,250$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7196,12 +7015,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một cửa hàng ngày đầu bán được 24 chiếc quạt máy, mỗi chiếc lãi 85 000 đồng. Ngày thứ hai bán được 36 chiếc quạt cùng loại. Tổng số tiền lãi của cửa hàng trong hai ngày là:",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 150, người ta cần dùng bao nhiêu chữ số?",
         "options": [
-          "$5\\,100\\,000$ đồng",
-          "$4\\,500\\,000$ đồng",
-          "$6\\,000\\,000$ đồng",
-          "$3\\,060\\,000$ đồng"
+          "291",
+          "100",
+          "150",
+          "200"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7209,12 +7028,12 @@ const EXAMS_6_C1_6 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ lớn nhất có hai chữ số sao cho $2n + 1$ là bội của $n - 2$:",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*6 + 1}$ là:",
         "options": [
-          "$n = 7$",
-          "$n = 99$",
-          "$n = 5$",
-          "$n = 8$"
+          "2",
+          "4",
+          "6",
+          "8"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -7223,33 +7042,33 @@ const EXAMS_6_C1_6 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Cho số tự nhiên $A = 1 + 2 + 2^2 + 2^3 + \\dots + 2^{2024}$:",
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Tổng $A$ có $2025$ số hạng.",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức $A + 1$ bằng $2^{2025}$.",
+            "text": "Không có số tự nhiên lớn nhất.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Số $A$ là một số lẻ.",
+            "text": "Số liền sau của số 106 là số 107.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số $A$ chia hết cho 3.",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -7257,35 +7076,35 @@ const EXAMS_6_C1_6 = {
       },
       {
         "id": 2,
-        "stem": "Cho số tự nhiên có ba chữ số $\\overline{abc}$ thỏa mãn $a + b + c = 7$ và $\\overline{abc}$ chia hết cho 5:",
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 06): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 10 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Chữ số $c$ chỉ có thể nhận giá trị $0$ hoặc $5$.",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nếu $c = 5$ thì $a + b = 2$, có 2 số thỏa mãn là $115$ và $205$.",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu $c = 0$ thì $a + b = 7$, có 7 số thỏa mãn (từ $160$ đến $700$).",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tổng số các số thỏa mãn yêu cầu đề bài là đúng 9 số.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -7294,62 +7113,357 @@ const EXAMS_6_C1_6 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $3^4 : 3^2 + 2^3 \\cdot 5 - 1$.",
-        "answer": "48",
+        "question": "Tính giá trị của phép tính: 30 * 4 + 30 * 6.",
+        "answer": "300",
         "acceptableAnswers": [
-          "48"
+          "300"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **300**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm số tự nhiên $x$ thỏa mãn: $150 - 5(x + 4) = 75$.",
-        "answer": "11",
+        "question": "Tìm số tự nhiên x biết: 2x + 12 = 36.",
+        "answer": "12",
         "acceptableAnswers": [
-          "11"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tính tổng các số tự nhiên có hai chữ số chia hết cho 3: $S = 12 + 15 + \\dots + 99$.",
-        "answer": "1665",
+        "question": "Một phòng học có 14 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "112",
         "acceptableAnswers": [
-          "1665"
+          "112"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1665**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **112**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ sao cho $n^2 + 2n + 4$ chia hết cho $n + 1$.",
-        "answer": "2",
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 160 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "85",
         "acceptableAnswers": [
-          "2"
+          "85"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **85**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $D = 43 \\cdot 57 + 43 \\cdot 43 - 2300$.",
-        "rubric": "D = 43.(57 + 43) - 2300 = 43.100 - 2300 = 4300 - 2300 = 2000 (0.25đ)."
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 90 \\cdot 64 + 90 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 90 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 90 . 100 = 9000 (0.25đ).\nKết luận giá trị biểu thức A = 9000 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Bác Ba muốn rào xung quanh một mảnh vườn hình chữ nhật có chiều dài 25 m và chiều rộng 15 m bằng lưới B40. Biết cổng vào rộng 3 m không rào. Hỏi Bác Ba cần bao nhiêu mét lưới B40?",
-        "rubric": "Chu vi mảnh vườn: (25 + 15) x 2 = 80 (m) (0.25đ).\nSố mét lưới B40 cần dùng: 80 - 3 = 77 (m) (0.25đ)."
+        "question": "Trường THCS tổ chức cho 420 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (420) : 45 (0.25đ).\nTa có: 420 = 45 . 9 + 15 (0.25đ).\nVì còn dư 15 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 10 xe buýt (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho $S = 5 + 5^2 + 5^3 + \\dots + 5^{100}$. Chứng minh rằng $4S + 5$ là một lũy thừa của 5.",
-        "rubric": "Nhân cả hai vế với 5: 5S = 5^2 + 5^3 + ... + 5^101 (0.25đ).\nLấy 5S - S = 5^101 - 5 => 4S = 5^101 - 5.\nDo đó: 4S + 5 = 5^101 là lũy thừa của 5 (0.25đ)."
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 210$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
+      }
+    ]
+  },
+  "c1_6_bai8_test7": {
+    "title": "Toán 6 (KNTT) - Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên - Đề số 07",
+    "duration": "90 phút",
+    "totalScore": 10.0,
+    "part1": [
+      {
+        "id": 1,
+        "level": "Nhận biết",
+        "question": "Tập hợp các số tự nhiên được kí hiệu là (Đề 07):",
+        "options": [
+          "$\\mathbb{N}$",
+          "$\\mathbb{N}^*$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{Q}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Số La Mã biểu diễn số 17 là:",
+        "options": [
+          "XVII",
+          "XV",
+          "XX",
+          "XII"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Trong hệ thập phân, giá trị của chữ số 5 trong số 352 là:",
+        "options": [
+          "50",
+          "5",
+          "500",
+          "5000"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 4,
+        "level": "Nhận biết",
+        "question": "Phép tính $a^m \\cdot a^n$ ($a \\neq 0$) bằng:",
+        "options": [
+          "$a^{m+n}$",
+          "$a^{m \\cdot n}$",
+          "$a^{m-n}$",
+          "$2a^{m+n}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 5,
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính $14 + 3 \\cdot 7$ ta được kết quả là:",
+        "options": [
+          "$35$",
+          "$294$",
+          "$42$",
+          "$38$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 6,
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $2^3 + 35$ là:",
+        "options": [
+          "$43$",
+          "$41$",
+          "$45$",
+          "$15$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 7,
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết: $x - 21 = 49$:",
+        "options": [
+          "$x = 70$",
+          "$x = 28$",
+          "$x = 7$",
+          "$x = 147$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 8,
+        "level": "Thông hiểu",
+        "question": "Viết tập hợp $A = \\{x \\in \\mathbb{N} \\mid 7 \\le x < 11\\}$ bằng cách liệt kê phần tử:",
+        "options": [
+          "$\\{7; 8; 9; 10\\}$",
+          "$\\{7; 8; 9; 10; 11\\}$",
+          "$\\{8; 9; 10\\}$",
+          "$\\{7; 11\\}$"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 9,
+        "level": "Vận dụng",
+        "question": "Bạn An đi nhà sách mua 9 quyển vở với giá 10 000 đồng/quyển và 3 cây bút bi giá 5 000 đồng/cây. Tổng số tiền bạn An phải trả là:",
+        "options": [
+          "$105,000$ đồng",
+          "$90,000$ đồng",
+          "40 000 đồng",
+          "50 000 đồng"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 10,
+        "level": "Vận dụng",
+        "question": "Một đoàn xe chở hàng gồm 10 xe, mỗi xe chở được 45 bao gạo, mỗi bao nặng 50 kg. Toàn bộ đoàn xe chở được khối lượng gạo là:",
+        "options": [
+          "$22,500$ kg",
+          "10 000 kg",
+          "8 000 kg",
+          "12 000 kg"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 11,
+        "level": "Vận dụng",
+        "question": "Để đánh số trang một cuốn sổ tay từ trang 1 đến trang 160, người ta cần dùng bao nhiêu chữ số?",
+        "options": [
+          "311",
+          "100",
+          "150",
+          "200"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 12,
+        "level": "Vận dụng cao",
+        "question": "Chữ số tận cùng của luỹ thừa $2^{4*7 + 1}$ là:",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      }
+    ],
+    "part2": [
+      {
+        "id": 1,
+        "stem": "Xét tính đúng sai về tập hợp số tự nhiên (Đề 07):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 0 là số tự nhiên nhỏ nhất.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Không có số tự nhiên lớn nhất.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số liền sau của số 107 là số 108.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Tập hợp các số tự nhiên khác 0 chứa số 0.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán mua sắm đồ dùng học tập đầu năm (Mã đề 07): Mẹ cho bạn Nam 200 000 đồng đi mua đồ dùng học tập. Nam mua 11 quyển vở giá 12 000 đồng/quyển và 1 chiếc compa giá 25 000 đồng.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Tổng số tiền Nam mua gồm tiền vở và tiền compa.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Số tiền mua vở là (t + 4) . 12 000 đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Số tiền còn thừa của Nam là 200 000 - [(t + 4) . 12 000 + 25 000] đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Nếu t = 7 thì Nam bị thiếu tiền không đủ mua.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      }
+    ],
+    "part3": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính giá trị của phép tính: 35 * 4 + 35 * 6.",
+        "answer": "350",
+        "acceptableAnswers": [
+          "350"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **350**."
+      },
+      {
+        "id": 2,
+        "level": "Thông hiểu",
+        "question": "Tìm số tự nhiên x biết: 2x + 14 = 42.",
+        "answer": "14",
+        "acceptableAnswers": [
+          "14"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **14**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một phòng học có 15 dãy bàn, mỗi dãy có 4 bộ bàn ghế, mỗi bộ có 2 học sinh ngồi. Hỏi phòng học đó có tất cả bao nhiêu học sinh?",
+        "answer": "120",
+        "acceptableAnswers": [
+          "120"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Một cửa hàng nhập về 170 chiếc áo. Ngày thứ nhất bán được 35 chiếc, ngày thứ hai bán được 40 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+        "answer": "95",
+        "acceptableAnswers": [
+          "95"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **95**."
+      }
+    ],
+    "part4": [
+      {
+        "id": 1,
+        "level": "Thông hiểu",
+        "question": "Tính hợp lí giá trị của biểu thức: $A = 105 \\cdot 64 + 105 \\cdot 36$.",
+        "rubric": "Áp dụng tính chất phân phối: A = 105 . (64 + 36) (0.25đ).\nTính trong ngoặc: 64 + 36 = 100 (0.25đ).\nTính tích: A = 105 . 100 = 10500 (0.25đ).\nKết luận giá trị biểu thức A = 10500 (0.25đ)."
+      },
+      {
+        "id": 2,
+        "level": "Vận dụng",
+        "question": "Trường THCS tổ chức cho 440 học sinh đi tham quan trải nghiệm bằng xe buýt. Mỗi xe buýt chở được tối đa $45$ học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe buýt để chở hết tất cả các em học sinh?",
+        "rubric": "Thực hiện phép chia có dư: (440) : 45 (0.25đ).\nTa có: 440 = 45 . 9 + 35 (0.25đ).\nVì còn dư 35 học sinh nên cần thêm 1 xe nữa (0.25đ).\nVậy nhà trường cần thuê ít nhất: 10 xe buýt (0.25đ)."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng cao",
+        "question": "Tìm số tự nhiên $n$ thỏa mãn đẳng thức: $1 + 2 + 3 + \\dots + n = 280$.",
+        "rubric": "Áp dụng công thức tổng dãy số tự nhiên liên tiếp: 1 + 2 + ... + n = n(n + 1)/2 (0.25đ).\nBiến đổi phương trình: n(n + 1)/2 = S => n(n + 1) = 2S (0.25đ).\nPhân tích 2S thành tích của hai số tự nhiên liên tiếp (0.25đ).\nTìm được giá trị số tự nhiên n thỏa mãn (0.25đ)."
       }
     ]
   }

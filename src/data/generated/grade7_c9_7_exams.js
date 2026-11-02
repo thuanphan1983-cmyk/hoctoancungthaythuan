@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG IX: QUAN HỆ GIỮA CÁC YẾU TỐ TRONG MỘT TAM GIÁC - TOÁN 7 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:20:50
+// Cập nhật lúc: 2026-11-02 07:40:53
 // ==============================================================================
 
 const EXAMS_7_C9_7 = {
@@ -4424,17 +4424,19 @@ const EXAMS_7_C9_7 = {
     ]
   },
   "c9_7_bai6_test1": {
-    "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IX - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường trung trực là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 01):",
         "options": [
-          "Tâm đường tròn ngoại tiếp",
-          "Tâm đường tròn nội tiếp",
-          "Trọng tâm",
-          "Trực tâm"
+          "Góc lớn hơn",
+          "Góc nhỏ hơn",
+          "Góc vuông",
+          "Góc tù"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4442,12 +4444,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường phân giác là:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "Tâm đường tròn nội tiếp",
-          "Tâm đường tròn ngoại tiếp",
-          "Trọng tâm",
-          "Trực tâm"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4455,12 +4457,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường cao là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
-          "Trực tâm",
-          "Trọng tâm",
-          "Tâm ngoại tiếp",
-          "Tâm nội tiếp"
+          "Trọng tâm của tam giác",
+          "Trực tâm của tam giác",
+          "Tâm đường tròn ngoại tiếp",
+          "Tâm đường tròn nội tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4468,116 +4470,116 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường trung tuyến là:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Trọng tâm",
-          "Trực tâm",
-          "Tâm ngoại tiếp",
-          "Tâm nội tiếp"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Cho tam giác $ABC$ có $AB = 3\\text{ cm}, BC = 5\\text{ cm}$. Độ dài cạnh $AC$ có thể là:",
+        "level": "Thông hiểu",
+        "question": "Cho tam giác $ABC$ có $AB = 3$ cm, $AC = 5$ cm, $BC = 6$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$4\\text{ cm}$",
-          "$1\\text{ cm}$",
-          "$2\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Đường vuông góc kẻ từ $A$ đến $BC$ có độ dài là:",
+        "level": "Thông hiểu",
+        "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "Khoảng cách từ $A$ đến $BC$",
-          "Đường xiên",
-          "Hình chiếu",
-          "Đoạn song song"
+          "$3$ cm, $4$ cm, $5$ cm",
+          "$2$ cm, $3$ cm, $6$ cm",
+          "$1$ cm, $2$ cm, $3$ cm",
+          "$1$ cm, $1$ cm, $3$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Nhận biết",
-        "question": "Trong tam giác vuông cân, góc ở đáy có số đo bằng:",
+        "level": "Thông hiểu",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 9$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$45^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$",
-          "$90^\\circ$"
+          "$6$ cm",
+          "$3$ cm",
+          "$4.5$ cm",
+          "$5$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Nhận biết",
-        "question": "Nếu tam giác có một đường trung tuyến đồng thời là đường cao thì tam giác đó:",
+        "level": "Thông hiểu",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Là tam giác cân",
-          "Là tam giác đều",
-          "Là tam giác tù",
-          "Là tam giác vuông"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$. Trực tâm $H$. Số đo góc $\\widehat{BHC}$ bằng:",
+        "level": "Vận dụng",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$100^\\circ$",
-          "$80^\\circ$",
-          "$130^\\circ$",
-          "$160^\\circ$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $G$ là trọng tâm, $AM$ là trung tuyến. Biết $AG = 8\\text{ cm}$, tính $AM$:",
+        "level": "Vận dụng",
+        "question": "Một tam giác có hai cạnh dài $5$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$12\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$. Điểm cách đều ba đỉnh $A, B, C$ nằm ở:",
+        "level": "Vận dụng",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Phía ngoài tam giác",
-          "Bên trong tam giác",
-          "Trên cạnh $BC$",
-          "Trùng với đỉnh $A$"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Vận dụng",
-        "question": "Một điểm nằm cách đều 3 cạnh của tam giác và cách đều 3 đỉnh của tam giác khi tam giác đó:",
+        "level": "Vận dụng cao",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Là tam giác đều",
-          "Là tam giác cân",
-          "Là tam giác vuông",
-          "Là tam giác vuông cân"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4586,67 +4588,67 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Cho tam giác ABC có góc A = 90°, AB = 6 cm, AC = 8 cm:",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 01):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Độ dài cạnh huyền BC bằng 10 cm.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Nhận biết",
-            "text": "Trực tâm của tam giác ABC trùng với đỉnh A.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Tâm đường tròn ngoại tiếp tam giác ABC là trung điểm của cạnh AC.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Bán kính đường tròn nội tiếp tam giác ABC bằng r = (AB + AC - BC)/2 = 2 cm.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác ABC cân tại A (AB = AC):",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Nhận biết",
-            "text": "Hai góc ở đáy góc B = góc C.",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đường phân giác hạ từ đỉnh A trùng với đường cao và đường trung tuyến ứng với cạnh đáy.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Bốn điểm: Trọng tâm, trực tâm, tâm ngoại tiếp, tâm nội tiếp cùng nằm trên một đường thẳng.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu góc A = 120° thì cạnh đáy BC nhỏ hơn cạnh bên AB.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác ABC có AB = 5 cm, AC = 7 cm (Mã đề 01):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Độ dài cạnh BC thỏa mãn: 2 cm < BC < 12 cm.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4657,17 +4659,17 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có trọng tâm $G$. Biết trung tuyến $AM = 15\\text{ cm}$. Tính độ dài đoạn thẳng $GM$ (cm):",
-        "answer": "5",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 12 cm. Tính AG (cm).",
+        "answer": "8",
         "acceptableAnswers": [
-          "5"
+          "8"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $\\widehat{B} = 50^\\circ, \\widehat{C} = 30^\\circ$. Cạnh lớn nhất là cạnh nào (ghi rõ tên cạnh ví dụ AB, BC hoặc AC)?",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 61 độ. Cạnh nào là cạnh lớn nhất?",
         "answer": "BC",
         "acceptableAnswers": [
           "BC"
@@ -4677,62 +4679,59 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tam giác $ABC$ có độ dài hai cạnh là $4\\text{ cm}$ và $10\\text{ cm}$. Biết độ dài cạnh thứ ba là số nguyên lẻ. Độ dài cạnh thứ ba là bao nhiêu cm?",
-        "answer": "7",
+        "question": "Một tam giác cân có cạnh đáy dài 7 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "31",
         "acceptableAnswers": [
-          "7",
-          "9",
-          "11",
-          "13"
+          "31"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **31**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, $BC = 13\\text{ cm}$, đường cao $AH = 6\\text{ cm}$. Chu vi tam giác $ABC$ bằng bao nhiêu cm (làm tròn số nguyên)?",
-        "answer": "30",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "30",
-          "30.4",
-          "31"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D$ là trung điểm của $BC$. Kẻ $DE \\perp AB, DF \\perp AC$. Chứng minh $DE = DF$.",
-        "rubric": "Chứng minh tam giác BDE = tam giác CDF (cạnh huyền - góc nhọn) (0.5đ). Suy ra DE = DF (0.5đ)."
+        "question": "Cho tam giác $ABC$ có $AB = 4$ cm, $AC = 6$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 5$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 5 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$, các đường trung tuyến $BD, CE$ cắt nhau tại $G$. Lấy các điểm $M, N$ sao cho $E$ là trung điểm $AM$, $D$ là trung điểm $AN$. Chứng minh $MN // BC$.",
-        "rubric": "Áp dụng tính chất đường trung bình hoặc tam giác đồng dạng, tính chất đối xứng suy ra MN // BC và MN = BC (1.0đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $32$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $13$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (32) - 10 - (13) = 9 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 13, 9 (0.25đ).\nTa có: 10 + (9) = 19 > 13 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$ và cắt $AC, AB$ lần lượt tại $D, E$. Chứng minh $ID = IE$.",
-        "rubric": "Tính góc BIC = 180° - (B+C)/2 = 120°. Kẻ tia phân giác góc BIC (0.5đ). Sử dụng các cặp tam giác bằng nhau chứng minh ID = IE (0.5đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   },
   "c9_7_bai6_test2": {
-    "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IX - Đề số 2 (🌿 Mức độ Khá (Đề 2))",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường trung trực là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 02):",
         "options": [
-          "Tâm đường tròn ngoại tiếp",
-          "Tâm đường tròn nội tiếp",
-          "Trọng tâm",
-          "Trực tâm"
+          "Góc lớn hơn",
+          "Góc nhỏ hơn",
+          "Góc vuông",
+          "Góc tù"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4740,12 +4739,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường phân giác là:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "Tâm đường tròn nội tiếp",
-          "Tâm đường tròn ngoại tiếp",
-          "Trọng tâm",
-          "Trực tâm"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4753,12 +4752,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường cao là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
-          "Trực tâm",
-          "Trọng tâm",
-          "Tâm ngoại tiếp",
-          "Tâm nội tiếp"
+          "Trọng tâm của tam giác",
+          "Trực tâm của tam giác",
+          "Tâm đường tròn ngoại tiếp",
+          "Tâm đường tròn nội tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4766,116 +4765,116 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường trung tuyến là:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Trọng tâm",
-          "Trực tâm",
-          "Tâm ngoại tiếp",
-          "Tâm nội tiếp"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Cho tam giác $ABC$ có $AB = 3\\text{ cm}, BC = 5\\text{ cm}$. Độ dài cạnh $AC$ có thể là:",
+        "level": "Thông hiểu",
+        "question": "Cho tam giác $ABC$ có $AB = 6$ cm, $AC = 10$ cm, $BC = 12$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$4\\text{ cm}$",
-          "$1\\text{ cm}$",
-          "$2\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Đường vuông góc kẻ từ $A$ đến $BC$ có độ dài là:",
+        "level": "Thông hiểu",
+        "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "Khoảng cách từ $A$ đến $BC$",
-          "Đường xiên",
-          "Hình chiếu",
-          "Đoạn song song"
+          "$6$ cm, $8$ cm, $10$ cm",
+          "$4$ cm, $6$ cm, $12$ cm",
+          "$2$ cm, $4$ cm, $6$ cm",
+          "$2$ cm, $2$ cm, $6$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Nhận biết",
-        "question": "Trong tam giác vuông cân, góc ở đáy có số đo bằng:",
+        "level": "Thông hiểu",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 18$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$45^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$",
-          "$90^\\circ$"
+          "$12$ cm",
+          "$6$ cm",
+          "$9.0$ cm",
+          "$10$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Nhận biết",
-        "question": "Nếu tam giác có một đường trung tuyến đồng thời là đường cao thì tam giác đó:",
+        "level": "Thông hiểu",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Là tam giác cân",
-          "Là tam giác đều",
-          "Là tam giác tù",
-          "Là tam giác vuông"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$. Trực tâm $H$. Số đo góc $\\widehat{BHC}$ bằng:",
+        "level": "Vận dụng",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$100^\\circ$",
-          "$80^\\circ$",
-          "$130^\\circ$",
-          "$160^\\circ$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $G$ là trọng tâm, $AM$ là trung tuyến. Biết $AG = 8\\text{ cm}$, tính $AM$:",
+        "level": "Vận dụng",
+        "question": "Một tam giác có hai cạnh dài $6$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$12\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$. Điểm cách đều ba đỉnh $A, B, C$ nằm ở:",
+        "level": "Vận dụng",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Phía ngoài tam giác",
-          "Bên trong tam giác",
-          "Trên cạnh $BC$",
-          "Trùng với đỉnh $A$"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Vận dụng",
-        "question": "Một điểm nằm cách đều 3 cạnh của tam giác và cách đều 3 đỉnh của tam giác khi tam giác đó:",
+        "level": "Vận dụng cao",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Là tam giác đều",
-          "Là tam giác cân",
-          "Là tam giác vuông",
-          "Là tam giác vuông cân"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4884,67 +4883,67 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Cho tam giác ABC có góc A = 90°, AB = 6 cm, AC = 8 cm:",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 02):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Độ dài cạnh huyền BC bằng 10 cm.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Nhận biết",
-            "text": "Trực tâm của tam giác ABC trùng với đỉnh A.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Tâm đường tròn ngoại tiếp tam giác ABC là trung điểm của cạnh AC.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Bán kính đường tròn nội tiếp tam giác ABC bằng r = (AB + AC - BC)/2 = 2 cm.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác ABC cân tại A (AB = AC):",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Nhận biết",
-            "text": "Hai góc ở đáy góc B = góc C.",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đường phân giác hạ từ đỉnh A trùng với đường cao và đường trung tuyến ứng với cạnh đáy.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Bốn điểm: Trọng tâm, trực tâm, tâm ngoại tiếp, tâm nội tiếp cùng nằm trên một đường thẳng.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu góc A = 120° thì cạnh đáy BC nhỏ hơn cạnh bên AB.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác ABC có AB = 10 cm, AC = 14 cm (Mã đề 02):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Độ dài cạnh BC thỏa mãn: 4 cm < BC < 24 cm.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4955,17 +4954,17 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có trọng tâm $G$. Biết trung tuyến $AM = 15\\text{ cm}$. Tính độ dài đoạn thẳng $GM$ (cm):",
-        "answer": "5",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 24 cm. Tính AG (cm).",
+        "answer": "16",
         "acceptableAnswers": [
-          "5"
+          "16"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $\\widehat{B} = 50^\\circ, \\widehat{C} = 30^\\circ$. Cạnh lớn nhất là cạnh nào (ghi rõ tên cạnh ví dụ AB, BC hoặc AC)?",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 62 độ. Cạnh nào là cạnh lớn nhất?",
         "answer": "BC",
         "acceptableAnswers": [
           "BC"
@@ -4975,62 +4974,59 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tam giác $ABC$ có độ dài hai cạnh là $4\\text{ cm}$ và $10\\text{ cm}$. Biết độ dài cạnh thứ ba là số nguyên lẻ. Độ dài cạnh thứ ba là bao nhiêu cm?",
-        "answer": "7",
+        "question": "Một tam giác cân có cạnh đáy dài 8 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "32",
         "acceptableAnswers": [
-          "7",
-          "9",
-          "11",
-          "13"
+          "32"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **32**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, $BC = 13\\text{ cm}$, đường cao $AH = 6\\text{ cm}$. Chu vi tam giác $ABC$ bằng bao nhiêu cm (làm tròn số nguyên)?",
-        "answer": "30",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "30",
-          "30.4",
-          "31"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D$ là trung điểm của $BC$. Kẻ $DE \\perp AB, DF \\perp AC$. Chứng minh $DE = DF$.",
-        "rubric": "Chứng minh tam giác BDE = tam giác CDF (cạnh huyền - góc nhọn) (0.5đ). Suy ra DE = DF (0.5đ)."
+        "question": "Cho tam giác $ABC$ có $AB = 8$ cm, $AC = 12$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 10$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 10 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$, các đường trung tuyến $BD, CE$ cắt nhau tại $G$. Lấy các điểm $M, N$ sao cho $E$ là trung điểm $AM$, $D$ là trung điểm $AN$. Chứng minh $MN // BC$.",
-        "rubric": "Áp dụng tính chất đường trung bình hoặc tam giác đồng dạng, tính chất đối xứng suy ra MN // BC và MN = BC (1.0đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $34$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $14$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (34) - 10 - (14) = 10 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 14, 10 (0.25đ).\nTa có: 10 + (10) = 20 > 14 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$ và cắt $AC, AB$ lần lượt tại $D, E$. Chứng minh $ID = IE$.",
-        "rubric": "Tính góc BIC = 180° - (B+C)/2 = 120°. Kẻ tia phân giác góc BIC (0.5đ). Sử dụng các cặp tam giác bằng nhau chứng minh ID = IE (0.5đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   },
   "c9_7_bai6_test3": {
-    "title": "Toán 7 (KNTT) - Ôn tập và kiểm tra cuối Chương IX - Đề số 3 (🚀 Mức độ Khá Giỏi)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường trung trực là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 03):",
         "options": [
-          "Tâm đường tròn ngoại tiếp",
-          "Tâm đường tròn nội tiếp",
-          "Trọng tâm",
-          "Trực tâm"
+          "Góc lớn hơn",
+          "Góc nhỏ hơn",
+          "Góc vuông",
+          "Góc tù"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5038,12 +5034,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường phân giác là:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "Tâm đường tròn nội tiếp",
-          "Tâm đường tròn ngoại tiếp",
-          "Trọng tâm",
-          "Trực tâm"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5051,12 +5047,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường cao là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
-          "Trực tâm",
-          "Trọng tâm",
-          "Tâm ngoại tiếp",
-          "Tâm nội tiếp"
+          "Trọng tâm của tam giác",
+          "Trực tâm của tam giác",
+          "Tâm đường tròn ngoại tiếp",
+          "Tâm đường tròn nội tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5064,12 +5060,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, giao điểm ba đường trung tuyến là:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Trọng tâm",
-          "Trực tâm",
-          "Tâm ngoại tiếp",
-          "Tâm nội tiếp"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5077,12 +5073,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $AB = 3\\text{ cm}, BC = 5\\text{ cm}$. Độ dài cạnh $AC$ có thể là:",
+        "question": "Cho tam giác $ABC$ có $AB = 9$ cm, $AC = 15$ cm, $BC = 18$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$4\\text{ cm}$",
-          "$1\\text{ cm}$",
-          "$2\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5090,12 +5086,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Đường vuông góc kẻ từ $A$ đến $BC$ có độ dài là:",
+        "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "Khoảng cách từ $A$ đến $BC$",
-          "Đường xiên",
-          "Hình chiếu",
-          "Đoạn song song"
+          "$9$ cm, $12$ cm, $15$ cm",
+          "$6$ cm, $9$ cm, $18$ cm",
+          "$3$ cm, $6$ cm, $9$ cm",
+          "$3$ cm, $3$ cm, $9$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5103,12 +5099,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Trong tam giác vuông cân, góc ở đáy có số đo bằng:",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 27$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$45^\\circ$",
-          "$60^\\circ$",
-          "$30^\\circ$",
-          "$90^\\circ$"
+          "$18$ cm",
+          "$9$ cm",
+          "$13.5$ cm",
+          "$15$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5116,12 +5112,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Nếu tam giác có một đường trung tuyến đồng thời là đường cao thì tam giác đó:",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Là tam giác cân",
-          "Là tam giác đều",
-          "Là tam giác tù",
-          "Là tam giác vuông"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5129,12 +5125,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 80^\\circ$. Trực tâm $H$. Số đo góc $\\widehat{BHC}$ bằng:",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$100^\\circ$",
-          "$80^\\circ$",
-          "$130^\\circ$",
-          "$160^\\circ$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5142,12 +5138,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có $G$ là trọng tâm, $AM$ là trung tuyến. Biết $AG = 8\\text{ cm}$, tính $AM$:",
+        "question": "Một tam giác có hai cạnh dài $7$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$12\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5155,12 +5151,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Cho $\\triangle ABC$ có $\\widehat{A} = 100^\\circ$. Điểm cách đều ba đỉnh $A, B, C$ nằm ở:",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Phía ngoài tam giác",
-          "Bên trong tam giác",
-          "Trên cạnh $BC$",
-          "Trùng với đỉnh $A$"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5168,12 +5164,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Một điểm nằm cách đều 3 cạnh của tam giác và cách đều 3 đỉnh của tam giác khi tam giác đó:",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Là tam giác đều",
-          "Là tam giác cân",
-          "Là tam giác vuông",
-          "Là tam giác vuông cân"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5182,67 +5178,67 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Cho tam giác ABC có góc A = 90°, AB = 6 cm, AC = 8 cm:",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 03):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Độ dài cạnh huyền BC bằng 10 cm.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Nhận biết",
-            "text": "Trực tâm của tam giác ABC trùng với đỉnh A.",
-            "correct": true,
-            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Tâm đường tròn ngoại tiếp tam giác ABC là trung điểm của cạnh AC.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Bán kính đường tròn nội tiếp tam giác ABC bằng r = (AB + AC - BC)/2 = 2 cm.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho tam giác ABC cân tại A (AB = AC):",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Nhận biết",
-            "text": "Hai góc ở đáy góc B = góc C.",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Đường phân giác hạ từ đỉnh A trùng với đường cao và đường trung tuyến ứng với cạnh đáy.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Bốn điểm: Trọng tâm, trực tâm, tâm ngoại tiếp, tâm nội tiếp cùng nằm trên một đường thẳng.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu góc A = 120° thì cạnh đáy BC nhỏ hơn cạnh bên AB.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Cho tam giác ABC có AB = 15 cm, AC = 21 cm (Mã đề 03):",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Độ dài cạnh BC thỏa mãn: 6 cm < BC < 36 cm.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5253,17 +5249,17 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có trọng tâm $G$. Biết trung tuyến $AM = 15\\text{ cm}$. Tính độ dài đoạn thẳng $GM$ (cm):",
-        "answer": "5",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 36 cm. Tính AG (cm).",
+        "answer": "24",
         "acceptableAnswers": [
-          "5"
+          "24"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **24**."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ có $\\widehat{B} = 50^\\circ, \\widehat{C} = 30^\\circ$. Cạnh lớn nhất là cạnh nào (ghi rõ tên cạnh ví dụ AB, BC hoặc AC)?",
+        "level": "Thông hiểu",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 63 độ. Cạnh nào là cạnh lớn nhất?",
         "answer": "BC",
         "acceptableAnswers": [
           "BC"
@@ -5273,59 +5269,54 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tam giác $ABC$ có độ dài hai cạnh là $4\\text{ cm}$ và $10\\text{ cm}$. Biết độ dài cạnh thứ ba là số nguyên lẻ. Độ dài cạnh thứ ba là bao nhiêu cm?",
-        "answer": "7",
+        "question": "Một tam giác cân có cạnh đáy dài 9 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "33",
         "acceptableAnswers": [
-          "7",
-          "9",
-          "11",
-          "13"
+          "33"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **33**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ vuông tại $A$, $BC = 13\\text{ cm}$, đường cao $AH = 6\\text{ cm}$. Chu vi tam giác $ABC$ bằng bao nhiêu cm (làm tròn số nguyên)?",
-        "answer": "30",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "30",
-          "30.4",
-          "31"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Gọi $D$ là trung điểm của $BC$. Kẻ $DE \\perp AB, DF \\perp AC$. Chứng minh $DE = DF$.",
-        "rubric": "Chứng minh tam giác BDE = tam giác CDF (cạnh huyền - góc nhọn) (0.5đ). Suy ra DE = DF (0.5đ)."
+        "level": "Thông hiểu",
+        "question": "Cho tam giác $ABC$ có $AB = 12$ cm, $AC = 18$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 15$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 15 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$, các đường trung tuyến $BD, CE$ cắt nhau tại $G$. Lấy các điểm $M, N$ sao cho $E$ là trung điểm $AM$, $D$ là trung điểm $AN$. Chứng minh $MN // BC$.",
-        "rubric": "Áp dụng tính chất đường trung bình hoặc tam giác đồng dạng, tính chất đối xứng suy ra MN // BC và MN = BC (1.0đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $36$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $15$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (36) - 10 - (15) = 11 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 15, 11 (0.25đ).\nTa có: 10 + (11) = 21 > 15 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ có $\\widehat{A} = 60^\\circ$. Hai tia phân giác của góc $B$ và $C$ cắt nhau tại $I$ và cắt $AC, AB$ lần lượt tại $D, E$. Chứng minh $ID = IE$.",
-        "rubric": "Tính góc BIC = 180° - (B+C)/2 = 120°. Kẻ tia phân giác góc BIC (0.5đ). Sử dụng các cặp tam giác bằng nhau chứng minh ID = IE (0.5đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   },
   "c9_7_bai6_test4": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ các yếu tố trong tam giác - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 04):",
         "options": [
           "Góc lớn hơn",
           "Góc nhỏ hơn",
@@ -5338,12 +5329,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Theo bất đẳng thức tam giác, trong tam giác $ABC$ ta luôn có:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "$AB + AC > BC$",
-          "$AB + AC < BC$",
-          "$AB + AC = BC$",
-          "$AB - AC > BC$"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5351,7 +5342,7 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
           "Trọng tâm của tam giác",
           "Trực tâm của tam giác",
@@ -5364,12 +5355,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trực tâm của tam giác là giao điểm của:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Ba đường cao",
-          "Ba đường trung tuyến",
-          "Ba đường phân giác",
-          "Ba đường trung trực"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5377,12 +5368,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $AB = 5\\text{ cm}, BC = 8\\text{ cm}, AC = 7\\text{ cm}$. Góc lớn nhất của tam giác là:",
+        "question": "Cho tam giác $ABC$ có $AB = 12$ cm, $AC = 20$ cm, $BC = 24$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$\\widehat{A}$",
-          "$\\widehat{B}$",
-          "$\\widehat{C}$",
-          "Không xác định"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5392,10 +5383,10 @@ const EXAMS_7_C9_7 = {
         "level": "Thông hiểu",
         "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "$3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}$",
-          "$2\\text{ cm}, 3\\text{ cm}, 6\\text{ cm}$",
-          "$1\\text{ cm}, 2\\text{ cm}, 3\\text{ cm}$",
-          "$4\\text{ cm}, 5\\text{ cm}, 10\\text{ cm}$"
+          "$12$ cm, $16$ cm, $20$ cm",
+          "$8$ cm, $12$ cm, $24$ cm",
+          "$4$ cm, $8$ cm, $12$ cm",
+          "$4$ cm, $4$ cm, $12$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5403,12 +5394,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho điểm $G$ là trọng tâm của tam giác $ABC$, $AM$ là đường trung tuyến. Tỉ số $\\frac{AG}{AM}$ bằng:",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 36$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$\\frac{2}{3}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{1}{2}$",
-          "$\\frac{3}{4}$"
+          "$24$ cm",
+          "$12$ cm",
+          "$18.0$ cm",
+          "$20$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5416,12 +5407,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Giao điểm của ba đường phân giác trong tam giác là điểm:",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Cách đều ba cạnh của tam giác",
-          "Cách đều ba đỉnh của tam giác",
-          "Là trọng tâm tam giác",
-          "Là trực tâm tam giác"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5429,12 +5420,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho tam giác cân có độ dài hai cạnh là $3\\text{ cm}$ và $7\\text{ cm}$. Chu vi của tam giác cân đó là:",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$17\\text{ cm}$ (vì cạnh thứ ba phải là $7\\text{ cm}$)",
-          "$13\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5442,12 +5433,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 9\\text{ cm}$. Gọi $G$ là trọng tâm của tam giác. Độ dài đoạn thẳng $GM$ là:",
+        "question": "Một tam giác có hai cạnh dài $8$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$3\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4,5\\text{ cm}$",
-          "$2\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5455,12 +5446,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Trong tam giác vuông, giao điểm của ba đường trung trực nằm ở vị trí nào?",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Chính là trung điểm của cạnh huyền",
-          "Tại đỉnh góc vuông",
-          "Bên trong tam giác",
-          "Bên ngoài tam giác"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5468,12 +5459,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ nhọn có trực tâm $H$. Nếu $H$ trùng với trọng tâm $G$ thì tam giác $ABC$ là:",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác cân",
-          "Tam giác vuông"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5482,33 +5473,33 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Mã đề 4):",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Trong tam giác tù, góc tù là góc lớn nhất và cạnh đối diện góc tù là cạnh lớn nhất.",
+            "level": "Nhận biết",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trọng tâm tam giác luôn nằm ở miền trong của tam giác.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Trực tâm của tam giác tù nằm ở miền ngoài tam giác.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Độ dài một cạnh bất kì của tam giác luôn lớn hơn nửa chu vi tam giác đó.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5516,33 +5507,33 @@ const EXAMS_7_C9_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho tam giác $ABC$ có $AB < AC$, đường phân giác $AD$ và đường cao $AH$:",
+        "stem": "Cho tam giác ABC có AB = 20 cm, AC = 28 cm (Mã đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Góc C nhỏ hơn góc B.",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Điểm H nằm giữa B và D.",
+            "text": "Độ dài cạnh BC thỏa mãn: 8 cm < BC < 48 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hình chiếu của AB trên đường thẳng BC là BH.",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đoạn thẳng AH lớn hơn đoạn thẳng AB.",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5553,74 +5544,74 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác ABC có trọng tâm G, đường trung tuyến AM = 12 cm. Tính độ dài AG (cm).",
-        "answer": "8",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 48 cm. Tính AG (cm).",
+        "answer": "32",
         "acceptableAnswers": [
-          "8"
+          "32"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **32**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tam giác ABC cân có hai cạnh dài 4 cm và 9 cm. Tính chu vi tam giác (cm).",
-        "answer": "22",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 64 độ. Cạnh nào là cạnh lớn nhất?",
+        "answer": "BC",
         "acceptableAnswers": [
-          "22"
+          "BC"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **22**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **BC**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho tam giác ABC vuông tại A, BC = 10 cm, M là trung điểm BC. Gọi G là trọng tâm tam giác. Tính AG (làm tròn 1 chữ số thập phân, cm).",
-        "answer": "3,3",
+        "question": "Một tam giác cân có cạnh đáy dài 10 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "34",
         "acceptableAnswers": [
-          "3,3"
+          "34"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **34**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác ABC có chu vi bằng 18 cm. Gọi M là điểm bất kì trong tam giác. Giá trị nhỏ nhất của (MA + MB + MC) lớn hơn bao nhiêu cm?",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "9"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng trong tam giác vuông, cạnh huyền là cạnh lớn nhất.",
-        "rubric": "Xét tam giác ABC vuông tại A. Khi đó góc A = 90 độ là góc lớn nhất trong tam giác (vì B + C = 90 độ nên B, C < 90 độ) (0.25đ).\nTrong tam giác, cạnh đối diện với góc lớn hơn là cạnh lớn hơn => cạnh huyền BC đối diện góc A là cạnh lớn nhất (0.25đ)."
+        "question": "Cho tam giác $ABC$ có $AB = 16$ cm, $AC = 24$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 20$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 20 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Chứng minh rằng đường trung tuyến xuất phát từ đỉnh $A$ đồng thời là đường cao và đường phân giác của góc $A$.",
-        "rubric": "Gọi AM là trung tuyến => MB = MC. Xét tam giác ABM và ACM: AB = AC, AM chung, MB = MC => tam giác ABM = ACM (c-c-c) (0.25đ).\n=> góc AMB = AMC = 90 độ => AM là đường cao.\n=> góc BAM = CAM => AM là đường phân giác. Đpcm (0.25đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $38$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $16$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (38) - 10 - (16) = 12 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 16, 12 (0.25đ).\nTa có: 10 + (12) = 22 > 16 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh rằng tổng khoảng cách từ $M$ đến ba đỉnh của tam giác lớn hơn nửa chu vi tam giác: $MA + MB + MC > \\frac{AB + BC + CA}{2}$.",
-        "rubric": "Áp dụng bất đẳng thức tam giác vào các tam giác MAB, MBC, MCA (0.25đ):\nMA + MB > AB\nMB + MC > BC\nMC + MA > CA\nCộng vế với vế: 2(MA + MB + MC) > AB + BC + CA => MA + MB + MC > (AB + BC + CA)/2. Đpcm (0.25đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   },
   "c9_7_bai6_test5": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ các yếu tố trong tam giác - Bài kiểm tra số 5 (💡 Các đường đồng quy trong tam giác)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 05):",
         "options": [
           "Góc lớn hơn",
           "Góc nhỏ hơn",
@@ -5633,12 +5624,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Theo bất đẳng thức tam giác, trong tam giác $ABC$ ta luôn có:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "$AB + AC > BC$",
-          "$AB + AC < BC$",
-          "$AB + AC = BC$",
-          "$AB - AC > BC$"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5646,7 +5637,7 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
           "Trọng tâm của tam giác",
           "Trực tâm của tam giác",
@@ -5659,12 +5650,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trực tâm của tam giác là giao điểm của:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Ba đường cao",
-          "Ba đường trung tuyến",
-          "Ba đường phân giác",
-          "Ba đường trung trực"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5672,12 +5663,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $AB = 5\\text{ cm}, BC = 8\\text{ cm}, AC = 7\\text{ cm}$. Góc lớn nhất của tam giác là:",
+        "question": "Cho tam giác $ABC$ có $AB = 15$ cm, $AC = 25$ cm, $BC = 30$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$\\widehat{A}$",
-          "$\\widehat{B}$",
-          "$\\widehat{C}$",
-          "Không xác định"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5687,10 +5678,10 @@ const EXAMS_7_C9_7 = {
         "level": "Thông hiểu",
         "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "$3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}$",
-          "$2\\text{ cm}, 3\\text{ cm}, 6\\text{ cm}$",
-          "$1\\text{ cm}, 2\\text{ cm}, 3\\text{ cm}$",
-          "$4\\text{ cm}, 5\\text{ cm}, 10\\text{ cm}$"
+          "$15$ cm, $20$ cm, $25$ cm",
+          "$10$ cm, $15$ cm, $30$ cm",
+          "$5$ cm, $10$ cm, $15$ cm",
+          "$5$ cm, $5$ cm, $15$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5698,12 +5689,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho điểm $G$ là trọng tâm của tam giác $ABC$, $AM$ là đường trung tuyến. Tỉ số $\\frac{AG}{AM}$ bằng:",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 45$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$\\frac{2}{3}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{1}{2}$",
-          "$\\frac{3}{4}$"
+          "$30$ cm",
+          "$15$ cm",
+          "$22.5$ cm",
+          "$25$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5711,12 +5702,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Giao điểm của ba đường phân giác trong tam giác là điểm:",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Cách đều ba cạnh của tam giác",
-          "Cách đều ba đỉnh của tam giác",
-          "Là trọng tâm tam giác",
-          "Là trực tâm tam giác"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5724,12 +5715,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho tam giác cân có độ dài hai cạnh là $3\\text{ cm}$ và $7\\text{ cm}$. Chu vi của tam giác cân đó là:",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$17\\text{ cm}$ (vì cạnh thứ ba phải là $7\\text{ cm}$)",
-          "$13\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5737,12 +5728,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 9\\text{ cm}$. Gọi $G$ là trọng tâm của tam giác. Độ dài đoạn thẳng $GM$ là:",
+        "question": "Một tam giác có hai cạnh dài $9$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$3\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4,5\\text{ cm}$",
-          "$2\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5750,12 +5741,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Trong tam giác vuông, giao điểm của ba đường trung trực nằm ở vị trí nào?",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Chính là trung điểm của cạnh huyền",
-          "Tại đỉnh góc vuông",
-          "Bên trong tam giác",
-          "Bên ngoài tam giác"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5763,12 +5754,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ nhọn có trực tâm $H$. Nếu $H$ trùng với trọng tâm $G$ thì tam giác $ABC$ là:",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác cân",
-          "Tam giác vuông"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5777,33 +5768,33 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Mã đề 5):",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Trong tam giác tù, góc tù là góc lớn nhất và cạnh đối diện góc tù là cạnh lớn nhất.",
+            "level": "Nhận biết",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trọng tâm tam giác luôn nằm ở miền trong của tam giác.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Trực tâm của tam giác tù nằm ở miền ngoài tam giác.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Độ dài một cạnh bất kì của tam giác luôn lớn hơn nửa chu vi tam giác đó.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5811,33 +5802,33 @@ const EXAMS_7_C9_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho tam giác $ABC$ có $AB < AC$, đường phân giác $AD$ và đường cao $AH$:",
+        "stem": "Cho tam giác ABC có AB = 25 cm, AC = 35 cm (Mã đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Góc C nhỏ hơn góc B.",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Điểm H nằm giữa B và D.",
+            "text": "Độ dài cạnh BC thỏa mãn: 10 cm < BC < 60 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hình chiếu của AB trên đường thẳng BC là BH.",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đoạn thẳng AH lớn hơn đoạn thẳng AB.",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -5848,74 +5839,74 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác ABC có trọng tâm G, đường trung tuyến AM = 12 cm. Tính độ dài AG (cm).",
-        "answer": "8",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 60 cm. Tính AG (cm).",
+        "answer": "40",
         "acceptableAnswers": [
-          "8"
+          "40"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **40**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tam giác ABC cân có hai cạnh dài 4 cm và 9 cm. Tính chu vi tam giác (cm).",
-        "answer": "22",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 65 độ. Cạnh nào là cạnh lớn nhất?",
+        "answer": "BC",
         "acceptableAnswers": [
-          "22"
+          "BC"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **22**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **BC**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho tam giác ABC vuông tại A, BC = 10 cm, M là trung điểm BC. Gọi G là trọng tâm tam giác. Tính AG (làm tròn 1 chữ số thập phân, cm).",
-        "answer": "3,3",
+        "question": "Một tam giác cân có cạnh đáy dài 11 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "35",
         "acceptableAnswers": [
-          "3,3"
+          "35"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác ABC có chu vi bằng 18 cm. Gọi M là điểm bất kì trong tam giác. Giá trị nhỏ nhất của (MA + MB + MC) lớn hơn bao nhiêu cm?",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "9"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng trong tam giác vuông, cạnh huyền là cạnh lớn nhất.",
-        "rubric": "Xét tam giác ABC vuông tại A. Khi đó góc A = 90 độ là góc lớn nhất trong tam giác (vì B + C = 90 độ nên B, C < 90 độ) (0.25đ).\nTrong tam giác, cạnh đối diện với góc lớn hơn là cạnh lớn hơn => cạnh huyền BC đối diện góc A là cạnh lớn nhất (0.25đ)."
+        "question": "Cho tam giác $ABC$ có $AB = 20$ cm, $AC = 30$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 25$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 25 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Chứng minh rằng đường trung tuyến xuất phát từ đỉnh $A$ đồng thời là đường cao và đường phân giác của góc $A$.",
-        "rubric": "Gọi AM là trung tuyến => MB = MC. Xét tam giác ABM và ACM: AB = AC, AM chung, MB = MC => tam giác ABM = ACM (c-c-c) (0.25đ).\n=> góc AMB = AMC = 90 độ => AM là đường cao.\n=> góc BAM = CAM => AM là đường phân giác. Đpcm (0.25đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $40$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $17$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (40) - 10 - (17) = 13 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 17, 13 (0.25đ).\nTa có: 10 + (13) = 23 > 17 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh rằng tổng khoảng cách từ $M$ đến ba đỉnh của tam giác lớn hơn nửa chu vi tam giác: $MA + MB + MC > \\frac{AB + BC + CA}{2}$.",
-        "rubric": "Áp dụng bất đẳng thức tam giác vào các tam giác MAB, MBC, MCA (0.25đ):\nMA + MB > AB\nMB + MC > BC\nMC + MA > CA\nCộng vế với vế: 2(MA + MB + MC) > AB + BC + CA => MA + MB + MC > (AB + BC + CA)/2. Đpcm (0.25đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   },
   "c9_7_bai6_test6": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ các yếu tố trong tam giác - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 06):",
         "options": [
           "Góc lớn hơn",
           "Góc nhỏ hơn",
@@ -5928,12 +5919,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Theo bất đẳng thức tam giác, trong tam giác $ABC$ ta luôn có:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "$AB + AC > BC$",
-          "$AB + AC < BC$",
-          "$AB + AC = BC$",
-          "$AB - AC > BC$"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5941,7 +5932,7 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
           "Trọng tâm của tam giác",
           "Trực tâm của tam giác",
@@ -5954,12 +5945,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trực tâm của tam giác là giao điểm của:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Ba đường cao",
-          "Ba đường trung tuyến",
-          "Ba đường phân giác",
-          "Ba đường trung trực"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5967,12 +5958,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $AB = 5\\text{ cm}, BC = 8\\text{ cm}, AC = 7\\text{ cm}$. Góc lớn nhất của tam giác là:",
+        "question": "Cho tam giác $ABC$ có $AB = 18$ cm, $AC = 30$ cm, $BC = 36$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$\\widehat{A}$",
-          "$\\widehat{B}$",
-          "$\\widehat{C}$",
-          "Không xác định"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5982,10 +5973,10 @@ const EXAMS_7_C9_7 = {
         "level": "Thông hiểu",
         "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "$3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}$",
-          "$2\\text{ cm}, 3\\text{ cm}, 6\\text{ cm}$",
-          "$1\\text{ cm}, 2\\text{ cm}, 3\\text{ cm}$",
-          "$4\\text{ cm}, 5\\text{ cm}, 10\\text{ cm}$"
+          "$18$ cm, $24$ cm, $30$ cm",
+          "$12$ cm, $18$ cm, $36$ cm",
+          "$6$ cm, $12$ cm, $18$ cm",
+          "$6$ cm, $6$ cm, $18$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5993,12 +5984,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho điểm $G$ là trọng tâm của tam giác $ABC$, $AM$ là đường trung tuyến. Tỉ số $\\frac{AG}{AM}$ bằng:",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 54$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$\\frac{2}{3}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{1}{2}$",
-          "$\\frac{3}{4}$"
+          "$36$ cm",
+          "$18$ cm",
+          "$27.0$ cm",
+          "$30$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6006,12 +5997,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Giao điểm của ba đường phân giác trong tam giác là điểm:",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Cách đều ba cạnh của tam giác",
-          "Cách đều ba đỉnh của tam giác",
-          "Là trọng tâm tam giác",
-          "Là trực tâm tam giác"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6019,12 +6010,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho tam giác cân có độ dài hai cạnh là $3\\text{ cm}$ và $7\\text{ cm}$. Chu vi của tam giác cân đó là:",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$17\\text{ cm}$ (vì cạnh thứ ba phải là $7\\text{ cm}$)",
-          "$13\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6032,12 +6023,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 9\\text{ cm}$. Gọi $G$ là trọng tâm của tam giác. Độ dài đoạn thẳng $GM$ là:",
+        "question": "Một tam giác có hai cạnh dài $10$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$3\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4,5\\text{ cm}$",
-          "$2\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6045,12 +6036,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Trong tam giác vuông, giao điểm của ba đường trung trực nằm ở vị trí nào?",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Chính là trung điểm của cạnh huyền",
-          "Tại đỉnh góc vuông",
-          "Bên trong tam giác",
-          "Bên ngoài tam giác"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6058,12 +6049,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ nhọn có trực tâm $H$. Nếu $H$ trùng với trọng tâm $G$ thì tam giác $ABC$ là:",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác cân",
-          "Tam giác vuông"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6072,33 +6063,33 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Mã đề 6):",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Trong tam giác tù, góc tù là góc lớn nhất và cạnh đối diện góc tù là cạnh lớn nhất.",
+            "level": "Nhận biết",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trọng tâm tam giác luôn nằm ở miền trong của tam giác.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Trực tâm của tam giác tù nằm ở miền ngoài tam giác.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Độ dài một cạnh bất kì của tam giác luôn lớn hơn nửa chu vi tam giác đó.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6106,33 +6097,33 @@ const EXAMS_7_C9_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho tam giác $ABC$ có $AB < AC$, đường phân giác $AD$ và đường cao $AH$:",
+        "stem": "Cho tam giác ABC có AB = 30 cm, AC = 42 cm (Mã đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Góc C nhỏ hơn góc B.",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Điểm H nằm giữa B và D.",
+            "text": "Độ dài cạnh BC thỏa mãn: 12 cm < BC < 72 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hình chiếu của AB trên đường thẳng BC là BH.",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đoạn thẳng AH lớn hơn đoạn thẳng AB.",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6143,74 +6134,74 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác ABC có trọng tâm G, đường trung tuyến AM = 12 cm. Tính độ dài AG (cm).",
-        "answer": "8",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 72 cm. Tính AG (cm).",
+        "answer": "48",
         "acceptableAnswers": [
-          "8"
+          "48"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tam giác ABC cân có hai cạnh dài 4 cm và 9 cm. Tính chu vi tam giác (cm).",
-        "answer": "22",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 66 độ. Cạnh nào là cạnh lớn nhất?",
+        "answer": "BC",
         "acceptableAnswers": [
-          "22"
+          "BC"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **22**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **BC**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho tam giác ABC vuông tại A, BC = 10 cm, M là trung điểm BC. Gọi G là trọng tâm tam giác. Tính AG (làm tròn 1 chữ số thập phân, cm).",
-        "answer": "3,3",
+        "question": "Một tam giác cân có cạnh đáy dài 12 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "36",
         "acceptableAnswers": [
-          "3,3"
+          "36"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác ABC có chu vi bằng 18 cm. Gọi M là điểm bất kì trong tam giác. Giá trị nhỏ nhất của (MA + MB + MC) lớn hơn bao nhiêu cm?",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "9"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng trong tam giác vuông, cạnh huyền là cạnh lớn nhất.",
-        "rubric": "Xét tam giác ABC vuông tại A. Khi đó góc A = 90 độ là góc lớn nhất trong tam giác (vì B + C = 90 độ nên B, C < 90 độ) (0.25đ).\nTrong tam giác, cạnh đối diện với góc lớn hơn là cạnh lớn hơn => cạnh huyền BC đối diện góc A là cạnh lớn nhất (0.25đ)."
+        "question": "Cho tam giác $ABC$ có $AB = 24$ cm, $AC = 36$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 30$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 30 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Chứng minh rằng đường trung tuyến xuất phát từ đỉnh $A$ đồng thời là đường cao và đường phân giác của góc $A$.",
-        "rubric": "Gọi AM là trung tuyến => MB = MC. Xét tam giác ABM và ACM: AB = AC, AM chung, MB = MC => tam giác ABM = ACM (c-c-c) (0.25đ).\n=> góc AMB = AMC = 90 độ => AM là đường cao.\n=> góc BAM = CAM => AM là đường phân giác. Đpcm (0.25đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $42$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $18$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (42) - 10 - (18) = 14 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 18, 14 (0.25đ).\nTa có: 10 + (14) = 24 > 18 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh rằng tổng khoảng cách từ $M$ đến ba đỉnh của tam giác lớn hơn nửa chu vi tam giác: $MA + MB + MC > \\frac{AB + BC + CA}{2}$.",
-        "rubric": "Áp dụng bất đẳng thức tam giác vào các tam giác MAB, MBC, MCA (0.25đ):\nMA + MB > AB\nMB + MC > BC\nMC + MA > CA\nCộng vế với vế: 2(MA + MB + MC) > AB + BC + CA => MA + MB + MC > (AB + BC + CA)/2. Đpcm (0.25đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   },
   "c9_7_bai6_test7": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ các yếu tố trong tam giác - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương IX: Quan hệ giữa các yếu tố trong một tam giác - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là:",
+        "question": "Trong một tam giác, góc đối diện với cạnh lớn hơn là (Đề 07):",
         "options": [
           "Góc lớn hơn",
           "Góc nhỏ hơn",
@@ -6223,12 +6214,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Theo bất đẳng thức tam giác, trong tam giác $ABC$ ta luôn có:",
+        "question": "Trong một tam giác, độ dài một cạnh bất kì luôn:",
         "options": [
-          "$AB + AC > BC$",
-          "$AB + AC < BC$",
-          "$AB + AC = BC$",
-          "$AB - AC > BC$"
+          "Lớn hơn hiệu và nhỏ hơn tổng hai cạnh còn lại",
+          "Lớn hơn tổng hai cạnh còn lại",
+          "Bằng tổng hai cạnh",
+          "Nhỏ hơn hiệu hai cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6236,7 +6227,7 @@ const EXAMS_7_C9_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Ba đường trung tuyến của một tam giác cùng đi qua một điểm. Điểm đó gọi là:",
+        "question": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là:",
         "options": [
           "Trọng tâm của tam giác",
           "Trực tâm của tam giác",
@@ -6249,12 +6240,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Trực tâm của tam giác là giao điểm của:",
+        "question": "Trọng tâm của tam giác cách mỗi đỉnh một khoảng bằng:",
         "options": [
-          "Ba đường cao",
-          "Ba đường trung tuyến",
-          "Ba đường phân giác",
-          "Ba đường trung trực"
+          "$\\frac{2}{3}$ độ dài đường trung tuyến đi qua đỉnh đó",
+          "$\\frac{1}{2}$ độ dài đường trung tuyến",
+          "$\\frac{1}{3}$ độ dài đường trung tuyến",
+          "Hai lần độ dài trung tuyến"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6262,12 +6253,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Cho tam giác $ABC$ có $AB = 5\\text{ cm}, BC = 8\\text{ cm}, AC = 7\\text{ cm}$. Góc lớn nhất của tam giác là:",
+        "question": "Cho tam giác $ABC$ có $AB = 21$ cm, $AC = 35$ cm, $BC = 42$ cm. Khẳng định nào sau đây là ĐÚNG?",
         "options": [
-          "$\\widehat{A}$",
-          "$\\widehat{B}$",
-          "$\\widehat{C}$",
-          "Không xác định"
+          "$\\widehat{A} > \\widehat{B} > \\widehat{C}$",
+          "$\\widehat{C} > \\widehat{B} > \\widehat{A}$",
+          "$\\widehat{B} > \\widehat{A} > \\widehat{C}$",
+          "$\\widehat{A} = \\widehat{B} = \\widehat{C}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6277,10 +6268,10 @@ const EXAMS_7_C9_7 = {
         "level": "Thông hiểu",
         "question": "Bộ ba đoạn thẳng nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
         "options": [
-          "$3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}$",
-          "$2\\text{ cm}, 3\\text{ cm}, 6\\text{ cm}$",
-          "$1\\text{ cm}, 2\\text{ cm}, 3\\text{ cm}$",
-          "$4\\text{ cm}, 5\\text{ cm}, 10\\text{ cm}$"
+          "$21$ cm, $28$ cm, $35$ cm",
+          "$14$ cm, $21$ cm, $42$ cm",
+          "$7$ cm, $14$ cm, $21$ cm",
+          "$7$ cm, $7$ cm, $21$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6288,12 +6279,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Cho điểm $G$ là trọng tâm của tam giác $ABC$, $AM$ là đường trung tuyến. Tỉ số $\\frac{AG}{AM}$ bằng:",
+        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 63$ cm. Gọi $G$ là trọng tâm tam giác. Độ dài đoạn thẳng $AG$ là:",
         "options": [
-          "$\\frac{2}{3}$",
-          "$\\frac{1}{3}$",
-          "$\\frac{1}{2}$",
-          "$\\frac{3}{4}$"
+          "$42$ cm",
+          "$21$ cm",
+          "$31.5$ cm",
+          "$35$ cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6301,12 +6292,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Giao điểm của ba đường phân giác trong tam giác là điểm:",
+        "question": "Giao điểm của ba đường cao trong một tam giác được gọi là:",
         "options": [
-          "Cách đều ba cạnh của tam giác",
-          "Cách đều ba đỉnh của tam giác",
-          "Là trọng tâm tam giác",
-          "Là trực tâm tam giác"
+          "Trực tâm của tam giác",
+          "Trọng tâm",
+          "Tâm nội tiếp",
+          "Tâm ngoại tiếp"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6314,12 +6305,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Cho tam giác cân có độ dài hai cạnh là $3\\text{ cm}$ và $7\\text{ cm}$. Chu vi của tam giác cân đó là:",
+        "question": "Người ta muốn dựng một cột thu lôi $O$ cách đều ba tòa nhà $A, B, C$. Vị trí điểm $O$ được chọn là:",
         "options": [
-          "$17\\text{ cm}$ (vì cạnh thứ ba phải là $7\\text{ cm}$)",
-          "$13\\text{ cm}$",
-          "$10\\text{ cm}$",
-          "$14\\text{ cm}$"
+          "Giao điểm ba đường trung trực của tam giác ABC",
+          "Giao điểm ba đường trung tuyến",
+          "Giao điểm ba đường phân giác",
+          "Giao điểm ba đường cao"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6327,12 +6318,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ có đường trung tuyến $AM = 9\\text{ cm}$. Gọi $G$ là trọng tâm của tam giác. Độ dài đoạn thẳng $GM$ là:",
+        "question": "Một tam giác có hai cạnh dài $11$ cm và $8$ cm. Để tam giác này là tam giác cân thì cạnh thứ ba phải có độ dài là:",
         "options": [
-          "$3\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4,5\\text{ cm}$",
-          "$2\\text{ cm}$"
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "2 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6340,12 +6331,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Trong tam giác vuông, giao điểm của ba đường trung trực nằm ở vị trí nào?",
+        "question": "Một người đứng cách ngọn tháp và một cây xanh tạo thành tam giác. Khoảng cách từ người đến cây là 15 m, từ cây đến tháp là 20 m. Khoảng cách $d$ từ người đến ngọn tháp thỏa mãn:",
         "options": [
-          "Chính là trung điểm của cạnh huyền",
-          "Tại đỉnh góc vuông",
-          "Bên trong tam giác",
-          "Bên ngoài tam giác"
+          "$5\\text{{ m}} < d < 35\\text{{ m}}$",
+          "$d = 35\\text{{ m}}$",
+          "$d > 35\\text{{ m}}$",
+          "$d < 5\\text{{ m}}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6353,12 +6344,12 @@ const EXAMS_7_C9_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho tam giác $ABC$ nhọn có trực tâm $H$. Nếu $H$ trùng với trọng tâm $G$ thì tam giác $ABC$ là:",
+        "question": "Cho tam giác nhọn $ABC$. Điểm $M$ nằm trong tam giác. Khẳng định nào sau đây luôn ĐÚNG?",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông cân",
-          "Tam giác cân",
-          "Tam giác vuông"
+          "$MA + MB + MC > \\frac{AB + BC + CA}{2}$",
+          "$MA + MB + MC < \\frac{AB + BC + CA}{2}$",
+          "$MA + MB = MC$",
+          "$MA = MB = MC$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -6367,33 +6358,33 @@ const EXAMS_7_C9_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Mã đề 7):",
+        "stem": "Xét tính đúng sai về quan hệ giữa các yếu tố trong tam giác (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Trong tam giác tù, góc tù là góc lớn nhất và cạnh đối diện góc tù là cạnh lớn nhất.",
+            "level": "Nhận biết",
+            "text": "Trong tam giác vuông, cạnh huyền là cạnh có độ dài lớn nhất.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trọng tâm tam giác luôn nằm ở miền trong của tam giác.",
+            "text": "Điểm cách đều ba đỉnh của một tam giác là giao điểm của ba đường trung trực.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Trực tâm của tam giác tù nằm ở miền ngoài tam giác.",
+            "text": "Điểm cách đều ba cạnh của một tam giác là giao điểm của ba đường phân giác.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Độ dài một cạnh bất kì của tam giác luôn lớn hơn nửa chu vi tam giác đó.",
+            "text": "Giao điểm ba đường cao của tam giác luôn nằm bên trong tam giác đó.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6401,33 +6392,33 @@ const EXAMS_7_C9_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho tam giác $ABC$ có $AB < AC$, đường phân giác $AD$ và đường cao $AH$:",
+        "stem": "Cho tam giác ABC có AB = 35 cm, AC = 49 cm (Mã đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Góc C nhỏ hơn góc B.",
+            "level": "Nhận biết",
+            "text": "Theo bất đẳng thức tam giác: AC - AB < BC < AC + AB.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Điểm H nằm giữa B và D.",
+            "text": "Độ dài cạnh BC thỏa mãn: 14 cm < BC < 84 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Hình chiếu của AB trên đường thẳng BC là BH.",
+            "text": "Góc đối diện với cạnh AC (góc B) lớn hơn góc đối diện với cạnh AB (góc C).",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Đoạn thẳng AH lớn hơn đoạn thẳng AB.",
+            "text": "Cạnh BC có thể có độ dài bằng 1 cm khi t = 1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -6438,62 +6429,62 @@ const EXAMS_7_C9_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho tam giác ABC có trọng tâm G, đường trung tuyến AM = 12 cm. Tính độ dài AG (cm).",
-        "answer": "8",
+        "question": "Cho tam giác ABC có trung tuyến AM. Trọng tâm G chia đoạn AM thành hai đoạn AG và GM. Biết AM = 84 cm. Tính AG (cm).",
+        "answer": "56",
         "acceptableAnswers": [
-          "8"
+          "56"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **56**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tam giác ABC cân có hai cạnh dài 4 cm và 9 cm. Tính chu vi tam giác (cm).",
-        "answer": "22",
+        "question": "Cho tam giác ABC có góc A = 80 độ, góc B = 67 độ. Cạnh nào là cạnh lớn nhất?",
+        "answer": "BC",
         "acceptableAnswers": [
-          "22"
+          "BC"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **22**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **BC**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Cho tam giác ABC vuông tại A, BC = 10 cm, M là trung điểm BC. Gọi G là trọng tâm tam giác. Tính AG (làm tròn 1 chữ số thập phân, cm).",
-        "answer": "3,3",
+        "question": "Một tam giác cân có cạnh đáy dài 13 cm và một cạnh bên dài 12 cm. Chu vi của tam giác cân là bao nhiêu cm?",
+        "answer": "37",
         "acceptableAnswers": [
-          "3,3"
+          "37"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3,3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **37**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho tam giác ABC có chu vi bằng 18 cm. Gọi M là điểm bất kì trong tam giác. Giá trị nhỏ nhất của (MA + MB + MC) lớn hơn bao nhiêu cm?",
-        "answer": "9",
+        "level": "Vận dụng",
+        "question": "Ba khu dân cư A, B, C không thẳng hàng. Người ta muốn đào một giếng nước chung cách đều cả ba khu dân cư. Hỏi có bao nhiêu vị trí đặt giếng nước thỏa mãn?",
+        "answer": "1",
         "acceptableAnswers": [
-          "9"
+          "1"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Chứng minh rằng trong tam giác vuông, cạnh huyền là cạnh lớn nhất.",
-        "rubric": "Xét tam giác ABC vuông tại A. Khi đó góc A = 90 độ là góc lớn nhất trong tam giác (vì B + C = 90 độ nên B, C < 90 độ) (0.25đ).\nTrong tam giác, cạnh đối diện với góc lớn hơn là cạnh lớn hơn => cạnh huyền BC đối diện góc A là cạnh lớn nhất (0.25đ)."
+        "question": "Cho tam giác $ABC$ có $AB = 28$ cm, $AC = 42$ cm. Gọi $M$ là trung điểm của $BC$. Chứng minh rằng: $AM < \\frac{AB + AC}2 = 35$ cm.",
+        "rubric": "Trên tia đối của tia MA lấy điểm D sao cho MD = MA (0.25đ).\nChứng minh tam giác MAB = tam giác MDC (c.g.c) => CD = AB (0.25đ).\nTrong tam giác ACD: AD < AC + CD = AC + AB (0.25đ).\nMà AD = 2AM nên 2AM < AB + AC => AM < (AB + AC)/2 = 35 cm (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Cho tam giác $ABC$ cân tại $A$. Chứng minh rằng đường trung tuyến xuất phát từ đỉnh $A$ đồng thời là đường cao và đường phân giác của góc $A$.",
-        "rubric": "Gọi AM là trung tuyến => MB = MC. Xét tam giác ABM và ACM: AB = AC, AM chung, MB = MC => tam giác ABM = ACM (c-c-c) (0.25đ).\n=> góc AMB = AMC = 90 độ => AM là đường cao.\n=> góc BAM = CAM => AM là đường phân giác. Đpcm (0.25đ)."
+        "question": "Một người thợ cơ khí muốn uốn một thanh sắt dài $44$ cm thành một khung tam giác có độ dài các cạnh là số nguyên cm. Biết hai cạnh đầu là $10$ cm và $19$ cm. Hỏi cạnh thứ ba dài bao nhiêu cm và thanh sắt có uốn thành tam giác được không?",
+        "rubric": "Độ dài cạnh thứ ba là: (44) - 10 - (19) = 15 cm (0.25đ).\nKiểm tra bất đẳng thức tam giác với 3 cạnh: 10, 19, 15 (0.25đ).\nTa có: 10 + (15) = 25 > 19 (thỏa mãn) (0.25đ).\nKết luận thanh sắt uốn thành công tam giác và cạnh thứ ba dài cụ thể (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh rằng tổng khoảng cách từ $M$ đến ba đỉnh của tam giác lớn hơn nửa chu vi tam giác: $MA + MB + MC > \\frac{AB + BC + CA}{2}$.",
-        "rubric": "Áp dụng bất đẳng thức tam giác vào các tam giác MAB, MBC, MCA (0.25đ):\nMA + MB > AB\nMB + MC > BC\nMC + MA > CA\nCộng vế với vế: 2(MA + MB + MC) > AB + BC + CA => MA + MB + MC > (AB + BC + CA)/2. Đpcm (0.25đ)."
+        "question": "Cho tam giác nhọn $ABC$, trực tâm $H$. Chứng minh rằng: $HA + HB + HC < AB + BC + CA$.",
+        "rubric": "Kẻ các đường cao AD, BE, CF cắt nhau tại trực tâm H (0.25đ).\nTrong các tam giác vuông, đoạn thẳng vuông góc ngắn hơn đường xiên (0.25đ).\nChứng minh HA < (AB + AC)/2, HB < (BA + BC)/2, HC < (CA + CB)/2 (0.25đ).\nCộng từng vế ta được: HA + HB + HC < AB + BC + CA (0.25đ)."
       }
     ]
   }

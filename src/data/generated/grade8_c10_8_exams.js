@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG X: MỘT SỐ HÌNH KHỐI TRONG THỰC TIỄN - TOÁN 8 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:24:42
+// Cập nhật lúc: 2026-11-02 07:36:40
 // ==============================================================================
 
 const EXAMS_8_C10_8 = {
@@ -1770,17 +1770,19 @@ const EXAMS_8_C10_8 = {
     ]
   },
   "c10_8_bai3_test1": {
-    "title": "Toán 8 (KNTT) - Ôn tập và kiểm tra cuối Chương X - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Thể tích của hình chóp đều có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 01):",
         "options": [
-          "$V = \\frac{1}{3} S \\cdot h$",
-          "$V = S \\cdot h$",
-          "$V = \\frac{1}{2} S \\cdot h$",
-          "$V = 2S \\cdot h$"
+          "Tam giác đều",
+          "Tam giác vuông",
+          "Tam giác cân",
+          "Tam giác vuông cân"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1788,12 +1790,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Diện tích xung quanh hình chóp đều có nửa chu vi đáy $p$ và trung đoạn $d$ là:",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
         "options": [
-          "$S_{xq} = p \\cdot d$",
-          "$S_{xq} = 2p \\cdot d$",
-          "$S_{xq} = \\frac{1}{2}p \\cdot d$",
-          "$S_{xq} = p + d$"
+          "Tam giác cân",
+          "Tam giác đều",
+          "Hình vuông",
+          "Hình chữ nhật"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1801,12 +1803,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Đáy của hình chóp tam giác đều là:",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Hình vuông",
-          "Tam giác cân"
+          "$V = \\frac{1}{3} S \\cdot h$",
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{2} S \\cdot h$",
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1814,116 +1816,116 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Đáy của hình chóp tứ giác đều là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình thang"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Hình chóp tứ giác đều có số cạnh là:",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $4$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "8 cạnh",
-          "6 cạnh",
-          "10 cạnh",
-          "12 cạnh"
+          "$32$ cm$^3$",
+          "$96$ cm$^3$",
+          "$16$ cm$^3$",
+          "$64$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Hình chóp tam giác đều có số mặt là:",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $10$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "4 mặt",
-          "5 mặt",
-          "6 mặt",
-          "3 mặt"
+          "$30$ cm$^3$",
+          "$90$ cm$^3$",
+          "$45$ cm$^3$",
+          "$15$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Nhận biết",
-        "question": "Trung đoạn của hình chóp đều là:",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $6$ cm, trung đoạn dài $5$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "Đường cao của mặt bên",
-          "Chiều cao hình chóp",
-          "Cạnh đáy",
-          "Cạnh bên"
+          "$60$ cm$^2$",
+          "$120$ cm$^2$",
+          "$30$ cm$^2$",
+          "$90$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Nhận biết",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $4\\text{ cm}$, trung đoạn $6\\text{ cm}$. Diện tích xung quanh là:",
+        "level": "Thông hiểu",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$48\\text{ cm}^2$",
-          "$96\\text{ cm}^2$",
-          "$24\\text{ cm}^2$",
-          "$36\\text{ cm}^2$"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có thể tích $36\\text{ cm}^3$, chiều cao $9\\text{ cm}$. Diện tích đáy là:",
+        "level": "Vận dụng",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $2.2$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$12\\text{ cm}^2$",
-          "$4\\text{ cm}^2$",
-          "$8\\text{ cm}^2$",
-          "$24\\text{ cm}^2$"
+          "10.12 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $10\\text{ cm}$, chiều cao $12\\text{ cm}$. Thể tích là:",
+        "level": "Vận dụng",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $11$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$400\\text{ cm}^3$",
-          "$1200\\text{ cm}^3$",
-          "$600\\text{ cm}^3$",
-          "$300\\text{ cm}^3$"
+          "198.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Nếu tăng cạnh đáy của hình chóp tứ giác đều lên gấp 2 lần và giữ nguyên chiều cao thì thể tích của nó tăng lên gấp:",
+        "level": "Vận dụng",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$4$ lần",
-          "$2$ lần",
-          "$8$ lần",
-          "$6$ lần"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Vận dụng",
-        "question": "Một hình chóp tứ giác đều có diện tích toàn phần bằng $96\\text{ cm}^2$, diện tích đáy là $36\\text{ cm}^2$. Trung đoạn của hình chóp bằng:",
+        "level": "Vận dụng cao",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -1932,69 +1934,69 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Một hình chóp tam giác đều S.ABC có diện tích đáy 15 cm² và chiều cao 6 cm:",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 01):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Hình chóp có 4 đỉnh và 6 cạnh.",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích hình chóp S.ABC bằng 30 cm³.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Mỗi mặt bên của hình chóp là một tam giác cân.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu cạnh đáy bằng 6 cm và trung đoạn bằng 5 cm thì diện tích toàn phần bằng 60 cm².",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Một hình chóp tứ giác đều S.ABCD có cạnh đáy 8 cm và trung đoạn 5 cm:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 6 cm, chiều cao h = 4 cm (Mã đề 01):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Hình chóp có 5 mặt gồm 1 đáy hình vuông và 4 mặt bên.",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nửa chu vi đáy bằng p = (8 * 4)/2 = 16 cm.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 5 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp bằng 80 cm².",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 60 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Chiều cao hình chóp bằng h = 3 cm và thể tích bằng 64 cm³.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2003,77 +2005,79 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tứ giác đều có diện tích đáy $49\\text{ cm}^2$ và chiều cao $6\\text{ cm}$. Thể tích bằng bao nhiêu $\\text{cm}^3$?",
-        "answer": "98",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 9 cm (cm^3).",
+        "answer": "75",
         "acceptableAnswers": [
-          "98"
+          "75"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **98**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có cạnh đáy $4\\text{ cm}$, trung đoạn $6\\text{ cm}$. Diện tích xung quanh bằng bao nhiêu $\\text{cm}^2$?",
-        "answer": "36",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 16 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "48",
         "acceptableAnswers": [
-          "36"
+          "48"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **48**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tứ giác đều có cạnh đáy $10\\text{ cm}$, chiều cao $12\\text{ cm}$. Khối gỗ có thể tích bằng bao nhiêu $\\text{cm}^3$?",
-        "answer": "400",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "400"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn $2,5\\text{ m}$. Diện tích bạt xung quanh bằng bao nhiêu $\\text{m}^2$?",
-        "answer": "10",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "10"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tứ giác đều có cạnh đáy $12\\text{ cm}$, chiều cao $8\\text{ cm}$. a) Tính thể tích hình chóp; b) Tính trung đoạn của hình chóp.",
-        "rubric": "a) Diện tích đáy: Sđ = 12 * 12 = 144 cm². Thể tích V = 1/3 * 144 * 8 = 384 cm³ (0.5đ). b) Nửa cạnh đáy là 6 cm. Trung đoạn d = √(8² + 6²) = √100 = 10 cm (0.5đ)."
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $8$ cm, trung đoạn dài $5$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 8 / 2 = 16 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 16 . 5 = 80 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (8)^2 = 64 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 144 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một chiếc đèn lồng hình chóp tam giác đều có cạnh đáy $16\\text{ cm}$, trung đoạn $15\\text{ cm}$. Tính diện tích giấy kính cần dán kín 3 mặt bên của đèn lồng.",
-        "rubric": "Nửa chu vi đáy tam giác đều: p = (16 * 3)/2 = 24 cm (0.5đ). Diện tích xung quanh cần dán giấy kính: Sxq = p * d = 24 * 15 = 360 cm² (0.5đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $2.2$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc bánh kem hình chóp tứ giác đều có cạnh đáy $20\\text{ cm}$, chiều cao $24\\text{ cm}$. Người ta cắt một nhát song song với đáy ở chính giữa chiều cao để chia thành hai phần. Tính thể tích của phần hình chóp nhỏ phía trên.",
-        "rubric": "Phần chóp nhỏ đồng dạng với chóp lớn theo tỉ số k = 1/2 (0.5đ). Thể tích chóp lớn: V = 1/3 * 20² * 24 = 3200 cm³. Thể tích chóp nhỏ: V' = k³ * V = (1/8) * 3200 = 400 cm³ (0.5đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   },
   "c10_8_bai3_test2": {
-    "title": "Toán 8 (KNTT) - Ôn tập và kiểm tra cuối Chương X - Đề số 2 (🌿 Mức độ Khá (Đề 2))",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Thể tích của hình chóp đều có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 02):",
         "options": [
-          "$V = \\frac{1}{3} S \\cdot h$",
-          "$V = S \\cdot h$",
-          "$V = \\frac{1}{2} S \\cdot h$",
-          "$V = 2S \\cdot h$"
+          "Tam giác đều",
+          "Tam giác vuông",
+          "Tam giác cân",
+          "Tam giác vuông cân"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2081,12 +2085,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Diện tích xung quanh hình chóp đều có nửa chu vi đáy $p$ và trung đoạn $d$ là:",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
         "options": [
-          "$S_{xq} = p \\cdot d$",
-          "$S_{xq} = 2p \\cdot d$",
-          "$S_{xq} = \\frac{1}{2}p \\cdot d$",
-          "$S_{xq} = p + d$"
+          "Tam giác cân",
+          "Tam giác đều",
+          "Hình vuông",
+          "Hình chữ nhật"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2094,12 +2098,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Đáy của hình chóp tam giác đều là:",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Hình vuông",
-          "Tam giác cân"
+          "$V = \\frac{1}{3} S \\cdot h$",
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{2} S \\cdot h$",
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2107,116 +2111,116 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Đáy của hình chóp tứ giác đều là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình thang"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Hình chóp tứ giác đều có số cạnh là:",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $8$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "8 cạnh",
-          "6 cạnh",
-          "10 cạnh",
-          "12 cạnh"
+          "$128$ cm$^3$",
+          "$384$ cm$^3$",
+          "$64$ cm$^3$",
+          "$256$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Nhận biết",
-        "question": "Hình chóp tam giác đều có số mặt là:",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $20$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "4 mặt",
-          "5 mặt",
-          "6 mặt",
-          "3 mặt"
+          "$60$ cm$^3$",
+          "$180$ cm$^3$",
+          "$90$ cm$^3$",
+          "$30$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Nhận biết",
-        "question": "Trung đoạn của hình chóp đều là:",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $12$ cm, trung đoạn dài $10$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "Đường cao của mặt bên",
-          "Chiều cao hình chóp",
-          "Cạnh đáy",
-          "Cạnh bên"
+          "$240$ cm$^2$",
+          "$480$ cm$^2$",
+          "$120$ cm$^2$",
+          "$360$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Nhận biết",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $4\\text{ cm}$, trung đoạn $6\\text{ cm}$. Diện tích xung quanh là:",
+        "level": "Thông hiểu",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$48\\text{ cm}^2$",
-          "$96\\text{ cm}^2$",
-          "$24\\text{ cm}^2$",
-          "$36\\text{ cm}^2$"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có thể tích $36\\text{ cm}^3$, chiều cao $9\\text{ cm}$. Diện tích đáy là:",
+        "level": "Vận dụng",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $2.4$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$12\\text{ cm}^2$",
-          "$4\\text{ cm}^2$",
-          "$8\\text{ cm}^2$",
-          "$24\\text{ cm}^2$"
+          "11.04 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $10\\text{ cm}$, chiều cao $12\\text{ cm}$. Thể tích là:",
+        "level": "Vận dụng",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $12$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$400\\text{ cm}^3$",
-          "$1200\\text{ cm}^3$",
-          "$600\\text{ cm}^3$",
-          "$300\\text{ cm}^3$"
+          "216.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Nếu tăng cạnh đáy của hình chóp tứ giác đều lên gấp 2 lần và giữ nguyên chiều cao thì thể tích của nó tăng lên gấp:",
+        "level": "Vận dụng",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$4$ lần",
-          "$2$ lần",
-          "$8$ lần",
-          "$6$ lần"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Vận dụng",
-        "question": "Một hình chóp tứ giác đều có diện tích toàn phần bằng $96\\text{ cm}^2$, diện tích đáy là $36\\text{ cm}^2$. Trung đoạn của hình chóp bằng:",
+        "level": "Vận dụng cao",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2225,69 +2229,69 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Một hình chóp tam giác đều S.ABC có diện tích đáy 15 cm² và chiều cao 6 cm:",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 02):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Hình chóp có 4 đỉnh và 6 cạnh.",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích hình chóp S.ABC bằng 30 cm³.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Mỗi mặt bên của hình chóp là một tam giác cân.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu cạnh đáy bằng 6 cm và trung đoạn bằng 5 cm thì diện tích toàn phần bằng 60 cm².",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Một hình chóp tứ giác đều S.ABCD có cạnh đáy 8 cm và trung đoạn 5 cm:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 12 cm, chiều cao h = 8 cm (Mã đề 02):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Hình chóp có 5 mặt gồm 1 đáy hình vuông và 4 mặt bên.",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nửa chu vi đáy bằng p = (8 * 4)/2 = 16 cm.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 10 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp bằng 80 cm².",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 240 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Chiều cao hình chóp bằng h = 3 cm và thể tích bằng 64 cm³.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2296,103 +2300,105 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tứ giác đều có diện tích đáy $49\\text{ cm}^2$ và chiều cao $6\\text{ cm}$. Thể tích bằng bao nhiêu $\\text{cm}^3$?",
-        "answer": "98",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 12 cm (cm^3).",
+        "answer": "100",
         "acceptableAnswers": [
-          "98"
+          "100"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **98**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có cạnh đáy $4\\text{ cm}$, trung đoạn $6\\text{ cm}$. Diện tích xung quanh bằng bao nhiêu $\\text{cm}^2$?",
-        "answer": "36",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 17 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "51",
         "acceptableAnswers": [
-          "36"
+          "51"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **51**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tứ giác đều có cạnh đáy $10\\text{ cm}$, chiều cao $12\\text{ cm}$. Khối gỗ có thể tích bằng bao nhiêu $\\text{cm}^3$?",
-        "answer": "400",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "400"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn $2,5\\text{ m}$. Diện tích bạt xung quanh bằng bao nhiêu $\\text{m}^2$?",
-        "answer": "10",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "10"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tứ giác đều có cạnh đáy $12\\text{ cm}$, chiều cao $8\\text{ cm}$. a) Tính thể tích hình chóp; b) Tính trung đoạn của hình chóp.",
-        "rubric": "a) Diện tích đáy: Sđ = 12 * 12 = 144 cm². Thể tích V = 1/3 * 144 * 8 = 384 cm³ (0.5đ). b) Nửa cạnh đáy là 6 cm. Trung đoạn d = √(8² + 6²) = √100 = 10 cm (0.5đ)."
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $16$ cm, trung đoạn dài $10$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 16 / 2 = 32 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 32 . 10 = 320 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (16)^2 = 256 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 576 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một chiếc đèn lồng hình chóp tam giác đều có cạnh đáy $16\\text{ cm}$, trung đoạn $15\\text{ cm}$. Tính diện tích giấy kính cần dán kín 3 mặt bên của đèn lồng.",
-        "rubric": "Nửa chu vi đáy tam giác đều: p = (16 * 3)/2 = 24 cm (0.5đ). Diện tích xung quanh cần dán giấy kính: Sxq = p * d = 24 * 15 = 360 cm² (0.5đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $2.4$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc bánh kem hình chóp tứ giác đều có cạnh đáy $20\\text{ cm}$, chiều cao $24\\text{ cm}$. Người ta cắt một nhát song song với đáy ở chính giữa chiều cao để chia thành hai phần. Tính thể tích của phần hình chóp nhỏ phía trên.",
-        "rubric": "Phần chóp nhỏ đồng dạng với chóp lớn theo tỉ số k = 1/2 (0.5đ). Thể tích chóp lớn: V = 1/3 * 20² * 24 = 3200 cm³. Thể tích chóp nhỏ: V' = k³ * V = (1/8) * 3200 = 400 cm³ (0.5đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   },
   "c10_8_bai3_test3": {
-    "title": "Toán 8 (KNTT) - Ôn tập và kiểm tra cuối Chương X - Đề số 3 (🚀 Mức độ Khá Giỏi)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Thể tích của hình chóp đều có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 03):",
+        "options": [
+          "Tam giác đều",
+          "Tam giác vuông",
+          "Tam giác cân",
+          "Tam giác vuông cân"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 2,
+        "level": "Nhận biết",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
+        "options": [
+          "Tam giác cân",
+          "Tam giác đều",
+          "Hình vuông",
+          "Hình chữ nhật"
+        ],
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+      },
+      {
+        "id": 3,
+        "level": "Nhận biết",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
           "$V = \\frac{1}{3} S \\cdot h$",
           "$V = S \\cdot h$",
           "$V = \\frac{1}{2} S \\cdot h$",
-          "$V = 2S \\cdot h$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 2,
-        "level": "Nhận biết",
-        "question": "Diện tích xung quanh hình chóp đều có nửa chu vi đáy $p$ và trung đoạn $d$ là:",
-        "options": [
-          "$S_{xq} = p \\cdot d$",
-          "$S_{xq} = 2p \\cdot d$",
-          "$S_{xq} = \\frac{1}{2}p \\cdot d$",
-          "$S_{xq} = p + d$"
-        ],
-        "correct": 0,
-        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-      },
-      {
-        "id": 3,
-        "level": "Nhận biết",
-        "question": "Đáy của hình chóp tam giác đều là:",
-        "options": [
-          "Tam giác đều",
-          "Tam giác vuông",
-          "Hình vuông",
-          "Tam giác cân"
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2400,12 +2406,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Đáy của hình chóp tứ giác đều là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình thang"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2413,12 +2419,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có số cạnh là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $12$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "8 cạnh",
-          "6 cạnh",
-          "10 cạnh",
-          "12 cạnh"
+          "$288$ cm$^3$",
+          "$864$ cm$^3$",
+          "$144$ cm$^3$",
+          "$576$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2426,12 +2432,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có số mặt là:",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $30$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "4 mặt",
-          "5 mặt",
-          "6 mặt",
-          "3 mặt"
+          "$90$ cm$^3$",
+          "$270$ cm$^3$",
+          "$135$ cm$^3$",
+          "$45$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2439,12 +2445,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Trung đoạn của hình chóp đều là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $18$ cm, trung đoạn dài $15$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "Đường cao của mặt bên",
-          "Chiều cao hình chóp",
-          "Cạnh đáy",
-          "Cạnh bên"
+          "$540$ cm$^2$",
+          "$1080$ cm$^2$",
+          "$270$ cm$^2$",
+          "$810$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2452,12 +2458,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $4\\text{ cm}$, trung đoạn $6\\text{ cm}$. Diện tích xung quanh là:",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$48\\text{ cm}^2$",
-          "$96\\text{ cm}^2$",
-          "$24\\text{ cm}^2$",
-          "$36\\text{ cm}^2$"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2465,12 +2471,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Hình chóp tam giác đều có thể tích $36\\text{ cm}^3$, chiều cao $9\\text{ cm}$. Diện tích đáy là:",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $2.6$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$12\\text{ cm}^2$",
-          "$4\\text{ cm}^2$",
-          "$8\\text{ cm}^2$",
-          "$24\\text{ cm}^2$"
+          "11.96 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2478,12 +2484,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $10\\text{ cm}$, chiều cao $12\\text{ cm}$. Thể tích là:",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $13$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$400\\text{ cm}^3$",
-          "$1200\\text{ cm}^3$",
-          "$600\\text{ cm}^3$",
-          "$300\\text{ cm}^3$"
+          "234.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2491,12 +2497,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Nếu tăng cạnh đáy của hình chóp tứ giác đều lên gấp 2 lần và giữ nguyên chiều cao thì thể tích của nó tăng lên gấp:",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$4$ lần",
-          "$2$ lần",
-          "$8$ lần",
-          "$6$ lần"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2504,12 +2510,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Một hình chóp tứ giác đều có diện tích toàn phần bằng $96\\text{ cm}^2$, diện tích đáy là $36\\text{ cm}^2$. Trung đoạn của hình chóp bằng:",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$5\\text{ cm}$",
-          "$6\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$8\\text{ cm}$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2518,69 +2524,69 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Một hình chóp tam giác đều S.ABC có diện tích đáy 15 cm² và chiều cao 6 cm:",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 03):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Hình chóp có 4 đỉnh và 6 cạnh.",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích hình chóp S.ABC bằng 30 cm³.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Mỗi mặt bên của hình chóp là một tam giác cân.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu cạnh đáy bằng 6 cm và trung đoạn bằng 5 cm thì diện tích toàn phần bằng 60 cm².",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Một hình chóp tứ giác đều S.ABCD có cạnh đáy 8 cm và trung đoạn 5 cm:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 18 cm, chiều cao h = 12 cm (Mã đề 03):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Hình chóp có 5 mặt gồm 1 đáy hình vuông và 4 mặt bên.",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nửa chu vi đáy bằng p = (8 * 4)/2 = 16 cm.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 15 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp bằng 80 cm².",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 540 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Chiều cao hình chóp bằng h = 3 cm và thể tích bằng 64 cm³.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2589,79 +2595,79 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tứ giác đều có diện tích đáy $49\\text{ cm}^2$ và chiều cao $6\\text{ cm}$. Thể tích bằng bao nhiêu $\\text{cm}^3$?",
-        "answer": "98",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 15 cm (cm^3).",
+        "answer": "125",
         "acceptableAnswers": [
-          "98"
+          "125"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **98**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **125**."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Hình chóp tam giác đều có cạnh đáy $4\\text{ cm}$, trung đoạn $6\\text{ cm}$. Diện tích xung quanh bằng bao nhiêu $\\text{cm}^2$?",
-        "answer": "36",
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 18 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "54",
         "acceptableAnswers": [
-          "36"
+          "54"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **54**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tứ giác đều có cạnh đáy $10\\text{ cm}$, chiều cao $12\\text{ cm}$. Khối gỗ có thể tích bằng bao nhiêu $\\text{cm}^3$?",
-        "answer": "400",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "400"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **400**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn $2,5\\text{ m}$. Diện tích bạt xung quanh bằng bao nhiêu $\\text{m}^2$?",
-        "answer": "10",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "10"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Một hình chóp tứ giác đều có cạnh đáy $12\\text{ cm}$, chiều cao $8\\text{ cm}$. a) Tính thể tích hình chóp; b) Tính trung đoạn của hình chóp.",
-        "rubric": "a) Diện tích đáy: Sđ = 12 * 12 = 144 cm². Thể tích V = 1/3 * 144 * 8 = 384 cm³ (0.5đ). b) Nửa cạnh đáy là 6 cm. Trung đoạn d = √(8² + 6²) = √100 = 10 cm (0.5đ)."
+        "level": "Thông hiểu",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $24$ cm, trung đoạn dài $15$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 24 / 2 = 48 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 48 . 15 = 720 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (24)^2 = 576 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 1296 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một chiếc đèn lồng hình chóp tam giác đều có cạnh đáy $16\\text{ cm}$, trung đoạn $15\\text{ cm}$. Tính diện tích giấy kính cần dán kín 3 mặt bên của đèn lồng.",
-        "rubric": "Nửa chu vi đáy tam giác đều: p = (16 * 3)/2 = 24 cm (0.5đ). Diện tích xung quanh cần dán giấy kính: Sxq = p * d = 24 * 15 = 360 cm² (0.5đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $2.6$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc bánh kem hình chóp tứ giác đều có cạnh đáy $20\\text{ cm}$, chiều cao $24\\text{ cm}$. Người ta cắt một nhát song song với đáy ở chính giữa chiều cao để chia thành hai phần. Tính thể tích của phần hình chóp nhỏ phía trên.",
-        "rubric": "Phần chóp nhỏ đồng dạng với chóp lớn theo tỉ số k = 1/2 (0.5đ). Thể tích chóp lớn: V = 1/3 * 20² * 24 = 3200 cm³. Thể tích chóp nhỏ: V' = k³ * V = (1/8) * 3200 = 400 cm³ (0.5đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   },
   "c10_8_bai3_test4": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tam giác đều là hình gì?",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 04):",
         "options": [
           "Tam giác đều",
           "Tam giác vuông",
           "Tam giác cân",
-          "Tam giác thường"
+          "Tam giác vuông cân"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2669,12 +2675,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tứ giác đều là hình gì?",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
         "options": [
+          "Tam giác cân",
+          "Tam giác đều",
           "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình chữ nhật"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2682,12 +2688,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Các mặt bên của hình chóp đều là các tam giác gì?",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
-          "Các tam giác cân bằng nhau",
-          "Các tam giác đều",
-          "Các tam giác vuông",
-          "Các tam giác thường"
+          "$V = \\frac{1}{3} S \\cdot h$",
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{2} S \\cdot h$",
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2695,12 +2701,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Công thức tính thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "$V = \\frac{1}{3}S \\cdot h$",
-          "$V = S \\cdot h$",
-          "$V = 3S \\cdot h$",
-          "$V = \\frac{1}{2}S \\cdot h$"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2708,12 +2714,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$. Thể tích của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $16$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "$96\\text{ cm}^3$",
-          "$288\\text{ cm}^3$",
-          "$144\\text{ cm}^3$",
-          "$48\\text{ cm}^3$"
+          "$512$ cm$^3$",
+          "$1536$ cm$^3$",
+          "$256$ cm$^3$",
+          "$1024$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2721,12 +2727,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $20\\text{ cm}^2$ và chiều cao $9\\text{ cm}$. Thể tích là:",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $40$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "$60\\text{ cm}^3$",
-          "$180\\text{ cm}^3$",
-          "$30\\text{ cm}^3$",
-          "$90\\text{ cm}^3$"
+          "$120$ cm$^3$",
+          "$360$ cm$^3$",
+          "$180$ cm$^3$",
+          "$60$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2734,12 +2740,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có diện tích xung quanh $80\\text{ cm}^2$, cạnh đáy $5\\text{ cm}$. Trung đoạn của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $24$ cm, trung đoạn dài $20$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "$8\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$960$ cm$^2$",
+          "$1920$ cm$^2$",
+          "$480$ cm$^2$",
+          "$1440$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2747,12 +2753,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Số mặt, số đỉnh và số cạnh của hình chóp tứ giác đều lần lượt là:",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$5$ mặt, $5$ đỉnh, $8$ cạnh",
-          "$4$ mặt, $4$ đỉnh, $6$ cạnh",
-          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
-          "$5$ mặt, $6$ đỉnh, $9$ cạnh"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2760,12 +2766,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Kim tự tháp Kê-ốp ở Ai Cập có dạng hình chóp tứ giác đều có chiều cao khoảng $140\\text{ m}$, cạnh đáy dài khoảng $230\\text{ m}$. Thể tích kim tự tháp xấp xỉ là:",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $2.8$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$2\\,468\\,667\\text{ m}^3$",
-          "$7\\,406\\,000\\text{ m}^3$",
-          "$1\\,610\\,000\\text{ m}^3$",
-          "$3\\,220\\,000\\text{ m}^3$"
+          "12.88 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2773,12 +2779,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Người ta làm một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn của mặt bên là $2,5\\text{ m}$. Diện tích bạt cần dùng để dựng 4 mặt xung quanh lều là:",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $14$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$10\\text{ m}^2$",
-          "$20\\text{ m}^2$",
-          "$5\\text{ m}^2$",
-          "$15\\text{ m}^2$"
+          "252.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2786,12 +2792,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tam giác đều có chu vi đáy $18\\text{ cm}$, trung đoạn dài $8\\text{ cm}$. Diện tích xung quanh khối gỗ là:",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$72\\text{ cm}^2$",
-          "$144\\text{ cm}^2$",
-          "$36\\text{ cm}^2$",
-          "$48\\text{ cm}^2$"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2799,12 +2805,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Một hình chóp tứ giác đều có chiều cao $4\\text{ cm}$, cạnh bên dài $5\\text{ cm}$. Thể tích của hình chóp đó là:",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$24\\text{ cm}^3$",
-          "$72\\text{ cm}^3$",
-          "$48\\text{ cm}^3$",
-          "$36\\text{ cm}^3$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2813,33 +2819,33 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hình chóp đều (Mã đề 4):",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chóp đều có đáy là đa giác đều và chân đường cao trùng với tâm đường tròn ngoại tiếp đáy.",
+            "level": "Nhận biết",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trung đoạn là đường cao kẻ từ đỉnh của mỗi mặt bên tam giác cân.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp đều bằng nửa tích chu vi đáy với trung đoạn.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Các cạnh bên của hình chóp đều luôn vuông góc với mặt phẳng đáy.",
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -2847,35 +2853,35 @@ const EXAMS_8_C10_8 = {
       },
       {
         "id": 2,
-        "stem": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy $a = 10\\text{ cm}$, chiều cao $h = 12\\text{ cm}$:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 24 cm, chiều cao h = 16 cm (Mã đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Diện tích đáy của hình chóp là 100 cm^2.",
+            "level": "Nhận biết",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích của hình chóp S.ABCD là 400 cm^3.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 20 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Độ dài trung đoạn của hình chóp là căn(12^2 + 5^2) = 13 cm.",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 960 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích xung quanh của hình chóp là 260 cm^2.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2884,79 +2890,79 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính thể tích hình chóp tứ giác đều có diện tích đáy 30 cm^2, chiều cao 10 cm.",
-        "answer": "100",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 18 cm (cm^3).",
+        "answer": "150",
         "acceptableAnswers": [
-          "100"
+          "150"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có nửa chu vi đáy 12 cm, trung đoạn 6 cm. Tính diện tích xung quanh (cm^2).",
-        "answer": "72",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 19 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "57",
         "acceptableAnswers": [
-          "72"
+          "57"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **57**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Hình chóp tứ giác đều có cạnh đáy 6 cm, chiều cao 4 cm. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "5"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một chiếc hộp quà hình chóp tứ giác đều có cạnh đáy 8 cm, diện tích toàn phần 144 cm^2. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "level": "Vận dụng",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "5"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính diện tích xung quanh và thể tích hình chóp tứ giác đều có cạnh đáy 12 cm, chiều cao 8 cm và trung đoạn 10 cm.",
-        "rubric": "Chu vi đáy: 12 x 4 = 48 (cm). Nửa chu vi đáy: p = 24 (cm) (0.25đ).\nSxq = p x d = 24 x 10 = 240 (cm^2).\nV = (1/3) x S_day x h = (1/3) x 12^2 x 8 = 384 (cm^3) (0.25đ)."
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $32$ cm, trung đoạn dài $20$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 32 / 2 = 64 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 64 . 20 = 1280 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (32)^2 = 1024 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 2304 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Bác An muốn lợp tôn cho mái che của một chòi nghỉ chân dạng hình chóp tứ giác đều có cạnh đáy 4 m, trung đoạn 3 m. Biết chi phí lợp tôn là 180 000 đồng/m^2. Tính tổng chi phí lợp tôn cho 4 mặt mái chòi.",
-        "rubric": "Diện tích xung quanh mái chòi: Sxq = (4 x 4 / 2) x 3 = 24 (m^2) (0.25đ).\nChi phí lợp tôn: 24 x 180 000 = 4 320 000 (đồng) (0.25đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $2.8$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc đèn ngủ có chao đèn dạng hình chóp cụt tứ giác đều có hai đáy là hai hình vuông có cạnh lần lượt là 10 cm và 20 cm, chiều cao mặt bên (trung đoạn) là 15 cm. Người ta dán giấy trang trí toàn bộ 4 mặt bên xung quanh chao đèn. Tính diện tích giấy cần dùng.",
-        "rubric": "Mỗi mặt bên là hình thang cân có hai đáy 10 cm, 20 cm và chiều cao 15 cm (0.25đ).\nDiện tích 1 mặt bên: (10 + 20) x 15 / 2 = 225 (cm^2).\nDiện tích 4 mặt bên: 225 x 4 = 900 (cm^2) (0.25đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   },
   "c10_8_bai3_test5": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 5 (💡 Hình chóp đều & Thể tích thực tiễn)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tam giác đều là hình gì?",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 05):",
         "options": [
           "Tam giác đều",
           "Tam giác vuông",
           "Tam giác cân",
-          "Tam giác thường"
+          "Tam giác vuông cân"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2964,12 +2970,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tứ giác đều là hình gì?",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
         "options": [
+          "Tam giác cân",
+          "Tam giác đều",
           "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình chữ nhật"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2977,12 +2983,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Các mặt bên của hình chóp đều là các tam giác gì?",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
-          "Các tam giác cân bằng nhau",
-          "Các tam giác đều",
-          "Các tam giác vuông",
-          "Các tam giác thường"
+          "$V = \\frac{1}{3} S \\cdot h$",
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{2} S \\cdot h$",
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -2990,12 +2996,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Công thức tính thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "$V = \\frac{1}{3}S \\cdot h$",
-          "$V = S \\cdot h$",
-          "$V = 3S \\cdot h$",
-          "$V = \\frac{1}{2}S \\cdot h$"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3003,12 +3009,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$. Thể tích của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $20$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "$96\\text{ cm}^3$",
-          "$288\\text{ cm}^3$",
-          "$144\\text{ cm}^3$",
-          "$48\\text{ cm}^3$"
+          "$800$ cm$^3$",
+          "$2400$ cm$^3$",
+          "$400$ cm$^3$",
+          "$1600$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3016,12 +3022,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $20\\text{ cm}^2$ và chiều cao $9\\text{ cm}$. Thể tích là:",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $50$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "$60\\text{ cm}^3$",
-          "$180\\text{ cm}^3$",
-          "$30\\text{ cm}^3$",
-          "$90\\text{ cm}^3$"
+          "$150$ cm$^3$",
+          "$450$ cm$^3$",
+          "$225$ cm$^3$",
+          "$75$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3029,12 +3035,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có diện tích xung quanh $80\\text{ cm}^2$, cạnh đáy $5\\text{ cm}$. Trung đoạn của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $30$ cm, trung đoạn dài $25$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "$8\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$1500$ cm$^2$",
+          "$3000$ cm$^2$",
+          "$750$ cm$^2$",
+          "$2250$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3042,12 +3048,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Số mặt, số đỉnh và số cạnh của hình chóp tứ giác đều lần lượt là:",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$5$ mặt, $5$ đỉnh, $8$ cạnh",
-          "$4$ mặt, $4$ đỉnh, $6$ cạnh",
-          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
-          "$5$ mặt, $6$ đỉnh, $9$ cạnh"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3055,12 +3061,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Kim tự tháp Kê-ốp ở Ai Cập có dạng hình chóp tứ giác đều có chiều cao khoảng $140\\text{ m}$, cạnh đáy dài khoảng $230\\text{ m}$. Thể tích kim tự tháp xấp xỉ là:",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $3.0$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$2\\,468\\,667\\text{ m}^3$",
-          "$7\\,406\\,000\\text{ m}^3$",
-          "$1\\,610\\,000\\text{ m}^3$",
-          "$3\\,220\\,000\\text{ m}^3$"
+          "13.80 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3068,12 +3074,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Người ta làm một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn của mặt bên là $2,5\\text{ m}$. Diện tích bạt cần dùng để dựng 4 mặt xung quanh lều là:",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $15$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$10\\text{ m}^2$",
-          "$20\\text{ m}^2$",
-          "$5\\text{ m}^2$",
-          "$15\\text{ m}^2$"
+          "270.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3081,12 +3087,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tam giác đều có chu vi đáy $18\\text{ cm}$, trung đoạn dài $8\\text{ cm}$. Diện tích xung quanh khối gỗ là:",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$72\\text{ cm}^2$",
-          "$144\\text{ cm}^2$",
-          "$36\\text{ cm}^2$",
-          "$48\\text{ cm}^2$"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3094,12 +3100,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Một hình chóp tứ giác đều có chiều cao $4\\text{ cm}$, cạnh bên dài $5\\text{ cm}$. Thể tích của hình chóp đó là:",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$24\\text{ cm}^3$",
-          "$72\\text{ cm}^3$",
-          "$48\\text{ cm}^3$",
-          "$36\\text{ cm}^3$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3108,33 +3114,33 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hình chóp đều (Mã đề 5):",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chóp đều có đáy là đa giác đều và chân đường cao trùng với tâm đường tròn ngoại tiếp đáy.",
+            "level": "Nhận biết",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trung đoạn là đường cao kẻ từ đỉnh của mỗi mặt bên tam giác cân.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp đều bằng nửa tích chu vi đáy với trung đoạn.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Các cạnh bên của hình chóp đều luôn vuông góc với mặt phẳng đáy.",
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3142,35 +3148,35 @@ const EXAMS_8_C10_8 = {
       },
       {
         "id": 2,
-        "stem": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy $a = 10\\text{ cm}$, chiều cao $h = 12\\text{ cm}$:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 30 cm, chiều cao h = 20 cm (Mã đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Diện tích đáy của hình chóp là 100 cm^2.",
+            "level": "Nhận biết",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích của hình chóp S.ABCD là 400 cm^3.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 25 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Độ dài trung đoạn của hình chóp là căn(12^2 + 5^2) = 13 cm.",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 1500 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích xung quanh của hình chóp là 260 cm^2.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3179,79 +3185,79 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính thể tích hình chóp tứ giác đều có diện tích đáy 30 cm^2, chiều cao 10 cm.",
-        "answer": "100",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 21 cm (cm^3).",
+        "answer": "175",
         "acceptableAnswers": [
-          "100"
+          "175"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **175**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có nửa chu vi đáy 12 cm, trung đoạn 6 cm. Tính diện tích xung quanh (cm^2).",
-        "answer": "72",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 20 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "60",
         "acceptableAnswers": [
-          "72"
+          "60"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Hình chóp tứ giác đều có cạnh đáy 6 cm, chiều cao 4 cm. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "5"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một chiếc hộp quà hình chóp tứ giác đều có cạnh đáy 8 cm, diện tích toàn phần 144 cm^2. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "level": "Vận dụng",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "5"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính diện tích xung quanh và thể tích hình chóp tứ giác đều có cạnh đáy 12 cm, chiều cao 8 cm và trung đoạn 10 cm.",
-        "rubric": "Chu vi đáy: 12 x 4 = 48 (cm). Nửa chu vi đáy: p = 24 (cm) (0.25đ).\nSxq = p x d = 24 x 10 = 240 (cm^2).\nV = (1/3) x S_day x h = (1/3) x 12^2 x 8 = 384 (cm^3) (0.25đ)."
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $40$ cm, trung đoạn dài $25$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 40 / 2 = 80 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 80 . 25 = 2000 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (40)^2 = 1600 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 3600 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Bác An muốn lợp tôn cho mái che của một chòi nghỉ chân dạng hình chóp tứ giác đều có cạnh đáy 4 m, trung đoạn 3 m. Biết chi phí lợp tôn là 180 000 đồng/m^2. Tính tổng chi phí lợp tôn cho 4 mặt mái chòi.",
-        "rubric": "Diện tích xung quanh mái chòi: Sxq = (4 x 4 / 2) x 3 = 24 (m^2) (0.25đ).\nChi phí lợp tôn: 24 x 180 000 = 4 320 000 (đồng) (0.25đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $3.0$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc đèn ngủ có chao đèn dạng hình chóp cụt tứ giác đều có hai đáy là hai hình vuông có cạnh lần lượt là 10 cm và 20 cm, chiều cao mặt bên (trung đoạn) là 15 cm. Người ta dán giấy trang trí toàn bộ 4 mặt bên xung quanh chao đèn. Tính diện tích giấy cần dùng.",
-        "rubric": "Mỗi mặt bên là hình thang cân có hai đáy 10 cm, 20 cm và chiều cao 15 cm (0.25đ).\nDiện tích 1 mặt bên: (10 + 20) x 15 / 2 = 225 (cm^2).\nDiện tích 4 mặt bên: 225 x 4 = 900 (cm^2) (0.25đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   },
   "c10_8_bai3_test6": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tam giác đều là hình gì?",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 06):",
         "options": [
           "Tam giác đều",
           "Tam giác vuông",
           "Tam giác cân",
-          "Tam giác thường"
+          "Tam giác vuông cân"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3259,12 +3265,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tứ giác đều là hình gì?",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
         "options": [
+          "Tam giác cân",
+          "Tam giác đều",
           "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình chữ nhật"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3272,12 +3278,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Các mặt bên của hình chóp đều là các tam giác gì?",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
-          "Các tam giác cân bằng nhau",
-          "Các tam giác đều",
-          "Các tam giác vuông",
-          "Các tam giác thường"
+          "$V = \\frac{1}{3} S \\cdot h$",
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{2} S \\cdot h$",
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3285,12 +3291,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Công thức tính thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "$V = \\frac{1}{3}S \\cdot h$",
-          "$V = S \\cdot h$",
-          "$V = 3S \\cdot h$",
-          "$V = \\frac{1}{2}S \\cdot h$"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3298,12 +3304,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$. Thể tích của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $24$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "$96\\text{ cm}^3$",
-          "$288\\text{ cm}^3$",
-          "$144\\text{ cm}^3$",
-          "$48\\text{ cm}^3$"
+          "$1152$ cm$^3$",
+          "$3456$ cm$^3$",
+          "$576$ cm$^3$",
+          "$2304$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3311,12 +3317,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $20\\text{ cm}^2$ và chiều cao $9\\text{ cm}$. Thể tích là:",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $60$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "$60\\text{ cm}^3$",
-          "$180\\text{ cm}^3$",
-          "$30\\text{ cm}^3$",
-          "$90\\text{ cm}^3$"
+          "$180$ cm$^3$",
+          "$540$ cm$^3$",
+          "$270$ cm$^3$",
+          "$90$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3324,12 +3330,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có diện tích xung quanh $80\\text{ cm}^2$, cạnh đáy $5\\text{ cm}$. Trung đoạn của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $36$ cm, trung đoạn dài $30$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "$8\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$2160$ cm$^2$",
+          "$4320$ cm$^2$",
+          "$1080$ cm$^2$",
+          "$3240$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3337,12 +3343,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Số mặt, số đỉnh và số cạnh của hình chóp tứ giác đều lần lượt là:",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$5$ mặt, $5$ đỉnh, $8$ cạnh",
-          "$4$ mặt, $4$ đỉnh, $6$ cạnh",
-          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
-          "$5$ mặt, $6$ đỉnh, $9$ cạnh"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3350,12 +3356,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Kim tự tháp Kê-ốp ở Ai Cập có dạng hình chóp tứ giác đều có chiều cao khoảng $140\\text{ m}$, cạnh đáy dài khoảng $230\\text{ m}$. Thể tích kim tự tháp xấp xỉ là:",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $3.2$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$2\\,468\\,667\\text{ m}^3$",
-          "$7\\,406\\,000\\text{ m}^3$",
-          "$1\\,610\\,000\\text{ m}^3$",
-          "$3\\,220\\,000\\text{ m}^3$"
+          "14.72 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3363,12 +3369,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Người ta làm một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn của mặt bên là $2,5\\text{ m}$. Diện tích bạt cần dùng để dựng 4 mặt xung quanh lều là:",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $16$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$10\\text{ m}^2$",
-          "$20\\text{ m}^2$",
-          "$5\\text{ m}^2$",
-          "$15\\text{ m}^2$"
+          "288.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3376,12 +3382,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tam giác đều có chu vi đáy $18\\text{ cm}$, trung đoạn dài $8\\text{ cm}$. Diện tích xung quanh khối gỗ là:",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$72\\text{ cm}^2$",
-          "$144\\text{ cm}^2$",
-          "$36\\text{ cm}^2$",
-          "$48\\text{ cm}^2$"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3389,12 +3395,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Một hình chóp tứ giác đều có chiều cao $4\\text{ cm}$, cạnh bên dài $5\\text{ cm}$. Thể tích của hình chóp đó là:",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$24\\text{ cm}^3$",
-          "$72\\text{ cm}^3$",
-          "$48\\text{ cm}^3$",
-          "$36\\text{ cm}^3$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3403,33 +3409,33 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hình chóp đều (Mã đề 6):",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chóp đều có đáy là đa giác đều và chân đường cao trùng với tâm đường tròn ngoại tiếp đáy.",
+            "level": "Nhận biết",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trung đoạn là đường cao kẻ từ đỉnh của mỗi mặt bên tam giác cân.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp đều bằng nửa tích chu vi đáy với trung đoạn.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Các cạnh bên của hình chóp đều luôn vuông góc với mặt phẳng đáy.",
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3437,35 +3443,35 @@ const EXAMS_8_C10_8 = {
       },
       {
         "id": 2,
-        "stem": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy $a = 10\\text{ cm}$, chiều cao $h = 12\\text{ cm}$:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 36 cm, chiều cao h = 24 cm (Mã đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Diện tích đáy của hình chóp là 100 cm^2.",
+            "level": "Nhận biết",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích của hình chóp S.ABCD là 400 cm^3.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 30 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Độ dài trung đoạn của hình chóp là căn(12^2 + 5^2) = 13 cm.",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 2160 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích xung quanh của hình chóp là 260 cm^2.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3474,79 +3480,79 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính thể tích hình chóp tứ giác đều có diện tích đáy 30 cm^2, chiều cao 10 cm.",
-        "answer": "100",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 24 cm (cm^3).",
+        "answer": "200",
         "acceptableAnswers": [
-          "100"
+          "200"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **200**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có nửa chu vi đáy 12 cm, trung đoạn 6 cm. Tính diện tích xung quanh (cm^2).",
-        "answer": "72",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 21 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "63",
         "acceptableAnswers": [
-          "72"
+          "63"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **63**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Hình chóp tứ giác đều có cạnh đáy 6 cm, chiều cao 4 cm. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "5"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một chiếc hộp quà hình chóp tứ giác đều có cạnh đáy 8 cm, diện tích toàn phần 144 cm^2. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "level": "Vận dụng",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "5"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính diện tích xung quanh và thể tích hình chóp tứ giác đều có cạnh đáy 12 cm, chiều cao 8 cm và trung đoạn 10 cm.",
-        "rubric": "Chu vi đáy: 12 x 4 = 48 (cm). Nửa chu vi đáy: p = 24 (cm) (0.25đ).\nSxq = p x d = 24 x 10 = 240 (cm^2).\nV = (1/3) x S_day x h = (1/3) x 12^2 x 8 = 384 (cm^3) (0.25đ)."
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $48$ cm, trung đoạn dài $30$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 48 / 2 = 96 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 96 . 30 = 2880 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (48)^2 = 2304 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 5184 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Bác An muốn lợp tôn cho mái che của một chòi nghỉ chân dạng hình chóp tứ giác đều có cạnh đáy 4 m, trung đoạn 3 m. Biết chi phí lợp tôn là 180 000 đồng/m^2. Tính tổng chi phí lợp tôn cho 4 mặt mái chòi.",
-        "rubric": "Diện tích xung quanh mái chòi: Sxq = (4 x 4 / 2) x 3 = 24 (m^2) (0.25đ).\nChi phí lợp tôn: 24 x 180 000 = 4 320 000 (đồng) (0.25đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $3.2$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc đèn ngủ có chao đèn dạng hình chóp cụt tứ giác đều có hai đáy là hai hình vuông có cạnh lần lượt là 10 cm và 20 cm, chiều cao mặt bên (trung đoạn) là 15 cm. Người ta dán giấy trang trí toàn bộ 4 mặt bên xung quanh chao đèn. Tính diện tích giấy cần dùng.",
-        "rubric": "Mỗi mặt bên là hình thang cân có hai đáy 10 cm, 20 cm và chiều cao 15 cm (0.25đ).\nDiện tích 1 mặt bên: (10 + 20) x 15 / 2 = 225 (cm^2).\nDiện tích 4 mặt bên: 225 x 4 = 900 (cm^2) (0.25đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   },
   "c10_8_bai3_test7": {
-    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 8 (KNTT) - Bài kiểm tra cuối Chương X: Một số hình khối trong thực tiễn - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tam giác đều là hình gì?",
+        "question": "Hình chóp tam giác đều có mặt đáy là (Đề 07):",
         "options": [
           "Tam giác đều",
           "Tam giác vuông",
           "Tam giác cân",
-          "Tam giác thường"
+          "Tam giác vuông cân"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3554,12 +3560,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Mặt đáy của hình chóp tứ giác đều là hình gì?",
+        "question": "Các mặt bên của hình chóp tứ giác đều là những:",
         "options": [
+          "Tam giác cân",
+          "Tam giác đều",
           "Hình vuông",
-          "Hình thoi",
-          "Hình chữ nhật",
-          "Hình bình hành"
+          "Hình chữ nhật"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3567,12 +3573,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Các mặt bên của hình chóp đều là các tam giác gì?",
+        "question": "Thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ được tính bởi:",
         "options": [
-          "Các tam giác cân bằng nhau",
-          "Các tam giác đều",
-          "Các tam giác vuông",
-          "Các tam giác thường"
+          "$V = \\frac{1}{3} S \\cdot h$",
+          "$V = S \\cdot h$",
+          "$V = \\frac{1}{2} S \\cdot h$",
+          "$V = 3 S \\cdot h$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3580,12 +3586,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Công thức tính thể tích của hình chóp có diện tích đáy $S$ và chiều cao $h$ là:",
+        "question": "Diện tích xung quanh của hình chóp tam giác đều bằng:",
         "options": [
-          "$V = \\frac{1}{3}S \\cdot h$",
-          "$V = S \\cdot h$",
-          "$V = 3S \\cdot h$",
-          "$V = \\frac{1}{2}S \\cdot h$"
+          "Tổng diện tích của 3 mặt bên",
+          "Diện tích đáy",
+          "Tổng diện tích đáy và mặt bên",
+          "Nửa diện tích các mặt bên"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3593,12 +3599,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có cạnh đáy $6\\text{ cm}$, chiều cao $8\\text{ cm}$. Thể tích của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $28$ cm và chiều cao bằng $6$ cm. Thể tích hình chóp là:",
         "options": [
-          "$96\\text{ cm}^3$",
-          "$288\\text{ cm}^3$",
-          "$144\\text{ cm}^3$",
-          "$48\\text{ cm}^3$"
+          "$1568$ cm$^3$",
+          "$4704$ cm$^3$",
+          "$784$ cm$^3$",
+          "$3136$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3606,12 +3612,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $20\\text{ cm}^2$ và chiều cao $9\\text{ cm}$. Thể tích là:",
+        "question": "Một hình chóp tam giác đều có diện tích đáy bằng $70$ cm$^2$, chiều cao bằng $9$ cm. Thể tích của hình chóp là:",
         "options": [
-          "$60\\text{ cm}^3$",
-          "$180\\text{ cm}^3$",
-          "$30\\text{ cm}^3$",
-          "$90\\text{ cm}^3$"
+          "$210$ cm$^3$",
+          "$630$ cm$^3$",
+          "$315$ cm$^3$",
+          "$105$ cm$^3$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3619,12 +3625,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hình chóp tứ giác đều có diện tích xung quanh $80\\text{ cm}^2$, cạnh đáy $5\\text{ cm}$. Trung đoạn của hình chóp là:",
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $42$ cm, trung đoạn dài $35$ cm. Diện tích xung quanh của hình chóp là:",
         "options": [
-          "$8\\text{ cm}$",
-          "$4\\text{ cm}$",
-          "$16\\text{ cm}$",
-          "$10\\text{ cm}$"
+          "$2940$ cm$^2$",
+          "$5880$ cm$^2$",
+          "$1470$ cm$^2$",
+          "$4410$ cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3632,12 +3638,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Số mặt, số đỉnh và số cạnh của hình chóp tứ giác đều lần lượt là:",
+        "question": "Hình chóp tam giác đều có số đỉnh, số mặt và số cạnh lần lượt là:",
         "options": [
-          "$5$ mặt, $5$ đỉnh, $8$ cạnh",
-          "$4$ mặt, $4$ đỉnh, $6$ cạnh",
-          "$6$ mặt, $8$ đỉnh, $12$ cạnh",
-          "$5$ mặt, $6$ đỉnh, $9$ cạnh"
+          "4 đỉnh, 4 mặt, 6 cạnh",
+          "3 đỉnh, 4 mặt, 5 cạnh",
+          "5 đỉnh, 5 mặt, 8 cạnh",
+          "4 đỉnh, 5 mặt, 6 cạnh"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3645,12 +3651,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Kim tự tháp Kê-ốp ở Ai Cập có dạng hình chóp tứ giác đều có chiều cao khoảng $140\\text{ m}$, cạnh đáy dài khoảng $230\\text{ m}$. Thể tích kim tự tháp xấp xỉ là:",
+        "question": "Người ta làm một chiếc lều cắm trại hình chóp tứ giác đều có cạnh đáy $3.4$ mét và chiều cao $2$ mét. Trung đoạn của chiếc lều xấp xỉ bằng $2,3$ mét. Diện tích vải bạt cần để phủ 4 mặt bên chiếc lều (không tính đáy) là:",
         "options": [
-          "$2\\,468\\,667\\text{ m}^3$",
-          "$7\\,406\\,000\\text{ m}^3$",
-          "$1\\,610\\,000\\text{ m}^3$",
-          "$3\\,220\\,000\\text{ m}^3$"
+          "15.64 mét vuông",
+          "10 mét vuông",
+          "15 mét vuông",
+          "8 mét vuông"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3658,12 +3664,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Người ta làm một chiếc lều hình chóp tứ giác đều có cạnh đáy $2\\text{ m}$, trung đoạn của mặt bên là $2,5\\text{ m}$. Diện tích bạt cần dùng để dựng 4 mặt xung quanh lều là:",
+        "question": "Một hộp quà lưu niệm hình chóp tam giác đều có cạnh đáy $17$ cm và trung đoạn $12$ cm. Diện tích xung quanh hộp quà là:",
         "options": [
-          "$10\\text{ m}^2$",
-          "$20\\text{ m}^2$",
-          "$5\\text{ m}^2$",
-          "$15\\text{ m}^2$"
+          "306.0 cm$^2$",
+          "150 cm$^2$",
+          "200 cm$^2$",
+          "180 cm$^2$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3671,12 +3677,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một khối gỗ hình chóp tam giác đều có chu vi đáy $18\\text{ cm}$, trung đoạn dài $8\\text{ cm}$. Diện tích xung quanh khối gỗ là:",
+        "question": "Kim tự tháp Louvre tại Pháp có dạng hình chóp tứ giác đều với cạnh đáy dài $35$ mét và chiều cao $21$ mét. Thể tích không gian bên trong kim tự tháp Louvre là:",
         "options": [
-          "$72\\text{ cm}^2$",
-          "$144\\text{ cm}^2$",
-          "$36\\text{ cm}^2$",
-          "$48\\text{ cm}^2$"
+          "$8 575$ mét khối",
+          "$25 725$ mét khối",
+          "$10 000$ mét khối",
+          "$12 000$ mét khối"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3684,12 +3690,12 @@ const EXAMS_8_C10_8 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Một hình chóp tứ giác đều có chiều cao $4\\text{ cm}$, cạnh bên dài $5\\text{ cm}$. Thể tích của hình chóp đó là:",
+        "question": "Một chiếc đèn thả trần hình chóp tứ giác đều có các cạnh bên bằng nhau và góc giữa cạnh bên và mặt đáy là $45^\\circ$. Biết cạnh đáy bằng $a$. Chiều cao của chiếc đèn tính theo $a$ là:",
         "options": [
-          "$24\\text{ cm}^3$",
-          "$72\\text{ cm}^3$",
-          "$48\\text{ cm}^3$",
-          "$36\\text{ cm}^3$"
+          "$\\frac{a\\sqrt{2}}{2}$",
+          "$a$",
+          "$\\frac{a}{2}$",
+          "$a\\sqrt{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3698,33 +3704,33 @@ const EXAMS_8_C10_8 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hình chóp đều (Mã đề 7):",
+        "stem": "Xét tính đúng sai về hình chóp đều (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Hình chóp đều có đáy là đa giác đều và chân đường cao trùng với tâm đường tròn ngoại tiếp đáy.",
+            "level": "Nhận biết",
+            "text": "Hình chóp tứ giác đều có đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Trung đoạn là đường cao kẻ từ đỉnh của mỗi mặt bên tam giác cân.",
+            "text": "Trung đoạn của hình chóp đều là đường cao của một mặt bên xuất phát từ đỉnh hình chóp.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Diện tích xung quanh của hình chóp đều bằng nửa tích chu vi đáy với trung đoạn.",
+            "text": "Thể tích của hình chóp bằng một phần ba tích của diện tích đáy và chiều cao.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Các cạnh bên của hình chóp đều luôn vuông góc với mặt phẳng đáy.",
+            "text": "Diện tích toàn phần của hình chóp luôn bằng hai lần diện tích xung quanh.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3732,35 +3738,35 @@ const EXAMS_8_C10_8 = {
       },
       {
         "id": 2,
-        "stem": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy $a = 10\\text{ cm}$, chiều cao $h = 12\\text{ cm}$:",
+        "stem": "Bài toán thiết kế hộp đựng bánh trung thu hình chóp tứ giác đều có cạnh đáy a = 42 cm, chiều cao h = 28 cm (Mã đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Diện tích đáy của hình chóp là 100 cm^2.",
+            "level": "Nhận biết",
+            "text": "Diện tích đáy của hộp bánh là S_đáy = a^2 = 36*t^2 cm^2.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Thể tích của hình chóp S.ABCD là 400 cm^3.",
+            "text": "Trung đoạn d của hình chóp tính theo Pythagore là d = căn(h^2 + (a/2)^2) = 35 cm.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Độ dài trung đoạn của hình chóp là căn(12^2 + 5^2) = 13 cm.",
+            "text": "Diện tích xung quanh của hộp bánh là S_xq = 4 . (1/2 . a . d) = 2940 cm^2.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Diện tích xung quanh của hình chóp là 260 cm^2.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+            "text": "Thể tích hộp bánh lớn hơn 2 lít với mọi giá trị của t từ 1 đến 7.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3769,62 +3775,62 @@ const EXAMS_8_C10_8 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính thể tích hình chóp tứ giác đều có diện tích đáy 30 cm^2, chiều cao 10 cm.",
-        "answer": "100",
+        "question": "Tính thể tích của hình chóp tứ giác đều có diện tích đáy 25 cm^2 và chiều cao 27 cm (cm^3).",
+        "answer": "225",
         "acceptableAnswers": [
-          "100"
+          "225"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **225**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Hình chóp tam giác đều có nửa chu vi đáy 12 cm, trung đoạn 6 cm. Tính diện tích xung quanh (cm^2).",
-        "answer": "72",
+        "question": "Một hình chóp tam giác đều có 3 mặt bên là 3 tam giác có diện tích mỗi mặt bằng 22 cm^2. Tính diện tích xung quanh (cm^2).",
+        "answer": "66",
         "acceptableAnswers": [
-          "72"
+          "66"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **66**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Hình chóp tứ giác đều có cạnh đáy 6 cm, chiều cao 4 cm. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "question": "Một khối rubik hình chóp tam giác đều có cạnh đáy 6 cm, chiều cao mặt đáy 5,2 cm và chiều cao hình chóp 5 cm. Tính thể tích khối rubik (làm tròn 1 chữ số thập phân, cm^3).",
+        "answer": "26.0",
         "acceptableAnswers": [
-          "5"
+          "26.0"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **26.0**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Một chiếc hộp quà hình chóp tứ giác đều có cạnh đáy 8 cm, diện tích toàn phần 144 cm^2. Tính độ dài trung đoạn (cm).",
-        "answer": "5",
+        "level": "Vận dụng",
+        "question": "Người ta đúc một cột mốc bằng bê tông dạng hình chóp tứ giác đều có cạnh đáy 0,4 mét và chiều cao 0,9 mét. Biết mỗi mét khối bê tông nặng 2 400 kg. Tính khối lượng cột mốc (kg).",
+        "answer": "115.2",
         "acceptableAnswers": [
-          "5"
+          "115.2"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115.2**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính diện tích xung quanh và thể tích hình chóp tứ giác đều có cạnh đáy 12 cm, chiều cao 8 cm và trung đoạn 10 cm.",
-        "rubric": "Chu vi đáy: 12 x 4 = 48 (cm). Nửa chu vi đáy: p = 24 (cm) (0.25đ).\nSxq = p x d = 24 x 10 = 240 (cm^2).\nV = (1/3) x S_day x h = (1/3) x 12^2 x 8 = 384 (cm^3) (0.25đ)."
+        "question": "Một hình chóp tứ giác đều có cạnh đáy bằng $56$ cm, trung đoạn dài $35$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình chóp đó.",
+        "rubric": "Nửa chu vi đáy p = 4 . 56 / 2 = 112 (cm) (0.25đ).\nDiện tích xung quanh: S_xq = p . d = 112 . 35 = 3920 (cm^2) (0.25đ).\nDiện tích đáy S_đáy = (56)^2 = 3136 (cm^2) (0.25đ).\nDiện tích toàn phần S_tp = S_xq + S_đáy = 7056 (cm^2) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Bác An muốn lợp tôn cho mái che của một chòi nghỉ chân dạng hình chóp tứ giác đều có cạnh đáy 4 m, trung đoạn 3 m. Biết chi phí lợp tôn là 180 000 đồng/m^2. Tính tổng chi phí lợp tôn cho 4 mặt mái chòi.",
-        "rubric": "Diện tích xung quanh mái chòi: Sxq = (4 x 4 / 2) x 3 = 24 (m^2) (0.25đ).\nChi phí lợp tôn: 24 x 180 000 = 4 320 000 (đồng) (0.25đ)."
+        "question": "Bác Ba làm một mái che giếng trời bằng kính cường lực có dạng hình chóp tứ giác đều. Cạnh đáy hình vuông dài $3.4$ mét, chiều cao từ đỉnh chóp xuống tâm đáy là $1,2$ mét. Biết giá tiền kính cường lực kèm khung nhôm là $1 500 000$ đồng mỗi mét vuông. Tính số tiền bác Ba cần chi trả để lắp đặt 4 mặt bên của mái che giếng trời.",
+        "rubric": "Tính độ dài trung đoạn của mái che theo định lí Pythagore (0.25đ).\nTính diện tích xung quanh của 4 mặt bên kính cường lực (0.25đ).\nNhân diện tích với đơn giá 1 500 000 đồng/m^2 (0.25đ).\nKết luận tổng số tiền bác Ba cần chi trả (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một chiếc đèn ngủ có chao đèn dạng hình chóp cụt tứ giác đều có hai đáy là hai hình vuông có cạnh lần lượt là 10 cm và 20 cm, chiều cao mặt bên (trung đoạn) là 15 cm. Người ta dán giấy trang trí toàn bộ 4 mặt bên xung quanh chao đèn. Tính diện tích giấy cần dùng.",
-        "rubric": "Mỗi mặt bên là hình thang cân có hai đáy 10 cm, 20 cm và chiều cao 15 cm (0.25đ).\nDiện tích 1 mặt bên: (10 + 20) x 15 / 2 = 225 (cm^2).\nDiện tích 4 mặt bên: 225 x 4 = 900 (cm^2) (0.25đ)."
+        "question": "Một chiếc lều hình chóp tứ giác đều có thể tích $V = 18\\text{ m}^3$. Hỏi cần thiết kế chiều cao $h$ và cạnh đáy $a$ như thế nào để tổng diện tích vải bạt xung quanh lều là nhỏ nhất?",
+        "rubric": "Công thức thể tích: V = 1/3 . a^2 . h = 18 => h = 54 / a^2 (0.25đ).\nTrung đoạn d = căn(h^2 + a^2/4) = căn(54^2/a^4 + a^2/4) (0.25đ).\nDiện tích xung quanh S_xq = 2 . a . d = 2 . căn(54^2/a^2 + a^4/4) (0.25đ).\nÁp dụng bất đẳng thức Cauchy tìm được giá trị nhỏ nhất của diện tích xung quanh (0.25đ)."
       }
     ]
   }

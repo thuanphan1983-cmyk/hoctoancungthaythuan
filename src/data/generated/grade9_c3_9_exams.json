@@ -3,7 +3,7 @@
   "chapterId": "c3_9",
   "chapterTitle": "Chương III: Căn bậc hai và căn bậc ba",
   "totalExams": 19,
-  "updatedAt": "2026-11-01 19:28:20",
+  "updatedAt": "2026-11-02 06:43:13",
   "exams": {
     "c3_9_bai1_test1": {
       "title": "Toán 9 (KNTT) - Bài 7: Căn bậc hai và căn thức bậc hai - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -3462,205 +3462,233 @@
       ]
     },
     "c3_9_bai5_test1": {
-      "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương III - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Căn bậc hai số học của $36$ là:",
+          "question": "Căn bậc hai số học của số $1$ là:",
           "options": [
-            "$6$",
-            "$18$",
-            "$-6$",
-            "$\\pm 6$"
+            "$1$",
+            "$-1$",
+            "$\\pm 1$",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Căn thức $\\sqrt{x - 4}$ có nghĩa khi:",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
-            "$x \\ge 4$",
-            "$x > 4$",
-            "$x < 4$",
-            "$x \\le 4$"
+            "$A \\ge 0$",
+            "$A > 0$",
+            "$A \\le 0$",
+            "$A \\neq 0$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Khẳng định nào sau đây đúng với mọi $a \\ge 0, b \\ge 0$?",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$\\sqrt{ab} = a\\sqrt{b}$",
-            "$\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}$",
-            "$\\sqrt{ab} = \\sqrt{a} \\cdot \\sqrt{b}$",
-            "$\\sqrt{a - b} = \\sqrt{a} - \\sqrt{b}$"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Căn bậc ba của $-125$ là:",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "Không xác định",
-            "$5$",
-            "$-5$",
-            "$\\pm 5$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Giá trị của biểu thức $\\sqrt{(-7)^2}$ là:",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 2}$ là:",
           "options": [
-            "$49$",
-            "$-7$",
-            "$\\pm 7$",
-            "$7$"
+            "$x \\ge 1$",
+            "$x > 1$",
+            "$x \\le 1$",
+            "$x \\neq 1$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $\\sqrt{50} - \\sqrt{18}$ được kết quả là:",
+          "question": "Rút gọn biểu thức căn((căn(2) - 1)^2) ta được kết quả là:",
           "options": [
-            "$8\\sqrt{2}$",
-            "$4\\sqrt{2}$",
-            "$\\sqrt{32}$",
-            "$2\\sqrt{2}$"
+            "căn(2) - 1",
+            "1 - căn(2)",
+            "căn(2) + 1",
+            "0"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Trục căn thức ở mẫu của $\\frac{2}{\\sqrt{2}}$ ta được:",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 1} + \\sqrt{9 \\cdot 1} - \\sqrt{16 \\cdot 1}$ ta được:",
           "options": [
-            "$\\sqrt{2}$",
-            "$1$",
-            "$\\frac{1}{\\sqrt{2}}$",
-            "$2$"
+            "$\\sqrt{1}$",
+            "$2\\sqrt{1}$",
+            "$3\\sqrt{1}$",
+            "$0$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Giá trị của $\\sqrt[3]{8} + \\sqrt[3]{27}$ là:",
+          "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{1}}$ ta được kết quả là:",
           "options": [
-            "$6$",
-            "$\\sqrt[3]{35}$",
-            "$5$",
-            "$35$"
+            "$\\sqrt{1}$",
+            "$1\\sqrt{1}$",
+            "$\\frac{\\sqrt{1}}{1}$",
+            "$1$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình $\\sqrt{x} = 4$ là:",
+          "level": "Vận dụng",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 0.8 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$x = \\pm 16$",
-            "$x = 16$",
-            "$x = 2$",
-            "$x = 8$"
+            "3.19 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $\\sqrt{4 - 2\\sqrt{3}}$ được kết quả là:",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $0.8\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "$2 - \\sqrt{3}$",
-            "$1 - \\sqrt{3}$",
-            "$\\sqrt{3} + 1$",
-            "$\\sqrt{3} - 1$"
+            "$1\\text{ m}$",
+            "$0.0\\text{ m}$",
+            "$0.0\\text{ m}$",
+            "2 m"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\frac{x - 1}{\\sqrt{x} + 1}$ với $x \\ge 0$. Giá trị của $P$ khi $x = 9$ là:",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{1}$ ta được kết quả là:",
           "options": [
-            "$3$",
             "$2$",
-            "$4$",
-            "$8$"
+            "$1$",
+            "$0$",
+            "$2$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình $\\sqrt[3]{x - 1} = 2$. Nghiệm là:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 5$ với $x \\ge 0$ là:",
           "options": [
-            "$x = 8$",
-            "$x = 9$",
-            "$x = 7$",
-            "$x = 5$"
+            "$4$",
+            "$5$",
+            "$1$",
+            "$3$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho biểu thức $A = \\sqrt{20} - 2\\sqrt{45} + 3\\sqrt{5}$. Xét tính đúng/sai:",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 01):",
           "statements": [
             {
-              "subId": "a",
-              "text": "Ta có $\\sqrt{20} = 2\\sqrt{5}$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Ta có $2\\sqrt{45} = 6\\sqrt{5}$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Căn bậc hai số học của 1 là 1.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Biểu thức thu gọn được $A = -\\sqrt{5}$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Biểu thức căn(x - 1) xác định khi x >= 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Biểu thức $A$ có giá trị dương.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của biểu thức căn(x^2 - 2x + 1) luôn bằng x - 1 với mọi số thực x.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "level": "Vận dụng",
-          "question": "Cho phương trình $\\sqrt{x^2 - 2x + 1} = 3$. Xét tính đúng/sai:",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
-              "subId": "a",
-              "text": "Phương trình tương đương với $|x - 1| = 3$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Phương trình có nghiệm $x = 4$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Phương trình có nghiệm $x = -2$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Tổng các nghiệm của phương trình bằng $0$.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3669,286 +3697,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính giá trị của căn bậc hai $\\sqrt{169}$.",
-          "correctAnswer": "13",
-          "explanation": "$\\sqrt{169} = 13$."
+          "question": "Tính giá trị: căn(4) : 1.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $\\sqrt[3]{-64} + 10$.",
-          "correctAnswer": "6",
-          "explanation": "$-4 + 10 = 6$."
+          "question": "Tìm x không âm biết: căn(x) = 3.",
+          "answer": "9",
+          "acceptableAnswers": [
+            "9"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $\\frac{6}{\\sqrt{3}}$. Kết quả có dạng $a\\sqrt{3}$. Tìm $a$.",
-          "correctAnswer": "2",
-          "explanation": "$\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$. Vậy $a = 2$."
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
+          "acceptableAnswers": [
+            "71.4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm $x$ biết $\\sqrt{x + 1} = 5$.",
-          "correctAnswer": "24",
-          "explanation": "$x + 1 = 25 \\Rightarrow x = 24$."
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 11 (với x >= 0).",
+          "answer": "7",
+          "acceptableAnswers": [
+            "7"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "points": 1.0,
-          "question": "Thực hiện phép tính:\na) $A = 3\\sqrt{8} - \\sqrt{50} + \\sqrt{18}$.\nb) $B = (\\sqrt{3} + 1)(\\sqrt{3} - 1) + \\frac{\\sqrt{27}}{\\sqrt{3}}$.",
-          "solution": "a) Đưa thừa số ra ngoài dấu căn:\n$A = 3 \\cdot 2\\sqrt{2} - 5\\sqrt{2} + 3\\sqrt{2} = 6\\sqrt{2} - 5\\sqrt{2} + 3\\sqrt{2} = 4\\sqrt{2}$.\nb) $B = ((\\sqrt{3})^2 - 1^2) + \\sqrt{\\frac{27}{3}} = (3 - 1) + \\sqrt{9} = 2 + 3 = 5$.",
-          "rubric": [
-            {
-              "step": "Tính đúng A = 4sqrt(2)",
-              "subScore": 0.5
-            },
-            {
-              "step": "Tính đúng B = 5",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{2}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 1 căn(2) (0.25đ).\n= (5 - 3 + 1) căn(2) = (3) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "points": 1.0,
-          "question": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x} - 1} + \\frac{\\sqrt{x}}{x - 1}\\right) : \\frac{2\\sqrt{x} + 1}{x - 1}$ với $x \\ge 0, x \\neq 1$.\na) Rút gọn biểu thức $P$.\nb) Tính giá trị của $P$ khi $x = 4$.",
-          "solution": "a) Quy đồng mẫu thức trong ngoặc với mẫu chung là $x - 1 = (\\sqrt{x} - 1)(\\sqrt{x} + 1)$:\n$\\frac{1}{\\sqrt{x} - 1} + \\frac{\\sqrt{x}}{x - 1} = \\frac{\\sqrt{x} + 1 + \\sqrt{x}}{x - 1} = \\frac{2\\sqrt{x} + 1}{x - 1}$.\nDo đó:\n$P = \\frac{2\\sqrt{x} + 1}{x - 1} : \\frac{2\\sqrt{x} + 1}{x - 1} = 1$.\nb) Vì $P = 1$ với mọi $x \\ge 0, x \\neq 1$ nên khi $x = 4$ thì giá trị của $P$ vẫn bằng $1$.",
-          "rubric": [
-            {
-              "step": "Quy đồng và rút gọn đúng P = 1",
-              "subScore": 0.5
-            },
-            {
-              "step": "Tính đúng giá trị P = 1 khi x = 4",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Tìm các giá trị của $x$ để biểu thức $M = \\frac{4}{\\sqrt{x} - 3}$ nhận giá trị nguyên ($x \\ge 0, x \\neq 9$).",
-          "solution": "Để biểu thức $M$ nhận giá trị nguyên thì $\\sqrt{x} - 3$ phải là ước của $4$.\nƯớc của $4$ gồm các số $\\{\\pm 1; \\pm 2; \\pm 4\\}$.\nVì $x \\ge 0$ nên $\\sqrt{x} \\ge 0 \\Rightarrow \\sqrt{x} - 3 \\ge -3$.\nDo đó ta xét các trường hợp:\n- $\\sqrt{x} - 3 = 1 \\Rightarrow \\sqrt{x} = 4 \\Rightarrow x = 16$ (thỏa mãn ĐK).\n- $\\sqrt{x} - 3 = -1 \\Rightarrow \\sqrt{x} = 2 \\Rightarrow x = 4$ (thỏa mãn ĐK).\n- $\\sqrt{x} - 3 = 2 \\Rightarrow \\sqrt{x} = 5 \\Rightarrow x = 25$ (thỏa mãn ĐK).\n- $\\sqrt{x} - 3 = -2 \\Rightarrow \\sqrt{x} = 1 \\Rightarrow x = 1$ (thỏa mãn ĐK).\n- $\\sqrt{x} - 3 = 4 \\Rightarrow \\sqrt{x} = 7 \\Rightarrow x = 49$ (thỏa mãn ĐK).\nVậy các giá trị nguyên của $x$ là $x \\in \\{1; 4; 16; 25; 49\\}$.",
-          "rubric": [
-            {
-              "step": "Lập luận sqrt(x) - 3 là ước của 4 và điều kiện sqrt(x) - 3 >= -3",
-              "subScore": 0.5
-            },
-            {
-              "step": "Tìm đúng 5 giá trị của x và đối chiếu điều kiện",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     },
     "c3_9_bai5_test2": {
-      "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương III - Bài kiểm tra số 2 (🌿 Khá)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Biểu thức $\\sqrt{(3 - \\pi)^2}$ có giá trị bằng:",
+          "question": "Căn bậc hai số học của số $4$ là:",
           "options": [
-            "Không xác định",
-            "$\\pm(3 - \\pi)$",
-            "$\\pi - 3$",
-            "$3 - \\pi$"
+            "$2$",
+            "$-2$",
+            "$\\pm 2$",
+            "$4$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $A = \\sqrt{75} - \\sqrt{48} + \\sqrt{300}$:",
+          "level": "Nhận biết",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
-            "$15\\sqrt{3}$",
-            "$9\\sqrt{3}$",
-            "$13\\sqrt{3}$",
-            "$11\\sqrt{3}$"
+            "$A \\ge 0$",
+            "$A > 0$",
+            "$A \\le 0$",
+            "$A \\neq 0$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Trục căn thức ở mẫu của $\\frac{4}{3 - \\sqrt{5}}$ được kết quả là:",
+          "level": "Nhận biết",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$3 - \\sqrt{5}$",
-            "$4(3 + \\sqrt{5})$",
-            "$\\frac{3 + \\sqrt{5}}{4}$",
-            "$3 + \\sqrt{5}$"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $\\sqrt[3]{2} \\cdot \\sqrt[3]{32}$:",
+          "level": "Nhận biết",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "$8$",
-            "$\\sqrt[3]{64}$",
-            "$4$",
-            "$2$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Nghiệm của phương trình $\\sqrt{2x - 1} = 3$ là:",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 4}$ là:",
           "options": [
-            "$x = 10$",
-            "$x = 4$",
-            "$x = 2$",
-            "$x = 5$"
+            "$x \\ge 2$",
+            "$x > 2$",
+            "$x \\le 2$",
+            "$x \\neq 2$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $M = \\sqrt{14 - 6\\sqrt{5}}$ được kết quả là:",
+          "level": "Thông hiểu",
+          "question": "Rút gọn biểu thức căn((căn(3) - 1)^2) ta được kết quả là:",
           "options": [
-            "$3 - \\sqrt{5}$",
-            "$3 + \\sqrt{5}$",
-            "$\\sqrt{5} - 3$",
-            "Không rút gọn được"
+            "căn(3) - 1",
+            "1 - căn(3)",
+            "căn(3) + 1",
+            "0"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng",
-          "question": "Giải phương trình $\\sqrt{4x - 8} - 2 = 0$. Nghiệm là:",
+          "level": "Thông hiểu",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 2} + \\sqrt{9 \\cdot 2} - \\sqrt{16 \\cdot 2}$ ta được:",
           "options": [
-            "$x = 2$",
-            "$x = 6$",
-            "$x = 3$",
-            "$x = 4$"
+            "$\\sqrt{2}$",
+            "$2\\sqrt{2}$",
+            "$3\\sqrt{2}$",
+            "$0$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng",
-          "question": "Giá trị của biểu thức $\\frac{1}{2 + \\sqrt{3}} - \\frac{1}{2 - \\sqrt{3}}$ là:",
+          "level": "Thông hiểu",
+          "question": "Trục căn thức ở mẫu của $\\frac{2}{\\sqrt{2}}$ ta được kết quả là:",
           "options": [
-            "$-4$",
-            "$-2\\sqrt{3}$",
-            "$2\\sqrt{3}$",
-            "$4$"
+            "$\\sqrt{2}$",
+            "$2\\sqrt{2}$",
+            "$\\frac{\\sqrt{2}}{2}$",
+            "$1$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\frac{x - \\sqrt{x}}{\\sqrt{x} - 1}$ với $x > 0, x \\neq 1$. Giá trị của $P$ khi $x = 16$ là:",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 64 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$4$",
-            "$8$",
-            "$2$",
-            "$16$"
+            "28.56 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x - 4\\sqrt{x} + 7$ với $x \\ge 0$:",
+          "level": "Vận dụng",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $64\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "$7$",
-            "$3$",
-            "$1$",
-            "$4$"
+            "$4\\text{ m}$",
+            "$21\\text{ m}$",
+            "$6\\text{ m}$",
+            "2 m"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Tính giá trị biểu thức $S = \\sqrt[3]{10 + 6\\sqrt{3}} + \\sqrt[3]{10 - 6\\sqrt{3}}$:",
+          "level": "Vận dụng",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{4}$ ta được kết quả là:",
           "options": [
+            "$3$",
             "$2$",
-            "$\\sqrt{3}$",
-            "$4$",
-            "$2\\sqrt{3}$"
+            "$1$",
+            "$4$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình $\\sqrt{x - 1} + \\sqrt{4x - 4} = 6$. Nghiệm là:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 6$ với $x \\ge 0$ là:",
           "options": [
-            "$x = 17$",
-            "$x = 5$",
-            "$x = 4$",
-            "$x = 9$"
+            "$5$",
+            "$6$",
+            "$2$",
+            "$4$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x} - 2} - \\frac{1}{\\sqrt{x} + 2}\\right) \\cdot \\frac{x - 4}{4}$ với $x \\ge 0, x \\neq 4$. Xét tính đúng/sai:",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 02):",
           "statements": [
             {
-              "subId": "a",
-              "text": "Quy đồng mẫu thức trong ngoặc được $\\frac{4}{x - 4}$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Giá trị rút gọn của $P$ là $1$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Căn bậc hai số học của 4 là 2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Biểu thức $P$ phụ thuộc vào giá trị của $x$.",
-              "correct": false
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Biểu thức căn(x - 2) xác định khi x >= 2.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Khi $x = 9$ thì $P = 1$.",
-              "correct": true
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của biểu thức căn(x^2 - 4x + 4) luôn bằng x - 2 với mọi số thực x.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "level": "Vận dụng",
-          "question": "Cho phương trình $\\sqrt{9x - 18} - 2\\sqrt{x - 2} = 3$. Xét tính đúng/sai:",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
-              "subId": "a",
-              "text": "Điều kiện xác định của phương trình là $x \\ge 2$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Phương trình tương đương với $3\\sqrt{x - 2} - 2\\sqrt{x - 2} = 3$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Thu gọn được $\\sqrt{x - 2} = 3$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Nghiệm của phương trình là $x = 11$.",
-              "correct": true
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3957,286 +3992,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $(\\sqrt{8} - 3\\sqrt{2}) \\cdot \\sqrt{2}$.",
-          "correctAnswer": "-2",
-          "explanation": "$(2\\sqrt{2} - 3\\sqrt{2})\\sqrt{2} = -\\sqrt{2} \\cdot \\sqrt{2} = -2$."
+          "question": "Tính giá trị: căn(16) : 2.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $\\sqrt[3]{-27} + \\sqrt[3]{64}$.",
-          "correctAnswer": "1",
-          "explanation": "$-3 + 4 = 1$."
+          "question": "Tìm x không âm biết: căn(x) = 4.",
+          "answer": "16",
+          "acceptableAnswers": [
+            "16"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **16**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Giải phương trình $\\sqrt{x - 3} = 4$. Tìm giá trị của $x$.",
-          "correctAnswer": "19",
-          "explanation": "$x - 3 = 16 \\Rightarrow x = 19$."
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
+          "acceptableAnswers": [
+            "71.4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 5$ với $x \\ge 0$.",
-          "correctAnswer": "4",
-          "explanation": "$P = (\\sqrt{x} - 1)^2 + 4 \\ge 4$."
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 12 (với x >= 0).",
+          "answer": "8",
+          "acceptableAnswers": [
+            "8"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "points": 1.0,
-          "question": "Rút gọn các biểu thức sau:\na) $A = \\sqrt{48} - 3\\sqrt{75} + 2\\sqrt{108}$.\nb) $B = \\frac{2}{\\sqrt{3} - 1} - \\frac{2}{\\sqrt{3} + 1}$.",
-          "solution": "a) Đưa thừa số ra ngoài dấu căn:\n$A = 4\\sqrt{3} - 3 \\cdot 5\\sqrt{3} + 2 \\cdot 6\\sqrt{3} = 4\\sqrt{3} - 15\\sqrt{3} + 12\\sqrt{3} = \\sqrt{3}$.\nb) Trục căn thức ở mẫu:\n$B = \\frac{2(\\sqrt{3} + 1)}{3 - 1} - \\frac{2(\\sqrt{3} - 1)}{3 - 1} = (\\sqrt{3} + 1) - (\\sqrt{3} - 1) = 2$.",
-          "rubric": [
-            {
-              "step": "Tính đúng A = sqrt(3)",
-              "subScore": 0.5
-            },
-            {
-              "step": "Tính đúng B = 2",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{8}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 2 căn(2) (0.25đ).\n= (5 - 3 + 2) căn(2) = (4) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "points": 1.0,
-          "question": "Cho biểu thức $P = \\left(\\frac{\\sqrt{x}}{\\sqrt{x} - 1} - \\frac{1}{x - \\sqrt{x}}\\right) : \\frac{\\sqrt{x} + 1}{x - 1}$ với $x > 0, x \\neq 1$.\na) Rút gọn biểu thức $P$.\nb) Tìm giá trị của $x$ để $P = \\frac{1}{2}$.",
-          "solution": "a) Với $x > 0, x \\neq 1$:\nTa có: $x - \\sqrt{x} = \\sqrt{x}(\\sqrt{x} - 1)$.\nQuy đồng mẫu thức trong ngoặc:\n$\\frac{\\sqrt{x}}{\\sqrt{x} - 1} - \\frac{1}{\\sqrt{x}(\\sqrt{x} - 1)} = \\frac{x - 1}{\\sqrt{x}(\\sqrt{x} - 1)} = \\frac{(\\sqrt{x} - 1)(\\sqrt{x} + 1)}{\\sqrt{x}(\\sqrt{x} - 1)} = \\frac{\\sqrt{x} + 1}{\\sqrt{x}}$.\nDo đó:\n$P = \\frac{\\sqrt{x} + 1}{\\sqrt{x}} : \\frac{\\sqrt{x} + 1}{x - 1} = \\frac{\\sqrt{x} + 1}{\\sqrt{x}} \\cdot \\frac{(\\sqrt{x} - 1)(\\sqrt{x} + 1)}{\\sqrt{x} + 1} = \\frac{x - 1}{\\sqrt{x}}$.\nb) Để $P = \\frac{1}{2}$:\n$\\frac{x - 1}{\\sqrt{x}} = \\frac{1}{2} \\Leftrightarrow 2x - 2 = \\sqrt{x} \\Leftrightarrow 2x - \\sqrt{x} - 2 = 0$.\nĐặt $t = \\sqrt{x} > 0$, ta có phương trình bậc hai $2t^2 - t - 2 = 0$.\nTa có $\\Delta = 1 - 4(2)(-2) = 17 > 0$.\nSuy ra nghiệm dương: $t = \\frac{1 + \\sqrt{17}}{4}$.\nDo đó: $x = t^2 = \\left(\\frac{1 + \\sqrt{17}}{4}\\right)^2 = \\frac{18 + 2\\sqrt{17}}{16} = \\frac{9 + \\sqrt{17}}{8}$ (thỏa mãn ĐK).\nVậy $x = \\frac{9 + \\sqrt{17}}{8}$.",
-          "rubric": [
-            {
-              "step": "Quy đồng và rút gọn đúng P = (x - 1)/sqrt(x)",
-              "subScore": 0.5
-            },
-            {
-              "step": "Giải đúng phương trình bậc hai theo t và tìm ra x = (9 + sqrt(17))/8",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Giải phương trình:\n$$\\sqrt{x + 3} + \\sqrt{6 - x} = 3$$",
-          "solution": "Điều kiện xác định: $-3 \\le x \\le 6$.\nBình phương hai vế của phương trình:\n$(\\sqrt{x + 3} + \\sqrt{6 - x})^2 = 3^2$\n$\\Leftrightarrow (x + 3) + (6 - x) + 2\\sqrt{(x + 3)(6 - x)} = 9$\n$\\Leftrightarrow 9 + 2\\sqrt{-x^2 + 3x + 18} = 9$\n$\\Leftrightarrow 2\\sqrt{-x^2 + 3x + 18} = 0$\n$\\Leftrightarrow -x^2 + 3x + 18 = 0$\n$\\Leftrightarrow x^2 - 3x - 18 = 0$\n$\\Leftrightarrow (x - 6)(x + 3) = 0$\n$\\Leftrightarrow x = 6$ hoặc $x = -3$.\nCả hai giá trị $x = 6$ và $x = -3$ đều thỏa mãn điều kiện xác định.\nVậy tập nghiệm của phương trình là $S = \\{-3; 6\\}$.",
-          "rubric": [
-            {
-              "step": "Đặt đúng ĐKXĐ và bình phương hai vế chính xác",
-              "subScore": 0.5
-            },
-            {
-              "step": "Giải phương trình tích ra hai nghiệm x = -3, x = 6 và kết luận",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     },
     "c3_9_bai5_test3": {
-      "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương III - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Cho $a \\ge 0$. Biểu thức $\\sqrt{a^2}$ luôn bằng:",
+          "question": "Căn bậc hai số học của số $9$ là:",
           "options": [
-            "$\\pm a$",
-            "$|a|$",
-            "$a$",
-            "$-a$"
+            "$3$",
+            "$-3$",
+            "$\\pm 3$",
+            "$9$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Giá trị của biểu thức $\\sqrt{17 - 12\\sqrt{2}}$ là:",
+          "level": "Nhận biết",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
-            "$2\\sqrt{2} - 3$",
-            "$3 - 2\\sqrt{2}$",
-            "$\\sqrt{2} - 1$",
-            "$3 + 2\\sqrt{2}$"
+            "$A \\ge 0$",
+            "$A > 0$",
+            "$A \\le 0$",
+            "$A \\neq 0$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Tính $\\sqrt[3]{-0{,}125}$:",
+          "level": "Nhận biết",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$0{,}5$",
-            "$0{,}25$",
-            "$-0{,}25$",
-            "$-0{,}5$"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $P = \\frac{x - 4}{\\sqrt{x} - 2} - \\frac{x + 2\\sqrt{x}}{\\sqrt{x}}$ với $x > 0, x \\neq 4$:",
+          "level": "Nhận biết",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "$0$",
-            "$\\sqrt{x}$",
-            "$-2$",
-            "$2$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng",
-          "question": "Cho $x = \\sqrt{2} - 1$. Giá trị của biểu thức $(x + 1)^4$ là:",
+          "level": "Thông hiểu",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 6}$ là:",
           "options": [
-            "$4$",
-            "$8$",
-            "$16$",
-            "$2$"
+            "$x \\ge 3$",
+            "$x > 3$",
+            "$x \\le 3$",
+            "$x \\neq 3$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng",
-          "question": "Giải phương trình $\\sqrt{x^2 - 6x + 9} = 2x - 1$. Nghiệm là:",
+          "level": "Thông hiểu",
+          "question": "Rút gọn biểu thức căn((căn(4) - 1)^2) ta được kết quả là:",
           "options": [
-            "$x = -2$",
-            "$x = \\frac{4}{3}$",
-            "$x = 2$",
-            "$x = 4$"
+            "căn(4) - 1",
+            "1 - căn(4)",
+            "căn(4) + 1",
+            "0"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng",
-          "question": "Giá trị của biểu thức $\\frac{1}{\\sqrt{5} + \\sqrt{3}} + \\frac{1}{\\sqrt{5} - \\sqrt{3}}$ là:",
+          "level": "Thông hiểu",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 3} + \\sqrt{9 \\cdot 3} - \\sqrt{16 \\cdot 3}$ ta được:",
           "options": [
-            "$2\\sqrt{5}$",
+            "$\\sqrt{3}$",
             "$2\\sqrt{3}$",
-            "$\\sqrt{5}$",
-            "$\\sqrt{3}$"
+            "$3\\sqrt{3}$",
+            "$0$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x - 2\\sqrt{x - 1}$ với $x \\ge 1$:",
+          "level": "Thông hiểu",
+          "question": "Trục căn thức ở mẫu của $\\frac{3}{\\sqrt{3}}$ ta được kết quả là:",
           "options": [
-            "$1$",
-            "$0$",
-            "$-1$",
-            "$2$"
+            "$\\sqrt{3}$",
+            "$3\\sqrt{3}$",
+            "$\\frac{\\sqrt{3}}{3}$",
+            "$1$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của biểu thức $B = \\sqrt{x - 2} + \\sqrt{6 - x}$:",
+          "level": "Vận dụng",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 1 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$4$",
-            "$2$",
-            "$2\\sqrt{2}$",
-            "$\\sqrt{8}$"
+            "3.57 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Số nghiệm của phương trình $\\sqrt{x - 2} + \\sqrt{y - 3} = \\frac{x + y - 1}{2}$ là:",
+          "level": "Vận dụng",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $1\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "$2$ nghiệm",
-            "Vô số",
-            "$0$ nghiệm",
-            "$1$ nghiệm ($x = 3, y = 4$)"
+            "$1\\text{ m}$",
+            "$0\\text{ m}$",
+            "$0\\text{ m}$",
+            "2 m"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Cho biểu thức $P = \\frac{\\sqrt{x} + 2}{\\sqrt{x} + 1}$. Giá trị nguyên lớn nhất của $P$ là:",
+          "level": "Vận dụng",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{9}$ ta được kết quả là:",
           "options": [
+            "$4$",
             "$3$",
-            "Không tồn tại",
-            "$1$",
-            "$2$ (tại $x = 0$)"
+            "$2$",
+            "$6$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tính giá trị của biểu thức $S = \\sqrt[3]{2 + 10\\sqrt{\\frac{1}{27}}} + \\sqrt[3]{2 - 10\\sqrt{\\frac{1}{27}}}$:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 7$ với $x \\ge 0$ là:",
           "options": [
-            "$1$",
-            "$2$",
-            "$\\sqrt{3}$",
-            "$3$"
+            "$6$",
+            "$7$",
+            "$3$",
+            "$5$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\left(\\frac{\\sqrt{x}}{\\sqrt{x} + 3} + \\frac{3}{\\sqrt{x} - 3}\\right) : \\frac{x + 9}{x - 9}$ với $x \\ge 0, x \\neq 9$. Xét tính đúng/sai:",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 03):",
           "statements": [
             {
-              "subId": "a",
-              "text": "Quy đồng mẫu thức trong ngoặc được $\\frac{x + 9}{x - 9}$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Biểu thức rút gọn được thành $P = 1$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Căn bậc hai số học của 9 là 3.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Phương trình $P = 2$ vô nghiệm.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Biểu thức căn(x - 3) xác định khi x >= 3.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Khi $x = 16$ thì $P = 16$.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của biểu thức căn(x^2 - 6x + 9) luôn bằng x - 3 với mọi số thực x.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Cho biểu thức $A = \\sqrt{x + 2\\sqrt{x - 1}} + \\sqrt{x - 2\\sqrt{x - 1}}$ với $x \\ge 1$. Xét tính đúng/sai:",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
-              "subId": "a",
-              "text": "Ta có $A = |\\sqrt{x - 1} + 1| + |\\sqrt{x - 1} - 1|$.",
-              "correct": true
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "b",
-              "text": "Khi $1 \\le x \\le 2$ thì $A = 2$.",
-              "correct": true
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "c",
-              "text": "Khi $x > 2$ thì $A = 2\\sqrt{x - 1}$.",
-              "correct": true
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
-              "subId": "d",
-              "text": "Giá trị của biểu thức $A$ luôn luôn bằng $2$ với mọi $x \\ge 1$.",
-              "correct": false
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4245,95 +4287,87 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính giá trị của biểu thức $(\\sqrt{5} + \\sqrt{2})^2 - 2\\sqrt{10}$.",
-          "correctAnswer": "7",
-          "explanation": "$5 + 2\\sqrt{10} + 2 - 2\\sqrt{10} = 7$."
+          "question": "Tính giá trị: căn(36) : 3.",
+          "answer": "2",
+          "acceptableAnswers": [
+            "2"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
-          "level": "Vận dụng",
-          "question": "Tìm $x$ biết $\\sqrt{x - 5} = 3$.",
-          "correctAnswer": "14",
-          "explanation": "$x - 5 = 9 \\Rightarrow x = 14$."
+          "level": "Thông hiểu",
+          "question": "Tìm x không âm biết: căn(x) = 5.",
+          "answer": "25",
+          "acceptableAnswers": [
+            "25"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
         },
         {
           "id": 3,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức $A = x - 4\\sqrt{x} + 9$ với $x \\ge 0$.",
-          "correctAnswer": "5",
-          "explanation": "$A = (\\sqrt{x} - 2)^2 + 5 \\ge 5$. Dấu bằng khi $x = 4$."
+          "level": "Vận dụng",
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
+          "acceptableAnswers": [
+            "71.4"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tính giá trị của $x = \\sqrt[3]{20 + 14\\sqrt{2}} + \\sqrt[3]{20 - 14\\sqrt{2}}$.",
-          "correctAnswer": "4",
-          "explanation": "Lập phương hai vế: $x^3 = 40 + 6x \\Rightarrow x^3 - 6x - 40 = 0 \\Rightarrow x = 4$."
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 13 (với x >= 0).",
+          "answer": "9",
+          "acceptableAnswers": [
+            "9"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng",
-          "points": 1.0,
-          "question": "Cho biểu thức $P = \\left(\\frac{x - 2}{x + 2\\sqrt{x}} + \\frac{1}{\\sqrt{x} + 2}\\right) \\cdot \\frac{\\sqrt{x} + 1}{\\sqrt{x} - 1}$ với $x > 0, x \\neq 1$.\na) Rút gọn biểu thức $P$.\nb) Tìm giá trị của $x$ để $P = 2$.",
-          "solution": "a) Với $x > 0, x \\neq 1$:\nTa có: $x + 2\\sqrt{x} = \\sqrt{x}(\\sqrt{x} + 2)$.\nQuy đồng mẫu thức trong ngoặc:\n$\\frac{x - 2}{\\sqrt{x}(\\sqrt{x} + 2)} + \\frac{\\sqrt{x}}{\\sqrt{x}(\\sqrt{x} + 2)} = \\frac{x + \\sqrt{x} - 2}{\\sqrt{x}(\\sqrt{x} + 2)}$.\nPhân tích tử thức thành nhân tử:\n$x + \\sqrt{x} - 2 = (\\sqrt{x} - 1)(\\sqrt{x} + 2)$.\nDo đó:\n$\\frac{x + \\sqrt{x} - 2}{\\sqrt{x}(\\sqrt{x} + 2)} = \\frac{(\\sqrt{x} - 1)(\\sqrt{x} + 2)}{\\sqrt{x}(\\sqrt{x} + 2)} = \\frac{\\sqrt{x} - 1}{\\sqrt{x}}$.\nNhân với phân thức thứ hai:\n$P = \\frac{\\sqrt{x} - 1}{\\sqrt{x}} \\cdot \\frac{\\sqrt{x} + 1}{\\sqrt{x} - 1} = \\frac{\\sqrt{x} + 1}{\\sqrt{x}}$.\nb) Để $P = 2$:\n$\\frac{\\sqrt{x} + 1}{\\sqrt{x}} = 2 \\Leftrightarrow \\sqrt{x} + 1 = 2\\sqrt{x} \\Leftrightarrow \\sqrt{x} = 1 \\Leftrightarrow x = 1$.\nĐối chiếu điều kiện: $x = 1$ không thỏa mãn điều kiện $x \\neq 1$.\nVậy không có giá trị nào của $x$ để $P = 2$.",
-          "rubric": [
-            {
-              "step": "Quy đồng và rút gọn đúng P = (sqrt(x) + 1)/sqrt(x)",
-              "subScore": 0.5
-            },
-            {
-              "step": "Giải x = 1, đối chiếu điều kiện và kết luận không có giá trị thỏa mãn",
-              "subScore": 0.5
-            }
-          ]
+          "level": "Thông hiểu",
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{18}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 3 căn(2) (0.25đ).\n= (5 - 3 + 3) căn(2) = (5) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Giải phương trình:\n$$\\sqrt{x + 1} + \\sqrt{x + 6} = 5$$",
-          "solution": "Điều kiện xác định: $x \\ge -1$.\nBình phương hai vế của phương trình:\n$(\\sqrt{x + 1} + \\sqrt{x + 6})^2 = 5^2$\n$\\Leftrightarrow (x + 1) + (x + 6) + 2\\sqrt{(x + 1)(x + 6)} = 25$\n$\\Leftrightarrow 2x + 7 + 2\\sqrt{x^2 + 7x + 6} = 25$\n$\\Leftrightarrow 2\\sqrt{x^2 + 7x + 6} = 18 - 2x$\n$\\Leftrightarrow \\sqrt{x^2 + 7x + 6} = 9 - x$.\nĐiều kiện để phương trình có nghiệm: $9 - x \\ge 0 \\Leftrightarrow x \\le 9$.\nBình phương hai vế:\n$x^2 + 7x + 6 = (9 - x)^2$\n$\\Leftrightarrow x^2 + 7x + 6 = 81 - 18x + x^2$\n$\\Leftrightarrow 7x + 18x = 81 - 6$\n$\\Leftrightarrow 25x = 75$\n$\\Leftrightarrow x = 3$.\nĐối chiếu với điều kiện $-1 \\le x \\le 9$: $x = 3$ thỏa mãn.\nVậy phương trình có nghiệm duy nhất $x = 3$.",
-          "rubric": [
-            {
-              "step": "Đặt ĐKXĐ x >= -1, bình phương hai vế và rút ra sqrt(x^2 + 7x + 6) = 9 - x",
-              "subScore": 0.5
-            },
-            {
-              "step": "Bình phương giải ra x = 3, đối chiếu điều kiện và kết luận",
-              "subScore": 0.5
-            }
-          ]
+          "level": "Vận dụng",
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "points": 1.0,
-          "question": "Cho biểu thức $P = \\frac{2\\sqrt{x}}{\\sqrt{x} + 1}$ với $x \\ge 0$. Tìm tất cả các giá trị của $x$ để biểu thức $P$ nhận giá trị là một số nguyên.",
-          "solution": "Với $x \\ge 0$, ta có $\\sqrt{x} \\ge 0$, do đó $P = \\frac{2\\sqrt{x}}{\\sqrt{x} + 1} \\ge 0$.\nMặt khác:\n$P = \\frac{2(\\sqrt{x} + 1) - 2}{\\sqrt{x} + 1} = 2 - \\frac{2}{\\sqrt{x} + 1}$.\nVì $x \\ge 0 \\Rightarrow \\sqrt{x} + 1 \\ge 1 > 0 \\Rightarrow \\frac{2}{\\sqrt{x} + 1} > 0$.\nDo đó $P = 2 - \\frac{2}{\\sqrt{x} + 1} < 2$.\nTừ đó ta có: $0 \\le P < 2$.\nVì $P$ nhận giá trị nguyên nên $P$ chỉ có thể nhận các giá trị $P = 0$ hoặc $P = 1$.\n- Trường hợp 1: $P = 0 \\Leftrightarrow \\frac{2\\sqrt{x}}{\\sqrt{x} + 1} = 0 \\Leftrightarrow \\sqrt{x} = 0 \\Leftrightarrow x = 0$ (thỏa mãn).\n- Trường hợp 2: $P = 1 \\Leftrightarrow \\frac{2\\sqrt{x}}{\\sqrt{x} + 1} = 1 \\Leftrightarrow 2\\sqrt{x} = \\sqrt{x} + 1 \\Leftrightarrow \\sqrt{x} = 1 \\Leftrightarrow x = 1$ (thỏa mãn).\nVậy các giá trị của $x$ để $P$ nhận giá trị nguyên là $x = 0$ và $x = 1$.",
-          "rubric": [
-            {
-              "step": "Chặn miền giá trị của P: 0 <= P < 2",
-              "subScore": 0.5
-            },
-            {
-              "step": "Xét hai trường hợp P = 0, P = 1 và tìm ra đúng hai giá trị x = 0, x = 1",
-              "subScore": 0.5
-            }
-          ]
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     },
     "c3_9_bai5_test4": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai & Căn bậc ba - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Căn thức bậc hai $\\sqrt{A}$ xác định (có nghĩa) khi và chỉ khi:",
+          "question": "Căn bậc hai số học của số $16$ là:",
+          "options": [
+            "$4$",
+            "$-4$",
+            "$\\pm 4$",
+            "$16$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
             "$A \\ge 0$",
             "$A > 0$",
@@ -4344,27 +4378,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hằng đẳng thức $\\sqrt{A^2}$ bằng:",
-          "options": [
-            "$|A|$",
-            "$A$",
-            "$-A$",
-            "$\\pm A$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Căn bậc ba của $-27$ là:",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$-3$",
-            "$3$",
-            "$\\pm 3$",
-            "Không tồn tại"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4372,12 +4393,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Trục căn thức ở mẫu của biểu thức $\\frac{2}{\\sqrt{3}}$ ta được:",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "$\\frac{2\\sqrt{3}}{3}$",
-            "$\\frac{\\sqrt{3}}{2}$",
-            "$\\frac{2}{3}$",
-            "$2\\sqrt{3}$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4385,12 +4406,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 6}$ là:",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 8}$ là:",
           "options": [
-            "$x \\ge 3$",
-            "$x > 3$",
-            "$x \\le 3$",
-            "$x \\neq 3$"
+            "$x \\ge 4$",
+            "$x > 4$",
+            "$x \\le 4$",
+            "$x \\neq 4$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4398,12 +4419,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $\\sqrt{(\\sqrt{3} - 2)^2}$ ta được:",
+          "question": "Rút gọn biểu thức căn((căn(5) - 1)^2) ta được kết quả là:",
           "options": [
-            "$2 - \\sqrt{3}$",
-            "$\\sqrt{3} - 2$",
-            "$\\pm(\\sqrt{3} - 2)$",
-            "$-1$"
+            "căn(5) - 1",
+            "1 - căn(5)",
+            "căn(5) + 1",
+            "0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4411,11 +4432,11 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép tính $\\sqrt{12} + \\sqrt{27} - \\sqrt{48}$ là:",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 4} + \\sqrt{9 \\cdot 4} - \\sqrt{16 \\cdot 4}$ ta được:",
           "options": [
-            "$\\sqrt{3}$",
-            "$2\\sqrt{3}$",
-            "$3\\sqrt{3}$",
+            "$\\sqrt{4}$",
+            "$2\\sqrt{4}$",
+            "$3\\sqrt{4}$",
             "$0$"
           ],
           "correct": 0,
@@ -4424,12 +4445,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 4$:",
+          "question": "Trục căn thức ở mẫu của $\\frac{4}{\\sqrt{4}}$ ta được kết quả là:",
           "options": [
-            "$x = 16$",
-            "$x = 2$",
-            "$x = 8$",
-            "$x = \\pm 4$"
+            "$\\sqrt{4}$",
+            "$4\\sqrt{4}$",
+            "$\\frac{\\sqrt{4}}{4}$",
+            "$1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4437,12 +4458,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 314 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$1$",
-            "$2$",
-            "$\\sqrt{x}$",
-            "$\\frac{1}{2}$"
+            "63.26 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4450,12 +4471,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$, biết $\\sqrt{4x - 8} - 2\\sqrt{x - 2} = 0$:",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $314\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "Mọi $x \\ge 2$",
-            "$x = 2$",
-            "$x = 4$",
-            "Vô nghiệm"
+            "$7\\text{ m}$",
+            "$104\\text{ m}$",
+            "$31\\text{ m}$",
+            "2 m"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4463,12 +4484,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{5} - 2}$ ta được:",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{16}$ ta được kết quả là:",
           "options": [
-            "$\\sqrt{5} + 2$",
-            "$\\sqrt{5} - 2$",
-            "$\\frac{\\sqrt{5}+2}{3}$",
-            "$1$"
+            "$5$",
+            "$4$",
+            "$3$",
+            "$8$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4476,12 +4497,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của biểu thức $A = \\sqrt{x} + \\sqrt{4 - x}$ với $0 \\le x \\le 4$:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 8$ với $x \\ge 0$ là:",
           "options": [
-            "$2\\sqrt{2}$ (khi $x = 2$)",
+            "$7$",
+            "$8$",
             "$4$",
-            "$2$",
-            "$\\sqrt{2}$"
+            "$6$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4490,33 +4511,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về căn bậc hai và căn bậc ba (Mã đề 4):",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mọi số thực đều có duy nhất một căn bậc ba.",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Căn bậc hai số học của một số thực âm không tồn tại.",
+              "text": "Căn bậc hai số học của 16 là 4.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Với mọi a >= 0 và b > 0, ta có căn(a/b) = căn(a)/căn(b).",
+              "text": "Biểu thức căn(x - 4) xác định khi x >= 4.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Biểu thức căn(x^2 - 4x + 4) luôn bằng x - 2 với mọi x.",
+              "text": "Giá trị của biểu thức căn(x^2 - 8x + 16) luôn bằng x - 4 với mọi số thực x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4524,33 +4545,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $A = \\frac{\\sqrt{x}+2}{\\sqrt{x}-2}$ (với $x \\ge 0, x \\neq 4$):",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Điều kiện xác định của biểu thức A là x >= 0 và x khác 4.",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi x = 9 thì căn(x) = 3 và giá trị của A bằng 5.",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức A có thể viết lại thành 1 + 4/(căn(x) - 2).",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Có đúng 3 giá trị nguyên của x để biểu thức A nhận giá trị nguyên.",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4561,74 +4582,87 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính: căn(75) : căn(3).",
-          "answer": "5",
+          "question": "Tính giá trị: căn(64) : 4.",
+          "answer": "2",
           "acceptableAnswers": [
-            "5"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị căn bậc ba của -64.",
-          "answer": "-4",
+          "question": "Tìm x không âm biết: căn(x) = 6.",
+          "answer": "36",
           "acceptableAnswers": [
-            "-4"
+            "36"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **36**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x biết: căn(x - 3) = 5.",
-          "answer": "28",
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
           "acceptableAnswers": [
-            "28"
+            "71.4"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **28**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x - 2 căn(x) + 5 (với x >= 0).",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 14 (với x >= 0).",
+          "answer": "10",
           "acceptableAnswers": [
-            "4"
+            "10"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - 2\\sqrt{18} + 3\\sqrt{8}$.",
-          "rubric": "A = 5 căn(2) - 2 . 3 căn(2) + 3 . 2 căn(2) = 5 căn(2) - 6 căn(2) + 6 căn(2) = 5 căn(2) (0.5đ)."
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{32}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 4 căn(2) (0.25đ).\n= (5 - 3 + 4) căn(2) = (6) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}+2} + \\frac{1}{\\sqrt{x}-2}\\right) \\cdot \\frac{x-4}{\\sqrt{x}}$ với $x > 0, x \\neq 4$. Rút gọn $P$ và tìm $x$ để $P = 2$.",
-          "rubric": "P = [ (căn(x) - 2 + căn(x) + 2)/(x - 4) ] . [(x - 4)/căn(x)] = (2 căn(x) / (x - 4)) . ((x - 4)/căn(x)) = 2 (0.25đ).\nVì P luôn bằng 2 với mọi x > 0, x khác 4 nên phương trình P = 2 nghiệm đúng với mọi x > 0, x khác 4 (0.25đ)."
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình: $\\sqrt{x^2 - 4x + 4} + \\sqrt{x^2 - 6x + 9} = 1$.",
-          "rubric": "Phương trình <=> |x - 2| + |3 - x| = 1 (0.25đ).\nÁp dụng bđt |A| + |B| >= |A + B|: |x - 2| + |3 - x| >= |x - 2 + 3 - x| = 1.\nDấu '=' xảy ra khi (x - 2)(3 - x) >= 0 <=> 2 <= x <= 3.\nVậy tập nghiệm của pt là S = {x in R | 2 <= x <= 3} (0.25đ)."
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     },
     "c3_9_bai5_test5": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai & Căn bậc ba - Bài kiểm tra số 5 (💡 Rút gọn biểu thức chứa căn thực tế)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Căn thức bậc hai $\\sqrt{A}$ xác định (có nghĩa) khi và chỉ khi:",
+          "question": "Căn bậc hai số học của số $25$ là:",
+          "options": [
+            "$5$",
+            "$-5$",
+            "$\\pm 5$",
+            "$25$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
             "$A \\ge 0$",
             "$A > 0$",
@@ -4639,27 +4673,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hằng đẳng thức $\\sqrt{A^2}$ bằng:",
-          "options": [
-            "$|A|$",
-            "$A$",
-            "$-A$",
-            "$\\pm A$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Căn bậc ba của $-27$ là:",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$-3$",
-            "$3$",
-            "$\\pm 3$",
-            "Không tồn tại"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4667,12 +4688,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Trục căn thức ở mẫu của biểu thức $\\frac{2}{\\sqrt{3}}$ ta được:",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "$\\frac{2\\sqrt{3}}{3}$",
-            "$\\frac{\\sqrt{3}}{2}$",
-            "$\\frac{2}{3}$",
-            "$2\\sqrt{3}$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4680,12 +4701,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 6}$ là:",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 10}$ là:",
           "options": [
-            "$x \\ge 3$",
-            "$x > 3$",
-            "$x \\le 3$",
-            "$x \\neq 3$"
+            "$x \\ge 5$",
+            "$x > 5$",
+            "$x \\le 5$",
+            "$x \\neq 5$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4693,12 +4714,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $\\sqrt{(\\sqrt{3} - 2)^2}$ ta được:",
+          "question": "Rút gọn biểu thức căn((căn(6) - 1)^2) ta được kết quả là:",
           "options": [
-            "$2 - \\sqrt{3}$",
-            "$\\sqrt{3} - 2$",
-            "$\\pm(\\sqrt{3} - 2)$",
-            "$-1$"
+            "căn(6) - 1",
+            "1 - căn(6)",
+            "căn(6) + 1",
+            "0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4706,11 +4727,11 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép tính $\\sqrt{12} + \\sqrt{27} - \\sqrt{48}$ là:",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 5} + \\sqrt{9 \\cdot 5} - \\sqrt{16 \\cdot 5}$ ta được:",
           "options": [
-            "$\\sqrt{3}$",
-            "$2\\sqrt{3}$",
-            "$3\\sqrt{3}$",
+            "$\\sqrt{5}$",
+            "$2\\sqrt{5}$",
+            "$3\\sqrt{5}$",
             "$0$"
           ],
           "correct": 0,
@@ -4719,12 +4740,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 4$:",
+          "question": "Trục căn thức ở mẫu của $\\frac{5}{\\sqrt{5}}$ ta được kết quả là:",
           "options": [
-            "$x = 16$",
-            "$x = 2$",
-            "$x = 8$",
-            "$x = \\pm 4$"
+            "$\\sqrt{5}$",
+            "$5\\sqrt{5}$",
+            "$\\frac{\\sqrt{5}}{5}$",
+            "$1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4732,12 +4753,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 180 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$1$",
-            "$2$",
-            "$\\sqrt{x}$",
-            "$\\frac{1}{2}$"
+            "47.90 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4745,12 +4766,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$, biết $\\sqrt{4x - 8} - 2\\sqrt{x - 2} = 0$:",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $180\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "Mọi $x \\ge 2$",
-            "$x = 2$",
-            "$x = 4$",
-            "Vô nghiệm"
+            "$6\\text{ m}$",
+            "$60\\text{ m}$",
+            "$18\\text{ m}$",
+            "2 m"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4758,12 +4779,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{5} - 2}$ ta được:",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{25}$ ta được kết quả là:",
           "options": [
-            "$\\sqrt{5} + 2$",
-            "$\\sqrt{5} - 2$",
-            "$\\frac{\\sqrt{5}+2}{3}$",
-            "$1$"
+            "$6$",
+            "$5$",
+            "$4$",
+            "$10$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4771,12 +4792,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của biểu thức $A = \\sqrt{x} + \\sqrt{4 - x}$ với $0 \\le x \\le 4$:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 9$ với $x \\ge 0$ là:",
           "options": [
-            "$2\\sqrt{2}$ (khi $x = 2$)",
-            "$4$",
-            "$2$",
-            "$\\sqrt{2}$"
+            "$8$",
+            "$9$",
+            "$5$",
+            "$7$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4785,33 +4806,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về căn bậc hai và căn bậc ba (Mã đề 5):",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mọi số thực đều có duy nhất một căn bậc ba.",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Căn bậc hai số học của một số thực âm không tồn tại.",
+              "text": "Căn bậc hai số học của 25 là 5.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Với mọi a >= 0 và b > 0, ta có căn(a/b) = căn(a)/căn(b).",
+              "text": "Biểu thức căn(x - 5) xác định khi x >= 5.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Biểu thức căn(x^2 - 4x + 4) luôn bằng x - 2 với mọi x.",
+              "text": "Giá trị của biểu thức căn(x^2 - 10x + 25) luôn bằng x - 5 với mọi số thực x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4819,33 +4840,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $A = \\frac{\\sqrt{x}+2}{\\sqrt{x}-2}$ (với $x \\ge 0, x \\neq 4$):",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Điều kiện xác định của biểu thức A là x >= 0 và x khác 4.",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi x = 9 thì căn(x) = 3 và giá trị của A bằng 5.",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức A có thể viết lại thành 1 + 4/(căn(x) - 2).",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Có đúng 3 giá trị nguyên của x để biểu thức A nhận giá trị nguyên.",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4856,74 +4877,87 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính: căn(75) : căn(3).",
-          "answer": "5",
+          "question": "Tính giá trị: căn(100) : 5.",
+          "answer": "2",
           "acceptableAnswers": [
-            "5"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị căn bậc ba của -64.",
-          "answer": "-4",
+          "question": "Tìm x không âm biết: căn(x) = 7.",
+          "answer": "49",
           "acceptableAnswers": [
-            "-4"
+            "49"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **49**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x biết: căn(x - 3) = 5.",
-          "answer": "28",
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
           "acceptableAnswers": [
-            "28"
+            "71.4"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **28**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x - 2 căn(x) + 5 (với x >= 0).",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 15 (với x >= 0).",
+          "answer": "11",
           "acceptableAnswers": [
-            "4"
+            "11"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **11**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - 2\\sqrt{18} + 3\\sqrt{8}$.",
-          "rubric": "A = 5 căn(2) - 2 . 3 căn(2) + 3 . 2 căn(2) = 5 căn(2) - 6 căn(2) + 6 căn(2) = 5 căn(2) (0.5đ)."
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{50}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 5 căn(2) (0.25đ).\n= (5 - 3 + 5) căn(2) = (7) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}+2} + \\frac{1}{\\sqrt{x}-2}\\right) \\cdot \\frac{x-4}{\\sqrt{x}}$ với $x > 0, x \\neq 4$. Rút gọn $P$ và tìm $x$ để $P = 2$.",
-          "rubric": "P = [ (căn(x) - 2 + căn(x) + 2)/(x - 4) ] . [(x - 4)/căn(x)] = (2 căn(x) / (x - 4)) . ((x - 4)/căn(x)) = 2 (0.25đ).\nVì P luôn bằng 2 với mọi x > 0, x khác 4 nên phương trình P = 2 nghiệm đúng với mọi x > 0, x khác 4 (0.25đ)."
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình: $\\sqrt{x^2 - 4x + 4} + \\sqrt{x^2 - 6x + 9} = 1$.",
-          "rubric": "Phương trình <=> |x - 2| + |3 - x| = 1 (0.25đ).\nÁp dụng bđt |A| + |B| >= |A + B|: |x - 2| + |3 - x| >= |x - 2 + 3 - x| = 1.\nDấu '=' xảy ra khi (x - 2)(3 - x) >= 0 <=> 2 <= x <= 3.\nVậy tập nghiệm của pt là S = {x in R | 2 <= x <= 3} (0.25đ)."
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     },
     "c3_9_bai5_test6": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai & Căn bậc ba - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Căn thức bậc hai $\\sqrt{A}$ xác định (có nghĩa) khi và chỉ khi:",
+          "question": "Căn bậc hai số học của số $36$ là:",
+          "options": [
+            "$6$",
+            "$-6$",
+            "$\\pm 6$",
+            "$36$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
             "$A \\ge 0$",
             "$A > 0$",
@@ -4934,27 +4968,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hằng đẳng thức $\\sqrt{A^2}$ bằng:",
-          "options": [
-            "$|A|$",
-            "$A$",
-            "$-A$",
-            "$\\pm A$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Căn bậc ba của $-27$ là:",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$-3$",
-            "$3$",
-            "$\\pm 3$",
-            "Không tồn tại"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4962,12 +4983,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Trục căn thức ở mẫu của biểu thức $\\frac{2}{\\sqrt{3}}$ ta được:",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "$\\frac{2\\sqrt{3}}{3}$",
-            "$\\frac{\\sqrt{3}}{2}$",
-            "$\\frac{2}{3}$",
-            "$2\\sqrt{3}$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4975,12 +4996,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 6}$ là:",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 12}$ là:",
           "options": [
-            "$x \\ge 3$",
-            "$x > 3$",
-            "$x \\le 3$",
-            "$x \\neq 3$"
+            "$x \\ge 6$",
+            "$x > 6$",
+            "$x \\le 6$",
+            "$x \\neq 6$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4988,12 +5009,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $\\sqrt{(\\sqrt{3} - 2)^2}$ ta được:",
+          "question": "Rút gọn biểu thức căn((căn(7) - 1)^2) ta được kết quả là:",
           "options": [
-            "$2 - \\sqrt{3}$",
-            "$\\sqrt{3} - 2$",
-            "$\\pm(\\sqrt{3} - 2)$",
-            "$-1$"
+            "căn(7) - 1",
+            "1 - căn(7)",
+            "căn(7) + 1",
+            "0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5001,11 +5022,11 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép tính $\\sqrt{12} + \\sqrt{27} - \\sqrt{48}$ là:",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 6} + \\sqrt{9 \\cdot 6} - \\sqrt{16 \\cdot 6}$ ta được:",
           "options": [
-            "$\\sqrt{3}$",
-            "$2\\sqrt{3}$",
-            "$3\\sqrt{3}$",
+            "$\\sqrt{6}$",
+            "$2\\sqrt{6}$",
+            "$3\\sqrt{6}$",
             "$0$"
           ],
           "correct": 0,
@@ -5014,12 +5035,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 4$:",
+          "question": "Trục căn thức ở mẫu của $\\frac{6}{\\sqrt{6}}$ ta được kết quả là:",
           "options": [
-            "$x = 16$",
-            "$x = 2$",
-            "$x = 8$",
-            "$x = \\pm 4$"
+            "$\\sqrt{6}$",
+            "$6\\sqrt{6}$",
+            "$\\frac{\\sqrt{6}}{6}$",
+            "$1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5027,12 +5048,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 125 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$1$",
-            "$2$",
-            "$\\sqrt{x}$",
-            "$\\frac{1}{2}$"
+            "39.91 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5040,12 +5061,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$, biết $\\sqrt{4x - 8} - 2\\sqrt{x - 2} = 0$:",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $125\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "Mọi $x \\ge 2$",
-            "$x = 2$",
-            "$x = 4$",
-            "Vô nghiệm"
+            "$5\\text{ m}$",
+            "$41\\text{ m}$",
+            "$12\\text{ m}$",
+            "2 m"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5053,12 +5074,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{5} - 2}$ ta được:",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{36}$ ta được kết quả là:",
           "options": [
-            "$\\sqrt{5} + 2$",
-            "$\\sqrt{5} - 2$",
-            "$\\frac{\\sqrt{5}+2}{3}$",
-            "$1$"
+            "$7$",
+            "$6$",
+            "$5$",
+            "$12$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5066,12 +5087,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của biểu thức $A = \\sqrt{x} + \\sqrt{4 - x}$ với $0 \\le x \\le 4$:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 10$ với $x \\ge 0$ là:",
           "options": [
-            "$2\\sqrt{2}$ (khi $x = 2$)",
-            "$4$",
-            "$2$",
-            "$\\sqrt{2}$"
+            "$9$",
+            "$10$",
+            "$6$",
+            "$8$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5080,33 +5101,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về căn bậc hai và căn bậc ba (Mã đề 6):",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mọi số thực đều có duy nhất một căn bậc ba.",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Căn bậc hai số học của một số thực âm không tồn tại.",
+              "text": "Căn bậc hai số học của 36 là 6.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Với mọi a >= 0 và b > 0, ta có căn(a/b) = căn(a)/căn(b).",
+              "text": "Biểu thức căn(x - 6) xác định khi x >= 6.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Biểu thức căn(x^2 - 4x + 4) luôn bằng x - 2 với mọi x.",
+              "text": "Giá trị của biểu thức căn(x^2 - 12x + 36) luôn bằng x - 6 với mọi số thực x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5114,33 +5135,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $A = \\frac{\\sqrt{x}+2}{\\sqrt{x}-2}$ (với $x \\ge 0, x \\neq 4$):",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Điều kiện xác định của biểu thức A là x >= 0 và x khác 4.",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi x = 9 thì căn(x) = 3 và giá trị của A bằng 5.",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức A có thể viết lại thành 1 + 4/(căn(x) - 2).",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Có đúng 3 giá trị nguyên của x để biểu thức A nhận giá trị nguyên.",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5151,74 +5172,87 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính: căn(75) : căn(3).",
-          "answer": "5",
+          "question": "Tính giá trị: căn(144) : 6.",
+          "answer": "2",
           "acceptableAnswers": [
-            "5"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị căn bậc ba của -64.",
-          "answer": "-4",
+          "question": "Tìm x không âm biết: căn(x) = 8.",
+          "answer": "64",
           "acceptableAnswers": [
-            "-4"
+            "64"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **64**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x biết: căn(x - 3) = 5.",
-          "answer": "28",
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
           "acceptableAnswers": [
-            "28"
+            "71.4"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **28**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x - 2 căn(x) + 5 (với x >= 0).",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 16 (với x >= 0).",
+          "answer": "12",
           "acceptableAnswers": [
-            "4"
+            "12"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - 2\\sqrt{18} + 3\\sqrt{8}$.",
-          "rubric": "A = 5 căn(2) - 2 . 3 căn(2) + 3 . 2 căn(2) = 5 căn(2) - 6 căn(2) + 6 căn(2) = 5 căn(2) (0.5đ)."
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{72}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 6 căn(2) (0.25đ).\n= (5 - 3 + 6) căn(2) = (8) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}+2} + \\frac{1}{\\sqrt{x}-2}\\right) \\cdot \\frac{x-4}{\\sqrt{x}}$ với $x > 0, x \\neq 4$. Rút gọn $P$ và tìm $x$ để $P = 2$.",
-          "rubric": "P = [ (căn(x) - 2 + căn(x) + 2)/(x - 4) ] . [(x - 4)/căn(x)] = (2 căn(x) / (x - 4)) . ((x - 4)/căn(x)) = 2 (0.25đ).\nVì P luôn bằng 2 với mọi x > 0, x khác 4 nên phương trình P = 2 nghiệm đúng với mọi x > 0, x khác 4 (0.25đ)."
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình: $\\sqrt{x^2 - 4x + 4} + \\sqrt{x^2 - 6x + 9} = 1$.",
-          "rubric": "Phương trình <=> |x - 2| + |3 - x| = 1 (0.25đ).\nÁp dụng bđt |A| + |B| >= |A + B|: |x - 2| + |3 - x| >= |x - 2 + 3 - x| = 1.\nDấu '=' xảy ra khi (x - 2)(3 - x) >= 0 <=> 2 <= x <= 3.\nVậy tập nghiệm của pt là S = {x in R | 2 <= x <= 3} (0.25đ)."
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     },
     "c3_9_bai5_test7": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai & Căn bậc ba - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương III: Căn bậc hai và căn bậc ba - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Căn thức bậc hai $\\sqrt{A}$ xác định (có nghĩa) khi và chỉ khi:",
+          "question": "Căn bậc hai số học của số $49$ là:",
+          "options": [
+            "$7$",
+            "$-7$",
+            "$\\pm 7$",
+            "$49$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Biểu thức $\\sqrt{A}$ có nghĩa (xác định) khi và chỉ khi:",
           "options": [
             "$A \\ge 0$",
             "$A > 0$",
@@ -5229,27 +5263,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hằng đẳng thức $\\sqrt{A^2}$ bằng:",
-          "options": [
-            "$|A|$",
-            "$A$",
-            "$-A$",
-            "$\\pm A$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Căn bậc ba của $-27$ là:",
+          "question": "Căn bậc ba của một số thực âm là:",
           "options": [
-            "$-3$",
-            "$3$",
-            "$\\pm 3$",
-            "Không tồn tại"
+            "Một số âm",
+            "Một số dương",
+            "Không tồn tại",
+            "Số 0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5257,12 +5278,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Trục căn thức ở mẫu của biểu thức $\\frac{2}{\\sqrt{3}}$ ta được:",
+          "question": "Khẳng định nào sau đây đúng với mọi số thực $a$?",
           "options": [
-            "$\\frac{2\\sqrt{3}}{3}$",
-            "$\\frac{\\sqrt{3}}{2}$",
-            "$\\frac{2}{3}$",
-            "$2\\sqrt{3}$"
+            "$\\sqrt{a^2} = |a|$",
+            "$\\sqrt{a^2} = a$",
+            "$\\sqrt{a^2} = -a$",
+            "$\\sqrt{a^2} = \\pm a$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5270,12 +5291,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 6}$ là:",
+          "question": "Điều kiện xác định của căn thức $\\sqrt{2x - 14}$ là:",
           "options": [
-            "$x \\ge 3$",
-            "$x > 3$",
-            "$x \\le 3$",
-            "$x \\neq 3$"
+            "$x \\ge 7$",
+            "$x > 7$",
+            "$x \\le 7$",
+            "$x \\neq 7$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5283,12 +5304,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức $\\sqrt{(\\sqrt{3} - 2)^2}$ ta được:",
+          "question": "Rút gọn biểu thức căn((căn(8) - 1)^2) ta được kết quả là:",
           "options": [
-            "$2 - \\sqrt{3}$",
-            "$\\sqrt{3} - 2$",
-            "$\\pm(\\sqrt{3} - 2)$",
-            "$-1$"
+            "căn(8) - 1",
+            "1 - căn(8)",
+            "căn(8) + 1",
+            "0"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5296,11 +5317,11 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Kết quả của phép tính $\\sqrt{12} + \\sqrt{27} - \\sqrt{48}$ là:",
+          "question": "Rút gọn biểu thức $\\sqrt{4 \\cdot 7} + \\sqrt{9 \\cdot 7} - \\sqrt{16 \\cdot 7}$ ta được:",
           "options": [
-            "$\\sqrt{3}$",
-            "$2\\sqrt{3}$",
-            "$3\\sqrt{3}$",
+            "$\\sqrt{7}$",
+            "$2\\sqrt{7}$",
+            "$3\\sqrt{7}$",
             "$0$"
           ],
           "correct": 0,
@@ -5309,12 +5330,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 4$:",
+          "question": "Trục căn thức ở mẫu của $\\frac{7}{\\sqrt{7}}$ ta được kết quả là:",
           "options": [
-            "$x = 16$",
-            "$x = 2$",
-            "$x = 8$",
-            "$x = \\pm 4$"
+            "$\\sqrt{7}$",
+            "$7\\sqrt{7}$",
+            "$\\frac{\\sqrt{7}}{7}$",
+            "$1$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5322,12 +5343,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Rút gọn biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
+          "question": "Tầm nhìn xa d (km) từ đỉnh ngọn hải đăng ở độ cao 160 m tính theo công thức d = 3,57 * căn(h) xấp xỉ là:",
           "options": [
-            "$1$",
-            "$2$",
-            "$\\sqrt{x}$",
-            "$\\frac{1}{2}$"
+            "45.16 km",
+            "20 km",
+            "30 km",
+            "15 km"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5335,12 +5356,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Tìm $x$, biết $\\sqrt{4x - 8} - 2\\sqrt{x - 2} = 0$:",
+          "question": "Một chiếc thùng chứa nước hình lập phương có thể tích là $160\\text{ m}^3$. Độ dài cạnh của thùng nước là:",
           "options": [
-            "Mọi $x \\ge 2$",
-            "$x = 2$",
-            "$x = 4$",
-            "Vô nghiệm"
+            "$5\\text{ m}$",
+            "$53\\text{ m}$",
+            "$16\\text{ m}$",
+            "2 m"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5348,12 +5369,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Trục căn thức ở mẫu của $\\frac{1}{\\sqrt{5} - 2}$ ta được:",
+          "question": "Rút gọn biểu thức $A = (\\sqrt{5} + 2)(\\sqrt{5} - 2) + \\sqrt{49}$ ta được kết quả là:",
           "options": [
-            "$\\sqrt{5} + 2$",
-            "$\\sqrt{5} - 2$",
-            "$\\frac{\\sqrt{5}+2}{3}$",
-            "$1$"
+            "$8$",
+            "$7$",
+            "$6$",
+            "$14$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5361,12 +5382,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Tìm giá trị lớn nhất của biểu thức $A = \\sqrt{x} + \\sqrt{4 - x}$ với $0 \\le x \\le 4$:",
+          "question": "Giá trị nhỏ nhất của biểu thức $P = x - 2\\sqrt{x} + 11$ với $x \\ge 0$ là:",
           "options": [
-            "$2\\sqrt{2}$ (khi $x = 2$)",
-            "$4$",
-            "$2$",
-            "$\\sqrt{2}$"
+            "$10$",
+            "$11$",
+            "$7$",
+            "$9$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5375,33 +5396,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về căn bậc hai và căn bậc ba (Mã đề 7):",
+          "stem": "Xét tính đúng sai về căn thức (Mã đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Mọi số thực đều có duy nhất một căn bậc ba.",
+              "level": "Nhận biết",
+              "text": "Mọi số thực dương đều có đúng hai căn bậc hai đối nhau.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Căn bậc hai số học của một số thực âm không tồn tại.",
+              "text": "Căn bậc hai số học của 49 là 7.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Với mọi a >= 0 và b > 0, ta có căn(a/b) = căn(a)/căn(b).",
+              "text": "Biểu thức căn(x - 7) xác định khi x >= 7.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Biểu thức căn(x^2 - 4x + 4) luôn bằng x - 2 với mọi x.",
+              "text": "Giá trị của biểu thức căn(x^2 - 14x + 49) luôn bằng x - 7 với mọi số thực x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5409,33 +5430,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho biểu thức $A = \\frac{\\sqrt{x}+2}{\\sqrt{x}-2}$ (với $x \\ge 0, x \\neq 4$):",
+          "stem": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}-1} - \\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{x-1}{2}$ với $x \\ge 0, x \\neq 1$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Điều kiện xác định của biểu thức A là x >= 0 và x khác 4.",
+              "level": "Nhận biết",
+              "text": "Điều kiện xác định của biểu thức P là x >= 0 và x khác 1.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Khi x = 9 thì căn(x) = 3 và giá trị của A bằng 5.",
+              "text": "Quy đồng mẫu thức trong ngoặc ta được tử số bằng 2.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Biểu thức A có thể viết lại thành 1 + 4/(căn(x) - 2).",
+              "text": "Rút gọn biểu thức P ta được kết quả bằng 1.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Có đúng 3 giá trị nguyên của x để biểu thức A nhận giá trị nguyên.",
+              "text": "Giá trị của P phụ thuộc vào giá trị của biến số x.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5446,62 +5467,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Tính: căn(75) : căn(3).",
-          "answer": "5",
+          "question": "Tính giá trị: căn(196) : 7.",
+          "answer": "2",
           "acceptableAnswers": [
-            "5"
+            "2"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tính giá trị căn bậc ba của -64.",
-          "answer": "-4",
+          "question": "Tìm x không âm biết: căn(x) = 9.",
+          "answer": "81",
           "acceptableAnswers": [
-            "-4"
+            "81"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **81**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tìm x biết: căn(x - 3) = 5.",
-          "answer": "28",
+          "question": "Một người quan sát đứng trên đỉnh núi cao 400 m so với mực nước biển. Tầm nhìn xa tối đa của người đó tính theo công thức d = 3,57 * căn(h) là bao nhiêu km?",
+          "answer": "71.4",
           "acceptableAnswers": [
-            "28"
+            "71.4"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **28**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71.4**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Tìm giá trị nhỏ nhất của biểu thức: P = x - 2 căn(x) + 5 (với x >= 0).",
-          "answer": "4",
+          "level": "Vận dụng",
+          "question": "Tìm giá trị nhỏ nhất của biểu thức: A = x - 4 căn(x) + 17 (với x >= 0).",
+          "answer": "13",
           "acceptableAnswers": [
-            "4"
+            "13"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **13**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - 2\\sqrt{18} + 3\\sqrt{8}$.",
-          "rubric": "A = 5 căn(2) - 2 . 3 căn(2) + 3 . 2 căn(2) = 5 căn(2) - 6 căn(2) + 6 căn(2) = 5 căn(2) (0.5đ)."
+          "question": "Rút gọn biểu thức: $A = \\sqrt{50} - \\sqrt{18} + \\sqrt{98}$.",
+          "rubric": "A = 5 căn(2) - 3 căn(2) + 7 căn(2) (0.25đ).\n= (5 - 3 + 7) căn(2) = (9) căn(2) (0.25đ).\nKết luận giá trị biểu thức (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho biểu thức $P = \\left(\\frac{1}{\\sqrt{x}+2} + \\frac{1}{\\sqrt{x}-2}\\right) \\cdot \\frac{x-4}{\\sqrt{x}}$ với $x > 0, x \\neq 4$. Rút gọn $P$ và tìm $x$ để $P = 2$.",
-          "rubric": "P = [ (căn(x) - 2 + căn(x) + 2)/(x - 4) ] . [(x - 4)/căn(x)] = (2 căn(x) / (x - 4)) . ((x - 4)/căn(x)) = 2 (0.25đ).\nVì P luôn bằng 2 với mọi x > 0, x khác 4 nên phương trình P = 2 nghiệm đúng với mọi x > 0, x khác 4 (0.25đ)."
+          "question": "Cho biểu thức $B = \\frac{\\sqrt{x}}{\\sqrt{x} - 2} - \\frac{4}{\\sqrt{x} + 2} - \\frac{4\\sqrt{x}}{x - 4}$ với $x \\ge 0, x \\neq 4$. Rút gọn biểu thức $B$ và tìm $x$ để $B = 1$.",
+          "rubric": "Quy đồng mẫu thức chung (căn(x) - 2)(căn(x) + 2) (0.25đ).\nTử thức = căn(x)(căn(x) + 2) - 4(căn(x) - 2) - 4 căn(x) = x + 2 căn(x) - 4 căn(x) + 8 - 4 căn(x) = x - 6 căn(x) + 8 (0.25đ).\nPhân tích tử thành (căn(x) - 2)(căn(x) - 4), rút gọn được B = (căn(x) - 4)/(căn(x) + 2) (0.25đ).\nB = 1 <=> căn(x) - 4 = căn(x) + 2 => -4 = 2 (vô lý), vậy không có giá trị x nào thỏa mãn (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Giải phương trình: $\\sqrt{x^2 - 4x + 4} + \\sqrt{x^2 - 6x + 9} = 1$.",
-          "rubric": "Phương trình <=> |x - 2| + |3 - x| = 1 (0.25đ).\nÁp dụng bđt |A| + |B| >= |A + B|: |x - 2| + |3 - x| >= |x - 2 + 3 - x| = 1.\nDấu '=' xảy ra khi (x - 2)(3 - x) >= 0 <=> 2 <= x <= 3.\nVậy tập nghiệm của pt là S = {x in R | 2 <= x <= 3} (0.25đ)."
+          "question": "Tìm giá trị lớn nhất của biểu thức: $M = \\sqrt{x - 1} + \\sqrt{9 - x}$ với $1 \\le x \\le 9$.",
+          "rubric": "Áp dụng bất đẳng thức Bunhiacopxki cho hai bộ số (1; 1) và (căn(x-1); căn(9-x)) (0.25đ).\nM^2 = (1.căn(x-1) + 1.căn(9-x))^2 <= (1^2 + 1^2)(x - 1 + 9 - x) = 2 . 8 = 16 (0.25đ).\nSuy ra M <= căn(16) = 4 (0.25đ).\nDấu '=' xảy ra khi căn(x-1) = căn(9-x) <=> x - 1 = 9 - x <=> 2x = 10 <=> x = 5 (thỏa mãn). Vậy GTLN của M là 4 (0.25đ)."
         }
       ]
     }

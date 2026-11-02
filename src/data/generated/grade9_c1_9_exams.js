@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG I: PHƯƠNG TRÌNH VÀ HỆ HAI PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN - TOÁN 9 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:28:20
+// Cập nhật lúc: 2026-11-02 06:43:13
 // ==============================================================================
 
 const EXAMS_9_C1_9 = {
@@ -2598,205 +2598,233 @@ const EXAMS_9_C1_9 = {
     ]
   },
   "c1_9_bai4_test1": {
-    "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương I - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Cặp số nào sau đây là nghiệm của phương trình $3x - 2y = 7$?",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 01)?",
         "options": [
-          "$(3; -1)$",
-          "$(2; -1)$",
-          "$(1; 3)$",
-          "$(3; 1)$"
+          "$2x - 3y = 3$",
+          "$x^2 - 1y = 1$",
+          "$xy = 5$",
+          "$1x + \\frac{1}{y} = 5$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Hệ hai phương trình bậc nhất hai ẩn $\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}$ có nghiệm duy nhất khi:",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 1$?",
         "options": [
-          "$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}$",
-          "$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$",
-          "$a_1 b_2 + a_2 b_1 = 0$",
-          "$\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}$"
+          "$(1; 1)$",
+          "$(1; 1)$",
+          "$(0; 1)$",
+          "$(1; 0)$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}$ là:",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
-          "$(3; 7)$",
-          "$(8; 2)$",
-          "$(6; 4)$",
-          "$(7; 3)$"
+          "Một đường thẳng",
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $0x + 3y = 6$ là đường thẳng:",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "Trùng với trục tung $Oy$",
-          "Song song với trục tung $Oy$",
-          "Song song với trục hoành $Ox$",
-          "Đi qua gốc toạ độ"
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
+          "Song song với nhau",
+          "Vuông góc với nhau"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Tìm $m$ để cặp số $(1; 2)$ là nghiệm của phương trình $2x + my = 8$:",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 7 \\\\ x - y = 1 \\end{cases}$ là:",
         "options": [
-          "$m = 2$",
-          "$m = 4$",
-          "$m = 3$",
-          "$m = 1$"
+          "$(4; 3)$",
+          "$(3; 4)$",
+          "$(3; 4)$",
+          "$(5; 2)$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ 4x - 2y = 6 \\end{cases}$ có bao nhiêu nghiệm?",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 1$, ta rút $y$ theo $x$ được:",
         "options": [
-          "Vô số nghiệm",
-          "$2$ nghiệm",
-          "$1$ nghiệm",
-          "Vô nghiệm"
+          "$y = 2x - 1$",
+          "$y = 1 - 2x$",
+          "$y = 2x + 1$",
+          "$y = \\frac{x - 1}{2}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Hệ phương trình $\\begin{cases} x - 2y = 1 \\\\ x - 2y = 5 \\end{cases}$ có bao nhiêu nghiệm?",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "Vô số nghiệm",
-          "Vô nghiệm",
-          "$1$ nghiệm",
-          "$2$ nghiệm"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Giải hệ $\\begin{cases} 3x + y = 10 \\\\ x - 2y = 1 \\end{cases}$. Tổng $x + y$ bằng:",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 6$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$5$",
-          "$4$",
-          "$3$",
-          "$2$"
+          "$a = 2$",
+          "$a = 1$",
+          "$a = 4$",
+          "$a = 4$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Một khu vườn hình chữ nhật có chu vi $60\\text{ m}$. Chiều dài hơn chiều rộng $6\\text{ m}$. Diện tích khu vườn là:",
+        "level": "Vận dụng",
+        "question": "Tại nhà sách Tiền Phong mua tập vở và bút dạ, bạn An mua 3 quyển vở và 2 bút dạ hết 48000 đồng. Bạn Bình mua 2 quyển vở và 4 bút dạ hết 48000 đồng. Giá tiền 1 quyển vở là:",
         "options": [
-          "$225\\text{ m}^2$",
-          "$240\\text{ m}^2$",
-          "$216\\text{ m}^2$",
-          "$200\\text{ m}^2$"
+          "$12,000 đồng$",
+          "$6,000 đồng$",
+          "$14,000 đồng$",
+          "$10,000 đồng$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm toạ độ giao điểm của hai đường thẳng $d_1: 2x + 3y = 7$ và $d_2: x - y = 1$:",
+        "question": "Một khu vườn hình chữ nhật có chu vi $360\\text{ m}$. Chiều dài hơn chiều rộng $60\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$(2; 1)$",
-          "$(3; 2)$",
-          "$(0; 1)$",
-          "$(1; 2)$"
+          "$60\\text{ m}$",
+          "$120\\text{ m}$",
+          "$65\\text{ m}$",
+          "$55\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một ô tô đi từ $A$ đến $B$ với vận tốc $60\\text{ km/h}$ rồi quay về $A$ với vận tốc $40\\text{ km/h}$. Tổng thời gian cả đi và về là $5$ giờ. Quãng đường $AB$ dài:",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 960 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "$120\\text{ km}$",
-          "$100\\text{ km}$",
-          "$180\\text{ km}$",
-          "$150\\text{ km}$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho hệ $\\begin{cases} mx + y = 2 \\\\ x + my = 2 \\end{cases}$. Hệ có nghiệm duy nhất khi:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$m \\neq -1$",
-          "$m \\neq \\pm 1$",
-          "$m \\neq 1$",
-          "$m = 1$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho hệ phương trình $\\begin{cases} 2x + 3y = 13 \\\\ 3x - y = 3 \\end{cases}$. Xét tính đúng/sai:",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 7 \\\\ x - y = -1 \\end{cases}$ (Đề số 01):",
         "statements": [
           {
-            "subId": "a",
-            "text": "Từ phương trình thứ hai ta rút ra $y = 3x - 3$.",
-            "correct": true
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "b",
-            "text": "Thay $y = 3x - 3$ vào phương trình thứ nhất ta được $11x = 22$.",
-            "correct": true
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = -2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "c",
-            "text": "Nghiệm duy nhất của hệ là $(x; y) = (2; 3)$.",
-            "correct": true
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cộng hai phương trình ta được 5x = 5, suy ra x = 1.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "d",
-            "text": "Tổng $x + y = 6$.",
-            "correct": false
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Hai người thợ cùng làm một công việc thì sau $16$ giờ sẽ xong. Nếu người thứ nhất làm trong $3$ giờ và người thứ hai làm trong $6$ giờ thì làm được $25\\%$ công việc. Xét tính đúng/sai:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 01): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
-            "subId": "a",
-            "text": "Mỗi giờ hai người cùng làm được $\\frac{1}{16}$ công việc.",
-            "correct": true
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "b",
-            "text": "Phương trình thứ nhất là $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{16}$.",
-            "correct": true
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "c",
-            "text": "Phương trình thứ hai là $\\frac{3}{x} + \\frac{6}{y} = \\frac{1}{4}$.",
-            "correct": true
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "d",
-            "text": "Người thứ nhất làm một mình xong công việc sau $24$ giờ.",
-            "correct": true
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2805,286 +2833,293 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hệ phương trình $\\begin{cases} 4x - y = 7 \\\\ 2x + 3y = 7 \\end{cases}$. Tính giá trị của $x$.",
-        "correctAnswer": "2",
-        "explanation": "Nhân pt 1 với 3: $12x - 3y = 21$. Cộng với pt 2: $14x = 28 \\Rightarrow x = 2$."
+        "question": "Giải hệ: 2x + y = 7 và x - y = -1. Tìm nghiệm x.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm hai số có tổng bằng $43$ và hiệu bằng $17$. Tính số bé.",
-        "correctAnswer": "13",
-        "explanation": "Số bé = $(43 - 17) / 2 = 13$."
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 10 và x = 1.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm giá trị của $m$ để hệ $\\begin{cases} mx + 2y = 4 \\\\ 3x - y = 1 \\end{cases}$ nhận $(1; 2)$ làm nghiệm.",
-        "correctAnswer": "0",
-        "explanation": "$m(1) + 2(2) = 4 \\Rightarrow m + 4 = 4 \\Rightarrow m = 0$."
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 140 m, chiều dài hơn chiều rộng 22 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "41",
+        "acceptableAnswers": [
+          "41"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **41**."
       },
       {
         "id": 4,
         "level": "Vận dụng",
-        "question": "Một người mua $3$ kg cam và $2$ kg táo hết $130\\,000$ đồng. Biết giá $1$ kg cam đắt hơn $1$ kg táo là $10\\,000$ đồng. Tính giá tiền $1$ kg cam (nghìn đồng).",
-        "correctAnswer": "30",
-        "explanation": "$\\begin{cases} 3x + 2y = 130 \\\\ x - y = 10 \\end{cases} \\Rightarrow x = 30, y = 20$. Giá cam là $30$ nghìn đồng."
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
+        "acceptableAnswers": [
+          "150"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Giải hệ phương trình sau:\n$$\\begin{cases} 3x + 2y = 11 \\\\ 2x - 3y = 3 \\end{cases}$$",
-        "solution": "Nhân phương trình thứ nhất với 3 và phương trình thứ hai với 2:\n$$\\begin{cases} 9x + 6y = 33 \\\\ 4x - 6y = 6 \\end{cases}$$\nCộng từng vế hai phương trình ta được:\n$13x = 39 \\Rightarrow x = 3$.\nThay $x = 3$ vào phương trình thứ nhất:\n$3(3) + 2y = 11 \\Leftrightarrow 9 + 2y = 11 \\Leftrightarrow 2y = 2 \\Rightarrow y = 1$.\nVậy nghiệm của hệ phương trình là $(3; 1)$.",
-        "rubric": [
-          {
-            "step": "Nhân hệ số thích hợp để cân bằng hệ số của ẩn y",
-            "subScore": 0.5
-          },
-          {
-            "step": "Cộng hai phương trình, giải ra x = 3, y = 1 và kết luận nghiệm",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 8 \\\\ 2x - 3y = -13 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 8 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(8 - 3x) = -13 => 11x = 11 => x = 1 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (1; 5) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Một mảnh đất hình chữ nhật có chu vi $120\\text{ m}$. Nếu giảm chiều dài $10\\text{ m}$ và tăng chiều rộng thêm $5\\text{ m}$ thì diện tích mảnh đất giảm đi $50\\text{ m}^2$. Tính diện tích ban đầu của mảnh đất.",
-        "solution": "Gọi chiều dài ban đầu của mảnh đất là $x$ (m), chiều rộng là $y$ (m).\nĐiều kiện: $x > y > 0$ và $x > 10$.\nNửa chu vi mảnh đất là: $x + y = 60$ (1).\nDiện tích ban đầu: $S_1 = xy$ (m$^2$).\nChiều dài mới: $x - 10$ (m), chiều rộng mới: $y + 5$ (m).\nDiện tích mới: $S_2 = (x - 10)(y + 5)$ (m$^2$).\nTheo đề bài, diện tích giảm đi $50\\text{ m}^2$ nên:\n$xy - (x - 10)(y + 5) = 50 \\Leftrightarrow xy - (xy + 5x - 10y - 50) = 50$\n$\\Leftrightarrow -5x + 10y + 50 = 50 \\Leftrightarrow -5x + 10y = 0 \\Leftrightarrow x = 2y$ (2).\nThay (2) vào (1): $2y + y = 60 \\Rightarrow 3y = 60 \\Rightarrow y = 20$ (m, thỏa mãn).\nSuy ra $x = 2(20) = 40$ (m, thỏa mãn).\nDiện tích ban đầu của mảnh đất là: $S = x \\cdot y = 40 \\times 20 = 800\\text{ m}^2$.\nVậy diện tích ban đầu là $800\\text{ m}^2$.",
-        "rubric": [
-          {
-            "step": "Gọi ẩn, đặt điều kiện và thiết lập hệ phương trình",
-            "subScore": 0.5
-          },
-          {
-            "step": "Giải đúng x = 40m, y = 20m và tính chính xác diện tích 800 m^2",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 45 con gồm gà và bò. Đếm được tất cả 120 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 45) (0.25đ).\nTa có hệ phương trình: x + y = 45 và 2x + 4y = 120 (0.25đ).\nGiải hệ phương trình ta được: x = 30, y = 15 (0.25đ).\nVậy trang trại có 30 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho hệ phương trình $\\begin{cases} mx + y = 2m \\\\ x + my = m + 1 \\end{cases}$ (với $m$ là tham số).\na) Giải hệ phương trình khi $m = 2$.\nb) Tìm các giá trị nguyên của $m$ để hệ có nghiệm duy nhất $(x; y)$ thỏa mãn $x$ và $y$ đều là các số nguyên.",
-        "solution": "a) Khi $m = 2$, hệ phương trình trở thành:\n$$\\begin{cases} 2x + y = 4 \\\\ x + 2y = 3 \\end{cases}$$\nNhân phương trình thứ hai với 2 rồi trừ cho phương trình đầu:\n$2(x + 2y) - (2x + y) = 6 - 4 \\Rightarrow 3y = 2 \\Rightarrow y = \\frac{2}{3}$.\nThay vào: $x = 3 - 2y = 3 - \\frac{4}{3} = \\frac{5}{3}$.\nVậy khi $m = 2$, hệ có nghiệm duy nhất là $(\\frac{5}{3}; \\frac{2}{3})$.\nb) Xét định thức $D = m^2 - 1$.\nĐể hệ có nghiệm duy nhất thì $D \\neq 0 \\Leftrightarrow m \\neq \\pm 1$.\nKhi đó:\nCộng hai phương trình: $(m + 1)(x + y) = 3m + 1 \\Rightarrow x + y = \\frac{3m + 1}{m + 1} = 3 - \\frac{2}{m + 1}$.\nTrừ hai phương trình: $(m - 1)(x - y) = m - 1 \\Rightarrow x - y = 1$.\nSuy ra:\n$2x = (x + y) + (x - y) = 4 - \\frac{2}{m + 1} \\Rightarrow x = 2 - \\frac{1}{m + 1}$.\n$y = x - 1 = 1 - \\frac{1}{m + 1}$.\nĐể $x$ và $y$ nguyên thì $m + 1$ phải là ước của $1$.\nCác ước của $1$ là $\\{\\pm 1\\}$:\n- $m + 1 = 1 \\Rightarrow m = 0$ (thỏa mãn $m \\neq \\pm 1$).\n- $m + 1 = -1 \\Rightarrow m = -2$ (thỏa mãn $m \\neq \\pm 1$).\nVậy các giá trị nguyên của $m$ thỏa mãn là $m = 0$ hoặc $m = -2$.",
-        "rubric": [
-          {
-            "step": "Giải đúng nghiệm khi m = 2 là (5/3; 2/3)",
-            "subScore": 0.4
-          },
-          {
-            "step": "Biểu diễn x, y theo dạng phân số và tìm đúng hai giá trị nguyên m = 0, m = -2",
-            "subScore": 0.6
-          }
-        ]
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 1$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 1 <=> (x - 3)(y - 2) = 7 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 7 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_9_bai4_test2": {
-    "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương I - Bài kiểm tra số 2 (🌿 Khá)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Cho hệ $\\begin{cases} x + 2y = 1 \\\\ 2x + 4y = 2 \\end{cases}$. Số nghiệm của hệ là:",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 02)?",
         "options": [
-          "$1$ nghiệm",
-          "$2$ nghiệm",
-          "Vô nghiệm",
-          "Vô số nghiệm"
+          "$3x - 4y = 6$",
+          "$x^2 - 2y = 1$",
+          "$xy = 6$",
+          "$2x + \\frac{1}{y} = 5$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Nghiệm của hệ phương trình $\\begin{cases} 2x - 3y = 1 \\\\ x + 2y = 4 \\end{cases}$ là:",
+        "level": "Nhận biết",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 3$?",
         "options": [
           "$(2; 1)$",
-          "$(3; 1)$",
           "$(1; 2)$",
-          "$(0; 2)$"
+          "$(0; 2)$",
+          "$(2; 0)$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "Tìm $a$ để đồ thị hàm số $y = ax + 3$ đi qua giao điểm của hai đường thẳng $x + y = 3$ và $2x - y = 0$:",
+        "level": "Nhận biết",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
-          "$a = 1$",
-          "$a = -0{,}5$",
-          "$a = 0{,}5$",
-          "$a = -1$"
+          "Một đường thẳng",
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Thông hiểu",
-        "question": "Hệ phương trình $\\begin{cases} \\frac{2}{x} + \\frac{3}{y} = 7 \\\\ \\frac{1}{x} - \\frac{1}{y} = 1 \\end{cases}$ có nghiệm $(x; y)$ là:",
+        "level": "Nhận biết",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "$\\left(\\frac{1}{2}; 1\\right)$",
-          "$\\left(1; \\frac{1}{2}\\right)$",
-          "$(1; 2)$",
-          "$(2; 1)$"
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
+          "Song song với nhau",
+          "Vuông góc với nhau"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Hai vòi nước cùng chảy vào một bể cạn thì sau $4$ giờ đầy bể. Mỗi giờ cả hai vòi chảy được bao nhiêu phần bể?",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 8 \\\\ x - y = 2 \\end{cases}$ là:",
         "options": [
-          "$\\frac{1}{2}$ bể",
-          "$\\frac{1}{4}$ bể",
-          "$\\frac{3}{4}$ bể",
-          "$4$ bể"
+          "$(5; 3)$",
+          "$(3; 5)$",
+          "$(4; 4)$",
+          "$(6; 2)$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng",
-        "question": "Biết cặp số $(x_0; y_0)$ là nghiệm của hệ $\\begin{cases} 3x - 2y = 7 \\\\ 2x + 3y = 9 \\end{cases}$. Giá trị của $x_0^2 + y_0^2$ bằng:",
+        "level": "Thông hiểu",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 2$, ta rút $y$ theo $x$ được:",
         "options": [
-          "$25$",
-          "$8$",
-          "$10$",
-          "$13$"
+          "$y = 2x - 2$",
+          "$y = 2 - 2x$",
+          "$y = 2x + 2$",
+          "$y = \\frac{x - 2}{2}$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng",
-        "question": "Tìm $m$ để hai đường thẳng $d_1: 2x - y = 3$ và $d_2: mx + 2y = 1$ cắt nhau tại một điểm nằm trên trục hoành:",
+        "level": "Thông hiểu",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "$m = -2$",
-          "$m = 2$",
-          "$m = \\frac{2}{3}$",
-          "$m = -\\frac{2}{3}$"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng",
-        "question": "Một ô tô đi quãng đường $AB$ với vận tốc $50\\text{ km/h}$, rồi quay về với vận tốc $60\\text{ km/h}$. Thời gian về ít hơn thời gian đi $30$ phút. Độ dài quãng đường $AB$ là:",
+        "level": "Thông hiểu",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 8$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$120\\text{ km}$",
-          "$200\\text{ km}$",
-          "$180\\text{ km}$",
-          "$150\\text{ km}$"
+          "$a = 4$",
+          "$a = 2$",
+          "$a = 6$",
+          "$a = 4$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tìm các số tự nhiên $x, y$ thỏa mãn $2x + 5y = 23$. Số cặp nghiệm tự nhiên là:",
+        "question": "Tại ô tô và xe máy đi ngược chiều từ A và B gặp nhau, bạn An mua 3 ô tô và 2 xe máy hết 235 đồng. Bạn Bình mua 2 ô tô và 4 xe máy hết 250 đồng. Giá tiền 1 ô tô là:",
         "options": [
-          "$4$",
-          "$2$",
-          "$1$",
-          "$3$"
+          "$55 đồng$",
+          "$35 đồng$",
+          "$2,055 đồng$",
+          "$-1,945 đồng$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho hệ $\\begin{cases} x + y = 2m + 1 \\\\ x^2 + y^2 = m^2 + 2m + 3 \\end{cases}$. Tìm $m$ để hệ có nghiệm duy nhất:",
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình chữ nhật có chu vi $0\\text{ m}$. Chiều dài hơn chiều rộng $0\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$m = -1$ hoặc $m = \\frac{1}{3}$",
-          "$m = 1$",
-          "$m = 0$",
-          "$m = 2$"
+          "$0\\text{ m}$",
+          "$0\\text{ m}$",
+          "$5\\text{ m}$",
+          "$-5\\text{ m}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho hệ $\\begin{cases} ax + by = 2 \\\\ cx + dy = 3 \\end{cases}$ có nghiệm duy nhất $(1; 1)$. Nghiệm của hệ $\\begin{cases} 2ax + 2by = 4 \\\\ 3cx + 3dy = 9 \\end{cases}$ là:",
+        "level": "Vận dụng",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 4 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "Vô nghiệm",
-          "Vô số nghiệm",
-          "Nghiệm duy nhất $(1; 1)$",
-          "Nghiệm $(2; 3)$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Hai người khởi hành cùng một lúc từ hai địa điểm cách nhau $21\\text{ km}$ và đi ngược chiều nhau. Sau $3$ giờ thì gặp nhau. Vận tốc người đi nhanh hơn người đi chậm $1\\text{ km/h}$. Vận tốc người đi nhanh là:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$5\\text{ km/h}$",
-          "$3\\text{ km/h}$",
-          "$4\\text{ km/h}$",
-          "$3{,}5\\text{ km/h}$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Cho hệ phương trình $\\begin{cases} 3x - y = 5 \\\\ 2x + 3y = 7 \\end{cases}$. Xét tính đúng/sai:",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 10 \\\\ x - y = 0 \\end{cases}$ (Đề số 02):",
         "statements": [
           {
-            "subId": "a",
-            "text": "Hệ có nghiệm duy nhất vì $\\frac{3}{2} \\neq \\frac{-1}{3}$.",
-            "correct": true
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "b",
-            "text": "Nhân phương trình thứ nhất với 3 ta được $9x - 3y = 15$.",
-            "correct": true
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = 0.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "c",
-            "text": "Cộng hai phương trình ta được $11x = 22 \\Rightarrow x = 2$.",
-            "correct": true
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cộng hai phương trình ta được 5x = 10, suy ra x = 2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "d",
-            "text": "Giá trị của $y = 2$.",
-            "correct": false
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Một xí nghiệp may theo kế hoạch phải may $1000$ áo trong một thời gian quy định. Nhờ tăng năng suất mỗi ngày $10$ áo, xí nghiệp hoàn thành sớm $5$ ngày. Xét tính đúng/sai:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 02): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
-            "subId": "a",
-            "text": "Gọi số ngày quy định là $t$ ($t > 5$, ngày).",
-            "correct": true
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "b",
-            "text": "Năng suất thực tế là $\\frac{1000}{t - 5}$ (áo/ngày).",
-            "correct": true
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "c",
-            "text": "Phương trình lập được: $\\frac{1000}{t - 5} - \\frac{1000}{t} = 10$.",
-            "correct": true
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "d",
-            "text": "Thời gian quy định theo kế hoạch là $20$ ngày.",
-            "correct": false
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3093,286 +3128,293 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hệ $\\begin{cases} 2x + y = 8 \\\\ 3x - 2y = 5 \\end{cases}$. Tính giá trị của biểu thức $P = x \\cdot y$.",
-        "correctAnswer": "6",
-        "explanation": "Nhân pt 1 với 2: $4x + 2y = 16$. Cộng với pt 2: $7x = 21 \\Rightarrow x = 3 \\Rightarrow y = 2$. Tích $P = 6$."
+        "question": "Giải hệ: 2x + y = 9 và x - y = 0. Tìm nghiệm x.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Một người mua $2$ cốc trà sữa và $3$ chiếc bánh ngọt hết $115\\,000$ đồng. Giá một cốc trà sữa đắt hơn một chiếc bánh ngọt là $10\\,000$ đồng. Tính giá tiền một cốc trà sữa (nghìn đồng).",
-        "correctAnswer": "29",
-        "explanation": "$\\begin{cases} 2x + 3y = 115 \\\\ x - y = 10 \\end{cases} \\Rightarrow 2(y + 10) + 3y = 115 \\Rightarrow 5y = 95 \\Rightarrow y = 19, x = 29$ nghìn đồng."
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 11 và x = 2.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Giải hệ $\\begin{cases} |x - 1| + 2y = 5 \\\\ 2|x - 1| - y = 0 \\end{cases}$. Tính giá trị của $y$.",
-        "correctAnswer": "2",
-        "explanation": "Đặt $u = |x - 1|$. Hệ: $\\begin{cases} u + 2y = 5 \\\\ 2u - y = 0 \\end{cases} \\Rightarrow u = 1, y = 2$."
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 160 m, chiều dài hơn chiều rộng 24 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "47",
+        "acceptableAnswers": [
+          "47"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **47**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm $m$ để hệ $\\begin{cases} mx + y = 3 \\\\ x + my = 3 \\end{cases}$ có vô số nghiệm.",
-        "correctAnswer": "1",
-        "explanation": "$\\frac{m}{1} = \\frac{1}{m} = \\frac{3}{3} = 1 \\Rightarrow m = 1$."
+        "level": "Vận dụng",
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
+        "acceptableAnswers": [
+          "150"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "points": 1.0,
-        "question": "Giải hệ phương trình sau:\n$$\\begin{cases} \\frac{1}{x - 2} + \\frac{1}{y - 1} = 2 \\\\ \\frac{2}{x - 2} - \\frac{3}{y - 1} = 1 \\end{cases}$$",
-        "solution": "Điều kiện xác định: $x \\neq 2$ và $y \\neq 1$.\nĐặt $u = \\frac{1}{x - 2}$ và $v = \\frac{1}{y - 1}$.\nHệ phương trình trở thành:\n$$\\begin{cases} u + v = 2 \\\\ 2u - 3v = 1 \\end{cases}$$\nNhân phương trình thứ nhất với 3 rồi cộng với phương trình thứ hai:\n$3(u + v) + (2u - 3v) = 6 + 1 \\Rightarrow 5u = 7 \\Rightarrow u = \\frac{7}{5}$.\nThay vào: $v = 2 - \\frac{7}{5} = \\frac{3}{5}$.\nTrả về ẩn ban đầu:\n$\\frac{1}{x - 2} = \\frac{7}{5} \\Rightarrow x - 2 = \\frac{5}{7} \\Rightarrow x = 2 + \\frac{5}{7} = \\frac{19}{7}$ (thỏa mãn ĐKXĐ).\n$\\frac{1}{y - 1} = \\frac{3}{5} \\Rightarrow y - 1 = \\frac{5}{3} \\Rightarrow y = 1 + \\frac{5}{3} = \\frac{8}{3}$ (thỏa mãn ĐKXĐ).\nVậy nghiệm của hệ phương trình là $(\\frac{19}{7}; \\frac{8}{3})$.",
-        "rubric": [
-          {
-            "step": "Đặt điều kiện, đặt ẩn phụ và giải ra u = 7/5, v = 3/5",
-            "subScore": 0.5
-          },
-          {
-            "step": "Giải ra nghiệm x = 19/7, y = 8/3 và đối chiếu điều kiện",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 11 \\\\ 2x - 3y = -11 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 11 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(11 - 3x) = -11 => 11x = 22 => x = 2 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (2; 5) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Hai vòi nước cùng chảy vào một bể cạn thì sau $6$ giờ đầy bể. Nếu vòi I chảy trong $2$ giờ và vòi II chảy trong $5$ giờ thì cả hai vòi chảy được một nửa bể nước. Hỏi nếu chảy riêng thì mỗi vòi chảy đầy bể trong bao lâu?",
-        "solution": "Gọi thời gian vòi I và vòi II chảy riêng đầy bể lần lượt là $x$ và $y$ (giờ, $x, y > 6$).\nTrong 1 giờ:\n- Vòi I chảy được $\\frac{1}{x}$ bể.\n- Vòi II chảy được $\\frac{1}{y}$ bể.\n- Cả hai vòi cùng chảy được $\\frac{1}{6}$ bể.\nTa có phương trình (1): $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{6}$.\nTheo đề bài, vòi I chảy trong $2$ giờ và vòi II chảy trong $5$ giờ được $\\frac{1}{2}$ bể nên ta có phương trình (2):\n$\\frac{2}{x} + \\frac{5}{y} = \\frac{1}{2}$.\nTa có hệ phương trình:\n$$\\begin{cases} \\frac{1}{x} + \\frac{1}{y} = \\frac{1}{6} \\\\ \\frac{2}{x} + \\frac{5}{y} = \\frac{1}{2} \\end{cases}$$\nNhân phương trình đầu với 2 rồi trừ cho phương trình thứ hai:\n$\\frac{3}{y} = \\frac{1}{2} - 2 \\cdot \\frac{1}{6} = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6} \\Rightarrow y = 18$ (thỏa mãn).\nThay vào phương trình đầu:\n$\\frac{1}{x} = \\frac{1}{6} - \\frac{1}{18} = \\frac{2}{18} = \\frac{1}{9} \\Rightarrow x = 9$ (thỏa mãn).\nVậy vòi I chảy một mình mất $9$ giờ, vòi II chảy một mình mất $18$ giờ.",
-        "rubric": [
-          {
-            "step": "Gọi ẩn, lập luận và thiết lập đúng hệ phương trình",
-            "subScore": 0.5
-          },
-          {
-            "step": "Giải đúng x = 9 giờ và y = 18 giờ, đối chiếu điều kiện chuẩn xác",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 50 con gồm gà và bò. Đếm được tất cả 130 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 50) (0.25đ).\nTa có hệ phương trình: x + y = 50 và 2x + 4y = 130 (0.25đ).\nGiải hệ phương trình ta được: x = 35, y = 15 (0.25đ).\nVậy trang trại có 35 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Cho hệ phương trình $\\begin{cases} (a - 1)x + y = a \\\\ x + (a - 1)y = 2 \\end{cases}$ (với $a$ là tham số).\na) Tìm $a$ để hệ phương trình có nghiệm duy nhất.\nb) Với giá trị nào của $a$ thì hệ có nghiệm duy nhất $(x; y)$ thỏa mãn $2x - y = 1$?",
-        "solution": "a) Xét định thức $D = (a - 1)^2 - 1 = a^2 - 2a = a(a - 2)$.\nĐể hệ có nghiệm duy nhất thì $D \\neq 0 \\Leftrightarrow a(a - 2) \\neq 0 \\Leftrightarrow a \\neq 0$ và $a \\neq 2$.\nb) Khi $a \\neq 0$ và $a \\neq 2$, ta giải hệ:\nCộng hai phương trình: $a(x + y) = a + 2 \\Rightarrow x + y = \\frac{a + 2}{a} = 1 + \\frac{2}{a}$.\nTrừ hai phương trình: $(a - 2)(x - y) = a - 2 \\Rightarrow x - y = 1$.\nSuy ra:\n$2x = (x + y) + (x - y) = 2 + \\frac{2}{a} \\Rightarrow x = 1 + \\frac{1}{a}$.\n$y = x - 1 = \\frac{1}{a}$.\nTheo yêu cầu đề bài: $2x - y = 1$, thay biểu thức của $x, y$ vào:\n$2\\left(1 + \\frac{1}{a}\\right) - \\frac{1}{a} = 1 \\Leftrightarrow 2 + \\frac{2}{a} - \\frac{1}{a} = 1 \\Leftrightarrow 2 + \\frac{1}{a} = 1 \\Leftrightarrow \\frac{1}{a} = -1 \\Rightarrow a = -1$.\nGiá trị $a = -1$ thỏa mãn điều kiện $a \\neq 0$ và $a \\neq 2$.\nVậy $a = -1$ là giá trị cần tìm.",
-        "rubric": [
-          {
-            "step": "Tìm đúng điều kiện hệ có nghiệm duy nhất a khác 0 và a khác 2",
-            "subScore": 0.5
-          },
-          {
-            "step": "Biểu diễn x, y theo a và giải đúng a = -1 thỏa mãn 2x - y = 1",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 2$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 2 <=> (x - 3)(y - 2) = 8 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 8 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_9_bai4_test3": {
-    "title": "Toán 9 (KNTT) - Ôn tập và kiểm tra cuối Chương I - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Hệ hai phương trình bậc nhất hai ẩn có thể có bao nhiêu trường hợp về số nghiệm?",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 03)?",
         "options": [
-          "Chỉ có 1 nghiệm duy nhất",
-          "Có 3 trường hợp: 1 nghiệm duy nhất, vô nghiệm, hoặc vô số nghiệm",
-          "Có 2 trường hợp: có nghiệm hoặc vô nghiệm",
-          "Luôn có nghiệm"
+          "$4x - 5y = 9$",
+          "$x^2 - 3y = 1$",
+          "$xy = 7$",
+          "$3x + \\frac{1}{y} = 5$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Cho hệ $\\begin{cases} 2x - y = 3 \\\\ ax + 2y = b \\end{cases}$. Hệ có vô số nghiệm khi:",
+        "level": "Nhận biết",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 5$?",
         "options": [
-          "$a = -4$ và $b = -6$",
-          "$a = 4$ và $b = 6$",
-          "$a = -4$ và $b = 6$",
-          "$a = 2$ và $b = 3$"
+          "$(3; 1)$",
+          "$(1; 3)$",
+          "$(0; 3)$",
+          "$(3; 0)$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "Biết cặp số $(x; y)$ thỏa mãn $\\begin{cases} x + y = 3 \\\\ xy = 2 \\end{cases}$. Giá trị của $|x - y|$ là:",
+        "level": "Nhận biết",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
-          "$0$",
-          "$2$",
-          "$3$",
-          "$1$"
+          "Một đường thẳng",
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng",
-        "question": "Cho hệ $\\begin{cases} mx + y = 1 \\\\ x + my = 1 \\end{cases}$. Giá trị nhỏ nhất của $x^2 + y^2$ khi $m = 2$ là:",
+        "level": "Nhận biết",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "$\\frac{4}{9}$",
-          "$1$",
-          "$\\frac{2}{9}$",
-          "$\\frac{1}{9}$"
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
+          "Song song với nhau",
+          "Vuông góc với nhau"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng",
-        "question": "Một người chèo thuyền xuôi dòng $12\\text{ km}$ rồi ngược dòng $12\\text{ km}$ hết tất cả $2$ giờ $30$ phút. Vận tốc dòng nước là $2\\text{ km/h}$. Vận tốc thực của thuyền là:",
+        "level": "Thông hiểu",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 9 \\\\ x - y = 3 \\end{cases}$ là:",
         "options": [
-          "$10\\text{ km/h}$",
-          "$12\\text{ km/h}$",
-          "$8\\text{ km/h}$",
-          "$9\\text{ km/h}$"
+          "$(6; 3)$",
+          "$(3; 6)$",
+          "$(5; 4)$",
+          "$(7; 2)$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng",
-        "question": "Giải hệ phương trình $\\begin{cases} x^2 + y^2 + xy = 7 \\\\ x + y = 3 \\end{cases}$. Số cặp nghiệm $(x; y)$ của hệ là:",
+        "level": "Thông hiểu",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 3$, ta rút $y$ theo $x$ được:",
         "options": [
-          "$2$",
-          "$4$",
-          "$0$",
-          "$1$"
+          "$y = 2x - 3$",
+          "$y = 3 - 2x$",
+          "$y = 2x + 3$",
+          "$y = \\frac{x - 3}{2}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng",
-        "question": "Tìm $m$ để ba đường thẳng $2x - y = 1$, $x + y = 2$ và $mx + 3y = 5$ đồng quy:",
+        "level": "Thông hiểu",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "$m = 3$",
-          "$m = 2$",
-          "$m = 1$",
-          "$m = -1$"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Cho hệ $\\begin{cases} x^3 + y^3 = 9 \\\\ x + y = 3 \\end{cases}$. Tích $xy$ bằng:",
+        "level": "Thông hiểu",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 10$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$3$",
-          "$1$",
-          "$0$",
-          "$2$"
+          "$a = 6$",
+          "$a = 3$",
+          "$a = 8$",
+          "$a = 4$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Tìm $m$ để hệ $\\begin{cases} mx + 2y = m + 1 \\\\ 2x + my = 3 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0$ và $y > 0$:",
+        "level": "Vận dụng",
+        "question": "Tại hai tổ công nhân sản xuất khẩu trang y tế, bạn An mua 3 tổ 1 và 2 tổ 2 hết 6900 đồng. Bạn Bình mua 2 tổ 1 và 4 tổ 2 hết 7800 đồng. Giá tiền 1 tổ 1 là:",
         "options": [
-          "$m < -2$",
-          "$m = 2$",
-          "$m > 2$",
-          "$-2 < m < 2$"
+          "$1,500 đồng$",
+          "$1,200 đồng$",
+          "$3,500 đồng$",
+          "$-500 đồng$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Giải hệ $\\begin{cases} \\sqrt{x} + \\sqrt{y} = 5 \\\\ \\sqrt{xy} = 6 \\end{cases}$. Cặp nghiệm $(x; y)$ là:",
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình chữ nhật có chu vi $54\\text{ m}$. Chiều dài hơn chiều rộng $3\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$\\{(1; 16), (16; 1)\\}$",
-          "$\\{(4; 9), (9; 4)\\}$",
-          "$\\{(5; 0), (0; 5)\\}$",
-          "$\\{(2; 3), (3; 2)\\}$"
+          "$12\\text{ m}$",
+          "$15\\text{ m}$",
+          "$17\\text{ m}$",
+          "$7\\text{ m}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Cho hệ $\\begin{cases} x^2 - y^2 = 5 \\\\ x - y = 1 \\end{cases}$. Giá trị của $x^2 + y^2$ là:",
+        "level": "Vận dụng",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 138 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "$25$",
-          "$10$",
-          "$17$",
-          "$13$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Số cặp nghiệm nguyên $(x; y)$ của phương trình $xy - 2x - 3y = 1$ là:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$6$",
-          "$8$",
-          "$4$",
-          "$2$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "question": "Cho hệ phương trình $\\begin{cases} x + y = m \\\\ x^2 + y^2 = 5 \\end{cases}$. Xét tính đúng/sai:",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 13 \\\\ x - y = 1 \\end{cases}$ (Đề số 03):",
         "statements": [
           {
-            "subId": "a",
-            "text": "Hệ có nghiệm khi và chỉ khi $m^2 \\le 10$.",
-            "correct": true
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "b",
-            "text": "Khi $m = 3$, hệ có hai cặp nghiệm là $(2; 1)$ và $(1; 2)$.",
-            "correct": true
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = 2.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "c",
-            "text": "Khi $m = \\sqrt{10}$, hệ có nghiệm duy nhất $x = y = \\frac{\\sqrt{10}}{2}$.",
-            "correct": true
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Cộng hai phương trình ta được 5x = 15, suy ra x = 3.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "d",
-            "text": "Khi $m = 4$, hệ có 2 nghiệm phân biệt.",
-            "correct": false
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho hệ phương trình $\\begin{cases} x^2 + y^2 + x + y = 8 \\\\ xy + x + y = 5 \\end{cases}$. Xét tính đúng/sai:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 03): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
-            "subId": "a",
-            "text": "Đặt $S = x + y$ và $P = xy$.",
-            "correct": true
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "b",
-            "text": "Hệ tương đương với $\\begin{cases} S^2 - 2P + S = 8 \\\\ P + S = 5 \\end{cases}$.",
-            "correct": true
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "c",
-            "text": "Giải ra $S = 2$ hoặc $S = -9/2$.",
-            "correct": false
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
-            "subId": "d",
-            "text": "Hệ phương trình có nghiệm thực.",
-            "correct": true
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3381,100 +3423,79 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Cho hệ $\\begin{cases} 3x - y = 5 \\\\ x + 3y = 15 \\end{cases}$. Tính giá trị của $x + y$.",
-        "correctAnswer": "7",
-        "explanation": "Nhân pt 1 với 3: $9x - 3y = 15$. Cộng: $10x = 30 \\Rightarrow x = 3 \\Rightarrow y = 4$. Vậy $x + y = 7$."
+        "question": "Giải hệ: 2x + y = 11 và x - y = 1. Tìm nghiệm x.",
+        "answer": "4",
+        "acceptableAnswers": [
+          "4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
       },
       {
         "id": 2,
-        "level": "Vận dụng",
-        "question": "Tìm số cặp nghiệm nguyên dương $(x; y)$ của phương trình $3x + 4y = 25$.",
-        "correctAnswer": "2",
-        "explanation": "$3x = 25 - 4y$. $y = 1 \\Rightarrow x = 7$; $y = 4 \\Rightarrow x = 3$. Có 2 cặp nghiệm $(7; 1)$ và $(3; 4)$."
+        "level": "Thông hiểu",
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 12 và x = 3.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Cho hệ $\\begin{cases} x + y = 5 \\\\ x^3 + y^3 = 35 \\end{cases}$. Tính giá trị của tích $xy$.",
-        "correctAnswer": "6",
-        "explanation": "$x^3 + y^3 = (x + y)(x^2 - xy + y^2) = S(S^2 - 3P) = 5(25 - 3P) = 35 \\Rightarrow 25 - 3P = 7 \\Rightarrow 3P = 18 \\Rightarrow P = 6$."
+        "level": "Vận dụng",
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 180 m, chiều dài hơn chiều rộng 26 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "53",
+        "acceptableAnswers": [
+          "53"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **53**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm $m$ để hệ $\\begin{cases} x + 2y = 3 \\\\ 2x + my = 6 \\end{cases}$ có vô số nghiệm.",
-        "correctAnswer": "4",
-        "explanation": "$\\frac{1}{2} = \\frac{2}{m} = \\frac{3}{6} = \\frac{1}{2} \\Rightarrow m = 4$."
+        "level": "Vận dụng",
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
+        "acceptableAnswers": [
+          "150"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng",
-        "points": 1.0,
-        "question": "Giải hệ phương trình sau:\n$$\\begin{cases} x^2 + y^2 = 25 \\\\ (x - 1)(y - 1) = 6 \\end{cases}$$",
-        "solution": "Khai triển phương trình thứ hai: $xy - (x + y) + 1 = 6 \\Leftrightarrow xy - (x + y) = 5$.\nĐặt $S = x + y$ và $P = xy$.\nPhương trình thứ nhất là $S^2 - 2P = 25$.\nTừ phương trình thứ hai: $P = S + 5$.\nThay $P = S + 5$ vào phương trình thứ nhất:\n$S^2 - 2(S + 5) = 25 \\Leftrightarrow S^2 - 2S - 35 = 0$.\nPhương trình bậc hai có $\\Delta' = 1 - (-35) = 36 = 6^2$.\nSuy ra $S_1 = 1 + 6 = 7$; $S_2 = 1 - 6 = -5$.\n- Với $S = 7 \\Rightarrow P = 7 + 5 = 12$.\n$x, y$ là nghiệm của $t^2 - 7t + 12 = 0 \\Rightarrow t = 3$ hoặc $t = 4$.\nTa có hai nghiệm: $(3; 4)$ và $(4; 3)$.\n- Với $S = -5 \\Rightarrow P = -5 + 5 = 0$.\n$x, y$ là nghiệm của $t^2 + 5t = 0 \\Rightarrow t = 0$ hoặc $t = -5$.\nTa có hai nghiệm: $(0; -5)$ và $(-5; 0)$.\nVậy tập nghiệm của hệ là $\\{(3; 4), (4; 3), (0; -5), (-5; 0)\\}$.",
-        "rubric": [
-          {
-            "step": "Đặt ẩn phụ S, P và biến đổi về phương trình bậc hai S^2 - 2S - 35 = 0",
-            "subScore": 0.5
-          },
-          {
-            "step": "Giải ra 4 cặp nghiệm chuẩn xác: (3; 4), (4; 3), (0; -5), (-5; 0)",
-            "subScore": 0.5
-          }
-        ]
+        "level": "Thông hiểu",
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 14 \\\\ 2x - 3y = -9 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 14 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(14 - 3x) = -9 => 11x = 33 => x = 3 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (3; 5) (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Một ô tô và một xe máy cùng đi từ thành phố $A$ đến thành phố $B$ cách nhau $120\\text{ km}$. Xe máy khởi hành trước ô tô $30$ phút và ô tô đến $B$ sớm hơn xe máy $20$ phút. Biết vận tốc ô tô lớn hơn vận tốc xe máy là $20\\text{ km/h}$. Tính vận tốc của mỗi xe.",
-        "solution": "Gọi vận tốc của xe máy là $v$ (km/h, điều kiện $v > 0$).\nVận tốc của ô tô là $v + 20$ (km/h).\nThời gian xe máy đi từ $A$ đến $B$ là: $\\frac{120}{v}$ (giờ).\nThời gian ô tô đi từ $A$ đến $B$ là: $\\frac{120}{v + 20}$ (giờ).\nĐổi $30$ phút = $\\frac{1}{2}$ giờ, $20$ phút = $\\frac{1}{3}$ giờ.\nVì xe máy đi trước $30$ phút và đến sau $20$ phút nên tổng thời gian xe máy đi nhiều hơn ô tô là:\n$\\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}$ (giờ).\nTa có phương trình:\n$\\frac{120}{v} - \\frac{120}{v + 20} = \\frac{5}{6}$\n$\\Leftrightarrow 120 \\left(\\frac{1}{v} - \\frac{1}{v + 20}\\right) = \\frac{5}{6} \\Leftrightarrow \\frac{20}{v(v + 20)} = \\frac{5}{6 \\times 120} = \\frac{1}{144}$\n$\\Leftrightarrow v(v + 20) = 20 \\times 144 = 2880 \\Leftrightarrow v^2 + 20v - 2880 = 0$.\nPhương trình bậc hai có $\\Delta' = 10^2 - (-2880) = 100 + 2880 = 2980$? Kiểm tra lại:\n120 / (5/6) = 120 * 6/5 = 144. 144 * 20 = 2880. sqrt(2880 + 100) = sqrt(2980) không nguyên. Nếu khoảng cách là $120\\text{ km}$, chênh lệch là $50$ phút = $5/6$ giờ. Nếu vận tốc ô tô là $60$, xe máy $40$: $120/40 = 3$ giờ, $120/60 = 2$ giờ, hiệu là $1$ giờ = $60$ phút. Nếu hiệu thời gian là $1$ giờ:\n$v(v + 20) = 120 \\times 20 = 2400 \\Rightarrow v^2 + 20v - 2400 = 0 \\Rightarrow (v - 40)(v + 60) = 0 \\Rightarrow v = 40$.\nVới $v = 40\\text{ km/h}$, vận tốc xe máy là $40\\text{ km/h}$, vận tốc ô tô là $60\\text{ km/h}$.",
-        "rubric": [
-          {
-            "step": "Lập luận thời gian chênh lệch và thiết lập phương trình đúng",
-            "subScore": 0.5
-          },
-          {
-            "step": "Giải phương trình ra vận tốc xe máy 40 km/h, ô tô 60 km/h và kết luận",
-            "subScore": 0.5
-          }
-        ]
+        "level": "Vận dụng",
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 55 con gồm gà và bò. Đếm được tất cả 140 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 55) (0.25đ).\nTa có hệ phương trình: x + y = 55 và 2x + 4y = 140 (0.25đ).\nGiải hệ phương trình ta được: x = 40, y = 15 (0.25đ).\nVậy trang trại có 40 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "points": 1.0,
-        "question": "Tìm tất cả các giá trị của tham số $m$ để hệ phương trình sau có nghiệm duy nhất $(x; y)$ thỏa mãn biểu thức $x^2 + y^2$ đạt giá trị nhỏ nhất:\n$$\\begin{cases} 2x + y = 5m - 1 \\\\ x - 2y = 2 \\end{cases}$$",
-        "solution": "Xét định thức của hệ: $D = 2(-2) - 1(1) = -5 \\neq 0$.\nDo $D \\neq 0$ nên hệ luôn có nghiệm duy nhất với mọi giá trị của $m$.\nGiải hệ phương trình:\nNhân phương trình thứ hai với 2 rồi cộng với phương trình thứ nhất:\n$(2x + y) + 2(x - 2y) = (5m - 1) + 2(2) \\Leftrightarrow 4x - 3y$ (cộng thì $2x + 2x = 4x$ sai hệ số, làm cẩn thận):\nNhân phương trình 1 với 2: $4x + 2y = 10m - 2$.\nCộng với phương trình 2: $5x = 10m \\Rightarrow x = 2m$.\nThay $x = 2m$ vào phương trình 1: $2(2m) + y = 5m - 1 \\Rightarrow y = 5m - 1 - 4m = m - 1$.\nVậy nghiệm duy nhất của hệ là: $\\begin{cases} x = 2m \\\\ y = m - 1 \\end{cases}$.\nXét biểu thức $P = x^2 + y^2$:\n$P = (2m)^2 + (m - 1)^2 = 4m^2 + m^2 - 2m + 1 = 5m^2 - 2m + 1$\n$= 5\\left(m^2 - 2 \\cdot \\frac{1}{5}m + \\frac{1}{25}\\right) + 1 - \\frac{1}{5} = 5\\left(m - \\frac{1}{5}\\right)^2 + \\frac{4}{5} \\ge \\frac{4}{5}$.\nDấu đẳng thức xảy ra khi $m - \\frac{1}{5} = 0 \\Leftrightarrow m = \\frac{1}{5}$.\nVậy giá trị nhỏ nhất của $x^2 + y^2$ là $\\frac{4}{5}$ khi $m = \\frac{1}{5}$.",
-        "rubric": [
-          {
-            "step": "Giải đúng nghiệm duy nhất x = 2m, y = m - 1",
-            "subScore": 0.5
-          },
-          {
-            "step": "Biến đổi P về tam thức bậc hai và kết luận m = 1/5 để P nhỏ nhất",
-            "subScore": 0.5
-          }
-        ]
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 3$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 3 <=> (x - 3)(y - 2) = 9 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 9 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_9_bai4_test4": {
-    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn $x$ và $y$?",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 04)?",
         "options": [
-          "$2x - 3y = 5$",
-          "$x^2 + y = 3$",
-          "$xy - 2 = 0$",
-          "$x + \\frac{1}{y} = 1$"
+          "$5x - 6y = 12$",
+          "$x^2 - 4y = 1$",
+          "$xy = 8$",
+          "$4x + \\frac{1}{y} = 5$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3482,12 +3503,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Cặp số nào sau đây là nghiệm của phương trình $2x + y = 5$?",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 7$?",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
+          "$(4; 1)$",
+          "$(1; 4)$",
           "$(0; 4)$",
-          "$(3; 1)$"
+          "$(4; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3495,12 +3516,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trên mặt phẳng tọa độ $Oxy$, tập nghiệm của phương trình $ax + by = c$ được biểu diễn bởi:",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
           "Một đường thẳng",
-          "Một parabol",
-          "Một điểm duy nhất",
-          "Một đoạn thẳng"
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3508,11 +3529,11 @@ const EXAMS_9_C1_9 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ hai phương trình bậc nhất hai ẩn có nghiệm duy nhất khi hai đường thẳng biểu diễn tập nghiệm của chúng:",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "Cắt nhau tại một điểm",
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
           "Song song với nhau",
-          "Trùng nhau",
           "Vuông góc với nhau"
         ],
         "correct": 0,
@@ -3521,12 +3542,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 10 \\\\ x - y = 4 \\end{cases}$ là:",
         "options": [
-          "$(3; 2)$",
-          "$(2; 3)$",
-          "$(4; 1)$",
-          "$(1; 4)$"
+          "$(7; 3)$",
+          "$(3; 7)$",
+          "$(6; 4)$",
+          "$(8; 2)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3534,12 +3555,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Bằng phương pháp cộng đại số, giải hệ $\\begin{cases} 2x + 3y = 7 \\\\ 2x - y = 3 \\end{cases}$ ta tìm được $y$ bằng:",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 4$, ta rút $y$ theo $x$ được:",
         "options": [
-          "$y = 1$",
-          "$y = 2$",
-          "$y = -1$",
-          "$y = 0$"
+          "$y = 2x - 4$",
+          "$y = 4 - 2x$",
+          "$y = 2x + 4$",
+          "$y = \\frac{x - 4}{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3547,12 +3568,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $2x - y = 3$ đi qua điểm nào sau đây?",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "$(1; -1)$",
-          "$(0; 3)$",
-          "$(2; 2)$",
-          "$(-1; 1)$"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3560,12 +3581,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $a$ để cặp số $(1; -2)$ là nghiệm của phương trình $ax + 3y = -4$:",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 12$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$a = 2$",
-          "$a = -2$",
+          "$a = 8$",
+          "$a = 4$",
           "$a = 10$",
-          "$a = -10$"
+          "$a = 4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3573,12 +3594,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Hai bạn An và Bình cùng mua vở và bút bi. An mua 5 quyển vở và 3 chiếc bút hết 65 000 đồng. Bình mua 3 quyển vở và 2 chiếc bút hết 40 000 đồng. Giá tiền của 1 quyển vở là:",
+        "question": "Tại pha chế dung dịch cồn y tế 70 độ từ cồn 90 độ và nước tinh khiết, bạn An mua 3 cồn 90 độ và 2 nước cất hết 1350 đồng. Bạn Bình mua 2 cồn 90 độ và 4 nước cất hết 1300 đồng. Giá tiền 1 cồn 90 độ là:",
         "options": [
-          "$10\\,000$ đồng",
-          "$8\\,000$ đồng",
-          "$5\\,000$ đồng",
-          "$12\\,000$ đồng"
+          "$350 đồng$",
+          "$150 đồng$",
+          "$2,350 đồng$",
+          "$-1,650 đồng$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3586,12 +3607,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để hệ phương trình $\\begin{cases} mx + y = 3 \\\\ 4x + 2y = 6 \\end{cases}$ có vô số nghiệm:",
+        "question": "Một khu vườn hình chữ nhật có chu vi $8\\text{ m}$. Chiều dài hơn chiều rộng $2\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$1\\text{ m}$",
+          "$3\\text{ m}$",
+          "$6\\text{ m}$",
+          "$-4\\text{ m}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3599,12 +3620,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một hình chữ nhật có chu vi $40\\text{ m}$. Nếu tăng chiều dài thêm $3\\text{ m}$ và giảm chiều rộng đi $2\\text{ m}$ thì diện tích không đổi. Chiều dài ban đầu của hình chữ nhật là:",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 27 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "$12\\text{ m}$",
-          "$10\\text{ m}$",
-          "$14\\text{ m}$",
-          "$8\\text{ m}$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3612,12 +3633,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm các giá trị nguyên của $m$ để hệ phương trình $\\begin{cases} x + my = 2 \\\\ mx - y = 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0, y < 0$:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$m < -2$",
-          "$m > 2$",
-          "$-2 < m < 0$",
-          "$m > 0$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3626,33 +3647,33 @@ const EXAMS_9_C1_9 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hệ phương trình bậc nhất hai ẩn (Mã đề 4):",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 16 \\\\ x - y = 2 \\end{cases}$ (Đề số 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình bậc nhất hai ẩn ax + by = c (a khác 0 hoặc b khác 0) luôn có vô số nghiệm.",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hệ hai phương trình bậc nhất hai ẩn vô nghiệm khi hai đường thẳng biểu diễn tập nghiệm song song với nhau.",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = 4.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu nhân cả hai vế của một phương trình trong hệ với một số khác 0 thì ta được hệ phương trình tương đương.",
+            "text": "Cộng hai phương trình ta được 5x = 20, suy ra x = 4.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Hệ phương trình mx + y = 1 và x + my = 1 luôn có nghiệm với mọi giá trị của m.",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3660,33 +3681,33 @@ const EXAMS_9_C1_9 = {
       },
       {
         "id": 2,
-        "stem": "Cho hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}$:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 04): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nhân phương trình thứ nhất với 2 ta được: 4x - 2y = 6.",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Cộng hai phương trình ta được: 5x = 10, suy ra x = 2.",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Thay x = 2 vào ta tìm được y = 1.",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tích của x và y trong nghiệm của hệ bằng 3.",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3697,17 +3718,17 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm x của hệ phương trình: x + y = 10 và x - y = 4.",
-        "answer": "7",
+        "question": "Giải hệ: 2x + y = 13 và x - y = 2. Tìm nghiệm x.",
+        "answer": "5",
         "acceptableAnswers": [
-          "7"
+          "5"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm y của hệ phương trình: 2x + y = 7 và x = 2.",
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 13 và x = 4.",
         "answer": "3",
         "acceptableAnswers": [
           "3"
@@ -3717,59 +3738,59 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một thửa ruộng hình chữ nhật có chu vi 100 m, chiều dài hơn chiều rộng 10 m. Tính diện tích thửa ruộng (m^2).",
-        "answer": "600",
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 200 m, chiều dài hơn chiều rộng 28 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "59",
         "acceptableAnswers": [
-          "600"
+          "59"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **59**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm m để hệ phương trình x + y = 3 và mx - y = 1 có nghiệm duy nhất thỏa mãn x = 2y.",
-        "answer": "2",
+        "level": "Vận dụng",
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
         "acceptableAnswers": [
-          "2"
+          "150"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải hệ phương trình bằng phương pháp thế: $\\begin{cases} x - 2y = 1 \\\\ 3x + y = 10 \\end{cases}$.",
-        "rubric": "Từ pt 1: x = 2y + 1 (0.25đ).\nThay vào pt 2: 3(2y + 1) + y = 10 => 7y + 3 = 10 => 7y = 7 => y = 1.\nSuy ra: x = 2(1) + 1 = 3. Vậy hệ có nghiệm (3; 1) (0.25đ)."
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 17 \\\\ 2x - 3y = -7 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 17 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(17 - 3x) = -7 => 11x = 44 => x = 4 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (4; 5) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Hai tổ công nhân cùng làm chung một công việc thì hoàn thành trong 12 giờ. Nếu tổ 1 làm trong 4 giờ rồi tổ 2 làm tiếp trong 6 giờ thì cả hai tổ hoàn thành được 40% công việc. Hỏi nếu làm riêng thì mỗi tổ hoàn thành công việc trong bao lâu?",
-        "rubric": "Gọi thời gian tổ 1 làm riêng là x (giờ), tổ 2 là y (giờ) (x, y > 12) (0.25đ).\nTrong 1 giờ tổ 1 làm 1/x, tổ 2 làm 1/y công việc. Ta có hệ:\n1/x + 1/y = 1/12 và 4/x + 6/y = 2/5.\nGiải hệ ta được: 1/x = 1/20 => x = 20 (giờ); 1/y = 1/30 => y = 30 (giờ) (0.25đ)."
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 60 con gồm gà và bò. Đếm được tất cả 150 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 60) (0.25đ).\nTa có hệ phương trình: x + y = 60 và 2x + 4y = 150 (0.25đ).\nGiải hệ phương trình ta được: x = 45, y = 15 (0.25đ).\nVậy trang trại có 45 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của tham số $m$ để hệ phương trình $\\begin{cases} mx + 2y = m + 1 \\\\ 2x + my = 2m - 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x + y = 2$.",
-        "rubric": "Hệ có nghiệm duy nhất <=> m^2 - 4 khác 0 <=> m khác +-2 (0.25đ).\nCộng vế theo vế: (m + 2)(x + y) = 3m => (m + 2) . 2 = 3m => 2m + 4 = 3m => m = 4 (thỏa mãn m khác +-2) (0.25đ)."
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 4$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 4 <=> (x - 3)(y - 2) = 10 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 10 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_9_bai4_test5": {
-    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Bài kiểm tra số 5 (💡 Giải bài toán bằng cách lập hệ phương trình)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn $x$ và $y$?",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 05)?",
         "options": [
-          "$2x - 3y = 5$",
-          "$x^2 + y = 3$",
-          "$xy - 2 = 0$",
-          "$x + \\frac{1}{y} = 1$"
+          "$6x - 7y = 15$",
+          "$x^2 - 5y = 1$",
+          "$xy = 9$",
+          "$5x + \\frac{1}{y} = 5$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3777,12 +3798,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Cặp số nào sau đây là nghiệm của phương trình $2x + y = 5$?",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 9$?",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 4)$",
-          "$(3; 1)$"
+          "$(5; 1)$",
+          "$(1; 5)$",
+          "$(0; 5)$",
+          "$(5; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3790,12 +3811,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trên mặt phẳng tọa độ $Oxy$, tập nghiệm của phương trình $ax + by = c$ được biểu diễn bởi:",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
           "Một đường thẳng",
-          "Một parabol",
-          "Một điểm duy nhất",
-          "Một đoạn thẳng"
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3803,11 +3824,11 @@ const EXAMS_9_C1_9 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ hai phương trình bậc nhất hai ẩn có nghiệm duy nhất khi hai đường thẳng biểu diễn tập nghiệm của chúng:",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "Cắt nhau tại một điểm",
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
           "Song song với nhau",
-          "Trùng nhau",
           "Vuông góc với nhau"
         ],
         "correct": 0,
@@ -3816,12 +3837,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 11 \\\\ x - y = 5 \\end{cases}$ là:",
         "options": [
-          "$(3; 2)$",
-          "$(2; 3)$",
-          "$(4; 1)$",
-          "$(1; 4)$"
+          "$(8; 3)$",
+          "$(3; 8)$",
+          "$(7; 4)$",
+          "$(9; 2)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3829,12 +3850,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Bằng phương pháp cộng đại số, giải hệ $\\begin{cases} 2x + 3y = 7 \\\\ 2x - y = 3 \\end{cases}$ ta tìm được $y$ bằng:",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 5$, ta rút $y$ theo $x$ được:",
         "options": [
-          "$y = 1$",
-          "$y = 2$",
-          "$y = -1$",
-          "$y = 0$"
+          "$y = 2x - 5$",
+          "$y = 5 - 2x$",
+          "$y = 2x + 5$",
+          "$y = \\frac{x - 5}{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3842,12 +3863,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $2x - y = 3$ đi qua điểm nào sau đây?",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "$(1; -1)$",
-          "$(0; 3)$",
-          "$(2; 2)$",
-          "$(-1; 1)$"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3855,12 +3876,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $a$ để cặp số $(1; -2)$ là nghiệm của phương trình $ax + 3y = -4$:",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 14$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$a = 2$",
-          "$a = -2$",
           "$a = 10$",
-          "$a = -10$"
+          "$a = 5$",
+          "$a = 12$",
+          "$a = 4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3868,12 +3889,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Hai bạn An và Bình cùng mua vở và bút bi. An mua 5 quyển vở và 3 chiếc bút hết 65 000 đồng. Bình mua 3 quyển vở và 2 chiếc bút hết 40 000 đồng. Giá tiền của 1 quyển vở là:",
+        "question": "Tại cano xuôi dòng và ngược dòng trên sông Đồng Nai, bạn An mua 3 vận tốc riêng cano và 2 dòng nước hết 92 đồng. Bạn Bình mua 2 vận tốc riêng cano và 4 dòng nước hết 72 đồng. Giá tiền 1 vận tốc riêng cano là:",
         "options": [
-          "$10\\,000$ đồng",
-          "$8\\,000$ đồng",
-          "$5\\,000$ đồng",
-          "$12\\,000$ đồng"
+          "$28 đồng$",
+          "$4 đồng$",
+          "$2,028 đồng$",
+          "$-1,972 đồng$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3881,12 +3902,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để hệ phương trình $\\begin{cases} mx + y = 3 \\\\ 4x + 2y = 6 \\end{cases}$ có vô số nghiệm:",
+        "question": "Một khu vườn hình chữ nhật có chu vi $0\\text{ m}$. Chiều dài hơn chiều rộng $0\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$0\\text{ m}$",
+          "$0\\text{ m}$",
+          "$5\\text{ m}$",
+          "$-5\\text{ m}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3894,12 +3915,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một hình chữ nhật có chu vi $40\\text{ m}$. Nếu tăng chiều dài thêm $3\\text{ m}$ và giảm chiều rộng đi $2\\text{ m}$ thì diện tích không đổi. Chiều dài ban đầu của hình chữ nhật là:",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 1 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "$12\\text{ m}$",
-          "$10\\text{ m}$",
-          "$14\\text{ m}$",
-          "$8\\text{ m}$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3907,12 +3928,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm các giá trị nguyên của $m$ để hệ phương trình $\\begin{cases} x + my = 2 \\\\ mx - y = 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0, y < 0$:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$m < -2$",
-          "$m > 2$",
-          "$-2 < m < 0$",
-          "$m > 0$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3921,33 +3942,33 @@ const EXAMS_9_C1_9 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hệ phương trình bậc nhất hai ẩn (Mã đề 5):",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 19 \\\\ x - y = 3 \\end{cases}$ (Đề số 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình bậc nhất hai ẩn ax + by = c (a khác 0 hoặc b khác 0) luôn có vô số nghiệm.",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hệ hai phương trình bậc nhất hai ẩn vô nghiệm khi hai đường thẳng biểu diễn tập nghiệm song song với nhau.",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = 6.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu nhân cả hai vế của một phương trình trong hệ với một số khác 0 thì ta được hệ phương trình tương đương.",
+            "text": "Cộng hai phương trình ta được 5x = 25, suy ra x = 5.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Hệ phương trình mx + y = 1 và x + my = 1 luôn có nghiệm với mọi giá trị của m.",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3955,33 +3976,33 @@ const EXAMS_9_C1_9 = {
       },
       {
         "id": 2,
-        "stem": "Cho hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}$:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 05): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nhân phương trình thứ nhất với 2 ta được: 4x - 2y = 6.",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Cộng hai phương trình ta được: 5x = 10, suy ra x = 2.",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Thay x = 2 vào ta tìm được y = 1.",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tích của x và y trong nghiệm của hệ bằng 3.",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3992,17 +4013,17 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm x của hệ phương trình: x + y = 10 và x - y = 4.",
-        "answer": "7",
+        "question": "Giải hệ: 2x + y = 15 và x - y = 3. Tìm nghiệm x.",
+        "answer": "6",
         "acceptableAnswers": [
-          "7"
+          "6"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm y của hệ phương trình: 2x + y = 7 và x = 2.",
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 14 và x = 5.",
         "answer": "3",
         "acceptableAnswers": [
           "3"
@@ -4012,59 +4033,59 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một thửa ruộng hình chữ nhật có chu vi 100 m, chiều dài hơn chiều rộng 10 m. Tính diện tích thửa ruộng (m^2).",
-        "answer": "600",
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 220 m, chiều dài hơn chiều rộng 30 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "65",
         "acceptableAnswers": [
-          "600"
+          "65"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm m để hệ phương trình x + y = 3 và mx - y = 1 có nghiệm duy nhất thỏa mãn x = 2y.",
-        "answer": "2",
+        "level": "Vận dụng",
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
         "acceptableAnswers": [
-          "2"
+          "150"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải hệ phương trình bằng phương pháp thế: $\\begin{cases} x - 2y = 1 \\\\ 3x + y = 10 \\end{cases}$.",
-        "rubric": "Từ pt 1: x = 2y + 1 (0.25đ).\nThay vào pt 2: 3(2y + 1) + y = 10 => 7y + 3 = 10 => 7y = 7 => y = 1.\nSuy ra: x = 2(1) + 1 = 3. Vậy hệ có nghiệm (3; 1) (0.25đ)."
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 20 \\\\ 2x - 3y = -5 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 20 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(20 - 3x) = -5 => 11x = 55 => x = 5 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (5; 5) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Hai tổ công nhân cùng làm chung một công việc thì hoàn thành trong 12 giờ. Nếu tổ 1 làm trong 4 giờ rồi tổ 2 làm tiếp trong 6 giờ thì cả hai tổ hoàn thành được 40% công việc. Hỏi nếu làm riêng thì mỗi tổ hoàn thành công việc trong bao lâu?",
-        "rubric": "Gọi thời gian tổ 1 làm riêng là x (giờ), tổ 2 là y (giờ) (x, y > 12) (0.25đ).\nTrong 1 giờ tổ 1 làm 1/x, tổ 2 làm 1/y công việc. Ta có hệ:\n1/x + 1/y = 1/12 và 4/x + 6/y = 2/5.\nGiải hệ ta được: 1/x = 1/20 => x = 20 (giờ); 1/y = 1/30 => y = 30 (giờ) (0.25đ)."
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 65 con gồm gà và bò. Đếm được tất cả 160 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 65) (0.25đ).\nTa có hệ phương trình: x + y = 65 và 2x + 4y = 160 (0.25đ).\nGiải hệ phương trình ta được: x = 50, y = 15 (0.25đ).\nVậy trang trại có 50 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của tham số $m$ để hệ phương trình $\\begin{cases} mx + 2y = m + 1 \\\\ 2x + my = 2m - 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x + y = 2$.",
-        "rubric": "Hệ có nghiệm duy nhất <=> m^2 - 4 khác 0 <=> m khác +-2 (0.25đ).\nCộng vế theo vế: (m + 2)(x + y) = 3m => (m + 2) . 2 = 3m => 2m + 4 = 3m => m = 4 (thỏa mãn m khác +-2) (0.25đ)."
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 5$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 5 <=> (x - 3)(y - 2) = 11 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 11 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_9_bai4_test6": {
-    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn $x$ và $y$?",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 06)?",
         "options": [
-          "$2x - 3y = 5$",
-          "$x^2 + y = 3$",
-          "$xy - 2 = 0$",
-          "$x + \\frac{1}{y} = 1$"
+          "$7x - 8y = 18$",
+          "$x^2 - 6y = 1$",
+          "$xy = 10$",
+          "$6x + \\frac{1}{y} = 5$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4072,12 +4093,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Cặp số nào sau đây là nghiệm của phương trình $2x + y = 5$?",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 11$?",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 4)$",
-          "$(3; 1)$"
+          "$(6; 1)$",
+          "$(1; 6)$",
+          "$(0; 6)$",
+          "$(6; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4085,12 +4106,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trên mặt phẳng tọa độ $Oxy$, tập nghiệm của phương trình $ax + by = c$ được biểu diễn bởi:",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
           "Một đường thẳng",
-          "Một parabol",
-          "Một điểm duy nhất",
-          "Một đoạn thẳng"
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4098,11 +4119,11 @@ const EXAMS_9_C1_9 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ hai phương trình bậc nhất hai ẩn có nghiệm duy nhất khi hai đường thẳng biểu diễn tập nghiệm của chúng:",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "Cắt nhau tại một điểm",
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
           "Song song với nhau",
-          "Trùng nhau",
           "Vuông góc với nhau"
         ],
         "correct": 0,
@@ -4111,12 +4132,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 12 \\\\ x - y = 6 \\end{cases}$ là:",
         "options": [
-          "$(3; 2)$",
-          "$(2; 3)$",
-          "$(4; 1)$",
-          "$(1; 4)$"
+          "$(9; 3)$",
+          "$(3; 9)$",
+          "$(8; 4)$",
+          "$(10; 2)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4124,12 +4145,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Bằng phương pháp cộng đại số, giải hệ $\\begin{cases} 2x + 3y = 7 \\\\ 2x - y = 3 \\end{cases}$ ta tìm được $y$ bằng:",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 6$, ta rút $y$ theo $x$ được:",
         "options": [
-          "$y = 1$",
-          "$y = 2$",
-          "$y = -1$",
-          "$y = 0$"
+          "$y = 2x - 6$",
+          "$y = 6 - 2x$",
+          "$y = 2x + 6$",
+          "$y = \\frac{x - 6}{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4137,12 +4158,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $2x - y = 3$ đi qua điểm nào sau đây?",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "$(1; -1)$",
-          "$(0; 3)$",
-          "$(2; 2)$",
-          "$(-1; 1)$"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4150,12 +4171,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $a$ để cặp số $(1; -2)$ là nghiệm của phương trình $ax + 3y = -4$:",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 16$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$a = 2$",
-          "$a = -2$",
-          "$a = 10$",
-          "$a = -10$"
+          "$a = 12$",
+          "$a = 6$",
+          "$a = 14$",
+          "$a = 4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4163,12 +4184,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Hai bạn An và Bình cùng mua vở và bút bi. An mua 5 quyển vở và 3 chiếc bút hết 65 000 đồng. Bình mua 3 quyển vở và 2 chiếc bút hết 40 000 đồng. Giá tiền của 1 quyển vở là:",
+        "question": "Tại hóa đơn tiền điện bậc thang tháng 6 và tháng 7, bạn An mua 3 tháng 6 và 2 tháng 7 hết 2390000 đồng. Bạn Bình mua 2 tháng 6 và 4 tháng 7 hết 2980000 đồng. Giá tiền 1 tháng 6 là:",
         "options": [
-          "$10\\,000$ đồng",
-          "$8\\,000$ đồng",
-          "$5\\,000$ đồng",
-          "$12\\,000$ đồng"
+          "$450,000 đồng$",
+          "$520,000 đồng$",
+          "$452,000 đồng$",
+          "$448,000 đồng$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4176,12 +4197,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để hệ phương trình $\\begin{cases} mx + y = 3 \\\\ 4x + 2y = 6 \\end{cases}$ có vô số nghiệm:",
+        "question": "Một khu vườn hình chữ nhật có chu vi $19400\\text{ m}$. Chiều dài hơn chiều rộng $-700\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$5200\\text{ m}$",
+          "$4500\\text{ m}$",
+          "$5205\\text{ m}$",
+          "$5195\\text{ m}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4189,12 +4210,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một hình chữ nhật có chu vi $40\\text{ m}$. Nếu tăng chiều dài thêm $3\\text{ m}$ và giảm chiều rộng đi $2\\text{ m}$ thì diện tích không đổi. Chiều dài ban đầu của hình chữ nhật là:",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 47800 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "$12\\text{ m}$",
-          "$10\\text{ m}$",
-          "$14\\text{ m}$",
-          "$8\\text{ m}$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4202,12 +4223,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm các giá trị nguyên của $m$ để hệ phương trình $\\begin{cases} x + my = 2 \\\\ mx - y = 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0, y < 0$:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$m < -2$",
-          "$m > 2$",
-          "$-2 < m < 0$",
-          "$m > 0$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4216,33 +4237,33 @@ const EXAMS_9_C1_9 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hệ phương trình bậc nhất hai ẩn (Mã đề 6):",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 22 \\\\ x - y = 4 \\end{cases}$ (Đề số 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình bậc nhất hai ẩn ax + by = c (a khác 0 hoặc b khác 0) luôn có vô số nghiệm.",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hệ hai phương trình bậc nhất hai ẩn vô nghiệm khi hai đường thẳng biểu diễn tập nghiệm song song với nhau.",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = 8.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu nhân cả hai vế của một phương trình trong hệ với một số khác 0 thì ta được hệ phương trình tương đương.",
+            "text": "Cộng hai phương trình ta được 5x = 30, suy ra x = 6.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Hệ phương trình mx + y = 1 và x + my = 1 luôn có nghiệm với mọi giá trị của m.",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4250,33 +4271,33 @@ const EXAMS_9_C1_9 = {
       },
       {
         "id": 2,
-        "stem": "Cho hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}$:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 06): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nhân phương trình thứ nhất với 2 ta được: 4x - 2y = 6.",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Cộng hai phương trình ta được: 5x = 10, suy ra x = 2.",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Thay x = 2 vào ta tìm được y = 1.",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tích của x và y trong nghiệm của hệ bằng 3.",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4287,7 +4308,7 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm x của hệ phương trình: x + y = 10 và x - y = 4.",
+        "question": "Giải hệ: 2x + y = 17 và x - y = 4. Tìm nghiệm x.",
         "answer": "7",
         "acceptableAnswers": [
           "7"
@@ -4297,7 +4318,7 @@ const EXAMS_9_C1_9 = {
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm y của hệ phương trình: 2x + y = 7 và x = 2.",
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 15 và x = 6.",
         "answer": "3",
         "acceptableAnswers": [
           "3"
@@ -4307,59 +4328,59 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một thửa ruộng hình chữ nhật có chu vi 100 m, chiều dài hơn chiều rộng 10 m. Tính diện tích thửa ruộng (m^2).",
-        "answer": "600",
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 240 m, chiều dài hơn chiều rộng 32 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "71",
         "acceptableAnswers": [
-          "600"
+          "71"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **71**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm m để hệ phương trình x + y = 3 và mx - y = 1 có nghiệm duy nhất thỏa mãn x = 2y.",
-        "answer": "2",
+        "level": "Vận dụng",
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
         "acceptableAnswers": [
-          "2"
+          "150"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải hệ phương trình bằng phương pháp thế: $\\begin{cases} x - 2y = 1 \\\\ 3x + y = 10 \\end{cases}$.",
-        "rubric": "Từ pt 1: x = 2y + 1 (0.25đ).\nThay vào pt 2: 3(2y + 1) + y = 10 => 7y + 3 = 10 => 7y = 7 => y = 1.\nSuy ra: x = 2(1) + 1 = 3. Vậy hệ có nghiệm (3; 1) (0.25đ)."
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 23 \\\\ 2x - 3y = -3 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 23 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(23 - 3x) = -3 => 11x = 66 => x = 6 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (6; 5) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Hai tổ công nhân cùng làm chung một công việc thì hoàn thành trong 12 giờ. Nếu tổ 1 làm trong 4 giờ rồi tổ 2 làm tiếp trong 6 giờ thì cả hai tổ hoàn thành được 40% công việc. Hỏi nếu làm riêng thì mỗi tổ hoàn thành công việc trong bao lâu?",
-        "rubric": "Gọi thời gian tổ 1 làm riêng là x (giờ), tổ 2 là y (giờ) (x, y > 12) (0.25đ).\nTrong 1 giờ tổ 1 làm 1/x, tổ 2 làm 1/y công việc. Ta có hệ:\n1/x + 1/y = 1/12 và 4/x + 6/y = 2/5.\nGiải hệ ta được: 1/x = 1/20 => x = 20 (giờ); 1/y = 1/30 => y = 30 (giờ) (0.25đ)."
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 70 con gồm gà và bò. Đếm được tất cả 170 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 70) (0.25đ).\nTa có hệ phương trình: x + y = 70 và 2x + 4y = 170 (0.25đ).\nGiải hệ phương trình ta được: x = 55, y = 15 (0.25đ).\nVậy trang trại có 55 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của tham số $m$ để hệ phương trình $\\begin{cases} mx + 2y = m + 1 \\\\ 2x + my = 2m - 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x + y = 2$.",
-        "rubric": "Hệ có nghiệm duy nhất <=> m^2 - 4 khác 0 <=> m khác +-2 (0.25đ).\nCộng vế theo vế: (m + 2)(x + y) = 3m => (m + 2) . 2 = 3m => 2m + 4 = 3m => m = 4 (thỏa mãn m khác +-2) (0.25đ)."
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 6$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 6 <=> (x - 3)(y - 2) = 12 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 12 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   },
   "c1_9_bai4_test7": {
-    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương I: Hệ phương trình bậc nhất hai ẩn - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn $x$ và $y$?",
+        "question": "Phương trình nào dưới đây là phương trình bậc nhất hai ẩn $x, y$ (Đề 07)?",
         "options": [
-          "$2x - 3y = 5$",
-          "$x^2 + y = 3$",
-          "$xy - 2 = 0$",
-          "$x + \\frac{1}{y} = 1$"
+          "$8x - 9y = 21$",
+          "$x^2 - 7y = 1$",
+          "$xy = 11$",
+          "$7x + \\frac{1}{y} = 5$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4367,12 +4388,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Cặp số nào sau đây là nghiệm của phương trình $2x + y = 5$?",
+        "question": "Cặp số nào sau đây là một nghiệm của phương trình $2x - y = 13$?",
         "options": [
-          "$(2; 1)$",
-          "$(1; 2)$",
-          "$(0; 4)$",
-          "$(3; 1)$"
+          "$(7; 1)$",
+          "$(1; 7)$",
+          "$(0; 7)$",
+          "$(7; 0)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4380,12 +4401,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Trên mặt phẳng tọa độ $Oxy$, tập nghiệm của phương trình $ax + by = c$ được biểu diễn bởi:",
+        "question": "Đồ thị biểu diễn tập nghiệm của phương trình bậc nhất hai ẩn trên mặt phẳng tọa độ $Oxy$ là:",
         "options": [
           "Một đường thẳng",
-          "Một parabol",
-          "Một điểm duy nhất",
-          "Một đoạn thẳng"
+          "Một đường tròn",
+          "Một đường parabol",
+          "Hai điểm phân biệt"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4393,11 +4414,11 @@ const EXAMS_9_C1_9 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Hệ hai phương trình bậc nhất hai ẩn có nghiệm duy nhất khi hai đường thẳng biểu diễn tập nghiệm của chúng:",
+        "question": "Hệ hai phương trình bậc nhất hai ẩn có vô số nghiệm khi hai đường thẳng biểu diễn:",
         "options": [
-          "Cắt nhau tại một điểm",
+          "Trùng nhau hoàn toàn",
+          "Cắt nhau tại 1 điểm",
           "Song song với nhau",
-          "Trùng nhau",
           "Vuông góc với nhau"
         ],
         "correct": 0,
@@ -4406,12 +4427,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
+        "question": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 13 \\\\ x - y = 7 \\end{cases}$ là:",
         "options": [
-          "$(3; 2)$",
-          "$(2; 3)$",
-          "$(4; 1)$",
-          "$(1; 4)$"
+          "$(10; 3)$",
+          "$(3; 10)$",
+          "$(9; 4)$",
+          "$(11; 2)$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4419,12 +4440,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Bằng phương pháp cộng đại số, giải hệ $\\begin{cases} 2x + 3y = 7 \\\\ 2x - y = 3 \\end{cases}$ ta tìm được $y$ bằng:",
+        "question": "Bằng phương pháp thế, từ phương trình $2x - y = 7$, ta rút $y$ theo $x$ được:",
         "options": [
-          "$y = 1$",
-          "$y = 2$",
-          "$y = -1$",
-          "$y = 0$"
+          "$y = 2x - 7$",
+          "$y = 7 - 2x$",
+          "$y = 2x + 7$",
+          "$y = \\frac{x - 7}{2}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4432,12 +4453,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Đường thẳng biểu diễn tập nghiệm của phương trình $2x - y = 3$ đi qua điểm nào sau đây?",
+        "question": "Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?",
         "options": [
-          "$(1; -1)$",
-          "$(0; 3)$",
-          "$(2; 2)$",
-          "$(-1; 1)$"
+          "$\\begin{cases} x + y = 3 \\\\ 2x - y = 3 \\end{cases}$",
+          "$\\begin{cases} x - y = 3 \\\\ x + 2y = 4 \\end{cases}$",
+          "$\\begin{cases} 2x + y = 4 \\\\ x - y = 0 \\end{cases}$",
+          "$\\begin{cases} 3x - y = 2 \\\\ x + y = 5 \\end{cases}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4445,12 +4466,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $a$ để cặp số $(1; -2)$ là nghiệm của phương trình $ax + 3y = -4$:",
+        "question": "Tìm giá trị $a$ để đường thẳng $ax + 2y = 18$ đi qua điểm $M(1; 2)$:",
         "options": [
-          "$a = 2$",
-          "$a = -2$",
-          "$a = 10$",
-          "$a = -10$"
+          "$a = 14$",
+          "$a = 7$",
+          "$a = 16$",
+          "$a = 4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4458,12 +4479,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Hai bạn An và Bình cùng mua vở và bút bi. An mua 5 quyển vở và 3 chiếc bút hết 65 000 đồng. Bình mua 3 quyển vở và 2 chiếc bút hết 40 000 đồng. Giá tiền của 1 quyển vở là:",
+        "question": "Tại mảnh vườn hoa hình chữ nhật ngoại ô Đà Lạt, bạn An mua 3 chiều dài và 2 chiều rộng hết 126 đồng. Bạn Bình mua 2 chiều dài và 4 chiều rộng hết 132 đồng. Giá tiền 1 chiều dài là:",
         "options": [
-          "$10\\,000$ đồng",
-          "$8\\,000$ đồng",
-          "$5\\,000$ đồng",
-          "$12\\,000$ đồng"
+          "$30 đồng$",
+          "$18 đồng$",
+          "$2,030 đồng$",
+          "$-1,970 đồng$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4471,12 +4492,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $m$ để hệ phương trình $\\begin{cases} mx + y = 3 \\\\ 4x + 2y = 6 \\end{cases}$ có vô số nghiệm:",
+        "question": "Một khu vườn hình chữ nhật có chu vi $0\\text{ m}$. Chiều dài hơn chiều rộng $0\\text{ m}$. Chiều rộng của khu vườn là:",
         "options": [
-          "$m = 2$",
-          "$m = -2$",
-          "$m = 4$",
-          "$m = 1$"
+          "$0\\text{ m}$",
+          "$0\\text{ m}$",
+          "$5\\text{ m}$",
+          "$-5\\text{ m}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4484,12 +4505,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một hình chữ nhật có chu vi $40\\text{ m}$. Nếu tăng chiều dài thêm $3\\text{ m}$ và giảm chiều rộng đi $2\\text{ m}$ thì diện tích không đổi. Chiều dài ban đầu của hình chữ nhật là:",
+        "question": "Hai tổ cùng may áo ấm. Nếu tổ 1 may trong 3 ngày và tổ 2 may trong 2 ngày thì được 1 chiếc áo. Để tìm năng suất mỗi tổ ta lập được hệ:",
         "options": [
-          "$12\\text{ m}$",
-          "$10\\text{ m}$",
-          "$14\\text{ m}$",
-          "$8\\text{ m}$"
+          "Hệ hai phương trình bậc nhất hai ẩn",
+          "Phương trình bậc hai",
+          "Phương trình chứa ẩn ở mẫu",
+          "Bất phương trình bậc nhất"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4497,12 +4518,12 @@ const EXAMS_9_C1_9 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm các giá trị nguyên của $m$ để hệ phương trình $\\begin{cases} x + my = 2 \\\\ mx - y = 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x > 0, y < 0$:",
+        "question": "Một cano chạy xuôi dòng 45 km rồi ngược dòng 18 km hết 3 giờ. Biết vận tốc dòng nước là 3 km/h. Vận tốc riêng của cano là:",
         "options": [
-          "$m < -2$",
-          "$m > 2$",
-          "$-2 < m < 0$",
-          "$m > 0$"
+          "21 km/h",
+          "18 km/h",
+          "24 km/h",
+          "15 km/h"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4511,33 +4532,33 @@ const EXAMS_9_C1_9 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về hệ phương trình bậc nhất hai ẩn (Mã đề 7):",
+        "stem": "Cho hệ phương trình $\\begin{cases} 3x + 2y = 25 \\\\ x - y = 5 \\end{cases}$ (Đề số 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Phương trình bậc nhất hai ẩn ax + by = c (a khác 0 hoặc b khác 0) luôn có vô số nghiệm.",
+            "level": "Nhận biết",
+            "text": "Hệ phương trình đã cho có dạng bậc nhất hai ẩn x và y.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Hệ hai phương trình bậc nhất hai ẩn vô nghiệm khi hai đường thẳng biểu diễn tập nghiệm song song với nhau.",
+            "text": "Nhân phương trình thứ hai với 2 ta được: 2x - 2y = 10.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Nếu nhân cả hai vế của một phương trình trong hệ với một số khác 0 thì ta được hệ phương trình tương đương.",
+            "text": "Cộng hai phương trình ta được 5x = 35, suy ra x = 7.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Hệ phương trình mx + y = 1 và x + my = 1 luôn có nghiệm với mọi giá trị của m.",
+            "text": "Giá trị của biểu thức 2x + 3y đối với nghiệm của hệ bằng 10.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4545,33 +4566,33 @@ const EXAMS_9_C1_9 = {
       },
       {
         "id": 2,
-        "stem": "Cho hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}$:",
+        "stem": "Bài toán thực tế kinh tế gia đình (Mã đề 07): Gia đình bác Ba sử dụng nước sinh hoạt. Tháng trước dùng 25 m^3 hết 210 000 đồng (gồm 10 m^3 giá rẻ mức 1 và 15 m^3 giá mức 2). Tháng này dùng 30 m^3 hết 265 000 đồng (10 m^3 mức 1 và 20 m^3 mức 2).",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nhân phương trình thứ nhất với 2 ta được: 4x - 2y = 6.",
+            "level": "Nhận biết",
+            "text": "Gọi giá nước mức 1 là x (đồng/m^3) và mức 2 là y (đồng/m^3) với x, y > 0.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Cộng hai phương trình ta được: 5x = 10, suy ra x = 2.",
+            "text": "Phương trình biểu diễn số tiền tháng trước là: 10x + 15y = 210 000.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Thay x = 2 vào ta tìm được y = 1.",
+            "text": "Phương trình biểu diễn số tiền tháng này là: 10x + 20y = 265 000.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Tích của x và y trong nghiệm của hệ bằng 3.",
+            "text": "Giá nước ở mức 1 đắt hơn giá nước ở mức 2 là 1 000 đồng/m^3.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4582,17 +4603,17 @@ const EXAMS_9_C1_9 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm x của hệ phương trình: x + y = 10 và x - y = 4.",
-        "answer": "7",
+        "question": "Giải hệ: 2x + y = 19 và x - y = 5. Tìm nghiệm x.",
+        "answer": "8",
         "acceptableAnswers": [
-          "7"
+          "8"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm nghiệm y của hệ phương trình: 2x + y = 7 và x = 2.",
+        "question": "Tìm nghiệm y của hệ phương trình: x + 3y = 16 và x = 7.",
         "answer": "3",
         "acceptableAnswers": [
           "3"
@@ -4602,42 +4623,42 @@ const EXAMS_9_C1_9 = {
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Một thửa ruộng hình chữ nhật có chu vi 100 m, chiều dài hơn chiều rộng 10 m. Tính diện tích thửa ruộng (m^2).",
-        "answer": "600",
+        "question": "Một thửa ruộng hình chữ nhật có chu vi 260 m, chiều dài hơn chiều rộng 34 m. Tính chiều dài của thửa ruộng (m).",
+        "answer": "77",
         "acceptableAnswers": [
-          "600"
+          "77"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **600**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **77**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm m để hệ phương trình x + y = 3 và mx - y = 1 có nghiệm duy nhất thỏa mãn x = 2y.",
-        "answer": "2",
+        "level": "Vận dụng",
+        "question": "Một ô tô đi từ A đến B với vận tốc 50 km/h, lúc về đi với vận tốc 60 km/h nên thời gian về ít hơn thời gian đi 30 phút. Tính độ dài quãng đường AB (km).",
+        "answer": "150",
         "acceptableAnswers": [
-          "2"
+          "150"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **150**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Giải hệ phương trình bằng phương pháp thế: $\\begin{cases} x - 2y = 1 \\\\ 3x + y = 10 \\end{cases}$.",
-        "rubric": "Từ pt 1: x = 2y + 1 (0.25đ).\nThay vào pt 2: 3(2y + 1) + y = 10 => 7y + 3 = 10 => 7y = 7 => y = 1.\nSuy ra: x = 2(1) + 1 = 3. Vậy hệ có nghiệm (3; 1) (0.25đ)."
+        "question": "Giải hệ phương trình bằng phương pháp thế hoặc cộng đại số: $\\begin{cases} 3x + y = 26 \\\\ 2x - 3y = -1 \\end{cases}$.",
+        "rubric": "Từ pt 1 suy ra y = 26 - 3x (0.25đ).\nThay vào pt 2: 2x - 3(26 - 3x) = -1 => 11x = 77 => x = 7 (0.25đ).\nSuy ra y = 5. Vậy nghiệm của hệ là (7; 5) (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Hai tổ công nhân cùng làm chung một công việc thì hoàn thành trong 12 giờ. Nếu tổ 1 làm trong 4 giờ rồi tổ 2 làm tiếp trong 6 giờ thì cả hai tổ hoàn thành được 40% công việc. Hỏi nếu làm riêng thì mỗi tổ hoàn thành công việc trong bao lâu?",
-        "rubric": "Gọi thời gian tổ 1 làm riêng là x (giờ), tổ 2 là y (giờ) (x, y > 12) (0.25đ).\nTrong 1 giờ tổ 1 làm 1/x, tổ 2 làm 1/y công việc. Ta có hệ:\n1/x + 1/y = 1/12 và 4/x + 6/y = 2/5.\nGiải hệ ta được: 1/x = 1/20 => x = 20 (giờ); 1/y = 1/30 => y = 30 (giờ) (0.25đ)."
+        "question": "Tại một trang trại chăn nuôi, có tổng cộng 75 con gồm gà và bò. Đếm được tất cả 180 cái chân. Hỏi trang trại có bao nhiêu con gà và bao nhiêu con bò?",
+        "rubric": "Gọi số gà là x (con), số bò là y (con) (x, y nguyên dương, x, y < 75) (0.25đ).\nTa có hệ phương trình: x + y = 75 và 2x + 4y = 180 (0.25đ).\nGiải hệ phương trình ta được: x = 60, y = 15 (0.25đ).\nVậy trang trại có 60 con gà và 15 con bò (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của tham số $m$ để hệ phương trình $\\begin{cases} mx + 2y = m + 1 \\\\ 2x + my = 2m - 1 \\end{cases}$ có nghiệm duy nhất $(x; y)$ thỏa mãn $x + y = 2$.",
-        "rubric": "Hệ có nghiệm duy nhất <=> m^2 - 4 khác 0 <=> m khác +-2 (0.25đ).\nCộng vế theo vế: (m + 2)(x + y) = 3m => (m + 2) . 2 = 3m => 2m + 4 = 3m => m = 4 (thỏa mãn m khác +-2) (0.25đ)."
+        "question": "Tìm nghiệm nguyên dương $(x; y)$ của phương trình: $xy - 2x - 3y = 7$.",
+        "rubric": "Biến đổi phương trình về dạng tích: x(y - 2) - 3(y - 2) - 6 = 7 <=> (x - 3)(y - 2) = 13 (0.25đ).\nVì x, y nguyên dương nên x - 3 và y - 2 là các ước nguyên của 13 (0.25đ).\nLập bảng xét các trường hợp ước số để tìm các cặp nghiệm nguyên dương (x; y) (0.25đ).\nKết luận tập nghiệm nguyên dương thỏa mãn (0.25đ)."
       }
     ]
   }

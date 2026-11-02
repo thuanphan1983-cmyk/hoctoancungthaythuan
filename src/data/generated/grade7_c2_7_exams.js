@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG II: SỐ THỰC - TOÁN 7 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:20:50
+// Cập nhật lúc: 2026-11-02 07:40:53
 // ==============================================================================
 
 const EXAMS_7_C2_7 = {
@@ -2319,211 +2319,233 @@ const EXAMS_7_C2_7 = {
     ]
   },
   "c2_7_bai4_test1": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số nào sau đây là số vô tỉ?",
+        "question": "Căn bậc hai số học của số $1$ là (Đề 01):",
         "options": [
-          "$0,(5)$",
-          "$\\sqrt{3}$",
-          "$\\sqrt{9}$",
-          "$-\\frac{4}{7}$"
+          "$1$",
+          "$-1$",
+          "$\\pm 1$",
+          "$1$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Căn bậc hai số học của 36 là:",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$\\pm 6$",
-          "$18$",
-          "$6$",
-          "$-6$"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Khẳng định nào sau đây là đúng?",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "Số âm cũng có căn bậc hai số học",
-          "$\\sqrt{a}$ có nghĩa khi và chỉ khi $a \\geq 0$",
-          "$\\sqrt{a^2} = a$ với mọi số thực $a$",
-          "$\\sqrt{0}$ không xác định"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Giá trị tuyệt đối của $-4,7$ là:",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$4,7$",
-          "$9,4$",
-          "$0$",
-          "$-4,7$"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Số đối của $\\sqrt{7}$ là:",
+        "level": "Thông hiểu",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$7$",
-          "$-7$",
-          "$\\sqrt{7}$",
-          "$-\\sqrt{7}$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?",
+        "question": "Giá trị của biểu thức $\\sqrt{1} + \\sqrt{4}$ bằng:",
         "options": [
-          "$\\frac{7}{25}$",
-          "$\\frac{5}{6}$",
-          "$\\frac{1}{9}$",
-          "$\\frac{2}{7}$"
+          "$3$",
+          "$5$",
+          "$1$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $\\sqrt{49} - \\sqrt{16}$ là:",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 1$:",
         "options": [
-          "$3$",
-          "$4$",
-          "$33$",
-          "$7$"
+          "$x = 1$",
+          "$x = 2$",
+          "$x = 1$",
+          "$x = \\sqrt{1}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ biết: $\\sqrt{x} = 5$:",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$x = \\pm 25$",
-          "$x = \\sqrt{5}$",
-          "$x = 10$",
-          "$x = 25$"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Làm tròn số $7,846$ đến hàng phần mười được kết quả là:",
+        "level": "Vận dụng",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $120$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$7,9$",
-          "$7,8$",
-          "$7,85$",
-          "$8$"
+          "11.0 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Số thập phân vô hạn tuần hoàn $0,(5)$ viết dưới dạng phân số tối giản là:",
+        "level": "Vận dụng",
+        "question": "Bác An đi siêu thị mua hàng hết 192 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$\\frac{5}{99}$",
-          "$\\frac{5}{10}$",
-          "$\\frac{1}{2}$",
-          "$\\frac{5}{9}$"
+          "193 000 đồng",
+          "192 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "So sánh $\\sqrt{15}$ và $4$:",
+        "level": "Vận dụng",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "Không so sánh được",
-          "$\\sqrt{15} = 4$",
-          "$\\sqrt{15} < 4$",
-          "$\\sqrt{15} > 4$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Thông hiểu",
-        "question": "Một hình vuông có diện tích $81\\text{ cm}^2$. Chu vi hình vuông đó là:",
+        "level": "Vận dụng cao",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 6$ là:",
         "options": [
-          "$81\\text{ cm}$",
-          "$9\\text{ cm}$",
-          "$36\\text{ cm}$",
-          "$18\\text{ cm}$"
+          "19",
+          "10",
+          "20",
+          "5"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho tập hợp các số thực S = {-2; 0; 3/5; √2; -1,2(3); π}:",
+        "stem": "Xét tính đúng sai về số thực (Đề 01):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
-            "text": "Các số -2; 0; 3/5; -1,2(3) là các số hữu tỉ.",
-            "correct": true
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
-            "level": "Nhận biết",
-            "text": "Các số √2 và π là các số vô tỉ.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Tất cả các phần tử của S đều là số thực.",
-            "correct": true
+            "text": "Căn bậc hai số học của 4 là 2.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Thông hiểu",
-            "text": "Trong tập S có đúng 1 số nguyên.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Xét các phép tính căn bậc hai số học:",
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 01): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "√(0,09) = 0,3.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "√(25/64) = 5/8.",
-            "correct": true
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "√(100) + √(36) = 16.",
-            "correct": true
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "√(100 - 36) = 10 - 6 = 4.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2532,255 +2554,293 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: A = √(144) - √(81) + √(9).",
-        "answer": "6"
+        "question": "Tính căn bậc hai số học của 9.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm số thực x biết: |x| = 7 và x < 0.",
-        "answer": "-7"
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
+        "acceptableAnswers": [
+          "12.3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tìm x thỏa mãn: √(x + 1) = 3.",
-        "answer": "8"
+        "level": "Vận dụng",
+        "question": "Một bức tranh hình vuông có diện tích 154 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "12.4",
+        "acceptableAnswers": [
+          "12.4"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.4**."
       },
       {
         "id": 4,
-        "level": "Vận dụng thấp",
-        "question": "Tính kết quả phép tính: 0,(2) + 0,(7) dưới dạng số tự nhiên.",
-        "answer": "1"
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
+        "acceptableAnswers": [
+          "65"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị các biểu thức sau:\na) A = √(0,36) . √(25) + 3/4\nb) B = 2 . √(81) - 3 . √(49) + 4 . √(25).",
-        "rubric": "a) A = 0,6 . 5 + 0,75 = 3 + 0,75 = 3,75 (0.5đ).\nb) B = 2 . 9 - 3 . 7 + 4 . 5 = 18 - 21 + 20 = 17 (0.5đ)."
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{2}$ và $B = 1$.",
+        "rubric": "Ta có: A^2 = 2 (0.25đ).\nB^2 = 1^2 = 1 (0.25đ).\nVì 2 > 1 nên căn(2) > 1 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm x biết:\na) 2√x - 3 = 7\nb) |x - 2,5| = 1,5.",
-        "rubric": "a) 2√x = 10 => √x = 5 => x = 25 (0.5đ).\nb) x - 2,5 = 1,5 => x = 4; hoặc x - 2,5 = -1,5 => x = 1. Vậy x ∈ {1; 4} (0.5đ)."
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình vuông có diện tích $450$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(450) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Một phòng khách hình vuông có diện tích 36 m². Người ta dùng các viên gạch men hình vuông cạnh 60 cm để lát toàn bộ nền phòng khách đó.\na) Tính độ dài cạnh của phòng khách.\nb) Cần bao nhiêu viên gạch men để lát kín nền phòng khách (coi mạch vữa không đáng kể)?",
-        "rubric": "a) Cạnh phòng khách: a = √36 = 6 m = 600 cm (0.5đ).\nb) Diện tích 1 viên gạch: 60 x 60 = 3600 cm². Diện tích nền: 36 m² = 360 000 cm². Số viên gạch: 360 000 : 3600 = 100 viên (0.5đ)."
+        "level": "Vận dụng cao",
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{1} = 4$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 1 = 4 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   },
   "c2_7_bai4_test2": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 2 (🌿 Khá)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = \\sqrt{25} - \\sqrt{\\frac{16}{9}} + | -1,5 |$ là:",
+        "level": "Nhận biết",
+        "question": "Căn bậc hai số học của số $4$ là (Đề 02):",
         "options": [
-          "$5$",
-          "$\\frac{31}{6}$",
-          "$\\frac{23}{6}$",
-          "$\\frac{13}{6}$"
+          "$2$",
+          "$-2$",
+          "$\\pm 2$",
+          "$4$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Tìm $x$ biết $x^2 = 18$ và $x > 0$:",
+        "level": "Nhận biết",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$x = 9$",
-          "$x = 6$",
-          "$x = 3\\sqrt{2}$",
-          "$x = 2\\sqrt{3}$"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "So sánh hai số thực $a = \\sqrt{29}$ và $b = 5,4$:",
+        "level": "Nhận biết",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "Không so sánh được",
-          "$a < b$",
-          "$a = b$",
-          "$a > b$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng thấp",
-        "question": "Tìm $x$ biết: $\\sqrt{3x - 2} = 4$:",
+        "level": "Nhận biết",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$x = 5$",
-          "$x = 18$",
-          "$x = 2$",
-          "$x = 6$"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng thấp",
-        "question": "Giá trị của biểu thức $P = \\sqrt{(3 - \\sqrt{7})^2} + \\sqrt{7}$ là:",
+        "level": "Thông hiểu",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$3$",
-          "$2\\sqrt{7} - 3$",
-          "$\\sqrt{7}$",
-          "$6$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng thấp",
-        "question": "Số nghiệm của phương trình $|2x - 1| = x + 2$ là:",
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $\\sqrt{4} + \\sqrt{16}$ bằng:",
         "options": [
-          "Vô số",
-          "$0$",
-          "$1$",
-          "$2$"
+          "$6$",
+          "$10$",
+          "$2$",
+          "$4$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng thấp",
-        "question": "Làm tròn số $a = 15,3849$ đến chữ số thập phân thứ hai với độ chính xác $d = 0,005$:",
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 2$:",
         "options": [
-          "$15,38$",
-          "$15,4$",
-          "$15,385$",
-          "$15,39$"
+          "$x = 4$",
+          "$x = 4$",
+          "$x = 2$",
+          "$x = \\sqrt{2}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng thấp",
-        "question": "Một hình chữ nhật có diện tích $45\\text{ cm}^2$, chiều dài gấp 5 lần chiều rộng. Chiều rộng của hình chữ nhật là:",
+        "level": "Thông hiểu",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$9\\text{ cm}$",
-          "$\\sqrt{5}\\text{ cm}$",
-          "$3\\text{ cm}$",
-          "$5\\text{ cm}$"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $M = \\sqrt{x - 2} + |y + 1| + 3$:",
+        "level": "Vận dụng",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $140$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$2$",
-          "$0$",
-          "$3$",
-          "$5$"
+          "11.8 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Số các số nguyên $x$ thỏa mãn $\\sqrt{x} < 10$ là:",
+        "level": "Vận dụng",
+        "question": "Bác An đi siêu thị mua hàng hết 197 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$10$",
-          "$81$",
-          "$99$",
-          "$100$"
+          "198 000 đồng",
+          "197 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Giá trị của biểu thức $C = \\frac{\\sqrt{15} + \\sqrt{5}}{\\sqrt{3} + 1}$ là:",
+        "level": "Vận dụng",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "$\\sqrt{5}$",
-          "$\\sqrt{3}$",
-          "$1$",
-          "$5$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Cho $x$ thỏa mãn $|x - 2| + |x - 5| = 3$. Giá trị của $x$ có thể là:",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 7$ là:",
         "options": [
-          "Vô nghiệm",
-          "Mọi $x$ thỏa mãn $2 \\leq x \\leq 5$",
-          "$x = 2$ hoặc $x = 5$",
-          "$x = 3,5$"
+          "32",
+          "10",
+          "20",
+          "5"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho biểu thức A = √(x - 3) + 2:",
+        "stem": "Xét tính đúng sai về số thực (Đề 02):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Biểu thức A xác định khi x ≥ 3.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Với x = 7 thì A = 4.",
-            "correct": true
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị nhỏ nhất của A bằng 2 khi x = 3.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Căn bậc hai số học của 16 là 4.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "A có thể nhận giá trị bằng 1.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Xét phương trình |x - 1| = 2x - 3:",
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 02): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Điều kiện để phương trình có nghiệm là 2x - 3 ≥ 0 => x ≥ 1,5.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Khi x ≥ 1,5 thì x - 1 > 0 nên phương trình trở thành x - 1 = 2x - 3.",
-            "correct": true
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Nghiệm của phương trình là x = 2.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Phương trình có thêm một nghiệm âm.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -2789,255 +2849,293 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: P = √(64) : 2 + √(81) . 1/3.",
-        "answer": "7"
+        "question": "Tính căn bậc hai số học của 36.",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số thực x thỏa mãn: 3√(x) - 4 = 11.",
-        "answer": "25"
+        "level": "Thông hiểu",
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
+        "acceptableAnswers": [
+          "12.3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: A = |x - 2,5| + 4.",
-        "answer": "4"
+        "level": "Vận dụng",
+        "question": "Một bức tranh hình vuông có diện tích 164 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "12.8",
+        "acceptableAnswers": [
+          "12.8"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.8**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Có bao nhiêu số nguyên dương x thỏa mãn: √x < 6?",
-        "answer": "35"
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
+        "acceptableAnswers": [
+          "65"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính hợp lý nếu có thể:\na) A = √(81/16) - √(25/36) : √(25/9)\nb) B = |-4,5| . 2/3 - √(0,16) . 5.",
-        "rubric": "a) 9/4 - (5/6) : (5/3) = 9/4 - 1/2 = 9/4 - 2/4 = 7/4 (0.5đ).\nb) 4,5 . 2/3 - 0,4 . 5 = 3 - 2 = 1 (0.5đ)."
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{5}$ và $B = 2$.",
+        "rubric": "Ta có: A^2 = 5 (0.25đ).\nB^2 = 2^2 = 4 (0.25đ).\nVì 5 > 4 nên căn(5) > 2 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm x biết:\na) √(2x + 5) = 7\nb) |3x - 1| = 2x + 4.",
-        "rubric": "a) Điều kiện x ≥ -2,5. 2x + 5 = 49 => 2x = 44 => x = 22 (0.5đ).\nb) Điều kiện 2x + 4 ≥ 0 => x ≥ -2. TH1: 3x - 1 = 2x + 4 => x = 5 (nhận). TH2: 3x - 1 = -2x - 4 => 5x = -3 => x = -3/5 (nhận). Vậy x ∈ {-3/5; 5} (0.5đ)."
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình vuông có diện tích $500$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(500) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một kim tự tháp có đáy là hình vuông diện tích 44 100 m².\na) Tính độ dài cạnh đáy của kim tự tháp.\nb) Người ta đi vòng quanh chu vi đáy kim tự tháp với vận tốc 4,2 km/h. Hỏi mất bao nhiêu phút để đi hết 1 vòng quanh đáy kim tự tháp?",
-        "rubric": "a) Cạnh đáy kim tự tháp: a = √44100 = 210 m (0.5đ).\nb) Chu vi đáy: 210 x 4 = 840 m = 0,84 km. Thời gian đi: t = 0,84 : 4,2 = 0,2 giờ = 12 phút (0.5đ)."
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{4} = 5$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 2 = 5 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   },
   "c2_7_bai4_test3": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Rút gọn biểu thức $A = \\sqrt{9 - 4\\sqrt{5}} + \\sqrt{9 + 4\\sqrt{5}}$ ta được:",
+        "level": "Nhận biết",
+        "question": "Căn bậc hai số học của số $9$ là (Đề 03):",
         "options": [
-          "$2$",
-          "$4$",
-          "$2\\sqrt{5}$",
-          "$\\sqrt{5}$"
+          "$3$",
+          "$-3$",
+          "$\\pm 3$",
+          "$9$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Số nghiệm nguyên của phương trình $\\sqrt{x + 1} + \\sqrt{y - 2} = 0$ là:",
+        "level": "Nhận biết",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$0$",
-          "$1$",
-          "$2$",
-          "Vô số"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "So sánh $A = \\sqrt{17} + \\sqrt{8}$ và $B = 7$:",
+        "level": "Nhận biết",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "$A > B$",
-          "$A < B$",
-          "Không so sánh được",
-          "$A = B$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ sao cho $\\sqrt{n + 1} + \\sqrt{n} = \\frac{1}{\\sqrt{2025} - \\sqrt{2024}}$:",
+        "level": "Nhận biết",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$n = 2023$",
-          "$n = 2025$",
-          "$n = 2024$",
-          "Không tồn tại"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng cao",
-        "question": "Giá trị nhỏ nhất của biểu thức $P = \\sqrt{x^2 - 2x + 5} + 3$ là:",
+        "level": "Thông hiểu",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$5$",
-          "$\\sqrt{5} + 3$",
-          "$2$",
-          "$3$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng cao",
-        "question": "Cho $x$ thỏa mãn $\\sqrt{x} + \\frac{1}{\\sqrt{x}} = 4$. Giá trị của biểu thức $x^2 + \\frac{1}{x^2}$ là:",
+        "level": "Thông hiểu",
+        "question": "Giá trị của biểu thức $\\sqrt{9} + \\sqrt{36}$ bằng:",
         "options": [
-          "$192$",
-          "$194$",
-          "$14$",
-          "$196$"
+          "$9$",
+          "$15$",
+          "$3$",
+          "$6$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng cao",
-        "question": "Tìm tất cả các cặp số thực $(x; y)$ thỏa mãn $\\sqrt{x - 1} + \\sqrt{y - 2} = 2$ và $x + y = 5$:",
+        "level": "Thông hiểu",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 3$:",
         "options": [
-          "$(x; y) = (2; 3)$",
-          "$(x; y) = (3; 2)$",
-          "Vô số nghiệm",
-          "$(x; y) = (1; 4)$"
+          "$x = 9$",
+          "$x = 6$",
+          "$x = 3$",
+          "$x = \\sqrt{3}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Có bao nhiêu số nguyên $x$ để phân số $\\frac{\\sqrt{x} + 2}{\\sqrt{x} - 1}$ nhận giá trị nguyên?",
+        "level": "Thông hiểu",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$2$",
-          "$4$",
-          "$1$",
-          "$3$"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Cho $S = \\frac{1}{\\sqrt{1} + \\sqrt{2}} + \\frac{1}{\\sqrt{2} + \\sqrt{3}} + \\dots + \\frac{1}{\\sqrt{99} + \\sqrt{100}}$. Giá trị của $S$ là:",
+        "level": "Vận dụng",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $160$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$8$",
-          "$10$",
-          "$\\sqrt{99}$",
-          "$9$"
+          "12.6 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Số nghiệm của phương trình $|x - 1| + |x - 2| + |x - 3| = 2$ là:",
+        "level": "Vận dụng",
+        "question": "Bác An đi siêu thị mua hàng hết 202 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$1$",
-          "$2$",
-          "Vô số",
-          "$0$"
+          "203 000 đồng",
+          "202 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức $Q = \\frac{1}{x - \\sqrt{x} + 1}$ với $x \\geq 0$:",
+        "level": "Vận dụng",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "$\\frac{3}{4}$",
-          "$1$",
-          "$\\frac{4}{3}$",
-          "$2$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Biết $x$ là số vô tỉ và $y$ là số hữu tỉ khác 0. Khi đó tích $x \\cdot y$ luôn là:",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 8$ là:",
         "options": [
-          "Số tự nhiên",
-          "Số hữu tỉ",
-          "Số nguyên",
-          "Số vô tỉ"
+          "47",
+          "10",
+          "20",
+          "5"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho x là số thực không âm. Xét tính đúng/sai của các mệnh đề sau:",
+        "stem": "Xét tính đúng sai về số thực (Đề 03):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Nếu x < 1 thì √x > x.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Nếu x > 1 thì √x < x.",
-            "correct": true
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng thấp",
-            "text": "Với mọi x ≥ 0 thì x - √x + 1 > 0.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Căn bậc hai số học của 36 là 6.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Phương trình x = √x có đúng 1 nghiệm duy nhất.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Cho hai số thực a, b thỏa mãn a + b = 2√2 và a . b = 1:",
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 03): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "a² + b² = (a + b)² - 2ab = (2√2)² - 2 = 8 - 2 = 6.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "a⁴ + b⁴ = (a² + b²)² - 2(ab)² = 36 - 2 = 34.",
-            "correct": true
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng cao",
-            "text": "Cả hai số a và b đều là các số thực dương.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Hai số a và b là hai số hữu tỉ.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3046,63 +3144,79 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: A = √(10 + 2√9).",
-        "answer": "4"
+        "question": "Tính căn bậc hai số học của 81.",
+        "answer": "9",
+        "acceptableAnswers": [
+          "9"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **9**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên x biết: √(x + 3) = 2√3. Giá trị của x là:",
-        "answer": "9"
+        "level": "Thông hiểu",
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
+        "acceptableAnswers": [
+          "12.3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = |x - 1| + |x - 2| + |x - 3| + |x - 4|.",
-        "answer": "4"
+        "level": "Vận dụng",
+        "question": "Một bức tranh hình vuông có diện tích 174 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "13.2",
+        "acceptableAnswers": [
+          "13.2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **13.2**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tính tổng: S = 1/(1 + √2) + 1/(√2 + √3) + 1/(√3 + √4). Kết quả bằng:",
-        "answer": "1"
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
+        "acceptableAnswers": [
+          "65"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng thấp",
-        "question": "a) Trục căn thức ở mẫu: 1 / (√3 - √2).\nb) Tính giá trị của biểu thức: M = 1 / (√2 + 1) + 1 / (√3 + √2) + 1 / (√4 + √3).",
-        "rubric": "a) 1/(√3 - √2) = (√3 + √2)/[(√3 - √2)(√3 + √2)] = (√3 + √2)/(3 - 2) = √3 + √2 (0.5đ).\nb) M = (√2 - 1) + (√3 - √2) + (√4 - √3) = √4 - 1 = 2 - 1 = 1 (0.5đ)."
+        "level": "Thông hiểu",
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{10}$ và $B = 3$.",
+        "rubric": "Ta có: A^2 = 10 (0.25đ).\nB^2 = 3^2 = 9 (0.25đ).\nVì 10 > 9 nên căn(10) > 3 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Tìm các số thực x, y thỏa mãn:\n√(x - 2) + √(y - 1) = (x + y) / 2.",
-        "rubric": "Quy đồng và chuyển vế: (x - 2√(x-2)) + (y - 2√(y-1)) = 0 (0.3đ). Viết lại: [(x - 2) - 2√(x-2) + 1] + [(y - 1) - 2√(y-1) + 1] = 0 (0.4đ) => (√(x-2) - 1)² + (√(y-1) - 1)² = 0 => √(x-2) = 1 và √(y-1) = 1 => x = 3 và y = 2 (0.3đ)."
+        "level": "Vận dụng",
+        "question": "Một khu vườn hình vuông có diện tích $550$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(550) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng với mọi số tự nhiên n ≥ 1 thì biểu thức:\nP = 1 / (2√1) + 1 / (3√2) + 1 / (4√3) + ... + 1 / ((n+1)√n) < 2.",
-        "rubric": "Xét số hạng tổng quát: 1 / ((k+1)√k) = √k / (k(k+1)) = √k . (1/k - 1/(k+1))? Hoặc đánh giá: 1 / ((k+1)√k) < 2 / (√k + √(k+1)) = 2(√(k+1) - √k) (0.5đ). Lấy tổng từ 1 đến n: P < 2[(√2 - 1) + (√3 - √2) + ... + (√(n+1) - √n)] = 2(√(n+1) - 1). Để chứng minh < 2, đánh giá chặt hơn: 1/((k+1)√k) < 2(1/√k - 1/√(k+1)) => Tổng < 2(1 - 1/√(n+1)) < 2 (0.5đ)."
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{9} = 6$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 3 = 6 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   },
   "c2_7_bai4_test4": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Căn bậc hai số học của 49 là:",
+        "question": "Căn bậc hai số học của số $16$ là (Đề 04):",
         "options": [
-          "$7$",
-          "$-7$",
-          "$\\pm 7$",
-          "$49$"
+          "$4$",
+          "$-4$",
+          "$\\pm 4$",
+          "$16$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3110,12 +3224,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số nào sau đây là số vô tỉ?",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$\\sqrt{2}$",
-          "$\\sqrt{4}$",
-          "$0,75$",
-          "$-5$"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3123,12 +3237,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Giá trị tuyệt đối của số thực $-3,14$ là:",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "$3,14$",
-          "$-3,14$",
-          "$0$",
-          "$\\pi$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3136,12 +3250,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Tập hợp các số thực được kí hiệu là:",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$\\mathbb{R}$",
-          "$\\mathbb{Q}$",
-          "$\\mathbb{Z}$",
-          "$\\mathbb{I}$"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3149,12 +3263,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$\\sqrt{0,09} = 0,3$",
-          "$\\sqrt{0,09} = -0,3$",
-          "$\\sqrt{0,09} = 0,03$",
-          "$\\sqrt{0,09} = 0,9$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3162,12 +3276,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Làm tròn số thực $x = 3,\\!14159...$ đến chữ số thập phân thứ hai được:",
+        "question": "Giá trị của biểu thức $\\sqrt{16} + \\sqrt{64}$ bằng:",
         "options": [
-          "$3,14$",
-          "$3,15$",
-          "$3,1$",
-          "$3,142$"
+          "$12$",
+          "$20$",
+          "$4$",
+          "$8$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3175,12 +3289,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 5$:",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 4$:",
         "options": [
-          "$x = 25$",
-          "$x = 5$",
-          "$x = 10$",
-          "$x = \\sqrt{5}$"
+          "$x = 16$",
+          "$x = 8$",
+          "$x = 4$",
+          "$x = \\sqrt{4}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3188,12 +3302,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Kết quả so sánh giữa $\\sqrt{25}$ và $\\sqrt{26}$ là:",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\sqrt{25} < \\sqrt{26}$",
-          "$\\sqrt{25} > \\sqrt{26}$",
-          "$\\sqrt{25} = \\sqrt{26}$",
-          "Không so sánh được"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3201,12 +3315,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính giá trị biểu thức: $A = \\sqrt{64} - \\sqrt{25} + \\sqrt{36}$:",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $180$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$9$",
-          "$7$",
-          "$11$",
-          "$13$"
+          "13.4 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3214,12 +3328,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm số thực $x$, biết $|x - 1,5| = 2,5$:",
+        "question": "Bác An đi siêu thị mua hàng hết 207 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$x = 4$ hoặc $x = -1$",
-          "$x = 4$",
-          "$x = -1$",
-          "$x = 1$"
+          "208 000 đồng",
+          "207 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3227,12 +3341,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một mảnh đất hình vuông có diện tích $144\\text{ m}^2$. Chu vi của mảnh đất đó là:",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "$48\\text{ m}$",
-          "$24\\text{ m}$",
-          "$36\\text{ m}$",
-          "$12\\text{ m}$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3240,12 +3354,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $M = \\sqrt{x^2 + 4} - 2$:",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 9$ là:",
         "options": [
-          "$0$ (khi $x = 0$)",
-          "$2$",
-          "$-2$",
-          "$4$"
+          "64",
+          "10",
+          "20",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3254,67 +3368,67 @@ const EXAMS_7_C2_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về số thực và căn bậc hai (Mã đề 4):",
+        "stem": "Xét tính đúng sai về số thực (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Mọi số hữu tỉ đều là số thực.",
+            "level": "Nhận biết",
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số 0 vừa là số hữu tỉ vừa là số vô tỉ.",
-            "correct": false,
-            "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Căn bậc hai số học của một số không âm luôn là số không âm.",
-            "correct": true,
-            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Nếu $\\sqrt{x} < 3$ với $x \\ge 0$ thì $0 \\le x < 9$.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = |2x - 3| + 5$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Với mọi $x$, ta luôn có $|2x - 3| \\ge 0$.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng 5 khi $x = 1,5$.",
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Khi $x = 0$ thì $A = 8$.",
+            "text": "Căn bậc hai số học của 64 là 8.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình $A = 3$ có hai nghiệm phân biệt.",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 04): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3325,79 +3439,79 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính: căn(81) - căn(16).",
-        "answer": "5",
+        "question": "Tính căn bậc hai số học của 144.",
+        "answer": "12",
         "acceptableAnswers": [
-          "5"
+          "12"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x không âm biết: căn(x) = 7.",
-        "answer": "49",
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
         "acceptableAnswers": [
-          "49"
+          "12.3"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **49**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: |x - 2| + 1 = 6. Tìm tổng các giá trị của x.",
-        "answer": "4",
+        "question": "Một bức tranh hình vuông có diện tích 184 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "13.6",
         "acceptableAnswers": [
-          "4"
+          "13.6"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **13.6**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức: Q = 10 - căn(x - 1).",
-        "answer": "10",
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
         "acceptableAnswers": [
-          "10"
+          "65"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $B = 3 \\cdot \\sqrt{\\frac{1}{9}} + 1,5 \\cdot \\sqrt{16} - \\sqrt{0,25}$.",
-        "rubric": "B = 3 . (1/3) + 1,5 . 4 - 0,5 = 1 + 6 - 0,5 = 6,5 (0.5đ)."
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{17}$ và $B = 4$.",
+        "rubric": "Ta có: A^2 = 17 (0.25đ).\nB^2 = 4^2 = 16 (0.25đ).\nVì 17 > 16 nên căn(17) > 4 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một phòng triển lãm tranh hình vuông có diện tích 225 m^2. Người ta muốn viền đèn LED xung quanh trần phòng. Hỏi cần đoạn dây LED dài bao nhiêu mét?",
-        "rubric": "Cạnh phòng triển lãm hình vuông: căn(225) = 15 (m) (0.25đ).\nChu vi trần phòng: 15 x 4 = 60 (m).\nVậy cần đoạn dây LED dài 60 mét (0.25đ)."
+        "question": "Một khu vườn hình vuông có diện tích $600$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(600) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của $x$ để biểu thức $P = \\frac{5}{\\sqrt{x} + 2}$ đạt giá trị nguyên lớn nhất.",
-        "rubric": "Vì x >= 0 nên căn(x) >= 0 => căn(x) + 2 >= 2 (0.25đ).\nDo đó P = 5/(căn(x) + 2) <= 5/2 = 2,5.\nĐể P nguyên lớn nhất thì P = 2 => căn(x) + 2 = 2,5 => căn(x) = 0,5 => x = 0,25 (0.25đ)."
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{16} = 7$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 4 = 7 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   },
   "c2_7_bai4_test5": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 5 (💡 Căn bậc hai & Số thực)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Căn bậc hai số học của 49 là:",
+        "question": "Căn bậc hai số học của số $25$ là (Đề 05):",
         "options": [
-          "$7$",
-          "$-7$",
-          "$\\pm 7$",
-          "$49$"
+          "$5$",
+          "$-5$",
+          "$\\pm 5$",
+          "$25$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3405,12 +3519,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số nào sau đây là số vô tỉ?",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$\\sqrt{2}$",
-          "$\\sqrt{4}$",
-          "$0,75$",
-          "$-5$"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3418,12 +3532,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Giá trị tuyệt đối của số thực $-3,14$ là:",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "$3,14$",
-          "$-3,14$",
-          "$0$",
-          "$\\pi$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3431,12 +3545,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Tập hợp các số thực được kí hiệu là:",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$\\mathbb{R}$",
-          "$\\mathbb{Q}$",
-          "$\\mathbb{Z}$",
-          "$\\mathbb{I}$"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3444,12 +3558,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$\\sqrt{0,09} = 0,3$",
-          "$\\sqrt{0,09} = -0,3$",
-          "$\\sqrt{0,09} = 0,03$",
-          "$\\sqrt{0,09} = 0,9$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3457,12 +3571,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Làm tròn số thực $x = 3,\\!14159...$ đến chữ số thập phân thứ hai được:",
+        "question": "Giá trị của biểu thức $\\sqrt{25} + \\sqrt{100}$ bằng:",
         "options": [
-          "$3,14$",
-          "$3,15$",
-          "$3,1$",
-          "$3,142$"
+          "$15$",
+          "$25$",
+          "$5$",
+          "$10$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3470,11 +3584,11 @@ const EXAMS_7_C2_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 5$:",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 5$:",
         "options": [
           "$x = 25$",
-          "$x = 5$",
           "$x = 10$",
+          "$x = 5$",
           "$x = \\sqrt{5}$"
         ],
         "correct": 0,
@@ -3483,12 +3597,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Kết quả so sánh giữa $\\sqrt{25}$ và $\\sqrt{26}$ là:",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\sqrt{25} < \\sqrt{26}$",
-          "$\\sqrt{25} > \\sqrt{26}$",
-          "$\\sqrt{25} = \\sqrt{26}$",
-          "Không so sánh được"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3496,12 +3610,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính giá trị biểu thức: $A = \\sqrt{64} - \\sqrt{25} + \\sqrt{36}$:",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $200$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$9$",
-          "$7$",
-          "$11$",
-          "$13$"
+          "14.1 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3509,12 +3623,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm số thực $x$, biết $|x - 1,5| = 2,5$:",
+        "question": "Bác An đi siêu thị mua hàng hết 212 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$x = 4$ hoặc $x = -1$",
-          "$x = 4$",
-          "$x = -1$",
-          "$x = 1$"
+          "213 000 đồng",
+          "212 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3522,12 +3636,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một mảnh đất hình vuông có diện tích $144\\text{ m}^2$. Chu vi của mảnh đất đó là:",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "$48\\text{ m}$",
-          "$24\\text{ m}$",
-          "$36\\text{ m}$",
-          "$12\\text{ m}$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3535,12 +3649,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $M = \\sqrt{x^2 + 4} - 2$:",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 10$ là:",
         "options": [
-          "$0$ (khi $x = 0$)",
-          "$2$",
-          "$-2$",
-          "$4$"
+          "83",
+          "10",
+          "20",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3549,67 +3663,67 @@ const EXAMS_7_C2_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về số thực và căn bậc hai (Mã đề 5):",
+        "stem": "Xét tính đúng sai về số thực (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Mọi số hữu tỉ đều là số thực.",
+            "level": "Nhận biết",
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số 0 vừa là số hữu tỉ vừa là số vô tỉ.",
-            "correct": false,
-            "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Căn bậc hai số học của một số không âm luôn là số không âm.",
-            "correct": true,
-            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Nếu $\\sqrt{x} < 3$ với $x \\ge 0$ thì $0 \\le x < 9$.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = |2x - 3| + 5$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Với mọi $x$, ta luôn có $|2x - 3| \\ge 0$.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng 5 khi $x = 1,5$.",
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Khi $x = 0$ thì $A = 8$.",
+            "text": "Căn bậc hai số học của 100 là 10.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình $A = 3$ có hai nghiệm phân biệt.",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 05): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3620,79 +3734,79 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính: căn(81) - căn(16).",
-        "answer": "5",
+        "question": "Tính căn bậc hai số học của 225.",
+        "answer": "15",
         "acceptableAnswers": [
-          "5"
+          "15"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x không âm biết: căn(x) = 7.",
-        "answer": "49",
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
         "acceptableAnswers": [
-          "49"
+          "12.3"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **49**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: |x - 2| + 1 = 6. Tìm tổng các giá trị của x.",
-        "answer": "4",
+        "question": "Một bức tranh hình vuông có diện tích 194 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "13.9",
         "acceptableAnswers": [
-          "4"
+          "13.9"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **13.9**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức: Q = 10 - căn(x - 1).",
-        "answer": "10",
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
         "acceptableAnswers": [
-          "10"
+          "65"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $B = 3 \\cdot \\sqrt{\\frac{1}{9}} + 1,5 \\cdot \\sqrt{16} - \\sqrt{0,25}$.",
-        "rubric": "B = 3 . (1/3) + 1,5 . 4 - 0,5 = 1 + 6 - 0,5 = 6,5 (0.5đ)."
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{26}$ và $B = 5$.",
+        "rubric": "Ta có: A^2 = 26 (0.25đ).\nB^2 = 5^2 = 25 (0.25đ).\nVì 26 > 25 nên căn(26) > 5 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một phòng triển lãm tranh hình vuông có diện tích 225 m^2. Người ta muốn viền đèn LED xung quanh trần phòng. Hỏi cần đoạn dây LED dài bao nhiêu mét?",
-        "rubric": "Cạnh phòng triển lãm hình vuông: căn(225) = 15 (m) (0.25đ).\nChu vi trần phòng: 15 x 4 = 60 (m).\nVậy cần đoạn dây LED dài 60 mét (0.25đ)."
+        "question": "Một khu vườn hình vuông có diện tích $650$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(650) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của $x$ để biểu thức $P = \\frac{5}{\\sqrt{x} + 2}$ đạt giá trị nguyên lớn nhất.",
-        "rubric": "Vì x >= 0 nên căn(x) >= 0 => căn(x) + 2 >= 2 (0.25đ).\nDo đó P = 5/(căn(x) + 2) <= 5/2 = 2,5.\nĐể P nguyên lớn nhất thì P = 2 => căn(x) + 2 = 2,5 => căn(x) = 0,5 => x = 0,25 (0.25đ)."
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{25} = 8$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 5 = 8 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   },
   "c2_7_bai4_test6": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Căn bậc hai số học của 49 là:",
+        "question": "Căn bậc hai số học của số $36$ là (Đề 06):",
         "options": [
-          "$7$",
-          "$-7$",
-          "$\\pm 7$",
-          "$49$"
+          "$6$",
+          "$-6$",
+          "$\\pm 6$",
+          "$36$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3700,12 +3814,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số nào sau đây là số vô tỉ?",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$\\sqrt{2}$",
-          "$\\sqrt{4}$",
-          "$0,75$",
-          "$-5$"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3713,12 +3827,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Giá trị tuyệt đối của số thực $-3,14$ là:",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "$3,14$",
-          "$-3,14$",
-          "$0$",
-          "$\\pi$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3726,12 +3840,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Tập hợp các số thực được kí hiệu là:",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$\\mathbb{R}$",
-          "$\\mathbb{Q}$",
-          "$\\mathbb{Z}$",
-          "$\\mathbb{I}$"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3739,12 +3853,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$\\sqrt{0,09} = 0,3$",
-          "$\\sqrt{0,09} = -0,3$",
-          "$\\sqrt{0,09} = 0,03$",
-          "$\\sqrt{0,09} = 0,9$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3752,12 +3866,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Làm tròn số thực $x = 3,\\!14159...$ đến chữ số thập phân thứ hai được:",
+        "question": "Giá trị của biểu thức $\\sqrt{36} + \\sqrt{144}$ bằng:",
         "options": [
-          "$3,14$",
-          "$3,15$",
-          "$3,1$",
-          "$3,142$"
+          "$18$",
+          "$30$",
+          "$6$",
+          "$12$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3765,12 +3879,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 5$:",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 6$:",
         "options": [
-          "$x = 25$",
-          "$x = 5$",
-          "$x = 10$",
-          "$x = \\sqrt{5}$"
+          "$x = 36$",
+          "$x = 12$",
+          "$x = 6$",
+          "$x = \\sqrt{6}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3778,12 +3892,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Kết quả so sánh giữa $\\sqrt{25}$ và $\\sqrt{26}$ là:",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\sqrt{25} < \\sqrt{26}$",
-          "$\\sqrt{25} > \\sqrt{26}$",
-          "$\\sqrt{25} = \\sqrt{26}$",
-          "Không so sánh được"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3791,12 +3905,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính giá trị biểu thức: $A = \\sqrt{64} - \\sqrt{25} + \\sqrt{36}$:",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $220$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$9$",
-          "$7$",
-          "$11$",
-          "$13$"
+          "14.8 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3804,12 +3918,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm số thực $x$, biết $|x - 1,5| = 2,5$:",
+        "question": "Bác An đi siêu thị mua hàng hết 217 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$x = 4$ hoặc $x = -1$",
-          "$x = 4$",
-          "$x = -1$",
-          "$x = 1$"
+          "218 000 đồng",
+          "217 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3817,12 +3931,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một mảnh đất hình vuông có diện tích $144\\text{ m}^2$. Chu vi của mảnh đất đó là:",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "$48\\text{ m}$",
-          "$24\\text{ m}$",
-          "$36\\text{ m}$",
-          "$12\\text{ m}$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3830,12 +3944,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $M = \\sqrt{x^2 + 4} - 2$:",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 11$ là:",
         "options": [
-          "$0$ (khi $x = 0$)",
-          "$2$",
-          "$-2$",
-          "$4$"
+          "104",
+          "10",
+          "20",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3844,67 +3958,67 @@ const EXAMS_7_C2_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về số thực và căn bậc hai (Mã đề 6):",
+        "stem": "Xét tính đúng sai về số thực (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Mọi số hữu tỉ đều là số thực.",
+            "level": "Nhận biết",
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số 0 vừa là số hữu tỉ vừa là số vô tỉ.",
-            "correct": false,
-            "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Căn bậc hai số học của một số không âm luôn là số không âm.",
-            "correct": true,
-            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Nếu $\\sqrt{x} < 3$ với $x \\ge 0$ thì $0 \\le x < 9$.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = |2x - 3| + 5$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Với mọi $x$, ta luôn có $|2x - 3| \\ge 0$.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng 5 khi $x = 1,5$.",
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Khi $x = 0$ thì $A = 8$.",
+            "text": "Căn bậc hai số học của 144 là 12.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình $A = 3$ có hai nghiệm phân biệt.",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 06): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -3915,74 +4029,74 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính: căn(81) - căn(16).",
-        "answer": "5",
+        "question": "Tính căn bậc hai số học của 324.",
+        "answer": "18",
         "acceptableAnswers": [
-          "5"
+          "18"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **18**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x không âm biết: căn(x) = 7.",
-        "answer": "49",
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
         "acceptableAnswers": [
-          "49"
+          "12.3"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **49**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: |x - 2| + 1 = 6. Tìm tổng các giá trị của x.",
-        "answer": "4",
+        "question": "Một bức tranh hình vuông có diện tích 204 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "14.3",
         "acceptableAnswers": [
-          "4"
+          "14.3"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **14.3**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức: Q = 10 - căn(x - 1).",
-        "answer": "10",
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
         "acceptableAnswers": [
-          "10"
+          "65"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $B = 3 \\cdot \\sqrt{\\frac{1}{9}} + 1,5 \\cdot \\sqrt{16} - \\sqrt{0,25}$.",
-        "rubric": "B = 3 . (1/3) + 1,5 . 4 - 0,5 = 1 + 6 - 0,5 = 6,5 (0.5đ)."
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{37}$ và $B = 6$.",
+        "rubric": "Ta có: A^2 = 37 (0.25đ).\nB^2 = 6^2 = 36 (0.25đ).\nVì 37 > 36 nên căn(37) > 6 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một phòng triển lãm tranh hình vuông có diện tích 225 m^2. Người ta muốn viền đèn LED xung quanh trần phòng. Hỏi cần đoạn dây LED dài bao nhiêu mét?",
-        "rubric": "Cạnh phòng triển lãm hình vuông: căn(225) = 15 (m) (0.25đ).\nChu vi trần phòng: 15 x 4 = 60 (m).\nVậy cần đoạn dây LED dài 60 mét (0.25đ)."
+        "question": "Một khu vườn hình vuông có diện tích $700$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(700) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của $x$ để biểu thức $P = \\frac{5}{\\sqrt{x} + 2}$ đạt giá trị nguyên lớn nhất.",
-        "rubric": "Vì x >= 0 nên căn(x) >= 0 => căn(x) + 2 >= 2 (0.25đ).\nDo đó P = 5/(căn(x) + 2) <= 5/2 = 2,5.\nĐể P nguyên lớn nhất thì P = 2 => căn(x) + 2 = 2,5 => căn(x) = 0,5 => x = 0,25 (0.25đ)."
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{36} = 9$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 6 = 9 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   },
   "c2_7_bai4_test7": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương II: Số thực - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Căn bậc hai số học của 49 là:",
+        "question": "Căn bậc hai số học của số $49$ là (Đề 07):",
         "options": [
           "$7$",
           "$-7$",
@@ -3995,12 +4109,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số nào sau đây là số vô tỉ?",
+        "question": "Số vô tỉ là số viết được dưới dạng:",
         "options": [
-          "$\\sqrt{2}$",
-          "$\\sqrt{4}$",
-          "$0,75$",
-          "$-5$"
+          "Số thập phân vô hạn không tuần hoàn",
+          "Số thập phân hữu hạn",
+          "Phân số",
+          "Số nguyên âm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4008,12 +4122,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Giá trị tuyệt đối của số thực $-3,14$ là:",
+        "question": "Tập hợp các số thực được kí hiệu là:",
         "options": [
-          "$3,14$",
-          "$-3,14$",
-          "$0$",
-          "$\\pi$"
+          "$\\mathbb{R}$",
+          "$\\mathbb{I}$",
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4021,12 +4135,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Tập hợp các số thực được kí hiệu là:",
+        "question": "Số nào sau đây là số vô tỉ?",
         "options": [
-          "$\\mathbb{R}$",
-          "$\\mathbb{Q}$",
-          "$\\mathbb{Z}$",
-          "$\\mathbb{I}$"
+          "$\\sqrt{2}$",
+          "$\\sqrt{4}$",
+          "0,25",
+          "$-\\frac{1}{3}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4034,12 +4148,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Khẳng định nào sau đây là ĐÚNG?",
+        "question": "Làm tròn số $3,14159$ đến hàng phần trăm (chữ số thập phân thứ hai) ta được:",
         "options": [
-          "$\\sqrt{0,09} = 0,3$",
-          "$\\sqrt{0,09} = -0,3$",
-          "$\\sqrt{0,09} = 0,03$",
-          "$\\sqrt{0,09} = 0,9$"
+          "3,14",
+          "3,15",
+          "3,1",
+          "3,142"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4047,12 +4161,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Làm tròn số thực $x = 3,\\!14159...$ đến chữ số thập phân thứ hai được:",
+        "question": "Giá trị của biểu thức $\\sqrt{49} + \\sqrt{196}$ bằng:",
         "options": [
-          "$3,14$",
-          "$3,15$",
-          "$3,1$",
-          "$3,142$"
+          "$21$",
+          "$35$",
+          "$7$",
+          "$14$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4060,12 +4174,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Tìm $x \\ge 0$, biết $\\sqrt{x} = 5$:",
+        "question": "Tìm $x$ không âm, biết $\\sqrt{x} = 7$:",
         "options": [
-          "$x = 25$",
-          "$x = 5$",
-          "$x = 10$",
-          "$x = \\sqrt{5}$"
+          "$x = 49$",
+          "$x = 14$",
+          "$x = 7$",
+          "$x = \\sqrt{7}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4073,12 +4187,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Kết quả so sánh giữa $\\sqrt{25}$ và $\\sqrt{26}$ là:",
+        "question": "Khẳng định nào sau đây là SAI?",
         "options": [
-          "$\\sqrt{25} < \\sqrt{26}$",
-          "$\\sqrt{25} > \\sqrt{26}$",
-          "$\\sqrt{25} = \\sqrt{26}$",
-          "Không so sánh được"
+          "Mọi số thực đều là số vô tỉ",
+          "Mọi số hữu tỉ đều là số thực",
+          "Số 0 là số thực",
+          "Số vô tỉ là số thực"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4086,12 +4200,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính giá trị biểu thức: $A = \\sqrt{64} - \\sqrt{25} + \\sqrt{36}$:",
+        "question": "Một thửa ruộng hình vuông có diện tích bằng $240$ mét vuông. Độ dài cạnh của thửa ruộng hình vuông xấp xỉ bằng (làm tròn 1 chữ số thập phân):",
         "options": [
-          "$9$",
-          "$7$",
-          "$11$",
-          "$13$"
+          "15.5 mét",
+          "10 mét",
+          "12 mét",
+          "15 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4099,12 +4213,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm số thực $x$, biết $|x - 1,5| = 2,5$:",
+        "question": "Bác An đi siêu thị mua hàng hết 222 450 đồng. Khi thanh toán bằng tiền mặt, nhân viên làm tròn đến hàng nghìn thành:",
         "options": [
-          "$x = 4$ hoặc $x = -1$",
-          "$x = 4$",
-          "$x = -1$",
-          "$x = 1$"
+          "223 000 đồng",
+          "222 000 đồng",
+          "190 000 đồng",
+          "180 000 đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4112,12 +4226,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một mảnh đất hình vuông có diện tích $144\\text{ m}^2$. Chu vi của mảnh đất đó là:",
+        "question": "Độ dài đường chéo của một màn hình tivi hình chữ nhật có kích thước $60$ cm và $80$ cm là $\\sqrt{60^2 + 80^2}$. Độ dài đường chéo đó bằng:",
         "options": [
-          "$48\\text{ m}$",
-          "$24\\text{ m}$",
-          "$36\\text{ m}$",
-          "$12\\text{ m}$"
+          "100 cm",
+          "140 cm",
+          "120 cm",
+          "80 cm"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4125,12 +4239,12 @@ const EXAMS_7_C2_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $M = \\sqrt{x^2 + 4} - 2$:",
+        "question": "Số các giá trị nguyên của $x$ thỏa mãn $4 < \\sqrt{x} < 12$ là:",
         "options": [
-          "$0$ (khi $x = 0$)",
-          "$2$",
-          "$-2$",
-          "$4$"
+          "127",
+          "10",
+          "20",
+          "5"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4139,67 +4253,67 @@ const EXAMS_7_C2_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai về số thực và căn bậc hai (Mã đề 7):",
+        "stem": "Xét tính đúng sai về số thực (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Mọi số hữu tỉ đều là số thực.",
+            "level": "Nhận biết",
+            "text": "Tập hợp số thực R bao gồm cả số hữu tỉ và số vô tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Số 0 vừa là số hữu tỉ vừa là số vô tỉ.",
-            "correct": false,
-            "explanation": "Ý B là **Sai** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "c",
-            "level": "Thông hiểu",
-            "text": "Căn bậc hai số học của một số không âm luôn là số không âm.",
-            "correct": true,
-            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "d",
-            "level": "Vận dụng",
-            "text": "Nếu $\\sqrt{x} < 3$ với $x \\ge 0$ thì $0 \\le x < 9$.",
-            "correct": true,
-            "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "stem": "Cho biểu thức $A = |2x - 3| + 5$:",
-        "statements": [
-          {
-            "key": "a",
-            "level": "Thông hiểu",
-            "text": "Với mọi $x$, ta luôn có $|2x - 3| \\ge 0$.",
-            "correct": true,
-            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
-          },
-          {
-            "key": "b",
-            "level": "Thông hiểu",
-            "text": "Giá trị nhỏ nhất của biểu thức $A$ bằng 5 khi $x = 1,5$.",
+            "text": "Mỗi số thực được biểu diễn bởi đúng một điểm trên trục số.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Khi $x = 0$ thì $A = 8$.",
+            "text": "Căn bậc hai số học của 196 là 14.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Phương trình $A = 3$ có hai nghiệm phân biệt.",
+            "text": "Số đối của căn bậc hai số học của a luôn là số dương.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "stem": "Bài toán kỹ thuật đo đạc (Mã đề 07): Một kiến trúc sư đo chiều dài một căn phòng là 5,456 mét và muốn làm tròn số đo.",
+        "statements": [
+          {
+            "key": "a",
+            "level": "Nhận biết",
+            "text": "Số 5,456 là một số thập phân hữu hạn.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "b",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ nhất ta được 5,5 mét.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "c",
+            "level": "Thông hiểu",
+            "text": "Làm tròn đến chữ số thập phân thứ hai ta được 5,46 mét.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+          },
+          {
+            "key": "d",
+            "level": "Vận dụng",
+            "text": "Sai số tuyệt đối khi làm tròn đến hàng đơn vị nhỏ hơn 0,1.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4210,62 +4324,62 @@ const EXAMS_7_C2_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính: căn(81) - căn(16).",
-        "answer": "5",
+        "question": "Tính căn bậc hai số học của 441.",
+        "answer": "21",
         "acceptableAnswers": [
-          "5"
+          "21"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **21**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x không âm biết: căn(x) = 7.",
-        "answer": "49",
+        "question": "Làm tròn số 12,345 đến hàng phần mười.",
+        "answer": "12.3",
         "acceptableAnswers": [
-          "49"
+          "12.3"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **49**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **12.3**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: |x - 2| + 1 = 6. Tìm tổng các giá trị của x.",
-        "answer": "4",
+        "question": "Một bức tranh hình vuông có diện tích 214 cm^2. Tính độ dài cạnh bức tranh (làm tròn 1 chữ số thập phân, cm).",
+        "answer": "14.6",
         "acceptableAnswers": [
-          "4"
+          "14.6"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **14.6**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị lớn nhất của biểu thức: Q = 10 - căn(x - 1).",
-        "answer": "10",
+        "level": "Vận dụng",
+        "question": "Một người có cân nặng 65,48 kg. Hỏi cân nặng của người đó làm tròn đến hàng đơn vị là bao nhiêu kg?",
+        "answer": "65",
         "acceptableAnswers": [
-          "10"
+          "65"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **65**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: $B = 3 \\cdot \\sqrt{\\frac{1}{9}} + 1,5 \\cdot \\sqrt{16} - \\sqrt{0,25}$.",
-        "rubric": "B = 3 . (1/3) + 1,5 . 4 - 0,5 = 1 + 6 - 0,5 = 6,5 (0.5đ)."
+        "question": "So sánh hai số thực sau mà không dùng máy tính: $A = \\sqrt{50}$ và $B = 7$.",
+        "rubric": "Ta có: A^2 = 50 (0.25đ).\nB^2 = 7^2 = 49 (0.25đ).\nVì 50 > 49 nên căn(50) > 7 (0.25đ).\nKết luận A > B (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Một phòng triển lãm tranh hình vuông có diện tích 225 m^2. Người ta muốn viền đèn LED xung quanh trần phòng. Hỏi cần đoạn dây LED dài bao nhiêu mét?",
-        "rubric": "Cạnh phòng triển lãm hình vuông: căn(225) = 15 (m) (0.25đ).\nChu vi trần phòng: 15 x 4 = 60 (m).\nVậy cần đoạn dây LED dài 60 mét (0.25đ)."
+        "question": "Một khu vườn hình vuông có diện tích $750$ mét vuông. Bác thợ dự định đóng cọc rào xung quanh khu vườn, mỗi cọc cách nhau $2$ mét. Tính số cọc cần chuẩn bị.",
+        "rubric": "Cạnh của khu vườn: a = căn(750) (m) (0.25đ).\nTính chu vi khu vườn: P = 4 . a (m) (0.25đ).\nSố cọc rào = Chu vi / 2 (0.25đ).\nKết luận số cọc cần chuẩn bị (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các giá trị của $x$ để biểu thức $P = \\frac{5}{\\sqrt{x} + 2}$ đạt giá trị nguyên lớn nhất.",
-        "rubric": "Vì x >= 0 nên căn(x) >= 0 => căn(x) + 2 >= 2 (0.25đ).\nDo đó P = 5/(căn(x) + 2) <= 5/2 = 2,5.\nĐể P nguyên lớn nhất thì P = 2 => căn(x) + 2 = 2,5 => căn(x) = 0,5 => x = 0,25 (0.25đ)."
+        "question": "Tìm số thực $x$ thỏa mãn đẳng thức: $\\sqrt{2x - 1} + \\sqrt{49} = 10$.",
+        "rubric": "Điều kiện xác định: 2x - 1 >= 0 <=> x >= 1/2 (0.25đ).\nPhương trình tương đương: căn(2x - 1) + 7 = 10 (0.25đ).\ncăn(2x - 1) = 3 <=> 2x - 1 = 9 <=> 2x = 10 <=> x = 5 (0.25đ).\nKiểm tra điều kiện và kết luận nghiệm x = 5 (0.25đ)."
       }
     ]
   }

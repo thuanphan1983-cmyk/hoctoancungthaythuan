@@ -3,7 +3,7 @@
   "chapterId": "c3_7",
   "chapterTitle": "Chương III: Góc và đường thẳng song song",
   "totalExams": 19,
-  "updatedAt": "2026-11-01 19:20:50",
+  "updatedAt": "2026-11-02 07:40:53",
   "exams": {
     "c3_7_bai1_test1": {
       "title": "Toán 7 (KNTT) - Bài 8: Góc đặc biệt. Tia phân giác - Bài kiểm tra số 1 (🌱 Cơ bản)",
@@ -3090,211 +3090,233 @@
       ]
     },
     "c3_7_bai5_test1": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và song song - Bài kiểm tra số 1 (🌱 Cơ bản)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Hai góc đối đỉnh thì:",
+          "question": "Hai góc đối đỉnh thì (Đề 01):",
           "options": [
-            "Kề bù",
-            "Phụ nhau",
             "Bằng nhau",
-            "Có tổng bằng $90^\\circ$"
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Hai góc kề bù có tổng số đo bằng:",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
           "options": [
-            "$100^\\circ$",
-            "$180^\\circ$",
-            "$360^\\circ$",
-            "$90^\\circ$"
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Tia phân giác của một góc chia góc đó thành:",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
           "options": [
-            "Hai góc phụ nhau",
-            "Hai góc nhọn bất kì",
-            "Hai góc bằng nhau",
-            "Hai góc kề bù"
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Nếu đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ tạo thành một cặp góc so le trong bằng nhau thì:",
+          "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
-            "$a$ cắt $b$",
-            "$a$ trùng $b$",
-            "$a \\perp b$",
-            "$a \\parallel b$"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$60^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì:",
+          "level": "Thông hiểu",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 55^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "Cắt nhau",
-            "Song song với nhau",
-            "Vuông góc với nhau",
-            "Trùng nhau"
+            "$55^\\circ$",
+            "$125^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Tiên đề Euclid khẳng định qua một điểm ở ngoài đường thẳng có bao nhiêu đường thẳng song song với đường thẳng đó?",
+          "level": "Thông hiểu",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $71^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "Không có đường thẳng nào",
-            "Chỉ có 1 đường thẳng duy nhất",
-            "Có vô số đường thẳng",
-            "Có 2 đường thẳng"
+            "$71^\\circ$",
+            "$109^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Cho $\\widehat{xOy} = 70^\\circ$. Góc đối đỉnh với $\\widehat{xOy}$ có số đo là:",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 82^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "$70^\\circ$",
-            "$20^\\circ$",
-            "$110^\\circ$",
-            "$180^\\circ$"
+            "$41^\\circ$",
+            "$82^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Cho hai góc kề bù $\\widehat{A}$ và $\\widehat{B}$. Biết $\\widehat{A} = 50^\\circ$, số đo góc $\\widehat{B}$ là:",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
-            "$50^\\circ$",
-            "$40^\\circ$",
-            "$130^\\circ$",
-            "$90^\\circ$"
+            "Song song với nhau",
+            "Cắt nhau",
+            "Trùng nhau",
+            "Vuông góc với nhau"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Tia $Oz$ là phân giác của $\\widehat{xOy} = 80^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
+          "level": "Vận dụng",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $66^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
-            "$20^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$40^\\circ$"
+            "$66^\\circ$",
+            "$114^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Cho $a \\parallel b$. Một góc đồng vị có số đo bằng $65^\\circ$. Góc đồng vị kia có số đo là:",
+          "level": "Vận dụng",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "$65^\\circ$",
+            "$180^\\circ$",
             "$90^\\circ$",
-            "$25^\\circ$",
-            "$115^\\circ$"
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Hai đường thẳng $a$ và $b$ song song với nhau. Một góc trong cùng phía bằng $120^\\circ$. Góc trong cùng phía còn lại bằng:",
+          "level": "Vận dụng",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $31^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "$60^\\circ$",
+            "$31^\\circ$",
+            "$59^\\circ$",
             "$90^\\circ$",
-            "$120^\\circ$",
-            "$180^\\circ$"
+            "$45^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Thông hiểu",
-          "question": "Cho $a \\perp c$ và $b \\parallel a$. Mối quan hệ giữa $b$ và $c$ là:",
+          "level": "Vận dụng cao",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
-            "$b$ cắt $c$ nhưng không vuông góc",
-            "$b$ trùng $c$",
-            "$b \\parallel c$",
-            "$b \\perp c$"
+            "$90^\\circ$",
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho hình vẽ hai đường thẳng a và b song song bị cắt bởi cát tuyến c tại A và B:",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 01):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Các cặp góc so le trong bằng nhau.",
-              "correct": true
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Các cặp góc đồng vị bằng nhau.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Các cặp góc trong cùng phía bù nhau (có tổng bằng 180°).",
-              "correct": true
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Thông hiểu",
-              "text": "Hai góc so le trong luôn phụ nhau (tổng bằng 90°).",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho góc xOy = 120°. Vẽ tia Oz là tia đối của Ox, tia Ot là phân giác của góc yOz:",
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 01):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Góc yOz kề bù với góc xOy, nên yOz = 60°.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Ot là phân giác yOz nên zOt = yOt = 30°.",
-              "correct": true
+              "text": "Nếu một góc so le trong bằng 61 độ thì góc đối đỉnh với nó cũng bằng 61 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Số đo góc xOt = 150°.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 119 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng thấp",
-              "text": "Tia Oy vuông góc với tia Ot.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3303,255 +3325,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Hai đường thẳng cắt nhau tạo thành 4 góc. Biết một góc có số đo 45°. Góc đối đỉnh với góc đó có số đo bằng bao nhiêu độ?",
-          "answer": "45"
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 71 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "109",
+          "acceptableAnswers": [
+            "109"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **109**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Cho góc xOy = 150°. Tia Oz là phân giác của góc xOy. Số đo góc xOz bằng bao nhiêu độ?",
-          "answer": "75"
+          "question": "Cho a // b, góc so le trong A1 = 56 độ. Tính góc so le trong B1 (độ).",
+          "answer": "56",
+          "acceptableAnswers": [
+            "56"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **56**."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Cho a // b. Hai góc trong cùng phía có số đo là 2x và 3x. Giá trị của x bằng bao nhiêu độ?",
-          "answer": "36"
+          "level": "Vận dụng",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 36 độ. Tính góc xOy (độ).",
+          "answer": "72",
+          "acceptableAnswers": [
+            "72"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **72**."
         },
         {
           "id": 4,
-          "level": "Vận dụng thấp",
-          "question": "Góc tạo bởi hai tia phân giác của hai góc kề bù bằng bao nhiêu độ?",
-          "answer": "90"
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
+          "acceptableAnswers": [
+            "45"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hình vẽ: biết a // b. Đường thẳng c cắt a tại A và cắt b tại B. Cho biết góc A1 = 70° (góc so le trong với B1).\na) Tính số đo góc B1.\nb) Tính số đo góc B2 (góc kề bù với B1).",
-          "rubric": "a) Vì a // b nên góc B1 = góc A1 = 70° (hai góc so le trong) (0.5đ).\nb) Vì B2 kề bù với B1 nên B2 = 180° - 70° = 110° (0.5đ)."
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 114^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 114 độ (0.25đ).\nGóc so le trong B2 = A1 = 114 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (114) = 66 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Cho góc bẹt xOy. Vẽ tia Oz sao cho góc xOz = 80°.\na) Tính số đo góc yOz.\nb) Vẽ tia Om là phân giác của góc xOz, tia On là phân giác của góc yOz. Chứng minh rằng Om vuông góc với On.",
-          "rubric": "a) yOz = 180° - 80° = 100° (vì kề bù với xOz) (0.4đ).\nb) mOz = 80° : 2 = 40°; zOn = 100° : 2 = 50°. mOn = mOz + zOn = 40° + 50° = 90° => Om ⊥ On (0.6đ)."
+          "level": "Vận dụng",
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 76^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (76) = 104 độ (0.25đ).\nKết luận góc EFD phải bằng 104 độ (0.25đ)."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Cho hình vẽ: biết Ax // By. Góc xAO = 30° và góc OBy = 50° (điểm O nằm giữa hai đường thẳng).\na) Kẻ tia Oz song song với Ax.\nb) Tính số đo góc AOB.",
-          "rubric": "a) Kẻ tia Oz // Ax hướng sang phải. Do Ax // By nên Oz // By (0.4đ).\nb) Oz // Ax => AOz = xAO = 30° (so le trong). Oz // By => BOz = OBy = 50° (so le trong). Suy ra góc AOB = AOz + BOz = 30° + 50° = 80° (0.6đ)."
+          "level": "Vận dụng cao",
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     },
     "c3_7_bai5_test2": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và song song - Bài kiểm tra số 2 (🌿 Khá)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Biết $\\widehat{xOy} = 3\\widehat{yOz}$. Số đo góc $\\widehat{xOy}$ là:",
+          "level": "Nhận biết",
+          "question": "Hai góc đối đỉnh thì (Đề 02):",
           "options": [
-            "$45^\\circ$",
-            "$100^\\circ$",
-            "$135^\\circ$",
-            "$120^\\circ$"
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Thông hiểu",
-          "question": "Cho hình vẽ: biết $a \\perp c$ và $b \\perp c$. Khẳng định nào sau đây đúng?",
+          "level": "Nhận biết",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
           "options": [
-            "$a$ trùng $b$",
-            "$a \\parallel b$",
-            "$a \\perp b$",
-            "$a$ cắt $b$"
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Thông hiểu",
-          "question": "Cho $a \\parallel b$. Đường thẳng $c$ cắt $a$ và $b$. Biết hiệu hai góc trong cùng phía là $40^\\circ$. Số đo của góc bé là:",
+          "level": "Nhận biết",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
           "options": [
-            "$70^\\circ$",
-            "$110^\\circ$",
-            "$60^\\circ$",
-            "$80^\\circ$"
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Vận dụng thấp",
-          "question": "Cho hình vẽ: $Ax \\parallel By$. Biết $\\widehat{xAC} = 120^\\circ, \\widehat{yBC} = 130^\\circ$. Góc $\\widehat{ACB}$ ở giữa (quay ra ngoài) có số đo là:",
+          "level": "Nhận biết",
+          "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
-            "$100^\\circ$",
+            "$180^\\circ$",
             "$90^\\circ$",
-            "$70^\\circ$",
-            "$110^\\circ$"
+            "$360^\\circ$",
+            "$60^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng thấp",
-          "question": "Cho góc $\\widehat{xOy} = 100^\\circ$. Lấy điểm $A$ trên tia $Ox$. Kẻ $Az \\parallel Oy$ (hướng vào trong). Tia phân giác của $\\widehat{xAz}$ cắt $Oy$ tại $B$. Tam giác $OAB$ là:",
+          "level": "Thông hiểu",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 60^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "Tam giác có hai góc bằng nhau (tam giác cân)",
-            "Tam giác vuông",
-            "Tam giác vuông cân",
-            "Tam giác đều"
+            "$60^\\circ$",
+            "$120^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng thấp",
-          "question": "Cho hai góc đối đỉnh $\\widehat{AOB}$ và $\\widehat{COD}$. Biết $\\widehat{AOB} + \\widehat{COD} = 160^\\circ$. Số đo của góc kề bù với $\\widehat{AOB}$ là:",
+          "level": "Thông hiểu",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $72^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "$100^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$72^\\circ$",
+            "$108^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng thấp",
-          "question": "Cho tam giác $ABC$. Kẻ tia phân giác $Ax$ của góc ngoài tại đỉnh $A$. Nếu $Ax \\parallel BC$ thì tam giác $ABC$ có:",
+          "level": "Thông hiểu",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 84^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "$AB = BC = CA$",
-            "$\\widehat{B} = 60^\\circ$",
-            "$\\widehat{A} = 90^\\circ$",
-            "$\\widehat{B} = \\widehat{C}$"
+            "$42^\\circ$",
+            "$84^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng thấp",
-          "question": "Cho ba đường thẳng phân biệt $a, b, c$. Biết $a \\parallel b$ và $c$ cắt $a$. Khi đó $c$ và $b$:",
+          "level": "Thông hiểu",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
-            "Trùng nhau",
+            "Song song với nhau",
             "Cắt nhau",
-            "Song song",
-            "Vuông góc"
+            "Trùng nhau",
+            "Vuông góc với nhau"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Cho $\\widehat{xOy} = 60^\\circ$. Vẽ tia $Oz$ là tia đối của $Ox$. Vẽ tia $Ot$ vuông góc với $Oy$ ($Ot$ nằm trong $\\widehat{yOz}$). Số đo góc $\\widehat{zOt}$ là:",
+          "level": "Vận dụng",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $67^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
+            "$67^\\circ$",
+            "$113^\\circ$",
             "$90^\\circ$",
-            "$60^\\circ$",
-            "$30^\\circ$",
-            "$45^\\circ$"
+            "$180^\\circ$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Hai đường thẳng song song $a$ và $b$ bị cắt bởi cát tuyến $c$. Hai tia phân giác của hai góc so le trong:",
+          "level": "Vận dụng",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "Vuông góc với nhau",
-            "Cắt nhau tạo góc $45^\\circ$",
-            "Song song với nhau",
-            "Trùng nhau"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Qua điểm $O$ vẽ 4 đường thẳng phân biệt. Số cặp góc đối đỉnh nhỏ hơn góc bẹt tạo thành là:",
+          "level": "Vận dụng",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $32^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "$16$",
-            "$8$",
-            "$6$",
-            "$12$"
+            "$32^\\circ$",
+            "$58^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho hình vẽ: biết $AB \\parallel CD$. Góc $\\widehat{A} = 40^\\circ$, góc $\\widehat{C} = 60^\\circ$. Góc $\\widehat{AEC}$ nhọn ở giữa bằng:",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
-            "$50^\\circ$",
-            "$100^\\circ$",
-            "$20^\\circ$",
-            "$80^\\circ$"
+            "$90^\\circ$",
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho hai góc kề nhau xOy và yOz có tổng số đo bằng 150°. Biết xOy = 4 . yOz:",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 02):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Số đo góc yOz = 150° : 5 = 30°.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Số đo góc xOy = 120°.",
-              "correct": true
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Tia phân giác của xOy và phân giác của yOz tạo thành góc 75°.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Góc xOz là góc bẹt.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho tam giác ABC có góc A = 90°. Kẻ AH vuông góc với BC tại H:",
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 02):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Góc B + góc C = 90° (hai góc phụ nhau).",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Góc BAH + góc B = 90°.",
-              "correct": true
+              "text": "Nếu một góc so le trong bằng 62 độ thì góc đối đỉnh với nó cũng bằng 62 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Góc BAH = góc C (vì cùng phụ với góc B).",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 118 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Góc CAH = góc C.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3560,255 +3620,293 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hai góc đối đỉnh có tổng số đo bằng 130°. Số đo mỗi góc đó bằng bao nhiêu độ?",
-          "answer": "65"
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 72 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "108",
+          "acceptableAnswers": [
+            "108"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **108**."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Cho a // b. Cát tuyến c cắt a và b. Biết một góc đồng vị bằng 80°. Góc trong cùng phía với nó có số đo bằng bao nhiêu độ?",
-          "answer": "100"
+          "level": "Thông hiểu",
+          "question": "Cho a // b, góc so le trong A1 = 57 độ. Tính góc so le trong B1 (độ).",
+          "answer": "57",
+          "acceptableAnswers": [
+            "57"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **57**."
         },
         {
           "id": 3,
-          "level": "Vận dụng cao",
-          "question": "Cho góc xOy = 140°. Kẻ các tia Oz và Ot nằm trong góc xOy sao cho Oz ⊥ Ox và Ot ⊥ Oy. Số đo góc zOt bằng bao nhiêu độ?",
-          "answer": "40"
+          "level": "Vận dụng",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 37 độ. Tính góc xOy (độ).",
+          "answer": "74",
+          "acceptableAnswers": [
+            "74"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **74**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Số cặp góc đối đỉnh khác góc bẹt tạo bởi 6 đường thẳng đồng quy là bao nhiêu?",
-          "answer": "30"
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
+          "acceptableAnswers": [
+            "45"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hai đường thẳng AB và CD cắt nhau tại O. Biết góc AOC - góc AOD = 30°.\na) Tính số đo góc AOC và góc AOD.\nb) Tính số đo các góc BOD và BOC.",
-          "rubric": "a) AOC + AOD = 180° (kề bù) và AOC - AOD = 30°. AOC = (180° + 30°) : 2 = 105°; AOD = 180° - 105° = 75° (0.5đ).\nb) BOD = AOC = 105° (đối đỉnh); BOC = AOD = 75° (đối đỉnh) (0.5đ)."
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 113^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 113 độ (0.25đ).\nGóc so le trong B2 = A1 = 113 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (113) = 67 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Cho tam giác ABC có góc B = 70°, C = 30°. Kẻ tia phân giác AD của góc A (D ∈ BC).\na) Tính số đo góc BAC.\nb) Kẻ tia Dx // AB (x ∈ AC). Tính số đo các góc của tam giác ADE.",
-          "rubric": "a) BAC = 180° - (70° + 30°) = 80° (0.4đ).\nb) BAD = CAD = 40°. Vì Dx // AB nên ADE = BAD = 40° (so le trong). AED kề bù với góc trong cùng phía với A => AED = 180° - 80° = 100° (hoặc tính qua góc tam giác). DAE = 40°, ADE = 40°, AED = 100° (0.6đ)."
+          "level": "Vận dụng",
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 77^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (77) = 103 độ (0.25đ).\nKết luận góc EFD phải bằng 103 độ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho hình vẽ: Ax // By. Cho biết góc xAC = 130°, góc CBy = 150° (các tia Ax, By cùng hướng sang phải, điểm C nằm ở giữa).\na) Kẻ tia Cz // Ax hướng sang phải. Chứng minh Cz // By.\nb) Tính số đo góc ACB.",
-          "rubric": "a) Kẻ Cz // Ax. Vì Ax // By nên Cz // By (0.4đ).\nb) Vì Cz // Ax nên ACz + xAC = 180° (trong cùng phía) => ACz = 180° - 130° = 50° (0.3đ). Vì Cz // By nên BCz + CBy = 180° (trong cùng phía) => BCz = 180° - 150° = 30°. Vậy góc ACB = ACz + BCz = 50° + 30° = 80° (0.3đ)."
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     },
     "c3_7_bai5_test3": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và song song - Bài kiểm tra số 3 (🚀 Nâng cao)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
-          "level": "Thông hiểu",
-          "question": "Cho góc $\\widehat{xOy} = 120^\\circ$. Vẽ tia $Oz$ sao cho $Ox \\perp Oz$ và tia $Ot$ sao cho $Oy \\perp Ot$ (các tia $Oz, Ot$ nằm trong góc $\\widehat{xOy}$). Góc $\\widehat{zOt}$ có số đo là:",
+          "level": "Nhận biết",
+          "question": "Hai góc đối đỉnh thì (Đề 03):",
           "options": [
-            "$30^\\circ$",
-            "$90^\\circ$",
-            "$60^\\circ$",
-            "$45^\\circ$"
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Cho hai đường thẳng song song $a$ và $b$. Lấy 10 điểm trên $a$ và 10 điểm trên $b$. Nối tất cả các điểm trên $a$ với các điểm trên $b$. Giả sử không có ba đoạn thẳng nào đồng quy tại một điểm ở giữa hai đường thẳng. Số giao điểm của các đoạn thẳng nằm giữa $a$ và $b$ là:",
+          "level": "Nhận biết",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
           "options": [
-            "$900$",
-            "$2025$",
-            "$45$",
-            "$100$"
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 3,
-          "level": "Vận dụng thấp",
-          "question": "Cho hình vẽ có $Ax \\parallel By$. Góc $\\widehat{A} = 30^\\circ, \\widehat{B} = 40^\\circ$. Điểm $C$ nằm giữa hai đường thẳng sao cho góc $\\widehat{ACB}$ quay về phía trong. Số đo góc $\\widehat{ACB}$ là:",
+          "level": "Nhận biết",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
           "options": [
-            "$10^\\circ$",
-            "$70^\\circ$",
-            "$150^\\circ$",
-            "$110^\\circ$"
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho tam giác $ABC$. Kẻ tia phân giác $BD$ của góc $B$ và $CE$ của góc $C$. Nếu $BD \\parallel CE$ thì:",
+          "level": "Nhận biết",
+          "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
-            "Điều này không thể xảy ra",
-            "Tam giác $ABC$ vuông",
-            "Tam giác $ABC$ đều",
-            "$\\widehat{B} = \\widehat{C} = 90^\\circ$"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$60^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Vận dụng cao",
-          "question": "Cho góc $\\widehat{xOy} = 75^\\circ$. Lấy điểm $A$ trên $Ox$, kẻ $Az \\parallel Oy$. Tia phân giác của $\\widehat{OAz}$ cắt $Oy$ tại $B$. Số đo góc $\\widehat{ABO}$ là:",
+          "level": "Thông hiểu",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 65^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "$\\frac{105^\\circ}{2} = 52,5^\\circ$",
-            "$75^\\circ$",
-            "$37,5^\\circ$",
-            "$45^\\circ$"
+            "$65^\\circ$",
+            "$115^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Vận dụng cao",
-          "question": "Cho $n$ đường thẳng đồng quy tại $O$. Nếu số cặp góc đối đỉnh (khác góc bẹt) tạo thành là 90 thì $n$ bằng:",
+          "level": "Thông hiểu",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $73^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "$12$",
-            "$11$",
-            "$9$",
-            "$10$"
+            "$73^\\circ$",
+            "$107^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Vận dụng cao",
-          "question": "Cho hình bình hành $ABCD$. Góc $\\widehat{A} = 110^\\circ$. Tia phân giác của góc $A$ cắt cạnh $CD$ tại $E$. Tam giác $ADE$ là:",
+          "level": "Thông hiểu",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 86^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "Tam giác vuông",
-            "Tam giác đều",
-            "Tam giác tù",
-            "Tam giác có hai góc ở đáy bằng $55^\\circ$ (tam giác cân)"
+            "$43^\\circ$",
+            "$86^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Vận dụng cao",
-          "question": "Cho hình zíc-zắc 3 đoạn $AB \\parallel CD$. Góc $\\widehat{B} = 35^\\circ, \\widehat{D} = 45^\\circ, \\widehat{BCD} = 80^\\circ$. Nhận định nào sau đây đúng?",
+          "level": "Thông hiểu",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
-            "Hình vẽ thỏa mãn $AB \\parallel CD$",
-            "Cả ba nhận định đều đúng",
-            "Điểm $C$ là đỉnh của góc quay",
-            "Tổng góc trái bằng tổng góc phải"
+            "Song song với nhau",
+            "Cắt nhau",
+            "Trùng nhau",
+            "Vuông góc với nhau"
           ],
-          "correct": 1
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Vận dụng cao",
-          "question": "Cho hai góc kề bù $\\widehat{AOB}$ và $\\widehat{BOC}$. Kẻ $OD$ là phân giác của $\\widehat{AOB}$. Biết $\\widehat{COD} = 140^\\circ$. Số đo góc $\\widehat{AOB}$ là:",
+          "level": "Vận dụng",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $68^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
-            "$80^\\circ$",
-            "$120^\\circ$",
-            "$100^\\circ$",
-            "$60^\\circ$"
+            "$68^\\circ$",
+            "$112^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Vận dụng cao",
-          "question": "Hai đường thẳng song song $a$ và $b$ bị cắt bởi cát tuyến $c$. Khoảng cách giữa hai đường thẳng phân giác của hai góc đồng vị tương ứng:",
+          "level": "Vận dụng",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "Thay đổi tùy cát tuyến",
-            "Bằng độ dài cát tuyến",
-            "Không đổi",
-            "Bằng 0"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Vận dụng cao",
-          "question": "Cho 2024 đường thẳng phân biệt cùng đi qua điểm $O$. Số góc tạo thành khác góc bẹt và góc không là:",
+          "level": "Vận dụng",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $33^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "$2024 \\cdot 2023$",
-            "$4048 \\cdot 4047$",
-            "$2024 \\cdot 4047$",
-            "$2024^2$"
+            "$33^\\circ$",
+            "$57^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
           ],
-          "correct": 2
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho góc $\\widehat{xOy} = 90^\\circ$. Trong góc đó vẽ các tia $Oz, Ot$ sao cho $\\widehat{xOz} = \\widehat{yOt} = 30^\\circ$. Tia phân giác của góc $\\widehat{zOt}$ cũng là:",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
-            "Tia đối của $Oz$",
-            "Tia $Ox$",
-            "Tia $Oy$",
-            "Tia phân giác của $\\widehat{xOy}$"
+            "$90^\\circ$",
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
-          "correct": 3
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         }
       ],
       "part2": [
         {
           "id": 1,
-          "stem": "Cho tam giác ABC có góc A = 80°. Kẻ các đường phân giác BD và CE của tam giác cắt nhau tại I:",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 03):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "B + C = 180° - 80° = 100°.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "IBC + ICB = (1/2)(B + C) = 50°.",
-              "correct": true
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Số đo góc BIC = 180° - 50° = 130°.",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Góc BIC = 90° + A.",
-              "correct": false
+              "level": "Vận dụng",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho hình vẽ có Ax // By. Điểm C nằm giữa sao cho góc xAC = α, góc yBC = β (với Ax, By cùng hướng, góc ACB nhọn hướng vào trong):",
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 03):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Kẻ Cz // Ax thì Cz cũng song song với By.",
-              "correct": true
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
+              "correct": true,
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Góc ACz = α (so le trong).",
-              "correct": true
+              "text": "Nếu một góc so le trong bằng 63 độ thì góc đối đỉnh với nó cũng bằng 63 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
-              "level": "Vận dụng thấp",
-              "text": "Góc BCz = β (so le trong).",
-              "correct": true
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 117 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
-              "level": "Vận dụng cao",
-              "text": "Số đo góc ACB = α + β.",
-              "correct": true
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -3817,56 +3915,111 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc xOy = 110°. Vẽ tia Oz là phân giác của góc xOy, sau đó vẽ tia Ot là tia phân giác của góc xOz. Số đo góc yOt bằng bao nhiêu độ?",
-          "answer": "82,5"
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 73 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "107",
+          "acceptableAnswers": [
+            "107"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **107**."
         },
         {
           "id": 2,
-          "level": "Vận dụng thấp",
-          "question": "Cho hai đường thẳng song song a và b. Một cát tuyến c cắt a và b tạo thành 8 góc. Biết tổng của 4 góc nhọn bằng 280°. Số đo của mỗi góc tù bằng bao nhiêu độ?",
-          "answer": "110"
+          "level": "Thông hiểu",
+          "question": "Cho a // b, góc so le trong A1 = 58 độ. Tính góc so le trong B1 (độ).",
+          "answer": "58",
+          "acceptableAnswers": [
+            "58"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **58**."
         },
         {
           "id": 3,
-          "level": "Vận dụng cao",
-          "question": "Cho n đường thẳng phân biệt cùng đi qua điểm O tạo thành 110 cặp góc đối đỉnh (không kể góc bẹt). Giá trị của n bằng bao nhiêu?",
-          "answer": "11"
+          "level": "Vận dụng",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 38 độ. Tính góc xOy (độ).",
+          "answer": "76",
+          "acceptableAnswers": [
+            "76"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **76**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho hình vẽ: Ax // By. Góc xAB = 140°, góc AOB = 80°. Số đo góc tù OBy bằng bao nhiêu độ?",
-          "answer": "120"
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
+          "acceptableAnswers": [
+            "45"
+          ],
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng thấp",
-          "question": "Cho hình vẽ: Ax // Cy. Cho góc xAB = 120°, góc BCy = 130°. Điểm B nằm giữa hai đường thẳng Ax và Cy.\na) Kẻ tia Bz // Ax (hướng sang phải). Chứng minh Bz // Cy.\nb) Tính số đo góc ABC.",
-          "rubric": "a) Vì Bz // Ax và Ax // Cy nên Bz // Cy (0.4đ).\nb) Vì Bz // Ax nên ABz + xAB = 180° (trong cùng phía) => ABz = 180° - 120° = 60° (0.3đ). Vì Bz // Cy nên CBz + BCy = 180° (trong cùng phía) => CBz = 180° - 130° = 50°. Suy ra ABC = ABz + CBz = 60° + 50° = 110° (0.3đ)."
+          "level": "Thông hiểu",
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 112^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 112 độ (0.25đ).\nGóc so le trong B2 = A1 = 112 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (112) = 68 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Cho tam giác ABC có góc B = 60°, C = 40°. Kẻ tia phân giác AD của góc A (D ∈ BC).\na) Tính số đo góc BAC và góc ADC.\nb) Từ D kẻ đường thẳng song song với AB cắt AC tại E. Chứng minh tam giác ADE có hai góc bằng nhau.",
-          "rubric": "a) BAC = 180° - (60° + 40°) = 80° (0.2đ) => BAD = CAD = 40°. Trong tam giác ADC: ADC = 180° - (40° + 40°) = 100° (0.3đ).\nb) Vì DE // AB nên ADE = BAD = 40° (so le trong) (0.3đ). Mà EAD = CAD = 40° => EAD = ADE = 40°. Tam giác ADE có hai góc bằng nhau (0.2đ)."
+          "level": "Vận dụng",
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 78^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (78) = 102 độ (0.25đ).\nKết luận góc EFD phải bằng 102 độ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho góc nhọn xOy. Lấy điểm A trên Ox, điểm B trên Oy sao cho OA = OB. Qua A kẻ đường thẳng d1 vuông góc với Ox. Qua B kẻ đường thẳng d2 vuông góc với Oy. Gọi I là giao điểm của d1 và d2.\na) Chứng minh rằng góc AIB và góc xOy bù nhau.\nb) Chứng minh rằng tia OI là tia phân giác của góc xOy.",
-          "rubric": "a) Tứ giác OAIB có OAI = 90° và OBI = 90°. Tổng 4 góc = 360° => AIB + xOy = 360° - 180° = 180° (bù nhau) (0.5đ).\nb) Xét hai tam giác vuông OAI và OBI có: cạnh huyền OI chung, OA = OB (gt) => tam giác OAI = OBI (cạnh huyền - cạnh góc vuông) => AOI = BOI => OI là tia phân giác của xOy (0.5đ)."
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     },
     "c3_7_bai5_test4": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai góc đối đỉnh thì (Đề 04):",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
+          "options": [
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
           "level": "Nhận biết",
           "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
@@ -3879,53 +4032,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hai góc đối đỉnh thì:",
-          "options": [
-            "Bằng nhau",
-            "Kề bù",
-            "Có tổng bằng $90^\\circ$",
-            "Phụ nhau"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 3,
-          "level": "Nhận biết",
-          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
-          "options": [
-            "Tạo với hai cạnh của góc hai góc bằng nhau",
-            "Vuông góc với một cạnh",
-            "Là tia đối của một cạnh",
-            "Đi qua trung điểm"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 4,
-          "level": "Nhận biết",
-          "question": "Theo Tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng có bao nhiêu đường thẳng song song với đường thẳng đó?",
-          "options": [
-            "Chỉ có một đường thẳng duy nhất",
-            "Hai đường thẳng",
-            "Vô số đường thẳng",
-            "Không có đường thẳng nào"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho góc $\\widehat{xOy} = 60^\\circ$. Góc đối đỉnh với $\\widehat{xOy}$ có số đo là:",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 70^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "$60^\\circ$",
-            "$120^\\circ$",
-            "$30^\\circ$",
-            "$90^\\circ$"
+            "$70^\\circ$",
+            "$110^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3933,12 +4047,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho hai đường thẳng $a$ và $b$ song song với nhau. Một đường thẳng $c$ cắt $a$ và $b$. Khi đó hai góc so le trong:",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $74^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Có tổng bằng $180^\\circ$"
+            "$74^\\circ$",
+            "$106^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3946,12 +4060,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Nếu đường thẳng $c$ vuông góc với đường thẳng $a$ và $a \\parallel b$ thì:",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 88^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "$c \\perp b$",
-            "$c \\parallel b$",
-            "$c$ trùng với $b$",
-            "$c$ cắt $b$ không vuông góc"
+            "$44^\\circ$",
+            "$88^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3959,7 +4073,7 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì:",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
             "Song song với nhau",
             "Cắt nhau",
@@ -3972,10 +4086,10 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho hình vẽ biết $a \\parallel b$ và một góc so le trong bằng $45^\\circ$. Số đo của góc trong cùng phía với góc đó là:",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $69^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
-            "$135^\\circ$",
-            "$45^\\circ$",
+            "$69^\\circ$",
+            "$111^\\circ$",
             "$90^\\circ$",
             "$180^\\circ$"
           ],
@@ -3985,12 +4099,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho góc $\\widehat{xOy} = 80^\\circ$, tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Kẻ tia $Ot$ là tia đối của tia $Ox$. Số đo của $\\widehat{zOt}$ là:",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "$140^\\circ$",
-            "$100^\\circ$",
-            "$120^\\circ$",
-            "$80^\\circ$"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3998,12 +4112,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho định lí: 'Nếu hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau'. Giả thiết của định lí là:",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $34^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba",
-            "Chúng song song với nhau",
-            "Ba đường thẳng cắt nhau",
-            "Không có giả thiết"
+            "$34^\\circ$",
+            "$56^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4011,12 +4125,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng $Ax \\parallel By$. Lấy điểm $C$ nằm giữa hai đường thẳng sao cho $\\widehat{xAC} = 130^\\circ$ và $\\widehat{CBy} = 140^\\circ$ (với tia $Ax, By$ cùng chiều). Số đo của góc $\\widehat{ACB}$ là:",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
             "$90^\\circ$",
-            "$80^\\circ$",
-            "$100^\\circ$",
-            "$110^\\circ$"
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4025,69 +4139,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về quan hệ giữa góc và các đường thẳng song song (Mã đề 4):",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Hai góc bằng nhau thì chắc chắn là hai góc đối đỉnh.",
-              "correct": false,
-              "explanation": "Ý A là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Nếu hai đường thẳng cắt nhau tạo thành một góc vuông thì các góc còn lại cũng là góc vuông.",
-              "correct": true,
-              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hai góc đồng vị thì luôn bằng nhau.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc kề bù luôn vuông góc với nhau.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Cho đường thẳng $c$ cắt hai đường thẳng song song $a$ và $b$ tại hai điểm $A$ và $B$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Các cặp góc so le trong bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Các cặp góc đồng vị bằng nhau.",
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Các cặp góc trong cùng phía bù nhau (tổng bằng 180 độ).",
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc so le trong song song với nhau.",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 04):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
               "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc so le trong bằng 64 độ thì góc đối đỉnh với nó cũng bằng 64 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 116 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4096,72 +4210,111 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc xOy = 110 độ. Tính góc đối đỉnh với góc kề bù của góc xOy.",
-          "answer": "70",
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 74 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "106",
           "acceptableAnswers": [
-            "70"
+            "106"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **106**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Cho a song song b. Đường thẳng c cắt a tại A tạo thành một góc 55 độ. Tính số đo góc so le trong tại B.",
-          "answer": "55",
+          "question": "Cho a // b, góc so le trong A1 = 59 độ. Tính góc so le trong B1 (độ).",
+          "answer": "59",
           "acceptableAnswers": [
-            "55"
+            "59"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **59**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Cho hai góc kề bù AOB và BOC biết BOC = 2 AOB. Tính số đo góc BOC (độ).",
-          "answer": "120",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 39 độ. Tính góc xOy (độ).",
+          "answer": "78",
           "acceptableAnswers": [
-            "120"
+            "78"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **78**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng a song song b. Một đường thẳng cắt a và b tạo ra 8 góc. Biết tổng 3 góc nhọn bằng 150 độ. Tính số đo một góc tù (độ).",
-          "answer": "130",
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
           "acceptableAnswers": [
-            "130"
+            "45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **130**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hình vẽ hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$ sao cho $\\widehat{xOy} = 50^\\circ$. Tính số đo các góc còn lại tại đỉnh $O$.",
-          "rubric": "x'Oy' = xOy = 50 độ (đối đỉnh) (0.25đ).\nxOy' kề bù xOy => xOy' = 180 - 50 = 130 độ.\nx'Oy đối đỉnh xOy' => x'Oy = 130 độ (0.25đ)."
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 111^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 111 độ (0.25đ).\nGóc so le trong B2 = A1 = 111 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (111) = 69 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$. Qua đỉnh $A$ vẽ đường thẳng $xy \\parallel BC$. Chứng minh rằng tổng ba góc của tam giác $ABC$ bằng $180^\\circ$.",
-          "rubric": "Vì xy song song BC nên: góc xAB = B (so le trong) và yAC = C (so le trong) (0.25đ).\nMà xAB + BAC + yAC = xAy = 180 độ (góc bẹt).\nSuy ra: A + B + C = 180 độ. Đpcm (0.25đ)."
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 79^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (79) = 101 độ (0.25đ).\nKết luận góc EFD phải bằng 101 độ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho hai tia $Ax \\parallel By$. Điểm $C$ nằm giữa hai tia sao cho góc $\\widehat{CAx} = \\alpha$ và $\\widehat{CBy} = \\beta$ (với các góc nhọn). Vẽ tia $Cz \\parallel Ax$. Tính góc $\\widehat{ACB}$ theo $\\alpha$ và $\\beta$.",
-          "rubric": "Vẽ Cz song song Ax (nằm giữa CA và CB) => Cz song song By (0.25đ).\nVì Cz song song Ax => góc ACz = CAx = alpha (so le trong).\nVì Cz song song By => góc BCz = CBy = beta (so le trong).\nDo đó: ACB = ACz + BCz = alpha + beta (0.25đ)."
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     },
     "c3_7_bai5_test5": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Bài kiểm tra số 5 (💡 Đường thẳng song song & Tiên đề Euclid)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai góc đối đỉnh thì (Đề 05):",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
+          "options": [
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
           "level": "Nhận biết",
           "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
@@ -4174,53 +4327,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hai góc đối đỉnh thì:",
-          "options": [
-            "Bằng nhau",
-            "Kề bù",
-            "Có tổng bằng $90^\\circ$",
-            "Phụ nhau"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 3,
-          "level": "Nhận biết",
-          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
-          "options": [
-            "Tạo với hai cạnh của góc hai góc bằng nhau",
-            "Vuông góc với một cạnh",
-            "Là tia đối của một cạnh",
-            "Đi qua trung điểm"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 4,
-          "level": "Nhận biết",
-          "question": "Theo Tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng có bao nhiêu đường thẳng song song với đường thẳng đó?",
-          "options": [
-            "Chỉ có một đường thẳng duy nhất",
-            "Hai đường thẳng",
-            "Vô số đường thẳng",
-            "Không có đường thẳng nào"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho góc $\\widehat{xOy} = 60^\\circ$. Góc đối đỉnh với $\\widehat{xOy}$ có số đo là:",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 75^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "$60^\\circ$",
-            "$120^\\circ$",
-            "$30^\\circ$",
-            "$90^\\circ$"
+            "$75^\\circ$",
+            "$105^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4228,12 +4342,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho hai đường thẳng $a$ và $b$ song song với nhau. Một đường thẳng $c$ cắt $a$ và $b$. Khi đó hai góc so le trong:",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $75^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Có tổng bằng $180^\\circ$"
+            "$75^\\circ$",
+            "$105^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4241,12 +4355,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Nếu đường thẳng $c$ vuông góc với đường thẳng $a$ và $a \\parallel b$ thì:",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 90^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "$c \\perp b$",
-            "$c \\parallel b$",
-            "$c$ trùng với $b$",
-            "$c$ cắt $b$ không vuông góc"
+            "$45^\\circ$",
+            "$90^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4254,7 +4368,7 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì:",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
             "Song song với nhau",
             "Cắt nhau",
@@ -4267,10 +4381,10 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho hình vẽ biết $a \\parallel b$ và một góc so le trong bằng $45^\\circ$. Số đo của góc trong cùng phía với góc đó là:",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $70^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
-            "$135^\\circ$",
-            "$45^\\circ$",
+            "$70^\\circ$",
+            "$110^\\circ$",
             "$90^\\circ$",
             "$180^\\circ$"
           ],
@@ -4280,12 +4394,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho góc $\\widehat{xOy} = 80^\\circ$, tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Kẻ tia $Ot$ là tia đối của tia $Ox$. Số đo của $\\widehat{zOt}$ là:",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "$140^\\circ$",
-            "$100^\\circ$",
-            "$120^\\circ$",
-            "$80^\\circ$"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4293,12 +4407,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho định lí: 'Nếu hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau'. Giả thiết của định lí là:",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $35^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba",
-            "Chúng song song với nhau",
-            "Ba đường thẳng cắt nhau",
-            "Không có giả thiết"
+            "$35^\\circ$",
+            "$55^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4306,12 +4420,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng $Ax \\parallel By$. Lấy điểm $C$ nằm giữa hai đường thẳng sao cho $\\widehat{xAC} = 130^\\circ$ và $\\widehat{CBy} = 140^\\circ$ (với tia $Ax, By$ cùng chiều). Số đo của góc $\\widehat{ACB}$ là:",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
             "$90^\\circ$",
-            "$80^\\circ$",
-            "$100^\\circ$",
-            "$110^\\circ$"
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4320,69 +4434,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về quan hệ giữa góc và các đường thẳng song song (Mã đề 5):",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Hai góc bằng nhau thì chắc chắn là hai góc đối đỉnh.",
-              "correct": false,
-              "explanation": "Ý A là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Nếu hai đường thẳng cắt nhau tạo thành một góc vuông thì các góc còn lại cũng là góc vuông.",
-              "correct": true,
-              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hai góc đồng vị thì luôn bằng nhau.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc kề bù luôn vuông góc với nhau.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Cho đường thẳng $c$ cắt hai đường thẳng song song $a$ và $b$ tại hai điểm $A$ và $B$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Các cặp góc so le trong bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Các cặp góc đồng vị bằng nhau.",
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Các cặp góc trong cùng phía bù nhau (tổng bằng 180 độ).",
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc so le trong song song với nhau.",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 05):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
               "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc so le trong bằng 65 độ thì góc đối đỉnh với nó cũng bằng 65 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 115 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4391,72 +4505,111 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc xOy = 110 độ. Tính góc đối đỉnh với góc kề bù của góc xOy.",
-          "answer": "70",
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 75 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "105",
           "acceptableAnswers": [
-            "70"
+            "105"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **105**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Cho a song song b. Đường thẳng c cắt a tại A tạo thành một góc 55 độ. Tính số đo góc so le trong tại B.",
-          "answer": "55",
+          "question": "Cho a // b, góc so le trong A1 = 60 độ. Tính góc so le trong B1 (độ).",
+          "answer": "60",
           "acceptableAnswers": [
-            "55"
+            "60"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **60**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Cho hai góc kề bù AOB và BOC biết BOC = 2 AOB. Tính số đo góc BOC (độ).",
-          "answer": "120",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 40 độ. Tính góc xOy (độ).",
+          "answer": "80",
           "acceptableAnswers": [
-            "120"
+            "80"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **80**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng a song song b. Một đường thẳng cắt a và b tạo ra 8 góc. Biết tổng 3 góc nhọn bằng 150 độ. Tính số đo một góc tù (độ).",
-          "answer": "130",
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
           "acceptableAnswers": [
-            "130"
+            "45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **130**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hình vẽ hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$ sao cho $\\widehat{xOy} = 50^\\circ$. Tính số đo các góc còn lại tại đỉnh $O$.",
-          "rubric": "x'Oy' = xOy = 50 độ (đối đỉnh) (0.25đ).\nxOy' kề bù xOy => xOy' = 180 - 50 = 130 độ.\nx'Oy đối đỉnh xOy' => x'Oy = 130 độ (0.25đ)."
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 110^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 110 độ (0.25đ).\nGóc so le trong B2 = A1 = 110 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (110) = 70 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$. Qua đỉnh $A$ vẽ đường thẳng $xy \\parallel BC$. Chứng minh rằng tổng ba góc của tam giác $ABC$ bằng $180^\\circ$.",
-          "rubric": "Vì xy song song BC nên: góc xAB = B (so le trong) và yAC = C (so le trong) (0.25đ).\nMà xAB + BAC + yAC = xAy = 180 độ (góc bẹt).\nSuy ra: A + B + C = 180 độ. Đpcm (0.25đ)."
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 80^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (80) = 100 độ (0.25đ).\nKết luận góc EFD phải bằng 100 độ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho hai tia $Ax \\parallel By$. Điểm $C$ nằm giữa hai tia sao cho góc $\\widehat{CAx} = \\alpha$ và $\\widehat{CBy} = \\beta$ (với các góc nhọn). Vẽ tia $Cz \\parallel Ax$. Tính góc $\\widehat{ACB}$ theo $\\alpha$ và $\\beta$.",
-          "rubric": "Vẽ Cz song song Ax (nằm giữa CA và CB) => Cz song song By (0.25đ).\nVì Cz song song Ax => góc ACz = CAx = alpha (so le trong).\nVì Cz song song By => góc BCz = CBy = beta (so le trong).\nDo đó: ACB = ACz + BCz = alpha + beta (0.25đ)."
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     },
     "c3_7_bai5_test6": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai góc đối đỉnh thì (Đề 06):",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
+          "options": [
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
           "level": "Nhận biết",
           "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
@@ -4469,53 +4622,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hai góc đối đỉnh thì:",
-          "options": [
-            "Bằng nhau",
-            "Kề bù",
-            "Có tổng bằng $90^\\circ$",
-            "Phụ nhau"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 3,
-          "level": "Nhận biết",
-          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
-          "options": [
-            "Tạo với hai cạnh của góc hai góc bằng nhau",
-            "Vuông góc với một cạnh",
-            "Là tia đối của một cạnh",
-            "Đi qua trung điểm"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 4,
-          "level": "Nhận biết",
-          "question": "Theo Tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng có bao nhiêu đường thẳng song song với đường thẳng đó?",
-          "options": [
-            "Chỉ có một đường thẳng duy nhất",
-            "Hai đường thẳng",
-            "Vô số đường thẳng",
-            "Không có đường thẳng nào"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho góc $\\widehat{xOy} = 60^\\circ$. Góc đối đỉnh với $\\widehat{xOy}$ có số đo là:",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 80^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "$60^\\circ$",
-            "$120^\\circ$",
-            "$30^\\circ$",
-            "$90^\\circ$"
+            "$80^\\circ$",
+            "$100^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4523,12 +4637,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho hai đường thẳng $a$ và $b$ song song với nhau. Một đường thẳng $c$ cắt $a$ và $b$. Khi đó hai góc so le trong:",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $76^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Có tổng bằng $180^\\circ$"
+            "$76^\\circ$",
+            "$104^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4536,12 +4650,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Nếu đường thẳng $c$ vuông góc với đường thẳng $a$ và $a \\parallel b$ thì:",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 92^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "$c \\perp b$",
-            "$c \\parallel b$",
-            "$c$ trùng với $b$",
-            "$c$ cắt $b$ không vuông góc"
+            "$46^\\circ$",
+            "$92^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4549,7 +4663,7 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì:",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
             "Song song với nhau",
             "Cắt nhau",
@@ -4562,10 +4676,10 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho hình vẽ biết $a \\parallel b$ và một góc so le trong bằng $45^\\circ$. Số đo của góc trong cùng phía với góc đó là:",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $71^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
-            "$135^\\circ$",
-            "$45^\\circ$",
+            "$71^\\circ$",
+            "$109^\\circ$",
             "$90^\\circ$",
             "$180^\\circ$"
           ],
@@ -4575,12 +4689,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho góc $\\widehat{xOy} = 80^\\circ$, tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Kẻ tia $Ot$ là tia đối của tia $Ox$. Số đo của $\\widehat{zOt}$ là:",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "$140^\\circ$",
-            "$100^\\circ$",
-            "$120^\\circ$",
-            "$80^\\circ$"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4588,12 +4702,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho định lí: 'Nếu hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau'. Giả thiết của định lí là:",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $36^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba",
-            "Chúng song song với nhau",
-            "Ba đường thẳng cắt nhau",
-            "Không có giả thiết"
+            "$36^\\circ$",
+            "$54^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4601,12 +4715,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng $Ax \\parallel By$. Lấy điểm $C$ nằm giữa hai đường thẳng sao cho $\\widehat{xAC} = 130^\\circ$ và $\\widehat{CBy} = 140^\\circ$ (với tia $Ax, By$ cùng chiều). Số đo của góc $\\widehat{ACB}$ là:",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
             "$90^\\circ$",
-            "$80^\\circ$",
-            "$100^\\circ$",
-            "$110^\\circ$"
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4615,69 +4729,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về quan hệ giữa góc và các đường thẳng song song (Mã đề 6):",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Hai góc bằng nhau thì chắc chắn là hai góc đối đỉnh.",
-              "correct": false,
-              "explanation": "Ý A là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Nếu hai đường thẳng cắt nhau tạo thành một góc vuông thì các góc còn lại cũng là góc vuông.",
-              "correct": true,
-              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hai góc đồng vị thì luôn bằng nhau.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc kề bù luôn vuông góc với nhau.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Cho đường thẳng $c$ cắt hai đường thẳng song song $a$ và $b$ tại hai điểm $A$ và $B$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Các cặp góc so le trong bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Các cặp góc đồng vị bằng nhau.",
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Các cặp góc trong cùng phía bù nhau (tổng bằng 180 độ).",
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc so le trong song song với nhau.",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 06):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
               "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc so le trong bằng 66 độ thì góc đối đỉnh với nó cũng bằng 66 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 114 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4686,72 +4800,111 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc xOy = 110 độ. Tính góc đối đỉnh với góc kề bù của góc xOy.",
-          "answer": "70",
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 76 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "104",
           "acceptableAnswers": [
-            "70"
+            "104"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **104**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Cho a song song b. Đường thẳng c cắt a tại A tạo thành một góc 55 độ. Tính số đo góc so le trong tại B.",
-          "answer": "55",
+          "question": "Cho a // b, góc so le trong A1 = 61 độ. Tính góc so le trong B1 (độ).",
+          "answer": "61",
           "acceptableAnswers": [
-            "55"
+            "61"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **61**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Cho hai góc kề bù AOB và BOC biết BOC = 2 AOB. Tính số đo góc BOC (độ).",
-          "answer": "120",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 41 độ. Tính góc xOy (độ).",
+          "answer": "82",
           "acceptableAnswers": [
-            "120"
+            "82"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **82**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng a song song b. Một đường thẳng cắt a và b tạo ra 8 góc. Biết tổng 3 góc nhọn bằng 150 độ. Tính số đo một góc tù (độ).",
-          "answer": "130",
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
           "acceptableAnswers": [
-            "130"
+            "45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **130**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hình vẽ hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$ sao cho $\\widehat{xOy} = 50^\\circ$. Tính số đo các góc còn lại tại đỉnh $O$.",
-          "rubric": "x'Oy' = xOy = 50 độ (đối đỉnh) (0.25đ).\nxOy' kề bù xOy => xOy' = 180 - 50 = 130 độ.\nx'Oy đối đỉnh xOy' => x'Oy = 130 độ (0.25đ)."
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 109^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 109 độ (0.25đ).\nGóc so le trong B2 = A1 = 109 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (109) = 71 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$. Qua đỉnh $A$ vẽ đường thẳng $xy \\parallel BC$. Chứng minh rằng tổng ba góc của tam giác $ABC$ bằng $180^\\circ$.",
-          "rubric": "Vì xy song song BC nên: góc xAB = B (so le trong) và yAC = C (so le trong) (0.25đ).\nMà xAB + BAC + yAC = xAy = 180 độ (góc bẹt).\nSuy ra: A + B + C = 180 độ. Đpcm (0.25đ)."
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 81^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (81) = 99 độ (0.25đ).\nKết luận góc EFD phải bằng 99 độ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho hai tia $Ax \\parallel By$. Điểm $C$ nằm giữa hai tia sao cho góc $\\widehat{CAx} = \\alpha$ và $\\widehat{CBy} = \\beta$ (với các góc nhọn). Vẽ tia $Cz \\parallel Ax$. Tính góc $\\widehat{ACB}$ theo $\\alpha$ và $\\beta$.",
-          "rubric": "Vẽ Cz song song Ax (nằm giữa CA và CB) => Cz song song By (0.25đ).\nVì Cz song song Ax => góc ACz = CAx = alpha (so le trong).\nVì Cz song song By => góc BCz = CBy = beta (so le trong).\nDo đó: ACB = ACz + BCz = alpha + beta (0.25đ)."
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     },
     "c3_7_bai5_test7": {
-      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương III: Góc và đường thẳng song song - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
+          "level": "Nhận biết",
+          "question": "Hai góc đối đỉnh thì (Đề 07):",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề bù"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 2,
+          "level": "Nhận biết",
+          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
+          "options": [
+            "Tạo với hai cạnh hai góc bằng nhau",
+            "Vuông góc với một cạnh",
+            "Cắt cạnh đối diện",
+            "Song song với cạnh"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:",
+          "options": [
+            "Bằng nhau",
+            "Bù nhau",
+            "Phụ nhau",
+            "Kề nhau"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
           "level": "Nhận biết",
           "question": "Hai góc kề bù có tổng số đo bằng:",
           "options": [
@@ -4764,53 +4917,14 @@
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
-          "id": 2,
-          "level": "Nhận biết",
-          "question": "Hai góc đối đỉnh thì:",
-          "options": [
-            "Bằng nhau",
-            "Kề bù",
-            "Có tổng bằng $90^\\circ$",
-            "Phụ nhau"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 3,
-          "level": "Nhận biết",
-          "question": "Tia phân giác của một góc là tia nằm trong góc và:",
-          "options": [
-            "Tạo với hai cạnh của góc hai góc bằng nhau",
-            "Vuông góc với một cạnh",
-            "Là tia đối của một cạnh",
-            "Đi qua trung điểm"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 4,
-          "level": "Nhận biết",
-          "question": "Theo Tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng có bao nhiêu đường thẳng song song với đường thẳng đó?",
-          "options": [
-            "Chỉ có một đường thẳng duy nhất",
-            "Hai đường thẳng",
-            "Vô số đường thẳng",
-            "Không có đường thẳng nào"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho góc $\\widehat{xOy} = 60^\\circ$. Góc đối đỉnh với $\\widehat{xOy}$ có số đo là:",
+          "question": "Cho hai góc đối đỉnh $\\widehat{xOy}$ và $\\widehat{x'Oy'}$. Biết $\\widehat{xOy} = 85^\\circ$. Số đo góc $\\widehat{x'Oy'}$ là:",
           "options": [
-            "$60^\\circ$",
-            "$120^\\circ$",
-            "$30^\\circ$",
-            "$90^\\circ$"
+            "$85^\\circ$",
+            "$95^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4818,12 +4932,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho hai đường thẳng $a$ và $b$ song song với nhau. Một đường thẳng $c$ cắt $a$ và $b$. Khi đó hai góc so le trong:",
+          "question": "Cho đường thẳng $a // b$. Một đường thẳng $c$ cắt $a$ và $b$. Biết một góc đồng vị bằng $77^\\circ$. Góc đồng vị tương ứng bằng:",
           "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Có tổng bằng $180^\\circ$"
+            "$77^\\circ$",
+            "$103^\\circ$",
+            "$90^\\circ$",
+            "$180^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4831,12 +4945,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Nếu đường thẳng $c$ vuông góc với đường thẳng $a$ và $a \\parallel b$ thì:",
+          "question": "Tia $Oz$ là tia phân giác của $\\widehat{xOy} = 94^\\circ$. Số đo góc $\\widehat{xOz}$ là:",
           "options": [
-            "$c \\perp b$",
-            "$c \\parallel b$",
-            "$c$ trùng với $b$",
-            "$c$ cắt $b$ không vuông góc"
+            "$47^\\circ$",
+            "$94^\\circ$",
+            "$90^\\circ$",
+            "$50^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4844,7 +4958,7 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì:",
+          "question": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì:",
           "options": [
             "Song song với nhau",
             "Cắt nhau",
@@ -4857,10 +4971,10 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho hình vẽ biết $a \\parallel b$ và một góc so le trong bằng $45^\\circ$. Số đo của góc trong cùng phía với góc đó là:",
+          "question": "Khung cửa sổ có hai thanh song song $AB // CD$. Người ta lắp thanh chéo $MN$ tạo với thanh $AB$ một góc so le trong bằng $72^\\circ$. Góc tạo bởi $MN$ và thanh $CD$ ở vị trí so le trong bằng:",
           "options": [
-            "$135^\\circ$",
-            "$45^\\circ$",
+            "$72^\\circ$",
+            "$108^\\circ$",
             "$90^\\circ$",
             "$180^\\circ$"
           ],
@@ -4870,12 +4984,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho góc $\\widehat{xOy} = 80^\\circ$, tia $Oz$ là tia phân giác của $\\widehat{xOy}$. Kẻ tia $Ot$ là tia đối của tia $Ox$. Số đo của $\\widehat{zOt}$ là:",
+          "question": "Người thợ mộc kiểm tra hai mép gỗ có song song hay không bằng cách đo hai góc trong cùng phía. Nếu hai mép gỗ song song thì tổng số đo hai góc trong cùng phía phải bằng:",
           "options": [
-            "$140^\\circ$",
-            "$100^\\circ$",
-            "$120^\\circ$",
-            "$80^\\circ$"
+            "$180^\\circ$",
+            "$90^\\circ$",
+            "$360^\\circ$",
+            "$100^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4883,12 +4997,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho định lí: 'Nếu hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau'. Giả thiết của định lí là:",
+          "question": "Một mái nhà nghiêng tạo với mặt đất nằm ngang góc $37^\\circ$. Xà gồ đặt song song với mặt đất. Góc tạo bởi thanh kèo mái và xà gồ bằng:",
           "options": [
-            "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba",
-            "Chúng song song với nhau",
-            "Ba đường thẳng cắt nhau",
-            "Không có giả thiết"
+            "$37^\\circ$",
+            "$53^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4896,12 +5010,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng $Ax \\parallel By$. Lấy điểm $C$ nằm giữa hai đường thẳng sao cho $\\widehat{xAC} = 130^\\circ$ và $\\widehat{CBy} = 140^\\circ$ (với tia $Ax, By$ cùng chiều). Số đo của góc $\\widehat{ACB}$ là:",
+          "question": "Cho hai góc kề bù $\\widehat{xOy}$ và $\\widehat{yOz}$. Gọi $Om, On$ lần lượt là tia phân giác của $\\widehat{xOy}$ và $\\widehat{yOz}$. Số đo góc $\\widehat{mOn}$ luôn bằng:",
           "options": [
             "$90^\\circ$",
-            "$80^\\circ$",
-            "$100^\\circ$",
-            "$110^\\circ$"
+            "$180^\\circ$",
+            "$45^\\circ$",
+            "$60^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4910,69 +5024,69 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về quan hệ giữa góc và các đường thẳng song song (Mã đề 7):",
+          "stem": "Xét tính đúng sai về góc và hai đường thẳng song song (Đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Hai góc bằng nhau thì chắc chắn là hai góc đối đỉnh.",
-              "correct": false,
-              "explanation": "Ý A là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "b",
-              "level": "Thông hiểu",
-              "text": "Nếu hai đường thẳng cắt nhau tạo thành một góc vuông thì các góc còn lại cũng là góc vuông.",
-              "correct": true,
-              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "c",
-              "level": "Thông hiểu",
-              "text": "Hai góc đồng vị thì luôn bằng nhau.",
-              "correct": false,
-              "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
-            },
-            {
-              "key": "d",
-              "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc kề bù luôn vuông góc với nhau.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "stem": "Cho đường thẳng $c$ cắt hai đường thẳng song song $a$ và $b$ tại hai điểm $A$ và $B$:",
-          "statements": [
-            {
-              "key": "a",
-              "level": "Thông hiểu",
-              "text": "Các cặp góc so le trong bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Các cặp góc đồng vị bằng nhau.",
+              "text": "Hai góc so le trong bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Các cặp góc trong cùng phía bù nhau (tổng bằng 180 độ).",
+              "text": "Hai góc đồng vị bằng nhau thì hai đường thẳng song song.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Hai tia phân giác của hai góc so le trong song song với nhau.",
+              "text": "Hai góc có tổng bằng 180 độ thì luôn là hai góc kề bù.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "stem": "Cho hình vẽ hai đường thẳng a và b cùng cắt đường thẳng c tại A và B (Mã đề 07):",
+          "statements": [
+            {
+              "key": "a",
+              "level": "Nhận biết",
+              "text": "Tại mỗi đỉnh A và B tạo ra 4 góc.",
               "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "b",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc so le trong bằng 67 độ thì góc đối đỉnh với nó cũng bằng 67 độ.",
+              "correct": true,
+              "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "c",
+              "level": "Thông hiểu",
+              "text": "Nếu một góc trong cùng phía bằng 113 độ thì hai đường thẳng a và b song song.",
+              "correct": true,
+              "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
+            },
+            {
+              "key": "d",
+              "level": "Vận dụng",
+              "text": "Hai tia phân giác của hai góc so le trong luôn vuông góc với nhau.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         }
@@ -4981,62 +5095,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc xOy = 110 độ. Tính góc đối đỉnh với góc kề bù của góc xOy.",
-          "answer": "70",
+          "question": "Cho hai góc kề bù nhau, biết góc thứ nhất bằng 77 độ. Tính số đo góc thứ hai (độ).",
+          "answer": "103",
           "acceptableAnswers": [
-            "70"
+            "103"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **103**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Cho a song song b. Đường thẳng c cắt a tại A tạo thành một góc 55 độ. Tính số đo góc so le trong tại B.",
-          "answer": "55",
+          "question": "Cho a // b, góc so le trong A1 = 62 độ. Tính góc so le trong B1 (độ).",
+          "answer": "62",
           "acceptableAnswers": [
-            "55"
+            "62"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **55**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **62**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Cho hai góc kề bù AOB và BOC biết BOC = 2 AOB. Tính số đo góc BOC (độ).",
-          "answer": "120",
+          "question": "Tia Oz là phân giác góc xOy. Biết góc xOz = 42 độ. Tính góc xOy (độ).",
+          "answer": "84",
           "acceptableAnswers": [
-            "120"
+            "84"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **120**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **84**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho hai đường thẳng a song song b. Một đường thẳng cắt a và b tạo ra 8 góc. Biết tổng 3 góc nhọn bằng 150 độ. Tính số đo một góc tù (độ).",
-          "answer": "130",
+          "level": "Vận dụng",
+          "question": "Một chiếc kéo khi mở ra có hai lưỡi kéo tạo thành hai góc đối đỉnh. Biết góc giữa hai tay cầm là 45 độ. Tính góc mở giữa hai lưỡi kéo (độ).",
+          "answer": "45",
           "acceptableAnswers": [
-            "130"
+            "45"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **130**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **45**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho hình vẽ hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$ sao cho $\\widehat{xOy} = 50^\\circ$. Tính số đo các góc còn lại tại đỉnh $O$.",
-          "rubric": "x'Oy' = xOy = 50 độ (đối đỉnh) (0.25đ).\nxOy' kề bù xOy => xOy' = 180 - 50 = 130 độ.\nx'Oy đối đỉnh xOy' => x'Oy = 130 độ (0.25đ)."
+          "question": "Cho hình vẽ có $a // b$. Biết $\\widehat{A_1} = 108^\\circ$. Tính số đo các góc còn lại tại đỉnh $B$ đồng vị và so le trong với $\\widehat{A_1}$.",
+          "rubric": "Vì a // b nên góc đồng vị B1 = A1 = 108 độ (0.25đ).\nGóc so le trong B2 = A1 = 108 độ (0.25đ).\nGóc kề bù với B1 có số đo: 180 - (108) = 72 độ (0.25đ).\nKết luận số đo các góc tương ứng (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$. Qua đỉnh $A$ vẽ đường thẳng $xy \\parallel BC$. Chứng minh rằng tổng ba góc của tam giác $ABC$ bằng $180^\\circ$.",
-          "rubric": "Vì xy song song BC nên: góc xAB = B (so le trong) và yAC = C (so le trong) (0.25đ).\nMà xAB + BAC + yAC = xAy = 180 độ (góc bẹt).\nSuy ra: A + B + C = 180 độ. Đpcm (0.25đ)."
+          "question": "Một người thợ làm khung giàn giáo bằng thép. Hai thanh ngang $AB$ và $CD$ được hàn song song với nhau. Một thanh chéo $EF$ cắt $AB$ tại $E$ và cắt $CD$ tại $F$. Người thợ đo góc $\\widehat{AEF} = 82^\\circ$. Hỏi góc $\\widehat{EFD}$ ở vị trí trong cùng phía phải bằng bao nhiêu độ để giàn giáo chuẩn xác?",
+          "rubric": "Hai đường thẳng AB và CD song song với nhau (0.25đ).\nThanh chéo EF tạo ra các cặp góc trong cùng phía bù nhau (0.25đ).\nTa có: góc AEF + góc EFD = 180 độ => góc EFD = 180 - (82) = 98 độ (0.25đ).\nKết luận góc EFD phải bằng 98 độ (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho hai tia $Ax \\parallel By$. Điểm $C$ nằm giữa hai tia sao cho góc $\\widehat{CAx} = \\alpha$ và $\\widehat{CBy} = \\beta$ (với các góc nhọn). Vẽ tia $Cz \\parallel Ax$. Tính góc $\\widehat{ACB}$ theo $\\alpha$ và $\\beta$.",
-          "rubric": "Vẽ Cz song song Ax (nằm giữa CA và CB) => Cz song song By (0.25đ).\nVì Cz song song Ax => góc ACz = CAx = alpha (so le trong).\nVì Cz song song By => góc BCz = CBy = beta (so le trong).\nDo đó: ACB = ACz + BCz = alpha + beta (0.25đ)."
+          "question": "Chứng minh định lí: 'Hai tia phân giác của hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song thì song song với nhau'.",
+          "rubric": "Gọi a // b và c cắt a, b tại A, B tạo cặp góc so le trong A1 và B1 (0.25đ).\nKẻ tia phân giác Ax của góc A1 và By của góc B1 (0.25đ).\nTa có: góc xAB = A1 / 2 và góc yBA = B1 / 2. Vì A1 = B1 nên góc xAB = góc yBA (0.25đ).\nHai góc này ở vị trí so le trong bằng nhau nên Ax // By. Định lí được chứng minh (0.25đ)."
         }
       ]
     }

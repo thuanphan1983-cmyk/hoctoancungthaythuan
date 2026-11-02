@@ -1,9 +1,9 @@
 {
   "grade": "9",
   "chapterId": "c9_9",
-  "chapterTitle": "Chương IX: Đường tròn ngoại tiếp và đường tròn nội tiếp",
+  "chapterTitle": "Chương IX: Đa giác đều",
   "totalExams": 19,
-  "updatedAt": "2026-11-01 19:28:20",
+  "updatedAt": "2026-11-02 06:43:13",
   "exams": {
     "c9_9_bai1_test1": {
       "title": "Toán 9 (KNTT) - Bài 27: Góc nội tiếp - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
@@ -3522,17 +3522,19 @@
       ]
     },
     "c9_9_bai5_test1": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp và đường tròn nội tiếp - Đề số 1 (🌿 Mức độ Khá (Đề 1))",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 01",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn gọi là:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Góc nội tiếp",
-            "Góc ở tâm",
-            "Góc tạo bởi tiếp tuyến và dây cung",
-            "Góc có đỉnh bên ngoài đường tròn"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3540,12 +3542,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Nửa số đo của cung bị chắn",
-            "Số đo của cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "$90^\\circ$"
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3553,12 +3555,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn là:",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
           "options": [
-            "Góc vuông ($90^\\circ$)",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3566,116 +3568,116 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Các góc nội tiếp cùng chắn một cung thì:",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
           "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Vuông góc"
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Một tứ giác nội tiếp được đường tròn khi và chỉ khi:",
+          "level": "Thông hiểu",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $6\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
           "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai đường chéo bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Hai góc kề bù nhau"
+            "$2\\sqrt3\\text{ cm}$",
+            "$3\\text{ cm}$",
+            "$1\\sqrt3\\text{ cm}$",
+            "$6\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Hình nào sau đây LUÔN LUÔN nội tiếp được đường tròn?",
+          "level": "Thông hiểu",
+          "question": "Cho hình vuông có cạnh bằng $4\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
           "options": [
-            "Hình chữ nhật và hình vuông",
-            "Hình thoi",
-            "Hình bình hành",
-            "Hình thang vuông"
+            "$2\\text{ cm}$",
+            "$4\\text{ cm}$",
+            "$2\\sqrt2\\text{ cm}$",
+            "$1\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Nhận biết",
-          "question": "Hình thang cân có nội tiếp được đường tròn không?",
+          "level": "Thông hiểu",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
           "options": [
-            "Luôn nội tiếp được đường tròn",
-            "Không bao giờ",
-            "Chỉ khi là hình vuông",
-            "Tùy thuộc chiều cao"
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Nhận biết",
-          "question": "Góc ở tâm có số đo bằng:",
+          "level": "Thông hiểu",
+          "question": "Số đường chéo của một hình lục giác đều là:",
           "options": [
-            "Số đo của cung bị chắn",
-            "Nửa số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "$180^\\circ$"
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Cho $\\widehat{ABC}$ nội tiếp $(O)$ chắn cung $AC$ có số đo $80^\\circ$. Số đo góc $\\widehat{ABC}$ là:",
+          "level": "Vận dụng",
+          "question": "Một viên gạch lát nền hình lục giác đều nghệ thuật có độ dài cạnh là $20\\text{cm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
           "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$1039.2\\text{cm}^2$",
+            "500",
+            "300",
+            "200"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{A} = 70^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "level": "Vận dụng",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $20\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
           "options": [
-            "$110^\\circ$",
-            "$70^\\circ$",
-            "$90^\\circ$",
-            "$120^\\circ$"
+            "$160\\text{ cm}$",
+            "$120\\text{ cm}$",
+            "$80\\text{ cm}$",
+            "100 cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Bán kính đường tròn ngoại tiếp tam giác đều cạnh $a$ bằng:",
+          "level": "Vận dụng",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$\\frac{a\\sqrt{3}}{3}$",
-            "$\\frac{a\\sqrt{3}}{6}$",
-            "$\\frac{a\\sqrt{3}}{2}$",
-            "$a$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Vận dụng",
-          "question": "Cho tứ giác $ABCD$ nội tiếp $(O)$. Hai tia $AB, DC$ cắt nhau tại $M$. Khẳng định đúng là:",
+          "level": "Vận dụng cao",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$MA \\cdot MB = MC \\cdot MD$",
-            "$MA \\cdot MC = MB \\cdot MD$",
-            "$MA + MB = MC + MD$",
-            "$MA \\cdot MD = MB \\cdot MC$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3684,67 +3686,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Cho tam giác nhọn ABC nội tiếp đường tròn (O; R). Kẻ đường kính AD của đường tròn:",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 01):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tam giác ABD vuông tại B vì góc ABD chắn nửa đường tròn.",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Tam giác ACD vuông tại C.",
+              "level": "Thông hiểu",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Hai góc nội tiếp góc ADB và góc ACB bằng nhau vì cùng chắn cung AB.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Đoạn thẳng AB * AC luôn bằng AD nhân với đường cao AH hạ từ A xuống BC.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho tứ giác ABCD có góc B = góc D = 90°:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $12\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tổng hai góc đối diện góc B + góc D = 180°.",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác ABCD nội tiếp được trong đường tròn đường kính AC.",
+              "text": "Đường cao của tam giác đều bằng 6 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Tâm đường tròn ngoại tiếp tứ giác ABCD là trung điểm của đoạn thẳng AC.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 4 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu AC = 10 cm thì bán kính đường tròn ngoại tiếp tứ giác ABCD bằng 10 cm.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -3755,77 +3757,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp $\\widehat{ABC}$ có số đo bằng $35^\\circ$. Số đo của cung bị chắn $AC$ bằng bao nhiêu độ?",
-          "answer": "70",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "70"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tứ giác $ABCD$ nội tiếp có $\\widehat{B} = 105^\\circ$. Tính số đo góc $\\widehat{D}$ (độ):",
-          "answer": "75",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "75"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác vuông có hai cạnh góc vuông là $6\\text{ cm}$ và $8\\text{ cm}$:",
-          "answer": "5",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "5"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
           "level": "Vận dụng",
-          "question": "Cho đa giác đều 12 cạnh nội tiếp đường tròn $(O)$. Góc ở tâm chắn một cạnh của đa giác đều bằng bao nhiêu độ?",
-          "answer": "30",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "30"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho đường tròn $(O)$ và dây $AB$. Từ điểm $C$ trên cung lớn $AB$, kẻ các dây $CA, CB$. Biết góc ở tâm $\\widehat{AOB} = 100^\\circ$. Tính số đo cung nhỏ $AB$ và số đo góc nội tiếp $\\widehat{ACB}$.",
-          "rubric": "Số đo cung nhỏ AB bằng góc ở tâm AOB = 100° (0.5đ). Góc nội tiếp ACB chắn cung nhỏ AB nên góc ACB = 1/2 sđ AB = 1/2 * 100° = 50° (0.5đ)."
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $4\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 4 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (4)^2 . căn(3)/4 = 4 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác nhọn $ABC$, các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng: a) Tứ giác $ADHE$ nội tiếp được đường tròn; b) Tứ giác $BEDC$ nội tiếp được đường tròn.",
-          "rubric": "a) Xét tứ giác ADHE có góc ADH = 90° và góc AEH = 90°. Tổng hai góc đối diện: góc ADH + góc AEH = 180° nên ADHE nội tiếp đường tròn đường kính AH (0.5đ). b) Xét tứ giác BEDC có hai đỉnh D và E cùng nhìn đoạn BC dưới một góc vuông 90° nên BEDC nội tiếp đường tròn đường kính BC (0.5đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định ($BC < 2R$). Điểm $A$ di động trên cung lớn $BC$. Chứng minh rằng trực tâm $H$ của tam giác $ABC$ luôn cách điểm $O$ một khoảng không đổi khi $A$ di chuyển.",
-          "rubric": "Kẻ đường kính CD. Chứng minh tứ giác AHBD là hình bình hành suy ra AH = BD = 2OM (với M là trung điểm BC) (0.5đ). Vì BC cố định nên OM không đổi, suy ra độ dài AH không đổi. Dẫn đến điểm H luôn nằm trên một đường tròn cố định (0.5đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     },
     "c9_9_bai5_test2": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp và đường tròn nội tiếp - Đề số 2 (🌿 Mức độ Khá (Đề 2))",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 02",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn gọi là:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Góc nội tiếp",
-            "Góc ở tâm",
-            "Góc tạo bởi tiếp tuyến và dây cung",
-            "Góc có đỉnh bên ngoài đường tròn"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3833,12 +3837,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Nửa số đo của cung bị chắn",
-            "Số đo của cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "$90^\\circ$"
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3846,12 +3850,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn là:",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
           "options": [
-            "Góc vuông ($90^\\circ$)",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3859,116 +3863,116 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Các góc nội tiếp cùng chắn một cung thì:",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
           "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Vuông góc"
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 5,
-          "level": "Nhận biết",
-          "question": "Một tứ giác nội tiếp được đường tròn khi và chỉ khi:",
+          "level": "Thông hiểu",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $12\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
           "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai đường chéo bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Hai góc kề bù nhau"
+            "$4\\sqrt3\\text{ cm}$",
+            "$6\\text{ cm}$",
+            "$2\\sqrt3\\text{ cm}$",
+            "$12\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 6,
-          "level": "Nhận biết",
-          "question": "Hình nào sau đây LUÔN LUÔN nội tiếp được đường tròn?",
+          "level": "Thông hiểu",
+          "question": "Cho hình vuông có cạnh bằng $8\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
           "options": [
-            "Hình chữ nhật và hình vuông",
-            "Hình thoi",
-            "Hình bình hành",
-            "Hình thang vuông"
+            "$4\\text{ cm}$",
+            "$8\\text{ cm}$",
+            "$4\\sqrt2\\text{ cm}$",
+            "$2\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 7,
-          "level": "Nhận biết",
-          "question": "Hình thang cân có nội tiếp được đường tròn không?",
+          "level": "Thông hiểu",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
           "options": [
-            "Luôn nội tiếp được đường tròn",
-            "Không bao giờ",
-            "Chỉ khi là hình vuông",
-            "Tùy thuộc chiều cao"
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 8,
-          "level": "Nhận biết",
-          "question": "Góc ở tâm có số đo bằng:",
+          "level": "Thông hiểu",
+          "question": "Số đường chéo của một hình lục giác đều là:",
           "options": [
-            "Số đo của cung bị chắn",
-            "Nửa số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "$180^\\circ$"
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 9,
-          "level": "Thông hiểu",
-          "question": "Cho $\\widehat{ABC}$ nội tiếp $(O)$ chắn cung $AC$ có số đo $80^\\circ$. Số đo góc $\\widehat{ABC}$ là:",
+          "level": "Vận dụng",
+          "question": "Một viên biển báo giao thông hình bát giác đều dừng lại Stop có độ dài cạnh là $30\\text{cm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
           "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$2338.2\\text{cm}^2$",
+            "500",
+            "300",
+            "200"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 10,
-          "level": "Thông hiểu",
-          "question": "Tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{A} = 70^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "level": "Vận dụng",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $30\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
           "options": [
-            "$110^\\circ$",
-            "$70^\\circ$",
-            "$90^\\circ$",
-            "$120^\\circ$"
+            "$240\\text{ cm}$",
+            "$180\\text{ cm}$",
+            "$120\\text{ cm}$",
+            "100 cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 11,
-          "level": "Thông hiểu",
-          "question": "Bán kính đường tròn ngoại tiếp tam giác đều cạnh $a$ bằng:",
+          "level": "Vận dụng",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$\\frac{a\\sqrt{3}}{3}$",
-            "$\\frac{a\\sqrt{3}}{6}$",
-            "$\\frac{a\\sqrt{3}}{2}$",
-            "$a$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
           "id": 12,
-          "level": "Vận dụng",
-          "question": "Cho tứ giác $ABCD$ nội tiếp $(O)$. Hai tia $AB, DC$ cắt nhau tại $M$. Khẳng định đúng là:",
+          "level": "Vận dụng cao",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$MA \\cdot MB = MC \\cdot MD$",
-            "$MA \\cdot MC = MB \\cdot MD$",
-            "$MA + MB = MC + MD$",
-            "$MA \\cdot MD = MB \\cdot MC$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3977,67 +3981,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Cho tam giác nhọn ABC nội tiếp đường tròn (O; R). Kẻ đường kính AD của đường tròn:",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 02):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tam giác ABD vuông tại B vì góc ABD chắn nửa đường tròn.",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Tam giác ACD vuông tại C.",
+              "level": "Thông hiểu",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Hai góc nội tiếp góc ADB và góc ACB bằng nhau vì cùng chắn cung AB.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Đoạn thẳng AB * AC luôn bằng AD nhân với đường cao AH hạ từ A xuống BC.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho tứ giác ABCD có góc B = góc D = 90°:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $24\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tổng hai góc đối diện góc B + góc D = 180°.",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác ABCD nội tiếp được trong đường tròn đường kính AC.",
+              "text": "Đường cao của tam giác đều bằng 12 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Tâm đường tròn ngoại tiếp tứ giác ABCD là trung điểm của đoạn thẳng AC.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 8 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu AC = 10 cm thì bán kính đường tròn ngoại tiếp tứ giác ABCD bằng 10 cm.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4048,77 +4052,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp $\\widehat{ABC}$ có số đo bằng $35^\\circ$. Số đo của cung bị chắn $AC$ bằng bao nhiêu độ?",
-          "answer": "70",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "70"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tứ giác $ABCD$ nội tiếp có $\\widehat{B} = 105^\\circ$. Tính số đo góc $\\widehat{D}$ (độ):",
-          "answer": "75",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "75"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác vuông có hai cạnh góc vuông là $6\\text{ cm}$ và $8\\text{ cm}$:",
-          "answer": "5",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "5"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
           "level": "Vận dụng",
-          "question": "Cho đa giác đều 12 cạnh nội tiếp đường tròn $(O)$. Góc ở tâm chắn một cạnh của đa giác đều bằng bao nhiêu độ?",
-          "answer": "30",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "30"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho đường tròn $(O)$ và dây $AB$. Từ điểm $C$ trên cung lớn $AB$, kẻ các dây $CA, CB$. Biết góc ở tâm $\\widehat{AOB} = 100^\\circ$. Tính số đo cung nhỏ $AB$ và số đo góc nội tiếp $\\widehat{ACB}$.",
-          "rubric": "Số đo cung nhỏ AB bằng góc ở tâm AOB = 100° (0.5đ). Góc nội tiếp ACB chắn cung nhỏ AB nên góc ACB = 1/2 sđ AB = 1/2 * 100° = 50° (0.5đ)."
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $8\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 8 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (8)^2 . căn(3)/4 = 16 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác nhọn $ABC$, các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng: a) Tứ giác $ADHE$ nội tiếp được đường tròn; b) Tứ giác $BEDC$ nội tiếp được đường tròn.",
-          "rubric": "a) Xét tứ giác ADHE có góc ADH = 90° và góc AEH = 90°. Tổng hai góc đối diện: góc ADH + góc AEH = 180° nên ADHE nội tiếp đường tròn đường kính AH (0.5đ). b) Xét tứ giác BEDC có hai đỉnh D và E cùng nhìn đoạn BC dưới một góc vuông 90° nên BEDC nội tiếp đường tròn đường kính BC (0.5đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định ($BC < 2R$). Điểm $A$ di động trên cung lớn $BC$. Chứng minh rằng trực tâm $H$ của tam giác $ABC$ luôn cách điểm $O$ một khoảng không đổi khi $A$ di chuyển.",
-          "rubric": "Kẻ đường kính CD. Chứng minh tứ giác AHBD là hình bình hành suy ra AH = BD = 2OM (với M là trung điểm BC) (0.5đ). Vì BC cố định nên OM không đổi, suy ra độ dài AH không đổi. Dẫn đến điểm H luôn nằm trên một đường tròn cố định (0.5đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     },
     "c9_9_bai5_test3": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp và đường tròn nội tiếp - Đề số 3 (🚀 Mức độ Khá Giỏi)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 03",
+      "duration": "90 phút",
+      "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn gọi là:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Góc nội tiếp",
-            "Góc ở tâm",
-            "Góc tạo bởi tiếp tuyến và dây cung",
-            "Góc có đỉnh bên ngoài đường tròn"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4126,129 +4132,129 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Nửa số đo của cung bị chắn",
-            "Số đo của cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "$90^\\circ$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 3,
-          "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn là:",
-          "options": [
-            "Góc vuông ($90^\\circ$)",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 4,
-          "level": "Nhận biết",
-          "question": "Các góc nội tiếp cùng chắn một cung thì:",
-          "options": [
-            "Bằng nhau",
-            "Bù nhau",
-            "Phụ nhau",
-            "Vuông góc"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 5,
-          "level": "Thông hiểu",
-          "question": "Một tứ giác nội tiếp được đường tròn khi và chỉ khi:",
-          "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai đường chéo bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Hai góc kề bù nhau"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 6,
-          "level": "Thông hiểu",
-          "question": "Hình nào sau đây LUÔN LUÔN nội tiếp được đường tròn?",
-          "options": [
-            "Hình chữ nhật và hình vuông",
-            "Hình thoi",
-            "Hình bình hành",
-            "Hình thang vuông"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 7,
-          "level": "Thông hiểu",
-          "question": "Hình thang cân có nội tiếp được đường tròn không?",
-          "options": [
-            "Luôn nội tiếp được đường tròn",
-            "Không bao giờ",
-            "Chỉ khi là hình vuông",
-            "Tùy thuộc chiều cao"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 8,
-          "level": "Thông hiểu",
-          "question": "Góc ở tâm có số đo bằng:",
-          "options": [
-            "Số đo của cung bị chắn",
-            "Nửa số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "$180^\\circ$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 9,
-          "level": "Vận dụng",
-          "question": "Cho $\\widehat{ABC}$ nội tiếp $(O)$ chắn cung $AC$ có số đo $80^\\circ$. Số đo góc $\\widehat{ABC}$ là:",
-          "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
-          ],
-          "correct": 0,
-          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
-        },
-        {
-          "id": 10,
-          "level": "Vận dụng",
-          "question": "Tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{A} = 70^\\circ$. Số đo góc $\\widehat{C}$ là:",
-          "options": [
-            "$110^\\circ$",
-            "$70^\\circ$",
+            "$60^\\circ$",
             "$90^\\circ$",
+            "$45^\\circ$",
             "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
         },
         {
+          "id": 3,
+          "level": "Nhận biết",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
+          "options": [
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 4,
+          "level": "Nhận biết",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
+          "options": [
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 5,
+          "level": "Thông hiểu",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $18\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
+          "options": [
+            "$6\\sqrt3\\text{ cm}$",
+            "$9\\text{ cm}$",
+            "$3\\sqrt3\\text{ cm}$",
+            "$18\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 6,
+          "level": "Thông hiểu",
+          "question": "Cho hình vuông có cạnh bằng $12\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
+          "options": [
+            "$6\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$6\\sqrt2\\text{ cm}$",
+            "$3\\text{ cm}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 7,
+          "level": "Thông hiểu",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
+          "options": [
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 8,
+          "level": "Thông hiểu",
+          "question": "Số đường chéo của một hình lục giác đều là:",
+          "options": [
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 9,
+          "level": "Vận dụng",
+          "question": "Một viên tổ ong mật tự nhiên hình lục giác đều tối ưu diện tích có độ dài cạnh là $5\\text{mm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
+          "options": [
+            "$64.9\\text{mm}^2$",
+            "500",
+            "300",
+            "200"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
+          "id": 10,
+          "level": "Vận dụng",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $5\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
+          "options": [
+            "$40\\text{ cm}$",
+            "$30\\text{ cm}$",
+            "$20\\text{ cm}$",
+            "100 cm"
+          ],
+          "correct": 0,
+          "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
+        },
+        {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Bán kính đường tròn ngoại tiếp tam giác đều cạnh $a$ bằng:",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$\\frac{a\\sqrt{3}}{3}$",
-            "$\\frac{a\\sqrt{3}}{6}$",
-            "$\\frac{a\\sqrt{3}}{2}$",
-            "$a$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4256,12 +4262,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho tứ giác $ABCD$ nội tiếp $(O)$. Hai tia $AB, DC$ cắt nhau tại $M$. Khẳng định đúng là:",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$MA \\cdot MB = MC \\cdot MD$",
-            "$MA \\cdot MC = MB \\cdot MD$",
-            "$MA + MB = MC + MD$",
-            "$MA \\cdot MD = MB \\cdot MC$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4270,67 +4276,67 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Cho tam giác nhọn ABC nội tiếp đường tròn (O; R). Kẻ đường kính AD của đường tròn:",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 03):",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tam giác ABD vuông tại B vì góc ABD chắn nửa đường tròn.",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
-              "level": "Nhận biết",
-              "text": "Tam giác ACD vuông tại C.",
+              "level": "Thông hiểu",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Hai góc nội tiếp góc ADB và góc ACB bằng nhau vì cùng chắn cung AB.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Đoạn thẳng AB * AC luôn bằng AD nhân với đường cao AH hạ từ A xuống BC.",
-              "correct": true,
-              "explanation": "Ý D là **Đúng** theo quy tắc và tính chất bài học."
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
+              "correct": false,
+              "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
           ]
         },
         {
           "id": 2,
-          "stem": "Cho tứ giác ABCD có góc B = góc D = 90°:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $36\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
               "level": "Nhận biết",
-              "text": "Tổng hai góc đối diện góc B + góc D = 180°.",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác ABCD nội tiếp được trong đường tròn đường kính AC.",
+              "text": "Đường cao của tam giác đều bằng 18 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Tâm đường tròn ngoại tiếp tứ giác ABCD là trung điểm của đoạn thẳng AC.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 12 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Nếu AC = 10 cm thì bán kính đường tròn ngoại tiếp tứ giác ABCD bằng 10 cm.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4341,79 +4347,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp $\\widehat{ABC}$ có số đo bằng $35^\\circ$. Số đo của cung bị chắn $AC$ bằng bao nhiêu độ?",
-          "answer": "70",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "70"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **70**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
-          "level": "Vận dụng cao",
-          "question": "Tứ giác $ABCD$ nội tiếp có $\\widehat{B} = 105^\\circ$. Tính số đo góc $\\widehat{D}$ (độ):",
-          "answer": "75",
+          "level": "Thông hiểu",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "75"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **75**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác vuông có hai cạnh góc vuông là $6\\text{ cm}$ và $8\\text{ cm}$:",
-          "answer": "5",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "5"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
           "level": "Vận dụng",
-          "question": "Cho đa giác đều 12 cạnh nội tiếp đường tròn $(O)$. Góc ở tâm chắn một cạnh của đa giác đều bằng bao nhiêu độ?",
-          "answer": "30",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "30"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
-          "level": "Vận dụng",
-          "question": "Cho đường tròn $(O)$ và dây $AB$. Từ điểm $C$ trên cung lớn $AB$, kẻ các dây $CA, CB$. Biết góc ở tâm $\\widehat{AOB} = 100^\\circ$. Tính số đo cung nhỏ $AB$ và số đo góc nội tiếp $\\widehat{ACB}$.",
-          "rubric": "Số đo cung nhỏ AB bằng góc ở tâm AOB = 100° (0.5đ). Góc nội tiếp ACB chắn cung nhỏ AB nên góc ACB = 1/2 sđ AB = 1/2 * 100° = 50° (0.5đ)."
+          "level": "Thông hiểu",
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $12\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 12 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (12)^2 . căn(3)/4 = 36 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác nhọn $ABC$, các đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh rằng: a) Tứ giác $ADHE$ nội tiếp được đường tròn; b) Tứ giác $BEDC$ nội tiếp được đường tròn.",
-          "rubric": "a) Xét tứ giác ADHE có góc ADH = 90° và góc AEH = 90°. Tổng hai góc đối diện: góc ADH + góc AEH = 180° nên ADHE nội tiếp đường tròn đường kính AH (0.5đ). b) Xét tứ giác BEDC có hai đỉnh D và E cùng nhìn đoạn BC dưới một góc vuông 90° nên BEDC nội tiếp đường tròn đường kính BC (0.5đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Cho đường tròn $(O; R)$ và dây $BC$ cố định ($BC < 2R$). Điểm $A$ di động trên cung lớn $BC$. Chứng minh rằng trực tâm $H$ của tam giác $ABC$ luôn cách điểm $O$ một khoảng không đổi khi $A$ di chuyển.",
-          "rubric": "Kẻ đường kính CD. Chứng minh tứ giác AHBD là hình bình hành suy ra AH = BD = 2OM (với M là trung điểm BC) (0.5đ). Vì BC cố định nên OM không đổi, suy ra độ dài AH không đổi. Dẫn đến điểm H luôn nằm trên một đường tròn cố định (0.5đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     },
     "c9_9_bai5_test4": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp & nội tiếp - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 04",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp là góc có đỉnh nằm trên đường tròn và:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Hai cạnh chứa hai dây cung của đường tròn đó",
-            "Hai cạnh là hai tiếp tuyến",
-            "Đi qua tâm đường tròn",
-            "Vuông góc với bán kính"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4421,12 +4427,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Một nửa số đo của cung bị chắn",
-            "Bằng số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "Bằng $90^\\circ$"
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4434,12 +4440,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn luôn là:",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
           "options": [
-            "Góc vuông",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4447,12 +4453,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Tứ giác nội tiếp được một đường tròn khi và chỉ khi:",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
           "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai góc đối diện bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Có hai đường chéo vuông góc"
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4460,12 +4466,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho đường tròn $(O)$ và góc ở tâm $\\widehat{AOB} = 80^\\circ$. Góc nội tiếp $\\widehat{ACB}$ cùng chắn cung $AB$ có số đo là:",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $24\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
           "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$8\\sqrt3\\text{ cm}$",
+            "$12\\text{ cm}$",
+            "$4\\sqrt3\\text{ cm}$",
+            "$24\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4473,12 +4479,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn. Biết $\\widehat{A} = 75^\\circ$. Số đo của góc $\\widehat{C}$ là:",
+          "question": "Cho hình vuông có cạnh bằng $16\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
           "options": [
-            "$105^\\circ$",
-            "$75^\\circ$",
-            "$15^\\circ$",
-            "$90^\\circ$"
+            "$8\\text{ cm}$",
+            "$16\\text{ cm}$",
+            "$8\\sqrt2\\text{ cm}$",
+            "$4\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4486,12 +4492,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Tâm đường tròn ngoại tiếp của một tam giác vuông là:",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
           "options": [
-            "Trung điểm của cạnh huyền",
-            "Đỉnh góc vuông",
-            "Trọng tâm tam giác",
-            "Giao điểm hai đường cao"
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4499,12 +4505,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Mỗi góc trong của một lục giác đều có số đo bằng:",
+          "question": "Số đường chéo của một hình lục giác đều là:",
           "options": [
-            "$120^\\circ$",
-            "$108^\\circ$",
-            "$90^\\circ$",
-            "$135^\\circ$"
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4512,12 +4518,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho đường tròn $(O; R)$ và dây $AB = R$. Số đo của góc nội tiếp chắn cung nhỏ $AB$ là:",
+          "question": "Một viên mặt bàn trà trang trí hình ngũ giác đều có độ dài cạnh là $40\\text{cm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
           "options": [
-            "$30^\\circ$ (vì góc ở tâm bằng $60^\\circ$)",
-            "$60^\\circ$",
-            "$45^\\circ$",
-            "$15^\\circ$"
+            "$4156.8\\text{cm}^2$",
+            "500",
+            "300",
+            "200"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4525,12 +4531,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho hình vuông $ABCD$ cạnh $4\\text{ cm}$. Bán kính đường tròn ngoại tiếp hình vuông đó là:",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $40\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
           "options": [
-            "$2\\sqrt{2}\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$2\\text{ cm}$",
-            "$4\\sqrt{2}\\text{ cm}$"
+            "$320\\text{ cm}$",
+            "$240\\text{ cm}$",
+            "$160\\text{ cm}$",
+            "100 cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4538,12 +4544,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{B} = 2\\widehat{D}$. Số đo của góc $\\widehat{B}$ là:",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$120^\\circ$",
-            "$60^\\circ$",
-            "$90^\\circ$",
-            "$100^\\circ$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4551,12 +4557,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp $(O; R)$. Kẻ đường cao $AH$ và đường kính $AD$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$AB \\cdot AC = AH \\cdot AD = 2R \\cdot AH$",
-            "$AB \\cdot AC = AH^2$",
-            "$AB \\cdot AC = 4R \\cdot AH$",
-            "$AH = R \\cdot \\sin A$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4565,33 +4571,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về góc nội tiếp và tứ giác nội tiếp (Mã đề 4):",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 04):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Trong một đường tròn, các góc nội tiếp cùng chắn một cung thì bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Góc tạo bởi tia tiếp tuyến và dây cung có số đo bằng góc nội tiếp cùng chắn cung đó.",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Mọi hình thang cân đều là tứ giác nội tiếp.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Mọi hình thoi đều nội tiếp được một đường tròn.",
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4599,33 +4605,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho tam giác $ABC$ có ba góc nhọn, các đường cao $BD$ và $CE$ cắt nhau tại $H$:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $48\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Tứ giác ADHE nội tiếp được đường tròn đường kính AH.",
+              "level": "Nhận biết",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác BEDC nội tiếp được đường tròn đường kính BC.",
+              "text": "Đường cao của tam giác đều bằng 24 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Góc ADE bằng góc ACB.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 16 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Điểm H là tâm đường tròn nội tiếp tam giác ABC.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4636,79 +4642,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp chắn cung 70 độ. Tính số đo của góc nội tiếp đó (độ).",
-          "answer": "35",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "35"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tứ giác ABCD nội tiếp có góc B = 65 độ. Tính số đo góc D (độ).",
-          "answer": "115",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "115"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác đều cạnh 6 cm (dạng a căn(3)). Điền hệ số a.",
-          "answer": "2",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "2"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho tứ giác ABCD nội tiếp (O) có hai đường chéo vuông góc tại I. Biết IA = 2, IB = 4, IC = 6. Tính ID.",
-          "answer": "3",
+          "level": "Vận dụng",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "3"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Chứng minh rằng hình chữ nhật là một tứ giác nội tiếp đường tròn. Xác định tâm của đường tròn đó.",
-          "rubric": "Hình chữ nhật ABCD có 4 góc vuông: A = B = C = D = 90 độ (0.25đ).\nTổng hai góc đối diện: A + C = 90 + 90 = 180 độ => ABCD là tứ giác nội tiếp.\nTâm đường tròn là giao điểm hai đường chéo O, bán kính R = AC / 2 (0.25đ)."
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $16\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 16 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (16)^2 . căn(3)/4 = 64 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$. Hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh tứ giác $BEDC$ nội tiếp và $\\widehat{EDH} = \\widehat{ECH}$.",
-          "rubric": "Xét tứ giác BEDC có: góc BEC = 90 độ, BDC = 90 độ => hai đỉnh E, D cùng nhìn đoạn BC dưới góc 90 độ (0.25đ).\n=> Tứ giác BEDC nội tiếp đường tròn đường kính BC.\nTrong đường tròn ngoại tiếp BEDC: góc EDH và ECH là hai góc nội tiếp cùng chắn cung EH nên EDH = ECH. Đpcm (0.25đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Từ điểm $M$ ở ngoài $(O)$, kẻ hai tiếp tuyến $MA, MB$ và cát tuyến $MCD$ đi qua tâm $O$ (với $C$ nằm giữa $M$ và $D$). Gọi $H$ là giao điểm của $AB$ và $MO$. Chứng minh rằng $MC \\cdot MD = MH \\cdot MO = MA^2$.",
-          "rubric": "Xét tam giác vuông MAO có đường cao AH => MA^2 = MH . MO (hệ thức lượng) (0.25đ).\nXét hai tam giác MAC và MDA: góc M chung, góc MAC = MDA (góc tạo bởi tiếp tuyến và dây cung bằng góc nội tiếp cùng chắn cung AC) => tam giác MAC đồng dạng MDA (g-g) => MA/MD = MC/MA => MA^2 = MC . MD.\nDo đó: MC . MD = MH . MO = MA^2. Đpcm (0.25đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     },
     "c9_9_bai5_test5": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp & nội tiếp - Bài kiểm tra số 5 (💡 Tứ giác nội tiếp & Đa giác đều)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 05",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp là góc có đỉnh nằm trên đường tròn và:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Hai cạnh chứa hai dây cung của đường tròn đó",
-            "Hai cạnh là hai tiếp tuyến",
-            "Đi qua tâm đường tròn",
-            "Vuông góc với bán kính"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4716,12 +4722,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Một nửa số đo của cung bị chắn",
-            "Bằng số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "Bằng $90^\\circ$"
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4729,12 +4735,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn luôn là:",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
           "options": [
-            "Góc vuông",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4742,12 +4748,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Tứ giác nội tiếp được một đường tròn khi và chỉ khi:",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
           "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai góc đối diện bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Có hai đường chéo vuông góc"
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4755,12 +4761,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho đường tròn $(O)$ và góc ở tâm $\\widehat{AOB} = 80^\\circ$. Góc nội tiếp $\\widehat{ACB}$ cùng chắn cung $AB$ có số đo là:",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $30\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
           "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$10\\sqrt3\\text{ cm}$",
+            "$15\\text{ cm}$",
+            "$5\\sqrt3\\text{ cm}$",
+            "$30\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4768,12 +4774,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn. Biết $\\widehat{A} = 75^\\circ$. Số đo của góc $\\widehat{C}$ là:",
+          "question": "Cho hình vuông có cạnh bằng $20\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
           "options": [
-            "$105^\\circ$",
-            "$75^\\circ$",
-            "$15^\\circ$",
-            "$90^\\circ$"
+            "$10\\text{ cm}$",
+            "$20\\text{ cm}$",
+            "$10\\sqrt2\\text{ cm}$",
+            "$5\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4781,12 +4787,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Tâm đường tròn ngoại tiếp của một tam giác vuông là:",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
           "options": [
-            "Trung điểm của cạnh huyền",
-            "Đỉnh góc vuông",
-            "Trọng tâm tam giác",
-            "Giao điểm hai đường cao"
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4794,12 +4800,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Mỗi góc trong của một lục giác đều có số đo bằng:",
+          "question": "Số đường chéo của một hình lục giác đều là:",
           "options": [
-            "$120^\\circ$",
-            "$108^\\circ$",
-            "$90^\\circ$",
-            "$135^\\circ$"
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4807,12 +4813,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho đường tròn $(O; R)$ và dây $AB = R$. Số đo của góc nội tiếp chắn cung nhỏ $AB$ là:",
+          "question": "Một viên đai ốc cơ khí hình lục giác đều bằng thép không gỉ có độ dài cạnh là $15\\text{mm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
           "options": [
-            "$30^\\circ$ (vì góc ở tâm bằng $60^\\circ$)",
-            "$60^\\circ$",
-            "$45^\\circ$",
-            "$15^\\circ$"
+            "$584.5\\text{mm}^2$",
+            "500",
+            "300",
+            "200"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4820,12 +4826,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho hình vuông $ABCD$ cạnh $4\\text{ cm}$. Bán kính đường tròn ngoại tiếp hình vuông đó là:",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $15\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
           "options": [
-            "$2\\sqrt{2}\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$2\\text{ cm}$",
-            "$4\\sqrt{2}\\text{ cm}$"
+            "$120\\text{ cm}$",
+            "$90\\text{ cm}$",
+            "$60\\text{ cm}$",
+            "100 cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4833,12 +4839,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{B} = 2\\widehat{D}$. Số đo của góc $\\widehat{B}$ là:",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$120^\\circ$",
-            "$60^\\circ$",
-            "$90^\\circ$",
-            "$100^\\circ$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4846,12 +4852,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp $(O; R)$. Kẻ đường cao $AH$ và đường kính $AD$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$AB \\cdot AC = AH \\cdot AD = 2R \\cdot AH$",
-            "$AB \\cdot AC = AH^2$",
-            "$AB \\cdot AC = 4R \\cdot AH$",
-            "$AH = R \\cdot \\sin A$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4860,33 +4866,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về góc nội tiếp và tứ giác nội tiếp (Mã đề 5):",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 05):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Trong một đường tròn, các góc nội tiếp cùng chắn một cung thì bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Góc tạo bởi tia tiếp tuyến và dây cung có số đo bằng góc nội tiếp cùng chắn cung đó.",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Mọi hình thang cân đều là tứ giác nội tiếp.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Mọi hình thoi đều nội tiếp được một đường tròn.",
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4894,33 +4900,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho tam giác $ABC$ có ba góc nhọn, các đường cao $BD$ và $CE$ cắt nhau tại $H$:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $60\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Tứ giác ADHE nội tiếp được đường tròn đường kính AH.",
+              "level": "Nhận biết",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác BEDC nội tiếp được đường tròn đường kính BC.",
+              "text": "Đường cao của tam giác đều bằng 30 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Góc ADE bằng góc ACB.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 20 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Điểm H là tâm đường tròn nội tiếp tam giác ABC.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -4931,79 +4937,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp chắn cung 70 độ. Tính số đo của góc nội tiếp đó (độ).",
-          "answer": "35",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "35"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tứ giác ABCD nội tiếp có góc B = 65 độ. Tính số đo góc D (độ).",
-          "answer": "115",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "115"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác đều cạnh 6 cm (dạng a căn(3)). Điền hệ số a.",
-          "answer": "2",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "2"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho tứ giác ABCD nội tiếp (O) có hai đường chéo vuông góc tại I. Biết IA = 2, IB = 4, IC = 6. Tính ID.",
-          "answer": "3",
+          "level": "Vận dụng",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "3"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Chứng minh rằng hình chữ nhật là một tứ giác nội tiếp đường tròn. Xác định tâm của đường tròn đó.",
-          "rubric": "Hình chữ nhật ABCD có 4 góc vuông: A = B = C = D = 90 độ (0.25đ).\nTổng hai góc đối diện: A + C = 90 + 90 = 180 độ => ABCD là tứ giác nội tiếp.\nTâm đường tròn là giao điểm hai đường chéo O, bán kính R = AC / 2 (0.25đ)."
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $20\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 20 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (20)^2 . căn(3)/4 = 100 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$. Hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh tứ giác $BEDC$ nội tiếp và $\\widehat{EDH} = \\widehat{ECH}$.",
-          "rubric": "Xét tứ giác BEDC có: góc BEC = 90 độ, BDC = 90 độ => hai đỉnh E, D cùng nhìn đoạn BC dưới góc 90 độ (0.25đ).\n=> Tứ giác BEDC nội tiếp đường tròn đường kính BC.\nTrong đường tròn ngoại tiếp BEDC: góc EDH và ECH là hai góc nội tiếp cùng chắn cung EH nên EDH = ECH. Đpcm (0.25đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Từ điểm $M$ ở ngoài $(O)$, kẻ hai tiếp tuyến $MA, MB$ và cát tuyến $MCD$ đi qua tâm $O$ (với $C$ nằm giữa $M$ và $D$). Gọi $H$ là giao điểm của $AB$ và $MO$. Chứng minh rằng $MC \\cdot MD = MH \\cdot MO = MA^2$.",
-          "rubric": "Xét tam giác vuông MAO có đường cao AH => MA^2 = MH . MO (hệ thức lượng) (0.25đ).\nXét hai tam giác MAC và MDA: góc M chung, góc MAC = MDA (góc tạo bởi tiếp tuyến và dây cung bằng góc nội tiếp cùng chắn cung AC) => tam giác MAC đồng dạng MDA (g-g) => MA/MD = MC/MA => MA^2 = MC . MD.\nDo đó: MC . MD = MH . MO = MA^2. Đpcm (0.25đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     },
     "c9_9_bai5_test6": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp & nội tiếp - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 06",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp là góc có đỉnh nằm trên đường tròn và:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Hai cạnh chứa hai dây cung của đường tròn đó",
-            "Hai cạnh là hai tiếp tuyến",
-            "Đi qua tâm đường tròn",
-            "Vuông góc với bán kính"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5011,12 +5017,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Một nửa số đo của cung bị chắn",
-            "Bằng số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "Bằng $90^\\circ$"
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5024,12 +5030,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn luôn là:",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
           "options": [
-            "Góc vuông",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5037,12 +5043,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Tứ giác nội tiếp được một đường tròn khi và chỉ khi:",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
           "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai góc đối diện bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Có hai đường chéo vuông góc"
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5050,12 +5056,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho đường tròn $(O)$ và góc ở tâm $\\widehat{AOB} = 80^\\circ$. Góc nội tiếp $\\widehat{ACB}$ cùng chắn cung $AB$ có số đo là:",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $36\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
           "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$12\\sqrt3\\text{ cm}$",
+            "$18\\text{ cm}$",
+            "$6\\sqrt3\\text{ cm}$",
+            "$36\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5063,12 +5069,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn. Biết $\\widehat{A} = 75^\\circ$. Số đo của góc $\\widehat{C}$ là:",
+          "question": "Cho hình vuông có cạnh bằng $24\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
           "options": [
-            "$105^\\circ$",
-            "$75^\\circ$",
-            "$15^\\circ$",
-            "$90^\\circ$"
+            "$12\\text{ cm}$",
+            "$24\\text{ cm}$",
+            "$12\\sqrt2\\text{ cm}$",
+            "$6\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5076,12 +5082,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Tâm đường tròn ngoại tiếp của một tam giác vuông là:",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
           "options": [
-            "Trung điểm của cạnh huyền",
-            "Đỉnh góc vuông",
-            "Trọng tâm tam giác",
-            "Giao điểm hai đường cao"
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5089,12 +5095,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Mỗi góc trong của một lục giác đều có số đo bằng:",
+          "question": "Số đường chéo của một hình lục giác đều là:",
           "options": [
-            "$120^\\circ$",
-            "$108^\\circ$",
-            "$90^\\circ$",
-            "$135^\\circ$"
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5102,12 +5108,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho đường tròn $(O; R)$ và dây $AB = R$. Số đo của góc nội tiếp chắn cung nhỏ $AB$ là:",
+          "question": "Một viên hoa văn mặt trống đồng hình đa giác đều có độ dài cạnh là $60\\text{cm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
           "options": [
-            "$30^\\circ$ (vì góc ở tâm bằng $60^\\circ$)",
-            "$60^\\circ$",
-            "$45^\\circ$",
-            "$15^\\circ$"
+            "$9352.8\\text{cm}^2$",
+            "500",
+            "300",
+            "200"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5115,12 +5121,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho hình vuông $ABCD$ cạnh $4\\text{ cm}$. Bán kính đường tròn ngoại tiếp hình vuông đó là:",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $60\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
           "options": [
-            "$2\\sqrt{2}\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$2\\text{ cm}$",
-            "$4\\sqrt{2}\\text{ cm}$"
+            "$480\\text{ cm}$",
+            "$360\\text{ cm}$",
+            "$240\\text{ cm}$",
+            "100 cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5128,12 +5134,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{B} = 2\\widehat{D}$. Số đo của góc $\\widehat{B}$ là:",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$120^\\circ$",
-            "$60^\\circ$",
-            "$90^\\circ$",
-            "$100^\\circ$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5141,12 +5147,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp $(O; R)$. Kẻ đường cao $AH$ và đường kính $AD$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$AB \\cdot AC = AH \\cdot AD = 2R \\cdot AH$",
-            "$AB \\cdot AC = AH^2$",
-            "$AB \\cdot AC = 4R \\cdot AH$",
-            "$AH = R \\cdot \\sin A$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5155,33 +5161,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về góc nội tiếp và tứ giác nội tiếp (Mã đề 6):",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 06):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Trong một đường tròn, các góc nội tiếp cùng chắn một cung thì bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Góc tạo bởi tia tiếp tuyến và dây cung có số đo bằng góc nội tiếp cùng chắn cung đó.",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Mọi hình thang cân đều là tứ giác nội tiếp.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Mọi hình thoi đều nội tiếp được một đường tròn.",
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5189,33 +5195,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho tam giác $ABC$ có ba góc nhọn, các đường cao $BD$ và $CE$ cắt nhau tại $H$:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $72\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Tứ giác ADHE nội tiếp được đường tròn đường kính AH.",
+              "level": "Nhận biết",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác BEDC nội tiếp được đường tròn đường kính BC.",
+              "text": "Đường cao của tam giác đều bằng 36 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Góc ADE bằng góc ACB.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 24 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Điểm H là tâm đường tròn nội tiếp tam giác ABC.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5226,79 +5232,79 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp chắn cung 70 độ. Tính số đo của góc nội tiếp đó (độ).",
-          "answer": "35",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "35"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tứ giác ABCD nội tiếp có góc B = 65 độ. Tính số đo góc D (độ).",
-          "answer": "115",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "115"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác đều cạnh 6 cm (dạng a căn(3)). Điền hệ số a.",
-          "answer": "2",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "2"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho tứ giác ABCD nội tiếp (O) có hai đường chéo vuông góc tại I. Biết IA = 2, IB = 4, IC = 6. Tính ID.",
-          "answer": "3",
+          "level": "Vận dụng",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "3"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Chứng minh rằng hình chữ nhật là một tứ giác nội tiếp đường tròn. Xác định tâm của đường tròn đó.",
-          "rubric": "Hình chữ nhật ABCD có 4 góc vuông: A = B = C = D = 90 độ (0.25đ).\nTổng hai góc đối diện: A + C = 90 + 90 = 180 độ => ABCD là tứ giác nội tiếp.\nTâm đường tròn là giao điểm hai đường chéo O, bán kính R = AC / 2 (0.25đ)."
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $24\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 24 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (24)^2 . căn(3)/4 = 144 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$. Hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh tứ giác $BEDC$ nội tiếp và $\\widehat{EDH} = \\widehat{ECH}$.",
-          "rubric": "Xét tứ giác BEDC có: góc BEC = 90 độ, BDC = 90 độ => hai đỉnh E, D cùng nhìn đoạn BC dưới góc 90 độ (0.25đ).\n=> Tứ giác BEDC nội tiếp đường tròn đường kính BC.\nTrong đường tròn ngoại tiếp BEDC: góc EDH và ECH là hai góc nội tiếp cùng chắn cung EH nên EDH = ECH. Đpcm (0.25đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Từ điểm $M$ ở ngoài $(O)$, kẻ hai tiếp tuyến $MA, MB$ và cát tuyến $MCD$ đi qua tâm $O$ (với $C$ nằm giữa $M$ và $D$). Gọi $H$ là giao điểm của $AB$ và $MO$. Chứng minh rằng $MC \\cdot MD = MH \\cdot MO = MA^2$.",
-          "rubric": "Xét tam giác vuông MAO có đường cao AH => MA^2 = MH . MO (hệ thức lượng) (0.25đ).\nXét hai tam giác MAC và MDA: góc M chung, góc MAC = MDA (góc tạo bởi tiếp tuyến và dây cung bằng góc nội tiếp cùng chắn cung AC) => tam giác MAC đồng dạng MDA (g-g) => MA/MD = MC/MA => MA^2 = MC . MD.\nDo đó: MC . MD = MH . MO = MA^2. Đpcm (0.25đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     },
     "c9_9_bai5_test7": {
-      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đường tròn ngoại tiếp & nội tiếp - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+      "title": "Toán 9 (KNTT) - Bài kiểm tra cuối Chương IX: Đa giác đều - Đề số 07",
       "duration": "90 phút",
       "totalScore": 10.0,
       "part1": [
         {
           "id": 1,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp là góc có đỉnh nằm trên đường tròn và:",
+          "question": "Đa giác đều là đa giác có:",
           "options": [
-            "Hai cạnh chứa hai dây cung của đường tròn đó",
-            "Hai cạnh là hai tiếp tuyến",
-            "Đi qua tâm đường tròn",
-            "Vuông góc với bán kính"
+            "Tất cả các cạnh bằng nhau và tất cả các góc bằng nhau",
+            "Tất cả các cạnh bằng nhau",
+            "Tất cả các góc bằng nhau",
+            "Có các cạnh đối song song"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5306,12 +5312,12 @@
         {
           "id": 2,
           "level": "Nhận biết",
-          "question": "Số đo của góc nội tiếp bằng:",
+          "question": "Mỗi góc của một tam giác đều có số đo bằng:",
           "options": [
-            "Một nửa số đo của cung bị chắn",
-            "Bằng số đo cung bị chắn",
-            "Gấp đôi số đo cung bị chắn",
-            "Bằng $90^\\circ$"
+            "$60^\\circ$",
+            "$90^\\circ$",
+            "$45^\\circ$",
+            "$120^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5319,12 +5325,12 @@
         {
           "id": 3,
           "level": "Nhận biết",
-          "question": "Góc nội tiếp chắn nửa đường tròn luôn là:",
+          "question": "Mỗi góc của một hình lục giác đều có số đo bằng:",
           "options": [
-            "Góc vuông",
-            "Góc nhọn",
-            "Góc tù",
-            "Góc bẹt"
+            "$120^\\circ$",
+            "$108^\\circ$",
+            "$60^\\circ$",
+            "$90^\\circ$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5332,12 +5338,12 @@
         {
           "id": 4,
           "level": "Nhận biết",
-          "question": "Tứ giác nội tiếp được một đường tròn khi và chỉ khi:",
+          "question": "Đường tròn đi qua tất cả các đỉnh của một đa giác được gọi là:",
           "options": [
-            "Tổng hai góc đối diện bằng $180^\\circ$",
-            "Hai góc đối diện bằng nhau",
-            "Bốn cạnh bằng nhau",
-            "Có hai đường chéo vuông góc"
+            "Đường tròn ngoại tiếp đa giác",
+            "Đường tròn nội tiếp đa giác",
+            "Đường tròn bàng tiếp",
+            "Đường tròn tiếp xúc"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5345,12 +5351,12 @@
         {
           "id": 5,
           "level": "Thông hiểu",
-          "question": "Cho đường tròn $(O)$ và góc ở tâm $\\widehat{AOB} = 80^\\circ$. Góc nội tiếp $\\widehat{ACB}$ cùng chắn cung $AB$ có số đo là:",
+          "question": "Cho tam giác đều $ABC$ có cạnh bằng $42\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác là:",
           "options": [
-            "$40^\\circ$",
-            "$80^\\circ$",
-            "$160^\\circ$",
-            "$20^\\circ$"
+            "$14\\sqrt3\\text{ cm}$",
+            "$21\\text{ cm}$",
+            "$7\\sqrt3\\text{ cm}$",
+            "$42\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5358,12 +5364,12 @@
         {
           "id": 6,
           "level": "Thông hiểu",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn. Biết $\\widehat{A} = 75^\\circ$. Số đo của góc $\\widehat{C}$ là:",
+          "question": "Cho hình vuông có cạnh bằng $28\\text{ cm}$. Bán kính đường tròn nội tiếp hình vuông đó là:",
           "options": [
-            "$105^\\circ$",
-            "$75^\\circ$",
-            "$15^\\circ$",
-            "$90^\\circ$"
+            "$14\\text{ cm}$",
+            "$28\\text{ cm}$",
+            "$14\\sqrt2\\text{ cm}$",
+            "$7\\text{ cm}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5371,12 +5377,12 @@
         {
           "id": 7,
           "level": "Thông hiểu",
-          "question": "Tâm đường tròn ngoại tiếp của một tam giác vuông là:",
+          "question": "Một hình lục giác đều có cạnh bằng $a$. Bán kính đường tròn ngoại tiếp của nó bằng:",
           "options": [
-            "Trung điểm của cạnh huyền",
-            "Đỉnh góc vuông",
-            "Trọng tâm tam giác",
-            "Giao điểm hai đường cao"
+            "$a$",
+            "$a\\sqrt{3}$",
+            "$\\frac{a\\sqrt{3}}{2}$",
+            "$\\frac{{a}}{{2}}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5384,12 +5390,12 @@
         {
           "id": 8,
           "level": "Thông hiểu",
-          "question": "Mỗi góc trong của một lục giác đều có số đo bằng:",
+          "question": "Số đường chéo của một hình lục giác đều là:",
           "options": [
-            "$120^\\circ$",
-            "$108^\\circ$",
-            "$90^\\circ$",
-            "$135^\\circ$"
+            "$9$",
+            "$6$",
+            "$12$",
+            "$15$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5397,12 +5403,12 @@
         {
           "id": 9,
           "level": "Vận dụng",
-          "question": "Cho đường tròn $(O; R)$ và dây $AB = R$. Số đo của góc nội tiếp chắn cung nhỏ $AB$ là:",
+          "question": "Một viên mặt kính đồng hồ hình bát giác đều phong thủy có độ dài cạnh là $25\\text{cm}$ được tạo bởi 6 tam giác đều. Diện tích của viên gạch là:",
           "options": [
-            "$30^\\circ$ (vì góc ở tâm bằng $60^\\circ$)",
-            "$60^\\circ$",
-            "$45^\\circ$",
-            "$15^\\circ$"
+            "$1623.8\\text{cm}^2$",
+            "500",
+            "300",
+            "200"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5410,12 +5416,12 @@
         {
           "id": 10,
           "level": "Vận dụng",
-          "question": "Cho hình vuông $ABCD$ cạnh $4\\text{ cm}$. Bán kính đường tròn ngoại tiếp hình vuông đó là:",
+          "question": "Biển báo giao thông Stop hình bát giác đều có cạnh $25\\text{ cm}$. Chu vi của biển báo giao thông đó là:",
           "options": [
-            "$2\\sqrt{2}\\text{ cm}$",
-            "$4\\text{ cm}$",
-            "$2\\text{ cm}$",
-            "$4\\sqrt{2}\\text{ cm}$"
+            "$200\\text{ cm}$",
+            "$150\\text{ cm}$",
+            "$100\\text{ cm}$",
+            "100 cm"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5423,12 +5429,12 @@
         {
           "id": 11,
           "level": "Vận dụng",
-          "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn có $\\widehat{B} = 2\\widehat{D}$. Số đo của góc $\\widehat{B}$ là:",
+          "question": "Cho tam giác đều cạnh $a$. Tỉ số bán kính đường tròn ngoại tiếp $R$ và nội tiếp $r$ của tam giác đều bằng:",
           "options": [
-            "$120^\\circ$",
-            "$60^\\circ$",
-            "$90^\\circ$",
-            "$100^\\circ$"
+            "$2$",
+            "$\\sqrt{3}$",
+            "$3$",
+            "$\\frac{3}{2}$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5436,12 +5442,12 @@
         {
           "id": 12,
           "level": "Vận dụng cao",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp $(O; R)$. Kẻ đường cao $AH$ và đường kính $AD$. Khẳng định nào sau đây là ĐÚNG?",
+          "question": "Người ta muốn cắt một miếng tôn hình tròn có bán kính $R = 20\\text{{ cm}}$ thành một hình vuông có diện tích lớn nhất. Diện tích lớn nhất của hình vuông đó là:",
           "options": [
-            "$AB \\cdot AC = AH \\cdot AD = 2R \\cdot AH$",
-            "$AB \\cdot AC = AH^2$",
-            "$AB \\cdot AC = 4R \\cdot AH$",
-            "$AH = R \\cdot \\sin A$"
+            "$800\\text{{ cm}}^2$",
+            "$400\\text{{ cm}}^2$",
+            "$1600\\text{{ cm}}^2$",
+            "$600\\text{{ cm}}^2$"
           ],
           "correct": 0,
           "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -5450,33 +5456,33 @@
       "part2": [
         {
           "id": 1,
-          "stem": "Xét tính đúng sai về góc nội tiếp và tứ giác nội tiếp (Mã đề 7):",
+          "stem": "Xét tính đúng sai về đa giác đều (Đề 07):",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Trong một đường tròn, các góc nội tiếp cùng chắn một cung thì bằng nhau.",
+              "level": "Nhận biết",
+              "text": "Mọi đa giác đều luôn có một đường tròn ngoại tiếp và một đường tròn nội tiếp cùng tâm.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Góc tạo bởi tia tiếp tuyến và dây cung có số đo bằng góc nội tiếp cùng chắn cung đó.",
+              "text": "Hình vuông là tứ giác đều.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Mọi hình thang cân đều là tứ giác nội tiếp.",
+              "text": "Mỗi góc trong của hình ngũ giác đều bằng 108 độ.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Mọi hình thoi đều nội tiếp được một đường tròn.",
+              "text": "Bán kính đường tròn nội tiếp hình vuông lớn hơn bán kính đường tròn ngoại tiếp của nó.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5484,33 +5490,33 @@
         },
         {
           "id": 2,
-          "stem": "Cho tam giác $ABC$ có ba góc nhọn, các đường cao $BD$ và $CE$ cắt nhau tại $H$:",
+          "stem": "Cho tam giác đều $ABC$ cạnh bằng $84\\text{ cm}$ nội tiếp đường tròn $(O; R)$ và ngoại tiếp đường tròn $(O; r)$:",
           "statements": [
             {
               "key": "a",
-              "level": "Thông hiểu",
-              "text": "Tứ giác ADHE nội tiếp được đường tròn đường kính AH.",
+              "level": "Nhận biết",
+              "text": "Tâm O là trọng tâm đồng thời là trực tâm của tam giác đều ABC.",
               "correct": true,
               "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "b",
               "level": "Thông hiểu",
-              "text": "Tứ giác BEDC nội tiếp được đường tròn đường kính BC.",
+              "text": "Đường cao của tam giác đều bằng 42 căn(3) cm.",
               "correct": true,
               "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "c",
               "level": "Thông hiểu",
-              "text": "Góc ADE bằng góc ACB.",
+              "text": "Bán kính đường tròn ngoại tiếp R = 28 căn(3) cm.",
               "correct": true,
               "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
             },
             {
               "key": "d",
               "level": "Vận dụng",
-              "text": "Điểm H là tâm đường tròn nội tiếp tam giác ABC.",
+              "text": "Tỉ số diện tích hình tròn ngoại tiếp và nội tiếp bằng 2.",
               "correct": false,
               "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
             }
@@ -5521,62 +5527,62 @@
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Cho góc nội tiếp chắn cung 70 độ. Tính số đo của góc nội tiếp đó (độ).",
-          "answer": "35",
+          "question": "Tính số đo mỗi góc trong của hình bát giác đều (độ).",
+          "answer": "135",
           "acceptableAnswers": [
-            "35"
+            "135"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **135**."
         },
         {
           "id": 2,
           "level": "Thông hiểu",
-          "question": "Tứ giác ABCD nội tiếp có góc B = 65 độ. Tính số đo góc D (độ).",
-          "answer": "115",
+          "question": "Cho tam giác đều cạnh bằng 6 cm. Tính bán kính đường tròn ngoại tiếp R (cm, làm tròn 1 chữ số thập phân).",
+          "answer": "3.5",
           "acceptableAnswers": [
-            "115"
+            "3.5"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **115**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3.5**."
         },
         {
           "id": 3,
           "level": "Vận dụng",
-          "question": "Tính bán kính đường tròn ngoại tiếp tam giác đều cạnh 6 cm (dạng a căn(3)). Điền hệ số a.",
-          "answer": "2",
+          "question": "Một chiếc đai ốc lục giác đều có cạnh 10 mm. Tính khoảng cách giữa hai cạnh đối diện của đai ốc (mm, làm tròn 1 chữ số thập phân).",
+          "answer": "17.3",
           "acceptableAnswers": [
-            "2"
+            "17.3"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **17.3**."
         },
         {
           "id": 4,
-          "level": "Vận dụng cao",
-          "question": "Cho tứ giác ABCD nội tiếp (O) có hai đường chéo vuông góc tại I. Biết IA = 2, IB = 4, IC = 6. Tính ID.",
-          "answer": "3",
+          "level": "Vận dụng",
+          "question": "Cho hình vuông có diện tích 64 cm^2. Tính diện tích hình tròn ngoại tiếp hình vuông đó (lấy pi = 3,14, cm^2).",
+          "answer": "100.48",
           "acceptableAnswers": [
-            "3"
+            "100.48"
           ],
-          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
+          "explanation": "Các bước giải chi tiết dẫn đến kết quả: **100.48**."
         }
       ],
       "part4": [
         {
           "id": 1,
           "level": "Thông hiểu",
-          "question": "Chứng minh rằng hình chữ nhật là một tứ giác nội tiếp đường tròn. Xác định tâm của đường tròn đó.",
-          "rubric": "Hình chữ nhật ABCD có 4 góc vuông: A = B = C = D = 90 độ (0.25đ).\nTổng hai góc đối diện: A + C = 90 + 90 = 180 độ => ABCD là tứ giác nội tiếp.\nTâm đường tròn là giao điểm hai đường chéo O, bán kính R = AC / 2 (0.25đ)."
+          "question": "Cho hình lục giác đều $ABCDEF$ cạnh bằng $28\\text{ cm}$. Hãy giải thích vì sao tam giác $OAB$ là tam giác đều ($O$ là tâm của lục giác) và tính diện tích tam giác $OAB$.",
+          "rubric": "Vì lục giác đều có 6 cạnh bằng nhau nên góc ở tâm AOB = 360 độ / 6 = 60 độ (0.25đ).\nTam giác OAB cân tại O có góc ở đỉnh 60 độ nên là tam giác đều cạnh bằng 28 cm (0.25đ).\nDiện tích tam giác đều OAB: S = a^2 . căn(3)/4 = (28)^2 . căn(3)/4 = 196 căn(3) (cm^2) (0.25đ).\nKết luận diện tích tam giác (0.25đ)."
         },
         {
           "id": 2,
           "level": "Vận dụng",
-          "question": "Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$. Hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Chứng minh tứ giác $BEDC$ nội tiếp và $\\widehat{EDH} = \\widehat{ECH}$.",
-          "rubric": "Xét tứ giác BEDC có: góc BEC = 90 độ, BDC = 90 độ => hai đỉnh E, D cùng nhìn đoạn BC dưới góc 90 độ (0.25đ).\n=> Tứ giác BEDC nội tiếp đường tròn đường kính BC.\nTrong đường tròn ngoại tiếp BEDC: góc EDH và ECH là hai góc nội tiếp cùng chắn cung EH nên EDH = ECH. Đpcm (0.25đ)."
+          "question": "Người ta dùng các viên gạch men hình lục giác đều cạnh $20\\text{ cm}$ để lát sàn một căn phòng có diện tích $30\\text{ m}^2$. Biết diện tích mỗi viên gạch xấp xỉ $0,1\\text{ m}^2$. Tính số viên gạch cần dùng (coi mạch vữa không đáng kể).",
+          "rubric": "Đổi đơn vị đo diện tích đồng nhất (0.25đ).\nDiện tích sàn phòng là 30 m^2, diện tích 1 viên gạch là 0,1 m^2 (0.25đ).\nSố viên gạch cần dùng là: 30 / 0,1 = 300 (viên gạch) (0.25đ).\nKết luận số lượng gạch cần mua (0.25đ)."
         },
         {
           "id": 3,
           "level": "Vận dụng cao",
-          "question": "Từ điểm $M$ ở ngoài $(O)$, kẻ hai tiếp tuyến $MA, MB$ và cát tuyến $MCD$ đi qua tâm $O$ (với $C$ nằm giữa $M$ và $D$). Gọi $H$ là giao điểm của $AB$ và $MO$. Chứng minh rằng $MC \\cdot MD = MH \\cdot MO = MA^2$.",
-          "rubric": "Xét tam giác vuông MAO có đường cao AH => MA^2 = MH . MO (hệ thức lượng) (0.25đ).\nXét hai tam giác MAC và MDA: góc M chung, góc MAC = MDA (góc tạo bởi tiếp tuyến và dây cung bằng góc nội tiếp cùng chắn cung AC) => tam giác MAC đồng dạng MDA (g-g) => MA/MD = MC/MA => MA^2 = MC . MD.\nDo đó: MC . MD = MH . MO = MA^2. Đpcm (0.25đ)."
+          "question": "Chứng minh rằng trong tất cả các hình chữ nhật có cùng chu vi $2p$, hình vuông là hình có diện tích lớn nhất.",
+          "rubric": "Gọi hai kích thước của hình chữ nhật là a và b (a, b > 0) => a + b = p (không đổi) (0.25đ).\nDiện tích hình chữ nhật là S = a . b (0.25đ).\nÁp dụng bất đẳng thức Cauchy cho hai số dương a, b: S = ab <= ((a + b)/2)^2 = (p/2)^2 (0.25đ).\nDấu '=' xảy ra khi a = b = p/2 (tức hình chữ nhật trở thành hình vuông). Vậy hình vuông có diện tích lớn nhất (0.25đ)."
         }
       ]
     }

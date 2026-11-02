@@ -1,7 +1,7 @@
 // ==============================================================================
 // NGÂN HÀNG ĐỀ KIỂM TRA CHƯƠNG I: SỐ HỮU TỈ - TOÁN 7 (KNTT)
 // Chuẩn ma trận khảo thí 2025: Đề 1 & 2 (Khá 40/30/20/10), Đề 3 (Khá Giỏi 20/30/30/20)
-// Cập nhật lúc: 2026-11-01 19:20:49
+// Cập nhật lúc: 2026-11-02 07:40:53
 // ==============================================================================
 
 const EXAMS_7_C1_7 = {
@@ -3090,211 +3090,233 @@ const EXAMS_7_C1_7 = {
     ]
   },
   "c1_7_bai5_test1": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 1 (🌱 Cơ bản)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 01",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số đối của $-\\frac{5}{7}$ là:",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 01):",
         "options": [
-          "$\\frac{5}{7}$",
-          "$-\\frac{7}{5}$",
-          "$\\frac{7}{5}$",
-          "$-\\frac{5}{7}$"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Tập hợp các số hữu tỉ gồm:",
+        "question": "Số đối của số hữu tỉ $-\\frac{1}{3}$ là:",
         "options": [
-          "Chỉ các số nguyên",
-          "Chỉ các số tự nhiên",
-          "Các số thập phân vô hạn không tuần hoàn",
-          "Các số viết được dưới dạng phân số $\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\neq 0$"
+          "$\\frac{1}{3}$",
+          "$-\\frac{3}{1}$",
+          "$\\frac{3}{1}$",
+          "$-1$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Giá trị của $\\left(-\\frac{1}{3}\\right)^2$ là:",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$\\frac{1}{6}$",
-          "$-\\frac{1}{6}$",
-          "$\\frac{1}{9}$",
-          "$-\\frac{1}{9}$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Kết quả của phép tính $-\\frac{3}{5} + \\frac{2}{5}$ là:",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "$1$",
-          "$-\\frac{5}{5} = -1$",
-          "$-\\frac{1}{5}$",
-          "$\\frac{1}{5}$"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Nhận biết",
-        "question": "Số nghịch đảo của số hữu tỉ $-2\\frac{1}{3}$ là:",
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $\\frac{1}{4} + \\frac{2}{4}$ là:",
         "options": [
-          "$\\frac{3}{7}$",
-          "$\\frac{7}{3}$",
-          "$-\\frac{7}{3}$",
-          "$-\\frac{3}{7}$"
+          "$\\frac{3}{4}$",
+          "$\\frac{2}{4}$",
+          "$\\frac{3}{8}$",
+          "$1$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tính: $0,75 - \\left(-\\frac{1}{4}\\right)$:",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 4$ bằng:",
         "options": [
           "$1$",
-          "$0$",
           "$-1$",
-          "$0,5$"
+          "$2$",
+          "$4$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Tìm $x$ biết: $x + \\frac{1}{2} = -\\frac{3}{4}$:",
+        "question": "Tìm $x$, biết: $x - \\frac{1}{2} = \\frac12$:",
         "options": [
-          "$x = \\frac{5}{4}$",
-          "$x = \\frac{1}{4}$",
-          "$x = -\\frac{5}{4}$",
-          "$x = -\\frac{1}{4}$"
+          "$x = \\frac{2}{2}$",
+          "$x = \\frac{0}{2}$",
+          "$x = 1$",
+          "$x = 1$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $\\left(\\frac{2}{3}\\right)^5 : \\left(\\frac{2}{3}\\right)^3$ là:",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{1}{5}$ và $b = -\\frac{2}{5}$:",
         "options": [
-          "$\\frac{8}{27}$",
-          "$\\frac{2}{3}$",
-          "$1$",
-          "$\\frac{4}{9}$"
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
+          "Không so sánh được"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Thông hiểu",
-        "question": "Khoảng cách từ điểm biểu diễn số $-2,5$ đến gốc 0 trên trục số là:",
+        "level": "Vận dụng",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,1^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,1^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$2,5$",
-          "$5$",
-          "$-2,5$",
-          "$0$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Thông hiểu",
-        "question": "Sắp xếp theo thứ tự tăng dần: $-\\frac{2}{3};\\ 0;\\ 0,5;\\ -1$:",
+        "level": "Vận dụng",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $110$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "$0,5 < 0 < -\\frac{2}{3} < -1$",
-          "$-1 < -\\frac{2}{3} < 0 < 0,5$",
-          "$-1 < 0 < -\\frac{2}{3} < 0,5$",
-          "$-\\frac{2}{3} < -1 < 0 < 0,5$"
+          "176.0 nghìn đồng",
+          "220 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: $A = \\frac{5}{9} \\cdot \\frac{7}{13} + \\frac{5}{9} \\cdot \\frac{6}{13}$:",
+        "level": "Vận dụng",
+        "question": "Một tàu ngầm đang ở độ sâu $35$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$\\frac{65}{117}$",
-          "$\\frac{5}{9}$",
-          "$1$",
-          "$\\frac{13}{9}$"
+          "$-30$ mét",
+          "$-35$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
-        "level": "Thông hiểu",
-        "question": "Tìm $x$ biết: $x^2 = \\frac{16}{25}$ và $x < 0$:",
+        "level": "Vận dụng cao",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 1| + |x - 5|$ bằng:",
         "options": [
-          "$x = -\\frac{8}{25}$",
-          "$x = -\\frac{4}{5}$",
-          "$x = \\frac{4}{5}$",
-          "$x = -\\frac{16}{25}$"
+          "4",
+          "$1$",
+          "$2$",
+          "0"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng/sai của các khẳng định sau về số hữu tỉ:",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 01):",
         "statements": [
           {
             "key": "a",
             "level": "Nhận biết",
             "text": "Mọi số nguyên đều là số hữu tỉ.",
-            "correct": true
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
-            "level": "Nhận biết",
-            "text": "Số 0 là số hữu tỉ dương.",
-            "correct": false
+            "level": "Thông hiểu",
+            "text": "Số thập phân hữu hạn 0,1 có thể biểu diễn dưới dạng phân số tối giản.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "(-0,2)³ = -0,008.",
-            "correct": true
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Thông hiểu",
-            "text": "Hai số đối nhau có tổng bằng 0.",
-            "correct": true
+            "level": "Vận dụng",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Cho biểu thức P = 2/3 - 1/3 . (1/2)²:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 01): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Thực hiện phép lũy thừa trước: (1/2)² = 1/4.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Phép nhân: (1/3) . (1/4) = 1/12.",
-            "correct": true
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Phép trừ: P = 2/3 - 1/12 = 8/12 - 1/12 = 7/12.",
-            "correct": true
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Giá trị của P lớn hơn 1.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3303,255 +3325,293 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính kết quả phép tính: (-3/4) . 8/9. (Viết dưới dạng phân số tối giản a/b)",
-        "answer": "-2/3"
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 4.",
+        "answer": "5",
+        "acceptableAnswers": [
+          "5"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm số hữu tỉ x biết: 2x - 1/3 = 1/2.",
-        "answer": "5/12"
+        "question": "Tìm x biết: |x - 1| = 0.",
+        "answer": "1",
+        "acceptableAnswers": [
+          "1"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tính giá trị biểu thức: M = (0,4)⁵ : (0,4)³ + 0,84.",
-        "answer": "1"
+        "level": "Vận dụng",
+        "question": "Một bình chứa 2.5 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "0.625",
+        "acceptableAnswers": [
+          "0.625"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.625**."
       },
       {
         "id": 4,
-        "level": "Vận dụng thấp",
-        "question": "Một người đi xe đạp đi được 15 km trong 1,25 giờ. Vận tốc của người đó là bao nhiêu km/h?",
-        "answer": "12"
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 16 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý nếu có thể:\na) A = (-3/7) + 5/11 + (-4/7) + 6/11\nb) B = (2/3)² . 9/4 - (-1/2)³ . 8.",
-        "rubric": "a) A = [(-3/7) + (-4/7)] + [5/11 + 6/11] = -1 + 1 = 0 (0.5đ).\nb) B = (4/9) . (9/4) - (-1/8) . 8 = 1 - (-1) = 2 (0.5đ)."
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{1}{7} \\cdot \\left(-\\frac59\\right) + \\frac{1}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 1/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (1/7) . (-1) = -1/7 (0.25đ).\nKết luận kết quả A = -1/7 (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số hữu tỉ x biết:\na) 3/4 x + 1/2 = -1/4\nb) (2x - 1/3)² = 4/9.",
-        "rubric": "a) 3/4 x = -1/4 - 1/2 = -3/4 => x = -1 (0.5đ).\nb) 2x - 1/3 = 2/3 => 2x = 1 => x = 1/2; hoặc 2x - 1/3 = -2/3 => 2x = -1/3 => x = -1/6 (0.5đ)."
+        "level": "Vận dụng",
+        "question": "Một người gửi tiết kiệm 60 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (60) . 6% = (60) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 3.60 triệu đồng (0.25đ).\nTổng số tiền nhận được: (60) + 3.60 = 63.60 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Bác Bình gửi tiết kiệm 50 triệu đồng vào ngân hàng với kì hạn 1 năm, lãi suất 6,5%/năm.\na) Tính số tiền lãi bác Bình nhận được sau 1 năm.\nb) Hết kì hạn 1 năm, bác rút ra 1/2 tổng số tiền (cả gốc và lãi) để mua sắm. Hỏi số tiền còn lại trong tài khoản của bác là bao nhiêu triệu đồng?",
-        "rubric": "a) Tiền lãi sau 1 năm: 50 x 6,5% = 3,25 (triệu đồng) (0.5đ).\nb) Tổng số tiền sau 1 năm: 50 + 3,25 = 53,25 (triệu đồng). Số tiền còn lại: 53,25 : 2 = 26,625 (triệu đồng) (0.5đ)."
+        "level": "Vận dụng cao",
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 1| + |x - 7| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 1| + |7 - x| + 2026 >= |x - 1 + 7 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 1 <= x <= 7. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   },
   "c1_7_bai5_test2": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 2 (🌿 Khá)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 02",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = \\left(-\\frac{1}{3}\\right)^2 : \\frac{1}{9} - 2 \\cdot \\left(-\\frac{1}{2}\\right)^3$ là:",
+        "level": "Nhận biết",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 02):",
         "options": [
-          "$\\frac{3}{4}$",
-          "$2$",
-          "$1$",
-          "$\\frac{5}{4}$"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Thông hiểu",
-        "question": "Tìm $x$ biết: $\\frac{2}{3}x - \\frac{1}{4} = \\frac{1}{6}$:",
+        "level": "Nhận biết",
+        "question": "Số đối của số hữu tỉ $-\\frac{2}{4}$ là:",
         "options": [
-          "$x = \\frac{5}{8}$",
-          "$x = \\frac{3}{8}$",
-          "$x = \\frac{1}{8}$",
-          "$x = -\\frac{5}{8}$"
+          "$\\frac{2}{4}$",
+          "$-\\frac{4}{2}$",
+          "$\\frac{4}{2}$",
+          "$-2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Thông hiểu",
-        "question": "Rút gọn biểu thức $\\frac{2^5 \\cdot 3^4}{6^4}$ ta được:",
+        "level": "Nhận biết",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$6$",
-          "$2$",
-          "$1$",
-          "$3$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng thấp",
-        "question": "Tìm $x$ biết: $\\left|x - \\frac{3}{4}\\right| = \\frac{1}{2}$:",
+        "level": "Nhận biết",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "$x = \\frac{1}{4}$",
-          "$x = \\frac{5}{4}$",
-          "$x = \\frac{5}{4}$ hoặc $x = \\frac{1}{4}$",
-          "$x = -\\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng thấp",
-        "question": "Tính nhanh giá trị của biểu thức: $M = \\frac{4}{7} \\cdot \\frac{3}{5} + \\frac{4}{7} \\cdot \\frac{2}{5} - 1\\frac{4}{7}$:",
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $\\frac{2}{4} + \\frac{4}{4}$ là:",
         "options": [
-          "$-1$",
-          "$0$",
-          "$-\\frac{4}{7}$",
-          "$1$"
+          "$\\frac{6}{4}$",
+          "$\\frac{8}{4}$",
+          "$\\frac{6}{8}$",
+          "$2$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên $n$ biết: $3^{n+1} - 3^n = 162$:",
+        "level": "Thông hiểu",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 8$ bằng:",
         "options": [
-          "$n = 5$",
-          "$n = 3$",
-          "$n = 4$",
-          "$n = 2$"
+          "$2$",
+          "$-2$",
+          "$4$",
+          "$8$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng thấp",
-        "question": "Một ô tô đi từ A đến B hết 2 giờ 30 phút với vận tốc $60\\text{ km/h}$. Quãng đường AB dài:",
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết: $x - \\frac{2}{2} = \\frac12$:",
         "options": [
-          "$180\\text{ km}$",
-          "$150\\text{ km}$",
-          "$140\\text{ km}$",
-          "$120\\text{ km}$"
+          "$x = \\frac{3}{2}$",
+          "$x = \\frac{1}{2}$",
+          "$x = 2$",
+          "$x = 1$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng thấp",
-        "question": "Cho hai số hữu tỉ $a$ và $b$ thỏa mãn $a + b = -1$ và $a - b = 0,6$. Giá trị của $a \\cdot b$ là:",
+        "level": "Thông hiểu",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{2}{5}$ và $b = -\\frac{3}{5}$:",
         "options": [
-          "$-0,64$",
-          "$0,64$",
-          "$-0,16$",
-          "$0,16$"
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
+          "Không so sánh được"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Giá trị của biểu thức $B = \\frac{1}{1\\cdot 2} + \\frac{1}{2\\cdot 3} + \\frac{1}{3\\cdot 4} + \\dots + \\frac{1}{49\\cdot 50}$ là:",
+        "level": "Vận dụng",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,2^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,2^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$\\frac{1}{50}$",
-          "$\\frac{50}{51}$",
-          "$1$",
-          "$\\frac{49}{50}$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Tìm $x$ biết: $\\frac{x+1}{2024} + \\frac{x+2}{2023} + \\frac{x+3}{2022} = -3$:",
+        "level": "Vận dụng",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $120$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "$x = -2025$",
-          "$x = -2024$",
-          "$x = 2025$",
-          "$x = 2024$"
+          "192.0 nghìn đồng",
+          "240 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Số giá trị nguyên của $x$ để phân số $\\frac{x+3}{x-1}$ nhận giá trị nguyên là:",
+        "level": "Vận dụng",
+        "question": "Một tàu ngầm đang ở độ sâu $40$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$4$",
-          "$2$",
-          "$8$",
-          "$6$"
+          "$-35$ mét",
+          "$-40$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Giá trị nhỏ nhất của biểu thức $P = |x - 1,5| + 2,8$ là:",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 2| + |x - 6|$ bằng:",
         "options": [
-          "$1,5$",
-          "$2,8$",
-          "$0$",
-          "$4,3$"
+          "4",
+          "$2$",
+          "$4$",
+          "0"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho hai biểu thức A = (1/2)³ . 4 + 3/4 và B = (3/2)² - 1/2 . 3:",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 02):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "A = (1/8) . 4 + 3/4 = 1/2 + 3/4 = 5/4.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên đều là số hữu tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "B = 9/4 - 3/2 = 9/4 - 6/4 = 3/4.",
-            "correct": true
+            "text": "Số thập phân hữu hạn 0,2 có thể biểu diễn dưới dạng phân số tối giản.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức A lớn hơn giá trị của biểu thức B.",
-            "correct": true
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Hiệu A - B = 1/4.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Xét bài toán tìm x: (2/5)x + 1/3 = (1/2)x - 1/6:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 02): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Chuyển vế: (2/5 - 1/2)x = -1/6 - 1/3.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "2/5 - 1/2 = -1/10.",
-            "correct": true
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "-1/6 - 1/3 = -1/2.",
-            "correct": true
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng thấp",
-            "text": "Nghiệm của phương trình là x = 5.",
-            "correct": true
+            "level": "Vận dụng",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3560,255 +3620,293 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: A = 1/2 - 3/4 + 5/6 - 7/12. (Viết dưới dạng phân số tối giản a/b)",
-        "answer": "0"
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 8.",
+        "answer": "10",
+        "acceptableAnswers": [
+          "10"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **10**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên n thỏa mãn: (2ⁿ)² = 64.",
-        "answer": "3"
+        "level": "Thông hiểu",
+        "question": "Tìm x biết: |x - 2| = 0.",
+        "answer": "2",
+        "acceptableAnswers": [
+          "2"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2**."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Tìm x thỏa mãn: |x - 2| + 3 = 5 và x < 0.",
-        "answer": "0"
+        "level": "Vận dụng",
+        "question": "Một bình chứa 3.0 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "0.750",
+        "acceptableAnswers": [
+          "0.750"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.750**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: M = (x - 2)² + 3.",
-        "answer": "3"
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 17 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
+        "answer": "6",
+        "acceptableAnswers": [
+          "6"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức một cách hợp lý:\na) A = (-3/4) . 5/17 + (-3/4) . 12/17 + 1 3/4\nb) B = (2/3 - 1/4 + 5/12) : (1/2 - 1/3).",
-        "rubric": "a) (-3/4) . (5/17 + 12/17) + 7/4 = (-3/4) . 1 + 7/4 = 4/4 = 1 (0.5đ).\nb) (8/12 - 3/12 + 5/12) : (1/6) = (10/12) . 6 = 5 (0.5đ)."
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{2}{7} \\cdot \\left(-\\frac59\\right) + \\frac{2}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 2/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (2/7) . (-1) = -2/7 (0.25đ).\nKết luận kết quả A = -2/7 (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm x biết:\na) 3/4 - 2(x + 1/3) = 1/2\nb) (2x - 1)³ = -27/64.",
-        "rubric": "a) 2(x + 1/3) = 3/4 - 1/2 = 1/4 => x + 1/3 = 1/8 => x = 1/8 - 1/3 = -5/24 (0.5đ).\nb) 2x - 1 = -3/4 => 2x = 1/4 => x = 1/8 (0.5đ)."
+        "level": "Vận dụng",
+        "question": "Một người gửi tiết kiệm 70 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (70) . 6% = (70) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 4.20 triệu đồng (0.25đ).\nTổng số tiền nhận được: (70) + 4.20 = 74.20 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Một người bán một rổ trứng. Lần thứ nhất người đó bán được 1/2 số trứng và thêm 1 quả. Lần thứ hai người đó bán được 1/2 số trứng còn lại và thêm 1 quả. Lần thứ ba bán được 1/2 số trứng còn lại sau hai lần và thêm 1 quả nữa thì vừa hết rổ trứng.\na) Hỏi ban đầu người đó có tất cả bao nhiêu quả trứng trong rổ?\nb) Tính số trứng bán được trong lần thứ nhất.",
-        "rubric": "a) Tính ngược từ cuối: Trước lần 3 có: (0 + 1) : (1/2) = 2 quả. Trước lần 2 có: (2 + 1) : (1/2) = 6 quả. Ban đầu có: (6 + 1) : (1/2) = 14 quả trứng (0.6đ).\nb) Lần thứ nhất bán được: 14 x 1/2 + 1 = 8 quả trứng (0.4đ)."
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 2| + |x - 8| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 2| + |8 - x| + 2026 >= |x - 2 + 8 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 2 <= x <= 8. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   },
   "c1_7_bai5_test3": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 3 (🚀 Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 03",
+    "duration": "90 phút",
+    "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
-        "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức $S = 1 + \\frac{1}{2} + \\frac{1}{2^2} + \\frac{1}{2^3} + \\dots + \\frac{1}{2^{10}}$:",
+        "level": "Nhận biết",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 03):",
         "options": [
-          "$1 - \\frac{1}{2^{10}}$",
-          "$2 - \\frac{1}{2^{11}}$",
-          "$2$",
-          "$2 - \\frac{1}{2^{10}}$"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm $x$ biết: $(x - 1)^{2024} = (x - 1)^{2026}$:",
+        "level": "Nhận biết",
+        "question": "Số đối của số hữu tỉ $-\\frac{3}{5}$ là:",
         "options": [
-          "$x = 1$",
-          "$x = 2$",
-          "$x \\in \\{0; 1; 2\\}$",
-          "$x \\in \\{1; 2\\}$"
+          "$\\frac{3}{5}$",
+          "$-\\frac{5}{3}$",
+          "$\\frac{5}{3}$",
+          "$-3$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 3,
-        "level": "Vận dụng thấp",
-        "question": "Có bao nhiêu cặp số nguyên $(x; y)$ thỏa mãn $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{2}$?",
+        "level": "Nhận biết",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$3$",
-          "$5$",
-          "$4$",
-          "$6$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Cho $a, b, c$ là các số hữu tỉ đôi một khác nhau. Giá trị của biểu thức $M = \\frac{a-b}{c} + \\frac{b-c}{a} + \\frac{c-a}{b}$ khi $\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} = 1$ là:",
+        "level": "Nhận biết",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "$3$",
-          "$-1$",
-          "$1$",
-          "$0$"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 5,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2024| + |x - 1|$:",
+        "level": "Thông hiểu",
+        "question": "Kết quả của phép tính $\\frac{3}{4} + \\frac{6}{4}$ là:",
         "options": [
-          "$1$",
-          "$2025$",
-          "$2023$",
-          "$0$"
+          "$\\frac{9}{4}$",
+          "$\\frac{18}{4}$",
+          "$\\frac{9}{8}$",
+          "$3$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 6,
-        "level": "Vận dụng cao",
-        "question": "Cho $P = \\left(1 - \\frac{1}{2}\\right)\\left(1 - \\frac{1}{3}\\right)\\left(1 - \\frac{1}{4}\\right)\\dots\\left(1 - \\frac{1}{2025}\\right)$. Giá trị của $P$ là:",
+        "level": "Thông hiểu",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 12$ bằng:",
         "options": [
-          "$1$",
-          "$\\frac{2024}{2025}$",
-          "$\\frac{1}{2025}$",
-          "$\\frac{1}{2024}$"
+          "$3$",
+          "$-3$",
+          "$6$",
+          "$12$"
         ],
-        "correct": 2
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 7,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên $n$ sao cho phân số $\\frac{2n + 3}{4n + 1}$ có giá trị lớn nhất:",
+        "level": "Thông hiểu",
+        "question": "Tìm $x$, biết: $x - \\frac{3}{2} = \\frac12$:",
         "options": [
-          "$n = 0$",
-          "$n = 2$",
-          "$n = 1$",
-          "Không có giá trị lớn nhất"
+          "$x = \\frac{4}{2}$",
+          "$x = \\frac{2}{2}$",
+          "$x = 3$",
+          "$x = 1$"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 8,
-        "level": "Vận dụng cao",
-        "question": "Tìm chữ số tận cùng của tổng $A = 2 + 2^2 + 2^3 + \\dots + 2^{2024}$:",
+        "level": "Thông hiểu",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{3}{5}$ và $b = -\\frac{4}{5}$:",
         "options": [
-          "$0$",
-          "$2$",
-          "$6$",
-          "$4$"
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
+          "Không so sánh được"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 9,
-        "level": "Vận dụng cao",
-        "question": "Tìm $x$ biết: $\\frac{x - 2024}{2} + \\frac{x - 2024}{3} + \\frac{x - 2024}{4} = 0$:",
+        "level": "Vận dụng",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,3^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,3^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$x = 1$",
-          "$x = 0$",
-          "Vô nghiệm",
-          "$x = 2024$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
-        "correct": 3
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 10,
-        "level": "Vận dụng cao",
-        "question": "Cho hai số hữu tỉ dương $x, y$ thỏa mãn $x^3 + y^3 = x - y$. Khẳng định nào sau đây đúng?",
+        "level": "Vận dụng",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $130$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "Không xác định",
-          "$x^2 + y^2 < 1$",
-          "$x^2 + y^2 > 1$",
-          "$x^2 + y^2 = 1$"
+          "208.0 nghìn đồng",
+          "260 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 11,
-        "level": "Vận dụng cao",
-        "question": "Số dư khi chia $3^{2025}$ cho 13 là:",
+        "level": "Vận dụng",
+        "question": "Một tàu ngầm đang ở độ sâu $45$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$1$",
-          "$3$",
-          "$0$",
-          "$9$"
+          "$-40$ mét",
+          "$-45$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
-        "correct": 1
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       },
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Giá trị lớn nhất của biểu thức $Q = \\frac{2024}{|x| + 2}$ là:",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 3| + |x - 7|$ bằng:",
         "options": [
-          "$1012$",
-          "Không tồn tại",
-          "$506$",
-          "$2024$"
+          "4",
+          "$3$",
+          "$6$",
+          "0"
         ],
-        "correct": 0
+        "correct": 0,
+        "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
       }
     ],
     "part2": [
       {
         "id": 1,
-        "stem": "Cho dãy số A = 1/3 + 1/3² + 1/3³ + ... + 1/3²⁰²⁴:",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 03):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "3A = 1 + 1/3 + 1/3² + ... + 1/3²⁰²³.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên đều là số hữu tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "2A = 3A - A = 1 - 1/3²⁰²⁴.",
-            "correct": true
+            "text": "Số thập phân hữu hạn 0,3 có thể biểu diễn dưới dạng phân số tối giản.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng cao",
-            "text": "A < 1/2.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "A > 1.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       },
       {
         "id": 2,
-        "stem": "Xét bài toán tìm x: |x - 3| + |x + 2| = 5:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 03): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Áp dụng bất đẳng thức: |x - 3| + |x + 2| = |3 - x| + |x + 2| ≥ |3 - x + x + 2| = 5.",
-            "correct": true
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
+            "correct": true,
+            "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
-            "level": "Vận dụng thấp",
-            "text": "Dấu bằng xảy ra khi (3 - x)(x + 2) ≥ 0.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
-            "level": "Vận dụng cao",
-            "text": "Tập nghiệm của phương trình là mọi số hữu tỉ x thỏa mãn -2 ≤ x ≤ 3.",
-            "correct": true
+            "level": "Thông hiểu",
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
-            "level": "Vận dụng cao",
-            "text": "Chỉ có 2 nghiệm nguyên thỏa mãn phương trình.",
-            "correct": false
+            "level": "Vận dụng",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
+            "correct": false,
+            "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
         ]
       }
@@ -3817,63 +3915,79 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị của biểu thức: A = (1 - 1/4) . (1 - 1/9) . (1 - 1/16) ... (1 - 1/100). (Viết dạng phân số tối giản a/b)",
-        "answer": "11/20"
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 12.",
+        "answer": "15",
+        "acceptableAnswers": [
+          "15"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **15**."
       },
       {
         "id": 2,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số tự nhiên n thỏa mãn: 3 . 2ⁿ + 2ⁿ⁺² = 112.",
-        "answer": "4"
+        "level": "Thông hiểu",
+        "question": "Tìm x biết: |x - 3| = 0.",
+        "answer": "3",
+        "acceptableAnswers": [
+          "3"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **3**."
       },
       {
         "id": 3,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = |x - 2024| + |x - 2025|.",
-        "answer": "1"
+        "level": "Vận dụng",
+        "question": "Một bình chứa 3.5 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "0.875",
+        "acceptableAnswers": [
+          "0.875"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **0.875**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm số tự nhiên x biết: 1/(1.2) + 1/(2.3) + ... + 1/(x(x+1)) = 2024/2025.",
-        "answer": "2024"
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 18 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
+        "answer": "7",
+        "acceptableAnswers": [
+          "7"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
       }
     ],
     "part4": [
       {
         "id": 1,
-        "level": "Vận dụng thấp",
-        "question": "Tìm số hữu tỉ x biết:\n(x - 2024)/10 + (x - 2024)/11 + (x - 2024)/12 = (x - 2024)/13 + (x - 2024)/14.",
-        "rubric": "(x - 2024) . [1/10 + 1/11 + 1/12 - 1/13 - 1/14] = 0 (0.4đ). Vì 1/10 > 1/13 và 1/11 > 1/14 nên ngoặc khác 0 (0.4đ) => x = 2024 (0.2đ)."
+        "level": "Thông hiểu",
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{3}{7} \\cdot \\left(-\\frac59\\right) + \\frac{3}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 3/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (3/7) . (-1) = -3/7 (0.25đ).\nKết luận kết quả A = -3/7 (0.25đ)."
       },
       {
         "id": 2,
-        "level": "Vận dụng cao",
-        "question": "Cho biểu thức A = 1/2² + 1/3² + 1/4² + ... + 1/2024².\nChứng minh rằng 1/2 < A < 1.",
-        "rubric": "1/k² < 1/((k-1)k) => A < 1/(1.2) + 1/(2.3) + ... + 1/(2023.2024) = 1 - 1/2024 < 1 (0.5đ). Lại có 1/k² > 1/(k(k+1)) => A > 1/(2.3) + 1/(3.4) + ... + 1/(2024.2025) = 1/2 - 1/2025 > 1/2 - 1/4 = ... Hoặc xét số hạng đầu 1/4 + 1/9 + 1/16 > 1/2. Suy ra 1/2 < A < 1 (0.5đ)."
+        "level": "Vận dụng",
+        "question": "Một người gửi tiết kiệm 80 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (80) . 6% = (80) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 4.80 triệu đồng (0.25đ).\nTổng số tiền nhận được: (80) + 4.80 = 84.80 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Tìm tất cả các cặp số nguyên (x; y) thỏa mãn:\nxy + 3x - 2y = 11.",
-        "rubric": "x(y + 3) - 2(y + 3) + 6 = 11 => (x - 2)(y + 3) = 5 (0.4đ). Xét các ước của 5 = {±1; ±5} (0.2đ). Tìm được 4 cặp nghiệm: (3; 2), (1; -8), (7; -2), (-3; -4) (0.4đ)."
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 3| + |x - 9| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 3| + |9 - x| + 2026 >= |x - 3 + 9 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 3 <= x <= 9. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   },
   "c1_7_bai5_test4": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 4 (🎯 Toàn diện Chuẩn ma trận 30-30-20-20)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 04",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số hữu tỉ là số viết được dưới dạng:",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 04):",
         "options": [
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\neq 0$",
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{N}$",
-          "Số thập phân vô hạn không tuần hoàn",
-          "Chỉ gồm số nguyên"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3881,12 +3995,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số đối của số hữu tỉ $-\\frac{4}{7}$ là:",
+        "question": "Số đối của số hữu tỉ $-\\frac{4}{6}$ là:",
         "options": [
-          "$\\frac{4}{7}$",
-          "$-\\frac{7}{4}$",
-          "$\\frac{7}{4}$",
-          "$-\\frac{4}{7}$"
+          "$\\frac{4}{6}$",
+          "$-\\frac{6}{4}$",
+          "$\\frac{6}{4}$",
+          "$-4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3894,12 +4008,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Kết quả của phép tính $\\left(-\\frac{1}{2}\\right)^3$ là:",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$-\\frac{1}{8}$",
-          "$\\frac{1}{8}$",
-          "$-\\frac{1}{6}$",
-          "$\\frac{1}{6}$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3907,12 +4021,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải:",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "Đổi dấu số hạng đó",
-          "Giữ nguyên dấu",
-          "Nhân số hạng đó với $-1$",
-          "Đổi số hạng đó thành số nghịch đảo"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3920,12 +4034,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Kết quả của phép tính $\\frac{-3}{5} + \\frac{2}{3}$ là:",
+        "question": "Kết quả của phép tính $\\frac{4}{4} + \\frac{8}{4}$ là:",
         "options": [
-          "$\\frac{1}{15}$",
-          "$-\\frac{1}{15}$",
-          "$-\\frac{5}{8}$",
-          "$\\frac{19}{15}$"
+          "$\\frac{12}{4}$",
+          "$\\frac{32}{4}$",
+          "$\\frac{12}{8}$",
+          "$4$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3933,12 +4047,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x - \\frac{2}{3} = -\\frac{1}{6}$:",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 16$ bằng:",
         "options": [
-          "$x = \\frac{1}{2}$",
-          "$x = -\\frac{5}{6}$",
-          "$x = -\\frac{1}{2}$",
-          "$x = \\frac{5}{6}$"
+          "$4$",
+          "$-4$",
+          "$8$",
+          "$16$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3946,12 +4060,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = \\left(\\frac{2}{3}\\right)^5 : \\left(\\frac{2}{3}\\right)^3$ là:",
+        "question": "Tìm $x$, biết: $x - \\frac{4}{2} = \\frac12$:",
         "options": [
-          "$\\frac{4}{9}$",
-          "$\\frac{8}{27}$",
-          "$\\frac{2}{3}$",
-          "$1$"
+          "$x = \\frac{5}{2}$",
+          "$x = \\frac{3}{2}$",
+          "$x = 4$",
+          "$x = 1$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3959,11 +4073,11 @@ const EXAMS_7_C1_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "So sánh hai số hữu tỉ $x = -0,75$ và $y = -\\frac{3}{4}$:",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{4}{5}$ và $b = -\\frac{5}{5}$:",
         "options": [
-          "$x = y$",
-          "$x > y$",
-          "$x < y$",
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
           "Không so sánh được"
         ],
         "correct": 0,
@@ -3972,12 +4086,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính hợp lý: $M = \\frac{3}{7} \\cdot \\left(-\\frac{2}{5}\\right) + \\frac{3}{7} \\cdot \\left(-\\frac{3}{5}\\right)$:",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,4^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,4^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$-\\frac{3}{7}$",
-          "$\\frac{3}{7}$",
-          "$-1$",
-          "$0$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3985,12 +4099,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $\\left(x - \\frac{1}{2}\\right)^2 = \\frac{9}{16}$:",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $140$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "$x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$",
-          "$x = \\frac{5}{4}$",
-          "$x = -\\frac{1}{4}$",
-          "$x = \\frac{3}{4}$"
+          "224.0 nghìn đồng",
+          "280 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -3998,12 +4112,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một bể nước có dung tích 2000 lít. Giờ thứ nhất vòi chảy được $\\frac{2}{5}$ bể, giờ thứ hai vòi chảy được $\\frac{1}{4}$ bể. Lượng nước vòi đã chảy vào bể sau 2 giờ là:",
+        "question": "Một tàu ngầm đang ở độ sâu $50$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$1300$ lít",
-          "$1200$ lít",
-          "$800$ lít",
-          "$1500$ lít"
+          "$-45$ mét",
+          "$-50$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4011,12 +4125,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2025| + |x - 1|$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 4| + |x - 8|$ bằng:",
         "options": [
-          "$2024$",
-          "$0$",
-          "$2025$",
-          "$2026$"
+          "4",
+          "$4$",
+          "$8$",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4025,33 +4139,33 @@ const EXAMS_7_C1_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai của các khẳng định về số hữu tỉ (Mã đề 4):",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 04):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 là một số hữu tỉ.",
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên đều là số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mọi số nguyên đều là số hữu tỉ.",
+            "text": "Số thập phân hữu hạn 0,4 có thể biểu diễn dưới dạng phân số tối giản.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Lũy thừa bậc chẵn của một số hữu tỉ âm là một số âm.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu $x^2 = y^2$ thì chắc chắn $x = y$.",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4059,33 +4173,33 @@ const EXAMS_7_C1_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho biểu thức $P = \\left(-\\frac{2}{3}\\right)^3 \\cdot \\left(-\\frac{3}{4}\\right)^2$:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 04): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Lũy thừa $(-2/3)^3 = -8/27$.",
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Lũy thừa $(-3/4)^2 = 9/16$.",
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức $P$ bằng $-1/6$.",
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số nghịch đảo của biểu thức $P$ là $6$.",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4096,37 +4210,37 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: (-1/3)^2 + 5/9.",
-        "answer": "2/3",
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 16.",
+        "answer": "20",
         "acceptableAnswers": [
-          "2/3"
+          "20"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2/3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **20**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x + 3/4 = 1/2.",
-        "answer": "-1/4",
+        "question": "Tìm x biết: |x - 4| = 0.",
+        "answer": "4",
         "acceptableAnswers": [
-          "-1/4"
+          "4"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1/4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **4**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: (2x - 1)^3 = -27.",
-        "answer": "-1",
+        "question": "Một bình chứa 4.0 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "1.000",
         "acceptableAnswers": [
-          "-1"
+          "1.000"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.000**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = (x - 3)^2 + 7.",
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 19 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
         "answer": "7",
         "acceptableAnswers": [
           "7"
@@ -4138,37 +4252,37 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $A = \\frac{11}{24} - \\frac{5}{41} + \\frac{13}{24} + 0,5 - \\frac{36}{41}$.",
-        "rubric": "A = (11/24 + 13/24) - (5/41 + 36/41) + 0,5 = 1 - 1 + 0,5 = 0,5 (0.5đ)."
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{4}{7} \\cdot \\left(-\\frac59\\right) + \\frac{4}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 4/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (4/7) . (-1) = -4/7 (0.25đ).\nKết luận kết quả A = -4/7 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết: $2^{x+2} - 2^x = 96$.",
-        "rubric": "2^x . 2^2 - 2^x = 96 => 2^x(4 - 1) = 96 (0.25đ).\n=> 3 . 2^x = 96 => 2^x = 32 = 2^5 => x = 5 (0.25đ)."
+        "question": "Một người gửi tiết kiệm 90 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (90) . 6% = (90) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 5.40 triệu đồng (0.25đ).\nTổng số tiền nhận được: (90) + 5.40 = 95.40 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng $B = 3^{n+2} - 2^{n+2} + 3^n - 2^n$ chia hết cho 10 với mọi số nguyên dương $n$.",
-        "rubric": "B = (3^{n+2} + 3^n) - (2^{n+2} + 2^n) = 3^n(9 + 1) - 2^n(4 + 1) = 10 . 3^n - 5 . 2^n (0.25đ).\nVới n >= 1: 5 . 2^n = 5 . 2 . 2^{n-1} = 10 . 2^{n-1}.\nDo đó B = 10(3^n - 2^{n-1}) chia hết cho 10 với mọi n >= 1 (0.25đ)."
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 4| + |x - 10| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 4| + |10 - x| + 2026 >= |x - 4 + 10 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 4 <= x <= 10. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   },
   "c1_7_bai5_test5": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 5 (💡 Số hữu tỉ & Lũy thừa thực tế)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 05",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số hữu tỉ là số viết được dưới dạng:",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 05):",
         "options": [
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\neq 0$",
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{N}$",
-          "Số thập phân vô hạn không tuần hoàn",
-          "Chỉ gồm số nguyên"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4176,12 +4290,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số đối của số hữu tỉ $-\\frac{4}{7}$ là:",
+        "question": "Số đối của số hữu tỉ $-\\frac{5}{7}$ là:",
         "options": [
-          "$\\frac{4}{7}$",
-          "$-\\frac{7}{4}$",
-          "$\\frac{7}{4}$",
-          "$-\\frac{4}{7}$"
+          "$\\frac{5}{7}$",
+          "$-\\frac{7}{5}$",
+          "$\\frac{7}{5}$",
+          "$-5$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4189,12 +4303,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Kết quả của phép tính $\\left(-\\frac{1}{2}\\right)^3$ là:",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$-\\frac{1}{8}$",
-          "$\\frac{1}{8}$",
-          "$-\\frac{1}{6}$",
-          "$\\frac{1}{6}$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4202,12 +4316,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải:",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "Đổi dấu số hạng đó",
-          "Giữ nguyên dấu",
-          "Nhân số hạng đó với $-1$",
-          "Đổi số hạng đó thành số nghịch đảo"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4215,12 +4329,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Kết quả của phép tính $\\frac{-3}{5} + \\frac{2}{3}$ là:",
+        "question": "Kết quả của phép tính $\\frac{5}{4} + \\frac{10}{4}$ là:",
         "options": [
-          "$\\frac{1}{15}$",
-          "$-\\frac{1}{15}$",
-          "$-\\frac{5}{8}$",
-          "$\\frac{19}{15}$"
+          "$\\frac{15}{4}$",
+          "$\\frac{50}{4}$",
+          "$\\frac{15}{8}$",
+          "$5$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4228,12 +4342,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x - \\frac{2}{3} = -\\frac{1}{6}$:",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 20$ bằng:",
         "options": [
-          "$x = \\frac{1}{2}$",
-          "$x = -\\frac{5}{6}$",
-          "$x = -\\frac{1}{2}$",
-          "$x = \\frac{5}{6}$"
+          "$5$",
+          "$-5$",
+          "$10$",
+          "$20$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4241,12 +4355,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = \\left(\\frac{2}{3}\\right)^5 : \\left(\\frac{2}{3}\\right)^3$ là:",
+        "question": "Tìm $x$, biết: $x - \\frac{5}{2} = \\frac12$:",
         "options": [
-          "$\\frac{4}{9}$",
-          "$\\frac{8}{27}$",
-          "$\\frac{2}{3}$",
-          "$1$"
+          "$x = \\frac{6}{2}$",
+          "$x = \\frac{4}{2}$",
+          "$x = 5$",
+          "$x = 1$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4254,11 +4368,11 @@ const EXAMS_7_C1_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "So sánh hai số hữu tỉ $x = -0,75$ và $y = -\\frac{3}{4}$:",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{5}{5}$ và $b = -\\frac{6}{5}$:",
         "options": [
-          "$x = y$",
-          "$x > y$",
-          "$x < y$",
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
           "Không so sánh được"
         ],
         "correct": 0,
@@ -4267,12 +4381,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính hợp lý: $M = \\frac{3}{7} \\cdot \\left(-\\frac{2}{5}\\right) + \\frac{3}{7} \\cdot \\left(-\\frac{3}{5}\\right)$:",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,5^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,5^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$-\\frac{3}{7}$",
-          "$\\frac{3}{7}$",
-          "$-1$",
-          "$0$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4280,12 +4394,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $\\left(x - \\frac{1}{2}\\right)^2 = \\frac{9}{16}$:",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $150$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "$x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$",
-          "$x = \\frac{5}{4}$",
-          "$x = -\\frac{1}{4}$",
-          "$x = \\frac{3}{4}$"
+          "240.0 nghìn đồng",
+          "300 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4293,12 +4407,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một bể nước có dung tích 2000 lít. Giờ thứ nhất vòi chảy được $\\frac{2}{5}$ bể, giờ thứ hai vòi chảy được $\\frac{1}{4}$ bể. Lượng nước vòi đã chảy vào bể sau 2 giờ là:",
+        "question": "Một tàu ngầm đang ở độ sâu $55$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$1300$ lít",
-          "$1200$ lít",
-          "$800$ lít",
-          "$1500$ lít"
+          "$-50$ mét",
+          "$-55$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4306,12 +4420,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2025| + |x - 1|$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 5| + |x - 9|$ bằng:",
         "options": [
-          "$2024$",
-          "$0$",
-          "$2025$",
-          "$2026$"
+          "4",
+          "$5$",
+          "$10$",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4320,33 +4434,33 @@ const EXAMS_7_C1_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai của các khẳng định về số hữu tỉ (Mã đề 5):",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 05):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 là một số hữu tỉ.",
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên đều là số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mọi số nguyên đều là số hữu tỉ.",
+            "text": "Số thập phân hữu hạn 0,5 có thể biểu diễn dưới dạng phân số tối giản.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Lũy thừa bậc chẵn của một số hữu tỉ âm là một số âm.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu $x^2 = y^2$ thì chắc chắn $x = y$.",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4354,33 +4468,33 @@ const EXAMS_7_C1_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho biểu thức $P = \\left(-\\frac{2}{3}\\right)^3 \\cdot \\left(-\\frac{3}{4}\\right)^2$:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 05): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Lũy thừa $(-2/3)^3 = -8/27$.",
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Lũy thừa $(-3/4)^2 = 9/16$.",
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức $P$ bằng $-1/6$.",
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số nghịch đảo của biểu thức $P$ là $6$.",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4391,79 +4505,79 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: (-1/3)^2 + 5/9.",
-        "answer": "2/3",
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 20.",
+        "answer": "25",
         "acceptableAnswers": [
-          "2/3"
+          "25"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2/3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **25**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x + 3/4 = 1/2.",
-        "answer": "-1/4",
+        "question": "Tìm x biết: |x - 5| = 0.",
+        "answer": "5",
         "acceptableAnswers": [
-          "-1/4"
+          "5"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1/4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **5**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: (2x - 1)^3 = -27.",
-        "answer": "-1",
+        "question": "Một bình chứa 4.5 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "1.125",
         "acceptableAnswers": [
-          "-1"
+          "1.125"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.125**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = (x - 3)^2 + 7.",
-        "answer": "7",
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 20 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
+        "answer": "8",
         "acceptableAnswers": [
-          "7"
+          "8"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $A = \\frac{11}{24} - \\frac{5}{41} + \\frac{13}{24} + 0,5 - \\frac{36}{41}$.",
-        "rubric": "A = (11/24 + 13/24) - (5/41 + 36/41) + 0,5 = 1 - 1 + 0,5 = 0,5 (0.5đ)."
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{5}{7} \\cdot \\left(-\\frac59\\right) + \\frac{5}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 5/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (5/7) . (-1) = -5/7 (0.25đ).\nKết luận kết quả A = -5/7 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết: $2^{x+2} - 2^x = 96$.",
-        "rubric": "2^x . 2^2 - 2^x = 96 => 2^x(4 - 1) = 96 (0.25đ).\n=> 3 . 2^x = 96 => 2^x = 32 = 2^5 => x = 5 (0.25đ)."
+        "question": "Một người gửi tiết kiệm 100 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (100) . 6% = (100) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 6.00 triệu đồng (0.25đ).\nTổng số tiền nhận được: (100) + 6.00 = 106.00 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng $B = 3^{n+2} - 2^{n+2} + 3^n - 2^n$ chia hết cho 10 với mọi số nguyên dương $n$.",
-        "rubric": "B = (3^{n+2} + 3^n) - (2^{n+2} + 2^n) = 3^n(9 + 1) - 2^n(4 + 1) = 10 . 3^n - 5 . 2^n (0.25đ).\nVới n >= 1: 5 . 2^n = 5 . 2 . 2^{n-1} = 10 . 2^{n-1}.\nDo đó B = 10(3^n - 2^{n-1}) chia hết cho 10 với mọi n >= 1 (0.25đ)."
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 5| + |x - 11| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 5| + |11 - x| + 2026 >= |x - 5 + 11 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 5 <= x <= 11. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   },
   "c1_7_bai5_test6": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 6 (🚀 Phân hóa Nâng cao)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 06",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số hữu tỉ là số viết được dưới dạng:",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 06):",
         "options": [
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\neq 0$",
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{N}$",
-          "Số thập phân vô hạn không tuần hoàn",
-          "Chỉ gồm số nguyên"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4471,12 +4585,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số đối của số hữu tỉ $-\\frac{4}{7}$ là:",
+        "question": "Số đối của số hữu tỉ $-\\frac{6}{8}$ là:",
         "options": [
-          "$\\frac{4}{7}$",
-          "$-\\frac{7}{4}$",
-          "$\\frac{7}{4}$",
-          "$-\\frac{4}{7}$"
+          "$\\frac{6}{8}$",
+          "$-\\frac{8}{6}$",
+          "$\\frac{8}{6}$",
+          "$-6$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4484,12 +4598,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Kết quả của phép tính $\\left(-\\frac{1}{2}\\right)^3$ là:",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$-\\frac{1}{8}$",
-          "$\\frac{1}{8}$",
-          "$-\\frac{1}{6}$",
-          "$\\frac{1}{6}$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4497,12 +4611,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải:",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "Đổi dấu số hạng đó",
-          "Giữ nguyên dấu",
-          "Nhân số hạng đó với $-1$",
-          "Đổi số hạng đó thành số nghịch đảo"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4510,12 +4624,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Kết quả của phép tính $\\frac{-3}{5} + \\frac{2}{3}$ là:",
+        "question": "Kết quả của phép tính $\\frac{6}{4} + \\frac{12}{4}$ là:",
         "options": [
-          "$\\frac{1}{15}$",
-          "$-\\frac{1}{15}$",
-          "$-\\frac{5}{8}$",
-          "$\\frac{19}{15}$"
+          "$\\frac{18}{4}$",
+          "$\\frac{72}{4}$",
+          "$\\frac{18}{8}$",
+          "$6$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4523,12 +4637,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x - \\frac{2}{3} = -\\frac{1}{6}$:",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 24$ bằng:",
         "options": [
-          "$x = \\frac{1}{2}$",
-          "$x = -\\frac{5}{6}$",
-          "$x = -\\frac{1}{2}$",
-          "$x = \\frac{5}{6}$"
+          "$6$",
+          "$-6$",
+          "$12$",
+          "$24$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4536,12 +4650,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = \\left(\\frac{2}{3}\\right)^5 : \\left(\\frac{2}{3}\\right)^3$ là:",
+        "question": "Tìm $x$, biết: $x - \\frac{6}{2} = \\frac12$:",
         "options": [
-          "$\\frac{4}{9}$",
-          "$\\frac{8}{27}$",
-          "$\\frac{2}{3}$",
-          "$1$"
+          "$x = \\frac{7}{2}$",
+          "$x = \\frac{5}{2}$",
+          "$x = 6$",
+          "$x = 1$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4549,11 +4663,11 @@ const EXAMS_7_C1_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "So sánh hai số hữu tỉ $x = -0,75$ và $y = -\\frac{3}{4}$:",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{6}{5}$ và $b = -\\frac{7}{5}$:",
         "options": [
-          "$x = y$",
-          "$x > y$",
-          "$x < y$",
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
           "Không so sánh được"
         ],
         "correct": 0,
@@ -4562,12 +4676,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính hợp lý: $M = \\frac{3}{7} \\cdot \\left(-\\frac{2}{5}\\right) + \\frac{3}{7} \\cdot \\left(-\\frac{3}{5}\\right)$:",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,6^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,6^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$-\\frac{3}{7}$",
-          "$\\frac{3}{7}$",
-          "$-1$",
-          "$0$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4575,12 +4689,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $\\left(x - \\frac{1}{2}\\right)^2 = \\frac{9}{16}$:",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $160$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "$x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$",
-          "$x = \\frac{5}{4}$",
-          "$x = -\\frac{1}{4}$",
-          "$x = \\frac{3}{4}$"
+          "256.0 nghìn đồng",
+          "320 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4588,12 +4702,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một bể nước có dung tích 2000 lít. Giờ thứ nhất vòi chảy được $\\frac{2}{5}$ bể, giờ thứ hai vòi chảy được $\\frac{1}{4}$ bể. Lượng nước vòi đã chảy vào bể sau 2 giờ là:",
+        "question": "Một tàu ngầm đang ở độ sâu $60$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$1300$ lít",
-          "$1200$ lít",
-          "$800$ lít",
-          "$1500$ lít"
+          "$-55$ mét",
+          "$-60$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4601,12 +4715,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2025| + |x - 1|$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 6| + |x - 10|$ bằng:",
         "options": [
-          "$2024$",
-          "$0$",
-          "$2025$",
-          "$2026$"
+          "4",
+          "$6$",
+          "$12$",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4615,33 +4729,33 @@ const EXAMS_7_C1_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai của các khẳng định về số hữu tỉ (Mã đề 6):",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 06):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 là một số hữu tỉ.",
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên đều là số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mọi số nguyên đều là số hữu tỉ.",
+            "text": "Số thập phân hữu hạn 0,6 có thể biểu diễn dưới dạng phân số tối giản.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Lũy thừa bậc chẵn của một số hữu tỉ âm là một số âm.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu $x^2 = y^2$ thì chắc chắn $x = y$.",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4649,33 +4763,33 @@ const EXAMS_7_C1_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho biểu thức $P = \\left(-\\frac{2}{3}\\right)^3 \\cdot \\left(-\\frac{3}{4}\\right)^2$:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 06): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Lũy thừa $(-2/3)^3 = -8/27$.",
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Lũy thừa $(-3/4)^2 = 9/16$.",
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức $P$ bằng $-1/6$.",
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số nghịch đảo của biểu thức $P$ là $6$.",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4686,79 +4800,79 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: (-1/3)^2 + 5/9.",
-        "answer": "2/3",
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 24.",
+        "answer": "30",
         "acceptableAnswers": [
-          "2/3"
+          "30"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2/3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **30**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x + 3/4 = 1/2.",
-        "answer": "-1/4",
+        "question": "Tìm x biết: |x - 6| = 0.",
+        "answer": "6",
         "acceptableAnswers": [
-          "-1/4"
+          "6"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1/4**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **6**."
       },
       {
         "id": 3,
         "level": "Vận dụng",
-        "question": "Tìm x biết: (2x - 1)^3 = -27.",
-        "answer": "-1",
+        "question": "Một bình chứa 5.0 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "1.250",
         "acceptableAnswers": [
-          "-1"
+          "1.250"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.250**."
       },
       {
         "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = (x - 3)^2 + 7.",
-        "answer": "7",
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 21 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
+        "answer": "8",
         "acceptableAnswers": [
-          "7"
+          "8"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $A = \\frac{11}{24} - \\frac{5}{41} + \\frac{13}{24} + 0,5 - \\frac{36}{41}$.",
-        "rubric": "A = (11/24 + 13/24) - (5/41 + 36/41) + 0,5 = 1 - 1 + 0,5 = 0,5 (0.5đ)."
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{6}{7} \\cdot \\left(-\\frac59\\right) + \\frac{6}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 6/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (6/7) . (-1) = -6/7 (0.25đ).\nKết luận kết quả A = -6/7 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết: $2^{x+2} - 2^x = 96$.",
-        "rubric": "2^x . 2^2 - 2^x = 96 => 2^x(4 - 1) = 96 (0.25đ).\n=> 3 . 2^x = 96 => 2^x = 32 = 2^5 => x = 5 (0.25đ)."
+        "question": "Một người gửi tiết kiệm 110 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (110) . 6% = (110) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 6.60 triệu đồng (0.25đ).\nTổng số tiền nhận được: (110) + 6.60 = 116.60 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng $B = 3^{n+2} - 2^{n+2} + 3^n - 2^n$ chia hết cho 10 với mọi số nguyên dương $n$.",
-        "rubric": "B = (3^{n+2} + 3^n) - (2^{n+2} + 2^n) = 3^n(9 + 1) - 2^n(4 + 1) = 10 . 3^n - 5 . 2^n (0.25đ).\nVới n >= 1: 5 . 2^n = 5 . 2 . 2^{n-1} = 10 . 2^{n-1}.\nDo đó B = 10(3^n - 2^{n-1}) chia hết cho 10 với mọi n >= 1 (0.25đ)."
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 6| + |x - 12| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 6| + |12 - x| + 2026 >= |x - 6 + 12 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 6 <= x <= 12. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   },
   "c1_7_bai5_test7": {
-    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Bài kiểm tra số 7 (🏆 Chinh phục điểm 10)",
+    "title": "Toán 7 (KNTT) - Bài kiểm tra cuối Chương I: Số hữu tỉ - Đề số 07",
     "duration": "90 phút",
     "totalScore": 10.0,
     "part1": [
       {
         "id": 1,
         "level": "Nhận biết",
-        "question": "Số hữu tỉ là số viết được dưới dạng:",
+        "question": "Số hữu tỉ là số viết được dưới dạng phân số $\\frac{a}{b}$ với (Đề 07):",
         "options": [
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{Z}, b \\neq 0$",
-          "$\\frac{a}{b}$ với $a, b \\in \\mathbb{N}$",
-          "Số thập phân vô hạn không tuần hoàn",
-          "Chỉ gồm số nguyên"
+          "$a, b \\in \\mathbb{Z}, b \\neq 0$",
+          "$a, b \\in \\mathbb{N}$",
+          "$a \\in \\mathbb{Z}, b = 0$",
+          "$a, b \\in \\mathbb{Q}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4766,12 +4880,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 2,
         "level": "Nhận biết",
-        "question": "Số đối của số hữu tỉ $-\\frac{4}{7}$ là:",
+        "question": "Số đối của số hữu tỉ $-\\frac{7}{9}$ là:",
         "options": [
-          "$\\frac{4}{7}$",
-          "$-\\frac{7}{4}$",
-          "$\\frac{7}{4}$",
-          "$-\\frac{4}{7}$"
+          "$\\frac{7}{9}$",
+          "$-\\frac{9}{7}$",
+          "$\\frac{9}{7}$",
+          "$-7$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4779,12 +4893,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 3,
         "level": "Nhận biết",
-        "question": "Kết quả của phép tính $\\left(-\\frac{1}{2}\\right)^3$ là:",
+        "question": "Tập hợp các số hữu tỉ được kí hiệu là:",
         "options": [
-          "$-\\frac{1}{8}$",
-          "$\\frac{1}{8}$",
-          "$-\\frac{1}{6}$",
-          "$\\frac{1}{6}$"
+          "$\\mathbb{Q}$",
+          "$\\mathbb{Z}$",
+          "$\\mathbb{N}$",
+          "$\\mathbb{R}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4792,12 +4906,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 4,
         "level": "Nhận biết",
-        "question": "Quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải:",
+        "question": "Khẳng định nào sau đây là ĐÚNG về luỹ thừa với số mũ tự nhiên?",
         "options": [
-          "Đổi dấu số hạng đó",
-          "Giữ nguyên dấu",
-          "Nhân số hạng đó với $-1$",
-          "Đổi số hạng đó thành số nghịch đảo"
+          "$x^m \\cdot x^n = x^{m+n}$",
+          "$x^m \\cdot x^n = x^{m \\cdot n}$",
+          "$(x^m)^n = x^{m+n}$",
+          "$x^m : x^n = x^{m:n}$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4805,12 +4919,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 5,
         "level": "Thông hiểu",
-        "question": "Kết quả của phép tính $\\frac{-3}{5} + \\frac{2}{3}$ là:",
+        "question": "Kết quả của phép tính $\\frac{7}{4} + \\frac{14}{4}$ là:",
         "options": [
-          "$\\frac{1}{15}$",
-          "$-\\frac{1}{15}$",
-          "$-\\frac{5}{8}$",
-          "$\\frac{19}{15}$"
+          "$\\frac{21}{4}$",
+          "$\\frac{98}{4}$",
+          "$\\frac{21}{8}$",
+          "$7$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4818,12 +4932,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 6,
         "level": "Thông hiểu",
-        "question": "Tìm $x$, biết $x - \\frac{2}{3} = -\\frac{1}{6}$:",
+        "question": "Giá trị của $(-0,5)^2 \\cdot 28$ bằng:",
         "options": [
-          "$x = \\frac{1}{2}$",
-          "$x = -\\frac{5}{6}$",
-          "$x = -\\frac{1}{2}$",
-          "$x = \\frac{5}{6}$"
+          "$7$",
+          "$-7$",
+          "$14$",
+          "$28$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4831,12 +4945,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 7,
         "level": "Thông hiểu",
-        "question": "Giá trị của biểu thức $A = \\left(\\frac{2}{3}\\right)^5 : \\left(\\frac{2}{3}\\right)^3$ là:",
+        "question": "Tìm $x$, biết: $x - \\frac{7}{2} = \\frac12$:",
         "options": [
-          "$\\frac{4}{9}$",
-          "$\\frac{8}{27}$",
-          "$\\frac{2}{3}$",
-          "$1$"
+          "$x = \\frac{8}{2}$",
+          "$x = \\frac{6}{2}$",
+          "$x = 7$",
+          "$x = 1$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4844,11 +4958,11 @@ const EXAMS_7_C1_7 = {
       {
         "id": 8,
         "level": "Thông hiểu",
-        "question": "So sánh hai số hữu tỉ $x = -0,75$ và $y = -\\frac{3}{4}$:",
+        "question": "So sánh hai số hữu tỉ $a = -\\frac{7}{5}$ và $b = -\\frac{8}{5}$:",
         "options": [
-          "$x = y$",
-          "$x > y$",
-          "$x < y$",
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
           "Không so sánh được"
         ],
         "correct": 0,
@@ -4857,12 +4971,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 9,
         "level": "Vận dụng",
-        "question": "Tính hợp lý: $M = \\frac{3}{7} \\cdot \\left(-\\frac{2}{5}\\right) + \\frac{3}{7} \\cdot \\left(-\\frac{3}{5}\\right)$:",
+        "question": "Nhiệt độ đo được ở thị xã Sa Pa lúc 6 giờ sáng là $-1,7^\\circ^\\circ C$, đến 12 giờ trưa nhiệt độ tăng thêm $5,7^\\circ^\\circ C$. Nhiệt độ lúc 12 giờ trưa là:",
         "options": [
-          "$-\\frac{3}{7}$",
-          "$\\frac{3}{7}$",
-          "$-1$",
-          "$0$"
+          "$4^\\circ^\\circ C$",
+          "$6^\\circ^\\circ C$",
+          "$3^\\circ^\\circ C$",
+          "$5^\\circ^\\circ C$"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4870,12 +4984,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 10,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết $\\left(x - \\frac{1}{2}\\right)^2 = \\frac{9}{16}$:",
+        "question": "Một cửa hàng tạp hóa giảm giá $20\\%$ cho một hộp bánh có giá niêm yết là $170$ nghìn đồng. Bác Lan mua 2 hộp bánh đó thì phải trả số tiền là:",
         "options": [
-          "$x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$",
-          "$x = \\frac{5}{4}$",
-          "$x = -\\frac{1}{4}$",
-          "$x = \\frac{3}{4}$"
+          "272.0 nghìn đồng",
+          "340 nghìn đồng",
+          "150 nghìn đồng",
+          "180 nghìn đồng"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4883,12 +4997,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 11,
         "level": "Vận dụng",
-        "question": "Một bể nước có dung tích 2000 lít. Giờ thứ nhất vòi chảy được $\\frac{2}{5}$ bể, giờ thứ hai vòi chảy được $\\frac{1}{4}$ bể. Lượng nước vòi đã chảy vào bể sau 2 giờ là:",
+        "question": "Một tàu ngầm đang ở độ sâu $65$ mét dưới mực nước biển (được biểu thị bởi số âm). Tàu lặn sâu thêm $15$ mét nữa rồi lại nổi lên $20$ mét. Vị trí mới của tàu ngầm biểu thị bởi số:",
         "options": [
-          "$1300$ lít",
-          "$1200$ lít",
-          "$800$ lít",
-          "$1500$ lít"
+          "$-60$ mét",
+          "$-65$ mét",
+          "-50 mét",
+          "-40 mét"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4896,12 +5010,12 @@ const EXAMS_7_C1_7 = {
       {
         "id": 12,
         "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức $A = |x - 2025| + |x - 1|$:",
+        "question": "Giá trị nhỏ nhất của biểu thức $A = |x - 7| + |x - 11|$ bằng:",
         "options": [
-          "$2024$",
-          "$0$",
-          "$2025$",
-          "$2026$"
+          "4",
+          "$7$",
+          "$14$",
+          "0"
         ],
         "correct": 0,
         "explanation": "Phương án đúng là **A**. Căn cứ vào định nghĩa và tính chất của bài học."
@@ -4910,33 +5024,33 @@ const EXAMS_7_C1_7 = {
     "part2": [
       {
         "id": 1,
-        "stem": "Xét tính đúng sai của các khẳng định về số hữu tỉ (Mã đề 7):",
+        "stem": "Xét tính đúng sai về số hữu tỉ và các phép toán (Đề 07):",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Số 0 là một số hữu tỉ.",
+            "level": "Nhận biết",
+            "text": "Mọi số nguyên đều là số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Mọi số nguyên đều là số hữu tỉ.",
+            "text": "Số thập phân hữu hạn 0,7 có thể biểu diễn dưới dạng phân số tối giản.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Lũy thừa bậc chẵn của một số hữu tỉ âm là một số âm.",
-            "correct": false,
-            "explanation": "Ý C là **Sai** theo quy tắc và tính chất bài học."
+            "text": "Khoảng cách từ điểm x trên trục số đến gốc O là giá trị tuyệt đối của x.",
+            "correct": true,
+            "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Nếu $x^2 = y^2$ thì chắc chắn $x = y$.",
+            "text": "Tích của hai số hữu tỉ âm luôn là một số âm.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4944,33 +5058,33 @@ const EXAMS_7_C1_7 = {
       },
       {
         "id": 2,
-        "stem": "Cho biểu thức $P = \\left(-\\frac{2}{3}\\right)^3 \\cdot \\left(-\\frac{3}{4}\\right)^2$:",
+        "stem": "Bài toán kinh doanh gia đình (Mã đề 07): Bác Nam mở một cửa hàng bán hoa quả. Tháng đầu tiên lãi 12 triệu đồng, tháng thứ hai lỗ 3,5 triệu đồng, tháng thứ ba lãi 8,5 triệu đồng.",
         "statements": [
           {
             "key": "a",
-            "level": "Thông hiểu",
-            "text": "Lũy thừa $(-2/3)^3 = -8/27$.",
+            "level": "Nhận biết",
+            "text": "Số tiền lãi hoặc lỗ mỗi tháng được biểu diễn bằng các số hữu tỉ.",
             "correct": true,
             "explanation": "Ý A là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "b",
             "level": "Thông hiểu",
-            "text": "Lũy thừa $(-3/4)^2 = 9/16$.",
+            "text": "Số tiền lỗ tháng thứ hai được biểu diễn bởi số âm -3,5 triệu đồng.",
             "correct": true,
             "explanation": "Ý B là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "c",
             "level": "Thông hiểu",
-            "text": "Giá trị của biểu thức $P$ bằng $-1/6$.",
+            "text": "Tổng lợi nhuận của bác Nam sau 3 tháng là 12 + (-3,5) + 8,5 = 17 triệu đồng.",
             "correct": true,
             "explanation": "Ý C là **Đúng** theo quy tắc và tính chất bài học."
           },
           {
             "key": "d",
             "level": "Vận dụng",
-            "text": "Số nghịch đảo của biểu thức $P$ là $6$.",
+            "text": "Lợi nhuận trung bình mỗi tháng của bác Nam lớn hơn 6 triệu đồng.",
             "correct": false,
             "explanation": "Ý D là **Sai** theo quy tắc và tính chất bài học."
           }
@@ -4981,62 +5095,62 @@ const EXAMS_7_C1_7 = {
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Tính giá trị biểu thức: (-1/3)^2 + 5/9.",
-        "answer": "2/3",
+        "question": "Tính giá trị của phép tính: (1/2 + 3/4) * 28.",
+        "answer": "35",
         "acceptableAnswers": [
-          "2/3"
+          "35"
         ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **2/3**."
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **35**."
       },
       {
         "id": 2,
         "level": "Thông hiểu",
-        "question": "Tìm x biết: x + 3/4 = 1/2.",
-        "answer": "-1/4",
-        "acceptableAnswers": [
-          "-1/4"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1/4**."
-      },
-      {
-        "id": 3,
-        "level": "Vận dụng",
-        "question": "Tìm x biết: (2x - 1)^3 = -27.",
-        "answer": "-1",
-        "acceptableAnswers": [
-          "-1"
-        ],
-        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **-1**."
-      },
-      {
-        "id": 4,
-        "level": "Vận dụng cao",
-        "question": "Tìm giá trị nhỏ nhất của biểu thức: P = (x - 3)^2 + 7.",
+        "question": "Tìm x biết: |x - 7| = 0.",
         "answer": "7",
         "acceptableAnswers": [
           "7"
         ],
         "explanation": "Các bước giải chi tiết dẫn đến kết quả: **7**."
+      },
+      {
+        "id": 3,
+        "level": "Vận dụng",
+        "question": "Một bình chứa 5.5 lít nước cam. Mẹ rót đều vào 4 cốc. Hỏi mỗi cốc chứa bao nhiêu lít nước cam?",
+        "answer": "1.375",
+        "acceptableAnswers": [
+          "1.375"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **1.375**."
+      },
+      {
+        "id": 4,
+        "level": "Vận dụng",
+        "question": "Bác thợ may dùng một tấm vải dài 22 mét để may các bộ quần áo đồng phục. Mỗi bộ hết 2,5 mét vải. Hỏi bác may được tối đa bao nhiêu bộ quần áo hoàn chỉnh?",
+        "answer": "8",
+        "acceptableAnswers": [
+          "8"
+        ],
+        "explanation": "Các bước giải chi tiết dẫn đến kết quả: **8**."
       }
     ],
     "part4": [
       {
         "id": 1,
         "level": "Thông hiểu",
-        "question": "Thực hiện phép tính hợp lý: $A = \\frac{11}{24} - \\frac{5}{41} + \\frac{13}{24} + 0,5 - \\frac{36}{41}$.",
-        "rubric": "A = (11/24 + 13/24) - (5/41 + 36/41) + 0,5 = 1 - 1 + 0,5 = 0,5 (0.5đ)."
+        "question": "Thực hiện phép tính một cách hợp lí: $A = \\frac{7}{7} \\cdot \\left(-\\frac59\\right) + \\frac{7}{7} \\cdot \\left(-\\frac49\\right)$.",
+        "rubric": "Đặt thừa số chung 7/7 ra ngoài ngoặc (0.25đ).\nTrong ngoặc: (-5/9) + (-4/9) = -9/9 = -1 (0.25đ).\nTính tích: A = (7/7) . (-1) = -7/7 (0.25đ).\nKết luận kết quả A = -7/7 (0.25đ)."
       },
       {
         "id": 2,
         "level": "Vận dụng",
-        "question": "Tìm $x$, biết: $2^{x+2} - 2^x = 96$.",
-        "rubric": "2^x . 2^2 - 2^x = 96 => 2^x(4 - 1) = 96 (0.25đ).\n=> 3 . 2^x = 96 => 2^x = 32 = 2^5 => x = 5 (0.25đ)."
+        "question": "Một người gửi tiết kiệm 120 triệu đồng vào ngân hàng với lãi suất $6\\%$ một năm. Hỏi sau một năm người đó nhận được tổng cộng cả tiền gốc và tiền lãi là bao nhiêu triệu đồng?",
+        "rubric": "Tiền lãi sau một năm: (120) . 6% = (120) . 0,06 (triệu đồng) (0.25đ).\nTính tiền lãi cụ thể: 7.20 triệu đồng (0.25đ).\nTổng số tiền nhận được: (120) + 7.20 = 127.20 (triệu đồng) (0.25đ).\nKết luận số tiền cả gốc lẫn lãi sau 1 năm (0.25đ)."
       },
       {
         "id": 3,
         "level": "Vận dụng cao",
-        "question": "Chứng minh rằng $B = 3^{n+2} - 2^{n+2} + 3^n - 2^n$ chia hết cho 10 với mọi số nguyên dương $n$.",
-        "rubric": "B = (3^{n+2} + 3^n) - (2^{n+2} + 2^n) = 3^n(9 + 1) - 2^n(4 + 1) = 10 . 3^n - 5 . 2^n (0.25đ).\nVới n >= 1: 5 . 2^n = 5 . 2 . 2^{n-1} = 10 . 2^{n-1}.\nDo đó B = 10(3^n - 2^{n-1}) chia hết cho 10 với mọi n >= 1 (0.25đ)."
+        "question": "Tìm giá trị nhỏ nhất của biểu thức: $M = |x - 7| + |x - 13| + 2026$.",
+        "rubric": "Áp dụng bất đẳng thức |a| + |b| >= |a + b| (0.25đ).\nBiến đổi M = |x - 7| + |13 - x| + 2026 >= |x - 7 + 13 - x| + 2026 (0.25đ).\nM >= 6 + 2026 = 2032 (0.25đ).\nDấu '=' xảy ra khi 7 <= x <= 13. Kết luận GTNN của M là 2032 (0.25đ)."
       }
     ]
   }
