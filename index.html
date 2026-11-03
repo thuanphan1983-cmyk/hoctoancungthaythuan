@@ -5692,7 +5692,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           .find((c) => c.id === selectedChapter)
                           ?.lessons.map((les) => (
                             <option key={les} value={les}>
-                              {les.toLowerCase().includes("cuối chương") ? `⭐ [Đề tổng hợp] ${les}` : les}
+                              {les.toLowerCase().includes("cuối chương") ? `⭐ ${les}` : les}
                             </option>
                           ))}
                       </select>
