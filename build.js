@@ -92,7 +92,8 @@ const examFiles = [
   'chapter3_ontap_toan8.js',
   'grade10EntranceExams.js',
   'grade10TopicsData.js',
-  'periodicExamsData.js'
+  'periodicExamsData.js',
+  'khtnExamsData.js'
 ];
 
 examFiles.forEach(fileName => {
