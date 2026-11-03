@@ -368,9 +368,9 @@ khtn_view_jsx = """
                               return (
                                 <div key={q.id} className="space-y-1.5 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
                                     <span>{q.question}</span>
-                                    <span className="text-[9.5pt] italic text-slate-500 print:hidden ml-1.5 font-normal">({q.level})</span>
+                                    
                                   </div>
 
                                   <div className={`grid gap-1.5 ${gridCols}`}>
@@ -430,7 +430,7 @@ khtn_view_jsx = """
                               return (
                                 <div key={q.id} className="space-y-2 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
                                     <span>{q.question}</span>
                                   </div>
 
@@ -527,7 +527,7 @@ khtn_view_jsx = """
                               return (
                                 <div key={q.id} className="p-2.5 rounded-xl border border-slate-200 print:border-transparent space-y-2 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
                                     <span>{q.question}</span>
                                   </div>
 
@@ -578,9 +578,9 @@ khtn_view_jsx = """
                               return (
                                 <div key={q.id} className="space-y-1.5 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
                                     <span>{q.question}</span>
-                                    <span className="text-[9.5pt] italic text-amber-600 print:hidden ml-1.5 font-bold">[Vận dụng cao]</span>
+                                    
                                   </div>
 
                                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">

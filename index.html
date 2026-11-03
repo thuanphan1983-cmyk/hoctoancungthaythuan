@@ -9137,9 +9137,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               return (
                                 <div key={q.id} className="space-y-1.5 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
-                                    <span>{q.question}</span>
-                                    <span className="text-[9.5pt] italic text-slate-500 print:hidden ml-1.5 font-normal">({q.level})</span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
+                                    <span>{(q.question || "").replace(/^(?:Đề\s*(?:tổng\s*hợp\s*)?\d+\s*[-–—:]\s*)/i, "")}</span>
                                   </div>
 
                                   <div className={`grid gap-1.5 ${gridCols}`}>
@@ -9199,8 +9198,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               return (
                                 <div key={q.id} className="space-y-2 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
-                                    <span>{q.question}</span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
+                                    <span>{(q.question || "").replace(/^(?:Đề\s*(?:tổng\s*hợp\s*)?\d+\s*[-–—:]\s*)/i, "")}</span>
                                   </div>
 
                                   <div className="border border-slate-300 print:border-black rounded-lg overflow-hidden text-xs">
@@ -9296,8 +9295,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               return (
                                 <div key={q.id} className="p-2.5 rounded-xl border border-slate-200 print:border-transparent space-y-2 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
-                                    <span>{q.question}</span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
+                                    <span>{(q.question || "").replace(/^(?:Đề\s*(?:tổng\s*hợp\s*)?\d+\s*[-–—:]\s*)/i, "")}</span>
                                   </div>
 
                                   {isTakingKhtnOnline && !khtnSubmitted ? (
@@ -9347,9 +9346,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               return (
                                 <div key={q.id} className="space-y-1.5 break-inside-avoid">
                                   <div className="font-semibold text-slate-900 print:text-black">
-                                    <span className="font-bold">**Câu {idx + 1}:** </span>
-                                    <span>{q.question}</span>
-                                    <span className="text-[9.5pt] italic text-amber-600 print:hidden ml-1.5 font-bold">[Vận dụng cao]</span>
+                                    <span className="font-bold">Câu {idx + 1}: </span>
+                                    <span>{(q.question || "").replace(/^(?:Đề\s*(?:tổng\s*hợp\s*)?\d+\s*[-–—:]\s*)/i, "")}</span>
                                   </div>
 
                                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
