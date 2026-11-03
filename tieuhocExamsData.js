@@ -1,5 +1,5 @@
 // DỮ LIỆU ĐỀ THI TOÁN TIỂU HỌC (LỚP 4 & LỚP 5 - KNTT)
-// Cập nhật lúc: 2026-11-03 20:29:05
+// Cập nhật lúc: 2026-11-03 22:27:27
 // Bao gồm: Đề kiểm tra theo bài SGK & Đề kiểm tra định kỳ (GK1, CK1, GK2, CK2)
 
 window.TIEUHOC_CURRICULUM = {

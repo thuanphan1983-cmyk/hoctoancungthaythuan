@@ -3640,9 +3640,264 @@ if (typeof window !== "undefined") {
         }, 150);
       };
 
+      // ==============================================================
+      // THUẬT TOÁN CHẤM TỰ LUẬN THÔNG MINH CHO TIỂU HỌC (CHUẨN BỘ GD&ĐT)
+      // Cho phép học sinh làm tắt / tính gộp bước vẫn cho điểm tối đa
+      // ==============================================================
+      const cleanTieuhocText = (s) => {
+        if (!s) return "";
+        return String(s)
+          .replace(/\$/g, "")
+          .replace(/\\text\{([^}]+)\}/g, "$1")
+          .replace(/\\frac\{(\d+)\}\{(\d+)\}/g, "$1/$2")
+          .replace(/(\d)\s+(\d{3})(?!\d)/g, (m, p1, p2) => p1 + p2)
+          .replace(/(\d)\s+(\d{3})(?!\d)/g, (m, p1, p2) => p1 + p2)
+          .replace(/[\u200B-\u200D\uFEFF]/g, "")
+          .trim();
+      };
+
+      const stripTieuhocUnits = (s) => {
+        if (!s) return "";
+        return cleanTieuhocText(s)
+          .replace(/m²|cm²|dm²|km²|m2|cm2|dm2|km2|m3|cm3|dm3|m\^2|cm\^2|m\^3/gi, " ")
+          .replace(/\b(tấn|tạ|yến|kg|g|lít|ml|m|cm|dm|mm|km|giờ|phút|giây|năm|thế kỉ|đoàn|con|bông|viên|quả|chiếc|bộ|lần|đáp số|đs|bài giải)\b/gi, " ");
+      };
+
+      const normalizeTieuhocStr = (str) => {
+        if (!str) return "";
+        return cleanTieuhocText(str)
+          .replace(/\s+/g, "")
+          .replace(/,/g, ".")
+          .toLowerCase()
+          .trim();
+      };
+
+      const parseTieuhocFraction = (str) => {
+        if (!str) return null;
+        const m = str.match(/(\d+)\s*\/\s*(\d+)/);
+        if (m) {
+          const num = parseInt(m[1], 10);
+          const den = parseInt(m[2], 10);
+          if (den !== 0) return num / den;
+        }
+        return null;
+      };
+
+      const compareTieuhocValues = (userVal, expectedVal) => {
+        if (!userVal || !expectedVal) return false;
+        const uClean = cleanTieuhocText(userVal);
+        const eClean = cleanTieuhocText(expectedVal);
+        const uNorm = normalizeTieuhocStr(uClean);
+        const eNorm = normalizeTieuhocStr(eClean);
+        
+        if (uNorm === eNorm) return true;
+        if (uNorm.includes(eNorm) || eNorm.includes(uNorm)) return true;
+        
+        if (/^[><=]$/.test(uNorm) && /^[><=]$/.test(eNorm)) {
+          return uNorm === eNorm;
+        }
+
+        const uNum = parseFloat(uNorm);
+        const eNum = parseFloat(eNorm);
+        if (!isNaN(uNum) && !isNaN(eNum) && Math.abs(uNum - eNum) < 1e-4) {
+          return true;
+        }
+
+        const uFrac = parseTieuhocFraction(uClean);
+        const eFrac = parseTieuhocFraction(eClean);
+        if (uFrac !== null && eFrac !== null && Math.abs(uFrac - eFrac) < 1e-4) {
+          return true;
+        }
+        if (uFrac !== null && !isNaN(eNum) && Math.abs(uFrac - eNum) < 1e-4) {
+          return true;
+        }
+        if (!isNaN(uNum) && eFrac !== null && Math.abs(uNum - eFrac) < 1e-4) {
+          return true;
+        }
+
+        const uWords = uClean.toLowerCase().replace(/[^a-z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/g, "");
+        const eWords = eClean.toLowerCase().replace(/[^a-z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/g, "");
+        if (uWords && eWords && (uWords.includes(eWords) || eWords.includes(uWords))) {
+          return true;
+        }
+
+        return false;
+      };
+
+      const splitTieuhocParts = (text) => {
+        const parts = {};
+        if (!text) return parts;
+        const regex = /([a-d])\s*[\)\.]\s*([\s\S]*?)(?=(?:[a-d]\s*[\)\.]|$))/gi;
+        let m;
+        while ((m = regex.exec(text)) !== null) {
+          const key = m[1].toLowerCase();
+          const val = m[2].trim().replace(/[;,]+$/, "");
+          if (val) parts[key] = val;
+        }
+        return parts;
+      };
+
+      const extractTieuhocNumbers = (str) => {
+        if (!str) return [];
+        const s = stripTieuhocUnits(str);
+        return s.match(/\d+(?:[\.,]\d+)?(?:\/\d+)?/g) || [];
+      };
+
+      const gradeTieuhocEssayQuestion = (q, userText, maxPts) => {
+        maxPts = (typeof maxPts === "number" && maxPts > 0) ? maxPts : (q.points || 1.0);
+        if (!userText || !userText.trim()) {
+          return {
+            score: 0,
+            maxPoints: maxPts,
+            isCorrect: false,
+            shortcutDetected: false,
+            feedback: "Chưa làm bài này."
+          };
+        }
+
+        const rawText = cleanTieuhocText(userText);
+        const expectedAns = cleanTieuhocText(q.answer || "");
+        const solutionText = cleanTieuhocText(q.solution || "").toLowerCase();
+
+        // 1. Kiểm tra nếu câu hỏi chia nhiều ý a), b), c), d)
+        const expParts = splitTieuhocParts(expectedAns);
+        const expPartKeys = Object.keys(expParts);
+
+        if (expPartKeys.length > 1) {
+          const ptsPerPart = maxPts / expPartKeys.length;
+          let correctCount = 0;
+          const details = [];
+
+          const userParts = splitTieuhocParts(rawText);
+          const rawTokens = rawText.split(/[,;\n\s]+/).filter(Boolean);
+
+          expPartKeys.forEach((key, kIdx) => {
+            const expV = expParts[key];
+            let userV = userParts[key];
+            if (!userV && kIdx < rawTokens.length) {
+              userV = rawTokens[kIdx];
+            }
+
+            let isOk = false;
+            if (userV && compareTieuhocValues(userV, expV)) {
+              isOk = true;
+            } else {
+              const expDigits = extractTieuhocNumbers(expV);
+              const userDigits = extractTieuhocNumbers(rawText);
+              if (expDigits.length > 0 && expDigits.every(ed => userDigits.some(ud => compareTieuhocValues(ud, ed)))) {
+                isOk = true;
+              } else if (compareTieuhocValues(rawText, expV)) {
+                isOk = true;
+              }
+            }
+
+            if (isOk) {
+              correctCount++;
+              details.push(`Ý ${key.toUpperCase()}: Đúng (+${ptsPerPart.toFixed(2)}đ)`);
+            } else {
+              details.push(`Ý ${key.toUpperCase()}: Chưa chính xác`);
+            }
+          });
+
+          const isAll = (correctCount === expPartKeys.length);
+          const score = isAll ? maxPts : Math.round(correctCount * ptsPerPart * 10) / 10;
+          const isShortcut = isAll && (rawText.length < (q.solution || "").length * 0.6 || rawText.length < 80);
+
+          return {
+            score: score,
+            maxPoints: maxPts,
+            isCorrect: isAll,
+            shortcutDetected: isShortcut,
+            feedback: isAll
+              ? (isShortcut
+                  ? "⭐ Xuất sắc! Em làm tắt / gộp bước chuẩn xác và tìm ra đúng tất cả các ý! Đạt điểm tối đa!"
+                  : "Xuất sắc! Em làm đúng tất cả các ý, kết quả chính xác 100%!")
+              : `Em làm đúng ${correctCount}/${expPartKeys.length} ý. (${details.join(', ')})`
+          };
+        }
+
+        // 2. Bài toán có lời văn / tìm x / tính đơn
+        let hasFinalAns = false;
+        const expNums = extractTieuhocNumbers(expectedAns);
+        const userNums = extractTieuhocNumbers(rawText);
+
+        if (compareTieuhocValues(rawText, expectedAns)) {
+          hasFinalAns = true;
+        } else if (expNums.length > 0 && userNums.length > 0) {
+          if (expNums.length === 1) {
+            if (userNums.some(un => compareTieuhocValues(un, expNums[0]))) {
+              hasFinalAns = true;
+            }
+          } else {
+            const allFound = expNums.every(en => userNums.some(un => compareTieuhocValues(un, en)));
+            if (allFound) hasFinalAns = true;
+          }
+        }
+
+        const expFrac = parseTieuhocFraction(expectedAns);
+        if (!hasFinalAns && expFrac !== null) {
+          const userFrac = parseTieuhocFraction(rawText);
+          if (userFrac !== null && Math.abs(userFrac - expFrac) < 1e-4) {
+            hasFinalAns = true;
+          }
+        }
+
+        if (!hasFinalAns && /[><=]/.test(expectedAns) && /[><=]/.test(rawText)) {
+          const expSigns = expectedAns.match(/[><=]/g) || [];
+          const userSigns = rawText.match(/[><=]/g) || [];
+          if (expSigns.length > 0 && userSigns.join("") === expSigns.join("")) {
+            hasFinalAns = true;
+          }
+        }
+
+        if (hasFinalAns) {
+          // HỌC SINH ĐÃ RA KẾT QUẢ ĐÚNG - LÀM TẮT VẪN CHO ĐIỂM TỐI ĐA
+          const isShortcut = rawText.length < solutionText.length * 0.7 || rawText.length < 80;
+          return {
+            score: maxPts,
+            maxPoints: maxPts,
+            isCorrect: true,
+            shortcutDetected: isShortcut,
+            feedback: isShortcut
+              ? "⭐ Xuất sắc! Em làm tắt / tính gộp bước chuẩn xác và tìm ra đúng đáp số! Đạt điểm tối đa!"
+              : "Lời giải đầy đủ, phép tính và đáp số chính xác 100%!"
+          };
+        }
+
+        // Kiểm tra nếu học sinh làm đúng bước phương pháp trung gian
+        const solNums = extractTieuhocNumbers(solutionText);
+        let intermediateFound = 0;
+        solNums.forEach(sn => {
+          if (userNums.some(un => compareTieuhocValues(un, sn))) {
+            intermediateFound++;
+          }
+        });
+
+        if (intermediateFound >= 1 && solNums.length > 1) {
+          const partialScore = Math.round((maxPts * 0.5) * 10) / 10;
+          return {
+            score: partialScore,
+            maxPoints: maxPts,
+            isCorrect: false,
+            shortcutDetected: false,
+            feedback: `Em đã làm đúng hướng giải và tìm được số liệu trung gian, chỉ nhầm lẫn ở phép tính cuối. Được ${partialScore}/${maxPts} điểm phương pháp.`
+          };
+        }
+
+        return {
+          score: 0,
+          maxPoints: maxPts,
+          isCorrect: false,
+          shortcutDetected: false,
+          feedback: "Kết quả chưa chính xác. Em xem lời giải chi tiết và đáp số bên dưới để rút kinh nghiệm nhé!"
+        };
+      };
+
       const handleGradeTieuhocOnline = () => {
         const ex = getTieuhocExam();
         if (!ex) return;
+
+        // 1. Chấm Phần I (Trắc nghiệm - 3.0 điểm)
         let p1Score = 0;
         let p1CorrectCount = 0;
         (ex.part1 || []).forEach(q => {
@@ -3651,11 +3906,43 @@ if (typeof window !== "undefined") {
             p1CorrectCount++;
           }
         });
+        p1Score = Math.round(p1Score * 100) / 100;
+
+        // 2. Chấm Phần II (Tự luận - 7.0 điểm) - Smart Grader: làm tắt vẫn tối đa điểm
+        let p2Score = 0;
+        const p2Details = {};
+        (ex.part2 || []).forEach(q => {
+          const userAns = tieuhocAnswers.p2[q.id] || "";
+          const result = gradeTieuhocEssayQuestion(q, userAns, q.points || 1.0);
+          p2Details[q.id] = result;
+          p2Score += result.score;
+        });
+        p2Score = Math.round(p2Score * 100) / 100;
+
+        const totalScore = Math.min(10, Math.round((p1Score + p2Score) * 100) / 100);
+
+        let teacherComment = "";
+        if (totalScore >= 9.0) {
+          teacherComment = "🌟 Xuất sắc! Em nắm rất vững kiến thức, tư duy nhanh nhạy và tính toán vô cùng chuẩn xác!";
+        } else if (totalScore >= 8.0) {
+          teacherComment = "👏 Rất giỏi! Bài làm tốt, các bước tính toán rõ ràng, chính xác. Tiếp tục phát huy nhé!";
+        } else if (totalScore >= 7.0) {
+          teacherComment = "👍 Khá tốt! Em hiểu bài và làm đúng phần lớn câu hỏi. Hãy rèn luyện thêm để đạt điểm tuyệt đối nhé!";
+        } else if (totalScore >= 5.0) {
+          teacherComment = "✏️ Đạt yêu cầu! Em cần đọc kĩ đề bài và rà soát lại các phép tính tự luận cẩn thận hơn nhé!";
+        } else {
+          teacherComment = "📖 Cần cố gắng! Em hãy xem kĩ lời giải chi tiết và làm lại bài để nắm chắc kiến thức nhé!";
+        }
+
         setTieuhocScoreResult({
-          p1Score: Math.round(p1Score * 100) / 100,
+          totalScore,
+          p1Score,
           p1CorrectCount,
           totalP1: (ex.part1 || []).length,
-          p2Total: (ex.part2 || []).length
+          p2Score,
+          p2Details,
+          totalP2: (ex.part2 || []).length,
+          teacherComment
         });
         setTieuhocSubmitted(true);
         setShowTieuhocSolution(true);
@@ -10159,20 +10446,33 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         </div>
 
                         {/* KHUNG ĐIỂM & LỜI PHÊ */}
-                        <div className="mt-3 grid grid-cols-3 border border-slate-400 text-center rounded-lg overflow-hidden text-xs md:text-sm">
-                          <div className="border-r border-slate-400 p-2">
-                            <div className="font-bold text-slate-700">Điểm số</div>
-                            <div className="h-9 flex items-center justify-center font-black text-lg text-amber-700">
-                              {tieuhocScoreResult ? `${tieuhocScoreResult.p1Score}/3.0 (TN)` : "............"}
+                        <div className="mt-3 grid grid-cols-3 border-2 border-amber-300 bg-amber-50/40 text-center rounded-xl overflow-hidden text-xs md:text-sm shadow-sm">
+                          <div className="border-r-2 border-amber-300 p-2.5 bg-white flex flex-col justify-center items-center">
+                            <div className="font-bold text-slate-700 uppercase tracking-wide text-[11px] md:text-xs">Điểm số</div>
+                            <div className="mt-1 font-black text-2xl md:text-3xl text-amber-600 flex items-baseline gap-1">
+                              {tieuhocScoreResult ? (
+                                <>
+                                  <span>{tieuhocScoreResult.totalScore}</span>
+                                  <span className="text-xs text-slate-500 font-semibold">/ 10</span>
+                                </>
+                              ) : (
+                                <span className="text-slate-300 tracking-widest text-lg">........</span>
+                              )}
                             </div>
+                            {tieuhocScoreResult && (
+                              <div className="text-[10px] md:text-[11px] font-bold text-slate-600 mt-1 flex flex-wrap justify-center gap-1">
+                                <span className="bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded">TN: {tieuhocScoreResult.p1Score}/3.0đ</span>
+                                <span className="bg-emerald-100 text-emerald-900 px-1.5 py-0.5 rounded">TL: {tieuhocScoreResult.p2Score}/7.0đ</span>
+                              </div>
+                            )}
                           </div>
-                          <div className="col-span-2 p-2 text-left">
-                            <div className="font-bold text-slate-700">Lời nhận xét của thầy/cô giáo:</div>
-                            <div className="h-9 flex items-center text-slate-500 italic">
+                          <div className="col-span-2 p-2.5 text-left flex flex-col justify-center bg-white/80">
+                            <div className="font-bold text-slate-700 text-[11px] md:text-xs flex items-center gap-1.5">
+                              <span>👩‍🏫</span> Lời nhận xét của thầy/cô giáo:
+                            </div>
+                            <div className="mt-1 text-slate-700 italic font-medium leading-relaxed text-xs md:text-sm">
                               {tieuhocScoreResult
-                                ? (tieuhocScoreResult.p1Score >= 2.5
-                                    ? "Em làm bài rất tốt! Tiếp tục phát huy nhé!"
-                                    : "Em cần chú ý tính toán cẩn thận hơn!")
+                                ? tieuhocScoreResult.teacherComment
                                 : "...................................................................................................................."}
                             </div>
                           </div>
@@ -10244,13 +10544,17 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                       {/* PHẦN II: TỰ LUẬN (7,0 ĐIỂM - 6 BÀI TOÁN CÓ CHỪA DÒNG KẺ) */}
                       <div className="space-y-5 pt-3 border-t border-slate-200">
-                        <div className="bg-amber-50/80 border-l-4 border-amber-600 px-3 py-1.5 font-black text-xs md:text-sm text-amber-950 uppercase">
-                          II. PHẦN TỰ LUẬN (7,0 ĐIỂM - HỌC SINH TRÌNH BÀY BÀI GIẢI VÀO PHẦN CHỪA TRỐNG)
+                        <div className="bg-amber-50/80 border-l-4 border-amber-600 px-3 py-1.5 font-black text-xs md:text-sm text-amber-950 uppercase flex items-center justify-between">
+                          <span>II. PHẦN TỰ LUẬN (7,0 ĐIỂM - HỌC SINH TRÌNH BÀY BÀI GIẢI VÀO PHẦN CHỪA TRỐNG)</span>
+                          <span className="text-[11px] normal-case font-normal text-amber-800 bg-amber-100 px-2 py-0.5 rounded no-print print:hidden">
+                            💡 Làm tắt / tính gộp bước vẫn được điểm tối đa
+                          </span>
                         </div>
 
                         <div className="space-y-5">
                           {(currentExam.part2 || []).map((q, idx) => {
                             const lines = q.lineCount || 5;
+                            const qResult = tieuhocScoreResult?.p2Details?.[q.id];
                             return (
                               <div key={q.id || idx} className="text-xs md:text-sm space-y-2">
                                 <div className="font-semibold text-slate-900 leading-relaxed flex items-start justify-between gap-2 text-xs md:text-sm">
@@ -10262,34 +10566,82 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   </span>
                                 </div>
 
-                                {/* KHUNG BÀI GIẢI CHO HỌC SINH LÀM HOẶC DÒNG KẺ KHI IN */}
-                                {!showTieuhocSolution ? (
+                                {/* KHUNG BÀI GIẢI KHI CHƯA NỘP HOẶC KHI IN ẤN */}
+                                {!tieuhocSubmitted && (
                                   <div className="border border-slate-300 rounded-xl p-3 bg-slate-50/50 space-y-1">
-                                    <div className="text-[11px] font-bold italic text-slate-500 mb-1">Bài giải:</div>
+                                    <div className="text-[11px] font-bold italic text-slate-500 mb-1 flex items-center justify-between">
+                                      <span>Bài giải:</span>
+                                      <span className="no-print print:hidden text-[10px] text-amber-700 font-normal">
+                                        (Có thể gõ tắt phép tính & đáp số)
+                                      </span>
+                                    </div>
+                                    {/* Dòng kẻ khi in ấn đề thi */}
                                     {Array.from({ length: lines }).map((_, lIdx) => (
                                       <div key={lIdx} className="tieuhoc-dotted-line"></div>
                                     ))}
-                                    {/* Ô nhập bài giải nếu đang làm Online */}
-                                    {isTakingTieuhocOnline && !tieuhocSubmitted && (
-                                      <div className="pt-2 no-print print:hidden">
-                                        <textarea
-                                          placeholder="Nhập bài giải hoặc kết quả của em vào đây..."
-                                          value={tieuhocAnswers.p2[q.id] || ""}
-                                          onChange={(e) => {
-                                            const val = e.target.value;
-                                            setTieuhocAnswers(prev => ({
-                                              ...prev,
-                                              p2: { ...prev.p2, [q.id]: val }
-                                            }));
-                                          }}
-                                          rows={3}
-                                          className="w-full text-xs p-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-1 focus:ring-amber-500"
-                                        />
-                                      </div>
-                                    )}
+                                    {/* Ô nhập bài giải trực tuyến */}
+                                    <div className="pt-2 no-print print:hidden">
+                                      <textarea
+                                        placeholder="Nhập bài giải hoặc kết quả của em vào đây (học sinh có thể làm tắt các bước tính)..."
+                                        value={tieuhocAnswers.p2[q.id] || ""}
+                                        onChange={(e) => {
+                                          const val = e.target.value;
+                                          if (!isTakingTieuhocOnline) setIsTakingTieuhocOnline(true);
+                                          setTieuhocAnswers(prev => ({
+                                            ...prev,
+                                            p2: { ...prev.p2, [q.id]: val }
+                                          }));
+                                        }}
+                                        rows={3}
+                                        className="w-full text-xs md:text-sm p-2.5 rounded-xl border border-amber-200 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 font-sans shadow-inner placeholder:text-slate-400 placeholder:italic"
+                                      />
+                                    </div>
                                   </div>
-                                ) : (
-                                  /* KHUNG HIỂN THỊ LỜI GIẢI CHI TIẾT */
+                                )}
+
+                                {/* KHI ĐÃ NỘP BÀI: HIỂN THỊ KẾT QUẢ CHẤM TỰ LUẬN THÔNG MINH */}
+                                {tieuhocSubmitted && qResult && (
+                                  <div className="no-print print:hidden rounded-xl border p-3.5 space-y-2 bg-gradient-to-br from-white to-amber-50/30 border-amber-200 shadow-sm">
+                                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-amber-100 pb-2">
+                                      <div className="flex items-center gap-2">
+                                        <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-black text-white ${
+                                          qResult.isCorrect ? "bg-emerald-500" : (qResult.score > 0 ? "bg-amber-500" : "bg-rose-500")
+                                        }`}>
+                                          {qResult.isCorrect ? "✓" : (qResult.score > 0 ? "~" : "✗")}
+                                        </span>
+                                        <span className="font-bold text-slate-800 text-xs md:text-sm">
+                                          Điểm tự luận: <strong className={qResult.isCorrect ? "text-emerald-700" : (qResult.score > 0 ? "text-amber-700" : "text-rose-700")}>{qResult.score}</strong> / {qResult.maxPoints} điểm
+                                        </span>
+                                      </div>
+
+                                      {/* HUY HIỆU LÀM TẮT CHUẨN XÁC NẾU CÓ */}
+                                      {qResult.shortcutDetected && (
+                                        <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-black bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-sm">
+                                          ⭐ Làm tắt chuẩn xác (Điểm tối đa)
+                                        </span>
+                                      )}
+                                    </div>
+
+                                    {/* BÀI LÀM CỦA HỌC SINH */}
+                                    <div className="text-xs bg-white rounded-lg p-2.5 border border-slate-200">
+                                      <span className="font-bold text-slate-600">Bài làm của em: </span>
+                                      {tieuhocAnswers.p2[q.id]?.trim() ? (
+                                        <span className="text-slate-900 font-mono whitespace-pre-wrap">{tieuhocAnswers.p2[q.id]}</span>
+                                      ) : (
+                                        <span className="text-slate-400 italic">Em chưa nhập nội dung làm bài</span>
+                                      )}
+                                    </div>
+
+                                    {/* LỜI NHẬN XÉT CỦA HỆ THỐNG */}
+                                    <div className="text-xs text-slate-700 flex items-start gap-1.5 pt-0.5">
+                                      <span className="shrink-0">💬</span>
+                                      <span className="italic font-medium">{qResult.feedback}</span>
+                                    </div>
+                                  </div>
+                                )}
+
+                                {/* LỜI GIẢI CHI TIẾT KHI XEM LỜI GIẢI HOẶC ĐÃ NỘP BÀI */}
+                                {(showTieuhocSolution || tieuhocSubmitted) && (
                                   <div className="bg-emerald-50/70 border border-emerald-300 rounded-xl p-3 text-xs md:text-sm text-emerald-950 space-y-1.5">
                                     <div className="font-bold text-emerald-900 flex items-center justify-between">
                                       <span>✅ Lời giải chi tiết:</span>
@@ -10310,14 +10662,39 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         </div>
                       </div>
 
-                      {/* NÚT NỘP BÀI KHI LÀM TRỰC TUYẾN */}
-                      {isTakingTieuhocOnline && !tieuhocSubmitted && (
-                        <div className="pt-4 text-center border-t border-slate-200 no-print print:hidden">
+                      {/* NÚT NỘP BÀI KHI CHƯA NỘP */}
+                      {!tieuhocSubmitted && (
+                        <div className="pt-6 text-center border-t border-slate-200 no-print print:hidden">
                           <button
                             onClick={handleGradeTieuhocOnline}
-                            className="bg-amber-600 hover:bg-amber-500 text-white font-black px-6 py-3 rounded-xl shadow-lg text-sm transition transform hover:scale-105 active:scale-95"
+                            className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-white font-black px-8 py-3.5 rounded-2xl shadow-xl text-sm md:text-base transition transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2 mx-auto"
                           >
-                            🚀 Nộp bài & Xem kết quả chấm điểm
+                            <span>🚀</span> Nộp bài & Chấm điểm Tự luận Thông minh
+                          </button>
+                        </div>
+                      )}
+
+                      {/* NÚT LÀM LẠI BÀI KHI ĐÃ NỘP */}
+                      {tieuhocSubmitted && (
+                        <div className="pt-6 flex flex-wrap items-center justify-center gap-3 border-t border-slate-200 no-print print:hidden">
+                          <button
+                            onClick={() => {
+                              setTieuhocSubmitted(false);
+                              setShowTieuhocSolution(false);
+                              setTieuhocScoreResult(null);
+                              setTieuhocAnswers({ p1: {}, p2: {} });
+                            }}
+                            className="bg-slate-700 hover:bg-slate-600 text-white font-bold px-6 py-3 rounded-xl shadow-md text-xs md:text-sm flex items-center gap-2 transition transform hover:scale-105"
+                          >
+                            <span>🔄</span> Làm lại đề này
+                          </button>
+                          <button
+                            onClick={() => {
+                              window.scrollTo({ top: 350, behavior: 'smooth' });
+                            }}
+                            className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-md text-xs md:text-sm flex items-center gap-2 transition"
+                          >
+                            <span>📊</span> Xem tổng kết điểm số
                           </button>
                         </div>
                       )}
