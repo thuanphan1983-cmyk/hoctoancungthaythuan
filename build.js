@@ -93,7 +93,8 @@ const examFiles = [
   'grade10EntranceExams.js',
   'grade10TopicsData.js',
   'periodicExamsData.js',
-  'khtnExamsData.js'
+  'khtnExamsData.js',
+  'tieuhocExamsData.js'
 ];
 
 examFiles.forEach(fileName => {

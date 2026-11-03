@@ -88,6 +88,8 @@
   <script src="periodicExamsData.js"></script>
   <!-- KHTN Database (Hóa học & Vật lý 7, 8, 9 - KNTT) -->
   <script src="khtnExamsData.js"></script>
+  <!-- Tiểu học Database (Toán 5 - KNTT) -->
+  <script src="tieuhocExamsData.js"></script>
 
   <!-- Curriculum Database -->
 
@@ -1116,6 +1118,8 @@ if (typeof window !== "undefined") {
       #periodic-banner-card,
       #periodic-filter-card,
       #khtn-banner-card,
+      #tieuhoc-banner-card,
+      #tieuhoc-filter-card,
       #khtn-filter-card,
       [data-no-print="true"],
       .toast-container {
@@ -1145,6 +1149,7 @@ if (typeof window !== "undefined") {
       .lesson-printable-exam,
       .periodic-printable-exam,
       .topic-printable-exam,
+      .tieuhoc-printable-exam,
       .khtn-printable-exam {
         display: block !important;
         width: 100% !important;
@@ -1258,7 +1263,22 @@ if (typeof window !== "undefined") {
 
     }
 
-  </style>
+  
+      /* Dòng kẻ chấm mờ chừa chỗ cho học sinh tiểu học làm bài tự luận */
+      .tieuhoc-dotted-line {
+        height: 22px;
+        border-bottom: 1px dotted #94a3b8;
+        margin-bottom: 2px;
+        position: relative;
+      }
+      @media print {
+        .tieuhoc-dotted-line {
+          border-bottom: 1px dotted #555555 !important;
+          height: 20px !important;
+          margin-bottom: 1px !important;
+        }
+      }
+    </style>
 
 </head>
 
@@ -3164,6 +3184,8 @@ if (typeof window !== "undefined") {
           setView("periodic_exam");
         } else if (targetTab === "khtn") {
           setView("khtn");
+        } else if (targetTab === "tieuhoc") {
+          setView("tieuhoc");
         }
         window.scrollTo({ top: 0, behavior: "smooth" });
       };
@@ -3488,6 +3510,114 @@ if (typeof window !== "undefined") {
         });
         setKhtnSubmitted(true);
         setShowKhtnSolution(true);
+      };
+
+      // ==============================================================
+      // STATE CHUYÊN DỤNG CHO TIỂU HỌC (LỚP 5 - KNTT)
+      // ==============================================================
+      const [tieuhocMode, setTieuhocMode] = useState("periodic"); // 'periodic' | 'lesson'
+      const [tieuhocGrade, setTieuhocGrade] = useState("5");
+      const [tieuhocPeriodicTerm, setTieuhocPeriodicTerm] = useState("th5_gk1");
+      const [tieuhocChapterId, setTieuhocChapterId] = useState("th5_ch1");
+      const [tieuhocLessonId, setTieuhocLessonId] = useState("th5_b1");
+      const [tieuhocTestNum, setTieuhocTestNum] = useState(1);
+      const [showTieuhocSolution, setShowTieuhocSolution] = useState(false);
+      const [isTakingTieuhocOnline, setIsTakingTieuhocOnline] = useState(false);
+      const [tieuhocAnswers, setTieuhocAnswers] = useState({
+        p1: {},
+        p2: {}
+      });
+      const [tieuhocSubmitted, setTieuhocSubmitted] = useState(false);
+      const [tieuhocScoreResult, setTieuhocScoreResult] = useState(null);
+
+      // Đồng bộ bài học khi đổi chủ đề
+      const handleSelectTieuhocChapter = (chId) => {
+        setTieuhocChapterId(chId);
+        const curr = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
+        const ch = (curr.chapters || []).find(c => c.id === chId);
+        if (ch && ch.lessons && ch.lessons.length > 0) {
+          setTieuhocLessonId(ch.lessons[0].id);
+        }
+        setTieuhocTestNum(1);
+        setIsTakingTieuhocOnline(false);
+        setTieuhocSubmitted(false);
+        setTieuhocScoreResult(null);
+      };
+
+      const handleSelectTieuhocLesson = (lId) => {
+        setTieuhocLessonId(lId);
+        setTieuhocTestNum(1);
+        setIsTakingTieuhocOnline(false);
+        setTieuhocSubmitted(false);
+        setTieuhocScoreResult(null);
+      };
+
+      const handleSelectTieuhocPeriodicTerm = (termId) => {
+        setTieuhocPeriodicTerm(termId);
+        setTieuhocTestNum(1);
+        setIsTakingTieuhocOnline(false);
+        setTieuhocSubmitted(false);
+        setTieuhocScoreResult(null);
+      };
+
+      const getTieuhocExam = () => {
+        const bank = (typeof window !== "undefined" && window.TIEUHOC_EXAMS_DATA) || {};
+        if (tieuhocMode === "periodic") {
+          const numStr = tieuhocTestNum < 10 ? "0" + tieuhocTestNum : String(tieuhocTestNum);
+          const key1 = `${tieuhocPeriodicTerm}_de${numStr}`;
+          const key2 = `${tieuhocPeriodicTerm}_de0${tieuhocTestNum}`;
+          return bank[key1] || bank[key2] || null;
+        } else {
+          const key = `${tieuhocLessonId}_test${tieuhocTestNum}`;
+          return bank[key] || null;
+        }
+      };
+
+      const handlePrintTieuhocExam = (includeSolution = false) => {
+        setShowTieuhocSolution(includeSolution);
+        const curr = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
+        let titleClean = "DE_KIEM_TRA_TOAN_5";
+        if (tieuhocMode === "periodic") {
+          const termObj = (curr.periodic?.terms || []).find(t => t.id === tieuhocPeriodicTerm);
+          const tName = termObj ? termObj.name.toUpperCase().replace(/\s+/g, '_') : "DINH_KY";
+          titleClean = `TOAN_5_${tName}_DE_SO_0${tieuhocTestNum}`;
+        } else {
+          const ch = (curr.chapters || []).find(c => c.id === tieuhocChapterId);
+          const l = (ch?.lessons || []).find(item => item.id === tieuhocLessonId);
+          const lName = l ? l.name.toUpperCase().replace(/[:\/]/g, '_').replace(/\s+/g, '_') : "BAI_HOC";
+          titleClean = `TOAN_5_${lName}_DE_SO_0${tieuhocTestNum}`;
+        }
+        if (includeSolution) titleClean += "_DAP_AN_LOI_GIAI";
+
+        const origTitle = document.title;
+        document.title = titleClean;
+        setTimeout(() => {
+          window.print();
+          setTimeout(() => {
+            document.title = origTitle;
+          }, 1500);
+        }, 150);
+      };
+
+      const handleGradeTieuhocOnline = () => {
+        const ex = getTieuhocExam();
+        if (!ex) return;
+        let p1Score = 0;
+        let p1CorrectCount = 0;
+        (ex.part1 || []).forEach(q => {
+          if (tieuhocAnswers.p1[q.id] === q.correct) {
+            p1Score += (q.points || 0.5);
+            p1CorrectCount++;
+          }
+        });
+        setTieuhocScoreResult({
+          p1Score: Math.round(p1Score * 100) / 100,
+          p1CorrectCount,
+          totalP1: (ex.part1 || []).length,
+          p2Total: (ex.part2 || []).length
+        });
+        setTieuhocSubmitted(true);
+        setShowTieuhocSolution(true);
       };
 
       const [topicsData, setTopicsData] = useState(() => {
@@ -5364,6 +5494,19 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   title="Hệ thống đề ôn tập môn Khoa học tự nhiên (Hóa học & Vật lý 7, 8, 9)"
                 >
                   <span>🔬</span> MÔN: KHTN
+                </button>
+
+                {/* NÚT 5: 🎒 DÀNH CHO HS TIỂU HỌC */}
+                <button
+                  onClick={() => handleNavigateTab("tieuhoc")}
+                  className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
+                    view === "tieuhoc"
+                      ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-300 font-black"
+                      : "bg-indigo-800 hover:bg-indigo-700 text-white"
+                  }`}
+                  title="Dành cho học sinh Tiểu học - Đề kiểm tra theo bài và định kỳ Toán 5"
+                >
+                  <span>🎒</span> DÀNH CHO HS TIỂU HỌC
                 </button>
 
                 {/* Nút phụ Thống kê lớp */}
@@ -9408,6 +9551,494 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
               );
             })()}
 
+
+            {/* ============================================================== */}
+            {/* MÀN HÌNH CHUYÊN BIỆT: DÀNH CHO HỌC SINH TIỂU HỌC (LỚP 5 - KNTT) */}
+            {/* ============================================================== */}
+            {view === "tieuhoc" && (() => {
+              const curriculum = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
+              const examBank = (typeof window !== "undefined" && window.TIEUHOC_EXAMS_DATA) || {};
+              const currentExam = getTieuhocExam();
+
+              const periodicTerms = curriculum.periodic?.terms || [];
+              const currentTermObj = periodicTerms.find(t => t.id === tieuhocPeriodicTerm) || periodicTerms[0] || null;
+
+              const chapters = curriculum.chapters || [];
+              const currentChapter = chapters.find(c => c.id === tieuhocChapterId) || chapters[0] || null;
+              const lessons = currentChapter?.lessons || [];
+              const currentLesson = lessons.find(l => l.id === tieuhocLessonId) || lessons[0] || null;
+
+              const maxTests = tieuhocMode === "periodic" ? 8 : 3;
+
+              return (
+                <div className="space-y-6">
+                  {/* BANNER DÀNH CHO TIỂU HỌC */}
+                  <div id="tieuhoc-banner-card" className="bg-gradient-to-r from-amber-600 via-orange-600 to-amber-700 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print print:hidden">
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                      <div className="flex items-center gap-3.5">
+                        <div className="w-12 h-12 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-3xl shrink-0 shadow-inner">
+                          🎒
+                        </div>
+                        <div>
+                          <div className="flex items-center gap-2">
+                            <span className="bg-yellow-300 text-amber-950 text-[10px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow-sm">
+                              TOÁN TIỂU HỌC • LỚP 5
+                            </span>
+                            <span className="text-xs text-amber-100 font-semibold">Bộ sách Kết nối tri thức với cuộc sống • 40 phút • 10.0 điểm</span>
+                          </div>
+                          <h2 className="text-xl md:text-2xl font-black text-white mt-1 uppercase tracking-wide drop-shadow-sm">
+                            HỆ THỐNG ĐỀ KIỂM TRA TOÁN 5 (THEO BÀI & ĐỊNH KỲ)
+                          </h2>
+                          <p className="text-xs md:text-sm text-amber-100 mt-0.5">
+                            Cấu trúc chuẩn: 6 câu trắc nghiệm (3,0 điểm) + 6 bài tự luận (7,0 điểm) • Có chừa sẵn dòng kẻ làm bài khi in ấn A4 tiết kiệm giấy
+                          </p>
+                        </div>
+                      </div>
+
+                      {currentExam && (
+                        <div className="flex flex-wrap items-center gap-2">
+                          <button
+                            onClick={() => handlePrintTieuhocExam(false)}
+                            className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition active:scale-95"
+                            title="In hoặc Lưu PDF đề thi tối ưu tiết kiệm giấy (có dòng kẻ làm bài cho học sinh)"
+                          >
+                            <span>🖨️</span> In Đề thi A4 (Chừa dòng tự luận)
+                          </button>
+                          <button
+                            onClick={() => handlePrintTieuhocExam(true)}
+                            className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition active:scale-95"
+                            title="In hoặc Lưu PDF kèm hướng dẫn giải và đáp số chi tiết"
+                          >
+                            <span>📄</span> Xuất PDF Đề & Lời giải
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* BẢNG CHỌN PHÂN HỆ: THEO BÀI SGK HOẶC ĐỊNH KỲ */}
+                  <div id="tieuhoc-filter-card" className="bg-white rounded-2xl shadow-sm border border-amber-200/80 p-5 md:p-6 space-y-5 no-print print:hidden">
+                    {/* CHỌN CHẾ ĐỘ: THEO BÀI HAY ĐỊNH KỲ */}
+                    <div>
+                      <div className="text-xs font-black text-amber-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span>🎯</span> 1. CHỌN CHẾ ĐỘ KIỂM TRA:
+                      </div>
+                      <div className="flex flex-wrap gap-2.5">
+                        <button
+                          onClick={() => {
+                            setTieuhocMode("periodic");
+                            setTieuhocTestNum(1);
+                            setIsTakingTieuhocOnline(false);
+                            setTieuhocSubmitted(false);
+                            setShowTieuhocSolution(false);
+                          }}
+                          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs md:text-sm font-bold border transition ${
+                            tieuhocMode === "periodic"
+                              ? "bg-amber-500 text-white border-amber-500 shadow-md ring-2 ring-amber-300 font-black"
+                              : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-amber-50 hover:border-amber-300"
+                          }`}
+                        >
+                          <span>📝</span> ĐỀ KIỂM TRA ĐỊNH KỲ (GK1, CK1, GK2, CK2 - 8 ĐỀ/KỲ)
+                        </button>
+
+                        <button
+                          onClick={() => {
+                            setTieuhocMode("lesson");
+                            setTieuhocTestNum(1);
+                            setIsTakingTieuhocOnline(false);
+                            setTieuhocSubmitted(false);
+                            setShowTieuhocSolution(false);
+                          }}
+                          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs md:text-sm font-bold border transition ${
+                            tieuhocMode === "lesson"
+                              ? "bg-amber-500 text-white border-amber-500 shadow-md ring-2 ring-amber-300 font-black"
+                              : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-amber-50 hover:border-amber-300"
+                          }`}
+                        >
+                          <span>📖</span> ĐỀ KIỂM TRA THEO BÀI SGK (BÀI 1 ĐẾN 60 - 3 ĐỀ/BÀI)
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* KHI CHỌN ĐỊNH KỲ */}
+                    {tieuhocMode === "periodic" && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-3 border-t border-amber-100">
+                        <div>
+                          <label className="block text-xs font-black text-slate-700 mb-1.5">
+                            2. CHỌN ĐỢT KIỂM TRA ĐỊNH KỲ:
+                          </label>
+                          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            {periodicTerms.map(t => (
+                              <button
+                                key={t.id}
+                                onClick={() => handleSelectTieuhocPeriodicTerm(t.id)}
+                                className={`p-2.5 rounded-xl border text-center transition flex flex-col items-center justify-center ${
+                                  tieuhocPeriodicTerm === t.id
+                                    ? "bg-amber-50 border-amber-500 text-amber-950 font-black ring-2 ring-amber-400 shadow-sm"
+                                    : "bg-slate-50 border-slate-200 hover:bg-amber-50/50 text-slate-700"
+                                }`}
+                              >
+                                <span className="text-xs font-black">{t.code}</span>
+                                <span className="text-[11px] leading-tight text-slate-600 mt-0.5">{t.name.replace("Kiểm tra ", "")}</span>
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+
+                        <div>
+                          <div className="flex items-center justify-between mb-1.5">
+                            <label className="text-xs font-black text-slate-700">
+                              3. CHỌN MÃ ĐỀ (8 ĐỀ ĐỘC LẬP 100%):
+                            </label>
+                            <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                              Đề 01 - Đề 08 mở tự do
+                            </span>
+                          </div>
+                          <div className="grid grid-cols-4 gap-2">
+                            {Array.from({ length: 8 }, (_, idx) => idx + 1).map(num => (
+                              <button
+                                key={num}
+                                onClick={() => {
+                                  setTieuhocTestNum(num);
+                                  setIsTakingTieuhocOnline(false);
+                                  setTieuhocSubmitted(false);
+                                  setShowTieuhocSolution(false);
+                                }}
+                                className={`py-2 px-1 rounded-xl text-xs font-bold border transition text-center ${
+                                  tieuhocTestNum === num
+                                    ? "bg-amber-600 text-white border-amber-600 shadow-md ring-2 ring-amber-300 font-black"
+                                    : "bg-white text-slate-700 border-slate-200 hover:bg-amber-50"
+                                }`}
+                              >
+                                Đề số 0{num}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* KHI CHỌN THEO BÀI SGK */}
+                    {tieuhocMode === "lesson" && (
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-3 border-t border-amber-100">
+                        <div>
+                          <label className="block text-xs font-black text-slate-700 mb-1.5">
+                            2. CHỌN CHỦ ĐỀ (11 CHỦ ĐỀ):
+                          </label>
+                          <select
+                            value={tieuhocChapterId}
+                            onChange={(e) => handleSelectTieuhocChapter(e.target.value)}
+                            className="w-full text-xs md:text-sm font-semibold p-2.5 rounded-xl border border-slate-300 bg-slate-50 focus:ring-2 focus:ring-amber-500 focus:outline-none"
+                          >
+                            {chapters.map(ch => (
+                              <option key={ch.id} value={ch.id}>
+                                {ch.title}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+
+                        <div>
+                          <label className="block text-xs font-black text-slate-700 mb-1.5">
+                            3. CHỌN BÀI HỌC CỤ THỂ:
+                          </label>
+                          <select
+                            value={tieuhocLessonId}
+                            onChange={(e) => handleSelectTieuhocLesson(e.target.value)}
+                            className="w-full text-xs md:text-sm font-semibold p-2.5 rounded-xl border border-slate-300 bg-slate-50 focus:ring-2 focus:ring-amber-500 focus:outline-none"
+                          >
+                            {lessons.map(l => (
+                              <option key={l.id} value={l.id}>
+                                {l.name}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+
+                        <div>
+                          <div className="flex items-center justify-between mb-1.5">
+                            <label className="text-xs font-black text-slate-700">
+                              4. CHỌN MÃ ĐỀ (3 ĐỀ ĐỘC LẬP):
+                            </label>
+                            <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                              3 đề hoàn toàn khác nhau
+                            </span>
+                          </div>
+                          <div className="grid grid-cols-3 gap-2">
+                            {[1, 2, 3].map(num => (
+                              <button
+                                key={num}
+                                onClick={() => {
+                                  setTieuhocTestNum(num);
+                                  setIsTakingTieuhocOnline(false);
+                                  setTieuhocSubmitted(false);
+                                  setShowTieuhocSolution(false);
+                                }}
+                                className={`py-2 px-1 rounded-xl text-xs font-bold border transition text-center ${
+                                  tieuhocTestNum === num
+                                    ? "bg-amber-600 text-white border-amber-600 shadow-md ring-2 ring-amber-300 font-black"
+                                    : "bg-white text-slate-700 border-slate-200 hover:bg-amber-50"
+                                }`}
+                              >
+                                Đề số 0{num}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* DÃY NÚT THAO TÁC NHANH DƯỚI BẢNG CHỌN */}
+                    <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-100">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          onClick={() => {
+                            if (!currentExam) {
+                              showToast("warning", "Đang cập nhật đề kiểm tra này!");
+                              return;
+                            }
+                            setIsTakingTieuhocOnline(true);
+                            setTieuhocSubmitted(false);
+                            setTieuhocScoreResult(null);
+                            setShowTieuhocSolution(false);
+                            setTieuhocAnswers({ p1: {}, p2: {} });
+                          }}
+                          className={`font-black px-4 py-2.5 rounded-xl shadow-sm text-xs md:text-sm flex items-center gap-2 transition ${
+                            isTakingTieuhocOnline
+                              ? "bg-amber-700 text-white ring-2 ring-amber-400"
+                              : "bg-amber-600 hover:bg-amber-500 text-white"
+                          }`}
+                        >
+                          <span>✍️</span> Vào làm bài Online
+                        </button>
+
+                        <button
+                          onClick={() => setShowTieuhocSolution(!showTieuhocSolution)}
+                          className={`font-bold px-3.5 py-2.5 rounded-xl border text-xs md:text-sm flex items-center gap-1.5 transition ${
+                            showTieuhocSolution
+                              ? "bg-emerald-100 border-emerald-400 text-emerald-900"
+                              : "bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100"
+                          }`}
+                        >
+                          <span>{showTieuhocSolution ? "👁️ Ẩn Lời giải" : "💡 Xem Lời giải chi tiết"}</span>
+                        </button>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => handlePrintTieuhocExam(false)}
+                          className="bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold px-3.5 py-2 rounded-xl text-xs flex items-center gap-1.5 border border-slate-300 transition"
+                        >
+                          <span>🖨️</span> In đề có dòng kẻ
+                        </button>
+                        <button
+                          onClick={() => handlePrintTieuhocExam(true)}
+                          className="bg-emerald-50 hover:bg-emerald-100 text-emerald-900 font-bold px-3.5 py-2 rounded-xl text-xs flex items-center gap-1.5 border border-emerald-300 transition"
+                        >
+                          <span>📄</span> In kèm lời giải
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* VÙNG HIỂN THỊ ĐỀ THI & IN ẤN (TIEUHOC PRINTABLE EXAM) */}
+                  {currentExam ? (
+                    <div className="tieuhoc-printable-exam bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6">
+                      {/* HEADER ĐỀ THI TIỂU HỌC CHUẨN */}
+                      <div className="border-b-2 border-slate-800 pb-4">
+                        <div className="flex justify-between items-start text-xs md:text-sm font-semibold">
+                          <div className="space-y-1">
+                            <div className="font-bold uppercase">TRƯỜNG TIỂU HỌC: ....................................................</div>
+                            <div>Lớp: 5..... Họ và tên: .........................................................</div>
+                          </div>
+                          <div className="text-right space-y-1">
+                            <div className="font-black uppercase text-sm md:text-base text-slate-900">
+                              {currentExam.title || "ĐỀ KIỂM TRA MÔN TOÁN LỚP 5"}
+                            </div>
+                            <div className="italic text-slate-600">
+                              Thời gian làm bài: {currentExam.duration || "40 phút"} (Không kể thời gian phát đề)
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* KHUNG ĐIỂM & LỜI PHÊ */}
+                        <div className="mt-3 grid grid-cols-3 border border-slate-400 text-center rounded-lg overflow-hidden text-xs md:text-sm">
+                          <div className="border-r border-slate-400 p-2">
+                            <div className="font-bold text-slate-700">Điểm số</div>
+                            <div className="h-9 flex items-center justify-center font-black text-lg text-amber-700">
+                              {tieuhocScoreResult ? `${tieuhocScoreResult.p1Score}/3.0 (TN)` : "............"}
+                            </div>
+                          </div>
+                          <div className="col-span-2 p-2 text-left">
+                            <div className="font-bold text-slate-700">Lời nhận xét của thầy/cô giáo:</div>
+                            <div className="h-9 flex items-center text-slate-500 italic">
+                              {tieuhocScoreResult
+                                ? (tieuhocScoreResult.p1Score >= 2.5
+                                    ? "Em làm bài rất tốt! Tiếp tục phát huy nhé!"
+                                    : "Em cần chú ý tính toán cẩn thận hơn!")
+                                : "...................................................................................................................."}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* PHẦN I: TRẮC NGHIỆM KHÁCH QUAN (3,0 ĐIỂM) */}
+                      <div className="space-y-4">
+                        <div className="bg-amber-50/80 border-l-4 border-amber-600 px-3 py-1.5 font-black text-xs md:text-sm text-amber-950 uppercase">
+                          I. PHẦN TRẮC NGHIỆM (3,0 ĐIỂM - KHOANH TRÒN VÀO CHỮ CÁI ĐẶT TRƯỚC CÂU TRẢ LỜI ĐÚNG)
+                        </div>
+
+                        <div className="space-y-3">
+                          {(currentExam.part1 || []).map((q, idx) => {
+                            const isLong = (q.options || []).some(opt => (opt || "").length > 25);
+                            return (
+                              <div key={q.id || idx} className="text-xs md:text-sm space-y-1.5">
+                                <div className="font-semibold text-slate-900 leading-relaxed">
+                                  <span className="font-black text-amber-950">{q.question?.startsWith("**") ? q.question.replace(/\*\*/g, '') : `Câu ${idx+1}:`} </span>
+                                  {!q.question?.startsWith("**") && q.question}
+                                </div>
+
+                                {/* DANH SÁCH PHƯƠNG ÁN */}
+                                <div className={`grid ${isLong ? "grid-cols-1 sm:grid-cols-2" : "grid-cols-2 sm:grid-cols-4"} gap-2 pl-2`}>
+                                  {(q.options || []).map((opt, oIdx) => {
+                                    const optLabel = ["A", "B", "C", "D"][oIdx];
+                                    const isChosen = tieuhocAnswers.p1[q.id] === oIdx;
+                                    const isCorrect = q.correct === oIdx;
+                                    let btnStyle = "bg-slate-50 border-slate-200 text-slate-800";
+                                    if (showTieuhocSolution) {
+                                      if (isCorrect) btnStyle = "bg-emerald-100 border-emerald-500 text-emerald-950 font-black ring-1 ring-emerald-400";
+                                      else if (isChosen) btnStyle = "bg-rose-100 border-rose-400 text-rose-950 line-through";
+                                    } else if (isChosen) {
+                                      btnStyle = "bg-amber-100 border-amber-500 text-amber-950 font-bold ring-1 ring-amber-400";
+                                    }
+
+                                    return (
+                                      <button
+                                        key={oIdx}
+                                        disabled={tieuhocSubmitted}
+                                        onClick={() => {
+                                          if (tieuhocSubmitted) return;
+                                          setTieuhocAnswers(prev => ({
+                                            ...prev,
+                                            p1: { ...prev.p1, [q.id]: oIdx }
+                                          }));
+                                        }}
+                                        className={`text-left p-1.5 md:p-2 rounded-lg border text-xs flex items-center gap-1.5 transition ${btnStyle}`}
+                                      >
+                                        <span className="font-black w-5 h-5 rounded-full bg-white border border-slate-300 flex items-center justify-center shrink-0 text-[11px]">
+                                          {optLabel}
+                                        </span>
+                                        <span className="truncate">{opt}</span>
+                                      </button>
+                                    );
+                                  })}
+                                </div>
+
+                                {/* LỜI GIẢI CHI TIẾT TRẮC NGHIỆM */}
+                                {showTieuhocSolution && q.explanation && (
+                                  <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-2 text-[11px] md:text-xs text-emerald-900 mt-1 italic">
+                                    💡 <strong>Giải thích:</strong> {q.explanation}
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+
+                      {/* PHẦN II: TỰ LUẬN (7,0 ĐIỂM - 6 BÀI TOÁN CÓ CHỪA DÒNG KẺ) */}
+                      <div className="space-y-5 pt-3 border-t border-slate-200">
+                        <div className="bg-amber-50/80 border-l-4 border-amber-600 px-3 py-1.5 font-black text-xs md:text-sm text-amber-950 uppercase">
+                          II. PHẦN TỰ LUẬN (7,0 ĐIỂM - HỌC SINH TRÌNH BÀY BÀI GIẢI VÀO PHẦN CHỪA TRỐNG)
+                        </div>
+
+                        <div className="space-y-5">
+                          {(currentExam.part2 || []).map((q, idx) => {
+                            const lines = q.lineCount || 5;
+                            return (
+                              <div key={q.id || idx} className="text-xs md:text-sm space-y-2">
+                                <div className="font-semibold text-slate-900 leading-relaxed flex items-start justify-between gap-2">
+                                  <div>
+                                    <span className="font-black text-amber-950">{q.question?.startsWith("**") ? q.question.split("\n")[0].replace(/\*\*/g, '') : `Bài ${idx+1}:`} </span>
+                                    {q.question?.startsWith("**")
+                                      ? q.question.substring(q.question.indexOf("\n") + 1)
+                                      : q.question}
+                                  </div>
+                                  <span className="text-[11px] font-bold text-amber-800 bg-amber-50 px-2 py-0.5 rounded border border-amber-200 shrink-0">
+                                    {q.points || "1.0"} điểm
+                                  </span>
+                                </div>
+
+                                {/* KHUNG BÀI GIẢI CHO HỌC SINH LÀM HOẶC DÒNG KẺ KHI IN */}
+                                {!showTieuhocSolution ? (
+                                  <div className="border border-slate-300 rounded-xl p-3 bg-slate-50/50 space-y-1">
+                                    <div className="text-[11px] font-bold italic text-slate-500 mb-1">Bài giải:</div>
+                                    {Array.from({ length: lines }).map((_, lIdx) => (
+                                      <div key={lIdx} className="tieuhoc-dotted-line"></div>
+                                    ))}
+                                    {/* Ô nhập bài giải nếu đang làm Online */}
+                                    {isTakingTieuhocOnline && !tieuhocSubmitted && (
+                                      <div className="pt-2 no-print print:hidden">
+                                        <textarea
+                                          placeholder="Nhập bài giải hoặc kết quả của em vào đây..."
+                                          value={tieuhocAnswers.p2[q.id] || ""}
+                                          onChange={(e) => {
+                                            const val = e.target.value;
+                                            setTieuhocAnswers(prev => ({
+                                              ...prev,
+                                              p2: { ...prev.p2, [q.id]: val }
+                                            }));
+                                          }}
+                                          rows={3}
+                                          className="w-full text-xs p-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-1 focus:ring-amber-500"
+                                        />
+                                      </div>
+                                    )}
+                                  </div>
+                                ) : (
+                                  /* KHUNG HIỂN THỊ LỜI GIẢI CHI TIẾT */
+                                  <div className="bg-emerald-50/70 border border-emerald-300 rounded-xl p-3 text-xs md:text-sm text-emerald-950 space-y-1.5">
+                                    <div className="font-bold text-emerald-900 flex items-center justify-between">
+                                      <span>✅ Lời giải chi tiết:</span>
+                                      {q.answer && (
+                                        <span className="bg-emerald-200 text-emerald-900 px-2 py-0.5 rounded text-[11px] font-black">
+                                          Đáp số: {q.answer}
+                                        </span>
+                                      )}
+                                    </div>
+                                    <div className="whitespace-pre-line font-medium leading-relaxed">
+                                      {q.solution}
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+
+                      {/* NÚT NỘP BÀI KHI LÀM TRỰC TUYẾN */}
+                      {isTakingTieuhocOnline && !tieuhocSubmitted && (
+                        <div className="pt-4 text-center border-t border-slate-200 no-print print:hidden">
+                          <button
+                            onClick={handleGradeTieuhocOnline}
+                            className="bg-amber-600 hover:bg-amber-500 text-white font-black px-6 py-3 rounded-xl shadow-lg text-sm transition transform hover:scale-105 active:scale-95"
+                          >
+                            🚀 Nộp bài & Xem kết quả chấm điểm
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="bg-white rounded-2xl p-12 text-center border border-amber-200 space-y-3">
+                      <div className="text-4xl">📚</div>
+                      <div className="font-black text-slate-800 text-base">Đang tải dữ liệu đề thi Toán 5...</div>
+                      <p className="text-xs text-slate-500">Vui lòng chờ trong giây lát hoặc chọn mã đề khác.</p>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
 
             {/* ============================================================== */}
             {/* MÀN HÌNH CHUYÊN ĐỀ: ÔN THI VÀO LỚP 10 THEO CHỦ ĐỀ (8 CHUYÊN ĐỀ)  */}
