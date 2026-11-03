@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-BUILD MASTER DATABASE CHO TOÁN TIỂU HỌC (LỚP 5 - KNTT)
+BUILD MASTER DATABASE CHO TOÁN TIỂU HỌC (LỚP 4 & LỚP 5 - KNTT)
 Tổng hợp toàn bộ:
-1. 4 Kỳ thi định kỳ: GK1 (8 đề), CK1 (8 đề), GK2 (8 đề), CK2 (8 đề) -> 32 đề
-2. 11 Chủ đề bài học SGK (Bài 1 -> Bài 60, mỗi bài 3 đề) -> 180 đề
+1. Toán 5: 32 đề định kỳ + 180 đề theo bài = 212 đề
+2. Toán 4: 32 đề định kỳ + đề theo bài học SGK
 Xuất ra:
 - tieuhocExamsData.js (thư mục gốc)
+- dist/tieuhocExamsData.js
 - src/data/tieuhocExamsData.js
 - src/data/generated/tieuhocExamsData.js
 - tieuhoc_exams_data.json
@@ -15,6 +16,7 @@ import sys
 import os
 import json
 import importlib
+import re
 from datetime import datetime
 
 sys.stdout.reconfigure(encoding='utf-8')
@@ -22,82 +24,111 @@ sys.stdout.reconfigure(encoding='utf-8')
 from tieuhoc_curriculum_def import TIEUHOC_CURRICULUM
 
 def build_all():
-    print("=== BẮT ĐẦU TỔNG HỢP MASTER DATABASE TOÁN 5 ===")
+    print("=== BẮT ĐẦU TỔNG HỢP MASTER DATABASE TOÁN TIỂU HỌC (LỚP 1 ĐẾN 5) ===")
     all_exams = {}
 
-    # 1. Thu thập Đề định kỳ GK1
+    # =========================================================================
+    # 1. TOÁN 1
+    # =========================================================================
     try:
-        import generator_th5_gk1
-        gk1 = generator_th5_gk1.get_th5_gk1_exams()
-        all_exams.update(gk1)
-        print(f"-> Nạp thành công {len(gk1)} đề Giữa học kì 1 (GK1)")
+        import generator_th1_periodic
+        e1 = generator_th1_periodic.get_th1_exams()
+        all_exams.update(e1)
+        print(f"-> [Toán 1] Nạp {len(e1)} đề định kỳ từ generator_th1_periodic")
     except Exception as e:
-        print(f"[!] Lỗi nạp GK1: {e}")
+        print(f"Lỗi nạp Toán 1: {e}")
 
-    # 2. Thu thập Đề định kỳ CK1
+    # =========================================================================
+    # 2. TOÁN 2
+    # =========================================================================
     try:
-        import generator_th5_ck1
-        ck1 = generator_th5_ck1.get_th5_ck1_exams()
-        all_exams.update(ck1)
-        print(f"-> Nạp thành công {len(ck1)} đề Cuối học kì 1 (CK1)")
+        import generator_th2_periodic
+        e2 = generator_th2_periodic.get_th2_exams()
+        all_exams.update(e2)
+        print(f"-> [Toán 2] Nạp {len(e2)} đề định kỳ từ generator_th2_periodic")
     except Exception as e:
-        print(f"[!] Lỗi nạp CK1: {e}")
+        print(f"Lỗi nạp Toán 2: {e}")
 
-    # 3. Thu thập Đề định kỳ GK2
+    # =========================================================================
+    # 3. TOÁN 3
+    # =========================================================================
     try:
-        import generator_th5_gk2
-        gk2 = generator_th5_gk2.get_th5_gk2_exams()
-        all_exams.update(gk2)
-        print(f"-> Nạp thành công {len(gk2)} đề Giữa học kì 2 (GK2)")
+        import generator_th3_periodic
+        e3 = generator_th3_periodic.get_th3_exams()
+        all_exams.update(e3)
+        print(f"-> [Toán 3] Nạp {len(e3)} đề định kỳ từ generator_th3_periodic")
     except Exception as e:
-        print(f"[!] Lỗi nạp GK2: {e}")
+        print(f"Lỗi nạp Toán 3: {e}")
 
-    # 4. Thu thập Đề định kỳ CK2
-    try:
-        import generator_th5_ck2
-        ck2 = generator_th5_ck2.get_th5_ck2_exams()
-        all_exams.update(ck2)
-        print(f"-> Nạp thành công {len(ck2)} đề Cuối học kì 2 (CK2)")
-    except Exception as e:
-        print(f"[!] Lỗi nạp CK2: {e}")
-
-    # 5. Thu thập Đề theo bài học SGK (Chủ đề 1 đến 11)
-    for ch_idx in range(1, 12):
-        builder_name = f"th5_ch{ch_idx}_builder"
+    # =========================================================================
+    # 4. TOÁN 4
+    # =========================================================================
+    # a. Định kỳ Toán 4
+    for term_code in ["gk1", "ck1", "gk2", "ck2"]:
+        mod_name = f"generator_th4_{term_code}"
         try:
-            mod = importlib.import_module(builder_name)
-            func_names = [
-                f"get_all_ch{ch_idx}_exams",
-                f"get_ch{ch_idx}_exams",
-                f"get_th5_ch{ch_idx}_exams",
-                "get_exams",
-                "get_all_exams"
-            ]
-            loaded = False
-            for fname in func_names:
-                if hasattr(mod, fname):
-                    ch_exams = getattr(mod, fname)()
-                    all_exams.update(ch_exams)
-                    print(f"-> Nạp thành công {len(ch_exams)} đề từ {builder_name}.{fname}()")
-                    loaded = True
-                    break
-            if not loaded:
-                print(f"[?] Không tìm thấy hàm xuất đề trong {builder_name}")
+            mod = importlib.import_module(mod_name)
+            func_name = f"get_th4_{term_code}_exams"
+            if hasattr(mod, func_name):
+                exams = getattr(mod, func_name)()
+                all_exams.update(exams)
+                print(f"-> [Toán 4] Nạp {len(exams)} đề từ {mod_name}")
         except Exception as e:
-            # Module chưa sẵn sàng hoặc đang tạo
+            pass
+
+    # b. Theo bài SGK Toán 4 (Chủ đề 1 đến 13)
+    for ch_idx in range(1, 14):
+        mod_name = f"th4_ch{ch_idx}_builder"
+        try:
+            mod = importlib.import_module(mod_name)
+            for fname in [f"get_all_ch{ch_idx}_exams", f"get_ch{ch_idx}_exams", "get_exams", "get_all_exams"]:
+                if hasattr(mod, fname):
+                    exams = getattr(mod, fname)()
+                    all_exams.update(exams)
+                    print(f"-> [Toán 4] Nạp {len(exams)} đề từ {mod_name}.{fname}()")
+                    break
+        except Exception as e:
+            pass
+
+    # =========================================================================
+    # 5. TOÁN 5
+    # =========================================================================
+    # a. Định kỳ Toán 5
+    for term_code in ["gk1", "ck1", "gk2", "ck2"]:
+        mod_name = f"generator_th5_{term_code}"
+        try:
+            mod = importlib.import_module(mod_name)
+            func_name = f"get_th5_{term_code}_exams"
+            if hasattr(mod, func_name):
+                exams = getattr(mod, func_name)()
+                all_exams.update(exams)
+                print(f"-> [Toán 5] Nạp {len(exams)} đề từ {mod_name}")
+        except Exception as e:
+            pass
+
+    # b. Theo bài SGK Toán 5 (Chủ đề 1 đến 11)
+    for ch_idx in range(1, 12):
+        mod_name = f"th5_ch{ch_idx}_builder"
+        try:
+            mod = importlib.import_module(mod_name)
+            for fname in [f"get_all_ch{ch_idx}_exams", f"get_ch{ch_idx}_exams", "get_exams", "get_all_exams"]:
+                if hasattr(mod, fname):
+                    exams = getattr(mod, fname)()
+                    all_exams.update(exams)
+                    print(f"-> [Toán 5] Nạp {len(exams)} đề từ {mod_name}.{fname}()")
+                    break
+        except Exception as e:
             pass
 
     print(f"\n=> TỔNG SỐ ĐỀ ĐÃ NẠP: {len(all_exams)}")
 
     # CHUẨN HÓA TIÊU ĐỀ THEO ĐÚNG RULE[user_global]
     # **Câu [Số]:** và **Bài [Số]:**
-    import re
     for eid, ex in all_exams.items():
         # Chuẩn hóa Part 1
         for idx, q in enumerate(ex.get("part1", [])):
             q_num = q.get("id", idx + 1)
             q_text = q.get("question", "").strip()
-            # Xóa các định dạng sai nếu có
             q_text = re.sub(r"^\*\*(Câu|Bài)\s*\d+[:\.]*\*\*\s*", "", q_text, flags=re.IGNORECASE)
             q_text = re.sub(r"^(Câu|Bài)\s*\d+[:\.]*\s*", "", q_text, flags=re.IGNORECASE)
             q["question"] = f"**Câu {q_num}:** {q_text}"
@@ -119,7 +150,7 @@ def build_all():
     print(f"-> Đã ghi: {json_path}")
 
     # Ghi file JS cho trình duyệt
-    js_content = f"""// DỮ LIỆU ĐỀ THI TOÁN TIỂU HỌC (LỚP 5 - KNTT)
+    js_content = f"""// DỮ LIỆU ĐỀ THI TOÁN TIỂU HỌC (LỚP 4 & LỚP 5 - KNTT)
 // Cập nhật lúc: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 // Bao gồm: Đề kiểm tra theo bài SGK & Đề kiểm tra định kỳ (GK1, CK1, GK2, CK2)
 

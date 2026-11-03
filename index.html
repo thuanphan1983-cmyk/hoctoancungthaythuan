@@ -89,7 +89,7 @@
   <!-- KHTN Database (Hóa học & Vật lý 7, 8, 9 - KNTT) -->
   <script src="khtnExamsData.js"></script>
   <!-- Tiểu học Database (Toán 5 - KNTT) -->
-  <script src="tieuhocExamsData.js"></script>
+  <script src="tieuhocExamsData.js?v=20261103_khoi1to5_v2"></script>
 
   <!-- Curriculum Database -->
 
@@ -1118,6 +1118,7 @@ if (typeof window !== "undefined") {
       #periodic-banner-card,
       #periodic-filter-card,
       #khtn-banner-card,
+      #tieuhoc-grade-top-bar,
       #tieuhoc-banner-card,
       #tieuhoc-filter-card,
       #khtn-filter-card,
@@ -3186,6 +3187,7 @@ if (typeof window !== "undefined") {
           setView("khtn");
         } else if (targetTab === "tieuhoc") {
           setView("tieuhoc");
+          setShowTieuhocGradeModal(true);
         }
         window.scrollTo({ top: 0, behavior: "smooth" });
       };
@@ -3517,6 +3519,7 @@ if (typeof window !== "undefined") {
       // ==============================================================
       const [tieuhocMode, setTieuhocMode] = useState("periodic"); // 'periodic' | 'lesson'
       const [tieuhocGrade, setTieuhocGrade] = useState("5");
+      const [showTieuhocGradeModal, setShowTieuhocGradeModal] = useState(false);
       const [tieuhocPeriodicTerm, setTieuhocPeriodicTerm] = useState("th5_gk1");
       const [tieuhocChapterId, setTieuhocChapterId] = useState("th5_ch1");
       const [tieuhocLessonId, setTieuhocLessonId] = useState("th5_b1");
@@ -3530,11 +3533,46 @@ if (typeof window !== "undefined") {
       const [tieuhocSubmitted, setTieuhocSubmitted] = useState(false);
       const [tieuhocScoreResult, setTieuhocScoreResult] = useState(null);
 
+      // Hàm chọn khối lớp Tiểu học (Lớp 1, 2, 3, 4, 5)
+      const selectTieuhocGrade = (gStr) => {
+        setTieuhocGrade(gStr);
+        setShowTieuhocGradeModal(false);
+        const curr = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
+        const gData = curr[gStr] || curr.grades?.[gStr] || curr || {};
+        
+        const terms = gData.periodic?.terms || [];
+        if (terms.length > 0) {
+          setTieuhocPeriodicTerm(terms[0].id);
+        } else {
+          setTieuhocPeriodicTerm(`th${gStr}_gk1`);
+        }
+
+        const chs = gData.chapters || [];
+        if (chs.length > 0) {
+          setTieuhocChapterId(chs[0].id);
+          if (chs[0].lessons && chs[0].lessons.length > 0) {
+            setTieuhocLessonId(chs[0].lessons[0].id);
+          } else {
+            setTieuhocLessonId(`th${gStr}_b1`);
+          }
+        } else {
+          setTieuhocChapterId(`th${gStr}_ch1`);
+          setTieuhocLessonId(`th${gStr}_b1`);
+        }
+
+        setTieuhocTestNum(1);
+        setIsTakingTieuhocOnline(false);
+        setTieuhocSubmitted(false);
+        setTieuhocScoreResult(null);
+        setShowTieuhocSolution(false);
+      };
+
       // Đồng bộ bài học khi đổi chủ đề
       const handleSelectTieuhocChapter = (chId) => {
         setTieuhocChapterId(chId);
         const curr = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
-        const ch = (curr.chapters || []).find(c => c.id === chId);
+        const gData = curr[tieuhocGrade] || curr.grades?.[tieuhocGrade] || curr || {};
+        const ch = (gData.chapters || []).find(c => c.id === chId);
         if (ch && ch.lessons && ch.lessons.length > 0) {
           setTieuhocLessonId(ch.lessons[0].id);
         }
@@ -3576,16 +3614,17 @@ if (typeof window !== "undefined") {
       const handlePrintTieuhocExam = (includeSolution = false) => {
         setShowTieuhocSolution(includeSolution);
         const curr = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
-        let titleClean = "DE_KIEM_TRA_TOAN_5";
+        const gData = curr[tieuhocGrade] || curr.grades?.[tieuhocGrade] || curr || {};
+        let titleClean = `DE_KIEM_TRA_TOAN_${tieuhocGrade}`;
         if (tieuhocMode === "periodic") {
-          const termObj = (curr.periodic?.terms || []).find(t => t.id === tieuhocPeriodicTerm);
+          const termObj = (gData.periodic?.terms || []).find(t => t.id === tieuhocPeriodicTerm);
           const tName = termObj ? termObj.name.toUpperCase().replace(/\s+/g, '_') : "DINH_KY";
-          titleClean = `TOAN_5_${tName}_DE_SO_0${tieuhocTestNum}`;
+          titleClean = `TOAN_${tieuhocGrade}_${tName}_DE_SO_0${tieuhocTestNum}`;
         } else {
-          const ch = (curr.chapters || []).find(c => c.id === tieuhocChapterId);
+          const ch = (gData.chapters || []).find(c => c.id === tieuhocChapterId);
           const l = (ch?.lessons || []).find(item => item.id === tieuhocLessonId);
           const lName = l ? l.name.toUpperCase().replace(/[:\/]/g, '_').replace(/\s+/g, '_') : "BAI_HOC";
-          titleClean = `TOAN_5_${lName}_DE_SO_0${tieuhocTestNum}`;
+          titleClean = `TOAN_${tieuhocGrade}_${lName}_DE_SO_0${tieuhocTestNum}`;
         }
         if (includeSolution) titleClean += "_DAP_AN_LOI_GIAI";
 
@@ -5496,7 +5535,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   <span>🔬</span> MÔN: KHTN
                 </button>
 
-                {/* NÚT 5: 🎒 DÀNH CHO HS TIỂU HỌC */}
+                {/* NÚT 5: 🎒 DÀNH CHO HS TIỂU HỌC (CÓ CÁC NÚT TÙY CHỌN LỚP 1; 2; 3; 4; 5) */}
                 <button
                   onClick={() => handleNavigateTab("tieuhoc")}
                   className={`px-3.5 md:px-4 py-2 rounded-xl text-xs md:text-sm font-bold flex items-center gap-1.5 transition ${
@@ -5504,10 +5543,38 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-amber-300 font-black"
                       : "bg-indigo-800 hover:bg-indigo-700 text-white"
                   }`}
-                  title="Dành cho học sinh Tiểu học - Đề kiểm tra theo bài và định kỳ Toán 5"
+                  title="Dành cho học sinh Tiểu học - Đề kiểm tra Toán Lớp 1, 2, 3, 4, 5"
                 >
                   <span>🎒</span> DÀNH CHO HS TIỂU HỌC
                 </button>
+
+                {/* TÙY CHỌN 5 NÚT KHỐI 1 - 5 TRÊN THANH HEADER KHI CHỌN TIỂU HỌC */}
+                {view === "tieuhoc" && (
+                  <div className="flex items-center gap-1 bg-amber-500/30 p-1 rounded-xl border border-amber-300/60 shadow-inner">
+                    {[
+                      { g: "1", icon: "🐣", name: "Khối 1" },
+                      { g: "2", icon: "🐥", name: "Khối 2" },
+                      { g: "3", icon: "🦁", name: "Khối 3" },
+                      { g: "4", icon: "🐬", name: "Khối 4" },
+                      { g: "5", icon: "🎓", name: "Khối 5" }
+                    ].map(item => (
+                      <button
+                        key={item.g}
+                        type="button"
+                        onClick={() => selectTieuhocGrade(item.g)}
+                        title={`Xem đề thi Toán ${item.name}`}
+                        className={`px-2.5 md:px-3 py-1 rounded-lg text-xs md:text-sm font-black transition flex items-center gap-1 ${
+                          tieuhocGrade === item.g
+                            ? "bg-amber-400 text-slate-950 shadow-md ring-2 ring-white scale-105"
+                            : "bg-indigo-900/80 hover:bg-indigo-800 text-white"
+                        }`}
+                      >
+                        <span>{item.icon}</span>
+                        <span>{item.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
 
                 {/* Nút phụ Thống kê lớp */}
                 <button
@@ -5550,7 +5617,47 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
             </div>
           </header>
 
-
+          {/* DẢI THANH ĐIỀU HƯỚNG CHỌN KHỐI LỚP TIỂU HỌC (LỚP 1 - LỚP 5) */}
+          {view === "tieuhoc" && (
+            <div className="bg-gradient-to-r from-amber-500 via-amber-600 to-orange-600 text-white shadow-md border-b-2 border-amber-400 py-3 px-4 sticky top-0 z-30 no-print print:hidden">
+              <div className="max-w-5xl w-full mx-auto flex flex-wrap items-center justify-between gap-3">
+                <div className="flex flex-wrap items-center gap-2 md:gap-3">
+                  <span className="text-xs md:text-sm font-black uppercase tracking-wider text-amber-950 bg-amber-300 px-3 py-1 rounded-xl flex items-center gap-1.5 shadow-sm">
+                    <span>🎒</span> CHỌN KHỐI LỚP:
+                  </span>
+                  <div className="flex flex-wrap gap-1.5 md:gap-2">
+                    {[
+                      { g: "1", icon: "🐣", name: "Khối 1", sub: "32 đề" },
+                      { g: "2", icon: "🐥", name: "Khối 2", sub: "32 đề" },
+                      { g: "3", icon: "🦁", name: "Khối 3", sub: "32 đề" },
+                      { g: "4", icon: "🐬", name: "Khối 4", sub: "221 đề" },
+                      { g: "5", icon: "🎓", name: "Khối 5", sub: "212 đề" }
+                    ].map(item => (
+                      <button
+                        key={item.g}
+                        type="button"
+                        onClick={() => selectTieuhocGrade(item.g)}
+                        className={`px-3 md:px-4 py-1.5 rounded-xl text-xs md:text-sm font-black flex items-center gap-1.5 transition shadow-sm ${
+                          tieuhocGrade === item.g
+                            ? "bg-white text-amber-950 ring-4 ring-amber-300 shadow-lg scale-105"
+                            : "bg-amber-700/80 hover:bg-amber-700 text-white border border-amber-400/40"
+                        }`}
+                      >
+                        <span>{item.icon}</span>
+                        <span>{item.name}</span>
+                        <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${tieuhocGrade === item.g ? "bg-amber-100 text-amber-900" : "bg-black/20 text-amber-100"}`}>
+                          {item.sub}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+                <div className="text-right hidden sm:block text-xs font-semibold text-amber-100">
+                  <span>Toán Tiểu học • Kết nối tri thức với cuộc sống</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           <main className="flex-1 max-w-5xl w-full mx-auto p-4 md:p-6 space-y-6">
 
@@ -9553,17 +9660,18 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
             {/* ============================================================== */}
-            {/* MÀN HÌNH CHUYÊN BIỆT: DÀNH CHO HỌC SINH TIỂU HỌC (LỚP 5 - KNTT) */}
+            {/* MÀN HÌNH CHUYÊN BIỆT: DÀNH CHO HỌC SINH TIỂU HỌC (LỚP 1 ĐẾN 5 - KNTT) */}
             {/* ============================================================== */}
             {view === "tieuhoc" && (() => {
               const curriculum = (typeof window !== "undefined" && window.TIEUHOC_CURRICULUM) || {};
+              const gradeData = curriculum[tieuhocGrade] || curriculum.grades?.[tieuhocGrade] || curriculum || {};
               const examBank = (typeof window !== "undefined" && window.TIEUHOC_EXAMS_DATA) || {};
               const currentExam = getTieuhocExam();
 
-              const periodicTerms = curriculum.periodic?.terms || [];
+              const periodicTerms = gradeData.periodic?.terms || [];
               const currentTermObj = periodicTerms.find(t => t.id === tieuhocPeriodicTerm) || periodicTerms[0] || null;
 
-              const chapters = curriculum.chapters || [];
+              const chapters = gradeData.chapters || [];
               const currentChapter = chapters.find(c => c.id === tieuhocChapterId) || chapters[0] || null;
               const lessons = currentChapter?.lessons || [];
               const currentLesson = lessons.find(l => l.id === tieuhocLessonId) || lessons[0] || null;
@@ -9572,6 +9680,121 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               return (
                 <div className="space-y-6">
+                  {/* MODAL CHỌN KHỐI LỚP TIỂU HỌC (LỚP 1, 2, 3, 4, 5) */}
+                  {showTieuhocGradeModal && (
+                    <div className="fixed inset-0 z-50 bg-slate-900/75 backdrop-blur-sm flex items-center justify-center p-4">
+                      <div className="bg-white rounded-3xl max-w-3xl w-full p-6 md:p-8 shadow-2xl border-4 border-amber-300 space-y-6 animate-in fade-in zoom-in duration-200">
+                        <div className="text-center space-y-2">
+                          <div className="w-16 h-16 bg-amber-100 text-amber-700 rounded-3xl flex items-center justify-center text-4xl mx-auto shadow-inner">
+                            🎒
+                          </div>
+                          <h3 className="text-xl md:text-2xl font-black text-amber-950 uppercase tracking-wide">
+                            CHÀO MỪNG EM ĐẾN VỚI TOÁN TIỂU HỌC! ✨
+                          </h3>
+                          <p className="text-xs md:text-sm font-semibold text-slate-600">
+                            Em đang học lớp mấy? Hãy chọn khối lớp của mình để vào ngay kho đề chuẩn nhé:
+                          </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-5 gap-3">
+                          {[
+                            { g: "1", icon: "🐣", name: "Toán Lớp 1", desc: "Số 0-100 • Cộng trừ cơ bản • Hình khối", border: "border-pink-300", bg: "hover:border-pink-500" },
+                            { g: "2", icon: "🐥", name: "Toán Lớp 2", desc: "Cộng trừ có nhớ • Bảng 2, 5 • kg, lít", border: "border-amber-300", bg: "hover:border-amber-500" },
+                            { g: "3", icon: "🦁", name: "Toán Lớp 3", desc: "Bảng cửu chương • Chu vi, diện tích", border: "border-emerald-300", bg: "hover:border-emerald-500" },
+                            { g: "4", icon: "🐬", name: "Toán Lớp 4", desc: "Phân số • Số lớn • Hình bình hành, thoi", border: "border-blue-300", bg: "hover:border-blue-500" },
+                            { g: "5", icon: "🎓", name: "Toán Lớp 5", desc: "Số thập phân • Tỉ số % • Chuyển động đều", border: "border-indigo-300", bg: "hover:border-indigo-500" }
+                          ].map(item => (
+                            <button
+                              key={item.g}
+                              type="button"
+                              onClick={() => selectTieuhocGrade(item.g)}
+                              className={`p-4 rounded-2xl border-2 ${item.border} ${item.bg} text-center transition hover:scale-105 active:scale-95 shadow-sm flex flex-col items-center justify-between group ${
+                                tieuhocGrade === item.g
+                                  ? "ring-4 ring-amber-400 bg-amber-50 shadow-md scale-105"
+                                  : "bg-slate-50 hover:bg-white"
+                              }`}
+                            >
+                              <div className="text-3xl mb-1 group-hover:scale-110 transition">{item.icon}</div>
+                              <div className="font-black text-sm md:text-base text-slate-900 group-hover:text-amber-700">
+                                {item.name}
+                              </div>
+                              <div className="text-[10px] text-slate-500 font-medium leading-tight mt-1">
+                                {item.desc}
+                              </div>
+                              <span className={`mt-3 text-[10px] font-black uppercase px-2.5 py-1 rounded-full transition ${
+                                tieuhocGrade === item.g
+                                  ? "bg-amber-600 text-white"
+                                  : "bg-slate-200 text-slate-700 group-hover:bg-amber-500 group-hover:text-white"
+                              }`}>
+                                Vào Lớp {item.g}
+                              </span>
+                            </button>
+                          ))}
+                        </div>
+
+                        <div className="flex justify-between items-center pt-3 border-t border-slate-100 text-xs text-slate-500">
+                          <span className="font-semibold text-amber-900">Bộ sách Kết nối tri thức với cuộc sống • Chuẩn Bộ GD&ĐT</span>
+                          <button
+                            type="button"
+                            onClick={() => setShowTieuhocGradeModal(false)}
+                            className="px-4 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 font-bold text-slate-700 transition"
+                          >
+                            Đóng lại
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* 5 NÚT CHỌN KHỐI 1; KHỐI 2; KHỐI 3; KHỐI 4; KHỐI 5 NỔI BẬT Ở ĐẦU TRANG */}
+                  <div id="tieuhoc-grade-top-bar" className="bg-white p-4 md:p-5 rounded-2xl shadow-sm border-2 border-amber-400 no-print print:hidden space-y-3">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <span className="text-2xl md:text-3xl">🎒</span>
+                        <div>
+                          <h3 className="text-sm md:text-base font-black text-amber-950 uppercase tracking-wide">
+                            CHỌN KHỐI LỚP TIỂU HỌC (BỘ SÁCH KẾT NỐI TRI THỨC VỚI CUỘC SỐNG):
+                          </h3>
+                          <p className="text-xs text-slate-500 font-medium">
+                            Học sinh bấm chọn một trong 5 khối lớp dưới đây để vào đề ôn tập theo bài và định kỳ:
+                          </p>
+                        </div>
+                      </div>
+                      <span className="text-xs font-black text-amber-900 bg-amber-100 px-3 py-1 rounded-xl border border-amber-300">
+                        Đang chọn: Khối {tieuhocGrade}
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5 md:gap-3">
+                      {[
+                        { g: "1", icon: "🐣", name: "Khối 1", sub: "32 đề định kỳ" },
+                        { g: "2", icon: "🐥", name: "Khối 2", sub: "32 đề định kỳ" },
+                        { g: "3", icon: "🦁", name: "Khối 3", sub: "32 đề định kỳ" },
+                        { g: "4", icon: "🐬", name: "Khối 4", sub: "221 đề (32 ĐK + 189 bài)" },
+                        { g: "5", icon: "🎓", name: "Khối 5", sub: "212 đề (32 ĐK + 180 bài)" }
+                      ].map(item => (
+                        <button
+                          key={item.g}
+                          type="button"
+                          onClick={() => selectTieuhocGrade(item.g)}
+                          className={`p-3 md:p-4 rounded-xl border-2 text-center transition flex flex-col items-center justify-center gap-1.5 shadow-sm active:scale-95 ${
+                            tieuhocGrade === item.g
+                              ? "bg-amber-500 text-white border-amber-600 shadow-md ring-4 ring-amber-300 scale-105 font-black"
+                              : "bg-slate-50 hover:bg-amber-50 text-slate-800 border-slate-200 hover:border-amber-400 font-bold"
+                          }`}
+                        >
+                          <span className="text-3xl">{item.icon}</span>
+                          <span className="text-sm md:text-base font-black tracking-wide">{item.name}</span>
+                          <span className={`text-[10px] md:text-[11px] font-semibold px-2 py-0.5 rounded-full ${
+                            tieuhocGrade === item.g ? "bg-amber-100 text-amber-900" : "bg-slate-200 text-slate-600"
+                          }`}>
+                            {item.sub}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
                   {/* BANNER DÀNH CHO TIỂU HỌC */}
                   <div id="tieuhoc-banner-card" className="bg-gradient-to-r from-amber-600 via-orange-600 to-amber-700 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print print:hidden">
                     <div className="flex flex-wrap items-center justify-between gap-4">
@@ -9582,21 +9805,54 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         <div>
                           <div className="flex items-center gap-2">
                             <span className="bg-yellow-300 text-amber-950 text-[10px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow-sm">
-                              TOÁN TIỂU HỌC • LỚP 5
+                              TOÁN TIỂU HỌC • LỚP {tieuhocGrade}
                             </span>
                             <span className="text-xs text-amber-100 font-semibold">Bộ sách Kết nối tri thức với cuộc sống • 40 phút • 10.0 điểm</span>
                           </div>
                           <h2 className="text-xl md:text-2xl font-black text-white mt-1 uppercase tracking-wide drop-shadow-sm">
-                            HỆ THỐNG ĐỀ KIỂM TRA TOÁN 5 (THEO BÀI & ĐỊNH KỲ)
+                            HỆ THỐNG ĐỀ KIỂM TRA TOÁN {tieuhocGrade} (THEO BÀI & ĐỊNH KỲ)
                           </h2>
                           <p className="text-xs md:text-sm text-amber-100 mt-0.5">
                             Cấu trúc chuẩn: 6 câu trắc nghiệm (3,0 điểm) + 6 bài tự luận (7,0 điểm) • Có chừa sẵn dòng kẻ làm bài khi in ấn A4 tiết kiệm giấy
                           </p>
+                          {/* DÃY NÚT CHỌN LỚP TRỰC TIẾP TRÊN BANNER */}
+                          <div className="flex flex-wrap items-center gap-1.5 pt-2">
+                            <span className="text-[11px] font-bold text-amber-200 uppercase mr-1">Chuyển lớp nhanh:</span>
+                            {[
+                              { g: "1", icon: "🐣", name: "Lớp 1" },
+                              { g: "2", icon: "🐥", name: "Lớp 2" },
+                              { g: "3", icon: "🦁", name: "Lớp 3" },
+                              { g: "4", icon: "🐬", name: "Lớp 4" },
+                              { g: "5", icon: "🎓", name: "Lớp 5" }
+                            ].map(item => (
+                              <button
+                                key={item.g}
+                                type="button"
+                                onClick={() => selectTieuhocGrade(item.g)}
+                                className={`px-2.5 py-1 rounded-lg text-xs font-black transition flex items-center gap-1 ${
+                                  tieuhocGrade === item.g
+                                    ? "bg-yellow-300 text-slate-950 ring-2 ring-white shadow font-black"
+                                    : "bg-white/20 hover:bg-white/30 text-white border border-white/30"
+                                }`}
+                              >
+                                <span>{item.icon}</span> {item.name}
+                              </button>
+                            ))}
+                          </div>
                         </div>
                       </div>
 
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => setShowTieuhocGradeModal(true)}
+                          className="bg-yellow-400 hover:bg-yellow-300 text-amber-950 font-black px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition active:scale-95"
+                          title="Bấm để chọn lớp 1, 2, 3, 4 hoặc 5"
+                        >
+                          <span>🔄</span> Đổi Khối lớp (1 - 5)
+                        </button>
                       {currentExam && (
-                        <div className="flex flex-wrap items-center gap-2">
+                        <>
                           <button
                             onClick={() => handlePrintTieuhocExam(false)}
                             className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center gap-1.5 transition active:scale-95"
@@ -9611,17 +9867,56 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           >
                             <span>📄</span> Xuất PDF Đề & Lời giải
                           </button>
-                        </div>
+                        </>
                       )}
+                      </div>
                     </div>
                   </div>
 
                   {/* BẢNG CHỌN PHÂN HỆ: THEO BÀI SGK HOẶC ĐỊNH KỲ */}
                   <div id="tieuhoc-filter-card" className="bg-white rounded-2xl shadow-sm border border-amber-200/80 p-5 md:p-6 space-y-5 no-print print:hidden">
-                    {/* CHỌN CHẾ ĐỘ: THEO BÀI HAY ĐỊNH KỲ */}
+                    {/* 1. CHỌN KHỐI LỚP TIỂU HỌC (LỚP 1; 2; 3; 4; 5) */}
                     <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <div className="text-xs font-black text-amber-900 uppercase tracking-wider flex items-center gap-1.5">
+                          <span>⭐</span> 1. CHỌN KHỐI LỚP (LỚP 1 - LỚP 5):
+                        </div>
+                        <span className="text-[11px] font-bold text-amber-800 bg-amber-50 px-2.5 py-0.5 rounded-lg border border-amber-200">
+                          Đang chọn: Toán Lớp {tieuhocGrade}
+                        </span>
+                      </div>
+                      <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                        {[
+                          { g: "1", icon: "🐣", name: "Toán Lớp 1", count: "32 đề" },
+                          { g: "2", icon: "🐥", name: "Toán Lớp 2", count: "32 đề" },
+                          { g: "3", icon: "🦁", name: "Toán Lớp 3", count: "32 đề" },
+                          { g: "4", icon: "🐬", name: "Toán Lớp 4", count: "221 đề" },
+                          { g: "5", icon: "🎓", name: "Toán Lớp 5", count: "212 đề" }
+                        ].map(item => (
+                          <button
+                            key={item.g}
+                            type="button"
+                            onClick={() => selectTieuhocGrade(item.g)}
+                            className={`p-3 rounded-xl border-2 text-center transition flex flex-col items-center justify-center gap-1 ${
+                              tieuhocGrade === item.g
+                                ? "bg-amber-500 text-white border-amber-600 shadow-md ring-4 ring-amber-300 scale-105 font-black"
+                                : "bg-slate-50 hover:bg-amber-50 text-slate-700 border-slate-200 hover:border-amber-300 font-bold"
+                            }`}
+                          >
+                            <span className="text-2xl">{item.icon}</span>
+                            <span className="text-xs md:text-sm font-black">{item.name}</span>
+                            <span className={`text-[10px] font-semibold ${tieuhocGrade === item.g ? "text-amber-100" : "text-slate-500"}`}>
+                              {item.count}
+                            </span>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* 2. CHỌN CHẾ ĐỘ: THEO BÀI HAY ĐỊNH KỲ */}
+                    <div className="pt-2 border-t border-amber-100">
                       <div className="text-xs font-black text-amber-900 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                        <span>🎯</span> 1. CHỌN CHẾ ĐỘ KIỂM TRA:
+                        <span>🎯</span> 2. CHỌN CHẾ ĐỘ KIỂM TRA:
                       </div>
                       <div className="flex flex-wrap gap-2.5">
                         <button
@@ -9665,7 +9960,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-3 border-t border-amber-100">
                         <div>
                           <label className="block text-xs font-black text-slate-700 mb-1.5">
-                            2. CHỌN ĐỢT KIỂM TRA ĐỊNH KỲ:
+                            3. CHỌN ĐỢT KIỂM TRA ĐỊNH KỲ:
                           </label>
                           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                             {periodicTerms.map(t => (
@@ -9688,7 +9983,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         <div>
                           <div className="flex items-center justify-between mb-1.5">
                             <label className="text-xs font-black text-slate-700">
-                              3. CHỌN MÃ ĐỀ (8 ĐỀ ĐỘC LẬP 100%):
+                              4. CHỌN MÃ ĐỀ (8 ĐỀ ĐỘC LẬP 100%):
                             </label>
                             <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
                               Đề 01 - Đề 08 mở tự do
@@ -9723,7 +10018,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-3 border-t border-amber-100">
                         <div>
                           <label className="block text-xs font-black text-slate-700 mb-1.5">
-                            2. CHỌN CHỦ ĐỀ (11 CHỦ ĐỀ):
+                            3. CHỌN CHỦ ĐỀ:
                           </label>
                           <select
                             value={tieuhocChapterId}
@@ -9740,7 +10035,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                         <div>
                           <label className="block text-xs font-black text-slate-700 mb-1.5">
-                            3. CHỌN BÀI HỌC CỤ THỂ:
+                            4. CHỌN BÀI HỌC:
                           </label>
                           <select
                             value={tieuhocLessonId}
@@ -9758,7 +10053,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         <div>
                           <div className="flex items-center justify-between mb-1.5">
                             <label className="text-xs font-black text-slate-700">
-                              4. CHỌN MÃ ĐỀ (3 ĐỀ ĐỘC LẬP):
+                              5. CHỌN MÃ ĐỀ (3 ĐỀ ĐỘC LẬP):
                             </label>
                             <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
                               3 đề hoàn toàn khác nhau
@@ -9849,11 +10144,11 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         <div className="flex justify-between items-start text-xs md:text-sm font-semibold">
                           <div className="space-y-1">
                             <div className="font-bold uppercase">TRƯỜNG TIỂU HỌC: ....................................................</div>
-                            <div>Lớp: 5..... Họ và tên: .........................................................</div>
+                            <div>Lớp: {tieuhocGrade}..... Họ và tên: .........................................................</div>
                           </div>
                           <div className="text-right space-y-1">
                             <div className="font-black uppercase text-sm md:text-base text-slate-900">
-                              {currentExam.title || "ĐỀ KIỂM TRA MÔN TOÁN LỚP 5"}
+                              {currentExam.title || (`ĐỀ KIỂM TRA MÔN TOÁN LỚP ${tieuhocGrade}`)}
                             </div>
                             <div className="italic text-slate-600">
                               Thời gian làm bài: {currentExam.duration || "40 phút"} (Không kể thời gian phát đề)
@@ -10030,10 +10325,26 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       )}
                     </div>
                   ) : (
-                    <div className="bg-white rounded-2xl p-12 text-center border border-amber-200 space-y-3">
-                      <div className="text-4xl">📚</div>
-                      <div className="font-black text-slate-800 text-base">Đang tải dữ liệu đề thi Toán 5...</div>
-                      <p className="text-xs text-slate-500">Vui lòng chờ trong giây lát hoặc chọn mã đề khác.</p>
+                    <div className="bg-white rounded-2xl p-12 text-center border border-amber-200 space-y-4">
+                      <div className="text-5xl animate-bounce">🎒</div>
+                      <div className="font-black text-slate-800 text-lg">
+                        Đang cập nhật đề kiểm tra bài học này cho Toán Lớp {tieuhocGrade}...
+                      </div>
+                      <p className="text-xs md:text-sm text-slate-600 max-w-lg mx-auto">
+                        Em hãy chuyển sang mục <b>"ĐỀ KIỂM TRA ĐỊNH KỲ"</b> để làm ngay 32 đề kiểm tra (Giữa kì 1, Cuối kì 1, Giữa kì 2, Cuối kì 2) của Toán Lớp {tieuhocGrade} nhé!
+                      </p>
+                      <div className="pt-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setTieuhocMode("periodic");
+                            setTieuhocTestNum(1);
+                          }}
+                          className="px-5 py-2.5 bg-amber-600 hover:bg-amber-500 text-white font-black text-xs md:text-sm rounded-xl shadow-md transition"
+                        >
+                          📝 Xem ngay 32 Đề Định kỳ Toán Lớp {tieuhocGrade}
+                        </button>
+                      </div>
                     </div>
                   )}
                 </div>
