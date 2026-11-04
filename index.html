@@ -3075,7 +3075,574 @@ if (typeof window !== "undefined") {
       };
     };
 
-    function App() {
+
+    // =========================================================================
+    // BẢNG VẼ HÌNH HỌC, TRỤC SỐ & ĐƯỜNG TRÒN TRỰC TUYẾN DÀNH CHO HỌC SINH
+    // Hỗ trợ vẽ tự do, vẽ đoạn thẳng, đường tròn, trục số, tam giác, gán nhãn
+    // Tương thích 100% chuột máy tính và cảm ứng điện thoại (touch events)
+    // =========================================================================
+    function DrawingBoardModal({ targetId, onClose, onSave, initialImage }) {
+      const canvasRef = React.useRef(null);
+      const [tool, setTool] = React.useState("pen"); // 'pen' | 'line' | 'circle' | 'rect' | 'triangle' | 'eraser' | 'label'
+      const [color, setColor] = React.useState("#000000");
+      const [lineWidth, setLineWidth] = React.useState(2.5);
+      const [isDashed, setIsDashed] = React.useState(false);
+      const [showGrid, setShowGrid] = React.useState(true);
+      const [selectedLabel, setSelectedLabel] = React.useState("A");
+      const [history, setHistory] = React.useState([]);
+
+      const isDrawingRef = React.useRef(false);
+      const startPosRef = React.useRef({ x: 0, y: 0 });
+      const snapshotRef = React.useRef(null);
+
+      const saveState = () => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        try {
+          const data = canvas.toDataURL("image/png");
+          setHistory(prev => [...prev.slice(-15), data]);
+        } catch (e) {}
+      };
+
+      React.useEffect(() => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        if (initialImage) {
+          const img = new Image();
+          img.onload = () => {
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+            saveState();
+          };
+          img.src = initialImage;
+        } else {
+          saveState();
+        }
+      }, []);
+
+      const handleUndo = () => {
+        if (history.length <= 1) return;
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const prevHistory = history.slice(0, -1);
+        const lastData = prevHistory[prevHistory.length - 1];
+        setHistory(prevHistory);
+
+        const img = new Image();
+        img.onload = () => {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          ctx.drawImage(img, 0, 0);
+        };
+        img.src = lastData;
+      };
+
+      const handleClear = () => {
+        if (!confirm("Em có muốn xóa sạch để vẽ lại từ đầu không?")) return;
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        saveState();
+      };
+
+      const getCoords = (e) => {
+        const canvas = canvasRef.current;
+        const rect = canvas.getBoundingClientRect();
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        const scaleX = canvas.width / rect.width;
+        const scaleY = canvas.height / rect.height;
+        return {
+          x: (clientX - rect.left) * scaleX,
+          y: (clientY - rect.top) * scaleY
+        };
+      };
+
+      const handleStart = (e) => {
+        if (e.touches && e.touches.length > 1) return;
+        e.preventDefault();
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const pos = getCoords(e);
+        isDrawingRef.current = true;
+        startPosRef.current = pos;
+        snapshotRef.current = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+        ctx.strokeStyle = (tool === "eraser") ? "#ffffff" : color;
+        ctx.lineWidth = (tool === "eraser") ? 22 : lineWidth;
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
+        ctx.setLineDash(isDashed && tool !== "eraser" ? [8, 6] : []);
+
+        if (tool === "pen" || tool === "eraser") {
+          ctx.beginPath();
+          ctx.moveTo(pos.x, pos.y);
+          ctx.lineTo(pos.x, pos.y);
+          ctx.stroke();
+        } else if (tool === "label") {
+          ctx.save();
+          ctx.font = selectedLabel === "///" ? "bold 20px sans-serif" : "italic bold 18px 'Times New Roman', serif";
+          ctx.fillStyle = color;
+          ctx.fillText(selectedLabel, pos.x - 6, pos.y + 6);
+          ctx.restore();
+          isDrawingRef.current = false;
+          saveState();
+        }
+      };
+
+      const handleMove = (e) => {
+        if (!isDrawingRef.current) return;
+        if (e.touches && e.touches.length > 1) return;
+        e.preventDefault();
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const pos = getCoords(e);
+
+        if (tool === "pen" || tool === "eraser") {
+          ctx.lineTo(pos.x, pos.y);
+          ctx.stroke();
+        } else {
+          if (snapshotRef.current) {
+            ctx.putImageData(snapshotRef.current, 0, 0);
+          }
+          ctx.strokeStyle = color;
+          ctx.lineWidth = lineWidth;
+          ctx.lineCap = "round";
+          ctx.lineJoin = "round";
+          ctx.setLineDash(isDashed ? [8, 6] : []);
+
+          const start = startPosRef.current;
+          if (tool === "line") {
+            ctx.beginPath();
+            ctx.moveTo(start.x, start.y);
+            ctx.lineTo(pos.x, pos.y);
+            ctx.stroke();
+          } else if (tool === "circle") {
+            const r = Math.hypot(pos.x - start.x, pos.y - start.y);
+            ctx.beginPath();
+            ctx.arc(start.x, start.y, r, 0, Math.PI * 2);
+            ctx.stroke();
+          } else if (tool === "rect") {
+            ctx.strokeRect(start.x, start.y, pos.x - start.x, pos.y - start.y);
+          } else if (tool === "triangle") {
+            ctx.beginPath();
+            ctx.moveTo(start.x, pos.y);
+            ctx.lineTo((start.x + pos.x) / 2, start.y);
+            ctx.lineTo(pos.x, pos.y);
+            ctx.closePath();
+            ctx.stroke();
+          }
+        }
+      };
+
+      const handleEnd = (e) => {
+        if (!isDrawingRef.current) return;
+        isDrawingRef.current = false;
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+
+        if (tool === "circle") {
+          const start = startPosRef.current;
+          ctx.save();
+          ctx.fillStyle = color;
+          ctx.beginPath();
+          ctx.arc(start.x, start.y, 3, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+        }
+        saveState();
+      };
+
+      // MẪU 1: VẼ TRỤC SỐ TỰ ĐỘNG CHUẨN SGK
+      const handleInsertNumberLine = () => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const y = canvas.height * 0.52;
+        const xStart = 45;
+        const xEnd = canvas.width - 45;
+        const step = (xEnd - xStart) / 8;
+
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.lineWidth = 2.5;
+        ctx.setLineDash([]);
+
+        // Đường thẳng chính
+        ctx.beginPath();
+        ctx.moveTo(xStart, y);
+        ctx.lineTo(xEnd, y);
+        ctx.stroke();
+
+        // Mũi tên chiều dương
+        ctx.beginPath();
+        ctx.moveTo(xEnd - 12, y - 7);
+        ctx.lineTo(xEnd, y);
+        ctx.lineTo(xEnd - 12, y + 7);
+        ctx.stroke();
+
+        ctx.font = "italic bold 17px 'Times New Roman', serif";
+        ctx.fillText("x", xEnd - 2, y - 12);
+
+        // Vạch chia & số: -3, -2, -1, 0, 1, 2, 3
+        const labels = ["-3", "-2", "-1", "0", "1", "2", "3"];
+        labels.forEach((lbl, idx) => {
+          const vx = xStart + (1 + idx) * step;
+          ctx.beginPath();
+          ctx.moveTo(vx, y - 7);
+          ctx.lineTo(vx, y + 7);
+          ctx.stroke();
+
+          ctx.font = lbl === "0" ? "bold 17px 'Times New Roman', serif" : "15px 'Times New Roman', serif";
+          const w = ctx.measureText(lbl).width;
+          ctx.fillText(lbl, vx - w / 2, y + 24);
+        });
+
+        ctx.restore();
+        saveState();
+      };
+
+      // MẪU 2: VẼ ĐƯỜNG TRÒN TÂM O CHUẨN XÁC
+      const handleInsertCircleO = () => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const cx = canvas.width * 0.5;
+        const cy = canvas.height * 0.5;
+        const r = Math.min(canvas.width, canvas.height) * 0.35;
+
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.lineWidth = 2.5;
+        ctx.setLineDash(isDashed ? [8, 6] : []);
+
+        // Đường tròn
+        ctx.beginPath();
+        ctx.arc(cx, cy, r, 0, Math.PI * 2);
+        ctx.stroke();
+
+        // Chấm tâm O
+        ctx.beginPath();
+        ctx.arc(cx, cy, 3.5, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Nhãn O
+        ctx.font = "italic bold 18px 'Times New Roman', serif";
+        ctx.fillText("O", cx - 18, cy + 6);
+
+        ctx.restore();
+        saveState();
+      };
+
+      // MẪU 3: VẼ TAM GIÁC ABC CHUẨN XÁC
+      const handleInsertTriangleABC = () => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const ax = canvas.width * 0.5;
+        const ay = canvas.height * 0.2;
+        const bx = canvas.width * 0.25;
+        const by = canvas.height * 0.78;
+        const cx = canvas.width * 0.75;
+        const cy = canvas.height * 0.78;
+
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.fillStyle = color;
+        ctx.lineWidth = 2.5;
+        ctx.setLineDash(isDashed ? [8, 6] : []);
+
+        ctx.beginPath();
+        ctx.moveTo(ax, ay);
+        ctx.lineTo(bx, by);
+        ctx.lineTo(cx, cy);
+        ctx.closePath();
+        ctx.stroke();
+
+        ctx.font = "italic bold 18px 'Times New Roman', serif";
+        ctx.fillText("A", ax - 6, ay - 10);
+        ctx.fillText("B", bx - 22, by + 16);
+        ctx.fillText("C", cx + 8, cy + 16);
+
+        ctx.restore();
+        saveState();
+      };
+
+      const handleFinish = () => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        const dataUrl = canvas.toDataURL("image/png");
+        onSave(dataUrl);
+      };
+
+      const labelOptions = ["A", "B", "C", "D", "S", "H", "O", "M", "N", "x", "y", "R", "[", "]", "(", ")", "///"];
+
+      return (
+        <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4">
+          <div className="relative w-full max-w-4xl bg-white rounded-3xl p-3 sm:p-5 shadow-2xl flex flex-col max-h-[96vh] overflow-hidden border border-slate-200 animate-in fade-in zoom-in duration-150">
+            {/* Header Modal */}
+            <div className="flex items-center justify-between border-b pb-2.5 mb-2">
+              <div className="flex items-center gap-2">
+                <span className="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-lg">
+                  🎨
+                </span>
+                <div>
+                  <h3 className="font-black text-sm sm:text-base text-slate-900 leading-tight">
+                    BẢNG VẼ HÌNH HỌC, TRỤC SỐ & ĐƯỜNG TRÒN TRỰC TUYẾN
+                  </h3>
+                  <p className="text-[11px] text-slate-500 font-medium">
+                    {targetId === "shared" ? "Đang vẽ hình cho bài làm Tự luận chung" : (String(targetId).startsWith("th_") ? `Đang vẽ hình cho Bài ${String(targetId).replace("th_", "")} Tiểu học` : `Đang vẽ hình cho Câu tự luận ${targetId}`)}
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={onClose}
+                className="w-8 h-8 rounded-full bg-slate-100 hover:bg-rose-100 hover:text-rose-700 text-slate-500 font-bold flex items-center justify-center transition"
+                title="Đóng bảng vẽ"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Thanh công cụ vẽ hàng 1: Công cụ cơ bản & Phím tạo hình mẫu */}
+            <div className="flex flex-wrap items-center justify-between gap-1.5 p-2 bg-slate-50 rounded-2xl border border-slate-200 mb-2">
+              <div className="flex flex-wrap items-center gap-1">
+                {[
+                  { id: "pen", label: "Bút vẽ", icon: "✏️" },
+                  { id: "line", label: "Đoạn thẳng", icon: "📏" },
+                  { id: "circle", label: "Đường tròn", icon: "⭕" },
+                  { id: "triangle", label: "Tam giác", icon: "📐" },
+                  { id: "rect", label: "Tứ giác", icon: "▭" },
+                  { id: "label", label: "Gán nhãn", icon: "🔤" },
+                  { id: "eraser", label: "Tẩy", icon: "🧹" }
+                ].map(item => (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => setTool(item.id)}
+                    className={`px-2.5 py-1.5 rounded-xl font-bold text-xs flex items-center gap-1 transition ${
+                      tool === item.id
+                        ? "bg-emerald-600 text-white shadow-sm ring-2 ring-emerald-300 font-black"
+                        : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-100"
+                    }`}
+                  >
+                    <span>{item.icon}</span>
+                    <span>{item.label}</span>
+                  </button>
+                ))}
+              </div>
+
+              {/* DÃY PHÍM TẠO HÌNH MẪU CHUẨN (TRỤC SỐ, ĐƯỜNG TRÒN O, TAM GIÁC) */}
+              <div className="flex flex-wrap items-center gap-1 border-l pl-2 border-slate-200">
+                <button
+                  type="button"
+                  onClick={handleInsertNumberLine}
+                  className="px-2.5 py-1.5 rounded-xl font-black text-xs bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 flex items-center gap-1 shadow-2xs transition active:scale-95"
+                  title="Tự động vẽ trục số nằm ngang với các vạch chia tọa độ -3, -2, -1, 0, 1, 2, 3"
+                >
+                  <span>🔢</span>
+                  <span>Vẽ Trục số</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={handleInsertCircleO}
+                  className="px-2.5 py-1.5 rounded-xl font-black text-xs bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 flex items-center gap-1 shadow-2xs transition active:scale-95"
+                  title="Tự động vẽ đường tròn có tâm O và chấm tâm chuẩn xác"
+                >
+                  <span>⭕</span>
+                  <span>Đường tròn tâm O</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={handleInsertTriangleABC}
+                  className="px-2.5 py-1.5 rounded-xl font-black text-xs bg-blue-50 hover:bg-blue-100 text-blue-900 border border-blue-200 flex items-center gap-1 shadow-2xs transition active:scale-95"
+                  title="Tự động vẽ tam giác ABC"
+                >
+                  <span>📐</span>
+                  <span>Tam giác ABC</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Thanh công cụ hàng 2: Màu sắc, Nét vẽ, Lưới ô ly, Nhãn & Hoàn tác */}
+            <div className="flex flex-wrap items-center justify-between gap-2 px-2 py-1.5 bg-slate-50/80 rounded-xl border border-slate-200 mb-2 text-xs">
+              <div className="flex flex-wrap items-center gap-2">
+                {/* 5 Màu vẽ chuẩn */}
+                <div className="flex items-center gap-1 bg-white p-1 rounded-lg border border-slate-200">
+                  <span className="text-[10px] font-bold text-slate-400 mr-1 uppercase">Màu:</span>
+                  {[
+                    { c: "#000000", name: "Đen" },
+                    { c: "#2563eb", name: "Xanh dương" },
+                    { c: "#dc2626", name: "Đỏ" },
+                    { c: "#16a34a", name: "Xanh lá" },
+                    { c: "#ea580c", name: "Cam" }
+                  ].map(item => (
+                    <button
+                      key={item.c}
+                      type="button"
+                      onClick={() => setColor(item.c)}
+                      title={item.name}
+                      style={{ backgroundColor: item.c }}
+                      className={`w-5 h-5 rounded-full transition ${
+                        color === item.c ? "ring-2 ring-offset-1 ring-slate-800 scale-110" : "opacity-75 hover:opacity-100"
+                      }`}
+                    />
+                  ))}
+                </div>
+
+                {/* Độ dày nét */}
+                <div className="flex items-center gap-1 bg-white p-1 rounded-lg border border-slate-200">
+                  <span className="text-[10px] font-bold text-slate-400 mr-1 uppercase">Nét:</span>
+                  {[
+                    { w: 1.8, label: "Mảnh" },
+                    { w: 3.2, label: "Vừa" },
+                    { w: 5.5, label: "Đậm" }
+                  ].map(sz => (
+                    <button
+                      key={sz.w}
+                      type="button"
+                      onClick={() => setLineWidth(sz.w)}
+                      className={`px-2 py-0.5 rounded text-[11px] font-bold transition ${
+                        lineWidth === sz.w ? "bg-slate-800 text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                      }`}
+                    >
+                      {sz.label}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Nét đứt (cho cạnh khuất hình không gian) */}
+                <button
+                  type="button"
+                  onClick={() => setIsDashed(!isDashed)}
+                  className={`px-2 py-1 rounded-lg text-xs font-bold transition ${
+                    isDashed ? "bg-purple-600 text-white shadow-xs" : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-100"
+                  }`}
+                  title="Bật/Tắt nét đứt đoạn (đặc biệt vẽ cạnh khuất trong hình học không gian)"
+                >
+                  {isDashed ? "✂️ Nét đứt [---]" : "— Nét liền"}
+                </button>
+
+                {/* Bật/Tắt lưới ô ly */}
+                <button
+                  type="button"
+                  onClick={() => setShowGrid(!showGrid)}
+                  className={`px-2 py-1 rounded-lg text-xs font-bold transition ${
+                    showGrid ? "bg-indigo-100 text-indigo-900 border border-indigo-300" : "bg-white text-slate-700 border border-slate-200"
+                  }`}
+                  title="Hiện lưới ô vuông để vẽ thẳng thớm"
+                >
+                  📐 Lưới ô ly
+                </button>
+              </div>
+
+              {/* Nhãn điểm & Phím tiện ích */}
+              <div className="flex flex-wrap items-center gap-1.5">
+                {tool === "label" && (
+                  <div className="flex items-center gap-1 bg-amber-50 p-1 rounded-lg border border-amber-300 animate-in fade-in">
+                    <span className="text-[10px] font-black text-amber-900 uppercase">Chọn nhãn:</span>
+                    <div className="flex flex-wrap items-center gap-0.5">
+                      {labelOptions.map(lbl => (
+                        <button
+                          key={lbl}
+                          type="button"
+                          onClick={() => setSelectedLabel(lbl)}
+                          className={`w-6 h-6 rounded flex items-center justify-center font-bold text-xs transition ${
+                            selectedLabel === lbl ? "bg-amber-500 text-white font-black scale-110 shadow-xs" : "bg-white text-slate-700 hover:bg-amber-100"
+                          }`}
+                        >
+                          {lbl}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                <button
+                  type="button"
+                  onClick={handleUndo}
+                  disabled={history.length <= 1}
+                  className="px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 font-bold text-xs flex items-center gap-1 disabled:opacity-40 transition"
+                  title="Hoàn tác nét vẽ vừa thực hiện"
+                >
+                  <span>↩️</span>
+                  <span>Hoàn tác</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleClear}
+                  className="px-2.5 py-1 rounded-lg bg-rose-50 border border-rose-200 text-rose-700 hover:bg-rose-100 font-bold text-xs flex items-center gap-1 transition"
+                  title="Xóa trắng toàn bộ bảng vẽ"
+                >
+                  <span>🗑️</span>
+                  <span>Xóa hết</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Vùng Canvas vẽ tương tác */}
+            <div className={`relative flex-1 min-h-[300px] max-h-[55vh] rounded-2xl overflow-hidden border-2 border-slate-300 bg-white shadow-inner flex items-center justify-center select-none ${
+              showGrid ? "bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:20px_20px]" : ""
+            }`}>
+              <canvas
+                ref={canvasRef}
+                width={800}
+                height={500}
+                onMouseDown={handleStart}
+                onMouseMove={handleMove}
+                onMouseUp={handleEnd}
+                onMouseLeave={handleEnd}
+                onTouchStart={handleStart}
+                onTouchMove={handleMove}
+                onTouchEnd={handleEnd}
+                style={{ touchAction: "none" }}
+                className="w-full h-full object-contain cursor-crosshair bg-transparent"
+              />
+            </div>
+
+            {/* Footer Modal: Hướng dẫn & Nút Hoàn tất */}
+            <div className="flex flex-wrap items-center justify-between gap-3 pt-3 mt-2 border-t border-slate-200">
+              <div className="text-[11px] text-slate-500 font-medium flex items-center gap-1">
+                <span>💡</span>
+                <span>Chạm/kéo chuột để vẽ. Nhấp chọn nhãn A, B, C... rồi chạm lên hình để đặt tên điểm.</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={onClose}
+                  className="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 bg-slate-100 hover:bg-slate-200 transition"
+                >
+                  Hủy bỏ
+                </button>
+                <button
+                  type="button"
+                  onClick={handleFinish}
+                  className="px-5 py-2 rounded-xl text-xs sm:text-sm font-black text-white bg-emerald-600 hover:bg-emerald-500 shadow-md flex items-center gap-2 transition active:scale-95"
+                >
+                  <span>✅</span>
+                  <span>Hoàn tất & Chèn vào bài làm</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+
+        function App() {
 
       const curriculum = window.CURRICULUM_KNTT || {};
 
@@ -3544,6 +4111,50 @@ if (typeof window !== "undefined") {
       const [isPeriodicFullScreen, setIsPeriodicFullScreen] = useState(false);
       const [isMockFullScreen, setIsMockFullScreen] = useState(false);
       const [isTopicFullScreen, setIsTopicFullScreen] = useState(false);
+      const [drawingModalTarget, setDrawingModalTarget] = useState(null); // null | 'shared' | 1 | 2 | 3 | 4 | 'th_1' ...
+      const [drawingInitialImage, setDrawingInitialImage] = useState(null);
+      const [tieuhocDrawings, setTieuhocDrawings] = useState({}); // { [qId]: dataUrl }
+
+      const openDrawingBoard = (targetId, existingImg = null) => {
+        setDrawingModalTarget(targetId);
+        setDrawingInitialImage(existingImg || null);
+      };
+
+      const handleSaveDrawing = (dataUrl) => {
+        if (!drawingModalTarget) return;
+        if (drawingModalTarget === "shared") {
+          setSharedEssayImage(dataUrl);
+        } else if (String(drawingModalTarget).startsWith("th_")) {
+          const thId = String(drawingModalTarget).replace("th_", "");
+          setTieuhocDrawings(prev => ({ ...prev, [thId]: dataUrl }));
+        } else {
+          setEssayImages(prev => ({ ...prev, [drawingModalTarget]: dataUrl }));
+        }
+        setDrawingModalTarget(null);
+        setDrawingInitialImage(null);
+        showToast("success", "Đã chèn hình vẽ vào bài làm thành công!");
+      };
+
+      const insertToEssayTextarea = (qId, strToInsert) => {
+        const el = document.getElementById(`essay_textarea_${qId}`);
+        const currentVal = essayTexts[qId] || "";
+        
+        if (el && typeof el.selectionStart === "number") {
+          const start = el.selectionStart;
+          const end = el.selectionEnd;
+          const textBefore = currentVal.substring(0, start);
+          const textAfter = currentVal.substring(end);
+          const newVal = textBefore + strToInsert + textAfter;
+          setEssayTexts(prev => ({ ...prev, [qId]: newVal }));
+          setTimeout(() => {
+            el.focus();
+            const newCursor = start + strToInsert.length;
+            el.setSelectionRange(newCursor, newCursor);
+          }, 15);
+        } else {
+          setEssayTexts(prev => ({ ...prev, [qId]: currentVal + strToInsert }));
+        }
+      };
 
       // Hàm chèn ký hiệu / công thức vào ô tự luận tiểu học tại vị trí con trỏ
       const insertToTieuhocTextarea = (qId, strToInsert) => {
@@ -7365,6 +7976,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       <div className="flex flex-wrap items-center gap-2">
 
                         <button
+                          type="button"
+                          onClick={() => openDrawingBoard('shared', sharedEssayImage)}
+                          className="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1.5 shadow transition active:scale-95"
+                          title="Vẽ hình học, vẽ trục số, vẽ đường tròn trực tiếp trên màn hình web"
+                        >
+                          <span>🎨</span>
+                          <span>Vẽ hình / Trục số chung</span>
+                        </button>
+
+                        <button
 
                           type="button"
 
@@ -7541,6 +8162,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               </span>
                             </div>
                             <textarea
+                              id={`essay_textarea_${q.id}`}
                               rows={3}
                               value={essayTexts[q.id] || ""}
                               onChange={(e) => {
@@ -7550,27 +8172,134 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               placeholder={`Gõ lời giải Câu ${q.id}, các bước biến đổi hoặc kết luận... (VD: ĐKXĐ: x ≥ 0; Rút gọn được P = (√x - 1)/(√x + 1)...)`}
                               className="w-full p-3 rounded-xl border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-sans outline-none bg-white transition"
                             />
-                            {/* Phím chèn ký hiệu Toán học nhanh */}
-                            <div className="flex flex-wrap items-center gap-1.5 text-[11px]">
-                              <span className="text-slate-400 text-[10px] font-medium">Chèn nhanh:</span>
-                              {["√", "^2", "±", "⇔", "⇒", "≥", "≤", "≠", "π", "x_1", "x_2", "/"].map(sym => (
+                            {/* Phím chèn ký hiệu Toán học, Hệ phương trình & Phân số nhanh */}
+                            <div className="space-y-1.5 pt-1">
+                              <div className="flex flex-wrap items-center gap-1 text-[11px]">
+                                <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider mr-1">Chèn nhanh:</span>
+                                
+                                {/* 1. DẤU HỆ PHƯƠNG TRÌNH & NGOẶC */}
                                 <button
-                                  key={sym}
                                   type="button"
-                                  onClick={() => {
-                                    setEssayTexts(prev => ({ ...prev, [q.id]: (prev[q.id] || "") + sym }));
-                                  }}
-                                  className="px-2 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-700 font-mono text-[11px] transition active:scale-95"
+                                  onClick={() => insertToEssayTextarea(q.id, "{\n  \n}")}
+                                  className="px-2 py-0.5 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 font-bold text-[11px] transition active:scale-95 shadow-2xs"
+                                  title="Chèn khung dấu ngoặc nhọn hệ phương trình 2 dòng"
                                 >
-                                  {sym}
+                                  {"{ Hệ PT"}
                                 </button>
-                              ))}
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, "{ ")}
+                                  className="px-1.5 py-0.5 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu ngoặc nhọn mở hệ phương trình"
+                                >
+                                  {"{"}
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, "[ ")}
+                                  className="px-1.5 py-0.5 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu ngoặc vuông hoặc phương trình tích"
+                                >
+                                  {"["}
+                                </button>
+
+                                {/* 2. DẤU CỘNG, TRỪ, NHÂN, CHIA, PHÂN SỐ */}
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, " + ")}
+                                  className="px-2 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu cộng"
+                                >
+                                  +
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, " - ")}
+                                  className="px-2 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu trừ"
+                                >
+                                  -
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, " × ")}
+                                  className="px-2 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu nhân"
+                                >
+                                  ×
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, " : ")}
+                                  className="px-2 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu chia"
+                                >
+                                  :
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, " / ")}
+                                  className="px-2 py-0.5 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 font-bold text-[11px] transition active:scale-95"
+                                  title="Phân số a/b"
+                                >
+                                  a/b
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, " = ")}
+                                  className="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-bold text-[11px] transition active:scale-95"
+                                  title="Dấu bằng"
+                                >
+                                  =
+                                </button>
+
+                                {/* 3. CÁC KÝ HIỆU TOÁN HỌC KHÁC */}
+                                {[
+                                  { s: "√", t: "Căn bậc hai" },
+                                  { s: "^2", t: "Bình phương" },
+                                  { s: "±", t: "Cộng trừ" },
+                                  { s: " ⇔ ", t: "Tương đương" },
+                                  { s: " ⇒ ", t: "Suy ra" },
+                                  { s: " ≥ ", t: "Lớn hơn hoặc bằng" },
+                                  { s: " ≤ ", t: "Nhỏ hơn hoặc bằng" },
+                                  { s: " ≠ ", t: "Khác" },
+                                  { s: "π", t: "Số pi" },
+                                  { s: "x_1", t: "x1" },
+                                  { s: "x_2", t: "x2" },
+                                  { s: "°", t: "Độ" },
+                                  { s: "∠", t: "Góc" },
+                                  { s: "Δ", t: "Tam giác / Delta" },
+                                  { s: " ⊥ ", t: "Vuông góc" },
+                                  { s: " ∥ ", t: "Song song" }
+                                ].map(item => (
+                                  <button
+                                    key={item.s}
+                                    type="button"
+                                    onClick={() => insertToEssayTextarea(q.id, item.s)}
+                                    title={item.t}
+                                    className="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-mono text-[11px] transition active:scale-95"
+                                  >
+                                    {item.s.trim()}
+                                  </button>
+                                ))}
+                              </div>
                             </div>
                           </div>
 
                           <div className="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-200/70">
                             <div className="flex flex-wrap items-center gap-2">
-                              <span className="text-[11px] font-semibold text-slate-500 mr-1">Hoặc nộp ảnh:</span>
+                              <span className="text-[11px] font-semibold text-slate-500 mr-1">Hình vẽ / Ảnh bài làm:</span>
+                              {/* NÚT VẼ HÌNH / TRỤC SỐ / ĐƯỜNG TRÒN TRỰC TIẾP */}
+                              <button
+                                type="button"
+                                onClick={() => openDrawingBoard(q.id, essayImages[q.id])}
+                                className="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1.5 shadow-sm transition active:scale-95"
+                                title="Vẽ hình học, vẽ trục số, vẽ đường tròn trực tiếp trên màn hình web"
+                              >
+                                <span>🎨</span>
+                                <span>Vẽ hình / Trục số</span>
+                              </button>
+
                               <button
                                 type="button"
                                 onClick={() => openCamera(q.id)}
@@ -7630,21 +8359,28 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                 </span>
 
                                 {hasIndividualImg && (
+                                  <>
+                                    <button
+                                      type="button"
+                                      onClick={() => openDrawingBoard(q.id, activeImg)}
+                                      className="text-[11px] text-emerald-700 hover:underline ml-1 font-bold"
+                                    >
+                                      Sửa hình
+                                    </button>
+                                    <button
 
-                                  <button
+                                      type="button"
 
-                                    type="button"
+                                      onClick={() => setEssayImages(prev => ({ ...prev, [q.id]: null }))}
 
-                                    onClick={() => setEssayImages(prev => ({ ...prev, [q.id]: null }))}
+                                      className="text-[11px] text-rose-600 hover:underline ml-1"
 
-                                    className="text-[11px] text-rose-600 hover:underline ml-1"
+                                    >
 
-                                  >
+                                      Xóa
 
-                                    Xóa
-
-                                  </button>
-
+                                    </button>
+                                  </>
                                 )}
 
                               </div>
@@ -10888,6 +11624,15 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                           <div className="flex items-center gap-1">
                                             <button
                                               type="button"
+                                              onClick={() => openDrawingBoard('th_' + q.id, tieuhocDrawings[q.id])}
+                                              className="px-2 py-0.5 rounded-lg text-[10px] md:text-[11px] font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-xs flex items-center gap-1 transition active:scale-95"
+                                              title="Vẽ sơ đồ đoạn thẳng, vẽ hình minh họa trực tiếp trên bảng vẽ"
+                                            >
+                                              <span>🎨</span>
+                                              <span>Vẽ sơ đồ / hình</span>
+                                            </button>
+                                            <button
+                                              type="button"
                                               onClick={() => {
                                                 setExpandedTieuhocKb(prev => ({ ...prev, [q.id]: !prev[q.id] }));
                                               }}
@@ -11192,6 +11937,42 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                         className="w-full text-xs md:text-sm p-3 rounded-xl border-2 border-amber-300/80 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 font-sans shadow-inner placeholder:text-slate-400 placeholder:italic transition"
                                       />
 
+                                      {/* HIỂN THỊ HÌNH VẼ / SƠ ĐỒ ĐÃ VẼ CHO TIỂU HỌC */}
+                                      {tieuhocDrawings[q.id] && (
+                                        <div className="flex items-center gap-3 bg-white p-2.5 rounded-xl border border-emerald-300 shadow-2xs">
+                                          <img
+                                            src={tieuhocDrawings[q.id]}
+                                            alt={`Hình vẽ bài ${q.id}`}
+                                            className="h-16 w-28 object-contain rounded-lg border border-slate-200 shadow-xs cursor-pointer hover:opacity-90 transition bg-white"
+                                            onClick={() => setZoomImage(tieuhocDrawings[q.id])}
+                                            title="Bấm để xem phóng to"
+                                          />
+                                          <div className="flex flex-col gap-1">
+                                            <span className="text-[11px] font-bold text-emerald-800 flex items-center gap-1">
+                                              <span>🎨</span>
+                                              <span>Đã đính kèm sơ đồ / hình vẽ của em</span>
+                                            </span>
+                                            <div className="flex items-center gap-2">
+                                              <button
+                                                type="button"
+                                                onClick={() => openDrawingBoard('th_' + q.id, tieuhocDrawings[q.id])}
+                                                className="text-[11px] font-bold text-emerald-700 hover:text-emerald-900 hover:underline"
+                                              >
+                                                Sửa hình
+                                              </button>
+                                              <span className="text-slate-300">|</span>
+                                              <button
+                                                type="button"
+                                                onClick={() => setTieuhocDrawings(prev => ({ ...prev, [q.id]: null }))}
+                                                className="text-[11px] font-bold text-rose-600 hover:text-rose-800 hover:underline"
+                                              >
+                                                Xóa hình
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      )}
+
                                       {/* KHUNG XEM TRƯỚC BÀI LÀM TRỰC QUAN (LIVE MATH PREVIEW) */}
                                       {tieuhocAnswers.p2[q.id]?.trim() && (
                                         <div className="p-2.5 rounded-xl bg-amber-50/70 border border-amber-200 text-xs space-y-1">
@@ -11236,12 +12017,26 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                     </div>
 
                                     {/* BÀI LÀM CỦA HỌC SINH */}
-                                    <div className="text-xs bg-white rounded-lg p-2.5 border border-slate-200">
-                                      <span className="font-bold text-slate-600">Bài làm của em: </span>
-                                      {tieuhocAnswers.p2[q.id]?.trim() ? (
-                                        <span className="text-slate-900 font-mono whitespace-pre-wrap">{tieuhocAnswers.p2[q.id]}</span>
-                                      ) : (
-                                        <span className="text-slate-400 italic">Em chưa nhập nội dung làm bài</span>
+                                    <div className="text-xs bg-white rounded-lg p-2.5 border border-slate-200 space-y-2">
+                                      <div>
+                                        <span className="font-bold text-slate-600">Bài làm của em: </span>
+                                        {tieuhocAnswers.p2[q.id]?.trim() ? (
+                                          <span className="text-slate-900 font-mono whitespace-pre-wrap">{tieuhocAnswers.p2[q.id]}</span>
+                                        ) : (
+                                          <span className="text-slate-400 italic">Em chưa nhập nội dung làm bài</span>
+                                        )}
+                                      </div>
+                                      {tieuhocDrawings[q.id] && (
+                                        <div className="flex items-center gap-2 pt-1 border-t border-slate-100">
+                                          <span className="font-bold text-emerald-800 text-[11px]">Sơ đồ / hình vẽ đính kèm:</span>
+                                          <img
+                                            src={tieuhocDrawings[q.id]}
+                                            alt={`Sơ đồ bài ${q.id}`}
+                                            className="h-12 w-20 object-contain rounded border border-slate-200 shadow-2xs cursor-pointer hover:opacity-90 transition bg-white"
+                                            onClick={() => setZoomImage(tieuhocDrawings[q.id])}
+                                            title="Bấm để xem phóng to"
+                                          />
+                                        </div>
                                       )}
                                     </div>
 
@@ -12538,6 +13333,19 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
           {/* MODAL MỞ CAMERA CHỤP TRỰC TIẾP */}
+
+          {/* MODAL BẢNG VẼ HÌNH HỌC, TRỤC SỐ & ĐƯỜNG TRÒN TRỰC TUYẾN */}
+          {drawingModalTarget && (
+            <DrawingBoardModal
+              targetId={drawingModalTarget}
+              initialImage={drawingInitialImage}
+              onClose={() => {
+                setDrawingModalTarget(null);
+                setDrawingInitialImage(null);
+              }}
+              onSave={handleSaveDrawing}
+            />
+          )}
 
           {cameraActiveModal && (
 
