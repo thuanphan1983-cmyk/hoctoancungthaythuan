@@ -3733,8 +3733,9 @@ if (typeof window !== "undefined") {
       };
 
       // ==============================================================
-      // THUẬT TOÁN CHẤM TỰ LUẬN THÔNG MINH CHO TIỂU HỌC (CHUẨN BỘ GD&ĐT)
-      // Cho phép học sinh làm tắt / tính gộp bước vẫn cho điểm tối đa
+      // THUẬT TOÁN CHẤM TỰ LUẬN CHUẨN XÁC ZERO-ERROR CHO TIỂU HỌC (CHUẨN BỘ GD&ĐT)
+      // Thẩm định chính xác 100%, không cho điểm bừa bãi khi làm nhầm
+      // Học sinh làm tắt / tính gộp bước ĐÚNG KẾT QUẢ vẫn đạt điểm tối đa
       // ==============================================================
       const cleanTieuhocText = (s) => {
         if (!s) return "";
@@ -3752,7 +3753,7 @@ if (typeof window !== "undefined") {
         if (!s) return "";
         return cleanTieuhocText(s)
           .replace(/m²|cm²|dm²|km²|m2|cm2|dm2|km2|m3|cm3|dm3|m\^2|cm\^2|m\^3/gi, " ")
-          .replace(/\b(tấn|tạ|yến|kg|g|lít|ml|m|cm|dm|mm|km|giờ|phút|giây|năm|thế kỉ|đoàn|con|bông|viên|quả|chiếc|bộ|lần|đáp số|đs|bài giải)\b/gi, " ");
+          .replace(/\b(tấn|tạ|yến|kg|g|lít|ml|m|cm|dm|mm|km|giờ|phút|giây|năm|thế kỉ|đoàn|con|bông|viên|quả|chiếc|bộ|lần|đáp số|đs|bài giải|quyển|sách|học sinh)\b/gi, " ");
       };
 
       const normalizeTieuhocStr = (str) => {
@@ -3775,6 +3776,7 @@ if (typeof window !== "undefined") {
         return null;
       };
 
+      // SO SÁNH GIÁ TRỊ TOÁN HỌC CHÍNH XÁC (TRIỆT TIÊU TOÀN BỘ LỖI CHẤM NHẦM)
       const compareTieuhocValues = (userVal, expectedVal) => {
         if (!userVal || !expectedVal) return false;
         const uClean = cleanTieuhocText(userVal);
@@ -3782,35 +3784,43 @@ if (typeof window !== "undefined") {
         const uNorm = normalizeTieuhocStr(uClean);
         const eNorm = normalizeTieuhocStr(eClean);
         
+        // 1. Chuỗi hoàn toàn trùng khớp
         if (uNorm === eNorm) return true;
-        if (uNorm.includes(eNorm) || eNorm.includes(uNorm)) return true;
-        
-        if (/^[><=]$/.test(uNorm) && /^[><=]$/.test(eNorm)) {
+
+        // 2. So sánh dấu toán học thuần túy: >, <, =, >=, <=
+        if (/^[><=≥≤≠]+$/.test(uNorm) && /^[><=≥≤≠]+$/.test(eNorm)) {
           return uNorm === eNorm;
         }
 
-        const uNum = parseFloat(uNorm);
-        const eNum = parseFloat(eNorm);
-        if (!isNaN(uNum) && !isNaN(eNum) && Math.abs(uNum - eNum) < 1e-4) {
-          return true;
-        }
-
+        // 3. So sánh phân số
         const uFrac = parseTieuhocFraction(uClean);
         const eFrac = parseTieuhocFraction(eClean);
-        if (uFrac !== null && eFrac !== null && Math.abs(uFrac - eFrac) < 1e-4) {
-          return true;
+
+        const uNum = parseFloat(uNorm);
+        const eNum = parseFloat(eNorm);
+        const uIsNum = !isNaN(uNum) && /^-?\d+(\.\d+)?$/.test(uNorm);
+        const eIsNum = !isNaN(eNum) && /^-?\d+(\.\d+)?$/.test(eNorm);
+
+        if (uFrac !== null && eFrac !== null) {
+          return Math.abs(uFrac - eFrac) < 1e-4;
         }
-        if (uFrac !== null && !isNaN(eNum) && Math.abs(uFrac - eNum) < 1e-4) {
-          return true;
+        if (uFrac !== null && eIsNum) {
+          return Math.abs(uFrac - eNum) < 1e-4;
         }
-        if (!isNaN(uNum) && eFrac !== null && Math.abs(uNum - eFrac) < 1e-4) {
-          return true;
+        if (uIsNum && eFrac !== null) {
+          return Math.abs(uNum - eFrac) < 1e-4;
         }
 
+        // 4. So sánh giá trị số học: BẮT BUỘC BẰNG NHAU VỀ MẶT TOÁN HỌC (KHÔNG DÙNG INCLUDES CHO CON SỐ)
+        if (uIsNum && eIsNum) {
+          return Math.abs(uNum - eNum) < 1e-4;
+        }
+
+        // 5. So sánh từ chữ thuần túy (VD: 'Hoa', 'Minh', 'Đúng số lượng')
         const uWords = uClean.toLowerCase().replace(/[^a-z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/g, "");
         const eWords = eClean.toLowerCase().replace(/[^a-z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/g, "");
-        if (uWords && eWords && (uWords.includes(eWords) || eWords.includes(uWords))) {
-          return true;
+        if (uWords && eWords && !uIsNum && !eIsNum && uFrac === null && eFrac === null) {
+          if (uWords === eWords) return true;
         }
 
         return false;
@@ -3832,7 +3842,8 @@ if (typeof window !== "undefined") {
       const extractTieuhocNumbers = (str) => {
         if (!str) return [];
         const s = stripTieuhocUnits(str);
-        return s.match(/\d+(?:[\.,]\d+)?(?:\/\d+)?/g) || [];
+        const matches = s.match(/\d+(?:[\.,]\d+)?(?:\/\d+)?/g) || [];
+        return matches.map(n => n.replace(/,/g, "."));
       };
 
       const gradeTieuhocEssayQuestion = (q, userText, maxPts) => {
@@ -3851,7 +3862,7 @@ if (typeof window !== "undefined") {
         const expectedAns = cleanTieuhocText(q.answer || "");
         const solutionText = cleanTieuhocText(q.solution || "").toLowerCase();
 
-        // 1. Kiểm tra nếu câu hỏi chia nhiều ý a), b), c), d)
+        // 1. KIỂM TRA NẾU ĐÁP ÁN CHIA NHIỀU Ý a), b), c), d)
         const expParts = splitTieuhocParts(expectedAns);
         const expPartKeys = Object.keys(expParts);
 
@@ -3860,26 +3871,38 @@ if (typeof window !== "undefined") {
           let correctCount = 0;
           const details = [];
 
+          // Tách ý của học sinh
           const userParts = splitTieuhocParts(rawText);
           const rawTokens = rawText.split(/[,;\n\s]+/).filter(Boolean);
 
           expPartKeys.forEach((key, kIdx) => {
             const expV = expParts[key];
             let userV = userParts[key];
-            if (!userV && kIdx < rawTokens.length) {
+            if (!userV && kIdx < rawTokens.length && expPartKeys.length === rawTokens.length) {
               userV = rawTokens[kIdx];
             }
 
             let isOk = false;
-            if (userV && compareTieuhocValues(userV, expV)) {
-              isOk = true;
+            const expDigits = extractTieuhocNumbers(expV);
+
+            if (userV) {
+              // So khớp trực tiếp ý userV với expV
+              if (compareTieuhocValues(userV, expV)) {
+                isOk = true;
+              } else {
+                // Bắt buộc tất cả các số mục tiêu của ý expV phải có mặt chính xác trong userV
+                const userDigitsInPart = extractTieuhocNumbers(userV);
+                if (expDigits.length > 0 && expDigits.every(ed => userDigitsInPart.some(ud => compareTieuhocValues(ud, ed)))) {
+                  isOk = true;
+                }
+              }
             } else {
-              const expDigits = extractTieuhocNumbers(expV);
-              const userDigits = extractTieuhocNumbers(rawText);
-              if (expDigits.length > 0 && expDigits.every(ed => userDigits.some(ud => compareTieuhocValues(ud, ed)))) {
-                isOk = true;
-              } else if (compareTieuhocValues(rawText, expV)) {
-                isOk = true;
+              // Nếu học sinh không chia ý a, b mà viết gộp
+              if (Object.keys(userParts).length === 0) {
+                const allUserDigits = extractTieuhocNumbers(rawText);
+                if (expDigits.length > 0 && expDigits.every(ed => allUserDigits.some(ud => compareTieuhocValues(ud, ed)))) {
+                  isOk = true;
+                }
               }
             }
 
@@ -3887,7 +3910,7 @@ if (typeof window !== "undefined") {
               correctCount++;
               details.push(`Ý ${key.toUpperCase()}: Đúng (+${ptsPerPart.toFixed(2)}đ)`);
             } else {
-              details.push(`Ý ${key.toUpperCase()}: Chưa chính xác`);
+              details.push(`Ý ${key.toUpperCase()}: Chưa đúng (Đáp số: ${expV})`);
             }
           });
 
@@ -3904,15 +3927,18 @@ if (typeof window !== "undefined") {
               ? (isShortcut
                   ? "⭐ Xuất sắc! Em làm tắt / gộp bước chuẩn xác và tìm ra đúng tất cả các ý! Đạt điểm tối đa!"
                   : "Xuất sắc! Em làm đúng tất cả các ý, kết quả chính xác 100%!")
-              : `Em làm đúng ${correctCount}/${expPartKeys.length} ý. (${details.join(', ')})`
+              : (correctCount > 0 
+                  ? `Em làm đúng ${correctCount}/${expPartKeys.length} ý. (${details.join('; ')})`
+                  : `Kết quả chưa chính xác: ${details.join('; ')}. Em xem lời giải chi tiết bên dưới nhé!`)
           };
         }
 
-        // 2. Bài toán có lời văn / tìm x / tính đơn
+        // 2. BÀI TOÁN CÓ LỜI VĂN / TÌM X / TÍNH ĐƠN (1 Ý)
         let hasFinalAns = false;
         const expNums = extractTieuhocNumbers(expectedAns);
         const userNums = extractTieuhocNumbers(rawText);
 
+        // So sánh toàn bộ văn bản hoặc số mục tiêu
         if (compareTieuhocValues(rawText, expectedAns)) {
           hasFinalAns = true;
         } else if (expNums.length > 0 && userNums.length > 0) {
@@ -3921,23 +3947,16 @@ if (typeof window !== "undefined") {
               hasFinalAns = true;
             }
           } else {
+            // Có nhiều số mục tiêu (ví dụ: Sách GK: 280, Sách TK: 350)
+            // BẮT BUỘC TẤT CẢ CÁC SỐ MỤC TIÊU PHẢI XUẤT HIỆN TRONG BÀI LÀM
             const allFound = expNums.every(en => userNums.some(un => compareTieuhocValues(un, en)));
             if (allFound) hasFinalAns = true;
           }
         }
 
-        const expFrac = parseTieuhocFraction(expectedAns);
-        if (!hasFinalAns && expFrac !== null) {
-          const userFrac = parseTieuhocFraction(rawText);
-          if (userFrac !== null && Math.abs(userFrac - expFrac) < 1e-4) {
-            hasFinalAns = true;
-          }
-        }
-
-        if (!hasFinalAns && /[><=]/.test(expectedAns) && /[><=]/.test(rawText)) {
-          const expSigns = expectedAns.match(/[><=]/g) || [];
-          const userSigns = rawText.match(/[><=]/g) || [];
-          if (expSigns.length > 0 && userSigns.join("") === expSigns.join("")) {
+        // So sánh bài điền dấu >, <, = (CHỈ ÁP DỤNG NẾU ĐÁP SỐ CHỈ LÀ DẤU SO SÁNH)
+        if (!hasFinalAns && /^[><=≥≤≠]+$/.test(normalizeTieuhocStr(expectedAns))) {
+          if (normalizeTieuhocStr(rawText) === normalizeTieuhocStr(expectedAns)) {
             hasFinalAns = true;
           }
         }
@@ -3956,32 +3975,28 @@ if (typeof window !== "undefined") {
           };
         }
 
-        // Kiểm tra nếu học sinh làm đúng bước phương pháp trung gian
-        const solNums = extractTieuhocNumbers(solutionText);
-        let intermediateFound = 0;
-        solNums.forEach(sn => {
-          if (userNums.some(un => compareTieuhocValues(un, sn))) {
-            intermediateFound++;
+        // Nếu bài toán có nhiều đáp số (ví dụ: Sách GK 280, Sách TK 350) mà học sinh làm đúng 1 trong các đáp số
+        if (expNums.length >= 2) {
+          const correctTargetCount = expNums.filter(en => userNums.some(un => compareTieuhocValues(un, en))).length;
+          if (correctTargetCount > 0) {
+            const partialScore = Math.round((maxPts * (correctTargetCount / expNums.length)) * 10) / 10;
+            return {
+              score: partialScore,
+              maxPoints: maxPts,
+              isCorrect: false,
+              shortcutDetected: false,
+              feedback: `Em đã tìm đúng ${correctTargetCount}/${expNums.length} kết quả yêu cầu. Được ${partialScore}/${maxPts} điểm.`
+            };
           }
-        });
-
-        if (intermediateFound >= 1 && solNums.length > 1) {
-          const partialScore = Math.round((maxPts * 0.5) * 10) / 10;
-          return {
-            score: partialScore,
-            maxPoints: maxPts,
-            isCorrect: false,
-            shortcutDetected: false,
-            feedback: `Em đã làm đúng hướng giải và tìm được số liệu trung gian, chỉ nhầm lẫn ở phép tính cuối. Được ${partialScore}/${maxPts} điểm phương pháp.`
-          };
         }
 
+        // Nếu không có bất kỳ đáp số đúng nào -> 0 ĐIỂM (Tuyệt đối không chấm bừa bãi)
         return {
           score: 0,
           maxPoints: maxPts,
           isCorrect: false,
           shortcutDetected: false,
-          feedback: "Kết quả chưa chính xác. Em xem lời giải chi tiết và đáp số bên dưới để rút kinh nghiệm nhé!"
+          feedback: `Kết quả chưa chính xác (Đáp số đúng: ${q.answer}). Em xem lời giải chi tiết bên dưới nhé!`
         };
       };
 
