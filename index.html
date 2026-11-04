@@ -3177,6 +3177,11 @@ if (typeof window !== "undefined") {
         if (!validateStudentInfo()) {
           return;
         }
+        setIsPeriodicFullScreen(false);
+        setIsMockFullScreen(false);
+        setIsTopicFullScreen(false);
+        setIsTakingKhtnOnline(false);
+        setIsTakingTieuhocOnline(false);
         if (targetTab === "grade10_topic") {
           setView("grade10_topic");
         } else if (targetTab === "grade10_mock") {
@@ -3536,6 +3541,9 @@ if (typeof window !== "undefined") {
       const [tieuhocScoreResult, setTieuhocScoreResult] = useState(null);
       const [expandedTieuhocKb, setExpandedTieuhocKb] = useState({}); // { [qId]: boolean }
       const [activeTieuhocKbTab, setActiveTieuhocKbTab] = useState({}); // { [qId]: 'calc' | 'frac' | 'unit' | 'sample' }
+      const [isPeriodicFullScreen, setIsPeriodicFullScreen] = useState(false);
+      const [isMockFullScreen, setIsMockFullScreen] = useState(false);
+      const [isTopicFullScreen, setIsTopicFullScreen] = useState(false);
 
       // Hàm chèn ký hiệu / công thức vào ô tự luận tiểu học tại vị trí con trỏ
       const insertToTieuhocTextarea = (qId, strToInsert) => {
@@ -5828,13 +5836,21 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
 
+      const isAnyExamActive = 
+        view === "exam" || 
+        (view === "tieuhoc" && isTakingTieuhocOnline) || 
+        (view === "khtn" && isTakingKhtnOnline) || 
+        (view === "periodic_exam" && isPeriodicFullScreen) || 
+        (view === "grade10_mock" && isMockFullScreen) || 
+        (view === "grade10_topic" && isTopicFullScreen);
+
       return (
 
         <div className="min-h-screen flex flex-col bg-slate-50 text-slate-800 font-sans">
 
-          {/* HEADER */}
+          {/* HEADER (Tự động ẩn hoàn toàn khi học sinh vào làm bài thi trên cả Tiểu học và THCS) */}
 
-          <header className="bg-indigo-900 text-white shadow-md no-print sticky top-0 z-50">
+          <header className={`${isAnyExamActive ? "hidden" : "block"} bg-indigo-900 text-white shadow-md no-print md:sticky md:top-0 z-50`}>
 
             <div className="max-w-6xl mx-auto px-4 py-3.5 flex flex-wrap items-center justify-between gap-4 lg:pr-56">
 
@@ -6055,10 +6071,10 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
             </div>
           )}
 
-          <main className="flex-1 max-w-5xl w-full mx-auto p-4 md:p-6 space-y-6">
+          <main className={`flex-1 max-w-5xl w-full mx-auto space-y-6 ${isAnyExamActive ? "p-2 sm:p-4 md:p-6" : "p-4 md:p-6"}`}>
 
-            {/* KHỐI KHAI BÁO THÔNG TIN HỌC SINH (BẮT BUỘC) */}
-            {(view === "setup" || view === "grade10_mock" || view === "grade10_topic" || view === "periodic_exam") && (
+            {/* KHỐI KHAI BÁO THÔNG TIN HỌC SINH (Ẩn khi đang làm bài toàn màn hình) */}
+            {!isAnyExamActive && (view === "setup" || view === "grade10_mock" || view === "grade10_topic" || view === "periodic_exam") && (
               <div id="student-info-section" className="bg-white rounded-2xl shadow-sm border border-indigo-100 p-5 space-y-3 no-print print:hidden">
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
                   <div className="flex items-center gap-2">
@@ -6744,6 +6760,18 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </h2>
                     <div className="flex items-center gap-3 mt-1">
                       <p className="text-xs text-slate-500">Học sinh: <b>{studentName}</b></p>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          if (confirm("Em có muốn rời phòng thi không? Bài làm chưa nộp sẽ không được lưu điểm.")) {
+                            setView("setup");
+                          }
+                        }}
+                        className="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-3 py-1 rounded-xl shadow-xs text-xs flex items-center gap-1 transition"
+                        title="Thoát phòng thi"
+                      >
+                        <span>⬅️</span> Thoát
+                      </button>
                       <button
                         type="button"
                         onClick={() => {
@@ -8988,7 +9016,48 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               return (
                 <div className="space-y-6">
-                  {/* BANNER ÔN TẬP ĐỊNH KỲ */}
+                  {/* BẬT THANH ĐIỀU KHIỂN RÚT GỌN KHI LÀM BÀI TOÀN MÀN HÌNH */}
+                  {isPeriodicFullScreen && (
+                    <div className="bg-indigo-700 text-white p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-indigo-400/40">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsPeriodicFullScreen(false);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-white/20 hover:bg-white/30 text-white font-black text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition active:scale-95 border border-white/30"
+                          title="Thoát chế độ toàn màn hình để chọn đề khác"
+                        >
+                          <span>⬅️</span>
+                          <span>Đổi đề / Thoát toàn màn hình</span>
+                        </button>
+                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-indigo-900/60 px-2.5 py-1 rounded-lg border border-indigo-300/30">
+                          📝 Toán {periodicGrade} • {termNames[periodicTerm]} (Đề {selectedPeriodicTestIdx + 1})
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handleStartPeriodicExam(currentExam)}
+                          className="bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs px-3 py-1.5 rounded-xl shadow flex items-center gap-1 transition active:scale-95"
+                        >
+                          <span>🚀</span> Phòng thi bấm giờ 90p
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handlePrintPeriodicExam(false)}
+                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition"
+                        >
+                          <span>🖨️</span> In đề
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* BANNER ÔN TẬP ĐỊNH KỲ (ẨN KHI TOÀN MÀN HÌNH) */}
+                  {!isPeriodicFullScreen && (
+                    <>
                   <div id="periodic-banner-card" className="bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print print:hidden">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <div className="flex items-center gap-3.5">
@@ -9160,6 +9229,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
                   </div>
 
+                    </>
+                  )}
+
                   {/* CHI TIẾT ĐỀ THI ĐƯỢC CHỌN */}
                   {currentExam && (
                     <div className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-6">
@@ -9178,6 +9250,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         </div>
 
                         <div className="flex flex-wrap items-center gap-2">
+                          <button
+                            onClick={() => {
+                              setIsPeriodicFullScreen(!isPeriodicFullScreen);
+                              window.scrollTo({ top: 0, behavior: "smooth" });
+                            }}
+                            className="bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs md:text-sm px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5 active:scale-95"
+                            title="Bật/Tắt chế độ toàn màn hình để làm bài dễ dàng trên điện thoại"
+                          >
+                            <span>📱</span> {isPeriodicFullScreen ? "Thu nhỏ (Hiện menu)" : "Toàn màn hình (Ẩn giới thiệu)"}
+                          </button>
                           <button
                             onClick={() => handleStartPeriodicExam(currentExam)}
                             className="bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs md:text-sm px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5"
@@ -9439,7 +9521,48 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               return (
                 <div className="space-y-6">
-                  {/* BANNER MÔN KHTN */}
+                  {/* BẬT THANH ĐIỀU KHIỂN RÚT GỌN KHI LÀM BÀI TOÀN MÀN HÌNH */}
+                  {isTakingKhtnOnline && (
+                    <div className="bg-teal-700 text-white p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-teal-400/40">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsTakingKhtnOnline(false);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-white/20 hover:bg-white/30 text-white font-black text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition active:scale-95 border border-white/30"
+                          title="Thoát chế độ toàn màn hình để chọn bài học hoặc đề khác"
+                        >
+                          <span>⬅️</span>
+                          <span>Đổi đề / Thoát toàn màn hình</span>
+                        </button>
+                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-teal-900/60 px-2.5 py-1 rounded-lg border border-teal-300/30">
+                          🔬 KHTN {khtnGrade} • {currentLesson?.name} (Đề 0{khtnTestNum})
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handlePrintKhtnExam(false)}
+                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition"
+                        >
+                          <span>🖨️</span> In đề
+                        </button>
+                        <button
+                          type="button"
+                          onClick={handleGradeKhtnOnline}
+                          className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs px-3 py-1.5 rounded-xl shadow flex items-center gap-1 transition active:scale-95 ring-2 ring-white"
+                        >
+                          <span>✅</span> Nộp bài
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* BANNER MÔN KHTN (ẨN KHI TOÀN MÀN HÌNH) */}
+                  {!isTakingKhtnOnline && (
+                    <>
                   <div id="khtn-banner-card" className="bg-gradient-to-r from-teal-900 via-emerald-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-3 no-print print:hidden">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <div className="flex items-center gap-3.5">
@@ -9587,7 +9710,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               }}
                               className="bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs p-2.5 rounded-xl shadow transition flex flex-col items-center justify-center gap-1 text-center"
                             >
-                              <span>{isTakingKhtnOnline ? "📖 Xem đề đọc" : "💻 Vào làm bài"}</span>
+                              <span>{isTakingKhtnOnline ? "📖 Xem đề đọc" : "📱 Làm bài (Toàn màn hình)"}</span>
                               <span className="text-[10px] opacity-80">Đề số 0{khtnTestNum}</span>
                             </button>
 
@@ -9680,6 +9803,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       </div>
                     </div>
                   </div>
+
+                    </>
+                  )}
 
                   {/* KHUNG HIỂN THỊ ĐỀ THI / LÀM BÀI TRỰC TUYẾN / IN ẤN TIẾT KIỆM GIẤY */}
                   {currentExam ? (
@@ -10142,6 +10268,48 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
                   )}
 
+                  {/* BẬT THANH ĐIỀU KHIỂN RÚT GỌN KHI HỌC SINH VÀO LÀM BÀI TOÀN MÀN HÌNH */}
+                  {isTakingTieuhocOnline && (
+                    <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-amber-300/40">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsTakingTieuhocOnline(false);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-white/20 hover:bg-white/30 text-white font-black text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition active:scale-95 border border-white/30"
+                          title="Quay lại chọn khối lớp hoặc chọn đề khác"
+                        >
+                          <span>⬅️</span>
+                          <span>Đổi đề / Thoát toàn màn hình</span>
+                        </button>
+                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-amber-900/40 px-2.5 py-1 rounded-lg border border-amber-300/30">
+                          🎒 Toán Lớp {tieuhocGrade} • {tieuhocMode === "periodic" ? currentTermObj?.name : currentLesson?.name} (Đề số 0{tieuhocTestNum})
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handlePrintTieuhocExam(false)}
+                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition"
+                        >
+                          <span>🖨️</span> In đề A4
+                        </button>
+                        <button
+                          type="button"
+                          onClick={handleGradeTieuhocOnline}
+                          className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs px-3.5 py-1.5 rounded-xl shadow flex items-center gap-1 transition active:scale-95 ring-2 ring-white"
+                        >
+                          <span>✅</span> Nộp bài chấm điểm
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* BỘ LỌC & BANNER TIỂU HỌC (TỰ ĐỘNG ẨN HOÀN TOÀN KHI VÀO LÀM BÀI ĐỂ HIỆN FULL TRANG MÀN HÌNH ĐỀ) */}
+                  {!isTakingTieuhocOnline && (
+                    <>
                   {/* 5 NÚT CHỌN KHỐI 1; KHỐI 2; KHỐI 3; KHỐI 4; KHỐI 5 NỔI BẬT Ở ĐẦU TRANG */}
                   <div id="tieuhoc-grade-top-bar" className="bg-white p-4 md:p-5 rounded-2xl shadow-sm border-2 border-amber-400 no-print print:hidden space-y-3">
                     <div className="flex flex-wrap items-center justify-between gap-2">
@@ -10500,7 +10668,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               : "bg-amber-600 hover:bg-amber-500 text-white"
                           }`}
                         >
-                          <span>✍️</span> Vào làm bài Online
+                          <span>📱</span> Vào làm bài (Toàn màn hình)
                         </button>
 
                         <button
@@ -10532,9 +10700,31 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                     </div>
                   </div>
 
-                  {/* VÙNG HIỂN THỊ ĐỀ THI & IN ẤN (TIEUHOC PRINTABLE EXAM) */}
+                    </>
+                  )}
+
+                  {/* VÙNG HIỂN THỊ ĐỀ THI & IN ẤN (TIEUHOC PRINTABLE EXAM - FULL TRANG MÀN HÌNH) */}
                   {currentExam ? (
                     <div className="tieuhoc-printable-exam bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 space-y-6">
+                      {/* NÚT BẬT TOÀN MÀN HÌNH NHANH CHO HỌC SINH */}
+                      {!isTakingTieuhocOnline && (
+                        <div className="bg-amber-50 border border-amber-200 rounded-xl p-2.5 flex items-center justify-between no-print mb-2">
+                          <span className="text-xs font-bold text-amber-950 flex items-center gap-1.5">
+                            <span>📱</span> Làm bài trên điện thoại?
+                          </span>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setIsTakingTieuhocOnline(true);
+                              window.scrollTo({ top: 0, behavior: "smooth" });
+                            }}
+                            className="bg-amber-600 hover:bg-amber-500 text-white font-black text-xs px-3 py-1.5 rounded-lg shadow-sm flex items-center gap-1 transition active:scale-95"
+                          >
+                            <span>📱</span> Bật Toàn màn hình (Ẩn menu & giới thiệu)
+                          </button>
+                        </div>
+                      )}
+
                       {/* HEADER ĐỀ THI TIỂU HỌC CHUẨN */}
                       <div className="border-b-2 border-slate-800 pb-4">
                         <div className="flex justify-between items-start text-xs md:text-sm font-semibold">
@@ -11180,6 +11370,40 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               return (
                 <div className="space-y-6">
+                  {/* BẬT THANH ĐIỀU KHIỂN RÚT GỌN KHI LÀM BÀI TOÀN MÀN HÌNH */}
+                  {isTopicFullScreen && (
+                    <div className="bg-slate-900 text-white p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-slate-700">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsTopicFullScreen(false);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-white/20 hover:bg-white/30 text-white font-black text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition active:scale-95 border border-white/30"
+                          title="Thoát chế độ toàn màn hình để chọn chuyên đề khác"
+                        >
+                          <span>⬅️</span>
+                          <span>Đổi chủ đề / Thoát toàn màn hình</span>
+                        </button>
+                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-amber-400 text-slate-950 px-2.5 py-1 rounded-lg">
+                          📚 {curTopic.name}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handlePrintTopicQuestions(false)}
+                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition"
+                        >
+                          <span>🖨️</span> In đề
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                  {!isTopicFullScreen && (
+                    <>
                   {/* BANNER ÔN THI VÀO 10 THEO CHỦ ĐỀ */}
                   <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-6 md:p-8 rounded-2xl shadow-md space-y-4 no-print">
                     <div className="flex flex-wrap justify-between items-start gap-4 border-b border-indigo-800/60 pb-5">
@@ -11200,6 +11424,17 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                       {/* NÚT IN & XUẤT PDF A4 TIẾT KIỆM GIẤY */}
                       <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsTopicFullScreen(!isTopicFullScreen);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center justify-center gap-1.5 transition active:scale-95"
+                          title="Bật/Tắt chế độ toàn màn hình để làm bài trên điện thoại"
+                        >
+                          <span>📱</span> {isTopicFullScreen ? "Thu nhỏ (Hiện menu)" : "Toàn màn hình (Ẩn giới thiệu)"}
+                        </button>
                         <button
                           type="button"
                           onClick={() => handlePrintTopicQuestions(false)}
@@ -11265,6 +11500,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       </div>
                     </div>
                   </div>
+
+                    </>
+                  )}
 
                   {/* KHUNG NỘI DUNG CHUYÊN ĐỀ ĐANG CHỌN */}
                   <div className="bg-white p-5 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-5">
@@ -11442,6 +11680,40 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
               return (
                 <div className="space-y-6">
+                  {/* BẬT THANH ĐIỀU KHIỂN RÚT GỌN KHI LÀM BÀI TOÀN MÀN HÌNH */}
+                  {isMockFullScreen && (
+                    <div className="bg-slate-900 text-white p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-slate-700">
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsMockFullScreen(false);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-white/20 hover:bg-white/30 text-white font-black text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 transition active:scale-95 border border-white/30"
+                          title="Thoát chế độ toàn màn hình để chọn đề khác"
+                        >
+                          <span>⬅️</span>
+                          <span>Đổi đề / Thoát toàn màn hình</span>
+                        </button>
+                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-amber-400 text-slate-950 px-2.5 py-1 rounded-lg">
+                          🎯 {currentExam.title}
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => handlePrintExam(mockViewTab === "full" ? "full" : "paper")}
+                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition"
+                        >
+                          <span>🖨️</span> In đề
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                  {!isMockFullScreen && (
+                    <>
                   {/* THANH ĐIỀU HƯỚNG TRÊN CÙNG */}
                   <div className="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 flex flex-wrap justify-between items-center gap-3 no-print">
                     <button
@@ -11480,6 +11752,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                       {/* CÁC NÚT HÀNH ĐỘNG IN & XUẤT PDF (GỌI DUY NHẤT LỆNH WINDOW.PRINT) */}
                       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
+                        <button
+                          onClick={() => {
+                            setIsMockFullScreen(!isMockFullScreen);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          className="bg-emerald-600 hover:bg-emerald-500 text-white font-black px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center justify-center gap-1.5 transition active:scale-95"
+                          title="Bật/Tắt chế độ toàn màn hình để làm bài trên điện thoại"
+                        >
+                          <span>📱</span> {isMockFullScreen ? "Thu nhỏ (Hiện menu)" : "Toàn màn hình (Ẩn giới thiệu)"}
+                        </button>
                         <button
                           onClick={() => handlePrintExam("paper")}
                           className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-4 py-2.5 rounded-xl shadow text-xs md:text-sm flex items-center justify-center gap-2 transition"
@@ -11536,6 +11818,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       </div>
                     </div>
                   </div>
+
+                    </>
+                  )}
 
                   {/* THANH CHUYỂN ĐỔI CHẾ ĐỘ XEM TRÊN MÀN HÌNH */}
                   <div className="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 flex flex-wrap justify-between items-center gap-3 no-print">
