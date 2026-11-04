@@ -3867,7 +3867,7 @@ if (typeof window !== "undefined") {
         const expPartKeys = Object.keys(expParts);
 
         if (expPartKeys.length > 1) {
-          const ptsPerPart = maxPts / expPartKeys.length;
+          const ptsPerPart = 0.5; // Chuẩn biểu điểm Tiểu học: mỗi ý 0.5 điểm
           let correctCount = 0;
           const details = [];
 
@@ -3908,14 +3908,14 @@ if (typeof window !== "undefined") {
 
             if (isOk) {
               correctCount++;
-              details.push(`Ý ${key.toUpperCase()}: Đúng (+${ptsPerPart.toFixed(2)}đ)`);
+              details.push(`Ý ${key.toUpperCase()}: Đúng (+0.5đ)`);
             } else {
               details.push(`Ý ${key.toUpperCase()}: Chưa đúng (Đáp số: ${expV})`);
             }
           });
 
           const isAll = (correctCount === expPartKeys.length);
-          const score = isAll ? maxPts : Math.round(correctCount * ptsPerPart * 10) / 10;
+          const score = isAll ? maxPts : Math.min(maxPts, Math.round(correctCount * 0.5 * 10) / 10);
           const isShortcut = isAll && (rawText.length < (q.solution || "").length * 0.6 || rawText.length < 80);
 
           return {
@@ -3979,7 +3979,7 @@ if (typeof window !== "undefined") {
         if (expNums.length >= 2) {
           const correctTargetCount = expNums.filter(en => userNums.some(un => compareTieuhocValues(un, en))).length;
           if (correctTargetCount > 0) {
-            const partialScore = Math.round((maxPts * (correctTargetCount / expNums.length)) * 10) / 10;
+            const partialScore = Math.min(maxPts, Math.round(correctTargetCount * 0.5 * 10) / 10);
             return {
               score: partialScore,
               maxPoints: maxPts,
@@ -4004,18 +4004,18 @@ if (typeof window !== "undefined") {
         const ex = getTieuhocExam();
         if (!ex) return;
 
-        // 1. Chấm Phần I (Trắc nghiệm - 3.0 điểm)
+        // 1. Chấm Phần I (Trắc nghiệm - 1.5 điểm: 6 câu x 0.25đ)
         let p1Score = 0;
         let p1CorrectCount = 0;
         (ex.part1 || []).forEach(q => {
           if (tieuhocAnswers.p1[q.id] === q.correct) {
-            p1Score += (q.points || 0.5);
+            p1Score += (q.points || 0.25);
             p1CorrectCount++;
           }
         });
         p1Score = Math.round(p1Score * 100) / 100;
 
-        // 2. Chấm Phần II (Tự luận - 7.0 điểm) - Smart Grader: làm tắt vẫn tối đa điểm
+        // 2. Chấm Phần II (Tự luận - 8.5 điểm: mỗi ý 0.5đ) - Smart Grader: làm tắt vẫn tối đa điểm
         let p2Score = 0;
         const p2Details = {};
         (ex.part2 || []).forEach(q => {
@@ -10209,7 +10209,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             HỆ THỐNG ĐỀ KIỂM TRA TOÁN {tieuhocGrade} (THEO BÀI & ĐỊNH KỲ)
                           </h2>
                           <p className="text-xs md:text-sm text-amber-100 mt-0.5">
-                            Cấu trúc chuẩn: 6 câu trắc nghiệm (3,0 điểm) + 6 bài tự luận (7,0 điểm) • Có chừa sẵn dòng kẻ làm bài khi in ấn A4 tiết kiệm giấy
+                            Cấu trúc chuẩn: 6 câu trắc nghiệm (1,5 điểm) + 6 bài tự luận (8,5 điểm) • Có chừa sẵn dòng kẻ làm bài khi in ấn A4 tiết kiệm giấy
                           </p>
                           {/* DÃY NÚT CHỌN LỚP TRỰC TIẾP TRÊN BANNER */}
                           <div className="flex flex-wrap items-center gap-1.5 pt-2">
@@ -10568,8 +10568,8 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             </div>
                             {tieuhocScoreResult && (
                               <div className="text-[10px] md:text-[11px] font-bold text-slate-600 mt-1 flex flex-wrap justify-center gap-1">
-                                <span className="bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded">TN: {tieuhocScoreResult.p1Score}/3.0đ</span>
-                                <span className="bg-emerald-100 text-emerald-900 px-1.5 py-0.5 rounded">TL: {tieuhocScoreResult.p2Score}/7.0đ</span>
+                                <span className="bg-amber-100 text-amber-900 px-1.5 py-0.5 rounded">TN: {tieuhocScoreResult.p1Score}/1.5đ</span>
+                                <span className="bg-emerald-100 text-emerald-900 px-1.5 py-0.5 rounded">TL: {tieuhocScoreResult.p2Score}/8.5đ</span>
                               </div>
                             )}
                           </div>
@@ -10589,7 +10589,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       {/* PHẦN I: TRẮC NGHIỆM KHÁCH QUAN (3,0 ĐIỂM) */}
                       <div className="space-y-4">
                         <div className="bg-amber-50/80 border-l-4 border-amber-600 px-3 py-1.5 font-black text-xs md:text-sm text-amber-950 uppercase">
-                          I. PHẦN TRẮC NGHIỆM (3,0 ĐIỂM - KHOANH TRÒN VÀO CHỮ CÁI ĐẶT TRƯỚC CÂU TRẢ LỜI ĐÚNG)
+                          I. PHẦN TRẮC NGHIỆM (1,5 ĐIỂM - 6 CÂU, MỖI CÂU 0,25 ĐIỂM)
                         </div>
 
                         <div className="space-y-3">
@@ -10652,7 +10652,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       {/* PHẦN II: TỰ LUẬN (7,0 ĐIỂM - 6 BÀI TOÁN CÓ CHỪA DÒNG KẺ) */}
                       <div className="space-y-5 pt-3 border-t border-slate-200">
                         <div className="bg-amber-50/80 border-l-4 border-amber-600 px-3 py-1.5 font-black text-xs md:text-sm text-amber-950 uppercase flex items-center justify-between">
-                          <span>II. PHẦN TỰ LUẬN (7,0 ĐIỂM - HỌC SINH TRÌNH BÀY BÀI GIẢI VÀO PHẦN CHỪA TRỐNG)</span>
+                          <span>II. PHẦN TỰ LUẬN (8,5 ĐIỂM - MỖI Ý 0,5 ĐIỂM - HỌC SINH TRÌNH BÀY BÀI GIẢI VÀO PHẦN CHỪA TRỐNG)</span>
                           <span className="text-[11px] normal-case font-normal text-amber-800 bg-amber-100 px-2 py-0.5 rounded no-print print:hidden">
                             💡 Làm tắt / tính gộp bước vẫn được điểm tối đa
                           </span>

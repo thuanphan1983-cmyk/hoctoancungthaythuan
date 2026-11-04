@@ -122,24 +122,69 @@ def build_all():
 
     print(f"\n=> TỔNG SỐ ĐỀ ĐÃ NẠP: {len(all_exams)}")
 
-    # CHUẨN HÓA TIÊU ĐỀ THEO ĐÚNG RULE[user_global]
+    # CHUẨN HÓA TIÊU ĐỀ THEO ĐÚNG RULE[user_global] & BIỂU ĐIỂM CHUẨN (TN 1.5đ, TL 8.5đ)
     # **Câu [Số]:** và **Bài [Số]:**
+    def detect_p2_parts(q):
+        text = q.get('question', '') + ' ' + q.get('answer', '')
+        found = re.findall(r'(?:^|[\s\n])([a-d])\)', text.lower())
+        return sorted(list(set(found)))
+
+    def balance_p2_points(p2):
+        n_parts = [len(detect_p2_parts(q)) for q in p2]
+        pts = [1.0, 1.0, 1.0, 1.5, 2.0, 2.0]
+        for i in range(min(6, len(p2))):
+            if n_parts[i] == 4: pts[i] = 2.0
+            elif n_parts[i] == 3: pts[i] = 1.5
+            elif n_parts[i] == 2: pts[i] = 1.0
+            elif n_parts[i] == 1: pts[i] = 0.5
+        current_sum = sum(pts)
+        diff = round(8.5 - current_sum, 1)
+        add_order = [4, 5, 3, 2, 1, 0]
+        sub_order = [0, 1, 2, 5, 3, 4]
+        while diff > 0.01:
+            added = False
+            for idx in add_order:
+                if pts[idx] + 0.5 <= 2.5:
+                    pts[idx] += 0.5
+                    diff = round(diff - 0.5, 1)
+                    added = True
+                    break
+            if not added:
+                pts[4] += 0.5
+                diff = round(diff - 0.5, 1)
+        while diff < -0.01:
+            subbed = False
+            for idx in sub_order:
+                if pts[idx] - 0.5 >= 0.5:
+                    pts[idx] -= 0.5
+                    diff = round(diff + 0.5, 1)
+                    subbed = True
+                    break
+            if not subbed:
+                pts[0] -= 0.5
+                diff = round(diff + 0.5, 1)
+        return pts
+
     for eid, ex in all_exams.items():
-        # Chuẩn hóa Part 1
+        # Chuẩn hóa Part 1 (6 câu x 0.25đ = 1.5đ)
         for idx, q in enumerate(ex.get("part1", [])):
             q_num = q.get("id", idx + 1)
             q_text = q.get("question", "").strip()
             q_text = re.sub(r"^\*\*(Câu|Bài)\s*\d+[:\.]*\*\*\s*", "", q_text, flags=re.IGNORECASE)
             q_text = re.sub(r"^(Câu|Bài)\s*\d+[:\.]*\s*", "", q_text, flags=re.IGNORECASE)
             q["question"] = f"**Câu {q_num}:** {q_text}"
+            q["points"] = 0.25
 
-        # Chuẩn hóa Part 2
+        # Chuẩn hóa Part 2 (6 bài, tổng 8.5đ, mỗi ý 0.5đ)
+        p2_pts = balance_p2_points(ex.get("part2", []))
         for idx, q in enumerate(ex.get("part2", [])):
             q_num = q.get("id", idx + 1)
             q_text = q.get("question", "").strip()
             q_text = re.sub(r"^\*\*(Câu|Bài)\s*\d+[:\.]*\*\*\s*", "", q_text, flags=re.IGNORECASE)
             q_text = re.sub(r"^(Câu|Bài)\s*\d+[:\.]*\s*", "", q_text, flags=re.IGNORECASE)
             q["question"] = f"**Bài {q_num}:** {q_text}"
+            if idx < len(p2_pts):
+                q["points"] = p2_pts[idx]
 
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
