@@ -3534,6 +3534,98 @@ if (typeof window !== "undefined") {
       });
       const [tieuhocSubmitted, setTieuhocSubmitted] = useState(false);
       const [tieuhocScoreResult, setTieuhocScoreResult] = useState(null);
+      const [expandedTieuhocKb, setExpandedTieuhocKb] = useState({}); // { [qId]: boolean }
+      const [activeTieuhocKbTab, setActiveTieuhocKbTab] = useState({}); // { [qId]: 'calc' | 'frac' | 'unit' | 'sample' }
+
+      // Hàm chèn ký hiệu / công thức vào ô tự luận tiểu học tại vị trí con trỏ
+      const insertToTieuhocTextarea = (qId, strToInsert) => {
+        if (!isTakingTieuhocOnline) setIsTakingTieuhocOnline(true);
+        const el = document.getElementById(`tieuhoc_textarea_${qId}`);
+        const currentVal = tieuhocAnswers.p2[qId] || "";
+        
+        if (el && typeof el.selectionStart === "number") {
+          const start = el.selectionStart;
+          const end = el.selectionEnd;
+          const textBefore = currentVal.substring(0, start);
+          const textAfter = currentVal.substring(end);
+          const newVal = textBefore + strToInsert + textAfter;
+          
+          setTieuhocAnswers(prev => ({
+            ...prev,
+            p2: { ...prev.p2, [qId]: newVal }
+          }));
+
+          setTimeout(() => {
+            el.focus();
+            el.setSelectionRange(start + strToInsert.length, start + strToInsert.length);
+          }, 15);
+        } else {
+          setTieuhocAnswers(prev => ({
+            ...prev,
+            p2: { ...prev.p2, [qId]: currentVal + strToInsert }
+          }));
+        }
+      };
+
+      const backspaceTieuhocTextarea = (qId) => {
+        const el = document.getElementById(`tieuhoc_textarea_${qId}`);
+        const currentVal = tieuhocAnswers.p2[qId] || "";
+        if (!currentVal) return;
+        
+        if (el && typeof el.selectionStart === "number") {
+          const start = el.selectionStart;
+          const end = el.selectionEnd;
+          if (start === end && start > 0) {
+            const newVal = currentVal.substring(0, start - 1) + currentVal.substring(end);
+            setTieuhocAnswers(prev => ({
+              ...prev,
+              p2: { ...prev.p2, [qId]: newVal }
+            }));
+            setTimeout(() => {
+              el.focus();
+              el.setSelectionRange(start - 1, start - 1);
+            }, 15);
+          } else if (start < end) {
+            const newVal = currentVal.substring(0, start) + currentVal.substring(end);
+            setTieuhocAnswers(prev => ({
+              ...prev,
+              p2: { ...prev.p2, [qId]: newVal }
+            }));
+            setTimeout(() => {
+              el.focus();
+              el.setSelectionRange(start, start);
+            }, 15);
+          }
+        } else {
+          setTieuhocAnswers(prev => ({
+            ...prev,
+            p2: { ...prev.p2, [qId]: currentVal.slice(0, -1) }
+          }));
+        }
+      };
+
+      const clearTieuhocTextarea = (qId) => {
+        setTieuhocAnswers(prev => ({
+          ...prev,
+          p2: { ...prev.p2, [qId]: "" }
+        }));
+        const el = document.getElementById(`tieuhoc_textarea_${qId}`);
+        if (el) el.focus();
+      };
+
+      const formatTieuhocPreview = (raw) => {
+        if (!raw) return "";
+        let s = raw;
+        s = s.replace(/\b(m2|m²)\b/g, "$m^2$");
+        s = s.replace(/\b(cm2|cm²)\b/g, "$cm^2$");
+        s = s.replace(/\b(dm2|dm²)\b/g, "$dm^2$");
+        s = s.replace(/\b(km2|km²)\b/g, "$km^2$");
+        s = s.replace(/\b(m3|m³)\b/g, "$m^3$");
+        s = s.replace(/\b(cm3|cm³)\b/g, "$cm^3$");
+        s = s.replace(/\b(dm3|dm³)\b/g, "$dm^3$");
+        s = s.replace(/\b(\d+)\/(\d+)\b/g, (m, p1, p2) => "$\\frac{" + p1 + "}{" + p2 + "}$");
+        return s;
+      };
 
       // Hàm chọn khối lớp Tiểu học (Lớp 1, 2, 3, 4, 5)
       const selectTieuhocGrade = (gStr) => {
@@ -10579,10 +10671,311 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                     {Array.from({ length: lines }).map((_, lIdx) => (
                                       <div key={lIdx} className="tieuhoc-dotted-line"></div>
                                     ))}
-                                    {/* Ô nhập bài giải trực tuyến */}
-                                    <div className="pt-2 no-print print:hidden">
+                                    {/* HỆ THỐNG NHẬP NHANH CÔNG THỨC EQUATIONS CHO HỌC SINH TIỂU HỌC */}
+                                    <div className="pt-2.5 no-print print:hidden space-y-2">
+                                      {/* THANH PHÍM NHẬP NHANH (QUICK ROW) */}
+                                      <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-2 space-y-1.5 shadow-2xs">
+                                        <div className="flex flex-wrap items-center justify-between gap-1.5 text-[11px]">
+                                          <div className="flex items-center gap-1 font-bold text-amber-900">
+                                            <span>⚡</span>
+                                            <span>Chèn nhanh công thức & ký hiệu:</span>
+                                          </div>
+                                          <div className="flex items-center gap-1">
+                                            <button
+                                              type="button"
+                                              onClick={() => {
+                                                setExpandedTieuhocKb(prev => ({ ...prev, [q.id]: !prev[q.id] }));
+                                              }}
+                                              className="px-2 py-0.5 rounded-lg text-[10px] md:text-[11px] font-bold bg-amber-600 hover:bg-amber-500 text-white shadow-xs flex items-center gap-1 transition active:scale-95"
+                                            >
+                                              <span>⌨️</span>
+                                              <span>{expandedTieuhocKb[q.id] ? "Thu gọn bàn phím ▲" : "Bàn phím đầy đủ ▼"}</span>
+                                            </button>
+                                            <button
+                                              type="button"
+                                              title="Xóa ký tự cuối (Backspace)"
+                                              onClick={() => backspaceTieuhocTextarea(q.id)}
+                                              className="px-2 py-0.5 rounded-lg text-[11px] font-black bg-rose-100 hover:bg-rose-200 text-rose-800 border border-rose-300 transition active:scale-90"
+                                            >
+                                              ⌫
+                                            </button>
+                                            <button
+                                              type="button"
+                                              title="Xóa toàn bộ ô nhập"
+                                              onClick={() => clearTieuhocTextarea(q.id)}
+                                              className="px-1.5 py-0.5 rounded-lg text-[11px] text-slate-500 hover:text-rose-600 hover:bg-white transition"
+                                            >
+                                              🗑️
+                                            </button>
+                                          </div>
+                                        </div>
+
+                                        {/* DÃY PHÍM TẮT THÔNG DỤNG NHẤT */}
+                                        <div className="flex flex-wrap items-center gap-1">
+                                          {/* Ý câu hỏi */}
+                                          <div className="flex items-center gap-0.5 bg-white/80 p-0.5 rounded-lg border border-amber-200">
+                                            {["a) ", "b) ", "c) ", "d) "].map(partSym => (
+                                              <button
+                                                key={partSym}
+                                                type="button"
+                                                onClick={() => insertToTieuhocTextarea(q.id, partSym)}
+                                                className="px-1.5 py-0.5 rounded bg-amber-100 hover:bg-amber-200 text-amber-950 font-bold text-[11px] transition active:scale-95"
+                                              >
+                                                {partSym.trim()}
+                                              </button>
+                                            ))}
+                                          </div>
+
+                                          {/* Phép tính chuẩn tiểu học */}
+                                          <div className="flex items-center gap-0.5 bg-white/80 p-0.5 rounded-lg border border-indigo-200">
+                                            {[
+                                              { label: "+", val: " + " },
+                                              { label: "-", val: " - " },
+                                              { label: "×", val: " × " },
+                                              { label: ":", val: " : " },
+                                              { label: "=", val: " = " },
+                                              { label: "a/b", val: "/" },
+                                              { label: "(", val: "(" },
+                                              { label: ")", val: ")" },
+                                            ].map(calc => (
+                                              <button
+                                                key={calc.label}
+                                                type="button"
+                                                onClick={() => insertToTieuhocTextarea(q.id, calc.val)}
+                                                className="px-1.5 py-0.5 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-950 font-mono font-bold text-[11px] transition active:scale-95"
+                                              >
+                                                {calc.label}
+                                              </button>
+                                            ))}
+                                          </div>
+
+                                          {/* Đơn vị hay dùng */}
+                                          <div className="flex items-center gap-0.5 bg-white/80 p-0.5 rounded-lg border border-emerald-200">
+                                            {["m²", "cm²", "kg", "lít", "%"].map(unitSym => (
+                                              <button
+                                                key={unitSym}
+                                                type="button"
+                                                onClick={() => insertToTieuhocTextarea(q.id, ` ${unitSym}`)}
+                                                className="px-1.5 py-0.5 rounded bg-emerald-50 hover:bg-emerald-100 text-emerald-950 font-bold text-[11px] transition active:scale-95"
+                                              >
+                                                {unitSym}
+                                              </button>
+                                            ))}
+                                          </div>
+
+                                          {/* Mẫu nhanh */}
+                                          <div className="flex items-center gap-0.5 bg-white/80 p-0.5 rounded-lg border border-sky-200">
+                                            {[
+                                              { label: "x =", val: "x = " },
+                                              { label: "ĐS:", val: "Đáp số: " }
+                                            ].map(smp => (
+                                              <button
+                                                key={smp.label}
+                                                type="button"
+                                                onClick={() => insertToTieuhocTextarea(q.id, smp.val)}
+                                                className="px-1.5 py-0.5 rounded bg-sky-50 hover:bg-sky-100 text-sky-950 font-semibold text-[11px] transition active:scale-95"
+                                              >
+                                                {smp.label}
+                                              </button>
+                                            ))}
+                                          </div>
+                                        </div>
+
+                                        {/* BẢNG BÀN PHÍM ĐẦY ĐỦ KHI MỞ RỘNG */}
+                                        {expandedTieuhocKb[q.id] && (() => {
+                                          const curTab = activeTieuhocKbTab[q.id] || "calc";
+                                          return (
+                                            <div className="mt-2 pt-2 border-t border-amber-200 bg-white/95 rounded-xl p-2.5 shadow-xs space-y-2">
+                                              {/* THANH CHUYỂN TAB BÀN PHÍM */}
+                                              <div className="flex flex-wrap items-center gap-1 border-b border-slate-200 pb-1.5">
+                                                {[
+                                                  { id: "calc", label: "📐 Phép tính & So sánh" },
+                                                  { id: "frac", label: "➗ Phân số & Biến số" },
+                                                  { id: "unit", label: "📏 Đơn vị đo SGK" },
+                                                  { id: "sample", label: "📝 Mẫu câu lời giải" }
+                                                ].map(tab => (
+                                                  <button
+                                                    key={tab.id}
+                                                    type="button"
+                                                    onClick={() => setActiveTieuhocKbTab(prev => ({ ...prev, [q.id]: tab.id }))}
+                                                    className={`px-2 py-1 rounded-lg text-[10px] md:text-[11px] font-bold transition ${
+                                                      curTab === tab.id
+                                                        ? "bg-amber-600 text-white shadow-xs"
+                                                        : "bg-slate-100 hover:bg-slate-200 text-slate-700"
+                                                    }`}
+                                                  >
+                                                    {tab.label}
+                                                  </button>
+                                                ))}
+                                              </div>
+
+                                              {/* NỘI DUNG TỪNG TAB */}
+                                              {curTab === "calc" && (
+                                                <div className="flex flex-wrap items-center gap-1.5">
+                                                  {[
+                                                    { label: "+", val: " + " },
+                                                    { label: "-", val: " - " },
+                                                    { label: "×", val: " × " },
+                                                    { label: ":", val: " : " },
+                                                    { label: "÷", val: " ÷ " },
+                                                    { label: "=", val: " = " },
+                                                    { label: "≠", val: " ≠ " },
+                                                    { label: ">", val: " > " },
+                                                    { label: "<", val: " < " },
+                                                    { label: "≥", val: " ≥ " },
+                                                    { label: "≤", val: " ≤ " },
+                                                    { label: "(", val: "(" },
+                                                    { label: ")", val: ")" },
+                                                    { label: "[", val: "[" },
+                                                    { label: "]", val: "]" },
+                                                    { label: "...", val: "..." },
+                                                    { label: ",", val: ", " },
+                                                    { label: ";", val: "; " }
+                                                  ].map(item => (
+                                                    <button
+                                                      key={item.label}
+                                                      type="button"
+                                                      onClick={() => insertToTieuhocTextarea(q.id, item.val)}
+                                                      className="min-w-8 h-7 px-2 rounded-lg bg-slate-50 hover:bg-indigo-100 text-slate-800 font-mono font-bold text-xs border border-slate-200 transition active:scale-90 flex items-center justify-center"
+                                                    >
+                                                      {item.label}
+                                                    </button>
+                                                  ))}
+                                                </div>
+                                              )}
+
+                                              {curTab === "frac" && (
+                                                <div className="space-y-1.5">
+                                                  <div className="flex flex-wrap items-center gap-1.5">
+                                                    <span className="text-[10px] font-bold text-slate-500">Phân số & Hỗn số:</span>
+                                                    {[
+                                                      { label: "a/b", val: "/" },
+                                                      { label: "1/2", val: "1/2" },
+                                                      { label: "1/3", val: "1/3" },
+                                                      { label: "1/4", val: "1/4" },
+                                                      { label: "2/3", val: "2/3" },
+                                                      { label: "3/4", val: "3/4" },
+                                                      { label: "1/5", val: "1/5" },
+                                                      { label: "2/5", val: "2/5" },
+                                                      { label: "3/5", val: "3/5" },
+                                                      { label: "4/5", val: "4/5" },
+                                                      { label: "1 1/2", val: "1 1/2" },
+                                                      { label: "2 3/4", val: "2 3/4" },
+                                                      { label: "%", val: "%" }
+                                                    ].map(frac => (
+                                                      <button
+                                                        key={frac.label}
+                                                        type="button"
+                                                        onClick={() => insertToTieuhocTextarea(q.id, frac.val)}
+                                                        className="h-7 px-2.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-950 font-bold text-xs border border-emerald-200 transition active:scale-95 flex items-center justify-center"
+                                                      >
+                                                        {frac.label}
+                                                      </button>
+                                                    ))}
+                                                  </div>
+                                                  <div className="flex flex-wrap items-center gap-1.5 pt-1 border-t border-slate-100">
+                                                    <span className="text-[10px] font-bold text-slate-500">Ẩn số & Tỉ số:</span>
+                                                    {[
+                                                      { label: "x", val: "x" },
+                                                      { label: "y", val: "y" },
+                                                      { label: "x =", val: "x = " },
+                                                      { label: "y =", val: "y = " },
+                                                      { label: "A =", val: "A = " },
+                                                      { label: "B =", val: "B = " }
+                                                    ].map(v => (
+                                                      <button
+                                                        key={v.label}
+                                                        type="button"
+                                                        onClick={() => insertToTieuhocTextarea(q.id, v.val)}
+                                                        className="h-7 px-2.5 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-950 font-bold text-xs border border-sky-200 transition active:scale-95 flex items-center justify-center"
+                                                      >
+                                                        {v.label}
+                                                      </button>
+                                                    ))}
+                                                  </div>
+                                                </div>
+                                              )}
+
+                                              {curTab === "unit" && (
+                                                <div className="space-y-1.5">
+                                                  <div className="flex flex-wrap items-center gap-1">
+                                                    <span className="text-[10px] font-bold text-slate-500 w-full">Diện tích & Thể tích:</span>
+                                                    {["m²", "cm²", "dm²", "mm²", "km²", "ha", "m³", "dm³", "cm³", "lít", "ml"].map(u => (
+                                                      <button
+                                                        key={u}
+                                                        type="button"
+                                                        onClick={() => insertToTieuhocTextarea(q.id, ` ${u}`)}
+                                                        className="h-6 px-2 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-900 font-bold text-[11px] border border-emerald-200 transition active:scale-95"
+                                                      >
+                                                        {u}
+                                                      </button>
+                                                    ))}
+                                                  </div>
+                                                  <div className="flex flex-wrap items-center gap-1 pt-1 border-t border-slate-100">
+                                                    <span className="text-[10px] font-bold text-slate-500 w-full">Độ dài & Khối lượng:</span>
+                                                    {["m", "dm", "cm", "mm", "km", "kg", "g", "yến", "tạ", "tấn"].map(u => (
+                                                      <button
+                                                        key={u}
+                                                        type="button"
+                                                        onClick={() => insertToTieuhocTextarea(q.id, ` ${u}`)}
+                                                        className="h-6 px-2 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-900 font-bold text-[11px] border border-amber-200 transition active:scale-95"
+                                                      >
+                                                        {u}
+                                                      </button>
+                                                    ))}
+                                                  </div>
+                                                  <div className="flex flex-wrap items-center gap-1 pt-1 border-t border-slate-100">
+                                                    <span className="text-[10px] font-bold text-slate-500 w-full">Thời gian & Thực tế:</span>
+                                                    {["giờ", "phút", "giây", "ngày", "năm", "thế kỉ", "đồng", "học sinh", "con", "quả", "viên", "chiếc"].map(u => (
+                                                      <button
+                                                        key={u}
+                                                        type="button"
+                                                        onClick={() => insertToTieuhocTextarea(q.id, ` ${u}`)}
+                                                        className="h-6 px-2 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-900 font-medium text-[11px] border border-sky-200 transition active:scale-95"
+                                                      >
+                                                        {u}
+                                                      </button>
+                                                    ))}
+                                                  </div>
+                                                </div>
+                                              )}
+
+                                              {curTab === "sample" && (
+                                                <div className="flex flex-wrap items-center gap-1.5">
+                                                  {[
+                                                    { label: "Bài giải:", val: "Bài giải:
+" },
+                                                    { label: "Đáp số:", val: "
+Đáp số: " },
+                                                    { label: "Chiều dài là:", val: "Chiều dài mảnh đất là: " },
+                                                    { label: "Chiều rộng là:", val: "Chiều rộng mảnh đất là: " },
+                                                    { label: "Chu vi là:", val: "Chu vi là: " },
+                                                    { label: "Diện tích là:", val: "Diện tích là: " },
+                                                    { label: "Vận tốc là:", val: "Vận tốc của ô tô là: " },
+                                                    { label: "Quãng đường là:", val: "Quãng đường AB là: " },
+                                                    { label: "Thời gian là:", val: "Thời gian đi là: " },
+                                                    { label: "Số học sinh là:", val: "Số học sinh là: " }
+                                                  ].map(smp => (
+                                                    <button
+                                                      key={smp.label}
+                                                      type="button"
+                                                      onClick={() => insertToTieuhocTextarea(q.id, smp.val)}
+                                                      className="h-7 px-2.5 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-950 font-medium text-xs border border-amber-200 transition active:scale-95"
+                                                    >
+                                                      {smp.label}
+                                                    </button>
+                                                  ))}
+                                                </div>
+                                              )}
+                                            </div>
+                                          );
+                                        })()}
+                                      </div>
+
+                                      {/* Ô NHẬP VĂN BẢN TỰ LUẬN */}
                                       <textarea
-                                        placeholder="Nhập bài giải hoặc kết quả của em vào đây (học sinh có thể làm tắt các bước tính)..."
+                                        id={`tieuhoc_textarea_${q.id}`}
+                                        placeholder="Nhập bài giải hoặc kết quả của em vào đây (học sinh có thể gõ tắt phép tính & đáp số)..."
                                         value={tieuhocAnswers.p2[q.id] || ""}
                                         onChange={(e) => {
                                           const val = e.target.value;
@@ -10593,8 +10986,25 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                           }));
                                         }}
                                         rows={3}
-                                        className="w-full text-xs md:text-sm p-2.5 rounded-xl border border-amber-200 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 font-sans shadow-inner placeholder:text-slate-400 placeholder:italic"
+                                        className="w-full text-xs md:text-sm p-3 rounded-xl border-2 border-amber-300/80 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 font-sans shadow-inner placeholder:text-slate-400 placeholder:italic transition"
                                       />
+
+                                      {/* KHUNG XEM TRƯỚC BÀI LÀM TRỰC QUAN (LIVE MATH PREVIEW) */}
+                                      {tieuhocAnswers.p2[q.id]?.trim() && (
+                                        <div className="p-2.5 rounded-xl bg-amber-50/70 border border-amber-200 text-xs space-y-1">
+                                          <div className="flex items-center justify-between text-[11px] font-bold text-amber-900 border-b border-amber-200/60 pb-1">
+                                            <span className="flex items-center gap-1">
+                                              <span>👀</span> Xem trước hiển thị công thức (chuẩn SGK):
+                                            </span>
+                                            <span className="text-[10px] text-amber-700 font-normal italic">
+                                              Hệ thống tự động hiển thị phân số và số mũ
+                                            </span>
+                                          </div>
+                                          <div className="font-times text-slate-900 text-xs md:text-sm whitespace-pre-wrap leading-relaxed pt-0.5">
+                                            <MathView text={formatTieuhocPreview(tieuhocAnswers.p2[q.id])} />
+                                          </div>
+                                        </div>
+                                      )}
                                     </div>
                                   </div>
                                 )}
