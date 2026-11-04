@@ -36,7 +36,15 @@ def build_all():
         all_exams.update(e1)
         print(f"-> [Toán 1] Nạp {len(e1)} đề định kỳ từ generator_th1_periodic")
     except Exception as e:
-        print(f"Lỗi nạp Toán 1: {e}")
+        print(f"Lỗi nạp Toán 1 định kỳ: {e}")
+
+    try:
+        import generate_toan1_lessons
+        e1_les = generate_toan1_lessons.get_toan1_lesson_exams()
+        all_exams.update(e1_les)
+        print(f"-> [Toán 1] Nạp {len(e1_les)} đề theo bài từ generate_toan1_lessons")
+    except Exception as e:
+        print(f"Lỗi nạp Toán 1 theo bài: {e}")
 
     # =========================================================================
     # 2. TOÁN 2
@@ -47,7 +55,15 @@ def build_all():
         all_exams.update(e2)
         print(f"-> [Toán 2] Nạp {len(e2)} đề định kỳ từ generator_th2_periodic")
     except Exception as e:
-        print(f"Lỗi nạp Toán 2: {e}")
+        print(f"Lỗi nạp Toán 2 định kỳ: {e}")
+
+    try:
+        import generate_toan2_lessons
+        e2_les = generate_toan2_lessons.get_toan2_lesson_exams()
+        all_exams.update(e2_les)
+        print(f"-> [Toán 2] Nạp {len(e2_les)} đề theo bài từ generate_toan2_lessons")
+    except Exception as e:
+        print(f"Lỗi nạp Toán 2 theo bài: {e}")
 
     # =========================================================================
     # 3. TOÁN 3
@@ -58,7 +74,15 @@ def build_all():
         all_exams.update(e3)
         print(f"-> [Toán 3] Nạp {len(e3)} đề định kỳ từ generator_th3_periodic")
     except Exception as e:
-        print(f"Lỗi nạp Toán 3: {e}")
+        print(f"Lỗi nạp Toán 3 định kỳ: {e}")
+
+    try:
+        import generate_toan3_lessons
+        e3_les = generate_toan3_lessons.get_toan3_lesson_exams()
+        all_exams.update(e3_les)
+        print(f"-> [Toán 3] Nạp {len(e3_les)} đề theo bài từ generate_toan3_lessons")
+    except Exception as e:
+        print(f"Lỗi nạp Toán 3 theo bài: {e}")
 
     # =========================================================================
     # 4. TOÁN 4
