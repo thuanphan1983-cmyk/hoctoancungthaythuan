@@ -1285,19 +1285,6 @@ if (typeof window !== "undefined") {
 
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-  <!-- 1. THANH TIỆN ÍCH HOTLINE & ZALO NHỎ GỌN TRÊN CÙNG (GÓC PHẢI - TOP: 12PX, RIGHT: 16PX, Z-INDEX: 9999) -->
-  <div id="top-contact-bar" class="no-print" style="position: fixed; top: 12px; right: 16px; z-index: 9999; display: flex; align-items: center; gap: 8px;">
-    <!-- Hotline nhỏ gọn -->
-    <a href="tel:0976295033" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: #e11d48; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
-      <span>📞</span> 0976295033
-    </a>
-
-    <!-- Chat Zalo Thầy Thuấn nhỏ gọn -->
-    <a href="https://zalo.me/0976295033" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; background: #0284c7; color: #ffffff; text-decoration: none; border-radius: 9999px; font-size: 12px; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.15); transition: opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
-      <span>💬</span> Chat Zalo Thầy Thuấn
-    </a>
-  </div>
-
   <div id="root"></div>
 
 
@@ -1315,10 +1302,7 @@ if (typeof window !== "undefined") {
     // CẤU HÌNH THÔNG TIN CHUNG HỆ THỐNG (DỄ DÀNG ĐIỀU CHỈNH)
     // ==============================================================
     const APP_CONFIG = {
-      SUPPORT_PHONE: "0976295033",
-      ZALO_LINK: "https://zalo.me/0976295033",
       BANK_ID: "MB", // Ngân hàng Quân Đội (MB Bank)
-      ACCOUNT_NO: "0976295033",
       ACCOUNT_NAME: "PHAN DINH THUAN",
       GOOGLE_CLIENT_ID: "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
     };
@@ -8733,41 +8717,6 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                       </p>
                     </div>
                   </div>
-
-                  {/* HỘP THÔNG BÁO HỖ TRỢ QUA SỐ ĐIỆN THOẠI / ZALO SAU KHI NỘP BÀI */}
-                  <div className="bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 p-4 md:p-5 rounded-2xl border border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm no-print">
-                    <div className="flex items-center gap-3.5">
-                      <div className="w-11 h-11 rounded-2xl bg-[#0068FF] text-white flex items-center justify-center font-bold text-xl shadow-md shadow-blue-500/25 shrink-0">
-                        💬
-                      </div>
-                      <div className="space-y-0.5">
-                        <h5 className="font-bold text-slate-900 text-xs md:text-sm">
-                          Em có thắc mắc về đáp án, phương pháp giải hoặc điểm số?
-                        </h5>
-                        <p className="text-xs text-slate-600 leading-relaxed">
-                          Nếu em có thắc mắc về đáp án, phương pháp giải hoặc điểm số, hãy nhắn tin cho Thầy qua Zalo <b>{APP_CONFIG.SUPPORT_PHONE}</b> để được giải đáp chi tiết.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto">
-                      <a
-                        href={APP_CONFIG.ZALO_LINK}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-[#0068FF] hover:bg-[#0052cc] text-white text-xs font-bold flex items-center justify-center gap-1.5 shadow-md shadow-blue-500/20 transition transform active:scale-95"
-                      >
-                        <span>💬 Nhắn tin Zalo Thầy Thuấn</span>
-                        <span className="text-[10px]">↗</span>
-                      </a>
-                      <a
-                        href={`tel:${APP_CONFIG.SUPPORT_PHONE}`}
-                        className="px-3.5 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold flex items-center justify-center gap-1 transition"
-                      >
-                        <span>📞 Gọi</span>
-                      </a>
-                    </div>
-                  </div>
-
 
                   {/* KHU VỰC NHẬN XÉT CHI TIẾT CẢ 4 PHẦN VÀ ĐÁNH GIÁ CHUNG */}
 
