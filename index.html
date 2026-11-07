@@ -4471,6 +4471,79 @@ if (typeof window !== "undefined") {
         return matches.map(n => n.replace(/,/g, "."));
       };
 
+      // ==============================================================
+      // SMART BAREM STEP EXTRACTOR CHO TOÁN TIỂU HỌC & THCS
+      // ==============================================================
+      const extractTieuhocSteps = (solutionText, promptText = "") => {
+        if (!solutionText) return [];
+        const clean = cleanTieuhocText(solutionText);
+        const rawLines = clean.split('\n').map(l => l.trim()).filter(Boolean);
+        const contentLines = [];
+        for (const l of rawLines) {
+          const lower = l.toLowerCase();
+          if (lower.startsWith('bài giải') || lower.startsWith('hướng dẫn giải')) continue;
+          if (lower.startsWith('đáp số') || lower.startsWith('đáp án')) continue;
+          contentLines.push(l);
+        }
+
+        // 1. Kiểm tra nếu có các ý a), b), c), d)
+        const subparts = [];
+        for (const l of contentLines) {
+          const m = l.match(/^([a-d])\s*[\)\.:\-]\s*(.*)/i);
+          if (m) {
+            subparts.push({
+              type: 'subpart',
+              label: m[1].toLowerCase(),
+              desc: l,
+              calc: m[2].trim(),
+              target: m[2].trim()
+            });
+          }
+        }
+        if (subparts.length >= 2) return subparts;
+
+        // 2. Tách các bước tính toán theo barem (mỗi dòng phép tính '=' hoặc biến đổi)
+        const steps = [];
+        let currDesc = "";
+        const promptNums = new Set(extractTieuhocNumbers(promptText || ""));
+
+        for (const l of contentLines) {
+          if (l.includes('=') || /\b(đổi|ta có|vậy)\b/i.test(l)) {
+            const parts = l.split('=');
+            const resSide = parts.length >= 2 ? parts[parts.length - 1].trim() : l;
+            const resNums = extractTieuhocNumbers(resSide);
+            const targetNum = resNums.length > 0 ? resNums[resNums.length - 1] : null;
+
+            const descText = currDesc ? (currDesc + " " + l) : l;
+            steps.push({
+              type: 'step',
+              desc: descText,
+              calc: l,
+              target: targetNum,
+              isNew: targetNum ? !promptNums.has(targetNum) : true
+            });
+            currDesc = "";
+          } else {
+            if (currDesc) currDesc += " " + l;
+            else currDesc = l;
+          }
+        }
+
+        if (steps.length === 0 && contentLines.length > 0) {
+          for (const l of contentLines) {
+            const nums = extractTieuhocNumbers(l);
+            steps.push({
+              type: 'step',
+              desc: l,
+              calc: l,
+              target: nums.length > 0 ? nums[nums.length - 1] : null,
+              isNew: true
+            });
+          }
+        }
+        return steps;
+      };
+
       const gradeTieuhocEssayQuestion = (q, userText, maxPts) => {
         maxPts = (typeof maxPts === "number" && maxPts > 0) ? maxPts : (q.points || 1.0);
         if (!userText || !userText.trim()) {
@@ -4492,7 +4565,6 @@ if (typeof window !== "undefined") {
         const expPartKeys = Object.keys(expParts);
 
         if (expPartKeys.length > 1) {
-          const ptsPerPart = 0.5; // Chuẩn biểu điểm Tiểu học: mỗi ý 0.5 điểm
           let correctCount = 0;
           const details = [];
 
@@ -4511,18 +4583,15 @@ if (typeof window !== "undefined") {
             const expDigits = extractTieuhocNumbers(expV);
 
             if (userV) {
-              // So khớp trực tiếp ý userV với expV
               if (compareTieuhocValues(userV, expV)) {
                 isOk = true;
               } else {
-                // Bắt buộc tất cả các số mục tiêu của ý expV phải có mặt chính xác trong userV
                 const userDigitsInPart = extractTieuhocNumbers(userV);
                 if (expDigits.length > 0 && expDigits.every(ed => userDigitsInPart.some(ud => compareTieuhocValues(ud, ed)))) {
                   isOk = true;
                 }
               }
             } else {
-              // Nếu học sinh không chia ý a, b mà viết gộp
               if (Object.keys(userParts).length === 0) {
                 const allUserDigits = extractTieuhocNumbers(rawText);
                 if (expDigits.length > 0 && expDigits.every(ed => allUserDigits.some(ud => compareTieuhocValues(ud, ed)))) {
@@ -4533,14 +4602,16 @@ if (typeof window !== "undefined") {
 
             if (isOk) {
               correctCount++;
-              details.push(`Ý ${key.toUpperCase()}: Đúng (+0.5đ)`);
+              details.push(`Ý ${key.toUpperCase()}: Đúng`);
             } else {
               details.push(`Ý ${key.toUpperCase()}: Chưa đúng (Đáp số: ${expV})`);
             }
           });
 
           const isAll = (correctCount === expPartKeys.length);
-          const score = isAll ? maxPts : Math.min(maxPts, Math.round(correctCount * 0.5 * 10) / 10);
+          // CHUẨN TỶ LỆ K/N: Nếu bài có 4 ý mà học sinh làm đúng 3 ý thì phải được 3/4 số điểm!
+          const partRatio = correctCount / expPartKeys.length;
+          const score = isAll ? maxPts : Math.min(maxPts, Math.round(partRatio * maxPts * 100) / 100);
           const isShortcut = isAll && (rawText.length < (q.solution || "").length * 0.6 || rawText.length < 80);
 
           return {
@@ -4553,7 +4624,7 @@ if (typeof window !== "undefined") {
                   ? "⭐ Xuất sắc! Em làm tắt / gộp bước chuẩn xác và tìm ra đúng tất cả các ý! Đạt điểm tối đa!"
                   : "Xuất sắc! Em làm đúng tất cả các ý, kết quả chính xác 100%!")
               : (correctCount > 0 
-                  ? `Em làm đúng ${correctCount}/${expPartKeys.length} ý. (${details.join('; ')})`
+                  ? `👍 Em làm đúng ${correctCount}/${expPartKeys.length} ý theo barem (được ${score}/${maxPts} điểm). Chi tiết: ${details.join('; ')}.`
                   : `Kết quả chưa chính xác: ${details.join('; ')}. Em xem lời giải chi tiết bên dưới nhé!`)
           };
         }
@@ -4572,8 +4643,6 @@ if (typeof window !== "undefined") {
               hasFinalAns = true;
             }
           } else {
-            // Có nhiều số mục tiêu (ví dụ: Sách GK: 280, Sách TK: 350)
-            // BẮT BUỘC TẤT CẢ CÁC SỐ MỤC TIÊU PHẢI XUẤT HIỆN TRONG BÀI LÀM
             const allFound = expNums.every(en => userNums.some(un => compareTieuhocValues(un, en)));
             if (allFound) hasFinalAns = true;
           }
@@ -4587,7 +4656,7 @@ if (typeof window !== "undefined") {
         }
 
         if (hasFinalAns) {
-          // HỌC SINH ĐÃ RA KẾT QUẢ ĐÚNG - LÀM TẮT VẪN CHO ĐIỂM TỐI ĐA
+          // HỌC SINH ĐÃ RA KẾT QUẢ ĐÚNG - LÀM TẮT VẪN CHO ĐIỂM TỐI ĐA (100%)
           const isShortcut = rawText.length < solutionText.length * 0.7 || rawText.length < 80;
           return {
             score: maxPts,
@@ -4600,11 +4669,64 @@ if (typeof window !== "undefined") {
           };
         }
 
+        // 3. NẾU CHƯA CÓ ĐÁP SỐ CUỐI HOẶC TÍNH NHẦM BƯỚC CUỐI:
+        // CHẤM THEO BAREM TỪNG BƯỚC (QUY CHUẨN: 4 BƯỚC ĐÚNG 3 BƯỚC ĐẦU ĐƯỢC 3/4 SỐ ĐIỂM)
+        const steps = extractTieuhocSteps(q.solution || "", q.question || "");
+        const totalSteps = steps.length;
+
+        if (totalSteps > 1) {
+          let matchedSteps = 0;
+          const stepDetails = [];
+
+          steps.forEach((st, sIdx) => {
+            let isStepOk = false;
+            const targetVal = st.target;
+
+            if (targetVal) {
+              if (userNums.some(un => compareTieuhocValues(un, targetVal))) {
+                isStepOk = true;
+              }
+            } else if (st.type === 'subpart') {
+              if (compareTieuhocValues(rawText, st.target)) {
+                isStepOk = true;
+              }
+            } else if (st.calc) {
+              const cleanC = cleanTieuhocText(st.calc).toLowerCase();
+              if (rawText.toLowerCase().includes(cleanC)) {
+                isStepOk = true;
+              }
+            }
+
+            if (isStepOk) {
+              matchedSteps++;
+              stepDetails.push(`Bước ${sIdx + 1}: Đúng`);
+            } else {
+              stepDetails.push(`Bước ${sIdx + 1}: Chưa đúng/Thiếu`);
+            }
+          });
+
+          if (matchedSteps > 0) {
+            // ĐÚNG K/N BƯỚC -> ĐƯỢC K/N SỐ ĐIỂM (Ví dụ: 3/4 bước = 3/4 * maxPts)
+            const stepRatio = matchedSteps / totalSteps;
+            const partialScore = Math.min(maxPts, Math.round(stepRatio * maxPts * 100) / 100);
+
+            return {
+              score: partialScore,
+              maxPoints: maxPts,
+              isCorrect: false,
+              shortcutDetected: false,
+              matchedSteps: matchedSteps,
+              totalSteps: totalSteps,
+              feedback: `👍 Em đã giải đúng ${matchedSteps}/${totalSteps} bước theo barem (được ${partialScore}/${maxPts} điểm). Các bước đầu tính toán rất tốt, chỉ tiếc nhầm lẫn ở bước cuối. Em xem lời giải chi tiết bên dưới nhé!`
+            };
+          }
+        }
+
         // Nếu bài toán có nhiều đáp số (ví dụ: Sách GK 280, Sách TK 350) mà học sinh làm đúng 1 trong các đáp số
         if (expNums.length >= 2) {
           const correctTargetCount = expNums.filter(en => userNums.some(un => compareTieuhocValues(un, en))).length;
           if (correctTargetCount > 0) {
-            const partialScore = Math.min(maxPts, Math.round(correctTargetCount * 0.5 * 10) / 10);
+            const partialScore = Math.min(maxPts, Math.round((correctTargetCount / expNums.length) * maxPts * 100) / 100);
             return {
               score: partialScore,
               maxPoints: maxPts,
@@ -4615,7 +4737,7 @@ if (typeof window !== "undefined") {
           }
         }
 
-        // Nếu không có bất kỳ đáp số đúng nào -> 0 ĐIỂM (Tuyệt đối không chấm bừa bãi)
+        // Nếu không có bất kỳ bước hay đáp số đúng nào -> 0 ĐIỂM
         return {
           score: 0,
           maxPoints: maxPts,
@@ -5757,7 +5879,7 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
       // ==============================================================
       function gradeEssayLocally(q, userText, userImg, maxPts) {
         const text = (userText || "").trim();
-        const rubric = (q.rubric || q.modelSolution || "").trim();
+        const rubric = (q.rubric || q.modelSolution || q.solution || "").trim();
         const max = (typeof maxPts === "number" && maxPts > 0) ? maxPts : 1.0;
 
         if (!text && !userImg) {
