@@ -4084,12 +4084,23 @@ if (typeof window !== "undefined") {
       const [tieuhocTestNum, setTieuhocTestNum] = useState(1);
       const [showTieuhocSolution, setShowTieuhocSolution] = useState(false);
       const [isTakingTieuhocOnline, setIsTakingTieuhocOnline] = useState(false);
+      // Quản lý đồng hồ đếm ngược 35 phút cho bài thi học sinh tiểu học (35 * 60 = 2100 giây)
+      const TIEUHOC_EXAM_DURATION = 35 * 60;
+      const [tieuhocTimeLeft, setTieuhocTimeLeft] = useState(TIEUHOC_EXAM_DURATION);
       const [tieuhocAnswers, setTieuhocAnswers] = useState({
         p1: {},
         p2: {}
       });
       const [tieuhocSubmitted, setTieuhocSubmitted] = useState(false);
       const [tieuhocScoreResult, setTieuhocScoreResult] = useState(null);
+
+      // Hàm format thời gian đếm ngược tiểu học (VD: 35:00 -> 04:59 -> 00:00)
+      const formatTieuhocTime = (seconds) => {
+        const s = Math.max(0, seconds);
+        const mins = Math.floor(s / 60);
+        const secs = s % 60;
+        return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+      };
       const [expandedTieuhocKb, setExpandedTieuhocKb] = useState({}); // { [qId]: boolean }
       const [activeTieuhocKbTab, setActiveTieuhocKbTab] = useState({}); // { [qId]: 'calc' | 'frac' | 'unit' | 'sample' }
       const [isPeriodicFullScreen, setIsPeriodicFullScreen] = useState(false);
@@ -4142,6 +4153,7 @@ if (typeof window !== "undefined") {
 
       // Hàm chèn ký hiệu / công thức vào ô tự luận tiểu học tại vị trí con trỏ
       const insertToTieuhocTextarea = (qId, strToInsert) => {
+        if (tieuhocSubmitted || tieuhocTimeLeft <= 0) return;
         if (!isTakingTieuhocOnline) setIsTakingTieuhocOnline(true);
         const el = document.getElementById(`tieuhoc_textarea_${qId}`);
         const currentVal = tieuhocAnswers.p2[qId] || "";
@@ -4171,6 +4183,7 @@ if (typeof window !== "undefined") {
       };
 
       const backspaceTieuhocTextarea = (qId) => {
+        if (tieuhocSubmitted || tieuhocTimeLeft <= 0) return;
         const el = document.getElementById(`tieuhoc_textarea_${qId}`);
         const currentVal = tieuhocAnswers.p2[qId] || "";
         if (!currentVal) return;
@@ -4208,6 +4221,7 @@ if (typeof window !== "undefined") {
       };
 
       const clearTieuhocTextarea = (qId) => {
+        if (tieuhocSubmitted || tieuhocTimeLeft <= 0) return;
         setTieuhocAnswers(prev => ({
           ...prev,
           p2: { ...prev.p2, [qId]: "" }
@@ -4262,6 +4276,8 @@ if (typeof window !== "undefined") {
         setTieuhocSubmitted(false);
         setTieuhocScoreResult(null);
         setShowTieuhocSolution(false);
+        setTieuhocAnswers({ p1: {}, p2: {} });
+        setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
       };
 
       // Đồng bộ bài học khi đổi chủ đề
@@ -4277,6 +4293,8 @@ if (typeof window !== "undefined") {
         setIsTakingTieuhocOnline(false);
         setTieuhocSubmitted(false);
         setTieuhocScoreResult(null);
+        setTieuhocAnswers({ p1: {}, p2: {} });
+        setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
       };
 
       const handleSelectTieuhocLesson = (lId) => {
@@ -4285,6 +4303,8 @@ if (typeof window !== "undefined") {
         setIsTakingTieuhocOnline(false);
         setTieuhocSubmitted(false);
         setTieuhocScoreResult(null);
+        setTieuhocAnswers({ p1: {}, p2: {} });
+        setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
       };
 
       const handleSelectTieuhocPeriodicTerm = (termId) => {
@@ -4293,6 +4313,8 @@ if (typeof window !== "undefined") {
         setIsTakingTieuhocOnline(false);
         setTieuhocSubmitted(false);
         setTieuhocScoreResult(null);
+        setTieuhocAnswers({ p1: {}, p2: {} });
+        setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
       };
 
       const getTieuhocExam = () => {
@@ -4656,7 +4678,38 @@ if (typeof window !== "undefined") {
         });
         setTieuhocSubmitted(true);
         setShowTieuhocSolution(true);
+        setTimeout(() => {
+          const el = document.getElementById("tieuhoc-score-board");
+          if (el) el.scrollIntoView({ behavior: "smooth" });
+        }, 150);
       };
+
+      // Đồng hồ đếm ngược 35 phút khi học sinh tiểu học làm bài
+      useEffect(() => {
+        let timer = null;
+        if (view === "tieuhoc" && isTakingTieuhocOnline && !tieuhocSubmitted && tieuhocTimeLeft > 0) {
+          timer = setInterval(() => {
+            setTieuhocTimeLeft((prev) => {
+              if (prev <= 1) {
+                clearInterval(timer);
+                return 0;
+              }
+              return prev - 1;
+            });
+          }, 1000);
+        }
+        return () => {
+          if (timer) clearInterval(timer);
+        };
+      }, [view, isTakingTieuhocOnline, tieuhocSubmitted, tieuhocTimeLeft]);
+
+      // Khi hết 35 phút (00:00): Tự động nộp bài và chấm điểm trực tiếp
+      useEffect(() => {
+        if (view === "tieuhoc" && isTakingTieuhocOnline && tieuhocTimeLeft === 0 && !tieuhocSubmitted) {
+          showToast("warning", "⏰ Đã hết thời gian làm bài (35 phút)! Hệ thống tự động thu bài và chấm điểm của em.");
+          handleGradeTieuhocOnline();
+        }
+      }, [view, isTakingTieuhocOnline, tieuhocTimeLeft, tieuhocSubmitted]);
 
       const [topicsData, setTopicsData] = useState(() => {
         if (typeof window !== "undefined" && window.GRADE10_TOPICS_DATA) {
@@ -10955,7 +11008,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                   {/* BẬT THANH ĐIỀU KHIỂN RÚT GỌN KHI HỌC SINH VÀO LÀM BÀI TOÀN MÀN HÌNH */}
                   {isTakingTieuhocOnline && (
-                    <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-amber-300/40">
+                    <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-2.5 md:p-3 rounded-2xl shadow-md flex flex-wrap items-center justify-between gap-2.5 no-print sticky top-0 z-40 border border-amber-300/40">
                       <div className="flex items-center gap-2">
                         <button
                           type="button"
@@ -10967,27 +11020,74 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                           title="Quay lại chọn khối lớp hoặc chọn đề khác"
                         >
                           <span>⬅️</span>
-                          <span>Đổi đề / Thoát toàn màn hình</span>
+                          <span className="hidden sm:inline">Đổi đề / Thoát toàn màn hình</span>
+                          <span className="sm:hidden">Đổi đề</span>
                         </button>
-                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-amber-900/40 px-2.5 py-1 rounded-lg border border-amber-300/30">
-                          🎒 Toán Lớp {tieuhocGrade} • {tieuhocMode === "periodic" ? currentTermObj?.name : currentLesson?.name} (Đề số 0{tieuhocTestNum})
+                        <span className="text-xs md:text-sm font-black uppercase tracking-wide bg-amber-900/40 px-2.5 py-1 rounded-lg border border-amber-300/30 truncate max-w-[200px] sm:max-w-none">
+                          🎒 Toán {tieuhocGrade} • Đề 0{tieuhocTestNum}
                         </span>
                       </div>
+
+                      {/* ĐỒNG HỒ ĐẾM NGƯỢC 35 PHÚT & CÁC NÚT ĐIỀU KHIỂN */}
                       <div className="flex items-center gap-2">
+                        {/* WIDGET ĐỒNG HỒ ĐẾM NGƯỢC 35 PHÚT CHUẨN */}
+                        <div
+                          className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-mono text-xs md:text-sm font-black shadow-inner border transition ${
+                            tieuhocSubmitted
+                              ? "bg-emerald-950/70 text-emerald-300 border-emerald-400"
+                              : tieuhocTimeLeft <= 60
+                              ? "bg-rose-600 text-white border-2 border-white animate-bounce shadow-rose-900/50"
+                              : tieuhocTimeLeft <= 300
+                              ? "bg-amber-400 text-amber-950 border-amber-200 animate-pulse font-extrabold"
+                              : "bg-amber-950/70 text-amber-100 border-amber-300/50"
+                          }`}
+                          title={tieuhocSubmitted ? "Bài làm đã hoàn thành và nộp điểm" : `Thời gian làm bài còn lại: ${formatTieuhocTime(tieuhocTimeLeft)}`}
+                        >
+                          <span className="text-sm md:text-base">
+                            {tieuhocSubmitted ? "🏁" : tieuhocTimeLeft <= 60 ? "🚨" : tieuhocTimeLeft <= 300 ? "⚠️" : "⏱️"}
+                          </span>
+                          <span className="tracking-wider text-xs md:text-sm">
+                            {tieuhocSubmitted ? "ĐÃ NỘP BÀI" : formatTieuhocTime(tieuhocTimeLeft)}
+                          </span>
+                          {!tieuhocSubmitted && (
+                            <span className="text-[10px] font-sans font-bold opacity-85 hidden md:inline">
+                              {tieuhocTimeLeft <= 300 ? "(Sắp hết giờ!)" : "(35 phút)"}
+                            </span>
+                          )}
+                        </div>
+
                         <button
                           type="button"
                           onClick={() => handlePrintTieuhocExam(false)}
-                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition"
+                          className="bg-white/20 hover:bg-white/30 text-white font-bold text-xs px-2.5 py-1.5 rounded-lg hidden sm:flex items-center gap-1 transition"
                         >
-                          <span>🖨️</span> In đề A4
+                          <span>🖨️</span> In đề
                         </button>
-                        <button
-                          type="button"
-                          onClick={handleGradeTieuhocOnline}
-                          className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs px-3.5 py-1.5 rounded-xl shadow flex items-center gap-1 transition active:scale-95 ring-2 ring-white"
-                        >
-                          <span>✅</span> Nộp bài chấm điểm
-                        </button>
+                        
+                        {!tieuhocSubmitted ? (
+                          <button
+                            type="button"
+                            onClick={handleGradeTieuhocOnline}
+                            className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs px-3.5 py-1.5 rounded-xl shadow flex items-center gap-1 transition active:scale-95 ring-2 ring-white"
+                          >
+                            <span>✅</span> Nộp bài
+                          </button>
+                        ) : (
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setTieuhocSubmitted(false);
+                              setShowTieuhocSolution(false);
+                              setTieuhocScoreResult(null);
+                              setTieuhocAnswers({ p1: {}, p2: {} });
+                              setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
+                              window.scrollTo({ top: 0, behavior: "smooth" });
+                            }}
+                            className="bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs px-3 py-1.5 rounded-xl shadow flex items-center gap-1 transition active:scale-95"
+                          >
+                            <span>🔄</span> Làm lại
+                          </button>
+                        )}
                       </div>
                     </div>
                   )}
@@ -11056,7 +11156,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             <span className="bg-yellow-300 text-amber-950 text-[10px] font-black px-2 py-0.5 rounded uppercase tracking-wider shadow-sm">
                               TOÁN TIỂU HỌC • LỚP {tieuhocGrade}
                             </span>
-                            <span className="text-xs text-amber-100 font-semibold">Bộ sách Kết nối tri thức với cuộc sống • 40 phút • 10.0 điểm</span>
+                            <span className="text-xs text-amber-100 font-semibold">Bộ sách Kết nối tri thức với cuộc sống • 35 phút • 10.0 điểm</span>
                           </div>
                           <h2 className="text-xl md:text-2xl font-black text-white mt-1 uppercase tracking-wide drop-shadow-sm">
                             HỆ THỐNG ĐỀ KIỂM TRA TOÁN {tieuhocGrade} (THEO BÀI & ĐỊNH KỲ)
@@ -11175,6 +11275,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             setIsTakingTieuhocOnline(false);
                             setTieuhocSubmitted(false);
                             setShowTieuhocSolution(false);
+                            setTieuhocScoreResult(null);
+                            setTieuhocAnswers({ p1: {}, p2: {} });
+                            setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
                           }}
                           className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs md:text-sm font-bold border transition ${
                             tieuhocMode === "periodic"
@@ -11192,6 +11295,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             setIsTakingTieuhocOnline(false);
                             setTieuhocSubmitted(false);
                             setShowTieuhocSolution(false);
+                            setTieuhocScoreResult(null);
+                            setTieuhocAnswers({ p1: {}, p2: {} });
+                            setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
                           }}
                           className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs md:text-sm font-bold border transition ${
                             tieuhocMode === "lesson"
@@ -11247,6 +11353,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   setIsTakingTieuhocOnline(false);
                                   setTieuhocSubmitted(false);
                                   setShowTieuhocSolution(false);
+                                  setTieuhocScoreResult(null);
+                                  setTieuhocAnswers({ p1: {}, p2: {} });
+                                  setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
                                 }}
                                 className={`py-2 px-1 rounded-xl text-xs font-bold border transition text-center ${
                                   tieuhocTestNum === num
@@ -11317,6 +11426,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   setIsTakingTieuhocOnline(false);
                                   setTieuhocSubmitted(false);
                                   setShowTieuhocSolution(false);
+                                  setTieuhocScoreResult(null);
+                                  setTieuhocAnswers({ p1: {}, p2: {} });
+                                  setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
                                 }}
                                 className={`py-2 px-1 rounded-xl text-xs font-bold border transition text-center ${
                                   tieuhocTestNum === num
@@ -11346,6 +11458,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             setTieuhocScoreResult(null);
                             setShowTieuhocSolution(false);
                             setTieuhocAnswers({ p1: {}, p2: {} });
+                            setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
                           }}
                           className={`font-black px-4 py-2.5 rounded-xl shadow-sm text-xs md:text-sm flex items-center gap-2 transition ${
                             isTakingTieuhocOnline
@@ -11421,14 +11534,26 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                             <div className="font-black uppercase text-sm md:text-base text-slate-900">
                               {currentExam.title || (`ĐỀ KIỂM TRA MÔN TOÁN LỚP ${tieuhocGrade}`)}
                             </div>
-                            <div className="italic text-slate-600">
-                              Thời gian làm bài: {currentExam.duration || "40 phút"} (Không kể thời gian phát đề)
+                            <div className="flex flex-wrap items-center justify-end gap-2 text-slate-600 italic">
+                              <span>Thời gian làm bài: <strong>35 phút</strong> (Không kể thời gian phát đề)</span>
+                              {isTakingTieuhocOnline && (
+                                <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-mono font-black not-italic shadow-xs ${
+                                  tieuhocSubmitted
+                                    ? "bg-emerald-100 text-emerald-800 border border-emerald-300"
+                                    : tieuhocTimeLeft <= 300
+                                    ? "bg-rose-100 text-rose-700 border border-rose-300 animate-pulse"
+                                    : "bg-amber-100 text-amber-900 border border-amber-300"
+                                }`}>
+                                  <span>⏱️</span>
+                                  <span>{tieuhocSubmitted ? "Đã nộp bài" : `Còn lại: ${formatTieuhocTime(tieuhocTimeLeft)}`}</span>
+                                </span>
+                              )}
                             </div>
                           </div>
                         </div>
 
                         {/* KHUNG ĐIỂM & LỜI PHÊ */}
-                        <div className="mt-3 grid grid-cols-3 border-2 border-amber-300 bg-amber-50/40 text-center rounded-xl overflow-hidden text-xs md:text-sm shadow-sm">
+                        <div id="tieuhoc-score-board" className="mt-3 grid grid-cols-3 border-2 border-amber-300 bg-amber-50/40 text-center rounded-xl overflow-hidden text-xs md:text-sm shadow-sm">
                           <div className="border-r-2 border-amber-300 p-2.5 bg-white flex flex-col justify-center items-center">
                             <div className="font-bold text-slate-700 uppercase tracking-wide text-[11px] md:text-xs">Điểm số</div>
                             <div className="mt-1 font-black text-2xl md:text-3xl text-amber-600 flex items-baseline gap-1">
@@ -11493,9 +11618,10 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                     return (
                                       <button
                                         key={oIdx}
-                                        disabled={tieuhocSubmitted}
+                                        disabled={tieuhocSubmitted || tieuhocTimeLeft <= 0}
                                         onClick={() => {
-                                          if (tieuhocSubmitted) return;
+                                          if (tieuhocSubmitted || tieuhocTimeLeft <= 0) return;
+                                          if (!isTakingTieuhocOnline) setIsTakingTieuhocOnline(true);
                                           setTieuhocAnswers(prev => ({
                                             ...prev,
                                             p1: { ...prev.p1, [q.id]: oIdx }
@@ -11573,8 +11699,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                           <div className="flex items-center gap-1">
                                             <button
                                               type="button"
-                                              onClick={() => openDrawingBoard('th_' + q.id, tieuhocDrawings[q.id])}
-                                              className="px-2 py-0.5 rounded-lg text-[10px] md:text-[11px] font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-xs flex items-center gap-1 transition active:scale-95"
+                                              disabled={tieuhocSubmitted || tieuhocTimeLeft <= 0}
+                                              onClick={() => {
+                                                if (tieuhocSubmitted || tieuhocTimeLeft <= 0) return;
+                                                openDrawingBoard('th_' + q.id, tieuhocDrawings[q.id]);
+                                              }}
+                                              className={`px-2 py-0.5 rounded-lg text-[10px] md:text-[11px] font-bold shadow-xs flex items-center gap-1 transition ${
+                                                tieuhocSubmitted || tieuhocTimeLeft <= 0
+                                                  ? "bg-slate-300 text-slate-500 cursor-not-allowed"
+                                                  : "bg-emerald-600 hover:bg-emerald-500 text-white active:scale-95"
+                                              }`}
                                               title="Vẽ sơ đồ đoạn thẳng, vẽ hình minh họa trực tiếp trên bảng vẽ"
                                             >
                                               <span>🎨</span>
@@ -11872,9 +12006,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                       {/* Ô NHẬP VĂN BẢN TỰ LUẬN */}
                                       <textarea
                                         id={`tieuhoc_textarea_${q.id}`}
-                                        placeholder="Nhập bài giải hoặc kết quả của em vào đây (học sinh có thể gõ tắt phép tính & đáp số)..."
+                                        placeholder={
+                                          tieuhocSubmitted || tieuhocTimeLeft <= 0
+                                            ? "Bài làm đã hoàn tất và được nộp chấm điểm."
+                                            : "Nhập bài giải hoặc kết quả của em vào đây (học sinh có thể gõ tắt phép tính & đáp số)..."
+                                        }
                                         value={tieuhocAnswers.p2[q.id] || ""}
+                                        disabled={tieuhocSubmitted || tieuhocTimeLeft <= 0}
+                                        readOnly={tieuhocSubmitted || tieuhocTimeLeft <= 0}
                                         onChange={(e) => {
+                                          if (tieuhocSubmitted || tieuhocTimeLeft <= 0) return;
                                           const val = e.target.value;
                                           if (!isTakingTieuhocOnline) setIsTakingTieuhocOnline(true);
                                           setTieuhocAnswers(prev => ({
@@ -11883,7 +12024,11 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                           }));
                                         }}
                                         rows={3}
-                                        className="w-full text-xs md:text-sm p-3 rounded-xl border-2 border-amber-300/80 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 font-sans shadow-inner placeholder:text-slate-400 placeholder:italic transition"
+                                        className={`w-full text-xs md:text-sm p-3 rounded-xl border-2 font-sans shadow-inner placeholder:italic transition ${
+                                          tieuhocSubmitted || tieuhocTimeLeft <= 0
+                                            ? "bg-slate-100 border-slate-300 text-slate-700 cursor-not-allowed"
+                                            : "border-amber-300/80 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 placeholder:text-slate-400"
+                                        }`}
                                       />
 
                                       {/* HIỂN THỊ HÌNH VẼ / SƠ ĐỒ ĐÃ VẼ CHO TIỂU HỌC */}
@@ -11901,23 +12046,25 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                               <span>🎨</span>
                                               <span>Đã đính kèm sơ đồ / hình vẽ của em</span>
                                             </span>
-                                            <div className="flex items-center gap-2">
-                                              <button
-                                                type="button"
-                                                onClick={() => openDrawingBoard('th_' + q.id, tieuhocDrawings[q.id])}
-                                                className="text-[11px] font-bold text-emerald-700 hover:text-emerald-900 hover:underline"
-                                              >
-                                                Sửa hình
-                                              </button>
-                                              <span className="text-slate-300">|</span>
-                                              <button
-                                                type="button"
-                                                onClick={() => setTieuhocDrawings(prev => ({ ...prev, [q.id]: null }))}
-                                                className="text-[11px] font-bold text-rose-600 hover:text-rose-800 hover:underline"
-                                              >
-                                                Xóa hình
-                                              </button>
-                                            </div>
+                                            {!(tieuhocSubmitted || tieuhocTimeLeft <= 0) && (
+                                              <div className="flex items-center gap-2">
+                                                <button
+                                                  type="button"
+                                                  onClick={() => openDrawingBoard('th_' + q.id, tieuhocDrawings[q.id])}
+                                                  className="text-[11px] font-bold text-emerald-700 hover:text-emerald-900 hover:underline"
+                                                >
+                                                  Sửa hình
+                                                </button>
+                                                <span className="text-slate-300">|</span>
+                                                <button
+                                                  type="button"
+                                                  onClick={() => setTieuhocDrawings(prev => ({ ...prev, [q.id]: null }))}
+                                                  className="text-[11px] font-bold text-rose-600 hover:text-rose-800 hover:underline"
+                                                >
+                                                  Xóa hình
+                                                </button>
+                                              </div>
+                                            )}
                                           </div>
                                         </div>
                                       )}
@@ -12040,14 +12187,17 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               setShowTieuhocSolution(false);
                               setTieuhocScoreResult(null);
                               setTieuhocAnswers({ p1: {}, p2: {} });
+                              setTieuhocTimeLeft(TIEUHOC_EXAM_DURATION);
+                              window.scrollTo({ top: 0, behavior: 'smooth' });
                             }}
                             className="bg-slate-700 hover:bg-slate-600 text-white font-bold px-6 py-3 rounded-xl shadow-md text-xs md:text-sm flex items-center gap-2 transition transform hover:scale-105"
                           >
-                            <span>🔄</span> Làm lại đề này
+                            <span>🔄</span> Làm lại đề này (35 phút)
                           </button>
                           <button
                             onClick={() => {
-                              window.scrollTo({ top: 350, behavior: 'smooth' });
+                              const el = document.getElementById("tieuhoc-score-board");
+                              if (el) el.scrollIntoView({ behavior: 'smooth' });
                             }}
                             className="bg-amber-600 hover:bg-amber-500 text-white font-bold px-6 py-3 rounded-xl shadow-md text-xs md:text-sm flex items-center gap-2 transition"
                           >
