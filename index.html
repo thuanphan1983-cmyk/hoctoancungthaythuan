@@ -1475,31 +1475,67 @@ if (typeof window !== "undefined") {
     // ==========================================
     // TIỀN XỬ LÝ VÀ CHUẨN HÓA CÔNG THỨC TOÁN (PRE-PROCESSING)
     // ==========================================
+    const mathKeywords = new Set([
+      'sqrt', 'frac', 'cdot', 'times', 'le', 'ge', 'ne', 'pm', 'sin', 'cos', 'tan', 'cot',
+      'log', 'ln', 'lim', 'text', 'in', 'subset', 'cap', 'cup', 'infty', 'alpha', 'beta',
+      'pi', 'left', 'right', 'mod', 'deg', 'over', 'begin', 'end', 'matrix', 'cases', 'phantom',
+      'leftrightarrow', 'rightarrow', 'leftarrow', 'Rightarrow', 'Leftarrow', 'Leftrightarrow',
+      'approx', 'sim', 'perp', 'parallel', 'angle', 'delta', 'Delta', 'widehat', 'circ',
+      'cm', 'dm', 'mm', 'km', 'kg', 'ha', 'lit', 'ml'
+    ]);
+    
     function hasVietnameseWords(str) {
       if (!str) return false;
-      // 1. Kiểm tra ký tự tiếng Việt có dấu
       if (/[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴĐ]/i.test(str)) {
         return true;
       }
-      // 2. Kiểm tra từ tiếng Việt không dấu (có từ 2 chữ cái trở lên, loại trừ các lệnh/hàm LaTeX)
-      const mathKeywords = new Set([
-        'sqrt', 'frac', 'cdot', 'times', 'le', 'ge', 'ne', 'pm', 'sin', 'cos', 'tan', 'cot',
-        'log', 'ln', 'lim', 'text', 'in', 'subset', 'cap', 'cup', 'infty', 'alpha', 'beta',
-        'pi', 'left', 'right', 'mod', 'deg', 'over', 'begin', 'end', 'matrix'
-      ]);
       const words = str.match(/[a-zA-Z]{2,}/g) || [];
-      return words.some(w => !mathKeywords.has(w.toLowerCase()));
+      return words.some(w => !mathKeywords.has(w.toLowerCase()) && !mathKeywords.has(w));
     }
-
-    function formatMathText(text) {
-      if (!text) return "";
-      let s = String(text);
-
-      // 0. Đơn vị đo diện tích, thể tích: 196 m² -> $196\text{ m}^2$
-      s = s.replace(/(\b\d+(?:,\d+)?)\s*(km|dm|cm|mm|m)²/g, (_, p1, p2) => `$${p1}\\text{ ${p2}}^2$`);
-      s = s.replace(/(\b\d+(?:,\d+)?)\s*(km|dm|cm|mm|m)³/g, (_, p1, p2) => `$${p1}\\text{ ${p2}}^3$`);
-
-      // 1. Chuyển đổi số mũ unicode: x² -> x^2, x³ -> x^3...
+    
+    function formatMathText(raw) {
+      if (!raw) return "";
+      let s = String(raw).trim();
+    
+      // 1. CHUẨN HÓA HỆ PHƯƠNG TRÌNH & PHƯƠNG TRÌNH TÍCH (CHUẨN BỘ GD&ĐT)
+      // 1a. Đã có \begin{cases} ... \end{cases}
+      s = s.replace(/\$?\$?\\begin\{cases\}([\s\S]*?)\\end\{cases\}\$?\$?/g, (m, c) => {
+        const cleaned = c.replace(/\$/g, '').trim();
+        return '\n$$\\begin{cases} ' + cleaned + ' \\end{cases}$$\n';
+      });
+    
+      // 1b. Dạng khối ngoặc nhọn:
+      // { \n pt1 \n pt2 \n } hoặc { pt1 \n pt2 (không cần đóng })
+      s = s.replace(/(?:^|\n)\s*\{\s*\n?([^\n{}]+(?:=|<|>|\\le|\\ge|<=|>=)[^\n{}]*)\n\s*([^\n{}]+(?:=|<|>|\\le|\\ge|<=|>=)[^\n{}]*)(?:\n\s*([^\n{}]+(?:=|<|>|\\le|\\ge|<=|>=)[^\n{}]*))?(?:\n\s*\})?/g, (m, eq1, eq2, eq3) => {
+        const lines = [eq1.trim(), eq2.trim()];
+        if (eq3 && eq3.trim()) lines.push(eq3.trim());
+        const inner = lines.map(l => l.replace(/\$/g, '').trim()).join(' \\\\ ');
+        return '\n$$\\begin{cases} ' + inner + ' \\end{cases}$$\n';
+      });
+    
+      // 1c. Dạng { pt1 ; pt2 } hoặc { pt1 , pt2 } hoặc { pt1 \\ pt2 }
+      s = s.replace(/\{\s*([^{};\n]+(?:=|<|>|\\le|\\ge|<=|>=)[^{};\n]*)\s*(?:;|\\\\)\s*([^{};\n]+(?:=|<|>|\\le|\\ge|<=|>=)[^{};\n]*)\s*\}/g, (m, eq1, eq2) => {
+        return '\n$$\\begin{cases} ' + eq1.trim() + ' \\\\ ' + eq2.trim() + ' \\end{cases}$$\n';
+      });
+    
+      // 1d. Dạng hpt(pt1, pt2)
+      s = s.replace(/\b(?:hpt|he_pt)\s*\(([^)]+)\)/gi, (m, inner) => {
+        const lines = inner.trim().split(/[,;]+/).map(l => l.trim()).filter(Boolean);
+        if (lines.length >= 2) {
+          return '\n$$\\begin{cases} ' + lines.join(' \\\\ ') + ' \\end{cases}$$\n';
+        }
+        return m;
+      });
+    
+      // 1e. Dấu ngoặc vuông phương trình tích: [ pt1 \n pt2
+      s = s.replace(/(?:^|\n)\s*\[\s*\n?([^\n\[\]]+(?:=|<|>|\\le|\\ge|<=|>=)[^\n\[\]]*)\n\s*([^\n\[\]]+(?:=|<|>|\\le|\\ge|<=|>=)[^\n\[\]]*)(?:\n\s*([^\n\[\]]+(?:=|<|>|\\le|\\ge|<=|>=)[^\n\[\]]*))?(?:\n\s*\])?/g, (m, eq1, eq2, eq3) => {
+        const lines = [eq1.trim(), eq2.trim()];
+        if (eq3 && eq3.trim()) lines.push(eq3.trim());
+        const inner = lines.map(l => l.replace(/\$/g, '').trim()).join(' \\\\ ');
+        return '\n$$\\left[\\begin{array}{l} ' + inner + ' \\end{array}\\right.$$\n';
+      });
+    
+      // 2. CHUYỂN ĐỔI SỐ MŨ UNICODE VÀ ĐƠN VỊ ĐO LƯỜNG
       const supMap = {
         '⁰': '^0', '¹': '^1', '²': '^2', '³': '^3', '⁴': '^4',
         '⁵': '^5', '⁶': '^6', '⁷': '^7', '⁸': '^8', '⁹': '^9',
@@ -1508,122 +1544,170 @@ if (typeof window !== "undefined") {
       for (const [k, v] of Object.entries(supMap)) {
         s = s.split(k).join(v);
       }
-
-      // 1b. Chuẩn hóa Hệ phương trình (System of equations) với dấu ngoặc nhọn to
-      s = s.replace(/\$?\$?\\begin\{cases\}([\s\S]*?)\\end\{cases\}\$?\$?/g, (m, c) => `$$\\begin{cases} ${c.trim()} \\end{cases}$$`);
-      s = s.replace(/\{\s*\n([\s\S]*?\n)\s*\}/g, (m, inner) => {
-        const lines = inner.trim().split(/\n+/).map(l => l.trim()).filter(Boolean);
-        if (lines.length >= 2 && lines.every(l => l.includes('=') || l.includes('<') || l.includes('>') || l.includes('\\le') || l.includes('\\ge'))) {
-          return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
-        }
-        return m;
-      });
-      s = s.replace(/\b(?:hpt|he_pt)\s*\(([^)]+)\)/gi, (m, inner) => {
-        const lines = inner.trim().split(/[,;]+/).map(l => l.trim()).filter(Boolean);
-        if (lines.length >= 2) {
-          return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
-        }
-        return m;
-      });
-
-      // 2. Chuyển đổi căn bậc hai: DẤU CĂN KÉO DÀI HẾT CẢ BIỂU THỨC \sqrt{biểu_thức}
-      s = s.replace(/(?:√|\\sqrt|sqrt)\s*\(([^)]+)\)/g, '\\sqrt{$1}');
+    
+      s = s.replace(/(\b\d+(?:,\d+)?)\s*(km|dm|cm|mm|m)²/g, '$1 $2^2');
+      s = s.replace(/(\b\d+(?:,\d+)?)\s*(km|dm|cm|mm|m)³/g, '$1 $2^3');
+    
+      // 3. CHUẨN HÓA CĂN BẬC HAI (DẤU CĂN KÉO DÀI HẾT CẢ BIỂU THỨC \sqrt{...})
+      s = s.replace(/\\sqrt\{\s*\}/g, '\\sqrt{\\phantom{x}}');
+      s = s.replace(/√(?:\{\s*\}|\(\s*\))/g, '\\sqrt{\\phantom{x}}');
+      s = s.replace(/(?:√|sqrt)\s*\(([^)]+)\)/g, '\\sqrt{$1}');
       s = s.replace(/√\s*\{([^}]+)\}/g, '\\sqrt{$1}');
-      s = s.replace(/\bsqrt\s*\{([^}]+)\}/g, '\\sqrt{$1}');
-      s = s.replace(/√\s*([0-9]+(?:,[0-9]+)?)/g, '\\sqrt{$1}');
-      s = s.replace(/√\s*([a-zA-Z])/g, '\\sqrt{$1}');
-      s = s.replace(/√/g, '\\sqrt ');
-
-      // 3. Chuyển đổi toán tử: dấu nhân " . " giữa các số/biến
-      s = s.replace(/([0-9a-zA-Z\)])\s+\.\s+([0-9a-zA-Z\\(])/g, '$1 \\cdot $2');
-      s = s.replace(/·/g, ' \\cdot ');
-      s = s.replace(/≤/g, ' \\le ');
-      s = s.replace(/≥/g, ' \\ge ');
-      s = s.replace(/≠/g, ' \\ne ');
+      s = s.replace(/(?<!\\)sqrt\s*\{([^}]+)\}/g, '\\sqrt{$1}');
+      s = s.replace(/√\s*([0-9]+(?:,[0-9]+)?|[a-zA-Z])/g, '\\sqrt{$1}');
+      s = s.replace(/√/g, '\\sqrt{\\phantom{x}}');
+    
+      // 4. CHUẨN HÓA PHÂN SỐ \frac{a}{b}
+      s = s.replace(/\\frac\{\s*\}\{\s*\}/g, '\\frac{\\phantom{1}}{\\phantom{1}}');
+      s = s.replace(/\\frac\{([^}]+)\}\s*\{\s*\}/g, '\\frac{$1}{\\phantom{1}}');
+      s = s.replace(/\\frac\{\s*\}\s*\{([^}]+)\}/g, '\\frac{\\phantom{1}}{$1}');
+    
+      // 5. CHUẨN HÓA CÁC TOÁN TỬ VÀ KÝ HIỆU HÌNH HỌC / ĐẠI SỐ
+      s = s.replace(/<=>|⇔/g, ' \\Leftrightarrow ');
+      s = s.replace(/=>|⇒/g, ' \\Rightarrow ');
+      s = s.replace(/<=|≤/g, ' \\le ');
+      s = s.replace(/>=|≥/g, ' \\ge ');
+      s = s.replace(/!=|≠/g, ' \\ne ');
       s = s.replace(/±/g, ' \\pm ');
-      s = s.replace(/×/g, ' \\times ');
-
-      // 4. Xử lý từng dòng: TUYỆT ĐỐI KHÔNG BỌC TOÀN BỘ CHỮ TIẾNG VIỆT VÀO $...$
+      s = s.replace(/(\b\d+)\s*°/g, '$1^\\circ');
+      s = s.replace(/°/g, '^\\circ');
+      s = s.replace(/([a-zA-Z0-9']+)\s*⊥\s*([a-zA-Z0-9']+)/g, '$1 \\perp $2');
+      s = s.replace(/⊥/g, ' \\perp ');
+      s = s.replace(/([a-zA-Z0-9_]+)\s*∥\s*([a-zA-Z0-9_]+)/g, '$1 \\parallel $2');
+      s = s.replace(/∥/g, ' \\parallel ');
+      s = s.replace(/∠\s*([a-zA-Z]{1,3})/g, ' \\widehat{$1} ');
+      s = s.replace(/∠/g, ' \\angle ');
+      s = s.replace(/Δ\s*([a-zA-Z]{1,3})/g, ' \\Delta $1 ');
+      s = s.replace(/Δ/g, ' \\Delta ');
+      s = s.replace(/π/g, ' \\pi ');
+    
+      // 6. BẢO TỒN CÁC KHỐI MATH HIỆN CÓ
+      const preservedBlocks = [];
+      // 6a. Bảo tồn các khối display math $$...$$
+      s = s.replace(/\$\$([\s\S]*?)\$\$/g, (m, inner) => {
+        const cleanInner = inner.replace(/\$/g, '').trim();
+        preservedBlocks.push('$$\n' + cleanInner + '\n$$');
+        return '___PRESERVED_' + (preservedBlocks.length - 1) + '___';
+      });
+    
+      // 6b. Bảo tồn các khối inline math $...$
+      s = s.replace(/\$([^$]+)\$/g, (m, inner) => {
+        preservedBlocks.push('$' + inner.trim() + '$');
+        return '___PRESERVED_' + (preservedBlocks.length - 1) + '___';
+      });
+    
+      // 7. XỬ LÝ TỪNG DÒNG VĂN BẢN (KHÔNG CHỨA DẤU $)
       const lines = s.split('\n');
-      const outLines = lines.map(line => {
+      const processedLines = lines.map(line => {
         const trimmed = line.trim();
         if (!trimmed) return line;
-
-        // Nếu dòng đã có dấu $, giữ nguyên để tránh phá vỡ khoảng trắng và công thức sẵn có
-        if (line.includes('$')) {
+    
+        if (/^___PRESERVED_\d+___$/.test(trimmed)) {
           return line;
         }
-
-        // Tách nhãn đầu dòng nếu có: "a) ", "b) ", "1. ", "- ", "* "
+    
+        // Tách nhãn đầu dòng: a) , 1. , - , * , "Bài 1: "
         let prefix = "";
         let body = line;
-        const labelMatch = body.match(/^(\s*(?:[a-zA-Z]\)|\d+[\.\)]|\-|\*)\s*)(.*)$/);
+        const labelMatch = body.match(/^(\s*(?:[a-zA-Z]\)|\d+[\.\)]|\-|\*|Bài\s+\d+:?)\s*)(.*)$/);
         if (labelMatch) {
           prefix = labelMatch[1];
           body = labelMatch[2];
         }
-
-        // Tách tiền tố có dấu hai chấm: "Tìm x biết: ", "Tính giá trị: "
+    
+        // Tách tiền tố câu tiếng Việt
         const colonMatch = body.match(/^([^:=]+:\s*)(.*)$/);
         if (colonMatch && hasVietnameseWords(colonMatch[1])) {
           prefix += colonMatch[1];
           body = colonMatch[2];
+        } else {
+          const phraseMatch = body.match(/^((?:Rút gọn được|Biến đổi ta được|Vậy ta có|Ta có|Phương trình tương đương|Hệ phương trình có nghiệm|Vậy tập nghiệm là|Nghiệm là|Chu vi|Diện tích|Bán kính)\s+)(.*)$/i);
+          if (phraseMatch) {
+            prefix += phraseMatch[1];
+            body = phraseMatch[2];
+          }
         }
-
+    
         const trimmedBody = body.trim();
         if (!trimmedBody) return line;
-
-        // Trường hợp 1: Biểu thức thuần toán học (KHÔNG chứa từ tiếng Việt nào)
-        // Ví dụ: A = \sqrt{0,04} + ... hoặc 2\sqrt{x} - 5 = 3 hoặc x^2 = 100
-        const hasMathSymbol = /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\+|\-|\/|[0-9])/.test(trimmedBody);
-        if (hasMathSymbol && !hasVietnameseWords(trimmedBody)) {
-          let mathExpr = trimmedBody.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `\\frac{${p1}}{${p2}}`);
-          let trailingPunct = "";
-          if (/[.;,]$/.test(mathExpr)) {
-            trailingPunct = mathExpr.slice(-1);
-            mathExpr = mathExpr.slice(0, -1).trim();
+    
+        const containsViet = hasVietnameseWords(trimmedBody);
+    
+        if (!containsViet) {
+          // Biểu thức thuần toán học (toàn bộ dòng là toán học)
+          if (/(\\sqrt|\\frac|\^|=|<|>|\\le|\\ge|\\ne|\\pm|\\Leftrightarrow|\\Rightarrow|\\perp|\\parallel|\\Delta|\\pi|\\widehat|\\circ|\+|\-|\/|[0-9])/.test(trimmedBody)) {
+            let mathBody = trimmedBody
+              .replace(/×/g, ' \\times ')
+              .replace(/(\b\d+)\s*\/\s*(\d+\b)/g, '\\frac{$1}{$2}');
+            
+            let trailingPunct = "";
+            if (/[.;,]$/.test(mathBody)) {
+              trailingPunct = mathBody.slice(-1);
+              mathBody = mathBody.slice(0, -1).trim();
+            }
+            return prefix + '$' + mathBody + '$' + trailingPunct;
           }
-          return prefix + `$${mathExpr}$` + trailingPunct;
+          return line;
         }
-
-        // Trường hợp 2: Dòng chứa các mệnh đề cách nhau bởi "và", "với", "hoặc", "khi"
-        // Ví dụ: "x^2 = 100 và x < 0."
-        const clauseParts = body.split(/(\s+(?:và|với|hoặc|khi)\s+)/);
+    
+        // Dòng chứa cả tiếng Việt và biểu thức
+        const clauseParts = body.split(/(\s+(?:và|với|hoặc|khi|thì)\s+)/);
         if (clauseParts.length > 1) {
           const processedClauses = clauseParts.map(cp => {
-            if (/^\s+(?:và|với|hoặc|khi)\s+$/.test(cp)) return cp;
+            if (/^\s+(?:và|với|hoặc|khi|thì)\s+$/.test(cp)) return cp;
             let cpTrim = cp.trim();
+            if (!cpTrim) return cp;
+    
             let trailingPunct = "";
             if (/[.;,]$/.test(cpTrim)) {
               trailingPunct = cpTrim.slice(-1);
               cpTrim = cpTrim.slice(0, -1).trim();
             }
-            if (cpTrim && !hasVietnameseWords(cpTrim) && /(\\sqrt|\^|=|<|>|\\le|\\ge|\\ne|\\cdot|\+|\-|\/|[0-9])/.test(cpTrim)) {
-              cpTrim = cpTrim.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `\\frac{${p1}}{${p2}}`);
-              return `$${cpTrim}$` + trailingPunct;
+    
+            if (!hasVietnameseWords(cpTrim) && /(\\sqrt|\\frac|\^|=|<|>|\\le|\\ge|\\ne|\\pm|\\perp|\\parallel|\\Delta|\\pi|\\widehat|\\circ|\+|\-|\/|[0-9])/.test(cpTrim)) {
+              let mathPart = cpTrim
+                .replace(/×/g, ' \\times ')
+                .replace(/(\b\d+)\s*\/\s*(\d+\b)/g, '\\frac{$1}{$2}');
+              return '$' + mathPart + '$' + trailingPunct;
             }
-            let res = cp.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `$\\frac{${p1}}{${p2}}$`);
-            res = res.replace(/\\sqrt\{[^}]+\}/g, (m) => `$${m}$`);
-            res = res.replace(/\b([a-zA-Z0-9]+)\^([0-9]+|\{[^}]+\})\b/g, (m) => `$${m}$`);
-            return res;
+    
+            return formatIsolatedMathInText(cp);
           });
           return prefix + processedClauses.join('');
         }
-
-        // Trường hợp 3: Dòng văn bản tiếng Việt thông thường
-        // Ví dụ: "Phân số 7/8 viết được dưới dạng số thập phân hữu hạn vì mẫu 8 = 2^3."
-        // Bảo toàn 100% khoảng trắng giữa các chữ cái! Chỉ đóng khung các thành phần toán cô lập
-        let processedLine = body.replace(/(\b\d+)\/(\d+\b)/g, (_, p1, p2) => `$\\frac{${p1}}{${p2}}$`);
-        processedLine = processedLine.replace(/\\sqrt\{[^}]+\}/g, (m) => `$${m}$`);
-        processedLine = processedLine.replace(/\b([a-zA-Z0-9]+)\^([0-9]+|\{[^}]+\})\b/g, (m) => `$${m}$`);
-
-        return prefix + processedLine;
+    
+        return prefix + formatIsolatedMathInText(body);
       });
-
-      return outLines.join('\n');
+    
+      let result = processedLines.join('\n');
+    
+      // 8. KHÔI PHỤC CÁC KHỐI MATH ĐÃ BẢO TỒN (DÙNG FUNCTION ĐỂ TRÁNH LỖI $$ TRONG REPLACE)
+      result = result.replace(/___PRESERVED_(\d+)___/g, (_, idx) => {
+        return preservedBlocks[parseInt(idx, 10)] || "";
+      });
+    
+      // 9. DỌN DẸP DẤU $ LỖI HOẶC RỖNG
+      result = result.replace(/\$\s+\$/g, '');
+      result = result.replace(/\$\$([\s\S]*?)\$\$/g, (m, inner) => {
+        return '$$\n' + inner.replace(/\$/g, '').trim() + '\n$$';
+      });
+    
+      return result;
     }
-    // ==========================================
-    // COMPONENT HIỂN THỊ CÔNG THỨC TOÁN KATEX
+    
+    function formatIsolatedMathInText(text) {
+      let res = text;
+      res = res.replace(/(?<!\$)\\frac\{(?:[^{}]*|\{[^{}]*\})*\}\{(?:[^{}]*|\{[^{}]*\})*\}(?!\$)/g, (m) => '$' + m + '$');
+      res = res.replace(/(?<!\$)\\sqrt\{(?:[^{}]*|\{[^{}]*\})*\}(?!\$)/g, (m) => '$' + m + '$');
+      res = res.replace(/(?<![\w\$\\])([a-zA-Z]_[0-9]+)(?![\w\$\\])/g, '$$$1$');
+      res = res.replace(/(?<![\w\$\\])([a-zA-Z]\s*(?:=|<|>|\\le|\\ge|\\ne)\s*[\-+]?[0-9a-zA-Z\\^\{\}\_\(\)\+]+)(?![\w\$\\])/g, '$$$1$');
+      res = res.replace(/(?<![\w\$\\])((?:[a-zA-Z0-9]+|\([^\)]+\))\^(?:[0-9]+|\{[^}]+\}|\\circ))(?![\w\$\\])/g, '$$$1$');
+      res = res.replace(/(?<![\w\$\\])(\d+)\s*\/\s*(\d+)(?![\w\$\\])/g, '$\\frac{$1}{$2}$');
+      res = res.replace(/(?<!\$)(\\widehat\{[^{}]+\}|\\Delta\s*[a-zA-Z]{1,3}|\\perp|\\parallel|\\angle|\\pi)(?!\$)/g, (m) => '$' + m + '$');
+      res = res.replace(/(?<!\$)(\s*(?:\\Leftrightarrow|\\Rightarrow)\s*)(?!\$)/g, ' $$$1$ ');
+      res = res.replace(/(?<!\$)(\s*\\pm\s*[0-9a-zA-Z]+)(?!\$)/g, ' $$$1$');
+      return res;
+    }
     // ==========================================
     function MathView({ text, className = "", block = false }) {
       const containerRef = useRef(null);
@@ -4249,17 +4333,7 @@ if (typeof window !== "undefined") {
       };
 
       const formatTieuhocPreview = (raw) => {
-        if (!raw) return "";
-        let s = raw;
-        s = s.replace(/\b(m2|m²)\b/g, "$m^2$");
-        s = s.replace(/\b(cm2|cm²)\b/g, "$cm^2$");
-        s = s.replace(/\b(dm2|dm²)\b/g, "$dm^2$");
-        s = s.replace(/\b(km2|km²)\b/g, "$km^2$");
-        s = s.replace(/\b(m3|m³)\b/g, "$m^3$");
-        s = s.replace(/\b(cm3|cm³)\b/g, "$cm^3$");
-        s = s.replace(/\b(dm3|dm³)\b/g, "$dm^3$");
-        s = s.replace(/\b(\d+)\/(\d+)\b/g, (m, p1, p2) => "$\\frac{" + p1 + "}{" + p2 + "}$");
-        return s;
+        return formatMathText(raw);
       };
 
       // Hàm chọn khối lớp Tiểu học (Lớp 1, 2, 3, 4, 5)
@@ -5018,6 +5092,7 @@ const [loadingAI, setLoadingAI] = useState(false);
       const [systemEq2, setSystemEq2] = useState("2x - y = 4");
       const [systemEq3, setSystemEq3] = useState("");
       const [systemEqCount, setSystemEqCount] = useState(2);
+      const [activeSystemFocus, setActiveSystemFocus] = useState("eq1");
 
       // Hàm chèn dấu căn kéo dài phủ kín toàn bộ biểu thức
       const insertSquareRootToEssay = (qId) => {
@@ -5079,49 +5154,7 @@ const [loadingAI, setLoadingAI] = useState(false);
 
       // Hàm xem trước bài làm tự luận THCS (hệ phương trình ngoặc nhọn to & căn kéo dài)
       const formatEssayPreview = (raw) => {
-        if (!raw) return "";
-        let text = String(raw);
-
-        // 1. Hệ phương trình: nếu đã có \begin{cases} ... \end{cases}
-        text = text.replace(/\$?\$?\\begin\{cases\}([\s\S]*?)\\end\{cases\}\$?\$?/g, (m, c) => `$$\\begin{cases} ${c.trim()} \\end{cases}$$`);
-
-        // Dạng khối ngoặc nhọn { \n pt1 \n pt2 \n }
-        text = text.replace(/\{\s*\n([\s\S]*?\n)\s*\}/g, (m, inner) => {
-          const lines = inner.trim().split(/\n+/).map(l => l.trim()).filter(Boolean);
-          if (lines.length >= 2 && lines.every(l => l.includes('=') || l.includes('<') || l.includes('>') || l.includes('\\le') || l.includes('\\ge'))) {
-            return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
-          }
-          return m;
-        });
-
-        // Dạng { pt1 \\ pt2 } trên cùng dòng
-        text = text.replace(/\{\s*([^}\n]+?\\\\+[^}\n]+?)\s*\}/g, (m, inner) => {
-          const lines = inner.trim().split(/\\\\+/).map(l => l.trim()).filter(Boolean);
-          if (lines.length >= 2) {
-            return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
-          }
-          return m;
-        });
-
-        // Dạng hpt(pt1, pt2)
-        text = text.replace(/\b(?:hpt|he_pt)\s*\(([^)]+)\)/gi, (m, inner) => {
-          const lines = inner.trim().split(/[,;]+/).map(l => l.trim()).filter(Boolean);
-          if (lines.length >= 2) {
-            return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
-          }
-          return m;
-        });
-
-        // 2. Dấu căn kéo dài hết cả biểu thức \sqrt{biểu thức}
-        text = text.replace(/(?:√|\\sqrt|sqrt)\s*\(([^)]+)\)/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
-        text = text.replace(/√\s*\{([^}]+)\}/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
-        text = text.replace(/\bsqrt\s*\{([^}]+)\}/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
-        text = text.replace(/√\s*([0-9a-zA-Z]+)/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
-
-        // 3. Phân số: (\d+)/(\d+) -> \frac{a}{b}
-        text = text.replace(/(?<!\w)(\d+)\s*\/\s*(\d+)(?!\w)/g, (m, p1, p2) => '$\\frac{' + p1 + '}{' + p2 + '}$');
-
-        return text;
+        return formatMathText(raw);
       };
 
       // Quản lý Đăng nhập Google (Google Sign-In)
@@ -8518,6 +8551,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                       <input
                                         type="text"
                                         value={systemEq1}
+                                        onFocus={() => setActiveSystemFocus("eq1")}
                                         onChange={(e) => setSystemEq1(e.target.value)}
                                         placeholder="Ví dụ: x + y = -1 hoặc 3x - y = 5"
                                         className="flex-1 p-2 rounded-lg border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-mono outline-none bg-slate-50 focus:bg-white transition"
@@ -8528,6 +8562,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                       <input
                                         type="text"
                                         value={systemEq2}
+                                        onFocus={() => setActiveSystemFocus("eq2")}
                                         onChange={(e) => setSystemEq2(e.target.value)}
                                         placeholder="Ví dụ: 2x - y = 4 hoặc 2x + y = 5"
                                         className="flex-1 p-2 rounded-lg border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-mono outline-none bg-slate-50 focus:bg-white transition"
@@ -8539,6 +8574,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                         <input
                                           type="text"
                                           value={systemEq3}
+                                          onFocus={() => setActiveSystemFocus("eq3")}
                                           onChange={(e) => setSystemEq3(e.target.value)}
                                           placeholder="Ví dụ: x - 2y + z = 3"
                                           className="flex-1 p-2 rounded-lg border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-mono outline-none bg-slate-50 focus:bg-white transition"
@@ -8556,7 +8592,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                       key={sym}
                                       type="button"
                                       onClick={() => {
-                                        setSystemEq2(prev => prev + sym);
+                                        if (activeSystemFocus === "eq1") setSystemEq1(prev => prev + sym);
+                                        else if (activeSystemFocus === "eq3") setSystemEq3(prev => prev + sym);
+                                        else setSystemEq2(prev => prev + sym);
                                       }}
                                       className="px-2 py-0.5 rounded bg-white hover:bg-indigo-100 text-indigo-900 border border-slate-300 font-bold text-[11px] transition active:scale-95"
                                     >
@@ -8565,10 +8603,27 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   ))}
                                   <button
                                     type="button"
-                                    onClick={() => setSystemEq2(prev => prev + "\sqrt{}")}
+                                    onClick={() => {
+                                      if (activeSystemFocus === "eq1") setSystemEq1(prev => prev + "\\sqrt{}");
+                                      else if (activeSystemFocus === "eq3") setSystemEq3(prev => prev + "\\sqrt{}");
+                                      else setSystemEq2(prev => prev + "\\sqrt{}");
+                                    }}
                                     className="px-2 py-0.5 rounded bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold text-[11px] transition active:scale-95"
+                                    title="Dấu căn bậc hai kéo dài phủ kín biểu thức"
                                   >
                                     √(biểu thức)
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      if (activeSystemFocus === "eq1") setSystemEq1(prev => prev + "\\frac{}{}");
+                                      else if (activeSystemFocus === "eq3") setSystemEq3(prev => prev + "\\frac{}{}");
+                                      else setSystemEq2(prev => prev + "\\frac{}{}");
+                                    }}
+                                    className="px-2 py-0.5 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 font-bold text-[11px] transition active:scale-95 shadow-2xs"
+                                    title="Phân số a/b: tử số trên, mẫu số dưới"
+                                  >
+                                    a/b
                                   </button>
                                 </div>
 
@@ -12566,7 +12621,9 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                       <div>
                                         <span className="font-bold text-slate-600">Bài làm của em: </span>
                                         {tieuhocAnswers.p2[q.id]?.trim() ? (
-                                          <span className="text-slate-900 font-mono whitespace-pre-wrap">{tieuhocAnswers.p2[q.id]}</span>
+                                          <div className="text-slate-900 font-times text-xs md:text-sm whitespace-pre-wrap leading-relaxed mt-1">
+                                            <MathView text={formatTieuhocPreview(tieuhocAnswers.p2[q.id])} />
+                                          </div>
                                         ) : (
                                           <span className="text-slate-400 italic">Em chưa nhập nội dung làm bài</span>
                                         )}
