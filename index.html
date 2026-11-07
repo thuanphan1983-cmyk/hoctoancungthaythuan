@@ -6060,35 +6060,57 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
           };
         }
 
-        // Tách các bước từ barem điểm
-        const rubricLines = rubric.split(/[\n;]+/).map(l => l.trim()).filter(l => l.length > 0);
-        const totalSteps = Math.max(1, rubricLines.length);
-        const stepWeight = max / totalSteps;
+        // Tách các bước từ barem điểm chuẩn (theo dòng mới, (0.xđ), hoặc dấu ;)
+        const rawParts = rubric
+          .split(/(?<=\([0-9\.,]+\s*[đdĐD]\))\s*[\.\n;]*\s*|\n+/)
+          .map(l => l.trim().replace(/^[\.;\s]+|[\.;\s]+$/g, ''))
+          .filter(l => l.length > 0);
+
+        const rubricSteps = (rawParts.length > 0 ? rawParts : [rubric]).map(part => {
+          const ptMatch = part.match(/\(([0-9]+(?:[\.,][0-9]+)?)\s*[đdĐD]\)/);
+          let stepPt = 0;
+          if (ptMatch) {
+            stepPt = parseFloat(ptMatch[1].replace(',', '.'));
+          }
+          return { step: part, declaredPt: stepPt };
+        });
+
+        const totalDeclared = rubricSteps.reduce((sum, s) => sum + s.declaredPt, 0);
+        const defaultWeight = max / Math.max(1, rubricSteps.length);
+        const normalizedSteps = rubricSteps.map(s => ({
+          step: s.step,
+          max: (totalDeclared > 0 && s.declaredPt > 0) ? s.declaredPt : Math.round(defaultWeight * 4) / 4
+        }));
 
         if (text) {
           const textLower = text.toLowerCase();
           let matchedSteps = 0;
-          const steps = rubricLines.map((line) => {
+          let calculatedScore = 0;
+          const steps = normalizedSteps.map((sObj) => {
+            const line = sObj.step;
+            const stepMax = sObj.max;
             // Trích xuất các số hoặc biểu thức quan trọng
-            const tokens = line.match(/[-+]?\d+[\/\.]?\d*|[a-zA-Z]\^[0-9]+|[a-zA-Z]_[0-9]+/g) || [];
+            const tokens = line.match(/[-+]?\d+[\/\.]?\d*|[a-zA-Z]\^[0-9]+|[a-zA-Z]_[0-9]+|\b[a-zA-Z]\b/g) || [];
             let matchCount = 0;
             tokens.forEach(tok => {
               if (text.includes(tok)) matchCount++;
             });
-            const isMatched = tokens.length > 0 ? (matchCount / tokens.length >= 0.4) : (textLower.includes(line.substring(0, 12).toLowerCase()));
-            if (isMatched) matchedSteps++;
-
-            const stepScore = isMatched ? Math.round(stepWeight * 4) / 4 : 0;
+            const isMatched = tokens.length > 0 ? (matchCount / tokens.length >= 0.35) : (textLower.includes(line.substring(0, 10).toLowerCase()));
+            const stepScore = isMatched ? stepMax : 0;
+            if (isMatched) {
+              matchedSteps++;
+              calculatedScore += stepScore;
+            }
             return {
               step: line,
               awarded: stepScore,
-              max: Math.round(stepWeight * 4) / 4,
+              max: stepMax,
               status: isMatched ? "Đúng" : "Cần xem lại",
               note: isMatched ? "Thực hiện chính xác bước này theo barem." : "Chưa hoàn thiện hoặc thiếu bước biến đổi này."
             };
           });
 
-          let calculatedScore = Math.min(max, Math.round((matchedSteps * stepWeight) * 4) / 4);
+          calculatedScore = Math.min(max, Math.round(calculatedScore * 4) / 4);
           if (calculatedScore === 0 && text.length > 15) {
             calculatedScore = Math.round((max * 0.5) * 4) / 4;
           }
@@ -6110,10 +6132,10 @@ YÊU CẦU SỐ LƯỢNG CÂU: part1 đúng 12 câu (id 1-12, correct từ 0-3),
           return {
             score: fallbackScore,
             ocrText: "[Hệ thống đã ghi nhận ảnh chụp bài làm viết tay của học sinh]",
-            steps: rubricLines.map((line) => ({
-              step: line,
-              awarded: Math.round((stepWeight * 0.75) * 4) / 4,
-              max: Math.round(stepWeight * 4) / 4,
+            steps: normalizedSteps.map((sObj) => ({
+              step: sObj.step,
+              awarded: Math.round((sObj.max * 0.75) * 4) / 4,
+              max: sObj.max,
               status: "Đạt",
               note: "Đã ghi nhận bài giải viết tay từ ảnh chụp."
             })),
@@ -9447,7 +9469,7 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                   </div>
 
-                  {/* BẢNG ĐỐI SOÁT CHI TIẾT TỪNG CÂU & TỰ SỬA LỖI (Phần I, II, III) */}
+                  {/* BẢNG ĐỐI SOÁT CHI TIẾT TỪNG CÂU & TỰ SỬA LỖI (Cả 4 Phần: Trắc nghiệm & Tự luận) */}
                   {resultData && (
                     <div className="space-y-5 pt-4 border-t-2 border-indigo-100">
                       {/* Tiêu đề & Nhận xét học lực tự động */}
@@ -9464,43 +9486,66 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               </p>
                             </div>
                           </div>
-                          {/* Badge tổng quan trắc nghiệm */}
-                          <div className="flex items-center gap-2">
-                            <span className="px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 text-xs font-bold text-amber-300">
-                              Trắc nghiệm: {(
-                                (Number(resultData.scorePart1) || 0) +
-                                (Number(resultData.scorePart2) || 0) +
-                                (Number(resultData.scorePart3) || 0)
-                              ).toFixed(2)} / 7,00 điểm
-                            </span>
-                          </div>
+                          {/* Badge tổng quan cả 4 phần (Thang điểm 10 chuẩn Bộ GD&ĐT) */}
+                          {(() => {
+                            const p1 = Number(resultData.scorePart1) || 0;
+                            const p2 = Number(resultData.scorePart2) || 0;
+                            const p3 = Number(resultData.scorePart3) || 0;
+                            const p4 = Number(resultData.scorePart4) || 0;
+                            const tnScore = p1 + p2 + p3;
+                            const finalScore = typeof resultData.totalScore === "number" ? resultData.totalScore : Number((tnScore + p4).toFixed(2));
+                            const hasPart4 = examData.part4 && examData.part4.length > 0;
+
+                            return (
+                              <div className="flex flex-wrap items-center gap-2">
+                                <span className="px-3.5 py-1.5 rounded-xl bg-amber-400/20 backdrop-blur-sm border border-amber-300/40 text-xs sm:text-sm font-black text-amber-300 shadow-sm flex items-center gap-1.5">
+                                  <span>🏆</span>
+                                  <span>Tổng điểm: {finalScore.toFixed(2)} / 10,00 điểm</span>
+                                </span>
+                                {hasPart4 ? (
+                                  <span className="px-2.5 py-1 rounded-lg bg-white/10 border border-white/20 text-[11px] font-semibold text-indigo-200">
+                                    (Trắc nghiệm: {tnScore.toFixed(2)}/7,00đ + Tự luận: {p4.toFixed(2)}/3,00đ)
+                                  </span>
+                                ) : (
+                                  <span className="px-2.5 py-1 rounded-lg bg-white/10 border border-white/20 text-[11px] font-semibold text-indigo-200">
+                                    (Trắc nghiệm: {finalScore.toFixed(2)}/10,00đ)
+                                  </span>
+                                )}
+                              </div>
+                            );
+                          })()}
                         </div>
 
-                        {/* Card tự động sinh nhận xét học lực ngắn gọn */}
+                        {/* Card tự động sinh nhận xét học lực chuẩn thang 10 điểm (gồm cả Tự luận) */}
                         {(() => {
-                          const objScore = (Number(resultData.scorePart1) || 0) + (Number(resultData.scorePart2) || 0) + (Number(resultData.scorePart3) || 0);
+                          const p1 = Number(resultData.scorePart1) || 0;
+                          const p2 = Number(resultData.scorePart2) || 0;
+                          const p3 = Number(resultData.scorePart3) || 0;
+                          const p4 = Number(resultData.scorePart4) || 0;
+                          const finalScore = typeof resultData.totalScore === "number" ? resultData.totalScore : Number((p1 + p2 + p3 + p4).toFixed(2));
+
                           let academicComment = {
                             badge: "🌟 HỌC LỰC GIỎI / XUẤT SẮC",
                             badgeBg: "bg-emerald-500/20 text-emerald-300 border-emerald-400/30",
-                            text: "Em nắm rất vững toàn bộ kiến thức bài học và thành thạo các bước biến đổi toán học. Tiếp tục duy trì phong độ và rèn luyện các dạng bài phân hóa nhé!"
+                            text: `Xuất sắc! Em đạt ${finalScore.toFixed(2)}/10 điểm. Nắm rất vững toàn bộ kiến thức bài học và thành thạo các bước biến đổi toán học cả trắc nghiệm lẫn tự luận. Tiếp tục duy trì phong độ và rèn luyện các dạng bài phân hóa nhé!`
                           };
-                          if (objScore < 3.5) {
+                          if (finalScore < 5.0) {
                             academicComment = {
                               badge: "⚠️ CẦN CỐ GẮNG ÔN TẬP",
                               badgeBg: "bg-rose-500/20 text-rose-300 border-rose-400/30",
-                              text: "Em còn hổng một số kiến thức cơ bản trong bài học SGK này. Hãy xem kỹ bảng đối soát và bấm 'Xem lời giải chi tiết' bên dưới để tự rút kinh nghiệm, sau đó rèn luyện lại với Đề 1/Đề 2."
+                              text: `Em đạt ${finalScore.toFixed(2)}/10 điểm. Còn hổng một số kiến thức cơ bản trong bài học SGK này. Hãy xem kỹ bảng đối soát và bấm 'Xem tất cả lời giải chi tiết' bên dưới để tự rút kinh nghiệm, sau đó rèn luyện lại với Đề 1/Đề 2.`
                             };
-                          } else if (objScore < 4.8) {
+                          } else if (finalScore < 6.5) {
                             academicComment = {
                               badge: "📚 HỌC LỰC TRUNG BÌNH KHÁ",
                               badgeBg: "bg-amber-500/20 text-amber-300 border-amber-400/30",
-                              text: "Em đã hiểu các kiến thức nền tảng cơ bản nhưng còn nhầm lẫn ở bước biến đổi hoặc đọc đề chưa kỹ. Hãy đối chiếu các câu làm sai để hoàn thiện kỹ năng tính toán."
+                              text: `Em đạt ${finalScore.toFixed(2)}/10 điểm. Đã hiểu các kiến thức nền tảng cơ bản nhưng còn nhầm lẫn ở bước biến đổi hoặc đọc đề chưa kỹ. Hãy đối chiếu các câu làm sai để hoàn thiện kỹ năng tính toán và lập luận tự luận.`
                             };
-                          } else if (objScore < 6.0) {
+                          } else if (finalScore < 8.0) {
                             academicComment = {
                               badge: "👍 HỌC LỰC KHÁ",
                               badgeBg: "bg-blue-500/20 text-blue-300 border-blue-400/30",
-                              text: "Em làm rất tốt các câu nhận biết và thông hiểu. Cần chú ý cẩn thận hơn ở các mệnh đề bẫy Đúng/Sai và đối chiếu kỹ điều kiện trước khi điền số ở Phần Trả lời ngắn."
+                              text: `Em đạt ${finalScore.toFixed(2)}/10 điểm. Làm rất tốt các câu nhận biết, thông hiểu và vận dụng. Cần chú ý cẩn thận hơn ở các mệnh đề bẫy Đúng/Sai, đối chiếu kỹ điều kiện trước khi điền số ở Phần Trả lời ngắn và trình bày tự luận chặt chẽ hơn.`
                             };
                           }
 
@@ -9522,10 +9567,16 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                         const mcList = resultData.mcDetails || [];
                         const tfList = resultData.tfDetailedReview || [];
                         const saList = resultData.saDetails || [];
+                        const essayList = examData.part4 || [];
                         const mcWrongCount = mcList.filter(d => !d.isCorrect).length;
                         const tfWrongSubCount = tfList.reduce((acc, q) => acc + (q.subItems || []).filter(s => !s.isCorrect).length, 0);
                         const saWrongCount = saList.filter(d => !d.isCorrect).length;
-                        const totalWrongQuestions = mcWrongCount + (tfList.filter(q => (q.subItems || []).some(s => !s.isCorrect)).length) + saWrongCount;
+                        const essayWrongCount = essayList.filter(q => {
+                          const fb = resultData.essayFeedbacks?.[q.id];
+                          const maxPts = (typeof q.points === "number" && q.points > 0) ? q.points : 1.0;
+                          return !fb || (Number(fb.score) || 0) < maxPts;
+                        }).length;
+                        const totalWrongQuestions = mcWrongCount + (tfList.filter(q => (q.subItems || []).some(s => !s.isCorrect)).length) + saWrongCount + essayWrongCount;
 
                         const isAllExpanded = Object.keys(expandedReview || {}).length > 0;
 
@@ -9583,17 +9634,22 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
                         const totalWrong = mcList.filter(d => !d.isCorrect).length +
                                            tfList.reduce((acc, q) => acc + (q.subItems || []).filter(s => !s.isCorrect).length, 0) +
-                                           saList.filter(d => !d.isCorrect).length;
+                                           saList.filter(d => !d.isCorrect).length +
+                                           (examData.part4 || []).filter(q => {
+                                             const fb = resultData.essayFeedbacks?.[q.id];
+                                             const maxPts = (typeof q.points === "number" && q.points > 0) ? q.points : 1.0;
+                                             return !fb || (Number(fb.score) || 0) < maxPts;
+                                           }).length;
 
                         if (reviewFilter === "wrong" && totalWrong === 0) {
                           return (
                             <div className="p-8 text-center bg-emerald-50 border-2 border-dashed border-emerald-300 rounded-2xl space-y-2">
                               <div className="text-4xl">🎉</div>
                               <h4 className="text-base font-bold text-emerald-900">
-                                Xuất sắc! Em không làm sai câu hỏi trắc nghiệm nào!
+                                Xuất sắc! Toàn bộ câu hỏi đều đạt điểm tối đa!
                               </h4>
                               <p className="text-xs text-emerald-700 font-medium">
-                                Toàn bộ các câu ở Phần I, II và III đều trả lời chính xác. Bấm tab "Tất cả câu hỏi" nếu muốn xem lại bài thi.
+                                Em đã trả lời chính xác trọn vẹn cả 4 phần thi (Trắc nghiệm và Tự luận), đạt điểm tuyệt đối 10/10 điểm! Bấm tab "Tất cả câu hỏi" nếu muốn xem lại bài thi.
                               </p>
                             </div>
                           );
@@ -9964,7 +10020,14 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
 
 
 
-                    {examData.part4.map((q) => {
+                    {((reviewFilter === "wrong"
+                      ? (examData.part4 || []).filter(q => {
+                          const fb = resultData.essayFeedbacks?.[q.id];
+                          const maxPts = (typeof q.points === "number" && q.points > 0) ? q.points : 1.0;
+                          return !fb || (Number(fb.score) || 0) < maxPts;
+                        })
+                      : (examData.part4 || [])
+                    )).map((q) => {
 
                       const fb = resultData.essayFeedbacks?.[q.id] || {};
 
