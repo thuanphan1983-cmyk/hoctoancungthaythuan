@@ -1509,11 +1509,29 @@ if (typeof window !== "undefined") {
         s = s.split(k).join(v);
       }
 
-      // 2. Chuyển đổi căn bậc hai unicode: √(0,04) -> \sqrt{0,04}, √x -> \sqrt{x}
-      s = s.replace(/√\(([^)]+)\)/g, '\\sqrt{$1}');
-      s = s.replace(/√\{([^}]+)\}/g, '\\sqrt{$1}');
-      s = s.replace(/√([0-9]+(?:,[0-9]+)?)/g, '\\sqrt{$1}');
-      s = s.replace(/√([a-zA-Z])/g, '\\sqrt{$1}');
+      // 1b. Chuẩn hóa Hệ phương trình (System of equations) với dấu ngoặc nhọn to
+      s = s.replace(/\$?\$?\\begin\{cases\}([\s\S]*?)\\end\{cases\}\$?\$?/g, (m, c) => `$$\\begin{cases} ${c.trim()} \\end{cases}$$`);
+      s = s.replace(/\{\s*\n([\s\S]*?\n)\s*\}/g, (m, inner) => {
+        const lines = inner.trim().split(/\n+/).map(l => l.trim()).filter(Boolean);
+        if (lines.length >= 2 && lines.every(l => l.includes('=') || l.includes('<') || l.includes('>') || l.includes('\\le') || l.includes('\\ge'))) {
+          return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
+        }
+        return m;
+      });
+      s = s.replace(/\b(?:hpt|he_pt)\s*\(([^)]+)\)/gi, (m, inner) => {
+        const lines = inner.trim().split(/[,;]+/).map(l => l.trim()).filter(Boolean);
+        if (lines.length >= 2) {
+          return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
+        }
+        return m;
+      });
+
+      // 2. Chuyển đổi căn bậc hai: DẤU CĂN KÉO DÀI HẾT CẢ BIỂU THỨC \sqrt{biểu_thức}
+      s = s.replace(/(?:√|\\sqrt|sqrt)\s*\(([^)]+)\)/g, '\\sqrt{$1}');
+      s = s.replace(/√\s*\{([^}]+)\}/g, '\\sqrt{$1}');
+      s = s.replace(/\bsqrt\s*\{([^}]+)\}/g, '\\sqrt{$1}');
+      s = s.replace(/√\s*([0-9]+(?:,[0-9]+)?)/g, '\\sqrt{$1}');
+      s = s.replace(/√\s*([a-zA-Z])/g, '\\sqrt{$1}');
       s = s.replace(/√/g, '\\sqrt ');
 
       // 3. Chuyển đổi toán tử: dấu nhân " . " giữa các số/biến
@@ -4994,6 +5012,118 @@ const [loadingAI, setLoadingAI] = useState(false);
       const [examTimeLeft, setExamTimeLeft] = useState(EXAM_DURATION);
       const [isExamSubmitted, setIsExamSubmitted] = useState(false);
 
+      // Quản lý Bảng thiết lập Hệ phương trình trực quan cho học sinh THCS
+      const [activeSystemModalQId, setActiveSystemModalQId] = useState(null);
+      const [systemEq1, setSystemEq1] = useState("x + y = -1");
+      const [systemEq2, setSystemEq2] = useState("2x - y = 4");
+      const [systemEq3, setSystemEq3] = useState("");
+      const [systemEqCount, setSystemEqCount] = useState(2);
+
+      // Hàm chèn dấu căn kéo dài phủ kín toàn bộ biểu thức
+      const insertSquareRootToEssay = (qId) => {
+        const el = document.getElementById(`essay_textarea_${qId}`);
+        const currentVal = essayTexts[qId] || "";
+        if (el && typeof el.selectionStart === "number") {
+          const start = el.selectionStart;
+          const end = el.selectionEnd;
+          const selected = currentVal.substring(start, end).trim();
+          if (selected) {
+            const newVal = currentVal.substring(0, start) + `\\sqrt{${selected}}` + currentVal.substring(end);
+            setEssayTexts(prev => ({ ...prev, [qId]: newVal }));
+            setTimeout(() => {
+              el.focus();
+              const cur = start + selected.length + 7;
+              el.setSelectionRange(cur, cur);
+            }, 15);
+          } else {
+            const newVal = currentVal.substring(0, start) + `\\sqrt{}` + currentVal.substring(end);
+            setEssayTexts(prev => ({ ...prev, [qId]: newVal }));
+            setTimeout(() => {
+              el.focus();
+              el.setSelectionRange(start + 6, start + 6);
+            }, 15);
+          }
+        } else {
+          setEssayTexts(prev => ({ ...prev, [qId]: currentVal + "\\sqrt{}" }));
+        }
+      };
+
+      // Hàm chèn phân số chuẩn toán học a/b
+      const insertFractionToEssay = (qId) => {
+        const el = document.getElementById(`essay_textarea_${qId}`);
+        const currentVal = essayTexts[qId] || "";
+        if (el && typeof el.selectionStart === "number") {
+          const start = el.selectionStart;
+          const end = el.selectionEnd;
+          const selected = currentVal.substring(start, end).trim();
+          if (selected) {
+            const newVal = currentVal.substring(0, start) + `\\frac{${selected}}{}` + currentVal.substring(end);
+            setEssayTexts(prev => ({ ...prev, [qId]: newVal }));
+            setTimeout(() => {
+              el.focus();
+              const cur = start + selected.length + 8;
+              el.setSelectionRange(cur, cur);
+            }, 15);
+          } else {
+            const newVal = currentVal.substring(0, start) + `\\frac{}{}` + currentVal.substring(end);
+            setEssayTexts(prev => ({ ...prev, [qId]: newVal }));
+            setTimeout(() => {
+              el.focus();
+              el.setSelectionRange(start + 6, start + 6);
+            }, 15);
+          }
+        } else {
+          setEssayTexts(prev => ({ ...prev, [qId]: currentVal + "\\frac{}{}" }));
+        }
+      };
+
+      // Hàm xem trước bài làm tự luận THCS (hệ phương trình ngoặc nhọn to & căn kéo dài)
+      const formatEssayPreview = (raw) => {
+        if (!raw) return "";
+        let text = String(raw);
+
+        // 1. Hệ phương trình: nếu đã có \begin{cases} ... \end{cases}
+        text = text.replace(/\$?\$?\\begin\{cases\}([\s\S]*?)\\end\{cases\}\$?\$?/g, (m, c) => `$$\\begin{cases} ${c.trim()} \\end{cases}$$`);
+
+        // Dạng khối ngoặc nhọn { \n pt1 \n pt2 \n }
+        text = text.replace(/\{\s*\n([\s\S]*?\n)\s*\}/g, (m, inner) => {
+          const lines = inner.trim().split(/\n+/).map(l => l.trim()).filter(Boolean);
+          if (lines.length >= 2 && lines.every(l => l.includes('=') || l.includes('<') || l.includes('>') || l.includes('\\le') || l.includes('\\ge'))) {
+            return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
+          }
+          return m;
+        });
+
+        // Dạng { pt1 \\ pt2 } trên cùng dòng
+        text = text.replace(/\{\s*([^}\n]+?\\\\+[^}\n]+?)\s*\}/g, (m, inner) => {
+          const lines = inner.trim().split(/\\\\+/).map(l => l.trim()).filter(Boolean);
+          if (lines.length >= 2) {
+            return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
+          }
+          return m;
+        });
+
+        // Dạng hpt(pt1, pt2)
+        text = text.replace(/\b(?:hpt|he_pt)\s*\(([^)]+)\)/gi, (m, inner) => {
+          const lines = inner.trim().split(/[,;]+/).map(l => l.trim()).filter(Boolean);
+          if (lines.length >= 2) {
+            return `$$\\begin{cases} ${lines.join(' \\\\ ')} \\end{cases}$$`;
+          }
+          return m;
+        });
+
+        // 2. Dấu căn kéo dài hết cả biểu thức \sqrt{biểu thức}
+        text = text.replace(/(?:√|\\sqrt|sqrt)\s*\(([^)]+)\)/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
+        text = text.replace(/√\s*\{([^}]+)\}/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
+        text = text.replace(/\bsqrt\s*\{([^}]+)\}/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
+        text = text.replace(/√\s*([0-9a-zA-Z]+)/g, (m, p1) => '$\\sqrt{' + p1 + '}$');
+
+        // 3. Phân số: (\d+)/(\d+) -> \frac{a}{b}
+        text = text.replace(/(?<!\w)(\d+)\s*\/\s*(\d+)(?!\w)/g, (m, p1, p2) => '$\\frac{' + p1 + '}{' + p2 + '}$');
+
+        return text;
+      };
+
       // Quản lý Đăng nhập Google (Google Sign-In)
       const [currentUser, setCurrentUser] = useState(() => {
         try {
@@ -8328,22 +8458,200 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                 const val = e.target.value;
                                 setEssayTexts(prev => ({ ...prev, [q.id]: val }));
                               }}
-                              placeholder={`Gõ lời giải Câu ${q.id}, các bước biến đổi hoặc kết luận... (VD: ĐKXĐ: x ≥ 0; Rút gọn được P = (√x - 1)/(√x + 1)...)`}
+                              placeholder={`Gõ lời giải Câu ${q.id}, các bước biến đổi, thiết lập hệ phương trình hoặc rút gọn biểu thức chứa căn...`}
                               className="w-full p-3 rounded-xl border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-sans outline-none bg-white transition"
                             />
-                            {/* Phím chèn ký hiệu Toán học, Hệ phương trình & Phân số nhanh */}
+
+                            {/* BẢNG THIẾT LẬP HỆ PHƯƠNG TRÌNH TRỰC QUAN (CHUẨN NGOẶC NHỌN TO 2 DÒNG) */}
+                            {activeSystemModalQId === q.id && (
+                              <div className="bg-gradient-to-br from-indigo-50/95 to-blue-50/95 border-2 border-indigo-400 rounded-2xl p-3 md:p-4 shadow-md space-y-3 transition">
+                                <div className="flex items-center justify-between border-b border-indigo-200 pb-2">
+                                  <div className="flex items-center gap-2">
+                                    <span className="text-2xl font-black font-serif text-indigo-900 leading-none">{"{"}</span>
+                                    <div>
+                                      <h4 className="font-black text-xs md:text-sm text-indigo-950 uppercase tracking-wide">
+                                        BẢNG THIẾT LẬP HỆ PHƯƠNG TRÌNH:
+                                      </h4>
+                                      <p className="text-[11px] text-slate-600">
+                                        Nhập các phương trình của hệ vào các dòng dưới đây rồi bấm <strong>Chèn vào bài làm</strong>:
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div className="flex items-center gap-1.5">
+                                    <button
+                                      type="button"
+                                      onClick={() => setSystemEqCount(2)}
+                                      className={`px-2 py-0.5 rounded text-[11px] font-black transition ${
+                                        systemEqCount === 2 ? "bg-indigo-600 text-white shadow-xs" : "bg-white text-indigo-900 border border-indigo-300"
+                                      }`}
+                                    >
+                                      2 phương trình
+                                    </button>
+                                    <button
+                                      type="button"
+                                      onClick={() => setSystemEqCount(3)}
+                                      className={`px-2 py-0.5 rounded text-[11px] font-black transition ${
+                                        systemEqCount === 3 ? "bg-indigo-600 text-white shadow-xs" : "bg-white text-indigo-900 border border-indigo-300"
+                                      }`}
+                                    >
+                                      3 phương trình
+                                    </button>
+                                    <button
+                                      type="button"
+                                      onClick={() => setActiveSystemModalQId(null)}
+                                      className="w-6 h-6 rounded-full bg-slate-200 hover:bg-rose-100 hover:text-rose-700 text-slate-700 font-bold flex items-center justify-center text-xs ml-1 transition"
+                                      title="Đóng bảng thiết lập"
+                                    >
+                                      ✕
+                                    </button>
+                                  </div>
+                                </div>
+
+                                {/* Khung nhập liệu có dấu ngoặc nhọn to bao quát chuẩn */}
+                                <div className="flex items-center gap-3 bg-white p-3 rounded-xl border border-indigo-200 shadow-inner">
+                                  <div className="text-5xl md:text-6xl font-thin font-serif text-indigo-700 select-none leading-none px-1">
+                                    {"{"}
+                                  </div>
+                                  <div className="flex-1 space-y-2">
+                                    <div className="flex items-center gap-2">
+                                      <span className="text-[11px] font-black text-indigo-900 w-12 shrink-0">PT (1):</span>
+                                      <input
+                                        type="text"
+                                        value={systemEq1}
+                                        onChange={(e) => setSystemEq1(e.target.value)}
+                                        placeholder="Ví dụ: x + y = -1 hoặc 3x - y = 5"
+                                        className="flex-1 p-2 rounded-lg border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-mono outline-none bg-slate-50 focus:bg-white transition"
+                                      />
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                      <span className="text-[11px] font-black text-indigo-900 w-12 shrink-0">PT (2):</span>
+                                      <input
+                                        type="text"
+                                        value={systemEq2}
+                                        onChange={(e) => setSystemEq2(e.target.value)}
+                                        placeholder="Ví dụ: 2x - y = 4 hoặc 2x + y = 5"
+                                        className="flex-1 p-2 rounded-lg border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-mono outline-none bg-slate-50 focus:bg-white transition"
+                                      />
+                                    </div>
+                                    {systemEqCount === 3 && (
+                                      <div className="flex items-center gap-2">
+                                        <span className="text-[11px] font-black text-indigo-900 w-12 shrink-0">PT (3):</span>
+                                        <input
+                                          type="text"
+                                          value={systemEq3}
+                                          onChange={(e) => setSystemEq3(e.target.value)}
+                                          placeholder="Ví dụ: x - 2y + z = 3"
+                                          className="flex-1 p-2 rounded-lg border border-slate-300 focus:border-indigo-600 focus:ring-2 focus:ring-indigo-100 text-xs md:text-sm font-mono outline-none bg-slate-50 focus:bg-white transition"
+                                        />
+                                      </div>
+                                    )}
+                                  </div>
+                                </div>
+
+                                {/* Dãy phím nhanh phụ trợ khi gõ hệ phương trình */}
+                                <div className="flex flex-wrap items-center gap-1 text-[11px]">
+                                  <span className="text-[10px] font-bold text-slate-500 mr-1">Chèn nhanh:</span>
+                                  {["x", "y", "z", " + ", " - ", " = ", " × ", " : ", " / ", "^2"].map(sym => (
+                                    <button
+                                      key={sym}
+                                      type="button"
+                                      onClick={() => {
+                                        setSystemEq2(prev => prev + sym);
+                                      }}
+                                      className="px-2 py-0.5 rounded bg-white hover:bg-indigo-100 text-indigo-900 border border-slate-300 font-bold text-[11px] transition active:scale-95"
+                                    >
+                                      {sym.trim()}
+                                    </button>
+                                  ))}
+                                  <button
+                                    type="button"
+                                    onClick={() => setSystemEq2(prev => prev + "\sqrt{}")}
+                                    className="px-2 py-0.5 rounded bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 font-bold text-[11px] transition active:scale-95"
+                                  >
+                                    √(biểu thức)
+                                  </button>
+                                </div>
+
+                                {/* Xem trước Hệ phương trình chuẩn KaTeX thời gian thực */}
+                                <div className="bg-white/95 p-3 rounded-xl border border-indigo-200 flex flex-wrap items-center justify-between gap-3">
+                                  <div className="flex items-center gap-3">
+                                    <span className="text-xs font-bold text-indigo-900 flex items-center gap-1 shrink-0">
+                                      <span>👁️</span> Hiển thị chuẩn:
+                                    </span>
+                                    <div className="text-sm md:text-base font-times text-slate-950 font-bold p-1 bg-slate-50 rounded border border-slate-200">
+                                      <MathView text={`$$\\begin{cases} ${systemEq1 || "..."} \\\\ ${systemEq2 || "..."}${systemEqCount === 3 && systemEq3 ? ` \\\\ ${systemEq3}` : ""} \\end{cases}$$`} />
+                                    </div>
+                                  </div>
+
+                                  <div className="flex items-center gap-2">
+                                    <button
+                                      type="button"
+                                      onClick={() => {
+                                        const eq1 = (systemEq1 || "").trim() || "...";
+                                        const eq2 = (systemEq2 || "").trim() || "...";
+                                        const eq3 = (systemEq3 || "").trim();
+                                        let hptStr = `$$\\begin{cases} ${eq1} \\\\ ${eq2}`;
+                                        if (systemEqCount === 3 && eq3) {
+                                          hptStr += ` \\\\ ${eq3}`;
+                                        }
+                                        hptStr += ` \\end{cases}$$`;
+
+                                        insertToEssayTextarea(q.id, (essayTexts[q.id]?.trim() ? "\n" : "") + hptStr + "\n");
+                                        setActiveSystemModalQId(null);
+                                        showToast("success", "Đã chèn hệ phương trình vào bài làm!");
+                                      }}
+                                      className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs md:text-sm shadow-md flex items-center gap-1.5 transition active:scale-95"
+                                    >
+                                      <span>📥</span>
+                                      <span>Chèn Hệ PT này vào bài làm</span>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            )}
+
+                            {/* KHUNG XEM TRƯỚC BÀI LÀM TRỰC QUAN (LIVE MATHVIEW PREVIEW) CHO THCS */}
+                            {essayTexts[q.id]?.trim() && (
+                              <div className="bg-indigo-50/70 border border-indigo-200 rounded-xl p-3 space-y-1.5 transition">
+                                <div className="flex items-center justify-between text-[11px] font-bold text-indigo-900">
+                                  <span className="flex items-center gap-1.5">
+                                    <span>👁️</span>
+                                    <span>Xem trước bài làm trực quan (Toán học KaTeX):</span>
+                                  </span>
+                                  <span className="text-[10px] text-indigo-700 bg-white px-2 py-0.5 rounded border border-indigo-200 font-medium">
+                                    Hệ PT có ngoặc nhọn to & Căn kéo dài chuẩn Bộ GD&ĐT
+                                  </span>
+                                </div>
+                                <div className="bg-white p-3 rounded-lg border border-indigo-200 text-xs md:text-sm font-times leading-relaxed text-slate-900 shadow-2xs min-h-[42px]">
+                                  <MathView text={formatEssayPreview(essayTexts[q.id])} block={true} />
+                                </div>
+                              </div>
+                            )}
+
+                            {/* Phím chèn ký hiệu Toán học, Hệ phương trình & Dấu căn kéo dài */}
                             <div className="space-y-1.5 pt-1">
-                              <div className="flex flex-wrap items-center gap-1 text-[11px]">
+                              <div className="flex flex-wrap items-center gap-1.5 text-[11px]">
                                 <span className="text-slate-500 text-[10px] font-bold uppercase tracking-wider mr-1">Chèn nhanh:</span>
                                 
-                                {/* 1. DẤU HỆ PHƯƠNG TRÌNH & NGOẶC */}
+                                {/* 1. DẤU HỆ PHƯƠNG TRÌNH & BẢNG THIẾT LẬP */}
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    setActiveSystemModalQId(activeSystemModalQId === q.id ? null : q.id);
+                                  }}
+                                  className="px-2.5 py-1 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-black text-xs transition active:scale-95 shadow-xs flex items-center gap-1"
+                                  title="Mở Bảng thiết lập Hệ phương trình trực quan có ngoặc nhọn to"
+                                >
+                                  <span className="text-base font-serif font-black leading-none">{"{"}</span>
+                                  <span>Thiết lập Hệ PT</span>
+                                </button>
                                 <button
                                   type="button"
                                   onClick={() => insertToEssayTextarea(q.id, "{\n  \n}")}
                                   className="px-2 py-0.5 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 font-bold text-[11px] transition active:scale-95 shadow-2xs"
                                   title="Chèn khung dấu ngoặc nhọn hệ phương trình 2 dòng"
                                 >
-                                  {"{ Hệ PT"}
+                                  {"{ Hệ PT 2 dòng"}
                                 </button>
                                 <button
                                   type="button"
@@ -8357,12 +8665,39 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   type="button"
                                   onClick={() => insertToEssayTextarea(q.id, "[ ")}
                                   className="px-1.5 py-0.5 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 font-bold text-[11px] transition active:scale-95"
-                                  title="Dấu ngoặc vuông hoặc phương trình tích"
+                                  title="Dấu ngoặc vuông phương trình tích"
                                 >
                                   {"["}
                                 </button>
 
-                                {/* 2. DẤU CỘNG, TRỪ, NHÂN, CHIA, PHÂN SỐ */}
+                                {/* 2. DẤU CĂN KÉO DÀI HẾT CẢ BIỂU THỨC & PHÂN SỐ */}
+                                <button
+                                  type="button"
+                                  onClick={() => insertSquareRootToEssay(q.id)}
+                                  className="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs transition active:scale-95 shadow-xs flex items-center gap-1"
+                                  title="Dấu căn bậc hai kéo dài phủ kín toàn bộ biểu thức: \sqrt{...}"
+                                >
+                                  <span className="font-serif font-black text-sm">√</span>
+                                  <span>(biểu thức)</span>
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertToEssayTextarea(q.id, "\\sqrt{x}")}
+                                  className="px-2 py-0.5 rounded bg-emerald-50 hover:bg-emerald-100 text-emerald-950 border border-emerald-300 font-bold text-[11px] transition active:scale-95"
+                                  title="Căn bậc hai của x: \sqrt{x}"
+                                >
+                                  √x
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => insertFractionToEssay(q.id)}
+                                  className="px-2 py-0.5 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 font-bold text-[11px] transition active:scale-95 shadow-2xs"
+                                  title="Phân số a/b: tử số trên, mẫu số dưới: \frac{a}{b}"
+                                >
+                                  a/b
+                                </button>
+
+                                {/* 3. DẤU CỘNG, TRỪ, NHÂN, CHIA, BẰNG */}
                                 <button
                                   type="button"
                                   onClick={() => insertToEssayTextarea(q.id, " + ")}
@@ -8397,14 +8732,6 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                 </button>
                                 <button
                                   type="button"
-                                  onClick={() => insertToEssayTextarea(q.id, " / ")}
-                                  className="px-2 py-0.5 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 font-bold text-[11px] transition active:scale-95"
-                                  title="Phân số a/b"
-                                >
-                                  a/b
-                                </button>
-                                <button
-                                  type="button"
                                   onClick={() => insertToEssayTextarea(q.id, " = ")}
                                   className="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-indigo-100 hover:text-indigo-800 border border-slate-200 text-slate-800 font-bold text-[11px] transition active:scale-95"
                                   title="Dấu bằng"
@@ -8412,10 +8739,10 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                                   =
                                 </button>
 
-                                {/* 3. CÁC KÝ HIỆU TOÁN HỌC KHÁC */}
+                                {/* 4. CÁC KÝ HIỆU TOÁN HỌC KHÁC */}
                                 {[
-                                  { s: "√", t: "Căn bậc hai" },
                                   { s: "^2", t: "Bình phương" },
+                                  { s: "^3", t: "Lập phương" },
                                   { s: "±", t: "Cộng trừ" },
                                   { s: " ⇔ ", t: "Tương đương" },
                                   { s: " ⇒ ", t: "Suy ra" },
