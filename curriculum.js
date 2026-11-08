@@ -515,11 +515,13 @@ const AUTHENTIC_LESSON_VIDEOS = {
   "6": {
     "c1_6": {
       "Bài 1: Tập hợp": {
-        "videoId": "gUtIhlCluwI",
-        "title": "Toán 6 - Bài 1: Tập hợp (Kết nối tri thức)",
-        "channel": "VietJack Official - Cô Vương Thị Hạnh",
-        "duration": "21:30",
-        "description": "Lý thuyết trọng tâm: Khái niệm tập hợp, phần tử thuộc / không thuộc (∈, ∉), cách mô tả tập hợp bằng liệt kê và nêu dấu hiệu đặc trưng. Kèm ví dụ trực quan và bài tập SGK trang 5 - 8."
+        "type": "ai_video",
+        "videoUrl": "videos/Toan6_Bai1_TapHop_PhanTu.mp4",
+        "title": "Toán 6 - Bài 1: Tập hợp (Video Trực Quan AI)",
+        "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+        "duration": "00:57",
+        "badge": "✨ AI ĐỘC QUYỀN THẦY THUẤN",
+        "description": "Video đồ họa toán học trực quan độc quyền do AI sinh: Sơ đồ Ven động, các phần tử 0, 1, 2, 3, 4 di chuyển vào tập hợp, phân biệt phần tử thuộc (3 ∈ A) và không thuộc (5 ∉ A) kèm 5 quy tắc ghi nhớ trọng tâm chuẩn SGK Kết nối tri thức."
       },
       "Bài 2: Cách ghi số tự nhiên": {
         "videoId": "ov_6dV59DSQ",
@@ -619,11 +621,13 @@ const AUTHENTIC_LESSON_VIDEOS = {
     },
     "c4_6": {
       "Bài 18: Hình tam giác đều. Hình vuông. Hình lục giác đều": {
-        "videoId": "9g3WAUockz4",
-        "title": "Toán 6 - Bài 18: Hình tam giác đều - Hình vuông - Hình lục giác đều",
-        "channel": "VietJack Official",
-        "duration": "24:10",
-        "description": "Quan sát và nhận diện các hình phẳng đều trong thực tế, đếm số cạnh, số góc, kiểm tra tính bằng nhau của các cạnh và góc."
+        "type": "ai_video",
+        "videoUrl": "videos/Toan6_Bai18_HinhHocCoBan.mp4",
+        "title": "Toán 6 - Bài 18: Các hình học đều (Video Trực Quan AI)",
+        "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+        "duration": "00:32",
+        "badge": "✨ AI ĐỘC QUYỀN THẦY THUẤN",
+        "description": "Video đồ họa toán học trực quan độc quyền do AI sinh: Khám phá vẻ đẹp đối xứng hoàn hảo và các đặc điểm nhận dạng của Tam giác đều, Hình vuông và Lục giác đều với chuyển động xoay 360 độ trực quan."
       }
     },
     "c6_6": {

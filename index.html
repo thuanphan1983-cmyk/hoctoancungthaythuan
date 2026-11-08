@@ -1022,11 +1022,13 @@ const LESSON_VIDEOS_REGISTRY = {
   "6": {
     "c1_6": {
       "Bài 1: Tập hợp": {
-        "videoId": "gUtIhlCluwI",
-        "title": "Toán 6 - Bài 1: Tập hợp (Kết nối tri thức)",
-        "channel": "VietJack Official - Cô Vương Thị Hạnh",
-        "duration": "21:30",
-        "description": "Lý thuyết trọng tâm: Khái niệm tập hợp, phần tử thuộc / không thuộc (∈, ∉), cách mô tả tập hợp bằng liệt kê và nêu dấu hiệu đặc trưng. Kèm ví dụ trực quan và bài tập SGK trang 5 - 8."
+        "type": "ai_video",
+        "videoUrl": "videos/Toan6_Bai1_TapHop_PhanTu.mp4",
+        "title": "Toán 6 - Bài 1: Tập hợp (Video Trực Quan AI)",
+        "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+        "duration": "00:57",
+        "badge": "✨ AI ĐỘC QUYỀN THẦY THUẤN",
+        "description": "Video đồ họa toán học trực quan độc quyền do AI sinh: Sơ đồ Ven động, các phần tử 0, 1, 2, 3, 4 di chuyển vào tập hợp, phân biệt phần tử thuộc (3 ∈ A) và không thuộc (5 ∉ A) kèm 5 quy tắc ghi nhớ trọng tâm chuẩn SGK Kết nối tri thức."
       },
       "Bài 2: Cách ghi số tự nhiên": {
         "videoId": "ov_6dV59DSQ",
@@ -1126,11 +1128,13 @@ const LESSON_VIDEOS_REGISTRY = {
     },
     "c4_6": {
       "Bài 18: Hình tam giác đều. Hình vuông. Hình lục giác đều": {
-        "videoId": "9g3WAUockz4",
-        "title": "Toán 6 - Bài 18: Hình tam giác đều - Hình vuông - Hình lục giác đều",
-        "channel": "VietJack Official",
-        "duration": "24:10",
-        "description": "Quan sát và nhận diện các hình phẳng đều trong thực tế, đếm số cạnh, số góc, kiểm tra tính bằng nhau của các cạnh và góc."
+        "type": "ai_video",
+        "videoUrl": "videos/Toan6_Bai18_HinhHocCoBan.mp4",
+        "title": "Toán 6 - Bài 18: Các hình học đều (Video Trực Quan AI)",
+        "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+        "duration": "00:32",
+        "badge": "✨ AI ĐỘC QUYỀN THẦY THUẤN",
+        "description": "Video đồ họa toán học trực quan độc quyền do AI sinh: Khám phá vẻ đẹp đối xứng hoàn hảo và các đặc điểm nhận dạng của Tam giác đều, Hình vuông và Lục giác đều với chuyển động xoay 360 độ trực quan."
       }
     },
     "c6_6": {
@@ -1375,10 +1379,11 @@ function getLessonVideoInfo(grade, chapterId, lessonName) {
   const curr = (typeof window !== "undefined" && window.CURRICULUM_KNTT) ? window.CURRICULUM_KNTT : CURRICULUM_KNTT;
   const gradeData = curr[grade];
 
-  // 1. Kiểm tra trong chapter cụ thể
-  const chap = gradeData?.chapters?.find(c => c.id === chapterId);
-  if (chap?.lessonVideos && chap.lessonVideos[lessonName]) {
-    const v = chap.lessonVideos[lessonName];
+  const parseVideoItem = (v) => {
+    if (!v) return null;
+    if (typeof v === "object" && (v.videoUrl || v.type === "ai_video")) {
+      return { ...v, lesson: lessonName, grade };
+    }
     const rawId = typeof v === "string" ? v : (v.videoId || v.url || v.id);
     const videoId = extractYouTubeId(rawId);
     if (videoId) {
@@ -1386,20 +1391,22 @@ function getLessonVideoInfo(grade, chapterId, lessonName) {
         ? { videoId, title: `${lessonName} - Toán ${grade}`, lesson: lessonName, grade, duration: "18:00" }
         : { ...v, videoId, lesson: lessonName, grade };
     }
+    return null;
+  };
+
+  // 1. Kiểm tra trong chapter cụ thể
+  const chap = gradeData?.chapters?.find(c => c.id === chapterId);
+  if (chap?.lessonVideos && chap.lessonVideos[lessonName]) {
+    const parsed = parseVideoItem(chap.lessonVideos[lessonName]);
+    if (parsed) return parsed;
   }
 
   // 2. Tìm trong tất cả các chương của khối
   if (gradeData?.chapters) {
     for (const c of gradeData.chapters) {
       if (c.lessonVideos && c.lessonVideos[lessonName]) {
-        const v = c.lessonVideos[lessonName];
-        const rawId = typeof v === "string" ? v : (v.videoId || v.url || v.id);
-        const videoId = extractYouTubeId(rawId);
-        if (videoId) {
-          return typeof v === "string"
-            ? { videoId, title: `${lessonName} - Toán ${grade}`, lesson: lessonName, grade, duration: "18:00" }
-            : { ...v, videoId, lesson: lessonName, grade };
-        }
+        const parsed = parseVideoItem(c.lessonVideos[lessonName]);
+        if (parsed) return parsed;
       }
     }
   }
@@ -1408,15 +1415,13 @@ function getLessonVideoInfo(grade, chapterId, lessonName) {
   if (typeof LESSON_VIDEOS_REGISTRY !== "undefined" && LESSON_VIDEOS_REGISTRY[grade]) {
     const gradeReg = LESSON_VIDEOS_REGISTRY[grade];
     if (gradeReg[chapterId]?.[lessonName]) {
-      const v = gradeReg[chapterId][lessonName];
-      const videoId = extractYouTubeId(v.videoId || v.url || v);
-      if (videoId) return { ...v, videoId, lesson: lessonName, grade };
+      const parsed = parseVideoItem(gradeReg[chapterId][lessonName]);
+      if (parsed) return parsed;
     }
     for (const cId in gradeReg) {
       if (gradeReg[cId]?.[lessonName]) {
-        const v = gradeReg[cId][lessonName];
-        const videoId = extractYouTubeId(v.videoId || v.url || v);
-        if (videoId) return { ...v, videoId, lesson: lessonName, grade };
+        const parsed = parseVideoItem(gradeReg[cId][lessonName]);
+        if (parsed) return parsed;
       }
     }
   }
@@ -15084,9 +15089,15 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                   <span className="text-xl sm:text-2xl flex items-center justify-center shrink-0">🎬</span>
                   <div className="min-w-0">
                     <div className="flex items-center gap-2 flex-wrap">
-                      <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-red-600 text-white shadow-xs">
-                        YouTube Video
-                      </span>
+                      {videoModalData.videoUrl || videoModalData.type === "ai_video" ? (
+                        <span className="px-2.5 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-600 text-white shadow-xs flex items-center gap-1">
+                          <span>✨</span> {videoModalData.badge || "VIDEO TRỰC QUAN AI THẦY THUẤN"}
+                        </span>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-red-600 text-white shadow-xs">
+                          YouTube Video
+                        </span>
+                      )}
                       {videoModalData.duration && (
                         <span className="text-[11px] text-slate-300 font-mono">
                           ⏱️ {videoModalData.duration}
@@ -15115,15 +15126,27 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                 </button>
               </div>
 
-              {/* Video Player 16:9 Responsive Container */}
+              {/* Video Player 16:9 Responsive Container (Hỗ trợ cả Video AI độc quyền & YouTube) */}
               <div className="relative w-full bg-black" style={{ paddingBottom: "56.25%" }}>
-                <iframe
-                  src={`https://www.youtube.com/embed/${videoModalData.videoId}?autoplay=1&rel=0&modestbranding=1`}
-                  title={videoModalData.title || "Video bài giảng trực quan"}
-                  className="absolute inset-0 w-full h-full border-0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                {videoModalData.videoUrl ? (
+                  <video
+                    src={videoModalData.videoUrl}
+                    controls
+                    autoPlay
+                    playsInline
+                    className="absolute inset-0 w-full h-full object-contain bg-black"
+                  >
+                    Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
+                  </video>
+                ) : (
+                  <iframe
+                    src={`https://www.youtube.com/embed/${videoModalData.videoId}?autoplay=1&rel=0&modestbranding=1`}
+                    title={videoModalData.title || "Video bài giảng trực quan"}
+                    className="absolute inset-0 w-full h-full border-0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                )}
               </div>
 
               {/* Mô tả nội dung bài học & ví dụ trực quan */}

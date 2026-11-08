@@ -48,9 +48,11 @@ def load_config(config_path: str) -> dict:
 
 
 def render_manim_scene(scene_name: str, audio_duration: float, scene_cfg: dict, quality: str, temp_dir: str) -> str:
-    """Gọi Manim CLI để render phân cảnh đồ họa tương ứng"""
-    # 1. Tạo 1 file wrapper động để truyền tham số runtime vào Scene
-    wrapper_path = os.path.join(temp_dir, f"run_{scene_name.lower()}.py")
+    """Gọi Manim CLI để render phân cảnh đồ họa tương ứng (tối ưu đường dẫn ngắn tránh giới hạn MAX_PATH của Windows)"""
+    import tempfile
+    
+    # 1. Tạo 1 file wrapper ngắn để tránh vượt quá 260 ký tự đường dẫn Windows
+    wrapper_path = os.path.join(temp_dir, "run_sc.py")
     scene_cfg_json = json.dumps(scene_cfg, ensure_ascii=False).replace("\\", "\\\\").replace('"', '\\"')
 
     wrapper_code = f"""import sys
@@ -59,26 +61,24 @@ sys.path.insert(0, r"{SCRIPT_DIR}")
 import animation_engine
 from manim import *
 
-class {scene_name}Runtime(animation_engine.{scene_name}):
+class RunScene(animation_engine.{scene_name}):
     audio_duration = {audio_duration}
     scene_config = json.loads("{scene_cfg_json}")
 """
     with open(wrapper_path, "w", encoding="utf-8") as f:
         f.write(wrapper_code)
 
-    # 2. Cờ chất lượng Manim:
-    # -ql: 480p 15fps (nhanh)
-    # -qm: 720p 30fps (trung bình)
-    # -qh: 1080p 60fps (chuẩn phát hành YouTube / HD)
-    quality_flag = f"-q{quality}"
-    media_dir = os.path.join(temp_dir, "media")
+    # 2. Dùng thư mục Temp hệ thống ngắn (khoảng 40 ký tự) cho media_dir
+    media_dir = os.path.join(tempfile.gettempdir(), "mnm")
+    os.makedirs(media_dir, exist_ok=True)
 
+    quality_flag = f"-q{quality}"
     cmd = [
         "manim",
         quality_flag,
         "--media_dir", media_dir,
         wrapper_path,
-        f"{scene_name}Runtime"
+        "RunScene"
     ]
 
     print(f"      [Manim] Bắt đầu kết xuất đồ họa '{scene_name}' ({quality_flag})...")
@@ -91,10 +91,12 @@ class {scene_name}Runtime(animation_engine.{scene_name}):
         raise RuntimeError(f"Lỗi khi render Manim scene {scene_name}:\n{res.stderr}")
 
     # Tìm file mp4 đã kết xuất
-    rendered_files = list(Path(media_dir).rglob(f"{scene_name}Runtime.mp4"))
+    rendered_files = list(Path(media_dir).rglob("RunScene.mp4"))
     if not rendered_files:
-        raise FileNotFoundError(f"Không tìm thấy video output của {scene_name}Runtime trong {media_dir}")
+        raise FileNotFoundError(f"Không tìm thấy video output của RunScene trong {media_dir}")
 
+    # Lấy file mới nhất
+    rendered_files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     out_file = str(rendered_files[0])
     print(f"      -> Hoàn thành đồ họa ({t_render:.1f}s)! File: {os.path.basename(out_file)}")
     return out_file

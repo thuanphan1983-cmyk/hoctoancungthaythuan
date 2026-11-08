@@ -41,32 +41,39 @@ class VoiceoverEngine:
         if not text:
             raise ValueError("Văn bản thuyết minh không được để trống!")
 
-        # Thử sinh bằng thư viện edge-tts
-        try:
-            asyncio.run(self._generate_async(text, output_path))
-            if os.path.exists(output_path) and os.path.getsize(output_path) > 0:
+        import time
+
+        for attempt in range(1, 4):
+            # 1. Thử sinh bằng thư viện edge-tts trực tiếp
+            try:
+                asyncio.run(self._generate_async(text, output_path))
+                if os.path.exists(output_path) and os.path.getsize(output_path) > 0:
+                    time.sleep(0.5)  # Tránh gửi request quá dồn dập
+                    return output_path
+            except Exception as e:
+                pass
+
+            # 2. Thử gọi qua CLI
+            cmd = ["edge-tts", "--voice", self.voice, "--text", text, "--write-media", output_path]
+            if self.rate:
+                cmd.extend(["--rate", self.rate])
+            if self.pitch:
+                cmd.extend(["--pitch", self.pitch])
+
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8", errors="replace")
+            if res.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > 0:
+                time.sleep(0.5)
                 return output_path
-        except Exception as e:
-            print(f"   [Cảnh báo] Async TTS gặp lỗi ({e}), chuyển sang fallback CLI...")
 
-        # Phương án dự phòng: Gọi trực tiếp edge-tts CLI
-        cmd = ["edge-tts", "--voice", self.voice, "--text", text, "--write-media", output_path]
-        if self.rate:
-            cmd.extend(["--rate", self.rate])
-        if self.pitch:
-            cmd.extend(["--pitch", self.pitch])
+            # 3. Thử với giọng nữ Hoài My
+            if self.voice != BACKUP_VOICE:
+                cmd[2] = BACKUP_VOICE
+                subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8", errors="replace")
+                if os.path.exists(output_path) and os.path.getsize(output_path) > 0:
+                    time.sleep(0.5)
+                    return output_path
 
-        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8", errors="replace")
-        if res.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > 0:
-            return output_path
-
-        # Nếu giọng Nam gặp lỗi, thử chuyển sang giọng Nữ Hoài My
-        if self.voice != BACKUP_VOICE:
-            print(f"   [Cảnh báo] Thử lại với giọng đọc dự phòng: {BACKUP_VOICE}")
-            cmd[2] = BACKUP_VOICE
-            subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8", errors="replace")
-            if os.path.exists(output_path) and os.path.getsize(output_path) > 0:
-                return output_path
+            time.sleep(1.2 * attempt)
 
         raise RuntimeError(f"Lỗi: Không tạo được file audio thuyết minh tại {output_path}")
 
