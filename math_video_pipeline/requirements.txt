@@ -1,0 +1,12 @@
+# ==============================================================================
+# PIPELINE TỰ ĐỘNG HÓA TẠO VIDEO TOÁN HỌC TRỰC QUAN AI
+# Học toán cùng thầy Thuấn Phan - Chuẩn SGK Kết nối tri thức với cuộc sống
+# ==============================================================================
+
+manim>=0.18.0
+edge-tts>=7.0.0
+mutagen>=1.47.0
+imageio-ffmpeg>=0.5.0
+pydub>=0.25.0
+pillow>=10.0.0
+numpy>=1.24.0

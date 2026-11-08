@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "author": "Thầy Thuấn Phan",
+  "project": "AI Math Visual Video Pipeline",
+  "curriculum": "Kết nối tri thức với cuộc sống",
+  "lessons": [
+    {
+      "id": "toan6_bai1",
+      "grade": "Toán 6",
+      "chapter": "Chương I: Tập hợp các số tự nhiên",
+      "lesson_title": "Bài 1: Tập hợp - Phần tử của tập hợp",
+      "output_filename": "Toan6_Bai1_TapHop_PhanTu.mp4",
+      "voice": "vi-VN-NamMinhNeural",
+      "speech_rate": "+0%",
+      "theme": "modern_dark",
+      "scenes": [
+        {
+          "scene_id": "intro",
+          "type": "intro",
+          "teacher_name": "Thầy Thuấn Phan",
+          "channel_title": "HỌC TOÁN CÙNG THẦY THUẤN PHAN",
+          "subject_title": "TOÁN 6 • KẾT NỐI TRI THỨC VỚI CUỘC SỐNG",
+          "lesson_name": "BÀI 1: TẬP HỢP",
+          "lesson_sub": "Khái niệm tập hợp & Phần tử của tập hợp",
+          "voiceover": "Chào mừng các em học sinh đến với chuỗi bài giảng trực quan môn Toán cùng thầy Thuấn Phan! Trong video hôm nay, chúng ta sẽ cùng khám phá một khái niệm nền tảng vô cùng thú vị của chương trình Toán lớp 6: Bài 1, Tập hợp và phần tử của tập hợp."
+        },
+        {
+          "scene_id": "venn_visual",
+          "type": "venn_diagram",
+          "title": "TRỰC QUAN HÓA: SƠ ĐỒ VEN & PHẦN TỬ",
+          "set_name": "A",
+          "set_meaning": "Tập hợp các số tự nhiên nhỏ hơn 5",
+          "elements_inside": ["0", "1", "2", "3", "4"],
+          "check_belong": {
+            "element": "3",
+            "symbol": "∈",
+            "statement": "3 ∈ A (3 thuộc A)"
+          },
+          "check_not_belong": {
+            "element": "5",
+            "symbol": "∉",
+            "statement": "5 ∉ A (5 không thuộc A)"
+          },
+          "roster_notation": "A = { 0 ; 1 ; 2 ; 3 ; 4 }",
+          "voiceover": "Để hình dung rõ nhất, chúng ta cùng quan sát tập hợp A gồm các số tự nhiên nhỏ hơn 5. Ta dùng một đường cong khép kín gọi là sơ đồ Ven để bao quanh các phần tử: 0, 1, 2, 3 và 4. Vì số 3 nằm trọn vẹn bên trong vòng tròn, ta nói: 3 thuộc A, ký hiệu là 3 thuộc A. Còn số 5 nằm hoàn toàn bên ngoài, ta nói: 5 không thuộc A, ký hiệu là 5 không thuộc A."
+        },
+        {
+          "scene_id": "summary",
+          "type": "summary",
+          "title": "KIẾN THỨC TRỌNG TÂM CẦN GHI NHỚ",
+          "rules": [
+            "1. Tên tập hợp: Được viết bằng chữ cái in hoa (A, B, C, X, Y...)",
+            "2. Cách viết: Liệt kê các phần tử trong cặp dấu ngoặc nhọn { }",
+            "3. Phân cách: Các phần tử ngăn cách nhau bởi dấu chấm phẩy (;)",
+            "4. Tính duy nhất: Mỗi phần tử chỉ được liệt kê một lần duy nhất",
+            "5. Ký hiệu chuẩn: a ∈ A (a thuộc A) | b ∉ A (b không thuộc A)"
+          ],
+          "voiceover": "Các em hãy ghi nhớ 5 quy tắc vàng: Tên tập hợp luôn viết bằng chữ cái in hoa. Các phần tử đặt trong cặp dấu ngoặc nhọn, ngăn cách bằng dấu chấm phẩy. Mỗi phần tử chỉ liệt kê một lần duy nhất. Và hãy luôn sử dụng đúng ký hiệu: thuộc hoặc không thuộc nhé!"
+        }
+      ]
+    },
+    {
+      "id": "toan6_bai18",
+      "grade": "Toán 6",
+      "chapter": "Chương IV: Một số hình phẳng trong thực tiễn",
+      "lesson_title": "Bài 18: Hình tam giác đều - Hình vuông - Hình lục giác đều",
+      "output_filename": "Toan6_Bai18_HinhHocCoBan.mp4",
+      "voice": "vi-VN-NamMinhNeural",
+      "speech_rate": "+0%",
+      "theme": "modern_dark",
+      "scenes": [
+        {
+          "scene_id": "intro",
+          "type": "intro",
+          "teacher_name": "Thầy Thuấn Phan",
+          "channel_title": "HỌC TOÁN CÙNG THẦY THUẤN PHAN",
+          "subject_title": "TOÁN 6 • KẾT NỐI TRI THỨC VỚI CUỘC SỐNG",
+          "lesson_name": "BÀI 18: CÁC HÌNH HỌC ĐỀU",
+          "lesson_sub": "Tam giác đều • Hình vuông • Lục giác đều",
+          "voiceover": "Chào các em! Trong bài học này, thầy sẽ cùng các em khám phá vẻ đẹp đối xứng hoàn hảo của ba hình học quen thuộc nhất: hình tam giác đều, hình vuông và hình lục giác đều."
+        },
+        {
+          "scene_id": "geometry_visual",
+          "type": "geometry_shapes",
+          "title": "TRỰC QUAN HÓA: BA HÌNH PHẲNG ĐỀU",
+          "shapes": [
+            { "name": "Tam giác đều", "sides": 3, "color": "#38bdf8", "desc": "3 cạnh bằng nhau, 3 góc bằng 60°" },
+            { "name": "Hình vuông", "sides": 4, "color": "#34d399", "desc": "4 cạnh bằng nhau, 4 góc vuông 90°" },
+            { "name": "Lục giác đều", "sides": 6, "color": "#fbbf24", "desc": "6 cạnh bằng nhau, 6 góc bằng 120°" }
+          ],
+          "voiceover": "Hãy quan sát: Tam giác đều có ba cạnh bằng nhau và ba góc bằng nhau. Hình vuông có bốn cạnh bằng nhau và bốn góc vuông. Còn hình lục giác đều được ghép từ sáu tam giác đều bằng nhau, tạo nên kết cấu tổ ong vô cùng bền vững trong tự nhiên."
+        },
+        {
+          "scene_id": "summary",
+          "type": "summary",
+          "title": "TỔNG KẾT HÌNH HỌC ĐỀU",
+          "rules": [
+            "1. Tam giác đều: 3 đỉnh, 3 cạnh bằng nhau, 3 góc đỉnh bằng nhau",
+            "2. Hình vuông: 4 đỉnh, 4 cạnh bằng nhau, 4 góc vuông, 2 đường chéo bằng nhau",
+            "3. Lục giác đều: 6 đỉnh, 6 cạnh bằng nhau, 6 góc bằng nhau, 3 đường chéo chính bằng nhau"
+          ],
+          "voiceover": "Hãy vẽ lại và ghi nhớ các đặc điểm nhận dạng quan trọng của ba hình phẳng này để làm bài tập thật tự tin nhé!"
+        }
+      ]
+    }
+  ]
+}
