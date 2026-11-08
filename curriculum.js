@@ -21,13 +21,15 @@ const CURRICULUM_KNTT = {
           "Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên"
         ],
         lessonVideos: {
-          "Bài 1: Tập hợp": {
-            videoId: "M7lc1UVf-VE",
-            title: "Toán 6 - Bài 1: Tập hợp (Kết nối tri thức)",
-            duration: "18:25",
-            channel: "Học Toán Cùng Thầy Thuận",
-            description: "Khái niệm tập hợp, phần tử thuộc / không thuộc tập hợp, cách mô tả tập hợp và hướng dẫn giải bài tập SGK."
-          },
+      "Bài 1: Tập hợp": {
+        "type": "ai_video",
+        "videoUrl": "/videos/Toan6_Bai1_TietDay_Full_v2.mp4?v=2",
+        "title": "Toán 6 - Bài 1: Tiết dạy toàn diện Tập hợp (Chuẩn sư phạm 5 phần)",
+        "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+        "duration": "05:22",
+        "badge": "✨ TIẾT DẠY TOÀN DIỆN THẦY THUẤN",
+        "description": "Video tiết học hoàn chỉnh gồm 5 phần chuẩn sư phạm Bộ GD&ĐT: (1) Khởi động thực tế 4 tình huống, (2) Hình thành 4 khối kiến thức trọng tâm, (3) 4 Ví dụ minh họa phân hóa từ NB đến VDC, (4) Cảnh báo 5 bẫy đề thi kinh điển, (5) Sơ đồ tư duy 4 nhánh & dặn dò BTVN."
+      },
           "Bài 2: Cách ghi số tự nhiên": {
             videoId: "2vjPBrBU-TM",
             title: "Toán 6 - Bài 2: Cách ghi số tự nhiên",
@@ -516,12 +518,12 @@ const AUTHENTIC_LESSON_VIDEOS = {
     "c1_6": {
       "Bài 1: Tập hợp": {
         "type": "ai_video",
-        "videoUrl": "videos/Toan6_TietDay_Bai1_HoanChinh.mp4",
-        "title": "Toán 6 - Bài 1: Tập hợp (Video Trực Quan AI)",
+        "videoUrl": "/videos/Toan6_Bai1_TietDay_Full_v2.mp4?v=2",
+        "title": "Toán 6 - Bài 1: Tiết dạy toàn diện Tập hợp (Chuẩn sư phạm 5 phần)",
         "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
-        "duration": "00:57",
-        "badge": "✨ AI ĐỘC QUYỀN THẦY THUẤN",
-        "description": "Video đồ họa toán học trực quan độc quyền do AI sinh: Sơ đồ Ven động, các phần tử 0, 1, 2, 3, 4 di chuyển vào tập hợp, phân biệt phần tử thuộc (3 ∈ A) và không thuộc (5 ∉ A) kèm 5 quy tắc ghi nhớ trọng tâm chuẩn SGK Kết nối tri thức."
+        "duration": "05:22",
+        "badge": "✨ TIẾT DẠY TOÀN DIỆN THẦY THUẤN",
+        "description": "Video tiết học hoàn chỉnh gồm 5 phần chuẩn sư phạm Bộ GD&ĐT: (1) Khởi động thực tế 4 tình huống, (2) Hình thành 4 khối kiến thức trọng tâm, (3) 4 Ví dụ minh họa phân hóa từ NB đến VDC, (4) Cảnh báo 5 bẫy đề thi kinh điển, (5) Sơ đồ tư duy 4 nhánh & dặn dò BTVN."
       },
       "Bài 2: Cách ghi số tự nhiên": {
         "videoId": "ov_6dV59DSQ",
