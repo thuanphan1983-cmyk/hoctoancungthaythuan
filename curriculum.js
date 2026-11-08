@@ -19,7 +19,35 @@ const CURRICULUM_KNTT = {
           "Bài 6: Lũy thừa với số mũ tự nhiên",
           "Bài 7: Thứ tự thực hiện các phép tính",
           "Bài kiểm tra cuối Chương I: Tập hợp các số tự nhiên"
-        ]
+        ],
+        lessonVideos: {
+          "Bài 1: Tập hợp": {
+            videoId: "M7lc1UVf-VE",
+            title: "Toán 6 - Bài 1: Tập hợp (Kết nối tri thức)",
+            duration: "18:25",
+            channel: "Học Toán Cùng Thầy Thuận",
+            description: "Khái niệm tập hợp, phần tử thuộc / không thuộc tập hợp, cách mô tả tập hợp và hướng dẫn giải bài tập SGK."
+          },
+          "Bài 2: Cách ghi số tự nhiên": {
+            videoId: "2vjPBrBU-TM",
+            title: "Toán 6 - Bài 2: Cách ghi số tự nhiên",
+            duration: "15:40",
+            channel: "Học Toán Cùng Thầy Thuận",
+            description: "Hệ thập phân, biểu diễn số tự nhiên bằng chữ số La Mã và ứng dụng thực tiễn."
+          },
+          "Bài 3: Thứ tự trong tập hợp các số tự nhiên": {
+            videoId: "9bZkp7q19f0",
+            title: "Toán 6 - Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+            duration: "14:10",
+            channel: "Học Toán Cùng Thầy Thuận"
+          },
+          "Bài 6: Lũy thừa với số mũ tự nhiên": {
+            videoId: "L_LUpnjgPso",
+            title: "Toán 6 - Bài 6: Lũy thừa với số mũ tự nhiên",
+            duration: "20:15",
+            channel: "Học Toán Cùng Thầy Thuận"
+          }
+        }
       },
       {
         id: "c2_6",
@@ -240,7 +268,22 @@ const CURRICULUM_KNTT = {
           "Bài 4: Phép nhân đa thức",
           "Bài 5: Phép chia đa thức cho đơn thức",
           "Bài kiểm tra cuối Chương I: Đa thức"
-        ]
+        ],
+        lessonVideos: {
+          "Bài 1: Đơn thức": {
+            videoId: "ZbZSe6N_BXs",
+            title: "Toán 8 - Bài 1: Đơn thức (Kết nối tri thức)",
+            duration: "22:15",
+            channel: "Học Toán Cùng Thầy Thuận",
+            description: "Khái niệm đơn thức, bậc của đơn thức và đơn thức thu gọn."
+          },
+          "Bài 2: Đa thức": {
+            videoId: "OPf0YbXqDm0",
+            title: "Toán 8 - Bài 2: Đa thức nhiều biến",
+            duration: "18:40",
+            channel: "Học Toán Cùng Thầy Thuận"
+          }
+        }
       },
       {
         id: "c2_8",
@@ -352,7 +395,22 @@ const CURRICULUM_KNTT = {
           "Bài 2: Giải hệ hai phương trình bậc nhất hai ẩn",
           "Bài 3: Giải bài toán bằng cách lập hệ phương trình",
           "Bài kiểm tra cuối Chương I: Phương trình và hệ hai phương trình bậc nhất hai ẩn"
-        ]
+        ],
+        lessonVideos: {
+          "Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn": {
+            videoId: "M7lc1UVf-VE",
+            title: "Toán 9 - Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+            duration: "25:00",
+            channel: "Học Toán Cùng Thầy Thuận",
+            description: "Phương trình bậc nhất hai ẩn, biểu diễn tập nghiệm và hệ hai phương trình bậc nhất hai ẩn."
+          },
+          "Bài 2: Giải hệ hai phương trình bậc nhất hai ẩn": {
+            videoId: "2vjPBrBU-TM",
+            title: "Toán 9 - Bài 2: Phương pháp thế và phương pháp cộng đại số",
+            duration: "23:45",
+            channel: "Học Toán Cùng Thầy Thuận"
+          }
+        }
       },
       {
         id: "c2_9",

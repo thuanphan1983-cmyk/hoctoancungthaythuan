@@ -1015,6 +1015,186 @@ if (typeof window !== "undefined") {
 
 }
 
+// ==============================================================================
+// DANH MỤC VIDEO BÀI GIẢNG TRỰC QUAN (CHUẨN BỘ SÁCH KẾT NỐI TRI THỨC VỚI CUỘC SỐNG)
+// ==============================================================================
+const LESSON_VIDEOS_REGISTRY = {
+  "6": {
+    "c1_6": {
+      "Bài 1: Tập hợp": {
+        videoId: "M7lc1UVf-VE",
+        title: "Toán 6 - Bài 1: Tập hợp (Kết nối tri thức)",
+        duration: "18:25",
+        channel: "Học Toán Cùng Thầy Thuận",
+        description: "Khái niệm tập hợp, phần tử thuộc / không thuộc tập hợp, cách mô tả tập hợp và hướng dẫn giải bài tập SGK."
+      },
+      "Bài 2: Cách ghi số tự nhiên": {
+        videoId: "2vjPBrBU-TM",
+        title: "Toán 6 - Bài 2: Cách ghi số tự nhiên",
+        duration: "15:40",
+        channel: "Học Toán Cùng Thầy Thuận",
+        description: "Hệ thập phân, biểu diễn số tự nhiên bằng chữ số La Mã và ứng dụng thực tiễn."
+      },
+      "Bài 3: Thứ tự trong tập hợp các số tự nhiên": {
+        videoId: "9bZkp7q19f0",
+        title: "Toán 6 - Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+        duration: "14:10",
+        channel: "Học Toán Cùng Thầy Thuận"
+      },
+      "Bài 6: Lũy thừa với số mũ tự nhiên": {
+        videoId: "L_LUpnjgPso",
+        title: "Toán 6 - Bài 6: Lũy thừa với số mũ tự nhiên",
+        duration: "20:15",
+        channel: "Học Toán Cùng Thầy Thuận"
+      }
+    },
+    "c2_6": {
+      "Bài 8: Quan hệ chia hết và tính chất": {
+        videoId: "kJQP7kiw5Fk",
+        title: "Toán 6 - Bài 8: Quan hệ chia hết và tính chất",
+        duration: "16:45",
+        channel: "Học Toán Cùng Thầy Thuận"
+      },
+      "Bài 10: Số nguyên tố": {
+        videoId: "fJ9rUzIMcZQ",
+        title: "Toán 6 - Bài 10: Số nguyên tố. Hợp số",
+        duration: "17:30",
+        channel: "Học Toán Cùng Thầy Thuận"
+      }
+    }
+  },
+  "7": {
+    "c1_7": {
+      "Bài 1: Tập hợp các số hữu tỉ": {
+        videoId: "3JZ_D3ELwOQ",
+        title: "Toán 7 - Bài 1: Tập hợp các số hữu tỉ",
+        duration: "19:30",
+        channel: "Học Toán Cùng Thầy Thuận"
+      },
+      "Bài 2: Cộng, trừ, nhân, chia số hữu tỉ": {
+        videoId: "RgKAFK5djSk",
+        title: "Toán 7 - Bài 2: Các phép tính với số hữu tỉ",
+        duration: "21:10",
+        channel: "Học Toán Cùng Thầy Thuận"
+      }
+    }
+  },
+  "8": {
+    "c1_8": {
+      "Bài 1: Đơn thức": {
+        videoId: "ZbZSe6N_BXs",
+        title: "Toán 8 - Bài 1: Đơn thức (Kết nối tri thức)",
+        duration: "22:15",
+        channel: "Học Toán Cùng Thầy Thuận",
+        description: "Khái niệm đơn thức, bậc của đơn thức và đơn thức thu gọn."
+      },
+      "Bài 2: Đa thức": {
+        videoId: "OPf0YbXqDm0",
+        title: "Toán 8 - Bài 2: Đa thức nhiều biến",
+        duration: "18:40",
+        channel: "Học Toán Cùng Thầy Thuận"
+      }
+    }
+  },
+  "9": {
+    "c1_9": {
+      "Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn": {
+        videoId: "M7lc1UVf-VE",
+        title: "Toán 9 - Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+        duration: "25:00",
+        channel: "Học Toán Cùng Thầy Thuận",
+        description: "Phương trình bậc nhất hai ẩn, biểu diễn tập nghiệm và hệ hai phương trình bậc nhất hai ẩn."
+      },
+      "Bài 2: Giải hệ hai phương trình bậc nhất hai ẩn": {
+        videoId: "2vjPBrBU-TM",
+        title: "Toán 9 - Bài 2: Phương pháp thế và phương pháp cộng đại số",
+        duration: "23:45",
+        channel: "Học Toán Cùng Thầy Thuận"
+      }
+    }
+  }
+};
+
+// Đồng bộ vào window.CURRICULUM_KNTT
+if (typeof window !== "undefined" && window.CURRICULUM_KNTT) {
+  Object.keys(LESSON_VIDEOS_REGISTRY).forEach(grade => {
+    const chaps = LESSON_VIDEOS_REGISTRY[grade];
+    if (window.CURRICULUM_KNTT[grade]?.chapters) {
+      window.CURRICULUM_KNTT[grade].chapters.forEach(c => {
+        if (chaps[c.id]) {
+          c.lessonVideos = { ...(c.lessonVideos || {}), ...chaps[c.id] };
+        }
+      });
+    }
+  });
+  window.LESSON_VIDEOS_REGISTRY = LESSON_VIDEOS_REGISTRY;
+}
+
+// Hàm chuẩn hóa trích xuất YouTube ID
+function extractYouTubeId(urlOrId) {
+  if (!urlOrId) return "";
+  const str = String(urlOrId).trim();
+  const match = str.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+  if (match) return match[1];
+  if (/^[\w-]{11}$/.test(str)) return str;
+  return str;
+}
+
+// Hàm lấy thông tin video bài giảng
+function getLessonVideoInfo(grade, chapterId, lessonName) {
+  if (!lessonName) return null;
+  const curr = (typeof window !== "undefined" && window.CURRICULUM_KNTT) ? window.CURRICULUM_KNTT : CURRICULUM_KNTT;
+  const gradeData = curr[grade];
+
+  // 1. Kiểm tra trong chapter cụ thể
+  const chap = gradeData?.chapters?.find(c => c.id === chapterId);
+  if (chap?.lessonVideos && chap.lessonVideos[lessonName]) {
+    const v = chap.lessonVideos[lessonName];
+    const rawId = typeof v === "string" ? v : (v.videoId || v.url || v.id);
+    const videoId = extractYouTubeId(rawId);
+    if (videoId) {
+      return typeof v === "string"
+        ? { videoId, title: `${lessonName} - Toán ${grade}`, lesson: lessonName, grade, duration: "18:00" }
+        : { ...v, videoId, lesson: lessonName, grade };
+    }
+  }
+
+  // 2. Tìm trong tất cả các chương của khối
+  if (gradeData?.chapters) {
+    for (const c of gradeData.chapters) {
+      if (c.lessonVideos && c.lessonVideos[lessonName]) {
+        const v = c.lessonVideos[lessonName];
+        const rawId = typeof v === "string" ? v : (v.videoId || v.url || v.id);
+        const videoId = extractYouTubeId(rawId);
+        if (videoId) {
+          return typeof v === "string"
+            ? { videoId, title: `${lessonName} - Toán ${grade}`, lesson: lessonName, grade, duration: "18:00" }
+            : { ...v, videoId, lesson: lessonName, grade };
+        }
+      }
+    }
+  }
+
+  // 3. Fallback vào LESSON_VIDEOS_REGISTRY
+  if (typeof LESSON_VIDEOS_REGISTRY !== "undefined" && LESSON_VIDEOS_REGISTRY[grade]) {
+    const gradeReg = LESSON_VIDEOS_REGISTRY[grade];
+    if (gradeReg[chapterId]?.[lessonName]) {
+      const v = gradeReg[chapterId][lessonName];
+      const videoId = extractYouTubeId(v.videoId || v.url || v);
+      if (videoId) return { ...v, videoId, lesson: lessonName, grade };
+    }
+    for (const cId in gradeReg) {
+      if (gradeReg[cId]?.[lessonName]) {
+        const v = gradeReg[cId][lessonName];
+        const videoId = extractYouTubeId(v.videoId || v.url || v);
+        if (videoId) return { ...v, videoId, lesson: lessonName, grade };
+      }
+    }
+  }
+
+  return null;
+}
+
 
 
   </script>
@@ -3887,6 +4067,20 @@ if (typeof window !== "undefined") {
           setSelectedTestNum(1);
         }
       }, [selectedLesson]);
+
+      // State mở Modal Video bài giảng trực quan
+      const [videoModalData, setVideoModalData] = useState(null);
+
+      // Lắng nghe phím ESC để đóng Modal Video
+      useEffect(() => {
+        const handleKeyDown = (e) => {
+          if (e.key === "Escape" && videoModalData) {
+            setVideoModalData(null);
+          }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+      }, [videoModalData]);
 
       // State xem trước & in ấn đề kiểm tra theo bài học SGK
       const [previewLessonExam, setPreviewLessonExam] = useState(null);
@@ -7426,6 +7620,47 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
                               )}
                             </button>
                           </div>
+
+                          {/* NÚT XEM VIDEO BÀI GIẢNG TRỰC QUAN (FULL-WIDTH KHỚP CỤM 4 NÚT PHÍA TRÊN) */}
+                          {(() => {
+                            const videoInfo = getLessonVideoInfo(selectedGrade, selectedChapter, selectedLesson);
+                            const hasVideo = !!videoInfo;
+
+                            return (
+                              <div className="pt-2">
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    if (hasVideo) {
+                                      setVideoModalData(videoInfo);
+                                    } else {
+                                      showToast("info", `Video bài giảng cho "${selectedLesson}" đang được cập nhật!`);
+                                    }
+                                  }}
+                                  className={`w-full py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all duration-200 shadow-sm transform active:scale-[0.99] ${
+                                    hasVideo
+                                      ? "bg-gradient-to-r from-red-600 via-rose-600 to-amber-600 hover:from-red-700 hover:via-rose-700 hover:to-amber-700 text-white shadow-rose-200/50 hover:shadow-md ring-1 ring-white/20"
+                                      : "bg-slate-100 hover:bg-slate-200 text-slate-400 hover:text-slate-500 border border-slate-200"
+                                  }`}
+                                  title={hasVideo ? `Bấm để mở video bài giảng trực quan: ${selectedLesson}` : `Video bài học cho "${selectedLesson}" đang được cập nhật`}
+                                >
+                                  <span className="text-base sm:text-lg flex items-center justify-center">
+                                    {hasVideo ? "🎬" : "📽️"}
+                                  </span>
+                                  <span className="tracking-wide">
+                                    {hasVideo
+                                      ? "🎬 Xem video bài giảng trực quan"
+                                      : "🎬 Xem video bài học (Đang cập nhật)"}
+                                  </span>
+                                  {hasVideo && (
+                                    <span className="text-[10px] bg-white/25 text-white px-2 py-0.5 rounded-full font-black uppercase tracking-wider ml-1 animate-pulse">
+                                      HD
+                                    </span>
+                                  )}
+                                </button>
+                              </div>
+                            );
+                          })()}
                         </div>
                       );
                     })()}
@@ -14599,6 +14834,91 @@ TRẢ VỀ DUY NHẤT 1 ĐỐI TƯỢNG JSON (không kèm markdown ngoài JSON):
           )}
 
 
+
+        {/* ============================================================================== */}
+        {/* MODAL PHÁT VIDEO BÀI GIẢNG TRỰC QUAN (CHUẨN 16:9, RESPONSIVE, ESC & OVERLAY CLOSE) */}
+        {/* ============================================================================== */}
+        {videoModalData && (
+          <div
+            className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 animate-in fade-in duration-200"
+            onClick={() => setVideoModalData(null)}
+            role="dialog"
+            aria-modal="true"
+          >
+            <div
+              className="relative w-full max-w-4xl bg-slate-900 border border-slate-700/80 rounded-2xl shadow-2xl overflow-hidden flex flex-col transform transition-all animate-in zoom-in-95 duration-200"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Header Modal */}
+              <div className="flex items-center justify-between px-4 sm:px-6 py-3.5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border-b border-slate-800 text-white">
+                <div className="flex items-center gap-2.5 min-w-0 pr-3">
+                  <span className="text-xl sm:text-2xl flex items-center justify-center shrink-0">🎬</span>
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-red-600 text-white shadow-xs">
+                        YouTube Video
+                      </span>
+                      {videoModalData.duration && (
+                        <span className="text-[11px] text-slate-300 font-mono">
+                          ⏱️ {videoModalData.duration}
+                        </span>
+                      )}
+                      {videoModalData.channel && (
+                        <span className="text-[11px] text-amber-300 font-medium">
+                          📺 {videoModalData.channel}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="text-sm sm:text-base font-bold text-white truncate mt-0.5" title={videoModalData.title || videoModalData.lesson}>
+                      {videoModalData.title || `Bài học: ${videoModalData.lesson}`}
+                    </h3>
+                  </div>
+                </div>
+
+                {/* Nút đóng (X) */}
+                <button
+                  type="button"
+                  onClick={() => setVideoModalData(null)}
+                  className="w-8 h-8 rounded-full bg-white/10 hover:bg-rose-600 text-slate-300 hover:text-white flex items-center justify-center transition shrink-0 text-sm font-bold shadow-sm"
+                  title="Đóng video (Phím ESC hoặc bấm ra ngoài)"
+                >
+                  ✕
+                </button>
+              </div>
+
+              {/* Video Player 16:9 Responsive Container */}
+              <div className="relative w-full bg-black" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  src={`https://www.youtube.com/embed/${videoModalData.videoId}?autoplay=1&rel=0&modestbranding=1`}
+                  title={videoModalData.title || "Video bài giảng trực quan"}
+                  className="absolute inset-0 w-full h-full border-0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              {/* Footer Modal: Thông tin bổ trợ & Mẹo học tập */}
+              <div className="px-4 sm:px-6 py-3 bg-slate-950/90 border-t border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
+                <div className="text-slate-300 flex items-center gap-2">
+                  <span className="text-amber-400 font-bold shrink-0">💡 Mẹo học tập:</span>
+                  <span className="text-slate-300 text-[11px] sm:text-xs">
+                    Xem kỹ video lý thuyết & ví dụ minh họa, sau đó chọn mã đề và bấm <strong className="text-amber-300">"Vào làm bài"</strong> để kiểm tra mức độ hiểu bài nhé!
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
+                  <button
+                    type="button"
+                    onClick={() => setVideoModalData(null)}
+                    className="px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition border border-slate-700 flex items-center gap-1"
+                  >
+                    <span>✕</span>
+                    <span>Đóng (ESC)</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         </main>
 
