@@ -516,7 +516,7 @@ const AUTHENTIC_LESSON_VIDEOS = {
     "c1_6": {
       "Bài 1: Tập hợp": {
         "type": "ai_video",
-        "videoUrl": "videos/Toan6_Bai1_TapHop_PhanTu.mp4",
+        "videoUrl": "videos/Toan6_TietDay_Bai1_HoanChinh.mp4",
         "title": "Toán 6 - Bài 1: Tập hợp (Video Trực Quan AI)",
         "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
         "duration": "00:57",
@@ -860,3 +860,4 @@ if (typeof window !== "undefined") {
   window.CURRICULUM_KNTT = CURRICULUM_KNTT;
   window.AUTHENTIC_LESSON_VIDEOS = AUTHENTIC_LESSON_VIDEOS;
 }
+

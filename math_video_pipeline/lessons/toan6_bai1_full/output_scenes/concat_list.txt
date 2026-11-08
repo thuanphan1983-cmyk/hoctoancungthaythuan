@@ -1,0 +1,5 @@
+file 'C:/Users/May Tinh Chau A/.gemini/antigravity/scratch/toan-thcs-kntt/math_video_pipeline/lessons/toan6_bai1_full/output_scenes/scene1_synced.mp4'
+file 'C:/Users/May Tinh Chau A/.gemini/antigravity/scratch/toan-thcs-kntt/math_video_pipeline/lessons/toan6_bai1_full/output_scenes/scene2_synced.mp4'
+file 'C:/Users/May Tinh Chau A/.gemini/antigravity/scratch/toan-thcs-kntt/math_video_pipeline/lessons/toan6_bai1_full/output_scenes/scene3_synced.mp4'
+file 'C:/Users/May Tinh Chau A/.gemini/antigravity/scratch/toan-thcs-kntt/math_video_pipeline/lessons/toan6_bai1_full/output_scenes/scene4_synced.mp4'
+file 'C:/Users/May Tinh Chau A/.gemini/antigravity/scratch/toan-thcs-kntt/math_video_pipeline/lessons/toan6_bai1_full/output_scenes/scene5_synced.mp4'
