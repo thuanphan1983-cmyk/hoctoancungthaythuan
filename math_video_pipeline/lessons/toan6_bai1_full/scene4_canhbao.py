@@ -1,14 +1,14 @@
 """
-SCENE 4: LỖI SAI & CẢNH BÁO BẪY THI
+SCENE 4: CẢNH BÁO 4 LỖI SAI KINH ĐIỂN KHI THI (CHUẨN CUỐN CHIẾU 15-20 PHÚT)
 Bài 1: Tập hợp - Phần tử của tập hợp (Toán 6 - Kết nối tri thức)
 Giáo viên: Thầy Thuấn Phan
-Thời lượng đồng bộ audio: ~75.12s
+Quy chuẩn: 4 slide bẫy đề thi độc lập, so sánh ❌ SAI vs ✔️ ĐÚNG, Font size >= 28
 """
 
 import os
 import sys
+import json
 from manim import *
-from mutagen.mp3 import MP3
 
 if sys.platform == "win32":
     try:
@@ -33,73 +33,120 @@ class Scene4CanhBao(Scene):
     def construct(self):
         self.camera.background_color = COLOR_BG
 
-        cur_dir = os.path.dirname(os.path.abspath(__file__))
-        audio_file = os.path.join(cur_dir, "audio", "scene4_voice.mp3")
-        target_duration = 75.12
-        if os.path.exists(audio_file):
+        timing_file = os.path.join(os.path.dirname(__file__), "audio", "timing_data.json")
+        timing = {}
+        if os.path.exists(timing_file):
             try:
-                target_duration = float(MP3(audio_file).info.length)
+                with open(timing_file, "r", encoding="utf-8") as f:
+                    timing = json.load(f)
             except Exception:
                 pass
 
-        header = Text("PHẦN 4: 5 SAI LẦM PHỔ BIẾN & CẢNH BÁO BẪY THI", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_ROSE)
-        header_line = Line(LEFT * 5.5, RIGHT * 5.5, stroke_width=1.5, color=COLOR_ROSE)
-        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).to_edge(UP, buff=0.4)
-        self.play(FadeIn(header_group), run_time=1.0)
-        self.wait(3.5)  # Thầy dặn dò lưu ý 5 lỗi
+        header = Text("PHẦN 4: 4 LỖI SAI KINH ĐIỂN KHI LÀM BÀI THI", font=FONT_FAMILY, font_size=34, weight=BOLD, color=COLOR_ROSE)
+        header_line = Line(LEFT * 5.8, RIGHT * 5.8, stroke_width=2, color=COLOR_ROSE)
+        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).move_to([0, 3.25, 0])
+        self.play(FadeIn(header_group, shift=DOWN), run_time=1.0)
 
         # -------------------------------------------------------------
-        # 3 LỖI ĐẦU TIÊN (3.5s -> 40s)
+        # TRAP 1: ĐẶT TÊN BẰNG CHỮ THƯỜNG
         # -------------------------------------------------------------
-        def create_trap_row(num_str, title_str, wrong_str, right_str):
-            num_t = Text(num_str, font=FONT_FAMILY, font_size=17, weight=BOLD, color=COLOR_AMBER)
-            title_t = Text(title_str, font=FONT_FAMILY, font_size=16, color=COLOR_TEXT_MAIN)
-            head_grp = VGroup(num_t, title_t).arrange(RIGHT, buff=0.2)
-            
-            w_grp = VGroup(Text("❌ SAI: ", font=FONT_FAMILY, font_size=15, weight=BOLD, color=COLOR_ROSE),
-                           Text(wrong_str, font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MUTED)).arrange(RIGHT, buff=0.1)
-            r_grp = VGroup(Text("✔️ ĐÚNG: ", font=FONT_FAMILY, font_size=15, weight=BOLD, color=COLOR_EMERALD),
-                           Text(right_str, font=FONT_FAMILY, font_size=15, weight=BOLD, color=COLOR_CYAN)).arrange(RIGHT, buff=0.1)
-            comp_grp = VGroup(w_grp, r_grp).arrange(RIGHT, buff=0.8)
-            
-            box = RoundedRectangle(corner_radius=0.2, width=12.0, height=1.5, stroke_color=COLOR_ROSE, stroke_width=1.2, fill_color=COLOR_CARD, fill_opacity=0.9)
-            content = VGroup(head_grp, comp_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
-            return VGroup(box, content)
+        t_t1 = timing.get("scene4_trap1", 35.0)
+        c1_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_ROSE, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        t1_head = Text("BẪY 1: ĐẶT TÊN TẬP HỢP BẰNG CHỮ THƯỜNG", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        w1 = Text("❌ SAI:   a = { 1; 2; 3 }    (Dùng chữ in thường là vi phạm quy ước)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
+        r1 = Text("✔️ ĐÚNG:  A = { 1; 2; 3 }    (Bắt buộc dùng chữ cái IN HOA)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        note1 = Text("• Lưu ý: Chỉ dùng các chữ in hoa như A, B, C, M, N, X, Y...", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        
+        c1_content = VGroup(t1_head, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_ROSE), w1, r1, note1).arrange(DOWN, aligned_edge=LEFT, buff=0.35)
+        c1_content.move_to(c1_box.get_center())
+        card1 = VGroup(c1_box, c1_content)
 
-        row1 = create_trap_row("1.", "Đặt tên tập hợp bằng chữ thường:", "a = { 1; 2 } (Sai quy ước)", "A = { 1; 2 } (Bắt buộc chữ in hoa)")
-        row2 = create_trap_row("2.", "Lặp lại phần tử trong ngoặc nhọn:", "{ N; H; A; T; R; A; N; G } (Lặp chữ A, N)", "{ N; H; A; T; R; G } (Mỗi phần tử viết 1 lần)")
-        row3 = create_trap_row("3.", "Dùng dấu phẩy thay dấu chấm phẩy giữa các số:", "{ 1, 2 } (Người chấm đọc nhầm là số thập phân 1,2)", "{ 1; 2 } (Bắt buộc dùng dấu chấm phẩy ;)")
+        self.play(FadeIn(c1_box, scale=0.96), run_time=0.8)
+        self.play(Write(t1_head), run_time=1.0)
+        self.play(FadeIn(w1, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(r1, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(note1), run_time=0.8)
 
-        t_group1 = VGroup(row1, row2, row3).arrange(DOWN, buff=0.25).next_to(header_group, DOWN, buff=0.3)
-        self.play(FadeIn(row1, shift=DOWN), run_time=1.0)
-        self.wait(10.0)
-        self.play(FadeIn(row2, shift=DOWN), run_time=1.0)
-        self.wait(10.0)
-        self.play(FadeIn(row3, shift=DOWN), run_time=1.0)
-        self.wait(10.0)
+        rem_t1 = max(1.0, t_t1 - 4.2)
+        self.wait(rem_t1)
+        self.play(FadeOut(card1, shift=UP*0.3), run_time=0.8)
 
         # -------------------------------------------------------------
-        # 2 LỖI TIẾP THEO: NGOẶC VÀ ĐIỀU KIỆN BIÊN (40s -> 75s)
+        # TRAP 2: LẶP LẠI PHẦN TỬ TRONG NGOẶC NHỌN
         # -------------------------------------------------------------
-        self.play(FadeOut(t_group1), run_time=1.0)
+        t_t2 = timing.get("scene4_trap2", 36.0)
+        c2_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_AMBER, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        t2_head = Text("BẪY 2: LẶP LẠI PHẦN TỬ TRONG NGOẶC NHỌN", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        w2 = Text("❌ SAI:   E = { N; H; A; T; R; A; N; G }   (Lặp chữ A và chữ N)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
+        r2 = Text("✔️ ĐÚNG:  E = { N; H; A; T; R; G }   (Mỗi phần tử viết đúng 1 lần)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        note2 = Text("• Quy tắc bất biến: Dù phần tử xuất hiện bao nhiêu lần trong từ,", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        note2_2 = Text("  khi viết vào tập hợp chỉ được ghi DUY NHẤT MỘT LẦN!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        
+        c2_content = VGroup(t2_head, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_AMBER), w2, r2, note2, note2_2).arrange(DOWN, aligned_edge=LEFT, buff=0.3)
+        c2_content.move_to(c2_box.get_center())
+        card2 = VGroup(c2_box, c2_content)
 
-        row4 = create_trap_row("4.", "Dùng sai loại dấu ngoặc:", "( 1; 2; 3 )  hoặc  [ 1; 2; 3 ]", "{ 1; 2; 3 } (Chỉ dùng duy nhất ngoặc nhọn { })")
-        row5 = create_trap_row("5.", "Bẫy điều kiện biên (dấu < và ≤):", "x < 5 mà vẫn ghi số 5 vào tập hợp", "x < 5 chỉ lấy đến 4; x ≤ 5 mới lấy số 5")
+        self.play(FadeIn(c2_box, scale=0.96), run_time=0.8)
+        self.play(Write(t2_head), run_time=1.0)
+        self.play(FadeIn(w2, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(r2, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(note2), FadeIn(note2_2), run_time=1.0)
 
-        tip_box = RoundedRectangle(corner_radius=0.2, width=12.0, height=1.6, stroke_color=COLOR_EMERALD, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.95)
-        tip_title = Text("💡 LỜI KHUYÊN CỦA THẦY THUẤN PHAN KHI LÀM BÀI:", font=FONT_FAMILY, font_size=17, weight=BOLD, color=COLOR_AMBER)
-        tip_desc = Text("Luôn đọc kỹ dấu bất đẳng thức ( < hay ≤ ) và đếm kỹ số lượng phần tử trước khi kết luận!", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        tip_group = VGroup(tip_box, VGroup(tip_title, tip_desc).arrange(DOWN, aligned_edge=LEFT, buff=0.2))
+        rem_t2 = max(1.0, t_t2 - 4.4)
+        self.wait(rem_t2)
+        self.play(FadeOut(card2, shift=UP*0.3), run_time=0.8)
 
-        t_group2 = VGroup(row4, row5, tip_group).arrange(DOWN, buff=0.25).next_to(header_group, DOWN, buff=0.3)
-        self.play(FadeIn(row4, shift=DOWN), run_time=1.0)
-        self.wait(9.0)
-        self.play(FadeIn(row5, shift=DOWN), run_time=1.0)
-        self.wait(10.0)
-        self.play(FadeIn(tip_group, scale=0.95), run_time=1.0)
+        # -------------------------------------------------------------
+        # TRAP 3: DÙNG DẤU PHẨY THAY CHO CHẤM PHẨY
+        # -------------------------------------------------------------
+        t_t3 = timing.get("scene4_trap3", 35.0)
+        c3_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        t3_head = Text("BẪY 3: DÙNG DẤU PHẨY THAY CHO CHẤM PHẨY", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_CYAN)
+        w3 = Text("❌ SAI:   { 1, 2 }    (Dễ bị đọc nhầm thành số thập phân 1,2)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
+        r3 = Text("✔️ ĐÚNG:  { 1; 2 }    (Bắt buộc dùng dấu chấm phẩy ;)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        note3 = Text("• Khi các phần tử là số: Luôn dùng dấu chấm phẩy ( ; )", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
+        note3_2 = Text("  để phân biệt rành mạch, tránh nhầm lẫn đáng tiếc!", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        
+        c3_content = VGroup(t3_head, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_CYAN), w3, r3, note3, note3_2).arrange(DOWN, aligned_edge=LEFT, buff=0.3)
+        c3_content.move_to(c3_box.get_center())
+        card3 = VGroup(c3_box, c3_content)
 
-        rem_time = max(1.0, target_duration - 68.0)
-        self.wait(rem_time)
+        self.play(FadeIn(c3_box, scale=0.96), run_time=0.8)
+        self.play(Write(t3_head), run_time=1.0)
+        self.play(FadeIn(w3, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(r3, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(note3), FadeIn(note3_2), run_time=1.0)
+
+        rem_t3 = max(1.0, t_t3 - 4.4)
+        self.wait(rem_t3)
+        self.play(FadeOut(card3, shift=UP*0.3), run_time=0.8)
+
+        # -------------------------------------------------------------
+        # TRAP 4: BẪY ĐIỀU KIỆN BIÊN BẤT ĐẲNG THỨC
+        # -------------------------------------------------------------
+        t_t4 = timing.get("scene4_trap4", 36.0)
+        c4_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_INDIGO, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        t4_head = Text("BẪY 4: ĐIỀU KIỆN BIÊN CỦA DẤU BẤT ĐẲNG THỨC", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        w4 = Text("❌ SAI:   x < 5 mà vẫn ghi số 5 vào:  { 0; 1; 2; 3; 4; 5 }", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
+        r4 = Text("✔️ ĐÚNG:  x < 5 chỉ lấy đến 4:  { 0; 1; 2; 3; 4 }", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        note4 = Text("• Chú ý: Dấu '<' không lấy số biên; Dấu '≤' mới được lấy số biên!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        
+        c4_content = VGroup(t4_head, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_INDIGO), w4, r4, note4).arrange(DOWN, aligned_edge=LEFT, buff=0.35)
+        c4_content.move_to(c4_box.get_center())
+        card4 = VGroup(c4_box, c4_content)
+
+        self.play(FadeIn(c4_box, scale=0.96), run_time=0.8)
+        self.play(Write(t4_head), run_time=1.0)
+        self.play(FadeIn(w4, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(r4, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(note4, scale=1.05), run_time=0.8)
+
+        rem_t4 = max(1.0, t_t4 - 4.2)
+        self.wait(rem_t4)
 
 
 if __name__ == "__main__":

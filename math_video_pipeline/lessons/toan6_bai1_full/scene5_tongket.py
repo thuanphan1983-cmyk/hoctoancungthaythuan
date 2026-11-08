@@ -1,14 +1,14 @@
 """
-SCENE 5: TỔNG KẾT & CỦNG CỐ
+SCENE 5: SƠ ĐỒ TƯ DUY TỔNG KẾT & DẶN DÒ BTVN (CHUẨN CUỐN CHIẾU 15-20 PHÚT)
 Bài 1: Tập hợp - Phần tử của tập hợp (Toán 6 - Kết nối tri thức)
 Giáo viên: Thầy Thuấn Phan
-Thời lượng đồng bộ audio: ~52.82s
+Quy chuẩn: 2 slide cuốn chiếu, Mindmap 4 nhánh phát sáng, Font size >= 28
 """
 
 import os
 import sys
+import json
 from manim import *
-from mutagen.mp3 import MP3
 
 if sys.platform == "win32":
     try:
@@ -33,64 +33,92 @@ class Scene5TongKet(Scene):
     def construct(self):
         self.camera.background_color = COLOR_BG
 
-        cur_dir = os.path.dirname(os.path.abspath(__file__))
-        audio_file = os.path.join(cur_dir, "audio", "scene5_voice.mp3")
-        target_duration = 52.82
-        if os.path.exists(audio_file):
+        timing_file = os.path.join(os.path.dirname(__file__), "audio", "timing_data.json")
+        timing = {}
+        if os.path.exists(timing_file):
             try:
-                target_duration = float(MP3(audio_file).info.length)
+                with open(timing_file, "r", encoding="utf-8") as f:
+                    timing = json.load(f)
             except Exception:
                 pass
 
-        header = Text("PHẦN 5: TỔNG KẾT & SƠ ĐỒ TƯ DUY TOÀN BÀI", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_CYAN)
-        header_line = Line(LEFT * 5.5, RIGHT * 5.5, stroke_width=1.5, color=COLOR_CYAN)
-        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).to_edge(UP, buff=0.4)
-        self.play(FadeIn(header_group), run_time=1.0)
-        self.wait(3.0)  # Thầy giới thiệu sơ đồ tư duy
+        header = Text("PHẦN 5: TỔNG KẾT BÀI HỌC & DẶN DÒ TỰ HỌC", font=FONT_FAMILY, font_size=34, weight=BOLD, color=COLOR_CYAN)
+        header_line = Line(LEFT * 5.8, RIGHT * 5.8, stroke_width=2, color=COLOR_CYAN)
+        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).move_to([0, 3.25, 0])
+        self.play(FadeIn(header_group, shift=DOWN), run_time=1.0)
 
         # -------------------------------------------------------------
-        # SƠ ĐỒ TƯ DUY 4 NHÁNH (3s -> 35s)
+        # SLIDE 5.1: SƠ ĐỒ TƯ DUY 4 NHÁNH
         # -------------------------------------------------------------
-        def create_branch(num_str, title_str, desc_str, border_color):
-            b = RoundedRectangle(corner_radius=0.2, width=5.8, height=1.6, stroke_color=border_color, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-            h = Text(f"Nhánh {num_str}: {title_str}", font=FONT_FAMILY, font_size=16, weight=BOLD, color=border_color)
-            d = Text(desc_str, font=FONT_FAMILY, font_size=14, color=COLOR_TEXT_MAIN)
-            c = VGroup(h, d).arrange(DOWN, aligned_edge=LEFT, buff=0.15)
-            return VGroup(b, c)
-
-        b1 = create_branch("1", "Tên & Phần tử", "Tên viết HOA (A, B, C...)\nĐối tượng bên trong là phần tử", COLOR_CYAN).move_to([-3.2, 1.3, 0])
-        b2 = create_branch("2", "2 Cách biểu diễn", "Liệt kê { 0; 1; 2; 3; 4 }\nNêu tính chất { x ∈ ℕ | x < 5 }", COLOR_AMBER).move_to([3.2, 1.3, 0])
-        b3 = create_branch("3", "2 Ký hiệu cốt lõi", "∈ (Thuộc tập hợp: 3 ∈ A)\n∉ (Không thuộc: 5 ∉ A)", COLOR_EMERALD).move_to([-3.2, -0.7, 0])
-        b4 = create_branch("4", "Sơ đồ Ven", "Đường cong khép kín (John Venn)\nĐiểm trong thuộc, điểm ngoài không thuộc", COLOR_INDIGO).move_to([3.2, -0.7, 0])
-
-        self.play(FadeIn(b1, shift=RIGHT), run_time=1.0)
-        self.wait(4.0)
-        self.play(FadeIn(b2, shift=LEFT), run_time=1.0)
-        self.wait(5.0)
-        self.play(FadeIn(b3, shift=RIGHT), run_time=1.0)
-        self.wait(4.0)
-        self.play(FadeIn(b4, shift=LEFT), run_time=1.0)
-        self.wait(6.0)
-
-        # -------------------------------------------------------------
-        # DẶN DÒ BTVN & LỜI CHÀO KẾT THÚC (35s -> 52.82s)
-        # -------------------------------------------------------------
-        mindmap_grp = VGroup(b1, b2, b3, b4)
-        self.play(FadeOut(mindmap_grp), run_time=1.0)
-
-        foot_box = RoundedRectangle(corner_radius=0.3, width=11.5, height=3.0, stroke_color=COLOR_AMBER, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95)
-        foot_t1 = Text("📝 NHIỆM VỤ VỀ NHÀ DÀNH CHO CÁC EM:", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_AMBER)
-        foot_t2 = Text("1. Xem kỹ lại video bài giảng và ghi chép sơ đồ tư duy vào vở.", font=FONT_FAMILY, font_size=16, color=COLOR_TEXT_MAIN)
-        foot_t3 = Text("2. Hoàn thành các bài tập 1.1 đến 1.5 trong Sách giáo khoa Toán 6 (KNTT).", font=FONT_FAMILY, font_size=16, color=COLOR_CYAN)
-        foot_t4 = Text("HẸN GẶP LẠI CÁC EM TRONG BÀI 2: CÁCH GHI SỐ TỰ NHIÊN!", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_EMERALD)
+        t_s1 = timing.get("scene5_slide1", 45.0)
+        c1_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
-        foot_content = VGroup(foot_t1, foot_t2, foot_t3, foot_t4).arrange(DOWN, aligned_edge=LEFT, buff=0.22)
-        foot_all = VGroup(foot_box, foot_content).move_to([0, -0.2, 0])
+        c1_title = Text("SƠ ĐỒ TƯ DUY 4 NHÁNH TRỌNG TÂM", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        
+        b1_1 = Text("🌿 Nhánh 1: TÊN VÀ PHẦN TỬ", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        b1_1_sub = Text("   + Tên viết HOA (A, B, C...) • Đối tượng là phần tử", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
+        
+        b1_2 = Text("🌿 Nhánh 2: HAI CÁCH BIỂU DIỄN", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        b1_2_sub = Text("   + Liệt kê trong ngoặc nhọn { } • Nêu tính chất đặc trưng", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
+        
+        b1_3 = Text("🌿 Nhánh 3: HAI KÝ HIỆU CỐT LÕI", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
+        b1_3_sub = Text("   + ∈ (Thuộc tập hợp) • ∉ (Không thuộc tập hợp)", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
+        
+        b1_4 = Text("🌿 Nhánh 4: SƠ ĐỒ VEN", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_INDIGO)
+        b1_4_sub = Text("   + Đường cong khép kín trực quan của John Venn", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
+        
+        c1_content = VGroup(
+            c1_title, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_CYAN),
+            b1_1, b1_1_sub,
+            b1_2, b1_2_sub,
+            b1_3, b1_3_sub,
+            b1_4, b1_4_sub
+        ).arrange(DOWN, aligned_edge=LEFT, buff=0.16)
+        c1_content.move_to(c1_box.get_center())
+        card1 = VGroup(c1_box, c1_content)
 
-        self.play(FadeIn(foot_all, scale=0.95), run_time=1.2)
+        self.play(FadeIn(c1_box, scale=0.96), run_time=0.8)
+        self.play(Write(c1_title), run_time=1.0)
+        self.play(FadeIn(b1_1, shift=RIGHT), FadeIn(b1_1_sub), run_time=1.0)
+        self.play(FadeIn(b1_2, shift=RIGHT), FadeIn(b1_2_sub), run_time=1.0)
+        self.play(FadeIn(b1_3, shift=RIGHT), FadeIn(b1_3_sub), run_time=1.0)
+        self.play(FadeIn(b1_4, shift=RIGHT), FadeIn(b1_4_sub), run_time=1.0)
 
-        rem_time = max(1.0, target_duration - 46.0)
-        self.wait(rem_time)
+        rem_s1 = max(1.0, t_s1 - 6.0)
+        self.wait(rem_s1)
+        self.play(FadeOut(card1, shift=UP*0.3), run_time=0.8)
+
+        # -------------------------------------------------------------
+        # SLIDE 5.2: DẶN DÒ BTVN & LỜI CHÀO KẾT BÀI
+        # -------------------------------------------------------------
+        t_s2 = timing.get("scene5_slide2", 42.0)
+        c2_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_EMERALD, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        c2_title = Text("NHIỆM VỤ TỰ HỌC VỀ NHÀ DÀNH CHO CÁC EM", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_EMERALD)
+        
+        b2_1 = Text("📝 Nhiệm vụ 1: Vẽ lại sơ đồ tư duy 4 nhánh vào vở ghi bài", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_TEXT_MAIN)
+        b2_2 = Text("📝 Nhiệm vụ 2: Hoàn thành bài tập 1.1 đến 1.5 trong SGK Toán 6", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        b2_3 = Text("   (Bộ sách Kết nối tri thức với cuộc sống)", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MUTED)
+        b2_4 = Text("🚀 ĐÓN XEM TIẾT HỌC TIẾP THEO:", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
+        b2_5 = Text("   BÀI 2: CÁCH GHI SỐ TỰ NHIÊN", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        b2_6 = Text("Chúc các em luôn yêu thích môn Toán! Xin chào và hẹn gặp lại!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        
+        c2_content = VGroup(
+            c2_title, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_EMERALD),
+            b2_1, b2_2, b2_3, b2_4, b2_5, b2_6
+        ).arrange(DOWN, aligned_edge=LEFT, buff=0.22)
+        c2_content.move_to(c2_box.get_center())
+        card2 = VGroup(c2_box, c2_content)
+
+        self.play(FadeIn(c2_box, scale=0.96), run_time=0.8)
+        self.play(Write(c2_title), run_time=1.0)
+        self.play(FadeIn(b2_1, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(b2_2, shift=RIGHT), FadeIn(b2_3), run_time=0.8)
+        self.play(FadeIn(b2_4, shift=UP), FadeIn(b2_5, scale=1.05), run_time=1.2)
+        self.play(FadeIn(b2_6, scale=1.05), run_time=1.0)
+
+        rem_s2 = max(1.0, t_s2 - 5.6)
+        self.wait(rem_s2)
 
 
 if __name__ == "__main__":

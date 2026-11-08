@@ -1,14 +1,14 @@
 """
-SCENE 2: HÌNH THÀNH KIẾN THỨC MỚI
+SCENE 2: HÌNH THÀNH KIẾN THỨC MỚI CẶN KẼ (CHUẨN CUỐN CHIẾU 15-20 PHÚT)
 Bài 1: Tập hợp - Phần tử của tập hợp (Toán 6 - Kết nối tri thức)
 Giáo viên: Thầy Thuấn Phan
-Thời lượng đồng bộ audio: ~95.09s
+Quy chuẩn: 6 Slide cuốn chiếu độc lập, Font size >= 28, Ký hiệu sắc nét
 """
 
 import os
 import sys
+import json
 from manim import *
-from mutagen.mp3 import MP3
 
 if sys.platform == "win32":
     try:
@@ -33,116 +33,193 @@ class Scene2KienThuc(Scene):
     def construct(self):
         self.camera.background_color = COLOR_BG
 
-        cur_dir = os.path.dirname(os.path.abspath(__file__))
-        audio_file = os.path.join(cur_dir, "audio", "scene2_voice.mp3")
-        target_duration = 95.09
-        if os.path.exists(audio_file):
+        timing_file = os.path.join(os.path.dirname(__file__), "audio", "timing_data.json")
+        timing = {}
+        if os.path.exists(timing_file):
             try:
-                target_duration = float(MP3(audio_file).info.length)
+                with open(timing_file, "r", encoding="utf-8") as f:
+                    timing = json.load(f)
             except Exception:
                 pass
 
-        # Header cố định
-        header = Text("PHẦN 2: HÌNH THÀNH KIẾN THỨC TRỌNG TÂM", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_CYAN)
-        header_line = Line(LEFT * 5.5, RIGHT * 5.5, stroke_width=1.5, color=COLOR_CYAN)
-        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).to_edge(UP, buff=0.4)
-        self.play(FadeIn(header_group), run_time=1.0)
-        self.wait(2.5)  # Thầy giới thiệu 4 nội dung
+        header = Text("PHẦN 2: HÌNH THÀNH KIẾN THỨC MỚI CẶN KẼ", font=FONT_FAMILY, font_size=34, weight=BOLD, color=COLOR_CYAN)
+        header_line = Line(LEFT * 5.8, RIGHT * 5.8, stroke_width=2, color=COLOR_CYAN)
+        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).move_to([0, 3.25, 0])
+        self.play(FadeIn(header_group, shift=DOWN), run_time=1.0)
 
         # -------------------------------------------------------------
-        # KHỐI 1: TÊN TẬP HỢP VÀ PHẦN TỬ (3.5s -> 18s)
+        # SLIDE 2.1: QUY ƯỚC ĐẶT TÊN VÀ PHẦN TỬ
         # -------------------------------------------------------------
-        k1_rect = RoundedRectangle(corner_radius=0.25, width=11.5, height=2.2, stroke_color=COLOR_INDIGO, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        k1_title = Text("1. Ký hiệu tên và phần tử của tập hợp", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_AMBER)
-        k1_txt1 = Text("• Tên tập hợp: Được đặt bằng chữ cái IN HOA:  A, B, C, X, Y...", font=FONT_FAMILY, font_size=18, color=COLOR_TEXT_MAIN)
-        k1_txt2 = Text("• Phần tử: Các đối tượng nằm bên trong tập hợp được gọi là phần tử của tập hợp.", font=FONT_FAMILY, font_size=17, color=COLOR_TEXT_MUTED)
-        k1_content = VGroup(k1_title, k1_txt1, k1_txt2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
-        k1_box = VGroup(k1_rect, k1_content).next_to(header_group, DOWN, buff=0.3)
-
-        self.play(FadeIn(k1_box, shift=DOWN), run_time=1.2)
-        self.wait(10.5)  # Thầy giảng giải khối 1
-
-        # -------------------------------------------------------------
-        # KHỐI 2: HAI CÁCH VIẾT TẬP HỢP (18s -> 52s)
-        # -------------------------------------------------------------
-        # Thu nhỏ khối 1 để lấy không gian cho khối 2
-        self.play(k1_box.animate.scale(0.85).to_edge(LEFT, buff=0.6).shift(UP * 0.8), run_time=1.0)
-
-        k2_rect = RoundedRectangle(corner_radius=0.25, width=11.5, height=3.6, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95)
-        k2_title = Text("2. Hai cách cho một tập hợp", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_AMBER)
+        t_s1 = timing.get("scene2_slide1", 42.0)
+        c1_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_AMBER, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
-        c1_title = Text("Cách 1: Liệt kê các phần tử", font=FONT_FAMILY, font_size=17, weight=BOLD, color=COLOR_CYAN)
-        c1_desc = Text("• Viết vào ngoặc nhọn { }, ngăn cách bởi dấu chấm phẩy (;)\n• Mỗi phần tử chỉ viết 1 lần duy nhất, thứ tự tùy ý.", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        c1_ex = Text("Ví dụ:  A = {0; 1; 2; 3; 4}", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_EMERALD)
+        c1_title = Text("1. QUY ƯỚC ĐẶT TÊN TẬP HỢP & PHẦN TỬ", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        c1_sub = Text("Quy tắc chữ cái IN HOA trong Toán học", font=FONT_FAMILY, font_size=26, weight=SEMIBOLD, color=COLOR_TEXT_MUTED)
         
-        c2_title = Text("Cách 2: Chỉ ra tính chất đặc trưng", font=FONT_FAMILY, font_size=17, weight=BOLD, color=COLOR_CYAN)
-        c2_desc = Text("• Nêu quy luật chung mà chỉ các phần tử của tập hợp thỏa mãn.", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        c2_ex = Text("Ví dụ:  A = { x ∈ ℕ | x < 5 }", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_EMERALD)
+        b1_1 = Text("• Tên tập hợp: Được đặt bằng chữ cái IN HOA: A, B, C, X, Y...", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_TEXT_MAIN)
+        b1_2 = Text("• Phần tử: Các đối tượng nằm bên trong tập hợp", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b1_3 = Text("• Ví dụ: Tập hợp A gồm các số tự nhiên nhỏ hơn 5", font=FONT_FAMILY, font_size=28, color=COLOR_CYAN)
+        b1_4 = Text("   Mỗi số 0, 1, 2, 3, 4 là một PHẦN TỬ của tập hợp A", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        
+        c1_content = VGroup(c1_title, c1_sub, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_AMBER), b1_1, b1_2, b1_3, b1_4).arrange(DOWN, aligned_edge=LEFT, buff=0.26)
+        c1_content.move_to(c1_box.get_center())
+        card1 = VGroup(c1_box, c1_content)
 
-        col1 = VGroup(c1_title, c1_desc, c1_ex).arrange(DOWN, aligned_edge=LEFT, buff=0.15)
-        col2 = VGroup(c2_title, c2_desc, c2_ex).arrange(DOWN, aligned_edge=LEFT, buff=0.15)
-        cols = VGroup(col1, col2).arrange(RIGHT, buff=0.6)
+        self.play(FadeIn(c1_box, scale=0.96), run_time=0.8)
+        self.play(Write(c1_title), FadeIn(c1_sub, shift=UP), run_time=1.0)
+        self.play(FadeIn(b1_1, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(b1_2, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(b1_3, shift=RIGHT), FadeIn(b1_4, shift=UP), run_time=1.2)
 
-        k2_content = VGroup(k2_title, cols).arrange(DOWN, aligned_edge=LEFT, buff=0.25)
-        k2_box = VGroup(k2_rect, k2_content).move_to([0, -0.9, 0])
-
-        self.play(FadeIn(k2_box, scale=0.95), run_time=1.2)
-        self.wait(26.0)  # Thầy giảng chi tiết 2 cách viết và ví dụ cụ thể
+        rem_s1 = max(1.0, t_s1 - 4.6)
+        self.wait(rem_s1)
+        self.play(FadeOut(card1, shift=UP*0.3), run_time=0.8)
 
         # -------------------------------------------------------------
-        # KHỐI 3 & 4: KÝ HIỆU THUỘC / KHÔNG THUỘC VÀ SƠ ĐỒ VEN (52s -> 95s)
+        # SLIDE 2.2: CÁCH 1 - LIỆT KÊ CÁC PHẦN TỬ (3 QUY TẮC VÀNG)
         # -------------------------------------------------------------
-        self.play(FadeOut(k1_box), FadeOut(k2_box), run_time=1.0)
-
-        # Cột trái: Ký hiệu thuộc/không thuộc
-        sym_rect = RoundedRectangle(corner_radius=0.25, width=5.8, height=4.6, stroke_color=COLOR_EMERALD, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        sym_title = Text("3. Ký hiệu Thuộc & Không thuộc", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_AMBER)
+        t_s2 = timing.get("scene2_slide2", 48.0)
+        c2_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
-        row_in = VGroup(
-            Text("3 ∈ A", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_EMERALD),
-            Text("→ '3 thuộc tập hợp A'\n(3 là phần tử của A)", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        ).arrange(RIGHT, buff=0.4)
+        c2_title = Text("2. CÁCH 1: LIỆT KÊ CÁC PHẦN TỬ", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_CYAN)
+        c2_sub = Text("3 quy tắc vàng bắt buộc khắc cốt ghi tâm", font=FONT_FAMILY, font_size=26, weight=SEMIBOLD, color=COLOR_AMBER)
         
-        row_out = VGroup(
-            Text("5 ∉ A", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_ROSE),
-            Text("→ '5 không thuộc tập A'\n(5 không là phần tử của A)", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        ).arrange(RIGHT, buff=0.4)
-
-        sym_content = VGroup(sym_title, row_in, row_out).arrange(DOWN, aligned_edge=LEFT, buff=0.5)
-        sym_box = VGroup(sym_rect, sym_content).move_to([-3.2, -0.6, 0])
-
-        # Cột phải: Sơ đồ Ven hình elip
-        venn_rect = RoundedRectangle(corner_radius=0.25, width=5.8, height=4.6, stroke_color=COLOR_CYAN, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        venn_title = Text("4. Minh họa bằng Sơ đồ Ven", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_AMBER)
+        b2_1 = Text("1. Viết tất cả các phần tử trong cặp dấu ngoặc nhọn { }", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_TEXT_MAIN)
+        b2_2 = Text("2. Ngăn cách nhau bằng DẤU CHẤM PHẨY ( ; )", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        b2_3 = Text("   (Tuyệt đối không dùng dấu phẩy khi phần tử là số)", font=FONT_FAMILY, font_size=26, color=COLOR_ROSE)
+        b2_4 = Text("3. Mỗi phần tử chỉ viết ĐÚNG MỘT LẦN, thứ tự tùy ý", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_TEXT_MAIN)
         
-        ellipse = Ellipse(width=3.6, height=2.4, color=COLOR_CYAN, stroke_width=3, fill_color=COLOR_CYAN, fill_opacity=0.15)
-        venn_label = Text("Tập hợp A", font=FONT_FAMILY, font_size=15, weight=BOLD, color=COLOR_CYAN).next_to(ellipse, UP, buff=0.1)
+        c2_content = VGroup(c2_title, c2_sub, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_CYAN), b2_1, b2_2, b2_3, b2_4).arrange(DOWN, aligned_edge=LEFT, buff=0.25)
+        c2_content.move_to(c2_box.get_center())
+        card2 = VGroup(c2_box, c2_content)
 
-        # Các điểm bên trong elip
-        p0 = VGroup(Dot(radius=0.07, color=COLOR_EMERALD), Text("0", font_size=16, weight=BOLD)).arrange(RIGHT, buff=0.08).move_to(ellipse.get_center() + LEFT*0.9 + UP*0.4)
-        p1 = VGroup(Dot(radius=0.07, color=COLOR_EMERALD), Text("1", font_size=16, weight=BOLD)).arrange(RIGHT, buff=0.08).move_to(ellipse.get_center() + RIGHT*0.8 + UP*0.3)
-        p2 = VGroup(Dot(radius=0.07, color=COLOR_EMERALD), Text("2", font_size=16, weight=BOLD)).arrange(RIGHT, buff=0.08).move_to(ellipse.get_center() + DOWN*0.4)
-        p3 = VGroup(Dot(radius=0.07, color=COLOR_EMERALD), Text("3", font_size=16, weight=BOLD)).arrange(RIGHT, buff=0.08).move_to(ellipse.get_center() + LEFT*0.7 + DOWN*0.3)
-        p4 = VGroup(Dot(radius=0.07, color=COLOR_EMERALD), Text("4", font_size=16, weight=BOLD)).arrange(RIGHT, buff=0.08).move_to(ellipse.get_center() + RIGHT*0.7 + DOWN*0.4)
+        self.play(FadeIn(c2_box, scale=0.96), run_time=0.8)
+        self.play(Write(c2_title), FadeIn(c2_sub, shift=UP), run_time=1.0)
+        self.play(FadeIn(b2_1, shift=RIGHT), run_time=0.8)
+        self.play(FadeIn(b2_2, shift=RIGHT), FadeIn(b2_3), run_time=1.0)
+        self.play(FadeIn(b2_4, shift=RIGHT), run_time=0.8)
 
-        # Điểm bên ngoài elip
-        p5 = VGroup(Dot(radius=0.07, color=COLOR_ROSE), Text("5", font_size=16, weight=BOLD, color=COLOR_ROSE)).arrange(RIGHT, buff=0.08).move_to(ellipse.get_center() + RIGHT*2.2 + UP*0.8)
-        p5_note = Text("(ngoài A)", font=FONT_FAMILY, font_size=12, color=COLOR_ROSE).next_to(p5, DOWN, buff=0.05)
+        rem_s2 = max(1.0, t_s2 - 4.4)
+        self.wait(rem_s2)
+        self.play(FadeOut(card2, shift=UP*0.3), run_time=0.8)
 
-        venn_diag = VGroup(ellipse, venn_label, p0, p1, p2, p3, p4, p5, p5_note).scale(0.85)
-        venn_content = VGroup(venn_title, venn_diag).arrange(DOWN, buff=0.25)
-        venn_box = VGroup(venn_rect, venn_content).move_to([3.2, -0.6, 0])
+        # -------------------------------------------------------------
+        # SLIDE 2.3: VÍ DỤ MINH HỌA CÁCH LIỆT KÊ
+        # -------------------------------------------------------------
+        t_s3 = timing.get("scene2_slide3", 38.0)
+        c3_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_EMERALD, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        c3_title = Text("VÍ DỤ VỀ CÁCH LIỆT KÊ PHẦN TỬ", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_EMERALD)
+        c3_sub = Text("Biểu diễn tập hợp A các số tự nhiên nhỏ hơn 5", font=FONT_FAMILY, font_size=26, weight=SEMIBOLD, color=COLOR_TEXT_MUTED)
+        
+        b3_1 = Text("Công thức chuẩn:   A = { 0; 1; 2; 3; 4 }", font=FONT_FAMILY, font_size=34, weight=BOLD, color=COLOR_AMBER)
+        b3_2 = Text("• Nhận xét 1: Đủ 5 phần tử: 0, 1, 2, 3, 4", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b3_3 = Text("• Nhận xét 2: Ngăn cách bởi dấu chấm phẩy ;", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b3_4 = Text("• Thứ tự tùy ý:  A = { 4; 0; 3; 1; 2 }  vẫn hoàn toàn ĐÚNG!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        
+        c3_content = VGroup(c3_title, c3_sub, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_EMERALD), b3_1, b3_2, b3_3, b3_4).arrange(DOWN, aligned_edge=LEFT, buff=0.26)
+        c3_content.move_to(c3_box.get_center())
+        card3 = VGroup(c3_box, c3_content)
 
-        self.play(FadeIn(sym_box, shift=RIGHT), run_time=1.2)
-        self.wait(10.0)  # Thầy giảng ký hiệu thuộc / không thuộc
+        self.play(FadeIn(c3_box, scale=0.96), run_time=0.8)
+        self.play(Write(c3_title), FadeIn(c3_sub, shift=UP), run_time=1.0)
+        self.play(FadeIn(b3_1, scale=1.08), run_time=1.0)
+        self.play(FadeIn(b3_2, shift=RIGHT), FadeIn(b3_3, shift=RIGHT), run_time=1.0)
+        self.play(FadeIn(b3_4, shift=UP), run_time=0.8)
 
-        self.play(FadeIn(venn_box, shift=LEFT), run_time=1.2)
-        self.wait(14.0)  # Thầy giảng Sơ đồ Ven John Venn
+        rem_s3 = max(1.0, t_s3 - 4.6)
+        self.wait(rem_s3)
+        self.play(FadeOut(card3, shift=UP*0.3), run_time=0.8)
 
-        # Chờ phần thời gian còn lại khớp target_duration
-        # Khoảng ~88s đã trôi qua
-        rem_time = max(1.0, target_duration - 87.0)
-        self.wait(rem_time)
+        # -------------------------------------------------------------
+        # SLIDE 2.4: CÁCH 2 - CHỈ RA TÍNH CHẤT ĐẶC TRƯNG
+        # -------------------------------------------------------------
+        t_s4 = timing.get("scene2_slide4", 45.0)
+        c4_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_INDIGO, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        c4_title = Text("3. CÁCH 2: CHỈ RA TÍNH CHẤT ĐẶC TRƯNG", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        c4_sub = Text("Nêu quy luật chung mà chỉ các phần tử thỏa mãn", font=FONT_FAMILY, font_size=26, weight=SEMIBOLD, color=COLOR_CYAN)
+        
+        b4_1 = Text("Công thức đặc trưng:   A = { x ∈ ℕ | x < 5 }", font=FONT_FAMILY, font_size=34, weight=BOLD, color=COLOR_EMERALD)
+        b4_2 = Text("• Giải mã ký hiệu:", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_TEXT_MAIN)
+        b4_3 = Text("   + x ∈ ℕ :  x là số tự nhiên", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b4_4 = Text("   + Dấu gạch đứng | :  đọc là 'sao cho'", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b4_5 = Text("   + x < 5 :  điều kiện x phải nhỏ hơn 5", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        
+        c4_content = VGroup(c4_title, c4_sub, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_INDIGO), b4_1, b4_2, b4_3, b4_4, b4_5).arrange(DOWN, aligned_edge=LEFT, buff=0.22)
+        c4_content.move_to(c4_box.get_center())
+        card4 = VGroup(c4_box, c4_content)
+
+        self.play(FadeIn(c4_box, scale=0.96), run_time=0.8)
+        self.play(Write(c4_title), FadeIn(c4_sub, shift=UP), run_time=1.0)
+        self.play(FadeIn(b4_1, scale=1.08), run_time=1.0)
+        self.play(FadeIn(b4_2, shift=RIGHT), FadeIn(b4_3, shift=RIGHT), run_time=1.0)
+        self.play(FadeIn(b4_4, shift=RIGHT), FadeIn(b4_5, shift=RIGHT), run_time=1.0)
+
+        rem_s4 = max(1.0, t_s4 - 4.8)
+        self.wait(rem_s4)
+        self.play(FadeOut(card4, shift=UP*0.3), run_time=0.8)
+
+        # -------------------------------------------------------------
+        # SLIDE 2.5: KÝ HIỆU THUỘC (∈) VÀ KHÔNG THUỘC (∉)
+        # -------------------------------------------------------------
+        t_s5 = timing.get("scene2_slide5", 46.0)
+        c5_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_EMERALD, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        c5_title = Text("4. KÝ HIỆU THUỘC (∈) VÀ KHÔNG THUỘC (∉)", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_CYAN)
+        c5_sub = Text("Mối quan hệ cốt lõi giữa phần tử và tập hợp", font=FONT_FAMILY, font_size=26, weight=SEMIBOLD, color=COLOR_TEXT_MUTED)
+        
+        b5_1 = Text("• Ký hiệu ∈ (Thuộc):   3 ∈ A", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_EMERALD)
+        b5_2 = Text("   → Đọc là: '3 thuộc tập hợp A' (3 là phần tử của A)", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b5_3 = Text("• Ký hiệu ∉ (Không thuộc):   5 ∉ A", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_ROSE)
+        b5_4 = Text("   → Đọc là: '5 không thuộc tập A' (5 không là phần tử của A)", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        b5_5 = Text("⚠️ Chú ý: ∈ và ∉ chỉ dùng giữa PHẦN TỬ và TẬP HỢP", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
+        
+        c5_content = VGroup(c5_title, c5_sub, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_EMERALD), b5_1, b5_2, b5_3, b5_4, b5_5).arrange(DOWN, aligned_edge=LEFT, buff=0.22)
+        c5_content.move_to(c5_box.get_center())
+        card5 = VGroup(c5_box, c5_content)
+
+        self.play(FadeIn(c5_box, scale=0.96), run_time=0.8)
+        self.play(Write(c5_title), FadeIn(c5_sub, shift=UP), run_time=1.0)
+        self.play(FadeIn(b5_1, shift=RIGHT), FadeIn(b5_2, shift=RIGHT), run_time=1.0)
+        self.play(FadeIn(b5_3, shift=RIGHT), FadeIn(b5_4, shift=RIGHT), run_time=1.0)
+        self.play(FadeIn(b5_5, scale=1.05), run_time=0.8)
+
+        rem_s5 = max(1.0, t_s5 - 4.6)
+        self.wait(rem_s5)
+        self.play(FadeOut(card5, shift=UP*0.3), run_time=0.8)
+
+        # -------------------------------------------------------------
+        # SLIDE 2.6: MINH HỌA BẰNG SƠ ĐỒ VEN
+        # -------------------------------------------------------------
+        t_s6 = timing.get("scene2_slide6", 44.0)
+        c6_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        
+        c6_title = Text("5. MINH HỌA BẰNG SƠ ĐỒ VEN (JOHN VENN)", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
+        
+        # Hình elip trực quan
+        ellipse = Ellipse(width=4.8, height=3.0, color=COLOR_CYAN, stroke_width=3, fill_color=COLOR_CYAN, fill_opacity=0.15)
+        el_label = Text("Tập hợp A", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_CYAN).next_to(ellipse, UP, buff=0.1)
+        
+        d0 = VGroup(Dot(radius=0.08, color=COLOR_EMERALD), Text("0", font_size=24, weight=BOLD)).arrange(RIGHT, buff=0.1).move_to(ellipse.get_center() + LEFT*1.2 + UP*0.5)
+        d1 = VGroup(Dot(radius=0.08, color=COLOR_EMERALD), Text("1", font_size=24, weight=BOLD)).arrange(RIGHT, buff=0.1).move_to(ellipse.get_center() + RIGHT*1.0 + UP*0.4)
+        d2 = VGroup(Dot(radius=0.08, color=COLOR_EMERALD), Text("2", font_size=24, weight=BOLD)).arrange(RIGHT, buff=0.1).move_to(ellipse.get_center() + DOWN*0.5)
+        d3 = VGroup(Dot(radius=0.08, color=COLOR_EMERALD), Text("3", font_size=24, weight=BOLD)).arrange(RIGHT, buff=0.1).move_to(ellipse.get_center() + LEFT*0.9 + DOWN*0.4)
+        d4 = VGroup(Dot(radius=0.08, color=COLOR_EMERALD), Text("4", font_size=24, weight=BOLD)).arrange(RIGHT, buff=0.1).move_to(ellipse.get_center() + RIGHT*0.9 + DOWN*0.5)
+        
+        d5 = VGroup(Dot(radius=0.08, color=COLOR_ROSE), Text("5 (ngoài A)", font_size=22, weight=BOLD, color=COLOR_ROSE)).arrange(RIGHT, buff=0.1).move_to(ellipse.get_center() + RIGHT*3.4 + UP*0.8)
+        
+        venn_graphic = VGroup(ellipse, el_label, d0, d1, d2, d3, d4, d5).move_to([0, -0.6, 0])
+        card6 = VGroup(c6_box, c6_title.move_to([0, 1.7, 0]), venn_graphic)
+
+        self.play(FadeIn(c6_box, scale=0.96), run_time=0.8)
+        self.play(Write(c6_title), run_time=1.0)
+        self.play(Create(ellipse), FadeIn(el_label), run_time=1.2)
+        self.play(FadeIn(d0), FadeIn(d1), FadeIn(d2), FadeIn(d3), FadeIn(d4), run_time=1.2)
+        self.play(FadeIn(d5, shift=LEFT), run_time=0.8)
+
+        rem_s6 = max(1.0, t_s6 - 5.0)
+        self.wait(rem_s6)
 
 
 if __name__ == "__main__":

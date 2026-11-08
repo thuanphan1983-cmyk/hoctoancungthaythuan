@@ -1,15 +1,15 @@
 """
-CONCAT LESSON PIPELINE & ORCHESTRATOR
-Ghép nối toàn bộ 5 phần bài học Toán 6 (Bài 1: Tập hợp) thành video tiết dạy hoàn chỉnh:
-Toan6_TietDay_Bai1_HoanChinh.mp4
+CONCAT LESSON PIPELINE & ORCHESTRATOR (15-20 PHÚT)
+Xuất bản video tiết học hoàn chỉnh: Toan6_TietDay_Bai1_Full15m.mp4
 """
 
 import os
 import sys
+import glob
+import json
+import shutil
 import tempfile
 import subprocess
-import shutil
-import glob
 from mutagen.mp3 import MP3
 
 if sys.platform == "win32":
@@ -21,8 +21,11 @@ if sys.platform == "win32":
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 AUDIO_DIR = os.path.join(CURRENT_DIR, "audio")
-OUTPUT_DIR = os.path.join(CURRENT_DIR, "output_scenes")
-FINAL_OUTPUT = os.path.join(CURRENT_DIR, "Toan6_TietDay_Bai1_HoanChinh.mp4")
+OUTPUT_DIR = os.path.join(CURRENT_DIR, "output_scenes_full")
+FINAL_OUTPUT = os.path.join(CURRENT_DIR, "Toan6_TietDay_Bai1_Full15m.mp4")
+
+PUBLIC_VIDEOS = os.path.abspath(os.path.join(CURRENT_DIR, "..", "..", "public", "videos"))
+DIST_VIDEOS = os.path.abspath(os.path.join(CURRENT_DIR, "..", "..", "dist", "videos"))
 GALLERY_DIR = os.path.abspath(os.path.join(CURRENT_DIR, "..", "..", "generated_videos"))
 
 SCENE_DEFS = [
@@ -30,42 +33,42 @@ SCENE_DEFS = [
         "id": "scene1",
         "file": "scene1_khoidong.py",
         "class": "Scene1KhoiDong",
-        "audio": "scene1_voice.mp3",
-        "title": "Phần 1: Khởi Động & Đặt Vấn Đề"
+        "audio": "scene1_full.mp3",
+        "title": "Phần 1: Đặt Vấn Đề & Khởi Động Thực Tế"
     },
     {
         "id": "scene2",
         "file": "scene2_kienthuc.py",
         "class": "Scene2KienThuc",
-        "audio": "scene2_voice.mp3",
-        "title": "Phần 2: Hình Thành Kiến Thức Mới"
+        "audio": "scene2_full.mp3",
+        "title": "Phần 2: Hình Thành Kiến Thức Mới Cặn Kẽ"
     },
     {
         "id": "scene3",
         "file": "scene3_vidu.py",
         "class": "Scene3ViDu",
-        "audio": "scene3_voice.mp3",
-        "title": "Phần 3: Ví Dụ Minh Họa Áp Dụng"
+        "audio": "scene3_full.mp3",
+        "title": "Phần 3: Ba Ví Dụ Minh Họa & Đếm Ngược 45s"
     },
     {
         "id": "scene4",
         "file": "scene4_canhbao.py",
         "class": "Scene4CanhBao",
-        "audio": "scene4_voice.mp3",
-        "title": "Phần 4: Lỗi Sai & Cảnh Báo Bẫy Thi"
+        "audio": "scene4_full.mp3",
+        "title": "Phần 4: 4 Lỗi Sai Kinh Điển Khi Làm Bài Thi"
     },
     {
         "id": "scene5",
         "file": "scene5_tongket.py",
         "class": "Scene5TongKet",
-        "audio": "scene5_voice.mp3",
-        "title": "Phần 5: Tổng Kết & Củng Cố"
+        "audio": "scene5_full.mp3",
+        "title": "Phần 5: Sơ Đồ Tư Duy Tổng Kết & Dặn Dò BTVN"
     }
 ]
 
 
 def render_scene(scene_def: dict, quality_flag: str = "-ql") -> str:
-    """Render 1 Scene Manim và ghép khớp audio thành synced video"""
+    """Render 1 Scene Manim và lồng ghép audio đồng bộ thành file synced.mp4"""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     sc_id = scene_def["id"]
     sc_file = os.path.join(CURRENT_DIR, scene_def["file"])
@@ -98,9 +101,7 @@ def render_scene(scene_def: dict, quality_flag: str = "-ql") -> str:
     # Tìm file mp4 đã xuất ra
     mp4_files = glob.glob(os.path.join(temp_media, "**", f"{sc_class}.mp4"), recursive=True)
     if not mp4_files:
-        # Tìm bất kỳ file mp4 nào
         mp4_files = glob.glob(os.path.join(temp_media, "**", "*.mp4"), recursive=True)
-        # Bỏ qua các partial files
         mp4_files = [f for f in mp4_files if "partial_movie_files" not in f]
 
     if not mp4_files:
@@ -125,7 +126,6 @@ def render_scene(scene_def: dict, quality_flag: str = "-ql") -> str:
     ]
     mux_res = subprocess.run(mux_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if mux_res.returncode != 0 or not os.path.exists(synced_output):
-        # Dự phòng re-encode audio nếu copy lỗi
         mux_cmd = [
             "ffmpeg", "-y",
             "-i", raw_video,
@@ -138,13 +138,12 @@ def render_scene(scene_def: dict, quality_flag: str = "-ql") -> str:
         subprocess.run(mux_cmd, check=True)
 
     print(f"   ✅ Đã tạo video phân cảnh hoàn chỉnh: {os.path.basename(synced_output)} ({os.path.getsize(synced_output)/1024:.1f} KB)")
-    # Dọn dẹp thư mục tạm
     shutil.rmtree(temp_media, ignore_errors=True)
     return synced_output
 
 
 def concat_all_scenes(synced_files: list) -> str:
-    """Ghép nối 5 phân cảnh thành 1 video duy nhất Toan6_TietDay_Bai1_HoanChinh.mp4"""
+    """Ghép nối 5 phân cảnh thành video bài giảng 15-20 phút duy nhất"""
     print("\n🎞️ [CONCAT PIPELINE] Bắt đầu ghép nối 5 phân cảnh bài học...")
     os.makedirs(os.path.dirname(FINAL_OUTPUT), exist_ok=True)
     
@@ -154,7 +153,6 @@ def concat_all_scenes(synced_files: list) -> str:
             safe_p = p.replace("\\", "/")
             f.write(f"file '{safe_p}'\n")
 
-    # Thử concat copy trước
     concat_cmd = [
         "ffmpeg", "-y",
         "-f", "concat",
@@ -178,23 +176,23 @@ def concat_all_scenes(synced_files: list) -> str:
         subprocess.run(concat_cmd, check=True)
 
     final_size_mb = os.path.getsize(FINAL_OUTPUT) / (1024 * 1024)
-    print(f"\n🎉 HOÀN THÀNH XUẤT BẢN VIDEO TIẾT DẠY TOÀN BÀI!")
+    print(f"\n🎉 HOÀN THÀNH XUẤT BẢN BÀI GIẢNG TOÀN DIỆN 15-20 PHÚT!")
     print(f"   📁 Tệp đầu ra: {FINAL_OUTPUT}")
     print(f"   📦 Dung lượng: {final_size_mb:.2f} MB")
 
-    # Đồng bộ sang thư mục gallery để web app hiển thị
-    if os.path.exists(GALLERY_DIR):
-        dest_gallery = os.path.join(GALLERY_DIR, os.path.basename(FINAL_OUTPUT))
-        shutil.copy2(FINAL_OUTPUT, dest_gallery)
-        print(f"   🚀 Đã sao chép vào bộ sưu tập video web: {dest_gallery}")
+    # Sao chép vào public/videos và dist/videos
+    for dest_dir in [PUBLIC_VIDEOS, DIST_VIDEOS, GALLERY_DIR]:
+        if os.path.exists(dest_dir):
+            target_file = os.path.join(dest_dir, "Toan6_TietDay_Bai1_Full15m.mp4")
+            shutil.copy2(FINAL_OUTPUT, target_file)
+            print(f"   🚀 Đã sao chép vào: {target_file}")
 
     return FINAL_OUTPUT
 
 
 def run_pipeline(quality_flag: str = "-ql"):
-    """Chạy toàn bộ quy trình: Render 5 cảnh -> Ghép nối thành phẩm"""
     print("=" * 70)
-    print("   HỆ THỐNG XUẤT BẢN BÀI GIẢNG TOÀN DIỆN CHUẨN SƯ PHẠM (TOÁN 6)")
+    print("   HỆ THỐNG XUẤT BẢN BÀI GIẢNG TOÀN DIỆN 15-20 PHÚT CHUẨN SƯ PHẠM")
     print(f"   Chất lượng render: {quality_flag}")
     print("=" * 70)
 
@@ -207,7 +205,7 @@ def run_pipeline(quality_flag: str = "-ql"):
 
 
 if __name__ == "__main__":
-    q_flag = "-ql"  # Mặc định -ql (480p 15fps) cho tốc độ render nhanh, có thể đổi sang -qm hoặc -qh
+    q_flag = "-ql"
     if len(sys.argv) > 1:
         q_flag = sys.argv[1]
     run_pipeline(q_flag)

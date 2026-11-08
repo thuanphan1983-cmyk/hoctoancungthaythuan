@@ -1,14 +1,14 @@
 """
-SCENE 3: VÍ DỤ MINH HỌA ÁP DỤNG
+SCENE 3: BA VÍ DỤ MINH HỌA & ĐỒNG HỒ ĐẾM NGƯỢC 45 GIÂY
 Bài 1: Tập hợp - Phần tử của tập hợp (Toán 6 - Kết nối tri thức)
 Giáo viên: Thầy Thuấn Phan
-Thời lượng đồng bộ audio: ~114.91s
+Quy chuẩn: 3 ví dụ lớn, 3 lần đếm ngược 45s kèm thanh progress bar, Font size >= 28
 """
 
 import os
 import sys
+import json
 from manim import *
-from mutagen.mp3 import MP3
 
 if sys.platform == "win32":
     try:
@@ -33,95 +33,163 @@ class Scene3ViDu(Scene):
     def construct(self):
         self.camera.background_color = COLOR_BG
 
-        cur_dir = os.path.dirname(os.path.abspath(__file__))
-        audio_file = os.path.join(cur_dir, "audio", "scene3_voice.mp3")
-        target_duration = 114.91
-        if os.path.exists(audio_file):
+        timing_file = os.path.join(os.path.dirname(__file__), "audio", "timing_data.json")
+        timing = {}
+        if os.path.exists(timing_file):
             try:
-                target_duration = float(MP3(audio_file).info.length)
+                with open(timing_file, "r", encoding="utf-8") as f:
+                    timing = json.load(f)
             except Exception:
                 pass
 
-        header = Text("PHẦN 3: BỐN VÍ DỤ MINH HỌA NÂNG CAO KỸ NĂNG", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_AMBER)
-        header_line = Line(LEFT * 5.5, RIGHT * 5.5, stroke_width=1.5, color=COLOR_AMBER)
-        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).to_edge(UP, buff=0.4)
-        self.play(FadeIn(header_group), run_time=1.0)
-        self.wait(3.0)  # Thầy giới thiệu 4 ví dụ
+        header = Text("PHẦN 3: BA VÍ DỤ MINH HỌA & TỰ RÈN LUYỆN", font=FONT_FAMILY, font_size=34, weight=BOLD, color=COLOR_AMBER)
+        header_line = Line(LEFT * 5.8, RIGHT * 5.8, stroke_width=2, color=COLOR_AMBER)
+        header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).move_to([0, 3.25, 0])
+        self.play(FadeIn(header_group, shift=DOWN), run_time=1.0)
 
-        # -------------------------------------------------------------
-        # VÍ DỤ 1 (Mức Nhận biết): Chữ cái trong từ "TOÁN HỌC" (~22s)
-        # -------------------------------------------------------------
-        vd1_rect = RoundedRectangle(corner_radius=0.25, width=12.0, height=2.4, stroke_color=COLOR_CYAN, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        vd1_badge = Text("VÍ DỤ 1 (Nhận biết):", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_CYAN)
-        vd1_req = Text("Viết tập hợp M gồm các chữ cái trong từ 'TOÁN HỌC'.", font=FONT_FAMILY, font_size=17, color=COLOR_TEXT_MAIN)
-        vd1_top = VGroup(vd1_badge, vd1_req).arrange(RIGHT, buff=0.3)
+        # =============================================================
+        # VÍ DỤ 1 (Nhận biết): TỪ "HỌC TOÁN"
+        # =============================================================
+        t_ex1_intro = timing.get("scene3_ex1_intro", 28.0)
+        t_ex1_sol = timing.get("scene3_ex1_sol", 46.0)
+
+        # 1. Đề bài VD1
+        c1_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        badge1 = Text("VÍ DỤ 1 (Mức Nhận Biết)", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_CYAN)
+        head1 = Text("CÁC CHỮ CÁI TRONG CỤM TỪ 'HỌC TOÁN'", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_AMBER)
+        q1_t1 = Text("Đề bài: Viết tập hợp M gồm các chữ cái trong cụm từ 'HỌC TOÁN'", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        q1_t2 = Text("và điền ký hiệu thuộc (∈), không thuộc (∉) thích hợp vào chỗ trống.", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
         
-        vd1_sol_t = Text("• Phân tích: Từ TOÁN HỌC gồm: T, O, Á, N, H, O, C (Chữ O xuất hiện 2 lần → chỉ ghi 1 lần)", font=FONT_FAMILY, font_size=15, color=COLOR_AMBER)
-        vd1_sol_ans = Text("✓ Lời giải:  M = { T; O; Á; N; H; C }", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_EMERALD)
+        top1 = VGroup(badge1, head1, q1_t1, q1_t2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
+        top1.move_to([0, 0.7, 0])
+
+        self.play(FadeIn(c1_box, scale=0.96), run_time=0.8)
+        self.play(FadeIn(top1), run_time=1.2)
         
-        vd1_content = VGroup(vd1_top, vd1_sol_t, vd1_sol_ans).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
-        vd1_box = VGroup(vd1_rect, vd1_content).next_to(header_group, DOWN, buff=0.35)
+        rem_intro1 = max(1.0, t_ex1_intro - 2.0)
+        self.wait(rem_intro1)
 
-        self.play(FadeIn(vd1_box, shift=DOWN), run_time=1.2)
-        self.wait(18.0)  # Thầy giảng chi tiết VD1
+        # 2. Thanh đếm ngược 45s
+        t_bar_bg = RoundedRectangle(corner_radius=0.15, width=8.2, height=0.45, stroke_color=COLOR_AMBER, stroke_width=1, fill_color="#0f172a", fill_opacity=0.8).move_to([0, -0.7, 0])
+        t_bar_fill = Rectangle(width=8.0, height=0.35, fill_color=COLOR_AMBER, fill_opacity=0.9, stroke_width=0).move_to([0, -0.7, 0])
+        t_label = Text("⏰ THỜI GIAN TỰ SUY NGHĨ: 45 GIÂY", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_AMBER).next_to(t_bar_bg, UP, buff=0.15)
+        timer1_grp = VGroup(t_bar_bg, t_bar_fill, t_label)
 
-        # -------------------------------------------------------------
-        # VÍ DỤ 2 (Mức Thông hiểu): Liệt kê và điền ∈, ∉ (~25s)
-        # -------------------------------------------------------------
-        vd2_rect = RoundedRectangle(corner_radius=0.25, width=12.0, height=2.6, stroke_color=COLOR_EMERALD, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        vd2_badge = Text("VÍ DỤ 2 (Thông hiểu):", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_EMERALD)
-        vd2_req = Text("Cho tập hợp  B = { x ∈ ℕ | 10 ≤ x < 15 }. Viết B dưới dạng liệt kê và điền ∈, ∉.", font=FONT_FAMILY, font_size=16, color=COLOR_TEXT_MAIN)
-        vd2_top = VGroup(vd2_badge, vd2_req).arrange(RIGHT, buff=0.3)
-        
-        vd2_sol1 = Text("• Lời giải:  B = { 10; 11; 12; 13; 14 }  (Lấy số 10 vì x ≥ 10; dừng ở 14 vì x < 15)", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        vd2_sol2 = Text("✓ Điền ký hiệu:   10 ∈ B      12 ∈ B      15 ∉ B      9 ∉ B", font=FONT_FAMILY, font_size=17, weight=BOLD, color=COLOR_CYAN)
-        
-        vd2_content = VGroup(vd2_top, vd2_sol1, vd2_sol2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
-        vd2_box = VGroup(vd2_rect, vd2_content).next_to(vd1_box, DOWN, buff=0.25)
+        self.play(FadeIn(timer1_grp), run_time=0.8)
+        # Rút ngắn thanh thời gian trong 44.2 giây (khớp 45s audio)
+        self.play(t_bar_fill.animate.stretch_to_fit_width(0.01, about_edge=LEFT), run_time=44.2, rate_func=linear)
 
-        self.play(FadeIn(vd2_box, shift=UP), run_time=1.2)
-        self.wait(22.0)  # Thầy giảng chi tiết VD2
+        # Hết giờ đếm ngược
+        t_done = Text("⏰ HẾT GIỜ! CÙNG QUAN SÁT LỜI GIẢI CHI TIẾT", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_EMERALD).move_to(t_label.get_center())
+        self.play(Transform(t_label, t_done), run_time=0.8)
+        self.wait(1.5)
 
-        # Ẩn VD1, VD2 để làm không gian cho VD3, VD4
-        self.play(FadeOut(vd1_box), FadeOut(vd2_box), run_time=1.0)
+        # 3. Lời giải VD1 (Thu gọn phần đề để hiển thị lời giải)
+        self.play(FadeOut(timer1_grp), top1.animate.shift(UP * 0.4).scale(0.95), run_time=0.8)
 
-        # -------------------------------------------------------------
-        # VÍ DỤ 3 (Mức Vận dụng thấp): Các tháng có 30 ngày (~20s)
-        # -------------------------------------------------------------
-        vd3_rect = RoundedRectangle(corner_radius=0.25, width=12.0, height=2.4, stroke_color=COLOR_INDIGO, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        vd3_badge = Text("VÍ DỤ 3 (Vận dụng):", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_INDIGO)
-        vd3_req = Text("Viết tập hợp C các tháng có đúng 30 ngày trong năm dương lịch.", font=FONT_FAMILY, font_size=17, color=COLOR_TEXT_MAIN)
-        vd3_top = VGroup(vd3_badge, vd3_req).arrange(RIGHT, buff=0.3)
-        
-        vd3_sol1 = Text("• Phân tích: Trong 12 tháng dương lịch, chỉ có đúng 4 tháng có đúng 30 ngày.", font=FONT_FAMILY, font_size=15, color=COLOR_AMBER)
-        vd3_sol2 = Text("✓ Lời giải:  C = { Tháng 4; Tháng 6; Tháng 9; Tháng 11 }", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_EMERALD)
-        
-        vd3_content = VGroup(vd3_top, vd3_sol1, vd3_sol2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
-        vd3_box = VGroup(vd3_rect, vd3_content).next_to(header_group, DOWN, buff=0.35)
+        sol1_1 = Text("✓ Lời giải:  M = { H; O; C; T; A; N }  (Chữ O lặp lại → ghi 1 lần)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        sol1_2 = Text("✓ Điền ký hiệu:   H ∈ M  ;   T ∈ M  ;   B ∉ M  ;   K ∉ M", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        sol1_grp = VGroup(sol1_1, sol1_2).arrange(DOWN, aligned_edge=LEFT, buff=0.3).move_to([0, -1.0, 0])
 
-        self.play(FadeIn(vd3_box, shift=DOWN), run_time=1.2)
-        self.wait(16.0)  # Thầy giảng VD3
+        self.play(FadeIn(sol1_grp, shift=UP), run_time=1.2)
+        rem_sol1 = max(1.0, t_ex1_sol - 4.3)
+        self.wait(rem_sol1)
 
-        # -------------------------------------------------------------
-        # VÍ DỤ 4 (Mức Vận dụng cao): Số có 2 chữ số tổng bằng 5 (~25s)
-        # -------------------------------------------------------------
-        vd4_rect = RoundedRectangle(corner_radius=0.25, width=12.0, height=2.6, stroke_color=COLOR_AMBER, stroke_width=1.5, fill_color=COLOR_CARD, fill_opacity=0.9)
-        vd4_badge = Text("VÍ DỤ 4 (Vận dụng cao):", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_AMBER)
-        vd4_req = Text("Viết tập hợp D các số tự nhiên có hai chữ số mà tổng các chữ số bằng 5.", font=FONT_FAMILY, font_size=16, color=COLOR_TEXT_MAIN)
-        vd4_top = VGroup(vd4_badge, vd4_req).arrange(RIGHT, buff=0.3)
-        
-        vd4_sol1 = Text("• Phân tích: Số dạng ab (a ≠ 0, a + b = 5). Các cặp số: 5+0, 4+1, 3+2, 2+3, 1+4", font=FONT_FAMILY, font_size=15, color=COLOR_TEXT_MAIN)
-        vd4_sol2 = Text("✓ Lời giải:  D = { 14; 23; 32; 41; 50 }   (Gồm 5 phần tử)", font=FONT_FAMILY, font_size=18, weight=BOLD, color=COLOR_CYAN)
-        
-        vd4_content = VGroup(vd4_top, vd4_sol1, vd4_sol2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
-        vd4_box = VGroup(vd4_rect, vd4_content).next_to(vd3_box, DOWN, buff=0.25)
+        # Chuyển slide sang VD2
+        self.play(FadeOut(c1_box), FadeOut(top1), FadeOut(sol1_grp), run_time=0.8)
 
-        self.play(FadeIn(vd4_box, shift=UP), run_time=1.2)
-        self.wait(20.0)  # Thầy giảng VD4
+        # =============================================================
+        # VÍ DỤ 2 (Thông hiểu): ĐIỀU KIỆN BIÊN CỦA SỐ TỰ NHIÊN
+        # =============================================================
+        t_ex2_intro = timing.get("scene3_ex2_intro", 28.0)
+        t_ex2_sol = timing.get("scene3_ex2_sol", 46.0)
 
-        # Chờ khớp đủ thời lượng
-        rem_time = max(1.0, target_duration - 108.0)
-        self.wait(rem_time)
+        c2_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_EMERALD, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        badge2 = Text("VÍ DỤ 2 (Mức Thông Hiểu)", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_EMERALD)
+        head2 = Text("ĐIỀU KIỆN BIÊN CỦA TẬP HỢP SỐ TỰ NHIÊN", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_CYAN)
+        q2_t1 = Text("Đề bài: Cho tập hợp  A = { x ∈ ℕ | 12 ≤ x < 18 }.", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_AMBER)
+        q2_t2 = Text("Hãy viết tập hợp A bằng cách liệt kê phần tử và tính số phần tử của A.", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+
+        top2 = VGroup(badge2, head2, q2_t1, q2_t2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
+        top2.move_to([0, 0.7, 0])
+
+        self.play(FadeIn(c2_box, scale=0.96), run_time=0.8)
+        self.play(FadeIn(top2), run_time=1.2)
+
+        rem_intro2 = max(1.0, t_ex2_intro - 2.0)
+        self.wait(rem_intro2)
+
+        # Đếm ngược 45s VD2
+        t_bar_fill2 = Rectangle(width=8.0, height=0.35, fill_color=COLOR_EMERALD, fill_opacity=0.9, stroke_width=0).move_to([0, -0.7, 0])
+        t_label2 = Text("⏰ THỜI GIAN TỰ SUY NGHĨ: 45 GIÂY", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_EMERALD).next_to(t_bar_bg, UP, buff=0.15)
+        timer2_grp = VGroup(t_bar_bg, t_bar_fill2, t_label2)
+
+        self.play(FadeIn(timer2_grp), run_time=0.8)
+        self.play(t_bar_fill2.animate.stretch_to_fit_width(0.01, about_edge=LEFT), run_time=44.2, rate_func=linear)
+
+        t_done2 = Text("⏰ HẾT GIỜ! CÙNG QUAN SÁT LỜI GIẢI CHI TIẾT", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_AMBER).move_to(t_label2.get_center())
+        self.play(Transform(t_label2, t_done2), run_time=0.8)
+        self.wait(1.5)
+
+        # Lời giải VD2
+        self.play(FadeOut(timer2_grp), top2.animate.shift(UP * 0.4).scale(0.95), run_time=0.8)
+
+        sol2_1 = Text("• Phân tích: x ≥ 12 (lấy số 12)  và  x < 18 (dừng ở 17)", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        sol2_2 = Text("✓ Lời giải:  A = { 12; 13; 14; 15; 16; 17 }", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_CYAN)
+        sol2_3 = Text("✓ Kết luận: Tập hợp A có đúng 6 phần tử.", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        sol2_grp = VGroup(sol2_1, sol2_2, sol2_3).arrange(DOWN, aligned_edge=LEFT, buff=0.25).move_to([0, -1.0, 0])
+
+        self.play(FadeIn(sol2_grp, shift=UP), run_time=1.2)
+        rem_sol2 = max(1.0, t_ex2_sol - 4.3)
+        self.wait(rem_sol2)
+
+        # Chuyển slide sang VD3
+        self.play(FadeOut(c2_box), FadeOut(top2), FadeOut(sol2_grp), run_time=0.8)
+
+        # =============================================================
+        # VÍ DỤ 3 (Vận dụng): TẬP HỢP SỐ CÓ QUY LUẬT CHỮ SỐ
+        # =============================================================
+        t_ex3_intro = timing.get("scene3_ex3_intro", 30.0)
+        t_ex3_sol = timing.get("scene3_ex3_sol", 52.0)
+
+        c3_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_AMBER, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
+        badge3 = Text("VÍ DỤ 3 (Mức Vận Dụng Cao)", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_ROSE)
+        head3 = Text("SỐ TỰ NHIÊN THỎA MÃN ĐIỀU KIỆN CHỮ SỐ", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_AMBER)
+        q3_t1 = Text("Đề bài: Viết tập hợp B các số tự nhiên có hai chữ số", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        q3_t2 = Text("sao cho chữ số hàng chục gấp 2 lần chữ số hàng đơn vị.", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+
+        top3 = VGroup(badge3, head3, q3_t1, q3_t2).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
+        top3.move_to([0, 0.7, 0])
+
+        self.play(FadeIn(c3_box, scale=0.96), run_time=0.8)
+        self.play(FadeIn(top3), run_time=1.2)
+
+        rem_intro3 = max(1.0, t_ex3_intro - 2.0)
+        self.wait(rem_intro3)
+
+        # Đếm ngược 45s VD3
+        t_bar_fill3 = Rectangle(width=8.0, height=0.35, fill_color=COLOR_ROSE, fill_opacity=0.9, stroke_width=0).move_to([0, -0.7, 0])
+        t_label3 = Text("⏰ THỜI GIAN TỰ SUY NGHĨ: 45 GIÂY", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_ROSE).next_to(t_bar_bg, UP, buff=0.15)
+        timer3_grp = VGroup(t_bar_bg, t_bar_fill3, t_label3)
+
+        self.play(FadeIn(timer3_grp), run_time=0.8)
+        self.play(t_bar_fill3.animate.stretch_to_fit_width(0.01, about_edge=LEFT), run_time=44.2, rate_func=linear)
+
+        t_done3 = Text("⏰ HẾT GIỜ! CÙNG QUAN SÁT LỜI GIẢI CHI TIẾT", font=FONT_FAMILY, font_size=24, weight=BOLD, color=COLOR_CYAN).move_to(t_label3.get_center())
+        self.play(Transform(t_label3, t_done3), run_time=0.8)
+        self.wait(1.5)
+
+        # Lời giải VD3
+        self.play(FadeOut(timer3_grp), top3.animate.shift(UP * 0.4).scale(0.95), run_time=0.8)
+
+        sol3_1 = Text("• Phân tích: Số dạng ab (a ≠ 0 ; a = 2b ; a ≤ 9)", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        sol3_2 = Text("• Các trường hợp: b ∈ {1; 2; 3; 4} → a ∈ {2; 4; 6; 8}", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        sol3_3 = Text("✓ Lời giải:   B = { 21; 42; 63; 84 }   (Đúng 4 phần tử)", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_EMERALD)
+        sol3_grp = VGroup(sol3_1, sol3_2, sol3_3).arrange(DOWN, aligned_edge=LEFT, buff=0.25).move_to([0, -1.0, 0])
+
+        self.play(FadeIn(sol3_grp, shift=UP), run_time=1.2)
+        rem_sol3 = max(1.0, t_ex3_sol - 4.3)
+        self.wait(rem_sol3)
 
 
 if __name__ == "__main__":
