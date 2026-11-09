@@ -27,6 +27,11 @@ COLOR_INDIGO = "#818cf8"
 COLOR_TEXT_MAIN = "#f8fafc"
 COLOR_TEXT_MUTED = "#94a3b8"
 FONT_FAMILY = "Arial"
+MATH_FONT = "Segoe UI Symbol"
+
+
+def math_text(expr, font_size=28, color=COLOR_TEXT_MAIN, weight=BOLD):
+    return Text(expr, font=MATH_FONT, font_size=font_size, weight=weight, color=color)
 
 
 class Scene5TongKet(Scene):
@@ -62,7 +67,13 @@ class Scene5TongKet(Scene):
         b1_2_sub = Text("   + Liệt kê trong ngoặc nhọn { } • Nêu tính chất đặc trưng", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
         
         b1_3 = Text("🌿 Nhánh 3: HAI KÝ HIỆU CỐT LÕI", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
-        b1_3_sub = Text("   + ∈ (Thuộc tập hợp) • ∉ (Không thuộc tập hợp)", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
+        b1_3_sub = VGroup(
+            Text("   + ", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN),
+            math_text("∈", font_size=28, color=COLOR_EMERALD),
+            Text(" (Thuộc tập hợp)  •  ", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN),
+            math_text("∉", font_size=28, color=COLOR_ROSE),
+            Text(" (Không thuộc tập hợp)", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN),
+        ).arrange(RIGHT, buff=0.08)
         
         b1_4 = Text("🌿 Nhánh 4: SƠ ĐỒ VEN", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_INDIGO)
         b1_4_sub = Text("   + Đường cong khép kín trực quan của John Venn", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)

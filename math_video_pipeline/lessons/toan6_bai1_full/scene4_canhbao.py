@@ -2,7 +2,7 @@
 SCENE 4: CẢNH BÁO 4 LỖI SAI KINH ĐIỂN KHI THI (CHUẨN CUỐN CHIẾU 15-20 PHÚT)
 Bài 1: Tập hợp - Phần tử của tập hợp (Toán 6 - Kết nối tri thức)
 Giáo viên: Thầy Thuấn Phan
-Quy chuẩn: 4 slide bẫy đề thi độc lập, so sánh ❌ SAI vs ✔️ ĐÚNG, Font size >= 28
+Quy chuẩn: 4 slide bẫy đề thi độc lập, so sánh ✗ SAI vs ✓ ĐÚNG, Font size >= 28
 """
 
 import os
@@ -26,7 +26,21 @@ COLOR_ROSE = "#f87171"
 COLOR_INDIGO = "#818cf8"
 COLOR_TEXT_MAIN = "#f8fafc"
 COLOR_TEXT_MUTED = "#94a3b8"
+
 FONT_FAMILY = "Arial"
+MATH_FONT = "Segoe UI Symbol"
+
+
+def math_text(expr, font_size=28, color=COLOR_TEXT_MAIN, weight=BOLD):
+    return Text(expr, font=MATH_FONT, font_size=font_size, weight=weight, color=color)
+
+
+def icon_wrong(font_size=28):
+    return math_text("✗", font_size=font_size, color=COLOR_ROSE)
+
+
+def icon_right(font_size=28):
+    return math_text("✓", font_size=font_size, color=COLOR_EMERALD)
 
 
 class Scene4CanhBao(Scene):
@@ -50,12 +64,20 @@ class Scene4CanhBao(Scene):
         # -------------------------------------------------------------
         # TRAP 1: ĐẶT TÊN BẰNG CHỮ THƯỜNG
         # -------------------------------------------------------------
-        t_t1 = timing.get("scene4_trap1", 35.0)
+        t_t1 = timing.get("scene4_trap1", 24.0)
         c1_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_ROSE, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
         t1_head = Text("BẪY 1: ĐẶT TÊN TẬP HỢP BẰNG CHỮ THƯỜNG", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
-        w1 = Text("❌ SAI:   a = { 1; 2; 3 }    (Dùng chữ in thường là vi phạm quy ước)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
-        r1 = Text("✔️ ĐÚNG:  A = { 1; 2; 3 }    (Bắt buộc dùng chữ cái IN HOA)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        w1 = VGroup(
+            icon_wrong(),
+            Text(" SAI:   a = { 1; 2; 3 }    (Dùng chữ in thường là vi phạm quy ước)", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_ROSE)
+        ).arrange(RIGHT, buff=0.12)
+        
+        r1 = VGroup(
+            icon_right(),
+            Text(" ĐÚNG:  A = { 1; 2; 3 }    (Bắt buộc dùng chữ cái IN HOA)", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_EMERALD)
+        ).arrange(RIGHT, buff=0.12)
+        
         note1 = Text("• Lưu ý: Chỉ dùng các chữ in hoa như A, B, C, M, N, X, Y...", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
         
         c1_content = VGroup(t1_head, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_ROSE), w1, r1, note1).arrange(DOWN, aligned_edge=LEFT, buff=0.35)
@@ -75,12 +97,20 @@ class Scene4CanhBao(Scene):
         # -------------------------------------------------------------
         # TRAP 2: LẶP LẠI PHẦN TỬ TRONG NGOẶC NHỌN
         # -------------------------------------------------------------
-        t_t2 = timing.get("scene4_trap2", 36.0)
+        t_t2 = timing.get("scene4_trap2", 20.784)
         c2_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_AMBER, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
         t2_head = Text("BẪY 2: LẶP LẠI PHẦN TỬ TRONG NGOẶC NHỌN", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
-        w2 = Text("❌ SAI:   E = { N; H; A; T; R; A; N; G }   (Lặp chữ A và chữ N)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
-        r2 = Text("✔️ ĐÚNG:  E = { N; H; A; T; R; G }   (Mỗi phần tử viết đúng 1 lần)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        w2 = VGroup(
+            icon_wrong(),
+            Text(" SAI:   E = { N; H; A; T; R; A; N; G }   (Lặp chữ A và chữ N)", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_ROSE)
+        ).arrange(RIGHT, buff=0.12)
+        
+        r2 = VGroup(
+            icon_right(),
+            Text(" ĐÚNG:  E = { N; H; A; T; R; G }   (Mỗi phần tử viết đúng 1 lần)", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_EMERALD)
+        ).arrange(RIGHT, buff=0.12)
+        
         note2 = Text("• Quy tắc bất biến: Dù phần tử xuất hiện bao nhiêu lần trong từ,", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
         note2_2 = Text("  khi viết vào tập hợp chỉ được ghi DUY NHẤT MỘT LẦN!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
         
@@ -101,12 +131,20 @@ class Scene4CanhBao(Scene):
         # -------------------------------------------------------------
         # TRAP 3: DÙNG DẤU PHẨY THAY CHO CHẤM PHẨY
         # -------------------------------------------------------------
-        t_t3 = timing.get("scene4_trap3", 35.0)
+        t_t3 = timing.get("scene4_trap3", 20.304)
         c3_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_CYAN, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
         t3_head = Text("BẪY 3: DÙNG DẤU PHẨY THAY CHO CHẤM PHẨY", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_CYAN)
-        w3 = Text("❌ SAI:   { 1, 2 }    (Dễ bị đọc nhầm thành số thập phân 1,2)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
-        r3 = Text("✔️ ĐÚNG:  { 1; 2 }    (Bắt buộc dùng dấu chấm phẩy ;)", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
+        w3 = VGroup(
+            icon_wrong(),
+            Text(" SAI:   { 1, 2 }    (Dễ bị đọc nhầm thành số thập phân 1,2)", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_ROSE)
+        ).arrange(RIGHT, buff=0.12)
+        
+        r3 = VGroup(
+            icon_right(),
+            Text(" ĐÚNG:  { 1; 2 }    (Bắt buộc dùng dấu chấm phẩy ;)", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_EMERALD)
+        ).arrange(RIGHT, buff=0.12)
+        
         note3 = Text("• Khi các phần tử là số: Luôn dùng dấu chấm phẩy ( ; )", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
         note3_2 = Text("  để phân biệt rành mạch, tránh nhầm lẫn đáng tiếc!", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
         
@@ -127,13 +165,25 @@ class Scene4CanhBao(Scene):
         # -------------------------------------------------------------
         # TRAP 4: BẪY ĐIỀU KIỆN BIÊN BẤT ĐẲNG THỨC
         # -------------------------------------------------------------
-        t_t4 = timing.get("scene4_trap4", 36.0)
+        t_t4 = timing.get("scene4_trap4", 20.544)
         c4_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_INDIGO, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
         t4_head = Text("BẪY 4: ĐIỀU KIỆN BIÊN CỦA DẤU BẤT ĐẲNG THỨC", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_AMBER)
-        w4 = Text("❌ SAI:   x < 5 mà vẫn ghi số 5 vào:  { 0; 1; 2; 3; 4; 5 }", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE)
-        r4 = Text("✔️ ĐÚNG:  x < 5 chỉ lấy đến 4:  { 0; 1; 2; 3; 4 }", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD)
-        note4 = Text("• Chú ý: Dấu '<' không lấy số biên; Dấu '≤' mới được lấy số biên!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN)
+        w4 = VGroup(
+            icon_wrong(),
+            Text(" SAI:   x < 5 mà vẫn ghi số 5 vào:  { 0; 1; 2; 3; 4; 5 }", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_ROSE)
+        ).arrange(RIGHT, buff=0.12)
+        
+        r4 = VGroup(
+            icon_right(),
+            Text(" ĐÚNG:  x < 5 chỉ lấy đến 4:  { 0; 1; 2; 3; 4 }", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_EMERALD)
+        ).arrange(RIGHT, buff=0.12)
+        
+        note4 = VGroup(
+            Text("• Chú ý: Dấu '<' không lấy số biên; Dấu ", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN),
+            math_text("≤", font_size=30, color=COLOR_AMBER),
+            Text(" mới được lấy số biên!", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN),
+        ).arrange(RIGHT, buff=0.08)
         
         c4_content = VGroup(t4_head, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_INDIGO), w4, r4, note4).arrange(DOWN, aligned_edge=LEFT, buff=0.35)
         c4_content.move_to(c4_box.get_center())
