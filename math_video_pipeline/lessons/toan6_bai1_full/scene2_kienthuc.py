@@ -177,29 +177,41 @@ class Scene2KienThuc(Scene):
         t_s5 = timing.get("scene2_slide5", 46.0)
         c5_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_EMERALD, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
         
-        c5_title = Text("4. KÝ HIỆU THUỘC (∈) VÀ KHÔNG THUỘC (∉)", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_CYAN)
-        c5_sub = Text("Mối quan hệ cốt lõi giữa phần tử và tập hợp", font=FONT_FAMILY, font_size=26, weight=SEMIBOLD, color=COLOR_TEXT_MUTED)
+        c5_title = VGroup(
+            Text("4. KÝ HIỆU THUỘC (", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN),
+            math_text("∈", font_size=30, color=COLOR_CYAN),
+            Text(") VÀ KHÔNG THUỘC (", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN),
+            math_text("∉", font_size=30, color=COLOR_CYAN),
+            Text(")", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_CYAN),
+        ).arrange(RIGHT, buff=0.08)
+        c5_sub = Text("Mối quan hệ cốt lõi giữa phần tử và tập hợp", font=FONT_FAMILY, font_size=25, weight=SEMIBOLD, color=COLOR_TEXT_MUTED)
         
         row_in = VGroup(
-            Text("• Ký hiệu Thuộc: ", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_EMERALD),
-            math_text("3 ∈ A", font_size=34, color=COLOR_EMERALD)
+            Text("• Ký hiệu Thuộc: ", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_EMERALD),
+            math_text("3 ∈ A", font_size=32, color=COLOR_EMERALD)
         ).arrange(RIGHT, buff=0.2)
-        desc_in = Text("   → Đọc là: '3 thuộc tập hợp A' (3 là phần tử của A)", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        desc_in = Text("   → Đọc là: '3 thuộc tập hợp A' (3 là phần tử của A)", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
         
         row_out = VGroup(
-            Text("• Ký hiệu Không thuộc: ", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_ROSE),
-            math_text("5 ∉ A", font_size=34, color=COLOR_ROSE)
+            Text("• Ký hiệu Không thuộc: ", font=FONT_FAMILY, font_size=27, weight=BOLD, color=COLOR_ROSE),
+            math_text("5 ∉ A", font_size=32, color=COLOR_ROSE)
         ).arrange(RIGHT, buff=0.2)
-        desc_out = Text("   → Đọc là: '5 không thuộc tập A' (5 không là phần tử của A)", font=FONT_FAMILY, font_size=28, color=COLOR_TEXT_MAIN)
+        desc_out = Text("   → Đọc là: '5 không thuộc tập A' (5 không là phần tử của A)", font=FONT_FAMILY, font_size=26, color=COLOR_TEXT_MAIN)
         
-        warn = Text("⚠️ Chú ý: ∈ và ∉ chỉ dùng giữa PHẦN TỬ và TẬP HỢP", font=FONT_FAMILY, font_size=28, weight=BOLD, color=COLOR_AMBER)
+        warn = VGroup(
+            Text("• Chú ý:  ", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_AMBER),
+            math_text("∈", font_size=28, color=COLOR_EMERALD),
+            Text("  và  ", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_AMBER),
+            math_text("∉", font_size=28, color=COLOR_ROSE),
+            Text("  chỉ dùng giữa PHẦN TỬ và TẬP HỢP", font=FONT_FAMILY, font_size=26, weight=BOLD, color=COLOR_AMBER)
+        ).arrange(RIGHT, buff=0.08)
         
         c5_content = VGroup(c5_title, c5_sub, Line(LEFT*4.5, RIGHT*4.5, stroke_width=1, color=COLOR_EMERALD), row_in, desc_in, row_out, desc_out, warn).arrange(DOWN, aligned_edge=LEFT, buff=0.22)
         c5_content.move_to(c5_box.get_center())
         card5 = VGroup(c5_box, c5_content)
 
         self.play(FadeIn(c5_box, scale=0.96), run_time=0.8)
-        self.play(Write(c5_title), FadeIn(c5_sub, shift=UP), run_time=1.0)
+        self.play(FadeIn(c5_title, shift=DOWN*0.1), FadeIn(c5_sub, shift=UP), run_time=1.0)
         self.play(FadeIn(row_in, shift=RIGHT), FadeIn(desc_in, shift=RIGHT), run_time=1.0)
         self.play(FadeIn(row_out, shift=RIGHT), FadeIn(desc_out, shift=RIGHT), run_time=1.0)
         self.play(FadeIn(warn, scale=1.05), run_time=0.8)

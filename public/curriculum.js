@@ -23,7 +23,7 @@ const CURRICULUM_KNTT = {
         lessonVideos: {
       "Bài 1: Tập hợp": {
         "type": "ai_video",
-        "videoUrl": "/videos/Toan6_TietDay_Bai1_Full15m.mp4?v=15m_v2",
+        "videoUrl": "/videos/Toan6_TietDay_Bai1_Full15m.mp4?v=15m_v3",
         "title": "Toán 6 - Bài 1: Tiết dạy toàn diện Tập hợp (Chuẩn sư phạm 15 phút)",
         "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
         "duration": "13:48",
@@ -518,7 +518,7 @@ const AUTHENTIC_LESSON_VIDEOS = {
     "c1_6": {
       "Bài 1: Tập hợp": {
         "type": "ai_video",
-        "videoUrl": "/videos/Toan6_TietDay_Bai1_Full15m.mp4?v=15m_v2",
+        "videoUrl": "/videos/Toan6_TietDay_Bai1_Full15m.mp4?v=15m_v3",
         "title": "Toán 6 - Bài 1: Tiết dạy toàn diện Tập hợp (Chuẩn sư phạm 15 phút)",
         "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
         "duration": "13:48",
