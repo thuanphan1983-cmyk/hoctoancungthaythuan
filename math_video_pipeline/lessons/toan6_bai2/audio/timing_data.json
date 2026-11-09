@@ -1,0 +1,22 @@
+{
+  "scene1_slide1": 11.928,
+  "scene1_slide2": 12.048,
+  "scene1": 23.976,
+  "scene2_slide1": 12.936,
+  "scene2_slide2": 14.496,
+  "scene2": 27.432,
+  "scene3_ex1_intro": 9.456,
+  "scene3_ex1_timer": 45.0,
+  "scene3_ex1_sol": 11.904,
+  "scene3_ex2_intro": 7.728,
+  "scene3_ex2_timer": 45.0,
+  "scene3_ex2_sol": 11.976,
+  "scene3_ex3_intro": 10.296,
+  "scene3_ex3_timer": 45.0,
+  "scene3_ex3_sol": 12.408,
+  "scene3": 198.912,
+  "scene4_trap1": 10.128,
+  "scene4_trap2": 6.84,
+  "scene4": 16.968,
+  "scene5": 10.752
+}
