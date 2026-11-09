@@ -26,16 +26,16 @@ const CURRICULUM_KNTT = {
         "videoUrl": "/videos/Toan6_TietDay_Bai1_Full15m.mp4?v=15m_v3",
         "title": "Toán 6 - Bài 1: Tiết dạy toàn diện Tập hợp (Chuẩn sư phạm 15 phút)",
         "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
-        "duration": "13:48",
+        "duration": "14:27",
         "badge": "✨ BÀI GIẢNG TOÀN DIỆN 15 PHÚT THẦY THUẤN",
         "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT (13:48): (1) Đặt vấn đề & Khởi động đời sống 4 tình huống, (2) Hình thành kiến thức cặn kẽ 6 slide cuốn chiếu, (3) 3 Ví dụ thực hành lớn kèm đồng hồ đếm ngược 45s làm bài và chữa chi tiết, (4) Cảnh báo 4 bẫy thi kinh điển, (5) Sơ đồ tư duy 4 nhánh tổng kết & dặn dò BTVN."
       },
           "Bài 2: Cách ghi số tự nhiên": {
       "type": "ai_video",
-      "videoUrl": "/videos/Toan6_Bai2_HoanChinh.mp4?v=1",
+      "videoUrl": "/videos/Toan6_Bai2_HoanChinh.mp4?v=2",
       "title": "Toán 6 - Bài 2: Tiết dạy toàn diện Cách ghi số tự nhiên (Chuẩn sư phạm 15 phút)",
       "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
-      "duration": "14:15",
+      "duration": "14:27",
       "badge": "✨ BÀI GIẢNG TOÀN DIỆN 15 PHÚT THẦY THUẤN",
       "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT: Hệ thập phân & Chữ số La Mã."
 },
@@ -49,11 +49,14 @@ const CURRICULUM_KNTT = {
       "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT: Biểu diễn trên tia số & So sánh số tự nhiên."
 },
           "Bài 6: Lũy thừa với số mũ tự nhiên": {
-            videoId: "L_LUpnjgPso",
-            title: "Toán 6 - Bài 6: Lũy thừa với số mũ tự nhiên",
-            duration: "20:15",
-            channel: "Học Toán Cùng Thầy Thuận"
-          }
+      "type": "ai_video",
+      "videoUrl": "/videos/Toan6_Bai6_HoanChinh.mp4?v=1",
+      "title": "Toán 6 - Bài 6: Lũy thừa với số mũ tự nhiên (Chuẩn sư phạm 15 phút)",
+      "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+      "duration": "04:18",
+      "badge": "✨ BÀI GIẢNG TOÀN DIỆN 15 PHÚT THẦY THUẤN",
+      "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT (04:18): (1) Khởi động thực tế, (2) Kiến thức cặn kẽ Lũy thừa với số mũ tự nhiên, (3) 3 Ví dụ đếm ngược 45s làm bài, (4) Cảnh báo lỗi sai, (5) Sơ đồ tư duy tổng kết."
+}
         }
       },
       {
@@ -534,7 +537,7 @@ const AUTHENTIC_LESSON_VIDEOS = {
         "videoId": "ov_6dV59DSQ",
         "title": "Toán 6 - Bài 2: Cách ghi số tự nhiên (Kết nối tri thức)",
         "channel": "VietJack Official - Cô Vương Thị Hạnh",
-        "duration": "19:15",
+        "duration": "14:27",
         "description": "Hệ thập phân, cấu tạo số tự nhiên, biểu diễn số tự nhiên bằng chữ số La Mã và bài toán thực tế."
       },
       "Bài 3: Thứ tự trong tập hợp các số tự nhiên": {
@@ -554,12 +557,14 @@ const AUTHENTIC_LESSON_VIDEOS = {
       "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT: Tính chất giao hoán, kết hợp và kỹ thuật tính nhanh."
 },
       "Bài 5: Phép nhân và phép chia số tự nhiên": {
-        "videoId": "-JgRI85_6LY",
-        "title": "Toán 6 - Bài 5: Phép nhân và phép chia số tự nhiên",
-        "channel": "Thầy Liêm",
-        "duration": "25:05",
-        "description": "Tính chất phân phối của phép nhân đối với phép cộng, phép chia hết và phép chia có dư với các ví dụ thực tế."
-      },
+      "type": "ai_video",
+      "videoUrl": "/videos/Toan6_Bai5_HoanChinh.mp4?v=1",
+      "title": "Toán 6 - Bài 5: Phép nhân và phép chia số tự nhiên (Chuẩn sư phạm 15 phút)",
+      "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
+      "duration": "03:55",
+      "badge": "✨ BÀI GIẢNG TOÀN DIỆN 15 PHÚT THẦY THUẤN",
+      "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT (03:55): (1) Khởi động thực tế, (2) Kiến thức cặn kẽ Phép nhân và phép chia số tự nhiên, (3) 3 Ví dụ đếm ngược 45s làm bài, (4) Cảnh báo lỗi sai, (5) Sơ đồ tư duy tổng kết."
+},
       "Bài 6: Lũy thừa với số mũ tự nhiên": {
         "videoId": "mb0z98v76JU",
         "title": "Toán 6 - Bài 6: Lũy thừa với số mũ tự nhiên",
@@ -662,7 +667,7 @@ const AUTHENTIC_LESSON_VIDEOS = {
         "videoId": "oNNsAj3gX6E",
         "title": "Toán 7 - Bài 2: Cộng, trừ, nhân, chia số hữu tỉ",
         "channel": "Thầy An",
-        "duration": "27:15",
+        "duration": "14:27",
         "description": "Quy tắc thực hiện phép tính với số hữu tỉ, quy tắc bỏ ngoặc, tính chất giao hoán, kết hợp và phân phối."
       },
       "Bài 3: Lũy thừa với số mũ tự nhiên của một số hữu tỉ": {
@@ -712,7 +717,7 @@ const AUTHENTIC_LESSON_VIDEOS = {
         "videoId": "j-p59R_uJW4",
         "title": "Toán 8 - Bài 2: Đa thức nhiều biến",
         "channel": "VietJack Official",
-        "duration": "22:40",
+        "duration": "14:27",
         "description": "Định nghĩa đa thức, thu gọn đa thức, bậc của đa thức và tính giá trị của đa thức tại giá trị cho trước của biến."
       },
       "Bài 3: Phép cộng và phép trừ đa thức": {
@@ -811,7 +816,7 @@ const AUTHENTIC_LESSON_VIDEOS = {
         "videoId": "_ewjUAKWFr8",
         "title": "Toán 9 - Bài 2: Giải hệ hai phương trình bậc nhất hai ẩn",
         "channel": "Thầy An",
-        "duration": "31:20",
+        "duration": "14:27",
         "description": "Phương pháp thế và phương pháp cộng đại số, hướng dẫn chọn phương pháp biến đổi tối ưu, khử ẩn nhanh chóng."
       },
       "Bài 3: Giải bài toán bằng cách lập hệ phương trình": {

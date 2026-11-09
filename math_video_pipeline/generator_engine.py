@@ -32,7 +32,7 @@ COLOR_ROSE = "#f87171"
 COLOR_INDIGO = "#818cf8"
 COLOR_TEXT_MAIN = "#f8fafc"
 COLOR_TEXT_MUTED = "#94a3b8"
-FONT_FAMILY = "Arial"
+FONT_FAMILY = "Arial Unicode MS"
 MATH_FONT = "Segoe UI Symbol"
 
 def math_text(expr, font_size=24, color=COLOR_TEXT_MAIN, weight=BOLD):
