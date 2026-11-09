@@ -41,13 +41,13 @@ const CURRICULUM_KNTT = {
 },
           "Bài 3: Thứ tự trong tập hợp các số tự nhiên": {
       "type": "ai_video",
-      "videoUrl": "/videos/Toan6_Bai3_HoanChinh.mp4?v=1",
+      "videoUrl": "/videos/Toan6_Bai3_HoanChinh.mp4?v=15m",
       "title": "Toán 6 - Bài 3: Tiết dạy toàn diện Thứ tự trong tập hợp các số tự nhiên (Chuẩn sư phạm 15 phút)",
-      "channel": "Học Toán Cùng Thầy Thuấn Phan • AI Animation",
-      "duration": "14:10",
-      "badge": "✨ BÀI GIẢNG TOÀN DIỆN 15 PHÚT THẦY THUẤN",
-      "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT: Biểu diễn trên tia số & So sánh số tự nhiên."
-},
+      "channel": "Học Toán Cùng Thầy Thuận Phan • AI Animation",
+      "duration": "15:25",
+      "badge": "⭐ BÀI GIẢNG TOÀN DIỆN 15 PHÚT THẦY THUẬN",
+      "description": "Tiết học trực quan toàn diện chuẩn sư phạm Bộ GD&ĐT (15:25) kèm Mascot Chibi Thầy Thuận: (1) Khởi động thực tế 4 tình huống đời sống, (2) Kiến thức cặn kẽ tia số & quy tắc so sánh số tự nhiên, (3) 3 Ví dụ phân hóa kèm đếm ngược 45s làm bài & chữa chi tiết, (4) Cảnh báo 4 bẫy sai lầm kinh điển, (5) Sơ đồ tư duy tổng kết & dặn dò BTVN."
+    },
           "Bài 6: Lũy thừa với số mũ tự nhiên": {
       "type": "ai_video",
       "videoUrl": "/videos/Toan6_Bai6_HoanChinh.mp4?v=1",

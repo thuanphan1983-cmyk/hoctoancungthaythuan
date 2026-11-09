@@ -146,148 +146,231 @@
   },
   {
     "id": 3,
-    "chapter_id": "c1_6",
-    "chapter_title": "Chương I: Tập hợp các số tự nhiên",
+    "chapter_id": "chuong1_toan6",
+    "chapter_title": "CHƯƠNG I: TẬP HỢP CÁC SỐ TỰ NHIÊN",
     "lesson_key": "Bài 3: Thứ tự trong tập hợp các số tự nhiên",
     "lesson_title": "Thứ tự trong tập hợp các số tự nhiên",
     "video_filename": "Toan6_Bai3_HoanChinh.mp4",
     "part1": {
-      "title": "Phần 1: Đặt Vấn Đề & Khởi Động Thực Tế",
       "slides": [
         {
-          "heading": "HỌC TOÁN CÙNG THẦY THUẤN PHAN",
-          "sub": "Toán 6 • Kết Nối Tri Thức Với Cuộc Sống",
-          "bullets": [
-            "Bài 3: Thứ tự trong tập số tự nhiên",
-            "Tia số gốc 0 & so sánh số",
-            "Số liền trước và số liền sau"
+          "heading": "1. KHỞI ĐỘNG: BẢNG XẾP HẠNG VÀ THỨ TỰ ĐỜI SỐNG",
+          "sub": "Trong đời sống, việc so sánh và sắp xếp thứ tự diễn ra liên tục hàng ngày",
+          "items": [
+            "Xếp thứ tự điểm số của các đội bóng trên bảng xếp hạng thể thao",
+            "Đo chiều cao các học sinh trong lớp để sắp xếp hàng tập thể dục",
+            "Thứ tự số thứ tự tại quầy bốc thăm, bệnh viện, sân bay hoặc ngân hàng",
+            "Làm thế nào để so sánh chuẩn xác hai số tự nhiên bất kỳ trong toán học?"
           ],
-          "voice": "Chào mừng các em! Hôm nay chúng ta học Bài 3: Thứ tự trong tập hợp các số tự nhiên. Cùng biểu diễn số trên tia số nhé!"
+          "voice_script": "Chào mừng các em học sinh khối 6 thân yêu đã đến với lớp học trực tuyến của Thầy Thuận! Trong cuộc sống hàng ngày, chắc hẳn các em đã rất quen thuộc với việc xếp thứ tự: như bảng xếp hạng bóng đá sau mỗi vòng đấu, xếp hàng theo chiều cao khi học thể dục, hay bốc số thứ tự khi đến ngân hàng, bệnh viện. Tất cả những tình huống thực tế đó đều gắn liền với khái niệm thứ tự của các con số. Hôm nay, Thầy và các em sẽ cùng nhau tìm hiểu cặn kẽ Bài 3: Thứ tự trong tập hợp các số tự nhiên!"
         },
         {
-          "heading": "THỨ TỰ TRONG ĐỜI SỐNG",
-          "sub": "Trật tự từ nhỏ đến lớn",
-          "bullets": [
-            "Số tuổi các thành viên trong gia đình",
-            "Thứ tự xếp hàng vào lớp",
-            "Bảng xếp hạng điểm số từ thấp đến cao"
+          "heading": "2. TÌNH HUỐNG THỰC TẾ: ĐỘ CAO CÁC ĐỈNH NÚI TẠI VIỆT NAM",
+          "sub": "So sánh độ cao các đỉnh núi hùng vĩ của quê hương đất nước",
+          "items": [
+            "Đỉnh Phan Xi Păng (Lào Cai): cao 3.143 mét so với mực nước biển",
+            "Đỉnh Pu Si Lung (Lai Châu): cao 3.083 mét",
+            "Đỉnh Pu Ta Leng (Lai Châu): cao 3.049 mét",
+            "Làm sao để biết đỉnh núi nào cao nhất và sắp xếp theo thứ tự giảm dần?"
           ],
-          "voice": "Trong cuộc sống mọi thứ đều có thứ tự: số tuổi, số thứ tự hàng ngũ. Trong Toán học, các số tự nhiên cũng có thứ tự tuyệt đối trên tia số."
+          "voice_script": "Các em hãy cùng quan sát một bài toán thực tế rất thú vị về độ cao các ngọn núi hùng vĩ tại Việt Nam. Đỉnh Phan Xi Păng nóc nhà Đông Dương cao 3.143 mét; đỉnh Pu Si Lung cao 3.083 mét; và đỉnh Pu Ta Leng cao 3.049 mét. Để biết đỉnh núi nào cao nhất, đỉnh nào đứng thứ hai và thứ ba, chúng ta phải so sánh các con số này. Vậy quy tắc toán học nào giúp ta so sánh chính xác và biểu diễn thứ tự của chúng một cách trực quan nhất? Chúng ta hãy cùng bước vào phần hình thành kiến thức trọng tâm!"
+        },
+        {
+          "heading": "3. TÌNH HUỐNG KINH TẾ: DÂN SỐ CÁC ĐÔ THỊ LỚN",
+          "sub": "So sánh quy mô dân số và số lượng hàng hóa sản xuất",
+          "items": [
+            "Quy mô dân số các thành phố lớn lên tới hàng triệu, chục triệu người",
+            "Khi các số có nhiều chữ số khác nhau, ta so sánh như thế nào?",
+            "Số có 7 chữ số luôn bé hơn số có 8 chữ số",
+            "Biểu diễn thứ tự giúp các nhà quản lý đưa ra quyết định chính xác"
+          ],
+          "voice_script": "Không chỉ trong địa lý, trong kinh tế và xã hội, các con số thống kê dân số, doanh thu hay sản lượng lên tới hàng triệu, hàng tỷ đơn vị. Khi đứng trước các con số khổng lồ, việc nắm vững bản chất về số chữ số và thứ tự trên tia số sẽ giúp các em không bao giờ bị nhầm lẫn hay tính toán sai sót."
+        },
+        {
+          "heading": "4. MỤC TIÊU CẦN ĐẠT CỦA BÀI HỌC",
+          "sub": "Chuẩn đầu ra môn Toán 6 theo chương trình giáo dục phổ thông 2018",
+          "items": [
+            "Hiểu rõ khái niệm tia số và cách biểu diễn số tự nhiên trên tia số",
+            "Nắm vững quy tắc so sánh hai số tự nhiên trong hệ thập phân",
+            "Phân biệt thành thạo số liền trước, số liền sau và tính chất bắc cầu",
+            "Vận dụng giải thành thạo bài toán thực tế và tránh mọi bẫy thi thường gặp"
+          ],
+          "voice_script": "Sau bài học ngày hôm nay, các em sẽ đạt được 4 mục tiêu trọng tâm: Thứ nhất, hiểu sâu sắc về tia số và chiều biểu diễn số tự nhiên. Thứ hai, làm chủ quy tắc so sánh số tự nhiên nhiều chữ số. Thứ ba, hiểu đúng bản chất số liền trước, liền sau và tính chất bắc cầu. Và thứ tư, tự tin xử lý trọn vẹn các bài tập thực hành cũng như tránh được những bẫy sai lầm phổ biến nhất."
         }
       ]
     },
     "part2": {
-      "title": "Phần 2: Hình Thành Kiến Thức Mới",
       "slides": [
         {
-          "heading": "1. TIA SỐ & QUY TẮC SO SÁNH",
-          "sub": "Biểu diễn hình học của số tự nhiên",
+          "heading": "1. TIA SỐ VÀ CHIỀU BIỂU DIỄN SỐ TỰ NHIÊN",
+          "sub": "Mô hình trực quan nhất của tập hợp các số tự nhiên",
           "items": [
-            "• Gốc tia số là điểm 0, mũi tên sang phải.",
-            "• Điểm a nằm bên trái điểm b thì a < b.",
-            "• Tính chất bắc cầu: a < b và b < c ⇒ a < c.",
-            "• Ký hiệu a ≤ b nghĩa là a < b hoặc a = b."
+            "Tia số là tia Ox xuất phát từ gốc O (biểu diễn số 0), kéo dài vô tận về bên phải",
+            "Mỗi số tự nhiên được biểu diễn bởi một điểm trên tia số",
+            "Điểm biểu diễn số a trên tia số gọi tắt là điểm a",
+            "Khoảng cách giữa các điểm 0, 1, 2, 3, 4,... là các đoạn đơn vị bằng nhau"
           ],
-          "voice": "Trên tia số nằm ngang, điểm bên trái luôn nhỏ hơn điểm bên phải. Nếu a nhỏ hơn b và b nhỏ hơn c thì a nhỏ hơn c."
+          "voice_script": "Mục 1, chúng ta tìm hiểu về Tia số. Người ta dùng một tia số để biểu diễn trực quan các số tự nhiên. Tia số có điểm gốc là gốc O, tương ứng với số không. Chiều mũi tên từ trái sang phải gọi là chiều dương hay chiều tăng dần của tia số. Trên tia số, ta chia các đoạn thẳng có độ dài bằng nhau gọi là đơn vị. Mỗi số tự nhiên không, một, hai, ba được đánh dấu tại một vạch chia. Điểm biểu diễn số a ta gọi tắt là điểm a."
         },
         {
-          "heading": "2. SỐ LIỀN TRƯỚC VÀ LIỀN SAU",
-          "sub": "Khoảng cách đúng 1 đơn vị",
+          "heading": "2. SO SÁNH HAI SỐ TỰ NHIÊN TRÊN TIA SỐ",
+          "sub": "Vị trí hình học quyết định quan hệ lớn hơn hoặc nhỏ hơn",
           "items": [
-            "• Hai số tự nhiên liên tiếp hơn kém nhau 1 đơn vị.",
-            "• Số liền sau của n là n + 1.",
-            "• Số liền trước của n (n ≠ 0) là n - 1.",
-            "• Số 0 là số tự nhiên nhỏ nhất, không có số liền trước."
+            "Trong hai số tự nhiên khác nhau, luôn có một số nhỏ hơn số kia",
+            "Nếu số a nhỏ hơn số b, ta viết a < b hoặc b > a",
+            "Trên tia số nằm ngang, nếu điểm a nằm bên trái điểm b thì a < b",
+            "Ví dụ: Điểm 3 nằm bên trái điểm 7 trên tia số, do đó 3 < 7"
           ],
-          "voice": "Số liền sau của n là n cộng 1, số liền trước là n trừ 1. Số không là số tự nhiên nhỏ nhất và không có số liền trước."
+          "voice_script": "Mục 2: So sánh hai số tự nhiên trên tia số. Trong hai số tự nhiên khác nhau, chắc chắn luôn có một số nhỏ hơn số kia. Nếu số a nhỏ hơn số b, ta viết là a nhỏ hơn b, hoặc viết ngược lại là b lớn hơn a. Về mặt hình học trên tia số nằm ngang có chiều từ trái sang phải: điểm nào nằm bên trái thì biểu diễn số nhỏ hơn; điểm nào nằm bên phải thì biểu diễn số lớn hơn. Chẳng hạn, điểm 3 nằm bên trái điểm 7, vì thế ta có 3 nhỏ hơn 7."
+        },
+        {
+          "heading": "3. KÝ HIỆU NHỎ HƠN HOẶC BẰNG (<=) VÀ LỚN HƠN HOẶC BẰNG (>=)",
+          "sub": "Mở rộng bất đẳng thức thường dùng trong đại số",
+          "items": [
+            "Ký hiệu a <= b đọc là: a nhỏ hơn hoặc bằng b (nghĩa là a < b hoặc a = b)",
+            "Ký hiệu a >= b đọc là: a lớn hơn hoặc bằng b (nghĩa là a > b hoặc a = b)",
+            "Ví dụ: Tập hợp x thuộc N sao cho x <= 3 gồm các phần tử: {0, 1, 2, 3}",
+            "Bất đẳng thức kép a <= x < b: x lớn hơn hoặc bằng a và đồng thời nhỏ hơn b"
+          ],
+          "voice_script": "Mục 3: Các ký hiệu so sánh mở rộng. Ngoài dấu lớn hơn và nhỏ hơn thông thường, toán học lớp 6 giới thiệu hai ký hiệu rất quan trọng: dấu nhỏ hơn hoặc bằng và dấu lớn hơn hoặc bằng. Ký hiệu a nhỏ hơn hoặc bằng b có nghĩa là a nhỏ hơn b hoặc a bằng b. Chỉ cần một trong hai điều kiện xảy ra thì mệnh đề đó đều đúng. Ví dụ, nếu x là số tự nhiên và x nhỏ hơn hoặc bằng 3, thì x có thể nhận các giá trị là không, một, hai, và cả số ba nữa các em nhé."
+        },
+        {
+          "heading": "4. TÍNH CHẤT BẮC CẦU CỦA QUAN HỆ THỨ TỰ",
+          "sub": "Công cụ suy luận logic cơ bản trong toán học",
+          "items": [
+            "Nếu a < b và b < c thì ta suy ra a < c",
+            "Tính chất này đúng với cả các quan hệ <=, >, >=",
+            "Ví dụ: Vì 125 < 200 và 200 < 350 nên chắc chắn 125 < 350",
+            "Ứng dụng để so sánh các số trung gian và sắp xếp dãy số dài"
+          ],
+          "voice_script": "Mục 4: Tính chất bắc cầu. Quan hệ thứ tự trong tập số tự nhiên có tính chất bắc cầu rất đẹp đẽ: Nếu số a nhỏ hơn số b, và số b lại nhỏ hơn số c, thì ta kết luận chắc chắn số a nhỏ hơn số c. Tính chất này giống như một cây cầu nối giúp các em so sánh hai số phức tạp thông qua một số trung gian dễ tính hơn."
+        },
+        {
+          "heading": "5. SỐ LIỀN TRƯỚC VÀ SỐ LIỀN SAU - SỐ TỰ NHIÊN ĐẶC BIỆT",
+          "sub": "Quan hệ giữa hai số tự nhiên liên tiếp",
+          "items": [
+            "Nếu a < b và không có số tự nhiên nào nằm giữa a và b thì b là số liền sau của a",
+            "Khi đó, a được gọi là số liền trước của b; a và b là hai số tự nhiên liên tiếp",
+            "Số liền sau của số a là a + 1; số liền trước của số a (với a > 0) là a - 1",
+            "Đặc biệt: Số 0 là số tự nhiên nhỏ nhất và KHÔNG có số liền trước; Không có số lớn nhất"
+          ],
+          "voice_script": "Mục 5: Số liền trước và số liền sau. Hai số tự nhiên liên tiếp luôn hơn kém nhau đúng 1 đơn vị. Nếu b là số liền sau của a thì b bằng a cộng 1, và ngược lại a là số liền trước của b, tức là a bằng b trừ 1. Thầy đặc biệt lưu ý các em: Số không là số tự nhiên nhỏ nhất trong tập N. Vì đứng đầu tiên nên số không không có số liền trước! Ngược lại, tập hợp số tự nhiên là vô hạn, nên không có số tự nhiên nào lớn nhất."
+        },
+        {
+          "heading": "6. QUY TẮC SO SÁNH HAI SỐ TỰ NHIÊN TRONG HỆ THẬP PHÂN",
+          "sub": "Phương pháp chuẩn để so sánh các số có nhiều chữ số",
+          "items": [
+            "Bước 1: Đếm số chữ số. Số nào có nhiều chữ số hơn thì số đó lớn hơn",
+            "Bước 2: Nếu hai số có cùng số chữ số, so sánh từng cặp chữ số ở cùng một hàng",
+            "So sánh lần lượt từ trái sang phải (bắt đầu từ hàng cao nhất)",
+            "Ở hàng nào có chữ số lớn hơn thì số chứa chữ số đó sẽ lớn hơn"
+          ],
+          "voice_script": "Mục 6: Quy tắc so sánh hai số tự nhiên nhiều chữ số. Khi so sánh hai số trong hệ thập phân, các em thực hiện đúng hai bước sau: Bước 1, đếm số chữ số. Số nào có nhiều chữ số hơn thì lập tức lớn hơn, ví dụ số có 6 chữ số luôn lớn hơn số có 5 chữ số. Bước 2, nếu hai số có cùng số chữ số, ta so sánh từng cặp chữ số ở cùng hàng tính từ trái sang phải. Cặp chữ số đầu tiên khác nhau sẽ quyết định số nào lớn hơn."
         }
       ]
     },
     "part3": {
-      "title": "Phần 3: Ba Ví Dụ Minh Họa & Đếm Ngược 45s",
       "examples": [
         {
           "badge": "VÍ DỤ 1 (Mức Nhận Biết)",
-          "head": "TÌM SỐ LIỀN TRƯỚC VÀ LIỀN SAU",
-          "lead": "Đề bài: Điền số thích hợp vào chỗ trống:",
-          "question_a": "a) Số liền trước của 100 và số liền sau của 999.",
-          "question_b": "b) Ba số tự nhiên liên tiếp tăng dần biết số ở giữa là 2024:",
+          "head": "ĐIỀN DẤU THÍCH HỢP VÀ TÌM SỐ LIỀN TRƯỚC, LIỀN SAU",
+          "lead": "Cho các số tự nhiên: 2026; 2025; 1999 và 10000. Hãy thực hiện:",
+          "question_a": "a) Điền dấu (<, >, =) thích hợp vào ô trống: 2026 ... 2025  và  1999 ... 10000",
+          "question_b": "b) Tìm số liền trước của số 2026 và số liền sau của số 1999",
           "blank_items": [
-            "Liền trước 100: [ ... ]",
-            "Liền sau 999: [ ... ]",
-            "[ ... ] ; 2024 ; [ ... ]"
+            "2026 [ ? ] 2025",
+            "1999 [ ? ] 10000",
+            "Liền trước 2026 = ?",
+            "Liền sau 1999 = ?"
           ],
-          "analysis": "100 - 1 = 99. 999 + 1 = 1000. Ba số: 2023, 2024, 2025.",
-          "solution_a": "a) Số liền trước 100 là 99; Liền sau 999 là 1000.",
-          "solution_b": "b) Ba số là: 2023 ; 2024 ; 2025.",
-          "voice_intro": "Ví dụ 1 rèn luyện tìm số liền trước và liền sau. 45 giây bắt đầu!",
-          "voice_sol": "Liền trước của 100 là 99. Liền sau 999 là 1000. Ba số liên tiếp là 2023, 2024, 2025."
+          "analysis": "Áp dụng quy tắc so sánh số chữ số, so sánh từ hàng cao nhất và công thức a - 1, a + 1.",
+          "solution_a": "2026 > 2025 (cùng 4 chữ số, hàng đơn vị 6 > 5) ; 1999 < 10000 (4 chữ số < 5 chữ số).",
+          "solution_b": "Số liền trước của 2026 là 2026 - 1 = 2025 ; Số liền sau của 1999 là 1999 + 1 = 2000.",
+          "intro_script": "Bây giờ, chúng ta cùng đến với Phần 3: Ba ví dụ minh họa và tự rèn luyện. Ví dụ 1 ở mức nhận biết: Cho các số tự nhiên 2026, 2025, 1999 và 10000. Câu a: Điền dấu thích hợp giữa 2026 và 2025; giữa 1999 và 10000. Câu b: Tìm số liền trước của 2026 và số liền sau của 1999. Các em có 45 giây đếm ngược để suy nghĩ và ghi đáp án ra nháp trước khi Thầy chữa bài nhé!",
+          "sol_script": "Đã hết thời gian 45 giây! Thầy khen ngợi các em đã rất tập trung làm bài! Hãy cùng đối chiếu đáp án chi tiết của Thầy: Ở câu a: 2026 lớn hơn 2025 vì cùng có 4 chữ số nhưng hàng đơn vị 6 lớn hơn 5. 1999 nhỏ hơn 10000 vì số 1999 có 4 chữ số, trong khi 10000 có tới 5 chữ số. Ở câu b: Muốn tìm số liền trước, ta bớt đi 1 đơn vị: 2026 trừ 1 bằng 2025. Muốn tìm số liền sau, ta cộng thêm 1 đơn vị: 1999 cộng 1 bằng 2000. Bạn nào làm đúng cả hai ý thì tự thưởng cho mình một tràng pháo tay nhé!"
         },
         {
           "badge": "VÍ DỤ 2 (Mức Thông Hiểu)",
-          "head": "VIẾT TẬP HỢP THEO ĐIỀU KIỆN",
-          "lead": "Đề bài: Cho tập hợp A = { x ∈ ℕ | 15 ≤ x < 21 }.",
-          "question_a": "a) Liệt kê các phần tử của tập hợp A.",
-          "question_b": "b) Sắp xếp các phần tử của A theo thứ tự giảm dần.",
+          "head": "VIẾT TẬP HỢP THEO BẤT ĐẲNG THỨC KÉP VÀ BIỂU DIỄN TIA SỐ",
+          "lead": "Cho tập hợp A các số tự nhiên x thỏa mãn: 14 <= x < 19.",
+          "question_a": "a) Viết tập hợp A bằng cách liệt kê tất cả các phần tử của tập hợp",
+          "question_b": "b) Trong các phần tử của A, số nào là số nhỏ nhất? Số nào là số lớn nhất?",
           "blank_items": [
-            "A = { [ ... ] }",
-            "Giảm dần: [ ... ]"
+            "A = { 14; 15; ... ; ? }",
+            "Số nhỏ nhất = ?",
+            "Số lớn nhất = ?"
           ],
-          "analysis": "x ≥ 15 lấy từ 15, x < 21 dừng ở 20. Giảm dần từ 20 về 15.",
-          "solution_a": "a) A = { 15; 16; 17; 18; 19; 20 }.",
-          "solution_b": "b) Giảm dần: 20 ; 19 ; 18 ; 17 ; 16 ; 15.",
-          "voice_intro": "Ví dụ 2 yêu cầu liệt kê tập hợp có điều kiện biên. 45 giây bắt đầu!",
-          "voice_sol": "A gồm các số từ 15 đến 20. Sắp xếp giảm dần từ 20 lùi về 15."
+          "analysis": "Dấu <= nghĩa là lấy cả giá trị đầu mút 14; dấu < nghĩa là không lấy giá trị 19 (x < 19).",
+          "solution_a": "Tập hợp A = {14; 15; 16; 17; 18} (lưu ý có lấy số 14 nhưng không lấy số 19).",
+          "solution_b": "Số nhỏ nhất trong tập hợp A là 14; số lớn nhất trong tập hợp A là 18.",
+          "intro_script": "Chúng ta tiếp tục với Ví dụ 2 ở mức thông hiểu: Cho tập hợp A gồm các số tự nhiên x thỏa mãn bất đẳng thức kép: 14 nhỏ hơn hoặc bằng x và x nhỏ hơn 19. Câu a: Hãy viết tập hợp A bằng phương pháp liệt kê các phần tử. Câu b: Chỉ ra phần tử nhỏ nhất và phần tử lớn nhất trong tập hợp A. 45 giây đếm ngược rèn luyện bắt đầu!",
+          "sol_script": "Hết giờ rồi các em ơi! Thầy rất tự hào vì rất nhiều bạn đã viết đúng tập hợp A! Lời giải chi tiết như sau: Bất đẳng thức 14 nhỏ hơn hoặc bằng x nghĩa là x có thể bằng 14, nên 14 là phần tử đầu tiên. Điều kiện x nhỏ hơn 19 nghĩa là x chỉ được nhận giá trị tối đa là 18, không lấy số 19! Do đó, tập hợp A gồm các phần tử: 14, 15, 16, 17 và 18. Từ đó, phần tử nhỏ nhất của A là 14, và phần tử lớn nhất của A là 18. Các em ghi nhớ thật kỹ cách xử lý dấu nhỏ hơn hoặc bằng nhé!"
         },
         {
-          "badge": "VÍ DỤ 3 (Mức Vận Dụng)",
-          "head": "SO SÁNH TÍCH HAI SỐ",
-          "lead": "Đề bài: Điền dấu thích hợp (<, =, >) vào ô trống:",
-          "question_a": "a) 2024 × 2026 [ ... ] 2025 × 2025",
-          "question_b": "b) Giải thích ngắn gọn cách suy luận.",
+          "badge": "VÍ DỤ 3 (Mức Vận Dụng Thực Tế)",
+          "head": "BÀI TOÁN XẾP HẠNG DOANH THU CỬA HÀNG TIỆN LỢI",
+          "lead": "Doanh thu 4 tuần của một cửa hàng sách lần lượt là (đơn vị: triệu đồng):",
+          "question_a": "Tuần 1: 108 triệu; Tuần 2: 95 triệu; Tuần 3: 120 triệu; Tuần 4: 115 triệu.",
+          "question_b": "a) Sắp xếp doanh thu theo thứ tự tăng dần.  b) Tuần nào có doanh thu cao nhất?",
           "blank_items": [
-            "Dấu: [ ... ]",
-            "Lý do: [ ... ]"
+            "Thứ tự tăng dần: ...",
+            "Doanh thu cao nhất: Tuần ?"
           ],
-          "analysis": "2024 × 2026 = (2025 - 1)(2025 + 1) = 2025² - 1 < 2025².",
-          "solution_a": "a) 2024 × 2026 < 2025 × 2025.",
-          "solution_b": "b) Tích đạt cực đại khi hai thừa số bằng nhau.",
-          "voice_intro": "Ví dụ 3 là bài toán so sánh thông minh. 45 giây suy luận bắt đầu!",
-          "voice_sol": "2024 nhân 2026 bằng 2025 bình phương trừ 1, do đó nó nhỏ hơn 2025 bình phương!"
+          "analysis": "Áp dụng quy tắc so sánh số có 2 và 3 chữ số, dùng tính chất bắc cầu: 95 < 108 < 115 < 120.",
+          "solution_a": "Thứ tự doanh thu tăng dần là: 95 triệu < 108 triệu < 115 triệu < 120 triệu (Tuần 2 < Tuần 1 < Tuần 4 < Tuần 3).",
+          "solution_b": "Tuần có doanh thu cao nhất là Tuần 3 với 120 triệu đồng; thấp nhất là Tuần 2 với 95 triệu đồng.",
+          "intro_script": "Bây giờ là Ví dụ 3 ở mức vận dụng thực tế: Doanh thu 4 tuần đầu năm của một cửa hàng sách lần lượt là: Tuần 1 đạt 108 triệu đồng; Tuần 2 đạt 95 triệu đồng; Tuần 3 đạt 120 triệu đồng; và Tuần 4 đạt 115 triệu đồng. Câu a: Hãy sắp xếp các tuần theo thứ tự doanh thu tăng dần. Câu b: Tuần nào đạt doanh thu cao nhất và tuần nào đạt doanh thu thấp nhất? Đồng hồ đếm ngược 45 giây chính thức bắt đầu!",
+          "sol_script": "Chúc mừng các em đã xuất sắc hoàn thành ví dụ vận dụng số 3! Thầy chữa bài cặn kẽ như sau: Trước hết, ta so sánh các con số: 95 có 2 chữ số nên chắc chắn nhỏ nhất. Trong 3 số có 3 chữ số là 108, 115 và 120, chúng đều có chữ số hàng trăm là 1. So sánh hàng chục: 0 nhỏ hơn 1, 1 nhỏ hơn 2, nên ta có: 108 nhỏ hơn 115, và 115 nhỏ hơn 120. Vậy dãy thứ tự tăng dần là: 95 triệu, 108 triệu, 115 triệu, 120 triệu. Tương ứng: Tuần 2, Tuần 1, Tuần 4 và Tuần 3. Kết luận: Tuần 3 có doanh thu cao nhất đạt 120 triệu đồng, và Tuần 2 có doanh thu thấp nhất đạt 95 triệu đồng."
         }
       ]
     },
     "part4": {
-      "title": "Phần 4: Lỗi Sai Kinh Điển Cần Tránh",
       "traps": [
         {
-          "heading": "LỖI SAI 1: BỎ QUÊN NGHIỆM BIÊN CÓ DẤU BẰNG",
-          "bad": "Sai: x ≤ 5 mà chỉ lấy {0, 1, 2, 3, 4}",
-          "good": "Đúng: x ≤ 5 phải lấy cả số 5: {0, 1, 2, 3, 4, 5}",
-          "note": "Ký hiệu ≤ bao gồm cả trường hợp bằng.",
-          "voice": "Lỗi sai phổ biến là quên nghiệm bằng khi gặp dấu nhỏ hơn hoặc bằng năm!"
+          "name": "BẪY 1: TÌM SỐ LIỀN TRƯỚC CỦA SỐ 0",
+          "wrong": "Cho rằng số liền trước của 0 là -1 hoặc khẳng định số 0 có số liền trước",
+          "reason": "Trong tập số tự nhiên N = {0; 1; 2; ...}, số 0 là phần tử nhỏ nhất đứng đầu tia số",
+          "correct": "Khẳng định chuẩn xác: Số 0 KHÔNG CÓ số liền trước trong tập hợp các số tự nhiên N",
+          "voice_script": "Phần 4: Cảnh báo các bẫy sai lầm phổ biến trong đề thi. Bẫy số 1: Tìm số liền trước của số không. Rất nhiều bạn học sinh khi gặp câu hỏi này vội vàng lấy 0 trừ 1 bằng âm 1. Thầy lưu ý: Ở thời điểm học Chương 1, chúng ta đang xét hoàn toàn trong tập số tự nhiên N bắt đầu từ số 0. Vì số 0 là số tự nhiên nhỏ nhất nên số 0 hoàn toàn không có số liền trước trong tập N các em nhé!"
         },
         {
-          "heading": "LỖI SAI 2: NGHĨ RẰNG 0 CÓ SỐ LIỀN TRƯỚC TRONG N",
-          "bad": "Sai: Số liền trước của 0 là -1 trong N",
-          "good": "Đúng: Trong N, 0 không có số liền trước",
-          "note": "0 là số tự nhiên nhỏ nhất.",
-          "voice": "Trong tập số tự nhiên N, số không là nhỏ nhất và không có số liền trước các em nhé!"
+          "name": "BẪY 2: HIỂU SAI KÝ HIỆU NHỎ HƠN HOẶC BẰNG (<=)",
+          "wrong": "Cho rằng số a <= b bắt buộc phải vừa nhỏ hơn vừa bằng b (vô lý)",
+          "reason": "Ký hiệu <= mang ý nghĩa quan hệ tuyển logic: hoặc là a < b, HOẶC là a = b",
+          "correct": "Chỉ cần một trong hai điều kiện xảy ra thì khẳng định a <= b là hoàn toàn đúng",
+          "voice_script": "Bẫy số 2: Hiểu sai ký hiệu nhỏ hơn hoặc bằng. Một số bạn thắc mắc: làm sao một số vừa nhỏ hơn lại vừa bằng số khác được? Các em hãy nhớ rằng chữ hoặc ở đây nghĩa là chỉ cần thỏa mãn một trong hai trường hợp. Chẳng hạn, viết 5 nhỏ hơn hoặc bằng 5 là hoàn toàn đúng vì 5 bằng 5. Hay viết 3 nhỏ hơn hoặc bằng 5 cũng hoàn toàn đúng vì 3 nhỏ hơn 5."
+        },
+        {
+          "name": "BẪY 3: QUÊN ĐẾM SỐ CHỮ SỐ KHI SO SÁNH",
+          "wrong": "So sánh 9999 và 10001 lại vội kết luận 9999 > 10001 vì thấy chữ số 9 > 1",
+          "reason": "Chưa thực hiện Bước 1: Đếm số chữ số mà đã vội vàng so sánh chữ số hàng đầu",
+          "correct": "Luôn đếm số chữ số trước: 9999 có 4 chữ số, 10001 có 5 chữ số nên 9999 < 10001",
+          "voice_script": "Bẫy số 3: Quên đếm số chữ số trước khi so sánh. Đây là lỗi sai cực kỳ kinh điển trong các bài kiểm tra trắc nghiệm nhanh. Khi nhìn vào hai số 9999 và 10001, nhiều bạn nhìn thấy số 9 to hơn số 1 liền vội khoanh 9999 lớn hơn. Đó là sai lầm tai hại! Các em phải luôn nhớ nguyên tắc vàng: Đếm số chữ số trước. 9999 chỉ có 4 chữ số, trong khi 10001 có tới 5 chữ số, nên 9999 chắc chắn phải nhỏ hơn 10001!"
+        },
+        {
+          "name": "BẪY 4: BỎ SÓT HOẶC THỪA ĐẦU MÚT TRONG BẤT ĐẲNG THỨC KÉP",
+          "wrong": "Liệt kê x trong điều kiện a <= x < b nhưng lại bỏ quên a hoặc lấy luôn cả b",
+          "reason": "Không phân biệt rạch ròi giữa dấu có gạch dưới (<=, lấy đầu mút) và dấu không có gạch (<, bỏ đầu mút)",
+          "correct": "Quy tắc: Có dấu bằng (=) thì LẤY giá trị đó; Không có dấu bằng thì BỎ QUA giá trị đó",
+          "voice_script": "Bẫy số 4: Bỏ sót hoặc lấy thừa đầu mút trong bất đẳng thức kép. Khi đề bài cho a nhỏ hơn hoặc bằng x và x nhỏ hơn b: Các em hãy nhớ câu thần chú của Thầy Thuận: Có dấu bằng ở đâu thì LẤY số ở đó; Không có dấu bằng ở đâu thì DỨT KHOÁT BỎ số ở đó. Ghi nhớ điều này, các em sẽ lấy trọn vẹn điểm mười trong mọi bài kiểm tra!"
         }
       ]
     },
     "part5": {
-      "title": "Phần 5: Sơ Đồ Tư Duy & Tổng Kết Củng Cố",
-      "summary_nodes": [
-        "1. Tia số: Gốc 0, chiều từ trái sang phải tăng dần.",
-        "2. So sánh: Điểm bên trái nhỏ hơn bên phải, tính bắc cầu.",
-        "3. Số liền trước n - 1, số liền sau n + 1."
+      "mindmap_nodes": [
+        "1. TIA SỐ: Gốc O (số 0), chiều từ trái sang phải là chiều tăng dần của số tự nhiên",
+        "2. SO SÁNH: Điểm bên trái biểu diễn số nhỏ hơn; Số nhiều chữ số hơn thì lớn hơn",
+        "3. KÝ HIỆU: <= (nhỏ hơn hoặc bằng); >= (lớn hơn hoặc bằng); Tính chất bắc cầu",
+        "4. LIỀN TRƯỚC & SAU: Hơn kém nhau 1 đơn vị; Số 0 không có số liền trước; Không có số lớn nhất"
       ],
       "homework": [
-        "• Bài 1.13, 1.14, 1.15 SGK Toán 6.",
-        "• Biểu diễn 5 số tự nhiên lẻ đầu tiên trên tia số."
+        "1. Ôn tập toàn bộ lý thuyết về tia số, số liền trước, liền sau và quy tắc so sánh số",
+        "2. Hoàn thành bài tập 1.13 đến 1.16 trong SGK Toán 6 Kết nối tri thức trang 14 - 15",
+        "3. Luyện tập bộ đề trắc nghiệm và tự luận trực tuyến trên hệ thống Học Toán Cùng Thầy Thuận",
+        "4. Chuẩn bị trước nội dung Bài 4: Phép cộng và phép trừ số tự nhiên"
       ],
-      "voice": "Hôm nay chúng ta đã nắm vững thứ tự và so sánh số tự nhiên. Chúc các em học tốt và hẹn gặp lại ở bài học sau!"
+      "voice_script_mindmap": "Phần 5: Sơ đồ tư duy tổng kết và hướng dẫn tự học. Trên màn hình là sơ đồ tư duy hệ thống hóa toàn bộ kiến thức của Bài 3: Gồm 4 nhánh chính: Nhánh 1: Tia số gốc O với chiều tăng dần về bên phải. Nhánh 2: Quy tắc so sánh dựa trên số chữ số và thứ tự các hàng từ trái sang phải. Nhánh 3: Ký hiệu nhỏ hơn hoặc bằng, lớn hơn hoặc bằng và tính chất bắc cầu. Nhánh 4: Bản chất của số liền trước, liền sau và điểm đặc biệt của số 0.",
+      "voice_script_homework": "Trước khi kết thúc tiết học tuyệt vời ngày hôm nay, Thầy dặn dò các em tự học tại nhà: Một là, xem lại video và vẽ lại sơ đồ tư duy vào vở. Hai là, làm đầy đủ các bài tập từ 1.13 đến 1.16 trong sách giáo khoa trang 14 và 15. Ba là, tự giác luyện đề trắc nghiệm online trên web Học Toán Cùng Thầy Thuận để rèn phản xạ. Và bốn là, đọc trước Bài 4: Phép cộng và phép trừ số tự nhiên. Thầy chúc các em luôn học tập chăm chỉ, tự tin và đạt nhiều điểm 10 môn Toán! Hẹn gặp lại các em trong bài học tiếp theo!"
     }
   },
   {

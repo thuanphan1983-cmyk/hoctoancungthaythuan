@@ -35,7 +35,7 @@ DIST_VIDEOS = os.path.join(ROOT_DIR, "dist", "videos")
 
 sys.path.append(PIPELINE_DIR)
 from voiceover_engine_batch import generate_lesson_audio
-from generator_engine import generate_lesson_package
+from master_lesson_generator import generate_lesson_package
 from scripts.update_curriculum import update_curriculum
 
 

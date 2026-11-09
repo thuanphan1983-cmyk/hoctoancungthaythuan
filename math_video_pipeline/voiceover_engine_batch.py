@@ -100,26 +100,30 @@ def split_text_into_subsentences(text: str, max_chars: int = 180) -> list:
     return chunks
 
 
-async def generate_chunk_audio(chunk_text: str, output_path: str, voice=DEFAULT_VOICE, rate=SPEECH_RATE) -> bool:
+async def generate_chunk_audio(chunk_text: str, output_path: str, voice=DEFAULT_VOICE) -> bool:
     if os.path.exists(output_path) and os.path.getsize(output_path) > 500:
         return True
 
-    for attempt in range(1, 4):
-        try:
-            communicate = edge_tts.Communicate(text=chunk_text, voice=voice, rate=rate)
-            await asyncio.wait_for(communicate.save(output_path), timeout=35.0)
-            if os.path.exists(output_path) and os.path.getsize(output_path) > 100:
-                await asyncio.sleep(0.4)
-                return True
-        except Exception:
-            await asyncio.sleep(1.0 * attempt)
+    clean_txt = chunk_text.replace(":", ", ").replace(";", ", ").strip()
+    if not clean_txt:
+        return False
 
-    # CLI fallback with explicit = flag to prevent argparse argument error
+    for attempt in range(1, 5):
+        try:
+            communicate = edge_tts.Communicate(text=clean_txt, voice=voice)
+            await asyncio.wait_for(communicate.save(output_path), timeout=30.0)
+            if os.path.exists(output_path) and os.path.getsize(output_path) > 200:
+                await asyncio.sleep(0.8)
+                return True
+        except Exception as e:
+            await asyncio.sleep(1.5 * attempt)
+
+    # CLI fallback
     try:
-        rate_arg = f"--rate={rate}" if rate else "--rate=+0%"
-        cmd = ["edge-tts", "--voice", voice, rate_arg, "--text", chunk_text, "--write-media", output_path]
-        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=40)
-        if res.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > 100:
+        cmd = ["edge-tts", "--voice", voice, "--text", clean_txt, "--write-media", output_path]
+        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=35)
+        if res.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > 200:
+            await asyncio.sleep(0.8)
             return True
     except Exception:
         pass
@@ -130,26 +134,45 @@ async def generate_voice_for_text(text: str, output_path: str, voice=DEFAULT_VOI
     if os.path.exists(output_path) and os.path.getsize(output_path) > 1000:
         return output_path
 
-    chunks = split_text_into_subsentences(text, max_chars=180)
+    chunks = split_text_into_subsentences(text, max_chars=220)
     temp_dir = tempfile.mkdtemp(prefix="tts_parts_")
     part_files = []
     for idx, c in enumerate(chunks):
         p_path = os.path.join(temp_dir, f"part_{idx:03d}.mp3")
-        ok = await generate_chunk_audio(c, p_path, voice=voice, rate=rate)
-        if not ok:
-            await generate_chunk_audio(c, p_path, voice=voice, rate=None)
-        part_files.append(p_path)
+        ok = await generate_chunk_audio(c, p_path, voice=voice)
+        if ok and os.path.exists(p_path) and os.path.getsize(p_path) > 200:
+            part_files.append(p_path)
 
-    list_file = os.path.join(temp_dir, "list.txt")
-    with open(list_file, "w", encoding="utf-8") as f:
-        for p in part_files:
-            safe_p = p.replace("\\", "/")
-            f.write(f"file '{safe_p}'\n")
+    if not part_files:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+        return output_path
 
+    raw_merged = os.path.join(temp_dir, "raw_merged.mp3")
+    if len(part_files) == 1:
+        shutil.copy2(part_files[0], raw_merged)
+    else:
+        list_file = os.path.join(temp_dir, "list.txt")
+        with open(list_file, "w", encoding="utf-8") as f:
+            for p in part_files:
+                safe_p = p.replace("\\", "/")
+                f.write(f"file '{safe_p}'\n")
+        cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_file, "-c", "copy", raw_merged]
+        subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+
+    # Áp dụng atempo=0.82 để làm chậm đúng -18% chuẩn sư phạm ấm áp
     if os.path.exists(output_path):
         os.remove(output_path)
-    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_file, "-c", "copy", output_path]
-    subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+    cmd_slow = [
+        "ffmpeg", "-y",
+        "-i", raw_merged,
+        "-filter:a", "atempo=0.82",
+        "-c:a", "libmp3lame", "-b:a", "192k",
+        output_path
+    ]
+    res_slow = subprocess.run(cmd_slow, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if res_slow.returncode != 0:
+        shutil.copy2(raw_merged, output_path)
+
     shutil.rmtree(temp_dir, ignore_errors=True)
     return output_path
 
@@ -186,7 +209,8 @@ def generate_lesson_audio(lesson_data: dict, audio_dir: str) -> dict:
     p1_slides = lesson_data.get("part1", {}).get("slides", [])
     for idx, sl in enumerate(p1_slides):
         p_out = os.path.join(audio_dir, f"scene1_slide{idx+1}.mp3")
-        asyncio.run(generate_voice_for_text(sl["voice"], p_out))
+        v_txt = sl.get("voice") or sl.get("voice_script") or sl.get("sub", "")
+        asyncio.run(generate_voice_for_text(v_txt, p_out))
         dur = get_duration(p_out)
         s1_parts.append(p_out)
         timing_data[f"scene1_slide{idx+1}"] = dur
@@ -199,7 +223,8 @@ def generate_lesson_audio(lesson_data: dict, audio_dir: str) -> dict:
     p2_slides = lesson_data.get("part2", {}).get("slides", [])
     for idx, sl in enumerate(p2_slides):
         p_out = os.path.join(audio_dir, f"scene2_slide{idx+1}.mp3")
-        asyncio.run(generate_voice_for_text(sl["voice"], p_out))
+        v_txt = sl.get("voice") or sl.get("voice_script") or sl.get("sub", "")
+        asyncio.run(generate_voice_for_text(v_txt, p_out))
         dur = get_duration(p_out)
         s2_parts.append(p_out)
         timing_data[f"scene2_slide{idx+1}"] = dur
@@ -214,8 +239,10 @@ def generate_lesson_audio(lesson_data: dict, audio_dir: str) -> dict:
         i = idx + 1
         intro_out = os.path.join(audio_dir, f"scene3_ex{i}_intro.mp3")
         sol_out = os.path.join(audio_dir, f"scene3_ex{i}_sol.mp3")
-        asyncio.run(generate_voice_for_text(ex.get("voice_intro", "Các em hãy suy nghĩ trong 45 giây nhé!"), intro_out))
-        asyncio.run(generate_voice_for_text(ex.get("voice_sol", "Cùng đối chiếu lời giải chi tiết nhé!"), sol_out))
+        v_intro = ex.get("voice_intro") or ex.get("intro_script") or "Các em hãy suy nghĩ trong 45 giây nhé!"
+        v_sol = ex.get("voice_sol") or ex.get("sol_script") or "Cùng đối chiếu lời giải chi tiết nhé!"
+        asyncio.run(generate_voice_for_text(v_intro, intro_out))
+        asyncio.run(generate_voice_for_text(v_sol, sol_out))
         
         t_intro = get_duration(intro_out)
         t_sol = get_duration(sol_out)
@@ -234,6 +261,12 @@ def generate_lesson_audio(lesson_data: dict, audio_dir: str) -> dict:
     traps = lesson_data.get("part4", {}).get("traps", [])
     for idx, tr in enumerate(traps):
         p_out = os.path.join(audio_dir, f"scene4_trap{idx+1}.mp3")
+        v_trap = tr.get("voice") or tr.get("voice_script") or f"Lưu ý bẫy sai lầm: {tr.get('wrong', '')}"
+        asyncio.run(generate_voice_for_text(v_trap, p_out))
+        dur = get_duration(p_out)
+        s4_parts.append(p_out)
+        timing_data[f"scene4_trap{idx+1}"] = dur
+        p_out = os.path.join(audio_dir, f"scene4_trap{idx+1}.mp3")
         asyncio.run(generate_voice_for_text(tr.get("voice", "Chú ý không mắc phải lỗi sai này nhé!"), p_out))
         dur = get_duration(p_out)
         s4_parts.append(p_out)
@@ -242,10 +275,20 @@ def generate_lesson_audio(lesson_data: dict, audio_dir: str) -> dict:
     concat_audio_files(s4_parts, s4_full)
     timing_data["scene4"] = get_duration(s4_full)
 
-    # 6. Scene 5 (Sơ đồ tư duy & Tổng kết)
+    # 6. Scene 5 (Sơ đồ tư duy & Dặn dò BTVN)
+    p5_data = lesson_data.get("part5", {})
+    txt_mindmap = p5_data.get("voice_script_mindmap") or p5_data.get("voice_mindmap") or "Phần 5: Sơ đồ tư duy tổng kết toàn bộ kiến thức bài học."
+    txt_homework = p5_data.get("voice_script_homework") or p5_data.get("voice_homework") or p5_data.get("voice", "Bài học hôm nay đến đây là kết thúc, Thầy chúc các em học tốt và hẹn gặp lại các em!")
+
+    s5_sl1 = os.path.join(audio_dir, "scene5_slide1.mp3")
+    s5_sl2 = os.path.join(audio_dir, "scene5_slide2.mp3")
+    asyncio.run(generate_voice_for_text(txt_mindmap, s5_sl1))
+    asyncio.run(generate_voice_for_text(txt_homework, s5_sl2))
+    timing_data["scene5_slide1"] = get_duration(s5_sl1)
+    timing_data["scene5_slide2"] = get_duration(s5_sl2)
+
     s5_full = os.path.join(audio_dir, "scene5_full.mp3")
-    p5_voice = lesson_data.get("part5", {}).get("voice", "Bài học hôm nay đến đây là kết thúc, hẹn gặp lại các em!")
-    asyncio.run(generate_voice_for_text(p5_voice, s5_full))
+    concat_audio_files([s5_sl1, s5_sl2], s5_full)
     timing_data["scene5"] = get_duration(s5_full)
 
     # Lưu timing_data.json

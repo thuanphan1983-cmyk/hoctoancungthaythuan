@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+from mutagen.mp3 import MP3
 from manim import *
 
 if sys.platform == "win32":
@@ -10,7 +11,7 @@ if sys.platform == "win32":
     except Exception:
         pass
 
-COLOR_BG = "#0b1120"
+COLOR_BG = "#0f172a"
 COLOR_CARD = "#1e293b"
 COLOR_CYAN = "#38bdf8"
 COLOR_EMERALD = "#34d399"
@@ -19,24 +20,82 @@ COLOR_ROSE = "#f87171"
 COLOR_INDIGO = "#818cf8"
 COLOR_TEXT_MAIN = "#f8fafc"
 COLOR_TEXT_MUTED = "#94a3b8"
-FONT_FAMILY = "Arial"
+FONT_FAMILY = "Arial Unicode MS"
 MATH_FONT = "Segoe UI Symbol"
 
 def math_text(expr, font_size=24, color=COLOR_TEXT_MAIN, weight=BOLD):
     return Text(expr, font=MATH_FONT, font_size=font_size, weight=weight, color=color)
 
-def safe_text(txt, font=FONT_FAMILY, font_size=24, weight=NORMAL, color=COLOR_TEXT_MAIN, max_width=10.6):
-    t = Text(txt, font=font, font_size=font_size, weight=weight, color=color)
+def wrap_text(text: str, max_chars: int = 50) -> str:
+    """Tự động ngắt dòng thông minh không cắt ngang từ"""
+    words = text.split()
+    lines = []
+    cur_line = []
+    cur_len = 0
+    for w in words:
+        if cur_len + len(w) + (1 if cur_line else 0) <= max_chars:
+            cur_line.append(w)
+            cur_len += len(w) + (1 if len(cur_line) > 1 else 0)
+        else:
+            if cur_line:
+                lines.append(" ".join(cur_line))
+            cur_line = [w]
+            cur_len = len(w)
+    if cur_line:
+        lines.append(" ".join(cur_line))
+    return "\n".join(lines)
+
+def safe_text(txt, font=FONT_FAMILY, font_size=24, weight=NORMAL, color=COLOR_TEXT_MAIN, max_width=9.5, max_chars=50):
+    if len(txt) > max_chars and "\n" not in txt:
+        txt = wrap_text(txt, max_chars=max_chars)
+    t = Text(txt, font=font, font_size=font_size, weight=weight, color=color, line_spacing=0.85)
     if t.width > max_width:
         t.scale_to_fit_width(max_width)
     return t
+
+def fit_safe_box(content_mobject, max_width=9.6, max_height=4.8):
+    """Auto-scale helper: Giữ toàn bộ nội dung nằm an toàn ở phần bên phải mascot"""
+    if content_mobject.width > max_width:
+        content_mobject.scale(max_width / content_mobject.width)
+    if content_mobject.height > max_height:
+        content_mobject.scale(max_height / content_mobject.height)
+    return content_mobject
+
+def get_audio_duration(audio_path, fallback=10.0):
+    """Đo thời lượng thực tế của file âm thanh bằng mutagen chính xác từng mili-giây"""
+    if os.path.exists(audio_path):
+        try:
+            return float(MP3(audio_path).info.length)
+        except Exception:
+            pass
+    return fallback
+
+def get_mascot(name="thay_giang.png", height=2.45):
+    """Tìm và trả về ImageMobject mascot Chibi Thầy Thuận ở góc DL"""
+    candidates = [
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "assets", "mascot", name)),
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets", "mascot", name)),
+        os.path.abspath(os.path.join(os.getcwd(), "assets", "mascot", name)),
+        os.path.abspath(os.path.join(os.getcwd(), "math_video_pipeline", "assets", "mascot", name)),
+    ]
+    for p in candidates:
+        if os.path.exists(p):
+            try:
+                m = ImageMobject(p)
+                m.set_height(height)
+                m.to_corner(DL, buff=0.35)
+                return m
+            except Exception:
+                pass
+    return None
 
 
 class Scene5TongKet(Scene):
     def construct(self):
         self.camera.background_color = COLOR_BG
 
-        timing_file = os.path.join(os.path.dirname(__file__), "audio", "timing_data.json")
+        audio_dir = os.path.join(os.path.dirname(__file__), "audio")
+        timing_file = os.path.join(audio_dir, "timing_data.json")
         timing = {}
         if os.path.exists(timing_file):
             try:
@@ -45,37 +104,91 @@ class Scene5TongKet(Scene):
             except Exception:
                 pass
 
-        t_s5 = timing.get("scene5", 35.0)
-
-        header = Text("PHẦN 5: SƠ ĐỒ TƯ DUY TỔNG KẾT & DẶN DÒ", font=FONT_FAMILY, font_size=32, weight=BOLD, color=COLOR_INDIGO)
-        header_line = Line(LEFT * 5.6, RIGHT * 5.6, stroke_width=2, color=COLOR_INDIGO)
+        header = Text("PHẦN 5: SƠ ĐỒ TƯ DUY & HƯỚNG DẪN TỰ HỌC", font=FONT_FAMILY, font_size=30, weight=BOLD, color=COLOR_INDIGO)
+        header_line = Line(LEFT * 5.2, RIGHT * 5.2, stroke_width=2, color=COLOR_INDIGO)
         header_group = VGroup(header, header_line).arrange(DOWN, buff=0.15).move_to([0, 3.25, 0])
-        self.play(FadeIn(header_group, shift=DOWN), run_time=1.0)
+        self.play(FadeIn(header_group, shift=DOWN), run_time=0.8)
 
-        c_box = RoundedRectangle(corner_radius=0.3, width=11.8, height=5.2, stroke_color=COLOR_INDIGO, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to([0, -0.4, 0])
-        c_title = safe_text("TỔNG KẾT: THỨ TỰ TRONG TẬP HỢP CÁC SỐ TỰ NHIÊN", font_size=28, weight=BOLD, color=COLOR_INDIGO, max_width=10.6)
-        c_line = Line(LEFT * 4.5, RIGHT * 4.5, stroke_width=1, color=COLOR_INDIGO)
+        mascot = get_mascot("thay_giang.png")
+        if mascot:
+            self.play(FadeIn(mascot, shift=UP*0.2), run_time=0.6)
+
+        # SLIDE 1: SƠ ĐỒ TƯ DUY TỔNG KẾT
+        a_sl1 = os.path.join(audio_dir, "scene5_slide1.mp3")
+        t_sl1 = get_audio_duration(a_sl1, fallback=timing.get("scene5_slide1", 28.0))
+
+        # SLIDE 2: BÀI TẬP VỀ NHÀ & DẶN DÒ
+        a_sl2 = os.path.join(audio_dir, "scene5_slide2.mp3")
+        t_sl2 = get_audio_duration(a_sl2, fallback=timing.get("scene5_slide2", 22.0))
+
+        c1_title = safe_text("SƠ ĐỒ HỆ THỐNG HÓA KIẾN THỨC", font_size=26, weight=BOLD, color=COLOR_INDIGO, max_width=9.2)
+        c1_line = Line(LEFT * 4.2, RIGHT * 4.2, stroke_width=1, color=COLOR_INDIGO)
         n_items = []
-        n_items.append(safe_text("1. Tia số: Gốc 0, chiều từ trái sang phải tăng dần.", font_size=22, color=COLOR_TEXT_MAIN, max_width=10.4))
-        n_items.append(safe_text("2. So sánh: Điểm bên trái nhỏ hơn bên phải, tính bắc cầu.", font_size=22, color=COLOR_TEXT_MAIN, max_width=10.4))
-        n_items.append(safe_text("3. Số liền trước n - 1, số liền sau n + 1.", font_size=22, color=COLOR_TEXT_MAIN, max_width=10.4))
-        hw_items = []
-        hw_items.append(safe_text("• Bài 1.13, 1.14, 1.15 SGK Toán 6.", font_size=22, color=COLOR_AMBER, max_width=10.4))
-        hw_items.append(safe_text("• Biểu diễn 5 số tự nhiên lẻ đầu tiên trên tia số.", font_size=22, color=COLOR_AMBER, max_width=10.4))
+        n_items.append(safe_text("1. TIA SỐ: Gốc O (số 0), chiều từ trái sang phải là chiều tăng dần của số tự nhiên", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+        n_items.append(safe_text("2. SO SÁNH: Điểm bên trái biểu diễn số nhỏ hơn; Số nhiều chữ số hơn thì lớn hơn", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+        n_items.append(safe_text("3. KÝ HIỆU: <= (nhỏ hơn hoặc bằng); >= (lớn hơn hoặc bằng); Tính chất bắc cầu", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+        n_items.append(safe_text("4. LIỀN TRƯỚC & SAU: Hơn kém nhau 1 đơn vị; Số 0 không có số liền trước; Không có số lớn nhất", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
 
-        content = VGroup(c_title, c_line, *n_items, *hw_items).arrange(DOWN, aligned_edge=LEFT, buff=0.18)
-        content.move_to(c_box.get_center())
-        card = VGroup(c_box, content)
+        c1_content = VGroup(c1_title, c1_line, *n_items).arrange(DOWN, aligned_edge=LEFT, buff=0.20)
+        fit_safe_box(c1_content, max_width=9.4, max_height=4.6)
+        c1_content.move_to([0.65, -0.35, 0])
 
-        self.play(FadeIn(c_box, scale=0.96), run_time=0.8)
-        self.play(FadeIn(c_title, shift=DOWN*0.1), run_time=0.8)
+        c1_box = RoundedRectangle(corner_radius=0.3, width=c1_content.width + 0.6, height=c1_content.height + 0.6, stroke_color=COLOR_INDIGO, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to(c1_content.get_center())
+        card1 = VGroup(c1_box, c1_content)
+
+        anim_base1 = 0.5 + 0.5 + len(n_items) * 0.3
+        fade_dur = 0.5
+        avail_sl1 = max(0.2, t_sl1 - fade_dur)
+        scale1 = min(1.0, (avail_sl1 - 0.2) / max(0.1, anim_base1)) if anim_base1 > avail_sl1 else 1.0
+
+        self.play(FadeIn(c1_box, scale=0.96), run_time=0.5*scale1)
+        self.play(FadeIn(c1_title, shift=DOWN*0.1), run_time=0.5*scale1)
         for nitm in n_items:
-            self.play(FadeIn(nitm, shift=RIGHT*0.2), run_time=0.4)
-        for hitm in hw_items:
-            self.play(FadeIn(hitm, shift=RIGHT*0.2), run_time=0.4)
+            self.play(FadeIn(nitm, shift=RIGHT*0.2), run_time=0.3*scale1)
 
-        rem_s5 = max(1.0, t_s5 - (1.6 + (len(n_items) + len(hw_items)) * 0.4))
-        self.wait(rem_s5)
+        act1 = (0.5 + 0.5 + len(n_items) * 0.3) * scale1
+        rem_sl1 = max(0.15, avail_sl1 - act1)
+        self.wait(rem_sl1)
+        self.play(FadeOut(card1, shift=UP*0.25), run_time=fade_dur)
+
+        # SLIDE 2: DẶN DÒ TỰ HỌC & BÀI TẬP VỀ NHÀ (Thầy chuyển sang biểu cảm khen ngợi)
+        mascot_khen = get_mascot("thay_khen.png")
+        if mascot and mascot_khen:
+            self.play(ReplacementTransform(mascot, mascot_khen), run_time=0.6)
+            mascot = mascot_khen
+
+        c2_title = safe_text("HƯỚNG DẪN TỰ HỌC & DẶN DÒ VỀ NHÀ", font_size=25, weight=BOLD, color=COLOR_EMERALD, max_width=9.2)
+        c2_line = Line(LEFT * 4.2, RIGHT * 4.2, stroke_width=1, color=COLOR_EMERALD)
+        hw_items = []
+        hw_items.append(safe_text("1. Ôn tập toàn bộ lý thuyết về tia số, số liền trước, liền sau và quy tắc so sánh số", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+        hw_items.append(safe_text("2. Hoàn thành bài tập 1.13 đến 1.16 trong SGK Toán 6 Kết nối tri thức trang 14 - 15", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+        hw_items.append(safe_text("3. Luyện tập bộ đề trắc nghiệm và tự luận trực tuyến trên hệ thống Học Toán Cùng Thầy Thuận", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+        hw_items.append(safe_text("4. Chuẩn bị trước nội dung Bài 4: Phép cộng và phép trừ số tự nhiên", font_size=20, color=COLOR_TEXT_MAIN, max_width=9.2, max_chars=48))
+
+        bye = safe_text("CẢM ƠN CÁC EM ĐÃ CHÚ Ý LẮNG NGHE! CHÚC CÁC EM HỌC TỐT!", font_size=22, weight=BOLD, color=COLOR_CYAN, max_width=9.2)
+        c2_content = VGroup(c2_title, c2_line, *hw_items, Line(LEFT*4.2, RIGHT*4.2, stroke_width=1, color=COLOR_EMERALD), bye).arrange(DOWN, aligned_edge=LEFT, buff=0.20)
+        fit_safe_box(c2_content, max_width=9.4, max_height=4.6)
+        c2_content.move_to([0.65, -0.35, 0])
+
+        c2_box = RoundedRectangle(corner_radius=0.3, width=c2_content.width + 0.6, height=c2_content.height + 0.6, stroke_color=COLOR_EMERALD, stroke_width=2, fill_color=COLOR_CARD, fill_opacity=0.95).move_to(c2_content.get_center())
+        card2 = VGroup(c2_box, c2_content)
+
+        anim_base2 = 0.5 + 0.5 + len(hw_items) * 0.3 + 0.5
+        avail_sl2 = max(0.2, t_sl2)
+        scale2 = min(1.0, (avail_sl2 - 0.2) / max(0.1, anim_base2)) if anim_base2 > avail_sl2 else 1.0
+
+        self.play(FadeIn(c2_box, scale=0.96), run_time=0.5*scale2)
+        self.play(FadeIn(c2_title, shift=DOWN*0.1), run_time=0.5*scale2)
+        for hitm in hw_items:
+            self.play(FadeIn(hitm, shift=RIGHT*0.2), run_time=0.3*scale2)
+        self.play(FadeIn(bye, scale=1.03), run_time=0.5*scale2)
+
+        act2 = (0.5 + 0.5 + len(hw_items) * 0.3 + 0.5) * scale2
+        rem_sl2 = max(0.15, avail_sl2 - act2)
+        self.wait(rem_sl2)
+
+        if mascot:
+            self.play(FadeOut(mascot, shift=DOWN*0.2), run_time=0.5)
 
 if __name__ == "__main__":
     pass
