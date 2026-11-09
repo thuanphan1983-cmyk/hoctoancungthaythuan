@@ -3,15 +3,16 @@ SCENE 3: BA VÍ DỤ MINH HỌA & ĐỒNG HỒ ĐẾM NGƯỢC 45 GIÂY (BÀI 2 
 Bài 2: Cách ghi số tự nhiên (Toán 6 - Kết nối tri thức)
 Giáo viên: Thầy Thuấn Phan
 Quy chuẩn:
-- 3 ví dụ lớn phân cấp Nhận biết -> Thông hiểu -> Vận dụng cao
-- Đồng hồ đếm ngược nhỏ gọn, tinh tế ở GÓC TRÊN BÊN PHẢI (UR), không che đề bài
-- Đề bài và chỗ trống hiển thị nguyên vẹn trong suốt thời gian học sinh tự làm bài
-- Căn chỉnh an toàn độ rộng chữ <= 11.2, không tràn viền bo góc
+- Strict Safe-Zone & Auto-Scale: fit_safe_box, margins >= 1.2 x 0.8, zero overlap
+- Đồng hồ đếm ngược nhỏ gọn, tinh tế ở GÓC TRÊN BÊN PHẢI (UR), font Segoe UI (Zero Hex Box)
+- Đề bài và chỗ trống hiển thị nguyên vẹn 100% trong suốt thời gian học sinh tự làm bài
+- Audio-Visual Sync chính xác từng mili-giây (mutagen MP3 get_audio_duration)
 """
 
 import os
 import sys
 import json
+from mutagen.mp3 import MP3
 from manim import *
 
 if sys.platform == "win32":
@@ -32,6 +33,25 @@ COLOR_TEXT_MAIN = "#f8fafc"
 COLOR_TEXT_MUTED = "#94a3b8"
 
 FONT_FAMILY = "Arial Unicode MS"
+
+
+def fit_safe_box(content_mobject, max_width=11.0, max_height=5.2):
+    """Auto-scale helper: Giữ toàn bộ nội dung nằm tuyệt đối trong vùng an toàn"""
+    if content_mobject.width > max_width:
+        content_mobject.scale(max_width / content_mobject.width)
+    if content_mobject.height > max_height:
+        content_mobject.scale(max_height / content_mobject.height)
+    return content_mobject
+
+
+def get_audio_duration(audio_path, fallback=10.0):
+    """Đo thời lượng thực tế của file âm thanh bằng mutagen chính xác từng mili-giây"""
+    if os.path.exists(audio_path):
+        try:
+            return float(MP3(audio_path).info.length)
+        except Exception:
+            pass
+    return fallback
 
 
 def build_timer_widget(theme_color=COLOR_AMBER):
@@ -81,7 +101,8 @@ class Scene3ViDu(Scene):
     def construct(self):
         self.camera.background_color = COLOR_BG
 
-        timing_file = os.path.join(os.path.dirname(__file__), "audio", "timing_data.json")
+        audio_dir = os.path.join(os.path.dirname(__file__), "audio")
+        timing_file = os.path.join(audio_dir, "timing_data.json")
         timing = {}
         if os.path.exists(timing_file):
             try:
@@ -98,9 +119,13 @@ class Scene3ViDu(Scene):
         # =============================================================
         # VÍ DỤ 1 (Nhận biết): ĐỌC VÀ VIẾT SỐ LA MÃ
         # =============================================================
-        t_ex1_intro = timing.get("scene3_ex1_intro", 25.0)
-        t_ex1_timer = timing.get("scene3_ex1_timer", 45.0)
-        t_ex1_sol = timing.get("scene3_ex1_sol", 35.0)
+        a_ex1_in = os.path.join(audio_dir, "scene3_ex1_intro.mp3")
+        a_ex1_sol = os.path.join(audio_dir, "scene3_ex1_sol.mp3")
+        a_tick = os.path.join(audio_dir, "tick45.mp3")
+
+        t_ex1_intro = get_audio_duration(a_ex1_in, fallback=timing.get("scene3_ex1_intro", 22.92))
+        t_ex1_timer = get_audio_duration(a_tick, fallback=timing.get("scene3_ex1_timer", 45.0))
+        t_ex1_sol = get_audio_duration(a_ex1_sol, fallback=timing.get("scene3_ex1_sol", 40.39))
 
         c1_box = RoundedRectangle(
             corner_radius=0.3,
@@ -137,56 +162,61 @@ class Scene3ViDu(Scene):
         ).move_to(q1_blank_txt.get_center())
         q1_blank_grp = VGroup(q1_blank_box, q1_blank_txt)
 
-        prob1_grp = VGroup(badge1, head1, sep1, q1_lead, q1_a, q1_b, q1_blank_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.12)
+        prob1_grp = VGroup(badge1, head1, sep1, q1_lead, q1_a, q1_b, q1_blank_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.10)
+        fit_safe_box(prob1_grp, max_width=11.0, max_height=2.5)
         prob1_grp.move_to([0, 0.85, 0])
 
-        self.play(FadeIn(c1_box, scale=0.96), run_time=0.8)
-        self.play(FadeIn(badge1), FadeIn(head1), Create(sep1), run_time=0.8)
-        self.play(FadeIn(q1_lead, shift=RIGHT), FadeIn(q1_a, shift=RIGHT), run_time=1.0)
-        self.play(FadeIn(q1_b, shift=RIGHT), FadeIn(q1_blank_grp, scale=1.03), run_time=1.0)
+        self.play(FadeIn(c1_box, scale=0.96), run_time=0.6)
+        self.play(FadeIn(badge1), FadeIn(head1), Create(sep1), run_time=0.6)
+        self.play(FadeIn(q1_lead, shift=RIGHT), FadeIn(q1_a, shift=RIGHT), run_time=0.7)
+        self.play(FadeIn(q1_b, shift=RIGHT), FadeIn(q1_blank_grp, scale=1.03), run_time=0.7)
 
-        rem_ex1_intro = max(1.0, t_ex1_intro - 3.6)
+        rem_ex1_intro = max(0.15, t_ex1_intro - 2.6)
         self.wait(rem_ex1_intro)
 
         # Đồng hồ đếm ngược 45s
         t_badge1, vt1, t_txt1, pb_bg1, pb_fill1 = build_timer_widget(COLOR_AMBER)
         t_grp1 = VGroup(t_badge1, pb_bg1, pb_fill1, t_txt1)
-        self.play(FadeIn(t_grp1, shift=DOWN*0.5), run_time=0.8)
-        self.play(vt1.animate.set_value(0), run_time=t_ex1_timer - 0.8, rate_func=linear)
-        self.play(FadeOut(t_grp1, shift=UP*0.3), run_time=0.6)
+        self.play(FadeIn(t_grp1, shift=DOWN*0.3), run_time=0.6)
+        self.play(vt1.animate.set_value(0), run_time=max(1.0, t_ex1_timer - 1.2), rate_func=linear)
+        self.play(FadeOut(t_grp1, shift=UP*0.2), run_time=0.6)
 
-        # LỜI GIẢI CHI TIẾT VÍ DỤ 1
+        # LỜI GIẢI CHI TIẾT VÍ DỤ 1 (Nằm ở nửa dưới, không che đề bài)
+        sol1_head = Text("✓ HƯỚNG DẪN GIẢI CHI TIẾT:", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_EMERALD)
+        sol1_a = Text("• a) XIV: Mười bốn ; XIX: Mười chín ; XXIV: Hai mươi tư ; XXVIII: Hai mươi tám", font=FONT_FAMILY, font_size=19, color=COLOR_TEXT_MAIN)
+        sol1_b = Text("• b) Điền:  XIV = 14  ;  XIX = 19  ;  XXIV = 24  ;  XXVIII = 28", font=FONT_FAMILY, font_size=19, weight=BOLD, color=COLOR_CYAN)
+        sol1_tip = Text("💡 Nhận xét: Tách hàng chục trước, hàng đơn vị sau: XXIV = 20 + 4 = 24", font=FONT_FAMILY, font_size=18, color=COLOR_AMBER)
+
+        sol1_content = VGroup(sol1_head, sol1_a, sol1_b, sol1_tip).arrange(DOWN, aligned_edge=LEFT, buff=0.08)
+        fit_safe_box(sol1_content, max_width=11.0, max_height=1.85)
+        sol1_content.move_to([0, -1.95, 0])
+
         sol1_box = RoundedRectangle(
             corner_radius=0.2,
             width=11.6,
-            height=2.2,
+            height=sol1_content.height + 0.35,
             stroke_color=COLOR_EMERALD,
             stroke_width=2,
             fill_color="#0f172a",
             fill_opacity=0.95
-        ).move_to([0, -1.95, 0])
-
-        sol1_head = Text("✓ HƯỚNG DẪN GIẢI CHI TIẾT:", font=FONT_FAMILY, font_size=21, weight=BOLD, color=COLOR_EMERALD)
-        sol1_a = Text("• a) XIV: Mười bốn ; XIX: Mười chín ; XXIV: Hai mươi tư ; XXVIII: Hai mươi tám", font=FONT_FAMILY, font_size=20, color=COLOR_TEXT_MAIN)
-        sol1_b = Text("• b) Điền:  XIV = 14  ;  XIX = 19  ;  XXIV = 24  ;  XXVIII = 28", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_CYAN)
-        sol1_tip = Text("💡 Nhận xét: Tách hàng chục trước, hàng đơn vị sau: XXIV = 20 + 4 = 24", font=FONT_FAMILY, font_size=19, color=COLOR_AMBER)
-
-        sol1_content = VGroup(sol1_head, sol1_a, sol1_b, sol1_tip).arrange(DOWN, aligned_edge=LEFT, buff=0.1)
-        sol1_content.move_to(sol1_box.get_center())
+        ).move_to(sol1_content.get_center())
         sol1_grp = VGroup(sol1_box, sol1_content)
 
-        self.play(FadeIn(sol1_grp, shift=UP*0.3), run_time=0.8)
-        rem_ex1_sol = max(1.0, t_ex1_sol - 0.8)
+        self.play(FadeIn(sol1_grp, shift=UP*0.2), run_time=0.8)
+        rem_ex1_sol = max(0.15, t_ex1_sol - 1.4)
         self.wait(rem_ex1_sol)
 
-        self.play(FadeOut(sol1_grp), FadeOut(prob1_grp), FadeOut(c1_box), run_time=0.8)
+        self.play(FadeOut(sol1_grp), FadeOut(prob1_grp), FadeOut(c1_box), run_time=0.6)
 
         # =============================================================
         # VÍ DỤ 2 (Thông hiểu): CẤU TẠO SỐ HỆ THẬP PHÂN
         # =============================================================
-        t_ex2_intro = timing.get("scene3_ex2_intro", 25.0)
-        t_ex2_timer = timing.get("scene3_ex2_timer", 45.0)
-        t_ex2_sol = timing.get("scene3_ex2_sol", 35.0)
+        a_ex2_in = os.path.join(audio_dir, "scene3_ex2_intro.mp3")
+        a_ex2_sol = os.path.join(audio_dir, "scene3_ex2_sol.mp3")
+
+        t_ex2_intro = get_audio_duration(a_ex2_in, fallback=timing.get("scene3_ex2_intro", 23.78))
+        t_ex2_timer = get_audio_duration(a_tick, fallback=timing.get("scene3_ex2_timer", 45.0))
+        t_ex2_sol = get_audio_duration(a_ex2_sol, fallback=timing.get("scene3_ex2_sol", 46.66))
 
         c2_box = RoundedRectangle(
             corner_radius=0.3,
@@ -206,13 +236,13 @@ class Scene3ViDu(Scene):
         q2_a = Text("a) Nêu vị trí hàng và giá trị của chữ số 8 trong M, chữ số 2 trong N.", font=FONT_FAMILY, font_size=22, color=COLOR_TEXT_MAIN)
         q2_b = Text("b) Điền số thích hợp vào chỗ trống để viết dạng tổng giá trị chữ số:", font=FONT_FAMILY, font_size=22, color=COLOR_TEXT_MAIN)
 
-        b2_row1 = Text("4853 = 4 × [ ... ] + 8 × [ ... ] + 5 × [ ... ] + 3", font=FONT_FAMILY, font_size=22, weight=BOLD, color=COLOR_AMBER)
-        b2_row2 = Text("7029 = 7 × [ ... ] + 2 × [ ... ] + 9", font=FONT_FAMILY, font_size=22, weight=BOLD, color=COLOR_CYAN)
+        b2_row1 = Text("4853 = 4 × [ ... ] + 8 × [ ... ] + 5 × [ ... ] + 3", font=FONT_FAMILY, font_size=21, weight=BOLD, color=COLOR_AMBER)
+        b2_row2 = Text("7029 = 7 × [ ... ] + 2 × [ ... ] + 9", font=FONT_FAMILY, font_size=21, weight=BOLD, color=COLOR_CYAN)
         q2_blank_txt = VGroup(b2_row1, b2_row2).arrange(DOWN, aligned_edge=LEFT, buff=0.1)
         q2_blank_box = RoundedRectangle(
             corner_radius=0.15,
             width=q2_blank_txt.width + 0.5,
-            height=1.05,
+            height=0.95,
             stroke_color=COLOR_AMBER,
             stroke_width=1,
             fill_color="#0f172a",
@@ -220,56 +250,61 @@ class Scene3ViDu(Scene):
         ).move_to(q2_blank_txt.get_center())
         q2_blank_grp = VGroup(q2_blank_box, q2_blank_txt)
 
-        prob2_grp = VGroup(badge2, head2, sep2, q2_lead, q2_a, q2_b, q2_blank_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.11)
+        prob2_grp = VGroup(badge2, head2, sep2, q2_lead, q2_a, q2_b, q2_blank_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.10)
+        fit_safe_box(prob2_grp, max_width=11.0, max_height=2.5)
         prob2_grp.move_to([0, 0.85, 0])
 
-        self.play(FadeIn(c2_box, scale=0.96), run_time=0.8)
-        self.play(FadeIn(badge2), FadeIn(head2), Create(sep2), run_time=0.8)
-        self.play(FadeIn(q2_lead, shift=RIGHT), FadeIn(q2_a, shift=RIGHT), run_time=1.0)
-        self.play(FadeIn(q2_b, shift=RIGHT), FadeIn(q2_blank_grp, scale=1.03), run_time=1.0)
+        self.play(FadeIn(c2_box, scale=0.96), run_time=0.6)
+        self.play(FadeIn(badge2), FadeIn(head2), Create(sep2), run_time=0.6)
+        self.play(FadeIn(q2_lead, shift=RIGHT), FadeIn(q2_a, shift=RIGHT), run_time=0.7)
+        self.play(FadeIn(q2_b, shift=RIGHT), FadeIn(q2_blank_grp, scale=1.03), run_time=0.7)
 
-        rem_ex2_intro = max(1.0, t_ex2_intro - 3.6)
+        rem_ex2_intro = max(0.15, t_ex2_intro - 2.6)
         self.wait(rem_ex2_intro)
 
         # Đồng hồ đếm ngược 45s
         t_badge2, vt2, t_txt2, pb_bg2, pb_fill2 = build_timer_widget(COLOR_EMERALD)
         t_grp2 = VGroup(t_badge2, pb_bg2, pb_fill2, t_txt2)
-        self.play(FadeIn(t_grp2, shift=DOWN*0.5), run_time=0.8)
-        self.play(vt2.animate.set_value(0), run_time=t_ex2_timer - 0.8, rate_func=linear)
-        self.play(FadeOut(t_grp2, shift=UP*0.3), run_time=0.6)
+        self.play(FadeIn(t_grp2, shift=DOWN*0.3), run_time=0.6)
+        self.play(vt2.animate.set_value(0), run_time=max(1.0, t_ex2_timer - 1.2), rate_func=linear)
+        self.play(FadeOut(t_grp2, shift=UP*0.2), run_time=0.6)
 
         # LỜI GIẢI CHI TIẾT VÍ DỤ 2
+        sol2_head = Text("✓ HƯỚNG DẪN GIẢI CHI TIẾT:", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_EMERALD)
+        sol2_a = Text("• a) Số 4853: Chữ số 8 thuộc hàng trăm (giá trị 800). Số 7029: Chữ số 2 thuộc hàng chục (giá trị 20).", font=FONT_FAMILY, font_size=19, color=COLOR_TEXT_MAIN)
+        sol2_b = Text("• b) 4853 = 4 × 1000 + 8 × 100 + 5 × 10 + 3   ;   7029 = 7 × 1000 + 2 × 10 + 9", font=FONT_FAMILY, font_size=19, weight=BOLD, color=COLOR_CYAN)
+        sol2_tip = Text("💡 Nhận xét: Trong 7029, chữ số hàng trăm bằng 0 nên có thể viết gọn bỏ qua 0 × 100.", font=FONT_FAMILY, font_size=18, color=COLOR_AMBER)
+
+        sol2_content = VGroup(sol2_head, sol2_a, sol2_b, sol2_tip).arrange(DOWN, aligned_edge=LEFT, buff=0.08)
+        fit_safe_box(sol2_content, max_width=11.0, max_height=1.85)
+        sol2_content.move_to([0, -1.95, 0])
+
         sol2_box = RoundedRectangle(
             corner_radius=0.2,
             width=11.6,
-            height=2.2,
+            height=sol2_content.height + 0.35,
             stroke_color=COLOR_CYAN,
             stroke_width=2,
             fill_color="#0f172a",
             fill_opacity=0.95
-        ).move_to([0, -1.95, 0])
-
-        sol2_head = Text("✓ HƯỚNG DẪN GIẢI CHI TIẾT:", font=FONT_FAMILY, font_size=21, weight=BOLD, color=COLOR_EMERALD)
-        sol2_a = Text("• a) Số 4853: Chữ số 8 thuộc hàng trăm (giá trị 800). Số 7029: Chữ số 2 thuộc hàng chục (giá trị 20).", font=FONT_FAMILY, font_size=20, color=COLOR_TEXT_MAIN)
-        sol2_b = Text("• b) 4853 = 4 × 1000 + 8 × 100 + 5 × 10 + 3   ;   7029 = 7 × 1000 + 2 × 10 + 9", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_CYAN)
-        sol2_tip = Text("💡 Nhận xét: Trong 7029, chữ số hàng trăm bằng 0 nên có thể viết gọn bỏ qua 0 × 100.", font=FONT_FAMILY, font_size=19, color=COLOR_AMBER)
-
-        sol2_content = VGroup(sol2_head, sol2_a, sol2_b, sol2_tip).arrange(DOWN, aligned_edge=LEFT, buff=0.1)
-        sol2_content.move_to(sol2_box.get_center())
+        ).move_to(sol2_content.get_center())
         sol2_grp = VGroup(sol2_box, sol2_content)
 
-        self.play(FadeIn(sol2_grp, shift=UP*0.3), run_time=0.8)
-        rem_ex2_sol = max(1.0, t_ex2_sol - 0.8)
+        self.play(FadeIn(sol2_grp, shift=UP*0.2), run_time=0.8)
+        rem_ex2_sol = max(0.15, t_ex2_sol - 1.4)
         self.wait(rem_ex2_sol)
 
-        self.play(FadeOut(sol2_grp), FadeOut(prob2_grp), FadeOut(c2_box), run_time=0.8)
+        self.play(FadeOut(sol2_grp), FadeOut(prob2_grp), FadeOut(c2_box), run_time=0.6)
 
         # =============================================================
         # VÍ DỤ 3 (Vận dụng cao): TÌM SỐ TỰ NHIÊN THỎA MÃN ĐIỀU KIỆN
         # =============================================================
-        t_ex3_intro = timing.get("scene3_ex3_intro", 25.0)
-        t_ex3_timer = timing.get("scene3_ex3_timer", 45.0)
-        t_ex3_sol = timing.get("scene3_ex3_sol", 45.0)
+        a_ex3_in = os.path.join(audio_dir, "scene3_ex3_intro.mp3")
+        a_ex3_sol = os.path.join(audio_dir, "scene3_ex3_sol.mp3")
+
+        t_ex3_intro = get_audio_duration(a_ex3_in, fallback=timing.get("scene3_ex3_intro", 24.84))
+        t_ex3_timer = get_audio_duration(a_tick, fallback=timing.get("scene3_ex3_timer", 45.0))
+        t_ex3_sol = get_audio_duration(a_ex3_sol, fallback=timing.get("scene3_ex3_sol", 67.15))
 
         c3_box = RoundedRectangle(
             corner_radius=0.3,
@@ -295,7 +330,7 @@ class Scene3ViDu(Scene):
         q3_blank_box = RoundedRectangle(
             corner_radius=0.15,
             width=q3_blank_txt.width + 0.5,
-            height=1.05,
+            height=0.95,
             stroke_color=COLOR_AMBER,
             stroke_width=1,
             fill_color="#0f172a",
@@ -303,49 +338,51 @@ class Scene3ViDu(Scene):
         ).move_to(q3_blank_txt.get_center())
         q3_blank_grp = VGroup(q3_blank_box, q3_blank_txt)
 
-        prob3_grp = VGroup(badge3, head3, sep3, q3_lead, q3_a, q3_b, q3_blank_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.11)
+        prob3_grp = VGroup(badge3, head3, sep3, q3_lead, q3_a, q3_b, q3_blank_grp).arrange(DOWN, aligned_edge=LEFT, buff=0.10)
+        fit_safe_box(prob3_grp, max_width=11.0, max_height=2.5)
         prob3_grp.move_to([0, 0.85, 0])
 
-        self.play(FadeIn(c3_box, scale=0.96), run_time=0.8)
-        self.play(FadeIn(badge3), FadeIn(head3), Create(sep3), run_time=0.8)
-        self.play(FadeIn(q3_lead, shift=RIGHT), FadeIn(q3_a, shift=RIGHT), run_time=1.0)
-        self.play(FadeIn(q3_b, shift=RIGHT), FadeIn(q3_blank_grp, scale=1.03), run_time=1.0)
+        self.play(FadeIn(c3_box, scale=0.96), run_time=0.6)
+        self.play(FadeIn(badge3), FadeIn(head3), Create(sep3), run_time=0.6)
+        self.play(FadeIn(q3_lead, shift=RIGHT), FadeIn(q3_a, shift=RIGHT), run_time=0.7)
+        self.play(FadeIn(q3_b, shift=RIGHT), FadeIn(q3_blank_grp, scale=1.03), run_time=0.7)
 
-        rem_ex3_intro = max(1.0, t_ex3_intro - 3.6)
+        rem_ex3_intro = max(0.15, t_ex3_intro - 2.6)
         self.wait(rem_ex3_intro)
 
         # Đồng hồ đếm ngược 45s
         t_badge3, vt3, t_txt3, pb_bg3, pb_fill3 = build_timer_widget(COLOR_ROSE)
         t_grp3 = VGroup(t_badge3, pb_bg3, pb_fill3, t_txt3)
-        self.play(FadeIn(t_grp3, shift=DOWN*0.5), run_time=0.8)
-        self.play(vt3.animate.set_value(0), run_time=t_ex3_timer - 0.8, rate_func=linear)
-        self.play(FadeOut(t_grp3, shift=UP*0.3), run_time=0.6)
+        self.play(FadeIn(t_grp3, shift=DOWN*0.3), run_time=0.6)
+        self.play(vt3.animate.set_value(0), run_time=max(1.0, t_ex3_timer - 1.2), rate_func=linear)
+        self.play(FadeOut(t_grp3, shift=UP*0.2), run_time=0.6)
 
-        # LỜI GIẢI CHI TIẾT VÍ DỤ 3
+        # LỜI GIẢI CHI TIẾT VÍ DỤ 3 (Tối ưu vị trí và kích thước không đè chữ)
+        sol3_head = Text("✓ HƯỚNG DẪN GIẢI CHI TIẾT:", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_EMERALD)
+        sol3_a = Text("• Khai triển: ab - ba = (10a + b) - (10b + a) = 9(a - b) = 54  ⇒  a - b = 6", font=FONT_FAMILY, font_size=19, color=COLOR_TEXT_MAIN)
+        sol3_b = Text("• Vì a = 3b  ⇒  3b - b = 6  ⇒  2b = 6  ⇒  b = 3  và  a = 9.  Số cần tìm là 93.", font=FONT_FAMILY, font_size=19, weight=BOLD, color=COLOR_CYAN)
+        sol3_tip = Text("• Viết dạng La Mã: 93 = 90 + 3 = XC + III = XCIII.", font=FONT_FAMILY, font_size=19, weight=BOLD, color=COLOR_AMBER)
+
+        sol3_content = VGroup(sol3_head, sol3_a, sol3_b, sol3_tip).arrange(DOWN, aligned_edge=LEFT, buff=0.08)
+        fit_safe_box(sol3_content, max_width=11.0, max_height=1.85)
+        sol3_content.move_to([0, -1.95, 0])
+
         sol3_box = RoundedRectangle(
             corner_radius=0.2,
             width=11.6,
-            height=2.2,
+            height=sol3_content.height + 0.35,
             stroke_color=COLOR_EMERALD,
             stroke_width=2,
             fill_color="#0f172a",
             fill_opacity=0.95
-        ).move_to([0, -1.95, 0])
-
-        sol3_head = Text("✓ HƯỚNG DẪN GIẢI CHI TIẾT:", font=FONT_FAMILY, font_size=21, weight=BOLD, color=COLOR_EMERALD)
-        sol3_a = Text("• Khai triển: ab - ba = (10a + b) - (10b + a) = 9(a - b) = 54  ⇒  a - b = 6", font=FONT_FAMILY, font_size=20, color=COLOR_TEXT_MAIN)
-        sol3_b = Text("• Vì a = 3b  ⇒  3b - b = 6  ⇒  2b = 6  ⇒  b = 3  và  a = 9.  Số cần tìm là 93.", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_CYAN)
-        sol3_tip = Text("• Viết dạng La Mã: 93 = 90 + 3 = XC + III = XCIII.", font=FONT_FAMILY, font_size=20, weight=BOLD, color=COLOR_AMBER)
-
-        sol3_content = VGroup(sol3_head, sol3_a, sol3_b, sol3_tip).arrange(DOWN, aligned_edge=LEFT, buff=0.1)
-        sol3_content.move_to(sol3_box.get_center())
+        ).move_to(sol3_content.get_center())
         sol3_grp = VGroup(sol3_box, sol3_content)
 
-        self.play(FadeIn(sol3_grp, shift=UP*0.3), run_time=0.8)
-        rem_ex3_sol = max(1.0, t_ex3_sol - 0.8)
+        self.play(FadeIn(sol3_grp, shift=UP*0.2), run_time=0.8)
+        rem_ex3_sol = max(0.15, t_ex3_sol - 1.4)
         self.wait(rem_ex3_sol)
 
-        self.play(FadeOut(sol3_grp), FadeOut(prob3_grp), FadeOut(c3_box), run_time=0.8)
+        self.play(FadeOut(sol3_grp), FadeOut(prob3_grp), FadeOut(c3_box), run_time=0.6)
 
 
 if __name__ == "__main__":

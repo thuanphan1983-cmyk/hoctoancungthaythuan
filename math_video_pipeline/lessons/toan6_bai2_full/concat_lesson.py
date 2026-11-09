@@ -181,14 +181,16 @@ def concat_all_scenes(synced_files: list) -> str:
     print(f"   📁 Tệp đầu ra: {FINAL_OUTPUT}")
     print(f"   📦 Dung lượng: {final_size_mb:.2f} MB")
 
-    # Đo thời lượng thực tế
+    # Đo thời lượng thực tế của file MP4 bằng ffmpeg
+    dur_sec = 0.0
     try:
-        dur_sec = float(MP3(FINAL_OUTPUT).info.length)
+        res = subprocess.run(["ffmpeg", "-i", FINAL_OUTPUT], stderr=subprocess.PIPE, stdout=subprocess.PIPE, text=True, errors="replace")
+        import re
+        m = re.search(r"Duration:\s*(\d+):(\d+):([0-9.]+)", res.stderr)
+        if m:
+            dur_sec = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3))
     except Exception:
-        # Dùng ffprobe
-        probe_cmd = ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", FINAL_OUTPUT]
-        probe_res = subprocess.run(probe_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding="utf-8")
-        dur_sec = float(probe_res.stdout.strip()) if probe_res.stdout.strip() else 0.0
+        pass
 
     mins = int(dur_sec // 60)
     secs = int(dur_sec % 60)
